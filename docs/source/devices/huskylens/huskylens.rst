@@ -157,7 +157,8 @@ Here’s the corresponding DS Telemetry:
 HuskyLens デバイスの画面は 320 x 240 ピクセルで、中心位置は (160, 120) です。
 
 **おめでとうございます！** この時点で、HuskyLens デバイス、REV Hub への接続、およびサンプル **OpMode** プログラムを検証しました。
-**おめでとうございます！** この時点で、HuskyLens デバイス、REV Hub への接続、およびサンプル **OpMode** プログラムを検証しました。
+
+AprilTag の検出
 ------------------
 
 Now you can test whether the HuskyLens can detect the AprilTag’s
@@ -197,8 +198,7 @@ Choose any object, about 3 to 4 inches in size, that’s completely one
 color – any color. Here we use a flat square beverage coaster (LEGO!),
 with a uniform **red color**.
 
-検出に使用する予定の位置と照明にこのオブジェクトを配置
-for detection. This could be on a CENTERSTAGE Spike Mark, if available.
+検出に使用する予定の位置と照明にこのオブジェクトを配置します。これは、利用可能な場合、CENTERSTAGE Spike Mark 上に配置できます。
 
 .. figure:: images/240-red-color-ID.png
    :align: center

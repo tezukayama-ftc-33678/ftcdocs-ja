@@ -53,7 +53,8 @@ DS デバイス（スマートフォンまたは Driver Hub）は、独自の DS
 -  `RC Self Inspect 3 <#rc-self-inspect-3-appearing-on-rc-phone-paired-with-driver-hub>`__、Driver Hub とペアリングされた RC スマートフォンに表示
 -  `RC Self Inspect 4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-phone>`__、RC スマートフォンにペアリングされた Driver Hub に表示
 -  `RC Self Inspect 5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-control-hub>`__、Control Hub にペアリングされた DS スマートフォンに表示
-そのデバイスと組み合わせ。
+
+以下は、それぞれのデバイスと組み合わせに対応する自己点検画面の詳細です。
 
 DS Self Inspect 1, on DS phone paired to RC phone
 -------------------------------------------------
