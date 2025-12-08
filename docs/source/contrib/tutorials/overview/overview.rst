@@ -1,4 +1,4 @@
-Overview
+概要
 =========
 
 Below is an overview of the process of contributing to FTC Docs.

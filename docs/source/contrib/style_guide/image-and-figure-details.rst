@@ -1,4 +1,4 @@
-Image and Figure Details
+画像と図の詳細
 ========================
 
 This section has detailed information about images and figures and more advice about how to handle them in FTC Docs.
