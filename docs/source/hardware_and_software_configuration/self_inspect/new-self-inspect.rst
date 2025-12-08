@@ -26,40 +26,31 @@ With the robot and driver station turned on and connected the inspector may go t
 They will check both the **Driver Station Inspection Report** and the **Robot Controller Inspection Report**, both of which can be displayed from the DS.
 Many FTC events will scan the QR Code that is displayed on the RC Inspection Report.
 
-Version Information
+バージョン情報
 -------------------
 
-The Competition Manual lists the minimum recommended versions of device firmware, Android operating system, and FTC Apps.
-Teams may choose to run older versions without affecting their ROBOT inspection status.
-This avoids the situation of trying to upgrade a device at a competition at the last minute where a mistake might leave the robot inoperable.
+競技マニュアルには、デバイスファームウェア、Android オペレーティングシステム、FTC アプリの最小推奨バージョンがリストされています。チームは、ロボット検査ステータスに影響を与えることなく、古いバージョンを実行することを選択できます。これにより、競技会の直前にデバイスをアップグレードしようとして、ミスがロボットを動作不能にする状況を回避できます。
 
 .. note::
-  The images in this page show Version 10.3 or newer of the FTC apps.
-  This page only shows a Driver Hub paired with a Control Hub, there may be slight differences if a phone is used as a driver station or robot controller.
-  See the :doc:`old self-inspect<self-inspect>` page for screen images for app versions 10.2 or earlier.
+  このページの画像は、FTC アプリのバージョン 10.3 以降を示しています。このページは、**Control Hub** とペアリングされた **Driver Hub** のみを示しており、ドライバーステーションまたはロボットコントローラーとしてスマートフォンを使用する場合、わずかな違いがある可能性があります。アプリバージョン 10.2 以前の画面画像については、:doc:`旧自己点検 <self-inspect>` ページを参照してください。
 
-*FIRST* recommends but does not require that teams use the most recent versions of firmware, Android Operating System, and FTC Apps.
-Current versions have the latest bug fixes and enhancements. For example, version 1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi.
- 
-Each FTC season new major versions the FTC Apps are released. The INTO THE DEEP major version is 10, and the DECODE major version is 11.
-If the game has AprilTags, the SDK will include :doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` information for those tags that lets you determine the robot's position on the field.
-As the season progresses, minor releases will include bug fixes and some enhancements. e.g. 11.1, 11.2, etc.
-  
-Regardless of the versions selected, it is highly recommended that the installed ROBOT CONTROLLER
-App and DRIVER STATION App versions match major and minor values to ensure compatibility as not
-all software versions are compatible with each other.
+*FIRST* は、チームがファームウェア、Android オペレーティングシステム、FTC アプリの最新バージョンを使用することを推奨していますが、必須ではありません。現在のバージョンには、最新のバグ修正と機能強化があります。たとえば、**Control Hub Android OS** のバージョン 1.1.6 には、Wi-Fi に関連する修正があります。
 
-Teams may choose to run older versions without affecting their ROBOT inspection status. 
+各 FTC シーズンでは、FTC アプリの新しいメジャーバージョンがリリースされます。INTO THE DEEP のメジャーバージョンは 10 で、DECODE のメジャーバージョンは 11 です。ゲームに AprilTag がある場合、SDK にはそれらのタグの :doc:`ローカリゼーション <../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` 情報が含まれており、フィールド上のロボットの位置を判断できます。シーズンが進むにつれて、マイナーリリースにはバグ修正といくつかの機能強化が含まれます（例：11.1、11.2 など）。
+
+選択したバージョンに関係なく、インストールされている **ROBOT CONTROLLER** アプリと **DRIVER STATION** アプリのバージョンがメジャーおよびマイナー値で一致することを強く推奨します。すべてのソフトウェアバージョンが互いに互換性があるわけではないためです。
+
+チームは、ロボット検査ステータスに影響を与えることなく、古いバージョンを実行することを選択できます。
 
 .. caution::
-   Some FTC App versions have a different robot communication protocol and are unable to connect with each other.
+   一部の FTC アプリバージョンには異なるロボット通信プロトコルがあり、互いに接続できません。
    
-   FIELD STAFF will not be able to provide comprehensive support to teams with software older than the recommended version. 
+   フィールドスタッフは、推奨バージョンより古いソフトウェアを使用しているチームに包括的なサポートを提供できません。
 
-Driver Station Self Inspection Report
+Driver Station 自己点検レポート
 -------------------------------------
 
-The following is a screen shot of a DS Self Inspection Report with the Driver Hub rotated so that the screen is in portrait mode so all items on the report are visible on one screen without scrolling.
+次は、**Driver Hub** を回転させて画面をポートレートモードにし、レポートのすべてのアイテムがスクロールせずに1つの画面に表示されるようにした DS 自己点検レポートのスクリーンショットです。
 
 .. figure:: images/newDS.png
    :align: center

@@ -40,16 +40,14 @@
 
 |
 
-6. After the configuration file has been saved, touch the Android     
-back-arrow button to return to the main screen of the app.            
+6. 構成ファイルが保存されたら、Android の戻る矢印ボタンをタッチして、アプリのメイン画面に戻ります。
 
 .. image:: images/SavingConfigurationInformationNewStep6.png
    :align: center
 
 |
 
-7. Verify that the configuration file is the active configuration     
-file on the main DRIVER STATION screen.                               
+7. 構成ファイルがメイン **DRIVER STATION** 画面のアクティブな構成ファイルであることを確認します。                               
 
 .. image:: images/SavingConfigurationInformationNewStep7.png
    :align: center

@@ -33,26 +33,23 @@ Android スマートフォンを Expansion Hub に接続する手順
 
 |
 
-3. Plug the Type A end of the USB cable into the OTG adapter.         
+3. USB ケーブルの Type A 端を OTG アダプターに差し込みます。
 
 .. image:: images/ConfiguringHardwareStep3.jpg
    :align: center
 
 |
 
-4. Verify that your Robot Controller smartphone is powered on and     
-unlocked. Plug in the USB Micro OTG adapter into the OTG port of the  
-Robot Controller phone.                                               
+4. **Robot Controller** スマートフォンの電源がオンになっており、ロック解除されていることを確認します。USB Micro OTG アダプターを **Robot Controller** スマートフォンの OTG ポートに差し込みます。
 
 .. image:: images/ConfiguringHardwareStep4.jpg
    :align: center
 
 |
 
-Note that when the OTG adapter is plugged into the smartphone, the phone will detect the presence of the Expansion Hub and launch the Robot Controller app.
+OTG アダプターがスマートフォンに差し込まれると、スマートフォンは **Expansion Hub** の存在を検出し、**Robot Controller** アプリを起動することに注意してください。
 
-5. The first time you connect the Robot Controller smartphone to the  
-Expansion Hub, the Android operating system should prompt you to ask  
+5. 初めて **Robot Controller** スマートフォンを **Expansion Hub** に接続すると、Android オペレーティングシステムが次のように求めるプロンプトを表示します。  
 if it is OK to associate the newly detected USB device (which is the  
 Expansion Hub) with the Robot Controller app.                     
 

@@ -14,24 +14,21 @@
 
 |
 
-2. Use the dropdown control to select "Servo" as the servo type for   
-port #0.                                                              
+2. ドロップダウンコントロールを使用して、ポート #0 のサーボタイプとして「Servo」を選択します。
 
 .. image:: images/ConfiguringHardwareServoStep2.jpg
    :align: center
 
 |
 
-3. Use the touch pad to specify the name of the servo ("servoTest"    
-for this example) for port #0.                                        
+3. タッチパッドを使用して、ポート #0 のサーボの名前（この例では「servoTest」）を指定します。
 
 .. image:: images/ConfiguringHardwareServoStep3.jpg
    :align: center
 
 |
 
-4. Press the **Done** button to complete the servo configuration. The 
-app should return to the previous screen.                             
+4. **Done** ボタンを押して、サーボ構成を完了します。アプリは前の画面に戻るはずです。                             
 
 .. image:: images/ConfiguringHardwareServoStep4.jpg
    :align: center

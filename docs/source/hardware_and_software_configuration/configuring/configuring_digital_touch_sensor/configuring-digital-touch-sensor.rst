@@ -20,9 +20,9 @@
 
 |
 
-Notice that we are configuring the Touch Sensor on port #1 instead of port #0.  This is because when the REV Robotics Touch Sensor is connected to a digital port using a standard 4-wire JST sensor cable, it is the second digital pin that is connected. The first pin remains disconnected.
+ポート #0 ではなくポート #1 でタッチセンサーを構成していることに注意してください。これは、標準の 4 線 JST センサーケーブルを使用して **REV Robotics タッチセンサー**をデジタルポートに接続すると、2 番目のデジタルピンが接続されるためです。最初のピンは接続されたままです。
 
-3. Press the **Done** button to return to the previous screen.        
+3. **Done** ボタンを押して前の画面に戻ります。        
 
 .. image:: images/ConfiguringHardwareTouchNewStep3.jpg
    :align: center

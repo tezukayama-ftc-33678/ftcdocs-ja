@@ -8,35 +8,21 @@
 
 The advantage of using an external camera is that the camera can be
 mounted in a location that is convenient for vision-related tasks while
-the Android Robot Controller can be mounted where it is convenient for
-Robot Controller-related tasks.
+Android **Robot Controller** は、**Robot Controller** 関連のタスクに便利な場所に取り付けることができます。
 
-The disadvantage of using an external camera is there is additional
-complexity introduced with the USB-connected camera. An external camera
-adds costs and weight to a robot and it needs to be wired correctly to
-run properly.
+外部カメラを使用する欠点は、USB 接続カメラによって追加の複雑さが導入されることです。外部カメラは、ロボットにコストと重量を追加し、正しく動作するために正しく配線する必要があります。
 
-What type of External Camera can be Used?
+どのタイプの外部カメラを使用できますか？
 -----------------------------------------
 
-The system supports UVC cameras.
-Theoretically, if a camera is UVC compliant, then it should work with
-the system. However, there are a couple of recommended web cameras that
-have been tested with the *FIRST* Tech Challenge software and have been
-calibrated to work accurately with this software:
+システムは UVC カメラをサポートしています。理論的には、カメラが UVC 準拠であれば、システムで動作するはずです。ただし、*FIRST* Tech Challenge ソフトウェアでテストされ、このソフトウェアで正確に動作するようにキャリブレーションされた推奨ウェブカメラがいくつかあります。
 
 -  Logitech HD Webcam C310
 -  Logitech HD Pro Webcam C920
 
-There are notes on :doc:`other UVC webcams <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`
-that teams can use.
+チームが使用できる :doc:`その他の UVC ウェブカメラ <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>` に関する注記があります。
 
-Note that calibrating a UVC camera is an advanced task. Details on how
-to create a calibration file can be found in the comments of the
-*teamwebcamcalibrations.xml* file that is available as part of the
-ftc_app project folder (visit this
-`link <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__
-for an online copy of the file).
+UVC カメラのキャリブレーションは高度なタスクであることに注意してください。キャリブレーションファイルの作成方法の詳細は、ftc_app プロジェクトフォルダーの一部として利用可能な *teamwebcamcalibrations.xml* ファイルのコメントにあります（ファイルのオンラインコピーについては、この `リンク <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ にアクセスしてください）。
 
 REV Expansion Hub and Phone
 ---------------------------

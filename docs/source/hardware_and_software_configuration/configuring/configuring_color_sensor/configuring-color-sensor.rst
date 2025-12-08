@@ -6,28 +6,23 @@
 Configuring a Color Distance Sensor Instructions
 ------------------------------------------------
 
-1. Touch the words **I2C Bus 0** on the screen to launch the I2C      
-configuration screen for this I2C bus.                                
+1. 画面の **I2C Bus 0** という言葉をタッチして、この I2C バスの I2C 構成画面を起動します。
 
 .. image:: images/ConfiguringHardwareColorDistanceStep1.jpg
    :align: center
 
 |
 
-The Control Hub or Expansion Hub has four independent I2C buses, labeled "0" through "3".  In this example, since you connected the Color Sensor to the port labeled "0", it resides on I2C Bus 0.
+**Control Hub** または **Expansion Hub** には、「0」から「3」とラベル付けされた 4 つの独立した I2C バスがあります。この例では、カラーセンサーを「0」とラベル付けされたポートに接続したため、I2C バス 0 に配置されます。
 
-2. Look at the **I2C Bus 0** screen. There should already be a sensor 
-configured for this bus. The Control Hub or Expansion Hub has its own built-in       
-inertial measurement unit (IMU) sensor. This sensor can be used to    
-determine the orientation of a robot, as well as measure the          
-accelerations on a robot.                                             
+2. **I2C Bus 0** 画面を見てください。このバス用に既に構成されているセンサーがあるはずです。**Control Hub** または **Expansion Hub** には、独自の内蔵慣性測定ユニット（IMU）センサーがあります。このセンサーは、ロボットの方向を決定したり、ロボットの加速度を測定したりするために使用できます。
 
 .. image:: images/ConfiguringHardwareColorDistanceStep2.jpg
    :align: center
 
 |
 
-The built-in IMU is internally connected to I2C Bus 0 on each Control Hub or Expansion Hub.  Whenever you configure a Control Hub or Expansion Hub using the Robot Controller, the app automatically configures the IMU for I2C Bus 0. You will need to add another I2C device for this bus to be able to configure the color sensor.
+内蔵 IMU は、各 **Control Hub** または **Expansion Hub** の I2C バス 0 に内部的に接続されています。**Robot Controller** を使用して **Control Hub** または **Expansion Hub** を構成するたびに、アプリは I2C バス 0 の IMU を自動的に構成します。カラーセンサーを構成できるようにするには、このバス用に別の I2C デバイスを追加する必要があります。
 
 3. Press the **Add** button to add another I2C device to this bus.    
 

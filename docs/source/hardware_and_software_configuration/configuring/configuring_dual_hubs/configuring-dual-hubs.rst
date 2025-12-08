@@ -8,14 +8,12 @@ Expansion Hub の追加
 
 This document describes how to connect and configure an additional Expansion
 Hub for use in the FIRST Tech Challenge. Note that the FIRST Tech Challenge
-Competition Manual limits the maximum number of Control or Expansion Hubs on
-a single robot to two. 
+競技マニュアルは、単一のロボット上の **Control Hub** または **Expansion Hub** の最大数を 2 つに制限しています。
 
-Equipment Needed
+必要な機器
 ~~~~~~~~~~~~~~~~
 
-To follow along with the instructional steps in this document, you will
-need the following items:
+このドキュメントの手順に従うには、次のアイテムが必要です。
 
 .. list-table::
    :header-rows: 1

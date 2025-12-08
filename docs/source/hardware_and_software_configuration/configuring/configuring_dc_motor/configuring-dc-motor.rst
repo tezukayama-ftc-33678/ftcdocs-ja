@@ -29,8 +29,7 @@ DC モーターの構成手順
 
 |
 
-4. Press the **Done** button to complete the motor configuration. The 
-app should return to the previous screen.
+4. **Done** ボタンを押して、モーター構成を完了します。アプリは前の画面に戻るはずです。
 
 .. image:: images/ConfiguringHardwareMotorStep4.jpg
    :align: center

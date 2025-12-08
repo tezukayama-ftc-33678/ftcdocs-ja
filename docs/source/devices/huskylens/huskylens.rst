@@ -13,31 +13,20 @@
 
    DFRobot HuskyLens
 
-Basic support for this **vision sensor** was added to the FTC SDK
-version 9.0 in September 2023 with the CENTERSTAGE robot game kickoff.
+この**ビジョンセンサー**の基本サポートは、2023年9月の CENTERSTAGE ロボットゲームキックオフで FTC SDK バージョン 9.0 に追加されました。
 
-HuskyLens uses **on-board programming** to perform AI-assisted learning,
-vision processing and recognition. It plugs into an **I2C sensor port**
-of a REV Control Hub or REV Expansion Hub.
+HuskyLens は**オンボードプログラミング**を使用して、AI 支援学習、ビジョン処理、認識を実行します。**REV Control Hub** または **REV Expansion Hub** の **I2C センサーポート**に接続します。
 
-HuskyLens is **not a USB webcam**, and **does not use** the FTC
-:ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>`
-software.
+HuskyLens は **USB ウェブカメラではなく**、FTC :ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>` ソフトウェアを**使用しません**。
 
-Electrical Connection
+電気接続
 ---------------------
 
-You will need a **custom adapter cable** to connect the HuskyLens to an
-I2C port on a REV Control Hub or Expansion Hub. The 4 wires/pins of the
-HuskyLens connector are not in the same order/position as the 4 pins on
-the REV Hub.
+HuskyLens を **REV Control Hub** または **Expansion Hub** の I2C ポートに接続するには、**カスタムアダプターケーブル**が必要です。HuskyLens コネクタの 4 本のワイヤー/ピンは、REV Hub の 4 本のピンと同じ順序/位置ではありません。
 
-Three of the wires have **the same color** as wires in the REV sensor
-cable. Your custom cable should connect **red to red**, **black to
-black**, and **blue to blue**. This leaves only the HuskyLens **green
-wire**; connect it to the REV **white wire**. Simple!
+3 本のワイヤーは、REV センサーケーブルのワイヤーと**同じ色**です。カスタムケーブルは、**赤を赤**に、**黒を黒**に、**青を青**に接続する必要があります。これにより、HuskyLens の**緑のワイヤー**のみが残ります。これを REV の**白いワイヤー**に接続します。簡単です！
 
-This tutorial does **not** cover the (many) ways to:
+このチュートリアルでは、次の（多くの）方法については説明して**いません**。
 
 -  modify an existing cable (change pin order in one connector), **OR**
 -  fabricate a custom cable, with:

@@ -23,29 +23,25 @@ Universal Serial Bus（USB）は、多くの種類の電子機器間でデータ
 
 USB 2.0 と USB 3.0 は、データ交換速度と電力供給に関連する USB 仕様を指します。
 
-USB Type-A and USB-C and USB Mini-B refer to the type of connector. 
+USB Type-A、USB-C、USB Mini-B は、コネクタのタイプを指します。
 
-- USB Type-A is a larger rectangular connector.
-- USB-C is a smaller oval connector.
-- USB Mini-B is a smaller rectangular connector with a beveled edge.
+- USB Type-A は、より大きな長方形のコネクタです。
+- USB-C は、より小さな楕円形のコネクタです。
+- USB Mini-B は、面取りされた端を持つより小さな長方形のコネクタです。
 
 USB 2.0
 ^^^^^^^
 
-This is a female USB Type-A port that implements USB 2.0 and can be used for connecting USB devices as allowed for in the Competition Manual.
+これは、USB 2.0 を実装する メス USB Type-A ポートであり、競技マニュアルで許可されている USB デバイスの接続に使用できます。
 
-.. warning:: An electrostatic discharge (ESD) event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
+.. warning:: Control Hub の USB 2.0 ポートでの静電気放電（ESD）イベントは、Wi-Fi 切断を引き起こす可能性があります。
 
-   The REV Control Hub has a 
-   `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
-   with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
-   Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
+   REV Control Hub には、USB 2.0 ポートに接続されたデバイスに関する `既知の ESD 問題 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_ があります。USB 2.0 ポートを使用すると、ESD が Control Hub の Wi-Fi チップに影響を与える可能性があります（Driver Hub との Wi-Fi 切断を引き起こします）。カメラなどの USB デバイスは、Control Hub の USB 3.0 ポートに接続してください。
 
 USB 3.0
 ^^^^^^^
 
-This is a female USB Type-A port that implements USB 3.0 and is primarily used for connecting USB video device class (UVC) cameras (webcams).
+これは、USB 3.0 を実装する メス USB Type-A ポートであり、主に USB ビデオデバイスクラス（UVC）カメラ（ウェブカメラ）の接続に使用されます。
 
 USB C
 ^^^^^
