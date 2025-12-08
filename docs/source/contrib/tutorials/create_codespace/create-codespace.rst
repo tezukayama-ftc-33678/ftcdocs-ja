@@ -1,4 +1,4 @@
-Creating a Codespace
+Codespace の作成
 =====================
 :bdg-success:`Repeat` :bdg-info:`Codespaces`
 

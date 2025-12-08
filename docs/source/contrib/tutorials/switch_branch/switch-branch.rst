@@ -1,4 +1,4 @@
-Switching Branches
+ブランチの切り替え
 ==================
 :bdg-success:`Repeat` :bdg-warning:`Local`
 

@@ -1,60 +1,61 @@
-Contribution Guidelines
+貢献ガイドライン
 =======================
 
-Contributors are the lifeblood of the project. We welcome contributions but remind everyone to 
-be a :doc:`Gracious Professional </gracious_professionalism/gp>`.
+.. note::
+   この章は主に上流の公式 FTC Docs への貢献について記述しています。
+   この日本語翻訳リポジトリへの貢献については、このガイドラインを参照しつつも、
+   リポジトリ上の翻訳ルール（TRANSLATION_GUIDE.md）を優先して参照してください。
 
-Creating an Issue
+貢献者はプロジェクトの生命線です。貢献を歓迎しますが、すべての方に 
+:doc:`Gracious Professional </gracious_professionalism/gp>` であることを思い出していただきたいと思います。
+
+Issue の作成
 ------------------
 
-Please start by creating an issue to describe the problem or the feature you would like.
-This allows for discussion to happen which may resolve the issue at that stage, or perhaps clarify the request and the work to be done.
+まず、問題や希望する機能を説明する Issue を作成してください。
+これにより、その段階で問題が解決するか、リクエストや実施すべき作業が明確になる可能性のある議論が可能になります。
 
-There are two types of issues: bugs and feature requests. A bug report is an issue that describes a problem with the 
-documentation. A feature request is an issue that describes a new feature that should be added to the documentation. 
+Issue には2つのタイプがあります：バグと機能リクエストです。バグレポートは、ドキュメントの問題を説明する Issue です。機能リクエストは、ドキュメントに追加すべき新機能を説明する Issue です。
 
-Before creating either make sure to check for duplicates. If you find a duplicate, comment on the issue and add your 
-input where possible. If possible we would love to see a pull request that fixes the issue. If you are unsure how to fix the issue 
-that is perfectly alright. 
+どちらを作成する場合も、必ず重複がないか確認してください。重複を見つけた場合は、その Issue にコメントし、可能な限り入力を追加してください。可能であれば、問題を修正するプルリクエストを見せていただけると嬉しいです。問題の修正方法がわからない場合は、それで問題ありません。 
 
-Bug Reports
+バグレポート
 -------------
 
-* A description of the bug
-* Expected behavior
-* Steps to reproduce the bug (If applicable)
-* Screenshots (If applicable)
+* バグの説明
+* 期待される動作
+* バグを再現する手順（該当する場合）
+* スクリーンショット（該当する場合）
 
-Feature Requests
+機能リクエスト
 ------------------
 
-* A description of the feature
-* Why you think this feature should be added
-* Screenshots (If applicable)
+* 機能の説明
+* この機能を追加すべきだと思う理由
+* スクリーンショット（該当する場合）
 
-Creating a Pull Request
+プルリクエストの作成
 -----------------------
 
-A Pull Request (PR) is a proposal to merge a set of changes from one branch into another.
-In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.
-In GitHub, a PR will display the differences between the content in the source branch and the content in the target branch.
+プルリクエスト（PR）は、あるブランチから別のブランチへの変更セットをマージする提案です。
+プルリクエストでは、協力者が変更をメインコードベースに統合する前に、提案された変更セットをレビューして議論できます。
+GitHub では、PR はソースブランチのコンテンツとターゲットブランチのコンテンツの違いを表示します。
 
-PRs should be made to the `FTC Docs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ repository on GitHub. Your 
-title should aim to describe the purpose of your PR in a *concise* manner. For more information on creating a PR, see 
+PR は GitHub の `FTC Docs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ リポジトリに作成する必要があります。タイトルは、PR の目的を*簡潔*に説明することを目指してください。PR の作成の詳細については、GitHub の 
 `creating a pull request <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_
-on GitHub.
-We have specific guidance for making changes, start with the :doc:`Change Overview </contrib/tutorials/overview/overview>`.
+を参照してください。
+変更を行うための具体的なガイダンスがあります。:doc:`変更の概要 </contrib/tutorials/overview/overview>` から始めてください。
 
-Colophon
+奥付
 --------
 
-FTC Docs is built with `Sphinx <https://www.sphinx-doc.org/>`__ using a `theme <https://github.com/readthedocs/sphinx_rtd_theme>`__ provided by `Read the Docs <https://readthedocs.org/>`__.
+FTC Docs は、`Read the Docs <https://readthedocs.org/>`__ が提供する `テーマ <https://github.com/readthedocs/sphinx_rtd_theme>`__ を使用して `Sphinx <https://www.sphinx-doc.org/>`__ で構築されています。
 
-Sphinx is a documentation generator.
-Sphinx converts reStructuredText files into HTML web pages. 
-Read the Docs is a documentation hosting platform and provides the base Sphinx theme for FTC Docs.
+Sphinx はドキュメント生成ツールです。
+Sphinx は reStructuredText ファイルを HTML ウェブページに変換します。
+Read the Docs はドキュメントホスティングプラットフォームであり、FTC Docs のベース Sphinx テーマを提供しています。
 
-The `Dark theme <https://github.com/FIRST-Tech-Challenge/ftcdocs-helper/tree/main/sphinx_rtd_dark_mode_v2>`__ is provided by the FTC Docs development team.
+`ダークテーマ <https://github.com/FIRST-Tech-Challenge/ftcdocs-helper/tree/main/sphinx_rtd_dark_mode_v2>`__ は FTC Docs 開発チームによって提供されています。
 
 .. We might wish to state what version of Sphinx we use and other version info.
    This is also where we could declare what versions of HTML, XML, CSS we target. Perhaps what browsers we target. 

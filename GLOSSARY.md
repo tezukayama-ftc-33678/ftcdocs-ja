@@ -56,6 +56,9 @@
 | FIRST | **FIRST** | 組織名（For Inspiration and Recognition of Science and Technology） |
 | FIRST Tech Challenge (FTC) | **FIRST Tech Challenge (FTC)** | プログラム名 |
 | Gracious Professionalism | **Gracious Professionalism** | FIRST の理念（登録商標） |
+| Awards | **Awards** | FTC 固有の表彰制度（FLLでも同様に英語で使用） |
+| Structured Judging Appointment | **Structured Judging Appointment** | 審査面談の形式 |
+| Structured Interview | **Structured Interview** | 構造化された審査インタビュー |
 
 ---
 
@@ -94,6 +97,12 @@
 | Game Manual | 競技マニュアル | |
 | Season | シーズン | |
 | Championship | チャンピオンシップ | |
+| Portfolio | ポートフォリオ | |
+| Judging | 審査 | |
+| Inspection | 検査 | |
+| Event | イベント | |
+| Rookie Team | 新規チーム | |
+| Veteran Team | 既存チーム | |
 
 #### UI/操作関連
 | 英語 | 統一訳語 | 備考 |
@@ -106,6 +115,10 @@
 | Download | ダウンロード | |
 | Upload | アップロード | |
 | Install | インストール | |
+| Dashboard | ダッシュボード | |
+| Registration | 登録 | |
+| FAQ | FAQ / よくある質問 | |
+| Question Box | クエスチョンボックス | 競技会場での質問受付場所 |
 
 ---
 
@@ -146,6 +159,7 @@
 | 日付 | バージョン | 更新内容 |
 |------|-----------|---------|
 | 2025-12-08 | 1.0 | 初版作成 - Phase 1 翻訳に基づく基本用語集 |
+| 2025-12-08 | 1.1 | Phase 2 完了 - 新規用語追加（Portfolio, Judging, Awards 等） |
 
 ---
 

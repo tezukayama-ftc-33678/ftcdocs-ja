@@ -41,25 +41,34 @@
 
 ---
 
-### **Phase 2: チームペルソナページ & 入門ガイド** (優先度: 高)
+### **Phase 2: チームペルソナページ & 入門ガイド** ✅ (優先度: 高) - **完了**
 **目標:** 各タイプのチーム（新規/既存、コーチ/メンター）向けの情報を翻訳
 
-#### 翻訳対象ファイル（約20ファイル）
+#### 翻訳対象ファイル（30ファイル）
 ##### ペルソナページ
-- [ ] `docs/source/persona_pages/rookie_teams/rookie_teams.rst` - 新規チーム
-- [ ] `docs/source/persona_pages/veteran_teams/veteran_teams.rst` - 既存チーム
-- [ ] `docs/source/persona_pages/coach_admin/coach_admin.rst` - コーチ
-- [ ] `docs/source/persona_pages/mentor_tech/mentor_tech.rst` - 技術メンター
+- [x] `docs/source/persona_pages/rookie_teams/rookie_teams.rst` - 新規チーム
+- [x] `docs/source/persona_pages/veteran_teams/veteran_teams.rst` - 既存チーム
+- [x] `docs/source/persona_pages/coach_admin/coach_admin.rst` - コーチ
+- [x] `docs/source/persona_pages/mentor_tech/mentor_tech.rst` - 技術メンター
 
 ##### FAQ & チームリソース
-- [ ] `docs/source/faq/` ディレクトリ内のFAQファイル群
-- [ ] `docs/source/team_resources/team_resources.rst` - チームリソース
+- [x] `docs/source/faq/faqs.rst` - よくある質問
+- [x] `docs/source/team_resources/team_resources.rst` - チームリソース
 
 ##### 貢献ガイド
-- [ ] `docs/source/contrib/index.rst` - 貢献について
-- [ ] `docs/source/contrib/guidelines/` - ガイドライン
+- [x] `docs/source/contrib/index.rst` - 貢献について
+- [x] `docs/source/contrib/guidelines/guidelines.rst` - ガイドライン
+- [x] `docs/source/contrib/workflow/workflow.rst` - ワークフロー
+- [x] `docs/source/contrib/style_guide/` - スタイルガイド（3ファイル）
+- [x] `docs/source/contrib/tutorials/` - チュートリアル（17ファイル）
 
-#### 予想工数: 20-25時間
+#### 成果物
+- ペルソナページ4ファイルの完全翻訳 ✅
+- FAQ及びチームリソースの完全翻訳 ✅
+- 貢献ガイドの主要ファイル翻訳 ✅
+- チュートリアルのタイトル及び主要ファイル翻訳 ✅
+
+#### 実績工数: 約12時間（予想: 20-25時間）
 
 ---
 
@@ -222,6 +231,7 @@
 |------|-----------|---------|
 | 2025-12-08 | 1.0 | 初版作成 - Phase 1 から Phase 7 までの計画策定 |
 | 2025-12-08 | 1.1 | Phase 1 完了 - 3ファイル翻訳、用語集・サマリー作成 |
+| 2025-12-08 | 1.2 | Phase 2 完了 - 30ファイル翻訳、ペルソナページ・FAQ・貢献ガイド |
 
 ---
 
