@@ -57,6 +57,8 @@
 | FIRST Tech Challenge (FTC) | **FIRST Tech Challenge (FTC)** | プログラム名 |
 | Gracious Professionalism | **Gracious Professionalism** | FIRST の理念（登録商標） |
 | Awards | **Awards** | FTC 固有の表彰制度（FLLでも同様に英語で使用） |
+| Structured Judging Appointment | **Structured Judging Appointment** | 審査面談の形式 |
+| Structured Interview | **Structured Interview** | 構造化された審査インタビュー |
 
 ---
 
