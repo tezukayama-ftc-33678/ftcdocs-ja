@@ -1,5 +1,5 @@
 チュートリアル
-============
+=============
 
 これらは、FTC Docs での作成と編集のプロセスを順を追って説明するいくつかのチュートリアルです。
 
@@ -20,5 +20,6 @@
     make_rst/index
     setup_credentials/setup-credentials
     make_pr/make-pr
-    glossary/glossary
+
+チュートリアル
 
