@@ -165,14 +165,15 @@ Now you can test whether the HuskyLens can detect the AprilTag’s
 position on the CENTERSTAGE Spike Marks. This is not a real game
 scenario, since a Team Prop (Team Game Element) cannot use an AprilTag.
 これで、HuskyLens が CENTERSTAGE Spike Marks 上の **AprilTag** の位置を検出できるかどうかをテストできます。チームプロップ（チームゲーム要素）は **AprilTag** を使用できないため、これは実際のゲームシナリオではありません。これは、ロボットが HuskyLens を向けて、単一のビューで 2 つまたは 3 つの Spike Marks を「見る」ことができるかどうかを確認するだけです。
+
+.. figure:: images/230-3-tags-double.png
+   :align: center
    :width: 85%
    :alt: 3 Tags
 
-   HuskyLens Viewing 3 Uncategorized Tags
+   HuskyLens が 3 つの未分類タグを表示
 
-ここでは、HuskyLens はマットから約 10 インチ
-from the mat, near the middle of the foam tile before the Spike-Mark
-tile. The view **does include** the middle of all three Spike Marks.
+ここでは、HuskyLens はマットから約 10 インチ、Spike-Mark タイルの前のフォームタイルの中央付近の実行可能な位置に配置されました。ビューには、3 つすべての Spike Marks の中央が**含まれています**。
 
 3 つすべての **AprilTag** が認識されました。
 
@@ -183,9 +184,7 @@ tile. The view **does include** the middle of all three Spike Marks.
 
    Telemetry Showing 3 Blocks
 
-これは、HuskyLens がトレーニングされた
-object in one of various known positions – useful for the Autonomous
-phase of the CENTERSTAGE game.
+これは、HuskyLens がさまざまな既知の位置の 1 つでトレーニングされたオブジェクトを認識できる可能性を検証します。これは、CENTERSTAGE ゲームの **Autonomous** フェーズに役立ちます。
 
 Single Color Training
 ---------------------
