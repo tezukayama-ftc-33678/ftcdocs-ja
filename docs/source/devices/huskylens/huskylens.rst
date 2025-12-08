@@ -28,15 +28,14 @@ HuskyLens を **REV Control Hub** または **Expansion Hub** の I2C ポート�
 
 このチュートリアルでは、次の（多くの）方法については説明して**いません**。
 
--  modify an existing cable (change pin order in one connector), **OR**
--  fabricate a custom cable, with:
+-  既存のケーブルを変更する（1 つのコネクタのピン順序を変更する）、**または**
+-  カスタムケーブルを製作する：
 
-   -  soldering
-   -  crimped connectors
-   -  lever nuts (example below)
+   -  はんだ付け
+   -  圧着コネクタ
+   -  レバーナット（以下の例）
 
-FTC Competition Manual allows this work, but teams must ensure high quality for
-robot competition all season.
+FTC 競技マニュアルではこの作業を許可していますが、チームはシーズンを通じてロボット競技のために高品質を確保する必要があります。
 
 .. figure:: images/060-adapter.png
    :align: center
@@ -58,25 +57,18 @@ robot competition all season.
 
    image credit: @texasdiaz
 
-Configuration
+構成
 -------------
 
-Plug the HuskyLens into a REV Hub I2C port, using your new adapter
-cable. The I2C connections labeled **Bus 1, 2 or 3** are suggested, to
-avoid (unlikely) overload of data traffic.
+新しいアダプターケーブルを使用して、HuskyLens を REV Hub の I2C ポートに接続します。**Bus 1、2、または 3** とラベル付けされた I2C 接続を使用すると、データトラフィックの過負荷（可能性は低い）を回避できます。
 
-The label 0 (zero) is I2C Bus 0, which likely has a **built-in IMU** on
-its Port 0. An I2C Bus can contain multiple I2C Ports, sharing traffic.
+ラベル 0（ゼロ）は I2C Bus 0 であり、おそらく Port 0 に**内蔵 IMU** があります。I2C Bus には、トラフィックを共有する複数の I2C ポートを含めることができます。
 
-On the Driver Station, touch the three-dots menu, and
-``Configure Robot``.
+**Driver Station** で、3 つのドットメニューをタッチし、``Configure Robot`` を選択します。
 
-Edit an existing (correct) configuration, or touch ``New``. Touch
-``Scan``, then navigate (through the Portal level) to the specific
-``Expansion Hub`` or ``Control Hub`` with the HuskyLens plugged in.
+既存の（正しい）構成を編集するか、``New`` をタッチします。``Scan`` をタッチし、（Portal レベルを通じて）HuskyLens が接続されている特定の ``Expansion Hub`` または ``Control Hub`` に移動します。
 
-Select ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged
-in.
+HuskyLens が接続されている Bus 番号の ``I2C Bus 3`` またはその他の Bus を選択します。
 
 .. figure:: images/120-DS-config.png
    :align: center
@@ -115,10 +107,9 @@ In FTC Blocks, create a new OpMode using the sample called
    :width: 85%
    :alt: Blocks Sample
 
-   HuskyLens Blocks Sample
+   HuskyLens Blocks サンプル
 
-Change the OpMode type from ``TeleOp`` to ``Autonomous``, since this
-sample does not use the gamepads.
+このサンプルはゲームパッドを使用しないため、**OpMode** タイプを ``TeleOp`` から ``Autonomous`` に変更します。
 
 .. figure:: images/160-Algorithm-Blocks.png
    :align: center
@@ -148,13 +139,12 @@ AprilTag from the common 36h11 family:
    :width: 85%
    :alt: Uncategorized Apriltag
 
-   Uncategorized AprilTag Detected
+   未分類の AprilTag が検出されました
 
-The HuskyLens’ small screen will show the recognized AprilTag,
-surrounded by a thin white Bounding Box.
+HuskyLens の小さな画面には、認識された **AprilTag** が薄い白いバウンディングボックスで囲まれて表示されます。
 
 Here’s the corresponding DS Telemetry:
-
+対応する DS **Telemetry** は次のとおりです。
 .. figure:: images/220-DS-1-big-AprilTag.png
    :align: center
    :width: 85%
@@ -163,29 +153,23 @@ Here’s the corresponding DS Telemetry:
    AprilTag Telemetry
 
 The data includes: 
+データには以下が含まれます。
 
-- number of objects (called “blocks”) detected 
-- ID code of object (might not be correct or meaningful) 
-- size of Bounding Box, in pixels 
-- center position of Bounding Box, in pixels, with (X, Y) origin at the top left
-
+- 検出されたオブジェクト（「ブロック」と呼ばれる）の数
+- オブジェクトの ID コード（正しくないか意味がない可能性があります）
+- バウンディングボックスのサイズ（ピクセル単位）
+- バウンディングボックスの中心位置（ピクセル単位）、(X, Y) の原点は左上
 The HuskyLens device screen is 320 x 240 pixels, with center at position
-(160, 120).
-
+HuskyLens デバイスの画面は 320 x 240 ピクセルで、中心位置は (160, 120) です。
 **Congratulations!** At this point, you have validated the HuskyLens
 device, its connection to the REV Hub, and the Sample OpMode program.
-
-AprilTag Detection
+**おめでとうございます！** この時点で、HuskyLens デバイス、REV Hub への接続、およびサンプル **OpMode** プログラムを検証しました。
 ------------------
 
 Now you can test whether the HuskyLens can detect the AprilTag’s
 position on the CENTERSTAGE Spike Marks. This is not a real game
 scenario, since a Team Prop (Team Game Element) cannot use an AprilTag.
-This simply verifies whether your robot could aim the HuskyLens to “see”
-2 or 3 Spike Marks in a single view.
-
-.. figure:: images/230-3-tags-double.png
-   :align: center
+これで、HuskyLens が CENTERSTAGE Spike Marks 上の **AprilTag** の位置を検出できるかどうかをテストできます。チームプロップ（チームゲーム要素）は **AprilTag** を使用できないため、これは実際のゲームシナリオではありません。これは、ロボットが HuskyLens を向けて、単一のビューで 2 つまたは 3 つの Spike Marks を「見る」ことができるかどうかを確認するだけです。
    :width: 85%
    :alt: 3 Tags
 
