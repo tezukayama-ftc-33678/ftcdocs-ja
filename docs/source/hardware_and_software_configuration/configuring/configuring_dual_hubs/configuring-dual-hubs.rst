@@ -6,8 +6,7 @@ Expansion Hub の追加
 
 単一の **REV Robotics Control Hub** または **Expansion Hub** には、限られた数の入出力（I/O）ポートしかありません。場合によっては、利用可能なポート数よりも多くのデバイスを使用したい場合があります。このような場合、最初の Hub に **Expansion Hub** を接続して、I/O ポートを追加する必要があるかもしれません。
 
-This document describes how to connect and configure an additional Expansion
-Hub for use in the FIRST Tech Challenge. Note that the FIRST Tech Challenge
+このドキュメントでは、FIRST Tech Challenge で使用する追加の **Expansion Hub** を接続および構成する方法について説明します。FIRST Tech Challenge
 競技マニュアルは、単一のロボット上の **Control Hub** または **Expansion Hub** の最大数を 2 つに制限しています。
 
 必要な機器

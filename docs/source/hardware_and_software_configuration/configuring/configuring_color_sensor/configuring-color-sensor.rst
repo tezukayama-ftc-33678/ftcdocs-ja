@@ -32,16 +32,14 @@
 |
 
 4. Select "REV Color/Range Sensor" from the dropdown selector for     
-this new device. Use the touchscreen keyboard to name this device     
-"sensorColorRange".                                                   
+この新しいデバイスに名前を付けます。タッチスクリーンキーボードを使用して、このデバイスに「sensorColorRange」という名前を付けます。
 
 .. image:: images/ConfiguringHardwareColorDistanceStep4.jpg
    :align: center
 
 |
 
-5. Press the **Done** button to complete the I2C sensor               
-configuration. The app should return to the previous screen.          
+5. **Done** ボタンを押して、I2C センサー構成を完了します。アプリは前の画面に戻るはずです。          
 
 .. image:: images/ConfiguringHardwareColorDistanceStep5.jpg
    :align: center

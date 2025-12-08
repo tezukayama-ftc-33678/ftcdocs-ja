@@ -7,7 +7,7 @@ Control Hub での外部ウェブカメラの構成
 競技マニュアルでは、コンピュータービジョン関連のタスクに USB Video Class（UVC）互換カメラの使用を許可しています。**REV Robotics Control Hub** を使用している場合、**Control Hub** には内蔵カメラが含まれていないため、外部ウェブカメラを使用する必要があります。このドキュメントでは、外部ウェブカメラを **Control Hub** に接続、構成、使用する方法について説明します。
 
 Special thanks to Chris Johannesen of Westside Robotics (Los Angeles)
-for putting together this documentation.
+このドキュメントをまとめてくれたことに特別な感謝を捧げます。
 
 外部カメラのタイプ
 -----------------------

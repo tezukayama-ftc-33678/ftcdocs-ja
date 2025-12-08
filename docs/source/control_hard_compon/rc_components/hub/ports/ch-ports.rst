@@ -46,24 +46,19 @@ USB 3.0
 USB C
 ^^^^^
 
-A Control Hub has a female USB-C port that implements USB 2.0. This is primarily used for connecting to a
-laptop for loading the SDK but can also be used with a UVC Camera.
+**Control Hub** には、USB 2.0 を実装する メス USB-C ポートがあります。これは主に SDK をロードするためにラップトップに接続するために使用されますが、UVC カメラでも使用できます。
 
 MINI USB
 ^^^^^^^^
 
-This is a female USB Mini-B port that implements USB 2.0. It is used only to communicate directly to
-the I/O system. In this case, it is only for the purpose of uploading firmware
-to the device.
+これは、USB 2.0 を実装する メス USB Mini-B ポートです。I/O システムと直接通信するためにのみ使用されます。この場合、デバイスにファームウェアをアップロードする目的のみです。
 
 HDMI
 -----
 
-The Control Hub lacks a display of its own even though it is a fully-fledged
-Android device. The Control Hub has an HDMI port that provides video output for
-the device; this HDMI port can be used to connect to an external display.
+**Control Hub** は、完全な Android デバイスであるにもかかわらず、独自のディスプレイを欠いています。**Control Hub** には、デバイスのビデオ出力を提供する HDMI ポートがあります。この HDMI ポートは、外部ディスプレイに接続するために使用できます。
 
 MICRO SD
 --------
 
-This is a port for a Micro SD memory card. It is not normally used.
+これは、Micro SD メモリカード用のポートです。通常は使用されません。

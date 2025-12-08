@@ -45,22 +45,12 @@ robot competition all season.
 
    image credit: @texasdiaz
 
-To confirm these wiring instructions are correct, you could study the
-`HuskyLens
-documentation <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_3>`__
-and the `REV Hub
-documentation <https://docs.revrobotics.com/duo-control/sensors/i2c#wiring>`__.
-You will see the following “pinout” info: 
+これらの配線手順が正しいことを確認するには、`HuskyLens のドキュメント <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_3>`__ と `REV Hub のドキュメント <https://docs.revrobotics.com/duo-control/sensors/i2c#wiring>`__ を参照してください。次の「ピンアウト」情報が表示されます。
 
-- HuskyLens **green** wire 1 (“T”) SDA or data == REV Hub **white** wire 3
-  “SDA” or data 
-- HuskyLens **blue** wire 2 (“R”) SCL or clock == REV Hub **blue** wire 4 “SCL”
-  or clock 
-- HuskyLens **black** wire 3 (“-”) GND or ground == REV Hub **black** wire 1
-  “GND” or ground 
-- HuskyLens **red** wire 4 (“+”) VCC or +3.3-5VDC == REV Hub **red** wire 2
-  “3.3V” or Vcc
-
+- HuskyLens **緑**ワイヤー 1（「T」）SDA またはデータ == REV Hub **白**ワイヤー 3「SDA」またはデータ
+- HuskyLens **青**ワイヤー 2（「R」）SCL またはクロック == REV Hub **青**ワイヤー 4「SCL」またはクロック
+- HuskyLens **黒**ワイヤー 3（「-」）GND またはグラウンド == REV Hub **黒**ワイヤー 1「GND」またはグラウンド
+- HuskyLens **赤**ワイヤー 4（「+」）VCC または +3.3-5VDC == REV Hub **赤**ワイヤー 2「3.3V」または Vcc
 .. figure:: images/070-ports.png
    :align: center
    :width: 85%
