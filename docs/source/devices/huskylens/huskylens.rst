@@ -250,9 +250,7 @@ release the Learning button to complete learning that color. Do not
 press the button again (ignore the prompt); allow the 5-second time-out
 to finish.
 
-The long-press learning period can last for just a few seconds. After
-releasing the Learning button, you allowed the training to time-out – no
-more colors to learn. Training is done!
+長押し学習期間は数秒間続くことができます。Learning ボタンを離した後、トレーニングをタイムアウトさせました。学習する色はもうありません。トレーニングが完了しました！
 
 As shown above, the trained color will be shown on-screen as
 **``Color:ID1``** with a rectangular Bounding Box. This “block” (of
@@ -272,47 +270,43 @@ HuskyLens documentation refers to the color zone as a “block” of color.
 This is not the same as a physical block or cube. HuskyLens uses the
 same word “block” for recognitions.
 
-Note the official warning:
+公式警告に注意してください。
 
 .. warning:: 
    “Color recognition is greatly affected by ambient light. Sometimes
    HuskyLens may misidentify similar colors. Please try to keep the
    ambient light unchanged.”
 
-Single Color Detection
+単一色の検出
 ----------------------
 
-Aim the HuskyLens at one or more of your color-trained objects.
+HuskyLens を色をトレーニングしたオブジェクトの 1 つ以上に向けます。
 
 .. figure:: images/250-two-red.png
    :align: center
    :width: 85%
    :alt: Two Red Objects
 
-   HuskyLens Detecting Two Red Objects
+   HuskyLens が 2 つの赤いオブジェクトを検出
 
-As shown above, the HuskyLens should recognize and label your colored
-objects with **``Color:ID1``**. Here, both red objects are identified
-(yellow arrows).
+上に示すように、HuskyLens は色付きオブジェクトを **``Color:ID1``** で認識してラベル付けする必要があります。ここでは、両方の赤いオブジェクトが識別されています（黄色の矢印）。
 
-In the programming software (same OpMode), now select a different
-algorithm called ``COLOR_RECOGNITION``:
+プログラミングソフトウェア（同じ **OpMode**）で、``COLOR_RECOGNITION`` という別のアルゴリズムを選択します。
 
 .. figure:: images/245-Color-Algorithm-Blocks.png
    :align: center
    :width: 85%
    :alt: COLOR_RECOGNITION algorithm
 
-   Selecting COLOR_RECOGNITION algorithm
+   COLOR_RECOGNITION アルゴリズムの選択
 
-In the Java sample OpMode, change the algorithm selection as follows:
+Java サンプル **OpMode** で、アルゴリズムの選択を次のように変更します。
 
 .. code:: java
 
    huskyLens.selectAlgorithm(HuskyLens.Algorithm.COLOR_RECOGNITION);
 
-Save this OpMode, then select and run it on the Driver Station. Make
-sure the active configuration includes the HuskyLens.
+この **OpMode** を保存してから、**Driver Station** で選択して実行します。アクティブな構成に HuskyLens が含まれていることを確認してください。
 
 .. figure:: images/260-DS-two-red.png
    :align: center
@@ -343,9 +337,9 @@ Here’s an example with a trained **blue object**:
    :width: 85%
    :alt: Two Blue Objects
 
-   HuskyLens Two Blue Objects
+   HuskyLens 2 つの青いオブジェクト
 
-Both blue objects were recognized by the OpMode:
+両方の青いオブジェクトが **OpMode** によって認識されました。
 
 .. figure:: images/280-DS-2-blue.png
    :align: center
@@ -369,49 +363,36 @@ and the `FTC Q&A <https://ftc-qa.firstinspires.org/>`__ for the Team
 Prop requirements. Choose your shades of “red” and “blue” (see note
 below), and follow the same steps as above.
 
-2. Color
+2. 色
 ~~~~~~~~
 
-The above trained **blue object** is not the same shade of blue as the
-blue Spike Mark. This difference increases the chance of a distinct and
-correct recognition of the object color.
+上でトレーニングした**青いオブジェクト**は、青い Spike Mark と同じ青の色合いではありません。この違いにより、オブジェクトの色を明確かつ正確に認識する可能性が高まります。
 
-In this game, the Competition Manual specifically allowed the Team Prop to be a
-different shade of Red or Blue, compared to the official tape color of Spike
-Marks.
+このゲームでは、競技マニュアルは、Spike Marks の公式テープの色と比較して、チームプロップが異なる赤または青の色合いであることを特に許可していました。
 
-3. Lighting
+3. 照明
 ~~~~~~~~~~~
 
-The HuskyLens documentation provides a warning (shown above) that
-ambient lighting can impact recognition of a trained color.
+HuskyLens のドキュメントは、周囲の照明がトレーニングされた色の認識に影響を与える可能性があるという警告を提供しています（上記を参照）。
 
 For this reason, competition training should ideally be done with the
 Team Prop (Team Game Element) on the Spike Mark, and the HuskyLens in
 its planned match start position, “on-robot”.
 
-Also, the trained ambient lighting must be similar to expected match
-conditions. This may suggest performing the final color-training as part
-of tournament or match set-up. With practice, it could be done in a few
-seconds.
+また、トレーニングされた周囲の照明は、予想されるマッチ条件に類似している必要があります。これは、トーナメントまたはマッチのセットアップの一部として最終的な色トレーニングを実行することを示唆している可能性があります。練習すれば、数秒で完了できます。
 
-4. Programming
+4. プログラミング
 ~~~~~~~~~~~~~~
 
-In this Sample OpMode, the main loop ends only upon touching the DS Stop
-button. For competition, teams should **modify this code** in at least
-two ways:
+このサンプル **OpMode** では、メインループは DS 停止ボタンをタッチした場合にのみ終了します。競技では、チームは少なくとも 2 つの方法でこの**コードを変更**する必要があります。
 
--  for a significant recognition, take action or store key information –
-   inside the FOR loop
+-  重要な認識の場合、FOR ループ内でアクションを実行するか、重要な情報を保存します
 
--  end the main loop based on your criteria, to continue the OpMode
+-  基準に基づいてメインループを終了し、**OpMode** を続行します
 
-As an example, you might set a Boolean variable ``isPropDetected`` to
-``true``, if a significant recognition has occurred.
+例として、重要な認識が発生した場合、ブール変数 ``isPropDetected`` を ``true`` に設定することができます。
 
-You might also evaluate and store which randomized Spike Mark (red or
-blue tape stripe) holds the Team Prop.
+また、どのランダム化された Spike Mark（赤または青のテープストライプ）がチームプロップを保持しているかを評価して保存することもできます。
 
 Regarding the main loop, it could end after the HuskyLens views all
 three Spike Marks, or after your code provides a high-confidence result.
@@ -420,8 +401,7 @@ perhaps the **Bounding Box** size(s) and location(s) could be useful.
 Teams should consider how long to seek an acceptable recognition, and
 what to do otherwise.
 
-In any case, the OpMode should exit the main loop and continue running,
-using any stored information. 
+いずれの場合も、**OpMode** はメインループを終了し、保存された情報を使用して実行を続行する必要があります。 
 
 Multi-Color Training
 --------------------
@@ -429,23 +409,13 @@ Multi-Color Training
 After completing the above tutorial with a single trained color, you may
 wish to train **two colors** (e.g. a Red shade and a Blue shade).
 
-This would avoid the need for multiple color-training sessions during an
-FTC tournament. With single-color, you would train for Red before
-playing an FTC match as Red Alliance, and train for Blue before playing
-as Blue Alliance.
+これにより、FTC トーナメント中に複数の色トレーニングセッションを行う必要がなくなります。単一色の場合、レッドアライアンスとして FTC マッチをプレイする前に赤色をトレーニングし、ブルーアライアンスとしてプレイする前に青色をトレーニングします。
 
-With multi-color, your Red-Alliance Autonomous OpMode could seek Red as
-**``Color:ID1``**, for example, and your Blue-Alliance Autonomous OpMode
-could seek Blue as **``Color:ID2``**.
+マルチカラーでは、たとえば、レッドアライアンスの **Autonomous** **OpMode** は **``Color:ID1``** として赤を探し、ブルーアライアンスの **Autonomous** **OpMode** は **``Color:ID2``** として青を探すことができます。
 
-The **HuskyLens instructions** for learning multiple colors are `posted
-online <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__.
-You could try to follow those, or use the equivalent description here.
-Again, some practice may be required!
+複数の色を学習するための **HuskyLens の指示書**は`オンラインで公開されています <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__。それらに従うか、ここで同等の説明を使用できます。繰り返しますが、練習が必要な場合があります！
 
-Reminder: on the top of the HuskyLens, the wheel at the left side is
-called the **Function button** (actually a dial and button). At the
-right side is the small **Learning button**.
+注意：HuskyLens の上部にある左側のホイールは **Function ボタン**（実際にはダイヤルとボタン）と呼ばれます。右側には小さな **Learning ボタン**があります。
 
 **Step 1.** Dial the Function button to the right or left until **“Color
 Recognition”** is displayed at the bottom of the screen.
@@ -487,35 +457,24 @@ HuskyLens screen at your object’s main color area. A **white frame**
 appears on the screen, targeting the main color. Aim the HuskyLens so
 the white frame includes only the target color.
 
-With the main color framed, **long press** (press and hold) the small
-**Learning button** (right side). A **yellow frame** appears on the
-screen, indicating that HuskyLens is learning the color.
+メイン色がフレームに収められた状態で、小さな **Learning ボタン**（右側）を**長押し**（押し続ける）します。画面に**黄色のフレーム**が表示され、HuskyLens が色を学習していることを示します。
 
-During this long press, move the HuskyLens while pointing at the color
-area, to let HuskyLens learn the color from various distances and
-angles. Then, release the Learning button to complete learning that
-color.
+この長押し中に、色領域を指しながら HuskyLens を動かして、HuskyLens にさまざまな距離と角度から色を学習させます。次に、Learning ボタンを離して、その色の学習を完了します。
 
-The long-press learning period can last for just a few seconds. After
-releasing the Learning button, **``Color:ID1``** is now trained, with
-its label shown on-screen. Easy!
+長押し学習期間は数秒間続くことができます。Learning ボタンを離すと、**``Color:ID1``** がトレーニングされ、そのラベルが画面に表示されます。簡単です！
 
 .. figure:: images/240-red-color-ID.png
    :align: center
    :width: 85%
    :alt: RED Color 1 Trained
 
-   HuskyLens - RED (Color 1) Trained
+   HuskyLens - RED（Color 1）トレーニング済み
 
-**Step 5.** As prompted on the screen, **short press** the Learning
-button again (before the 5-second time-out). This prepares for learning
-the next color.
+**ステップ 5.** 画面に表示されたら、**短押し**Learning ボタンをもう一度押します（5 秒のタイムアウト前）。これにより、次の色を学習する準備が整います。
 
-**Step 6.** Point the lens at your second color, and repeat the previous
-Step 4. Namely, **long press** the Learning button, aim and move, then
-**release** to complete learning that color.
+**ステップ 6.** レンズを 2 番目の色に向け、前のステップ 4 を繰り返します。つまり、Learning ボタンを**長押し**し、狙いを定めて移動し、**離して**その色の学習を完了します。
 
-Now **``Color:ID2``** is trained, with its label shown on-screen.
+これで **``Color:ID2``** がトレーニングされ、そのラベルが画面に表示されます。
 
 **Step 7.** As prompted, **short press** the “other” button, the
 Function button. Or, allow the 5-second time-out to complete. In either
@@ -526,22 +485,17 @@ case, this completes the multi-color training. All done!
    :width: 85%
    :alt: Two Colors Trained
 
-   HuskyLens - Two Colors Trained (ID1 and ID2)
+   HuskyLens - 2 つの色がトレーニング済み（ID1 と ID2）
 
-If you want to do all this **over again**, short-press the Learning
-button, then (as prompted) short-press again to **``Forget`` all of the
-learned colors**.
+これをすべて**やり直したい**場合は、Learning ボタンを短押しし、次に（プロンプトが表示されたら）もう一度短押しして、**学習したすべての色を``忘れます``**。
 
 This makes the plus-sign “+” icon appear again. Repeat the above, from
 Step 4, to train colors again.
 
-Multi-Color Detection
+マルチカラー検出
 ---------------------
 
-For your OpMode code to read **``Color:ID2``**, for example, the
-Algorithm must be set to ``COLOR_RECOGNITION`` and the field
-``HuskyLens.Block.id`` will be **the value 2**. This can be seen in the
-Telemetry portion of the Sample OpMode you used above.
+たとえば、**OpMode** コードが **``Color:ID2``** を読み取るには、アルゴリズムを ``COLOR_RECOGNITION`` に設定する必要があり、フィールド ``HuskyLens.Block.id`` は **値 2** になります。これは、上で使用したサンプル **OpMode** の **Telemetry** 部分で確認できます。
 
 .. figure:: images/400-Blocks-Color-ID.png
    :align: center
@@ -558,10 +512,9 @@ color, **with no coding changes**:
    :width: 85%
    :alt: 2 Color Telemetry
 
-   Example Telemetry showing Both Colors
+   両方の色を示す Telemetry の例
 
-Now there are two trained and recognized colors, with ID Codes 1 and 2 –
-see yellow arrow above.
+これで、ID コード 1 と 2 を持つ、トレーニングおよび認識された 2 つの色があります。上の黄色の矢印を参照してください。
 
 These two lines of Telemetry are generated in different cycles of the
 same FOR Loop. They display together, since the ``Telemetry.update``
@@ -569,20 +522,16 @@ Block appears **after** the FOR Loop has completed all of its cycles.
 Namely, the FOR Loop has processed each HuskyLens “color block” in the
 ``List`` of HuskyLens “blocks”.
 
-In the Java sample OpMode, add these lines **inside the FOR loop**:
+Java サンプル **OpMode** で、**FOR ループ内**にこれらの行を追加します。
 
 .. code:: java
 
    int thisColorID = blocks[i].id;                      // save the current recognition's Color ID
    telemetry.addData("This Color ID", thisColorID);     // display that Color ID
 
-Besides ``.id``, other Java fields are available for the currently
-recognized Bounding Box: ``.width``, ``.height``, ``.left``, ``.top``,
-plus ``.x`` and ``.y`` (center location).
+``.id`` に加えて、現在認識されているバウンディングボックスには、他の Java フィールドが使用できます：``.width``、``.height``、``.left``、``.top``、および ``.x`` と ``.y``（中心位置）。
 
-The color ID numbers are assigned **in order of training**. You cannot
-renumber these later, so plan your training and OpMode coding to agree
-with each other.
+色 ID 番号は**トレーニングの順序で**割り当てられます。後でこれらの番号を変更することはできないため、トレーニングと **OpMode** コーディングが互いに一致するように計画してください。
 
 .. tip::
    **Advanced tip:** If your color recognition is heavily affected by ambient
@@ -593,12 +542,10 @@ with each other.
    **either** Color ID (1 or 2) as “Red”. Likewise, Blue shades could have
    Color IDs 3 and 4.
 
-Object Training
+オブジェクトトレーニング
 ---------------
 
-This tutorial ends with HuskyLens **color training**. Now you are
-familiar with the basic steps for HuskyLens operation, training, and FTC
-programming.
+このチュートリアルは、HuskyLens の**色トレーニング**で終了します。これで、HuskyLens の操作、トレーニング、および FTC プログラミングの基本的な手順に精通しました。
 
 You are encouraged to proceed with training the HuskyLens to recognize
 an **actual object**. This could be one of its 20 pre-trained models
@@ -607,12 +554,10 @@ an **actual object**. This could be one of its 20 pre-trained models
 color training, using the `HuskyLens
 documentation <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336>`__.
 
-You may find that HuskyLens **object recognition** provides more
-(educational) exposure to the process of AI and Machine Learning, along
-with more reliable results than color recognition.
+HuskyLens の**オブジェクト認識**は、色認識よりも信頼性の高い結果とともに、AI と機械学習のプロセスに対するより多くの（教育的な）露出を提供することがわかるかもしれません。
 
-Best of luck this season!
+今シーズンの幸運を祈ります！
 
 ============
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、訂正は westsiderobotics@verizon.net まで

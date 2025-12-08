@@ -59,87 +59,68 @@ Expansion Hub) with the Robot Controller app.
 |
 
 .. important:: 
-   You might be prompted multiple times to associate the USB hardware with the
-   Robot Controller.  Whenever you are prompted by your phone with this
-   message, you should always select the "Use by default for this USB device"
-   option and hit the "OK" button to associate the USB device with the Robot
-   Controller app. If you fail to make this association, then the Robot
-   Controller app might not reliably connect to this Expansion Hub the next
-   time you turn your system on.
+   USB ハードウェアを **Robot Controller** に関連付けるように複数回プロンプトが表示される場合があります。このメッセージが表示された場合は、常に「この USB デバイスをデフォルトで使用する」オプションを選択し、「OK」ボタンを押して USB デバイスを **Robot Controller** アプリに関連付けます。この関連付けを行わないと、次回システムをオンにしたときに **Robot Controller** アプリがこの **Expansion Hub** に確実に接続できない可能性があります。
 
 
-Creating a Configuration File Using the DRIVER STATION
+DRIVER STATION を使用した構成ファイルの作成
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Although the configuration file needs to reside on the Robot Controller,
-for this tutorial we will use the DRIVER STATION app to create the
-configuration file remotely. The DRIVER STATION can be used to create a
-configuration file for a Control Hub or for an Android smartphone Robot
-Controller.
+構成ファイルは **Robot Controller** に存在する必要がありますが、このチュートリアルでは、**DRIVER STATION** アプリを使用してリモートで構成ファイルを作成します。**DRIVER STATION** は、**Control Hub** または Android スマートフォン **Robot Controller** の構成ファイルを作成するために使用できます。
 
 
-Creating a Configuration File on the Robot Controller using the DRIVER STATION Instructions
+DRIVER STATION の指示を使用した Robot Controller での構成ファイルの作成
 -------------------------------------------------------------------------------------------
 
-1. Touch the three vertical dots in the upper right hand corner of    
-the Driver Station app. This will launch a pop-up menu.               
+1. **Driver Station** アプリの右上隅にある 3 つの縦のドットをタッチします。これにより、ポップアップメニューが起動します。               
 
 .. image:: images/ConfiguringHardwareNewStep1.jpg
    :align: center
 
 |
 
-2. Select **Configure Robot** from the pop up menu to display the     
-**Configuration** screen.                                             
+2. ポップアップメニューから **Configure Robot** を選択して、**Configuration** 画面を表示します。                                             
 
 .. image:: images/ConfiguringHardwareNewStep2.jpg
    :align: center
 
 |
 
-3. If your Robot Controller does not have any existing configuration  
-files, the screen will display a message indicating that you need to  
-create a file before proceeding.                                      
+3. **Robot Controller** に既存の構成ファイルがない場合、画面には続行する前にファイルを作成する必要があることを示すメッセージが表示されます。                                      
 
 .. image:: images/ConfiguringHardwareNewStep3.jpg
    :align: center
 
 |
 
-Hit the **New** button to create a new configuration file for your Robot Controller.
+**New** ボタンをタッチして、**Robot Controller** の新しい構成ファイルを作成します。
 
-4. When the new configuration screen appears, the Robot Controller    
-app will do a scan of the serial bus to see what devices are          
-connected to the Robot Controller.                                    
+4. 新しい構成画面が表示されると、**Robot Controller** アプリはシリアルバスのスキャンを実行して、**Robot Controller** に接続されているデバイスを確認します。                                    
 
 .. image:: images/ConfiguringHardwareStep9.jpg
    :align: center
 
 |
 
-It will display the devices that it found in a list underneath the words "USB Devices in configuration." You should see an entry that says something like "Expansion Hub Portal 1" in the list.
+検出されたデバイスは、「USB Devices in configuration」という言葉の下のリストに表示されます。リストに「Expansion Hub Portal 1」のようなエントリが表示されるはずです。
 
-Your Expansion Hub is listed as a Portal because it is directly connected to the Robot Controller phone through the USB cable or in the case of the Control Hub through the internal serial bus.
+**Expansion Hub** は、USB ケーブルを介して **Robot Controller** スマートフォンに直接接続されているか、**Control Hub** の場合は内部シリアルバスを介して接続されているため、Portal としてリストされます。
 
-If you do not see your Expansion Hub Portal listed and you are using a smartphone as a Robot Controller, check the wired connections to make sure they are secure and then press the Scan button one or two times more to see if the smartphone detects the device on a re-scan of the USB bus.
+**Expansion Hub** Portal がリストされておらず、**Robot Controller** としてスマートフォンを使用している場合は、有線接続を確認して確実に接続されていることを確認し、Scan ボタンを 1〜2 回押して、USB バスの再スキャンでスマートフォンがデバイスを検出するかどうかを確認します。
 
-5. Touch the Portal listing ("Expansion Hub Portal 1" in this         
-example) to display what Expansion Hubs are connected through this    
-Portal.                                                               
+5. Portal リスト（この例では「Expansion Hub Portal 1」）をタッチして、この Portal を介して接続されている **Expansion Hub** を表示します。                                                               
 
 .. image:: images/ConfiguringHardwareStep10.jpg
    :align: center
 
 |
 
-Since we only have a single Expansion Hub connected, we should only see a single Expansion Hub configured ("Expansion Hub 2" in this example).
+単一の **Expansion Hub** のみが接続されているため、構成された単一の **Expansion Hub**（この例では「Expansion Hub 2」）のみが表示されるはずです。
 
-6. Touch the Expansion Hub listing ("Expansion Hub 2" in this         
-example) to display the Input/Output ports for that device.           
+6. **Expansion Hub** リスト（この例では「Expansion Hub 2」）をタッチして、そのデバイスの入出力ポートを表示します。           
 
 .. image:: images/ConfiguringHardwareStep11.jpg
    :align: center
 
 |
 
-The screen should change and list all the motor, servo and sensor ports that are available on the selected Expansion Hub.
+画面が変わり、選択した **Expansion Hub** で利用可能なすべてのモーター、サーボ、およびセンサーポートがリストされるはずです。

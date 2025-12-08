@@ -6,9 +6,7 @@
 
 競技マニュアルでは、コンピュータービジョン関連のタスクに USB Video Class（UVC）互換カメラの使用を許可しています。Android スマートフォンを **Robot Controller** として使用しているチームは、コンピュータービジョンタスクに内蔵カメラの代わりに外部接続カメラを使用するオプションがあります。
 
-The advantage of using an external camera is that the camera can be
-mounted in a location that is convenient for vision-related tasks while
-Android **Robot Controller** は、**Robot Controller** 関連のタスクに便利な場所に取り付けることができます。
+外部カメラを使用する利点は、ビジョン関連のタスクに便利な場所にカメラを取り付けることができ、同時に Android **Robot Controller** をロボットコントローラー関連のタスクに便利な別の場所に取り付けることができることです。
 
 外部カメラを使用する欠点は、USB 接続カメラによって追加の複雑さが導入されることです。外部カメラは、ロボットにコストと重量を追加し、正しく動作するために正しく配線する必要があります。
 
@@ -24,49 +22,35 @@ Android **Robot Controller** は、**Robot Controller** 関連のタスクに便
 
 UVC カメラのキャリブレーションは高度なタスクであることに注意してください。キャリブレーションファイルの作成方法の詳細は、ftc_app プロジェクトフォルダーの一部として利用可能な *teamwebcamcalibrations.xml* ファイルのコメントにあります（ファイルのオンラインコピーについては、この `リンク <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ にアクセスしてください）。
 
-REV Expansion Hub and Phone
+REV Expansion Hub とスマートフォン
 ---------------------------
 
-For teams using an Android phone and an Expansion Hub you are required to add a USB Hub to use a webcam.
+Android スマートフォンと **Expansion Hub** を使用しているチームは、ウェブカメラを使用するために USB ハブを追加する必要があります。
 
 .. image:: images/uvcdiagram.png
    :alt: A REV expansion hub connected to an Android phone and a webcam via a USB Hub.
 
-USB Hub
+USB ハブ
 ^^^^^^^
 
-Teams who would like to use an external camera will need a USB hub to
-connect their Android Robot Controller to the external camera and the
-REV Robotics Expansion Hub. To work properly, the USB hub should meet
-the following requirements:
+外部カメラを使用したいチームは、Android **Robot Controller** を外部カメラと REV Robotics **Expansion Hub** に接続するために USB ハブが必要です。正しく動作するには、USB ハブは次の要件を満たす必要があります。
 
-1. Compatible with USB 2.0. Note: a USB 3.0 hub will still work, just not at the faster speed.
-2. Supports a data transfer rate of 480Mbps.
+1. USB 2.0 と互換性があります。注：USB 3.0 ハブも機能しますが、高速では動作しません。
+2. 480Mbps のデータ転送速度をサポートします。
 
-Note that the Modern Robotics Core Power Distribution Module cannot be
-used for this task since its data transfer speed is not fast enough to
-work with the USB-connected webcam.
+Modern Robotics Core Power Distribution Module は、データ転送速度が USB 接続ウェブカメラで動作するのに十分な速度ではないため、このタスクには使用できないことに注意してください。
 
-Also note that the Competition Manual permits the use of a powered USB
-hub to make this connection. If a
-team uses a powered USB hub, the power to operate the USB hub can only
-come from either of the following sources:
+また、競技マニュアルは、この接続を行うために電源付き USB ハブの使用を許可していることに注意してください。チームが電源付き USB ハブを使用する場合、USB ハブを操作する電力は、次のいずれかのソースからのみ供給できます。
 
-1. An externally connected commercially available off-the-shelf (COTS) USB Battery Pack in compliance with the
-   Competition Manual. 
-2. The 5V DC Aux power port of a REV Robotics Expansion Hub (note that
-   this requires advanced skills to implement).
+1. 競技マニュアルに準拠した外部接続の市販の（COTS）USB バッテリーパック。
+2. REV Robotics **Expansion Hub** の 5V DC Aux 電源ポート（これを実装するには高度なスキルが必要であることに注意してください）。
 
-*FIRST* has tested a few USB 2.0 powered hubs and recommends one from
-Anker. At the time this document was written, this hub was available
-from `Anker.com <https://www.anker.com/products/a7516>`__.
+*FIRST* はいくつかの USB 2.0 電源付きハブをテストし、Anker のものを推奨しています。このドキュメントが書かれた時点で、このハブは `Anker.com <https://www.anker.com/products/a7516>`__ から入手できました。
 
 .. image:: images/ankerhub.jpg
    :alt: Hub with charger and cable.
 
-The Anker 4-port powered hub is convenient because it has a Micro USB
-port that is used to connect the hub to a 5V power source (highlighted
-with orange circle in figure below).
+Anker 4 ポート電源付きハブは、ハブを 5V 電源に接続するために使用される Micro USB ポートがあるため便利です（下図のオレンジ色の円で強調表示）。
 
 .. image:: images/ankerpowerport.jpg
    :alt: USB Hub with Micro USB port.
@@ -82,17 +66,11 @@ in the figure below.
 .. figure:: images/limefuel.png
    :alt: A complete setup for using a phone and webcam.
    
-   The USB hub is drawing power from a power bank.
+   USB ハブはパワーバンクから電力を供給されています。
 
-The USB hub is connected via it's Type A connector and cable to an OTG cable which connects to the phone.
-The power bank is connected to the USB type B Micro port on the USB hub.
-The webcam is connected to one of the USB type A ports on the USB hub.
-A USB Type A to USB Mini B cable connects the USB hub to the REV Expansion Hub.
+USB ハブは、そのタイプ A コネクタとケーブルを介して、スマートフォンに接続する OTG ケーブルに接続されています。パワーバンクは USB ハブの USB タイプ B Micro ポートに接続されています。ウェブカメラは USB ハブの USB タイプ A ポートの 1 つに接続されています。USB タイプ A から USB Mini B へのケーブルが USB ハブを REV **Expansion Hub** に接続します。
 
-A USB hub can also draw power from the 5V auxiliary ports on the REV
-Robotics Expansion Hub. This configuration requires that the user have a
-special cable that on one end can be plugged into the 5V Auxiliary port
-and on the other end can be plugged into the power port of the USB hub.
+USB ハブは、REV Robotics **Expansion Hub** の 5V 補助ポートから電力を引き出すこともできます。この構成では、ユーザーが特別なケーブルを持っている必要があり、一端は 5V 補助ポートに接続でき、もう一端は USB ハブの電源ポートに接続できます。
 
 .. figure:: images/5vauxcable.png
    :alt: :alt: A complete setup for using a phone and webcam.
@@ -108,18 +86,12 @@ wiring! It is extremely important that the polarity is correct for this
 special cable. If the polarity is reversed it could damage your
 electronic equipment.**
 
-Sample Op Modes
+サンプル OpMode
 ^^^^^^^^^^^^^^^
 
-There are sample Blocks and Java Op Modes that demonstrate how to use
-the external UVC web camera for VisionPortal operations. Before
-a team can use the external UVC camera, a configuration file must be
-configured with the external camera defined as one of the USB-connected
-devices.
+外部 UVC ウェブカメラを **VisionPortal** 操作に使用する方法を示すサンプル **Blocks** および Java **OpMode** があります。チームが外部 UVC カメラを使用する前に、外部カメラを USB 接続デバイスの 1 つとして定義した構成ファイルを構成する必要があります。
 
-Once a valid configuration file has been defined and activated, the
-programmer can use the external UVC camera, instead of the internal
-Android cameras, for vision-related tasks.
+有効な構成ファイルが定義されてアクティブ化されると、プログラマーは、内部 Android カメラの代わりに外部 UVC カメラをビジョン関連のタスクに使用できます。
 
 .. image:: images/blockswebcam.png
    :alt: Sample Blocks code

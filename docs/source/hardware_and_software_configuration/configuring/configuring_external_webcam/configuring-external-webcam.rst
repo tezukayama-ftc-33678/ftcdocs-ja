@@ -6,8 +6,7 @@ Control Hub での外部ウェブカメラの構成
 
 競技マニュアルでは、コンピュータービジョン関連のタスクに USB Video Class（UVC）互換カメラの使用を許可しています。**REV Robotics Control Hub** を使用している場合、**Control Hub** には内蔵カメラが含まれていないため、外部ウェブカメラを使用する必要があります。このドキュメントでは、外部ウェブカメラを **Control Hub** に接続、構成、使用する方法について説明します。
 
-Special thanks to Chris Johannesen of Westside Robotics (Los Angeles)
-このドキュメントをまとめてくれたことに特別な感謝を捧げます。
+このドキュメントをまとめてくれた Westside Robotics (Los Angeles) の Chris Johannesen に特別な感謝を捧げます。
 
 外部カメラのタイプ
 -----------------------
@@ -28,21 +27,20 @@ UVC カメラは、**REV Control Hub** の USB 3.0 ポートに直接接続で�
 .. image:: images/USB-camera-Control-Hub.jpg
    :alt: Control Hub with UVC camera connected.
    
-.. warning:: An electrostatic discharge (ESD) event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
+.. warning:: **Control Hub** の USB 2.0 ポートでの静電気放電（ESD）イベントは、Wi-Fi の切断を引き起こす可能性があります。
 
-   The REV Control Hub has a 
-   `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
-   with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
-   Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
+   REV **Control Hub** には、USB 2.0 ポートに接続されたデバイスに関する
+   `既知の ESD 問題 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
+   があります。
+   USB 2.0 ポートを使用すると、ESD が **Control Hub** の Wi-Fi チップに影響を与える可能性があります（ドライバーハブとの Wi-Fi 切断を引き起こす）。
+   カメラなどの USB デバイスは、**Control Hub** の USB 3.0 ポートに接続してください。 
    
-If you wish to connect two webcams see `Cameras and USB Hubs`_.
+2 つのウェブカメラを接続する場合は、`カメラと USB ハブ`_ を参照してください。
 
-Camera Configuration
+カメラの構成
 --------------------
 
-Before using the external camera, it must be added to the active
-configuration file as a USB-connected device.
+外部カメラを使用する前に、USB 接続デバイスとしてアクティブな構成ファイルに追加する必要があります。
 
 Use the Configure Robot menu item on the paired DRIVER STATION device to
 add the webcam as a USB-connected device to an existing or newly created
@@ -53,15 +51,12 @@ activity should detect the webcam and give it a default name of “Webcam
 .. image:: images/webcam-config-CH.jpg
    :alt: Screen shot showing the Scan button circled in yellow and the resulting USB device listed as Webcam 1.
 
-You can keep this default name (the sample Op Modes reference this name)
-or change it. If you change the webcam name, make sure your Op Modes
-refer to this new name.
+このデフォルト名を保持する（サンプル **OpMode** はこの名前を参照します）か、変更できます。ウェブカメラ名を変更する場合は、**OpMode** がこの新しい名前を参照していることを確認してください。
 
-Sample Op Modes
+サンプル OpMode
 ---------------
 
-When the configuration has been saved and activated, the external UVC
-camera can be programmed for robot vision tasks.
+構成が保存されてアクティブ化されると、外部 UVC カメラをロボットビジョンタスク用にプログラムできます。
 
 The SDK software offers “webcam” versions of its sample Blocks and Java
 Op Modes, showing how to use the external UVC camera for VisionPortal operations.
@@ -69,10 +64,7 @@ Op Modes, showing how to use the external UVC camera for VisionPortal operations
 .. image:: images/blockswebcam.png
    :alt: Blocks code for initializing a webcam.
 
-Before opening and editing an Op Mode, verify that the intended
-configuration (with camera) is active. Also verify that the name
-referenced in the Op Mode matches the name specified in the
-configuration file.
+**OpMode** を開いて編集する前に、意図した構成（カメラ付き）がアクティブであることを確認します。また、**OpMode** で参照されている名前が構成ファイルで指定された名前と一致していることを確認します。
 
 Image Preview
 -------------
@@ -80,36 +72,22 @@ Image Preview
 The *FIRST* Tech Challenge apps provide camera preview for ‘stream-enabled’ Op
 Modes using VisionPortal.
 
-On a paired DRIVER STATION device, with the camera connected and
-configured, select a stream-enabled Op Mode. Press the INIT button, and
-wait briefly for streaming software to initialize; do not press the
-START button. Instead open the main menu (the 3 dots in upper right hand
-corner of the screen) and select Camera Stream. This option appears only
-at this time, during which the game pads and START button are disabled
-for safety.
+ペアリングされた **DRIVER STATION** デバイスで、カメラを接続して構成し、ストリーム対応 **OpMode** を選択します。INIT ボタンを押し、ストリーミングソフトウェアが初期化されるまで少し待ちます。START ボタンを押さないでください。代わりに、メインメニュー（画面右上の 3 つのドット）を開き、Camera Stream を選択します。このオプションは、ゲームパッドと START ボタンが安全のために無効になっているこの時点でのみ表示されます。
 
 .. image:: images/DS-webcam-preview-CH-1.jpg
    :alt: Driver Station screen shot showing the menu with the Camera Stream option circled in yellow.
 
-The camera image will appear on the DRIVER STATION screen. Manually
-touch the image to refresh it. To preserve bandwidth, only one frame is
-sent at a time.
+カメラ画像が **DRIVER STATION** 画面に表示されます。画像を手動でタッチして更新します。帯域幅を節約するために、一度に 1 つのフレームのみが送信されます。
 
 .. image:: images/DS-webcam-preview-CH-2.jpg
    :alt: Driver Station screen shot showing the camera image. 
 
-This option may be used to adjust the camera, with frequent manual image
-refreshing as needed. When finished, open the main menu and select
-Camera Stream again to turn off the preview. The preview image will
-close, the game pads will be enabled, and the START button may be
-pressed to continue running the Op Mode.
+このオプションを使用して、必要に応じて頻繁に手動で画像を更新しながら、カメラを調整できます。完了したら、メインメニューを開き、Camera Stream を再度選択してプレビューをオフにします。プレビュー画像が閉じ、ゲームパッドが有効になり、START ボタンを押して **OpMode** の実行を続行できます。
 
 .. image:: images/DS-webcam-preview-CH-3.jpg
    :alt: Driver Station screen shot showing the menu with the Camera Stream option circled in yellow.
 
-.. note:: Because the Camera Stream feature is only available
-   during the INIT phase of an Op Mode, you must ensure that the VisionPortal
-   is activated in your Op Mode **before** the waitForStart command:
+.. note:: Camera Stream 機能は **OpMode** の INIT フェーズ中にのみ使用できるため、waitForStart コマンドの**前**に **OpMode** で **VisionPortal** がアクティブ化されていることを確認する必要があります。
 
 .. image:: images/activateBeforeWaitForStart.png
    :alt: Blocks code showing the INIT code for the webcam is called before wait for start.
@@ -123,65 +101,38 @@ you check to see if Camera Stream is available.
 Scrcpy
 ------
 
-To view the camera output from a computer while an OpMode is running, you
-can use `scrcpy <https://github.com/Genymobile/scrcpy>`__. To do this,
-you will first need to obtain an ADB connection with your Control Hub.
-This can be done by connecting a USB-A to USB-C cable to the USB-C port
-on your Control Hub. If on Windows, you may also connect to your Control
-Hub WiFi network and open the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__.
-Once connected, use `these instructions <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__
-to install and run scrcpy on your computer.
+**OpMode** の実行中にコンピューターからカメラ出力を表示するには、`scrcpy <https://github.com/Genymobile/scrcpy>`__ を使用できます。これを行うには、まず **Control Hub** との ADB 接続を取得する必要があります。これは、**Control Hub** の USB-C ポートに USB-A から USB-C ケーブルを接続することで実行できます。Windows の場合、**Control Hub** WiFi ネットワークに接続し、`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__ を開くこともできます。接続したら、`これらの指示 <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__ を使用して、コンピューターに scrcpy をインストールして実行します。
 
 .. image:: images/webcamWithScrcpy.jpg
    :alt: Screen shot showing the camera output viewed with scrcpy.
 
-.. warning:: While scrcpy is a great way to view the camera output,
-   the Competition Manual does not allow teams to
-   have any devices other than the DRIVER STATION connected to your Control
-   Hub during a match.
+.. warning:: scrcpy はカメラ出力を表示する優れた方法ですが、競技マニュアルでは、マッチ中に **DRIVER STATION** 以外のデバイスを **Control Hub** に接続することを許可していません。
 
-External HDMI Monitor
+外部 HDMI モニター
 ---------------------
 
-Alternatively, camera output can be viewed on a display monitor or other
-device plugged into the HDMI port on the REV Control Hub.
+また、カメラ出力は、REV **Control Hub** の HDMI ポートに接続されたディスプレイモニターまたは他のデバイスで表示できます。
 
 .. image:: images/HDMIMonitor.jpg
    :alt: Photo showing an external HDMI monitor displaying the camera output from a connected control hub.
 
-.. warning:: While a portable display monitor can be used to view
-   or troubleshoot the camera stream on your Control Hub, teams are not
-   allowed to have a portable display monitor connected to their Control
-   Hub during a match.
+.. warning:: ポータブルディスプレイモニターを使用して **Control Hub** のカメラストリームを表示またはトラブルシューティングできますが、マッチ中にポータブルディスプレイモニターを **Control Hub** に接続することは許可されていません。
 
-Advanced Users
+上級ユーザー
 --------------
 
-For custom streams, advanced users of Android Studio may consult the
-`API documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__ for
-`CameraStreamClient <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html>`__,
-`CameraStreamServer <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html>`__
-and
-`CameraStreamSource <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamSource.html>`__
-classes.
+カスタムストリームの場合、**Android Studio** の上級ユーザーは、`CameraStreamClient <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html>`__、`CameraStreamServer <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html>`__、および `CameraStreamSource <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamSource.html>`__ クラスの `API ドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__ を参照できます。
 
-Cameras and USB Hubs 
+カメラと USB ハブ
 ^^^^^^^^^^^^^^^^^^^^
 
-You can already connect a UVC webcam into the USB 3.0 port of a Control Hub.
-But what if you want to use two webcams?
-Perhaps you want the robot to be able to look forward and/or behind without having to spin the robot. 
-In order to use two webcams on the Control Hub's USB 3.0 port you can add a USB Hub.
-This avoid the ESD issue with devices on the USB 2.0 port.
+**Control Hub** の USB 3.0 ポートに UVC ウェブカメラをすでに接続できます。しかし、2 つのウェブカメラを使用したい場合はどうでしょうか？おそらく、ロボットを回転させることなく、ロボットが前方や後方を見ることができるようにしたいでしょう。**Control Hub** の USB 3.0 ポートで 2 つのウェブカメラを使用するには、USB ハブを追加できます。これにより、USB 2.0 ポートのデバイスでの ESD 問題が回避されます。
 
-.. note:: If you're using two standard UVC webcams you are not required to use a powered USB hub.
+.. note:: 2 つの標準 UVC ウェブカメラを使用している場合、電源付き USB ハブを使用する必要はありません。
 
-   However, some webcams like the Logitech C920 draw more power than others and there are reports of them drawing too much power from the USB port when used at the same time.
-   Therefore, you should probably use a powered USB hub for the C920.
+   ただし、Logitech C920 のような一部のウェブカメラは他のものよりも多くの電力を消費し、同時に使用すると USB ポートから過剰な電力を消費するという報告があります。したがって、C920 には電源付き USB ハブを使用する必要があります。
 
-Another use case for a USB hub is if you have a `Limelight 3A <https://limelightvision.io/products/limelight-3a>`_ camera. 
-This device has its own processor on board and one drawback of this is that the camera always draws power, even when an opMode is not running.
-By adding a powered USB hub the Limelight will not drain your robot's battery.
+USB ハブのもう 1 つの使用例は、`Limelight 3A <https://limelightvision.io/products/limelight-3a>`_ カメラを使用している場合です。このデバイスにはボード上に独自のプロセッサがあり、これの欠点の 1 つは、**opMode** が実行されていない場合でも、カメラが常に電力を消費することです。電源付き USB ハブを追加することで、Limelight はロボットのバッテリーを消耗しません。
 
 One suitable powered USB hub is the Acer ODK350 5-IN-1 USB 3.0 Hub. 
 It has a USB C port that can supply power to all connected devices.

@@ -53,7 +53,7 @@ DS デバイス（スマートフォンまたは Driver Hub）は、独自の DS
 -  `RC Self Inspect 3 <#rc-self-inspect-3-appearing-on-rc-phone-paired-with-driver-hub>`__、Driver Hub とペアリングされた RC スマートフォンに表示
 -  `RC Self Inspect 4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-phone>`__、RC スマートフォンにペアリングされた Driver Hub に表示
 -  `RC Self Inspect 5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-control-hub>`__、Control Hub にペアリングされた DS スマートフォンに表示
-that device and combination.
+そのデバイスと組み合わせ。
 
 DS Self Inspect 1, on DS phone paired to RC phone
 -------------------------------------------------
@@ -456,4 +456,4 @@ Robot. This allows quick verification that issues have been resolved.
 
 =============
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、訂正は westsiderobotics@verizon.net まで

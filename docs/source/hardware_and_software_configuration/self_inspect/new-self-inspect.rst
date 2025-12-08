@@ -18,13 +18,10 @@
 
 課題は、小さな画面で有用な情報を最大化することです。自己点検のレイアウトとグラフィックスは FTC の要件に応じて進化します。このページでは、簡潔で意味のあるキャプションのいくつかを明確にします。
 
-Robot Inspection
+ロボット検査
 ----------------
 
-The Self Inspection reports may be reviewed in Robot Inspection at an FTC tournament, but is **not** a comprehensive or official standard of compliance with FTC rules.
-With the robot and driver station turned on and connected the inspector may go through the **Inspection Checklist** form (on paper or a tablet).
-They will check both the **Driver Station Inspection Report** and the **Robot Controller Inspection Report**, both of which can be displayed from the DS.
-Many FTC events will scan the QR Code that is displayed on the RC Inspection Report.
+自己点検レポートは FTC トーナメントのロボット検査でレビューされる場合がありますが、FTC ルールへの準拠の包括的または公式の基準では**ありません**。ロボットとドライバーステーションがオンになって接続されている状態で、検査官は **Inspection Checklist** フォーム（紙またはタブレット上）を確認できます。**Driver Station Inspection Report** と **Robot Controller Inspection Report** の両方を確認します。これらはどちらも DS から表示できます。多くの FTC イベントでは、RC Inspection Report に表示される QR コードをスキャンします。
 
 バージョン情報
 -------------------
@@ -59,14 +56,11 @@ Driver Station 自己点検レポート
 
    All items are good
 
--  Item 1 The three dots are a menu with two choices: ``Disconnect from Wi-Fi Direct`` and ``Disable Bluetooth``. 
-   Neither is likely needed for a Driver Hub paired to a Control Hub, they are mostly for phones that could be used as a driver station or robot controller.
-   ``Disconnect from Wi-Fi Direct`` does work, but sometimes the apps re-pair automatically.
-   ``Disable Bluetooth`` shouldn't be needed unless Bluetooth was somehow enabled on the DS.
--  Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub. 
--  Item 3 ``Model`` should be **Driver Hub**.
--  Item 4 ``Driver Hub OS Version`` is probably 1.2.0.
--  Item 5 ``Android Version`` is probably 10 for a Driver Hub. 
+-  項目 1 3 つのドットは、``Disconnect from Wi-Fi Direct`` と ``Disable Bluetooth`` の 2 つの選択肢があるメニューです。どちらも **Control Hub** とペアリングされた **Driver Hub** には必要ありませんが、ドライバーステーションまたはロボットコントローラーとして使用できるスマートフォンには主に必要です。``Disconnect from Wi-Fi Direct`` は機能しますが、アプリが自動的に再ペアリングされることがあります。``Disable Bluetooth`` は、DS で Bluetooth が何らかの形で有効になっている場合を除いて、必要ありません。
+-  項目 2 ``Manufacturer`` は REV **Driver Hub** の場合 **REV Robotics** である必要があります。
+-  項目 3 ``Model`` は **Driver Hub** である必要があります。
+-  項目 4 ``Driver Hub OS Version`` はおそらく 1.2.0 です。
+-  項目 5 ``Android Version`` は **Driver Hub** の場合おそらく 10 です。 
 -  Item 6 shows the ``Battery Level`` of the device being reported. Fun
    fact: the green color of the percentage value changes towards
    **orange** as the charge level goes down.
@@ -75,16 +69,10 @@ Driver Station 自己点検レポート
    **Android 8** or higher. This is an SDK/Android technology requirement, not an FTC rule.
 -  Item 9 ``Wi-Fi Enabled`` must be **Yes** as it means the DS device’s Wi-Fi radio is **ON**.
 -  Item 10 ``Standard Wi-Fi Connected`` must be **Yes** to indicate the Driver Hub is connected to a standard Wi-Fi source, such as a Control Hub.
--  Item 11 shows the ``Driver Station Name`` meets FTC format requirements. It should be your team number plus -DS, example 99999-DS.
-   If a spare device is configured, a letter designator may be added <team number>-<letter>-DS (e.g., 12345-A-DS, 12345-B-DS).
-   See the Competition Manual for device naming rules.
--  Item 12 shows the ``Robot Controller Name``. It will show **None** if not connected. It will show an error if team number portion of the Robot Controller and Driver Station names do not match.
-   It does not check whether the RC name matches FTC format requirements. See the Robot Controller Self Inspection Report.
--  Item 13 Apps Installed ``Robot Controller`` should be **Not installed**. This verifies that the Driver Station device does **not** also have a Robot Controller app
-   installed. Only one FTC app should be installed on each device. It's possible to accidentally install both apps, but this usually causes the apps to not work properly.
--  Item 14 Apps Installed ``Driver Station`` should indicate the version number of the Driver Station App. *FIRST* recommends but does not require that teams use the currently available version.
-   An invalid or future device system date can result in an invalid inspection item here with a message that "The Driver Station app is obsolete".
-   Correcting the date on the device should fix the invalid inspection item.
+-  項目 11 は、``Driver Station Name`` が FTC フォーマット要件を満たしていることを示します。チーム番号に -DS を加えたものである必要があります。例：99999-DS。予備デバイスが構成されている場合、文字指定子を追加できます <チーム番号>-<文字>-DS（例：12345-A-DS、12345-B-DS）。デバイスの命名規則については、競技マニュアルを参照してください。
+-  項目 12 は ``Robot Controller Name`` を示します。接続されていない場合は **None** が表示されます。**Robot Controller** と **Driver Station** の名前のチーム番号部分が一致しない場合は、エラーが表示されます。RC 名が FTC フォーマット要件と一致しているかどうかはチェックしません。**Robot Controller** 自己点検レポートを参照してください。
+-  項目 13 Apps Installed ``Robot Controller`` は **Not installed** である必要があります。これは、**Driver Station** デバイスに **Robot Controller** アプリもインストールされて**いない**ことを確認します。各デバイスには 1 つの FTC アプリのみをインストールする必要があります。両方のアプリを誤ってインストールすることは可能ですが、これは通常、アプリが正しく動作しない原因となります。
+-  項目 14 Apps Installed ``Driver Station`` は、**Driver Station** アプリのバージョン番号を示す必要があります。*FIRST* は、チームが現在利用可能なバージョンを使用することを推奨していますが、必須ではありません。無効または将来のデバイスシステムの日付は、ここで「Driver Station app is obsolete」というメッセージで無効な検査項目を引き起こす可能性があります。デバイスの日付を修正すると、無効な検査項目が修正されるはずです。
 
 ==================================
 
@@ -102,25 +90,20 @@ Then the FTCRobotController app was also deployed to the DS device from Android 
 
    Self Inspect with issues!
 
--  Item 10 rejects ``Standard Wi-Fi Connected`` for being **No**.
-   The DS is not yet connected to a robot. You should fix the Driver Station Name before connecting the devices.
--  Item 11 rejects ``Driver Station Name`` for not meeting FTC format requirements. **Android_a301** is an example of a DS name for a brand new DS. 
-   Go into the DS App Settings and set the Driver Station Name as per the rules in the Competition Manual. e.g. Team number plus -DS: **99999-DS**.
--  Item 12 rejects ``Robot Controller Name`` because it doesn't match with the DS Name. The value of **None** is because the DS is not connected to a RC.
-   This item doesn't check the RC name format is valid, only that the team number portion of the RC Name matches the team number portion of the DS Name.
--  Item 13 rejects the presence of an RC app installed on this DS device. Uninstall the RC App from the driver station device.
+-  項目 10 は ``Standard Wi-Fi Connected`` が **No** であることを拒否します。DS はまだロボットに接続されていません。デバイスを接続する前に **Driver Station** 名を修正する必要があります。
+-  項目 11 は、FTC フォーマット要件を満たしていないため ``Driver Station Name`` を拒否します。**Android_a301** は、新品の DS の DS 名の例です。DS アプリの設定に移動し、競技マニュアルのルールに従って **Driver Station** 名を設定します。例：チーム番号に -DS を加えたもの：**99999-DS**。
+-  項目 12 は、DS 名と一致しないため ``Robot Controller Name`` を拒否します。**None** の値は、DS が RC に接続されていないためです。この項目は、RC 名のフォーマットが有効かどうかをチェックせず、RC 名のチーム番号部分が DS 名のチーム番号部分と一致することのみをチェックします。
+-  項目 13 は、この DS デバイスにインストールされた RC アプリの存在を拒否します。ドライバーステーションデバイスから RC アプリをアンインストールします。
 
-As you correct each problem the inspection report should refresh and show the current status.
+各問題を修正すると、検査レポートが更新され、現在の状態が表示されるはずです。
 
 .. tip::
-   Touching a red circle exclamation mark icon or an orange triangle exclamation mark icon on a self-inspect screen should temporarily display a message related to the problem.
+   自己点検画面で赤い円の感嘆符アイコンまたはオレンジ色の三角形の感嘆符アイコンをタッチすると、問題に関連するメッセージが一時的に表示されるはずです。
    
-Robot Controller Self Inspection Report
+Robot Controller 自己点検レポート
 ---------------------------------------
 
-Now we change to **Robot Controller** Self Inspect report.
-This is normally viewed from the Driver Station by selecting the **Inspect Robot Controller** menu option on the Inspection Reports DS screen.
-FYI - if you connect an external monitor to the Control Hub's HDMI port and a mouse to a USB port you can view the RC Inspection report directly from the Control Hub.
+ここで、**Robot Controller** 自己点検レポートに変更します。これは通常、Inspection Reports DS 画面の **Inspect Robot Controller** メニューオプションを選択することで **Driver Station** から表示されます。参考までに - **Control Hub** の HDMI ポートに外部モニターを接続し、USB ポートにマウスを接続すると、**Control Hub** から直接 RC 検査レポートを表示できます。
 
 .. figure:: images/newRC.png   
    :align: center
@@ -129,50 +112,38 @@ FYI - if you connect an external monitor to the Control Hub's HDMI port and a mo
 
    All items are good, except RC Password
 
--  Item 1 The three dots are a menu with one choice: ``Disable Bluetooth``. 
-   It shouldn't be needed unless Bluetooth was somehow enabled on the Control Hub.
--  Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Control Hub. 
--  Item 3 ``Model`` should be **Control Hub v1.0**.
--  Item 4 ``Control Hub OS Version`` should be at least 1.1.6. *FIRST* recommends but does not require that teams use the currently available version.
--  Item 5 ``Android Version`` is probably 7.1.2 for a Control Hub.
--  Item 6 ``Hub Firmware`` lists the hub addresses and firmware levels. This
-   example shows one Control Hub, but an Expansion Hub can also be listed here. A
-   check mark indicates all firmware is up-to-date based on the current version of the RC app. 
-   *FIRST* recommends but does not require that teams use the currently available version.
--  Item 7 shows the ``Battery Level`` of the device being reported.
--  Item 8 ``Bluetooth`` should be **Disabled**.
+-  項目 1 3 つのドットは、``Disable Bluetooth`` という 1 つの選択肢があるメニューです。**Control Hub** で Bluetooth が何らかの形で有効になっている場合を除いて、必要ありません。
+-  項目 2 ``Manufacturer`` は REV **Control Hub** の場合 **REV Robotics** である必要があります。
+-  項目 3 ``Model`` は **Control Hub v1.0** である必要があります。
+-  項目 4 ``Control Hub OS Version`` は少なくとも 1.1.6 である必要があります。*FIRST* は、チームが現在利用可能なバージョンを使用することを推奨していますが、必須ではありません。
+-  項目 5 ``Android Version`` は **Control Hub** の場合おそらく 7.1.2 です。
+-  項目 6 ``Hub Firmware`` は、ハブアドレスとファームウェアレベルをリストします。この例では 1 つの **Control Hub** が表示されていますが、**Expansion Hub** もここにリストできます。チェックマークは、RC アプリの現在のバージョンに基づいてすべてのファームウェアが最新であることを示します。*FIRST* は、チームが現在利用可能なバージョンを使用することを推奨していますが、必須ではありません。
+-  項目 7 は、報告されているデバイスの ``Battery Level`` を示します。
+-  項目 8 ``Bluetooth`` は **Disabled** である必要があります。
 -  Item 9 ``RC Password`` appears only in RC Self Inspect. This inspection item has failed the FTC requirement for a Control Hub
    password different than the factory default (“password”). Go to the Program and Manage page, select Manage and then update the RC password.
    You will have to re-pair the DS to the RC and enter the new password to reconnect.
 -  Item 10 ``Wi-Fi Enabled`` must be **Yes** as it means the control hub’s Wi-Fi radio is **ON**.
 -  Item 11 ``Standard Wi-Fi Connected`` must be **Yes**.
--  Item 12 shows the ``Robot Controller Name`` meets FTC format requirements. It should be your team number plus -RC, example 99999-RC.
-   If a spare device is configured, a letter designator may be added <team number>-<letter>-RC (e.g., 12345-A-RC, 12345-B-RC).
-   See the Competition Manual for device naming rules.
--  Item 13 Apps Installed ``Robot Controller`` should show the RC app version. *FIRST* recommends but does not require that teams use the currently available version.
--  Item 14 ``Matches DS Version`` should be **Yes**. A **No** can show up here and is likely due to a point mismatch e.g. 10.0 and 10.1, mismatches are now allowed, but not recommended.
--  Item 15 Apps Installed ``Driver Station`` should be **Not installed**, this verifies that the Robot Controller device does **not** also have a Driver Station app installed.
-   Only one FTC app should be installed on each device. It's possible to accidentally install both apps, but this usually causes the apps to not work properly.
--  Item 16 At the bottom of the RC inspection report is a QR Code that can be scanned during inspection to fill in many of the inspection checklist items if the inspector is using a tablet.
+-  項目 12 は、``Robot Controller Name`` が FTC フォーマット要件を満たしていることを示します。チーム番号に -RC を加えたものである必要があります。例：99999-RC。予備デバイスが構成されている場合、文字指定子を追加できます <チーム番号>-<文字>-RC（例：12345-A-RC、12345-B-RC）。デバイスの命名規則については、競技マニュアルを参照してください。
+-  項目 13 Apps Installed ``Robot Controller`` は、RC アプリのバージョンを表示する必要があります。*FIRST* は、チームが現在利用可能なバージョンを使用することを推奨していますが、必須ではありません。
+-  項目 14 ``Matches DS Version`` は **Yes** である必要があります。**No** がここに表示される可能性があり、おそらくポイントの不一致（例：10.0 と 10.1）が原因です。不一致は現在許可されていますが、推奨されません。
+-  項目 15 Apps Installed ``Driver Station`` は **Not installed** である必要があります。これは、**Robot Controller** デバイスに **Driver Station** アプリもインストールされて**いない**ことを確認します。各デバイスには 1 つの FTC アプリのみをインストールする必要があります。両方のアプリを誤ってインストールすることは可能ですが、これは通常、アプリが正しく動作しない原因となります。
+-  項目 16 RC 検査レポートの下部には、検査官がタブレットを使用している場合に、検査チェックリスト項目の多くを入力するために検査中にスキャンできる QR コードがあります。
 
 .. figure:: images/newRcQrCode.png   
    :align: center
    :width: 85%
    :alt: Self Inspect QR code
 
-   The robot inspector may scan the QR Code during inspection
+   ロボット検査官は検査中に QR コードをスキャンできます
 
-Summary
+まとめ
 -------
 
-The Self Inspect screen is a quick, handy reference to help teams
-confirm that certain control system elements are up-to-date and properly
-configured.
+自己点検画面は、チームが特定の制御システム要素が最新であり、適切に構成されていることを確認するのに役立つ、迅速で便利なリファレンスです。
 
-Self Inspect may be reviewed in Robot Inspection at an FTC tournament,
-but is **not** a comprehensive or official standard of compliance with
-FTC rules.
+自己点検は FTC トーナメントのロボット検査でレビューされる場合がありますが、FTC ルールへの準拠の包括的または公式の基準では**ありません**。
 
-Each inspection screen updates automatically, with or without a Restart
-Robot. This allows quick verification that issues have been resolved.
+各検査画面は、ロボットの再起動の有無にかかわらず、自動的に更新されます。これにより、問題が解決されたことを迅速に確認できます。
 
