@@ -12,4 +12,4 @@ Expansion Hub ポート
 USB-B ポート
 ----------
 
-Android RC スマートフォンは、USB OTG ケーブルで接続されたこの USB-mini-B ポートを介して **Expansion Hub** を制御します。このポートは、ファームウェアの更新も可能にします。
+Android RC スマートフォンは、USB OTG ケーブルで接続されたこの USB-mini-B ポートを介して **Expansion Hub** を制御します。このポートで、ファームウェアの更新も可能です。
