@@ -11,14 +11,7 @@ XT30 コネクタは脆弱性で知られているため、使用時には十分
 モーターポート
 -------------
 
-These `JST-VH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-vh-motor-power>`_ 
-style connectors are used to power your motors. There are 4 of these ports 
-per hub and they are numbered from 0-3. As you are able to use 8 motors per robot you may 
-want to control more than these hubs allow. In that case it is possible for you to use 
-an :ref:`additional hub<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` 
-or to use a `REV SPARKmini Motor Controller <https://www.revrobotics.com/rev-31-1230/>`_ 
-(REV-31-1230) to power more motors. For more information on this port please see 
-`REV Motor Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#motor-port-specifications>`_.
+これらの `JST-VH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-vh-motor-power>`_ スタイルコネクタは、モーターに電力を供給するために使用されます。各 Hub にはこれらのポートが 4 つあり、0〜3 の番号が付けられています。ロボットごとに 8 つのモーターを使用できるため、これらの Hub が許可する以上のモーターを制御したい場合があります。その場合、:ref:`追加の Hub<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` を使用するか、`REV SPARKmini Motor Controller <https://www.revrobotics.com/rev-31-1230/>`_（REV-31-1230）を使用してより多くのモーターに電力を供給することができます。このポートの詳細については、`REV モーターポートのドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#motor-port-specifications>`_ を参照してください。
 
 
 エンコーダーポート
@@ -42,45 +35,35 @@ See the Motors & Actuators section of the `Competition Manual <https://ftc-resou
 ---------------
 
 これらの 0.1 インチヘッダーピンは、さまざまな機器に電力を供給し、制御するために使用されます。各 Hub には 2 つのポートがあります。これらのコネクタは、電源付き USB ハブへの電力供給など、*FIRST* Tech Challenge の限られた範囲のアプリケーションに使用できます。このポートの詳細については、`REV +5V 電源ポートのドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#id-5v-power-port-specifications>`_ および `競技マニュアル <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_ の電力分配セクションを参照してください。
-of values rather than digital which alternates between one of two states. For more information on this port please see 
-`REV Analog Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#analog-port-specifications>`_.
 
-Digital Ports
+アナログポート
 ---------------
 
-These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for your digital inputs. There are 4 of these ports on each hub with a total of 8 channels labeled from `0-7`. 
-A device attached to a digital port alternates between one of two states (e.g., on and off). One such device would be a button. It is important
-to note that each port has two channels and devices such as the `REV Touch Sensor <https://www.revrobotics.com/rev-31-1425/>`_ will only operate on one channel (N+1).
+これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルコネクタは、アナログ入力に使用されます。各 Hub にはこれらのポートが 4 つあり、0〜3 の番号が付けられています。アナログポートに接続されたデバイスは、2 つの状態のいずれかを交互に切り替えるデジタルではなく、値の範囲を提供します。このポートの詳細については、`REV アナログポートのドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#analog-port-specifications>`_ を参照してください。
+
+デジタルポート
+---------------
+
+これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルコネクタは、デジタル入力に使用されます。各 Hub にはこれらのポートが 4 つあり、合計 8 つのチャンネルが `0-7` とラベル付けされています。デジタルポートに接続されたデバイスは、2 つの状態（例：オンとオフ）のいずれかを交互に切り替えます。そのようなデバイスの 1 つがボタンです。各ポートには 2 つのチャンネルがあり、`REV Touch Sensor <https://www.revrobotics.com/rev-31-1425/>`_ などのデバイスは 1 つのチャンネル（N+1）でのみ動作することに注意することが重要です。
 
 
-I2C Ports
+I2C ポート
 ---------
 
 .. todo::
    TODO [uvidyadharan]
    Add reference to I2C Driver creation tutorial once migrated
 
-These 4-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for connecting I2C sensors. Each port is a single I2C bus where multiple sensors can be 
-attached. Using sensors with identical addresses on the same bus can cause problems. 
-While it is possible to use a large range of 
-sensors, the vast majority of I2C sensors do not have drivers built into the SDK. It is possible to use community drivers 
-or create your own. For more information on this port please see 
-`REV I2C Port Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#i2c-port-specifications>`_.
+これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルコネクタは、I2C センサーの接続に使用されます。各ポートは単一の I2C バスであり、複数のセンサーを接続できます。同じバス上で同一のアドレスを持つセンサーを使用すると、問題が発生する可能性があります。広範囲のセンサーを使用することは可能ですが、I2C センサーの大部分には SDK に組み込まれたドライバーがありません。コミュニティドライバーを使用するか、独自のドライバーを作成することができます。このポートの詳細については、`REV I2C ポートのドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#i2c-port-specifications>`_ を参照してください。
 
 
 RS485
 -----
 
-These 3-pin `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ 
-style connectors are used for serial communication between REV Hubs. You would use this port if you wished to use a second REV Hub 
-as described :ref:`in this tutorial <hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>`. 
-Both RS485 ports can be used to add redundancy by using two cables connecting both ports between the REV Hubs.
+これらの 3 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルコネクタは、REV Hub 間のシリアル通信に使用されます。:ref:`このチュートリアル <hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` で説明されているように、2 つ目の REV Hub を使用する場合にこのポートを使用します。両方の RS485 ポートを使用して、REV Hub 間の両方のポートを接続する 2 本のケーブルを使用することで、冗長性を追加できます。
 
 UART
 -----
 
-This connector is used only for **Developer** (non end user) debugging. Its use is not supported 
-by *FIRST*.
+このコネクタは**開発者**（エンドユーザー以外）のデバッグにのみ使用されます。その使用は *FIRST* によってサポートされていません。
 
