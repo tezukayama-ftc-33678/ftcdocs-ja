@@ -35,6 +35,4 @@ Expansion Hub
 
     REV Expansion Hub (REV-31-1153)
 
-A REV Expansion Hub is a hub that is used to control all of the hardware components of your robot. 
-It takes the commands your Android Device sends and actually makes it happen. If you want to move a motor, 
 **REV Expansion Hub** は、ロボットのすべてのハードウェアコンポーネントを制御するために使用される Hub です。**Expansion Hub** は、モーターを動かす命令を受け取り、実際にモーターに正しい方法で電力を送ります。ただし、いつこれを行うかはわからないため、Android デバイスが必要になります。このデバイスは、USB 経由で接続された従来の Android スマートフォン、または **Control Hub** に組み込まれたデバイスのいずれかです。複数の Hub を使用する場合、これらの Hub は ``RS485`` または USB 経由で接続できます。詳細については、:ref:`こちら <hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` を参照してください。
