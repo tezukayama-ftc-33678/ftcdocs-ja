@@ -1,47 +1,31 @@
-About the *FIRST* Tech Challenge
+*FIRST* Tech Challenge について
 ================================
 
-It’s way more than building robots. *FIRST* Tech Challenge teams (up to 15 team
-members, grades 7-12) are challenged to design, build, program, and operate
-robots to compete in a head-to-head challenge in an alliance format.
+単にロボットを作るだけではありません。*FIRST* Tech Challenge チーム（最大15名のチームメンバー、中学1年生～高校3年生）は、ロボットを設計、製作、プログラム、操作し、アライアンス形式の対戦競技に挑戦します。
 
-Guided by adult coaches and mentors, students develop STEM skills and practice
-engineering principles, while realizing the value of hard work, innovation, and
-working as a team.
+大人のコーチやメンターの指導のもと、学生たちはSTEMスキルを習得し、エンジニアリングの原理を実践しながら、努力、革新、チームワークの価値を実感します。
 
-The robot kit is reusable from year to year and can be coded using a variety of
-levels of graphical and Java-based programming. Teams design and build robots,
-raise funds, design and market their team brand, and do community outreach to
-earn specific awards. Participants are encouraged to explore future education,
-enlistment, and other employment pathways.
+ロボットキットは年々再利用可能で、様々なレベルのグラフィカルプログラミングやJavaベースのプログラミングを使用してコーディングできます。チームはロボットを設計・製作し、資金を調達し、チームブランドを設計・マーケティングし、地域貢献活動を行って特定の賞を獲得します。参加者は、将来の教育、就職、その他の雇用経路を探求することが奨励されています。
 
 .. comment
    Build the FIRST Championship link so we can italicize FIRST.
 
-Each season concludes with regional championship events and an exciting |text|_.
+各シーズンは、地域チャンピオンシップイベントとエキサイティングな |text|_ で締めくくられます。
 
 .. _text: https://www.firstchampionship.org/
-.. |text| replace:: *FIRST* Championship
+.. |text| replace:: *FIRST* チャンピオンシップ
 
 
 .. only:: latex
 
-   `About FIRST Tech Challenge (2021) <https://www.youtube.com/embed/y5NPp_5KHuk>`__
-
+*FIRST* Tech Challenge チームを始める
+!!:s^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. raw:: html
+*FIRST* Tech Challenge チームは、再利用可能なパーツキットを使用してロボットを設計・製作し、共通のゲームルールのもとでエキサイティングなフィールドゲームをプレイし、特定のシーズンチャレンジを達成します。ロボットゲームは毎シーズン変わり、常に楽しいものです！
 
-   <iframe width="100%" height="452" src="https://www.youtube.com/embed/y5NPp_5KHuk?enablejsapi=1" title="About FIRST Tech Challenge (2021)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; enablejsapi; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+学生と大人のチームメンバーは、プログラミング、電子工学、金属加工、グラフィックデザイン、ウェブ制作、スピーチ、ビデオ撮影など、すでに持っているスキルを持ち寄ることが奨励されています。*FIRST* Tech Challenge は、特別なスキルの有無に関わらず、すべての学生を歓迎します。
 
-|
-
-Start a *FIRST* Tech Challenge Team
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-*FIRST* Tech Challenge teams design and build a robot using a reusable kit of
-parts and compete within a common set of game rules to play an exciting field
-game and complete the specific season challenge. The robot game changes every
-season and is always a blast!
-
+*FIRST* を教室やアフタースクールプログラムに組み込むことを検討している場合は、最大24名の学生向けの柔軟な実施オプションである *FIRST* Class Pack について詳しく学んでください。
 Student and adult team members are encouraged to bring any skills they already
 have, like programming, electronics, metalworking, graphic design, web
 creation, public speaking, videography, and many more. *FIRST* Tech Challenge
@@ -60,13 +44,13 @@ Continue on to learn about the |text2|_
 .. |text2| replace:: essential steps to starting a *FIRST* Tech Challenge Team!
 
 About *FIRST* Tech Challenge Kahoot
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+*FIRST* Tech Challenge Kahoot について
+!!:s^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This is a fun self-led *FIRST* Tech Challenge `Kahoot
-<https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__ to
-test and build your knowledge. Learn about the many facets of *FIRST* Tech
-Challenge and the Core Values of *FIRST* in the *FIRST* Tech Challenge `Kahoot
-<https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__.
+これは、*FIRST* Tech Challenge の知識をテストし、構築するための楽しい自習式 `Kahoot
+<https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__ です。
+*FIRST* Tech Challenge の多くの側面と *FIRST* のコアバリューについて学びましょう。*FIRST* Tech Challenge `Kahoot
+<https://create.kahoot.it/course/f79560a1-df68-44dd-bbef-d8c9bf5a27f5>`__ でお楽しみください。
 
 
 

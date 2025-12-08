@@ -1,18 +1,17 @@
 .. meta::
-   :title: FIRST Tech Challenge Documentation
-   :description: The official home of FIRST Tech Challenge Documentation.
+   :title: FIRST Tech Challenge ドキュメント
+   :description: FIRST Tech Challenge ドキュメントの公式ホーム。
    :keywords: FTC Control System, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, Driver Hub, IMU, Water Game
 
-*FIRST* Tech Challenge documentation
+*FIRST* Tech Challenge ドキュメント
 ====================================
 
-Welcome to the *FIRST®* Tech Challenge Documentation! This website contains everything you need to know to create a competition robot!
-There is information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.
-There is also information for coaches and mentors.
+*FIRST®* Tech Challenge ドキュメントへようこそ！このウェブサイトには、競技用ロボットを作成するために必要なすべての情報が含まれています！
+*FIRST* Tech Challenge のソフトウェアとロボット制御システムの使用方法に関する情報とチュートリアルがあります。
+また、コーチやメンターのための情報も提供しています。
 
-*FIRST* Tech Challenge is a robotics program for middle and high school students.
-It’s way more than building robots, see :doc:`About the FIRST Tech Challenge <overview/ftcoverview>`
-and :doc:`gracious_professionalism/gp` to see why.
+*FIRST* Tech Challenge は中高生向けのロボティクスプログラムです。
+単にロボットを作るだけではありません。その理由については :doc:`FIRST Tech Challenge について <overview/ftcoverview>` と :doc:`gracious_professionalism/gp` をご覧ください。
 
 .. toctree::
    :hidden:
@@ -22,7 +21,7 @@ and :doc:`gracious_professionalism/gp` to see why.
    gracious_professionalism/gp
 
 .. toctree::
-   :caption: Getting Started
+   :caption: 始め方
    :maxdepth: 1
    :hidden:
 
@@ -32,35 +31,35 @@ and :doc:`gracious_professionalism/gp` to see why.
    persona_pages/mentor_tech/mentor_tech
    
 .. toctree::
-   :caption: Game and Season-Specific Resources
+   :caption: ゲームとシーズン固有のリソース
    :maxdepth: 1
    :hidden:
 
    game_specific_resources/blog/blog
    tech_tips/tech-tips
    ai/innovation_corner/innovation-corner
-   Competition Manual <manuals/game_manuals/game_manuals>
-   Game Q&A System <game_specific_resources/ftcqa/ftcqa>
+   競技マニュアル <manuals/game_manuals/game_manuals>
+   ゲーム Q&A システム <game_specific_resources/ftcqa/ftcqa>
    game_specific_resources/playing_field_resources/playing_field_resources
-   Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system>
+   フィールド座標系 <game_specific_resources/field_coordinate_system/field-coordinate-system>
 
 .. toctree::
-   :caption: Software Development Kit (SDK)
+   :caption: ソフトウェア開発キット (SDK)
    :maxdepth: 1
    :hidden:
 
-   Laptop Requirements <programming_resources/laptops/laptops>
-   SDK Overview <ftc_sdk/overview/index>
-   Updating Components <ftc_sdk/updating/index>
+   ラップトップ要件 <programming_resources/laptops/laptops>
+   SDK 概要 <ftc_sdk/overview/index>
+   コンポーネントの更新 <ftc_sdk/updating/index>
 
 .. toctree::
-   :caption: Robot Building Resources
+   :caption: ロボット製作リソース
    :maxdepth: 1
    :hidden:
 
 
 .. toctree::
-   :caption: Control System Resources
+   :caption: 制御システムリソース
    :maxdepth: 1
    :hidden:
 
@@ -72,71 +71,71 @@ and :doc:`gracious_professionalism/gp` to see why.
    programming_resources/index
 
 .. toctree::
-   :caption: AprilTag Resources
+   :caption: AprilTag リソース
    :maxdepth: 1
    :hidden:
 
-   AprilTag Introduction </apriltag/vision_portal/apriltag_intro/apriltag-intro>
-   VisionPortal Overview </apriltag/vision_portal/visionportal_overview/visionportal-overview>
-   Webcams for VisionPortal </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
-   Understanding AprilTag Values </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
-   AprilTag Localization </apriltag/vision_portal/apriltag_localization/apriltag-localization>
-   AprilTag Test Images </apriltag/opmode_test_images/opmode-test-images>
+   AprilTag 入門 </apriltag/vision_portal/apriltag_intro/apriltag-intro>
+   VisionPortal 概要 </apriltag/vision_portal/visionportal_overview/visionportal-overview>
+   VisionPortal 用ウェブカメラ </apriltag/vision_portal/visionportal_webcams/visionportal-webcams>
+   AprilTag 値の理解 </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
+   AprilTag ローカリゼーション </apriltag/vision_portal/apriltag_localization/apriltag-localization>
+   AprilTag テスト画像 </apriltag/opmode_test_images/opmode-test-images>
 
 .. toctree::
-   :caption: CAD Resources
+   :caption: CAD リソース
    :maxdepth: 1
    :hidden:
 
-   Computer Aided Design (CAD) <cad_resources/index>
+   コンピューター支援設計 (CAD) <cad_resources/index>
 
 .. toctree:: 
-   :caption: Electrostatic Discharge
+   :caption: 静電気放電
    :maxdepth: 1
    :hidden:
 
-   Managing ESD Effects <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
+   ESD 影響の管理 <hardware_and_software_configuration/configuring/managing_esd/managing-esd>
 
 .. toctree::
-   :caption: Manufacturing
+   :caption: 製造
    :maxdepth: 1
    :hidden:
 
-   Manufacturing Methods <manufacturing/index>
+   製造方法 <manufacturing/index>
    
 .. toctree::
-   :caption: Team Resources
+   :caption: チームリソース
    :maxdepth: 1
    :hidden:    
    
    faq/faqs
-   Team Complimentary Software<sponsors/software/software>
-   Team Discounts<sponsors/discounts/discounts>
+   チーム無償ソフトウェア<sponsors/software/software>
+   チーム割引<sponsors/discounts/discounts>
    team_resources/team_resources
 
 .. toctree::
-   :caption: FTC Docs
+   :caption: FTC ドキュメント
    :maxdepth: 1
    :hidden:
 
-   Booklets<booklets/index>
-   Archive <https://ftc-docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>
-   Site Feedback Form<ftc_docs/form/form>
-   Contributing to FTC Docs<contrib/index>
+   ブックレット<booklets/index>
+   アーカイブ <https://ftc-docs.firstinspires.org/projects/ftcdocs-archive/en/latest/index.html>
+   サイトフィードバックフォーム<ftc_docs/form/form>
+   FTC Docs への貢献<contrib/index>
 
 .. Add Contrib Section here when added
 
-**I am a...**
+**私は...**
 
-- :doc:`New Team <persona_pages/rookie_teams/rookie_teams>` New Teams may not know where to start. This is the way!
+- :doc:`新規チーム <persona_pages/rookie_teams/rookie_teams>` 新規チームの皆さんは、どこから始めればよいか分からないかもしれません。こちらから始めましょう！
 
-- :doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` Returning Teams looking for resources can look here.
+- :doc:`既存チーム <persona_pages/veteran_teams/veteran_teams>` リソースをお探しの既存チームの皆さんはこちらをご覧ください。
 
-- :doc:`Coach <persona_pages/coach_admin/coach_admin>` Coaches looking for help or Team Administrative Resources can look here.
+- :doc:`コーチ <persona_pages/coach_admin/coach_admin>` ヘルプやチーム管理リソースをお探しのコーチの皆さんはこちらをご覧ください。
 
-- :doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` Technical Mentors looking for Technical Resources should look here first!
+- :doc:`メンター <persona_pages/mentor_tech/mentor_tech>` 技術リソースをお探しの技術メンターの皆さんは、まずこちらをご覧ください！
 
-The main menu contains links to the top level content. The following are quick links organized by topic.
+メインメニューには、トップレベルのコンテンツへのリンクが含まれています。以下は、トピック別に整理されたクイックリンクです。
 
 .. grid:: 1 2 2 2
    :gutter: 2
@@ -145,11 +144,11 @@ The main menu contains links to the top level content. The following are quick l
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Programming Links
+      プログラミングリンク
    
       ^^^
 
-      Quick Links for Programming Language Resources 
+      プログラミング言語リソースへのクイックリンク 
 
       +++
 
@@ -203,17 +202,17 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               All Resources
+               すべてのリソース
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Control System Links
+      制御システムリンク
    
       ^^^
 
-      Let's get to know the *FIRST* Tech Challenge Control System! 
+      *FIRST* Tech Challenge 制御システムについて学びましょう！ 
 
       +++
 
@@ -247,7 +246,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               Device Connections
+               デバイス接続
 
          .. div:: col-sm pl-1 pr-1
 
@@ -257,18 +256,17 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               Hardware Configuration
+               ハードウェア構成
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Software Development Kit (SDK)
+      ソフトウェア開発キット (SDK)
    
       ^^^
 
-      The Software Development Kit (SDK) is the collection of tools for
-      developing software and executing it on the robot. 
+      ソフトウェア開発キット (SDK) は、ソフトウェアを開発し、ロボット上で実行するためのツール群です。 
 
       +++
  
@@ -282,7 +280,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               About the SDK
+               SDK について
 
          .. div:: col-sm pl-1 pr-1
       
@@ -292,7 +290,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               SDK GitHub Repository
+               SDK GitHub リポジトリ
 
          .. div:: col-sm pl-1 pr-1
       
@@ -301,7 +299,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               SDK Releases
+               SDK リリース
 
          .. div:: col-sm pl-1 pr-1
 
@@ -310,18 +308,18 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               Javadoc Documentation
+               Javadoc ドキュメント
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Game Links
+      ゲームリンク
    
       ^^^
 
-      Be sure you're following all of the rules of the competition! 
-      The Competition Manual is an essential document.
+      競技のすべてのルールに従っていることを確認してください！
+      競技マニュアルは必須のドキュメントです。
 
       +++
  
@@ -335,7 +333,7 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               Competition Manual
+               競技マニュアル
 
          .. div:: col-sm pl-1 pr-1
       
@@ -352,13 +350,9 @@ The main menu contains links to the top level content. The following are quick l
                :outline:
                :expand:
 
-               Game Question and Answer System
+               ゲーム Q&A システム
 
 .. note::
 
-   This project is under active development. Anything contained herein is for 
-   informational purposes only; while this documentation is intended to support 
-   teams and in some way provide context to game rules, the game rules supercede 
-   all documentation found here. If you have feedback about this project, 
-   please use our :doc:`feedback form <ftc_docs/form/form>`.
+   このプロジェクトは活発に開発中です。ここに含まれる情報はすべて参考目的のみです。このドキュメントはチームをサポートし、ゲームルールに対する文脈を提供することを目的としていますが、ゲームルールがここで見つかるすべてのドキュメントに優先します。このプロジェクトに関するフィードバックがある場合は、:doc:`フィードバックフォーム <ftc_docs/form/form>` をご利用ください。
 
