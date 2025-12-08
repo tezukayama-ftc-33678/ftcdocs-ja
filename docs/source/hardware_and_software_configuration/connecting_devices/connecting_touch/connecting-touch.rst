@@ -1,27 +1,16 @@
-Connecting a Touch Sensor to the Hub
+Hub へのタッチセンサーの接続
 =====================================
 
-The Hub has 4 independent digital input/output (I/O) ports. Each port
-has two digital I/O pins for a total of 8 digital I/O pins on a Hub. You
-will connect a REV Robotics Touch sensor to one of the digital I/O
-ports.
+Hub には 4 つの独立したデジタル入出力（I/O）ポートがあります。各ポートには 2 つのデジタル I/O ピンがあり、Hub には合計 8 つのデジタル I/O ピンがあります。**REV Robotics タッチセンサー**をデジタル I/O ポートの 1 つに接続します。
 
-Note that in the case of the REV Robotics Touch Sensor, the device has a
-connector port for a 4-pin sensor cable. However, the device only needs
-to connect to one of the two available digital I/O pins. For the REV
-Robotics Touch Sensor, the second digital I/O pin in the port is the one
-that gets connected when a standard REV Robotics 4-pin JST PH cable is
-used. For the "0-1" port, it is the pin labeled "1" that gets connected
-through the 4-pin cable. Similarly, for the "2-3" port, it is the pin
-labeled "3" that gets connected through the 4-pin cable.
+**REV Robotics タッチセンサー**の場合、デバイスには 4 ピンセンサーケーブル用のコネクタポートがあります。ただし、デバイスは利用可能な 2 つのデジタル I/O ピンの 1 つにのみ接続する必要があります。**REV Robotics タッチセンサー**の場合、標準の **REV Robotics** 4 ピン JST PH ケーブルを使用すると、ポートの 2 番目のデジタル I/O ピンが接続されます。「0-1」ポートの場合、4 ピンケーブルを介して接続されるのは「1」とラベル付けされたピンです。同様に、「2-3」ポートの場合、4 ピンケーブルを介して接続されるのは「3」とラベル付けされたピンです。
 
-Note that it will take an estimated 2.5 minutes to complete this task.
+このタスクを完了するには、推定 2.5 分かかります。
 
-Connecting a Touch Sensor to the Hub Instructions
+Hub へのタッチセンサーの接続手順
 -------------------------------------------------
 
-1. Connect one end of the 4-pin JST PH cable to the REV Robotics  
-Touch sensor.
+1. 4 ピン JST PH ケーブルの一端を **REV Robotics タッチセンサー**に接続します。
 
 .. image:: images/TouchSensorStep1.jpg
    :align: center

@@ -1,16 +1,12 @@
-*FIRST* Tech Challenge Self-Inspect
+*FIRST* Tech Challenge 自己点検
 ===================================
 
-Introduction
+はじめに
 ------------
 
-This page describes the Self Inspect screens in the FTC Driver Station
-(DS) app and the FTC Robot Controller (RC) app.
+このページでは、**FTC Driver Station（DS）**アプリと **FTC Robot Controller（RC）**アプリの自己点検画面について説明します。
 
-A Self Inspect screen provides a snapshot of device status, as it
-relates to FTC rules for the control system. 
-These rules are described in the Competition Manual which can be found on the
-`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
+自己点検画面は、制御システムの FTC ルールに関連するデバイスステータスのスナップショットを提供します。これらのルールは、*FIRST* ウェブサイトの `Current Game and Season Materials ページ <https://ftc-resources.firstinspires.org/files/ftc/game>`_ にある競技マニュアルで説明されています。
 
 .. tip:: An `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
    is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.

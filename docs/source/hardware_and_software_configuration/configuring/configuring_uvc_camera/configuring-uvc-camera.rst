@@ -1,14 +1,10 @@
-Configuring an External UVC Camera and a Powered USB Hub
+外部 UVC カメラと電源付き USB ハブの構成
 ==========================================================
 
-Introduction
+はじめに
 ------------
 
-The Competition Manual allows the use of USB Video Class (UVC) compatible
-cameras for computer vision-related tasks.
-Teams who are using an Android smartphone as their ROBOT CONTROLLER have the
-option of using an externally connected camera instead of the built-in camera
-for computer vision tasks.
+競技マニュアルでは、コンピュータービジョン関連のタスクに USB Video Class（UVC）互換カメラの使用を許可しています。Android スマートフォンを **Robot Controller** として使用しているチームは、コンピュータービジョンタスクに内蔵カメラの代わりに外部接続カメラを使用するオプションがあります。
 
 The advantage of using an external camera is that the camera can be
 mounted in a location that is convenient for vision-related tasks while

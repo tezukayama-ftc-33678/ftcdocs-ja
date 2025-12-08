@@ -1,15 +1,10 @@
-Configuring an External Webcam with a Control Hub
+Control Hub での外部ウェブカメラの構成
 ==================================================
 
-Introduction
+はじめに
 ------------
 
-The Competition Manual allows the use of USB Video Class (UVC) compatible
-cameras for computer vision-related tasks. 
-If you are using a REV Robotics Control Hub, then
-you will need to use an external webcam, since the Control Hub does not
-include a built-in camera. This document describes how to connect,
-configure and use an external webcam with a Control Hub.
+競技マニュアルでは、コンピュータービジョン関連のタスクに USB Video Class（UVC）互換カメラの使用を許可しています。**REV Robotics Control Hub** を使用している場合、**Control Hub** には内蔵カメラが含まれていないため、外部ウェブカメラを使用する必要があります。このドキュメントでは、外部ウェブカメラを **Control Hub** に接続、構成、使用する方法について説明します。
 
 Special thanks to Chris Johannesen of Westside Robotics (Los Angeles)
 for putting together this documentation.

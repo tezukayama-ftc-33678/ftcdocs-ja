@@ -1,12 +1,7 @@
-Configuring a Color Distance Sensor
+カラー距離センサーの構成
 =====================================
 
-The REV Robotics Color Distance Sensor is an I2C sensor. It actually
-combines two sensor functions into a single device. It is a color
-sensor, that can determine the color of an object. It is also a distance
-or range sensor, that can be used to measure short range distances. Note
-that in this tutorial, the word "distance" is used interchangeably with
-the word "range".
+**REV Robotics カラー距離センサー**は I2C センサーです。実際には、2 つのセンサー機能を 1 つのデバイスに組み合わせています。これは、物体の色を判定できるカラーセンサーです。また、短距離を測定するために使用できる距離またはレンジセンサーでもあります。このチュートリアルでは、「distance（距離）」という言葉が「range（範囲）」という言葉と同じ意味で使用されていることに注意してください。
 
 Configuring a Color Distance Sensor Instructions
 ------------------------------------------------

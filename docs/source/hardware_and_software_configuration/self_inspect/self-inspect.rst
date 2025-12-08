@@ -1,17 +1,12 @@
-Old Self-Inspect
+旧自己点検
 ================
 
-Introduction
+はじめに
 ------------
 
-This page describes the older Self Inspect screens in the FTC Driver Station
-(DS) app and the FTC Robot Controller (RC) app.
-See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
+このページでは、**FTC Driver Station（DS）**アプリと **FTC Robot Controller（RC）**アプリの古い自己点検画面について説明します。バージョン 10.3 以降の画面画像については、:doc:`新しい自己点検 <new-self-inspect>` ページを参照してください。
 
-A Self Inspect screen provides a snapshot of device status, as it
-relates to FTC rules for the control system. 
-These rules are described in the Competition Manual which can be found on the
-`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
+自己点検画面は、制御システムの FTC ルールに関連するデバイスステータスのスナップショットを提供します。これらのルールは、*FIRST* ウェブサイトの `Current Game and Season Materials ページ <https://ftc-resources.firstinspires.org/files/ftc/game>`_ にある競技マニュアルで説明されています。
 
 .. tip:: An `Inspection Checklist PDF <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
    is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.

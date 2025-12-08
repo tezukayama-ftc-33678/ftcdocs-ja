@@ -1,43 +1,32 @@
-Getting Started
+始め方
 ===============
 
-Creating a Configuration
+構成の作成
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Before you can communicate with the motor, servo and sensors that are
-connected to the Control Hub or Expansion Hub, you first must create a
-configuration file on your Robot Controller, so that the Robot
-Controller will know what hardware is available on the Control Hub's or
-Expansion Hub's external ports.
+**Control Hub** または **Expansion Hub** に接続されているモーター、サーボ、センサーと通信する前に、まず **Robot Controller** に構成ファイルを作成する必要があります。これにより、**Robot Controller** は **Control Hub** または **Expansion Hub** の外部ポートで利用可能なハードウェアを認識できます。
 
-Getting the Control Hub Ready
+Control Hub の準備
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you are using a Control Hub, you do not need to make any additional
-connections. You simply need to make sure that the Control Hub is
-powered on and paired to the DRIVER STATION.
+**Control Hub** を使用している場合、追加の接続は必要ありません。**Control Hub** の電源がオンになっており、**Driver Station** とペアリングされていることを確認するだけです。
 
-Connecting an Android Smartphone to an Expansion Hub
+Android スマートフォンを Expansion Hub に接続
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you are using an Android smartphone as a Robot Controller, you must
-physically connect the Robot Controller smartphone to the Expansion Hub
-using a USB cable and an On-The-Go (OTG) adapter. Also, you should
-verify that the DRIVER STATION is currently paired to the Robot
-Controller.
+Android スマートフォンを **Robot Controller** として使用している場合、USB ケーブルと OTG（On-The-Go）アダプターを使用して、**Robot Controller** スマートフォンを **Expansion Hub** に物理的に接続する必要があります。また、**Driver Station** が現在 **Robot Controller** とペアリングされていることを確認する必要があります。
 
-Connecting an Android Smartphone to an Expansion Hub Instructions
+Android スマートフォンを Expansion Hub に接続する手順
 -----------------------------------------------------------------
 
-1. Power on the Expansion Hub by turning on the power switch.         
+1. 電源スイッチをオンにして、**Expansion Hub** の電源を入れます。         
 
 .. image:: images/ConfiguringHardwareStep1.jpg
    :align: center
 
 |
 
-2. Plug the Type B Mini end of the USB cable into the USB mini port   
-on the Expansion Hub.                                                 
+2. USB ケーブルの Type B Mini 端を **Expansion Hub** の USB mini ポートに差し込みます。                                                 
 
 .. image:: images/ConfiguringHardwareStep2.jpg
    :align: center

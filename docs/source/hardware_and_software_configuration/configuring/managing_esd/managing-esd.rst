@@ -1,13 +1,14 @@
-Managing Electrostatic Discharge Effects
+静電気放電の影響の管理
 =========================================
 
-Introduction
+はじめに
 ~~~~~~~~~~~~
 
-Electrostatic discharge (ESD) events have the potential to disrupt the
-normal operation of a competition robot. This section examines causes of
-ESD events and discusses ways to mitigate the risk that an ESD event
-will disable or damage a robot’s control system.
+静電気放電（ESD）イベントは、競技ロボットの正常な動作を妨げる可能性があります。このセクションでは、ESD イベントの原因を調べ、ESD イベントがロボットの制御システムを無効にしたり損傷したりするリスクを軽減する方法について説明します。
+
+
+
+
 
 Note that this section only provides a brief overview of the physical
 phenomenon that causes ESD disruptions. You can use the following link

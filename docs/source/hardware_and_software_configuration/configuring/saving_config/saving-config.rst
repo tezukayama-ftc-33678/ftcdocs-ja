@@ -1,11 +1,8 @@
-Saving the Configuration Information
+構成情報の保存
 ====================================
-Once you have configured your hardware, you must save the information to
-the configuration file. If you do not save this information, it will be
-lost and the robot controller will be unable to communicate with your
-hardware.
+ハードウェアを構成したら、情報を構成ファイルに保存する必要があります。この情報を保存しないと、情報が失われ、**Robot Controller** がハードウェアと通信できなくなります。
 
-Saving the Configuration Information Instructions
+構成情報の保存手順
 -------------------------------------------------
 
 1. Press the **Done** button to go up one level in the configuration  

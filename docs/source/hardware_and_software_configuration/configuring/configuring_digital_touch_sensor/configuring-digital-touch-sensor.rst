@@ -1,13 +1,12 @@
-Configuring a Digital Touch Sensor
+デジタルタッチセンサーの構成
 ==================================
 
-The REV Robotics Touch Sensor is a digital sensor. An Op Mode can query
-the Touch Sensor to see if its button is being pressed or not.
+**REV Robotics タッチセンサー**はデジタルセンサーです。**OpMode** は、タッチセンサーにクエリを実行して、ボタンが押されているかどうかを確認できます。
 
-Configuring a Digital Touch Sensor Instructions
+デジタルタッチセンサーの構成手順
 -----------------------------------------------
 
-1. Touch the words **Digital Devices** on the screen to launch the    
+1. 画面の **Digital Devices** という単語をタッチして    
 Digital I/O configuration screen.                                     
 
 .. image:: images/ConfiguringHardwareTouchStep1.jpg

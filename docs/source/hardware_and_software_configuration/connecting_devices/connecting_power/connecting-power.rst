@@ -1,28 +1,24 @@
-Connecting 12V Power to the Hub
+Hub への 12V 電源の接続
 ================================
 
-The Hub draws power from a 12V rechargeable battery. For safety reasons,
-the battery has a 20A fuse built in. A mechanical switch is used to turn
-on/turn off the power.
+Hub は 12V 充電式バッテリーから電力を引き出します。安全上の理由から、バッテリーには 20A ヒューズが内蔵されています。メカニカルスイッチを使用して電源をオン/オフします。
 
-Note that it will take an estimated 5 minutes to complete this task.
+このタスクを完了するには、推定 5 分かかります。
 
 
-Connecting 12V Power to the Hub Instructions
+Hub への 12V 電源の接続手順
 --------------------------------------------
 
-1. If your 12V battery has a Tamiya style connector, connect the      
-Tamiya to XT30 adapter cable to the matching end of the switch cable. 
+1. 12V バッテリーに Tamiya スタイルコネクタがある場合は、Tamiya to XT30 アダプターケーブルをスイッチケーブルの対応する端に接続します。 
 
 .. image:: images/Connecting12VStep1.jpg
    :align: center
 
 |
 
-.. note:: Do not connect the 12V battery to the Tamiya adapter yet.  We will connect the battery during a later step.
+.. note:: まだ 12V バッテリーを Tamiya アダプターに接続しないでください。後の手順でバッテリーを接続します。
 
-2. Connect the other end of the switch cable to a matching XT30 port  
-on the Hub.                                                           
+2. スイッチケーブルのもう一方の端を Hub の対応する XT30 ポートに接続します。                                                           
 
 .. image:: images/Connecting12VStep2.jpg
    :align: center

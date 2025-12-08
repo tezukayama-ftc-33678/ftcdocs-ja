@@ -1,15 +1,13 @@
-Configuring a Servo
+サーボの構成
 ====================
 
-You will also want to add a servo to the configuration file. In this
-example, you are using a standard 180-degree servo.
+構成ファイルにサーボも追加します。この例では、標準の 180 度サーボを使用しています。
 
 
-Configuring a Servo Instructions
+サーボの構成手順
 --------------------------------
 
-1. Touch on the word **Servos** on the screen to display the **Servo  
-Configuration** screen.                                               
+1. 画面の **Servos** という単語をタッチして、**サーボ構成**画面を表示します。                                               
 
 .. image:: images/ConfiguringHardwareServoStep1.jpg
    :align: center

@@ -1,13 +1,10 @@
-HuskyLens Intro for *FIRST* Tech Challenge
+*FIRST* Tech Challenge 用 HuskyLens 入門
 ==========================================
 
-Introduction
+はじめに
 ------------
 
-This is a simple tutorial to introduce the use of
-`HuskyLens <https://www.dfrobot.com/product-1922.html>`__ in *FIRST* Tech
-Challenge, for
-teams that **already decided** to explore its potential.
+これは、**すでに決定した**チームのために、*FIRST* Tech Challenge で `HuskyLens <https://www.dfrobot.com/product-1922.html>`__ の使用を紹介するシンプルなチュートリアルです。その潜在能力を探索することを決定したチーム向けです。
 
 .. figure:: images/020-HuskyLens-dual.png
    :align: center
