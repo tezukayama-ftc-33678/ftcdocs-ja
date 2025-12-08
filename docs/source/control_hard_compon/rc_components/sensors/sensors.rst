@@ -1,10 +1,9 @@
-Sensors
+センサー
 =========
 
-Listed below are some examples of common robot sensors. While the *FIRST* Tech
-Challenge SDK supports many sensors not all are natively supported.
+以下に、一般的なロボットセンサーの例をいくつか示します。*FIRST* Tech Challenge SDK は多くのセンサーをサポートしていますが、すべてがネイティブにサポートされているわけではありません。
 
-Examples
+例
 ----------
 
 Distance Sensor (Ultrasonic)

@@ -1,7 +1,7 @@
-REV Hubs
+REV Hub
 ==========
 
-The REV Hubs are the core control units of a *FIRST* Tech Challenge robot.
+**REV Hub** は、*FIRST* Tech Challenge ロボットのコア制御ユニットです。
 
 Control Hub
 ------------
@@ -18,11 +18,7 @@ Control Hub
 
     REV Control Hub (REV-31-1595)
 
-A REV Control Hub combines a REV Expansion Hub with an embedded Android
-daughterboard connected to it.  This means it is able to control all of the
-hardware components of your robot and also run your actual robot software.  This
-is in contrast to the REV Expansion Hub which was only able to control hardware
-devices but is not able to to interpret and run the SDK.
+**REV Control Hub** は、**REV Expansion Hub** に組み込まれた Android ドーターボードを組み合わせたものです。これは、ロボットのすべてのハードウェアコンポーネントを制御し、実際のロボットソフトウェアを実行できることを意味します。これは、ハードウェアデバイスのみを制御でき、SDK を解釈して実行することができなかった **REV Expansion Hub** とは対照的です。
 
 Expansion Hub
 --------------

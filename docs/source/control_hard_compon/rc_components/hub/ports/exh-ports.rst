@@ -1,4 +1,4 @@
-Expansion Hub Ports
+Expansion Hub ポート
 ===================
 
 .. figure:: images/EX-HUB.png
@@ -9,8 +9,7 @@ Expansion Hub Ports
 
 .. include:: std-ports.rst
 
-USB-B Port
+USB-B ポート
 ----------
 
-An Android RC phone controls an Expansion Hub through this USB-mini-B 
-port, connected with USB OTG cable. This port also allows firmware updates.
+Android RC スマートフォンは、USB OTG ケーブルで接続されたこの USB-mini-B ポートを介して **Expansion Hub** を制御します。このポートは、ファームウェアの更新も可能にします。

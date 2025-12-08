@@ -1,16 +1,10 @@
-Control System Introduction
+制御システム入門
 ===========================
 
-About *FIRST* Tech Challenge
+*FIRST* Tech Challenge について
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*FIRST* Tech Challenge seeks to inspire youth to become the next
-generation of STEM leaders and innovators through participation in
-mentor-guided robotics competition. Teams who participate in *FIRST*
-Tech Challenge must build a robot that performs a variety of tasks. The
-tasks vary from season to season, and are based on a set of game rules
-that are published at the start of each season. The more tasks that a
-robot can complete, the more points a team will earn.
+*FIRST* Tech Challenge は、メンター指導による競技ロボットへの参加を通じて、若者が次世代のSTEMリーダーやイノベーターになるよう刺激することを目指しています。*FIRST* Tech Challenge に参加するチームは、さまざまなタスクを実行するロボットを構築する必要があります。タスクはシーズンごとに異なり、各シーズンの開始時に公開されるゲームルールに基づいています。ロボットが完了できるタスクが多いほど、チームはより多くのポイントを獲得できます。
 
 .. image:: images/HoustonMatchPlay.jpg
    :align: center
@@ -19,42 +13,46 @@ robot can complete, the more points a team will earn.
 
 (Photo courtesy of Dan Donovan, ©2017 Dan Donovan / www.dandonovan.com)
 
-AUTO vs. TELEOP
+AUTO と TELEOP
 ~~~~~~~~~~~~~~~
 
-A *FIRST* Tech Challenge match has an AUTO phase and a
-TELEOP phase. In the AUTO phase
-of a match the robot operates without any human input or control. In the
-TELEOP phase, the robot can receive input from up to two
-human drivers.
+*FIRST* Tech Challenge のマッチには、**AUTO** フェーズと **TELEOP** フェーズがあります。マッチの **AUTO** フェーズでは、ロボットは人間の入力や制御なしで動作します。**TELEOP** フェーズでは、ロボットは最大2人の人間ドライバーから入力を受け取ることができます。
 
-Point-to-Point Control System
+ポイントツーポイント制御システム
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*FIRST* Tech Challenge uses Android devices to control its robots.
-During a competition, each team has two Android devices.
+*FIRST* Tech Challenge では、Android デバイスを使用してロボットを制御します。競技中、各チームは2つの Android デバイスを使用します。
 
 .. image:: images/PointToPointControl.jpg
    :align: center
 
 |
 
-One Android device is mounted onto the robot and is called the *Robot
-Controller*. In most cases, the ROBOT CONTROLLER is integrated into the
-REV Robotics Control Hub. The Robot Controller acts as the “brains” of the
-robot. It does all of the thinking for the robot and tells the robot what
-to do. It consists of an Android device running a Robot Controller app. Many
-Teams will also connect a REV Robotics Expansion Hub for additional ports to
-connect motors, servos and sensors to the ROBOT.
+1つの Android デバイスはロボットに搭載され、**Robot Controller** と呼ばれます。ほとんどの場合、**Robot Controller** は **REV Robotics Control Hub** に統合されています。**Robot Controller** はロボットの「頭脳」として機能します。ロボットのすべての思考を行い、ロボットに何をすべきかを指示します。**Robot Controller** アプリを実行する Android デバイスで構成されています。多くのチームは、モーター、サーボ、センサーをロボットに接続するための追加ポートとして、**REV Robotics Expansion Hub** も接続します。
 
-A second Android device sits with the team drivers and has one or two
-gamepads connected. This second device is known as the DRIVER STATION.
-The DRIVER STATION is like a remote control that you might use
-to control your television. The DRIVER STATION allows a team to
-communicate remotely (using a secure, wireless connection) to the Robot
-Controller and to issue commands to the Robot Controller. The DRIVER STATION
-consists of an Android device running an Driver Station app. Most teams use
-a REV Robotics Driver Hub, but select Android smartphones are also supported.
+REV Robotics Control Hub と Expansion Hub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**REV Robotics Control Hub** または **Expansion Hub** は、**Robot Controller** がロボットのモーター、サーボ、センサーと通信できるようにする電子入出力（「I/O」）モジュールです。**Robot Controller** は **Control Hub** に統合されており、シリアル接続を介して **Expansion Hub** と通信します。Android スマートフォンを **Robot Controller** として使用する場合は、USB ケーブルを使用してシリアル接続を確立します。
+
+**Control Hub** と **Expansion Hub** は、12V バッテリーにも接続されており、**Control Hub**、**Expansion Hub**、モーター、サーボ、センサーに電力を供給します。Android スマートフォンを **Robot Controller** として使用する場合、スマートフォンには独自の独立したバッテリーがあります。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 REV Robotics Control Hub and Expansion Hub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -67,32 +65,36 @@ Android smartphone is used as the Robot Controller, a USB cable is used
 to establish the serial connection.
 
 The Control Hub and Expansion Hub are also connected to a 12V battery which is used to
-power the Control Hub, the Expansion Hub, the motors, the servos and sensors. If an
-Android smartphone is used as the Robot Controller, then the smartphone
-will have its own independent battery.
+OpMode とは？
+~~~~~~~~~~~~~~~~~
 
-.. image:: images/REVControlHubLayout.png
-   :align: center
+典型的な *FIRST* Tech Challenge のマッチでは、チームのロボットは得点を獲得するためにさまざまなタスクを実行する必要があります。たとえば、チームは、競技フィールド上の白い線をロボットに追従させ、マッチ中に自律的にゲーム要素（ボールなど）をゴールに得点させたいと考えるかもしれません。チームは、ロボットの動作を指定するために「**OpMode**」（「operational mode（動作モード）」の略）を作成します。
 
-|
+**OpMode** は、競技ロボットの動作をカスタマイズするために使用されるコンピュータプログラムです。**Robot Controller** は、選択された **OpMode** を実行して、マッチ中に特定のタスクを実行できます。
 
-Android Smartphones
-~~~~~~~~~~~~~~~~~~~
+*FIRST* Tech Challenge に参加しているチームは、独自の **OpMode** を作成するために使用できるさまざまなプログラミングツールを持っています。チームは、**Blocks Programming Tool** と呼ばれるビジュアル（「ドラッグアンドドロップ」）プログラミングツールを使用して **OpMode** を作成できます。チームは、**OnBot Java Programming Tool** として知られるテキストベースの Java ツール、または Google の **Android Studio** 統合開発環境（「IDE」としても知られる）を使用して **OpMode** を作成することもできます。
 
-Teams may opt to use an Android smartphone as their
-DRIVER STATION, ROBOT CONTROLLER or both. DRIVER STATION phones should have the FTC Driver
-Station app installed, and will need an OTG adaptor USB hub to connect gamepads.
 
-.. image:: images/ControlHubEquals.jpg
-   :align: center
 
-|
 
-Teams who use an Android smartphone as their ROBOT CONTROLLER will want an additional
-REV Robotics Expansion Hub to connect motors, servos and sensors. The smartphone is
-connected to the Expansion Hub via a USB-A to USB-Mini cable and an OTG adaptor.
 
-.. image:: images/REVExpansionHubLayout.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    :align: center
 
 |

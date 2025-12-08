@@ -1,12 +1,7 @@
-UVC Webcam
+UVC ウェブカメラ
 ===========
 
-A webcam is a device that provides visual images of the surrounding environment. 
-UVC, or USB Video Class, is a standard that allows USB devices, like webcams and digital cameras, to stream video to computers without needing special drivers. 
-For use as part of *FIRST* Tech Challenge teams must use a commercially available off-the-shelf (COTS)
-USB Video Class `(UVC) <https://www.usb.org/document-library/video-class-v15-document-set>`_ 
-compatible camera. This device can be connected directly to
-the REV Control Hub or to the Robot Control system via a USB hub.
+ウェブカメラは、周囲の環境の視覚画像を提供するデバイスです。UVC（USB Video Class）は、ウェブカメラやデジタルカメラなどの USB デバイスが、特別なドライバーを必要とせずにビデオをコンピューターにストリーミングできるようにする標準です。*FIRST* Tech Challenge の一部として使用する場合、チームは市販の USB Video Class `(UVC) <https://www.usb.org/document-library/video-class-v15-document-set>`_ 互換カメラを使用する必要があります。このデバイスは、**REV Control Hub** に直接接続するか、USB ハブを介してロボット制御システムに接続できます。
 
 .. grid:: 1 2 2 2
    :gutter: 2

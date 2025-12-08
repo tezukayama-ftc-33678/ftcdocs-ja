@@ -1,7 +1,7 @@
-Driver Station Components
+Driver Station コンポーネント
 =========================
 
-Android Device
+Android デバイス
 --------------
 
 .. grid:: 1 2 2 3

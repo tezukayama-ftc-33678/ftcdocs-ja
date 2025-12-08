@@ -1,25 +1,14 @@
-Battery Ports
+バッテリーポート
 --------------
 
 .. danger:: 
-   **Never** connect a battery charger directly to the battery port. This will
-   void your warranty and fry your hub.
+   バッテリー充電器をバッテリーポートに直接接続**しないでください**。これにより、保証が無効になり、Hub が故障します。
 
-The yellow `XT30 <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/xt-30-power-cable>`_ 
-connectors are used to power your REV Hub as well as all the devices connected to it. 
-For more information on these ports please see the
-`REV Documentation <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#input-power-specifications>`_.
-One of these ports may also be used to connect a grounding strap. For more information on legal grounding straps see 
-the Power Distribution section of the `Competition Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_.
+黄色の `XT30 <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/xt-30-power-cable>`_ コネクタは、**REV Hub** とそれに接続されたすべてのデバイスに電力を供給するために使用されます。これらのポートの詳細については、`REV ドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#input-power-specifications>`_ を参照してください。これらのポートの1つは、アースストラップの接続にも使用できます。法的なアースストラップの詳細については、`競技マニュアル <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_ の電源分配セクションを参照してください。
 
-As the XT30 connector is known for its fragility it is highly recommended you be careful when using it.
-It is also recommended that you expand your connector prongs periodically. 
-REV has a `troubleshooting article <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/control-hub-troubleshooting#xt30-pins-are-compressed>`_ 
-specific to expanding the pins on the XT30 connector.
-For more information on this process please watch this `YouTube video <https://www.youtube.com/watch?v=UYXTiSeVmB0>`_. 
-While this video features an XT60 connector, a larger version of the XT30, and a drone, the advice is much the same. 
+XT30 コネクタは脆弱性で知られているため、使用時には十分注意することを強くお勧めします。また、コネクタのピンを定期的に拡張することをお勧めします。REV には、XT30 コネクタのピンの拡張に関する `トラブルシューティング記事 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/control-hub-troubleshooting#xt30-pins-are-compressed>`_ があります。このプロセスの詳細については、この `YouTube ビデオ <https://www.youtube.com/watch?v=UYXTiSeVmB0>`_ をご覧ください。このビデオは XT30 の大型版である XT60 コネクタとドローンを取り上げていますが、アドバイスはほぼ同じです。
 
-Motor Ports
+モーターポート
 -------------
 
 These `JST-VH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-vh-motor-power>`_ 

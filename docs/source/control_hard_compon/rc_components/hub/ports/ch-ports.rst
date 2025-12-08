@@ -1,4 +1,4 @@
-Control Hub Ports
+Control Hub ポート
 =================
 
 .. figure:: images/CH-HUB.png
@@ -14,15 +14,14 @@ Control Hub Ports
     :align: center
     :alt: The ports from left to right are: USB 2.0, USB 3.0, USB C, USB Mini (below the USB C port),  HDMI, and Micro SD.
 
-    Control Hub Front Ports
+    Control Hub フロントポート
 
-USB Ports
+USB ポート
 ---------
 
-Universal Serial Bus (USB) is an industry standard that allows data exchange and delivery of power between many types of electronics.
-The control hub has four USB ports described below. 
+Universal Serial Bus（USB）は、多くの種類の電子機器間でデータ交換と電力供給を可能にする業界標準です。**Control Hub** には、以下に説明する4つの USB ポートがあります。
 
-USB 2.0 and USB 3.0 refer to the USB specifications that relate to data exchange rate and power delivery.
+USB 2.0 と USB 3.0 は、データ交換速度と電力供給に関連する USB 仕様を指します。
 
 USB Type-A and USB-C and USB Mini-B refer to the type of connector. 
 
