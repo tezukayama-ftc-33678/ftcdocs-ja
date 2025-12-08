@@ -29,16 +29,16 @@
 
    *FIRST の精神は、すべての人を価値あるものとして扱う方法で、高品質で十分な情報に基づいた仕事を行うことを奨励します。Gracious Professionalism は、FIRST の精神の一部を表す良い表現のようです。それは、FIRST を異なるものにし、素晴らしいものにしている一部です。*
 
-   - Dr. Woodie Flowers, (1943 – 2019), *FIRST* 特別顧問
+   - Dr. Woodie Flowers, (1943 – 2019), Distinguished Advisor to *FIRST* / *FIRST* 特別顧問
 
-It is a good idea to spend time going over this concept with your team and
-reinforcing it regularly. We recommend providing your team with real-life
 このコンセプトをチームと一緒に検討し、定期的に強化することは良いアイデアです。競技で後に対戦する相手チームに貴重な資材や専門知識を貸し出すなど、*Gracious Professionalism* を実践する実際の例をチームに提供することをお勧めします。イベントで *Gracious Professionalism* を表示する機会を定期的に強調し、チームメンバーがこの資質を自分自身や地域貢献活動を通じて示す方法を提案するよう奨励してください。
-^^^^^^^^^^^
+
 追悼
-!!:s^^^^^^^^^^^
-education and a Distinguished Advisor to *FIRST* and supporter of our mission,
+^^^^^^^^^^^
+
 2019年10月、デザインとエンジニアリング教育の革新者であり、*FIRST* の特別顧問およびミッションの支援者であったDr. Woodie Flowers が逝去されました。世界中からWoodieへの心からの追悼が数千寄せられており、彼の遺産がコミュニティの礼儀正しい性質と、教育者に力を与え、グローバルシチズンを育成するという私たちの継続的なコミットメントを通じて、永遠に生き続けることは明らかです。
+
+.. figure:: images/wf_fireworks.jpg
 
    Dr. Woodie Flowers, (1943 - 2019)
 
