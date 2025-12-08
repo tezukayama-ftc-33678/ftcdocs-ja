@@ -1,7 +1,7 @@
-Power Distribution
+電源分配
 ===================
 
-Robot Main Battery
+ロボットメインバッテリー
 ----------------------
 
 .. grid:: 1 2 2 3

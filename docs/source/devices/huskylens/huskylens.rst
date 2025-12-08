@@ -1,13 +1,10 @@
-HuskyLens Intro for *FIRST* Tech Challenge
+*FIRST* Tech Challenge 用 HuskyLens 入門
 ==========================================
 
-Introduction
+はじめに
 ------------
 
-This is a simple tutorial to introduce the use of
-`HuskyLens <https://www.dfrobot.com/product-1922.html>`__ in *FIRST* Tech
-Challenge, for
-teams that **already decided** to explore its potential.
+これは、**すでに決定した**チームのために、*FIRST* Tech Challenge で `HuskyLens <https://www.dfrobot.com/product-1922.html>`__ の使用を紹介するシンプルなチュートリアルです。その潜在能力を探索することを決定したチーム向けです。
 
 .. figure:: images/020-HuskyLens-dual.png
    :align: center
@@ -16,31 +13,20 @@ teams that **already decided** to explore its potential.
 
    DFRobot HuskyLens
 
-Basic support for this **vision sensor** was added to the FTC SDK
-version 9.0 in September 2023 with the CENTERSTAGE robot game kickoff.
+この**ビジョンセンサー**の基本サポートは、2023年9月の CENTERSTAGE ロボットゲームキックオフで FTC SDK バージョン 9.0 に追加されました。
 
-HuskyLens uses **on-board programming** to perform AI-assisted learning,
-vision processing and recognition. It plugs into an **I2C sensor port**
-of a REV Control Hub or REV Expansion Hub.
+HuskyLens は**オンボードプログラミング**を使用して、AI 支援学習、ビジョン処理、認識を実行します。**REV Control Hub** または **REV Expansion Hub** の **I2C センサーポート**に接続します。
 
-HuskyLens is **not a USB webcam**, and **does not use** the FTC
-:ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>`
-software.
+HuskyLens は **USB ウェブカメラではなく**、FTC :ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>` ソフトウェアを**使用しません**。
 
-Electrical Connection
+電気接続
 ---------------------
 
-You will need a **custom adapter cable** to connect the HuskyLens to an
-I2C port on a REV Control Hub or Expansion Hub. The 4 wires/pins of the
-HuskyLens connector are not in the same order/position as the 4 pins on
-the REV Hub.
+HuskyLens を **REV Control Hub** または **Expansion Hub** の I2C ポートに接続するには、**カスタムアダプターケーブル**が必要です。HuskyLens コネクタの 4 本のワイヤー/ピンは、REV Hub の 4 本のピンと同じ順序/位置ではありません。
 
-Three of the wires have **the same color** as wires in the REV sensor
-cable. Your custom cable should connect **red to red**, **black to
-black**, and **blue to blue**. This leaves only the HuskyLens **green
-wire**; connect it to the REV **white wire**. Simple!
+3 本のワイヤーは、REV センサーケーブルのワイヤーと**同じ色**です。カスタムケーブルは、**赤を赤**に、**黒を黒**に、**青を青**に接続する必要があります。これにより、HuskyLens の**緑のワイヤー**のみが残ります。これを REV の**白いワイヤー**に接続します。簡単です！
 
-This tutorial does **not** cover the (many) ways to:
+このチュートリアルでは、次の（多くの）方法については説明して**いません**。
 
 -  modify an existing cable (change pin order in one connector), **OR**
 -  fabricate a custom cable, with:
@@ -59,22 +45,12 @@ robot competition all season.
 
    image credit: @texasdiaz
 
-To confirm these wiring instructions are correct, you could study the
-`HuskyLens
-documentation <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_3>`__
-and the `REV Hub
-documentation <https://docs.revrobotics.com/duo-control/sensors/i2c#wiring>`__.
-You will see the following “pinout” info: 
+これらの配線手順が正しいことを確認するには、`HuskyLens のドキュメント <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_3>`__ と `REV Hub のドキュメント <https://docs.revrobotics.com/duo-control/sensors/i2c#wiring>`__ を参照してください。次の「ピンアウト」情報が表示されます。
 
-- HuskyLens **green** wire 1 (“T”) SDA or data == REV Hub **white** wire 3
-  “SDA” or data 
-- HuskyLens **blue** wire 2 (“R”) SCL or clock == REV Hub **blue** wire 4 “SCL”
-  or clock 
-- HuskyLens **black** wire 3 (“-”) GND or ground == REV Hub **black** wire 1
-  “GND” or ground 
-- HuskyLens **red** wire 4 (“+”) VCC or +3.3-5VDC == REV Hub **red** wire 2
-  “3.3V” or Vcc
-
+- HuskyLens **緑**ワイヤー 1（「T」）SDA またはデータ == REV Hub **白**ワイヤー 3「SDA」またはデータ
+- HuskyLens **青**ワイヤー 2（「R」）SCL またはクロック == REV Hub **青**ワイヤー 4「SCL」またはクロック
+- HuskyLens **黒**ワイヤー 3（「-」）GND またはグラウンド == REV Hub **黒**ワイヤー 1「GND」またはグラウンド
+- HuskyLens **赤**ワイヤー 4（「+」）VCC または +3.3-5VDC == REV Hub **赤**ワイヤー 2「3.3V」または Vcc
 .. figure:: images/070-ports.png
    :align: center
    :width: 85%

@@ -1,15 +1,12 @@
 .. meta::
-   :title: Hardware Component Overview
-   :description: A detailed overview of the hardware components present in the FTC Control System
-   :keywords: FTC Docs, FIRST Tech Challenge, FTC, Hardware Component, Control System, Overview
+   :title: ハードウェアコンポーネント概要
+   :description: FTC制御システムに存在するハードウェアコンポーネントの詳細な概要
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, ハードウェアコンポーネント, 制御システム, 概要
 
-Hardware Component Overview
+ハードウェアコンポーネント概要
 ============================
 
-The *FIRST* Tech Challenge Control System is divided into two main components:
-the Driver Station (DS) and the Robot Controller (RC). This section will give
-you a brief introduction to the hardware components, their various
-configurations, and connections.
+*FIRST* Tech Challenge 制御システムは、**Driver Station (DS)** と **Robot Controller (RC)** の2つの主要なコンポーネントに分かれています。このセクションでは、ハードウェアコンポーネント、そのさまざまな構成、および接続について簡単に紹介します。
 
 .. toctree::
    :maxdepth: 2

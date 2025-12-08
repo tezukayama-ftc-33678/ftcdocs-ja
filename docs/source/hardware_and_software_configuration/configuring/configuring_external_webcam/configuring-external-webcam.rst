@@ -1,44 +1,29 @@
-Configuring an External Webcam with a Control Hub
+Control Hub での外部ウェブカメラの構成
 ==================================================
 
-Introduction
+はじめに
 ------------
 
-The Competition Manual allows the use of USB Video Class (UVC) compatible
-cameras for computer vision-related tasks. 
-If you are using a REV Robotics Control Hub, then
-you will need to use an external webcam, since the Control Hub does not
-include a built-in camera. This document describes how to connect,
-configure and use an external webcam with a Control Hub.
+競技マニュアルでは、コンピュータービジョン関連のタスクに USB Video Class（UVC）互換カメラの使用を許可しています。**REV Robotics Control Hub** を使用している場合、**Control Hub** には内蔵カメラが含まれていないため、外部ウェブカメラを使用する必要があります。このドキュメントでは、外部ウェブカメラを **Control Hub** に接続、構成、使用する方法について説明します。
 
 Special thanks to Chris Johannesen of Westside Robotics (Los Angeles)
-for putting together this documentation.
+このドキュメントをまとめてくれたことに特別な感謝を捧げます。
 
-Type of External Camera
+外部カメラのタイプ
 -----------------------
 
-Theoretically, any USB Video Class (UVC) camera should work with the 
-system. However, *FIRST* recommends using UVC web cameras from Logitech.
-The following cameras have been tested and calibrated to work accurately
-with SDK software:
+理論的には、任意の USB Video Class（UVC）カメラがシステムで動作するはずです。ただし、*FIRST* は Logitech の UVC ウェブカメラの使用を推奨しています。次のカメラはテストされており、SDK ソフトウェアで正確に動作するようにキャリブレーションされています。
 
 - :ref:`logitech_c270_label`
 - :ref:`logitech_c310_label`
 - :ref:`logitech_c920_label`
 
-Calibrating a UVC camera is an optional, advanced task. Instructions for
-creating a calibration file are in the comments of the
-`teamwebcamcalibrations.xml <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__
-file in the ftc_app project folder (visit this
-`link <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__
-for an online copy of the file).
+UVC カメラのキャリブレーションは、オプションの高度なタスクです。キャリブレーションファイルの作成手順は、ftc_app プロジェクトフォルダーの `teamwebcamcalibrations.xml <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ ファイルのコメントにあります（ファイルのオンラインコピーについては、この `リンク <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ にアクセスしてください）。
 
-Connecting the Camera
+カメラの接続
 ---------------------
 
-The UVC camera can plug directly into the USB 3.0 port on the REV Control
-Hub. Unlike the REV Expansion Hub, there is no need for an external
-powered USB hub.
+UVC カメラは、**REV Control Hub** の USB 3.0 ポートに直接接続できます。**REV Expansion Hub** とは異なり、外部電源付き USB ハブは必要ありません。
 
 .. image:: images/USB-camera-Control-Hub.jpg
    :alt: Control Hub with UVC camera connected.
