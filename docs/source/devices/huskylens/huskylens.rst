@@ -85,14 +85,12 @@ Touch ``Done`` several times, then ``Save``, to save and name/rename
 this updated robot configuration. Touch the DS “Back” arrow, returning
 to the DS app’s home screen.
 
-Confirm that your new configuration is shown on-screen as the active
-configuration.
+新しい構成がアクティブな構成として画面に表示されていることを確認します。
 
-Sample OpMode
+サンプル OpMode
 -------------
 
-Connect your programming computer to the Robot Controller, and open the
-programming software. This tutorial uses **FTC Blocks**.
+プログラミングコンピューターを **Robot Controller** に接続し、プログラミングソフトウェアを開きます。このチュートリアルでは、**FTC Blocks** を使用します。
 
 .. note::
    **OnBot Java** and **Android Studio** users can easily follow along, since
@@ -125,14 +123,11 @@ AprilTags with metadata. Instead, this is a simple built-in, generic
 function of HuskyLens, used here only to validate the sensor’s
 operation.
 
-For AprilTag recognition and navigation, FTC teams may find much more
-value from a UVC webcam and the FTC
+**AprilTag** の認識とナビゲーションには、FTC チームは UVC ウェブカメラと FTC
 :ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>`
-software. An FTC robot may use HuskyLens **and** USB webcams.
+ソフトウェアからはるかに多くの価値を見出すかもしれません。FTC ロボットは、HuskyLens **と** USB ウェブカメラの両方を使用できます。
 
-Click ``Save OpMode``, then select and run this OpMode from the Driver
-Station. After touching the Start arrow, point the HuskyLens at any
-AprilTag from the common 36h11 family:
+``Save OpMode`` をクリックし、**Driver Station** からこの **OpMode** を選択して実行します。開始矢印をタッチした後、HuskyLens を一般的な 36h11 ファミリーの任意の **AprilTag** に向けます。
 
 .. figure:: images/210-AprilTag-double.png
    :align: center
@@ -152,14 +147,14 @@ Here’s the corresponding DS Telemetry:
 
    AprilTag Telemetry
 
-The data includes: 
+データには以下が含まれます。 
 データには以下が含まれます。
 
 - 検出されたオブジェクト（「ブロック」と呼ばれる）の数
 - オブジェクトの ID コード（正しくないか意味がない可能性があります）
 - バウンディングボックスのサイズ（ピクセル単位）
 - バウンディングボックスの中心位置（ピクセル単位）、(X, Y) の原点は左上
-The HuskyLens device screen is 320 x 240 pixels, with center at position
+HuskyLens デバイスの画面は 320 x 240 ピクセルで、中心位置は
 HuskyLens デバイスの画面は 320 x 240 ピクセルで、中心位置は (160, 120) です。
 **Congratulations!** At this point, you have validated the HuskyLens
 device, its connection to the REV Hub, and the Sample OpMode program.
@@ -175,11 +170,11 @@ scenario, since a Team Prop (Team Game Element) cannot use an AprilTag.
 
    HuskyLens Viewing 3 Uncategorized Tags
 
-Here the HuskyLens was placed in a feasible position, about 10 inches
+ここでは、HuskyLens はマットから約 10 インチ
 from the mat, near the middle of the foam tile before the Spike-Mark
 tile. The view **does include** the middle of all three Spike Marks.
 
-All three AprilTags were recognized:
+3 つすべての **AprilTag** が認識されました。
 
 .. figure:: images/235-DS-3-AprilTag.png
    :align: center
@@ -188,7 +183,7 @@ All three AprilTags were recognized:
 
    Telemetry Showing 3 Blocks
 
-This validates the possibility that HuskyLens could recognize a trained
+これは、HuskyLens がトレーニングされた
 object in one of various known positions – useful for the Autonomous
 phase of the CENTERSTAGE game.
 
@@ -203,7 +198,7 @@ Choose any object, about 3 to 4 inches in size, that’s completely one
 color – any color. Here we use a flat square beverage coaster (LEGO!),
 with a uniform **red color**.
 
-Place this object in the position and lighting that you expect to use
+検出に使用する予定の位置と照明にこのオブジェクトを配置
 for detection. This could be on a CENTERSTAGE Spike Mark, if available.
 
 .. figure:: images/240-red-color-ID.png

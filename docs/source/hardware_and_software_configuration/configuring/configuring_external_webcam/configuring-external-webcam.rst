@@ -134,7 +134,7 @@ Scrcpy
 
 USB ハブのもう 1 つの使用例は、`Limelight 3A <https://limelightvision.io/products/limelight-3a>`_ カメラを使用している場合です。このデバイスにはボード上に独自のプロセッサがあり、これの欠点の 1 つは、**opMode** が実行されていない場合でも、カメラが常に電力を消費することです。電源付き USB ハブを追加することで、Limelight はロボットのバッテリーを消耗しません。
 
-One suitable powered USB hub is the Acer ODK350 5-IN-1 USB 3.0 Hub. 
+適切な電源付き USB ハブの 1 つは、Acer ODK350 5-IN-1 USB 3.0 Hub です。 
 It has a USB C port that can supply power to all connected devices.
 
 .. note:: At the time this was written, the Acer ODK350 hub was not listed on Acer's website, but was available on Amazon's website.
@@ -153,10 +153,9 @@ It has a USB C port that can supply power to all connected devices.
    A powerbank is connected to the USB C port on the USB hub to supply power to the connected devices.
    Two Logitech C920 webcams are connected to the USB hub.
 
-See the `AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_ sample program that demonstrates swapping between the two cameras to detect AprilTags.
+2 つのカメラを切り替えて **AprilTag** を検出する方法を示す `AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_ サンプルプログラムを参照してください。
 
-The other use case is using a Limelight a with a powered USB hub to reduce robot battery drain.
-This example shows both a Limelight and a webcam.
+もう 1 つの使用例は、Limelight を電源付き USB ハブと一緒に使用して、ロボットのバッテリーの消耗を減らすことです。この例では、Limelight とウェブカメラの両方を示しています。
 
 .. figure:: images/webcam-and-limelight-3a.jpg
    :alt: A USB hub with a webcam and a Limelight 3A connected to a REV Control Hub.
@@ -167,7 +166,6 @@ This example shows both a Limelight and a webcam.
    A powerbank is connected to the USB C port on the USB hub to supply power to the connected devices.
    A Logitech C270 webcam and a Limelight 3A are connected to the USB hub.
 
-The Limelight 3A is not a compatible VisionPortal device. So you can't use the AprilTag switchable camera sample code.
-But you can still get results from either the Limelight and/or the VisionPortal webcam and use them as required.
+Limelight 3A は互換性のある **VisionPortal** デバイスではありません。したがって、**AprilTag** 切り替え可能カメラのサンプルコードを使用できません。ただし、Limelight や **VisionPortal** ウェブカメラのいずれかから結果を取得し、必要に応じて使用できます。
 
 
