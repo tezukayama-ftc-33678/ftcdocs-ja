@@ -94,6 +94,13 @@
 | Game Manual | 競技マニュアル | |
 | Season | シーズン | |
 | Championship | チャンピオンシップ | |
+| Portfolio | ポートフォリオ | |
+| Judging | 審査 | |
+| Inspection | 検査 | |
+| Awards | 表彰 | |
+| Event | イベント | |
+| Rookie Team | 新規チーム | |
+| Veteran Team | 既存チーム | |
 
 #### UI/操作関連
 | 英語 | 統一訳語 | 備考 |
@@ -106,6 +113,10 @@
 | Download | ダウンロード | |
 | Upload | アップロード | |
 | Install | インストール | |
+| Dashboard | ダッシュボード | |
+| Registration | 登録 | |
+| FAQ | FAQ / よくある質問 | |
+| Question Box | クエスチョンボックス | 競技会場での質問受付場所 |
 
 ---
 
@@ -146,6 +157,7 @@
 | 日付 | バージョン | 更新内容 |
 |------|-----------|---------|
 | 2025-12-08 | 1.0 | 初版作成 - Phase 1 翻訳に基づく基本用語集 |
+| 2025-12-08 | 1.1 | Phase 2 完了 - 新規用語追加（Portfolio, Judging, Awards 等） |
 
 ---
 
