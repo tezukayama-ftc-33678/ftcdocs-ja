@@ -1,10 +1,7 @@
-Coach (Administrative) Resources
+コーチ（管理）リソース
 ================================
 
-Welcome to the *FIRST* Tech Challenge coach's page! Resources have been organized by
-type to help your team stay organized and be successful throughout the season.
-These resources are focused on the coach or administrator needs to manage the
-team while promoting *FIRST*'s ethos. Just click on the button for the resource you want to explore!
+*FIRST* Tech Challenge コーチのページへようこそ！リソースは種類別に整理されており、チームがシーズンを通して組織的かつ成功裏に活動できるようになっています。これらのリソースは、*FIRST* の理念を推進しながらチームを管理するコーチや管理者のニーズに焦点を当てています。探したいリソースのボタンをクリックするだけです！
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -62,12 +59,12 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      *FIRST* Dashboard Links
+      *FIRST* ダッシュボードリンク
 
       ^^^
 
-      Discover registration and purchasing FAQs. Team Registration requires *FIRST* 
-      Dashboard account access on firstinspires.org.
+      登録と購入に関するFAQをご覧ください。チーム登録には firstinspires.org の *FIRST* 
+      ダッシュボードアカウントアクセスが必要です。
    
       +++
 
@@ -80,7 +77,7 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
                :outline:
                :expand:
 
-               Register Your Team (External Login)
+               チームを登録する（外部ログイン）
  
          .. div:: col-sm pl-1 pr-1
 
@@ -89,17 +86,17 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
                :outline:
                :expand:
 
-               Youth Registration (external)
+               ユース登録（外部リンク）
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Team Management
+      チームマネジメント
 
       ^^^
 
-      Resources to provide your team a well-paced and successful season.
+      チームにペース配分の取れた成功するシーズンを提供するためのリソースです。
 
       +++
 
@@ -112,17 +109,17 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
                :outline:
                :expand:
 
-               Team Management Resources (External)
+               チームマネジメントリソース（外部リンク）
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Coach Guidance
+      コーチガイダンス
 
       ^^^
 
-      Discover the best practices for new coaches.
+      新人コーチ向けのベストプラクティスをご紹介します。
 
       +++
 
@@ -135,17 +132,17 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
                :outline:
                :expand:
 
-               Mentor Manual (External PDF)
+               メンターマニュアル（外部PDF）
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Pre-Event Checklists
+      イベント前チェックリスト
 
       ^^^
 
-      Simple checklists to prepare for competition. See the Preparing for Competition heading on the linked page.
+      競技に備えるためのシンプルなチェックリストです。リンク先のページの「競技への準備」の見出しをご覧ください。
 
       +++
 
@@ -158,5 +155,5 @@ team while promoting *FIRST*'s ethos. Just click on the button for the resource 
                :outline:
                :expand:
 
-               Preparing for Competition (External)
+               競技への準備（外部リンク）
 
