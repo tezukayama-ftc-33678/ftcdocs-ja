@@ -25,32 +25,28 @@ Hub への 12V 電源の接続手順
 
 |
 
-3. Verify that the switch is in the OFF position.     
+3. スイッチが OFF 位置にあることを確認します。     
 
 .. image:: images/Connecting12VStep3.jpg
    :align: center
 
 |   
 
-4. Connect the 12V battery to the Tamiya to XT30 cable.
+4. 12V バッテリーを Tamiya to XT30 ケーブルに接続します。
 
 .. image:: images/Connecting12VStep4.jpg
    :align: center
 
 |
 
-5. Turn on the switch and verify that the Hub is drawing power from   
-the battery. Note that the Hub's LED should be illuminated (notice    
-the blue LED in upper right-hand corner of the Hub in the image       
-below).                             
+5. スイッチをオンにして、Hub がバッテリーから電力を引き出していることを確認します。Hub の LED が点灯している必要があります（下の画像の Hub の右上隅にある青い LED に注目してください）。                             
 
 .. image:: images/Connecting12VStep5.jpg
    :align: center
 
 |
 
-6. Turn off the switch and verify that the Hub is off. Note that the  
-Hub's LED should not be illuminated.
+6. スイッチをオフにして、Hub がオフになっていることを確認します。Hub の LED は点灯していないはずです。
 
 .. image:: images/Connecting12VStep6.jpg
    :align: center

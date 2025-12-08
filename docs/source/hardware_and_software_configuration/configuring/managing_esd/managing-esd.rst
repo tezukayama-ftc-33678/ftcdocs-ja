@@ -6,28 +6,13 @@
 
 静電気放電（ESD）イベントは、競技ロボットの正常な動作を妨げる可能性があります。このセクションでは、ESD イベントの原因を調べ、ESD イベントがロボットの制御システムを無効にしたり損傷したりするリスクを軽減する方法について説明します。
 
-
-
-
-
-Note that this section only provides a brief overview of the physical
-phenomenon that causes ESD disruptions. You can use the following link
-to view an in-depth white paper, written by Mr. Eric Chin (a *FIRST*
-alumnus and a 2018 summer engineering intern), which examines and
-quantifies the efficacy of various ESD mitigation techniques:
+このセクションは、ESD 障害を引き起こす物理現象の簡単な概要のみを提供していることに注意してください。次のリンクを使用して、*FIRST* 卒業生で 2018 年夏季エンジニアリングインターンである Eric Chin 氏が執筆した詳細なホワイトペーパーを閲覧できます。このホワイトペーパーは、さまざまな ESD 軽減技術の有効性を調査および定量化しています。
 
 * :download:`ESD Mitigation Techniques For FTC (PDF 1.7MB) <files/analysis-esd-mitigation-echin.pdf>`
 
-Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the work they
-did to model the problems caused by ESD and to evaluate different techniques to
-mitigate the risk caused by this phenomenon.  Also special thanks to *FIRST*
-Tech Challenge Teams 2844, 8081, 10523, 10523a, and 10984, and the volunteer
-team from Arizona (including Robert Garduno, Susan Garduno, Richard Gomez,
-Matthew Rainey, Christine Sapio, Patricia Strones, and David Thompson) for
-assisting in testing some of these mitigation techniques under the hot desert
-sun!
+Doug Chin 氏、Eric Chin 氏、Greg Szczeszynski 氏が ESD によって引き起こされる問題をモデル化し、この現象によって引き起こされるリスクを軽減するためのさまざまな技術を評価した仕事に感謝します。また、*FIRST* Tech Challenge チーム 2844、8081、10523、10523a、10984、および Arizona のボランティアチーム（Robert Garduno、Susan Garduno、Richard Gomez、Matthew Rainey、Christine Sapio、Patricia Strones、David Thompson を含む）が、暑い砂漠の太陽の下でこれらの軽減技術の一部をテストするのを支援してくれたことに感謝します。
 
-What is an Electrostatic Discharge Event?
+静電気放電イベントとは？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An electrostatic discharge (ESD) event occurs when a highly charged

@@ -26,7 +26,7 @@ Android スマートフォンを Expansion Hub に接続する手順
 
 |
 
-2. USB ケーブルの Type B Mini 端を **Expansion Hub** の USB mini ポートに差し込みます。                                                 
+2. USB ケーブルの Type B Mini 側（小さい方のコネクタ）を **Expansion Hub** の USB mini ポートに差し込みます。                                                 
 
 .. image:: images/ConfiguringHardwareStep2.jpg
    :align: center

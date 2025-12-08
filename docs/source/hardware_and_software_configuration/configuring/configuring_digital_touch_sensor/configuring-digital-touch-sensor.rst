@@ -6,16 +6,14 @@
 デジタルタッチセンサーの構成手順
 -----------------------------------------------
 
-1. 画面の **Digital Devices** という単語をタッチして    
-Digital I/O configuration screen.                                     
+1. 画面の **Digital Devices** をタップして、デジタル I/O 構成画面を表示します。                                     
 
 .. image:: images/ConfiguringHardwareTouchStep1.jpg
    :align: center
 
 |
 
-2. Use the touch screen to add a "REV Touch Sensor" for port #1 and   
-name the device "testTouch".                                          
+2. タッチスクリーンを使用して、ポート #1 に「REV Touch Sensor」を追加し、デバイスに「testTouch」という名前を付けます。                                          
 
 .. image:: images/ConfiguringHardwareTouchNewStep2.jpg
    :align: center

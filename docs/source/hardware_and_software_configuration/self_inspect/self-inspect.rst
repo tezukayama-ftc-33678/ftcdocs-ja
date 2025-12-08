@@ -8,26 +8,16 @@
 
 自己点検画面は、制御システムの FTC ルールに関連するデバイスステータスのスナップショットを提供します。これらのルールは、*FIRST* ウェブサイトの `Current Game and Season Materials ページ <https://ftc-resources.firstinspires.org/files/ftc/game>`_ にある競技マニュアルで説明されています。
 
-.. tip:: An `Inspection Checklist PDF <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
-   is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
+.. tip:: イベント前にチームがロボットを自己点検するのに役立つ `Inspection Checklist PDF <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ が利用可能です。チームはイベント前に自己点検を行うことを強く推奨されています。
 
-The Self Inspect screen is provided only as a quick, handy reference to
-help teams confirm that certain control system elements are up-to-date
-and properly configured. Self Inspect may be reviewed in Robot
-Inspection at an FTC tournament, but is **not** a comprehensive or
-official standard of compliance with FTC rules.
+自己点検画面は、チームが特定の制御システム要素が最新であり、適切に構成されていることを確認するのに役立つ、迅速で便利なリファレンスとしてのみ提供されています。自己点検は FTC トーナメントのロボット点検でレビューされる場合がありますが、FTC ルールへの準拠の包括的または公式の基準では**ありません**。
 
-Each inspection screen updates automatically, with or without a Restart
-Robot. This allows quick verification that issues have been resolved.
+各点検画面は、ロボットの再起動の有無にかかわらず、自動的に更新されます。これにより、問題が解決されたことを迅速に確認できます。
 
-The challenge is to maximize useful information in a small screen. The
-Self Inspect layout and graphics evolve with FTC requirements; this page
-clarifies some of the brief but meaningful captions.
+課題は、小さな画面で有用な情報を最大化することです。自己点検のレイアウトとグラフィックスは FTC の要件に応じて進化します。このページでは、簡潔で意味のあるキャプションのいくつかを明確にします。
 
 .. note::
-  These images show Version 7.0 of the FTC apps. Please refer to Competition Manual 
-  for allowed software system versions. These images are valid up to version 10.2 of the FTC apps.
-  See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
+  これらの画像は FTC アプリのバージョン 7.0 を示しています。許可されているソフトウェアシステムバージョンについては、競技マニュアルを参照してください。これらの画像は FTC アプリのバージョン 10.2 まで有効です。バージョン 10.3 以降の画面画像については、:doc:`新しい自己点検 <new-self-inspect>` ページを参照してください。
 
 Device Pairing
 --------------

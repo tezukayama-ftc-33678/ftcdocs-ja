@@ -17,8 +17,7 @@ Hub へのタッチセンサーの接続手順
 
 |
 
-2. Plug the other end of the 4-pin JST PH cable to digital I/O port   
-labeled "0" on the Hub.
+2. 4 ピン JST PH ケーブルのもう一方の端を Hub の「0」とラベル付けされたデジタル I/O ポートに差し込みます。
 
 .. image:: images/TouchSensorStep2.jpg
    :align: center

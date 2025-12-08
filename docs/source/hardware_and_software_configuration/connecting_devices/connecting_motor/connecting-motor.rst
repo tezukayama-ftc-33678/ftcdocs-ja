@@ -17,8 +17,7 @@ Hub は Hub あたり最大 4 つの 12V DC モーターを駆動できます。
 Hub への 12V モーターの接続手順
 ----------------------------------------------
 
-1. Connect the Anderson Powerpole end of the motor's power cable to   
-the Powerpole end of the Anderson to JST VH adapter cable.            
+1. モーターの電源ケーブルの Anderson Powerpole 端を、Anderson to JST VH アダプターケーブルの Powerpole 端に接続します。            
 
 .. image:: images/ConnectingMotorStep1.jpg
    :align: center
@@ -26,11 +25,9 @@ the Powerpole end of the Anderson to JST VH adapter cable.
 
 |
 
-.. note:: Motors from different vendors can have different cabling requirments. 
-   Adjust this as needed for your motor.
-   One end needs to be a JST VH two pin connector (white).
+.. note:: ベンダーによってモーターのケーブル要件が異なる場合があります。モーターに応じて必要に応じて調整してください。一方の端は JST VH 2 ピンコネクタ（白色）である必要があります。
 
-2. Connect the JST VH white connector into the motor port labeled "0" on the Hub.                                
+2. JST VH 白色コネクタを Hub の「0」とラベル付けされたモーターポートに接続します。                                
 
 .. image:: images/ConnectingMotorStep2.jpg
    :align: center

@@ -5,39 +5,35 @@
 構成情報の保存手順
 -------------------------------------------------
 
-1. Press the **Done** button to go up one level in the configuration  
-screens.                                                              
+1. **Done** ボタンを押して、構成画面の1つ上のレベルに移動します。                                                              
 
 .. image:: images/SavingConfigurationInformationStep1.png
    :align: center
 
 |
 
-2. Press the **Done** button again to return to the highest level in  
-the configuration screens.                                            
+2. **Done** ボタンをもう一度押して、構成画面の最上位レベルに戻ります。                                            
 
 .. image:: images/SavingConfigurationInformationStep2.png
    :align: center
 
 |
 
-3. Press the **Save** button.                                         
+3. **Save** ボタンを押します。                                         
 
 .. image:: images/SavingConfigurationInformationStep3.png
    :align: center
 
 |
 
-4. When prompted, specify a configuration file name using the         
-touchscreen's keypad ("into_the_deep" for this example).             
+4. プロンプトが表示されたら、タッチスクリーンのキーパッドを使用して構成ファイル名を指定します（この例では「into_the_deep」）。             
 
 .. image:: images/SavingConfigurationInformationStep4.png
    :align: center
 
 |
 
-1. Press the **OK** button to save your configuration information     
-using that file name.                                                 
+5. **OK** ボタンを押して、そのファイル名を使用して構成情報を保存します。                                                 
 
 .. image:: images/SavingConfigurationInformationNewStep5.png
    :align: center
