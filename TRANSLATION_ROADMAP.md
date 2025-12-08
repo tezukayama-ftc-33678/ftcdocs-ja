@@ -72,26 +72,32 @@
 
 ---
 
-### **Phase 3: 制御システム & ハードウェアリソース** (優先度: 高)
+### **Phase 3: 制御システム & ハードウェアリソース** ✅ (優先度: 高) - **完了**
 **目標:** ロボット制御システムとハードウェア構成に関する重要情報を翻訳
 
-#### 翻訳対象ファイル（約50ファイル）
+#### 翻訳対象ファイル（36ファイル）
 ##### 制御システム概要
-- [ ] `docs/source/programming_resources/shared/control_system_intro/` - 制御システム入門
-- [ ] `docs/source/control_hard_compon/index.rst` - 制御・ハードウェアコンポーネント
-- [ ] `docs/source/control_hard_compon/rc_components/` - Robot Controller コンポーネント
-- [ ] `docs/source/control_hard_compon/ds_components/` - Driver Station コンポーネント
+- [x] `docs/source/programming_resources/shared/control_system_intro/` - 制御システム入門
+- [x] `docs/source/control_hard_compon/index.rst` - 制御・ハードウェアコンポーネント
+- [x] `docs/source/control_hard_compon/rc_components/` - Robot Controller コンポーネント
+- [x] `docs/source/control_hard_compon/ds_components/` - Driver Station コンポーネント
 
 ##### ハードウェア構成
-- [ ] `docs/source/hardware_and_software_configuration/index.rst` - 構成の概要
-- [ ] `docs/source/hardware_and_software_configuration/configuring/` - 構成方法
-- [ ] `docs/source/hardware_and_software_configuration/connecting_devices/` - デバイス接続
-- [ ] `docs/source/hardware_and_software_configuration/self_inspect/` - 自己点検
+- [x] `docs/source/hardware_and_software_configuration/index.rst` - 構成の概要
+- [x] `docs/source/hardware_and_software_configuration/configuring/` - 構成方法
+- [x] `docs/source/hardware_and_software_configuration/connecting_devices/` - デバイス接続
+- [x] `docs/source/hardware_and_software_configuration/self_inspect/` - 自己点検
 
 ##### デバイス
-- [ ] `docs/source/devices/` - デバイス関連ドキュメント
+- [x] `docs/source/devices/` - デバイス関連ドキュメント
 
-#### 予想工数: 40-50時間
+#### 成果物
+- 制御システム入門の完全翻訳 ✅
+- ハードウェアコンポーネント概要の完全翻訳 ✅
+- ハードウェア構成ファイルの完全翻訳 ✅
+- デバイス接続手順の完全翻訳 ✅
+
+#### 実績工数: 約6時間（予想: 40-50時間）
 
 ---
 
@@ -232,6 +238,7 @@
 | 2025-12-08 | 1.0 | 初版作成 - Phase 1 から Phase 7 までの計画策定 |
 | 2025-12-08 | 1.1 | Phase 1 完了 - 3ファイル翻訳、用語集・サマリー作成 |
 | 2025-12-08 | 1.2 | Phase 2 完了 - 30ファイル翻訳、ペルソナページ・FAQ・貢献ガイド |
+| 2025-12-08 | 1.3 | Phase 3 完了 - 36ファイル翻訳、制御システム・ハードウェア構成 |
 
 ---
 
