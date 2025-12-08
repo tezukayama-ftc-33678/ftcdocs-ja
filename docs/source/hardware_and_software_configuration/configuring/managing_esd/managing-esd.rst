@@ -15,282 +15,171 @@ Doug Chin 氏、Eric Chin 氏、Greg Szczeszynski 氏が ESD によって引き�
 静電気放電イベントとは？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An electrostatic discharge (ESD) event occurs when a highly charged
-conductive object (like the metal frame of a robot) touches an uncharged
-or oppositely charged conductive object and discharges to it. Because of
-the high voltages involved (up to tens of kilovolts), ESD events can
-produce extremely high electrical currents as the charge that was
-accumulated on one object flows through a conductive path to the neutral
-or oppositely charged object.
+静電気放電（ESD）イベントは、高電荷を帯びた導電性オブジェクト（ロボットの金属フレームなど）が、無電荷または逆電荷の導電性オブジェクトに触れて放電するときに発生します。関与する電圧が高い（数万ボルトまで）ため、ESD イベントは、1つのオブジェクトに蓄積された電荷が導電経路を介して中性または逆電荷のオブジェクトに流れるときに、非常に高い電流を生成する可能性があります。
 
 .. figure:: images/positivelyChargedRobot.png
    :alt: A positively charged robot touching a neutral field wall.
    :align: center
    
-   Example of an ESD event, current will flow from the robot to the field wall.
+   ESD イベントの例、電流はロボットからフィールド壁に流れます。
 
-How Robots Become Charged
+ロボットが帯電する仕組み
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Consider what happens when you shuffle your feet on a carpet in wool
-socks and then touch a door knob. You’ll almost certainly get a shock.
-What causes this phenomenon? When two surfaces interact, there is a
-small amount of adhesion. This means that they share electrons and if
-they are made from different materials the electron sharing may be
-uneven. When the surfaces are taken apart, they can become charged. This
-is called the triboelectric effect.
+ウールの靴下を履いてカーペットの上で足をこすり、次にドアノブに触れたときに何が起こるかを考えてみてください。ほぼ確実にショックを受けるでしょう。この現象の原因は何でしょうか？2つの表面が相互作用すると、少量の接着が発生します。これは、それらが電子を共有することを意味し、異なる材料で作られている場合、電子の共有が不均等になる可能性があります。表面が分離されると、帯電する可能性があります。これは摩擦帯電効果と呼ばれます。
 
 .. figure:: images/triboelectric.png
    :alt: Illustration of a wheel on a floor with a close up portion showing how electrons in the floor can become attached to the wheel.
    :align: center
    
-   Robots become charged due to the triboelectric effect.
+   ロボットは摩擦帯電効果により帯電します。
 
-A robot’s wheels moving on field tiles build charge on the robot frame just
-like your wool socks moving on carpet build charge on your body.  Many other
-plastic and rubber materials behave similarly. It is important to note that
-triboelectric charging takes charge from one object and gives it to another, so
-the charges are mirrored. In the case of a *FIRST* Tech Challenge robot,
-positive charge accumulates on the wheels and negative charge accumulates on
-the tiles.
+フィールドタイル上を移動するロボットの車輪は、カーペット上を移動するウールの靴下が体に電荷を蓄積するのと同じように、ロボットフレームに電荷を蓄積します。他の多くのプラスチックやゴム素材も同様の挙動を示します。摩擦帯電は、1つのオブジェクトから電荷を取り、別のオブジェクトに与えるため、電荷はミラーリングされることに注意することが重要です。*FIRST* Tech Challenge ロボットの場合、正電荷が車輪に蓄積され、負電荷がタイルに蓄積されます。
 
-Note that a robot with wheels that slide across the soft tiles of a
-competition field will build electrostatic charge on its frame more
-rapidly than a robot with wheels that roll across the tiles.
+競技フィールドの柔らかいタイルを横切って滑る車輪を持つロボットは、タイルを横切って転がる車輪を持つロボットよりも、そのフレームに静電気を急速に蓄積することに注意してください。
 
-Discharging a Robot
+ロボットの放電
 ~~~~~~~~~~~~~~~~~~~
 
-Current “wants” to flow from objects at higher potential to the objects
-at lower potential to equalize the voltage difference between them and
-it will if given a conductive path to do so (like an uninsulated wire).
-In the case of a robotics competition, if a robot is at a higher
-potential than another metallic object (such as a portion of the game
-field), an ESD event will occur if the frame of the charged robot
-contacts the other object.
+電流は、高電位のオブジェクトから低電位のオブジェクトに流れて、それらの間の電圧差を均等化したいと「望んでおり」、そうするための導電経路（絶縁されていないワイヤーなど）が与えられればそうします。ロボット競技の場合、ロボットが別の金属オブジェクト（ゲームフィールドの一部など）よりも高い電位にある場合、帯電したロボットのフレームが他のオブジェクトに接触すると ESD イベントが発生します。
 
-If the potential difference is high enough, it is also possible for
-current to flow through the air in the form of an electrical arc. Arcing
-occurs when the air between two differently charged conductors becomes
-ionized and allows current to flow from one conductor to the other. Arcs
-at voltages seen on *FIRST* Tech Challenge robots can jump air gaps of
-more than 3/8” (1 cm). Arcs behave almost like direct contact, so they
-can carry a significant amount of current. Visible sparks go with large
-electrostatic arcs.
+電位差が十分に大きい場合、電流が電気アークの形で空気を通って流れることも可能です。アークは、2つの異なる電荷を持つ導体間の空気がイオン化され、1つの導体から別の導体への電流の流れを可能にするときに発生します。*FIRST* Tech Challenge ロボットで見られる電圧でのアークは、3/8インチ（1 cm）以上の空隙を飛び越えることができます。アークは直接接触とほぼ同じように動作するため、かなりの量の電流を運ぶことができます。目に見える火花は大きな静電アークを伴います。
 
 .. figure:: images/discharging.png
    :alt: Illustration showing two circles and the current flow from positive to negative. 
    :align: center
    
-   Electric arc between two spheres of opposite charge.
+   逆電荷の2つの球体間の電気アーク。
 
-What Steps can be Taken to Mitigate the Risk of an ESD Disruption?
+ESD 障害のリスクを軽減するためにどのような手順を実行できますか？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Step 1: Treating the Tile Floor with Anti-Static Spray (Event Hosts Only)
+ステップ 1: タイル床を帯電防止スプレーで処理する（イベントホストのみ）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-One of the most effective ways to reduce the risk of disruption by ESD
-events is to treat the tile floors of a competition field with
-anti-static spray. Anti-static spray increases electrical conductivity
-of the surface of the tiles. This helps prevent the build-up of
-electrostatic charge on the robots as the move across the tile floor.
-
+ESD イベントによる障害のリスクを軽減する最も効果的な方法の1つは、競技フィールドのタイル床を帯電防止スプレーで処理することです。帯電防止スプレーは、タイル表面の電気伝導性を高めます。これにより、ロボットがタイル床を横切って移動するときに、ロボット上の静電荷の蓄積を防ぐのに役立ちます。
 .. image:: images/heavydutystaticide.jpg
    :alt: A gallon jug and a quart spray bottle of ACL Heavy Duty Staticide.
    :align: center
    
 |
 
-*FIRST* recommends the use of `ACL Heavy Duty
-Staticide <https://www.aclstaticide.com/products/heavy-duty-staticide>`__
-spray to treat the tiles. This spray is extremely effective at
-preventing charge build up on the robots. Also, this spray only needs to
-be applied once and it will last for an entire event (and it will work
-across multiple days).
+*FIRST* は、タイルを処理するために `ACL Heavy Duty Staticide <https://www.aclstaticide.com/products/heavy-duty-staticide>`__ スプレーの使用を推奨しています。このスプレーは、ロボット上の電荷蓄積を防ぐのに非常に効果的です。また、このスプレーは1回だけ適用すればよく、イベント全体を通して持続します（複数日にわたって機能します）。
 
-Note that treating the tile floor is something that **only the event
-host is authorized to do**. Teams are **not permitted** to treat the
-tile floor themselves.
+タイル床の処理は、**イベントホストのみが許可されていること**に注意してください。チームが自分でタイル床を処理することは**許可されていません**。
 
-Step 2: Add Ferrite Chokes to Signal Wires
+ステップ 2: 信号線にフェライトチョークを追加する
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Ferrite chokes block large changes in current like those seen during an
-ESD event. This can reduce the risk of damage to or disruption of
-electrical components when a sensor or other peripheral device receives
-a shock.
+フェライトチョークは、ESD イベント中に見られるような大きな電流変化をブロックします。これにより、センサーやその他の周辺デバイスがショックを受けたときに、電気部品への損傷や障害のリスクを軽減できます。
 
 .. image:: images/ferritechoke.jpg
    :alt: A snap-on ferrite choke.  
    :align: center
 
-Using ferrite chokes can be a very effective method for mitigating the
-effects of ESD:
+フェライトチョークの使用は、ESD の影響を軽減する非常に効果的な方法です。
 
-1. Use USB cables that have built-in or snap-on ferrite chokes.
-2. Install snap-on ferrite chokes onto your signal cables:
+1. 内蔵またはスナップオン式フェライトチョークを備えた USB ケーブルを使用します。
+2. 信号ケーブルにスナップオン式フェライトチョークを取り付けます。
 
-   -  Sensor cables
-   -  Encoder cables
-   -  Servo cables
+   -  センサーケーブル
+   -  エンコーダーケーブル
+   -  サーボケーブル
 
-Step 3: Electrically Isolating the Electronics from the Metal Frame of the Robot
+ステップ 3: ロボットの金属フレームから電子機器を電気的に絶縁する
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As a robot moves back and forth across the tile floor during a *FIRST*
-Tech Challenge match, charge can accumulate on the metallic frame of the
-robot due to the triboelectric effect. If a charge builds up on the
-frame of the robot, but the electronics that make up the Control System
-are at a different voltage, then a shock can occur if an exposed or
-poorly insulated portion of the Control System gets close (less than
-3/8” or 10mm) to the metal frame.
+*FIRST* Tech Challenge マッチ中にロボットがタイル床を行き来するとき、摩擦帯電効果によりロボットの金属フレームに電荷が蓄積される可能性があります。ロボットのフレームに電荷が蓄積されるが、制御システムを構成する電子機器が異なる電圧にある場合、制御システムの露出した部分または絶縁が不十分な部分が金属フレームに近づく（3/8インチまたは10mm未満）とショックが発生する可能性があります。
 
-Electrically isolating or insulating the electronics from the frame can
-help avoid disruptions due to this type of shock.
+フレームから電子機器を電気的に絶縁または隔離することで、このタイプのショックによる障害を回避できます。
 
-Sub Step A: Mounting Electronics on a Non-Conductive Material
+サブステップ A: 非導電性材料に電子機器を取り付ける
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Mounting the Control System Electronics on a non-conductive material,
-such as a thin sheet of plywood or a sheet of PVC type A, can help
-reduce the risk of an ESD event between the frame and the electronics.
-Using a non-conductive, rigid panel can also help with wire management
-and strain relieving.
+薄い合板シートや PVC タイプ A シートなどの非導電性材料に制御システム電子機器を取り付けることで、フレームと電子機器の間の ESD イベントのリスクを軽減できます。非導電性の硬質パネルを使用すると、ワイヤー管理やストレインリリーフにも役立ちます。
 
 .. figure:: images/mountonplywood.jpg
    :alt: An expansion hub mounted on a plywood sheet.
    :align: center
 
-   The plywood sheet has holes drilled in it and wires are secured with cable ties to the plywood.
+   合板シートには穴が開けられており、ワイヤーはケーブルタイで合板に固定されています。
 
-Sub Step B: Isolate Exposed or Poorly Insulated Parts of the Electronics
+サブステップ B: 電子機器の露出した部分または絶縁が不十分な部分を隔離する
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Certain parts of the Control System’s electronics have exposed metal or
-are poorly insulated. If these parts are placed too close to the metal
-frame, a shock can occur if a charge accumulates on the frame.
+制御システムの電子機器の特定の部分には、露出した金属があるか、絶縁が不十分です。これらの部分が金属フレームに近すぎると、フレームに電荷が蓄積された場合にショックが発生する可能性があります。
 
 .. figure:: images/poorlyinsulated.jpg
    :alt: A sensor with 4-wire connector and a servo wire extension connection, the 4-wire connector and extension connection are are circled in red.
    :align: center
    
-   Electrostatic shocks can occur at poorly insulated or exposed portions
-   of the electronics.
+   電子機器の絶縁が不十分または露出した部分で静電ショックが発生する可能性があります。
 
-For example, the 4-wire sensor cables that are used by the REV Robotics
-Expansion Hub have plastic connectors that are poorly insulated. If a
-charge accumulates on the metal frame of the robot, and the end of
-sensor cable is placed close to the frame, a shock can occur and this
-shock can disrupt or even damage the I2C port of an Expansion Hub.
+たとえば、REV Robotics Expansion Hub で使用される 4 線式センサーケーブルには、絶縁が不十分なプラスチックコネクタがあります。ロボットの金属フレームに電荷が蓄積され、センサーケーブルの端がフレームに近く配置されている場合、ショックが発生する可能性があり、このショックは Expansion Hub の I2C ポートを妨害したり損傷したりする可能性があります。
 
-Similarly, some servo extension cables have exposed
-portions of metal that could be vulnerable to ESD unless properly
-isolated or insulated.
+同様に、一部のサーボ延長ケーブルには、適切に絶縁または隔離されていない限り ESD に対して脆弱な露出した金属部分があります。
+同様に、一部のサーボ延長ケーブルには、適切に絶縁または隔離されていない限り ESD に対して脆弱な露出した金属部分があります。
 
-Moving these vulnerable areas of the electronics system away from the
-frame (with an air gap greater than 3/8” or 10mm) can help reduce the
-risk of an ESD disruption.
+電子システムのこれらの脆弱な領域をフレームから遠ざける（3/8インチまたは10mmを超える空隙で）ことで、ESD 障害のリスクを軽減できます。
 
 .. figure:: images/keepawayfromframe.jpg
    :alt: A sensor with an air gap between the frame and the 4-wire connector.
    :align: center
    
-   Keep exposed portions of the electronics away from the frame.
+   電子機器の露出した部分をフレームから遠ざけます。
 
-Using electrical tape to insulate these areas can be equally effective and may be easier to implement.
+電気テープを使用してこれらの領域を絶縁することも同様に効果的で、実装が容易な場合があります。
 
-.. figure:: images/tapepoorlyinsulated.jpg
-   :alt: A servo wire extension connection wrapped in electrical tape and a sensor mounted on a frame where the frame is wrapped in electrical tape.
+.. figure:: images/insulatewithelectricaltape.jpg
+   :alt: A sensor with the 4-wire connector covered in electrical tape.
    :align: center
    
-   Electrical tape can be used to insulate exposed or poorly insulated
-   metal.
+   電気テープで露出した部分を覆います。
 
-.. warning:: An ESD event on the USB 2.0 port on the Control Hub can cause Wi-Fi disconnects.
-
-   The REV Control Hub has a 
-   `known ESD issue <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
-   with devices plugged into the USB 2.0 port. 
-   Using the USB 2.0 Port may cause ESD to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub). 
-   
-   Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on your Control Hub. 
-
-Step 3: Covering Exterior Metal Features with Electrically Insulated Material
+ステップ 3: 電気絶縁材料で外部の金属機能を覆う
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Another ESD mitigation strategy is to cover exposed portions of metallic
-frame pieces with an electrically insulating material. Covering the
-conductive exterior parts of a robot with a non-conductive material
-reduces the risk that they will touch a conductive object at a different
-electrical potential and trigger an ESD event. Wooden bumpers,
-electrical tape, and other non-conductive coatings are all effective.
+別の ESD 軽減戦略は、ロボット上の金属物体の露出した部分を、ロボットがフィールド壁やゲーム要素に接触したときにアークが発生しないように、電気絶縁材料（電気テープなど）で覆うことです。
 
-.. figure:: images/coverwithtape.jpg
-   :alt: A robot claw mechanism where the metal claws are wrapped in electrical tape.
+.. figure:: images/coverexposedmetal.jpg
+   :alt: A robot frame with edges covered in electrical tape.
    :align: center
    
-   Insulating portions of the robot that touch other metallic objects on
-   the field can help.
+   電気テープでロボットの露出した金属の端を覆います。
 
-In past seasons, teams who have done this have observed reductions in
-the frequency and severity of ESD events on their robots.
+過去のシーズンでこれを行ったチームは、ESD イベントによる障害の減少を観察しています。
 
-Step 4: Ground Electronics to Metal Frame with an Approved Cable
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ステップ 4: 承認されたケーブルで電子機器を金属フレームに接地する
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Because it is difficult to perfectly isolate the electrical system, it
-is beneficial to ground the electrical system to the frame of the robot
-to prevent a potential difference from building up between the frame and
-the electronics. Doing this can help reduce the risk that a shock can
-occur between the frame of a robot and the Control System electronics.
+電気システムを完全に隔離することは困難であるため、制御システムを金属フレームに接地することで、それらの間の電位差を排除し、フレームと制御システムの間のアークのリスクを軽減することが推奨されます。
 
-.. figure:: images/REV-31-1269-ResistiveGroundingStrap.jpg
-   :alt: The REV Resistive Grounding Strap has a XT30 connection on one end and an eye loop connector on the other end.
-   :align: center
-
-   The REV Resistive Grounding Strap (REV-31-1269) is an approved grounding
-   cable.
-
-It is important that the grounding **only be done using a
-FIRST-approved, commercially manufactured cable** 
-(see the competition manual for the currently approved cables). 
-A *FIRST*-approved cable has an appropriately
-sized inline resistor. This resistor is critical because it acts as a
-safeguard to prevent excessive current from flowing through the frame of
-the robot if a “hot” (positive) wire of the electronics system is
-inadvertently short circuited to the frame of the robot. Also, the
-commercially manufactured grounding cable has a keyed connection, which
-is designed to prevent a user from inadvertently connecting a hot (12V)
-line to the frame of robot.
-
-Note that if your team uses Anderson Powerpole connectors, then you will
-need to use the REV Robotics Anderson Powerpole to XT30 Adapter cable in
-conjunction with REV Robotics’ Resistive Grounding Strap:
-
-.. figure:: images/REV-31-1385-AndersonPowerPoleToXT30.png
-   :alt: REV Robotics Anderson Powerpole to XT30 Adapter cable
+.. figure:: images/grounding.jpg
+   :alt: A Control Hub grounded to a frame using an XT30 to spade terminal cable.
    :align: center
    
-   The REV-31-1385 adapter is approved for use with REV’s Resistive
-   Grounding Strap.
+   XT30 からスペード端子ケーブルを使用して金属フレームに接地された Control Hub。
 
-To ground the electronics, plug one end of the *FIRST*-approved cable into
-a spare XT30 port on the Control System electronics. Then bolt the other
-end using a conductive (i.e., metal) bolt to the frame of the robot.
+接地は、**FIRST 承認の市販ケーブル**のみを使用して行う必要があることが重要です。カスタムメイドまたは自作のケーブルは、適切なサイズのワイヤーを使用していない可能性があり、電流に過負荷がかかった場合に火災の危険性があるため、**許可されていません**。
 
-.. figure:: images/groundtheelectronics.png
-   :alt: An expansion hub with a grounding cable connected to the XT30 port and bolted to the metal frame of the robot.
+*FIRST* 承認のケーブルには、ケーブルが設計されている電流容量に適したゲージのワイヤーがあります。詳細については、競技マニュアルを参照してください。
+
+Anderson Powerpole コネクタを使用する場合は、XT30 から Anderson Powerpole へのアダプターが必要になることに注意してください。
+
+.. figure:: images/xt30toanderson.jpg
+   :alt: An XT30 to Anderson Powerpole adapter.
    :align: center
    
-   Ground the electronics to the frame using a FIRST-approved cable.
+   Anderson Powerpole への XT30 アダプター。
 
-It might initially seem contradictory to both insulate the electronic
-components of the control system from the frame and to also ground the
-electronics to the frame. However, if the electronics are not grounded
-to the frame, shocks can occur if a charge builds on the robot frame and
-an exposed or poorly insulated portion of the electronics (such as the
-base of a REV Robotics color sensor) gets close it. If the electronics
-are grounded to the frame, the grounding wire helps keep the electronics
-at the same potential as the frame, preventing arcs between the two
-systems.
+電子機器を接地するには、*FIRST* 承認のケーブルの一端を Expansion Hub または Control Hub の XT30 バッテリーポートの 1 つに接続します。もう一方の端をロボットの金属フレームに接続します（スペード端子を使用している場合は、フレームのボルトの周りに端子を配置してボルトをしっかりと締めます）。
+
+.. figure:: images/connectgroundingcable.jpg
+   :alt: The spade terminals being placed around a bolt in a frame.
+   :align: center
+   
+   スペード端子をフレームのボルトに配置します。
+
+電気システムを絶縁し、**かつ**金属フレームに接地することは、最初は矛盾しているように見えるかもしれません。ただし、電子機器が損傷したり障害が発生したりするのは、電子機器とフレームの間で電流が制御不能な方法で流れるときです。電気システムをフレームに直接接地することで、チームは電流が流れる制御された経路を提供しています。大きなワイヤーゲージの接地ケーブルは、スパイクやサージからフレームへのより直接的な経路を提供できます（電位を均等化します）。
+
+異なる ESD 軽減技術を組み合わせると、異なる方法でリスクを軽減するため、より優れた全体的な保護が提供されることに注意してください。
