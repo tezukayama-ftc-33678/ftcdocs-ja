@@ -56,6 +56,7 @@
 | FIRST | **FIRST** | 組織名（For Inspiration and Recognition of Science and Technology） |
 | FIRST Tech Challenge (FTC) | **FIRST Tech Challenge (FTC)** | プログラム名 |
 | Gracious Professionalism | **Gracious Professionalism** | FIRST の理念（登録商標） |
+| Awards | **Awards** | FTC 固有の表彰制度（FLLでも同様に英語で使用） |
 
 ---
 
@@ -97,7 +98,6 @@
 | Portfolio | ポートフォリオ | |
 | Judging | 審査 | |
 | Inspection | 検査 | |
-| Awards | 表彰 | |
 | Event | イベント | |
 | Rookie Team | 新規チーム | |
 | Veteran Team | 既存チーム | |
