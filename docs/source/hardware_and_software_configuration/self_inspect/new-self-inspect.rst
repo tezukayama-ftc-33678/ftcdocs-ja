@@ -120,11 +120,9 @@ Robot Controller 自己点検レポート
 -  項目 6 ``Hub Firmware`` は、ハブアドレスとファームウェアレベルをリストします。この例では 1 つの **Control Hub** が表示されていますが、**Expansion Hub** もここにリストできます。チェックマークは、RC アプリの現在のバージョンに基づいてすべてのファームウェアが最新であることを示します。*FIRST* は、チームが現在利用可能なバージョンを使用することを推奨していますが、必須ではありません。
 -  項目 7 は、報告されているデバイスの ``Battery Level`` を示します。
 -  項目 8 ``Bluetooth`` は **Disabled** である必要があります。
--  Item 9 ``RC Password`` appears only in RC Self Inspect. This inspection item has failed the FTC requirement for a Control Hub
-   password different than the factory default (“password”). Go to the Program and Manage page, select Manage and then update the RC password.
-   You will have to re-pair the DS to the RC and enter the new password to reconnect.
--  Item 10 ``Wi-Fi Enabled`` must be **Yes** as it means the control hub’s Wi-Fi radio is **ON**.
--  Item 11 ``Standard Wi-Fi Connected`` must be **Yes**.
+-  項目 9 ``RC Password`` は RC 自己点検にのみ表示されます。この検査項目は、工場出荷時のデフォルト（「password」）とは異なる **Control Hub** パスワードの FTC 要件に失敗しました。Program and Manage ページに移動し、Manage を選択してから RC パスワードを更新します。DS を RC に再ペアリングし、新しいパスワードを入力して再接続する必要があります。
+-  項目 10 ``Wi-Fi Enabled`` は、**Control Hub** の Wi-Fi ラジオが **ON** であることを意味するため、**Yes** である必要があります。
+-  項目 11 ``Standard Wi-Fi Connected`` は **Yes** である必要があります。
 -  項目 12 は、``Robot Controller Name`` が FTC フォーマット要件を満たしていることを示します。チーム番号に -RC を加えたものである必要があります。例：99999-RC。予備デバイスが構成されている場合、文字指定子を追加できます <チーム番号>-<文字>-RC（例：12345-A-RC、12345-B-RC）。デバイスの命名規則については、競技マニュアルを参照してください。
 -  項目 13 Apps Installed ``Robot Controller`` は、RC アプリのバージョンを表示する必要があります。*FIRST* は、チームが現在利用可能なバージョンを使用することを推奨していますが、必須ではありません。
 -  項目 14 ``Matches DS Version`` は **Yes** である必要があります。**No** がここに表示される可能性があり、おそらくポイントの不一致（例：10.0 と 10.1）が原因です。不一致は現在許可されていますが、推奨されません。

@@ -147,17 +147,16 @@ Here’s the corresponding DS Telemetry:
 
    AprilTag Telemetry
 
-データには以下が含まれます。 
 データには以下が含まれます。
 
 - 検出されたオブジェクト（「ブロック」と呼ばれる）の数
 - オブジェクトの ID コード（正しくないか意味がない可能性があります）
 - バウンディングボックスのサイズ（ピクセル単位）
 - バウンディングボックスの中心位置（ピクセル単位）、(X, Y) の原点は左上
-HuskyLens デバイスの画面は 320 x 240 ピクセルで、中心位置は
+
 HuskyLens デバイスの画面は 320 x 240 ピクセルで、中心位置は (160, 120) です。
-**Congratulations!** At this point, you have validated the HuskyLens
-device, its connection to the REV Hub, and the Sample OpMode program.
+
+**おめでとうございます！** この時点で、HuskyLens デバイス、REV Hub への接続、およびサンプル **OpMode** プログラムを検証しました。
 **おめでとうございます！** この時点で、HuskyLens デバイス、REV Hub への接続、およびサンプル **OpMode** プログラムを検証しました。
 ------------------
 
