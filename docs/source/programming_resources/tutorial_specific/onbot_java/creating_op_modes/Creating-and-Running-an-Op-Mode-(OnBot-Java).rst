@@ -63,14 +63,14 @@ OnBot Java プログラミングツール
 
 |
 
-.. important:: Note: If your Robot Controller is an Android smartphone, then the address to access the Program & Manage server is "192.168.49.1:8080". Notice the difference in the third octet of the IP addresses (the Control Hub has a "43" instead of a "49").
+.. important:: 注記: **Robot Controller** がAndroidスマートフォンの場合、Program & Manageサーバーにアクセスするためのアドレスは「192.168.49.1:8080」です。IPアドレスの第3オクテットの違いに注意してください（**Control Hub** は「49」ではなく「43」です）。
 
 .. image:: images/WritingFirstOpModeStep1a.jpg
    :align: center
 
 |
 
-   Type this web address into the address field of your browser and press RETURN to navigate to the Program & Manage web server.
+   このWebアドレスをブラウザのアドレスフィールドに入力し、RETURNキーを押してProgram & Manage Webサーバーに移動します。
 
 .. image:: images/WritingFirstOpModeStep1bControlHub.jpg
    :align: center
