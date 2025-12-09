@@ -1,8 +1,28 @@
-Simple Example: create myGreeting
+
+シンプルな例: myGreetingを作成する
 =================================
 
-Start with a simple myBlock that creates a greeting “Hello World” (of
-course!).
+まず、「Hello World」という挨拶を作成するシンプルなmyBlockから始めましょう（もちろんです！）。
+
+シンプルな例: myGreetingを作成する
+=================================
+
+まず、「Hello World」という挨拶を作成するシンプルなmyBlockから始めましょう（もちろんです！）。
+
+シンプルな例: myGreetingを作成する
+=================================
+
+まず、「Hello World」という挨拶を作成するシンプルなmyBlockから始めましょう（もちろんです！）。
+
+シンプルな例: myGreetingを作成する
+=================================
+
+まず、「Hello World」という挨拶を作成するシンプルなmyBlockから始めましょう（もちろんです！）。
+
+シンプルな例: myGreetingを作成する
+=================================
+
+まず、「Hello World」という挨拶を作成するシンプルなmyBlockから始めましょう（もちろんです！）。
 
 Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone.
 Go to the address **http://192.168.43.1:8080** (CH) or

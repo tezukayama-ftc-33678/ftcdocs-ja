@@ -1,4 +1,4 @@
-More about Parameter Types
+パラメータタイプの詳細
 ==========================
 
 Do not type or run the following myBlock example. Its dummy inputs
