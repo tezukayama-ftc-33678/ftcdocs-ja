@@ -1,137 +1,113 @@
-Color Spaces
+色空間
 ============
 
-Overview
+概要
 --------
 
-This page of the FTC Color Processing tutorial introduces **Color Spaces**.
+このFTCカラー処理チュートリアルのページでは、**色空間**について紹介します。
 
-OpenCV can process color information using any one of several Color Spaces,
-which are methods to describe an exact shade and brightness.
+**OpenCV**は、いくつかの色空間のいずれかを使用して色情報を処理できます。色空間とは、正確な色合いと明るさを記述する方法です。
 
-This page describes 3 choices available in the FTC SDK:
+このページでは、FTC SDKで利用可能な3つの選択肢について説明します：
 
-* RGB (Red, Green, Blue)
-* HSV (Hue, Saturation, Value)
-* YCrCb (Luminance, Chrominance red, Chrominance blue)
+* RGB（赤、緑、青）
+* HSV（色相、彩度、明度）
+* YCrCb（輝度、クロミナンス赤、クロミナンス青）
 
-Each Color Space uses 3 numbers, 0 to 255, to describe a particular color.
+各色空間は、0から255までの3つの数値を使用して特定の色を記述します。
 
-RGB Color Space
+RGB色空間
 ---------------
 
-**RGB** is a common Color Space, easy to understand.  Its 3 components are:
+**RGB**は一般的な色空間で、理解しやすいです。3つのコンポーネントは以下の通りです：
 
-* **Red** (0 - 255)
-* **Green** (0 - 255)
-* **Blue** (0 -  255)
+* **赤** (0 - 255)
+* **緑** (0 - 255)
+* **青** (0 -  255)
 
 .. figure:: images/10-RGB-wheel.png
    :width: 75%
    :align: center
-   :alt: RGB Color Wheel
+   :alt: RGBカラーホイール
 
-   RGB Color Wheel
+   RGBカラーホイール
 
-Pure Red has values 255 red, 0 green, 0 blue.  Pure Green has 0 red, 255 green,
-0 blue.
+純粋な赤は、赤255、緑0、青0の値を持ちます。純粋な緑は、赤0、緑255、青0です。
 
-Magenta is a blend of Red and Blue, so its values are 255 red, 0 green, and 255
-blue.
+マゼンタは赤と青のブレンドなので、赤255、緑0、青255の値になります。
 
-Here's a useful way to visualize the RGB Color Space, with one axis for each
-component:
+以下は、RGB色空間を視覚化する便利な方法で、各コンポーネントに1つの軸があります：
 
 .. figure:: images/20-RGB-cube.png
    :width: 75%
    :align: center
-   :alt: RGB Cube Visualization
+   :alt: RGB立方体の視覚化
 
-   RGB Cube Visualization
+   RGB立方体の視覚化
 
-Each near-side external face of this box has the maximum value for one
-component.  Every shade of color on the top face, for example, has a Blue
-component of 255.
+この立方体の各手前側の外面は、1つのコンポーネントの最大値を持っています。例えば、上面のすべての色は、青のコンポーネントが255です。
 
-The nearest corner is **White**, with RGB values of (255, 255, 255).  Namely,
-full values of Red, Green and Blue light will combine to appear as white light.
+最も近い角は**白**で、RGBの値は(255, 255, 255)です。つまり、赤、緑、青の光の最大値を組み合わせると、白い光として現れます。
 
-Where is **Black**?  It's the opposite corner, at the origin, hidden in this
-view.  Its values are (0, 0, 0) -- no color at all.
+では**黒**はどこにあるでしょうか？それは反対側の角、原点にあり、この図では隠れています。その値は(0, 0, 0)で、色がまったくない状態です。
 
-This RGB system is used only for light-based colors, including video.  It does
-not apply for painted colors, or printed colors, which use other color systems.
+このRGBシステムは、ビデオを含む光ベースの色にのみ使用されます。塗料の色や印刷の色には適用されません。それらは他の色システムを使用します。
 
 .. tip::
-   Mixing red paint, green paint and blue paint will **not** create white paint!
+   赤い絵の具、緑の絵の具、青い絵の具を混ぜても、白い絵の具にはなり**ません**！
 
-Technical information is available at `Wikipedia Color Spaces <https://en.wikipedia.org/wiki/RGB_color_spaces>`_.
+技術情報は`Wikipediaの色空間 <https://en.wikipedia.org/wiki/RGB_color_spaces>`_で入手できます。
 
-HSV Color Space
+HSV色空間
 ---------------
 
-Another Color Space used by OpenCV is **HSV**\ : Hue, Saturation and Value.
+**OpenCV**が使用する別の色空間は**HSV**です：色相（Hue）、彩度（Saturation）、明度（Value）。
 
 .. figure:: images/30-HSV-cone.png
    :width: 75%
    :align: center
-   :alt: HSV Cone Visualization
+   :alt: HSV円錐の視覚化
 
-   HSV Cone Visualization
+   HSV円錐の視覚化
 
-**Hue** is the actual shade of color; see the familiar color wheel on top.
+**色相（Hue）**は実際の色の色合いです。上部の馴染みのあるカラーホイールを参照してください。
 
-**Saturation** measures the amount of white: a lower value is whiter, or more
-grey.  On the HSV cone, see the outward arrow for Saturation.  The highest
-value of 255 is the fully saturated color (no white).
+**彩度（Saturation）**は白の量を測定します。値が低いほど白っぽく、またはより灰色です。HSV円錐上で、彩度の外向きの矢印を参照してください。最高値の255は完全に彩度の高い色（白がない）です。
 
-**Value** measures brightness; see the upward arrow on the HSV cone.  The top
-face of the cone (Value = 255), is the fully bright color.  Black is found at
-the lower tip, Value = 0.
+**明度（Value）**は明るさを測定します。HSV円錐の上向きの矢印を参照してください。円錐の上面（明度 = 255）は完全に明るい色です。黒は下端、明度 = 0にあります。
 
-Technical information is available at `Wikipedia HSL/HSV <https://en.wikipedia.org/wiki/HSL_and_HSV>`_.
+技術情報は`WikipediaのHSL/HSV <https://en.wikipedia.org/wiki/HSL_and_HSV>`_で入手できます。
 
-YCrCb Color Space
+YCrCb色空間
 -----------------
 
-A third Color Space used by OpenCV is **YCrCb**.
+**OpenCV**が使用する3番目の色空間は**YCrCb**です。
 
 .. figure:: images/40-YCrCb.png
    :width: 75%
    :align: center
-   :alt: YCrCb Visualization
+   :alt: YCrCbの視覚化
 
-   YCrCb Visualization
+   YCrCbの視覚化
 
-The Y is **Luminance** or brightness, while Cr and Cb are red and blue
-components of **Chrominance**.  Technical information is available at
-`Wikipedia YCbCr <https://en.wikipedia.org/wiki/YCbCr>`_.
+Yは**輝度（Luminance）**または明るさで、CrとCbは**クロミナンス（Chrominance）**の赤と青のコンポーネントです。技術情報は`WikipediaのYCbCr <https://en.wikipedia.org/wiki/YCbCr>`_で入手できます。
 
-The YCrCb Color Space offers efficient computation of color processing, and is
-widely used in video applications.
+YCrCb色空間は、カラー処理の効率的な計算を提供し、ビデオアプリケーションで広く使用されています。
 
-Some online documentation refers to a Color Space called **YCbCr**.  This is
-the same system, with the last 2 values reversed.
+一部のオンラインドキュメントでは、**YCbCr**と呼ばれる色空間を参照しています。これは同じシステムで、最後の2つの値が逆になっています。
 
-How to choose?
+どのように選択すればよいですか？
 --------------
 
-Use the Color Space that's convenient for you.  RGB is easy to understand,
-while YCrCb may offer better computational performance (if needed).
+皆さんにとって便利な色空間を使用してください。RGBは理解しやすく、YCrCbは（必要に応じて）より優れた計算パフォーマンスを提供する可能性があります。
 
-It's easy to find free public websites to convert the 3 values from one Color
-Space into the corresponding 3 values from another Color Space.
+ある色空間の3つの値を別の色空間の対応する3つの値に変換する無料の公開ウェブサイトを簡単に見つけることができます。
 
-When converting to HSV, some online sites give Hue in degrees (0 to 360), and
-Saturation and Value as percentages (0 to 100).  Apply these (as a proportion
-of the maximum) to 255, for values to use in the FTC **Color Locator**
-processor.
+HSVに変換する際、一部のオンラインサイトでは、色相を度数（0から360）で、彩度と明度をパーセンテージ（0から100）で示します。FTCの**Color Locator**プロセッサで使用する値については、これらを（最大値の比率として）255に適用してください。
 
-The **Color Locator** processor can use any of these three Color Spaces.  The
-simple **Color Sensor** processor uses YCrCb internally, but reports results in
-RGB only.
+**Color Locator**プロセッサは、これら3つの色空間のいずれかを使用できます。シンプルな**Color Sensor**プロセッサは内部でYCrCbを使用しますが、結果はRGBのみで報告されます。
 
 ============
 
-*Questions, comments and corrections to westsiderobotics@verizon.net*
+*質問、コメント、修正は westsiderobotics@verizon.net まで*
 

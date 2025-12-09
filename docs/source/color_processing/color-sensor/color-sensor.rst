@@ -1,116 +1,96 @@
-Color Processing Color Sensor
+カラー処理 カラーセンサー
 =============================
 
-Overview
+概要
 --------
 
-A simple way to use FTC's new OpenCV vision tools is to operate a "Color
-Sensor".  Namely, it can determine **the color seen by the robot's camera**\ ,
-in a specified zone.
+FTCの新しい**OpenCV**ビジョンツールを使用する簡単な方法は、「カラーセンサー」を操作することです。つまり、指定されたゾーンで**ロボットのカメラが見た色**を判定できます。
 
-Below, the small central rectangle is the region being evaluated:
+以下では、小さな中央の長方形が評価されている領域です：
 
 .. figure:: images/10-sensor-intro.png
    :width: 75%
    :align: center
-   :alt: INTO THE DEEP game pieces
+   :alt: INTO THE DEEPゲーム要素
 
-   Color sensor detection zone 
+   カラーセンサー検出ゾーン
 
-A key benefit is that the camera can be much further away from the object than,
-for example, a REV Color Sensor or others like it.
+主な利点は、例えば**REV Color Sensor**などと比較して、カメラがオブジェクトからはるかに遠くに離れていても機能することです。
 
-It's still important to accurately point the camera and carefully select the
-image zone to inspect.
+それでも、カメラを正確に向け、検査する画像ゾーンを慎重に選択することが重要です。
 
-For the above example, OpenCV can provide results like this:
+上記の例の場合、**OpenCV**は次のような結果を提供できます：
 
 .. figure:: images/20-telemetry-intro.png
    :width: 75%
    :align: center
-   :alt: Driver Station App showing RED detection
+   :alt: RED検出を示すDriver Stationアプリ
 
-   RED Detection using Color Sensor
+   カラーセンサーを使用したRED検出
 
-The following sections describe how to do this, with a Sample OpMode.
+以下のセクションでは、サンプル**OpMode**を使用してこれを行う方法について説明します。
 
-Configuration
+構成
 -------------
 
-*Skip this section if ...*
+*次の場合、このセクションをスキップしてください...*
 
 
-* *the active robot configuration already contains "Webcam 1"*, or
-* *using the built-in camera of an Android phone as Robot Controller.*
+* *アクティブなロボット構成に既に「Webcam 1」が含まれている場合*、または
+* *Androidスマートフォンの内蔵カメラをRobot Controllerとして使用している場合*
 
-Before starting the programming, REV Control Hub users should make a robot
-configuration that includes the USB webcam to be used as a color sensor.
+プログラミングを開始する前に、**REV Control Hub**ユーザーは、カラーセンサーとして使用するUSBウェブカメラを含むロボット構成を作成する必要があります。
 
-For now, use the default webcam name, "Webcam 1".  If a different name is
-preferred, edit the Sample OpMode to agree with the exact webcam name in the
-robot configuration.
+今のところ、デフォルトのウェブカメラ名「Webcam 1」を使用してください。別の名前を希望する場合は、サンプル**OpMode**を編集して、ロボット構成の正確なウェブカメラ名と一致させてください。
 
-Save and activate that configuration; its name should appear on the paired
-Driver Station screen.
+その構成を保存してアクティブ化します。その名前は、ペアリングされた**Driver Station**画面に表示されるはずです。
 
-Sample OpMode
+サンプルOpMode
 -------------
 
-Opening the Sample OpMode
+サンプルOpModeを開く
 +++++++++++++++++++++++++
 
-To learn about opening the Sample OpMode, click the tab for Blocks or Java:
+サンプル**OpMode**を開く方法については、**Blocks**または**Java**のタブをクリックしてください：
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      1. On a laptop or desktop computer connected via Wi-Fi to the Robot
-         Controller, open the Chrome browser.  Go to the REV Control
-         Hub's address ``http://192.168.43.1:8080`` (or
-         ``http://192.168.49.1:8080`` for Android RC phone) and click the
-         *Blocks* tab.
+      1. **Robot Controller**にWi-Fi経由で接続されたラップトップまたはデスクトップコンピューターで、Chromeブラウザを開きます。**REV Control Hub**のアドレス``http://192.168.43.1:8080``（またはAndroid RCスマートフォンの場合は``http://192.168.49.1:8080``）に移動し、*Blocks*タブをクリックします。
 
-      2. Click ``Create New OpMode``\ , enter a new name such as
-         "ColorSensor_Maria_v01", and select the Sample OpMode
-         ``ConceptVisionColorSensor``.
+      2. ``Create New OpMode``をクリックし、「ColorSensor_Maria_v01」などの新しい名前を入力し、サンプル**OpMode** ``ConceptVisionColorSensor``を選択します。
 
-      3. At the top of the Blocks screen, you can change the type from "TeleOp" to
-         "Autonomous", since this Sample OpMode does not use gamepads.
+      3. **Blocks**画面の上部で、このサンプル**OpMode**はゲームパッドを使用しないため、タイプを「TeleOp」から「Autonomous」に変更できます。
 
-      4. If using the built-in camera of an RC phone, drag out the relevant Block
-         from the left-side ``VisionPortal.Builder`` toolbox.
+      4. RCスマートフォンの内蔵カメラを使用する場合は、左側の``VisionPortal.Builder``ツールボックスから関連するブロックをドラッグアウトします。
 
-      5. Save the OpMode, time to try it!
+      5. **OpMode**を保存して、試してみましょう！
 
 
    .. tab-item:: Java
       :sync: java
 
-      1. Open your choice of OnBot Java or Android Studio.
+      1. **OnBot Java**または**Android Studio**のいずれかを開きます。
 
-      2. In the ``teamcode`` folder, add/create a new OpMode with a name such as
-         "ColorSensor_Bobby_v01.java", and select the Sample OpMode
-         ``ConceptVisionColorSensor.java``.
+      2. ``teamcode``フォルダーで、「ColorSensor_Bobby_v01.java」などの名前で新しい**OpMode**を追加/作成し、サンプル**OpMode** ``ConceptVisionColorSensor.java``を選択します。
 
-      3. At about Line 58, you can change ``@TeleOp`` to ``@Autonomous``\ , since
-         this Sample OpMode does not use gamepads.
+      3. 約58行目で、このサンプル**OpMode**はゲームパッドを使用しないため、``@TeleOp``を``@Autonomous``に変更できます。
 
-      4. If using the built-in camera of an RC phone, follow the OpMode comments
-         to specify that camera.
+      4. RCスマートフォンの内蔵カメラを使用する場合は、**OpMode**のコメントに従ってそのカメラを指定します。
 
-      5. Click "Build", time to try it!
+      5. 「Build」をクリックして、試してみましょう！
 
-Running the Sample OpMode
+サンプルOpModeを実行する
 +++++++++++++++++++++++++
 
-On the Driver Station:
+**Driver Station**で：
 
-1. Select the Autonomous OpMode that you just saved or built.
-2. Turn off the automatic 30-second match timer (green slider).
-3. Touch INIT only.  
+1. 保存またはビルドしたばかりの**Autonomous** **OpMode**を選択します。
+2. 自動30秒マッチタイマーをオフにします（緑のスライダー）。
+3. INITのみにタッチします。
 
-The OpMode should give Telemetry, stating the main "matched" color inside the Region of Interest.
+**OpMode**は**Telemetry**を提供し、関心領域内の主な「マッチした」色を示す必要があります。
 
 .. figure:: images/30-DStelemetry.png
    :width: 75%
@@ -119,52 +99,41 @@ The OpMode should give Telemetry, stating the main "matched" color inside the Re
 
    Driver Station Telemetry
 
-Move the camera around, and watch the Telemetry area on the Driver Station
-screen.  It should state "BLUE" when pointing at a blue object, and likewise
-should identify other common colors.
+カメラを動かして、**Driver Station**画面の**Telemetry**エリアを見てください。青いオブジェクトを指しているときは「BLUE」と表示され、同様に他の一般的な色も識別するはずです。
 
-**It's working!**  You have a color sensor in your robot camera.  Think about
-how to use this in the FTC Robot Game.
+**動作しています！** ロボットのカメラにカラーセンサーがあります。FTCロボットゲームでこれをどのように使用するか考えてみてください。
 
-*Skip the next two sections if you already know how to use FTC previews.*
+*FTCプレビューの使用方法をすでに知っている場合は、次の2つのセクションをスキップしてください。*
 
-DS Preview
+DSプレビュー
 ----------
 
-Before describing how to modify the OpMode, this page offers two sections
-showing how to view the OpenCV results with **previews**.  Previewing is
-essential for working with vision code.
+**OpMode**を変更する方法を説明する前に、このページでは**プレビュー**で**OpenCV**の結果を表示する方法を示す2つのセクションを提供します。プレビューは、ビジョンコードの作業に不可欠です。
 
-**Opening the DS Preview**
+**DSプレビューを開く**
 
-1. On the Driver Station (DS), remain in INIT -- don't touch the Start button.
-2. At the top right corner, touch the 3-dots menu, then ``Camera Stream``.
-   This shows the camera's view; tap the image to refresh it.
+1. **Driver Station**（DS）で、INITのままにします - Startボタンにタッチしないでください。
+2. 右上隅で、3点メニューをタッチしてから、``Camera Stream``をタッチします。これによりカメラのビューが表示されます。画像をタップして更新します。
 
 .. figure:: images/34-CameraStream.png
    :width: 75%
    :align: center
-   :alt: Camera Stream Preview
+   :alt: Camera Streamプレビュー
 
-   Camera Stream Preview
+   Camera Streamプレビュー
 
-Drawn on the image is the rectangle being evaluated, called the **Region of
-Interest** (ROI).  The ROI border color is the rectangle's predominant color,
-reported to DS Telemetry.
+画像上に描画されているのは、評価されている長方形で、**関心領域（Region of Interest、ROI）**と呼ばれます。ROIの境界線の色は、長方形の主な色で、DS **Telemetry**に報告されます。
 
-If that border "disappears" against a solid-color background, the thin white
-cross-hairs and 4 small white dots can still identify the ROI.
+その境界線が単色の背景に対して「消えて」しまった場合でも、細い白い十字線と4つの小さな白い点でROIを識別できます。
 
-For a BIG preview, touch the arrows at the bottom right corner.
+大きなプレビューを表示するには、右下隅の矢印をタッチします。
 
-Or, select Camera Stream again, to return to the previous screen and its
-Telemetry.
+または、Camera Streamを再度選択して、前の画面とその**Telemetry**に戻ります。
 
-RC Preview
+RCプレビュー
 ----------
 
-The Robot Controller (RC) device also makes a preview, called ``LiveView``.
-This is full video, and is shown automatically on the screen of an RC phone.
+**Robot Controller**（RC）デバイスも、``LiveView``と呼ばれるプレビューを作成します。これはフルビデオで、RCスマートフォンの画面に自動的に表示されます。
 
 .. figure:: images/38-LiveView.png
    :width: 75%
@@ -173,53 +142,39 @@ This is full video, and is shown automatically on the screen of an RC phone.
 
    Control Hub LiveView
 
-The above preview is from a REV Control Hub.
+上記のプレビューは**REV Control Hub**からのものです。
 
-It has no physical screen, so you must plug in an HDMI monitor **or** use
-open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "screen
-copy") to see the preview on a laptop or computer that's connected via Wi-Fi to
-the Control Hub.
+物理的な画面がないため、HDMIモニターを接続する**か**、オープンソースの`scrcpy <https://github.com/Genymobile/scrcpy>`_（「スクリーンコピー」と呼ばれる）を使用して、Wi-Fi経由で**Control Hub**に接続されているラップトップまたはコンピューターでプレビューを表示する必要があります。
 
-Modify the Sample
+サンプルを変更する
 -----------------
 
-This Sample OpMode is designed for the user to select/edit **two inputs**\ :
+このサンプル**OpMode**は、ユーザーが**2つの入力**を選択/編集できるように設計されています：
 
 
-* define the Region of Interest (ROI)
-* list the colors that might be found
+* 関心領域（ROI）を定義する
+* 見つかる可能性のある色をリストする
 
-For the **first input**, there are 3 ways to define the ROI:
+**最初の入力**では、ROIを定義する3つの方法があります：
 
-* entire frame
-* sub-region, defined with standard image coordinates
-* sub-region, defined with a normalized +/- 1.0 coordinate system
+* フレーム全体
+* 標準の画像座標で定義されたサブ領域
+* 正規化された+/- 1.0座標システムで定義されたサブ領域
 
-For the **second input**, you must list the candidate colors from which a
-result will be selected as a "Match".
+**2番目の入力**では、「マッチ」として結果が選択される候補色をリストする必要があります。
 
-Simply choose from the 10 "Swatches": RED, ORANGE, YELLOW, GREEN, CYAN, BLUE,
-PURPLE, MAGENTA, BLACK, WHITE.  For efficiency, add only those Swatches for
-which you reasonably expect to get a match.
+単純に10個の「スウォッチ」から選択します：RED、ORANGE、YELLOW、GREEN、CYAN、BLUE、PURPLE、MAGENTA、BLACK、WHITE。効率を上げるために、マッチを合理的に期待できるスウォッチのみを追加してください。
 
-**The Blocks and Java OpModes contain detailed comments to guide you through
-these edits.**  They are not repeated in this tutorial.
+**BlocksとJavaのOpModeには、これらの編集を案内する詳細なコメントが含まれています。** このチュートリアルでは繰り返しません。
 
-Building the VisionPortal
+VisionPortalをビルドする
 -------------------------
 
-The Sample OpMode first creates a "Predominant Color" **Processor** using the
-**Builder** pattern.  This is the same Builder pattern used to create an
-AprilTag Processor, and previously a TensorFlow Processor.
+サンプル**OpMode**は、まず**Builderパターン**を使用して「主要な色（Predominant Color）」**Processor**を作成します。これは、**AprilTag Processor**を作成するために使用されるのと同じBuilderパターンで、以前は**TensorFlow Processor**にも使用されていました。
 
-The Sample OpMode then creates a **VisionPortal**, again using a Builder
-pattern.  This includes adding the "Predominant Color" Processor to the
-VisionPortal.
+次に、サンプル**OpMode**は、再びBuilderパターンを使用して**VisionPortal**を作成します。これには、「主要な色」Processorを**VisionPortal**に追加することが含まれます。
 
-How does OpenCV determine the "predominant color" of the ROI?  An algorithm
-called `"k-means" <https://en.wikipedia.org/wiki/K-means_clustering>`_
-determines clusters of similar colors.  The color of the cluster with the most
-pixels is called "predominant" here. *(This will NOT be on the final.)*
+**OpenCV**はROIの「主要な色」をどのように決定するのでしょうか？`「k-means」 <https://en.wikipedia.org/wiki/K-means_clustering>`_と呼ばれるアルゴリズムが、類似した色のクラスターを決定します。最も多くのピクセルを持つクラスターの色が、ここでは「主要」と呼ばれます。*（これは最終試験には出ません。）*
 
 Testing the Result
 ------------------

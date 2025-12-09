@@ -1,147 +1,120 @@
-Color Blob Concepts
+カラーブロブの概念
 ===================
 
-Color Blobs
+カラーブロブ
 -----------
 
-An image can be evaluated by its **groupings of similar colors**.
+画像は、**類似した色のグループ化**によって評価できます。
 
-The smallest unit of any digital image is a **pixel**: a tiny square of one
-particular color.
+デジタル画像の最小単位は**ピクセル**です。これは、1つの特定の色の小さな正方形です。
 
-Each grouping or cluster of similar-colored pixels is called a **Blob**, which
-can be irregular in size and shape.
+類似した色のピクセルの各グループまたはクラスターは**ブロブ（Blob）**と呼ばれ、サイズと形状が不規則である可能性があります。
 
-Forming a Blob is done automatically by the software.  It seeks pixels of
-similar color that are **contiguous** -- touching each other along an edge, not
-just at a corner.  
+ブロブの形成は、ソフトウェアによって自動的に行われます。ソフトウェアは、**隣接している**類似した色のピクセル、つまり角だけでなく辺に沿って互いに接触しているピクセルを探します。
 
 .. figure:: images/10-Blobs-formation.png
    :width: 75%
    :align: center
-   :alt: Blob Formation Visualization
+   :alt: ブロブ形成の視覚化
 
-   Blob Formation Visualization
+   ブロブ形成の視覚化
 
-There are 9 Blobs here, not 4.  Some are very small, just one pixel each.
+ここには4つではなく、9つのブロブがあります。いくつかは非常に小さく、それぞれ1ピクセルだけです。
 
-The 5 pixels at top right, for example, are not contiguous (edges joined), so
-they are not joined to form a larger Blob.
+例えば、右上の5つのピクセルは隣接していない（辺が接続していない）ため、より大きなブロブを形成するために結合されません。
 
-The above simple example has only 2 colors: black and white.  For FTC, the
-definition of "similar" colors is a range specified by you.
+上記のシンプルな例には、黒と白の2色しかありません。FTCの場合、「類似」色の定義は、皆さんが指定する範囲です。
 
 .. figure:: images/20-Blobs-red-chair.png
    :width: 75%
    :align: center
-   :alt: Defining Blobs from an image of a red chair
+   :alt: 赤い椅子の画像からブロブを定義
 
-   Blobs from a Red Chair image
+   赤い椅子の画像からのブロブ
 
-In the above example, the chair surfaces are not **exactly** the same shade of
-red.  But with a **target** definition "close to red" or "mostly red", the
-software can form reasonable Blobs for further processing.
+上記の例では、椅子の表面は**正確に**同じ赤の色合いではありません。しかし、「赤に近い」または「ほとんど赤」という**ターゲット**定義により、ソフトウェアはさらなる処理のために妥当なブロブを形成できます。
 
-Color Processing
+カラー処理
 ----------------
 
-Now let's point the camera at an INTO THE DEEP game element called a
-**Sample**.
+次に、**Sample**と呼ばれるINTO THE DEEPのゲーム要素にカメラを向けてみましょう。
 
 .. figure:: images/30-Blobs-blue-basic.png
    :width: 75%
    :align: center
-   :alt: Detecting Blob from a Blue SAMPLE
+   :alt: 青いSAMPLEからブロブを検出
 
-   Blob from a Blue SAMPLE
+   青いSAMPLEからのブロブ
 
-Here the software was told to seek shades of blue.  The orange rectangle
-encloses a Blob of blue color.
+ここでは、ソフトウェアに青の色合いを探すように指示しました。オレンジ色の長方形が、青い色のブロブを囲んでいます。
 
-But why doesn't the rectangle enclose the entire game piece?  The software is
-processing only a certain **Region of Interest** or ROI.  That's the white
-rectangle; its size and location are specified by you.
+しかし、なぜ長方形はゲーム要素全体を囲んでいないのでしょうか？ソフトウェアは、特定の**関心領域（Region of Interest）**またはROIのみを処理しています。それが白い長方形です。そのサイズと位置は皆さんが指定します。
 
-Anything outside the ROI will not be considered part of any Blob that is
-detected.  This can help you avoid detecting (unwanted) background objects.
+ROIの外側にあるものは、検出されたブロブの一部とは見なされません。これにより、（不要な）背景オブジェクトの検出を回避できます。
 
-In the example above, the Blob was actually outlined in teal (blue-green
-color), very hard to see.  Let's try another image:
+上記の例では、ブロブは実際にはティール（青緑色）でアウトライン表示されており、非常に見づらいです。別の画像を試してみましょう：
 
 .. figure:: images/40-Blobs-single.png
    :width: 75%
    :align: center
-   :alt: Finding Teal Outline
+   :alt: ティールのアウトラインを見つける
 
-   Teal Outline of Blue Blob
+   青いブロブのティールのアウトライン
 
-Now the teal outline of the blue Blob can be seen.  Its shape is irregular,
-which can be difficult for your OpMode to evaluate.
+これで、青いブロブのティールのアウトラインが見えます。その形状は不規則で、**OpMode**が評価するのが難しい場合があります。
 
-boxFit Rectangles
+boxFit長方形
 -----------------
 
-The orange rectangle is drawn automatically by OpenCV, to give your OpMode a
-simpler geometric shape that represents the Blob.  It's not **exactly** like
-the actual Blob, but hopefully still useful.
+オレンジ色の長方形は、**OpenCV**によって自動的に描画され、ブロブを表すよりシンプルな幾何学的形状を**OpMode**に提供します。これは実際のブロブと**正確に**同じではありませんが、それでも役立つことを期待します。
 
-The orange rectangle, called the **boxFit**, fits tightly around the extreme
-edges of the Blob.  The boxFit is **not** required to stay inside the Region of
-Interest.  In the above case, the best-fitting rectangle happens to stay inside
-the ROI.
+**boxFit**と呼ばれるオレンジ色の長方形は、ブロブの極端な端にぴったりとフィットします。boxFitは、関心領域内に留まる必要は**ありません**。上記のケースでは、最もよくフィットする長方形がたまたまROI内に留まっています。
 
-But here's another case:
+しかし、別のケースがあります：
 
 .. figure:: images/50-Blobs-tilted.png
    :width: 75%
    :align: center
-   :alt: Showing Boxfit position
+   :alt: Boxfitの位置を示す
 
-   New boxFit position
+   新しいboxFitの位置
 
-Look very closely for the teal outline of the Blob, with its very rough lower
-edge.
+ブロブのティールのアウトラインを、非常に粗い下端とともに、よく見てください。
 
-Here, the best-fitting rectangle (boxFit) is **tilted**, and is not contained
-inside the ROI.
+ここでは、最もよくフィットする長方形（boxFit）が**傾いて**おり、ROI内に含まれていません。
 
-OpenCV provides all data for the boxFit, including its corner points, size, and
-tilt angle.  It can even provide a fitted horizontal version of the boxFit
-rectangle, if you prefer not to handle a tilted boxFit.
+**OpenCV**は、コーナーポイント、サイズ、傾斜角度を含む、boxFitのすべてのデータを提供します。傾いたboxFitを処理したくない場合は、boxFit長方形の水平フィット版を提供することもできます。
 
-Now things get a bit more complicated:
+さて、物事は少し複雑になります：
 
 .. figure:: images/60-Blobs-two.png
    :width: 75%
    :align: center
-   :alt: Detecting two blobs
+   :alt: 2つのブロブを検出
 
-   Detecting two blobs
+   2つのブロブを検出
 
-OpenCV detected **two Blobs**, each with a teal outline and each with a boxFit.
+**OpenCV**は**2つのブロブ**を検出し、それぞれにティールのアウトラインとboxFitがあります。
 
-Your OpMode will need to "decide" which boxFit is important and which to
-ignore.  Fortunately, OpenCV provides tools to **filter out** certain unwanted
-results.  After filtering, your OpMode can **sort** the remaining results, to
-focus on the highest priority.
+皆さんの**OpMode**は、どのboxFitが重要で、どれを無視するかを「決定」する必要があります。幸いなことに、**OpenCV**は特定の不要な結果を**除外する**ツールを提供しています。フィルタリング後、**OpMode**は残りの結果を**ソート**して、最優先事項に焦点を当てることができます。
 
-With these tools, your OpMode could handle even a "busy" result like this one:
+これらのツールを使用すれば、**OpMode**はこのような「忙しい」結果でも処理できます：
 
 .. figure:: images/70-Blobs-many.png
    :width: 75%
    :align: center
-   :alt: Many blob detections
+   :alt: 多数のブロブ検出
 
-   Many Blob Detections
+   多数のブロブ検出
 
-Your programming tasks will include:
+皆さんのプログラミングタスクには以下が含まれます：
 
-* determine which boxFit is most relevant,
-* evaluate its data, and
-* take robot action accordingly.
+* どのboxFitが最も関連性があるかを判断する
+* そのデータを評価する
+* それに応じてロボットのアクションを実行する
 
-Now try the Sample OpMode for the :doc:`Color Locator <../color-locator-discover/color-locator-discover>` processor.
+次に、:doc:`Color Locator <../color-locator-discover/color-locator-discover>`プロセッサのサンプル**OpMode**を試してみてください。
 
 ============
 
-*Questions, comments and corrections to westsiderobotics@verizon.net*
+*質問、コメント、修正は westsiderobotics@verizon.net まで*
