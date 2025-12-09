@@ -166,13 +166,26 @@
 
 ##### 予想工数: 8-10時間
 
-#### Sub-Phase 4.8: SDK・ライブラリ・ラップトップ要件（約8ファイル）
-- [ ] `docs/source/programming_resources/laptops/laptops.rst` - **大規模ファイル（約377行）** ラップトップ要件
-- [ ] `docs/source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst` - **大規模ファイル（約473行）** 外部ライブラリ
-- [ ] `docs/source/ftc_sdk/overview/` - SDK 概要
-- [ ] `docs/source/ftc_sdk/updating/` - SDK 更新
+#### Sub-Phase 4.8: SDK・ライブラリ・ラップトップ要件（9ファイル、2131行）**進行中**
+##### SDK概要（1ファイル、153行）
+- [x] `docs/source/ftc_sdk/overview/index.rst` - **153行** SDK概要
 
-##### 予想工数: 8-10時間
+##### SDK更新（7ファイル、1128行）
+- [x] `docs/source/ftc_sdk/updating/index.rst` - **22行** 更新概要
+- [x] `docs/source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst` - **73行** Control Hub OS更新
+- [x] `docs/source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst` - **79行** Driver Hub OS更新
+- [x] `docs/source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst` - **100行** REV Hardware Client更新
+- [x] `docs/source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst` - **213行** Hubファームウェア更新
+- [ ] `docs/source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst` - **289行** Driver Stationアプリ更新
+- [ ] `docs/source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst` - **352行** Robot Controllerアプリ更新
+
+##### プログラミングリソース（2ファイル、850行）
+- [ ] `docs/source/programming_resources/laptops/laptops.rst` - **377行** ラップトップ要件
+- [ ] `docs/source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst` - **473行** 外部ライブラリ（Blocks）
+
+##### 実績工数: 約4時間（予想: 8-10時間）
+##### 進捗: 6ファイル完了（640行、30%）、残り4ファイル（1491行、70%）
+##### 注記: SDK更新セクションの小中規模ファイルとSDK概要を完了。残りは大規模なアプリ更新手順ファイル2つと、プログラミングリソース2つ。
 
 #### Phase 4 合計予想工数: 59-75時間
 
