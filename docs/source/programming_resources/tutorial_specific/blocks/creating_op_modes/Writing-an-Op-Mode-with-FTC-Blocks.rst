@@ -139,13 +139,12 @@ Program & Manage ワイヤレスネットワークに正常に接続されてい
    画面の右側は、プログラミングブロックを配置して **op mode** のロジックを作成する場所です。
 
 
-Examining the Structure of Your Op Mode
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Op Mode の構造の確認
+~~~~~~~~~~~~~~~~~~~~~
 
-When you create a new op mode, there should already be a set of
-programming blocks that are placed on the design canvas for your op
-mode. These blocks are automatically included with each new op mode that
-you create. They create the basic structure for your op mode.
+新しい **op mode** を作成すると、デザインキャンバス上に既にプログラミングブロックの
+セットが配置されているはずです。これらのブロックは、作成する各新規 **op mode** に
+自動的に含まれます。これらは、**op mode** の基本構造を作成します。
 
 .. image:: images/ExaminingStructurePic1ControlHub.jpg
    :align: center
