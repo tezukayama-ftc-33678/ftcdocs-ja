@@ -1,12 +1,11 @@
-*FIRST* Tech Challenge Blog
+*FIRST* Tech Challenge ブログ
 ===========================
 
-The `FIRST Community Blog <https://community.firstinspires.org/>`__  hosts the blogs for all *FIRST* programs. 
+`FIRST コミュニティブログ <https://community.firstinspires.org/>`__ は、すべての *FIRST* プログラムのブログをホストしています。
 
-*FIRST* Tech Challenge program specific information can be found on the  
-`FIRST Tech Challenge Blog <https://community.firstinspires.org/topic/ftc>`__. The blog hosts articles 
-that go beyond what can be covered in the 
-`Team Email Blasts <https://www.firstinspires.org/resources/library/ftc/team-email-blast-archive>`__ .
+*FIRST* Tech Challenge プログラム固有の情報は、
+`FIRST Tech Challenge ブログ <https://community.firstinspires.org/topic/ftc>`__ で確認できます。このブログには、
+`チームメールブラスト <https://www.firstinspires.org/resources/library/ftc/team-email-blast-archive>`__ では扱いきれない内容の記事が掲載されています。
 
 .. only:: html
 

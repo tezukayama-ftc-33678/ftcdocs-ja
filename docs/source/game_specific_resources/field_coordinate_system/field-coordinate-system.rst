@@ -1,201 +1,187 @@
 .. _first field coordinate system:
 
-*FIRST* Tech Challenge Field Coordinate System Definition
+*FIRST* Tech Challenge フィールド座標系の定義
 =========================================================
 
 .. meta::
-   :description: This document defines the FIRST Tech Challenge Field Coordinate System which can be used to specify position on the playing field.
+   :description: このドキュメントは、競技フィールド上の位置を指定するために使用できる FIRST Tech Challenge フィールド座標系を定義します。
 
-Summary: The *FIRST* Tech Challenge Field Coordinate System is a Cartesian Coordinate System of three dimensions.
-The X and Y axes will refer to a position on the field and the Z axis a height above the field.
+概要: *FIRST* Tech Challenge フィールド座標系は、3次元のデカルト座標系です。
+X軸とY軸はフィールド上の位置を示し、Z軸はフィールドからの高さを示します。
 
-Scope
+範囲
 -----
   
-This document defines the Field Coordinate System 
-for a *FIRST* Tech Challenge playing field. This definition can be
-used for consistent field-centric navigation, target localization and path
-planning.
+このドキュメントは、*FIRST* Tech Challenge 競技フィールドのフィールド座標系を定義します。この定義は、
+一貫性のあるフィールド中心のナビゲーション、ターゲットの位置特定、および経路計画に使用できます。
 
-Reference Frame
+基準フレーム
 ---------------
 
-The reference frame for this definition is the field perimeter wall, adjacent
-to the red Alliance Area, known here after as the Red Wall.  The definition is
-from the perspective of a person, standing outside the field, in the center of
-Red Wall, looking towards the center of the field.
+この定義の基準フレームは、赤アライアンスエリアに隣接するフィールド外周壁で、以降は赤ウォール（Red Wall）と呼びます。この定義は、
+フィールドの外側に立ち、赤ウォールの中央から、フィールドの中心に向かって見ている人の視点に基づいています。
 
 .. note:: 
-   If the red Alliance Area is ever adjacent to two perimeter walls,
-   the Red Wall will be the one with *most* contact with the Alliance Area. If
-   the red Alliance Area is ever adjacent to two perimeter walls *equally*, then
-   the most clockwise of the two walls will be considered to be the Red Wall.
+   赤アライアンスエリアが2つの外周壁に隣接している場合、
+   赤ウォールはアライアンスエリアと *最も* 接触している壁になります。赤アライアンスエリアが2つの外周壁に *均等に* 隣接している場合、
+   時計回りで最も近い方の壁が赤ウォールとみなされます。
    
-Coordinate System
+座標系
 -----------------
 
-The Field Coordinate System is a Cartesian Coordinate System of three dimensions.
-X and Y will refer to a position on the field.
-Z will refer to a height above the field.
-You may use any length measure as long as the same measure is used for all three axes.
-The coordinates are ordered (X, Y, Z).
-Example: coordinate position (10, -10, 0) has X = 10, Y = -10 and Z = 0.
+フィールド座標系は、3次元のデカルト座標系です。
+XとYはフィールド上の位置を示します。
+Zはフィールドからの高さを示します。
+3つの軸すべてに同じ長さの単位を使用する限り、任意の長さの単位を使用できます。
+座標は(X, Y, Z)の順序で表されます。
+例: 座標位置(10, -10, 0)は、X = 10、Y = -10、Z = 0です。
 
-Origin
+原点
 ^^^^^^
 
-The 0,0,0 origin of the *FIRST* Tech Challenge coordinate system is the point
-in the center of the field, equidistant from all 4 perimeter walls (where the
-four center tiles meet). The origin point rests on the top surface of the floor
-mat.
+*FIRST* Tech Challenge 座標系の0,0,0原点は、
+4つの外周壁すべてから等距離にあるフィールドの中心点です（4つの中央タイルが交わる場所）。原点は、フロアマットの
+上面に位置します。
 
-X Axis
+X軸
 ^^^^^^
 
-Looking at the origin from the Red Wall, the X axis extends through the origin
-point and runs to the right and left, parallel with the Red Wall. The X axis
-values increase to the right.
+赤ウォールから原点を見た場合、X軸は原点を通り、赤ウォールに平行に左右に延びています。X軸の値は
+右に向かって増加します。
 
-Y Axis
+Y軸
 ^^^^^^
 
-Looking at the origin from the Red Wall, the Y axis extends through the origin
-point and runs out and in, perpendicular to the Red Wall. Increasing Y values
-run out (away) from the Red Wall.
+赤ウォールから原点を見た場合、Y軸は原点を通り、赤ウォールに垂直に前後に延びています。Y値の増加は
+赤ウォールから外側（離れる方向）に向かいます。
 
-Z Axis
+Z軸
 ^^^^^^
 
-Looking at the origin from the Red Wall, the Z axis extends through the origin
-point and runs up and down in a vertical line. Increasing Z values extend
-upwards.
+赤ウォールから原点を見た場合、Z軸は原点を通り、垂直に上下に延びています。Z値の増加は
+上方向に延びます。
 
-Rotation About Axes
+軸周りの回転
 ^^^^^^^^^^^^^^^^^^^
 
-When considering rotations about an axis, consider yourself looking down the
-axis from the positive end towards the origin. Positive
-rotations are then counterclockwise and negative rotations clockwise.
+軸周りの回転を考える場合、正の端から原点に向かって軸を見下ろしていると考えてください。正の
+回転は反時計回りで、負の回転は時計回りです。
    
 .. figure:: images/image1.jpg
-   :alt: X, Y and Z coordinate axes.
+   :alt: X、Y、Z座標軸。
    
-   Counterclockwise rotations about each axis
+   各軸周りの反時計回りの回転
    
-   Imagine looking down the positive Z axis towards the origin.
-   This would be like standing in the middle of the field looking down.
-   A positive rotation about the Z axis would be counterclockwise.
+   正のZ軸から原点に向かって見下ろしていることを想像してください。
+   これは、フィールドの中央に立って下を見ているようなものです。
+   Z軸周りの正の回転は反時計回りになります。
 
-Example: a robot spinning clockwise on the Field is making a negative rotation about the Z axis.
+例: フィールド上で時計回りに回転しているロボットは、Z軸周りの負の回転を行っています。
 
-Field Configuration Examples
+フィールド構成の例
 ----------------------------
 
-Below are two examples illustrating the Field Coordinate System for different
-*FIRST* Tech Challenge field configurations.
+以下は、さまざまな *FIRST* Tech Challenge フィールド構成に対するフィールド座標系を示す2つの例です。
 
 .. note::
-   In both field configurations the red Alliance is facing out along the positive Y axis,
-   and the Z axis points up from the center of the field.
+   両方のフィールド構成において、赤アライアンスは正のY軸に沿って外側を向いており、
+   Z軸はフィールドの中心から上向きに指しています。
 
-Diamond Field
+ダイヤモンドフィールド
 ^^^^^^^^^^^^^
 
 .. figure:: images/first-res-q-field.png
-   :alt: A diamond field with X, Y and Z axes shown.
+   :alt: X、Y、Z軸が表示されたダイヤモンドフィールド。
    
-   The FIRST RES-Q game field
+   FIRST RES-Q 競技フィールド
    
-   In a diamond field configuration the two Alliance walls are adjacent.
-   The field is rotated 45 degrees such that both Alliances face the audience.
-   From the audience perspective the field forms a diamond shape.
-   The Red Wall will be on the right as seen from the audience.
-   The Y axis points across the field as seen from the Red Wall. 
-   The X axis points to the Blue Alliance.
+   ダイヤモンドフィールド構成では、2つのアライアンスウォールが隣接しています。
+   フィールドは45度回転しており、両方のアライアンスが観客に面しています。
+   観客の視点から見ると、フィールドはダイヤモンド形状を形成します。
+   赤ウォールは観客から見て右側にあります。
+   Y軸は、赤ウォールから見てフィールドを横切る方向を指しています。
+   X軸は青アライアンスを指しています。
    
-Square Field
+スクエアフィールド
 ^^^^^^^^^^^^
 
 .. figure:: images/into-the-deep-field.png
-   :alt: A square field with X, Y and Z axes shown.
+   :alt: X、Y、Z軸が表示されたスクエアフィールド。
    
-   The Into The Deep game field
+   Into The Deep 競技フィールド
    
-   In a square field configuration the two Alliances face each other across the field.
+   スクエアフィールド構成では、2つのアライアンスがフィールドを挟んで向かい合っています。
    
-   * The field is oriented such that the Red Wall is on the right as seen from the audience.
-   * The Y axis points across the field from the Red Wall towards the Blue Alliance.
-   * The X axis points away from the audience to the rear of the field.
+   * フィールドの向きは、観客から見て赤ウォールが右側にあります。
+   * Y軸は、赤ウォールから青アライアンスに向かってフィールドを横切る方向を指しています。
+   * X軸は、観客から離れてフィールドの後方を指しています。
 
-Square Field (Inverted ALLIANCE AREA)
+スクエアフィールド（アライアンスエリア反転）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/decode-field.png
-   :alt: A square field with X, Y and Z axes shown, with inverted ALLIANCE AREA.
+   :alt: アライアンスエリアが反転した、X、Y、Z軸が表示されたスクエアフィールド。
    
-   The DECODE game field
+   DECODE 競技フィールド
    
-   The DECODE game field is essentially a square field, but the red and blue ALLIANCE
-   AREAS are swapped from their typical configuration (red ALLIANCE AREA on the left 
-   when viewed from the audience). In this configuration, the X and Y axes are "inverted"
-   in which direction the positive axis points. This is still consistent with the field
-   coordinate system definition, but the field is inverted.
+   DECODE 競技フィールドは基本的にスクエアフィールドですが、赤と青のアライアンス
+   エリアが通常の構成から入れ替わっています（観客から見て赤アライアンスエリアが左側）。この構成では、XとY軸が
+   正の軸が指す方向で「反転」しています。これはフィールド座標系の定義と一致していますが、
+   フィールドが反転しています。
    
-   * The field is oriented such that the Red Wall is on the left as seen from the audience.
-   * The Y axis points across the field from the Red Wall towards the Blue Alliance.
-   * The X axis points towards the audience to the front of the field.
+   * フィールドの向きは、観客から見て赤ウォールが左側にあります。
+   * Y軸は、赤ウォールから青アライアンスに向かってフィールドを横切る方向を指しています。
+   * X軸は、観客に向かってフィールドの前方を指しています。
 
 
-Coordinate Position Example
+座標位置の例
 ---------------------------
 
-Let's consider the coordinates (-58.3727, 55.6425, 29.5) in inches on the DECODE field, which is a square field with inverted red/blue.
-Given the order of coordinates then X = -58.3727, Y = 55.6425, and Z = 29.5. 
+DECODE フィールド（赤/青が反転したスクエアフィールド）上の座標(-58.3727, 55.6425, 29.5)（単位: インチ）を考えてみましょう。
+座標の順序から、X = -58.3727、Y = 55.6425、Z = 29.5となります。
 
-* The X axis value of -58.3727 is located deep in the back (away from the Audience Wall) of the field.
-* The Y axis value of 55.6425 would be located closer to the Blue Wall, about a 3/4 tile length from the Blue wall.
-* The Z axis value of 29.5 is 29.5 inches above the field tiles.
+* X軸の値-58.3727は、フィールドの奥（観客ウォールから離れた場所）に位置しています。
+* Y軸の値55.6425は、青ウォールの近くに位置し、青ウォールからタイル約3/4個分の長さの距離にあります。
+* Z軸の値29.5は、フィールドタイルから29.5インチ上にあります。
 
-This set of coordinates is the center of the Red Goal AprilTag on the Red Goal. 
+この座標セットは、赤ゴール上の赤ゴール **AprilTag** の中心です。 
 
-Measured Values
+測定値
 ---------------
 
-The following metric values have been measured from a 2016 competition field. They are
-representative only, and should not be assumed to be exact, or guaranteed.
+以下のメートル法の値は、2016年の競技フィールドから測定されたものです。これらは
+代表的な値のみであり、正確であること、または保証されていることを前提としないでください。
 
--  Distance between opposite inside faces of panels: 3580 mm,
-   (if the field is assembled well: the straps give some adjustment tolerance)
--  Polycarbonate transparencies have a visible opening height of 255 mm
--  The top edge of transparencies is 30 mm from the top of the perimeter
--  Total perimeter height is 313 mm
--  Tiles are 13 mm thick
+-  パネルの反対側の内面間の距離: 3580 mm
+   (フィールドが適切に組み立てられている場合: ストラップによる調整余裕があります)
+-  ポリカーボネート透明板の可視開口高さ: 255 mm
+-  透明板の上端は外周の上部から30 mm
+-  外周の全高さ: 313 mm
+-  タイルの厚さ: 13 mm
 
-So, for a diamond field configuration, the corner of the field closest to the
-audience, at a height equal to the top of the perimeter wall, would have a
-coordinate position of: (-1790, 1790, 300) in millimeters.
+したがって、ダイヤモンドフィールド構成の場合、観客に最も近いフィールドの角で、
+外周壁の上部と同じ高さにある点の座標位置は、ミリメートル単位で(-1790, 1790, 300)になります。
 
-Additional Information
+追加情報
 ----------------------
 
-See this Wikipedia article on `Cartesian coordinate system
+3次元の `デカルト座標系
 <https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Three_dimensions>`__
-in three dimensions.
-The Field Coordinate System rotation convention comes from the 
-`right hand rule <https://en.wikipedia.org/wiki/Right-hand_rule>`__ 
-of classic geometry.
+に関するWikipediaの記事を参照してください。
+フィールド座標系の回転規約は、
+古典幾何学の `右手の法則 <https://en.wikipedia.org/wiki/Right-hand_rule>`__ 
+に由来しています。
 
-Robots with a webcam can use :ref:`AprilTags <apriltag/vision_portal/apriltag_intro/apriltag-intro:apriltag introduction>`
-to determine where an :ref:`AprilTag is located 
+ウェブカメラを搭載したロボットは、:ref:`AprilTags <apriltag/vision_portal/apriltag_intro/apriltag-intro:apriltag introduction>`
+を使用して、ロボットに対して :ref:`AprilTag がどこに位置しているか
 <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:introduction>` 
-with respect to the robot.
-Since AprilTags are in known locations on the field, you can also determine the
-:ref:`location of the robot <apriltag/vision_portal/apriltag_localization/apriltag-localization:apriltag localization>`
-on the field.
+を判断できます。
+**AprilTag** はフィールド上の既知の位置にあるため、
+:ref:`ロボットの位置 <apriltag/vision_portal/apriltag_localization/apriltag-localization:apriltag localization>`
+もフィールド上で判断できます。
 
-Robots can use an inertial measurement unit (IMU) to measure rotations about axes
-with respect to the robot. See :ref:`IMU axes definition. <programming_resources/imu/imu:axes definition>`
-The yaw value from the IMU, also known the heading, measures rotation about the Z axis
-which points up from the robot. 
-You can use the IMU to determine which direction a robot is facing.
+ロボットは、慣性計測ユニット（**IMU**）を使用して、ロボットに対する軸周りの回転を測定できます。
+:ref:`IMU 軸の定義 <programming_resources/imu/imu:axes definition>` を参照してください。
+**IMU** からのヨー値（方位角とも呼ばれます）は、ロボットから上向きに指すZ軸周りの回転を測定します。
+**IMU** を使用して、ロボットがどの方向を向いているかを判断できます。
 
