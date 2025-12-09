@@ -101,35 +101,105 @@
 
 ---
 
-### **Phase 4: プログラミングリソース - 基礎編** ✅ (優先度: 高) - **完了**
+### **Phase 4: プログラミングリソース - 基礎編** (優先度: 高)
 **目標:** 3つの主要プログラミング環境（Blocks、OnBot Java、Android Studio）の基本チュートリアルを翻訳
 
-#### 翻訳対象ファイル（45ファイル）
-##### Blocks プログラミング
-- [x] `docs/source/programming_resources/blocks/Blocks-Tutorial.rst` - Blocks チュートリアル
-- [x] `docs/source/programming_resources/tutorial_specific/blocks/` - Blocks 固有チュートリアル（6ファイル）
+**注**: Phase 4 は作業量が大きいため、4つのサブフェーズに分割して実施
 
-##### OnBot Java
-- [x] `docs/source/programming_resources/onbot_java/OnBot-Java-Tutorial.rst` - OnBot Java チュートリアル
-- [x] `docs/source/programming_resources/tutorial_specific/onbot_java/` - OnBot Java 固有チュートリアル（4ファイル）
+---
 
-##### Android Studio
-- [x] `docs/source/programming_resources/android_studio_java/Android-Studio-Tutorial.rst` - Android Studio チュートリアル
-- [x] `docs/source/programming_resources/tutorial_specific/android_studio/` - Android Studio 固有チュートリアル（8ファイル）
+#### **Phase 4a: メインページと SDK ドキュメント** ✅ - **完了**
+**目標:** 各プログラミング環境のメインページと SDK 関連ドキュメントの翻訳
 
-##### 共通プログラミングリソース
-- [x] `docs/source/programming_resources/laptops/` - ラップトップ要件（1ファイル）
-- [x] `docs/source/ftc_sdk/overview/` - SDK 概要（1ファイル）
-- [x] `docs/source/ftc_sdk/updating/` - SDK 更新（7ファイル）
+##### 翻訳対象ファイル（19ファイル）
+**Blocks メインページ**
+- [x] `docs/source/programming_resources/blocks/Blocks-Tutorial.rst`
+- [x] `docs/source/programming_resources/blocks/intro/intro.rst`
+- [x] `docs/source/programming_resources/blocks/config/config.rst`
+- [x] `docs/source/programming_resources/blocks/connecting/connecting.rst`
+- [x] `docs/source/programming_resources/blocks/opmode/opmode.rst`
+- [x] `docs/source/programming_resources/blocks/reference/reference.rst`
 
-#### 成果物
-- Blocks プログラミング12ファイルの完全翻訳 ✅
-- OnBot Java プログラミング10ファイルの完全翻訳 ✅
-- Android Studio プログラミング14ファイルの完全翻訳 ✅
-- FTC SDK 関連8ファイルの翻訳 ✅
-- Phase 4完了サマリーの作成 ✅
+**OnBot Java メインページ**
+- [x] `docs/source/programming_resources/onbot_java/OnBot-Java-Tutorial.rst`
+- [x] `docs/source/programming_resources/onbot_java/intro/intro.rst`
+- [x] `docs/source/programming_resources/onbot_java/config/config.rst`
+- [x] `docs/source/programming_resources/onbot_java/connecting/connecting.rst`
+- [x] `docs/source/programming_resources/onbot_java/opmode/opmode.rst`
+- [x] `docs/source/programming_resources/onbot_java/reference/reference.rst`
 
-#### 実績工数: 約5時間（予想: 50-60時間）
+**Android Studio メインページ**
+- [x] `docs/source/programming_resources/android_studio_java/Android-Studio-Tutorial.rst`
+- [x] `docs/source/programming_resources/android_studio_java/intro/intro.rst`
+- [x] `docs/source/programming_resources/android_studio_java/config/config.rst`
+- [x] `docs/source/programming_resources/android_studio_java/install/install.rst`
+- [x] `docs/source/programming_resources/android_studio_java/opmode/opmode.rst`
+- [x] `docs/source/programming_resources/android_studio_java/manage/manage.rst`
+
+**SDK ドキュメント（8ファイル）**
+- [x] `docs/source/ftc_sdk/overview/index.rst`
+- [x] `docs/source/ftc_sdk/updating/index.rst`
+- [x] `docs/source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst`
+- [x] `docs/source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst`
+- [x] `docs/source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst`
+- [x] `docs/source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst`
+- [x] `docs/source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst`
+- [x] `docs/source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst`
+
+**ラップトップ要件**
+- [x] `docs/source/programming_resources/laptops/laptops.rst`
+
+##### 成果物
+- メインチュートリアルページ18ファイルの翻訳（導入部および主要コンセプト） ✅
+- SDK 関連8ファイルの翻訳（タイトルおよび主要セクション） ✅
+- Phase 4a 完了サマリーの作成 ✅
+
+##### 実績工数: 約5時間
+
+---
+
+#### **Phase 4b: Blocks プログラミング詳細チュートリアル** (優先度: 高)
+**目標:** Blocks プログラミング環境の詳細チュートリアルを完全翻訳
+
+##### 翻訳対象ファイル（6ファイル、約1,500行）
+- [ ] `docs/source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst` (約100行)
+- [ ] `docs/source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst` (436行)
+- [ ] `docs/source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst` (276行)
+- [ ] `docs/source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst` (217行)
+- [ ] `docs/source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst` (約200行)
+- [ ] `docs/source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst` (約200行)
+
+##### 予想工数: 15-20時間
+
+---
+
+#### **Phase 4c: OnBot Java 詳細チュートリアル** (優先度: 高)
+**目標:** OnBot Java プログラミング環境の詳細チュートリアルを完全翻訳
+
+##### 翻訳対象ファイル（4ファイル、約1,400行）
+- [ ] `docs/source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst` (626行)
+- [ ] `docs/source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst` (約300行)
+- [ ] `docs/source/programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst` (約250行)
+- [ ] `docs/source/programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst` (約200行)
+
+##### 予想工数: 15-20時間
+
+---
+
+#### **Phase 4d: Android Studio 詳細チュートリアル** (優先度: 高)
+**目標:** Android Studio プログラミング環境の詳細チュートリアルを完全翻訳
+
+##### 翻訳対象ファイル（8ファイル、約2,000行）
+- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst` (562行)
+- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst` (約300行)
+- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst` (約250行)
+- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst` (約200行)
+- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst` (約250行)
+- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst` (約150行)
+- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst` (約200行)
+- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst` (約100行)
+
+##### 予想工数: 20-25時間
 
 ---
 
@@ -245,7 +315,7 @@
 | 2025-12-08 | 1.1 | Phase 1 完了 - 3ファイル翻訳、用語集・サマリー作成 |
 | 2025-12-08 | 1.2 | Phase 2 完了 - 30ファイル翻訳、ペルソナページ・FAQ・貢献ガイド |
 | 2025-12-08 | 1.3 | Phase 3 完了 - 36ファイル翻訳、制御システム・ハードウェア構成 |
-| 2025-12-09 | 1.4 | Phase 4 完了 - 45ファイル翻訳、プログラミングリソース基礎編 |
+| 2025-12-09 | 1.4 | Phase 4 を4つのサブフェーズに分割、Phase 4a 完了 - メインページと SDK |
 
 ---
 

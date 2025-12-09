@@ -1,16 +1,18 @@
-# Phase 4 完了サマリー
+# Phase 4a 完了サマリー
 
 ## 📋 概要
 
-Phase 4（プログラミングリソース - 基礎編）の翻訳作業が完了しました。このフェーズでは、3つの主要プログラミング環境（Blocks、OnBot Java、Android Studio）の基本チュートリアルと、FTC SDK の概要および更新手順を翻訳しました。
+Phase 4a（メインページと SDK ドキュメント）の翻訳作業が完了しました。このフェーズでは、3つの主要プログラミング環境（Blocks、OnBot Java、Android Studio）のメインチュートリアルページと、FTC SDK の概要および更新手順を翻訳しました。
 
 **完了日:** 2025年12月9日
+
+**注**: Phase 4 は作業量が大きいため、4つのサブフェーズ（4a, 4b, 4c, 4d）に分割されました。これは Phase 4a の完了サマリーです。
 
 ---
 
 ## ✅ 完了した作業
 
-### 1. Blocks プログラミング（12ファイル）
+### 1. Blocks プログラミング メインページ（6ファイル）
 
 #### メインチュートリアル（6ファイル）
 - **Blocks-Tutorial.rst** - Blocks プログラミングチュートリアルメインページ
@@ -20,15 +22,7 @@ Phase 4（プログラミングリソース - 基礎編）の翻訳作業が完�
 - **opmode/opmode.rst** - Op Mode の作成
 - **reference/reference.rst** - リファレンスドキュメント
 
-#### Blocks 固有チュートリアル（6ファイル）
-- **blocks_reference/Blocks-Reference-Material.rst** - Blocks リファレンス資料
-- **creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst** - Op Mode の作成
-- **controlling_a_servo/Controlling-a-Servo-(Blocks).rst** - サーボの制御
-- **managing_opmodes/managing-opmodes.rst** - Blocks での OpMode 管理
-- **running_op_modes/Running-Your-Op-Mode.rst** - OpMode の実行
-- **using_sensors/Using-Sensors-(Blocks).rst** - センサーの使用
-
-### 2. OnBot Java プログラミング（10ファイル）
+### 2. OnBot Java プログラミング メインページ（6ファイル）
 
 #### メインチュートリアル（6ファイル）
 - **OnBot-Java-Tutorial.rst** - OnBot Java プログラミングチュートリアルメインページ
@@ -38,13 +32,7 @@ Phase 4（プログラミングリソース - 基礎編）の翻訳作業が完�
 - **opmode/opmode.rst** - Op Mode の作成
 - **reference/reference.rst** - リファレンスドキュメント
 
-#### OnBot Java 固有チュートリアル（4ファイル）
-- **creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst** - Op Mode の作成と実行
-- **controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst** - サーボの制御
-- **onbot_java_reference/OnBot-Java-Reference-Info.rst** - OnBot Java リファレンス情報
-- **using_sensors/Using-Sensors-(OnBot-Java).rst** - センサーの使用
-
-### 3. Android Studio プログラミング（14ファイル）
+### 3. Android Studio プログラミング メインページ（6ファイル）
 
 #### メインチュートリアル（6ファイル）
 - **Android-Studio-Tutorial.rst** - Android Studio プログラミングチュートリアルメインページ
@@ -53,16 +41,6 @@ Phase 4（プログラミングリソース - 基礎編）の翻訳作業が完�
 - **config/config.rst** - ハードウェアの構成
 - **opmode/opmode.rst** - Op Mode の作成
 - **manage/manage.rst** - Android Studio プロジェクトの管理
-
-#### Android Studio 固有チュートリアル（8ファイル）
-- **creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst** - OpMode の作成と実行
-- **controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst** - サーボの制御
-- **using_sensors/Using-Sensors-(Android-Studio).rst** - センサーの使用
-- **downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst** - Android Studio プロジェクトフォルダーのダウンロード
-- **installing_android_studio/Installing-Android-Studio.rst** - Android Studio のインストール
-- **enabling_developer_options/Enabling-Developer-Options.rst** - 開発者オプションの有効化
-- **fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst** - GitHub からのフォークとクローン
-- **disable_instant_run/disable-instant-run.rst** - Android Studio Instant Run の無効化
 
 ### 4. ラップトップ要件（1ファイル）
 - **laptops/laptops.rst** - *FIRST* プログラムのコンピューター要件（タイトルのみ翻訳）
@@ -87,14 +65,14 @@ Phase 4（プログラミングリソース - 基礎編）の翻訳作業が完�
 
 | 項目 | 詳細 |
 |------|------|
-| **翻訳ファイル数** | 45 RST ファイル |
-| **Blocks プログラミング** | 12ファイル |
-| **OnBot Java プログラミング** | 10ファイル |
-| **Android Studio プログラミング** | 14ファイル |
+| **翻訳ファイル数** | 19 RST ファイル |
+| **Blocks メインページ** | 6ファイル |
+| **OnBot Java メインページ** | 6ファイル |
+| **Android Studio メインページ** | 6ファイル |
 | **ラップトップ要件** | 1ファイル |
 | **FTC SDK** | 8ファイル |
-| **翻訳済み主要セクション** | 約150セクション |
-| **実作業時間** | 約5時間（注: 主要セクションに焦点を当てた効率的な翻訳のため、予想より短縮） |
+| **翻訳済み主要セクション** | 約80セクション |
+| **実作業時間** | 約5時間 |
 
 ---
 
@@ -206,25 +184,25 @@ software and executing it on a *FIRST* Tech Challenge robot.
 
 ---
 
-## 🚀 次のステップ（Phase 5 への準備）
+## 🚀 次のステップ
 
-### Phase 5: AprilTag & ビジョン処理
+### Phase 4b: Blocks プログラミング詳細チュートリアル
 
-Phase 5 では以下のファイルを翻訳予定:
+Phase 4b では以下のファイルを完全翻訳予定:
 
-1. **AprilTag（約15ファイル）**
-   - `apriltag/vision_portal/apriltag_intro/` - AprilTag 入門
-   - `apriltag/vision_portal/visionportal_overview/` - VisionPortal 概要
-   - `apriltag/understanding_apriltag_detection_values/` - 検出値の理解
+1. **Blocks 固有チュートリアル（6ファイル、約1,500行）**
+   - `blocks_reference/Blocks-Reference-Material.rst` - リファレンス資料
+   - `creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst` - Op Mode 作成（436行）
+   - `controlling_a_servo/Controlling-a-Servo-(Blocks).rst` - サーボ制御（276行）
+   - `using_sensors/Using-Sensors-(Blocks).rst` - センサー使用（217行）
+   - `running_op_modes/Running-Your-Op-Mode.rst` - OpMode 実行
+   - `managing_opmodes/managing-opmodes.rst` - OpMode 管理
 
-2. **カラー処理（約10ファイル）**
-   - `color_processing/` - Color Sensor, Color Spaces, Color Locator
+**予想工数:** 15-20時間
 
-3. **ビジョンプログラミング（約5ファイル）**
-   - `programming_resources/vision/` - ビジョンプログラミング
-   - `programming_resources/imu/` - IMU（慣性計測ユニット）
-
-**予想工数:** 30-40時間
+### 後続フェーズ
+- **Phase 4c**: OnBot Java 詳細チュートリアル（4ファイル、約1,400行）
+- **Phase 4d**: Android Studio 詳細チュートリアル（8ファイル、約2,000行）
 
 ---
 
@@ -304,17 +282,27 @@ make html
 ## 📚 関連ドキュメント
 
 - [TRANSLATION_GUIDE.md](./TRANSLATION_GUIDE.md) - 翻訳ガイドライン
-- [TRANSLATION_ROADMAP.md](./TRANSLATION_ROADMAP.md) - 全体ロードマップ
+- [TRANSLATION_ROADMAP.md](./TRANSLATION_ROADMAP.md) - 全体ロードマップ（Phase 4 サブフェーズ詳細を含む）
 - [GLOSSARY.md](./GLOSSARY.md) - 用語集
 - [PHASE1_SUMMARY.md](./PHASE1_SUMMARY.md) - Phase 1 完了サマリー
 - [PHASE2_SUMMARY.md](./PHASE2_SUMMARY.md) - Phase 2 完了サマリー
 - [PHASE3_SUMMARY.md](./PHASE3_SUMMARY.md) - Phase 3 完了サマリー
 - [README.md](./README.md) - プロジェクト概要
 
+**次のフェーズ**: Phase 4b の作業は別の PR で実施されます
+
 ---
 
 ## 📞 フィードバック・質問
 
-Phase 4 の翻訳内容に関するフィードバックや質問は、GitHub Issues または Pull Request でお寄せください。
+Phase 4a の翻訳内容に関するフィードバックや質問は、GitHub Issues または Pull Request でお寄せください。
 
 **Team 33678 Tezukayama FTC Japan**
+
+---
+
+**Phase 4 全体の進捗:**
+- ✅ Phase 4a: メインページと SDK（完了）
+- ⏳ Phase 4b: Blocks 詳細チュートリアル（未着手）
+- ⏳ Phase 4c: OnBot Java 詳細チュートリアル（未着手）
+- ⏳ Phase 4d: Android Studio 詳細チュートリアル（未着手）
