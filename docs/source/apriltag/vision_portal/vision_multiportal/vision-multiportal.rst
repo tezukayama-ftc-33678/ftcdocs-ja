@@ -1,10 +1,7 @@
 Vision MultiPortal
 ==================
 
-The SDK can accommodate two portals, each with full features
-including AprilTag and TFOD processors, and even switchable cameras. USB
-Bandwidth must be considered, especially for webcams sharing an external
-USB hub.
+SDKは、**AprilTag** およびTFODプロセッサ、さらには切り替え可能なカメラを含む、完全な機能を備えた2つのポータルを収容できます。特に外部USBハブを共有するウェブカメラの場合、USB帯域幅を考慮する必要があります。
 
 Viewport ID
 ~~~~~~~~~~~
@@ -46,15 +43,14 @@ screen.
    :align: center
    :alt: Multiportal Blocks OpMode
 
-   Example Blocks Multiportal OpMode
+   Blocks Multiportal OpModeの例
 
-On a Moto e4 RC phone, the OpMode can run the built-in phone camera
-along with a webcam.
+Moto e4 RC phoneでは、**OpMode** は内蔵phoneカメラとウェブカメラを一緒に実行できます。
 
-On a Control Hub, it can run two webcams: 
+**Control Hub** では、2つのウェブカメラを実行できます：
 
-- both plugged in directly to the Hub, or 
-- both plugged into an unpowered USB Hub (with more restricted USB bandwidth)
+- 両方ともハブに直接接続、または
+- 両方とも電源のないUSBハブに接続（USB帯域幅がより制限されます）
 
 Dual Previews
 ~~~~~~~~~~~~~
@@ -73,19 +69,14 @@ The DS Camera Stream preview can display only one camera’s view (a
 `known
 characteristic <https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/585>`__).
 
-USB Bandwidth
+USB 帯域幅
 ~~~~~~~~~~~~~
 
-**USB Bandwidth** is a concern for dual **webcams**; internal phone
-cameras have an independent high-speed interconnect (not USB),
-unaffected by an added USB webcam.
+**USB帯域幅**はデュアル**ウェブカメラ**にとって懸念事項です。内部phoneカメラは独立した高速相互接続（USBではない）を持っており、追加されたUSBウェブカメラの影響を受けません。
 
-See the USB bandwidth analysis at the **Managing CPU and Bandwidth**
-page.
+USB帯域幅の分析については、**Managing CPU and Bandwidth** ページを参照してください。
 
-The two webcams do *not* need to use the same format or resolution. For
-the testing mentioned above, the same format and resolution were applied
-to a Logitech C920 and a Logitech C270.
+2つのウェブカメラは、同じ形式または解像度を使用する必要は*ありません*。上記のテストでは、Logitech C920とLogitech C270に同じ形式と解像度が適用されました。
 
 Control Hub
 ~~~~~~~~~~~
