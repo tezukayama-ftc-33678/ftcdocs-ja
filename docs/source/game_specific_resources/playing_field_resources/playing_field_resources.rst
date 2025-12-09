@@ -1,51 +1,53 @@
-Playing Field Resources
-=======================
+プレイングフィールドリソース
+============================
 
 .. figure:: images/CenterStageField.png
-   :alt: Arena with four teams in alliance areas. Four robots are on the field along with CENTERSTAGE game elements.
+   :alt: アライアンスエリアに4チームがいるアリーナ。4台のロボットがフィールド上にCENTERSTAGEのゲーム要素と共にあります。
     
-   Traditional Playing Field, CENTERSTAGE presented by RTX, 2023-2024
+   伝統的なプレイングフィールド、CENTERSTAGE presented by RTX、2023-2024
 
-About the Playing Field
------------------------
+プレイングフィールドについて
+----------------------------
 
-There are multiple configurations of the playing field that can be used. For traditional games, the playing field is a part of the Arena that includes the 12 ft. x 12 ft. (3.66 m x 3.66 m) field and all
-the elements described in the official field drawings. The base field stays the same for all games but the game elements are subject to change as per the Competition Manual.
+使用できるプレイングフィールドには複数の構成があります。伝統的なゲームの場合、プレイングフィールドは
+アリーナの一部であり、12フィート×12フィート（3.66 m × 3.66 m）のフィールドと、
+公式フィールド図面に記載されているすべての要素が含まれます。ベースフィールドはすべてのゲームで同じままですが、
+ゲーム要素は競技マニュアルに従って変更される可能性があります。
 
-The Competition Manual contains an Arena section that details the playing field for that years game.
-It includes measurements for key aspects of the field and game elements and scoring elements.
-For example, the height of a basket into which a scoring element can be placed.
-The Competition Manual can be found on the
-`Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
+競技マニュアルには、その年のゲームのプレイングフィールドを詳細に説明するアリーナセクションが含まれています。
+これには、フィールドの主要な側面、ゲーム要素、得点要素の測定値が含まれています。
+例えば、得点要素を配置できるバスケットの高さなどです。
+競技マニュアルは、**FIRST** ウェブサイトの
+`ゲームとシーズン資料ページ <https://ftc-resources.firstinspires.org/files/ftc/game>`_ で見つけることができます。
 
-Field Setup Guide
------------------
+フィールドセットアップガイド
+----------------------------
 
-The Field Setup Guide has the official instructions for assembling and setting up a *FIRST* Tech Challenge field.
-Typically there are assembly instructions that build structures that then have setup instructions for placing on the field.
-There are also teardown instructions that indicate how to take apart the field for storage or transport.
+フィールドセットアップガイドには、**FIRST** Tech Challengeフィールドを組み立てて設置するための公式の手順があります。
+通常、構造物を構築する組み立て手順があり、その後フィールドに配置するためのセットアップ手順があります。
+また、保管や輸送のためにフィールドを分解する方法を示す分解手順もあります。
 
-The guide typically has the following sections:
+ガイドには通常、次のセクションがあります：
 
-- A list of all tools required for assembly and setup, some tools are only for assembly or for setup.
-- Lists all the game elements and scoring elements with the quantity of each.
-- Instructions for setup of the field perimeter and field tiles.
-- Step by step instructions for assembling parts and setting them on the field.
-- Most games have tape lines on the field to mark locations or areas of the game. There are also taped areas outside the field for the Alliances, and sometimes for game areas.
-- Most games have AprilTags placed around the field that can be used for robot navigation.
-- Finally, there are teardown instructions that indicate how to take the field down for storage or transport.
+- 組み立てとセットアップに必要なすべてのツールのリスト。一部のツールは組み立てのみ、またはセットアップのみに使用されます。
+- すべてのゲーム要素と得点要素のリストと各数量。
+- フィールドの境界とフィールドタイルのセットアップ手順。
+- パーツを組み立ててフィールドに設置するためのステップバイステップの手順。
+- ほとんどのゲームでは、ゲームの場所やエリアをマークするためにフィールド上にテープラインがあります。また、アライアンス用、場合によってはゲームエリア用のフィールド外のテープ領域もあります。
+- ほとんどのゲームでは、ロボットナビゲーションに使用できる **AprilTag** がフィールドの周囲に配置されています。
+- 最後に、保管や輸送のためにフィールドを分解する方法を示す分解手順があります。
 
-Use the following button link to download a PDF of the current Field Setup Guide from the *FIRST* Website:
+以下のボタンリンクを使用して、**FIRST** ウェブサイトから現在のフィールドセットアップガイドのPDFをダウンロードしてください：
 
 .. button-link:: https://ftc-resources.firstinspires.org/file/ftc/game/fieldguide
    :color: primary
 
-   Download Field Setup Guide PDF, 4.5 MB
+   フィールドセットアップガイドPDFをダウンロード、4.5 MB
 
-.. note:: The Field Setup Guide has instructions for assembling an official game set as purchased from AndyMark.
+.. note:: フィールドセットアップガイドには、AndyMarkから購入した公式ゲームセットを組み立てるための手順が記載されています。
    
-   A purchased game set can be full or partial. A partial game set is less expensive and also suitable for teams who
-   want official game elements but don't have room to setup a full field.
+   購入したゲームセットは、フルまたはパーシャルにすることができます。パーシャルゲームセットは、より安価で、
+   公式のゲーム要素が必要だがフルフィールドをセットアップするスペースがないチームにも適しています。
 
-The `Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ also contains a downloadable PDF for the AprilTag images that can be printed and placed on the field.
-There is a Do It Yourself (DIY) Resources section that includes CAD models of scoring elements and DIY field and perimeter build guides.
+`ゲームとシーズン資料ページ <https://ftc-resources.firstinspires.org/files/ftc/game>`_ には、印刷してフィールドに配置できる **AprilTag** 画像のダウンロード可能なPDFも含まれています。
+得点要素のCADモデルや、DIYフィールドと境界のビルドガイドを含むDo It Yourself（DIY）リソースセクションもあります。
