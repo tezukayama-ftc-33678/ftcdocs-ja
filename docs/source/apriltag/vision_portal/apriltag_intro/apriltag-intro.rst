@@ -1,13 +1,10 @@
-AprilTag Introduction
+AprilTag 入門
 =====================
 
-Introduction
+はじめに
 ------------
 
-A popular camera-based technology is **AprilTag**, a scanned image similar to a
-QR Code. Its effectiveness and quick set-up on custom Signal Sleeves led to
-**wide adoption** in POWERPLAY (2022-2023) by *FIRST* Tech Challenge teams,
-especially those programming in Java.
+カメラベースの技術として人気があるのが **AprilTag** です。これは QR コードに似たスキャン画像です。カスタム Signal Sleeves での効果的な動作と迅速なセットアップにより、POWERPLAY（2022-2023）シーズンでは、特に Java でプログラミングを行う *FIRST* Tech Challenge チームに **広く採用** されました。
 
 .. figure:: images/005-AprilTag-Worlds.png
    :width: 75%
@@ -16,14 +13,11 @@ especially those programming in Java.
 
    Photo Credit: Mike Silversides
 
-Those POWERPLAY teams, including those using FTC Blocks, learned how to use
-several resources: 
+FTC Blocks を使用するチームを含む POWERPLAY のチームは、いくつかのリソースの使い方を学びました： 
 
--  AprilTag: an open-source technology for evaluating
-   formatted images 
--  EasyOpenCV: a *FIRST* Tech Challenge-optimized interface with OpenCV, an
-   image processing library 
--  myBlocks: custom Blocks created in OnBot Java (OBJ)
+-  AprilTag: フォーマットされた画像を評価するためのオープンソース技術 
+-  EasyOpenCV: *FIRST* Tech Challenge に最適化された OpenCV（画像処理ライブラリ）とのインターフェース 
+-  myBlocks: OnBot Java (OBJ) で作成されたカスタム Blocks
 
 Now these three areas are provided, or bundled, in the *FIRST* **Tech Challenge
 Software Development Kit (SDK), starting with version 8.2**.
