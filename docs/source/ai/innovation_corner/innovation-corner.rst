@@ -1,17 +1,17 @@
-AI Innovation Corner
+AIイノベーションコーナー
 ====================
 
-These articles are part of the *FIRST* Tech Challenge AI Innovation Corner.
-This is a place where we'll post custom and curated articles relevant to
-*FIRST* Tech Challenge as it relates to AI and its impact on our daily
-lives and the world around us. We would like to thank Google for their 
-generous contributions to *FIRST* Tech Challenge to increase access to 
-our program in underserved communities and for providing
-sponsorship and occasional technical direction for this content.
+これらの記事は、**FIRST** Tech ChallengeのAIイノベーションコーナーの一部です。
+このコーナーでは、**FIRST** Tech Challengeに関連するAIとその日常生活や
+私たちを取り巻く世界への影響に関するカスタム記事やキュレーション記事を
+投稿します。十分なサービスを受けていないコミュニティでのプログラムへの
+アクセスを増やすための**FIRST** Tech Challengeへの寛大な貢献、そして
+このコンテンツへのスポンサーシップと時折の技術的指導を提供してくださる
+Googleに感謝します。
 
-Articles are ordered on this page chronologically, with the newest content
-at the top of the page expanded. Just click to expand any other articles
-you'd like to see.
+記事はこのページに時系列順に並んでおり、最新のコンテンツがページの
+上部に展開されています。他の記事を見たい場合は、クリックして展開して
+ください。
 
 .. dropdown:: Week of 10/21/2024 "AI for Social Media"
    :open:
