@@ -15,39 +15,23 @@
 
 |
 
-Servo motors are useful when you want to do precise movements (for
-example, sweep an area with a sensor to look for a target or move the
-control surfaces on a remotely controlled airplane).
+サーボモーターは、精密な動きをしたい場合に便利です（例えば、センサーでエリアをスイープしてターゲットを探したり、リモコン飛行機の制御面を動かしたりする場合など）。
 
-Modifying Your Op Mode to Control a Servo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Op Mode を変更してサーボを制御する
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's modify your op mode to add the logic required to control a servo
-motor. For this example, you will use the buttons on the Logitech F310
-gamepad to control the position of the servo motor.
+**op mode** を変更して、サーボモーターを制御するために必要なロジックを追加しましょう。この例では、Logitech F310 ゲームパッドのボタンを使用してサーボモーターの位置を制御します。
 
-With a typical servo, you can specify a target position for the servo.
-The servo will turn its motor shaft to move to the target position, and
-then maintain that position, even if moderate forces are applied to try
-and disturb its position.
+典型的なサーボでは、サーボのターゲット位置を指定できます。サーボはモーターシャフトを回転させてターゲット位置に移動し、適度な力が加えられて位置を乱そうとしても、その位置を維持します。
 
-For the blocks Program & Manage server, you can specify a target
-position that ranges from 0 to 1 for a servo. A target position of 0
-corresponds to zero degrees of rotation and a target position of 1
-corresponds to 180 degrees of rotation for a typical servo motor.
+**Blocks** の Program & Manage サーバーでは、サーボのターゲット位置を 0 から 1 の範囲で指定できます。ターゲット位置 0 は回転角度 0 度に対応し、ターゲット位置 1 は典型的なサーボモーターの回転角度 180 度に対応します。
 
 .. image:: images/servo0to80.jpg
    :align: center
 
 |
 
-In this example, you will use the colored buttons on the right side of
-the F310 controller to control the position of the servo. Initially, the
-op mode will move the servo to the midway position (90 degrees of its
-180-degree range). Pushing the yellow "Y" button will move the servo to
-the zero-degree position. Pushing the blue "X" button or the red "B"
-button will move the servo to the 90-degree position. Pushing the green
-"A" button will move the servo to the 180-degree position.
+この例では、F310 コントローラーの右側にある色付きのボタンを使用してサーボの位置を制御します。最初に、**op mode** はサーボを中間位置（180 度範囲の 90 度）に移動します。黄色の「Y」ボタンを押すと、サーボは 0 度の位置に移動します。青色の「X」ボタンまたは赤色の「B」ボタンを押すと、サーボは 90 度の位置に移動します。緑色の「A」ボタンを押すと、サーボは 180 度の位置に移動します。
 
 .. image:: images/LogitechF310.jpg
    :align: center
@@ -55,43 +39,35 @@ button will move the servo to the 90-degree position. Pushing the green
 |
 
 
-Modifying the Op Mode to Control a Servo Motor Instructions
------------------------------------------------------------
+サーボモーターを制御するための Op Mode の変更手順
+-------------------------------------------------
 
-1. Verify that your laptop is still connected to the Robot            
-Controller's Program & Manage Wi-Fi network.                          
+1. ラップトップが **Robot Controller** の Program & Manage Wi-Fi ネットワークにまだ接続されていることを確認します。
 
-2. Verify that "MyFIRSTOpMode" is opened for editing. If it is not,   
-you can click on the FIRST logo in the upper left-hand corner of the  
-browser window on the laptop. This should take you to the main 
-Blocks Development Tool project screen. 
+2. 「MyFIRSTOpMode」が編集用に開かれていることを確認します。開かれていない場合は、ラップトップのブラウザーウィンドウの左上隅にある *FIRST* ロゴをクリックします。これにより、メインの **Blocks Development Tool** プロジェクト画面に移動するはずです。
 
 .. image:: images/ControlServoStep2ControlHub.jpg
    :align: center
 
 |
 
-   Click on the "MyFIRSTOpMode" project to open it for editing if it is not already opened.
+   まだ開かれていない場合は、「MyFIRSTOpMode」プロジェクトをクリックして編集用に開きます。
 
-3. On the left-hand side of the screen click on the category called   
-"Actuators" and look for the subcategory called "Servos".             
+3. 画面の左側で「Actuators」というカテゴリをクリックし、「Servos」というサブカテゴリを探します。
 
 .. image:: images/ControlServoStep3ControlHub.jpg
    :align: center
 
 |
 
-4. Select the "set servoTest.Position to" block from the list of      
-available Servo blocks.                                               
+4. 利用可能な Servo ブロックのリストから「set servoTest.Position to」ブロックを選択します。
 
 .. image:: images/ControlServoStep4ControlHub.jpg
    :align: center
 
 |
 
-5. Drag the "set servoTest.Position to" block to the spot just under  
-the comment block that reads "Put initialization blocks here." The    
-block should click into place.                                        
+5. 「set servoTest.Position to」ブロックを「Put initialization blocks here.」と書かれたコメントブロックの真下の場所にドラッグします。ブロックがカチッと所定の位置に収まるはずです。
 
 .. image:: images/ControlServoStep5ControlHub.jpg
    :align: center
