@@ -152,12 +152,14 @@
 
 ##### 予想工数: 10-12時間
 
-#### Sub-Phase 4.6: Android Studio - センサーと機能（約5ファイル）
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/using_sensors/using_sensors.rst` - センサー利用
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/telemetry/telemetry.rst` - テレメトリ
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/applying_pid_control/applying_pid_control.rst` - PID制御
+#### Sub-Phase 4.6: Android Studio - センサーと機能（約5ファイル）✅ **完了**
+- [x] `docs/source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst` - **96行** センサー利用
+- [x] `docs/source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst` - **104行** サーボ制御
+- [ ] ⚠️ `docs/source/programming_resources/tutorial_specific/android_studio/telemetry/telemetry.rst` - **ファイルが存在しません**（リポジトリに該当ファイルなし）
+- [ ] ⚠️ `docs/source/programming_resources/tutorial_specific/android_studio/applying_pid_control/applying_pid_control.rst` - **ファイルが存在しません**（リポジトリに該当ファイルなし）
 
-##### 予想工数: 5-7時間
+##### 実績工数: 約1時間（予想: 5-7時間）
+##### 注記: ロードマップに記載されていたtelemetry.rstとapplying_pid_control.rstは存在しませんでした（Phase 4.2および4.4と同様のパターン）。代わりに、Android Studioチュートリアルの実際のファイル2つを翻訳しました。
 
 #### Sub-Phase 4.7: 共通リソース - デバイス管理（約8ファイル）
 - [ ] `docs/source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst` - **大規模ファイル（約525行）** Control Hub管理
@@ -415,6 +417,7 @@
 | 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
 | 2025-12-09 | 2.2 | Sub-Phase 4.2 完了 - Blocks センサーと機能（5ファイル翻訳、計857行） |
 | 2025-12-09 | 2.3 | Sub-Phase 4.3 完了 - OnBot Java チュートリアル基礎（2ファイル翻訳、計680行） |
+| 2025-12-09 | 2.4 | Sub-Phase 4.6 完了 - Android Studio センサーと機能（2ファイル翻訳、計200行） |
 
 ---
 
