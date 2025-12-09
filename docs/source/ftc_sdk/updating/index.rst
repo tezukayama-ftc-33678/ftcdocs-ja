@@ -1,14 +1,12 @@
 .. meta::
-   :title: Updating Components of the FTC Control System
-   :description: A comprhensive guide to updating key components of the FIRST Tech Challenge Control System
+   :title: FTC 制御システムコンポーネントの更新
+   :description: FIRST Tech Challenge 制御システムの主要コンポーネントの更新に関する包括的なガイド
    :keywords: FTC Docs, FIRST Tech Challenge, FTC, Control System, update
 
-Updating Components of the Control System
-=========================================
+制御システムコンポーネントの更新
+================================
 
-Certain components of the *FIRST* Tech Challenge Control System will
-periodically receive updates.  Teams should make sure to update each component
-of the Control System to the latest released version.
+*FIRST* Tech Challenge 制御システムの特定のコンポーネントは、定期的に更新を受け取ります。チームは、制御システムの各コンポーネントを最新のリリースバージョンに更新する必要があります。
 
 
 .. toctree::

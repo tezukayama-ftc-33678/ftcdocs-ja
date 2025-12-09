@@ -1,20 +1,14 @@
-Updating the Driver Station App
-===============================
+Driver Station アプリの更新
+============================
 
-The Driver Station App is one of the Apps provided with the *FIRST* Tech
-Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`.  The Driver
-Station App is the major interface for robot configuration, gamepad support, 
-self-inspect, Team code selection and execution, and others. This app runs
-on the REV Driver Hub or an approved Android smartphone.
+**Driver Station** アプリは、*FIRST* Tech Challenge :doc:`ソフトウェア開発キット（SDK）</ftc_sdk/overview/index>` で提供されるアプリの 1 つです。**Driver Station** アプリは、ロボット構成、ゲームパッドサポート、自己点検、チームコードの選択と実行などの主要なインターフェースです。このアプリは **REV Driver Hub** または認可された Android スマートフォンで実行されます。
 
-This page shows how to update the Driver Station (DS) app on these
-devices:
+このページでは、これらのデバイスで **Driver Station**（DS）アプリを更新する方法を示します：
 
--  REV Driver Hub
--  An approved Android DS phone
+-  **REV Driver Hub**
+-  認可された Android DS 電話
 
-These methods for updating the Driver Station App are the same regardless
-of the programming language/environment used to program robot Team Code.
+**Driver Station** アプリを更新する方法は、ロボットのチームコードをプログラミングするために使用するプログラミング言語/環境に関係なく同じです。
 
 .. dropdown:: Updating Driver Station (DS) app on REV Driver Hub
 

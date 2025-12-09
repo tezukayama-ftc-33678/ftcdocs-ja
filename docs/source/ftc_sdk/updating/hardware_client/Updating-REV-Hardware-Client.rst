@@ -1,17 +1,11 @@
-Installing and Updating the REV Hardware Client
-===============================================
+REV Hardware Client のインストールと更新
+=========================================
 
-The REV Hardware Client is a desktop app, or software tool, that simplifies
-updating software on devices used in *FIRST* Tech Challenge. Unfortunately the
-REV Hardware Client is currently Windows-only, Apple/Mac users must use
-alternate methods of updating software. In this tutorial, some steps ask to
-download software and updates - doing this is not required, but will save time
-during updates. 
+**REV Hardware Client** は、*FIRST* Tech Challenge で使用されるデバイス上のソフトウェアの更新を簡素化するデスクトップアプリ、つまりソフトウェアツールです。残念ながら、**REV Hardware Client** は現在 Windows のみであり、Apple/Mac ユーザーはソフトウェアを更新するための代替方法を使用する必要があります。このチュートリアルでは、一部の手順でソフトウェアと更新をダウンロードするように求められますが、これは必須ではありませんが、更新中の時間を節約できます。
 
-To install, use the following steps on a **64-bit** PC or laptop running
-Windows 7 or newer.
+インストールするには、Windows 7 以降を実行している **64 ビット** PC またはラップトップで次の手順を使用します。
 
-**Apple/Mac users should skip these steps.**
+**Apple/Mac ユーザーはこれらの手順をスキップする必要があります。**
 
 .. tip:: 
    Not sure about 64-bit? In Windows Explorer, right-click “Computer” (Win

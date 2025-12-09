@@ -1,4 +1,4 @@
-Updating Hub Firmware
+Hub ファームウェアの更新
 =====================
 
 Firmware is low-level software that controls a device’s circuit boards, or

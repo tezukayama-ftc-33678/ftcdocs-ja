@@ -1,4 +1,4 @@
-Updating the Driver Hub OS
+Driver Hub OS の更新
 ==========================
 
 An Operating System (OS) is software that supports a computer’s basic

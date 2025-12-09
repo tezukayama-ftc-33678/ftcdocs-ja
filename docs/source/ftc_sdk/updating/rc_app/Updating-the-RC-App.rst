@@ -1,43 +1,25 @@
-Updating the Robot Controller (RC) App
-======================================
+Robot Controller（RC）アプリの更新
+===================================
 
-The Robot Controller App is one of the Apps provided with the *FIRST* Tech
-Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`. The Robot
-Controller App is the application that runs on the Robot Controller Android
-Device (REV Control Hub or an approved Android RC phone). This app 
-communicates with the Driver Station App to control the robot.
+**Robot Controller** アプリは、*FIRST* Tech Challenge :doc:`ソフトウェア開発キット（SDK）</ftc_sdk/overview/index>` で提供されるアプリの 1 つです。**Robot Controller** アプリは、**Robot Controller** Android デバイス（**REV Control Hub** または認可された Android RC 電話）で実行されるアプリケーションです。このアプリは **Driver Station** アプリと通信して、ロボットを制御します。
 
-This page shows how to update the Robot Controller (RC) app on these
-devices:
+このページでは、これらのデバイスで **Robot Controller**（RC）アプリを更新する方法を示します：
 
--  REV Control Hub
--  An approved Android RC smartphone
+-  **REV Control Hub**
+-  認可された Android RC スマートフォン
 
 Blocks / OnBot Java vs Android Studio
--------------------------------------
+--------------------------------------
 
 Blocks / OnBot Java
 ^^^^^^^^^^^^^^^^^^^
 
-The Robot Controller (RC) App contains the programming environments for Blocks
-and OnBot Java, and the User Programs (Team Code) developed using those
-environments are stored independently ALONGSIDE the RC App. This makes it
-possible to update the RC App independently without affecting Team Code.  This
-incredibly simplifies updating the RC App software, since no *code* needs to be
-modified in order to upgrade/downgrade the RC App itself. This does mean,
-however, that users of Blocks and OnBot Java are limited to the "default" RC
-App dependencies that are shipped with the App. Blocks and OnBot Java programs
-can still be run with an Android Studio-built RC App, however, so some
-flexibility is still possible in this regard for advanced users.
+**Robot Controller**（RC）アプリには、**Blocks** と **OnBot Java** のプログラミング環境が含まれており、これらの環境を使用して開発されたユーザープログラム（チームコード）は、RC アプリと並行して独立して保存されます。これにより、チームコードに影響を与えることなく、RC アプリを独立して更新することができます。これは、RC アプリ自体をアップグレード/ダウングレードするために*コード*を変更する必要がないため、RC アプリソフトウェアの更新を非常に簡素化します。ただし、これは **Blocks** と **OnBot Java** のユーザーが、アプリに同梱されている「デフォルト」の RC アプリ依存関係に制限されることを意味します。ただし、**Blocks** と **OnBot Java** プログラムは **Android Studio** でビルドされた RC アプリでも実行できるため、上級ユーザーにとってはこの点である程度の柔軟性が残されています。
 
 Android Studio
 ^^^^^^^^^^^^^^
 
-Android Studio, in general, works exactly the opposite. The FtcRobotController
-repository (the Android Studio Project) contains the full source code needed to
-build a complete RC App; when the Android Studio Project is compiled and
-deployed, it's actually building a complete Robot Controller App and installing
-it onto the RC Android device. Team Code **and** the Robot Controller code are
+**Android Studio** は、一般的に正反対に機能します。**FtcRobotController** リポジトリ（**Android Studio** プロジェクト）には、完全な RC アプリをビルドするために必要な完全なソースコードが含まれています。**Android Studio** プロジェクトがコンパイルされてデプロイされると、実際には完全な **Robot Controller** アプリをビルドして、RC Android デバイスにインストールしています。チームコード**および** **Robot Controller** コードは
 compiled *together*, meaning the Team Code is embedded WITHIN the RC App and
 cannot be updated/edited independently of the RC App. If the Android
 Studio-deployed RC App is replaced using the REV Hardware Client or similar
