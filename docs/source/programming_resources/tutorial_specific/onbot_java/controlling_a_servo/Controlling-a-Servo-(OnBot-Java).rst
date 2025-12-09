@@ -1,68 +1,44 @@
-Controlling a Servo :bdg-info:`OBJ`
+サーボの制御 :bdg-info:`OBJ`
 ===================================
 
-In this section, you will modify your op mode to control a servo motor
-with the buttons of the gamepad.
+このセクションでは、ゲームパッドのボタンでサーボモーターを制御するように **Op Mode** を変更します。
 
-What is a Servo Motor?
+サーボモーターとは？
 ~~~~~~~~~~~~~~~~~~~~~~
 
-A servo motor is a special type of motor. A servo motor is designed for
-precise motion. A typical servo motor has a limited range of motion.
+サーボモーターは特殊なタイプのモーターです。サーボモーターは精密な動作を目的として設計されています。一般的なサーボモーターは可動範囲が制限されています。
 
-In the figure below, "standard scale" 180-degree servo is shown. This
-type of servo is popular with hobbyists and with FIRST Tech Challenge
-teams. This servo motor can rotate its shaft through a range of 180
-degrees. Using an electronic module known as a servo controller you can
-write an op mode that will move a servo motor to a specific position.
-Once the motor reaches this target position, it will hold the position,
-even if external forces are applied to the shaft of the servo.
+下の図には、「標準スケール」の180度サーボが示されています。このタイプのサーボは、ホビイストや **FIRST Tech Challenge** チームに人気があります。このサーボモーターは、シャフトを180度の範囲で回転させることができます。サーボコントローラーと呼ばれる電子モジュールを使用して、サーボモーターを特定の位置に移動する **Op Mode** を作成できます。モーターが目標位置に達すると、サーボのシャフトに外力が加わっても、その位置を保持します。
 
 .. image:: images/hs485hbServo.jpg
    :align: center
 
 |
 
-Servo motors are useful when you want to do precise movements (for
-example, sweep an area with a sensor to look for a target or move the
-control surfaces on a remotely controlled airplane).
+サーボモーターは、精密な動作を行いたい場合に便利です（例えば、ターゲットを探すためにセンサーで範囲をスキャンしたり、ラジコン飛行機の操縦翼面を動かしたりする場合など）。
 
-Modifying Your Op Mode to Control a Servo
+サーボを制御するための Op Mode の変更
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's modify your op mode to add the logic required to control a servo
-motor. For this example, you will use the buttons on the Logitech F310
-gamepad to control the position of the servo motor.
+サーボモーターを制御するために必要なロジックを追加するために、**Op Mode** を変更しましょう。この例では、Logitech F310 ゲームパッドのボタンを使用して、サーボモーターの位置を制御します。
 
-With a typical servo, you can specify a target position for the servo.
-The servo will turn its motor shaft to move to the target position, and
-then maintain that position, even if moderate forces are applied to try
-and disturb its position.
+一般的なサーボでは、サーボの目標位置を指定できます。サーボはモーターシャフトを回転させて目標位置に移動し、その位置を乱そうとする適度な力が加えられても、その位置を維持します。
 
-For the FIRST Tech Challenge control system, you can specify a target
-position that ranges from 0 to 1 for a servo. A target position of 0
-corresponds to zero degrees of rotation and a target position of 1
-corresponds to 180 degrees of rotation for a typical servo motor.
+**FIRST Tech Challenge** 制御システムでは、サーボの目標位置を 0 から 1 の範囲で指定できます。目標位置 0 は回転角度 0 度に対応し、目標位置 1 は一般的なサーボモーターの回転角度 180 度に対応します。
 
 .. image:: images/servo0to80.jpg
    :align: center
 
 |
 
-In this example, you will use the colored buttons on the right side of
-the F310 controller to control the position of the servo. Initially, the
-op mode will move the servo to the midway position (90 degrees of its
-180-degree range). Pushing the yellow "Y" button will move the servo to
-the zero-degree position. Pushing the blue "X" button or the red "B"
-button will move the servo to the 90-degree position. Pushing the green
-"A" button will move the servo to the 180-degree position.
+この例では、F310 コントローラーの右側にあるカラーボタンを使用して、サーボの位置を制御します。最初に、**Op Mode** はサーボを中間位置（180度範囲の90度）に移動します。黄色の「Y」ボタンを押すと、サーボは 0 度の位置に移動します。青色の「X」ボタンまたは赤色の「B」ボタンを押すと、サーボは 90 度の位置に移動します。緑色の「A」ボタンを押すと、サーボは 180 度の位置に移動します。
 
 .. image:: images/LogitechF310.jpg
    :align: center
 
 |
 
-Modify your op mode to add the following code:
+**Op Mode** を変更して、以下のコードを追加します：
 
 .. code-block:: java
 
@@ -90,16 +66,8 @@ Modify your op mode to add the following code:
 
    }
 
-This added code will check to see if any of the colored buttons on the
-F310 gamepad are pressed. If the Y button is pressed, it will move the
-servo to the 0-degree position. If either the X button or B button is
-pressed, it will move the servo to the 90-degree position. If the A
-button is pressed, it will move the servo to the 180-degree position.
-The op mode will also send telemetry data on the servo position to the
-Driver Station.
+この追加されたコードは、F310 ゲームパッドのカラーボタンのいずれかが押されているかどうかをチェックします。Y ボタンが押されると、サーボは 0 度の位置に移動します。X ボタンまたは B ボタンのいずれかが押されると、サーボは 90 度の位置に移動します。A ボタンが押されると、サーボは 180 度の位置に移動します。**Op Mode** は、サーボの位置に関するテレメトリデータを **Driver Station** に送信します。
 
-After you have modified your op mode, you can build it and then run it.
-Verify that gamepad #1 is still configured and then use the colored
-buttons to move the position of the servo.
+**Op Mode** を変更した後、ビルドして実行できます。ゲームパッド #1 がまだ構成されていることを確認してから、カラーボタンを使用してサーボの位置を移動させます。
 
 

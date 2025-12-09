@@ -138,12 +138,15 @@
 ##### 実績工数: 約2時間（予想: 10-12時間）
 ##### 注記: 3番目のファイルはリポジトリに存在しませんでした。Phase 4.1 および 4.2 と同様のパターンです。
 
-#### Sub-Phase 4.4: OnBot Java - センサーと機能（約5ファイル）
-- [ ] `docs/source/programming_resources/tutorial_specific/onbot_java/using_sensors/using_sensors.rst` - センサー利用
-- [ ] `docs/source/programming_resources/tutorial_specific/onbot_java/telemetry/telemetry.rst` - テレメトリ
-- [ ] `docs/source/programming_resources/tutorial_specific/onbot_java/applying_pid_control/applying_pid_control.rst` - PID制御
+#### Sub-Phase 4.4: OnBot Java - センサーと機能（約5ファイル）✅ **完了**
+- [x] `docs/source/programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst` - **95行** センサー利用
+- [x] `docs/source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst` - **105行** サーボ制御
+- [x] `docs/source/programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst` - **59行** リファレンス情報
+- [ ] ⚠️ `docs/source/programming_resources/tutorial_specific/onbot_java/telemetry/telemetry.rst` - **ファイルが存在しません**（リポジトリに該当ファイルなし）
+- [ ] ⚠️ `docs/source/programming_resources/tutorial_specific/onbot_java/applying_pid_control/applying_pid_control.rst` - **ファイルが存在しません**（リポジトリに該当ファイルなし）
 
-##### 予想工数: 5-7時間
+##### 実績工数: 約1時間（予想: 5-7時間）
+##### 注記: ロードマップに記載されていたtelemetry.rstとapplying_pid_control.rstは存在しませんでした。Phase 4.2（Blocks）と同様のパターンです。代わりに、OnBot Javaチュートリアルの実際のファイル3つを翻訳しました。
 
 #### Sub-Phase 4.5: Android Studio - セットアップと基礎（約8ファイル）
 - [ ] `docs/source/programming_resources/android_studio_java/Android-Studio-Tutorial.rst` - Android Studio チュートリアル
@@ -415,6 +418,7 @@
 | 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
 | 2025-12-09 | 2.2 | Sub-Phase 4.2 完了 - Blocks センサーと機能（5ファイル翻訳、計857行） |
 | 2025-12-09 | 2.3 | Sub-Phase 4.3 完了 - OnBot Java チュートリアル基礎（2ファイル翻訳、計680行） |
+| 2025-12-09 | 2.4 | Sub-Phase 4.4 完了 - OnBot Java センサーと機能（3ファイル翻訳、計259行） |
 
 ---
 
