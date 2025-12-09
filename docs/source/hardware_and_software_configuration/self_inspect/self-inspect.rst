@@ -1,506 +1,318 @@
-Old Self-Inspect
+旧 Self-Inspect
 ================
 
-Introduction
-------------
+はじめに
+--------
 
-This page describes the older Self Inspect screens in the FTC Driver Station
-(DS) app and the FTC Robot Controller (RC) app.
-See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
+このページでは、FTC Driver Station（DS）アプリと FTC Robot Controller（RC）アプリにある旧式の Self Inspect 画面について説明します。
+バージョン 10.3 以降の画面画像は :doc:`new self-inspect<new-self-inspect>` を参照してください。
 
-A Self Inspect screen provides a snapshot of device status, as it
-relates to FTC rules for the control system. 
-These rules are described in the Competition Manual which can be found on the
-`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
+Self Inspect 画面は、制御システムに関する FTC ルールとの関連で、デバイスの状態をスナップショットとして示します。
+これらのルールは *FIRST* ウェブサイトの `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ に掲載されている Competition Manual に記載されています。
 
-.. tip:: An `Inspection Checklist PDF <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
-   is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
+.. tip:: イベント前に ROBOT をセルフチェックするための `Inspection Checklist PDF <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ が利用できます。大会前にセルフチェックすることを強く推奨します。
 
-The Self Inspect screen is provided only as a quick, handy reference to
-help teams confirm that certain control system elements are up-to-date
-and properly configured. Self Inspect may be reviewed in Robot
-Inspection at an FTC tournament, but is **not** a comprehensive or
-official standard of compliance with FTC rules.
+Self Inspect 画面は、制御システムの要素が最新かつ正しく設定されているかをチームがすぐに確認するための簡易リファレンスとして提供されています。
+FTC 大会の Robot Inspection で確認されることはありますが、FTC ルールへの準拠を網羅的に、あるいは公式に保証するものでは **ありません**。
 
-Each inspection screen updates automatically, with or without a Restart
-Robot. This allows quick verification that issues have been resolved.
+各検査画面は、Restart Robot の有無にかかわらず自動で更新されます。これにより、問題が解消されたことを素早く確認できます。
 
-The challenge is to maximize useful information in a small screen. The
-Self Inspect layout and graphics evolve with FTC requirements; this page
-clarifies some of the brief but meaningful captions.
+小さな画面に有用な情報を最大限に詰め込むことが課題です。Self Inspect のレイアウトとグラフィックは FTC の要件に合わせて進化しており、このページでは簡潔ながら重要なキャプションを補足します。
 
 .. note::
-  These images show Version 7.0 of the FTC apps. Please refer to Competition Manual 
-  for allowed software system versions. These images are valid up to version 10.2 of the FTC apps.
-  See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better.
+  ここに示す画像は FTC アプリのバージョン 7.0 です。使用が認められるソフトウェアのバージョンは Competition Manual を参照してください。これらの画像は FTC アプリのバージョン 10.2 まで有効です。バージョン 10.3 以降の画面画像は :doc:`new self-inspect<new-self-inspect>` を参照してください。
 
-Device Pairing
---------------
+デバイスのペアリング
+--------------------
 
-Pairing technology is a key aspect of Self Inspect reporting. Remember
-that RC phones host via **Wi-Fi Direct**, while Control Hubs host via
-**Standard, or ‘infrastructure’, Wi-Fi**.
+ペアリングの方法は Self Inspect の結果に大きく関わります。RC スマホは **Wi-Fi Direct** でホストし、Control Hub は **Standard（インフラストラクチャ）Wi-Fi** でホストすることを覚えておいてください。
 
-In the DS app’s Settings, the selected Pairing Method (Wi-Fi Direct or
-Control Hub) will influence acceptance/rejection in the DS Self Inspect
-report, as described in examples below.
+DS アプリの Settings で選択した Pairing Method（Wi-Fi Direct または Control Hub）が、DS Self Inspect レポートでの合否判定に影響します。以下の例で説明します。
 
-RC and DS phones must have Airplane Mode **ON**, and Wi-Fi **ON** but
-not connected to any Standard/infra Wi-Fi host such as an internet
-router or hotspot. Devices should be set to **Forget** any local Wi-Fi
-networks.
+RC スマホと DS スマホはともに Airplane Mode を **ON**、Wi-Fi を **ON** としつつ、インターネットルーターやホットスポットなど Standard/infra Wi-Fi ホストには接続しないでください。近くの Wi-Fi は **Forget** に設定しておく必要があります。
 
-FTC control devices may use these combinations: 
+FTC 制御デバイスの組み合わせは次のとおりです。
 
-- DS phone, RC phone 
-- DS phone, Control Hub 
-- Driver Hub, RC phone 
-- Driver Hub, Control Hub
+- DS スマホ + RC スマホ
+- DS スマホ + Control Hub
+- Driver Hub + RC スマホ
+- Driver Hub + Control Hub
 
-A DS device (phone or Driver Hub) can display its own DS Self Inspect
-**and** an RC Self Inspect (for paired RC phone or Control Hub). An RC
-phone can display only its own RC Self Inspect.
+DS デバイス（スマホまたは Driver Hub）は自分自身の DS Self Inspect **と**、ペアになっている RC スマホまたは Control Hub の RC Self Inspect を表示できます。RC スマホは自分自身の RC Self Inspect のみ表示できます。
 
-This means that the Self Inspect screens can report as follows: 
+つまり Self Inspect 画面は次のように表示されます。
 
 **DRIVER STATION**
 
-- `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__, on
-  DS phone paired to RC phone 
-- `DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__,
-  on DS phone paired to Control Hub 
-- `DS Self Inspect 3
-  <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__, on Driver Hub
-  paired to RC phone 
-- `DS Self Inspect 4
-  <#ds-self-inspect-4-on-driver-hub-paired-to-control-hub>`__, on Driver Hub
-  paired to Control Hub
+- `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__（DS スマホ + RC スマホ）
+- `DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__（DS スマホ + Control Hub）
+- `DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__（Driver Hub + RC スマホ）
+- `DS Self Inspect 4 <#ds-self-inspect-4-on-driver-hub-paired-to-control-hub>`__（Driver Hub + Control Hub）
 
 **ROBOT CONTROLLER**
 
--  `RC Self Inspect
-   1 <#rc-self-inspect-1-appearing-on-rc-phone-paired-with-ds-phone>`__,
-   appearing on RC phone paired with DS phone
--  `RC Self Inspect
-   2 <#rc-self-inspect-2-appearing-on-ds-phone-paired-to-rc-phone>`__,
-   appearing on DS phone paired to RC phone
--  `RC Self Inspect
-   3 <#rc-self-inspect-3-appearing-on-rc-phone-paired-with-driver-hub>`__,
-   appearing on RC phone paired with Driver Hub
--  `RC Self Inspect
-   4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-phone>`__,
-   appearing on Driver Hub paired to RC phone
--  `RC Self Inspect
-   5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-control-hub>`__,
-   appearing on DS phone paired to Control Hub
--  `RC Self Inspect
-   6 <#rc-self-inspect-6-appearing-on-driver-hub-paired-to-control-hub>`__,
-   appearing on Driver Hub paired to Control Hub
+- `RC Self Inspect 1 <#rc-self-inspect-1-appearing-on-rc-phone-paired-with-ds-phone>`__（RC スマホ上、DS スマホとペア）
+- `RC Self Inspect 2 <#rc-self-inspect-2-appearing-on-ds-phone-paired-to-rc-phone>`__（DS スマホ上、RC スマホとペア）
+- `RC Self Inspect 3 <#rc-self-inspect-3-appearing-on-rc-phone-paired-with-driver-hub>`__（RC スマホ上、Driver Hub とペア）
+- `RC Self Inspect 4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-phone>`__（Driver Hub 上、RC スマホとペア）
+- `RC Self Inspect 5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-control-hub>`__（DS スマホ上、Control Hub とペア）
+- `RC Self Inspect 6 <#rc-self-inspect-6-appearing-on-driver-hub-paired-to-control-hub>`__（Driver Hub 上、Control Hub とペア）
 
-These combinations can display **slightly different** Self Inspect
-categories, status phrases, and pass/fail results. They are described
-below; click the **blue link** to explore the Self Inspect screen for
-that device and combination.
+これらの組み合わせでは、Self Inspect のカテゴリや表示文言、合否結果が**わずかに異なる**ことがあります。各デバイスと組み合わせの Self Inspect 画面は、以下の **青いリンク** をクリックして確認してください。
 
-DS Self Inspect 1, on DS phone paired to RC phone
--------------------------------------------------
+.. _ds-self-inspect-1-on-ds-phone-paired-to-rc-phone:
+
+DS Self Inspect 1（DS スマホ + RC スマホ）
+-----------------------------------------
 
 .. figure:: images/nDS-1.png
    :align: center
    :width: 85%
    :alt: DS 1
 
-   DS Self Inspect 1, on DS phone paired to RC phone
+   DS Self Inspect 1（DS スマホ + RC スマホ）
 
--  Item 1 is a menu with one choice: Disconnect from Wi-Fi Direct. It
-   does work, but sometimes the apps re-pair automatically.
--  Item 5 shows the battery level of the device being reported. Fun
-   fact: the green color of the percentage value changes towards
-   **orange** as the charge level goes down.
--  Item 8 ``Location services`` appears only on devices running
-   **Android 8** or higher. This is an SDK/Android technology
-   requirement, not an FTC rule.
--  Items 9 and 10 here must be Yes and No. ``Wi-Fi Enabled`` means the
-   DS device’s Wi-Fi radio is **ON**, to use Wi-Fi Direct. It must
-   **not** be connected to a Standard/infrastructure Wi-Fi source, such
-   as an internet router or a Control Hub, when intending to pair with
-   an RC phone.
--  Item 11 indicates whether the **device’s Wi-Fi Direct name** meets
-   FTC format requirements. It does not check whether the paired device
-   has a matching RC name (team number). In this case, the phones are
-   legally named 2468-A-DS and 2468-A-RC. DS Settings (Driver Station
-   Name) allows only FTC-legal names, but any name can be entered in the
-   DS phone’s Android Wi-Fi Direct settings.
--  Item 12 verifies that a DS device does **not** have an RC app
-   installed.
--  Item 13 ensures the DS app meets the minimum version **for the
-   current FTC season**, based on the device’s system date. An
-   “incorrect” red mark here can be cleared by correcting the date in
-   the **Android device Settings**.
+- 項目 1 は 1 つだけ選べるメニューで、“Disconnect from Wi-Fi Direct” です。機能しますが、アプリが自動で再ペアリングする場合があります。
+- 項目 5 には対象デバイスのバッテリー残量が表示されます。豆知識として、パーセンテージの緑色は残量が減るにつれて **オレンジ** に変わっていきます。
+- 項目 8 の ``Location services`` は **Android 8** 以上のデバイスにだけ表示されます。これは SDK/Android の技術要件であり、FTC ルールではありません。
+- 項目 9 と 10 は「Yes」「No」である必要があります。``Wi-Fi Enabled`` は DS デバイスの Wi-Fi 無線が Wi-Fi Direct を使うために **ON** であることを意味します。RC スマホとペアにする際は、インターネットルーターや Control Hub など Standard/インフラ Wi-Fi には **接続しない** でください。
+- 項目 11 は **デバイスの Wi-Fi Direct 名** が FTC の形式要件を満たしているかを示します。ペア相手の RC 名（チーム番号）が一致しているかは確認しません。この例では 2468-A-DS と 2468-A-RC という合法名です。DS Settings（Driver Station Name）では FTC 合法名のみ入力できますが、DS スマホの Android Wi-Fi Direct 設定では任意の名前を入力できます。
+- 項目 12 は DS デバイスに RC アプリが **インストールされていない** ことを確認します。
+- 項目 13 は、デバイスのシステム日付に基づき、DS アプリが **当該 FTC シーズンの最小バージョン** を満たしているかを確認します。ここが「incorrect」で赤く表示された場合は、**Android の設定** で日付を修正すると解消します。
 
-Here’s a report from the same phone, with many items **rejected** by
-Self Inspect.
+同じ電話で Self Inspect が多くの項目を**不合格**とした例がこちらです。
 
-.. figure:: images/tDS-1-BAD.png   
+.. figure:: images/tDS-1-BAD.png
    :align: center
    :width: 85%
    :alt: DS 1 Bad
 
-   DS Self Inspect 1, on DS phone – with issues!
+   DS Self Inspect 1（DS スマホ）– 不合格例
 
--  Item 6 rejects ``Airplane Mode`` for being **OFF**; it must be on for
-   FTC phones. This is an Android system setting, available at the
-   phone’s Settings menu, or easily accessed by swiping down twice from
-   the top of the screen. Turning on Airplane Mode automatically turns
-   off the Wi-Fi radio, as an Android ‘convenience’. An FTC user will
-   need to manually turn the Wi-Fi radio back on (although not connected
-   to a local hotspot or internet router).
--  Item 7 rejects ``Bluetooth`` for being **ON**; it must be off for FTC
-   use. This is also an Android system setting; swipe down twice or see
-   Settings menu.
--  Item 8 rejects ``Location services`` for being **OFF**. For devices
-   running **Android 8** or higher, the FTC apps require Location
-   enabled. This is also an Android system setting; swipe down twice or
-   see Settings menu.
--  Item 9 shows the DS phone’s Wi-Fi radio is **ON**, as required for
-   Wi-Fi Direct **or** Standard Wi-Fi pairing to an RC device.
--  Item 10 rejects the DS phone’s connection via Standard/infrastructure
-   Wi-Fi, because the DS Pairing Method is set to Wi-Fi Direct – thus
-   intending to connect with an RC phone. In this case, the phone is
-   connected to a home Wi-Fi network. This and other such networks must
-   be set to **Forget**, in the device’s Android Wi-Fi menu. If
-   temporary internet access is needed, ‘Forget’ that network
-   afterwards. Also **Remove Account** for any Google or other accounts
-   that may have been used during the internet session. Such accounts
-   can cause background activity, notifications and updates – at the
-   worst possible times.
--  Item 11 rejects the device’s **Wi-Fi Direct name** for not meeting
-   FTC format requirements. The bad name shown here was created in the
-   DS phone’s Android Wi-Fi Direct settings; not possible using the
-   app’s DS Settings (Driver Station Name).
--  Item 12 rejects the presence of an RC app installed on this DS
-   device. The rejection is not for the older version (6.2), but simply
-   for being an RC app.
+- 項目 6 は ``Airplane Mode`` が **OFF** であるため不合格です。FTC 用の電話では ON にする必要があります。これは Android システム設定で、設定メニューから、または画面上部を 2 回スワイプダウンして簡単にアクセスできます。Airplane Mode を ON にすると Android の「便利機能」として自動で Wi-Fi 無線が OFF になります。FTC ユーザーは手動で Wi-Fi 無線を ON に戻してください（ローカルホットスポットやインターネットルーターには接続しないでください）。
+- 項目 7 は ``Bluetooth`` が **ON** なので不合格です。FTC では OFF にする必要があります。これも Android システム設定で、2 回スワイプダウンするか設定メニューを開いてください。
+- 項目 8 は ``Location services`` が **OFF** なので不合格です。**Android 8** 以上では FTC アプリが位置情報を必要とします。これも Android システム設定で、2 回スワイプダウンするか設定メニューを確認してください。
+- 項目 9 は DS スマホの Wi-Fi 無線が **ON** であることを示し、RC への Wi-Fi Direct 接続または Standard Wi-Fi 接続に必要です。
+- 項目 10 は、DS の Pairing Method が Wi-Fi Direct（RC スマホと接続する前提）なのに、DS スマホが Standard/インフラ Wi-Fi に接続しているため不合格です。この例では家庭用 Wi-Fi に接続しています。こうしたネットワークはデバイスの Android Wi-Fi メニューで **Forget** に設定してください。一時的にインターネットが必要な場合は、使用後に必ず Forget に戻します。また、インターネット利用中に使った Google などのアカウントは **Remove Account** してください。そうしたアカウントはバックグラウンドでの通信や通知、アップデートを引き起こし、最悪のタイミングで妨げになることがあります。
+- 項目 11 はデバイスの **Wi-Fi Direct 名** が FTC の形式要件を満たしていないため不合格です。この不適切な名前は DS スマホの Android Wi-Fi Direct 設定で付けたもので、アプリの DS Settings（Driver Station Name）では設定できません。
+- 項目 12 は、この DS デバイスに RC アプリがインストールされているため不合格です。不合格の理由は旧バージョン（6.2）であることではなく、RC アプリが存在すること自体です。
 
-DS Self Inspect 2, on DS phone paired to Control Hub
-----------------------------------------------------
+.. _ds-self-inspect-2-on-ds-phone-paired-to-control-hub:
 
-.. figure:: images/tDS-2.png   
+DS Self Inspect 2（DS スマホ + Control Hub）
+-------------------------------------------
+
+.. figure:: images/tDS-2.png
    :align: center
    :width: 85%
    :alt: DS 2
 
-   DS Self Inspect 2, on DS phone paired to Control Hub
+   DS Self Inspect 2（DS スマホ + Control Hub）
 
-The same points apply as for DS Self Inspect 1 (immediately above),
-except: 
+基本的なポイントは DS Self Inspect 1 と同じですが、次の点が異なります。
 
-- Items 9 and 10 must now be Yes and Yes. The DS phone’s Wi-Fi radio is **ON**,
-  and connected via Standard/infra Wi-Fi. It does not indicate **what** the DS
-  phone is connected to; that’s covered by Item 11. 
-- Item 10’s Yes would be **rejected** if the DS Pairing Method was set to Wi-Fi
-  Direct – thus intending to connect with an RC phone. 
-- Item 11 shows the Standard Wi-Fi **network name**, or Access Point (AP), that
-  the DS phone is connected to. The check-mark indicates the AP is an FTC legal
-  device (Control Hub) and has a correctly formatted name. This does **not**
-  check that the DS and RC names match (team number). In fact, this phone is
-  2468-A-DS and this Control Hub is 9999-A-RC, an **illegal combination** to be
-  flagged by the FTC team or the Robot Inspector.
+- 項目 9 と 10 はどちらも Yes である必要があります。DS スマホの Wi-Fi 無線は **ON** で、Standard/インフラ Wi-Fi に接続しています。何に接続しているかは項目 11 で示されます。
+- DS の Pairing Method が Wi-Fi Direct（RC スマホと接続する前提）に設定されていると、項目 10 の Yes は **不合格** になります。
+- 項目 11 には DS スマホが接続している Standard Wi-Fi の **ネットワーク名（Access Point, AP）** が表示されます。チェックマークは、その AP が FTC 合法デバイス（Control Hub）であり、名前が正しい形式であることを示します。DS 名と RC 名（チーム番号）が一致しているかは確認しません。この例では DS スマホは 2468-A-DS、Control Hub は 9999-A-RC であり、FTC チームまたは Robot Inspector が指摘すべき **違反の組み合わせ** です。
 
-DS Self Inspect 3, on Driver Hub paired to RC phone
----------------------------------------------------
+.. _ds-self-inspect-3-on-driver-hub-paired-to-rc-phone:
 
-.. figure:: images/tDS-3a.png   
+DS Self Inspect 3（Driver Hub + RC スマホ）
+----------------------------------------
+
+.. figure:: images/tDS-3a.png
    :align: center
    :width: 85%
    :alt: DS 3a
 
-   DS Self Inspect 3, on Driver Hub paired to RC phone
+   DS Self Inspect 3（Driver Hub + RC スマホ）
 
--  Item 4 appears only on the Driver Hub. The check-mark indicates the
-   Operating System meets the minimum version requirement in the FTC
-   Competition Manual.
--  Note that ``Airplane Mode`` has been omitted from the DS inspection,
-   only for Driver Hub. FTC rules exclude the Driver Hub and Control Hub
-   from the Airplane Mode requirement.
--  Item 8 ``Location services`` appears only on devices running
-   **Android 8** or higher. This is an SDK/Android technology
-   requirement, not an FTC rule.
--  Items 9 and 10 must be Yes and No. ``Wi-Fi Enabled`` means the Driver
-   Hub’s Wi-Fi radio is **ON**, to use Wi-Fi Direct for the RC phone.
-   The Driver Hub is technically **able to also be connected** to a
-   Standard/infrastructure Wi-Fi source, including an internet router or
-   a Control Hub. Item 10 confirms this is not happening; see next
-   example.
--  Item 10’s No would be **rejected** if the DS Pairing Method was set
-   to Control Hub.
--  Item 11 indicates whether the **device name** meets FTC format
-   requirements. It does not check whether the paired device has a
-   matching RC name (team number).
--  Item 12 verifies that the Driver Hub does **not** have an RC app
-   installed.
--  Item 13 ensures the DS app meets the minimum version **for the
-   current FTC season**, based on the device’s system date. This
-   particular version 7.0.1 does not exactly match the RC phone’s 7.0.
-   Such a “Point mismatch” is allowed under updated FTC rules (was Q&A
-   #176 for 2021-2022 season). Otherwise, an “incorrect” red mark here
-   can be cleared by correcting the date in the **Android device
-   Settings**.
+- 項目 4 は Driver Hub のみに表示されます。チェックマークは、Operating System が FTC Competition Manual の最小バージョン要件を満たしていることを示します。
+- Driver Hub では DS 側の検査から ``Airplane Mode`` が省かれています。FTC ルールでは Driver Hub と Control Hub は Airplane Mode 要件の対象外です。
+- 項目 8 の ``Location services`` は **Android 8** 以上のデバイスにだけ表示されます。これは SDK/Android の技術要件であり、FTC ルールではありません。
+- 項目 9 と 10 は「Yes」「No」である必要があります。``Wi-Fi Enabled`` は Driver Hub の Wi-Fi 無線が RC スマホとの Wi-Fi Direct 用に **ON** であることを意味します。Driver Hub は技術的には Standard/インフラ Wi-Fi（インターネットルーターや Control Hub を含む）にも **同時接続できてしまう** ため、項目 10 で接続していないことを確認します。次の例を参照してください。
+- DS の Pairing Method が Control Hub に設定されている場合、項目 10 の No は **不合格** になります。
+- 項目 11 は **デバイス名** が FTC の形式要件を満たしているかを示します。ペア相手の RC 名（チーム番号）が一致しているかは確認しません。
+- 項目 12 は Driver Hub に RC アプリが **インストールされていない** ことを確認します。
+- 項目 13 は、デバイスのシステム日付に基づき、DS アプリが **当該 FTC シーズンの最小バージョン** を満たしているかを確認します。この例では DS アプリ 7.0.1 が RC スマホの 7.0 と完全一致していませんが、こうした「Point mismatch」は FTC の最新ルール（2021-2022 シーズンの Q&A #176）で許容されています。それ以外で赤い「incorrect」になる場合は **Android の設定** で日付を修正してください。
 
-.. figure:: images/tDS-3b.png   
+.. figure:: images/tDS-3b.png
    :align: center
    :width: 85%
    :alt: DS 3b
 
-   DS Self Inspect 3, on Driver Hub paired to RC phone
+   DS Self Inspect 3（Driver Hub + RC スマホ）
 
-This Self Inspect screen appeared while the Driver Hub was paired to an
-RC phone, then was *also* connected to to a Control Hub via Standard
-Wi-Fi. The DS home screen temporarily showed “Connected” (to RC phone)
-and “No Heartbeat”, then recovered its pairing to the RC phone. 
+この Self Inspect 画面は、Driver Hub が RC スマホとペアリングされている最中に、さらに Standard Wi-Fi 経由で Control Hub に *同時接続* した際に表示されました。DS のホーム画面は一時的に「Connected」（RC スマホ）と「No Heartbeat」を示しましたが、その後 RC スマホとのペアリングに戻りました。
 
-- Item 10 shows the discrepancy. The DS app soon closes this Standard Wi-Fi
-  connection, allowing the Driver Hub to remain paired only with the RC phone.
+- 項目 10 がこの不整合を示しています。DS アプリはまもなくこの Standard Wi-Fi 接続を切断し、Driver Hub が RC スマホとのみペアを維持するようにします。
 
-DS Self Inspect 4, on Driver Hub paired to Control Hub
-------------------------------------------------------
+.. _ds-self-inspect-4-on-driver-hub-paired-to-control-hub:
 
-.. figure:: images/tDS-4b.png   
+DS Self Inspect 4（Driver Hub + Control Hub）
+-------------------------------------------
+
+.. figure:: images/tDS-4b.png
    :align: center
    :width: 85%
    :alt: DS 4b
 
-   DS Self Inspect 4, on Driver Hub paired to Control Hub
+   DS Self Inspect 4（Driver Hub + Control Hub）
 
--  Item 1 still offers one choice, “Disconnect from Wi-Fi Direct”. But
-   now, touching that selection gives this message “There was an error
-   disconnecting from Wi-Fi Direct”. That’s because the Driver Hub is
-   paired to a Control Hub, thus **not** via Wi-Fi Direct.
--  Item 10’s Yes would be **rejected** if the DS Pairing Method was set
-   to Wi-Fi Direct – thus intending to connect with an RC phone.
--  Item 11 shows the Standard Wi-Fi **network name**, or Access Point
-   (AP), that the Driver Hub is connected to. The check-mark indicates
-   the AP is an FTC legal device (Control Hub) and has a correctly
-   formatted name. This does **not** check that the DS and RC names
-   match (team number). In fact, this Driver Hub is 1234-A-DS and this
-   Control Hub is 9999-A-RC, an **illegal combination** to be flagged by
-   the FTC team or the Robot Inspector.
+- 項目 1 には引き続き “Disconnect from Wi-Fi Direct” しかありませんが、選択すると “There was an error disconnecting from Wi-Fi Direct” と表示されます。Driver Hub は Control Hub とペアになっており、Wi-Fi Direct ではないためです。
+- DS の Pairing Method が Wi-Fi Direct（RC スマホと接続する前提）に設定されていると、項目 10 の Yes は **不合格** になります。
+- 項目 11 には Driver Hub が接続している Standard Wi-Fi の **ネットワーク名（AP）** が表示されます。チェックマークは、その AP が FTC 合法デバイス（Control Hub）であり、名前が正しい形式であることを示します。DS 名と RC 名（チーム番号）が一致しているかは確認しません。この例では Driver Hub は 1234-A-DS、Control Hub は 9999-A-RC であり、FTC チームまたは Robot Inspector が指摘すべき **違反の組み合わせ** です。
 
-.. figure:: images/tDS-4a.png   
+.. figure:: images/tDS-4a.png
    :align: center
    :width: 85%
    :alt: DS 4a
 
-   DS Self Inspect 4, on Driver Hub paired to Control Hub
+   DS Self Inspect 4（Driver Hub + Control Hub）
 
-This Self Inspect screen appeared after the Driver Hub was paired to a
-Control Hub, then was connected to a Wi-Fi internet router. 
+この Self Inspect 画面は Driver Hub を Control Hub とペアリングした後、Wi-Fi インターネットルーターに接続した際に表示されました。
 
-- Item 11 shows the error. The Driver Hub can connect via Standard Wi-Fi to
-  only one AP at a time; this network is not an FTC RC device.
+- 項目 11 がエラーを示しています。Driver Hub が Standard Wi-Fi で接続できる AP は同時に 1 つだけで、このネットワークは FTC の RC デバイスではありません。
 
-RC Self Inspect 1, appearing on RC phone paired with DS phone
--------------------------------------------------------------
+.. _rc-self-inspect-1-appearing-on-rc-phone-paired-with-ds-phone:
 
-Now we change to **Robot Controller** Self Inspect screens. Again, RC
-screens can be viewed from the DS device **or** from an RC phone, with
-slight differences.
+RC Self Inspect 1（RC スマホ + DS スマホ）
+------------------------------------------
 
-.. figure:: images/tRC-1.png   
+ここからは **Robot Controller** の Self Inspect 画面です。RC 画面は DS デバイス **または** RC スマホから表示できますが、細かな違いがあります。
+
+.. figure:: images/tRC-1.png
    :align: center
    :width: 85%
    :alt: RC 1
 
-   RC Self Inspect 1, appearing on RC phone paired with DS phone
+   RC Self Inspect 1（RC スマホ + DS スマホ）
 
--  Item 5 lists the Expansion Hub addresses and firmware levels. This
-   example shows one Expansion Hub, but two can be listed here. A
-   check-mark indicates all firmware is up-to-date based on the current
-   version of the RC app. This item shows “N/A” if no Hubs are
-   connected.
--  Item 10 ``RC Password`` appears only in RC Self Inspect, not in DS
-   Self Inspect. It checks the FTC requirement for a Control Hub
-   password different than the factory default (“password”). Although
-   aimed only at the Control Hub, this item does appear on RC phones (as
-   here) which don’t have a default password and thus always get the
-   check-mark.
--  Item 14 ensures the RC app meets the minimum version **for the
-   current FTC season**, based on the device’s system date. It does not
-   check for a match with the DS app version. An “incorrect” red mark
-   here can be cleared by correcting the date in the **Android device
-   Settings**.
--  Item 15 verifies that the RC device does **not** have an DS app
-   installed.
+- 項目 5 には Expansion Hub のアドレスとファームウェアバージョンが一覧表示されます。この例では 1 台ですが、2 台まで表示されます。チェックマークは RC アプリの現行バージョンに対して全ファームウェアが最新であることを示します。Hub が接続されていない場合は “N/A” と表示されます。
+- 項目 10 の ``RC Password`` は RC Self Inspect のみに表示され、DS Self Inspect にはありません。Control Hub のパスワードを工場出荷時の “password” から変更するという FTC 要件をチェックします。Control Hub 向けの項目ですが、デフォルトパスワードを持たない RC スマホにも表示され、常にチェックマークになります。
+- 項目 14 は、デバイスのシステム日付に基づき、RC アプリが **当該 FTC シーズンの最小バージョン** を満たしているかを確認します。DS アプリとのバージョン一致は確認しません。ここが赤い「incorrect」の場合は **Android の設定** で日付を修正してください。
+- 項目 15 は RC デバイスに DS アプリが **インストールされていない** ことを確認します。
 
-RC Self Inspect 2, appearing on DS phone paired to RC phone
------------------------------------------------------------
+.. _rc-self-inspect-2-appearing-on-ds-phone-paired-to-rc-phone:
 
-.. figure:: images/tRC-2.png   
+RC Self Inspect 2（DS スマホ上、RC スマホとペア）
+---------------------------------------------------
+
+.. figure:: images/tRC-2.png
    :align: center
    :width: 85%
    :alt: RC 2
 
-   RC Self Inspect 2, appearing on DS phone paired to RC phone
+   RC Self Inspect 2（DS スマホ上、RC スマホとペア）
 
-This RC Self Inspect screen displayed on the paired DS phone is the
-“same” as the previous one on the RC phone, with two differences: 
+この RC Self Inspect は、ペアリングしている DS スマホ上に表示されたもので、直前の RC スマホ上の画面と「同じ」ですが、2 点だけ異なります。
 
-- The 3-dots menu is missing from the header. This menu offered a single
-  choice, to disconnect the Wi-Fi Direct. But this cannot be performed as an RC
-  action, from a DS phone connected by that same Wi-Fi Direct. 
-- Item 14 did not appear on the RC phone’s display of this RC Self Inspect.
-  Here is the verification that the DS app and RC app have matching versions;
-  in this case both apps are version 7.0. Any “Point mismatch” (e.g. 7.0
-  vs. 7.0.1) is allowed under updated FTC rules (was Q&A #176 for 2021-2022
-  season).
+- ヘッダーの三点メニューがありません。このメニューは Wi-Fi Direct を切断する 1 つの選択肢を提供しますが、同じ Wi-Fi Direct 接続を使っている DS スマホから RC 側の操作として切断することはできません。
+- 項目 14 は RC スマホ上の画面にはありませんでした。ここでは DS アプリと RC アプリのバージョンが一致していることを確認しており、この例では両方とも 7.0 です。7.0 と 7.0.1 のような「Point mismatch」は FTC の最新ルール（2021-2022 シーズンの Q&A #176）で許容されています。
 
-RC Self Inspect 3, appearing on RC phone paired with Driver Hub
----------------------------------------------------------------
+.. _rc-self-inspect-3-appearing-on-rc-phone-paired-with-driver-hub:
 
-.. figure:: images/tRC-3a.png   
+RC Self Inspect 3（RC スマホ + Driver Hub）
+-------------------------------------------
+
+.. figure:: images/tRC-3a.png
    :align: center
    :width: 85%
    :alt: RC 3a
 
-   RC Self Inspect 3, appearing on RC phone paired with Driver Hub
+   RC Self Inspect 3（RC スマホ + Driver Hub）
 
-The above screen is the same as RC Self Inspect 1, where the DS device
-is a DS phone. See the notes there.
+この画面は RC Self Inspect 1（DS デバイスが DS スマホ）の場合と同じです。そちらの説明を参照してください。
 
-.. figure:: images/tRC-3b.png   
+.. figure:: images/tRC-3b.png
    :align: center
    :width: 85%
    :alt: RC 3b
 
-   RC Self Inspect 3, appearing on RC phone paired with Driver Hub
+   RC Self Inspect 3（RC スマホ + Driver Hub）
 
-This is also the same screen, except the RC phone was connected to an
-internet router, while paired with a Driver Hub. The Standard Wi-Fi
-connection caused the RC phone to temporarily lose that pairing, which
-was able to be restored. 
+こちらも同じ画面ですが、RC スマホが Driver Hub とペアになったままインターネットルーターに接続した例です。Standard Wi-Fi 接続により RC スマホは一時的にペアリングを失いましたが、復旧できました。
 
-- Item 12 shows the rejection: connected via Standard Wi-Fi, but **not** to an
-  FTC DS device.
+- 項目 12 が不合格を示しています。Standard Wi-Fi には接続していますが、接続先が FTC の DS デバイス **ではありません**。
 
-RC Self Inspect 4, appearing on Driver Hub paired to RC phone
--------------------------------------------------------------
+.. _rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-phone:
 
-.. figure:: images/tRC-4.png   
+RC Self Inspect 4（Driver Hub 上、RC スマホとペア）
+---------------------------------------------------
+
+.. figure:: images/tRC-4.png
    :align: center
    :width: 85%
    :alt: RC 4
 
-   RC Self Inspect 4, appearing on Driver Hub paired to RC phone
+   RC Self Inspect 4（Driver Hub 上、RC スマホとペア）
 
-This display on a paired Driver Hub is the “same” RC Self Inspect screen
-as the one immediately above, but there are two differences: 
+Driver Hub 上に表示されたこの画面は直前のものと「同じ」ですが、2 点異なります。
 
-- The 3-dots menu is missing from the header. This menu offered a single
-  choice, to disconnect the Wi-Fi Direct. But this cannot be performed as an RC
-  action, from a Driver Hub connected by that same Wi-Fi Direct. 
-- Item 14 did not appear on the RC phone’s display of this RC Self Inspect.
-  Here is the check for matching versions of the DS app and RC app. In this
-  case, the DS app is 7.0.1 and the RC app is 7.0, rejected here as a mismatch.
-  Such a “Point mismatch” is allowed under updated FTC rules (was Q&A #176 for
-  2021-2022 season).
+- ヘッダーの三点メニューがありません。このメニューは Wi-Fi Direct を切断する 1 つの選択肢を提供しますが、同じ Wi-Fi Direct 接続を使っている Driver Hub から RC 側の操作として切断することはできません。
+- 項目 14 は RC スマホ上の画面にはありませんでした。ここでは DS アプリと RC アプリのバージョン一致を確認しており、この例では DS アプリ 7.0.1、RC アプリ 7.0 で不一致として表示されています。こうした「Point mismatch」は FTC の最新ルール（2021-2022 シーズンの Q&A #176）で許容されています。
 
-RC Self Inspect 5, appearing on DS phone paired to Control Hub
---------------------------------------------------------------
+.. _rc-self-inspect-5-appearing-on-ds-phone-paired-to-control-hub:
 
-Looking now at the **Control Hub**, the Self Inspect screen has a few
-differences. In this example, the robot is configured with **two** Hubs.
+RC Self Inspect 5（DS スマホ上、Control Hub とペア）
+-----------------------------------------------------
 
-.. figure:: images/tRC-5b.png   
+ここから **Control Hub** の例です。Self Inspect 画面にいくつか違いがあります。この例ではロボットに **2 台** の Hub が構成されています。
+
+.. figure:: images/tRC-5b.png
    :align: center
    :width: 85%
    :alt: RC 5b
 
-   RC Self Inspect 5, appearing on DS phone paired to Control Hub
+   RC Self Inspect 5（DS スマホ上、Control Hub とペア）
 
--  Again the 3-dots menu is missing from the header. This menu offered a
-   single choice, to disconnect the Wi-Fi Direct. But the Control Hub
-   hosts with Standard Wi-Fi, not with Wi-Fi Direct. In any case, the
-   connection cannot be managed as an RC action, from a DS phone using
-   that same connection.
--  Item 3 appears only on RC Self Inspect screens for Control Hub. It
-   verifies the Operating System is up-to-date for the current version
-   of the RC app.
--  ``Location services`` does **not** appear here, since the Control
-   Hub’s Android version (Item 4) is **lower** than Android 8.
--  Item 5 shows the firmware version of the Expansion Hub embedded in
-   the Control Hub; it’s up-to-date for the current version of the RC
-   app.
--  Item 6 shows the firmware version and address of the standalone
-   Expansion Hub, also up-to-date.
--  Item 7 should always show a high battery charge here, indicating at
-   least the nominal 12V charge level from the robot battery.
--  Note that ``Airplane Mode`` has been omitted from the RC inspection,
-   only for Control Hub. FTC rules exclude the Driver Hub and Control
-   Hub from the Airplane Mode requirement.
--  Item 9 does apply here to the Control Hub. Its password must be
-   changed from the factory default (“password”).
--  Items 10 and 11 should be Yes and Yes for Control Hub, which uses
-   only Standard/infra Wi-Fi. Item 11 does not indicate **what** the
-   Control Hub is connected to (but it must be the DS phone displaying
-   this screen).
--  Item 12 shows the Standard Wi-Fi **network name**, or Access Point
-   (AP), that is broadcast by the Control Hub. The check-mark indicates
-   the AP has a correctly formatted FTC name. This does **not** check
-   that the DS and RC names match (team number). In fact, this DS phone
-   is 2468-A-DS and this Control Hub is 9999-A-RC, an **illegal
-   combination** to be flagged by the FTC team or the Robot Inspector.
--  Item 14 appears only on DS displays of RC Self Inspect. Here is the
-   check for matching versions of DS app and RC app; in this case both
-   apps are version 7.0. Any “Point mismatch” (e.g. 7.0 vs. 7.0.1) is
-   allowed under updated FTC rules (was Q&A #176 for 2021-2022 season).
--  Item 15 verifies that an RC device does **not** have an DS app
-   installed. This would be quite a mistake for a Control Hub, lacking
-   an onboard screen.
+- ヘッダーの三点メニューが再びありません。このメニューは Wi-Fi Direct を切断する 1 つの選択肢を提供しますが、Control Hub は Wi-Fi Direct ではなく Standard Wi-Fi でホストします。いずれにせよ、同じ接続を使っている DS スマホから RC 側の操作として切断することはできません。
+- 項目 3 は Control Hub の RC Self Inspect にのみ表示されます。Operating System が RC アプリの現行バージョンに対して最新であることを確認します。
+- Control Hub の Android バージョン（項目 4）が **Android 8 未満** のため、``Location services`` は表示されません。
+- 項目 5 は Control Hub に内蔵された Expansion Hub のファームウェアバージョンを示し、RC アプリの現行バージョンに対して最新であることを確認します。
+- 項目 6 は単体接続されている Expansion Hub のファームウェアバージョンとアドレスを示し、こちらも最新です。
+- 項目 7 は常に高いバッテリー残量を示すべきで、ロボットバッテリーの公称 12V が供給されていることを意味します。
+- Control Hub では RC 側の検査から ``Airplane Mode`` が省かれています。FTC ルールでは Driver Hub と Control Hub は Airplane Mode 要件の対象外です。
+- 項目 9 は Control Hub でも適用され、工場出荷時のパスワード “password” から変更されていることを確認します。
+- Control Hub は Standard/インフラ Wi-Fi のみを使用するため、項目 10 と 11 は Yes/Yes である必要があります。項目 11 は Control Hub が何に接続しているかは示さず（この画面を表示している DS スマホである必要があります）。
+- 項目 12 は Control Hub がブロードキャストしている Standard Wi-Fi の **ネットワーク名（AP）** を示します。チェックマークはその AP が FTC の命名規則を満たしていることを示します。DS 名と RC 名（チーム番号）が一致しているかは確認しません。この例では DS スマホが 2468-A-DS、Control Hub が 9999-A-RC であり、FTC チームまたは Robot Inspector が指摘すべき **違反の組み合わせ** です。
+- 項目 14 は DS デバイス上の RC Self Inspect にのみ表示されます。ここでは DS アプリと RC アプリのバージョン一致を確認しており、この例では両方とも 7.0 です。7.0 と 7.0.1 のような「Point mismatch」は FTC の最新ルール（2021-2022 シーズンの Q&A #176）で許容されています。
+- 項目 15 は RC デバイスに DS アプリが **インストールされていない** ことを確認します。画面のない Control Hub に DS アプリが入っているのは大きなミスです。
 
-RC Self Inspect 6, appearing on Driver Hub paired to Control Hub
-----------------------------------------------------------------
+.. _rc-self-inspect-6-appearing-on-driver-hub-paired-to-control-hub:
 
-For a Control Hub, the Self Inspect categories displayed on Driver Hub
-are the same as on DS phone, immediately above.
+RC Self Inspect 6（Driver Hub 上、Control Hub とペア）
+----------------------------------------------------
 
-.. figure:: images/tRC-6b.png   
+Control Hub の場合、Driver Hub に表示される Self Inspect のカテゴリは直前の DS スマホの場合と同じです。
+
+.. figure:: images/tRC-6b.png
    :align: center
    :width: 85%
    :alt: RC 6b
 
-   RC Self Inspect 6, appearing on Driver Hub paired to Control Hub
+   RC Self Inspect 6（Driver Hub 上、Control Hub とペア）
 
-The only reporting difference here is the ‘mismatch’ between the Driver
-Hub’s DS app version of 7.0.1 and the Control Hub’s 7.0. This is likely
-to happen since Driver Hubs are typically auto-updated, in this case to
-a DS version intended only for old Android 6 phones. Such a “Point
-mismatch” is allowed under updated FTC rules (was Q&A #176 for 2021-2022
-season).
+ここで唯一異なる報告は、Driver Hub の DS アプリ 7.0.1 と Control Hub の 7.0 との「不一致」です。Driver Hub は自動更新されることが多く、古い Android 6 向けの DS バージョンが入る場合があります。こうした「Point mismatch」は FTC の最新ルール（2021-2022 シーズンの Q&A #176）で許容されています。
 
-.. figure:: images/tRC-6a.png   
+.. figure:: images/tRC-6a.png
    :align: center
    :width: 85%
    :alt: RC 6a
 
-   RC Self Inspect 6, appearing on Driver Hub previously paired to Control Hub
+   RC Self Inspect 6（過去に Control Hub とペアだった Driver Hub）
 
-Lastly… with no active connection, a DS device cannot display any
-information about the RC device status.
+最後に、アクティブな接続がない場合、DS デバイスは RC デバイスの状態を何も表示できません。
 
-Summary
--------
+まとめ
+------
 
-The Self Inspect screen is a quick, handy reference to help teams
-confirm that certain control system elements are up-to-date and properly
-configured.
+Self Inspect 画面は、制御システムの要素が最新かつ正しく設定されていることをチームが確認するための、手早く便利なリファレンスです。
 
-Self Inspect may be reviewed in Robot Inspection at an FTC tournament,
-but is **not** a comprehensive or official standard of compliance with
-FTC rules.
+Self Inspect は FTC 大会の Robot Inspection で確認されることがありますが、FTC ルールへの準拠を網羅的または公式に保証するものでは **ありません**。
 
-Each inspection screen updates automatically, with or without a Restart
-Robot. This allows quick verification that issues have been resolved.
+各検査画面は Restart Robot の有無にかかわらず自動更新されるため、問題が解消されたことを素早く確認できます。
 
 =============
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+ご質問・ご意見・修正提案は westsiderobotics@verizon.net までお寄せください。
