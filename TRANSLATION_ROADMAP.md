@@ -241,14 +241,16 @@
 > - 生成AIは複数の小規模ファイルを連続で翻訳する際、途中で完了したと誤認する可能性があります
 > - 各ディレクトリ内のファイルが全て翻訳されているか確認してください
 
-#### Sub-Phase 6.1: ゲーム固有リソース - ブログと座標系（約8ファイル）
-- [ ] `docs/source/game_specific_resources/blog/` - ブログ記事
-- [ ] `docs/source/game_specific_resources/field_coordinate_system/` - フィールド座標系
-  - コンセプト
-  - 実装例
-  - ドキュメント
+#### Sub-Phase 6.1: ゲーム固有リソース - ブログと座標系（約8ファイル）✅ **完了**
+- [x] `docs/source/game_specific_resources/blog/blog.rst` - **16行** ブログページ
+- [x] `docs/source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst` - **201行** フィールド座標系
+  - 3次元デカルト座標系の定義
+  - 基準フレーム（赤ウォール）
+  - 軸の説明（X、Y、Z）
+  - フィールド構成例（ダイヤモンド、スクエア、反転スクエア）
 
-##### 予想工数: 6-8時間
+##### 実績工数: 約1.5時間（予想: 6-8時間）
+##### 注記: 元のロードマップでは約8ファイルと記載されていましたが、実際には2つのメインファイル（217行）でした。
 
 #### Sub-Phase 6.2: ゲーム固有リソース - Q&Aとフィールド（約8ファイル）
 - [ ] `docs/source/game_specific_resources/ftc_qa/` - FTC Q&A
@@ -415,6 +417,7 @@
 | 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
 | 2025-12-09 | 2.2 | Sub-Phase 4.2 完了 - Blocks センサーと機能（5ファイル翻訳、計857行） |
 | 2025-12-09 | 2.3 | Sub-Phase 4.3 完了 - OnBot Java チュートリアル基礎（2ファイル翻訳、計680行） |
+| 2025-12-09 | 2.4 | Sub-Phase 6.1 完了 - ゲーム固有リソース（ブログと座標系、2ファイル翻訳、計217行） |
 
 ---
 
