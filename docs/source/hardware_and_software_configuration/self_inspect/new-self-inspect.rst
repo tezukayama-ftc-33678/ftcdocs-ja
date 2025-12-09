@@ -1,22 +1,33 @@
-*FIRST* Tech Challenge 自己点検
+*FIRST* Tech Challenge Self-Inspect
 ===================================
 
-はじめに
+Introduction
 ------------
 
-このページでは、**FTC Driver Station（DS）**アプリと **FTC Robot Controller（RC）**アプリの自己点検画面について説明します。
+This page describes the Self Inspect screens in the FTC Driver Station
+(DS) app and the FTC Robot Controller (RC) app.
 
-自己点検画面は、制御システムの FTC ルールに関連するデバイスステータスのスナップショットを提供します。これらのルールは、*FIRST* ウェブサイトの `Current Game and Season Materials ページ <https://ftc-resources.firstinspires.org/files/ftc/game>`_ にある競技マニュアルで説明されています。
+A Self Inspect screen provides a snapshot of device status, as it
+relates to FTC rules for the control system. 
+These rules are described in the Competition Manual which can be found on the
+`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
 
-.. tip:: イベント前にチームがロボットを自己点検するのに役立つ `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ が利用可能です。チームはイベント前に自己点検を行うことを強く推奨されています。
+.. tip:: An `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ 
+   is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event.
    
-   また、合法および違法な部品の例を示した `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ もあります（ただし、競技マニュアルの代替ではありません）。
+   There is also a `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ 
+   with some examples of legal and illegal parts (though it is not a substitute for the Competition Manual).
 
-自己点検画面は、チームが特定の制御システム要素が最新であり、適切に構成されていることを確認するのに役立つ、迅速で便利なリファレンスとしてのみ提供されています。
+The Self Inspect screen is provided only as a quick, handy reference to
+help teams confirm that certain control system elements are up-to-date
+and properly configured.
 
-各点検画面は、ロボットの再起動の有無にかかわらず、自動的に更新されます。これにより、問題が解決されたことを迅速に確認できます。
+Each inspection screen updates automatically, with or without a Restart
+Robot. This allows quick verification that issues have been resolved.
 
-課題は、小さな画面で有用な情報を最大化することです。自己点検のレイアウトとグラフィックスは FTC の要件に応じて進化します。このページでは、簡潔で意味のあるキャプションのいくつかを明確にします。
+The challenge is to maximize useful information in a small screen. The
+Self Inspect layout and graphics evolve with FTC requirements; this page
+clarifies some of the brief but meaningful captions.
 
 Robot Inspection
 ----------------
@@ -26,31 +37,40 @@ With the robot and driver station turned on and connected the inspector may go t
 They will check both the **Driver Station Inspection Report** and the **Robot Controller Inspection Report**, both of which can be displayed from the DS.
 Many FTC events will scan the QR Code that is displayed on the RC Inspection Report.
 
-バージョン情報
+Version Information
 -------------------
 
-競技マニュアルには、デバイスファームウェア、Android オペレーティングシステム、FTC アプリの最小推奨バージョンがリストされています。チームは、ロボット検査ステータスに影響を与えることなく、古いバージョンを実行することを選択できます。これにより、競技会の直前にデバイスをアップグレードしようとして、ミスがロボットを動作不能にする状況を回避できます。
+The Competition Manual lists the minimum recommended versions of device firmware, Android operating system, and FTC Apps.
+Teams may choose to run older versions without affecting their ROBOT inspection status.
+This avoids the situation of trying to upgrade a device at a competition at the last minute where a mistake might leave the robot inoperable.
 
 .. note::
-  このページの画像は、FTC アプリのバージョン 10.3 以降を示しています。このページは、**Control Hub** とペアリングされた **Driver Hub** のみを示しており、ドライバーステーションまたはロボットコントローラーとしてスマートフォンを使用する場合、わずかな違いがある可能性があります。アプリバージョン 10.2 以前の画面画像については、:doc:`旧自己点検 <self-inspect>` ページを参照してください。
+  The images in this page show Version 10.3 or newer of the FTC apps.
+  This page only shows a Driver Hub paired with a Control Hub, there may be slight differences if a phone is used as a driver station or robot controller.
+  See the :doc:`old self-inspect<self-inspect>` page for screen images for app versions 10.2 or earlier.
 
-*FIRST* は、チームがファームウェア、Android オペレーティングシステム、FTC アプリの最新バージョンを使用することを推奨していますが、必須ではありません。現在のバージョンには、最新のバグ修正と機能強化があります。たとえば、**Control Hub Android OS** のバージョン 1.1.6 には、Wi-Fi に関連する修正があります。
+*FIRST* recommends but does not require that teams use the most recent versions of firmware, Android Operating System, and FTC Apps.
+Current versions have the latest bug fixes and enhancements. For example, version 1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi.
+ 
+Each FTC season new major versions the FTC Apps are released. The INTO THE DEEP major version is 10, and the DECODE major version is 11.
+If the game has AprilTags, the SDK will include :doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` information for those tags that lets you determine the robot's position on the field.
+As the season progresses, minor releases will include bug fixes and some enhancements. e.g. 11.1, 11.2, etc.
+  
+Regardless of the versions selected, it is highly recommended that the installed ROBOT CONTROLLER
+App and DRIVER STATION App versions match major and minor values to ensure compatibility as not
+all software versions are compatible with each other.
 
-各 FTC シーズンでは、FTC アプリの新しいメジャーバージョンがリリースされます。INTO THE DEEP のメジャーバージョンは 10 で、DECODE のメジャーバージョンは 11 です。ゲームに AprilTag がある場合、SDK にはそれらのタグの :doc:`ローカリゼーション <../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` 情報が含まれており、フィールド上のロボットの位置を判断できます。シーズンが進むにつれて、マイナーリリースにはバグ修正といくつかの機能強化が含まれます（例：11.1、11.2 など）。
-
-選択したバージョンに関係なく、インストールされている **ROBOT CONTROLLER** アプリと **DRIVER STATION** アプリのバージョンがメジャーおよびマイナー値で一致することを強く推奨します。すべてのソフトウェアバージョンが互いに互換性があるわけではないためです。
-
-チームは、ロボット検査ステータスに影響を与えることなく、古いバージョンを実行することを選択できます。
+Teams may choose to run older versions without affecting their ROBOT inspection status. 
 
 .. caution::
-   一部の FTC アプリバージョンには異なるロボット通信プロトコルがあり、互いに接続できません。
+   Some FTC App versions have a different robot communication protocol and are unable to connect with each other.
    
-   フィールドスタッフは、推奨バージョンより古いソフトウェアを使用しているチームに包括的なサポートを提供できません。
+   FIELD STAFF will not be able to provide comprehensive support to teams with software older than the recommended version. 
 
-Driver Station 自己点検レポート
+Driver Station Self Inspection Report
 -------------------------------------
 
-次は、**Driver Hub** を回転させて画面をポートレートモードにし、レポートのすべてのアイテムがスクロールせずに1つの画面に表示されるようにした DS 自己点検レポートのスクリーンショットです。
+The following is a screen shot of a DS Self Inspection Report with the Driver Hub rotated so that the screen is in portrait mode so all items on the report are visible on one screen without scrolling.
 
 .. figure:: images/newDS.png
    :align: center
