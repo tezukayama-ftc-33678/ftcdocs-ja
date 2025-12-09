@@ -1,26 +1,17 @@
-OnBot Java Reference Info :bdg-info:`OBJ`
-=========================================
+OnBot Java リファレンス情報 :bdg-info:`OBJ`
+===========================================
 
-Javadoc Reference Pages
-~~~~~~~~~~~~~~~~~~~~~~~
+Javadoc リファレンスページ
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As you start to write more complicated op modes, you will need to use
-more features of the FIRST Tech Challenge software development kit
-(SDK). You can reference online Javadoc material that provide
-descriptions of the available FIRST Tech Challenge-related classes and
-methods, at the following web address:
+より複雑な **op mode** を作成し始めると、*FIRST* Tech Challenge ソフトウェア開発キット（SDK）のより多くの機能を使用する必要があります。利用可能な *FIRST* Tech Challenge 関連のクラスとメソッドの説明を提供するオンライン Javadoc 資料は、次の Web アドレスで参照できます：
 
 https://javadoc.io/doc/org.firstinspires.ftc
 
-Sample Op Modes
-~~~~~~~~~~~~~~~
+サンプル Op Mode
+~~~~~~~~~~~~~~~~
 
-The OnBot Java Programming Tool has several built-in example op modes
-that demonstrate how to do different tasks with the FIRST Tech Challenge
-control system. As you create a new file, you can use the Sample
-dropdown list control to display a list of available sample op modes or
-templates. The comments in these examples help explain what the program
-statements do.
+**OnBot Java Programming Tool** には、*FIRST* Tech Challenge 制御システムでさまざまなタスクを実行する方法を示す、組み込みのサンプル **op mode** がいくつか用意されています。新しいファイルを作成する際に、Sample ドロップダウンリストコントロールを使用して、利用可能なサンプル **op mode** またはテンプレートのリストを表示できます。これらの例のコメントは、プログラムステートメントが何をするかを説明するのに役立ちます。
 
 
 .. image:: images/OnBotDoc_sampleOpModes.jpg

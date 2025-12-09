@@ -1,28 +1,13 @@
-Fork and Clone from GitHub :bdg-success:`AS`
-============================================
+GitHub からのフォークとクローン :bdg-success:`AS`
+==================================================
 
 .. important:: 
-   This approach assumes a basic familiarity with `git <https://docs.github.com/en/get-started/learning-about-github/github-glossary#git>`_ and `GitHub <https://github.com/>`_.  As with most
-   things related to git there are many different ways to satisfy any
-   objective.  This documentation describes one method for Windows users.
-   Users not comfortable with command line tools and git should obtain the SDK
-   via :doc:`Downloading the SDK as a zip archive
-   <../downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`.
+   このアプローチは、`git <https://docs.github.com/en/get-started/learning-about-github/github-glossary#git>`_ と `GitHub <https://github.com/>`_ に関する基本的な知識があることを前提としています。git に関連するほとんどのことと同様に、目的を達成するための方法は多数あります。このドキュメントでは、Windows ユーザー向けの 1 つの方法について説明します。コマンドラインツールと git に慣れていないユーザーは、:doc:`ZIP アーカイブとして SDK をダウンロード <../downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>` することで SDK を入手する必要があります。
 
-Forks vs. Clones 
-----------------
+フォーク vs. クローン
+--------------------
 
-A `Fork <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`_ on GitHub is a copy of another `repository <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`_ on GitHub from one account
-to another account. The new forked repository retains a parent-child
-relationship with the `origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`_ repository. Forks are typically used when software
-will have an independent line of development, such as when FTC teams develop
-their own team code using the `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_
-repository as a basis.  FTC teams should create a Fork of the
-`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository as a convenient way to
-manage their software development process. Thanks to the parent-child
-relationship, when changes are made to the parent repository those changes can
-be easily tracked and `fetched <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`_/`merged <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`_ into the forked repository, keeping the
-forked repository up to date.
+GitHub 上の `Fork <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`_ は、あるアカウントから別のアカウントへの GitHub 上の別の `repository <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`_ のコピーです。新しくフォークされたリポジトリは、`origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`_ リポジトリとの親子関係を保持します。フォークは通常、FTC チームが `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ リポジトリを基盤として独自のチームコードを開発する場合など、ソフトウェアが独立した開発ラインを持つ場合に使用されます。FTC チームは、ソフトウェア開発プロセスを管理する便利な方法として、`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ リポジトリのフォークを作成する必要があります。親子関係のおかげで、親リポジトリに変更が加えられた場合、これらの変更を簡単に追跡し、フォークされたリポジトリに `fetch <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`_/`merge <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`_ して、フォークされたリポジトリを最新の状態に保つことができます。
 
 .. warning:: 
    Teams should not issue pull requests against the `upstream <https://docs.github.com/en/get-started/learning-about-github/github-glossary#upstream>`_ parent, the

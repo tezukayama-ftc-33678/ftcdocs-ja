@@ -1,15 +1,11 @@
-Downloading the Android Studio Project Folder :bdg-success:`AS`
-===============================================================
+Android Studio プロジェクトフォルダーのダウンロード :bdg-success:`AS`
+======================================================================
 
-The SDK can be downloaded from a GitHub repository. GitHub is a web-based
-version control company that lets individuals and organizations host content
-online. In order to access the Android Studio software, you will need to have a
-GitHub account. You can create one for free by visiting the GitHub website:
+SDK は GitHub リポジトリからダウンロードできます。GitHub は、個人や組織がコンテンツをオンラインでホストできる Web ベースのバージョン管理会社です。**Android Studio** ソフトウェアにアクセスするには、GitHub アカウントが必要です。GitHub Web サイトにアクセスして、無料でアカウントを作成できます：
 
 *  https://github.com/
 
-The software is stored in a repository called "FtcRobotController" under
-the *FIRST-Tech-Challenge* GitHub organization:
+ソフトウェアは、*FIRST-Tech-Challenge* GitHub 組織の下の「FtcRobotController」というリポジトリに保存されています：
 
 *  https://github.com/FIRST-Tech-Challenge/FtcRobotController
 

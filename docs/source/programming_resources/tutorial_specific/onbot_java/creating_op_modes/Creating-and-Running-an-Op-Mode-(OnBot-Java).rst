@@ -1,48 +1,28 @@
-Creating and Running an Op Mode :bdg-info:`OBJ`
-===============================================
+Op Mode の作成と実行 :bdg-info:`OBJ`
+====================================
 
-The Java Programming Language
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Java プログラミング言語
+~~~~~~~~~~~~~~~~~~~~~~~
 
-This tutorial assumes that you have a sound understanding of the Java
-programming language. If you do not know Java, then you should consider
-using the Blocks Programming Tool, which is a visual development
-tool. Information about the Blocks Programming Tool can be found at
-the following link:
+このチュートリアルでは、Java プログラミング言語について十分に理解していることを前提としています。Java を知らない場合は、ビジュアル開発ツールである **Blocks Programming Tool** の使用を検討してください。**Blocks Programming Tool** に関する情報は、次のリンクで見つけることができます：
 
-:doc:`Blocks Tutorial <../../../blocks/Blocks-Tutorial>`
+:doc:`Blocks チュートリアル <../../../blocks/Blocks-Tutorial>`
 
-Or, you can learn the Java programming language by completing the Oracle
-Java Tutorial, which is available at the following address:
+または、次のアドレスで利用可能な Oracle Java チュートリアルを完了することで、Java プログラミング言語を学ぶことができます：
 
 https://docs.oracle.com/javase/tutorial/
 
-What's an Op Mode?
-~~~~~~~~~~~~~~~~~~
+Op Mode とは？
+~~~~~~~~~~~~~~
 
-During a typical FIRST Tech Challenge match, a team's robot must perform
-a variety of tasks to score points. For example, a team might want their
-robot to follow a white line on the competition floor and then score a
-game element into a goal autonomously during a match. Teams write
-programs called *op modes* (which stands for "operational modes") to
-specify the behavior for their robot. These op modes run on the Robot
-Controller phone after being selected on the DRIVER STATION device.
+典型的な *FIRST* Tech Challenge のマッチでは、チームのロボットは得点を獲得するためにさまざまなタスクを実行する必要があります。例えば、チームは競技フィールドの白い線に沿ってロボットを動かし、マッチ中に自律的にゲーム要素をゴールに得点させたいと考えるかもしれません。チームは、ロボットの動作を指定するために **op mode**（「operational modes」の略）と呼ばれるプログラムを作成します。これらの **op mode** は、**DRIVER STATION** デバイスで選択された後、**Robot Controller** 電話上で実行されます。
 
-Teams who are participating in the FIRST Tech Challenge have a variety
-of programming tools that they can use to create their own op modes.
-This document explains how to use the OnBot Java Programming Tool to
-write an op mode for a robot.
+*FIRST* Tech Challenge に参加しているチームは、独自の **op mode** を作成するために使用できるさまざまなプログラミングツールを利用できます。このドキュメントでは、**OnBot Java Programming Tool** を使用してロボット用の **op mode** を作成する方法について説明します。
 
-The OnBot Java Programming Tool
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+OnBot Java Programming Tool
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The OnBot Java Programming Tool is a user-friendly programming tool
-that is served up by the Robot Controller phone. A user can create
-custom op modes for their robot using this tool and then save these op
-modes directly onto the Robot Controller. Users write their op modes
-using Java. The op modes are compiled very quickly on the Robot
-Controller and then loaded dynamically by the Robot Controller during
-run time.
+**OnBot Java Programming Tool** は、**Robot Controller** 電話によって提供されるユーザーフレンドリーなプログラミングツールです。ユーザーはこのツールを使用して、ロボット用のカスタム **op mode** を作成し、これらの **op mode** を **Robot Controller** に直接保存できます。ユーザーは Java を使用して **op mode** を作成します。**op mode** は **Robot Controller** 上で非常に高速にコンパイルされ、実行時に **Robot Controller** によって動的にロードされます。
 
 .. image:: images/OnBotDoc001_MainScreen.jpg
    :align: center

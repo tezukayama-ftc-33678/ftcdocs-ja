@@ -1,25 +1,14 @@
-Controlling a Servo :bdg-warning:`Blocks`
-=========================================
+サーボの制御 :bdg-warning:`Blocks`
+==================================
 
-In the section titled :doc:`Creating an Op Mode with 
-Blocks <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` you learned how to use
-the Blocks Programming Tool to write an op mode that controls a 12V
-DC motor. In this section, you will learn how to write an op mode that
-controls a servo motor.
+:doc:`Blocks を使った Op Mode の作成 <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` のセクションでは、**Blocks Programming Tool** を使用して 12V DC モーターを制御する **op mode** を作成する方法を学びました。このセクションでは、サーボモーターを制御する **op mode** を作成する方法を学びます。
 
-What is a Servo Motor?
-~~~~~~~~~~~~~~~~~~~~~~
+サーボモーターとは？
+~~~~~~~~~~~~~~~~~~~~
 
-A servo motor is a special type of motor that is designed for precise
-motion. A typical servo motor has a limited range of motion.
+サーボモーターは、精密な動作のために設計された特殊なタイプのモーターです。典型的なサーボモーターには、限られた動作範囲があります。
 
-In the figure below, a "standard scale" 180-degree servo is shown. This
-type of servo is popular with hobbyists and with FIRST Tech Challenge
-teams. This servo motor can rotate its shaft through a range of 180
-degrees. Using an electronic module known as a servo controller you can
-write an op mode that will move a servo motor to a specific position.
-Once the motor reaches this target position, it will hold the position,
-even if external forces are applied to the shaft of the servo.
+下図には、「標準スケール」の 180 度サーボが示されています。このタイプのサーボは、ホビイストや *FIRST* Tech Challenge チームに人気があります。このサーボモーターは、そのシャフトを 180 度の範囲で回転させることができます。サーボコントローラーとして知られる電子モジュールを使用すると、サーボモーターを特定の位置に移動する **op mode** を作成できます。モーターがこの目標位置に到達すると、サーボのシャフトに外力が加えられても、その位置を保持します。
 
 .. image:: images/hs485hbServo.jpg
    :align: center

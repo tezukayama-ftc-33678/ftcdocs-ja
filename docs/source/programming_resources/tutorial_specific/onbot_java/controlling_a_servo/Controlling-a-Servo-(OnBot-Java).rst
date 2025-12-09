@@ -1,22 +1,14 @@
-Controlling a Servo :bdg-info:`OBJ`
-===================================
+サーボの制御 :bdg-info:`OBJ`
+============================
 
-In this section, you will modify your op mode to control a servo motor
-with the buttons of the gamepad.
+このセクションでは、ゲームパッドのボタンでサーボモーターを制御するように **op mode** を変更します。
 
-What is a Servo Motor?
-~~~~~~~~~~~~~~~~~~~~~~
+サーボモーターとは？
+~~~~~~~~~~~~~~~~~~~~
 
-A servo motor is a special type of motor. A servo motor is designed for
-precise motion. A typical servo motor has a limited range of motion.
+サーボモーターは特殊なタイプのモーターです。サーボモーターは精密な動作のために設計されています。典型的なサーボモーターには、限られた動作範囲があります。
 
-In the figure below, "standard scale" 180-degree servo is shown. This
-type of servo is popular with hobbyists and with FIRST Tech Challenge
-teams. This servo motor can rotate its shaft through a range of 180
-degrees. Using an electronic module known as a servo controller you can
-write an op mode that will move a servo motor to a specific position.
-Once the motor reaches this target position, it will hold the position,
-even if external forces are applied to the shaft of the servo.
+下図には、「標準スケール」の 180 度サーボが示されています。このタイプのサーボは、ホビイストや *FIRST* Tech Challenge チームに人気があります。このサーボモーターは、そのシャフトを 180 度の範囲で回転させることができます。サーボコントローラーとして知られる電子モジュールを使用すると、サーボモーターを特定の位置に移動する **op mode** を作成できます。モーターがこの目標位置に到達すると、サーボのシャフトに外力が加えられても、その位置を保持します。
 
 .. image:: images/hs485hbServo.jpg
    :align: center

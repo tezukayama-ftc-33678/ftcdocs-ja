@@ -1,28 +1,19 @@
-Using Sensors :bdg-warning:`Blocks`
-===================================
+センサーの使用 :bdg-warning:`Blocks`
+====================================
 
-Color-Distance Sensor
-~~~~~~~~~~~~~~~~~~~~~
+カラー距離センサー
+~~~~~~~~~~~~~~~~~~
 
-A sensor is a device that lets the Robot Controller get information
-about its environment. In this example, you will use a REV Robotics
-Color-Distance sensor to display range (distance from an object) info to
-the DRIVER STATION.
+センサーは、**Robot Controller** が環境に関する情報を取得できるようにするデバイスです。この例では、**REV Robotics** のカラー距離センサーを使用して、範囲（オブジェクトからの距離）情報を **DRIVER STATION** に表示します。
 
-The Color-Range sensor uses reflected light to determine the distance
-from the sensor to the target object. It can be used to measure close
-distances (up 5" or more) with reasonable accuracy. Note that at the
-time this document was most recently edited, the REV Color-Range sensor
-saturates around 2" (5cm). This means that for distances less than or
-equal to 2", the sensor returns a measured distance equal to 2" or so.
+カラー距離センサーは、反射光を使用して、センサーからターゲットオブジェクトまでの距離を判定します。これは、妥当な精度で近距離（5 インチ以上）を測定するために使用できます。このドキュメントが最近編集された時点では、**REV** カラー距離センサーは約 2 インチ（5cm）で飽和することに注意してください。これは、2 インチ以下の距離では、センサーが約 2 インチに等しい測定距離を返すことを意味します。
 
-Note that it will take an estimated 15 minutes to complete this task.
+このタスクを完了するには約 15 分かかる見込みです。
 
-Modifying the Op Mode to Display Distance Instructions
-------------------------------------------------------
+距離を表示するための Op Mode の変更手順
+---------------------------------------
 
-1. Verify that your laptop is still connected to the Robot            
-Controller's Program & Manage Wi-Fi network.                          
+1. ラップトップが **Robot Controller** の Program & Manage Wi-Fi ネットワークにまだ接続されていることを確認します。                          
 
 2. Verify that "MyFIRSTOpMode" is opened for editing. If it is not,   
 you can click on the FIRST logo in the upper left hand corner of the  

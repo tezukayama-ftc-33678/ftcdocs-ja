@@ -1,23 +1,14 @@
-Using Sensors :bdg-success:`AS`
-===============================
+センサーの使用 :bdg-success:`AS`
+=================================
 
-Color-Distance Sensor
-~~~~~~~~~~~~~~~~~~~~~
+カラー距離センサー
+~~~~~~~~~~~~~~~~~~
 
-A sensor is a device that lets the Robot Controller get information
-about its environment. In this example, you will use a REV Robotics
-Color-Distance sensor to display range (distance from an object) info to
-the driver station.
+センサーは、**Robot Controller** が環境に関する情報を取得できるようにするデバイスです。この例では、**REV Robotics** のカラー距離センサーを使用して、範囲（オブジェクトからの距離）情報を Driver Station に表示します。
 
-The Color-Range sensor uses reflected light to determine the distance
-from the sensor to the target object. It can be used to measure close
-distances (up 5" or more) with reasonable accuracy. Note that at the
-time this document was most recently edited, the REV Color-Range sensor
-saturates around 2" (5cm). This means that for distances less than or
-equal to 2", the sensor returns a measured distance equal to 2" or so.
+カラー距離センサーは、反射光を使用して、センサーからターゲットオブジェクトまでの距離を判定します。これは、妥当な精度で近距離（5 インチ以上）を測定するために使用できます。このドキュメントが最近編集された時点では、**REV** カラー距離センサーは約 2 インチ（5cm）で飽和することに注意してください。これは、2 インチ以下の距離では、センサーが約 2 インチに等しい測定距離を返すことを意味します。
 
-Modify your op mode to add a telemetry statement that will send the
-distance information (in centimeters) to the Driver Station.
+距離情報（センチメートル単位）を **Driver Station** に送信するテレメトリーステートメントを追加するように、**op mode** を変更します。
 
 .. code-block:: java
 

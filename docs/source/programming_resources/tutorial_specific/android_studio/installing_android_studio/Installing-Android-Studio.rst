@@ -1,24 +1,19 @@
-Installing Android Studio :bdg-success:`AS`
-===========================================
+Android Studio のインストール :bdg-success:`AS`
+================================================
 
-Android Developer Website
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Android Developer Web サイト
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Android Studio is distributed freely by Google, and the most up-to-date
-reference for installing and using the Android Studio software can be
-found on the Android developer website:
+**Android Studio** は Google によって無料で配布されており、**Android Studio** ソフトウェアのインストールと使用に関する最新のリファレンスは、Android developer Web サイトで見つけることができます：
 
 *  https://developer.android.com/studio
 
-Android Studio is available on the Windows, MacOS, and Linux operating
-systems.
+**Android Studio** は、Windows、MacOS、および Linux オペレーティングシステムで利用できます。
 
-System Requirements
-~~~~~~~~~~~~~~~~~~~
+システム要件
+~~~~~~~~~~~~
 
-Before you download and install the Android Studio you should first
-check the list of system requirements on the Android developer's website
-to verify that your system satisfies the list of minimum requirements:
+**Android Studio** をダウンロードしてインストールする前に、まず Android developer の Web サイトでシステム要件のリストを確認して、システムが最小要件のリストを満たしていることを確認する必要があります：
 
 *  `Windows <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#1>`__
 *  `MacOS <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#3>`__

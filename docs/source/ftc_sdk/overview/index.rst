@@ -1,31 +1,28 @@
 .. meta::
-   :title: FIRST Tech Challenge Software Development Kit
-   :description: A brief introduction to the FTC SDK
+   :title: FIRST Tech Challenge ソフトウェア開発キット
+   :description: FTC SDK の簡単な紹介
    :keywords: FTC Docs, FIRST Tech Challenge, FTC, RC, Robot Controller, DS, Driver Station
 
-*FIRST* Tech Challenge Software Development Kit
-===============================================
+*FIRST* Tech Challenge ソフトウェア開発キット
+=============================================
 
-The Software Development Kit (SDK) is the collection of tools for developing
-software and executing it on a *FIRST* Tech Challenge robot. SDK Software
-includes:
+ソフトウェア開発キット（SDK）は、*FIRST* Tech Challenge ロボット上でソフトウェアを開発および実行するためのツールのコレクションです。SDK ソフトウェアには以下が含まれます：
 
--  *FIRST* Tech Challenge Driver Station App 
+-  *FIRST* Tech Challenge **Driver Station** アプリ
 
-   *  Includes Self-Inspect, :doc:`Robot Configuration </hardware_and_software_configuration/configuring/index>`, and others
+   *  自己点検、:doc:`ロボット構成 </hardware_and_software_configuration/configuring/index>` など を含む
 
--  *FIRST* Tech Challenge Robot Controller App
+-  *FIRST* Tech Challenge **Robot Controller** アプリ
 
-   *  Includes :doc:`Blocks Programming Environment </programming_resources/blocks/Blocks-Tutorial>`
-   *  Includes :doc:`OnBot Java Programming Environment </programming_resources/onbot_java/OnBot-Java-Tutorial>`
+   *  :doc:`Blocks プログラミング環境 </programming_resources/blocks/Blocks-Tutorial>` を含む
+   *  :doc:`OnBot Java プログラミング環境 </programming_resources/onbot_java/OnBot-Java-Tutorial>` を含む
 
--  `Android Studio Project <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__  
-   for building the Robot Controller App with 
-   :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>`
--  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  Season-Specific Assets (TensorFlow models, Vuforia databases, etc...)
+-  `Android Studio プロジェクト <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__
+   :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>` で **Robot Controller** アプリをビルドするための
+-  `Javadoc リファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__
+-  シーズン固有のアセット（TensorFlow モデル、Vuforia データベースなど）
 
-All released apps/source can be found in the `SDK GitHub Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
+すべてのリリースされたアプリ/ソースは `SDK GitHub リポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ で見つけることができます。
 
 SDK Releases
 ------------

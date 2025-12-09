@@ -1,14 +1,10 @@
-Creating and Running an OpMode :bdg-success:`AS`
-=================================================
+OpMode の作成と実行 :bdg-success:`AS`
+======================================
 
-TeamCode Module
-~~~~~~~~~~~~~~~
+TeamCode モジュール
+~~~~~~~~~~~~~~~~~~~
 
-If you successfully imported the Android Studio project folder, you
-will see on the project browser an Android module named ``TeamCode``. The
-Android Studio project folder will be used to build a version of the
-Robot Controller app that includes the custom OpMode that you will
-write to control your competition robot.
+**Android Studio** プロジェクトフォルダーを正常にインポートした場合、プロジェクトブラウザーに ``TeamCode`` という名前の Android モジュールが表示されます。**Android Studio** プロジェクトフォルダーは、競技ロボットを制御するために作成するカスタム **OpMode** を含む **Robot Controller** アプリのバージョンをビルドするために使用されます。
 
 .. image:: images/teamcodeFolder.jpg
    :align: center
