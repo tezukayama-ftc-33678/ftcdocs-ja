@@ -118,12 +118,17 @@
 ##### 実績工数: 約2時間（予想: 8-10時間）
 ##### 注記: 3番目のファイルはリポジトリに存在しませんでした。該当する類似ファイルとして `controlling_a_servo` や `using_sensors` が存在しますが、これらは Phase 4.2 に含まれる可能性があります。
 
-#### Sub-Phase 4.2: Blocks プログラミング - センサーと機能（約5ファイル）
-- [ ] `docs/source/programming_resources/tutorial_specific/blocks/using_sensors/using_sensors.rst` - センサー利用
-- [ ] `docs/source/programming_resources/tutorial_specific/blocks/telemetry/telemetry.rst` - テレメトリ
-- [ ] `docs/source/programming_resources/tutorial_specific/blocks/applying_pid_control/applying_pid_control.rst` - PID制御
+#### Sub-Phase 4.2: Blocks プログラミング - センサーと機能（約5ファイル）✅ **完了**
+- [x] `docs/source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst` - **226行** センサー利用
+- [x] `docs/source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst` - **311行** サーボ制御
+- [x] `docs/source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst` - **147行** Op Mode管理
+- [x] `docs/source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst` - **115行** Op Mode実行
+- [x] `docs/source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst` - **58行** リファレンス資料
+- [ ] ⚠️ `docs/source/programming_resources/tutorial_specific/blocks/telemetry/telemetry.rst` - **ファイルが存在しません**（リポジトリに該当ファイルなし）
+- [ ] ⚠️ `docs/source/programming_resources/tutorial_specific/blocks/applying_pid_control/applying_pid_control.rst` - **ファイルが存在しません**（リポジトリに該当ファイルなし）
 
-##### 予想工数: 5-7時間
+##### 実績工数: 約2時間（予想: 5-7時間）
+##### 注記: ロードマップに記載されていたtelemetry.rstとapplying_pid_control.rstは存在しませんでした。代わりに、Blocksチュートリアルの実際のファイル5つを翻訳しました。
 
 #### Sub-Phase 4.3: OnBot Java - チュートリアル基礎（約8ファイル）
 - [ ] `docs/source/programming_resources/onbot_java/OnBot-Java-Tutorial.rst` - OnBot Java チュートリアル
@@ -407,6 +412,7 @@
 | 2025-12-08 | 1.3 | Phase 3 完了 - 36ファイル翻訳、制御システム・ハードウェア構成 |
 | 2025-12-09 | 2.0 | Phase 4-7を27サブフェーズに細分化、大規模ファイル対応の注意事項追加 |
 | 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
+| 2025-12-09 | 2.2 | Sub-Phase 4.2 完了 - Blocks センサーと機能（5ファイル翻訳、計857行） |
 
 ---
 
