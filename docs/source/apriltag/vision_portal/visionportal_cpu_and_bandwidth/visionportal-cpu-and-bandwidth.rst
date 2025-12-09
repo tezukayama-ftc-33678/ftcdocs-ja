@@ -1,201 +1,160 @@
-VisionPortal CPU and Bandwidth
+VisionPortal の CPU と帯域幅
 ==============================
 
-Introduction
+はじめに
 ------------
 
-Vision processing can consume significant **CPU resources** and USB
-communications **bandwidth**.  Reaching such limits may affect previews, and
-cause an OpMode or Robot Controller to slow down, or freeze, or crash.
+ビジョン処理は、重要な **CPU リソース** とUSB通信 **帯域幅** を消費する可能性があります。このような制限に達すると、プレビューに影響を与え、**OpMode** または **Robot Controller** が遅くなったり、フリーズしたり、クラッシュしたりする可能性があります。
 
-Teams can balance the benefits of higher resolution and speed
-(frames-per-second) against the risk of overloading CPU and bandwidth
-resources.
+チームは、より高い解像度と速度（フレーム毎秒）の利点と、CPUおよび帯域幅リソースの過負荷リスクとのバランスを取ることができます。
 
-The 8.2 SDK provides numerous tools to manage this balance:
+8.2 SDKは、このバランスを管理するための多数のツールを提供します：
 
-- disable and enable the RC preview (called LiveView) - "Level 1"
-- disable and enable the AprilTag (or TFOD) processor - "Level 2"
-- stop and resume the camera stream - "Level 3"
-- close VisionPortal - "Level 4"
-- monitor frames-per-second (FPS)
-- select a compressed video streaming format
-- select the camera resolution
-- set decimation (down-sampling)
-- select a pose solver algorithm
-- get all or only fresh detections from the AprilTag Processor
-- get all or only fresh recognitions from the TFOD Processor
+- RCプレビュー（**LiveView** と呼ばれる）を無効化および有効化 - 「レベル1」
+- **AprilTag**（またはTFOD）プロセッサを無効化および有効化 - 「レベル2」
+- カメラストリームを停止および再開 - 「レベル3」
+- **VisionPortal** を閉じる - 「レベル4」
+- フレーム毎秒（FPS）を監視
+- 圧縮ビデオストリーミング形式を選択
+- カメラの解像度を選択
+- デシメーション（ダウンサンプリング）を設定
+- 姿勢ソルバーアルゴリズムを選択
+- **AprilTag Processor** からすべてまたは新しい検出のみを取得
+- TFOD Processorからすべてまたは新しい認識のみを取得
 
-The first four actions are informally rated for benefit and response:
+最初の4つのアクションは、利点と応答について非公式に評価されています：
 
-- **LiveView** "Level 1": some reduction of resources used, resumes very quickly after stopping
-- **Processor(s)** "Level 2": more reduction of resources used, resumes quickly after stopping
-- **Camera Stream** "Level 3": high reduction of resources used, resumes less quickly after stopping
-- **VisionPortal** "Level 4": maximum reduction of resources used, do not resume after stopping
+- **LiveView** 「レベル1」：使用されるリソースの削減効果は一部、停止後の再開が非常に高速
+- **プロセッサ** 「レベル2」：使用されるリソースの削減効果がより大きい、停止後の再開が高速
+- **カメラストリーム** 「レベル3」：使用されるリソースの削減効果が高い、停止後の再開が比較的遅い
+- **VisionPortal** 「レベル4」：使用されるリソースの削減効果が最大、停止後は再開しない
 
-Camera Status
+カメラステータス
 -------------
 
-Before discussing the tools to manage vision processing resources, we should
-review again the available **camera states**.  This may help you monitor,
-evaluate and troubleshoot your optimization efforts.
+ビジョン処理リソースを管理するツールについて説明する前に、利用可能な**カメラ状態**を再確認する必要があります。これは、最適化の取り組みを監視、評価、トラブルシューティングするのに役立つ可能性があります。
 
-Repeated from the **Camera Controls** page, these camera states are now available:
+**Camera Controls** ページから繰り返しますが、これらのカメラ状態が現在利用可能です：
 
-- OPENING_CAMERA_DEVICE - No vision processing is happening.
-- CAMERA_DEVICE_READY - Camera is open.  No processing is happening, including
-  background processing from EOCV (i.e. pulling frames and performing color
-  conversion). Ready to call ``resumeStreaming()``.
-- STARTING_STREAM - No processing is happening.
-- STREAMING - Frames are available for processing (AprilTag and/or TFOD
-  recognitions) and preview (LiveView RC preview and DS Camera Stream).
-- STOPPING_STREAM - Processing may or may not be happening.  This status is
-  followed by ``CAMERA_DEVICE_READY``.
-- CLOSING_CAMERA_DEVICE - No processing is happening.
-- CAMERA_DEVICE_CLOSED - Nothing is running, USB comms are closed.  Once
-  closed, don't open camera again during this OpMode.
+- OPENING_CAMERA_DEVICE - ビジョン処理は行われていません。
+- CAMERA_DEVICE_READY - カメラが開いています。EOCV（フレームの取得と色変換の実行）からのバックグラウンド処理を含め、処理は行われていません。``resumeStreaming()`` を呼び出す準備ができています。
+- STARTING_STREAM - 処理は行われていません。
+- STREAMING - フレームが処理（**AprilTag** および/またはTFOD認識）およびプレビュー（**LiveView** RCプレビューおよびDS Camera Stream）に利用可能です。
+- STOPPING_STREAM - 処理が行われている場合と行われていない場合があります。このステータスの後に ``CAMERA_DEVICE_READY`` が続きます。
+- CLOSING_CAMERA_DEVICE - 処理は行われていません。
+- CAMERA_DEVICE_CLOSED - 何も実行されておらず、USB通信は閉じています。閉じた後は、この **OpMode** 中にカメラを再度開かないでください。
 - ERROR
 
-These **enums** are listed in sequence, as if opening a camera (fresh build),
-then starting or resuming streaming, then stopping streaming, then closing the
-VisionPortal.
+これらの **enum** は、カメラを開く（新規ビルド）、ストリーミングを開始または再開する、ストリーミングを停止する、**VisionPortal** を閉じる、という順序でリストされています。
 
-All of the above is completely separate from the AprilTag and/or TFOD processor
-status.  Those can be enabled or disabled at any time, but naturally require
-``STREAMING`` status to actually process camera images.
+上記のすべては、**AprilTag** および/またはTFODプロセッサのステータスとは完全に別です。これらはいつでも有効または無効にできますが、カメラ画像を実際に処理するには当然 ``STREAMING`` ステータスが必要です。
 
-About Previews
+プレビューについて
 --------------
 
-As noted at the **Previews** page, LiveView refers only to the **Robot
-Controller** preview.  It's completely separate from the Driver Station (DS)
-**Camera Stream**, which still operates normally even if LiveView is stopped
-(manually or automatically).
+**Previews** ページで述べたように、**LiveView** は **Robot Controller** プレビューのみを指します。これは **Driver Station** (DS) **Camera Stream** とは完全に別物で、**LiveView** が停止されていても（手動または自動で）通常通り動作します。
 
-DS Camera Stream uses its own frame collection process, which naturally still
-requires the camera/pipeline status to be ``STREAMING``.
+DS Camera Streamは独自のフレーム収集プロセスを使用しますが、これは当然カメラ/パイプラインのステータスが ``STREAMING`` である必要があります。
 
-Instructions for viewing DS Camera Stream are shown at 
-:ref:`ftc-docs <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`.
+DS Camera Streamを表示する手順は、
+:ref:`ftc-docs <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>`
+に示されています。
 
-DS Camera Stream can display only one camera's image, even under the new
-MultiPortal feature.  Teams can create specialty OpModes to see one camera's
-image or the other camera's image, if needed for match set-up.
+DS Camera Streamは、新しいMultiPortal機能の下でも、1台のカメラの画像のみを表示できます。チームは、マッチのセットアップに必要な場合、一方のカメラの画像または他方のカメラの画像を表示するための専用 **OpMode** を作成できます。
 
-Side Note: For SDK 8.2, "LiveView" became the new universal name for the RC
-preview. There remain two instances of old names:
+補足：SDK 8.2では、「LiveView」がRCプレビューの新しい統一名称になりました。古い名前の2つのインスタンスが残っています：
 
-- ``myVisionPortalBuilder.enableCameraMonitoring(true);``, discussed below
-- ``VIEWPORT`` appears in the preview status window, when stopped
+- ``myVisionPortalBuilder.enableCameraMonitoring(true);``（以下で説明）
+- 停止時にプレビューステータスウィンドウに ``VIEWPORT`` が表示される
 
-Pause LiveView - Direct
+LiveView の一時停止 - 直接
 -----------------------
 
-One way to conserve CPU resources ("Level 1") is **directly pausing** LiveView,
-while running an OpMode.  The CPU continues processing camera images for
-AprilTag and/or TFOD recognitions, but does not actually generate an RC preview
-image (video).  
+CPUリソースを節約する1つの方法（「レベル1」）は、**OpMode** の実行中に **LiveView** を**直接一時停止**することです。CPUは **AprilTag** および/またはTFOD認識のためにカメラ画像の処理を続けますが、実際にはRCプレビュー画像（ビデオ）を生成しません。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      These are found in the ``VisionPortal`` toolbox, or palette, under the
-      ``Vision`` category.
+      これらは ``Vision`` カテゴリの下にある ``VisionPortal`` ツールボックスまたはパレットにあります。
 
       .. figure:: images/050-Blocks-LiveView-toggle.png
          :width: 75%
          :align: center
          :alt: Toggle LiveView
 
-         Examples of Toggling LiveView
+         LiveView切り替えの例
 
    .. tab-item:: Java
       :sync: java
 
       .. code-block:: java
 
-         // Temporarily stop the live view (RC preview).
+         // ライブビュー（RCプレビュー）を一時的に停止します。
          myVisionPortal.stopLiveView();
 
-         // Start the live view (RC preview) again.
+         // ライブビュー（RCプレビュー）を再度開始します。
          myVisionPortal.resumeLiveView();  
 
-Your OpMode will **not** need to work with camera status **enums** here, since
-these "stop" and "resume" actions happen quickly.
+これらの「stop」と「resume」アクションは迅速に行われるため、**OpMode** はここでカメラステータスの **enum** を処理する必要は**ありません**。
 
-The above commands toggle only LiveView; the DS Camera Stream preview (touch to
-refresh) remains available.
+上記のコマンドは **LiveView** のみを切り替えます。DS Camera Streamプレビュー（タッチして更新）は引き続き利用可能です。
 
-Pause LiveView - Indirect
+LiveView の一時停止 - 間接
 -------------------------
 
-The SDK also offers an **indirect** control of LiveView, available in Blocks
-and Java:
+SDKは、**Blocks** とJavaで利用可能な **LiveView** の**間接的な**制御も提供します：
 
 .. code-block:: java
 
    builder.setAutoStopLiveView(true)
 
-This setting causes LiveView to stop **automatically** if both processors
-(AprilTag and TFOD) are disabled.  Being part of the Builder pattern, this
-feature cannot be directly toggled ``true`` and ``false`` during the OpMode.
+この設定により、両方のプロセッサ（**AprilTag** とTFOD）が無効化されている場合、**LiveView** が**自動的に**停止します。Builderパターンの一部であるため、この機能は **OpMode** 中に直接 ``true`` と ``false`` を切り替えることはできません。
 
-This setting is triggered when **both** processors are disabled.  When set to
-``false``, by default, the monitor continues showing the camera's view without
-annotations.  If set to ``true``, the monitor is Auto Paused, showing a solid
-orange screen if no processors are enabled.  Thus the preview **can**
-effectively be toggled off and on, using this AutoPause feature.
+この設定は、**両方の**プロセッサが無効化されたときにトリガーされます。デフォルトで ``false`` に設定されている場合、モニターは注釈なしでカメラのビューを表示し続けます。``true`` に設定されている場合、モニターは自動一時停止され、プロセッサが有効になっていない場合は単色のオレンジ色の画面が表示されます。したがって、このAutoPause機能を使用してプレビューを効果的にオン/オフ**できます**。
 
-When one or both processors are re-enabled, LiveView resumes.  This setting
-affects only LiveView; the Driver Station Camera Stream preview remains
-available.
+1つまたは両方のプロセッサが再有効化されると、**LiveView** が再開されます。この設定は **LiveView** のみに影響します。**Driver Station** Camera Streamプレビューは引き続き利用可能です。
 
-Disable LiveView
+LiveView を無効化
 ----------------
 
-The SDK also contains a different Builder setting that allows (or disallows)
-LiveView **in general**, available in Blocks and Java:
+SDKには、**Blocks** とJavaで利用可能な、**LiveView** を**一般的に**許可（または禁止）する別のBuilder設定も含まれています：
 
 .. code-block:: java
 
    builder.enableLiveView(true);
 
-Sample OpModes set this Builder field to ``true`` by default.
+サンプル **OpMode** は、デフォルトでこのBuilderフィールドを ``true`` に設定します。
 
-This could be set to ``false``, if the OpMode will not need the LiveView
-preview at all.  Being part of the Builder pattern, this feature cannot be
-directly toggled ``true`` and ``false`` during the OpMode.
+**OpMode** が **LiveView** プレビューをまったく必要としない場合、これを ``false`` に設定できます。Builderパターンの一部であるため、この機能は **OpMode** 中に直接 ``true`` と ``false`` を切り替えることはできません。
 
-Toggle Processors
+プロセッサの切り替え
 -----------------
 
-Another way to conserve CPU resources ("Level 2") is **disabling an AprilTag or
-TFOD Processor**, while running an OpMode.  
+CPUリソースを節約するもう1つの方法（「レベル2」）は、**OpMode** の実行中に **AprilTag またはTFOD Processor を無効化**することです。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      These are found in the ``VisionPortal`` toolbox, or palette, under the
-      ``Vision`` category.
+      これらは ``Vision`` カテゴリの下にある ``VisionPortal`` ツールボックスまたはパレットにあります。
 
       .. figure:: images/060-Blocks-Processor-toggle.png
          :width: 75%
          :align: center
          :alt: Toggle Processor
 
-         Examples of Toggling Processors
+         プロセッサ切り替えの例
 
    .. tab-item:: Java
       :sync: java
 
       .. code-block:: java
 
-         // Enable or disable the AprilTag processor.
+         // AprilTagプロセッサを有効または無効にします。
          myVisionPortal.setProcessorEnabled(myAprilTagProcessor, true);
 
-         // Enable or disable the TensorFlow Object Detection processor.
+         // TensorFlow Object Detectionプロセッサを有効または無効にします。
          myVisionPortal.setProcessorEnabled(myTfodProcessor, true);
 
 Disabling a Processor does not close LiveView, with its own controls described
@@ -204,258 +163,204 @@ above.  Any annotations will stop appearing in the preview.
 Disabling and re-enabling processors is very fast, and saves CPU resources.
 But EOCV frame pulling and color conversion continue running in the background.
 
-Toggle Camera Stream
+カメラストリームの切り替え
 --------------------
 
-A more active way to conserve CPU resources ("Level 3") is **stopping the
-camera stream**, while running an OpMode.  Naturally this also achieves Levels
-1 and 2: stopping LiveView and preventing operation of the AprilTag and TFOD
-Processors. DS Camera Stream provides no new snapshots.
+CPUリソースを節約するより積極的な方法（「レベル3」）は、**OpMode** の実行中に**カメラストリームを停止**することです。これは当然、レベル1と2も達成します：**LiveView** を停止し、**AprilTag** およびTFOD Processorの動作を防ぎます。DS Camera Streamは新しいスナップショットを提供しません。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      These are found in the ``VisionPortal`` toolbox, or palette, under the
-      ``Vision`` category.
+      これらは ``Vision`` カテゴリの下にある ``VisionPortal`` ツールボックスまたはパレットにあります。
 
       .. figure:: images/080-Blocks-Streaming-toggle.png
          :width: 75%
          :align: center
          :alt: Toggle Camera Stream
 
-         Examples of Toggling Camera Stream
+         カメラストリーム切り替えの例
 
    .. tab-item:: Java
       :sync: java
 
       .. code-block:: java
 
-         // Temporarily stop the streaming session. This can save CPU
-         // resources, with the ability to resume quickly when needed.
+         // ストリーミングセッションを一時的に停止します。これによりCPU
+         // リソースを節約でき、必要に応じて迅速に再開できます。
          myVisionPortal.stopStreaming();
 
-         // Resume the streaming session if previously stopped.
+         // 以前に停止した場合、ストリーミングセッションを再開します。
          myVisionPortal.resumeStreaming();
 
-Stopping (and later resuming) the stream is slightly risky, can take about 1
-second, and stops all background processing.  This is what happens when
-switching cameras, in the Sample OpModes called ``SwitchableCameras``.  One
-stream stops, and the other stream starts.
+ストリームの停止（および後での再開）は若干リスクがあり、約1秒かかる可能性があり、すべてのバックグラウンド処理を停止します。これは、``SwitchableCameras`` と呼ばれるサンプル **OpMode** でカメラを切り替えるときに発生することです。1つのストリームが停止し、もう1つのストリームが開始します。
 
-Close VisionPortal
+VisionPortal を閉じる
 ------------------
 
-Closing the portal with ``close()`` stops all background processing permanently ("Level 4"), and closes USB communication with the camera.  
+``close()`` でポータルを閉じると、すべてのバックグラウンド処理が永続的に停止し（「レベル4」）、カメラとのUSB通信が閉じられます。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      These are found in the ``VisionPortal`` toolbox, or palette, under the
-      ``Vision`` category.
+      これらは ``Vision`` カテゴリの下にある ``VisionPortal`` ツールボックスまたはパレットにあります。
 
       .. figure:: images/100-Blocks-close-VisionPortal.png
          :width: 75%
          :align: center
          :alt: Close VisionPortal
 
-         Close VisionPortal Example
+         VisionPortalを閉じる例
 
    .. tab-item:: Java
       :sync: java
 
       .. code-block:: java
 
-         // Save computing resources by closing VisionPortal at any time, if no
-         // longer needed.  
+         // 不要になった場合、いつでもVisionPortalを閉じてコンピューティングリソースを
+         // 節約します。
          myVisionPortal.close();
 
-The ``close()`` process is a "teardown" of all camera processing.  It is not
-recommended to "re-open" the camera within the same OpMode, by building another
-VisionPortal.  This is risky and might take several seconds.
+``close()`` プロセスは、すべてのカメラ処理の「破棄」です。同じ **OpMode** 内で別の **VisionPortal** をビルドしてカメラを「再オープン」することは推奨されません。これはリスクがあり、数秒かかる可能性があります。
 
-Accordingly, the SDK offers no corresponding ``reopen()`` or ``resume()``
-method.
+したがって、SDKは対応する ``reopen()`` または ``resume()`` メソッドを提供していません。
 
-The ``close()`` process happens automatically at the end of any OpMode.  
+``close()`` プロセスは、任意の **OpMode** の最後に自動的に行われます。
 
-Calling ``stopStreaming()`` before calling ``close()`` is allowed (for
-clarity), but not required, since ``close()`` internally calls
-``stopStreaming()`` if applicable.
+``close()`` を呼び出す前に ``stopStreaming()`` を呼び出すことは（明確にするために）許可されていますが、必須ではありません。``close()`` は該当する場合、内部的に ``stopStreaming()`` を呼び出すためです。
 
-Rapid Toggling
+高速切り替え
 --------------
 
-Your OpMode (or manual testing) should avoid or handle rapid stacking of the
-"on" and "off" actions described above.
+**OpMode**（または手動テスト）は、上記で説明した「オン」と「オフ」のアクションを高速で積み重ねることを避けるか、処理する必要があります。
 
-It's legal to call ``resumeStreaming()`` while the status is ``STOPPING_STREAM``.
-But the program will be **blocked** until the stopping operation is done.
+ステータスが ``STOPPING_STREAM`` の間に ``resumeStreaming()`` を呼び出すことは合法です。ただし、停止操作が完了するまでプログラムは**ブロック**されます。
 
-**Blocking** means the latest function doesn't return immediately.  So the code
-is temporarily "stuck" there, as if executing a ``sleep()`` command.
+**ブロッキング**とは、最新の関数がすぐに戻らないことを意味します。したがって、コードは ``sleep()`` コマンドを実行しているかのように、一時的にそこで「スタック」します。
 
-The same applies if calling ``stopStreaming()`` while the status is
-``STARTING_STREAM``.  It's allowed, but your code may have to wait.
+ステータスが ``STARTING_STREAM`` の間に ``stopStreaming()`` を呼び出す場合も同様です。これは許可されていますが、コードは待機する必要があるかもしれません。
 
-To avoid blocking, it's best to check the relevant **status enum** to make sure
-the previous operation is complete.  This can be done with an empty ``while()``
-loop, in a linear OpMode.
+ブロッキングを避けるには、前の操作が完了していることを確認するために、関連する**ステータス enum** をチェックするのが最善です。これは、線形 **OpMode** で空の ``while()`` ループを使用して行うことができます。
 
-CPU Management Choices
+CPU管理の選択肢
 ----------------------
 
-So far, there are **10 possible configurations** to evaluate CPU performance,
-using only the vision process controls discussed above:
+これまでのところ、上記で説明したビジョンプロセス制御のみを使用して、CPUパフォーマンスを評価するための**10の可能な構成**があります：
 
-- VisionPortal closed
-- VisionPortal open, Streaming off
+- **VisionPortal** が閉じている
+- **VisionPortal** が開いている、ストリーミングオフ
 
-Then 4 with Streaming on, Preview off:
+次に、ストリーミングオン、プレビューオフで4つ：
 
-- only AprilTag processor enabled
-- only TFOD processor enabled
-- both enabled
-- both disabled
+- **AprilTag** プロセッサのみが有効
+- TFODプロセッサのみが有効
+- 両方が有効
+- 両方が無効
 
-Then 4 with Streaming on, Preview on:
+次に、ストリーミングオン、プレビューオンで4つ：
 
-- only AprilTag processor enabled
-- only TFOD processor enabled
-- both enabled
-- both disabled
+- **AprilTag** プロセッサのみが有効
+- TFODプロセッサのみが有効
+- 両方が有効
+- 両方が無効
 
-This gives Teams ample opportunity to evaluate and manage CPU performance
-and USB Bandwidth.  Many other tools remain:
+これにより、チームにはCPUパフォーマンスとUSB帯域幅を評価および管理する十分な機会が与えられます。他にも多くのツールが残っています：
 
-- monitor frames-per-second (FPS)
-- select a compressed video streaming format
-- select the camera resolution
-- set decimation (down-sampling)
-- select a pose solver algorithm
-- get all or only fresh detections from the AprilTag Processor
-- get all or only fresh recognitions from the TFOD Processor
+- フレーム毎秒（FPS）を監視
+- 圧縮ビデオストリーミング形式を選択
+- カメラの解像度を選択
+- デシメーション（ダウンサンプリング）を設定
+- 姿勢ソルバーアルゴリズムを選択
+- **AprilTag Processor** からすべてまたは新しい検出のみを取得
+- TFOD Processorからすべてまたは新しい認識のみを取得
 
-Frame Rate
+フレームレート
 ----------
 
-The VisionPortal **automatically optimizes** for maximum frame rate, the number
-of processed frames per second (FPS).  Presuming this optimization is based on
-**CPU resources**, measuring effects on **frame rate** could indirectly reflect
-CPU resource status/consumption/capacity.
+**VisionPortal** は最大フレームレート、つまり1秒あたりの処理フレーム数（FPS）を**自動的に最適化**します。この最適化が **CPUリソース** に基づいていると仮定すると、**フレームレート**への影響を測定することで、CPUリソースのステータス/消費量/容量を間接的に反映できる可能性があります。
 
-Frame rate is reported visually in the LiveView status window.  It's also
-available for your OpMode to track, record and evaluate, in Blocks and Java:
+フレームレートは、**LiveView** ステータスウィンドウで視覚的に報告されます。また、**Blocks** とJavaで **OpMode** が追跡、記録、評価するためにも利用可能です：
 
 .. code-block:: java
 
    float myFPS = myVisionPortal.getFps();
 
-Teams can collect FPS data to illustrate the general effects of, for
-example, (a) resolution and (b) processors running, on CPU performance.
-Results will depend on many team-specific factors such as webcams, codebase
-(other processing), vision targets (number, type, distance), etc.
+チームはFPSデータを収集して、たとえば（a）解像度と（b）実行中のプロセッサがCPUパフォーマンスに与える一般的な影響を示すことができます。結果は、ウェブカメラ、コードベース（その他の処理）、ビジョンターゲット（数、タイプ、距離）など、多くのチーム固有の要因に依存します。
 
-Learn more about such studies at this `Datalogging tutorial
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Datalogging>`__.
+このような研究の詳細については、この `Dataloggingチュートリアル
+<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Datalogging>`__ をご覧ください。
 
-Dual Webcams
+デュアルウェブカメラ
 ------------
 
-Before discussing Streaming Formats, we should mention that **USB Bandwidth**
-can be a concern for **dual webcams**.
+ストリーミング形式について説明する前に、**USB帯域幅**が**デュアルウェブカメラ**にとって懸念事項になる可能性があることに言及する必要があります。
 
 .. note::
-   Internal phone cameras have an independent high-speed interconnect (not
-   USB), unaffected by an added USB webcam.
+   内部phone camerasは独立した高速相互接続（USBではない）を持っており、追加されたUSBウェブカメラの影響を受けません。
 
-The two webcams do *not* need to use the same format or resolution.
+2つのウェブカメラは、同じ形式または解像度を使用する必要は*ありません*。
 
-For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and USB
-3.0 ports are on different buses.  This reduces the concern about bandwidth
-capacity, although higher resolution can cause the auto-optimized frame rate to
-reduce.
+**Control Hub に直接接続された**デュアルウェブカメラの場合、USB 2.0およびUSB 3.0ポートは異なるバス上にあります。これにより、帯域幅容量に関する懸念は軽減されますが、より高い解像度により自動最適化されたフレームレートが低下する可能性があります。
 
-Using the Control Hub's two USB ports, the choice of stream format has little
-impact.  But the USB 2.0 bus also carries the Control Hub's **WiFi radio**;
-adding a webcam may affect its reliability.
+**Control Hub** の2つのUSBポートを使用する場合、ストリーム形式の選択はほとんど影響しません。ただし、USB 2.0バスは **Control Hub** の **WiFiラジオ**も伝送します。ウェブカメラを追加すると、その信頼性に影響を与える可能性があります。
 
-On the other hand, both webcams on an **external USB Hub** (plugged into the CH
-3.0 port) can reach **bandwidth limits**, causing preview failures and OpMode
-crashes.  This can be managed by factors discussed already, and by the choice
-of **streaming format**.
+一方、**外部USBハブ**（CH 3.0ポートに接続）上の両方のウェブカメラは**帯域幅制限**に達する可能性があり、プレビューの失敗や **OpMode** のクラッシュを引き起こします。これは、すでに説明した要因と、**ストリーミング形式**の選択によって管理できます。
 
-Streaming Formats
+ストリーミング形式
 -----------------
 
-Under the legacy **YUY2 format**, one webcam or the other (on a shared hub) may
-stop streaming above roughly 640x360 resolution.  This is **below the default**
-resolution of 640x480.
+レガシーの **YUY2形式**では、（共有ハブ上の）一方または他方のウェブカメラが、約640x360解像度を超えるとストリーミングを停止する可能性があります。これは640x480の**デフォルト解像度を下回っています**。
 
-Bandwidth problems are often indicated by **no detections**, and a blue screen
-in LiveView.  A team using default resolutions may quickly conclude
-(incorrectly) that dual webcams **does not work**.
+帯域幅の問題は、**検出なし**と **LiveView** の青い画面によって示されることがよくあります。デフォルトの解像度を使用しているチームは、デュアルウェブカメラが**機能しない**と（誤って）素早く結論付ける可能性があります。
 
-The SDK now offers a compressed **MJPEG format**.  This can significantly
-reduce USB bandwidth issues, but must be evaluated also for speed and quality
-of recognitions.
+SDKは現在、圧縮された **MJPEG形式**を提供しています。これにより、USB帯域幅の問題を大幅に軽減できますが、認識の速度と品質についても評価する必要があります。
 
-Under the MJPEG format, resolutions under roughly 432x240 may degrade the image
-to prevent AprilTag detection on at least 1 webcam, while higher resolutions
-may occasionally stop the RC app or crash the Control Hub.
+MJPEG形式では、約432x240未満の解像度では、少なくとも1つのウェブカメラで **AprilTag** 検出を防ぐために画像が劣化する可能性があります。一方、より高い解像度では、時々RCアプリが停止したり、**Control Hub** がクラッシュしたりする可能性があります。
 
-For both formats, higher resolution can reduce frame rate.
+両方の形式で、より高い解像度はフレームレートを低下させる可能性があります。
 
-These factors offer much opportunity for experimentation and Datalogging, to
-help optimize your VisionPortal performance.
+これらの要因は、**VisionPortal** パフォーマンスを最適化するための実験とDataloggingの多くの機会を提供します。
 
-Camera Resolution
+カメラ解像度
 -----------------
 
-Some teams believe "higher resolution is better", when purchasing webcams and
-specifying resolution for AprilTag and TFOD use.
+一部のチームは、ウェブカメラを購入し、**AprilTag** とTFODの使用のために解像度を指定する際に、「より高い解像度がより良い」と信じています。
 
-As indicated in the previous sections here, it's more useful to consider a
-"suitable resolution" that satisfies multiple goals and challenges:
+ここの前のセクションで示されているように、複数の目標と課題を満たす「適切な解像度」を検討する方がより有用です：
 
-- quick and reliable AprilTag detections
-- quick and reliable TFOD recognitions, including object tracking
-- accurate AprilTag pose estimates
-- smooth, accurate navigation while driving (higher FPS)
-- avoid CPU overload
-- avoid USB bandwidth limits
-- resolution (or aspect ratio) for which calibration values exist
-- accommodates lighting conditions and any Camera Controls applied
+- 迅速で信頼性の高い **AprilTag** 検出
+- オブジェクト追跡を含む、迅速で信頼性の高いTFOD認識
+- 正確な **AprilTag** 姿勢推定
+- 運転中のスムーズで正確なナビゲーション（高FPS）
+- CPU過負荷を回避
+- USB帯域幅制限を回避
+- キャリブレーション値が存在する解像度（またはアスペクト比）
+- 照明条件と適用されるCamera Controlsに対応
 
-You might end up preferring the **lowest resolution** that meets your needs.
+最終的に、ニーズを満たす**最低解像度**を好むかもしれません。
 
-It's easy to find out which resolutions are supported by your camera. Just try
-to run any VisionPortal OpMode with an **incorrect (fake) resolution**; the error
-message will tell you the supported resolutions. Write these down for future
-reference.
+カメラがサポートする解像度を見つけるのは簡単です。**誤った（偽の）解像度**で任意の **VisionPortal** **OpMode** を実行してみてください。エラーメッセージがサポートされている解像度を教えてくれます。将来の参照のためにこれらを書き留めてください。
 
-Other Tools
+その他のツール
 -----------
 
-This topic continues at the **AprilTag Advanced Use** page, to discuss advanced
-tools for managing CPU usage. It includes a Test OpMode in Blocks and Java.
+このトピックは、CPU使用量を管理するための高度なツールについて説明する **AprilTag Advanced Use** ページで続きます。**Blocks** とJavaでテスト **OpMode** が含まれています。
 
-For now, these are left for interested users to research and investigate:
+今のところ、興味のあるユーザーが調査および研究するために、以下が残されています：
 
-- set decimation (down-sampling)
-- select a pose solver algorithm
-- get all or only fresh detections from the AprilTag Processor
-- get all or only fresh recognitions from the TFOD Processor
+- デシメーション（ダウンサンプリング）を設定
+- 姿勢ソルバーアルゴリズムを選択
+- **AprilTag Processor** からすべてまたは新しい検出のみを取得
+- TFOD Processorからすべてまたは新しい認識のみを取得
 
-All of the above features are easily found in the **FTC Blocks** toolboxes, or
-palettes, under Vision category.
+上記のすべての機能は、Visionカテゴリの下にある **FTC Blocks** ツールボックスまたはパレットで簡単に見つけることができます。
 
-**Java** users should review the VisionPortal interface at the SDK
+**Java** ユーザーは、SDK
 `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/overview-summary.html>`__
-site.  Click **FRAMES** for easy navigation.
+サイトで **VisionPortal** インターフェースを確認する必要があります。簡単なナビゲーションのために **FRAMES** をクリックしてください。
 
 ====
 
-*Questions, comments and corrections to westsiderobotics@verizon.net*
+*質問、コメント、修正は westsiderobotics@verizon.net まで*
 
