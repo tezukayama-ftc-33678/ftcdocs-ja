@@ -1,52 +1,52 @@
-Updating the Driver Station App
+Driver Stationアプリの更新
 ===============================
 
-The Driver Station App is one of the Apps provided with the *FIRST* Tech
-Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`.  The Driver
-Station App is the major interface for robot configuration, gamepad support, 
-self-inspect, Team code selection and execution, and others. This app runs
-on the REV Driver Hub or an approved Android smartphone.
+**Driver Station App** は、**FIRST Tech
+Challenge** :doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` で提供されるアプリの1つです。Driver
+Stationアプリは、ロボット構成、ゲームパッドのサポート、 
+セルフインスペクト、チームコードの選択と実行などの主要なインターフェースです。このアプリは
+REV Driver Hubまたは承認されたAndroidスマートフォンで実行されます。
 
-This page shows how to update the Driver Station (DS) app on these
-devices:
+このページでは、以下のデバイスで**Driver Station**（**DS**）アプリを更新する方法を示します：
+
 
 -  REV Driver Hub
--  An approved Android DS phone
+-  承認されたAndroid DSスマートフォン
 
-These methods for updating the Driver Station App are the same regardless
-of the programming language/environment used to program robot Team Code.
+Driver Stationアプリを更新するこれらの方法は、
+ロボットチームコードのプログラミングに使用されるプログラミング言語/環境に関係なく同じです。
 
-.. dropdown:: Updating Driver Station (DS) app on REV Driver Hub
+.. dropdown:: REV Driver Hub上のDriver Station（DS）アプリの更新
 
-   Here are 3 methods to update the DS app on a REV Driver Hub: 
+   REV Driver Hub上のDSアプリを更新する3つの方法があります： 
 
-   #. REV Hardware Client (RHC) 
+   #. REV Hardware Client（RHC） 
    #. "Side loading” with APK 
-   #. Software Manager on REV Driver Hub
+   #. REV Driver Hub上のソフトウェアマネージャー
 
-   .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
+   .. dropdown:: 方法1 - REV Hardware Client（RHC） - Windowsコンピューターのみ
 
-      Plug the REV Driver Hub directly into the Windows computer with RHC
+      REV Driver HubをRHCがインストールされて開いているWindowsコンピューターにUSB-Cデータケーブルを使用して直接接続します。
       installed and open. Use a USB-C data cable. Make sure the “Hardware” tab
-      is active, at top left. The DS app on the Driver Hub does **not** need
-      to be open.
+      Driver Hub上のDSアプリを開く必要は **ありません**。
+      
 
-      Here the computer does not need to be connected to the internet, since
-      :doc:`in Updating the REV Hardware Client 
+      ここでは、コンピューターをインターネットに接続する必要はありません。
+      :doc:`REV Hardware Clientの更新 
       </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
-      the required DS update file was previously downloaded.
+      で必要なDS更新ファイルが事前にダウンロードされているためです。
 
-      The RHC app will recognize the Driver Hub, as shown here:
+      RHCアプリは、ここに示すようにDriver Hubを認識します：
 
       .. figure:: images/070-RHC-recognize-DH.png
-         :alt: Recognizing the Driver Hub
+         :alt: Driver Hubの認識
          :width: 80%
          :align: center
 
-         Recognizing the Driver Hub
+         Driver Hubの認識
 
       Once recognized, click on the Driver Hub’s large icon/rectangle. The RHC app now displays
-      the update status of the DS app, if any.
+      
 
       .. figure:: images/075-RHC-update-DH.png
          :alt: Updating the Driver Hub
@@ -169,17 +169,17 @@ of the programming language/environment used to program robot Team Code.
    1. REV Hardware Client (RHC)
    2. “Side loading” with APK
 
-   .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
+   .. dropdown:: 方法1 - REV Hardware Client（RHC） - Windowsコンピューターのみ
 
       Plug the DS phone directly into the computer with RHC installed and
       open. Use a USB data cable, not a charge-only cable. Make sure the
       “Hardware” tab is active, at top left. The DS app on the phone does
-      **not** need to be open.
+      **not** need 
 
-      Here the computer does not need to be connected to the internet, since
-      :doc:`in Updating the REV Hardware Client 
+      ここでは、コンピューターをインターネットに接続する必要はありません。
+      :doc:`REV Hardware Clientの更新 
       </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
-      the required DS update file was previously downloaded.
+      で必要なDS更新ファイルが事前にダウンロードされているためです。
 
       The RHC app will recognize the phone, as shown here:
 
@@ -198,7 +198,7 @@ of the programming language/environment used to program robot Team Code.
       devices.
 
       Once recognized, click on that phone’s large icon/rectangle. The RHC app
-      now displays the update status of the DS app, if any.
+      now displays 
 
       .. figure:: images/040-RHC-update-DS-phone.png
          :alt: Update Status of Phone
