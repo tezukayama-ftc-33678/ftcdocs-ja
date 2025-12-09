@@ -110,12 +110,13 @@
 > - ファイルの最後まで翻訳されているか必ず確認してください
 > - 翻訳が途中で終わっている場合は、残りの部分を続けて翻訳してください
 
-#### Sub-Phase 4.1: Blocks プログラミング - チュートリアル基礎（約8ファイル）
-- [ ] `docs/source/programming_resources/blocks/Blocks-Tutorial.rst` - Blocks チュートリアル
-- [ ] `docs/source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst` - **大規模ファイル（約511行）** Op Mode作成
-- [ ] `docs/source/programming_resources/tutorial_specific/blocks/writing_an_op_mode_controller/writing_an_op_mode_controller.rst` - コントローラー制御
+#### Sub-Phase 4.1: Blocks プログラミング - チュートリアル基礎（約8ファイル）✅ **完了**
+- [x] `docs/source/programming_resources/blocks/Blocks-Tutorial.rst` - Blocks チュートリアル
+- [x] `docs/source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst` - **大規模ファイル（約511行）** Op Mode作成
+- [ ] ⚠️ `docs/source/programming_resources/tutorial_specific/blocks/writing_an_op_mode_controller/writing_an_op_mode_controller.rst` - **ファイルが存在しません**（リポジトリに該当ファイルなし）
 
-##### 予想工数: 8-10時間
+##### 実績工数: 約2時間（予想: 8-10時間）
+##### 注記: 3番目のファイルはリポジトリに存在しませんでした。該当する類似ファイルとして `controlling_a_servo` や `using_sensors` が存在しますが、これらは Phase 4.2 に含まれる可能性があります。
 
 #### Sub-Phase 4.2: Blocks プログラミング - センサーと機能（約5ファイル）
 - [ ] `docs/source/programming_resources/tutorial_specific/blocks/using_sensors/using_sensors.rst` - センサー利用
@@ -405,6 +406,7 @@
 | 2025-12-08 | 1.2 | Phase 2 完了 - 30ファイル翻訳、ペルソナページ・FAQ・貢献ガイド |
 | 2025-12-08 | 1.3 | Phase 3 完了 - 36ファイル翻訳、制御システム・ハードウェア構成 |
 | 2025-12-09 | 2.0 | Phase 4-7を27サブフェーズに細分化、大規模ファイル対応の注意事項追加 |
+| 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
 
 ---
 
