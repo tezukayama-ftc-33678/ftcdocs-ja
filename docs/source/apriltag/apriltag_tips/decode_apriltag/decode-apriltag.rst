@@ -1,54 +1,31 @@
-AprilTag Challenges in DECODE presented by RTX
+RTX 提供の DECODE における AprilTag の課題
 ==============================================
 
-What are AprilTags?
--------------------
+AprilTag とは何ですか？
+-----------------------
 
-Developed at the `University of Michigan
-<https://april.eecs.umich.edu/software/apriltag>`_, AprilTags are similar to a
-2D barcode or a simplified QR Code. It contains a numeric **ID code** and can
-be used for **location and orientation**.
+`ミシガン大学
+<https://april.eecs.umich.edu/software/apriltag>`_ で開発された AprilTag は、2D バーコードや簡略化された QR コードに似ています。数値の **ID コード**を含み、**位置と向き**に使用できます。
 
-In *FIRST* Tech Challenge during the DECODE presented by RTX season, AprilTags
-are used in three different ways:
+RTX 提供の DECODE シーズン中の **FIRST** Tech Challenge では、AprilTag は 3 つの異なる方法で使用されます：
 
-1. On the OBELISK, the AprilTags are used to identify one of three MOTIFS that
-   are randomized each MATCH.
-2. On the GOALS, AprilTags can be used to target the GOAL for teams to launch
-   ARTIFACTS accurately into the correct GOAL.
-3. On the GOALS, AprilTags can be used as a visual odometry system, using the
-   information that AprilTags can provide to calculate the position of the 
-   ROBOT on the FIELD (through a process called localization). See the 
-   :doc:`AprilTag Localization <../../vision_portal/apriltag_localization/apriltag-localization>`
-   page for more information.
+1. OBELISK では、AprilTag は各 MATCH でランダム化される 3 つの MOTIF のうちの 1 つを識別するために使用されます。
+2. GOAL では、AprilTag を使用して、チームが ARTIFACT を正確に正しい GOAL に発射するためのターゲットにすることができます。
+3. GOAL では、AprilTag をビジュアルオドメトリシステムとして使用でき、AprilTag が提供できる情報を使用して、FIELD 上の ROBOT の位置を計算します（ローカライゼーションと呼ばれるプロセスを通じて）。詳細については、:doc:`AprilTag Localization <../../vision_portal/apriltag_localization/apriltag-localization>` ページを参照してください。
 
 .. figure:: images/decode-apriltags.png
    :width: 50%
    :align: center
    :alt: Image showing the DECODE field and AprilTag locations
 
-   AprilTag IDs and Locations on the DECODE field.
+   DECODE フィールド上の AprilTag ID と位置。
 
-AprilTags with Difficult Environmental Lighting
------------------------------------------------
+困難な環境照明での AprilTag
+------------------------------
 
-One of the challenges teams will face this season is ensuring that their cameras
-are able to see the AprilTags correctly. AprilTags rely on the fact that the 
-white and black portions of the AprilTags are contrasting colors - if the lighting
-in the environment doesn't allow for enough contrast, the AprilTag algorithm
-may not properly detect the AprilTag. Fortunately, there are things we can do 
-with virtually every webcam that can help correct for environmental issues.
+今シーズンにチームが直面する課題の 1 つは、カメラが AprilTag を正しく認識できるようにすることです。AprilTag は、AprilTag の白と黒の部分が対照的な色であるという事実に依存しています - 環境の照明が十分なコントラストを許可しない場合、AprilTag アルゴリズムは AprilTag を適切に検出できない可能性があります。幸いなことに、ほぼすべてのウェブカメラで環境の問題を修正するのに役立つことができます。
 
-An excellent example situation came up in a warehouse. The DECODE field was set
-up in the warehouse, and using default settings with the
-``ConceptAprilTagEasy`` sample.  When viewing the camera stream preview, the
-AprilTag on the OBELISK was completely washed out by sunlight striking the
-OBELISK directly on a sunny day, making the AprilTag unable to be seen. A
-different camera at a slightly different angle took another picture of the same
-scene, and the AprilTag can be seen but there is definitely too much direct light
-reflecting off the AprilTag, making it unable to be recognized. This scenario is
-very similar to a gymnasium where an event could be hosted, and on a sunny day
-light can interfere with a camera's ability to view an AprilTag. What can be done?
+倉庫で優れた例の状況が発生しました。DECODE フィールドが倉庫に設置され、``ConceptAprilTagEasy`` サンプルでデフォルト設定を使用していました。カメラストリームプレビューを表示すると、晴れた日に太陽光が OBELISK に直接当たることで、OBELISK 上の AprilTag が完全に白飛びし、AprilTag が見えなくなりました。わずかに異なる角度にある別のカメラが同じシーンの別の写真を撮影し、AprilTag は見えますが、AprilTag から反射する直接光が明らかに多すぎて、認識できませんでした。このシナリオは、イベントが開催される可能性のある体育館と非常に似ており、晴れた日には光がカメラの AprilTag を表示する能力を妨げる可能性があります。何ができるでしょうか？
 
 .. only:: html
 
