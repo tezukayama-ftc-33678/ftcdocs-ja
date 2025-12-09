@@ -1,15 +1,12 @@
-Understanding AprilTag Detection Values
-=======================================
+AprilTag 検出値の理解
+======================
 
-*Last Updated: 7/05/2023*
+*最終更新日: 2023年7月5日*
 
-Introduction
-------------
+はじめに
+--------
 
-When an AprilTag is detected by the new SDK vision processing system, the core
-code returns a collection of raw data that is often not easily interpreted.
-However, the data can be further transformed into a familiar frame of reference
-to make it more easily utilized.
+新しい SDK ビジョン処理システムによって AprilTag が検出されると、コアコードは、しばしば簡単には解釈できない生データのコレクションを返します。ただし、データはより使いやすくするために、馴染みのある参照フレームにさらに変換できます。
 
 In the *FIRST* Tech Challenge SDK, the AprilTag API will present the Team
 OpMode with a collection of translation and rotation values, called *ftcPose*,
@@ -19,65 +16,51 @@ To understand how to interpret these values, it’s easier to consider a simpler
 2D scenario where the vertical component is ignored. This is what is described
 below.
 
-**Figure 1** below represents one possible 2D scenario.
+以下の**図 1** は、考えられる 2D シナリオの 1 つを表しています。
 
 .. figure:: images/figure1.jpg
    :width: 40%
    :alt: Figure 1
    :align: center
 
-   Figure 1: Top view of AprilTag scenario
+   図 1: AprilTag シナリオの上面図
 
 This diagram looks down on the Camera and AprilTag from above. The camera’s
 “forward” direction is identified by a dashed line drawn straight out from the
 camera.
 
-The AprilTag image is shown in the upper left of the figure. The tag is located
-100 units forward of the camera and 36.4 units to the left (measured at right
-angles to the forward view).
+AprilTag 画像は図の左上に示されています。タグはカメラの前方 100 単位、左側 36.4 単位の位置にあります（前方視野に対して直角に測定）。
 
 The AprilTag is also rotated 5 degrees counterclockwise from a normal “face on”
 orientation.
 
-Now that we have a clear understanding of one possible detection scenario, we
-can look at the meaning of the various values returned as *ftcPose* by the SDK.
+考えられる検出シナリオの 1 つを明確に理解したので、SDK によって *ftcPose* として返されるさまざまな値の意味を見てみましょう。
 
-**Figure 2** shows the measured values associated with the camera/target
-scenario shown in Figure 1.
+**図 2** は、図 1 に示されているカメラ/ターゲットシナリオに関連する測定値を示しています。
 
 .. figure:: images/figure2.jpg
    :width: 40%
    :alt: Figure 2
    :align: center
 
-   Figure 2: Measured values associated with scenario
+   図 2: シナリオに関連する測定値
 
 Since this is a simple 2D diagram, the vertical “Z” (up) axis is being
 ignored, so it is not shown here.
 
-The green X axis value represents the sideways offset to the tag. Note
-that this value is negative (to the left of the camera center).
+緑色の X 軸値は、タグへの横方向のオフセットを表します。この値は負（カメラ中心の左側）であることに注意してください。
 
-The red Y axis value represents the forward distance to the Tag.
+赤色の Y 軸値は、タグへの前方距離を表します。
 
-The cyan Yaw value represents the rotation of the tag around the Z axis.
-A Counter-Clockwise rotation is considered positive. Note that a Yaw
-value of zero means that the tag image is parallel to the face of the
-camera.
+シアン色の Yaw 値は、Z 軸を中心としたタグの回転を表します。反時計回りの回転は正と見なされます。Yaw 値がゼロの場合、タグ画像がカメラの面と平行であることを意味することに注意してください。
 
 .. note:: 
-   Fun Fact: If the camera is pointing forward, the X, Y & Z axes are consistent
-   with the Robot Coordinate system.
+   豆知識: カメラが前方を向いている場合、X、Y、Z 軸はロボット座標系と一致しています。
 
-Three additional parameters are derived from the X and Y axis values,
-these are *Range* (which is the direct distance to the center of the
-target), *Bearing* (which is how many degrees the camera must turn to
-point directly at the target) and *Elevation* (which is how many degrees
-the camera must tilt UP to center on the tag). Note that Target Bearing
-has the same positive counterclockwise orientation.
+X 軸と Y 軸の値から 3 つの追加パラメーターが導出されます。これらは、*Range*（ターゲットの中心までの直接距離）、*Bearing*（カメラがターゲットを直接指すために回転する必要がある度数）、および *Elevation*（カメラがタグの中心に向けて上に傾ける必要がある度数）です。ターゲット Bearing は同じ正の反時計回りの向きを持つことに注意してください。
 
-Investigating some real data
-----------------------------
+実際のデータの調査
+------------------
 
 To illustrate this process, consider some real-world tags. The
 data that follows is from a pair of tags printed on a card. The
@@ -94,7 +77,7 @@ horizontally (parallel to the ground).
    :alt: Tag Setup
    :align: center
 
-   Figure 3: Sample Tag setup for testing
+   図 3: テスト用のサンプルタグセットアップ
 
 The AprilTag video preview image from the Camera Stream preview is shown below.
 The left tag has an ID of 0 and the right tag has an ID of 1. This video is
@@ -107,42 +90,30 @@ tags are 3.4” square.
    :alt: preview image
    :align: center
 
-   Figure 4: Camera Preview showing two detected AprilTags
+   図 4: 2 つの検出された AprilTag を示すカメラプレビュー
 
-Notice that both tags are in the bottom-left corner of the
-image. The center of the image corresponds to the location the camera is
-pointed at, which is centered on the protractor and directly above the
-top of the tags.
+両方のタグが画像の左下隅にあることに注意してください。画像の中心は、カメラが向いている場所に対応しており、分度器の中心にあり、タグの上部の真上にあります。
 
 Based on this setup, let’s review the data returned by the
 “ConceptAprilTag.java” sample OpMode.
 
 .. warning:: 
-   Since the creation of this document, the tags used in the
-   ConceptAprilTag.java sample have changed. Therefore, in order to reproduce
-   this example the appropriate tags will need to be used instead of Tag0 and
-   Tag1.
+   このドキュメントの作成以降、ConceptAprilTag.java サンプルで使用されるタグが変更されました。したがって、この例を再現するには、Tag0 と Tag1 の代わりに適切なタグを使用する必要があります。
 
 .. figure:: images/apriltag_telemetry.jpg
    :width: 50%
    :alt: telemetry
    :align: center
 
-   Figure 5: Values displayed by AprilTag OpMode
+   図 5: AprilTag OpMode で表示される値
 
 The values for the two AprilTags are listed as “ID0 Nemo”, and “ID1
 Jonah”. These are the names assigned when adding the tags to the Tag
 Library.
 
-The OpMode displays values that correspond to those parameters shown in
-**Figure 2**. The XYZ line shows the three axes translation values (X, Y
-& Z) in inches. The PRY line shows the corresponding rotations (Pitch,
-Roll & Yaw) around those axes, in degrees. The RBE line shows the target
-Range (in inches), Bearing, and Elevation (in degrees). The angle of
-Elevation results from the height difference between the camera and the
-Tag.
+**OpMode** は、**図 2** に示されているパラメーターに対応する値を表示します。XYZ 行は、3 つの軸の移動値（X、Y、Z）をインチ単位で示します。PRY 行は、これらの軸を中心とした対応する回転（Pitch、Roll、Yaw）を度単位で示します。RBE 行は、ターゲットの Range（インチ単位）、Bearing、および Elevation（度単位）を示します。Elevation の角度は、カメラとタグの高さの違いから生じます。
 
-*Several items to observe:*
+*観察すべきいくつかの項目:*
 
 -  Both Y values are about 25”, but the Y value for Tag 1 is slightly
    larger because it is behind the protractor base line.
@@ -150,11 +121,9 @@ Tag.
 -  The X values for Tag 0 and 1 correspond to the offset distances
    described earlier (-6.6” and -1.5”)
 
--  Both tags show a Yaw of approximately 5 Deg, although this can vary
-   1-2 degrees depending on other orientation factors.
+-  両方のタグは約 5 度の Yaw を示していますが、これは他の向き要因によって 1 ～ 2 度変化する可能性があります。
 
--  The Range to both targets are almost equal but the Bearing of Tag 0
-   is much greater due to its displacement to the left.
+-  両方のターゲットへの Range はほぼ等しいですが、Tag 0 の Bearing は左側への変位により はるかに大きくなっています。
 
 -  Both targets show the same negative Z value of -5.7, which is
    consistent with them being centered about 6” below the height of the
@@ -163,22 +132,14 @@ Tag.
 -  Each tag also has an “Elevation” of about -12.6 degrees, which is a
    downward viewing angle to the center of each tag.
 
-Ways to use this data
----------------------
+このデータの使用方法
+--------------------
 
-There are several ways the AprilTag position data can be used, but here
-are two basic ways.
+AprilTag 位置データを使用する方法はいくつかありますが、ここでは 2 つの基本的な方法を紹介します。
 
-1. Pointing towards a target (Tank Drive).
+1. ターゲットに向けてポイントする（タンクドライブ）。
 
-   If an AprilTag is being used to mark the location of a target that
-   you need to shoot towards, then the two main properties of interest
-   are Tag Range and Tag Bearing. The Tag Bearing is an indication of
-   how many degrees you would need to turn to point directly at the tag,
-   and the Tag Range is an indication of how far you would need to
-   shoot. Even with a simple differential (tank) drive, these two
-   parameters would enable you to turn towards the target and drive to
-   the correct range (or adjust your shooting power based on the range).
+   AprilTag を使用して、射撃する必要があるターゲットの位置をマークしている場合、関心のある 2 つの主要なプロパティは、Tag Range と Tag Bearing です。Tag Bearing は、タグを直接指すために回転する必要がある度数を示し、Tag Range は、射撃する必要がある距離を示します。単純な差動（タンク）ドライブでも、これら 2 つのパラメーターを使用すると、ターゲットに向かって回転し、正しい範囲まで移動する（または範囲に基づいて射撃力を調整する）ことができます。
 
    A simple proportional controller could take the Tag Bearing, multiply
    it by a suitable gain and then use it in place of the turning
@@ -186,14 +147,11 @@ are two basic ways.
    subtract the desired shooting range from the current Tag Range and
    use the result to control the robot’s forward speed.
 
-   Note that this approach does not guarantee that you are squared up to
-   the front of the target, merely that you are pointing towards it. To
-   get squarely aligned, you need to consider the Yaw angle as shown in
-   the next approach. 
+   このアプローチは、ターゲットの正面に対して正方形に配置されることを保証するものではなく、単にそれに向かっていることを保証するだけであることに注意してください。正方形に配置するには、次のアプローチに示すように、Yaw 角度を考慮する必要があります。 
 
-   See SDK Sample: RobotAutoDriveToAprilTagTank.java for more info.
+   詳細については、SDK サンプル: RobotAutoDriveToAprilTagTank.java を参照してください。
 
-2. Approaching a target squarely (Omni Drive).
+2. ターゲットに正面から接近する（オムニドライブ）。
 
    If an AprilTag is being used to mark the location of something that
    must be approached squarely from the front, then it’s important to
@@ -203,20 +161,9 @@ are two basic ways.
    parameters (Range, Bearing & Yaw) must be used to approach the target
    and end up directly in front of it.
 
-   Reaching a certain distance directly in front of the target can be
-   easily performed by a robot with a holonomic (Omnidirectional) drive,
-   because strafing can be used for direct sideways motion. A
-   three-pronged approach can be used. 1) The Target bearing can be used
-   to turn the robot towards the target (as described above). 2) The
-   Target Yaw can be used to strafe sideways, thereby rotating around
-   the target to get directly in front of it. 3) The target range can be
-   used to drive forward or backward to obtain the correct standoff
-   distance.
+   ターゲットの真正面の一定距離に到達することは、ホロノミック（全方向）ドライブを備えたロボットで簡単に実行できます。これは、ストレイフィング（横移動）を直接横方向の動きに使用できるためです。3 つのアプローチを使用できます。1) ターゲット Bearing を使用して、ロボットをターゲットに向けて回転させることができます（上記のとおり）。2) ターゲット Yaw を使用して横方向にストレイフィングし、それによってターゲットの周りを回転して、その真正面に到達できます。3) ターゲット Range を使用して前方または後方に移動し、正しい待機距離を取得できます。
 
-   Each of the three axis motions could be controlled by a simple
-   proportional control loop, where turning towards the tag is given the
-   highest gain (priority), followed by strafing sideways, followed by
-   approaching the tag.
+   3 つの軸の動きはそれぞれ、単純な比例制御ループで制御できます。ここでは、タグに向かって回転することに最高のゲイン（優先度）が与えられ、次に横方向へのストレイフィング、次にタグへの接近が続きます。
 
-   See SDK Sample: RobotAutoDriveToAprilTagOmni.java for more info.
+   詳細については、SDK サンプル: RobotAutoDriveToAprilTagOmni.java を参照してください。
 
