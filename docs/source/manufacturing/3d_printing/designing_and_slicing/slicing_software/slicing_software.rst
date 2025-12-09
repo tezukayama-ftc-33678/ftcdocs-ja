@@ -1,25 +1,25 @@
-Slicer Software Choices
+スライサーソフトウェアの選択
 =======================
 
-There's a variety of slicing software available for use, either community or company maintained. Preference plays a large factor in choosing
-software, so it's recommended to see what software you like best.
+使用できるスライスソフトウェアはさまざまあり、コミュニティまたは企業によって管理されています。ソフトウェアを選択する際には好みが大きな要因となるため、
+どのソフトウェアが最も気に入るかを確認することをお勧めします。
 
-If you are using a Prusa, BambuLab, or AnkerMake printer, your first consideration should be these companies respective softwares. PrusaSlicer is 
-built to work well with Prusa machines, BambuStudio with BambuLab machines, and AnkerMake's slicer for Anker machines.
+Prusa、BambuLab、またはAnkerMakeプリンターを使用している場合、最初に検討すべきはこれらの企業のそれぞれのソフトウェアです。PrusaSlicerは
+Prusaマシンで動作するように構築されており、BambuStudioはBambuLabマシン用、AnkerMakeのスライサーはAnkerマシン用です。
 
-If you are using any other printer or the proprietary software for your printer doesn't fit well with you, Ultimaker Cura and PrusaSlicer are both
-amazing options. Both with almost every modern slicer feature, these are great options. Cura is great if you want a clean UI with minimal settings,
-while PrusaSlicer may enable more powerful control of your printer with more customizable settings and a larger open source community.
+他のプリンターを使用している場合、またはプリンターの専用ソフトウェアがうまく合わない場合、Ultimaker CuraとPrusaSlicerの両方が
+素晴らしいオプションです。どちらもほぼすべての最新のスライサー機能を備えており、優れたオプションです。Curaは、最小限の設定できれいなUIが必要な場合に最適で、
+PrusaSlicerは、よりカスタマイズ可能な設定と大規模なオープンソースコミュニティにより、プリンターをより強力に制御できるようにします。
 
 .. figure:: images/cura_vs_prusa.png
   :align: center
   :width: 55%
-  :alt: Cura and Prusaslicer's logos side by side
+  :alt: CuraとPrusaslicerのロゴが並んでいる
 
-  The two most popular slicer softwares with the most community support, Ultimaker Cura and PrusaSlicer.
+  最もコミュニティサポートが充実している2つの最も人気のあるスライサーソフトウェア、Ultimaker CuraとPrusaSlicer。
 
 |
 
-Both PrusaSlicer and Cura have lists and lists of printers they have prebuilt slicer profiles for, but in case your printer isn't on those lists, you
-should search up the slicer you are using and your printers name. If the printer is relatively popular, there will be slicer profiles posted online 
-that you can import into these slicer softwares.
+PrusaSlicerとCuraの両方には、事前に構築されたスライサープロファイルを持つプリンターのリストが多数ありますが、プリンターがそれらのリストにない場合は、
+使用しているスライサーとプリンターの名前を検索する必要があります。プリンターが比較的人気がある場合、これらのスライサーソフトウェアにインポートできる
+スライサープロファイルがオンラインに投稿されています。

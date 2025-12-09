@@ -1,6 +1,6 @@
-Extruder Calibration (E-Steps)
+エクストルーダー校正（E-Steps）
 ==============================
 
-If you're noticing any issues with over/under extrusion or if you just got a new printer, it's highly advisable that you tune your e-steps. 
-E-Steps dictate how many steps the extruder motor takes to extrude a certain amount of filament. This procedure is best covered in videos, 
-so go take a look at `Thomas Sanladerer's video on the topic. <https://www.youtube.com/watch?v=YUPfBJz3I6Y>`_
+過剰または過少な押出しの問題がある場合、または新しいプリンターを入手したばかりの場合は、E-Stepsを調整することを強くお勧めします。
+E-Stepsは、一定量のフィラメントを押し出すためにエクストルーダーモーターが実行するステップ数を決定します。この手順はビデオで説明するのが最適です。
+`Thomas Sanladererのこのトピックに関するビデオ <https://www.youtube.com/watch?v=YUPfBJz3I6Y>`_ をご覧ください。

@@ -1,24 +1,23 @@
-Printer Choice
+プリンター選択
 ==============
 
-This section will focus on printers from each budget range that could be useful for FTC teams.
-There will be many features listed and drawbacks listed for every budget range, but there is one 
-feature that we would like to note that teams should not buy a printer without note of it being
-included.
+このセクションでは、FTCチームに役立つ各予算範囲のプリンターに焦点を当てます。
+すべての予算範囲について多くの機能と欠点がリストされていますが、
+チームがプリンターを購入する際に必ず搭載されていることを確認すべき機能が1つあります。
 
-**Thermal Runaway Protection**: This is a feature where if a thermistor on the printer disagrees with the heater input
-and temperature trends don't make sense, the 3D printer will shut itself down. This is essential to prevent possible
-fires and teams should not buy 3D printers without this feature. Most 3D printers you buy today will have 
-this due to firmware updates, despite the age of the printer, but it should still be checked. 
+**サーマルランナウェイプロテクション**：これは、プリンターのサーミスターがヒーター入力と一致せず、
+温度傾向が意味をなさない場合に、3Dプリンターが自動的にシャットダウンする機能です。これは火災の可能性を防ぐために不可欠であり、
+チームはこの機能なしで3Dプリンターを購入すべきではありません。今日購入するほとんどの3Dプリンターは、
+プリンターの年式に関係なく、ファームウェアアップデートによりこの機能を備えていますが、それでも確認すべきです。
 
-Please search up whether the printer model you intend on buying has this feature. If you search up Ender 3s,
-you will find some results that say it does not, but this is dated information and not true, as Ender 3s are 
-now shipped with that enabled in the firmware by default. All other printers that we list in our sections below
-are modern enough to have this feature as well.
+購入予定のプリンターモデルにこの機能があるかどうかを検索してください。Ender 3を検索すると、
+この機能がないという結果が見つかる場合がありますが、これは古い情報であり、真実ではありません。Ender 3は
+現在、デフォルトでファームウェアにこの機能を有効にして出荷されています。以下のセクションでリストしている他のすべてのプリンターも、
+この機能を備えている十分に最新のものです。
 
 .. toctree::
     :maxdepth: 1
 
-    Budget Printers (Under $300 USD) <budget_printers/budget_printers>
-    Mid-Range Printers ($300-$600 USD) <mid_range_printers/mid_range_printers>
-    High-End Printers ($600+ USD) <high_end_printers/high_end_printers>
+    予算内プリンター（300ドル未満） <budget_printers/budget_printers>
+    中級プリンター（300～600ドル） <mid_range_printers/mid_range_printers>
+    高級プリンター（600ドル以上） <high_end_printers/high_end_printers>

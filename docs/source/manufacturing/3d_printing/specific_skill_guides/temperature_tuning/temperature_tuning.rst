@@ -1,27 +1,27 @@
-Temperature Tuning
+温度調整
 ==================
 
-In order to have strong, good quality 3d printed parts, you need to get your temperatures and speeds right. Every filament that you buy will 
-have a range of temperatures that it thinks are acceptable to print it at, but the one that works best for you depends on all sorts of conditions. 
-Start in the middle of that range, and work from there.
+強く、高品質な3Dプリントパーツを得るには、温度と速度を正しく設定する必要があります。購入するすべてのフィラメントには、
+プリントするのに許容できると考えられる温度範囲がありますが、最適な温度はあらゆる条件に依存します。
+その範囲の中央から始めて、そこから作業を進めてください。
 
-Temperature Based Underextrusion and Overextrusion
+温度ベースの押出し不足と過剰押出し
 --------------------------------------------------
 
-This is the key to tuning filaments. There's a certain sweet temperature when printing that helps lay the perfect amount of plastic down to complete your part. 
-Underextrusion looks like it's not quite able to get continuous plastic out (you need to raise your temperature), and Overextrusion looks like it's simply trying 
-to melt too much (drooping around the sides, so you need to lower your temp).
+これがフィラメントの調整の鍵です。プリント時には、パーツを完成させるために完璧な量のプラスチックを配置するのに役立つ特定の最適温度があります。
+押出し不足は、連続したプラスチックを十分に出せていないように見えます（温度を上げる必要があります）。過剰押出しは、単純に
+多すぎる量を溶かそうとしているように見えます（側面が垂れ下がるため、温度を下げる必要があります）。
 
 .. figure:: images/overunderextrusion.png
   :align: center
   :width: 55%
-  :alt: Comparison of Overextrusion and Underextrusion.
+  :alt: 過剰押出しと押出し不足の比較。
 
-  Underextrusion on the left, Overextrusion on the right.
+  左が押出し不足、右が過剰押出し。
 
 |
 
-.. note:: Extra about PLA: PLA is a really easy filament to work with, unless you're trying to print it fast, in which case it becomes the worst filament you've 
-          ever encountered. PLA is a filament that requires a lot of cooling, otherwise it becomes really messy really quickly. Temperature issues can appear in 
-          PLA due to either lack of cooling or improper temperatures, so consider both of these factors when tuning for PLA. Consider dropping your printing speed 
-          to isolate issues to just temperature.
+.. note:: PLAについての追加情報：PLAは非常に扱いやすいフィラメントですが、高速でプリントしようとすると、これまで遭遇した中で最悪のフィラメントになります。
+          PLAは多くの冷却を必要とするフィラメントであり、そうしないと非常に速く非常に汚くなります。PLAの温度問題は、
+          冷却不足または不適切な温度のいずれかが原因で発生する可能性があるため、PLAを調整する際にはこれらの両方の要因を考慮してください。問題を
+          温度のみに分離するために、プリント速度を下げることを検討してください。

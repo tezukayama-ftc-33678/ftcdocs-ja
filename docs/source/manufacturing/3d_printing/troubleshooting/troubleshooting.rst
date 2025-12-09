@@ -1,9 +1,9 @@
-Troubleshooting Common Issues
+一般的な問題のトラブルシューティング
 =============================
 
-Here are some hyperlinks to common issues with printers that are worth looking at during a troubleshooting process.
+トラブルシューティング過程で確認する価値のある、プリンターに関する一般的な問題へのリンクを以下に示します。
 
-* :doc:`Underextrusion and Overextrusion <../specific_skill_guides/temperature_tuning/temperature_tuning>`
-* :doc:`Prints Not Sticking <../specific_skill_guides/print_adhesion/print_adhesion>`
-* :doc:`Bed Not Level <../specific_skill_guides/bed_leveling/bed_leveling>`
-* :doc:`Parts Not Fitting <../designing_and_slicing/tolerancing/tolerancing>`
+* :doc:`押出し不足と過剰押出し <../specific_skill_guides/temperature_tuning/temperature_tuning>`
+* :doc:`プリントが接着しない <../specific_skill_guides/print_adhesion/print_adhesion>`
+* :doc:`ベッドが水平でない <../specific_skill_guides/bed_leveling/bed_leveling>`
+* :doc:`パーツがフィットしない <../designing_and_slicing/tolerancing/tolerancing>`

@@ -1,47 +1,46 @@
 .. meta::
-    :title: 3D Printing
-    :desc: 3D Printing in the FIRST Tech Challenge.
-    :keywords: FIRST Tech Challenge, FTC Docs, Manufacturing, 3D Printing, Filaments
+    :title: 3Dプリンティング
+    :desc: FIRST Tech Challengeにおける3Dプリンティング。
+    :keywords: FIRST Tech Challenge, FTC Docs, Manufacturing, 3D Printing, Filaments, 製造, 3Dプリンティング
 
 
-3D Printing
+3Dプリンティング
 ===========
 
 
-Many parts in FTC need to be a special/unique shape and size, one that isn't sold or available from a vendor.
-Sometimes, teams need a part that is impossible to machine or cut out, or needs to be lightweight. Other times,
-teams may want to test and iterate the design of a part rapidly and cheaply. 3D printing is a great solution to
-all of these problems.
+FTCの多くのパーツは、ベンダーから販売または入手できない特別/ユニークな形状とサイズである必要があります。
+チームが機械加工やカットが不可能なパーツ、または軽量である必要があるパーツを必要とする場合があります。また、
+チームはパーツの設計を迅速かつ安価にテストして反復したい場合もあります。3Dプリンティングは、
+これらすべての問題に対する優れたソリューションです。
 
-3D Printing is the process of creating a three dimensional object by laying down successive layers of material 
-(typically plastic) from a digital model file. To do this, machines known as 3D Printers are employed which melt 
-and place plastic in order to produce this model.
+3Dプリンティングは、デジタルモデルファイルから材料（通常はプラスチック）の連続する層を積み重ねることによって
+三次元オブジェクトを作成するプロセスです。これを行うために、3Dプリンターと呼ばれる機械が使用され、
+プラスチックを溶かして配置することでこのモデルを生成します。
 
-In order to start 3D printing, teams need to understand how the technology works, what printers are
-available to buy, how to properly set up a part to be printed, and what materials are available to print with.
+3Dプリンティングを開始するには、チームはこの技術がどのように機能するか、どのプリンターが
+購入可能か、プリントするパーツを適切にセットアップする方法、およびプリントに使用できる材料について理解する必要があります。
 
 .. toctree::
     :maxdepth: 1
 
 
-    3D Printing Introduction <3d_printing_intro/3d_printing_intro>
-    Example 3d Printed Parts <3d_printed_parts/3d_printed_parts>
-    General Knowledge <general_knowledge/general_knowledge.rst>
-    Printer Choice <printer_choice/printer_choice>
-    Filament Choice <filament_choice/filament_choice>
-    Designing and Slicing <designing_and_slicing/designing_and_slicing>
-    Specific Skill Guides <specific_skill_guides/specific_skill_guides>
-    Troubleshooting Common Issues <troubleshooting/troubleshooting>
+    3Dプリンティング入門 <3d_printing_intro/3d_printing_intro>
+    3Dプリントパーツの例 <3d_printed_parts/3d_printed_parts>
+    一般知識 <general_knowledge/general_knowledge.rst>
+    プリンター選択 <printer_choice/printer_choice>
+    フィラメント選択 <filament_choice/filament_choice>
+    設計とスライス <designing_and_slicing/designing_and_slicing>
+    特定スキルガイド <specific_skill_guides/specific_skill_guides>
+    一般的な問題のトラブルシューティング <troubleshooting/troubleshooting>
 
-Volunteer Special Thanks
+ボランティアへの特別な感謝
 -------------------------
 
-The *FIRST* Tech Challenge staff would like to extend a special thanks
-to the following volunteers for their hard work and dedication toward
-this project:
+**FIRST** Tech Challengeスタッフは、このプロジェクトへの努力と献身に対して、
+以下のボランティアの方々に特別な感謝を表します：
 
--  Lucas Y., Team 16461
+-  Lucas Y., チーム 16461
 
--  Davy Hallihan, Team 16461
+-  Davy Hallihan, チーム 16461
 
--  Ryan Driemeyer, Team 1002
+-  Ryan Driemeyer, チーム 1002

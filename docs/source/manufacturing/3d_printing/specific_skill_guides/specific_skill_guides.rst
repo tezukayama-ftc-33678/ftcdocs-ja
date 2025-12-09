@@ -1,12 +1,12 @@
-Specific Skill Guides
+特定スキルガイド
 =====================
 
 
 .. toctree::
     :maxdepth: 1
 
-    Bed Leveling <bed_leveling/bed_leveling>
-    Print Adhesion <print_adhesion/print_adhesion>
-    Extruder Calibration (E-Steps) <extruder_calibration/extruder_calibration>
-    Temperature Tuning <temperature_tuning/temperature_tuning>
-    Basic Post-Processing <basic_post_processing/basic_post_processing>
+    ベッドレベリング <bed_leveling/bed_leveling>
+    プリント接着 <print_adhesion/print_adhesion>
+    エクストルーダー校正（E-Steps） <extruder_calibration/extruder_calibration>
+    温度調整 <temperature_tuning/temperature_tuning>
+    基本的な後処理 <basic_post_processing/basic_post_processing>

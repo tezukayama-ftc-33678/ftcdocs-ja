@@ -1,25 +1,25 @@
-General Design for 3d Printed Parts
+3Dプリントパーツの一般的な設計
 ===================================
 
-Gradually as you 3d print more you will acquire a general design sense. You will have a good sense of what you should and shouldn't print, 
-know what your printer is capable of, and know what won't break. A lot of this comes with experience, but there are some general tips that 
-can be given.
+3Dプリントを続けていくうちに、徐々に一般的な設計感覚が身につきます。何をプリントすべきか、すべきでないか、
+プリンターが何ができるか、何が壊れないかをよく理解するようになります。これの多くは経験から得られますが、
+提供できる一般的なヒントがいくつかあります。
 
-Large Prints
+大型プリント
 ------------
-If you're using your entire build plate, you generally should not be printing that part continuously. Design the part to be connected in 
-various places with hardware, or even better, design it to have metal reinforcement and use 3d prints for only the unique/specific geometry.
+ビルドプレート全体を使用している場合、一般的にそのパーツを連続的にプリントすべきではありません。パーツがハードウェアで
+さまざまな場所で接続されるように設計するか、さらに良いことには、金属補強を持つように設計し、ユニークで特定のジオメトリにのみ3Dプリントを使用します。
 
 |
 
-The reason this is said is due to problems with unitization (a practice of combining or splitting multiple parts into smaller or larger objects).
-If your part takes a whole print plate, and breaks while on the robot, you have to painfully run a very long print again. Segmented parts can be 
-more easily replaced if part of it breaks. Keep your parts small and easy to run replacement prints for.
+これが言われる理由は、ユニタイゼーション（複数のパーツを小さいまたは大きいオブジェクトに結合または分割する実践）の問題によるものです。
+パーツがプリントプレート全体を占め、ロボット上で壊れた場合、非常に長いプリントを再び苦労して実行する必要があります。セグメント化されたパーツは、
+一部が壊れた場合でもより簡単に交換できます。パーツを小さく保ち、交換用プリントを簡単に実行できるようにしてください。
 
-Avoiding Fine Details
+細かいディテールを避ける
 ---------------------
-3D Printers can achieve a fairly high level of detail but functional parts of a part should be kept to be large geometry as smaller geometry often 
-fails easier. For example, when printing something like gears, it's advised to do a large module such as 1-2mm, because standard 3D printers just 
-can't print smaller teeth with accuracy and strength. You should make sure all parts of a print are at least 2-3x your nozzle width, to make sure 
-that sufficient strength can be achieved. For a standard 0.4mm nozzle, 1.2mm is really the thinnest any part of your design should be.
+3Dプリンターはかなり高レベルのディテールを達成できますが、パーツの機能部分は大きなジオメトリに保つべきです。小さなジオメトリは
+より簡単に失敗することがよくあります。たとえば、ギアのようなものをプリントする場合、1〜2mmのような大きなモジュールを使用することをお勧めします。
+標準的な3Dプリンターは、より小さい歯を精度と強度でプリントできないためです。プリントのすべての部分がノズル幅の少なくとも2〜3倍であることを確認して、
+十分な強度を達成できるようにする必要があります。標準的な0.4mmノズルの場合、設計のどの部分も1.2mmが実際に最も薄い部分であるべきです。
 

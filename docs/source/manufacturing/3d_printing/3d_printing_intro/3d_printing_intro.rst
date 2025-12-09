@@ -1,4 +1,4 @@
-3D Printing Introduction
+3Dプリンティング入門
 ========================
 
 
@@ -6,64 +6,64 @@
 .. figure:: images/printed_parts_example.png
    :align: center
    :width: 60%
-   :alt: Example of 3D printed parts
+   :alt: 3Dプリントパーツの例
 
-   3D printed dead wheel odometry parts
+   3Dプリントされたデッドホイールオドメトリーパーツ
 
 
 
-3D Printing Methods
+3Dプリンティング方式
 -------------------
 
-There are numerous kinds of 3D printing, but for FTC there are only a few that are practical. The most common is
-**Fused Deposition Modeling (FDM)**. FDM printers melt a plastic filament
-and extrude it through a nozzle, which moves around to create the part. FDM printers are the most common
-type of printer used, and the most practical for robotics teams, so this guide will focus on them.
+3Dプリンティングには数多くの種類がありますが、FTCにおいては実用的なものはわずかです。最も一般的なのは
+**FDM（熱溶解積層法）** です。FDMプリンターはプラスチックフィラメントを溶かし、
+ノズルを通して押し出し、ノズルが移動してパーツを作成します。FDMプリンターは最も一般的に
+使用されるプリンターのタイプであり、ロボティクスチームにとって最も実用的であるため、このガイドではFDMに焦点を当てます。
 
 .. figure:: images/fdm_example.png
    :align: center
    :width: 55%
-   :alt: FDM printer
+   :alt: FDMプリンター
 
-   FDM printer printing a part
+   パーツをプリントしているFDMプリンター
 
 
 
-Other types of printers include SLA (Stereolithography)
-and SLS (Selective Laser Sintering), however these are often more expensive, difficult to use, and have less
-use in FTC, although they have a few specific niches, such as very high precision details.
+他のタイプのプリンターには、SLA（光造形法）
+およびSLS（選択的レーザー焼結法）がありますが、これらはしばしばより高価で使用が困難であり、
+FTCでの使用は少ないです。ただし、非常に高精度の詳細など、いくつかの特定のニッチな用途があります。
 
 .. figure:: images/resin_spool.png
    :align: center
    :width: 55%
-   :alt: Resin spool
+   :alt: レジンスプール
 
-   SLA Resin printed lift string spools
+   SLAレジンでプリントされたリフト用ストリングスプール
 
 
 
-3D Printing Pros
+3Dプリンティングの利点
 ----------------
 
-* 3D printed parts can be infinitely customized and optimized for a specific purpose. This can be used to create
-  pulleys or gears with a specific number of teeth, or a part that fits perfectly in a specific place.
-* 3D printing can be used to create parts that adapt between different build systems or standards. Many build systems
-  contain their own standards for mounting holes, shaft sizes, or other dimensions. 3D printing can be used to create
-  parts that adapt between these standards.
-* 3D printing can be used to make parts relatively quickly and cheaply. This is especially useful for prototyping
-  new designs, or iterating on a design to make it better at little cost and in a short amount of time.
+* 3Dプリントパーツは特定の目的に対して無限にカスタマイズおよび最適化できます。これは、
+  特定の歯数のプーリーやギア、または特定の場所に完璧にフィットするパーツを作成するために使用できます。
+* 3Dプリンティングは、異なるビルドシステムや規格間を適合させるパーツを作成するために使用できます。多くのビルドシステムは
+  取り付け穴、シャフトサイズ、またはその他の寸法に関する独自の規格を持っています。3Dプリンティングは、
+  これらの規格間を適合させるパーツを作成するために使用できます。
+* 3Dプリンティングは、比較的迅速かつ安価にパーツを作成するために使用できます。これは、
+  新しい設計のプロトタイピング、または少ないコストと短時間で設計を改善するために反復する際に特に有用です。
 
-3D Printing Cons
+3Dプリンティングの欠点
 ----------------
 
-* 3D printed parts are often not as strong as machined or cut parts. This is especially true for FDM printers, which
-  have a layer-by-layer structure that can be a weak point if the part is loaded in a certain way. If consideration
-  is given to this weakness when designing the part, however, the result can be made very strong.
-* A 3D printed part can only be as large as the print bed it is printed on. This means that large parts may need to
-  be printed in multiple pieces and assembled later.
-* 3D printing can be slow, especially for large parts. Longer prints can take hours or even days to complete, raising
-  the risk of a print failing and wasting time and material.
-* 3D printing can be expensive. The cost of a printer, filament, and other materials can add up quickly. However,
-  the cost of a 3D printer has been decreasing rapidly, and filament is relatively cheap.
+* 3Dプリントパーツは、機械加工またはカットされたパーツほど強くないことがよくあります。これは特にFDMプリンターに当てはまり、
+  層ごとの構造を持っているため、パーツが特定の方法で負荷を受けると弱点になる可能性があります。ただし、パーツを設計する際に
+  この弱点を考慮すれば、結果を非常に強くすることができます。
+* 3Dプリントパーツは、プリントするプリントベッドと同じ大きさまでしか作成できません。これは、大きなパーツは
+  複数のピースでプリントして後で組み立てる必要がある場合があることを意味します。
+* 3Dプリンティングは、特に大きなパーツの場合、遅くなる可能性があります。長いプリントは完了するまでに数時間または数日かかる場合があり、
+  プリントが失敗して時間と材料を無駄にするリスクが高まります。
+* 3Dプリンティングは高価になる可能性があります。プリンター、フィラメント、およびその他の材料のコストはすぐに積み重なります。ただし、
+  3Dプリンターのコストは急速に低下しており、フィラメントは比較的安価です。
 
 

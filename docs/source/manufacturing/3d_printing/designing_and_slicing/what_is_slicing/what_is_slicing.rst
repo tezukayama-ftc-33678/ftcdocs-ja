@@ -1,23 +1,23 @@
-What is Slicing?
+スライスとは？
 ================
 
-One of the most important steps of 3D printing is turning your CAD files into instructions for the printer can carry out and read. 
-This is done in a software called a slicer, which turns CAD files, into machine-readable, G-Code Files.
+3Dプリンティングの最も重要なステップの1つは、CADファイルをプリンターが実行して読み取れる命令に変換することです。
+これは、スライサーと呼ばれるソフトウェアで行われ、CADファイルを機械可読なGコードファイルに変換します。
 
 .. image:: images/slicinggraphic.jpg
   :align: center
   :width: 55%
-  :alt: A graphic showing the steps of creating a 3d printable file.
+  :alt: 3Dプリント可能なファイルを作成する手順を示す図。
 
 |
 
-The basis of this software is that it takes a mesh file, normally an STL file, and splits it into layers and lines that the 3d
-printer can digest. You get to select various parameters about how it will instruct the printer to follow this data, such as the
-speed, thickness of lines, temperatures, thickness of the slices, amount of walls, the patterns on the inside of the part, and 
-even more. Most slicers will have over 200 options available to you if fine-tuning is something you're interested in, but there's
-only about 10-20 settings that you absolutely have to be concerned with.
+このソフトウェアの基本は、通常はSTLファイルであるメッシュファイルを取得し、3D
+プリンターが処理できる層と線に分割することです。プリンターにこのデータに従うよう指示する方法について、さまざまなパラメーターを選択できます。たとえば、
+速度、線の太さ、温度、スライスの厚さ、壁の量、パーツの内側のパターン、
+さらに多くのオプションがあります。ほとんどのスライサーは、微調整に興味がある場合、200以上のオプションを利用できますが、
+絶対に気にする必要がある設定は約10〜20だけです。
 
-G-Code files are also notably just compilations of G-Code commands. G-Code commands tell the printer how to move, where to move, 
-and what to turn on and off. These G-Code commands can be useful to learn if your printer has a command line or you want to eventually 
-write start-up or shut-down scripts for your prints. 
+Gコードファイルは、Gコードコマンドの単なる集合でもあります。Gコードコマンドは、プリンターに移動方法、移動先、
+およびオン/オフする内容を指示します。これらのGコードコマンドは、プリンターにコマンドラインがある場合、または最終的に
+プリントのスタートアップまたはシャットダウンスクリプトを作成したい場合に学ぶのに役立ちます。 
 

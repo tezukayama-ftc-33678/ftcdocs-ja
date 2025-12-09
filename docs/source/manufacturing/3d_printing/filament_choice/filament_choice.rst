@@ -1,34 +1,33 @@
-Filament Choice
+フィラメント選択
 ===============
-There are many different materials and colors of plastics called "filaments" that can be used for 3D printing, but for FTC there are only
-a few that are of practical use for most teams. Since this guide is currently only addressing FDM (Fused Deposition Modeling) 
-printing, materials like resin (used in SLA printing) will not be discussed.
+3Dプリンティングに使用できる「フィラメント」と呼ばれるプラスチックには多くの異なる材料と色がありますが、FTCにおいては
+ほとんどのチームにとって実用的なものはわずかです。このガイドは現在FDM（熱溶解積層）
+プリンティングのみを扱っているため、レジン（SLAプリンティングで使用）などの材料については説明しません。
 |
 
-.. warning:: Currently, the majority of commercial 3D printers use a 1.75mm diameter filament, so when shopping for filaments, teams should take 
-             care to avoid other diameters, such as 2.85mm, as these will not work with most printers.
+.. warning:: 現在、商業用3Dプリンターの大部分は1.75mm直径のフィラメントを使用しているため、フィラメントを購入する際、チームは
+             2.85mmなどの他の直径を避けるよう注意する必要があります。これらはほとんどのプリンターで動作しません。
 
 |
 
-This section is all about FDM filament choices for 3D printing. There are a variety of plastics that are commonly used,
-with some being more common than others, and some fulfilling specialty use cases. There are specialized to FTC 
-descriptions in this section, but if you want a simple comparison chart like shown below, check out this `Filament Properties Table
-<https://www.simplify3d.com/resources/materials-guide/properties-table/>`_. 
+このセクションは、3DプリンティングのためのFDMフィラメントの選択についてすべてを扱っています。一般的に使用されるプラスチックにはさまざまな種類があり、
+他のものよりも一般的なものもあれば、特殊な用途を満たすものもあります。このセクションにはFTCに特化した
+説明がありますが、以下に示すような簡単な比較表が必要な場合は、この `フィラメント特性表
+<https://www.simplify3d.com/resources/materials-guide/properties-table/>`_ をご覧ください。
 
 .. image:: images/filamentchart.jpg
   :align: center
   :width: 55%
-  :alt: A chart comparing various 3d printing filaments.
+  :alt: さまざまな3Dプリンティングフィラメントを比較する表。
 
 |
 
-This section also talks about proper ways to store filament and the ever present complaint of "moisture in filament" in
-the filament storage section.
+このセクションでは、フィラメントの適切な保管方法と、フィラメント保管セクションで常に問題となる「フィラメント内の水分」についても説明します。
 
 
 .. toctree::
     :maxdepth: 1
 
-    Common Filaments <common_filaments/common_filaments>
-    Advanced Filaments <advanced_filaments/advanced_filaments>
-    Filament Storage Details <filament_storage/filament_storage>
+    一般的なフィラメント <common_filaments/common_filaments>
+    高度なフィラメント <advanced_filaments/advanced_filaments>
+    フィラメント保管の詳細 <filament_storage/filament_storage>

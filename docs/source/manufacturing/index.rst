@@ -1,28 +1,26 @@
 .. meta::
-    :title: Manufacturing
-    :desc: Manufacturing methods for the FIRST Tech Challenge.
-    :keywords: FIRST Tech Challenge, FTC Docs, Manufacturing
+    :title: 製造
+    :desc: FIRST Tech Challengeの製造方法。
+    :keywords: FIRST Tech Challenge, FTC Docs, Manufacturing, 製造
 
-Manufacturing
+製造
 =============
 
-Manufacturing is an extremely important part of building a robot for the FIRST Tech Challenge. While
-Commercial-Off-The-Shelf parts can be used for the majority, and in some cases the entirety, of a robot,
-there are many times when a custom part is needed. This section will cover some of the most common
-manufacturing methods used in FTC for creating these parts. It is important to note that there are many
-different ways to manufacture parts, and this section will only contain those that are most commonly used.
+製造は、**FIRST Tech Challenge** のロボット構築において非常に重要な部分です。
+市販品（Commercial-Off-The-Shelf）のパーツをロボットの大部分、場合によってはすべてに使用できますが、
+カスタムパーツが必要になる場合も多くあります。このセクションでは、FTCでこれらのパーツを作成するために使用される最も一般的な
+製造方法について説明します。パーツの製造方法は多数ありますが、このセクションには最も一般的に使用されるものだけが含まれていることに注意してください。
 
-While a CAD model is not always needed to build a robot or part, it is often required when
-manufacturing custom parts. For this reason, it is recommended that a team design their robot (or at least
-the part that needs to be made) in a
-CAD software. For more information on CAD, see the :doc:`CAD Resources <../cad_resources/index>` section.
+ロボットやパーツを作成するためにCADモデルが常に必要というわけではありませんが、
+カスタムパーツを製造する際には必要になることがよくあります。このため、チームはCADソフトウェアで
+ロボット（または少なくとも作成する必要があるパーツ）を設計することをお勧めします。CADの詳細については、:doc:`CADリソース <../cad_resources/index>` セクションをご覧ください。
 
-Here are some manufacturing methods that are commonly used in FTC:
+FTCで一般的に使用される製造方法は次のとおりです：
 
-* Prototyping (Proof-of-Concept, Testing) (Cardboard, Wood, Foam, etc.)
-* :doc:`3D Printing <3d_printing/index>` (Smaller parts, Prototyping) (Plastics)
-* Machining (Larger Parts, Plates) (Metal, Wood, Composites, Plastics)
-* Laser Cutting (Plates, Gears, etc.) (Wood, Composites, Plastics)
+* プロトタイピング（概念実証、テスト）（段ボール、木材、フォームなど）
+* :doc:`3Dプリンティング <3d_printing/index>` （小型パーツ、プロトタイピング）（プラスチック）
+* 機械加工（大型パーツ、プレート）（金属、木材、複合材、プラスチック）
+* レーザーカット（プレート、ギアなど）（木材、複合材、プラスチック）
 
 
 
