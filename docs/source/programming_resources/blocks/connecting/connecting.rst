@@ -1,5 +1,5 @@
-Connecting to the Program & Manage Server :bdg-warning:`Blocks`
-===============================================================
+プログラム & 管理サーバーへの接続 :bdg-warning:`Blocks`
+========================================================
 
 
 .. toctree::

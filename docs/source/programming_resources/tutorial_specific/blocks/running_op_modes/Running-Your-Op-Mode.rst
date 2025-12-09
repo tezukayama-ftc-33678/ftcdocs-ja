@@ -1,19 +1,14 @@
-Running Your OpMode (All Languages)
------------------------------------
+OpMode の実行（全言語共通）
+-----------------------------
 
-If your OpMode requires input from a gamepad, then you will need to
-connect a Logitech F310 or other approved gamepad to the DRIVER STATION. Note that you can
-have up to two gamepads connected to a DRIVER STATION. If using a phone,
-this will require a USB hub. However, in this example, we will only have
-a solitary gamepad connected.
+**OpMode** がゲームパッドからの入力を必要とする場合は、Logitech F310 またはその他の認可されたゲームパッドを **DRIVER STATION** に接続する必要があります。**DRIVER STATION** には最大 2 つのゲームパッドを接続できることに注意してください。電話を使用している場合、これには USB ハブが必要です。ただし、この例では、ゲームパッドを 1 つだけ接続します。
 
-Note that you will need an estimated 10 minutes to complete this task.
+このタスクを完了するには約 10 分かかる見込みです。
 
-Running Your OpMode Instructions
----------------------------------
+OpMode 実行手順
+---------------
 
-1. Connect the gamepad to the DRIVER STATION. If using a phone, you will
-need a Micro USB OTG adapter cable.                                                        
+1. ゲームパッドを **DRIVER STATION** に接続します。電話を使用している場合は、Micro USB OTG アダプターケーブルが必要です。                                                        
 
 .. image:: images/GamepadDHConnection.jpg
    :align: center

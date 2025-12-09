@@ -1,34 +1,18 @@
-Creating Op Modes :bdg-warning:`Blocks`
-========================================
+Op Mode の作成 :bdg-warning:`Blocks`
+====================================
 
 
-What's an Op Mode?
-~~~~~~~~~~~~~~~~~~
+Op Mode とは？
+~~~~~~~~~~~~~~
 
-During a typical *FIRST* Tech Challenge match, a team's robot must
-perform a variety of tasks to score points. For example, a team might
-want their robot to follow a white line on the competition floor and
-then score a game element into a goal autonomously during a match. Teams
-write programs called *op modes* (which stands for "operational modes")
-to specify the behavior for their robot. These op modes run on the Robot
-Controller after being selected on the DRIVER STATION.
+典型的な *FIRST* Tech Challenge のマッチでは、チームのロボットは得点を獲得するためにさまざまなタスクを実行する必要があります。例えば、チームは競技フィールドの白い線に沿ってロボットを動かし、マッチ中に自律的にゲーム要素をゴールに得点させたいと考えるかもしれません。チームは、ロボットの動作を指定するために **op mode**（「operational modes」の略）と呼ばれるプログラムを作成します。これらの **op mode** は、**DRIVER STATION** で選択された後、**Robot Controller** 上で実行されます。
 
-Teams who are participating in the *FIRST* Tech Challenge have a variety
-of programming tools that they can use to create their own op modes.
-This section of the wiki explains how to use the Blocks Programming
-Tool to write an op mode for a robot.
+*FIRST* Tech Challenge に参加しているチームは、独自の **op mode** を作成するために使用できるさまざまなプログラミングツールを利用できます。このセクションでは、**Blocks Programming Tool** を使用してロボット用の **op mode** を作成する方法について説明します。
 
-The Blocks Programming Tool
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Blocks Programming Tool
+~~~~~~~~~~~~~~~~~~~~~~~
 
-The Blocks Programming Tool is a user-friendly programming tool that
-is served up by the Robot Controller. A user can create custom op modes
-for their robot using this tool and then save these op modes directly
-onto the Robot Controller. Users drag and drop jigsaw-shaped programming
-blocks onto a design "canvas" and arrange these blocks to create the
-program logic for their op mode. The Blocks Programming Tool is
-powered by Google's Blockly software and was developed with support from
-Google.
+**Blocks Programming Tool** は、**Robot Controller** によって提供されるユーザーフレンドリーなプログラミングツールです。ユーザーはこのツールを使用して、ロボット用のカスタム **op mode** を作成し、これらの **op mode** を **Robot Controller** に直接保存できます。ユーザーはジグソーパズルの形をしたプログラミングブロックをデザイン「キャンバス」にドラッグアンドドロップし、これらのブロックを配置して **op mode** のプログラムロジックを作成します。**Blocks Programming Tool** は Google の Blockly ソフトウェアを搭載しており、Google のサポートを受けて開発されました。
 
 .. image:: images/BlocksPicture1New.jpg
    :align: center
@@ -45,42 +29,28 @@ Blocks Programming Tool.
 
 |
 
-Note that the process used to create and edit an op mode is identical if
-you are using a Control Hub as your Robot Controller.
+**Control Hub** を **Robot Controller** として使用している場合でも、**op mode** の作成と編集に使用するプロセスは同じです。
 
 .. image:: images/BlocksPicture2b.jpg
    :align: center
 
 |
 
-Note that if you prefer, you can use an alternate device, such as an
-Apple Mac laptop, an Apple iPad, an Android tablet, or a Chromebook,
-instead of a Windows computer to access the Blocks Programming Tool.
-The instructions included in this document, however, assume that you are
-using a Windows laptop.
+必要に応じて、Windows コンピューターの代わりに、Apple Mac ラップトップ、Apple iPad、Android タブレット、または Chromebook などの代替デバイスを使用して **Blocks Programming Tool** にアクセスできます。ただし、このドキュメントに含まれる手順は、Windows ラップトップを使用していることを前提としています。
 
-Also note that this section of the wiki assumes that you have already
-setup and configured your Android devices and robot hardware. It also
-assumes that you have successfully connected your laptop to the Robot
-Controller's Progam & Manage wireless network.
+また、このセクションでは、Android デバイスとロボットハードウェアの設定と構成が既に完了していることを前提としています。また、ラップトップが **Robot Controller** の Program & Manage ワイヤレスネットワークに正常に接続されていることも前提としています。
 
-Creating Your First Op Mode
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+最初の Op Mode の作成
+~~~~~~~~~~~~~~~~~~~~~
 
-If you connected your laptop successfully to the Program & Manage
-wireless network of the Robot Controller, then you are ready to create
-your first op mode. In this section, you will use the Blocks
-Programming Tool to create the program logic for your first op mode.
+ラップトップを **Robot Controller** の Program & Manage ワイヤレスネットワークに正常に接続できた場合、最初の **op mode** を作成する準備が整いました。このセクションでは、**Blocks Programming Tool** を使用して、最初の **op mode** のプログラムロジックを作成します。
 
-Note that it will take an estimated 10 minutes to create your first op
-mode.
+最初の **op mode** の作成には約 10 分かかる見込みです。
 
-Creating Your First Op Mode Instructions
-----------------------------------------
+最初の Op Mode の作成手順
+-------------------------
 
-1. Launch the web browser on your laptop (FIRST recommends using      
-Google Chrome) and find the web address that is displayed on the      
-Program & Manage screen of the Robot Controller.
+1. ラップトップで Web ブラウザーを起動し（*FIRST* は Google Chrome の使用を推奨）、**Robot Controller** の Program & Manage 画面に表示されている Web アドレスを見つけます。
 
 .. important:: If your Robot Controller is an Android smartphone, then the address to access the Program & Manage server is "192.168.49.1:8080".
 

@@ -1,5 +1,5 @@
-Writing an Op Mode :bdg-info:`OBJ`
-==================================
+Op Mode の作成 :bdg-info:`OBJ`
+==============================
 
 .. toctree::
    

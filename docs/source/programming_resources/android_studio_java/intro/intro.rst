@@ -1,5 +1,5 @@
-Introduction :bdg-success:`AS`
-=====================================
+はじめに :bdg-success:`AS`
+===========================
 
 .. toctree::
    :maxdepth: 1

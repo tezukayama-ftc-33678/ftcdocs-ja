@@ -1,5 +1,5 @@
-Writing an Op Mode :bdg-success:`AS`
-====================================
+Op Mode の作成 :bdg-success:`AS`
+=================================
 
 .. toctree::
     ../../tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options

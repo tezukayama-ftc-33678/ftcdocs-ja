@@ -1,42 +1,17 @@
-Managing OpModes in Blocks :bdg-warning:`Blocks`
-================================================
+Blocks での OpMode 管理 :bdg-warning:`Blocks`
+=============================================
 
-Blocks is a programming language that uses graphical programming elements to
-create programs. As such its file format is different than, say, a JAVA or
-other text-based programming language file. Blocks programs are saved with a
-**.blk** extension, but its contents are actually formatted as XML (Extensible
-Markup Language).  The actual XML format in a Blocks program is beyond the
-scope of this document, except to say that it's not intended to be
-read/viewed/interpreted by any other program than Blocks. There is not a
-general program on a MAC or a PC that can view or edit the Blocks program, it
-must always be done through the Blocks interface within the Robot Controller
-App (running on a REV Control Hub or legal Android SmartPhone) - that is, to
-say, you cannot simply double-click on the file to open it up in an editor
-program that lives on your computer.
+**Blocks** は、グラフィカルなプログラミング要素を使用してプログラムを作成するプログラミング言語です。そのため、そのファイル形式は、例えば JAVA や他のテキストベースのプログラミング言語ファイルとは異なります。Blocks プログラムは **.blk** 拡張子で保存されますが、その内容は実際には XML（Extensible Markup Language）としてフォーマットされています。Blocks プログラムの実際の XML 形式はこのドキュメントの範囲外ですが、Blocks 以外のプログラムで読み取り/表示/解釈されることを意図していないということだけ言っておきます。MAC や PC には Blocks プログラムを表示または編集できる一般的なプログラムはなく、常に **Robot Controller** アプリ（**REV Control Hub** または認可された Android スマートフォン上で実行）内の Blocks インターフェースを通じて行う必要があります。つまり、ファイルをダブルクリックしてコンピューター上のエディタープログラムで開くことはできません。
 
-Creating an OpMode
-------------------
+OpMode の作成
+-------------
 
-There is a :doc:`great tutorial for creating OpModes
-<../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` that also explains a
-lot about the Blocks interface and helps you to understand what a Blocks
-program does. It is recommended to check out this document for learning how to
-work with Blocks OpModes. 
+**OpMode** を作成するための :doc:`優れたチュートリアル <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` があり、Blocks インターフェースについて多くのことを説明し、Blocks プログラムが何をするのかを理解するのに役立ちます。Blocks **OpMode** の操作方法を学ぶには、このドキュメントをチェックすることをお勧めします。
 
-Saving an OpMode
-----------------
+OpMode の保存
+-------------
 
-It's important to understand what is meant by **"Saving"** an OpMode. When
-programming/editing an OpMode, you're using either a web browser (Chrome, etc.)
-or you are using a program *acting* as a web browser (REV Hardware Client,
-etc.).  The program that you are creating/editing only *ephemerally* exists
-within the web browser; there is no auto-save or feature to ensure that the
-program is ultimately saved back onto the device (REV Control Hub or approved
-SmartPhone) for use by a robot. Only the *SAVE* operation will actually
-save the OpMode to a **.blk** file onto the device. Therefore, it's imperative
-that Blocks programmers *SAVE* their work often, and especially once they have
-completed their work. The mechanism by which you can *SAVE* an OpMode is via
-the "**Save Op Mode**" button within the editing window of the software.
+**OpMode** を**「保存」**するということの意味を理解することが重要です。**OpMode** をプログラミング/編集する際、Web ブラウザー（Chrome など）を使用しているか、Web ブラウザーとして*動作する*プログラム（**REV Hardware Client** など）を使用しています。作成/編集しているプログラムは、Web ブラウザー内に*一時的に*のみ存在します。プログラムが最終的にデバイス（**REV Control Hub** または認可されたスマートフォン）に保存され、ロボットで使用できるようにするための自動保存機能はありません。*SAVE* 操作のみが、実際に **OpMode** を **.blk** ファイルとしてデバイスに保存します。したがって、Blocks プログラマーは頻繁に、特に作業を完了したら、作業を*保存*することが不可欠です。**OpMode** を*保存*するメカニズムは、ソフトウェアの編集ウィンドウ内の「**Save Op Mode**」ボタンを使用します。
 
 .. figure:: images/blocks_save.jpg
    :align: center

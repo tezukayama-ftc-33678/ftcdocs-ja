@@ -1,5 +1,5 @@
-Introduction :bdg-info:`OBJ`
-============================
+はじめに :bdg-info:`OBJ`
+=========================
 
 .. toctree::
    
