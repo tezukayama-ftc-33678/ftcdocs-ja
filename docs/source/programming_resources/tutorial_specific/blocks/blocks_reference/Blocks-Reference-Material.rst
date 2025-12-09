@@ -28,19 +28,19 @@ Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceMan
 
 - https://ftc-community.firstinspires.org
 
-REV Robotics Control Hub ドキュメント
+REV Robotics Control Hub ドキュメント（英語）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `REV Robotics Control Hub Getting Started
 Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`__
 
-REV Robotics Expansion Hub ドキュメント
+REV Robotics Expansion Hub ドキュメント（英語）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `REV Robotics Expansion Hub Getting Started
 Guide <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__
 
-REV Robotics Driver Hub ドキュメント
+REV Robotics Driver Hub ドキュメント（英語）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `REV Robotics Driver Hub Getting Started
