@@ -1,303 +1,234 @@
-AprilTag Localization
+AprilTag 位置推定
 =====================
 
-Introduction
+はじめに
 ------------
 
-In *FIRST Tech Challenge* (FTC), **localization** uses sensor inputs to
-determine the robot's current place **on the game field**.
+*FIRST Tech Challenge* (FTC)において、**位置推定**（localization）はセンサー入力を使用して、ロボットの現在位置を**ゲームフィールド上で**特定します。
 
-Since 2023, an FTC OpMode can read the **pose** (position and orientation) of
-an AprilTag, **relative to the camera**.  An OpMode can also read that
-AprilTag's **global** pose (on the FTC game field), stored as metadata.
+2023年以降、FTC の **OpMode** は**カメラに対する相対的な** **AprilTag** の**姿勢**（位置と向き）を読み取ることができます。さらに **OpMode** は、メタデータとして保存されているその **AprilTag** の**グローバル**姿勢（FTCゲームフィールド上の位置）も読み取ることができます。
 
 .. figure:: images/05-ITD-tags.png
    :align: center
    :width: 85%
    :alt: Field Locations of AprilTags in INTO THE DEEP
 
-   Field locations of AprilTags in INTO THE DEEP
+   INTO THE DEEPにおけるAprilTagsのフィールド配置
 
-This means it's possible to calculate the camera's **global** pose -- namely
-its position and orientation on the game field.
+これは、カメラの**グローバル**姿勢、すなわちゲームフィールド上での位置と向きを計算できることを意味します。
 
-Furthermore, if the camera's pose is specified in the robot's reference frame,
-then an OpMode can determine the **global pose of the robot** (on the game
-field).
+さらに、カメラの姿勢がロボットの基準座標系で指定されている場合、**OpMode** は**ロボットのグローバル姿勢**（ゲームフィールド上）を決定できます。
 
 .. figure:: images/06-Res-Q-field-axes.png   
    :align: center
    :width: 75%
    :alt: Field Coordinate System
 
-   FTC Field Coordinate System
+   FTCフィールド座標系
 
-This **localization** is a calculation to determine the robot's global position
-and rotation, based on sensing one or more fixed landmarks -- AprilTags in this
-case.
+この**位置推定**は、1つ以上の固定されたランドマーク（この場合は **AprilTag**）を検知することに基づいて、ロボットのグローバル位置と回転を決定する計算です。
 
-This capability is provided in 2024 with FTC SDK version 10.0, including a
-Sample OpMode, thanks to `Dryw Wade <https://github.com/sfe-SparkFro>`_.  This
-tutorial describes how to use that OpMode.
+この機能は、`Dryw Wade <https://github.com/sfe-SparkFro>`_ のおかげで、2024年にFTC SDKバージョン10.0でサンプル **OpMode** とともに提供されました。このチュートリアルでは、その **OpMode** の使用方法について説明します。
 
-Configuration
+構成
 -------------
 
-*Skip this section if ...*
+*以下の場合はこのセクションをスキップしてください...*
 
-* *the active robot configuration already contains "Webcam 1", or*
-* *using the built-in camera of an Android phone as Robot Controller.*
+* *アクティブなロボット構成にすでに「Webcam 1」が含まれている場合、または*
+* *Android phoneの内蔵カメラを Robot Controller として使用している場合*
 
-Before starting the programming, REV Control Hub users should make a robot
-configuration that includes the USB webcam to be used for AprilTag
-localization.
+プログラミングを開始する前に、**REV Control Hub** ユーザーは **AprilTag** 位置推定に使用するUSBウェブカメラを含むロボット構成を作成する必要があります。
 
-For now, use the default webcam name, "Webcam 1".  If a different name is
-preferred, edit the Sample OpMode to agree with the exact webcam name in the
-robot configuration.
+今のところ、デフォルトのウェブカメラ名「Webcam 1」を使用してください。別の名前を希望する場合は、ロボット構成内の正確なウェブカメラ名と一致するようにサンプル **OpMode** を編集してください。
 
-**Save and activate** that configuration; its name should appear on the paired
-Driver Station screen.
+その構成を**保存してアクティブ化**してください。ペアリングされた **Driver Station** 画面にその名前が表示されます。
 
-Open the Sample OpMode
+サンプル OpMode を開く
 ----------------------
 
-To learn about opening the Sample OpMode, select and read the Blocks **or**
-Java section below:
+サンプル **OpMode** を開く方法については、以下の **Blocks** または Java セクションを選択してお読みください：
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      On a laptop or desktop computer connected via Wi-Fi to the Robot
-      Controller, open the Chrome browser.  Go to the REV Control Hub's address
-      http://192.168.43.1:8080 (or http://192.168.49.1:8080 for Android RC
-      phone) and click the Blocks tab.
+      **Robot Controller** にWi-Fi経由で接続されたラップトップまたはデスクトップコンピューターで、Chromeブラウザを開きます。**REV Control Hub** のアドレス http://192.168.43.1:8080（Android RC phoneの場合は http://192.168.49.1:8080）にアクセスし、**Blocks** タブをクリックします。
 
-      Click ``Create New OpMode``\ , enter a new name such as
-      "AprilTagLocalization_Darlene_v01", and select the Sample OpMode
-      ``ConceptAprilTagLocalization``.
+      ``Create New OpMode`` をクリックし、「AprilTagLocalization_Darlene_v01」などの新しい名前を入力して、サンプル **OpMode** ``ConceptAprilTagLocalization`` を選択します。
 
-      If using the built-in camera of an RC phone, change ``true`` to ``false``
-      at the OpMode's first Block called ``set USE_WEBCAM``.
+      RC phoneの内蔵カメラを使用する場合は、**OpMode** の最初のブロック ``set USE_WEBCAM`` で ``true`` を ``false`` に変更してください。
 
-      Save the OpMode, time to try it!
+      **OpMode** を保存したら、試してみましょう！
 
    .. tab-item:: Java
       :sync: java
 
-      Open your choice of OnBot Java or Android Studio.
+      **OnBot Java** または **Android Studio** のいずれかを開きます。
 
-      In the ``teamcode`` folder, add/create a new OpMode with a name such as
-      "AprilTagLocalization_Oscar_v01.java", and select the Sample OpMode
-      ``ConceptAprilTagLocalization.java``.
+      ``teamcode`` フォルダ内に、「AprilTagLocalization_Oscar_v01.java」などの名前で新しい **OpMode** を追加/作成し、サンプル **OpMode** ``ConceptAprilTagLocalization.java`` を選択します。
 
-      If using the built-in camera of an RC phone, change ``true`` to ``false``
-      at about line 71 (\ ``USE_WEBCAM``\ ).
+      RC phoneの内蔵カメラを使用する場合は、約71行目（\ ``USE_WEBCAM``\ ）で ``true`` を ``false`` に変更してください。
 
-      Click "Build", time to try it!
+      「Build」をクリックしたら、試してみましょう！
 
-Run the Sample OpMode
+サンプル OpMode を実行する
 ---------------------
 
-On the Driver Station, select the TeleOp OpMode that you just saved or built.
+**Driver Station** で、今保存またはビルドした **TeleOp** **OpMode** を選択します。
 
-Aim the camera at an AprilTag from the current FTC game.
+現在のFTCゲームの **AprilTag** にカメラを向けます。
 
 .. figure:: images/07-full-tag-11.png
    :align: center
    :width: 85%
    :alt: Full AprilTag Image
 
-   Full AprilTag Image
+   完全なAprilTag画像
 
-For real results, testing should be done on an FTC game field with one or more
-legal AprilTags posted in their correct positions.
+実際の結果を得るには、1つ以上の正規の **AprilTag** が正しい位置に配置されたFTCゲームフィールドでテストを行う必要があります。
 
-For simulated/casual testing, use a loose paper AprilTag of the correct size.
-Or it may be on a computer screen, with the image zoomed to the **correct
-physical size** (4 x 4 inches, in this example):
+シミュレーション/カジュアルなテストの場合は、正しいサイズの紙の **AprilTag** を使用してください。または、**正しい物理サイズ**（この例では4 x 4インチ）に拡大した画像をコンピューター画面に表示することもできます：
 
 .. figure:: images/08-tag-11.png
    :align: center
    :width: 85%
    :alt: Partial AprilTag Sheet
 
-   Partial AprilTag Sheet
+   部分的なAprilTagシート
 
-**Touch INIT only.**  No telemetry will appear, but at this moment the DS
-**Camera Stream** preview can be accessed.  See the next section re.  previews.
+**INITのみをタッチしてください。** テレメトリは表示されませんが、この時点でDSの **Camera Stream** プレビューにアクセスできます。プレビューについては次のセクションを参照してください。
 
-After using the preview to aim at the AprilTag, touch the DS Start arrow.   The
-OpMode should give Telemetry showing the **localization results**:
+プレビューを使用して **AprilTag** を狙った後、DSのStartボタンをタッチします。**OpMode** は**位置推定結果**を示すテレメトリを表示します：
 
 .. figure:: images/10-DS-screen.png
    :align: center
    :width: 75%
    :alt: Driver Station Sample Output
 
-   Driver Station Sample Output
+   Driver Stationのサンプル出力
 
-These details will be covered in a later section.  In this example, the camera
-is 12 inches directly in front of AprilTag #11 from INTO THE DEEP. 
+これらの詳細については後のセクションで説明します。この例では、カメラはINTO THE DEEPの **AprilTag** #11の真正面12インチの位置にあります。
 
-Slowly move the camera around, keeping the AprilTag fully in the camera's view.
-The telemetry will update with the camera's location on the field.
+**AprilTag** をカメラの視野内に完全に保ちながら、カメラをゆっくりと動かしてください。テレメトリはフィールド上のカメラの位置で更新されます。
 
-It's working!  Your OpMode can determine the **global pose** of the camera.  A
-later section describes how to get the global **robot pose**\ , based on the
-camera's placement on the robot.
+機能しています！あなたの **OpMode** はカメラの**グローバル姿勢**を決定できます。後のセクションでは、ロボット上のカメラの配置に基づいて、グローバル**ロボット姿勢**を取得する方法について説明します。
 
-*Skip the next two sections, if you already know how to use FTC previews.*
+*FTCプレビューの使用方法をすでに知っている場合は、次の2つのセクションをスキップしてください。*
 
-DS Preview
+DS プレビュー
 ----------
 
-Before describing the telemetry data, this page offers two sections on seeing
-the camera's view of the AprilTag with **previews**.  Previewing is essential
-for working with robot vision.
+テレメトリデータを説明する前に、このページでは**プレビュー**を使用してカメラの **AprilTag** ビューを確認する2つのセクションを提供します。プレビューはロボットビジョンの作業に不可欠です。
 
-On the Driver Station (DS), remain in INIT -- don't touch the Start button.
+**Driver Station** (DS)で、INITのままにしてください - Startボタンをタッチしないでください。
 
-At the top right corner, touch the 3-dots menu, then ``Camera Stream``.  This
-shows the camera's view; tap the image to refresh it.
+右上隅の3点メニューをタッチし、次に ``Camera Stream`` をタッチします。これによりカメラのビューが表示されます。画像をタップして更新します。
 
 .. figure:: images/20-CameraStream.png
    :align: center
    :width: 85%
    :alt: DS Camera Stream
 
-   Example of DS Camera Stream
+   DS Camera Streamの例
 
-For a BIG preview, touch the arrows at the bottom right corner.
+大きなプレビューを表示するには、右下隅の矢印をタッチします。
 
-Or, select Camera Stream again, to return to the previous screen and its
-Telemetry.
+または、Camera Streamを再度選択して、前の画面とそのテレメトリに戻ります。
 
-RC Preview
+RC プレビュー
 ----------
 
-The Robot Controller (RC) device also makes a preview, called ``LiveView``.
-This is full video, and is shown automatically on the screen of an RC phone.
+**Robot Controller** (RC)デバイスも ``LiveView`` と呼ばれるプレビューを作成します。これはフルビデオで、RC phoneの画面に自動的に表示されます。
 
 .. figure:: images/30-LiveView.png
    :align: center
    :width: 85%
    :alt: Control Hub Preview
 
-   Control Hub Preview 
+   Control Hubプレビュー
 
-The above preview is from a REV Control Hub.
+上記のプレビューは **REV Control Hub** からのものです。
 
-It has no physical screen, so you must plug in an HDMI monitor **or** use
-open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called
-"screen copy") to see the preview on a laptop or computer that's connected via
-Wi-Fi to the Control Hub.
+物理画面がないため、HDMIモニターを接続する**か**、オープンソースの `scrcpy <https://github.com/Genymobile/scrcpy>`_（「スクリーンコピー」と呼ばれる）を使用して、Wi-Fi経由で **Control Hub** に接続されているラップトップまたはコンピューターでプレビューを表示する必要があります。
 
-Basic Telemetry Data
+基本的なテレメトリデータ
 --------------------
 
-Let's look closer at the DS telemetry:
+DSテレメトリを詳しく見てみましょう：
 
 .. figure:: images/40-telemetry.png
    :align: center
    :width: 85%
    :alt: DS Telemetry Example
 
-   DS Telemetry Example
+   DSテレメトリの例
 
-In this example, the camera is 12 inches directly in front of AprilTag #11 from
-INTO THE DEEP. 
+この例では、カメラはINTO THE DEEPの **AprilTag** #11の真正面12インチの位置にあります。
 
 .. figure:: images/45-ITD-tag-numbers.png
    :align: center
    :width: 85%
    :alt: Tag Locations for INTO THE DEEP
 
-   Specific Tag Locations for INTO THE DEEP
+   INTO THE DEEPの特定のタグ位置
 
-The center of AprilTag #11 is at position X = -72 inches from the center of the
-field.  This telemetry gives the camera's X position as (approximately) -60
-inches, namely 12 inches in front of that tag.
+**AprilTag** #11の中心は、フィールドの中心からX = -72インチの位置にあります。このテレメトリは、カメラのX位置を（約）-60インチ、つまりそのタグの12インチ前方として示しています。
 
-The center of AprilTag #11 is at position Y = 48 inches from the center of the
-field.  This telemetry gives the camera's Y position as (approximately) 48
-inches, namely directly aligned (horizontally) with that tag.
+**AprilTag** #11の中心は、フィールドの中心からY = 48インチの位置にあります。このテレメトリは、カメラのY位置を（約）48インチ、つまりそのタグと（水平方向に）直接整列していることを示しています。
 
-The center of AprilTag #11 is at position Z = 5.9 inches (above the mat).
-This telemetry gives the camera's Z position as (approximately) 5.9 inches,
-namely directly aligned (vertically) with that tag.
+**AprilTag** #11の中心は、Z = 5.9インチの位置（マット上）にあります。このテレメトリは、カメラのZ位置を（約）5.9インチ、つまりそのタグと（垂直方向に）直接整列していることを示しています。
 
-The camera lens is parallel to the AprilTag, so the Pitch, Roll and Yaw values
-should be orthogonal (0 or a multiple of 90 degrees).  This telemetry confirms
-the parallel orientation, with PRY values (approximately) 0 or 90 degrees.
+カメラレンズは **AprilTag** に平行であるため、Pitch、Roll、Yawの値は直交（0度または90度の倍数）になるはずです。このテレメトリは、PRY値が（約）0度または90度であることで、平行な向きを確認しています。
 
-Reference Frames
+基準座標系
 ----------------
 
-In the above example. the yaw angle is given as (approximately) -90 degrees.
-But the camera is facing in the negative X direction, thus has a heading or yaw
-angle of -180 degrees in the official FTC 
-:ref:`field coordinate system <first field coordinate system>`
-:
+上記の例では、yaw角度は（約）-90度として与えられています。しかし、カメラは負のX方向を向いているため、公式FTC
+:ref:`フィールド座標系 <first field coordinate system>`
+では-180度の方位またはyaw角度を持っています：
 
 .. figure:: images/50-field-axes.png
    :align: center
    :width: 85%
    :alt: FTC Field Coordinate System
 
-   FTC Field Coordinate System
+   FTCフィールド座標系
 
-This sample OpMode uses a reference frame (coordinate system) that may be
-different than what you expect from other FTC navigation applications,
-including :ref:`IMU or robot axes <imu axes def>`
-, odometry device axes, and the FTC field system (shown above).  These
-differences typically result in basic and obvious changes in axis direction,
-axis swapping, and orthogonal angles (90-degree increments).
+このサンプル **OpMode** は、:ref:`IMUまたはロボット軸 <imu axes def>`、オドメトリデバイスの軸、およびFTCフィールドシステム（上図参照）を含む他のFTCナビゲーションアプリケーションから期待されるものとは異なる可能性のある基準座標系（座標系）を使用します。これらの違いは、通常、軸方向の基本的で明白な変更、軸の入れ替え、直交角度（90度単位）をもたらします。
 
-Learn and incorporate these differences into your OpMode, for the given
-scenario of your AprilTag localization.  Manually adjust values as needed to
-accomplish your specific navigation goals.
+**AprilTag** 位置推定の特定のシナリオに対して、これらの違いを学び、**OpMode** に組み込んでください。特定のナビゲーション目標を達成するために、必要に応じて値を手動で調整してください。
 
-**Evaluate the accuracy and reliability of AprilTag navigation**\ , with and
-without offsets, smoothing and other adjustments.  Some FTC teams use multiple
-data sources for navigation.  Base your robot strategy on capabilities
-**demonstrated** through extensive testing and refinement.
+オフセット、平滑化、その他の調整の有無にかかわらず、**AprilTag ナビゲーションの精度と信頼性を評価してください**。一部のFTCチームは、ナビゲーションに複数のデータソースを使用しています。広範なテストと改良を通じて**実証された**機能に基づいてロボット戦略を立ててください。
 
-Camera Placement on Robot
+ロボット上のカメラ配置
 -------------------------
 
-The Sample OpMode provides fields to specify the location and orientation of
-the camera on the robot.  The returned data will then represent the global
-**robot pose** rather than the camera's pose.
+サンプル **OpMode** は、ロボット上のカメラの位置と向きを指定するフィールドを提供します。返されるデータは、カメラの姿勢ではなく、グローバル**ロボット姿勢**を表します。
 
-Subject to the reference frame caveat noted above, do your best to follow these
-commented instructions, in the Blocks and Java Sample OpModes:
+上記の基準座標系に関する注意事項に従いながら、**Blocks** およびJavaサンプル **OpMode** のコメント付き指示に従うように最善を尽くしてください：
 
 ..
 
-   Setting these values requires a definition of the axes of the camera and robot:
+   これらの値を設定するには、カメラとロボットの軸の定義が必要です：
 
-   **Camera axes:**
+   **カメラ軸：**
 
-   * *Origin location:* Center of the lens
-   * *Axes orientation:* +x right, +y down, +z forward (from camera's perspective)
+   * *原点位置：* レンズの中心
+   * *軸の向き：* +x 右、+y 下、+z 前方（カメラの視点から）
 
-   **Robot axes:** (this is typical, but you can define this however you want)
+   **ロボット軸：**（これは典型的ですが、好きなように定義できます）
 
-   * *Origin location:* Center of the robot at field height
-   * *Axes orientation:* +x right, +y forward, +z upward
+   * *原点位置：* フィールド高さでのロボットの中心
+   * *軸の向き：* +x 右、+y 前方、+z 上方
 
-   **Position:** 
+   **位置：**
 
-   * If all values are zero (no translation), that implies the camera is at the
-     center of the robot. Suppose your camera is positioned 5 inches to the
-     left, 7 inches forward, and 12 inches above the ground - you would need to
-     set the position to (-5, 7, 12).
+   * すべての値がゼロ（変換なし）の場合、カメラがロボットの中心にあることを意味します。カメラが左に5インチ、前方に7インチ、地面から12インチ上に配置されているとすると、位置を(-5, 7, 12)に設定する必要があります。
 
-   **Orientation:** 
+   **向き：**
 
-   * If all values are zero (no rotation), that implies the camera is pointing
+   * すべての値がゼロ（回転なし）の場合、カメラが真上を向いていることを意味します。
      straight up. In most cases, you'll need to set the pitch to -90 degrees
      (rotation about the x-axis), meaning the camera is horizontal. Use a yaw
      of 0 if the camera is pointing forwards, +90 degrees if it's pointing
@@ -338,41 +269,37 @@ the Blocks **or** Java section below:
                .setCameraPose(cameraPosition, cameraOrientation)
                .build();
 
-Reading Global Pose
+グローバル姿勢の読み取り
 -------------------
 
-To see the commands for reading **global robot pose** data, select and read the
-Blocks **or** Java section below:
+**グローバルロボット姿勢**データを読み取るコマンドを確認するには、以下の **Blocks** または Java セクションを選択してお読みください：
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      These green Blocks can be assigned to position Variables, for later use.
+      これらの緑色のブロックは、後で使用するために位置変数に割り当てることができます。
 
       .. figure:: images/70-robot-position.png
          :align: center
          :width: 85%
          :alt: Robot Position Blocks
 
-         Robot Position Blocks
+         ロボット位置ブロック
 
-      These green Blocks can be assigned to orientation Variables, for later
-      use.
+      これらの緑色のブロックは、後で使用するために向き変数に割り当てることができます。
 
       .. figure:: images/75-robot-orientation.png
          :align: center
          :width: 85%
          :alt: Robot Orientation Blocks
 
-         Robot Orientation Blocks
+         ロボット向きブロック
 
    .. tab-item:: Java
       :sync: java
 
-      These lines demonstrate assigning position and orientation values to
-      variables, for later use.  These are typically "instant" values inside a
-      ``for`` loop, as used in the Sample OpMode.
+      これらの行は、後で使用するために位置と向きの値を変数に割り当てる方法を示しています。サンプル **OpMode** で使用されているように、これらは通常 ``for`` ループ内の「瞬時」値です。
 
       .. code-block:: java
 
@@ -388,23 +315,18 @@ Blocks **or** Java section below:
          double myRoll = detection.robotPose.getOrientation().getRoll(AngleUnit.DEGREES);
          double myYaw = detection.robotPose.getOrientation().getYaw(AngleUnit.DEGREES);
 
-Summary
+まとめ
 -------
 
-The 2024 FTC software allows **robot localization** using a camera and fixed
-AprilTags on the field.  This is done by combining three elements:
+2024年のFTCソフトウェアは、カメラとフィールド上の固定された **AprilTag** を使用した**ロボット位置推定**を可能にします。これは3つの要素を組み合わせることで実現されます：
 
+* 基本的な **AprilTag** 姿勢データ
+* タグに組み込まれたメタデータ
+* ロボット上のカメラの姿勢
 
-* basic AprilTag pose data,
-* the tag's built-in metadata, and 
-* the camera's pose on the robot.
+**AprilTag** 位置推定は、**IMU** やロボット軸、オドメトリデバイスの軸、FTCフィールドシステムなど、他のものとは異なる可能性のある基準座標系（座標系）を使用します。必要に応じて調整してください。
 
-AprilTag localization uses a reference frame (coordinate system) that may
-differ from others, such as IMU or robot axes, odometry device axes, and the
-FTC field system.  Adjust as needed.
+このナビゲーションツールを他の選択肢と比較評価し、実証された機能に基づいてロボット戦略を計画してください。
 
-Evaluate this navigation tool against other choices, and plan a robot strategy
-based on demonstrated capability.
-
-Best of luck as you develop FTC robot navigation to reach your goals!
+FTCロボットナビゲーションを開発して目標を達成できることをお祈りします！
 
