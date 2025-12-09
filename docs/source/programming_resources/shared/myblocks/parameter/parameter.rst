@@ -1,10 +1,10 @@
 パラメータタイプの詳細
 ==========================
 
-Do not type or run the following myBlock example. Its dummy inputs
-simply illustrate various **parameter types**. This myBlock does
-correctly read the robot battery voltage, but Blocks now offers a
-**VoltageSensor** Block in the **Sensors** menu.
+以下のmyBlockの例は入力したり実行したりしないでください。そのダミー入力は
+さまざまな **パラメータタイプ** を説明するためだけのものです。このmyBlockは
+ロボットのバッテリー電圧を正しく読み取りますが、Blocksには現在 **Sensors** メニューに
+**VoltageSensor** Blockが用意されています。
 
 .. figure:: images/a0280-batteryVoltage.png
    :alt: Battery Voltage

@@ -1,52 +1,45 @@
-Ideas for Other myBlocks
+他のmyBlocksのアイデア
 ========================
 
-MyBlocks offer great potential for creativity and robot capability.
-Start by programming myBlocks for tasks that an existing group of Blocks
-can do. Later, add functions that are **not available** with regular
-Blocks. Here are some examples of both:
+MyBlocksは、創造性とロボット機能の大きな可能性を提供します。
+まず、既存のBlocksグループで実行できるタスクのためにmyBlocksをプログラミングします。
+後で、通常のBlocksでは **利用できない** 機能を追加します。以下にその両方の例を示します:
 
--  Set one or more program variables during INIT, **using the gamepad**.
-   This can be done with regular Blocks, but a good User Interface (UI)
-   requires multiple long and complex Functions.
+-  INIT中に **ゲームパッドを使用して** 1つ以上のプログラム変数を設定します。
+   これは通常のBlocksで実行できますが、優れたユーザーインターフェース (UI)
+   には、複数の長く複雑な関数が必要です。
 
--  Create driving actions with **multiple sensor controls**. For
-   example, gyro-based steering towards a distance goal (ultrasonic or
-   vision target). Or Run_To_Position while following a line. A myBlock
-   can provide Blocks users with controls previously considered too
-   complex.
+-  **複数のセンサー制御** を使用した駆動アクションを作成します。例えば、
+   距離目標（超音波またはビジョンターゲット）に向けたジャイロベースのステアリング。
+   またはラインに沿ったRun_To_Position。myBlockは、以前は複雑すぎると考えられていた
+   制御をBlocksユーザーに提供できます。
 
--  Provide access to **External Libraries**, new for SDK 7.0. More
-   info is :ref:`here <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external 
-   libraries in onbot java and blocks>`.
+-  SDK 7.0の新機能である **外部ライブラリ** へのアクセスを提供します。詳細は
+   :ref:`こちら <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external 
+   libraries in onbot java and blocks>` をご覧ください。
 
--  One of the above examples controls a servo specified by the Blocks
-   user. This could lead to a **family of separate myBlocks** to
-   interact with 1 device, 2 devices, etc. Or a generic single myBlock
-   could interact with, say, up to 4 DC motors. The Java method would
-   process only those DC motors with a filled-in parameter name.
+-  上記の例の1つは、Blocksユーザーによって指定されたサーボを制御します。これは、
+   1つのデバイス、2つのデバイスなどと対話する **一連の個別のmyBlocks** につながる可能性があります。
+   または、汎用の単一のmyBlockが、例えば最大4つのDCモーターと対話できます。Javaメソッドは、
+   パラメータ名が入力されたDCモーターのみを処理します。
 
--  Control the **LED flashlight** on the RC phone?
+-  RC電話の **LEDフラッシュライト** を制御できますか？
 
--  Could **telemetry.speak** have a myBlock equivalent of the Boolean
-   ``AndroidTextToSpeech.isSpeaking()``?
+-  **telemetry.speak** には、Boolean ``AndroidTextToSpeech.isSpeaking()``
+   のmyBlock相当のものがありますか？
 
-Looking for ideas? The top-level API Documentation for the SDK is
-`here <https://javadoc.io/doc/org.firstinspires.ftc>`__. Click
-**RobotCore** to see many commonly used classes in the left-side menu,
-and you can also check other sections.
+アイデアをお探しですか？SDKのトップレベルAPIドキュメントは
+`こちら <https://javadoc.io/doc/org.firstinspires.ftc>`__ です。**RobotCore** を
+クリックすると、左側のメニューで一般的に使用される多くのクラスが表示され、
+他のセクションも確認できます。
 
-   Do you have suggestions or a good example to share? Send to
-   westsiderobotics@verizon.net.
+   提案や共有したい良い例はありますか？westsiderobotics@verizon.net まで送信してください。
 
-Here are some tips for efficiency, from the developer Liz Looney:
+開発者Liz Looneyからの効率化のためのヒントを以下に示します:
 
--  Limit the number of method calls. Calling a single myBlock that does
-   5 tasks uses less overhead than calling 5 myBlocks that each do one
-   task.
+-  メソッド呼び出しの数を制限します。5つのタスクを実行する単一のmyBlockを呼び出すことは、
+   それぞれ1つのタスクを実行する5つのmyBlocksを呼び出すよりも、オーバーヘッドが少なくなります。
 
--  Limit the number of parameters. If your myBlock needs certain
-   information that won’t change during the OpMode, use an **initialize
-   method** that’s called once at the start of the OpMode. The
-   initialize method stores that information, to avoid repeatedly
-   passing the same parameter each time the myBlock is called.
+-  パラメータの数を制限します。myBlockがOpMode中に変更されない特定の情報を必要とする場合は、
+   OpModeの開始時に1回呼び出される **初期化メソッド** を使用します。初期化メソッドは
+   その情報を保存し、myBlockが呼び出されるたびに同じパラメータを繰り返し渡すことを回避します。
