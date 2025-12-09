@@ -1,37 +1,37 @@
-Tolerancing Prints
+プリントの公差
 ==================
 
-Tolerances are everything when it comes to 3d printing- we're not precision machining parts here, we're laying down plastic and hoping it forms a shape. 
-Differences in temperature, nozzle quality, and airflow can vastly change the size a hole actually is despite what the printers instructions tell it to 
-do. A 4mm hole when printed could end up as actually being 3.6mm. Below are detailed two ways to deal with these tolerance issues for 3d printing.
+3Dプリンティングに関しては公差がすべてです。ここでは精密機械加工パーツを作成しているわけではなく、プラスチックを配置して形を形成することを期待しています。
+温度、ノズル品質、および空気の流れの違いは、プリンターの指示が何を指示するかに関係なく、穴の実際のサイズを大きく変える可能性があります。
+プリントされた4mmの穴は、実際には3.6mmになる可能性があります。以下は、3Dプリンティングのこれらの公差問題に対処する2つの方法を詳しく説明します。
 
-Designing Tolerances
+公差の設計
 --------------------
-A common way for teams to deal with prints interacting with each other and hardware is to form a table with a list of commonly used hole sizes for your various 
-applications and then use these hole sizes in their CAD. Numbers depend on your printer and nozzle size, so we would recommend making test prints to see 
-how hardware can fit best in order to form this table. An example test print would be a print with a 2.8mm, 2.9mm, 3.0mm, 3.1mm, and 3.2mm hole to see which best
-creates an M3 through hole.
+チームがプリント同士やハードウェアと相互作用するのを処理する一般的な方法は、さまざまな
+アプリケーションで一般的に使用される穴サイズのリストを含むテーブルを作成し、それらの穴サイズをCADで使用することです。数値はプリンターとノズルサイズに依存するため、
+このテーブルを作成するために、ハードウェアが最もよくフィットする方法を確認するテストプリントを作成することをお勧めします。テストプリントの例は、
+M3貫通穴を最も良く作成する2.8mm、2.9mm、3.0mm、3.1mm、および3.2mmの穴を持つプリントです。
 
-This method is generally acceptable if kept well maintained and updated per printer, but it does mean that you have inconsistent hole sizes in CAD that would seem 
-arbitrary to anyone looking at your team's CAD.
+この方法は、プリンターごとに適切に維持および更新される場合は一般的に許容されますが、チームのCADを見る人には
+任意に見えるCADで一貫性のない穴サイズを持つことを意味します。
 
-Slicer Horizontal Expansion
+スライサーの水平拡張
 ---------------------------
-The technically proper way to deal with tolerances- horizontal expansion compensation. All slicers have horizontal expansion settings to make it so that you can 
-have a 4mm hole turn out as precisely 4mm.
+公差に対処する技術的に適切な方法は、水平拡張補正です。すべてのスライサーには、
+4mmの穴を正確に4mmとして出力できるようにする水平拡張設定があります。
 
 .. figure:: images/xycompensationsuperslicer.png
   :align: center
   :width: 55%
-  :alt: An image showing XY compensation settings in a slicer.
+  :alt: スライサーでXY補正設定を示す画像。
 
-  Example horizontal compensation setting names.
+  水平補正設定名の例。
 
 |
 
-When tuning these, a good starting point is half your nozzle size- if you're using a 0.4mm nozzle, assume 0.2mm expansion and make the compensation numbers -0.2mm.
+これらを調整する際、良い出発点はノズルサイズの半分です。0.4mmノズルを使用している場合、0.2mmの拡張を想定し、補正数値を-0.2mmにします。
 
-You will still have to use different numbers for pressfit vs slipfit in cad for this however, so this is not a catch-all method of making it so you can cad parts 
-perfectly to the size you'd like them to be. Constant thoughts about what size something should be to fit hardware properly should always be considered when designing
-parts.
+ただし、これに関してはCADで圧入とすべりフィットに異なる数値を使用する必要があるため、これはパーツを希望する
+サイズに完全にCADで作成できるようにする万能の方法ではありません。パーツを設計する際には、ハードウェアを適切にフィットさせるために
+何かのサイズがどうあるべきかについての常に考慮する必要があります。
 

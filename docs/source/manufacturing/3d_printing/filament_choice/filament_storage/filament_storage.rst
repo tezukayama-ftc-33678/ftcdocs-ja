@@ -1,51 +1,51 @@
-Filament Storage Details
+フィラメント保管の詳細
 ========================
 
-General Guidelines
+一般的なガイドライン
 ------------------
 
-Here are some general guidelines for how careful you should be to store filaments.
+フィラメントを保管する際にどの程度注意すべきかについての一般的なガイドラインは次のとおりです。
 
-* Can be left in open air, sealed storage preferred: ABS, ASA
-* Sealed storage highly recommended: PLA, PET-G
-* Sealed storage highly recommended while printing and storing: TPU/TPE, Polyamides
+* 開放空気中に放置可能、密封保管が望ましい：ABS、ASA
+* 密封保管を強く推奨：PLA、PET-G
+* プリント中および保管中に密封保管を強く推奨：TPU/TPE、ポリアミド
 
-Why We Need Filament Storage
+フィラメント保管が必要な理由
 ----------------------------
 
 .. figure:: images/diyfilamentbox.jpg
   :align: center
   :width: 55%
-  :alt: A DIY filament storage solution
+  :alt: DIYフィラメント保管ソリューション
 
-  A large sealed bin can be customized to fit your use with silica packets thrown in.
+  大きな密封されたビンは、シリカパケットを投げ込んで使用に合わせてカスタマイズできます。
 
 |
 
-It's important to keep in mind that filaments need to be stored in a specific way- and even the basic filaments PLA and PET-G are no exception. 
-Filaments are **hygroscopic** (absorb moisture from the air), and that affects print quality majorly if not taken care of. Store filaments in a 
-closed and sealed container, preferably kept dry with spare silica packets, and don't leave them out whenever possible. 
+フィラメントは特定の方法で保管する必要があることを覚えておくことが重要です。基本的なフィラメントPLAやPET-Gも例外ではありません。
+フィラメントは**吸湿性**（空気から水分を吸収する）があり、適切に処理しないとプリント品質に大きな影響を与えます。フィラメントは
+密閉された容器に保管し、できれば予備のシリカパケットで乾燥状態に保ち、可能な限り外に放置しないでください。
 
-If you suspect a filament has taken on water, look up a drying temperature for it, and put it in the oven or a specialized filament dryer at that 
-temperature for a few hours to get rid of the water.
+フィラメントが水を吸収したと疑われる場合、その乾燥温度を調べ、数時間その
+温度でオーブンまたは専用のフィラメント乾燥機に入れて水を取り除きます。
 
-.. tip:: An easy way to tell if a filament has taken on moisture is if you hear a slight popping noise when printing- this is the moisture forming 
-         bubbles in the filament as it's heated.
+.. tip:: フィラメントが水分を吸収したかどうかを判断する簡単な方法は、プリント時にわずかなポップ音が聞こえることです。これは、
+         加熱されるとフィラメント内で水分が気泡を形成することによるものです。
 
 
-Storing While Printing
+プリント中の保管
 ----------------------
 
-Some more sensitive hygroscopic filaments don't just need to be stored in sealed containers, but also need to be printed while in a sealed container.
-Lots of companies sell or design "dryboxes" for this purpose, such as SUNLU's filament dryer box, BambuLab's AMS setup, or custom designs such as 
-one by Prusa Research. Do your own research and find out which of these is best for you if you deal with extremely sensitive filaments.
+より敏感な吸湿性フィラメントの中には、密閉容器に保管するだけでなく、密閉容器内でプリントする必要があるものもあります。
+多くの企業がこの目的のために「ドライボックス」を販売または設計しています。たとえば、SUNLUのフィラメント乾燥ボックス、BambuLabのAMSセットアップ、または
+Prusa Researchによるカスタムデザインなどです。非常に敏感なフィラメントを扱う場合は、独自の調査を行い、これらのどれが最適かを見つけてください。
 
 .. figure:: images/prusadrybox.png
   :align: center
   :width: 55%
-  :alt: Prusa's filament drybox
+  :alt: Prusaのフィラメントドライボックス
 
-  Prusa's filament drybox solution, 3D printed and DIY.
+  Prusaのフィラメントドライボックスソリューション、3DプリントおよびDIY。
 
 |
 

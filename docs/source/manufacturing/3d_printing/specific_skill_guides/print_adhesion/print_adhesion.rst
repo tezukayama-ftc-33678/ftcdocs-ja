@@ -1,41 +1,43 @@
-Print Adhesion
+プリント接着
 ==============
 
-There's a lot of ways that print adhesion can go wrong, and it's one of the biggest things that people new to 3d printing struggle with. Bed Leveling is 
-often the biggest, but if you just can't get that one part to stick even after a perfect bed level, try some of the things below depending on your build 
-surface!
+プリント接着がうまくいかない方法はたくさんあり、3Dプリンティングの初心者が苦労する最大の問題の1つです。ベッドレベリングが
+しばしば最大の問題ですが、完璧なベッドレベルの後でもその1つのパーツを接着できない場合は、ビルド
+サーフェスに応じて以下のいくつかを試してください。
 
-Increase Adhesion on Glass/Sticker/Powder Coated Bed Surfaces
+ガラス/ステッカー/粉末コーティングされたベッドサーフェスでの接着を増やす
 -------------------------------------------------------------
 
-If you're having bed adhesion issues with any of these surfaces, the easiest way to deal with it is PVA Glue. School glue and gluesticks contain a plastic 
-called PVA that can help bed adhesion by providing a film for the part you're printing to hold onto.
+これらのサーフェスのいずれかでベッド接着の問題がある場合、それに対処する最も簡単な方法はPVA接着剤です。スクール接着剤とグルースティックには、
+プリントしているパーツが保持するフィルムを提供することでベッド接着を助けるPVAと呼ばれるプラスチックが含まれています。
 
-* **Gluestick**: If you use gluestick, spread a thin layer of it over the area you're printing on, heat it up, and wait for the gluestick to mainly become 
-  invisible before starting the print.
-* **School Glue**: If you choose to use school glue, mix it thoroughly 50/50 with tap water in a spray bottle, and spray a thin layer on the bed. Heat it 
-  up and begin your print.
+* **グルースティック**：グルースティックを使用する場合、プリントしている領域に薄い層を広げ、加熱し、
+  プリントを開始する前にグルースティックが主に見えなくなるまで待ちます。
+* **スクール接着剤**：スクール接着剤を使用することを選択した場合、スプレーボトルで水道水と50/50で完全に混合し、ベッドに薄い層をスプレーします。加熱して
+  プリントを開始します。
 
-If you are using a Glass bed, hairspray can also serve this function, but PVA glue is a more consistent surface and is more effective.
+ガラスベッドを使用している場合、ヘアスプレーもこの機能を果たすことができますが、PVA接着剤はより一貫したサーフェスであり、より効果的です。
 
-.. warning:: When using any form of glue on your bed, it's important to clean it every couple prints. Glue buildup can significantly change the height and properties 
-             of your printing surface, and sometimes even make it worse. Soapy Water or Isopropyl Alcohol will work well for these purposes.
+.. warning:: ベッドに何らかの形の接着剤を使用する場合、数回のプリントごとにクリーニングすることが重要です。接着剤の蓄積は、
+             プリントサーフェスの高さと特性を大幅に変更し、時にはそれを悪化させることさえあります。石鹸水またはイソプロピルアルコールは、
+             これらの目的にうまく機能します。
 
-Increase Adhesion on PEX/PEI Bed Surfaces
+PEX/PEIベッドサーフェスでの接着を増やす
 -----------------------------------------
-If you have a PEX or PEI build surface and can't get anything to stick, it is recommended to clean it off with isopropyl alcohol and then rough it up slightly with steel 
-wool and then proceed using PVA glue of some sort (described above). This will provide slightly more texture for a print to grip onto.
+PEXまたはPEIビルドサーフェスを持っていて何も接着しない場合、イソプロピルアルコールでクリーニングし、スチールウールで
+わずかに粗くしてから、何らかのPVA接着剤（上記で説明）を使用することをお勧めします。これにより、プリントがグリップするためのテクスチャがわずかに増加します。
 
 
-Free Stuck Prints
+固着したプリントを解放する
 -----------------
 
-While having too little bed adhesion is a pretty common problem, having too much can be bad as well, with prints sticking too well. If you encounter an issue like 
-this, there's 2 easy ways to help prints get off the bed.
+ベッド接着が少なすぎることは非常に一般的な問題ですが、多すぎることも悪い場合があり、プリントがよく接着しすぎます。このような問題に遭遇した場合、
+プリントをベッドから取り外すのを助ける2つの簡単な方法があります。
 
-* **Cooling**: Due to thermal expansion, letting the print cool completely will help it remove itself from the bed. If that wasn't quite enough, consider putting 
-  your entire printer bed in the fridge or freezer (or even just outside if it's winter) to contract the bed and part slightly more and possibly free them.
-* **Water**: It sounds crazy, but if you put a few drops of water or a light spray around the part on the bed, the surface tension of the water will help lift up 
-  the part slightly and remove it from the bed.
+* **冷却**：熱膨張により、プリントを完全に冷却すると、ベッドから自分自身を取り除くのに役立ちます。それが十分でなかった場合、
+  プリンターベッド全体を冷蔵庫または冷凍庫に入れる（または冬の場合は外に置く）ことを検討して、ベッドとパーツをわずかに収縮させ、
+  それらを解放する可能性があります。
+* **水**：クレイジーに聞こえるかもしれませんが、ベッド上のパーツの周りに数滴の水または軽いスプレーを置くと、水の表面張力が
+  パーツをわずかに持ち上げ、ベッドから取り除くのに役立ちます。
 
   
