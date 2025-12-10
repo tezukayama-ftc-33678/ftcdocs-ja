@@ -58,10 +58,11 @@ ESD 障害のリスクを軽減するためにどのような手順を実行で�
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ESD イベントによる障害のリスクを軽減する最も効果的な方法の1つは、競技フィールドのタイル床を帯電防止スプレーで処理することです。帯電防止スプレーは、タイル表面の電気伝導性を高めます。これにより、ロボットがタイル床を横切って移動するときに、ロボット上の静電荷の蓄積を防ぐのに役立ちます。
+
 .. image:: images/heavydutystaticide.jpg
    :alt: A gallon jug and a quart spray bottle of ACL Heavy Duty Staticide.
    :align: center
-   
+
 |
 
 *FIRST* は、タイルを処理するために `ACL Heavy Duty Staticide <https://www.aclstaticide.com/products/heavy-duty-staticide>`__ スプレーの使用を推奨しています。このスプレーは、ロボット上の電荷蓄積を防ぐのに非常に効果的です。また、このスプレーは1回だけ適用すればよく、イベント全体を通して持続します（複数日にわたって機能します）。
@@ -69,7 +70,7 @@ ESD イベントによる障害のリスクを軽減する最も効果的な方�
 タイル床の処理は、**イベントホストのみが許可されていること**に注意してください。チームが自分でタイル床を処理することは**許可されていません**。
 
 ステップ 2: 信号線にフェライトチョークを追加する
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 フェライトチョークは、ESD イベント中に見られるような大きな電流変化をブロックします。これにより、センサーやその他の周辺デバイスがショックを受けたときに、電気部品への損傷や障害のリスクを軽減できます。
 
@@ -118,7 +119,6 @@ ESD イベントによる障害のリスクを軽減する最も効果的な方�
 たとえば、REV Robotics Expansion Hub で使用される 4 線式センサーケーブルには、絶縁が不十分なプラスチックコネクタがあります。ロボットの金属フレームに電荷が蓄積され、センサーケーブルの端がフレームに近く配置されている場合、ショックが発生する可能性があり、このショックは Expansion Hub の I2C ポートを妨害したり損傷したりする可能性があります。
 
 同様に、一部のサーボ延長ケーブルには、適切に絶縁または隔離されていない限り ESD に対して脆弱な露出した金属部分があります。
-同様に、一部のサーボ延長ケーブルには、適切に絶縁または隔離されていない限り ESD に対して脆弱な露出した金属部分があります。
 
 電子システムのこれらの脆弱な領域をフレームから遠ざける（3/8インチまたは10mmを超える空隙で）ことで、ESD 障害のリスクを軽減できます。
 
@@ -130,7 +130,7 @@ ESD イベントによる障害のリスクを軽減する最も効果的な方�
 
 電気テープを使用してこれらの領域を絶縁することも同様に効果的で、実装が容易な場合があります。
 
-.. figure:: images/insulatewithelectricaltape.jpg
+.. figure:: images/tapepoorlyinsulated.jpg
    :alt: A sensor with the 4-wire connector covered in electrical tape.
    :align: center
    
@@ -141,7 +141,7 @@ ESD イベントによる障害のリスクを軽減する最も効果的な方�
 
 別の ESD 軽減戦略は、ロボット上の金属物体の露出した部分を、ロボットがフィールド壁やゲーム要素に接触したときにアークが発生しないように、電気絶縁材料（電気テープなど）で覆うことです。
 
-.. figure:: images/coverexposedmetal.jpg
+.. figure:: images/coverwithtape.jpg
    :alt: A robot frame with edges covered in electrical tape.
    :align: center
    
@@ -154,7 +154,7 @@ ESD イベントによる障害のリスクを軽減する最も効果的な方�
 
 電気システムを完全に隔離することは困難であるため、制御システムを金属フレームに接地することで、それらの間の電位差を排除し、フレームと制御システムの間のアークのリスクを軽減することが推奨されます。
 
-.. figure:: images/grounding.jpg
+.. figure:: images/groundtheelectronics.png
    :alt: A Control Hub grounded to a frame using an XT30 to spade terminal cable.
    :align: center
    
@@ -166,19 +166,13 @@ ESD イベントによる障害のリスクを軽減する最も効果的な方�
 
 Anderson Powerpole コネクタを使用する場合は、XT30 から Anderson Powerpole へのアダプターが必要になることに注意してください。
 
-.. figure:: images/xt30toanderson.jpg
+.. figure:: images/REV-31-1385-AndersonPowerPoleToXT30.png
    :alt: An XT30 to Anderson Powerpole adapter.
    :align: center
    
    Anderson Powerpole への XT30 アダプター。
 
 電子機器を接地するには、*FIRST* 承認のケーブルの一端を Expansion Hub または Control Hub の XT30 バッテリーポートの 1 つに接続します。もう一方の端をロボットの金属フレームに接続します（スペード端子を使用している場合は、フレームのボルトの周りに端子を配置してボルトをしっかりと締めます）。
-
-.. figure:: images/connectgroundingcable.jpg
-   :alt: The spade terminals being placed around a bolt in a frame.
-   :align: center
-   
-   スペード端子をフレームのボルトに配置します。
 
 電気システムを絶縁し、**かつ**金属フレームに接地することは、最初は矛盾しているように見えるかもしれません。ただし、電子機器が損傷したり障害が発生したりするのは、電子機器とフレームの間で電流が制御不能な方法で流れるときです。電気システムをフレームに直接接地することで、チームは電流が流れる制御された経路を提供しています。大きなワイヤーゲージの接地ケーブルは、スパイクやサージからフレームへのより直接的な経路を提供できます（電位を均等化します）。
 
