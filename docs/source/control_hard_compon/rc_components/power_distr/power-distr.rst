@@ -143,9 +143,8 @@ Main Power Switch
 
 
 
-One Main Power Switch must control all power provided by the Main Battery. The
-legal power switches above are representative examples, check the Competition
-Manual for the full list. 
+1 つのメインパワースイッチが、メインバッテリーによって供給されるすべての電力を制御する必要があります。
+上記の合法的な電源スイッチは代表的な例です。完全なリストについては、競技マニュアルを確認してください。 
 
 Power Distribution Block
 -------------------------
@@ -188,10 +187,9 @@ Power Distribution Block
 
       goBILDA (SKU: 3108-2833-0801)
 
-Power Distribution Blocks help to distribute the power to devices such as
-Control Hubs, SPARKminis, and more.  See the Competition Manual for a
-description of legal Power Distribution methods. The Power Distribution Blocks
-shown are not the only legal devices for power distribution.
+電力分配ブロックは、**Control Hub**、SPARKmini などのデバイスに電力を分配するのに役立ちます。
+合法的な電力分配方法の説明については、競技マニュアルを参照してください。
+示されている電力分配ブロックは、電力分配用の唯一の合法的なデバイスではありません。
 
 REV Servo Power Module
 ----------------------

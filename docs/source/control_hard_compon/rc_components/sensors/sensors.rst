@@ -103,9 +103,8 @@ Color Sensor
 
       MR 45-2018
 
-A color sensor is usually a digital output device that is able to measure the color of
-an object. Most color sensors require the object in question to be relatively
-close to the sensor. 
+カラーセンサーは、通常、物体の色を測定できるデジタル出力デバイスです。
+ほとんどのカラーセンサーは、問題の物体がセンサーに比較的近い位置にあることを必要とします。 
 
 Touch Sensor
 ~~~~~~~~~~~~~~
@@ -130,9 +129,9 @@ Touch Sensor
 
       REV-31-1425
 
-A touch sensor is a digital output device that detects the activation of a
-button. This can be used as a limit switch, a way to limit the range of motion
-of a mechanism. Such a device would typically use the digital port.
+タッチセンサーは、ボタンのアクティベーションを検出するデジタル出力デバイスです。
+これは、メカニズムの動作範囲を制限する方法であるリミットスイッチとして使用できます。
+このようなデバイスは、通常、デジタルポートを使用します。
 
 
 Magnetic Limit Switch
@@ -158,13 +157,11 @@ Magnetic Limit Switch
 
       REV-31-1462
 
-A Magnetic Limit Switch is used to detect the presence of a magnet in near
-proximity. This is commonly used to limit the range of movement of a mechanism
-that would cause damage if it went beyond said limit. This is done by placing a
-magnet on said mechanism which would cause the Limit Switch to activate. It is
-important to note that as a digital device this will only send out a boolean
-output and not a range. For measuring the strength of a magnetic field take a
-look at a magnetometer.
+磁気リミットスイッチは、近接した位置にある磁石の存在を検出するために使用されます。
+これは、指定された制限を超えると損傷を引き起こすメカニズムの移動範囲を制限するために一般的に使用されます。
+これは、リミットスイッチをアクティブにする磁石を該当するメカニズムに配置することで行われます。
+デジタルデバイスとして、これはブール値の出力のみを送信し、範囲は送信しないことに注意することが重要です。
+磁場の強度を測定するには、磁力計を参照してください。
 
 IMU
 ~~~~~
