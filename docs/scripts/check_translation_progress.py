@@ -31,6 +31,9 @@ GLOSSARY_FILE = "GLOSSARY.md"
 # Minimum word length for glossary term matching
 MIN_WORD_LENGTH = 2
 
+# Detection flags (can be toggled)
+DETECT_MIXED_TEXT = True  # Mixed Japanese and English text detection (often intentional)
+
 # Patterns to detect Japanese text
 HIRAGANA_PATTERN = re.compile(r'[\u3040-\u309F]')  # Hiragana
 KATAKANA_PATTERN = re.compile(r'[\u30A0-\u30FF]')  # Katakana
@@ -135,6 +138,7 @@ class TranslationChecker:
         self.untranslated_files = 0
         self.results: Dict[str, Dict] = {}
         self.glossary_terms = glossary_terms or set()
+        self.bold_terms_freq: Dict[str, int] = {}  # Track frequency of bold English terms
         
     def has_japanese(self, text: str) -> bool:
         """Check if text contains Japanese characters."""
@@ -205,12 +209,37 @@ class TranslationChecker:
         
         return True
     
+    def extract_bold_terms(self, file_path: Path) -> None:
+        """
+        Extract frequently occurring bold English terms (**term**) from the file.
+        Updates self.bold_terms_freq with term frequencies.
+        """
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Pattern to match **EnglishTerm** (bold markdown syntax)
+            bold_pattern = re.compile(r'\*\*([A-Z][A-Za-z0-9\s]+?)\*\*')
+            matches = bold_pattern.findall(content)
+            
+            for term in matches:
+                term = term.strip()
+                # Only count multi-character English terms
+                if len(term) > 1 and re.match(r'^[A-Za-z][A-Za-z0-9\s]*$', term):
+                    self.bold_terms_freq[term] = self.bold_terms_freq.get(term, 0) + 1
+        
+        except Exception:
+            pass  # Silently skip files with errors
+    
     def detect_english_issues(self, file_path: Path) -> List[Dict]:
         """
         Detect English text remaining in the file.
         Returns list of issues with line numbers and details.
         """
         issues = []
+        
+        # Extract bold terms for glossary suggestions
+        self.extract_bold_terms(file_path)
         
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -261,16 +290,27 @@ class TranslationChecker:
             
             # Check for English sentences in the middle
             # Only flag if line has Japanese but also has long English phrases
-            if self.has_japanese(line):
+            # This detection is OFF by default (DETECT_MIXED_TEXT = False)
+            if DETECT_MIXED_TEXT and self.has_japanese(line):
                 english_matches = ENGLISH_SENTENCE_PATTERN.findall(line)
                 if english_matches:
                     # Filter out common technical terms that should stay in English
                     # and glossary terms
-                    significant_english = [
-                        match for match in english_matches
-                        if len(match.split()) >= 3  # 3+ word phrases
-                        and not self.contains_only_glossary_terms(match)  # Not all glossary terms
-                    ]
+                    significant_english = []
+                    for match in english_matches:
+                        # Skip if phrase has fewer than 3 words
+                        if len(match.split()) < 3:
+                            continue
+                        # Skip if all words are glossary terms
+                        if self.contains_only_glossary_terms(match):
+                            continue
+                        # Skip if wrapped in asterisks (bold markdown: **term**)
+                        # Check if this match appears within ** ** in the original line
+                        escaped_match = re.escape(match)
+                        if re.search(rf'\*\*[^*]*{escaped_match}[^*]*\*\*', line):
+                            continue
+                        significant_english.append(match)
+                    
                     if significant_english:
                         issues.append({
                             'line': i,
@@ -345,6 +385,25 @@ class TranslationChecker:
                 self.partially_translated += 1
             elif result['status'] == 'untranslated':
                 self.untranslated_files += 1
+    
+    def suggest_glossary_additions(self, min_frequency: int = 5) -> List[Tuple[str, int]]:
+        """
+        Suggest bold English terms to add to GLOSSARY.md based on frequency.
+        Returns list of (term, frequency) tuples sorted by frequency.
+        """
+        # Filter terms that appear frequently and aren't already in glossary
+        suggestions = []
+        for term, freq in self.bold_terms_freq.items():
+            if freq >= min_frequency:
+                # Check if term or any word in term is already in glossary
+                term_lower = term.lower()
+                words = term_lower.split()
+                if not any(word in self.glossary_terms for word in words):
+                    suggestions.append((term, freq))
+        
+        # Sort by frequency (descending)
+        suggestions.sort(key=lambda x: x[1], reverse=True)
+        return suggestions
     
     def generate_report(self, output_file: str) -> None:
         """Generate markdown report of translation progress."""
@@ -438,7 +497,22 @@ class TranslationChecker:
             f.write("```\n\n")
             f.write("**注意:** このスクリプトは `GLOSSARY.md` を読み込み、英語のまま残すべき技術用語を自動的に除外します。\n\n")
             f.write("詳細な翻訳ガイドラインは `TRANSLATION_GUIDE.md` を参照してください。\n")
-            f.write("作業効率化ツールについては `TRANSLATION_WORKFLOW_TOOLS.md` を参照してください。\n")
+            f.write("作業効率化ツールについては `TRANSLATION_WORKFLOW_TOOLS.md` を参照してください。\n\n")
+            
+            # Glossary suggestions section
+            suggestions = self.suggest_glossary_additions(min_frequency=5)
+            if suggestions:
+                f.write("---\n\n")
+                f.write("## 💡 GLOSSARY.md への追加候補\n\n")
+                f.write("以下の太字英語用語が頻繁に使用されています。GLOSSARY.md にコピー&ペーストして追加できます:\n\n")
+                f.write("```markdown\n")
+                f.write("| 英語 | 表記 | 備考 |\n")
+                f.write("|------|------|------|\n")
+                for term, freq in suggestions[:20]:  # Top 20 suggestions
+                    f.write(f"| {term} | **{term}** | 出現回数: {freq} |\n")
+                f.write("```\n\n")
+                if len(suggestions) > 20:
+                    f.write(f"**注:** 他に {len(suggestions) - 20} 件の候補があります（出現回数5回以上）。\n\n")
         
         print(f"\nReport generated: {output_file}")
 

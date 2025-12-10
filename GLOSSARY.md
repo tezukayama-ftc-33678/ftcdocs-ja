@@ -13,6 +13,7 @@
 | 英語 | 表記 | 備考 |
 |------|------|------|
 | OpMode | **OpMode** | コードに登場する固有名詞 |
+| OpMode | **Op Mode** | コードに登場する固有名詞 |
 | LinearOpMode | **LinearOpMode** | コードに登場する固有名詞 |
 | Telemetry | **Telemetry** | コードに登場する固有名詞 |
 | HardwareMap | **HardwareMap** | コードに登場する固有名詞 |
@@ -31,7 +32,10 @@
 |------|------|------|
 | REV Robotics Control Hub | **REV Robotics Control Hub** | 製品名 |
 | REV Robotics Expansion Hub | **REV Robotics Expansion Hub** | 製品名 |
+| HuskyLens | **HuskyLens** | 出現回数: 42 |
 | DRIVER STATION | **DRIVER STATION** | 製品名 |
+| DS | **DS** | 出現回数: 18 |
+| RC | **RC** | 出現回数: 16 |
 | IMU | **IMU** | センサー名（Inertial Measurement Unit） |
 | Control Hub | **Control Hub** | 製品名 |
 | Driver Hub | **Driver Hub** | 製品名 |
