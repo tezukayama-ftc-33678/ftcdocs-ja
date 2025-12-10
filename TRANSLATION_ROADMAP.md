@@ -164,12 +164,12 @@
 ##### 実績工数: 約1時間（予想: 5-7時間）
 ##### 注記: ロードマップに記載されていたtelemetry.rstとapplying_pid_control.rstは存在しませんでした（Phase 4.2および4.4と同様のパターン）。代わりに、Android Studioチュートリアルの実際のファイル2つを翻訳しました。
 
-#### Sub-Phase 4.7: 共通リソース - デバイス管理（約8ファイル）
-- [ ] `docs/source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst` - **大規模ファイル（約525行）** Control Hub管理
-- [ ] `docs/source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst` - **大規模ファイル（約384行）** スマートフォンRC管理
-- [ ] `docs/source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst` - **大規模ファイル（約433行）** Android設定
+#### Sub-Phase 4.7: 共通リソース - デバイス管理（約8ファイル）✅ **完了**
+- [x] `docs/source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst` - **大規模ファイル（525行）** Control Hub管理
+- [x] `docs/source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst` - **大規模ファイル（384行）** スマートフォンRC管理
+- [x] `docs/source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst` - **大規模ファイル（433行）** Android設定
 
-##### 予想工数: 8-10時間
+##### 実績工数: 約2時間（予想: 8-10時間）
 
 #### Sub-Phase 4.8: SDK・ライブラリ・ラップトップ要件（約8ファイル）
 - [ ] `docs/source/programming_resources/laptops/laptops.rst` - **大規模ファイル（約377行）** ラップトップ要件
@@ -420,6 +420,7 @@
 | 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
 | 2025-12-09 | 2.2 | Sub-Phase 4.2 完了 - Blocks センサーと機能（5ファイル翻訳、計857行） |
 | 2025-12-09 | 2.3 | Sub-Phase 4.3 完了 - OnBot Java チュートリアル基礎（2ファイル翻訳、計680行） |
+| 2025-12-09 | 2.4 | Sub-Phase 4.7 完了 - 共通リソース デバイス管理（3ファイル翻訳、計1342行） |
 | 2025-12-09 | 2.4 | Sub-Phase 4.5 完了 - Android Studio セットアップと基礎（3ファイル翻訳、計1204行） |
 | 2025-12-09 | 2.4 | Sub-Phase 4.6 完了 - Android Studio センサーと機能（2ファイル翻訳、計200行） |
 | 2025-12-09 | 2.4 | Sub-Phase 4.4 完了 - OnBot Java センサーと機能（3ファイル翻訳、計259行） |
