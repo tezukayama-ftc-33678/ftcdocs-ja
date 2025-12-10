@@ -58,11 +58,10 @@
 
       REV Robotics (REV-31-1302)
 
-The main power of a robot comes from one 12v battery. The batterys above are
-samples of these batteries, check the Competition Manual for the full list of
-batteries. Note that it is typically allowed to replace the connector on the
-batteries, provided the in-line fuse on the battery is preserved, again check
-the Competition Manual for full details.
+ロボットの主電源は 1 つの 12V バッテリーから供給されます。上記のバッテリーは
+これらのバッテリーのサンプルです。バッテリーの完全なリストについては、競技マニュアルを確認してください。
+バッテリーのインラインヒューズが保持されている限り、通常、バッテリーのコネクタを交換することが許可されていることに注意してください。
+詳細については、競技マニュアルを再度確認してください。
 
 .. warning:: 
    Be sure to remove the 20A fuse from the in-line fuse holder prior to cutting

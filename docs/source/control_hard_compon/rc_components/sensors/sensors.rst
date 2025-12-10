@@ -30,10 +30,9 @@ Distance Sensor (Ultrasonic)
       MB1242
 
 
-An Ultrasonic Distance Sensor is a device that is able to measure the distance
-between an object and the sensor.  It does this by sending out a sound wave and
-measuring the time it takes for the wave to travel to the object and back.
-Using this and the speed of sound the distance can be calculated.
+超音波距離センサーは、物体とセンサー間の距離を測定できるデバイスです。
+これは、音波を送出し、波が物体まで移動して戻ってくるまでの時間を測定することで行います。
+これと音速を使用して、距離を計算できます。
 
 Distance Sensor (Optical)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -58,13 +57,11 @@ Distance Sensor (Optical)
 
       REV-31-1505
 
-An Optical Time of Flight (ToF) Sensor is a device that is able to measure the distance
-between an object and the sensor. It does this by sending out a light beam and
-measuring the time it takes for the beam to travel to the object and back.
-Using this time and the known speed of light the distance can be calculated. 
-Be aware that the way the object in question interacts with light can change the
-accuracy of the distance measurement. A transparent object like field panels
-will often provide inaccurate measurements.
+光学式飛行時間（ToF）センサーは、物体とセンサー間の距離を測定できるデバイスです。
+これは、光ビームを送出し、ビームが物体まで移動して戻ってくるまでの時間を測定することで行います。
+この時間と既知の光速を使用して、距離を計算できます。
+問題の物体が光とどのように相互作用するかによって、距離測定の精度が変わる可能性があることに注意してください。
+フィールドパネルのような透明な物体は、しばしば不正確な測定を提供します。
 
 Color Sensor
 ~~~~~~~~~~~~~~
