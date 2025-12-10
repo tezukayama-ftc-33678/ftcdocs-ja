@@ -85,38 +85,21 @@ RTX 提供の DECODE シーズン中の **FIRST** Tech Challenge では、AprilT
          
 .. only:: latex
 
-   .. list-table:: Different Views of Challenging Scenario
+   .. list-table:: 困難なシナリオの異なる視点
       :class: borderless
 
       * - .. image:: images/1-decode-washed-out-obelisk.*
         - .. image:: images/2-decode-washed-out-obelisk.*
         - .. image:: images/5-decode-warehouse-lighting.*
 
-The best way to counter this environmental lighting is to use the webcam
-settings within the SDK to adjust both the Gain and the Exposure settings at
-the same time. By simultaneously minimizing the exposure (lessening the amount of
-time light is allowed to strike the sensor each image frame) and maximizing
-the gain (amplifying the signal from the sensor) the resulting image will be 
-darker than a normal image but elements of high contrast will be accentuated, 
-like AprilTags, allowing them to be recognized. This can be experimented with
-using the ``ConceptAprilTagOptimizeExposure`` sample.
+この環境照明に対抗する最良の方法は、SDK 内のウェブカメラ設定を使用して、Gain と Exposure の設定を同時に調整することです。露出を最小化（各画像フレームで光がセンサーに当たることを許可する時間を短縮）し、ゲインを最大化（センサーからの信号を増幅）することにより、結果の画像は通常の画像よりも暗くなりますが、AprilTag のような高コントラストの要素が強調され、認識できるようになります。これは ``ConceptAprilTagOptimizeExposure`` サンプルで実験できます。
 
-Sure enough, by minimizing the Exposure and maximizing the Gain of the webcam,
-the resulting images from the webcam were able to be used to recognize the
-problematic AprilTags. For more examples, the ``RobotAutoDriveToAprilTag...``
-sample OpModes also use this technique for adjusting the exposure and gain 
-settings of the camera to ensure the AprilTags are readable under most 
-conditions. 
+案の定、ウェブカメラの Exposure を最小化し、Gain を最大化することで、ウェブカメラからの結果の画像を使用して、問題のある AprilTag を認識できました。その他の例については、``RobotAutoDriveToAprilTag...`` サンプル **OpMode** も、ほとんどの条件下で AprilTag が読み取り可能であることを確認するために、カメラの露出とゲイン設定を調整するこの技術を使用します。 
 
 .. tip:: 
-   One big advantage is that this technique (minimizing exposure while
-   maximizing gain) is ALSO very popular in reducing motion blur for reading
-   AprilTags while moving - so this has more than one benefit!
+   大きな利点の 1 つは、この技術（露出を最小化してゲインを最大化する）が、移動中に AprilTag を読み取るためのモーションブラーを減らすためにも非常に人気があることです - これには複数の利点があります！
 
-Here are examples of the images once the exposure and gain are set appropriately,
-one image has the AprilTag processing enabled to show that the AprilTag is 
-being detected properly, and the other has processing disabled so that we can 
-see the raw image being returned by the webcam.
+露出とゲインが適切に設定された後の画像の例を以下に示します。1 つの画像は AprilTag 処理が有効になっており、AprilTag が適切に検出されていることを示し、もう 1 つは処理が無効になっているため、ウェブカメラから返される生の画像を確認できます。
 
 .. only:: html
 
@@ -159,25 +142,19 @@ see the raw image being returned by the webcam.
 
 .. only:: latex
 
-   .. list-table:: Resulting Images
+   .. list-table:: 結果の画像
       :class: borderless
 
       * - .. image:: images/3-decode-recognized-obelisk.*
         - .. image:: images/4-decode-recognized-obelisk-raw.*
 
-Reading Multiple AprilTags on the OBELISK
+OBELISK 上の複数の AprilTag の読み取り
 -----------------------------------------
 
-The OBELISK is an equilateral triangular prism (we know, real obelisks have 4
-sides) which is positioned with 1 of the rectangular faces centered on the
-GOAL-side of the FIELD, just outside of the FIELD perimeter. When ROBOTS are
-set up on the field contacting their ALLIANCE'S GOAL, it is a very real
-possibility that the ROBOT's camera will see and process multiple AprilTags.
+OBELISK は正三角柱です（実際のオベリスクには 4 つの面があることはわかっています）。これは、長方形の面の 1 つが FIELD の GOAL 側の中央に配置され、FIELD の境界のすぐ外側にあります。ROBOT が自分の ALLIANCE の GOAL に接触するようにフィールドに設置されている場合、ROBOT のカメラが複数の AprilTag を認識して処理する可能性が非常に高くなります。
 
 .. warning:: 
-   It might seem logical to read both AprilTags and use those two tags to
-   determine (and verify) which AprilTag is actually being seen. However, there
-   is no defined order for AprilTags on an OBELISK, so this is not reliable. 
+   両方の AprilTag を読み取り、それらの 2 つのタグを使用して、実際に認識されている AprilTag を判断（および検証）することは論理的に思えるかもしれません。ただし、OBELISK 上の AprilTag には定義された順序がないため、これは信頼できません。 
 
 
 .. figure:: images/6-decode-obelisk-tags.*
@@ -185,10 +162,8 @@ possibility that the ROBOT's camera will see and process multiple AprilTags.
    :width: 75%
    :alt: Image showing OBELISK with more than one AprilTag visible
 
-   View of AprilTags on OBELISK from BLUE GOAL
+   BLUE GOAL から見た OBELISK 上の AprilTag
 
-A reliable way to determine which AprilTag is truly showing on the FIELD
-is to move the ROBOT into a position where the AprilTag on the front face of
-the OBELISK is the only tag that can be viewed. 
+FIELD に実際に表示されている AprilTag を判断する信頼できる方法は、ROBOT を OBELISK の前面の AprilTag が表示できる唯一のタグである位置に移動することです。 
 
-Good Luck this season!
+今シーズン、幸運を祈ります！
