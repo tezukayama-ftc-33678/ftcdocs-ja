@@ -42,8 +42,8 @@ UVC ウェブカメラ
 
       :ref:`logitech_c920_label`
 
-Webcams are intended to be used in computer vision related tasks.
-Example use cases for a webcam are:
+ウェブカメラは、コンピュータービジョン関連のタスクで使用することを目的としています。
+ウェブカメラの使用例には、以下が含まれます：
 
 - :doc:`detecting <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>` an AprilTag,
 - determining where the robot is :doc:`located <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` on the field,

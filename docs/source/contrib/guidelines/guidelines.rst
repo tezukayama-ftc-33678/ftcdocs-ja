@@ -57,8 +57,8 @@ Read the Docs はドキュメントホスティングプラットフォームで
 
 `ダークテーマ <https://github.com/FIRST-Tech-Challenge/ftcdocs-helper/tree/main/sphinx_rtd_dark_mode_v2>`__ は FTC Docs 開発チームによって提供されています。
 
-.. We might wish to state what version of Sphinx we use and other version info.
-   This is also where we could declare what versions of HTML, XML, CSS we target. Perhaps what browsers we target. 
-   (X)HTML, CSS, or usability standards compliance information and links to website validation tests. This used to be a thing, not so much anymore.
-   Perhaps that we are WCAG compliant someday.
+.. 使用している Sphinx のバージョンやその他のバージョン情報を記載することを検討しています。
+   ここでは、ターゲットとする HTML、XML、CSS のバージョンを宣言することもできます。おそらく、ターゲットとするブラウザも含めます。
+   (X)HTML、CSS、またはユーザビリティ標準への準拠情報と、ウェブサイト検証テストへのリンク。これは以前は重要でしたが、今はそれほどではありません。
+   いつの日か WCAG に準拠することを目指しています。
 

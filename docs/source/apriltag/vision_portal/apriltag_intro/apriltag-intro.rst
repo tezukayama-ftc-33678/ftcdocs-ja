@@ -301,5 +301,5 @@ Much credit to:
 - FTC navigation expert `@gearsincorg <https://github.com/gearsincorg>`__ 
 - and the smart people at `UMich/AprilTag <https://april.eecs.umich.edu/software/apriltag>`__.
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、訂正は westsiderobotics@verizon.net までお寄せください。
 

@@ -24,15 +24,14 @@
 
 内蔵 IMU は、各 **Control Hub** または **Expansion Hub** の I2C バス 0 に内部的に接続されています。**Robot Controller** を使用して **Control Hub** または **Expansion Hub** を構成するたびに、アプリは I2C バス 0 の IMU を自動的に構成します。カラーセンサーを構成できるようにするには、このバス用に別の I2C デバイスを追加する必要があります。
 
-3. Press the **Add** button to add another I2C device to this bus.    
+3. **Add** ボタンを押して、このバスに別の I2C デバイスを追加します。    
 
 .. image:: images/ConfiguringHardwareColorDistanceStep3.jpg
    :align: center
 
 |
 
-4. Select "REV Color/Range Sensor" from the dropdown selector for     
-この新しいデバイスに名前を付けます。タッチスクリーンキーボードを使用して、このデバイスに「sensorColorRange」という名前を付けます。
+4. ドロップダウンセレクターから「REV Color/Range Sensor」を選択し、この新しいデバイスに名前を付けます。タッチスクリーンキーボードを使用して、このデバイスに「sensorColorRange」という名前を付けます。
 
 .. image:: images/ConfiguringHardwareColorDistanceStep4.jpg
    :align: center

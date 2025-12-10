@@ -102,8 +102,7 @@ Program & Manage ワイヤレスネットワークに正常に接続されてい
 
 |
 
-3. Console の上部にある **Blocks** リンクをクリックして、メインの Blocks Programming 
-画面に移動します。
+3. Console の上部にある **Blocks** リンクをクリックして、メインの **Blocks** プログラミング画面に移動します。
 
 .. image:: images/WritingFirstOpModeStep3aControlHub.jpg
    :align: center

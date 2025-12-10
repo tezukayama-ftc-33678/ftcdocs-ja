@@ -72,7 +72,7 @@ SDK はデフォルトで、**カメラに対する** AprilTag ポーズを記�
    AprilTag Camera Calibration <../apriltag_camera_calibration/apriltag-camera-calibration>
    AprilTag Pose <../apriltag_pose/apriltag-pose>
    AprilTag Library <../apriltag_library/apriltag-library>
-   VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
+   VisionPortal の CPU と帯域幅 <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
    VisionPortal Camera Controls <../visionportal_camera_controls/visionportal-camera-controls>
    Vision Multiportal <../vision_multiportal/vision-multiportal>
    AprilTag Advanced Use <../apriltag_advanced_use/apriltag-advanced-use>
@@ -86,6 +86,6 @@ Much credit to
 - *FIRST* Tech Challenge navigation expert `@gearsincorg <https://github.com/gearsincorg>`__ 
 - and the smart people at `UMich/AprilTag <https://april.eecs.umich.edu/software/apriltag>`__.
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、訂正は westsiderobotics@verizon.net までお寄せください。
 
 
