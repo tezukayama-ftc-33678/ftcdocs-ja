@@ -33,6 +33,10 @@ https://ftc-docs.firstinspires.org
 
 翻訳作業を効率的に進めるためのツールとドキュメントを提供しています。
 
+### 🚀 クイックスタート
+
+- **[TRANSLATION_TOOLS_QUICKSTART.md](TRANSLATION_TOOLS_QUICKSTART.md)** - 5分でわかる翻訳ツールの使い方 👈 まずはこちら！
+
 ### ドキュメント
 
 - **[TRANSLATION_WORKFLOW_TOOLS.md](TRANSLATION_WORKFLOW_TOOLS.md)** - 翻訳作業効率化ツールガイド
