@@ -249,35 +249,36 @@ COTS USB Battery Pack
 ただし、ロボットに COTS USB 外部バッテリーを搭載すると、追加の考慮事項が発生します。
 すべてのチームは、COTS USB バッテリーパックが以下を満たしていることを確認する必要があります：
 
-- Is manufactured by a reputable brand.
-- Is within allowed Watt-hour capacity limits.
-- Includes standard safety features.
-- Is secured on the Robot.
-- Has unused ports covered.
-- Is always charged properly.
-- Does not show any signs of distress.
-- Is never connected to the Robot power
+- 信頼できるブランドによって製造されていること。
+- 許可されたワット時容量制限内であること。
+- 標準的な安全機能が含まれていること。
+- ロボットに固定されていること。
+- 未使用のポートがカバーされていること。
+- 常に適切に充電されていること。
+- 損傷の兆候がないこと。
+- ロボットの電源に接続されていないこと。
 
-The following sections are intended to help clarify the list above.
+以下のセクションは、上記のリストを明確にすることを目的としています。
 
 Reputable Brands
 ~~~~~~~~~~~~~~~~
 
-Far and above, the most important factor regarding the safety of COTS USB
-Battery Packs is ensuring that the battery pack was manufactured by a reputable
-brand. International testing of COTS USB Battery Packs has concluded that
-unbranded batteries, or batteries manufactured by little-known companies, tend
-to fail more often than batteries from reputable brands. How do you know what
-brands are reputable and which ones are not? That's not always an easy thing to
-determine, however brands such as 
-`Anker <https://www.anker.com/collections/power-banks>`__, 
-`Belkin <https://www.belkin.com/products/chargers/portable-chargers-power-banks/>`__,
-`Otterbox <https://www.otterbox.com/en-us/portable-chargers>`__, and 
+COTS USB バッテリーパックの安全性に関して最も重要な要素は、
+バッテリーパックが信頼できるブランドによって製造されていることを確認することです。
+COTS USB バッテリーパックの国際的なテストにより、ブランドのないバッテリー、
+またはあまり知られていない会社によって製造されたバッテリーは、
+信頼できるブランドのバッテリーよりも故障する傾向があることが結論付けられています。
+どのブランドが信頼できて、どのブランドがそうでないかをどのように知ることができますか？
+それは常に簡単なことではありませんが、
+`Anker <https://www.anker.com/collections/power-banks>`__、
+`Belkin <https://www.belkin.com/products/chargers/portable-chargers-power-banks/>`__、
+`Otterbox <https://www.otterbox.com/en-us/portable-chargers>`__、
 `BioLite <https://www.bioliteenergy.com/collections/portable-battery-banks>`__ 
-are among the most-used brands in the world. *FIRST* Tech Challenge recommends
-choosing an internationally reputable brand, even if the brand is more
-expensive than a lesser-known brand, as these batteries will be more apt to
-follow safety and performance guidelines. NEVER choose a COTS USB Battery
+などのブランドは、世界で最も使用されているブランドの 1 つです。
+**FIRST Tech Challenge** は、あまり知られていないブランドよりも高価であっても、
+国際的に信頼できるブランドを選択することをお勧めします。
+これらのバッテリーは、安全性とパフォーマンスのガイドラインに従う可能性が高いためです。
+価格だけで COTS USB バッテリー
 Pack based on its (low) price alone!
 
 Capacity Limits

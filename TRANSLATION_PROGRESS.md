@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 15:05:01
+**生成日時:** 2025-12-10 15:09:37
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,21 +9,22 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 75 (29.4%)
-- **部分的に翻訳:** 8 (3.1%)
+- **翻訳完了:** 77 (30.2%)
+- **部分的に翻訳:** 6 (2.4%)
 - **未翻訳:** 172 (67.5%)
 
-**進捗:** `██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 29.4%
+**進捗:** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 30.2%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **75個**
+完全に日本語化されているファイル: **77個**
 
 <details>
 <summary>ファイルリストを表示</summary>
 
+- `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
 - `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
 - `contrib/guidelines/guidelines.rst`
 - `contrib/index.rst`
@@ -42,6 +43,7 @@
 - `control_hard_compon/rc_components/hub/ports/std-ports.rst`
 - `control_hard_compon/rc_components/index.rst`
 - `control_hard_compon/rc_components/motors/motors.rst`
+- `control_hard_compon/rc_components/sensors/sensors.rst`
 - `control_hard_compon/rc_components/servos/servos.rst`
 - `control_hard_compon/rc_components/uvc/uvc.rst`
 - `devices/huskylens/huskylens.rst`
@@ -106,7 +108,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **8個**
+英語が残っているファイル: **6個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -216,31 +218,6 @@
 
 ... 他 2 件の問題
 
-### `control_hard_compon/rc_components/sensors/sensors.rst`
-
-**問題箇所:** 5件
-
-- **行 254:** Untranslated English paragraph/sentence
-  ```
-  degree to which the adjuster is turned. It is often used as a form of
-  ```
-- **行 255:** Untranslated English paragraph/sentence
-  ```
-  measuring the absolute orientation of an axle. The manner in which the output
-  ```
-- **行 256:** Untranslated English paragraph/sentence
-  ```
-  voltage changes is based on the Potentiometer that is used.
-  ```
-- **行 257:** Untranslated English paragraph/sentence
-  ```
-  Such a device is typically attatched via the analog port of the REV Hub.
-  ```
-- **行 263:** Untranslated English paragraph/sentence
-  ```
-  Thanks to the folks at REV Robotics for providing this handy chart of sensor com
-  ```
-
 ### `gracious_professionalism/gp.rst`
 
 **問題箇所:** 3件
@@ -269,19 +246,6 @@
 - **行 31:** Untranslated English paragraph/sentence
   ```
   Build the Start a Team link so we can italicize FIRST.
-  ```
-
-### `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
-
-**問題箇所:** 2件
-
-- **行 185:** Untranslated English paragraph/sentence
-  ```
-  even from the camera’s frame of reference.
-  ```
-- **行 204:** Untranslated English paragraph/sentence
-  ```
-  for navigation, but that’s beyond this AprilTag introduction.
   ```
 
 ---

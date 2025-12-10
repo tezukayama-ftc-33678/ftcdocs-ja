@@ -86,12 +86,12 @@ Configuring Both devices
 **注：** **Control Hub** のみを含む構成が既にある場合は、構成を編集して
 「Scan」ボタンを押すことで **Expansion Hub** を追加できます。
 
-Connect your Driver Hub to the Control Hub's WiFi network and select the
-Configure Robot option from the Driver Station app. Press the New button
-to create a new configuration file. When you first scan for hardware, your
-Robot Controller should detect the embedded Control Hub. The Robot Controller
-will automatically label this device as an Control Hub “Portal”. The Robot
-Controller will communicate through this portal to the individual Hubs.
+**Driver Hub** を **Control Hub** の WiFi ネットワークに接続し、**Driver Station** アプリから
+Configure Robot オプションを選択します。**New** ボタンを押して、新しい構成ファイルを作成します。
+最初にハードウェアをスキャンすると、**Robot Controller** は組み込みの **Control Hub** を検出するはずです。
+**Robot Controller** は、このデバイスに自動的に **Control Hub**「Portal」とラベル付けします。
+**Robot Controller** は、このポータルを介して個々の Hub と通信します。
+
 
 <INSERT IMAGE>
 
