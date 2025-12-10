@@ -121,14 +121,9 @@ OpMode の構造を理解する
 
 |
 
-If you think about an OpMode as a list of instructions for the robot,
-this set of instructions that you created will be executed by the robot
-whenever a team member selects the OpMode called ``MyFIRSTJavaOpMode``
-from the list of available OpModes for this Robot Controller.
+**OpMode** をロボットへの命令のリストと考えると、作成したこの一連の命令は、チームメンバーがこの **Robot Controller** で利用可能な **OpMode** のリストから ``MyFIRSTJavaOpMode`` という **OpMode** を選択すると、ロボットによって実行されます。
 
-Let's look at the structure of your newly created OpMode. Here's a copy
-of the OpMode text (minus some comments, the package definition, and
-some import package statements):
+新しく作成した **OpMode** の構造を見てみましょう。以下は **OpMode** テキストのコピーです（一部のコメント、パッケージ定義、およびいくつかのインポートパッケージステートメントは省略されています）。
 
 .. code-block:: java
 
