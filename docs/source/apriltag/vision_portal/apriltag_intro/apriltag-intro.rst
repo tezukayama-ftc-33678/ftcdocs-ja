@@ -182,7 +182,6 @@ SDK は、基礎となるポーズデータを次のように提供します：
 
 注：これらの軸は、カメラの参照フレームからでも、公式 AprilTag
 `definitions <https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-Guide#coordinate-system>`__,
-even from the camera’s frame of reference.
 
 SDK は AprilTag **回転** データを次のように提供します： 
 
@@ -201,7 +200,6 @@ SDK は AprilTag **回転** データを次のように提供します：
 
 OpMode は、ナビゲーションのためにロボットの方向を全体のフィールドまたは 
 :download:`‘global coordinates’ <files/FTC-Global-Coordinates.png>`
-for navigation, but that’s beyond this AprilTag introduction.
 
 高度な使用法
 ------------

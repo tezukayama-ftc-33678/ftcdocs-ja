@@ -250,17 +250,16 @@ Potentiometer
 
       50k Ohm Potentiometer
 
-A Potentiometer is a device that changes the output voltage based upon the
-degree to which the adjuster is turned. It is often used as a form of
-measuring the absolute orientation of an axle. The manner in which the output
-voltage changes is based on the Potentiometer that is used.
-Such a device is typically attatched via the analog port of the REV Hub.
+ポテンショメーターは、アジャスターが回転する程度に基づいて出力電圧を変更するデバイスです。
+これは、車軸の絶対的な方向を測定する形式としてよく使用されます。出力電圧が変化する方法は、
+使用されるポテンショメーターに基づいています。
+このようなデバイスは、通常、**REV Hub** のアナログポートを介して接続されます。
 
 
 Sensor Compatibility Chart
 ---------------------------
 
-Thanks to the folks at REV Robotics for providing this handy chart of sensor compatibility.
+センサー互換性に関するこの便利なチャートを提供してくれた **REV Robotics** の方々に感謝します。
 
 .. list-table::
    :header-rows: 1

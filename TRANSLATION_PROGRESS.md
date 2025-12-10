@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 14:59:53
+**生成日時:** 2025-12-10 15:05:01
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 73 (28.6%)
-- **部分的に翻訳:** 10 (3.9%)
+- **翻訳完了:** 75 (29.4%)
+- **部分的に翻訳:** 8 (3.1%)
 - **未翻訳:** 172 (67.5%)
 
-**進捗:** `██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 28.6%
+**進捗:** `██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 29.4%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **73個**
+完全に日本語化されているファイル: **75個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -30,7 +30,9 @@
 - `contrib/tutorials/create_codespace/create-codespace.rst`
 - `contrib/tutorials/index.rst`
 - `contrib/tutorials/overview/overview.rst`
+- `contrib/tutorials/switch_branch/switch-branch.rst`
 - `contrib/workflow/workflow.rst`
+- `control_hard_compon/ds_components/components/components.rst`
 - `control_hard_compon/ds_components/index.rst`
 - `control_hard_compon/index.rst`
 - `control_hard_compon/rc_components/encoders/encoders.rst`
@@ -104,7 +106,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **10個**
+英語が残っているファイル: **8個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -214,33 +216,6 @@
 
 ... 他 2 件の問題
 
-### `contrib/tutorials/switch_branch/switch-branch.rst`
-
-**問題箇所:** 6件
-
-- **行 39:** Untranslated English paragraph/sentence
-  ```
-  This error occurs when you have uncommitted changes in your working directory. Y
-  ```
-- **行 45:** Untranslated English paragraph/sentence
-  ```
-  This command will commit your changes with the message you provide.
-  ```
-- **行 47:** Untranslated English paragraph/sentence
-  ```
-  To stash your changes, you can use the following command:
-  ```
-- **行 53:** Untranslated English paragraph/sentence
-  ```
-  Stashing allows you to save your changes for later without committing them. Afte
-  ```
-- **行 59:** Untranslated English paragraph/sentence
-  ```
-  It is best to use ``git stash`` when you are not ready to commit your changes bu
-  ```
-
-... 他 1 件の問題
-
 ### `control_hard_compon/rc_components/sensors/sensors.rst`
 
 **問題箇所:** 5件
@@ -281,23 +256,6 @@
 - **行 27:** Untranslated English paragraph/sentence
   ```
   to be a good descriptor for part of the ethos of* **FIRST***. It is part of what
-  ```
-
-### `control_hard_compon/ds_components/components/components.rst`
-
-**問題箇所:** 3件
-
-- **行 254:** Untranslated English paragraph/sentence
-  ```
-  play. Up to two gamepads, in any combination, of the allowed types of gamepads
-  ```
-- **行 255:** Untranslated English paragraph/sentence
-  ```
-  may be used. All gamepads MUST be used in wired mode only, no wireless of any
-  ```
-- **行 256:** Untranslated English paragraph/sentence
-  ```
-  kind is allowed. Special features of some gamepads (Rumble, Lighting) may be
   ```
 
 ### `overview/ftcoverview.rst`
