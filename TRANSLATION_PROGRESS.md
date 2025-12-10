@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 14:57:47
+**生成日時:** 2025-12-10 14:59:53
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -135,84 +135,57 @@
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
-**問題箇所:** 41件
+**問題箇所:** 33件
 
-- **行 218:** Untranslated English paragraph/sentence
+- **行 252:** Untranslated English paragraph/sentence
   ```
-  the power supplied to 3-wire servos. A REV Servo Power Module has 6 input servo
+  - Is manufactured by a reputable brand.
   ```
-- **行 219:** Untranslated English paragraph/sentence
+- **行 253:** Untranslated English paragraph/sentence
   ```
-  ports and 6 matching output ports. It draws power from a 12V source and
+  - Is within allowed Watt-hour capacity limits.
   ```
-- **行 220:** Untranslated English paragraph/sentence
+- **行 254:** Untranslated English paragraph/sentence
   ```
-  provides 6V power to each output servo port.  A REV Servo Power Module can
+  - Includes standard safety features.
   ```
-- **行 222:** Untranslated English paragraph/sentence
+- **行 255:** Untranslated English paragraph/sentence
   ```
-  Watts of power per module. There are more Servo Power Injectors allowed by the
+  - Is secured on the Robot.
   ```
-- **行 250:** Untranslated English paragraph/sentence
+- **行 256:** Untranslated English paragraph/sentence
   ```
-  Manual. In the 2023-2024 season, these batteries were deemed permissible to
+  - Has unused ports covered.
   ```
 
-... 他 36 件の問題
+... 他 28 件の問題
 
 ### `hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst`
 
-**問題箇所:** 24件
+**問題箇所:** 20件
 
-- **行 62:** Untranslated English paragraph/sentence
-  ```
-  2. The Control Hub and Expansion Hub use the RS-485 serial bus standard
-  ```
-- **行 63:** Untranslated English paragraph/sentence
-  ```
-  to communicate between devices. You can use the 3-pin JST PH cable to
-  ```
-- **行 65:** Untranslated English paragraph/sentence
-  ```
-  the ports labeled “RS485” on the Expansion Hub.
-  ```
-- **行 70:** Untranslated English paragraph/sentence
-  ```
-  Expansion Hub or Control Hub. Either port should work.
-  ```
 - **行 90:** Untranslated English paragraph/sentence
   ```
   Configure Robot option from the Driver Station app. Press the New button
   ```
-
-... 他 19 件の問題
-
-### `control_hard_compon/rc_components/sensors/sensors.rst`
-
-**問題箇所:** 11件
-
-- **行 208:** Untranslated English paragraph/sentence
+- **行 91:** Untranslated English paragraph/sentence
   ```
-  Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
+  to create a new configuration file. When you first scan for hardware, your
   ```
-- **行 210:** Untranslated English paragraph/sentence
+- **行 92:** Untranslated English paragraph/sentence
   ```
-  of an object in 3 dimensions. An Accelerometer is a device that reports the
+  Robot Controller should detect the embedded Control Hub. The Robot Controller
   ```
-- **行 211:** Untranslated English paragraph/sentence
+- **行 93:** Untranslated English paragraph/sentence
   ```
-  acceleration of an object in 3 dimensions. Acceleration can be thought of as
+  will automatically label this device as an Control Hub “Portal”. The Robot
   ```
-- **行 212:** Untranslated English paragraph/sentence
+- **行 94:** Untranslated English paragraph/sentence
   ```
-  the rate of change of speed at any given instant. A Magnetometer is a device
-  ```
-- **行 213:** Untranslated English paragraph/sentence
-  ```
-  that measures the strength of magnetic fields in 3 axes.  This can be used as a
+  Controller will communicate through this portal to the individual Hubs.
   ```
 
-... 他 6 件の問題
+... 他 15 件の問題
 
 ### `apriltag/opmode_test_images/opmode-test-images.rst`
 
@@ -267,6 +240,31 @@
   ```
 
 ... 他 1 件の問題
+
+### `control_hard_compon/rc_components/sensors/sensors.rst`
+
+**問題箇所:** 5件
+
+- **行 254:** Untranslated English paragraph/sentence
+  ```
+  degree to which the adjuster is turned. It is often used as a form of
+  ```
+- **行 255:** Untranslated English paragraph/sentence
+  ```
+  measuring the absolute orientation of an axle. The manner in which the output
+  ```
+- **行 256:** Untranslated English paragraph/sentence
+  ```
+  voltage changes is based on the Potentiometer that is used.
+  ```
+- **行 257:** Untranslated English paragraph/sentence
+  ```
+  Such a device is typically attatched via the analog port of the REV Hub.
+  ```
+- **行 263:** Untranslated English paragraph/sentence
+  ```
+  Thanks to the folks at REV Robotics for providing this handy chart of sensor com
+  ```
 
 ### `gracious_professionalism/gp.rst`
 

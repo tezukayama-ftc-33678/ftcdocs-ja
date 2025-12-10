@@ -250,10 +250,9 @@ Gamepads
 
       Quadstick FPS
 
-The Competition Manual defines the gamepads that are allowed in competition
-play. Up to two gamepads, in any combination, of the allowed types of gamepads
-may be used. All gamepads MUST be used in wired mode only, no wireless of any
-kind is allowed. Special features of some gamepads (Rumble, Lighting) may be
-programmed and used by teams for notifications and signaling to the drivers of
-the robot.
+競技マニュアルでは、競技プレイで許可されているゲームパッドを定義しています。
+許可されているタイプのゲームパッドの任意の組み合わせで、最大 2 つのゲームパッドを使用できます。
+すべてのゲームパッドは、有線モードでのみ使用する必要があり、いかなる種類のワイヤレスも許可されていません。
+一部のゲームパッドの特別な機能（振動、ライト）は、ロボットのドライバーへの通知と信号のために、
+チームがプログラムして使用することができます。
 

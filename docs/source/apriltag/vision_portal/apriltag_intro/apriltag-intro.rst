@@ -196,8 +196,8 @@ SDK は AprilTag **回転** データを次のように提供します：
 
 :ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 
-注：この記事では、*FIRST* Tech Challenge 
-:ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>`.
+注：この記事では、**FIRST Tech Challenge** の
+:ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>` について説明しています。
 
 OpMode は、ナビゲーションのためにロボットの方向を全体のフィールドまたは 
 :download:`‘global coordinates’ <files/FTC-Global-Coordinates.png>`

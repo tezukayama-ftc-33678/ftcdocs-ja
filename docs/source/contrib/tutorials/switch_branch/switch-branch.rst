@@ -36,31 +36,31 @@ Uncommitted Changes
 
 ``error: Your local changes to the following files would be overwritten by checkout:``
 
-This error occurs when you have uncommitted changes in your working directory. You can either commit your changes, stash them, or delete them. To commit your changes, you can use the following command:
+このエラーは、作業ディレクトリにコミットされていない変更がある場合に発生します。変更をコミットするか、スタッシュするか、削除することができます。変更をコミットするには、次のコマンドを使用できます：
 
 .. code-block:: bash
 
     git commit -m "Your commit message"
 
-This command will commit your changes with the message you provide.
+このコマンドは、指定したメッセージで変更をコミットします。
 
-To stash your changes, you can use the following command:
+変更をスタッシュするには、次のコマンドを使用できます：
 
 .. code-block:: bash
 
     git stash
 
-Stashing allows you to save your changes for later without committing them. After stashing your changes, you can switch branches. To apply your stashed changes, you can use the following command:
+スタッシュを使用すると、変更をコミットせずに後で保存できます。変更をスタッシュした後、ブランチを切り替えることができます。スタッシュした変更を適用するには、次のコマンドを使用できます：
 
 .. code-block:: bash
 
     git stash apply
 
-It is best to use ``git stash`` when you are not ready to commit your changes but need to switch branches.
+変更をコミットする準備ができていないが、ブランチを切り替える必要がある場合は、``git stash`` を使用するのが最適です。
 
-To delete your changes, you can use the following command:
+変更を削除するには、次のコマンドを使用できます：
 
-.. warning:: This command will delete all uncommitted changes in your working directory. It is not recommended to use this command unless you are sure you want to delete your changes.
+.. warning:: このコマンドは、作業ディレクトリ内のすべてのコミットされていない変更を削除します。変更を削除することが確実でない限り、このコマンドの使用は推奨されません。
 .. code-block:: bash
 
     git reset --hard
