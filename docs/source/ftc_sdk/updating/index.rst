@@ -1,22 +1,20 @@
 .. meta::
-   :title: Updating Components of the FTC Control System
-   :description: A comprhensive guide to updating key components of the FIRST Tech Challenge Control System
-   :keywords: FTC Docs, FIRST Tech Challenge, FTC, Control System, update
+   :title: FTC制御システムのコンポーネント更新
+   :description: FIRST Tech Challenge制御システムの主要コンポーネントを更新するための包括的なガイド
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, 制御システム, 更新
 
-Updating Components of the Control System
+制御システムのコンポーネント更新
 =========================================
 
-Certain components of the *FIRST* Tech Challenge Control System will
-periodically receive updates.  Teams should make sure to update each component
-of the Control System to the latest released version.
+**FIRST Tech Challenge** 制御システムの特定のコンポーネントは、定期的に更新を受け取ります。チームは、制御システムの各コンポーネントを最新のリリースバージョンに更新するようにしてください。
 
 
 .. toctree::
     :maxdepth: 1
     
-    Updating REV Hardware Client <hardware_client/Updating-REV-Hardware-Client>
-    Updating Driver Station App <ds_app/Updating-the-DS-App>
-    Updating Robot Controller App <rc_app/Updating-the-RC-App>
-    Updating Driver Hub OS <driverhub_os/Updating-the-Driver-Hub-OS>
-    Updating Control Hub OS <controlhub_os/Updating-the-Control-Hub-OS>
-    Updating Hub Firmware <hub_firmware/Updating-Hub-Firmware>
+    REV Hardware Clientの更新 <hardware_client/Updating-REV-Hardware-Client>
+    Driver Stationアプリの更新 <ds_app/Updating-the-DS-App>
+    Robot Controllerアプリの更新 <rc_app/Updating-the-RC-App>
+    Driver Hub OSの更新 <driverhub_os/Updating-the-Driver-Hub-OS>
+    Control Hub OSの更新 <controlhub_os/Updating-the-Control-Hub-OS>
+    Hubファームウェアの更新 <hub_firmware/Updating-Hub-Firmware>
