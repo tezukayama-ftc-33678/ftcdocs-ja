@@ -284,10 +284,7 @@ SDK バージョン 8.2 以降には、AprilTag と EasyOpenCV の主要な機�
 
 デフォルトでは、SDK は 36h11 ファミリーの任意の AprilTag の ID コードを検出できます。
 
-For AprilTags in a default or custom tag Library, the interface
-provides calculated **pose** estimates (position and rotation) from the
-**camera’s frame of reference**. The source data is also available for
-advanced teams.
+デフォルトまたはカスタムタグライブラリの AprilTags の場合、インターフェースは **カメラの参照フレーム** から計算された **ポーズ** 推定（位置と回転）を提供します。ソースデータは、高度なチームでも利用できます。
 
 AprilTag 機能は、Android RC フォンカメラとウェブカメラで動作します。各カメラは、良好なポーズ推定を提供するために、特定の解像度の **キャリブレーションデータ** を必要とします。
 
