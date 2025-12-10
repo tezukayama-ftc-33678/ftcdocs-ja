@@ -32,7 +32,7 @@ GLOSSARY_FILE = "GLOSSARY.md"
 MIN_WORD_LENGTH = 2
 
 # Detection flags (can be toggled)
-DETECT_MIXED_TEXT = True  # Mixed Japanese and English text detection (often intentional)
+DETECT_MIXED_TEXT = False  # Mixed Japanese and English text detection (often intentional - disabled by default)
 
 # Patterns to detect Japanese text
 HIRAGANA_PATTERN = re.compile(r'[\u3040-\u309F]')  # Hiragana
@@ -231,6 +231,30 @@ class TranslationChecker:
         except Exception:
             pass  # Silently skip files with errors
     
+    def remove_code_literals(self, text: str) -> str:
+        """
+        Remove inline code literals, backtick literals, quoted strings, and italic UI text from text.
+        This prevents UI text and code from being flagged as English issues.
+        """
+        # Remove double backtick literals (``text``)
+        text = re.sub(r'``[^`]+``', ' ', text)
+        # Remove single backtick literals (`text`)
+        text = re.sub(r'`[^`]+`', ' ', text)
+        # Remove double-quoted text (straight and curly quotes: "text", "text", „text")
+        text = re.sub(r'["""„‚][^"""„‚]+["""„‚]', ' ', text)
+        # Remove single-quoted text (straight and curly quotes: 'text', 'text', ‚text')
+        text = re.sub(r"['''‚][^'''‚]+['''‚]", ' ', text)
+        # Remove italic text (*text*) - often used for UI page names and field names
+        # Filter out bold and bold-italic by checking for double asterisks
+        def replace_italic(match):
+            full_match = match.group(0)
+            # Skip if it's actually bold (**) or bold-italic (***)
+            if '**' in full_match:
+                return full_match
+            return ' '
+        text = re.sub(r'\*([^*]+?)\*', replace_italic, text)
+        return text
+    
     def detect_english_issues(self, file_path: Path) -> List[Dict]:
         """
         Detect English text remaining in the file.
@@ -273,10 +297,13 @@ class TranslationChecker:
             if re.match(r'^[=\-`~*#+\d\s.,;:!?()\[\]{}|/<>@&%$]*$', stripped):
                 continue
             
+            # Create a version of the line with code literals removed for checking
+            line_without_literals = self.remove_code_literals(line)
+            
             # Check for English at the end of a line (after Japanese text)
-            if self.has_japanese(line) and ENGLISH_AT_END_PATTERN.search(line):
+            if self.has_japanese(line_without_literals) and ENGLISH_AT_END_PATTERN.search(line_without_literals):
                 # Extract the English part
-                match = re.search(r'([A-Za-z]+(?:\s+[A-Za-z]+)*)[.!?]?\s*$', line)
+                match = re.search(r'([A-Za-z]+(?:\s+[A-Za-z]+)*)[.!?]?\s*$', line_without_literals)
                 if match:
                     english_part = match.group(1)
                     # Skip if it's only glossary terms (allowed technical terms)
@@ -291,8 +318,8 @@ class TranslationChecker:
             # Check for English sentences in the middle
             # Only flag if line has Japanese but also has long English phrases
             # This detection is OFF by default (DETECT_MIXED_TEXT = False)
-            if DETECT_MIXED_TEXT and self.has_japanese(line):
-                english_matches = ENGLISH_SENTENCE_PATTERN.findall(line)
+            if DETECT_MIXED_TEXT and self.has_japanese(line_without_literals):
+                english_matches = ENGLISH_SENTENCE_PATTERN.findall(line_without_literals)
                 if english_matches:
                     # Filter out common technical terms that should stay in English
                     # and glossary terms
@@ -321,9 +348,10 @@ class TranslationChecker:
             
             # Check for lines that are entirely English (potential untranslated content)
             # Only flag if it's a substantial line (not just a title or short phrase)
-            if not self.has_japanese(stripped) and len(stripped.split()) >= 5:
+            stripped_without_literals = self.remove_code_literals(stripped).strip()
+            if not self.has_japanese(stripped) and len(stripped_without_literals.split()) >= 5:
                 # Check if it's likely a paragraph or sentence (not a title)
-                if any(c in stripped for c in '.!?,;:'):
+                if any(c in stripped_without_literals for c in '.!?,;:'):
                     issues.append({
                         'line': i,
                         'issue': 'Untranslated English paragraph/sentence',
