@@ -359,8 +359,9 @@ def main():
     print()
     
     # Check if source directory exists
-    if not Path(SOURCE_DIR).exists():
-        print(f"Error: Source directory '{SOURCE_DIR}' not found.")
+    source_path = Path(SOURCE_DIR)
+    if not source_path.exists():
+        print(f"Source directory '{source_path.absolute()}' not found.")
         sys.exit(1)
     
     # Create checker and scan files
@@ -375,9 +376,12 @@ def main():
     print("=" * 60)
     print("Summary:")
     print(f"  Total files: {checker.total_files}")
-    print(f"  Completed: {checker.translated_files} ({checker.translated_files/checker.total_files*100:.1f}%)")
-    print(f"  Partial: {checker.partially_translated} ({checker.partially_translated/checker.total_files*100:.1f}%)")
-    print(f"  Untranslated: {checker.untranslated_files} ({checker.untranslated_files/checker.total_files*100:.1f}%)")
+    if checker.total_files > 0:
+        print(f"  Completed: {checker.translated_files} ({checker.translated_files/checker.total_files*100:.1f}%)")
+        print(f"  Partial: {checker.partially_translated} ({checker.partially_translated/checker.total_files*100:.1f}%)")
+        print(f"  Untranslated: {checker.untranslated_files} ({checker.untranslated_files/checker.total_files*100:.1f}%)")
+    else:
+        print("  No RST files found to check.")
     print("=" * 60)
     print()
     print(f"✓ Report saved to: {OUTPUT_FILE}")
