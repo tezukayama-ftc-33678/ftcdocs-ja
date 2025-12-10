@@ -1,7 +1,7 @@
 概要
 =========
 
-Below is an overview of the process of contributing to FTC Docs.
+以下は、FTC Docs への貢献プロセスの概要です。
 
 .. warning::
 
@@ -28,18 +28,18 @@ Below is an overview of the process of contributing to FTC Docs.
 
 2. :doc:`Intro to Codesapces <../codespaces/codespaces>` :bdg-secondary:`Information`
 
-    * This will provide an overview of Codespaces and how to use them.
+    * これは **Codespaces** の概要と使用方法を提供します。
 3. :doc:`Getting to know the GitHub Repository <../github_repo/github-repo>` :bdg-secondary:`Information`
 
-    * This will provide an overview of the FTC Docs repository and how it is organized. This is important to understand before you start working on a contribution. 
+    * これは FTC Docs リポジトリの概要と構成方法を提供します。貢献作業を開始する前に理解することが重要です。 
 
 4. :doc:`Fork the repository <../make_fork/make-fork>` :bdg-danger:`One Time Only` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
-    * This will create a copy of the FTC Docs repository in your GitHub account.
+    * これにより、あなたの **GitHub** アカウントに FTC Docs リポジトリのコピーが作成されます。
 
 5. :doc:`Update the repository <../update_fork/update-fork>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
-    * This will update your fork with the latest changes from the FTC Docs repository. This is important to do before you start working on a new contribution.
+    * これにより、フォークが FTC Docs リポジトリの最新の変更で更新されます。新しい貢献作業を開始する前にこれを行うことが重要です。
 
 6. :doc:`Set up your environment <../setup/setup>` :bdg-danger:`One Time Only` :bdg-warning:`Local`
 

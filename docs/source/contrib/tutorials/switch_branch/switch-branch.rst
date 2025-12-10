@@ -3,16 +3,16 @@
 :bdg-success:`Repeat` :bdg-warning:`Local`
 
 .. warning::
-   Only complete these steps if you have chosen to develop the site locally. 
-   If you are using **GitHub Codespaces** you should skip this section.
+   ローカルでサイトを開発することを選択した場合にのみ、これらの手順を完了してください。
+   **GitHub Codespaces** を使用している場合は、このセクションをスキップする必要があります。
 
-This step is necessary to change which branch you are working on. If you are working on a branch and want to switch to another branch, you can use the following command:
+この手順は、作業しているブランチを変更するために必要です。ブランチで作業していて別のブランチに切り替えたい場合は、次のコマンドを使用できます：
 
 .. code-block:: bash
 
     git checkout <branch_name>
 
-Make sure to replace ``<branch_name>`` with the name of the branch you want to switch to and that it matches the name of the branch you want to switch to that you created in the previous step.
+``<branch_name>`` を、切り替えたいブランチの名前に置き換えてください。また、前の手順で作成したブランチの名前と一致していることを確認してください。
 
 Troubleshooting
 ---------------
@@ -22,14 +22,14 @@ Branch Not Found
 
 ``error: pathspec '<branch-name>' did not match any file(s) known to git``
 
-This error occurs when the branch you are trying to switch to does not exist. Make sure you have created the branch you are trying to switch that there are no typos. However, 
-it can also occur when your local repo is not up to date with the remote repo. To fix this, you can run the following command:
+このエラーは、切り替えようとしているブランチが存在しない場合に発生します。切り替えようとしているブランチを作成していること、タイプミスがないことを確認してください。ただし、
+ローカルリポジトリがリモートリポジトリと同期していない場合にも発生する可能性があります。これを修正するには、次のコマンドを実行できます：
 
 .. code-block:: bash
 
     git fetch
 
-This command will update your local repo with the remote repo. After running this command, try switching branches again.
+このコマンドは、ローカルリポジトリをリモートリポジトリで更新します。このコマンドを実行した後、ブランチの切り替えを再度試してください。
 
 Uncommitted Changes
 ~~~~~~~~~~~~~~~~~~~~
