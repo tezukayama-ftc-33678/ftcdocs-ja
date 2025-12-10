@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 15:09:37
+**生成日時:** 2025-12-10 15:12:28
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,21 +9,22 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 77 (30.2%)
-- **部分的に翻訳:** 6 (2.4%)
+- **翻訳完了:** 78 (30.6%)
+- **部分的に翻訳:** 5 (2.0%)
 - **未翻訳:** 172 (67.5%)
 
-**進捗:** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 30.2%
+**進捗:** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 30.6%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **77個**
+完全に日本語化されているファイル: **78個**
 
 <details>
 <summary>ファイルリストを表示</summary>
 
+- `apriltag/opmode_test_images/opmode-test-images.rst`
 - `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
 - `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
 - `contrib/guidelines/guidelines.rst`
@@ -108,7 +109,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **6個**
+英語が残っているファイル: **5個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -139,84 +140,57 @@
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
-**問題箇所:** 33件
+**問題箇所:** 15件
 
-- **行 252:** Untranslated English paragraph/sentence
+- **行 282:** Untranslated English paragraph/sentence
   ```
-  - Is manufactured by a reputable brand.
+  Pack based on its (low) price alone!
   ```
-- **行 253:** Untranslated English paragraph/sentence
+- **行 287:** Untranslated English paragraph/sentence
   ```
-  - Is within allowed Watt-hour capacity limits.
+  The recurring theme in most discussions of COTS USB Battery Packs is safety.
   ```
-- **行 254:** Untranslated English paragraph/sentence
+- **行 289:** Untranslated English paragraph/sentence
   ```
-  - Includes standard safety features.
+  limitations on COTS USB Battery Packs aboard aircraft, and *FIRST* Tech
   ```
-- **行 255:** Untranslated English paragraph/sentence
+- **行 290:** Untranslated English paragraph/sentence
   ```
-  - Is secured on the Robot.
+  Challenge has adopted the capacity limit restriction. **Batteries are limited
   ```
-- **行 256:** Untranslated English paragraph/sentence
+- **行 291:** Untranslated English paragraph/sentence
   ```
-  - Has unused ports covered.
+  to 100 Watt-Hours (Wh) or less**.
   ```
 
-... 他 28 件の問題
+... 他 10 件の問題
 
 ### `hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst`
 
-**問題箇所:** 20件
+**問題箇所:** 15件
 
-- **行 90:** Untranslated English paragraph/sentence
+- **行 146:** Untranslated English paragraph/sentence
   ```
-  Configure Robot option from the Driver Station app. Press the New button
+  to change the address of any connected Expansion Hubs.
   ```
-- **行 91:** Untranslated English paragraph/sentence
+- **行 185:** Untranslated English paragraph/sentence
   ```
-  to create a new configuration file. When you first scan for hardware, your
+  Push the “Done” button to change the address. You should see a message
   ```
-- **行 92:** Untranslated English paragraph/sentence
+- **行 186:** Untranslated English paragraph/sentence
   ```
-  Robot Controller should detect the embedded Control Hub. The Robot Controller
+  indicating that the Expansion Hub’s address has been changed.
   ```
-- **行 93:** Untranslated English paragraph/sentence
+- **行 204:** Untranslated English paragraph/sentence
   ```
-  will automatically label this device as an Control Hub “Portal”. The Robot
+  6. The Expansion Hubs use the RS-485 serial bus standard to communicate
   ```
-- **行 94:** Untranslated English paragraph/sentence
+- **行 205:** Untranslated English paragraph/sentence
   ```
-  Controller will communicate through this portal to the individual Hubs.
-  ```
-
-... 他 15 件の問題
-
-### `apriltag/opmode_test_images/opmode-test-images.rst`
-
-**問題箇所:** 7件
-
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 583 (AKA “Nemo”)          | 4 in (101.6 mm)                   |
-  ```
-- **行 27:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 584 (AKA “Jonah”)         | 4 in (101.6 mm)                   |
-  ```
-- **行 29:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 585 (AKA “Cousteau”)      | 6 in (152.4 mm)                   |
-  ```
-- **行 31:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 586 (AKA “Ariel”)         | 6 in (152.4 mm)                   |
-  ```
-- **行 35:** Untranslated English paragraph/sentence
-  ```
-  <files/FTCAprilTagSDK82SamplesExtended.pdf>`, or portions thereof, please set
+  between devices. You can use the 3-pin JST PH cable to connect one of
   ```
 
-... 他 2 件の問題
+... 他 10 件の問題
 
 ### `gracious_professionalism/gp.rst`
 
