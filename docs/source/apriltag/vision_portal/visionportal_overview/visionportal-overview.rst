@@ -1,70 +1,55 @@
-VisionPortal Overview
+VisionPortal 概要
 =====================
 
-**FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new
-interface for vision processing.
+**FIRST Tech Challenge** は **VisionPortal** を導入しました。これは、ビジョン処理のための包括的な新しいインターフェースです。
 
--  For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of
-   **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection
-   (TFOD)** – at the same time!
+-  **FTC Blocks と Java** チームの場合、VisionPortal は **AprilTag** と **EasyOpenCV** の主要な機能に加えて、**TensorFlow Object Detection (TFOD)** を同時に提供します！
 
    .. figure:: images/020-dual-detection.png
       :width: 75%
       :align: center
       :alt: Dual Detection
 
-      Dual Preview with both AprilTags and TensorFlow
+      AprilTag と TensorFlow の両方を使用したデュアルプレビュー
 
    |
 
--  **AprilTag** detections include ID code and **pose**: tag location and
-   orientation, relative to the camera.
+-  **AprilTag** 検出には、ID コードと **ポーズ**: カメラに対するタグの位置と方向が含まれます。
 
--  **Camera Controls**, which can improve AprilTag and TFOD performance for
-   webcam, are now fully available to **FTC Blocks** users.
+-  ウェブカメラの AprilTag と TFOD のパフォーマンスを向上させることができる **Camera Controls** が、**FTC Blocks** ユーザーに完全に利用可能になりました。
 
--  **Multiple cameras** can operate at the same time – phone camera and/or
-   webcam.
+-  **複数のカメラ** を同時に操作できます – フォンカメラおよび/またはウェブカメラ。
 
    .. figure:: images/030-CH-preview-2-webcams.png
       :width: 75%
       :align: center
       :alt: Dual Camera
 
-      Multiple Camera View
+      複数カメラビュー
 
    |
 
--  **Sample OpModes** and new tools are available to operate and
-   customize these features, including the **Builder pattern**.
+-  **サンプル OpModes** と新しいツールが、**Builder パターン** を含むこれらの機能の操作とカスタマイズに利用できます。
 
--  For heavy video processing, many options are available to manage
-   **CPU resources** and **USB bandwidth**.
+-  重いビデオ処理の場合、**CPU リソース** と **USB 帯域幅** を管理するための多くのオプションが利用可能です。
 
--  DS and RC previews can be **BIG**!
+-  DS と RC のプレビューは **大きく** できます！
 
    .. figure:: images/100-DH-DS-CS-BIG-TFOD.png
       :width: 75%
       :align: center
       :alt: Full Screen
 
-      Full Screen Preview
+      フルスクリーンプレビュー
 
-Many other new and improved features `await your discovery
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController#release-information>`__
-in VisionPortal and beyond.
+VisionPortal 以降には、他にも多くの新機能と改善された機能が `あなたの発見を待っています
+<https://github.com/FIRST-Tech-Challenge/FtcRobotController#release-information>`__。
 
 ----
 
-In preparation for the 2023-2024 CENTERSTAGE season, the new Software
-Development Kit (SDK) **VisionPortal** includes **built-in support for AprilTag
-technology**. Previously, Teams needed to download and incorporate external
-libraries, complicating the programming effort.
+2023-2024 CENTERSTAGE シーズンの準備として、新しい Software Development Kit (SDK) **VisionPortal** には **AprilTag 技術の組み込みサポート** が含まれています。以前は、チームは外部ライブラリをダウンロードして組み込む必要があり、プログラミング作業が複雑になっていました。
 
-AprilTag is a popular vision technology for detecting a simple black-and-white
-tag, used to estimate **position and orientation**. In the 2022-2023 POWERPLAY
-game, many Teams enjoyed AprilTag’s reliable Autonomous performance for
-Signal Sleeve recognition.
+AprilTag は、**位置と方向** を推定するために使用される、シンプルな白黒タグを検出するための人気のあるビジョン技術です。2022-2023 POWERPLAY ゲームでは、多くのチームが Signal Sleeve 認識のための AprilTag の信頼性の高い Autonomous パフォーマンスを楽しみました。
 
    .. figure:: images/005-AprilTag-Worlds.png
       :width: 75%
@@ -73,17 +58,9 @@ Signal Sleeve recognition.
 
       Photo Credit: Mike Silversides
 
-**All sections of this Guide assume prior reading of the** :doc:`AprilTag
-Introduction <../apriltag_intro/apriltag-intro>` **.**
+**このガイドのすべてのセクションは、** :doc:`AprilTag 入門 <../apriltag_intro/apriltag-intro>` **を事前に読んでいることを前提としています。**
    
-The SDK describes AprilTag pose **relative to the camera**, by default.
-This computing process is called **pose estimation**, a term that emphasizes
-this is an estimate only, based on many factors including **camera
-calibration**. You must determine AprilTag’s best use for reaching your 
-goals.
-
-.. toctree::
-   :maxdepth: 1
+SDK はデフォルトで、**カメラに対する** AprilTag ポーズを記述します。この計算プロセスは **ポーズ推定** と呼ばれ、これは **カメラキャリブレーション** を含む多くの要因に基づく推定値のみであることを強調する用語です。目標を達成するために AprilTag の最適な使用法を決定する必要があります。
 
    AprilTag Introduction <../apriltag_intro/apriltag-intro>
    Vision Processor Initialization <../vision_processor_init/vision-processor-init>
