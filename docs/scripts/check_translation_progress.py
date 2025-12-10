@@ -240,10 +240,14 @@ class TranslationChecker:
         text = re.sub(r'``[^`]+``', ' ', text)
         # Remove single backtick literals (`text`)
         text = re.sub(r'`[^`]+`', ' ', text)
-        # Remove double-quoted text ("text")
-        text = re.sub(r'"[^""]+"', ' ', text)
-        # Remove single-quoted text ('text') - but be careful with apostrophes
-        text = re.sub(r"'[^'']+'", ' ', text)
+        # Remove double-quoted text with straight quotes ("text")
+        text = re.sub(r'"[^"]+"', ' ', text)
+        # Remove double-quoted text with curly quotes ("text" or "text")
+        text = re.sub(r'[""][^""]+[""]', ' ', text)
+        # Remove single-quoted text with straight quotes ('text')
+        text = re.sub(r"'[^']+'", ' ', text)
+        # Remove single-quoted text with curly quotes ('text' or 'text')
+        text = re.sub(r"[''][^'']+['']", ' ', text)
         # Remove italic text (*text*) - often used for UI page names and field names
         # But NOT bold italic (***text***) or bold (**text**)
         text = re.sub(r'(?<!\*)\*(?!\*)([^\*]+?)(?<!\*)\*(?!\*)', r' ', text)
