@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 13:56:11
+**生成日時:** 2025-12-10 14:00:05
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -151,7 +151,7 @@
 
 ### `hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst`
 
-**問題箇所:** 69件
+**問題箇所:** 65件
 
 - **行 53:** Untranslated English paragraph/sentence
   ```
@@ -174,7 +174,7 @@
   2. The Control Hub and Expansion Hub use the RS-485 serial bus standard
   ```
 
-... 他 64 件の問題
+... 他 60 件の問題
 
 ### `control_hard_compon/rc_components/sensors/sensors.rst`
 

@@ -240,17 +240,19 @@ class TranslationChecker:
         text = re.sub(r'``[^`]+``', ' ', text)
         # Remove single backtick literals (`text`)
         text = re.sub(r'`[^`]+`', ' ', text)
-        # Remove double-quoted text with straight quotes ("text")
-        text = re.sub(r'"[^"]+"', ' ', text)
-        # Remove double-quoted text with curly quotes ("text" or "text")
-        text = re.sub(r'[""][^""]+[""]', ' ', text)
-        # Remove single-quoted text with straight quotes ('text')
-        text = re.sub(r"'[^']+'", ' ', text)
-        # Remove single-quoted text with curly quotes ('text' or 'text')
-        text = re.sub(r"[''][^'']+['']", ' ', text)
+        # Remove double-quoted text (straight and curly quotes: "text", "text", „text")
+        text = re.sub(r'["""„‚][^"""„‚]+["""„‚]', ' ', text)
+        # Remove single-quoted text (straight and curly quotes: 'text', 'text', ‚text')
+        text = re.sub(r"['''‚][^'''‚]+['''‚]", ' ', text)
         # Remove italic text (*text*) - often used for UI page names and field names
-        # But NOT bold italic (***text***) or bold (**text**)
-        text = re.sub(r'(?<!\*)\*(?!\*)([^\*]+?)(?<!\*)\*(?!\*)', r' ', text)
+        # Filter out bold and bold-italic by checking for double asterisks
+        def replace_italic(match):
+            full_match = match.group(0)
+            # Skip if it's actually bold (**) or bold-italic (***)
+            if '**' in full_match:
+                return full_match
+            return ' '
+        text = re.sub(r'\*([^*]+?)\*', replace_italic, text)
         return text
     
     def detect_english_issues(self, file_path: Path) -> List[Dict]:
