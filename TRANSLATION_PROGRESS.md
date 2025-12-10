@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 12:30:25
+**生成日時:** 2025-12-10 12:47:14
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 29 (11.4%)
-- **部分的に翻訳:** 54 (21.2%)
+- **翻訳完了:** 38 (14.9%)
+- **部分的に翻訳:** 45 (17.6%)
 - **未翻訳:** 172 (67.5%)
 
-**進捗:** `█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 11.4%
+**進捗:** `███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 14.9%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **29個**
+完全に日本語化されているファイル: **38個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -28,20 +28,26 @@
 - `contrib/workflow/workflow.rst`
 - `control_hard_compon/ds_components/index.rst`
 - `control_hard_compon/index.rst`
+- `control_hard_compon/rc_components/hub/hub.rst`
 - `control_hard_compon/rc_components/hub/ports/exh-ports.rst`
+- `control_hard_compon/rc_components/index.rst`
 - `faq/faqs.rst`
+- `ftc_sdk/overview/index.rst`
 - `ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst`
 - `ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst`
 - `ftc_sdk/updating/ds_app/Updating-the-DS-App.rst`
 - `ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst`
+- `ftc_sdk/updating/index.rst`
 - `hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst`
 - `hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst`
 - `hardware_and_software_configuration/configuring/index.rst`
+- `hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst`
 - `hardware_and_software_configuration/configuring/saving_config/saving-config.rst`
 - `hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst`
 - `hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst`
 - `hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst`
 - `hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst`
+- `hardware_and_software_configuration/connecting_devices/index.rst`
 - `hardware_and_software_configuration/index.rst`
 - `index.rst`
 - `persona_pages/coach_admin/coach_admin.rst`
@@ -50,8 +56,11 @@
 - `persona_pages/veteran_teams/veteran_teams.rst`
 - `programming_resources/android_studio_java/Android-Studio-Tutorial.rst`
 - `programming_resources/onbot_java/OnBot-Java-Tutorial.rst`
+- `programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst`
+- `programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst`
 - `programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst`
+- `programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst`
 - `team_resources/team_resources.rst`
 
 </details>
@@ -60,7 +69,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **54個**
+英語が残っているファイル: **45個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -118,16 +127,8 @@
 
 ### `hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst`
 
-**問題箇所:** 72件
+**問題箇所:** 70件
 
-- **行 7:** Mixed Japanese and English text
-  ```
-  単一の **REV Robotics Control Hub** または **Expansion Hub** には、限られた数の入出力（I/O）ポートしかありま
-  ```
-- **行 9:** English text at end of line
-  ```
-  ...**Expansion Hub** を接続および構成する方法について説明します。FIRST Tech Challenge
-  ```
 - **行 53:** Untranslated English paragraph/sentence
   ```
   1. The first step is to use the 3-pin JST PH cable and the XT30 cable
@@ -140,24 +141,24 @@
   ```
   neither Hub is powered on.
   ```
+- **行 58:** Untranslated English paragraph/sentence
+  ```
+  Hubs to an XT30 power port on the other Expansion Hub.
+  ```
+- **行 62:** Untranslated English paragraph/sentence
+  ```
+  2. The Control Hub and Expansion Hub use the RS-485 serial bus standard
+  ```
 
-... 他 67 件の問題
+... 他 65 件の問題
 
 ### `hardware_and_software_configuration/self_inspect/self-inspect.rst`
 
-**問題箇所:** 33件
+**問題箇所:** 31件
 
-- **行 7:** Mixed Japanese and English text
-  ```
-  このページでは、FTC Driver Station（DS）アプリと FTC Robot Controller（RC）アプリにある旧式の Self Inspec
-  ```
 - **行 30:** Mixed Japanese and English text
   ```
   DS アプリの Settings で選択した Pairing Method（Wi-Fi Direct または Control Hub）が、DS Self Ins
-  ```
-- **行 37:** English text at end of line
-  ```
-  ...- DS スマホ + Control Hub
   ```
 - **行 41:** Mixed Japanese and English text
   ```
@@ -167,8 +168,16 @@
   ```
   - `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__（DS ス
   ```
+- **行 48:** Mixed Japanese and English text
+  ```
+  - `DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__（D
+  ```
+- **行 49:** Mixed Japanese and English text
+  ```
+  - `DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__（Dr
+  ```
 
-... 他 28 件の問題
+... 他 26 件の問題
 
 ### `control_hard_compon/rc_components/sensors/sensors.rst`
 
@@ -224,33 +233,6 @@
 
 ... 他 19 件の問題
 
-### `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
-
-**問題箇所:** 18件
-
-- **行 31:** Mixed Japanese and English text
-  ```
-  **Driver Station Inspection Report**と**Robot Controller Inspection Report**の両方をD
-  ```
-- **行 48:** Mixed Japanese and English text
-  ```
-  最新版にはバグ修正や機能強化が含まれています。例えば、**Control Hub Android OS**のバージョン1.1.6ではWi-Fi関連の修正が含まれ
-  ```
-- **行 64:** Mixed Japanese and English text
-  ```
-  Driver Station Self Inspect レポート
-  ```
-- **行 76:** Mixed Japanese and English text
-  ```
-  -  項目1：三点リーダーはメニューで、``Disconnect from Wi-Fi Direct``と``Disable Bluetooth``の2つの選択
-  ```
-- **行 78:** Mixed Japanese and English text
-  ```
-  ``Disconnect from Wi-Fi Direct``は動作しますが、アプリが自動で再ペアリングすることがあります。
-  ```
-
-... 他 13 件の問題
-
 ### `control_hard_compon/ds_components/components/components.rst`
 
 **問題箇所:** 17件
@@ -278,9 +260,36 @@
 
 ... 他 12 件の問題
 
-### `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
+### `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
 
 **問題箇所:** 17件
+
+- **行 31:** Mixed Japanese and English text
+  ```
+  **Driver Station Inspection Report**と**Robot Controller Inspection Report**の両方をD
+  ```
+- **行 64:** Mixed Japanese and English text
+  ```
+  Driver Station Self Inspect レポート
+  ```
+- **行 76:** Mixed Japanese and English text
+  ```
+  -  項目1：三点リーダーはメニューで、``Disconnect from Wi-Fi Direct``と``Disable Bluetooth``の2つの選択
+  ```
+- **行 78:** Mixed Japanese and English text
+  ```
+  ``Disconnect from Wi-Fi Direct``は動作しますが、アプリが自動で再ペアリングすることがあります。
+  ```
+- **行 82:** Mixed Japanese and English text
+  ```
+  -  項目4：``Driver Hub OS Version``は通常1.2.0です。
+  ```
+
+... 他 12 件の問題
+
+### `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
+
+**問題箇所:** 16件
 
 - **行 18:** Mixed Japanese and English text
   ```
@@ -303,7 +312,7 @@
   1. **Control Hub** ユーザーインターフェースの *Manage* ページで、ページの *Access Point Password* セクショ
   ```
 
-... 他 12 件の問題
+... 他 11 件の問題
 
 ### `contrib/tutorials/create_codespace/create-codespace.rst`
 
@@ -328,33 +337,6 @@
 - **行 13:** Untranslated English paragraph/sentence
   ```
   2. On the left side of the page select the branch you want to work on.
-  ```
-
-... 他 9 件の問題
-
-### `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
-
-**問題箇所:** 14件
-
-- **行 32:** Mixed Japanese and English text
-  ```
-  3. *ROBOT CONTROLLER SETTINGS* ページで、*Robot Controller Name* をクリックします。
-  ```
-- **行 64:** Mixed Japanese and English text
-  ```
-  3. *Settings* 画面の *ROBOT CONTROLLER SETTINGS* セクションまで下にスクロールし、*Advanced Settings
-  ```
-- **行 71:** Mixed Japanese and English text
-  ```
-  4. *Change Wifi Channel* リンクをクリックして、利用可能なチャンネルのリストを表示します。
-  ```
-- **行 101:** Mixed Japanese and English text
-  ```
-  1. ラップトップまたはChromebookがスマートフォン **Robot Controller** のProgram & Manageワイヤレスネットワーク
-  ```
-- **行 108:** Mixed Japanese and English text
-  ```
-  ラップトップまたはChromebookが接続されておらず、*Robot Controller Connection Info* ページにアクセスできない場合は、
   ```
 
 ... 他 9 件の問題
@@ -413,86 +395,32 @@
 
 ... 他 7 件の問題
 
-### `apriltag/opmode_test_images/opmode-test-images.rst`
+### `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
 
-**問題箇所:** 10件
+**問題箇所:** 12件
 
-- **行 1:** Mixed Japanese and English text
-  ```
-  *FIRST* Tech Challenge AprilTag テストサンプル
-  ```
-- **行 7:** Mixed Japanese and English text
-  ```
-  2023-2024 シーズンでは、`FIRST Tech Challenge が AprilTags を導入しました
-  ```
-- **行 10:** Mixed Japanese and English text
-  ```
-  このドキュメントには、SDK 内の *FIRST* Tech Challenge AprilTag サンプルで使用することを目的とした AprilTags の例
-  ```
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 583 (AKA “Nemo”)          | 4 in (101.6 mm)                   |
-  ```
-- **行 27:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 584 (AKA “Jonah”)         | 4 in (101.6 mm)                   |
-  ```
-
-... 他 5 件の問題
-
-### `hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst`
-
-**問題箇所:** 10件
-
-- **行 7:** Mixed Japanese and English text
-  ```
-  競技マニュアルでは、コンピュータビジョン関連のタスクにおいて、USB Video Class（UVC）互換のカメラの使用を認めています。
-  ```
 - **行 32:** Mixed Japanese and English text
   ```
-  **REV Robotics Expansion Hub** とスマートフォン
+  3. *ROBOT CONTROLLER SETTINGS* ページで、*Robot Controller Name* をクリックします。
   ```
-- **行 43:** Mixed Japanese and English text
+- **行 64:** Mixed Japanese and English text
   ```
-  外部カメラを使用したいチームは、Android **Robot Controller** を外部カメラと **REV Robotics Expansion Hu
+  3. *Settings* 画面の *ROBOT CONTROLLER SETTINGS* セクションまで下にスクロールし、*Advanced Settings
   ```
-- **行 48:** Mixed Japanese and English text
+- **行 71:** Mixed Japanese and English text
   ```
-  Modern Robotics Core Power Distribution Module は、USB 接続ウェブカメラで動作するには十分な速度のデータ転送速
+  4. *Change Wifi Channel* リンクをクリックして、利用可能なチャンネルのリストを表示します。
   ```
-- **行 53:** Mixed Japanese and English text
+- **行 101:** Mixed Japanese and English text
   ```
-  2. **REV Robotics Expansion Hub** の 5V DC 補助電力ポート（この実装には高度なスキルが必要です）。
+  1. ラップトップまたはChromebookがスマートフォン **Robot Controller** のProgram & Manageワイヤレスネットワーク
   ```
-
-... 他 5 件の問題
-
-### `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
-
-**問題箇所:** 9件
-
-- **行 22:** Mixed Japanese and English text
+- **行 108:** Mixed Japanese and English text
   ```
-  現在、これら3つの領域は *FIRST* **Tech Challenge Software Development Kit (SDK) のバージョン 8.2 
-  ```
-- **行 91:** Mixed Japanese and English text
-  ```
-  ID コードを超えて、新しい SDK は **ポーズ** データ、すなわち **カメラの視点** からの位置と方向（回転）も提供します。これには **平らな A
-  ```
-- **行 130:** Mixed Japanese and English text
-  ```
-  ナビゲーションには、駆動モーターエンコーダー、REV Hub IMU、デッドホイールエンコーダー、カラー/距離センサー、超音波センサーなど、他のセンサーも使用で
-  ```
-- **行 137:** Mixed Japanese and English text
-  ```
-  プレビュー（RC フォン画面または DS Camera Stream）では、公式に認識された AprilTag は **色付きの境界線** とその数値 **ID
-  ```
-- **行 161:** Mixed Japanese and English text
-  ```
-  上記の画像は、Android Robot Controller (RC) フォン上のプレビュー（LiveView と呼ばれる）を示しています。REV Contr
+  ラップトップまたはChromebookが接続されておらず、*Robot Controller Connection Info* ページにアクセスできない場合は、
   ```
 
-... 他 4 件の問題
+... 他 7 件の問題
 
 ### `overview/ftcoverview.rst`
 
@@ -521,29 +449,29 @@
 
 ... 他 3 件の問題
 
-### `programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst`
+### `apriltag/opmode_test_images/opmode-test-images.rst`
 
 **問題箇所:** 7件
 
-- **行 7:** Mixed Japanese and English text
+- **行 25:** Untranslated English paragraph/sentence
   ```
-  より複雑な **Op Mode** を作成するようになると、**FIRST Tech Challenge** ソフトウェア開発キット（**SDK**）のより多く
+  | Tag ID: 583 (AKA “Nemo”)          | 4 in (101.6 mm)                   |
   ```
-- **行 12:** English text at end of line
+- **行 27:** Untranslated English paragraph/sentence
   ```
-  ...サンプル Op Mode
+  | Tag ID: 584 (AKA “Jonah”)         | 4 in (101.6 mm)                   |
   ```
-- **行 15:** Mixed Japanese and English text
+- **行 29:** Untranslated English paragraph/sentence
   ```
-  **Blocks** プログラミングツールには、**FIRST Tech Challenge** 制御システムでさまざまなタスクを実行する方法を示す、組み込みの
+  | Tag ID: 585 (AKA “Cousteau”)      | 6 in (152.4 mm)                   |
   ```
-- **行 25:** Mixed Japanese and English text
+- **行 31:** Untranslated English paragraph/sentence
   ```
-  登録済みチームは、**FIRST Tech Challenge** コミュニティフォーラムでユーザーアカウントを作成できます。チームはフォーラムを使用して質問し
+  | Tag ID: 586 (AKA “Ariel”)         | 6 in (152.4 mm)                   |
   ```
-- **行 31:** Mixed Japanese and English text
+- **行 35:** Untranslated English paragraph/sentence
   ```
-  REV Robotics Control Hub ドキュメント（英語）
+  <files/FTCAprilTagSDK82SamplesExtended.pdf>`, or portions thereof, please set
   ```
 
 ... 他 2 件の問題
@@ -575,87 +503,6 @@
 
 ... 他 2 件の問題
 
-### `programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst`
-
-**問題箇所:** 7件
-
-- **行 18:** Mixed Japanese and English text
-  ```
-  典型的な **FIRST Tech Challenge** のマッチでは、チームのロボットはポイントを獲得するために様々なタスクを実行する必要があります。例えば
-  ```
-- **行 20:** Mixed Japanese and English text
-  ```
-  **FIRST Tech Challenge** に参加しているチームは、独自の **Op Mode** を作成するために使用できる様々なプログラミングツールを
-  ```
-- **行 115:** Mixed Japanese and English text
-  ```
-  また、「Setup Code for Configured Hardware」オプションもチェックしてください。このオプションを有効にすると、**OnBot J
-  ```
-- **行 280:** Mixed Japanese and English text
-  ```
-  **OnBot Java** ウィンドウの編集ペインで、``private Servo servoTest;`` と記述されている行を探します。これは、**Op
-  ```
-- **行 306:** Mixed Japanese and English text
-  ```
-  **Op Mode** を最初にビルドしようとすると、「illegal start of expression error」が表示されるはずです。これは、add
-  ```
-
-... 他 2 件の問題
-
-### `programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst`
-
-**問題箇所:** 7件
-
-- **行 7:** Mixed Japanese and English text
-  ```
-  より複雑な **Op Mode** を作成し始めると、**FIRST Tech Challenge** ソフトウェア開発キット（SDK）のより多くの機能を使用す
-  ```
-- **行 11:** English text at end of line
-  ```
-  ...サンプル Op Mode
-  ```
-- **行 14:** Mixed Japanese and English text
-  ```
-  **OnBot Java** プログラミングツールには、**FIRST Tech Challenge** 制御システムでさまざまなタスクを実行する方法を示す、い
-  ```
-- **行 24:** Mixed Japanese and English text
-  ```
-  登録されたチームは、**FIRST Tech Challenge** フォーラムでユーザーアカウントを作成できます。チームはフォーラムを使用して質問をし、**F
-  ```
-- **行 30:** Mixed Japanese and English text
-  ```
-  REV Robotics Control Hub ドキュメント
-  ```
-
-... 他 2 件の問題
-
-### `programming_resources/shared/control_system_intro/The-FTC-Control-System.rst`
-
-**問題箇所:** 7件
-
-- **行 31:** Mixed Japanese and English text
-  ```
-  1つの Android デバイスはロボットに搭載され、**Robot Controller** と呼ばれます。ほとんどの場合、**Robot Controlle
-  ```
-- **行 33:** Mixed Japanese and English text
-  ```
-  2つ目の Android デバイスは、チームのドライバーと一緒に配置され、1つまたは2つのゲームパッドが接続されます。この2つ目のデバイスは **Driver 
-  ```
-- **行 35:** English text at end of line
-  ```
-  ...REV Robotics Control Hub と Expansion Hub
-  ```
-- **行 38:** Mixed Japanese and English text
-  ```
-  **REV Robotics Control Hub** または **Expansion Hub** は、**Robot Controller** がロボットの
-  ```
-- **行 50:** Mixed Japanese and English text
-  ```
-  チームは、Android スマートフォンを **Driver Station**、**Robot Controller**、またはその両方として使用することを選
-  ```
-
-... 他 2 件の問題
-
 ### `control_hard_compon/rc_components/encoders/encoders.rst`
 
 **問題箇所:** 6件
@@ -683,29 +530,56 @@
 
 ... 他 1 件の問題
 
-### `hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst`
+### `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
 
 **問題箇所:** 6件
 
-- **行 10:** Mixed Japanese and English text
+- **行 22:** Mixed Japanese and English text
   ```
-  **REV Robotics Control Hub**を使用する場合、内蔵カメラが搭載されていないため、外部Webカメラを利用する必要があります。
+  現在、これら3つの領域は *FIRST* **Tech Challenge Software Development Kit (SDK) のバージョン 8.2 
   ```
-- **行 19:** Mixed Japanese and English text
+- **行 91:** Mixed Japanese and English text
   ```
-  理論上、USB Video Class（UVC）対応カメラはどれでも動作しますが、**FIRST**ではLogitech製UVC Webカメラの使用を推奨してい
+  ID コードを超えて、新しい SDK は **ポーズ** データ、すなわち **カメラの視点** からの位置と方向（回転）も提供します。これには **平らな A
   ```
-- **行 34:** Mixed Japanese and English text
+- **行 137:** Mixed Japanese and English text
   ```
-  UVCカメラは**REV Control Hub**のUSB 3.0ポートに直接接続できます。**REV Robotics Expansion Hub**とは異
+  プレビュー（RC フォン画面または DS Camera Stream）では、公式に認識された AprilTag は **色付きの境界線** とその数値 **ID
   ```
-- **行 80:** Mixed Japanese and English text
+- **行 185:** Untranslated English paragraph/sentence
   ```
-  **FIRST Tech Challenge**アプリでは、**VisionPortal**を使った「ストリーム対応**OpMode**」でカメラプレビューが可
+  even from the camera’s frame of reference.
   ```
-- **行 112:** Mixed Japanese and English text
+- **行 204:** Untranslated English paragraph/sentence
   ```
-  USB-A to USB-Cケーブルで**Control Hub**のUSB-Cポートに接続するか、Windowsの場合は**Control Hub**のWi-
+  for navigation, but that’s beyond this AprilTag introduction.
+  ```
+
+... 他 1 件の問題
+
+### `hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst`
+
+**問題箇所:** 6件
+
+- **行 7:** Mixed Japanese and English text
+  ```
+  競技マニュアルでは、コンピュータビジョン関連のタスクにおいて、USB Video Class（UVC）互換のカメラの使用を認めています。
+  ```
+- **行 48:** Mixed Japanese and English text
+  ```
+  Modern Robotics Core Power Distribution Module は、USB 接続ウェブカメラで動作するには十分な速度のデータ転送速
+  ```
+- **行 66:** Mixed Japanese and English text
+  ```
+  このポートにより、ユーザーは標準的な USB Type B Micro ケーブルをハブに接続してから、ケーブルの反対側（USB Type A コネクターが付いて
+  ```
+- **行 74:** Mixed Japanese and English text
+  ```
+  バッテリーパックは USB ハブの USB Type B Micro ポートに接続されています。
+  ```
+- **行 75:** Mixed Japanese and English text
+  ```
+  ウェブカメラは USB ハブの USB Type A ポートの 1 つに接続されています。
   ```
 
 ... 他 1 件の問題
@@ -760,31 +634,6 @@
   Robots in *FIRST* Tech Challenge may employ up to 12 total servos.
   ```
 
-### `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
-
-**問題箇所:** 5件
-
-- **行 4:** Mixed Japanese and English text
-  ```
-  **FIRST Tech Challenge** は **VisionPortal** を導入しました。これは、ビジョン処理のための包括的な新しいインターフェー
-  ```
-- **行 6:** Mixed Japanese and English text
-  ```
-  -  **FTC Blocks と Java** チームの場合、VisionPortal は **AprilTag** と **EasyOpenCV** の主要
-  ```
-- **行 50:** Mixed Japanese and English text
-  ```
-  2023-2024 CENTERSTAGE シーズンの準備として、新しい Software Development Kit (SDK) **VisionPort
-  ```
-- **行 75:** Untranslated English paragraph/sentence
-  ```
-  VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-c
-  ```
-- **行 89:** Untranslated English paragraph/sentence
-  ```
-  Questions, comments and corrections to westsiderobotics@verizon.net
-  ```
-
 ### `hardware_and_software_configuration/configuring/getting_started/getting-started.rst`
 
 **問題箇所:** 5件
@@ -808,31 +657,6 @@
 - **行 109:** Mixed Japanese and English text
   ```
   5. 「Expansion Hub Portal 1」などの Portal リストをタッチすると、その Portal に接続されている **Expansion 
-  ```
-
-### `ftc_sdk/overview/index.rst`
-
-**問題箇所:** 5件
-
-- **行 6:** Mixed Japanese and English text
-  ```
-  **FIRST Tech Challenge** ソフトウェア開発キット
-  ```
-- **行 9:** Mixed Japanese and English text
-  ```
-  ソフトウェア開発キット（SDK）は、**FIRST Tech Challenge** ロボット用のソフトウェアを開発し、実行するためのツールのコレクションです。
-  ```
-- **行 30:** Mixed Japanese and English text
-  ```
-  ソフトウェア開発キットは、**FIRST Tech Challenge** **Technology Team** として知られるコアグループによって、プライベ
-  ```
-- **行 63:** Mixed Japanese and English text
-  ```
-  -  **キックオフSDKリリース** - 通常、**FIRST Tech Challenge** キックオフから1〜2週間以内にリリースされます。キックオフS
-  ```
-- **行 64:** Mixed Japanese and English text
-  ```
-  -  **更新/パッチリリース** - これらは通常、**FIRST Tech Challenge** シーズン中に、重大な問題または有用な機能がチームで利用可
   ```
 
 ### `programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst`
@@ -860,81 +684,6 @@
   9. 別の「**telemetry.addData**」ブロック（テキスト版）を「if do else」ブロックの「else」句に挿入します。「key」値を「t
   ```
 
-### `programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst`
-
-**問題箇所:** 5件
-
-- **行 29:** Mixed Japanese and English text
-  ```
-  「Add unambiguous imports on the fly」をチェックすると、**Android Studio** が **OpMode** で使用
-  ```
-- **行 59:** Mixed Japanese and English text
-  ```
-  ``org.firstinspires.ftc.teamcode`` パッケージを右クリックし、ポップアップメニューから New->Java Class を選択
-  ```
-- **行 239:** Mixed Japanese and English text
-  ```
-  または、**Control Hub** を使用している場合は、**Control Hub** が新しく充電された 12V バッテリーで駆動されており、USB T
-  ```
-- **行 336:** Mixed Japanese and English text
-  ```
-  **REV Robotics Control Hub** または **REV Robotics Expansion Hub** 用に接続および構成した DC モ
-  ```
-- **行 389:** Mixed Japanese and English text
-  ```
-  ゲームパッドを **Driver Station** に接続します。**REV Robotics Driver Hub** を使用している場合、ゲームパッドを 
-  ```
-
-### `programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst`
-
-**問題箇所:** 5件
-
-- **行 21:** Mixed Japanese and English text
-  ```
-  *  **Driver Station**（**DS**）アプリを **DRIVER STATION** デバイスにインストールします。（**DS** アプリは
-  ```
-- **行 40:** Mixed Japanese and English text
-  ```
-  *  **Driver Station** アプリを **DRIVER STATION** デバイスにインストールします。（**DS** アプリは **REV 
-  ```
-- **行 126:** Mixed Japanese and English text
-  ```
-  *  WiFi経由で **REV Robotics Control Hub** に接続します。
-  ```
-- **行 135:** Mixed Japanese and English text
-  ```
-  REV Roboticsデバイス（REV Robotics Expansion Hub、REV Robotics Control Hub、REV Robotic
-  ```
-- **行 208:** Mixed Japanese and English text
-  ```
-  **REV Robotics Control Hub** には、**Robot Controller** アプリがプリインストールされています。Androidス
-  ```
-
-### `devices/huskylens/huskylens.rst`
-
-**問題箇所:** 5件
-
-- **行 20:** Mixed Japanese and English text
-  ```
-  **HuskyLens** は、**オンボードプログラミング**によって AI 支援の学習、画像処理、認識を行います。**REV Control Hub** ま
-  ```
-- **行 30:** Mixed Japanese and English text
-  ```
-  **HuskyLens** を **REV Control Hub** または **Expansion Hub** の I2C ポートに接続するには、**カスタ
-  ```
-- **行 229:** Mixed Japanese and English text
-  ```
-  これは公式手順の ``Operation and Setting`` のステップ1です。今はステップ2～4で複数色を学習しようとしないでください。
-  ```
-- **行 235:** Mixed Japanese and English text
-  ```
-  これは ``Learning and Detection`` のステップ1です。次はステップ2、色の学習です。
-  ```
-- **行 419:** Mixed Japanese and English text
-  ```
-  画面の「Do you want to save the parameters?」や「Do you save data?」のプロンプトで、Function ボタン
-  ```
-
 ### `contrib/guidelines/guidelines.rst`
 
 **問題箇所:** 4件
@@ -956,25 +705,67 @@
   Perhaps that we are WCAG compliant someday.
   ```
 
-### `ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst`
+### `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
 
 **問題箇所:** 4件
 
-- **行 4:** Mixed Japanese and English text
+- **行 6:** Mixed Japanese and English text
   ```
-  REV Hardware Clientは、**FIRST Tech Challenge** で使用されるデバイスのソフトウェア更新を簡素化するデスクトップアプリ
+  -  **FTC Blocks と Java** チームの場合、VisionPortal は **AprilTag** と **EasyOpenCV** の主要
   ```
-- **行 41:** Mixed Japanese and English text
+- **行 50:** Mixed Japanese and English text
   ```
-  Downloadsタブ（左上）をクリックします。「Available Files」の下には、**FIRST Tech Challenge** 用のソフトウェアと
+  2023-2024 CENTERSTAGE シーズンの準備として、新しい Software Development Kit (SDK) **VisionPort
   ```
-- **行 52:** Mixed Japanese and English text
+- **行 75:** Untranslated English paragraph/sentence
   ```
-  オレンジ色のDownloadボタンをクリックして、5つの **FIRST Tech Challenge** 項目（黄色の矩形）のみをダウンロードします。これには
+  VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-c
   ```
-- **行 72:** Mixed Japanese and English text
+- **行 89:** Untranslated English paragraph/sentence
   ```
-  2. 「About」タブをクリックし、次に「Check for Updates」をクリックします（上の緑色の矢印）。新しいバージョンが利用可能な場合は、クリック
+  Questions, comments and corrections to westsiderobotics@verizon.net
+  ```
+
+### `programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst`
+
+**問題箇所:** 4件
+
+- **行 115:** Mixed Japanese and English text
+  ```
+  また、「Setup Code for Configured Hardware」オプションもチェックしてください。このオプションを有効にすると、**OnBot J
+  ```
+- **行 280:** Mixed Japanese and English text
+  ```
+  **OnBot Java** ウィンドウの編集ペインで、``private Servo servoTest;`` と記述されている行を探します。これは、**Op
+  ```
+- **行 306:** Mixed Japanese and English text
+  ```
+  **Op Mode** を最初にビルドしようとすると、「illegal start of expression error」が表示されるはずです。これは、add
+  ```
+- **行 437:** Mixed Japanese and English text
+  ```
+  ゲームパッドを **DRIVER STATION** に接続します。スマートフォンを使用している場合は、Micro USB OTG アダプターケーブルが必要です
+  ```
+
+### `programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst`
+
+**問題箇所:** 4件
+
+- **行 29:** Mixed Japanese and English text
+  ```
+  「Add unambiguous imports on the fly」をチェックすると、**Android Studio** が **OpMode** で使用
+  ```
+- **行 59:** Mixed Japanese and English text
+  ```
+  ``org.firstinspires.ftc.teamcode`` パッケージを右クリックし、ポップアップメニューから New->Java Class を選択
+  ```
+- **行 239:** Mixed Japanese and English text
+  ```
+  または、**Control Hub** を使用している場合は、**Control Hub** が新しく充電された 12V バッテリーで駆動されており、USB T
+  ```
+- **行 389:** Mixed Japanese and English text
+  ```
+  ゲームパッドを **Driver Station** に接続します。**REV Robotics Driver Hub** を使用している場合、ゲームパッドを 
   ```
 
 ### `control_hard_compon/rc_components/motors/motors.rst`
@@ -1011,21 +802,21 @@
   For increasing the power supplied to these servos it is possible to use a Servo 
   ```
 
-### `programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst`
+### `devices/huskylens/huskylens.rst`
 
 **問題箇所:** 3件
 
-- **行 11:** Mixed Japanese and English text
+- **行 229:** Mixed Japanese and English text
   ```
-  以下の図では、「標準スケール」の180度サーボが示されています。このタイプのサーボは、ホビイストや **FIRST Tech Challenge** チームに人
+  これは公式手順の ``Operation and Setting`` のステップ1です。今はステップ2～4で複数色を学習しようとしないでください。
   ```
-- **行 70:** Mixed Japanese and English text
+- **行 235:** Mixed Japanese and English text
   ```
-  5. 「set **servoTest.Position** to」ブロックを「Put initialization blocks here.」と書かれたコメン
+  これは ``Learning and Detection`` のステップ1です。次はステップ2、色の学習です。
   ```
-- **行 86:** Mixed Japanese and English text
+- **行 419:** Mixed Japanese and English text
   ```
-  7. プログラミングブロックの「Logic」カテゴリをクリックし、利用可能なブロックのリストから「if do」ブロックを選択します。ブロックを「Put loop
+  画面の「Do you want to save the parameters?」や「Do you save data?」のプロンプトで、Function ボタン
   ```
 
 ### `control_hard_compon/rc_components/uvc/uvc.rst`
@@ -1054,6 +845,32 @@
   4. Select "REV Color/Range Sensor" from the dropdown selector for
   ```
 
+### `hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst`
+
+**問題箇所:** 2件
+
+- **行 19:** Mixed Japanese and English text
+  ```
+  理論上、USB Video Class（UVC）対応カメラはどれでも動作しますが、**FIRST**ではLogitech製UVC Webカメラの使用を推奨してい
+  ```
+- **行 112:** Mixed Japanese and English text
+  ```
+  USB-A to USB-Cケーブルで**Control Hub**のUSB-Cポートに接続するか、Windowsの場合は**Control Hub**のWi-
+  ```
+
+### `ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst`
+
+**問題箇所:** 2件
+
+- **行 41:** Mixed Japanese and English text
+  ```
+  Downloadsタブ（左上）をクリックします。「Available Files」の下には、**FIRST Tech Challenge** 用のソフトウェアと
+  ```
+- **行 72:** Mixed Japanese and English text
+  ```
+  2. 「About」タブをクリックし、次に「Check for Updates」をクリックします（上の緑色の矢印）。新しいバージョンが利用可能な場合は、クリック
+  ```
+
 ### `programming_resources/blocks/Blocks-Tutorial.rst`
 
 **問題箇所:** 2件
@@ -1067,30 +884,43 @@
   **Blocks Programming Tool** は、プログラマーがウェブブラウザを使用して
   ```
 
-### `programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst`
+### `programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst`
 
 **問題箇所:** 2件
 
-- **行 11:** Mixed Japanese and English text
+- **行 7:** Mixed Japanese and English text
   ```
-  下の図には、「標準スケール」の180度サーボが示されています。このタイプのサーボは、ホビイストや **FIRST Tech Challenge** チームに人気
+  より複雑な **Op Mode** を作成するようになると、**FIRST Tech Challenge** ソフトウェア開発キット（**SDK**）のより多く
   ```
-- **行 27:** Mixed Japanese and English text
+- **行 12:** English text at end of line
   ```
-  **FIRST Tech Challenge** 制御システムでは、サーボの目標位置を 0 から 1 の範囲で指定できます。目標位置 0 は回転角度 0 度に対
+  ...サンプル Op Mode
   ```
 
-### `programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst`
+### `programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst`
 
 **問題箇所:** 2件
 
-- **行 11:** Mixed Japanese and English text
+- **行 70:** Mixed Japanese and English text
   ```
-  以下の図には、「標準スケール」の180度サーボが示されています。このタイプのサーボは、ホビイストや **FIRST Tech Challenge** チームに人
+  5. 「set **servoTest.Position** to」ブロックを「Put initialization blocks here.」と書かれたコメン
   ```
-- **行 27:** Mixed Japanese and English text
+- **行 86:** Mixed Japanese and English text
   ```
-  **FIRST Tech Challenge** 制御システムでは、サーボの目標位置を0から1の範囲で指定できます。目標位置0は回転角度0度に対応し、目標位置1
+  7. プログラミングブロックの「Logic」カテゴリをクリックし、利用可能なブロックのリストから「if do」ブロックを選択します。ブロックを「Put loop
+  ```
+
+### `programming_resources/shared/control_system_intro/The-FTC-Control-System.rst`
+
+**問題箇所:** 2件
+
+- **行 57:** Mixed Japanese and English text
+  ```
+  Android スマートフォンを **Robot Controller** として使用するチームは、モーター、サーボ、センサーを接続するために追加の **REV
+  ```
+- **行 71:** Mixed Japanese and English text
+  ```
+  *FIRST* Tech Challenge に参加しているチームは、独自の **OpMode** を作成するために使用できるさまざまなプログラミングツールを持
   ```
 
 ### `contrib/index.rst`
@@ -1102,24 +932,6 @@
   - Daniel Alfredo Diaz, Jr — メンテナー
   ```
 
-### `control_hard_compon/rc_components/index.rst`
-
-**問題箇所:** 1件
-
-- **行 10:** Mixed Japanese and English text
-  ```
-  これらの画像は、標準的なロボットスターターキットに通常含まれているコンポーネントと、*FIRST* ストアフロントから購入したコンポーネント（REV および T
-  ```
-
-### `control_hard_compon/rc_components/hub/hub.rst`
-
-**問題箇所:** 1件
-
-- **行 21:** Mixed Japanese and English text
-  ```
-  **REV Control Hub** は、**REV Expansion Hub** に組み込まれた Android ドーターボードを組み合わせたものです。こ
-  ```
-
 ### `control_hard_compon/rc_components/hub/ports/ch-ports.rst`
 
 **問題箇所:** 1件
@@ -1127,15 +939,6 @@
 - **行 22:** Mixed Japanese and English text
   ```
   Universal Serial Bus（USB）は、多くの種類の電子機器間でデータ交換と電力供給を可能にする業界標準です。**Control Hub** には
-  ```
-
-### `hardware_and_software_configuration/connecting_devices/index.rst`
-
-**問題箇所:** 1件
-
-- **行 4:** Mixed Japanese and English text
-  ```
-  このセクションでは、モーター、サーボ、およびいくつかのセンサーを **REV Robotics Control Hub** または **REV Robotics
   ```
 
 ### `hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst`
@@ -1156,24 +959,6 @@
   2. タッチスクリーンを使用して、ポート #1 に「REV Touch Sensor」を追加し、デバイスに「testTouch」という名前を付けます。
   ```
 
-### `hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst`
-
-**問題箇所:** 1件
-
-- **行 119:** Mixed Japanese and English text
-  ```
-  たとえば、REV Robotics Expansion Hub で使用される 4 線式センサーケーブルには、絶縁が不十分なプラスチックコネクタがあります。ロボッ
-  ```
-
-### `ftc_sdk/updating/index.rst`
-
-**問題箇所:** 1件
-
-- **行 9:** Mixed Japanese and English text
-  ```
-  **FIRST Tech Challenge** 制御システムの特定のコンポーネントは、定期的に更新を受け取ります。チームは、制御システムの各コンポーネントを最
-  ```
-
 ### `programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst`
 
 **問題箇所:** 1件
@@ -1181,6 +966,15 @@
 - **行 22:** Mixed Japanese and English text
   ```
   **Op Mode** を変更した後、ビルドボタンを押してから **Op Mode** を実行し、**Driver Station** に距離が表示されることを
+  ```
+
+### `programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst`
+
+**問題箇所:** 1件
+
+- **行 11:** English text at end of line
+  ```
+  ...サンプル Op Mode
   ```
 
 ### `programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst`
@@ -1387,6 +1181,8 @@
 ```bash
 python docs/scripts/check_translation_progress.py
 ```
+
+**注意:** このスクリプトは `GLOSSARY.md` を読み込み、英語のまま残すべき技術用語を自動的に除外します。
 
 詳細な翻訳ガイドラインは `TRANSLATION_GUIDE.md` を参照してください。
 作業効率化ツールについては `TRANSLATION_WORKFLOW_TOOLS.md` を参照してください。

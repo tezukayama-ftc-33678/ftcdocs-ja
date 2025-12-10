@@ -52,10 +52,15 @@ def main():
     script_dir = Path(__file__).parent
     repo_root = script_dir.parent.parent
     
+    # Load glossary terms
+    glossary_path = repo_root / 'GLOSSARY.md'
+    from check_translation_progress import load_glossary_terms
+    glossary_terms = load_glossary_terms(glossary_path)
+    
     # Create checker and scan files
     source_dir = repo_root / SOURCE_DIR
     print(f"Scanning {source_dir.relative_to(repo_root)}...", file=sys.stderr)
-    checker = TranslationChecker(source_dir)
+    checker = TranslationChecker(source_dir, glossary_terms)
     checker.scan_directory()
     
     # Filter by directory if specified

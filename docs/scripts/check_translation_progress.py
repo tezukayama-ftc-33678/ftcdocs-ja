@@ -6,6 +6,8 @@ This script scans all RST files in the docs/source directory and checks
 if they have been completely translated to Japanese. It detects English text
 remaining in files, especially in the middle or at the end of sentences.
 
+Loads GLOSSARY.md to identify technical terms that should remain in English.
+
 Output: TRANSLATION_PROGRESS.md (overwritten each time)
 """
 
@@ -22,6 +24,9 @@ SOURCE_DIR = "docs/source"
 
 # Output file (in repository root)
 OUTPUT_FILE = "TRANSLATION_PROGRESS.md"
+
+# Glossary file (in repository root)
+GLOSSARY_FILE = "GLOSSARY.md"
 
 # Patterns to detect Japanese text
 HIRAGANA_PATTERN = re.compile(r'[\u3040-\u309F]')  # Hiragana
@@ -56,16 +61,77 @@ RST_DIRECTIVES = [
 ]
 
 
+def load_glossary_terms(glossary_path: Path) -> Set[str]:
+    """
+    Load English terms from GLOSSARY.md that should remain in English.
+    Returns a set of lowercase terms for case-insensitive matching.
+    """
+    terms = set()
+    
+    if not glossary_path.exists():
+        print(f"Warning: Glossary file not found at {glossary_path}", file=sys.stderr)
+        return terms
+    
+    try:
+        with open(glossary_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Extract terms from markdown tables in the "和訳しない用語" section
+        # Look for patterns like: | OpMode | **OpMode** | ...
+        # or lines with English terms in the table
+        in_no_translate_section = False
+        
+        for line in content.split('\n'):
+            # Detect the "和訳しない用語" section
+            if '和訳しない用語' in line or '英語のまま' in line:
+                in_no_translate_section = True
+                continue
+            
+            # Stop at the next major section
+            if in_no_translate_section and line.startswith('###') and '和訳' in line:
+                in_no_translate_section = False
+                continue
+            
+            # Extract terms from table rows
+            if in_no_translate_section and '|' in line:
+                # Parse markdown table row
+                parts = [p.strip() for p in line.split('|')]
+                for part in parts:
+                    # Remove markdown formatting like ** and ``
+                    clean_part = re.sub(r'\*\*|``', '', part)
+                    clean_part = clean_part.strip()
+                    
+                    # If it contains English words, add them
+                    # Look for multi-word terms and single words
+                    if clean_part and re.search(r'[A-Za-z]', clean_part):
+                        # Add the full term
+                        terms.add(clean_part.lower())
+                        
+                        # Also add individual words from multi-word terms
+                        words = re.findall(r'\b[A-Za-z]+\b', clean_part)
+                        for word in words:
+                            if len(word) > 2:  # Skip very short words
+                                terms.add(word.lower())
+        
+        print(f"Loaded {len(terms)} glossary terms from {glossary_path.name}", file=sys.stderr)
+        
+    except Exception as e:
+        print(f"Warning: Error reading glossary file: {e}", file=sys.stderr)
+    
+    return terms
+
+
 class TranslationChecker:
     """Check translation progress of RST files."""
     
-    def __init__(self, source_dir: str):
+    def __init__(self, source_dir: str, glossary_terms: Set[str] = None):
         self.source_dir = Path(source_dir)
         self.total_files = 0
         self.translated_files = 0
         self.partially_translated = 0
         self.untranslated_files = 0
         self.results: Dict[str, Dict] = {}
+        self.glossary_terms = glossary_terms or set()
         
     def has_japanese(self, text: str) -> bool:
         """Check if text contains Japanese characters."""
@@ -110,6 +176,31 @@ class TranslationChecker:
         """Check if line primarily contains a URL."""
         url_pattern = re.compile(r'https?://|www\.')
         return bool(url_pattern.search(line))
+    
+    def contains_only_glossary_terms(self, text: str) -> bool:
+        """
+        Check if English text contains only terms from the glossary.
+        Returns True if all English words are in the glossary (allowed to remain in English).
+        """
+        if not self.glossary_terms:
+            return False
+        
+        # Extract all English words from the text
+        english_words = re.findall(r'\b[A-Za-z]+\b', text)
+        
+        if not english_words:
+            return False
+        
+        # Check if all words are in the glossary
+        for word in english_words:
+            word_lower = word.lower()
+            # Skip very common short words that are likely part of technical terms
+            if len(word_lower) <= 2:
+                continue
+            if word_lower not in self.glossary_terms:
+                return False
+        
+        return True
     
     def detect_english_issues(self, file_path: Path) -> List[Dict]:
         """
@@ -156,11 +247,13 @@ class TranslationChecker:
                 match = re.search(r'([A-Za-z]+(?:\s+[A-Za-z]+)*)[.!?]?\s*$', line)
                 if match:
                     english_part = match.group(1)
-                    issues.append({
-                        'line': i,
-                        'issue': 'English text at end of line',
-                        'text': f'...{line.strip()[-60:]}'
-                    })
+                    # Skip if it's only glossary terms (allowed technical terms)
+                    if not self.contains_only_glossary_terms(english_part):
+                        issues.append({
+                            'line': i,
+                            'issue': 'English text at end of line',
+                            'text': f'...{line.strip()[-60:]}'
+                        })
                     continue
             
             # Check for English sentences in the middle
@@ -169,9 +262,11 @@ class TranslationChecker:
                 english_matches = ENGLISH_SENTENCE_PATTERN.findall(line)
                 if english_matches:
                     # Filter out common technical terms that should stay in English
+                    # and glossary terms
                     significant_english = [
                         match for match in english_matches
                         if len(match.split()) >= 3  # 3+ word phrases
+                        and not self.contains_only_glossary_terms(match)  # Not all glossary terms
                     ]
                     if significant_english:
                         issues.append({
@@ -338,6 +433,7 @@ class TranslationChecker:
             f.write("```bash\n")
             f.write("python docs/scripts/check_translation_progress.py\n")
             f.write("```\n\n")
+            f.write("**注意:** このスクリプトは `GLOSSARY.md` を読み込み、英語のまま残すべき技術用語を自動的に除外します。\n\n")
             f.write("詳細な翻訳ガイドラインは `TRANSLATION_GUIDE.md` を参照してください。\n")
             f.write("作業効率化ツールについては `TRANSLATION_WORKFLOW_TOOLS.md` を参照してください。\n")
         
@@ -364,8 +460,12 @@ def main():
         print(f"Source directory '{source_path.absolute()}' not found.")
         sys.exit(1)
     
+    # Load glossary terms
+    glossary_path = repo_root / GLOSSARY_FILE
+    glossary_terms = load_glossary_terms(glossary_path)
+    
     # Create checker and scan files
-    checker = TranslationChecker(SOURCE_DIR)
+    checker = TranslationChecker(SOURCE_DIR, glossary_terms)
     checker.scan_directory()
     
     # Generate report

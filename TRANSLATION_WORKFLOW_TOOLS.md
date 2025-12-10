@@ -135,7 +135,8 @@ cat TRANSLATION_PROGRESS.md
   - コードブロック内の英語
   - URL
   - RSTディレクティブ（`:doc:`, `:ref:` など）
-  - API名やクラス名（技術用語として許容）
+  - **GLOSSARY.mdから自動読み込みされた技術用語**（OpMode、Control Hub、IMU など）
+  - API名やクラス名（GLOSSARY.mdで定義された用語として許容）
 
 #### 定期実行の推奨
 翻訳作業の進捗を継続的に確認するため、以下のタイミングでスクリプトを実行することを推奨します：
