@@ -197,7 +197,7 @@ class TranslationChecker:
         # Check if all words are in the glossary
         for word in english_words:
             word_lower = word.lower()
-            # Skip very common short words that are likely part of technical terms
+            # Skip short words (length <= MIN_WORD_LENGTH) that are often articles or prepositions
             if len(word_lower) <= MIN_WORD_LENGTH:
                 continue
             if word_lower not in self.glossary_terms:
