@@ -125,12 +125,21 @@
 | **FIRST Tech Challenge (FTC)** | **FIRST Tech Challenge (FTC)** に参加します |
 | **Gracious Professionalism** | **Gracious Professionalism** を実践します |
 
+### UI/機能名
+| 英語（太字で残す） | 使用例 |
+|------|------|
+| **Settings** | **Settings** を開きます |
+| **Camera Stream** | **Camera Stream** を確認します |
+| **Team Prop** | **Team Prop** を認識します |
+| **Color Locator** | **Color Locator** を使用します |
+| **Access Codes** | **Access Codes** を入力します |
+| **Self Inspect** | **Self Inspect** を実行します |
+| **Inspection Reports** | **Inspection Reports** を表示します |
+
 ### その他の固有名詞
 | 英語（太字で残す） | 使用例 |
 |------|------|
 | **Awards** | **Awards** に応募します |
-| **Team Prop** | **Team Prop** を認識します |
-| **Settings** | **Settings** を開きます |
 
 ---
 

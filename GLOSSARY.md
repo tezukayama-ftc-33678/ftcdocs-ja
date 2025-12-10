@@ -54,6 +54,17 @@
 | OnBot Java | **OnBot Java** | プログラミング環境名 |
 | Android Studio | **Android Studio** | IDE名 |
 
+#### UI/機能名
+| 英語 | 表記 | 備考 |
+|------|------|------|
+| Settings | **Settings** | UI上の設定メニュー名 |
+| Camera Stream | **Camera Stream** | カメラストリーム機能 |
+| Team Prop | **Team Prop** | チーム固有の小道具 |
+| Color Locator | **Color Locator** | 色検出機能 |
+| Access Codes | **Access Codes** | アクセスコード機能 |
+| Self Inspect | **Self Inspect** | 自己検査機能 |
+| Inspection Reports | **Inspection Reports** | 検査レポート機能 |
+
 #### その他の固有名詞
 | 英語 | 表記 | 備考 |
 |------|------|------|

@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 13:44:32
+**生成日時:** 2025-12-10 13:51:04
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -77,7 +77,7 @@
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
-**問題箇所:** 144件
+**問題箇所:** 140件
 
 - **行 4:** Untranslated English paragraph/sentence
   ```
@@ -100,7 +100,7 @@
   Decorative images are also an accessibility problem. The screen reader has to pr
   ```
 
-... 他 139 件の問題
+... 他 135 件の問題
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
@@ -131,7 +131,7 @@
 
 ### `hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst`
 
-**問題箇所:** 70件
+**問題箇所:** 69件
 
 - **行 53:** Untranslated English paragraph/sentence
   ```
@@ -154,34 +154,7 @@
   2. The Control Hub and Expansion Hub use the RS-485 serial bus standard
   ```
 
-... 他 65 件の問題
-
-### `hardware_and_software_configuration/self_inspect/self-inspect.rst`
-
-**問題箇所:** 31件
-
-- **行 30:** Mixed Japanese and English text
-  ```
-  DS アプリの Settings で選択した Pairing Method（Wi-Fi Direct または Control Hub）が、DS Self Ins
-  ```
-- **行 41:** Mixed Japanese and English text
-  ```
-  DS デバイス（スマホまたは Driver Hub）は自分自身の DS Self Inspect **と**、ペアになっている RC スマホまたは Contro
-  ```
-- **行 47:** Mixed Japanese and English text
-  ```
-  - `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__（DS ス
-  ```
-- **行 48:** Mixed Japanese and English text
-  ```
-  - `DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__（D
-  ```
-- **行 49:** Mixed Japanese and English text
-  ```
-  - `DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__（Dr
-  ```
-
-... 他 26 件の問題
+... 他 64 件の問題
 
 ### `control_hard_compon/rc_components/sensors/sensors.rst`
 
@@ -237,87 +210,6 @@
 
 ... 他 12 件の問題
 
-### `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
-
-**問題箇所:** 16件
-
-- **行 64:** Mixed Japanese and English text
-  ```
-  Driver Station Self Inspect レポート
-  ```
-- **行 76:** Mixed Japanese and English text
-  ```
-  -  項目1：三点リーダーはメニューで、``Disconnect from Wi-Fi Direct``と``Disable Bluetooth``の2つの選択
-  ```
-- **行 78:** Mixed Japanese and English text
-  ```
-  ``Disconnect from Wi-Fi Direct``は動作しますが、アプリが自動で再ペアリングすることがあります。
-  ```
-- **行 82:** Mixed Japanese and English text
-  ```
-  -  項目4：``Driver Hub OS Version``は通常1.2.0です。
-  ```
-- **行 89:** Mixed Japanese and English text
-  ```
-  -  項目11：``Driver Station Name``はFTCの命名規則に合致している必要があります。チーム番号＋-DS（例：99999-DS）です。
-  ```
-
-... 他 11 件の問題
-
-### `programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst`
-
-**問題箇所:** 16件
-
-- **行 97:** Mixed Japanese and English text
-  ```
-  プログラミングモードサーバーに正常に接続されている場合、Robot Controller Console が
-  ```
-- **行 105:** English text at end of line
-  ```
-  ...Console の上部にある **Blocks** リンクをクリックして、メインの Blocks Programming
-  ```
-- **行 120:** Mixed Japanese and English text
-  ```
-  4. ブラウザウィンドウの左上隅に表示されている "Create New Op Mode" ボタンをクリックします。
-  ```
-- **行 174:** Mixed Japanese and English text
-  ```
-  この基本的な **op mode** のフローを見てみましょう。"Put initialization blocks here" という
-  ```
-- **行 183:** Mixed Japanese and English text
-  ```
-  "Put initialization blocks here" コメントの後（および "call MyFIRSTOpMode.waitForStart"
-  ```
-
-... 他 11 件の問題
-
-### `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
-
-**問題箇所:** 15件
-
-- **行 18:** Mixed Japanese and English text
-  ```
-  1. ラップトップまたはChromebookが **Control Hub** のProgram & Manageワイヤレスネットワークに接続されていることを確
-  ```
-- **行 25:** Mixed Japanese and English text
-  ```
-  ラップトップまたはChromebookが接続されておらず、*Robot Controller Connection Info* ページにアクセスできない場合は、
-  ```
-- **行 29:** Mixed Japanese and English text
-  ```
-  2. *Robot Controller Connection Info* ページの上部にある *Manage* リンクをクリックして、Manageページに移動
-  ```
-- **行 36:** Mixed Japanese and English text
-  ```
-  3. *Robot Controller Name* フィールドで名前を変更し、*Change Name* ボタンをクリックして **Control Hub**
-  ```
-- **行 62:** Mixed Japanese and English text
-  ```
-  1. **Control Hub** ユーザーインターフェースの *Manage* ページで、ページの *Access Point Password* セクショ
-  ```
-
-... 他 10 件の問題
-
 ### `contrib/tutorials/create_codespace/create-codespace.rst`
 
 **問題箇所:** 14件
@@ -344,33 +236,6 @@
   ```
 
 ... 他 9 件の問題
-
-### `contrib/tutorials/switch_branch/switch-branch.rst`
-
-**問題箇所:** 13件
-
-- **行 9:** Untranslated English paragraph/sentence
-  ```
-  This step is necessary to change which branch you are working on. If you are wor
-  ```
-- **行 15:** Untranslated English paragraph/sentence
-  ```
-  Make sure to replace ``<branch_name>`` with the name of the branch you want to s
-  ```
-- **行 23:** Untranslated English paragraph/sentence
-  ```
-  ``error: pathspec '<branch-name>' did not match any file(s) known to git``
-  ```
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  This error occurs when the branch you are trying to switch to does not exist. Ma
-  ```
-- **行 26:** Untranslated English paragraph/sentence
-  ```
-  it can also occur when your local repo is not up to date with the remote repo. T
-  ```
-
-... 他 8 件の問題
 
 ### `contrib/tutorials/overview/overview.rst`
 
@@ -399,32 +264,32 @@
 
 ... 他 7 件の問題
 
-### `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
+### `contrib/tutorials/switch_branch/switch-branch.rst`
 
-**問題箇所:** 12件
+**問題箇所:** 11件
 
-- **行 32:** Mixed Japanese and English text
+- **行 9:** Untranslated English paragraph/sentence
   ```
-  3. *ROBOT CONTROLLER SETTINGS* ページで、*Robot Controller Name* をクリックします。
+  This step is necessary to change which branch you are working on. If you are wor
   ```
-- **行 64:** Mixed Japanese and English text
+- **行 15:** Untranslated English paragraph/sentence
   ```
-  3. *Settings* 画面の *ROBOT CONTROLLER SETTINGS* セクションまで下にスクロールし、*Advanced Settings
+  Make sure to replace ``<branch_name>`` with the name of the branch you want to s
   ```
-- **行 71:** Mixed Japanese and English text
+- **行 25:** Untranslated English paragraph/sentence
   ```
-  4. *Change Wifi Channel* リンクをクリックして、利用可能なチャンネルのリストを表示します。
+  This error occurs when the branch you are trying to switch to does not exist. Ma
   ```
-- **行 101:** Mixed Japanese and English text
+- **行 26:** Untranslated English paragraph/sentence
   ```
-  1. ラップトップまたはChromebookがスマートフォン **Robot Controller** のProgram & Manageワイヤレスネットワーク
+  it can also occur when your local repo is not up to date with the remote repo. T
   ```
-- **行 108:** Mixed Japanese and English text
+- **行 32:** Untranslated English paragraph/sentence
   ```
-  ラップトップまたはChromebookが接続されておらず、*Robot Controller Connection Info* ページにアクセスできない場合は、
+  This command will update your local repo with the remote repo. After running thi
   ```
 
-... 他 7 件の問題
+... 他 6 件の問題
 
 ### `overview/ftcoverview.rst`
 
@@ -584,29 +449,29 @@
   Robots in *FIRST* Tech Challenge may employ up to 12 total servos.
   ```
 
-### `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
+### `hardware_and_software_configuration/self_inspect/self-inspect.rst`
 
 **問題箇所:** 5件
 
-- **行 91:** Mixed Japanese and English text
+- **行 75:** Mixed Japanese and English text
   ```
-  ID コードを超えて、新しい SDK は **ポーズ** データ、すなわち **カメラの視点** からの位置と方向（回転）も提供します。これには **平らな A
+  - 項目 1 は 1 つだけ選べるメニューで、“Disconnect from Wi-Fi Direct” です。機能しますが、アプリが自動で再ペアリングする場
   ```
-- **行 137:** Mixed Japanese and English text
+- **行 79:** Mixed Japanese and English text
   ```
-  プレビュー（RC フォン画面または DS Camera Stream）では、公式に認識された AprilTag は **色付きの境界線** とその数値 **ID
+  - 項目 11 は **デバイスの Wi-Fi Direct 名** が FTC の形式要件を満たしているかを示します。ペア相手の RC 名（チーム番号）が一致
   ```
-- **行 185:** Untranslated English paragraph/sentence
+- **行 97:** Mixed Japanese and English text
   ```
-  even from the camera’s frame of reference.
+  - 項目 11 はデバイスの **Wi-Fi Direct 名** が FTC の形式要件を満たしていないため不合格です。この不適切な名前は DS スマホの A
   ```
-- **行 204:** Untranslated English paragraph/sentence
+- **行 130:** Mixed Japanese and English text
   ```
-  for navigation, but that’s beyond this AprilTag introduction.
+  - 項目 4 は Driver Hub のみに表示されます。チェックマークは、Operating System が FTC Competition Manual
   ```
-- **行 304:** Untranslated English paragraph/sentence
+- **行 162:** Mixed Japanese and English text
   ```
-  Questions, comments and corrections to westsiderobotics@verizon.net
+  - 項目 1 には引き続き “Disconnect from Wi-Fi Direct” しかありませんが、選択すると “There was an error 
   ```
 
 ### `hardware_and_software_configuration/configuring/getting_started/getting-started.rst`
@@ -680,6 +545,27 @@
   Perhaps that we are WCAG compliant someday.
   ```
 
+### `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
+
+**問題箇所:** 4件
+
+- **行 91:** Mixed Japanese and English text
+  ```
+  ID コードを超えて、新しい SDK は **ポーズ** データ、すなわち **カメラの視点** からの位置と方向（回転）も提供します。これには **平らな A
+  ```
+- **行 185:** Untranslated English paragraph/sentence
+  ```
+  even from the camera’s frame of reference.
+  ```
+- **行 204:** Untranslated English paragraph/sentence
+  ```
+  for navigation, but that’s beyond this AprilTag introduction.
+  ```
+- **行 304:** Untranslated English paragraph/sentence
+  ```
+  Questions, comments and corrections to westsiderobotics@verizon.net
+  ```
+
 ### `control_hard_compon/rc_components/motors/motors.rst`
 
 **問題箇所:** 3件
@@ -748,23 +634,6 @@
   ゲームパッドを **Driver Station** に接続します。**REV Robotics Driver Hub** を使用している場合、ゲームパッドを 
   ```
 
-### `devices/huskylens/huskylens.rst`
-
-**問題箇所:** 3件
-
-- **行 229:** Mixed Japanese and English text
-  ```
-  これは公式手順の ``Operation and Setting`` のステップ1です。今はステップ2～4で複数色を学習しようとしないでください。
-  ```
-- **行 235:** Mixed Japanese and English text
-  ```
-  これは ``Learning and Detection`` のステップ1です。次はステップ2、色の学習です。
-  ```
-- **行 419:** Mixed Japanese and English text
-  ```
-  画面の「Do you want to save the parameters?」や「Do you save data?」のプロンプトで、Function ボタン
-  ```
-
 ### `control_hard_compon/rc_components/uvc/uvc.rst`
 
 **問題箇所:** 2件
@@ -802,6 +671,19 @@
 - **行 112:** Mixed Japanese and English text
   ```
   USB-A to USB-Cケーブルで**Control Hub**のUSB-Cポートに接続するか、Windowsの場合は**Control Hub**のWi-
+  ```
+
+### `programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst`
+
+**問題箇所:** 2件
+
+- **行 97:** Mixed Japanese and English text
+  ```
+  プログラミングモードサーバーに正常に接続されている場合、Robot Controller Console が
+  ```
+- **行 105:** English text at end of line
+  ```
+  ...Console の上部にある **Blocks** リンクをクリックして、メインの Blocks Programming
   ```
 
 ### `programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst`
@@ -846,6 +728,15 @@
 - **行 22:** Mixed Japanese and English text
   ```
   Universal Serial Bus（USB）は、多くの種類の電子機器間でデータ交換と電力供給を可能にする業界標準です。**Control Hub** には
+  ```
+
+### `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
+
+**問題箇所:** 1件
+
+- **行 96:** Mixed Japanese and English text
+  ```
+  デバイスの日付が不正または未来日付の場合、「The Driver Station app is obsolete」と表示され、検査項目が無効になることがあります
   ```
 
 ### `hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst`
@@ -900,6 +791,33 @@
 - **行 22:** Mixed Japanese and English text
   ```
   **Op Mode** を変更した後、更新された **Robot Controller** アプリをビルドしてインストールし、**Op Mode** を実行して
+  ```
+
+### `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
+
+**問題箇所:** 1件
+
+- **行 169:** Mixed Japanese and English text
+  ```
+  ファイルが正常にアップロードされると、「Firmware upload complete」という言葉が表示されます。
+  ```
+
+### `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
+
+**問題箇所:** 1件
+
+- **行 184:** Mixed Japanese and English text
+  ```
+  ファイルが正常にアップロードされると、「Firmware upload complete」という言葉が表示されます。
+  ```
+
+### `devices/huskylens/huskylens.rst`
+
+**問題箇所:** 1件
+
+- **行 419:** Mixed Japanese and English text
+  ```
+  画面の「Do you want to save the parameters?」や「Do you save data?」のプロンプトで、Function ボタン
   ```
 
 ---
@@ -1115,12 +1033,6 @@ python docs/scripts/check_translation_progress.py
 | ON | **ON** | 出現回数: 10 |
 | What | **What** | 出現回数: 8 |
 | Expires | **Expires** | 出現回数: 8 |
-| Settings | **Settings** | 出現回数: 8 |
-| Team Prop | **Team Prop** | 出現回数: 8 |
-| Color Locator | **Color Locator** | 出現回数: 7 |
-| Camera Stream | **Camera Stream** | 出現回数: 7 |
-| Access Codes | **Access Codes** | 出現回数: 6 |
-| To Access | **To Access** | 出現回数: 6 |
 | Done | **Done** | 出現回数: 6 |
 | Yes | **Yes** | 出現回数: 5 |
 ```
