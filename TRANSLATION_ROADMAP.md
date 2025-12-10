@@ -194,12 +194,14 @@
 
 ##### 予想工数: 6-8時間
 
-#### Sub-Phase 5.2: AprilTag ライブラリと検出（約5ファイル）
-- [ ] `docs/source/apriltag/vision_portal/apriltag_library/apriltag-library.rst` - **大規模ファイル（約424行）** AprilTag ライブラリ
-- [ ] `docs/source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst` - 検出値の理解
-- [ ] `docs/source/apriltag/apriltag_tips/apriltag-tips.rst` - AprilTag のヒント
+#### Sub-Phase 5.2: AprilTag ライブラリと検出（約5ファイル）✅ **完了**
+- [x] `docs/source/apriltag/vision_portal/apriltag_library/apriltag-library.rst` - **大規模ファイル（424行）** AprilTag ライブラリ
+- [x] `docs/source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst` - **222行** 検出値の理解
+- [x] `docs/source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst` - **217行** DECODE における AprilTag のヒント
+- [ ] ⚠️ `docs/source/apriltag/apriltag_tips/apriltag-tips.rst` - **ファイルが存在しません**（リポジトリに該当ファイルなし。代わりに decode-apriltag.rst を翻訳）
 
-##### 予想工数: 6-8時間
+##### 実績工数: 約3時間（予想: 6-8時間）
+##### 注記: ロードマップには "apriltag-tips.rst" と記載されていましたが、実際には "decode-apriltag.rst" が存在しました。合計863行を翻訳完了。
 
 #### Sub-Phase 5.3: AprilTag 位置推定と最適化（約5ファイル）
 - [ ] `docs/source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst` - **大規模ファイル（約410行）** AprilTag位置推定
@@ -415,6 +417,7 @@
 | 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
 | 2025-12-09 | 2.2 | Sub-Phase 4.2 完了 - Blocks センサーと機能（5ファイル翻訳、計857行） |
 | 2025-12-09 | 2.3 | Sub-Phase 4.3 完了 - OnBot Java チュートリアル基礎（2ファイル翻訳、計680行） |
+| 2025-12-10 | 2.4 | Sub-Phase 5.2 完了 - AprilTag ライブラリと検出（3ファイル翻訳、計863行） |
 
 ---
 
