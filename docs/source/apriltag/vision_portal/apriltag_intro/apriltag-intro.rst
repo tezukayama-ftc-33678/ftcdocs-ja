@@ -38,7 +38,7 @@ AprilTag とは？
    :align: center
    :alt: AprilTag Robots
 
-   ロボット上の AprilTags。Photo Credit: University of Michigan
+   ロボットにおける AprilTags。Photo Credit: University of Michigan
 
 AprilTag は **視覚的フィデューシャル（visual fiducial）** またはフィデューシャルマーカーの一種で、情報を含み、簡単に認識できるように設計されています。
 
