@@ -49,10 +49,7 @@ VisionPortal 以降には、他にも多くの新機能と改善された機能�
 
 2023-2024 CENTERSTAGE シーズンの準備として、新しい Software Development Kit (SDK) **VisionPortal** には **AprilTag 技術の組み込みサポート** が含まれています。以前は、チームは外部ライブラリをダウンロードして組み込む必要があり、プログラミング作業が複雑になっていました。
 
-AprilTag is a popular vision technology for detecting a simple black-and-white
-tag, used to estimate **position and orientation**. In the 2022-2023 POWERPLAY
-game, many Teams enjoyed AprilTag’s reliable Autonomous performance for
-Signal Sleeve recognition.
+AprilTag は、**位置と方向** を推定するために使用される、シンプルな白黒タグを検出するための人気のあるビジョン技術です。2022-2023 POWERPLAY ゲームでは、多くのチームが Signal Sleeve 認識のための AprilTag の信頼性の高い Autonomous パフォーマンスを楽しみました。
 
    .. figure:: images/005-AprilTag-Worlds.png
       :width: 75%
@@ -63,14 +60,7 @@ Signal Sleeve recognition.
 
 **このガイドのすべてのセクションは、** :doc:`AprilTag 入門 <../apriltag_intro/apriltag-intro>` **を事前に読んでいることを前提としています。**
    
-The SDK describes AprilTag pose **relative to the camera**, by default.
-This computing process is called **pose estimation**, a term that emphasizes
-this is an estimate only, based on many factors including **camera
-calibration**. You must determine AprilTag’s best use for reaching your 
-goals.
-
-.. toctree::
-   :maxdepth: 1
+SDK はデフォルトで、**カメラに対する** AprilTag ポーズを記述します。この計算プロセスは **ポーズ推定** と呼ばれ、これは **カメラキャリブレーション** を含む多くの要因に基づく推定値のみであることを強調する用語です。目標を達成するために AprilTag の最適な使用法を決定する必要があります。
 
    AprilTag Introduction <../apriltag_intro/apriltag-intro>
    Vision Processor Initialization <../vision_processor_init/vision-processor-init>
