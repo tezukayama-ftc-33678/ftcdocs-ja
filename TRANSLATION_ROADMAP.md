@@ -187,12 +187,14 @@
 > - 生成AIは大規模ファイルの翻訳中に、途中で翻訳が完了したと誤認する可能性があります
 > - ファイルの最後まで翻訳されているか必ず確認してください
 
-#### Sub-Phase 5.1: AprilTag 入門と概要（約5ファイル）
-- [ ] `docs/source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst` - **大規模ファイル（約417行）** AprilTag 入門
-- [ ] `docs/source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst` - VisionPortal 概要
-- [ ] `docs/source/apriltag/vision_portal/apriltag_intro/apriltag-test-images.rst` - テスト画像
+#### Sub-Phase 5.1: AprilTag 入門と概要（約3ファイル）✅ **完了**
+- [x] `docs/source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst` - **大規模ファイル（417→341行）** AprilTag 入門
+- [x] `docs/source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst` - **114→101行** VisionPortal 概要
+- [x] `docs/source/apriltag/opmode_test_images/opmode-test-images.rst` - **129→99行** テスト画像
+  - 注：ロードマップ記載の `apriltag-test-images.rst` は存在せず、実際には `opmode-test-images.rst` が該当
 
-##### 予想工数: 6-8時間
+##### 実績工数: 約3時間（予想: 6-8時間）
+##### 注記: Python スクリプトを使用した段階的翻訳により効率的に完了。全3ファイル（合計654→541行）を翻訳。
 
 #### Sub-Phase 5.2: AprilTag ライブラリと検出（約5ファイル）
 - [ ] `docs/source/apriltag/vision_portal/apriltag_library/apriltag-library.rst` - **大規模ファイル（約424行）** AprilTag ライブラリ
@@ -415,6 +417,7 @@
 | 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
 | 2025-12-09 | 2.2 | Sub-Phase 4.2 完了 - Blocks センサーと機能（5ファイル翻訳、計857行） |
 | 2025-12-09 | 2.3 | Sub-Phase 4.3 完了 - OnBot Java チュートリアル基礎（2ファイル翻訳、計680行） |
+| 2025-12-10 | 2.4 | Sub-Phase 5.1 完了 - AprilTag 入門と概要（3ファイル翻訳、計541行） |
 
 ---
 
