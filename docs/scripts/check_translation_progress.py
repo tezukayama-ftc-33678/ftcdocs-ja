@@ -28,6 +28,9 @@ OUTPUT_FILE = "TRANSLATION_PROGRESS.md"
 # Glossary file (in repository root)
 GLOSSARY_FILE = "GLOSSARY.md"
 
+# Minimum word length for glossary term matching
+MIN_WORD_LENGTH = 2
+
 # Patterns to detect Japanese text
 HIRAGANA_PATTERN = re.compile(r'[\u3040-\u309F]')  # Hiragana
 KATAKANA_PATTERN = re.compile(r'[\u30A0-\u30FF]')  # Katakana
@@ -110,7 +113,7 @@ def load_glossary_terms(glossary_path: Path) -> Set[str]:
                         # Also add individual words from multi-word terms
                         words = re.findall(r'\b[A-Za-z]+\b', clean_part)
                         for word in words:
-                            if len(word) > 2:  # Skip very short words
+                            if len(word) > MIN_WORD_LENGTH:  # Skip very short words
                                 terms.add(word.lower())
         
         print(f"Loaded {len(terms)} glossary terms from {glossary_path.name}", file=sys.stderr)
@@ -195,7 +198,7 @@ class TranslationChecker:
         for word in english_words:
             word_lower = word.lower()
             # Skip very common short words that are likely part of technical terms
-            if len(word_lower) <= 2:
+            if len(word_lower) <= MIN_WORD_LENGTH:
                 continue
             if word_lower not in self.glossary_terms:
                 return False

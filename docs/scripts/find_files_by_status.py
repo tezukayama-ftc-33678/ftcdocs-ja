@@ -14,7 +14,7 @@ Usage:
 import argparse
 import sys
 from pathlib import Path
-from check_translation_progress import TranslationChecker
+from check_translation_progress import TranslationChecker, load_glossary_terms
 
 SOURCE_DIR = "docs/source"
 
@@ -54,7 +54,6 @@ def main():
     
     # Load glossary terms
     glossary_path = repo_root / 'GLOSSARY.md'
-    from check_translation_progress import load_glossary_terms
     glossary_terms = load_glossary_terms(glossary_path)
     
     # Create checker and scan files
