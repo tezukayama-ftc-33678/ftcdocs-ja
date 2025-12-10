@@ -309,114 +309,96 @@ capacity COTS USB Battery Pack that is allowed is a **27,000mAh** pack.
 Standard Safety Features
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-The major benefit of using a reputable COTS USB Battery Pack brand is the
-guarantee that the battery pack includes standard safety features, including
-but not limited to:
+信頼できる COTS USB バッテリーパックブランドを使用する主な利点は、
+バッテリーパックに標準的な安全機能が含まれていることが保証されることです。これには以下が含まれますが、
+これらに限定されません：
 
-- Reverse Polarity Protection
-- Short-Circuit Protection
-- Over-Charge Protection
-- Over-Temperature or Over-Heat Protection
-- Over-Current Protection
+- 逆極性保護
+- 短絡保護
+- 過充電保護
+- 過温度または過熱保護
+- 過電流保護
 
-You should perform a good-faith effort to determine if your Battery Pack
-contains these safety features. Often within the documentation provided with
-your pack it will list the protections offered by the pack. Remember that the
-Battery Pack likely contains Lithium-Ion or Lithium Polymer batteries that will
-often explode or catch fire when they fail, and these protections are vital to
-ensuring that the batteries do not fail prematurely. It is not recommended to
-use COTS USB Battery Packs without these protections.
+バッテリーパックにこれらの安全機能が含まれているかどうかを誠実に判断する必要があります。
+パックに付属のドキュメント内に、パックが提供する保護機能がリストされていることがよくあります。
+バッテリーパックには、故障時に爆発または発火することが多いリチウムイオンまたはリチウムポリマーバッテリーが
+含まれている可能性があることを忘れないでください。これらの保護機能は、バッテリーが早期に故障しないようにするために
+不可欠です。これらの保護機能のない COTS USB バッテリーパックの使用は推奨されません。
 
 Securing the Battery Pack to the Robot
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The leading cause of battery failure is physical damage to the battery. For
-COTS USB Battery Packs this is usually attributed to dropping the battery pack,
-applying excessive force on the Battery Pack, and subjecting the pack to excessive
-shock (which might also damage internal components). In order to prevent damage, 
-the Battery Pack should be properly secured within the robot. Tips for securing
-the battery are:
+バッテリー故障の主な原因は、バッテリーへの物理的な損傷です。COTS USB バッテリーパックの場合、
+これは通常、バッテリーパックを落とすこと、バッテリーパックに過度の力を加えること、
+パックを過度の衝撃にさらすこと（内部コンポーネントも損傷する可能性があります）に起因します。
+損傷を防ぐために、バッテリーパックはロボット内に適切に固定する必要があります。
+バッテリーを固定するためのヒントは次のとおりです：
 
-- Use Hook and Loop or 3M DualLock fasteners to secure the battery, **OR**
-- Store the battery in a tight-fitting or custom-fit enclosure within the robot
-  that allows the battery to be exposed to air (for cooling), **AND**
-- Protect the battery from contact from other robots, game pieces, or field
-  elements that might breach the perimeter of the robot.
+- バッテリーを固定するために、フックアンドループまたは 3M DualLock ファスナーを使用する、**または**
+- バッテリーを（冷却のために）空気にさらすことができるロボット内のぴったりフィットまたはカスタムフィットの
+  エンクロージャーに保管する、**そして**
+- 他のロボット、ゲームピース、またはロボットの周囲に侵入する可能性のあるフィールド要素からの
+  接触からバッテリーを保護する。
 
-If utilizing a COTS USB Battery Pack, it is of utmost importance to ensure
-that the battery is secured, protected, and ventilated. All batteries (both
-main batteries and COTS USB Battery Packs) should be easily accessible and be 
-able to be quickly removed from the robot in case of an emergency.
+COTS USB バッテリーパックを使用する場合、バッテリーが固定され、保護され、換気されていることを
+確認することが最も重要です。すべてのバッテリー（メインバッテリーと COTS USB バッテリーパックの両方）は、
+簡単にアクセスでき、緊急時にロボットから迅速に取り外すことができる必要があります。
 
 Cover Unused Ports
 ~~~~~~~~~~~~~~~~~~
 
-Some COTS USB Battery Packs contain multiple ports, and it is often that not
-all ports are in-use while securely mounted to the robot. For example, the 
-COTS USB Battery Pack may have multiple USB ports, a dedicated charging port,
-and other ports as necessary. Any ports that are not in-use (meaning don't have 
-a USB connector inserted in them) are at great risk of short-circuiting. The
-most common reason for short-circuiting is metal fragments that may make their
-way into the ports, especially swarf due to metal rubbing together, gears wearing,
-or robot maintenance performed while electronics are present. Any unused ports
-should be covered using electrical tape, Gaffers Tape, or any other means of
-preventing debris from entering the ports. Short circuits may present risks of 
-excessive heat, fire, or explosion and all reasonable efforts should be taken 
-to prevent them.
+一部の COTS USB バッテリーパックには複数のポートが含まれており、ロボットにしっかりと取り付けられている間、
+すべてのポートが使用されているわけではないことがよくあります。たとえば、COTS USB バッテリーパックには、
+複数の USB ポート、専用の充電ポート、およびその他の必要なポートがある場合があります。
+使用されていないポート（USB コネクタが挿入されていないポート）は、短絡の大きなリスクがあります。
+短絡の最も一般的な理由は、ポートに入る可能性のある金属片、特に金属がこすれ合うことによるスワーフ、
+ギアの摩耗、または電子機器が存在する状態でのロボットメンテナンスです。使用されていないポートは、
+電気テープ、Gaffers テープ、またはポートへの破片の侵入を防ぐその他の手段を使用してカバーする必要があります。
+短絡は、過度の熱、火災、または爆発のリスクをもたらす可能性があり、それらを防ぐためにすべての合理的な努力を
+払う必要があります。
 
 .. warning::
-   Never get a COTS USB Battery Pack wet. If it gets wet, follow the
-   manufacturer's recommended procedure to clean and dry the battery before
-   continuing use.
+   COTS USB バッテリーパックを濡らさないでください。濡れた場合は、
+   使用を続ける前に、製造元の推奨手順に従ってバッテリーを清掃して乾燥させてください。
 
 Charge COTS USB Battery Packs properly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The owners/instruction manual provided with the COTS USB Battery Pack often 
-contains instructions for the proper care and maintenance of the battery pack,
-including proper charging. Always follow the manufacturer's recommendations.
-In addition, these are common best practices for charging your Batteries:
+COTS USB バッテリーパックに付属のオーナーズマニュアル/取扱説明書には、
+適切な充電を含む、バッテリーパックの適切なケアとメンテナンスの手順が記載されていることがよくあります。
+常に製造元の推奨事項に従ってください。さらに、バッテリーの充電に関する一般的なベストプラクティスは次のとおりです：
 
-- Avoid charging the power bank on places that build up heat, such as on your 
-  bed or within a bag.
-- Unless it's a solar power bank, NEVER leave your battery in the sun!
-- Follow the manufacturer's guidelines on the time required to fully charge
-  your COTS USB Battery Pack.
-- Avoid leaving your COTS USB Battery Pack on prolonged charge as this may 
-  cause it to overheat.
-- If the COTS USB Battery Pack becomes excessively hot during charging or 
-  discharging, unplug it from the power source or powered device immediately
-  and allow it to cool before doing anything else with the battery.
+- ベッドやバッグの中など、熱がこもる場所でパワーバンクを充電しないでください。
+- ソーラーパワーバンクでない限り、バッテリーを太陽の下に放置しないでください！
+- COTS USB バッテリーパックを完全に充電するために必要な時間に関する製造元のガイドラインに従ってください。
+- COTS USB バッテリーパックを長時間充電したままにしておくと、過熱する可能性があるため、
+  避けてください。
+- COTS USB バッテリーパックが充電中または放電中に過度に熱くなった場合は、
+  電源または電源供給デバイスからすぐにプラグを抜き、バッテリーで他の操作を行う前に冷却してください。
 
 Checking for signs of distress
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Most COTS USB Battery Packs are contained within a hard plastic shell in order
-to protect and package the battery cell(s) within. Therefore it can be
-difficult to determine if the battery is showing signs of failure and distress.
-Here are several tips for identifying a failing battery:
+ほとんどの COTS USB バッテリーパックは、内部のバッテリーセルを保護してパッケージ化するために、
+硬質プラスチックシェル内に収容されています。したがって、バッテリーが故障と損傷の兆候を示しているかどうかを
+判断するのは難しい場合があります。故障しているバッテリーを識別するためのいくつかのヒントを次に示します：
 
-- Check for Leaking Power Cells. Similar to an acid leak in an alkaline
-  battery, check to see if there are any signs of corrosion or acid leak from
-  the battery pack. This might be difficult to determine, so stay vigilent. If
-  signs of acid or corrosion are present, dispose of the battery per the
-  manufacturer's recommendations immediately with extreme prejudice.
-- Look for bulging within the battery casing. When Lithium batteries fail,
-  often they will begin to bulge like a balloon. If the case of the battery
-  shows any signs of pressure from within, dispose of the battery per the
-  manufacturer's recommendations immediately with extreme prejudice.
-- Test the battery pack for any non-functional ports. Sometimes non-functional
-  ports can be an early sign of internal damage. DO NOT use batteries that are
-  suspected of being damaged - dispose of the battery per the manufacturer's
-  recommendations immediately.
+- 電源セルの漏れを確認します。アルカリ電池の酸漏れと同様に、バッテリーパックから腐食または酸漏れの
+  兆候があるかどうかを確認します。これは判断が難しい場合があるため、注意してください。酸または腐食の兆候が
+  ある場合は、製造元の推奨事項に従って、すぐにバッテリーを極度の偏見を持って廃棄してください。
+- バッテリーケーシング内の膨張を探します。リチウムバッテリーが故障すると、多くの場合、
+  風船のように膨張し始めます。バッテリーのケースが内部からの圧力の兆候を示している場合は、
+  製造元の推奨事項に従って、すぐにバッテリーを極度の偏見を持って廃棄してください。
+- バッテリーパックに機能しないポートがないかテストします。機能しないポートは、
+  内部損傷の初期の兆候である場合があります。損傷していると疑われるバッテリーは使用しないでください。
+  製造元の推奨事項に従って、すぐにバッテリーを廃棄してください。
 
 Isolate COTS USB Battery Packs from the Robot Power
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Great care must be take to NEVER allow the COTS USB Battery Pack to be
-connected to the main (or any) power system in use by the robot. The COTS USB
-Battery Pack and connected devices must be completely isolated from the robot
-electrical system, with the exception of controlling signals provided by the
-Competition Manual.  When using a COTS USB Battery Pack, controlling signals
-for LEDs powered by the Pack should ONLY connect to allowed compatible devices.
+COTS USB バッテリーパックを、ロボットが使用するメイン（または任意の）電源システムに
+接続しないように細心の注意を払う必要があります。COTS USB バッテリーパックと接続されたデバイスは、
+競技マニュアルで提供される制御信号を除いて、ロボット電気システムから完全に分離する必要があります。
+COTS USB バッテリーパックを使用する場合、パックによって電力を供給される LED の制御信号は、
+許可された互換性のあるデバイスにのみ接続する必要があります。
 
