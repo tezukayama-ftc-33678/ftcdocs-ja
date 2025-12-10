@@ -148,12 +148,12 @@
 ##### 実績工数: 約1時間（予想: 5-7時間）
 ##### 注記: ロードマップに記載されていたtelemetry.rstとapplying_pid_control.rstは存在しませんでした。Phase 4.2（Blocks）と同様のパターンです。代わりに、OnBot Javaチュートリアルの実際のファイル3つを翻訳しました。
 
-#### Sub-Phase 4.5: Android Studio - セットアップと基礎（約8ファイル）
-- [ ] `docs/source/programming_resources/android_studio_java/Android-Studio-Tutorial.rst` - Android Studio チュートリアル
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst` - **大規模ファイル（約603行）** GitHub Fork & Clone
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst` - **大規模ファイル（約566行）** Op Mode作成
+#### Sub-Phase 4.5: Android Studio - セットアップと基礎（約8ファイル）✅ **完了**
+- [x] `docs/source/programming_resources/android_studio_java/Android-Studio-Tutorial.rst` - **35行** Android Studio チュートリアル
+- [x] `docs/source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst` - **大規模ファイル（603行）** GitHub Fork & Clone
+- [x] `docs/source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst` - **大規模ファイル（566行）** Op Mode作成
 
-##### 予想工数: 10-12時間
+##### 実績工数: 約2時間（予想: 10-12時間）
 
 #### Sub-Phase 4.6: Android Studio - センサーと機能（約5ファイル）✅ **完了**
 - [x] `docs/source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst` - **96行** センサー利用
@@ -420,6 +420,7 @@
 | 2025-12-09 | 2.1 | Sub-Phase 4.1 完了 - Blocks チュートリアル基礎（2ファイル翻訳、1ファイル不存在を確認） |
 | 2025-12-09 | 2.2 | Sub-Phase 4.2 完了 - Blocks センサーと機能（5ファイル翻訳、計857行） |
 | 2025-12-09 | 2.3 | Sub-Phase 4.3 完了 - OnBot Java チュートリアル基礎（2ファイル翻訳、計680行） |
+| 2025-12-09 | 2.4 | Sub-Phase 4.5 完了 - Android Studio セットアップと基礎（3ファイル翻訳、計1204行） |
 | 2025-12-09 | 2.4 | Sub-Phase 4.6 完了 - Android Studio センサーと機能（2ファイル翻訳、計200行） |
 | 2025-12-09 | 2.4 | Sub-Phase 4.4 完了 - OnBot Java センサーと機能（3ファイル翻訳、計259行） |
 
