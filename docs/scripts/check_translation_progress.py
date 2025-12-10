@@ -32,7 +32,7 @@ GLOSSARY_FILE = "GLOSSARY.md"
 MIN_WORD_LENGTH = 2
 
 # Detection flags (can be toggled)
-DETECT_MIXED_TEXT = True  # Mixed Japanese and English text detection (often intentional)
+DETECT_MIXED_TEXT = False  # Mixed Japanese and English text detection (often intentional - disabled by default)
 
 # Patterns to detect Japanese text
 HIRAGANA_PATTERN = re.compile(r'[\u3040-\u309F]')  # Hiragana

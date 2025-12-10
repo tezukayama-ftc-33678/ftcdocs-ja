@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 13:53:48
+**生成日時:** 2025-12-10 13:56:11
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,46 +9,57 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 42 (16.5%)
-- **部分的に翻訳:** 41 (16.1%)
+- **翻訳完了:** 62 (24.3%)
+- **部分的に翻訳:** 21 (8.2%)
 - **未翻訳:** 172 (67.5%)
 
-**進捗:** `████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 16.5%
+**進捗:** `████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 24.3%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **42個**
+完全に日本語化されているファイル: **62個**
 
 <details>
 <summary>ファイルリストを表示</summary>
 
+- `contrib/index.rst`
 - `contrib/tutorials/index.rst`
 - `contrib/workflow/workflow.rst`
 - `control_hard_compon/ds_components/index.rst`
 - `control_hard_compon/index.rst`
 - `control_hard_compon/rc_components/hub/hub.rst`
+- `control_hard_compon/rc_components/hub/ports/ch-ports.rst`
 - `control_hard_compon/rc_components/hub/ports/exh-ports.rst`
 - `control_hard_compon/rc_components/index.rst`
+- `devices/huskylens/huskylens.rst`
 - `faq/faqs.rst`
 - `ftc_sdk/overview/index.rst`
 - `ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst`
 - `ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst`
 - `ftc_sdk/updating/ds_app/Updating-the-DS-App.rst`
+- `ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst`
 - `ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst`
 - `ftc_sdk/updating/index.rst`
 - `hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst`
+- `hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst`
+- `hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst`
 - `hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst`
+- `hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst`
+- `hardware_and_software_configuration/configuring/getting_started/getting-started.rst`
 - `hardware_and_software_configuration/configuring/index.rst`
 - `hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst`
 - `hardware_and_software_configuration/configuring/saving_config/saving-config.rst`
 - `hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst`
+- `hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst`
 - `hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst`
 - `hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst`
 - `hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst`
 - `hardware_and_software_configuration/connecting_devices/index.rst`
 - `hardware_and_software_configuration/index.rst`
+- `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
+- `hardware_and_software_configuration/self_inspect/self-inspect.rst`
 - `index.rst`
 - `persona_pages/coach_admin/coach_admin.rst`
 - `persona_pages/mentor_tech/mentor_tech.rst`
@@ -59,12 +70,21 @@
 - `programming_resources/onbot_java/OnBot-Java-Tutorial.rst`
 - `programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst`
 - `programming_resources/shared/control_system_intro/The-FTC-Control-System.rst`
+- `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
+- `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
 - `programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst`
+- `programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst`
+- `programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst`
+- `programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst`
+- `programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst`
 - `programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst`
+- `programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst`
 - `programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst`
+- `programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst`
 - `programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst`
+- `programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst`
 - `team_resources/team_resources.rst`
 
 </details>
@@ -73,7 +93,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **41個**
+英語が残っているファイル: **21個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -158,12 +178,8 @@
 
 ### `control_hard_compon/rc_components/sensors/sensors.rst`
 
-**問題箇所:** 27件
+**問題箇所:** 26件
 
-- **行 4:** Mixed Japanese and English text
-  ```
-  以下に、一般的なロボットセンサーの例をいくつか示します。*FIRST* Tech Challenge SDK は多くのセンサーをサポートしていますが、すべてがネ
-  ```
 - **行 34:** Untranslated English paragraph/sentence
   ```
   between an object and the sensor.  It does this by sending out a sound wave and
@@ -180,8 +196,12 @@
   ```
   between an object and the sensor. It does this by sending out a light beam and
   ```
+- **行 63:** Untranslated English paragraph/sentence
+  ```
+  measuring the time it takes for the beam to travel to the object and back.
+  ```
 
-... 他 22 件の問題
+... 他 21 件の問題
 
 ### `control_hard_compon/ds_components/components/components.rst`
 
@@ -293,7 +313,7 @@
 
 ### `overview/ftcoverview.rst`
 
-**問題箇所:** 8件
+**問題箇所:** 7件
 
 - **行 11:** Untranslated English paragraph/sentence
   ```
@@ -316,7 +336,7 @@
   programming, learn more about *FIRST* Class Pack, a flexible implementation
   ```
 
-... 他 3 件の問題
+... 他 2 件の問題
 
 ### `apriltag/opmode_test_images/opmode-test-images.rst`
 
@@ -372,58 +392,6 @@
 
 ... 他 1 件の問題
 
-### `hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst`
-
-**問題箇所:** 6件
-
-- **行 7:** Mixed Japanese and English text
-  ```
-  競技マニュアルでは、コンピュータビジョン関連のタスクにおいて、USB Video Class（UVC）互換のカメラの使用を認めています。
-  ```
-- **行 48:** Mixed Japanese and English text
-  ```
-  Modern Robotics Core Power Distribution Module は、USB 接続ウェブカメラで動作するには十分な速度のデータ転送速
-  ```
-- **行 66:** Mixed Japanese and English text
-  ```
-  このポートにより、ユーザーは標準的な USB Type B Micro ケーブルをハブに接続してから、ケーブルの反対側（USB Type A コネクターが付いて
-  ```
-- **行 74:** Mixed Japanese and English text
-  ```
-  バッテリーパックは USB ハブの USB Type B Micro ポートに接続されています。
-  ```
-- **行 75:** Mixed Japanese and English text
-  ```
-  ウェブカメラは USB ハブの USB Type A ポートの 1 つに接続されています。
-  ```
-
-... 他 1 件の問題
-
-### `gracious_professionalism/gp.rst`
-
-**問題箇所:** 5件
-
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  *The FIRST spirit encourages doing high-quality, well-informed work in a
-  ```
-- **行 26:** Untranslated English paragraph/sentence
-  ```
-  manner that leaves everyone feeling valued. Gracious Professionalism seems
-  ```
-- **行 27:** Untranslated English paragraph/sentence
-  ```
-  to be a good descriptor for part of the ethos of FIRST. It is part of what
-  ```
-- **行 28:** Untranslated English paragraph/sentence
-  ```
-  makes FIRST different and wonderful.*
-  ```
-- **行 32:** Mixed Japanese and English text
-  ```
-  - Dr. Woodie Flowers, (1943 – 2019), Distinguished Advisor to *FIRST* / *FIRST* 
-  ```
-
 ### `control_hard_compon/rc_components/servos/servos.rst`
 
 **問題箇所:** 5件
@@ -449,89 +417,31 @@
   Robots in *FIRST* Tech Challenge may employ up to 12 total servos.
   ```
 
-### `hardware_and_software_configuration/self_inspect/self-inspect.rst`
+### `gracious_professionalism/gp.rst`
 
-**問題箇所:** 5件
+**問題箇所:** 4件
 
-- **行 75:** Mixed Japanese and English text
+- **行 25:** Untranslated English paragraph/sentence
   ```
-  - 項目 1 は 1 つだけ選べるメニューで、“Disconnect from Wi-Fi Direct” です。機能しますが、アプリが自動で再ペアリングする場
+  *The FIRST spirit encourages doing high-quality, well-informed work in a
   ```
-- **行 79:** Mixed Japanese and English text
+- **行 26:** Untranslated English paragraph/sentence
   ```
-  - 項目 11 は **デバイスの Wi-Fi Direct 名** が FTC の形式要件を満たしているかを示します。ペア相手の RC 名（チーム番号）が一致
+  manner that leaves everyone feeling valued. Gracious Professionalism seems
   ```
-- **行 97:** Mixed Japanese and English text
+- **行 27:** Untranslated English paragraph/sentence
   ```
-  - 項目 11 はデバイスの **Wi-Fi Direct 名** が FTC の形式要件を満たしていないため不合格です。この不適切な名前は DS スマホの A
+  to be a good descriptor for part of the ethos of FIRST. It is part of what
   ```
-- **行 130:** Mixed Japanese and English text
+- **行 28:** Untranslated English paragraph/sentence
   ```
-  - 項目 4 は Driver Hub のみに表示されます。チェックマークは、Operating System が FTC Competition Manual
-  ```
-- **行 162:** Mixed Japanese and English text
-  ```
-  - 項目 1 には引き続き “Disconnect from Wi-Fi Direct” しかありませんが、選択すると “There was an error 
-  ```
-
-### `hardware_and_software_configuration/configuring/getting_started/getting-started.rst`
-
-**問題箇所:** 5件
-
-- **行 30:** Mixed Japanese and English text
-  ```
-  2. USB ケーブルの Type B Mini 端子を **Expansion Hub** の USB mini ポートに接続します。
-  ```
-- **行 44:** Mixed Japanese and English text
-  ```
-  4. **Robot Controller** スマートフォンの電源が入っていて、ロック解除されていることを確認します。USB Micro OTG アダプターを
-  ```
-- **行 103:** Mixed Japanese and English text
-  ```
-  検出されたデバイスは「USB Devices in configuration.」の下にリスト表示されます。「Expansion Hub Portal 1」など
-  ```
-- **行 107:** Mixed Japanese and English text
-  ```
-  スマートフォンを **Robot Controller** として使用していて「Expansion Hub Portal」が表示されない場合は、配線が確実に接続
-  ```
-- **行 109:** Mixed Japanese and English text
-  ```
-  5. 「Expansion Hub Portal 1」などの Portal リストをタッチすると、その Portal に接続されている **Expansion 
-  ```
-
-### `programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst`
-
-**問題箇所:** 5件
-
-- **行 112:** Mixed Japanese and English text
-  ```
-  3. 「Logic」カテゴリをクリックします。「if do else」ブロックを見つけてクリックします。
-  ```
-- **行 119:** Mixed Japanese and English text
-  ```
-  4. 「if do else」ブロックを「**telemetry.update**」ブロックの前の位置にドラッグします。
-  ```
-- **行 133:** Mixed Japanese and English text
-  ```
-  6. 「**isPressed**」ブロックを「if do else」プログラミングブロックのテスト条件にドラッグします。
-  ```
-- **行 147:** Mixed Japanese and English text
-  ```
-  「call **telemetry.addData**」ブロック（テキスト版）を選択し、「if do else」ブロックの「do」句にドラッグします。
-  ```
-- **行 156:** Mixed Japanese and English text
-  ```
-  9. 別の「**telemetry.addData**」ブロック（テキスト版）を「if do else」ブロックの「else」句に挿入します。「key」値を「t
+  makes FIRST different and wonderful.*
   ```
 
 ### `contrib/guidelines/guidelines.rst`
 
-**問題箇所:** 4件
+**問題箇所:** 3件
 
-- **行 56:** Mixed Japanese and English text
-  ```
-  Read the Docs はドキュメントホスティングプラットフォームであり、FTC Docs のベース Sphinx テーマを提供しています。
-  ```
 - **行 61:** Untranslated English paragraph/sentence
   ```
   This is also where we could declare what versions of HTML, XML, CSS we target. P
@@ -543,27 +453,6 @@
 - **行 63:** Untranslated English paragraph/sentence
   ```
   Perhaps that we are WCAG compliant someday.
-  ```
-
-### `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
-
-**問題箇所:** 4件
-
-- **行 91:** Mixed Japanese and English text
-  ```
-  ID コードを超えて、新しい SDK は **ポーズ** データ、すなわち **カメラの視点** からの位置と方向（回転）も提供します。これには **平らな A
-  ```
-- **行 185:** Untranslated English paragraph/sentence
-  ```
-  even from the camera’s frame of reference.
-  ```
-- **行 204:** Untranslated English paragraph/sentence
-  ```
-  for navigation, but that’s beyond this AprilTag introduction.
-  ```
-- **行 304:** Untranslated English paragraph/sentence
-  ```
-  Questions, comments and corrections to westsiderobotics@verizon.net
   ```
 
 ### `control_hard_compon/rc_components/motors/motors.rst`
@@ -600,38 +489,21 @@
   For increasing the power supplied to these servos it is possible to use a Servo 
   ```
 
-### `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
+### `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
 
 **問題箇所:** 3件
 
-- **行 50:** Mixed Japanese and English text
+- **行 185:** Untranslated English paragraph/sentence
   ```
-  2023-2024 CENTERSTAGE シーズンの準備として、新しい Software Development Kit (SDK) **VisionPort
+  even from the camera’s frame of reference.
   ```
-- **行 75:** Untranslated English paragraph/sentence
+- **行 204:** Untranslated English paragraph/sentence
   ```
-  VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-c
+  for navigation, but that’s beyond this AprilTag introduction.
   ```
-- **行 89:** Untranslated English paragraph/sentence
+- **行 304:** Untranslated English paragraph/sentence
   ```
   Questions, comments and corrections to westsiderobotics@verizon.net
-  ```
-
-### `programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst`
-
-**問題箇所:** 3件
-
-- **行 29:** Mixed Japanese and English text
-  ```
-  「Add unambiguous imports on the fly」をチェックすると、**Android Studio** が **OpMode** で使用
-  ```
-- **行 59:** Mixed Japanese and English text
-  ```
-  ``org.firstinspires.ftc.teamcode`` パッケージを右クリックし、ポップアップメニューから New->Java Class を選択
-  ```
-- **行 389:** Mixed Japanese and English text
-  ```
-  ゲームパッドを **Driver Station** に接続します。**REV Robotics Driver Hub** を使用している場合、ゲームパッドを 
   ```
 
 ### `control_hard_compon/rc_components/uvc/uvc.rst`
@@ -647,6 +519,19 @@
   Example use cases for a webcam are:
   ```
 
+### `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
+
+**問題箇所:** 2件
+
+- **行 75:** Untranslated English paragraph/sentence
+  ```
+  VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-c
+  ```
+- **行 89:** Untranslated English paragraph/sentence
+  ```
+  Questions, comments and corrections to westsiderobotics@verizon.net
+  ```
+
 ### `hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst`
 
 **問題箇所:** 2件
@@ -660,164 +545,13 @@
   4. Select "REV Color/Range Sensor" from the dropdown selector for
   ```
 
-### `hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst`
-
-**問題箇所:** 2件
-
-- **行 19:** Mixed Japanese and English text
-  ```
-  理論上、USB Video Class（UVC）対応カメラはどれでも動作しますが、**FIRST**ではLogitech製UVC Webカメラの使用を推奨してい
-  ```
-- **行 112:** Mixed Japanese and English text
-  ```
-  USB-A to USB-Cケーブルで**Control Hub**のUSB-Cポートに接続するか、Windowsの場合は**Control Hub**のWi-
-  ```
-
 ### `programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst`
 
-**問題箇所:** 2件
+**問題箇所:** 1件
 
-- **行 97:** Mixed Japanese and English text
-  ```
-  プログラミングモードサーバーに正常に接続されている場合、Robot Controller Console が
-  ```
 - **行 105:** English text at end of line
   ```
   ...Console の上部にある **Blocks** リンクをクリックして、メインの Blocks Programming
-  ```
-
-### `programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst`
-
-**問題箇所:** 2件
-
-- **行 70:** Mixed Japanese and English text
-  ```
-  5. 「set **servoTest.Position** to」ブロックを「Put initialization blocks here.」と書かれたコメン
-  ```
-- **行 86:** Mixed Japanese and English text
-  ```
-  7. プログラミングブロックの「Logic」カテゴリをクリックし、利用可能なブロックのリストから「if do」ブロックを選択します。ブロックを「Put loop
-  ```
-
-### `programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst`
-
-**問題箇所:** 2件
-
-- **行 115:** Mixed Japanese and English text
-  ```
-  また、「Setup Code for Configured Hardware」オプションもチェックしてください。このオプションを有効にすると、**OnBot J
-  ```
-- **行 437:** Mixed Japanese and English text
-  ```
-  ゲームパッドを **DRIVER STATION** に接続します。スマートフォンを使用している場合は、Micro USB OTG アダプターケーブルが必要です
-  ```
-
-### `contrib/index.rst`
-
-**問題箇所:** 1件
-
-- **行 28:** Mixed Japanese and English text
-  ```
-  - Daniel Alfredo Diaz, Jr — メンテナー
-  ```
-
-### `control_hard_compon/rc_components/hub/ports/ch-ports.rst`
-
-**問題箇所:** 1件
-
-- **行 22:** Mixed Japanese and English text
-  ```
-  Universal Serial Bus（USB）は、多くの種類の電子機器間でデータ交換と電力供給を可能にする業界標準です。**Control Hub** には
-  ```
-
-### `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
-
-**問題箇所:** 1件
-
-- **行 96:** Mixed Japanese and English text
-  ```
-  デバイスの日付が不正または未来日付の場合、「The Driver Station app is obsolete」と表示され、検査項目が無効になることがあります
-  ```
-
-### `hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst`
-
-**問題箇所:** 1件
-
-- **行 20:** Mixed Japanese and English text
-  ```
-  1. モーターの電源ケーブルの Anderson Powerpole 端を、Anderson to JST VH アダプターケーブルの Powerpole 端に
-  ```
-
-### `hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst`
-
-**問題箇所:** 1件
-
-- **行 16:** Mixed Japanese and English text
-  ```
-  2. タッチスクリーンを使用して、ポート #1 に「REV Touch Sensor」を追加し、デバイスに「testTouch」という名前を付けます。
-  ```
-
-### `ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst`
-
-**問題箇所:** 1件
-
-- **行 72:** Mixed Japanese and English text
-  ```
-  2. 「About」タブをクリックし、次に「Check for Updates」をクリックします（上の緑色の矢印）。新しいバージョンが利用可能な場合は、クリック
-  ```
-
-### `programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst`
-
-**問題箇所:** 1件
-
-- **行 52:** Mixed Japanese and English text
-  ```
-  「Download Op Mode」ボタンを押すと、ファイルがWebブラウザで利用可能になり、Webブラウザは通常の方法でファイルを管理します（たとえば、Chr
-  ```
-
-### `programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst`
-
-**問題箇所:** 1件
-
-- **行 22:** Mixed Japanese and English text
-  ```
-  **Op Mode** を変更した後、ビルドボタンを押してから **Op Mode** を実行し、**Driver Station** に距離が表示されることを
-  ```
-
-### `programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst`
-
-**問題箇所:** 1件
-
-- **行 22:** Mixed Japanese and English text
-  ```
-  **Op Mode** を変更した後、更新された **Robot Controller** アプリをビルドしてインストールし、**Op Mode** を実行して
-  ```
-
-### `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
-
-**問題箇所:** 1件
-
-- **行 169:** Mixed Japanese and English text
-  ```
-  ファイルが正常にアップロードされると、「Firmware upload complete」という言葉が表示されます。
-  ```
-
-### `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
-
-**問題箇所:** 1件
-
-- **行 184:** Mixed Japanese and English text
-  ```
-  ファイルが正常にアップロードされると、「Firmware upload complete」という言葉が表示されます。
-  ```
-
-### `devices/huskylens/huskylens.rst`
-
-**問題箇所:** 1件
-
-- **行 419:** Mixed Japanese and English text
-  ```
-  画面の「Do you want to save the parameters?」や「Do you save data?」のプロンプトで、Function ボタン
   ```
 
 ---
