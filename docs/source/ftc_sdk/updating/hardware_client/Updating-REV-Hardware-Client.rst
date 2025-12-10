@@ -1,100 +1,78 @@
-Installing and Updating the REV Hardware Client
+REV Hardware Clientのインストールと更新
 ===============================================
 
-The REV Hardware Client is a desktop app, or software tool, that simplifies
-updating software on devices used in *FIRST* Tech Challenge. Unfortunately the
-REV Hardware Client is currently Windows-only, Apple/Mac users must use
-alternate methods of updating software. In this tutorial, some steps ask to
-download software and updates - doing this is not required, but will save time
-during updates. 
+REV Hardware Clientは、**FIRST Tech Challenge** で使用されるデバイスのソフトウェア更新を簡素化するデスクトップアプリまたはソフトウェアツールです。残念ながら、REV Hardware ClientはWindows専用であり、Apple/Macユーザーはソフトウェア更新の代替方法を使用する必要があります。このチュートリアルでは、一部のステップでソフトウェアと更新をダウンロードするよう求められますが、これは必須ではありませんが、更新時に時間を節約できます。
 
-To install, use the following steps on a **64-bit** PC or laptop running
-Windows 7 or newer.
+インストールするには、Windows 7以降を実行している **64ビット** PCまたはラップトップで次の手順を実行します。
 
-**Apple/Mac users should skip these steps.**
+**Apple/Macユーザーはこれらの手順をスキップしてください。**
 
 .. tip:: 
-   Not sure about 64-bit? In Windows Explorer, right-click “Computer” (Win
-   7) or “This PC” (Win 10), choose Properties, see “System type”.
+   64ビットかどうかわからない場合は、Windowsエクスプローラーで「コンピューター」（Win
+   7）または「このPC」（Win 10）を右クリックし、プロパティを選択して「システムの種類」を確認してください。
 
-Installing the RHC
+RHCのインストール
 ------------------
 
-1. Connect the computer to the internet, and download RHC
-   `from the REV RHC download page <https://docs.revrobotics.com/rev-hardware-client/>`__. Just
-   click the orange Download button and choose your computer’s Downloads
-   folder to store the file.
+1. コンピューターをインターネットに接続し、`REV RHCダウンロードページ <https://docs.revrobotics.com/rev-hardware-client/>`__ からRHCをダウンロードします。
+   オレンジ色のDownloadボタンをクリックし、コンピューターのDownloadsフォルダーを選択してファイルを保存します。
 
    .. figure:: images/010-download.png
-      :alt: Downloading REV Hardware Client
+      :alt: REV Hardware Clientのダウンロード
       :width: 80%
       :align: center
 
-      Downloading REV Hardware Client
+      REV Hardware Clientのダウンロード
 
    |
 
-2. See the downloaded file shown at lower left (green arrow). Click that
-   filename to begin installing the RHC app; then follow the prompts.
-   When that’s complete, the RHC icon will appear on your computer’s
-   desktop.
+2. 左下に表示されたダウンロードファイル（緑色の矢印）を確認します。そのファイル名をクリックしてRHCアプリのインストールを開始し、プロンプトに従います。
+   完了すると、RHCアイコンがコンピューターのデスクトップに表示されます。
 
-   If the computer is **not** 64-bit, RHC installation will fail with an
-   appropriate error message.
+   コンピューターが64ビット **ではない** 場合、RHCのインストールは適切なエラーメッセージで失敗します。
 
-Downloading Initial Updates
+初期更新のダウンロード
 ---------------------------
 
-Open the RHC app. This is a good time to **pre-download** various
-pieces of software you might need soon.
+RHCアプリを開きます。これは、近いうちに必要になる可能性のあるさまざまなソフトウェアを **事前ダウンロード** する良い機会です。
 
-Why download now? Later, this computer might be connected via Wi-Fi to a
-Robot Controller, not to the internet. Or a good internet connection
-might not be available when urgently needed (Murphy’s Law).
+なぜ今ダウンロードするのですか？後で、このコンピューターはWi-Fi経由でRobot Controllerに接続され、インターネットには接続されない可能性があります。または、緊急に必要なときに良いインターネット接続が利用できない可能性があります（マーフィーの法則）。
 
-Click on the Downloads tab (top left). Under “Available Files” is a list
-of software for *FIRST* Tech Challenge and other software for a different program called
-*FIRST* Robotics Competition.
+Downloadsタブ（左上）をクリックします。「Available Files」の下には、**FIRST Tech Challenge** 用のソフトウェアと、**FIRST Robotics Competition** と呼ばれる別のプログラム用のソフトウェアのリストがあります。
 
 .. figure:: images/020-RHC-available-files.png
-   :alt: Available Files
+   :alt: 利用可能なファイル
    :width: 80%
    :align: center
 
-   REV Hardware Client Available Files
+   REV Hardware Client利用可能なファイル
 
 |
 
-Click the orange Download button, only for the 5 *FIRST* Tech Challenge items (yellow
-rectangles). This may take a few minutes; the OS files are large.
+オレンジ色のDownloadボタンをクリックして、5つの **FIRST Tech Challenge** 項目（黄色の矩形）のみをダウンロードします。これには数分かかる場合があります。OSファイルは大きいです。
 
-You don’t need to track where these files are stored; they will be
-available to the RHC app when needed for device update.
+これらのファイルがどこに保存されているかを追跡する必要はありません。デバイスの更新に必要なときにRHCアプリで利用できます。
 
-When complete, these 5 items will appear under the heading “Downloaded
-Files”.
+完了すると、これら5つの項目は「Downloaded Files」という見出しの下に表示されます。
 
-Updating the REV Hardware Client
+REV Hardware Clientの更新
 --------------------------------
 
-1. On a Windows computer connected to the internet, open the REV
-   Hardware Client.
+1. インターネットに接続されたWindowsコンピューターで、REV Hardware Clientを開きます。
 
 .. figure:: images/800-update-RHC.png
-   :alt: Updating Updates
+   :alt: 更新の更新
    :width: 80%
    :align: center
 
-   REV Hardware Client Available Updates
+   REV Hardware Client利用可能な更新
 
 |
 
-2. Click the "About" tab, then click "Check for Updates" (green arrow,
-   above). If a new version is available, click to update.
+2. 「About」タブをクリックし、次に「Check for Updates」をクリックします（上の緑色の矢印）。新しいバージョンが利用可能な場合は、クリックして更新します。
 
-That’s all for now! You will use these files later, when updating
-various devices. More info about the RHC is
-`at REV Robotics’ excellent documentation site. <https://docs.revrobotics.com/rev-hardware-client/>`__ 
+以上です！これらのファイルは後で、さまざまなデバイスを更新するときに使用します。RHCの詳細については、
+`REV Roboticsの優れたドキュメントサイト <https://docs.revrobotics.com/rev-hardware-client/>`__ を参照してください。
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、修正は westsiderobotics@verizon.net まで
 

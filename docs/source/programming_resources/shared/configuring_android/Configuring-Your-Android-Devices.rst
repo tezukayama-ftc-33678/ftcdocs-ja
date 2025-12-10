@@ -1,56 +1,45 @@
-Configuring your Android Devices
+Androidデバイスの構成
 ================================
 
-What Needs to Be Configured for My Control System?
+制御システムに必要な構成は何ですか？
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Driver Hub Configuration
+Driver Hubの構成
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Teams who are using the REV Robotics Driver Hub as their DRIVER STATION
-should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
-for instructions on how to set up and use the REV Robotics Driver Hub.
+**REV Robotics Driver Hub** を **DRIVER STATION** として使用しているチームは、**REV Robotics Driver Hub** のセットアップと使用方法については、`REV Roboticsの公式ドキュメント <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ を参照してください。
 
-Control Hub Configuration
+Control Hubの構成
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
-   References to the DRIVER STATION smartphone may instead apply to the
-   `REV Robotics Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__,
-   which is preloaded with the Driver Station (DS) app.
+   **DRIVER STATION** スマートフォンへの参照は、**Driver Station**（**DS**）アプリがプリインストールされている `REV Robotics Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ にも適用される場合があります。
 
-Teams who are using a Control Hub (which has an integrated Android Device)
-will only need to configure a single smartphone for use as a DRIVER STATION. The process is as follows:
+**Control Hub**（統合されたAndroidデバイスを備えている）を使用しているチームは、**DRIVER STATION** として使用する単一のスマートフォンを構成するだけで済みます。プロセスは次のとおりです：
 
-*  Rename the smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
-*  Install the Driver Station (DS) app onto the DRIVER STATION device. (The DS app is pre-installed on the REV Robotics Driver Hub.)
-*  Put your phone into Airplane Mode (with the WiFi radio still on).
-*  Pair (i.e., wirelessly connect) the DRIVER STATION to the Control Hub.
+*  スマートフォンの名前を「<TEAM NUMBER>-DS」に変更します（<TEAM NUMBER>はチーム番号に置き換えます）。
+*  **Driver Station**（**DS**）アプリを **DRIVER STATION** デバイスにインストールします。（**DS** アプリは **REV Robotics Driver Hub** にプリインストールされています。）
+*  スマートフォンを機内モードにします（WiFi無線はオンのまま）。
+*  **DRIVER STATION** を **Control Hub** にペアリングします（つまり、ワイヤレスで接続します）。
 
 .. image:: images/ControlHubAndPhone.jpg
    :align: center
 
 |
 
-.. important:: Eventually the Control Hub will need to be renamed so
-   that its name complies with the Competition Manual, but for now we will
-   use the Control Hub with its default name. You can learn how to manage a
-   Control Hub (and modify its name, password, etc.) in
-   :doc:`this tutorial <../managing_control_hub/Managing-a-Control-Hub>`.
+.. important:: 最終的には、競技マニュアルに準拠するように **Control Hub** の名前を変更する必要がありますが、今のところはデフォルトの名前で **Control Hub** を使用します。**Control Hub** の管理方法（名前、パスワードなどの変更）については、:doc:`このチュートリアル <../managing_control_hub/Managing-a-Control-Hub>` で学ぶことができます。
 
-Two Android Smartphone Configuration
+2台のAndroidスマートフォンの構成
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Teams who have two smartphones and are not using a Control Hub will need
-to configure one smartphone for use as a Robot Controller and a second
-smartphone for use as an DRIVER STATION. The process is as follows,
+2台のスマートフォンを持っており、**Control Hub** を使用していないチームは、1台のスマートフォンを **Robot Controller** として、もう1台のスマートフォンを **DRIVER STATION** として構成する必要があります。プロセスは次のとおりです：
 
-*  Rename one smartphone to "<TEAM NUMBER>-RC" (replace <TEAM NUMBER> with your team number).
-*  Install the Robot Controller app onto the Robot Controller phone.
-*  Rename a second smartphone to "<TEAM NUMBER>-DS" (where <TEAM NUMBER> is replaced by your team number).
-*  Install the Driver Station app onto the DRIVER STATION device. (The DS app is pre-installed on the REV Robotics Driver Hub.)
-*  Put your phones into Airplane Mode (with the WiFi radios still on).
-*  Pair (i.e., wirelessly connect) the DRIVER STATION to the Robot Controller.
+*  1台のスマートフォンの名前を「<TEAM NUMBER>-RC」に変更します（<TEAM NUMBER>はチーム番号に置き換えます）。
+*  **Robot Controller** アプリを **Robot Controller** スマートフォンにインストールします。
+*  2台目のスマートフォンの名前を「<TEAM NUMBER>-DS」に変更します（<TEAM NUMBER>はチーム番号に置き換えます）。
+*  **Driver Station** アプリを **DRIVER STATION** デバイスにインストールします。（**DS** アプリは **REV Robotics Driver Hub** にプリインストールされています。）
+*  スマートフォンを機内モードにします（WiFi無線はオンのまま）。
+*  **DRIVER STATION** を **Robot Controller** にペアリングします（つまり、ワイヤレスで接続します）。
 
 .. image:: images/twoAndroidPhones.jpg
    :align: center
@@ -59,34 +48,20 @@ smartphone for use as an DRIVER STATION. The process is as follows,
 
 .. Do not change the name of the following Header title, as it's linked from elsewhere. Currently it is called "Renaming Your Smartphones".
 
-Renaming Your Smartphones
+スマートフォンの名前変更
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The official rules of the *FIRST* Tech Challenge (see R707) require that
-you change the Wi-Fi name of your smartphones to include your team
-number and "-RC" if the phone is a Robot Controller or "-DS" if it is a DRIVER STATION. A team can insert an additional dash and a letter ("A",
-"B", "C", etc.) if the team has more than one set of Android phones.
+**FIRST** Tech Challengeの公式ルール（R707を参照）では、スマートフォンのWi-Fi名を、チーム番号と、スマートフォンが **Robot Controller** の場合は「-RC」、**DRIVER STATION** の場合は「-DS」を含むように変更する必要があります。チームが複数のAndroidスマートフォンのセットを持っている場合は、追加のダッシュと文字（「A」、「B」、「C」など）を挿入できます。
 
-If, for example, a team has a team number of 9999 and the team has
-multiple sets of phones, the team might decide to name one phone
-"9999-C-RC" for the Robot Controller and the other phone "9999-C-DS" for
-the DRIVER STATION. The "-C" indicates that these devices belong to the
-third set of phones for this team.
+たとえば、チームのチーム番号が9999で、チームが複数のスマートフォンのセットを持っている場合、チームは1台のスマートフォンを **Robot Controller** 用に「9999-C-RC」、もう1台のスマートフォンを **DRIVER STATION** 用に「9999-C-DS」と名付けることを決定する場合があります。「-C」は、これらのデバイスがこのチームの3番目のスマートフォンセットに属していることを示します。
 
-The name of a Robot Controller phone can be changed in the RC app, using
-instructions :ref:`found here <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:changing the name>`.
-It can also be changed at the *Manage* page from the RC app, a paired DS
-app, or a connected laptop; click ``Apply Wi-Fi Settings`` when done.
+**Robot Controller** スマートフォンの名前は、:ref:`ここにある <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:changing the name>` 手順を使用して、**RC** アプリで変更できます。また、**RC** アプリ、ペアリングされた **DS** アプリ、または接続されたラップトップから *Manage* ページで変更することもできます。完了したら ``Apply Wi-Fi Settings`` をクリックしてください。
 
-The name of a DRIVER STATION device can be changed in the DS app, using
-instructions
-:ref:`found here <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:changing the name>`.
+**DRIVER STATION** デバイスの名前は、:ref:`ここにある <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:changing the name>` 手順を使用して、**DS** アプリで変更できます。
 
-As an alternate, the device names can be changed at the Android system
-level, as described below.
+または、以下に説明するように、Androidシステムレベルでデバイス名を変更することもできます。
 
-.. note:: It will take an estimated 5 minutes per phone to complete this
-   task.
+.. note:: このタスクを完了するには、スマートフォンごとに約5分かかります。
 
 .. |rename1| image:: images/RenameStep1.jpg
 .. |rename2| image:: images/RenameStep2.jpg
@@ -103,97 +78,69 @@ level, as described below.
    :class: longtable
 
 
-   * - Step
-     - Image
+   * - 手順
+     - 画像
 
-   * - 1. Browse the list of available apps on the smartphone and locate the **Settings** icon. Click on **Settings** icon to display the Settings screen.
+   * - 1. スマートフォンで利用可能なアプリのリストを参照し、**Settings** アイコンを見つけます。**Settings** アイコンをクリックして、Settings画面を表示します。
      - |rename1|
 
-   * - 2. Click on **Wi-Fi** to launch the Wi-Fi screen.
+   * - 2. **Wi-Fi** をクリックして、Wi-Fi画面を起動します。
      - |rename2|
 
-   * - 3. Touch the three vertical dots to display a pop-up menu.
+   * - 3. 縦に並んだ3つのドットをタッチして、ポップアップメニューを表示します。
      - |rename3|
 
-   * - 4. Select **Advanced** from the pop-up menu.
+   * - 4. ポップアップメニューから **Advanced** を選択します。
      - |rename4|
 
-   * - 5. Select **Wi-Fi Direct** from the **Advanced Wi-Fi** screen.
+   * - 5. **Advanced Wi-Fi** 画面から **Wi-Fi Direct** を選択します。
      - |rename5|
 
-   * - 6. Touch the three vertical dots to display a pop-up menu.
+   * - 6. 縦に並んだ3つのドットをタッチして、ポップアップメニューを表示します。
      - |rename6|
 
-   * - 7. Select **Configure Device** from the pop-up menu.
+   * - 7. ポップアップメニューから **Configure Device** を選択します。
      - |rename7|
 
-   * - 8. Use touch pad to enter new name of device. If the device will be a Robot Controller, specify your team number and -RC. If the device will be a DRIVER STATION, specify your team number and -DS. You can also set the Wi-Fi Direct inactivity timeout to *Never disconnect* and then hit the\  **SAVE** button to save your changes. Note that in the screenshot shown to the right, the team number is 9999. The "-C" indicates that this is from the third pair of smartphones for this team. The -RC indicates that this phone will be a Robot Controller.
+   * - 8. タッチパッドを使用して、デバイスの新しい名前を入力します。デバイスが **Robot Controller** になる場合は、チーム番号と「-RC」を指定します。デバイスが **DRIVER STATION** になる場合は、チーム番号と「-DS」を指定します。また、Wi-Fi Directの非アクティブタイムアウトを *Never disconnect* に設定してから、**SAVE** ボタンを押して変更を保存することもできます。右に示すスクリーンショットでは、チーム番号は9999です。「-C」は、これがこのチームの3番目のスマートフォンペアからのものであることを示します。「-RC」は、このスマートフォンが **Robot Controller** になることを示します。
      - |rename8|
 
-   * - 9. After renaming your phone, power cycle the device.
+   * - 9. スマートフォンの名前を変更した後、デバイスの電源を入れ直します。
      -
 
 
-Installing the *FIRST* Tech Challenge Apps
+FIRST Tech Challengeアプリのインストール
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For detailed instructions on how to install and update apps, please see these
-other pages:
+アプリのインストールと更新に関する詳細な手順については、以下の他のページを参照してください：
 
-:ref:`ROBOT CONTROLLER app <ftc_sdk/updating/rc_app/updating-the-rc-app:updating the robot controller (rc) app>`
+:ref:`ROBOT CONTROLLERアプリ <ftc_sdk/updating/rc_app/updating-the-rc-app:updating the robot controller (rc) app>`
 
-:ref:`DRIVER STATION app <ftc_sdk/updating/ds_app/updating-the-ds-app:updating the driver station app>`
+:ref:`DRIVER STATIONアプリ <ftc_sdk/updating/ds_app/updating-the-ds-app:updating the driver station app>`
 
 
-**As of 2021, the SDK apps (v 6.1 and higher) are no longer available on
-Google Play.**
+**2021年現在、SDKアプリ（v 6.1以降）はGoogle Playで入手できなくなりました。**
 
-The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
-software will allow you to download the apps to devices: REV Robotics Control
-Hub, REV Robotics Expansion Hub, REV Robotics Driver Hub, and other approved Android
-devices (*see section below, called Updating Apps on Android
-Phones*). Here are some of the benefits:
+`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアを使用すると、デバイス（**REV Robotics Control Hub**、**REV Robotics Expansion Hub**、**REV Robotics Driver Hub**、およびその他の承認されたAndroidデバイス）にアプリをダウンロードできます（*以下の「Androidスマートフォンでのアプリの更新」というセクションを参照*）。以下は、いくつかの利点です：
 
-*  Connect to a REV Robotics Control Hub via WiFi.
-*  One Click update of all software on connected devices.
-*  Pre-download software updates without a connected device.
-*  Back up and restore user data from Control Hub.
-*  Install and switch between DS and RC applications on Android Devices.
-*  Access the Robot Control Console on the Control Hub.
+*  WiFi経由で **REV Robotics Control Hub** に接続します。
+*  接続されたデバイス上のすべてのソフトウェアをワンクリックで更新します。
+*  接続されたデバイスなしでソフトウェアアップデートを事前ダウンロードします。
+*  **Control Hub** からユーザーデータをバックアップおよび復元します。
+*  Androidデバイスに **DS** と **RC** アプリケーションをインストールして切り替えます。
+*  **Control Hub** の **Robot Control** コンソールにアクセスします。
 
-The app releases are also available on the `FtcRobotController
-GitHub
-repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
-It is possible to "side-load" the apps onto the Robot Controller
-(RC) and Driver Station (DS) phones. However, this section of the document
-does **not** include such instructions; other document pages describe
-side-loading the :ref:`RC app <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>`
-and the :ref:`DS app <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:Updating the Driver Station App>`.
+アプリリリースは、`FtcRobotController GitHubリポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ でも入手できます。**Robot Controller**（**RC**）および **Driver Station**（**DS**）スマートフォンにアプリを「サイドロード」することは可能です。ただし、このドキュメントのこのセクションには、そのような手順は含まれて**いません**。他のドキュメントページでは、:ref:`RCアプリ <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>` と :ref:`DSアプリ <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:Updating the Driver Station App>` のサイドローディングについて説明しています。
 
-Updating Apps and Firmware on REV Robotics Devices (REV Robotics Expansion Hub, REV Robotics Control Hub, REV Robotics Driver Hub)
+REV Roboticsデバイス（REV Robotics Expansion Hub、REV Robotics Control Hub、REV Robotics Driver Hub）でのアプリとファームウェアの更新
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
-software is used to install and update apps, firmware and/or
-operating systems on devices from REV Robotics. Simply connect the
-device via USB to your PC with the REV Hardware Client installed and
-running, and the software will detect connected hardware. After
-detection, the REV Hardware Client can then
-`update the Robot Controller (RC) app on a REV Robotics Control Hub <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__,
-`update the Driver Station (DS) app on a REV Robotics Driver Hub <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__,
-or
-`update firmware <https://docs.revrobotics.com/rev-hardware-client/expansion-hub/updating-expansion-hub>`__.
+`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、REV Roboticsのデバイスにアプリ、ファームウェア、および/またはオペレーティングシステムをインストールおよび更新するために使用されます。REV Hardware Clientをインストールして実行しているPCにUSB経由でデバイスを接続するだけで、ソフトウェアが接続されたハードウェアを検出します。検出後、REV Hardware Clientは、`REV Robotics Control HubでRobot Controller（RC）アプリを更新 <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__ したり、`REV Robotics Driver HubでDriver Station（DS）アプリを更新 <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__ したり、`ファームウェアを更新 <https://docs.revrobotics.com/rev-hardware-client/expansion-hub/updating-expansion-hub>`__ したりできます。
 
-Updating Apps on Android Phones
+Androidスマートフォンでのアプリの更新
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
-software is used to install, uninstall, and
-`update apps on Android phones <https://docs.revrobotics.com/rev-hardware-client/android-device/installing-rc-ds-applications>`__.
-However, the phones must have **Developer Options** enabled in order for
-the phone to be properly recognized and updated by the REV Hardware
-Client software. The process for enabling Developer Options is as
-follows:
+`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、`Androidスマートフォンでのアプリのインストール、アンインストール、更新 <https://docs.revrobotics.com/rev-hardware-client/android-device/installing-rc-ds-applications>`__ に使用されます。ただし、REV Hardware Clientソフトウェアによってスマートフォンが適切に認識および更新されるためには、スマートフォンで **Developer Options**（開発者オプション）を有効にする必要があります。Developer Optionsを有効にするプロセスは次のとおりです：
 
 .. |devop1| image:: images/1-developer-options.jpg
 .. |devop2a| image:: images/2a-developer-options.jpg
@@ -206,38 +153,31 @@ follows:
    :header-rows: 1
    :class: longtable
 
-   * - Step
-     - Image
+   * - 手順
+     - 画像
 
-   * - 1. Go to "Settings", then tap "About device" or "About phone".
+   * - 1. 「Settings」に移動し、「About device」または「About phone」をタップします。
      - |devop1|
 
-   * - 2. Scroll down, then tap Build number seven times. Depending on your device and operating system, you may need to tap Software information, then tap Build number seven times.
+   * - 2. 下にスクロールして、「Build number」を7回タップします。デバイスとオペレーティングシステムによっては、「Software information」をタップしてから、「Build number」を7回タップする必要がある場合があります。
      - |devop2a|       |devop2b|
 
-   * - 3. Enter your pattern, PIN or password to enable the Developer options menu.
+   * - 3. パターン、PIN、またはパスワードを入力して、Developer optionsメニューを有効にします。
      -
 
-   * - 4. The "Developer options" menu will now appear in your Settings menu. Depending on your device, it may appear under Settings > General > Developer options.
+   * - 4. 「Developer options」メニューがSettingsメニューに表示されるようになります。デバイスによっては、Settings > General > Developer optionsの下に表示される場合があります。
      - |devop4|
 
-   * - 5. To disable the Developer options at anytime, tap the switch.
+   * - 5. Developer optionsをいつでも無効にするには、スイッチをタップします。
      - |devop5|
 
 
-Placing Phones into Airplane Mode with Wi-Fi On
+スマートフォンをWi-Fiオンの機内モードにする
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For the *FIRST* Tech Challenge competitions, it is important that you
-place your Robot Controller and DRIVER STATION devices into Airplane mode
-but keep their Wi-Fi radios turned on. This is important because you do
-not want any of the cellular telephone functions to be enabled during a
-match. The cellular telephone functions could disrupt the function of
-the robot during a match.
+**FIRST** Tech Challenge競技会では、**Robot Controller** と **DRIVER STATION** デバイスを機内モードにする一方で、Wi-Fi無線はオンのままにしておくことが重要です。これは、マッチ中に携帯電話機能を有効にしたくないためです。携帯電話機能は、マッチ中のロボットの機能を妨げる可能性があります。
 
-.. note:: It will take an estimated 2.5 minutes per phone to complete this
-   task. Also note that the screens displayed on your Android devices might
-   differ slightly from the images contained in this document.
+.. note:: このタスクを完了するには、スマートフォンごとに約2.5分かかります。また、Androidデバイスに表示される画面は、このドキュメントに含まれる画像と若干異なる場合があることに注意してください。
 
 .. |airplane1| image:: images/AirplaneStep1.jpg
 .. |airplane2| image:: images/AirplaneStep2.jpg
@@ -247,41 +187,29 @@ the robot during a match.
    :header-rows: 1
 
 
-   * - Step
-     - Image
+   * - 手順
+     - 画像
 
-   * - 1. On the main Android screen of each smartphone, use your finger to slide from the top of the screen down towards the bottom of the screen to display the quick configuration screen. Note that for some smartphones you might have to swipe down more than once to display the quick configuration screen, particularly if there are messages or notifications displayed at the top of your screen. Look for the Airplane mode icon (which is shaped like an airplane) and if the icon is not activated, touch the icon to put the phone into airplane mode.
+   * - 1. 各スマートフォンのメインAndroid画面で、指を使って画面の上部から下部に向かってスライドして、クイック構成画面を表示します。一部のスマートフォンでは、特に画面の上部にメッセージや通知が表示されている場合、クイック構成画面を表示するために複数回下にスワイプする必要がある場合があることに注意してください。機内モードアイコン（飛行機の形をしています）を探し、アイコンがアクティブになっていない場合は、アイコンをタッチしてスマートフォンを機内モードにします。
      - |airplane1|
 
-   * - 2. Placing the phone into airplane mode will turn off the Wi-Fi radio. If the Wi-Fi icon has a diagonal line through it (see Step 1 above), then the Wi-Fi radio is disabled. You will need to touch the **Wi-Fi** icon on the quick configuration screen to turn the Wi-Fi radio back on.
+   * - 2. スマートフォンを機内モードにすると、Wi-Fi無線がオフになります。Wi-Fiアイコンに斜線が入っている場合（上記の手順1を参照）、Wi-Fi無線は無効になっています。クイック構成画面の **Wi-Fi** アイコンをタッチして、Wi-Fi無線を再びオンにする必要があります。
      - |airplane2|
 
 
-Pairing the DRIVER STATION to the Robot Controller
+DRIVER STATIONをRobot Controllerにペアリングする
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _control-hub-users-1:
 
-Control Hub Pairing
+Control Hubのペアリング
 ^^^^^^^^^^^^^^^^^^^
 
-The REV Robotics Control Hub should come with the Robot Controller app
-pre-installed. Once you have successfully installed the Driver
-Station on an Android phone, you will want to establish a secure
-wireless connection between the Control Hub and the DRIVER STATION. This
-connection will allow your DRIVER STATION device to select op modes on
-your Robot Controller and send gamepad input to these programs.
-Likewise, it will allow your op modes running on your Robot Controller
-to send telemetry data to your DRIVER STATION phone where it can be
-displayed for your drivers. The process to connect the two devices is
-known as "pairing."
+**REV Robotics Control Hub** には、**Robot Controller** アプリがプリインストールされています。Androidスマートフォンに **Driver Station** を正常にインストールしたら、**Control Hub** と **DRIVER STATION** の間にセキュアなワイヤレス接続を確立します。この接続により、**DRIVER STATION** デバイスは **Robot Controller** で **Op Mode** を選択し、これらのプログラムにゲームパッド入力を送信できます。同様に、**Robot Controller** で実行されている **Op Mode** は、**DRIVER STATION** スマートフォンにテレメトリデータを送信でき、そこでドライバー用に表示できます。2つのデバイスを接続するプロセスは「ペアリング」として知られています。
 
-.. note:: the Control Hub does not have its own internal battery. Before you
-   can connect a Driver Station to the Control Hub, you must connect the
-   Control Hub to a 12V battery.
+.. note:: **Control Hub** には独自の内部バッテリーがありません。**Driver Station** を **Control Hub** に接続する前に、**Control Hub** を12Vバッテリーに接続する必要があります。
 
-Also note that it will take an estimated 10 minutes to complete this
-task.
+また、このタスクを完了するには約10分かかることに注意してください。
 
 .. |pairing1| image:: images/PairingControlHubStep1.jpg
 .. |pairing2| image:: images/PairingControlHubStep2.jpg
@@ -304,73 +232,59 @@ task.
 
 
 
-   * - Step
-     - Image
+   * - 手順
+     - 画像
 
-   * - 1. Connect an approved 12V battery to the power switch (REV-31-1387) and make sure the switch is in the off position. Connect the switch to an XT30 port on the Control Hub and turn the switch on. The LED should initially be blue on the Control Hub.
+   * - 1. 承認された12Vバッテリーを電源スイッチ（REV-31-1387）に接続し、スイッチがオフ位置にあることを確認します。スイッチを **Control Hub** のXT30ポートに接続し、スイッチをオンにします。**Control Hub** のLEDは最初は青色になります。
      - |pairing1|
 
-   * - 2. It takes approximately 18 seconds for the Control Hub to power on. The Control Hub is ready to pair with the Driver Station when the LED turns green. Note: the light blinks blue every ~5 seconds to indicate that the Control Hub is healthy.
+   * - 2. **Control Hub** の電源が入るまでに約18秒かかります。LEDが緑色に変わると、**Control Hub** は **Driver Station** とのペアリングの準備ができています。注：ライトは約5秒ごとに青色で点滅して、**Control Hub** が正常であることを示します。
      - |pairing2|
 
-   * - 3. On the Driver Station device, browse the available apps and locate the **FTC Driver Station** icon. Tap on the icon to launch the Driver Station app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press **Allow** to grant the requested permission.
+   * - 3. **Driver Station** デバイスで、利用可能なアプリを参照し、**FTC Driver Station** アイコンを見つけます。アイコンをタップして、**Driver Station** アプリを起動します。初めてアプリを起動するときは、アプリが正しく実行するために必要な権限をAndroidデバイスが要求する場合があることに注意してください。プロンプトが表示されたら、**Allow** を押して要求された権限を付与します。
      - |pairing3|
 
-   * - 4. Touch the three vertical dots on the upper right hand corner of the main screen of the Driver Station app. This will launch a pop-up menu.
+   * - 4. **Driver Station** アプリのメイン画面の右上隅にある縦に並んだ3つのドットをタッチします。これにより、ポップアップメニューが起動します。
      - |pairing4|
 
-   * - 5. Select **Settings** from the pop-up menu.
+   * - 5. ポップアップメニューから **Settings** を選択します。
      - |pairing5|
 
-   * - 6. From the **Settings** screen, look for and select \ **Pairing Method** to launch the **Pairing** \ **Method** screen.
+   * - 6. **Settings** 画面から、**Pairing Method** を探して選択し、**Pairing Method** 画面を起動します。
      - |pairing6|
 
-   * - 7. Touch the words **Control Hub** to indicate that this DRIVER STATION will be pairing with a Control Hub.
+   * - 7. **Control Hub** という言葉をタッチして、この **DRIVER STATION** が **Control Hub** とペアリングすることを示します。
      - |pairing7|
 
-   * - 8. From the **Settings** screen, look for and select \ **Pair with Robot Controller** to launch the **Pair** \ **with Robot Controller** screen.
+   * - 8. **Settings** 画面から、**Pair with Robot Controller** を探して選択し、**Pair with Robot Controller** 画面を起動します。
      - |pairing8|
 
-   * - 9. From **Pair with Robot Controller** screen, look for and press the **Wifi Settings** button to launch the device's Android WifiSettings screen.
+   * - 9. **Pair with Robot Controller** 画面から、**Wifi Settings** ボタンを探して押し、デバイスのAndroid WifiSettings画面を起動します。
      - |pairing9|
 
-   * - 10. Find the name of your Control Hub's wireless network from the list of available WiFi networks. Click on the network name to select the network. If this is the first time you are connecting to the Control Hub, then the default network name should begin with the prefix FTC- (FTC-1Ybr in this example). The default network name should be listed on a sticker attached to the bottom side of the Control Hub.
+   * - 10. 利用可能なWiFiネットワークのリストから、**Control Hub** のワイヤレスネットワークの名前を見つけます。ネットワーク名をクリックして、ネットワークを選択します。**Control Hub** に初めて接続する場合、デフォルトのネットワーク名はプレフィックスFTC-で始まるはずです（この例ではFTC-1Ybr）。デフォルトのネットワーク名は、**Control Hub** の底面に貼られたステッカーに記載されています。
      - |pairing10|
 
-   * - 11. When prompted, specify the password for the Control Hub's WiFi network and press \ **Connect** to connect to the Hub. Note that the default password for the Control Hub network is ``password``. Also note that when you connect to the Control Hub's WiFi network successfully, the DRIVER STATION will not have access to the Internet.
+   * - 11. プロンプトが表示されたら、**Control Hub** のWiFiネットワークのパスワードを指定し、**Connect** を押してHubに接続します。**Control Hub** ネットワークのデフォルトパスワードは ``password`` であることに注意してください。また、**Control Hub** のWiFiネットワークに正常に接続すると、**DRIVER STATION** はインターネットにアクセスできなくなることに注意してください。
      - |pairing11|
 
-   * - 12. After you successfully connected to the Hub, use the back arrow to navigate to the previous screen. You should see the name of the WiFi network listed under "Current Robot Controller:". Use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main DRIVER STATION screen.
+   * - 12. Hubに正常に接続したら、戻る矢印を使用して前の画面に戻ります。「Current Robot Controller:」の下にWiFiネットワークの名前が表示されるはずです。戻る矢印キーを使用してSettings画面に戻ります。次に、戻る矢印キーをもう一度押して、メインの **DRIVER STATION** 画面に戻ります。
      - |pairing12|
 
-   * - 13. Verify that the DRIVER STATION screen has changed and that it now indicates that it is connected to the Control Hub. The name of the Control Hub's WiFi network (FTC-1Ybr in this example) should be displayed in the Network field on the Driver Station.
+   * - 13. **DRIVER STATION** 画面が変更され、**Control Hub** に接続されていることが示されていることを確認します。**Control Hub** のWiFiネットワークの名前（この例ではFTC-1Ybr）が、**Driver Station** のNetworkフィールドに表示されます。
      - |pairing13|
 
 
 .. _users-with-two-android-smartphones-1:
 
-Two Android Smartphone Pairing
+2台のAndroidスマートフォンのペアリング
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. important:: If your DRIVER STATION was previously paired to a
-   Control Hub, and you currently would like to connect to an Android
-   smartphone Robot Controller, then before attempting to pair to the Robot
-   Controller, you should forget the Wi-Fi network for the previous Control
-   Hub (using the Android Wifi Settings screen on the DRIVER STATION) and
-   then power cycle the DRIVER STATION phone. If the previous Control Hub
-   is powered on and if you haven't forgotten this network, then the DRIVER STATION might try and connect to the Control Hub and might be unable to
-   connect to the Robot Controller smartphone.
+.. important:: **DRIVER STATION** が以前に **Control Hub** とペアリングされていて、現在Androidスマートフォン **Robot Controller** に接続したい場合は、**Robot Controller** とのペアリングを試みる前に、以前の **Control Hub** のWi-Fiネットワークを忘れ（**DRIVER STATION** のAndroid Wifi Settings画面を使用）、**DRIVER STATION** スマートフォンの電源を入れ直す必要があります。以前の **Control Hub** の電源がオンになっていて、このネットワークを忘れていない場合、**DRIVER STATION** は **Control Hub** に接続しようとし、**Robot Controller** スマートフォンに接続できない可能性があります。
 
-Once you have successfully installed the apps onto your Android
-phones, you will want to establish a secure wireless connection between
-the two devices. This connection will allow your DRIVER STATION device to
-select op modes on your Robot Controller phone and send gamepad input to
-these programs. Likewise, it will allow your op modes running on your
-Robot Controller phone to send telemetry data to your DRIVER STATION
-device where it can be displayed for your drivers. The process to connect
-the two phones is known as pairing.
+Androidスマートフォンにアプリを正常にインストールしたら、2つのデバイス間にセキュアなワイヤレス接続を確立します。この接続により、**DRIVER STATION** デバイスは **Robot Controller** スマートフォンで **Op Mode** を選択し、これらのプログラムにゲームパッド入力を送信できます。同様に、**Robot Controller** スマートフォンで実行されている **Op Mode** は、**DRIVER STATION** デバイスにテレメトリデータを送信でき、そこでドライバー用に表示できます。2台のスマートフォンを接続するプロセスはペアリングとして知られています。
 
-Note that it will take an estimated 10 minutes to complete this task.
+このタスクを完了するには約10分かかることに注意してください。
 
 .. |pairingns1| image:: images/PairingNewStep1.jpg
 .. |pairingns1b| image:: images/PairingNewStep1b.jpg
@@ -393,41 +307,41 @@ Note that it will take an estimated 10 minutes to complete this task.
    :header-rows: 1
 
 
-   * - Step
-     - Image
+   * - 手順
+     - 画像
 
-   * - 1. On the Robot Controller device, browse the available apps and locate the **FTC Robot Controller** icon. Tap on the icon to launch the Robot Controller app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press **Allow** to grant the requested permission.
+   * - 1. **Robot Controller** デバイスで、利用可能なアプリを参照し、**FTC Robot Controller** アイコンを見つけます。アイコンをタップして、**Robot Controller** アプリを起動します。初めてアプリを起動するときは、アプリが正しく実行するために必要な権限をAndroidデバイスが要求する場合があることに注意してください。プロンプトが表示されたら、**Allow** を押して要求された権限を付与します。
      - |pairingns1| |pairingns1b|
 
-   * - 2. Verify that the Robot Controller app is running. The **Robot Status** field should read running if it is working properly.
+   * - 2. **Robot Controller** アプリが実行されていることを確認します。正しく動作している場合、**Robot Status** フィールドにはrunningと表示されるはずです。
      - |pairingns2|
 
-   * - 3. On the DRIVER STATION device, browse the available apps and locate the **FTC Driver Station** icon. Tap on the icon to launch the Driver Station app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press **Allow** to grant the requested permission.
+   * - 3. **DRIVER STATION** デバイスで、利用可能なアプリを参照し、**FTC Driver Station** アイコンを見つけます。アイコンをタップして、**Driver Station** アプリを起動します。初めてアプリを起動するときは、アプリが正しく実行するために必要な権限をAndroidデバイスが要求する場合があることに注意してください。プロンプトが表示されたら、**Allow** を押して要求された権限を付与します。
      - |pairingns3| |pairingns3b|
 
-   * - 4. Touch the three vertical dots on the upper right hand corner of the main screen of the Driver Station app. This will launch a pop-up menu.
+   * - 4. **Driver Station** アプリのメイン画面の右上隅にある縦に並んだ3つのドットをタッチします。これにより、ポップアップメニューが起動します。
      - |pairingns4|
 
-   * - 5. Select **Settings** from the pop-up menu.
+   * - 5. ポップアップメニューから **Settings** を選択します。
      - |pairingns5|
 
-   * - 6. From the **Settings** screen, look for and select \ **Pairing Method** to launch the **Pairing** \ **Method** screen.
+   * - 6. **Settings** 画面から、**Pairing Method** を探して選択し、**Pairing Method** 画面を起動します。
      - |pairingns6|
 
-   * - 7. Verify that the **Wifi Direct** mode is selected, which means that this DRIVER STATION will be pairing with another Android device.
+   * - 7. **Wifi Direct** モードが選択されていることを確認します。これは、この **DRIVER STATION** が別のAndroidデバイスとペアリングすることを意味します。
      - |pairingns7|
 
-   * - 8. From the **Settings** screen, look for and select \ **Pair with Robot Controller** to launch the **Pair** \ \ **with Robot Controller** screen.
+   * - 8. **Settings** 画面から、**Pair with Robot Controller** を探して選択し、**Pair with Robot Controller** 画面を起動します。
      - |pairingns8|
 
-   * - 9. Find the name of your Robot Controller from the list and select it. After you have made your selection, use the back-arrow key to return to the Settings screen. Then press the back-arrow key one more time to return to the main DRIVER STATION screen.
+   * - 9. リストから **Robot Controller** の名前を見つけて選択します。選択したら、戻る矢印キーを使用してSettings画面に戻ります。次に、戻る矢印キーをもう一度押して、メインの **DRIVER STATION** 画面に戻ります。
      - |pairingns9|
 
-   * - 10. When the DRIVER STATION returns to its main screen, the first time you attempt to connect to the Robot Controller a prompt should appear on the Robot Controller screen. Click on the **ACCEPT** button to accept the connection request from the DRIVER STATION.
+   * - 10. **DRIVER STATION** がメイン画面に戻ると、**Robot Controller** への接続を初めて試みるときに、**Robot Controller** 画面にプロンプトが表示されます。**ACCEPT** ボタンをクリックして、**DRIVER STATION** からの接続リクエストを受け入れます。
      - |pairingns10|
 
-   * - 11. Verify that the DRIVER STATION screen has changed and that it now indicates that it is connected to the Robot Controller. The name of the Robot Controller's remote network (9999-C-RC in this example) should be displayed in the Network field on the DRIVER STATION.
+   * - 11. **DRIVER STATION** 画面が変更され、**Robot Controller** に接続されていることが示されていることを確認します。**Robot Controller** のリモートネットワークの名前（この例では9999-C-RC）が、**DRIVER STATION** のNetworkフィールドに表示されます。
      - |pairingns11|
 
-   * - 12. Verify that the Robot Controller screen has changed and that it now indicates that it is connected to the DRIVER STATION. The Network status should read active, connected on the Robot Controller's main screen.
+   * - 12. **Robot Controller** 画面が変更され、**DRIVER STATION** に接続されていることが示されていることを確認します。**Robot Controller** のメイン画面で、Network statusにはactive、connectedと表示されるはずです。
      - |pairingns12|
