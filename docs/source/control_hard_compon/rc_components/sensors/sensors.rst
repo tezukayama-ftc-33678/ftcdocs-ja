@@ -204,15 +204,11 @@ IMU
       BNO055
 
 
-An Interial Measurement Unit (IMU) is a sensor that is a combination of a
-Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
-the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ 
-of an object in 3 dimensions. An Accelerometer is a device that reports the
-acceleration of an object in 3 dimensions. Acceleration can be thought of as
-the rate of change of speed at any given instant. A Magnetometer is a device
-that measures the strength of magnetic fields in 3 axes.  This can be used as a
-compass to gain the orientation of a robot relative to the poles of the Earth,
-an absolute measurement.
+慣性測定ユニット（**IMU**）は、ジャイロスコープ、加速度計、磁力計を組み合わせたセンサーです。
+ジャイロスコープは、物体の 3 次元での `角度方向 <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ を報告するデバイスです。
+加速度計は、物体の 3 次元での加速度を報告するデバイスです。加速度は、任意の瞬間における速度の変化率と考えることができます。
+磁力計は、3 軸での磁場の強度を測定するデバイスです。これは、地球の極に対するロボットの方向を得るためのコンパスとして使用でき、
+絶対的な測定値となります。
 
 Potentiometer
 ~~~~~~~~~~~~~~~

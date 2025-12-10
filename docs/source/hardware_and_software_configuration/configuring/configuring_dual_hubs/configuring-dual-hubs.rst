@@ -59,15 +59,15 @@ XT30 延長ケーブルを使用して、**Control Hub** の XT30 電源ポー�
 
 <INSET IMAGE>
 
-2. The Control Hub and Expansion Hub use the RS-485 serial bus standard
-to communicate between devices. You can use the 3-pin JST PH cable to
-connect one of the ports labeled “RS485” on the Control Hub to one of
-the ports labeled “RS485” on the Expansion Hub.
+2. **Control Hub** と **Expansion Hub** は、デバイス間の通信に RS-485 シリアルバス標準を使用します。
+3 ピン JST PH ケーブルを使用して、**Control Hub** の「RS485」とラベル付けされたポートの 1 つを、
+**Expansion Hub** の「RS485」とラベル付けされたポートの 1 つに接続できます。
 
 <INSERT IMAGE>
 
-Note that it is not important which “RS485” port that you select on the
-Expansion Hub or Control Hub. Either port should work.
+**Expansion Hub** または **Control Hub** でどの「RS485」ポートを選択するかは重要ではありません。
+どちらのポートでも機能するはずです。
+
 
 .. figure:: images/RS485Port.jpg
    :align: center

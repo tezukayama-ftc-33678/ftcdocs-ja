@@ -214,13 +214,11 @@ REV Servo Power Module
 
       REV (REV-11-1144)
 
-This is an electronic device (also known as a Servo Power Injector) that boosts
-the power supplied to 3-wire servos. A REV Servo Power Module has 6 input servo
-ports and 6 matching output ports. It draws power from a 12V source and
-provides 6V power to each output servo port.  A REV Servo Power Module can
-provide up to 15A of current across all output servo ports for a total of 90
-Watts of power per module. There are more Servo Power Injectors allowed by the
-Competition Manual.
+これは、3 線式サーボに供給される電力を増強する電子デバイスです（サーボパワーインジェクターとも呼ばれます）。
+**REV Servo Power Module** には、6 つの入力サーボポートと 6 つの対応する出力ポートがあります。
+12V 電源から電力を取得し、各出力サーボポートに 6V の電力を提供します。**REV Servo Power Module** は、
+すべての出力サーボポートに最大 15A の電流を供給でき、モジュールあたり合計 90 ワットの電力を提供できます。
+競技マニュアルでは、より多くのサーボパワーインジェクターが許可されています。
 
 COTS USB Battery Pack
 ---------------------
@@ -245,13 +243,11 @@ COTS USB Battery Pack
 
       Anker Battery Pack
 
-A Commercial Off The Shelf (COTS) USB battery pack is an auxiliary power source
-that can be used in specific situations in accordance with the Competition
-Manual. In the 2023-2024 season, these batteries were deemed permissible to
-power LEDs and, by extension, COTS light controller sources like the `REV
-Blinkin <https://www.revrobotics.com/rev-11-1105/>`__.  However, having a COTS
-USB External Battery on the Robot carries additional considerations.  All teams
-must ensure their COTS USB Battery Pack:
+市販品（COTS）USB バッテリーパックは、競技マニュアルに従って特定の状況で使用できる補助電源です。
+2023-2024 シーズンでは、これらのバッテリーは LED に電力を供給することが許可され、
+拡張として `REV Blinkin <https://www.revrobotics.com/rev-11-1105/>`__ のような COTS ライトコントローラーソースにも許可されました。
+ただし、ロボットに COTS USB 外部バッテリーを搭載すると、追加の考慮事項が発生します。
+すべてのチームは、COTS USB バッテリーパックが以下を満たしていることを確認する必要があります：
 
 - Is manufactured by a reputable brand.
 - Is within allowed Watt-hour capacity limits.

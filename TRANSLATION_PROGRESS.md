@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 14:54:55
+**生成日時:** 2025-12-10 14:57:47
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 72 (28.2%)
-- **部分的に翻訳:** 11 (4.3%)
+- **翻訳完了:** 73 (28.6%)
+- **部分的に翻訳:** 10 (3.9%)
 - **未翻訳:** 172 (67.5%)
 
-**進捗:** `██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 28.2%
+**進捗:** `██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 28.6%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **72個**
+完全に日本語化されているファイル: **73個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -29,6 +29,7 @@
 - `contrib/index.rst`
 - `contrib/tutorials/create_codespace/create-codespace.rst`
 - `contrib/tutorials/index.rst`
+- `contrib/tutorials/overview/overview.rst`
 - `contrib/workflow/workflow.rst`
 - `control_hard_compon/ds_components/index.rst`
 - `control_hard_compon/index.rst`
@@ -103,7 +104,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **11個**
+英語が残っているファイル: **10個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -134,30 +135,30 @@
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
-**問題箇所:** 47件
+**問題箇所:** 41件
 
-- **行 146:** Untranslated English paragraph/sentence
+- **行 218:** Untranslated English paragraph/sentence
   ```
-  One Main Power Switch must control all power provided by the Main Battery. The
+  the power supplied to 3-wire servos. A REV Servo Power Module has 6 input servo
   ```
-- **行 147:** Untranslated English paragraph/sentence
+- **行 219:** Untranslated English paragraph/sentence
   ```
-  legal power switches above are representative examples, check the Competition
+  ports and 6 matching output ports. It draws power from a 12V source and
   ```
-- **行 148:** Untranslated English paragraph/sentence
+- **行 220:** Untranslated English paragraph/sentence
   ```
-  Manual for the full list.
+  provides 6V power to each output servo port.  A REV Servo Power Module can
   ```
-- **行 192:** Untranslated English paragraph/sentence
+- **行 222:** Untranslated English paragraph/sentence
   ```
-  Control Hubs, SPARKminis, and more.  See the Competition Manual for a
+  Watts of power per module. There are more Servo Power Injectors allowed by the
   ```
-- **行 193:** Untranslated English paragraph/sentence
+- **行 250:** Untranslated English paragraph/sentence
   ```
-  description of legal Power Distribution methods. The Power Distribution Blocks
+  Manual. In the 2023-2024 season, these batteries were deemed permissible to
   ```
 
-... 他 42 件の問題
+... 他 36 件の問題
 
 ### `hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst`
 
@@ -188,57 +189,30 @@
 
 ### `control_hard_compon/rc_components/sensors/sensors.rst`
 
-**問題箇所:** 18件
+**問題箇所:** 11件
 
-- **行 107:** Untranslated English paragraph/sentence
+- **行 208:** Untranslated English paragraph/sentence
   ```
-  an object. Most color sensors require the object in question to be relatively
+  Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
   ```
-- **行 134:** Untranslated English paragraph/sentence
+- **行 210:** Untranslated English paragraph/sentence
   ```
-  button. This can be used as a limit switch, a way to limit the range of motion
+  of an object in 3 dimensions. An Accelerometer is a device that reports the
   ```
-- **行 135:** Untranslated English paragraph/sentence
+- **行 211:** Untranslated English paragraph/sentence
   ```
-  of a mechanism. Such a device would typically use the digital port.
+  acceleration of an object in 3 dimensions. Acceleration can be thought of as
   ```
-- **行 162:** Untranslated English paragraph/sentence
+- **行 212:** Untranslated English paragraph/sentence
   ```
-  proximity. This is commonly used to limit the range of movement of a mechanism
+  the rate of change of speed at any given instant. A Magnetometer is a device
   ```
-- **行 163:** Untranslated English paragraph/sentence
+- **行 213:** Untranslated English paragraph/sentence
   ```
-  that would cause damage if it went beyond said limit. This is done by placing a
-  ```
-
-... 他 13 件の問題
-
-### `contrib/tutorials/overview/overview.rst`
-
-**問題箇所:** 7件
-
-- **行 46:** Untranslated English paragraph/sentence
-  ```
-  * This will set up your local environment to work on FTC Docs. This step can be 
-  ```
-- **行 50:** Untranslated English paragraph/sentence
-  ```
-  * This will create a new branch for your change. You should create a new branch 
-  ```
-- **行 54:** Untranslated English paragraph/sentence
-  ```
-  * This will create a new Codespace for your change. You should create a new Code
-  ```
-- **行 58:** Untranslated English paragraph/sentence
-  ```
-  * This will switch to the branch you created in step 7. You should switch to the
-  ```
-- **行 62:** Untranslated English paragraph/sentence
-  ```
-  * This will provide an overview of the tasks for FTC Docs available in VS Code. 
+  that measures the strength of magnetic fields in 3 axes.  This can be used as a
   ```
 
-... 他 2 件の問題
+... 他 6 件の問題
 
 ### `apriltag/opmode_test_images/opmode-test-images.rst`
 
