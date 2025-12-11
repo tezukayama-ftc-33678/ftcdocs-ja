@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 15:12:28
+**生成日時:** 2025-12-11 03:53:50
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,20 +9,29 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 78 (30.6%)
-- **部分的に翻訳:** 5 (2.0%)
+- **翻訳完了:** 80 (31.4%)
+- **部分的に翻訳:** 3 (1.2%)
 - **未翻訳:** 172 (67.5%)
 
-**進捗:** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 30.6%
+**進捗:** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 31.4%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **78個**
+完全に日本語化されているファイル: **80個**
+
+### 🏷️ ラベル付きファイル
+
+以下のファイルは特別なラベルが付けられています：
+
+- `gracious_professionalism/gp.rst` `intentional_english` `resolved`
+  - 理由: Contains Dr. Woodie Flowers' original English quote which should be preserved alongside Japanese translation
+- `overview/ftcoverview.rst` `intentional_english` `resolved`
+  - 理由: Contains RST comment blocks in English for documentation purposes
 
 <details>
-<summary>ファイルリストを表示</summary>
+<summary>通常の翻訳完了ファイルリストを表示</summary>
 
 - `apriltag/opmode_test_images/opmode-test-images.rst`
 - `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
@@ -109,11 +118,13 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **5個**
+英語が残っているファイル: **3個**
 
-### `contrib/style_guide/image-and-figure-details.rst`
+### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
 **問題箇所:** 110件
+
+**ラベル理由:** Large style guide with complex technical explanations, option descriptions, and accessibility guidelines that require careful human review
 
 - **行 56:** Untranslated English paragraph/sentence
   ```
@@ -191,36 +202,6 @@
   ```
 
 ... 他 10 件の問題
-
-### `gracious_professionalism/gp.rst`
-
-**問題箇所:** 3件
-
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  *The* **FIRST** *spirit encourages doing high-quality, well-informed work in a
-  ```
-- **行 26:** Untranslated English paragraph/sentence
-  ```
-  manner that leaves everyone feeling valued.* **Gracious Professionalism** *seems
-  ```
-- **行 27:** Untranslated English paragraph/sentence
-  ```
-  to be a good descriptor for part of the ethos of* **FIRST***. It is part of what
-  ```
-
-### `overview/ftcoverview.rst`
-
-**問題箇所:** 2件
-
-- **行 11:** Untranslated English paragraph/sentence
-  ```
-  Build the FIRST Championship link so we can italicize FIRST.
-  ```
-- **行 31:** Untranslated English paragraph/sentence
-  ```
-  Build the Start a Team link so we can italicize FIRST.
-  ```
 
 ---
 
@@ -422,6 +403,17 @@ python docs/scripts/check_translation_progress.py
 
 詳細な翻訳ガイドラインは `TRANSLATION_GUIDE.md` を参照してください。
 作業効率化ツールについては `TRANSLATION_WORKFLOW_TOOLS.md` を参照してください。
+
+### 🏷️ ファイルラベル機能について
+
+特定のファイルに対して、以下のラベルを付けることができます：
+
+- `intentional_english`: 意図的に英語を残すファイル（引用文、技術文書など）
+- `ai_difficult`: AI翻訳が困難なファイル（人間のレビューが必要）
+- `resolved`: 英語が残っていても解決済みとみなすファイル
+- `needs_human_review`: 完了前に人間のレビューが必要なファイル
+
+ラベルの設定は `TRANSLATION_FILE_LABELS.yaml` で行います。
 
 ---
 
