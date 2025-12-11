@@ -64,15 +64,12 @@ Source code (zip) リンクをクリックして、圧縮された **Android Stu
 
 |
 
-Once you have successfully extracted the contents of the archived file,
-you are ready to import the project into Android Studio.
+アーカイブファイルの内容を正常に抽出したら、プロジェクトを **Android Studio** にインポートする準備が整いました。
 
-Importing the Project into Android Studio
+プロジェクトを **Android Studio** にインポートする
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In order to import the Project, you will need to launch the Android
-Studio software on your computer. On the main Android Studio Welcome
-screen, select the option to "Open" to begin the import process.
+プロジェクトをインポートするには、コンピューターで **Android Studio** ソフトウェアを起動する必要があります。**Android Studio** のメイン Welcome 画面で、「Open」オプションを選択してインポートプロセスを開始します。
 
 .. image:: images/SelectImport.jpg
    :align: center

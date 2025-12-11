@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-11 13:14:00
+**生成日時:** 2025-12-11 13:16:17
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -172,7 +172,7 @@
 
 ### `programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst`
 
-**問題箇所:** 41件
+**問題箇所:** 40件
 
 - **行 7:** Untranslated English paragraph/sentence
   ```
@@ -195,11 +195,11 @@
   Note that this example assumes the user has a Windows 10 laptop. If you
   ```
 
-... 他 36 件の問題
+... 他 35 件の問題
 
 ### `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
 
-**問題箇所:** 25件
+**問題箇所:** 21件
 
 - **行 11:** Untranslated English paragraph/sentence
   ```
@@ -222,7 +222,7 @@
   When you first power on an Android phone, it usually starts off with the
   ```
 
-... 他 20 件の問題
+... 他 16 件の問題
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
@@ -280,30 +280,30 @@
 
 ### `programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst`
 
-**問題箇所:** 11件
+**問題箇所:** 6件
 
 - **行 19:** Untranslated English paragraph/sentence
   ```
   From the main repository web page, click on the “releases” link to jump
   ```
-- **行 67:** Untranslated English paragraph/sentence
+- **行 94:** Untranslated English paragraph/sentence
   ```
-  Once you have successfully extracted the contents of the archived file,
+  is selected to be imported into Android Studio. It might take Android
   ```
-- **行 68:** Untranslated English paragraph/sentence
+- **行 95:** Untranslated English paragraph/sentence
   ```
-  you are ready to import the project into Android Studio.
+  Studio several minutes to import the project. Once the project has been
   ```
-- **行 73:** Untranslated English paragraph/sentence
+- **行 96:** Untranslated English paragraph/sentence
   ```
-  In order to import the Project, you will need to launch the Android
+  successfully imported, the screen should look similar to the one
   ```
-- **行 74:** Untranslated English paragraph/sentence
+- **行 97:** Untranslated English paragraph/sentence
   ```
-  Studio software on your computer. On the main Android Studio Welcome
+  depicted in the image below. If you see a popup asking you to update the
   ```
 
-... 他 6 件の問題
+... 他 1 件の問題
 
 ---
 

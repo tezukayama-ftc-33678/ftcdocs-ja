@@ -29,7 +29,7 @@ access information.
 
 |
 
-2. The Program & Manage screen displays important information that    
+2. Program & Manage 画面には、**Robot Controller** に接続するために必要な重要な情報が表示されます。    
 you can use to connect your laptop to the Blocks or OnBot Java    
 Programming Mode server.                                              
 

@@ -21,7 +21,7 @@ Unlocking Your Screen
 ^^^^^^^^^^^^^^^^^^^^^
 
 When you first power on an Android phone, it usually starts off with the
-screen in a "locked" state. For the Motorola smartphones that are used
+screen in a "locked" state. Motorola スマートフォンでは、ロック画面をタッチしてから、画面を上方向にスワイプして端末のロックを解除する必要があります。
 in the *FIRST* Tech Challenge, you must touch the locked screen and then
 slide your finger upwards along the screen to unlock the phone. Note
 that different devices might require a slightly different procedure to
@@ -32,7 +32,7 @@ unlock the screen.
 
 |
 
-Depending on your security settings, you might be challenged for a pass
+**Android** のセキュリティ設定によっては、ロック解除時にパスコードまたは暗証番号の入力を求められる場合があります。
 code or PIN number. Use the touch screen to enter in the pass code or
 PIN value and tap on the check mark to log into the device.
 
@@ -44,9 +44,7 @@ PIN value and tap on the check mark to log into the device.
 Navigating in Android
 ^^^^^^^^^^^^^^^^^^^^^
 
-Your phone should display its home screen if you just powered it on and
-unlocked it. Note that the actual screens on your smartphone might
-differ slightly from the screens depicted in this tutorial.
+端末の電源を入れてロックを解除したばかりの場合、ホーム画面が表示されるはずです。実際のスマートフォンの画面は、このガイドに表示されている画像とは異なる場合があることに注意してください。
 
 .. image:: images/android_homescreen.jpg
    :align: center
