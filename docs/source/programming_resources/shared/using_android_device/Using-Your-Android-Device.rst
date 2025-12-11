@@ -1,8 +1,7 @@
 **Android** デバイスの使用
 =========================
 
-Before you get started with your control system, it is helpful if you
-familiarize yourself with the basic operation of your Android device.
+制御システムを始める前に、**Android** デバイスの基本的な操作に慣れることが役立ちます。
 
 REV Robotics Driver Hub
 ~~~~~~~~~~~~~~~~~~~~~~~

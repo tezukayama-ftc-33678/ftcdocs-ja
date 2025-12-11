@@ -1,75 +1,45 @@
 プログラミングツールの選択
 ============================
 
-You need to select a programming tool to be able to create op modes
-for your competition robot. 
-An Op Mode or Operational Mode is program that tells the robot what to do.
-There are three programming tools that are available for you to use.
+競技ロボット用の **Op Mode** を作成できるようにするには、プログラミングツールを選択する必要があります。 
+**Op Mode** または Operational Mode は、ロボットに何をすべきかを指示するプログラムです。使用できる 3 つのプログラミングツールがあります。
 
-*FIRST* strongly recommends that **all users**
-begin by learning how to use the :ref:`Blocks programming
-tool <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
+**FIRST** は、**すべてのユーザー**が最初に :ref:`Blocks プログラミングツール <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>` の使用方法を学ぶことを強く推奨しています。
 
-The Blocks Programming Tool
+**Blocks** プログラミングツール
 ---------------------------
 
-A visual programming tool that
-lets programmers use a web browser to create, edit and save their op
-modes. This tool is recommended for novice programmers and for users
-who prefer to design their op modes visually, using a drag-and-drop
-interface.
+プログラマーがウェブブラウザを使用して **Op Mode** を作成、編集、保存できるビジュアルプログラミングツールです。このツールは、初心者プログラマーや、ドラッグアンドドロップインターフェースを使用して **Op Mode** を視覚的に設計することを好むユーザーに推奨されます。
 
 .. image:: images/BlocksPicture1.jpg
    :alt: Blocks Programming Tool showing a graphical Blocks program.
 
-The OnBot Java Programming Tool
+**OnBot Java** プログラミングツール
 -------------------------------
-A text-based programming
-tool that lets programmers use a web browser to create, edit and save
-their Java op modes. This tool is recommended for programmers who
-have basic to advanced Java skills and who would like to write
-text-based op modes.
+プログラマーがウェブブラウザを使用して **Op Mode** を作成、編集、保存できるテキストベースのプログラミングツールです。
+このツールは、基本から高度な Java スキルを持ち、テキストベースの **Op Mode** を作成したいプログラマーに推奨されます。
 
 .. image:: images/onBotJavaScreen.jpg
    :alt: OnBot Java Programming Tool showing Java source code.
 
-Android Studio
+**Android Studio**
 --------------
-An advanced integrated development environment
-for creating Android apps. This tool is the same tool that
-professional Android app developers use. Android Studio is only
-recommended for advanced users who have extensive Java programming
-experience.
+**Android** アプリを作成するための高度な統合開発環境です。このツールは、プロの **Android** アプリ開発者が使用するのと同じツールです。**Android Studio** は、豊富な Java プログラミング経験を持つ上級ユーザーにのみ推奨されます。
 
 .. image:: images/androidStudioScreen.jpg
    :alt: Android Studio showing Java source code.
 
-Recommendations
+推奨事項
 ---------------
 
-Each tool has its own merits and weaknesses. For many users (especially
-rookies and novice programmers), **the Blocks Programming Tool is
-the best overall tool to use**. The Blocks Programming Tool is intuitive
-and easy-to-learn. **It is the fastest way to get started programming
-your robot.**
+各ツールには独自の長所と短所があります。多くのユーザー（特に新規チームや初心者プログラマー）にとって、**Blocks プログラミングツールが全体的に使用する最適なツールです**。**Blocks** プログラミングツールは直感的で習得が簡単です。**これは、ロボットのプログラミングを始める最も速い方法です。**
 
-The OnBot Java Programming Tool is similar to the Blocks Programming
-Tool. However, OnBot Java is a text-based tool and it requires that the
-user have a sound understanding of the Java programming language.
+**OnBot Java** プログラミングツールは **Blocks** プログラミングツールに似ています。ただし、**OnBot Java** はテキストベースのツールであり、ユーザーが Java プログラミング言語をしっかり理解している必要があります。
 
 .. image:: images/ipadPhoneChromebook.jpg
    :alt: A tablet, a phone, and a laptop each showing the programming tools in use.
 
-It is important to note that with the Blocks Programming Tool and the
-OnBot Java Programming Tool, a user only needs a web browser to create,
-edit and build op modes for their robot. A user can even create, edit
-and build op modes using an iPad, an Android phone, or a Chromebook.
+**Blocks** プログラミングツールと **OnBot Java** プログラミングツールでは、ユーザーはロボットの **Op Mode** を作成、編集、ビルドするためにウェブブラウザだけが必要であることに注意することが重要です。ユーザーは、iPad、**Android** 端末、または Chromebook を使用して **Op Mode** を作成、編集、ビルドすることもできます。
 
-Android Studio is a powerful development tool. However, it requires
-extensive Java programming knowledge. It also needs a dedicated laptop
-to run the Android Studio software. Android Studio offers enhanced
-editing and debugging features that are not available on the OnBot Java
-Programming Tool. However, it is a more complicated tool and you must
-spend time learning how to use it.
-It is only recommended for advanced users.
+**Android Studio** は強力な開発ツールです。ただし、豊富な Java プログラミング知識が必要です。また、**Android Studio** ソフトウェアを実行するための専用ラップトップも必要です。**Android Studio** は、**OnBot Java** プログラミングツールでは利用できない拡張編集およびデバッグ機能を提供します。ただし、より複雑なツールであり、使用方法を学ぶために時間を費やす必要があります。上級ユーザーにのみ推奨されます。
 

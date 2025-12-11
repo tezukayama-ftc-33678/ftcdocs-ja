@@ -1,7 +1,7 @@
 ラップトップを Program & Manage ネットワークに接続する
 ===================================================
 
-Connecting Your Laptop to the Program & Manage Network
+ラップトップを Program & Manage ネットワークに接続する
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In order to write an Op Mode, you will need to connect your programming
@@ -16,7 +16,7 @@ are not using a Windows 10 laptop, the procedure to connect to the
 Programming & Manage Wi-Fi network will differ. Refer to your device's
 documentation for details on how to connect to a Wi-Fi network.
 
-Connecting Your Laptop to the Program & Manage Network Instructions
+ラップトップを Program & Manage ネットワークに接続する Instructions
 -------------------------------------------------------------------
 
 1. On the DRIVER STATION, touch the three dots in the upper right     

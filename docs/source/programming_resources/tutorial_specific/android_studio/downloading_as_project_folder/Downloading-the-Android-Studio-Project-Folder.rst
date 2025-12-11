@@ -24,10 +24,7 @@ to the Releases page for the repository. Releases ページには、リポジト
 
 |
 
-Each software release should include an **Assets** section that you can
-use to download the software that you will need to program your robot.
-Note that you might have to click on the triangular symbol to expand
-this **Assets** section.
+各ソフトウェアリリースには **Assets** セクションが含まれており、ロボットのプログラミングに必要なソフトウェアをダウンロードできます。この **Assets** セクションを展開するには、三角形のシンボルをクリックする必要がある場合があります。
 
 .. image:: images/Assets.jpg
    :align: center

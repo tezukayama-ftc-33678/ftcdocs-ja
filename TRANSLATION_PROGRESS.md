@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-11 12:33:30
+**生成日時:** 2025-12-11 13:11:20
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 98 (38.4%)
-- **部分的に翻訳:** 9 (3.5%)
+- **翻訳完了:** 100 (39.2%)
+- **部分的に翻訳:** 7 (2.7%)
 - **未翻訳:** 148 (58.0%)
 
-**進捗:** `███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 38.4%
+**進捗:** `███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 39.2%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **98個**
+完全に日本語化されているファイル: **100個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -107,8 +107,10 @@
 - `programming_resources/onbot_java/intro/intro.rst`
 - `programming_resources/onbot_java/opmode/opmode.rst`
 - `programming_resources/onbot_java/reference/reference.rst`
+- `programming_resources/shared/choosing_program_lang/choosing-program-lang.rst`
 - `programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst`
 - `programming_resources/shared/control_system_intro/The-FTC-Control-System.rst`
+- `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
 - `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
 - `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
 - `programming_resources/shared/required_materials/Required-Materials.rst`
@@ -136,7 +138,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **9個**
+英語が残っているファイル: **7個**
 
 ### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
@@ -196,57 +198,30 @@
 
 ### `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
 
-**問題箇所:** 27件
+**問題箇所:** 25件
 
-- **行 4:** Untranslated English paragraph/sentence
-  ```
-  Before you get started with your control system, it is helpful if you
-  ```
-- **行 5:** Untranslated English paragraph/sentence
-  ```
-  familiarize yourself with the basic operation of your Android device.
-  ```
-- **行 12:** Untranslated English paragraph/sentence
+- **行 11:** Untranslated English paragraph/sentence
   ```
   for instructions on how to set up and use the REV Robotics Driver Hub.
   ```
-- **行 17:** Untranslated English paragraph/sentence
+- **行 16:** Untranslated English paragraph/sentence
   ```
   While not recommended, the Competition Manual does allow select Android
   ```
-- **行 18:** Untranslated English paragraph/sentence
+- **行 17:** Untranslated English paragraph/sentence
   ```
   smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule
   ```
-
-... 他 22 件の問題
-
-### `programming_resources/shared/choosing_program_lang/choosing-program-lang.rst`
-
-**問題箇所:** 24件
-
-- **行 6:** Untranslated English paragraph/sentence
-  ```
-  An Op Mode or Operational Mode is program that tells the robot what to do.
-  ```
-- **行 7:** Untranslated English paragraph/sentence
-  ```
-  There are three programming tools that are available for you to use.
-  ```
-- **行 17:** Untranslated English paragraph/sentence
-  ```
-  lets programmers use a web browser to create, edit and save their op
-  ```
 - **行 18:** Untranslated English paragraph/sentence
   ```
-  modes. This tool is recommended for novice programmers and for users
+  R704 for the full details.
   ```
-- **行 19:** Untranslated English paragraph/sentence
+- **行 23:** Untranslated English paragraph/sentence
   ```
-  who prefer to design their op modes visually, using a drag-and-drop
+  When you first power on an Android phone, it usually starts off with the
   ```
 
-... 他 19 件の問題
+... 他 20 件の問題
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
@@ -304,57 +279,30 @@
 
 ### `programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst`
 
-**問題箇所:** 12件
+**問題箇所:** 11件
 
 - **行 19:** Untranslated English paragraph/sentence
   ```
   From the main repository web page, click on the “releases” link to jump
   ```
-- **行 28:** Untranslated English paragraph/sentence
-  ```
-  use to download the software that you will need to program your robot.
-  ```
-- **行 70:** Untranslated English paragraph/sentence
+- **行 67:** Untranslated English paragraph/sentence
   ```
   Once you have successfully extracted the contents of the archived file,
   ```
-- **行 71:** Untranslated English paragraph/sentence
+- **行 68:** Untranslated English paragraph/sentence
   ```
   you are ready to import the project into Android Studio.
   ```
-- **行 76:** Untranslated English paragraph/sentence
+- **行 73:** Untranslated English paragraph/sentence
   ```
   In order to import the Project, you will need to launch the Android
   ```
-
-... 他 7 件の問題
-
-### `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
-
-**問題箇所:** 8件
-
-- **行 5:** Untranslated English paragraph/sentence
+- **行 74:** Untranslated English paragraph/sentence
   ```
-  Programming Tool or the OnBot Java Programming tool, your laptop will
-  ```
-- **行 6:** Untranslated English paragraph/sentence
-  ```
-  need a Javascript-enabled browser. Both tools are Javascript
-  ```
-- **行 11:** Untranslated English paragraph/sentence
-  ```
-  work with most modern web browsers. However, *FIRST* strongly recommends
-  ```
-- **行 12:** Untranslated English paragraph/sentence
-  ```
-  the use of Google Chrome with these tools. If you would like to use
-  ```
-- **行 13:** Untranslated English paragraph/sentence
-  ```
-  Google Chrome as your browser, you can download it for free from the
+  Studio software on your computer. On the main Android Studio Welcome
   ```
 
-... 他 3 件の問題
+... 他 6 件の問題
 
 ### `programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst`
 
