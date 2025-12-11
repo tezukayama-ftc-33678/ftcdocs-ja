@@ -1,4 +1,4 @@
-Using Your Android Device
+**Android** デバイスの使用
 =========================
 
 Before you get started with your control system, it is helpful if you

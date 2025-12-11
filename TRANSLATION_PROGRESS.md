@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-11 12:28:48
+**生成日時:** 2025-12-11 12:31:22
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 97 (38.0%)
-- **部分的に翻訳:** 5 (2.0%)
-- **未翻訳:** 153 (60.0%)
+- **翻訳完了:** 98 (38.4%)
+- **部分的に翻訳:** 7 (2.7%)
+- **未翻訳:** 150 (58.8%)
 
-**進捗:** `███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 38.0%
+**進捗:** `███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 38.4%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **97個**
+完全に日本語化されているファイル: **98個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -111,6 +111,7 @@
 - `programming_resources/shared/control_system_intro/The-FTC-Control-System.rst`
 - `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
 - `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
+- `programming_resources/shared/required_materials/Required-Materials.rst`
 - `programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst`
@@ -135,7 +136,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **5個**
+英語が残っているファイル: **7個**
 
 ### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
@@ -165,6 +166,33 @@
   ```
 
 ... 他 105 件の問題
+
+### `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
+
+**問題箇所:** 27件
+
+- **行 4:** Untranslated English paragraph/sentence
+  ```
+  Before you get started with your control system, it is helpful if you
+  ```
+- **行 5:** Untranslated English paragraph/sentence
+  ```
+  familiarize yourself with the basic operation of your Android device.
+  ```
+- **行 12:** Untranslated English paragraph/sentence
+  ```
+  for instructions on how to set up and use the REV Robotics Driver Hub.
+  ```
+- **行 17:** Untranslated English paragraph/sentence
+  ```
+  While not recommended, the Competition Manual does allow select Android
+  ```
+- **行 18:** Untranslated English paragraph/sentence
+  ```
+  smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule
+  ```
+
+... 他 22 件の問題
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
@@ -247,6 +275,33 @@
 
 ... 他 7 件の問題
 
+### `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
+
+**問題箇所:** 8件
+
+- **行 5:** Untranslated English paragraph/sentence
+  ```
+  Programming Tool or the OnBot Java Programming tool, your laptop will
+  ```
+- **行 6:** Untranslated English paragraph/sentence
+  ```
+  need a Javascript-enabled browser. Both tools are Javascript
+  ```
+- **行 11:** Untranslated English paragraph/sentence
+  ```
+  work with most modern web browsers. However, *FIRST* strongly recommends
+  ```
+- **行 12:** Untranslated English paragraph/sentence
+  ```
+  the use of Google Chrome with these tools. If you would like to use
+  ```
+- **行 13:** Untranslated English paragraph/sentence
+  ```
+  Google Chrome as your browser, you can download it for free from the
+  ```
+
+... 他 3 件の問題
+
 ### `programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst`
 
 **問題箇所:** 7件
@@ -278,7 +333,7 @@
 
 ## 📝 未翻訳ファイル
 
-日本語が含まれていないファイル: **153個**
+日本語が含まれていないファイル: **150個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -381,7 +436,6 @@
 - `programming_resources/shared/auto_load_opmode/auto-load-opmode.rst`
 - `programming_resources/shared/choosing_program_lang/choosing-program-lang.rst`
 - `programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst`
-- `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
 - `programming_resources/shared/installing_kotlin/Installing-Kotlin.rst`
 - `programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst`
 - `programming_resources/shared/myblocks/annotation/annotation.rst`
@@ -402,8 +456,6 @@
 - `programming_resources/shared/pid_coefficients/pid-coefficients.rst`
 - `programming_resources/shared/pidf_coefficients/pidf-coefficients.rst`
 - `programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst`
-- `programming_resources/shared/required_materials/Required-Materials.rst`
-- `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
 - `programming_resources/vision/camera_calibration/camera-calibration.rst`
 - `programming_resources/vision/vision_overview/vision-overview.rst`
 - `programming_resources/vision/webcam_controls/eval/eval.rst`

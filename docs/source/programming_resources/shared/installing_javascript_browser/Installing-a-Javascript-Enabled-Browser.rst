@@ -18,7 +18,7 @@ of your Internet connection) to download and install the
 Javascript-enabled browser.
 
 
-Installing a Javascript-Enabled Browser Instructions
+JavaScript 対応ブラウザのインストール Instructions
 ----------------------------------------------------
 
 1. Visit the `Google Chrome Browser website <https://www.google.com/chrome>`__ (using your computer's existing browser) and follow onscreen instructions to download and install Chrome.
