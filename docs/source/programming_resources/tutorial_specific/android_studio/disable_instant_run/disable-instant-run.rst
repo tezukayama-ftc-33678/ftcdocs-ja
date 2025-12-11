@@ -1,27 +1,21 @@
-Disabling Android Studio Instant Run :bdg-warning:`Legacy` :bdg-success:`AS`
+**Android Studio** の Instant Run を無効にする :bdg-warning:`Legacy` :bdg-success:`AS`
 ============================================================================
 
 .. attention::
-   *Instant Run* was removed in Android Studio version 3.5, and 
-   is no longer an issue for versions of Android Studio that are 
-   Android Studio 3.5 or newer. However, this article remains for 
-   those using *FIRST* Tech Challenge Software Development Kit 
-   (SDK) v7.1 and older with previous versions of Android Studio.
+   *Instant Run* は **Android Studio** バージョン 3.5 で削除されました。
+   **Android Studio** 3.5 以降のバージョンでは問題になりません。
+   ただし、この記事は **FIRST** **Tech Challenge** ソフトウェア開発キット
+   （**SDK**）v7.1 以前のバージョンを古いバージョンの **Android Studio** で
+   使用している方のために残されています。
 
-Introduction
+はじめに
 ~~~~~~~~~~~~
 
-If you are an Android Studio user, one of **the most important steps to
-take** is to disable Android Studio Instant Run. Instant Run is a
-feature that is designed to streamline the development process by
-reducing the time to apply code changes to your app. Unfortunately,
-Instant Run is limited in function and when used with the *FIRST* Tech
-Challenge Android Studio project folder, can cause **severe** and
-**difficult-to-troubleshoot** problems.
+**Android Studio** を使用する場合、**最も重要なステップの1つ**は **Android Studio** の Instant Run を無効にすることです。Instant Run は、アプリへのコード変更を適用する時間を短縮することで開発プロセスを合理化するように設計された機能です。残念ながら、Instant Run は機能が制限されており、**FIRST** **Tech Challenge** の **Android Studio** プロジェクトフォルダーで使用すると、**重大な**問題や**トラブルシューティングが困難な**問題を引き起こす可能性があります。
 
-Teams who use Android Studio **must** disable Instant Run.
+**Android Studio** を使用するチームは、Instant Run を**必ず**無効にしてください。
 
-Locating Instant Run Settings
+Instant Run 設定の場所
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you first launch Android Studio a Welcome screen should appear. You
@@ -41,10 +35,9 @@ and then click on the “OK” button to disable Instant Run.
 
 .. image:: images/InstantRunConfiguration.jpg
 
-Additional Information
+追加情報
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The Google Android Developer website has additional information about
-Instant Run. It also has instructions on how to disable this feature:
+Google **Android** Developer ウェブサイトには、Instant Run に関する追加情報があります。また、この機能を無効にする方法の説明もあります：
 
 https://developer.android.com/studio/run
