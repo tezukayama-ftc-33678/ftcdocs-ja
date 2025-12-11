@@ -18,20 +18,11 @@
 Instant Run 設定の場所
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you first launch Android Studio a Welcome screen should appear. You
-can navigate to the Instant Run Settings from this Welcome screen by
-selecting the “Configure->Settings” item from the “Configure” dropdown
-list in the lower right hand corner of the screen.
+**Android Studio** を初めて起動すると、Welcome 画面が表示されます。この Welcome 画面から Instant Run **Settings** に移動するには、画面右下隅の「Configure」ドロップダウンリストから「Configure->Settings」項目を選択します。
 
 .. image:: images/ConfigureSettings.jpg
 
-On the left hand side of the Settings window, there should be a category
-called “Build, Execution, Deployment”. Within this category, click on
-the “Instant Run” subcategory to display the Instant Run settings for
-your Android Studio installation. By default, Instant Run is enabled
-when you first install Android Studio. Uncheck the “Enable Instant Run
-to hot swap code/resource changes on deploy (default enabled)” option
-and then click on the “OK” button to disable Instant Run.
+**Settings** ウィンドウの左側に、「Build, Execution, Deployment」というカテゴリーがあります。このカテゴリー内で、「Instant Run」サブカテゴリーをクリックすると、**Android Studio** インストールの Instant Run 設定が表示されます。デフォルトでは、**Android Studio** を初めてインストールすると Instant Run が有効になっています。「Enable Instant Run to hot swap code/resource changes on deploy (default enabled)」オプションのチェックを外し、「OK」ボタンをクリックして Instant Run を無効にしてください。
 
 .. image:: images/InstantRunConfiguration.jpg
 

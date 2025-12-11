@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-11 13:11:20
+**生成日時:** 2025-12-11 13:14:00
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 100 (39.2%)
-- **部分的に翻訳:** 7 (2.7%)
+- **翻訳完了:** 101 (39.6%)
+- **部分的に翻訳:** 6 (2.4%)
 - **未翻訳:** 148 (58.0%)
 
-**進捗:** `███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 39.2%
+**進捗:** `███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 39.6%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **100個**
+完全に日本語化されているファイル: **101個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -116,6 +116,7 @@
 - `programming_resources/shared/required_materials/Required-Materials.rst`
 - `programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst`
+- `programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst`
 - `programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst`
 - `programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst`
 - `programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst`
@@ -138,7 +139,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **7個**
+英語が残っているファイル: **6個**
 
 ### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
@@ -303,33 +304,6 @@
   ```
 
 ... 他 6 件の問題
-
-### `programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst`
-
-**問題箇所:** 7件
-
-- **行 21:** Untranslated English paragraph/sentence
-  ```
-  When you first launch Android Studio a Welcome screen should appear. You
-  ```
-- **行 24:** Untranslated English paragraph/sentence
-  ```
-  list in the lower right hand corner of the screen.
-  ```
-- **行 28:** Untranslated English paragraph/sentence
-  ```
-  On the left hand side of the Settings window, there should be a category
-  ```
-- **行 29:** Untranslated English paragraph/sentence
-  ```
-  called “Build, Execution, Deployment”. Within this category, click on
-  ```
-- **行 31:** Untranslated English paragraph/sentence
-  ```
-  your Android Studio installation. By default, Instant Run is enabled
-  ```
-
-... 他 2 件の問題
 
 ---
 
