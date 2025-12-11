@@ -1,5 +1,5 @@
 Control Hub ポート
-=================
+===================
 
 .. figure:: images/CH-HUB.png
     :align: center

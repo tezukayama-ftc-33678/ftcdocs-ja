@@ -273,7 +273,7 @@ Op Mode のビルド
 更新された **Op Mode** でバイナリファイルをビルドしたら、**Robot Controller** で実行する準備が整いました。例の **Op Mode** を実行する前に、ビルドプロセス中に問題が発生した場合に何が起こるかを見てみましょう。
 
 ビルドメッセージのトラブルシューティング
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 前のセクションでは、ビルドプロセスが順調に進みました。**Op Mode** を少し修正して、ビルドプロセスでエラーを発生させてみましょう。
 
@@ -305,7 +305,7 @@ Op Mode のビルド
 
 **Op Mode** を最初にビルドしようとすると、「illegal start of expression error」が表示されるはずです。これは、addData メソッドに2番目の引数がないためです。**OnBot Java** システムは、エラーがあるファイルと、ファイル内でエラーが発生した場所も示します。
 
-この例では、問題のファイルは「org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java」と呼ばれ、エラーは62行37列で発生します。ビルドプロセスは **Robot Controller** 上のすべての .java ファイルをビルドすることに注意することが重要です。別のファイル（現在編集していないファイル）にエラーがある場合は、ファイル名を確認して、どのファイルが問題を引き起こしているかを判断する必要があります。
+この例では、問題のファイルは「``org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java``」と呼ばれ、エラーは62行37列で発生します。ビルドプロセスは **Robot Controller** 上のすべての .java ファイルをビルドすることに注意することが重要です。別のファイル（現在編集していないファイル）にエラーがある場合は、ファイル名を確認して、どのファイルが問題を引き起こしているかを判断する必要があります。
 
 このステートメントを元の正しい形式に戻しましょう：
 
@@ -313,7 +313,7 @@ Op Mode のビルド
 
    telemetry.addData("Status", "Initialized");
 
-addData ステートメントを修正した後、ビルドボタンをもう一度押して、何が起こるかを確認します。**OnBot Java** システムは、「org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java」というソースファイルの51行13列で、シンボル「Zervo」を見つけることができないと文句を言うはずです。
+addData ステートメントを修正した後、ビルドボタンをもう一度押して、何が起こるかを確認します。**OnBot Java** システムは、「``org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java``」というソースファイルの51行13列で、シンボル「``Zervo``」を見つけることができないと文句を言うはずです。
 
 .. image:: images/OnBotDoc_cannotFind.jpg
    :align: center
@@ -329,7 +329,8 @@ addData ステートメントを修正した後、ビルドボタンをもう一
 Op Mode の実行
 ~~~~~~~~~~~~~~~~~~~~
 
-*  **Op Mode** のリビルドに成功した場合、**Op Mode** を実行する準備が整いました。**DRIVER STATION** がまだ **Robot Controller** に接続されていることを確認します。例の **Op Mode** をテレオペレーション **Op Mode** として指定したため、「TeleOp」**Op Mode** としてリストされます。
+*  **Op Mode** のリビルドに成功した場合、**Op Mode** を実行する準備が整いました。**DRIVER STATION** がまだ **Robot Controller** に接続されていることを確認します。例の **Op Mode** をテレオペレーション **Op Mode** として指定したため、「TeleOp」 **Op Mode** としてリストされます。
+
 *  **DRIVER STATION** で、「TeleOp」ドロップダウンリストコントロールを使用して、利用可能な **Op Mode** のリストを表示します。リストから **Op Mode**（「MyFIRSTJavaOpMode」）を選択します。
 
 .. image:: images/OpModeSelectionDH.png

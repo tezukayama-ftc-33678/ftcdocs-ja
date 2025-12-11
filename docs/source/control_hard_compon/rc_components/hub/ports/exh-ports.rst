@@ -1,5 +1,5 @@
 Expansion Hub ポート
-===================
+=====================
 
 .. figure:: images/EX-HUB.png
     :align: center
