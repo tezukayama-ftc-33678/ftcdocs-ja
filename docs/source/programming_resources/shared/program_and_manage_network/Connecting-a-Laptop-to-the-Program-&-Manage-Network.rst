@@ -1,4 +1,4 @@
-Connecting a Laptop to the Program & Manage Network
+ラップトップを Program & Manage ネットワークに接続する
 ===================================================
 
 Connecting Your Laptop to the Program & Manage Network
