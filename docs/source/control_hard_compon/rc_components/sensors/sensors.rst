@@ -30,10 +30,9 @@ Distance Sensor (Ultrasonic)
       MB1242
 
 
-An Ultrasonic Distance Sensor is a device that is able to measure the distance
-between an object and the sensor.  It does this by sending out a sound wave and
-measuring the time it takes for the wave to travel to the object and back.
-Using this and the speed of sound the distance can be calculated.
+超音波距離センサーは、物体とセンサー間の距離を測定できるデバイスです。
+これは、音波を送出し、波が物体まで移動して戻ってくるまでの時間を測定することで行います。
+これと音速を使用して、距離を計算できます。
 
 Distance Sensor (Optical)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -58,13 +57,11 @@ Distance Sensor (Optical)
 
       REV-31-1505
 
-An Optical Time of Flight (ToF) Sensor is a device that is able to measure the distance
-between an object and the sensor. It does this by sending out a light beam and
-measuring the time it takes for the beam to travel to the object and back.
-Using this time and the known speed of light the distance can be calculated. 
-Be aware that the way the object in question interacts with light can change the
-accuracy of the distance measurement. A transparent object like field panels
-will often provide inaccurate measurements.
+光学式飛行時間（ToF）センサーは、物体とセンサー間の距離を測定できるデバイスです。
+これは、光ビームを送出し、ビームが物体まで移動して戻ってくるまでの時間を測定することで行います。
+この時間と既知の光速を使用して、距離を計算できます。
+問題の物体が光とどのように相互作用するかによって、距離測定の精度が変わる可能性があることに注意してください。
+フィールドパネルのような透明な物体は、しばしば不正確な測定を提供します。
 
 Color Sensor
 ~~~~~~~~~~~~~~
@@ -106,9 +103,8 @@ Color Sensor
 
       MR 45-2018
 
-A color sensor is usually a digital output device that is able to measure the color of
-an object. Most color sensors require the object in question to be relatively
-close to the sensor. 
+カラーセンサーは、通常、物体の色を測定できるデジタル出力デバイスです。
+ほとんどのカラーセンサーは、問題の物体がセンサーに比較的近い位置にあることを必要とします。 
 
 Touch Sensor
 ~~~~~~~~~~~~~~
@@ -133,9 +129,9 @@ Touch Sensor
 
       REV-31-1425
 
-A touch sensor is a digital output device that detects the activation of a
-button. This can be used as a limit switch, a way to limit the range of motion
-of a mechanism. Such a device would typically use the digital port.
+タッチセンサーは、ボタンのアクティベーションを検出するデジタル出力デバイスです。
+これは、メカニズムの動作範囲を制限する方法であるリミットスイッチとして使用できます。
+このようなデバイスは、通常、デジタルポートを使用します。
 
 
 Magnetic Limit Switch
@@ -161,13 +157,11 @@ Magnetic Limit Switch
 
       REV-31-1462
 
-A Magnetic Limit Switch is used to detect the presence of a magnet in near
-proximity. This is commonly used to limit the range of movement of a mechanism
-that would cause damage if it went beyond said limit. This is done by placing a
-magnet on said mechanism which would cause the Limit Switch to activate. It is
-important to note that as a digital device this will only send out a boolean
-output and not a range. For measuring the strength of a magnetic field take a
-look at a magnetometer.
+磁気リミットスイッチは、近接した位置にある磁石の存在を検出するために使用されます。
+これは、指定された制限を超えると損傷を引き起こすメカニズムの移動範囲を制限するために一般的に使用されます。
+これは、リミットスイッチをアクティブにする磁石を該当するメカニズムに配置することで行われます。
+デジタルデバイスとして、これはブール値の出力のみを送信し、範囲は送信しないことに注意することが重要です。
+磁場の強度を測定するには、磁力計を参照してください。
 
 IMU
 ~~~~~
@@ -210,15 +204,11 @@ IMU
       BNO055
 
 
-An Interial Measurement Unit (IMU) is a sensor that is a combination of a
-Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that reports
-the `angular orientation <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ 
-of an object in 3 dimensions. An Accelerometer is a device that reports the
-acceleration of an object in 3 dimensions. Acceleration can be thought of as
-the rate of change of speed at any given instant. A Magnetometer is a device
-that measures the strength of magnetic fields in 3 axes.  This can be used as a
-compass to gain the orientation of a robot relative to the poles of the Earth,
-an absolute measurement.
+慣性測定ユニット（**IMU**）は、ジャイロスコープ、加速度計、磁力計を組み合わせたセンサーです。
+ジャイロスコープは、物体の 3 次元での `角度方向 <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ を報告するデバイスです。
+加速度計は、物体の 3 次元での加速度を報告するデバイスです。加速度は、任意の瞬間における速度の変化率と考えることができます。
+磁力計は、3 軸での磁場の強度を測定するデバイスです。これは、地球の極に対するロボットの方向を得るためのコンパスとして使用でき、
+絶対的な測定値となります。
 
 Potentiometer
 ~~~~~~~~~~~~~~~
@@ -260,17 +250,16 @@ Potentiometer
 
       50k Ohm Potentiometer
 
-A Potentiometer is a device that changes the output voltage based upon the
-degree to which the adjuster is turned. It is often used as a form of
-measuring the absolute orientation of an axle. The manner in which the output
-voltage changes is based on the Potentiometer that is used.
-Such a device is typically attatched via the analog port of the REV Hub.
+ポテンショメーターは、アジャスターが回転する程度に基づいて出力電圧を変更するデバイスです。
+これは、車軸の絶対的な方向を測定する形式としてよく使用されます。出力電圧が変化する方法は、
+使用されるポテンショメーターに基づいています。
+このようなデバイスは、通常、**REV Hub** のアナログポートを介して接続されます。
 
 
 Sensor Compatibility Chart
 ---------------------------
 
-Thanks to the folks at REV Robotics for providing this handy chart of sensor compatibility.
+センサー互換性に関するこの便利なチャートを提供してくれた **REV Robotics** の方々に感謝します。
 
 .. list-table::
    :header-rows: 1

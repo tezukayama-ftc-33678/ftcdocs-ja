@@ -22,10 +22,10 @@
 
 |
 
-   *The FIRST spirit encourages doing high-quality, well-informed work in a
-   manner that leaves everyone feeling valued. Gracious Professionalism seems
-   to be a good descriptor for part of the ethos of FIRST. It is part of what
-   makes FIRST different and wonderful.*
+   *The* **FIRST** *spirit encourages doing high-quality, well-informed work in a
+   manner that leaves everyone feeling valued.* **Gracious Professionalism** *seems
+   to be a good descriptor for part of the ethos of* **FIRST***. It is part of what
+   makes* **FIRST** *different and wonderful.*
 
    *FIRST の精神は、すべての人を価値あるものとして扱う方法で、高品質で十分な情報に基づいた仕事を行うことを奨励します。Gracious Professionalism は、FIRST の精神の一部を表す良い表現のようです。それは、FIRST を異なるものにし、素晴らしいものにしている一部です。*
 

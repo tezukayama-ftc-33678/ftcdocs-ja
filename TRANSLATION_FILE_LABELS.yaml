@@ -1,0 +1,42 @@
+# Translation File Labels Configuration
+# 
+# This file allows marking files with special labels to indicate:
+# - Files with intentional English content (quotes, technical documentation)
+# - Files that are difficult for AI to translate (requires human review)
+# - Files that are considered resolved despite having English content
+#
+# Labels:
+#   - intentional_english: File contains English content that should remain (e.g., quotes, code examples)
+#   - ai_difficult: File is difficult for AI to translate automatically (requires human expertise)
+#   - resolved: File is considered resolved despite having some English content
+#   - needs_human_review: File needs human review before marking as complete
+#
+# Format:
+# filepath:
+#   labels:
+#     - label_name
+#   reason: "Explanation for why this label applies"
+#   date_added: "YYYY-MM-DD"
+
+# Example entries:
+
+gracious_professionalism/gp.rst:
+  labels:
+    - intentional_english
+    - resolved
+  reason: "Contains Dr. Woodie Flowers' original English quote which should be preserved alongside Japanese translation"
+  date_added: "2025-12-11"
+
+overview/ftcoverview.rst:
+  labels:
+    - intentional_english
+    - resolved
+  reason: "Contains RST comment blocks in English for documentation purposes"
+  date_added: "2025-12-11"
+
+contrib/style_guide/image-and-figure-details.rst:
+  labels:
+    - ai_difficult
+    - needs_human_review
+  reason: "Large style guide with complex technical explanations, option descriptions, and accessibility guidelines that require careful human review"
+  date_added: "2025-12-11"

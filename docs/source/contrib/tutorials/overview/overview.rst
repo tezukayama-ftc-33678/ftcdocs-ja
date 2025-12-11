@@ -1,7 +1,7 @@
 概要
 =========
 
-Below is an overview of the process of contributing to FTC Docs.
+以下は、FTC Docs への貢献プロセスの概要です。
 
 .. warning::
 
@@ -28,45 +28,45 @@ Below is an overview of the process of contributing to FTC Docs.
 
 2. :doc:`Intro to Codesapces <../codespaces/codespaces>` :bdg-secondary:`Information`
 
-    * This will provide an overview of Codespaces and how to use them.
+    * これは **Codespaces** の概要と使用方法を提供します。
 3. :doc:`Getting to know the GitHub Repository <../github_repo/github-repo>` :bdg-secondary:`Information`
 
-    * This will provide an overview of the FTC Docs repository and how it is organized. This is important to understand before you start working on a contribution. 
+    * これは FTC Docs リポジトリの概要と構成方法を提供します。貢献作業を開始する前に理解することが重要です。 
 
 4. :doc:`Fork the repository <../make_fork/make-fork>` :bdg-danger:`One Time Only` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
-    * This will create a copy of the FTC Docs repository in your GitHub account.
+    * これにより、あなたの **GitHub** アカウントに FTC Docs リポジトリのコピーが作成されます。
 
 5. :doc:`Update the repository <../update_fork/update-fork>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
-    * This will update your fork with the latest changes from the FTC Docs repository. This is important to do before you start working on a new contribution.
+    * これにより、フォークが FTC Docs リポジトリの最新の変更で更新されます。新しい貢献作業を開始する前にこれを行うことが重要です。
 
 6. :doc:`Set up your environment <../setup/setup>` :bdg-danger:`One Time Only` :bdg-warning:`Local`
 
-    * This will set up your local environment to work on FTC Docs. This step can be skipped for Codespaces users.
+    * これにより、FTC Docs で作業するためのローカル環境がセットアップされます。**Codespaces** ユーザーはこのステップをスキップできます。
 
 7. :doc:`Create a new branch <../make_branch/make-branch>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
-    * This will create a new branch for your change. You should create a new branch for each change you work on.
+    * これにより、変更用の新しいブランチが作成されます。作業する変更ごとに新しいブランチを作成する必要があります。
 
 8. :doc:`Create a new codespace <../create_codespace/create-codespace>` :bdg-success:`Repeat` :bdg-info:`Codespaces`
 
-    * This will create a new Codespace for your change. You should create a new Codespace for each change/branch you work on. 
+    * これにより、変更用の新しい **Codespace** が作成されます。作業する変更/ブランチごとに新しい **Codespace** を作成する必要があります。 
 
 9. :doc:`Switch to your branch <../switch_branch/switch-branch>` :bdg-success:`Repeat` :bdg-warning:`Local`
 
-    * This will switch to the branch you created in step 7. You should switch to the branch you created for each change you work on.
+    * これにより、ステップ 7 で作成したブランチに切り替わります。作業する変更ごとに作成したブランチに切り替える必要があります。
   
 10. :doc:`VS Code Tasks <../tasks/tasks>` :bdg-secondary:`Information`
 
-    * This will provide an overview of the tasks for FTC Docs available in VS Code. This is important to understand before you start working on a contribution.
+    * これにより、**VS Code** で利用可能な FTC Docs のタスクの概要が提供されます。貢献作業を開始する前に理解することが重要です。
 
 11. :doc:`Make your changes <../make_rst/index>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
 12. :doc:`Setup Git Credentials <../setup_credentials/setup-credentials>`  :bdg-danger:`One Time Only` :bdg-warning:`Local`
 
-    * This will set up your Git credentials so you can push your changes.
+    * これにより、変更をプッシュできるように **Git** 認証情報がセットアップされます。
 
 13. :doc:`Submit your changes <../make_pr/make-pr>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
 
-    * Commit your changes and submit a pull request to the FTC Docs repository.
+    * 変更をコミットし、FTC Docs リポジトリにプルリクエストを送信します。

@@ -19,13 +19,6 @@ XT30 コネクタは脆弱性で知られているため、使用時には十分
 
 これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルコネクタは、直交エンコーダーに使用されます。各 Hub にはこれらのポートが 4 つあり、隣接するモーターと組み合わせて使用できます。ただし、このポートを使用してスタンドアロンのインクリメンタルエンコーダーに接続することも可能です。4 つ以上のエンコーダーに接続するには、現在、追加の Hub を接続する必要があります。このポートの詳細については、`REV エンコーダーポートのドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#encoder-port-specifications>`_ を参照してください。
 
-Servo Ports
-------------
-
-These 0.1” Header pins are used to power and control your servos. There are 6 ports on each hub and they are numbered from 0-5. 
-Be mindful of matching the polarity of the device attached to this port as it is possible to flip the connector. 
-For increasing the power supplied to these servos it is possible to use a Servo Power Module. 
-See the Motors & Actuators section of the `Competition Manual <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_ for approved servo power devices.
 サーボポート
 ------------
 

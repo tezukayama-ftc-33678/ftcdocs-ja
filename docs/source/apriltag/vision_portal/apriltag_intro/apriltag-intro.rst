@@ -182,7 +182,6 @@ SDK は、基礎となるポーズデータを次のように提供します：
 
 注：これらの軸は、カメラの参照フレームからでも、公式 AprilTag
 `definitions <https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-Guide#coordinate-system>`__,
-even from the camera’s frame of reference.
 
 SDK は AprilTag **回転** データを次のように提供します： 
 
@@ -196,12 +195,11 @@ SDK は AprilTag **回転** データを次のように提供します：
 
 :ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
 
-注：この記事では、*FIRST* Tech Challenge 
-:ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>`.
+注：この記事では、**FIRST Tech Challenge** の
+:ref:`Field Coordinate System <game_specific_resources/field_coordinate_system/field-coordinate-system:scope>` について説明しています。
 
 OpMode は、ナビゲーションのためにロボットの方向を全体のフィールドまたは 
 :download:`‘global coordinates’ <files/FTC-Global-Coordinates.png>`
-for navigation, but that’s beyond this AprilTag introduction.
 
 高度な使用法
 ------------
@@ -301,5 +299,5 @@ Much credit to:
 - FTC navigation expert `@gearsincorg <https://github.com/gearsincorg>`__ 
 - and the smart people at `UMich/AprilTag <https://april.eecs.umich.edu/software/apriltag>`__.
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、訂正は westsiderobotics@verizon.net までお寄せください。
 

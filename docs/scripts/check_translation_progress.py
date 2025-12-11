@@ -14,9 +14,10 @@ Output: TRANSLATION_PROGRESS.md (overwritten each time)
 import os
 import re
 import sys
+import yaml
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, List, Tuple, Set
+from typing import Dict, List, Tuple, Set, Optional
 
 
 # Directory containing RST files to check
@@ -27,6 +28,9 @@ OUTPUT_FILE = "TRANSLATION_PROGRESS.md"
 
 # Glossary file (in repository root)
 GLOSSARY_FILE = "GLOSSARY.md"
+
+# File labels configuration (in repository root)
+FILE_LABELS_CONFIG = "TRANSLATION_FILE_LABELS.yaml"
 
 # Minimum word length for glossary term matching
 MIN_WORD_LENGTH = 2
@@ -127,10 +131,39 @@ def load_glossary_terms(glossary_path: Path) -> Set[str]:
     return terms
 
 
+def load_file_labels(labels_file: Path) -> Dict[str, Dict]:
+    """
+    Load file labels from YAML configuration file.
+    Returns a dictionary mapping file paths to their label configurations.
+    """
+    labels = {}
+    
+    if not labels_file.exists():
+        print(f"Info: File labels configuration not found at {labels_file}", file=sys.stderr)
+        return labels
+    
+    try:
+        with open(labels_file, 'r', encoding='utf-8') as f:
+            config = yaml.safe_load(f)
+        
+        if config:
+            for filepath, label_config in config.items():
+                # Normalize path separators
+                normalized_path = filepath.replace('\\', '/')
+                labels[normalized_path] = label_config
+        
+        print(f"Loaded labels for {len(labels)} files from {labels_file.name}", file=sys.stderr)
+        
+    except Exception as e:
+        print(f"Warning: Error reading file labels: {e}", file=sys.stderr)
+    
+    return labels
+
+
 class TranslationChecker:
     """Check translation progress of RST files."""
     
-    def __init__(self, source_dir: str, glossary_terms: Set[str] = None):
+    def __init__(self, source_dir: str, glossary_terms: Set[str] = None, file_labels: Dict[str, Dict] = None):
         self.source_dir = Path(source_dir)
         self.total_files = 0
         self.translated_files = 0
@@ -139,6 +172,7 @@ class TranslationChecker:
         self.results: Dict[str, Dict] = {}
         self.glossary_terms = glossary_terms or set()
         self.bold_terms_freq: Dict[str, int] = {}  # Track frequency of bold English terms
+        self.file_labels = file_labels or {}  # File labels configuration
         
     def has_japanese(self, text: str) -> bool:
         """Check if text contains Japanese characters."""
@@ -364,11 +398,19 @@ class TranslationChecker:
         """Check a single RST file for translation status."""
         rel_path = file_path.relative_to(self.source_dir)
         
+        # Get file labels if they exist
+        path_str = str(rel_path).replace('\\', '/')
+        label_config = self.file_labels.get(path_str, {})
+        labels = label_config.get('labels', [])
+        
         result = {
             'path': str(rel_path),
             'status': 'unknown',
             'issues': [],
-            'has_japanese': False
+            'has_japanese': False,
+            'labels': labels,
+            'label_reason': label_config.get('reason', ''),
+            'label_date': label_config.get('date_added', '')
         }
         
         try:
@@ -383,7 +425,10 @@ class TranslationChecker:
             result['issues'] = issues
             
             # Determine status
-            if not result['has_japanese']:
+            # If file has 'resolved' label, mark as completed even if it has issues
+            if 'resolved' in labels:
+                result['status'] = 'completed'
+            elif not result['has_japanese']:
                 result['status'] = 'untranslated'
             elif len(issues) == 0:
                 result['status'] = 'completed'
@@ -460,12 +505,30 @@ class TranslationChecker:
             
             # Completed files
             f.write("## ✅ 翻訳完了ファイル\n\n")
-            completed = [path for path, result in self.results.items() if result['status'] == 'completed']
+            completed = [(path, result) for path, result in self.results.items() if result['status'] == 'completed']
             if completed:
-                completed.sort()
+                completed.sort(key=lambda x: x[0])
+                
+                # Separate files with labels
+                completed_with_labels = [(path, result) for path, result in completed if result.get('labels')]
+                completed_normal = [(path, result) for path, result in completed if not result.get('labels')]
+                
                 f.write(f"完全に日本語化されているファイル: **{len(completed)}個**\n\n")
-                f.write("<details>\n<summary>ファイルリストを表示</summary>\n\n")
-                for path in completed:
+                
+                # Show files with special labels separately
+                if completed_with_labels:
+                    f.write("### 🏷️ ラベル付きファイル\n\n")
+                    f.write("以下のファイルは特別なラベルが付けられています：\n\n")
+                    for path, result in completed_with_labels:
+                        labels = result.get('labels', [])
+                        label_badges = ' '.join([f'`{label}`' for label in labels])
+                        f.write(f"- `{path}` {label_badges}\n")
+                        if result.get('label_reason'):
+                            f.write(f"  - 理由: {result['label_reason']}\n")
+                    f.write("\n")
+                
+                f.write("<details>\n<summary>通常の翻訳完了ファイルリストを表示</summary>\n\n")
+                for path, result in completed_normal:
                     f.write(f"- `{path}`\n")
                 f.write("\n</details>\n\n")
             else:
@@ -482,8 +545,20 @@ class TranslationChecker:
                 
                 for path, result in partial:
                     issue_count = len(result['issues'])
-                    f.write(f"### `{path}`\n\n")
+                    
+                    # Show labels if present
+                    labels = result.get('labels', [])
+                    label_text = ''
+                    if labels:
+                        label_badges = ' '.join([f'`{label}`' for label in labels])
+                        label_text = f" {label_badges}"
+                    
+                    f.write(f"### `{path}`{label_text}\n\n")
                     f.write(f"**問題箇所:** {issue_count}件\n\n")
+                    
+                    # Show label reason if present
+                    if result.get('label_reason'):
+                        f.write(f"**ラベル理由:** {result['label_reason']}\n\n")
                     
                     # Show first 5 issues
                     for issue in result['issues'][:5]:
@@ -527,6 +602,15 @@ class TranslationChecker:
             f.write("詳細な翻訳ガイドラインは `TRANSLATION_GUIDE.md` を参照してください。\n")
             f.write("作業効率化ツールについては `TRANSLATION_WORKFLOW_TOOLS.md` を参照してください。\n\n")
             
+            # Labels feature documentation
+            f.write("### 🏷️ ファイルラベル機能について\n\n")
+            f.write("特定のファイルに対して、以下のラベルを付けることができます：\n\n")
+            f.write("- `intentional_english`: 意図的に英語を残すファイル（引用文、技術文書など）\n")
+            f.write("- `ai_difficult`: AI翻訳が困難なファイル（人間のレビューが必要）\n")
+            f.write("- `resolved`: 英語が残っていても解決済みとみなすファイル\n")
+            f.write("- `needs_human_review`: 完了前に人間のレビューが必要なファイル\n\n")
+            f.write("ラベルの設定は `TRANSLATION_FILE_LABELS.yaml` で行います。\n\n")
+            
             # Glossary suggestions section
             suggestions = self.suggest_glossary_additions(min_frequency=5)
             if suggestions:
@@ -569,8 +653,12 @@ def main():
     glossary_path = repo_root / GLOSSARY_FILE
     glossary_terms = load_glossary_terms(glossary_path)
     
+    # Load file labels
+    labels_path = repo_root / FILE_LABELS_CONFIG
+    file_labels = load_file_labels(labels_path)
+    
     # Create checker and scan files
-    checker = TranslationChecker(SOURCE_DIR, glossary_terms)
+    checker = TranslationChecker(SOURCE_DIR, glossary_terms, file_labels)
     checker.scan_directory()
     
     # Generate report

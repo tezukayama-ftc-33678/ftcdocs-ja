@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-10 14:00:05
+**生成日時:** 2025-12-11 03:53:50
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,30 +9,53 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 62 (24.3%)
-- **部分的に翻訳:** 21 (8.2%)
+- **翻訳完了:** 80 (31.4%)
+- **部分的に翻訳:** 3 (1.2%)
 - **未翻訳:** 172 (67.5%)
 
-**進捗:** `████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 24.3%
+**進捗:** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 31.4%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **62個**
+完全に日本語化されているファイル: **80個**
+
+### 🏷️ ラベル付きファイル
+
+以下のファイルは特別なラベルが付けられています：
+
+- `gracious_professionalism/gp.rst` `intentional_english` `resolved`
+  - 理由: Contains Dr. Woodie Flowers' original English quote which should be preserved alongside Japanese translation
+- `overview/ftcoverview.rst` `intentional_english` `resolved`
+  - 理由: Contains RST comment blocks in English for documentation purposes
 
 <details>
-<summary>ファイルリストを表示</summary>
+<summary>通常の翻訳完了ファイルリストを表示</summary>
 
+- `apriltag/opmode_test_images/opmode-test-images.rst`
+- `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
+- `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
+- `contrib/guidelines/guidelines.rst`
 - `contrib/index.rst`
+- `contrib/tutorials/create_codespace/create-codespace.rst`
 - `contrib/tutorials/index.rst`
+- `contrib/tutorials/overview/overview.rst`
+- `contrib/tutorials/switch_branch/switch-branch.rst`
 - `contrib/workflow/workflow.rst`
+- `control_hard_compon/ds_components/components/components.rst`
 - `control_hard_compon/ds_components/index.rst`
 - `control_hard_compon/index.rst`
+- `control_hard_compon/rc_components/encoders/encoders.rst`
 - `control_hard_compon/rc_components/hub/hub.rst`
 - `control_hard_compon/rc_components/hub/ports/ch-ports.rst`
 - `control_hard_compon/rc_components/hub/ports/exh-ports.rst`
+- `control_hard_compon/rc_components/hub/ports/std-ports.rst`
 - `control_hard_compon/rc_components/index.rst`
+- `control_hard_compon/rc_components/motors/motors.rst`
+- `control_hard_compon/rc_components/sensors/sensors.rst`
+- `control_hard_compon/rc_components/servos/servos.rst`
+- `control_hard_compon/rc_components/uvc/uvc.rst`
 - `devices/huskylens/huskylens.rst`
 - `faq/faqs.rst`
 - `ftc_sdk/overview/index.rst`
@@ -42,6 +65,7 @@
 - `ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst`
 - `ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst`
 - `ftc_sdk/updating/index.rst`
+- `hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst`
 - `hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst`
 - `hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst`
 - `hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst`
@@ -78,6 +102,7 @@
 - `programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst`
 - `programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst`
+- `programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst`
 - `programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst`
 - `programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst`
 - `programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst`
@@ -93,466 +118,90 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **21個**
+英語が残っているファイル: **3個**
 
-### `contrib/style_guide/image-and-figure-details.rst`
+### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
-**問題箇所:** 140件
+**問題箇所:** 110件
 
-- **行 4:** Untranslated English paragraph/sentence
+**ラベル理由:** Large style guide with complex technical explanations, option descriptions, and accessibility guidelines that require careful human review
+
+- **行 56:** Untranslated English paragraph/sentence
   ```
-  This section has detailed information about images and figures and more advice a
+  See `Alt Text`_ for more information about alt text.
   ```
-- **行 16:** Untranslated English paragraph/sentence
+- **行 72:** Untranslated English paragraph/sentence
   ```
-  A wavy line image that is used to separate blocks of content is a decorative ima
+  The options supported by the ``image`` directive are:
   ```
-- **行 17:** Untranslated English paragraph/sentence
+- **行 75:** Untranslated English paragraph/sentence
   ```
-  A photo of persons shaking hands on a page about negotiating contracts might be 
+  Alternate text: a short description of the image, displayed by applications
   ```
-- **行 18:** Untranslated English paragraph/sentence
+- **行 76:** Untranslated English paragraph/sentence
   ```
-  If the image is not directly related to the content and is only there for visual
+  that cannot display images, or spoken by applications for visually impaired
   ```
-- **行 23:** Untranslated English paragraph/sentence
+- **行 79:** Untranslated English paragraph/sentence
   ```
-  Decorative images are also an accessibility problem. The screen reader has to pr
+  The desired height of the image. Used to reserve space or scale the image
   ```
 
-... 他 135 件の問題
+... 他 105 件の問題
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
-**問題箇所:** 107件
+**問題箇所:** 15件
 
-- **行 61:** Untranslated English paragraph/sentence
+- **行 282:** Untranslated English paragraph/sentence
   ```
-  The main power of a robot comes from one 12v battery. The batterys above are
+  Pack based on its (low) price alone!
   ```
-- **行 62:** Untranslated English paragraph/sentence
+- **行 287:** Untranslated English paragraph/sentence
   ```
-  samples of these batteries, check the Competition Manual for the full list of
+  The recurring theme in most discussions of COTS USB Battery Packs is safety.
   ```
-- **行 63:** Untranslated English paragraph/sentence
+- **行 289:** Untranslated English paragraph/sentence
   ```
-  batteries. Note that it is typically allowed to replace the connector on the
+  limitations on COTS USB Battery Packs aboard aircraft, and *FIRST* Tech
   ```
-- **行 64:** Untranslated English paragraph/sentence
+- **行 290:** Untranslated English paragraph/sentence
   ```
-  batteries, provided the in-line fuse on the battery is preserved, again check
+  Challenge has adopted the capacity limit restriction. **Batteries are limited
   ```
-- **行 65:** Untranslated English paragraph/sentence
+- **行 291:** Untranslated English paragraph/sentence
   ```
-  the Competition Manual for full details.
+  to 100 Watt-Hours (Wh) or less**.
   ```
 
-... 他 102 件の問題
+... 他 10 件の問題
 
 ### `hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst`
 
-**問題箇所:** 65件
+**問題箇所:** 15件
 
-- **行 53:** Untranslated English paragraph/sentence
+- **行 146:** Untranslated English paragraph/sentence
   ```
-  1. The first step is to use the 3-pin JST PH cable and the XT30 cable
+  to change the address of any connected Expansion Hubs.
   ```
-- **行 54:** Untranslated English paragraph/sentence
-  ```
-  to daisy chain the two Hubs together. Before you do this, ensure that
-  ```
-- **行 55:** Untranslated English paragraph/sentence
-  ```
-  neither Hub is powered on.
-  ```
-- **行 58:** Untranslated English paragraph/sentence
-  ```
-  Hubs to an XT30 power port on the other Expansion Hub.
-  ```
-- **行 62:** Untranslated English paragraph/sentence
-  ```
-  2. The Control Hub and Expansion Hub use the RS-485 serial bus standard
-  ```
-
-... 他 60 件の問題
-
-### `control_hard_compon/rc_components/sensors/sensors.rst`
-
-**問題箇所:** 26件
-
-- **行 34:** Untranslated English paragraph/sentence
-  ```
-  between an object and the sensor.  It does this by sending out a sound wave and
-  ```
-- **行 35:** Untranslated English paragraph/sentence
-  ```
-  measuring the time it takes for the wave to travel to the object and back.
-  ```
-- **行 36:** Untranslated English paragraph/sentence
-  ```
-  Using this and the speed of sound the distance can be calculated.
-  ```
-- **行 62:** Untranslated English paragraph/sentence
-  ```
-  between an object and the sensor. It does this by sending out a light beam and
-  ```
-- **行 63:** Untranslated English paragraph/sentence
-  ```
-  measuring the time it takes for the beam to travel to the object and back.
-  ```
-
-... 他 21 件の問題
-
-### `control_hard_compon/ds_components/components/components.rst`
-
-**問題箇所:** 17件
-
-- **行 45:** Untranslated English paragraph/sentence
-  ```
-  Station App. This Android Device requirement can be fulfilled either through
-  ```
-- **行 47:** Untranslated English paragraph/sentence
-  ```
-  one of the approved Android Smartphones listed in the Competition Manual. It is
-  ```
-- **行 109:** Untranslated English paragraph/sentence
-  ```
-  If the Android Device being used is an Android Smartphone, the smartphone only
-  ```
-- **行 110:** Untranslated English paragraph/sentence
-  ```
-  provides a single USB-Micro-B port on the bottom of the phone. In order to use
-  ```
-- **行 111:** Untranslated English paragraph/sentence
-  ```
-  USB devices with the Android Smartphone, like a gamepad, a USB-OTG Adapter
-  ```
-
-... 他 12 件の問題
-
-### `contrib/tutorials/create_codespace/create-codespace.rst`
-
-**問題箇所:** 14件
-
-- **行 5:** Untranslated English paragraph/sentence
-  ```
-  For every new branch you make in your repository, you must create a new codespac
-  ```
-- **行 6:** Untranslated English paragraph/sentence
-  ```
-  This is a virtual environment that will allow you to run your code and test it b
-  ```
-- **行 7:** Untranslated English paragraph/sentence
-  ```
-  It may take a few minutes to create the codespace, but once it is created, you c
-  ```
-- **行 12:** Untranslated English paragraph/sentence
-  ```
-  1. Open your **forked** repository in GitHub.
-  ```
-- **行 13:** Untranslated English paragraph/sentence
-  ```
-  2. On the left side of the page select the branch you want to work on.
-  ```
-
-... 他 9 件の問題
-
-### `contrib/tutorials/overview/overview.rst`
-
-**問題箇所:** 12件
-
-- **行 4:** Untranslated English paragraph/sentence
-  ```
-  Below is an overview of the process of contributing to FTC Docs.
-  ```
-- **行 31:** Untranslated English paragraph/sentence
-  ```
-  * This will provide an overview of Codespaces and how to use them.
-  ```
-- **行 34:** Untranslated English paragraph/sentence
-  ```
-  * This will provide an overview of the FTC Docs repository and how it is organiz
-  ```
-- **行 38:** Untranslated English paragraph/sentence
-  ```
-  * This will create a copy of the FTC Docs repository in your GitHub account.
-  ```
-- **行 42:** Untranslated English paragraph/sentence
-  ```
-  * This will update your fork with the latest changes from the FTC Docs repositor
-  ```
-
-... 他 7 件の問題
-
-### `contrib/tutorials/switch_branch/switch-branch.rst`
-
-**問題箇所:** 11件
-
-- **行 9:** Untranslated English paragraph/sentence
-  ```
-  This step is necessary to change which branch you are working on. If you are wor
-  ```
-- **行 15:** Untranslated English paragraph/sentence
-  ```
-  Make sure to replace ``<branch_name>`` with the name of the branch you want to s
-  ```
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  This error occurs when the branch you are trying to switch to does not exist. Ma
-  ```
-- **行 26:** Untranslated English paragraph/sentence
-  ```
-  it can also occur when your local repo is not up to date with the remote repo. T
-  ```
-- **行 32:** Untranslated English paragraph/sentence
-  ```
-  This command will update your local repo with the remote repo. After running thi
-  ```
-
-... 他 6 件の問題
-
-### `overview/ftcoverview.rst`
-
-**問題箇所:** 7件
-
-- **行 11:** Untranslated English paragraph/sentence
-  ```
-  Build the FIRST Championship link so we can italicize FIRST.
-  ```
-- **行 30:** Untranslated English paragraph/sentence
-  ```
-  have, like programming, electronics, metalworking, graphic design, web
-  ```
-- **行 31:** Untranslated English paragraph/sentence
-  ```
-  creation, public speaking, videography, and many more. *FIRST* Tech Challenge
-  ```
-- **行 32:** Untranslated English paragraph/sentence
-  ```
-  welcomes every student, with or without special skills.
-  ```
-- **行 35:** Untranslated English paragraph/sentence
-  ```
-  programming, learn more about *FIRST* Class Pack, a flexible implementation
-  ```
-
-... 他 2 件の問題
-
-### `apriltag/opmode_test_images/opmode-test-images.rst`
-
-**問題箇所:** 7件
-
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 583 (AKA “Nemo”)          | 4 in (101.6 mm)                   |
-  ```
-- **行 27:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 584 (AKA “Jonah”)         | 4 in (101.6 mm)                   |
-  ```
-- **行 29:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 585 (AKA “Cousteau”)      | 6 in (152.4 mm)                   |
-  ```
-- **行 31:** Untranslated English paragraph/sentence
-  ```
-  | Tag ID: 586 (AKA “Ariel”)         | 6 in (152.4 mm)                   |
-  ```
-- **行 35:** Untranslated English paragraph/sentence
-  ```
-  <files/FTCAprilTagSDK82SamplesExtended.pdf>`, or portions thereof, please set
-  ```
-
-... 他 2 件の問題
-
-### `control_hard_compon/rc_components/encoders/encoders.rst`
-
-**問題箇所:** 6件
-
-- **行 40:** Untranslated English paragraph/sentence
-  ```
-  axis.  Most legal *FIRST* Tech Challenge motors contain a built in quadrature
-  ```
-- **行 41:** Untranslated English paragraph/sentence
-  ```
-  encoder that is compatible with a REV Hub. It is also possible to use a
-  ```
-- **行 42:** Untranslated English paragraph/sentence
-  ```
-  standalone incremental encoder like a REV Through Bore Encoder (shown above).
-  ```
-- **行 44:** Untranslated English paragraph/sentence
-  ```
-  the shaft. More information on how many ticks are output per rotation can be
-  ```
-- **行 45:** Untranslated English paragraph/sentence
-  ```
-  found on the manufacturer's website. An absolute encoder is able to indicate
-  ```
-
-... 他 1 件の問題
-
-### `control_hard_compon/rc_components/servos/servos.rst`
-
-**問題箇所:** 5件
-
-- **行 59:** Untranslated English paragraph/sentence
-  ```
-  an input and, with the help of an embedded controller, produces linear or
-  ```
-- **行 60:** Untranslated English paragraph/sentence
-  ```
-  rotational movement based upon the input signal. Servos may take an input signal
-  ```
-- **行 63:** Untranslated English paragraph/sentence
-  ```
-  more information). A REV Servo Power Module (SPM) may be utilized to boost the
-  ```
-- **行 64:** Untranslated English paragraph/sentence
-  ```
-  power provided to servos to a maximum of 90W at 6V for up to 6 servos per device
-  ```
-- **行 65:** Untranslated English paragraph/sentence
-  ```
-  Robots in *FIRST* Tech Challenge may employ up to 12 total servos.
-  ```
-
-### `gracious_professionalism/gp.rst`
-
-**問題箇所:** 4件
-
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  *The FIRST spirit encourages doing high-quality, well-informed work in a
-  ```
-- **行 26:** Untranslated English paragraph/sentence
-  ```
-  manner that leaves everyone feeling valued. Gracious Professionalism seems
-  ```
-- **行 27:** Untranslated English paragraph/sentence
-  ```
-  to be a good descriptor for part of the ethos of FIRST. It is part of what
-  ```
-- **行 28:** Untranslated English paragraph/sentence
-  ```
-  makes FIRST different and wonderful.*
-  ```
-
-### `contrib/guidelines/guidelines.rst`
-
-**問題箇所:** 3件
-
-- **行 61:** Untranslated English paragraph/sentence
-  ```
-  This is also where we could declare what versions of HTML, XML, CSS we target. P
-  ```
-- **行 62:** Untranslated English paragraph/sentence
-  ```
-  (X)HTML, CSS, or usability standards compliance information and links to website
-  ```
-- **行 63:** Untranslated English paragraph/sentence
-  ```
-  Perhaps that we are WCAG compliant someday.
-  ```
-
-### `control_hard_compon/rc_components/motors/motors.rst`
-
-**問題箇所:** 3件
-
-- **行 92:** Untranslated English paragraph/sentence
-  ```
-  Motors are the primary drivers of a robot. All motors are 12v brushed DC motors
-  ```
-- **行 93:** Untranslated English paragraph/sentence
-  ```
-  and are enumerated in the Competition Manual. They may only be controlled via a
-  ```
-- **行 94:** Untranslated English paragraph/sentence
-  ```
-  REV Expansion Hub, REV Control Hub, or REV SPARKmini Motor Controller.
-  ```
-
-### `control_hard_compon/rc_components/hub/ports/std-ports.rst`
-
-**問題箇所:** 3件
-
-- **行 25:** Untranslated English paragraph/sentence
-  ```
-  These 0.1” Header pins are used to power and control your servos. There are 6 po
-  ```
-- **行 26:** Untranslated English paragraph/sentence
-  ```
-  Be mindful of matching the polarity of the device attached to this port as it is
-  ```
-- **行 27:** Untranslated English paragraph/sentence
-  ```
-  For increasing the power supplied to these servos it is possible to use a Servo 
-  ```
-
-### `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
-
-**問題箇所:** 3件
-
 - **行 185:** Untranslated English paragraph/sentence
   ```
-  even from the camera’s frame of reference.
+  Push the “Done” button to change the address. You should see a message
+  ```
+- **行 186:** Untranslated English paragraph/sentence
+  ```
+  indicating that the Expansion Hub’s address has been changed.
   ```
 - **行 204:** Untranslated English paragraph/sentence
   ```
-  for navigation, but that’s beyond this AprilTag introduction.
+  6. The Expansion Hubs use the RS-485 serial bus standard to communicate
   ```
-- **行 304:** Untranslated English paragraph/sentence
+- **行 205:** Untranslated English paragraph/sentence
   ```
-  Questions, comments and corrections to westsiderobotics@verizon.net
-  ```
-
-### `control_hard_compon/rc_components/uvc/uvc.rst`
-
-**問題箇所:** 2件
-
-- **行 45:** Untranslated English paragraph/sentence
-  ```
-  Webcams are intended to be used in computer vision related tasks.
-  ```
-- **行 46:** Untranslated English paragraph/sentence
-  ```
-  Example use cases for a webcam are:
+  between devices. You can use the 3-pin JST PH cable to connect one of
   ```
 
-### `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
-
-**問題箇所:** 2件
-
-- **行 75:** Untranslated English paragraph/sentence
-  ```
-  VisionPortal CPU and Bandwidth <../visionportal_cpu_and_bandwidth/visionportal-c
-  ```
-- **行 89:** Untranslated English paragraph/sentence
-  ```
-  Questions, comments and corrections to westsiderobotics@verizon.net
-  ```
-
-### `hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst`
-
-**問題箇所:** 2件
-
-- **行 27:** Untranslated English paragraph/sentence
-  ```
-  3. Press the **Add** button to add another I2C device to this bus.
-  ```
-- **行 34:** Untranslated English paragraph/sentence
-  ```
-  4. Select "REV Color/Range Sensor" from the dropdown selector for
-  ```
-
-### `programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst`
-
-**問題箇所:** 1件
-
-- **行 105:** English text at end of line
-  ```
-  ...Console の上部にある **Blocks** リンクをクリックして、メインの Blocks Programming
-  ```
+... 他 10 件の問題
 
 ---
 
@@ -754,6 +403,17 @@ python docs/scripts/check_translation_progress.py
 
 詳細な翻訳ガイドラインは `TRANSLATION_GUIDE.md` を参照してください。
 作業効率化ツールについては `TRANSLATION_WORKFLOW_TOOLS.md` を参照してください。
+
+### 🏷️ ファイルラベル機能について
+
+特定のファイルに対して、以下のラベルを付けることができます：
+
+- `intentional_english`: 意図的に英語を残すファイル（引用文、技術文書など）
+- `ai_difficult`: AI翻訳が困難なファイル（人間のレビューが必要）
+- `resolved`: 英語が残っていても解決済みとみなすファイル
+- `needs_human_review`: 完了前に人間のレビューが必要なファイル
+
+ラベルの設定は `TRANSLATION_FILE_LABELS.yaml` で行います。
 
 ---
 

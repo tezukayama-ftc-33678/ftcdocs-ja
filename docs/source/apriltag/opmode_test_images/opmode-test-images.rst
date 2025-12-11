@@ -19,24 +19,24 @@
 *FIRST* Tech Challenge の AprilTag API は複数のタグサイズを処理できます；各個別のタグは独立してサイズを設定できますが、個別のタグに複数のサイズを設定することはできません。各タグに対して計算される一部のポーズ情報（カメラからタグまでの距離データなど）には、使用されるタグの正確なサイズを知る必要があります。SDK 内のサンプルプログラムで使用されるデフォルトのタグサイズは次のとおりです：
 
 +-----------------------------------+-----------------------------------+
-| **Tag Description**               | **Size of Tag in Inches           |
-|                                   | (millimeters)**                   |
+| **タグの説明**                     | **タグのサイズ（インチ）          |
+|                                   | （ミリメートル）**                |
 +===================================+===================================+
-| Tag ID: 583 (AKA “Nemo”)          | 4 in (101.6 mm)                   |
+| タグ ID: 583（別名「Nemo」）       | 4 in (101.6 mm)                   |
 +-----------------------------------+-----------------------------------+
-| Tag ID: 584 (AKA “Jonah”)         | 4 in (101.6 mm)                   |
+| タグ ID: 584（別名「Jonah」）      | 4 in (101.6 mm)                   |
 +-----------------------------------+-----------------------------------+
-| Tag ID: 585 (AKA “Cousteau”)      | 6 in (152.4 mm)                   |
+| タグ ID: 585（別名「Cousteau」）   | 6 in (152.4 mm)                   |
 +-----------------------------------+-----------------------------------+
-| Tag ID: 586 (AKA “Ariel”)         | 6 in (152.4 mm)                   |
+| タグ ID: 586（別名「Ariel」）      | 6 in (152.4 mm)                   |
 +-----------------------------------+-----------------------------------+
 
-When printing out the :download:`PDF version of this document
-<files/FTCAprilTagSDK82SamplesExtended.pdf>`, or portions thereof, please set
-the Page Size settings to “Actual Size” to ensure that the tags are printed
-properly. Every printer is slightly different, so it’s also a good idea to
-measure the width and height of the black-square portion of the main tag area
-to verify that the page printed properly.
+この :download:`ドキュメントの PDF バージョン
+<files/FTCAprilTagSDK82SamplesExtended.pdf>` またはその一部を印刷する際は、
+ページサイズの設定を「実際のサイズ」に設定して、タグが正しく印刷されるようにしてください。
+すべてのプリンターは少しずつ異なるため、主要なタグ領域の黒い正方形部分の幅と高さを測定して、
+ページが正しく印刷されたことを確認することもお勧めします。
+
 
 .. figure:: images/printing.png
    :width: 75%

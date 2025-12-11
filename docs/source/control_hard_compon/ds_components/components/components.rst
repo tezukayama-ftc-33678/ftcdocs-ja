@@ -41,13 +41,10 @@ Android デバイス
 
       Moto E5
 
-The heart of the Driver Station is the Android Device that runs the Driver
-Station App. This Android Device requirement can be fulfilled either through
-the use of a `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ or
-one of the approved Android Smartphones listed in the Competition Manual. It is
-of vital importance that the Driver Station App be updated to a version that
-meets or exceeds the minimum Driver Station App version as defined in the
-Competition Manual.
+**Driver Station** の中心は、**Driver Station App** を実行する Android デバイスです。
+この Android デバイスの要件は、`REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ 
+の使用、または競技マニュアルに記載されている承認された Android スマートフォンのいずれかによって満たすことができます。
+**Driver Station App** を、競技マニュアルで定義されている最小バージョン以上のバージョンに更新することが非常に重要です。
 
 USB-OTG Adapter / Hubs
 ----------------------
@@ -106,17 +103,17 @@ USB-OTG Adapter / Hubs
 
       REV UltraUSB (REV-31-1592)
 
-If the Android Device being used is an Android Smartphone, the smartphone only
-provides a single USB-Micro-B port on the bottom of the phone. In order to use
-USB devices with the Android Smartphone, like a gamepad, a USB-OTG Adapter
-Cable must be used. This cable provides a USB Type A port for the Gamepad or peripherals
-(like a USB Hub, to allow more than one Gamepad to be used). If available, it
-is instead recommended to use a USB Hub with OTG cable built in, like the 
-`REV UltraUSB (REV-31-1592) <https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`_ - 
-this reduces the number of connections and failure points in the system.
+使用している Android デバイスが Android スマートフォンの場合、スマートフォンは
+電話機の底部に単一の USB-Micro-B ポートのみを提供します。ゲームパッドなどの USB デバイスを
+Android スマートフォンで使用するには、USB-OTG アダプターケーブルを使用する必要があります。
+このケーブルは、ゲームパッドまたは周辺機器（複数のゲームパッドを使用できるようにする USB ハブなど）用の
+USB Type A ポートを提供します。利用可能な場合は、
+`REV UltraUSB（REV-31-1592）<https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`_ のような
+OTG ケーブルが組み込まれた USB ハブを使用することをお勧めします。
+これにより、システムの接続数と障害ポイントが削減されます。
 
-When using a REV Driver Hub, no OTG adapters are necessary - gamepads may 
-connect directly to one of the three USB-A ports on the device. 
+**REV Driver Hub** を使用する場合、OTG アダプターは必要ありません。
+ゲームパッドはデバイスの 3 つの USB-A ポートのいずれかに直接接続できます。 
 
 Comercial USB Battery Pack
 ---------------------------
@@ -141,10 +138,9 @@ Comercial USB Battery Pack
 
       Anker Battery Pack
 
-A commercial USB battery pack is an auxiliary power source that can be used in
-specific situations in accordance with the Competition Manual. A USB battery
-pack is permitted to be used to charge your Android Device. Only the REV Driver
-Hub can be charged while in use, through its USB-C port.
+市販の USB バッテリーパックは、競技マニュアルに従って特定の状況で使用できる補助電源です。
+USB バッテリーパックは、Android デバイスを充電するために使用することが許可されています。
+使用中に充電できるのは **REV Driver Hub** のみで、USB-C ポートを介して充電します。
 
 Gamepads
 --------
@@ -254,10 +250,9 @@ Gamepads
 
       Quadstick FPS
 
-The Competition Manual defines the gamepads that are allowed in competition
-play. Up to two gamepads, in any combination, of the allowed types of gamepads
-may be used. All gamepads MUST be used in wired mode only, no wireless of any
-kind is allowed. Special features of some gamepads (Rumble, Lighting) may be
-programmed and used by teams for notifications and signaling to the drivers of
-the robot.
+競技マニュアルでは、競技プレイで許可されているゲームパッドを定義しています。
+許可されているタイプのゲームパッドの任意の組み合わせで、最大 2 つのゲームパッドを使用できます。
+すべてのゲームパッドは、有線モードでのみ使用する必要があり、いかなる種類のワイヤレスも許可されていません。
+一部のゲームパッドの特別な機能（振動、ライト）は、ロボットのドライバーへの通知と信号のために、
+チームがプログラムして使用することができます。
 

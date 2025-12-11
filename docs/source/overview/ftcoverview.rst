@@ -23,17 +23,9 @@
 .. raw:: html
 *FIRST* Tech Challenge チームは、再利用可能なパーツキットを使用してロボットを設計・製作し、共通のゲームルールのもとでエキサイティングなフィールドゲームをプレイし、特定のシーズンチャレンジを達成します。ロボットゲームは毎シーズン変わり、常に楽しいものです！
 
-学生と大人のチームメンバーは、プログラミング、電子工学、金属加工、グラフィックデザイン、ウェブ制作、スピーチ、ビデオ撮影など、すでに持っているスキルを持ち寄ることが奨励されています。*FIRST* Tech Challenge は、特別なスキルの有無に関わらず、すべての学生を歓迎します。
+学生と大人のチームメンバーは、プログラミング、電子工学、金属加工、グラフィックデザイン、ウェブ制作、スピーチ、ビデオ撮影など、すでに持っているスキルを持ち寄ることが奨励されています。**FIRST Tech Challenge** は、特別なスキルの有無に関わらず、すべての学生を歓迎します。
 
-*FIRST* を教室やアフタースクールプログラムに組み込むことを検討している場合は、最大24名の学生向けの柔軟な実施オプションである *FIRST* Class Pack について詳しく学んでください。
-Student and adult team members are encouraged to bring any skills they already
-have, like programming, electronics, metalworking, graphic design, web
-creation, public speaking, videography, and many more. *FIRST* Tech Challenge
-welcomes every student, with or without special skills.
-
-If you are looking to incorporate *FIRST* into your classroom or after-school
-programming, learn more about *FIRST* Class Pack, a flexible implementation
-option for up to 24 students.
+**FIRST** を教室やアフタースクールプログラムに組み込むことを検討している場合は、最大24名の学生向けの柔軟な実施オプションである **FIRST Class Pack** について詳しく学んでください。
 
 .. comment
    Build the Start a Team link so we can italicize FIRST.
