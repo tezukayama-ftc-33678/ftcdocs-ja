@@ -1,4 +1,4 @@
-Configuring your Hardware :bdg-success:`AS`
+ハードウェアの構成 :bdg-success:`AS`
 ===========================================
 
 .. toctree::

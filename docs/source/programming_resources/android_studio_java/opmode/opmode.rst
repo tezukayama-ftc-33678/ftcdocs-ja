@@ -1,4 +1,4 @@
-Writing an Op Mode :bdg-success:`AS`
+**Op Mode** の作成 :bdg-success:`AS`
 ====================================
 
 .. toctree::

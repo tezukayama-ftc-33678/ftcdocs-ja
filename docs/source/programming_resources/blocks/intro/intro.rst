@@ -1,4 +1,4 @@
-Introduction :bdg-warning:`Blocks`
+はじめに :bdg-warning:`Blocks`
 ==================================
 
 
