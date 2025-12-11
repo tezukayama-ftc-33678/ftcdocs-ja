@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-11 13:16:17
+**生成日時:** 2025-12-11 14:22:54
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 101 (39.6%)
-- **部分的に翻訳:** 6 (2.4%)
+- **翻訳完了:** 103 (40.4%)
+- **部分的に翻訳:** 4 (1.6%)
 - **未翻訳:** 148 (58.0%)
 
-**進捗:** `███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 39.6%
+**進捗:** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 40.4%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **101個**
+完全に日本語化されているファイル: **103個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -113,7 +113,9 @@
 - `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
 - `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
 - `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
+- `programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst`
 - `programming_resources/shared/required_materials/Required-Materials.rst`
+- `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
 - `programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst`
@@ -139,7 +141,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **6個**
+英語が残っているファイル: **4個**
 
 ### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
@@ -169,60 +171,6 @@
   ```
 
 ... 他 105 件の問題
-
-### `programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst`
-
-**問題箇所:** 40件
-
-- **行 7:** Untranslated English paragraph/sentence
-  ```
-  In order to write an Op Mode, you will need to connect your programming
-  ```
-- **行 8:** Untranslated English paragraph/sentence
-  ```
-  laptop to the Program & Manage Wi-Fi network. The Program & Manage Wi-Fi
-  ```
-- **行 9:** Untranslated English paragraph/sentence
-  ```
-  network is a wireless network created by your Robot Controller. Before
-  ```
-- **行 10:** Untranslated English paragraph/sentence
-  ```
-  you begin this exercise, please make sure that your Windows laptop has
-  ```
-- **行 14:** Untranslated English paragraph/sentence
-  ```
-  Note that this example assumes the user has a Windows 10 laptop. If you
-  ```
-
-... 他 35 件の問題
-
-### `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
-
-**問題箇所:** 21件
-
-- **行 11:** Untranslated English paragraph/sentence
-  ```
-  for instructions on how to set up and use the REV Robotics Driver Hub.
-  ```
-- **行 16:** Untranslated English paragraph/sentence
-  ```
-  While not recommended, the Competition Manual does allow select Android
-  ```
-- **行 17:** Untranslated English paragraph/sentence
-  ```
-  smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule
-  ```
-- **行 18:** Untranslated English paragraph/sentence
-  ```
-  R704 for the full details.
-  ```
-- **行 23:** Untranslated English paragraph/sentence
-  ```
-  When you first power on an Android phone, it usually starts off with the
-  ```
-
-... 他 16 件の問題
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 

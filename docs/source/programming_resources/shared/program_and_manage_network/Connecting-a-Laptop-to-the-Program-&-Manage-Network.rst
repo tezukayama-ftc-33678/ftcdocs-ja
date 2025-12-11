@@ -4,135 +4,97 @@
 ラップトップを Program & Manage ネットワークに接続する
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In order to write an Op Mode, you will need to connect your programming
-laptop to the Program & Manage Wi-Fi network. The Program & Manage Wi-Fi
-network is a wireless network created by your Robot Controller. Before
-you begin this exercise, please make sure that your Windows laptop has
-the most current service pack and system update from Microsoft
-installed.
+**Op Mode** を作成するには、プログラミングラップトップを Program & Manage Wi-Fi ネットワークに接続する必要があります。Program & Manage Wi-Fi ネットワークは、**Robot Controller** によって作成されるワイヤレスネットワークです。この演習を開始する前に、Windows ラップトップに Microsoft の最新のサービスパックとシステム更新プログラムがインストールされていることを確認してください。
 
-Note that this example assumes the user has a Windows 10 laptop. If you
-are not using a Windows 10 laptop, the procedure to connect to the
-Programming & Manage Wi-Fi network will differ. Refer to your device's
-documentation for details on how to connect to a Wi-Fi network.
+この例では、ユーザーが Windows 10 ラップトップを使用していることを前提としています。Windows 10 ラップトップを使用していない場合、Programming & Manage Wi-Fi ネットワークに接続する手順は異なります。Wi-Fi ネットワークへの接続方法の詳細については、デバイスのドキュメントを参照してください。
 
-ラップトップを Program & Manage ネットワークに接続する Instructions
+ラップトップを Program & Manage ネットワークに接続する手順
 -------------------------------------------------------------------
 
-1. On the DRIVER STATION, touch the three dots in the upper right     
-hand corner of the screen to launch the pop-up menu. Select **Program 
-& Manage** from the pop-up menu to display the **Program & Manage**   
-access information.                                                   
+1. **DRIVER STATION** で、画面の右上隅にある 3 つのドットをタッチしてポップアップメニューを起動します。ポップアップメニューから **Program & Manage** を選択して、**Program & Manage** アクセス情報を表示します。                                                   
 
 .. image:: images/SelectProgramAndManageDriverStation.jpg
    :align: center
 
 |
 
-2. Program & Manage 画面には、**Robot Controller** に接続するために必要な重要な情報が表示されます。    
-you can use to connect your laptop to the Blocks or OnBot Java    
-Programming Mode server.                                              
+2. Program & Manage 画面には、ラップトップを **Blocks** または **OnBot Java** プログラミングモードサーバーに接続するために使用できる **Robot Controller** への接続に必要な重要な情報が表示されます。                                              
 
 .. image:: images/ProgramAndManageScreen.jpg
    :align: center
 
 |
 
-3. Verify the network name and passphrase for the Program & Manage    
-wireless network. Towards the top of the screen, the name of the      
-Program & Manage wireless network is displayed. If you are using an   
-Android smartphone as your Robot Controller, then the wireless        
-network name will begin with the phrase "DIRECT-". 
+3. Program & Manage ワイヤレスネットワークのネットワーク名とパスフレーズを確認します。画面の上部に、Program & Manage ワイヤレスネットワークの名前が表示されます。**Robot Controller** として **Android** スマートフォンを使用している場合、ワイヤレスネットワーク名は「DIRECT-」という語句で始まります。 
 
-   In this example, the name of the Wi-Fi network is "DIRECT-XK-9999-C-RC" and the secure passphrase is "ZU7if0hB"                                              
+   この例では、Wi-Fi ネットワークの名前は「DIRECT-XK-9999-C-RC」で、セキュアパスフレーズは「ZU7if0hB」です。                                              
 
 .. image:: images/ProgramAndManagePassphrase.jpg
    :align: center
 
 |
 
-If you are using a Control Hub, then the wireless network name will be whatever you specified when you configured your Control Hub.  If you haven't changed the Control Hub's name yet, then by default the  wireless network's name will begin with "FTC-".  If you haven't changed its password yet, then by default the wireless network's passphrase will be "password".
+**Control Hub** を使用している場合、ワイヤレスネットワーク名は **Control Hub** を構成したときに指定したものになります。**Control Hub** の名前をまだ変更していない場合、デフォルトではワイヤレスネットワークの名前は「FTC-」で始まります。パスワードをまだ変更していない場合、デフォルトではワイヤレスネットワークのパスフレーズは「password」になります。
 
-In the screenshot below, the Control Hub's wireless network name is "FTC-1Ybr" and the secure passphrase is "password".
+以下のスクリーンショットでは、**Control Hub** のワイヤレスネットワーク名は「FTC-1Ybr」で、セキュアパスフレーズは「password」です。
 
 .. image:: images/ProgramAndManagePassphraseControlHub.jpg
    :align: center
 
 |
 
-4. On your Windows 10 computer, look in the lower right hand corner   
-of your desktop for a Wi-Fi symbol. Click on the Wi-Fi symbol to      
-display a list of available Wi-Fi Networks in your vicinity.          
+4. Windows 10 コンピューターで、デスクトップの右下隅にある Wi-Fi シンボルを探します。Wi-Fi シンボルをクリックして、近くの利用可能な Wi-Fi ネットワークのリストを表示します。          
 
 .. image:: images/ConnectingLaptopStep4.jpg
    :align: center
 
 |
 
-5. Look for the wireless network that matches the name displayed on   
-the Program & Manage screen.                                          
+5. Program & Manage 画面に表示されている名前と一致するワイヤレスネットワークを探します。                                          
 
 .. image:: images/screengrabwirelessnetworks.jpg
    :align: center
 
 |
 
-   In this example, the name of the wireless network for the Android Robot Controller is "DIRECT-XK-9999-C-RC" and the network is visible in the list displayed on the Windows 10 computer.
+   この例では、**Android** **Robot Controller** のワイヤレスネットワークの名前は「DIRECT-XK-9999-C-RC」で、Windows 10 コンピューターに表示されるリストにネットワークが表示されています。
 
-6. Once you have found the target network in the list, click on it to 
-select it.                                                            
+6. リストでターゲットネットワークを見つけたら、それをクリックして選択します。                                                            
 
 .. image:: images/screengrabconnectautomatically.jpg
    :align: center
 
 |
 
-   Press the Connect button to connect to the network.
+   「Connect」ボタンを押してネットワークに接続します。
 
-7. When prompted, provide the network passphrase (in this example     
-"ZU7if0hB") and press "Next" to continue.                             
+7. プロンプトが表示されたら、ネットワークパスフレーズ（この例では「ZU7if0hB」）を入力し、「Next」を押して続行します。                             
 
 .. image:: images/screengrabsecuritykey.jpg
    :align: center
 
 |
 
-Note that the passphrase is case sensitive.  Make sure that your spelling and capitalization matches the original spelling and capitalization shown on the Program & Manage screen.
+パスフレーズは大文字と小文字を区別することに注意してください。スペルと大文字小文字の使い方が、Program & Manage 画面に表示されている元のスペルと大文字小文字の使い方と一致していることを確認してください。
 
-8. Once you have successfully established a wireless connection       
-between your Windows 10 laptop and your Robot Controller Android      
-device, the status should be displayed in the wireless settings for   
-your laptop.                                                          
+8. Windows 10 ラップトップと **Robot Controller** **Android** デバイス間のワイヤレス接続が正常に確立されると、ラップトップのワイヤレス設定にステータスが表示されます。                                                          
 
 .. image:: images/screengrabnointernet.jpg
    :align: center
 
 |
 
-If the display is not updated as shown after a few seconds, try clicking on
-Network Connections at the bottom of the blue box showing the Wi-Fi
-connections.  This will bring up a Setting dialog box that includes a link to
-"Show available networks", which can be used to force the list of Wi-Fi
-connections to be updated.
+数秒後に表示が更新されない場合は、Wi-Fi 接続を示す青いボックスの下部にある「Network Connections」をクリックしてみてください。これにより、「Show available networks」へのリンクを含む Setting ダイアログボックスが表示され、Wi-Fi 接続のリストを強制的に更新できます。
 
-.. attention:: Note that when you are connected to the blocks 
-   programming mode server on your Robot Controller, your laptop 
-   **will not have access to the Internet**.  It only has direct 
-   access to the Robot Controller.
+.. attention:: **Robot Controller** の **Blocks** プログラミングモードサーバーに接続している場合、ラップトップは**インターネットにアクセスできません**。**Robot Controller** への直接アクセスのみが可能です。
 
 
-Troubleshooting Your Wireless Connection
+ワイヤレス接続のトラブルシューティング
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you cannot see your Programming Mode wireless network in the list of
-available networks, or, if you are having problems connecting your
-laptop to the Program & Manage wireless network, make sure you answer
-the following questions:
+利用可能なネットワークのリストにプログラミングモードワイヤレスネットワークが表示されない場合、またはラップトップを Program & Manage ワイヤレスネットワークに接続する際に問題がある場合は、以下の質問に答えてください：
 
-1. Is the Robot Controller running and connected to the DRIVER STATION?
-2. Is your Windows laptop updated with the most current system updates
-   and service packs? Older versions of Windows 8 and 10, for example,
-   had issues that could prevent the laptop from displaying the Program
-   & Manage wireless network in the list of available networks.
+1. **Robot Controller** は実行中で、**DRIVER STATION** に接続されていますか？
+2. Windows ラップトップは最新のシステム更新プログラムとサービスパックで更新されていますか？たとえば、古いバージョンの Windows 8 や 10 には、ラップトップが利用可能なネットワークのリストに Program & Manage ワイヤレスネットワークを表示できなくなる問題がありました。
 
 
