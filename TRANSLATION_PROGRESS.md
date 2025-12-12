@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-12 07:34:21
+**生成日時:** 2025-12-12 07:37:51
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 119 (46.7%)
+- **翻訳完了:** 132 (51.8%)
 - **部分的に翻訳:** 5 (2.0%)
-- **未翻訳:** 131 (51.4%)
+- **未翻訳:** 118 (46.3%)
 
-**進捗:** `███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░` 46.7%
+**進捗:** `█████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░` 51.8%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **119個**
+完全に日本語化されているファイル: **132個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -148,7 +148,20 @@
 - `programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst`
 - `programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst`
 - `programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst`
+- `programming_resources/vision/camera_calibration/camera-calibration.rst`
+- `programming_resources/vision/vision_overview/vision-overview.rst`
+- `programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst`
+- `programming_resources/vision/webcam_controls/exposure/control/control.rst`
+- `programming_resources/vision/webcam_controls/exposure/index.rst`
+- `programming_resources/vision/webcam_controls/exposure/mode/mode.rst`
+- `programming_resources/vision/webcam_controls/exposure/samples/samples.rst`
+- `programming_resources/vision/webcam_controls/focus/index.rst`
+- `programming_resources/vision/webcam_controls/gain/index.rst`
 - `programming_resources/vision/webcam_controls/index.rst`
+- `programming_resources/vision/webcam_controls/overview/overview.rst`
+- `programming_resources/vision/webcam_controls/ptz/index.rst`
+- `programming_resources/vision/webcam_controls/samples/samples.rst`
+- `programming_resources/vision/webcam_controls/white_balance/index.rst`
 - `team_resources/team_resources.rst`
 
 </details>
@@ -282,7 +295,7 @@
 
 ## 📝 未翻訳ファイル
 
-日本語が含まれていないファイル: **131個**
+日本語が含まれていないファイル: **118個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -387,29 +400,16 @@
 - `programming_resources/shared/phone_pairing/phone-pairing.rst`
 - `programming_resources/shared/pid_coefficients/pid-coefficients.rst`
 - `programming_resources/shared/pidf_coefficients/pidf-coefficients.rst`
-- `programming_resources/vision/camera_calibration/camera-calibration.rst`
-- `programming_resources/vision/vision_overview/vision-overview.rst`
 - `programming_resources/vision/webcam_controls/eval/eval.rst`
-- `programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst`
-- `programming_resources/vision/webcam_controls/exposure/control/control.rst`
-- `programming_resources/vision/webcam_controls/exposure/index.rst`
-- `programming_resources/vision/webcam_controls/exposure/mode/mode.rst`
-- `programming_resources/vision/webcam_controls/exposure/samples/samples.rst`
 - `programming_resources/vision/webcam_controls/focus/control/control.rst`
-- `programming_resources/vision/webcam_controls/focus/index.rst`
 - `programming_resources/vision/webcam_controls/focus/mode/mode.rst`
 - `programming_resources/vision/webcam_controls/gain/control/control.rst`
 - `programming_resources/vision/webcam_controls/gain/ex1/ex1.rst`
 - `programming_resources/vision/webcam_controls/gain/ex2/ex2.rst`
 - `programming_resources/vision/webcam_controls/gain/ex3/ex3.rst`
-- `programming_resources/vision/webcam_controls/gain/index.rst`
-- `programming_resources/vision/webcam_controls/overview/overview.rst`
-- `programming_resources/vision/webcam_controls/ptz/index.rst`
 - `programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst`
 - `programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst`
-- `programming_resources/vision/webcam_controls/samples/samples.rst`
 - `programming_resources/vision/webcam_controls/white_balance/control/control.rst`
-- `programming_resources/vision/webcam_controls/white_balance/index.rst`
 - `programming_resources/vision/webcam_controls/white_balance/mode/mode.rst`
 - `sponsors/discounts/discounts.rst`
 - `sponsors/software/software.rst`
@@ -458,12 +458,13 @@ python docs/scripts/check_translation_progress.py
 ```markdown
 | 英語 | 表記 | 備考 |
 |------|------|------|
+| SDK | **SDK** | 出現回数: 15 |
 | ON | **ON** | 出現回数: 10 |
-| SDK | **SDK** | 出現回数: 9 |
 | What | **What** | 出現回数: 8 |
 | Expires | **Expires** | 出現回数: 8 |
 | Done | **Done** | 出現回数: 6 |
 | Yes | **Yes** | 出現回数: 5 |
+| Vuforia | **Vuforia** | 出現回数: 5 |
 | BlocksOpModeCompanion | **BlocksOpModeCompanion** | 出現回数: 5 |
 ```
 
