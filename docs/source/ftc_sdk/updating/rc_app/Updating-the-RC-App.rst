@@ -1,75 +1,37 @@
-Updating the Robot Controller (RC) App
+**Robot Controller (RC)** アプリの更新
 ======================================
 
-The Robot Controller App is one of the Apps provided with the *FIRST* Tech
-Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`. The Robot
-Controller App is the application that runs on the Robot Controller Android
-Device (REV Control Hub or an approved Android RC phone). This app 
-communicates with the Driver Station App to control the robot.
+**Robot Controller** アプリは、**FIRST** **Tech Challenge** :doc:`ソフトウェア開発キット（SDK）</ftc_sdk/overview/index>` で提供されているアプリの1つです。**Robot Controller** アプリは、**Robot Controller** **Android** デバイス（**REV Control Hub** または承認された **Android** RC スマートフォン）で実行されるアプリケーションです。このアプリは **Driver Station** アプリと通信してロボットを制御します。
 
-This page shows how to update the Robot Controller (RC) app on these
-devices:
+このページでは、以下のデバイスで **Robot Controller (RC)** アプリを更新する方法を説明します：
 
--  REV Control Hub
--  An approved Android RC smartphone
+-  **REV Control Hub**
+-  承認された **Android** RC スマートフォン
 
-Blocks / OnBot Java vs Android Studio
+**Blocks** / **OnBot Java** 対 **Android Studio**
 -------------------------------------
 
-Blocks / OnBot Java
+**Blocks** / **OnBot Java**
 ^^^^^^^^^^^^^^^^^^^
 
-The Robot Controller (RC) App contains the programming environments for Blocks
-and OnBot Java, and the User Programs (Team Code) developed using those
-environments are stored independently ALONGSIDE the RC App. This makes it
-possible to update the RC App independently without affecting Team Code.  This
-incredibly simplifies updating the RC App software, since no *code* needs to be
-modified in order to upgrade/downgrade the RC App itself. This does mean,
-however, that users of Blocks and OnBot Java are limited to the "default" RC
-App dependencies that are shipped with the App. Blocks and OnBot Java programs
-can still be run with an Android Studio-built RC App, however, so some
-flexibility is still possible in this regard for advanced users.
+**Robot Controller (RC)** アプリには、**Blocks** と **OnBot Java** のプログラミング環境が含まれており、これらの環境を使用して開発されたユーザープログラム（チームコード）は、RC アプリとは独立して、RC アプリと並行して保存されます。これにより、チームコードに影響を与えることなく、RC アプリを独立して更新することが可能になります。RC アプリ自体をアップグレード/ダウングレードするために*コード*を変更する必要がないため、RC アプリソフトウェアの更新が非常に簡単になります。ただし、これは **Blocks** と **OnBot Java** のユーザーがアプリに同梱されている「デフォルト」の RC アプリ依存関係に制限されることを意味します。ただし、**Blocks** と **OnBot Java** プログラムは **Android Studio** でビルドされた RC アプリでも実行できるため、上級ユーザーにとってはこの点でまだある程度の柔軟性があります。
 
-Android Studio
+**Android Studio**
 ^^^^^^^^^^^^^^
 
-Android Studio, in general, works exactly the opposite. The FtcRobotController
-repository (the Android Studio Project) contains the full source code needed to
-build a complete RC App; when the Android Studio Project is compiled and
-deployed, it's actually building a complete Robot Controller App and installing
-it onto the RC Android device. Team Code **and** the Robot Controller code are
-compiled *together*, meaning the Team Code is embedded WITHIN the RC App and
-cannot be updated/edited independently of the RC App. If the Android
-Studio-deployed RC App is replaced using the REV Hardware Client or similar
-process, the RC App with the Team Code embedded is removed and replaced with
-the default RC App - so Android Studio users should NEVER update the RC App
-using anything but Android Studio! However, this can complicate upgrading and
-downgrading software. In order to upgrade/downgrade the RC App portion of their
-Android Studio code, the team's :doc:`Android Studio project
-<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>`
-must be merged properly with software releases of the `FtcRobotController
-repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ code
-aligning to the version of the Robot Controller App that they want to use. This
-must be carefully weighed when deciding to use Android Studio.
+**Android Studio** は、一般的に正反対の動作をします。**FtcRobotController** リポジトリ（**Android Studio** プロジェクト）には、完全な RC アプリをビルドするために必要な完全なソースコードが含まれています。**Android Studio** プロジェクトがコンパイルおよびデプロイされると、実際には完全な **Robot Controller** アプリをビルドして、RC **Android** デバイスにインストールしています。チームコード**と** **Robot Controller** コードは*一緒に*コンパイルされます。つまり、チームコードは RC アプリ内に埋め込まれており、RC アプリとは独立して更新/編集することはできません。**Android Studio** でデプロイされた RC アプリが **REV Hardware Client** または類似のプロセスを使用して置き換えられた場合、チームコードが埋め込まれた RC アプリは削除され、デフォルトの RC アプリに置き換えられます。したがって、**Android Studio** ユーザーは **Android Studio** 以外を使用して RC アプリを更新しないでください！ただし、これによりソフトウェアのアップグレードとダウングレードが複雑になる可能性があります。**Android Studio** コードの RC アプリ部分をアップグレード/ダウングレードするには、チームの :doc:`Android Studio プロジェクト <../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>` を、使用したい **Robot Controller** アプリのバージョンに対応する `FtcRobotController リポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ コードのソフトウェアリリースと適切にマージする必要があります。**Android Studio** の使用を決定する際には、これを慎重に検討する必要があります。
 
-Updating the RC App for Android Studio
+**Android Studio** 向けの RC アプリの更新
 --------------------------------------
 
-**Android Studio** users should **not** use the steps on this page to update
-the RC app, for the reasons described above. **Android Studio** users must
-ensure that their Android Studio Projects are up to date with the desired version 
-of the `SDK GitHub Repo <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
+**Android Studio** ユーザーは、上記の理由により、このページの手順を使用して RC アプリを更新**しないでください**。**Android Studio** ユーザーは、**Android Studio** プロジェクトが `SDK GitHub リポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ の希望するバージョンで最新であることを確認する必要があります。
 
-For information on how to properly create and maintain an Android Studio project
-that can be updated using GitHub, please see :doc:`Using GitHub Fork and Clone
-<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>`
+GitHub を使用して更新できる **Android Studio** プロジェクトを適切に作成および維持する方法については、:doc:`GitHub の Fork と Clone の使用 <../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>` を参照してください。
 
-Updating the RC App for Blocks / OnBot Java
+**Blocks** / **OnBot Java** 向けの RC アプリの更新
 -------------------------------------------
 
-These instructions are for independently updating the RC App in situations where
-such an independent update is supported - i.e. Blocks or OnBot Java development.
-Expand the following instructions that apply to your Robot Controller hardware:
+これらの手順は、独立した更新がサポートされている状況、つまり **Blocks** または **OnBot Java** 開発で RC アプリを独立して更新するためのものです。お使いの **Robot Controller** ハードウェアに適用される以下の手順を展開してください：
 
 .. dropdown:: Robot Controller (RC) app on REV Control Hub
 
