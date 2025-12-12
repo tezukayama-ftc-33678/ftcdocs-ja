@@ -1,22 +1,11 @@
-Changing PIDF Coefficients
+PIDF 係数の変更
 ===========================
 
-The REV Robotics Control Hub or REV Robotics Expansion Hub allows a user to change the PIDF
-coefficients used for closed loop motor control. The PIDF coefficients
-are specific to each channel (motor port) and to each RunMode.
+**REV Robotics Control Hub** または **REV Robotics Expansion Hub** を使用すると、ユーザーは閉ループモーター制御に使用される PIDF 係数を変更できます。PIDF 係数は、各チャネル（モーターポート）と各 RunMode に固有です。
 
-The following sample OpMode uses an extended or enhanced DcMotor class
-(called “DcMotorEx”) to change the PIDF coefficients for the
-RUN_USING_ENCODER RunMode for a motor named “left_drive”. The OpMode
-uses the setPIDFCoefficients method of the DcMotorEx class to change the
-values. This method is not available with the standard DcMotor class.
+次のサンプル **OpMode** は、拡張または強化された **DcMotor** クラス（「**DcMotorEx**」と呼ばれる）を使用して、「left_drive」という名前のモーターの RUN_USING_ENCODER RunMode の PIDF 係数を変更します。**OpMode** は、**DcMotorEx** クラスの setPIDFCoefficients メソッドを使用して値を変更します。このメソッドは、標準の **DcMotor** クラスでは使用できません。
 
-Note that changes made to the PIDF coefficients do not persist if you
-power cycle the REV Robotics Control Hub or REV Robotics Expansion Hub. If you need your changes to
-persist, consider modifying your OpMode to store state information on
-the Control Hub or Android phone. The Android Developer website has a tutorial on how
-to save data from your app onto an Android device 
-`here <https://developer.android.com/training/data-storage>`__
+PIDF 係数に加えた変更は、**REV Robotics Control Hub** または **REV Robotics Expansion Hub** の電源を入れ直すと保持されないことに注意してください。変更を保持する必要がある場合は、**OpMode** を変更して、**Control Hub** または **Android** スマートフォンに状態情報を保存することを検討してください。Android Developer Web サイトには、アプリから **Android** デバイスにデータを保存する方法に関するチュートリアルがあります `こちら <https://developer.android.com/training/data-storage>`__
 
 .. code-block:: java
 
@@ -29,45 +18,45 @@ to save data from your app onto an Android device
    import com.qualcomm.robotcore.hardware.PIDFCoefficients;
 
    /**
-    * Created by Tom on 9/26/17.  Updated 9/24/2021 for PIDF.
-    * This assumes that you are using a REV Robotics Control Hub or REV Robotics Expansion Hub
-    * as your DC motor controller.  This OpMode uses the extended/enhanced
-    * PIDF-related functions of the DcMotorEx class. 
+    * Created by Tom on 9/26/17. Updated 9/24/2021 for PIDF.
+    * これは、DC モーターコントローラーとして REV Robotics Control Hub または
+    * REV Robotics Expansion Hub を使用していることを前提としています。
+    * この OpMode は、DcMotorEx クラスの拡張/強化された PIDF 関連機能を使用します。
     */
 
    @Autonomous(name="Concept: Change PIDF", group = "Concept")
    public class ConceptChangePIDF extends LinearOpMode {
 
-       // our DC motor
+       // DC モーター
        DcMotorEx motorExLeft;
 
        public static final double NEW_P = 2.5;
        public static final double NEW_I = 0.1;
        public static final double NEW_D = 0.2;
        public static final double NEW_F = 0.5;
-       // These values are for illustration only; they must be set 
-       // and adjusted for each motor based on its planned usage.
+       // これらの値は説明のみを目的としています。
+       // 各モーターの計画された使用法に基づいて設定および調整する必要があります。
 
        public void runOpMode() {
-           // Get reference to DC motor.
-           // Since we are using the Control Hub or Expansion Hub,
-           // cast this motor to a DcMotorEx object.
+           // DC モーターへの参照を取得
+           // Control Hub または Expansion Hub を使用しているため、
+           // このモーターを DcMotorEx オブジェクトにキャストします
            motorExLeft = (DcMotorEx)hardwareMap.get(DcMotor.class, "left_drive");
 
-           // wait for start command
+           // 開始コマンドを待ちます
            waitForStart();
 
-           // Get the PIDF coefficients for the RUN_USING_ENCODER RunMode.
+           // RUN_USING_ENCODER RunMode の PIDF 係数を取得
            PIDFCoefficients pidfOrig = motorExLeft.getPIDFCoefficients(DcMotor.RunMode.RUN_USING_ENCODER);
 
-           // Change coefficients using methods included with DcMotorEx class.
+           // DcMotorEx クラスに含まれるメソッドを使用して係数を変更
            PIDFCoefficients pidfNew = new PIDFCoefficients(NEW_P, NEW_I, NEW_D, NEW_F);
            motorExLeft.setPIDFCoefficients(DcMotor.RunMode.RUN_USING_ENCODER, pidfNew);
 
-           // Re-read coefficients and verify change.
+           // 係数を再読み取りして変更を確認
            PIDFCoefficients pidfModified = motorExLeft.getPIDFCoefficients(DcMotor.RunMode.RUN_USING_ENCODER);
 
-           // display info to user
+           // ユーザーに情報を表示
            while(opModeIsActive()) {
                telemetry.addData("Runtime (sec)", "%.01f", getRuntime());
                telemetry.addData("P,I,D,F (orig)", "%.04f, %.04f, %.04f, %.04f",
@@ -79,77 +68,56 @@ to save data from your app onto an Android device
        }
    }
 
-Note that the actual change of the PIDF coefficients occurs **on the
-motor controller** that is controlling the selected motor. An alternate
-way to adjust the PIDF coefficients is to use the extended/enhanced
-**PIDF-related methods of the DcMotorControllerEx class**, as follows:
 
-.. code-block:: java
+PIDF 制御とは？
+------------------------
 
-   package org.firstinspires.ftc.teamcode;
+PIDF（比例-積分-微分-フィードフォワード）制御は、PID 制御の拡張版で、フィードフォワード（F）項が追加されています。フィードフォワード項は、システムのダイナミクスの既知の情報に基づいて制御出力を予測的に調整し、応答性と精度を向上させます。
 
-   import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-   import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-   import com.qualcomm.robotcore.hardware.DcMotor;
-   import com.qualcomm.robotcore.hardware.DcMotorControllerEx;
-   import com.qualcomm.robotcore.hardware.DcMotorEx;
-   import com.qualcomm.robotcore.hardware.PIDFCoefficients;
+**PIDF 係数の説明：**
 
-   /**
-    * Created by Tom on 9/26/17.  Updated 9/24/2021 for PIDF.
-    * This assumes that you are using a REV Robotics Control Hub or REV Robotics Expansion Hub
-    * as your DC motor controller.  This OpMode uses the extended/enhanced
-    * PIDF-related functions of the DcMotorControllerEx class.
-    */
+- **P（比例）**: 現在の誤差に比例する制御出力を生成します。
 
-   @Autonomous(name="Concept: Change PIDF Controller", group = "Concept")
-   public class ConceptChangePIDFController extends LinearOpMode {
+- **I（積分）**: 時間の経過とともに蓄積された誤差に基づいて制御出力を生成します。
 
-       // our DC motor
-       DcMotor motorLeft;
+- **D（微分）**: 誤差の変化率に基づいて制御出力を生成します。
 
-       public static final double NEW_P = 2.5;
-       public static final double NEW_I = 0.1;
-       public static final double NEW_D = 0.2;
-       public static final double NEW_F = 0.5;
-       // These values are for illustration only; they must be set
-       // and adjusted for each motor based on its planned usage.
+- **F（フィードフォワード）**: システムの既知の特性（重力、摩擦など）を補償するための追加の制御出力を提供します。フィードフォワード項は、望ましい速度または位置を達成するために必要な出力を予測するのに役立ちます。
 
-       public void runOpMode() {
-           // get reference to DC motor.
-           motorLeft = hardwareMap.get(DcMotor.class, "left_drive");
 
-           // wait for start command.
-           waitForStart();
+PIDF 係数の調整
+-------------------------
 
-           // Get a reference to the motor controller and cast it as an extended functionality controller.
-           // We assume it's a REV Robotics Control Hub or REV Robotics Expansion Hub, which supports the extended controller functions.
-           DcMotorControllerEx motorControllerEx = (DcMotorControllerEx)motorLeft.getController();
+PIDF 係数の調整は、PID 調整と似ていますが、フィードフォワード項が追加されています：
 
-           // Get the port number of our configured motor.
-           int motorIndex = ((DcMotorEx)motorLeft).getPortNumber();
+1. PID 係数を調整します（前述の PID セクションを参照）。
+2. F 係数を追加して、定常状態のパフォーマンスを向上させます。
+3. F 値は通常、望ましい速度を達成するために必要なモーター電力に基づいて計算されます。
+4. 実験を通じて F 値を微調整して、最適なパフォーマンスを達成します。
 
-           // Get the PIDF coefficients for the RUN_USING_ENCODER RunMode.
-           PIDFCoefficients pidfOrig = motorControllerEx.getPIDFCoefficients(motorIndex, DcMotor.RunMode.RUN_USING_ENCODER);
+**注意**: PIDF 調整は高度なトピックであり、モーター制御システムの深い理解が必要です。
 
-           // change coefficients
-           PIDFCoefficients pidfNew = new PIDFCoefficients(NEW_P, NEW_I, NEW_D, NEW_F);
-           motorControllerEx.setPIDFCoefficients(motorIndex, DcMotor.RunMode.RUN_USING_ENCODER, pidfNew);
 
-           // Re-read coefficients and verify change.
-           PIDFCoefficients pidfModified = motorControllerEx.getPIDFCoefficients(motorIndex, DcMotor.RunMode.RUN_USING_ENCODER);
+PID と PIDF の使い分け
+----------------------------
 
-           // Display info to user.
-           while(opModeIsActive()) {
-               telemetry.addData("Runtime (sec)", "%.01f", getRuntime());
-               telemetry.addData("P,I,D,F (orig)", "%.04f, %.04f, %.04f, %.04f",
-                       pidfOrig.p, pidfOrig.i, pidfOrig.d, pidfOrig.f);
-               telemetry.addData("P,I,D,F (modified)", "%.04f, %.04f, %.04f, %.04f",
-                       pidfModified.p, pidfModified.i, pidfModified.d, pidfModified.f);
-               telemetry.update();
-           }
-       }
-   }
+- **PID** は、ほとんどの基本的なモーター制御アプリケーションに適しています。
+- **PIDF** は、より高い精度と応答性が必要な高度なアプリケーションに推奨されます。
+- フィードフォワード項（F）は、既知のシステムダイナミクス（重力、摩擦など）を補償する場合に特に役立ちます。
 
-Note: As of SDK 7.0, the former PID-only methods are still
-available, but deprecated.
+
+デフォルトの PIDF 値
+----------------------
+
+**REV Robotics Control Hub** および **Expansion Hub** には、各モーターチャネルのデフォルト PIDF 値があります。これらのデフォルト値は、ほとんどのアプリケーションでうまく機能しますが、特定の要件に基づいて調整できます。
+
+
+追加リソース
+---------------------
+
+PIDF 制御の詳細については、次のリソースを参照してください：
+
+- `Wikipedia: PID Controller <https://en.wikipedia.org/wiki/PID_controller>`__
+- `Feed-Forward Control <https://www.ni.com/en-us/innovations/white-papers/06/pid-theory-explained.html>`__
+- `FIRST Tech Challenge フォーラム <https://ftc-community.firstinspires.org/>`__
+- `REV Robotics ドキュメント <https://docs.revrobotics.com/>`__

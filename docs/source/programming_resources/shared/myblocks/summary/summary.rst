@@ -1,28 +1,12 @@
-Summary: Benefits of myBlocks
+まとめ：**myBlocks** の利点
 =============================
 
-1. MyBlocks now provide access to the full range of Java in the 
-   Software Development Kit (SDK). Blocks programming can now perform
-   tasks **previously unavailable** to Blocks-only teams. This now
-   includes :ref:`External
-   Libraries <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external 
-   libraries in onbot java and blocks>`.
+1. **myBlocks** により、ソフトウェア開発キット（**SDK**）の Java の全機能にアクセスできるようになりました。**Blocks** プログラミングで、**Blocks** のみのチームには**以前は利用できなかった**タスクを実行できるようになりました。これには :ref:`外部ライブラリ <programming_resources/shared/external_libraries_blocks/external-libraries-blocks:external libraries in onbot java and blocks>` が含まれます。
 
-2. MyBlocks can neatly package previously **long or complex Functions**
-   in Blocks.
+2. **myBlocks** は、以前は **Blocks** で**長く複雑だった関数**をきちんとパッケージ化できます。
 
-3. MyBlocks programming allows some team members to begin learning and
-   using Java, contributing valuable new features. The other team
-   members can continue learning and working in Blocks, producing the
-   team’s official code. Nobody is held back, or left behind.
+3. **myBlocks** プログラミングにより、一部のチームメンバーが Java の学習と使用を開始し、貴重な新機能に貢献できるようになります。他のチームメンバーは **Blocks** での学習と作業を続け、チームの公式コードを作成できます。誰も足を引っ張られたり、取り残されたりすることはありません。
 
-4. MyBlocks can be created with **OnBot Java**, which runs on the RC
-   phone or Control Hub. Building and testing are very fast. Many 
-   teams do not have easy access to Android Studio, for reasons
-   including school computers that prevent software installation.
+4. **myBlocks** は、RC スマートフォンまたは **Control Hub** 上で実行される **OnBot Java** で作成できます。ビルドとテストは非常に高速です。多くのチームは、学校のコンピューターでソフトウェアのインストールが禁止されているなどの理由で、**Android Studio** に簡単にアクセスできません。
 
-5. By developing and sharing myBlocks, experienced teams could **help new
-   teams** in a more direct way, beyond simply posting a link to their Java
-   library. The *FIRST* Tech Challenge community might ultimately benefit from
-   a curated repository for tested, well documented myBlocks.  Perhaps the
-   “Blocks Store”?
+5. **myBlocks** を開発および共有することで、経験豊富なチームは、単に Java ライブラリへのリンクを投稿する以上に、**新しいチームを支援**できます。**FIRST** **Tech Challenge** コミュニティは、最終的には、テスト済みで十分に文書化された **myBlocks** の厳選されたリポジトリから恩恵を受ける可能性があります。おそらく「**Blocks Store**」でしょうか？

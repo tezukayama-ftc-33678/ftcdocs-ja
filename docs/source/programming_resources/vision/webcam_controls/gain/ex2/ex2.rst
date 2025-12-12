@@ -1,38 +1,31 @@
-Example 2: Gain’s effect on TFOD
+例2：ゲインの TFOD への影響
 --------------------------------
 
-Now we adjust only gain. We set Exposure to a fixed value of 15,
-selected because it was a poor performer in Example 1. **Can gain
-help?**
+次に、ゲインのみを調整します。露出を 15 の固定値に設定します。これは、例1でパフォーマンスが悪かったため選択されました。**ゲインは役立ちますか？**
 
 .. figure:: images/300-Exp15Gain000-to-035.png
    :align: center
 
-   Exp 15, Gain 000 -> 035
+   露出 15、ゲイン 000 -> 035
 
 .. figure:: images/310-Exp15Gain040-to-060.png
    :align: center
 
-   Exp 15, Gain 040 -> 060
+   露出 15、ゲイン 040 -> 060
 
 .. figure:: images/330-Exp15Gain070-to-100.png
    :align: center
 
-   Exp 15, Gain 070 -> 100
+   露出 15、ゲイン 070 -> 100
 
 
-Five fresh readings were taken at each gain setting.
+各ゲイン設定で5回の新しい読み取りが行われました。
 
 .. figure:: images/350-chart-exposure=15.png
    :align: center
 
-   Five readings at each gain level
+   各ゲインレベルでの5回の読み取り
 
-Higher gain does improve recognition, then performance declines. Then at
-higher levels, this TFOD model begins to “see” a Cube, not a Duck. The
-gain effect was similar to the exposure effect.
+ゲインを高くすると認識が向上しますが、その後パフォーマンスが低下します。その後、より高いレベルでは、この **TFOD** モデルは Duck ではなく Cube を「見る」ようになります。ゲインの効果は露出の効果と似ていました。
 
-These two charts suggest that TFOD results are affected by, and can
-perhaps be optimized by, setting specific values for exposure and gain.
-A team should compare this with the default or automatic performance of
-their robot and webcam, in the full range of expected match conditions.
+これら2つのチャートは、**TFOD** の結果が影響を受け、露出とゲインの特定の値を設定することで最適化できる可能性があることを示唆しています。チームは、これを予想される試合条件の全範囲で、ロボットと Webcam のデフォルトまたは自動パフォーマンスと比較する必要があります。

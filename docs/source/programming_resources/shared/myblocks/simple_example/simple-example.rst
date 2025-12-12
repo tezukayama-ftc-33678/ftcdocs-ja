@@ -1,65 +1,35 @@
-Simple Example: create myGreeting
+シンプルな例：**myGreeting** の作成
 =================================
 
-Start with a simple myBlock that creates a greeting “Hello World” (of
-course!).
+「Hello World」（もちろん！）という挨拶を作成するシンプルな **myBlock** から始めます。
 
-Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone.
-Go to the address **http://192.168.43.1:8080** (CH) or
-**http://192.168.49.1:8080** (RC), and click the **OnBot Java** tab.
+Wi-Fi 経由で **Control Hub** または RC スマートフォンに接続された Chrome ブラウザーを開きます。アドレス **http://192.168.43.1:8080**（CH）または **http://192.168.49.1:8080**（RC）にアクセスし、**OnBot Java** タブをクリックします。
 
-.. note:: A computer can usually connect to only one Wi-Fi network at a
-   time. To follow this tutorial while programming please use the PDF version 
-   of FTC Docs. If you need internet and programming together,
-   connect an Ethernet cable to an internet router **or** try adding a
-   USB Wi-Fi dongle.
+.. note:: コンピューターは通常、一度に1つの Wi-Fi ネットワークにのみ接続できます。プログラミング中にこのチュートリアルに従うには、FTC Docs の PDF バージョンを使用してください。インターネットとプログラミングを同時に必要とする場合は、イーサネットケーブルをインターネットルーターに接続する**か**、USB Wi-Fi ドングルを追加してみてください。
 
-Click the large **plus-sign icon** to open a new file; call it
-**SampleMyBlocks.java**. Use the default ‘teamcode’ folder location.
-Don’t choose a Sample OpMode, and use the default setting ‘Not an
-OpMode’. Click OK.
+大きな**プラス記号アイコン**をクリックして新しいファイルを開きます。**SampleMyBlocks.java** と呼びます。デフォルトの「teamcode」フォルダーの場所を使用します。Sample OpMode を選択せず、デフォルト設定の「Not an OpMode」を使用します。OK をクリックします。
 
 .. image:: images/a0120-Hello-OBJ-circle.png
 
-In the work area you see a simple/empty Java program.
+作業領域にシンプル/空の Java プログラムが表示されます。
 
 .. image:: images/a0130-Hello-OBJ-empty.png
 
-Line 1 shows the default storage folder ‘teamcode’, and Line 4 shows the
-**class name**, same as the filename. It’s ``public`` so other classes
-can access it. Notice the **left curly brace** at Line 4 and **right
-curly brace** at Line 7. Place all your code between these curly braces.
+1行目はデフォルトのストレージフォルダー「teamcode」を示し、4行目は**クラス名**を示します（ファイル名と同じ）。これは ``public`` なので、他のクラスがアクセスできます。4行目の**左中括弧**と7行目の**右中括弧**に注意してください。すべてのコードをこれらの中括弧の間に配置します。
 
-The two forward-slash marks **//** indicate a **comment line**, all
-ignored by the Java software. Good programmers use lots of comments, to
-communicate with your teammates and with **your future self**! You
-will not remember every little detail of your programs… and will thank
-yourself later for commenting heavily!
+2つの順スラッシュマーク **//** は**コメント行**を示し、すべて Java ソフトウェアによって無視されます。優れたプログラマーは、チームメイトや**将来の自分**とコミュニケーションをとるために、多くのコメントを使用します！プログラムのすべての細部を覚えているわけではありません…大量にコメントを付けたことに後で感謝するでしょう！
 
-   Programming note: A **class** describes **methods** (actions) and
-   **fields** (properties) that can be used by **objects** (examples or
-   **instances** of the class). A class called ‘dogs’ might contain
-   methods ‘run’ and ‘sleep’, and fields ‘friendliness’ and ‘appetite’.
-   Your pets Spot and Rover would be objects or instances of the ‘dogs’
-   class.
+   プログラミングに関する注意：**class** は、**objects**（クラスの例または**インスタンス**）で使用できる**メソッド**（アクション）と**フィールド**（プロパティ）を記述します。「dogs」というクラスには、メソッド「run」と「sleep」、およびフィールド「friendliness」と「appetite」が含まれる場合があります。ペットの Spot と Rover は、「dogs」クラスのオブジェクトまたはインスタンスです。
 
-After the class name, type ``extends BlocksOpModeCompanion``. This
-declares your new class as a **subclass** or **child** of a higher
-**superclass** or **parent**. The parent class BlocksOpModeCompanion
-contains useful tools to be **inherited** by your new subclass.
+クラス名の後に、``extends BlocksOpModeCompanion`` と入力します。これは、新しいクラスを、より高い**スーパークラス**または**親**の**サブクラス**または**子**として宣言します。親クラス **BlocksOpModeCompanion** には、新しいサブクラスによって**継承**される便利なツールが含まれています。
 
 .. image:: images/a0140-Hello-OBJ-extends-circle.png
 
-When you enter that line, the OBJ software **automatically** creates an
-``import`` statement, making the parent class available. Convenient!
+その行を入力すると、OBJ ソフトウェアは**自動的**に ``import`` 文を作成し、親クラスを使用可能にします。便利です！
 
-   Programming note: classes inherited from BlocksOpModeCompanion
-   include OpMode, LinearOpMode, Telemetry, HardwareMap, and Gamepad.
-   All very useful! Your myBlock method can directly use **objects** or
-   **instances** of these classes without declaring them. Examples
-   follow below.
+   プログラミングに関する注意：**BlocksOpModeCompanion** から継承されたクラスには、**OpMode**、**LinearOpMode**、**Telemetry**、**HardwareMap**、および **Gamepad** が含まれます。すべて非常に便利です！**myBlock** メソッドは、これらのクラスの**オブジェクト**または**インスタンス**を宣言せずに直接使用できます。以下に例を示します。
 
-Inside the curly braces, type new lines as follows:
+中括弧内に、次のように新しい行を入力します：
 
 .. code:: java
 
@@ -69,15 +39,11 @@ Inside the curly braces, type new lines as follows:
           parameterLabels = {"Recipient"}
    )
 
-These are optional labels to appear on your new myBlock; you’ll see
-below. Even if you don’t want to use any of these features, you still
-need the **annotation** line ``@ExportToBlocks``.
+これらは、新しい **myBlock** に表示されるオプションのラベルです。以下で説明します。これらの機能のいずれも使用したくない場合でも、**アノテーション**行 ``@ExportToBlocks`` は必要です。
 
-When you typed that annotation, OBJ automatically added the ``import``
-statement.
+そのアノテーションを入力すると、OBJ は自動的に ``import`` 文を追加しました。
 
-Now you’re ready to create the method, namely your first myBlock. Type
-the following lines:
+これで、メソッド、つまり最初の **myBlock** を作成する準備が整いました。次の行を入力します：
 
 .. code:: java
 
@@ -85,91 +51,63 @@ the following lines:
           return ("Hello " + greetingRecipient + "!");
    }
 
-The method’s name is ``myGreeting``. It is a ``public`` method, so it
-can be used or **called** from other classes. And it’s a ``static``
-method, required for all myBlock methods.
+メソッドの名前は ``myGreeting`` です。これは ``public`` メソッドなので、他のクラスから使用または**呼び出す**ことができます。そして、これは ``static`` メソッドで、すべての **myBlock** メソッドに必要です。
 
-The first usage of the word ``String`` indicates the method gives or
-**returns** one **output** of type String or text. The second usage is
-inside the parentheses, indicating the method takes one **input** named
-``greetingRecipient``, also of type String.
+このメソッドには、1つの入力または**パラメーター**があり、タイプは ``String``（テキスト）で、名前は ``greetingRecipient`` です。これは、挨拶の対象者または対象グループです。
 
-   Programming note: the method’s name and list of parameters (inside
-   the parentheses) is together called the **method signature**.
+メソッドには、1つの出力または**戻り値**もあります。タイプは ``String``（テキスト）です。出力値は、``return`` コマンドで記述されているように、文字「Hello」、続いてスペース、続いて入力されたパラメーター、続いて感嘆符です。
 
-The method contains only one line of instruction, on Line 15: **three
-text items are joined to form a single text string**. The middle text
-item is the input parameter greetingRecipient, to be entered by the
-Blocks user. The longer combined string is returned to the program that
-called this method. Namely, the combined string is provided to the Block
-that uses your new myBlock.
+プログラムで、キーワード ``return`` が最初の文字位置にあることに注意してください。このサンプルではインデント（タブ）が使用されており、複数のレベルの中括弧がある場合にコードを読みやすくします。
 
-.. image:: images/a0150-Hello-OBJ-full-arrows.png
+また、プラス記号 ``+`` が3つのテキスト要素を結合または**連結**して、単一の ``String`` を形成していることにも注意してください。
 
-That’s it for the Java! Click the wrench icon to **Build Everything**
-including your new class. If there are error messages, read carefully
-and fix any mistakes. When you see “Build Successful!”, your new myBlock
-is ready to use.
+**コードは完成しました！**全体は次のようになります：
 
-.. dropdown:: Example Code
+.. image:: images/a0150-Hello-OBJ-complete-circle.png
 
-   :download:`SampleMyBlocks_v00.java <opmodes/SampleMyBlocks_v00.java>`
+左上隅の Build Everything ボタンをクリックします。
 
-   .. literalinclude:: opmodes/SampleMyBlocks_v00.java
+.. image:: images/a0160-Build-OBJ.png
+
+正常にビルドされるはずです。エラーがある場合は、上記のコードとまったく同じようにタイプミスがないか注意深く確認してください。大文字と小文字を区別し、引用符、セミコロン、中括弧を区別します。
+
+正常にビルドされたら、**OnBot Java** から Chrome ブラウザーの **Blocks** タブに移動します。**Create New Op Mode** を選択するか、既存の OpMode を開いて編集します。
+
+左側のメニューツールボックスで、**Java Classes** タブを選択します。
+
+.. image:: images/a0170-Hello-Blocks-menu.png
+
+**SampleMyBlocks** サブメニューをクリックすると、新しい **myBlock** が表示されます！
+
+.. image:: images/a0180-Hello-Blocks-found.png
+
+**myBlock** を作業領域にドラッグすると、入力ソケットにカーソルを合わせると、**ツールチップ**「Greet a person or group.」が表示されます。
+
+.. image:: images/a0190-Hello-Blocks-tooltip.png
+
+青い疑問符アイコンをクリックすると、**コメント**「Here is a greeting for you.」が表示されます。
+
+.. image:: images/a0200-Hello-Blocks-comment.png
+
+カスタムラベル「Recipient」が、灰色の入力ソケットの左側に表示されます。これらのオプション機能はすべて、Java コードのアノテーション ``@ExportToBlocks`` から取得されます。
+
+ここで、このシンプルな **myBlock** の動作を確認するために、2つのコマンドで **Blocks** プログラムを作成できます：
+
+.. image:: images/a0210-Hello-Blocks-complete.png
+
+任意のテキストを入力できます。ボタン ``ABC`` をクリックして、それを入力します。この例では「World」を使用しています。
+
+OpMode を保存して実行すると、**Driver Station** に挨拶が表示されます！
+
+**おめでとうございます - 最初の myBlock が完成しました！**
+
+.. note:: このチュートリアルでは、上記の Java コードを**手動で入力**することを意図しています。この例の事前入力されたテキストが必要な場合は、以下をクリックしてください。リンクされたコピーには、通常のクラス宣言とパッケージ/インポート文が含まれています。
+
+.. dropdown:: サンプルコード
+
+   :download:`SampleMyBlocks.java <opmodes/SampleMyBlocks.java>`
+
+   .. literalinclude:: opmodes/SampleMyBlocks.java
       :language: java
 
-Simple Example: run myGreeting
-==============================
-
-In the browser still connected to the RC phone or Control Hub, - click
-the **Blocks** tab - click **Create New OpMode**, name it
-**Test_myBlocks_v01** - use the default Sample, called **BasicOpMode** -
-click **OK**
-
-.. image:: images/a0160-Hello-run-create-arrow.png
-
-You will now see a new menu choice at the bottom, called **Java
-Classes**. Open that, to see the class you created, called
-SampleMyBlocks. Click that, and drag your new myBlock out to the work
-area.
-
-.. image:: images/a0170-Hello-run-menu-arrows.png
-
-This myBlock has one grey input field or **socket**, containing the
-letter A to indicate a String or text input. Type the greeting
-recipient, **World**.
-
-To display the myBlock’s String or text output, look under **Utilities**
-for the **Telemetry** menu. Drag out the **Telemetry.addData** Block
-that **displays text** (not numbers).
-
-In the ``key`` socket, type ``A greeting for you``. At the
-``text`` socket, drag and connect your new myBlock. The myBlock’s
-**text output** will be read and displayed by the **text** version of
-the Telemetry.addData Block.
-
-.. image:: images/a0180-Hello-run-telemetry-circle.png
-
-Place these Blocks in the **repeat while** (loop) section of your
-OpMode, before **Telemetry.update**. Click **Save OpMode**.
-
-.. image:: images/a0190-Hello-run-OpMode-circle.png
-
-On a connected Driver Station device, select this OpMode called
-Test_myBlocks_v01, touch **INIT** and the **Start Arrow**. Look at the
-Driver Station (DS) screen to see the traditional greeting for new
-programmers.
-
-.. image:: images/a0200-Hello-run-screenshot-circle.png
-
-\ **Congratulations!** You are now an OnBot Java programmer and myBlocks
-creator.
-
-   For extra fun: try the **Telemetry.speak** Block, followed by a 1500
-   millisecond ``.sleep`` Block. You can learn more about DS spoken
-   telemetry at `this separate
-   tutorial <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Driver-Station-Speech-Telemetry>`__.
-
-This tutorial has three more sections with myBlocks guidelines, followed
-by **six examples** for you to re-type in OnBot Java and test in Blocks.
-Enjoy!
+次の例では、上記の Java クラスにより多くの **myBlock** メソッドを追加します。それらは、ここで作成した SampleMyBlocks.java ファイルを編集して追加されます。

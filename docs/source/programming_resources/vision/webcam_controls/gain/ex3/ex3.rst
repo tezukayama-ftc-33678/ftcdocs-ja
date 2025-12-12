@@ -1,16 +1,12 @@
-Example 3: An odd preview
+例3：奇妙なプレビュー
 -------------------------
 
 .. figure:: images/400-Duck-in-Dark.png
    :align: center
 
-   Did TFOD make this recognition?
+   **TFOD** はこの認識を行いましたか？
 
 
-How can this be? Answer: this image was not an ‘instant’ result.
-Exposure was reduced very low, **after** TFOD had recognized the Duck.
+これはどうしてでしょうか？答え：この画像は「instant」の結果ではありませんでした。**TFOD** が Duck を認識した**後**、露出が非常に低く減らされました。
 
-The implementations of TensorFlow Lite (and Vuforia) are good at
-**tracking** a currently-identified object (or image) through
-translation, rotation, partial blockage, and even extreme changes in
-exposure.
+**TensorFlow Lite**（および **Vuforia**）の実装は、現在識別されているオブジェクト（または画像）を、平行移動、回転、部分的なブロッキング、さらには露出の極端な変化を通じて**追跡**するのが得意です。

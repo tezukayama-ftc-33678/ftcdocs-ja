@@ -1,102 +1,66 @@
-Phone Pairing
+スマートフォンのペアリング
 =============
 
-Introduction
+はじめに
 ------------
 
-The Robot Controller and Driver Station apps are extremely
-reliable for pairing, including between **all models of legal
-phones**. Please see the `Competition Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__
-for list of phone models currently legal to use at *FIRST*
-Tech Challenge events.
+**Robot Controller** および **Driver Station** アプリは、**すべてのモデルの合法的なスマートフォン**間を含め、ペアリングにおいて非常に信頼性があります。**FIRST** **Tech Challenge** イベントで現在使用が合法的なスマートフォンモデルのリストについては、`Competition Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__ を参照してください。
 
-When the Android phones have been suitably prepared, pairing via Wi-Fi
-Direct is **fast** and usually **automatic**. Here is a procedure that
-addresses various **pre-existing conditions** that can impede pairing.
+Android スマートフォンが適切に準備されている場合、Wi-Fi Direct 経由のペアリングは**高速**で、通常は**自動**です。ここでは、ペアリングを妨げる可能性のあるさまざまな**既存の条件**に対処する手順を示します。
 
-This article does not cover the REV Control Hub or REV Driver Hub.
+この記事では、**REV Control Hub** または **REV Driver Hub** については説明していません。
 
-Phone Cleanup and Prep
+スマートフォンのクリーンアップと準備
 ----------------------
 
-1. On RC phone: if needed, select Settings/Accounts/Google/select/3 dots/Remove
-   account/confirm. Repeat for any other accounts. Also remove any non-*FIRST*
-   Tech Challenge apps/games that might run in the background or attempt
-   updates.
+1. RC スマートフォン：必要に応じて、Settings/Accounts/Google/select/3 dots/Remove account/confirm を選択します。他のアカウントについても繰り返します。また、バックグラウンドで実行されたり、更新を試みたりする可能性のある、**FIRST** **Tech Challenge** 以外のアプリ/ゲームを削除します。
 
-2. On RC phone: force quit (swipe away) all apps, including the RC app.
+2. RC スマートフォン：RC アプリを含むすべてのアプリを強制終了（スワイプして削除）します。
 
-3. RC phone, Apps/Settings/Wi-Fi. Manually select and Forget any saved
-   Networks.
+3. RC スマートフォン、Apps/Settings/Wi-Fi。保存されているネットワークを手動で選択して忘れます。
 
-4. RC phone, still in WiFi menu: navigate to Wi-Fi Direct menu (via More
-   Settings or Advanced).
+4. RC スマートフォン、まだ WiFi メニュー内：Wi-Fi Direct メニューに移動します（More Settings または Advanced 経由）。
 
--  Select and forget/disconnect any connections with Peer Devices,
-   including the current phone pairing. This may take a few tries;
-   OK to give up if disconnect not acknowledged.
+-  Peer Devices との接続を選択して忘れる/切断します。これには現在のスマートフォンのペアリングが含まれます。これには数回の試行が必要な場合があります。切断が確認されない場合は、あきらめても問題ありません。
 
-   -  If the top item shows ‘Created Group’, Disconnect it.
-   -  If you inadvertently create an Invitation pop-up on the other
-      phone, Decline on the other phone and Cancel on this phone. In
-      rare cases, the Invite prompt is underneath any open windows on
-      the RC phone.
-   -  Pairing will be done later in the apps; see below.
+   -  最上部の項目に「Created Group」と表示されている場合は、切断します。
+   -  誤って他のスマートフォンで招待ポップアップを作成した場合は、他のスマートフォンで Decline し、このスマートフォンで Cancel します。まれに、招待プロンプトが RC スマートフォンの開いているウィンドウの下にある場合があります。
+   -  ペアリングは後でアプリで行われます。以下を参照してください。
 
--  Select and Forget all Remembered Groups, including ANY phone
-   pairings. (This can also be done from Advanced RC Settings from
-   either app.) Your goal after steps d1 and d2: ‘Not visible’, no
-   ‘Peer devices’, no ‘Remembered groups’.
+-  ANY スマートフォンのペアリングを含むすべての Remembered Groups を選択して忘れます。（これは、いずれかのアプリから Advanced RC Settings から実行することもできます。）ステップ d1 と d2 の後の目標：「Not visible」、「Peer devices」なし、「Remembered groups」なし。
 
--  If needed, Rename/Configure the phone to a legal name,
-   per the `Competition Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__
-   (This can also be done from Settings in each app.)
+-  必要に応じて、`Competition Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__ に従って、スマートフォンを合法的な名前に Rename/Configure します（これは、各アプリの Settings から実行することもできます。）
 
--  Configure device/Limit 2 devices,
-   ‘Inactivity timeout’ Never, check box ‘Auto connect remembered
-   groups’. (Note: timeout is not persistent, re-check occasionally.)
+-  Configure device/Limit 2 devices、「Inactivity timeout」Never、チェックボックス「Auto connect remembered groups」。（注：timeout は永続的ではないため、時々再確認してください。）
 
-5. Force quit to device home screen. Swipe down twice from top, do this
-   in order:
+5. デバイスのホーム画面に強制終了します。上から2回スワイプして、次の順序で実行します：
 
 -  Airplane Mode ON
--  Wi-Fi ON (usually toggles off when Airplane Mode is turned on), then
-   Done
+-  Wi-Fi ON（通常、Airplane Mode がオンになると切り替わります）、次に Done
 -  Bluetooth OFF
--  Location OFF, only for Android 7.x
+-  Location OFF、Android 7.x のみ
 
-6. repeat above steps on DS phone.
+6. DS スマートフォンで上記の手順を繰り返します。
 
 
-Pairing
+ペアリング
 -------
 
-1. On RC phone: open the current season’s RC app. Check
-   Self Inspect for any RC issues.
+1. RC スマートフォン：現在のシーズンの RC アプリを開きます。Self Inspect で RC の問題を確認します。
 
-2. On DS phone: open the current season’s DS app. Check Self Inspect 
-   for any DS issues.
+2. DS スマートフォン：現在のシーズンの DS アプリを開きます。Self Inspect で DS の問題を確認します。
 
-3. On DS phone: Menu (3 dots)/Settings. Confirm ‘Pairing Method’ is
-   Wi-Fi Direct. Open ‘Pair with Robot Controller’. (Do not pair using
-   phone/Android menu.)
+3. DS スマートフォン：Menu（3つのドット）/Settings。「Pairing Method」が Wi-Fi Direct であることを確認します。「Pair with Robot Controller」を開きます。（スマートフォン/Android メニューを使用してペアリングしないでください。）
 
-4. Filter can remain on, be patient and wait for the app to find the
-   matching device. Or turn off Filter to see all devices within a few
-   seconds. Choose the corresponding RC phone, touch Back, and Back
-   again to return to the DS home screen.
+4. フィルターはオンのままにして、アプリが一致するデバイスを見つけるまで辛抱強く待ちます。または、フィルターをオフにして数秒以内にすべてのデバイスを表示します。対応する RC スマートフォンを選択し、Back をタッチし、もう一度 Back をタッチして DS ホーム画面に戻ります。
 
-5. Look at RC phone, accept the Invitation there. In rare cases, the
-   Invite prompt is underneath any open windows on the RC phone. Pairing
-   will happen within seconds.
+5. RC スマートフォンを見て、そこで招待を受け入れます。まれに、招待プロンプトが RC スマートフォンの開いているウィンドウの下にある場合があります。ペアリングは数秒以内に行われます。
 
-Summary
+まとめ
 -------
 
-The above procedure may seem long, but it covers conditions that should
-not have been present in the first place. Going forward, pairing will be
-**fast and reliable – usually automatic**.
+上記の手順は長く見えるかもしれませんが、そもそも存在すべきではない状態をカバーしています。今後、ペアリングは**高速で信頼性が高く、通常は自動的に**行われます。
 
 =============
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、修正は westsiderobotics@verizon.net までお願いします。
