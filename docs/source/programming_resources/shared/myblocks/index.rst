@@ -1,4 +1,4 @@
-Custom Blocks (myBlocks)
+カスタムブロック（**myBlocks**）
 =============================
 
 .. toctree::
@@ -18,9 +18,8 @@ Custom Blocks (myBlocks)
    ideas/ideas
    summary/summary
 
-Hats off to Google engineer `Liz
-Looney <https://github.com/lizlooney>`__ for this major development!
+この重要な開発を行った Google エンジニアの `Liz Looney <https://github.com/lizlooney>`__ さんに敬意を表します！
 
 ====================================================================
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、修正は westsiderobotics@verizon.net までお願いします。

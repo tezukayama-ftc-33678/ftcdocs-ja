@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-12 06:54:52
+**生成日時:** 2025-12-12 07:00:52
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 103 (40.4%)
-- **部分的に翻訳:** 4 (1.6%)
-- **未翻訳:** 148 (58.0%)
+- **翻訳完了:** 104 (40.8%)
+- **部分的に翻訳:** 5 (2.0%)
+- **未翻訳:** 146 (57.3%)
 
-**進捗:** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 40.4%
+**進捗:** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 40.8%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **103個**
+完全に日本語化されているファイル: **104個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -101,6 +101,7 @@
 - `programming_resources/blocks/intro/intro.rst`
 - `programming_resources/blocks/opmode/opmode.rst`
 - `programming_resources/blocks/reference/reference.rst`
+- `programming_resources/index.rst`
 - `programming_resources/onbot_java/OnBot-Java-Tutorial.rst`
 - `programming_resources/onbot_java/config/config.rst`
 - `programming_resources/onbot_java/connecting/connecting.rst`
@@ -141,7 +142,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **4個**
+英語が残っているファイル: **5個**
 
 ### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
@@ -253,11 +254,20 @@
 
 ... 他 1 件の問題
 
+### `ftc_sdk/updating/rc_app/Updating-the-RC-App.rst`
+
+**問題箇所:** 1件
+
+- **行 313:** Untranslated English paragraph/sentence
+  ```
+  Questions, comments and corrections to westsiderobotics@verizon.net
+  ```
+
 ---
 
 ## 📝 未翻訳ファイル
 
-日本語が含まれていないファイル: **148個**
+日本語が含まれていないファイル: **146個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -316,7 +326,6 @@
 - `contrib/tutorials/tasks/tasks.rst`
 - `contrib/tutorials/update_fork/update-fork.rst`
 - `ftc_docs/form/form.rst`
-- `ftc_sdk/updating/rc_app/Updating-the-RC-App.rst`
 - `game_specific_resources/blog/blog.rst`
 - `game_specific_resources/field_coordinate_system/field-coordinate-system.rst`
 - `game_specific_resources/ftcqa/ftcqa.rst`
@@ -355,7 +364,6 @@
 - `manufacturing/3d_printing/troubleshooting/troubleshooting.rst`
 - `manufacturing/index.rst`
 - `programming_resources/imu/imu.rst`
-- `programming_resources/index.rst`
 - `programming_resources/laptops/laptops.rst`
 - `programming_resources/shared/auto_load_opmode/auto-load-opmode.rst`
 - `programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst`
