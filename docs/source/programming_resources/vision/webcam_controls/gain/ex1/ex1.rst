@@ -1,65 +1,41 @@
-Example 1: Exposure’s effect on TFOD
+例1：露出の TFOD への影響
 ------------------------------------
 
-We interrupt this tutorial to demonstrate the two webcam interfaces
-described so far: ExposureControl and GainControl.
+このチュートリアルを中断して、これまでに説明した2つの Webcam インターフェイス：**ExposureControl** と **GainControl** を実証します。
 
-These 2 examples assume you are already using TensorFlow Object
-Detection (TFOD) in the Freight Frenzy game. Namely you have a TFOD
-model and OpMode that are working reasonably well.
-Here we will discuss only the Duck game element. **Can the exposure
-and/or gain controls improve the chance of a fast, accurate TFOD
-detection?**
+これらの2つの例では、**Freight Frenzy** ゲームで **TensorFlow Object Detection (TFOD)** を既に使用していることを前提としています。つまり、**TFOD** モデルと、適度にうまく機能する **OpMode** があります。ここでは、Duck ゲームエレメントのみについて説明します。**露出および/またはゲイン制御により、高速で正確な TFOD 検出の可能性が向上しますか？**
 
-Another way to frame this effort is: can these controls simulate the
-lighting conditions used for TFOD model training? Namely, if the
-competition field has different lighting that affects recognition, can
-you achieve close to **your original (trained) TFOD performance**?
+この取り組みを別の方法でフレーム化すると、これらの制御は **TFOD** モデルトレーニングに使用される照明条件をシミュレートできますか？つまり、競技フィールドに認識に影響を与える異なる照明がある場合、**元の（トレーニング済み）TFOD パフォーマンス**に近い状態を達成できますか？
 
-We first try exposure alone. Setting gain to zero, we apply TFOD to
-webcam images at various exposure values.
+まず、露出のみを試します。ゲインをゼロに設定し、さまざまな露出値で Webcam 画像に **TFOD** を適用します。
 
 .. figure:: images/200-Gain0Exp00-to-20.png
    :align: center
 
-   Gain 0, Exp 0 -> 20
+   ゲイン 0、露出 0 -> 20
 
 .. figure:: images/210-Gain0Exp23-to-40.png
    :align: center
 
-   Gain 0, Exp 23 - > 40
+   ゲイン 0、露出 23 -> 40
 
 .. figure:: images/220-Gain0Exp45-to-55.png
    :align: center
 
-   Gain 0, Exp 45 -> 55
+   ゲイン 0、露出 45 -> 55
 
-**Five fresh readings** were taken at each exposure setting. Namely the
-test OpMode was opened (INIT) each time for a new TFOD initialization
-and webcam image processing.
+各露出設定で**5回の新しい読み取り**が行われました。つまり、テスト **OpMode** が毎回開かれ（INIT）、新しい **TFOD** 初期化と Webcam 画像処理が行われました。
 
-This chart shows TFOD confidence levels; ‘instant’ is defined here as
-recognition within 1 second.
+このチャートは **TFOD** 信頼度レベルを示しています。ここでの「instant」は、1秒以内の認識として定義されています。
 
 
 .. figure:: images/250-chart-gain=0.png
    :align: center
 
-   Five readings at each exposure level
+   各露出レベルでの5回の読み取り
 
-Higher exposure does improve recognition, then performance suddenly
-drops. Then at higher levels, this TFOD model begins to “see” a Cube,
-not a Duck. Not good!
+露出を高くすると認識が向上しますが、その後パフォーマンスが突然低下します。その後、より高いレベルでは、この **TFOD** モデルは Duck ではなく Cube を「見る」ようになります。良くありません！
 
-So, there does seem to be a range of exposure values that gives better
-results. Note the sharp drop-off at both ends of the range: below 25 and
-above 40. In engineering, a **robust** solution can withstand variation.
-Using a value in the middle of the improved range, can reduce the
-effects of unforeseen variation. But this range varies with ambient
-lighting conditions, which may be quite different at the tournament
-venue.
+したがって、より良い結果を提供する露出値の範囲があるようです。範囲の両端での急激な低下に注意してください：25 未満と 40 以上。エンジニアリングでは、**堅牢な**ソリューションは変動に耐えることができます。改善された範囲の中央の値を使用すると、予期しない変動の影響を減らすことができます。ただし、この範囲は周囲の照明条件によって異なり、トーナメント会場では大きく異なる場合があります。
 
-This data is the result of a very particular combination of: webcam
-model (Logitech C270), distance (12 inches), lookdown angle (30
-degrees), TFOD model (SDK 7.0 default), ambient lighting,
-background, etc. **Your results will vary, perhaps significantly.**
+このデータは、Webcam モデル（Logitech C270）、距離（12インチ）、俯角（30度）、**TFOD** モデル（**SDK** 7.0 デフォルト）、周囲照明、背景などの非常に特定の組み合わせの結果です。**結果は、おそらく大幅に異なります。**
