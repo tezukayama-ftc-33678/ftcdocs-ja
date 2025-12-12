@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-12 07:22:49
+**生成日時:** 2025-12-12 07:34:21
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 107 (42.0%)
+- **翻訳完了:** 119 (46.7%)
 - **部分的に翻訳:** 5 (2.0%)
-- **未翻訳:** 143 (56.1%)
+- **未翻訳:** 131 (51.4%)
 
-**進捗:** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 42.0%
+**進捗:** `███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░` 46.7%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **107個**
+完全に日本語化されているファイル: **119個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -114,8 +114,20 @@
 - `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
 - `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
 - `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
+- `programming_resources/shared/myblocks/annotation/annotation.rst`
+- `programming_resources/shared/myblocks/driving_example/driving-example.rst`
+- `programming_resources/shared/myblocks/editing/editing.rst`
+- `programming_resources/shared/myblocks/hardware_example/hardware-example.rst`
+- `programming_resources/shared/myblocks/ideas/ideas.rst`
 - `programming_resources/shared/myblocks/index.rst`
+- `programming_resources/shared/myblocks/intro/intro.rst`
+- `programming_resources/shared/myblocks/method_example/method-example.rst`
+- `programming_resources/shared/myblocks/parameter/parameter.rst`
+- `programming_resources/shared/myblocks/rw_example/rw-example.rst`
+- `programming_resources/shared/myblocks/simple_example/simple-example.rst`
 - `programming_resources/shared/myblocks/summary/summary.rst`
+- `programming_resources/shared/myblocks/telem_example/telem-example.rst`
+- `programming_resources/shared/myblocks/timer_example/timer-example.rst`
 - `programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst`
 - `programming_resources/shared/required_materials/Required-Materials.rst`
 - `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
@@ -270,7 +282,7 @@
 
 ## 📝 未翻訳ファイル
 
-日本語が含まれていないファイル: **143個**
+日本語が含まれていないファイル: **131個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -372,18 +384,6 @@
 - `programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst`
 - `programming_resources/shared/installing_kotlin/Installing-Kotlin.rst`
 - `programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst`
-- `programming_resources/shared/myblocks/annotation/annotation.rst`
-- `programming_resources/shared/myblocks/driving_example/driving-example.rst`
-- `programming_resources/shared/myblocks/editing/editing.rst`
-- `programming_resources/shared/myblocks/hardware_example/hardware-example.rst`
-- `programming_resources/shared/myblocks/ideas/ideas.rst`
-- `programming_resources/shared/myblocks/intro/intro.rst`
-- `programming_resources/shared/myblocks/method_example/method-example.rst`
-- `programming_resources/shared/myblocks/parameter/parameter.rst`
-- `programming_resources/shared/myblocks/rw_example/rw-example.rst`
-- `programming_resources/shared/myblocks/simple_example/simple-example.rst`
-- `programming_resources/shared/myblocks/telem_example/telem-example.rst`
-- `programming_resources/shared/myblocks/timer_example/timer-example.rst`
 - `programming_resources/shared/phone_pairing/phone-pairing.rst`
 - `programming_resources/shared/pid_coefficients/pid-coefficients.rst`
 - `programming_resources/shared/pidf_coefficients/pidf-coefficients.rst`
@@ -459,10 +459,11 @@ python docs/scripts/check_translation_progress.py
 | 英語 | 表記 | 備考 |
 |------|------|------|
 | ON | **ON** | 出現回数: 10 |
+| SDK | **SDK** | 出現回数: 9 |
 | What | **What** | 出現回数: 8 |
 | Expires | **Expires** | 出現回数: 8 |
 | Done | **Done** | 出現回数: 6 |
-| SDK | **SDK** | 出現回数: 6 |
 | Yes | **Yes** | 出現回数: 5 |
+| BlocksOpModeCompanion | **BlocksOpModeCompanion** | 出現回数: 5 |
 ```
 
