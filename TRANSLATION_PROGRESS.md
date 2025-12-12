@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-12 07:00:52
+**生成日時:** 2025-12-12 07:03:27
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 104 (40.8%)
+- **翻訳完了:** 107 (42.0%)
 - **部分的に翻訳:** 5 (2.0%)
-- **未翻訳:** 146 (57.3%)
+- **未翻訳:** 143 (56.1%)
 
-**進捗:** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 40.8%
+**進捗:** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 42.0%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **104個**
+完全に日本語化されているファイル: **107個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -114,6 +114,8 @@
 - `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
 - `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
 - `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
+- `programming_resources/shared/myblocks/index.rst`
+- `programming_resources/shared/myblocks/summary/summary.rst`
 - `programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst`
 - `programming_resources/shared/required_materials/Required-Materials.rst`
 - `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
@@ -134,6 +136,7 @@
 - `programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst`
 - `programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst`
 - `programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst`
+- `programming_resources/vision/webcam_controls/index.rst`
 - `team_resources/team_resources.rst`
 
 </details>
@@ -267,7 +270,7 @@
 
 ## 📝 未翻訳ファイル
 
-日本語が含まれていないファイル: **146個**
+日本語が含まれていないファイル: **143個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -374,13 +377,11 @@
 - `programming_resources/shared/myblocks/editing/editing.rst`
 - `programming_resources/shared/myblocks/hardware_example/hardware-example.rst`
 - `programming_resources/shared/myblocks/ideas/ideas.rst`
-- `programming_resources/shared/myblocks/index.rst`
 - `programming_resources/shared/myblocks/intro/intro.rst`
 - `programming_resources/shared/myblocks/method_example/method-example.rst`
 - `programming_resources/shared/myblocks/parameter/parameter.rst`
 - `programming_resources/shared/myblocks/rw_example/rw-example.rst`
 - `programming_resources/shared/myblocks/simple_example/simple-example.rst`
-- `programming_resources/shared/myblocks/summary/summary.rst`
 - `programming_resources/shared/myblocks/telem_example/telem-example.rst`
 - `programming_resources/shared/myblocks/timer_example/timer-example.rst`
 - `programming_resources/shared/phone_pairing/phone-pairing.rst`
@@ -402,7 +403,6 @@
 - `programming_resources/vision/webcam_controls/gain/ex2/ex2.rst`
 - `programming_resources/vision/webcam_controls/gain/ex3/ex3.rst`
 - `programming_resources/vision/webcam_controls/gain/index.rst`
-- `programming_resources/vision/webcam_controls/index.rst`
 - `programming_resources/vision/webcam_controls/overview/overview.rst`
 - `programming_resources/vision/webcam_controls/ptz/index.rst`
 - `programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst`
@@ -462,6 +462,7 @@ python docs/scripts/check_translation_progress.py
 | What | **What** | 出現回数: 8 |
 | Expires | **Expires** | 出現回数: 8 |
 | Done | **Done** | 出現回数: 6 |
+| SDK | **SDK** | 出現回数: 6 |
 | Yes | **Yes** | 出現回数: 5 |
 ```
 
