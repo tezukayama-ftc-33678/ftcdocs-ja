@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-12 09:41:20
+**生成日時:** 2025-12-12 12:59:20
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 149 (58.4%)
-- **部分的に翻訳:** 5 (2.0%)
+- **翻訳完了:** 150 (58.8%)
+- **部分的に翻訳:** 4 (1.6%)
 - **未翻訳:** 101 (39.6%)
 
-**進捗:** `█████████████████████████████░░░░░░░░░░░░░░░░░░░░░` 58.4%
+**進捗:** `█████████████████████████████░░░░░░░░░░░░░░░░░░░░░` 58.8%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **149個**
+完全に日本語化されているファイル: **150個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -65,6 +65,7 @@
 - `ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst`
 - `ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst`
 - `ftc_sdk/updating/index.rst`
+- `ftc_sdk/updating/rc_app/Updating-the-RC-App.rst`
 - `hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst`
 - `hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst`
 - `hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst`
@@ -187,7 +188,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **5個**
+英語が残っているファイル: **4個**
 
 ### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
@@ -298,15 +299,6 @@
   ```
 
 ... 他 1 件の問題
-
-### `ftc_sdk/updating/rc_app/Updating-the-RC-App.rst`
-
-**問題箇所:** 1件
-
-- **行 313:** Untranslated English paragraph/sentence
-  ```
-  Questions, comments and corrections to westsiderobotics@verizon.net
-  ```
 
 ---
 
