@@ -1,4 +1,4 @@
-Configuring Your Hardware :bdg-info:`OBJ`
+ハードウェアの構成 :bdg-info:`OBJ`
 =========================================
 
 .. toctree::

@@ -1,53 +1,39 @@
-Using Your Android Device
+**Android** デバイスの使用
 =========================
 
-Before you get started with your control system, it is helpful if you
-familiarize yourself with the basic operation of your Android device.
+制御システムを始める前に、**Android** デバイスの基本的な操作に慣れることが役立ちます。
 
 REV Robotics Driver Hub
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Teams who are using the REV Robotics Driver Hub as their DRIVER STATION
-should refer to the `official documentation from REV Robotics <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ 
-for instructions on how to set up and use the REV Robotics Driver Hub.
+DRIVER STATION として **REV Robotics Driver Hub** を使用しているチームは、`REV Robotics の公式ドキュメント <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ を参照して、**REV Robotics Driver Hub** のセットアップと使用方法の手順を確認してください。
 
-Android Smartphone
+**Android** スマートフォン
 ~~~~~~~~~~~~~~~~~~
 
-While not recommended, the Competition Manual does allow select Android
-smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule
-R704 for the full details.
+推奨されませんが、競技マニュアルでは、一部の **Android** スマートフォンを DRIVER STATION または ROBOT CONTROLLER として使用することを許可しています。詳細については、ルール R704 を参照してください。
 
-Unlocking Your Screen
+画面のロック解除
 ^^^^^^^^^^^^^^^^^^^^^
 
-When you first power on an Android phone, it usually starts off with the
-screen in a "locked" state. For the Motorola smartphones that are used
-in the *FIRST* Tech Challenge, you must touch the locked screen and then
-slide your finger upwards along the screen to unlock the phone. Note
-that different devices might require a slightly different procedure to
-unlock the screen.
+**Android** 端末の電源を初めて入れると、通常、画面は「ロック」状態で始まります。**FIRST** **Tech Challenge** で使用される Motorola スマートフォンでは、ロック画面をタッチしてから、画面に沿って指を上方向にスライドして端末のロックを解除する必要があります。デバイスによっては、画面のロックを解除するために若干異なる手順が必要な場合があることに注意してください。
 
 .. image:: images/android_screenlock.jpg
    :align: center
 
 |
 
-Depending on your security settings, you might be challenged for a pass
-code or PIN number. Use the touch screen to enter in the pass code or
-PIN value and tap on the check mark to log into the device.
+**Android** のセキュリティ設定によっては、ロック解除時にパスコードまたは PIN 番号の入力を求められる場合があります。タッチスクリーンを使用してパスコードまたは PIN 値を入力し、チェックマークをタップしてデバイスにログインします。
 
 .. image:: images/android_screenkeypad.jpg
    :align: center
 
 |
 
-Navigating in Android
+**Android** でのナビゲーション
 ^^^^^^^^^^^^^^^^^^^^^
 
-Your phone should display its home screen if you just powered it on and
-unlocked it. Note that the actual screens on your smartphone might
-differ slightly from the screens depicted in this tutorial.
+端末の電源を入れてロックを解除したばかりの場合、ホーム画面が表示されるはずです。実際のスマートフォンの画面は、このガイドに表示されている画像とは異なる場合があることに注意してください。
 
 .. image:: images/android_homescreen.jpg
    :align: center
@@ -59,42 +45,30 @@ differ slightly from the screens depicted in this tutorial.
 
 |
 
-At the bottom of the screen there should be some buttons that you can
-use to navigate the screens on your Android device.
+画面の下部には、**Android** デバイスの画面をナビゲートするために使用できるボタンがいくつかあります。
 
 .. image:: images/android_homescreen_controlsAtBottom.jpg
    :align: center
 
 |
 
-The leftmost button (see image above) is the "Back" button. You can use
-this button to return to the previous screen on your Android device.
+左端のボタン（上の画像を参照）は「Back」ボタンです。このボタンを使用して、**Android** デバイスの前の画面に戻ることができます。
 
-The center button is the "Home" button. Pressing this button should take
-you back to the home or opening screen of your Android device.
+中央のボタンは「Home」ボタンです。このボタンを押すと、**Android** デバイスのホーム画面または開始画面に戻ります。
 
-The rightmost button is the "Recent Apps" button. If you click on this
-button it will display the apps that were recently run and are dormant
-in the background. You can close a recent app by tapping the "X" button
-on the app's listing.
+右端のボタンは「Recent Apps」ボタンです。このボタンをクリックすると、最近実行されてバックグラウンドで休止しているアプリが表示されます。アプリのリストの「X」ボタンをタップして、最近のアプリを閉じることができます。
 
 .. image:: images/android_recentApps.jpg
    :align: center
 
 |
 
-Note that some Android smartphones have an auto-hide feature which
-automatically hides the bottom navigation buttons. If your smartphone
-has this feature, you might need to swipe up from the bottom of the
-screen to display the navigation buttons.
+一部の **Android** スマートフォンには、下部のナビゲーションボタンを自動的に非表示にする自動非表示機能があることに注意してください。スマートフォンにこの機能がある場合は、画面の下部から上にスワイプしてナビゲーションボタンを表示する必要がある場合があります。
 
-Displaying Available Apps on your Android Phone
+**Android** 端末で利用可能なアプリを表示する
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you are using a device with Android Nougat (7.x) or newer, you can
-display the available apps by simply swiping upwards from the bottom of
-the touchscreen. Newer versions of Android no longer have the *App
-Drawer* feature.
+**Android** Nougat（7.x）以降のデバイスを使用している場合は、タッチスクリーンの下部から上にスワイプするだけで、利用可能なアプリを表示できます。新しいバージョンの **Android** には、*App Drawer* 機能がなくなりました。
 
 .. image:: images/nougat_apps.png
    :align: center

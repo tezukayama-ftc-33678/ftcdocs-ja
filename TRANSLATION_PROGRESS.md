@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-11 03:53:50
+**生成日時:** 2025-12-11 14:22:54
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 80 (31.4%)
-- **部分的に翻訳:** 3 (1.2%)
-- **未翻訳:** 172 (67.5%)
+- **翻訳完了:** 103 (40.4%)
+- **部分的に翻訳:** 4 (1.6%)
+- **未翻訳:** 148 (58.0%)
 
-**進捗:** `███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 31.4%
+**進捗:** `████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` 40.4%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **80個**
+完全に日本語化されているファイル: **103個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -90,15 +90,38 @@
 - `persona_pages/rookie_teams/rookie_teams.rst`
 - `persona_pages/veteran_teams/veteran_teams.rst`
 - `programming_resources/android_studio_java/Android-Studio-Tutorial.rst`
+- `programming_resources/android_studio_java/config/config.rst`
+- `programming_resources/android_studio_java/install/install.rst`
+- `programming_resources/android_studio_java/intro/intro.rst`
+- `programming_resources/android_studio_java/manage/manage.rst`
+- `programming_resources/android_studio_java/opmode/opmode.rst`
 - `programming_resources/blocks/Blocks-Tutorial.rst`
+- `programming_resources/blocks/config/config.rst`
+- `programming_resources/blocks/connecting/connecting.rst`
+- `programming_resources/blocks/intro/intro.rst`
+- `programming_resources/blocks/opmode/opmode.rst`
+- `programming_resources/blocks/reference/reference.rst`
 - `programming_resources/onbot_java/OnBot-Java-Tutorial.rst`
+- `programming_resources/onbot_java/config/config.rst`
+- `programming_resources/onbot_java/connecting/connecting.rst`
+- `programming_resources/onbot_java/intro/intro.rst`
+- `programming_resources/onbot_java/opmode/opmode.rst`
+- `programming_resources/onbot_java/reference/reference.rst`
+- `programming_resources/shared/choosing_program_lang/choosing-program-lang.rst`
 - `programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst`
 - `programming_resources/shared/control_system_intro/The-FTC-Control-System.rst`
+- `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
 - `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
 - `programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst`
+- `programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst`
+- `programming_resources/shared/required_materials/Required-Materials.rst`
+- `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
 - `programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst`
+- `programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst`
+- `programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst`
 - `programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst`
+- `programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst`
 - `programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst`
 - `programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst`
 - `programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst`
@@ -118,7 +141,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **3個**
+英語が残っているファイル: **4個**
 
 ### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
@@ -203,11 +226,38 @@
 
 ... 他 10 件の問題
 
+### `programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst`
+
+**問題箇所:** 6件
+
+- **行 19:** Untranslated English paragraph/sentence
+  ```
+  From the main repository web page, click on the “releases” link to jump
+  ```
+- **行 94:** Untranslated English paragraph/sentence
+  ```
+  is selected to be imported into Android Studio. It might take Android
+  ```
+- **行 95:** Untranslated English paragraph/sentence
+  ```
+  Studio several minutes to import the project. Once the project has been
+  ```
+- **行 96:** Untranslated English paragraph/sentence
+  ```
+  successfully imported, the screen should look similar to the one
+  ```
+- **行 97:** Untranslated English paragraph/sentence
+  ```
+  depicted in the image below. If you see a popup asking you to update the
+  ```
+
+... 他 1 件の問題
+
 ---
 
 ## 📝 未翻訳ファイル
 
-日本語が含まれていないファイル: **172個**
+日本語が含まれていないファイル: **148個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -304,28 +354,11 @@
 - `manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.rst`
 - `manufacturing/3d_printing/troubleshooting/troubleshooting.rst`
 - `manufacturing/index.rst`
-- `programming_resources/android_studio_java/config/config.rst`
-- `programming_resources/android_studio_java/install/install.rst`
-- `programming_resources/android_studio_java/intro/intro.rst`
-- `programming_resources/android_studio_java/manage/manage.rst`
-- `programming_resources/android_studio_java/opmode/opmode.rst`
-- `programming_resources/blocks/config/config.rst`
-- `programming_resources/blocks/connecting/connecting.rst`
-- `programming_resources/blocks/intro/intro.rst`
-- `programming_resources/blocks/opmode/opmode.rst`
-- `programming_resources/blocks/reference/reference.rst`
 - `programming_resources/imu/imu.rst`
 - `programming_resources/index.rst`
 - `programming_resources/laptops/laptops.rst`
-- `programming_resources/onbot_java/config/config.rst`
-- `programming_resources/onbot_java/connecting/connecting.rst`
-- `programming_resources/onbot_java/intro/intro.rst`
-- `programming_resources/onbot_java/opmode/opmode.rst`
-- `programming_resources/onbot_java/reference/reference.rst`
 - `programming_resources/shared/auto_load_opmode/auto-load-opmode.rst`
-- `programming_resources/shared/choosing_program_lang/choosing-program-lang.rst`
 - `programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst`
-- `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
 - `programming_resources/shared/installing_kotlin/Installing-Kotlin.rst`
 - `programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst`
 - `programming_resources/shared/myblocks/annotation/annotation.rst`
@@ -345,13 +378,6 @@
 - `programming_resources/shared/phone_pairing/phone-pairing.rst`
 - `programming_resources/shared/pid_coefficients/pid-coefficients.rst`
 - `programming_resources/shared/pidf_coefficients/pidf-coefficients.rst`
-- `programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst`
-- `programming_resources/shared/required_materials/Required-Materials.rst`
-- `programming_resources/shared/using_android_device/Using-Your-Android-Device.rst`
-- `programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst`
-- `programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst`
-- `programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst`
-- `programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst`
 - `programming_resources/vision/camera_calibration/camera-calibration.rst`
 - `programming_resources/vision/vision_overview/vision-overview.rst`
 - `programming_resources/vision/webcam_controls/eval/eval.rst`

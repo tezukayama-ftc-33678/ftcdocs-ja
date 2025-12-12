@@ -1,4 +1,4 @@
-Managing an Android Studio Project :bdg-success:`AS`
+**Android Studio** プロジェクトの管理 :bdg-success:`AS`
 =====================================================
 
 .. toctree::

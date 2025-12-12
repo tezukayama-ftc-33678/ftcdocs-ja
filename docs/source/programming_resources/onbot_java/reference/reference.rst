@@ -1,4 +1,4 @@
-Reference Documentation :bdg-info:`OBJ`
+リファレンスドキュメント :bdg-info:`OBJ`
 =======================================
 
 .. toctree::

@@ -1,4 +1,4 @@
-Configuring Your Hardware :bdg-warning:`Blocks`
+ハードウェアの構成 :bdg-warning:`Blocks`
 ===============================================
 
 .. toctree::

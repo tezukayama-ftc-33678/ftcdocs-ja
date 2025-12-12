@@ -1,4 +1,4 @@
-Reference Documents :bdg-warning:`Blocks`
+リファレンスドキュメント :bdg-warning:`Blocks`
 ==========================================
 
 .. toctree::

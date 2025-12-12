@@ -1,4 +1,4 @@
-Installing Android Studio :bdg-success:`AS`
+**Android Studio** のインストール :bdg-success:`AS`
 ===========================================
 
 .. toctree::

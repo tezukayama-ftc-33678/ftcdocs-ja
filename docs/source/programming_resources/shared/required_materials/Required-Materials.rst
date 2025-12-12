@@ -1,9 +1,7 @@
-Required Materials
+必要な材料
 ==================
 
-This wiki contains tutorials that demonstrate how to configure, program, and
-operate the *FIRST* Tech Challenge control system. In order to complete the
-tutorials, you will need to have the following materials available:
+この Wiki には、**FIRST** **Tech Challenge** 制御システムの構成、プログラミング、操作方法を示すチュートリアルが含まれています。チュートリアルを完了するには、以下の材料が必要です：
 
 .. |androidphones| image:: images/twoAndroidPhones.jpg
 .. |chandphones| image:: images/ControlHubAndPhone.jpg
@@ -47,60 +45,56 @@ tutorials, you will need to have the following materials available:
    :class: longtable
    :header-rows: 1
 
-   * - Required Item(s)
-     - Image
+   * - 必要な項目
+     - 画像
 
-   * - A REV Robotics Control Hub to be used as a ROBOT CONTROLLER.
-       Alternately, the Competition Manual does allow teams to instead
-       use a REV Robotics Expansion Hub and a select list of Android
-       phones. 
+   * - ROBOT CONTROLLER として使用する **REV Robotics Control Hub**。
+       または、競技マニュアルでは、チームが **REV Robotics Expansion Hub** と選択された **Android** 端末のリストを代わりに使用することを許可しています。 
      - |chandphones| |exhub|
    
-   * - A REV Robotics Driver Hub to be used as a DRIVER STATION device.
-       Alternately, the Competition Manual does allow teams to instead
-       use a select list of Android phones. See rule R901 for the full
-       details.
+   * - DRIVER STATION デバイスとして使用する **REV Robotics Driver Hub**。
+       または、競技マニュアルでは、チームが選択された **Android** 端末のリストを代わりに使用することを許可しています。詳細については、ルール R901 を参照してください。
      - |driverhub|
 
-   * - Wireless Internet access.
+   * - ワイヤレスインターネットアクセス。
      - |wifi|
 
-   * - Laptop with Microsoft Windows 7, 8, 10 or 11 and Wi-Fi capability. Note that your laptop should have the most current service packs and system updates from Microsoft. If you are using a different type of machine (such as a Chromebook, Android Tablet, etc.) as your programming device, the steps might differ slightly on how to access the Programming Server on the Robot Controller. Refer to your device’s user documentation for details on how to connect to a Wi-Fi network.
+   * - Microsoft Windows 7、8、10、または 11 を搭載し、Wi-Fi 機能を備えたPC。PCには、Microsoft からの最新のサービス パックとシステム アップデートが適用されている必要があります。プログラミング デバイスとして別の種類のマシン（Chromebook、Android タブレットなど）を使用している場合、ロボット コントローラーのプログラミング サーバーにアクセスする手順が若干異なる場合があります。Wi-Fi ネットワークに接続する方法の詳細については、ご使用のデバイスのユーザー ドキュメントを参照してください。
      - |laptop|
 
-   * - Javascript-enabled web browser (Google Chrome is the recommended browser).
+   * - JavaScript 対応のウェブブラウザ（Google Chrome を推奨）。
      - |chrome|
 
-   * - REV Robotics Switch, Cable, & Bracket (REV-31-1387).
+   * - **REV Robotics** スイッチ、ケーブル、およびブラケット（REV-31-1387）。
      - |switch|
   
-   * - *FIRST*-approved\* 12V Battery (such as Tetrix W39057 or REV Robotics REV-31-1302).\*\ **For a list of FIRST-approved 12V batteries, refer to the current Competition Manual.**\
+   * - **FIRST** 承認\* 12V バッテリー（Tetrix W39057 または **REV Robotics** REV-31-1302 など）。\*\ ****FIRST** 承認 12V バッテリーのリストについては、現在の競技マニュアルを参照してください。**\
      - |battery|   Or |slimbattery|
 
-   * - *FIRST*-approved\* 12V DC Motor (such as Tetrix W39530, with power cable W41352).\*\ **For a list of FIRST-approved 12V motors, refer to the current Competition Manual.**\
+   * - **FIRST** 承認\* 12V DC モーター（Tetrix W39530、電源ケーブル W41352 など）。\*\ ****FIRST** 承認 12V モーターのリストについては、現在の競技マニュアルを参照してください。**\
      - |motor|
 
 
-   * - If you are using an approved 12V battery that has a Tamiya connector (like the Tetrix W39057 battery) you will need a REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery (REV-31-1302) then you will not need this adapter since the REV battery already has an XT30 connector.
+   * - Tamiya コネクタを持つ承認された 12V バッテリー（Tetrix W39057 バッテリーなど）を使用している場合は、**REV Robotics** Tamiya to XT30 アダプターケーブル（REV-31-1382）が必要です。**REV Robotics** Slim Battery（REV-31-1302）を使用している場合、REV バッテリーにはすでに XT30 コネクタが付いているため、このアダプターは必要ありません。
      - |tamiya|
   
-   * - REV Robotics Anderson to JST VH Cable (REV-31-1381).
+   * - **REV Robotics** Anderson to JST VH ケーブル（REV-31-1381）。
      - |jst|
 
-   * - 180-Degree Standard Scale Servo (such as Hitec HS-485HB).
+   * - 180 度標準スケールサーボ（Hitec HS-485HB など）。
      - |servo|
 
-   * - REV Robotics Color Sensor with 4-Pin Cable (REV-31-1154).
+   * - 4 ピンケーブル付き **REV Robotics Color Sensor**（REV-31-1154）。
      - |color|
 
-   * - REV Robotics Touch Sensor with 4-Pin Cable( REV-31-1425).
+   * - 4 ピンケーブル付き **REV Robotics Touch Sensor**（REV-31-1425）。
      - |touch|
   
-   * - Logitech F310 USB Gamepad.
+   * - Logitech F310 USB ゲームパッド。
      - |f310|
 
-   * - If you are using a smartphone as your Robot Controller, you will need a USB Type A male to type mini-B male cable. Control Hub users do not need this cable.
+   * - **Robot Controller** としてスマートフォンを使用している場合は、USB Type A オス - Type mini-B オスケーブルが必要です。**Control Hub** ユーザーは、このケーブルは必要ありません。
      - |usba|
 
-   * - If you are using a smartphone as your Robot Controller, you will need two (2) micro USB OTG adapters. If you are using a Control Hub as your Robot Controller, you will need one(1) micro USB OTG adapter.
+   * - **Robot Controller** としてスマートフォンを使用している場合は、micro USB OTG アダプターが 2 個必要です。**Robot Controller** として **Control Hub** を使用している場合は、micro USB OTG アダプターが 1 個必要です。
      - |otg|   |otg|

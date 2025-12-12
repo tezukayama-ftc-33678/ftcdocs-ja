@@ -1,24 +1,19 @@
-Installing Android Studio :bdg-success:`AS`
+**Android Studio** のインストール :bdg-success:`AS`
 ===========================================
 
-Android Developer Website
+**Android** Developer ウェブサイト
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Android Studio is distributed freely by Google, and the most up-to-date
-reference for installing and using the Android Studio software can be
-found on the Android developer website:
+**Android Studio** は Google によって無料で配布されており、**Android Studio** ソフトウェアのインストールと使用に関する最新のリファレンスは、**Android** Developer ウェブサイトで見つけることができます：
 
 *  https://developer.android.com/studio
 
-Android Studio is available on the Windows, MacOS, and Linux operating
-systems.
+**Android Studio** は、Windows、MacOS、Linux オペレーティングシステムで利用可能です。
 
-System Requirements
+システム要件
 ~~~~~~~~~~~~~~~~~~~
 
-Before you download and install the Android Studio you should first
-check the list of system requirements on the Android developer's website
-to verify that your system satisfies the list of minimum requirements:
+**Android Studio** をダウンロードしてインストールする前に、まず **Android** Developer のウェブサイトでシステム要件のリストを確認し、システムが最小要件のリストを満たしていることを確認してください：
 
 *  `Windows <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#1>`__
 *  `MacOS <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#3>`__
@@ -27,30 +22,22 @@ to verify that your system satisfies the list of minimum requirements:
 
 .. caution:: 
 
-   With the introduction of **Android Studio Ladybug**, the JDK that is packaged with
-   Android Studio is incompatible with the FtcRobotController workspace.  If you install
-   or update an existing installation to Android Studio Ladybug, you will need to install
-   JDK 17 separately.
+   **Android Studio Ladybug** の導入により、**Android Studio** にパッケージ化されている JDK は FtcRobotController ワークスペースと互換性がありません。**Android Studio Ladybug** をインストールまたは既存のインストールを更新する場合は、JDK 17 を別途インストールする必要があります。
 
-   Upon initial load of the FtcRobotController workspace using Android Studio Ladybug, 
-   an error will be displayed during the Gradle sync and Android Studio will recommend that
-   you upgrade Gradle.  Do not upgrade Gradle.
+   **Android Studio Ladybug** を使用して FtcRobotController ワークスペースを初めてロードすると、Gradle 同期中にエラーが表示され、**Android Studio** が Gradle をアップグレードすることを推奨します。Gradle をアップグレードしないでください。
 
-   For more detailed instructions see: Configuring
+   詳細な手順については、Configuring を参照してください。
 
 
 
-Downloading and Installing Android Studio
+**Android Studio** のダウンロードとインストール
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you have verified that your laptop satisfies the minimum system
-requirements, you can go to the Android developer's website to download
-and install Android Studio:
+ラップトップが最小システム要件を満たしていることを確認したら、**Android** Developer のウェブサイトにアクセスして **Android Studio** をダウンロードおよびインストールできます：
 
 *  https://developer.android.com/studio
 
-Click on the white "Download Android Studio <latest version>" button to start the
-download process.
+白い「Download Android Studio <latest version>」ボタンをクリックして、ダウンロードプロセスを開始します。
 
 .. image:: images/DownloadAndroidStudio.jpg
    :align: center
@@ -58,12 +45,9 @@ download process.
 
 |
 
-Accept the license terms and then push the white "Download Android
-Studio <latest version> for <operating system>" button on the Android
-Developer webpage to download the software.
+ライセンス条項に同意してから、**Android** Developer ウェブページの白い「Download Android Studio <latest version> for <operating system>」ボタンを押してソフトウェアをダウンロードします。
 
-Once the setup package has downloaded, launch the application and follow
-the on-screen instructions to install Android Studio.
+セットアップパッケージがダウンロードされたら、アプリケーションを起動し、画面上の指示に従って **Android Studio** をインストールします。
 
 .. image:: images/AndroidStudioWelcomeSetup.jpg
    :align: center
