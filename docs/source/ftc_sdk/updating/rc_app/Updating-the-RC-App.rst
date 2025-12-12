@@ -33,9 +33,9 @@ GitHub を使用して更新できる **Android Studio** プロジェクトを�
 
 これらの手順は、独立した更新がサポートされている状況、つまり **Blocks** または **OnBot Java** 開発で RC アプリを独立して更新するためのものです。お使いの **Robot Controller** ハードウェアに適用される以下の手順を展開してください：
 
-.. dropdown:: Robot Controller (RC) app on REV Control Hub
+.. dropdown:: **REV Control Hub** の **Robot Controller (RC)** アプリ
 
-   Here are 3 methods to update the RC app on a REV Control Hub:
+   **REV Control Hub** の RC アプリを更新する方法は3つあります：
 
    #. REV Hardware Client (RHC)
    #. Manage page on computer

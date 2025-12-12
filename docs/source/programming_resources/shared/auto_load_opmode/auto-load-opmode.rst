@@ -30,18 +30,43 @@
 
 アクティブ化するには、（半透明の）ボタンをタップして、**op mode** を選択するだけです。その後、ボタンは完全に不透明になり、事前選択された **op mode** の名前がボタンの隣に表示されます。これは、機能がアクティブであることを示しています。
 
-
-.. figure:: images/opaquePreselectLandscape.png   
+.. figure:: images/selectTeleOpLandscape.png
    :align: center
 
-   横向きモードで、不透明なボタンと **op mode** 名は、機能がアクティブであることを示しています。
+   横向きモードで自動ロードされるドライバー制御 **OpMode**。
 
-.. figure:: images/opaquePreselect.png   
+.. figure:: images/selectTeleOp.png   
    :align: center
 
-   縦向きモードで、不透明なボタンと **op mode** 名は、機能がアクティブであることを示しています。
+   縦向きモードで自動ロードされるドライバー制御 **OpMode**。
+
+その後、無効にしたい場合は、事前選択ボタンを長押しするだけです。ボタンは再び半透明になり、隣接するテキストが消えます。
+
+自律プログラムが終了すると、**Driver Station** は、キューに入れられた **OpMode** を、自律開始前に事前選択された TeleOp プログラムに変更します。ユーザーが停止を押す（メイン停止または init 停止ボタンのいずれか）と、自動事前選択は中止されます。**OpMode** が自己終了するか、30秒タイマーによって終了された場合にのみ、遷移します。安全上の理由から、ドライブチームは依然として手動で Init を押して **op mode** を開始する必要があります。
+
+自律プログラムを実行するたびに、手動で事前選択機能を有効にして構成する必要がない場合は、**OpMode** アノテーションを編集して ``preselectTeleOp="My TeleOp Name"`` を含めることができます。その後、**Driver Station** は自動的に事前選択機能をアクティブ化し、アノテーションで指定された **OpMode** を事前選択するように構成します。
+
+.. code-block:: java
+   :caption: preselectTeleOp パラメーターを使用して、事前選択された op mode を指定します。
 
 
-機能を無効にするには、事前選択ボタンをタップし、**None** を選択します。ボタンは半透明になり、隣接するテキストが削除されます。
+   @Autonomous(name="Blue Alliance Auto", group="Pushbot", preselectTeleOp="BlueAllianceTeleOp")
 
-自律 **OpMode** の実行が完了すると、事前選択された **OpMode** が **Driver Station** によって自動的にロードされます。
+**Blocks** ユーザーも、**Blocks** プログラムエディターの新しいドロップダウンを通じて、この機能を使用できます。
+
+.. figure:: images/preselectBlocks.png   
+   :align: center
+
+   **Blocks** エディターを使用して、teleop **op mode** を事前選択できます。
+
+**Driver Station** アプリの Settings メニューに「OpMode Auto Queue」というオプションがあることに注意してください。このオプションが有効になっている場合、**Driver Station** は、``preselectTeleOp`` パラメーターで指定されたとおり、自律 **op mode** の事前選択された teleop **op mode** を自動的にロードします。このオプションが無効になっている場合、**Driver Station** は事前選択された teleop **op mode** を自動的にロードしません。「Op Mode Auto Queue」オプションが無効になっている場合でも、チームはメインの **Driver Station** アクティビティの事前選択ボタンを使用して、teleop **op mode** を選択できます。
+
+.. figure:: images/AutoQueueEnabledLandscape.png   
+   :align: center
+
+   OpMode Auto Queue オプションが有効になっている場合、**Driver Station** は横向きモードで preselectTeleOp **op mode** を自動的にロードします。
+
+.. figure:: images/AutoQueueEnabled.png   
+   :align: center
+
+   OpMode Auto Queue オプションが有効になっている場合、**Driver Station** は縦向きモードで preselectTeleOp **op mode** を自動的にロードします。
