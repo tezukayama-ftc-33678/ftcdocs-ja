@@ -59,7 +59,7 @@
    * - ワイヤレスインターネットアクセス。
      - |wifi|
 
-   * - Laptop with Microsoft Windows 7, 8, 10 or 11 and Wi-Fi capability. Note that your laptop should have the most current service packs and system updates from Microsoft. If you are using a different type of machine (such as a Chromebook, Android Tablet, etc.) as your programming device, the steps might differ slightly on how to access the Programming Server on the Robot Controller. Refer to your device’s user documentation for details on how to connect to a Wi-Fi network.
+   * - Microsoft Windows 7、8、10、または 11 を搭載し、Wi-Fi 機能を備えたPC。PCには、Microsoft からの最新のサービス パックとシステム アップデートが適用されている必要があります。プログラミング デバイスとして別の種類のマシン（Chromebook、Android タブレットなど）を使用している場合、ロボット コントローラーのプログラミング サーバーにアクセスする手順が若干異なる場合があります。Wi-Fi ネットワークに接続する方法の詳細については、ご使用のデバイスのユーザー ドキュメントを参照してください。
      - |laptop|
 
    * - JavaScript 対応のウェブブラウザ（Google Chrome を推奨）。
