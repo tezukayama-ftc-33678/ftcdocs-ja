@@ -381,7 +381,7 @@ Potentiometer
      - No
      - Not Officially Supported
 
-Additional Resources
+追加リソース
 ---------------------
 
  - :ref:`Analog Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:analog ports>`

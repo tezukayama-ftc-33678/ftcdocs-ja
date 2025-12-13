@@ -79,7 +79,7 @@ SDK はデフォルトで、**カメラに対する** AprilTag ポーズを記�
 
 ====
 
-Much credit to 
+謝辞 
 
 - EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__ 
 - FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__ 

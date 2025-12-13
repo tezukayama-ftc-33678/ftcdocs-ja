@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-13 06:03:55
+**生成日時:** 2025-12-13 06:06:33
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 142 (55.7%)
-- **部分的に翻訳:** 12 (4.7%)
+- **翻訳完了:** 145 (56.9%)
+- **部分的に翻訳:** 9 (3.5%)
 - **未翻訳:** 101 (39.6%)
 
-**進捗:** `███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░` 55.7%
+**進捗:** `████████████████████████████░░░░░░░░░░░░░░░░░░░░░░` 56.9%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **142個**
+完全に日本語化されているファイル: **145個**
 
 ### 🏷️ ラベル付きファイル
 
@@ -35,6 +35,7 @@
 
 - `apriltag/opmode_test_images/opmode-test-images.rst`
 - `apriltag/vision_portal/apriltag_intro/apriltag-intro.rst`
+- `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
 - `contrib/guidelines/guidelines.rst`
 - `contrib/index.rst`
 - `contrib/tutorials/create_codespace/create-codespace.rst`
@@ -51,7 +52,9 @@
 - `control_hard_compon/rc_components/hub/ports/std-ports.rst`
 - `control_hard_compon/rc_components/index.rst`
 - `control_hard_compon/rc_components/motors/motors.rst`
+- `control_hard_compon/rc_components/sensors/sensors.rst`
 - `control_hard_compon/rc_components/servos/servos.rst`
+- `control_hard_compon/rc_components/uvc/uvc.rst`
 - `devices/huskylens/huskylens.rst`
 - `faq/faqs.rst`
 - `ftc_sdk/overview/index.rst`
@@ -180,7 +183,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **12個**
+英語が残っているファイル: **9個**
 
 ### `contrib/style_guide/image-and-figure-details.rst` `ai_difficult` `needs_human_review`
 
@@ -303,33 +306,6 @@
 - **行 93:** Untranslated English paragraph/sentence
   ```
   In the figure above the project folder called “FtcRobotController”
-  ```
-
-### `control_hard_compon/rc_components/sensors/sensors.rst`
-
-**問題箇所:** 1件
-
-- **行 384:** Untranslated English paragraph/sentence
-  ```
-  Additional Resources
-  ```
-
-### `control_hard_compon/rc_components/uvc/uvc.rst`
-
-**問題箇所:** 1件
-
-- **行 55:** Untranslated English text (outside RST directives)
-  ```
-  - A :doc:`list of webcams <../../../apriltag/vision_portal/visionportal_webcams/
-  ```
-
-### `apriltag/vision_portal/visionportal_overview/visionportal-overview.rst`
-
-**問題箇所:** 1件
-
-- **行 82:** Untranslated English paragraph/sentence
-  ```
-  Much credit to
   ```
 
 ### `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
