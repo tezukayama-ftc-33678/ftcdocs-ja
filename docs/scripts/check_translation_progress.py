@@ -314,17 +314,13 @@ class TranslationChecker:
             if in_code_block:
                 continue
             
-            # Skip RST directive lines
-            if self.is_rst_directive_line(line):
-                continue
-            
-            # Skip URL lines
+            # Skip URL lines before other checks
             if self.is_url_line(line):
                 continue
             
-            # Skip empty lines and lines with only RST markup
+            # Skip empty lines
             stripped = line.strip()
-            if not stripped or stripped.startswith('..') or stripped.startswith(':'):
+            if not stripped:
                 continue
             
             # Skip lines that are just symbols or numbers
@@ -333,6 +329,29 @@ class TranslationChecker:
             
             # Create a version of the line with code literals removed for checking
             line_without_literals = self.remove_code_literals(line)
+            
+            # Check for lines with RST directives but containing English text outside directives
+            # This catches lines like "... :ref:`label`" where content after directive is English
+            if self.is_rst_directive_line(line):
+                # Extract text that's NOT part of RST directives
+                # Remove all :directive:`...` patterns
+                text_without_directives = re.sub(r':[a-z]+:`[^`]*`', ' ', line_without_literals)
+                text_without_directives = text_without_directives.strip()
+                
+                # If there's remaining English text after removing directives, flag it
+                if text_without_directives and not self.has_japanese(text_without_directives):
+                    english_words = re.findall(r'\b[A-Za-z]+\b', text_without_directives)
+                    if english_words and len(english_words) >= 2:
+                        issues.append({
+                            'line': i,
+                            'issue': 'Untranslated English text (outside RST directives)',
+                            'text': stripped[:80]
+                        })
+                continue
+            
+            # Skip lines that start with RST markup
+            if stripped.startswith('..') or stripped.startswith(':'):
+                continue
             
             # Check for English at the end of a line (after Japanese text)
             if self.has_japanese(line_without_literals) and ENGLISH_AT_END_PATTERN.search(line_without_literals):
@@ -381,16 +400,20 @@ class TranslationChecker:
                         continue
             
             # Check for lines that are entirely English (potential untranslated content)
-            # Only flag if it's a substantial line (not just a title or short phrase)
             stripped_without_literals = self.remove_code_literals(stripped).strip()
-            if not self.has_japanese(stripped) and len(stripped_without_literals.split()) >= 5:
-                # Check if it's likely a paragraph or sentence (not a title)
-                if any(c in stripped_without_literals for c in '.!?,;:'):
-                    issues.append({
-                        'line': i,
-                        'issue': 'Untranslated English paragraph/sentence',
-                        'text': stripped[:80]
-                    })
+            if not self.has_japanese(stripped_without_literals):
+                english_words = re.findall(r'\b[A-Za-z]+\b', stripped_without_literals)
+                # Check for:
+                # 1. Multiple English words (2+ words)
+                # 2. Sentences with punctuation (1+ word with punctuation)
+                if (len(english_words) >= 2) or (english_words and any(c in stripped_without_literals for c in '.!?,;:')):
+                    # Skip very short words that might be labels
+                    if not all(len(w) < 3 for w in english_words):
+                        issues.append({
+                            'line': i,
+                            'issue': 'Untranslated English paragraph/sentence',
+                            'text': stripped[:80]
+                        })
         
         return issues
     
