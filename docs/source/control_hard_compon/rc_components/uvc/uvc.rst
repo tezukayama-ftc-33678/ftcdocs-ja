@@ -20,7 +20,7 @@ UVC ウェブカメラ
          :class: no-scaled-link
          :alt: Example budget UVC webcam
         
-      +++
+++++++++
 
       :ref:`logitech_c270_label`
 
@@ -38,7 +38,7 @@ UVC ウェブカメラ
          :class: no-scaled-link
          :alt: Example mid-range UVC webcam
         
-      +++
+++++++++
 
       :ref:`logitech_c920_label`
 

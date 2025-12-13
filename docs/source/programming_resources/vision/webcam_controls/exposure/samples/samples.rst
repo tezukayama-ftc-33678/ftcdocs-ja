@@ -16,7 +16,7 @@
    // 露出時間を 15 ミリ秒に設定
    exposureControl.setExposure(15, TimeUnit.MILLISECONDS);
 
-**例2：サポートされる範囲の確認**
+** 例2：サポートされる範囲の確認**
 
 .. code:: java
 
@@ -26,7 +26,7 @@
    telemetry.addData("最小露出", "%d ms", minExp);
    telemetry.addData("最大露出", "%d ms", maxExp);
 
-**例3：AE Priority を使用した長い露出時間**
+** 例3：AE Priority を使用した長い露出時間**
 
 .. code:: java
 

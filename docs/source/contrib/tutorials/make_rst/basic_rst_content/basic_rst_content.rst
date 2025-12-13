@@ -472,7 +472,7 @@ Referencing Sections Example
 In plain text, a section can be created and referenced like::
 
     Section Name
-    ------------
+----------------
    
     This is a link to `Section Name`_
 

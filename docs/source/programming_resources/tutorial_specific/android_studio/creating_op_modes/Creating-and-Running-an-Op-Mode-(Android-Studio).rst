@@ -250,7 +250,7 @@ OpMode のビルドとインストール
 
 |
 
-Android Studio ユーザーインターフェースの上部を見て、``TeamCode`` という単語の横にある小さな緑色の再生または実行ボタン（緑色の円形の矢印で表されます）を見つけます。正しいデバイスが選択されていることを確認してから、この緑色のボタンを押して **Robot Controller** アプリをビルドし、**Control Hub**（または RC スマートフォン）にインストールします。
+Android Studio ユーザーインターフェースの上部を見て、``TeamCode`` という単語の横にある小さな緑色の再生または実行ボタン（緑色の円形の矢印で表されます）を見つけます。正しいデバイスが選択されていることを確認してから、この緑色のボタンを押して **Robot Controller** アプリをビルドし、**Control Hub** （または RC スマートフォン）にインストールします。
 
 .. image:: images/RunTeamCode.jpg
    :align: center
@@ -280,7 +280,7 @@ OpMode の実行
 
 新しい **OpMode** を含む更新された Android アプリを正常にビルドおよびインストールした場合、**OpMode** を実行する準備が整いました。**Driver Station** がまだ **Robot Controller** に接続されていることを確認します。サンプルの **OpMode** を遠隔操作 **OpMode** として指定したため、``TeleOp`` **OpMode** としてリストされます。
 
-**Driver Station** で、``TeleOp`` ドロップダウンリストコントロールを使用して、使用可能な **OpMode** のリストを表示します。リストから **OpMode**（「MyFIRSTJavaOpMode」）を選択します。
+**Driver Station** で、``TeleOp`` ドロップダウンリストコントロールを使用して、使用可能な **OpMode** のリストを表示します。リストから **OpMode** （「MyFIRSTJavaOpMode」）を選択します。
 
 .. image:: images/OpModeSelectionDH.png
    :align: center

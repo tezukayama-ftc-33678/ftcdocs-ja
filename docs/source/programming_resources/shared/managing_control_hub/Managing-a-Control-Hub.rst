@@ -6,7 +6,7 @@ Control Hubの管理
 
 デフォルトでは、**Control Hub** は「FTC-」で始まり、工場で割り当てられた4文字で終わる名前を持っています。競技マニュアルに準拠するため、名前を変更する必要があります。
 
-**Control Hub**（または **Robot Controller** スマートフォン）の名前は、ペアリングされた **DS** アプリから変更できます。詳細は :ref:`名前の変更<programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:changing the name>` を参照してください。
+**Control Hub** （または **Robot Controller** スマートフォン）の名前は、ペアリングされた **DS** アプリから変更できます。詳細は :ref:`名前の変更<programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:changing the name>` を参照してください。
 
 または、接続された **Driver Station** またはラップトップから *Manage* ページで **Control Hub** の名前を変更することもできます。以下に説明します。変更後は ``Apply Wi-Fi Settings`` をクリックしてください。
 
@@ -78,7 +78,7 @@ Control Hubのリセット
 
 **Control Hub** のネットワーク名またはパスワードを忘れた場合、Hubの名前とパスワードを工場出荷時のデフォルト値にリセットできます。
 
-.. important:: **Control Hub** をリセットすると、デフォルトのネットワーク名とパスワードが復元されます。ただし、既存の構成ファイルと **Op Mode** はリセットの影響を受けません。これには、**Blocks**、**OnBot Java**、および **Android Studio** ツールを使用して作成された **Op Mode** が含まれます。
+.. important:: **Control Hub** をリセットすると、デフォルトのネットワーク名とパスワードが復元されます。ただし、既存の構成ファイルと **Op Mode** はリセットの影響を受けません。これには、**Blocks** 、**OnBot Java** 、および **Android Studio** ツールを使用して作成された **Op Mode** が含まれます。
 
 リセット手順
 -----------------------
@@ -126,7 +126,7 @@ WiFiチャンネルを変更する手順
 |
 
 ログファイルのダウンロード
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 制御システムの問題をトラブルシューティングする際に、**Control Hub** からログファイルをダウンロードすることが役立つことがよくあります。これは *Manage* ページから行うことができます。デフォルトでは、ログファイル名は *robotControllerLog.txt* です。
 
@@ -156,9 +156,9 @@ Expansion Hubファームウェアの更新
 
 `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、**Control Hub** の組み込み **Expansion Hub** のファームウェアを更新できます。
 
-または、接続されたラップトップまたは **Driver Station**（**DS**）アプリから *Manage* インターフェースを使用して、**Control Hub** のファームウェアをアップロードしたり、含まれているバージョンまたはアップロードされたバージョンを使用して更新したりできます。新しいファームウェアイメージは、`REV Robotics ウェブサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__ から入手できます。
+または、接続されたラップトップまたは **Driver Station** （**DS** ）アプリから *Manage* インターフェースを使用して、**Control Hub** のファームウェアをアップロードしたり、含まれているバージョンまたはアップロードされたバージョンを使用して更新したりできます。新しいファームウェアイメージは、`REV Robotics ウェブサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__ から入手できます。
 
-また、含まれているまたはアップロードされた **Control Hub** ファームウェアは、ペアリングされた **Driver Station**（**DS**）アプリから **Robot Controller** の詳細設定で更新できます（以下に示します）。
+また、含まれているまたはアップロードされた **Control Hub** ファームウェアは、ペアリングされた **Driver Station** （**DS** ）アプリから **Robot Controller** の詳細設定で更新できます（以下に示します）。
 
 これらの3つの方法は、RS485データワイヤを介して **Control Hub** に接続された **Expansion Hub** のファームウェアを更新する場合には適用されません。スタンドアロンの **Expansion Hub** は、REV Hardware Clientを実行しているラップトップまたは **Robot Controller** スマートフォンに直接USB接続して更新する必要があります。
 
@@ -237,7 +237,7 @@ Robot Controllerアプリの更新
 
 |
 
-`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、**Control Hub** の **Robot Controller**（**RC**）アプリを更新できます。
+`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、**Control Hub** の **Robot Controller** （**RC** ）アプリを更新できます。
 
 または、**Control Hub** ユーザーは、**FIRST Tech Challenge** `Githubリポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ から **RC** アプリをダウンロードし、*Manage* ページを使用して更新を完了できます。
 
@@ -306,7 +306,7 @@ Robot Controllerアプリを更新する手順
 |
 
 カスタムウェブカメラキャリブレーションファイルのアップロード
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Robot Controller** アプリには、一般的に利用可能なさまざまなウェブカメラ用の組み込みキャリブレーション情報があります。ユーザーは独自のカスタムキャリブレーションファイルを作成し、これらのファイルを **Control Hub** にアップロードすることもできます。
 
@@ -314,7 +314,7 @@ Robot Controllerアプリを更新する手順
 この例のキャリブレーションファイルは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ にあります。
 
 カスタムウェブカメラキャリブレーションファイルをアップロードする手順
--------------------------------------------------------
+--------------------------------------------------------------------
 
 1. *Manage* ページで、*Select Webcam Calibration File* ボタンをクリックして、キャリブレーションファイルを選択します。
 
@@ -394,7 +394,7 @@ OSファイルが **Control Hub** にアップロードされるまでお待ち�
 ワイヤレスADBを使用してControl Hubに接続する
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Android Studio** を使用して **Robot Controller** アプリを **Control Hub** にビルドしてインストールする上級ユーザーは、Android Debug Bridge（**adb**）ユーティリティに精通している必要があります。**adb** は、Android開発プラットフォームツールに含まれています。**Control Hub** などのAndroidデバイスと通信するために使用できます。
+**Android Studio** を使用して **Robot Controller** アプリを **Control Hub** にビルドしてインストールする上級ユーザーは、Android Debug Bridge（**adb** ）ユーティリティに精通している必要があります。**adb** は、Android開発プラットフォームツールに含まれています。**Control Hub** などのAndroidデバイスと通信するために使用できます。
 
 従来、プログラマーは、**adb** を使用してAndroidデバイスと通信するために、有線USB接続を使用します。**adb** は、ワイヤレス接続を介してコマンドを送受信するモードもサポートしています。
 

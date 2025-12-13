@@ -4,7 +4,7 @@
 名前の変更
 ~~~~~~~~~~~~~~~~~
 
-競技マニュアルに準拠するため、**Robot Controller**（**RC**）スマートフォンの名前を変更する必要があります。
+競技マニュアルに準拠するため、**Robot Controller** （**RC** ）スマートフォンの名前を変更する必要があります。
 
 これは、以下に説明するように、**RC** アプリまたはペアリングされた **DS** アプリで行うことができます。（これらの手順は、ペアリングされた **DS** アプリから **Control Hub** の名前を変更する場合にも機能します。）
 
@@ -91,7 +91,7 @@ WiFiチャンネルを変更する手順
 
 
 ログファイルのダウンロード
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 制御システムの問題をトラブルシューティングする際に、**Robot Controller** からログファイルをダウンロードすることが役立つことがよくあります。これは *Manage* ページから行うことができます。デフォルトでは、ログファイル名は *robotControllerLog.txt* です。
 
@@ -141,9 +141,9 @@ Expansion Hubファームウェアの更新
 
 `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、USBケーブルでコンピューターに直接接続された **Expansion Hub** のファームウェアを更新できます。
 
-または、**Expansion Hub** がUSB経由で接続された **Robot Controller** スマートフォンに接続されたラップトップまたは **Driver Station**（**DS**）から *Manage* インターフェースを使用できます。Manageページでは、**Expansion Hub** のファームウェアをアップロードしたり、含まれているバージョンまたはアップロードされたバージョンを使用して更新したりできます。新しいファームウェアイメージは、`REV Roboticsウェブサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__ から入手できます。
+または、**Expansion Hub** がUSB経由で接続された **Robot Controller** スマートフォンに接続されたラップトップまたは **Driver Station** （**DS** ）から *Manage* インターフェースを使用できます。Manageページでは、**Expansion Hub** のファームウェアをアップロードしたり、含まれているバージョンまたはアップロードされたバージョンを使用して更新したりできます。新しいファームウェアイメージは、`REV Roboticsウェブサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__ から入手できます。
 
-また、含まれているまたはアップロードされた **Expansion Hub** ファームウェアは、ペアリングされた **Driver Station**（**DS**）アプリから **Robot Controller** の詳細設定で更新できます（以下に示します）。
+また、含まれているまたはアップロードされた **Expansion Hub** ファームウェアは、ペアリングされた **Driver Station** （**DS** ）アプリから **Robot Controller** の詳細設定で更新できます（以下に示します）。
 
 これらの3つの更新方法は、RS485データワイヤを介して接続された **Expansion Hub** には適用されません。スタンドアロンの **Expansion Hub** は、直接USB接続で更新する必要があります。
 
@@ -168,7 +168,7 @@ Expansion Hubファームウェアを更新する手順
 
    ファイルが正常にアップロードされると、「Firmware upload complete」という言葉が表示されます。
 
-3. **Expansion Hub** の電源がオンになっていて、新しく充電された12Vバッテリーで電源が供給されていること、および **Robot Controller** スマートフォンがUSB接続を介して **Expansion Hub** に接続されていることを確認します。更新が機能するために、**Robot Controller** はアクティブな構成ファイルに **Expansion Hub** を含める必要が**ない**ことに注意してください。
+3. **Expansion Hub** の電源がオンになっていて、新しく充電された12Vバッテリーで電源が供給されていること、および **Robot Controller** スマートフォンがUSB接続を介して **Expansion Hub** に接続されていることを確認します。更新が機能するために、**Robot Controller** はアクティブな構成ファイルに **Expansion Hub** を含める必要が** ない** ことに注意してください。
 
 .. image:: images/ConfiguringHardwareStep4.jpg
    :align: center
@@ -232,7 +232,7 @@ Robot Controllerアプリの更新
 
 2021年現在、アプリ（v 6.1以降）はGoogle Playで入手できなくなりました。
 
-`REV Hardware Clientソフトウェア <https://docs.revrobotics.com/rev-hardware-client/>`__ を使用すると、承認されたデバイス（**REV Control Hub**、**REV Expansion Hub**、**REV Driver Hub**、および承認されたAndroidデバイス）にアプリをダウンロードできます。以下は、いくつかの利点です：
+`REV Hardware Clientソフトウェア <https://docs.revrobotics.com/rev-hardware-client/>`__ を使用すると、承認されたデバイス（**REV Control Hub** 、**REV Expansion Hub** 、**REV Driver Hub** 、および承認されたAndroidデバイス）にアプリをダウンロードできます。以下は、いくつかの利点です：
 
 *  WiFi経由で **REV Control Hub** に接続します。
 *  接続されたデバイス上のすべてのソフトウェアをワンクリックで更新します。
@@ -241,18 +241,18 @@ Robot Controllerアプリの更新
 *  Androidデバイスに **DS** と **RC** アプリケーションをインストールして切り替えます。
 *  **Control Hub** の **Robot Control** コンソールにアクセスします。
 
-プログラミングに **Blocks** または **OnBot Java** を使用しているチームは、REV Hardware Clientを使用して **RC** スマートフォンの **Robot Controller**（**RC**）アプリを更新できます。
+プログラミングに **Blocks** または **OnBot Java** を使用しているチームは、REV Hardware Clientを使用して **RC** スマートフォンの **Robot Controller** （**RC** ）アプリを更新できます。
 
 このタスクを完了するには、デバイスごとに約7.5分かかることに注意してください。
 
 または、アプリリリースは `FTCRobotController Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ で入手できます。**Robot Controller** APKファイルをコンピューターにダウンロードし、**RC** スマートフォンのDownloadsフォルダーに転送してから、そのファイルを開いて **RC** アプリをインストールします。このプロセスは「サイドローディング」と呼ばれます。
 
-.. tip:: **Robot Controller**（**RC**）アプリを更新する場合は、**Driver Station**（**DS**）アプリも同じバージョン番号に更新する必要があります。
+.. tip:: **Robot Controller** （**RC** ）アプリを更新する場合は、**Driver Station** （**DS** ）アプリも同じバージョン番号に更新する必要があります。
 
 .. important:: **Android Studio** を使用しているチームは、REV Hardware Clientまたはサイドローディングで **RC** アプリを更新しないでください。代わりに、**Android Studio** プロジェクトフォルダーの最新バージョンに更新することで、プロジェクトをビルドして **RC** デバイスにインストールするときに **Robot Controller** アプリが更新されます。プロジェクトフォルダーの最新バージョンは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ からダウンロードできます。
 
 カスタムウェブカメラキャリブレーションファイルのアップロード
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Robot Controller** アプリには、一般的に利用可能なさまざまなウェブカメラ用の組み込みキャリブレーション情報があります。ユーザーは独自のカスタムキャリブレーションファイルを作成し、これらのファイルを **Control Hub** にアップロードすることもできます。
 
@@ -260,7 +260,7 @@ Robot Controllerアプリの更新
 この例のキャリブレーションファイルは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ にあります。
 
 カスタムウェブカメラキャリブレーションファイルをアップロードする手順
--------------------------------------------------------
+--------------------------------------------------------------------
 
 1. *Manage* ページで、*Select Webcam Calibration File* ボタンをクリックして、キャリブレーションファイルを選択します。
 

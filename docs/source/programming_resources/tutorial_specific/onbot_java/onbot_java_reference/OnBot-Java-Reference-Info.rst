@@ -19,7 +19,7 @@ https://javadoc.io/doc/org.firstinspires.ftc
    :align: center
 
 テクノロジーフォーラム
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 登録されたチームは、**FIRST Tech Challenge** フォーラムでユーザーアカウントを作成できます。チームはフォーラムを使用して質問をし、**FIRST Tech Challenge** コミュニティからサポートを受けることができます。
 

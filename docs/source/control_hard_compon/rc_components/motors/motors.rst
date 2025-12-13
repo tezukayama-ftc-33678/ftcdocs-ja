@@ -44,14 +44,14 @@
 
       MATRIX 12V DC Motors
       
-      ^^^
+^^^^^^
 
       .. figure:: images/5202-0002-0014.jpg
          :align: center
          :alt: 5202-0002-0014
          :width: 50%
             
-      +++
+++++++++++++
 
       Modern Robotics/MATRIX 12V DC Motors
 
@@ -90,7 +90,7 @@
       REV Robotics Core Hex 12V DC Motor
     
 モーターはロボットの主要な駆動装置です。すべてのモーターは 12V ブラシ付き DC モーターであり、
-競技マニュアルに記載されています。これらは、**REV Expansion Hub**、**REV Control Hub**、または **REV SPARKmini Motor Controller** 
+競技マニュアルに記載されています。これらは、**REV Expansion Hub** 、**REV Control Hub** 、または **REV SPARKmini Motor Controller** 
 を介してのみ制御できます。
 
 追加リソース

@@ -1,21 +1,21 @@
 バッテリーポート
---------------
+----------------
 
 .. danger:: 
-   バッテリー充電器をバッテリーポートに直接接続**しないでください**。これにより、保証が無効になり、Hub が故障します。
+   バッテリー充電器をバッテリーポートに直接接続**しないでください** 。これにより、保証が無効になり、Hub が故障します。
 
 黄色の `XT30 <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/xt-30-power-cable>`_ コネクタは、**REV Hub** とそれに接続されたすべてのデバイスに電力を供給するために使用されます。これらのポートの詳細については、`REV ドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#input-power-specifications>`_ を参照してください。これらのポートの1つは、アースストラップの接続にも使用できます。法的なアースストラップの詳細については、`競技マニュアル <https://ftc-resources.firstinspires.org/file/ftc/game/manual>`_ の電源分配セクションを参照してください。
 
 XT30 コネクタは脆弱性で知られているため、使用時には十分注意することを強くお勧めします。また、コネクタのピンを定期的に拡張することをお勧めします。REV には、XT30 コネクタのピンの拡張に関する `トラブルシューティング記事 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/control-hub-troubleshooting#xt30-pins-are-compressed>`_ があります。このプロセスの詳細については、この `YouTube ビデオ <https://www.youtube.com/watch?v=UYXTiSeVmB0>`_ をご覧ください。このビデオは XT30 の大型版である XT60 コネクタとドローンを取り上げていますが、アドバイスはほぼ同じです。
 
 モーターポート
--------------
+--------------
 
 これらの `JST-VH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-vh-motor-power>`_ スタイルコネクタは、モーターに電力を供給するために使用されます。各 Hub にはこれらのポートが 4 つあり、0〜3 の番号が付けられています。ロボットごとに 8 つのモーターを使用できるため、これらの Hub が許可する以上のモーターを制御したい場合があります。その場合、:ref:`追加の Hub<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` を使用するか、`REV SPARKmini Motor Controller <https://www.revrobotics.com/rev-31-1230/>`_（REV-31-1230）を使用してより多くのモーターに電力を供給することができます。このポートの詳細については、`REV モーターポートのドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#motor-port-specifications>`_ を参照してください。
 
 
 エンコーダーポート
---------------
+------------------
 
 これらの 4 ピン `JST-PH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-ph-sensors-and-rs485>`_ スタイルコネクタは、直交エンコーダーに使用されます。各 Hub にはこれらのポートが 4 つあり、隣接するモーターと組み合わせて使用できます。ただし、このポートを使用してスタンドアロンのインクリメンタルエンコーダーに接続することも可能です。4 つ以上のエンコーダーに接続するには、現在、追加の Hub を接続する必要があります。このポートの詳細については、`REV エンコーダーポートのドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#encoder-port-specifications>`_ を参照してください。
 
@@ -41,7 +41,7 @@ XT30 コネクタは脆弱性で知られているため、使用時には十分
 
 
 I2C ポート
----------
+----------
 
 .. todo::
    TODO [uvidyadharan]
@@ -58,5 +58,5 @@ RS485
 UART
 -----
 
-このコネクタは**開発者**（エンドユーザー以外）のデバッグにのみ使用されます。その使用は *FIRST* によってサポートされていません。
+このコネクタは**開発者** （エンドユーザー以外）のデバッグにのみ使用されます。その使用は *FIRST* によってサポートされていません。
 

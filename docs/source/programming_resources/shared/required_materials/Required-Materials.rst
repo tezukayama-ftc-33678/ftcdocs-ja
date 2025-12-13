@@ -48,11 +48,11 @@
    * - 必要な項目
      - 画像
 
-   * - ROBOT CONTROLLER として使用する **REV Robotics Control Hub**。
+   * - ROBOT CONTROLLER として使用する **REV Robotics Control Hub** 。
        または、競技マニュアルでは、チームが **REV Robotics Expansion Hub** と選択された **Android** 端末のリストを代わりに使用することを許可しています。 
      - |chandphones| |exhub|
    
-   * - DRIVER STATION デバイスとして使用する **REV Robotics Driver Hub**。
+   * - DRIVER STATION デバイスとして使用する **REV Robotics Driver Hub** 。
        または、競技マニュアルでは、チームが選択された **Android** 端末のリストを代わりに使用することを許可しています。詳細については、ルール R901 を参照してください。
      - |driverhub|
 
@@ -84,10 +84,10 @@
    * - 180 度標準スケールサーボ（Hitec HS-485HB など）。
      - |servo|
 
-   * - 4 ピンケーブル付き **REV Robotics Color Sensor**（REV-31-1154）。
+   * - 4 ピンケーブル付き **REV Robotics Color Sensor** （REV-31-1154）。
      - |color|
 
-   * - 4 ピンケーブル付き **REV Robotics Touch Sensor**（REV-31-1425）。
+   * - 4 ピンケーブル付き **REV Robotics Touch Sensor** （REV-31-1425）。
      - |touch|
   
    * - Logitech F310 USB ゲームパッド。

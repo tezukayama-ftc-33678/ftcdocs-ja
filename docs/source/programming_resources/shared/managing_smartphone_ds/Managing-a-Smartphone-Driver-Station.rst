@@ -9,7 +9,7 @@
 名前の変更
 ~~~~~~~~~~~~~~~~~
 
-**Competition Manual** に準拠するために、**Driver Station (DS)** の名前を変更する必要があります。チーム番号に合わせてデバイスを構成します。使用する **ROBOT CONTROLLER**、**DRIVER STATION**、および予備は、次のように正しいチーム番号に対応するように構成/名前を付ける必要があります：
+**Competition Manual** に準拠するために、**Driver Station (DS)** の名前を変更する必要があります。チーム番号に合わせてデバイスを構成します。使用する **ROBOT CONTROLLER** 、**DRIVER STATION** 、および予備は、次のように正しいチーム番号に対応するように構成/名前を付ける必要があります：
 
 A.     **ROBOT CONTROLLER** は <チーム番号>-RC（例：12345-RC）という名前にする必要があります。
 
