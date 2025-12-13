@@ -472,8 +472,8 @@ Referencing Sections Example
 In plain text, a section can be created and referenced like::
 
     Section Name
-----------------
-   
+    ----------------
+       
     This is a link to `Section Name`_
 
 As another real-life example within this document, I can jump to the top
