@@ -1,9 +1,9 @@
 JavaScript 対応ブラウザのインストール
 =======================================
 
-**Blocks** プログラミングツールまたは **OnBot Java** プログラミングツールを使用して **Robot Controller** をプログラムできるようにするには、ラップトップに JavaScript 対応ブラウザが必要です。両方のツールは、**Robot Controller** の Program and Manage サーバーによって提供される JavaScript アプリケーションです。
+**Blocks**プログラミングツールまたは**OnBot Java**プログラミングツールを使用して**Robot Controller**をプログラムできるようにするには、ラップトップに JavaScript 対応ブラウザが必要です。両方のツールは、**Robot Controller** の Program and Manage サーバーによって提供される JavaScript アプリケーションです。
 
-**Blocks** プログラミングツールと **OnBot Java** プログラミングツールは、ほとんどの最新のウェブブラウザで動作するはずです。ただし、**FIRST** は、これらのツールで Google Chrome を使用することを強く推奨しています。ブラウザとして Google Chrome を使用したい場合は、Google Chrome ウェブサイトから無料でダウンロードできます。
+**Blocks**プログラミングツールと**OnBot Java**プログラミングツールは、ほとんどの最新のウェブブラウザで動作するはずです。ただし、**FIRST** は、これらのツールで Google Chrome を使用することを強く推奨しています。ブラウザとして Google Chrome を使用したい場合は、Google Chrome ウェブサイトから無料でダウンロードできます。
 
 JavaScript 対応ブラウザのダウンロードとインストールには、推定 15 分（インターネット接続の速度による）かかることに注意してください。
 

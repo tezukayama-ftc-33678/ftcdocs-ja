@@ -9,7 +9,7 @@ These tags form an **AprilTag Library**. Each Library tag has a set of 4
 to 6 properties, described at the **Metadata** page.
 
 This page shows many ways to create an AprilTag Library. The
-**Initialization** page explained this is the optional **Step 1** of
+**Initialization**page explained this is the optional**Step 1** of
 preparing to use AprilTags in an OpMode.
 
 **Try these examples in order**, to master the use of AprilTag
@@ -81,7 +81,7 @@ Libraries, and nothing else. This is the default, called
 AprilTag Processor
 ~~~~~~~~~~~~~~~~~~
 
-Specifying **any aspect** of a Processor is done with a **Processor
+Specifying **any aspect**of a Processor is done with a**Processor
 Builder**, requiring at least 2 commands:
 
 -  create the Builder, using the Java keyword ``new``
@@ -109,7 +109,7 @@ tags.
 
          Setting Current Game Tag Library
 
-      **Around this** (before and after), place one Block to **create** the
+      **Around this**(before and after), place one Block to**create** the
       Processor Builder, and another Block to **finalize** the process with
       ``.build()``.
 
@@ -166,7 +166,7 @@ name. Then specify that name for the AprilTag Processor. Here we use
          Set the Tag Library
 
       As before, **around this** (before and after), place one Block to
-      **create** the Processor Builder, and another Block to **finalize** the
+      **create**the Processor Builder, and another Block to**finalize** the
       process with ``.build()``.
 
       .. figure:: images/050-Blocks-ATprocessor-CurrentGame-Variable.png
@@ -356,7 +356,7 @@ Variable to create a new AprilTag.
    .. tab-item:: Java
       :sync: java
 
-      The custom tag is added with **two lines** of code, replacing the **one
+      The custom tag is added with **two lines**of code, replacing the**one
       new line** in the previous example.
 
       .. code-block:: java
@@ -393,7 +393,7 @@ Variable to create a new AprilTag.
          myAprilTagProcessor = myAprilTagProcessorBuilder.build();
 
 For Blocks or Java, multiple tags could be added with multiple
-(shorter!) Variable names, such as ``myTag1``, ``myTag2``, etc.
+(shorter!) Variable names, such as ``myTag1``,``myTag2``, etc.
 
 Overwriting
 ~~~~~~~~~~~
@@ -402,7 +402,7 @@ You might create a custom AprilTag with the **same ID code** as a tag
 already in the Library. This is **overwriting**, which you can allow or
 not allow.
 
-If ``setAllowOverwrite()`` is set to ``false`` (the default) and
+If ``setAllowOverwrite()``is set to``false`` (the default) and
 overwrite is attempted, the OpMode will crash with a suitable error
 message.
 

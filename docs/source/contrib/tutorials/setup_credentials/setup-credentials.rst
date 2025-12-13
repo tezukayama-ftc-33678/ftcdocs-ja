@@ -7,7 +7,7 @@ Setup Git Credentials
 This step enables you to push changes to your forked repository. It is necessary 
 inorder for GitHub to authenticate you as an authorized user.
 
-1. Install `GitHub CLI <https://cli.github.com/>`_
+1. Install `GitHub CLI <https://cli.github.com/>`__
 2. Enter the following command in your terminal to authenticate with GitHub:
 
    .. code-block:: bash

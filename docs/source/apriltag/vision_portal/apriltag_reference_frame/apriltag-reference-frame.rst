@@ -4,9 +4,9 @@ AprilTag Reference Frame
 Introduction
 ------------
 
-Before discussing AprilTag **pose** (at the next page), the **FTC axes** or
+Before discussing AprilTag **pose**(at the next page), the**FTC axes** or
 reference frame must be described.  Pose data is based on the **camera's
-point of view**, and requires a **flat AprilTag**.
+point of view**, and requires a**flat AprilTag**.
 
 Here are the axis designations in the new SDK:
 

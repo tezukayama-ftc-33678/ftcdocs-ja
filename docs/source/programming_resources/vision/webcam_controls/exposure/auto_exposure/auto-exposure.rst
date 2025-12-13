@@ -13,10 +13,10 @@ AE Priority を ``false`` に設定すると（デフォルト）、カメラは
    exposureControl = vuforia.getCamera().getControl(ExposureControl.class);
    exposureControl.setAePriority(true);  // または false
 
-このメソッドは **SDK** 7.0 で導入されました。これは **Vuforia** カメラでのみ機能します（**AprilTag** プロセッサーまたは TFOD プロセッサーと組み合わせて使用する場合）。
+このメソッドは **SDK**7.0 で導入されました。これは**Vuforia**カメラでのみ機能します（**AprilTag** プロセッサーまたは TFOD プロセッサーと組み合わせて使用する場合）。
 
 **VisionPortal** では、AE Priority は ``VisionPortal.Builder.setCameraMonitorViewId()`` を使用してカメラモニター（DS プレビュー）が有効になっている場合にのみ機能します。
 
-実験によると、AE Priority が ``true`` に設定されている場合、より長い露出時間（約 40 ミリ秒まで）を設定できます。AE Priority が ``false`` に設定されている場合（デフォルト）、露出時間は約 16 ミリ秒に制限されるようです。
+実験によると、AE Priority が ``true``に設定されている場合、より長い露出時間（約 40 ミリ秒まで）を設定できます。AE Priority が``false`` に設定されている場合（デフォルト）、露出時間は約 16 ミリ秒に制限されるようです。
 
 注：露出時間の設定方法については、:doc:`露出制御 </programming_resources/vision/webcam_controls/exposure/control/control>` を参照してください。

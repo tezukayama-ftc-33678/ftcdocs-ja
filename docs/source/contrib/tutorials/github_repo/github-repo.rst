@@ -27,7 +27,7 @@ The GitHub repository is where all of the source files for this website are kept
 
    Figure 1: ftcdocs GitHub Repository
 
-This main **code page** is where you'll do most of your work. It's called a **code
+This main **code page**is where you'll do most of your work. It's called a**code
 page** because by default the ``< > Code`` tab of the repository is selected,
 and this is the page that we're currently viewing. For software projects, the
 **code page** is where code is stored; for us, this is where our *content* is

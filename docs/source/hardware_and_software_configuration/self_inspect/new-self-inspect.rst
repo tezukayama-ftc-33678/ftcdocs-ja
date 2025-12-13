@@ -5,16 +5,16 @@
 はじめに
 ------------
 
-このページでは、**Driver Station** （DS）アプリと**Robot Controller** （RC）アプリにおける Self Inspect 画面について説明します。
+このページでは、**Driver Station**（DS）アプリと**Robot Controller** （RC）アプリにおける Self Inspect 画面について説明します。
 
 Self Inspect 画面は、FTCの制御システムに関するルールに基づき、デバイスの状態をスナップショットとして表示します。
 これらのルールは、競技マニュアル（Competition Manual）に記載されており、
-`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_（**FIRST** 公式サイト）で確認できます。
+`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`__（**FIRST** 公式サイト）で確認できます。
 
 .. tip::
-   `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ を使うことで、イベント前にロボットのセルフ検査が可能です。イベント前のセルフ検査を強く推奨します。
+   `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`__ を使うことで、イベント前にロボットのセルフ検査が可能です。イベント前のセルフ検査を強く推奨します。
    
-   また、`Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ には合法・非合法部品の例が掲載されています（ただし競技マニュアルの代用にはなりません）。
+   また、`Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`__ には合法・非合法部品の例が掲載されています（ただし競技マニュアルの代用にはなりません）。
 
 Self Inspect 画面は、制御システムの各要素が最新かつ正しく構成されているかをチームが確認するための、簡易的な参考情報として提供されています。
 
@@ -26,9 +26,9 @@ Self Inspect 画面は、制御システムの各要素が最新かつ正しく�
 ロボット検査
 ----------------
 
-Self Inspect レポートはFTC大会のロボット検査時に参照されることがありますが、FTCルールへの完全な準拠や公式基準を示すものでは** ありません** 。
-ロボットと**Driver Station** が起動・接続された状態で、検査員は紙またはタブレットの**Inspection Checklist** フォームを使って確認します。
-**Driver Station Inspection Report** と**Robot Controller Inspection Report** の両方をDSから表示できます。
+Self Inspect レポートはFTC大会のロボット検査時に参照されることがありますが、FTCルールへの完全な準拠や公式基準を示すものでは**ありません** 。
+ロボットと**Driver Station**が起動・接続された状態で、検査員は紙またはタブレットの**Inspection Checklist** フォームを使って確認します。
+**Driver Station Inspection Report**と**Robot Controller Inspection Report** の両方をDSから表示できます。
 多くのFTCイベントでは、RCインスペクトレポートに表示されるQRコードをスキャンします。
 
 
@@ -41,7 +41,7 @@ Self Inspect レポートはFTC大会のロボット検査時に参照される�
 
 .. note::
    本ページの画像はFTCアプリのバージョン10.3以降のものです。
-   Driver HubとControl Hubのペアのみを例示しています。スマートフォンを**Driver Station** や**Robot Controller** として使う場合は若干異なる場合があります。
+   Driver HubとControl Hubのペアのみを例示しています。スマートフォンを**Driver Station**や**Robot Controller** として使う場合は若干異なる場合があります。
    バージョン10.2以前の画面は :doc:`old self-inspect<self-inspect>` を参照してください。
 
 **FIRST** は、ファームウェア・Android OS・FTCアプリの最新版使用を推奨しますが、必須ではありません。
@@ -51,7 +51,7 @@ FTCの各シーズンでFTCアプリのメジャーバージョンがリリー�
 ゲームに**AprilTag** が含まれる場合、SDKには :doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` 情報が含まれ、ロボットのフィールド上の位置を特定できます。
 シーズン中は、マイナーバージョン（例：11.1、11.2など）でバグ修正や機能追加が行われます。
 
-どのバージョンを選択しても、インストールされている**Robot Controller** アプリと**Driver Station** アプリのメジャー・マイナーバージョンが一致していることを強く推奨します。すべてのバージョンが互換性を持つわけではありません。
+どのバージョンを選択しても、インストールされている**Robot Controller**アプリと**Driver Station** アプリのメジャー・マイナーバージョンが一致していることを強く推奨します。すべてのバージョンが互換性を持つわけではありません。
 
 チームは、ロボット検査の合否に影響なく、古いバージョンを使用することも可能です。
 
@@ -73,18 +73,18 @@ Driver Station Self Inspect レポート
 
    すべての項目が正常
 
--  項目1：三点リーダーはメニューで、``Disconnect from Wi-Fi Direct`` と``Disable Bluetooth`` の2つの選択肢があります。
-   Control HubとペアになっているDriver Hubでは通常不要ですが、スマートフォンを**Driver Station** や**Robot Controller** として使う場合に利用します。
+-  項目1：三点リーダーはメニューで、``Disconnect from Wi-Fi Direct``と``Disable Bluetooth`` の2つの選択肢があります。
+   Control HubとペアになっているDriver Hubでは通常不要ですが、スマートフォンを**Driver Station**や**Robot Controller** として使う場合に利用します。
    ``Disconnect from Wi-Fi Direct`` は動作しますが、アプリが自動で再ペアリングすることがあります。
    ``Disable Bluetooth`` は、DSでBluetoothが有効になっている場合以外は不要です。
 -  項目2：``Manufacturer`` はREV Driver Hubの場合、**REV Robotics** である必要があります。
 -  項目3：``Model`` は**Driver Hub** である必要があります。
 -  項目4：``Driver Hub OS Version`` は通常1.2.0です。
 -  項目5：``Android Version`` はDriver Hubの場合、通常10です。
--  項目6：``Battery Level`` はデバイスのバッテリー残量を表示します。豆知識：残量が減るとパーセンテージの緑色が** オレンジ** に近づきます。
+-  項目6：``Battery Level`` はデバイスのバッテリー残量を表示します。豆知識：残量が減るとパーセンテージの緑色が**オレンジ** に近づきます。
 -  項目7：``Bluetooth`` は**Disabled** （無効）である必要があります。
--  項目8：``Location services`` は**Enabled** （有効）である必要がありますが、**Android 8** 以上のデバイスのみ表示されます。これはSDK/Androidの技術要件であり、FTCルールではありません。
--  項目9：``Wi-Fi Enabled`` は**Yes** （はい）である必要があります。DSデバイスのWi-Fiが**ON** であることを示します。
+-  項目8：``Location services`` は**Enabled**（有効）である必要がありますが、**Android 8** 以上のデバイスのみ表示されます。これはSDK/Androidの技術要件であり、FTCルールではありません。
+-  項目9：``Wi-Fi Enabled`` は**Yes**（はい）である必要があります。DSデバイスのWi-Fiが**ON** であることを示します。
 -  項目10：``Standard Wi-Fi Connected`` は**Yes** （はい）である必要があります。Driver HubがControl Hubなどの標準Wi-Fiに接続されていることを示します。
 -  項目11：``Driver Station Name`` はFTCの命名規則に合致している必要があります。チーム番号＋-DS（例：99999-DS）です。
    予備デバイスの場合は、<チーム番号>-<英字>-DS（例：12345-A-DS、12345-B-DS）となります。命名規則は競技マニュアルを参照してください。
@@ -97,11 +97,11 @@ Driver Station Self Inspect レポート
 
 ==================================
 
-以下は、Self Inspect で一部項目が** 不合格** となったDriver Stationのレポート例です。
+以下は、Self Inspect で一部項目が**不合格** となったDriver Stationのレポート例です。
 問題は赤丸の感嘆符アイコン、またはオレンジ三角の感嘆符アイコンで示されます。
 
 このDriver Hubはファームウェアリセットされ、DSバージョンが7に戻り、すべてのシステム・DSアプリ設定が初期化されました。
-その後、`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_でDSバージョン10.3にアップデートし、FTCRobotControllerアプリもAndroid StudioからDSデバイスにインストールしました。
+その後、`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`__でDSバージョン10.3にアップデートし、FTCRobotControllerアプリもAndroid StudioからDSデバイスにインストールしました。
 
 .. figure:: images/newDSerrors.png   
    :align: center
@@ -152,12 +152,12 @@ Robot Controller Self Inspect レポート
 -  項目9：``RC Password`` は RC Self Inspect のみに表示されます。この項目が不合格の場合、Control Hubの初期パスワード（"password"）から変更されていないことを示します。
    Program and ManageページでManageを選択し、RCパスワードを更新してください。
    DSとRCの再ペアリング後、新しいパスワードを入力して再接続する必要があります。
--  項目10：``Wi-Fi Enabled`` は**Yes** （はい）である必要があります。Control HubのWi-Fiが**ON** であることを示します。
+-  項目10：``Wi-Fi Enabled`` は**Yes**（はい）である必要があります。Control HubのWi-Fiが**ON** であることを示します。
 -  項目11：``Standard Wi-Fi Connected`` は**Yes** （はい）である必要があります。
 -  項目12：``Robot Controller Name`` はFTC命名規則に合致している必要があります。チーム番号＋-RC（例：99999-RC）です。
    予備デバイスの場合は、<チーム番号>-<英字>-RC（例：12345-A-RC、12345-B-RC）となります。命名規則は競技マニュアルを参照してください。
 -  項目13：Apps Installed ``Robot Controller`` はRCアプリのバージョンを表示します。**FIRST** は最新版の使用を推奨しますが、必須ではありません。
--  項目14：``Matches DS Version`` は**Yes** （はい）である必要があります。**No** の場合はバージョンの小数点以下（例：10.0と10.1）が一致していないことが原因です。バージョン不一致は許容されますが、推奨されません。
+-  項目14：``Matches DS Version`` は**Yes**（はい）である必要があります。**No** の場合はバージョンの小数点以下（例：10.0と10.1）が一致していないことが原因です。バージョン不一致は許容されますが、推奨されません。
 -  項目15：Apps Installed ``Driver Station`` は**Not installed** （未インストール）である必要があります。Robot ControllerデバイスにDriver Stationアプリがインストールされていないことを確認します。
    各デバイスにはFTCアプリを1つだけインストールしてください。両方インストールすると正常に動作しない場合があります。
 -  項目16：RCインスペクトレポートの最下部にはQRコードが表示され、検査員がタブレットを使って検査チェックリスト項目を自動入力できます。
@@ -174,7 +174,7 @@ Robot Controller Self Inspect レポート
 
 Self Inspect 画面は、制御システムの各要素が最新かつ正しく構成されているかをチームが確認するための、簡易的な参考情報です。
 
-Self Inspect はFTC大会のロボット検査時に参照されることがありますが、FTCルールへの完全な準拠や公式基準を示すものでは** ありません** 。
+Self Inspect はFTC大会のロボット検査時に参照されることがありますが、FTCルールへの完全な準拠や公式基準を示すものでは**ありません** 。
 
 各検査画面は、ロボットの再起動有無にかかわらず自動で更新されるため、問題が解決されたかをすばやく確認できます。
 

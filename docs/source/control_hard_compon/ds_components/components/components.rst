@@ -41,8 +41,8 @@ Android デバイス
 
       Moto E5
 
-**Driver Station** の中心は、**Driver Station App** を実行する Android デバイスです。
-この Android デバイスの要件は、`REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ 
+**Driver Station**の中心は、**Driver Station App** を実行する Android デバイスです。
+この Android デバイスの要件は、`REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`__ 
 の使用、または競技マニュアルに記載されている承認された Android スマートフォンのいずれかによって満たすことができます。
 **Driver Station App** を、競技マニュアルで定義されている最小バージョン以上のバージョンに更新することが非常に重要です。
 
@@ -108,7 +108,7 @@ Android デバイス
 Android スマートフォンで使用するには、USB-OTG アダプターケーブルを使用する必要があります。
 このケーブルは、ゲームパッドまたは周辺機器（複数のゲームパッドを使用できるようにする USB ハブなど）用の
 USB Type A ポートを提供します。利用可能な場合は、
-`REV UltraUSB（REV-31-1592）<https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`_ のような
+`REV UltraUSB（REV-31-1592）<https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`__ のような
 OTG ケーブルが組み込まれた USB ハブを使用することをお勧めします。
 これにより、システムの接続数と障害ポイントが削減されます。
 

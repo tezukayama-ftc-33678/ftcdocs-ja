@@ -4,7 +4,7 @@ Color Locator (Challenge)
 Overview
 --------
 
-This **Challenge** page introduces Color Locator settings that were **not mentioned in the Sample OpMode**.  It assumes you have already followed this tutorial's previous pages:
+This **Challenge**page introduces Color Locator settings that were**not mentioned in the Sample OpMode**.  It assumes you have already followed this tutorial's previous pages:
 
 
 * :doc:`Discover <../color-locator-discover/color-locator-discover>` page, to open and test the Sample OpMode
@@ -257,7 +257,7 @@ Select and read the Blocks **or** Java section below:
    .. tab-item:: Java
       :sync: java
 
-      Import the ``Color`` class if needed, then add any of the ``.set...``
+      Import the ``Color``class if needed, then add any of the``.set...``
       methods to the Processor Builder pattern:
 
       .. code-block:: java
@@ -293,7 +293,7 @@ Select and read the Blocks **or** Java section below:
 
          Displaying Corner Points via Telemetry
 
-      The ``.points`` and ``Point.x`` and ``Point.y`` Blocks are in the
+      The ``.points``and``Point.x``and``Point.y`` Blocks are in the
       "Vision/ColorBlobLocator/Blob data" toolbox.
 
       The Function uses its own **For Loop** to cycle through the ``myPoints``
@@ -360,7 +360,7 @@ Select and read the Blocks **or** Java section below:
 
          Getting the list of contour points
 
-      The ``.ContourPoints`` and ``Point.x`` and ``Point.y`` Blocks are in the
+      The ``.ContourPoints``and``Point.x``and``Point.y`` Blocks are in the
       "Vision/ColorBlobLocator/Blob data" toolbox.
 
       The Function uses its own **For Loop** to cycle through the
@@ -489,7 +489,7 @@ boxFit already had an angle of 0 (or 90) degrees, the new rectangle will be
 identical.
 
 In Blocks and Java, the command ``boundingRect()`` accepts a boxFit of type
-``RotatedRect`` and returns a horizontal rectangle of type ``Rect``.  The new
+``RotatedRect``and returns a horizontal rectangle of type``Rect``.  The new
 rectangle is not drawn or depicted in the preview.
 
 Select and read the Blocks **or** Java section below:
@@ -514,7 +514,7 @@ Select and read the Blocks **or** Java section below:
       :sync: java
 
       Here's a modified version of the Sample OpMode's telemetry code, to
-      display only the **top left corner** and **size** of the horizontal
+      display only the **top left corner**and**size** of the horizontal
       rectangle around the boxFit being processed.
 
       .. code-block:: java
@@ -538,8 +538,8 @@ Select and read the Blocks **or** Java section below:
       Pay attention to classes and fields:
 
       * boxFit is of Java type ``RotatedRect``, even though it's not usually rotated
-      * the new method ``boundingRect()`` returns an object of type ``Rect``
-      * the ``Size`` and ``Rect`` classes both have fields named ``height`` and ``width``
+      * the new method ``boundingRect()``returns an object of type``Rect``
+      * the ``Size``and``Rect``classes both have fields named``height``and``width``
 
 Advanced Development
 --------------------

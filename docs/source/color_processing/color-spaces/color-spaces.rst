@@ -65,7 +65,7 @@ not apply for painted colors, or printed colors, which use other color systems.
 .. tip::
    Mixing red paint, green paint and blue paint will **not** create white paint!
 
-Technical information is available at `Wikipedia Color Spaces <https://en.wikipedia.org/wiki/RGB_color_spaces>`_.
+Technical information is available at `Wikipedia Color Spaces <https://en.wikipedia.org/wiki/RGB_color_spaces>`__.
 
 HSV Color Space
 ---------------
@@ -89,7 +89,7 @@ value of 255 is the fully saturated color (no white).
 face of the cone (Value = 255), is the fully bright color.  Black is found at
 the lower tip, Value = 0.
 
-Technical information is available at `Wikipedia HSL/HSV <https://en.wikipedia.org/wiki/HSL_and_HSV>`_.
+Technical information is available at `Wikipedia HSL/HSV <https://en.wikipedia.org/wiki/HSL_and_HSV>`__.
 
 YCrCb Color Space
 -----------------
@@ -105,7 +105,7 @@ A third Color Space used by OpenCV is **YCrCb**.
 
 The Y is **Luminance** or brightness, while Cr and Cb are red and blue
 components of **Chrominance**.  Technical information is available at
-`Wikipedia YCbCr <https://en.wikipedia.org/wiki/YCbCr>`_.
+`Wikipedia YCbCr <https://en.wikipedia.org/wiki/YCbCr>`__.
 
 The YCrCb Color Space offers efficient computation of color processing, and is
 widely used in video applications.

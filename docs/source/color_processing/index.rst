@@ -9,7 +9,7 @@ Processing** features from OpenCV, a popular and powerful open-source library
 for vision processing.
 
 Introduced with INTO THE DEEP, these new features will help *FIRST* Tech Challenge teams
-**identify colors** and **process color blobs**\ , useful in any game requiring
+**identify colors**and**process color blobs**\ , useful in any game requiring
 color and shape recognition.
 
 Here's the outline of this tutorial's main pages:
@@ -26,7 +26,7 @@ Here's the outline of this tutorial's main pages:
    color-locator-round-blobs/color-locator-round-blobs
    color-spaces/color-spaces
 
-Much credit to developer and Sample OpMode author `@gearsincorg <https://github.com/gearsincorg>`_, EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`_, FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`_, and the open-source team at `OpenCV <https://opencv.org/>`_.
+Much credit to developer and Sample OpMode author `@gearsincorg <https://github.com/gearsincorg>`__, EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__, FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__, and the open-source team at `OpenCV <https://opencv.org/>`__.
 
 Compatibility
 -------------
@@ -56,12 +56,12 @@ The new software includes these processors:
 This tutorial has a :doc:`Color Sensor <color-sensor/color-sensor>` page, showing how
 to use the Sample OpMode called ``ConceptVisionColorSensor``.
 
-For the **Color Locator** processor, the color "clusters" are called **Blobs**.
+For the **Color Locator**processor, the color "clusters" are called**Blobs**.
 As listed above, this tutorial offers one page on Color Blob Concepts, and
 four pages covering the Sample OpModes called ``ConceptVisionColorLocator_Rectangle`` 
 and ``ConceptVisionColorLocator_Circle``.
 
-The Sample OpModes are available in **FTC Blocks**\ , and in **Java** for use
+The Sample OpModes are available in **FTC Blocks**\ , and in**Java** for use
 in OnBot Java or Android Studio.  Each programming section of this tutorial has
 a Blocks tab and a Java tab.
 
@@ -73,7 +73,7 @@ Time to get started!
 Following this tutorial in order, first try the Sample OpModes for :doc:`Color
 Sensor <color-sensor/color-sensor>`.
 
-Then read about **Color Blob Concepts**\ , and try the **Color Locator** Sample
+Then read about **Color Blob Concepts**\ , and try the**Color Locator** Sample
 OpModes.
 
 Soon you'll be ready to add one or both features to your Autonomous OpModes --

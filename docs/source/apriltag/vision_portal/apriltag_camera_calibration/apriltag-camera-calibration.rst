@@ -123,7 +123,7 @@ among 4 webcams:
 -  Microsoft Lifecam HD 3000 v1/v2, 640x480
 
 These are found in the SDK file ``builtinwebcamcalibrations.xml``. In
-Android Studio, navigate to the subfolders ``RobotCore``, ``res``,
+Android Studio, navigate to the subfolders ``RobotCore``,``res``,
 ``xml``.
 
 Android RC phone cameras also need calibration data for good pose

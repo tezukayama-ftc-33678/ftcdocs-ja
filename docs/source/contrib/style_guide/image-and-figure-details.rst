@@ -36,7 +36,7 @@ Example
 Image Directive
 ---------------
 
-``.. image`` ディレクティブを使用して、キャプションが ** 不要な** 画像を含めます。
+``.. image`` ディレクティブを使用して、キャプションが **不要な** 画像を含めます。
 画像にキャプションが必要かどうかを判断します。写真のクレジットにはキャプションが必要です。複雑な画像にはおそらくキャプションが必要です。
 画像をページのコンテンツに結び付けるために編集的または説明的な説明が必要なものはすべて、キャプションが必要です。 
 
@@ -63,7 +63,7 @@ See `Alt Text`_ for more information about alt text.
    画像の機能的な説明を含む ``:alt:`` オプションを追加することを検討してください。
 
 image ディレクティブには多くのオプションがありますが、FTC Docs ではそのほとんどを推奨していません。
-これは新しいガイダンスであり、多くの既存のページでは **width** と **align** が指定されています。
+これは新しいガイダンスであり、多くの既存のページでは **width**と**align** が指定されています。
 とにかくそのページのコンテンツを変更している場合は、それらを削除する価値があるかもしれません。
 
 Image Options
@@ -130,7 +130,7 @@ width, height, scale
    Then provide a separate PDF download that they can print to get accurately sized AprilTags.
    
    If you want to keep the **width** option (perhaps the image size is too big for the page), 
-   then for accessibility we recommend you add the **class** option with **no-scaled-link** e.g. ``:class: no-scaled-link``
+   then for accessibility we recommend you add the **class**option with**no-scaled-link** e.g. ``:class: no-scaled-link``
    This tells Sphinx to not create the link, but the images will have the width you want.
    Though a better option might be to change the resolution of the image if relevant detail can be preserved.
 
@@ -239,7 +239,7 @@ While both the alt attribute and the figcaption element provide a way to describ
 
 If the caption is just a functional description of the image, maybe you don't need a caption and can use the image directive instead.
 
-See more examples of `alt text and captions <https://thoughtbot.com/blog/alt-vs-figcaption#writing-for-alt-and-figcaption>`_ on this Thoughbot blog post.
+See more examples of `alt text and captions <https://thoughtbot.com/blog/alt-vs-figcaption#writing-for-alt-and-figcaption>`__ on this Thoughbot blog post.
 
 .. We probably need more examples of alt text with captions. I'm not sure this is trivial, so more examples would be nice.
 
@@ -274,7 +274,7 @@ We don't want the ``:alt:`` line to be blank for a figure.
 A screen reader will have probably spoken that there is a figure, without alt text the screen reader will skip over announcing the image and read the caption
 leaving the user wondering what the caption is referring to.
 
-The ``.. figure`` directive supports all options of the ``.. image`` directive. These options (except align) are passed on to the contained image.
+The ``.. figure``directive supports all options of the``.. image`` directive. These options (except align) are passed on to the contained image.
 
 * ``:align:``  "left", "center", or "right". 
    The horizontal alignment of the figure, allowing the image to float and have the text flow around it. The specific behavior depends upon the browser or rendering software used.

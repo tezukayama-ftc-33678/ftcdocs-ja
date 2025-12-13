@@ -4,10 +4,10 @@ Expansion Hub の追加
 はじめに
 ~~~~~~~~~~~~
 
-単一の **REV Robotics Control Hub** または **Expansion Hub** には、限られた数の入出力（I/O）ポートしかありません。場合によっては、利用可能なポート数よりも多くのデバイスを使用したい場合があります。このような場合、最初の Hub に **Expansion Hub** を接続して、I/O ポートを追加する必要があるかもしれません。
+単一の **REV Robotics Control Hub**または**Expansion Hub**には、限られた数の入出力（I/O）ポートしかありません。場合によっては、利用可能なポート数よりも多くのデバイスを使用したい場合があります。このような場合、最初の Hub に**Expansion Hub** を接続して、I/O ポートを追加する必要があるかもしれません。
 
 このドキュメントでは、FIRST Tech Challenge で使用する追加の **Expansion Hub** を接続および構成する方法について説明します。FIRST Tech Challenge
-競技マニュアルは、単一のロボット上の **Control Hub** または **Expansion Hub** の最大数を 2 つに制限しています。
+競技マニュアルは、単一のロボット上の **Control Hub**または**Expansion Hub** の最大数を 2 つに制限しています。
 
 必要な機器
 ~~~~~~~~~~~~~~~~
@@ -59,13 +59,13 @@ XT30 延長ケーブルを使用して、**Control Hub** の XT30 電源ポー�
 
 .. note:: 画像はこちらに挿入予定
 
-2. **Control Hub** と **Expansion Hub** は、デバイス間の通信に RS-485 シリアルバス標準を使用します。
+2. **Control Hub**と**Expansion Hub** は、デバイス間の通信に RS-485 シリアルバス標準を使用します。
 3 ピン JST PH ケーブルを使用して、**Control Hub** の「RS485」とラベル付けされたポートの 1 つを、
 **Expansion Hub** の「RS485」とラベル付けされたポートの 1 つに接続できます。
 
 .. note:: 画像はこちらに挿入予定
 
-**Expansion Hub** または **Control Hub** でどの「RS485」ポートを選択するかは重要ではありません。
+**Expansion Hub**または**Control Hub** でどの「RS485」ポートを選択するかは重要ではありません。
 どちらのポートでも機能するはずです。
 
 
@@ -80,22 +80,22 @@ XT30 延長ケーブルを使用して、**Control Hub** の XT30 電源ポー�
 両方のデバイスの構成
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Expansion Hub** と **Control Hub** をデイジーチェーン接続できた場合、
+**Expansion Hub**と**Control Hub** をデイジーチェーン接続できた場合、
 両方のデバイスを含む新しい構成ファイルを作成できるはずです。
 
-** 注：** **Control Hub** のみを含む構成が既にある場合は、構成を編集して
+**注：** **Control Hub** のみを含む構成が既にある場合は、構成を編集して
 「Scan」ボタンを押すことで **Expansion Hub** を追加できます。
 
-**Driver Hub** を **Control Hub** の WiFi ネットワークに接続し、**Driver Station** アプリから
+**Driver Hub**を**Control Hub**の WiFi ネットワークに接続し、**Driver Station** アプリから
 Configure Robot オプションを選択します。**New** ボタンを押して、新しい構成ファイルを作成します。
-最初にハードウェアをスキャンすると、**Robot Controller** は組み込みの **Control Hub** を検出するはずです。
-**Robot Controller** は、このデバイスに自動的に **Control Hub** 「Portal」とラベル付けします。
+最初にハードウェアをスキャンすると、**Robot Controller**は組み込みの**Control Hub** を検出するはずです。
+**Robot Controller**は、このデバイスに自動的に**Control Hub** 「Portal」とラベル付けします。
 **Robot Controller** は、このポータルを介して個々の Hub と通信します。
 
 
 <INSERT IMAGE>
 
-構成画面の Portal アイテムをクリックすると、**Control Hub** と **Expansion Hub** の
+構成画面の Portal アイテムをクリックすると、**Control Hub**と**Expansion Hub** の
 両方がリストされているはずです。
 
 <INSERT IMAGE>
@@ -104,13 +104,13 @@ Configure Robot オプションを選択します。**New** ボタンを押し�
 ロボットが再起動された後、両方の Hub の LED が緑色に点灯するはずです。
 **Expansion Hub** では、LED が約 5 秒ごとに青色に点滅するはずです。
 
-おめでとうございます。**Control** と **Expansion Hub** の組み合わせを使用する準備が整いました！
+おめでとうございます。**Control**と**Expansion Hub** の組み合わせを使用する準備が整いました！
 これらの Hub を個々の Hub と同じように構成および操作できます。
 
 Using Two Expansion Hubs
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Control Hub** にアクセスできないチームは、ロボットで 2 つの **Expansion Hub** を使用できます。
+**Control Hub**にアクセスできないチームは、ロボットで 2 つの**Expansion Hub** を使用できます。
 
 Additional Equipment Needed
 ---------------------------
@@ -125,7 +125,7 @@ Additional Equipment Needed
    * - 必要なアイテム
      - 画像
 
-   * - **FIRST** 承認の Android スマートフォンで、**FTC Robot Controller**
+   * - **FIRST**承認の Android スマートフォンで、**FTC Robot Controller**
        アプリがインストールされているもの。**FIRST** 承認の Android スマートフォンのリストについては、
        現在の競技マニュアルを参照してください。
      - .. figure:: images/oneAndroidPhone.jpg
@@ -145,15 +145,15 @@ Changing the Address of an Expansion Hub
 You can use the Advanced Settings menu of the Robot Controller App
 to change the address of any connected Expansion Hubs.
 
-** 重要な注意：** 両方の **Expansion Hub** が同じアドレスを持っている場合、
+**重要な注意：** 両方の**Expansion Hub** が同じアドレスを持っている場合、
 または箱から取り出したばかりの場合（デフォルトでは、アドレスは 2 に設定されています）、
 それらを接続する _前に_ 一方のアドレスを変更する必要があります。
 このガイドでは、2 番目の **Expansion Hub** を接続する前に、
 最初の **Expansion Hub** のアドレスを設定することを前提としています。
 
-最初の **Expansion Hub** を 12V バッテリーと **Robot Controller** に接続した状態で、
-**Robot Controller** アプリから **Settings** メニューを起動します（**DRIVER STATION** が
-**Robot Controller** とペアリングされている場合は、**Driver Station** アプリからこれを行うこともできます）。
+最初の **Expansion Hub**を 12V バッテリーと**Robot Controller** に接続した状態で、
+**Robot Controller**アプリから**Settings**メニューを起動します（**DRIVER STATION** が
+**Robot Controller**とペアリングされている場合は、**Driver Station** アプリからこれを行うこともできます）。
 
 1. **Advanced Settings** アイテムを選択して、Advanced Settings メニューを表示します。
 
@@ -168,7 +168,7 @@ to change the address of any connected Expansion Hubs.
 
 3. **Expansion Hub** の USB シリアル番号と現在割り当てられているアドレスが表示されるはずです。
 
-** 重要な注意：** 物理的に接続され、電源が入っている **Expansion Hub** が表示されない場合、
+**重要な注意：** 物理的に接続され、電源が入っている**Expansion Hub** が表示されない場合、
 アドレスの競合がある可能性があります。これが発生した場合は、
 アドレスを変更したい Hub 以外のすべての **Expansion Hub** を切断してください。
 
@@ -228,7 +228,7 @@ Configuring Your Expansion Hubs
 2 つの **Expansion Hub** をデイジーチェーン接続できた場合、
 両方のデバイスを含む新しい構成ファイルを作成できるはずです。
 
-** 注：** USB 接続された **Expansion Hub** のみを含む構成が既にある場合は、
+**注：** USB 接続された**Expansion Hub** のみを含む構成が既にある場合は、
 構成を編集して「Scan」ボタンを押すことで、2 番目の **Expansion Hub** を追加できます。
 
 Connect the Robot Controller and select the Configure Robot option from

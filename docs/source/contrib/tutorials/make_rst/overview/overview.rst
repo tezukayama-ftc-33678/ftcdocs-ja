@@ -49,32 +49,32 @@ Let's assume we want to **bold** the nouns in the sentence, so in rST format
 we would add two asterisks (**) to the front and end of each word to make them
 **bold**. Let's do that by modifying the text to show the following::
 
-   The quick brown **fox** jumped over the lazy **dog**.
+   The quick brown **fox**jumped over the lazy**dog**.
 
 This would ultimately output text that looks like:
 
-   The quick brown **fox** jumped over the lazy **dog**.
+   The quick brown **fox**jumped over the lazy**dog**.
 
 Now let's make the word ``quick`` be *italicized*. In rST format, we *italicize*
 words or sections by adding a single asterisk (*) to the front and end of each 
 section we want to *italicize*. It would now look like so::
 
-   The *quick* brown **fox** jumped over the lazy **dog**.
+   The *quick* brown **fox**jumped over the lazy**dog**.
 
 This would output text that looks like:
 
-   The *quick* brown **fox** jumped over the lazy **dog**.
+   The *quick* brown **fox**jumped over the lazy**dog**.
 
 And finally, let's add a link on the word "over" to the `dictionary.com 
 reference of the word over <https://www.dictionary.com/browse/over>`_. To do this,
 we use a slightly more complex piece of markup that includes "back ticks" (`) and
 ends in an underscore (_), like this::
 
-   The *quick* brown **fox** jumped `over <https://www.dictionary.com/browse/over>`_ the lazy **dog**.
+   The *quick* brown **fox**jumped `over <https://www.dictionary.com/browse/over>`__ the lazy**dog**.
 
 And this sentence with several different kinds of *markup* finally would be displayed as:
 
-   The *quick* brown **fox** jumped `over <https://www.dictionary.com/browse/over>`_ the lazy **dog**.
+   The *quick* brown **fox**jumped `over <https://www.dictionary.com/browse/over>`__ the lazy**dog**.
 
 This was just a quick example of what can be done with rST and how it is 
 accomplished. Move on to the other elements of this tutorial to learn 

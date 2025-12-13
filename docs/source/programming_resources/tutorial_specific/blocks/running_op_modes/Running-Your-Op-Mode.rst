@@ -1,7 +1,7 @@
 Op Mode の実行（全言語共通）
 -----------------------------------
 
-**Op Mode** がゲームパッドからの入力を必要とする場合は、Logitech F310または他の承認されたゲームパッドを **DRIVER STATION** に接続する必要があります。**DRIVER STATION** には最大2つのゲームパッドを接続できます。スマートフォンを使用する場合は、USBハブが必要です。ただし、この例では、1つのゲームパッドのみを接続します。
+**Op Mode**がゲームパッドからの入力を必要とする場合は、Logitech F310または他の承認されたゲームパッドを**DRIVER STATION**に接続する必要があります。**DRIVER STATION** には最大2つのゲームパッドを接続できます。スマートフォンを使用する場合は、USBハブが必要です。ただし、この例では、1つのゲームパッドのみを接続します。
 
 このタスクの完了には約10分かかります。
 
@@ -29,7 +29,7 @@ Op Mode の実行手順
 
    注：StartボタンとBボタンを同時に押すと、ゲームパッドがユーザー#2として指定されます。
 
-3. **DRIVER STATION** 画面で、三角形の「**TeleOp**」ドロップダウンリストボタンをタッチして、利用可能な **Op Mode** のリストを表示します。**Robot Controller** 上にある利用可能な **Op Mode** のリストの中に、最近保存した **Op Mode** が表示されるはずです。
+3. **DRIVER STATION**画面で、三角形の「**TeleOp**」ドロップダウンリストボタンをタッチして、利用可能な**Op Mode**のリストを表示します。**Robot Controller**上にある利用可能な**Op Mode**のリストの中に、最近保存した**Op Mode** が表示されるはずです。
 
 .. image:: images/TeleopRunDH.png
    :align: center
@@ -41,9 +41,9 @@ Op Mode の実行手順
 
 |
 
-   注：「**TeleOp**」は「Tele-Operated」の略で、ドライバーが制御する **Op Mode** （つまり、人間のドライバーから入力を受け取る **Op Mode** ）を意味します。
+   注：「**TeleOp**」は「Tele-Operated」の略で、ドライバーが制御する**Op Mode**（つまり、人間のドライバーから入力を受け取る**Op Mode** ）を意味します。
 
-4. 「MyFIRSTOpMode」を選択して、**Robot Controller** に **Op Mode** をロードします。
+4. 「MyFIRSTOpMode」を選択して、**Robot Controller**に**Op Mode** をロードします。
 
 .. image:: images/OpModeSelectionDH.png
    :align: center
@@ -55,7 +55,7 @@ Op Mode の実行手順
 
 |
 
-   注：**DRIVER STATION** を使用して **Op Mode** を選択していますが、実際の **Op Mode** の命令は **Robot Controller** で実行されます。
+   注：**DRIVER STATION**を使用して**Op Mode**を選択していますが、実際の**Op Mode**の命令は**Robot Controller** で実行されます。
 
 5. INITボタンを押して、**Op Mode** を初期化します。
 
@@ -93,5 +93,5 @@ Op Mode の実行手順
 
 |
 
-   **Op Mode** を停止したい場合は、**DRIVER STATION** の四角形のStopボタンを押します。
+   **Op Mode**を停止したい場合は、**DRIVER STATION** の四角形のStopボタンを押します。
 

@@ -125,7 +125,7 @@ this feature stock with newer printers, however, even if you have a printer with
 using something such as a Raspberry Pi or old android phone, you can make quick work of this feature
 using various online guides. If you're using a printer with **Marlin** firmware (you can read through
 your printer's documentation or sale postings to check) you should research **Octoprint** setup guides. 
-If you are using a printer with the **Klipper** firmware, you should research **Fluidd** and **Mainsail** setup guides.
+If you are using a printer with the **Klipper**firmware, you should research**Fluidd**and**Mainsail** setup guides.
 
 .. figure:: images/octoprint.png
   :align: center
@@ -160,7 +160,7 @@ If you want to print PLA at higher speeds, it's recommended to upgrade your cool
 efficient. 5015 and 4020 fans are a great upgrade from stock cooling, and can handle most of what's thrown at them. 
 There are plenty of mounts available for these fans if you search up your printer model and the desired fan size
 (fan sizes are given in width-depth, so a 5015 comes in a 50mm circle that is 15mm thick) If you want a cooling 
-upgrade with a lot of science behind it, take a look at Voron Design's **AB-BN** or **Stealthburner** projects, 
+upgrade with a lot of science behind it, take a look at Voron Design's **AB-BN**or**Stealthburner** projects, 
 cooling systems that were completely engineered with air flow simulation.
 
 .. figure:: images/mantiscooling.png

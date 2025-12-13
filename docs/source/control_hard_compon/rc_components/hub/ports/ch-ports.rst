@@ -16,6 +16,8 @@ Control Hub ポート
 
     Control Hub フロントポート
 
+.. _usb ports:
+
 USB ポート
 ----------
 
@@ -36,7 +38,7 @@ USB Type-A、USB-C、USB Mini-B は、コネクタのタイプを指します。
 
 .. warning:: Control Hub の USB 2.0 ポートでの静電気放電（ESD）イベントは、Wi-Fi 切断を引き起こす可能性があります。
 
-   REV Control Hub には、USB 2.0 ポートに接続されたデバイスに関する `既知の ESD 問題 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_ があります。USB 2.0 ポートを使用すると、ESD が Control Hub の Wi-Fi チップに影響を与える可能性があります（Driver Hub との Wi-Fi 切断を引き起こします）。カメラなどの USB デバイスは、Control Hub の USB 3.0 ポートに接続してください。
+   REV Control Hub には、USB 2.0 ポートに接続されたデバイスに関する `既知の ESD 問題 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`__ があります。USB 2.0 ポートを使用すると、ESD が Control Hub の Wi-Fi チップに影響を与える可能性があります（Driver Hub との Wi-Fi 切断を引き起こします）。カメラなどの USB デバイスは、Control Hub の USB 3.0 ポートに接続してください。
 
 **USB 3.0**
 ^^^^^^^^^^^
@@ -56,7 +58,7 @@ USB Type-A、USB-C、USB Mini-B は、コネクタのタイプを指します。
 HDMI
 -----
 
-**Control Hub** は、完全な Android デバイスであるにもかかわらず、独自のディスプレイを欠いています。**Control Hub** には、デバイスのビデオ出力を提供する HDMI ポートがあります。この HDMI ポートは、外部ディスプレイに接続するために使用できます。
+**Control Hub**は、完全な Android デバイスであるにもかかわらず、独自のディスプレイを欠いています。**Control Hub** には、デバイスのビデオ出力を提供する HDMI ポートがあります。この HDMI ポートは、外部ディスプレイに接続するために使用できます。
 
 **MICRO SD**
 ------------

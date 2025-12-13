@@ -171,7 +171,7 @@ Step 2 or 3:
          // Enable or disable the AprilTag processor.
          myVisionPortal.setProcessorEnabled(myAprilTagProcessor, true);
 
-Again, use this only to **re-enable** the processor, after **disabling** (by setting to ``false``).
+Again, use this only to **re-enable**the processor, after**disabling** (by setting to ``false``).
 
 ====
 

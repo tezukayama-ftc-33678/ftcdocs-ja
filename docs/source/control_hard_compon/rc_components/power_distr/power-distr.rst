@@ -296,7 +296,7 @@ capacity is measured in milli-Amp Hours (mAh), divide the capacity by 1000 to
 get Ah and them multiply by Voltage.  However, for COTS USB Battery Packs, the
 Voltage cells predominantly used in the packs is **3.7V**, regardless of the
 ultimate Voltage provided by the USB ports. Therefore to calculate Wh for a
-COTS USB Battery Pack, multiply **3.7V** by the **Ah rating** of the pack. A 25,000mAh
+COTS USB Battery Pack, multiply **3.7V**by the**Ah rating** of the pack. A 25,000mAh
 COTS USB Battery Pack has a rating of 92.5Wh. Using this formula, the maximum
 capacity COTS USB Battery Pack that is allowed is a **27,000mAh** pack.
 
@@ -328,9 +328,9 @@ Securing the Battery Pack to the Robot
 損傷を防ぐために、バッテリーパックはロボット内に適切に固定する必要があります。
 バッテリーを固定するためのヒントは次のとおりです：
 
-- バッテリーを固定するために、フックアンドループまたは 3M DualLock ファスナーを使用する、** または**
+- バッテリーを固定するために、フックアンドループまたは 3M DualLock ファスナーを使用する、**または**
 - バッテリーを（冷却のために）空気にさらすことができるロボット内のぴったりフィットまたはカスタムフィットの
-  エンクロージャーに保管する、** そして**
+  エンクロージャーに保管する、**そして**
 - 他のロボット、ゲームピース、またはロボットの周囲に侵入する可能性のあるフィールド要素からの
   接触からバッテリーを保護する。
 

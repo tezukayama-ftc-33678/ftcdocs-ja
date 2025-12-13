@@ -81,6 +81,8 @@
    AprilTag テスト画像 <../apriltag/opmode_test_images/opmode-test-images>
    ../apriltag/apriltag_tips/decode_apriltag/decode-apriltag 
 
+.. _vision programming:
+
 ビジョンプログラミング
 ~~~~~~~~~~~~~~~~~~~~~~
 

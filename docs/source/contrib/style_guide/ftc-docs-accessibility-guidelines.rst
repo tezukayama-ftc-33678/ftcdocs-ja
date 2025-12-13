@@ -2,12 +2,12 @@ FTC Docs Accessibility Guidelines
 =================================
 
 The Web Content Accessibility Guidelines (WCAG) are part of a series of web accessibility guidelines published by the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C), the main international standards organization for the Internet. They are a set of recommendations for making Web content more accessible, primarily for people with disabilities — but also for all user agents, including highly limited devices, such as mobile phones. 
-See the `WCAG overview <https://www.w3.org/WAI/standards-guidelines/wcag/>`_
+See the `WCAG overview <https://www.w3.org/WAI/standards-guidelines/wcag/>`__
 for more information about the WCAG standard.
 
 Our goal to address the WCAG Level A success criteria to remove accessibility barriers.
 Then move to meet the level AA criteria to improve that accessibility.
-See the `How to Meet WCAG Quick Reference <https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2>`_ for more information.
+See the `How to Meet WCAG Quick Reference <https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2>`__ for more information.
 
 .. Note:: 
    This page attempts to document from the WCAG perspective what is important and relate that to FTC Docs.
