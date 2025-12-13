@@ -1,9 +1,9 @@
 Driver Stationアプリの更新
 ===============================
 
-**Driver Station App**は、**FIRST Tech Challenge**:doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` で提供されるアプリの1つです。**Driver Station**アプリは、ロボット構成、ゲームパッドのサポート、セルフインスペクト、チームコードの選択と実行などの主要なインターフェースです。このアプリは**REV Driver Hub** または承認されたAndroidスマートフォンで実行されます。
+**Driver Station App** は、**FIRST Tech Challenge**:doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` で提供されるアプリの1つです。**Driver Station** アプリは、ロボット構成、ゲームパッドのサポート、セルフインスペクト、チームコードの選択と実行などの主要なインターフェースです。このアプリは**REV Driver Hub** または承認されたAndroidスマートフォンで実行されます。
 
-このページでは、以下のデバイスで**Driver Station**（**DS** ）アプリを更新する方法を示します：
+このページでは、以下のデバイスで**Driver Station** （**DS** ）アプリを更新する方法を示します：
 
 -  **REV Driver Hub**
 -  承認されたAndroid DSスマートフォン
@@ -20,7 +20,7 @@ Driver Stationアプリの更新
 
    .. dropdown:: 方法1 - REV Hardware Client（RHC） - Windowsコンピューターのみ
 
-      **REV Driver Hub**をRHCがインストールされて開いているWindowsコンピューターにUSB-Cデータケーブルを使用して直接接続します。左上の「Hardware」タブがアクティブであることを確認してください。**Driver Hub**上のDSアプリを開く必要は** ありません** 。
+      **REV Driver Hub** をRHCがインストールされて開いているWindowsコンピューターにUSB-Cデータケーブルを使用して直接接続します。左上の「Hardware」タブがアクティブであることを確認してください。**Driver Hub** 上のDSアプリを開く必要は** ありません** 。
 
       ここでは、コンピューターをインターネットに接続する必要はありません。
       :doc:`REV Hardware Clientの更新 
@@ -57,7 +57,7 @@ Driver Stationアプリの更新
 
    .. dropdown:: 方法2 - サイドロードAPK
 
-      ここでは、Android Package または **APKファイル**を直接操作して、**Driver Hub** にDSアプリをインストールします。PCまたはMac、新旧を問わず、どのコンピューターでも使用できます。この方法は「サイドローディング」と呼ばれることがあります。
+      ここでは、Android Package または **APKファイル** を直接操作して、**Driver Hub** にDSアプリをインストールします。PCまたはMac、新旧を問わず、どのコンピューターでも使用できます。この方法は「サイドローディング」と呼ばれることがあります。
 
       1. コンピューターをインターネットに接続し、Webブラウザーを開いて、`SDK GitHubリポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に移動します。
 
@@ -81,9 +81,9 @@ Driver Stationアプリの更新
 
       2. **Driver Hub** をUSB-Cデータケーブルでコンピューターに接続します。
 
-      3. ブラウザーのファイル転送ウィンドウを使用するか、コンピューターのファイルマネージャーを使用して、ダウンロードしたAPKファイルを**Driver Hub**の**Downloads** フォルダーに転送します。
+      3. ブラウザーのファイル転送ウィンドウを使用するか、コンピューターのファイルマネージャーを使用して、ダウンロードしたAPKファイルを**Driver Hub** の**Downloads** フォルダーに転送します。
 
-      4. **Driver Hub**で、ファイルマネージャーアプリを開き、**Downloads** フォルダーに移動します。
+      4. **Driver Hub** で、ファイルマネージャーアプリを開き、**Downloads** フォルダーに移動します。
 
       5. APKファイルをタッチしてインストールプロセスを開始します。プロンプトに従ってインストールを完了します。
 
@@ -98,7 +98,7 @@ Driver Stationアプリの更新
 
       **REV Driver Hub** には、ソフトウェアマネージャーと呼ばれる組み込みアプリがあり、DSアプリ（およびその他の関連ソフトウェア）を自動的に更新できます。インターネット接続のみが必要です。
 
-      1. すべてのアプリを閉じ、**Driver Hub**のWi-Fiメニューを開きます（設定内、またはホーム画面の上部から2回スワイプダウン）。**Driver Hub** を一時的にWi-Fi経由でインターネットに接続します。
+      1. すべてのアプリを閉じ、**Driver Hub** のWi-Fiメニューを開きます（設定内、またはホーム画面の上部から2回スワイプダウン）。**Driver Hub** を一時的にWi-Fi経由でインターネットに接続します。
 
       2. **Driver Hub** のホーム画面でソフトウェアマネージャーアプリを開きます（下の左側の画像）。
 

@@ -41,7 +41,7 @@ Android デバイス
 
       Moto E5
 
-**Driver Station**の中心は、**Driver Station App** を実行する Android デバイスです。
+**Driver Station** の中心は、**Driver Station App** を実行する Android デバイスです。
 この Android デバイスの要件は、`REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`__ 
 の使用、または競技マニュアルに記載されている承認された Android スマートフォンのいずれかによって満たすことができます。
 **Driver Station App** を、競技マニュアルで定義されている最小バージョン以上のバージョンに更新することが非常に重要です。

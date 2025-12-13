@@ -1,9 +1,9 @@
 VisionPortal 概要
 =====================
 
-**FIRST Tech Challenge**は**VisionPortal** を導入しました。これは、ビジョン処理のための包括的な新しいインターフェースです。
+**FIRST Tech Challenge** は**VisionPortal** を導入しました。これは、ビジョン処理のための包括的な新しいインターフェースです。
 
--  **FTC Blocks と Java**チームの場合、VisionPortal は**AprilTag**と**EasyOpenCV**の主要な機能に加えて、**TensorFlow Object Detection (TFOD)** を同時に提供します！
+-  **FTC Blocks と Java** チームの場合、VisionPortal は**AprilTag** と**EasyOpenCV** の主要な機能に加えて、**TensorFlow Object Detection (TFOD)** を同時に提供します！
 
    .. figure:: images/020-dual-detection.png
       :width: 75%
@@ -14,9 +14,9 @@ VisionPortal 概要
 
    |
 
--  **AprilTag**検出には、ID コードと** ポーズ**: カメラに対するタグの位置と方向が含まれます。
+-  **AprilTag** 検出には、ID コードと** ポーズ**: カメラに対するタグの位置と方向が含まれます。
 
--  ウェブカメラの AprilTag と TFOD のパフォーマンスを向上させることができる **Camera Controls**が、**FTC Blocks** ユーザーに完全に利用可能になりました。
+-  ウェブカメラの AprilTag と TFOD のパフォーマンスを向上させることができる **Camera Controls** が、**FTC Blocks** ユーザーに完全に利用可能になりました。
 
 -  **複数のカメラ** を同時に操作できます – フォンカメラおよび/またはウェブカメラ。
 
@@ -31,7 +31,7 @@ VisionPortal 概要
 
 -  **サンプル OpModes** と新しいツールが、**Builder パターン** を含むこれらの機能の操作とカスタマイズに利用できます。
 
--  重いビデオ処理の場合、**CPU リソース**と**USB 帯域幅** を管理するための多くのオプションが利用可能です。
+-  重いビデオ処理の場合、**CPU リソース** と**USB 帯域幅** を管理するための多くのオプションが利用可能です。
 
 -  DS と RC のプレビューは **大きく** できます！
 
@@ -47,7 +47,7 @@ VisionPortal 以降には、他にも多くの新機能と改善された機能�
 
 ----
 
-2023-2024 CENTERSTAGE シーズンの準備として、新しい Software Development Kit (SDK) **VisionPortal**には**AprilTag 技術の組み込みサポート** が含まれています。以前は、チームは外部ライブラリをダウンロードして組み込む必要があり、プログラミング作業が複雑になっていました。
+2023-2024 CENTERSTAGE シーズンの準備として、新しい Software Development Kit (SDK) **VisionPortal** には**AprilTag 技術の組み込みサポート** が含まれています。以前は、チームは外部ライブラリをダウンロードして組み込む必要があり、プログラミング作業が複雑になっていました。
 
 AprilTag は、**位置と方向** を推定するために使用される、シンプルな白黒タグを検出するための人気のあるビジョン技術です。2022-2023 POWERPLAY ゲームでは、多くのチームが Signal Sleeve 認識のための AprilTag の信頼性の高い Autonomous パフォーマンスを楽しみました。
 

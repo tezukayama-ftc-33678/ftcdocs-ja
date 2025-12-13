@@ -6,7 +6,7 @@
 **REV Robotics Driver Hub**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-DRIVER STATION として **REV Robotics Driver Hub**を使用しているチームは、`REV Robotics の公式ドキュメント <https://docs.revrobotics.com/duo-control/driver-hub-gs>`__ を参照して、**REV Robotics Driver Hub** のセットアップと使用方法の手順を確認してください。
+DRIVER STATION として **REV Robotics Driver Hub** を使用しているチームは、`REV Robotics の公式ドキュメント <https://docs.revrobotics.com/duo-control/driver-hub-gs>`__ を参照して、**REV Robotics Driver Hub** のセットアップと使用方法の手順を確認してください。
 
 **Android** スマートフォン
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16,7 +16,7 @@ DRIVER STATION として **REV Robotics Driver Hub**を使用しているチー�
 画面のロック解除
 ^^^^^^^^^^^^^^^^^^^^^
 
-**Android**端末の電源を初めて入れると、通常、画面は「ロック」状態で始まります。**FIRST** **Tech Challenge** で使用される Motorola スマートフォンでは、ロック画面をタッチしてから、画面に沿って指を上方向にスライドして端末のロックを解除する必要があります。デバイスによっては、画面のロックを解除するために若干異なる手順が必要な場合があることに注意してください。
+**Android** 端末の電源を初めて入れると、通常、画面は「ロック」状態で始まります。**FIRST** **Tech Challenge** で使用される Motorola スマートフォンでは、ロック画面をタッチしてから、画面に沿って指を上方向にスライドして端末のロックを解除する必要があります。デバイスによっては、画面のロックを解除するために若干異なる手順が必要な場合があることに注意してください。
 
 .. image:: images/android_screenlock.jpg
    :align: center

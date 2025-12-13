@@ -6,7 +6,7 @@
 ハードウェアコンポーネント概要
 ==============================
 
-*FIRST* Tech Challenge 制御システムは、**Driver Station (DS)**と**Robot Controller (RC)** の2つの主要なコンポーネントに分かれています。このセクションでは、ハードウェアコンポーネント、そのさまざまな構成、および接続について簡単に紹介します。
+*FIRST* Tech Challenge 制御システムは、**Driver Station (DS)** と**Robot Controller (RC)** の2つの主要なコンポーネントに分かれています。このセクションでは、ハードウェアコンポーネント、そのさまざまな構成、および接続について簡単に紹介します。
 
 .. toctree::
    :maxdepth: 2

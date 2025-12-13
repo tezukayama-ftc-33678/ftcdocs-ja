@@ -9,13 +9,13 @@ Codespace の作成には数分かかる場合がありますが、一度作成�
 Steps
 -----
 
-1. **GitHub**であなたの** フォークした** リポジトリを開きます。
+1. **GitHub** であなたの** フォークした** リポジトリを開きます。
 2. ページの左側で、作業したいブランチを選択します。
 
    .. image:: images/select-branch.png
       :alt: Screen shot showing the Demo branch is selected.
 
-3. 緑色の **Code**ボタンをクリックすると、**Local**と**Codespaces**タブが表示されるので、**Codespaces** タブをクリックします。
+3. 緑色の **Code** ボタンをクリックすると、**Local** と**Codespaces** タブが表示されるので、**Codespaces** タブをクリックします。
 
    .. image:: images/select-cs.png
       :alt: Screen shot showing the Codespace tab being clicked.

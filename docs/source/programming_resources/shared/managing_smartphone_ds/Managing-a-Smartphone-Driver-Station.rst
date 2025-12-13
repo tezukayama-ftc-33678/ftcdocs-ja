@@ -4,18 +4,18 @@
 **REV Driver Hub**
 ~~~~~~~~~~~~~~~~~~
 
-`REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ には、**Driver Station (DS)**アプリがプリロードされています。以下の**REV Driver Hub**について説明する手順は、**Android** スマートフォンを DS として使用する場合にも適用されます。
+`REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ には、**Driver Station (DS)** アプリがプリロードされています。以下の**REV Driver Hub** について説明する手順は、**Android** スマートフォンを DS として使用する場合にも適用されます。
 
 名前の変更
 ~~~~~~~~~~~~~~~~~
 
-**Competition Manual**に準拠するために、**Driver Station (DS)**の名前を変更する必要があります。チーム番号に合わせてデバイスを構成します。使用する**ROBOT CONTROLLER**、**DRIVER STATION** 、および予備は、次のように正しいチーム番号に対応するように構成/名前を付ける必要があります：
+**Competition Manual** に準拠するために、**Driver Station (DS)** の名前を変更する必要があります。チーム番号に合わせてデバイスを構成します。使用する**ROBOT CONTROLLER**、**DRIVER STATION** 、および予備は、次のように正しいチーム番号に対応するように構成/名前を付ける必要があります：
 
 A.     **ROBOT CONTROLLER** は <チーム番号>-RC（例：12345-RC）という名前にする必要があります。
 
 B.     **DRIVER STATION** は <チーム番号>-DS（例：12345-DS）という名前にする必要があります。
 
-C.     予備の **ROBOT CONTROLLER**または**DRIVER STATION** が構成されている場合、文字指定子を追加できます <チーム番号>-<文字>-RC/DS（例：12345-A-DS、12345-B-DS）
+C.     予備の **ROBOT CONTROLLER** または**DRIVER STATION** が構成されている場合、文字指定子を追加できます <チーム番号>-<文字>-RC/DS（例：12345-A-DS、12345-B-DS）
 
 *Control, Command & Signals System* に関連する規則については、現在の **Competition Manual** を確認してください。
 
@@ -81,15 +81,15 @@ C.     予備の **ROBOT CONTROLLER**または**DRIVER STATION** が構成され
 プログラムと管理ページへのアクセス
 ---------------------------------------
 
-**Driver Hub**には、**Program & Manage**Web サーバーへのアクセスを提供する専用ボタンはありません。ただし、**Driver Station**アプリを使用して、**Robot Controller**の**Program & Manage** ページにアクセスできます。
+**Driver Hub** には、**Program & Manage**Web サーバーへのアクセスを提供する専用ボタンはありません。ただし、**Driver Station** アプリを使用して、**Robot Controller** の**Program & Manage** ページにアクセスできます。
 
 1. **Driver Station** アプリで、右上隅の3つのドットをタッチします。
 
 2. *Program & Manage* を選択します。
 
-3. Web ブラウザーが開き、**Robot Controller**の**Program & Manage**ページが表示されます（**Robot Controller** がペアリングされ、アクティブである場合）。
+3. Web ブラウザーが開き、**Robot Controller** の**Program & Manage** ページが表示されます（**Robot Controller** がペアリングされ、アクティブである場合）。
 
-.. note:: この機能を使用するには、**Driver Station**が**Robot Controller** に接続されている必要があります。
+.. note:: この機能を使用するには、**Driver Station** が**Robot Controller** に接続されている必要があります。
 
 
 バッテリーレベルの確認
@@ -97,10 +97,10 @@ C.     予備の **ROBOT CONTROLLER**または**DRIVER STATION** が構成され
 
 **Driver Hub** のバッテリーレベルは、デバイスの上部に表示されます。バッテリーアイコンは、現在の充電レベルを示します。
 
-.. note:: **Driver Hub**は、標準の USB-C 充電器を使用して充電できます。試合中は、**Driver Hub** を電源に接続したままにすることをお勧めします。
+.. note:: **Driver Hub** は、標準の USB-C 充電器を使用して充電できます。試合中は、**Driver Hub** を電源に接続したままにすることをお勧めします。
 
 
 まとめ
 -------
 
-**Driver Hub**は、**Driver Station**アプリを実行するための専用デバイスです。使いやすく、スマートフォンを**Driver Station**として使用するよりも堅牢です。名前の変更、**Program & Manage**ページへのアクセス、バッテリーレベルの確認は、すべて**Driver Station** アプリから直接実行できます。
+**Driver Hub** は、**Driver Station** アプリを実行するための専用デバイスです。使いやすく、スマートフォンを**Driver Station** として使用するよりも堅牢です。名前の変更、**Program & Manage** ページへのアクセス、バッテリーレベルの確認は、すべて**Driver Station** アプリから直接実行できます。

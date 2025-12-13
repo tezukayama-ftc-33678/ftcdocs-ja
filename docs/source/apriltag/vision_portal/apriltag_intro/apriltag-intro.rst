@@ -21,7 +21,7 @@ FTC Blocks を使用するチームを含む POWERPLAY のチームは、いく�
 
 現在、これら3つの領域は *FIRST* **Tech Challenge Software Development Kit (SDK) のバージョン 8.2 以降** に提供、またはバンドルされています。
 
-つまり、**AprilTag**と**EasyOpenCV**の主要な機能は、特別なダウンロードなしで Robot Controller (RC) と Driver Station (DS) アプリで利用できます。また、AprilTag の機能は、カスタム myBlocks を必要とせずに**FTC Blocks** に含まれています。
+つまり、**AprilTag** と**EasyOpenCV** の主要な機能は、特別なダウンロードなしで Robot Controller (RC) と Driver Station (DS) アプリで利用できます。また、AprilTag の機能は、カスタム myBlocks を必要とせずに**FTC Blocks** に含まれています。
 
 AprilTag の機能は、ウェブカメラと Android RC フォンカメラの両方で動作します。
 単一の OpMode で AprilTag と Color Processing を使用できます。
@@ -31,7 +31,7 @@ AprilTag の機能は、ウェブカメラと Android RC フォンカメラの�
 AprilTag とは？
 -----------------
 
-`ミシガン大学 <https://april.eecs.umich.edu/software/apriltag>`__ で開発された AprilTag は、2D バーコードまたは簡略化された QR コードのようなものです。数値の **ID コード**を含み、** 位置と方向** の特定に使用できます。
+`ミシガン大学 <https://april.eecs.umich.edu/software/apriltag>`__ で開発された AprilTag は、2D バーコードまたは簡略化された QR コードのようなものです。数値の **ID コード** を含み、** 位置と方向** の特定に使用できます。
 
 .. figure:: images/010-apriltagrobots.png
    :width: 75%
@@ -57,7 +57,7 @@ AprilTag は **視覚的フィデューシャル（visual fiducial）** また�
 
 各番号は、そのタグの ID コードです。
 
-以下は **ID コード 2**を表す AprilTag です。SDK ソフトウェアは、ID コードを認識し、画像にオーバーレイ表示します（小さな青い矩形**ID 02** ）。
+以下は **ID コード 2** を表す AprilTag です。SDK ソフトウェアは、ID コードを認識し、画像にオーバーレイ表示します（小さな青い矩形**ID 02** ）。
 
 .. figure:: images/080-CH-LiveView-ID-code.png
    :width: 75%
@@ -120,7 +120,7 @@ SDK は、これらの距離を画面上のピクセル数を報告するだけ�
 
 OpMode はナビゲーションを実現するために AprilTag ポーズを使用します：入力を評価し、目的地まで走行します。
 
-OpMode はポーズデータを使用して、タグに向かって走行するか、タグに **対する** ターゲット位置と方向まで走行できます。（新しい SDK は Java**サンプル OpMode** ``RobotAutoDriveToAprilTagOmni.java``と``RobotAutoDriveToAprilTagTank.java`` を提供します。）もう1つのナビゲーションの可能性については、以下の**高度な使用法** で言及されています。
+OpMode はポーズデータを使用して、タグに向かって走行するか、タグに **対する** ターゲット位置と方向まで走行できます。（新しい SDK は Java**サンプル OpMode** ``RobotAutoDriveToAprilTagOmni.java`` と``RobotAutoDriveToAprilTagTank.java`` を提供します。）もう1つのナビゲーションの可能性については、以下の**高度な使用法** で言及されています。
 
 ナビゲーションは、AprilTag がカメラの視野内に留まる場合、**継続的な** ポーズ推定で最も効果的です。つまり、OpMode の**「while() ループ」** は、ロボットの走行アクションをガイドするために、更新されたポーズデータを定期的に読み取る必要があります。
 
@@ -133,7 +133,7 @@ SDK は **複数のカメラ** をサポートしており、切り替え可能�
 アノテーション
 ~~~~~~~~~~~~~~~~
 
-プレビュー（RC フォン画面または DS Camera Stream）では、公式に認識された AprilTag は **色付きの境界線** とその数値**ID コード**を表示します。これらの** アノテーション** により、認識を視覚的に簡単に確認できます：
+プレビュー（RC フォン画面または DS Camera Stream）では、公式に認識された AprilTag は **色付きの境界線** とその数値**ID コード** を表示します。これらの** アノテーション** により、認識を視覚的に簡単に確認できます：
 
 .. figure:: images/280-DS-preview.png
    :width: 75%
@@ -144,7 +144,7 @@ SDK は **複数のカメラ** をサポートしており、切り替え可能�
 
 上記の :ref:`DS Camera Stream <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:image preview>` プレビューでは、左側の AprilTag はタグ **ライブラリ** （デフォルトまたはカスタマイズ）から認識されました。ライブラリタグには、タグサイズを含む事前にロードされた情報（**メタデータ** と呼ばれる）があり、**ポーズ推定** を可能にします。これらはデフォルトで**色付きの境界線** でアノテーションされます。
 
-右側の AprilTag はタグライブラリにありませんでした。メタデータがないため、SDK は数値 **ID コード**のみを提供でき、ここでは**ID 03**として表示されています。このようなタグは、デフォルトでは色付きの境界線で** アノテーションされません** 。
+右側の AprilTag はタグライブラリにありませんでした。メタデータがないため、SDK は数値 **ID コード** のみを提供でき、ここでは**ID 03** として表示されています。このようなタグは、デフォルトでは色付きの境界線で** アノテーションされません** 。
 
 注：**Camera Stream** は、Driver Station デバイスにカメラのビューのスナップショットを表示します。OpMode の INIT フェーズ中にのみ利用可能で、AprilTag（または Color Processing）アノテーションも表示されます。手順はここに掲載されています：
 
@@ -159,7 +159,7 @@ SDK は **複数のカメラ** をサポートしており、切り替え可能�
 
    追加のアノテーションが有効になっている LiveView
 
-上記の画像は、Android Robot Controller (RC) フォン上のプレビュー（LiveView と呼ばれる）を示しています。REV Control Hub は RC プレビューを生成しますが、HDMI 外部モニターまたは ``scrcpy``で見ることができます。``scrcpy`` はここで見つけることができます：
+上記の画像は、Android Robot Controller (RC) フォン上のプレビュー（LiveView と呼ばれる）を示しています。REV Control Hub は RC プレビューを生成しますが、HDMI 外部モニターまたは ``scrcpy`` で見ることができます。``scrcpy`` はここで見つけることができます：
 
 - https://github.com/Genymobile/scrcpy
 
@@ -210,7 +210,7 @@ OpMode は、ナビゲーションのためにロボットの方向を全体の�
 タグの **ゲームフィールド上の** 位置と方向が事前に指定されている場合、タグのポーズデータは、高度な OpMode によって使用されて、フィールド上のロボットの位置を計算できます。この変換計算は、読者への演習として、リアルタイムでタグのポーズデータを使用してロボットがフィールド上の目的の場所にナビゲートすることを可能にします。
 **オプション 2**
 
-ビジョン処理は、重要な **CPU リソース**と USB 通信** 帯域幅** を消費する可能性があります。*FIRST* Tech Challenge チームは、CPU および帯域幅リソースの過負荷のリスクに対して、より高い解像度と速度（フレーム/秒）の利点のバランスをとることができます。SDK 8.2 以降は、このバランスを管理するための多数のツールを提供します： 
+ビジョン処理は、重要な **CPU リソース** と USB 通信** 帯域幅** を消費する可能性があります。*FIRST* Tech Challenge チームは、CPU および帯域幅リソースの過負荷のリスクに対して、より高い解像度と速度（フレーム/秒）の利点のバランスをとることができます。SDK 8.2 以降は、このバランスを管理するための多数のツールを提供します： 
 
 - カメラの解像度を選択 
 - RC プレビュー（LiveView と呼ばれる）を無効化および有効化 
@@ -229,7 +229,7 @@ OpMode は、ナビゲーションのためにロボットの方向を全体の�
 
 **オプション 4**
 
-上記の **AprilTag 軸**で説明した参照フレームは、8.2 SDK 以降でデフォルトで計算および提供されます。高度なチームは、AprilTag/EasyOpenCV パイプラインからの** 生の値** に基づいて、独自のポーズ計算を実行することを好むかもしれません。
+上記の **AprilTag 軸** で説明した参照フレームは、8.2 SDK 以降でデフォルトで計算および提供されます。高度なチームは、AprilTag/EasyOpenCV パイプラインからの** 生の値** に基づいて、独自のポーズ計算を実行することを好むかもしれません。
 
 これらの生の値は、Java と Blocks プログラマーが利用できます。Java バージョンはここに示されています：
 

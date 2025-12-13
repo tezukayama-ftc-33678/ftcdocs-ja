@@ -38,7 +38,7 @@ RHCアプリを開きます。これは、近いうちに必要になる可能�
 
 なぜ今ダウンロードするのですか？後で、このコンピューターはWi-Fi経由でRobot Controllerに接続され、インターネットには接続されない可能性があります。または、緊急に必要なときに良いインターネット接続が利用できない可能性があります（マーフィーの法則）。
 
-Downloadsタブ（左上）をクリックします。「Available Files」の下には、**FIRST Tech Challenge**用のソフトウェアと、**FIRST Robotics Competition** と呼ばれる別のプログラム用のソフトウェアのリストがあります。
+Downloadsタブ（左上）をクリックします。「Available Files」の下には、**FIRST Tech Challenge** 用のソフトウェアと、**FIRST Robotics Competition** と呼ばれる別のプログラム用のソフトウェアのリストがあります。
 
 .. figure:: images/020-RHC-available-files.png
    :alt: 利用可能なファイル

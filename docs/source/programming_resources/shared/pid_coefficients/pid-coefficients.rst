@@ -1,11 +1,11 @@
 PID 係数の変更
 ==========================
 
-**REV Robotics Control Hub**および**REV Robotics Expansion Hub** を使用すると、ユーザーは閉ループモーター制御に使用される PID 係数を変更できます。PID 係数はチャネルとモードに固有です。
+**REV Robotics Control Hub** および**REV Robotics Expansion Hub** を使用すると、ユーザーは閉ループモーター制御に使用される PID 係数を変更できます。PID 係数はチャネルとモードに固有です。
 
-次の **op mode**は、拡張または強化された**DcMotor**クラス（「**DcMotorEx**」と呼ばれる）を使用して、「left_drive」という名前のモーターの RUN_USING_ENCODER モードの PID 係数を変更します。**op mode**は、**DcMotorEx**クラスの setPIDCoefficients メソッドを使用して値を変更します。このメソッドは、標準の**DcMotor** クラスでは使用できません。
+次の **op mode** は、拡張または強化された**DcMotor** クラス（「**DcMotorEx**」と呼ばれる）を使用して、「left_drive」という名前のモーターの RUN_USING_ENCODER モードの PID 係数を変更します。**op mode** は、**DcMotorEx** クラスの setPIDCoefficients メソッドを使用して値を変更します。このメソッドは、標準の**DcMotor** クラスでは使用できません。
 
-PID 係数に加えた変更は、**REV Robotics Control Hub**または**REV Robotics Expansion Hub**の電源を入れ直すと保持されないことに注意してください。PID への変更を保持する必要がある場合は、**op mode**を変更して、**Control Hub**または**Android**スマートフォンに状態情報を保存することを検討する必要があります。Android Developer Web サイトには、アプリから**Android** デバイスにデータを保存する方法に関するチュートリアルがあります `こちら <https://developer.android.com/training/data-storage>`__
+PID 係数に加えた変更は、**REV Robotics Control Hub** または**REV Robotics Expansion Hub** の電源を入れ直すと保持されないことに注意してください。PID への変更を保持する必要がある場合は、**op mode** を変更して、**Control Hub** または**Android** スマートフォンに状態情報を保存することを検討する必要があります。Android Developer Web サイトには、アプリから**Android** デバイスにデータを保存する方法に関するチュートリアルがあります `こちら <https://developer.android.com/training/data-storage>`__
 
 .. code-block:: java
 
@@ -98,7 +98,7 @@ PID 係数の調整は、特定のモーターとアプリケーションに最�
 デフォルトの PID 値
 ---------------------
 
-**REV Robotics Control Hub**および**Expansion Hub**には、ほとんどのアプリケーションでうまく機能する各モーターチャネルのデフォルト PID 値があります。これらのデフォルト値は、**REV Robotics** によって広範なテストを通じて決定されています。
+**REV Robotics Control Hub** および**Expansion Hub** には、ほとんどのアプリケーションでうまく機能する各モーターチャネルのデフォルト PID 値があります。これらのデフォルト値は、**REV Robotics** によって広範なテストを通じて決定されています。
 
 カスタム PID 係数が必要な場合のみ、デフォルト値を変更することをお勧めします。
 

@@ -9,21 +9,21 @@ Op Mode とは？
 さまざまなタスクを実行する必要があります。例えば、チームは競技フロアの白線をロボットが
 追従し、マッチ中に自律的にゲーム要素をゴールに入れることを望むかもしれません。チームは
 ロボットの動作を指定するために **op modes** （「operational modes」の略）と呼ばれる
-プログラムを作成します。これらの **op modes**は、**DRIVER STATION** で選択された後、
+プログラムを作成します。これらの **op modes** は、**DRIVER STATION** で選択された後、
 **Robot Controller** 上で実行されます。
 
 **FIRST**Tech Challenge に参加するチームは、独自の**op modes** を作成するために
 使用できるさまざまなプログラミングツールを利用できます。このセクションでは、
-**Blocks Programming Tool**を使用してロボット用の**op mode** を作成する方法を説明します。
+**Blocks Programming Tool** を使用してロボット用の**op mode** を作成する方法を説明します。
 
 **Blocks Programming Tool**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Blocks Programming Tool**は、**Robot Controller** によって提供されるユーザーフレンドリーな
+**Blocks Programming Tool** は、**Robot Controller** によって提供されるユーザーフレンドリーな
 プログラミングツールです。ユーザーはこのツールを使用してロボット用のカスタム **op modes** を
-作成し、これらの **op modes**を**Robot Controller** に直接保存できます。ユーザーは
+作成し、これらの **op modes** を**Robot Controller** に直接保存できます。ユーザーは
 ジグソーパズル型のプログラミングブロックをデザイン「キャンバス」上にドラッグ＆ドロップし、
-これらのブロックを配置して **op mode**のプログラムロジックを作成します。**Blocks Programming Tool** は
+これらのブロックを配置して **op mode** のプログラムロジックを作成します。**Blocks Programming Tool** は
 Google の Blockly ソフトウェアを利用しており、Google のサポートを受けて開発されました。
 
 .. image:: images/BlocksPicture1New.jpg
@@ -40,7 +40,7 @@ Google の Blockly ソフトウェアを利用しており、Google のサポー
 
 |
 
-**Robot Controller**として**Control Hub**を使用している場合でも、**op mode** を作成および
+**Robot Controller** として**Control Hub** を使用している場合でも、**op mode** を作成および
 編集するプロセスは同じです。
 
 .. image:: images/BlocksPicture2b.jpg
@@ -62,7 +62,7 @@ Program & Manage ワイヤレスネットワークに正常に接続されてい
 
 ラップトップが **Robot Controller** の Program & Manage ワイヤレスネットワークに正常に
 接続できた場合、最初の **op mode** を作成する準備が整いました。このセクションでは、
-**Blocks Programming Tool**を使用して、最初の**op mode** のプログラムロジックを作成します。
+**Blocks Programming Tool** を使用して、最初の**op mode** のプログラムロジックを作成します。
 
 なお、最初の **op mode** の作成には約 10 分かかります。
 
@@ -79,7 +79,7 @@ Program & Manage ワイヤレスネットワークに正常に接続されてい
 
 |
 
-.. important:: **Robot Controller**が**Control Hub**の場合、Program & Manage サーバーにアクセスするアドレスは "192.168.43.1:8080" です。IP アドレスの第3オクテットの違いに注意してください（**Control Hub** は "49" ではなく "43" です）。
+.. important:: **Robot Controller** が**Control Hub** の場合、Program & Manage サーバーにアクセスするアドレスは "192.168.43.1:8080" です。IP アドレスの第3オクテットの違いに注意してください（**Control Hub** は "49" ではなく "43" です）。
 
 .. image:: images/WritingFirstOpModeStep1aControlHub.jpg
    :align: center
@@ -102,14 +102,14 @@ Program & Manage ワイヤレスネットワークに正常に接続されてい
 
 |
 
-3. Console の上部にある **Blocks**リンクをクリックして、メインの**Blocks** プログラミング画面に移動します。
+3. Console の上部にある **Blocks** リンクをクリックして、メインの**Blocks** プログラミング画面に移動します。
 
 .. image:: images/WritingFirstOpModeStep3aControlHub.jpg
    :align: center
 
 |
 
-   メインの Blocks Programming 画面は、新しい **op modes**を作成する場所です。また、**Robot Controller**上の既存の Blocks Op Modes のリストを表示する画面でもあります。最初の**op mode** を作成して保存するまで、このリストは空です。
+   メインの Blocks Programming 画面は、新しい **op modes** を作成する場所です。また、**Robot Controller** 上の既存の Blocks Op Modes のリストを表示する画面でもあります。最初の**op mode** を作成して保存するまで、このリストは空です。
 
 .. image:: images/WritingFirstOpModeStep3bControlHub.jpg
    :align: center
@@ -152,12 +152,12 @@ Op Mode の構造の確認
 
 上図では、**op mode** のメイン本体は、上部に "to runOpMode" という文字が付いた
 外側の紫色のブラケットによって定義されています。ヘルプのヒントが示すように、
-この関数は、この **op mode**（この例では "MyFIRSTOpMode"）が**DRIVER STATION** から
+この関数は、この **op mode** （この例では "MyFIRSTOpMode"）が**DRIVER STATION** から
 選択されたときに実行されます。
 
-**op mode**を、**Robot Controller** が実行するタスクのリストと考えると役立ちます。
+**op mode** を、**Robot Controller** が実行するタスクのリストと考えると役立ちます。
 **Robot Controller** は、このタスクのリストを順次処理します。ユーザーは、制御ループ
-（while ループなど）を使用して、**op mode**内の特定のタスクを**Robot Controller** に
+（while ループなど）を使用して、**op mode** 内の特定のタスクを**Robot Controller** に
 繰り返し（または反復）させることもできます。
 
 .. image:: images/ExaminingStructurePic2.jpg
@@ -166,7 +166,7 @@ Op Mode の構造の確認
 |
 
 **op mode** をロボットへの命令リストと考えると、この命令セットは、チームメンバーが
-この **Robot Controller**で利用可能な**op modes** のリストから "MyFIRSTOpMode" という
+この **Robot Controller** で利用可能な**op modes** のリストから "MyFIRSTOpMode" という
 **op mode** を選択するたびに、ロボットによって実行されます。
 
 疑問符（"?"）が付いた青いボタンをクリックすると、ヘルプテキストを非表示にできます。
@@ -366,12 +366,12 @@ DC モーターを制御するための Op Mode の変更手順
 テレメトリステートメントの挿入
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**op mode**はほぼ実行準備が整いました。ただし、続行する前に、**Robot Controller** から
-**DRIVER STATION**に情報を送信し、**DRIVER STATION** のユーザーインターフェースに
+**op mode** はほぼ実行準備が整いました。ただし、続行する前に、**Robot Controller** から
+**DRIVER STATION** に情報を送信し、**DRIVER STATION** のユーザーインターフェースに
 表示するテレメトリステートメントをいくつか追加します。このテレメトリメカニズムは、
 ロボットからの状態情報を **DRIVER STATION** に表示するための便利な方法です。
 このメカニズムを使用して、センサーデータ、モーターの状態、ゲームパッドの状態などを
-**Robot Controller**から**DRIVER STATION** に表示できます。
+**Robot Controller** から**DRIVER STATION** に表示できます。
 
 なお、このタスクを完了するには約 15 分かかります。
 
@@ -407,7 +407,7 @@ DC モーターを制御するための Op Mode の変更手順
 
 |
 
-   **Robot Controller**は、変数 tgtPower の値を "Target Power" というキーまたはラベルとともに**DRIVER STATION**に送信します。キーは、**DRIVER STATION** の値の左側に表示されます。
+   **Robot Controller** は、変数 tgtPower の値を "Target Power" というキーまたはラベルとともに**DRIVER STATION** に送信します。キーは、**DRIVER STATION** の値の左側に表示されます。
 
 4. このプロセスを繰り返し、新しいキーに "Motor Power" という名前を付けます。
 
@@ -432,19 +432,19 @@ DC モーターを制御するための Op Mode の変更手順
 
 |
 
-   これで、**op mode**はモーター出力情報も**Robot Controller**から送信して、**DRIVER STATION** に表示されるようになります。
+   これで、**op mode** はモーター出力情報も**Robot Controller** から送信して、**DRIVER STATION** に表示されるようになります。
 
 Op Mode の保存
 ~~~~~~~~~~~~~~
 
-**op mode**を変更した後、**op mode**を**Robot Controller** に保存することが非常に重要です。
+**op mode** を変更した後、**op mode** を**Robot Controller** に保存することが非常に重要です。
 
 なお、このタスクを完了するには約 1 分かかります。
 
 Op Mode の保存手順
 ------------------
 
-1. "Save Op Mode" ボタンをクリックして、**op mode**を**Robot Controller** に保存します。
+1. "Save Op Mode" ボタンをクリックして、**op mode** を**Robot Controller** に保存します。
 保存が成功すると、ボタンの右側に "Save completed successfully" という文字が表示されます。
 
 .. image:: images/SavingOpModeStep1ControlHub.jpg
@@ -456,7 +456,7 @@ Op Mode の保存手順
 Program & Manage 画面の終了
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**op mode**を変更して保存した後、**DRIVER STATION** がまだ Program & Manage 画面に
+**op mode** を変更して保存した後、**DRIVER STATION** がまだ Program & Manage 画面に
 ある場合は、この画面を終了してメインの **DRIVER STATION** 画面に戻る必要があります。
 
 なお、このタスクを完了するには約 1 分かかります。
@@ -473,7 +473,7 @@ Program & Manage 画面の終了
 
 |
 
-おめでとうございます！**Blocks Programming Tool**を使用して最初の**op mode** を
+おめでとうございます！**Blocks Programming Tool** を使用して最初の**op mode** を
 作成しました！**op mode** の実行方法については、
 :doc:`Running Your Op Mode <../running_op_modes/Running-Your-Op-Mode>` という
 セクションで学習します。

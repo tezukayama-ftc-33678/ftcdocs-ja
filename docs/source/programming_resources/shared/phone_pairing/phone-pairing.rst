@@ -4,11 +4,11 @@
 はじめに
 ------------
 
-**Robot Controller**および**Driver Station**アプリは、** すべてのモデルの合法的なスマートフォン**間を含め、ペアリングにおいて非常に信頼性があります。**FIRST** **Tech Challenge** イベントで現在使用が合法的なスマートフォンモデルのリストについては、`Competition Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__ を参照してください。
+**Robot Controller** および**Driver Station** アプリは、** すべてのモデルの合法的なスマートフォン** 間を含め、ペアリングにおいて非常に信頼性があります。**FIRST** **Tech Challenge** イベントで現在使用が合法的なスマートフォンモデルのリストについては、`Competition Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__ を参照してください。
 
 Android スマートフォンが適切に準備されている場合、Wi-Fi Direct 経由のペアリングは**高速** で、通常は**自動** です。ここでは、ペアリングを妨げる可能性のあるさまざまな**既存の条件** に対処する手順を示します。
 
-この記事では、**REV Control Hub**または**REV Driver Hub** については説明していません。
+この記事では、**REV Control Hub** または**REV Driver Hub** については説明していません。
 
 スマートフォンのクリーンアップと準備
 ------------------------------------
@@ -36,7 +36,7 @@ Android スマートフォンが適切に準備されている場合、Wi-Fi Dir
 5. デバイスのホーム画面に強制終了します。上から2回スワイプして、次の順序で実行します：
 
 -  **Airplane Mode ON**
--  **Wi-Fi ON**（通常、**Airplane Mode** がオンになると切り替わります）、次に Done
+-  **Wi-Fi ON** （通常、**Airplane Mode** がオンになると切り替わります）、次に Done
 -  **Bluetooth OFF**
 -  Location OFF、Android 7.x のみ
 

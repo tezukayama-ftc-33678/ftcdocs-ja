@@ -1,14 +1,14 @@
 サーボの制御 :bdg-warning:`Blocks`
 =========================================
 
-:doc:`Blocks で Op Mode を作成する <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` セクションでは、**Blocks**プログラミングツールを使用して12V DCモーターを制御する**Op Mode**を作成する方法を学びました。このセクションでは、サーボモーターを制御する**Op Mode** を作成する方法を学びます。
+:doc:`Blocks で Op Mode を作成する <../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` セクションでは、**Blocks** プログラミングツールを使用して12V DCモーターを制御する**Op Mode** を作成する方法を学びました。このセクションでは、サーボモーターを制御する**Op Mode** を作成する方法を学びます。
 
 サーボモーターとは？
 ~~~~~~~~~~~~~~~~~~~~~~
 
 サーボモーターは、精密な動きのために設計された特殊なタイプのモーターです。典型的なサーボモーターは、動作範囲が制限されています。
 
-以下の図では、「標準スケール」の180度サーボが示されています。このタイプのサーボは、ホビイストや **FIRST Tech Challenge**チームに人気があります。このサーボモーターは、シャフトを180度の範囲で回転させることができます。サーボコントローラーとして知られる電子モジュールを使用すると、サーボモーターを特定の位置に移動させる**Op Mode** を作成できます。モーターがこのターゲット位置に到達すると、サーボのシャフトに外力が加えられても、その位置を保持します。
+以下の図では、「標準スケール」の180度サーボが示されています。このタイプのサーボは、ホビイストや **FIRST Tech Challenge** チームに人気があります。このサーボモーターは、シャフトを180度の範囲で回転させることができます。サーボコントローラーとして知られる電子モジュールを使用すると、サーボモーターを特定の位置に移動させる**Op Mode** を作成できます。モーターがこのターゲット位置に到達すると、サーボのシャフトに外力が加えられても、その位置を保持します。
 
 .. image:: images/hs485hbServo.jpg
    :align: center
@@ -44,7 +44,7 @@
 
 1. ラップトップが **Robot Controller** のProgram & Manage Wi-Fiネットワークにまだ接続されていることを確認します。
 
-2. 「MyFIRSTOpMode」が編集用に開かれていることを確認します。開かれていない場合は、ラップトップのブラウザウィンドウの左上隅にある **FIRST**ロゴをクリックします。これにより、メインの**Blocks** 開発ツールプロジェクト画面に移動します。
+2. 「MyFIRSTOpMode」が編集用に開かれていることを確認します。開かれていない場合は、ラップトップのブラウザウィンドウの左上隅にある **FIRST** ロゴをクリックします。これにより、メインの**Blocks** 開発ツールプロジェクト画面に移動します。
 
 .. image:: images/ControlServoStep2ControlHub.jpg
    :align: center
@@ -221,16 +221,16 @@
 
 |
 
-   このブロックのセットは、**Op Mode**の実行中に現在のサーボ位置の値を**DRIVER STATION** に送信します。
+   このブロックのセットは、**Op Mode** の実行中に現在のサーボ位置の値を**DRIVER STATION** に送信します。
 
-25. **Op Mode**を保存し、**Robot Controller** に正常に保存されたことを確認します。
+25. **Op Mode** を保存し、**Robot Controller** に正常に保存されたことを確認します。
 
 .. image:: images/ControlServoStep25ControlHub.jpg
    :align: center
 
 |
 
-26. :doc:`Op Mode の実行 <../running_op_modes/Running-Your-Op-Mode>` セクションで説明されている手順に従って、更新された **Op Mode**を実行します。また、**Op Mode** を実行する前に、ゲームパッドがユーザー#1として指定されていることを確認してください。
+26. :doc:`Op Mode の実行 <../running_op_modes/Running-Your-Op-Mode>` セクションで説明されている手順に従って、更新された **Op Mode** を実行します。また、**Op Mode** を実行する前に、ゲームパッドがユーザー#1として指定されていることを確認してください。
 
 .. image:: images/ControlServoStep26ControlHub.jpg
    :align: center

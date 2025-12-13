@@ -85,7 +85,7 @@ PTZ の get() メソッドでは、一部の Webcam はサポートされてい�
    -  常に現在のモードを確認してください
 
 -  特定の露出値の場合、あるモードのプレビューは、別のモードのプレビューとは大きく異なる場合があります
--  一部の Webcam は、**サポートされていないモード** を**accept**/ ``set()``し、**confirm** /``get()`` します
+-  一部の Webcam は、**サポートされていないモード** を**accept**/ ``set()`` し、**confirm** /``get()`` します
 -  Logitech C270 のプレビューは、露出 655 まで**明るく** なり、656 で**暗く** なります
 
    -  この Webcam の最小値は 0、最大値は 1000 です。
@@ -95,4 +95,4 @@ PTZ の get() メソッドでは、一部の Webcam はサポートされてい�
 -  Webcam **OpMode** がクラッシュした後、RC アプリの再起動が必要になる場合があります
 -  ファームウェアバージョンは、同じモデル番号の Webcam 間で異なる場合があります
 
-最後に、ここでの一部の機能は、`OpenCV <https://opencv.org/>`__ や `EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`__ などの外部ライブラリの助けを借りて実装または強化される可能性があります。その可能性は、この基本チュートリアルでは説明されていません。別のチュートリアルでは、**Blocks**と**OnBot Java** での `外部ライブラリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-Blocks>`__ の一般的な使用について説明しています。
+最後に、ここでの一部の機能は、`OpenCV <https://opencv.org/>`__ や `EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`__ などの外部ライブラリの助けを借りて実装または強化される可能性があります。その可能性は、この基本チュートリアルでは説明されていません。別のチュートリアルでは、**Blocks** と**OnBot Java** での `外部ライブラリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-Blocks>`__ の一般的な使用について説明しています。

@@ -49,7 +49,7 @@
      - 画像
 
    * - ROBOT CONTROLLER として使用する **REV Robotics Control Hub** 。
-       または、競技マニュアルでは、チームが **REV Robotics Expansion Hub**と選択された**Android** 端末のリストを代わりに使用することを許可しています。 
+       または、競技マニュアルでは、チームが **REV Robotics Expansion Hub** と選択された**Android** 端末のリストを代わりに使用することを許可しています。 
      - |chandphones| |exhub|
    
    * - DRIVER STATION デバイスとして使用する **REV Robotics Driver Hub** 。
@@ -93,8 +93,8 @@
    * - Logitech F310 USB ゲームパッド。
      - |f310|
 
-   * - **Robot Controller**としてスマートフォンを使用している場合は、USB Type A オス - Type mini-B オスケーブルが必要です。**Control Hub** ユーザーは、このケーブルは必要ありません。
+   * - **Robot Controller** としてスマートフォンを使用している場合は、USB Type A オス - Type mini-B オスケーブルが必要です。**Control Hub** ユーザーは、このケーブルは必要ありません。
      - |usba|
 
-   * - **Robot Controller**としてスマートフォンを使用している場合は、micro USB OTG アダプターが 2 個必要です。**Robot Controller**として**Control Hub** を使用している場合は、micro USB OTG アダプターが 1 個必要です。
+   * - **Robot Controller** としてスマートフォンを使用している場合は、micro USB OTG アダプターが 2 個必要です。**Robot Controller** として**Control Hub** を使用している場合は、micro USB OTG アダプターが 1 個必要です。
      - |otg|   |otg|
