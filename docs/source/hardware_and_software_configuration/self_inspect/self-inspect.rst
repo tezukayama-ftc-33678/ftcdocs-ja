@@ -44,19 +44,19 @@ DS デバイス（スマホまたは Driver Hub）は自分自身の DS Self Ins
 
 **DRIVER STATION**
 
-- `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__（**DS** スマホ +**RC** スマホ）
-- `DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__（**DS** スマホ +**Control Hub** ）
-- `DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__（**Driver Hub**+**RC** スマホ）
-- `DS Self Inspect 4 <#ds-self-inspect-4-on-driver-hub-paired-to-control-hub>`__（**Driver Hub**+**Control Hub** ）
+- `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__ （**DS** スマホ +**RC** スマホ）
+- `DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__ （**DS** スマホ +**Control Hub** ）
+- `DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__ （**Driver Hub**+**RC** スマホ）
+- `DS Self Inspect 4 <#ds-self-inspect-4-on-driver-hub-paired-to-control-hub>`__ （**Driver Hub**+**Control Hub** ）
 
 **ROBOT CONTROLLER**
 
-- `RC Self Inspect 1 <#rc-self-inspect-1-appearing-on-rc-phone-paired-with-ds-phone>`__（RC スマホ上、DS スマホとペア）
-- `RC Self Inspect 2 <#rc-self-inspect-2-appearing-on-ds-phone-paired-to-rc-phone>`__（DS スマホ上、RC スマホとペア）
-- `RC Self Inspect 3 <#rc-self-inspect-3-appearing-on-rc-phone-paired-with-driver-hub>`__（RC スマホ上、Driver Hub とペア）
-- `RC Self Inspect 4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-phone>`__（Driver Hub 上、RC スマホとペア）
-- `RC Self Inspect 5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-control-hub>`__（DS スマホ上、Control Hub とペア）
-- `RC Self Inspect 6 <#rc-self-inspect-6-appearing-on-driver-hub-paired-to-control-hub>`__（Driver Hub 上、Control Hub とペア）
+- `RC Self Inspect 1 <#rc-self-inspect-1-appearing-on-rc-phone-paired-with-ds-phone>`__ （RC スマホ上、DS スマホとペア）
+- `RC Self Inspect 2 <#rc-self-inspect-2-appearing-on-ds-phone-paired-to-rc-phone>`__ （DS スマホ上、RC スマホとペア）
+- `RC Self Inspect 3 <#rc-self-inspect-3-appearing-on-rc-phone-paired-with-driver-hub>`__ （RC スマホ上、Driver Hub とペア）
+- `RC Self Inspect 4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-phone>`__ （Driver Hub 上、RC スマホとペア）
+- `RC Self Inspect 5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-control-hub>`__ （DS スマホ上、Control Hub とペア）
+- `RC Self Inspect 6 <#rc-self-inspect-6-appearing-on-driver-hub-paired-to-control-hub>`__ （Driver Hub 上、Control Hub とペア）
 
 これらの組み合わせでは、Self Inspect のカテゴリや表示文言、合否結果が**わずかに異なる** ことがあります。各デバイスと組み合わせの Self Inspect 画面は、以下の**青いリンク** をクリックして確認してください。
 

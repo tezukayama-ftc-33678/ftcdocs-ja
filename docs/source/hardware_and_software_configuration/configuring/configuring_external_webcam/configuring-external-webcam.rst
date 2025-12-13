@@ -109,11 +109,11 @@ scrcpy
 ------
 
 **OpMode** 実行中にパソコンでカメラ映像を確認したい場合は、
-`scrcpy <https://github.com/Genymobile/scrcpy>`__を利用できます。
+`scrcpy <https://github.com/Genymobile/scrcpy>`__ を利用できます。
 その際は、まず**Control Hub** とADB接続を確立する必要があります。
 USB-A to USB-Cケーブルで**Control Hub** のUSB-Cポートに接続するか、Windowsの場合は**Control Hub** のWi-Fiネットワークに接続し、
-`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__を開いてください。
-接続後、`こちらの手順 <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__でscrcpyをインストール・実行します。
+`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__ を開いてください。
+接続後、`こちらの手順 <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__ でscrcpyをインストール・実行します。
 
 .. image:: images/webcamWithScrcpy.jpg
    :alt: scrcpyでカメラ映像を表示した画面。
@@ -138,7 +138,7 @@ USB-A to USB-Cケーブルで**Control Hub** のUSB-Cポートに接続するか
 ---------------
 
 独自ストリームを作成したい上級者の方は、**Android Studio** の
-`APIドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__を参照してください。
+`APIドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__ を参照してください。
 以下のクラスが参考になります：
 - `CameraStreamClient <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html>`__
 - `CameraStreamServer <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html>`__
@@ -159,7 +159,7 @@ USB 3.0ポートにUSBハブを追加することで、2台のWebカメラを接
    ただし、Logitech C920のように消費電力が大きいWebカメラは、同時使用時にUSBポートから過剰な電力を消費する報告があります。
    C920を使う場合は電源付きUSBハブの利用を推奨します。
 
-USBハブのもう一つの用途は、`Limelight 3A <https://limelightvision.io/products/limelight-3a>`__カメラの接続です。
+USBハブのもう一つの用途は、`Limelight 3A <https://limelightvision.io/products/limelight-3a>`__ カメラの接続です。
 このデバイスは独自のプロセッサを搭載しており、**OpMode** が動作していない時でも常に電力を消費します。
 電源付きUSBハブを使うことで、Limelightによるロボットバッテリーの消耗を防げます。
 
@@ -182,7 +182,7 @@ USB Cポートから全ての接続機器に電力供給が可能です。
    2台のLogitech C920 WebカメラがUSBハブに接続されています。
 
 2台のカメラを切り替えて**AprilTag** を検出するサンプルプログラムは、
-`AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`__をご参照ください。
+`AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`__ をご参照ください。
 
 もう一つの用途は、Limelightと電源付きUSBハブを使ってロボットバッテリー消耗を抑えることです。
 以下の例ではLimelightとWebカメラの両方を接続しています。
