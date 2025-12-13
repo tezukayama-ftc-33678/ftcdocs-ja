@@ -2,14 +2,14 @@
 =====================
 
 **REV Driver Hub**
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ には、**Driver Station (DS)** アプリがプリロードされています。以下の **REV Driver Hub** について説明する手順は、**Android** スマートフォンを DS として使用する場合にも適用されます。
 
 名前の変更
 ~~~~~~~~~~~~~~~~~
 
-**Competition Manual** に準拠するために、**Driver Station (DS)** の名前を変更する必要があります。チーム番号に合わせてデバイスを構成します。使用する **ROBOT CONTROLLER**、**DRIVER STATION**、および予備は、次のように正しいチーム番号に対応するように構成/名前を付ける必要があります：
+**Competition Manual** に準拠するために、**Driver Station (DS)** の名前を変更する必要があります。チーム番号に合わせてデバイスを構成します。使用する **ROBOT CONTROLLER** 、**DRIVER STATION** 、および予備は、次のように正しいチーム番号に対応するように構成/名前を付ける必要があります：
 
 A.     **ROBOT CONTROLLER** は <チーム番号>-RC（例：12345-RC）という名前にする必要があります。
 
@@ -49,7 +49,7 @@ C.     予備の **ROBOT CONTROLLER** または **DRIVER STATION** が構成さ�
 
 2. ポップアップメニューから *Settings* メニュー項目を選択します。
 
-.. image:: images/selectSettings1.png
+.. image:: images/selectSettings.png
    :align: center
    :alt: Settings オプションが強調表示されたポップアップメニュー。
 
@@ -57,7 +57,7 @@ C.     予備の **ROBOT CONTROLLER** または **DRIVER STATION** が構成さ�
 
 3. *Driver Station Name* をタッチします。
 
-.. image:: images/touchDriverStationName1.png
+.. image:: images/clickDriverStationName.png
    :align: center
    :alt: Driver Station Name が強調表示された Settings 画面。
 
@@ -65,7 +65,7 @@ C.     予備の **ROBOT CONTROLLER** または **DRIVER STATION** が構成さ�
 
 4. 新しい **Driver Station** 名を入力し、OK をタッチして変更を保存します。
 
-.. image:: images/specifyDriverStationName1.png
+.. image:: images/specifyNewDriverStationName.png
    :align: center
    :alt: 新しい名前を入力するためのダイアログボックス。
 
@@ -73,7 +73,7 @@ C.     予備の **ROBOT CONTROLLER** または **DRIVER STATION** が構成さ�
 
 5. 変更を確認します。
 
-.. image:: images/verifyDriverStationName1.png
+.. image:: images/aboutDriverStation.png
    :align: center
    :alt: 新しい名前を表示する Settings 画面。
 

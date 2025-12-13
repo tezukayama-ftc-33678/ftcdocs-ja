@@ -1,5 +1,5 @@
 Hubファームウェアの更新
-=====================
+=======================
 
 ファームウェアは、デバイスの回路基板または電子 **ハードウェア** を制御する低レベルのソフトウェアです。:doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` が正しく動作するためには、REV Expansion HubおよびREV Control Hubでこれを更新する必要がある場合があります。
 
@@ -53,9 +53,9 @@ Hubファームウェアの更新
    この方法は、DSスマートフォンまたはDriver Hubで実行されているすべてのDSアプリに適用されます。
 
    1. REV Control Hubの場合は、12Vロボット電源を供給します。REV Expansion Hubの場合は、
-      Robot Controller（RC）スマートフォンに直接接続し、RCアプリを開き、 **さらに**
+      Robot Controller（RC）スマートフォンに直接接続し、RCアプリを開き、 ** さらに**
       12V電源を供給します。更新するExpansion Hubは、中間のControl Hubや
-      他の（プライマリ）Expansion Hubを介さずに、RCスマートフォンに **直接接続** する必要があります。更新後、必要に応じてそのHubをセカンダリ位置に戻すことができます。
+      他の（プライマリ）Expansion Hubを介さずに、RCスマートフォンに ** 直接接続** する必要があります。更新後、必要に応じてそのHubをセカンダリ位置に戻すことができます。
 
    2. DSスマートフォンまたはDriver HubからDSアプリをRCデバイスに接続/ペアリングします。DS Settings、Advanced（Robot Controller）Settings、REV
       Hub Firmware Updateを選択します。
@@ -69,7 +69,7 @@ Hubファームウェアの更新
 
       RCデバイスに保存されているHubファームウェアおよび/またはアプリに「バンドル」されているHubファームウェアの利用可能なリストを確認します。
 
-   3. 最新版がリストに表示 **されない** 場合は、コンピューターからRobot Controllerにファームウェアファイルを転送できます。USBデータケーブル（充電専用ケーブルではない）を使用して、ファームウェアファイルをRCデバイスのFIRST/updates/Expansion Hub Firmwareというサブフォルダーに保存します。
+   3. 最新版がリストに表示 ** されない** 場合は、コンピューターからRobot Controllerにファームウェアファイルを転送できます。USBデータケーブル（充電専用ケーブルではない）を使用して、ファームウェアファイルをRCデバイスのFIRST/updates/Expansion Hub Firmwareというサブフォルダーに保存します。
 
       現在および古いファームウェアファイルは、
       `REV RoboticsのWebサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__ にあります。
@@ -83,14 +83,14 @@ Hubファームウェアの更新
 
 .. dropdown:: 方法3 - Robot Controller（RC）アプリ - RCスマートフォン上
 
-   この方法は、上記の方法2と **全く同じ** です。
+   この方法は、上記の方法2と ** 全く同じ** です。
    DSアプリは単にRCアプリへのポータルまたはウィンドウを提供していたためです。
 
    ここに個別にリストされているのは、Control Hubには適用されず、**Expansion
    Hub** にのみ適用されるためです。Control HubはRCスマートフォンを使用しません。つまり、
    ユーザーは通常、Control Hub上のRCアプリと直接インターフェースすることはありません。
 
-   繰り返しになりますが、Expansion Hubは、中間（プライマリ）Expansion Hubを介さずに、RCスマートフォンに **直接** 接続する必要があります。更新後、必要に応じてそのHubをセカンダリ位置に戻すことができます。
+   繰り返しになりますが、Expansion Hubは、中間（プライマリ）Expansion Hubを介さずに、RCスマートフォンに ** 直接** 接続する必要があります。更新後、必要に応じてそのHubをセカンダリ位置に戻すことができます。
 
 .. dropdown:: 方法4 - コンピューター上の管理ページ
 

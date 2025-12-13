@@ -1,10 +1,10 @@
 **REV Hub**
-==========
+===========
 
 **REV Hub** は、*FIRST* Tech Challenge ロボットのコア制御ユニットです。
 
 **Control Hub**
-------------
+---------------
 
 .. toctree::
     :maxdepth: 1
@@ -21,7 +21,7 @@
 **REV Control Hub** は、**REV Expansion Hub** に組み込まれた Android ドーターボードを組み合わせたものです。これは、ロボットのすべてのハードウェアコンポーネントを制御し、実際のロボットソフトウェアを実行できることを意味します。これは、ハードウェアデバイスのみを制御でき、SDK を解釈して実行することができなかった **REV Expansion Hub** とは対照的です。
 
 **Expansion Hub**
---------------
+-----------------
 
 .. toctree::
     :maxdepth: 1

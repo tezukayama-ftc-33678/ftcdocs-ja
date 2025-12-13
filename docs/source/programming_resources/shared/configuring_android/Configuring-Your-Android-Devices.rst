@@ -13,12 +13,12 @@ Control Hubの構成
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
-   **DRIVER STATION** スマートフォンへの参照は、**Driver Station**（**DS**）アプリがプリインストールされている `REV Robotics Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ にも適用される場合があります。
+   **DRIVER STATION** スマートフォンへの参照は、**Driver Station** （**DS** ）アプリがプリインストールされている `REV Robotics Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ にも適用される場合があります。
 
-**Control Hub**（統合されたAndroidデバイスを備えている）を使用しているチームは、**DRIVER STATION** として使用する単一のスマートフォンを構成するだけで済みます。プロセスは次のとおりです：
+**Control Hub** （統合されたAndroidデバイスを備えている）を使用しているチームは、**DRIVER STATION** として使用する単一のスマートフォンを構成するだけで済みます。プロセスは次のとおりです：
 
 *  スマートフォンの名前を「<TEAM NUMBER>-DS」に変更します（<TEAM NUMBER>はチーム番号に置き換えます）。
-*  **Driver Station**（**DS**）アプリを **DRIVER STATION** デバイスにインストールします。（**DS** アプリは **REV Robotics Driver Hub** にプリインストールされています。）
+*  **Driver Station** （**DS** ）アプリを **DRIVER STATION** デバイスにインストールします。（**DS** アプリは **REV Robotics Driver Hub** にプリインストールされています。）
 *  スマートフォンを機内モードにします（WiFi無線はオンのまま）。
 *  **DRIVER STATION** を **Control Hub** にペアリングします（つまり、ワイヤレスで接続します）。
 
@@ -106,7 +106,7 @@ Control Hubの構成
      - |rename8|
 
    * - 9. スマートフォンの名前を変更した後、デバイスの電源を入れ直します。
-     -
+--------------------------------------------------------------------------
 
 
 FIRST Tech Challengeアプリのインストール
@@ -121,7 +121,7 @@ FIRST Tech Challengeアプリのインストール
 
 **2021年現在、SDKアプリ（v 6.1以降）はGoogle Playで入手できなくなりました。**
 
-`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアを使用すると、デバイス（**REV Robotics Control Hub**、**REV Robotics Expansion Hub**、**REV Robotics Driver Hub**、およびその他の承認されたAndroidデバイス）にアプリをダウンロードできます（*以下の「Androidスマートフォンでのアプリの更新」というセクションを参照*）。以下は、いくつかの利点です：
+`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアを使用すると、デバイス（**REV Robotics Control Hub** 、**REV Robotics Expansion Hub** 、**REV Robotics Driver Hub** 、およびその他の承認されたAndroidデバイス）にアプリをダウンロードできます（*以下の「Androidスマートフォンでのアプリの更新」というセクションを参照*）。以下は、いくつかの利点です：
 
 *  WiFi経由で **REV Robotics Control Hub** に接続します。
 *  接続されたデバイス上のすべてのソフトウェアをワンクリックで更新します。
@@ -130,17 +130,17 @@ FIRST Tech Challengeアプリのインストール
 *  Androidデバイスに **DS** と **RC** アプリケーションをインストールして切り替えます。
 *  **Control Hub** の **Robot Control** コンソールにアクセスします。
 
-アプリリリースは、`FtcRobotController GitHubリポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ でも入手できます。**Robot Controller**（**RC**）および **Driver Station**（**DS**）スマートフォンにアプリを「サイドロード」することは可能です。ただし、このドキュメントのこのセクションには、そのような手順は含まれて**いません**。他のドキュメントページでは、:ref:`RCアプリ <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>` と :ref:`DSアプリ <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:Updating the Driver Station App>` のサイドローディングについて説明しています。
+アプリリリースは、`FtcRobotController GitHubリポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ でも入手できます。**Robot Controller** （**RC** ）および **Driver Station** （**DS** ）スマートフォンにアプリを「サイドロード」することは可能です。ただし、このドキュメントのこのセクションには、そのような手順は含まれて** いません** 。他のドキュメントページでは、:ref:`RCアプリ <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>` と :ref:`DSアプリ <programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station:Updating the Driver Station App>` のサイドローディングについて説明しています。
 
 REV Roboticsデバイス（REV Robotics Expansion Hub、REV Robotics Control Hub、REV Robotics Driver Hub）でのアプリとファームウェアの更新
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、REV Roboticsのデバイスにアプリ、ファームウェア、および/またはオペレーティングシステムをインストールおよび更新するために使用されます。REV Hardware Clientをインストールして実行しているPCにUSB経由でデバイスを接続するだけで、ソフトウェアが接続されたハードウェアを検出します。検出後、REV Hardware Clientは、`REV Robotics Control HubでRobot Controller（RC）アプリを更新 <https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-control-hub>`__ したり、`REV Robotics Driver HubでDriver Station（DS）アプリを更新 <https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-driver-hub>`__ したり、`ファームウェアを更新 <https://docs.revrobotics.com/rev-hardware-client/expansion-hub/updating-expansion-hub>`__ したりできます。
 
 Androidスマートフォンでのアプリの更新
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、`Androidスマートフォンでのアプリのインストール、アンインストール、更新 <https://docs.revrobotics.com/rev-hardware-client/android-device/installing-rc-ds-applications>`__ に使用されます。ただし、REV Hardware Clientソフトウェアによってスマートフォンが適切に認識および更新されるためには、スマートフォンで **Developer Options**（開発者オプション）を有効にする必要があります。Developer Optionsを有効にするプロセスは次のとおりです：
+`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、`Androidスマートフォンでのアプリのインストール、アンインストール、更新 <https://docs.revrobotics.com/rev-hardware-client/android-device/installing-rc-ds-applications>`__ に使用されます。ただし、REV Hardware Clientソフトウェアによってスマートフォンが適切に認識および更新されるためには、スマートフォンで **Developer Options** （開発者オプション）を有効にする必要があります。Developer Optionsを有効にするプロセスは次のとおりです：
 
 .. |devop1| image:: images/1-developer-options.jpg
 .. |devop2a| image:: images/2a-developer-options.jpg
@@ -163,7 +163,7 @@ Androidスマートフォンでのアプリの更新
      - |devop2a|       |devop2b|
 
    * - 3. パターン、PIN、またはパスワードを入力して、Developer optionsメニューを有効にします。
-     -
+----------------------------------------------------------------------------------------------
 
    * - 4. 「Developer options」メニューがSettingsメニューに表示されるようになります。デバイスによっては、Settings > General > Developer optionsの下に表示される場合があります。
      - |devop4|
@@ -203,7 +203,7 @@ DRIVER STATIONをRobot Controllerにペアリングする
 .. _control-hub-users-1:
 
 Control Hubのペアリング
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 **REV Robotics Control Hub** には、**Robot Controller** アプリがプリインストールされています。Androidスマートフォンに **Driver Station** を正常にインストールしたら、**Control Hub** と **DRIVER STATION** の間にセキュアなワイヤレス接続を確立します。この接続により、**DRIVER STATION** デバイスは **Robot Controller** で **Op Mode** を選択し、これらのプログラムにゲームパッド入力を送信できます。同様に、**Robot Controller** で実行されている **Op Mode** は、**DRIVER STATION** スマートフォンにテレメトリデータを送信でき、そこでドライバー用に表示できます。2つのデバイスを接続するプロセスは「ペアリング」として知られています。
 
@@ -278,7 +278,7 @@ Control Hubのペアリング
 .. _users-with-two-android-smartphones-1:
 
 2台のAndroidスマートフォンのペアリング
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. important:: **DRIVER STATION** が以前に **Control Hub** とペアリングされていて、現在Androidスマートフォン **Robot Controller** に接続したい場合は、**Robot Controller** とのペアリングを試みる前に、以前の **Control Hub** のWi-Fiネットワークを忘れ（**DRIVER STATION** のAndroid Wifi Settings画面を使用）、**DRIVER STATION** スマートフォンの電源を入れ直す必要があります。以前の **Control Hub** の電源がオンになっていて、このネットワークを忘れていない場合、**DRIVER STATION** は **Control Hub** に接続しようとし、**Robot Controller** スマートフォンに接続できない可能性があります。
 

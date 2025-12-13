@@ -1,19 +1,19 @@
 **Android Studio** の Instant Run を無効にする :bdg-warning:`Legacy` :bdg-success:`AS`
-============================================================================
+======================================================================================
 
 .. attention::
    *Instant Run* は **Android Studio** バージョン 3.5 で削除されました。
    **Android Studio** 3.5 以降のバージョンでは問題になりません。
    ただし、この記事は **FIRST** **Tech Challenge** ソフトウェア開発キット
-   （**SDK**）v7.1 以前のバージョンを古いバージョンの **Android Studio** で
+   （**SDK** ）v7.1 以前のバージョンを古いバージョンの **Android Studio** で
    使用している方のために残されています。
 
 はじめに
 ~~~~~~~~~~~~
 
-**Android Studio** を使用する場合、**最も重要なステップの1つ**は **Android Studio** の Instant Run を無効にすることです。Instant Run は、アプリへのコード変更を適用する時間を短縮することで開発プロセスを合理化するように設計された機能です。残念ながら、Instant Run は機能が制限されており、**FIRST** **Tech Challenge** の **Android Studio** プロジェクトフォルダーで使用すると、**重大な**問題や**トラブルシューティングが困難な**問題を引き起こす可能性があります。
+**Android Studio** を使用する場合、** 最も重要なステップの1つ** は **Android Studio** の Instant Run を無効にすることです。Instant Run は、アプリへのコード変更を適用する時間を短縮することで開発プロセスを合理化するように設計された機能です。残念ながら、Instant Run は機能が制限されており、**FIRST** **Tech Challenge** の **Android Studio** プロジェクトフォルダーで使用すると、** 重大な** 問題や** トラブルシューティングが困難な** 問題を引き起こす可能性があります。
 
-**Android Studio** を使用するチームは、Instant Run を**必ず**無効にしてください。
+**Android Studio** を使用するチームは、Instant Run を** 必ず** 無効にしてください。
 
 Instant Run 設定の場所
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

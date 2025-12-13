@@ -30,13 +30,13 @@ SDKリリース
 ソフトウェア開発キットは、**FIRST Tech Challenge** **Technology Team** として知られるコアグループによって、プライベートGitHubリポジトリ内で開発および保守されています。このリポジトリは、将来の **FIRST Tech Challenge** ゲームの秘密、開発中の機能、およびその他の開発の側面の詳細を漏らさないようにするため、プライベートに保たれています。開発とメンテナンスは年間を通じて継続的に行われています。
 
 リリースコンテンツ
-"""""""""""""""
+""""""""""""""""""
 
 SDKがリリースする準備が整うと、プライベートSDKリポジトリがビルドされ、エクスポートされます。このビルドは以下で構成されます：
 
--  ビルドされたDriver Stationアプリ（``FtcDriverStation-release.apk``）
--  ビルドされたRobot Controllerアプリ（``FtcRobotController-release.apk``）
--  Android Studioプロジェクトのソースコード（``vX.X.zip``、``vX.X.tar.gz``）
+-  ビルドされたDriver Stationアプリ（``FtcDriverStation-release.apk`` ）
+-  ビルドされたRobot Controllerアプリ（``FtcRobotController-release.apk`` ）
+-  Android Studioプロジェクトのソースコード（``vX.X.zip`` 、``vX.X.tar.gz`` ）
 -  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__
 -  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど、別途ホスト）
 
@@ -56,13 +56,13 @@ SDKがリリースする準備が整うと、プライベートSDKリポジト�
    TensorFlowモデルやVuforiaデータベースなどの一部のシーズン固有のアセットは、FtcRobotController GitHubリポジトリに直接含まれていません。代わりに、Maven Centralでホストされている ``.AAR`` にパッケージ化されています。Robot Controller Appを使用する場合、これらのアセットはアプリに含まれています。Android Studioを使用する場合、これらのアセットはプロジェクトを最初にコンパイルするときにダウンロードされ、プロジェクトに含まれます（したがって、アクティブなインターネット接続が必要です）。
 
 リリーススケジュール
-""""""""""""""""
+""""""""""""""""""""
 
 これらのリリースは、正確な日付が明確に定義されていない場合でも、定期的なスケジュールで行われます：
 
--  **キックオフSDKリリース** - 通常、**FIRST Tech Challenge** キックオフから1〜2週間以内にリリースされます。キックオフSDKは、通常、シーズン中の使用に必要な最小ソフトウェアバージョンです。
--  **更新/パッチリリース** - これらは通常、**FIRST Tech Challenge** シーズン中に、重大な問題または有用な機能がチームで利用可能になったときにリリースされます。更新/パッチリリースは、重大なパッチまたはバグ修正が発行されない限り、競技には通常必要ありません。
--  **オフシーズンリリース** - オフシーズンリリースは、破壊的変更に対してチームを準備するため、または次のシーズンの新機能のテクノロジープレビューを提供するために使用されます。
+-  ** キックオフSDKリリース** - 通常、**FIRST Tech Challenge** キックオフから1〜2週間以内にリリースされます。キックオフSDKは、通常、シーズン中の使用に必要な最小ソフトウェアバージョンです。
+-  ** 更新/パッチリリース** - これらは通常、**FIRST Tech Challenge** シーズン中に、重大な問題または有用な機能がチームで利用可能になったときにリリースされます。更新/パッチリリースは、重大なパッチまたはバグ修正が発行されない限り、競技には通常必要ありません。
+-  ** オフシーズンリリース** - オフシーズンリリースは、破壊的変更に対してチームを準備するため、または次のシーズンの新機能のテクノロジープレビューを提供するために使用されます。
 
 ソフトウェアSDKの更新は、`FIRST Tech Challengeブログ <https://community.firstinspires.org/topic/ftc>`__ および
 `チームメールブラスト <https://www.firstinspires.org/resources/library/ftc/team-email-blast-archive>`__ を通じて発表されます。

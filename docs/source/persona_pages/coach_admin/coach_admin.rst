@@ -17,7 +17,7 @@
       We express the *FIRST* philosophies of Gracious Professionalism 
       and Coopertition through our Core Values.
       
-      +++
+++++++
 
       .. div:: container-fluid p-0
 

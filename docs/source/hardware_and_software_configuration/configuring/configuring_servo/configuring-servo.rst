@@ -7,7 +7,7 @@
 サーボの構成手順
 --------------------------------
 
-1. 画面の **Servos** という単語をタッチして、**サーボ構成**画面を表示します。                                               
+1. 画面の **Servos** という単語をタッチして、** サーボ構成** 画面を表示します。                                               
 
 .. image:: images/ConfiguringHardwareServoStep1.jpg
    :align: center

@@ -13,12 +13,12 @@ Control Hub の準備
 **Control Hub** を使用する場合、追加の接続は不要です。**Control Hub** の電源が入っていて、**DRIVER STATION** とペアリングされていることを確認してください。
 
 Android スマートフォンを Expansion Hub に接続する
------------------------------------------------
+-------------------------------------------------
 
 Android スマートフォンを **Robot Controller** として使用する場合は、USB ケーブルと OTG（On-The-Go）アダプターを使って、スマートフォンを **Expansion Hub** に物理的に接続する必要があります。また、**DRIVER STATION** が現在 **Robot Controller** とペアリングされていることも確認してください。
 
 Android スマートフォンを Expansion Hub に接続する手順
----------------------------------------------------
+-----------------------------------------------------
 
 1. **Expansion Hub** の電源スイッチを入れて、電源をオンにします。
 
@@ -50,7 +50,7 @@ Android スマートフォンを Expansion Hub に接続する手順
 
 OTG アダプターをスマートフォンに接続すると、スマートフォンが **Expansion Hub** を検出し、**Robot Controller** アプリが起動します。
 
-5. 初めて **Robot Controller** スマートフォンを **Expansion Hub** に接続した際、Android の OS から新しく検出された USB デバイス（**Expansion Hub**）を **Robot Controller** アプリに関連付けてもよいか確認するメッセージが表示されます。
+5. 初めて **Robot Controller** スマートフォンを **Expansion Hub** に接続した際、Android の OS から新しく検出された USB デバイス（**Expansion Hub** ）を **Robot Controller** アプリに関連付けてもよいか確認するメッセージが表示されます。
 
 .. image:: images/ConfiguringHardwareStep5.jpg
    :align: center
@@ -68,7 +68,7 @@ DRIVER STATION を使った構成ファイルの作成
 
 
 DRIVER STATION を使って Robot Controller に構成ファイルを作成する手順
---------------------------------------------------------------
+---------------------------------------------------------------------
 
 1. **Driver Station** アプリ右上の縦三点（︙）をタッチします。ポップアップメニューが表示されます。
 

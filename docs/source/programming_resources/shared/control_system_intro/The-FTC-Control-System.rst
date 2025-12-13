@@ -19,7 +19,7 @@ AUTO と TELEOP
 *FIRST* Tech Challenge のマッチには、**AUTO** フェーズと **TELEOP** フェーズがあります。マッチの **AUTO** フェーズでは、ロボットは人間の入力や制御なしで動作します。**TELEOP** フェーズでは、ロボットは最大2人の人間ドライバーから入力を受け取ることができます。
 
 ポイントツーポイント制御システム
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *FIRST* Tech Challenge では、Android デバイスを使用してロボットを制御します。競技中、各チームは2つの Android デバイスを使用します。
 
@@ -37,7 +37,7 @@ REV Robotics Control Hub と Expansion Hub
 
 **REV Robotics Control Hub** または **Expansion Hub** は、**Robot Controller** がロボットのモーター、サーボ、センサーと通信できるようにする電子入出力（「I/O」）モジュールです。**Robot Controller** は **Control Hub** に統合されており、シリアル接続を介して **Expansion Hub** と通信します。Android スマートフォンを **Robot Controller** として使用する場合は、USB ケーブルを使用してシリアル接続を確立します。
 
-**Control Hub** と **Expansion Hub** は、12V バッテリーにも接続されており、**Control Hub**、**Expansion Hub**、モーター、サーボ、センサーに電力を供給します。Android スマートフォンを **Robot Controller** として使用する場合、スマートフォンには独自の独立したバッテリーがあります。
+**Control Hub** と **Expansion Hub** は、12V バッテリーにも接続されており、**Control Hub** 、**Expansion Hub** 、モーター、サーボ、センサーに電力を供給します。Android スマートフォンを **Robot Controller** として使用する場合、スマートフォンには独自の独立したバッテリーがあります。
 
 .. image:: images/REVControlHubLayout.png
    :align: center
@@ -45,9 +45,9 @@ REV Robotics Control Hub と Expansion Hub
 |
 
 Android スマートフォン
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
-チームは、Android スマートフォンを **Driver Station**、**Robot Controller**、またはその両方として使用することを選択できます。**Driver Station** のスマートフォンには、**FTC Driver Station** アプリをインストールする必要があり、ゲームパッドを接続するには OTG アダプター USB ハブが必要です。
+チームは、Android スマートフォンを **Driver Station** 、**Robot Controller** 、またはその両方として使用することを選択できます。**Driver Station** のスマートフォンには、**FTC Driver Station** アプリをインストールする必要があり、ゲームパッドを接続するには OTG アダプター USB ハブが必要です。
 
 .. image:: images/ControlHubEquals.jpg
    :align: center

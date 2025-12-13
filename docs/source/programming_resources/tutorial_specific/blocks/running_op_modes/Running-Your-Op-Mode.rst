@@ -41,7 +41,7 @@ Op Mode の実行手順
 
 |
 
-   注：「**TeleOp**」は「Tele-Operated」の略で、ドライバーが制御する **Op Mode**（つまり、人間のドライバーから入力を受け取る **Op Mode**）を意味します。
+   注：「**TeleOp**」は「Tele-Operated」の略で、ドライバーが制御する **Op Mode** （つまり、人間のドライバーから入力を受け取る **Op Mode** ）を意味します。
 
 4. 「MyFIRSTOpMode」を選択して、**Robot Controller** に **Op Mode** をロードします。
 

@@ -1,5 +1,5 @@
 Control Hub または Expansion Hub へのデバイス接続
-================================================
+=================================================
 
 このセクションでは、モーター、サーボ、およびいくつかのセンサーを **REV Robotics Control Hub** または **REV Robotics Expansion Hub** に接続する方法について説明します。**Control Hub** は組み込みの Android デバイスがあるため **Expansion Hub** とは異なりますが、外部モーター、サーボ、センサーポートのレイアウトは **Control Hub** と **Expansion Hub** で同じです。
 

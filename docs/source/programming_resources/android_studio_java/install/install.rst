@@ -1,5 +1,5 @@
 **Android Studio** のインストール :bdg-success:`AS`
-===========================================
+===================================================
 
 .. toctree::
     ../../tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio

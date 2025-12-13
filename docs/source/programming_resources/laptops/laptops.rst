@@ -36,7 +36,7 @@ roles. Specific recommended hardware that meets each of the requirements
 are listed in the “Recommended Hardware Sets” section.
 
 Recommended Computer Hardware for *FIRST*\ :sup:`®` LEGO\ :sup:`®` League
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *FIRST* LEGO League has two divisions which use programmable platforms:
 *FIRST* LEGO League Challenge which uses the `LEGO\ ® Education SPIKE\ ™
@@ -73,7 +73,7 @@ content, to access teacher support materials, and to use certain
 features such as live weather data.
 
 Recommended Computer Hardware for *FIRST*\ :sup:`®` Tech Challenge
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The predominant hardware platform used in *FIRST* Tech Challenge is the
 `REV Control
@@ -132,7 +132,7 @@ updates and is required for Android Studio users to download software
 templates.
 
 Recommended Computer Hardware for *FIRST*\ :sup:`®` Robotics Competition
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The predominant hardware platform used in *FIRST* Robotics Competition
 is the `NI

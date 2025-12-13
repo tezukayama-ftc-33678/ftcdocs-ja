@@ -1,5 +1,5 @@
 フォーカス制御モード
-------------------
+--------------------
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl.Mode`
 

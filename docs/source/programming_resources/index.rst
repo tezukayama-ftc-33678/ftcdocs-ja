@@ -4,12 +4,12 @@
    :keywords: Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studio, Control Hub, Robot Controller, Driver Station, FTC Control System, Programming Resources
 
 プログラミングリソース
-=====================
+======================
 
 このページには、制御システムコンポーネントの構成とプログラミングに役立つプログラミングチュートリアルおよび関連する制御システムドキュメントが含まれています。
 
 プログラミングチュートリアル
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **FIRST** **Tech Challenge** プログラミングチュートリアル
 
@@ -65,7 +65,7 @@
    shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller
 
 **AprilTag** プログラミング
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **AprilTag** を使用したプログラミングのトピック
 
@@ -82,7 +82,7 @@
    ../apriltag/apriltag_tips/decode_apriltag/decode-apriltag 
 
 ビジョンプログラミング
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 ビジョンの使用についての詳細
 
@@ -131,7 +131,7 @@
    ../devices/huskylens/huskylens
    
 追加の **FIRST** ウェブサイトリソース
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  `FIRST ウェブサイト プログラミングリソースリンク <https://www.firstinspires.org/resources/library/ffc/programming-resources>`__
 

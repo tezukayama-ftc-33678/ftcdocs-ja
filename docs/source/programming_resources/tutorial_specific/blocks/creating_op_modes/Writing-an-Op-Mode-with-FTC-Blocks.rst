@@ -8,7 +8,7 @@ Op Mode とは？
 典型的な **FIRST** Tech Challenge のマッチでは、チームのロボットは得点を獲得するために
 さまざまなタスクを実行する必要があります。例えば、チームは競技フロアの白線をロボットが
 追従し、マッチ中に自律的にゲーム要素をゴールに入れることを望むかもしれません。チームは
-ロボットの動作を指定するために **op modes**（「operational modes」の略）と呼ばれる
+ロボットの動作を指定するために **op modes** （「operational modes」の略）と呼ばれる
 プログラムを作成します。これらの **op modes** は、**DRIVER STATION** で選択された後、
 **Robot Controller** 上で実行されます。
 
@@ -17,7 +17,7 @@ Op Mode とは？
 **Blocks Programming Tool** を使用してロボット用の **op mode** を作成する方法を説明します。
 
 **Blocks Programming Tool**
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Blocks Programming Tool** は、**Robot Controller** によって提供されるユーザーフレンドリーな
 プログラミングツールです。ユーザーはこのツールを使用してロボット用のカスタム **op modes** を
@@ -152,7 +152,7 @@ Op Mode の構造の確認
 
 上図では、**op mode** のメイン本体は、上部に "to runOpMode" という文字が付いた
 外側の紫色のブラケットによって定義されています。ヘルプのヒントが示すように、
-この関数は、この **op mode**（この例では "MyFIRSTOpMode"）が **DRIVER STATION** から
+この関数は、この **op mode** （この例では "MyFIRSTOpMode"）が **DRIVER STATION** から
 選択されたときに実行されます。
 
 **op mode** を、**Robot Controller** が実行するタスクのリストと考えると役立ちます。

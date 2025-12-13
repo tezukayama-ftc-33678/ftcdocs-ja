@@ -32,7 +32,7 @@
    long minExposure = exposureControl.getMinExposure(TimeUnit.MILLISECONDS);
    long maxExposure = exposureControl.getMaxExposure(TimeUnit.MILLISECONDS);
 
-**重要な注意事項：**
+** 重要な注意事項：**
 
 - 露出時間はナノ秒単位で指定されますが、``TimeUnit`` を使用してミリ秒、マイクロ秒などの他の単位を使用できます。
 - サポートされる露出範囲はカメラによって異なります。

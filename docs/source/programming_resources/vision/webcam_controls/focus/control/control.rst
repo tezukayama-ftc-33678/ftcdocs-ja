@@ -1,5 +1,5 @@
 フォーカス制御
--------------
+--------------
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl`
 
@@ -10,7 +10,7 @@ Webcam でサポートされている場合、フォーカスは次の **FocusCo
 -  **setFocusLength(double focusLength)**
 -  **getFocusLength()**
 
-距離単位はここでは指定されていません。許可された範囲内の無次元値である場合があります。たとえば、Logitech C920 は 0 から 250 までの値を許可し、**より高い**値は**より近い**オブジェクトにフォーカスします。
+距離単位はここでは指定されていません。許可された範囲内の無次元値である場合があります。たとえば、Logitech C920 は 0 から 250 までの値を許可し、** より高い** 値は** より近い** オブジェクトにフォーカスします。
 
 Webcam は、フォーカス長の最小値と最大値をサポートする場合があります。これらは次の方法で取得できます：
 

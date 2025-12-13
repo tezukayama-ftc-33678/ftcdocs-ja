@@ -4,7 +4,7 @@
    :keywords: FTC Docs, FIRST Tech Challenge, FTC, FAQ
 
 チーム よくある質問
-=================
+===================
 
 登録から競技、審査に至るまで、チーム活動の様々な側面に関する簡潔な回答をお探しの場合は、これらの公式な質問と回答を参照してシーズンを乗り切ってください。さらに詳しい説明が必要な場合は、https://www.firstinspires.org/ にアクセスしてライブチャットを利用するか、`Game Q&A <https://ftc-qa.firstinspires.org/>`_ で競技固有の質問をしてください。
 
