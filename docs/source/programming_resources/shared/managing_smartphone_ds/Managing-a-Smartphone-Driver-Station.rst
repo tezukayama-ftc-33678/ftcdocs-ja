@@ -49,7 +49,7 @@ C.     予備の **ROBOT CONTROLLER** または **DRIVER STATION** が構成さ�
 
 2. ポップアップメニューから *Settings* メニュー項目を選択します。
 
-.. image:: images/selectSettings1.png
+.. image:: images/selectSettings.png
    :align: center
    :alt: Settings オプションが強調表示されたポップアップメニュー。
 
@@ -57,7 +57,7 @@ C.     予備の **ROBOT CONTROLLER** または **DRIVER STATION** が構成さ�
 
 3. *Driver Station Name* をタッチします。
 
-.. image:: images/touchDriverStationName1.png
+.. image:: images/clickDriverStationName.png
    :align: center
    :alt: Driver Station Name が強調表示された Settings 画面。
 
@@ -65,7 +65,7 @@ C.     予備の **ROBOT CONTROLLER** または **DRIVER STATION** が構成さ�
 
 4. 新しい **Driver Station** 名を入力し、OK をタッチして変更を保存します。
 
-.. image:: images/specifyDriverStationName1.png
+.. image:: images/specifyNewDriverStationName.png
    :align: center
    :alt: 新しい名前を入力するためのダイアログボックス。
 
@@ -73,7 +73,7 @@ C.     予備の **ROBOT CONTROLLER** または **DRIVER STATION** が構成さ�
 
 5. 変更を確認します。
 
-.. image:: images/verifyDriverStationName1.png
+.. image:: images/aboutDriverStation.png
    :align: center
    :alt: 新しい名前を表示する Settings 画面。
 

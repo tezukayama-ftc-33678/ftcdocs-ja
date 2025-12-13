@@ -32,7 +32,7 @@ FTC **タイマー** は、馴染みのある ``.sleep`` ブロックよりも�
 
 このようなブール値の出力を持つ **myBlock** は、``.repeat while`` や ``.if/then`` などの **Blocks** 制御構造で使用できます。
 
-.. image:: images/a0450-Timer-Blocks-use-only.png
+.. image:: images/a0450-Timer-Blocks.png
 
 上記の最初の **Blocks** 関数では、myStopwatch 変数を作成して開始します。再度停止するまで、タイマーは実行され続けます。
 
@@ -42,9 +42,9 @@ FTC **タイマー** は、馴染みのある ``.sleep`` ブロックよりも�
 
 .. dropdown:: サンプルコード
 
-   :download:`SampleMyBlocks_v02.java <opmodes/SampleMyBlocks_v02.java>`
+   :download:`SampleMyBlocks_v03.java <opmodes/SampleMyBlocks_v03.java>`
 
-   .. literalinclude:: opmodes/SampleMyBlocks_v02.java
+   .. literalinclude:: opmodes/SampleMyBlocks_v03.java
       :language: java
 
 必要に応じて、リセット機能を備えた3番目の **myBlock** を追加できます。これにより、**Blocks** ユーザーは、OpMode 中にタイマーを再度ゼロにすることができます。これは、``.reset()`` メソッドで簡単に行えます。

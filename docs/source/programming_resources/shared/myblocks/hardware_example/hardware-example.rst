@@ -30,7 +30,7 @@
 
 **Blocks** ユーザーは、**アクティブな構成**から正確なデバイス名を入力する必要があります。ハードウェアデバイス名（モーター、サーボ、センサー）は、RC アプリまたはペアリングされた DS アプリの Configure Robot メニューにあります。または、これらのデバイスタイプを含む任意の **Blocks** ドロップダウンリストから名前を再入力する方が簡単な場合があります。たとえば、緑色の Servo **Set** ブロックのドロップダウンリストです。
 
-.. image:: images/a0320-wiggle-Blocks-use-only.png
+.. image:: images/a0320-wiggle-OpMode.png
 
 このサンプル myBlock は、**Blocks** メニューの Java Classes をクリックし、次に SampleMyBlocks サブメニューをクリックして見つけることができます。
 
@@ -41,7 +41,7 @@ Tutorial <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Writin
 
 ここに Blocks OpMode 全体があります。**Blocks** エディターの Java Classes タブに myBlock を配置できます。
 
-.. image:: images/a0310-wiggle-Blocks-v01.png
+.. image:: images/a0310-wiggle-myBlock.png
 
 .. note:: このチュートリアルでは、上記の Java コードを**手動で入力**することを意図しています。この例の事前入力されたテキストが必要な場合は、上記の折りたたみ可能な**サンプルコード**セクションをクリックしてください。リンクされたコピーには、通常のクラス宣言とパッケージ/インポート文が含まれています。
 

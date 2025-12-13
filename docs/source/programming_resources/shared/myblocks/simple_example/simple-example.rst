@@ -63,11 +63,11 @@ Wi-Fi 経由で **Control Hub** または RC スマートフォンに接続さ�
 
 **コードは完成しました！** 全体は次のようになります：
 
-.. image:: images/a0150-Hello-OBJ-complete-circle.png
+.. image:: images/a0150-Hello-OBJ-full-arrows.png
 
 左上隅の Build Everything ボタンをクリックします。
 
-.. image:: images/a0160-Build-OBJ.png
+.. image:: images/a0160-Hello-run-create-arrow.png
 
 正常にビルドされるはずです。エラーがある場合は、上記のコードとまったく同じようにタイプミスがないか注意深く確認してください。大文字と小文字を区別し、引用符、セミコロン、中括弧を区別します。
 
@@ -75,25 +75,25 @@ Wi-Fi 経由で **Control Hub** または RC スマートフォンに接続さ�
 
 左側のメニューツールボックスで、**Java Classes** タブを選択します。
 
-.. image:: images/a0170-Hello-Blocks-menu.png
+.. image:: images/a0170-Hello-run-menu-arrows.png
 
 **SampleMyBlocks** サブメニューをクリックすると、新しい **myBlock** が表示されます！
 
-.. image:: images/a0180-Hello-Blocks-found.png
+.. image:: images/a0180-Hello-run-telemetry-circle.png
 
 **myBlock** を作業領域にドラッグすると、入力ソケットにカーソルを合わせると、 **ツールチップ** 「Greet a person or group.」が表示されます。
 
-.. image:: images/a0190-Hello-Blocks-tooltip.png
+.. image:: images/a0190-Hello-run-OpMode-circle.png
 
 青い疑問符アイコンをクリックすると、 **コメント** 「Here is a greeting for you.」が表示されます。
 
-.. image:: images/a0200-Hello-Blocks-comment.png
+.. image:: images/a0200-Hello-run-screenshot-circle.png
 
 カスタムラベル「Recipient」が、灰色の入力ソケットの左側に表示されます。これらのオプション機能はすべて、Java コードのアノテーション ``@ExportToBlocks`` から取得されます。
 
 ここで、このシンプルな **myBlock** の動作を確認するために、2つのコマンドで **Blocks** プログラムを作成できます：
 
-.. image:: images/a0210-Hello-Blocks-complete.png
+.. image:: images/a0200-Hello-run-screenshot-circle.png
 
 任意のテキストを入力できます。ボタン ``ABC`` をクリックして、それを入力します。この例では「World」を使用しています。
 
@@ -105,9 +105,9 @@ OpMode を保存して実行すると、**Driver Station** に挨拶が表示さ
 
 .. dropdown:: サンプルコード
 
-   :download:`SampleMyBlocks.java <opmodes/SampleMyBlocks.java>`
+   :download:`SampleMyBlocks_v00.java <opmodes/SampleMyBlocks_v00.java>`
 
-   .. literalinclude:: opmodes/SampleMyBlocks.java
+   .. literalinclude:: opmodes/SampleMyBlocks_v00.java
       :language: java
 
 次の例では、上記の Java クラスにより多くの **myBlock** メソッドを追加します。それらは、ここで作成した SampleMyBlocks.java ファイルを編集して追加されます。
