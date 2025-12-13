@@ -7,8 +7,8 @@
 
 Webcam でサポートされている場合、フォーカスは次の **FocusControl** メソッドで管理できます：
 
--  setFocusLength(double focusLength) 
--  getFocusLength()
+-  **setFocusLength(double focusLength)**
+-  **getFocusLength()**
 
 距離単位はここでは指定されていません。許可された範囲内の無次元値である場合があります。たとえば、Logitech C920 は 0 から 250 までの値を許可し、**より高い**値は**より近い**オブジェクトにフォーカスします。
 

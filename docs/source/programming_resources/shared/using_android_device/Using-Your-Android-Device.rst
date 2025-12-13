@@ -3,7 +3,7 @@
 
 制御システムを始める前に、**Android** デバイスの基本的な操作に慣れることが役立ちます。
 
-REV Robotics Driver Hub
+**REV Robotics Driver Hub**
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 DRIVER STATION として **REV Robotics Driver Hub** を使用しているチームは、`REV Robotics の公式ドキュメント <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ を参照して、**REV Robotics Driver Hub** のセットアップと使用方法の手順を確認してください。

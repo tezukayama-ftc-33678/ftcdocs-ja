@@ -93,7 +93,7 @@
 競技マニュアルに記載されています。これらは、**REV Expansion Hub**、**REV Control Hub**、または **REV SPARKmini Motor Controller** 
 を介してのみ制御できます。
 
-Additional Resources
+追加リソース
 ---------------------
 
  - :ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:motor ports>`

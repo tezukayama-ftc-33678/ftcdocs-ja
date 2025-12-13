@@ -16,8 +16,8 @@ Webcam は、さまざまなフォーカスモードのいずれかで動作す�
 
 モードは、これらの **FocusControl** メソッドで管理されます：
 
--  setMode(ExposureControl.Mode._mode_) 
--  getMode()
+-  **setMode(ExposureControl.Mode._mode_)**
+-  **getMode()**
 
 Logitech C920 Webcam は、**ContinuousAuto** と **Fixed** の2つのモードを提供し、**FocusControl** メソッドに応答します。Logitech C270（古いモデル）は **Fixed** モードのみを提供しますが、プログラムによる制御は許可されません。
 

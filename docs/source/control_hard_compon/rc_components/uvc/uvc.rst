@@ -45,11 +45,11 @@ UVC ウェブカメラ
 ウェブカメラは、コンピュータービジョン関連のタスクで使用することを目的としています。
 ウェブカメラの使用例には、以下が含まれます：
 
-- :doc:`detecting <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>` an AprilTag,
-- determining where the robot is :doc:`located <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` on the field,
-- using OpenCV to :doc:`detect colors or shapes <../../../color_processing/index>` of game elements.
+- **AprilTag** の :doc:`検出 <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>`
+- フィールド上でロボットが :doc:`どこにいるか <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` の特定
+- **OpenCV** を使用したゲーム要素の :doc:`色や形状の検出 <../../../color_processing/index>`
 
-Additional Resources
+追加リソース
 --------------------
 
 - A :doc:`list of webcams <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>` known to be compatible with VisionPortal.

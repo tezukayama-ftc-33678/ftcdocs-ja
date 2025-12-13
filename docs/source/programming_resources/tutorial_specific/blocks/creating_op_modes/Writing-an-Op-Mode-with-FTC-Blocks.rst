@@ -16,7 +16,7 @@ Op Mode とは？
 使用できるさまざまなプログラミングツールを利用できます。このセクションでは、
 **Blocks Programming Tool** を使用してロボット用の **op mode** を作成する方法を説明します。
 
-Blocks Programming Tool
+**Blocks Programming Tool**
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 **Blocks Programming Tool** は、**Robot Controller** によって提供されるユーザーフレンドリーな

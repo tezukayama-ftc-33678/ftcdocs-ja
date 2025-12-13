@@ -61,7 +61,7 @@
 **REV Servo Power Module**（SPM）を使用して、サーボに供給される電力を、デバイスあたり最大 6 つのサーボに対して 6V で最大 90W まで増強することができます。
 **FIRST Tech Challenge** のロボットは、合計最大 12 個のサーボを使用できます。
 
-Additional Resources
+追加リソース
 ---------------------
 
  - :ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:servo ports>`

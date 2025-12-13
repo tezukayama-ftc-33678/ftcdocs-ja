@@ -1,13 +1,12 @@
 Blocks リファレンス資料 :bdg-warning:`Blocks`
 ================================================
 
-Blocks リファレンスマニュアル
+**Blocks** リファレンスマニュアル
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 より複雑な **Op Mode** を作成するようになると、**FIRST Tech Challenge** ソフトウェア開発キット（**SDK**）のより多くの機能を使用する必要が出てきます。Oregon Robotics Tournament & Outreach Program（ORTOP）のBruce Schafer氏は、**Blocks** プログラミングツールで利用可能なプログラミングブロックについて説明する有用なリファレンスドキュメントを作成しました：
 
-`Blocks Programming Tool Reference
-Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__
+`Blocks Programming Tool Reference Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__
 
 サンプル Op Mode
 ~~~~~~~~~~~~~~~
@@ -28,20 +27,17 @@ Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceMan
 
 - https://ftc-community.firstinspires.org
 
-REV Robotics Control Hub ドキュメント（英語）
+**REV Robotics Control Hub** ドキュメント（英語）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`REV Robotics Control Hub Getting Started
-Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`__
+`REV Robotics Control Hub Getting Started Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`__
 
-REV Robotics Expansion Hub ドキュメント（英語）
+**REV Robotics Expansion Hub** ドキュメント（英語）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`REV Robotics Expansion Hub Getting Started
-Guide <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__
+`REV Robotics Expansion Hub Getting Started Guide <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__
 
-REV Robotics Driver Hub ドキュメント（英語）
+**REV Robotics Driver Hub** ドキュメント（英語）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`REV Robotics Driver Hub Getting Started
-Guide <https://docs.revrobotics.com/duo-control/driver-hub-gs>`__
+`REV Robotics Driver Hub Getting Started Guide <https://docs.revrobotics.com/duo-control/driver-hub-gs>`__
