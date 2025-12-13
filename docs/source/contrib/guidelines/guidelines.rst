@@ -41,8 +41,8 @@ Issue には2つのタイプがあります：バグと機能リクエストで�
 プルリクエストでは、協力者が変更をメインコードベースに統合する前に、提案された変更セットをレビューして議論できます。
 GitHub では、PR はソースブランチのコンテンツとターゲットブランチのコンテンツの違いを表示します。
 
-PR は GitHub の `FTC Docs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ リポジトリに作成する必要があります。タイトルは、PR の目的を*簡潔*に説明することを目指してください。PR の作成の詳細については、GitHub の 
-`creating a pull request <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_
+PR は GitHub の `FTC Docs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`__ リポジトリに作成する必要があります。タイトルは、PR の目的を*簡潔*に説明することを目指してください。PR の作成の詳細については、GitHub の 
+`creating a pull request <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`__
 を参照してください。
 変更を行うための具体的なガイダンスがあります。:doc:`変更の概要 </contrib/tutorials/overview/overview>` から始めてください。
 

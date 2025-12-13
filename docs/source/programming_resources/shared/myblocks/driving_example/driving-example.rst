@@ -13,9 +13,9 @@
 
 .. image:: images/a0410-inchesToCounts-Blocks.png
 
-.. tip:: ``return`` コマンドの ``(int)`` 演算子に注意してください。これは、``double`` 型の countsToDrive 変数を ``int`` 型に変換または** キャスト** して、必要な** 戻り値の型** と互換性を持たせます。** 型キャスト** の詳細については、`こちら <https://www.w3schools.com/java/java_type_casting.asp>`__ または `こちら <https://www.geeksforgeeks.org/type-conversion-java-examples/>`__ を参照してください。
+.. tip:: ``return`` コマンドの``(int)`` 演算子に注意してください。これは、``double`` 型の countsToDrive 変数を``int`` 型に変換または**キャスト** して、必要な**戻り値の型** と互換性を持たせます。**型キャスト** の詳細については、`こちら <https://www.w3schools.com/java/java_type_casting.asp>`__ または `こちら <https://www.geeksforgeeks.org/type-conversion-java-examples/>`__ を参照してください。
 
 プログラマーとして、この例をさまざまな方法で変更できます。たとえば：
-- ドライブモーターとホイール間の** ギア比** を処理する
+- ドライブモーターとホイール間の**ギア比** を処理する
 - 2番目と3番目のパラメーターは、変更されない場合は **myBlock** に** ハードコード** できます
-- これらの 2つの変数は、**myBlock ではないメソッド** で初期化し、同じ Java クラスの複数の **myBlock** メソッドで使用できます
+- これらの 2つの変数は、**myBlock ではないメソッド** で初期化し、同じ Java クラスの複数の**myBlock** メソッドで使用できます

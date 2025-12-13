@@ -9,12 +9,12 @@
 
 Self Inspect 画面は、FTCの制御システムに関するルールに基づき、デバイスの状態をスナップショットとして表示します。
 これらのルールは、競技マニュアル（Competition Manual）に記載されており、
-`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_（**FIRST** 公式サイト）で確認できます。
+`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`__（**FIRST** 公式サイト）で確認できます。
 
 .. tip::
-   `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ を使うことで、イベント前にロボットのセルフ検査が可能です。イベント前のセルフ検査を強く推奨します。
+   `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`__ を使うことで、イベント前にロボットのセルフ検査が可能です。イベント前のセルフ検査を強く推奨します。
    
-   また、`Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ には合法・非合法部品の例が掲載されています（ただし競技マニュアルの代用にはなりません）。
+   また、`Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`__ には合法・非合法部品の例が掲載されています（ただし競技マニュアルの代用にはなりません）。
 
 Self Inspect 画面は、制御システムの各要素が最新かつ正しく構成されているかをチームが確認するための、簡易的な参考情報として提供されています。
 
@@ -26,7 +26,7 @@ Self Inspect 画面は、制御システムの各要素が最新かつ正しく�
 ロボット検査
 ----------------
 
-Self Inspect レポートはFTC大会のロボット検査時に参照されることがありますが、FTCルールへの完全な準拠や公式基準を示すものでは** ありません** 。
+Self Inspect レポートはFTC大会のロボット検査時に参照されることがありますが、FTCルールへの完全な準拠や公式基準を示すものでは**ありません** 。
 ロボットと**Driver Station** が起動・接続された状態で、検査員は紙またはタブレットの**Inspection Checklist** フォームを使って確認します。
 **Driver Station Inspection Report** と**Robot Controller Inspection Report** の両方をDSから表示できます。
 多くのFTCイベントでは、RCインスペクトレポートに表示されるQRコードをスキャンします。
@@ -81,7 +81,7 @@ Driver Station Self Inspect レポート
 -  項目3：``Model`` は**Driver Hub** である必要があります。
 -  項目4：``Driver Hub OS Version`` は通常1.2.0です。
 -  項目5：``Android Version`` はDriver Hubの場合、通常10です。
--  項目6：``Battery Level`` はデバイスのバッテリー残量を表示します。豆知識：残量が減るとパーセンテージの緑色が** オレンジ** に近づきます。
+-  項目6：``Battery Level`` はデバイスのバッテリー残量を表示します。豆知識：残量が減るとパーセンテージの緑色が**オレンジ** に近づきます。
 -  項目7：``Bluetooth`` は**Disabled** （無効）である必要があります。
 -  項目8：``Location services`` は**Enabled** （有効）である必要がありますが、**Android 8** 以上のデバイスのみ表示されます。これはSDK/Androidの技術要件であり、FTCルールではありません。
 -  項目9：``Wi-Fi Enabled`` は**Yes** （はい）である必要があります。DSデバイスのWi-Fiが**ON** であることを示します。
@@ -97,11 +97,11 @@ Driver Station Self Inspect レポート
 
 ==================================
 
-以下は、Self Inspect で一部項目が** 不合格** となったDriver Stationのレポート例です。
+以下は、Self Inspect で一部項目が**不合格** となったDriver Stationのレポート例です。
 問題は赤丸の感嘆符アイコン、またはオレンジ三角の感嘆符アイコンで示されます。
 
 このDriver Hubはファームウェアリセットされ、DSバージョンが7に戻り、すべてのシステム・DSアプリ設定が初期化されました。
-その後、`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_でDSバージョン10.3にアップデートし、FTCRobotControllerアプリもAndroid StudioからDSデバイスにインストールしました。
+その後、`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`__でDSバージョン10.3にアップデートし、FTCRobotControllerアプリもAndroid StudioからDSデバイスにインストールしました。
 
 .. figure:: images/newDSerrors.png   
    :align: center
@@ -174,7 +174,7 @@ Robot Controller Self Inspect レポート
 
 Self Inspect 画面は、制御システムの各要素が最新かつ正しく構成されているかをチームが確認するための、簡易的な参考情報です。
 
-Self Inspect はFTC大会のロボット検査時に参照されることがありますが、FTCルールへの完全な準拠や公式基準を示すものでは** ありません** 。
+Self Inspect はFTC大会のロボット検査時に参照されることがありますが、FTCルールへの完全な準拠や公式基準を示すものでは**ありません** 。
 
 各検査画面は、ロボットの再起動有無にかかわらず自動で更新されるため、問題が解決されたかをすばやく確認できます。
 

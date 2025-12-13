@@ -6,7 +6,7 @@
 **REV Robotics Driver Hub**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-DRIVER STATION として **REV Robotics Driver Hub** を使用しているチームは、`REV Robotics の公式ドキュメント <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ を参照して、**REV Robotics Driver Hub** のセットアップと使用方法の手順を確認してください。
+DRIVER STATION として **REV Robotics Driver Hub** を使用しているチームは、`REV Robotics の公式ドキュメント <https://docs.revrobotics.com/duo-control/driver-hub-gs>`__ を参照して、**REV Robotics Driver Hub** のセットアップと使用方法の手順を確認してください。
 
 **Android** スマートフォン
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -68,7 +68,7 @@ DRIVER STATION として **REV Robotics Driver Hub** を使用しているチー
 **Android** 端末で利用可能なアプリを表示する
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Android** Nougat（7.x）以降のデバイスを使用している場合は、タッチスクリーンの下部から上にスワイプするだけで、利用可能なアプリを表示できます。新しいバージョンの **Android** には、*App Drawer* 機能がなくなりました。
+**Android**Nougat（7.x）以降のデバイスを使用している場合は、タッチスクリーンの下部から上にスワイプするだけで、利用可能なアプリを表示できます。新しいバージョンの**Android** には、*App Drawer* 機能がなくなりました。
 
 .. image:: images/nougat_apps.png
    :align: center

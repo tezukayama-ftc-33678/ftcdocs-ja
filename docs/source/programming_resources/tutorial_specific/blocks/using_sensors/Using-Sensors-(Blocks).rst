@@ -4,7 +4,7 @@
 カラー距離センサー
 ~~~~~~~~~~~~~~~~~~~~~
 
-センサーは、**Robot Controller** が環境に関する情報を取得できるようにするデバイスです。この例では、**REV Robotics** のカラー距離センサーを使用して、範囲（物体からの距離）情報を **DRIVER STATION** に表示します。
+センサーは、**Robot Controller** が環境に関する情報を取得できるようにするデバイスです。この例では、**REV Robotics** のカラー距離センサーを使用して、範囲（物体からの距離）情報を**DRIVER STATION** に表示します。
 
 カラー距離センサーは、反射光を使用してセンサーから対象物体までの距離を判断します。比較的正確に近距離（最大5インチ以上）を測定するために使用できます。このドキュメントが最近編集された時点では、**REV** のカラー距離センサーは約2インチ（5cm）で飽和します。これは、2インチ以下の距離の場合、センサーは約2インチに等しい測定距離を返すことを意味します。
 
@@ -15,7 +15,7 @@
 
 1. ラップトップが **Robot Controller** のProgram & Manage Wi-Fiネットワークにまだ接続されていることを確認します。
 
-2. 「MyFIRSTOpMode」が編集用に開かれていることを確認します。開かれていない場合は、ラップトップのブラウザウィンドウの左上隅にある **FIRST** ロゴをクリックします。これにより、メインの **Blocks** 開発ツールプロジェクト画面に移動します。
+2. 「MyFIRSTOpMode」が編集用に開かれていることを確認します。開かれていない場合は、ラップトップのブラウザウィンドウの左上隅にある **FIRST** ロゴをクリックします。これにより、メインの**Blocks** 開発ツールプロジェクト画面に移動します。
 
 .. image:: images/DistanceSensorStep2ControlHub.jpg
    :align: center
@@ -45,7 +45,7 @@
 
 |
 
-6. 「Sensors」カテゴリをクリックして展開します。「**REV Color/Range Sensor**」サブカテゴリをクリックします。「call **sensorColorRange.getDistance**」プログラミングブロックをクリックして選択します。
+6. 「Sensors」カテゴリをクリックして展開します。「**REV Color/Range Sensor**」サブカテゴリをクリックします。「call**sensorColorRange.getDistance**」プログラミングブロックをクリックして選択します。
 
 .. image:: images/DistanceSensorStep6ControlHub.jpg
    :align: center
@@ -54,7 +54,7 @@
 
    注：**Blocks** プログラミングツールの以前のバージョンでは、**REV Robotics** カラー距離センサーを「LynxI2cColorRangeSensor」と呼んでいました。ソフトウェアの新しいバージョンでは、デバイスを「**REV Color/Range Sensor**」と呼びます。
 
-7. 「call **sensorColorRange.getDistance**」プログラミングブロックを「call **telemetry.addData**」プログラミングブロックの「number」フィールドにドラッグします。
+7. 「call **sensorColorRange.getDistance**」プログラミングブロックを「call**telemetry.addData**」プログラミングブロックの「number」フィールドにドラッグします。
 
 .. image:: images/DistanceSensorStep7ControlHub.jpg
    :align: center
@@ -77,21 +77,21 @@
 
 |
 
-   **Op Mode** を実行中、カラー光センサーの上に手をかざすと、測定距離が **DRIVER STATION** 画面で変化するはずです。**DRIVER STATION** に「NaN」（数値ではない）という表現が表示される場合、ターゲットは範囲外である可能性が高いです（センサーは反射光を検出しません）。
+   **Op Mode** を実行中、カラー光センサーの上に手をかざすと、測定距離が**DRIVER STATION** 画面で変化するはずです。**DRIVER STATION** に「NaN」（数値ではない）という表現が表示される場合、ターゲットは範囲外である可能性が高いです（センサーは反射光を検出しません）。
 
 タッチセンサー
 ~~~~~~~~~~~~~~
 
-この例では、**REV Robotics** のタッチセンサーが **Robot Controller** のアクティブな構成ファイルでデジタルタッチセンサーとして構成されていると仮定します。「**isPressed**」プログラミングブロックを使用して、センサー上のボタンが現在押されているかどうかを判断します。
+この例では、**REV Robotics** のタッチセンサーが**Robot Controller** のアクティブな構成ファイルでデジタルタッチセンサーとして構成されていると仮定します。「**isPressed**」プログラミングブロックを使用して、センサー上のボタンが現在押されているかどうかを判断します。
 
 .. image:: images/REVTouchSensor.jpg
    :align: center
 
 |
 
-**Control Hub** または **Expansion Hub** のデジタルポートには、ポートあたり2つのデジタルピンが含まれています。4線JSTケーブルを使用して **REV Robotics** のタッチセンサーを **Control Hub** または **Expansion Hub** のデジタルポートに接続すると、タッチセンサーはポート内の2つのデジタルピンのうち2番目に配線されます。4線ケーブルの最初のデジタルピンは接続されません。
+**Control Hub** または**Expansion Hub** のデジタルポートには、ポートあたり2つのデジタルピンが含まれています。4線JSTケーブルを使用して**REV Robotics** のタッチセンサーを**Control Hub** または**Expansion Hub** のデジタルポートに接続すると、タッチセンサーはポート内の2つのデジタルピンのうち2番目に配線されます。4線ケーブルの最初のデジタルピンは接続されません。
 
-たとえば、タッチセンサーを **Control Hub** または **Expansion Hub** の「0,1」デジタルポートに接続すると、タッチセンサーはポートの2番目のピン（「1」とラベル付け）に接続されます。最初のピン（「0」とラベル付け）は接続されません。
+たとえば、タッチセンサーを **Control Hub** または**Expansion Hub** の「0,1」デジタルポートに接続すると、タッチセンサーはポートの2番目のピン（「1」とラベル付け）に接続されます。最初のピン（「0」とラベル付け）は接続されません。
 
 このタスクの完了には約15分かかります。
 
@@ -100,7 +100,7 @@
 
 1. ラップトップが **Robot Controller** のプログラミングモードWi-Fiネットワークにまだ接続されていることを確認します。
 
-2. 「MyFIRSTOpMode」が編集用に開かれていることを確認します。開かれていない場合は、ラップトップのブラウザウィンドウの左上隅にある **FIRST** ロゴをクリックします。これにより、メインの **Blocks** 開発ツールプロジェクト画面に移動します。
+2. 「MyFIRSTOpMode」が編集用に開かれていることを確認します。開かれていない場合は、ラップトップのブラウザウィンドウの左上隅にある **FIRST** ロゴをクリックします。これにより、メインの**Blocks** 開発ツールプロジェクト画面に移動します。
 
 .. image:: images/TouchSensorOpModeStep2ControlHub.jpg
    :align: center

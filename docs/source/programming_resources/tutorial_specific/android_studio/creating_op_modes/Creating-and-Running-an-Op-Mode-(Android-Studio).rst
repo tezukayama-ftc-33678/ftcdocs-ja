@@ -4,7 +4,7 @@ OpMode の作成と実行 :bdg-success:`AS`
 TeamCode モジュール
 ~~~~~~~~~~~~~~~~~~~
 
-Android Studio プロジェクトフォルダーを正常にインポートした場合、プロジェクトブラウザーに ``TeamCode`` という名前の Android モジュールが表示されます。Android Studio プロジェクトフォルダーは、競技用ロボットを制御するために作成するカスタム **OpMode** を含む **Robot Controller** アプリのバージョンをビルドするために使用されます。
+Android Studio プロジェクトフォルダーを正常にインポートした場合、プロジェクトブラウザーに ``TeamCode`` という名前の Android モジュールが表示されます。Android Studio プロジェクトフォルダーは、競技用ロボットを制御するために作成するカスタム **OpMode** を含む**Robot Controller** アプリのバージョンをビルドするために使用されます。
 
 .. image:: images/teamcodeFolder.jpg
    :align: center
@@ -26,7 +26,7 @@ SDK ドキュメントを表示するには、次の URL にアクセスして�
 
 **Android Studio** の自動インポート機能は、**OpMode** を記述する際の時間を節約するのに役立つ便利な機能です。この機能を有効にする場合は、Android Studio 設定画面から Editor->General->Auto Import 項目を選択します。これにより、エディターの自動インポート設定が表示されます。
 
-「Add unambiguous imports on the fly」をチェックすると、**Android Studio** が **OpMode** で使用したいクラスに必要なインポート文を自動的に追加します。
+「Add unambiguous imports on the fly」をチェックすると、**Android Studio** が**OpMode** で使用したいクラスに必要なインポート文を自動的に追加します。
 
 .. image:: images/AutoImport.jpg
    :align: center
@@ -56,7 +56,7 @@ SDK ドキュメントを表示するには、次の URL にアクセスして�
 最初の OpMode の作成
 ~~~~~~~~~~~~~~~~~~~~
 
-``org.firstinspires.ftc.teamcode`` パッケージを右クリックし、ポップアップメニューから New->Java Class を選択します。Create New Class ダイアログボックスが表示されます。新しいクラスの名前を ``MyFIRSTJavaOpMode`` と指定します。
+``org.firstinspires.ftc.teamcode`` パッケージを右クリックし、ポップアップメニューから New->Java Class を選択します。Create New Class ダイアログボックスが表示されます。新しいクラスの名前を``MyFIRSTJavaOpMode`` と指定します。
 
 .. image:: images/CreateLinearOpMode.jpg
    :align: center
@@ -114,16 +114,16 @@ OK ボタンを押して新しいクラスを作成します。新しいクラ�
 OpMode の構造を理解する
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-**OpMode** を、**Robot Controller** が実行するタスクのリストと考えると役立ちます。線形 **OpMode** の場合、**Robot Controller** はこのタスクのリストを順次処理します。ユーザーは、制御ループ（while ループなど）を使用して、**Robot Controller** に線形 **OpMode** 内の特定のタスクを繰り返し（または反復）させることもできます。
+**OpMode** を、**Robot Controller** が実行するタスクのリストと考えると役立ちます。線形**OpMode** の場合、**Robot Controller** はこのタスクのリストを順次処理します。ユーザーは、制御ループ（while ループなど）を使用して、**Robot Controller** に線形**OpMode** 内の特定のタスクを繰り返し（または反復）させることもできます。
 
 .. image:: images/ExaminingStructurePic2.jpg
    :align: center
 
 |
 
-**OpMode** をロボットへの命令のリストと考えると、作成したこの一連の命令は、チームメンバーがこの **Robot Controller** で利用可能な **OpMode** のリストから ``MyFIRSTJavaOpMode`` という **OpMode** を選択すると、ロボットによって実行されます。
+**OpMode** をロボットへの命令のリストと考えると、作成したこの一連の命令は、チームメンバーがこの**Robot Controller** で利用可能な**OpMode** のリストから ``MyFIRSTJavaOpMode`` という**OpMode** を選択すると、ロボットによって実行されます。
 
-新しく作成した **OpMode** の構造を見てみましょう。以下は **OpMode** テキストのコピーです（一部のコメント、パッケージ定義、およびいくつかのインポートパッケージステートメントは省略されています）。
+新しく作成した **OpMode** の構造を見てみましょう。以下は**OpMode** テキストのコピーです（一部のコメント、パッケージ定義、およびいくつかのインポートパッケージステートメントは省略されています）。
 
 .. code-block:: java
 
@@ -163,7 +163,7 @@ OpMode の構造を理解する
 
 ``@TeleOp``
 
-この **OpMode** を自律 **OpMode** に変更したい場合は、``@TeleOp`` を ``@Autonomous`` アノテーションに置き換えます。
+この **OpMode** を自律**OpMode** に変更したい場合は、``@TeleOp`` を``@Autonomous`` アノテーションに置き換えます。
 
 サンプルコードから、**OpMode** が Java クラスとして定義されていることがわかります。この例では、**OpMode** 名は ``MyFIRSTJavaOpMode`` と呼ばれ、**LinearOpMode** クラスから特性を継承しています。
 
@@ -171,7 +171,7 @@ OpMode の構造を理解する
 
    public class MyFIRSTJavaOpMode extends LinearOpMode {
 
-また、OnBot Java エディターがこの **OpMode** 用に5つのプライベートメンバー変数を作成したことがわかります。これらの変数は、OnBot Java エディターが **Robot Controller** の構成ファイルで検出した5つの構成済みデバイスへの参照を保持します。
+また、OnBot Java エディターがこの **OpMode** 用に5つのプライベートメンバー変数を作成したことがわかります。これらの変数は、OnBot Java エディターが**Robot Controller** の構成ファイルで検出した5つの構成済みデバイスへの参照を保持します。
 
 .. code-block:: java
 
@@ -181,14 +181,14 @@ OpMode の構造を理解する
        private DistanceSensor sensorColorRange;
        private Servo servoTest;
 
-次に、``runOpMode`` と呼ばれるオーバーライドされたメソッドがあります。``LinearOpMode`` 型のすべての **OpMode** は、このメソッドを実装する必要があります。このメソッドは、ユーザーが **OpMode** を選択して実行したときに呼び出されます。
+次に、``runOpMode`` と呼ばれるオーバーライドされたメソッドがあります。``LinearOpMode`` 型のすべての **OpMode** は、このメソッドを実装する必要があります。このメソッドは、ユーザーが**OpMode** を選択して実行したときに呼び出されます。
 
 .. code-block:: java
 
        @Override
        public void runOpMode() {
 
-``runOpMode`` メソッドの開始時に、**OpMode** は ``hardwareMap`` という名前のオブジェクトを使用して、**Robot Controller** の構成ファイルにリストされているハードウェアデバイスへの参照を取得します。
+``runOpMode`` メソッドの開始時に、**OpMode** は``hardwareMap`` という名前のオブジェクトを使用して、**Robot Controller** の構成ファイルにリストされているハードウェアデバイスへの参照を取得します。
 
 .. code-block:: java
 
@@ -202,7 +202,7 @@ OpMode の構造を理解する
 
 **OpMode** で特定のデバイスへの参照を取得しようとする場合、``HardwareMap.get`` メソッドの2番目の引数として指定する名前は、構成ファイルでデバイスを定義するために使用された名前と一致する必要があることに注意してください。例えば、``motorTest`` という名前の DC モーターを持つ構成ファイルを作成した場合、``hardwareMap`` オブジェクトからこのモーターを取得するには、同じ名前（大文字と小文字が区別されます）を使用する必要があります。名前が一致しない場合、**OpMode** はデバイスが見つからないことを示す例外をスローします。
 
-例の次のいくつかのステートメントで、**OpMode** はユーザーに続行するためのスタートボタンを押すように促します。``runOpMode`` メソッドで使用できる別のオブジェクトを使用します。このオブジェクトは telemetry と呼ばれ、**OpMode** は ``addData`` メソッドを使用して **Driver Station** に送信するメッセージを追加します。次に、**OpMode** は update メソッドを呼び出してメッセージを **Driver Station** に送信します。その後、``waitForStart`` メソッドを呼び出して、ユーザーがドライバーステーションのスタートボタンを押して **OpMode** の実行を開始するまで待機します。
+例の次のいくつかのステートメントで、**OpMode** はユーザーに続行するためのスタートボタンを押すように促します。``runOpMode`` メソッドで使用できる別のオブジェクトを使用します。このオブジェクトは telemetry と呼ばれ、**OpMode** は``addData`` メソッドを使用して**Driver Station** に送信するメッセージを追加します。次に、**OpMode** は update メソッドを呼び出してメッセージを**Driver Station** に送信します。その後、``waitForStart`` メソッドを呼び出して、ユーザーがドライバーステーションのスタートボタンを押して**OpMode** の実行を開始するまで待機します。
 
 .. code-block:: java
 
@@ -211,9 +211,9 @@ OpMode の構造を理解する
            // Wait for the game to start (driver presses PLAY)
            waitForStart();
 
-すべての線形 **OpMode** には、ドライバーがスタートボタンを押すまでロボットが **OpMode** の実行を開始しないようにするために、``waitForStart`` ステートメントが必要であることに注意してください。
+すべての線形 **OpMode** には、ドライバーがスタートボタンを押すまでロボットが**OpMode** の実行を開始しないようにするために、``waitForStart`` ステートメントが必要であることに注意してください。
 
-スタートコマンドを受信した後、**OpMode** は while ループに入り、**OpMode** がアクティブでなくなるまで（つまり、ユーザーが **Driver Station** の停止ボタンを押すまで）このループで反復を続けます。
+スタートコマンドを受信した後、**OpMode** は while ループに入り、**OpMode** がアクティブでなくなるまで（つまり、ユーザーが**Driver Station** の停止ボタンを押すまで）このループで反復を続けます。
 
 .. code-block:: java
 
@@ -224,7 +224,7 @@ OpMode の構造を理解する
 
            }
 
-**OpMode** が while ループで反復する際、インデックスが「Status」でメッセージが「Running」のテレメトリメッセージを **Driver Station** に表示し続けます。
+**OpMode** が while ループで反復する際、インデックスが「Status」でメッセージが「Running」のテレメトリメッセージを**Driver Station** に表示し続けます。
 
 OpMode のビルドとインストール
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -257,30 +257,30 @@ Android Studio ユーザーインターフェースの上部を見て、``TeamCo
 
 |
 
-以前に Google Play ストアから **Robot Controller** アプリのコピーをインストールしていた場合、新しくビルドされたアプリのインストールは最初の試行時に失敗します。これは、**Android Studio** が、今ビルドしたアプリが Google Play からインストールされた公式バージョンの **Robot Controller** アプリとは異なるデジタル署名を持っていることを検出するためです。
+以前に Google Play ストアから **Robot Controller** アプリのコピーをインストールしていた場合、新しくビルドされたアプリのインストールは最初の試行時に失敗します。これは、**Android Studio** が、今ビルドしたアプリが Google Play からインストールされた公式バージョンの**Robot Controller** アプリとは異なるデジタル署名を持っていることを検出するためです。
 
 .. image:: images/ApplicationInstallFailed.jpg
    :align: center
 
 |
 
-これが発生した場合、**Android Studio** は、デバイスから以前の（公式）バージョンのアプリをアンインストールし、更新されたバージョンのアプリに置き換えても良いかどうかを尋ねます。``OK`` を選択して以前のバージョンをアンインストールし、新しく作成した **Robot Controller** アプリに置き換えます（上の画像を参照）。
+これが発生した場合、**Android Studio** は、デバイスから以前の（公式）バージョンのアプリをアンインストールし、更新されたバージョンのアプリに置き換えても良いかどうかを尋ねます。``OK`` を選択して以前のバージョンをアンインストールし、新しく作成した**Robot Controller** アプリに置き換えます（上の画像を参照）。
 
 .. image:: images/RCLaunched.jpg
    :align: center
 
 |
 
-インストールが成功すると、**Robot Controller** アプリがターゲット Android デバイスで起動されるはずです。**Robot Controller** として Android スマートフォンを使用している場合は、スマートフォンにメインの **Robot Controller** アプリ画面が表示されます。
+インストールが成功すると、**Robot Controller** アプリがターゲット Android デバイスで起動されるはずです。**Robot Controller** として Android スマートフォンを使用している場合は、スマートフォンにメインの**Robot Controller** アプリ画面が表示されます。
 
-**Control Hub** には組み込みの画面がありませんが、**Control Hub** ユーザーの場合、**Driver Station** を確認することで、アプリが **Control Hub** に正しくインストールされたことを確認できます。**Driver Station** が **Control Hub** に正常に接続されていることを示している場合（更新の発生中に一時的に切断された後）、アプリは正常に更新されました。
+**Control Hub** には組み込みの画面がありませんが、**Control Hub** ユーザーの場合、**Driver Station** を確認することで、アプリが**Control Hub** に正しくインストールされたことを確認できます。**Driver Station** が**Control Hub** に正常に接続されていることを示している場合（更新の発生中に一時的に切断された後）、アプリは正常に更新されました。
 
 OpMode の実行
 ~~~~~~~~~~~~~
 
-新しい **OpMode** を含む更新された Android アプリを正常にビルドおよびインストールした場合、**OpMode** を実行する準備が整いました。**Driver Station** がまだ **Robot Controller** に接続されていることを確認します。サンプルの **OpMode** を遠隔操作 **OpMode** として指定したため、``TeleOp`` **OpMode** としてリストされます。
+新しい **OpMode** を含む更新された Android アプリを正常にビルドおよびインストールした場合、**OpMode** を実行する準備が整いました。**Driver Station** がまだ**Robot Controller** に接続されていることを確認します。サンプルの**OpMode** を遠隔操作**OpMode** として指定したため、``TeleOp``**OpMode** としてリストされます。
 
-**Driver Station** で、``TeleOp`` ドロップダウンリストコントロールを使用して、使用可能な **OpMode** のリストを表示します。リストから **OpMode** （「MyFIRSTJavaOpMode」）を選択します。
+**Driver Station** で、``TeleOp`` ドロップダウンリストコントロールを使用して、使用可能な**OpMode** のリストを表示します。リストから**OpMode** （「MyFIRSTJavaOpMode」）を選択します。
 
 .. image:: images/OpModeSelectionDH.png
    :align: center
@@ -316,7 +316,7 @@ OpMode の実行
 
 |
 
-スタートボタンを押すと、**OpMode** は反復を続け、「Status: Running」メッセージを **Driver Station** に送信します。**OpMode** を停止するには、四角形の停止ボタンを押します。
+スタートボタンを押すと、**OpMode** は反復を続け、「Status: Running」メッセージを**Driver Station** に送信します。**OpMode** を停止するには、四角形の停止ボタンを押します。
 
 .. image:: images/TelemetryDH.png
    :align: center
@@ -333,7 +333,7 @@ OpMode の実行
 モーターを制御するための OpMode の変更
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**REV Robotics Control Hub** または **REV Robotics Expansion Hub** 用に接続および構成した DC モーターを制御するために、**OpMode** を変更しましょう。プログラムループのコードを次のように変更します。
+**REV Robotics Control Hub** または**REV Robotics Expansion Hub** 用に接続および構成した DC モーターを制御するために、**OpMode** を変更しましょう。プログラムループのコードを次のように変更します。
 
 .. code-block:: java
 
@@ -379,12 +379,12 @@ while ループの開始時に、変数 tgtPower を gamepad1 の左ジョイス
        telemetry.addData("Target Power", tgtPower);
        telemetry.addData("Motor Power", motorTest.getPower());
 
-これらの新しいステートメントを含めるように **OpMode** を変更したら、ビルドボタンを押して **OpMode** が正常にビルドされたことを確認します。
+これらの新しいステートメントを含めるように **OpMode** を変更したら、ビルドボタンを押して**OpMode** が正常にビルドされたことを確認します。
 
 ゲームパッドを接続して OpMode を実行する
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**OpMode** は、ゲームパッドから入力を受け取り、この入力を使用して DC モーターを制御します。**OpMode** を実行するには、Logitech F310 または他の承認されたゲームパッドを **Driver Station** に接続する必要があります。
+**OpMode** は、ゲームパッドから入力を受け取り、この入力を使用して DC モーターを制御します。**OpMode** を実行するには、Logitech F310 または他の承認されたゲームパッドを**Driver Station** に接続する必要があります。
 
 ゲームパッドを **Driver Station** に接続します。**REV Robotics Driver Hub** を使用している場合、ゲームパッドを USB-A ポートの1つに直接接続できます。**DRIVER STATION** スマートフォンの場合、Micro USB OTG アダプターケーブルが必要です。
 
@@ -409,7 +409,7 @@ while ループの開始時に、変数 tgtPower を gamepad1 の左ジョイス
 
 ``MyFIRSTJavaOpMode`` **OpMode** を選択、初期化、実行します。
 
-ゲームパッドを正しく構成した場合、左ジョイスティックでモーターの動きを制御できるはずです。**OpMode** を実行する際は、回転するモーターに何もが巻き込まれないように注意してください。ジョイスティックを動かすたびに、ユーザー #1 ゲームパッドアイコンが緑色で強調表示されることに注意してください。また、目標電力と実際のモーター電力の値が **Driver Station** のテレメトリエリアに表示されることにも注意してください。
+ゲームパッドを正しく構成した場合、左ジョイスティックでモーターの動きを制御できるはずです。**OpMode** を実行する際は、回転するモーターに何もが巻き込まれないように注意してください。ジョイスティックを動かすたびに、ユーザー #1 ゲームパッドアイコンが緑色で強調表示されることに注意してください。また、目標電力と実際のモーター電力の値が**Driver Station** のテレメトリエリアに表示されることにも注意してください。
 
 .. image:: images/TelemetryDH.png
    :align: center

@@ -1,7 +1,7 @@
 AprilTag Pose
 =============
 
-The SDK can evaluate a **flat AprilTag** (not curved) to estimate **pose**, the
+The SDK can evaluate a **flat AprilTag**(not curved) to estimate**pose**, the
 combination of:
 
 - relative position **from the camera lens center to the AprilTag center**, and

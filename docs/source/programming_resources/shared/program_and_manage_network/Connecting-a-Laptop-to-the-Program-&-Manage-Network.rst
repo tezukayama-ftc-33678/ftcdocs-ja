@@ -11,21 +11,21 @@
 ラップトップを Program & Manage ネットワークに接続する手順
 -------------------------------------------------------------------
 
-1. **DRIVER STATION** で、画面の右上隅にある 3 つのドットをタッチしてポップアップメニューを起動します。ポップアップメニューから **Program & Manage** を選択して、**Program & Manage** アクセス情報を表示します。                                                   
+1. **DRIVER STATION** で、画面の右上隅にある 3 つのドットをタッチしてポップアップメニューを起動します。ポップアップメニューから**Program & Manage** を選択して、**Program & Manage** アクセス情報を表示します。                                                   
 
 .. image:: images/SelectProgramAndManageDriverStation.jpg
    :align: center
 
 |
 
-2. Program & Manage 画面には、ラップトップを **Blocks** または **OnBot Java** プログラミングモードサーバーに接続するために使用できる **Robot Controller** への接続に必要な重要な情報が表示されます。                                              
+2. Program & Manage 画面には、ラップトップを **Blocks** または**OnBot Java** プログラミングモードサーバーに接続するために使用できる**Robot Controller** への接続に必要な重要な情報が表示されます。                                              
 
 .. image:: images/ProgramAndManageScreen.jpg
    :align: center
 
 |
 
-3. Program & Manage ワイヤレスネットワークのネットワーク名とパスフレーズを確認します。画面の上部に、Program & Manage ワイヤレスネットワークの名前が表示されます。**Robot Controller** として **Android** スマートフォンを使用している場合、ワイヤレスネットワーク名は「DIRECT-」という語句で始まります。 
+3. Program & Manage ワイヤレスネットワークのネットワーク名とパスフレーズを確認します。画面の上部に、Program & Manage ワイヤレスネットワークの名前が表示されます。**Robot Controller** として**Android** スマートフォンを使用している場合、ワイヤレスネットワーク名は「DIRECT-」という語句で始まります。 
 
    この例では、Wi-Fi ネットワークの名前は「DIRECT-XK-9999-C-RC」で、セキュアパスフレーズは「ZU7if0hB」です。                                              
 
@@ -34,7 +34,7 @@
 
 |
 
-**Control Hub** を使用している場合、ワイヤレスネットワーク名は **Control Hub** を構成したときに指定したものになります。**Control Hub** の名前をまだ変更していない場合、デフォルトではワイヤレスネットワークの名前は「FTC-」で始まります。パスワードをまだ変更していない場合、デフォルトではワイヤレスネットワークのパスフレーズは「password」になります。
+**Control Hub** を使用している場合、ワイヤレスネットワーク名は**Control Hub** を構成したときに指定したものになります。**Control Hub** の名前をまだ変更していない場合、デフォルトではワイヤレスネットワークの名前は「FTC-」で始まります。パスワードをまだ変更していない場合、デフォルトではワイヤレスネットワークのパスフレーズは「password」になります。
 
 以下のスクリーンショットでは、**Control Hub** のワイヤレスネットワーク名は「FTC-1Ybr」で、セキュアパスフレーズは「password」です。
 
@@ -86,7 +86,7 @@
 
 数秒後に表示が更新されない場合は、Wi-Fi 接続を示す青いボックスの下部にある「Network Connections」をクリックしてみてください。これにより、「Show available networks」へのリンクを含む Setting ダイアログボックスが表示され、Wi-Fi 接続のリストを強制的に更新できます。
 
-.. attention:: **Robot Controller** の **Blocks** プログラミングモードサーバーに接続している場合、ラップトップは** インターネットにアクセスできません** 。**Robot Controller** への直接アクセスのみが可能です。
+.. attention:: **Robot Controller** の**Blocks** プログラミングモードサーバーに接続している場合、ラップトップは** インターネットにアクセスできません**。**Robot Controller** への直接アクセスのみが可能です。
 
 
 ワイヤレス接続のトラブルシューティング

@@ -2,19 +2,19 @@ GitHub からフォークとクローンを行う :bdg-success:`AS`
 ======================================================
 
 .. important:: 
-   このアプローチは、`git <https://docs.github.com/en/get-started/learning-about-github/github-glossary#git>`_ と `GitHub <https://github.com/>`_ の基本的な知識があることを前提としています。git に関連することのほとんどについて、目的を達成するための方法は数多くあります。このドキュメントでは、Windows ユーザー向けの方法の一つを説明します。
+   このアプローチは、`git <https://docs.github.com/en/get-started/learning-about-github/github-glossary#git>`__ と `GitHub <https://github.com/>`__ の基本的な知識があることを前提としています。git に関連することのほとんどについて、目的を達成するための方法は数多くあります。このドキュメントでは、Windows ユーザー向けの方法の一つを説明します。
    コマンドラインツールや git に不慣れなユーザーは、:doc:`SDK を zip アーカイブとしてダウンロード
    <../downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>` する方法で SDK を入手してください。
 
 フォーク vs. クローン 
 ----------------------
 
-GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`_とは、GitHub 上のある`リポジトリ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`_を、あるアカウントから別のアカウントにコピーすることです。新しくフォークされたリポジトリは、`origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`_ リポジトリとの親子関係を保持します。フォークは通常、ソフトウェアが独立した開発ラインを持つ場合に使用されます。例えば、FTC チームが `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ リポジトリをベースに独自のチームコードを開発する場合などです。FTC チームは、ソフトウェア開発プロセスを管理する便利な方法として、`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ リポジトリのフォークを作成する必要があります。親子関係のおかげで、親リポジトリに変更が加えられた場合、それらの変更を簡単に追跡し、フォークされたリポジトリに`フェッチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`_/`マージ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`_することができ、フォークされたリポジトリを最新の状態に保つことができます。
+GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`__とは、GitHub 上のある`リポジトリ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`__を、あるアカウントから別のアカウントにコピーすることです。新しくフォークされたリポジトリは、`origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`__ リポジトリとの親子関係を保持します。フォークは通常、ソフトウェアが独立した開発ラインを持つ場合に使用されます。例えば、FTC チームが `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリをベースに独自のチームコードを開発する場合などです。FTC チームは、ソフトウェア開発プロセスを管理する便利な方法として、`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリのフォークを作成する必要があります。親子関係のおかげで、親リポジトリに変更が加えられた場合、それらの変更を簡単に追跡し、フォークされたリポジトリに`フェッチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`__/`マージ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`__することができ、フォークされたリポジトリを最新の状態に保つことができます。
 
 .. warning:: 
-   チームは、`upstream <https://docs.github.com/en/get-started/learning-about-github/github-glossary#upstream>`_ の親である FIRST-Tech-Challenge/FtcRobotContoller リポジトリに対してプルリクエストを発行しないでください。FIRST-Tech-Challenge/FtcRobotContoller リポジトリのフォークは、常に変更をフェッチすることはできますが、リポジトリに変更をプッシュすることは決して試みないでください。
+   チームは、`upstream <https://docs.github.com/en/get-started/learning-about-github/github-glossary#upstream>`__ の親である FIRST-Tech-Challenge/FtcRobotContoller リポジトリに対してプルリクエストを発行しないでください。FIRST-Tech-Challenge/FtcRobotContoller リポジトリのフォークは、常に変更をフェッチすることはできますが、リポジトリに変更をプッシュすることは決して試みないでください。
 
-`クローン <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`_は、通常はローカルコンピューター上のリポジトリのコピーです。チームメンバーは、機能開発のためにチームのリポジトリの`機能ブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`_を作成し、そのブランチをローカルコンピューターにクローンします。ソフトウェアの開発とテストは、ローカルクローン内で完全に行われます。作業が完了するか、チェックポイントに到達したら、ローカルクローン内の変更をローカルクローンからチームのフォークにプッシュバックすることができます。その機能ブランチは、チームによって承認されると、チームのメインリポジトリブランチにマージすることができます。このプロセスを使用することで、複数の異なる開発者がシームレスに作業できます。
+`クローン <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`__は、通常はローカルコンピューター上のリポジトリのコピーです。チームメンバーは、機能開発のためにチームのリポジトリの`機能ブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`__を作成し、そのブランチをローカルコンピューターにクローンします。ソフトウェアの開発とテストは、ローカルクローン内で完全に行われます。作業が完了するか、チェックポイントに到達したら、ローカルクローン内の変更をローカルクローンからチームのフォークにプッシュバックすることができます。その機能ブランチは、チームによって承認されると、チームのメインリポジトリブランチにマージすることができます。このプロセスを使用することで、複数の異なる開発者がシームレスに作業できます。
 
 
 .. figure:: images/fork-clone-diagram.png 
@@ -27,7 +27,7 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 ブランチ戦略 
 -------------
 
-`ブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#branch>`_は、他の開発ラインから独立した一連の`コミット <https://docs.github.com/en/get-started/learning-about-github/github-glossary#commit>`_であり、通常はリポジトリの新機能を開発するために使用されます。FtcRobotController リポジトリとそのフォークおよびクローンのデフォルトブランチは、`master <https://docs.github.com/en/get-started/learning-about-github/github-glossary#master>`_ です（ただし、GitHub で作成されたすべての新しいリポジトリでは、デフォルトブランチは `main <https://docs.github.com/en/get-started/learning-about-github/github-glossary#main>`_ と呼ばれます）。ブランチを賢明に使用することで、変更を分離し、デフォルトブランチをクリーンに保ち、「本番環境対応」と見なされたソフトウェアから独立して機能開発を反復するためのスペースを提供することにより、開発者が共通のソフトウェアセットで協力することを支援できます。
+`ブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#branch>`__は、他の開発ラインから独立した一連の`コミット <https://docs.github.com/en/get-started/learning-about-github/github-glossary#commit>`__であり、通常はリポジトリの新機能を開発するために使用されます。FtcRobotController リポジトリとそのフォークおよびクローンのデフォルトブランチは、`master <https://docs.github.com/en/get-started/learning-about-github/github-glossary#master>`__ です（ただし、GitHub で作成されたすべての新しいリポジトリでは、デフォルトブランチは `main <https://docs.github.com/en/get-started/learning-about-github/github-glossary#main>`__ と呼ばれます）。ブランチを賢明に使用することで、変更を分離し、デフォルトブランチをクリーンに保ち、「本番環境対応」と見なされたソフトウェアから独立して機能開発を反復するためのスペースを提供することにより、開発者が共通のソフトウェアセットで協力することを支援できます。
 
 .. figure:: images/single-branch.*
    :align: center
@@ -35,9 +35,9 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 
    master というデフォルト名を持つ単一のブランチ
 
-各円は、ブランチへのコミットを表します。ブランチの名前は常に最新のコミットを指しており、これは `HEAD <https://docs.github.com/en/get-started/learning-about-github/github-glossary#head>`_ としても知られています。多くのブランチが存在する場合でも、HEAD は1つしかなく、`デタッチド状態 <https://git-scm.com/docs/git-checkout#_detached_head>`_でない限り、常に現在チェックアウトされているブランチの最新のコミットを指します。他のすべてのコミットは、その直接の親を指します。
+各円は、ブランチへのコミットを表します。ブランチの名前は常に最新のコミットを指しており、これは `HEAD <https://docs.github.com/en/get-started/learning-about-github/github-glossary#head>`__ としても知られています。多くのブランチが存在する場合でも、HEAD は1つしかなく、`デタッチド状態 <https://git-scm.com/docs/git-checkout#_detached_head>`__でない限り、常に現在チェックアウトされているブランチの最新のコミットを指します。他のすべてのコミットは、その直接の親を指します。
 
-コミットは、ある時点でのワークスペース全体の`スナップショット <https://docs.github.com/en/get-started/learning-about-github/github-glossary#snapshot>`_です。Git は `差分 <https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff>`_を保存しません。ファイルに変更を加え、変更されたファイルで新しいコミットを作成すると、変更されたファイル全体がコミットに保存されます。ファイルの不必要な重複を避けるために、リポジトリが3つのファイルで構成されており、1つが変更され、他の2つが変更されていない場合、スナップショットは変更されていないデータを含むのではなく、変更されていないファイルを指すだけです。
+コミットは、ある時点でのワークスペース全体の`スナップショット <https://docs.github.com/en/get-started/learning-about-github/github-glossary#snapshot>`__です。Git は `差分 <https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff>`__を保存しません。ファイルに変更を加え、変更されたファイルで新しいコミットを作成すると、変更されたファイル全体がコミットに保存されます。ファイルの不必要な重複を避けるために、リポジトリが3つのファイルで構成されており、1つが変更され、他の2つが変更されていない場合、スナップショットは変更されていないデータを含むのではなく、変更されていないファイルを指すだけです。
 
 各コミットには親があり、これにより git は異なるブランチからのコミットの到達可能性を判断できます。また、2つのブランチの共通祖先コミットを判断することもでき、これはブランチをマージする際に重要です。詳細については後述します。
 
@@ -65,7 +65,7 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 
    2つの独立した開発ライン。
 
-最終的には、通常、その機能ブランチを master ブランチで表されるメイン開発ラインにマージバックしたいと考えます。あるブランチを別のブランチにマージすると、git はブランチの祖先コミットをトラバースして、共通の`祖先 <https://stackoverflow.com/questions/55203122/what-do-people-mean-when-they-say-ancestor-with-regards-to-git>`_を見つけます。次に、共通の祖先から各ブランチの先頭までに何が変更されたかを判断し、それらの変更を*マージコミット*と呼ばれる新しいコミットに適用します。このプロセスの結果として、マージコミットには2つの親が存在します。
+最終的には、通常、その機能ブランチを master ブランチで表されるメイン開発ラインにマージバックしたいと考えます。あるブランチを別のブランチにマージすると、git はブランチの祖先コミットをトラバースして、共通の`祖先 <https://stackoverflow.com/questions/55203122/what-do-people-mean-when-they-say-ancestor-with-regards-to-git>`__を見つけます。次に、共通の祖先から各ブランチの先頭までに何が変更されたかを判断し、それらの変更を*マージコミット*と呼ばれる新しいコミットに適用します。このプロセスの結果として、マージコミットには2つの親が存在します。
 
 .. figure:: images/merge-commit.png
    :align: center
@@ -86,8 +86,8 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 チームのコミットは青い円で表され、SDK アップデートを含むコミットは緑の円で表されます。紫色の円はマージコミットです。マージについては後述します。この例では、チームのコミットが SDK アップデート (1) と混在しており、2つのデフォルトブランチが一致しない状況を生み出しています。
 
    (1) 実際にはそうではないか、コミットの親子関係がどのように配置されているかによります。
-   これは非常に単純化された見方ですが、論理的概念を示すには十分であり、単に `git log <https://www.atlassian.com/git/tutorials/git-log>`_ を実行した場合に得られる見方です。
-   ブランチに関連するコミットで正確に何が起こっているかについての詳細でわかりやすい説明については、`このチュートリアルを参照してください <https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/>`_。
+   これは非常に単純化された見方ですが、論理的概念を示すには十分であり、単に `git log <https://www.atlassian.com/git/tutorials/git-log>`__ を実行した場合に得られる見方です。
+   ブランチに関連するコミットで正確に何が起こっているかについての詳細でわかりやすい説明については、`このチュートリアルを参照してください <https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/>`__。
 
 これは完全に受け入れ可能であり、非常に一般的なブランチ管理戦略ですが、デフォルトブランチを分離して常に親と一致するようにすると、特定の利点が得られます。次の図は、master ブランチが FIRST-Tech-Challenge/FtcRobotController の master ブランチを追跡しているクローンを示しています。
 
@@ -102,7 +102,7 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 このモデルに従うということは、チームのリポジトリの master ブランチのコミット履歴が、常に FIRST-Tech-Challenge/FtcRobotController の master ブランチのコミット履歴と一致することを意味します。チームが競技で使用する予定のすべてのソフトウェアは、competition ブランチにマージされます。機能、新しいソフトウェア、実験などは、competition ブランチの子ブランチで作業され、master ブランチではなく competition ブランチにマージバックされます。チームクローンの master ブランチへの SDK アップデートは常に競合が発生せず、アップデートは competition ブランチへのマージとは独立して実行でき、開発への SDK アップデートのマージで問題が発生した場合、ブランチが一致しない master に直接アップデートをバックアウトする場合と比較して、復旧がより簡単になります。
 
 ブランチの仕組みに関する詳細情報は、こちらを参照してください
-`ブランチの使用 <https://www.atlassian.com/git/tutorials/using-branches>`_
+`ブランチの使用 <https://www.atlassian.com/git/tutorials/using-branches>`__
 
 はじめに（クイックスタートガイド） 
 ------------------------------------
@@ -110,9 +110,9 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 .. important:: 
    以下では、すべての操作がローカルリポジトリの master ブランチで行われることを前提としています。
 
-#. `GitForWindows <https://gitforwindows.org/>`_ を入手してインストールします。このソフトウェアには、bash シェルとともに git クライアントが含まれています。以下のすべてのコマンドラインスニペットは、bash シェルを使用しており、git がパスに含まれていることを前提としています。GitForWindows は、Windows マシンにこれを提供する最も簡単な方法です。Mac には terminal と呼ばれる組み込みの bash シェルがありますが、git は個別にインストールする必要があります。
+#. `GitForWindows <https://gitforwindows.org/>`__ を入手してインストールします。このソフトウェアには、bash シェルとともに git クライアントが含まれています。以下のすべてのコマンドラインスニペットは、bash シェルを使用しており、git がパスに含まれていることを前提としています。GitForWindows は、Windows マシンにこれを提供する最も簡単な方法です。Mac には terminal と呼ばれる組み込みの bash シェルがありますが、git は個別にインストールする必要があります。
 
-#. `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ リポジトリを GitHub 上のあなたのアカウントにフォークします。
+#. `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリを GitHub 上のあなたのアカウントにフォークします。
 
    .. tip::
       この手順には GitHub アカウントが必要であり、リポジトリをフォークするには GitHub にログインしている必要があります。
@@ -151,7 +151,7 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 
 #. Git がリポジトリのクローンをダウンロードします。完了したら、コーディングを始めましょう...
 
-#. これは、必要に応じて機能開発用のブランチを作成できるポイントです。ブランチを作成するには、次の `git-checkout <https://git-scm.com/docs/git-checkout>`_ コマンドを使用して、新しいブランチを作成して切り替えることができます。
+#. これは、必要に応じて機能開発用のブランチを作成できるポイントです。ブランチを作成するには、次の `git-checkout <https://git-scm.com/docs/git-checkout>`__ コマンドを使用して、新しいブランチを作成して切り替えることができます。
 
    .. code-block:: bash
 
@@ -164,7 +164,7 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 
 - リポジトリ内の FtcRobotController ディレクトリのソフトウェアに変更を加えないでください。FtcRobotController ディレクトリ内の何も変更しない場合、SDK のアップデートがはるかに簡単になります。  
 - 長期間存続するブランチの使用を制限してください。ブランチは機能を実装する必要があります。ブランチはマイルストーンを追跡すべきではありません。例えば、'league-meet-1' という名前のブランチはマイルストーンを追跡しています。ブランチがより小さな開発単位を追跡する方がはるかに良いです。'detect-target'、'drive-to-parking'、'drop-game-element' など。ソフトウェアをロボットが行うタスクに分解し、それらのタスクを実装するためにブランチを使用してください。これにより、共同開発がはるかに簡単になり、マージ時の変更セットがはるかに小さくなり、フェッチとマージがはるかに簡単になります。  
-- `git index <http://shafiul.github.io/gitbook/1_the_git_index.html>`_ をクリーンに保つようにしてください。これにより、フェッチとマージが簡単になります。``git status`` は、ここでの最良の友です。``git status`` を頻繁に使用して、ローカルワークスペースで何が変更されたかを確認してください。論理的なチャンクで頻繁にコミットして、最新の変更を簡単に確認できるようにしてください。  
+- `git index <http://shafiul.github.io/gitbook/1_the_git_index.html>`__ をクリーンに保つようにしてください。これにより、フェッチとマージが簡単になります。``git status`` は、ここでの最良の友です。``git status`` を頻繁に使用して、ローカルワークスペースで何が変更されたかを確認してください。論理的なチャンクで頻繁にコミットして、最新の変更を簡単に確認できるようにしてください。  
 - 短く、意味のあるコミットメッセージを使用してください。コミットメッセージにスラング、不快な表現、または個人的なメッセージを使用しないでください。ソフトウェアを GitHub にプッシュすると、それらのコミットメッセージは公開されます。最終的にプロフェッショナルなソフトウェア開発者になることを計画しており、既存の GitHub アカウントを保持している場合、潜在的な雇用主はあなたのコミットメッセージを確認できます。ここでは慎重に進んでください。
 
 フォークとローカルクローンの更新  
@@ -219,7 +219,7 @@ Git は基本的に、リポジトリの多くのコピーがインターネッ�
 フェッチ 
 """""""""
 
-フェッチは、リモートリポジトリからソフトウェアの変更をダウンロードするプロセスです。フェッチは、フェッチ先のリポジトリ内の既存のソフトウェアを** 変更しない** ことに特に注意してください。git はローカルリポジトリ内の変更を分離します。
+フェッチは、リモートリポジトリからソフトウェアの変更をダウンロードするプロセスです。フェッチは、フェッチ先のリポジトリ内の既存のソフトウェアを**変更しない** ことに特に注意してください。git はローカルリポジトリ内の変更を分離します。
 
 チームで作業していて、チームメイトが FtcRobotController フォークにソフトウェアをプッシュした場合、次のコマンドを実行してそのソフトウェアをローカルクローンにフェッチできます
 
@@ -252,12 +252,12 @@ Git は基本的に、リポジトリの多くのコピーがインターネッ�
 
       $ git merge origin/master
 
-この操作を実行するときは、``master`` ブランチが*クリーン*である必要があります（つまり、``master`` ブランチで ``git status`` を実行したときに、変更されているがコミットされていないファイルが表示されない）。チームメンバーは、``master`` ブランチではなく、機能ブランチで開発作業を行う必要があります。
+この操作を実行するときは、``master`` ブランチが*クリーン*である必要があります（つまり、``master`` ブランチで``git status`` を実行したときに、変更されているがコミットされていないファイルが表示されない）。チームメンバーは、``master`` ブランチではなく、機能ブランチで開発作業を行う必要があります。
 
 競合 
 """""
 
-競合、または「特定のコードに対して複数の変更が保留されている場合に何が起こるか」。`Git マージの競合 <https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`_ に関するこの優れたチュートリアルを読むのが最善です。
+競合、または「特定のコードに対して複数の変更が保留されている場合に何が起こるか」。`Git マージの競合 <https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`__ に関するこの優れたチュートリアルを読むのが最善です。
 マージの競合はチームで作業する際の通常の一部であり、経験を積むことによってのみ、競合を効果的に管理する方法を学ぶことができます。常に忍耐強く、プロセスに深い敬意を払ってアプローチしてください。
 
 SDK を最新バージョンに更新する
@@ -329,7 +329,7 @@ M7.2 でブランチを単に切り取ると、3つの青いチームコミッ�
 ^^^^^^^^^^^^^^^^^^^^
 
 タグは、ブランチポインタや HEAD とは異なり、決して移動しないコミットへの名前付きポインタです。コミットはワークスペース全体のある時点でのスナップショットであるため、これにより開発者はある時点を不変の方法で*タグ付け*できます。
-*FIRST* は、標準的な`セマンティックバージョニング <https://semver.org/>`_ 命名スキームを通じて SDK バージョンを追跡するためにタグを使用します。新しい SDK バージョンがリリースされると、FTC エンジニアリングチームはリリース候補ブランチを FIRST-Tech-Challenge/FtcRobotController にプッシュし、次にそのブランチを master にマージします。これにより、すべての良いものが含まれる新しい SDK バージョンコミットと、候補ブランチから master へのマージを表すマージコミットの2つのコミットが作成されます。その後、リリースが正式にカットされ、マージコミットにタグが作成されます。
+*FIRST* は、標準的な`セマンティックバージョニング <https://semver.org/>`__ 命名スキームを通じて SDK バージョンを追跡するためにタグを使用します。新しい SDK バージョンがリリースされると、FTC エンジニアリングチームはリリース候補ブランチを FIRST-Tech-Challenge/FtcRobotController にプッシュし、次にそのブランチを master にマージします。これにより、すべての良いものが含まれる新しい SDK バージョンコミットと、候補ブランチから master へのマージを表すマージコミットの2つのコミットが作成されます。その後、リリースが正式にカットされ、マージコミットにタグが作成されます。
 
 リモートからのタグは、クローン時にリポジトリに自動的にコピーされません。タグを取得するには、次を実行します。
 
@@ -340,7 +340,7 @@ M7.2 でブランチを単に切り取ると、3つの青いチームコミッ�
 --all オプションはすべてのリモートから一度にフェッチし、--tags オプションは git にタグをフェッチするよう指示します。
 タグは常にセマンティックバージョニングルールに従います。例: v7.0、v7.1、v7.2、v8.0 など。
 
-`^ 構文 <https://medium.com/@gabicle/git-ancestry-references-explained-bd3a84a0b821>`_ を使用すると、コミットの親を参照でき、タグ名に適用できます。tag^ は、タグが指すコミットの直接の親です。マージコミットなどの複数の親を持つコミットの場合、数字を適用して特定の親を参照できます。
+`^ 構文 <https://medium.com/@gabicle/git-ancestry-references-explained-bd3a84a0b821>`__ を使用すると、コミットの親を参照でき、タグ名に適用できます。tag^ は、タグが指すコミットの直接の親です。マージコミットなどの複数の親を持つコミットの場合、数字を適用して特定の親を参照できます。
 tag^1 は tag^ と同じで、コミットの最初の親です。tag^2 はコミットの2番目の親です。
 
 SDK アップデートの逆のマージ
@@ -373,7 +373,7 @@ Git はコミットを削除しない（いくつかの例外を除いて）こ�
 -Xtheirs オプションは、「競合がある場合は、v8.0^2 側からソフトウェアを自動的に取得する」という便利なオプションです。
 
 .. warning:: 複数のリビジョンをダウングレードする場合、各リビジョンを順番に元に戻す必要があります。そうしないと、最新バージョンと参照しているターゲットの間の SDK バージョンからの元に戻し後に変更が残る可能性があります。例えば、v8.1.1 から v8.0 にダウングレードする必要がある場合（参考までに、すべての SDK バージョンは
-   `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`_ にあります）、v8.1.1 を元に戻し、次に v8.1 を元に戻す必要があります。この順序に従わないと、v8.1 と重複しない v8.1.1 の変更がワークスペースに残り、それは望ましくありません。
+   `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ にあります）、v8.1.1 を元に戻し、次に v8.1 を元に戻す必要があります。この順序に従わないと、v8.1 と重複しない v8.1.1 の変更がワークスペースに残り、それは望ましくありません。
 
 まとめ
 ------

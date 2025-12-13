@@ -39,12 +39,12 @@ UVCカメラは**REV Control Hub** のUSB 3.0ポートに直接接続できま�
 .. warning:: Control HubのUSB 2.0ポートで発生する静電気放電（ESD）により、Wi-Fiが切断される場合があります。
 
    **REV Control Hub** には、USB 2.0ポートに接続したデバイスによる
-   `ESD問題 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_
+   `ESD問題 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`__
    が報告されています。
    USB 2.0ポートを使用すると、ESDがWi-Fiチップに影響し、**Driver Hub** とのWi-Fi接続が切れることがあります。
    カメラなどのUSB機器は必ずUSB 3.0ポートに接続してください。
 
-2台のWebカメラを接続したい場合は「`カメラとUSBハブ <#cameras-and-usb-hubs>`_」をご参照ください。
+2台のWebカメラを接続したい場合は「`カメラとUSBハブ <#cameras-and-usb-hubs>`__」をご参照ください。
 
 
 カメラの構成
@@ -73,6 +73,8 @@ SDKソフトウェアには、外部UVCカメラを**VisionPortal** で利用す
 
 **OpMode** を編集する前に、カメラを含む構成が有効になっていること、**OpMode** で参照するカメラ名が構成ファイルの名前と一致していることを確認してください。
 
+
+.. _image preview:
 
 画像プレビュー
 --------------
@@ -117,7 +119,7 @@ USB-A to USB-Cケーブルで**Control Hub** のUSB-Cポートに接続するか
    :alt: scrcpyでカメラ映像を表示した画面。
 
 .. warning:: scrcpyはカメラ映像を確認するのに便利ですが、
-   ** 競技マニュアル** では、競技中に**DRIVER STATION** 以外のデバイスを**Control Hub** に接続することは禁止されています。
+   **競技マニュアル** では、競技中に**DRIVER STATION** 以外のデバイスを**Control Hub** に接続することは禁止されています。
 
 
 外部HDMIモニター
@@ -157,7 +159,7 @@ USB 3.0ポートにUSBハブを追加することで、2台のWebカメラを接
    ただし、Logitech C920のように消費電力が大きいWebカメラは、同時使用時にUSBポートから過剰な電力を消費する報告があります。
    C920を使う場合は電源付きUSBハブの利用を推奨します。
 
-USBハブのもう一つの用途は、`Limelight 3A <https://limelightvision.io/products/limelight-3a>`_カメラの接続です。
+USBハブのもう一つの用途は、`Limelight 3A <https://limelightvision.io/products/limelight-3a>`__カメラの接続です。
 このデバイスは独自のプロセッサを搭載しており、**OpMode** が動作していない時でも常に電力を消費します。
 電源付きUSBハブを使うことで、Limelightによるロボットバッテリーの消耗を防げます。
 
@@ -180,7 +182,7 @@ USB Cポートから全ての接続機器に電力供給が可能です。
    2台のLogitech C920 WebカメラがUSBハブに接続されています。
 
 2台のカメラを切り替えて**AprilTag** を検出するサンプルプログラムは、
-`AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_をご参照ください。
+`AprilTag Switchable Cameras <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`__をご参照ください。
 
 もう一つの用途は、Limelightと電源付きUSBハブを使ってロボットバッテリー消耗を抑えることです。
 以下の例ではLimelightとWebカメラの両方を接続しています。

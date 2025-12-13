@@ -1,11 +1,11 @@
 PIDF 係数の変更
 ===========================
 
-**REV Robotics Control Hub** または **REV Robotics Expansion Hub** を使用すると、ユーザーは閉ループモーター制御に使用される PIDF 係数を変更できます。PIDF 係数は、各チャネル（モーターポート）と各 RunMode に固有です。
+**REV Robotics Control Hub** または**REV Robotics Expansion Hub** を使用すると、ユーザーは閉ループモーター制御に使用される PIDF 係数を変更できます。PIDF 係数は、各チャネル（モーターポート）と各 RunMode に固有です。
 
-次のサンプル **OpMode** は、拡張または強化された **DcMotor** クラス（「**DcMotorEx**」と呼ばれる）を使用して、「left_drive」という名前のモーターの RUN_USING_ENCODER RunMode の PIDF 係数を変更します。**OpMode** は、**DcMotorEx** クラスの setPIDFCoefficients メソッドを使用して値を変更します。このメソッドは、標準の **DcMotor** クラスでは使用できません。
+次のサンプル **OpMode** は、拡張または強化された**DcMotor** クラス（「**DcMotorEx**」と呼ばれる）を使用して、「left_drive」という名前のモーターの RUN_USING_ENCODER RunMode の PIDF 係数を変更します。**OpMode** は、**DcMotorEx** クラスの setPIDFCoefficients メソッドを使用して値を変更します。このメソッドは、標準の**DcMotor** クラスでは使用できません。
 
-PIDF 係数に加えた変更は、**REV Robotics Control Hub** または **REV Robotics Expansion Hub** の電源を入れ直すと保持されないことに注意してください。変更を保持する必要がある場合は、**OpMode** を変更して、**Control Hub** または **Android** スマートフォンに状態情報を保存することを検討してください。Android Developer Web サイトには、アプリから **Android** デバイスにデータを保存する方法に関するチュートリアルがあります `こちら <https://developer.android.com/training/data-storage>`__
+PIDF 係数に加えた変更は、**REV Robotics Control Hub** または**REV Robotics Expansion Hub** の電源を入れ直すと保持されないことに注意してください。変更を保持する必要がある場合は、**OpMode** を変更して、**Control Hub** または**Android** スマートフォンに状態情報を保存することを検討してください。Android Developer Web サイトには、アプリから**Android** デバイスにデータを保存する方法に関するチュートリアルがあります `こちら <https://developer.android.com/training/data-storage>`__
 
 .. code-block:: java
 
@@ -95,7 +95,7 @@ PIDF 係数の調整は、PID 調整と似ていますが、フィードフォ�
 3. F 値は通常、望ましい速度を達成するために必要なモーター電力に基づいて計算されます。
 4. 実験を通じて F 値を微調整して、最適なパフォーマンスを達成します。
 
-** 注意**: PIDF 調整は高度なトピックであり、モーター制御システムの深い理解が必要です。
+**注意**: PIDF 調整は高度なトピックであり、モーター制御システムの深い理解が必要です。
 
 
 PID と PIDF の使い分け
@@ -109,7 +109,7 @@ PID と PIDF の使い分け
 デフォルトの PIDF 値
 ----------------------
 
-**REV Robotics Control Hub** および **Expansion Hub** には、各モーターチャネルのデフォルト PIDF 値があります。これらのデフォルト値は、ほとんどのアプリケーションでうまく機能しますが、特定の要件に基づいて調整できます。
+**REV Robotics Control Hub** および**Expansion Hub** には、各モーターチャネルのデフォルト PIDF 値があります。これらのデフォルト値は、ほとんどのアプリケーションでうまく機能しますが、特定の要件に基づいて調整できます。
 
 
 追加リソース

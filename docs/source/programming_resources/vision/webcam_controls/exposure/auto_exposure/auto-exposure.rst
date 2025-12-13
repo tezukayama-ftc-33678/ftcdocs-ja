@@ -13,7 +13,7 @@ AE Priority を ``false`` に設定すると（デフォルト）、カメラは
    exposureControl = vuforia.getCamera().getControl(ExposureControl.class);
    exposureControl.setAePriority(true);  // または false
 
-このメソッドは **SDK** 7.0 で導入されました。これは **Vuforia** カメラでのみ機能します（**AprilTag** プロセッサーまたは TFOD プロセッサーと組み合わせて使用する場合）。
+このメソッドは **SDK** 7.0 で導入されました。これは**Vuforia** カメラでのみ機能します（**AprilTag** プロセッサーまたは TFOD プロセッサーと組み合わせて使用する場合）。
 
 **VisionPortal** では、AE Priority は ``VisionPortal.Builder.setCameraMonitorViewId()`` を使用してカメラモニター（DS プレビュー）が有効になっている場合にのみ機能します。
 

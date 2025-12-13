@@ -22,8 +22,8 @@ FTC Docs Contributor Glossary
         When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
 
     Main Repository
-        The main repository is the GitHub repository found at `github.com/FIRST-Tech-Challenge/ftcdocs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_. The files in this repository are the official documentation 
-        for the FIRST Tech Challenge and the ones that are built and deployed to the `FTC Docs website <https://ftc-docs.firstinspires.org/en/latest/>`_. This should not be confused 
+        The main repository is the GitHub repository found at `github.com/FIRST-Tech-Challenge/ftcdocs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`__. The files in this repository are the official documentation 
+        for the FIRST Tech Challenge and the ones that are built and deployed to the `FTC Docs website <https://ftc-docs.firstinspires.org/en/latest/>`__. This should not be confused 
         with the main branch of a repository, which is the default branch of a repository.
 
     Main

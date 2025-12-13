@@ -5,7 +5,7 @@
 
 .. warning::
 
-    Using **Codespace** and working **Locally** are two different ways to contribute to FTC Docs. 
+    Using **Codespace**and working**Locally** are two different ways to contribute to FTC Docs. 
     The steps for each are similar, but there are key differences in setup. After reading step 2, you should choose whether you want to use Codespaces or work locally.
     For the purposes of this guide, Local and Codespaces use will be mutually exclusive.
 
@@ -51,7 +51,7 @@
 
 8. :doc:`Create a new codespace <../create_codespace/create-codespace>` :bdg-success:`Repeat` :bdg-info:`Codespaces`
 
-    * これにより、変更用の新しい **Codespace** が作成されます。作業する変更/ブランチごとに新しい **Codespace** を作成する必要があります。 
+    * これにより、変更用の新しい **Codespace** が作成されます。作業する変更/ブランチごとに新しい**Codespace** を作成する必要があります。 
 
 9. :doc:`Switch to your branch <../switch_branch/switch-branch>` :bdg-success:`Repeat` :bdg-warning:`Local`
 

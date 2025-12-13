@@ -76,7 +76,7 @@ characteristic <https://github.com/FIRST-Tech-Challenge/FtcRobotController/issue
 USB Bandwidth
 ~~~~~~~~~~~~~
 
-**USB Bandwidth** is a concern for dual **webcams**; internal phone
+**USB Bandwidth**is a concern for dual**webcams**; internal phone
 cameras have an independent high-speed interconnect (not USB),
 unaffected by an added USB webcam.
 

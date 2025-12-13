@@ -49,7 +49,7 @@
      - 画像
 
    * - ROBOT CONTROLLER として使用する **REV Robotics Control Hub** 。
-       または、競技マニュアルでは、チームが **REV Robotics Expansion Hub** と選択された **Android** 端末のリストを代わりに使用することを許可しています。 
+       または、競技マニュアルでは、チームが **REV Robotics Expansion Hub** と選択された**Android** 端末のリストを代わりに使用することを許可しています。 
      - |chandphones| |exhub|
    
    * - DRIVER STATION デバイスとして使用する **REV Robotics Driver Hub** 。
@@ -68,14 +68,14 @@
    * - **REV Robotics** スイッチ、ケーブル、およびブラケット（REV-31-1387）。
      - |switch|
   
-   * - **FIRST** 承認\* 12V バッテリー（Tetrix W39057 または **REV Robotics** REV-31-1302 など）。\*\ ****FIRST** 承認 12V バッテリーのリストについては、現在の競技マニュアルを参照してください。**\
+   * - **FIRST** 承認\* 12V バッテリー（Tetrix W39057 または **REV Robotics** REV-31-1302 など）。\*\ ****FIRST**承認 12V バッテリーのリストについては、現在の競技マニュアルを参照してください。**\
      - |battery|   Or |slimbattery|
 
-   * - **FIRST** 承認\* 12V DC モーター（Tetrix W39530、電源ケーブル W41352 など）。\*\ ****FIRST** 承認 12V モーターのリストについては、現在の競技マニュアルを参照してください。**\
+   * - **FIRST** 承認\* 12V DC モーター（Tetrix W39530、電源ケーブル W41352 など）。\*\ ****FIRST**承認 12V モーターのリストについては、現在の競技マニュアルを参照してください。**\
      - |motor|
 
 
-   * - Tamiya コネクタを持つ承認された 12V バッテリー（Tetrix W39057 バッテリーなど）を使用している場合は、**REV Robotics** Tamiya to XT30 アダプターケーブル（REV-31-1382）が必要です。**REV Robotics** Slim Battery（REV-31-1302）を使用している場合、REV バッテリーにはすでに XT30 コネクタが付いているため、このアダプターは必要ありません。
+   * - Tamiya コネクタを持つ承認された 12V バッテリー（Tetrix W39057 バッテリーなど）を使用している場合は、**REV Robotics**Tamiya to XT30 アダプターケーブル（REV-31-1382）が必要です。**REV Robotics** Slim Battery（REV-31-1302）を使用している場合、REV バッテリーにはすでに XT30 コネクタが付いているため、このアダプターは必要ありません。
      - |tamiya|
   
    * - **REV Robotics** Anderson to JST VH ケーブル（REV-31-1381）。
@@ -96,5 +96,5 @@
    * - **Robot Controller** としてスマートフォンを使用している場合は、USB Type A オス - Type mini-B オスケーブルが必要です。**Control Hub** ユーザーは、このケーブルは必要ありません。
      - |usba|
 
-   * - **Robot Controller** としてスマートフォンを使用している場合は、micro USB OTG アダプターが 2 個必要です。**Robot Controller** として **Control Hub** を使用している場合は、micro USB OTG アダプターが 1 個必要です。
+   * - **Robot Controller** としてスマートフォンを使用している場合は、micro USB OTG アダプターが 2 個必要です。**Robot Controller** として**Control Hub** を使用している場合は、micro USB OTG アダプターが 1 個必要です。
      - |otg|   |otg|

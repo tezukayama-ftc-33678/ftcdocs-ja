@@ -13,7 +13,7 @@
 システム要件
 ~~~~~~~~~~~~~~~~~~~
 
-**Android Studio** をダウンロードしてインストールする前に、まず **Android** Developer のウェブサイトでシステム要件のリストを確認し、システムが最小要件のリストを満たしていることを確認してください：
+**Android Studio** をダウンロードしてインストールする前に、まず**Android** Developer のウェブサイトでシステム要件のリストを確認し、システムが最小要件のリストを満たしていることを確認してください：
 
 *  `Windows <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#1>`__
 *  `MacOS <https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#3>`__
@@ -33,7 +33,7 @@
 **Android Studio** のダウンロードとインストール
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ラップトップが最小システム要件を満たしていることを確認したら、**Android** Developer のウェブサイトにアクセスして **Android Studio** をダウンロードおよびインストールできます：
+ラップトップが最小システム要件を満たしていることを確認したら、**Android**Developer のウェブサイトにアクセスして**Android Studio** をダウンロードおよびインストールできます：
 
 *  https://developer.android.com/studio
 

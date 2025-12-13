@@ -16,7 +16,7 @@ The Competition Manual contains an Arena section that details the playing field 
 It includes measurements for key aspects of the field and game elements and scoring elements.
 For example, the height of a basket into which a scoring element can be placed.
 The Competition Manual can be found on the
-`Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website.
+`Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`__ on the *FIRST* Website.
 
 Field Setup Guide
 -----------------
@@ -47,5 +47,5 @@ Use the following button link to download a PDF of the current Field Setup Guide
    A purchased game set can be full or partial. A partial game set is less expensive and also suitable for teams who
    want official game elements but don't have room to setup a full field.
 
-The `Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ also contains a downloadable PDF for the AprilTag images that can be printed and placed on the field.
+The `Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`__ also contains a downloadable PDF for the AprilTag images that can be printed and placed on the field.
 There is a Do It Yourself (DIY) Resources section that includes CAD models of scoring elements and DIY field and perimeter build guides.

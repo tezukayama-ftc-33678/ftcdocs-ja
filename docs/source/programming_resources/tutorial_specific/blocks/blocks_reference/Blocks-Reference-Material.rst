@@ -11,7 +11,7 @@ Blocks リファレンス資料 :bdg-warning:`Blocks`
 サンプル Op Mode
 ~~~~~~~~~~~~~~~~
 
-**Blocks** プログラミングツールには、**FIRST Tech Challenge** 制御システムでさまざまなタスクを実行する方法を示す、組み込みのサンプル **Op Mode** がいくつか含まれています。新しいファイルを作成する際、Sampleドロップダウンリストコントロールを使用して、利用可能なサンプル **Op Mode** やテンプレートのリストを表示できます：
+**Blocks** プログラミングツールには、**FIRST Tech Challenge** 制御システムでさまざまなタスクを実行する方法を示す、組み込みのサンプル**Op Mode** がいくつか含まれています。新しいファイルを作成する際、Sampleドロップダウンリストコントロールを使用して、利用可能なサンプル**Op Mode** やテンプレートのリストを表示できます：
 
 .. image:: images/BlocksCreateVuMarkExample.jpg
    :align: center
