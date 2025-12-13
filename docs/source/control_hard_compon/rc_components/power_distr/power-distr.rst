@@ -64,10 +64,9 @@
 詳細については、競技マニュアルを再度確認してください。
 
 .. warning:: 
-   Be sure to remove the 20A fuse from the in-line fuse holder prior to cutting
-   any wires/connectors if/when replacing the factory default battery connector.
+   工場出荷時のデフォルトのバッテリーコネクタを交換する際には、ワイヤー/コネクタを切断する前に、必ずインラインヒューズホルダーから 20A ヒューズを取り外してください。
 
-Main Power Switch
+メインパワースイッチ
 ----------------------
 
 .. grid:: 1 2 2 3
@@ -146,7 +145,7 @@ Main Power Switch
 1 つのメインパワースイッチが、メインバッテリーによって供給されるすべての電力を制御する必要があります。
 上記の合法的な電源スイッチは代表的な例です。完全なリストについては、競技マニュアルを確認してください。 
 
-Power Distribution Block
+電力配分ブロック
 -------------------------
 
 .. grid:: 1 2 2 3
@@ -191,7 +190,7 @@ Power Distribution Block
 合法的な電力分配方法の説明については、競技マニュアルを参照してください。
 示されている電力分配ブロックは、電力分配用の唯一の合法的なデバイスではありません。
 
-REV Servo Power Module
+**REV Servo Power Module**
 ----------------------
 
 .. grid:: 1 2 2 3
@@ -220,7 +219,7 @@ REV Servo Power Module
 すべての出力サーボポートに最大 15A の電流を供給でき、モジュールあたり合計 90 ワットの電力を提供できます。
 競技マニュアルでは、より多くのサーボパワーインジェクターが許可されています。
 
-COTS USB Battery Pack
+市販の **USB** バッテリーパック
 ---------------------
 
 .. grid:: 1 2 2 3
@@ -260,7 +259,7 @@ COTS USB Battery Pack
 
 以下のセクションは、上記のリストを明確にすることを目的としています。
 
-Reputable Brands
+信頼できるブランド
 ~~~~~~~~~~~~~~~~
 
 COTS USB バッテリーパックの安全性に関して最も重要な要素は、

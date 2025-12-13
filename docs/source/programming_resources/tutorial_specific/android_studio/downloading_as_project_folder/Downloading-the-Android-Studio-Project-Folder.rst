@@ -17,7 +17,7 @@
 |
 
 From the main repository web page, click on the “releases” link to jump
-to the Releases page for the repository. Releases ページには、リポジトリの利用可能なソフトウェアリリースが一覧表示されます。 最新のリリースがページの上部近くに表示されます。
+リポジトリの Releases ページにジャンプします。Releases ページには、リポジトリの利用可能なソフトウェアリリースが一覧表示されます。 最新のリリースがページの上部近くに表示されます。
 
 .. image:: images/Releases.jpg
    :align: center
@@ -91,13 +91,12 @@ Source code (zip) リンクをクリックして、圧縮された **Android Stu
 |
 
 In the figure above the project folder called “FtcRobotController”
-is selected to be imported into Android Studio. It might take Android
-Studio several minutes to import the project. Once the project has been
-successfully imported, the screen should look similar to the one
-depicted in the image below. If you see a popup asking you to update the
-Android Gradle Plugin (AGP), ignore it. Do not attempt to update AGP as
-newer versions may not be compatible with the current *FIRST* Tech
-Challenge SDK.
+**Android Studio** にインポートするために選択されています。プロジェクトのインポートには、
+**Android Studio** が数分かかる場合があります。プロジェクトが正常にインポートされると、
+画面は下図に示されているものと似たようになるはずです。
+**Android Gradle Plugin (AGP)** の更新を求めるポップアップが表示された場合は、無視してください。
+新しいバージョンは現在の ***FIRST* Tech Challenge SDK** と互換性がない可能性があるため、
+AGP の更新を試みないでください。
 
 .. image:: images/SuccessfullyImported.jpg
    :align: center

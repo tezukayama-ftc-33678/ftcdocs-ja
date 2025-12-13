@@ -17,8 +17,8 @@
 このシステムは UVC カメラに対応しています。
 理論上、カメラが UVC に準拠していれば、このシステムで動作するはずです。ただし、**FIRST** Tech Challenge ソフトウェアでテストされ、このソフトウェアで正確に動作するようにキャリブレーションされた推奨ウェブカメラが数台あります：
 
--  Logitech HD Webcam C310
--  Logitech HD Pro Webcam C920
+-  **Logitech HD Webcam C310**
+-  **Logitech HD Pro Webcam C920**
 
 :doc:`他の UVC ウェブカメラに関する記事 <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`
 がありますので、チームで使用することができます。
@@ -37,7 +37,7 @@ Android スマートフォンと **Expansion Hub** を使用しているチー�
 .. image:: images/uvcdiagram.png
    :alt: **REV Expansion Hub** が Android スマートフォンとウェブカメラに USB Hub 経由で接続されている図。
 
-USB Hub
+**USB Hub**
 ^^^^^^^
 
 外部カメラを使用したいチームは、Android **Robot Controller** を外部カメラと **REV Robotics Expansion Hub** に接続するための USB ハブが必要です。適切に動作するために、USB ハブは以下の要件を満たす必要があります：

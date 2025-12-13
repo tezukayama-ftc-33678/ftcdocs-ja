@@ -14,10 +14,10 @@
 
 ``<branch_name>`` を、切り替えたいブランチの名前に置き換えてください。また、前の手順で作成したブランチの名前と一致していることを確認してください。
 
-Troubleshooting
+トラブルシューティング
 ---------------
 
-Branch Not Found
+**Branch Not Found**
 ~~~~~~~~~~~~~~~~
 
 ``error: pathspec '<branch-name>' did not match any file(s) known to git``
@@ -31,7 +31,7 @@ Branch Not Found
 
 このコマンドは、ローカルリポジトリをリモートリポジトリで更新します。このコマンドを実行した後、ブランチの切り替えを再度試してください。
 
-Uncommitted Changes
+**Uncommitted Changes**
 ~~~~~~~~~~~~~~~~~~~~
 
 ``error: Your local changes to the following files would be overwritten by checkout:``
