@@ -1,5 +1,5 @@
 シンプルな例：**myGreeting** の作成
-=================================
+=========================================
 
 「Hello World」（もちろん！）という挨拶を作成するシンプルな **myBlock** から始めます。
 
@@ -39,7 +39,7 @@ Wi-Fi 経由で **Control Hub** または RC スマートフォンに接続さ�
           parameterLabels = {"Recipient"}
    )
 
-これらは、新しい **myBlock** に表示されるオプションのラベルです。以下で説明します。これらの機能のいずれも使用したくない場合でも、**アノテーション**行 ``@ExportToBlocks`` は必要です。
+これらは、新しい **myBlock** に表示されるオプションのラベルです。以下で説明します。これらの機能のいずれも使用したくない場合でも、 **アノテーション** 行 ``@ExportToBlocks`` は必要です。
 
 そのアノテーションを入力すると、OBJ は自動的に ``import`` 文を追加しました。
 
@@ -61,7 +61,7 @@ Wi-Fi 経由で **Control Hub** または RC スマートフォンに接続さ�
 
 また、プラス記号 ``+`` が3つのテキスト要素を結合または**連結**して、単一の ``String`` を形成していることにも注意してください。
 
-**コードは完成しました！**全体は次のようになります：
+**コードは完成しました！** 全体は次のようになります：
 
 .. image:: images/a0150-Hello-OBJ-complete-circle.png
 
@@ -81,11 +81,11 @@ Wi-Fi 経由で **Control Hub** または RC スマートフォンに接続さ�
 
 .. image:: images/a0180-Hello-Blocks-found.png
 
-**myBlock** を作業領域にドラッグすると、入力ソケットにカーソルを合わせると、**ツールチップ**「Greet a person or group.」が表示されます。
+**myBlock** を作業領域にドラッグすると、入力ソケットにカーソルを合わせると、 **ツールチップ** 「Greet a person or group.」が表示されます。
 
 .. image:: images/a0190-Hello-Blocks-tooltip.png
 
-青い疑問符アイコンをクリックすると、**コメント**「Here is a greeting for you.」が表示されます。
+青い疑問符アイコンをクリックすると、 **コメント** 「Here is a greeting for you.」が表示されます。
 
 .. image:: images/a0200-Hello-Blocks-comment.png
 

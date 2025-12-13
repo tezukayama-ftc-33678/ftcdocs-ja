@@ -2,7 +2,7 @@
 =====================
 
 **REV Driver Hub**
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ には、**Driver Station (DS)** アプリがプリロードされています。以下の **REV Driver Hub** について説明する手順は、**Android** スマートフォンを DS として使用する場合にも適用されます。
 
