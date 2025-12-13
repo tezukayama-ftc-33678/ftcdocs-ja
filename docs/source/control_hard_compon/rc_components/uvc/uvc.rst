@@ -45,14 +45,14 @@ UVC ウェブカメラ
 ウェブカメラは、コンピュータービジョン関連のタスクで使用することを目的としています。
 ウェブカメラの使用例には、以下が含まれます：
 
-- :doc:`detecting <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>` an AprilTag,
-- determining where the robot is :doc:`located <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` on the field,
-- using OpenCV to :doc:`detect colors or shapes <../../../color_processing/index>` of game elements.
+- **AprilTag** の :doc:`検出 <../../../apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>`
+- フィールド上でロボットが :doc:`どこにいるか <../../../apriltag/vision_portal/apriltag_localization/apriltag-localization>` の特定
+- **OpenCV** を使用したゲーム要素の :doc:`色や形状の検出 <../../../color_processing/index>`
 
-Additional Resources
+追加リソース
 --------------------
 
-- A :doc:`list of webcams <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>` known to be compatible with VisionPortal.
+- **VisionPortal** と互換性があることが知られている :doc:`ウェブカメラのリスト <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`
 - :ref:`Connecting UVC Camera via Powered USB Hub <hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera:configuring an external uvc camera and a powered usb hub>`
 - :ref:`Connecting UVC Camera directly to REV Control Hub <hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam:configuring an external webcam with a control hub>`
 - :ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:USB Ports>`

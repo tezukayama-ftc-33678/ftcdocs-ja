@@ -26,26 +26,26 @@
           - Step specific to Local users
           - General information that provides context
 
-2. :doc:`Intro to Codesapces <../codespaces/codespaces>` :bdg-secondary:`Information`
+2. :doc:`**Codespaces** 入門 <../codespaces/codespaces>` :bdg-secondary:`情報`
 
     * これは **Codespaces** の概要と使用方法を提供します。
-3. :doc:`Getting to know the GitHub Repository <../github_repo/github-repo>` :bdg-secondary:`Information`
+3. :doc:`**GitHub** リポジトリを知る <../github_repo/github-repo>` :bdg-secondary:`情報`
 
     * これは FTC Docs リポジトリの概要と構成方法を提供します。貢献作業を開始する前に理解することが重要です。 
 
-4. :doc:`Fork the repository <../make_fork/make-fork>` :bdg-danger:`One Time Only` :bdg-info:`Codespaces` :bdg-warning:`Local`
+4. :doc:`リポジトリをフォークする <../make_fork/make-fork>` :bdg-danger:`1回のみ` :bdg-info:`Codespaces` :bdg-warning:`ローカル`
 
     * これにより、あなたの **GitHub** アカウントに FTC Docs リポジトリのコピーが作成されます。
 
-5. :doc:`Update the repository <../update_fork/update-fork>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
+5. :doc:`リポジトリを更新する <../update_fork/update-fork>` :bdg-success:`繰り返し` :bdg-info:`Codespaces` :bdg-warning:`ローカル`
 
     * これにより、フォークが FTC Docs リポジトリの最新の変更で更新されます。新しい貢献作業を開始する前にこれを行うことが重要です。
 
-6. :doc:`Set up your environment <../setup/setup>` :bdg-danger:`One Time Only` :bdg-warning:`Local`
+6. :doc:`環境をセットアップする <../setup/setup>` :bdg-danger:`1回のみ` :bdg-warning:`ローカル`
 
     * これにより、FTC Docs で作業するためのローカル環境がセットアップされます。**Codespaces** ユーザーはこのステップをスキップできます。
 
-7. :doc:`Create a new branch <../make_branch/make-branch>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`
+7. :doc:`新しいブランチを作成する <../make_branch/make-branch>` :bdg-success:`繰り返し` :bdg-info:`Codespaces` :bdg-warning:`ローカル`
 
     * これにより、変更用の新しいブランチが作成されます。作業する変更ごとに新しいブランチを作成する必要があります。
 

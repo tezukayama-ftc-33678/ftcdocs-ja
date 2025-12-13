@@ -13,8 +13,8 @@
 
 ここでは、ホワイトバランス温度を制御するために、Java タイプの整数で、ケルビン度の単位で単一の値が使用されます。メソッドは次のとおりです：
 
--  setWhiteBalanceTemperature(int temperature)
--  getWhiteBalanceTemperature()
+-  **setWhiteBalanceTemperature(int temperature)**
+-  **getWhiteBalanceTemperature()**
 
 露出やゲインと同様に、Webcam はホワイトバランス温度の最小値と最大値をサポートする場合があります。これらは次の方法で取得できます：
 

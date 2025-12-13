@@ -8,16 +8,16 @@ Webcam の評価
 
 露出および特定の露出モードをクエリする2つのメソッドを次に示します：
 
--  isExposureSupported()
--  isModeSupported(ExposureControl.Mode._mode_)
+-  **isExposureSupported()**
+-  **isModeSupported(ExposureControl.Mode._mode_)**
 
    -  *mode* には、テストしている特定のモード名を入力します
 
 次のメソッドでは、露出が利用できない場合、long 型の ``unknownExposure`` というフィールドが返されます：
 
--  getExposure(TimeUnit.MILLISECONDS) 
--  getMinExposure(TimeUnit.MILLISECONDS) 
--  getMaxExposure(TimeUnit.MILLISECONDS)
+-  **getExposure(TimeUnit.MILLISECONDS)**
+-  **getMinExposure(TimeUnit.MILLISECONDS)**
+-  **getMaxExposure(TimeUnit.MILLISECONDS)**
 
 露出とモードを設定するメソッドは、Boolean を返すこともできます。おそらく、操作が成功したかどうかを示しています。オプションの例として：
 
@@ -48,8 +48,8 @@ Webcam の評価
 
 フォーカスおよび特定のフォーカスモードをクエリする2つのメソッドを次に示します：
 
-- isFocusLengthSupported() 
-- isModeSupported(FocusControl.Mode._mode_)
+- **isFocusLengthSupported()**
+- **isModeSupported(FocusControl.Mode._mode_)**
 
 次のメソッドは、要求されたフォーカス値が利用できない場合、**負の値**を返します。たとえば、Logitech C270 と Microsoft LifeCam VX-5000 は -1 を返します。Javadoc には、double 型の ``unknownFocusLength`` フィールドについても記載されています。
 

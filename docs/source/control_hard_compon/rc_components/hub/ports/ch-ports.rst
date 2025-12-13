@@ -29,7 +29,7 @@ USB Type-A、USB-C、USB Mini-B は、コネクタのタイプを指します。
 - USB-C は、より小さな楕円形のコネクタです。
 - USB Mini-B は、面取りされた端を持つより小さな長方形のコネクタです。
 
-USB 2.0
+**USB 2.0**
 ^^^^^^^
 
 これは、USB 2.0 を実装する メス USB Type-A ポートであり、競技マニュアルで許可されている USB デバイスの接続に使用できます。
@@ -38,17 +38,17 @@ USB 2.0
 
    REV Control Hub には、USB 2.0 ポートに接続されたデバイスに関する `既知の ESD 問題 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/troubleshooting-the-control-system#esd-mitigation-techniques>`_ があります。USB 2.0 ポートを使用すると、ESD が Control Hub の Wi-Fi チップに影響を与える可能性があります（Driver Hub との Wi-Fi 切断を引き起こします）。カメラなどの USB デバイスは、Control Hub の USB 3.0 ポートに接続してください。
 
-USB 3.0
+**USB 3.0**
 ^^^^^^^
 
 これは、USB 3.0 を実装する メス USB Type-A ポートであり、主に USB ビデオデバイスクラス（UVC）カメラ（ウェブカメラ）の接続に使用されます。
 
-USB C
+**USB C**
 ^^^^^
 
 **Control Hub** には、USB 2.0 を実装する メス USB-C ポートがあります。これは主に SDK をロードするためにラップトップに接続するために使用されますが、UVC カメラでも使用できます。
 
-MINI USB
+**MINI USB**
 ^^^^^^^^
 
 これは、USB 2.0 を実装する メス USB Mini-B ポートです。I/O システムと直接通信するためにのみ使用されます。この場合、デバイスにファームウェアをアップロードする目的のみです。
@@ -58,7 +58,7 @@ HDMI
 
 **Control Hub** は、完全な Android デバイスであるにもかかわらず、独自のディスプレイを欠いています。**Control Hub** には、デバイスのビデオ出力を提供する HDMI ポートがあります。この HDMI ポートは、外部ディスプレイに接続するために使用できます。
 
-MICRO SD
+**MICRO SD**
 --------
 
 これは、Micro SD メモリカード用のポートです。通常は使用されません。

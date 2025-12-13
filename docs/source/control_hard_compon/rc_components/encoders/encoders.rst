@@ -43,7 +43,7 @@
 アブソリュートエンコーダーは、シャフトの開始位置からの変位と、「ゼロ」位置に対するシャフトの現在の正確な角度を示すことができます。
 
 
-Additional Resources
+追加リソース
 ---------------------
 
  - :ref:`Encoder Port Overview <control_hard_compon/rc_components/hub/ports/exh-ports:encoder ports>`

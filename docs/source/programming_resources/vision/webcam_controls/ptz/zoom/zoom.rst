@@ -3,10 +3,10 @@
 
 仮想ズームは、整数型の単一の無次元値で記述されます。上記で説明したインターフェイスと同様に、仮想ズームは次のメソッドで管理できます：
 
--  setZoom(int zoom) 
--  getZoom() 
--  getMinZoom() 
--  getMaxZoom()
+-  **setZoom(int zoom)**
+-  **getZoom()**
+-  **getMinZoom()**
+-  **getMaxZoom()**
 
 Logitech C920 は、100 から 500 までのズーム値を許可しますが、250-280 より高い値は、プレビュー画像にさらなる影響を与えません（**Vuforia** の影響を受けます）。
 

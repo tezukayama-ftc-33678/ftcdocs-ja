@@ -112,8 +112,7 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 
 #. `GitForWindows <https://gitforwindows.org/>`_ を入手してインストールします。このソフトウェアには、bash シェルとともに git クライアントが含まれています。以下のすべてのコマンドラインスニペットは、bash シェルを使用しており、git がパスに含まれていることを前提としています。GitForWindows は、Windows マシンにこれを提供する最も簡単な方法です。Mac には terminal と呼ばれる組み込みの bash シェルがありますが、git は個別にインストールする必要があります。
 
-#. `FIRST-Tech-Challenge/FtcRobotController
-   <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ リポジトリを GitHub 上のあなたのアカウントにフォークします。
+#. `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ リポジトリを GitHub 上のあなたのアカウントにフォークします。
 
    .. tip::
       この手順には GitHub アカウントが必要であり、リポジトリをフォークするには GitHub にログインしている必要があります。

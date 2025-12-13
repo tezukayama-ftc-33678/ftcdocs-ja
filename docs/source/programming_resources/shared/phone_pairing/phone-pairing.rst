@@ -35,9 +35,9 @@ Android スマートフォンが適切に準備されている場合、Wi-Fi Dir
 
 5. デバイスのホーム画面に強制終了します。上から2回スワイプして、次の順序で実行します：
 
--  Airplane Mode ON
--  Wi-Fi ON（通常、Airplane Mode がオンになると切り替わります）、次に Done
--  Bluetooth OFF
+-  **Airplane Mode ON**
+-  **Wi-Fi ON**（通常、**Airplane Mode** がオンになると切り替わります）、次に Done
+-  **Bluetooth OFF**
 -  Location OFF、Android 7.x のみ
 
 6. DS スマートフォンで上記の手順を繰り返します。

@@ -28,7 +28,7 @@
 2. サンプル ``UtilityCameraFrameCapture`` **OpMode** を teamcode フォルダーにコピーし、ニーズに応じて上部のパラメーターを変更します。このサンプルは Java でのみ記述されていることに注意することが重要です。
 3. **3DF Zephyr** で、次の場所に移動します：
 
-   - Utilities --> Images --> Camera Calibration 
+   - **Utilities --> Images --> Camera Calibration** 
 
    そして指示に従います。フレームキャプチャ **OpMode** を使用して写真を撮ります。
 4. **Robot Controller** デバイスを USB ケーブルでコンピューターに接続し、キャプチャされたフレームをコンピューターにコピーします。それらは USB ストレージのルートにあり、名前の前に ``VisionPortal-`` が付いています。

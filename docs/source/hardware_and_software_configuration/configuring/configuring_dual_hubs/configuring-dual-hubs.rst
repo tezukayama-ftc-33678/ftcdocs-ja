@@ -47,7 +47,7 @@ Expansion Hub の追加
    * - **REV Robotics** XT30 延長ケーブル（REV-31-1394）
      - .. figure:: images/xt30Extension.jpg
 
-Connecting the Expansion Hub
+**Expansion Hub** の接続
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. 最初のステップは、3 ピン JST PH ケーブルと XT30 ケーブルを使用して、
@@ -57,13 +57,13 @@ Connecting the Expansion Hub
 XT30 延長ケーブルを使用して、**Control Hub** の XT30 電源ポートを
 もう一方の **Expansion Hub** の XT30 電源ポートに接続します。
 
-<INSET IMAGE>
+.. note:: 画像はこちらに挿入予定
 
 2. **Control Hub** と **Expansion Hub** は、デバイス間の通信に RS-485 シリアルバス標準を使用します。
 3 ピン JST PH ケーブルを使用して、**Control Hub** の「RS485」とラベル付けされたポートの 1 つを、
 **Expansion Hub** の「RS485」とラベル付けされたポートの 1 つに接続できます。
 
-<INSERT IMAGE>
+.. note:: 画像はこちらに挿入予定
 
 **Expansion Hub** または **Control Hub** でどの「RS485」ポートを選択するかは重要ではありません。
 どちらのポートでも機能するはずです。
@@ -75,9 +75,9 @@ XT30 延長ケーブルを使用して、**Control Hub** の XT30 電源ポー�
 3. 2 つのデバイスをデイジーチェーン接続したら（12V 電源と RS-485 信号）、
 バッテリーと電源スイッチを接続し、デバイスの電源を入れることができます。
 
-<INSERT IMAGE>
+.. note:: 画像はこちらに挿入予定
 
-Configuring Both devices
+両方のデバイスの構成
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Expansion Hub** と **Control Hub** をデイジーチェーン接続できた場合、

@@ -6,7 +6,7 @@
 例
 ----------
 
-Distance Sensor (Ultrasonic)
+**Distance Sensor (Ultrasonic)**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. grid:: 1 2 2 2 
@@ -34,7 +34,7 @@ Distance Sensor (Ultrasonic)
 これは、音波を送出し、波が物体まで移動して戻ってくるまでの時間を測定することで行います。
 これと音速を使用して、距離を計算できます。
 
-Distance Sensor (Optical)
+**Distance Sensor (Optical)**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. grid:: 1 2 2 2 
@@ -63,7 +63,7 @@ Distance Sensor (Optical)
 問題の物体が光とどのように相互作用するかによって、距離測定の精度が変わる可能性があることに注意してください。
 フィールドパネルのような透明な物体は、しばしば不正確な測定を提供します。
 
-Color Sensor
+**Color Sensor**
 ~~~~~~~~~~~~~~
 
 .. grid:: 1 2 2 2 
@@ -106,7 +106,7 @@ Color Sensor
 カラーセンサーは、通常、物体の色を測定できるデジタル出力デバイスです。
 ほとんどのカラーセンサーは、問題の物体がセンサーに比較的近い位置にあることを必要とします。 
 
-Touch Sensor
+**Touch Sensor**
 ~~~~~~~~~~~~~~
 
 .. grid:: 1 2 2 2 
@@ -134,7 +134,7 @@ Touch Sensor
 このようなデバイスは、通常、デジタルポートを使用します。
 
 
-Magnetic Limit Switch
+**Magnetic Limit Switch**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. grid:: 1 2 2 2 
@@ -256,7 +256,7 @@ Potentiometer
 このようなデバイスは、通常、**REV Hub** のアナログポートを介して接続されます。
 
 
-Sensor Compatibility Chart
+センサー互換性チャート
 ---------------------------
 
 センサー互換性に関するこの便利なチャートを提供してくれた **REV Robotics** の方々に感謝します。
@@ -265,7 +265,7 @@ Sensor Compatibility Chart
    :header-rows: 1
    :class: longtable
 
-   * - Sensor
+   * - **Sensor**
      - Type
      - Compatible
      - Adapters Needed
@@ -381,7 +381,7 @@ Sensor Compatibility Chart
      - No
      - Not Officially Supported
 
-Additional Resources
+追加リソース
 ---------------------
 
  - :ref:`Analog Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:analog ports>`

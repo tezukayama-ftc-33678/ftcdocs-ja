@@ -33,10 +33,10 @@ RC スマホと DS スマホはともに Airplane Mode を **ON**、Wi-Fi を **
 
 FTC 制御デバイスの組み合わせは次のとおりです。
 
-- DS スマホ + RC スマホ
-- DS スマホ + Control Hub
-- Driver Hub + RC スマホ
-- Driver Hub + Control Hub
+- **DS** スマホ + **RC** スマホ
+- **DS** スマホ + **Control Hub**
+- **Driver Hub** + **RC** スマホ
+- **Driver Hub** + **Control Hub**
 
 DS デバイス（スマホまたは Driver Hub）は自分自身の DS Self Inspect **と**、ペアになっている RC スマホまたは Control Hub の RC Self Inspect を表示できます。RC スマホは自分自身の RC Self Inspect のみ表示できます。
 
@@ -44,10 +44,10 @@ DS デバイス（スマホまたは Driver Hub）は自分自身の DS Self Ins
 
 **DRIVER STATION**
 
-- `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__（DS スマホ + RC スマホ）
-- `DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__（DS スマホ + Control Hub）
-- `DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__（Driver Hub + RC スマホ）
-- `DS Self Inspect 4 <#ds-self-inspect-4-on-driver-hub-paired-to-control-hub>`__（Driver Hub + Control Hub）
+- `DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__（**DS** スマホ + **RC** スマホ）
+- `DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__（**DS** スマホ + **Control Hub**）
+- `DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__（**Driver Hub** + **RC** スマホ）
+- `DS Self Inspect 4 <#ds-self-inspect-4-on-driver-hub-paired-to-control-hub>`__（**Driver Hub** + **Control Hub**）
 
 **ROBOT CONTROLLER**
 
@@ -149,7 +149,7 @@ DS Self Inspect 3（Driver Hub + RC スマホ）
 
 .. _ds-self-inspect-4-on-driver-hub-paired-to-control-hub:
 
-DS Self Inspect 4（Driver Hub + Control Hub）
+**DS Self Inspect 4**（**Driver Hub** + **Control Hub**）
 -------------------------------------------
 
 .. figure:: images/tDS-4b.png

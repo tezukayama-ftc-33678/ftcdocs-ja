@@ -62,24 +62,24 @@ AprilTag は、**位置と方向** を推定するために使用される、シ
    
 SDK はデフォルトで、**カメラに対する** AprilTag ポーズを記述します。この計算プロセスは **ポーズ推定** と呼ばれ、これは **カメラキャリブレーション** を含む多くの要因に基づく推定値のみであることを強調する用語です。目標を達成するために AprilTag の最適な使用法を決定する必要があります。
 
-   AprilTag Introduction <../apriltag_intro/apriltag-intro>
-   Vision Processor Initialization <../vision_processor_init/vision-processor-init>
-   VisionPortal Initialization <../visionportal_init/visionportal-init>
-   VisionPortal Previews <../visionportal_previews/visionportal-previews>
-   AprilTag ID Codes <../apriltag_id_code/apriltag-id-code>
-   AprilTag Metadata <../apriltag_metadata/apriltag-metadata>
-   AprilTag Reference Frame <../apriltag_reference_frame/apriltag-reference-frame>
-   AprilTag Camera Calibration <../apriltag_camera_calibration/apriltag-camera-calibration>
-   AprilTag Pose <../apriltag_pose/apriltag-pose>
-   AprilTag Library <../apriltag_library/apriltag-library>
-   VisionPortal の CPU と帯域幅 <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
-   VisionPortal Camera Controls <../visionportal_camera_controls/visionportal-camera-controls>
-   Vision Multiportal <../vision_multiportal/vision-multiportal>
-   AprilTag Advanced Use <../apriltag_advanced_use/apriltag-advanced-use>
+   **AprilTag** 入門 <../apriltag_intro/apriltag-intro>
+   ビジョンプロセッサの初期化 <../vision_processor_init/vision-processor-init>
+   **VisionPortal** の初期化 <../visionportal_init/visionportal-init>
+   **VisionPortal** プレビュー <../visionportal_previews/visionportal-previews>
+   **AprilTag ID** コード <../apriltag_id_code/apriltag-id-code>
+   **AprilTag** メタデータ <../apriltag_metadata/apriltag-metadata>
+   **AprilTag** 参照フレーム <../apriltag_reference_frame/apriltag-reference-frame>
+   **AprilTag** カメラキャリブレーション <../apriltag_camera_calibration/apriltag-camera-calibration>
+   **AprilTag** ポーズ <../apriltag_pose/apriltag-pose>
+   **AprilTag** ライブラリ <../apriltag_library/apriltag-library>
+   **VisionPortal** の CPU と帯域幅 <../visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
+   **VisionPortal** カメラコントロール <../visionportal_camera_controls/visionportal-camera-controls>
+   ビジョンマルチポータル <../vision_multiportal/vision-multiportal>
+   **AprilTag** 高度な使用法 <../apriltag_advanced_use/apriltag-advanced-use>
 
 ====
 
-Much credit to 
+謝辞 
 
 - EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__ 
 - FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__ 
