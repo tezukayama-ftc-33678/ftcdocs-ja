@@ -77,13 +77,21 @@ class POQualityChecker:
                     self._check_entry(current_line_num, current_msgid, current_msgstr, is_fuzzy)
                 
                 current_line_num = i
-                current_msgid = line[7:-1]
+                # Extract msgid (handle multi-line by taking first line only)
+                if line.strip().endswith('"'):
+                    current_msgid = line[7:-1]
+                else:
+                    current_msgid = line[7:]
                 current_msgstr = None
                 is_fuzzy = False
             
             # msgstr
             elif line.startswith('msgstr '):
-                current_msgstr = line[8:-1]
+                # Extract msgstr (handle multi-line by taking first line only)
+                if line.strip().endswith('"'):
+                    current_msgstr = line[8:-1]
+                else:
+                    current_msgstr = line[8:]
             
             # Empty line - end of entry
             elif not line.strip():

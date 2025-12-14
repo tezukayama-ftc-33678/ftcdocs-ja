@@ -283,41 +283,47 @@ grep -B2 'msgstr ""' locale/ja/LC_MESSAGES/index.po > untranslated.txt
 プロジェクトには、AI翻訳を支援するスクリプトが含まれています：
 
 ```bash
-# 基本的な使い方
-python po-translation/scripts/ai_translate_po.py \
-  docs/locale/ja/LC_MESSAGES/index.po
-
-# オプション付き
+# 未翻訳エントリを確認（ドライラン）
 python po-translation/scripts/ai_translate_po.py \
   docs/locale/ja/LC_MESSAGES/index.po \
-  --api deepl \
-  --api-key YOUR_API_KEY \
   --dry-run
 ```
 
-**機能:**
-- 未翻訳エントリの自動検出
-- API経由でのバッチ翻訳
-- Fuzzyエントリの再翻訳
-- ドライランモード（テスト実行）
+**⚠️ 重要な注意事項:**
 
-### 対応API
+このスクリプトは **フレームワーク** です。実際のAPI呼び出しを実装する必要があります。
 
-```bash
-# DeepL
---api deepl --api-key YOUR_DEEPL_KEY
+**現在の機能:**
+- ✅ 未翻訳エントリの自動検出
+- ✅ Fuzzyエントリの検出
+- ✅ ドライランモード
+- ⚠️ API呼び出しは **スタブ実装**（実装が必要）
 
-# OpenAI (GPT-4)
---api openai --api-key YOUR_OPENAI_KEY
+**使用方法:**
 
-# Claude
---api anthropic --api-key YOUR_ANTHROPIC_KEY
+1. **ドライランで未翻訳を確認:**
+   ```bash
+   python po-translation/scripts/ai_translate_po.py FILE.po --dry-run
+   ```
 
-# ローカルLLM (Ollama)
---api ollama --model llama2
-```
+2. **API実装後に使用:**
+   ```bash
+   # translate_with_api()関数を実装してから:
+   python po-translation/scripts/ai_translate_po.py FILE.po \
+     --api deepl --api-key YOUR_KEY
+   ```
 
-詳細は [../scripts/ai_translate_po.py](../scripts/ai_translate_po.py) を参照。
+3. **または、手動/外部ツールで翻訳:**
+   - ドライランで未翻訳エントリを確認
+   - AIツール（ChatGPT等）に直接コピー&ペースト
+   - 翻訳結果を.poファイルに貼り付け
+
+**API実装が必要な理由:**
+
+各APIは認証方法やエンドポイントが異なるため、ユーザーの環境に合わせた実装が必要です。
+スクリプトは構造を提供し、実装箇所を明示しています。
+
+詳細は `po-translation/scripts/ai_translate_po.py` のコメントを参照。
 
 ---
 

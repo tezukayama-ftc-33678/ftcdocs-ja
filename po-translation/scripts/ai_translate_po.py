@@ -105,12 +105,20 @@ class POFile:
                     current_comments = []
                     is_fuzzy = False
                 
-                current_msgid = line[7:-1]  # Remove 'msgid "' and '"'
+                # Extract msgid content (handles multi-line by taking first line only)
+                if line.strip().endswith('"'):
+                    current_msgid = line[7:-1]  # Remove 'msgid "' and '"'
+                else:
+                    current_msgid = line[7:]  # Multi-line start
                 current_msgstr = None
             
             # msgstr
             elif line.startswith('msgstr '):
-                current_msgstr = line[8:-1]  # Remove 'msgstr "' and '"'
+                # Extract msgstr content (handles multi-line by taking first line only)
+                if line.strip().endswith('"'):
+                    current_msgstr = line[8:-1]  # Remove 'msgstr "' and '"'
+                else:
+                    current_msgstr = line[8:]  # Multi-line start
             
             # Empty line
             elif not line.strip():
@@ -159,27 +167,40 @@ def translate_with_api(text: str, api: str, api_key: str, model: str = None) -> 
     """
     Translate text using the specified API
     
-    Note: This is a stub implementation. 
-    Users should implement actual API calls based on their needs.
+    NOTE: This is a STUB implementation for demonstration purposes.
+    Users MUST implement actual API calls for their chosen service.
+    
+    To implement:
+    1. Import the relevant API library (requests, openai, anthropic, etc.)
+    2. Make the API call with appropriate parameters
+    3. Return the translated text
+    
+    This function currently returns empty string to indicate
+    that translation is not yet implemented.
     """
-    print(f"[INFO] Translating with {api} API...")
-    print(f"[INFO] To use this feature, please implement the API call for {api}")
-    print(f"[INFO] Text to translate: {text[:100]}...")
+    print(f"[STUB] This is a stub implementation.")
+    print(f"[STUB] To use this feature, implement the API call for {api}")
+    print(f"[STUB] Text to translate: {text[:100]}...")
     
     # Placeholder - users should implement actual API calls
     if api == 'deepl':
         print("[TODO] Implement DeepL API call")
+        print("       Example: pip install deepl")
         print("       Visit: https://www.deepl.com/pro-api")
     elif api == 'openai':
         print("[TODO] Implement OpenAI API call")
+        print("       Example: pip install openai")
         print("       Visit: https://platform.openai.com/docs/api-reference")
     elif api == 'anthropic':
         print("[TODO] Implement Anthropic API call")
+        print("       Example: pip install anthropic")
         print("       Visit: https://docs.anthropic.com/")
     elif api == 'ollama':
         print("[TODO] Implement Ollama API call")
+        print("       Example: pip install ollama")
         print("       Visit: https://ollama.ai/")
     
+    print("[STUB] Returning empty string - no actual translation performed")
     return ""
 
 
@@ -189,17 +210,19 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Translate a single file (dry-run)
+  # Dry-run to see what would be translated
   python ai_translate_po.py docs/locale/ja/LC_MESSAGES/index.po --dry-run
   
-  # Translate with DeepL API
-  python ai_translate_po.py index.po --api deepl --api-key YOUR_KEY
-  
-  # Translate only fuzzy entries
-  python ai_translate_po.py index.po --fuzzy-only --api openai --api-key YOUR_KEY
+  # After implementing API calls, you can use:
+  # python ai_translate_po.py index.po --api deepl --api-key YOUR_KEY
+  # python ai_translate_po.py index.po --api openai --api-key YOUR_KEY
 
-Note: This script provides a framework for AI translation.
-      You need to implement the actual API calls based on your chosen service.
+IMPORTANT: This script provides a framework for AI translation.
+           The translate_with_api() function is a STUB - you MUST implement
+           actual API calls for your chosen service (DeepL, OpenAI, etc.).
+           
+           Until implemented, use --dry-run to identify untranslated entries,
+           then translate manually or with external tools.
         """
     )
     
