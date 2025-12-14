@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-14 09:10:39
+**生成日時:** 2025-12-14 09:16:10
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 143 (56.1%)
-- **部分的に翻訳:** 12 (4.7%)
+- **翻訳完了:** 145 (56.9%)
+- **部分的に翻訳:** 10 (3.9%)
 - **未翻訳:** 100 (39.2%)
 
-**進捗:** `████████████████████████████░░░░░░░░░░░░░░░░░░░░░░` 56.1%
+**進捗:** `████████████████████████████░░░░░░░░░░░░░░░░░░░░░░` 56.9%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **143個**
+完全に日本語化されているファイル: **145個**
 
 <details>
 <summary>通常の翻訳完了ファイルリストを表示</summary>
@@ -42,6 +42,7 @@
 - `control_hard_compon/rc_components/hub/ports/exh-ports.rst`
 - `control_hard_compon/rc_components/hub/ports/std-ports.rst`
 - `control_hard_compon/rc_components/index.rst`
+- `control_hard_compon/rc_components/motors/motors.rst`
 - `control_hard_compon/rc_components/sensors/sensors.rst`
 - `control_hard_compon/rc_components/servos/servos.rst`
 - `control_hard_compon/rc_components/uvc/uvc.rst`
@@ -69,6 +70,7 @@
 - `hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst`
 - `hardware_and_software_configuration/connecting_devices/index.rst`
 - `hardware_and_software_configuration/index.rst`
+- `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
 - `hardware_and_software_configuration/self_inspect/self-inspect.rst`
 - `index.rst`
 - `persona_pages/coach_admin/coach_admin.rst`
@@ -174,7 +176,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **12個**
+英語が残っているファイル: **10個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -284,31 +286,6 @@
 
 ... 他 7 件の問題
 
-### `overview/ftcoverview.rst`
-
-**問題箇所:** 5件
-
-- **行 11:** Untranslated English paragraph/sentence
-  ```
-  Build the FIRST Championship link so we can italicize FIRST.
-  ```
-- **行 31:** Untranslated English paragraph/sentence
-  ```
-  Build the Start a Team link so we can italicize FIRST.
-  ```
-- **行 33:** Untranslated English paragraph/sentence
-  ```
-  Continue on to learn about the |text2|_
-  ```
-- **行 38:** Untranslated English paragraph/sentence
-  ```
-  About *FIRST* Tech Challenge Kahoot
-  ```
-- **行 41:** Untranslated English paragraph/sentence
-  ```
-  This is a fun self-led *FIRST* Tech Challenge `Kahoot
-  ```
-
 ### `gracious_professionalism/gp.rst`
 
 **問題箇所:** 4件
@@ -330,6 +307,27 @@
   makes* **FIRST** *different and wonderful.*
   ```
 
+### `overview/ftcoverview.rst`
+
+**問題箇所:** 4件
+
+- **行 11:** Untranslated English paragraph/sentence
+  ```
+  Build the FIRST Championship link so we can italicize FIRST.
+  ```
+- **行 31:** Untranslated English paragraph/sentence
+  ```
+  Build the Start a Team link so we can italicize FIRST.
+  ```
+- **行 38:** Untranslated English paragraph/sentence
+  ```
+  About *FIRST* Tech Challenge Kahoot
+  ```
+- **行 41:** Untranslated English paragraph/sentence
+  ```
+  This is a fun self-led *FIRST* Tech Challenge `Kahoot
+  ```
+
 ### `programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst`
 
 **問題箇所:** 2件
@@ -343,31 +341,13 @@
   In the figure above the project folder called “FtcRobotController”
   ```
 
-### `control_hard_compon/rc_components/motors/motors.rst`
-
-**問題箇所:** 1件
-
-- **行 56:** Untranslated English paragraph/sentence
-  ```
-  Modern Robotics/MATRIX 12V DC Motors
-  ```
-
-### `hardware_and_software_configuration/self_inspect/new-self-inspect.rst`
-
-**問題箇所:** 1件
-
-- **行 2:** Untranslated English paragraph/sentence
-  ```
-  ***FIRST* Tech Challenge Self Inspect**
-  ```
-
 ### `ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst`
 
 **問題箇所:** 1件
 
 - **行 8:** Untranslated English paragraph/sentence
   ```
-  1. REV Hardware Client（RHC）
+  1. **REV Hardware Client** （RHC）
   ```
 
 ### `ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst`
@@ -376,7 +356,7 @@
 
 - **行 8:** Untranslated English paragraph/sentence
   ```
-  1. REV Hardware Client（RHC）
+  1. **REV Hardware Client** （RHC）
   ```
 
 ### `ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst`
@@ -385,7 +365,7 @@
 
 - **行 8:** Untranslated English paragraph/sentence
   ```
-  1. REV Hardware Client（RHC）
+  1. **REV Hardware Client** （RHC）
   ```
 
 ---

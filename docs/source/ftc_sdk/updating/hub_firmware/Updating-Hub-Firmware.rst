@@ -5,13 +5,13 @@ Hubファームウェアの更新
 
 以下の5つの方法があります：
 
-1. REV Hardware Client（RHC）
-2. Driver Stationアプリ
-3. Robot Controller（RC）アプリ - RCスマートフォン上
+1. **REV Hardware Client** （RHC）
+2. **Driver Station** アプリ
+3. **Robot Controller (RC)** アプリ - RC スマートフォン上
 4. コンピューター上の管理ページ
-5. Driver Stationデバイス（DSスマートフォンまたはDriver Hub）上の管理ページ
+5. **Driver Station** デバイス（DS スマートフォンまたは **Driver Hub** ）上の管理ページ
 
-.. dropdown:: 方法1 - REV Hardware Client（RHC） - Windowsコンピューターのみ
+.. dropdown:: 方法1 - **REV Hardware Client** （RHC） - Windows コンピューターのみ
 
    1. REV Control Hubの場合は、12Vロボット電源を供給します。REV Expansion Hubの場合は、
       12V電源はオプションです。

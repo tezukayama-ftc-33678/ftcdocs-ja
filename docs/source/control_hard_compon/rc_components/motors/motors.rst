@@ -53,7 +53,7 @@
             
 ++++++++++++
 
-      Modern Robotics/MATRIX 12V DC Motors
+      **Modern Robotics/MATRIX 12V DC Motors**
 
    .. grid-item-card::       
       :class-header: sd-bg-dark font-weight-bold sd-text-white

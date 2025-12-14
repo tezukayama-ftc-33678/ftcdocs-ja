@@ -3,15 +3,15 @@ Control Hub OSの更新
 
 オペレーティングシステム（OS）は、タスクのスケジューリング、アプリケーションの実行、周辺機器の制御など、コンピューターの基本機能をサポートするソフトウェアです。**REV Control Hub** では、これを更新する必要がある場合があります。このOS更新は厳密には :doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` の一部ではありませんが、SDKが正しく動作するためには、Control HubでこれらのOS更新が必要です。
 
-Control Hub OSを更新する方法は2つあります：
+**Control Hub** OS を更新する方法は2つあります：
 
-1. REV Hardware Client（RHC）
+1. **REV Hardware Client** （RHC）
 2. コンピューター上の管理ページ
 
-Control Hub OSの更新に関する詳細情報は、
-`REV Roboticsの優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__ にあります。
+**Control Hub** OS の更新に関する詳細情報は、
+`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__ にあります。
 
-.. dropdown:: 方法1 - REV Hardware Client（RHC） - Windowsコンピューターのみ
+.. dropdown:: 方法1 - **REV Hardware Client** （RHC） - Windows コンピューターのみ
 
    1. REV Control Hubに12Vロボット電源を供給します。
 
