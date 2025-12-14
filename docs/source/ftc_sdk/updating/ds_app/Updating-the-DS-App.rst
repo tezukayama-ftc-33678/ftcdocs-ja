@@ -1,204 +1,289 @@
-Driver Stationアプリの更新
+Updating the Driver Station App
 ===============================
 
-**Driver Station App** は、**FIRST Tech Challenge**:doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` で提供されるアプリの1つです。**Driver Station** アプリは、ロボット構成、ゲームパッドのサポート、セルフインスペクト、チームコードの選択と実行などの主要なインターフェースです。このアプリは**REV Driver Hub** または承認されたAndroidスマートフォンで実行されます。
+The Driver Station App is one of the Apps provided with the *FIRST* Tech
+Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`.  The Driver
+Station App is the major interface for robot configuration, gamepad support, 
+self-inspect, Team code selection and execution, and others. This app runs
+on the REV Driver Hub or an approved Android smartphone.
 
-このページでは、以下のデバイスで**Driver Station** （**DS** ）アプリを更新する方法を示します：
+This page shows how to update the Driver Station (DS) app on these
+devices:
 
--  **REV Driver Hub**
--  承認されたAndroid DSスマートフォン
+-  REV Driver Hub
+-  An approved Android DS phone
 
-**Driver Station** アプリを更新するこれらの方法は、ロボットチームコードのプログラミングに使用されるプログラミング言語/環境に関係なく同じです。
+These methods for updating the Driver Station App are the same regardless
+of the programming language/environment used to program robot Team Code.
 
-.. dropdown:: REV Driver Hub上のDriver Station（DS）アプリの更新
+.. dropdown:: Updating Driver Station (DS) app on REV Driver Hub
 
-   **REV Driver Hub** 上のDSアプリを更新する3つの方法があります：
+   Here are 3 methods to update the DS app on a REV Driver Hub: 
 
-   #. REV Hardware Client（RHC）
-   #. APKを使用した「サイドローディング」
-   #. REV Driver Hub上のソフトウェアマネージャー
+   #. REV Hardware Client (RHC) 
+   #. "Side loading” with APK 
+   #. Software Manager on REV Driver Hub
 
-   .. dropdown:: 方法1 - REV Hardware Client（RHC） - Windowsコンピューターのみ
+   .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
 
-      **REV Driver Hub** をRHCがインストールされて開いているWindowsコンピューターにUSB-Cデータケーブルを使用して直接接続します。左上の「Hardware」タブがアクティブであることを確認してください。**Driver Hub** 上のDSアプリを開く必要は** ありません** 。
+      Plug the REV Driver Hub directly into the Windows computer with RHC
+      installed and open. Use a USB-C data cable. Make sure the “Hardware” tab
+      is active, at top left. The DS app on the Driver Hub does **not** need
+      to be open.
 
-      ここでは、コンピューターをインターネットに接続する必要はありません。
-      :doc:`REV Hardware Clientの更新 
+      Here the computer does not need to be connected to the internet, since
+      :doc:`in Updating the REV Hardware Client 
       </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
-      で必要なDS更新ファイルが事前にダウンロードされているためです。
+      the required DS update file was previously downloaded.
 
-      RHCアプリは、ここに示すように**Driver Hub** を認識します：
+      The RHC app will recognize the Driver Hub, as shown here:
 
       .. figure:: images/070-RHC-recognize-DH.png
-         :alt: Driver Hubの認識
+         :alt: Recognizing the Driver Hub
          :width: 80%
          :align: center
 
-         Driver Hubの認識
+         Recognizing the Driver Hub
 
-      認識されたら、**Driver Hub** の大きなアイコン/矩形をクリックします。RHCアプリは、DSアプリの更新ステータスを表示します（ある場合）。
+      Once recognized, click on the Driver Hub’s large icon/rectangle. The RHC app now displays
+      the update status of the DS app, if any.
 
       .. figure:: images/075-RHC-update-DH.png
-         :alt: Driver Hubの更新
+         :alt: Updating the Driver Hub
          :width: 80%
          :align: center
 
-         Driver Hubの更新
+         Updating the Driver Hub
 
-      青色のUpdate矩形（緑色の矢印）をクリックするだけです – 完了です！
+      Simply click the blue Update rectangle (green arrow) – done!
 
-      RHCにDSアプリを既にダウンロードしていたため、更新は高速でした。これは、青色のUpdate矩形の左側に「(Already Downloaded)」と表示されていました。
+      The update was fast, because you had already downloaded the DS app to
+      the RHC. That was noted with ’(Already Downloaded)“, to the left of the
+      blue Update rectangle.
 
-      青色のUpdate矩形のすぐ上のドロップダウンリストで、DSアプリの **古い** バージョンを選択することもできました。
+      You could have selected an **older** version of the DS app, in the
+      drop-down list just above the blue Update rectangle.
 
-      インストール後、必要に応じて、アプリメニューからDSアプリアイコンを**Driver Hub** のホーム画面にドラッグします。
+      After install, drag the DS app icon from the app menu to the Driver
+      Hub’s home screen, if needed.
 
-      これで、**Driver Hub** をコンピューターから取り外し、RHCアプリを閉じることができます。更新されたDSアプリは使用準備が整いました。
+      You may now unplug the Driver Hub from the computer, and close the RHC
+      app. The updated DS app is ready to use.
 
-   .. dropdown:: 方法2 - サイドロードAPK
+   .. dropdown:: Method 2 - Side-load APK
 
-      ここでは、Android Package または **APKファイル** を直接操作して、**Driver Hub** にDSアプリをインストールします。PCまたはMac、新旧を問わず、どのコンピューターでも使用できます。この方法は「サイドローディング」と呼ばれることがあります。
+      Here you will work directly with the Android Package or **APK file** to
+      install the DS app on the Driver Hub. Any computer can be used, PC or
+      Mac, old or new. This method is sometimes called “side-loading”.
 
-      1. コンピューターをインターネットに接続し、Webブラウザーを開いて、`SDK GitHubリポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に移動します。
+      1. Connect your computer to the internet, open a web browser, and
+         navigate to the `SDK github
+         repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
          .. figure:: images/050-FTC-repo.png
-            :alt: SDK GitHubリポジトリ
+            :alt: SDK GitHub Repo
             :width: 80%
             :align: center
 
-            SDK GitHubリポジトリ
+            SDK GitHub Repo
 
-         右側の「Releases」の下にある「Latest」アイコン（上の黄色の楕円）をクリックします。
+         At the right side under “Releases”, click the “Latest” icon (yellow
+         oval, above).
 
-         次のページで、「Latest」セクションで少し下にスクロールして、「Assets」の短いリストを表示します。ファイル「FtcDriverStation-release.apk」をクリックして、コンピューターにダウンロードします。
+         In the next page, scroll down slightly in the “Latest” section, to the
+         short list of “Assets”. Click on the file
+         “FtcDriverStation-release.apk”, to download it to your computer.
 
          .. figure:: images/060-github-assets-DS.png
-            :alt: SDK GitHubリリース
+            :alt: SDK GitHub Releases
             :width: 80%
             :align: center
 
-            SDK GitHubリリース
+            SDK GitHub Releases
 
-      2. **Driver Hub** をUSB-Cデータケーブルでコンピューターに接続します。
+         At this time, you could rename the file to reflect its current version
+         number. For example, ``FtcDriverStation-release-8.0.apk`` or simply
+         ``DS-8.0-release.apk``. This distinguishes the file from other versions
+         that might be stored later on that Driver Hub.
 
-      3. ブラウザーのファイル転送ウィンドウを使用するか、コンピューターのファイルマネージャーを使用して、ダウンロードしたAPKファイルを**Driver Hub** の**Downloads** フォルダーに転送します。
+      2. Transfer the APK file from the computer to the Driver Hub’s Downloads
+         folder. Use a USB-C data cable. When complete, you may unplug the
+         Driver Hub from the computer.
 
-      4. **Driver Hub** で、ファイルマネージャーアプリを開き、**Downloads** フォルダーに移動します。
+      3. Uninstall the existing (obsolete) DS app, by dragging its icon to the
+         Trash/Uninstall icon. Or, touch and hold the DS icon for “App info”,
+         then choose Uninstall.
 
-      5. APKファイルをタッチしてインストールプロセスを開始します。プロンプトに従ってインストールを完了します。
+      4. On the Driver Hub, navigate to the Downloads folder. This can be done
+         in several ways:
 
-         .. note::
-            初めてサイドローディングする場合、不明なソースからのアプリのインストールを許可する必要がある場合があります。
+         -  at the main app menu (swipe up), touch the Files icon, then three
+            bars at top left
 
-      6. インストール後、アプリメニューからDSアプリアイコンを**Driver Hub** のホーム画面にドラッグします。
+         -  use the basic file manager in Settings/Storage, then touch Files
 
-      完了です！更新されたDSアプリは使用準備が整いました。
+         -  use a third-party app such as FX File Explorer (from the Google Play
+            Store)
 
-   .. dropdown:: 方法3 - ソフトウェアマネージャー
+         Touch the APK filename that you transferred. Respond to the prompts, to
+         install the updated DS app.
 
-      **REV Driver Hub** には、ソフトウェアマネージャーと呼ばれる組み込みアプリがあり、DSアプリ（およびその他の関連ソフトウェア）を自動的に更新できます。インターネット接続のみが必要です。
+         After install, drag the DS app icon from the menu to the Driver Hub’s
+         home screen, if needed.
 
-      1. すべてのアプリを閉じ、**Driver Hub** のWi-Fiメニューを開きます（設定内、またはホーム画面の上部から2回スワイプダウン）。**Driver Hub** を一時的にWi-Fi経由でインターネットに接続します。
+      Done! The updated DS app is now ready to use.
 
-      2. **Driver Hub** のホーム画面でソフトウェアマネージャーアプリを開きます（下の左側の画像）。
+   .. dropdown:: Method 3 - Software Manager
+
+      The REV Driver Hub has a built-in app called the Software Manager, which
+      can automatically update the DS app (and other related software). It
+      requires only an internet connection.
+
+      5. Close all apps, and open the Driver Hub’s Wi-Fi menu (in Settings, or
+         swipe down twice from top of home screen). Temporarily connect the
+         Driver Hub to the internet via Wi-Fi.
+
+      6. Open the Software Manager app at the Driver Hub home screen (left
+         image, below).
 
          .. figure:: images/910-DH-double.png
-            :alt: ソフトウェアマネージャーの更新
+            :alt: REV Software Manager
             :width: 80%
             :align: center
 
-            ソフトウェアマネージャーの更新
+            REV Software Manager
 
-      3. ソフトウェアマネージャーは、必要な更新を自動的にチェックし、結果を表示します（上の右側の画像）。グレーのボタンをタッチして、必要に応じてDSアプリを含む更新を実行します。
+      7. The Software Manager will automatically check for any updates needed,
+         and display the results (right image, above). Click the grey box to
+         update the Driver Station (DS) app, if needed.
 
-      4. すべてが完了したら、インターネットアクセスに使用したWi-Fiネットワークを「削除」します。これで、**Driver Hub** は通常の競技での使用準備が整いました。
+      8. When all is complete, “Forget” the Wi-Fi network used for internet
+         access. 
 
-.. dropdown:: Androidスマートフォン上のDriver Station（DS）アプリの更新
+      Done! Now the Driver Hub is updated and ready for use. 
 
-   AndroidスマートフォンでDSアプリを更新する2つの方法があります：
+.. dropdown:: Updating Driver Station (DS) app on Android smartphone
 
-   1. REV Hardware Client（RHC）
-   2. APKを使用した「サイドローディング」
+   There are 2 methods to update the DS app on a DS phone:
 
-   .. dropdown:: 方法1 - REV Hardware Client（RHC） - Windowsコンピューターのみ
+   1. REV Hardware Client (RHC)
+   2. “Side loading” with APK
 
-      DSスマートフォンをRHCがインストールされて開いているコンピューターにUSBデータケーブルを使用して直接接続します。充電専用ケーブルではなく、USBデータケーブルを使用してください。左上の「Hardware」タブがアクティブであることを確認してください。スマートフォン上のDSアプリを開く必要は **ありません** 。
+   .. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
 
-      ここでは、コンピューターをインターネットに接続する必要はありません。
-      :doc:`REV Hardware Clientの更新 
+      Plug the DS phone directly into the computer with RHC installed and
+      open. Use a USB data cable, not a charge-only cable. Make sure the
+      “Hardware” tab is active, at top left. The DS app on the phone does
+      **not** need to be open.
+
+      Here the computer does not need to be connected to the internet, since
+      :doc:`in Updating the REV Hardware Client 
       </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
-      で必要なDS更新ファイルが事前にダウンロードされているためです。
+      the required DS update file was previously downloaded.
 
-      RHCアプリは、ここに示すようにスマートフォンを認識します：
+      The RHC app will recognize the phone, as shown here:
 
       .. figure:: images/030-RHC-recognize-phone.png
-         :alt: スマートフォンの認識
+         :alt: Recognizing the Phone
          :width: 80%
          :align: center
 
-         スマートフォンの認識
+         Recognizing the Phone
 
-      スマートフォンが認識されない場合は、スマートフォンで :doc:`開発者オプション
+      If the phone is not recognized, ensure that the phone has :doc:`developer
+      options
       </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`
-      が有効になっていることを確認してください。必要に応じて、REV Hardware Clientアプリの左下にある「Scan for Devices」ボタンをクリックして、RHCにデバイスを再スキャンさせます。
+      enabled. If necessary, click the "Scan for Devices" button in the
+      lower-left of the REV Hardware Client app to force the RHC to rescan
+      devices.
 
-      認識されたら、そのスマートフォンの大きなアイコン/矩形をクリックします。RHCアプリは更新ステータスを表示します。
+      Once recognized, click on that phone’s large icon/rectangle. The RHC app
+      now displays the update status of the DS app, if any.
 
       .. figure:: images/040-RHC-update-DS-phone.png
-         :alt: スマートフォンの更新ステータス
+         :alt: Update Status of Phone
          :width: 80%
          :align: center
 
-         スマートフォンの更新ステータス
+         Update Status of Smartphone
 
-      青色のUpdate矩形（緑色の矢印）をクリックするだけです – 完了です！
+      Simply click the blue Update rectangle (green arrow) – done!
 
-      RHCにDSアプリを既にダウンロードしていたため、更新は高速でした。これは、青色のUpdate矩形の左側に「(Already Downloaded)」と表示されていました。
+      The update was fast, because you had already downloaded the DS app to
+      the RHC. That was noted with ’(Already Downloaded)“, to the left of the
+      blue Update rectangle.
 
-      青色のUpdate矩形のすぐ上のドロップダウンリストで、DSアプリの **古い** バージョンを選択することもできました。
+      You could have selected an **older** version of the DS app, in the
+      drop-down list just above the blue Update rectangle.
 
-      インストール後、アプリメニューからDSアプリアイコンをスマートフォンのホーム画面にドラッグします。
+      After install, drag the DS app icon from the app menu to the phone’s
+      home screen.
 
-      これで、スマートフォンをコンピューターから取り外し、RHCアプリを閉じることができます。更新されたDSアプリは使用準備が整いました。
+      You may now unplug the DS phone from the computer, and close the RHC
+      app. The updated DS app is ready to use.
 
-   .. dropdown:: 方法2 - サイドロードAPK
+   .. dropdown:: Method 2 - Side-load APK
 
-      ここでは、Android Package または **APKファイル** を直接操作して、スマートフォンにDSアプリをインストールします。PCまたはMac、新旧を問わず、どのコンピューターでも使用できます。この方法は「サイドローディング」と呼ばれることがあります。
+      Here you will work directly with the Android Package or **APK file** to
+      install the DS app on the Android phone. Any computer can be used, PC or
+      Mac, old or new. This method is sometimes called “side-loading”.
 
-      1. コンピューターをインターネットに接続し、Webブラウザーを開いて、`SDK GitHubリポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に移動します。
+      1. Connect your computer to the internet, open a web browser, and
+         navigate to the `SDK github
+         repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
          .. figure:: images/050-FTC-repo.png
-            :alt: SDK GitHubリポジトリ
+            :alt: SDK GitHub Repo
             :width: 80%
             :align: center
 
-            SDK GitHubリポジトリ
+            SDK GitHub Repo
 
-         右側の「Releases」の下にある「Latest」アイコン（上の黄色の楕円）をクリックします。
+         At the right side under “Releases”, click the “Latest” icon (yellow
+         oval, above).
 
-         次のページで、「Latest」セクションで少し下にスクロールして、「Assets」の短いリストを表示します。ファイル「FtcDriverStation-release.apk」をクリックして、コンピューターにダウンロードします。
+         In the next page, scroll down slightly in the “Latest” section, to the
+         short list of “Assets”. Click on the file
+         “FtcDriverStation-release.apk”, to download it to your computer.
 
          .. figure:: images/060-github-assets-DS.png
-            :alt: SDK GitHubリリース
+            :alt: SDK GitHub Releases
             :width: 80%
             :align: center
 
-            SDK GitHubリリース
+            SDK GitHub Releases
 
-      2. スマートフォンをUSBデータケーブルでコンピューターに接続します。充電専用ケーブルではなく、データケーブルを使用してください。
+         At this time, you could rename the file to reflect its current version
+         number. For example, ``FtcDriverStation-release-8.0.apk`` or simply
+         ``DS-8.0-release.apk``. This distinguishes the file from other versions
+         that might be stored later on that DS phone.
 
-      3. ブラウザーのファイル転送ウィンドウを使用するか、コンピューターのファイルマネージャーを使用して、ダウンロードしたAPKファイルをスマートフォンの **Downloads** フォルダーに転送します。
+      2. Transfer the APK file from the computer to the DS phone’s Downloads
+         (or Download) folder. Use a USB data cable (not a charge-only cable).
+         When complete, you may unplug the DS phone from the computer.
 
-      4. スマートフォンで、ファイルマネージャーアプリを開き、**Downloads** フォルダーに移動します。
+      3. Uninstall the existing (obsolete) DS app, by dragging its icon to a
+         Trash/Uninstall icon. Or, touch and hold the DS icon for “App info”,
+         then choose Uninstall.
 
-      5. APKファイルをタッチしてインストールプロセスを開始します。プロンプトに従ってインストールを完了します。
+      4. On the DS phone, navigate to the Downloads folder. This can be done
+         in several ways:
 
-         .. note::
-            初めてサイドローディングする場合、不明なソースからのアプリのインストールを許可する必要がある場合があります。
+         -  at the main app menu (swipe up), touch the Files icon or the
+            Downloads icon (if present)
 
-      6. インストール後、アプリメニューからDSアプリアイコンをスマートフォンのホーム画面にドラッグします。
+         -  use the basic file manager in Settings/Storage, then Explore or Files
 
-      完了です！更新されたDSアプリは使用準備が整いました。
+         -  use a third-party app such as FX File Explorer (from the Google Play
+            Store)
 
-質問、コメント、修正は westsiderobotics@verizon.net まで
+         Touch the APK filename that you transferred. Respond to the prompts, to
+         install the updated DS app.
+
+         After install, drag the DS app icon from the menu to the phone’s home
+         screen.
+
+      Done! The updated DS app is now ready to use.
+
+Questions, comments and corrections to westsiderobotics@verizon.net
 

@@ -175,7 +175,7 @@ for AprilTag
 A digital camera opens its shutter to allow light (“the image”) to reach
 the detector’s array of small sensors (pixels). (Webcam shutters are
 typically electronic, not mechanical.) Most webcams use a **“rolling
-shutter”**, where the the image data is read**one pixel row at a
+shutter”**, where the the image data is read **one pixel row at a
 time**.
 
 Another type of webcam, called **“global shutter”**, reads all pixels at

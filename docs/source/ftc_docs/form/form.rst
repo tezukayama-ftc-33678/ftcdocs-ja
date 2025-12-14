@@ -8,7 +8,7 @@ your feedback into the documentation.
 .. note::
    If you're not able to see the form below, check your browser 
    extensions for messages regarding blocked content. Some extensions 
-   such as `Privacy Badger <https://privacybadger.org/>`__ may require 
+   such as `Privacy Badger <https://privacybadger.org/>`_ may require 
    site exceptions for "Microsoft Forms" in order to correctly load 
    the feedback form content.
 
@@ -18,4 +18,4 @@ your feedback into the documentation.
 
 .. only:: latex
 
-    `Feedback Form <https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhAgmZzMhzQVAmDwiemnaV_BURUdFOTk2NEwxSUJHM0FYUTlIR0JVMzkzUi4u>`__
+    `Feedback Form <https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhAgmZzMhzQVAmDwiemnaV_BURUdFOTk2NEwxSUJHM0FYUTlIR0JVMzkzUi4u>`_

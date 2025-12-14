@@ -1,22 +1,23 @@
-Blocks プログラミングチュートリアル
-===================================
+Blocks Programming Tutorial
+===========================
 
 .. Putting headers in html hides them from the table of contents.
 
 .. raw:: html
 
-   <h3>はじめに</h3>
+   <h3>Introduction</h3>
 
-このチュートリアルでは、制御システムの構成、プログラミング、操作のプロセスを
-ステップバイステップで説明します。このチュートリアルでは、**Blocks Programming Tool** を
-使用して、素早く開始できるようにします。
+This tutorial will take you step-by-step through the process of
+configuring, programming, and operating your Control System. This
+tutorial uses the *Blocks Programming Tool* to help you get started
+quickly.
 
-**Blocks Programming Tool** は、プログラマーがウェブブラウザを使用して
-**op modes** を作成、編集、保存できるビジュアルデザインツールです。
+The Blocks Programming Tool is a visual design tool that lets
+programmers use a web browser to create, edit and save their *op modes*.
 
-**FIRST** では、経験豊富なプログラマーであっても、まず**Blocks** から
-始めることを推奨しています。**Blocks** を使用することが、制御システムに
-慣れるための*最も簡単*で*最も速い*方法です！
+*FIRST* recommends getting starting with Blocks, even if you are an
+experienced programmer. Using Blocks is the *easiest* and *fastest* way
+to get acquainted with the Control System!
 
 .. image:: images/BlocksPicture1.jpg
    :align: center
@@ -24,7 +25,7 @@ Blocks プログラミングチュートリアル
 |
 
 .. note::
-   :bdg-warning:`Blocks` は、コンテンツが Blocks プログラミングに特化していることを示します
+   :bdg-warning:`Blocks` indicates that the content is specific to Blocks Programming
    
 
 .. toctree::

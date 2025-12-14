@@ -1,5 +1,5 @@
-カスタムブロック（**myBlocks** ）
-=================================
+Custom Blocks (myBlocks)
+=============================
 
 .. toctree::
    :maxdepth: 1
@@ -18,8 +18,9 @@
    ideas/ideas
    summary/summary
 
-この重要な開発を行った Google エンジニアの `Liz Looney <https://github.com/lizlooney>`__ さんに敬意を表します！
+Hats off to Google engineer `Liz
+Looney <https://github.com/lizlooney>`__ for this major development!
 
 ====================================================================
 
-質問、コメント、修正は westsiderobotics@verizon.net までお願いします。
+Questions, comments and corrections to westsiderobotics@verizon.net

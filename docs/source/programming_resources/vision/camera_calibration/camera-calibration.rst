@@ -1,38 +1,62 @@
-**FIRST** **Tech Challenge** のカメラ較正
+Camera Calibration for *FIRST* Tech Challenge
 =============================================
 
-カメラ較正とは何か、なぜ必要なのか？
+What is a camera calibration and why is it needed?
 --------------------------------------------------
 
-カメラは、カメラが最終的に「見る」実際の画像に変動をもたらす可能性のある多くの異なるコンポーネントで構成されています。カメラ較正は、カメラとレンズの組み合わせが最終的に世界をどのように見るかを数学的にモデル化するプロセスです。たとえば、視野がどれだけ広いかなどです。カメラを使用して高精度タスクを実行する場合、たとえばカメラを使用して精密測定を実行したり、**AprilTags** などの基準マーカーシステムから正確な 6DOF ポーズデータを取得したりする場合は、カメラを較正する必要があります。較正は、カメラとレンズに固有であるだけでなく、特定のカメラで使用される解像度にも固有であることに注意することが重要です！
+Cameras are composed of many different components that can introduce variability
+in the actual image that a camera ultimately "sees". Camera calibration is a
+process that mathematically models how a camera & lens combination ultimately 
+sees the world, for example how wide the field of view is. Calibrating your camera
+is a must if you desire to use it for high-precision tasks, such as performing
+precision measurements using the camera or obtaining accurate 6DOF pose data from 
+fiducial marker systems like AprilTags. It's important to note that calibrations 
+are not only specific to the camera and lens, but also specific to the resolution 
+used on a particular camera as well!
 
 .. warning:: 
-   屈折率の違いにより、空気中と液体中（たとえば水中）で実行された較正は転送できません。較正は、カメラが動作する媒体内で実行する必要があります。
+   Due to the differences in refractive index, calibrations performed in air and 
+   in liquids (for example, in water) are not transferrable. Calibrations must be 
+   performed within the medium that the camera will be operating in. 
 
-カメラ較正方法
+Camera Calibration Methods
 --------------------------
 
-**OpenCV**、**MATLAB**、**MRCAL** など、カメラを較正する方法は多数あります。
+There are many methods to calibrate cameras, including OpenCV, MATLAB, MRCAL
+etc. 
 
--  上級チームの場合、`MRCAL <https://mrcal.secretsauce.net/>`__ を使用するのが最良の選択肢です - これは NASA JPL によって開発されたツールで、較正がどれだけ優れているか、および最適なパラメーターに到達するための数値最適化に何が含まれるかに関する広範なデータを提供します。
--  その他の私たちのために、ここでは `3DF Zephyr <https://www.3dflow.net/3df-zephyr-free/>`__ を使用してカメラを較正する方法を説明します。これは非常に使いやすく、妥当な結果を提供できます。
+-  For advanced teams, using `MRCAL <https://mrcal.secretsauce.net/>`__ is
+   likely the best option - it is a tool developed by NASA JPL that provides
+   extensive data on how good your calibration is and what goes into the numerical
+   optimization to arrive at the optimal parameters. 
+-  For the rest of us, here we explain how to calibrate your camera using `3DF Zephyr
+   <https://www.3dflow.net/3df-zephyr-free/>`__, which is
+   extremely easy to use and can provide reasonable results.
 
 .. warning::
-   **3DF Zephyr** は Microsoft Windows 64ビットアプリケーションです。32ビットバージョンの Windows ではサポートされておらず、Mac または Linux プラットフォームでもサポートされていません。
+   3DF Zephyr is a Microsoft Windows 64-bit application. It is not supported on 
+   32-bit versions of Windows, nor is it supported on Mac or on Linux platforms.
 
 
-**3DF Zephyr** を使用した較正
------------------------------
+Calibrating with 3DF Zephyr
+---------------------------
 
-1. `3DF Zephyr Free Edition <https://www.3dflow.net/3df-zephyr-free/>`__ をダウンロードしてインストールします。
-2. サンプル ``UtilityCameraFrameCapture`` **OpMode** を teamcode フォルダーにコピーし、ニーズに応じて上部のパラメーターを変更します。このサンプルは Java でのみ記述されていることに注意することが重要です。
-3. **3DF Zephyr** で、次の場所に移動します：
+1. Download and install `3DF Zephyr Free Edition <https://www.3dflow.net/3df-zephyr-free/>`__.
+2. Copy the sample ``UtilityCameraFrameCapture`` OpMode to your teamcode folder,
+   and modify the parameters at the top according to your needs. It's important
+   to note that this Sample is only written in Java.
+3. In 3DF Zephyr, go to:
 
-   - **Utilities --> Images --> Camera Calibration** 
+   - Utilities --> Images --> Camera Calibration 
 
-   そして指示に従います。フレームキャプチャ **OpMode** を使用して写真を撮ります。
-4. **Robot Controller** デバイスを USB ケーブルでコンピューターに接続し、キャプチャされたフレームをコンピューターにコピーします。それらは USB ストレージのルートにあり、名前の前に ``VisionPortal-`` が付いています。
-5. **3DF Zephyr** で *Add Images* ボタンを押し、コンピューターにコピーした画像を指定します。
-6. **3DF Zephyr** で較正ターゲット分析を実行します。完了すると、``fx, fy, cx, cy`` が提供されます。これらは、**AprilTagProcessor** に適用するために必要な較正パラメーターです。
+   and follow the instructions. Use the frame capture OpMode to take the pictures.
+4. Connect your Robot Controller device to your computer with a USB cable and
+   copy the captured frames to your computer. They will be located in the root
+   of the USB storage, with names prefixed by ``VisionPortal-``.
+5. Press the *Add Images* button in 3DF Zephyr and point it to the images you
+   just copied to your computer.
+6. Run the calibration target analysis in 3DF Zephyr; when it is complete, it
+   will provide you with ``fx, fy, cx, cy`` which are the needed calibration
+   parameters to be applied to your ``AprilTagProcessor``.
 
 

@@ -1,36 +1,57 @@
-例：**myBlock** ではないメソッド
-================================
+Example: non-myBlock methods
+============================
 
-Java クラスには、**myBlocks** ではないメソッドも含めることができます。複数の**myBlocks** が共有の内部プロセスまたは計算を実行する場合は、これを検討してください。これは**myBlocks** に特有ではなく、一般的に優れたプログラミング手法です。
+Your Java class may also contain methods that are not myBlocks. Consider
+this if you have multiple myBlocks that perform a shared internal
+process or calculation. This is a good programming practice in general,
+not specifically related to myBlocks.
 
-これを説明するために、上記のドライブの例を考えてみましょう。**2つ** の異なるロボットをサポートする**myBlocks** を作成したいと想像してください。
-- ロボット A には **AndyMark** **NeveRest 40** モーター付きの**4インチ** ドライブホイールがあります。
-- ロボット B には **NeveRest** **Orbital 20** モーター付きの**3インチ** ドライブホイールがあります。
-- **Blocks** プログラミングチームメイトにとって、**myBlocks** が** 非常にシンプル** であることを望みます。
+To illustrate, consider the Driving Example above. Imagine you want to
+create myBlocks to support **two** different robots. - Robot A has
+**4-inch** drive wheels with AndyMark **NeveRest 40** motors. - Robot B
+has **3-inch** drive wheels with NeveRest **Orbital 20** motors. - You
+want the myBlocks to be **very simple** for your Blocks programming
+teammates.
 
-解決策：
-- ロボットごとに1つの **MyBlock** 。
-- 各 **Blocks** ユーザーは、インチ単位で走行距離のみを指定する必要があります。
-- 各 **myBlock** は、適切なホイールサイズとモーターエンコーダー CPR を使用します。
-- **myBlocks** は、距離をエンコーダーカウントに変換する「ユーティリティ」メソッドを共有します。
+Your solution: - One MyBlock per robot. - Each Blocks user needs to
+specify only the distance to drive, in inches. - Each myBlock uses the
+appropriate wheel size and motor encoder CPR. - The myBlocks share a
+‘utility’ method to convert distance to encoder counts.
 
 .. image:: images/a0500-non-myBlock-method-Java.png
 
-34行目は、**myBlock** で** ない** 共有メソッドを示しています。アノテーション @ExportToBlocks を単に省略します。キーワード ``private`` は、メソッドが同じクラス内からのみ呼び出すことができることを意味します。可能な限りこれを使用してください。
+Line 34 shows the shared method that is **not** a myBlock. Simply omit
+the annotation @ExportToBlocks. The keyword ``private`` means the method
+can be called only from inside the same class. Use this whenever
+possible.
 
-17行目と29行目は共有メソッドを呼び出します。メソッド呼び出しは3つのパラメーターを提供しますが、これらは「ユーティリティ」メソッドの入力パラメーターと同じ**名前** を持っていません - しかし、それらの型は一致する必要があります。
+Lines 17 and 29 call the shared method. The method calls provide 3
+parameters, which do not have the same **names** as the input parameters
+of the ‘utility’ method – but their types should match.
 
-38行目では、**(int)** が10進数を整数型に変換、または** キャスト** します。これは** 型キャスト** と呼ばれます。プログラマーは互換性のあるデータ型に細心の注意を払う必要があります。たとえば、DC モーター ``set .TargetPosition`` ブロックには、10進数ではなく、単純な整数としてエンコーダー値を指定する必要があります。
+At line 38, **(int)** converts, or **casts**, a decimal number to
+integer type. This is called **type casting**. Programmers must pay
+close attention to compatible data types. For example, a DC motor
+``set .TargetPosition`` Block should be given an encoder value as a
+simple integer, not a decimal number.
 
-15行目などでは、キーワード ``final`` は Java **定数** を示します：値を変更できない変数。Java 定数は伝統的にすべて大文字です。このプログラムで Math 定数を見つけることができますか？
+At line 15 and others, the keyword ``final`` indicates a Java
+**constant**: a variable that cannot change value. Java constants are
+traditionally ALL CAPS. Can you find the Math constant in this program?
 
-ロボット A とロボット B の **myBlocks** は次のとおりで、それぞれに** コメント** バルーンと** ツールチップ** があります。あなたが望んだように、非常にシンプルです！
+Here are the Robot A and Robot B myBlocks, each with its **comment**
+balloon and **tooltip**. Very simple, as you wanted!
 
 .. image:: images/a0510-non-myBlock-method-Blocks.png
 
-.. note:: このチュートリアルでは、上記の Java コードを**手動で入力** することを意図しています。この例の事前入力されたテキストが必要な場合は、`こちら <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/SampleOpModes/Custom-FTC-Blocks-(myBlocks)/SampleMyBlocks_v04.java>`__ をクリックしてください。リンクされたコピーには、Java コードに焦点を当てるために上記では省略された、適切/完全な量の Java コメントが含まれています。また、パッケージおよびインポート文は表示されていません。
+.. note:: This tutorial intends for you to **manually type** the Java
+      code above. If you require pre-typed text of this example, click
+      `here <https://github.com/FIRST-Tech-Challenge/WikiSupport/blob/master/SampleOpModes/Custom-FTC-Blocks-(myBlocks)/SampleMyBlocks_v04.java>`__.
+      The linked copy includes a proper/full amount of Java commenting,
+      omitted above to focus on the Java code. Also not shown are the
+      package and import statements.
 
-.. dropdown:: サンプルコード
+.. dropdown:: Example Code
 
    :download:`SampleMyBlocks_v04.java <opmodes/SampleMyBlocks_v04.java>`
 

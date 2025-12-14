@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-14 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:2
+msgid "White Balance Control"
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:4
+msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl`"
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:6
+msgid ""
+"Continuing with other interfaces, the SDK (new for version 7.1) provides "
+"methods for white balance control."
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:9
+msgid ""
+"White balance is a digital camera setting that balances the **color "
+"temperature** in the image. Color temperature is measured in units of "
+"degrees Kelvin (K) and is a physical property of light."
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:13
+msgid ""
+"For example, sunlight at noon measures between 5200-6000 K. An "
+"incandescent light bulb (warm/orange) has a color temperature of around "
+"3000 K, while shade (cool/blue) measures around 8000 K."
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:17
+msgid ""
+"When performed automatically, white balance adds the opposite color to "
+"the image in an attempt to bring the color temperature back to neutral. "
+"This interface WhiteBalanceControl allows the color temperature to be "
+"directly programmed by a user."
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:22
+msgid ""
+"A single value is used here to control white balance temperature, in "
+"units of degrees Kelvin, of Java type integer. Here are the methods:"
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:25
+msgid "setWhiteBalanceTemperature(int temperature)"
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:26
+msgid "getWhiteBalanceTemperature()"
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:28
+msgid ""
+"As with exposure and gain, the webcam may support minimum and maximum "
+"allowed values of white balance temperature. These can be retrieved with:"
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:32
+msgid "getMinWhiteBalanceTemperature()"
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:33
+msgid "getMaxWhiteBalanceTemperature()"
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:35
+msgid ""
+"There are no ``set()`` methods for min and max temperature values; these "
+"are hard-coded in the webcam’s firmware. Note that firmware settings may "
+"vary among different versions of the same webcam model."
+msgstr ""
+
+#: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:39
+msgid "The Logitech C920 webcam has a min value of 2000 and a max value of 6500."
+msgstr ""
+

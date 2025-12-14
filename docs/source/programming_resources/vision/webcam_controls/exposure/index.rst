@@ -1,10 +1,10 @@
-露出制御
-===============
+Exposure - Webcam Controls
+==========================
 
 .. toctree::
-   :maxdepth: 1
+    :maxdepth: 1
 
-   auto_exposure/auto-exposure
-   mode/mode
-   control/control
-   samples/samples
+    control/control
+    mode/mode
+    samples/samples
+    auto_exposure/auto-exposure

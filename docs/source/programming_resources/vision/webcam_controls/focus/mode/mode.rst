@@ -1,11 +1,12 @@
-フォーカス制御モード
---------------------
+Focus Control Mode
+------------------
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl.Mode`
 
-Webcam は、さまざまなフォーカスモードのいずれかで動作する場合があります。フォーカス長を直接制御するには、Webcam を Fixed モードに設定します。
+A webcam may operate in one of various focus modes. To directly control
+the focus length, set the webcam to Fixed mode.
 
-**SDK** は、**FocusControl.Mode** の次の値をサポートしています：
+The SDK supports these values of FocusControl.Mode: 
 
 -  `Auto` 
 -  `ContinuousAuto` 
@@ -14,11 +15,14 @@ Webcam は、さまざまなフォーカスモードのいずれかで動作す�
 -  `Macro` 
 -  `Unknown`
 
-モードは、これらの **FocusControl** メソッドで管理されます：
+Mode is managed with these FocusControl methods: 
 
--  **setMode(ExposureControl.Mode._mode_)**
--  **getMode()**
+-  setMode(ExposureControl.Mode._mode_) 
+-  getMode()
 
-Logitech C920 Webcam は、**ContinuousAuto** と**Fixed** の2つのモードを提供し、**FocusControl** メソッドに応答します。Logitech C270（古いモデル）は**Fixed** モードのみを提供しますが、プログラムによる制御は許可されません。
+The Logitech C920 webcam offers two modes: ContinuousAuto and Fixed,
+which does respond to FocusControl methods. The Logitech C270 (older
+model) offers only Fixed mode, but does not allow programmed control.
 
-詳細は、`FocusControl Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.html>`__ に記載されています。
+Full details are described in the `FocusControl
+Javadoc <https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.html>`__.

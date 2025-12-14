@@ -1,4 +1,4 @@
-はじめに :bdg-success:`AS`
+Introduction :bdg-success:`AS`
 =====================================
 
 .. toctree::

@@ -1,22 +1,38 @@
-開発者オプションの有効化 :bdg-success:`AS`
+Enabling Developer Options :bdg-success:`AS`
 ============================================
 
-**Android** 端末を構成した後、**Android Studio** に含まれるツールを使用して端末にアプリをインストールできるようにする前に、端末が開発者モードになっていることを確認する必要があります。
+After you have configured your Android phone, you will also have to make
+sure that your phone is in developer mode before you will be able to
+install apps onto the phone using the tools that are included with
+Android Studio.
 
-.. important:: **Control Hub** ユーザーの方へ -**Control Hub** は工場出荷時に開発者オプションが自動的に有効になっているため、**Control Hub** に対してこのステップを実行する必要は** ありません** 。
+.. important:: Control Hub Users - The Control Hub has Developer Options
+   automatically enabled from the factory, so you do **NOT** need to do 
+   this step for your Control Hub.
 
-**Android**Developer ウェブサイトには、端末で開発者オプションを有効にする方法に関する情報が含まれています。以下のリンクにアクセスし、「Enabling On-device Developer Options」というセクションを読むと、端末で**Settings**-> About phone に移動し、ビルド番号を7回タップすることで、**Android** 端末で開発者オプションを有効にできることがわかります。
+The Android Developer website contains information on how to enable
+Developer Options onto your phone. If you visit the following link and
+read the section entitled "Enabling On-device Developer Options" you
+will see that you can enable Developer Options on your Android phone by
+going to Settings->About phone on the phone, and then tapping the Build
+number seven times.
 
 *  https://developer.android.com/studio/run/device#setting-up
 
-**Android Studio** ツールを使用して端末にアプリをインストールできるようにするには、両方の端末で開発者オプションと USB デバッグが有効になっていることを確認する必要があります。
+In order to be able to use the Android Studio tools to install apps onto
+your phone, you will need to make sure that the Developer Options and
+USB debugging are enabled for both of your phones.
 
 .. image:: images/DeveloperOptions.jpg
    :align: center
 
 |
 
-**Android Studio** を実行しているコンピューターに端末を初めて接続すると、コンピューターが端末への USB デバッグアクセスを許可してもよいかどうかを端末が尋ねる場合があります。その場合は、「Always allow from this computer」オプションをチェックし、OK ボタンを押して USB デバッグを許可してください。
+When you first connect a phone to your computer with Android Studio
+running, the phone might prompt you if it is OK to allow the computer to
+have USB debugging access to the phone. If this happens, make sure that
+you check the "Always allow from this computer" option and hit the OK
+button to allow USB debugging.
 
 .. image:: images/AllowUSBDebugging.jpg
    :align: center

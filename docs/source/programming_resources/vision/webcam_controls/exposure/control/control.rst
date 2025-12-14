@@ -1,39 +1,32 @@
-露出時間の設定
-==============
+Exposure Control
+----------------
 
-露出時間は、カメラのセンサーが光にさらされる時間の長さです。露出時間が長いほど、より多くの光がセンサーに到達し、画像が明るくなります。
+Exposure is the amount of light that reaches the webcam sensor. It is an
+important part of how bright or dark your image appears.
 
-手動で露出時間を設定するには、次の手順を実行します：
+Exposure varies directly with the amount of time that the shutter is
+open, allowing light to enter and reach the sensor. So, the 
+interface ExposureControl uses a single value of **duration**, in units
+of time that you specify, typically ``TimeUnit.MILLISECONDS``.
 
-1. 露出モードを手動に設定
-2. 希望する露出時間（ナノ秒単位）を設定
+For example, at a frame rate of 60 frames per second (fps), exposure
+duration is 1/60 of a second, or 1/60 x 1000 = 16 milliseconds. This
+basic tutorial does not address frame rate.
 
-.. code:: java
+Here are the methods to manage exposure: 
 
-   ExposureControl exposureControl;
-   exposureControl = vuforia.getCamera().getControl(ExposureControl.class);
-   
-   // 手動モードに設定
-   exposureControl.setMode(ExposureControl.Mode.Manual);
-   
-   // 露出時間を 10 ミリ秒（10,000,000 ナノ秒）に設定
-   exposureControl.setExposure(10, TimeUnit.MILLISECONDS);
+- setExposure() has two parameters: duration and time unit 
+- getExposure() has one parameter: time unit
 
-現在の露出時間を取得するには：
+The webcam may support minimum and maximum allowed values of exposure.
+These can be retrieved with: 
 
-.. code:: java
+- getMinExposure(TimeUnit.MILLISECONDS) 
+- getMaxExposure(TimeUnit.MILLISECONDS)
 
-   long currentExposure = exposureControl.getExposure(TimeUnit.MILLISECONDS);
+There are no ``set()`` methods for min and max exposure; these are
+hard-coded in the webcam’s firmware. Note that firmware settings may
+vary among different versions of the same webcam model.
 
-**サポートされる露出範囲を確認する：**
-
-.. code:: java
-
-   long minExposure = exposureControl.getMinExposure(TimeUnit.MILLISECONDS);
-   long maxExposure = exposureControl.getMaxExposure(TimeUnit.MILLISECONDS);
-
-**重要な注意事項：**
-
-- 露出時間はナノ秒単位で指定されますが、``TimeUnit`` を使用してミリ秒、マイクロ秒などの他の単位を使用できます。
-- サポートされる露出範囲はカメラによって異なります。
-- AE Priority が ``true`` に設定されている場合、より長い露出時間を設定できます。詳細については、:doc:`自動露出優先度 </programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure>` を参照してください。
+These and other exposure methods are called on an ExposureControl
+object; sample code is shown below, after Exposure Control Mode.

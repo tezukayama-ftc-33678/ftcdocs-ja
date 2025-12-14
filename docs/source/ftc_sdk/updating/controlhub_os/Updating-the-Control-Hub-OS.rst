@@ -1,61 +1,73 @@
-Control Hub OSの更新
+Updating the Control Hub OS
 ===========================
 
-オペレーティングシステム（OS）は、タスクのスケジューリング、アプリケーションの実行、周辺機器の制御など、コンピューターの基本機能をサポートするソフトウェアです。**REV Control Hub** では、これを更新する必要がある場合があります。このOS更新は厳密には :doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` の一部ではありませんが、SDKが正しく動作するためには、Control HubでこれらのOS更新が必要です。
+An Operating System (OS) is software that supports a computer’s basic
+functions, such as scheduling tasks, executing applications, and
+controlling peripherals. This must sometimes be updated on the **REV
+Control Hub**. While this OS update is not specifically part of the
+:doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires
+these updates for the Control Hub in order to perform correctly.
 
-**Control Hub** OS を更新する方法は2つあります：
+Here are two methods for updating the Control Hub OS: 
 
-1. **REV Hardware Client** （RHC）
-2. コンピューター上の管理ページ
+1. REV Hardware Client (RHC) 
+2. Manage page on computer
 
-**Control Hub** OS の更新に関する詳細情報は、
-`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__ にあります。
+More info about updating the Control Hub OS is
+`at REV Robotics’ excellent documentation site <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__.
 
-.. dropdown:: 方法1 - **REV Hardware Client** （RHC） - Windows コンピューターのみ
+.. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
 
-   1. REV Control Hubに12Vロボット電源を供給します。
+   1. Apply 12V robot power to the REV Control Hub.
 
-   2. USB-Cデータケーブルを使用して、Control HubをREV Hardware Clientを実行しているコンピューターに直接接続します。
+   2. Plug the Control Hub directly into a computer running the REV
+      Hardware Client, with a USB-C data cable.
 
-   3. Hubの大きなアイコン/矩形をクリックします。「Control Hub Operating
-      System」の下に、現在のバージョンと最新バージョンの不一致がある場合は表示されます（下の黄色の楕円）。
+   3. Click the hub’s large icon/rectangle. Under “Control Hub Operating
+      System”, see the current/latest mismatch, if any (yellow oval,
+      below).
 
       .. figure:: images/650-RHC-OS.png
-         :alt: Control Hub OSの更新
+         :alt: Updating the Control Hub OS
          :width: 80%
          :align: center
 
-         Control Hub OSの更新
+         Updating the Control Hub OS
 
-   ドロップダウンメニューで最新バージョンを確認し、青色の「Update」矩形をクリックします（上の緑色の矢印）。
-   :doc:`REV Hardware Clientの更新 </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
-   で必要な更新ファイルが事前にダウンロードされているため、この更新の速度は向上しています。
+   Confirm the Latest Version in the drop-down menu, then click the blue
+   “Update” rectangle (green arrow, above). The speed of this update is
+   improved, since    :doc:`in Updating the REV Hardware Client
+   </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
+   the required update file was previously downloaded.
 
-   完了です！Control HubのOSが更新されました。
+   Done! The Control Hub’s OS is now updated.
 
-.. dropdown:: 方法2 - コンピューター上の管理ページ
+.. dropdown:: Method 2 - Manage page on computer
 
-   1. コンピューターをWi-Fi経由でControl Hubに接続します。Chromeブラウザで
-      **FIRST Tech Challenge** インターフェースを開きます。
+   1. Connect the computer via Wi-Fi to the Control Hub. In the Chrome
+      browser, open the *FIRST* Tech Challenge interface.
 
-   2. Manageタブをクリックし、Update Control Hub Operating Systemまでスクロールします。
+   2. Click on the Manage tab, scroll down to Update Control Hub Operating
+      System.
 
       .. figure:: images/700-manage-OS.png
-         :alt: Control Hub OSの更新
+         :alt: Updating the Control Hub OS
          :width: 80%
          :align: center
 
-         Control Hub OSの更新
+         Updating the Control Hub OS
 
-   3. 必要に応じて、REV Roboticsの `Control
-      Hub OS Webページ <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system#using-the-robot-controller-console>`__ から最新のOSファイルをダウンロードします。
-      このファイルは解凍または「unzip」しないでください。
+   3. If needed, download the latest OS file from the REV Robotics `Control
+      Hub OS web
+      page <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system#using-the-robot-controller-console>`__.
+      Do not extract or “un-zip” this file.
 
-   4. 管理ページで「Select Update File…」をクリックし、OSファイルをダウンロードしたコンピューターのフォルダーに移動します。
+   4. At the Manage page, click “Select Update File…” and navigate to the
+      computer’s folder where you downloaded the OS file.
 
-   5. そのファイルを選択し、「Update & Reboot」をクリックします（上の緑色の矢印）。
+   5. Select that file, and click “Update & Reboot” (green arrow, above).
 
-   以上です！Control HubのOSが更新されました。
+   That’s it! The Control Hub’s OS is now updated.
    
-質問、コメント、修正は westsiderobotics@verizon.net まで
+Questions, comments and corrections to westsiderobotics@verizon.net
 

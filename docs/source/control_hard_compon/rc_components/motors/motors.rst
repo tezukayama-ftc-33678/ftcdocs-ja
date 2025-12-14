@@ -1,5 +1,5 @@
-モーター
-=========
+Motors
+=======
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -44,16 +44,16 @@
 
       MATRIX 12V DC Motors
       
-^^^^^^
+      ^^^
 
       .. figure:: images/5202-0002-0014.jpg
          :align: center
          :alt: 5202-0002-0014
          :width: 50%
             
-++++++++++++
+      +++
 
-      **Modern Robotics/MATRIX 12V DC Motors**
+      Modern Robotics/MATRIX 12V DC Motors
 
    .. grid-item-card::       
       :class-header: sd-bg-dark font-weight-bold sd-text-white
@@ -89,11 +89,11 @@
 
       REV Robotics Core Hex 12V DC Motor
     
-モーターはロボットの主要な駆動装置です。すべてのモーターは 12V ブラシ付き DC モーターであり、
-競技マニュアルに記載されています。これらは、**REV Expansion Hub**、**REV Control Hub**、または**REV SPARKmini Motor Controller** 
-を介してのみ制御できます。
+Motors are the primary drivers of a robot. All motors are 12v brushed DC motors
+and are enumerated in the Competition Manual. They may only be controlled via a
+REV Expansion Hub, REV Control Hub, or REV SPARKmini Motor Controller.
 
-追加リソース
+Additional Resources
 ---------------------
 
  - :ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-ports:motor ports>`

@@ -1,44 +1,57 @@
-カラー距離センサーの構成
+Configuring a Color Distance Sensor
 =====================================
 
-**REV Robotics カラー距離センサー** は I2C センサーです。実際には、2 つのセンサー機能を 1 つのデバイスに組み合わせています。これは、物体の色を判定できるカラーセンサーです。また、短距離を測定するために使用できる距離またはレンジセンサーでもあります。このチュートリアルでは、「distance（距離）」という言葉が「range（範囲）」という言葉と同じ意味で使用されていることに注意してください。
+The REV Robotics Color Distance Sensor is an I2C sensor. It actually
+combines two sensor functions into a single device. It is a color
+sensor, that can determine the color of an object. It is also a distance
+or range sensor, that can be used to measure short range distances. Note
+that in this tutorial, the word "distance" is used interchangeably with
+the word "range".
 
-カラー距離センサーの構成手順
+Configuring a Color Distance Sensor Instructions
 ------------------------------------------------
 
-1. 画面の **I2C Bus 0** という言葉をタッチして、この I2C バスの I2C 構成画面を起動します。
+1. Touch the words **I2C Bus 0** on the screen to launch the I2C      
+configuration screen for this I2C bus.                                
 
 .. image:: images/ConfiguringHardwareColorDistanceStep1.jpg
    :align: center
 
 |
 
-**Control Hub** または**Expansion Hub** には、「0」から「3」とラベル付けされた 4 つの独立した I2C バスがあります。この例では、カラーセンサーを「0」とラベル付けされたポートに接続したため、I2C バス 0 に配置されます。
+The Control Hub or Expansion Hub has four independent I2C buses, labeled "0" through "3".  In this example, since you connected the Color Sensor to the port labeled "0", it resides on I2C Bus 0.
 
-2. **I2C Bus 0** 画面を見てください。このバス用に既に構成されているセンサーがあるはずです。**Control Hub** または**Expansion Hub** には、独自の内蔵慣性測定ユニット（IMU）センサーがあります。このセンサーは、ロボットの方向を決定したり、ロボットの加速度を測定したりするために使用できます。
+2. Look at the **I2C Bus 0** screen. There should already be a sensor 
+configured for this bus. The Control Hub or Expansion Hub has its own built-in       
+inertial measurement unit (IMU) sensor. This sensor can be used to    
+determine the orientation of a robot, as well as measure the          
+accelerations on a robot.                                             
 
 .. image:: images/ConfiguringHardwareColorDistanceStep2.jpg
    :align: center
 
 |
 
-内蔵 IMU は、各 **Control Hub** または**Expansion Hub** の I2C バス 0 に内部的に接続されています。**Robot Controller** を使用して**Control Hub** または**Expansion Hub** を構成するたびに、アプリは I2C バス 0 の IMU を自動的に構成します。カラーセンサーを構成できるようにするには、このバス用に別の I2C デバイスを追加する必要があります。
+The built-in IMU is internally connected to I2C Bus 0 on each Control Hub or Expansion Hub.  Whenever you configure a Control Hub or Expansion Hub using the Robot Controller, the app automatically configures the IMU for I2C Bus 0. You will need to add another I2C device for this bus to be able to configure the color sensor.
 
-3. **Add** ボタンを押して、このバスに別の I2C デバイスを追加します。    
+3. Press the **Add** button to add another I2C device to this bus.    
 
 .. image:: images/ConfiguringHardwareColorDistanceStep3.jpg
    :align: center
 
 |
 
-4. ドロップダウンセレクターから「REV Color/Range Sensor」を選択し、この新しいデバイスに名前を付けます。タッチスクリーンキーボードを使用して、このデバイスに「sensorColorRange」という名前を付けます。
+4. Select "REV Color/Range Sensor" from the dropdown selector for     
+this new device. Use the touchscreen keyboard to name this device     
+"sensorColorRange".                                                   
 
 .. image:: images/ConfiguringHardwareColorDistanceStep4.jpg
    :align: center
 
 |
 
-5. **Done** ボタンを押して、I2C センサー構成を完了します。アプリは前の画面に戻るはずです。          
+5. Press the **Done** button to complete the I2C sensor               
+configuration. The app should return to the previous screen.          
 
 .. image:: images/ConfiguringHardwareColorDistanceStep5.jpg
    :align: center

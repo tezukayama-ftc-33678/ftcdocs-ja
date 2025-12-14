@@ -54,4 +54,4 @@ instead of out. This increases longevity.
 
 |
 
-If you'd like a more in-depth guide on using heat set inserts or are considering doing so for your team, go read through `Markforged's article on the topic. <https://markforged.com/resources/blog/heat-set-inserts>`__.
+If you'd like a more in-depth guide on using heat set inserts or are considering doing so for your team, go read through `Markforged's article on the topic. <https://markforged.com/resources/blog/heat-set-inserts>`_.

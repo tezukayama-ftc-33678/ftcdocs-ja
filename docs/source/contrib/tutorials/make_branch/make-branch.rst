@@ -50,12 +50,12 @@ will appear. This is the "quick branch" way of creating branches.
 
 In order to make any changes to the content, we need to create ourselves a new
 branch so that we have our own workspace in which to make changes. To create a
-new branch duplicated from ``main``, we need to ensure``main`` is the
+new branch duplicated from ``main``, we need to ensure ``main`` is the
 currently selected branch (if there's only one branch then it's got to be
 ``main``) and then we can type a new name in the box and click the "create"
 selection that will appear. Let's call this new branch ``demo``. For real 
 work you should use a more descriptive name, like ``feature-<FEATURE_NAME>``, 
-``bugfix-<BUG_NUMBER>``, or``<YOUR_NAME>-<FEATURE_NAME>``.
+``bugfix-<BUG_NUMBER>``, or ``<YOUR_NAME>-<FEATURE_NAME>``.
 
 .. figure:: images/demo_branch3.png
    :width: 50%

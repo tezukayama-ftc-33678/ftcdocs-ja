@@ -1,96 +1,144 @@
-外部UVCカメラとパワード USB ハブの構成
-========================================
+Configuring an External UVC Camera and a Powered USB Hub
+==========================================================
 
-はじめに
---------
+Introduction
+------------
 
-競技マニュアルでは、コンピュータビジョン関連のタスクにおいて、USB Video Class（UVC）互換のカメラの使用を認めています。
-**Robot Controller** として Android スマートフォンを使用しているチームは、内蔵カメラの代わりに外部接続カメラを使用することで、コンピュータビジョンタスク用に使用することができます。
+The Competition Manual allows the use of USB Video Class (UVC) compatible
+cameras for computer vision-related tasks.
+Teams who are using an Android smartphone as their ROBOT CONTROLLER have the
+option of using an externally connected camera instead of the built-in camera
+for computer vision tasks.
 
-外部カメラを使用する利点は、カメラとロボットコントローラーをそれぞれ最適な位置に設置できることです。カメラはビジョン関連タスクに適した位置に、Android **Robot Controller** はロボット制御に適した位置に配置することが可能です。
+The advantage of using an external camera is that the camera can be
+mounted in a location that is convenient for vision-related tasks while
+the Android Robot Controller can be mounted where it is convenient for
+Robot Controller-related tasks.
 
-外部カメラを使用する欠点として、USB接続されたカメラによる追加の複雑性が生じることが挙げられます。外部カメラはロボットにコストと重量を追加し、適切に動作するように正しく配線する必要があります。
+The disadvantage of using an external camera is there is additional
+complexity introduced with the USB-connected camera. An external camera
+adds costs and weight to a robot and it needs to be wired correctly to
+run properly.
 
-どのような種類の外部カメラが使用できますか？
---------------------------------------------
+What type of External Camera can be Used?
+-----------------------------------------
 
-このシステムは UVC カメラに対応しています。
-理論上、カメラが UVC に準拠していれば、このシステムで動作するはずです。ただし、**FIRST** Tech Challenge ソフトウェアでテストされ、このソフトウェアで正確に動作するようにキャリブレーションされた推奨ウェブカメラが数台あります：
+The system supports UVC cameras.
+Theoretically, if a camera is UVC compliant, then it should work with
+the system. However, there are a couple of recommended web cameras that
+have been tested with the *FIRST* Tech Challenge software and have been
+calibrated to work accurately with this software:
 
--  **Logitech HD Webcam C310**
--  **Logitech HD Pro Webcam C920**
+-  Logitech HD Webcam C310
+-  Logitech HD Pro Webcam C920
 
-:doc:`他の UVC ウェブカメラに関する記事 <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`
-がありますので、チームで使用することができます。
+There are notes on :doc:`other UVC webcams <../../../apriltag/vision_portal/visionportal_webcams/visionportal-webcams>`
+that teams can use.
 
-UVC カメラのキャリブレーションは高度なタスクです。キャリブレーションファイルの作成方法に関する詳細は、
-ftc_app プロジェクトフォルダーの一部として利用可能な
-*teamwebcamcalibrations.xml* ファイルのコメントに記載されています（ファイルのオンラインコピーについては、
-`このリンク <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__
-をご覧ください）。
+Note that calibrating a UVC camera is an advanced task. Details on how
+to create a calibration file can be found in the comments of the
+*teamwebcamcalibrations.xml* file that is available as part of the
+ftc_app project folder (visit this
+`link <https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__
+for an online copy of the file).
 
-**REV Robotics Expansion Hub** とスマートフォン
------------------------------------------------
+REV Expansion Hub and Phone
+---------------------------
 
-Android スマートフォンと **Expansion Hub** を使用しているチームは、ウェブカメラを使用するために USB Hub を追加する必要があります。
+For teams using an Android phone and an Expansion Hub you are required to add a USB Hub to use a webcam.
 
 .. image:: images/uvcdiagram.png
-   :alt: **REV Expansion Hub** が Android スマートフォンとウェブカメラに USB Hub 経由で接続されている図。
+   :alt: A REV expansion hub connected to an Android phone and a webcam via a USB Hub.
 
-**USB Hub**
-^^^^^^^^^^^
+USB Hub
+^^^^^^^
 
-外部カメラを使用したいチームは、Android **Robot Controller** を外部カメラと**REV Robotics Expansion Hub** に接続するための USB ハブが必要です。適切に動作するために、USB ハブは以下の要件を満たす必要があります：
+Teams who would like to use an external camera will need a USB hub to
+connect their Android Robot Controller to the external camera and the
+REV Robotics Expansion Hub. To work properly, the USB hub should meet
+the following requirements:
 
-1. USB 2.0 との互換性があります。注：USB 3.0 ハブでも動作しますが、より高速な速度ではありません。
-2. 480Mbps のデータ転送レートに対応しています。
+1. Compatible with USB 2.0. Note: a USB 3.0 hub will still work, just not at the faster speed.
+2. Supports a data transfer rate of 480Mbps.
 
-Modern Robotics Core Power Distribution Module は、USB 接続ウェブカメラで動作するには十分な速度のデータ転送速度がないため、このタスクに使用することはできません。
+Note that the Modern Robotics Core Power Distribution Module cannot be
+used for this task since its data transfer speed is not fast enough to
+work with the USB-connected webcam.
 
-また、競技マニュアルではこの接続にパワード USB ハブの使用を認めています。チームがパワード USB ハブを使用する場合、USB ハブを動作させるための電力は、次のいずれかのソースからのみ供給できます：
+Also note that the Competition Manual permits the use of a powered USB
+hub to make this connection. If a
+team uses a powered USB hub, the power to operate the USB hub can only
+come from either of the following sources:
 
-1. 競技マニュアルに準拠した、外部接続のオフザシェルフ（COTS）USB バッテリーパック。
-2. **REV Robotics Expansion Hub** の 5V DC 補助電力ポート（この実装には高度なスキルが必要です）。
+1. An externally connected commercially available off-the-shelf (COTS) USB Battery Pack in compliance with the
+   Competition Manual. 
+2. The 5V DC Aux power port of a REV Robotics Expansion Hub (note that
+   this requires advanced skills to implement).
 
-**FIRST** はいくつかの USB 2.0 パワード ハブをテストしており、Anker 製のハブを推奨しています。このドキュメント作成時点では、このハブは
-`Anker.com <https://www.anker.com/products/a7516>`__ から入手できました。
+*FIRST* has tested a few USB 2.0 powered hubs and recommends one from
+Anker. At the time this document was written, this hub was available
+from `Anker.com <https://www.anker.com/products/a7516>`__.
 
 .. image:: images/ankerhub.jpg
-   :alt: チャージャーとケーブル付きのハブ。
+   :alt: Hub with charger and cable.
 
-Anker 4ポート パワード ハブは、ハブを 5V 電源に接続するために使用される Micro USB ポート（下図のオレンジ色の円で強調表示）があるため便利です。
+The Anker 4-port powered hub is convenient because it has a Micro USB
+port that is used to connect the hub to a 5V power source (highlighted
+with orange circle in figure below).
 
 .. image:: images/ankerpowerport.jpg
-   :alt: Micro USB ポート付きの USB ハブ。
+   :alt: USB Hub with Micro USB port.
 
-このポートにより、ユーザーは標準的な USB Type B Micro ケーブルをハブに接続してから、ケーブルの反対側（USB Type A コネクターが付いている）を外部 5V USB バッテリーパックの出力ポートに接続することができます。下の画像では、Anker 4 ポート ハブは標準的な Type A to Type B USB Micro ケーブルを使用して「limefuel」外部 5V バッテリーパックから電力を供給されています。バッテリーは下の図に黄色い枠で強調表示されています。
+This port allows a user to plug a standard USB type B Micro Cable into
+the hub, and then connect the other end of the cable (which has a USB
+Type A connector) into the output port of an external 5V USB battery
+pack. In the image below, the Anker 4 port hub is powered by a
+“limefuel” external 5V battery pack using a standard Type A to Type B
+USB Micro cable. Note the battery is highlighted by the yellow outline
+in the figure below.
 
 .. figure:: images/limefuel.png
-   :alt: スマートフォンとウェブカメラを使用するための完全なセットアップ。
+   :alt: A complete setup for using a phone and webcam.
    
-   USB ハブはバッテリーパックから電力を供給されています。
+   The USB hub is drawing power from a power bank.
 
-USB ハブは Type A コネクターとケーブルを介して OTG ケーブルに接続されており、このケーブルがスマートフォンに接続されています。
-バッテリーパックは USB ハブの USB Type B Micro ポートに接続されています。
-ウェブカメラは USB ハブの USB Type A ポートの 1 つに接続されています。
-USB Type A to USB Mini B ケーブルが USB ハブを **REV Expansion Hub** に接続しています。
+The USB hub is connected via it's Type A connector and cable to an OTG cable which connects to the phone.
+The power bank is connected to the USB type B Micro port on the USB hub.
+The webcam is connected to one of the USB type A ports on the USB hub.
+A USB Type A to USB Mini B cable connects the USB hub to the REV Expansion Hub.
 
-USB ハブは **REV Robotics Expansion Hub** の 5V 補助ポートからも電力を供給できます。この構成では、一方の端が 5V 補助ポートにプラグできる特殊なケーブルが必要であり、もう一方の端が USB ハブのパワーポートにプラグできる必要があります。
+A USB hub can also draw power from the 5V auxiliary ports on the REV
+Robotics Expansion Hub. This configuration requires that the user have a
+special cable that on one end can be plugged into the 5V Auxiliary port
+and on the other end can be plugged into the power port of the USB hub.
 
 .. figure:: images/5vauxcable.png
-   :alt: スマートフォンとウェブカメラを使用するための完全なセットアップ。
+   :alt: :alt: A complete setup for using a phone and webcam.
    
-   USB ハブは 5V 補助ポートに接続されています。
+   The USB hub is connected to the 5V Auxiliary port.
 
-チームは、サーボ延長ケーブルの一方の端（5V 補助ポートにプラグするため）と Micro USB ケーブルの一方の端（Anker ハブのパワーポートにプラグするため）を使用してこの特殊なケーブルを作成できることに注意してください。**このケーブルの作成は高度なタスクであり、電子機器と配線の専門知識を持つ成人メンターの指導を受けているチームのみが試みるべきです。このケーブルの極性が正しいことは非常に重要です。極性が逆転している場合、電子機器に損傷を与える可能性があります。**
+Note that teams can create this special cable using one end of a servo
+extension cable (to plug into the 5V aux port) and one end of a Micro
+USB cable (to plug into the Anker hub’s power port). **Creating this
+cable is an advanced task and should only be attempted by teams who have
+guidance from an adult mentor who has expertise in electronics and
+wiring! It is extremely important that the polarity is correct for this
+special cable. If the polarity is reversed it could damage your
+electronic equipment.**
 
-サンプル **OpMode**
-^^^^^^^^^^^^^^^^^^^
+Sample Op Modes
+^^^^^^^^^^^^^^^
 
-外部 UVC ウェブカメラを **VisionPortal** 操作で使用する方法を示すサンプル**Blocks** および Java**OpMode** があります。チームが外部 UVC カメラを使用する前に、外部カメラが USB 接続デバイスの 1 つとして定義された構成ファイルを構成する必要があります。
+There are sample Blocks and Java Op Modes that demonstrate how to use
+the external UVC web camera for VisionPortal operations. Before
+a team can use the external UVC camera, a configuration file must be
+configured with the external camera defined as one of the USB-connected
+devices.
 
-有効な構成ファイルが定義されてアクティブになると、プログラマーは内部 Android カメラの代わりに外部 UVC カメラを、ビジョン関連タスクに使用できます。
+Once a valid configuration file has been defined and activated, the
+programmer can use the external UVC camera, instead of the internal
+Android cameras, for vision-related tasks.
 
 .. image:: images/blockswebcam.png
-   :alt: サンプル **Blocks** コード
+   :alt: Sample Blocks code
 

@@ -6,7 +6,7 @@
 .. only:: latex
 
     *FIRST* Tech Challenge SDK
-    ==============================
+    ==========================
 
     .. toctree::
 

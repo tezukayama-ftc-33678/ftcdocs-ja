@@ -1,104 +1,153 @@
 .. meta::
-   :title: FIRST Tech Challengeソフトウェア開発キット
-   :description: FTC SDKの簡単な紹介
+   :title: FIRST Tech Challenge Software Development Kit
+   :description: A brief introduction to the FTC SDK
    :keywords: FTC Docs, FIRST Tech Challenge, FTC, RC, Robot Controller, DS, Driver Station
 
-**FIRST Tech Challenge** ソフトウェア開発キット
+*FIRST* Tech Challenge Software Development Kit
 ===============================================
 
-ソフトウェア開発キット（SDK）は、**FIRST Tech Challenge** ロボット用のソフトウェアを開発し、実行するためのツールのコレクションです。SDKソフトウェアには以下が含まれます：
+The Software Development Kit (SDK) is the collection of tools for developing
+software and executing it on a *FIRST* Tech Challenge robot. SDK Software
+includes:
 
--  **FIRST Tech Challenge Driver Station App**
+-  *FIRST* Tech Challenge Driver Station App 
 
-   *  セルフインスペクト、 :doc:`ロボット構成 </hardware_and_software_configuration/configuring/index>` などを含む
+   *  Includes Self-Inspect, :doc:`Robot Configuration </hardware_and_software_configuration/configuring/index>`, and others
 
--  **FIRST Tech Challenge Robot Controller App**
+-  *FIRST* Tech Challenge Robot Controller App
 
-   *  :doc:`Blocksプログラミング環境 </programming_resources/blocks/Blocks-Tutorial>` を含む
-   *  :doc:`OnBot Javaプログラミング環境 </programming_resources/onbot_java/OnBot-Java-Tutorial>` を含む
+   *  Includes :doc:`Blocks Programming Environment </programming_resources/blocks/Blocks-Tutorial>`
+   *  Includes :doc:`OnBot Java Programming Environment </programming_resources/onbot_java/OnBot-Java-Tutorial>`
 
--  `Android Studioプロジェクト <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__
-   :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>` でRobot Controller Appをビルドするため
--  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど）
+-  `Android Studio Project <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__  
+   for building the Robot Controller App with 
+   :doc:`Android Studio </programming_resources/android_studio_java/Android-Studio-Tutorial>`
+-  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
+-  Season-Specific Assets (TensorFlow models, Vuforia databases, etc...)
 
-すべてのリリース済みアプリ/ソースは、`SDK GitHubリポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ にあります。
+All released apps/source can be found in the `SDK GitHub Repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
-SDKリリース
+SDK Releases
 ------------
 
-ソフトウェア開発キットは、**FIRST Tech Challenge** **Technology Team** として知られるコアグループによって、プライベートGitHubリポジトリ内で開発および保守されています。このリポジトリは、将来の**FIRST Tech Challenge** ゲームの秘密、開発中の機能、およびその他の開発の側面の詳細を漏らさないようにするため、プライベートに保たれています。開発とメンテナンスは年間を通じて継続的に行われています。
+The Software Development Kit is developed and maintained by a core group, known
+as the *FIRST* Tech Challenge *Technology Team*, within a private GitHub repository.
+This repository is kept private in order to prevent leaking the details of
+future *FIRST* Tech Challenge game secrets, features in development, and other
+aspects of development. Development and maintenance is ongoing year round.
 
-リリースコンテンツ
-""""""""""""""""""
+Release Content
+"""""""""""""""
 
-SDKがリリースする準備が整うと、プライベートSDKリポジトリがビルドされ、エクスポートされます。このビルドは以下で構成されます：
+Once the SDK is ready to be released, the private SDK repository is built and exported. 
+This build consists of:
 
--  ビルドされたDriver Stationアプリ（``FtcDriverStation-release.apk`` ）
--  ビルドされたRobot Controllerアプリ（``FtcRobotController-release.apk`` ）
--  Android Studioプロジェクトのソースコード（``vX.X.zip``、``vX.X.tar.gz`` ）
--  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__
--  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど、別途ホスト）
+-  Built Driver Station App (``FtcDriverStation-release.apk``)
+-  Built Robot Controller App (``FtcRobotController-release.apk``)
+-  Android Studio Project source code (``vX.X.zip``, ``vX.X.tar.gz``)
+-  `Javadoc Reference Documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__
+-  Season-Specific Assets (TensorFlow models, Vuforia databases, etc... hosted separately)
 
-エクスポートは、`FtcRobotController GitHubリポジトリ
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に `ソフトウェアリリース
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ としてプッシュされます。
+The export is then pushed to the `FtcRobotController GitHub Repository
+<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ as a `software
+release
+<https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__. 
 
-`FtcRobotController GitHubリポジトリ
-<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ は、エクスポートされたAndroid Studioプロジェクトのソースでも更新され、変更を追跡でき、GitHubリポジトリをチームが `フォーク
+The `FtcRobotController GitHub Repository
+<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ is also updated
+with the exported Android Studio Project source so that changes can be tracked and the GitHub
+repository can be `forked
 <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__
-または `クローン
+or `cloned
 <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>`__
-できます。ただし、この更新は一方向のプッシュであるため、FtcRobotControllerリポジトリへの公開貢献（`プルリクエスト
-<https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>`__）は受け付けられません。ただし、コミュニティは自由に、**Technology Team** が検討して対処するための課題をリポジトリで作成することが奨励されています。
+by teams.
+This update is a one-way push, however, which is why public contributions
+(`Pull Requests
+<https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>`__)
+to the FtcRobotController repository are not accepted.  The community is free
+and encouraged to create issues at the repository for the *Technology Team* to
+consider and address, however.
 
 .. note:: 
-   TensorFlowモデルやVuforiaデータベースなどの一部のシーズン固有のアセットは、FtcRobotController GitHubリポジトリに直接含まれていません。代わりに、Maven Centralでホストされている ``.AAR`` にパッケージ化されています。Robot Controller Appを使用する場合、これらのアセットはアプリに含まれています。Android Studioを使用する場合、これらのアセットはプロジェクトを最初にコンパイルするときにダウンロードされ、プロジェクトに含まれます（したがって、アクティブなインターネット接続が必要です）。
+   Some season-specific assets, such as TensorFlow models and Vuforia
+   Databases, are not included directly in the FtcRobotController GitHub
+   repository. Instead, they are packaged in an ``.AAR`` hosted on 
+   Maven Central. When using the Robot Controller App, these assets are
+   included in the app. When using Android Studio, these assets are 
+   downloaded and included in your project the first time you compile
+   the project (so an active internet connection is necessary).
 
-リリーススケジュール
-""""""""""""""""""""
-
-これらのリリースは、正確な日付が明確に定義されていない場合でも、定期的なスケジュールで行われます：
-
--  **キックオフSDKリリース** - 通常、**FIRST Tech Challenge** キックオフから1〜2週間以内にリリースされます。キックオフSDKは、通常、シーズン中の使用に必要な最小ソフトウェアバージョンです。
--  **更新/パッチリリース** - これらは通常、**FIRST Tech Challenge** シーズン中に、重大な問題または有用な機能がチームで利用可能になったときにリリースされます。更新/パッチリリースは、重大なパッチまたはバグ修正が発行されない限り、競技には通常必要ありません。
--  **オフシーズンリリース** - オフシーズンリリースは、破壊的変更に対してチームを準備するため、または次のシーズンの新機能のテクノロジープレビューを提供するために使用されます。
-
-ソフトウェアSDKの更新は、`FIRST Tech Challengeブログ <https://community.firstinspires.org/topic/ftc>`__ および
-`チームメールブラスト <https://www.firstinspires.org/resources/library/ftc/team-email-blast-archive>`__ を通じて発表されます。
-
-
-SDKリリースノート
------------------
-
-SDKリリースの最も重要な要素の1つは、
-`SDKリリースノート <https://github.com/FIRST-Tech-Challenge/FtcRobotController#release-information>`__ です。SDKリリースノートには、破壊的変更、機能強化、注目すべき重大なバグ修正など、各リリースの重要な側面が含まれています。
-
-破壊的変更
+Release Schedule
 """"""""""""""""
 
-破壊的変更は、その名前が示すとおり、SDKのAPIまたは一般的なアーキテクチャ内で行われた変更であり、既存のコードまたは構成を破壊する可能性があります。SDKのすべてのユーザーが、特定のリリースに破壊的変更セクションが存在する場合は、リリースノートの破壊的変更セクションを読み、既存のコードへの影響を判断することが特に重要です。
+These releases happen on a regular schedule, even if the exact dates aren't
+specifically defined:
 
-機能強化
+-  **Kickoff SDK Release** - Generally released within a week or two of the
+   *FIRST* Tech Challenge Kickoff. The Kickoff SDK is typically the minimal
+   software version required for use during the season.
+-  **Update / Patch Releases** - These are typically released during the
+   *FIRST* Tech Challenge season, when critical issues or helpful features are
+   available for teams. Update/Patch releases aren't generally required for
+   competition unless a critical patch or bugfix is issued.  
+-  **Offseason Release** - Offseason releases are used to prepare teams for
+   breaking changes or to provide a technology preview for new features in the
+   upcoming season.
+
+Software SDK updates are announced via the `FIRST Tech Challenge Blog <https://community.firstinspires.org/topic/ftc>`__ and  
+`Team Email Blasts <https://www.firstinspires.org/resources/library/ftc/team-email-blast-archive>`__ .
+
+
+SDK Release Notes
+-----------------
+
+One of the most important elements of the SDK Release is the 
+`SDK Release Notes <https://github.com/FIRST-Tech-Challenge/FtcRobotController#release-information>`__. 
+The SDK Release Notes contain important aspects of each release, including
+breaking changes, enhancements, and critical bug fixes of note. 
+
+Breaking Changes
+""""""""""""""""
+
+Breaking changes are as the name suggests, which are changes made within the
+SDK's APIs or general architecture that may break existing code or
+configurations that may already exist. It is especially important for all users
+of the SDK to read the Breaking Changes section of the release notes, if one
+exists for a given release, and determine the impact on their existing code.
+
+Enhancements
 """"""""""""
 
-機能強化は、SDKの新機能または既存機能の（非破壊的な）改善です。機能強化には、改善されたロギング、新しいユーザーインターフェース（UI）、より良いユーザーエクスペリエンス（UX）、新しいAPI、より良いパフォーマンス、または信頼性の向上などの項目が含まれる場合があります。SDKのすべての機能強化がリリースノートに記載されているわけではありませんが、ユーザーに直接影響を与えるものは記載されている必要があります。
+Enhancements are new features or (non-breaking) improvements made to existing
+features of the SDK. Enhancements might include items such as improved logging,
+new user interfaces (UI), better user experience (UX), new APIs, better
+performance, or greater reliability. Not all enhancements of the SDK are listed
+in the release notes, but those that have a direct user impact should be listed.
 
-バグ修正
+Bug Fixes
 """""""""
 
-SDKのほぼすべてのリリースにはバグ修正が含まれていますが、**Technology Team** が重要なバグ修正の可視性を高めたい場合、リリースノートのバグ修正セクションに含まれます。バグに回避策が必要だった場合、チームコードが影響を受ける可能性があり、リリースノートに記載されることは、**Technology Team** がチームに回避策が不要になったことを通知する方法です。
+Virtually every release of the SDK includes bug fixes, but when the *Technology
+Team* wishes to elevate the visibility of an important bug fix it is included
+in a Bug Fixes section of the Release Notes. Sometimes team code can be
+affected if the bug required a workaround, and being elevated in the Release
+Notes is a way for the *Technology Team* to notify teams that the workaround is
+no longer necessary.
 
-SDKソフトウェアの更新
+Updating SDK Software
 ---------------------
 
-チームがSDKソフトウェアを更新することは重要です。シーズン中の更新は必須ではない場合があります。チームは、競技マニュアルでゲームに必要な最小ソフトウェアバージョンを確認できます。64ビットWindowsコンピューターが利用可能な場合は、REV Hardware Clientを使用してハードウェアを更新することをお勧めします。そうでない場合は、提供される代替方法を使用してソフトウェアを更新できます。
+It is important for teams to update the SDK software. Updates mid-season may
+not be required. Teams can check  the minimum software version required for a
+game in the Competition Manual.  It is recommended to use the REV Hardware
+Client to update hardware, if a 64-bit Windows computer is available. If not,
+then alternate methods provided can be used to update the software.
 
--  :doc:`REV Hardware Clientの更新 </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
--  :doc:`Driver Stationアプリの更新 </ftc_sdk/updating/ds_app/Updating-the-DS-App>`
--  :doc:`Robot Controllerアプリの更新 </ftc_sdk/updating/rc_app/Updating-the-RC-App>`
--  :doc:`Driver Hub OSの更新 </ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS>`
--  :doc:`Control Hub OSの更新 </ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS>`
--  :doc:`Hubファームウェアの更新 </ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware>`
+-  :doc:`Updating the REV Hardware Client </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
+-  :doc:`Updating the Driver Station App </ftc_sdk/updating/ds_app/Updating-the-DS-App>`
+-  :doc:`Updating the Robot Controller App </ftc_sdk/updating/rc_app/Updating-the-RC-App>`
+-  :doc:`Updating the Driver Hub OS </ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS>`
+-  :doc:`Updating the Control Hub OS </ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS>`
+-  :doc:`Updating the Hub Firmware </ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware>`
 
 

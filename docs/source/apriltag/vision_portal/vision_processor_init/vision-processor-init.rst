@@ -18,7 +18,7 @@ these steps:
 
 - **Step 2.** *Required:*  
 
-  - Create the **AprilTag Processor**(or the**Color Locator or Color Sensor
+  - Create the **AprilTag Processor** (or the **Color Locator or Color Sensor
     Processor**), to analyze frames streaming in from the camera. "Under the
     hood", the Apriltag Processor is attached to an EOCV **pipeline**, which
     performs various steps, in order, to each stream frame. The stream is the
@@ -36,7 +36,7 @@ This page describes Step 2 in more detail, for both Processors.  The :doc:`Visio
 AprilTag Initialization - Easy
 ------------------------------
 
-**Step 2**is creating the**AprilTag Processor**, software that evaluates frames streaming in from the camera.
+**Step 2** is creating the **AprilTag Processor**, software that evaluates frames streaming in from the camera.
 
 The SDK provides an "easy" way to create the processor, using only **defaults** and not mentioning a "Builder":
 
@@ -144,11 +144,11 @@ performed directly on ``myAprilTagProcessor``.  The Builder pattern allows the
 Color Processing Initialization
 -------------------------------
 
-**Step 2**is similar for creating the**Color Sensor/Locator Processor**, software
+**Step 2** is similar for creating the **Color Sensor/Locator Processor**, software
 that evaluates frames streaming in from the camera.
 
 The Builder is going to look a little different depending on if you are using
-the **Color Sensor**or the**Color Locator**. For more information, see the
+the **Color Sensor** or the **Color Locator**. For more information, see the
 :doc:`Color Processing Documentation </color_processing/index>`.
 
 Enabling and Disabling Processors
@@ -164,7 +164,7 @@ after **disabling** (by setting to ``false``).  This topic is covered further
 at the **Managing CPU and Bandwidth** page.
 
 At the following page's Step 3, the ``addProcessor()`` command **automatically
-enables**the specified processor. Thus OpModes**do not initialize** with
+enables** the specified processor. Thus OpModes **do not initialize** with
 this, after Step 2:
 
 .. tab-set::
@@ -178,7 +178,7 @@ this, after Step 2:
 
          Enable or Disable AprilTag Processor
 
-      Again, use this only to **re-enable**the processor, after**disabling**
+      Again, use this only to **re-enable** the processor, after **disabling**
       (by setting to `false`).
 
    .. tab-item:: Java
@@ -189,7 +189,7 @@ this, after Step 2:
          // Enable or disable the AprilTag processor.
          myVisionPortal.setProcessorEnabled(myAprilTagProcessor, true);
 
-      Again, use this only to **re-enable**the processor, after**disabling**
+      Again, use this only to **re-enable** the processor, after **disabling**
       (by setting to `false`).
 
 ====

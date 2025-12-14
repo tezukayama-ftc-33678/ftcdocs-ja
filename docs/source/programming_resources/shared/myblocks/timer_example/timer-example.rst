@@ -1,50 +1,97 @@
-タイマーの例
+Timer Example
 =============
 
-FTC **タイマー** は、馴染みのある ``.sleep`` ブロックよりもはるかに多くの機能を提供します。Java プログラマーは、`この Blocks チュートリアル <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-in-FTC-Blocks>`__ からタイマーについて学ぶことができます。そのレッスンは Java プログラムに簡単に適用できます。
+FTC **timers** offer much more capability than the familiar ``.sleep``
+Block. Java programmers can learn about timers from `this Blocks
+tutorial <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-in-FTC-Blocks>`__;
+you can easily apply its lessons to Java programs.
 
-**myBlocks** を作成する際、既存の Java コードのセクションを**myBlock** メソッドに変換または「パッケージ化」するときは注意してください。プログラマーとして、**myBlock** が**OpMode** のどこに配置されるかを検討する必要があります。たとえば、**myBlock** が**repeat while ループ** 内に配置されている場合、Java メソッドは何度も呼び出されます - これは意図したものである場合とそうでない場合があります。**Blocks** ユーザーに、ループを含む（または含まない）**myBlock** の実行方法を伝えるために、アノテーション**comment** を使用します。
+When creating myBlocks, be careful when converting or ‘packaging’ a
+section of existing Java code into a myBlock method. As a programmer,
+you must consider **where** your myBlock might be placed in the OpMode.
+For example, if the myBlock is placed inside a **repeat while loop**,
+the Java method will be called many times – this may or may not be what
+you intended. Use the annotation **comment** to tell the Blocks user how
+your myBlock should be run, including looping (or not).
 
-タイマーに関する特別な注意：新しい FTC タイマーを作成または**インスタンス化** すると、そのタイマーも開始または**リセット** されます。**Blocks** の**repeat ループ** で使用される**myBlock** 内でタイマーが作成されると、そのタイマーは常にリセットされ、意図した時間制限に到達することはありません。
+A particular caution with timers: creating or **instantiating** a new
+FTC timer also starts or **resets** that timer. If a timer is created
+inside a myBlock that’s used in a Blocks **repeat loop**, that timer
+will constantly reset and never advance to the intended time limit.
 
-次の例では、 **タイマーの作成** タスクを**タイマーのリセット** タスクから分離しています。
+The following example separates the **create timer** task from the
+**reset timer** task.
 
 .. image:: images/a0440-Timer-Java.png
 
-15行目：この単一の Java 行は、次のすべてを実行します：
-- myStopwatch というフィールドを、型（クラス）ElapsedTime として宣言します
-- フィールドは **private** で、このクラス SampleMyBlocks でのみ使用できます
-- フィールドは **static** で、**myBlocks** などの static メソッドで使用できます
-- **コンストラクター** メソッド ElapsedTime() を呼び出して、**新しい** ElapsedTime インスタンスを**インスタンス化** します
-- その**インスタンス** をフィールド myStopwatch に割り当てます
+Line 15: this single line of Java does all this: - declare a field
+called myStopwatch, of type (class) ElapsedTime - the field is
+**private**, can be used only in this class SampleMyBlocks - the field
+is **static**, can be used in static methods such as myBlocks - call the
+**constructor** method ElapsedTime() to **instantiate** a **new**
+ElapsedTime instance - assign that **instance** to the field myStopwatch
 
-18-19行目は、 **「+」** 文字で結合されて**単一のテキスト文字列** を形成する2つのテキスト文字列（それぞれ引用符内）を再度示しています。これは、コメントフィールドが「改行」なしで**単一行** のテキストである必要があるという要件を満たす別の方法です。
+Lines 18-19 again show two strings of text (each in quotes), joined with
+a **“+”** character to form a **single text string**. This is an
+alternate way to meet the requirement that a comment field must be a
+**single line** of text, with no ‘line break’.
 
-22行目：このメソッドには**入力がありません** （空の括弧）と**出力がありません** （キーワード**void** ）。これが、アノテーション @ExportToBlocks に**parameterLabels** フィールドがなかった理由です。
+Line 22: this method has **no inputs** (empty parentheses) and **no
+outputs** (keyword **void**). This is why the annotation @ExportToBlocks
+was missing the **parameterLabels** field.
 
-24行目では、パーセント記号で示される**フォーマットコード** を使用してデータが表示されます。**.2f** は、小数点の右側に2桁の数値を表示します。
+In Line 24 the data is displayed using a **formatting code**, indicated
+by the percent sign. The **.2f** will display a numeric value with 2
+digits to the right of the decimal point.
 
-また、24行目では、オブジェクト myStopwatch がメソッド ``time()`` を使用して、そのタイマーの現在の値を秒単位で取得します。
+Also on Line 24, the object myStopwatch uses a method ``time()`` to
+retrieve that timer’s current value in seconds.
 
-28行目：二重ストローク演算子 **\|\|** は「OR」を意味します。他の Java 論理演算子は `こちら <https://www.w3schools.com/java/java_operators.asp>`__ にあります。
+Line 28: the double-strokes operator **\|\|** means “OR”. Other
+operators include **&&** (“AND”), **==** (“EQUALS”), and **!=** (“NOT
+EQUAL TO”).
 
-ブール値「true」または「false」の出力、つまり**戻り値の型** に注意してください。このメソッドの場合、タイマーが指定された時間に達したときに、**return** コマンドは値「true」を**Blocks** プログラムに渡します。それ以外の場合は「false」を渡します。
+Line 29: the object myStopwatch uses a method ``reset()`` to start the
+timer again from zero.
 
-このようなブール値の出力を持つ **myBlock** は、``.repeat while`` や``.if/then`` などの**Blocks** 制御構造で使用できます。
+So, what was the danger? A programmer might naturally place Line 15
+**inside** the method, perhaps at Line 23. But that would reset the
+timer at every cycle of the **repeat while** loop. The stopwatch would
+always show **zero**.
+
+Or, a programmer might use Line 15 to **replace** Line 29, since they
+“do the same thing”. But the object **myStopwatch** is needed at Line 24
+also, for telemetry. Moving the telemetry to be **after** Line 29 does
+not help. If the operator has not yet pressed gamepad button X, the
+object does not exist and the program will crash.
+
+When you clicked “Build Everything” in OnBot Java, all of the code in
+your SampleMyBlocks class was processed. That included creating the
+object myStopwatch, which became available for any method in that class.
+It was not necessary to declare it inside the myBlock method. In this
+case, it **needed** to be outside the method.
+
+Here’s the myBlock in a repeat loop, with its **comment** and
+**tooltip**:
 
 .. image:: images/a0450-Timer-Blocks.png
 
-上記の最初の **Blocks** 関数では、myStopwatch 変数を作成して開始します。再度停止するまで、タイマーは実行され続けます。
+Again, the comment field is the only way to communicate with future
+users of your myBlock. They cannot see your Java code or its Java
+comments. Keep your myBlocks interface simple, and the instructions
+clear.
 
-次の関数は、タイマーが 5.5秒に達するまで、ループを繰り返し実行します。その時点で、関数からのブール値出力により、繰り返しループが停止します。この例では、ループは空です。実際のアプリケーションでは、ループにはロボットアクションが含まれます。
+.. note:: This tutorial intends for you to **manually type** the Java
+      code above. OnBot Java helps by suggesting some code as you type, and
+      by entering import statements when classes are used. Android Studio
+      helps even more. If you require pre-typed text of this example see below.
+      The linked copy includes more Java comments, omitted above to focus
+      on the Java code. Also not shown are the package and import
+      statements.
 
-.. note:: このチュートリアルでは、上記の Java コードを**手動で入力** することを意図しています。この例の事前入力されたテキストが必要な場合は、以下をクリックしてください。リンクされたコピーには、通常のクラス宣言とパッケージ/インポート文が含まれています。
-
-.. dropdown:: サンプルコード
+.. dropdown:: Example Code
 
    :download:`SampleMyBlocks_v03.java <opmodes/SampleMyBlocks_v03.java>`
 
    .. literalinclude:: opmodes/SampleMyBlocks_v03.java
       :language: java
-
-必要に応じて、リセット機能を備えた3番目の **myBlock** を追加できます。これにより、**Blocks** ユーザーは、OpMode 中にタイマーを再度ゼロにすることができます。これは、``.reset()`` メソッドで簡単に行えます。

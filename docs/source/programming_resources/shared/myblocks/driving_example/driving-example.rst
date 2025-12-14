@@ -1,21 +1,36 @@
-ドライブの例
+Driving Example
 ===============
 
-ここでは、**インチでの走行距離** ターゲットを** エンコーダーカウント** ターゲットに変換するための Java コード（メソッドのみ）を示します。変換は、ドライブモーターのローテーションあたりのカウント（CPR）とドライブホイールの直径に依存します。この例では、モーターとホイールの間のギア比が 1:1 であることを前提としています。
+Here is the Java code (method only) for converting an **inches of
+driving** target into an **encoder counts** target. The conversion
+depends on the drive motors’ counts-per-rotation (CPR), and the diameter
+of the drive wheels. This example assumes 1:1 gear ratio between the
+motor and wheel.
 
 .. image:: images/a0400-inchesToCounts-Java.png
 
-このメソッドは **Blocks** ユーザーから 3つの入力を受け取り、**myBlock** を** 呼び出す** 通常の Block に 1つの出力（``int`` または整数型）を** 返します** 。
+This method takes three inputs from the Blocks user, and **returns** one
+output (of type ``int`` or integer) to the regular Block that **calls**
+the myBlock.
 
-.. tip:: 計算では、継承されたクラス Math の **constant** （定数）という名前の変数 PI を使用していることに注意してください。これは固定数値 3.14159… を保持します。
+.. tip:: Notice the calculation uses the variable or
+      **constant** named PI, from the inherited class Math. This holds the
+      fixed numeric value 3.14159….
 
-典型的な使用例を以下に示します。
+Here is an example of typical usage.
 
 .. image:: images/a0410-inchesToCounts-Blocks.png
 
-.. tip:: ``return`` コマンドの``(int)`` 演算子に注意してください。これは、``double`` 型の countsToDrive 変数を``int`` 型に変換または**キャスト** して、必要な**戻り値の型** と互換性を持たせます。**型キャスト** の詳細については、`こちら <https://www.w3schools.com/java/java_type_casting.asp>`__ または `こちら <https://www.geeksforgeeks.org/type-conversion-java-examples/>`__ を参照してください。
+.. tip:: Notice the ``(int)`` operator at the ``return``
+      command. This converts or **casts** the countsToDrive variable of
+      type ``double`` to type ``int``, to be compatible with the required
+      **return type**. Learn more about **type casting**
+      `here <https://www.w3schools.com/java/java_type_casting.asp>`__ or
+      `here <https://www.geeksforgeeks.org/type-conversion-java-examples/>`__.
 
-プログラマーとして、この例をさまざまな方法で変更できます。たとえば：
-- ドライブモーターとホイール間の**ギア比** を処理する
-- 2番目と3番目のパラメーターは、変更されない場合は **myBlock** に** ハードコード** できます
-- これらの 2つの変数は、**myBlock ではないメソッド** で初期化し、同じ Java クラスの複数の**myBlock** メソッドで使用できます
+As programmer, you could modify this example in many ways, such as: -
+handle a **gear ratio** between the drive motors and wheels - the second
+and third parameters could be **‘hard-coded’** into the myBlock, if they
+will never change - those 2 variables could be initialized in a
+**non-myBlock method** and used by multiple myBlock methods in that same
+Java class

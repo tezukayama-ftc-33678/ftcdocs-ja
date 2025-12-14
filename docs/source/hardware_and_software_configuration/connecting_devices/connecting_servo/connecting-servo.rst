@@ -1,21 +1,26 @@
-Hub へのサーボの接続
+Connecting a Servo to the Hub
 ==============================
 
-Hub には 6 つの組み込みサーボポートがあります。サーボポートは、サーボに一般的に見られる標準の 3 線ヘッダースタイルコネクタを受け入れます。グランドピンはサーボポートの左側にあることに注意してください。
+The Hub has 6 built-in servo ports. The servo ports accept the standard
+3-wire header style connectors commonly found on servos. Note that
+ground pin is on the left side of the servo port.
 
-このタスクを完了するには、推定 2.5 分かかります。
+Note that it will take an estimated 2.5 minutes to complete this task.
 
-Hub へのサーボの接続手順
+Connecting a Servo to the Hub Instructions
 ------------------------------------------
 
-1. サーボケーブルを Hub の「0」とラベル付けされたサーボポートに接続します。グランドピンはサーボポートの左側にあることに注意してください。       
+1. Connect the servo cable to the servo port labeled "0" on the Hub.  
+Note that the ground pin is on the left side of the servo port.       
 
 .. image:: images/ConnectingServoStep1.jpg
    :align: center
 
 |
 
-2. サーボケーブルの黒いグランド線が、サーボポートのグランドピン（ポートの左側に配置されている）と一致することを確認します。                                                            
+2. Verify that the black ground wire of the servo cable matches the   
+ground pin of the servo port (which is aligned on the left side of    
+the port).                                                            
 
 .. image:: images/ConnectingServoStep2.jpg
    :align: center

@@ -1,98 +1,131 @@
-Webcam の評価
+Evaluating Your Webcam
 ----------------------
 
-特定の Webcam のファームウェアは、ここで説明されている特定の機能をサポートする場合としない場合があります。**SDK** は、Webcam にクエリを実行したり、有効な応答が利用可能かどうかを示す値を返したりするいくつかのメソッドを提供します。
+The firmware of a specific webcam may or may not support certain
+features described here. The SDK provides some methods to query the
+webcam and/or return values that indicate whether a valid response was
+available.
 
-露出サポート
+Exposure Support
 ~~~~~~~~~~~~~~~~
 
-露出および特定の露出モードをクエリする2つのメソッドを次に示します：
+Here are two methods to query exposure and a specific exposure mode:
 
--  **isExposureSupported()**
--  **isModeSupported(ExposureControl.Mode._mode_)**
+-  isExposureSupported()
+-  isModeSupported(ExposureControl.Mode._mode_)
 
-   -  *mode* には、テストしている特定のモード名を入力します
+   -  for *mode*, enter the specific mode name you are testing
 
-次のメソッドでは、露出が利用できない場合、long 型の ``unknownExposure`` というフィールドが返されます：
+For the following methods, a field called ``unknownExposure`` of type
+long is returned if exposure unavailable: 
 
--  **getExposure(TimeUnit.MILLISECONDS)**
--  **getMinExposure(TimeUnit.MILLISECONDS)**
--  **getMaxExposure(TimeUnit.MILLISECONDS)**
+-  getExposure(TimeUnit.MILLISECONDS) 
+-  getMinExposure(TimeUnit.MILLISECONDS) 
+-  getMaxExposure(TimeUnit.MILLISECONDS)
 
-露出とモードを設定するメソッドは、Boolean を返すこともできます。おそらく、操作が成功したかどうかを示しています。オプションの例として：
+The methods that set the exposure and mode can also return a Boolean,
+presumably indicating whether the operation was successful or not. As
+optional examples: 
 
 - ``wasExposureSet =  setExposure(25);`` 
 - ``wasExposureModeSet = setMode(ExposureControl.Mode.Manual)``
 
-同様に、AE Priority 機能も Boolean を返すことができます。例：
+Likewise the AE Priority feature can return a Boolean. For example: 
 
 - ``wasAEPrioritySet =  setAePriority(true);``
 
-ゲインサポート
-~~~~~~~~~~~~~~
+Gain Support
+~~~~~~~~~~~~
 
-ゲインを設定するメソッドは、操作が成功したかどうかを示す Boolean を返すこともできます。オプションの例として：
+The method that sets the gain can also return a Boolean indicating
+whether the operation was successful or not. As an optional example: 
 
 - ``wasGainSet =  setGain(25);``
 
-ホワイトバランスサポート
-~~~~~~~~~~~~~~~~~~~~~~~~
+White Balance Support
+~~~~~~~~~~~~~~~~~~~~~
 
-温度とモードを設定するメソッドは、操作が成功したかどうかを示す Boolean を返すこともできます。オプションの例として：
+The methods that set temperature and mode can also return a Boolean,
+indicating whether the operation was successful or not. As optional
+examples:
 
 -  ``wasTemperatureSet = setWhiteBalanceTemperature(3000);``
 -  ``wasWhiteBalanceModeSet = setMode(WhiteBalanceControl.Mode.MANUAL);``
 
-フォーカスサポート
-~~~~~~~~~~~~~~~~~~
+Focus Support
+~~~~~~~~~~~~~
 
-フォーカスおよび特定のフォーカスモードをクエリする2つのメソッドを次に示します：
+Here are two methods to query focus and and a specific focus mode: 
 
-- **isFocusLengthSupported()**
-- **isModeSupported(FocusControl.Mode._mode_)**
+- isFocusLengthSupported() 
+- isModeSupported(FocusControl.Mode._mode_)
 
-次のメソッドは、要求されたフォーカス値が利用できない場合、**負の値** を返します。たとえば、Logitech C270 と Microsoft LifeCam VX-5000 は -1 を返します。Javadoc には、double 型の ``unknownFocusLength`` フィールドについても記載されています。
+The following methods return a **negative value** if the requested focus
+value is unavailable. For example, -1 is returned by the Logitech C270
+and the Microsoft LifeCam VX-5000. The Javadoc also mentions a field
+``unknownFocusLength`` of type double. 
 
 - getFocusLength() 
 - getMinFocusLength() 
 - getMaxFocusLength()
 
-フォーカス長とモードを設定するメソッドは、おそらく操作が成功したかどうかを示す Boolean を返すこともできます。オプションの例として：
+The methods that set the focus length and mode can also return a
+Boolean, presumably indicating whether the operation was successful or
+not. As optional examples: 
 
 - ``wasFocusSet =  setFocusLength(25);`` 
 - ``wasFocusModeSet = setMode(FocusControl.Mode.Fixed)``
 
-PTZ サポート
-~~~~~~~~~~~~
+PTZ Support
+~~~~~~~~~~~
 
-パン/チルトペアとズーム値を設定するメソッドは、おそらく操作が成功したかどうかを示す Boolean を返すこともできます。オプションの例として：
+The methods that set the pan/tilt pair and zoom value can also return a
+Boolean, presumably indicating whether the operation was successful or
+not. As optional examples: 
 
 - ``wasPanTiltSet =  setPanTilt(myHolder);``
 - ``wasZoomSet = setZoom(3)``
 
-PTZ の get() メソッドでは、一部の Webcam はサポートされていない値に対して単に**ゼロを返す** だけです。
+For PTZ get() methods, some webcams simply **return zero** for
+unsupported values.
 
-いくつかの注意事項
-------------------
+Some Caveats
+------------
 
--  **SDK** は、`UVC 標準 <https://en.wikipedia.org/wiki/USB_video_device_class>`__ に準拠する Webcam をサポートしています
+-  the SDK supports webcams conforming to the `UVC
+   standard <https://en.wikipedia.org/wiki/USB_video_device_class>`__
 
-   -  多くの非 UVC Webcam は、UVC 認証がなくても、競技会でうまく機能します
-   -  一部の非 UVC Webcam は Configure Robot にリストされますが、実行時に RC アプリをクラッシュさせます
+   -  many non-UVC webcams work well in competition, despite lacking UVC
+      certification
+   -  some non-UVC webcams can be listed in Configure Robot, but crash
+      the RC app at runtime
 
--  Webcam は、プラグを抜いても、割り当てられた露出モードまたはフォーカスモードを保持する場合があります
+-  webcams may retain an assigned Exposure Mode or Focus Mode, even if
+   unplugged
 
-   -  常に現在のモードを確認してください
+   -  always verify the current mode
 
--  特定の露出値の場合、あるモードのプレビューは、別のモードのプレビューとは大きく異なる場合があります
--  一部の Webcam は、**サポートされていないモード** を**accept**/ ``set()`` し、**confirm** /``get()`` します
--  Logitech C270 のプレビューは、露出 655 まで**明るく** なり、656 で**暗く** なります
+-  for a given exposure value, one mode’s preview may look very
+   different than another mode’s preview
+-  some webcams **accept** / ``set()`` and **confirm** / ``get()`` a
+   **non-supported mode**
+-  Logitech C270 preview becomes **lighter** up to exposure 655, then
+   rolls over to **dark** at 656
 
-   -  この Webcam の最小値は 0、最大値は 1000 です。
+   -  this webcam’s Min is 0, Max is 1000.
 
--  Logitech V-UAX16 のプレビューは、露出 = 0 で正常に見えますが、30-40 まで**暗く** なります
--  Logitech C920 の**ゲイン** 値（0-255）は、プレビュー品質に大きく影響し、**露出** （0-204）に匹敵します
--  Webcam **OpMode** がクラッシュした後、RC アプリの再起動が必要になる場合があります
--  ファームウェアバージョンは、同じモデル番号の Webcam 間で異なる場合があります
+-  Logitech V-UAX16 preview looks normal at exposure = 0, becomes
+   **darker** up to 30-40
+-  Logitech C920 **gain** value (0-255) greatly influences preview
+   quality, comparable to **exposure** (0-204)
+-  restarting the RC app is sometimes needed after a webcam OpMode
+   crashes
+-  firmware versions may vary among webcams of the same model number
 
-最後に、ここでの一部の機能は、`OpenCV <https://opencv.org/>`__ や `EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`__ などの外部ライブラリの助けを借りて実装または強化される可能性があります。その可能性は、この基本チュートリアルでは説明されていません。別のチュートリアルでは、**Blocks** と**OnBot Java** での `外部ライブラリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-Blocks>`__ の一般的な使用について説明しています。
+Lastly, some features here may be implemented or enhanced with the help
+of an external library such as `OpenCV <https://opencv.org/>`__ or
+`EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`__. That potential
+is not covered in this basic tutorial. A separate tutorial covers the
+general use of `External
+Libraries <https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-Blocks>`__
+in Blocks and OnBot Java.

@@ -1,12 +1,21 @@
 .. meta::
-   :title: Driver Station 概要
-   :description: FTC Driver Station のさまざまなコンポーネントの概要
+   :title: Driver Station Overview
+   :description: An overview of the various components of the FTC Driver Station
    :keywords: FTC Docs, FIRST Tech Challenge, DS
 
-Driver Station 概要
+Driver Station Overview
 =======================
 
-これらの画像は、**Driver Station** を作成するために通常使用されるコンポーネントの基本的な接続図を示しています。これらのコンポーネントは、通常 *FIRST* ストアフロント（「制御と通信」キット内）から購入されています。これらの構成はサンプル接続を示しており、これらのコンポーネントを接続する唯一可能な方法を示しているわけではありません。これらの画像は、チームがコンポーネント管理と輸送に使用することが推奨されている `Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`__ の使用を表しているわけでもありません。**OPERATOR CONSOLE** の詳細については、競技マニュアルを参照してください。
+These images represent a basic connection diagram for the components that have
+typically been used to create a Driver Station. These components have
+typically been purchased from the *FIRST* Storefront (in the "Control and
+Communication" kit). These configurations show sample connections, and in no
+way represent the only possible way of connecting these components. These
+images also do not represent using a 
+`Driver Station Carrier <https://www.thingiverse.com/thing:3386378>`_, 
+which is recommended for teams to use for component management and
+transportation. See the Competition Manual for more information 
+on *OPERATOR CONSOLES*.
 
 .. tab-set::
 

@@ -1,5 +1,5 @@
-リファレンスドキュメント :bdg-warning:`Blocks`
-==============================================
+Reference Documents :bdg-warning:`Blocks`
+==========================================
 
 .. toctree::
 

@@ -15,7 +15,7 @@ explanatory document focuses primarily on **rotation**.
 
 The `Software SDK
 <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__
-**version 8.1**introduced a**universal interface** that supports both the
+**version 8.1** introduced a **universal interface** that supports both the
 BHI260AP and BNO055 IMU. This basic tutorial introduces some new features: 
 
 -  robot configuration allows selection of IMU type 
@@ -28,7 +28,7 @@ Teams wanting to use the newer IMU are required to:
 - update the Control Hub OS to 1.1.3 or newer.  
 
 However **all teams** are encouraged to begin using the universal IMU classes
-and methods for **new**Blocks and Java code. And, migrating**existing code**
+and methods for **new** Blocks and Java code. And, migrating **existing code**
 would allow you to switch easily (and perhaps urgently) to a new Control Hub
 during the season.
 
@@ -36,7 +36,7 @@ Don’t know which IMU you have? Check the **Manage** page under ``Program &
 Manage`` in any of these places: 
 
 -  connected Driver Station (DS) app 
--  connected computer’s Chrome browser, at ``http://192.168.43.1:8080``(Control Hub) or``http://192.168.49.1:8080`` (RC phone) 
+-  connected computer’s Chrome browser, at ``http://192.168.43.1:8080`` (Control Hub) or ``http://192.168.49.1:8080`` (RC phone) 
 -  REV Hardware Client (when Hub LED is green)
 
 Each Hub’s IMU type is listed there, as of SDK 8.0.
@@ -68,7 +68,7 @@ The SDK 8.1 README provides more technical background:
    | mounting orientations.
    | ...
    | If you have calibrated your BNO055, you can provide that calibration data to
-   | the new ``IMU``interface by passing a``BNO055IMUNew.Parameters`` instance
+   | the new ``IMU`` interface by passing a ``BNO055IMUNew.Parameters`` instance
    | to ``IMU.initialize()``.
    | ...
    | Because of the new robot-centric coordinate system, the pitch and roll
@@ -108,7 +108,7 @@ placed robots on **tilted surfaces**:
    (Block Party!, *FIRST* RES-Q, Relic Recovery, Face Off!, Get Over It!)
 
 Such fields, and special circumstances in **any** *FIRST* Tech Challenge game,
-may cause teams to seek IMU readings for **Pitch**and**Roll** angles.
+may cause teams to seek IMU readings for **Pitch** and **Roll** angles.
 
 Examples might include: 
 
@@ -129,7 +129,7 @@ Robot configuration of the IMU is **automatic**, and shouldn’t need changes.
 But here’s how to confirm or rename your configured IMU.
 
 In a connected DS app, touch the 3-dots icon at top right, then touch
-``Configure Robot``. For any new or existing Configuration, touch``Control Hub
+``Configure Robot``. For any new or existing Configuration, touch ``Control Hub
 Portal``, then select the Hub with the IMU you want to use. Typically this will
 be the Control Hub, whether old or new.
 
@@ -152,7 +152,7 @@ be the Control Hub, whether old or new.
    Blocks and Java. You may enter a custom name here, but you must then
    **update** all your OpModes that reference the IMU.
 
-When done, **save**and**activate** this configuration.
+When done, **save** and **activate** this configuration.
 
 *If a Blocks OpMode is open at the computer’s programming screen, close and
 re-open that OpMode to capture this updated configuration. Blocks are provided
@@ -212,7 +212,7 @@ movement.
 
 Before jumping into programming, let’s discuss your options for
 physically mounting the Hub on the robot. In general, the Hub’s mounting
-can be considered **Orthogonal**or**Non-Orthogonal**.
+can be considered **Orthogonal** or **Non-Orthogonal**.
 
 Orthogonal Mounting
 ^^^^^^^^^^^^^^^^^^^
@@ -427,7 +427,7 @@ There are **three ways** to describe the Hub’s orientation, using IMU
 parameters. One is for Orthogonal mounting, and two are for Non-Orthogonal
 mounting. Choose the simplest method that applies to your robot.
 
-As an example, in the *FIRST* Tech Challenge Blocks menu under ``Sensors``and``IMU``, you
+As an example, in the *FIRST* Tech Challenge Blocks menu under ``Sensors`` and ``IMU``, you
 can find these three methods for specifying parameters:
 
 .. figure:: images/045-Blocks-parameters-toolbox-labels.png
@@ -555,7 +555,7 @@ rotations in that order. Thus the “first angle” is the Z axis, the
 “second angle” is the Y axis, and the “third angle” is the X axis.
 
 So the Hub will be rotated as follows: +90 degrees about **Z**, no
-rotation about **Y**, then -45 degrees about**X** (in its new
+rotation about **Y**, then -45 degrees about **X** (in its new
 direction).
 
 For the Angles method, the assumed initial Hub position is REV Logo 
@@ -820,7 +820,7 @@ about the robot, using the robot’s axes.
    right-hand rule.*
 
 For all axes, IMU angles are provided in the range of **-180 to +180
-degrees** (or from ``-Pi``to``+Pi`` radians). If you are working
+degrees** (or from ``-Pi`` to ``+Pi`` radians). If you are working
 with values that might cross the +/- 180-degree transition, handle this
 with your programming. That’s beyond the scope of this IMU tutorial.
 
@@ -841,7 +841,7 @@ Here's an example of reading IMU Angles:
 
          Get Yaw-Pitch-Roll Angles
  
-      From the **YawPitchRollAngles**palette under**Utilities**, use the
+      From the **YawPitchRollAngles** palette under **Utilities**, use the
       green Blocks to read each angle from the Variable you just created.
 
       .. figure:: images/305-Blocks-extract-angles.png
@@ -907,7 +907,7 @@ specify a **custom order** of axis rotations, and a choice of intrinsic
 or extrinsic axes.
 
 *Again, IMU angles are provided in the range of -180 to +180 degrees (or
-from* ``-Pi``*to*``+Pi`` *radians).*
+from* ``-Pi`` *to* ``+Pi`` *radians).*
 
 Here is an example use of these functions:
 

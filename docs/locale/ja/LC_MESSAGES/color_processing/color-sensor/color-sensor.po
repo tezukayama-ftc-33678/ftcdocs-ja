@@ -1,0 +1,619 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-14 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:2
+msgid "Color Processing Color Sensor"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:5
+msgid "Overview"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:7
+msgid ""
+"A simple way to use FTC's new OpenCV vision tools is to operate a \"Color"
+" Sensor\".  Namely, it can determine **the color seen by the robot's "
+"camera**\\ , in a specified zone."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:11
+msgid "Below, the small central rectangle is the region being evaluated:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:18
+msgid "INTO THE DEEP game pieces"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:18
+msgid "Color sensor detection zone"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:20
+msgid ""
+"A key benefit is that the camera can be much further away from the object"
+" than, for example, a REV Color Sensor or others like it."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:23
+msgid ""
+"It's still important to accurately point the camera and carefully select "
+"the image zone to inspect."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:26
+msgid "For the above example, OpenCV can provide results like this:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:33
+msgid "Driver Station App showing RED detection"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:33
+msgid "RED Detection using Color Sensor"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:35
+msgid "The following sections describe how to do this, with a Sample OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:38
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:40
+msgid "*Skip this section if ...*"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:43
+msgid "*the active robot configuration already contains \"Webcam 1\"*, or"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:44
+msgid "*using the built-in camera of an Android phone as Robot Controller.*"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:46
+msgid ""
+"Before starting the programming, REV Control Hub users should make a "
+"robot configuration that includes the USB webcam to be used as a color "
+"sensor."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:49
+msgid ""
+"For now, use the default webcam name, \"Webcam 1\".  If a different name "
+"is preferred, edit the Sample OpMode to agree with the exact webcam name "
+"in the robot configuration."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:53
+msgid ""
+"Save and activate that configuration; its name should appear on the "
+"paired Driver Station screen."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:57
+msgid "Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:60
+msgid "Opening the Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:62
+msgid ""
+"To learn about opening the Sample OpMode, click the tab for Blocks or "
+"Java:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+msgid "Blocks"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:68
+msgid ""
+"On a laptop or desktop computer connected via Wi-Fi to the Robot "
+"Controller, open the Chrome browser.  Go to the REV Control Hub's address"
+" ``http://192.168.43.1:8080`` (or ``http://192.168.49.1:8080`` for "
+"Android RC phone) and click the *Blocks* tab."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:74
+msgid ""
+"Click ``Create New OpMode``\\ , enter a new name such as "
+"\"ColorSensor_Maria_v01\", and select the Sample OpMode "
+"``ConceptVisionColorSensor``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:78
+msgid ""
+"At the top of the Blocks screen, you can change the type from \"TeleOp\" "
+"to \"Autonomous\", since this Sample OpMode does not use gamepads."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:81
+msgid ""
+"If using the built-in camera of an RC phone, drag out the relevant Block "
+"from the left-side ``VisionPortal.Builder`` toolbox."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:84
+msgid "Save the OpMode, time to try it!"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+msgid "Java"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:90
+msgid "Open your choice of OnBot Java or Android Studio."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:92
+msgid ""
+"In the ``teamcode`` folder, add/create a new OpMode with a name such as "
+"\"ColorSensor_Bobby_v01.java\", and select the Sample OpMode "
+"``ConceptVisionColorSensor.java``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:96
+msgid ""
+"At about Line 58, you can change ``@TeleOp`` to ``@Autonomous``\\ , since"
+" this Sample OpMode does not use gamepads."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:99
+msgid ""
+"If using the built-in camera of an RC phone, follow the OpMode comments "
+"to specify that camera."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:102
+msgid "Click \"Build\", time to try it!"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:105
+msgid "Running the Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:107
+msgid "On the Driver Station:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:109
+msgid "Select the Autonomous OpMode that you just saved or built."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:110
+msgid "Turn off the automatic 30-second match timer (green slider)."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:111
+msgid "Touch INIT only."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:113
+msgid ""
+"The OpMode should give Telemetry, stating the main \"matched\" color "
+"inside the Region of Interest."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:120
+msgid "Driver Station Telemetry"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:122
+msgid ""
+"Move the camera around, and watch the Telemetry area on the Driver "
+"Station screen.  It should state \"BLUE\" when pointing at a blue object,"
+" and likewise should identify other common colors."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:126
+msgid ""
+"**It's working!**  You have a color sensor in your robot camera.  Think "
+"about how to use this in the FTC Robot Game."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:129
+msgid "*Skip the next two sections if you already know how to use FTC previews.*"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:132
+msgid "DS Preview"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:134
+msgid ""
+"Before describing how to modify the OpMode, this page offers two sections"
+" showing how to view the OpenCV results with **previews**.  Previewing is"
+" essential for working with vision code."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:138
+msgid "**Opening the DS Preview**"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:140
+msgid ""
+"On the Driver Station (DS), remain in INIT -- don't touch the Start "
+"button."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:141
+msgid ""
+"At the top right corner, touch the 3-dots menu, then ``Camera Stream``. "
+"This shows the camera's view; tap the image to refresh it."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:149
+msgid "Camera Stream Preview"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:151
+msgid ""
+"Drawn on the image is the rectangle being evaluated, called the **Region "
+"of Interest** (ROI).  The ROI border color is the rectangle's predominant"
+" color, reported to DS Telemetry."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:155
+msgid ""
+"If that border \"disappears\" against a solid-color background, the thin "
+"white cross-hairs and 4 small white dots can still identify the ROI."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:158
+msgid "For a BIG preview, touch the arrows at the bottom right corner."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:160
+msgid ""
+"Or, select Camera Stream again, to return to the previous screen and its "
+"Telemetry."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:164
+msgid "RC Preview"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:166
+msgid ""
+"The Robot Controller (RC) device also makes a preview, called "
+"``LiveView``. This is full video, and is shown automatically on the "
+"screen of an RC phone."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:174
+msgid "Control Hub LiveView"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:176
+msgid "The above preview is from a REV Control Hub."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:178
+msgid ""
+"It has no physical screen, so you must plug in an HDMI monitor **or** use"
+" open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "
+"\"screen copy\") to see the preview on a laptop or computer that's "
+"connected via Wi-Fi to the Control Hub."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:184
+msgid "Modify the Sample"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:186
+msgid ""
+"This Sample OpMode is designed for the user to select/edit **two "
+"inputs**\\ :"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:189
+msgid "define the Region of Interest (ROI)"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:190
+msgid "list the colors that might be found"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:192
+msgid "For the **first input**, there are 3 ways to define the ROI:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:194
+msgid "entire frame"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:195
+msgid "sub-region, defined with standard image coordinates"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:196
+msgid "sub-region, defined with a normalized +/- 1.0 coordinate system"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:198
+msgid ""
+"For the **second input**, you must list the candidate colors from which a"
+" result will be selected as a \"Match\"."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:201
+msgid ""
+"Simply choose from the 10 \"Swatches\": RED, ORANGE, YELLOW, GREEN, CYAN,"
+" BLUE, PURPLE, MAGENTA, BLACK, WHITE.  For efficiency, add only those "
+"Swatches for which you reasonably expect to get a match."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:205
+msgid ""
+"**The Blocks and Java OpModes contain detailed comments to guide you "
+"through these edits.**  They are not repeated in this tutorial."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:209
+msgid "Building the VisionPortal"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:211
+msgid ""
+"The Sample OpMode first creates a \"Predominant Color\" **Processor** "
+"using the **Builder** pattern.  This is the same Builder pattern used to "
+"create an AprilTag Processor, and previously a TensorFlow Processor."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:215
+msgid ""
+"The Sample OpMode then creates a **VisionPortal**, again using a Builder "
+"pattern.  This includes adding the \"Predominant Color\" Processor to the"
+" VisionPortal."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:219
+msgid ""
+"How does OpenCV determine the \"predominant color\" of the ROI?  An "
+"algorithm called `\"k-means\" "
+"<https://en.wikipedia.org/wiki/K-means_clustering>`_ determines clusters "
+"of similar colors.  The color of the cluster with the most pixels is "
+"called \"predominant\" here. *(This will NOT be on the final.)*"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:225
+msgid "Testing the Result"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:227
+msgid ""
+"After trying and learning how the commands work, you can incorporate this"
+" Color Sensor into your Autonomous and/or TeleOp OpModes."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:230
+msgid ""
+"As seen in the OpMode's Telemetry section, the result is called "
+"``closestSwatch`` and appears as a word (RED, BLUE, etc.).  But this is "
+"not plain text!"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:234
+msgid ""
+"**Testing**, or comparing, for a particular color-match must be done as "
+"follows.  Select and read the Blocks **or** Java section below:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:241
+msgid ""
+"At the left side, pull out the following multi-Block from "
+"``Vision/PredominantColor/Processor``:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+#: ../../source/color_processing/color-sensor/color-sensor.rst:248
+msgid "Closest Swatch Comparison"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:250
+msgid ""
+"You must use this special Block to determine if the result is (for "
+"example) RED."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:252
+msgid ""
+"Why?  The result, called ``closestSwatch`` is not **text** (yes it seems "
+"like text!).  It's a type called ``Swatch`` and can be compared only to "
+"another ``Swatch``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:259
+msgid "In the sample OpMode, here's the Telemetry that gives the result:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:265
+msgid "This displays as text, but this is **not** Java type ``String``!"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:267
+msgid "Here's how to determine if the result is (for example) RED:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:273
+msgid ""
+"Why?  The result, called ``closestSwatch`` is of type ``Swatch`` and can "
+"be compared only to another ``Swatch``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:278
+msgid "OpMode Programming"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:280
+msgid ""
+"The Color Sensor part of your team's Autonomous OpMode might include "
+"these goals:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:283
+msgid "Seek a color, using the code from this Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:284
+msgid "Take a robot action, based on finding that color"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:286
+msgid "If so, select and read the Blocks **or** Java section below:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:292
+msgid "Beginners often try this first:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+#: ../../source/color_processing/color-sensor/color-sensor.rst:299
+msgid "Wrong way to act upon match result"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:301
+msgid ""
+"The problem is, after the robot does the action for RED, the OpMode is "
+"still inside the vision loop.  Very messy and unpredictable."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:304
+msgid ""
+"A better approach is to save the result (as text!), exit the loop, then "
+"retrieve the stored result to take the desired RED action."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+#: ../../source/color_processing/color-sensor/color-sensor.rst:312
+msgid "Right way to act upon match result"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:314
+msgid ""
+"How to exit the vision loop?  It could be based on `time "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-"
+"in-FTC-Blocks>`_ , or finding a particular color, or finding a particular"
+" color 10 times in a row, or finding only a particular color for 1 full "
+"second, or any other desired criteria."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:323
+msgid ""
+"The color result is generated inside a vision loop.  Save the result (as "
+"text!), exit the loop, then retrieve the stored result to take the "
+"desired RED action."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:343
+msgid ""
+"How to exit the vision loop?  It could be based on time, or finding a "
+"particular color, or finding a particular color 10 times in a row, or "
+"finding only a particular color for 1 full second, or any other desired "
+"criteria."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:349
+msgid "Advanced Use"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:351
+msgid ""
+"Some teams may prefer to read and evaluate the **actual RGB color "
+"values**, rather than rely on a generic Swatch result."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:354
+msgid ""
+"RGB is a **Color Space** that uses three numerical components of Red, "
+"Green and Blue.  Values range from 0 to 255.  For more info, see this "
+"tutorial's :doc:`Color Spaces <../color-spaces/color-spaces>` page."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:358
+msgid ""
+"Extracting the RGB components can be seen in the Telemetry portion of the"
+" Sample OpMode.  Click the Blocks or Java tab:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:365
+#: ../../source/color_processing/color-sensor/color-sensor.rst:380
+msgid "Here are the RGB components of the ROI's predominant color:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+msgid "Finding color by RGB"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:372
+msgid ""
+"Note: the ``Color`` Block has a drop-down list that includes Hue, "
+"Saturation and Value.  Those settings will **not work** here, to produce "
+"components in the HSV Color Space, because the source Block provides only"
+" RGB color (its method name is ``.rgb``\\ )."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:382
+msgid "``Color.red(result.rgb)``"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:383
+msgid "``Color.green(result.rgb)``"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:384
+msgid "``Color.blue(result.rgb)``"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:386
+msgid ""
+"For Blocks or Java, those component values can be assigned to numeric "
+"variables, with names like ``ROIRedValue``, ``ROIGreenValue``, and "
+"``ROIBlueValue``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:390
+msgid "Now your code can process those RGB variables as desired."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:393
+msgid "Next Sections"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:395
+msgid "Soon you can move ahead to try the **Color Locator** processor."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:397
+msgid ""
+"But first, learn a few basic concepts at this tutorial's :doc:`Color Blob"
+" Concepts <../color-blob-concepts/color-blob-concepts>` page."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:402
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""
+

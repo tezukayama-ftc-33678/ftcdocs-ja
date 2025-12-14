@@ -1,14 +1,23 @@
-センサーの使用 :bdg-info:`OBJ`
-=====================================
+Using Sensors :bdg-info:`OBJ`
+=============================
 
-Color-Distance センサー
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Color-Distance Sensor
+~~~~~~~~~~~~~~~~~~~~~
 
-センサーは、**Robot Controller** が環境に関する情報を取得できるようにするデバイスです。この例では、**REV Robotics**Color-Distance センサーを使用して、範囲（オブジェクトからの距離）情報を**Driver Station** に表示します。
+A sensor is a device that lets the Robot Controller get information
+about its environment. In this example, you will use a REV Robotics
+Color-Distance sensor to display range (distance from an object) info to
+the driver station.
 
-Color-Range センサーは反射光を使用して、センサーからターゲットオブジェクトまでの距離を測定します。合理的な精度で近距離（5インチ以上）を測定するために使用できます。このドキュメントが最後に編集された時点で、REV Color-Range センサーは約2インチ（5cm）で飽和することに注意してください。これは、2インチ以下の距離では、センサーが約2インチに等しい測定距離を返すことを意味します。
+The Color-Range sensor uses reflected light to determine the distance
+from the sensor to the target object. It can be used to measure close
+distances (up 5" or more) with reasonable accuracy. Note that at the
+time this document was most recently edited, the REV Color-Range sensor
+saturates around 2" (5cm). This means that for distances less than or
+equal to 2", the sensor returns a measured distance equal to 2" or so.
 
-**Op Mode** を変更して、距離情報（センチメートル単位）を**Driver Station** に送信するテレメトリステートメントを追加します。
+Modify your op mode to add a telemetry statement that will send the
+distance information (in centimeters) to the Driver Station.
 
 .. code-block:: java
 
@@ -19,23 +28,37 @@ Color-Range センサーは反射光を使用して、センサーからター�
    telemetry.addData("Status", "Running");
    telemetry.update();
 
-**Op Mode** を変更した後、ビルドボタンを押してから**Op Mode** を実行し、**Driver Station** に距離が表示されることを確認します。距離が「NaN」（「Not a Number」の略）と表示される場合は、センサーがターゲットから遠すぎる（反射がゼロ）ことを意味している可能性があります。また、センサーは約5cmで飽和することにも注意してください。
+After you have modified your op mode, push the build button, then run
+the op mode to verify that it now displays distance on your Driver
+Station. Note that if the distance reads "NaN" (short for "Not a
+Number") it probably means that your sensor is too far from the target
+(zero reflection). Also note that the sensor saturates at around 5 cm.
 
-タッチセンサー
-~~~~~~~~~~~~~~
+Touch Sensor
+~~~~~~~~~~~~
 
-**REV Robotics** タッチセンサーは、**Control Hub** または**Expansion Hub** のデジタルポートに接続できます。タッチセンサーは、押されていない場合は HIGH（TRUE を返す）です。押されると LOW（FALSE を返す）に引き下げられます。
+The REV Robotics Touch Sensor can be connected to a digital port on the
+Control Hub or Expansion Hub. The Touch Sensor is HIGH (returns TRUE) when it is not
+pressed. It is pulled LOW (returns FALSE) when it is pressed.
 
 .. image:: images/REVTouchSensor.jpg
    :align: center
 
 |
 
-**Control Hub** または**Expansion Hub** のデジタルポートには、ポートごとに2つのデジタルピンが含まれています。4線式 JST ケーブルを使用して**REV Robotics** タッチセンサーを**Control Hub** または**Expansion Hub** のデジタルポートに接続すると、タッチセンサーはポート内の2つのデジタルピンのうち2番目のピンに配線されます。4線式ケーブルの最初のデジタルピンは未接続のままです。
+The Control Hub or Expansion Hub digital ports contain two digital pins per port. When
+you use a 4-wire JST cable to connect a REV Robotics Touch sensor to a Control Hub or
+Expansion Hub digital port, the Touch Sensor is wired to the second of
+the two digital pins within the port. The first digital pin of the
+4-wire cable remains disconnected.
 
-例えば、タッチセンサーを **Control Hub** または**Expansion Hub** の「0,1」デジタルポートに接続すると、タッチセンサーはポートの2番目のピン（「1」とラベル付けされている）に接続されます。最初のピン（「0」とラベル付けされている）は未接続のままです。
+For example, if you connect a Touch Sensor to the "0,1" digital port of
+the Control Hub or Expansion Hub, the Touch Sensor will be connected to the second pin
+(labeled "1") of the port. The first pin (labeled "0") will stay
+disconnected.
 
-**Op Mode** 内の waitForStart コマンドの前に発生するコードを変更して、デジタルチャネルを入力モードに設定します。
+Modify the code in your op mode that occurs before the waitForStart
+command to set the digital channel for input mode.
 
 .. code-block:: java
 
@@ -47,7 +70,10 @@ Color-Range センサーは反射光を使用して、センサーからター�
    // Wait for the game to start (driver presses PLAY)
    waitForStart();
 
-また、while ループ内のコードを変更して、デジタル入力チャネルの状態をチェックする if-else ステートメントを追加します。チャネルが LOW（false）の場合、タッチセンサーボタンが押されており、グラウンドに LOW に引き下げられています。それ以外の場合、タッチセンサーボタンは押されていません。
+Also, modify the code in your while loop to add an if-else statement
+that checks the state of the digital input channel. If the channel is
+LOW (false), the touch sensor button is pressed and being pulled LOW to
+ground. Otherwise, the touch sensor button is not pressed.
 
 .. code-block:: java
 
@@ -63,5 +89,7 @@ Color-Range センサーは反射光を使用して、センサーからター�
    telemetry.addData("Status", "Running");
    telemetry.update();
 
-**Op Mode** を再ビルドしてから、**Op Mode** を再初期化して再起動します。**Op Mode** は、ボタンの状態（「PRESSED」または「NOT PRESSED」）を表示するようになります。
+Rebuild your op mode, then reinitialize and restart your op mode. The op
+mode should now display the state of the button ("PRESSED" or "NOT
+PRESSED").
 

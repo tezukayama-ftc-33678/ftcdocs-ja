@@ -1,22 +1,41 @@
-自動露出優先度
-===============
+AE Priority
+=============
 
-**AE Priority** （自動露出優先度）は、特定の露出時間を選択する際にガイドとして使用できる設定です。
+Auto-Exposure Priority is a setting within the ExposureControl
+interface. It’s listed here at the end, not likely to be needed in 
+since it it operates in very low lighting.
 
-AE Priority を ``true`` に設定すると、カメラは手動で設定された露出時間をより重視し、同時にフレームレートをより柔軟に扱うことができます。これは、高速シャッタースピードが必要な場合（モーションブラーを削減するため）や、長い露出時間が必要な場合（暗い環境で）に役立ちます。
+What does it do? Imagine that the webcam is operating at its default
+frame rate, for example 30 frames per second (fps). *Note that frame
+rate is not covered in this basic tutorial.*
 
-AE Priority を ``false`` に設定すると（デフォルト）、カメラはフレームレートをより重視し、露出時間を調整してフレームレートを維持します。
+If the webcam’s built-in auto-exposure detects that the image is very
+dark, AE Priority **allows the frame rate to decrease**. This slowdown,
+or ‘undershoot’, allows more light per frame, which can ‘brighten’ the
+image.
 
-.. code:: java
+Its methods are: 
 
-   ExposureControl exposureControl;
-   exposureControl = vuforia.getCamera().getControl(ExposureControl.class);
-   exposureControl.setAePriority(true);  // または false
+-  setAePriority(boolean priority) 
+-  getAePriority()
 
-このメソッドは **SDK** 7.0 で導入されました。これは**Vuforia** カメラでのみ機能します（**AprilTag** プロセッサーまたは TFOD プロセッサーと組み合わせて使用する場合）。
+These AE Priority methods are called on an ExposureControl object, as
+described above.
 
-**VisionPortal** では、AE Priority は ``VisionPortal.Builder.setCameraMonitorViewId()`` を使用してカメラモニター（DS プレビュー）が有効になっている場合にのみ機能します。
+.. figure:: images/500-AE-Priority.png
+   :align: center
 
-実験によると、AE Priority が ``true`` に設定されている場合、より長い露出時間（約 40 ミリ秒まで）を設定できます。AE Priority が ``false`` に設定されている場合（デフォルト）、露出時間は約 16 ミリ秒に制限されるようです。
+   Two examples of AE Priority
 
-注：露出時間の設定方法については、:doc:`露出制御 </programming_resources/vision/webcam_controls/exposure/control/control>` を参照してください。
+
+Here are two pairs of previews, each with AE Priority off and on. In
+both pairs, the ambient light level is very low. These results are from
+a Logitech C270 webcam.
+
+The Exposure=0 recognition here was made before reducing exposure and
+gain. When testing ‘instant’ results, AE Priority could improve the
+chance of recognition.
+
+Again, this effect is triggered only in very low lighting, not expected in
+competition. If the building loses all power, Duck recognition becomes… less
+essential.

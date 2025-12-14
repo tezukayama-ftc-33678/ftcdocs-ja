@@ -1,76 +1,111 @@
-Op Mode の作成と実行 :bdg-info:`OBJ`
+Creating and Running an Op Mode :bdg-info:`OBJ`
 ===============================================
 
-Java プログラミング言語
+The Java Programming Language
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-このチュートリアルは、Javaプログラミング言語について十分な理解があることを前提としています。Javaを知らない場合は、ビジュアル開発ツールである **Blocks** プログラミングツールの使用を検討してください。**Blocks** プログラミングツールに関する情報は、以下のリンクで確認できます：
+This tutorial assumes that you have a sound understanding of the Java
+programming language. If you do not know Java, then you should consider
+using the Blocks Programming Tool, which is a visual development
+tool. Information about the Blocks Programming Tool can be found at
+the following link:
 
-:doc:`Blocks チュートリアル <../../../blocks/Blocks-Tutorial>`
+:doc:`Blocks Tutorial <../../../blocks/Blocks-Tutorial>`
 
-または、以下のアドレスで入手可能なOracle Javaチュートリアルを完了することで、Javaプログラミング言語を学ぶことができます：
+Or, you can learn the Java programming language by completing the Oracle
+Java Tutorial, which is available at the following address:
 
 https://docs.oracle.com/javase/tutorial/
 
-Op Mode とは？
+What's an Op Mode?
 ~~~~~~~~~~~~~~~~~~
 
-典型的な **FIRST Tech Challenge** のマッチでは、チームのロボットはポイントを獲得するために様々なタスクを実行する必要があります。例えば、チームはロボットに競技フィールド上の白い線を追従させ、マッチ中に自律的にゲーム要素をゴールに入れることを望むかもしれません。チームは、ロボットの動作を指定するために *Op Mode*（「operational modes」の略）と呼ばれるプログラムを作成します。これらの **Op Mode** は、**DRIVER STATION** デバイスで選択された後、**Robot Controller** スマートフォン上で実行されます。
+During a typical FIRST Tech Challenge match, a team's robot must perform
+a variety of tasks to score points. For example, a team might want their
+robot to follow a white line on the competition floor and then score a
+game element into a goal autonomously during a match. Teams write
+programs called *op modes* (which stands for "operational modes") to
+specify the behavior for their robot. These op modes run on the Robot
+Controller phone after being selected on the DRIVER STATION device.
 
-**FIRST Tech Challenge** に参加しているチームは、独自の**Op Mode** を作成するために使用できる様々なプログラミングツールを持っています。このドキュメントでは、**OnBot Java** プログラミングツールを使用してロボット用の**Op Mode** を作成する方法を説明します。
+Teams who are participating in the FIRST Tech Challenge have a variety
+of programming tools that they can use to create their own op modes.
+This document explains how to use the OnBot Java Programming Tool to
+write an op mode for a robot.
 
-OnBot Java プログラミングツール
+The OnBot Java Programming Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**OnBot Java** プログラミングツールは、**Robot Controller** スマートフォンによって提供されるユーザーフレンドリーなプログラミングツールです。ユーザーはこのツールを使用してロボット用のカスタム**Op Mode** を作成し、それらの**Op Mode** を**Robot Controller** に直接保存できます。ユーザーはJavaを使用して**Op Mode** を作成します。**Op Mode** は**Robot Controller** 上で非常に迅速にコンパイルされ、実行時に**Robot Controller** によって動的にロードされます。
+The OnBot Java Programming Tool is a user-friendly programming tool
+that is served up by the Robot Controller phone. A user can create
+custom op modes for their robot using this tool and then save these op
+modes directly onto the Robot Controller. Users write their op modes
+using Java. The op modes are compiled very quickly on the Robot
+Controller and then loaded dynamically by the Robot Controller during
+run time.
 
 .. image:: images/OnBotDoc001_MainScreen.jpg
    :align: center
 
 |
 
-このドキュメントの例では、Windowsのノートパソコンを使用して **Robot Controller** に接続します。このWindowsノートパソコンには、**OnBot Java** プログラミングツールにアクセスするために使用されるJavaScript対応のWebブラウザがインストールされています。
+The examples in this document use a Windows laptop computer to connect
+to the Robot Controller. This Windows laptop computer has a
+Javascript-enabled web browser installed that is used to access the 
+OnBot Java Programming Tool.
 
 .. image:: images/BlocksPicture2b.jpg
    :align: center
 
 |
 
-なお、**Robot Controller** としてAndroidスマートフォンを使用している場合も、**Op Mode** の作成と編集に使用するプロセスは同じです。
+Note that the process used to create and edit an op mode is identical if
+you are using an Android phone as your Robot Controller.
 
 .. image:: images/BlocksPicture2.jpg
    :align: center
 
 |
 
-なお、Windowsコンピューターの代わりに、Apple Macノートパソコン、Chromebook、またはiPadなどの代替デバイスを使用して **OnBot Java** プログラミングツールにアクセスすることもできます。ただし、このドキュメントに含まれる手順は、Windowsノートパソコンを使用していることを前提としています。
+Note that if you prefer, you can use an alternate device, such as an
+Apple Mac laptop, Chromebook, or an iPad instead of a Windows computer
+to access the OnBot Java Programming Tool. The instructions included in
+this document, however, assume that you are using a Windows laptop.
 
-なお、このwikiのこのセクションは、Androidデバイスとロボットハードウェアをすでにセットアップおよび構成していることを前提としています。また、ノートパソコンを **Robot Controller** デバイスのProgam & Manageサーバーに正常に接続していることも前提としています。
+Note that this section of the wiki assumes that you have already setup
+and configured your Android devices and robot hardware. It also assumes
+that you have successfully connected your laptop to the Progam & Manage
+server on the Robot Controller device.
 
-最初の Op Mode の作成
+Creating Your First Op Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ノートパソコンを **Robot Controller** のProgram & Manageワイヤレスネットワークに正常に接続できた場合、最初の**Op Mode** を作成する準備が整いました。このセクションでは、**OnBot Java** プログラミングツールを使用して、最初の**Op Mode** のプログラムロジックを作成します。
+If you connected your laptop successfully to the Program & Manage
+wireless network of the Robot Controller, then you are ready to create
+your first op mode. In this section, you will use the OnBot Java
+Programming Tool to create the program logic for your first op mode.
 
 
-最初の Op Mode を作成する手順
+Creating Your First Op Mode Instructions
 ----------------------------------------
 
-1. ノートパソコン上でWebブラウザを起動し（**FIRST** はGoogle Chromeの使用を推奨しています）、**Robot Controller** のProgram & Manage画面に表示されているWebアドレスを見つけます。
+1. Launch the web browser on your laptop (FIRST recommends using      
+Google Chrome) and find the web address that is displayed on the      
+Program & Manage screen of the Robot Controller. 
 
 .. image:: images/WritingFirstOpModeStep1aControlHub.jpg
    :align: center
 
 |
 
-.. important:: 注記: **Robot Controller** がAndroidスマートフォンの場合、Program & Manageサーバーにアクセスするためのアドレスは「192.168.49.1:8080」です。IPアドレスの第3オクテットの違いに注意してください（**Control Hub** は「49」ではなく「43」です）。
+.. important:: Note: If your Robot Controller is an Android smartphone, then the address to access the Program & Manage server is "192.168.49.1:8080". Notice the difference in the third octet of the IP addresses (the Control Hub has a "43" instead of a "49").
 
 .. image:: images/WritingFirstOpModeStep1a.jpg
    :align: center
 
 |
 
-   このWebアドレスをブラウザのアドレスフィールドに入力し、RETURNキーを押してProgram & Manage Webサーバーに移動します。
+   Type this web address into the address field of your browser and press RETURN to navigate to the Program & Manage web server.
 
 .. image:: images/WritingFirstOpModeStep1bControlHub.jpg
    :align: center
@@ -78,75 +113,103 @@ OnBot Java プログラミングツール
 |
 
 
-2. Webブラウザがプログラミングモードサーバーに接続されていることを確認します。プログラミングモードサーバーに正常に接続されている場合、**Robot Controller** コンソールが表示されます。
+2. Verify that your web browser is connected to the programming mode  
+server. If it is connected to the programming mode server             
+successfully, the Robot Controller Console should be displayed.       
 
 .. image:: images/WritingFirstOpModeStep2ControlHub.jpg
    :align: center
 
 |
 
-3. 画面上部にある *OnBotJava* という単語をクリックします。これにより、ブラウザが **OnBot Java** プログラミングモードに切り替わります。
+3. Click on the word *OnBotJava* towards the top of the screen. This  
+will switch the browser to OnBot Java Programming mode.               
 
 .. image:: images/OnBotDoc_Step3_OnBotJavaButton.jpg
    :align: center
 
 |
 
-4. **OnBot Java** ユーザーインターフェースを確認します。左側にはプロジェクトブラウザペインがあります。右上隅にはソースコード編集ペインがあります。右下隅にはメッセージペインがあります。
+4. Take a look at the OnBot Java user interface. On the left hand     
+side, there is the project browser pane. In the upper right hand      
+corner, there is the source code editing pane. In the lower right     
+hand corner, there is the message pane.  
 
 .. image:: images/OnBotDoc_Step4_OnBotScreen.jpg
    :align: center
 
 |
 
-5. プロジェクトブラウザペインで「+」記号を押して、新しいファイルを作成します。このボタンを押すと、新規ファイルダイアログボックスが起動します。このダイアログボックスには、新しいファイルをカスタマイズするために構成できるいくつかのパラメーターがあります。
+5. In the project browser pane, press the "+" symbol to create a new  
+file. Pushing this button will launch the New File dialog box. This   
+dialog box has several parameters that you can configure to customize 
+your new file.                                                        
 
 .. image:: images/OnBotDoc_Step5_NewFile.jpg
    :align: center
 
 |
 
-   この例では、新規ファイルダイアログボックスでファイル名として「MyFIRSTJavaOpMode」を指定します。
+   For this example, specify "MyFIRSTJavaOpMode" as the File Name in the New File dialog box.
 
-   サンプルドロップダウンリストコントロールを使用して、利用可能なサンプル **Op Mode** のリストから「BlankLinearOpMode」を選択します（上の画像を参照）。「BlankLinearOpMode」を選択すると、**OnBot Java** エディタが基本的な**LinearOpMode** フレームワークを自動的に生成します。
+   Using the Sample dropdown list control, select "BlankLinearOpMode" from the list of available sample op modes (see image above).  By selecting "BlankLinearOpMode" the OnBot Java editor will automatically generate a basic LinearOpMode framework for you.
 
-   「TeleOp」とラベル付けされたオプションをチェックして、この新しいファイルがテレオペレーション（つまり、ドライバー制御）**Op Mode** として構成されるようにします。
+   Check the option labeled "TeleOp" to ensure that this new file will be configured as a tele-operated (i.e., driver controlled) op mode.
    
-   また、「Setup Code for Configured Hardware」オプションもチェックしてください。このオプションを有効にすると、**OnBot Java** エディタは**Robot Controller** のハードウェア構成ファイルを確認し、**Op Mode** で構成されたデバイスにアクセスするために必要なコードを自動的に生成します。
+   Also, make sure you check the "Setup Code for Configured Hardware" option.  If this option is enabled, the OnBot Java editor will look at the hardware configuration file for your Robot Controller and automatically generate the code that you will need to access the configured devices in your op mode.
 
-   「OK」ボタンを押して、新しい **Op Mode** を作成します。
+   Press the "OK" button to create your new op mode.
 
-6. **OnBot Java** ユーザーインターフェースの編集ペインに、新しく作成された**Op Mode** が表示されるはずです。
+6. You should see your newly created op mode in the editing pane of   
+the OnBot Java user interface.                                        
 
 .. image:: images/OnBotDoc_Step6_NewOpModeEditPane.jpg
    :align: center
 
 |
 
-おめでとうございます、最初の **Op Mode** を作成しました！この**Op Mode** は現在あまり機能しませんが、最終的にはより便利にするために修正します。
+Congratulations, you created your first op mode! The op mode currently
+does not do much, but you will eventually modify it to make it more
+useful.
 
 .. image:: images/OnBotDoc_Step6_ProjectBrowser.jpg
    :align: center
 
 |
 
-なお、**OnBot** **Op Mode** を作成すると、**Robot Controller** に保存される .java ファイルが作成されます。保存された**Op Mode** には、画面の左側にあるプロジェクトブラウザを使用してアクセスできます。また、プロジェクトブラウザを右クリックして、ファイルとフォルダーを作成、編集、または削除するオプションのリストを表示することで、保存された**Op Mode** を整理することもできます。
+Note that when you create an OnBot op mode, you create a .java file that
+is stored on the Robot Controller. You can access your saved op modes
+using the project browser on the left side of the screen. You can also
+organize your saved op modes by right mouse clicking on the project
+browser to display a list of options to create, edit or delete files and
+folders.
 
-また、Program & Manageサーバーに接続されている限り、**OnBot Java** エディタは編集中に**Op Mode** を自動的に保存することにも注意してください。
+Also, note that the OnBot Java editor automatically saves your op mode
+as you are editing it, provided that you are connected to the Program &
+Manage server.
 
-Op Mode の構造を調べる
+Examining the Structure of Your Op Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Op Mode** を、**Robot Controller** が実行するタスクのリストと考えると便利です。リニア**Op Mode** の場合、**Robot Controller** はこのタスクのリストを順次処理します。ユーザーは、制御ループ（whileループなど）を使用して、リニア**Op Mode** 内で特定のタスクを**Robot Controller** に繰り返し（または反復）実行させることもできます。
+It can be helpful to think of an op mode as a list of tasks for the
+Robot Controller to perform. For a linear op mode, the Robot Controller
+will process this list of tasks sequentially. Users can also use control
+loops (such as a while loop) to have the Robot Controller repeat (or
+iterate) certain tasks within a linear op mode.
 
 .. image:: images/ExaminingStructurePic2.jpg
    :align: center
 
 |
 
-**Op Mode** をロボットへの命令のリストと考えると、この作成した命令のセットは、チームメンバーがこの**Robot Controller** の利用可能な**Op Mode** のリストから「MyFIRSTJavaOpMode」という**Op Mode** を選択するたびに、ロボットによって実行されます。
+If you think about an op mode as a list of instructions for the robot,
+this set of instructions that you created will be executed by the robot
+whenever a team member selects the op mode called "MyFIRSTJavaOpMode"
+from the list of available op modes for this Robot Controller.
 
-新しく作成した **Op Mode** の構造を見てみましょう。以下は、**Op Mode** テキストのコピーです（いくつかのコメント、パッケージ定義、およびいくつかのインポートパッケージステートメントを除く）：
+Let's look at the structure of your newly created op mode. Here's a copy
+of the op mode text (minus some comments, the package definition, and
+some import package statements):
 
 .. code-block:: java
 
@@ -182,21 +245,29 @@ Op Mode の構造を調べる
        }
    }
 
-**Op Mode** の開始時に、クラス定義の前にアノテーションがあります。このアノテーションは、これがテレオペレーション（つまり、ドライバー制御）**Op Mode** であることを示しています：
+At the start of the op mode there is an annotation that occurs before
+the class definition. This annotation states that this is a
+tele-operated (i.e., driver controlled) op mode:
 
 .. code-block:: java
 
    @TeleOp
 
-この **Op Mode** を自律**Op Mode** に変更したい場合は、``@TeleOp`` を``@Autonomous`` アノテーションに置き換えます。
+If you wanted to change this op mode to an autonomous op mode, you would
+replace the ``@TeleOp`` with an ``@Autonomous`` annotation instead.
 
-サンプルコードから、**Op Mode** がJavaクラスとして定義されていることがわかります。この例では、**Op Mode** 名は「MyFIRSTJavaOpMode」と呼ばれ、**LinearOpMode** クラスから特性を継承しています。
+You can see from the sample code that an op mode is defined as a Java
+class. In this example, the op mode name is called "MyFIRSTJavaOpMode"
+and it inherits characteristics from the LinearOpMode class.
 
 .. code-block:: java
 
    public class MyFIRSTJavaOpMode extends LinearOpMode {
 
-また、**OnBot Java** エディタがこの**Op Mode** 用に5つのプライベートメンバー変数を作成したこともわかります。これらの変数は、**OnBot Java** エディタが**Robot Controller** の構成ファイルで検出した5つの構成済みデバイスへの参照を保持します。
+You can also see that the OnBot Java editor created five private member
+variables for this op mode. These variables will hold references to the
+five configured devices that the OnBot Java editor detected in the
+configuration file of your Robot Controller.
 
 .. code-block:: java
 
@@ -206,14 +277,18 @@ Op Mode の構造を調べる
        private DistanceSensor sensorColorRange;
        private Servo servoTest;
 
-次に、runOpModeと呼ばれるオーバーライドされたメソッドがあります。**LinearOpMode** 型のすべての**Op Mode** は、このメソッドを実装する必要があります。このメソッドは、ユーザーが**Op Mode** を選択して実行したときに呼び出されます。
+Next, there is an overridden method called runOpMode. Every op mode of
+type LinearOpMode must implement this method. This method gets called
+when a user selects and runs the op mode.
 
 .. code-block:: java
 
        @Override
        public void runOpMode() {
 
-runOpModeメソッドの開始時に、**Op Mode** はhardwareMapという名前のオブジェクトを使用して、**Robot Controller** の構成ファイルにリストされているハードウェアデバイスへの参照を取得します：
+At the start of the runOpMode method, the op mode uses an object named
+hardwareMap to get references to the hardware devices that are listed in
+the Robot Controller's configuration file:
 
 .. code-block:: java
 
@@ -223,11 +298,26 @@ runOpModeメソッドの開始時に、**Op Mode** はhardwareMapという名前
            sensorColorRange = hardwareMap.get(DistanceSensor.class, "sensorColorRange");
            servoTest = hardwareMap.get(Servo.class, "servoTest");
 
-hardwareMapオブジェクトは、runOpModeメソッドで使用できます。これは **HardwareMap** クラス型のオブジェクトです。
+The hardwareMap object is available to use in the runOpMode method. It
+is an object of type HardwareMap class.
 
-なお、**Op Mode** で特定のデバイスへの参照を取得しようとする場合、**HardwareMap.get** メソッドの第2引数として指定する名前は、構成ファイルでデバイスを定義するために使用した名前と一致する必要があります。例えば、「motorTest」という名前のDCモーターを持つ構成ファイルを作成した場合、hardwareMapオブジェクトからこのモーターを取得するには、この同じ名前（大文字と小文字を区別）を使用する必要があります。名前が一致しない場合、**Op Mode** はデバイスを見つけることができないことを示す例外をスローします。
+Note that when you attempt to retrieve a reference to a specific device
+in your op mode, the name that you specify as the second argument of the
+HardwareMap.get method must match the name used to define the device in
+your configuration file. For example, if you created a configuration
+file that had a DC motor named "motorTest", then you must use this same
+name (it is case sensitive) to retrieve this motor from the hardwareMap
+object. If the names do not match, the op mode will throw an exception
+indicating that it cannot find the device.
 
-例の次のいくつかのステートメントでは、**Op Mode** はユーザーにスタートボタンを押して続行するように促します。runOpModeメソッドで使用できる別のオブジェクトを使用します。このオブジェクトは**telemetry** と呼ばれ、**Op Mode** は**addData** メソッドを使用して**DRIVER STATION** に送信するメッセージを追加します。次に、**Op Mode** は**update** メソッドを呼び出して、メッセージを**DRIVER STATION** に送信します。次に、**waitForStart** メソッドを呼び出して、ユーザーがDriver Stationのスタートボタンを押して**Op Mode** の実行を開始するまで待機します。
+In the next few statements of the example, the op mode prompts the user
+to push the start button to continue. It uses another object that is
+available in the runOpMode method. This object is called telemetry and
+the op mode uses the addData method to add a message to be sent to the
+DRIVER STATION. The op mode then calls the update method to send the
+message to the DRIVER STATION. Then it calls the waitForStart method, to
+wait until the user pushes the start button on the driver station to
+begin the op mode run.
 
 .. code-block:: java
 
@@ -236,9 +326,13 @@ hardwareMapオブジェクトは、runOpModeメソッドで使用できます。
            // Wait for the game to start (driver presses PLAY)
            waitForStart();
 
-なお、すべてのリニア **Op Mode** には、ドライバーがスタートボタンを押すまでロボットが**Op Mode** の実行を開始しないようにするために、waitForStartステートメントが必要です。
+Note that all linear op modes should have a waitForStart statement to
+ensure that the robot will not begin executing the op mode until the
+driver pushes the start button.
 
-スタートコマンドを受信した後、**Op Mode** はwhileループに入り、**Op Mode** がアクティブでなくなるまで（つまり、ユーザーが**DRIVER STATION** のストップボタンを押すまで）このループで反復を続けます：
+After a start command has been received, the op mode enters a while loop
+and keeps iterating in this loop until the op mode is no longer active
+(i.e., until the user pushes the stop button on the DRIVER STATION):
 
 .. code-block:: java
 
@@ -249,89 +343,126 @@ hardwareMapオブジェクトは、runOpModeメソッドで使用できます。
 
            }
 
-**Op Mode** がwhileループで反復すると、「Status」というインデックスと「Running」というメッセージを含むテレメトリメッセージを**DRIVER STATION** に表示するために送信し続けます。
+As the op mode iterates in the while loop, it will continue to send
+telemetry messages with the index of "Status" and the message of
+"Running" to be displayed on the DRIVER STATION.
 
-Op Mode のビルド
+Building Your Op Mode
 ~~~~~~~~~~~~~~~~~~~~~
 
-**Op Mode** を作成または編集すると、**OnBot Java** エディタは .java ファイルを**Robot Controller** のファイルシステムに自動保存します。ただし、**Robot Controller** で変更を実行する前に、まず**Op Mode** をビルドして、Javaテキストファイルから**Robot Controller** アプリに動的にロードできるバイナリに変換する必要があります。
+When you create or edit an op mode the OnBot Java editor will auto-save
+the .java file to the file system of the Robot Controller. However,
+before you can execute your changes on the Robot Controller, you must
+first build the op mode and convert it from a Java text file to a binary
+that can be loaded dynamically into the Robot Controller app.
 
-**Op Mode** に満足してビルドする準備ができている場合は、ビルドボタン（レンチ記号のあるボタン、下の画像を参照）を押してビルドプロセスを開始します。なお、ビルドプロセスは**Robot Controller** 上の** すべての .java ファイル** をビルドします。
+If you are satisfied with your op mode and are ready to build, press the
+Build button (which is the button with the wrench symbol, see image
+below) to start the build process. Note that the build process will
+build **all of the .java files** on your Robot Controller.
 
 .. image:: images/OnBotDoc_BuildButton.jpg
    :align: center
 
 |
 
-ウィンドウの右下にあるメッセージペインにメッセージが表示されるはずです。ビルドが成功した場合、メッセージペインに「Build succeeded!」というメッセージが表示されるはずです。
+You should see messages appear in the message pane, which is located in
+the lower right hand side of the window. If your build was successful,
+you should see a "Build succeeded!" message in the message pane.
 
 .. image:: images/OnBotDoc_BuildSucceeded.jpg
    :align: center
 
 |
 
-更新された **Op Mode** でバイナリファイルをビルドしたら、**Robot Controller** で実行する準備が整いました。例の**Op Mode** を実行する前に、ビルドプロセス中に問題が発生した場合に何が起こるかを見てみましょう。
+Once you have built the binary files with your updated op modes, they
+are ready to run on the Robot Controller. Before we run our example op
+mode, let's see what happens if a problem occurs during the build
+process.
 
-ビルドメッセージのトラブルシューティング
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Troubleshooting Build Messages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-前のセクションでは、ビルドプロセスが順調に進みました。**Op Mode** を少し修正して、ビルドプロセスでエラーを発生させてみましょう。
+In the previous section, the build process went smoothly. Let's modify
+your op mode slightly to cause an error in the build process.
 
-**OnBot Java** ウィンドウの編集ペインで、``private Servo servoTest;`` と記述されている行を探します。これは、**Op Mode** クラス定義の先頭近くに表示されるはずです。「Servo」という単語を「Zervo」という単語に変更します：
+In the editing pane of the OnBot Java window, look for the line that
+reads ``private Servo servoTest;``. This should appear somewhere near the
+beginning of your op mode class definition. Change the word "Servo" to
+the word "Zervo":
 
 .. code-block:: java
 
    private Zervo servoTest;
 
-また、**Op Mode** が初期化されたことをユーザーに通知するテレメトリステートメントを変更し、2つの引数のうちの1つを削除して、ステートメントが次のようになるようにしましょう：
+Also, let's modify the telemetry statement that informs the user that
+the op mode has been initialized, and let's remove one of the two
+arguments so that the statement looks like this:
 
 .. code-block:: java
 
    telemetry.addData("Status",);
 
-なお、2番目の引数を削除すると、変更された addData ステートメントの行の横に小さな「x」が表示されるはずです。この「x」は、ステートメントに構文エラーがあることを示しています。
+Note that when you eliminate the second argument, a little "x" should
+appear next to the line with the modified addData statement. This "x"
+indicates that there is a syntax error in the statement.
 
 .. image:: images/OnBotDoc_SyntaxError.jpg
    :align: center
 
 |
 
-**Op Mode** を変更したら、ビルドボタンを押して、どのようなエラーメッセージが表示されるかを確認できます。
+After you have modified your op mode, you can press the build button and
+see what error messages appear.
 
 .. image:: images/OnBotDoc_IllegalStart.jpg
    :align: center
 
 |
 
-**Op Mode** を最初にビルドしようとすると、「illegal start of expression error」が表示されるはずです。これは、addData メソッドに2番目の引数がないためです。**OnBot Java** システムは、エラーがあるファイルと、ファイル内でエラーが発生した場所も示します。
+When you first attempt to build the op mode, you should get an "illegal
+start of expression error". This is because the addData method is
+missing its second argument. The OnBot Java system also directs you to
+the file that has the error, and the location within the file where the
+error occurs.
 
-この例では、問題のファイルは「``org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java`` 」と呼ばれ、エラーは62行37列で発生します。ビルドプロセスは **Robot Controller** 上のすべての .java ファイルをビルドすることに注意することが重要です。別のファイル（現在編集していないファイル）にエラーがある場合は、ファイル名を確認して、どのファイルが問題を引き起こしているかを判断する必要があります。
+In this example, the problem file is called
+"org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java" and the error
+occurs at line 62, column 37. It is important to note that the build
+process builds all of the .java files on the Robot Controller. If there
+is an error in a different file (one that you are not currently editing)
+you will need to look at the file name to determine which file is
+causing the problem.
 
-このステートメントを元の正しい形式に戻しましょう：
+Let's restore this statement back to its original, correct form:
 
 .. code-block:: java
 
    telemetry.addData("Status", "Initialized");
 
-addData ステートメントを修正した後、ビルドボタンをもう一度押して、何が起こるかを確認します。**OnBot Java** システムは、「``org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java``」というソースファイルの51行13列で、シンボル「``Zervo`` 」を見つけることができないと文句を言うはずです。
+After you have corrected the addData statement, push the build button
+again to see what happens. The OnBot Java system should complain that it
+cannot find the symbol "Zervo" in a source file called
+"org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java" at line 51,
+column 13.
 
 .. image:: images/OnBotDoc_cannotFind.jpg
    :align: center
 
 |
 
-ステートメントを元の形式に戻してから、ビルドボタンを押して、**Op Mode** が適切にビルドされることを確認する必要があります。
+You should restore the statement back to its original form and then push
+the build button and verify that the op mode gets built properly.
 
 .. code-block:: java
 
    private Servo servoTest;
 
-Op Mode の実行
+Running Your Op Mode
 ~~~~~~~~~~~~~~~~~~~~
 
-*  **Op Mode** のリビルドに成功した場合、**Op Mode** を実行する準備が整いました。**DRIVER STATION** がまだ**Robot Controller** に接続されていることを確認します。例の**Op Mode** をテレオペレーション**Op Mode** として指定したため、「TeleOp」**Op Mode** としてリストされます。
-
-*  **DRIVER STATION** で、「TeleOp」ドロップダウンリストコントロールを使用して、利用可能な**Op Mode** のリストを表示します。リストから**Op Mode** （「MyFIRSTJavaOpMode」）を選択します。
+*  If you successfully rebuilt your op mode, you are ready to run the op mode. Verify that the DRIVER STATION is still connected to the Robot Controller. Since you designated that your example op mode is a tele-operated op mode, it will be listed as a "TeleOp" op mode.
+*  On the DRIVER STATION, use the "TeleOp" dropdown list control to display the list of available op modes. Select your op mode ("MyFIRSTJavaOpMode") from the list.
 
 .. image:: images/OpModeSelectionDH.png
    :align: center
@@ -343,7 +474,7 @@ Op Mode の実行
 
 |
 
-   INITボタンを押して、**Op Mode** を初期化します。
+   Press the INIT button to initialize the op mode.
 
 .. image:: images/InitDH.png
    :align: center
@@ -355,7 +486,10 @@ Op Mode の実行
 
 |
 
-**Op Mode** は、waitForStart ステートメントまで runOpMode メソッド内のステートメントを実行します。その後、スタートボタン（三角形の記号で表される）を押して続行するまで待機します。
+The op mode will execute the statements in the runOpMode method up to
+the waitForStart statement. It will then wait until you press the start
+button (which is represented by the triangular shaped symbol) to
+continue.
 
 .. image:: images/RunDH.png
    :align: center
@@ -367,7 +501,9 @@ Op Mode の実行
 
 |
 
-スタートボタンを押すと、**Op Mode** は反復を続け、「Status: Running」メッセージを**DRIVER STATION** に送信します。**Op Mode** を停止するには、四角形のストップボタンを押します。
+Once you press the start button, the op mode will continue to iterate
+and send the "Status: Running" message to the DRIVER STATION. To stop
+the op mode, press the square-shaped stop button.
 
 .. image:: images/TelemetryDH.png
    :align: center
@@ -379,12 +515,14 @@ Op Mode の実行
 
 |
 
-おめでとうございます！最初のJava **Op Mode** を実行しました！
+Congratulations! You ran your first java op mode!
 
-Op Mode を変更してモーターを制御する
+Modifying Your Op Mode to Control a Motor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**REV Expansion Hub** に接続して構成したDCモーターを制御するように**Op Mode** を変更しましょう。プログラムループのコードを次のように変更します：
+Let's modify your op mode to control the DC motor that you connected and
+configured for your REV Expansion Hub. Modify the code for the program
+loop so that it looks like the following:
 
 .. code-block:: java
 
@@ -400,26 +538,40 @@ Op Mode を変更してモーターを制御する
 
    }
 
-追加されたコードを見ると、whileループに入る前に、target powerという新しい変数を定義していることがわかります。
+If you look at the code that was added, you will see that we defined a
+new variable called target power before we enter the while loop.
 
 .. code-block:: java
 
    double tgtPower = 0;
 
-whileループの開始時に、変数 tgtPower を gamepad1 の左ジョイスティックの負の値と等しく設定します：
+At the start of the while loop we set the variable tgtPower equal to the
+negative value of the gamepad1's left joystick:
 
 .. code-block:: java
 
    tgtPower = -this.gamepad1.left_stick_y;
 
-オブジェクト gamepad1 は、runOpMode メソッドでアクセスできます。これは、**OPERATOR CONSOLE** のゲームパッド #1 の状態を表します。なお、競技中に使用されるF310ゲームパッドの場合、ジョイスティックのY値は、ジョイスティックが最上位置にあるときは -1 から、最下位置にあるときは +1 までの範囲です。上記の例のコードでは、left_stick_y 値を否定して、左ジョイスティックを前方に押すとモーターに正のパワーが適用されるようにしています。なお、この例では、モーターの前方と後方の概念は任意です。ただし、ジョイスティックのy値を否定する概念は、実際には非常に便利です。
+The object gamepad1 is available for you to access in the runOpMode
+method. It represents the state of gamepad #1 in your OPERATOR CONSOLE.
+Note that for the F310 gamepads that are used during the competition,
+the Y value of a joystick ranges from -1, when a joystick is in its
+topmost position, to +1, when a joystick is in its bottommost position.
+In the example code above, you negate the left_stick_y value so that
+pushing the left joystick forward will result in a positive power being
+applied to the motor. Note that in this example, the notion of forwards
+and backwards for the motor is arbitrary. However, the concept of
+negating the joystick y value can be very useful in practice.
 
 .. image:: images/OnBotDoc_left_stick_y.jpg
    :align: center
 
 |
 
-次のステートメントのセットは、motorTest のパワーを変数 tgtPower で表される値に設定します。次に、目標パワーと実際のモーターパワーの値が、**telemetry** メカニズムを介して**DRIVER STATION** に送信されるデータのセットに追加されます。
+The next set of statements sets the power of motorTest to the value
+represented by the variable tgtPower. The values for target power and
+actual motor power are then added to the set of data that will be sent
+via the telemetry mechanism to the DRIVER STATION.
 
 .. code-block:: java
 
@@ -428,14 +580,19 @@ whileループの開始時に、変数 tgtPower を gamepad1 の左ジョイス�
        telemetry.addData("Target Power", tgtPower);
        telemetry.addData("Motor Power", motorTest.getPower());
 
-**Op Mode** を変更してこれらの新しいステートメントを含めた後、ビルドボタンを押して、**Op Mode** が正常にビルドされたことを確認します。
+After you have modified your op mode to include these new statements,
+press the build button and verify that the op mode was built
+successfully.
 
-ゲームパッドを接続して Op Mode を実行する
+Running Your Op Mode with a Gamepad Connected
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*  **Op Mode** はゲームパッドから入力を受け取り、この入力を使用してDCモーターを制御します。**Op Mode** を実行するには、Logitech F310 ゲームパッドを**DRIVER STATION** に接続する必要があります。
+*  Your op mode takes input from a gamepad and uses this input to control
+   a DC motor. To run your op mode, you will need to connect a Logitech
+   F310 gamepad to the DRIVER STATION.
 
-ゲームパッドを **DRIVER STATION** に接続します。スマートフォンを使用している場合は、Micro USB OTG アダプターケーブルが必要です。
+Connect the gamepad to the DRIVER STATION. If using a phone, you will
+need a Micro USB OTG adapter cable.
 
 .. image:: images/GamepadDHConnection.jpg
    :align: center
@@ -447,18 +604,35 @@ whileループの開始時に、変数 tgtPower を gamepad1 の左ジョイス�
 
 |
 
-例の **Op Mode** は、ユーザーまたはドライバー #1 として指定されたゲームパッドからの入力を探しています。Logictech F310 コントローラーのスタートボタンとAボタンを同時に押して、ゲームパッドをユーザー #1 として指定します。なお、スタートボタンとBボタンを同時に押すと、ゲームパッドがユーザー #2 として指定されます。
+Your example op mode is looking for input from the gamepad designated as
+the user or driver #1. Press the Start button and the A button
+simultaneously on the Logictech F310 controller to designate your
+gamepad as user #1. Note that pushing the Start button and the B button
+simultaneously would designate the gamepad as user #2.
 
 .. image:: images/RunningOpModeStep3.jpg
    :align: center
 
 |
 
-ゲームパッドをユーザー #1 として正常に指定した場合、**DRIVER STATION** 画面の右上隅にある「User 1」というテキストの上に小さなゲームパッドアイコンが表示されるはずです。ゲームパッド #1 でアクティビティがあるたびに、小さなアイコンが緑色で強調表示されるはずです。アイコンが表示されない場合、またはゲームパッドを使用しても緑色で強調表示されない場合は、ゲームパッドへの接続に問題があります。
+If you successfully designated the gamepad to be user #1, you should see
+a little gamepad icon above the text "User 1" in the upper right hand
+corner of the DRIVER STATION Screen. Whenever there is activity on
+gamepad #1, the little icon should be highlighted in green. If the icon
+is missing or if it does not highlight in green when you use your
+gamepad, then there is a problem with the connection to the gamepad.
 
-「MyFIRSTJavaOpMode」**Op Mode** を選択、初期化、実行します。なお、**Op Mode** をリビルドするたびに、現在の**Op Mode** 実行を停止してから再起動する必要があります。これにより、作成した変更が有効になります。
+Select, initialize and run your "MyFIRSTJavaOpMode" op mode. It is
+important to note that whenever you rebuild an op mode, you must stop
+the current op mode run and then restart it before the changes that you
+just built take effect.
 
-ゲームパッドを正しく構成した場合、左ジョイスティックでモーターの動きを制御できるはずです。**Op Mode** を実行するときは、注意して、回転するモーターに何も巻き込まれないようにしてください。なお、ジョイスティックを動かすたびに、ユーザー #1 ゲームパッドアイコンが緑色で強調表示されるはずです。また、目標パワーと実際のモーターパワーの値が**DRIVER STATION** のテレメトリエリアに表示されるはずです。
+If you configured your gamepad properly, then the left joystick should
+control the motion of the motor. As you run your op mode, be careful and
+make sure you do not get anything caught in the turning motor. Note that
+the User #1 gamepad icon should highlight green each time you move the
+joystick. Also note that the target power and actual motor power values
+should be displayed in the telemetry area on the DRIVER STATION.
 
 .. image:: images/TelemetryDH.png
    :align: center
