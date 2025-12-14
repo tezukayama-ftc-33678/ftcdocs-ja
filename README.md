@@ -29,23 +29,24 @@ https://ftc-docs.firstinspires.org
 
 ---
 
-## 📚 翻訳作業ツール
+## 📚 翻訳ドキュメント
 
-翻訳作業を効率的に進めるためのツールとドキュメントを提供しています。
+翻訳作業に関するすべてのドキュメントは **[docs-ja/](docs-ja/)** フォルダに整理されています。
 
-### 🚀 クイックスタート
+### 🚀 翻訳を始める方へ
 
-- **[TRANSLATION_TOOLS_QUICKSTART.md](TRANSLATION_TOOLS_QUICKSTART.md)** - 5分でわかる翻訳ツールの使い方 👈 まずはこちら！
+**[docs-ja/guides/AI_TRANSLATION_GUIDE.md](docs-ja/guides/AI_TRANSLATION_GUIDE.md)** 【最重要】
+- AI翻訳ツール向けの統合ガイド
+- 翻訳ルール、RST構文、エラー対策をすべて網羅
+- **このガイドを読めば翻訳作業を開始できます** 👈 まずはこちら！
 
-### ドキュメント
+### 主要ドキュメント
 
-- **[TRANSLATION_WORKFLOW_TOOLS.md](TRANSLATION_WORKFLOW_TOOLS.md)** - 翻訳作業効率化ツールガイド
-  - 推奨ツールとワークフロー
-  - 品質保証とレビュープロセス
-  - よくある翻訳ミスと対策
-- **[TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md)** - 翻訳ガイドライン
-- **[TRANSLATION_ROADMAP.md](TRANSLATION_ROADMAP.md)** - 翻訳ロードマップ
-- **[GLOSSARY.md](GLOSSARY.md)** - 用語統一リスト
+- **[docs-ja/README.md](docs-ja/README.md)** - 翻訳プロジェクトの概要とフォルダ構成
+- **[docs-ja/reference/GLOSSARY.md](docs-ja/reference/GLOSSARY.md)** - 用語統一リスト（92語）
+- **[docs-ja/reference/RST_TROUBLESHOOTING_GUIDE.md](docs-ja/reference/RST_TROUBLESHOOTING_GUIDE.md)** - RSTエラー解決ガイド
+- **[docs-ja/reference/TRANSLATION_ROADMAP.md](docs-ja/reference/TRANSLATION_ROADMAP.md)** - 翻訳ロードマップ
+- **[docs-ja/reference/TRANSLATION_PROGRESS.md](docs-ja/reference/TRANSLATION_PROGRESS.md)** - 翻訳進捗状況
 
 ### 翻訳支援スクリプト
 

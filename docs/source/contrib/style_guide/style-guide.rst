@@ -93,7 +93,7 @@ The RST markup indicates titles, paragraphs, code samples, images and document s
 .. code:: ReST
 
    Article Title
-================
+   ================
 
    This is an example article.
    A paragraph is a collection of lines. You can have multiple sentances per line.
@@ -116,15 +116,15 @@ The RST markup indicates titles, paragraphs, code samples, images and document s
       :alt: 6 multicolor square 3d printed logos. 
 
       This FTC Team printed their sponsors logos in multiple colors to represent them!  
-   
+
    Section
-----------
+   ----------
 
    This is a section!
-   
+
    Sub-section
-^^^^^^^^^^^^^^
-   
+   ^^^^^^^^^^^^^^
+
    This is a sub-section!
 
 .. note:: If you are having issues editing files with the ``.rst`` extension, the recommended text editor is VS Code with the
@@ -298,9 +298,9 @@ Note the leading underscore and trailing colon that surround the label. The labe
 .. code:: rest
 
    .. _imu axes def:
-   
+
    Axes Definition
-------------------
+   ------------------
 
 Then you reference the label by using ``:ref:`` and surrounding the label with back ticks as follows:
 

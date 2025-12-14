@@ -278,7 +278,7 @@ Android Studio ユーザーインターフェースの上部を見て、``TeamCo
 OpMode の実行
 ~~~~~~~~~~~~~
 
-新しい **OpMode** を含む更新された Android アプリを正常にビルドおよびインストールした場合、**OpMode** を実行する準備が整いました。**Driver Station** がまだ**Robot Controller** に接続されていることを確認します。サンプルの**OpMode** を遠隔操作**OpMode** として指定したため、``TeleOp``**OpMode** としてリストされます。
+新しい **OpMode** を含む更新された Android アプリを正常にビルドおよびインストールした場合、**OpMode** を実行する準備が整いました。**Driver Station** がまだ **Robot Controller** に接続されていることを確認します。サンプルの **OpMode** を遠隔操作 **OpMode** として指定したため、``TeleOp`` **OpMode** としてリストされます。
 
 **Driver Station** で、``TeleOp`` ドロップダウンリストコントロールを使用して、使用可能な**OpMode** のリストを表示します。リストから**OpMode** （「MyFIRSTJavaOpMode」）を選択します。
 

@@ -58,12 +58,12 @@ AprilTag は、**位置と方向** を推定するために使用される、シ
 
       Photo Credit: Mike Silversides
 
-**このガイドのすべてのセクションは、** :doc:`AprilTag 入門 <../apriltag_intro/apriltag-intro>`**を事前に読んでいることを前提としています。**
+**このガイドのすべてのセクションは、** :doc:`AprilTag 入門 <../apriltag_intro/apriltag-intro>` **を事前に読んでいることを前提としています。**
    
 SDK はデフォルトで、**カメラに対する** AprilTag ポーズを記述します。この計算プロセスは**ポーズ推定** と呼ばれ、これは**カメラキャリブレーション** を含む多くの要因に基づく推定値のみであることを強調する用語です。目標を達成するために AprilTag の最適な使用法を決定する必要があります。
 
-   **AprilTag** 入門 <../apriltag_intro/apriltag-intro>
-   ビジョンプロセッサの初期化 <../vision_processor_init/vision-processor-init>
+   :doc:`AprilTag 入門 <../apriltag_intro/apriltag-intro>`
+   :doc:`ビジョンプロセッサの初期化 <../vision_processor_init/vision-processor-init>`
    **VisionPortal** の初期化 <../visionportal_init/visionportal-init>
    **VisionPortal** プレビュー <../visionportal_previews/visionportal-previews>
    **AprilTag ID** コード <../apriltag_id_code/apriltag-id-code>
