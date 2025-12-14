@@ -12,17 +12,17 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:2
 msgid "Motors"
-msgstr ""
+msgstr "モーター"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:11
 msgid "TETRIX 12V DC Motor"
@@ -80,36 +80,41 @@ msgstr ""
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:90
 msgid "REV Robotics Core Hex 12V DC Motor"
 msgstr ""
+"モーターはロボットの主要な駆動装置です。すべてのモーターは 12V ブラシ付き DC モーターであり、\n"
+"競技マニュアルに記載されています。これらは、**REV Expansion Hub**、**REV Control Hub**、または**REV SPARKmini Motor Controller**\n"
+"を介してのみ制御できます。"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:92
 msgid ""
 "Motors are the primary drivers of a robot. All motors are 12v brushed DC "
 "motors and are enumerated in the Competition Manual. They may only be "
-"controlled via a REV Expansion Hub, REV Control Hub, or REV SPARKmini "
-"Motor Controller."
+"controlled via a REV Expansion Hub, REV Control Hub, or REV SPARKmini Motor "
+"Controller."
 msgstr ""
+"モーターはロボットの主要な駆動装置です。すべてのモーターは 12V ブラシ付き DC モーターであり、\n"
+"競技マニュアルに記載されています。これらは、**REV Expansion Hub**、**REV Control Hub**、または**REV SPARKmini Motor Controller**\n"
+"を介してのみ制御できます。"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:97
 msgid "Additional Resources"
-msgstr ""
+msgstr "追加リソース"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:99
 msgid ""
 ":ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
 "ports:motor ports>`"
-msgstr ""
+msgstr "追加リソース"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:100
 msgid ""
 ":ref:`Connecting Motors "
-"<hardware_and_software_configuration/connecting_devices/connecting_motor"
-"/connecting-motor:connecting a motor to the hub>`"
-msgstr ""
+"<hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-"
+"motor:connecting a motor to the hub>`"
+msgstr "追加リソース"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:101
 msgid ""
 ":ref:`Configuring Motors "
-"<hardware_and_software_configuration/configuring/configuring_dc_motor"
-"/configuring-dc-motor:configuring a dc motor>`"
-msgstr ""
-
+"<hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-"
+"dc-motor:configuring a dc motor>`"
+msgstr "追加リソース"

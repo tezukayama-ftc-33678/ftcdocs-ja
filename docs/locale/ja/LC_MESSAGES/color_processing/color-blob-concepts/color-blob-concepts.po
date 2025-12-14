@@ -12,117 +12,142 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:2
 msgid "Color Blob Concepts"
-msgstr ""
+msgstr "Color Blob の概念"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:5
 msgid "Color Blobs"
 msgstr ""
+"**Color Blob** は、画像内の類似した色のピクセルの連続した領域です。**Color Blob** "
+"検出は、ロボットビジョンの多くのアプリケーションで重要です。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:7
 msgid "An image can be evaluated by its **groupings of similar colors**."
 msgstr ""
+"Color Blob とは？\n"
+"-----------------**Color Blob** は、次の特性を持つピクセルのグループです："
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:9
 msgid ""
-"The smallest unit of any digital image is a **pixel**: a tiny square of "
-"one particular color."
+"The smallest unit of any digital image is a **pixel**: a tiny square of one "
+"particular color."
 msgstr ""
+"- 類似した色（指定された色範囲内）\n"
+"- 空間的に接続されている（隣接しているか近接している）\n"
+"- 十分な大きさ（最小サイズのしきい値を超える）"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:12
 msgid ""
 "Each grouping or cluster of similar-colored pixels is called a **Blob**, "
 "which can be irregular in size and shape."
 msgstr ""
+"- 類似した色（指定された色範囲内）\n"
+"- 空間的に接続されている（隣接しているか近接している）\n"
+"- 十分な大きさ（最小サイズのしきい値を超える）"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:15
 msgid ""
-"Forming a Blob is done automatically by the software.  It seeks pixels of"
-" similar color that are **contiguous** -- touching each other along an "
-"edge, not just at a corner."
+"Forming a Blob is done automatically by the software.  It seeks pixels of "
+"similar color that are **contiguous** -- touching each other along an edge, "
+"not just at a corner."
 msgstr ""
+"Blob 検出プロセス\n"
+"-----------------**Color Blob** を検出する基本的な手順は次のとおりです："
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:24
 msgid "Blob Formation Visualization"
-msgstr ""
+msgstr "Blob のプロパティ"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:26
-msgid "There are 9 Blobs here, not 4.  Some are very small, just one pixel each."
-msgstr ""
+msgid ""
+"There are 9 Blobs here, not 4.  Some are very small, just one pixel each."
+msgstr "Blob のプロパティ"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:28
 msgid ""
-"The 5 pixels at top right, for example, are not contiguous (edges "
-"joined), so they are not joined to form a larger Blob."
-msgstr ""
+"The 5 pixels at top right, for example, are not contiguous (edges joined), "
+"so they are not joined to form a larger Blob."
+msgstr "検出された**Color Blob** には、多くの有用なプロパティがあります："
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:31
 msgid ""
-"The above simple example has only 2 colors: black and white.  For FTC, "
-"the definition of \"similar\" colors is a range specified by you."
+"The above simple example has only 2 colors: black and white.  For FTC, the "
+"definition of \"similar\" colors is a range specified by you."
 msgstr ""
+"-** 位置**: **Blob** の中心座標（X、Y）\n"
+"-** サイズ**: **Blob** 内のピクセル数または面積\n"
+"-** 境界ボックス**: **Blob** を囲む長方形\n"
+"-** 形状**: アスペクト比、円形度、またはその他の形状記述子"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:39
 msgid "Defining Blobs from an image of a red chair"
 msgstr ""
+"-------------**FTC SDK** は、**Color Blob** 検出を簡素化する**Color Locator** "
+"プロセッサを提供します。これは、次のような高度な機能を提供します："
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:39
 msgid "Blobs from a Red Chair image"
 msgstr ""
+"-------------**FTC SDK** は、**Color Blob** 検出を簡素化する**Color Locator** "
+"プロセッサを提供します。これは、次のような高度な機能を提供します："
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:41
 msgid ""
-"In the above example, the chair surfaces are not **exactly** the same "
-"shade of red.  But with a **target** definition \"close to red\" or "
-"\"mostly red\", the software can form reasonable Blobs for further "
-"processing."
+"In the above example, the chair surfaces are not **exactly** the same shade "
+"of red.  But with a **target** definition \"close to red\" or \"mostly "
+"red\", the software can form reasonable Blobs for further processing."
 msgstr ""
+"-------------**FTC SDK** は、**Color Blob** 検出を簡素化する**Color Locator** "
+"プロセッサを提供します。これは、次のような高度な機能を提供します："
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:46
 msgid "Color Processing"
 msgstr ""
+"実用的な応用\n"
+"------------**Color Blob** 検出は、次のような多くの**FTC** アプリケーションに役立ちます："
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:48
 msgid ""
 "Now let's point the camera at an INTO THE DEEP game element called a "
 "**Sample**."
 msgstr ""
+"実用的な応用\n"
+"------------**Color Blob** 検出は、次のような多くの**FTC** アプリケーションに役立ちます："
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:56
 msgid "Detecting Blob from a Blue SAMPLE"
-msgstr ""
+msgstr "適切な色範囲と検出パラメーターを選択することで、ロボットのビジョンシステムを堅牢で信頼性の高いものにできます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:56
 msgid "Blob from a Blue SAMPLE"
-msgstr ""
+msgstr "適切な色範囲と検出パラメーターを選択することで、ロボットのビジョンシステムを堅牢で信頼性の高いものにできます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:58
 msgid ""
 "Here the software was told to seek shades of blue.  The orange rectangle "
 "encloses a Blob of blue color."
-msgstr ""
+msgstr "適切な色範囲と検出パラメーターを選択することで、ロボットのビジョンシステムを堅牢で信頼性の高いものにできます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:61
 msgid ""
-"But why doesn't the rectangle enclose the entire game piece?  The "
-"software is processing only a certain **Region of Interest** or ROI.  "
-"That's the white rectangle; its size and location are specified by you."
-msgstr ""
+"But why doesn't the rectangle enclose the entire game piece?  The software "
+"is processing only a certain **Region of Interest** or ROI.  That's the "
+"white rectangle; its size and location are specified by you."
+msgstr "適切な色範囲と検出パラメーターを選択することで、ロボットのビジョンシステムを堅牢で信頼性の高いものにできます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:65
 msgid ""
 "Anything outside the ROI will not be considered part of any Blob that is "
-"detected.  This can help you avoid detecting (unwanted) background "
-"objects."
+"detected.  This can help you avoid detecting (unwanted) background objects."
 msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:68
@@ -141,8 +166,8 @@ msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:78
 msgid ""
-"Now the teal outline of the blue Blob can be seen.  Its shape is "
-"irregular, which can be difficult for your OpMode to evaluate."
+"Now the teal outline of the blue Blob can be seen.  Its shape is irregular, "
+"which can be difficult for your OpMode to evaluate."
 msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:82
@@ -151,17 +176,17 @@ msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:84
 msgid ""
-"The orange rectangle is drawn automatically by OpenCV, to give your "
-"OpMode a simpler geometric shape that represents the Blob.  It's not "
-"**exactly** like the actual Blob, but hopefully still useful."
+"The orange rectangle is drawn automatically by OpenCV, to give your OpMode a"
+" simpler geometric shape that represents the Blob.  It's not **exactly** "
+"like the actual Blob, but hopefully still useful."
 msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:88
 msgid ""
-"The orange rectangle, called the **boxFit**, fits tightly around the "
-"extreme edges of the Blob.  The boxFit is **not** required to stay inside"
-" the Region of Interest.  In the above case, the best-fitting rectangle "
-"happens to stay inside the ROI."
+"The orange rectangle, called the **boxFit**, fits tightly around the extreme"
+" edges of the Blob.  The boxFit is **not** required to stay inside the "
+"Region of Interest.  In the above case, the best-fitting rectangle happens "
+"to stay inside the ROI."
 msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:93
@@ -190,9 +215,9 @@ msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:108
 msgid ""
-"OpenCV provides all data for the boxFit, including its corner points, "
-"size, and tilt angle.  It can even provide a fitted horizontal version of"
-" the boxFit rectangle, if you prefer not to handle a tilted boxFit."
+"OpenCV provides all data for the boxFit, including its corner points, size, "
+"and tilt angle.  It can even provide a fitted horizontal version of the "
+"boxFit rectangle, if you prefer not to handle a tilted boxFit."
 msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:112
@@ -211,16 +236,16 @@ msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:123
 msgid ""
-"Your OpMode will need to \"decide\" which boxFit is important and which "
-"to ignore.  Fortunately, OpenCV provides tools to **filter out** certain "
-"unwanted results.  After filtering, your OpMode can **sort** the "
-"remaining results, to focus on the highest priority."
+"Your OpMode will need to \"decide\" which boxFit is important and which to "
+"ignore.  Fortunately, OpenCV provides tools to **filter out** certain "
+"unwanted results.  After filtering, your OpMode can **sort** the remaining "
+"results, to focus on the highest priority."
 msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:128
 msgid ""
-"With these tools, your OpMode could handle even a \"busy\" result like "
-"this one:"
+"With these tools, your OpMode could handle even a \"busy\" result like this "
+"one:"
 msgstr ""
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:135
@@ -256,4 +281,3 @@ msgstr ""
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:147
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
 msgstr ""
-

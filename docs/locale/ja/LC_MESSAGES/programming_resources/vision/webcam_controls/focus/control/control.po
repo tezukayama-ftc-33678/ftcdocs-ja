@@ -12,73 +12,75 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:2
 msgid "Focus Control"
-msgstr ""
+msgstr "フォーカス制御"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:4
-msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl`"
-msgstr ""
+msgid ""
+":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl`"
+msgstr "「フォーカス長」と呼ばれる距離で、被写体の画像（光線）がレンズから収束して、Webcam センサー上に鮮明な画像を形成します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:6
 msgid ""
-"At a distance called “focus length”, a subject’s image (light rays) "
-"converge from the lens to form a clear image on the webcam sensor."
-msgstr ""
+"At a distance called “focus length”, a subject’s image (light rays) converge"
+" from the lens to form a clear image on the webcam sensor."
+msgstr "「フォーカス長」と呼ばれる距離で、被写体の画像（光線）がレンズから収束して、Webcam センサー上に鮮明な画像を形成します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:9
 msgid ""
 "If supported by the webcam, focus can be managed with these FocusControl "
 "methods:"
-msgstr ""
+msgstr "Webcam でサポートされている場合、フォーカスは次の **FocusControl** メソッドで管理できます："
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:12
 msgid "setFocusLength(double focusLength)"
-msgstr ""
+msgstr "Webcam は、フォーカス長の最小値と最大値をサポートする場合があります。これらは次の方法で取得できます："
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:13
 msgid "getFocusLength()"
 msgstr ""
+"距離単位はここでは指定されていません。許可された範囲内の無次元値である場合があります。たとえば、Logitech C920 は 0 から 250 "
+"までの値を許可し、**より高い** 値は**より近い** オブジェクトにフォーカスします。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:15
 msgid ""
 "Distance units are not specified here; they may be undimensioned values "
-"within an allowed range. For example, the Logitech C920 allows values "
-"from 0 to 250, with **higher** values focusing on **closer** objects."
-msgstr ""
+"within an allowed range. For example, the Logitech C920 allows values from 0"
+" to 250, with **higher** values focusing on **closer** objects."
+msgstr "Webcam は、フォーカス長の最小値と最大値をサポートする場合があります。これらは次の方法で取得できます："
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:19
 msgid ""
-"The webcam may support minimum and maximum allowed values of focus "
-"length. These can be retrieved with:"
-msgstr ""
+"The webcam may support minimum and maximum allowed values of focus length. "
+"These can be retrieved with:"
+msgstr "これらおよび他のフォーカスメソッドは、露出について上記で説明したように、**FocusControl** オブジェクトで呼び出されます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:22
 msgid "getMinFocusLength()"
-msgstr ""
+msgstr "これらおよび他のフォーカスメソッドは、露出について上記で説明したように、**FocusControl** オブジェクトで呼び出されます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:23
 msgid "getMaxFocusLength()"
-msgstr ""
+msgstr "これらおよび他のフォーカスメソッドは、露出について上記で説明したように、**FocusControl** オブジェクトで呼び出されます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:25
 msgid ""
-"There are no ``set()`` methods for min and max focus length; these are "
-"hard-coded in the webcam’s firmware. Note that firmware settings may vary"
-" among different versions of the same webcam model."
-msgstr ""
+"There are no ``set()`` methods for min and max focus length; these are hard-"
+"coded in the webcam’s firmware. Note that firmware settings may vary among "
+"different versions of the same webcam model."
+msgstr "これらおよび他のフォーカスメソッドは、露出について上記で説明したように、**FocusControl** オブジェクトで呼び出されます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:29
 msgid ""
 "These and other focus methods are called on a FocusControl object, as "
 "described above for exposure."
 msgstr ""
-

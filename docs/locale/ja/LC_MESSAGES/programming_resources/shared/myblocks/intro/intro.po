@@ -12,17 +12,17 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:4
 msgid ""
@@ -30,6 +30,8 @@ msgid ""
 "Blocks programs. These **“myBlocks”** are programmed in Java, with OnBot "
 "Java or Android Studio."
 msgstr ""
+"このチュートリアルでは、通常の **Blocks** プログラムで使用する** カスタムブロック** の作成方法を示します。これらの** "
+"「myBlocks」** は、**OnBot Java** または**Android Studio** を使用して Java でプログラムされます。"
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:13
 msgid "sample myBlock, return void"
@@ -41,34 +43,41 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:17
 msgid ""
-"A myBlock can add **advanced capability** previously available only to "
-"teams using all-Java code. Or, a single myBlock can serve as a **‘super-"
+"A myBlock can add **advanced capability** previously available only to teams"
+" using all-Java code. Or, a single myBlock can serve as a **‘super-"
 "Function’**, containing robot instructions that previously needed many "
 "regular Blocks. Now your team’s Blocks code can be more powerful, and "
 "simpler!"
 msgstr ""
+"**myBlock** は、以前はすべて Java コードを使用するチームのみが利用できた** 高度な機能** "
+"を追加できます。または、単一の**myBlock** は、以前は多くの通常の Blocks が必要だったロボット命令を含む** 「スーパー関数」** "
+"として機能できます。これで、チームの**Blocks** コードがより強力で、よりシンプルになります！"
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:29
 msgid "sample myBlock, return encoder counts"
-msgstr ""
+msgstr "Java に関する注意事項"
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:29
 msgid "sample myBlock: return encoder target value based on inputs"
-msgstr ""
+msgstr "Java に関する注意事項"
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:31
 msgid ""
-"Also, myBlocks programming allows some team members to begin learning and"
-" using Java, contributing valuable new features. The other team members "
-"can continue learning and working in Blocks, producing the team’s "
-"official code. Nobody is held back, or left behind."
+"Also, myBlocks programming allows some team members to begin learning and "
+"using Java, contributing valuable new features. The other team members can "
+"continue learning and working in Blocks, producing the team’s official code."
+" Nobody is held back, or left behind."
 msgstr ""
+"-  このチュートリアルでは、**Control Hub** または**Robot Controller (RC)** スマートフォン上で実行されるプログラミングツールである :ref:`OnBot Java <programming_resources/onbot_java/onbot-java-tutorial:onbot java programming tutorial>` を使用して**myBlocks** を作成します。すでに :ref:`Android Studio <programming_resources/android_studio_java/android-studio-tutorial:android studio programming tutorial>` を使用している学生は、同じプログラミングを簡単に実行できます。\n"
+"-  このチュートリアルでは、基本的な **myBlocks** に必要な最小限を超えて、`Java <https://en.wikipedia.org/wiki/Java_(programming_language)>`__ または**OnBot Java (OBJ)** を教えることはありません。"
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:36
 msgid ""
-"Hats off to Google engineer `Liz Looney <https://github.com/lizlooney>`__"
-" for this major development!"
+"Hats off to Google engineer `Liz Looney <https://github.com/lizlooney>`__ "
+"for this major development!"
 msgstr ""
+"-  このチュートリアルでは、**Control Hub** または**Robot Controller (RC)** スマートフォン上で実行されるプログラミングツールである :ref:`OnBot Java <programming_resources/onbot_java/onbot-java-tutorial:onbot java programming tutorial>` を使用して**myBlocks** を作成します。すでに :ref:`Android Studio <programming_resources/android_studio_java/android-studio-tutorial:android studio programming tutorial>` を使用している学生は、同じプログラミングを簡単に実行できます。\n"
+"-  このチュートリアルでは、基本的な **myBlocks** に必要な最小限を超えて、`Java <https://en.wikipedia.org/wiki/Java_(programming_language)>`__ または**OnBot Java (OBJ)** を教えることはありません。"
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:40
 msgid "Notes on Java"
@@ -77,18 +86,16 @@ msgstr ""
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:42
 msgid ""
 "This tutorial builds myBlocks with :ref:`OnBot Java "
-"<programming_resources/onbot_java/onbot-java-tutorial:onbot java "
-"programming tutorial>`, a programming tool running on the Control Hub or "
-"Robot Controller (RC) phone. Students already using :ref:`Android Studio "
-"<programming_resources/android_studio_java/android-studio-"
-"tutorial:android studio programming tutorial>` can easily follow the same"
-" programming."
+"<programming_resources/onbot_java/onbot-java-tutorial:onbot java programming"
+" tutorial>`, a programming tool running on the Control Hub or Robot "
+"Controller (RC) phone. Students already using :ref:`Android Studio "
+"<programming_resources/android_studio_java/android-studio-tutorial:android "
+"studio programming tutorial>` can easily follow the same programming."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/intro/intro.rst:47
 msgid ""
 "This tutorial does not teach `Java "
-"<https://en.wikipedia.org/wiki/Java_(programming_language)>`__ or OnBot "
-"Java (OBJ), beyond the bare minimum needed for basic myBlocks."
+"<https://en.wikipedia.org/wiki/Java_(programming_language)>`__ or OnBot Java"
+" (OBJ), beyond the bare minimum needed for basic myBlocks."
 msgstr ""
-

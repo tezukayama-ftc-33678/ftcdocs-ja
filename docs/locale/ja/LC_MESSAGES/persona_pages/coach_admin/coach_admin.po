@@ -12,26 +12,29 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/persona_pages/coach_admin/coach_admin.rst:2
 msgid "Coach (Administrative) Resources"
-msgstr ""
+msgstr "コーチ（管理）リソース"
 
 #: ../../source/persona_pages/coach_admin/coach_admin.rst:4
 msgid ""
 "Welcome to the *FIRST* Tech Challenge coach's page! Resources have been "
 "organized by type to help your team stay organized and be successful "
 "throughout the season. These resources are focused on the coach or "
-"administrator needs to manage the team while promoting *FIRST*'s ethos. "
-"Just click on the button for the resource you want to explore!"
+"administrator needs to manage the team while promoting *FIRST*'s ethos. Just"
+" click on the button for the resource you want to explore!"
 msgstr ""
+"*FIRST* Tech Challenge "
+"コーチのページへようこそ！リソースは種類別に整理されており、チームがシーズンを通して組織的かつ円滑に活動できるようになっています。これらのリソースは、*FIRST*"
+" の理念を推進しながらチームを管理するコーチや管理者のニーズに焦点を当てています。探したいリソースのボタンをクリックするだけです！"
 
 #: ../../source/persona_pages/coach_admin/coach_admin.rst:16
 msgid "*FIRST* Core Values"
@@ -110,4 +113,3 @@ msgstr ""
 #: ../../source/persona_pages/coach_admin/coach_admin.rst:156
 msgid "Preparing for Competition (External)"
 msgstr ""
-

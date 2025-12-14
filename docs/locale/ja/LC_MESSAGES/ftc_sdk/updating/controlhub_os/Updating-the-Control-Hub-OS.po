@@ -12,12 +12,12 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst
@@ -30,31 +30,43 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:4
 msgid ""
 "An Operating System (OS) is software that supports a computer’s basic "
-"functions, such as scheduling tasks, executing applications, and "
-"controlling peripherals. This must sometimes be updated on the **REV "
-"Control Hub**. While this OS update is not specifically part of the "
-":doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK "
-"requires these updates for the Control Hub in order to perform correctly."
+"functions, such as scheduling tasks, executing applications, and controlling"
+" peripherals. This must sometimes be updated on the **REV Control Hub**. "
+"While this OS update is not specifically part of the :doc:`Software "
+"Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires these "
+"updates for the Control Hub in order to perform correctly."
 msgstr ""
+"オペレーティングシステム（OS）は、タスクのスケジューリング、アプリケーションの実行、周辺機器の制御など、コンピューターの基本機能をサポートするソフトウェアです。**REV"
+" Control Hub** では、これを更新する必要がある場合があります。このOS更新は厳密には :doc:`ソフトウェア開発キット（SDK） "
+"</ftc_sdk/overview/index>` の一部ではありませんが、SDKが正しく動作するためには、Control "
+"HubでこれらのOS更新が必要です。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:11
 msgid "Here are two methods for updating the Control Hub OS:"
 msgstr ""
+"**Control Hub** OS の更新に関する詳細情報は、\n"
+"`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__ にあります。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:13
 msgid "REV Hardware Client (RHC)"
 msgstr ""
+"**Control Hub** OS の更新に関する詳細情報は、\n"
+"`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__ にあります。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:14
 msgid "Manage page on computer"
 msgstr ""
+"**Control Hub** OS の更新に関する詳細情報は、\n"
+"`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__ にあります。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:16
 msgid ""
-"More info about updating the Control Hub OS is `at REV Robotics’ "
-"excellent documentation site <https://docs.revrobotics.com/duo-control"
-"/managing-the-control-system/updating-operating-system>`__."
+"More info about updating the Control Hub OS is `at REV Robotics’ excellent "
+"documentation site <https://docs.revrobotics.com/duo-control/managing-the-"
+"control-system/updating-operating-system>`__."
 msgstr ""
+"**Control Hub** OS の更新に関する詳細情報は、\n"
+"`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-operating-system>`__ にあります。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
@@ -72,8 +84,8 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:26
 msgid ""
-"Click the hub’s large icon/rectangle. Under “Control Hub Operating "
-"System”, see the current/latest mismatch, if any (yellow oval, below)."
+"Click the hub’s large icon/rectangle. Under “Control Hub Operating System”, "
+"see the current/latest mismatch, if any (yellow oval, below)."
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:37
@@ -95,29 +107,28 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:47
 msgid ""
-"Connect the computer via Wi-Fi to the Control Hub. In the Chrome browser,"
-" open the *FIRST* Tech Challenge interface."
+"Connect the computer via Wi-Fi to the Control Hub. In the Chrome browser, "
+"open the *FIRST* Tech Challenge interface."
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:50
 msgid ""
-"Click on the Manage tab, scroll down to Update Control Hub Operating "
-"System."
+"Click on the Manage tab, scroll down to Update Control Hub Operating System."
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:60
 msgid ""
-"If needed, download the latest OS file from the REV Robotics `Control Hub"
-" OS web page <https://docs.revrobotics.com/duo-control/managing-the-"
-"control-system/updating-operating-system#using-the-robot-controller-"
-"console>`__. Do not extract or “un-zip” this file."
-msgstr ""
+"If needed, download the latest OS file from the REV Robotics `Control Hub OS"
+" web page <https://docs.revrobotics.com/duo-control/managing-the-control-"
+"system/updating-operating-system#using-the-robot-controller-console>`__. Do "
+"not extract or “un-zip” this file."
+msgstr "質問、コメント、修正は westsiderobotics@verizon.net まで"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:65
 msgid ""
 "At the Manage page, click “Select Update File…” and navigate to the "
 "computer’s folder where you downloaded the OS file."
-msgstr ""
+msgstr "質問、コメント、修正は westsiderobotics@verizon.net まで"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:68
 msgid "Select that file, and click “Update & Reboot” (green arrow, above)."
@@ -130,4 +141,3 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:72
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
 msgstr ""
-

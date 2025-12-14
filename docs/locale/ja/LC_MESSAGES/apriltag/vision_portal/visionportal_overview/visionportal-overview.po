@@ -12,86 +12,90 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "AprilTag Introduction"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "Vision Processor Initialization"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "VisionPortal Initialization"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "VisionPortal Previews"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "AprilTag ID Codes"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "AprilTag Metadata"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "AprilTag Reference Frame"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "AprilTag Camera Calibration"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "AprilTag Pose"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "AprilTag Library"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "VisionPortal CPU and Bandwidth"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "VisionPortal Camera Controls"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "Vision Multiportal"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
 msgid "AprilTag Advanced Use"
-msgstr ""
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:2
 msgid "VisionPortal Overview"
-msgstr ""
+msgstr "VisionPortal 概要"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:4
 msgid ""
-"**FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new"
-" interface for vision processing."
+"**FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new "
+"interface for vision processing."
 msgstr ""
+"**FIRST Tech Challenge** は**VisionPortal** "
+"を導入しました。これは、ビジョン処理のための包括的な新しいインターフェースです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:7
 msgid ""
-"For **FTC Blocks and Java** teams, VisionPortal offers key capabilities "
-"of **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object "
-"Detection (TFOD)** – at the same time!"
+"For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of "
+"**AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection "
+"(TFOD)** – at the same time!"
 msgstr ""
+"-  **FTC Blocks と Java** チームの場合、VisionPortal は**AprilTag** と**EasyOpenCV** "
+"の主要な機能に加えて、**TensorFlow Object Detection (TFOD)** を同時に提供します！"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
 msgid "Dual Detection"
@@ -100,24 +104,28 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:16
 msgid "Dual Preview with both AprilTags and TensorFlow"
 msgstr ""
+"-  ウェブカメラの AprilTag と TFOD のパフォーマンスを向上させることができる **Camera Controls** が、**FTC "
+"Blocks** ユーザーに完全に利用可能になりました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:20
 msgid ""
 "**AprilTag** detections include ID code and **pose**: tag location and "
 "orientation, relative to the camera."
 msgstr ""
+"-  ウェブカメラの AprilTag と TFOD のパフォーマンスを向上させることができる **Camera Controls** が、**FTC "
+"Blocks** ユーザーに完全に利用可能になりました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:23
 msgid ""
 "**Camera Controls**, which can improve AprilTag and TFOD performance for "
 "webcam, are now fully available to **FTC Blocks** users."
-msgstr ""
+msgstr "-  **複数のカメラ** を同時に操作できます – フォンカメラおよび/またはウェブカメラ。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:26
 msgid ""
 "**Multiple cameras** can operate at the same time – phone camera and/or "
 "webcam."
-msgstr ""
+msgstr "-  **複数のカメラ** を同時に操作できます – フォンカメラおよび/またはウェブカメラ。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
 msgid "Dual Camera"
@@ -125,19 +133,19 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:34
 msgid "Multiple Camera View"
-msgstr ""
+msgstr "-  重いビデオ処理の場合、**CPU リソース** と**USB 帯域幅** を管理するための多くのオプションが利用可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:38
 msgid ""
 "**Sample OpModes** and new tools are available to operate and customize "
 "these features, including the **Builder pattern**."
-msgstr ""
+msgstr "-  DS と RC のプレビューは **大きく** できます！"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:41
 msgid ""
 "For heavy video processing, many options are available to manage **CPU "
 "resources** and **USB bandwidth**."
-msgstr ""
+msgstr "VisionPortal 以降には、他にも多くの新機能と改善された機能が `あなたの発見を待っています"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:44
 msgid "DS and RC previews can be **BIG**!"
@@ -150,6 +158,9 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:51
 msgid "Full Screen Preview"
 msgstr ""
+"2023-2024 CENTERSTAGE シーズンの準備として、新しい Software Development Kit (SDK) "
+"**VisionPortal** には**AprilTag 技術の組み込みサポート** "
+"が含まれています。以前は、チームは外部ライブラリをダウンロードして組み込む必要があり、プログラミング作業が複雑になっていました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:53
 msgid ""
@@ -157,22 +168,29 @@ msgid ""
 "<https://github.com/FIRST-Tech-Challenge/FtcRobotController#release-"
 "information>`__ in VisionPortal and beyond."
 msgstr ""
+"AprilTag は、**位置と方向** を推定するために使用される、シンプルな白黒タグを検出するための人気のあるビジョン技術です。2022-2023 "
+"POWERPLAY ゲームでは、多くのチームが Signal Sleeve 認識のための AprilTag の信頼性の高い Autonomous "
+"パフォーマンスを楽しみました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:59
 msgid ""
 "In preparation for the 2023-2024 CENTERSTAGE season, the new Software "
 "Development Kit (SDK) **VisionPortal** includes **built-in support for "
-"AprilTag technology**. Previously, Teams needed to download and "
-"incorporate external libraries, complicating the programming effort."
+"AprilTag technology**. Previously, Teams needed to download and incorporate "
+"external libraries, complicating the programming effort."
 msgstr ""
+"**このガイドのすべてのセクションは、** :doc:`AprilTag 入門 <../apriltag_intro/apriltag-intro>` **を事前に読んでいることを前提としています。**\n"
+"SDK はデフォルトで、**カメラに対する** AprilTag ポーズを記述します。この計算プロセスは**ポーズ推定** と呼ばれ、これは**カメラキャリブレーション** を含む多くの要因に基づく推定値のみであることを強調する用語です。目標を達成するために AprilTag の最適な使用法を決定する必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:64
 msgid ""
 "AprilTag is a popular vision technology for detecting a simple black-and-"
-"white tag, used to estimate **position and orientation**. In the "
-"2022-2023 POWERPLAY game, many Teams enjoyed AprilTag’s reliable "
-"Autonomous performance for Signal Sleeve recognition."
+"white tag, used to estimate **position and orientation**. In the 2022-2023 "
+"POWERPLAY game, many Teams enjoyed AprilTag’s reliable Autonomous "
+"performance for Signal Sleeve recognition."
 msgstr ""
+"**このガイドのすべてのセクションは、** :doc:`AprilTag 入門 <../apriltag_intro/apriltag-intro>` **を事前に読んでいることを前提としています。**\n"
+"SDK はデフォルトで、**カメラに対する** AprilTag ポーズを記述します。この計算プロセスは**ポーズ推定** と呼ばれ、これは**カメラキャリブレーション** を含む多くの要因に基づく推定値のみであることを強調する用語です。目標を達成するために AprilTag の最適な使用法を決定する必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:74
 msgid "Photo Credit: Mike Silversides"
@@ -180,18 +198,18 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:76
 msgid ""
-"**All sections of this Guide assume prior reading of the** :doc:`AprilTag"
-" Introduction <../apriltag_intro/apriltag-intro>` **.**"
+"**All sections of this Guide assume prior reading of the** :doc:`AprilTag "
+"Introduction <../apriltag_intro/apriltag-intro>` **.**"
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:79
 msgid ""
-"The SDK describes AprilTag pose **relative to the camera**, by default. "
-"This computing process is called **pose estimation**, a term that "
-"emphasizes this is an estimate only, based on many factors including "
-"**camera calibration**. You must determine AprilTag’s best use for "
-"reaching your goals."
-msgstr ""
+"The SDK describes AprilTag pose **relative to the camera**, by default. This"
+" computing process is called **pose estimation**, a term that emphasizes "
+"this is an estimate only, based on many factors including **camera "
+"calibration**. You must determine AprilTag’s best use for reaching your "
+"goals."
+msgstr "謝辞"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:105
 msgid "Much credit to"
@@ -220,4 +238,3 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:112
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
 msgstr ""
-

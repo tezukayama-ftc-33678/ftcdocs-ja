@@ -12,12 +12,12 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
@@ -29,31 +29,43 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:4
 msgid ""
 "An Operating System (OS) is software that supports a computer’s basic "
-"functions, such as scheduling tasks, executing applications, and "
-"controlling peripherals. This must sometimes be updated on the **REV "
-"Driver Hub**. While this OS update is not specifically part of the "
-":doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK "
-"requires these updates for the Driver Hub in order to perform correctly."
+"functions, such as scheduling tasks, executing applications, and controlling"
+" peripherals. This must sometimes be updated on the **REV Driver Hub**. "
+"While this OS update is not specifically part of the :doc:`Software "
+"Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires these "
+"updates for the Driver Hub in order to perform correctly."
 msgstr ""
+"オペレーティングシステム（OS）は、タスクのスケジューリング、アプリケーションの実行、周辺機器の制御など、コンピューターの基本機能をサポートするソフトウェアです。**REV"
+" Driver Hub** では、これを更新する必要がある場合があります。このOS更新は厳密には :doc:`ソフトウェア開発キット（SDK） "
+"</ftc_sdk/overview/index>` の一部ではありませんが、SDKが正しく動作するためには、Driver "
+"HubでこれらのOS更新が必要です。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:11
 msgid "Here are two methods for updating the Driver Hub OS:"
 msgstr ""
+"**Driver Hub** OS の更新に関する詳細情報は、\n"
+"`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-the-driver-hub>`__ にあります。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:13
 msgid "REV Hardware Client (RHC)"
 msgstr ""
+"**Driver Hub** OS の更新に関する詳細情報は、\n"
+"`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-the-driver-hub>`__ にあります。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:14
 msgid "Software Manager on Driver Hub"
 msgstr ""
+"**Driver Hub** OS の更新に関する詳細情報は、\n"
+"`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-the-driver-hub>`__ にあります。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:16
 msgid ""
-"More info about updating the Driver Hub OS is `at REV Robotics’ excellent"
-" documentation site <https://docs.revrobotics.com/duo-control/managing-"
-"the-control-system/updating-the-driver-hub>`__."
+"More info about updating the Driver Hub OS is `at REV Robotics’ excellent "
+"documentation site <https://docs.revrobotics.com/duo-control/managing-the-"
+"control-system/updating-the-driver-hub>`__."
 msgstr ""
+"**Driver Hub** OS の更新に関する詳細情報は、\n"
+"`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-the-driver-hub>`__ にあります。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
@@ -74,8 +86,8 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:35
 msgid ""
 "Confirm the Latest Version in the drop-down menu, if any. Then click the "
-"blue rectangle, labeled “Update” when applicable. The speed of this "
-"update is improved, since :doc:`in Updating the REV Hardware Client "
+"blue rectangle, labeled “Update” when applicable. The speed of this update "
+"is improved, since :doc:`in Updating the REV Hardware Client "
 "</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
 "required update file was previously downloaded."
 msgstr ""
@@ -90,16 +102,16 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:47
 msgid ""
-"The REV Driver Hub has a built-in app called the Software Manager, which "
-"can automatically update the Driver Hub OS (and other related software). "
-"It requires only an internet connection."
+"The REV Driver Hub has a built-in app called the Software Manager, which can"
+" automatically update the Driver Hub OS (and other related software). It "
+"requires only an internet connection."
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:51
 msgid ""
-"Close all apps, and open the Driver Hub’s Wi-Fi menu (in Settings, or "
-"swipe down twice from top of home screen). Temporarily connect the Driver"
-" Hub to the internet via Wi-Fi."
+"Close all apps, and open the Driver Hub’s Wi-Fi menu (in Settings, or swipe "
+"down twice from top of home screen). Temporarily connect the Driver Hub to "
+"the internet via Wi-Fi."
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:55
@@ -115,26 +127,24 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:65
 msgid ""
-"The Software Manager will automatically check for any updates needed, and"
-" display the results (right image, above). Touch the grey button to "
-"perform the updates, including the Driver Hub Operating System (OS) if "
-"needed."
-msgstr ""
+"The Software Manager will automatically check for any updates needed, and "
+"display the results (right image, above). Touch the grey button to perform "
+"the updates, including the Driver Hub Operating System (OS) if needed."
+msgstr "質問、コメント、修正は westsiderobotics@verizon.net まで"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:71
 msgid ""
-"While REV Robotics does provide a downloadable OS image file for the "
-"Driver Hub, the tools available in this tutorial do not accept providing "
-"this file for updating the OS."
+"While REV Robotics does provide a downloadable OS image file for the Driver "
+"Hub, the tools available in this tutorial do not accept providing this file "
+"for updating the OS."
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:75
 msgid ""
-"When all is complete, “Forget” the Wi-Fi network used for internet "
-"access. Now the Driver Hub is ready for regular competition use."
+"When all is complete, “Forget” the Wi-Fi network used for internet access. "
+"Now the Driver Hub is ready for regular competition use."
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:78
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
 msgstr ""
-

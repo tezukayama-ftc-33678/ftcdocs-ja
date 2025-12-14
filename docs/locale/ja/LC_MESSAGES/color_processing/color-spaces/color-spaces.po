@@ -12,127 +12,163 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:2
 msgid "Color Spaces"
-msgstr ""
+msgstr "色空間"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:5
 msgid "Overview"
-msgstr ""
+msgstr "色空間は、色を表現するための数学的モデルです。最も一般的な色空間はRGB（赤、緑、青）ですが、画像処理には他にも便利な色空間があります。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:7
 msgid ""
-"This page of the FTC Color Processing tutorial introduces **Color "
-"Spaces**."
-msgstr ""
+"This page of the FTC Color Processing tutorial introduces **Color Spaces**."
+msgstr "RGB 色空間"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:9
 msgid ""
-"OpenCV can process color information using any one of several Color "
-"Spaces, which are methods to describe an exact shade and brightness."
+"OpenCV can process color information using any one of several Color Spaces, "
+"which are methods to describe an exact shade and brightness."
 msgstr ""
+"**RGB** "
+"色空間は、赤、緑、青の3つの原色を組み合わせて色を作成します。各ピクセルは、0から255の範囲の3つの値（赤、緑、青の強度）で表されます。**RGB**"
+" は、カメラセンサーとディスプレイが色を表現する方法であるため、最も一般的です。しかし、色を検出するには常に最適とは限りません。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:12
 msgid "This page describes 3 choices available in the FTC SDK:"
 msgstr ""
+"HSV 色空間\n"
+"----------**HSV** （色相、彩度、明度）色空間は、人間が色を知覚する方法により近い方法で色を表現します："
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:14
 msgid "RGB (Red, Green, Blue)"
 msgstr ""
+"-** 色相（Hue）**: 色の種類（赤、緑、青など）。0から180の範囲の角度として表されます。\n"
+"- ** 彩度（Saturation）**: 色の純度または強度。0（灰色）から255（純粋な色）の範囲です。\n"
+"- ** 明度（Value）**: 色の明るさ。0（黒）から255（明るい）の範囲です。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:15
 msgid "HSV (Hue, Saturation, Value)"
 msgstr ""
+"-** 色相（Hue）**: 色の種類（赤、緑、青など）。0から180の範囲の角度として表されます。\n"
+"- ** 彩度（Saturation）**: 色の純度または強度。0（灰色）から255（純粋な色）の範囲です。\n"
+"- ** 明度（Value）**: 色の明るさ。0（黒）から255（明るい）の範囲です。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:16
 msgid "YCrCb (Luminance, Chrominance red, Chrominance blue)"
 msgstr ""
+"-** 色相（Hue）**: 色の種類（赤、緑、青など）。0から180の範囲の角度として表されます。\n"
+"- ** 彩度（Saturation）**: 色の純度または強度。0（灰色）から255（純粋な色）の範囲です。\n"
+"- ** 明度（Value）**: 色の明るさ。0（黒）から255（明るい）の範囲です。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:18
-msgid "Each Color Space uses 3 numbers, 0 to 255, to describe a particular color."
-msgstr ""
+msgid ""
+"Each Color Space uses 3 numbers, 0 to 255, to describe a particular color."
+msgstr "**HSV** は、照明条件が変化する場合でも色を検出するのに役立ちます。色（色相）を明るさ（明度）から分離できるためです。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:21
 msgid "RGB Color Space"
 msgstr ""
+"YCrCb 色空間\n"
+"------------**YCrCb** 色空間は、輝度（明るさ）を色度（色情報）から分離します："
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:23
 msgid ""
-"**RGB** is a common Color Space, easy to understand.  Its 3 components "
-"are:"
+"**RGB** is a common Color Space, easy to understand.  Its 3 components are:"
 msgstr ""
+"-**Y**: 輝度（明るさ）\n"
+"- **Cr**: 赤色度\n"
+"- **Cb**: 青色度"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:25
 msgid "**Red** (0 - 255)"
 msgstr ""
+"-**Y**: 輝度（明るさ）\n"
+"- **Cr**: 赤色度\n"
+"- **Cb**: 青色度"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:26
 msgid "**Green** (0 - 255)"
 msgstr ""
+"-**Y**: 輝度（明るさ）\n"
+"- **Cr**: 赤色度\n"
+"- **Cb**: 青色度"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:27
 msgid "**Blue** (0 -  255)"
-msgstr ""
+msgstr "この色空間は、ビデオ圧縮で一般的に使用され、特定の色検出タスクに役立つ場合があります。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:34
 msgid "RGB Color Wheel"
-msgstr ""
+msgstr "色空間の選択"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:36
 msgid ""
 "Pure Red has values 255 red, 0 green, 0 blue.  Pure Green has 0 red, 255 "
 "green, 0 blue."
-msgstr ""
+msgstr "色空間の選択"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:39
 msgid ""
-"Magenta is a blend of Red and Blue, so its values are 255 red, 0 green, "
-"and 255 blue."
+"Magenta is a blend of Red and Blue, so its values are 255 red, 0 green, and "
+"255 blue."
 msgstr ""
+"-**RGB**: デフォルトですが、照明変化に敏感です\n"
+"- **HSV**: 変化する照明条件下での色検出に適しています\n"
+"- **YCrCb**: 一部の高度なアプリケーションに役立ちます"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:42
 msgid ""
-"Here's a useful way to visualize the RGB Color Space, with one axis for "
-"each component:"
+"Here's a useful way to visualize the RGB Color Space, with one axis for each"
+" component:"
 msgstr ""
+"-**RGB**: デフォルトですが、照明変化に敏感です\n"
+"- **HSV**: 変化する照明条件下での色検出に適しています\n"
+"- **YCrCb**: 一部の高度なアプリケーションに役立ちます"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:50
 msgid "RGB Cube Visualization"
 msgstr ""
+"- 最小色相: 0、最大色相: 10（明るい赤）\n"
+"- または最小色相: 170、最大色相: 180（暗い赤）\n"
+"- 彩度と明度の範囲は、照明条件に基づいて調整します**Color Locator** などのツールは、適切な色範囲を見つけるのに役立ちます。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:52
 msgid ""
 "Each near-side external face of this box has the maximum value for one "
-"component.  Every shade of color on the top face, for example, has a Blue"
-" component of 255."
+"component.  Every shade of color on the top face, for example, has a Blue "
+"component of 255."
 msgstr ""
+"- 最小色相: 0、最大色相: 10（明るい赤）\n"
+"- または最小色相: 170、最大色相: 180（暗い赤）\n"
+"- 彩度と明度の範囲は、照明条件に基づいて調整します**Color Locator** などのツールは、適切な色範囲を見つけるのに役立ちます。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:56
 msgid ""
 "The nearest corner is **White**, with RGB values of (255, 255, 255).  "
-"Namely, full values of Red, Green and Blue light will combine to appear "
-"as white light."
+"Namely, full values of Red, Green and Blue light will combine to appear as "
+"white light."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:59
 msgid ""
-"Where is **Black**?  It's the opposite corner, at the origin, hidden in "
-"this view.  Its values are (0, 0, 0) -- no color at all."
+"Where is **Black**?  It's the opposite corner, at the origin, hidden in this"
+" view.  Its values are (0, 0, 0) -- no color at all."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:62
 msgid ""
-"This RGB system is used only for light-based colors, including video.  It"
-" does not apply for painted colors, or printed colors, which use other "
-"color systems."
+"This RGB system is used only for light-based colors, including video.  It "
+"does not apply for painted colors, or printed colors, which use other color "
+"systems."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:66
@@ -153,8 +189,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:73
 msgid ""
-"Another Color Space used by OpenCV is **HSV**\\ : Hue, Saturation and "
-"Value."
+"Another Color Space used by OpenCV is **HSV**\\ : Hue, Saturation and Value."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:80
@@ -162,7 +197,8 @@ msgid "HSV Cone Visualization"
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:82
-msgid "**Hue** is the actual shade of color; see the familiar color wheel on top."
+msgid ""
+"**Hue** is the actual shade of color; see the familiar color wheel on top."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:84
@@ -174,9 +210,9 @@ msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:88
 msgid ""
-"**Value** measures brightness; see the upward arrow on the HSV cone.  The"
-" top face of the cone (Value = 255), is the fully bright color.  Black is"
-" found at the lower tip, Value = 0."
+"**Value** measures brightness; see the upward arrow on the HSV cone.  The "
+"top face of the cone (Value = 255), is the fully bright color.  Black is "
+"found at the lower tip, Value = 0."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:92
@@ -206,14 +242,14 @@ msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:110
 msgid ""
-"The YCrCb Color Space offers efficient computation of color processing, "
-"and is widely used in video applications."
+"The YCrCb Color Space offers efficient computation of color processing, and "
+"is widely used in video applications."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:113
 msgid ""
-"Some online documentation refers to a Color Space called **YCbCr**.  This"
-" is the same system, with the last 2 values reversed."
+"Some online documentation refers to a Color Space called **YCbCr**.  This is"
+" the same system, with the last 2 values reversed."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:117
@@ -222,9 +258,8 @@ msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:119
 msgid ""
-"Use the Color Space that's convenient for you.  RGB is easy to "
-"understand, while YCrCb may offer better computational performance (if "
-"needed)."
+"Use the Color Space that's convenient for you.  RGB is easy to understand, "
+"while YCrCb may offer better computational performance (if needed)."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:122
@@ -235,20 +270,19 @@ msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:125
 msgid ""
-"When converting to HSV, some online sites give Hue in degrees (0 to 360),"
-" and Saturation and Value as percentages (0 to 100).  Apply these (as a "
+"When converting to HSV, some online sites give Hue in degrees (0 to 360), "
+"and Saturation and Value as percentages (0 to 100).  Apply these (as a "
 "proportion of the maximum) to 255, for values to use in the FTC **Color "
 "Locator** processor."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:130
 msgid ""
-"The **Color Locator** processor can use any of these three Color Spaces."
-"  The simple **Color Sensor** processor uses YCrCb internally, but "
-"reports results in RGB only."
+"The **Color Locator** processor can use any of these three Color Spaces.  "
+"The simple **Color Sensor** processor uses YCrCb internally, but reports "
+"results in RGB only."
 msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:136
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
 msgstr ""
-

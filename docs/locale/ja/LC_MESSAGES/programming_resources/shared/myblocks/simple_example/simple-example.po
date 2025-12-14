@@ -12,30 +12,33 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:2
 msgid "Simple Example: create myGreeting"
-msgstr ""
+msgstr "シンプルな例：**myGreeting** の作成"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:4
 msgid ""
 "Start with a simple myBlock that creates a greeting “Hello World” (of "
 "course!)."
-msgstr ""
+msgstr "「Hello World」（もちろん！）という挨拶を作成するシンプルな **myBlock** から始めます。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:7
 msgid ""
-"Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone. "
-"Go to the address **http://192.168.43.1:8080** (CH) or "
+"Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone. Go "
+"to the address **http://192.168.43.1:8080** (CH) or "
 "**http://192.168.49.1:8080** (RC), and click the **OnBot Java** tab."
 msgstr ""
+"Wi-Fi 経由で **Control Hub** または RC スマートフォンに接続された Chrome "
+"ブラウザーを開きます。アドレス**http://192.168.43.1:8080** "
+"（CH）または**http://192.168.49.1:8080** （RC）にアクセスし、**OnBot Java** タブをクリックします。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:11
 msgid ""
@@ -44,96 +47,110 @@ msgid ""
 "Docs. If you need internet and programming together, connect an Ethernet "
 "cable to an internet router **or** try adding a USB Wi-Fi dongle."
 msgstr ""
+"大きな**プラス記号アイコン** をクリックして新しいファイルを開きます。**SampleMyBlocks.java** "
+"と呼びます。デフォルトの「teamcode」フォルダーの場所を使用します。Sample OpMode を選択せず、デフォルト設定の「Not an "
+"OpMode」を使用します。OK をクリックします。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:17
 msgid ""
 "Click the large **plus-sign icon** to open a new file; call it "
-"**SampleMyBlocks.java**. Use the default ‘teamcode’ folder location. "
-"Don’t choose a Sample OpMode, and use the default setting ‘Not an "
-"OpMode’. Click OK."
-msgstr ""
+"**SampleMyBlocks.java**. Use the default ‘teamcode’ folder location. Don’t "
+"choose a Sample OpMode, and use the default setting ‘Not an OpMode’. Click "
+"OK."
+msgstr "作業領域にシンプル/空の Java プログラムが表示されます。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:24
 msgid "In the work area you see a simple/empty Java program."
 msgstr ""
+"クラス名の後に、``extends BlocksOpModeCompanion`` と入力します。これは、新しいクラスを、より高い**スーパークラス**"
+" または**親** の**サブクラス** または**子** として宣言します。親クラス**BlocksOpModeCompanion** "
+"には、新しいサブクラスによって** 継承** される便利なツールが含まれています。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:28
 msgid ""
 "Line 1 shows the default storage folder ‘teamcode’, and Line 4 shows the "
-"**class name**, same as the filename. It’s ``public`` so other classes "
-"can access it. Notice the **left curly brace** at Line 4 and **right "
-"curly brace** at Line 7. Place all your code between these curly braces."
-msgstr ""
+"**class name**, same as the filename. It’s ``public`` so other classes can "
+"access it. Notice the **left curly brace** at Line 4 and **right curly "
+"brace** at Line 7. Place all your code between these curly braces."
+msgstr "その行を入力すると、OBJ ソフトウェアは**自動的** に ``import`` 文を作成し、親クラスを使用可能にします。便利です！"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:33
 msgid ""
-"The two forward-slash marks **//** indicate a **comment line**, all "
-"ignored by the Java software. Good programmers use lots of comments, to "
-"communicate with your teammates and with **your future self**! You will "
-"not remember every little detail of your programs… and will thank "
-"yourself later for commenting heavily!"
-msgstr ""
+"The two forward-slash marks **//** indicate a **comment line**, all ignored "
+"by the Java software. Good programmers use lots of comments, to communicate "
+"with your teammates and with **your future self**! You will not remember "
+"every little detail of your programs… and will thank yourself later for "
+"commenting heavily!"
+msgstr "中括弧内に、次のように新しい行を入力します："
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:39
 msgid ""
-"Programming note: A **class** describes **methods** (actions) and "
-"**fields** (properties) that can be used by **objects** (examples or "
-"**instances** of the class). A class called ‘dogs’ might contain methods "
-"‘run’ and ‘sleep’, and fields ‘friendliness’ and ‘appetite’. Your pets "
-"Spot and Rover would be objects or instances of the ‘dogs’ class."
+"Programming note: A **class** describes **methods** (actions) and **fields**"
+" (properties) that can be used by **objects** (examples or **instances** of "
+"the class). A class called ‘dogs’ might contain methods ‘run’ and ‘sleep’, "
+"and fields ‘friendliness’ and ‘appetite’. Your pets Spot and Rover would be "
+"objects or instances of the ‘dogs’ class."
 msgstr ""
+"これらは、新しい **myBlock** に表示されるオプションのラベルです。以下で説明します。これらの機能のいずれも使用したくない場合でも、** "
+"アノテーション** 行 ``@ExportToBlocks`` は必要です。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:46
 msgid ""
-"After the class name, type ``extends BlocksOpModeCompanion``. This "
-"declares your new class as a **subclass** or **child** of a higher "
-"**superclass** or **parent**. The parent class BlocksOpModeCompanion "
-"contains useful tools to be **inherited** by your new subclass."
-msgstr ""
+"After the class name, type ``extends BlocksOpModeCompanion``. This declares "
+"your new class as a **subclass** or **child** of a higher **superclass** or "
+"**parent**. The parent class BlocksOpModeCompanion contains useful tools to "
+"be **inherited** by your new subclass."
+msgstr "これで、メソッド、つまり最初の **myBlock** を作成する準備が整いました。次の行を入力します："
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:53
 msgid ""
 "When you enter that line, the OBJ software **automatically** creates an "
 "``import`` statement, making the parent class available. Convenient!"
 msgstr ""
+"このメソッドには、1つの入力または**パラメーター** があり、タイプは ``String`` "
+"（テキスト）で、名前は``greetingRecipient`` です。これは、挨拶の対象者または対象グループです。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:56
 msgid ""
 "Programming note: classes inherited from BlocksOpModeCompanion include "
-"OpMode, LinearOpMode, Telemetry, HardwareMap, and Gamepad. All very "
-"useful! Your myBlock method can directly use **objects** or **instances**"
-" of these classes without declaring them. Examples follow below."
+"OpMode, LinearOpMode, Telemetry, HardwareMap, and Gamepad. All very useful! "
+"Your myBlock method can directly use **objects** or **instances** of these "
+"classes without declaring them. Examples follow below."
 msgstr ""
+"このメソッドには、1つの入力または**パラメーター** があり、タイプは ``String`` "
+"（テキスト）で、名前は``greetingRecipient`` です。これは、挨拶の対象者または対象グループです。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:62
 msgid "Inside the curly braces, type new lines as follows:"
 msgstr ""
+"また、プラス記号 ``+`` が3つのテキスト要素を結合または**連結** して、単一の``String`` を形成していることにも注意してください。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:72
 msgid ""
-"These are optional labels to appear on your new myBlock; you’ll see "
-"below. Even if you don’t want to use any of these features, you still "
-"need the **annotation** line ``@ExportToBlocks``."
+"These are optional labels to appear on your new myBlock; you’ll see below. "
+"Even if you don’t want to use any of these features, you still need the "
+"**annotation** line ``@ExportToBlocks``."
 msgstr ""
+"正常にビルドされるはずです。エラーがある場合は、上記のコードとまったく同じようにタイプミスがないか注意深く確認してください。大文字と小文字を区別し、引用符、セミコロン、中括弧を区別します。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:76
 msgid ""
 "When you typed that annotation, OBJ automatically added the ``import`` "
 "statement."
-msgstr ""
+msgstr "左側のメニューツールボックスで、**Java Classes** タブを選択します。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:79
 msgid ""
-"Now you’re ready to create the method, namely your first myBlock. Type "
-"the following lines:"
-msgstr ""
+"Now you’re ready to create the method, namely your first myBlock. Type the "
+"following lines:"
+msgstr "左側のメニューツールボックスで、**Java Classes** タブを選択します。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:88
 msgid ""
-"The method’s name is ``myGreeting``. It is a ``public`` method, so it can"
-" be used or **called** from other classes. And it’s a ``static`` method, "
+"The method’s name is ``myGreeting``. It is a ``public`` method, so it can be"
+" used or **called** from other classes. And it’s a ``static`` method, "
 "required for all myBlock methods."
-msgstr ""
+msgstr "青い疑問符アイコンをクリックすると、 **コメント** 「Here is a greeting for you.」が表示されます。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:92
 msgid ""
@@ -142,30 +159,34 @@ msgid ""
 "inside the parentheses, indicating the method takes one **input** named "
 "``greetingRecipient``, also of type String."
 msgstr ""
+"カスタムラベル「Recipient」が、灰色の入力ソケットの左側に表示されます。これらのオプション機能はすべて、Java コードのアノテーション "
+"``@ExportToBlocks`` から取得されます。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:97
 msgid ""
 "Programming note: the method’s name and list of parameters (inside the "
 "parentheses) is together called the **method signature**."
-msgstr ""
+msgstr "ここで、このシンプルな **myBlock** の動作を確認するために、2つのコマンドで**Blocks** プログラムを作成できます："
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:100
 msgid ""
-"The method contains only one line of instruction, on Line 15: **three "
-"text items are joined to form a single text string**. The middle text "
-"item is the input parameter greetingRecipient, to be entered by the "
-"Blocks user. The longer combined string is returned to the program that "
-"called this method. Namely, the combined string is provided to the Block "
-"that uses your new myBlock."
-msgstr ""
+"The method contains only one line of instruction, on Line 15: **three text "
+"items are joined to form a single text string**. The middle text item is the"
+" input parameter greetingRecipient, to be entered by the Blocks user. The "
+"longer combined string is returned to the program that called this method. "
+"Namely, the combined string is provided to the Block that uses your new "
+"myBlock."
+msgstr "OpMode を保存して実行すると、**Driver Station** に挨拶が表示されます！"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:109
 msgid ""
 "That’s it for the Java! Click the wrench icon to **Build Everything** "
-"including your new class. If there are error messages, read carefully and"
-" fix any mistakes. When you see “Build Successful!”, your new myBlock is "
+"including your new class. If there are error messages, read carefully and "
+"fix any mistakes. When you see “Build Successful!”, your new myBlock is "
 "ready to use."
 msgstr ""
+"次の例では、上記の Java クラスにより多くの **myBlock** メソッドを追加します。それらは、ここで作成した "
+"SampleMyBlocks.java ファイルを編集して追加されます。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst
 msgid "Example Code"
@@ -174,6 +195,8 @@ msgstr ""
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:116
 msgid ":download:`SampleMyBlocks_v00.java <opmodes/SampleMyBlocks_v00.java>`"
 msgstr ""
+"次の例では、上記の Java クラスにより多くの **myBlock** メソッドを追加します。それらは、ここで作成した "
+"SampleMyBlocks.java ファイルを編集して追加されます。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:122
 msgid "Simple Example: run myGreeting"
@@ -181,46 +204,42 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:124
 msgid ""
-"In the browser still connected to the RC phone or Control Hub, - click "
-"the **Blocks** tab - click **Create New OpMode**, name it "
-"**Test_myBlocks_v01** - use the default Sample, called **BasicOpMode** - "
-"click **OK**"
+"In the browser still connected to the RC phone or Control Hub, - click the "
+"**Blocks** tab - click **Create New OpMode**, name it **Test_myBlocks_v01** "
+"- use the default Sample, called **BasicOpMode** - click **OK**"
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:131
 msgid ""
-"You will now see a new menu choice at the bottom, called **Java "
-"Classes**. Open that, to see the class you created, called "
-"SampleMyBlocks. Click that, and drag your new myBlock out to the work "
-"area."
+"You will now see a new menu choice at the bottom, called **Java Classes**. "
+"Open that, to see the class you created, called SampleMyBlocks. Click that, "
+"and drag your new myBlock out to the work area."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:138
 msgid ""
-"This myBlock has one grey input field or **socket**, containing the "
-"letter A to indicate a String or text input. Type the greeting recipient,"
-" **World**."
+"This myBlock has one grey input field or **socket**, containing the letter A"
+" to indicate a String or text input. Type the greeting recipient, **World**."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:142
 msgid ""
-"To display the myBlock’s String or text output, look under **Utilities** "
-"for the **Telemetry** menu. Drag out the **Telemetry.addData** Block that"
-" **displays text** (not numbers)."
+"To display the myBlock’s String or text output, look under **Utilities** for"
+" the **Telemetry** menu. Drag out the **Telemetry.addData** Block that "
+"**displays text** (not numbers)."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:146
 msgid ""
-"In the ``key`` socket, type ``A greeting for you``. At the ``text`` "
-"socket, drag and connect your new myBlock. The myBlock’s **text output** "
-"will be read and displayed by the **text** version of the "
-"Telemetry.addData Block."
+"In the ``key`` socket, type ``A greeting for you``. At the ``text`` socket, "
+"drag and connect your new myBlock. The myBlock’s **text output** will be "
+"read and displayed by the **text** version of the Telemetry.addData Block."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:153
 msgid ""
-"Place these Blocks in the **repeat while** (loop) section of your OpMode,"
-" before **Telemetry.update**. Click **Save OpMode**."
+"Place these Blocks in the **repeat while** (loop) section of your OpMode, "
+"before **Telemetry.update**. Click **Save OpMode**."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:158
@@ -233,22 +252,20 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:165
 msgid ""
-"\\ **Congratulations!** You are now an OnBot Java programmer and myBlocks"
-" creator."
+"\\ **Congratulations!** You are now an OnBot Java programmer and myBlocks "
+"creator."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:168
 msgid ""
 "For extra fun: try the **Telemetry.speak** Block, followed by a 1500 "
-"millisecond ``.sleep`` Block. You can learn more about DS spoken "
-"telemetry at `this separate tutorial <https://github.com/FIRST-Tech-"
+"millisecond ``.sleep`` Block. You can learn more about DS spoken telemetry "
+"at `this separate tutorial <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/wiki/Driver-Station-Speech-Telemetry>`__."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:173
 msgid ""
-"This tutorial has three more sections with myBlocks guidelines, followed "
-"by **six examples** for you to re-type in OnBot Java and test in Blocks. "
-"Enjoy!"
+"This tutorial has three more sections with myBlocks guidelines, followed by "
+"**six examples** for you to re-type in OnBot Java and test in Blocks. Enjoy!"
 msgstr ""
-

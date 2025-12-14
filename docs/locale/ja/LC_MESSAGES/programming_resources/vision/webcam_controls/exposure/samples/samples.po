@@ -12,37 +12,37 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:2
 msgid "Exposure Control Code Samples"
-msgstr ""
+msgstr "露出制御のサンプル"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:4
 msgid ""
-"Import the interface. This line is automatically added by OnBot Java when"
-" the interface is used (coded)."
-msgstr ""
+"Import the interface. This line is automatically added by OnBot Java when "
+"the interface is used (coded)."
+msgstr "以下は、露出制御を使用する方法の例です："
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:7
 msgid ""
 "``import "
 "org.firstinspires.ftc.robotcore.external.hardware.camera.controls.ExposureControl;``"
-msgstr ""
+msgstr "**例1：手動露出時間の設定**"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:9
 msgid "Declare the ExposureControl object, before ``runOpMode()``."
-msgstr ""
+msgstr "**例1：手動露出時間の設定**"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:11
 msgid "``ExposureControl myExposureControl;``"
-msgstr ""
+msgstr "**例1：手動露出時間の設定**"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:13
 msgid ""
@@ -54,7 +54,7 @@ msgstr ""
 msgid ""
 "``myExposureControl = "
 "vuforia.getCamera().getControl(ExposureControl.class);``"
-msgstr ""
+msgstr "**例2：サポートされる範囲の確認**"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:18
 msgid "Set the mode to Manual, for direct control."
@@ -62,19 +62,18 @@ msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:20
 msgid "``myExposureControl.setMode(ExposureControl.Mode.Manual);``"
-msgstr ""
+msgstr "**例2：サポートされる範囲の確認**"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:22
 msgid "Set the exposure duration, in this case to 30 milliseconds."
-msgstr ""
+msgstr "**例2：サポートされる範囲の確認**"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:24
 msgid "``myExposureControl.setExposure(30, TimeUnit.MILLISECONDS);``"
-msgstr ""
+msgstr "**例2：サポートされる範囲の確認**"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:26
 msgid ""
-"See far below for these and other exposure controls illustrated in "
-"`Sample OpModes <#sample-opmodes>`__."
-msgstr ""
-
+"See far below for these and other exposure controls illustrated in `Sample "
+"OpModes <#sample-opmodes>`__."
+msgstr "**例3：AE Priority を使用した長い露出時間**"

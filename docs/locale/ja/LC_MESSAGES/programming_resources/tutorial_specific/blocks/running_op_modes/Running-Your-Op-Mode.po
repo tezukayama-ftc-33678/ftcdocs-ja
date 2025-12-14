@@ -12,49 +12,59 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:2
 msgid "Running Your OpMode (All Languages)"
-msgstr ""
+msgstr "Op Mode の実行（全言語共通）"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:4
 msgid ""
-"If your OpMode requires input from a gamepad, then you will need to "
-"connect a Logitech F310 or other approved gamepad to the DRIVER STATION. "
-"Note that you can have up to two gamepads connected to a DRIVER STATION. "
-"If using a phone, this will require a USB hub. However, in this example, "
-"we will only have a solitary gamepad connected."
+"If your OpMode requires input from a gamepad, then you will need to connect "
+"a Logitech F310 or other approved gamepad to the DRIVER STATION. Note that "
+"you can have up to two gamepads connected to a DRIVER STATION. If using a "
+"phone, this will require a USB hub. However, in this example, we will only "
+"have a solitary gamepad connected."
 msgstr ""
+"**Op Mode** がゲームパッドからの入力を必要とする場合は、Logitech F310または他の承認されたゲームパッドを**DRIVER "
+"STATION** に接続する必要があります。**DRIVER STATION** "
+"には最大2つのゲームパッドを接続できます。スマートフォンを使用する場合は、USBハブが必要です。ただし、この例では、1つのゲームパッドのみを接続します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:10
 msgid "Note that you will need an estimated 10 minutes to complete this task."
-msgstr ""
+msgstr "Op Mode の実行手順"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:13
 msgid "Running Your OpMode Instructions"
 msgstr ""
+"1. ゲームパッドを **DRIVER STATION** に接続します。スマートフォンを使用する場合は、Micro USB "
+"OTGアダプターケーブルが必要です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:15
 msgid ""
 "1. Connect the gamepad to the DRIVER STATION. If using a phone, you will "
 "need a Micro USB OTG adapter cable."
 msgstr ""
+"1. ゲームパッドを **DRIVER STATION** に接続します。スマートフォンを使用する場合は、Micro USB "
+"OTGアダプターケーブルが必要です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:28
 msgid ""
-"2. For the examples in this wiki, the OpModes are looking for input from "
-"the gamepad designated as the user or driver #1. Press the Start button "
-"and the A button simultaneously on the Logitech F310 controller to "
-"designate your gamepad as user #1. If using a PS4-style gamepad, use the "
-"Options and Cross buttons to designate your gamepad as user #1."
+"2. For the examples in this wiki, the OpModes are looking for input from the"
+" gamepad designated as the user or driver #1. Press the Start button and the"
+" A button simultaneously on the Logitech F310 controller to designate your "
+"gamepad as user #1. If using a PS4-style gamepad, use the Options and Cross "
+"buttons to designate your gamepad as user #1."
 msgstr ""
+"3. **DRIVER STATION** 画面で、三角形の「**TeleOp**」ドロップダウンリストボタンをタッチして、利用可能な**Op "
+"Mode** のリストを表示します。**Robot Controller** 上にある利用可能な**Op Mode** "
+"のリストの中に、最近保存した**Op Mode** が表示されるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:40
 msgid ""
@@ -66,16 +76,16 @@ msgstr ""
 msgid ""
 "3. On the DRIVER STATION screen, touch the triangular-shaped, \"TeleOp\" "
 "dropdown list button to display a list available OpModes. You should see "
-"your recently saved OpMode among the list of available OpModes that "
-"reside on your Robot Controller."
-msgstr ""
+"your recently saved OpMode among the list of available OpModes that reside "
+"on your Robot Controller."
+msgstr "4. 「MyFIRSTOpMode」を選択して、**Robot Controller** に**Op Mode** をロードします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:57
 msgid ""
-"Note that the word \"TeleOp\" is short for \"Tele-Operated\" and it "
-"implies a driver controlled OpMode (i.e. an OpMode that gets input from a"
-" human driver)."
-msgstr ""
+"Note that the word \"TeleOp\" is short for \"Tele-Operated\" and it implies "
+"a driver controlled OpMode (i.e. an OpMode that gets input from a human "
+"driver)."
+msgstr "5. INITボタンを押して、**Op Mode** を初期化します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:59
 msgid "4. Select \"MyFIRSTOpMode\" to load your OpMode on the Robot Controller."
@@ -83,32 +93,32 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:72
 msgid ""
-"Note that even though you are using the DRIVER STATION to select the "
-"OpMode, the actual OpMode instructions will be executed on the Robot "
-"Controller."
-msgstr ""
+"Note that even though you are using the DRIVER STATION to select the OpMode,"
+" the actual OpMode instructions will be executed on the Robot Controller."
+msgstr "6. Startボタン（三角形の記号で示される）を押して、**Op Mode** の実行を開始します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:74
 msgid "Press the INIT button to initialize your OpMode."
-msgstr ""
+msgstr "6. Startボタン（三角形の記号で示される）を押して、**Op Mode** の実行を開始します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:86
 msgid ""
 "6. Push the Start button (designated by the triangular-shaped symbol) to "
 "start the OpMode run."
 msgstr ""
+"7. "
+"ゲームパッドの左ジョイスティックを使用して、DCモーターの動作を制御します。左ジョイスティックを上下に操作すると、ターゲットパワーとモーターパワーが画面の右上隅に表示されるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:99
 msgid ""
-"7. Use the left joystick of the gamepad to control the operation of the "
-"DC motor. As you manipulate the left joystick up and down, the target "
-"power and the motor power should be displayed in the upper right hand "
-"corner of the screen."
+"7. Use the left joystick of the gamepad to control the operation of the DC "
+"motor. As you manipulate the left joystick up and down, the target power and"
+" the motor power should be displayed in the upper right hand corner of the "
+"screen."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:114
 msgid ""
-"If you want to stop your OpMode, press the square-shaped Stop button on "
-"the DRIVER STATION."
+"If you want to stop your OpMode, press the square-shaped Stop button on the "
+"DRIVER STATION."
 msgstr ""
-

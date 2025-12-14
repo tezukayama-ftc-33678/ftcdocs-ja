@@ -12,57 +12,69 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:2
 msgid "White Balance Control Mode"
-msgstr ""
+msgstr "ホワイトバランス制御モード"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:4
-msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl.Mode`"
-msgstr ""
+msgid ""
+":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl.Mode`"
+msgstr "このインターフェイスは、**WhiteBalanceControl.Mode** の3つの値をサポートしています："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:6
 msgid "This interface supports 3 values of WhiteBalanceControl.Mode:"
-msgstr ""
+msgstr "このインターフェイスは、**WhiteBalanceControl.Mode** の3つの値をサポートしています："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:8
 msgid "AUTO"
-msgstr ""
+msgstr "このインターフェイスは、**WhiteBalanceControl.Mode** の3つの値をサポートしています："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:9
 msgid "MANUAL"
-msgstr ""
+msgstr "このインターフェイスは、**WhiteBalanceControl.Mode** の3つの値をサポートしています："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:10
 msgid "UNKNOWN"
 msgstr ""
+"カラーバランス温度を直接制御するには、Webcam を Manual モードに設定します。モードは、これらの "
+"**WhiteBalanceControl** メソッドで管理されます："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:12
 msgid ""
-"To directly control the color balance temperature, set the webcam to "
-"Manual mode. Mode is managed with these WhiteBalanceControl methods:"
+"To directly control the color balance temperature, set the webcam to Manual "
+"mode. Mode is managed with these WhiteBalanceControl methods:"
 msgstr ""
+"カラーバランス温度を直接制御するには、Webcam を Manual モードに設定します。モードは、これらの "
+"**WhiteBalanceControl** メソッドで管理されます："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:15
 msgid "setMode(WhiteBalanceControl.Mode.MODE)"
 msgstr ""
+"Logitech C920 は、ホワイトバランス制御のデフォルトとして Auto モードになっており、前のセッションで Manual "
+"に設定された後でも、新しいセッションでは Auto に戻ります。他の **CameraControl** 設定では、一部の Webcam "
+"はデフォルト値に戻り、一部は最後にコマンドされた値を保持します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:16
 msgid "getMode()"
 msgstr ""
+"カラーバランス温度を直接制御するには、Webcam を Manual モードに設定します。モードは、これらの "
+"**WhiteBalanceControl** メソッドで管理されます："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst:18
 msgid ""
-"The Logitech C920 defaults to Auto mode for white balance control, and "
-"even reverts to Auto in a fresh session, after being set to Manual in a "
-"previous session. For other CameraControl settings, some webcams revert "
-"to a default value and some preserve their last commanded value."
+"The Logitech C920 defaults to Auto mode for white balance control, and even "
+"reverts to Auto in a fresh session, after being set to Manual in a previous "
+"session. For other CameraControl settings, some webcams revert to a default "
+"value and some preserve their last commanded value."
 msgstr ""
-
+"Logitech C920 は、ホワイトバランス制御のデフォルトとして Auto モードになっており、前のセッションで Manual "
+"に設定された後でも、新しいセッションでは Auto に戻ります。他の **CameraControl** 設定では、一部の Webcam "
+"はデフォルト値に戻り、一部は最後にコマンドされた値を保持します。"
