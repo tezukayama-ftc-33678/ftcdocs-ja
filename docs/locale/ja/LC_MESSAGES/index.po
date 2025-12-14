@@ -62,99 +62,99 @@ msgstr "ロボット構築リソース"
 
 #: ../../source/index.rst:62
 msgid "Control System Resources"
-msgstr ""
+msgstr "制御システムリソース"
 
 #: ../../source/index.rst:74
 msgid "AprilTag Introduction"
-msgstr ""
+msgstr "**AprilTag** 入門"
 
 #: ../../source/index.rst:74
 msgid "VisionPortal Overview"
-msgstr ""
+msgstr "**VisionPortal** 概要"
 
 #: ../../source/index.rst:74
 msgid "Webcams for VisionPortal"
-msgstr ""
+msgstr "**VisionPortal** 用ウェブカメラ"
 
 #: ../../source/index.rst:74
 msgid "Understanding AprilTag Values"
-msgstr ""
+msgstr "**AprilTag** の値を理解する"
 
 #: ../../source/index.rst:74
 msgid "AprilTag Localization"
-msgstr ""
+msgstr "**AprilTag** による位置推定"
 
 #: ../../source/index.rst:74
 msgid "AprilTag Test Images"
-msgstr ""
+msgstr "**AprilTag** テスト画像"
 
 #: ../../source/index.rst:74
 msgid "AprilTag Resources"
-msgstr ""
+msgstr "**AprilTag** リソース"
 
 #: ../../source/index.rst:86
 msgid "Computer Aided Design (CAD)"
-msgstr ""
+msgstr "コンピューター支援設計 (CAD)"
 
 #: ../../source/index.rst:86
 msgid "CAD Resources"
-msgstr ""
+msgstr "CADリソース"
 
 #: ../../source/index.rst:93
 msgid "Managing ESD Effects"
-msgstr ""
+msgstr "ESD効果の管理"
 
 #: ../../source/index.rst:93
 msgid "Electrostatic Discharge"
-msgstr ""
+msgstr "静電気放電"
 
 #: ../../source/index.rst:100
 msgid "Manufacturing Methods"
-msgstr ""
+msgstr "製造方法"
 
 #: ../../source/index.rst:100
 msgid "Manufacturing"
-msgstr ""
+msgstr "製造"
 
 #: ../../source/index.rst:107
 msgid "Team Complimentary Software"
-msgstr ""
+msgstr "チーム無償ソフトウェア"
 
 #: ../../source/index.rst:107
 msgid "Team Discounts"
-msgstr ""
+msgstr "チーム割引"
 
 #: ../../source/index.rst:107
 msgid "Team Resources"
-msgstr ""
+msgstr "チームリソース"
 
 #: ../../source/index.rst:117
 msgid "Booklets"
-msgstr ""
+msgstr "ブックレット"
 
 #: ../../source/index.rst:117
 msgid "Archive"
-msgstr ""
+msgstr "アーカイブ"
 
 #: ../../source/index.rst:117
 msgid "Site Feedback Form"
-msgstr ""
+msgstr "サイトフィードバックフォーム"
 
 #: ../../source/index.rst:117
 msgid "Contributing to FTC Docs"
-msgstr ""
+msgstr "FTC Docsへの貢献"
 
 #: ../../source/index.rst:117
 msgid "FTC Docs"
-msgstr ""
+msgstr "FTC Docs"
 
 #: ../../source/index.rst:-1
 msgid "FIRST Tech Challenge Documentation"
-msgstr ""
+msgstr "*FIRST* Tech Challenge ドキュメント"
 
 #: ../../source/index.rst:-1
 msgid "The official home of FIRST Tech Challenge Documentation."
-msgstr ""
+msgstr "*FIRST* Tech Challenge ドキュメントの公式ホームページです。"
 
 #: ../../source/index.rst:-1
 msgid ""
@@ -162,6 +162,10 @@ msgid ""
 "AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, "
 "Driver Hub, IMU, Water Game"
 msgstr ""
+"FTC制御システム、**Blocks**、**OnBot Java**、**Android "
+"Studio**、**OpenCV**、EasyOpenCV、**AprilTag**、FTC **SDK**、**Robot Controller**"
+" アプリ、**Driver Station** アプリ、**Control Hub**、**Driver Hub**、**IMU**、Water "
+"Game"
 
 #: ../../source/index.rst:7
 msgid "*FIRST* Tech Challenge documentation"
@@ -190,25 +194,31 @@ msgstr ""
 
 #: ../../source/index.rst:129
 msgid "**I am a...**"
-msgstr ""
+msgstr "**私は...**"
 
 #: ../../source/index.rst:131
 msgid ""
 ":doc:`New Team <persona_pages/rookie_teams/rookie_teams>` New Teams may not "
 "know where to start. This is the way!"
 msgstr ""
+":doc:`新規チーム <persona_pages/rookie_teams/rookie_teams>` "
+"新規チームの皆さんは、どこから始めればよいか分からないかもしれません。こちらから始めましょう！"
 
 #: ../../source/index.rst:133
 msgid ""
 ":doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` Returning "
 "Teams looking for resources can look here."
 msgstr ""
+":doc:`既存チーム <persona_pages/veteran_teams/veteran_teams>` "
+"リソースをお探しの既存チームの皆さんはこちらをご覧ください。"
 
 #: ../../source/index.rst:135
 msgid ""
 ":doc:`Coach <persona_pages/coach_admin/coach_admin>` Coaches looking for "
 "help or Team Administrative Resources can look here."
 msgstr ""
+":doc:`コーチ <persona_pages/coach_admin/coach_admin>` "
+"ヘルプやチーム管理リソースをお探しのコーチの皆さんはこちらをご覧ください。"
 
 #: ../../source/index.rst:137
 msgid ""
@@ -234,88 +244,89 @@ msgstr "メインメニューには、トップレベルのコンテンツへの
 
 #: ../../source/index.rst:160
 msgid "Blocks"
-msgstr ""
+msgstr "**Blocks**"
 
 #: ../../source/index.rst:170
 msgid "OnBot Java"
-msgstr ""
+msgstr "**OnBot Java**"
 
 #: ../../source/index.rst:180
 msgid "Android Studio"
-msgstr ""
+msgstr "**Android Studio**"
 
 #: ../../source/index.rst:190
 msgid "AprilTags"
-msgstr ""
+msgstr "**AprilTag**"
 
 #: ../../source/index.rst:200
 msgid "All Resources"
-msgstr ""
+msgstr "すべてのリソース"
 
 #: ../../source/index.rst:212
 msgid "Control System Links"
-msgstr ""
+msgstr "制御システムリンク"
 
 #: ../../source/index.rst:216
 msgid "Let's get to know the *FIRST* Tech Challenge Control System!"
-msgstr ""
+msgstr "*FIRST* Tech Challenge 制御システムについて知りましょう！"
 
 #: ../../source/index.rst:224
 msgid "Driver Station"
-msgstr ""
+msgstr "**Driver Station**"
 
 #: ../../source/index.rst:234
 msgid "Robot Controller"
-msgstr ""
+msgstr "**Robot Controller**"
 
 #: ../../source/index.rst:244
 msgid "Device Connections"
-msgstr ""
+msgstr "デバイス接続"
 
 #: ../../source/index.rst:254
 msgid "Hardware Configuration"
-msgstr ""
+msgstr "ハードウェア設定"
 
 #: ../../source/index.rst:270
 msgid ""
 "The Software Development Kit (SDK) is the collection of tools for developing"
 " software and executing it on the robot."
-msgstr ""
+msgstr "ソフトウェア開発キット (**SDK**) は、ソフトウェアを開発してロボット上で実行するためのツール群です。"
 
 #: ../../source/index.rst:279
 msgid "About the SDK"
-msgstr ""
+msgstr "**SDK** について"
 
 #: ../../source/index.rst:289
 msgid "SDK GitHub Repository"
-msgstr ""
+msgstr "**SDK** GitHub リポジトリ"
 
 #: ../../source/index.rst:299
 msgid "SDK Releases"
-msgstr ""
+msgstr "**SDK** リリース"
 
 #: ../../source/index.rst:308
 msgid "Javadoc Documentation"
-msgstr ""
+msgstr "Javadoc ドキュメント"
 
 #: ../../source/index.rst:319
 msgid "Game Links"
-msgstr ""
+msgstr "ゲームリンク"
 
 #: ../../source/index.rst:323
 msgid ""
 "Be sure you're following all of the rules of the competition! The "
 "Competition Manual is an essential document."
-msgstr ""
+msgstr "競技のすべてのルールに従っていることを確認してください！競技マニュアルは必須のドキュメントです。"
 
 #: ../../source/index.rst:342
 msgid ""
 "game_specific_resources/playing_field_resources/playing_field_resources"
 msgstr ""
+"game_specific_resources/playing_field_resources/playing_field_resources"
 
 #: ../../source/index.rst:350
 msgid "Game Question and Answer System"
-msgstr ""
+msgstr "ゲーム質問回答システム"
 
 #: ../../source/index.rst:359
 msgid ""
@@ -325,3 +336,5 @@ msgid ""
 "supercede all documentation found here. If you have feedback about this "
 "project, please use our :doc:`feedback form <ftc_docs/form/form>`."
 msgstr ""
+"このプロジェクトは積極的に開発中です。ここに含まれるすべての内容は情報提供のみを目的としています。このドキュメントはチームをサポートし、ゲームルールのコンテキストを提供することを意図していますが、ゲームルールがここにあるすべてのドキュメントに優先します。このプロジェクトに関するフィードバックがある場合は、:doc:`フィードバックフォーム"
+" <ftc_docs/form/form>` をご利用ください。"
