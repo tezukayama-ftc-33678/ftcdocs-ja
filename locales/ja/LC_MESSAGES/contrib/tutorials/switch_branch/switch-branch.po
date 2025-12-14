@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-14 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:2
+msgid "Switching Branches"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:3
+msgid ":bdg-success:`Repeat` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:6
+msgid ""
+"Only complete these steps if you have chosen to develop the site locally."
+" If you are using **GitHub Codespaces** you should skip this section."
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:9
+msgid ""
+"This step is necessary to change which branch you are working on. If you "
+"are working on a branch and want to switch to another branch, you can use"
+" the following command:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:15
+msgid ""
+"Make sure to replace ``<branch_name>`` with the name of the branch you "
+"want to switch to and that it matches the name of the branch you want to "
+"switch to that you created in the previous step."
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:18
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:21
+msgid "Branch Not Found"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:23
+msgid "``error: pathspec '<branch-name>' did not match any file(s) known to git``"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:25
+msgid ""
+"This error occurs when the branch you are trying to switch to does not "
+"exist. Make sure you have created the branch you are trying to switch "
+"that there are no typos. However, it can also occur when your local repo "
+"is not up to date with the remote repo. To fix this, you can run the "
+"following command:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:32
+msgid ""
+"This command will update your local repo with the remote repo. After "
+"running this command, try switching branches again."
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:35
+msgid "Uncommitted Changes"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:37
+msgid ""
+"``error: Your local changes to the following files would be overwritten "
+"by checkout:``"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:39
+msgid ""
+"This error occurs when you have uncommitted changes in your working "
+"directory. You can either commit your changes, stash them, or delete "
+"them. To commit your changes, you can use the following command:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:45
+msgid "This command will commit your changes with the message you provide."
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:47
+msgid "To stash your changes, you can use the following command:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:53
+msgid ""
+"Stashing allows you to save your changes for later without committing "
+"them. After stashing your changes, you can switch branches. To apply your"
+" stashed changes, you can use the following command:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:59
+msgid ""
+"It is best to use ``git stash`` when you are not ready to commit your "
+"changes but need to switch branches."
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:61
+msgid "To delete your changes, you can use the following command:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/switch_branch/switch-branch.rst:63
+msgid ""
+"This command will delete all uncommitted changes in your working "
+"directory. It is not recommended to use this command unless you are sure "
+"you want to delete your changes."
+msgstr ""
+
