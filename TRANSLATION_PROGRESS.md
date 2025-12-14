@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-14 08:24:37
+**生成日時:** 2025-12-14 09:10:39
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -9,17 +9,17 @@
 ## 📊 統計サマリー
 
 - **総ファイル数:** 255
-- **翻訳完了:** 139 (54.5%)
-- **部分的に翻訳:** 16 (6.3%)
+- **翻訳完了:** 143 (56.1%)
+- **部分的に翻訳:** 12 (4.7%)
 - **未翻訳:** 100 (39.2%)
 
-**進捗:** `███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░` 54.5%
+**進捗:** `████████████████████████████░░░░░░░░░░░░░░░░░░░░░░` 56.1%
 
 ---
 
 ## ✅ 翻訳完了ファイル
 
-完全に日本語化されているファイル: **139個**
+完全に日本語化されているファイル: **143個**
 
 <details>
 <summary>通常の翻訳完了ファイルリストを表示</summary>
@@ -88,6 +88,7 @@
 - `programming_resources/blocks/opmode/opmode.rst`
 - `programming_resources/blocks/reference/reference.rst`
 - `programming_resources/index.rst`
+- `programming_resources/laptops/laptops.rst`
 - `programming_resources/onbot_java/OnBot-Java-Tutorial.rst`
 - `programming_resources/onbot_java/config/config.rst`
 - `programming_resources/onbot_java/connecting/connecting.rst`
@@ -97,6 +98,7 @@
 - `programming_resources/shared/auto_load_opmode/auto-load-opmode.rst`
 - `programming_resources/shared/choosing_program_lang/choosing-program-lang.rst`
 - `programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst`
+- `programming_resources/shared/control_system_intro/The-FTC-Control-System.rst`
 - `programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst`
 - `programming_resources/shared/installing_kotlin/Installing-Kotlin.rst`
 - `programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst`
@@ -129,6 +131,7 @@
 - `programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst`
 - `programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst`
 - `programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst`
+- `programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst`
 - `programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst`
 - `programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst`
 - `programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst`
@@ -136,6 +139,7 @@
 - `programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst`
 - `programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst`
 - `programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst`
+- `programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst`
 - `programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst`
 - `programming_resources/vision/camera_calibration/camera-calibration.rst`
 - `programming_resources/vision/vision_overview/vision-overview.rst`
@@ -170,7 +174,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **16個**
+英語が残っているファイル: **12個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -201,12 +205,8 @@
 
 ### `hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst`
 
-**問題箇所:** 31件
+**問題箇所:** 30件
 
-- **行 9:** English text at end of line
-  ```
-  ...**Expansion Hub** を接続および構成する方法について説明します。FIRST Tech Challenge
-  ```
 - **行 96:** Untranslated English paragraph/sentence
   ```
   <INSERT IMAGE>
@@ -223,8 +223,12 @@
   ```
   Additional Equipment Needed
   ```
+- **行 142:** Untranslated English paragraph/sentence
+  ```
+  Changing the Address of an Expansion Hub
+  ```
 
-... 他 26 件の問題
+... 他 25 件の問題
 
 ### `control_hard_compon/rc_components/power_distr/power-distr.rst`
 
@@ -384,42 +388,6 @@
   1. REV Hardware Client（RHC）
   ```
 
-### `programming_resources/laptops/laptops.rst`
-
-**問題箇所:** 1件
-
-- **行 93:** Untranslated English paragraph/sentence
-  ```
-  Driver Station
-  ```
-
-### `programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst`
-
-**問題箇所:** 1件
-
-- **行 11:** English text at end of line
-  ```
-  ...サンプル Op Mode
-  ```
-
-### `programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst`
-
-**問題箇所:** 1件
-
-- **行 11:** English text at end of line
-  ```
-  ...サンプル Op Mode
-  ```
-
-### `programming_resources/shared/control_system_intro/The-FTC-Control-System.rst`
-
-**問題箇所:** 1件
-
-- **行 35:** English text at end of line
-  ```
-  ...REV Robotics Control Hub と Expansion Hub
-  ```
-
 ---
 
 ## 📝 未翻訳ファイル
@@ -569,27 +537,17 @@ python docs/scripts/check_translation_progress.py
 ```markdown
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| Robot Controller | **Robot Controller** | 出現回数: 237 |
-| Control Hub | **Control Hub** | 出現回数: 202 |
-| Op Mode | **Op Mode** | 出現回数: 187 |
-| OpMode | **OpMode** | 出現回数: 136 |
-| Driver Station | **Driver Station** | 出現回数: 123 |
-| Blocks | **Blocks** | 出現回数: 114 |
-| Expansion Hub | **Expansion Hub** | 出現回数: 98 |
-| DRIVER STATION | **DRIVER STATION** | 出現回数: 93 |
-| Android Studio | **Android Studio** | 出現回数: 87 |
-| FIRST | **FIRST** | 出現回数: 77 |
-| OnBot Java | **OnBot Java** | 出現回数: 50 |
-| Android | **Android** | 出現回数: 44 |
-| HuskyLens | **HuskyLens** | 出現回数: 42 |
-| AprilTag | **AprilTag** | 出現回数: 36 |
-| FIRST Tech Challenge | **FIRST Tech Challenge** | 出現回数: 36 |
 | Kotlin | **Kotlin** | 出現回数: 31 |
-| Driver Hub | **Driver Hub** | 出現回数: 30 |
-| REV Robotics | **REV Robotics** | 出現回数: 24 |
-| DS | **DS** | 出現回数: 22 |
 | SDK | **SDK** | 出現回数: 22 |
+| TFOD | **TFOD** | 出現回数: 13 |
+| ON | **ON** | 出現回数: 10 |
+| What | **What** | 出現回数: 8 |
+| Expires | **Expires** | 出現回数: 8 |
+| Vuforia | **Vuforia** | 出現回数: 7 |
+| Done | **Done** | 出現回数: 6 |
+| Codespaces | **Codespaces** | 出現回数: 5 |
+| Yes | **Yes** | 出現回数: 5 |
+| Competition Manual | **Competition Manual** | 出現回数: 5 |
+| BlocksOpModeCompanion | **BlocksOpModeCompanion** | 出現回数: 5 |
 ```
-
-**注:** 他に 35 件の候補があります（出現回数5回以上）。
 
