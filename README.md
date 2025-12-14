@@ -31,14 +31,48 @@ https://ftc-docs.firstinspires.org
 
 ## 📚 翻訳ドキュメント
 
+### ⚠️ 重要なお知らせ: 新しい翻訳システムへの移行
+
+このプロジェクトは、より効率的で標準的な **.po ベースの翻訳システム** への移行を進めています。
+
+### 🆕 新しい翻訳システム (.po ベース)
+
+**[WHY_PO_TRANSLATION.md](WHY_PO_TRANSLATION.md)** - なぜ移行するのか？
+- 現在の問題点と .po ベースの利点
+- 具体的な改善例
+- 移行の決断材料
+
+**[MIGRATION_NEXT_STEPS.md](MIGRATION_NEXT_STEPS.md)** - 移行の手順
+- 段階的な移行方法
+- 3つのオプション（完全移行、段階的移行、テスト移行）
+- 次に何をすべきか
+
+**[PO_TRANSLATION_WORKFLOW.md](PO_TRANSLATION_WORKFLOW.md)** - 新しいワークフロー
+- 日常的な翻訳作業の流れ
+- Make コマンドの使い方
+- 翻訳ツールの活用
+
+**[MIGRATION_TO_PO_GUIDE.md](MIGRATION_TO_PO_GUIDE.md)** - 技術的詳細
+- .po システムの仕組み
+- セットアップ手順
+- トラブルシューティング
+
+### 📊 移行状況
+
+- ✅ 翻訳システムのセットアップ完了
+- ✅ 既存翻訳のスキャン完了（161ファイル、3258ブロック）
+- ✅ 翻訳マッピングの抽出完了 ([TRANSLATION_MAPPING.md](TRANSLATION_MAPPING.md))
+- ⏳ 英語版RSTの復元と .pot 生成（次のステップ）
+- ⏳ .po ファイルへの翻訳移行（段階的に実施）
+
+### 🔧 従来の翻訳システム (RST直接翻訳)
+
 翻訳作業に関するすべてのドキュメントは **[docs-ja/](docs-ja/)** フォルダに整理されています。
 
-### 🚀 翻訳を始める方へ
-
-**[docs-ja/guides/AI_TRANSLATION_GUIDE.md](docs-ja/guides/AI_TRANSLATION_GUIDE.md)** 【最重要】
+**[docs-ja/guides/AI_TRANSLATION_GUIDE.md](docs-ja/guides/AI_TRANSLATION_GUIDE.md)** 【従来の方法】
 - AI翻訳ツール向けの統合ガイド
 - 翻訳ルール、RST構文、エラー対策をすべて網羅
-- **このガイドを読めば翻訳作業を開始できます** 👈 まずはこちら！
+- **注意**: この方法は段階的に .po ベースに移行予定
 
 ### 主要ドキュメント
 
