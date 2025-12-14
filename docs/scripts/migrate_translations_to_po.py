@@ -53,7 +53,7 @@ class TranslationMigrator:
             
             for i, line in enumerate(lines, 1):
                 # Skip code blocks, directives, and comments
-                if line.strip().startswith('.. ') or line.strip().startswith('   '):
+                if line.strip().startswith('.. ') or line.startswith('   '):
                     continue
                     
                 if self.detect_japanese_content(line):
@@ -104,7 +104,8 @@ class TranslationMigrator:
             shutil.rmtree(backup_dir)
         
         print(f"📦 Creating backup: {backup_dir}")
-        shutil.copytree(self.source_dir.parent, backup_dir)
+        # Backup only the source directory, not the parent
+        shutil.copytree(self.source_dir, backup_dir)
         print(f"✅ Backup created successfully")
         return True
     
@@ -220,6 +221,7 @@ class TranslationMigrator:
         print("\n✅ Report saved to MIGRATION_REPORT.md")
         
         # Step 2: Skip backup (using git for version control)
+        # Note: Backup functionality is available via create_backup() method if needed
         print("\n📦 Step 2: Skipping backup (using git for version control)")
         
         # Step 3: Generate .pot files
