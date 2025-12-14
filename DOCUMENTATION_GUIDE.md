@@ -24,6 +24,12 @@ DeepL、ChatGPT、Claude等のAI翻訳ツールの使い方。
 
 残りの未翻訳エントリを効率的に翻訳する実践的ワークフロー。
 
+### 翻訳完成までの計画を知りたい
+
+👉 **[TRANSLATION_COMPLETION_PLAN.md](TRANSLATION_COMPLETION_PLAN.md)**
+
+8つのフェーズに分けた完成までのロードマップとスケジュール。
+
 ### 日常的な翻訳作業をしたい
 
 👉 **[po-translation/guides/WORKFLOW.md](po-translation/guides/WORKFLOW.md)**
