@@ -54,7 +54,7 @@
 
 
 
-* ソフトウェア開発のみに推奨：*
+*ソフトウェア開発のみに推奨：*
 
 -  `Windows Standard Laptop`_
 
@@ -114,7 +114,7 @@ Driver Station コンピューターは、ロボットへの主要なインタ�
 -  `Windows Performance Laptop`_
 
 
-* ソフトウェア開発のみに推奨：*
+*ソフトウェア開発のみに推奨：*
 
 -  `Windows Standard Laptop`_
 
