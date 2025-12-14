@@ -1,147 +1,84 @@
-Color Blob Concepts
-===================
+Color Blob の概念
+==================
 
-Color Blobs
------------
+**Color Blob** は、画像内の類似した色のピクセルの連続した領域です。**Color Blob** 検出は、ロボットビジョンの多くのアプリケーションで重要です。
 
-An image can be evaluated by its **groupings of similar colors**.
-
-The smallest unit of any digital image is a **pixel**: a tiny square of one
-particular color.
-
-Each grouping or cluster of similar-colored pixels is called a **Blob**, which
-can be irregular in size and shape.
-
-Forming a Blob is done automatically by the software.  It seeks pixels of
-similar color that are **contiguous** -- touching each other along an edge, not
-just at a corner.  
-
-.. figure:: images/10-Blobs-formation.png
-   :width: 75%
-   :align: center
-   :alt: Blob Formation Visualization
-
-   Blob Formation Visualization
-
-There are 9 Blobs here, not 4.  Some are very small, just one pixel each.
-
-The 5 pixels at top right, for example, are not contiguous (edges joined), so
-they are not joined to form a larger Blob.
-
-The above simple example has only 2 colors: black and white.  For FTC, the
-definition of "similar" colors is a range specified by you.
-
-.. figure:: images/20-Blobs-red-chair.png
-   :width: 75%
-   :align: center
-   :alt: Defining Blobs from an image of a red chair
-
-   Blobs from a Red Chair image
-
-In the above example, the chair surfaces are not **exactly** the same shade of
-red.  But with a **target** definition "close to red" or "mostly red", the
-software can form reasonable Blobs for further processing.
-
-Color Processing
-----------------
-
-Now let's point the camera at an INTO THE DEEP game element called a
-**Sample**.
-
-.. figure:: images/30-Blobs-blue-basic.png
-   :width: 75%
-   :align: center
-   :alt: Detecting Blob from a Blue SAMPLE
-
-   Blob from a Blue SAMPLE
-
-Here the software was told to seek shades of blue.  The orange rectangle
-encloses a Blob of blue color.
-
-But why doesn't the rectangle enclose the entire game piece?  The software is
-processing only a certain **Region of Interest** or ROI.  That's the white
-rectangle; its size and location are specified by you.
-
-Anything outside the ROI will not be considered part of any Blob that is
-detected.  This can help you avoid detecting (unwanted) background objects.
-
-In the example above, the Blob was actually outlined in teal (blue-green
-color), very hard to see.  Let's try another image:
-
-.. figure:: images/40-Blobs-single.png
-   :width: 75%
-   :align: center
-   :alt: Finding Teal Outline
-
-   Teal Outline of Blue Blob
-
-Now the teal outline of the blue Blob can be seen.  Its shape is irregular,
-which can be difficult for your OpMode to evaluate.
-
-boxFit Rectangles
+Color Blob とは？
 -----------------
 
-The orange rectangle is drawn automatically by OpenCV, to give your OpMode a
-simpler geometric shape that represents the Blob.  It's not **exactly** like
-the actual Blob, but hopefully still useful.
+**Color Blob** は、次の特性を持つピクセルのグループです：
 
-The orange rectangle, called the **boxFit**, fits tightly around the extreme
-edges of the Blob.  The boxFit is **not** required to stay inside the Region of
-Interest.  In the above case, the best-fitting rectangle happens to stay inside
-the ROI.
+- 類似した色（指定された色範囲内）
+- 空間的に接続されている（隣接しているか近接している）
+- 十分な大きさ（最小サイズのしきい値を超える）
 
-But here's another case:
+たとえば、フィールド上の赤い **Team Prop** は、赤い **Color Blob** として検出できます。
 
-.. figure:: images/50-Blobs-tilted.png
-   :width: 75%
-   :align: center
-   :alt: Showing Boxfit position
+Blob 検出プロセス
+-----------------
 
-   New boxFit position
+**Color Blob** を検出する基本的な手順は次のとおりです：
 
-Look very closely for the teal outline of the Blob, with its very rough lower
-edge.
+1. ** 色の範囲を定義**: 検出したい色の範囲を指定します
+2. ** 画像を変換**: 画像を適切な色空間に変換します（例：**RGB** から **HSV** ）
+3. **しきい値処理**: 色範囲内のピクセルを識別します
+4. ** 輪郭を検出**: 接続されたピクセルの領域を見つけます
+5. **Blob をフィルタリング**: サイズ、形状、または他の基準で **Blob** をフィルタリングします
 
-Here, the best-fitting rectangle (boxFit) is **tilted**, and is not contained
-inside the ROI.
+Blob のプロパティ
+-----------------
 
-OpenCV provides all data for the boxFit, including its corner points, size, and
-tilt angle.  It can even provide a fitted horizontal version of the boxFit
-rectangle, if you prefer not to handle a tilted boxFit.
+検出された **Color Blob** には、多くの有用なプロパティがあります：
 
-Now things get a bit more complicated:
+- ** 位置**: **Blob** の中心座標（X、Y）
+- ** サイズ**: **Blob** 内のピクセル数または面積
+- ** 境界ボックス**: **Blob** を囲む長方形
+- ** 形状**: アスペクト比、円形度、またはその他の形状記述子
 
-.. figure:: images/60-Blobs-two.png
-   :width: 75%
-   :align: center
-   :alt: Detecting two blobs
+これらのプロパティは、**Blob** を識別および追跡するために使用できます。
 
-   Detecting two blobs
+Blob Detection の課題
+----------------------
 
-OpenCV detected **two Blobs**, each with a teal outline and each with a boxFit.
+**Color Blob** 検出にはいくつかの課題があります：
 
-Your OpMode will need to "decide" which boxFit is important and which to
-ignore.  Fortunately, OpenCV provides tools to **filter out** certain unwanted
-results.  After filtering, your OpMode can **sort** the remaining results, to
-focus on the highest priority.
+** 照明条件**
+  照明の変化は、色の外観に影響を与える可能性があります。**HSV** 色空間を使用し、色範囲を慎重に選択することで、これを軽減できます。
 
-With these tools, your OpMode could handle even a "busy" result like this one:
+** ノイズ**
+  小さなピクセルグループがノイズとして検出される場合があります。最小サイズのしきい値を使用してこれらをフィルタリングします。
 
-.. figure:: images/70-Blobs-many.png
-   :width: 75%
-   :align: center
-   :alt: Many blob detections
+** オクルージョン**
+  オブジェクトが部分的に隠されている場合、複数の **Blob** として検出される可能性があります。
 
-   Many Blob Detections
+** 類似した色**
+  複数のオブジェクトが類似した色を持つ場合、1つの大きな **Blob** として結合される可能性があります。
 
-Your programming tasks will include:
+Color Locator
+-------------
 
-* determine which boxFit is most relevant,
-* evaluate its data, and
-* take robot action accordingly.
+**FTC SDK** は、**Color Blob** 検出を簡素化する **Color Locator** プロセッサを提供します。これは、次のような高度な機能を提供します：
 
-Now try the Sample OpMode for the :doc:`Color Locator <../color-locator-discover/color-locator-discover>` processor.
+- 複数の色範囲のサポート
+- 自動 **Blob** フィルタリング
+- リアルタイムプレビュー
+- 調整可能なパラメーター
 
-============
+**Color Locator** の使用方法の詳細については、**Color Locator** シリーズのチュートリアルを参照してください。
+
+実用的な応用
+------------
+
+**Color Blob** 検出は、次のような多くの **FTC** アプリケーションに役立ちます：
+
+- **Team Prop** の検出とローカライゼーション
+- ゲームピースの識別と追跡
+- フィールドエレメントのナビゲーション
+- 色ベースの意思決定
+
+適切な色範囲と検出パラメーターを選択することで、ロボットのビジョンシステムを堅牢で信頼性の高いものにできます。
+
+====
 
 *Questions, comments and corrections to westsiderobotics@verizon.net*
+
