@@ -89,7 +89,7 @@ Select and read the Blocks **or** Java section below:
       Then select the numerical values in that Color Space to define the range
       of the target color.
 
-      The ``min``and``max`` fields relate to a corresponding pair of values,
+      The ``min`` and ``max`` fields relate to a corresponding pair of values,
       namely (v0, v0), (v1, v1) or (v2, v2).
 
    .. tab-item:: Java
@@ -345,7 +345,7 @@ command (in Blocks and Java), your OpMode can **post-filter** or reduce the
 list.
 
 Here the term "post-" means after Blob formation and **after the DS and RC
-previews**.  So, you will still see contours and boxFits for**all Blobs**.
+previews**.  So, you will still see contours and boxFits for **all Blobs**.
 
 By default, the Sample OpMode uses a **Contour Area** filter of 50 pixels
 (minimum) to 20,000 pixels (maximum).  The lower limit eliminates very small
@@ -363,7 +363,7 @@ Why filter?  A smaller list means faster processing, with fewer boxFits for
 your OpMode to evaluate.
 
 You can experiment with increasing the lower limit, and observing the effect on
-Telemetry.  Also experiment with the other filters for **Density**and**Aspect
+Telemetry.  Also experiment with the other filters for **Density** and **Aspect
 Ratio**.
 
 The Blocks and Java Sample OpModes give this description:
@@ -486,7 +486,7 @@ Technical information on Blur, Erosion and Dilation can be found `here
 and at the `OpenCV website for morphology
 <https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_.
 
-Here's a conceptual note from co-developer `@Windwoes <https://github.com/Windwoes>`__\ :
+Here's a conceptual note from co-developer `@Windwoes <https://github.com/Windwoes>`_\ :
 
 ..
 

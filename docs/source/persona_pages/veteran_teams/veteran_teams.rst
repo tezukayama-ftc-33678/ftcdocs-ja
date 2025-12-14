@@ -1,7 +1,12 @@
-既存チーム
+Returning Teams
 ===============
 
-*FIRST* Tech Challenge へおかえりなさい！リソースは種類別に整理されており、チームがシーズンを通して組織的かつ円滑に活動できるようになっています。これらのリソースは、ロボティクスの経験があり、スキルを向上させたいチーム向けにカスタマイズされています。技術リソースは、業界標準の認定取得への足がかりとなります。探したいリソースのボタンをクリックするだけです！
+Welcome back to *FIRST* Tech Challenge! Resources have been
+organized by type to help your team stay organized and be successful throughout
+the season. These resources are tailored to teams with experience in robotics
+looking to elevate their skills.  The technical resources are a stepping stone
+towards industry standard certifications. Just click on the button for the
+resource you want to explore!
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -10,13 +15,13 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      プログラミングリソース
+      Programming Resources
 
       ^^^
 
-      Java プログラミングリソースはこちらです。
+      Look for Java programming resources here.
       
-++++++
+      +++
 
       .. div:: container-fluid p-0
 
@@ -28,7 +33,7 @@
                :outline:
                :expand:
 
-               OnBot Java チュートリアル
+               OnBot Java Tutorial
 
          .. div:: col-sm pl-1 pr-1
 
@@ -38,7 +43,7 @@
                :outline:
                :expand:
 
-               Android Studio チュートリアル
+               Android Studio Tutorial
 
          .. div:: col-sm pl-1 pr-1
 
@@ -48,7 +53,7 @@
                :outline:
                :expand:
 
-               AprilTag 入門
+               AprilTag Introduction
 
          .. div:: col-sm pl-1 pr-1
 
@@ -64,13 +69,13 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      CAD リソース 
+      CAD Resources 
 
       ^^^
 
-      コンピューター支援設計（CAD）ソフトウェアのリソースはこちらです。
+      Look for resources for Computer-Aided Design (CAD) software.
       
-++++++
+      +++
       
       .. div:: container-fluid p-0
 
@@ -88,13 +93,13 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      チームマネジメント
+      Team Management
 
       ^^^
 
-      マーケティング、地域および業界へのアウトリーチを含むチームマネジメントリソースです。
+      Team management resources including marketing, community and industry outreach.
       
-++++++
+      +++
       
       .. div:: container-fluid p-0
 
@@ -116,9 +121,9 @@
 
       ^^^
 
-      イベント前に Awards 基準を知っておきましょう。
+      Know the awards criteria before the event.
       
-++++++
+      +++
       
       .. div:: container-fluid p-0
 
@@ -130,6 +135,6 @@
                :outline:
                :expand:
 
-               FTC Awards（外部PDF）
+               FTC Awards (external PDF)
 
 

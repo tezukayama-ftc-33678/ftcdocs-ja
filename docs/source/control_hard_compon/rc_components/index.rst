@@ -1,17 +1,25 @@
 .. meta::
-   :title: FTC Robot Controller 概要, FTC Docs
-   :description: FTC Robot Controller のビジュアル概要
+   :title: FTC Robot Controller Overview, FTC Docs
+   :description: A Visual Overview of the FTC Robot Controller
    :keywords: FTC, FIRST Tech Challenge, RC, Robot Controller, Control Hub, Expansion Hub
    
    
-.. _robot controller overview:
-
-Robot Controller 概要
+Robot Controller Overview
 =========================
 
-これらの画像は、標準的なロボットスターターキットに通常含まれているコンポーネントと、*FIRST* ストアフロントから購入したコンポーネント（REV および Tetrix スターターキットのコンポーネントと、電子機器キットを含む）の基本的な接続図を示しています。これらの構成はサンプル接続を示しており、これらのコンポーネントを接続する唯一可能な方法を示しているわけではありません。両方の図には、標準スターターキットにも電子機器キットにも含まれていない追加のオプションの **REV Expansion Hub** が含まれています。これは、追加のオプションの**REV Expansion Hub** が利用可能で必要な場合に、それを接続する方法のサンプルとして図に含まれています。
+These images represent a basic connection diagram for the components that have
+typically been included in a standard Robot Starter Kit plus the components
+purchased from the *FIRST* Storefront (demonstrating components from the REV
+and Tetrix starter kits, along with the Electronics kit). These configurations
+show sample connections, and in no way represent the only possible way of
+connecting these components.  In both diagrams is an extra optional REV
+Expansion Hub that has NOT been included with standard starter kits nor
+electronics kits; it is included in these diagrams as a sample of how to
+connect an additional optional REV Expansion Hub if one is available and
+desired.
 
-以下のヘッダーをクリックして、異なる制御システム構成図を切り替えます。
+Click on the headers below to switch between the different control system
+configuration diagrams.
 
 .. tab-set::
 

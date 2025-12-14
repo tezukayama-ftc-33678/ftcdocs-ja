@@ -1,7 +1,8 @@
-チュートリアル
-==============
+Tutorials
+============
 
-これらは、FTC Docs での作成と編集のプロセスを順を追って説明するいくつかのチュートリアルです。
+These are a couple tutorials that will walk you through the process of creating and editing 
+in FTC Docs.
 
 .. toctree::
     :maxdepth: 2
@@ -21,6 +22,4 @@
     setup_credentials/setup-credentials
     make_pr/make-pr
     glossary/glossary
-
-チュートリアル
 

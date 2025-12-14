@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-14 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:2
+msgid "VisionPortal Previews"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:7
+msgid ""
+"Managing AprilTag and Color Processing performance is greatly enhanced "
+"with visual feedback of the camera’s view."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:15
+msgid "Multicam Preview"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:15
+msgid "LiveView demonstrating multiple camera support"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:17
+msgid ""
+"The Driver Station and Robot Controller apps offer a camera preview on "
+"both devices:"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:19
+msgid ""
+"**LiveView** on Robot Controller (RC) device – RC phone or Control Hub "
+"(see below)"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:22
+msgid "**Camera Stream** on Driver Station (DS) device – DS phone or Driver Hub"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
+msgid ""
+"LiveView refers only to the **Robot Controller** preview (example shown "
+"above). It’s completely separate from **DS Camera Stream**, which still "
+"operates normally even if LiveView is stopped (manually or "
+"automatically)."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:29
+msgid ""
+"Instructions for viewing DS Camera Stream are shown :ref:`here "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam"
+"/configuring-external-webcam:image preview>`."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:32
+msgid ""
+"Camera Stream uses its own frame collection process, which naturally "
+"still requires the camera/pipeline status to be ``STREAMING``. Disabling "
+"the stream will prevent the DS preview. Camera status is covered at the "
+"**Managing CPU and Bandwidth** page, and the **VisionPortal Camera "
+"Controls** page."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:37
+msgid ""
+"Side Note: For SDK 8.2, “LiveView” became the new universal name for the "
+"RC preview. There remain two instances of old names:"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:40
+msgid "``myVisionPortalBuilder.enableCameraMonitoring(true);``"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:41
+msgid "``VIEWPORT`` appears in the preview status window, when stopped"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:44
+msgid "LiveView on Control Hub"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:46
+msgid ""
+"The Control Hub does generate an RC preview, despite not having a built-"
+"in screen. LiveView can be seen in two ways:"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:49
+msgid "Plug an HDMI monitor into the Control Hub’s (full-size) HDMI port"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:51
+msgid "Use ``scrcpy`` (pronounced “screen copy”), available here:"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:53
+msgid "https://github.com/Genymobile/scrcpy"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:56
+msgid "Camera Controls"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:58
+msgid ""
+"Images in LiveView and Camera Stream are both affected by Camera "
+"Controls, for webcam. Changing values of Exposure and Gain, for example, "
+"do affect the displayed image and the actual recognitions."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:62
+msgid ""
+"During Camera Stream, manual adjustments to Camera Controls cannot be "
+"made in real time (with visible feedback) since gamepads are disabled."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:65
+msgid ""
+"Thus teams wanting to optimize AprilTag or Color Processing recognitions "
+"with Camera Controls should use ``scrcpy`` or an HDMI monitor. Doing this"
+" via Camera Stream (“back and forth”) will be less effective and less "
+"efficient."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:69
+msgid ""
+"More information is available at the **VisionPortal Camera Controls** "
+"page, and at the :ref:`Webcam Control tutorial "
+"<programming_resources/vision/webcam_controls/index:webcam controls>`."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:74
+msgid "BIG Previews"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:76
+msgid ""
+"A new feature of SDK 8.2, the Driver Station’s **Camera Stream** preview "
+"can appear regular-size or **BIG**."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:84
+msgid "Camera Stream Full Screen"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:84
+msgid "Camera Stream preview enlargement buttons"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:87
+msgid ""
+"**Circled in yellow** are the user buttons to **go BIG** or return to the"
+" **default** screen."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:90
+msgid "Note the annotations have shifted to fit in the image."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:93
+msgid "Orientation Notes"
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:95
+msgid "With SDK 8.2, the default image orientation is **SENSOR_NATIVE**."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:97
+msgid ""
+"This Java **enum** SENSOR_NATIVE means that the processing pipeline is "
+"getting the image in the native orientation of the camera sensor. Namely,"
+" no rotation is performed. Note that (former) enum UPRIGHT for a webcam "
+"is the same as SENSOR_NATIVE, while for a phone camera, (former) enum "
+"SIDEWAYS_LEFT is the same as SENSOR_NATIVE."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:103
+msgid ""
+"SENSOR_NATIVE is ideal because the overhead of rotating the image stream "
+"is rather high."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:106
+msgid ""
+"Note that viewing the video stream from the same orientation as the "
+"statistics text box will show you the orientation of the stream passed to"
+" the AprilTag and/or Color Sensor/Locator processors."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:110
+msgid ""
+"Also note that for RC phone cameras, the LiveView preview is rotated "
+"(independent of rotation enum) such that the preview is the way you "
+"“expect” as if you were to open the camera app on the phone. That "
+"rotation happens during the GPU-accelerated rendering of the bitmap and "
+"is significantly easier on resources."
+msgstr ""
+
+#: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:118
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""
+

@@ -20,7 +20,7 @@ Accessibility
 -------------
 
 A new emphasis in FTC Docs is to improve the accessibility of FTC Docs. 
-The `Americans with Disabilities Act (ADA) <https://www.ada.gov/topics/intro-to-ada/>`__
+The `Americans with Disabilities Act (ADA) <https://www.ada.gov/topics/intro-to-ada/>`_
 is a federal civil rights law that prohibits discrimination against people with disabilities in everyday activities.
 
 What is Web Accessibility
@@ -71,16 +71,16 @@ Writing in plain language ensures that users can:
 - Use the information to fulfill their needs
 
 
-This article talks about plain language and contains `tips with examples <https://evolvingweb.com/blog/plain-language-guide-how-write-inclusive-digital-content-2024#how>`__.
-These are similar to the tips on `Writing for Web Accessibility <https://www.w3.org/WAI/tips/writing/#keep-content-clear-and-concise>`__.
-Finally, you can explore the `Federal plain language guidelines <https://www.plainlanguage.gov/guidelines/>`__.
+This article talks about plain language and contains `tips with examples <https://evolvingweb.com/blog/plain-language-guide-how-write-inclusive-digital-content-2024#how>`_.
+These are similar to the tips on `Writing for Web Accessibility <https://www.w3.org/WAI/tips/writing/#keep-content-clear-and-concise>`_.
+Finally, you can explore the `Federal plain language guidelines <https://www.plainlanguage.gov/guidelines/>`_.
 
 reStructuredText Documents
 --------------------------
 
-reStructuredText (RST) is the default plaintext `markup language <https://en.wikipedia.org/wiki/Markup_language>`__ used by Sphinx. 
-See the `reStructuredText primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`__ for a short introduction.
-There is also a `RST cheatsheet <https://sphinx-tutorial.readthedocs.io/cheatsheet/>`__ that can be helpful to remind you of the basics.
+reStructuredText (RST) is the default plaintext `markup language <https://en.wikipedia.org/wiki/Markup_language>`_ used by Sphinx. 
+See the `reStructuredText primer <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ for a short introduction.
+There is also a `RST cheatsheet <https://sphinx-tutorial.readthedocs.io/cheatsheet/>`_ that can be helpful to remind you of the basics.
 
 The following sections illustrate how to write RST for FTC Docs. They are not a tutorial or reference guide for RST. 
 
@@ -93,7 +93,7 @@ The RST markup indicates titles, paragraphs, code samples, images and document s
 .. code:: ReST
 
    Article Title
-   ================
+   =============
 
    This is an example article.
    A paragraph is a collection of lines. You can have multiple sentances per line.
@@ -116,19 +116,19 @@ The RST markup indicates titles, paragraphs, code samples, images and document s
       :alt: 6 multicolor square 3d printed logos. 
 
       This FTC Team printed their sponsors logos in multiple colors to represent them!  
-
+   
    Section
-   ----------
+   -------
 
    This is a section!
-
+   
    Sub-section
-   ^^^^^^^^^^^^^^
-
+   ^^^^^^^^^^^
+   
    This is a sub-section!
 
 .. note:: If you are having issues editing files with the ``.rst`` extension, the recommended text editor is VS Code with the
-    `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`__ extension.
+    `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ extension.
     
     However, a plain text editor works just fine. Though you would need to generate the HTML to see what the document will look like.
 
@@ -175,10 +175,10 @@ Please nest the sections in order. For example, use SubSection to add something 
 Text
 ----
 
-Use the ASCII character set for English text. For special characters (e.g. Greek symbols) use the `standard character entity sets <https://docutils.sourceforge.io/docs/ref/rst/definitions.html#character-entity-sets>`__.
+Use the ASCII character set for English text. For special characters (e.g. Greek symbols) use the `standard character entity sets <https://docutils.sourceforge.io/docs/ref/rst/definitions.html#character-entity-sets>`_.
 
-Use ``.. math::``for standalone equations and``:math:`` for inline equations. 
-The ``.. math::`` directive uses Latex markup, see this `LaTeX equation cheat sheet (PDF) <https://www.reed.edu/academic_support/pdfs/qskills/latexcheatsheet.pdf>`__ for more information.
+Use ``.. math::`` for standalone equations and ``:math:`` for inline equations. 
+The ``.. math::`` directive uses Latex markup, see this `LaTeX equation cheat sheet (PDF) <https://www.reed.edu/academic_support/pdfs/qskills/latexcheatsheet.pdf>`_ for more information.
 
 The standard text formatting markup is quite simple - use:
 
@@ -211,8 +211,8 @@ Use one space between sentences.
 Tables
 ------
 
-There are many ways to create tables, FTC Docs prefers the `list <https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table>`__ 
-or `CSV <https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-table-1>`__ style of RST table. 
+There are many ways to create tables, FTC Docs prefers the `list <https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table>`_ 
+or `CSV <https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-table-1>`_ style of RST table. 
 Please avoid the ASCII art form of table.
 
 .. code:: ReST
@@ -280,7 +280,7 @@ Effective link text:
 - Avoid using long URLs as link text. Longer, less intelligible URLs used as link text might be difficult to comprehend with assistive technology.
 - Link text should be clear and concise. Avoid linking entire sentences or paragraphs.
 
-.. tip:: See this guide on `writing hyperlinks <https://www.nngroup.com/articles/writing-links/>`__ for more information.
+.. tip:: See this guide on `writing hyperlinks <https://www.nngroup.com/articles/writing-links/>`_ for more information.
    
 Internal Links
 ^^^^^^^^^^^^^^
@@ -298,9 +298,9 @@ Note the leading underscore and trailing colon that surround the label. The labe
 .. code:: rest
 
    .. _imu axes def:
-
+   
    Axes Definition
-   ------------------
+   ---------------
 
 Then you reference the label by using ``:ref:`` and surrounding the label with back ticks as follows:
 
@@ -319,7 +319,7 @@ The second ``:ref:`` shows a format that lets you specify the link text, otherwi
    * - another reference to :ref:`IMU or robot axes <imu axes def>`
      - This shows custom link text.
 
-When using ``:ref:``or``:doc:``you may customize the displayed text by surrounding the actual link with angle brackets``<>``and adding the custom text between the first back tick`````and the first angle bracket``<``, leaving a space between the text and bracket. 
+When using ``:ref:`` or ``:doc:`` you may customize the displayed text by surrounding the actual link with angle brackets ``<>`` and adding the custom text between the first back tick ````` and the first angle bracket ``<``, leaving a space between the text and bracket. 
 For example ``:ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller Overview>``` renders to :ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller Overview>`.
 This is a link to the Robot Controller Overview section of the index in the rc_components folder.
 
@@ -335,9 +335,9 @@ Use the following RST syntax:
 
 .. code:: rest
 
-   `Game and Season Materials <https://ftc-resources.firstinspires.org/ftc/game>`__
+   `Game and Season Materials <https://ftc-resources.firstinspires.org/ftc/game>`_
 
-Which looks like: `Game and Season Materials <https://ftc-resources.firstinspires.org/ftc/game>`__
+Which looks like: `Game and Season Materials <https://ftc-resources.firstinspires.org/ftc/game>`_
 
 FTC Docs has chosen to open links to external sites in new tabs. This is done with JavaScript.
 We mitigate this somewhat by adding an icon that indicates the link is to an external site and add screen reader only text.
@@ -503,7 +503,7 @@ If you need more than a sentence or two to describe the image, see `Complex Imag
 
 .. tip:: For assistance with alt text descriptions, see :ref:`alt-text-label`.
 
-.. important:: If you are editting an existing page that has an ``.. image``or``.. figure``directive with no``:alt:`` option,
+.. important:: If you are editting an existing page that has an ``.. image`` or ``.. figure`` directive with no ``:alt:`` option,
    please take a moment to add the ``:alt:`` option with a functional description of the image.
 
 Images With Captions
@@ -627,12 +627,12 @@ Image Files
 Image files should be stored in an ``images`` sub directory in the folder of the current document. 
 This allows the document to reference the image as follows: ``.. image:: images/my-image.png``.
 
-Example: The document **field-coordinate-system.rst**is in the**game_specific_resources\\field_coordinate_system** folder.
+Example: The document **field-coordinate-system.rst** is in the **game_specific_resources\\field_coordinate_system** folder.
 The images for that page are stored in the folder **game_specific_resources\\field_coordinate_system\\images**.
 
 Image file names should follow the naming scheme of **short-description.ext**, where the name of the image is a short description of what the image shows. 
 This should be less than 24 characters. 
-File name extensions should be **.png**or**.jpg**.
+File name extensions should be **.png** or **.jpg**.
 
 Image file formats should be Portable Network Graphics(PNG) or Joint Photographic Experts Group(JPEG).
 

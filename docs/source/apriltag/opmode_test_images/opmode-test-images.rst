@@ -1,13 +1,35 @@
-*FIRST* Tech Challenge AprilTag テストサンプル
+*FIRST* Tech Challenge AprilTag Testing Samples
 ===============================================
 
-はじめに
+Introduction
 ------------
 
-2023-2024 シーズンでは、`FIRST Tech Challenge が AprilTags を導入しました
-<https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__。これはシーズン固有の競技に使用されます。AprilTags は、ミシガン大学の April Robotics Laboratory によって開発され、QR コードと同様の概念に基づいて構築された視覚的フィデューシャルタギングシステムで、拡張現実、ロボティクス、カメラキャリブレーションを含む幅広いタスクに有用です。適切にキャリブレーションされたカメラとタグライブラリを使用して、AprilTags を検出し、カメラに対するタグの範囲と方向情報（**ポーズ** データとも呼ばれる）などの情報を提供できます。*FIRST* Tech Challenge Software Development Kit (SDK) は、チームがこのリソースを利用できるように AprilTag 検出 API を追加するために更新されました。
+In the 2023-2024 season, `FIRST Tech Challenge has introduced
+AprilTags <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__ into
+the season-unique competition. AprilTags were developed by the April
+Robotics Laboratory at the University of Michigan and are a visual
+fiducial tagging system, built on a similar concept as QR codes, useful
+for a wide variety of tasks including augmented reality, robotics, and
+camera calibration. A properly calibrated camera and tag library can be
+used to detect AprilTags and provide information such as range and
+orientation information (also known as **pose** data) about the tags
+with respect to the camera. The *FIRST* Tech Challenge Software
+Development Kit (SDK) has been updated to add AprilTag detection APIs to
+help teams make use of this resource.
 
-このドキュメントには、SDK 内の *FIRST* Tech Challenge AprilTag サンプルで使用することを目的とした AprilTags の例が含まれています。2023-2024 シーズンで使用されるすべての AprilTags は、36h11 タグファミリーから来ています。これは、事前に決定されたタグのセットです。主要なタグ領域は、黒と白の *ピクセル* の 8x8 正方形マトリックスで構成されています。タグのサイズは、タグの全体の黒い正方形部分の物理的寸法に基づいて測定されます – 4 インチの AprilTag には、各辺が 4 インチを測定する黒い正方形部分があります。AprilTag のサイズを測定する際には使用されませんが、各タグには、主要なタグ領域を囲む 1 *ピクセル* 厚の白い境界線も必要です（合計タグサイズは 10x10 *ピクセル* になります）。追加された白い境界線により、たとえば、4 インチの AprilTag には各辺 5 インチのフットプリントが必要です。
+This document contains examples of AprilTags that are intended
+to be used with the *FIRST* Tech Challenge AprilTag samples within the
+SDK. All AprilTags used in the 2023-2024 season are from the 36h11 tag
+family, which is a predetermined set of tags. The primary tag area is
+comprised of an 8x8 square matrix of black and white *pixels*. The size
+of the tag is measured based on the physical dimensions of the total
+black square portion of the tag – a 4 inch AprilTag has a black square
+portion that measures 4 inches on each side. Even though it is not used
+in measuring the size of an AprilTag, each tag also requires a white
+border one *pixel* thick surrounding the primary tag area (bringing the
+total tag size to 10x10 *pixels*). With the added white border, for
+example, a 4-inch AprilTag requires a footprint of 5 inches on each
+side.
 
 .. figure:: images/apriltag_sizing.png
    :width: 75%
@@ -16,27 +38,32 @@
 
    Example sizing for 4-inch AprilTag
 
-*FIRST* Tech Challenge の AprilTag API は複数のタグサイズを処理できます；各個別のタグは独立してサイズを設定できますが、個別のタグに複数のサイズを設定することはできません。各タグに対して計算される一部のポーズ情報（カメラからタグまでの距離データなど）には、使用されるタグの正確なサイズを知る必要があります。SDK 内のサンプルプログラムで使用されるデフォルトのタグサイズは次のとおりです：
+The AprilTag API for *FIRST* Tech Challenge can handle multiple tag
+sizes; each individual tag can be sized independently, but there cannot
+be multiple sizes for an individual tag. Some pose information
+calculated for each tag, such as distance from camera to tag data,
+requires knowing the exact size of the tags being used. The default tag
+sizes used with the sample programs within the SDK are as follows:
 
-+--------------------------------------+--------------------------------------+
-| **タグの説明**                       | **タグのサイズ（インチ）**           |
-|                                      | **（ミリメートル）**                 |
-+======================================+======================================+
-| タグ ID: 583（別名「Nemo」）         | 4 in (101.6 mm)                      |
-+--------------------------------------+--------------------------------------+
-| タグ ID: 584（別名「Jonah」）        | 4 in (101.6 mm)                      |
-+--------------------------------------+--------------------------------------+
-| タグ ID: 585（別名「Cousteau」）     | 6 in (152.4 mm)                      |
-+--------------------------------------+--------------------------------------+
-| タグ ID: 586（別名「Ariel」）        | 6 in (152.4 mm)                      |
-+--------------------------------------+--------------------------------------+
++-----------------------------------+-----------------------------------+
+| **Tag Description**               | **Size of Tag in Inches           |
+|                                   | (millimeters)**                   |
++===================================+===================================+
+| Tag ID: 583 (AKA “Nemo”)          | 4 in (101.6 mm)                   |
++-----------------------------------+-----------------------------------+
+| Tag ID: 584 (AKA “Jonah”)         | 4 in (101.6 mm)                   |
++-----------------------------------+-----------------------------------+
+| Tag ID: 585 (AKA “Cousteau”)      | 6 in (152.4 mm)                   |
++-----------------------------------+-----------------------------------+
+| Tag ID: 586 (AKA “Ariel”)         | 6 in (152.4 mm)                   |
++-----------------------------------+-----------------------------------+
 
-この :download:`ドキュメントの PDF バージョン
-<files/FTCAprilTagSDK82SamplesExtended.pdf>` またはその一部を印刷する際は、
-ページサイズの設定を「実際のサイズ」に設定して、タグが正しく印刷されるようにしてください。
-すべてのプリンターは少しずつ異なるため、主要なタグ領域の黒い正方形部分の幅と高さを測定して、
-ページが正しく印刷されたことを確認することもお勧めします。
-
+When printing out the :download:`PDF version of this document
+<files/FTCAprilTagSDK82SamplesExtended.pdf>`, or portions thereof, please set
+the Page Size settings to “Actual Size” to ensure that the tags are printed
+properly. Every printer is slightly different, so it’s also a good idea to
+measure the width and height of the black-square portion of the main tag area
+to verify that the page printed properly.
 
 .. figure:: images/printing.png
    :width: 75%
@@ -45,17 +72,20 @@
 
    Example printing settings for printing PDF at Actual Size
 
-AprilTag 検出値に関するより詳細な情報と、それらが何を意味するかをよりよく理解するには、次のウェブサイトにアクセスしてください：
+For more in-depth information about AprilTag detection values, and
+better understanding what they mean, please visit the following website:
 
-:ref:`AprilTag 検出値の理解 <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
-- :download:`公式 PDF をダウンロードして印刷 <files/FTCAprilTagSDK82SamplesExtended.pdf>`
+:ref:`Understanding AprilTag Detection Values <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:understanding apriltag detection values>`
+- :download:`Download and print the official PDF <files/FTCAprilTagSDK82SamplesExtended.pdf>`
 
 
 AprilTags
 ---------
 
-認識のためにこれらのタグにカメラを向けることができます - ftc-docs は画像の引き伸ばしを許可しているため、表示領域の幅が画像の幅よりも小さい場合、画像が明確かつ正確に表現されない可能性があります。
-:download:`公式 PDF をダウンロードして印刷する <files/FTCAprilTagSDK82SamplesExtended.pdf>` ことをお勧めします。
+You can point your camera at these tags for recognition - ftc-docs does allow stretching
+of the image, so the image may not clearly and correctly be represented if the width
+of the display area is less than the width of the image. It is recommended to  
+:download:`download and print the official PDF <files/FTCAprilTagSDK82SamplesExtended.pdf>`.
 
 .. figure:: images/tag583_nemo.png
    :height: 4 in
@@ -63,7 +93,7 @@ AprilTags
    :align: center
    :alt: Tag583_nemo
 
-   タグ 583、「Nemo」
+   Tag 583, "Nemo"
 
 |
 
@@ -73,7 +103,7 @@ AprilTags
    :align: center
    :alt: Tag584_jonah
 
-   タグ 584、「Jonah」
+   Tag 584, "Jonah"
 
 |
 
@@ -83,7 +113,7 @@ AprilTags
    :align: center
    :alt: Tag585_cousteau
 
-   タグ 585、「Cousteau」
+   Tag 585, "Cousteau"
 
 |
 
@@ -93,7 +123,7 @@ AprilTags
    :align: center
    :alt: Tag586_ariel
 
-   タグ 586、「Ariel」
+   Tag 586, "Ariel"
 
 |
 

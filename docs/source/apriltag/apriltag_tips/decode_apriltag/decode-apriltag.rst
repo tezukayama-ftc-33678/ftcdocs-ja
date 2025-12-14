@@ -1,30 +1,54 @@
-RTX提供のDECODEにおけるAprilTagの課題
-=============================================
+AprilTag Challenges in DECODE presented by RTX
+==============================================
 
-AprilTagとは？
---------------
+What are AprilTags?
+-------------------
 
-`ミシガン大学 <https://april.eecs.umich.edu/software/apriltag>`_ で開発された **AprilTag** は、2Dバーコードや簡略化されたQRコードに似ています。数値の **ID コード** を含み、** 位置と向き** に使用できます。
+Developed at the `University of Michigan
+<https://april.eecs.umich.edu/software/apriltag>`_, AprilTags are similar to a
+2D barcode or a simplified QR Code. It contains a numeric **ID code** and can
+be used for **location and orientation**.
 
-RTX提供のDECODEシーズンの **FIRST** Tech Challenge では、**AprilTag** は3つの異なる方法で使用されます：
+In *FIRST* Tech Challenge during the DECODE presented by RTX season, AprilTags
+are used in three different ways:
 
-1. **OBELISK** 上では、**AprilTag** は各 **MATCH** でランダム化される3つの **MOTIF** の1つを識別するために使用されます。
-2. **GOAL** 上では、**AprilTag** をターゲットに使用して、チームが **ARTIFACT** を正しい **GOAL** に正確に発射できます。
-3. **GOAL** 上では、**AprilTag** はビジュアルオドメトリシステムとして使用でき、**AprilTag** が提供する情報を使用して **FIELD** 上の **ROBOT** の位置を計算します（ローカライゼーションと呼ばれるプロセス）。詳細については、:doc:`AprilTag ローカライゼーション <../../vision_portal/apriltag_localization/apriltag-localization>` ページを参照してください。
+1. On the OBELISK, the AprilTags are used to identify one of three MOTIFS that
+   are randomized each MATCH.
+2. On the GOALS, AprilTags can be used to target the GOAL for teams to launch
+   ARTIFACTS accurately into the correct GOAL.
+3. On the GOALS, AprilTags can be used as a visual odometry system, using the
+   information that AprilTags can provide to calculate the position of the 
+   ROBOT on the FIELD (through a process called localization). See the 
+   :doc:`AprilTag Localization <../../vision_portal/apriltag_localization/apriltag-localization>`
+   page for more information.
 
 .. figure:: images/decode-apriltags.png
    :width: 50%
    :align: center
-   :alt: DECODEフィールドとAprilTag位置を示す画像
+   :alt: Image showing the DECODE field and AprilTag locations
 
-   DECODEフィールド上のAprilTag IDと位置
+   AprilTag IDs and Locations on the DECODE field.
 
-困難な環境照明でのAprilTag
----------------------------
+AprilTags with Difficult Environmental Lighting
+-----------------------------------------------
 
-今シーズン、チームが直面する課題の1つは、カメラが **AprilTag** を正しく認識できるようにすることです。**AprilTag** は、**AprilTag** の白と黒の部分がコントラストの高い色であるという事実に依存しています - 環境の照明が十分なコントラストを許さない場合、**AprilTag** アルゴリズムは **AprilTag** を適切に検出できない可能性があります。幸いなことに、事実上すべてのウェブカメラで環境の問題を修正するのに役立つことができます。
+One of the challenges teams will face this season is ensuring that their cameras
+are able to see the AprilTags correctly. AprilTags rely on the fact that the 
+white and black portions of the AprilTags are contrasting colors - if the lighting
+in the environment doesn't allow for enough contrast, the AprilTag algorithm
+may not properly detect the AprilTag. Fortunately, there are things we can do 
+with virtually every webcam that can help correct for environmental issues.
 
-優れた例の状況が倉庫で発生しました。**DECODE** フィールドが倉庫に設置され、``ConceptAprilTagEasy`` サンプルでデフォルト設定を使用していました。カメラストリームプレビューを表示すると、**OBELISK** 上の **AprilTag** は、晴れた日に **OBELISK** に直接当たる日光によって完全に白飛びし、**AprilTag** が見えませんでした。わずかに異なる角度の別のカメラが同じシーンの別の写真を撮りました。**AprilTag** は見えますが、**AprilTag** から反射する直接光が明らかに多すぎるため、認識できませんでした。このシナリオは、イベントが開催される可能性のある体育館に非常に似ており、晴れた日には光がカメラの **AprilTag** を表示する能力を妨げる可能性があります。何ができるでしょうか？
+An excellent example situation came up in a warehouse. The DECODE field was set
+up in the warehouse, and using default settings with the
+``ConceptAprilTagEasy`` sample.  When viewing the camera stream preview, the
+AprilTag on the OBELISK was completely washed out by sunlight striking the
+OBELISK directly on a sunny day, making the AprilTag unable to be seen. A
+different camera at a slightly different angle took another picture of the same
+scene, and the AprilTag can be seen but there is definitely too much direct light
+reflecting off the AprilTag, making it unable to be recognized. This scenario is
+very similar to a gymnasium where an event could be hosted, and on a sunny day
+light can interfere with a camera's ability to view an AprilTag. What can be done?
 
 .. only:: html
 
@@ -35,70 +59,87 @@ RTX提供のDECODEシーズンの **FIRST** Tech Challenge では、**AprilTag**
          :class-header: sd-bg-dark font-weight-bold sd-text-white
          :class-body: sd-text-left body
 
-         画像 #1 - 例
+         Image #1 - Example
 
          ^^^
 
          .. figure:: images/1-decode-washed-out-obelisk.*
             :align: center
             :width: 95%
-            :alt: OBELISKのAprilTagが見えないDECODEフィールドの画像
+            :alt: Image of DECODE field with obelisk AprilTag unable to be seen
 
          +++
          
-         OBELISK上の白飛びしたAprilTag
+         Washed Out AprilTag on OBELISK
 
       .. grid-item-card::
          :class-header: sd-bg-dark font-weight-bold sd-text-white
          :class-body: sd-text-left body
 
-         画像 #2 - 別の視点
+         Image #2 - Alternate View
 
          ^^^
 
          .. figure:: images/2-decode-washed-out-obelisk.*
             :align: center
             :width: 85%
-            :alt: 別の視点からのDECODEフィールドの画像
+            :alt: Image of DECODE field from another perspective
 
          +++
 
-         OBELISKの別の視点
+         Alternate View of OBELISK
 
       .. grid-item-card::
          :class-header: sd-bg-dark font-weight-bold sd-text-white
          :class-body: sd-text-left body
 
-         画像 #3 - 別の視点
+         Image #3 - Alternate View
 
          ^^^
 
          .. figure:: images/5-decode-warehouse-lighting.*
             :align: center
             :width: 85%
-            :alt: 倉庫の窓から入ってくる光を示す画像
+            :alt: Image showing light coming in from windows of warehouse
 
          +++
 
-         倉庫に入る日光
+         Sunlight Entering Warehouse
          
 .. only:: latex
 
-   .. list-table:: 困難なシナリオの異なる視点
+   .. list-table:: Different Views of Challenging Scenario
       :class: borderless
 
       * - .. image:: images/1-decode-washed-out-obelisk.*
         - .. image:: images/2-decode-washed-out-obelisk.*
         - .. image:: images/5-decode-warehouse-lighting.*
 
-この環境照明に対抗する最良の方法は、**SDK** 内のウェブカメラ設定を使用して、ゲインと露出設定の両方を同時に調整することです。露出を最小化し（各画像フレームで光がセンサーに当たる時間を短縮）、ゲインを最大化する（センサーからの信号を増幅）ことで、結果の画像は通常の画像よりも暗くなりますが、**AprilTag** のような高コントラストの要素が強調され、認識できるようになります。これは ``ConceptAprilTagOptimizeExposure`` サンプルを使用して実験できます。
+The best way to counter this environmental lighting is to use the webcam
+settings within the SDK to adjust both the Gain and the Exposure settings at
+the same time. By simultaneously minimizing the exposure (lessening the amount of
+time light is allowed to strike the sensor each image frame) and maximizing
+the gain (amplifying the signal from the sensor) the resulting image will be 
+darker than a normal image but elements of high contrast will be accentuated, 
+like AprilTags, allowing them to be recognized. This can be experimented with
+using the ``ConceptAprilTagOptimizeExposure`` sample.
 
-確かに、ウェブカメラの露出を最小化し、ゲインを最大化することで、ウェブカメラからの結果の画像を使用して、問題のある **AprilTag** を認識できました。さらに多くの例として、``RobotAutoDriveToAprilTag...`` サンプル **OpMode** もこの手法を使用して、カメラの露出とゲイン設定を調整し、ほとんどの条件下で **AprilTag** が読み取れるようにしています。
+Sure enough, by minimizing the Exposure and maximizing the Gain of the webcam,
+the resulting images from the webcam were able to be used to recognize the
+problematic AprilTags. For more examples, the ``RobotAutoDriveToAprilTag...``
+sample OpModes also use this technique for adjusting the exposure and gain 
+settings of the camera to ensure the AprilTags are readable under most 
+conditions. 
 
 .. tip:: 
-   大きな利点の1つは、この手法（露出を最小化しながらゲインを最大化）は、移動中の **AprilTag** を読み取る際のモーションブラーを減らすのにも非常に人気があることです - したがって、これには複数の利点があります！
+   One big advantage is that this technique (minimizing exposure while
+   maximizing gain) is ALSO very popular in reducing motion blur for reading
+   AprilTags while moving - so this has more than one benefit!
 
-露出とゲインが適切に設定された後の画像の例を次に示します。1つの画像は **AprilTag** 処理が有効になっており、**AprilTag** が適切に検出されていることを示しています。もう1つは処理が無効になっているため、ウェブカメラから返される生画像を見ることができます。
+Here are examples of the images once the exposure and gain are set appropriately,
+one image has the AprilTag processing enabled to show that the AprilTag is 
+being detected properly, and the other has processing disabled so that we can 
+see the raw image being returned by the webcam.
 
 .. only:: html
 
@@ -109,60 +150,68 @@ RTX提供のDECODEシーズンの **FIRST** Tech Challenge では、**AprilTag**
          :class-header: sd-bg-dark font-weight-bold sd-text-white
          :class-body: sd-text-left body
 
-         画像 #4 - 処理済み画像
+         Image #4 - Processed Image
 
          ^^^
 
          .. figure:: images/3-decode-recognized-obelisk.*
             :align: center
             :width: 95%
-            :alt: OBELISKのAprilTagが処理されているDECODEフィールドの画像
+            :alt: Image of DECODE field with obelisk AprilTag being processed
 
          +++
          
-         検出を示す処理済み画像
+         Processed Image showing Detections
 
       .. grid-item-card::
          :class-header: sd-bg-dark font-weight-bold sd-text-white
          :class-body: sd-text-left body
 
-         画像 #5 - 生の処理済み画像
+         Image #5 - Raw Processed Image
 
          ^^^
 
          .. figure:: images/4-decode-recognized-obelisk-raw.*
             :align: center
             :width: 95%
-            :alt: 生の処理済みDECODEフィールドの画像
+            :alt: Image of raw processed DECODE field 
 
          +++
 
-         AprilTag処理なしの画像
+         Image without AprilTag processing
 
 .. only:: latex
 
-   .. list-table:: 結果の画像
+   .. list-table:: Resulting Images
       :class: borderless
 
       * - .. image:: images/3-decode-recognized-obelisk.*
         - .. image:: images/4-decode-recognized-obelisk-raw.*
 
-OBELISK上の複数のAprilTagの読み取り
-------------------------------------
+Reading Multiple AprilTags on the OBELISK
+-----------------------------------------
 
-**OBELISK** は正三角柱（実際のオベリスクには4つの面があることは知っています）で、**FIELD** の **GOAL** 側に、**FIELD** 境界の外側に長方形の面の1つが中央に配置されています。**ROBOT** が **ALLIANCE** の **GOAL** に接触してフィールドに配置されると、**ROBOT** のカメラが複数の **AprilTag** を認識して処理する可能性が非常に高くなります。
+The OBELISK is an equilateral triangular prism (we know, real obelisks have 4
+sides) which is positioned with 1 of the rectangular faces centered on the
+GOAL-side of the FIELD, just outside of the FIELD perimeter. When ROBOTS are
+set up on the field contacting their ALLIANCE'S GOAL, it is a very real
+possibility that the ROBOT's camera will see and process multiple AprilTags.
 
 .. warning:: 
-   両方の **AprilTag** を読み取り、それら2つのタグを使用して実際にどの **AprilTag** が見えているかを判断（および検証）することは論理的に見えるかもしれません。ただし、**OBELISK** 上の **AprilTag** には定義された順序がないため、これは信頼できません。
+   It might seem logical to read both AprilTags and use those two tags to
+   determine (and verify) which AprilTag is actually being seen. However, there
+   is no defined order for AprilTags on an OBELISK, so this is not reliable. 
 
 
 .. figure:: images/6-decode-obelisk-tags.*
    :align: center
    :width: 75%
-   :alt: 複数のAprilTagが見えるOBELISKを示す画像
+   :alt: Image showing OBELISK with more than one AprilTag visible
 
-   BLUE GOALからのOBELISK上のAprilTagの表示
+   View of AprilTags on OBELISK from BLUE GOAL
 
-**FIELD** に実際に表示されている **AprilTag** を判断する信頼できる方法は、**OBELISK** の正面の **AprilTag** のみが表示できる位置に **ROBOT** を移動することです。
+A reliable way to determine which AprilTag is truly showing on the FIELD
+is to move the ROBOT into a position where the AprilTag on the front face of
+the OBELISK is the only tag that can be viewed. 
 
-今シーズンの幸運を祈ります！
+Good Luck this season!

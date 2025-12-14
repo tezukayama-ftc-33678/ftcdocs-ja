@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-14 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:2
+msgid "Example: Modify Telemetry Settings"
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:4
+msgid ""
+"Telemetry messages are sent from the Robot Controller to the Driver "
+"Station up to **four time per second**, by default. This maximum refresh "
+"rate can be changed with Android Studio or OnBot Java, but **not** with "
+"regular Blocks. Now a myBlock can provide that capability too!"
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:9
+msgid ""
+"This simple example allows a Blocks user to change the standard time "
+"interval from 250 milliseconds to any other interval."
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:14
+msgid ""
+"A lower time interval can allow faster update of sensor or encoder data. "
+"A higher interval can ease the RC-DS communication bandwidth load."
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:17
+msgid "Here’s the Java code for the method only:"
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:21
+msgid ""
+"This tutorial intends for you to **manually type** the Java code above. "
+"If you require pre-typed text of this example, click below. The linked "
+"copy includes the usual class declaration and package/import statements."
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst
+msgid "Example Code"
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:28
+msgid ":download:`W_myBlocks.java <opmodes/W_myBlocks.java>`"
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:34
+msgid ""
+"Want to verify this actually works? Another, slightly more advanced "
+"myBlock allows measuring the time between Telemetry updates; it’s posted "
+"below. That myBlock can be used in a Blocks program like the one "
+"attatched below; download the raw **.blk file** and click the **Upload Op"
+" Mode** button at the main Blocks menu. Read all comments and "
+"instructions."
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:43
+msgid ""
+":download:`W_myBlocks_Telemetry_v02.java "
+"<opmodes/W_myBlocks_Telemetry_v02.java>`"
+msgstr ""
+
+#: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:45
+msgid ""
+":download:`W_Telemetry_myBlocks_v02.blk "
+"<opmodes/W_Telemetry_myBlocks_v02.blk>`"
+msgstr ""
+

@@ -1,4 +1,4 @@
-はじめに :bdg-info:`OBJ`
+Introduction :bdg-info:`OBJ`
 ============================
 
 .. toctree::

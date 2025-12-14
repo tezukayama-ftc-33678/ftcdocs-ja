@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-14 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/index.rst:24
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/index.rst:34 ../../source/index.rst:332
+msgid "Competition Manual"
+msgstr ""
+
+#: ../../source/index.rst:34
+msgid "Game Q&A System"
+msgstr ""
+
+#: ../../source/index.rst:34
+msgid "Field Coordinate System"
+msgstr ""
+
+#: ../../source/index.rst:34
+msgid "Game and Season-Specific Resources"
+msgstr ""
+
+#: ../../source/index.rst:47
+msgid "Laptop Requirements"
+msgstr ""
+
+#: ../../source/index.rst:47
+msgid "SDK Overview"
+msgstr ""
+
+#: ../../source/index.rst:47
+msgid "Updating Components"
+msgstr ""
+
+#: ../../source/index.rst:47 ../../source/index.rst:266
+msgid "Software Development Kit (SDK)"
+msgstr ""
+
+#: ../../source/index.rst:56
+msgid "Robot Building Resources"
+msgstr ""
+
+#: ../../source/index.rst:62
+msgid "Control System Resources"
+msgstr ""
+
+#: ../../source/index.rst:74
+msgid "AprilTag Introduction"
+msgstr ""
+
+#: ../../source/index.rst:74
+msgid "VisionPortal Overview"
+msgstr ""
+
+#: ../../source/index.rst:74
+msgid "Webcams for VisionPortal"
+msgstr ""
+
+#: ../../source/index.rst:74
+msgid "Understanding AprilTag Values"
+msgstr ""
+
+#: ../../source/index.rst:74
+msgid "AprilTag Localization"
+msgstr ""
+
+#: ../../source/index.rst:74
+msgid "AprilTag Test Images"
+msgstr ""
+
+#: ../../source/index.rst:74
+msgid "AprilTag Resources"
+msgstr ""
+
+#: ../../source/index.rst:86
+msgid "Computer Aided Design (CAD)"
+msgstr ""
+
+#: ../../source/index.rst:86
+msgid "CAD Resources"
+msgstr ""
+
+#: ../../source/index.rst:93
+msgid "Managing ESD Effects"
+msgstr ""
+
+#: ../../source/index.rst:93
+msgid "Electrostatic Discharge"
+msgstr ""
+
+#: ../../source/index.rst:100
+msgid "Manufacturing Methods"
+msgstr ""
+
+#: ../../source/index.rst:100
+msgid "Manufacturing"
+msgstr ""
+
+#: ../../source/index.rst:107
+msgid "Team Complimentary Software"
+msgstr ""
+
+#: ../../source/index.rst:107
+msgid "Team Discounts"
+msgstr ""
+
+#: ../../source/index.rst:107
+msgid "Team Resources"
+msgstr ""
+
+#: ../../source/index.rst:117
+msgid "Booklets"
+msgstr ""
+
+#: ../../source/index.rst:117
+msgid "Archive"
+msgstr ""
+
+#: ../../source/index.rst:117
+msgid "Site Feedback Form"
+msgstr ""
+
+#: ../../source/index.rst:117
+msgid "Contributing to FTC Docs"
+msgstr ""
+
+#: ../../source/index.rst:117
+msgid "FTC Docs"
+msgstr ""
+
+#: ../../source/index.rst:-1
+msgid "FIRST Tech Challenge Documentation"
+msgstr ""
+
+#: ../../source/index.rst:-1
+msgid "The official home of FIRST Tech Challenge Documentation."
+msgstr ""
+
+#: ../../source/index.rst:-1
+msgid ""
+"FTC Control System, Blocks, OnBot Java, Android Studio, OpenCV, "
+"EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App,"
+" Control Hub, Driver Hub, IMU, Water Game"
+msgstr ""
+
+#: ../../source/index.rst:7
+msgid "*FIRST* Tech Challenge documentation"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid ""
+"Welcome to the *FIRST®* Tech Challenge Documentation! This website "
+"contains everything you need to know to create a competition robot! There"
+" is information and tutorials on how to use the *FIRST* Tech Challenge "
+"software and robot control system. There is also information for coaches "
+"and mentors."
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid ""
+"*FIRST* Tech Challenge is a robotics program for middle and high school "
+"students. It’s way more than building robots, see :doc:`About the FIRST "
+"Tech Challenge <overview/ftcoverview>` and "
+":doc:`gracious_professionalism/gp` to see why."
+msgstr ""
+
+#: ../../source/index.rst:129
+msgid "**I am a...**"
+msgstr ""
+
+#: ../../source/index.rst:131
+msgid ""
+":doc:`New Team <persona_pages/rookie_teams/rookie_teams>` New Teams may "
+"not know where to start. This is the way!"
+msgstr ""
+
+#: ../../source/index.rst:133
+msgid ""
+":doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` "
+"Returning Teams looking for resources can look here."
+msgstr ""
+
+#: ../../source/index.rst:135
+msgid ""
+":doc:`Coach <persona_pages/coach_admin/coach_admin>` Coaches looking for "
+"help or Team Administrative Resources can look here."
+msgstr ""
+
+#: ../../source/index.rst:137
+msgid ""
+":doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` Technical Mentors "
+"looking for Technical Resources should look here first!"
+msgstr ""
+
+#: ../../source/index.rst:139
+msgid ""
+"The main menu contains links to the top level content. The following are "
+"quick links organized by topic."
+msgstr ""
+
+#: ../../source/index.rst:148
+msgid "Programming Links"
+msgstr ""
+
+#: ../../source/index.rst:152
+msgid "Quick Links for Programming Language Resources"
+msgstr ""
+
+#: ../../source/index.rst:160
+msgid "Blocks"
+msgstr ""
+
+#: ../../source/index.rst:170
+msgid "OnBot Java"
+msgstr ""
+
+#: ../../source/index.rst:180
+msgid "Android Studio"
+msgstr ""
+
+#: ../../source/index.rst:190
+msgid "AprilTags"
+msgstr ""
+
+#: ../../source/index.rst:200
+msgid "All Resources"
+msgstr ""
+
+#: ../../source/index.rst:212
+msgid "Control System Links"
+msgstr ""
+
+#: ../../source/index.rst:216
+msgid "Let's get to know the *FIRST* Tech Challenge Control System!"
+msgstr ""
+
+#: ../../source/index.rst:224
+msgid "Driver Station"
+msgstr ""
+
+#: ../../source/index.rst:234
+msgid "Robot Controller"
+msgstr ""
+
+#: ../../source/index.rst:244
+msgid "Device Connections"
+msgstr ""
+
+#: ../../source/index.rst:254
+msgid "Hardware Configuration"
+msgstr ""
+
+#: ../../source/index.rst:270
+msgid ""
+"The Software Development Kit (SDK) is the collection of tools for "
+"developing software and executing it on the robot."
+msgstr ""
+
+#: ../../source/index.rst:279
+msgid "About the SDK"
+msgstr ""
+
+#: ../../source/index.rst:289
+msgid "SDK GitHub Repository"
+msgstr ""
+
+#: ../../source/index.rst:299
+msgid "SDK Releases"
+msgstr ""
+
+#: ../../source/index.rst:308
+msgid "Javadoc Documentation"
+msgstr ""
+
+#: ../../source/index.rst:319
+msgid "Game Links"
+msgstr ""
+
+#: ../../source/index.rst:323
+msgid ""
+"Be sure you're following all of the rules of the competition! The "
+"Competition Manual is an essential document."
+msgstr ""
+
+#: ../../source/index.rst:342
+msgid "game_specific_resources/playing_field_resources/playing_field_resources"
+msgstr ""
+
+#: ../../source/index.rst:350
+msgid "Game Question and Answer System"
+msgstr ""
+
+#: ../../source/index.rst:359
+msgid ""
+"This project is under active development. Anything contained herein is "
+"for informational purposes only; while this documentation is intended to "
+"support teams and in some way provide context to game rules, the game "
+"rules supercede all documentation found here. If you have feedback about "
+"this project, please use our :doc:`feedback form <ftc_docs/form/form>`."
+msgstr ""
+

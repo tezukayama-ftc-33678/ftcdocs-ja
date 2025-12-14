@@ -32,7 +32,7 @@ Instructions for viewing DS Camera Stream are shown
 Camera Stream uses its own frame collection process, which naturally still
 requires the camera/pipeline status to be ``STREAMING``. Disabling the stream
 will prevent the DS preview. Camera status is covered at the **Managing CPU and
-Bandwidth**page, and the**VisionPortal Camera Controls** page.
+Bandwidth** page, and the **VisionPortal Camera Controls** page.
 
 Side Note: For SDK 8.2, “LiveView” became the new universal name for the
 RC preview. There remain two instances of old names: 
@@ -84,7 +84,7 @@ can appear regular-size or **BIG**.
    Camera Stream preview enlargement buttons
 
 
-**Circled in yellow**are the user buttons to**go BIG** or return to
+**Circled in yellow** are the user buttons to **go BIG** or return to
 the **default** screen.
 
 Note the annotations have shifted to fit in the image.

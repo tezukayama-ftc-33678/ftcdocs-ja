@@ -1,0 +1,574 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-14 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:2
+msgid "Creating rST Documents"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:5
+msgid ""
+"It is assumed that you have created a GitHub account and been given the "
+"proper permissions to work within this repository for training. If you "
+"can read this, you probably have, but double-check with your friendly FTC"
+" Support person."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:9
+msgid ""
+"Now that we have created our branch, now we can begin making our own "
+"special changes to our branch - i.e. adding or modifying content. "
+"Remember, our branch is our place to make any kinds of changes we want, "
+"we just have to understand *where* and *how* to make those changes."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:15
+msgid "Understanding the ftcdocs Structure"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:17
+msgid ""
+"The ftcdocs repository is a \"map\" of the files and how they'll be "
+"presented to users on the website. Filenames and where they're located in"
+" the folder structure of the repository define the ultimate web "
+"experience users will have interacting with your final documentation."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:23
+msgid "Quick GitHub Folder Listing Intro"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:25
+msgid ""
+"For those unfamiliar with the GitHub folder (also known as "
+"\"directories\") structure listing, here's a quick introduction:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:33
+msgid "GitHub Folder Listing Info"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:35
+msgid ""
+"Branch Indicator and Selection - Here you can see which branch you're "
+"viewing, and select another branch if you want to view a different one. "
+"Test 123"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:37
+msgid ""
+"Repository Path Location of the currently viewed folder - This helps you "
+"understand where you are within the Repository. On the main page of the "
+"repository there is no path shown, but on all other locations within the "
+"repository the path indicates where you are."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:41
+msgid ""
+"File Search Tool - If you can't find a file by browsing through the "
+"folder, or you want to \"quick-find\" a particular file (useful for "
+"listing all of the \"index.rst\" files especially) this tool can help you"
+" out."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:44
+msgid ""
+"New File Creation Tool (can also create folders) - this can help you "
+"create new files (or files within new folders) via the web client."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:46
+msgid ""
+"Last user to commit a change, and description of the change - this is "
+"helpful to understand what the last changes were to the repository you're"
+" looking at. This is mostly useful when trying to remember what change "
+"was last made to a particular branch."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:50
+msgid ""
+"Folder/File Name - Within the row, this shows you a given folder or file "
+"for fast navigation."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:52
+msgid ""
+"Last Commit Description for changes within the Folder/File - new users "
+"often mistake this for a description of the folder or file that this row "
+"is referring to, but this is actually the description of the last commit "
+"made to the folder or file and generally has absolutely nothing to do "
+"with what content is within the folder or file. This can be really "
+"confusing for new users, FYI."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:57
+msgid ""
+"How long ago the last commit was made - this way you can see how long ago"
+" changes were made to folders or files. This information shows you how "
+"potentially outdated content may be."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:62
+msgid "Repository Main Folder"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:64
+msgid ""
+"We're going to call the first folder in the repository the \"**repository"
+" main folder**\". This is the main folder where viewers of the repository"
+" can get important information regarding what the repo is for, what "
+"license the repository is managed by, and so on. As a contributor of this"
+" repository, most of the content here will not be important to you."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:77
+msgid "Repo Main Folder"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:77
+msgid "Repository Main folder for rst-primer the quick brown fox"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:80
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:91
+msgid "Docs Folder"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:82
+msgid ""
+"Within the **repository main folder** will almost always be a folder that"
+" contains the actual project files for the project - for the *rST-Primer*"
+" repository, that folder is the ``docs/`` folder. The ``docs/`` folder is"
+" where the top-level build definitions are for building the "
+"documentation."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:91
+msgid "docs folder"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:93
+msgid ""
+"Again, as a documentation contributor the contents of this folder will "
+"likely not be of interest to you right now, but for project builders and "
+"maintainers this is where the \"magic happens.\" The important element "
+"here is that this is where the ``source/`` folder is located. The "
+"``source/`` folder is the actual starting point for the documentation and"
+" the rST-primer website."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:101
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:112
+msgid "Source Folder"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:103
+msgid ""
+"Within the ``docs/`` folder you will find the ``source/`` folder. Please "
+"take careful notice that above the folder listing we can see the full "
+"repository *path* of where these files and folders are within the "
+"repository; we are currently viewing the current contents of ``rst-"
+"primer/docs/source``."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:112
+msgid "source Folder"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:114
+msgid ""
+"When we work on documentation, it's important to understand that there "
+"are TWO related paths that we must keep track of:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:120
+msgid "*Repository Location*"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:118
+msgid ""
+"This is the location of the file within the repository. This is "
+"conveniently shown in the path within GitHub. This location is only used "
+"as a reference within GitHub, where the full *repository location* is "
+"sometimes needed."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:128
+msgid "*Document Location*"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:123
+msgid ""
+"This is the location within the final website where the document will "
+"exist. The document location for files is the same as the *repository "
+"location* minus the ``rst-primer/docs/source``. For example, a file with "
+"a *repository location* of ``rst-"
+"primer/docs/source/tutorial/overview/overview.rst`` would have a "
+"*document location* of ``/tutorial/overview/overview.rst``. We will use "
+"this *document location* within our documents."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:130
+msgid ""
+"We will refer to these different document locations within this and "
+"future documents."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:133
+msgid ""
+"As previously stated, this ``rst-primer/docs/source`` repository location"
+" is the main starting point for the documentation in all forms that it "
+"can take - e.g. this is the \"root\" location for the site's PDF "
+"document, is the \"root\" location for the html website, and so on. This "
+"\"root\" location has some very special files and folders:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:147
+msgid ":octicon:`file-directory;1em;sd-text-info` *_assets*"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:140
+msgid ""
+"The *_assets* folder contains asset files that are used site-wide, such "
+"as the *FIRST* Tech Challenge logos and icon. Assets that could be "
+"included on all pages of the site, regardless of the content on the page,"
+" can be placed here for easy inclusion within templates and static "
+"content. However, any assets that are specific to content on the site "
+"should be placed with the content documentation instead. This folder "
+"starts with an \\`_\\` underscore symbol, meaning it's designated as a "
+"special folder whose contents should only be modified with the help of "
+"site administrators."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:154
+msgid ":octicon:`file-directory;1em;sd-text-info` *_static*"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:150
+msgid ""
+"The *_static* folder, a *special folder* signified by the underscore "
+"prefix in its name, contains HTML-specific code that is necessary to "
+"format the documentation in HTML. This code should never need to be "
+"edited or updated by a document contributor, but if you feel you do then "
+"please coordinate any changes with an administrator."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:163
+msgid ":octicon:`file-directory;1em;sd-text-info` *_templates*"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:157
+msgid ""
+"The *_templates* folder, a *special folder* signified by the underscore "
+"prefix in its name, is used by Sphinx's templating engine, Jinja, to "
+"override the way Sphinx manages its basic theme to allow customizations "
+"of the page layout, the header content, and the footer content (among "
+"others).  Again, this isn't likely something a document contributor "
+"should need to edit (other than possibly adding content if you feel the "
+"need) but please work with an administrator to coordinate any updates to "
+"the HTML site templates."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:169
+msgid ":octicon:`file;1em;sd-text-info` *conf.py*"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:166
+msgid ""
+"The **conf.py** file is a special file for sphinx that defines all of the"
+" modules, parameters, and tools used to build the documentation in all "
+"forms (HTML, PDF, etc...). This file does not have an underscore prefix, "
+"however this file should never be modified without first consulting an "
+"administrator."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:178
+msgid ":octicon:`file;1em;sd-text-info` *index.rst*"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:172
+msgid ""
+"The **index.rst** file here in the \"root\" documentation location is the"
+" primary organization and layout file for the HTML version of the "
+"documentation. This **index.rst** defines the *Table of Contents* "
+"(typically seen on the left-hand pane of the HTML website) as well as the"
+" content on the main page of the website. There may be multiple "
+"`index.rst` files within the website, but **this** particular file is the"
+" master index file for the website."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:183
+msgid ":octicon:`file;1em;sd-text-info` *todo.rst*"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:181
+msgid ""
+"The **todo.rst** file is an auto-filled file by the \"To-Do\" module. "
+"This will be discussed in a much later tutorial, but for now we're just "
+"going to pretend that this file doesn't exist."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:186
+msgid "Understanding Content Structure"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:188
+msgid ""
+"Once you understand the rst-Primer repository structure, now we're ready "
+"to understand how to add *content* to this structure. A basic example of "
+"the content structure can be found in the :octicon:`file-directory;1em"
+";sd-text-info` ``/tutorial`` folder structure. The general rules are "
+"defined as:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:193
+msgid ""
+"Each content page is defined by a reStructuredText file with an **.rst** "
+"extension."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:195
+msgid "Each **.rst** file is defined within its own folder."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:196
+msgid ""
+"Each **.rst** file generally has supporting files (images, included "
+"files, etc...) and so it will have subfolders that include those files "
+"(``/images``, ``/includes``, etc...)"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:199
+msgid ""
+"Content categories can have category-specific landing pages, and those "
+"landing pages are ``index.rst`` files. These category pages don't "
+"generally contain content themselves, except as an introduction to the "
+"content linked from those pages (similar to the master index "
+"``index.rst`` file)."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:204
+msgid ""
+"Content Categories is used heavily within ftcdocs, but we will likely "
+"cover this topic in a much later tutorial."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:207
+msgid ""
+"**.rst** files must be referenced from at least **one** ``index.rst`` "
+"page."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:209
+msgid ""
+"The best way to describe these rules are to show an example of these "
+"rules in practice."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:213
+msgid "Simple Content Example"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:215
+msgid ""
+"For a simple example, let's take a look at the folder hierarchy of the "
+"*Gracious Professionalism* content on the `ftcdocs website <https://ftc-"
+"docs.firstinspires.org/en/latest/gracious_professionalism/gp.html>`_. The"
+" *Gracious Professionalism* content is a single page on the site devoted "
+"to describing *GP* to site visitors and honoring Dr. Flowers."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:221
+msgid ""
+"Here is a view of all of the folders and files that are involved within "
+"the structure of the *Gracious Professionalism* content:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:229
+msgid "ftcdocs Gracious Professionalism structure"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:229
+msgid "ftcdocs structure for Gracious Professionalism content"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:231
+msgid ""
+"Let's pick this apart a little to understand the structure of the content"
+" better. We will learn later *why* this structure is important once we "
+"start creating our own content."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:235
+msgid ""
+"The site's ``/source`` root for ``ftcdocs``, similar to ``rST-Primer``, "
+"is in the ``ftcdocs/docs/source`` repository folder."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:237
+msgid ""
+"The main content file is named ``gp.rst`` and lives within the "
+"``/gracious_professionalism`` fol der within the ``/source`` folder. "
+"Files and folder names cannot include spaces, so the general site-wide "
+"style is to use underscores ``_`` for folders and dashes ``-`` for "
+"filenames where spaces would otherwise be used. You can see this is more "
+"of a \"guideline\" rather than a rule, especially when dealing with "
+"externally-sourced files."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:243
+msgid ""
+"The ``gp.rst`` file references/uses two locally-stored images, and so "
+"those two images are stored within a ``/images`` folder located "
+"immediately within the same folder that the **.rst** file is stored."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:246
+msgid ""
+"Because the content is a single page with high-level content, it is "
+"included within the main site ``index.rst`` file (we'll see *how* it's "
+"included a little later)."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:250
+msgid ""
+"Feel free to `browse the content folder <https://github.com/FIRST-Tech-"
+"Challenge/ftcdocs/tree/main/docs/source/gracious_professionalism>`_ on "
+"the ftcdocs github repo."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:254
+msgid "Creating a New Content Document"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:256
+msgid ""
+"The process of creating a new content document is the same whether you're"
+" doing it locally or via codespaces as they both use vscode as the "
+"editor."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:260
+msgid ""
+"We're now going to create our first document. Let's have our document "
+"follow a similar structure as the *Gracious Professionalism* document "
+"above. Let's follow this structure:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:269
+msgid "Danny content folder structure"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:269
+msgid "Folder Structure for Danny Content"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:271
+msgid ""
+"Of course it's best to create your own folder and document names, so that"
+" you don't overlap other people's work. This is being done within your "
+"own branch so even if others use the same folder structure you won't "
+"collide, but we do eventually want to merge your branch back to the "
+"``main`` branch, and we don't want thing colliding there. So just like "
+"your branch name, use your name as the unique key for the folder name at "
+"least."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:279
+msgid "Step 1: Create the initial content file"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:281
+msgid ""
+"Our first step in creating content is to create the core document. We're "
+"just going to create a \"stub\" file initially that we'll edit later."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:284
+msgid "Navigate to the ``/rst-primer/docs/source`` folder in VS Code."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:286
+msgid ""
+"Create a new folder with your name (or a unique name) within the "
+"``/source`` folder. You can do this by right-clicking on the ``source`` "
+"folder and selecting \"New Folder\" and then typing in your name. E.g. "
+"\"Demo\"."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:290
+msgid ""
+"Create a new file within the folder you just created. You can do this by "
+"right-clicking on the folder you just created and selecting \"New File\" "
+"and then typing in the name of the file. E.g. \"7350.rst\"."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:295
+msgid "Step 2: Upload image file to use"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:297
+msgid ""
+"Next let's upload an image file that we're going to use in our document. "
+"reStructured Text allows you to use images in your documents, and those "
+"images can be local images (saved/stored in the repository) or remote "
+"images (using HTTP links). We're going to use both in our document, but "
+"we need an image to use. I downloaded this file locally:"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:303
+msgid "https://ftc-docs.firstinspires.org/en/latest/_images/HoustonMatchPlay.jpg"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:305
+msgid "Navigate to the folder you created in the previous step."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:307
+msgid ""
+"Create a new folder within your folder called ``images``. E.g. "
+"``/source/Demo/images``. This can be done by right-clicking on your "
+"folder (`Demo`) and selecting \"New Folder\" and then typing in "
+"\"images\"."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:311
+msgid ""
+"Add the image file you downloaded to the ``images`` folder you just "
+"created. You can do this by opening the downloaded image file in your "
+"file explorer, and then dragging and dropping the file into the "
+"``images`` folder you just created."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:320
+msgid "Completed Demo"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:320
+msgid "Completed Demo Folder"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:322
+msgid ""
+"Congrats! Now we're ready to add content to our reStructured Text "
+"document!"
+msgstr ""
+

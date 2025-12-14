@@ -42,7 +42,7 @@ library.
 OnBot Java only. Namely you are **not** planning to make that method
 available for Blocks users.
 
-**Step 3B**assumes that you**do** want to provide the library method
+**Step 3B** assumes that you **do** want to provide the library method
 to a Blocks user, by creating a special Block called a myBlock. MyBlocks
 are not new with 7.0, but now you can use library code in that myBlock.
 You can create your myBlock to have the exactly same inputs and outputs
@@ -66,7 +66,7 @@ documentation or API, learn what the methods can do, and learn about
 inputs required and output provided.
 
 If that’s something you want to use, then try to find the .jar or .aar
-file. The ``.jar``suffix means Java Archive and``.aar`` means a
+file. The ``.jar`` suffix means Java Archive and ``.aar`` means a
 similar format called Android Archive. This is a compressed file
 containing the entire collection of code that you want, in a single
 file. It’s similar to a *zip file* that you may have used for general
@@ -161,7 +161,7 @@ As a reminder, creating a myBlock requires only these two items:
 For more info, see the separate myBlock tutorial
 :ref:`here <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`.
 
-**Step 3C**assumes the library methods should be provided**directly**
+**Step 3C** assumes the library methods should be provided **directly**
 to the Blocks user, without even creating a myBlock. This scenario
 doesn’t need to be enabled with your Java code at all.
 
@@ -258,7 +258,7 @@ programmers. Lacking annotations, this library does not provide direct
 This library contains a class called
 ``com.example.google.ftc.Geometry``, with three methods: -
 ``circleCircumference()`` accepts radius, returns circumference -
-``circleArea()``accepts radius, returns area -``hypot()`` accepts 2
+``circleArea()`` accepts radius, returns area - ``hypot()`` accepts 2
 lengths, returns hypotenuse of right triangle
 
 Under **Step 3A**, you would use, for example, the ``hypot()`` method
@@ -339,7 +339,7 @@ the annotations. This one is called Arithmetic For Blocks; click
 :download:`here <opmodes/ArithmeticForBlocks.aar>`.
 
 This library contains a class name ``com.example.google.ftc.MoreMath``,
-with public methods ``sum``,``min``,``max``and``average``. Each
+with public methods ``sum``, ``min``, ``max`` and ``average``. Each
 accepts two numbers and provides a numeric result.
 
 This library **is annotated** specifically for team use, as described
@@ -369,14 +369,14 @@ to experiment with these.
 -  :download:`JniExample.aar <opmodes/JniExample.aar>`
    contains a class named ``com.example.google.ftc.IntegerMath``, with
    methods for simple arithmetic operations, implemented in native C++
-   code. Its public methods are ``add``,``subtract``,``multiply``, and
+   code. Its public methods are ``add``, ``subtract``, ``multiply``, and
    ``divide``. Each accepts two integers and provides an integer result.
 
 -  :download:`RevPotentiometer.aar <opmodes/RevPotentiometer.aar>`
    contains a class named ``com.example.google.ftc.RevPotentiometer``,
    which is a hardware device class for the `REV
    Potentiometer <https://www.revrobotics.com/rev-31-1155/>`__. It uses
-   ``AnalogSensorType``and``DeviceProperties`` annotations to make
+   ``AnalogSensorType`` and ``DeviceProperties`` annotations to make
    this sensor appear in the “Configure Robot” menu of the RC app or
    paired DS app. After the .aar file has been uploaded (and
    ``Build Everything``), configure your robot’s Analog Input Devices

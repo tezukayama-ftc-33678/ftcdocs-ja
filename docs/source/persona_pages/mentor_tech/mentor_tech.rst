@@ -1,7 +1,12 @@
-技術メンターリソース
+Technical Mentor Resources
 ============================
 
-*FIRST* Tech Challenge へ技術メンターの皆さん、ようこそ！リソースは種類別に整理されており、シーズンを通してチームと一緒に組織的かつ円滑に活動できるようになっています。これらのリソースは、技術分野で経験があり、スキルを向上させたいチームやメンター向けにカスタマイズされています。技術リソースは、業界標準の認定取得への足がかりにもなります。探したいリソースのボタンをクリックするだけです！
+Welcome technical mentors to *FIRST* Tech Challenge! Resources have been
+organized by type to help you stay organized and be successful with teams
+throughout the season. These resources are tailored to teams and mentors with
+experience in technical fields looking to elevate their skills.  The technical
+resources are also a stepping stone towards industry standard certifications.
+Just click on the button for the resource you want to explore!
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -10,11 +15,11 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      制御システムリソース
+      Control System Resources
 
       ^^^
 
-      制御システムのリソースはこちらです。
+      Look for Control System resources here.
 
       +++
       
@@ -28,19 +33,19 @@
                :outline:
                :expand:
 
-               FTC 制御システム
+               FTC Control System
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      機械リソース
+      Mechanical Resources
 
       ^^^
 
-      機械工学とロボット構築のリソースです。
+      Mechanical engineering and robot building resources
       
-++++++
+      +++
       
       .. div:: container-fluid p-0
       
@@ -51,17 +56,17 @@
                :outline:
                :expand:
 
-               ロボット構築リソース（外部リンク） 
+               Robot Building Resources (external) 
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      プログラミングリソース
+      Programming Resources
 
       ^^^
 
-      プログラミングリソースへのリンクです。
+      Links to programming resources.
 
       +++
       
@@ -80,13 +85,13 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      CAD リソース 
+      CAD Resources 
 
       ^^^
 
-      コンピューター支援設計（CAD）ソフトウェアのリソースはこちらです。
+      Look for resources for Computer-Aided Design (CAD) software.
       
-++++++
+      +++
       
       .. div:: container-fluid p-0
 

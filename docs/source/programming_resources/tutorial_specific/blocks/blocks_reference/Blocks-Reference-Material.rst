@@ -1,43 +1,58 @@
-Blocks リファレンス資料 :bdg-warning:`Blocks`
+Blocks Reference Materials :bdg-warning:`Blocks`
 ================================================
 
-**Blocks** リファレンスマニュアル
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Blocks Reference Manual
+~~~~~~~~~~~~~~~~~~~~~~~
 
-より複雑な **Op Mode** を作成するようになると、**FIRST Tech Challenge** ソフトウェア開発キット（**SDK** ）のより多くの機能を使用する必要が出てきます。Oregon Robotics Tournament & Outreach Program（ORTOP）のBruce Schafer氏は、**Blocks** プログラミングツールで利用可能なプログラミングブロックについて説明する有用なリファレンスドキュメントを作成しました：
+As you start to write more complicated op modes, you will need to use
+more features of the FIRST Tech Challenge software development kit
+(SDK). Bruce Schafer of the Oregon Robotics Tournament & Outreach
+Program (ORTOP) created a useful reference document that describes the
+programming blocks that are available with the Blocks Programming
+Tool:
 
-`Blocks Programming Tool Reference Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__
+`Blocks Programming Tool Reference
+Manual <http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__
 
-サンプル Op Mode
-~~~~~~~~~~~~~~~~
+Sample Op Modes
+~~~~~~~~~~~~~~~
 
-**Blocks** プログラミングツールには、**FIRST Tech Challenge** 制御システムでさまざまなタスクを実行する方法を示す、組み込みのサンプル**Op Mode** がいくつか含まれています。新しいファイルを作成する際、Sampleドロップダウンリストコントロールを使用して、利用可能なサンプル**Op Mode** やテンプレートのリストを表示できます：
+The Blocks Programming Tool has several built-in example op modes that
+demonstrate how to do different tasks with the FIRST Tech Challenge
+control system. As you create a new file, you can use the Sample
+dropdown list control to display a list of available sample op modes or
+templates:
 
 .. image:: images/BlocksCreateVuMarkExample.jpg
    :align: center
 
 |
 
-テクノロジーフォーラム
-~~~~~~~~~~~~~~~~~~~~~~
+Technology Forum
+~~~~~~~~~~~~~~~~
 
-登録済みチームは、**FIRST Tech Challenge** コミュニティフォーラムでユーザーアカウントを作成できます。チームはフォーラムを使用して質問し、**FIRST Tech Challenge** コミュニティからサポートを受けることができます。
+Registered teams can create user accounts on the FIRST Tech Challenge
+Community forum. Teams can use the forum to ask questions and receive 
+support from the FIRST Tech Challenge community.
 
-テクノロジーフォーラムは以下のアドレスにあります：
+The technology forum can be found at the following address:
 
 - https://ftc-community.firstinspires.org
 
-**REV Robotics Control Hub** ドキュメント（英語）
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+REV Robotics Control Hub Documentation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`REV Robotics Control Hub Getting Started Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`__
+`REV Robotics Control Hub Getting Started
+Guide <https://docs.revrobotics.com/duo-control/control-hub-gs>`__
 
-**REV Robotics Expansion Hub** ドキュメント（英語）
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+REV Robotics Expansion Hub Documentation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`REV Robotics Expansion Hub Getting Started Guide <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__
+`REV Robotics Expansion Hub Getting Started
+Guide <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__
 
-**REV Robotics Driver Hub** ドキュメント（英語）
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+REV Robotics Driver Hub Documentation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`REV Robotics Driver Hub Getting Started Guide <https://docs.revrobotics.com/duo-control/driver-hub-gs>`__
+`REV Robotics Driver Hub Getting Started
+Guide <https://docs.revrobotics.com/duo-control/driver-hub-gs>`__

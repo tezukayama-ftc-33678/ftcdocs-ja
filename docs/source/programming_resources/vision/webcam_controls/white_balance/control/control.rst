@@ -1,26 +1,40 @@
-ホワイトバランス制御
+White Balance Control
 ---------------------
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl`
 
-他のインターフェイスに続いて、**SDK** （バージョン 7.1 の新機能）は、ホワイトバランス制御のメソッドを提供します。
+Continuing with other interfaces, the SDK (new for version 7.1)
+provides methods for white balance control.
 
-ホワイトバランスは、画像内の**色温度** のバランスをとるデジタルカメラ設定です。色温度はケルビン度（K）の単位で測定され、光の物理的特性です。
+White balance is a digital camera setting that balances the **color
+temperature** in the image. Color temperature is measured in units of
+degrees Kelvin (K) and is a physical property of light.
 
-たとえば、正午の日光は 5200-6000 K の間で測定されます。白熱電球（暖かい/オレンジ）の色温度は約 3000 K ですが、日陰（涼しい/青）は約 8000 K で測定されます。
+For example, sunlight at noon measures between 5200-6000 K. An
+incandescent light bulb (warm/orange) has a color temperature of around
+3000 K, while shade (cool/blue) measures around 8000 K.
 
-自動で実行されると、ホワイトバランスは色温度を中立に戻すために、画像に反対の色を追加します。このインターフェイス **WhiteBalanceControl** により、色温度をユーザーが直接プログラムできます。
+When performed automatically, white balance adds the opposite color to
+the image in an attempt to bring the color temperature back to neutral.
+This interface WhiteBalanceControl allows the color temperature to be
+directly programmed by a user.
 
-ここでは、ホワイトバランス温度を制御するために、Java タイプの整数で、ケルビン度の単位で単一の値が使用されます。メソッドは次のとおりです：
+A single value is used here to control white balance temperature, in
+units of degrees Kelvin, of Java type integer. Here are the methods:
 
--  **setWhiteBalanceTemperature(int temperature)**
--  **getWhiteBalanceTemperature()**
+-  setWhiteBalanceTemperature(int temperature)
+-  getWhiteBalanceTemperature()
 
-露出やゲインと同様に、Webcam はホワイトバランス温度の最小値と最大値をサポートする場合があります。これらは次の方法で取得できます：
+As with exposure and gain, the webcam may support minimum and maximum
+allowed values of white balance temperature. These can be retrieved
+with:
 
 -  getMinWhiteBalanceTemperature()
 -  getMaxWhiteBalanceTemperature()
 
-最小温度値と最大温度値の ``set()`` メソッドはありません。これらは Webcam のファームウェアにハードコードされています。ファームウェア設定は、同じ Webcam モデルの異なるバージョン間で異なる場合があることに注意してください。
+There are no ``set()`` methods for min and max temperature values; these
+are hard-coded in the webcam’s firmware. Note that firmware settings may
+vary among different versions of the same webcam model.
 
-Logitech C920 Webcam の最小値は 2000、最大値は 6500 です。
+The Logitech C920 webcam has a min value of 2000 and a max value of
+6500.

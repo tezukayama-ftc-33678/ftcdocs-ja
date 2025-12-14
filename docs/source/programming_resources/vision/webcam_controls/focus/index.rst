@@ -1,8 +1,8 @@
-フォーカス制御
-==============
+Focus - Webcam Controls
+=======================
 
 .. toctree::
-   :maxdepth: 1
+    :maxdepth: 2
 
-   mode/mode
-   control/control
+    control/control
+    mode/mode

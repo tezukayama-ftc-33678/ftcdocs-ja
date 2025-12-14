@@ -37,7 +37,7 @@ and rotation, based on sensing one or more fixed landmarks -- AprilTags in this
 case.
 
 This capability is provided in 2024 with FTC SDK version 10.0, including a
-Sample OpMode, thanks to `Dryw Wade <https://github.com/sfe-SparkFro>`__.  This
+Sample OpMode, thanks to `Dryw Wade <https://github.com/sfe-SparkFro>`_.  This
 tutorial describes how to use that OpMode.
 
 Configuration
@@ -78,7 +78,7 @@ Java section below:
       "AprilTagLocalization_Darlene_v01", and select the Sample OpMode
       ``ConceptAprilTagLocalization``.
 
-      If using the built-in camera of an RC phone, change ``true``to``false``
+      If using the built-in camera of an RC phone, change ``true`` to ``false``
       at the OpMode's first Block called ``set USE_WEBCAM``.
 
       Save the OpMode, time to try it!
@@ -92,7 +92,7 @@ Java section below:
       "AprilTagLocalization_Oscar_v01.java", and select the Sample OpMode
       ``ConceptAprilTagLocalization.java``.
 
-      If using the built-in camera of an RC phone, change ``true``to``false``
+      If using the built-in camera of an RC phone, change ``true`` to ``false``
       at about line 71 (\ ``USE_WEBCAM``\ ).
 
       Click "Build", time to try it!
@@ -190,7 +190,7 @@ This is full video, and is shown automatically on the screen of an RC phone.
 The above preview is from a REV Control Hub.
 
 It has no physical screen, so you must plug in an HDMI monitor **or** use
-open-source `scrcpy <https://github.com/Genymobile/scrcpy>`__ (called
+open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called
 "screen copy") to see the preview on a laptop or computer that's connected via
 Wi-Fi to the Control Hub.
 

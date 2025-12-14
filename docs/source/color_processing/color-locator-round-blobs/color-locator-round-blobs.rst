@@ -13,7 +13,7 @@ FTC's "Color Locator" now offers a best-fit circle called ``circleFit``, an alte
 
    circleFit versus boxFit detection
 
-This page describes the new Sample OpMode called ``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  These notes assume familiarity with the original Sample OpMode, now called``ConceptVisionColorLocator_Rectangle``.
+This page describes the new Sample OpMode called ``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  These notes assume familiarity with the original Sample OpMode, now called ``ConceptVisionColorLocator_Rectangle``.
 
 The new ``_Circle`` Sample uses these settings for convenient processing of DECODE Artifacts:
 
@@ -65,7 +65,7 @@ The Driver Station (DS) "snapshot" preview is available at the ``Camera Stream``
 
    Driver Station Camera Stream Image showing a successful Circle Fit 
 
-The Robot Controller (RC) device makes a video preview called ``LiveView``. For a REV Control Hub, this video can be seen on an HDMI monitor **or** with open-source `scrcpy <https://github.com/Genymobile/scrcpy>`__ (called "screen copy"):
+The Robot Controller (RC) device makes a video preview called ``LiveView``. For a REV Control Hub, this video can be seen on an HDMI monitor **or** with open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "screen copy"):
 
 .. figure:: images/33-circleFit-LiveView.png
    :width: 75%
@@ -74,9 +74,9 @@ The Robot Controller (RC) device makes a video preview called ``LiveView``. For 
 
    Robot Controller `LiveView` showing a successful Circle Fit 
 
-For both previews, the **white rectangle**is the Region of Interest (ROI), and the thin**green jagged line** is the Blob's contour (fully inside the ROI).
+For both previews, the **white rectangle** is the Region of Interest (ROI), and the thin **green jagged line** is the Blob's contour (fully inside the ROI).
 
-The **yellow circle** is the new ``circleFit``: the smallest circle that encloses the contour.  The``circleFit`` is not required to stay inside the ROI.
+The **yellow circle** is the new ``circleFit`` : the smallest circle that encloses the contour.  The ``circleFit`` is not required to stay inside the ROI.
 
 Basic Telemetry Data
 --------------------
@@ -91,13 +91,13 @@ Here again is some DS telemetry from the new ``_Circle`` Sample:
    Driver Station Telemetry Data from ``_Circle`` sample
 
 
-The **first column**shows the**Circularity** of the Blob contour (not its circleFit).  This is calculated from the Blob's area and perimeter.  A higher value, closer to 1, indicates a more circular contour.
+The **first column** shows the **Circularity** of the Blob contour (not its circleFit).  This is calculated from the Blob's area and perimeter.  A higher value, closer to 1, indicates a more circular contour.
 
-The **second column**shows the circleFit's**Radius** , an indicator of size.  Again, the circleFit is not required to stay inside the ROI.
+The **second column** shows the circleFit's **Radius** , an indicator of size.  Again, the circleFit is not required to stay inside the ROI.
 
-The **third column**shows the (X, Y) position of the circleFit's**Center**.  With the origin at the full image's top left corner, X increases to the right and Y increases downward.
+The **third column** shows the (X, Y) position of the circleFit's **Center**.  With the origin at the full image's top left corner, X increases to the right and Y increases downward.
 
-The Blob's **Area**is available but not displayed here.  The Sample OpMode uses a**filter** to show Blobs with area between 50 and 20,000 pixels.  Another filter shows Blobs with circularity greater than 0.6.  Filters can be customized, as described in the Sample's comments.
+The Blob's **Area** is available but not displayed here.  The Sample OpMode uses a **filter** to show Blobs with area between 50 and 20,000 pixels.  Another filter shows Blobs with circularity greater than 0.6.  Filters can be customized, as described in the Sample's comments.
 
 For multiple Blobs, the Sample lists Telemetry using only the built-in default **sort by area** (largest is first).  Other sorting choices are available, described in the Sample's comments.
 
@@ -112,12 +112,12 @@ Using CircleFit Data
 
 A team's Autonomous code can evaluate circleFit data to navigate or guide the robot on the field.
 
-The **circleFit Radius**(indicating size) can help estimate the**distance** from the camera lens to the Artifact.  Calibrate this at your home field, based on the known physical size of an Artifact.
+The **circleFit Radius** (indicating size) can help estimate the **distance** from the camera lens to the Artifact.  Calibrate this at your home field, based on the known physical size of an Artifact.
 
 .. tip::
    Fortunately, a round ball gives no complications of **perspective**, like the tapered image of a rectangular object.  An unobstructed, well-lit Artifact can reliably appear as a circle.
 
-The **circleFit Center (X, Y)**can help estimate the Artifact's**position** relative to the camera on the robot.  Calibrate this at your home field, based on known test locations and distances.
+The **circleFit Center (X, Y)** can help estimate the Artifact's **position** relative to the camera on the robot.  Calibrate this at your home field, based on known test locations and distances.
 
 With these estimates of distance and position, the robot can be programmed to approach and collect the Artifact, or perhaps navigate elsewhere on the field.
 
@@ -129,7 +129,7 @@ The FTC SDK handles the two preview shapes differently:
 * ``boxFit`` is enabled by default
 * ``circleFit`` is disabled by default
 
-The ``_Circle``sample **turns off** the``boxFit`` with this Builder command:
+The ``_Circle`` sample **turns off** the ``boxFit`` with this Builder command:
 
 .. code-block:: java
 
@@ -137,7 +137,7 @@ The ``_Circle``sample **turns off** the``boxFit`` with this Builder command:
 
 The "zero" is not a color, but an indicator to disable a preview drawing.
 
-Conversely, the ``_Circle``sample **turns on** the``circleFit`` with this Builder command:
+Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with this Builder command:
 
 .. code-block:: java
 
@@ -145,7 +145,7 @@ Conversely, the ``_Circle``sample **turns on** the``circleFit`` with this Builde
 
 This default color is yellow, but any color space and values may be specified.
 
-Both previews can be disabled or enabled at the same time.  The default ``boxFit``color can be modified from its default shade of red:``Color.rgb(255, 120, 31)``.
+Both previews can be disabled or enabled at the same time.  The default ``boxFit`` color can be modified from its default shade of red: ``Color.rgb(255, 120, 31)``.
 
 Manage Erode and Dilate
 -----------------------
@@ -178,7 +178,7 @@ The Sample's comments describe this Builder command:
    Dilation and Erosion examples using an image
 
 
-The original ``_Rectangle``Sample used "Erode then Dilate", effective for most applications.  This new``_Circle`` Sample uses "Dilate then Erode", which improves detection of a DECODE Artifact (smoothes edges of its large holes).  It also uses Erode and Dilate sizes of 15 pixels, larger than typical 5 pixels.
+The original ``_Rectangle`` Sample used "Erode then Dilate", effective for most applications.  This new ``_Circle`` Sample uses "Dilate then Erode", which improves detection of a DECODE Artifact (smoothes edges of its large holes).  It also uses Erode and Dilate sizes of 15 pixels, larger than typical 5 pixels.
 
 Improving Results
 -----------------
@@ -195,9 +195,9 @@ FTC teams can adjust settings to improve results based on:
 * venue lighting and potential shadowing
 * OpMode loop rate
 
-In the case of adjacent or overlapping Artifacts, ``boxFit``might offer more useful data than``circleFit``.
+In the case of adjacent or overlapping Artifacts, ``boxFit`` might offer more useful data than ``circleFit``.
 
-The new ``_Circle``Sample offers all of the settings from the``_Rectangle`` Sample.  These can be adjusted for different results:
+The new ``_Circle`` Sample offers all of the settings from the ``_Rectangle`` Sample.  These can be adjusted for different results:
 
 
 * camera resolution, default 320x240
@@ -237,9 +237,9 @@ Lastly, some webcams perform **automatic color correction**, under changing ligh
 OpMode Development
 ------------------
 
-You should eventually use or adapt program elements from the Color Locator ``_Circle``or``_Rectangle`` Sample, to become part of your team's Autonomous (or TeleOp) OpMode.
+You should eventually use or adapt program elements from the Color Locator ``_Circle`` or ``_Rectangle`` Sample, to become part of your team's Autonomous (or TeleOp) OpMode.
 
-An early choice is: **how long**should the processing (looping) continue, before using the extracted data for robot action?  What should be the criteria to**exit a loop**, and which data should be used for subsequent calculations and movement?
+An early choice is: **how long** should the processing (looping) continue, before using the extracted data for robot action?  What should be the criteria to **exit a loop**, and which data should be used for subsequent calculations and movement?
 
 You may find it useful to learn about **Datalogging**.  Output this OpMode's Color Processor data to a file, then perhaps to a spreadsheet.  Careful review may reveal which data are useful, rather than trying to observe the "jumpy" preview and Telemetry results.
 
@@ -260,7 +260,7 @@ Summary
 
 FTC's "Color Locator" now offers a best-fit circle called ``circleFit``, an alternate to the best-fit rectangle ("boxFit") described in previous sections of this tutorial.
 
-This new feature is shown in the Sample OpMode called ``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  This sample exists alongside the existing``_Rectangle`` Sample OpMode.
+This new feature is shown in the Sample OpMode called ``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  This sample exists alongside the existing ``_Rectangle`` Sample OpMode.
 
 The new ``_Circle`` Sample uses certain settings for convenient processing of DECODE Artifacts, as a starting point for teams.  Many choices are provided to optimize results for a team's robot and strategy.
 

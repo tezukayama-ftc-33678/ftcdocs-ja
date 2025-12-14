@@ -31,7 +31,7 @@ apply to **every game, every season**:
 
    Image Credit: Phil Malone
 
-With a tag’s **field position**and**orientation** specified in advance
+With a tag’s **field position** and **orientation** specified in advance
 as Metadata, the tag’s pose data could be used by an advanced OpMode to
 calculate the robot’s position on the field. This conversion math, an
 exercise for the reader, can allow a robot to use the tag’s pose data
@@ -113,7 +113,7 @@ Other features of this Test OpMode include:
 - The previews can be observed, and detections/recognitions can be monitored
   via annotations and Telemetry.
 - Frame rate is provided in LiveView and DS Telemetry.
-- The Telemetry functions include an alternate for getting **all**or**only
+- The Telemetry functions include an alternate for getting **all** or **only
   fresh** detections/recognitions.
 
 This Test OpMode can be downloaded for `FTC

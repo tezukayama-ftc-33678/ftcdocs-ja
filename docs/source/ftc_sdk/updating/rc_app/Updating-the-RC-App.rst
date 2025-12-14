@@ -1,239 +1,352 @@
-**Robot Controller (RC)** アプリの更新
+Updating the Robot Controller (RC) App
 ======================================
 
-**Robot Controller** アプリは、**FIRST** **Tech Challenge**:doc:`ソフトウェア開発キット（SDK）</ftc_sdk/overview/index>` で提供されているアプリの1つです。**Robot Controller** アプリは、**Robot Controller** **Android** デバイス（**REV Control Hub** または承認された**Android**RC スマートフォン）で実行されるアプリケーションです。このアプリは**Driver Station** アプリと通信してロボットを制御します。
+The Robot Controller App is one of the Apps provided with the *FIRST* Tech
+Challenge :doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`. The Robot
+Controller App is the application that runs on the Robot Controller Android
+Device (REV Control Hub or an approved Android RC phone). This app 
+communicates with the Driver Station App to control the robot.
 
-このページでは、以下のデバイスで **Robot Controller (RC)** アプリを更新する方法を説明します：
+This page shows how to update the Robot Controller (RC) app on these
+devices:
 
--  **REV Control Hub**
--  承認された **Android** RC スマートフォン
+-  REV Control Hub
+-  An approved Android RC smartphone
 
-**Blocks**/**OnBot Java** 対**Android Studio**
--------------------------------------------------
+Blocks / OnBot Java vs Android Studio
+-------------------------------------
 
-**Blocks**/**OnBot Java**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Blocks / OnBot Java
+^^^^^^^^^^^^^^^^^^^
 
-**Robot Controller (RC)** アプリには、**Blocks** と**OnBot Java** のプログラミング環境が含まれており、これらの環境を使用して開発されたユーザープログラム（チームコード）は、RC アプリとは独立して、RC アプリと並行して保存されます。これにより、チームコードに影響を与えることなく、RC アプリを独立して更新することが可能になります。RC アプリ自体をアップグレード/ダウングレードするために*コード*を変更する必要がないため、RC アプリソフトウェアの更新が非常に簡単になります。ただし、これは **Blocks** と**OnBot Java** のユーザーがアプリに同梱されている「デフォルト」の RC アプリ依存関係に制限されることを意味します。ただし、**Blocks** と**OnBot Java** プログラムは**Android Studio** でビルドされた RC アプリでも実行できるため、上級ユーザーにとってはこの点でまだある程度の柔軟性があります。
+The Robot Controller (RC) App contains the programming environments for Blocks
+and OnBot Java, and the User Programs (Team Code) developed using those
+environments are stored independently ALONGSIDE the RC App. This makes it
+possible to update the RC App independently without affecting Team Code.  This
+incredibly simplifies updating the RC App software, since no *code* needs to be
+modified in order to upgrade/downgrade the RC App itself. This does mean,
+however, that users of Blocks and OnBot Java are limited to the "default" RC
+App dependencies that are shipped with the App. Blocks and OnBot Java programs
+can still be run with an Android Studio-built RC App, however, so some
+flexibility is still possible in this regard for advanced users.
 
-**Android Studio**
-^^^^^^^^^^^^^^^^^^
+Android Studio
+^^^^^^^^^^^^^^
 
-**Android Studio** は、一般的に正反対の動作をします。**FtcRobotController** リポジトリ（**Android Studio** プロジェクト）には、完全な RC アプリをビルドするために必要な完全なソースコードが含まれています。**Android Studio** プロジェクトがコンパイルおよびデプロイされると、実際には完全な**Robot Controller** アプリをビルドして、RC**Android** デバイスにインストールしています。チームコード** と** **Robot Controller** コードは*一緒に*コンパイルされます。つまり、チームコードは RC アプリ内に埋め込まれており、RC アプリとは独立して更新/編集することはできません。**Android Studio** でデプロイされた RC アプリが**REV Hardware Client** または類似のプロセスを使用して置き換えられた場合、チームコードが埋め込まれた RC アプリは削除され、デフォルトの RC アプリに置き換えられます。したがって、**Android Studio** ユーザーは**Android Studio** 以外を使用して RC アプリを更新しないでください！ただし、これによりソフトウェアのアップグレードとダウングレードが複雑になる可能性があります。**Android Studio** コードの RC アプリ部分をアップグレード/ダウングレードするには、チームの :doc:`Android Studio プロジェクト <../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>` を、使用したい**Robot Controller** アプリのバージョンに対応する `FtcRobotController リポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ コードのソフトウェアリリースと適切にマージする必要があります。**Android Studio** の使用を決定する際には、これを慎重に検討する必要があります。
+Android Studio, in general, works exactly the opposite. The FtcRobotController
+repository (the Android Studio Project) contains the full source code needed to
+build a complete RC App; when the Android Studio Project is compiled and
+deployed, it's actually building a complete Robot Controller App and installing
+it onto the RC Android device. Team Code **and** the Robot Controller code are
+compiled *together*, meaning the Team Code is embedded WITHIN the RC App and
+cannot be updated/edited independently of the RC App. If the Android
+Studio-deployed RC App is replaced using the REV Hardware Client or similar
+process, the RC App with the Team Code embedded is removed and replaced with
+the default RC App - so Android Studio users should NEVER update the RC App
+using anything but Android Studio! However, this can complicate upgrading and
+downgrading software. In order to upgrade/downgrade the RC App portion of their
+Android Studio code, the team's :doc:`Android Studio project
+<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>`
+must be merged properly with software releases of the `FtcRobotController
+repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ code
+aligning to the version of the Robot Controller App that they want to use. This
+must be carefully weighed when deciding to use Android Studio.
 
-**Android Studio** 向けの RC アプリの更新
------------------------------------------
+Updating the RC App for Android Studio
+--------------------------------------
 
-**Android Studio** ユーザーは、上記の理由により、このページの手順を使用して RC アプリを更新** しないでください**。**Android Studio** ユーザーは、**Android Studio** プロジェクトが `SDK GitHub リポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ の希望するバージョンで最新であることを確認する必要があります。
+**Android Studio** users should **not** use the steps on this page to update
+the RC app, for the reasons described above. **Android Studio** users must
+ensure that their Android Studio Projects are up to date with the desired version 
+of the `SDK GitHub Repo <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
-GitHub を使用して更新できる **Android Studio** プロジェクトを適切に作成および維持する方法については、:doc:`GitHub の Fork と Clone の使用 <../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>` を参照してください。
+For information on how to properly create and maintain an Android Studio project
+that can be updated using GitHub, please see :doc:`Using GitHub Fork and Clone
+<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub>`
 
-**Blocks**/**OnBot Java** 向けの RC アプリの更新
---------------------------------------------------
+Updating the RC App for Blocks / OnBot Java
+-------------------------------------------
 
-これらの手順は、独立した更新がサポートされている状況、つまり **Blocks** または**OnBot Java** 開発で RC アプリを独立して更新するためのものです。お使いの**Robot Controller** ハードウェアに適用される以下の手順を展開してください：
+These instructions are for independently updating the RC App in situations where
+such an independent update is supported - i.e. Blocks or OnBot Java development.
+Expand the following instructions that apply to your Robot Controller hardware:
 
-.. dropdown:: **REV Control Hub** の**Robot Controller (RC)** アプリ
+.. dropdown:: Robot Controller (RC) app on REV Control Hub
 
-   **REV Control Hub** の RC アプリを更新する方法は3つあります：
+   Here are 3 methods to update the RC app on a REV Control Hub:
 
    #. REV Hardware Client (RHC)
-   #. コンピューター上の Manage ページ
-   #. DS スマートフォンまたは Driver Hub 上の Manage ページ
+   #. Manage page on computer
+   #. Manage page on DS phone or Driver Hub
 
    .. note:: 
-      「サイドローディング」は可能ですが、**Control Hub** では追加の機器が必要な煩雑な手順が必要なため、ここでは説明しません。
+      “Side loading”, while possible, is not described here for the Control Hub
+      as it requires a cumbersome procedure with extra equipment.
 
-   .. dropdown:: 方法1 - REV Hardware Client - Windows コンピューターのみ
+   .. dropdown:: Method 1 - REV Hardware Client - Windows computers only
 
-      USB データケーブルを使用して、**REV Control Hub** の USB-C ポートを Windows コンピューターに接続します。RHC の「Hardware」タブが左上でアクティブになっていることを確認してください。
+      Use a USB data cable to connect the REV Control Hub’s USB-C port to the
+      Windows computer.  Make sure the “Hardware” tab on the RHC is active, at
+      top left. 
 
-      :doc:`REV Hardware Client の更新 </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` で、必要な DS 更新ファイルが以前にダウンロードされているため、ここではコンピューターをインターネットに接続する必要はありません。
+      Here the computer does not need to be connected to the internet, since
+      :doc:`in Updating the REV Hardware Client 
+      </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
+      the required DS update file was previously downloaded.
 
-      RHC アプリは、次に示すように **Control Hub** を認識します：
+      The RHC app will recognize the Control Hub, as shown here:
 
       .. figure:: images/070-RHC-recognize-CH.png
-         :alt: Control Hub を認識
+         :alt: Recognizing the Control Hub
          :width: 80%
          :align: center
 
-         **Control Hub** を認識
+         Recognizing the Control Hub
 
-      認識されたら、**Control Hub** の大きなアイコン/長方形をクリックします。RHC アプリは、RC アプリの更新ステータス（ある場合）を表示します。
+      Once recognized, click on the Control Hub’s large icon/rectangle. The RHC app now displays
+      the update status of the RC app, if any.
 
       .. figure:: images/082-RHC-update-RC-CH.png
-         :alt: Control Hub を更新
+         :alt: Updating the Control Hub
          :width: 80%
          :align: center
 
-         **Control Hub** を更新
+         Updating the Control Hub
 
-      青い Update 長方形（緑色の矢印）をクリックするだけです – 完了！
+      Simply click the blue Update rectangle (green arrow) – done!
       
-   .. dropdown:: 方法2 - コンピューター上の Manage ページ
+   .. dropdown:: Method 2 - Manage page on computer
 
-      1. ラップトップをインターネットに接続し、Web ブラウザーを開いて、`SDK GitHub リポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に移動します。
+      1. Connect a laptop to the internet, open a web browser, and
+         navigate to the `SDK github
+         repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
          .. figure:: images/050-FTC-repo.png
-            :alt: SDK GitHub リポジトリ
+            :alt: SDK GitHub Repo
             :width: 80%
             :align: center
 
-            SDK GitHub リポジトリ
+            SDK GitHub Repo
 
-         右側の「Releases」の下にある「Latest」アイコン（上の黄色の楕円）をクリックします。
+         At the right side under “Releases”, click the “Latest” icon (yellow
+         oval, above).
 
-         次のページで、「Latest」セクションを少し下にスクロールして、「Assets」の短いリストを表示します。「FtcRobotController-release.apk」ファイルをクリックして、コンピューターにダウンロードします。
+         In the next page, scroll down slightly in the “Latest” section, to the
+         short list of “Assets”. Click on the file
+         “FtcRobotController-release.apk”, to download it to your computer.
 
          .. figure:: images/090-github-assets-RC.png
-            :alt: SDK GitHub リリース
+            :alt: SDK GitHub Releases
             :width: 80%
             :align: center
 
-            SDK GitHub リリース
+            SDK GitHub Releases
 
-         この時点で、現在のバージョン番号を反映するようにファイルの名前を変更できます。たとえば、``FtcRobotController-release-8.0.apk`` または単に``RC-8.0-release.apk`` です。これにより、その RC スマートフォンに後で保存される可能性のある他のバージョンとファイルを区別できます。
+         At this time, you could rename the file to reflect its current version
+         number. For example, ``FtcRobotController-release-8.0.apk`` or simply
+         ``RC-8.0-release.apk``. This distinguishes the file from other versions
+         that might be stored later on that RC phone.
 
-      2. **Control Hub** の電源を入れ（ロボットの電源を投入）、緑色の LED が点灯するまで待ちます。
+      2. Turn on the Control Hub (apply robot power), wait for green LED.
 
-      3. 同じラップトップを Wi-Fi 経由で **Control Hub** に接続します。Chrome ブラウザーを開き、通常のアドレス ``http://192.168.43.1:8080`` を入力します。
+      3. Connect the same laptop via Wi-Fi to the Control Hub. Open the Chrome
+         browser, enter the usual address ``http://192.168.43.1:8080``
 
-         Manage タブをクリックし、「Update Robot Controller App」まで下にスクロールします。
+         Click the Manage tab, then scroll down to “Update Robot Controller App”.
 
          .. figure:: images/300-manage-RC-app.png
-            :alt: RC アプリを更新
+            :alt: Update RC App
             :width: 80%
             :align: center
 
-            RC アプリを更新
+            Update RC App
 
-         「Select App…」をクリックします。RC APK ファイルが保存されているラップトップフォルダーに移動し、そのファイルを選択します。
+         Click “Select App…”. Navigate to the laptop folder where the RC APK file
+         is stored, and select that file.
 
-         次に、「Update」ボタン（上の緑色の矢印）をクリックします。
+         Now click the “Update” button (green arrow, above).
 
-         ソフトウェアは、既存の RC アプリを新しい更新された RC アプリに置き換えます。ラップトップと **Control Hub** 間の接続は一時的に失われ、その後自動的に復元されます。
+         The software will replace the existing RC app with your new updated RC
+         app. The connection between laptop and Control Hub will temporarily be
+         lost, then automatically restored.
 
-      完了メッセージが表示されたら、更新された RC アプリが使用できる状態になります。
+      When the completion message appears, the updated RC app is ready to use.
 
-   .. dropdown:: 方法3 - Driver Hub または DS スマートフォン上の Manage ページ
+   .. dropdown:: Method 3 - Manage page on Driver Hub or DS phone
 
-      この方法は、コンピューターが利用できない場合、または Wi-Fi 経由で **Control Hub** に接続できない場合に使用できます。たとえば、デスクトップコンピューターには有線（Ethernet）ネットワークポートしかなく、Wi-Fi がない場合があります。
+      This method can be used if your computer is unavailable or unable to
+      connect via Wi-Fi to the Control Hub. For example, your desktop computer
+      might have only a wired (Ethernet) network port, lacking Wi-Fi.
 
-      ただし、この方法では、RC APK ファイルを **Driver Hub** または DS スマートフォンの Download（または Downloads）フォルダーに保存する必要があります。つまり、**Driver Station** デバイスに保存された**Robot Controller APK** です。
+      But this method does require the RC APK file to be stored in the
+      Download (or Downloads) folder on the Driver Hub or DS phone. That’s
+      correct: **Robot Controller APK** stored on the **Driver Station**
+      device.
 
-      まず、方法2の手順1に示すように、GitHub リポジトリからコンピューターに RC APK ファイルをダウンロードします。次に、USB データケーブルを使用して、その APK ファイルをコンピューターから DS デバイスの Download フォルダーに転送します。完了したら、DS デバイスをコンピューターから抜くことができます。
+      First download the RC APK file from the github repo to the computer,
+      as shown in Step 1 of Method 2. Then transfer that APK file from the
+      computer to the DS device’s Download folder, using a USB data cable. When
+      complete, you may unplug the DS device from the computer.
 
-      DS アプリを **Control Hub** に接続します。DS アプリの Settings メニューから（**Android** デバイスの Wi-Fi 設定では決して接続しないでください）。
+      Connect the DS app to the Control Hub, from the DS app’s Settings menu
+      (never with the Android device Wi-Fi settings).
 
-      DS アプリのメニューから「Program and Manage」を選択します。次に、右上の3本のバーをタッチし、「Manage」を選択します。
+      From the DS app’s menu, select “Program and Manage”. Then touch the 3
+      bars at top right, and select “Manage”.
 
-      これは、ラップトップブラウザーに表示されるのと同じ Manage ページです。したがって、以下の手順は、上記の方法2と同じです。
+      This is the same Manage page that appears in a laptop browser. So the
+      following instructions are the same as Method 2 above.
 
-      「Update Robot Controller App」まで下にスクロールします。
+      Scroll down to “Update Robot Controller App”.
 
       .. figure:: images/330-manage-RC-app-CH-DS.png
-         :alt: RC アプリを更新
+         :alt: Update RC App
          :width: 80%
          :align: center
 
-         RC アプリを更新
+         Update RC App
 
-      「Select App…」をタッチします。DS デバイスの Download フォルダーに移動し、最新の RC APK ファイルを選択します。
+      Touch “Select App…”. Navigate to the DS device’s Download folder, and
+      select the latest RC APK file.
 
-      次に、「Update」ボタン（上の緑色の矢印）をタッチします。
+      Now touch the “Update” button (green arrow, above).
 
-      ソフトウェアは、既存の RC アプリを新しい更新された RC アプリに置き換えます。**Driver Station** と**Control Hub** 間の接続は一時的に失われ、その後自動的に復元されます。
+      The software will replace the existing RC app with your new updated RC
+      app. The connection between Driver Station and Control Hub will
+      temporarily be lost, then automatically restored.
 
-      完了メッセージが表示されたら、更新された RC アプリが使用できる状態になります。
+      When the completion message appears, the updated RC app is ready to use.
 
-.. dropdown:: **Android** スマートフォンの**Robot Controller (RC)** アプリ
+.. dropdown:: Robot Controller (RC) app on Android phone
 
-   **Robot Controller (RC)** スマートフォンの RC アプリを更新する方法は2つあります：
+   Here are 2 methods to update the RC app on a Robot Controller (RC)
+   phone:
 
    1. REV Hardware Client (RHC)
-   2. APK による「サイドローディング」
+   2. “Side loading” with APK
 
    .. note:: 
-      コンピューターまたは **Driver Station** デバイス上の Program and Manage の下の Manage ページでは、接続された**Robot Controller** スマートフォンの RC アプリの更新は** 提供されません** 。
+      The Manage page, under Program and Manage, on a computer or Driver
+      Station device, **does not** offer updating an RC app on a connected
+      Robot Controller phone.
 
-   .. dropdown:: 方法1 - REV Hardware Client - Windows コンピューターのみ
+   .. dropdown:: Method 1 - REV Hardware Client - Windows computers only
 
-      RHC がインストールされて開いているコンピューターに、RC スマートフォンを直接接続します。USB データケーブルを使用してください（充電専用ケーブルではありません）。「Hardware」タブが左上でアクティブになっていることを確認してください。RC スマートフォンの RC アプリは開いている必要は**ありません** 。
+      Plug the RC phone directly into the computer with RHC installed and
+      open. Use a USB data cable, not a charge-only cable. Make sure the
+      “Hardware” tab is active, at top left. The RC app on the phone does
+      **not** need to be open.
 
-      :doc:`REV Hardware Client の更新 </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` で、必要な DS 更新ファイルが以前にダウンロードされているため、ここではコンピューターをインターネットに接続する必要はありません。
+      Here the computer does not need to be connected to the internet, since
+      :doc:`in Updating the REV Hardware Client 
+      </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
+      the required DS update file was previously downloaded.
 
-      RHC アプリは、次に示すようにスマートフォンを認識します：
+      The RHC app will recognize the phone, as shown here:
 
       .. figure:: images/080-RHC-recognize-RC-phone.png
-         :alt: スマートフォンを認識
+         :alt: Recognizing the Phone
          :width: 80%
          :align: center
 
-         スマートフォンを認識
+         Recognizing the Phone
 
-      スマートフォンが認識されない場合は、スマートフォンに :doc:`開発者オプション </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>` が有効になっていることを確認してください。必要に応じて、REV Hardware Client アプリの左下にある「Scan for Devices」ボタンをクリックして、RHC にデバイスの再スキャンを強制します。
+      If the phone is not recognized, ensure that the phone has :doc:`developer
+      options
+      </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`
+      enabled. If necessary, click the "Scan for Devices" button in the
+      lower-left of the REV Hardware Client app to force the RHC to rescan
+      devices.
 
-      認識されたら、そのスマートフォンの大きなアイコン/長方形をクリックします。RHC アプリは、DS アプリの更新ステータス（ある場合）を表示します。
+      Once recognized, click on that phone’s large icon/rectangle. The RHC app
+      now displays the update status of the DS app, if any.
 
       .. figure:: images/082-RHC-update-RC-phone.png
-         :alt: スマートフォンの更新ステータス
+         :alt: Update Status of Phone
          :width: 80%
          :align: center
 
-         スマートフォンの更新ステータス
+         Update Status of Phone
 
-      青い Update 長方形（緑色の矢印）をクリックするだけです – 完了！
+      Simply click the blue Update rectangle (green arrow) – done!
 
-      更新は高速でした。RC アプリが既に RHC にダウンロードされていたためです。これは、青い Update 長方形の左側に「(Already Downloaded)」と記載されていました。
+      The update was fast, because you had already downloaded the RC app to
+      the RHC. That was noted with ’(Already Downloaded)“, to the left of the
+      blue Update rectangle.
 
-      青い Update 長方形のすぐ上のドロップダウンリストで、RC アプリの**古い** バージョンを選択することもできます。
+      You could have selected an **older** version of the RC app, in the
+      drop-down list just above the blue Update rectangle.
 
-      インストール後、RC アプリアイコンをメニューからスマートフォンのホーム画面にドラッグします。
+      After install, drag the RC app icon from the menu to the phone’s home
+      screen.
 
-      RC スマートフォンをコンピューターから抜き、RHC アプリを閉じることができます。更新された RC アプリが使用できる状態になります。
+      You may now unplug the RC phone from the computer, and close the RHC
+      app. The updated RC app is ready to use.
 
-   .. dropdown:: 方法2 - サイドロード
+   .. dropdown:: Method 2 - Side-load
 
-      ここでは、**Android Package** または**APK ファイル** を直接操作して、**Android** スマートフォンに RC アプリをインストールします。PC または Mac、古いまたは新しいコンピューターを使用できます。この方法は「サイドローディング」と呼ばれることがあります。
+      Here you will work directly with the Android Package or **APK file** to
+      install the RC app on the Android phone. Any computer can be used, PC or
+      Mac, old or new. This method is sometimes called “side-loading”.
 
-      1. コンピューターをインターネットに接続し、Web ブラウザーを開いて、`SDK GitHub リポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に移動します。
+      1. Connect your computer to the internet, open a web browser, and
+         navigate to the `SDK github
+         repository <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
          .. figure:: images/050-FTC-repo.png
-            :alt: SDK GitHub リポジトリ
+            :alt: SDK GitHub Repo
             :width: 80%
             :align: center
 
-            SDK GitHub リポジトリ
+            SDK GitHub Repo
 
-         右側の「Releases」の下にある「Latest」アイコン（上の黄色の楕円）をクリックします。
+         At the right side under “Releases”, click the “Latest” icon (yellow
+         oval, above).
 
-         次のページで、「Latest」セクションを少し下にスクロールして、「Assets」の短いリストを表示します。「FtcRobotController-release.apk」ファイルをクリックして、コンピューターにダウンロードします。
+         In the next page, scroll down slightly in the “Latest” section, to the
+         short list of “Assets”. Click on the file
+         “FtcRobotController-release.apk”, to download it to your computer.
 
          .. figure:: images/090-github-assets-RC.png
-            :alt: SDK GitHub リリース
+            :alt: SDK GitHub Releases
             :width: 80%
             :align: center
 
-            SDK GitHub リリース
+            SDK GitHub Releases
 
-         この時点で、現在のバージョン番号を反映するようにファイルの名前を変更できます。たとえば、``FtcRobotController-release-8.0.apk`` または単に``RC-8.0-release.apk`` です。これにより、その RC スマートフォンに後で保存される可能性のある他のバージョンとファイルを区別できます。
+         At this time, you could rename the file to reflect its current version
+         number. For example, ``FtcRobotController-release-8.0.apk`` or simply
+         ``RC-8.0-release.apk``. This distinguishes the file from other versions
+         that might be stored later on that RC phone.
 
-      2. APK ファイルをコンピューターから RC スマートフォンの Downloads（または Download）フォルダーに転送します。USB データケーブルを使用してください（充電専用ケーブルではありません）。完了したら、RC スマートフォンをコンピューターから抜くことができます。
+      2. Transfer the APK file from the computer to the RC phone’s Downloads
+         (or Download) folder. Use a USB data cable (not a charge-only cable).
+         When complete, you may unplug the RC phone from the computer.
 
-      3. 既存の（古い）RC アプリをアンインストールするには、そのアイコンをゴミ箱/アンインストールアイコンにドラッグします。または、RC アイコンをタッチして長押しして「App info」を表示し、Uninstall を選択します。
+      3. Uninstall the existing (obsolete) RC app, by dragging its icon to a
+         Trash/Uninstall icon. Or, touch and hold the RC icon for “App info”,
+         then choose Uninstall.
 
-      4. RC スマートフォンで、Downloads フォルダーに移動します。これはいくつかの方法で実行できます：
+      4. On the RC phone, navigate to the Downloads folder. This can be done
+         in several ways:
 
-         -  メインアプリメニュー（上にスワイプ）で、Files アイコンまたは Downloads アイコン（存在する場合）をタッチします
-         -  Settings/Storage の基本ファイルマネージャーを使用します：Explore または Files をタッチします
-         -  FX File Explorer などのサードパーティアプリを使用します（Google Play ストアから）
+         -  at the main app menu (swipe up), touch the Files icon or the
+            Downloads icon (if present)
+         -  use the basic file manager in Settings/Storage: touch Explore or
+            Files
+         -  use a third-party app such as FX File Explorer (from the Google Play
+            Store)
 
-         転送した APK ファイル名をタッチします。プロンプトに応答して、更新された RC アプリをインストールします。
+         Touch the APK filename that you transferred. Respond to the prompts, to
+         install the updated RC app.
 
-         インストール後、RC アプリアイコンをアプリメニューから RC スマートフォンのホーム画面にドラッグします。
+         After install, drag the RC app icon from the app menu to the RC phone’s
+         home screen.
 
-      完了！更新された RC アプリが使用できる状態になります。
+      Done! The updated RC app is now ready to use.
 
-RC アプリの更新に関する他の説明は、`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-robot-controller-application>`__ にあります。
+Other descriptions of updating the RC app are
+`at REV Robotics’ excellent documentation site <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-robot-controller-application>`__.
 
-質問、コメント、修正は westsiderobotics@verizon.net までお願いします。
+Questions, comments and corrections to westsiderobotics@verizon.net
+

@@ -1,5 +1,5 @@
 Setting Up Your Development Environment 
-========================================
+=======================================
 
 :bdg-danger:`One Time Only` :bdg-warning:`Local`
 
@@ -11,7 +11,7 @@ FTC Docs has a few dependencies that you'll need to install before you can start
 Full build features are only available on Linux. This will only effect those who 
 are looking to build PDFs locally.
 
-Remember, this step should **ony be done for Local Development**. If you are using**GitHub Codespaces** 
+Remember, this step should **ony be done for Local Development**. If you are using **GitHub Codespaces** 
 you should skip this step. Also note that these steps should only be done **once**.
 
 Steps
@@ -23,8 +23,8 @@ Steps
 .. tab-set::
    .. tab-item:: Windows
 
-      1. Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`__.
-      2. Install Python 3.9-3.12 from the `Python website <https://www.python.org/downloads/windows/>`__. **Make sure to check the box that says "Add Python to PATH".**
+      1. Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_.
+      2. Install Python 3.9-3.12 from the `Python website <https://www.python.org/downloads/windows/>`_. **Make sure to check the box that says "Add Python to PATH".**
       3. Install Pip. ``python -m ensurepip``
       4. Install Git. ``choco install git``
       5. Install Make. ``choco install make``
@@ -32,11 +32,11 @@ Steps
    
    .. tab-item:: Linux/Mac
 
-      1. Install Python 3.9-3.12. You can download it from the Python website: `macOS <https://www.python.org/downloads/macos/>`__, `Linux <https://www.python.org/downloads/source/>`__.
-      2. Install the latest version of `Pip <https://pip.pypa.io/en/stable/installation/>`__.
-      3. Install Git from the `Git website <https://git-scm.com/downloads>`__.
-      4. Install `Make <https://www.gnu.org/software/make/>`__ .
-      5. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`__.
+      1. Install Python 3.9-3.12. You can download it from the Python website: `macOS <https://www.python.org/downloads/macos/>`_, `Linux <https://www.python.org/downloads/source/>`_.
+      2. Install the latest version of `Pip <https://pip.pypa.io/en/stable/installation/>`_.
+      3. Install Git from the `Git website <https://git-scm.com/downloads>`_.
+      4. Install `Make <https://www.gnu.org/software/make/>`_ .
+      5. Install the lastest version of `VS Code  <https://code.visualstudio.com/download>`_.
 
 
 1. Open VS Code
@@ -53,7 +53,7 @@ Steps
 
 3. Enter the URL of your forked repository and click "Clone Repository". This will take the format of 
    `https://github.com/<NAME>/ftcdocs.git` replacing ``<NAME>`` with your GitHub username. If you changed 
-   the name of your fork to something other than ``ftcdocs``, replace``ftcdocs`` with the name of your fork.
+   the name of your fork to something other than ``ftcdocs``, replace ``ftcdocs`` with the name of your fork.
 
 .. figure:: images/vscode-clone-url.png
    :alt: Clone URL

@@ -1,14 +1,20 @@
-OnBot Java プログラミングチュートリアル
-=======================================
+OnBot Java Programming Tutorial 
+===============================
 
 .. raw:: html
 
-   <h3>はじめに</h3>
+   <h3>Introduction</h3>
 
 
-このチュートリアルでは、制御システムの構成、プログラミング、操作のプロセスを段階的に説明します。このチュートリアルでは、**OnBot Java** プログラミングツールを使用して、ロボットのプログラミングを始めるのに役立ちます。
+This tutorial will take you step-by-step through the process of
+configuring, programming, and operating your Control System. This
+tutorial uses the OnBot Java Programming Tool to help you get started
+programming your robot.
 
-**OnBot Java** プログラミングツールは、プログラマーがWebブラウザを使用してJavaの**Op Mode** を作成、編集、保存できるテキストベースのプログラミングツールです。このツールは、基本から高度なJavaスキルを持ち、テキストベースの**Op Mode** を作成したいプログラマーにお勧めです。
+The OnBot Java Programming Tool is a text-based programming tool
+that lets programmers use a web browser to create, edit and save their
+Java op modes. This tool is recommended for programmers who have basic
+to advanced Java skills and who would like to write text-based op modes.
 
 .. image:: images/onBotJavaScreen.jpg
    :align: center
@@ -16,7 +22,7 @@ OnBot Java プログラミングチュートリアル
 |
 
 .. note::
-   :bdg-info:`OBJ` は、**OnBot Java** プログラミングに固有のコンテンツであることを示します。
+   :bdg-info:`OBJ` indicates that the content is specific to OnBot Java Programming
 
 .. toctree::
    :maxdepth: 2

@@ -1,7 +1,8 @@
-ハードウェアの構成
+Configuring Your Hardware
 =========================
 
-このページには、独自のプロジェクトで使用できるように、制御システムハードウェアを構成する方法に関する情報が含まれています。
+This page contains information on configuring your control system hardware 
+such that you may use them in your own projects.
 
 .. toctree::
    :maxdepth: 2

@@ -1,15 +1,25 @@
-**Android Studio** プロジェクトフォルダーのダウンロード :bdg-success:`AS`
-=========================================================================
+Downloading the Android Studio Project Folder :bdg-success:`AS`
+===============================================================
 
-**SDK** は GitHub リポジトリからダウンロードできます。 GitHub は、個人や組織がオンラインでコンテンツをホストできるようにする Web ベースのバージョン管理会社です。**Android Studio** ソフトウェアにアクセスするには、GitHub アカウントが必要です。 GitHub ウェブサイトにアクセスして無料でアカウントを作成できます：
+The SDK can be downloaded from a GitHub repository. GitHub is a web-based
+version control company that lets individuals and organizations host content
+online. In order to access the Android Studio software, you will need to have a
+GitHub account. You can create one for free by visiting the GitHub website:
 
 *  https://github.com/
 
-ソフトウェアは、**FIRST-Tech-Challenge** GitHub 組織の「FtcRobotController」というリポジトリに保存されています：
+The software is stored in a repository called "FtcRobotController" under
+the *FIRST-Tech-Challenge* GitHub organization:
 
 *  https://github.com/FIRST-Tech-Challenge/FtcRobotController
 
-.. important:: **GitHub 上級ユーザー** - このチュートリアルは、ユーザーが GitHub と git バージョン管理ソフトウェアの使用に関して初心者であることを前提としています。 GitHub のパワーユーザーの場合は、git を使用してパブリック GitHub リポジトリのローカルコピーを *clone* できます。 ただし、このドキュメントでは、git を使用してリポジトリにアクセスする方法については説明していません。 代わりに、リポジトリを .ZIP ファイルとしてダウンロードする手順を説明します。
+.. important:: **Advanced GitHub Users** - this tutorial assumes that
+   the user is a novice with respect to using GitHub and the git version
+   control software. If you are a GitHub power user, you can use git to
+   *clone* a local copy of the public GitHub repository. This document,
+   however, does not explain how to use git to access the repository. It
+   provides instructions on downloading the repository as a .ZIP file
+   instead.
 
 .. image:: images/ClickOnReleases.jpg
    :align: center
@@ -17,73 +27,101 @@
 |
 
 From the main repository web page, click on the “releases” link to jump
-リポジトリの Releases ページにジャンプします。Releases ページには、リポジトリの利用可能なソフトウェアリリースが一覧表示されます。 最新のリリースがページの上部近くに表示されます。
+to the Releases page for the repository. The Releases page should list
+the available software releases for the repository. The latest release
+should be displayed near the top of the page.
 
 .. image:: images/Releases.jpg
    :align: center
 
 |
 
-各ソフトウェアリリースには **Assets** セクションが含まれており、ロボットのプログラミングに必要なソフトウェアをダウンロードできます。この**Assets** セクションを展開するには、三角形のシンボルをクリックする必要がある場合があります。
+Each software release should include an **Assets** section that you can
+use to download the software that you will need to program your robot.
+Note that you might have to click on the triangular symbol to expand
+this **Assets** section.
 
 .. image:: images/Assets.jpg
    :align: center
 
 |
 
-Source code (zip) リンクをクリックして、圧縮された **Android Studio** プロジェクトフォルダーをダウンロードします。
+Click on the Source code (zip) link to download the compressed Android
+Studio project folder.
 
-アーカイブプロジェクトファイルの内容の抽出
+Extracting the Contents of the Archived Project File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-アーカイブ（.ZIP）プロジェクトファイルをダウンロードしたら、このファイルを任意の場所に移動できます。
+Once you have downloaded the archived (.ZIP) project file
+you can move this file to the location of your choice.
 
 .. image:: images/MoveDownloadedFile.jpg
    :align: center
 
 |
 
-プロジェクトを **Android Studio** にインポートする前に、まずアーカイブプロジェクトファイルの内容を抽出する必要があります。Windows ユーザーの場合は、ファイルを右クリックして、ポップアップメニューから「すべて展開」を選択します。Windows は、抽出されたプロジェクトフォルダーの保存先を選択するように求めます。表示されるダイアログは、下図に示すものと似ているはずです。
+Before you can import the project into Android Studio, you must
+first extract the contents of the archived project file. For Windows
+users, right mouse click on the file and select "Extract All" from the
+pop up menu. Windows should prompt you to select a destination for the
+extracted project folder. The dialog that appears should look similar to
+the one show in the figure below.
 
 .. image:: images/ProvideName.jpg
    :align: center
 
 |
 
-保存先フォルダーの推奨名（上図では、推奨名は「FtcRobotController-6.0」）を強調表示し、保存先フォルダー名をよりユーザーフレンドリーな名前に変更します。この例では、保存先フォルダーの名前を「mycopy」に変更します。
+Highlight the suggested name for the destination folder (in the figure
+above, the suggested name is "FtcRobotController-6.0") and change the
+destination folder name into something more user friendly. In this
+example, we will change the name of the destination folder to "mycopy".
 
 .. image:: images/Rename.jpg
    :align: center
 
 |
 
-保存先フォルダーの名前を変更したら、アーカイブの内容をフォルダーに抽出します。抽出プロセスが完了したら、プロジェクトフォルダーがターゲットの保存先に正常に抽出されたことを確認します。
+After you have renamed the destination folder, extract the contents of
+the archive to the folder. After the extraction process is complete,
+verify that the project folder was successfully extracted to its target
+destination.
 
 .. image:: images/Verify.jpg
    :align: center
 
 |
 
-アーカイブファイルの内容を正常に抽出したら、プロジェクトを **Android Studio** にインポートする準備が整いました。
+Once you have successfully extracted the contents of the archived file,
+you are ready to import the project into Android Studio.
 
-プロジェクトを **Android Studio** にインポートする
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Importing the Project into Android Studio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-プロジェクトをインポートするには、コンピューターで **Android Studio** ソフトウェアを起動する必要があります。**Android Studio** のメイン Welcome 画面で、「Open」オプションを選択してインポートプロセスを開始します。
+In order to import the Project, you will need to launch the Android
+Studio software on your computer. On the main Android Studio Welcome
+screen, select the option to "Open" to begin the import process.
 
 .. image:: images/SelectImport.jpg
    :align: center
 
 |
 
-**Android Studio** は、インポートするプロジェクトフォルダーを選択するように求めます。ポップアップダイアログボックスのファイルブラウザを使用して、このドキュメントの前のセクションで抽出したフォルダーを見つけてナビゲートします。抽出されたプロジェクトフォルダー（抽出されたフォルダーと似た名前の .ZIP ファイルではない）を選択していることを確認してください。「Select Folder」ボタンを押して、選択したプロジェクトを**Android Studio** にインポートします。
+Android Studio should prompt you to select the project folder that you
+would like to import. Use the file browser in the pop up dialog box to
+locate and then navigate into the folder that you extracted in an earlier
+section of this document. Make sure you select the extracted project
+folder (and not the .ZIP file which might have a similar name to the
+extracted folder). Hit the "Select Folder" button to import the selected project
+into Android Studio.
 
 .. image:: images/SelectProjectFolder.jpg
    :align: center
 
 |
 
-プロジェクトを信頼するかどうかに関するポップアップが表示される場合があります。その場合は、青い「Trust Project」ボタンをクリックして続行します。
+You may get a popup about trusting the project. If this happens, clilck the
+blue "Trust Project" button and continue.
 
 .. image:: images/TrustProject.jpg
    :align: center
@@ -91,12 +129,13 @@ Source code (zip) リンクをクリックして、圧縮された **Android Stu
 |
 
 In the figure above the project folder called “FtcRobotController”
-**Android Studio** にインポートするために選択されています。プロジェクトのインポートには、
-**Android Studio** が数分かかる場合があります。プロジェクトが正常にインポートされると、
-画面は下図に示されているものと似たようになるはずです。
-**Android Gradle Plugin (AGP)** の更新を求めるポップアップが表示された場合は、無視してください。
-新しいバージョンは現在の ***FIRST* Tech Challenge SDK** と互換性がない可能性があるため、
-AGP の更新を試みないでください。
+is selected to be imported into Android Studio. It might take Android
+Studio several minutes to import the project. Once the project has been
+successfully imported, the screen should look similar to the one
+depicted in the image below. If you see a popup asking you to update the
+Android Gradle Plugin (AGP), ignore it. Do not attempt to update AGP as
+newer versions may not be compatible with the current *FIRST* Tech
+Challenge SDK.
 
 .. image:: images/SuccessfullyImported.jpg
    :align: center

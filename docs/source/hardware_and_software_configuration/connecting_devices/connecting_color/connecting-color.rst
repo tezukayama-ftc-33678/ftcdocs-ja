@@ -1,22 +1,26 @@
-Hub へのカラー距離センサーの接続
+Connecting a Color-Distance Sensor to the Hub
 =============================================
 
-Hub には 4 つの独立した I2C バスがあります。各バスには Hub に独自のポートがあります。**REV Robotics カラー距離センサー** を Hub の I2C バス #0 に接続します。
+The Hub has 4 independent I2C buses. Each bus has its own port on the
+Hub. We will connect a REV Robotics Color-Distance sensor to the I2C bus
+#0 on the Hub.
 
-このタスクを完了するには、推定 2.5 分かかります。
+Note that it will take an estimated 2.5 minutes to complete this task.
 
 
-Hub へのカラー距離センサーの接続手順
+Connecting a Color-Distance Sensor to the Hub Instructions
 ----------------------------------------------------------
 
-1. 4 ピン JST PH ケーブルの一端を **REV Robotics カラー距離センサー** に接続します。                                                
+1. Connect one end of the 4-pin JST PH cable to the REV Robotics  
+Color-Distance sensor.                                                
 
 .. image:: images/ColorSensorStep1.jpg
    :align: center
 
 |
 
-2. 4 ピン JST PH ケーブルのもう一方の端を Hub の「0」とラベル付けされた I2C ポートに差し込みます。                                               
+2. Plug the other end of the 4-pin JST PH cable to the I2C port       
+labeled "0" on the Hub.                                               
 
 .. image:: images/ColorSensorStep2.jpg
    :align: center

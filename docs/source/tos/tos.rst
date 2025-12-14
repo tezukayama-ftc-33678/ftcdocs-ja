@@ -9,7 +9,7 @@ Agreement to Terms
 These Terms of Use constitute a legally binding agreement made between you, whether
 personally or on behalf of an entity (“you”) and *FIRST* (“Company”, “we”, “us”, or “our”),
 concerning your access to and use of the 
-`https://www.firstinspires.org/ <https://www.firstinspires.org/>`__ website as well as any
+`https://www.firstinspires.org/ <https://www.firstinspires.org/>`_ website as well as any
 other media form, media channel, mobile website or mobile application related, linked, or
 otherwise connected thereto (collectively, the “Site” or “Sites”). You agree that by accessing the
 Site, you have read, understood, and agreed to be bound by these Terms of Use.
@@ -211,7 +211,7 @@ performing, and make improvements so that we can achieve our goals of making *FI
 accessible to any youth who wants to be part of the fun, exciting and life-changing experience.
 Thus, we need to collect certain pieces of data from you to ensure we are meeting our goals
 and responsibilities as a youth-serving nonprofit organization.
-Please review our Privacy Policy here: `https://www.firstinspires.org/about/privacy-policy <https://www.firstinspires.org/about/privacy-policy>`__
+Please review our Privacy Policy here: `https://www.firstinspires.org/about/privacy-policy <https://www.firstinspires.org/about/privacy-policy>`_
 
 COPYRIGHT INFRINGEMENTS
 -----------------------

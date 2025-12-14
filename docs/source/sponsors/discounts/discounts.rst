@@ -26,7 +26,7 @@ Team Grant Opportunities
    **Expires**: See each individual grant opportunity.
 
    **To Apply**: Check out the 
-   `list of current Team Grants available <https://www.firstinspires.org/programs/team-grant-opportunities>`__ 
+   `list of current Team Grants available <https://www.firstinspires.org/programs/team-grant-opportunities>`_ 
    and see if you're eligible!
 
 
@@ -51,7 +51,7 @@ Team Grant Opportunities
 
    **Promo Code**: N/A
 
-   **To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/hubfs/web/program/ftc/ftc-storefront-options.pdf>`__
+   **To Use**: See the `Kit of Parts PDF <https://www.firstinspires.org/hubfs/web/program/ftc/ftc-storefront-options.pdf>`_
    for instructions on how to purchase discounted parts.
 
 

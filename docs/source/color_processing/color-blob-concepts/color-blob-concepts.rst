@@ -1,61 +1,147 @@
-Color Blob の概念
-==================
+Color Blob Concepts
+===================
 
-**Color Blob** は、画像内の類似した色のピクセルの連続した領域です。**Color Blob** 検出は、ロボットビジョンの多くのアプリケーションで重要です。
+Color Blobs
+-----------
 
-Color Blob とは？
------------------**Color Blob** は、次の特性を持つピクセルのグループです：
+An image can be evaluated by its **groupings of similar colors**.
 
-- 類似した色（指定された色範囲内）
-- 空間的に接続されている（隣接しているか近接している）
-- 十分な大きさ（最小サイズのしきい値を超える）
+The smallest unit of any digital image is a **pixel**: a tiny square of one
+particular color.
 
-たとえば、フィールド上の赤い**Team Prop** は、赤い**Color Blob** として検出できます。
+Each grouping or cluster of similar-colored pixels is called a **Blob**, which
+can be irregular in size and shape.
 
-Blob 検出プロセス
------------------**Color Blob** を検出する基本的な手順は次のとおりです：
+Forming a Blob is done automatically by the software.  It seeks pixels of
+similar color that are **contiguous** -- touching each other along an edge, not
+just at a corner.  
 
-1.** 色の範囲を定義**: 検出したい色の範囲を指定します
-2. ** 画像を変換**: 画像を適切な色空間に変換します（例：**RGB** から**HSV** ）
-3.**しきい値処理**: 色範囲内のピクセルを識別します
-4. ** 輪郭を検出**: 接続されたピクセルの領域を見つけます
-5. **Blob をフィルタリング**: サイズ、形状、または他の基準で **Blob** をフィルタリングします
+.. figure:: images/10-Blobs-formation.png
+   :width: 75%
+   :align: center
+   :alt: Blob Formation Visualization
 
-Blob のプロパティ
+   Blob Formation Visualization
+
+There are 9 Blobs here, not 4.  Some are very small, just one pixel each.
+
+The 5 pixels at top right, for example, are not contiguous (edges joined), so
+they are not joined to form a larger Blob.
+
+The above simple example has only 2 colors: black and white.  For FTC, the
+definition of "similar" colors is a range specified by you.
+
+.. figure:: images/20-Blobs-red-chair.png
+   :width: 75%
+   :align: center
+   :alt: Defining Blobs from an image of a red chair
+
+   Blobs from a Red Chair image
+
+In the above example, the chair surfaces are not **exactly** the same shade of
+red.  But with a **target** definition "close to red" or "mostly red", the
+software can form reasonable Blobs for further processing.
+
+Color Processing
+----------------
+
+Now let's point the camera at an INTO THE DEEP game element called a
+**Sample**.
+
+.. figure:: images/30-Blobs-blue-basic.png
+   :width: 75%
+   :align: center
+   :alt: Detecting Blob from a Blue SAMPLE
+
+   Blob from a Blue SAMPLE
+
+Here the software was told to seek shades of blue.  The orange rectangle
+encloses a Blob of blue color.
+
+But why doesn't the rectangle enclose the entire game piece?  The software is
+processing only a certain **Region of Interest** or ROI.  That's the white
+rectangle; its size and location are specified by you.
+
+Anything outside the ROI will not be considered part of any Blob that is
+detected.  This can help you avoid detecting (unwanted) background objects.
+
+In the example above, the Blob was actually outlined in teal (blue-green
+color), very hard to see.  Let's try another image:
+
+.. figure:: images/40-Blobs-single.png
+   :width: 75%
+   :align: center
+   :alt: Finding Teal Outline
+
+   Teal Outline of Blue Blob
+
+Now the teal outline of the blue Blob can be seen.  Its shape is irregular,
+which can be difficult for your OpMode to evaluate.
+
+boxFit Rectangles
 -----------------
 
-検出された**Color Blob** には、多くの有用なプロパティがあります：
+The orange rectangle is drawn automatically by OpenCV, to give your OpMode a
+simpler geometric shape that represents the Blob.  It's not **exactly** like
+the actual Blob, but hopefully still useful.
 
--** 位置**: **Blob** の中心座標（X、Y）
--** サイズ**: **Blob** 内のピクセル数または面積
--** 境界ボックス**: **Blob** を囲む長方形
--** 形状**: アスペクト比、円形度、またはその他の形状記述子
+The orange rectangle, called the **boxFit**, fits tightly around the extreme
+edges of the Blob.  The boxFit is **not** required to stay inside the Region of
+Interest.  In the above case, the best-fitting rectangle happens to stay inside
+the ROI.
 
-これらのプロパティは、**Blob** を識別および追跡するために使用できます。
+But here's another case:
 
-Blob Detection の課題
-----------------------**Color Blob** 検出にはいくつかの課題があります：** 照明条件**
-  照明の変化は、色の外観に影響を与える可能性があります。**HSV** 色空間を使用し、色範囲を慎重に選択することで、これを軽減できます。** ノイズ** 小さなピクセルグループがノイズとして検出される場合があります。最小サイズのしきい値を使用してこれらをフィルタリングします。** オクルージョン** オブジェクトが部分的に隠されている場合、複数の**Blob** として検出される可能性があります。** 類似した色** 複数のオブジェクトが類似した色を持つ場合、1つの大きな**Blob** として結合される可能性があります。
+.. figure:: images/50-Blobs-tilted.png
+   :width: 75%
+   :align: center
+   :alt: Showing Boxfit position
 
-Color Locator
--------------**FTC SDK** は、**Color Blob** 検出を簡素化する**Color Locator** プロセッサを提供します。これは、次のような高度な機能を提供します：
+   New boxFit position
 
-- 複数の色範囲のサポート
-- 自動**Blob** フィルタリング
-- リアルタイムプレビュー
-- 調整可能なパラメーター**Color Locator** の使用方法の詳細については、**Color Locator** シリーズのチュートリアルを参照してください。
+Look very closely for the teal outline of the Blob, with its very rough lower
+edge.
 
-実用的な応用
-------------**Color Blob** 検出は、次のような多くの**FTC** アプリケーションに役立ちます：
+Here, the best-fitting rectangle (boxFit) is **tilted**, and is not contained
+inside the ROI.
 
--**Team Prop** の検出とローカライゼーション
-- ゲームピースの識別と追跡
-- フィールドエレメントのナビゲーション
-- 色ベースの意思決定
+OpenCV provides all data for the boxFit, including its corner points, size, and
+tilt angle.  It can even provide a fitted horizontal version of the boxFit
+rectangle, if you prefer not to handle a tilted boxFit.
 
-適切な色範囲と検出パラメーターを選択することで、ロボットのビジョンシステムを堅牢で信頼性の高いものにできます。
+Now things get a bit more complicated:
 
-====
+.. figure:: images/60-Blobs-two.png
+   :width: 75%
+   :align: center
+   :alt: Detecting two blobs
+
+   Detecting two blobs
+
+OpenCV detected **two Blobs**, each with a teal outline and each with a boxFit.
+
+Your OpMode will need to "decide" which boxFit is important and which to
+ignore.  Fortunately, OpenCV provides tools to **filter out** certain unwanted
+results.  After filtering, your OpMode can **sort** the remaining results, to
+focus on the highest priority.
+
+With these tools, your OpMode could handle even a "busy" result like this one:
+
+.. figure:: images/70-Blobs-many.png
+   :width: 75%
+   :align: center
+   :alt: Many blob detections
+
+   Many Blob Detections
+
+Your programming tasks will include:
+
+* determine which boxFit is most relevant,
+* evaluate its data, and
+* take robot action accordingly.
+
+Now try the Sample OpMode for the :doc:`Color Locator <../color-locator-discover/color-locator-discover>` processor.
+
+============
 
 *Questions, comments and corrections to westsiderobotics@verizon.net*
-

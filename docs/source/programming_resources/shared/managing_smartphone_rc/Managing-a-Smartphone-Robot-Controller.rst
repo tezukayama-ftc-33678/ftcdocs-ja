@@ -1,88 +1,114 @@
-スマートフォンRobot Controllerの管理
+Managing a Smartphone Robot Controller
 ======================================
 
-名前の変更
+Changing the Name
 ~~~~~~~~~~~~~~~~~
 
-競技マニュアルに準拠するため、**Robot Controller** （**RC** ）スマートフォンの名前を変更する必要があります。
+In order to comply with the Competition Manual, the name of the Robot
+Controller (RC) smartphone should be changed.
 
-これは、以下に説明するように、**RC** アプリまたはペアリングされた**DS** アプリで行うことができます。（これらの手順は、ペアリングされた**DS** アプリから**Control Hub** の名前を変更する場合にも機能します。）
+This can be done in the RC app or in a paired DS app, as described
+below. (These steps also work for changing the name of a Control Hub,
+from a paired DS app.)
 
-または、:ref:`デバイスの名前変更<programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:renaming your smartphones>` では、スマートフォンのAndroid設定アクティビティを使用してスマートフォンの名前を変更する方法を示しています。
+As an alternate, :ref:`Renaming Devices<programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:renaming your smartphones>` show how to rename a smartphone using the Android Settings activity of the phone.
 
-.. important:: **Robot Controller** の名前が変更されると、デバイス（**Driver Station** とプログラミング用ラップトップ）を新しく変更されたネットワークに再接続する必要がある場合があります。
+.. important:: Once the name of your Robot Controller is changed,
+   you might need to reconnect your devices (Driver Station and programming
+   laptop) to the newly changed network.
 
-Robot Controllerの名前を変更する手順
+Changing the Name of a Robot Controller
 ---------------------------------------
 
-1. **Robot Controller** スマートフォンまたはペアリングされた**Driver Station** スマートフォンで、右上隅の3つのドットをタッチして、ポップアップメニューを表示します。
+1. On the Robot Controller phone or paired Driver Station phone,
+touch the three dots in the upper right hand corner to display a
+pop-up menu.
 
 .. image:: images/touchThreeDots.jpg
    :align: center
 
 |
 
-2. ポップアップメニューから *Settings* メニュー項目を選択します。
+2. Select the *Settings* menu item from the pop-up menu.
 
 .. image:: images/selectSettings.jpg
    :align: center
 
 |
 
-3. *ROBOT CONTROLLER SETTINGS* ページで、*Robot Controller Name* をクリックします。
+3. Click on *Robot Controller Name* on the *ROBOT CONTROLLER SETTINGS* page.
 
 .. image:: images/clickRobotControllerName.jpg
    :align: center
 
 |
 
-4. 新しい **Robot Controller** 名を指定し、*OK* を押して変更を受け入れます。
+4.Specify the new Robot Controller Name and press *OK* to accept the changes.
 
 .. image:: images/specifyNewRobotControllerName.jpg
    :align: center
 
 |
 
-WiFiチャンネルの変更
+Changing the WiFi Channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-デフォルトでは、スマートフォン **Robot Controller** は自動的に独自の動作WiFiチャンネルを選択します。ただし、デバイスの動作チャンネルを指定する必要がある場合があります。
+By default the smartphone Robot Controller automatically picks its own
+operating WiFi channel. However, it is sometimes necessary to specify
+the operating channel for the device.
 
-たとえば、大規模な競技会では、会場に存在するワイヤレス干渉を避けるために、FTAが指定されたチャンネルに切り替えるように要求する場合があります。同様に、FTAが干渉やその他のワイヤレス障害のために指定されたチャンネルを監視しているため、特定のチャンネルに切り替えるように要求する場合があります。
+For example, at a large competition an FTA might ask that you switch to
+a designated channel to avoid wireless interference that is present in
+the venue. Similarly, an FTA might ask you to switch to a specific
+channel because the FTA is monitoring that designated channel for
+interference or other wireless disruptions.
 
-**Robot Controller** または**Driver Station** の詳細設定メニューを使用して、動作チャンネルを変更できます。
+You can change the operating channel using the Advanced Settings menu on
+the Robot Controller or Driver Station.
 
-.. warning:: すべてのAndroidスマートフォンがソフトウェアを通じてチャンネル変更をサポートしているわけではありません。ソフトウェアを通じてチャンネル変更をサポートする **FIRST** 承認のスマートフォンのリストについては、競技マニュアルを参照してください。
+.. warning:: Not every Android phone supports channel changing
+   through the software. Refer to the Competition Manual for a
+   list of *FIRST*-approved phones that support channel changing through
+   the software.
 
-WiFiチャンネルを変更する手順
+Changing the WiFi Channel Instructions
 --------------------------------------
 
-1. **Driver Station** が**Robot Controller** に接続されていることを確認します。
+1. Verify that the Driver Station is connected to your Robot
+Controller.
 
-2. **Driver Station** のメイン画面の右上隅にある3つのドットをタップして、ポップアップメニューを表示し、メニューから *Settings* を選択します。
+2. Tap the three dots in the upper right hand corner of the Driver
+Station's main screen to display the pop-up menu and select
+*Settings* from the menu.
 
-3. *Settings* 画面の *ROBOT CONTROLLER SETTINGS* セクションまで下にスクロールし、*Advanced Settings* という言葉をクリックして、*ADVANCED ROBOT CONTROLLER SETTINGS* アクティビティを表示します。
+3. Scroll down to the *ROBOT CONTROLLER SETTINGS* section of the
+*Settings* screen and click on the words *Advanced Settings* to
+display the *ADVANCED ROBOT CONTROLLER SETTINGS* activity.
 
 .. image:: images/clickAdvancedSettings.jpg
    :align: center
 
 |
 
-4. *Change Wifi Channel* リンクをクリックして、利用可能なチャンネルのリストを表示します。
+4. Click on the *Change Wifi Channel* link to display a list of
+available channels.
 
 .. image:: images/clickChangeWifiChannel.jpg
    :align: center
 
 |
 
-5. 希望する動作チャンネルを選択します。チャンネル変更が成功した場合、スマートフォンにトーストメッセージが表示されます。
+5. Select the desired operating channel. The phone should display a
+toast message if the channel change was successful.
 
 .. image:: images/successChangeWifiChannel.jpg
    :align: center
 
 |
 
-6. Androidの戻る矢印を使用して、メインの **Driver Station** 画面に戻ります。新しい動作チャンネルが、**Robot Controller** の名前の下の Network: セクションに表示されます。
+6. Use the Android back arrow to return to the main Driver Station
+screen. The new operating channel should be displayed in the
+Network: section under the Robot Controller's name
 
 .. image:: images/operatingWifiChannel.jpg
    :align: center
@@ -90,43 +116,56 @@ WiFiチャンネルを変更する手順
 |
 
 
-ログファイルのダウンロード
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Downloading the Log File
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-制御システムの問題をトラブルシューティングする際に、**Robot Controller** からログファイルをダウンロードすることが役立つことがよくあります。これは *Manage* ページから行うことができます。デフォルトでは、ログファイル名は *robotControllerLog.txt* です。
+It's often helpful when troubleshooting problems with the Control System
+to download the log file from the Robot Controller. This can be done
+from the *Manage* page. Note that the log file name is
+*robotControllerLog.txt* by default.
 
-ログファイルをダウンロードする手順
+Downloading the Log File Instructions
 -------------------------------------
 
-1. ラップトップまたはChromebookがスマートフォン **Robot Controller** のProgram & Manageワイヤレスネットワークに接続されていることを確認します。ネットワークに接続されている場合、アドレス「192.168.49.1:8080」にアクセスすると、*Robot Controller Connection Info* ページが表示されるはずです：
+1. Verify that your laptop or Chromebook is connected to the Program
+& Manage wireless network of the smartphone Robot Controller. If you
+are connected to the network, you should be able to see the *Robot
+Controller Connection Info* page when you navigate to address
+"192.168.49.1:8080":
 
 .. image:: images/RCConnectionInfoPage.jpg
    :align: center
 
 |
 
-   ラップトップまたはChromebookが接続されておらず、*Robot Controller Connection Info* ページにアクセスできない場合は、以下のチュートリアルの手順を読んで、Program & Manageネットワークへの接続方法を学んでください。
+   If your laptop or Chromebook is not connected and you are unable to access the *Robot Controller Connection Info* page, then read the instructions in the following tutorial to learn how to connect to the Program & Manage network.
 
    :doc:`Connecting a laptop to the Program & Manage Network <../program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`
 
-2. *Robot Controller Connection Info* ページの上部にある *Manage* リンクをクリックして、Manageページに移動します。
+2. Click on the *Manage* link towards the top of the *Robot 
+Controller Connection Info* page to navigate to the Manage page.
 
 .. image:: images/manageLink.jpg
    :align: center
 
 |
 
-3. *Download Logs* ボタンをクリックして、**Robot Controller** ログファイルをダウンロードします。
+3. Click the *Download Logs* button to download the Robot Controller
+log file.
 
 .. image:: images/downloadLogs.jpg
    :align: center
 
 |
 
-4. **Robot Controller** ログファイルがコンピューターのDownloadsディレクトリにダウンロードされたことを確認します。
+4. Verify that the Robot Controller log file was downloaded to the
+Downloads directory of your computer.
 
 
-5. `Notepad++ <https://notepad-plus-plus.org/>`__ やMicrosoftのWordPadなどのテキストエディタを使用して、ログファイルの内容を開いて表示します。WindowsアプリのNotepadは、ログファイルの内容を正しく表示しないことに注意してください。
+5. Use a text editor such as
+`Notepad++ <https://notepad-plus-plus.org/>`__ or Microsoft's WordPad
+to open and view the contents of the log file. Note that the Windows
+app, Notepad, will not properly display the contents of the log file.
 
 .. image:: images/notepadplusplus.jpg
    :align: center
@@ -134,83 +173,119 @@ WiFiチャンネルを変更する手順
 |
 
 
-Expansion Hubファームウェアの更新
+Updating the Expansion Hub Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Robot Controller** スマートフォンは、USB接続を使用してスタンドアロンの**REV Robotics Expansion Hub** に接続します。**Expansion Hub** の目的は、**Robot Controller** とロボットのモーター、サーボ、センサー間の通信を容易にすることです。REV Roboticsは定期的に、**Expansion Hub** の修正と改善を含むファームウェアの新しいバージョンをリリースする場合があります。ファームウェアリリースはバイナリ（「.bin」）ファイルの形式です。
+A Robot Controller phone connects to a standalone REV Robotics Expansion
+Hub using a USB connection. The purpose of the Expansion Hub is to
+facilitate communication between the Robot Controller and the motors,
+servos, and sensors of the robot. Periodically, REV Robotics may release
+new versions of the firmware which contains fixes and improvements for
+the Expansion Hub. The firmware releases are in the form of a binary
+(".bin") file.
 
-`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ ソフトウェアは、USBケーブルでコンピューターに直接接続された **Expansion Hub** のファームウェアを更新できます。
+The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__
+software can update the firmware of an Expansion Hub plugged directly
+into the computer via USB cable.
 
-または、**Expansion Hub** がUSB経由で接続された**Robot Controller** スマートフォンに接続されたラップトップまたは**Driver Station** （**DS** ）から *Manage* インターフェースを使用できます。Manageページでは、**Expansion Hub** のファームウェアをアップロードしたり、含まれているバージョンまたはアップロードされたバージョンを使用して更新したりできます。新しいファームウェアイメージは、`REV Roboticsウェブサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__ から入手できます。
+As an alternate, you can use the *Manage* interface from a laptop or
+Driver Station (DS) connected to a Robot Controller phone with Expansion
+Hub plugged in via USB. The Manage page allows you to upload an
+Expansion Hub's firmware, or to update it using the included or uploaded
+version. New firmware images can be obtained from the 
+`REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__.
 
-また、含まれているまたはアップロードされた **Expansion Hub** ファームウェアは、ペアリングされた**Driver Station** （**DS** ）アプリから**Robot Controller** の詳細設定で更新できます（以下に示します）。
+Also, included or uploaded Expansion Hub firmware can be updated in
+Robot Controller Advanced Settings, from a paired Driver Station (DS)
+app as shown below.
 
-これらの3つの更新方法は、RS485データワイヤを介して接続された **Expansion Hub** には適用されません。スタンドアロンの**Expansion Hub** は、直接USB接続で更新する必要があります。
+These three update methods do not apply to an Expansion Hub connected
+via RS485 data wire. Standalone Expansion Hubs must be updated by direct
+USB plug-in.
 
-Expansion Hubファームウェアを更新する手順
+Updating the Expansion Hub Firmware Instructions
 ------------------------------------------------
 
-1. **Robot Controller** ユーザーインターフェースの *Manage* ページで、*Select Firmware* ボタンを押して、アップロードするファームウェアファイルを選択します。
+1. On the *Manage* page of the Robot Controller user interface, press 
+the *Select Firmware* button to to select the firmware file that you  
+would like to upload.                                                 
 
 .. image:: images/selectFirmwareFile.jpg
    :align: center
 
 |
 
-   ファイルが正常に選択されると、*Upload* ボタンが表示されます。
+   An _Upload_ button should appear after you successfully selected a file.
 
-2. *Upload* ボタンを押して、ファームウェアファイルをコンピューターから **Robot Controller** にアップロードします。
+2. Press the *Upload* button to upload the firmware file from your    
+computer to the Robot Controller.                                     
 
 .. image:: images/uploadFirmwareFile.jpg
    :align: center
 
 |
 
-   ファイルが正常にアップロードされると、「Firmware upload complete」という言葉が表示されます。
+   The words "Firmware upload complete" should appear once the file has been uploaded successfully.
 
-3. **Expansion Hub** の電源がオンになっていて、新しく充電された12Vバッテリーで電源が供給されていること、および**Robot Controller** スマートフォンがUSB接続を介して**Expansion Hub** に接続されていることを確認します。更新が機能するために、**Robot Controller** はアクティブな構成ファイルに**Expansion Hub** を含める必要が** ない** ことに注意してください。
+3. Make sure that your Expansion Hub is turned on and powered by a    
+freshly charged 12V battery and that the Robot Controller phone is    
+connected to the Expansion Hub through a USB connection. Note that    
+the Robot Controller does **not** need to have the Expansion Hub      
+included in an active configuration file in order for the update to   
+work.                                                                 
 
 .. image:: images/ConfiguringHardwareStep4.jpg
    :align: center
 
 |
 
-4. **Driver Station** で、右上隅の3つのドットをタッチして、ポップアップメニューを表示します。
+4. On the Driver Station, touch the three dots in the upper right     
+hand corner to display a pop-up menu.                                 
 
 .. image:: images/touchThreeDots.jpg
    :align: center
 
 |
 
-5. ポップアップメニューから *Settings* を選択して、Settingsアクティビティを表示します。
+5. Select *Settings* from the pop-up menu to display the Settings     
+activity.                                                             
 
 .. image:: images/touchSettings.jpg
    :align: center
 
 |
 
-6. **Driver Station** で、下にスクロールして、*Advanced Settings* 項目（*ROBOT CONTROLLER SETTINGS* カテゴリの下）を選択します。
+6. On the Driver Station, scroll down and select the *Advanced        
+Settings* item (under the *ROBOT CONTROLLER SETTINGS* category).      
 
 .. image:: images/selectAdvancedSettings.jpg
    :align: center
 
 |
 
-7. *ADVANCED ROBOT CONTROLLER SETTINGS* アクティビティで、*Expansion Hub Firmware Update* 項目を選択します。
+7. Select the *Expansion Hub Firmware Update* item on the *ADVANCED   
+ROBOT CONTROLLER SETTINGS* activity.                                  
 
 .. image:: images/selectExpansionHubFirmwareUpdate.jpg
    :align: center
 
 |
 
-8. **Expansion Hub** に現在インストールされているバージョンとは異なるファームウェアファイルが正常にアップロードされた場合、**Driver Station** には現在のファームウェアバージョンと新しいファームウェアバージョンに関する情報が表示されます。*Update Expansion Hub Firmware* ボタンを押して、更新プロセスを開始します。
+8. If a firmware file that is different from the version currently    
+installed on the Expansion Hub was successfully uploaded, the Driver  
+Station should display some information about the current firmware    
+version and the new firmware version. Press the *Update Expansion Hub 
+Firmware* button to start the update process.                         
 
 .. image:: images/pressUpdateExpansionHubFirmwareButton.jpg
    :align: center
 
 |
 
-9. ファームウェアが更新されている間、進行状況バーが表示されます。このプロセス中に **Robot Controller**/**Expansion Hub** の電源を切らないでください。更新プロセスが完了すると、**Driver Station** にメッセージが表示されます。
+9. A progress bar will display while the firmware is being updated.   
+Do not power off the Robot Controller/Expansion Hub during this       
+process. The Driver Station will display a message when the update    
+process is complete.                                                  
 
 .. image:: images/dsUpdateComplete.jpg
    :align: center
@@ -218,60 +293,90 @@ Expansion Hubファームウェアを更新する手順
 |
 
 
-Robot Controllerアプリの更新
+Updating the Robot Controller App
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-スマートフォンにインストールされている **Robot Controller** アプリを更新する方法を知っておくことは重要です。**FIRST** は、改善と修正、およびシーズン固有のデータと機能を含む、このアプリの新しいバージョンを定期的にリリースします。
+It is important to know how to update the Robot Controller app that is
+installed on your smartphone. FIRST periodically releases new versions
+of this app, which contain improvements and fixes, as well as
+season-specific data and features.
 
-**Robot Controller** または**Driver Station** ユーザーインターフェースを通じて、**Robot Controller** アプリのバージョン番号を確認できます。**Robot Controller** または**Driver Station** で *About* メニューオプションを選択し、*ABOUT ROBOT CONTROLLER* セクションの下のApp Version番号を確認してください。
+Note that you can see the Robot Controller app version number through
+the Robot Controller or Driver Station user interface. Select the
+*About* menu option on the Robot Controller or Driver Station and note
+the App Version number under the *ABOUT ROBOT CONTROLLER* section.
 
 .. image:: images/aboutRobotController.jpg
    :align: center
 
 |
 
-2021年現在、アプリ（v 6.1以降）はGoogle Playで入手できなくなりました。
+As of 2021, the apps (v 6.1 and higher) are no longer available on Google
+Play.
 
-`REV Hardware Clientソフトウェア <https://docs.revrobotics.com/rev-hardware-client/>`__ を使用すると、承認されたデバイス（**REV Control Hub**、**REV Expansion Hub**、**REV Driver Hub** 、および承認されたAndroidデバイス）にアプリをダウンロードできます。以下は、いくつかの利点です：
+The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
+will allow you to download the apps to approved devices: REV Control Hub, REV
+Expansion Hub, REV Driver Hub, and approved Android devices. Here
+are some of the benefits: 
 
-*  WiFi経由で **REV Control Hub** に接続します。
-*  接続されたデバイス上のすべてのソフトウェアをワンクリックで更新します。
-*  接続されたデバイスなしでソフトウェアアップデートを事前ダウンロードします。
-*  **Control Hub** からユーザーデータをバックアップおよび復元します。
-*  Androidデバイスに **DS** と**RC** アプリケーションをインストールして切り替えます。
-*  **Control Hub** の**Robot Control** コンソールにアクセスします。
+*  Connect a REV Control Hub via WiFi. 
+*  One Click update of all software on connected devices. 
+*  Pre-download software updates without a connected device. 
+*  Back up and restore user data from Control Hub. 
+*  Install and switch between DS and RC applications on Android Devices. 
+*  Access the Robot Control Console on the Control Hub.
 
-プログラミングに **Blocks** または**OnBot Java** を使用しているチームは、REV Hardware Clientを使用して**RC** スマートフォンの**Robot Controller** （**RC** ）アプリを更新できます。
+Teams using Blocks or OnBot Java for programming can use the REV
+Hardware Client to update the Robot Controller (RC) app on an RC phone.
 
-このタスクを完了するには、デバイスごとに約7.5分かかることに注意してください。
+Note it will take an estimated 7.5 minutes per device to complete this
+task.
 
-または、アプリリリースは `FTCRobotController Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ で入手できます。**Robot Controller**APKファイルをコンピューターにダウンロードし、**RC** スマートフォンのDownloadsフォルダーに転送してから、そのファイルを開いて**RC** アプリをインストールします。このプロセスは「サイドローディング」と呼ばれます。
+As an alternate, the app releases are available on the
+`FTCRobotController
+Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
+Download the Robot Controller APK file to a computer, transfer it to the
+RC phone's Downloads folder, then open that file to install the RC app.
+This process is called "side-loading".
 
-.. tip:: **Robot Controller** （**RC** ）アプリを更新する場合は、**Driver Station** （**DS** ）アプリも同じバージョン番号に更新する必要があります。
+.. tip:: If you update the Robot Controller (RC) app, you
+   should also update the Driver Station (DS) app to the same version
+   number.
 
-.. important:: **Android Studio** を使用しているチームは、REV Hardware Clientまたはサイドローディングで**RC** アプリを更新しないでください。代わりに、**Android Studio** プロジェクトフォルダーの最新バージョンに更新することで、プロジェクトをビルドして**RC** デバイスにインストールするときに**Robot Controller** アプリが更新されます。プロジェクトフォルダーの最新バージョンは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ からダウンロードできます。
+.. important:: Teams using Android Studio should not update the RC
+   app with the REV Hardware Client or by side-loading. Instead, by
+   updating to the newest version of the Android Studio project folder,
+   you will update the Robot Controller app when you build the project and
+   install it on your RC device. You can download the newest version of the
+   project folder
+   `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__.
 
-カスタムウェブカメラキャリブレーションファイルのアップロード
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Uploading a Custom Webcam Calibration File
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Robot Controller** アプリには、一般的に利用可能なさまざまなウェブカメラ用の組み込みキャリブレーション情報があります。ユーザーは独自のカスタムキャリブレーションファイルを作成し、これらのファイルを**Control Hub** にアップロードすることもできます。
+The Robot Controller app has built-in calibration information for a
+variety of commonly available webcams. Users can also create their own
+custom calibration files and then upload these files to a Control Hub.
 
-キャリブレーションファイルの内容がどのようになるべきかについての注釈付きの例は、**Android Studio** プロジェクトフォルダーに含まれている *teamwebcamcalibrations.xml* というファイルにあります。
-この例のキャリブレーションファイルは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ にあります。
+A commented example of what the contents of a calibration file should
+look like can be found in a file called *teamwebcamcalibrations.xml*,
+which is included with the Android Studio project folder. 
+This example calibration file can be found
+`here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__.
 
-カスタムウェブカメラキャリブレーションファイルをアップロードする手順
---------------------------------------------------------------------
+Uploading a Custom Webcam Calibration File Instructions
+-------------------------------------------------------
 
-1. *Manage* ページで、*Select Webcam Calibration File* ボタンをクリックして、キャリブレーションファイルを選択します。
+1. On the *Manage* page, click on the *Select Webcam Calibration File* button to select the calibration file.
 
 .. image:: images/selectWebcamCalibrationFile.jpg
    :align: center
 
 |
 
-   ファイルが正常に選択されると、*Upload* ボタンが表示されます。
+   An *Upload* button should appear if a file was successfully selected.
 
-2. *Upload* ボタンをクリックして、選択したファイルをアップロードします。アップロードが成功した場合、*Manage* ページにアップロードが完了したことを示すメッセージが表示されます。
+2. Click on the *Upload* button to upload the selected file. If the upload was successful, then the *Manage* page will display a message indicating that the upload has completed.
 
 .. image:: images/uploadWebcamCalibrationFileComplete.jpg
    :align: center

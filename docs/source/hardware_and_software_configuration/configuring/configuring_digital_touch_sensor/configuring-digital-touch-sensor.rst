@@ -1,28 +1,31 @@
-デジタルタッチセンサーの構成
+Configuring a Digital Touch Sensor
 ==================================
 
-**REV Robotics タッチセンサー** はデジタルセンサーです。**OpMode** は、タッチセンサーにクエリを実行して、ボタンが押されているかどうかを確認できます。
+The REV Robotics Touch Sensor is a digital sensor. An Op Mode can query
+the Touch Sensor to see if its button is being pressed or not.
 
-デジタルタッチセンサーの構成手順
+Configuring a Digital Touch Sensor Instructions
 -----------------------------------------------
 
-1. 画面の **Digital Devices** をタップして、デジタル I/O 構成画面を表示します。                                     
+1. Touch the words **Digital Devices** on the screen to launch the    
+Digital I/O configuration screen.                                     
 
 .. image:: images/ConfiguringHardwareTouchStep1.jpg
    :align: center
 
 |
 
-2. タッチスクリーンを使用して、ポート #1 に「REV Touch Sensor」を追加し、デバイスに「testTouch」という名前を付けます。                                          
+2. Use the touch screen to add a "REV Touch Sensor" for port #1 and   
+name the device "testTouch".                                          
 
 .. image:: images/ConfiguringHardwareTouchNewStep2.jpg
    :align: center
 
 |
 
-ポート #0 ではなくポート #1 でタッチセンサーを構成していることに注意してください。これは、標準の 4 線 JST センサーケーブルを使用して **REV Robotics タッチセンサー** をデジタルポートに接続すると、2 番目のデジタルピンが接続されるためです。最初のピンは接続されたままです。
+Notice that we are configuring the Touch Sensor on port #1 instead of port #0.  This is because when the REV Robotics Touch Sensor is connected to a digital port using a standard 4-wire JST sensor cable, it is the second digital pin that is connected. The first pin remains disconnected.
 
-3. **Done** ボタンを押して前の画面に戻ります。        
+3. Press the **Done** button to return to the previous screen.        
 
 .. image:: images/ConfiguringHardwareTouchNewStep3.jpg
    :align: center

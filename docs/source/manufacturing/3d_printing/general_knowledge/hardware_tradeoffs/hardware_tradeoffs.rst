@@ -56,7 +56,7 @@ stock with a PTFE lined hotend, so buying all-metal is one of the large upgrades
 |
 
 Cartesian vs CoreXY 
---------------------
+-------------------
 
 Cartesian motion 3D printers, otherwise known colloquially as "bed-slingers" have been the standard for most consumer 
 level printers and are practically everywhere, with one stepper controlling each axis, and a moving bed with not much 

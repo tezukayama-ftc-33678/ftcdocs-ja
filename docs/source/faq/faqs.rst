@@ -1,14 +1,17 @@
 .. meta::
-   :title: FTC チーム よくある質問
-   :description: FIRST Tech Challenge チームからよく寄せられる質問への回答
+   :title: Common FTC Team FAQs
+   :description: Common questions asked by FIRST Tech Challenge teams answered
    :keywords: FTC Docs, FIRST Tech Challenge, FTC, FAQ
 
-チーム よくある質問
-===================
+Common Team FAQs
+=================
 
-登録から競技、審査に至るまで、チーム活動の様々な側面に関する簡潔な回答をお探しの場合は、これらの公式な質問と回答を参照してシーズンを乗り切ってください。さらに詳しい説明が必要な場合は、https://www.firstinspires.org/ にアクセスしてライブチャットを利用するか、`Game Q&A <https://ftc-qa.firstinspires.org/>`__ で競技固有の質問をしてください。
+If you're looking for quick answers regarding the many facets of being a team from registration to 
+competition to judging. Please refer to these official questions and answers to guide you through the season. 
+If you need further clarification navigate to https://www.firstinspires.org/ to Live Chat or ask game specific 
+questions on the `Game Q&A <https://ftc-qa.firstinspires.org/>`_ .
 
-ダッシュボード/登録 FAQ
+Dashboard/Registration FAQs
 ----------------------------
 
 .. grid:: 1
@@ -16,59 +19,63 @@
 
     .. grid-item-card:: Why can’t I invite my team members to my team?
 
-        各チームは、「ユースメンバーを招待する」連絡オプションを表示するために、2人のYPPスクリーニング済みリードコーチが必要です。
+        Each team is required to have two YPP screened lead coaches to see the Invite Youth Member contact option
 
-    .. grid-item-card:: Pitscoに登録したばかりですが、ダッシュボードにまだ未払い残高が表示されるのはなぜですか？
+    .. grid-item-card:: I just registered with Pitsco, but I still see a balance due on my dashboard, why?
 
-        Pitscoは電子的に支払いを送信します。このプロセスは完了までに24〜48時間かかる場合があります。
+        Pitsco submits payments to us electronically. This process can take 24-48 hours to complete.
 
-システム FAQ
+System FAQs
 ------------
 
 .. grid:: 1
     :gutter: 3
 
-    .. grid-item-card:: *FIRST* Tech Challenge スコアリングシステムにログインできるのは誰ですか？ 
+    .. grid-item-card:: Who can log into the *FIRST* Tech Challenge Scoring system? 
 
-        リードコーチ 1 & 2  
+        Lead Coach 1 & 2  
 
-    .. grid-item-card:: 私の地域のイベントやイベント結果はどこで確認できますか？
+    .. grid-item-card:: Where can I find events and event results in my region?
 
-        https://ftc-events.firstinspires.org/ が、*FIRST* Tech Challenge の FIRST 公式チーム、イベント、およびイベント結果情報の情報源です。
+        https://ftc-events.firstinspires.org/ is the source for FIRST-official team, events and event results information for *FIRST* Tech Challenge
 
-審査 FAQ
+Judging FAQs
 -------------
 
 .. grid:: 1
     :gutter: 3
 
-    .. grid-item-card:: Structured Judging Appointment に何を持参する必要がありますか？
+    .. grid-item-card:: What do I need to bring to my Structured Judging Appointment?
 
-        チームは、ロボット、ポートフォリオ、およびプレゼンテーションに参加したいチームメンバーをできるだけ多く連れてくる必要があります。一部のイベントでは、チームがイベントにチェックインする際にポートフォリオが回収されることにご注意ください。
+        Teams should bring their robot, Portfolio and as many members of the team who want to participate in the presentation. Please note that at some events, 
+        the Portfolio is collected when the team checks in for the event.
 
-    .. grid-item-card:: 審査員からどのようなフィードバックを受け取りますか？
+    .. grid-item-card:: What feedback will we receive from the judges?
 
-        審査員は、チームが Structured Interview を完了した直後にフィードバックフォームに記入します。フィードバックは最初の Structured Interview に限定されており、フォローアップのピットインタビューやポートフォリオにおけるチームのパフォーマンスは含まれません。
+        Judges complete the feedback form immediately after the team has completed their Structured interview. Feedback is limited to the initial Structured interview and does 
+        not include the team's performance in follow-up Pit interviews or their Portfolio.
 
-    .. grid-item-card:: チームは5分間のプレゼンテーションを準備する必要がありますか？
+    .. grid-item-card:: Is my team required to prepare a 5 minute presentation?
 
-        チームは5分間のプレゼンテーションを準備する必要はありませんが、部屋に入る際にプレゼンテーションがないことを審査員に伝える必要があります。審査員はインタビューの冒頭からチームに質問を始めます。 
+        Teams are not required to prepare a 5 minute presentation, but teams should let the judges know they do 
+        not have a presentation when they enter the room. The judges will begin to ask the team questions at the beginning of 
+        the interview. 
 
 
-競技 FAQ
+Competition FAQs
 --------------------
 
 .. grid:: 1
     :gutter: 3
 
-    .. grid-item-card:: 検査時にロボットと一緒にいる必要があるのはチームの誰ですか？
+    .. grid-item-card:: Who on my team needs to be with the robot for inspection?
 
-        競技マニュアルによると、検査中は少なくとも1人の学生が立ち会う必要があります。
-        ただし、検査員はロボットの機械的および電気的コンポーネントについて質問します。
-        理想的には、そのような質問に答えられるチームメンバーが1人以上いることが望ましいです。
-        さらに、ロボットと **Driver Station** の電源を入れ、サイジングなどの特定のルールにロボットが準拠していることを実演する必要がある場合があります。
-        これには、メカニズムを操作したりロボットを開始構成に配置したりするためにゲームパッドを使用する必要がある場合、ドライブチームのメンバーが関与することがあります。
-        自己検査チェックリストを確認してください。通常、チェックリストに基づいて何をしているかを判断できます。
+        At least one student must be present during inspection per the Competition Manual.
+        However, inspectors will ask questions about the mechanical and electrical components of your robot.
+        Ideally, you have one or more team members who can answer such questions.
+        In addition, you may need to turn your robot and driver station on and demonstrate your robot complies with a particular rule like sizing.
+        That may involve someone from the drive team if you need to use a gamepad to operate a mechanism or place the robot in its starting configuration.
+        Look at the self inspection checklist, you can generally determine what you're doing based on the checklist.
         
     .. grid-item-card:: Why aren’t you going to replay that match?
 
@@ -76,9 +83,9 @@
         Typically unless something went wrong with the field or field staff there will not be grounds for a replay. A malfunctioning robot typically does not provide grounds
         for a replay. 
 
-    .. grid-item-card:: なぜ他のチームには再試合をしたのに、私たちにはしないのですか？
+    .. grid-item-card:: Why did you replay a match for someone else, but not us?
 
-        状況が異なっていました。必要であれば、チームは競技エリアのクエスチョンボックスでヘッドレフェリーと話すことができます。
+        The situation was different. If necessary, teams can talk with the head referee in the competition area Question Box.
 
     .. grid-item-card:: Why won’t you fix that score? We have video (or photographs) to prove the score is wrong!
 
@@ -88,25 +95,25 @@
 
         Teams can work with the event FTA or Event Director if they have questions about the WiFi environment. 
 
-    .. grid-item-card:: スコアリングレフェリーが私たちのマッチを間違ってスコアリングしたか、スコアキーパーが間違ったスコアをコンピューターに入力したと思う場合、どうすればよいですか？
+    .. grid-item-card:: What do we do if we think the scoring referees scored our match wrong or the scorekeeper put the wrong score into the computer.
 
-        チームがマッチの結果について質問がある場合は、1人の学生代表をクエスチョンボックスに送り、ヘッドレフェリーと話す必要があります（この会話のためにマッチを中断しないでください）。レフェリーが間違いを犯したことに同意すれば、修正できます。レフェリーがスコアに自信を持っている場合、チームはその決定を受け入れる必要があります。主要なボランティアの役割、トーナメント運営、およびクエスチョンボックスの使用方法の詳細については、競技マニュアルを確認してください。
+        If a team has questions about a match outcome, they should send one student representative to the Question Box to talk to the Head Referee (do not interrupt matches for 
+        this conversation). If the referees agree that they made a mistake, they can correct it. If the referees are confident in their score, the team should accept that 
+        decision. Check the Competition Manual for more information about key volunteer roles, tournament operations, and how to use the Question Box.
 
-技術 FAQ
+Technology FAQs
 --------------------
 
 .. grid:: 1
     :gutter: 3
 
-    .. grid-item-card:: 奇妙なエラーが発生しています。修正のヘルプはどこで得られますか？
+    .. grid-item-card:: I'm getting a weird error, where can I go to get help with fixing this?
 
-        ヘルプを得るのに最適な場所は `ftc-community プラットフォーム <https://ftc-community.firstinspires.org>`__ です。
-        ftc-community プラットフォームは、様々な知識豊富な人々が監視しているコミュニティの質問場所であり、あなたの質問に答えてくれる可能性が高いです！ 
+        The best place to go for help is the `ftc-community platform <https://ftc-community.firstinspires.org>`__. 
+        The ftc-community platform is a community place to ask questions that is monitored by a variety of 
+        knowledgeable folks who can likely help you with your questions! 
 
 ===============================================
 
-*FIRST* Tech Challenge ゲームデザイン委員会によるレビュー済み
-
-.. note::
-   このドキュメントは非公式な日本語翻訳です。正式な情報については、英語版の公式ドキュメントを参照してください。
+Reviewed by *FIRST* Tech Challenge Game Design Committee
 

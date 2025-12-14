@@ -98,7 +98,7 @@ Java section below:
 
       3. Near the beginning of the OpMode code, change `ARTIFACT_PURPLE` to `BLUE`.
 
-      4. At about Line 63, you can change ``@TeleOp``to``@Autonomous``\ ,
+      4. At about Line 63, you can change ``@TeleOp`` to ``@Autonomous``\ ,
          since this Sample OpMode does not use gamepads.
 
       5. If using the built-in camera of an RC phone, follow the OpMode
@@ -181,7 +181,7 @@ This is full video, and is shown automatically on the screen of an RC phone.
 The above preview is from a REV Control Hub.
 
 It has no physical screen, so you must plug in an HDMI monitor **or** use
-open-source `scrcpy <https://github.com/Genymobile/scrcpy>`__ (called
+open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called
 "screen copy") to see the preview on a laptop or computer that's connected via
 Wi-Fi to the Control Hub.
 
@@ -201,16 +201,16 @@ In this example, the Region of Interest (ROI) contains only one Blob of the
 default target color BLUE.  You could probably move your camera to achieve the
 same result - with the help of previews.
 
-The **first column**shows the (X, Y) position of the**Center** of the boxFit
+The **first column** shows the (X, Y) position of the **Center** of the boxFit
 rectangle.  With the origin at the full image's top left corner, X increases to
 the right and Y increases downward.
 
-The **second column**shows the**Area**, in pixels, of the Blob (contour, not
+The **second column** shows the **Area**, in pixels, of the Blob (contour, not
 boxFit).  By default, the Sample OpMode uses a **filter** to show Blobs between
 50 and 20,000 pixels.  Also by default, the Sample uses a **sort** tool to
 display multiple Blobs in descending order of Area (largest is first).
 
-The **third column**shows the**Density** of the Blob contour.  From the
+The **third column** shows the **Density** of the Blob contour.  From the
 Sample comments:
 
 ..
@@ -220,7 +220,7 @@ Sample comments:
     contour.  The density is the ratio of Contour-area to Convex Hull-area.*
 
 
-The **fourth column**shows the**Aspect Ratio of the boxFit**, the best-fit
+The **fourth column** shows the **Aspect Ratio of the boxFit**, the best-fit
 rectangle around the contour:
 
 ..
@@ -279,7 +279,7 @@ some angle:
    Tilted Boxfit
 
 This tutorial's **next two pages** show how to manage these scenarios by
-**editing the OpMode's default settings**, and**accessing more OpenCV
+**editing the OpMode's default settings**, and **accessing more OpenCV
 features** not covered in the Sample OpMode.
 
 Using boxFit Data for Position
@@ -289,7 +289,7 @@ A team's Autonomous code can evaluate boxFit data to navigate or guide the
 robot on the field.
 
 Imagine your camera is on the robot, looking forward.  **Underneath the
-camera**is your**intake mechanism**, perhaps a top grabber, sideways claw
+camera** is your **intake mechanism**, perhaps a top grabber, sideways claw
 or spinner.
 
 .. figure:: images/80-targeting.png
