@@ -26,8 +26,8 @@ SOURCE_DIR = "docs/source"
 # Output file (in repository root)
 OUTPUT_FILE = "TRANSLATION_PROGRESS.md"
 
-# Glossary file (in repository root)
-GLOSSARY_FILE = "GLOSSARY.md"
+# Glossary file (in docs-ja/reference/)
+GLOSSARY_FILE = "docs-ja/reference/GLOSSARY.md"
 
 # File labels configuration (in repository root)
 FILE_LABELS_CONFIG = "TRANSLATION_FILE_LABELS.yaml"

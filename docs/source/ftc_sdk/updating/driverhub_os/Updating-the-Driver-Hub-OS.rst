@@ -3,15 +3,15 @@ Driver Hub OSの更新
 
 オペレーティングシステム（OS）は、タスクのスケジューリング、アプリケーションの実行、周辺機器の制御など、コンピューターの基本機能をサポートするソフトウェアです。**REV Driver Hub** では、これを更新する必要がある場合があります。このOS更新は厳密には :doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` の一部ではありませんが、SDKが正しく動作するためには、Driver HubでこれらのOS更新が必要です。
 
-Driver Hub OSを更新する方法は2つあります：
+**Driver Hub** OS を更新する方法は2つあります：
 
-1. REV Hardware Client（RHC）
-2. Driver Hub上のソフトウェアマネージャー
+1. **REV Hardware Client** （RHC）
+2. **Driver Hub** 上のソフトウェアマネージャー
 
-Driver Hub OSの更新に関する詳細情報は、
-`REV Roboticsの優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-the-driver-hub>`__ にあります。
+**Driver Hub** OS の更新に関する詳細情報は、
+`REV Robotics の優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-the-driver-hub>`__ にあります。
 
-.. dropdown:: 方法1 - REV Hardware Client（RHC） - Windowsコンピューターのみ
+.. dropdown:: 方法1 - **REV Hardware Client** （RHC） - Windows コンピューターのみ
 
    1. Driver Hubの電源を入れます。USB-Cデータケーブルを使用して、REV Hardware Clientを実行しているコンピューターに直接接続します。
 

@@ -30,10 +30,10 @@
 .. comment
    Build the Start a Team link so we can italicize FIRST.
 
-Continue on to learn about the |text2|_
+**FIRST** Tech Challenge チームを始めるための |text2|_ について学びましょう。
 
 .. _text2: https://www.firstinspires.org/programs/ftc/get-started
-.. |text2| replace:: essential steps to starting a *FIRST* Tech Challenge Team!
+.. |text2| replace:: 重要なステップ
 
 About *FIRST* Tech Challenge Kahoot
 *FIRST* Tech Challenge Kahoot について

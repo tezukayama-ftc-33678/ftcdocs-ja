@@ -128,15 +128,15 @@
 
 ##### 実績工数: 約2時間
 
-#### Sub-Phase 4.2b: Blocks プログラミング - 構成とリファレンス
+#### Sub-Phase 4.2b: Blocks プログラミング - 構成とリファレンス ✅ **完了**
 ##### Blocksメインディレクトリファイル（5ファイル、41行）
-- [ ] `docs/source/programming_resources/blocks/config/config.rst` - **8行** 構成
-- [ ] `docs/source/programming_resources/blocks/connecting/connecting.rst` - **8行** 接続
-- [ ] `docs/source/programming_resources/blocks/intro/intro.rst` - **9行** イントロ
-- [ ] `docs/source/programming_resources/blocks/opmode/opmode.rst` - **10行** Op Mode
-- [ ] `docs/source/programming_resources/blocks/reference/reference.rst` - **6行** リファレンス
+- [x] `docs/source/programming_resources/blocks/config/config.rst` - **8行** 構成
+- [x] `docs/source/programming_resources/blocks/connecting/connecting.rst` - **8行** 接続
+- [x] `docs/source/programming_resources/blocks/intro/intro.rst` - **9行** イントロ
+- [x] `docs/source/programming_resources/blocks/opmode/opmode.rst` - **10行** Op Mode
+- [x] `docs/source/programming_resources/blocks/reference/reference.rst` - **6行** リファレンス
 
-##### 予想工数: 0.5-1時間
+##### 実績工数: 完了済み（既存翻訳）
 
 #### Sub-Phase 4.3: OnBot Java - チュートリアル基礎 ✅ **完了**
 ##### チュートリアルメインファイル（2ファイル、499行）
@@ -153,15 +153,15 @@
 
 ##### 実績工数: 約1時間
 
-#### Sub-Phase 4.4b: OnBot Java - 構成とリファレンス
+#### Sub-Phase 4.4b: OnBot Java - 構成とリファレンス ✅ **完了**
 ##### OnBot Javaメインディレクトリファイル（5ファイル、38行）
-- [ ] `docs/source/programming_resources/onbot_java/config/config.rst` - **8行** 構成
-- [ ] `docs/source/programming_resources/onbot_java/connecting/connecting.rst` - **8行** 接続
-- [ ] `docs/source/programming_resources/onbot_java/intro/intro.rst` - **8行** イントロ
-- [ ] `docs/source/programming_resources/onbot_java/opmode/opmode.rst` - **8行** Op Mode
-- [ ] `docs/source/programming_resources/onbot_java/reference/reference.rst` - **6行** リファレンス
+- [x] `docs/source/programming_resources/onbot_java/config/config.rst` - **8行** 構成
+- [x] `docs/source/programming_resources/onbot_java/connecting/connecting.rst` - **8行** 接続
+- [x] `docs/source/programming_resources/onbot_java/intro/intro.rst` - **8行** イントロ
+- [x] `docs/source/programming_resources/onbot_java/opmode/opmode.rst` - **8行** Op Mode
+- [x] `docs/source/programming_resources/onbot_java/reference/reference.rst` - **6行** リファレンス
 
-##### 予想工数: 0.5-1時間
+##### 実績工数: 完了済み（既存翻訳）
 
 #### Sub-Phase 4.5: Android Studio - セットアップと基礎 ✅ **完了**
 ##### チュートリアルメインファイル（3ファイル、853行）
@@ -178,24 +178,24 @@
 
 ##### 実績工数: 約1時間
 
-#### Sub-Phase 4.6b: Android Studio - 追加チュートリアルとセットアップ
+#### Sub-Phase 4.6b: Android Studio - 追加チュートリアルとセットアップ ✅ **完了**
 ##### 追加のAndroid Studioチュートリアルファイル（4ファイル、307行）
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst` - **50行** Instant Run無効化
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst` - **144行** プロジェクトフォルダダウンロード
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst` - **41行** 開発者オプション有効化
-- [ ] `docs/source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst` - **72行** Android Studioインストール
+- [x] `docs/source/programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst` - **50行** Instant Run無効化
+- [x] `docs/source/programming_resources/tutorial_specific/android_studio/downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder.rst` - **144行** プロジェクトフォルダダウンロード
+- [x] `docs/source/programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options.rst` - **41行** 開発者オプション有効化
+- [x] `docs/source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst` - **72行** Android Studioインストール
 
-##### 予想工数: 3-4時間
+##### 実績工数: 完了済み（既存翻訳）
 
-#### Sub-Phase 4.6c: Android Studio - 構成とリファレンス
+#### Sub-Phase 4.6c: Android Studio - 構成とリファレンス ✅ **完了**
 ##### Android Studioメインディレクトリファイル（5ファイル、38行）
-- [ ] `docs/source/programming_resources/android_studio_java/config/config.rst` - **9行** 構成
-- [ ] `docs/source/programming_resources/android_studio_java/install/install.rst` - **7行** インストール
-- [ ] `docs/source/programming_resources/android_studio_java/intro/intro.rst` - **9行** イントロ
-- [ ] `docs/source/programming_resources/android_studio_java/manage/manage.rst` - **5行** 管理
-- [ ] `docs/source/programming_resources/android_studio_java/opmode/opmode.rst` - **8行** Op Mode
+- [x] `docs/source/programming_resources/android_studio_java/config/config.rst` - **9行** 構成
+- [x] `docs/source/programming_resources/android_studio_java/install/install.rst` - **7行** インストール
+- [x] `docs/source/programming_resources/android_studio_java/intro/intro.rst` - **9行** イントロ
+- [x] `docs/source/programming_resources/android_studio_java/manage/manage.rst` - **5行** 管理
+- [x] `docs/source/programming_resources/android_studio_java/opmode/opmode.rst` - **8行** Op Mode
 
-##### 予想工数: 0.5-1時間
+##### 実績工数: 完了済み（既存翻訳）
 
 #### Sub-Phase 4.7: 共通リソース - デバイス管理 ✅ **完了**
 ##### デバイス管理ファイル（3ファイル、1046行）
@@ -205,112 +205,112 @@
 
 ##### 実績工数: 約2時間
 
-#### Sub-Phase 4.7b: 共通リソース - 追加デバイス管理
+#### Sub-Phase 4.7b: 共通リソース - 追加デバイス管理 ✅ **完了**
 ##### 追加のデバイス管理ファイル（4ファイル、445行）
-- [ ] `docs/source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst` - **134行** スマートフォンDS管理
-- [ ] `docs/source/programming_resources/shared/phone_pairing/phone-pairing.rst` - **102行** 電話ペアリング
-- [ ] `docs/source/programming_resources/shared/required_materials/Required-Materials.rst` - **106行** 必要な材料
-- [ ] `docs/source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst` - **103行** Androidデバイス使用
+- [x] `docs/source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst` - **134行** スマートフォンDS管理
+- [x] `docs/source/programming_resources/shared/phone_pairing/phone-pairing.rst` - **102行** 電話ペアリング
+- [x] `docs/source/programming_resources/shared/required_materials/Required-Materials.rst` - **106行** 必要な材料
+- [x] `docs/source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst` - **103行** Androidデバイス使用
 
-##### 予想工数: 4-5時間
+##### 実績工数: 完了済み（既存翻訳）
 
-#### Sub-Phase 4.8: SDK・ライブラリ・ラップトップ要件 **進行中**
+#### Sub-Phase 4.8: SDK・ライブラリ・ラップトップ要件 **進行中（9/10完了）**
 ##### SDK概要（1ファイル、104行）
 - [x] `docs/source/ftc_sdk/overview/index.rst` - **104行** SDK概要
 
-##### SDK更新（7ファイル、961行）
+##### SDK更新（8ファイル、1313行）
 - [x] `docs/source/ftc_sdk/updating/index.rst` - **20行** 更新概要
 - [x] `docs/source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst` - **61行** Control Hub OS更新
 - [x] `docs/source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst` - **66行** Driver Hub OS更新
 - [x] `docs/source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst` - **78行** REV Hardware Client更新
 - [x] `docs/source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst` - **180行** Hubファームウェア更新
 - [x] `docs/source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst` - **204行** Driver Stationアプリ更新
-- [ ] `docs/source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst` - **352行** Robot Controllerアプリ更新
+- [x] `docs/source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst` - **352行** Robot Controllerアプリ更新
+- [x] `docs/source/programming_resources/laptops/laptops.rst` - **377行** ラップトップ要件 ✓ 2025-12-14完了
 
-##### プログラミングリソース（2ファイル、850行）
-- [ ] `docs/source/programming_resources/laptops/laptops.rst` - **377行** ラップトップ要件
+##### プログラミングリソース（1ファイル残り、473行）
 - [ ] `docs/source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst` - **473行** 外部ライブラリ（Blocks）
 
-##### 実績工数: 約4時間（予想: 8-10時間）
-##### 進捗: 7ファイル完了（613行、35%）、残り3ファイル（1202行、65%）
+##### 実績工数: 約6時間（予想: 8-10時間）
+##### 進捗: 9ファイル完了（1663行、90%）、残り1ファイル（473行、10%）
 
-#### Sub-Phase 4.9: 共通リソース - PID制御とその他
+#### Sub-Phase 4.9: 共通リソース - PID制御とその他 ✅ **完了**
 ##### PID/PIDF制御（2ファイル、301行）
-- [ ] `docs/source/programming_resources/shared/pid_coefficients/pid-coefficients.rst` - **146行** PID係数
-- [ ] `docs/source/programming_resources/shared/pidf_coefficients/pidf-coefficients.rst` - **155行** PIDF係数
+- [x] `docs/source/programming_resources/shared/pid_coefficients/pid-coefficients.rst` - **146行** PID係数
+- [x] `docs/source/programming_resources/shared/pidf_coefficients/pidf-coefficients.rst` - **155行** PIDF係数
 
 ##### その他の共通リソース（6ファイル、553行）
-- [ ] `docs/source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst` - **117行** Op Mode自動ロード
-- [ ] `docs/source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst` - **75行** プログラミング言語選択
+- [x] `docs/source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst` - **117行** Op Mode自動ロード
+- [x] `docs/source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst` - **75行** プログラミング言語選択
 - [x] `docs/source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst` - **71行** FTC制御システム（Phase 3で完了）
-- [ ] `docs/source/programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst` - **41行** JavaScriptブラウザインストール
-- [ ] `docs/source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst` - **111行** Kotlinインストール
-- [ ] `docs/source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst` - **138行** ラップトップ接続
+- [x] `docs/source/programming_resources/shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser.rst` - **41行** JavaScriptブラウザインストール
+- [x] `docs/source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst` - **111行** Kotlinインストール
+- [x] `docs/source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst` - **138行** ラップトップ接続
 
-##### 予想工数: 7-9時間
+##### 実績工数: 完了済み（既存翻訳）
 
-#### Sub-Phase 4.10: MyBlocks（カスタムブロック）
+#### Sub-Phase 4.10: MyBlocks（カスタムブロック） ✅ **完了**
 ##### MyBlocksチュートリアルとリファレンス（13ファイル、890行）
-- [ ] `docs/source/programming_resources/shared/myblocks/annotation/annotation.rst` - **72行** アノテーション
-- [ ] `docs/source/programming_resources/shared/myblocks/driving_example/driving-example.rst` - **36行** ドライブ例
-- [ ] `docs/source/programming_resources/shared/myblocks/editing/editing.rst` - **51行** 編集
-- [ ] `docs/source/programming_resources/shared/myblocks/hardware_example/hardware-example.rst` - **89行** ハードウェア例
-- [ ] `docs/source/programming_resources/shared/myblocks/ideas/ideas.rst` - **52行** アイデア
-- [ ] `docs/source/programming_resources/shared/myblocks/intro/intro.rst` - **50行** イントロ
-- [ ] `docs/source/programming_resources/shared/myblocks/method_example/method-example.rst` - **59行** メソッド例
-- [ ] `docs/source/programming_resources/shared/myblocks/parameter/parameter.rst` - **59行** パラメータ
-- [ ] `docs/source/programming_resources/shared/myblocks/rw_example/rw-example.rst` - **74行** 読み書き例
-- [ ] `docs/source/programming_resources/shared/myblocks/simple_example/simple-example.rst` - **175行** シンプル例
-- [ ] `docs/source/programming_resources/shared/myblocks/summary/summary.rst` - **28行** サマリー
-- [ ] `docs/source/programming_resources/shared/myblocks/telem_example/telem-example.rst` - **48行** テレメトリ例
-- [ ] `docs/source/programming_resources/shared/myblocks/timer_example/timer-example.rst` - **97行** タイマー例
+- [x] `docs/source/programming_resources/shared/myblocks/annotation/annotation.rst` - **72行** アノテーション
+- [x] `docs/source/programming_resources/shared/myblocks/driving_example/driving-example.rst` - **36行** ドライブ例
+- [x] `docs/source/programming_resources/shared/myblocks/editing/editing.rst` - **51行** 編集
+- [x] `docs/source/programming_resources/shared/myblocks/hardware_example/hardware-example.rst` - **89行** ハードウェア例
+- [x] `docs/source/programming_resources/shared/myblocks/ideas/ideas.rst` - **52行** アイデア
+- [x] `docs/source/programming_resources/shared/myblocks/intro/intro.rst` - **50行** イントロ
+- [x] `docs/source/programming_resources/shared/myblocks/method_example/method-example.rst` - **59行** メソッド例
+- [x] `docs/source/programming_resources/shared/myblocks/parameter/parameter.rst` - **59行** パラメータ
+- [x] `docs/source/programming_resources/shared/myblocks/rw_example/rw-example.rst` - **74行** 読み書き例
+- [x] `docs/source/programming_resources/shared/myblocks/simple_example/simple-example.rst` - **175行** シンプル例
+- [x] `docs/source/programming_resources/shared/myblocks/summary/summary.rst` - **28行** サマリー
+- [x] `docs/source/programming_resources/shared/myblocks/telem_example/telem-example.rst` - **48行** テレメトリ例
+- [x] `docs/source/programming_resources/shared/myblocks/timer_example/timer-example.rst` - **97行** タイマー例
 
 ##### MyBlocksインデックス（1ファイル、26行）
-- [ ] `docs/source/programming_resources/shared/myblocks/index.rst` - **26行** MyBlocksインデックス
+- [x] `docs/source/programming_resources/shared/myblocks/index.rst` - **26行** MyBlocksインデックス
 
-##### 予想工数: 8-10時間
+##### 実績工数: 完了済み（既存翻訳）
 
-#### Sub-Phase 4.11: ビジョン処理 - カメラ制御
+#### Sub-Phase 4.11: ビジョン処理 - カメラ制御 ✅ **完了**
 ##### ビジョン概要とカメラ較正（2ファイル、181行）
-- [ ] `docs/source/programming_resources/vision/camera_calibration/camera-calibration.rst` - **62行** カメラ較正
-- [ ] `docs/source/programming_resources/vision/vision_overview/vision-overview.rst` - **119行** ビジョン概要
+- [x] `docs/source/programming_resources/vision/camera_calibration/camera-calibration.rst` - **62行** カメラ較正
+- [x] `docs/source/programming_resources/vision/vision_overview/vision-overview.rst` - **119行** ビジョン概要
 
 ##### Webcam制御 - 概要とサンプル（4ファイル、263行）
-- [ ] `docs/source/programming_resources/vision/webcam_controls/eval/eval.rst` - **131行** 評価
-- [ ] `docs/source/programming_resources/vision/webcam_controls/index.rst` - **39行** インデックス
-- [ ] `docs/source/programming_resources/vision/webcam_controls/overview/overview.rst` - **44行** 概要
-- [ ] `docs/source/programming_resources/vision/webcam_controls/samples/samples.rst` - **49行** サンプル
+- [x] `docs/source/programming_resources/vision/webcam_controls/eval/eval.rst` - **131行** 評価
+- [x] `docs/source/programming_resources/vision/webcam_controls/index.rst` - **39行** インデックス
+- [x] `docs/source/programming_resources/vision/webcam_controls/overview/overview.rst` - **44行** 概要
+- [x] `docs/source/programming_resources/vision/webcam_controls/samples/samples.rst` - **49行** サンプル
 
 ##### Webcam制御 - 露出（5ファイル、137行）
-- [ ] `docs/source/programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst` - **41行** 自動露出
-- [ ] `docs/source/programming_resources/vision/webcam_controls/exposure/control/control.rst` - **32行** 露出制御
-- [ ] `docs/source/programming_resources/vision/webcam_controls/exposure/index.rst` - **10行** インデックス
-- [ ] `docs/source/programming_resources/vision/webcam_controls/exposure/mode/mode.rst` - **27行** モード
-- [ ] `docs/source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst` - **27行** サンプル
+- [x] `docs/source/programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst` - **41行** 自動露出
+- [x] `docs/source/programming_resources/vision/webcam_controls/exposure/control/control.rst` - **32行** 露出制御
+- [x] `docs/source/programming_resources/vision/webcam_controls/exposure/index.rst` - **10行** インデックス
+- [x] `docs/source/programming_resources/vision/webcam_controls/exposure/mode/mode.rst` - **27行** モード
+- [x] `docs/source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst` - **27行** サンプル
 
 ##### Webcam制御 - フォーカス（3ファイル、66行）
-- [ ] `docs/source/programming_resources/vision/webcam_controls/focus/control/control.rst` - **30行** フォーカス制御
-- [ ] `docs/source/programming_resources/vision/webcam_controls/focus/index.rst` - **8行** インデックス
-- [ ] `docs/source/programming_resources/vision/webcam_controls/focus/mode/mode.rst` - **28行** モード
+- [x] `docs/source/programming_resources/vision/webcam_controls/focus/control/control.rst` - **30行** フォーカス制御
+- [x] `docs/source/programming_resources/vision/webcam_controls/focus/index.rst` - **8行** インデックス
+- [x] `docs/source/programming_resources/vision/webcam_controls/focus/mode/mode.rst` - **28行** モード
 
 ##### Webcam制御 - ゲイン（5ファイル、163行）
-- [ ] `docs/source/programming_resources/vision/webcam_controls/gain/control/control.rst` - **34行** ゲイン制御
-- [ ] `docs/source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst` - **65行** 例1
-- [ ] `docs/source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst` - **38行** 例2
-- [ ] `docs/source/programming_resources/vision/webcam_controls/gain/ex3/ex3.rst` - **16行** 例3
-- [ ] `docs/source/programming_resources/vision/webcam_controls/gain/index.rst` - **10行** インデックス
+- [x] `docs/source/programming_resources/vision/webcam_controls/gain/control/control.rst` - **34行** ゲイン制御
+- [x] `docs/source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst` - **65行** 例1
+- [x] `docs/source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst` - **38行** 例2
+- [x] `docs/source/programming_resources/vision/webcam_controls/gain/ex3/ex3.rst` - **16行** 例3
+- [x] `docs/source/programming_resources/vision/webcam_controls/gain/index.rst` - **10行** インデックス
 
 ##### Webcam制御 - PTZ（パン・チルト・ズーム）（3ファイル、86行）
-- [ ] `docs/source/programming_resources/vision/webcam_controls/ptz/index.rst` - **18行** インデックス
-- [ ] `docs/source/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst` - **50行** パン・チルト
-- [ ] `docs/source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst` - **18行** ズーム
+- [x] `docs/source/programming_resources/vision/webcam_controls/ptz/index.rst` - **18行** インデックス
+- [x] `docs/source/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst` - **50行** パン・チルト
+- [x] `docs/source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst` - **18行** ズーム
 
 ##### Webcam制御 - ホワイトバランス（3ファイル、69行）
-- [ ] `docs/source/programming_resources/vision/webcam_controls/white_balance/control/control.rst` - **40行** ホワイトバランス制御
-- [ ] `docs/source/programming_resources/vision/webcam_controls/white_balance/index.rst` - **8行** インデックス
-- [ ] `docs/source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst` - **21行** モード
+- [x] `docs/source/programming_resources/vision/webcam_controls/white_balance/control/control.rst` - **40行** ホワイトバランス制御
+- [x] `docs/source/programming_resources/vision/webcam_controls/white_balance/index.rst` - **8行** インデックス
+- [x] `docs/source/programming_resources/vision/webcam_controls/white_balance/mode/mode.rst` - **21行** モード
 
-##### 予想工数: 8-10時間
+##### 実績工数: 完了済み（既存翻訳）
 
 #### Sub-Phase 4.12: IMU（慣性計測ユニット）
 ##### IMU詳細ドキュメント（1ファイル、1194行）
@@ -319,19 +319,23 @@
 
 ##### 予想工数: 10-15時間
 
-#### Sub-Phase 4.13: プログラミングリソース - インデックス
+#### Sub-Phase 4.13: プログラミングリソース - インデックス ✅ **完了**
 ##### メインインデックスファイル（1ファイル、139行）
-- [ ] `docs/source/programming_resources/index.rst` - **139行** プログラミングリソースのメインインデックス
+- [x] `docs/source/programming_resources/index.rst` - **139行** プログラミングリソースのメインインデックス
 
-##### 予想工数: 1-2時間
+##### 実績工数: 完了済み（既存翻訳）
 
 #### Phase 4 合計
 - **総ファイル数:** 102ファイル
-- **完了:** 31ファイル（30.4%）
-- **残り:** 71ファイル（69.6%）
-- **実績工数:** 約16時間
-- **残り予想工数:** 50-67時間
-- **Phase 4 合計予想工数:** 66-83時間
+- **完了:** 100ファイル（98.0%）✅
+- **残り:** 2ファイル（2.0%）
+- **実績工数:** 約18時間
+- **残り予想工数:** 12-17時間
+  - external-libraries-blocks.rst: 3-4時間
+  - imu.rst: 9-13時間（超大規模ファイル、複数セッション必要）
+- **Phase 4 合計予想工数:** 30-35時間
+
+**📝 重要な発見:** 初期ロードマップ作成時には71ファイルが未完了と記載されていましたが、実際には大部分が既に翻訳済みでした。これは翻訳状況の最新チェックが行われていなかったためです。
 
 ---
 
