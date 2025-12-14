@@ -9,7 +9,7 @@
 
 Self Inspect 画面は、FTCの制御システムに関するルールに基づき、デバイスの状態をスナップショットとして表示します。
 これらのルールは、競技マニュアル（Competition Manual）に記載されており、
-`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`__（**FIRST** 公式サイト）で確認できます。
+`Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`__ （**FIRST** 公式サイト）で確認できます。
 
 .. tip::
    `Inspection Checklist (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`__ を使うことで、イベント前にロボットのセルフ検査が可能です。イベント前のセルフ検査を強く推奨します。
@@ -101,7 +101,7 @@ Driver Station Self Inspect レポート
 問題は赤丸の感嘆符アイコン、またはオレンジ三角の感嘆符アイコンで示されます。
 
 このDriver Hubはファームウェアリセットされ、DSバージョンが7に戻り、すべてのシステム・DSアプリ設定が初期化されました。
-その後、`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`__でDSバージョン10.3にアップデートし、FTCRobotControllerアプリもAndroid StudioからDSデバイスにインストールしました。
+その後、`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`__ でDSバージョン10.3にアップデートし、FTCRobotControllerアプリもAndroid StudioからDSデバイスにインストールしました。
 
 .. figure:: images/newDSerrors.png   
    :align: center

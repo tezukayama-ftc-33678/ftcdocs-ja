@@ -9,12 +9,12 @@ GitHub からフォークとクローンを行う :bdg-success:`AS`
 フォーク vs. クローン 
 ----------------------
 
-GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`__とは、GitHub 上のある`リポジトリ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`__を、あるアカウントから別のアカウントにコピーすることです。新しくフォークされたリポジトリは、`origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`__ リポジトリとの親子関係を保持します。フォークは通常、ソフトウェアが独立した開発ラインを持つ場合に使用されます。例えば、FTC チームが `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリをベースに独自のチームコードを開発する場合などです。FTC チームは、ソフトウェア開発プロセスを管理する便利な方法として、`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリのフォークを作成する必要があります。親子関係のおかげで、親リポジトリに変更が加えられた場合、それらの変更を簡単に追跡し、フォークされたリポジトリに`フェッチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`__/`マージ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`__することができ、フォークされたリポジトリを最新の状態に保つことができます。
+GitHub 上の `フォーク <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`__ とは、GitHub 上のある `リポジトリ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`__ を、あるアカウントから別のアカウントにコピーすることです。新しくフォークされたリポジトリは、`origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`__ リポジトリとの親子関係を保持します。フォークは通常、ソフトウェアが独立した開発ラインを持つ場合に使用されます。例えば、FTC チームが `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリをベースに独自のチームコードを開発する場合などです。FTC チームは、ソフトウェア開発プロセスを管理する便利な方法として、`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリのフォークを作成する必要があります。親子関係のおかげで、親リポジトリに変更が加えられた場合、それらの変更を簡単に追跡し、フォークされたリポジトリに `フェッチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`__ / `マージ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`__ することができ、フォークされたリポジトリを最新の状態に保つことができます。
 
 .. warning:: 
    チームは、`upstream <https://docs.github.com/en/get-started/learning-about-github/github-glossary#upstream>`__ の親である FIRST-Tech-Challenge/FtcRobotContoller リポジトリに対してプルリクエストを発行しないでください。FIRST-Tech-Challenge/FtcRobotContoller リポジトリのフォークは、常に変更をフェッチすることはできますが、リポジトリに変更をプッシュすることは決して試みないでください。
 
-`クローン <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`__は、通常はローカルコンピューター上のリポジトリのコピーです。チームメンバーは、機能開発のためにチームのリポジトリの`機能ブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`__を作成し、そのブランチをローカルコンピューターにクローンします。ソフトウェアの開発とテストは、ローカルクローン内で完全に行われます。作業が完了するか、チェックポイントに到達したら、ローカルクローン内の変更をローカルクローンからチームのフォークにプッシュバックすることができます。その機能ブランチは、チームによって承認されると、チームのメインリポジトリブランチにマージすることができます。このプロセスを使用することで、複数の異なる開発者がシームレスに作業できます。
+`クローン <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`__ は、通常はローカルコンピューター上のリポジトリのコピーです。チームメンバーは、機能開発のためにチームのリポジトリの `機能ブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`__ を作成し、そのブランチをローカルコンピューターにクローンします。ソフトウェアの開発とテストは、ローカルクローン内で完全に行われます。作業が完了するか、チェックポイントに到達したら、ローカルクローン内の変更をローカルクローンからチームのフォークにプッシュバックすることができます。その機能ブランチは、チームによって承認されると、チームのメインリポジトリブランチにマージすることができます。このプロセスを使用することで、複数の異なる開発者がシームレスに作業できます。
 
 
 .. figure:: images/fork-clone-diagram.png 
@@ -35,9 +35,9 @@ GitHub 上の`フォーク <https://docs.github.com/en/get-started/learning-abou
 
    master というデフォルト名を持つ単一のブランチ
 
-各円は、ブランチへのコミットを表します。ブランチの名前は常に最新のコミットを指しており、これは `HEAD <https://docs.github.com/en/get-started/learning-about-github/github-glossary#head>`__ としても知られています。多くのブランチが存在する場合でも、HEAD は1つしかなく、`デタッチド状態 <https://git-scm.com/docs/git-checkout#_detached_head>`__でない限り、常に現在チェックアウトされているブランチの最新のコミットを指します。他のすべてのコミットは、その直接の親を指します。
+各円は、ブランチへのコミットを表します。ブランチの名前は常に最新のコミットを指しており、これは `HEAD <https://docs.github.com/en/get-started/learning-about-github/github-glossary#head>`__ としても知られています。多くのブランチが存在する場合でも、HEAD は1つしかなく、`デタッチド状態 <https://git-scm.com/docs/git-checkout#_detached_head>`__ でない限り、常に現在チェックアウトされているブランチの最新のコミットを指します。他のすべてのコミットは、その直接の親を指します。
 
-コミットは、ある時点でのワークスペース全体の`スナップショット <https://docs.github.com/en/get-started/learning-about-github/github-glossary#snapshot>`__です。Git は `差分 <https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff>`__を保存しません。ファイルに変更を加え、変更されたファイルで新しいコミットを作成すると、変更されたファイル全体がコミットに保存されます。ファイルの不必要な重複を避けるために、リポジトリが3つのファイルで構成されており、1つが変更され、他の2つが変更されていない場合、スナップショットは変更されていないデータを含むのではなく、変更されていないファイルを指すだけです。
+コミットは、ある時点でのワークスペース全体の `スナップショット <https://docs.github.com/en/get-started/learning-about-github/github-glossary#snapshot>`__ です。Git は `差分 <https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff>`__ を保存しません。ファイルに変更を加え、変更されたファイルで新しいコミットを作成すると、変更されたファイル全体がコミットに保存されます。ファイルの不必要な重複を避けるために、リポジトリが3つのファイルで構成されており、1つが変更され、他の2つが変更されていない場合、スナップショットは変更されていないデータを含むのではなく、変更されていないファイルを指すだけです。
 
 各コミットには親があり、これにより git は異なるブランチからのコミットの到達可能性を判断できます。また、2つのブランチの共通祖先コミットを判断することもでき、これはブランチをマージする際に重要です。詳細については後述します。
 
@@ -177,7 +177,7 @@ SDK の更新には、ローカルクローンとフォークの両方に新し�
 最新のソフトウェアの取得
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-リポジトリを更新する方法を説明する際、多くの基本的なチュートリアルでは ``git pull`` コマンドを使用します。``git pull`` コマンドは実際には、ユーザーの背後で *fetch* と *merge* を実行しています。これで問題ない場合もありますが、*フェッチ*と*マージ*の概念を独立した操作として理解することは有用です。問題が発生した場合、基礎となるメカニズムをよく理解していれば、その後の問題を修正できる可能性がはるかに高くなります。
+リポジトリを更新する方法を説明する際、多くの基本的なチュートリアルでは ``git pull`` コマンドを使用します。``git pull`` コマンドは実際には、ユーザーの背後で *fetch* と *merge* を実行しています。これで問題ない場合もありますが、 *フェッチ* と *マージ* の概念を独立した操作として理解することは有用です。問題が発生した場合、基礎となるメカニズムをよく理解していれば、その後の問題を修正できる可能性がはるかに高くなります。
 
 リモート 
 """""""""
