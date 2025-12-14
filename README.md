@@ -29,91 +29,165 @@ https://ftc-docs.firstinspires.org
 
 ---
 
-## 📚 翻訳ドキュメント
+## 📚 翻訳システム
 
-### ⚠️ 重要なお知らせ: 新しい翻訳システムへの移行
+このプロジェクトは **標準的な .po ベースの翻訳システム** を使用しています。
 
-このプロジェクトは、より効率的で標準的な **.po ベースの翻訳システム** への移行を進めています。
+---
 
-### 🆕 新しい翻訳システム (.po ベース)
+## 🚀 翻訳を始める
 
-**[WHY_PO_TRANSLATION.md](WHY_PO_TRANSLATION.md)** - なぜ移行するのか？
-- 現在の問題点と .po ベースの利点
-- 具体的な改善例
-- 移行の決断材料
+### 📖 新規翻訳者向け（推奨）
 
-**[MIGRATION_NEXT_STEPS.md](MIGRATION_NEXT_STEPS.md)** - 移行の手順
-- 段階的な移行方法
-- 3つのオプション（完全移行、段階的移行、テスト移行）
-- 次に何をすべきか
+翻訳作業のすべてのドキュメントは **[po-translation/](po-translation/)** ディレクトリに整理されています。
 
-**[PO_TRANSLATION_WORKFLOW.md](PO_TRANSLATION_WORKFLOW.md)** - 新しいワークフロー
-- 日常的な翻訳作業の流れ
-- Make コマンドの使い方
-- 翻訳ツールの活用
+**🎯 最初に読むべきドキュメント:**
 
-**[MIGRATION_TO_PO_GUIDE.md](MIGRATION_TO_PO_GUIDE.md)** - 技術的詳細
-- .po システムの仕組み
-- セットアップ手順
-- トラブルシューティング
+1. **[po-translation/README.md](po-translation/README.md)** - .po翻訳システムの概要
+2. **[po-translation/guides/QUICK_START.md](po-translation/guides/QUICK_START.md)** - 15分で始める
+3. **[po-translation/guides/AI_TRANSLATION_GUIDE.md](po-translation/guides/AI_TRANSLATION_GUIDE.md)** - AI翻訳の活用
 
-### 📊 移行状況
+### ⚡ クイックスタート
 
-- ✅ 翻訳システムのセットアップ完了
-- ✅ 既存翻訳のスキャン完了（161ファイル、3258ブロック）
-- ✅ 翻訳マッピングの抽出完了 ([TRANSLATION_MAPPING.md](TRANSLATION_MAPPING.md))
-- ⏳ 英語版RSTの復元と .pot 生成（次のステップ）
-- ⏳ .po ファイルへの翻訳移行（段階的に実施）
+```bash
+# 1. 依存関係をインストール
+cd docs
+pip install -r requirements.txt
 
-### 🔧 従来の翻訳システム (RST直接翻訳)
+# 2. 翻訳可能文字列を抽出
+make gettext
 
-翻訳作業に関するすべてのドキュメントは **[docs-ja/](docs-ja/)** フォルダに整理されています。
+# 3. 日本語.poファイルを生成/更新
+make ja-update
 
-**[docs-ja/guides/AI_TRANSLATION_GUIDE.md](docs-ja/guides/AI_TRANSLATION_GUIDE.md)** 【従来の方法】
-- AI翻訳ツール向けの統合ガイド
-- 翻訳ルール、RST構文、エラー対策をすべて網羅
-- **注意**: この方法は段階的に .po ベースに移行予定
+# 4. .poファイルを編集して翻訳
+vim locale/ja/LC_MESSAGES/index.po
 
-### 主要ドキュメント
+# 5. 日本語版をビルド
+make ja-build
 
-- **[docs-ja/README.md](docs-ja/README.md)** - 翻訳プロジェクトの概要とフォルダ構成
-- **[docs-ja/reference/GLOSSARY.md](docs-ja/reference/GLOSSARY.md)** - 用語統一リスト（92語）
+# 6. プレビュー
+python -m http.server 8000 --directory build/html/ja
+```
+
+詳細は [po-translation/guides/QUICK_START.md](po-translation/guides/QUICK_START.md) を参照。
+
+---
+
+## 📁 ディレクトリ構成
+
+```
+ftcdocs-ja/
+├── po-translation/              # .po翻訳システム（現行）
+│   ├── README.md               # システム概要
+│   ├── guides/                 # 翻訳ガイド
+│   │   ├── QUICK_START.md     # クイックスタート
+│   │   ├── AI_TRANSLATION_GUIDE.md  # AI翻訳ガイド
+│   │   └── WORKFLOW.md        # 日常的なワークフロー
+│   ├── scripts/                # 翻訳支援スクリプト
+│   │   ├── ai_translate_po.py # AI翻訳支援ツール
+│   │   └── check_po_quality.py # 品質チェックツール
+│   └── reference/              # リファレンス
+│       ├── GLOSSARY.md        # 用語集
+│       └── COMMANDS.md        # コマンドリファレンス
+│
+├── docs/                        # Sphinxドキュメント
+│   ├── source/                 # 英語RST（上流と同期）
+│   ├── locale/ja/LC_MESSAGES/  # 日本語.poファイル
+│   └── scripts/                # ビルド支援スクリプト
+│
+├── docs-ja/                     # 従来のドキュメント（参考用）
+├── legacy-rst-translation/      # 従来のRST翻訳（非推奨）
+└── README.md                    # このファイル
+```
+
+---
+
+## 🤖 AI翻訳支援
+
+このプロジェクトは、AI翻訳ツールとの統合を前提に設計されています。
+
+### 対応ツール
+
+- DeepL API
+- OpenAI API (ChatGPT/GPT-4)
+- Anthropic API (Claude)
+- ローカルLLM (Ollama等)
+
+### AI翻訳スクリプト
+
+```bash
+# 未翻訳エントリをAIで翻訳
+python po-translation/scripts/ai_translate_po.py \
+  docs/locale/ja/LC_MESSAGES/index.po \
+  --dry-run
+
+# 翻訳品質をチェック
+python po-translation/scripts/check_po_quality.py \
+  docs/locale/ja/LC_MESSAGES/
+```
+
+詳細は [po-translation/guides/AI_TRANSLATION_GUIDE.md](po-translation/guides/AI_TRANSLATION_GUIDE.md) を参照。
+
+---
+
+## 📖 主要ドキュメント
+
+### 翻訳ガイド
+
+- **[po-translation/guides/QUICK_START.md](po-translation/guides/QUICK_START.md)** - 15分で始める.po翻訳
+- **[po-translation/guides/AI_TRANSLATION_GUIDE.md](po-translation/guides/AI_TRANSLATION_GUIDE.md)** - AI翻訳の完全ガイド
+- **[po-translation/guides/WORKFLOW.md](po-translation/guides/WORKFLOW.md)** - 日常的な翻訳ワークフロー
+
+### リファレンス
+
+- **[po-translation/reference/GLOSSARY.md](po-translation/reference/GLOSSARY.md)** - 用語集（92語）
+- **[po-translation/reference/COMMANDS.md](po-translation/reference/COMMANDS.md)** - コマンドリファレンス
 - **[docs-ja/reference/RST_TROUBLESHOOTING_GUIDE.md](docs-ja/reference/RST_TROUBLESHOOTING_GUIDE.md)** - RSTエラー解決ガイド
-- **[docs-ja/reference/TRANSLATION_ROADMAP.md](docs-ja/reference/TRANSLATION_ROADMAP.md)** - 翻訳ロードマップ
-- **[docs-ja/reference/TRANSLATION_PROGRESS.md](docs-ja/reference/TRANSLATION_PROGRESS.md)** - 翻訳進捗状況
 
-### 翻訳支援スクリプト
+### 移行関連（参考）
 
-#### 翻訳進捗チェッカー
+- **[legacy-rst-translation/README.md](legacy-rst-translation/README.md)** - 従来システムについて
+- **[legacy-rst-translation/archive/](legacy-rst-translation/archive/)** - 移行ドキュメント
 
-全てのRSTファイルをスキャンし、翻訳の完了状況を確認します。
+---
 
-```bash
-# 進捗レポートを生成
-python docs/scripts/check_translation_progress.py
-
-# レポートを確認
-cat TRANSLATION_PROGRESS.md
-```
-
-**機能:**
-- 255個の全RSTファイルを自動スキャン
-- 英語が残っている箇所を検出（文中・文末の混在も検出）
-- 完了率と詳細な問題箇所を`TRANSLATION_PROGRESS.md`に出力
-
-#### ファイル検索ツール
-
-翻訳ステータスに基づいてファイルを検索します。
+## 📊 翻訳進捗
 
 ```bash
-# 翻訳完了ファイルの数を表示
-python docs/scripts/find_files_by_status.py --status completed --count
+# 翻訳統計を表示
+cd docs
+make ja-stats
 
-# 部分的に翻訳されたファイルを問題数とともに表示
-python docs/scripts/find_files_by_status.py --status partial --show-issues
-
-# 特定ディレクトリ内の未翻訳ファイルを表示
-python docs/scripts/find_files_by_status.py --status untranslated --directory programming_resources
+# 詳細な品質レポートを生成
+python ../po-translation/scripts/check_po_quality.py \
+  locale/ja/LC_MESSAGES/ \
+  --report quality_report.md
 ```
 
-詳細な使い方は [TRANSLATION_WORKFLOW_TOOLS.md](TRANSLATION_WORKFLOW_TOOLS.md) を参照してください。
+---
+
+## 🛠️ 翻訳支援ツール
+
+### .po翻訳用（推奨）
+
+```bash
+# AI翻訳支援
+python po-translation/scripts/ai_translate_po.py FILE.po
+
+# 品質チェック
+python po-translation/scripts/check_po_quality.py DIRECTORY/
+```
+
+### RST検証用（ビルドエラー解決に使用）
+
+```bash
+# RST構文検証
+python docs/scripts/validate_rst_syntax.py
+
+# インラインマークアップ自動修正
+python docs/scripts/fix_rst_inline_markup.py
+
+# ビルド警告解析
+python docs/scripts/check_build_warnings.py
+```
