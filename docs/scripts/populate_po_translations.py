@@ -12,6 +12,11 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 import polib
 
+# Configuration constants for line-based proximity matching
+PROXIMITY_THRESHOLD = 5  # Maximum line distance to consider for nearby matches
+PROXIMITY_SEARCH_MIN = 2  # Minimum offset for proximity search
+PROXIMITY_SEARCH_MAX = 6  # Maximum offset for proximity search
+
 
 def parse_translation_mapping(mapping_file: str) -> Dict[str, List[Tuple[int, str]]]:
     """
@@ -157,9 +162,9 @@ def populate_po_file(po_file_path: str, translations: Dict[str, List[Tuple[int, 
                                 entry.msgstr = file_translation_map[source_file][source_line - 1]
                             populated_entries += 1
                         else:
-                            # Try to find nearby translation (within ±5 lines)
+                            # Try to find nearby translation within configured proximity range
                             found = False
-                            for offset in range(2, 6):
+                            for offset in range(PROXIMITY_SEARCH_MIN, PROXIMITY_SEARCH_MAX):
                                 # Try below first
                                 if source_line - offset in file_translation_map[source_file]:
                                     if not dry_run:
