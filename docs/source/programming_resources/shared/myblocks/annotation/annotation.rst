@@ -1,72 +1,44 @@
-Annotation Details
-==================
+アノテーションの詳細
+====================
 
-The required **annotation** ``@ExportToBlocks`` has optional fields,
-which may be listed in any order. These fields allow a myBlock to have a
-custom **comment**, **tooltip**, and **parameter labels**.
+必須の**アノテーション**``@ExportToBlocks`` には、任意の順序でリストできるオプションのフィールドがあります。これらのフィールドにより、**myBlock** にカスタムの** コメント**、** ツールチップ**、および** パラメーターラベル** を設定できます。
 
 .. figure:: images/a0220-BlockWithBenefits.png
    :align: center
 
-Comment
-~~~~~~~
+コメント
+~~~~~~~~
 
--  The **comment** text appears in a balloon when the Blocks user clicks
-   the blue question-mark icon. Tell the user **how to use your
-   myBlock**.
--  Must be entered on a **single line**, with no ‘line breaks’. This
-   requirement can be met by **joining text strings**; an example is
-   :ref:`here <programming_resources/shared/myblocks/hardware_example/hardware-example:hardware example: control a servo>`.
--  The blue icon will appear only if a custom comment is specified. The
-   Blocks user can add and remove the blue icon, and can edit its text
-   in the (re-sizeable) balloon.
+-  **comment** テキストは、**Blocks** ユーザーが青い疑問符アイコンをクリックすると、バルーンに表示されます。ユーザーに**myBlock の使用方法** を伝えます。
+-  「改行」なしで**単一行** で入力する必要があります。この要件は、**テキスト文字列を結合する** ことで満たすことができます。例は :ref:`こちら <programming_resources/shared/myblocks/hardware_example/hardware-example:hardware example: control a servo>` にあります。
+-  青いアイコンは、カスタムコメントが指定されている場合にのみ表示されます。**Blocks** ユーザーは青いアイコンを追加および削除でき、（サイズ変更可能な）バルーン内のテキストを編集できます。
 
-Tooltip
-~~~~~~~
+ツールチップ
+~~~~~~~~~~~~
 
--  A **tooltip** appears with a **mouseover**: hovering the mouse cursor
-   over an image or icon. Every Block has a short tooltip to **indicate
-   its purpose**.
--  Must be entered on a **single line**, with no line breaks.
--  If a custom tooltip is not specified, the default tooltip will name
-   the method, its enclosing class, and return type.
--  Another tooltip, for the grey input socket (at right), is
-   auto-generated based on parameter type.
+-  **tooltip** は** マウスオーバー** で表示されます：マウスカーソルを画像またはアイコンの上に置くと表示されます。すべてのブロックには、** その目的を示す** 短いツールチップがあります。
+-  改行なしで**単一行** で入力する必要があります。
+-  カスタムツールチップが指定されていない場合、デフォルトのツールチップはメソッド、その囲んでいるクラス、および戻り値の型を示します。
+-  灰色の入力ソケット（右側）の別のツールチップは、パラメータータイプに基づいて自動生成されます。
 
-Parameter Labels
-~~~~~~~~~~~~~~~~
+パラメーターラベル
+~~~~~~~~~~~~~~~~~~
 
--  The **parameterLabels** text appears on the myBlock, each next to its
-   grey input **socket**.
--  Multiple labels are separated by a comma. Line breaks may be used
-   between labels.
--  For a single parameter, this also works:
-   ``parameterLabels = "sampleParameter"``.
+-  **parameterLabels** テキストは**myBlock** に表示され、それぞれが灰色の入力** ソケット** の隣に表示されます。
+-  複数のラベルはカンマで区切られます。ラベル間で改行を使用できます。
+-  単一のパラメーターの場合、これも機能します：``parameterLabels = "sampleParameter"`` 。
 
-In the Hello World example, you may have noticed that the parameter
-label **Recipient** was not the same as the Java input parameter name
-**greetingRecipient**. They don’t need to be the same. One is for the
-Blocks user, the other is for the Java programmer. Just list them in the
-correct/same order, so their meanings correspond.
+Hello World の例では、パラメーターラベル **Recipient** が Java 入力パラメーター名**greetingRecipient** と同じではないことに気づいたかもしれません。これらは同じである必要はありません。1つは**Blocks** ユーザー用、もう1つは Java プログラマー用です。意味が対応するように、正しい/同じ順序でリストするだけです。
 
-In fact you don’t need to label every input; a default label will
-instead show the declared type (e.g. String, boolean, int, double,
-etc.). In any case each grey socket will contain a sample of the
-required type (e.g. A, false, 0), with an appropriate tooltip.
+実際、すべての入力にラベルを付ける必要はありません。デフォルトのラベルは、代わりに宣言された型（String、boolean、int、double など）を表示します。いずれの場合も、各灰色のソケットには、適切なツールチップを持つ必要な型のサンプル（A、false、0 など）が含まれます。
 
-If the number of parameter labels does not match the actual number of
-Java parameters, **all** custom label will be ignored. Instead the
-default labels will be displayed.
+パラメーターラベルの数が実際の Java パラメーターの数と一致しない場合、**すべての** カスタムラベルは無視されます。代わりに、デフォルトのラベルが表示されます。
 
-A myBlock may have up to 21 parameters… not recommended! Keep things
-simple.
+**myBlock** は最大21のパラメーターを持つことができます…推奨されません！シンプルに保ちます。
 
-Again, the annotation ``@ExportToBlocks`` **must** appear immediately
-before each myBlock method, even if not using the optional fields.
+繰り返しますが、アノテーション ``@ExportToBlocks`` は、オプションのフィールドを使用しない場合でも、各 **myBlock** メソッドの直前に** 必ず** 表示する必要があります。
 
-Two more optional annotation labels, not illustrated here, are:
+ここでは説明されていない、さらに2つのオプションのアノテーションラベルがあります：
 
--  ``heading``, such as “My Amazing myBlock”. The default heading is
-   “call Java method”.
--  ``color``, without quotes, just a color number (hue). For example 155
-   is green, 255 is blue. Default is 289. Check it out!
+-  ``heading`` 、「My Amazing myBlock」など。デフォルトの見出しは「call Java method」です。
+-  ``color`` 、引用符なし、色番号（色相）のみ。たとえば、155は緑、255は青です。デフォルトは289です。試してみてください！

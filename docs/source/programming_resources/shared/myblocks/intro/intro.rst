@@ -1,50 +1,32 @@
-Introduction
+はじめに
 ============
 
-This tutorial shows how to make **custom Blocks**, to be used in
-regular Blocks programs. These **“myBlocks”** are programmed in Java,
-with OnBot Java or Android Studio.
+このチュートリアルでは、通常の **Blocks** プログラムで使用する** カスタムブロック** の作成方法を示します。これらの** 「myBlocks」** は、**OnBot Java** または**Android Studio** を使用して Java でプログラムされます。
 
 
 .. figure:: images/a0100-introSample.png
     :align: center
-    :alt: sample myBlock, return void
+    :alt: サンプル myBlock、void を返す
     
-    sample myBlock: operate a servo, no value
-    returned
+    サンプル myBlock：サーボを操作、値を返さない
 
 
-A myBlock can add **advanced capability** previously available only to
-teams using all-Java code. Or, a single myBlock can serve as a
-**‘super-Function’**, containing robot instructions that previously
-needed many regular Blocks. Now your team’s Blocks code can be more
-powerful, and simpler!
+**myBlock** は、以前はすべて Java コードを使用するチームのみが利用できた** 高度な機能** を追加できます。または、単一の**myBlock** は、以前は多くの通常の Blocks が必要だったロボット命令を含む** 「スーパー関数」** として機能できます。これで、チームの**Blocks** コードがより強力で、よりシンプルになります！
 
 
 
 .. figure:: images/a0110-sampleInchesToDrive-circle.png
     :align: center
-    :alt: sample myBlock, return encoder counts
+    :alt: サンプル myBlock、エンコーダーカウントを返す
 
-    sample myBlock: return encoder target value based on inputs
+    サンプル myBlock：入力に基づいてエンコーダーターゲット値を返す
 
-Also, myBlocks programming allows some team members to begin learning
-and using Java, contributing valuable new features. The other team
-members can continue learning and working in Blocks, producing the
-team’s official code. Nobody is held back, or left behind.
+また、**myBlocks** プログラミングにより、一部のチームメンバーが Java の学習と使用を開始し、貴重な新機能に貢献できるようになります。他のチームメンバーは**Blocks** での学習と作業を続け、チームの公式コードを作成できます。誰も足を引っ張られたり、取り残されたりすることはありません。
 
-Hats off to Google engineer `Liz
-Looney <https://github.com/lizlooney>`__ for this major development!
+この重要な開発を行った Google エンジニアの `Liz Looney <https://github.com/lizlooney>`__ さんに敬意を表します！
 
-Notes on Java
-~~~~~~~~~~~~~
+Java に関する注意事項
+~~~~~~~~~~~~~~~~~~~~~
 
--  This tutorial builds myBlocks with :ref:`OnBot Java <programming_resources/onbot_java/onbot-java-tutorial:onbot java programming tutorial>`,
-   a programming tool running on the Control Hub or Robot Controller
-   (RC) phone. Students already using :ref:`Android
-   Studio <programming_resources/android_studio_java/android-studio-tutorial:android studio programming tutorial>`
-   can easily follow the same programming.
--  This tutorial does not teach
-   `Java <https://en.wikipedia.org/wiki/Java_(programming_language)>`__
-   or OnBot Java (OBJ), beyond the bare minimum needed for basic
-   myBlocks.
+-  このチュートリアルでは、**Control Hub** または**Robot Controller (RC)** スマートフォン上で実行されるプログラミングツールである :ref:`OnBot Java <programming_resources/onbot_java/onbot-java-tutorial:onbot java programming tutorial>` を使用して**myBlocks** を作成します。すでに :ref:`Android Studio <programming_resources/android_studio_java/android-studio-tutorial:android studio programming tutorial>` を使用している学生は、同じプログラミングを簡単に実行できます。
+-  このチュートリアルでは、基本的な **myBlocks** に必要な最小限を超えて、`Java <https://en.wikipedia.org/wiki/Java_(programming_language)>`__ または**OnBot Java (OBJ)** を教えることはありません。

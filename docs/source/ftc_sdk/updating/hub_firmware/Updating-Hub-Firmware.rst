@@ -1,213 +1,180 @@
-Updating Hub Firmware
-=====================
+Hubファームウェアの更新
+=======================
 
-Firmware is low-level software that controls a device’s circuit boards, or
-electronic **hardware**. This must sometimes be updated on the REV Expansion
-Hub and the REV Control Hub in order for the :doc:`Software Development Kit
-(SDK) </ftc_sdk/overview/index>` to perform correctly.
+ファームウェアは、デバイスの回路基板または電子 **ハードウェア** を制御する低レベルのソフトウェアです。:doc:`ソフトウェア開発キット（SDK） </ftc_sdk/overview/index>` が正しく動作するためには、REV Expansion HubおよびREV Control Hubでこれを更新する必要がある場合があります。
 
-Here are 5 methods: 
+以下の5つの方法があります：
 
-1. REV Hardware Client (RHC) 
-2. Driver Station app
-3. Robot Controller (RC) app - on RC phone 
-4. Manage page on computer 
-5. Manage page on Driver Station device (DS phone or Driver Hub)
+1. **REV Hardware Client** （RHC）
+2. **Driver Station** アプリ
+3. **Robot Controller (RC)** アプリ - RC スマートフォン上
+4. コンピューター上の管理ページ
+5. **Driver Station** デバイス（DS スマートフォンまたは **Driver Hub** ）上の管理ページ
 
-.. dropdown:: Method 1 - REV Hardware Client (RHC) - Windows computers only
+.. dropdown:: 方法1 - **REV Hardware Client** （RHC） - Windows コンピューターのみ
 
-   1. For REV Control Hub, apply 12V robot power. For REV Expansion Hub,
-      12V power is optional.
+   1. REV Control Hubの場合は、12Vロボット電源を供給します。REV Expansion Hubの場合は、
+      12V電源はオプションです。
 
-   2. Plug the REV Hub directly into a computer running the REV Hardware
-      Client, with a USB data cable (not charge-only). The Expansion Hub’s
-      port is Mini USB (not micro). On the Control Hub, use only the USB-C
-      port, not its Mini USB port.
+   2. REV HubをUSBデータケーブル（充電専用ではないもの）を使用して、REV Hardware Clientを実行しているコンピューターに直接接続します。Expansion Hubのポートは
+      Mini USB（microではない）です。Control Hubの場合は、Mini USBポートではなく、USB-C
+      ポートのみを使用してください。
 
-   3. Click the hub’s large icon/rectangle. Under “Expansion/Control Hub
-      Firmware”, see the current/latest mismatch, if any (yellow oval,
-      below).
+   3. Hubの大きなアイコン/矩形をクリックします。「Expansion/Control Hub
+      Firmware」の下に、現在のバージョンと最新バージョンの不一致がある場合は表示されます（下の黄色の楕円）。
 
       .. figure:: images/350-RHC-EH-firmware.png
-         :alt: Updating Firmware
+         :alt: ファームウェアの更新
          :width: 80%
          :align: center
 
-         Updating Firmware
+         ファームウェアの更新
 
-      Here’s an example with Control Hub:
+      Control Hubの例は次のとおりです：
 
       .. figure:: images/400-RHC-EH-CH-firmware.png
-         :alt: Updating Firmware
+         :alt: ファームウェアの更新
          :width: 80%
          :align: center
 
-         Updating Firmware
+         ファームウェアの更新
 
-      Confirm the Latest Version in the drop-down menu, then click the blue
-      “Re-install” rectangle (green arrow, above). This is done quickly, since
-      :doc:`in Updating the REV Hardware Client 
+      ドロップダウンメニューで最新バージョンを確認し、青色の「Re-install」矩形をクリックします（上の緑色の矢印）。これは迅速に実行されます。
+      :doc:`REV Hardware Clientの更新 
       </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`
-      the required update file was previously downloaded.
+      で必要な更新ファイルが事前にダウンロードされているためです。
 
-      Done! The Hub’s firmware is now updated.
+      完了です！Hubのファームウェアが更新されました。
 
-   More info about using the RHC to update Hub firmware is `at REV Robotics’ excellent documentation site <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware>`__.
+   RHCを使用してHubファームウェアを更新する詳細については、`REV Roboticsの優れたドキュメントサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware>`__ を参照してください。
 
-.. dropdown:: Method 2 - Driver Station app
+.. dropdown:: 方法2 - Driver Stationアプリ
 
-   This method applies to any DS app, running on a DS phone or a Driver
-   Hub.
+   この方法は、DSスマートフォンまたはDriver Hubで実行されているすべてのDSアプリに適用されます。
 
-   1. For REV Control Hub, apply 12V robot power. For REV Expansion Hub,
-      connect directly to Robot Controller (RC) phone, open RC app, **and**
-      apply 12V power. The Expansion Hub being updated must be **plugged
-      directly** into the RC phone, with no intermediate Control Hub or
-      other (primary) Expansion Hub. After updating you can return that Hub
-      to its secondary position, if needed.
+   1. REV Control Hubの場合は、12Vロボット電源を供給します。REV Expansion Hubの場合は、
+      Robot Controller（RC）スマートフォンに直接接続し、RCアプリを開き、 **さらに**
+      12V電源を供給します。更新するExpansion Hubは、中間のControl Hubや
+      他の（プライマリ）Expansion Hubを介さずに、RCスマートフォンに **直接接続** する必要があります。更新後、必要に応じてそのHubをセカンダリ位置に戻すことができます。
 
-   2. Connect/pair the DS app to the RC device, from a DS phone or Driver
-      Hub. Select DS Settings, Advanced (Robot Controller) Settings, REV
-      Hub Firmware Update.
+   2. DSスマートフォンまたはDriver HubからDSアプリをRCデバイスに接続/ペアリングします。DS Settings、Advanced（Robot Controller）Settings、REV
+      Hub Firmware Updateを選択します。
 
       .. figure:: images/150-DS-firmware-double.png
-         :alt: Updating Firmware
+         :alt: ファームウェアの更新
          :width: 80%
          :align: center
 
-         Updating Firmware
+         ファームウェアの更新
 
-      Review the list of available Hub firmware, whether stored on the RC
-      device and/or “bundled” in the app.
+      RCデバイスに保存されているHubファームウェアおよび/またはアプリに「バンドル」されているHubファームウェアの利用可能なリストを確認します。
 
-   3. If the latest does **not** appear on the list, you can transfer the
-      firmware file from a computer to the Robot Controller. Use a USB data
-      cable (not a charge-only cable) to store the firmware file in the RC
-      device’s subfolder called FIRST/updates/Expansion Hub Firmware.
+   3. 最新版がリストに表示 **されない** 場合は、コンピューターからRobot Controllerにファームウェアファイルを転送できます。USBデータケーブル（充電専用ケーブルではない）を使用して、ファームウェアファイルをRCデバイスのFIRST/updates/Expansion Hub Firmwareというサブフォルダーに保存します。
 
-      Current and older firmware files can be found at the 
-      `REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__.
+      現在および古いファームウェアファイルは、
+      `REV RoboticsのWebサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__ にあります。
 
-      Then return to this list of available firmware.
+      次に、この利用可能なファームウェアのリストに戻ります。
 
-   4. Now select the latest firmware version and touch “Update Hub
-      Firmware” (green arrow, above). Wait for the process to finish; do
-      not unplug the Hub or restart the robot.
+   4. 最新のファームウェアバージョンを選択し、「Update Hub
+      Firmware」をタッチします（上の緑色の矢印）。プロセスが完了するまで待ちます。Hubのプラグを抜いたり、ロボットを再起動したりしないでください。
 
-   That’s it! The Hub’s firmware is now updated.
+   以上です！Hubのファームウェアが更新されました。
 
-.. dropdown:: Method 3 - Robot Controller (RC) app - on RC phone
+.. dropdown:: 方法3 - Robot Controller（RC）アプリ - RCスマートフォン上
 
-   This method is **exactly the same** as Method #2 immediately above,
-   since the DS app was simply providing a portal or window to the RC app.
+   この方法は、上記の方法2と **全く同じ** です。
+   DSアプリは単にRCアプリへのポータルまたはウィンドウを提供していたためです。
 
-   It’s listed separately here, because it applies only to **Expansion
-   Hub**, not Control Hub – which doesn’t use an RC phone. In other words,
-   users do not normally interface directly with the RC app on a Control
-   Hub.
+   ここに個別にリストされているのは、Control Hubには適用されず、**Expansion
+   Hub** にのみ適用されるためです。Control HubはRCスマートフォンを使用しません。つまり、
+   ユーザーは通常、Control Hub上のRCアプリと直接インターフェースすることはありません。
 
-   Again, the Expansion Hub must be plugged **directly** into an RC phone,
-   with no intermediate (primary) Expansion Hub. After updating you can
-   return that Hub to its secondary position, if needed.
+   繰り返しになりますが、Expansion Hubは、中間（プライマリ）Expansion Hubを介さずに、RCスマートフォンに **直接** 接続する必要があります。更新後、必要に応じてそのHubをセカンダリ位置に戻すことができます。
 
-.. dropdown:: Method 4 - Manage page on computer
+.. dropdown:: 方法4 - コンピューター上の管理ページ
 
-   1. Connect the computer via Wi-Fi to the Control Hub or RC phone. In the
-      Chrome browser, open the Manage interface.
+   1. コンピューターをWi-Fi経由でControl HubまたはRCスマートフォンに接続します。Chromeブラウザで管理インターフェースを開きます。
 
-   2. Click on the Manage tab, scroll down to Update REV Hub Firmware.
+   2. Manageタブをクリックし、Update REV Hub Firmwareまでスクロールします。
 
       .. figure:: images/250-manage-firmware.png
-         :alt: Updating Firmware
+         :alt: ファームウェアの更新
          :width: 80%
          :align: center
 
-         Updating Firmware
+         ファームウェアの更新
 
-      See if the grey box (see green arrow, above) offers the latest firmware
-      version, included or bundled with the RC app.
+      グレーのボックス（上の緑色の矢印を参照）が、RCアプリに含まれている、またはバンドルされている最新のファームウェアバージョンを提供しているかどうかを確認します。
 
-   3. If not, click the “Select Firmware…” box. Navigate to the desired
-      firmware file stored on the computer, and select it.
+   3. そうでない場合は、「Select Firmware…」ボックスをクリックします。コンピューターに保存されている目的のファームウェアファイルに移動し、選択します。
 
-      As part of the update process, that selected firmware file will be
-      stored on the Control Hub or RC phone, in a subfolder called
-      FIRST/updates/Expansion Hub Firmware.
+      更新プロセスの一環として、選択したファームウェアファイルは、FIRST/updates/Expansion Hub Firmwareというサブフォルダーに、Control HubまたはRCスマートフォンに保存されます。
 
-      Current and older firmware files can be found at the       
-      `REV Robotics website <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__.
+      現在および古いファームウェアファイルは、
+      `REV RoboticsのWebサイト <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__ にあります。
 
-   4. Now click the box called “Update to…” or “Update using…” (see green
-      arrow, above).
+   4. 「Update to…」または「Update using…」というボックスをクリックします（上の緑色の矢印を参照）。
 
       .. figure:: images/255-manage-firmware-confirm.png
-         :alt: Managing Firmware
+         :alt: ファームウェアの管理
          :width: 80%
          :align: center
 
-         Managing Firmware
+         ファームウェアの管理
 
-   5. At the confirmation prompt, click the blue box “Update Hub Firmware”.
-      Wait for the process to finish; do not unplug the Hub or restart the
-      robot.
+   5. 確認プロンプトで、青色のボックス「Update Hub Firmware」をクリックします。
+      プロセスが完了するまで待ちます。Hubのプラグを抜いたり、ロボットを再起動したりしないでください。
 
-   That’s it! The Hub’s firmware is now updated.
+   以上です！Hubのファームウェアが更新されました。
 
-.. dropdown:: Method 5 - Manage page on Driver Station device - DS phone or Driver Hub
+.. dropdown:: 方法5 - Driver Stationデバイス上の管理ページ - DSスマートフォンまたはDriver Hub
 
-   1. Connect the DS app to the Control Hub or RC phone, from the DS app’s
-      Settings menu (never with the Android device Wi-Fi settings).
+   1. DSアプリのSettingsメニューから（Android デバイスのWi-Fi設定では決して使用しない）、DSアプリをControl HubまたはRCスマートフォンに接続します。
 
-   2. From the DS app’s menu, select “Program and Manage”. Then touch the 3
-      bars at top right, and select “Manage”.
+   2. DSアプリのメニューから、「Program and Manage」を選択します。次に、右上の3本のバーをタッチし、「Manage」を選択します。
 
-      This is the same Manage page that appears in a laptop browser. So the
-      following instructions are similar to Method 4 above.
+      これは、ラップトップブラウザに表示されるのと同じ管理ページです。したがって、以下の手順は上記の方法4と類似しています。
 
-   3. Scroll down to Update REV Hub Firmware.
+   3. Update REV Hub Firmwareまでスクロールします。
 
       .. figure:: images/270-manage-firmware-DS-CH-landscape.png
-         :alt: Update Hub Firmware
+         :alt: Hubファームウェアの更新
          :width: 80%
          :align: center
 
-         Update Hub Firmware
+         Hubファームウェアの更新
 
-      See if the grey box “Update to…” offers the latest firmware version,
-      included or bundled with the DS app.
+      グレーのボックス「Update to…」が、DSアプリに含まれている、またはバンドルされている最新のファームウェアバージョンを提供しているかどうかを確認します。
 
-   3. If not, you can transfer the desired firmware file to the **Driver
-      Station device**.
+   3. そうでない場合は、目的のファームウェアファイルを **Driver
+      Stationデバイス** に転送できます。
 
-      Yes, that’s correct: transfer to the DS device, not to the RC device.
-      This Method 5 uses a local file on the DS device, while Methods 2 and 3
-      (above) use a local file on the RC device.
+      はい、それは正しいです：RCデバイスではなく、DSデバイスに転送します。
+      この方法5では、DSデバイス上のローカルファイルを使用しますが、方法2および3
+      （上記）では、RCデバイス上のローカルファイルを使用します。
 
-      Use a USB data cable (not a charge-only cable) to store the firmware
-      file in the DS device’s Downloads folder.
+      USBデータケーブル（充電専用ケーブルではない）を使用して、ファームウェアファイルをDSデバイスのDownloadsフォルダーに保存します。
 
-      Current and older firmware files can be found at the REV Robotics
-      website
-      `here <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__.
+      現在および古いファームウェアファイルは、REV Robotics
+      のWebサイトの
+      `こちら <https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware/firmware-changelog>`__ にあります。
 
-      Then click the “Select Firmware…” box. Navigate to the DS device’s
-      Downloads folder, and select the desired firmware file.
+      次に、「Select Firmware…」ボックスをクリックします。DSデバイスの
+      Downloadsフォルダーに移動し、目的のファームウェアファイルを選択します。
 
-   4. Now click the box called “Update to…” or “Update using…” (second
-      green arrow, above).
+   4. 「Update to…」または「Update using…」というボックスをクリックします（上の2番目の緑色の矢印）。
 
       .. figure:: images/257-manage-firmware-confirm-DS.png
-         :alt: Update Hub Firmware
+         :alt: Hubファームウェアの更新
          :width: 80%
          :align: center
 
-         Update Hub Firmware
+         Hubファームウェアの更新
 
-   5. At the confirmation prompt, scroll down and click the blue box
-      “Update Hub Firmware”. Wait for the process to finish; do not unplug
-      the Hub or restart the robot.
+   5. 確認プロンプトで、下にスクロールして青色のボックス「Update Hub Firmware」をクリックします。プロセスが完了するまで待ちます。Hubのプラグを抜いたり、ロボットを再起動したりしないでください。
 
-   That’s it! The Hub’s firmware is now updated.
+   以上です！Hubのファームウェアが更新されました。
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、修正は westsiderobotics@verizon.net まで
 

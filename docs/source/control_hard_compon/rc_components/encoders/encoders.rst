@@ -1,4 +1,4 @@
-Encoders (Rotation Counters)
+エンコーダー（回転カウンター）
 ==============================
 
 .. grid:: 1 2 2 2
@@ -36,18 +36,14 @@ Encoders (Rotation Counters)
 
       REV Through Bore Encoder, in incremental mode.
 
-An encoder is a device that measures the rotational displacement around an
-axis.  Most legal *FIRST* Tech Challenge motors contain a built in quadrature
-encoder that is compatible with a REV Hub. It is also possible to use a
-standalone incremental encoder like a REV Through Bore Encoder (shown above).
-An incremental encoder works by sending out a "tick" per partial rotation of
-the shaft. More information on how many ticks are output per rotation can be
-found on the manufacturer's website. An absolute encoder is able to indicate
-the displacement of the shaft from its starting position and the the exact
-angle the shaft is currently at relative to a "zero" position.
+エンコーダーは、軸の周りの回転変位を測定するデバイスです。ほとんどの合法的な **FIRST Tech Challenge** モーターには、
+**REV Hub** と互換性のある直交エンコーダーが内蔵されています。また、上に示した**REV Through Bore Encoder** のような
+スタンドアロンのインクリメンタルエンコーダーを使用することも可能です。インクリメンタルエンコーダーは、シャフトの部分的な回転ごとに
+「ティック」を送出することで機能します。1 回転あたりに出力されるティック数の詳細については、製造元のウェブサイトで確認できます。
+アブソリュートエンコーダーは、シャフトの開始位置からの変位と、「ゼロ」位置に対するシャフトの現在の正確な角度を示すことができます。
 
 
-Additional Resources
+追加リソース
 ---------------------
 
  - :ref:`Encoder Port Overview <control_hard_compon/rc_components/hub/ports/exh-ports:encoder ports>`

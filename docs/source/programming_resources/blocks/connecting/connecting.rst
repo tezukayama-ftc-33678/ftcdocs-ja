@@ -1,4 +1,4 @@
-Connecting to the Program & Manage Server :bdg-warning:`Blocks`
+Program & Manage サーバーへの接続 :bdg-warning:`Blocks`
 ===============================================================
 
 

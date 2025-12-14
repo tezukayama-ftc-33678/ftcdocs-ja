@@ -1,22 +1,21 @@
-FTC Docs Workflows
-===================
+FTC ドキュメントワークフロー
+============================
 .. note::
-    Please note that this flowchart is meant only for reference for 
-    *maintainers* of the FTC Docs repository. For those looking 
-    only to contribute to the FTC Docs documents please refer to 
-    the :doc:`Contributing to FTC Docs </contrib/tutorials/index>` document.
+    このフローチャートは、FTC Docs リポジトリの*メンテナー*向けの参考用です。
+    FTC Docs ドキュメントへの貢献のみを希望する方は、
+    :doc:`FTC ドキュメントへの貢献 </contrib/tutorials/index>` ドキュメントを参照してください。
 
-Overview
+概要
 --------
 
-The following diagram shows the various GitHub repositories and the actions and flow between them and the build artifacts.
-Pull Requests to the FTC Docs repository result in GitHub actions that build HTML pages and PDF files.
-The HTML pages ultimately end up on the ftc-docs.firstinspires.org website and the PDF files in AWS S3 file storage.
+以下の図は、様々な GitHub リポジトリと、それらとビルド成果物の間のアクションとフローを示しています。
+FTC Docs リポジトリへのプルリクエストは、HTML ページと PDF ファイルをビルドする GitHub アクションを実行します。
+HTML ページは最終的に ftc-docs.firstinspires.org ウェブサイトに配置され、PDF ファイルは AWS S3 ファイルストレージに配置されます。
 
-In a web browser this diagram can be zoomed and panned by using a mouse. 
-Use the scroll wheel to zoom in and out. Right click and hold then drag to pan.
-The diagram is not keyboard accessible.
-A screen reader will read the various nodes and actions in the diagram and starts in the Translation section of the diagram.
+ウェブブラウザーでは、この図をマウスを使用してズームおよびパンできます。
+スクロールホイールを使用してズームイン・ズームアウトできます。右クリックしてホールドし、ドラッグしてパンします。
+この図はキーボードでアクセスできません。
+スクリーンリーダーは、図の様々なノードとアクションを読み上げ、図の Translation セクションから開始します。
 
 .. mermaid::
    :zoom:

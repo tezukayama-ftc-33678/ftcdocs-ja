@@ -1,34 +1,22 @@
-Gain Control
+ゲイン制御
 ------------
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls`
 
-Gain is a digital camera setting that controls the amplification of the
-signal from the webcam sensor. This amplifies the whole signal,
-including any associated background noise.
+ゲインは、Webcam センサーからの信号の増幅を制御するデジタルカメラ設定です。これにより、関連するバックグラウンドノイズを含む信号全体が増幅されます。
 
-Gain can be managed in coordination with exposure. Raising exposure and
-keeping gain low, can provide a bright image and low noise. On the other
-hand, longer exposure can cause motion blur, which may affect target
-tracking performance. In some cases, reducing exposure duration and
-increasing gain may provide a sharper image, although with more noise.
+ゲインは露出と連携して管理できます。露出を上げてゲインを低く保つと、明るい画像と低ノイズを実現できます。一方、長い露出はモーションブラーを引き起こす可能性があり、ターゲット追跡パフォーマンスに影響を与える可能性があります。場合によっては、露出時間を短縮してゲインを増やすと、ノイズは多くなりますが、よりシャープな画像が得られる可能性があります。
 
-The interface GainControl uses a single value to control gain. It’s
-used for amplification, and thus has no units – it’s just a number of
-type integer. Its methods are: 
+インターフェイス **GainControl** は、単一の値を使用してゲインを制御します。これは増幅に使用されるため、単位はありません - 整数型の単なる数値です。そのメソッドは次のとおりです：
 
-- setGain(int gain) 
-- getGain()
+- **setGain(int gain)**
+- **getGain()**
 
-As with exposure, the webcam may support minimum and maximum allowed
-values of gain. These can be retrieved with: 
+露出と同様に、Webcam はゲインの最小値と最大値をサポートする場合があります。これらは次の方法で取得できます：
 
 - getMinGain() 
 - getMaxGain()
 
-There are no ``set()`` methods for min and max gain; these are
-hard-coded in the webcam’s firmware. Note that firmware settings may
-vary among different versions of the same webcam model.
+最小ゲインと最大ゲインの ``set()`` メソッドはありません。これらは Webcam のファームウェアにハードコードされています。ファームウェア設定は、同じ Webcam モデルの異なるバージョン間で異なる場合があることに注意してください。
 
-These and other gain methods are called on a GainControl object, as
-described above for exposure.
+これらおよび他のゲインメソッドは、露出について上記で説明したように、**GainControl** オブジェクトで呼び出されます。

@@ -1,8 +1,8 @@
-White Balance - Webcam Controls
-===============================
+ホワイトバランス制御
+====================
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 1
 
-    control/control
-    mode/mode
+   mode/mode
+   control/control

@@ -1,119 +1,71 @@
-Computer Vision Overview
-========================
+コンピュータービジョンの概要
+============================
 
-Introduction
+はじめに
 ------------
 
-The *FIRST* Tech Challenge control system software has built-in support for two
-computer vision technologies:
+**FIRST** **Tech Challenge** 制御システムソフトウェアには、2つのコンピュータービジョン技術の組み込みサポートがあります：
 
-1. AprilTags -
+1. **AprilTags** -
    :doc:`AprilTags <../../../apriltag/vision_portal/apriltag_intro/apriltag-intro>`
-   are fiducial markers similar in design to a QR code that can be used
-   for identification and localization. AprilTags are used as reference 
-   points for autonomous navigation and for assisted navigation and
-   identification of points of interest on a game field.
+   は、識別とローカライゼーションに使用できる QR コードに似た設計の基準マーカーです。**AprilTags** は、自律ナビゲーションおよびゲームフィールド上の関心点の支援ナビゲーションと識別の参照点として使用されます。
 
-   -  Each season, *FIRST* provides 2D image tagets that can be used as
-      navigational reference points.
-   -  If the AprilTag system recognizes an AprilTag image, it provides 
-      very accurate pose information (assuming the camera used has 
-      calibration parameters for the working resolution) about the 
-      robot’s position relative to the target.
-   -  A robot can use this information to navigate autonomously on the
-      field.
+   -  各シーズン、**FIRST** はナビゲーション参照点として使用できる 2D 画像ターゲットを提供します。
+   -  **AprilTag** システムが**AprilTag** 画像を認識すると、ターゲットに対するロボットの位置に関する非常に正確なポーズ情報を提供します（使用されるカメラに作業解像度の較正パラメーターがあると仮定）。
+   -  ロボットはこの情報を使用して、フィールド上で自律的にナビゲートできます。
 
-2. Color Processing - 
-   :doc:`Color Processing </color_processing/index>` is a
-   feature in the *FIRST* Tech Challenge SDK that provides the ability
-   to process colors using `OpenCV <https://opencv.org/>`__.
+2. カラー処理 - 
+   :doc:`カラー処理 </color_processing/index>` は、**FIRST** **Tech Challenge** **SDK** の機能で、`OpenCV <https://opencv.org/>`__ を使用して色を処理する機能を提供します。
 
-   -  Color Sensor can detect the exact color in an image, which can
-      help determine what is in front of a robot.
-   -  Color Locator can look for a specific color and return information
-      about the size, shape and location of the color in the camera frame.
-   -  A robot can use this information to navigate to the
-      recognized object.
+   -  **Color Sensor** は、画像内の正確な色を検出でき、ロボットの前にあるものを判断するのに役立ちます。
+   -  **Color Locator** は、特定の色を探し、カメラフレーム内の色のサイズ、形状、位置に関する情報を返すことができます。
+   -  ロボットはこの情報を使用して、認識されたオブジェクトにナビゲートできます。
 
-AprilTags vs Color Processing
+**AprilTags** 対 カラー処理
 -----------------------------
 
-AprilTag Advantages
+**AprilTag** の利点
 ~~~~~~~~~~~~~~~~~~~
 
--  Very efficient with a fast detection rate (estimated 15 to 20
-   detections per second, depending on decimation and target size).
--  Provides accurate, relative pose information of camera to target 
-   in field coordinates.
--  Is less prone to fluctuating or varied lighting conditions on 
-   the field.
+-  高速検出レート（デシメーションとターゲットサイズに応じて、推定毎秒 15 ～ 20 回の検出）で非常に効率的です。
+-  フィールド座標でカメラからターゲットへの正確な相対ポーズ情報を提供します。
+-  フィールドの変動または変化する照明条件の影響を受けにくいです。
 
 .. figure:: images/AprilTagTelemetry.jpg
    :align: center
    :width: 25%
 
-   AprilTag can provide accurate pose information to target
+   **AprilTag** はターゲットへの正確なポーズ情報を提供できます
 
 
-AprilTag Disadvantages
+**AprilTag** の欠点
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  The entire AprilTag must be in the camera view in order to be 
-   recognized, any occlusions render the object unprocessable.
--  AprilTags must be included in the tag library in order to 
-   process pose information for the tag (tag size and value must
-   be known to the AprilTag system in advance).
--  Cameras require calibration data for every resolution used 
-   in order to process correct pose information.
+-  正確なポーズ情報を得るには、カメラを較正する必要があります（通常、このプロセスでは、チェッカーボードパターンの複数の画像をキャプチャする必要があります）。
+-  **AprilTag** システムは、事前に印刷および配置された**AprilTag** 画像のみを認識します。
+-  **AprilTag** は、ゲームエレメントやフィールド上の他のカスタムオブジェクトを識別するために使用することはできません。
 
-.. figure:: images/AprilTagDual.png
-   :align: center
-   :width: 75%
+カラー処理の利点
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   AprilTags not in Tag Library detected, but no pose data available
+-  カメラの較正は不要です。
+-  ゲーム固有のゲームエレメントやフィールド上のカスタムオブジェクトを識別できます。
 
-Color Processing Advantages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+カラー処理の欠点
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Color Processing looks for colors, not specific images.
+-  変動する照明条件の影響を受けやすい可能性があります。
+-  フレーム内のオブジェクトの正確なフィールド位置を計算するには、追加の作業が必要です。
 
-   -  Recognizes objects in spite of different backgrounds.
-   -  Recognizes objects both up close and further away.
-   -  Recognizes objects even when objects are oriented in different
-      positions.
+どのシステムを使用するべきか？
+---------------------------------
 
--  Pre-defined colors are included in the *FIRST* Tech Challenge SDK
-   that have already been tested on season-specific game elements.
+-  **AprilTag** またはカラー処理の両方のシステムを使用して、自律ナビゲーションとオブジェクト識別のタスクを実行できます。
+-  **AprilTag** システムは、ロボットがナビゲートして正確に配置する必要がある定義済みの場所がある場合に適しています。
+-  カラー処理は、ロボットがゲームエレメントまたはカスタムオブジェクトを識別して応答する必要がある場合に適しています。
 
-Color Processing Disadvantages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+次のステップ
+------------
 
--  Color Processing can be sensitive to different lighting conditions.
--  If Color Processing recognizes an object in its field of view, it only
-   returns location information on where the target object is within its
-   field of view.
-
-.. figure:: images/82-targeting.png
-   :align: center
-   :width: 75%
-
-   Color Processing can recognize actual objects (and not just 2D image targets).
-
-.. figure:: images/33-circleFit-LiveView.png
-   :align: center
-   :width: 75%
-
-   Color Processing can recognize the shape of the object.
-
-Which Should I Use?
-~~~~~~~~~~~~~~~~~~~
-
-The choice of whether to use AprilTags or Color Processing will be
-influenced by factors such as distance-to-target, lighting, accuracy
-required, camera placement and etc.. 
-
-If the object and tag can always be guaranteed to be in a specific orientation
-and the tag fully visible, AprilTags are likely the best solution. However,
-if the object does not belong to you or a tag is not able to be physically 
-placed on the object, Color Processing can be a good solution.
-
+-  **AprilTag** について詳しく知りたい場合は、:doc:`AprilTag のページ </apriltag/vision_portal/apriltag_intro/apriltag-intro>` を参照してください。
+-  カラー処理について詳しく知りたい場合は、:doc:`カラー処理のページ </color_processing/index>` を参照してください。

@@ -1,44 +1,29 @@
-Software Overview
------------------
+ソフトウェアの概要
+------------------
 
-The SDK contains a superinterface called CameraControl, which
-contains 5 interfaces: 
+**SDK** には、**CameraControl** と呼ばれるスーパーインターフェイスが含まれており、5つのインターフェイスが含まれています：
 
 - :doc:`ExposureControl </programming_resources/vision/webcam_controls/exposure/index>`
 - :doc:`GainControl </programming_resources/vision/webcam_controls/gain/index>` 
-- :doc:`WhiteBalanceControl </programming_resources/vision/webcam_controls/white_balance/index>` (new for SDK 7.1) 
+- :doc:`WhiteBalanceControl </programming_resources/vision/webcam_controls/white_balance/index>` （**SDK** 7.1 の新機能）
 - :doc:`FocusControl </programming_resources/vision/webcam_controls/focus/index>`
 - :doc:`PtzControl </programming_resources/vision/webcam_controls/ptz/index>`
 
-Similar to Java classes, Java interfaces provide methods. A webcam can
-be controlled using methods of these 5 interfaces.
+Java クラスと同様に、Java インターフェイスはメソッドを提供します。Webcam は、これら5つのインターフェイスのメソッドを使用して制御できます。
 
-PtzControl allows control of 3 related features: virtual pan, tilt and
-zoom. ExposureControl also contains a feature called auto-exposure
-priority, or AE Priority. Together there are **8 webcam controls**
-discussed in this tutorial.
+**PtzControl** では、仮想パン、チルト、ズームの3つの関連機能を制御できます。**ExposureControl** には、自動露出優先度、または AE Priority と呼ばれる機能も含まれています。このチュートリアルでは、合わせて**8つの Webcam 制御** について説明します。
 
-The official documentation is found in the `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc>`__. Click the
-link for **RobotCore**, then click the **CameraControl** link in the
-left column.
+公式ドキュメントは `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc>`__ にあります。**RobotCore** のリンクをクリックし、左側の列の**CameraControl** リンクをクリックします。
 
 .. figure:: images/020-RobotCore.png
    :align: center
 
-   RobotCore Javadoc API
+   **RobotCore** Javadoc API
 
-That page provides links to the 5 interfaces listed above.
+そのページには、上記の5つのインターフェイスへのリンクがあります。
 
-The methods described here can be used in Android Studio or OnBot Java.
-They can also be provided to Blocks programmers by creating
-myBlocks, covered in a separate :ref:`Blocks programming Tutorial <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`.
+ここで説明するメソッドは、**Android Studio** または**OnBot Java** で使用できます。また、別の :ref:`Blocks プログラミングチュートリアル <programming_resources/blocks/blocks-tutorial:blocks programming tutorial>` で説明されている**myBlocks** を作成することで、**Blocks** プログラマーに提供することもできます。
 
-You will see Vuforia mentioned here, and in the `sample OpModes
-<#sample-opmodes>`__ below. **Why Vuforia?** The *FIRST* Tech Challenge
-implementation of Google’s TensorFlow Lite receives camera images from a
-Vuforia video stream. The SDK already includes and uses Vuforia for
-navigation, so it’s a convenient tool for passing camera streams to TFOD.
+ここと、以下の `サンプル OpModes <#sample-opmodes>`__ で **Vuforia** について言及されています。** なぜ Vuforia なのか？** **FIRST** **Tech Challenge** の Google の**TensorFlow Lite** の実装は、**Vuforia** ビデオストリームからカメラ画像を受信します。**SDK** にはすでに**Vuforia** がナビゲーション用に含まれており、使用されているため、カメラストリームを**TFOD** に渡すための便利なツールです。
 
-These CameraControl interfaces allow some control of the webcam, within
-requirements or settings of Vuforia for its own performance. Such
-settings include resolution and frame rate, not covered here.
+これらの **CameraControl** インターフェイスにより、独自のパフォーマンスのための**Vuforia** の要件または設定内で、Webcam をある程度制御できます。このような設定には、ここでは説明しない解像度とフレームレートが含まれます。

@@ -1,39 +1,34 @@
-Configuring a Servo
+サーボの構成
 ====================
 
-You will also want to add a servo to the configuration file. In this
-example, you are using a standard 180-degree servo.
+構成ファイルにサーボも追加します。この例では、標準の 180 度サーボを使用しています。
 
 
-Configuring a Servo Instructions
+サーボの構成手順
 --------------------------------
 
-1. Touch on the word **Servos** on the screen to display the **Servo  
-Configuration** screen.                                               
+1. 画面の **Servos** という単語をタッチして、** サーボ構成** 画面を表示します。                                               
 
 .. image:: images/ConfiguringHardwareServoStep1.jpg
    :align: center
 
 |
 
-2. Use the dropdown control to select "Servo" as the servo type for   
-port #0.                                                              
+2. ドロップダウンコントロールを使用して、ポート #0 のサーボタイプとして「Servo」を選択します。
 
 .. image:: images/ConfiguringHardwareServoStep2.jpg
    :align: center
 
 |
 
-3. Use the touch pad to specify the name of the servo ("servoTest"    
-for this example) for port #0.                                        
+3. タッチパッドを使用して、ポート #0 のサーボの名前（この例では「servoTest」）を指定します。
 
 .. image:: images/ConfiguringHardwareServoStep3.jpg
    :align: center
 
 |
 
-4. Press the **Done** button to complete the servo configuration. The 
-app should return to the previous screen.                             
+4. **Done** ボタンを押して、サーボ構成を完了します。アプリは前の画面に戻るはずです。                             
 
 .. image:: images/ConfiguringHardwareServoStep4.jpg
    :align: center

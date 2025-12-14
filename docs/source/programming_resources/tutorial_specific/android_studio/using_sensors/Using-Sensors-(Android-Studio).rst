@@ -1,23 +1,14 @@
-Using Sensors :bdg-success:`AS`
-===============================
+センサーの使用 :bdg-success:`AS`
+================================
 
-Color-Distance Sensor
+カラー距離センサー
 ~~~~~~~~~~~~~~~~~~~~~
 
-A sensor is a device that lets the Robot Controller get information
-about its environment. In this example, you will use a REV Robotics
-Color-Distance sensor to display range (distance from an object) info to
-the driver station.
+センサーは、**Robot Controller** がその環境に関する情報を取得できるようにするデバイスです。この例では、**REV Robotics** のカラー距離センサーを使用して、範囲（物体からの距離）情報を**Driver Station** に表示します。
 
-The Color-Range sensor uses reflected light to determine the distance
-from the sensor to the target object. It can be used to measure close
-distances (up 5" or more) with reasonable accuracy. Note that at the
-time this document was most recently edited, the REV Color-Range sensor
-saturates around 2" (5cm). This means that for distances less than or
-equal to 2", the sensor returns a measured distance equal to 2" or so.
+カラー距離センサーは、反射光を使用してセンサーからターゲット物体までの距離を測定します。このセンサーは、近距離（最大5インチ程度）を適切な精度で測定できます。このドキュメントが最後に編集された時点では、**REV** カラー距離センサーは約2インチ（5cm）で飽和することに注意してください。これは、2インチ以下の距離では、センサーが約2インチに等しい測定距離を返すことを意味します。
 
-Modify your op mode to add a telemetry statement that will send the
-distance information (in centimeters) to the Driver Station.
+距離情報（センチメートル単位）を **Driver Station** に送信するテレメトリーステートメントを追加するように、**Op Mode** を変更します。
 
 .. code-block:: java
 
@@ -28,38 +19,23 @@ distance information (in centimeters) to the Driver Station.
    telemetry.addData("Status", "Running");
    telemetry.update();
 
-After you have modified your op mode, build and install the updated
-Robot Controller app, then run the op mode to verify that it now
-displays distance on your Driver Station. Note that if the distance
-reads "NaN" (short for "Not a Number") it probably means that your
-sensor is too far from the target (zero reflection). Also note that the
-sensor saturates at around 5 cm.
+**Op Mode** を変更した後、更新された**Robot Controller** アプリをビルドしてインストールし、**Op Mode** を実行して、**Driver Station** に距離が表示されることを確認します。距離が「NaN」（「Not a Number」の略）と表示される場合は、おそらくセンサーがターゲットから遠すぎる（反射がゼロ）ことを意味します。また、センサーは約5cmで飽和することに注意してください。
 
-Touch Sensor
-~~~~~~~~~~~~
+タッチセンサー
+~~~~~~~~~~~~~~
 
-The REV Robotics Touch Sensor can be connected to a digital port on the
-Control Hub or Expansion Hub. The Touch Sensor is HIGH (returns TRUE) when it is not
-pressed. It is pulled LOW (returns FALSE) when it is pressed.
+**REV Robotics** のタッチセンサーは、**Control Hub** または**Expansion Hub** のデジタルポートに接続できます。タッチセンサーは、押されていない場合はHIGH（TRUEを返す）です。押されると、LOW（FALSEを返す）になります。
 
 .. image:: images/REVTouchSensor.jpg
    :align: center
 
 |
 
-The Control Hub or Expansion Hub digital ports contain two digital pins per port. When
-you use a 4-wire JST cable to connect a REV Robotics Touch sensor to a Control Hub or
-Expansion Hub digital port, the Touch Sensor is wired to the second of
-the two digital pins within the port. The first digital pin of the
-4-wire cable remains disconnected.
+**Control Hub** または**Expansion Hub** のデジタルポートには、1つのポートあたり2つのデジタルピンが含まれています。4線式JSTケーブルを使用して**REV Robotics** のタッチセンサーを**Control Hub** または**Expansion Hub** のデジタルポートに接続すると、タッチセンサーはポート内の2つのデジタルピンの2番目に配線されます。4線式ケーブルの最初のデジタルピンは接続されないままになります。
 
-For example, if you connect a Touch Sensor to the "0,1" digital port of
-the Control Hub or Expansion Hub, the Touch Sensor will be connected to the second pin
-(labeled "1") of the port. The first pin (labeled "0") will stay
-disconnected.
+たとえば、タッチセンサーを **Control Hub** または**Expansion Hub** の「0,1」デジタルポートに接続する場合、タッチセンサーはポートの2番目のピン（「1」とラベル付けされている）に接続されます。最初のピン（「0」とラベル付けされている）は接続されないままになります。
 
-Modify the code in your op mode that occurs before the waitForStart
-command to set the digital channel for input mode.
+デジタルチャンネルを入力モードに設定するために、**waitForStart** コマンドの前に発生する**Op Mode** のコードを変更します。
 
 .. code-block:: java
 
@@ -71,10 +47,7 @@ command to set the digital channel for input mode.
    // Wait for the game to start (driver presses PLAY)
    waitForStart();
 
-Also, modify the code in your while loop to add an if-else statement
-that checks the state of the digital input channel. If the channel is
-LOW (false), the touch sensor button is pressed and being pulled LOW to
-ground. Otherwise, the touch sensor button is not pressed.
+また、whileループ内のコードを変更して、デジタル入力チャンネルの状態をチェックするif-else文を追加します。チャンネルがLOW（false）の場合、タッチセンサーボタンが押されており、グラウンドにLOWで引かれています。それ以外の場合は、タッチセンサーボタンは押されていません。
 
 .. code-block:: java
 
@@ -90,7 +63,5 @@ ground. Otherwise, the touch sensor button is not pressed.
    telemetry.addData("Status", "Running");
    telemetry.update();
 
-Build and install the updated Robot Controller app, then reinitialize
-and restart your op mode. The op mode should now display the state of
-the button ("PRESSED" or "NOT PRESSED").
+更新された **Robot Controller** アプリをビルドしてインストールし、**Op Mode** を再初期化して再起動します。**Op Mode** は、ボタンの状態（「PRESSED」または「NOT PRESSED」）を表示するようになります。
 

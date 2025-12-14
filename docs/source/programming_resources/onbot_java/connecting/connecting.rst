@@ -1,4 +1,4 @@
-Connecting to the Program & Manage Server :bdg-info:`OBJ`
+Program & Manage サーバーへの接続 :bdg-info:`OBJ`
 =========================================================
 
 

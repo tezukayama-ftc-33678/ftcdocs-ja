@@ -1,12 +1,7 @@
-Technical Mentor Resources
+技術メンターリソース
 ============================
 
-Welcome technical mentors to *FIRST* Tech Challenge! Resources have been
-organized by type to help you stay organized and be successful with teams
-throughout the season. These resources are tailored to teams and mentors with
-experience in technical fields looking to elevate their skills.  The technical
-resources are also a stepping stone towards industry standard certifications.
-Just click on the button for the resource you want to explore!
+*FIRST* Tech Challenge へ技術メンターの皆さん、ようこそ！リソースは種類別に整理されており、シーズンを通してチームと一緒に組織的かつ円滑に活動できるようになっています。これらのリソースは、技術分野で経験があり、スキルを向上させたいチームやメンター向けにカスタマイズされています。技術リソースは、業界標準の認定取得への足がかりにもなります。探したいリソースのボタンをクリックするだけです！
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -15,11 +10,11 @@ Just click on the button for the resource you want to explore!
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Control System Resources
+      制御システムリソース
 
       ^^^
 
-      Look for Control System resources here.
+      制御システムのリソースはこちらです。
 
       +++
       
@@ -33,19 +28,19 @@ Just click on the button for the resource you want to explore!
                :outline:
                :expand:
 
-               FTC Control System
+               FTC 制御システム
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Mechanical Resources
+      機械リソース
 
       ^^^
 
-      Mechanical engineering and robot building resources
+      機械工学とロボット構築のリソースです。
       
-      +++
+++++++
       
       .. div:: container-fluid p-0
       
@@ -56,17 +51,17 @@ Just click on the button for the resource you want to explore!
                :outline:
                :expand:
 
-               Robot Building Resources (external) 
+               ロボット構築リソース（外部リンク） 
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Programming Resources
+      プログラミングリソース
 
       ^^^
 
-      Links to programming resources.
+      プログラミングリソースへのリンクです。
 
       +++
       
@@ -85,13 +80,13 @@ Just click on the button for the resource you want to explore!
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      CAD Resources 
+      CAD リソース 
 
       ^^^
 
-      Look for resources for Computer-Aided Design (CAD) software.
+      コンピューター支援設計（CAD）ソフトウェアのリソースはこちらです。
       
-      +++
+++++++
       
       .. div:: container-fluid p-0
 

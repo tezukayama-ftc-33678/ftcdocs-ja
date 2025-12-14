@@ -1,19 +1,14 @@
-Running Your OpMode (All Languages)
+Op Mode の実行（全言語共通）
 -----------------------------------
 
-If your OpMode requires input from a gamepad, then you will need to
-connect a Logitech F310 or other approved gamepad to the DRIVER STATION. Note that you can
-have up to two gamepads connected to a DRIVER STATION. If using a phone,
-this will require a USB hub. However, in this example, we will only have
-a solitary gamepad connected.
+**Op Mode** がゲームパッドからの入力を必要とする場合は、Logitech F310または他の承認されたゲームパッドを**DRIVER STATION** に接続する必要があります。**DRIVER STATION** には最大2つのゲームパッドを接続できます。スマートフォンを使用する場合は、USBハブが必要です。ただし、この例では、1つのゲームパッドのみを接続します。
 
-Note that you will need an estimated 10 minutes to complete this task.
+このタスクの完了には約10分かかります。
 
-Running Your OpMode Instructions
+Op Mode の実行手順
 ---------------------------------
 
-1. Connect the gamepad to the DRIVER STATION. If using a phone, you will
-need a Micro USB OTG adapter cable.                                                        
+1. ゲームパッドを **DRIVER STATION** に接続します。スマートフォンを使用する場合は、Micro USB OTGアダプターケーブルが必要です。
 
 .. image:: images/GamepadDHConnection.jpg
    :align: center
@@ -25,24 +20,16 @@ need a Micro USB OTG adapter cable.
 
 |
 
-2. For the examples in this wiki, the OpModes are looking for input  
-from the gamepad designated as the user or driver #1. Press the Start 
-button and the A button simultaneously on the Logitech F310          
-controller to designate your gamepad as user #1. If using a PS4-style
-gamepad, use the Options and Cross buttons to designate your gamepad
-as user #1.
+2. このWikiの例では、**Op Mode** はユーザーまたはドライバー#1として指定されたゲームパッドからの入力を探します。Logitech F310コントローラーのStartボタンとAボタンを同時に押して、ゲームパッドをユーザー#1として指定します。PS4スタイルのゲームパッドを使用している場合は、OptionsボタンとCrossボタンを使用してゲームパッドをユーザー#1として指定します。
 
 .. image:: images/RunningOpModeStep3.jpg
    :align: center
 
 |
 
-   Note that pushing the Start button and the B button simultaneously would designate the gamepad as user #2.
+   注：StartボタンとBボタンを同時に押すと、ゲームパッドがユーザー#2として指定されます。
 
-3. On the DRIVER STATION screen, touch the triangular-shaped,         
-"TeleOp" dropdown list button to display a list available OpModes.   
-You should see your recently saved OpMode among the list of          
-available OpModes that reside on your Robot Controller.              
+3. **DRIVER STATION** 画面で、三角形の「**TeleOp**」ドロップダウンリストボタンをタッチして、利用可能な**Op Mode** のリストを表示します。**Robot Controller** 上にある利用可能な**Op Mode** のリストの中に、最近保存した**Op Mode** が表示されるはずです。
 
 .. image:: images/TeleopRunDH.png
    :align: center
@@ -54,10 +41,9 @@ available OpModes that reside on your Robot Controller.
 
 |
 
-   Note that the word "TeleOp" is short for "Tele-Operated" and it implies a driver controlled OpMode (i.e. an OpMode that gets input from a human driver).
+   注：「**TeleOp**」は「Tele-Operated」の略で、ドライバーが制御する**Op Mode** （つまり、人間のドライバーから入力を受け取る**Op Mode** ）を意味します。
 
-4. Select "MyFIRSTOpMode" to load your OpMode on the Robot           
-Controller.                                                           
+4. 「MyFIRSTOpMode」を選択して、**Robot Controller** に**Op Mode** をロードします。
 
 .. image:: images/OpModeSelectionDH.png
    :align: center
@@ -69,9 +55,9 @@ Controller.
 
 |
 
-   Note that even though you are using the DRIVER STATION to select the OpMode, the actual OpMode instructions will be executed on the Robot Controller.
+   注：**DRIVER STATION** を使用して**Op Mode** を選択していますが、実際の**Op Mode** の命令は**Robot Controller** で実行されます。
 
-1. Press the INIT button to initialize your OpMode.                  
+5. INITボタンを押して、**Op Mode** を初期化します。
 
 .. image:: images/InitDH.png
    :align: center
@@ -83,8 +69,7 @@ Controller.
 
 |
 
-6. Push the Start button (designated by the triangular-shaped symbol) 
-to start the OpMode run.                                             
+6. Startボタン（三角形の記号で示される）を押して、**Op Mode** の実行を開始します。
 
 .. image:: images/RunDH.png
    :align: center
@@ -96,10 +81,7 @@ to start the OpMode run.
 
 |
 
-7. Use the left joystick of the gamepad to control the operation of   
-the DC motor. As you manipulate the left joystick up and down, the    
-target power and the motor power should be displayed in the upper     
-right hand corner of the screen.                                       
+7. ゲームパッドの左ジョイスティックを使用して、DCモーターの動作を制御します。左ジョイスティックを上下に操作すると、ターゲットパワーとモーターパワーが画面の右上隅に表示されるはずです。
 
 .. image:: images/TelemetryDH.png
    :align: center
@@ -111,5 +93,5 @@ right hand corner of the screen.
 
 |
 
-   If you want to stop your OpMode, press the square-shaped Stop button on the DRIVER STATION.
+   **Op Mode** を停止したい場合は、**DRIVER STATION** の四角形のStopボタンを押します。
 

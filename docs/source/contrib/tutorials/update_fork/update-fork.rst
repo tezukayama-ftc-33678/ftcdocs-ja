@@ -26,4 +26,4 @@ Steps
     
     Note the new message indicating that your fork is up to date with the original repository.
 
-More information on the process can be found on `GitHub Documentation <https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork>`_.
+More information on the process can be found on `GitHub Documentation <https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork>`__.

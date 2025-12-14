@@ -1,147 +1,91 @@
-Managing OpModes in Blocks :bdg-warning:`Blocks`
+Blocks での Op Mode 管理 :bdg-warning:`Blocks`
 ================================================
 
-Blocks is a programming language that uses graphical programming elements to
-create programs. As such its file format is different than, say, a JAVA or
-other text-based programming language file. Blocks programs are saved with a
-**.blk** extension, but its contents are actually formatted as XML (Extensible
-Markup Language).  The actual XML format in a Blocks program is beyond the
-scope of this document, except to say that it's not intended to be
-read/viewed/interpreted by any other program than Blocks. There is not a
-general program on a MAC or a PC that can view or edit the Blocks program, it
-must always be done through the Blocks interface within the Robot Controller
-App (running on a REV Control Hub or legal Android SmartPhone) - that is, to
-say, you cannot simply double-click on the file to open it up in an editor
-program that lives on your computer.
+**Blocks** は、グラフィカルなプログラミング要素を使用してプログラムを作成するプログラミング言語です。そのため、そのファイルフォーマットは、JAVAや他のテキストベースのプログラミング言語ファイルとは異なります。**Blocks** プログラムは**.blk** 拡張子で保存されますが、その内容は実際にはXML（Extensible Markup Language）としてフォーマットされています。**Blocks** プログラムの実際のXMLフォーマットは、このドキュメントの範囲を超えていますが、**Blocks** 以外のプログラムで読み取り/表示/解釈されることを意図していないことだけは言っておきます。MACやPCで**Blocks** プログラムを表示または編集できる一般的なプログラムは存在せず、常に**Robot Controller** アプリ（**REV Control Hub** または認可されたAndroid スマートフォン上で実行される）内の**Blocks** インターフェースを通じて行う必要があります。つまり、ファイルをダブルクリックして、コンピューター上のエディタープログラムで開くことはできません。
 
-Creating an OpMode
+Op Mode の作成
 ------------------
 
-There is a :doc:`great tutorial for creating OpModes
-<../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` that also explains a
-lot about the Blocks interface and helps you to understand what a Blocks
-program does. It is recommended to check out this document for learning how to
-work with Blocks OpModes. 
+:doc:`Op Mode 作成のための優れたチュートリアル
+<../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` があり、**Blocks** インターフェースについて多くのことを説明し、**Blocks** プログラムが何をするのかを理解するのに役立ちます。**Blocks** の**Op Mode** の使い方を学ぶために、このドキュメントを確認することをお勧めします。 
 
-Saving an OpMode
+Op Mode の保存
 ----------------
 
-It's important to understand what is meant by **"Saving"** an OpMode. When
-programming/editing an OpMode, you're using either a web browser (Chrome, etc.)
-or you are using a program *acting* as a web browser (REV Hardware Client,
-etc.).  The program that you are creating/editing only *ephemerally* exists
-within the web browser; there is no auto-save or feature to ensure that the
-program is ultimately saved back onto the device (REV Control Hub or approved
-SmartPhone) for use by a robot. Only the *SAVE* operation will actually
-save the OpMode to a **.blk** file onto the device. Therefore, it's imperative
-that Blocks programmers *SAVE* their work often, and especially once they have
-completed their work. The mechanism by which you can *SAVE* an OpMode is via
-the "**Save Op Mode**" button within the editing window of the software.
+**Op Mode** の** 「保存」** が何を意味するかを理解することが重要です。**Op Mode** をプログラミング/編集する際、Webブラウザ（Chromeなど）を使用するか、Webブラウザとして *動作する* プログラム（REV Hardware Clientなど）を使用します。作成/編集しているプログラムは、Webブラウザ内に *一時的に* のみ存在します。自動保存機能や、プログラムが最終的にデバイス（**REV Control Hub** または承認されたスマートフォン）に保存されることを保証する機能はありません。*保存* 操作のみが、実際に **Op Mode** を**.blk** ファイルとしてデバイスに保存します。したがって、**Blocks** プログラマーは頻繁に作業を *保存* し、特に作業が完了したら必ず保存することが不可欠です。**Op Mode** を *保存* するメカニズムは、ソフトウェアの編集ウィンドウ内の「**Save Op Mode**」ボタンを使用します。
 
 .. figure:: images/blocks_save.jpg
    :align: center
    :width: 80%
    :alt: Saving Opmode
 
-   Saving the OpMode within the Blocks Editor
+   Blocks エディター内での Op Mode の保存
 
-Once a program is saved, a message will appear on the right-hand side of the 
-same row to indicate that the program has been saved.
+プログラムが保存されると、プログラムが保存されたことを示すメッセージが同じ行の右側に表示されます。
 
 .. figure:: images/blocks_saved.jpg
    :align: center
    :width: 80%
    :alt: Opmode Saved
 
-   Message indicating OpMode has been Saved
+   Op Mode が保存されたことを示すメッセージ
 
-Downloading an OpMode
----------------------
+Op Mode のダウンロード
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once an OpMode has been saved to a device, the OpMode can be selected via the
-DRIVER STATION or edited again via the programming interfaces. However, that
-Blocks program only exists as a Blocks File (**.blk**) on the device. Often it
-is desirable to save a copy of the program on your laptop (or on another
-device, or in some other safe location) or provide the program for use by
-others (teammates, another robot, other teams, provide online, etc.). 
+**Op Mode** がデバイスに保存されると、**DRIVER STATION** を介して**Op Mode** を選択したり、プログラミングインターフェースを介して再度編集したりできます。ただし、その**Blocks** プログラムは、デバイス上の**Blocks** ファイル（**.blk** ）としてのみ存在します。多くの場合、ラップトップ（または別のデバイス、または他の安全な場所）にプログラムのコピーを保存したり、他の人（チームメート、別のロボット、他のチーム、オンラインで提供するなど）が使用できるようにプログラムを提供したりすることが望ましいです。
 
-In order to get a copy of the Blocks program from the device, you need to 
-*download* the program from the device. You can do this in one of two ways, either 
-through the editing interface or the main Blocks management interface.
+デバイスから **Blocks** プログラムのコピーを取得するには、デバイスからプログラムを *ダウンロード* する必要があります。これは、編集インターフェースまたはメインの **Blocks** 管理インターフェースのいずれかを使用して、2つの方法のいずれかで実行できます。
 
-Downloading an OpMode through the Editing Interface
+編集インターフェースを通じた Op Mode のダウンロード
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-While editing an OpMode, an OpMode can be *saved* and it can also be *downloaded*
-(there are other options, but we're just going to focus on these two for the time
-being). When an OpMode is saved, the program is saved **onto the device** into a
-Blocks file (**.blk**). In order to save a copy of the program to your local computer
-(for safe storage or for sharing) you need to *download* the program. Downloading the
-program *does* issue a Save action on the current program, but this should not be
-relied upon - programmers should always save their program before downloading.
-Downloading an OpMode is performed via the "**Download Op Mode**" button within the Editing
-Interface.
+**Op Mode** を編集している間、**Op Mode** は *保存* でき、また *ダウンロード* もできます（他のオプションもありますが、今のところこの2つに焦点を当てます）。**Op Mode** が保存されると、プログラムは**Blocks** ファイル（**.blk** ）として** デバイス上に** 保存されます。プログラムのコピーをローカルコンピューター（安全な保管または共有のため）に保存するには、プログラムを *ダウンロード* する必要があります。プログラムをダウンロードすると、現在のプログラムに対して保存アクションが *実行されます* が、これに依存すべきではありません。プログラマーは常にダウンロードする前にプログラムを保存する必要があります。**Op Mode** のダウンロードは、編集インターフェース内の「**Download Op Mode**」ボタンを介して実行されます。
 
 .. figure:: images/blocks_download.jpg
    :align: center
    :width: 80%
    :alt: Opmode Download
 
-   Downloading a Blocks program
+   Blocks プログラムのダウンロード
 
-Pressing the "Download Op Mode" button makes the file available to the web
-browser, so the web browser will manage the file in its usual way (e.g. with
-Chrome the file is saved into the computer's "Downloads" folder).
+「Download Op Mode」ボタンを押すと、ファイルがWebブラウザで利用可能になり、Webブラウザは通常の方法でファイルを管理します（たとえば、Chromeではファイルがコンピューターの「Downloads」フォルダーに保存されます）。
 
-Downloading an OpMode through the Management Interface
+管理インターフェースを通じた Op Mode のダウンロード
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-By clicking on the "Blocks" menu item, you will be taken to the Blocks
-management interface. This interface shows you all of the Blocks OpModes
-currently on the device and provides you with options for managing those
-OpModes.
+「Blocks」メニュー項目をクリックすると、**Blocks** 管理インターフェースに移動します。このインターフェースには、現在デバイス上にあるすべての**Blocks** の**Op Mode** が表示され、それらの**Op Mode** を管理するためのオプションが提供されます。
 
 .. figure:: images/blocks_manage.png
    :align: center
    :width: 80%
    :alt: Blocks Management
 
-   Blocks Management Interface
+   Blocks 管理インターフェース
 
-OpModes can be downloaded through this interface. Initially, the "**Download
-Selected Op Modes**" button on this interface is grayed out. One or more Op Modes
-can be selected in this interface, and then they can all be downloaded at once.
-In the example below, the "Mecanum Drive" opmode is selected and then downloaded
-via the "**Download Selected Op Modes**" button.
+**Op Mode** はこのインターフェースを通じてダウンロードできます。最初、このインターフェースの「**Download Selected Op Modes**」ボタンはグレーアウトされています。このインターフェースで1つ以上の**Op Mode** を選択し、それらをすべて一度にダウンロードできます。以下の例では、「Mecanum Drive」**Op Mode** が選択され、「**Download Selected Op Modes**」ボタンを介してダウンロードされます。
 
 .. figure:: images/blocks_manage_download.png
    :align: center
    :width: 80%
    :alt: Blocks Management Download
 
-   Downloading Blocks via the Management Interface
+   管理インターフェースを介した Blocks のダウンロード
 
-Uploading Blocks
-----------------
+Blocks のアップロード
+---------------------
 
-If you have a previously downloaded Blocks file, or you receive a Blocks file
-from another source (like sample Blocks from REV, for example) you will want 
-to *upload* the Blocks file (**.blk**) to the device (REV Control Hub or 
-Android Smartphone). Within the Blocks Management interface, there is a button
-on the top menu marked, "**Upload Op Mode**". 
+以前にダウンロードした **Blocks** ファイルがある場合、または他のソース（たとえば、REVからのサンプル**Blocks** など）から**Blocks** ファイルを受け取った場合、**Blocks** ファイル（**.blk** ）をデバイス（**REV Control Hub** またはAndroid スマートフォン）に *アップロード* する必要があります。**Blocks** 管理インターフェース内には、「**Upload Op Mode**」とマークされたトップメニューのボタンがあります。
 
-Once you press "**Upload Op Mode**" a pop-up window will appear to allow you to 
-choose the file you want to upload. Click the "**Choose File**" button to open a file
-browser for your local computer to select the **.blk** Blocks file to upload.
-Once uploaded, the Blocks program will open within the Blocks interface.
+「**Upload Op Mode**」を押すと、アップロードするファイルを選択できるポップアップウィンドウが表示されます。「**Choose File**」ボタンをクリックして、ローカルコンピューターのファイルブラウザを開き、アップロードする**.blk** **Blocks** ファイルを選択します。アップロードされると、**Blocks** プログラムは**Blocks** インターフェース内で開きます。
 
 .. figure:: images/blocks_manage_upload.png
    :align: center
    :width: 80%
    :alt: Blocks Management File Upload
 
-   Uploading Blocks Files via the Management Interface
+   管理インターフェースを介した Blocks ファイルのアップロード
 
-Once a block is uploaded, it can be edited and modified like any other OpMode!
+ブロックがアップロードされると、他の **Op Mode** と同じように編集および変更できます！
 
 

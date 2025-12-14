@@ -1,7 +1,7 @@
-Image and Figure Details
+画像と図の詳細
 ========================
 
-This section has detailed information about images and figures and more advice about how to handle them in FTC Docs.
+このセクションには、画像と図に関する詳細情報と、FTC Docs での処理方法に関する詳細なアドバイスが含まれています。
 
 .. contents:: Contents
    :local:
@@ -13,18 +13,18 @@ This section has detailed information about images and figures and more advice a
 Decorative Images
 -----------------
 
-A wavy line image that is used to separate blocks of content is a decorative image.
-A photo of persons shaking hands on a page about negotiating contracts might be decorative if it was placed to look pretty.
-If the image is not directly related to the content and is only there for visual appeal then it is a decorative image.
+コンテンツのブロックを区切るために使用される波線画像は、装飾的な画像です。
+契約交渉に関するページに握手をしている人の写真が、見栄えを良くするために配置されている場合、それは装飾的である可能性があります。
+画像がコンテンツに直接関連しておらず、視覚的な魅力のためだけに存在する場合、それは装飾的な画像です。
 
-.. note:: FTC Docs does not use decorative images. Do not add an image because it looks nice.
-   This is not a marketing web site or a visual design website.
+.. note:: FTC Docs は装飾的な画像を使用しません。見栄えが良いからといって画像を追加しないでください。
+   これはマーケティングウェブサイトやビジュアルデザインウェブサイトではありません。
 
-Decorative images are also an accessibility problem. The screen reader has to process them.
-If the image has alt text it may not be related to the content so it may just cause confusion.
+装飾的な画像はアクセシビリティの問題でもあります。スクリーンリーダーはそれらを処理する必要があります。
+画像に代替テキストがある場合、それはコンテンツに関連していない可能性があるため、混乱を引き起こす可能性があります。
 
-If you really need a decorative image, use the ``.. image`` directive and include the **:alt:** option with blank text.  
-Blank alt text will cause screen readers to ignore the image, which is appropriate when the image is just there for visual presentation.
+装飾的な画像が本当に必要な場合は、``.. image`` ディレクティブを使用し、**:alt:** オプションに空白のテキストを含めます。
+空白の代替テキストにより、スクリーンリーダーは画像を無視します。これは、画像が視覚的なプレゼンテーションのためだけに存在する場合に適切です。
 
 Example
 
@@ -36,35 +36,35 @@ Example
 Image Directive
 ---------------
 
-Use the ``.. image`` directive to include an image that does **not** need a caption.
-Determine if the image needs a caption. Photo credits need a caption. Complex images probably need a caption. 
-Anything that requires an editorial or illustrative description to tie the image to the content of the page requires a caption. 
+``.. image`` ディレクティブを使用して、キャプションが **不要な** 画像を含めます。
+画像にキャプションが必要かどうかを判断します。写真のクレジットにはキャプションが必要です。複雑な画像にはおそらくキャプションが必要です。
+画像をページのコンテンツに結び付けるために編集的または説明的な説明が必要なものはすべて、キャプションが必要です。 
 
-If no caption is required then the image directive can be used. 
-Add the ``:alt:`` option and provide text that describes the image. 
-This is all you need for basic images.
+キャプションが不要な場合は、image ディレクティブを使用できます。
+``:alt:`` オプションを追加し、画像を説明するテキストを提供します。
+これは、基本的な画像に必要なすべてです。
 
 .. code:: ReST
 
    .. image:: images/butterfly.jpg
       :alt: A blue butterfly sitting on an orange flower.
 
-The alt text should have a functional description. A functional description explains exactly what is in an image. 
-These descriptions should be thorough but brief, one or two sentences.
-If a long description is required, use the `figure directive`_ and provide a long description.
+代替テキストには機能的な説明が必要です。機能的な説明は、画像の中に正確に何があるかを説明します。
+これらの説明は徹底的である必要がありますが、簡潔で、1 文または 2 文です。
+長い説明が必要な場合は、`figure directive`_ を使用して、長い説明を提供します。
 
 See `Alt Text`_ for more information about alt text.
 
-.. warning:: Sphinx will set alt text set to the path and file name of the image if you don't specify the ``:alt:`` option.
-   The HTML will look like ``<img alt="../_images/GoodStuff.png" src="../_images/GoodStuff.png">``.
-   A screen reader will read out loud the alt text **../_images/GoodStuff.png**.
+.. warning:: ``:alt:`` オプションを指定しない場合、**Sphinx** は代替テキストを画像のパスとファイル名に設定します。
+   HTML は ``<img alt="../_images/GoodStuff.png" src="../_images/GoodStuff.png">`` のようになります。
+   スクリーンリーダーは代替テキスト **../_images/GoodStuff.png** を読み上げます。
    
-   This is not good accessibility. If you are editting an existing page that has an image or figure directive with no ``:alt:`` option,
-   please take a moment to add the ``:alt:`` option with a functional description of the image.
+   これは良好なアクセシビリティではありません。``:alt:`` オプションのない画像または図のディレクティブを含む既存のページを編集している場合は、
+   画像の機能的な説明を含む ``:alt:`` オプションを追加することを検討してください。
 
-The image directive has many options, but we don't recommend most of them for FTC Docs. 
-This is new guidance, many existing pages specify **width** and **align**.
-It maybe worth removing those if you are changing the content on that page anyway.
+image ディレクティブには多くのオプションがありますが、FTC Docs ではそのほとんどを推奨していません。
+これは新しいガイダンスであり、多くの既存のページでは **width** と**align** が指定されています。
+とにかくそのページのコンテンツを変更している場合は、それらを削除する価値があるかもしれません。
 
 Image Options
 ^^^^^^^^^^^^^
@@ -102,22 +102,22 @@ target : *text (URI or reference name)*
    argument may be a URI (relative or absolute), or a reference name with
    underscore suffix (e.g. \`a name`_).
 
-The new guidance related to images comes from improving website accessibility.
-We recommending avoiding the following options.
+画像に関連する新しいガイダンスは、ウェブサイトのアクセシビリティを向上させることから来ています。
+以下のオプションを避けることをお勧めします。
 
 
 align 
-   The accessibility problem comes because the image can float to the new position with text re-flowing around it.
-   This can float the image out of context with its surrounding text. That is a big accessibility issue as images should relate to the text near them.
-   Images can float to the next page in the PDF version, sometimes the image is there all alone on an otherwise blank page.
+   アクセシビリティの問題は、画像がテキストが周囲に再配置される新しい位置に浮動できるために発生します。
+   これにより、画像が周囲のテキストとのコンテキストから浮いてしまう可能性があります。画像は近くのテキストに関連しているべきであるため、これは大きなアクセシビリティの問題です。
+   PDF バージョンでは、画像が次のページに浮動することがあり、空白のページに画像だけが単独で存在することがあります。
 
 width, height, scale
-   Width is usually used to force the image to not fill the width of the page which usually looks OK in HTML and PDF. 
-   However, when viewing in a mobile browser the image can be too small to see easily.
-   For example, a width of 50% will look fine when viewed on a big screen, but in portrait mode in a mobile browser the image will be half the width of the screen.
-   However, on mobile you can usually just use two fingers to zoom the image (as long as you don't have a physical disability with your fingers). 
+   Width は通常、画像がページの幅いっぱいにならないようにするために使用され、通常、HTML と PDF で問題なく見えます。
+   ただし、モバイルブラウザで表示すると、画像が小さすぎて簡単に見ることができない場合があります。
+   たとえば、50% の幅は大きな画面で表示すると問題なく見えますが、モバイルブラウザのポートレートモードでは、画像は画面の幅の半分になります。
+   ただし、モバイルでは、通常、2 本の指を使用して画像をズームできます（指に身体的な障害がない限り）。
    
-   The bigger accessibility problem with these options is that that Sphinx will insert a link to the image. 
+   これらのオプションのより大きなアクセシビリティの問題は、**Sphinx** が画像へのリンクを挿入することです。 
    The idea is that you can click the link to see the full size image.
    This is an accessibility issue as the link itself has no title. It does not read well in a screen reader.
    If a visually impaired person followed the link they end up on a page with no text content and no alt text either.
@@ -130,7 +130,7 @@ width, height, scale
    Then provide a separate PDF download that they can print to get accurately sized AprilTags.
    
    If you want to keep the **width** option (perhaps the image size is too big for the page), 
-   then for accessibility we recommend you add the **class** option with **no-scaled-link** e.g. ``:class: no-scaled-link``
+   then for accessibility we recommend you add the **class**option with**no-scaled-link** e.g. ``:class: no-scaled-link``
    This tells Sphinx to not create the link, but the images will have the width you want.
    Though a better option might be to change the resolution of the image if relevant detail can be preserved.
 
@@ -239,7 +239,7 @@ While both the alt attribute and the figcaption element provide a way to describ
 
 If the caption is just a functional description of the image, maybe you don't need a caption and can use the image directive instead.
 
-See more examples of `alt text and captions <https://thoughtbot.com/blog/alt-vs-figcaption#writing-for-alt-and-figcaption>`_ on this Thoughbot blog post.
+See more examples of `alt text and captions <https://thoughtbot.com/blog/alt-vs-figcaption#writing-for-alt-and-figcaption>`__ on this Thoughbot blog post.
 
 .. We probably need more examples of alt text with captions. I'm not sure this is trivial, so more examples would be nice.
 
@@ -274,7 +274,7 @@ We don't want the ``:alt:`` line to be blank for a figure.
 A screen reader will have probably spoken that there is a figure, without alt text the screen reader will skip over announcing the image and read the caption
 leaving the user wondering what the caption is referring to.
 
-The ``.. figure`` directive supports all options of the ``.. image`` directive. These options (except align) are passed on to the contained image.
+The ``.. figure``directive supports all options of the``.. image`` directive. These options (except align) are passed on to the contained image.
 
 * ``:align:``  "left", "center", or "right". 
    The horizontal alignment of the figure, allowing the image to float and have the text flow around it. The specific behavior depends upon the browser or rendering software used.

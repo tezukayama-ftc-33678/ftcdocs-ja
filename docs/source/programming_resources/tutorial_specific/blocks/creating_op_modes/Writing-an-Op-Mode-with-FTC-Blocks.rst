@@ -1,511 +1,479 @@
-Creating Op Modes :bdg-warning:`Blocks`
+Op Mode の作成 :bdg-warning:`Blocks`
 ========================================
 
 
-What's an Op Mode?
-~~~~~~~~~~~~~~~~~~
+Op Mode とは？
+~~~~~~~~~~~~~~
 
-During a typical *FIRST* Tech Challenge match, a team's robot must
-perform a variety of tasks to score points. For example, a team might
-want their robot to follow a white line on the competition floor and
-then score a game element into a goal autonomously during a match. Teams
-write programs called *op modes* (which stands for "operational modes")
-to specify the behavior for their robot. These op modes run on the Robot
-Controller after being selected on the DRIVER STATION.
+典型的な **FIRST** Tech Challenge のマッチでは、チームのロボットは得点を獲得するために
+さまざまなタスクを実行する必要があります。例えば、チームは競技フロアの白線をロボットが
+追従し、マッチ中に自律的にゲーム要素をゴールに入れることを望むかもしれません。チームは
+ロボットの動作を指定するために **op modes** （「operational modes」の略）と呼ばれる
+プログラムを作成します。これらの **op modes** は、**DRIVER STATION** で選択された後、
+**Robot Controller** 上で実行されます。
 
-Teams who are participating in the *FIRST* Tech Challenge have a variety
-of programming tools that they can use to create their own op modes.
-This section of the wiki explains how to use the Blocks Programming
-Tool to write an op mode for a robot.
+**FIRST**Tech Challenge に参加するチームは、独自の**op modes** を作成するために
+使用できるさまざまなプログラミングツールを利用できます。このセクションでは、
+**Blocks Programming Tool** を使用してロボット用の**op mode** を作成する方法を説明します。
 
-The Blocks Programming Tool
+**Blocks Programming Tool**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Blocks Programming Tool is a user-friendly programming tool that
-is served up by the Robot Controller. A user can create custom op modes
-for their robot using this tool and then save these op modes directly
-onto the Robot Controller. Users drag and drop jigsaw-shaped programming
-blocks onto a design "canvas" and arrange these blocks to create the
-program logic for their op mode. The Blocks Programming Tool is
-powered by Google's Blockly software and was developed with support from
-Google.
+**Blocks Programming Tool** は、**Robot Controller** によって提供されるユーザーフレンドリーな
+プログラミングツールです。ユーザーはこのツールを使用してロボット用のカスタム **op modes** を
+作成し、これらの **op modes** を**Robot Controller** に直接保存できます。ユーザーは
+ジグソーパズル型のプログラミングブロックをデザイン「キャンバス」上にドラッグ＆ドロップし、
+これらのブロックを配置して **op mode** のプログラムロジックを作成します。**Blocks Programming Tool** は
+Google の Blockly ソフトウェアを利用しており、Google のサポートを受けて開発されました。
 
 .. image:: images/BlocksPicture1New.jpg
    :align: center
 
 |
 
-The examples in this section use a Windows laptop computer to connect to
-the Robot Controller. This Windows laptop computer has a
-Javascript-enabled web browser installed that is used to access the 
-Blocks Programming Tool.
+このセクションの例では、Windows ラップトップコンピューターを使用して **Robot Controller** に
+接続します。この Windows ラップトップコンピューターには、**Blocks Programming Tool** に
+アクセスするために使用される JavaScript 対応のウェブブラウザがインストールされています。
 
 .. image:: images/BlocksPicture2.jpg
    :align: center
 
 |
 
-Note that the process used to create and edit an op mode is identical if
-you are using a Control Hub as your Robot Controller.
+**Robot Controller** として**Control Hub** を使用している場合でも、**op mode** を作成および
+編集するプロセスは同じです。
 
 .. image:: images/BlocksPicture2b.jpg
    :align: center
 
 |
 
-Note that if you prefer, you can use an alternate device, such as an
-Apple Mac laptop, an Apple iPad, an Android tablet, or a Chromebook,
-instead of a Windows computer to access the Blocks Programming Tool.
-The instructions included in this document, however, assume that you are
-using a Windows laptop.
+なお、Windows コンピューターの代わりに、Apple Mac ラップトップ、Apple iPad、Android タブレット、
+または Chromebook などの代替デバイスを使用して **Blocks Programming Tool** にアクセスすることも
+できます。ただし、このドキュメントに含まれる手順は、Windows ラップトップを使用していることを
+前提としています。
 
-Also note that this section of the wiki assumes that you have already
-setup and configured your Android devices and robot hardware. It also
-assumes that you have successfully connected your laptop to the Robot
-Controller's Progam & Manage wireless network.
+また、このセクションでは、Android デバイスとロボットハードウェアのセットアップと構成が既に
+完了していることを前提としています。また、ラップトップが **Robot Controller** の
+Program & Manage ワイヤレスネットワークに正常に接続されていることも前提としています。
 
-Creating Your First Op Mode
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+最初の Op Mode の作成
+~~~~~~~~~~~~~~~~~~~~~~
 
-If you connected your laptop successfully to the Program & Manage
-wireless network of the Robot Controller, then you are ready to create
-your first op mode. In this section, you will use the Blocks
-Programming Tool to create the program logic for your first op mode.
+ラップトップが **Robot Controller** の Program & Manage ワイヤレスネットワークに正常に
+接続できた場合、最初の **op mode** を作成する準備が整いました。このセクションでは、
+**Blocks Programming Tool** を使用して、最初の**op mode** のプログラムロジックを作成します。
 
-Note that it will take an estimated 10 minutes to create your first op
-mode.
+なお、最初の **op mode** の作成には約 10 分かかります。
 
-Creating Your First Op Mode Instructions
-----------------------------------------
+最初の Op Mode の作成手順
+--------------------------
 
-1. Launch the web browser on your laptop (FIRST recommends using      
-Google Chrome) and find the web address that is displayed on the      
-Program & Manage screen of the Robot Controller.
+1. ラップトップでウェブブラウザを起動し（**FIRST** では Google Chrome の使用を推奨）、
+**Robot Controller** の Program & Manage 画面に表示されているウェブアドレスを確認します。
 
-.. important:: If your Robot Controller is an Android smartphone, then the address to access the Program & Manage server is "192.168.49.1:8080".
+.. important:: **Robot Controller** が Android スマートフォンの場合、Program & Manage サーバーにアクセスするアドレスは "192.168.49.1:8080" です。
 
 .. image:: images/WritingFirstOpModeStep1a.jpg
    :align: center
 
 |
 
-.. important:: If your Robot Controller is a Control Hub, then the address to access the Program & Manage server is "192.168.43.1:8080".  Notice the difference in the third octet of the IP addresses (the Control Hub has a "43" instead of a "49").
+.. important:: **Robot Controller** が**Control Hub** の場合、Program & Manage サーバーにアクセスするアドレスは "192.168.43.1:8080" です。IP アドレスの第3オクテットの違いに注意してください（**Control Hub** は "49" ではなく "43" です）。
 
 .. image:: images/WritingFirstOpModeStep1aControlHub.jpg
    :align: center
 
 |
 
-   Type this web address into the address field of your browser and press RETURN to navigate to the Program & Manage web server.
+   このウェブアドレスをブラウザのアドレスフィールドに入力し、RETURN キーを押して Program & Manage ウェブサーバーに移動します。
 
 .. image:: images/WritingFirstOpModeStep1bControlHub.jpg
    :align: center
 
 |
 
-2. Verify that your web browser is connected to the programming mode  
-server. If it is connected to the programming mode server             
-successfully, the Robot Controller Console should be displayed.       
+2. ウェブブラウザがプログラミングモードサーバーに接続されていることを確認します。
+プログラミングモードサーバーに正常に接続されている場合、Robot Controller Console が
+表示されます。
 
 .. image:: images/WritingFirstOpModeStep2ControlHub.jpg
    :align: center
 
 |
 
-3. Press the **Blocks** link towards the top of the Console to        
-navigate to the main Blocks Programming screen.                       
+3. Console の上部にある **Blocks** リンクをクリックして、メインの**Blocks** プログラミング画面に移動します。
 
 .. image:: images/WritingFirstOpModeStep3aControlHub.jpg
    :align: center
 
 |
 
-   The main Blocks Programming screen is where you create new op modes.  It is also the screen where you can see a list of existing Blocks Op Modes on a Robot Controller.  Initially this list will be empty until you create and save your first op mode.
+   メインの Blocks Programming 画面は、新しい **op modes** を作成する場所です。また、**Robot Controller** 上の既存の Blocks Op Modes のリストを表示する画面でもあります。最初の**op mode** を作成して保存するまで、このリストは空です。
 
 .. image:: images/WritingFirstOpModeStep3bControlHub.jpg
    :align: center
 
 |
 
-4. Press the "Create New Op Mode" button which should be visible      
-towards the upper left hand corner of the browser window.             
+4. ブラウザウィンドウの左上隅に表示されている "Create New Op Mode" ボタンをクリックします。
 
 .. image:: images/WritingFirstOpModeStep4ControlHub.jpg
    :align: center
 
 |
 
-   When prompted, specify a name for the op mode and hit "OK" to continue.
+   プロンプトが表示されたら、**op mode** の名前を指定し、"OK" をクリックして続行します。
 
-5. Verify that you created the new op mode. You should see your newly 
-created op mode opened for editing in your web browser's main screen. 
+5. 新しい **op mode** が作成されたことを確認します。ウェブブラウザのメイン画面に、
+新しく作成された **op mode** が編集用に開かれているはずです。
 
 .. image:: images/WritingFirstOpModeStep5ControlHub.jpg
    :align: center
 
 |
 
-   Notice that the left-hand side of the browsers screen contains a list of categorized programming blocks.  If you click on a category, the browser will display a list of available related programming blocks.
+   ブラウザ画面の左側には、カテゴリ別に分類されたプログラミングブロックのリストが表示されています。カテゴリをクリックすると、ブラウザに関連する利用可能なプログラミングブロックのリストが表示されます。
 
-   The right-hand side of the screen is where you arrange your programming blocks to create the logic for your op mode.
+   画面の右側は、プログラミングブロックを配置して **op mode** のロジックを作成する場所です。
 
 
-Examining the Structure of Your Op Mode
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Op Mode の構造の確認
+~~~~~~~~~~~~~~~~~~~~~
 
-When you create a new op mode, there should already be a set of
-programming blocks that are placed on the design canvas for your op
-mode. These blocks are automatically included with each new op mode that
-you create. They create the basic structure for your op mode.
+新しい **op mode** を作成すると、デザインキャンバス上に既にプログラミングブロックの
+セットが配置されているはずです。これらのブロックは、作成する各新規 **op mode** に
+自動的に含まれます。これらは、**op mode** の基本構造を作成します。
 
 .. image:: images/ExaminingStructurePic1ControlHub.jpg
    :align: center
 
 |
 
-In the figure shown above, the main body of the op mode is defined by
-the outer purple bracket that has the words "to runOpMode" at the top.
-As the help tip indicates, this function is executed when this op mode
-("MyFIRSTOpMode" in this example) is selected from the DRIVER STATION.
+上図では、**op mode** のメイン本体は、上部に "to runOpMode" という文字が付いた
+外側の紫色のブラケットによって定義されています。ヘルプのヒントが示すように、
+この関数は、この **op mode** （この例では "MyFIRSTOpMode"）が**DRIVER STATION** から
+選択されたときに実行されます。
 
-It can be helpful to think of an op mode as a list of tasks for the
-Robot Controller to perform. The Robot Controller will process this list
-of tasks sequentially. Users can also use control loops (such as a while
-loop) to have the Robot Controller repeat (or iterate) certain tasks
-within an op mode.
+**op mode** を、**Robot Controller** が実行するタスクのリストと考えると役立ちます。
+**Robot Controller** は、このタスクのリストを順次処理します。ユーザーは、制御ループ
+（while ループなど）を使用して、**op mode** 内の特定のタスクを**Robot Controller** に
+繰り返し（または反復）させることもできます。
 
 .. image:: images/ExaminingStructurePic2.jpg
    :align: center
 
 |
 
-If you think about an op mode as a list of instructions for the robot,
-this set of instructions will be executed by the robot whenever a team
-member selects the op mode called "MyFIRSTOpMode" from the list of
-available op modes for this Robot Controller.
+**op mode** をロボットへの命令リストと考えると、この命令セットは、チームメンバーが
+この **Robot Controller** で利用可能な**op modes** のリストから "MyFIRSTOpMode" という
+**op mode** を選択するたびに、ロボットによって実行されます。
 
-You can hide the help text by clicking on the blue button with the
-question mark ("?") on it. Let's look at the flow of this basic op mode.
-The blue colored block with the words "Put initialization blocks here"
-is a comment. Comments are placed in an op mode for the benefit of the
-human user. The robot will ignore any comments in an op mode.
+疑問符（"?"）が付いた青いボタンをクリックすると、ヘルプテキストを非表示にできます。
+この基本的な **op mode** のフローを見てみましょう。"Put initialization blocks here" という
+文字が付いた青色のブロックはコメントです。コメントは、人間のユーザーのために **op mode** に
+配置されます。ロボットは、**op mode** 内のコメントを無視します。
 
 .. image:: images/ExaminingStructurePic3.jpg
    :align: center
 
 |
 
-Any programming blocks that are placed after the "Put initialization
-blocks here" comment (and before the "call MyFIRSTOpMode.waitForStart"
-block) will be executed when the op mode is first selected by a user at
-the DRIVER STATION.
+"Put initialization blocks here" コメントの後（および "call MyFIRSTOpMode.waitForStart" 
+ブロックの前）に配置されたプログラミングブロックは、ユーザーが **DRIVER STATION** で
+**op mode** を最初に選択したときに実行されます。
 
-When the Robot Controller reaches the block labeled "call
-MyFIRSTOpMode.waitForStart" it will stop and wait until it receives a
-Start command from the DRIVER STATION. A Start command will not be sent
-until the user pushes the Start button on the DRIVER STATION. Any code
-after the "call MyFIRSTOpMode.waitForStart" block will get executed
-after the Start button has been pressed.
+**Robot Controller** が "call MyFIRSTOpMode.waitForStart" というラベルの付いたブロックに
+到達すると、**DRIVER STATION** から Start コマンドを受信するまで停止して待機します。
+Start コマンドは、ユーザーが **DRIVER STATION** の Start ボタンを押すまで送信されません。
+"call MyFIRSTOpMode.waitForStart" ブロックの後のコードは、Start ボタンが押された後に
+実行されます。
 
 .. image:: images/ExaminingStructurePic4.jpg
    :align: center
 
 |
 
-After the "call MyFIRSTOpMode.waitForStart", there is a conditional "if"
-block ("if call MyFIRSTOpMode.isActive") that only gets executed if the
-op mode is still active (i.e., a stop command hasn't been received).
+"call MyFIRSTOpMode.waitForStart" の後には、条件付き "if" ブロック
+（"if call MyFIRSTOpMode.isActive"）があり、**op mode** がまだアクティブな場合
+（つまり、停止コマンドが受信されていない場合）にのみ実行されます。
 
 .. image:: images/ExaminingStructurePic4bControlhub.jpg
    :align: center
 
 |
 
-Any blocks that are placed after the "Put run blocks here" comment and
-before the green block labeled "repeat while call
-MyFirstOpMode.opModeIsActive" will be executed sequentially by the Robot
-Controller after the Start button has been pressed.
+"Put run blocks here" コメントの後、"repeat while call MyFirstOpMode.opModeIsActive" という
+ラベルの付いた緑色のブロックの前に配置されたブロックは、Start ボタンが押された後、
+**Robot Controller** によって順次実行されます。
 
-The green block labeled "repeat while call MyFirstOpMode.opModeIsActive"
-is an iterative or looping control structure.
+"repeat while call MyFirstOpMode.opModeIsActive" というラベルの付いた緑色のブロックは、
+反復またはループ制御構造です。
 
 .. image:: images/ExaminingStructurePic5ControlHub.jpg
    :align: center
 
 |
 
-This green control block will perform the steps listed under the "do"
-portion of the block as long as the condition "call
-MyFIRSTOpMode.opModeIsActive" is true. What this means is that the
-statements included in the "do" portion of the block will repeatedly be
-executed as long as the op mode "MyFIRSTOpMode" is running. Once the
-user presses the Stop button, the "call MyFIRSTOpMode.opModeIsActive"
-clause is no longer true and the "repeat while" loop will stop repeating
-itself.
+この緑色の制御ブロックは、"call MyFIRSTOpMode.opModeIsActive" の条件が true である限り、
+ブロックの "do" 部分にリストされているステップを実行します。これは、**op mode** 
+"MyFIRSTOpMode" が実行されている限り、ブロックの "do" 部分に含まれるステートメントが
+繰り返し実行されることを意味します。ユーザーが Stop ボタンを押すと、
+"call MyFIRSTOpMode.opModeIsActive" 句は true ではなくなり、"repeat while" ループは
+繰り返しを停止します。
 
-Controlling a DC Motor
-~~~~~~~~~~~~~~~~~~~~~~
+DC モーターの制御
+~~~~~~~~~~~~~~~~~~
 
-In this section, you will add some blocks to your op mode that will
-allow you to control a DC motor with a gamepad.
+このセクションでは、ゲームパッドで DC モーターを制御できるようにするブロックを
+**op mode** に追加します。
 
-Note that you will need an estimated 15 minutes to complete this task.
+なお、このタスクを完了するには約 15 分かかります。
 
-.. important:: The programming blocks for user configured devices (motors, servos and sensors) will only be visible in the Blocks tool if there is an active configuration file with the configured devices included in the file. If a type of device is not included in the active configuration file, then its programming blocks will be missing from the palette of blocks.
+.. important:: ユーザーが構成したデバイス（モーター、サーボ、センサー）のプログラミングブロックは、構成されたデバイスが含まれたアクティブな構成ファイルがある場合にのみ、Blocks ツールに表示されます。デバイスのタイプがアクティブな構成ファイルに含まれていない場合、そのプログラミングブロックはブロックのパレットから欠落します。
 
-If you did not :doc:`create and activate a configuration file yet </hardware_and_software_configuration/connecting_devices/index>` please follow :doc:`this link </hardware_and_software_configuration/connecting_devices/index>`  
-to do so. After you created and activated your configuration file, 
-you can close and then reopen your op mode so that the programming 
-blocks for the newly configured devices will be visible.
+まだ :doc:`構成ファイルを作成してアクティブ化していない </hardware_and_software_configuration/connecting_devices/index>` 場合は、
+:doc:`このリンク </hardware_and_software_configuration/connecting_devices/index>` に従って実行してください。
+構成ファイルを作成してアクティブ化した後、**op mode** を閉じて再度開くと、新しく構成された
+デバイスのプログラミングブロックが表示されます。
 
-Modifying Your Op Mode to Control a DC Motor Instructions
----------------------------------------------------------
+DC モーターを制御するための Op Mode の変更手順
+--------------------------------------------------
 
-1. On the left-hand side of the screen click on the category called   
-"Variables" to display the list of block commands that are used to    
-create and modify variables within your op mode.                      
+1. 画面の左側にある "Variables" というカテゴリをクリックして、**op mode** 内で
+変数を作成および変更するために使用されるブロックコマンドのリストを表示します。
 
 .. image:: images/AddingDCMotorStep1ControlHub.jpg
    :align: center
 
 |
 
-   Click on "Create variable..." to create a new variable that will represent the target motor power for our op mode.
+   "Create variable..." をクリックして、**op mode** のターゲットモーター出力を表す新しい変数を作成します。
 
-2. When prompted, type in a name ("tgtPower") for your new variable.  
+2. プロンプトが表示されたら、新しい変数の名前（"tgtPower"）を入力します。
 
 .. image:: images/AddingDCMotorStep2ControlHub.jpg
    :align: center
 
 |
 
-3. Once you have created your new variable, some additional           
-programming blocks should appear under the "Variables" block          
-category.                                                             
+3. 新しい変数を作成すると、"Variables" ブロックカテゴリの下に追加の
+プログラミングブロックが表示されます。
 
 .. image:: images/AddingDCMotorStep3ControlHub.jpg
    :align: center
 
 |
 
-4. Click on the "set tgtPower to" programming block and then use the  
-mouse to drag the block to the spot just after the "Put loop blocks   
-here" comment block.                                                  
+4. "set tgtPower to" プログラミングブロックをクリックし、マウスを使用して
+"Put loop blocks here" コメントブロックの直後の位置にブロックをドラッグします。
 
 .. image:: images/AddingDCMotorStep4ControlHub.jpg
    :align: center
 
 |
 
-   The "set tgtPower to" block should snap right into position.
+   "set tgtPower to" ブロックは、正しい位置にスナップされます。
 
-5. Click on the "Gamepad" category of the programming blocks and      
-select the "gamepad1.LeftStickY" block from the list of available     
-blocks.  
+5. プログラミングブロックの "Gamepad" カテゴリをクリックし、利用可能な
+ブロックのリストから "gamepad1.LeftStickY" ブロックを選択します。
 
 .. image:: images/AddingDCMotorStep5ControlHub.jpg
    :align: center
 
 |
 
-   Note that the control system lets you have up to two gamepads controlling a robot.  By selecting "gamepad1" you are telling the op mode to use the control input from the gamepad that is designated as driver #1.
+   制御システムでは、最大 2 つのゲームパッドでロボットを制御できます。"gamepad1" を選択することで、ドライバー #1 として指定されたゲームパッドからの制御入力を使用するように **op mode** に指示しています。
 
-6. Drag the "gamepad1.LeftStickY" block so it snaps in place onto the 
-right side of the "set tgtPower to" block. This set of blocks will    
-continually loop and read the value of gamepad #1's left joystick     
-(the y position) and set the variable tgtPower to the Y value of the  
-left joystick.  
+6. "gamepad1.LeftStickY" ブロックをドラッグして、"set tgtPower to" ブロックの
+右側にスナップするように配置します。このブロックセットは、継続的にループして
+ゲームパッド #1 の左ジョイスティック（y 位置）の値を読み取り、変数 tgtPower を
+左ジョイスティックの Y 値に設定します。
 
 .. image:: images/AddingDCMotorStep6a.jpg
    :align: center
 
 |
 
-   Note that for the F310 gamepads, the Y value of a joystick ranges from -1, when a joystick is in its topmost position, to +1, when a joystick is in its bottommost position.
+   F310 ゲームパッドの場合、ジョイスティックの Y 値は、ジョイスティックが最上位置にあるときは -1 から、最下位置にあるときは +1 までの範囲です。
 
 .. image:: images/AddingDCMotorStep6bControlHub.jpg
    :align: center
 
 |
 
-   This means that for the blocks shown in our example, if the left joystick is pushed to the top, the variable tgtPower will have a value of -1.
+   これは、例に示されているブロックの場合、左ジョイスティックを上に押すと、変数 tgtPower の値は -1 になることを意味します。
 
-7. Click on the "Math" category for the programming blocks and select 
-the negative symbol ("-").   
+7. プログラミングブロックの "Math" カテゴリをクリックし、負の記号（"-"）を
+選択します。
 
 .. image:: images/AddingDCMotorStep7ControlHub.jpg
    :align: center
 
 |
 
-8. Drag the negative symbol (also known as a "negation operator") to  
-the left of the "gamepad1.LeftStickY" block. It should click in place 
-after the "set tgtPower to" block and before the                      
-"gamepad1.LeftStickY" block.    
+8. 負の記号（「否定演算子」とも呼ばれます）を "gamepad1.LeftStickY" ブロックの
+左側にドラッグします。"set tgtPower to" ブロックの後、"gamepad1.LeftStickY" 
+ブロックの前にクリックして配置されます。
 
 .. image:: images/AddingDCMotorStep8ControlHub.jpg
    :align: center
 
 |
 
-With this change, the variable tgtPower will be set to +1 if the left joystick is in its topmost position and will be set to -1 if the joystick is in its bottommost position.
+この変更により、左ジョイスティックが最上位置にある場合、変数 tgtPower は +1 に設定され、ジョイスティックが最下位置にある場合は -1 に設定されます。
 
-9. Click on the "Actuators" category of blocks. Then click on the     
-"DcMotor" category of blocks.   
+9. ブロックの "Actuators" カテゴリをクリックします。次に、"DcMotor" カテゴリの
+ブロックをクリックします。
 
 .. image:: images/AddingDCMotorStep9ControlHub.jpg
    :align: center
 
 |
 
-10. Select the "set motorTest.Power to 1" programming block.   
+10. "set motorTest.Power to 1" プログラミングブロックを選択します。
 
 .. image:: images/AddingDCMotorStep10ControlHub.jpg
    :align: center
 
 |    
 
-11. Drag and place the "set motorTest.Power to 1" block so that it    
-snaps in place right below the "set tgtPower to" block.               
+11. "set motorTest.Power to 1" ブロックをドラッグして、"set tgtPower to" ブロックの
+すぐ下にスナップするように配置します。               
 
 .. image:: images/AddingDCMotorStep11ControlHub.jpg
    :align: center
 
 |
 
-12. Click on the "Variables" block category and select the "tgtPower" 
-block.                                                                
+12. "Variables" ブロックカテゴリをクリックし、"tgtPower" ブロックを選択します。
 
 .. image:: images/AddingDCMotorStep12ControlHub.jpg
    :align: center
 
 |
 
-13. Drag the "tgtPower" block so it snaps in place just to the right  
-of the "set motor1.Power to" block.                                   
+13. "tgtPower" ブロックをドラッグして、"set motor1.Power to" ブロックの
+すぐ右側にスナップするように配置します。
 
 .. image:: images/AddingDCMotorStep13ControlHub.jpg
    :align: center
 
 |
 
-   The "tgtPower" block should automatically replace the default value of "1" block.
+   "tgtPower" ブロックは、デフォルト値の "1" ブロックを自動的に置き換えます。
 
-Inserting Telemetry Statements
+テレメトリステートメントの挿入
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Your op mode is just about ready to run. However, before continuing, you
-will add a couple of telemetry statements that will send information
-from the Robot Controller to the DRIVER STATION for display on the
-DRIVER STATION user interface. This telemetry mechanism is a useful way
-to display status information from the robot on the DRIVER STATION. You
-can use this mechanism to display sensor data, motor status, gamepad
-state, etc. from the Robot Controller to the DRIVER STATION.
+**op mode** はほぼ実行準備が整いました。ただし、続行する前に、**Robot Controller** から
+**DRIVER STATION** に情報を送信し、**DRIVER STATION** のユーザーインターフェースに
+表示するテレメトリステートメントをいくつか追加します。このテレメトリメカニズムは、
+ロボットからの状態情報を **DRIVER STATION** に表示するための便利な方法です。
+このメカニズムを使用して、センサーデータ、モーターの状態、ゲームパッドの状態などを
+**Robot Controller** から**DRIVER STATION** に表示できます。
 
-Note that you will need an estimated 15 minutes to complete this task.
+なお、このタスクを完了するには約 15 分かかります。
 
-Inserting Telemetry Statements Instructions
--------------------------------------------
+テレメトリステートメントの挿入手順
+------------------------------------
 
-1. Click on the "Utilities" category on the left-hand side of the     
-browser window. Select the "Telemetry" subcategory and select the     
-"call telemetry.addData(key, number)" block.                          
+1. ブラウザウィンドウの左側にある "Utilities" カテゴリをクリックします。
+"Telemetry" サブカテゴリを選択し、"call telemetry.addData(key, number)" ブロックを
+選択します。
 
 .. image:: images/TelemetryMotorStep1ControlHub.jpg
    :align: center
 
 |
 
-2. Drag the "call telemetry.addData(key, number)" block and place it  
-below the "set motor1.Power to" block. Click on the green text block  
-"key" and highlight the text and change it to read "Target Power".    
+2. "call telemetry.addData(key, number)" ブロックをドラッグして、
+"set motor1.Power to" ブロックの下に配置します。緑色のテキストブロック "key" を
+クリックしてテキストをハイライトし、"Target Power" と読めるように変更します。
 
 .. image:: images/TelemetryMotorStep2ControlHub.jpg
    :align: center
 
 |
 
-   Note that the "call telemetry.update" block is an important block.  Data that is added to the telemetry buffer will not be sent to the DRIVER STATION until the "telemetry.update" method is called.
+   "call telemetry.update" ブロックは重要なブロックです。テレメトリバッファに追加されたデータは、"telemetry.update" メソッドが呼び出されるまで **DRIVER STATION** に送信されません。
 
-3. Click on the "Variables" block category and select the "tgtPower"  
-block. Drag the block so it clicks into place next to the "number"    
-parameter on the telemetry programming block.                         
+3. "Variables" ブロックカテゴリをクリックし、"tgtPower" ブロックを選択します。
+ブロックをドラッグして、テレメトリプログラミングブロックの "number" パラメーターの
+隣にクリックして配置します。
 
 .. image:: images/TelemetryMotorStep3ControlHub.jpg
    :align: center
 
 |
 
-   The Robot Controller will send the value of the variable tgtPower to the DRIVER STATION with a key or label of "Target Power".  The key will be displayed to the left of the value on the DRIVER STATION.
+   **Robot Controller** は、変数 tgtPower の値を "Target Power" というキーまたはラベルとともに**DRIVER STATION** に送信します。キーは、**DRIVER STATION** の値の左側に表示されます。
 
-4. Repeat this process and name the new key "Motor Power".            
+4. このプロセスを繰り返し、新しいキーに "Motor Power" という名前を付けます。
 
 .. image:: images/TelemetryMotorStep4ControlHub.jpg
    :align: center
 
 |
 
-5. Find and click on the "DcMotor" subcategory. Look for the green    
-programming block labeled "motorTest.Power".                          
+5. "DcMotor" サブカテゴリを見つけてクリックします。"motorTest.Power" という
+ラベルの付いた緑色のプログラミングブロックを探します。
 
 .. image:: images/TelemetryMotorStep5ControlHub.jpg
    :align: center
 
 |
 
-6. Drag the "motorTest.Power" block to the "number" parameter of the  
-second telemetry block.                                               
+6. "motorTest.Power" ブロックを 2 番目のテレメトリブロックの "number" パラメーターに
+ドラッグします。
 
 .. image:: images/TelemetryMotorStep6ControlHub.jpg
    :align: center
 
 |
 
-   Your op mode will now also send the motor power information from the Robot Controller to be displayed on the DRIVER STATION.
+   これで、**op mode** はモーター出力情報も**Robot Controller** から送信して、**DRIVER STATION** に表示されるようになります。
 
-Saving Your Op Mode
-~~~~~~~~~~~~~~~~~~~
+Op Mode の保存
+~~~~~~~~~~~~~~
 
-After you have modified your op mode, it is very important to save the
-op mode to the Robot Controller.
+**op mode** を変更した後、**op mode** を**Robot Controller** に保存することが非常に重要です。
 
-Note it will take an estimated 1 minute to complete this task.
+なお、このタスクを完了するには約 1 分かかります。
 
-Saving Your Op Mode Instructions
+Op Mode の保存手順
+------------------
+
+1. "Save Op Mode" ボタンをクリックして、**op mode** を**Robot Controller** に保存します。
+保存が成功すると、ボタンの右側に "Save completed successfully" という文字が表示されます。
+
+.. image:: images/SavingOpModeStep1ControlHub.jpg
+   :align: center
+
+|
+
+
+Program & Manage 画面の終了
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**op mode** を変更して保存した後、**DRIVER STATION** がまだ Program & Manage 画面に
+ある場合は、この画面を終了してメインの **DRIVER STATION** 画面に戻る必要があります。
+
+なお、このタスクを完了するには約 1 分かかります。
+
+
+プログラミングモードの終了手順
 --------------------------------
 
-1. Press the "Save Op Mode" button to save the op mode to the Robot   
-Controller. If your save was successful, you should see the words     
-"Save completed successfully" to the right of the buttons.            
+1. Android の戻る矢印をクリックして、Program & Manage 画面を終了します。
+**op mode** を実行する前に、Program & Manage 画面を終了する必要があります。
 
 .. image:: images/SavingOpModeStep1ControlHub.jpg
    :align: center
 
 |
 
-
-Exiting Program & Manage Screen
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-After you have modified and saved your op mode, if your DRIVER STATION
-is still in the Program & Manage screen, then you should exit this
-screen and return to the Main DRIVER STATION screen.
-
-Note it will take an estimated 1 minute to complete this task.
-
-
-Exiting Programming Mode Instructions
--------------------------------------
-
-1. Press the Android back arrow to exit the Program & Manage screen.  
-You need to exit the Program & Manage screen before you can run your  
-op mode.                                                              
-
-.. image:: images/SavingOpModeStep1ControlHub.jpg
-   :align: center
-
-|
-
-Congratulations! You wrote your first op mode using the Blocks
-Programming Tool! You will learn how to run your op mode in the the
-section entitled :doc:`Running Your Op Mode <../running_op_modes/Running-Your-Op-Mode>`.
+おめでとうございます！**Blocks Programming Tool** を使用して最初の**op mode** を
+作成しました！**op mode** の実行方法については、
+:doc:`Running Your Op Mode <../running_op_modes/Running-Your-Op-Mode>` という
+セクションで学習します。

@@ -1,72 +1,39 @@
-Example: Read-Write File Access
+例：ファイルの読み書きアクセス
 ===============================
 
-The current version of regular Blocks (SDK 7.0) does not provide
-**read/write access to an external file**, other than automatic Log or
-Match Log file entries. File access is a useful capability, available so
-far to Java programmers only. Now it can be done with myBlocks!
+通常の **Blocks** の現在のバージョン（**SDK**7.0）では、自動ログまたはマッチログファイルエントリ以外に、** 外部ファイルへの読み書きアクセス** を提供していません。ファイルアクセスは有用な機能であり、これまでのところ Java プログラマーのみが利用できます。**myBlocks** を使用すれば可能です！
 
-Here’s an example pair of myBlocks. One myBlock **writes** a numeric
-value to a specified filename, and a companion myBlock can later
-**read** that value from the same file.
+ここでは、**myBlocks** のペアの例を示します。1つの**myBlock** は数値を指定されたファイル名に** 書き込み**、コンパニオン**myBlock** は後でその値を同じファイルから** 読み取る** ことができます。
 
 .. image:: images/a0550-file-access-Blocks.png
 
-The file is stored on the Control Hub or RC phone, in the FIRST/settings
-folder. It exists separately from the RC app, OpModes, and other 
-files.
+ファイルは **Control Hub** または RC スマートフォンの FIRST/settings フォルダーに保存されます。RC アプリ、**OpModes** 、およびその他のファイルとは別に存在します。
 
-Write and read actions can happen in the same OpMode or **different
-OpModes**, allowing various scenarios:
+書き込みおよび読み取りアクションは、同じ **OpMode** または** 異なる OpModes** で発生でき、さまざまなシナリオが可能です：
 
--  Autonomous passes information to TeleOp. For example, what was the
-   latest value of a sensor or encoder?
+-  **Autonomous** が**TeleOp** に情報を渡します。たとえば、センサーまたはエンコーダーの最新の値は何でしたか？
 
--  A special **set-up OpMode** allows gamepad input to choose an
-   autonomous strategy and adjust key parameters. The robot could then
-   be idle for a long time, even turned off. When the match begins, the
-   Autonomous OpMode would read those settings and implement the
-   chosen/adjusted actions.
+-  特別な**セットアップ OpMode** により、ゲームパッド入力で自律戦略を選択し、重要なパラメーターを調整できます。ロボットはその後長時間アイドル状態になり、電源がオフになる可能性もあります。試合が始まると、**Autonomous** **OpMode** はそれらの設定を読み取り、選択/調整されたアクションを実装します。
 
--  A **dedicated log file** reports key sensor data in a custom format,
-   with optional time-stamps. For program development and debugging,
-   this could be more efficient than working with the large standard
-   logs or Match Logs.
+-  **専用ログファイル** は、オプションのタイムスタンプを使用して、カスタム形式で主要なセンサーデータを報告します。プログラム開発とデバッグの場合、これは大規模な標準ログまたはマッチログを操作するよりも効率的です。
 
-The Java code for this example is available
-below, with **extensive comments** that explain some unfamiliar Java
-expressions. The code can be copied and pasted directly into OnBot Java
-or Android Studio.
+この例の Java コードは、いくつかの馴染みのない Java 式を説明する**広範なコメント** とともに、以下で入手できます。コードは**OnBot Java** または**Android Studio** に直接コピーして貼り付けることができます。
 
-   Programming tip: Instead of memorizing every possible Java command,
-   programmers often study and modify existing code for a similar task.
-   Unfamiliar commands are explored with an internet search, reference
-   book, at the `Javadoc
-   reference <https://javadoc.io/doc/org.firstinspires.ftc>`__, or at
-   the official `Oracle
-   Javadoc <https://docs.oracle.com/javase/7/docs/api/>`__.
+   プログラミングのヒント：可能なすべての Java コマンドを暗記する代わりに、プログラマーは類似のタスクの既存のコードを研究および変更することがよくあります。馴染みのないコマンドは、インターネット検索、参考書、`Javadoc リファレンス <https://javadoc.io/doc/org.firstinspires.ftc>`__、または公式の `Oracle Javadoc <https://docs.oracle.com/javase/7/docs/api/>`__ で調べられます。
 
-This simple example supports only a single numeric value per filename.
-Better versions would allow multiple values and data types – a good
-programming challenge!
+この簡単な例では、ファイル名ごとに単一の数値のみをサポートしています。より良いバージョンでは、複数の値とデータ型が可能になります - 優れたプログラミングの課題です！
 
-Be careful about placing **myBlocks inside loops**. Expanding on the
-current example, your myBlock might read a larger amount of (unchanging)
-data from a file. If your OpMode needs that data only once, reading the
-file in a loop needlessly adds cycle time and might increase the risk of
-a corrupt or interrupted read operation.
+**ループ内に myBlocks を配置する** ことに注意してください。現在の例を拡張すると、**myBlock** はファイルから大量の（変更されない）データを読み取る可能性があります。**OpMode** がそのデータを一度だけ必要とする場合、ループ内でファイルを読み取ると、サイクル時間が無駄に追加され、破損または中断された読み取り操作のリスクが高まる可能性があります。
 
 .. image:: images/a0570-do-not-read-in-loop-Blocks.png
 
-Instead, read the file once and store the relevant data in a variable or
-array. Then process the variable as needed, inside the loop.
+代わりに、ファイルを一度読み取り、関連するデータを変数または配列に保存します。次に、ループ内で必要に応じて変数を処理します。
 
 .. image:: images/a0560-read-once-Blocks.png
 
-The same suggestion might apply to reading sensors and encoders, if the
-data are not changing and are needed only once.
+データが変化せず、一度だけ必要な場合、同じ提案がセンサーとエンコーダーの読み取りにも適用される可能性があります。
 
-.. dropdown:: Example Code
+.. dropdown:: サンプルコード
 
    :download:`SampleMyBlocks_v05.java <opmodes/SampleMyBlocks_v05.java>`
 

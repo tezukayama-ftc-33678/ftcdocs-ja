@@ -1,18 +1,13 @@
-Zoom
-====
+ズーム
+======
 
-Virtual zoom is described with a single dimensionless value of type
-integer. Similar to the interfaces described above, virtual zoom can be
-managed with these methods: 
+仮想ズームは、整数型の単一の無次元値で記述されます。上記で説明したインターフェイスと同様に、仮想ズームは次のメソッドで管理できます：
 
--  setZoom(int zoom) 
--  getZoom() 
--  getMinZoom() 
--  getMaxZoom()
+-  **setZoom(int zoom)**
+-  **getZoom()**
+-  **getMinZoom()**
+-  **getMaxZoom()**
 
-The Logitech C920 allows zoom values ranging from 100 to 500, although
-values higher than 250-280 have no further effect on the preview image
-(influenced by Vuforia).
+Logitech C920 は、100 から 500 までのズーム値を許可しますが、250-280 より高い値は、プレビュー画像にさらなる影響を与えません（**Vuforia** の影響を受けます）。
 
-These zoom methods are called on a PtzControl object, as described above
-for exposure.
+これらのズームメソッドは、露出について上記で説明したように、**PtzControl** オブジェクトで呼び出されます。

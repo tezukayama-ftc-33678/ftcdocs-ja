@@ -1,453 +1,280 @@
-Fork and Clone from GitHub :bdg-success:`AS`
-============================================
+GitHub からフォークとクローンを行う :bdg-success:`AS`
+======================================================
 
 .. important:: 
-   This approach assumes a basic familiarity with `git <https://docs.github.com/en/get-started/learning-about-github/github-glossary#git>`_ and `GitHub <https://github.com/>`_.  As with most
-   things related to git there are many different ways to satisfy any
-   objective.  This documentation describes one method for Windows users.
-   Users not comfortable with command line tools and git should obtain the SDK
-   via :doc:`Downloading the SDK as a zip archive
-   <../downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>`.
+   このアプローチは、`git <https://docs.github.com/en/get-started/learning-about-github/github-glossary#git>`__ と `GitHub <https://github.com/>`__ の基本的な知識があることを前提としています。git に関連することのほとんどについて、目的を達成するための方法は数多くあります。このドキュメントでは、Windows ユーザー向けの方法の一つを説明します。
+   コマンドラインツールや git に不慣れなユーザーは、:doc:`SDK を zip アーカイブとしてダウンロード
+   <../downloading_as_project_folder/Downloading-the-Android-Studio-Project-Folder>` する方法で SDK を入手してください。
 
-Forks vs. Clones 
-----------------
+フォーク vs. クローン 
+----------------------
 
-A `Fork <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`_ on GitHub is a copy of another `repository <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`_ on GitHub from one account
-to another account. The new forked repository retains a parent-child
-relationship with the `origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`_ repository. Forks are typically used when software
-will have an independent line of development, such as when FTC teams develop
-their own team code using the `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_
-repository as a basis.  FTC teams should create a Fork of the
-`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository as a convenient way to
-manage their software development process. Thanks to the parent-child
-relationship, when changes are made to the parent repository those changes can
-be easily tracked and `fetched <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`_/`merged <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`_ into the forked repository, keeping the
-forked repository up to date.
+GitHub 上の `フォーク <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`__ とは、GitHub 上のある `リポジトリ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`__ を、あるアカウントから別のアカウントにコピーすることです。新しくフォークされたリポジトリは、`origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`__ リポジトリとの親子関係を保持します。フォークは通常、ソフトウェアが独立した開発ラインを持つ場合に使用されます。例えば、FTC チームが `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリをベースに独自のチームコードを開発する場合などです。FTC チームは、ソフトウェア開発プロセスを管理する便利な方法として、`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリのフォークを作成する必要があります。親子関係のおかげで、親リポジトリに変更が加えられた場合、それらの変更を簡単に追跡し、フォークされたリポジトリに `フェッチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`__ / `マージ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`__ することができ、フォークされたリポジトリを最新の状態に保つことができます。
 
 .. warning:: 
-   Teams should not issue pull requests against the `upstream <https://docs.github.com/en/get-started/learning-about-github/github-glossary#upstream>`_ parent, the
-   FIRST-Tech-Challenge/FtcRobotContoller repository. Forks of the
-   FIRST-Tech-Challenge/FtcRobotContoller repo may always fetch changes, but
-   should never attempt to push changes up to the repo.
+   チームは、`upstream <https://docs.github.com/en/get-started/learning-about-github/github-glossary#upstream>`__ の親である FIRST-Tech-Challenge/FtcRobotContoller リポジトリに対してプルリクエストを発行しないでください。FIRST-Tech-Challenge/FtcRobotContoller リポジトリのフォークは、常に変更をフェッチすることはできますが、リポジトリに変更をプッシュすることは決して試みないでください。
 
-A `Clone <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`_ is a copy of a repository, typically on a local computer. A team
-member creates a `feature branch <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`_ of the team's repository for feature development, and
-clones the branch to a local computer. Software development and testing then
-happens completely within their local clone. Once they're finished, or they've
-reached a checkpoint, the changes within the local clone can then be pushed
-from their local clone back to the team fork. That feature branch can then be
-merged into the team's main repository branch once it has been accepted by the
-team. Multiple different developers can work seamlessly using this process.
+`クローン <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`__ は、通常はローカルコンピューター上のリポジトリのコピーです。チームメンバーは、機能開発のためにチームのリポジトリの `機能ブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone>`__ を作成し、そのブランチをローカルコンピューターにクローンします。ソフトウェアの開発とテストは、ローカルクローン内で完全に行われます。作業が完了するか、チェックポイントに到達したら、ローカルクローン内の変更をローカルクローンからチームのフォークにプッシュバックすることができます。その機能ブランチは、チームによって承認されると、チームのメインリポジトリブランチにマージすることができます。このプロセスを使用することで、複数の異なる開発者がシームレスに作業できます。
 
 
 .. figure:: images/fork-clone-diagram.png 
    :align: center 
    :width: 70% 
-   :alt: Diagram showing the relationship between forks and clones.
+   :alt: フォークとクローンの関係を示す図
 
-   The relationship between forks and clones.  The clone exists on your local
-   laptop while the fork exists on GitHub servers.
+   フォークとクローンの関係。クローンはローカルのラップトップ上に存在し、フォークは GitHub サーバー上に存在します。
 
-Branch Strategies 
------------------
+ブランチ戦略 
+-------------
 
-A `branch <https://docs.github.com/en/get-started/learning-about-github/github-glossary#branch>`_ is a series of `commits <https://docs.github.com/en/get-started/learning-about-github/github-glossary#commit>`_ that are independent of any other lines of development
-and is typically used to develop new features for the repository. The default branch for the
-FtcRobotController repository, and its forks and clones, is `master <https://docs.github.com/en/get-started/learning-about-github/github-glossary#master>`_ (though for all newer
-repositories created by GitHub the default branch is called `main <https://docs.github.com/en/get-started/learning-about-github/github-glossary#main>`_).  Using
-branches judiciously can help developers collaborate on a common set of
-software by isolating changes, keeping the default branch clean, and providing
-space for feature development to iterate independent of software that's been
-deemed 'production ready'.
+`ブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#branch>`__は、他の開発ラインから独立した一連の`コミット <https://docs.github.com/en/get-started/learning-about-github/github-glossary#commit>`__であり、通常はリポジトリの新機能を開発するために使用されます。FtcRobotController リポジトリとそのフォークおよびクローンのデフォルトブランチは、`master <https://docs.github.com/en/get-started/learning-about-github/github-glossary#master>`__ です（ただし、GitHub で作成されたすべての新しいリポジトリでは、デフォルトブランチは `main <https://docs.github.com/en/get-started/learning-about-github/github-glossary#main>`__ と呼ばれます）。ブランチを賢明に使用することで、変更を分離し、デフォルトブランチをクリーンに保ち、「本番環境対応」と見なされたソフトウェアから独立して機能開発を反復するためのスペースを提供することにより、開発者が共通のソフトウェアセットで協力することを支援できます。
 
 .. figure:: images/single-branch.*
    :align: center
-   :alt: one branch
+   :alt: 1つのブランチ
 
-   A single branch with the default name of master
+   master というデフォルト名を持つ単一のブランチ
 
-Each circle represents a commit to a branch. The name of the branch always points to the most recent
-commit, also known as the `HEAD <https://docs.github.com/en/get-started/learning-about-github/github-glossary#head>`_.  While there may be many branches there is only one HEAD and it always,
-unless it is in a `detached state <https://git-scm.com/docs/git-checkout#_detached_head>`_, points to the
-latest commit of the currently checked out branch.  All other commits point to their immediate parent.
+各円は、ブランチへのコミットを表します。ブランチの名前は常に最新のコミットを指しており、これは `HEAD <https://docs.github.com/en/get-started/learning-about-github/github-glossary#head>`__ としても知られています。多くのブランチが存在する場合でも、HEAD は1つしかなく、`デタッチド状態 <https://git-scm.com/docs/git-checkout#_detached_head>`__ でない限り、常に現在チェックアウトされているブランチの最新のコミットを指します。他のすべてのコミットは、その直接の親を指します。
 
-A commit is a `snapshot <https://docs.github.com/en/get-started/learning-about-github/github-glossary#snapshot>`_ of the entire workspace at a point in time.  Git does not store `diffs <https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff>`_.  If you make a change to a file, and
-create a new commit with the changed file, it stores the entire changed file in the commit.  To avoid unnecessary
-duplication of files, if your repository consists of three files - one changed and the other two were unchanged - then the
-snapshot merely points back to the unchanged files rather than containing unchanged data.
+コミットは、ある時点でのワークスペース全体の `スナップショット <https://docs.github.com/en/get-started/learning-about-github/github-glossary#snapshot>`__ です。Git は `差分 <https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff>`__ を保存しません。ファイルに変更を加え、変更されたファイルで新しいコミットを作成すると、変更されたファイル全体がコミットに保存されます。ファイルの不必要な重複を避けるために、リポジトリが3つのファイルで構成されており、1つが変更され、他の2つが変更されていない場合、スナップショットは変更されていないデータを含むのではなく、変更されていないファイルを指すだけです。
 
-Note that each commit has a parent which allows git to determine reachability of commits from different
-branches.  It also allows git to determine the common ancestor commit of any two branches, which is important
-when merging branches.  More on that later.
+各コミットには親があり、これにより git は異なるブランチからのコミットの到達可能性を判断できます。また、2つのブランチの共通祖先コミットを判断することもでき、これはブランチをマージする際に重要です。詳細については後述します。
 
-So what is a branch?  A branch is simply a named pointer to a commit.  When a branch is created you are just
-telling git to create a name, and point it at a commit.  Being on a branch simply means that when you add
-a new commit, git moves the branch name to the new commit and the new commit's parent is the commit that the
-branch name was pointing to previously. Since this creates a line of development independent of the parent, developers can experiment,
-make changes, develop new features, all without disrupting the work of other team members.  When a developer is satisfied
-that a branch is stable enough to be shared, the branch can be merged back into the parent.
+では、ブランチとは何でしょうか？ブランチは、単にコミットへの名前付きポインタです。ブランチが作成されると、git に名前を作成し、それをコミットに向けるように指示するだけです。ブランチ上にいるということは、新しいコミットを追加すると、git がブランチ名を新しいコミットに移動し、新しいコミットの親は、ブランチ名が以前指していたコミットになることを意味します。これにより親から独立した開発ラインが作成されるため、開発者は他のチームメンバーの作業を妨げることなく、実験し、変更を加え、新機能を開発できます。開発者がブランチが共有できるほど安定していると判断したら、ブランチを親にマージバックできます。
 
 .. figure:: images/two-branches.png
    :align: center
-   :alt: two branches
+   :alt: 2つのブランチ
 
-   Two branches that point to the same commit.
+   同じコミットを指す2つのブランチ。
 
-Immediately after creating a branch the new branch name simply points to the latest commit from the branch that
-the new branch was created from.  Now imagine that we create a new commit on that branch.
+ブランチを作成した直後、新しいブランチ名は、新しいブランチが作成されたブランチの最新のコミットを単に指します。今、そのブランチに新しいコミットを作成すると想像してください。
 
 .. figure:: images/new-commit-on-feature.png
    :align: center
-   :alt: two branches
+   :alt: 2つのブランチ
 
-   New commit on the feature branch.
+   機能ブランチの新しいコミット。
 
-Note how the new commit caused the name pointer of the feature branch to move to the new commit, while the
-name pointer for the master branch remains on the prior commit, but the parent of the new commit is the
-commit that the name pointer for master points to.  If a new commit is added to the master branch then the
-parent of the new commit is also the commit that master is pointing to thereby creating independent lines
-of development.
+新しいコミットにより、機能ブランチの名前ポインタが新しいコミットに移動した一方で、master ブランチの名前ポインタは以前のコミットに留まっていますが、新しいコミットの親は master の名前ポインタが指すコミットであることに注意してください。master ブランチに新しいコミットが追加されると、新しいコミットの親も master が指すコミットであり、これにより独立した開発ラインが作成されます。
 
 .. figure:: images/new-commit-on-master.png
    :align: center
-   :alt: independent lines of development
+   :alt: 独立した開発ライン
 
-   Two independent lines of development.
+   2つの独立した開発ライン。
 
-Eventually you typically want to merge that feature branch back into the main
-line of development represented by the master branch.  When you merge one
-branch into another, git traverses the ancestor commits of the branches
-to find the common `ancestor <https://stackoverflow.com/questions/55203122/what-do-people-mean-when-they-say-ancestor-with-regards-to-git>`_.  It then determines what changed from the
-common ancestor, to the head of each branch, and applies those changes to
-a new commit called a *merge commit*.  An artifact of this process is that
-the merge commit will have two parents.
+最終的には、通常、その機能ブランチを master ブランチで表されるメイン開発ラインにマージバックしたいと考えます。あるブランチを別のブランチにマージすると、git はブランチの祖先コミットをトラバースして、共通の`祖先 <https://stackoverflow.com/questions/55203122/what-do-people-mean-when-they-say-ancestor-with-regards-to-git>`__を見つけます。次に、共通の祖先から各ブランチの先頭までに何が変更されたかを判断し、それらの変更を*マージコミット*と呼ばれる新しいコミットに適用します。このプロセスの結果として、マージコミットには2つの親が存在します。
 
 .. figure:: images/merge-commit.png
    :align: center
-   :alt: demonstration of merge commit
+   :alt: マージコミットのデモンストレーション
 
-   Merging the feature branch back into the master branch.
+   機能ブランチを master ブランチにマージバックする。
 
-As shown above, the feature branch still exists.  New commits added to
-the feature branch will diverge again from the master branch.  However if
-development of the feature is finished, the branch can be deleted.  Deletion
-of the branch simply results in the name pointer being deleted.  Branch
-deletion does not result in the deletion of any commits that were made
-on that branch.  As you can see here, the commit that was on the feature
-branch still exists and is reachable by referencing the correct parent
-from the merge branch.
+上記のように、機能ブランチはまだ存在しています。機能ブランチに追加された新しいコミットは、master ブランチから再び分岐します。ただし、機能の開発が完了した場合、ブランチを削除できます。ブランチの削除は、名前ポインタが削除されるだけです。ブランチの削除により、そのブランチで行われたコミットが削除されることはありません。ここでわかるように、機能ブランチ上にあったコミットは依然として存在し、マージブランチから正しい親を参照することでアクセスできます。
 
-It can be useful to ensure that the default branch in team forks and clones matches the default branch for
-FIRST-Tech-Challenge/FtcRobotController.  However a typical development pattern will have team developers committing
-team software back to the master branch, whether via merges from feature branches, or direct commits to master.
+チームのフォークとクローンのデフォルトブランチが FIRST-Tech-Challenge/FtcRobotController のデフォルトブランチと一致していることを確認することは有用です。ただし、典型的な開発パターンでは、チーム開発者が機能ブランチからのマージまたは master への直接コミットのいずれかを介して、チームソフトウェアを master ブランチにコミットバックします。
 
 .. figure:: images/master-comparison.*
    :align: center 
-   :alt: FTC master vs Team master
+   :alt: FTC master vs チーム master
 
-   FIRST-Tech-Challenge/FtcRobotController master vs. typical team repository
-   master.
+   FIRST-Tech-Challenge/FtcRobotController の master と典型的なチームリポジトリの master の比較。
 
-Team commits are represented by blue circles, while commits containing SDK updates are represented by green circles.  The
-purple circle is a merge commit.  More on merges later. In this
-instance team commits are interleaved with SDK updates (1), which produces a situation where the two default branches do not match.
+チームのコミットは青い円で表され、SDK アップデートを含むコミットは緑の円で表されます。紫色の円はマージコミットです。マージについては後述します。この例では、チームのコミットが SDK アップデート (1) と混在しており、2つのデフォルトブランチが一致しない状況を生み出しています。
 
-   (1) Not really, or maybe depending upon how the commit parentage lays out.
-   This is a vastly simplified view of things, but is sufficient to demonstrate the logical concept
-   and is the view of things you get if you simply execute `git log <https://www.atlassian.com/git/tutorials/git-log>`_.
-   For an in-depth, approachable, explanation of exactly what is happening with commits as they relate to
-   branches `see this tutorial <https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/>`_.
+   (1) 実際にはそうではないか、コミットの親子関係がどのように配置されているかによります。
+   これは非常に単純化された見方ですが、論理的概念を示すには十分であり、単に `git log <https://www.atlassian.com/git/tutorials/git-log>`__ を実行した場合に得られる見方です。
+   ブランチに関連するコミットで正確に何が起こっているかについての詳細でわかりやすい説明については、`このチュートリアルを参照してください <https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/>`__。
 
-While this is a perfectly acceptable, and a very common branch management strategy, certain benefits can be obtained if we
-isolate the default branch so that it always matches the parent.  The following figure demonstrates a clone whose master branch
-is tracking the master branch from FIRST-Tech-Challenge/FtcRobotController.
+これは完全に受け入れ可能であり、非常に一般的なブランチ管理戦略ですが、デフォルトブランチを分離して常に親と一致するようにすると、特定の利点が得られます。次の図は、master ブランチが FIRST-Tech-Challenge/FtcRobotController の master ブランチを追跡しているクローンを示しています。
 
 .. figure:: images/clean-master.*
    :align: center 
-   :alt: keeping branches in sync
+   :alt: ブランチを同期させる
 
-   Team repository's master always matches
-   FIRST-Tech-Challenge/FtcRobotController's master branch.
+   チームリポジトリの master は常に FIRST-Tech-Challenge/FtcRobotController の master ブランチと一致します。
 
-The purple commit is a merge of v7.1 into the competition branch.  In this diagram, v7.2 and v8.0 remain unmerged and the
-competition branch will be building against v7.1 of the SDK.
+紫色のコミットは、v7.1 を competition ブランチにマージしたものです。この図では、v7.2 と v8.0 はマージされておらず、competition ブランチは SDK の v7.1 に対してビルドされます。
 
-Following this model means that commit history for the master branch for the team's repository will always match the commit
-history for the FIRST-Tech-Challenge/FtcRobotController's master branch.  All software that teams intend to compete with is merged into a competition branch.
-Features, new software, experiments, etc, are worked on in child branches of the competition branch and merge back into the
-competition branch, not the master branch.  SDK updates to a team clone's master branch should always be conflict free,
-updates can be done independent of merges into a competition branch, and if something goes sideways when doing a merge of
-an SDK update into development it can be more straightforward to recover as opposed to backing out of an update straight into
-master where the branches do not match.
+このモデルに従うということは、チームのリポジトリの master ブランチのコミット履歴が、常に FIRST-Tech-Challenge/FtcRobotController の master ブランチのコミット履歴と一致することを意味します。チームが競技で使用する予定のすべてのソフトウェアは、competition ブランチにマージされます。機能、新しいソフトウェア、実験などは、competition ブランチの子ブランチで作業され、master ブランチではなく competition ブランチにマージバックされます。チームクローンの master ブランチへの SDK アップデートは常に競合が発生せず、アップデートは competition ブランチへのマージとは独立して実行でき、開発への SDK アップデートのマージで問題が発生した場合、ブランチが一致しない master に直接アップデートをバックアウトする場合と比較して、復旧がより簡単になります。
 
-More detailed information on the mechanics of branching can be found here
-`Using Branches <https://www.atlassian.com/git/tutorials/using-branches>`_
+ブランチの仕組みに関する詳細情報は、こちらを参照してください
+`ブランチの使用 <https://www.atlassian.com/git/tutorials/using-branches>`__
 
-Getting Started (Quick-Start Guide) 
------------------------------------
+はじめに（クイックスタートガイド） 
+------------------------------------
 
 .. important:: 
-   The following assumes all operations are done on the master branch of your
-   local repository.
+   以下では、すべての操作がローカルリポジトリの master ブランチで行われることを前提としています。
 
-#. Obtain and install `GitForWindows <https://gitforwindows.org/>`_  This
-   software contains a git client along with a bash shell.  All of the command
-   line snippets below assume you are using a bash shell and that git is in
-   your path.  GitForWindows is the easiest way to provide this for Windows
-   machines.  Macs have a built in bash shell called terminal, but git must be
-   installed separately.
+#. `GitForWindows <https://gitforwindows.org/>`__ を入手してインストールします。このソフトウェアには、bash シェルとともに git クライアントが含まれています。以下のすべてのコマンドラインスニペットは、bash シェルを使用しており、git がパスに含まれていることを前提としています。GitForWindows は、Windows マシンにこれを提供する最も簡単な方法です。Mac には terminal と呼ばれる組み込みの bash シェルがありますが、git は個別にインストールする必要があります。
 
-#. Fork the `FIRST-Tech-Challenge/FtcRobotController
-   <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository
-   into your account on GitHub.
+#. `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ リポジトリを GitHub 上のあなたのアカウントにフォークします。
 
    .. tip::
-      This step requires you to have a GitHub account, and you need to be logged
-      in to GitHub in order to Fork a repository.
+      この手順には GitHub アカウントが必要であり、リポジトリをフォークするには GitHub にログインしている必要があります。
 
    .. figure:: images/fork.png 
       :align: center 
       :width: 80% 
-      :alt: Forking a repo
+      :alt: リポジトリのフォーク
 
-      Forking a GitHub repository.
+      GitHub リポジトリのフォーク。
 
-   Forking the repository is as easy as clicking the ":octicon:`repo-forked;1em;sd-text-info` Fork"
-   button shown in the image above. This will take you to the "Create a new fork" 
-   page, and will auto-fill the "Owner" and "Repository name" fields. Just enter a 
-   description (optional), leave the "Copy the ``master`` branch only" option checked,
-   and click the green "Create fork" button.
+   リポジトリのフォークは、上の画像に示されている ":octicon:`repo-forked;1em;sd-text-info` Fork" ボタンをクリックするだけで簡単に行えます。これにより「新しいフォークを作成」ページに移動し、「所有者」と「リポジトリ名」のフィールドが自動入力されます。説明を入力し（オプション）、「``master`` ブランチのみをコピー」オプションをチェックしたままにして、緑色の「フォークを作成」ボタンをクリックするだけです。
 
-   Once created, your new fork will be located at ``github.com/<username>/FtcRobotController`` 
-   unless you edited the fork name.
+   作成されると、フォーク名を編集しない限り、新しいフォークは ``github.com/<ユーザー名>/FtcRobotController`` に配置されます。
 
-#. Clone from your fork onto your local computer.  Note in the image below the
-   account is FIRST-Tech-Challenge, but after your fork, the account should be
-   your team account.  In all other respects the user interface will be
-   identical.
+#. フォークからローカルコンピューターにクローンします。下の画像ではアカウントが FIRST-Tech-Challenge になっていますが、フォーク後は、アカウントはチームアカウントになる必要があります。他のすべての点で、ユーザーインターフェースは同じです。
 
    .. figure:: images/clone.png 
       :align: center 
       :width: 80% 
-      :alt: Cloning a repo
+      :alt: リポジトリのクローン
 
-      Cloning a forked repository.
+      フォークされたリポジトリのクローン。
 
-   To clone your fork of the FtcRobotController, follow these steps:
+   FtcRobotController のフォークをクローンするには、次の手順に従います。
 
-   #. Click the green ":octicon:`code;1em;sd-text-info` Code" button shown in
-      the image above.
-   #. Ensure the "Local" and "HTTPS" sub-tabs are selected.
-   #. Click the ":octicon:`copy;1em;sd-text-info`" button to copy the url in
-      the text entry box.
-   #. Open a "Git Bash" shell in a suitable directory.  This is easily done
-      on Windows by opening the File Explorer, finding the directory you want
-      to clone the repository into, right clicking on that directory folder
-      and selecting "Git Bash here"
-   #. Within the Git Bash shell, execute the following command
+   #. 上の画像に示されている緑色の ":octicon:`code;1em;sd-text-info` Code" ボタンをクリックします。
+   #. 「Local」と「HTTPS」のサブタブが選択されていることを確認します。
+   #. ":octicon:`copy;1em;sd-text-info`" ボタンをクリックして、テキスト入力ボックス内の URL をコピーします。
+   #. 適切なディレクトリで「Git Bash」シェルを開きます。Windows では、ファイルエクスプローラーを開き、リポジトリをクローンするディレクトリを見つけ、そのディレクトリフォルダを右クリックして「Git Bash here」を選択することで簡単に行えます。
+   #. Git Bash シェル内で、次のコマンドを実行します
 
       .. code-block:: bash
 
-         git clone <copied-url>
+         git clone <コピーしたURL>
 
-#. Git will download a clone of your repository. When it's done, Code away...
+#. Git がリポジトリのクローンをダウンロードします。完了したら、コーディングを始めましょう...
 
-#. This is the point where you can create a branch for feature development, if
-   desired. To create a branch, we can create and switch to a new branch via
-   the following `git-checkout <https://git-scm.com/docs/git-checkout>`_ command:
+#. これは、必要に応じて機能開発用のブランチを作成できるポイントです。ブランチを作成するには、次の `git-checkout <https://git-scm.com/docs/git-checkout>`__ コマンドを使用して、新しいブランチを作成して切り替えることができます。
 
    .. code-block:: bash
 
-      git checkout -b <branchname>
+      git checkout -b <ブランチ名>
 
-   Using the ``-b`` option creates the new branch specified by ``<branchname>``
-   and automatically switches to that branch. Omitting the ``-b`` option will
-   simply *switch* to an existing branch if one exists.
+   ``-b`` オプションを使用すると、``<ブランチ名>`` で指定された新しいブランチが作成され、自動的にそのブランチに切り替わります。``-b`` オプションを省略すると、既存のブランチがある場合、単にそのブランチに*切り替わります*。
 
-Best Practices 
-^^^^^^^^^^^^^^
+ベストプラクティス 
+^^^^^^^^^^^^^^^^^^^
 
-- Do not make changes to software in the FtcRobotController directory within
-  the repository.  SDK updates will be much easier if you do not change anything 
-  within the FtcRobotController directory.  
-- Limit the use of long-lived branches.  Branches should implement a feature.
-  Branches should not track milestones.  For example a branch named
-  'league-meet-1' is tracking a milestone.  It is much better if your branches
-  track smaller units of development.  'detect-target', 'drive-to-parking',
-  'drop-game-element'.  Break your software down into tasks for the robot to
-  do, and use branches to implement those tasks.  This will allow for much
-  easier collaborative development, much smaller change sets when merging, and
-  much easier fetches and merges.  
-- Try to keep your `git index
-  <http://shafiul.github.io/gitbook/1_the_git_index.html>`_ clean.  This will
-  make fetches and merges easier.  ``git status`` is your best friend here.  Use
-  ``git status`` often to see what has changed in your local workspace.  Commit
-  often in logical chunks so that it is easy to see the most recent changes.  
-- Use short, meaningful, commit messages.  Do not use slang, offensive, or
-  personal messaging in a commit message.  When you push your software to
-  GitHub, those commit messages will be public.  If you plan to eventually
-  become a professional software developer, and you retain your existing GitHub
-  account any potential employer will be able to review your commit messages.
-  Tread lightly here.
+- リポジトリ内の FtcRobotController ディレクトリのソフトウェアに変更を加えないでください。FtcRobotController ディレクトリ内の何も変更しない場合、SDK のアップデートがはるかに簡単になります。  
+- 長期間存続するブランチの使用を制限してください。ブランチは機能を実装する必要があります。ブランチはマイルストーンを追跡すべきではありません。例えば、'league-meet-1' という名前のブランチはマイルストーンを追跡しています。ブランチがより小さな開発単位を追跡する方がはるかに良いです。'detect-target'、'drive-to-parking'、'drop-game-element' など。ソフトウェアをロボットが行うタスクに分解し、それらのタスクを実装するためにブランチを使用してください。これにより、共同開発がはるかに簡単になり、マージ時の変更セットがはるかに小さくなり、フェッチとマージがはるかに簡単になります。  
+- `git index <http://shafiul.github.io/gitbook/1_the_git_index.html>`__ をクリーンに保つようにしてください。これにより、フェッチとマージが簡単になります。``git status`` は、ここでの最良の友です。``git status`` を頻繁に使用して、ローカルワークスペースで何が変更されたかを確認してください。論理的なチャンクで頻繁にコミットして、最新の変更を簡単に確認できるようにしてください。  
+- 短く、意味のあるコミットメッセージを使用してください。コミットメッセージにスラング、不快な表現、または個人的なメッセージを使用しないでください。ソフトウェアを GitHub にプッシュすると、それらのコミットメッセージは公開されます。最終的にプロフェッショナルなソフトウェア開発者になることを計画しており、既存の GitHub アカウントを保持している場合、潜在的な雇用主はあなたのコミットメッセージを確認できます。ここでは慎重に進んでください。
 
-Updating your Fork and Local Clone.  
------------------------------------
+フォークとローカルクローンの更新  
+----------------------------------
 
-Updating the SDK involves pulling newly released software into both your local
-clone's and your fork.  There are two ways to go about this.  Either directly
-fetch and merge software from the parent into your fork on github, then fetch
-and merge to your local, or fetch from the parent into your local clone, merge
-locally and then push to your fork.
+SDK の更新には、ローカルクローンとフォークの両方に新しくリリースされたソフトウェアをプルすることが含まれます。これを行うには2つの方法があります。親から github 上のフォークに直接ソフトウェアをフェッチしてマージし、次にローカルにフェッチしてマージするか、親からローカルクローンにフェッチし、ローカルでマージしてからフォークにプッシュします。
 
-This author prefers the latter because it gives the developer the opportunity
-test new software before pushing to the fork.  It also allows for merge
-conflict resolution locally instead of through GitHub's UI.
+この著者は後者を好みます。なぜなら、開発者がフォークにプッシュする前に新しいソフトウェアをテストする機会を与えるからです。また、GitHub の UI を介してではなく、ローカルでマージの競合を解決することができます。
 
-Obtaining the Latest Software
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+最新のソフトウェアの取得
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-When describing how to update a repository many basic tutorials will use the
-``git pull`` command.  The ``git pull`` command is actually doing a *fetch* and
-*merge* for the user behind the scenes.  This can be fine, but it is useful to
-understand the concepts of *fetching* and *merging* as independent operations.
-If things go south, and you have a good concept of the underlying mechanics,
-you are much more likely to be able to fix any subsequent problems.
+リポジトリを更新する方法を説明する際、多くの基本的なチュートリアルでは ``git pull`` コマンドを使用します。``git pull`` コマンドは実際には、ユーザーの背後で *fetch* と *merge* を実行しています。これで問題ない場合もありますが、 *フェッチ* と *マージ* の概念を独立した操作として理解することは有用です。問題が発生した場合、基礎となるメカニズムをよく理解していれば、その後の問題を修正できる可能性がはるかに高くなります。
 
-Remotes 
-"""""""
+リモート 
+"""""""""
 
-Git is fundamentally built around the idea that there can be many copies of a
-repository floating about on the internet, or other people's machines, or
-corporate file servers, or any number of locations.  And that these
-repositories can linked to each other remotely.  A remote repository is simply
-defined as a version of a repository hosted somewhere else.   In the preceding
-examples, your fork of FtcRobotController is a remote of your local clone.
+Git は基本的に、リポジトリの多くのコピーがインターネット上、他の人のマシン上、企業のファイルサーバー上、またはその他多数の場所に浮遊している可能性があるという考えを中心に構築されています。そして、これらのリポジトリはリモートで相互にリンクできます。リモートリポジトリは、単にどこか他の場所でホストされているリポジトリのバージョンとして定義されます。前述の例では、FtcRobotController のフォークはローカルクローンのリモートです。
 
    .. figure:: images/origin-remote.*
       :align: center 
-      :alt: remote named origin
+      :alt: origin という名前のリモート
 
-      Illustration of FtcRobotController as remote named `origin`.
+      `origin` という名前のリモートとしての FtcRobotController の図。
 
-Remotes may be referenced in git commands and a repository can have any number
-of remotes.  The default name for the remote of a repository that has been
-cloned is 'origin'.  The conventional name of a remote that tracks the parent
-of a fork is 'upstream'.
+リモートは git コマンドで参照でき、リポジトリには任意の数のリモートを持つことができます。クローンされたリポジトリのリモートのデフォルト名は 'origin' です。フォークの親を追跡するリモートの慣習的な名前は 'upstream' です。
 
    .. figure:: images/two-remotes.*
       :align: center 
-      :alt: repo with two remotes
+      :alt: 2つのリモートを持つリポジトリ
 
-      A local repository with two remotes.
+      2つのリモートを持つローカルリポジトリ。
 
-To see what remote are established for a given repository
+特定のリポジトリに対して確立されているリモートを確認するには
 
    .. code-block:: console
 
       $ git remote -v
 
-To add the parent of your team's fork as a remote of your local clone
+チームのフォークの親をローカルクローンのリモートとして追加するには
 
    .. code-block:: console
 
       $ git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController.git
 
 .. important::
-   Setting the FIRST Tech Challenge FtcRobotController repository as
-   an upstream remote of your local clone allows you to fetch
-   changes from the FIRST-Tech-Challenge/FtcRobotController to your
-   local clone using the alias name 'upstream'.  This is very powerful.
-   If the reason why this is important isn't immediately obvious, please
-   re-read the two paragraphs under header marked ``Updating your Fork
-   and Local Clone`` above.
+   FIRST Tech Challenge FtcRobotController リポジトリをローカルクローンの upstream リモートとして設定すると、エイリアス名 'upstream' を使用して FIRST-Tech-Challenge/FtcRobotController からローカルクローンに変更をフェッチできます。これは非常に強力です。
+   なぜこれが重要なのかがすぐにわからない場合は、上記の ``フォークとローカルクローンの更新`` というヘッダーの下の2つの段落を再度お読みください。
 
-**The rest of this tutorial assumes that you have added
-FIRST-Tech-Challenge/FtcRobotController as an upstream in your local clone.**
+**このチュートリアルの残りの部分では、ローカルクローンに upstream として FIRST-Tech-Challenge/FtcRobotController を追加したことを前提としています。**
 
-Fetching 
-""""""""
+フェッチ 
+"""""""""
 
-Fetching is the process of downloading software changes from a remote
-repository.  Note specifically that fetching **does not** modify any of the
-existing software in the repository that you are fetching into, git isolates
-the changes in the local repository.
+フェッチは、リモートリポジトリからソフトウェアの変更をダウンロードするプロセスです。フェッチは、フェッチ先のリポジトリ内の既存のソフトウェアを**変更しない** ことに特に注意してください。git はローカルリポジトリ内の変更を分離します。
 
-If you are working with a team, and a teammate has pushed software to your
-FtcRobotController fork, you may fetch that software to a local clone by
-running
+チームで作業していて、チームメイトが FtcRobotController フォークにソフトウェアをプッシュした場合、次のコマンドを実行してそのソフトウェアをローカルクローンにフェッチできます
 
    .. code-block:: console
 
       $ git fetch origin
 
-This will download any changes in all branches on the remote named origin that
-are not present in the local repository.
+これにより、origin という名前のリモート上のすべてのブランチで、ローカルリポジトリに存在しない変更がダウンロードされます。
 
    .. figure:: images/fetch-from-origin.*
       :align: center 
-      :alt: fetching changes from origin
+      :alt: origin からの変更のフェッチ
 
-      Fetching changes from origin.
+      origin からの変更のフェッチ。
 
-Merging
-"""""""
+マージ
+""""""
 
-Merging is the process of merging fetched software into a branch, most commonly
-the current branch of the repository.  A merge is where things are most likely
-to get a bit confusing.  However, if you are simply merging from a remote
-master into a local master, and your local master is always tracking the
-remote, your merges should go smoothly.
+マージは、フェッチされたソフトウェアをブランチ（最も一般的にはリポジトリの現在のブランチ）にマージするプロセスです。マージは、物事が最も混乱しやすい場所です。ただし、リモート master からローカル master に単純にマージしており、ローカル master が常にリモートを追跡している場合、マージはスムーズに進むはずです。
 
    .. figure:: images/merge-from-origin.png 
       :align: center 
-      :alt: merging fetched changes
+      :alt: フェッチされた変更のマージ
 
-      Merging fetched changes from the origin repository.
+      origin リポジトリからフェッチされた変更のマージ。
 
-Ensure you are on the ``master`` branch and run the following:
+``master`` ブランチにいることを確認し、次のコマンドを実行します。
 
    .. code-block:: console
 
       $ git merge origin/master
 
-The ``master`` branch should be *clean* (i.e. ``git status`` on the ``master`` 
-branch shows no files that are modified but uncommitted) when this operation is 
-performed.  Team members should be doing development work in feature branches, 
-not in the ``master`` branch.
+この操作を実行するときは、``master`` ブランチが*クリーン*である必要があります（つまり、``master`` ブランチで``git status`` を実行したときに、変更されているがコミットされていないファイルが表示されない）。チームメンバーは、``master`` ブランチではなく、機能ブランチで開発作業を行う必要があります。
 
-Conflicts 
-"""""""""
+競合 
+"""""
 
-Conflicts, or "What happens when more than one change is pending for a given
-piece of code."  It's best to read this great tutorial on 
-`Git merge conflicts <https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`_.
-Merge conflicts are a normal part of working in teams, and only with experience
-can you learn to effectively manage conflicts. Always approach with patience and 
-a deep respect for the process.
+競合、または「特定のコードに対して複数の変更が保留されている場合に何が起こるか」。`Git マージの競合 <https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`__ に関するこの優れたチュートリアルを読むのが最善です。
+マージの競合はチームで作業する際の通常の一部であり、経験を積むことによってのみ、競合を効果的に管理する方法を学ぶことができます。常に忍耐強く、プロセスに深い敬意を払ってアプローチしてください。
 
-Updating the SDK to the Latest Version
---------------------------------------
+SDK を最新バージョンに更新する
+-------------------------------
 
 .. important::
-   Remember to use ``git remote -v`` to ensure that the upstream has been set
-   as a remote on your clone. If not, be sure to review the "Remotes" section
-   again to add the FtcRobotController repository to the upstream remote on
-   your clone.
+   ``git remote -v`` を使用して、クローンに upstream がリモートとして設定されていることを確認してください。設定されていない場合は、「リモート」セクションを再度確認して、クローンの upstream リモートに FtcRobotController リポジトリを追加してください。
 
-To update from the SDK, we simply fetch from upstream,
-FIRST-Tech-Challenge/FtcRobotController, the parent of your team fork, then
-merge and push to origin to complete the update.
+SDK から更新するには、チームフォークの親である upstream、FIRST-Tech-Challenge/FtcRobotController からフェッチし、次にマージして origin にプッシュすることで更新を完了します。
 
    .. figure:: images/fetch-from-upstream.*
       :align: center 
-      :alt: Fetching changes from upstream
+      :alt: upstream からの変更のフェッチ
 
-      Fetching changes from the upstream repository.
+      upstream リポジトリからの変更のフェッチ。
 
-Instead of fetching from origin, fetch from upstream.  This copies in any commits that you don't already have in your local clone.
-In the diagram above that is the v8.0 commit.  Your local master is not changed.  It is still pointing to, and representing, the v7.2
-commit.  Since a commit is a complete snapshot of a workspace at a point in time, nothing changes in your workspace, but your
-repository has a new commit with the branch name upstream/master.
+origin からではなく upstream からフェッチします。これにより、ローカルクローンにまだ存在しないコミットがコピーされます。上の図では、それは v8.0 コミットです。ローカルの master は変更されません。まだ v7.2 コミットを指しており、それを表しています。コミットはある時点でのワークスペースの完全なスナップショットであるため、ワークスペースでは何も変更されませんが、リポジトリには upstream/master というブランチ名の新しいコミットがあります。
 
    .. code-block:: console
 
@@ -455,14 +282,11 @@ repository has a new commit with the branch name upstream/master.
 
    .. figure:: images/merge-from-upstream.png
       :align: center
-      :alt: remotes
+      :alt: リモート
 
-      Merging fetched changes from the upstream repository.
+      upstream リポジトリからフェッチされた変更のマージ。
 
-After fetching, merge the upstream/master branch into master.  If your local master matches your upstream master then a merge is as
-simple as moving the master branch label to the commit that upstream/master is pointing to.  This is referred to as a fast-forward
-merge.  And since a commit is a complete snapshot of a workspace at a point time, your local workspace now contains the snapshot
-represented by v8.0.
+フェッチした後、upstream/master ブランチを master にマージします。ローカルの master が upstream の master と一致している場合、マージは master ブランチラベルを upstream/master が指しているコミットに移動するだけの簡単なものです。これは早送りマージと呼ばれます。そして、コミットはある時点でのワークスペースの完全なスナップショットであるため、ローカルワークスペースには v8.0 で表されるスナップショットが含まれるようになります。
 
    .. code-block:: console
 
@@ -470,128 +294,101 @@ represented by v8.0.
 
    .. figure:: images/push-to-origin.png 
       :align: center 
-      :alt: Pushing fetched changes
+      :alt: フェッチされた変更のプッシュ
 
-      Pushing fetched and merged changes back to your team fork.
+      フェッチおよびマージされた変更をチームフォークにプッシュバック。
 
-Once you've merged the upstream/master into your local clone's master branch, push those changes to GitHub so that your GitHub clone
-reflects the upstream repository.
+upstream/master をローカルクローンの master ブランチにマージしたら、それらの変更を GitHub にプッシュして、GitHub クローンが upstream リポジトリを反映するようにします。
 
    .. code-block:: console
 
       $ git push origin master
 
-If you were working in a feature branch and want to bring the new SDK changes into that feature branch you
-merge from master into the branch by checking out the branch and running the merge command.  This is where things might get dicey
-as this is where you are most likely to encounter merge conflicts.
+機能ブランチで作業していて、その機能ブランチに新しい SDK の変更を取り込みたい場合は、ブランチをチェックアウトしてマージコマンドを実行することで、master からブランチにマージします。これは、マージの競合が発生する可能性が最も高い場所であり、事態が複雑になる可能性があります。
 
    .. code-block:: console
 
-      $ git checkout <feature-branch> 
-      $ get merge master
+      $ git checkout <機能ブランチ> 
+      $ git merge master
 
 
-Downgrading the SDK to a Previous Version
------------------------------------------
+SDK を以前のバージョンにダウングレードする
+------------------------------------------
 
-Typically, the working branch of a local repository, whether it's master, or a competition branch will eventually contain a
-series of team commits interleaved with SDK update commits.  In this scenario a team can not simply roll back to a prior SDK
-version without also rolling back all of their team commits.  Consider the following diagram.
+通常、ローカルリポジトリの作業ブランチ（master であろうと competition ブランチであろうと）は、最終的に SDK アップデートコミットと混在した一連のチームコミットを含むようになります。このシナリオでは、チームはすべてのチームコミットもロールバックせずに、単に以前の SDK バージョンにロールバックすることはできません。次の図を考えてみましょう。
 
    .. figure:: images/sample-rollback.png
       :align: center
-      :alt: sample repository
+      :alt: サンプルリポジトリ
 
-      A repository with both team commits and SDK update commits.
+      チームコミットと SDK アップデートコミットの両方を含むリポジトリ。
 
-If you just chopped off the branch at M7.2, you'd lose the three blue team commits.  In order to retain team work, instead create a
-new merge commit that reverts the 8.0 commit.  Do not revert merge commits, e.g. M8.0.  The merge commit itself may contain work that
-represents the divergence of the the two branches that were merged.  This is not what you want.  You want to revert the parent of the merge
-commit that represents the new, old, SDK version.
+M7.2 でブランチを単に切り取ると、3つの青いチームコミットが失われます。チームの作業を保持するために、代わりに 8.0 コミットを元に戻す新しいマージコミットを作成します。M8.0 などのマージコミットは元に戻さないでください。マージコミット自体には、マージされた2つのブランチの分岐を表す作業が含まれている可能性があります。これはあなたが望むものではありません。新しい（古い）SDK バージョンを表すマージコミットの親を元に戻したいのです。
 
-A Short Digression on Tags
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+タグに関する短い余談
+^^^^^^^^^^^^^^^^^^^^
 
-A tag is simply a named pointer to a commit, that unlike a branch pointer, or HEAD, never moves.  Since a commit is a snapshot in
-time of an entire workspace, this allows a developer to *tag* a point in time in an immutable fashion.
-*FIRST* uses tags to track SDK versions through a standard `semantic versioning <https://semver.org/>`_ naming scheme.  When a new
-SDK version is released, the FTC engineering team pushes a release candidate branch to FIRST-Tech-Challenge/FtcRobotController, then merges
-that branch into master.  This results in two commits, the new SDK version commit that contains all the good stuff, and a merge commit
-representing the merge from the candidate branch into master.  The release is then formally cut, where a tag is then created,
-on the merge commit.
+タグは、ブランチポインタや HEAD とは異なり、決して移動しないコミットへの名前付きポインタです。コミットはワークスペース全体のある時点でのスナップショットであるため、これにより開発者はある時点を不変の方法で*タグ付け*できます。
+*FIRST* は、標準的な`セマンティックバージョニング <https://semver.org/>`__ 命名スキームを通じて SDK バージョンを追跡するためにタグを使用します。新しい SDK バージョンがリリースされると、FTC エンジニアリングチームはリリース候補ブランチを FIRST-Tech-Challenge/FtcRobotController にプッシュし、次にそのブランチを master にマージします。これにより、すべての良いものが含まれる新しい SDK バージョンコミットと、候補ブランチから master へのマージを表すマージコミットの2つのコミットが作成されます。その後、リリースが正式にカットされ、マージコミットにタグが作成されます。
 
-Tags from remotes are not automatically copied into a repository on a clone.  To retrieve tags execute.
+リモートからのタグは、クローン時にリポジトリに自動的にコピーされません。タグを取得するには、次を実行します。
 
    .. code-block:: console
 
       $ git fetch --all --tags
 
-The --all option fetches at once from all remotes, the --tags option tells git to fetch the tags.
-Tags always follow the semantic versioning rules.  e.g. v7.0, v7.1, v7.2, v8.0, etc.
+--all オプションはすべてのリモートから一度にフェッチし、--tags オプションは git にタグをフェッチするよう指示します。
+タグは常にセマンティックバージョニングルールに従います。例: v7.0、v7.1、v7.2、v8.0 など。
 
-The `^ syntax <https://medium.com/@gabicle/git-ancestry-references-explained-bd3a84a0b821>`_ allows one to reference parents of a commit and can be applied to tag names.  tag^ is the immediate parent of the commit
-tag points to.  For commits with multiple parents such as merge commits one can apply a number to refer to a specific parent.
-tag^1 is the same as tag^ and is the first parent of the commit, tag^2 is the second parent of the commit.
+`^ 構文 <https://medium.com/@gabicle/git-ancestry-references-explained-bd3a84a0b821>`__ を使用すると、コミットの親を参照でき、タグ名に適用できます。tag^ は、タグが指すコミットの直接の親です。マージコミットなどの複数の親を持つコミットの場合、数字を適用して特定の親を参照できます。
+tag^1 は tag^ と同じで、コミットの最初の親です。tag^2 はコミットの2番目の親です。
 
-Merging the Inverse of an SDK Update
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SDK アップデートの逆のマージ
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The diagram below shows the v8.0 tag pointing to the v8.0 merge commit along with references to the parents of v8.0.
+下の図は、v8.0 タグが v8.0 マージコミットを指しており、v8.0 の親への参照も示しています。
 
    .. figure:: images/tags.png
       :align: center
-      :alt: tags
+      :alt: タグ
 
-      v8.0 tag pointing to the v8.0 merge commit.
+      v8.0 マージコミットを指す v8.0 タグ。
 
-.. important:: If any commits have dependencies on new features or APIs introduced in the reverted versions, then your
-   build will break.  You will have to manually figure out how to fix your software so that it is no longer depends upon
-   reverted software.
+.. important:: 元に戻されたバージョンで導入された新機能または API に依存するコミットがある場合、ビルドは失敗します。ソフトウェアが元に戻されたソフトウェアに依存しなくなるように、ソフトウェアを修正する方法を手動で見つける必要があります。
 
-Remember that Git does not delete commits (with a few exceptions), so in order to revert a commit we must create a new commit that is the inverse of the commit you want to revert *from*.  And you'll want to do this for every version,
-in reverse order, that you want to undo.  The target of the command below is the tag of the version you want to undo, not the tag of the
-version you want to revert to.
+Git はコミットを削除しない（いくつかの例外を除いて）ことを覚えておいてください。したがって、コミットを元に戻すには、元に戻したいコミット*から*の逆のコミットを作成する必要があります。そして、元に戻したいすべてのバージョンについて、逆の順序でこれを行う必要があります。以下のコマンドのターゲットは、元に戻したいバージョンのタグであり、元に戻す先のバージョンのタグではありません。
 
    .. figure:: images/revert.png
       :align: center
-      :alt: demonstrating the revert
+      :alt: 元に戻すことのデモンストレーション
 
-      Result of revert - a new merge commit representing the revert from v8.0 to v7.2.
+      元に戻した結果 - v8.0 から v7.2 への元に戻しを表す新しいマージコミット。
 
-Because the merge commit has two parents, and you want to reference the SDK version commit, use the tag name you want to roll back and append ^2.  For example to roll back v8.0, resulting in the SDK
-compiling against v7.2 use.
+マージコミットには2つの親があり、SDK バージョンコミットを参照したいため、ロールバックしたいタグ名を使用し、^2 を追加します。例えば、v8.0 をロールバックし、SDK が v7.2 に対してコンパイルされるようにするには、次を使用します。
 
    .. code-block:: console
 
       $ git revert -Xtheirs v8.0^2
 
-The -Xtheirs option is a convenience that says, "If there are any conflicts, automatically take the software from the v8.0^2 side."
+-Xtheirs オプションは、「競合がある場合は、v8.0^2 側からソフトウェアを自動的に取得する」という便利なオプションです。
 
-.. warning:: If you want to downgrade more than one revision you must revert
-   each revision in sequence otherwise you could wind up with changes remaining
-   after reversion from the SDK version in between latest and the target you
-   are referring to. For example if you need to downgrade from v8.1.1 to v8.0,
-   for reference all SDK versions can be found
-   `here <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`_,
-   you must revert v8.1.1 followed by v8.1. If you don't follow this order,
-   then changes in v8.1.1 that don't overlap with v8.1 will remain in your
-   workspace and that's not what you want.
+.. warning:: 複数のリビジョンをダウングレードする場合、各リビジョンを順番に元に戻す必要があります。そうしないと、最新バージョンと参照しているターゲットの間の SDK バージョンからの元に戻し後に変更が残る可能性があります。例えば、v8.1.1 から v8.0 にダウングレードする必要がある場合（参考までに、すべての SDK バージョンは
+   `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ にあります）、v8.1.1 を元に戻し、次に v8.1 を元に戻す必要があります。この順序に従わないと、v8.1 と重複しない v8.1.1 の変更がワークスペースに残り、それは望ましくありません。
 
-Summary
--------
+まとめ
+------
 
-Assumes all commands are run from the root directory of your local clone.  Also assumes you are not committing team code to your local
-master branch, but instead are working in a competition branch.
+すべてのコマンドは、ローカルクローンのルートディレクトリから実行されることを前提としています。また、ローカルの master ブランチにチームコードをコミットするのではなく、competition ブランチで作業していることを前提としています。
 
-Add FIRST-Tech-Challenge/FtcRobotController as a remote
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FIRST-Tech-Challenge/FtcRobotController をリモートとして追加
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    .. code-block:: console
 
       $ git remote add upstream https://github.com/FIRST-Tech-Challenge/FtcRobotController.git
 
-Update the to latest SDK version
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+最新の SDK バージョンに更新
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    .. code-block:: console
 

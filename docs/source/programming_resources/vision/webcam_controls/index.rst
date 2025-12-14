@@ -1,13 +1,9 @@
-Webcam Controls
+Webcam 制御
 ===============
 
-This basic tutorial describes 8 webcam controls available in the 
-SDK. It includes an example, using 2 of these controls to potentially
-improve TensorFlow recognition in Freight Frenzy.
+この基本チュートリアルでは、**SDK** で利用可能な 8つの Webcam 制御について説明します。これには、**Freight Frenzy** で**TensorFlow** 認識を改善する可能性がある、これらの制御のうち 2つを使用する例が含まれています。
 
-Hats off to `rgatkinson <https://github.com/rgatkinson>`__ and
-`Windwoes <https://github.com/Windwoes>`__ who developed these 
-webcam controls.
+これらの Webcam 制御を開発した `rgatkinson <https://github.com/rgatkinson>`__ さんと `Windwoes <https://github.com/Windwoes>`__ さんに敬意を表します。
 
 .. toctree::
    :maxdepth: 1
@@ -22,18 +18,13 @@ webcam controls.
    samples/samples
 
 
-Summary
+まとめ
 -------
 
-Some webcam controls in the SDK could potentially improve TFOD
-recognitions. Exposure, gain and other values could be pre-programmed in
-team autonomous OpModes. It’s also possible to manually enter such
-values before a match begins, based on anticipated lighting, starting
-position and other game-time factors.
+**SDK** の一部の Webcam 制御は、**TFOD** 認識を改善する可能性があります。露出、ゲイン、その他の値は、チームの**Autonomous** **OpMode** で事前にプログラムできます。また、予想される照明、開始位置、その他の試合時の要因に基づいて、試合が始まる前にそのような値を手動で入力することもできます。
 
-You are encouraged to submit other webcam reports and examples that
-worked for you.
+役に立った他の Webcam レポートと例を提出することをお勧めします。
 
 ====================================================================
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+質問、コメント、修正は westsiderobotics@verizon.net までお願いします。

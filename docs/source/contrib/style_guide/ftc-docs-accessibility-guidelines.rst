@@ -2,12 +2,12 @@ FTC Docs Accessibility Guidelines
 =================================
 
 The Web Content Accessibility Guidelines (WCAG) are part of a series of web accessibility guidelines published by the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C), the main international standards organization for the Internet. They are a set of recommendations for making Web content more accessible, primarily for people with disabilities — but also for all user agents, including highly limited devices, such as mobile phones. 
-See the `WCAG overview <https://www.w3.org/WAI/standards-guidelines/wcag/>`_
+See the `WCAG overview <https://www.w3.org/WAI/standards-guidelines/wcag/>`__
 for more information about the WCAG standard.
 
 Our goal to address the WCAG Level A success criteria to remove accessibility barriers.
 Then move to meet the level AA criteria to improve that accessibility.
-See the `How to Meet WCAG Quick Reference <https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2>`_ for more information.
+See the `How to Meet WCAG Quick Reference <https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2>`__ for more information.
 
 .. Note:: 
    This page attempts to document from the WCAG perspective what is important and relate that to FTC Docs.
@@ -33,7 +33,7 @@ The following are WCAG principles that the accessibility guidelines are based on
 
 
 Principle 1 – Perceivable
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Information and user interface components must be presentable to users in ways they can perceive.
 For the vision impaired this includes providing text alternative for non-text content like images.
@@ -47,7 +47,7 @@ Make it easier for users to see and hear content including separating foreground
 .. Note:: FTC Docs mostly consists of web pages with text and images. It should be feasible to make most FTC Docs content perceivable to most users. 
 
 Guideline 1.1 – Text Alternatives
-"""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""
 
 Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.
 
@@ -74,14 +74,14 @@ Instructions provided for understanding and operating content do not rely solely
 - People who are blind and people who have low vision may not be able to understand instructions if they rely only on a description of the shape and/or location of content. Providing additional information in any instructions other than shape and/or location will allow users to understand the instructions even if they cannot perceive shape and/or location.
 
 Principle 2 – Operable
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 User interface components and navigation must be operable.
 
 .. Note:: FTC Docs has some operable issues to be resolved in Sphinx or the Read the Docs theme. 
 
 Guideline 2.4 – Navigable
-"""""""""""""""""""""""""
+""""""""""""""""""""""""""
 Provide ways to help users navigate, find content, and determine where they are.	
 
 Success Criterion 2.4.4 Link Purpose (In Context) - Level A
@@ -111,7 +111,7 @@ The purpose of each link can be determined from the link text alone or from the 
   There is information about how to create links in RST content including good link text which helps users decide whether they want to follow the link.
 
 Guideline 2.5 – Input Modalities
-""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""
 
 Make it easier for users to operate functionality through various inputs beyond keyboard.	
 
@@ -122,12 +122,12 @@ Make it easier for users to operate functionality through various inputs beyond 
   For example, important content in a tooltip that only shows with mouse hover and is not keyboard accessible or accessible on a mobile device.
 
 Principle 3 – Understandable
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Information and the operation of the user interface must be understandable.
 
 Guideline 3.1 – Readable
-""""""""""""""""""""""""
+"""""""""""""""""""""""""
 
 Make text content readable and understandable.	
 
@@ -138,7 +138,7 @@ Make text content readable and understandable.
 - It's OK to discuss a complex subject, but given the wide audience for FTC Docs content authors should consider perhaps a simplified introduction or summary that builds in complexity and/or add links to background information.
 
 Principle 4 – Robust
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.
 

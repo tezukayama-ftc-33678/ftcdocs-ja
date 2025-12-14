@@ -1,20 +1,14 @@
-Android Studio Programming Tutorial
-===================================
+Android Studio プログラミングチュートリアル
+===========================================
 
 .. raw:: html
 
-   <h3>Introduction</h3>
+   <h3>はじめに</h3>
 
 
-This tutorial will take you step-by-step through the process of
-configuring, programming, and operating your Control System. This
-tutorial uses Android Studio to help you get started programming your
-robot.
+このチュートリアルでは、制御システムの構成、プログラミング、操作のプロセスを段階的に説明します。このチュートリアルでは、**Android Studio** を使用して、ロボットのプログラミングを始める方法を学びます。
 
-Android Studio is an advanced integrated development environment for
-creating Android apps. This tool is the same tool that professional
-Android app developers use. Android Studio is only recommended for
-**advanced users** who have **extensive Java programming experience**.
+**Android Studio** は、Android アプリを作成するための高度な統合開発環境です。このツールは、プロフェッショナルな Android アプリ開発者が使用しているものと同じツールです。**Android Studio** は、** 豊富な Java プログラミング経験** を持つ** 上級ユーザー** にのみ推奨されます。
 
 .. image:: images/androidStudioScreen.jpg
    :align: center
@@ -22,7 +16,7 @@ Android app developers use. Android Studio is only recommended for
 |
 
 .. note::
-   :bdg-success:`AS` indicates that the content is specific to Android Studio Programming
+   :bdg-success:`AS` は、そのコンテンツが Android Studio プログラミングに固有であることを示します
 
 .. toctree::
    :maxdepth: 2

@@ -29,6 +29,6 @@ Downside of Codespaces
 ----------------------
 
 Codespaces is a paid service, and you will be billed for the resources you use. However, 
-GitHub currently offers GitHub Free tier users **120 Core hours** and GitHub Pro tier users **180 
+GitHub currently offers GitHub Free tier users **120 Core hours**and GitHub Pro tier users**180 
 Core hours** per month for free. To learn more about Codespaces pricing, visit 
-`GitHub Documentation <https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces>`_.
+`GitHub Documentation <https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces>`__.

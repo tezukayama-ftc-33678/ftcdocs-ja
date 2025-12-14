@@ -93,7 +93,7 @@ To learn about opening the Sample OpMode, click the tab for Blocks or Java:
          "ColorSensor_Bobby_v01.java", and select the Sample OpMode
          ``ConceptVisionColorSensor.java``.
 
-      3. At about Line 58, you can change ``@TeleOp`` to ``@Autonomous``\ , since
+      3. At about Line 58, you can change ``@TeleOp``to``@Autonomous``\ , since
          this Sample OpMode does not use gamepads.
 
       4. If using the built-in camera of an RC phone, follow the OpMode comments
@@ -176,7 +176,7 @@ This is full video, and is shown automatically on the screen of an RC phone.
 The above preview is from a REV Control Hub.
 
 It has no physical screen, so you must plug in an HDMI monitor **or** use
-open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "screen
+open-source `scrcpy <https://github.com/Genymobile/scrcpy>`__ (called "screen
 copy") to see the preview on a laptop or computer that's connected via Wi-Fi to
 the Control Hub.
 
@@ -217,7 +217,7 @@ pattern.  This includes adding the "Predominant Color" Processor to the
 VisionPortal.
 
 How does OpenCV determine the "predominant color" of the ROI?  An algorithm
-called `"k-means" <https://en.wikipedia.org/wiki/K-means_clustering>`_
+called `"k-means" <https://en.wikipedia.org/wiki/K-means_clustering>`__
 determines clusters of similar colors.  The color of the cluster with the most
 pixels is called "predominant" here. *(This will NOT be on the final.)*
 
@@ -270,7 +270,7 @@ follows.  Select and read the Blocks **or** Java section below:
 
          if (result.closestSwatch == Swatch.RED)   {  }
 
-      Why?  The result, called ``closestSwatch`` is of type ``Swatch`` and can
+      Why?  The result, called ``closestSwatch``is of type``Swatch`` and can
       be compared only to another ``Swatch``.
 
 
@@ -384,7 +384,7 @@ Sample OpMode.  Click the Blocks or Java tab:
       * ``Color.blue(result.rgb)``    
 
 For Blocks or Java, those component values can be assigned to numeric
-variables, with names like ``ROIRedValue``, ``ROIGreenValue``, and
+variables, with names like ``ROIRedValue``,``ROIGreenValue``, and
 ``ROIBlueValue``.
 
 Now your code can process those RGB variables as desired.

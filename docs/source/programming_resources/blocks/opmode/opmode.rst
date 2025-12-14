@@ -1,4 +1,4 @@
-Writing an Op Mode :bdg-warning:`Blocks`
+**Op Mode** の作成 :bdg-warning:`Blocks`
 =========================================
 
 .. toctree::

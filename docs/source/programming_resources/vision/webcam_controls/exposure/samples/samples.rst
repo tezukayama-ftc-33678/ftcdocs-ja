@@ -1,27 +1,42 @@
-Exposure Control Code Samples
------------------------------
+露出制御のサンプル
+==================
 
-1. Import the interface. This line is automatically added by OnBot Java
-   when the interface is used (coded).
+以下は、露出制御を使用する方法の例です：
 
--  ``import org.firstinspires.ftc.robotcore.external.hardware.camera.controls.ExposureControl;``
+**例1：手動露出時間の設定**
 
-2. Declare the ExposureControl object, before ``runOpMode()``.
+.. code:: java
 
--  ``ExposureControl myExposureControl;``
+   ExposureControl exposureControl;
+   exposureControl = vuforia.getCamera().getControl(ExposureControl.class);
+   
+   // 手動モードに設定
+   exposureControl.setMode(ExposureControl.Mode.Manual);
+   
+   // 露出時間を 15 ミリ秒に設定
+   exposureControl.setExposure(15, TimeUnit.MILLISECONDS);
 
-3. Assign the Vuforia/TFOD video stream control to your control object,
-   in ``runOpMode()``.
+**例2：サポートされる範囲の確認**
 
--  ``myExposureControl = vuforia.getCamera().getControl(ExposureControl.class);``
+.. code:: java
 
-4. Set the mode to Manual, for direct control.
+   long minExp = exposureControl.getMinExposure(TimeUnit.MILLISECONDS);
+   long maxExp = exposureControl.getMaxExposure(TimeUnit.MILLISECONDS);
+   
+   telemetry.addData("最小露出", "%d ms", minExp);
+   telemetry.addData("最大露出", "%d ms", maxExp);
 
--  ``myExposureControl.setMode(ExposureControl.Mode.Manual);``
+**例3：AE Priority を使用した長い露出時間**
 
-5. Set the exposure duration, in this case to 30 milliseconds.
+.. code:: java
 
--  ``myExposureControl.setExposure(30, TimeUnit.MILLISECONDS);``
+   // AE Priority を有効化
+   exposureControl.setAePriority(true);
+   
+   // 手動モードに設定
+   exposureControl.setMode(ExposureControl.Mode.Manual);
+   
+   // より長い露出時間（30 ミリ秒）を設定
+   exposureControl.setExposure(30, TimeUnit.MILLISECONDS);
 
-See far below for these and other exposure controls illustrated in
-`Sample OpModes <#sample-opmodes>`__.
+詳細については、:doc:`サンプル OpModes </programming_resources/vision/webcam_controls/samples/samples>` を参照してください。

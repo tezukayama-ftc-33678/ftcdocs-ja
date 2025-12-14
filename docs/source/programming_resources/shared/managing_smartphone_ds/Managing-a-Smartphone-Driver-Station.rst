@@ -1,134 +1,106 @@
-Managing a Driver Hub
+**Driver Hub** の管理
 =====================
 
-REV Driver Hub
-~~~~~~~~~~~~~~
+**REV Driver Hub**
+~~~~~~~~~~~~~~~~~~
 
-The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__
-is preloaded with the Driver Station (DS) app. The procedures
-described below for a REV Driver Hub, also apply to a using an Android phone as a DS.
+`REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ には、**Driver Station (DS)** アプリがプリロードされています。以下の**REV Driver Hub** について説明する手順は、**Android** スマートフォンを DS として使用する場合にも適用されます。
 
-Changing the Name
+名前の変更
 ~~~~~~~~~~~~~~~~~
 
-In order to comply with the Competition Manual, the name of the Driver
-Station (DS) should be changed. 
-Configure devices for your team number. The ROBOT CONTROLLER, DRIVER STATION, and any spares used must be configured/named to correspond to the correct team number as follows:
+**Competition Manual** に準拠するために、**Driver Station (DS)** の名前を変更する必要があります。チーム番号に合わせてデバイスを構成します。使用する**ROBOT CONTROLLER**、**DRIVER STATION** 、および予備は、次のように正しいチーム番号に対応するように構成/名前を付ける必要があります：
 
-A.     ROBOT CONTROLLER should be named <team number>-RC (e.g., 12345-RC),
+A.     **ROBOT CONTROLLER** は <チーム番号>-RC（例：12345-RC）という名前にする必要があります。
 
-B.     DRIVER STATION should be named <team number>-DS (e.g., 12345-DS), and
+B.     **DRIVER STATION** は <チーム番号>-DS（例：12345-DS）という名前にする必要があります。
 
-C.     If a spare ROBOT CONTROLLER or DRIVER STATION is configured, a letter designator may be added <team number>-<letter>-RC/DS (e.g., 12345-A-DS, 12345-B-DS)
+C.     予備の **ROBOT CONTROLLER** または**DRIVER STATION** が構成されている場合、文字指定子を追加できます <チーム番号>-<文字>-RC/DS（例：12345-A-DS、12345-B-DS）
 
-Check the current Competition Manual for the rules related to *Control, Command & Signals System*.
+*Control, Command & Signals System* に関連する規則については、現在の **Competition Manual** を確認してください。
 
-The Driver Hub name can be changed in the DS app, as described below.
+**Driver Hub** の名前は、以下に説明するように DS アプリで変更できます。
 
-.. note:: The steps below are mostly the same if you use an Android phone for your driver station.
+.. note:: 以下の手順は、ドライバーステーションに **Android** スマートフォンを使用する場合でも、ほとんど同じです。
 
-   If you are using phones for your control system :ref:`this link <programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:Renaming Your Smartphones>`
-   shows how to rename a smartphone using the Android Settings activity of
-   the phone.
+   制御システムにスマートフォンを使用している場合、:ref:`このリンク <programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:Renaming Your Smartphones>` は、スマートフォンの Android Settings アクティビティを使用してスマートフォンの名前を変更する方法を示しています。
 
-.. tip:: Troubleshooting
+.. tip:: トラブルシューティング
 
-   If you see a yellow circled exclamation icon on your DS screen and touch it, a message will pop up
-   temporarily and say "*DS* does not match *DS*, see the FTC Competition Manual".
-   Note: *DS* is the current name of the Driver Station, and *RC* is the current Robot Controller name.
+   DS 画面に黄色の丸い感嘆符アイコンが表示され、それをタッチすると、「*DS* does not match *DS*, see the FTC Competition Manual」というメッセージが一時的にポップアップ表示されます。
+   注：*DS* は **Driver Station** の現在の名前で、*RC* は現在の **Robot Controller** の名前です。
    
-   This is because the DS and RC names do not match. You should change both names to include your team 
-   number as indicated above, as required by the Competition Manual.
+   これは、DS と RC の名前が一致しないためです。**Competition Manual** で要求されているように、上記のように両方の名前をチーム番号を含むように変更する必要があります。
    
    .. image:: images/ds-mismatch-screen.png
       :align: center
-      :alt: Driver Station screen showing the yellow icon mismatch, and the name mismatch pop up message.
+      :alt: 黄色のアイコンの不一致と名前の不一致ポップアップメッセージを示す Driver Station 画面。
 
-Changing the Name of a Driver Station Instructions
+**Driver Station** の名前を変更する手順
 --------------------------------------------------
 
-1. In the Driver Station app, touch the three dots in the upper     
-right hand corner to display a pop-up menu.                           
+1. **Driver Station** アプリで、右上隅の3つのドットをタッチして、ポップアップメニューを表示します。
 
 .. image:: images/touchThreeDots1.png
    :align: center
-   :alt: Driver Station main screen showing the 3 dots highlighted with an orange circle.
+   :alt: 3つのドットがオレンジ色の円で強調表示された Driver Station メイン画面。
 
 |
 
-2. Select the *Settings* menu item from the pop-up menu. 
+2. ポップアップメニューから *Settings* メニュー項目を選択します。
 
 .. image:: images/selectSettings.png
    :align: center
-   :alt: Driver Station main pop-up menu showing the Settings option highlighted with an orange circle.
+   :alt: Settings オプションが強調表示されたポップアップメニュー。
 
-|   
+|
 
-3. Click on *Driver Station Name* on the *DRIVER STATION SETTINGS*    
-page.                                                                 
+3. *Driver Station Name* をタッチします。
 
 .. image:: images/clickDriverStationName.png
    :align: center
-   :alt: Driver Station settings screen showing the Driver Station Name highlighted with an orange circle.
+   :alt: Driver Station Name が強調表示された Settings 画面。
 
 |
 
-4. Specify the new Driver Station Name and press *OK* to accept the   
-changes.                                                              
+4. 新しい **Driver Station** 名を入力し、OK をタッチして変更を保存します。
 
 .. image:: images/specifyNewDriverStationName.png
    :align: center
-   :alt: Driver Station Name pop-up screen that allows you to enter or change the name.
+   :alt: 新しい名前を入力するためのダイアログボックス。
 
 |
 
-
-Updating the Driver Station App
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-It is important to know how to update the Driver Station app that is
-installed on your device. *FIRST* periodically releases new versions
-of this app, which contain improvements and fixes, as well as
-season-specific data and features.
-
-Note that you can see the Driver Station app version number through the
-Driver Station user interface. Select the *About* menu option on the
-Driver Station and note the App Version number under the *ABOUT DRIVER
-STATION* section.
+5. 変更を確認します。
 
 .. image:: images/aboutDriverStation.png
    :align: center
-   :alt: Driver Station About screen showing the App Version highlighted with an orange circle.
-
-|
-
-As of 2021, all apps (v 6.1 and higher) are no longer available on Google
-Play.
-
-The `REV Hardware Client software <https://docs.revrobotics.com/rev-hardware-client/>`__
-will allow you to download the apps to approved devices: REV Control Hub, REV
-Expansion Hub, REV Driver Hub, and approved Android devices. Here
-are some of the benefits: 
-
--  Connect a REV Control Hub via WiFi. 
--  One Click update of all software on connected devices. 
--  Pre-download software updates without a connected device. 
--  Back up and restore user data from Control Hub. 
--  Install and switch between DS and RC applications on Android Devices. 
--  Access the Robot Control Console on the Control Hub.
-
-All teams using Blocks, OnBot Java or Android Studio can use the REV
-Hardware Client to update the Driver Station (DS) app on a DS phone.
-
-NOTE: it will take an estimated 7.5 minutes per device to complete this
-task.
-
-As an alternate, the app releases are available on the
-`FTCRobotController Github <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__.
-Download the Driver Station APK file to a computer, transfer it to the
-DS phone's Downloads folder, then open that file to install the DS app.
-This process is called "side-loading".
-
-.. important:: If you update the Driver Station (DS) app, you should also update the Robot Controller (RC) app to the same version number. That process is different for Android Studio teams; updating RC phones is described :ref:`found here <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:Updating the Robot Controller App>` 
+   :alt: 新しい名前を表示する Settings 画面。
 
 
+プログラムと管理ページへのアクセス
+---------------------------------------
+
+**Driver Hub** には、**Program & Manage**Web サーバーへのアクセスを提供する専用ボタンはありません。ただし、**Driver Station** アプリを使用して、**Robot Controller** の**Program & Manage** ページにアクセスできます。
+
+1. **Driver Station** アプリで、右上隅の3つのドットをタッチします。
+
+2. *Program & Manage* を選択します。
+
+3. Web ブラウザーが開き、**Robot Controller** の**Program & Manage** ページが表示されます（**Robot Controller** がペアリングされ、アクティブである場合）。
+
+.. note:: この機能を使用するには、**Driver Station** が**Robot Controller** に接続されている必要があります。
+
+
+バッテリーレベルの確認
+------------------------
+
+**Driver Hub** のバッテリーレベルは、デバイスの上部に表示されます。バッテリーアイコンは、現在の充電レベルを示します。
+
+.. note:: **Driver Hub** は、標準の USB-C 充電器を使用して充電できます。試合中は、**Driver Hub** を電源に接続したままにすることをお勧めします。
+
+
+まとめ
+-------
+
+**Driver Hub** は、**Driver Station** アプリを実行するための専用デバイスです。使いやすく、スマートフォンを**Driver Station** として使用するよりも堅牢です。名前の変更、**Program & Manage** ページへのアクセス、バッテリーレベルの確認は、すべて**Driver Station** アプリから直接実行できます。

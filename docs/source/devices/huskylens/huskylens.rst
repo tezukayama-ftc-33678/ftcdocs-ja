@@ -1,13 +1,12 @@
-HuskyLens Intro for *FIRST* Tech Challenge
-==========================================
 
-Introduction
-------------
+*FIRST* Tech Challenge向け **HuskyLens** 入門
+==============================================
 
-This is a simple tutorial to introduce the use of
-`HuskyLens <https://www.dfrobot.com/product-1922.html>`__ in *FIRST* Tech
-Challenge, for
-teams that **already decided** to explore its potential.
+はじめに
+-------------
+
+このチュートリアルは、*FIRST* Tech Challenge で
+`HuskyLens <https://www.dfrobot.com/product-1922.html>`__ を活用する方法を、すでにその可能性を探求することを決めたチームの皆さん向けにご紹介します。
 
 .. figure:: images/020-HuskyLens-dual.png
    :align: center
@@ -16,41 +15,31 @@ teams that **already decided** to explore its potential.
 
    DFRobot HuskyLens
 
-Basic support for this **vision sensor** was added to the FTC SDK
-version 9.0 in September 2023 with the CENTERSTAGE robot game kickoff.
+この**ビジョンセンサー** の基本的なサポートは、2023年9月の CENTERSTAGE ロボットゲーム開始時に**FTC SDK** バージョン9.0 で追加されました。
 
-HuskyLens uses **on-board programming** to perform AI-assisted learning,
-vision processing and recognition. It plugs into an **I2C sensor port**
-of a REV Control Hub or REV Expansion Hub.
+**HuskyLens** は、** オンボードプログラミング** によって AI 支援の学習、画像処理、認識を行います。**REV Control Hub** または**REV Expansion Hub** の**I2C センサーポート** に接続します。
 
-HuskyLens is **not a USB webcam**, and **does not use** the FTC
+**HuskyLens** は**USB ウェブカメラ** ではなく、FTC の
 :ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>`
-software.
+ソフトウェアも使用しません。
 
-Electrical Connection
+
+電気的な接続
 ---------------------
 
-You will need a **custom adapter cable** to connect the HuskyLens to an
-I2C port on a REV Control Hub or Expansion Hub. The 4 wires/pins of the
-HuskyLens connector are not in the same order/position as the 4 pins on
-the REV Hub.
+**HuskyLens** を**REV Control Hub** または**Expansion Hub** の I2C ポートに接続するには、** カスタムアダプターケーブル** が必要です。**HuskyLens** コネクタの4本のワイヤ／ピンは、REV Hub の4ピンと順番や位置が異なります。
 
-Three of the wires have **the same color** as wires in the REV sensor
-cable. Your custom cable should connect **red to red**, **black to
-black**, and **blue to blue**. This leaves only the HuskyLens **green
-wire**; connect it to the REV **white wire**. Simple!
+3本のワイヤは、REV センサーケーブルのワイヤと**同じ色** です。カスタムケーブルでは、**赤は赤** 、**黒は黒** 、**青は青** で接続してください。残る**HuskyLens** の** 緑色のワイヤ** は、REV の** 白色のワイヤ** に接続します。とてもシンプルです！
 
-This tutorial does **not** cover the (many) ways to:
+このチュートリアルでは、
 
--  modify an existing cable (change pin order in one connector), **OR**
--  fabricate a custom cable, with:
+- 既存ケーブルのピン順変更、または
+- 新規ケーブルの製作方法（はんだ付け、圧着コネクタ、レバーナットなど）
 
-   -  soldering
-   -  crimped connectors
-   -  lever nuts (example below)
+については扱いません。
 
-FTC Competition Manual allows this work, but teams must ensure high quality for
-robot competition all season.
+
+**FTC 競技マニュアル** ではこの作業が認められていますが、チームは競技シーズンを通じて高品質なケーブルを確保してください。
 
 .. figure:: images/060-adapter.png
    :align: center
@@ -59,21 +48,16 @@ robot competition all season.
 
    image credit: @texasdiaz
 
-To confirm these wiring instructions are correct, you could study the
-`HuskyLens
-documentation <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_3>`__
-and the `REV Hub
-documentation <https://docs.revrobotics.com/duo-control/sensors/i2c#wiring>`__.
-You will see the following “pinout” info: 
 
-- HuskyLens **green** wire 1 (“T”) SDA or data == REV Hub **white** wire 3
-  “SDA” or data 
-- HuskyLens **blue** wire 2 (“R”) SCL or clock == REV Hub **blue** wire 4 “SCL”
-  or clock 
-- HuskyLens **black** wire 3 (“-”) GND or ground == REV Hub **black** wire 1
-  “GND” or ground 
-- HuskyLens **red** wire 4 (“+”) VCC or +3.3-5VDC == REV Hub **red** wire 2
-  “3.3V” or Vcc
+配線方法が正しいか確認したい場合は、
+`HuskyLens 公式ドキュメント <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_3>`__
+や `REV Hub 公式ドキュメント <https://docs.revrobotics.com/duo-control/sensors/i2c#wiring>`__
+を参照してください。以下の「ピン配置」情報が得られます：
+
+- HuskyLens **緑** ワイヤ 1（「T」）SDA（データ） == REV Hub**白** ワイヤ 3「SDA」（データ）
+- HuskyLens **青** ワイヤ 2（「R」）SCL（クロック） == REV Hub**青** ワイヤ 4「SCL」（クロック）
+- HuskyLens **黒** ワイヤ 3（「-」）GND（グラウンド） == REV Hub**黒** ワイヤ 1「GND」（グラウンド）
+- HuskyLens **赤** ワイヤ 4（「+」）VCC（+3.3-5VDC） == REV Hub**赤** ワイヤ 2「3.3V」（Vcc）
 
 .. figure:: images/070-ports.png
    :align: center
@@ -82,25 +66,19 @@ You will see the following “pinout” info:
 
    image credit: @texasdiaz
 
-Configuration
--------------
 
-Plug the HuskyLens into a REV Hub I2C port, using your new adapter
-cable. The I2C connections labeled **Bus 1, 2 or 3** are suggested, to
-avoid (unlikely) overload of data traffic.
+構成方法
+--------------
 
-The label 0 (zero) is I2C Bus 0, which likely has a **built-in IMU** on
-its Port 0. An I2C Bus can contain multiple I2C Ports, sharing traffic.
+新しいアダプターケーブルを使い、**HuskyLens** を**REV Hub** の I2C ポートに接続します。I2C 接続は**Bus 1, 2, 3** のいずれかを推奨します（データトラフィックの過負荷を避けるため）。
 
-On the Driver Station, touch the three-dots menu, and
-``Configure Robot``.
+ラベル「0」は I2C Bus 0 で、通常は Port 0 に**内蔵 IMU** が接続されています。I2C Bus には複数の I2C ポートがあり、トラフィックを共有します。
 
-Edit an existing (correct) configuration, or touch ``New``. Touch
-``Scan``, then navigate (through the Portal level) to the specific
-``Expansion Hub`` or ``Control Hub`` with the HuskyLens plugged in.
+**Driver Station** で、三点メニューから ``Configure Robot`` を選択します。
 
-Select ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged
-in.
+既存の（正しい）構成を編集するか、``New`` をタップします。``Scan`` をタップし、Portal レベルを経由して **HuskyLens** が接続された``Expansion Hub`` または``Control Hub`` を選択します。
+
+**HuskyLens** が接続されている Bus 番号（例：``I2C Bus 3`` ）を選択します。
 
 .. figure:: images/120-DS-config.png
    :align: center
@@ -109,30 +87,23 @@ in.
 
    Driver Station Config
 
-Touch ``Add``, and select device “HuskyLens” from the drop-down list for
-Port 0 (or first available port). Type the device name “huskylens”, as
-expected by the Sample OpMode.
 
-Touch ``Done`` several times, then ``Save``, to save and name/rename
-this updated robot configuration. Touch the DS “Back” arrow, returning
-to the DS app’s home screen.
+``Add`` をタップし、Port 0（または最初の空きポート）のドロップダウンリストから「HuskyLens」を選択します。デバイス名は「huskylens」と入力してください（サンプル **OpMode** で期待される名前です）。
 
-Confirm that your new configuration is shown on-screen as the active
-configuration.
+``Done`` を数回タップし、``Save`` で構成を保存・名前変更します。DS の「Back」矢印でホーム画面に戻ります。
 
-Sample OpMode
--------------
+新しい構成が画面上でアクティブ構成として表示されていることを確認してください。
 
-Connect your programming computer to the Robot Controller, and open the
-programming software. This tutorial uses **FTC Blocks**.
+
+サンプル **OpMode**
+~~~~~~~~~~~~~~~~~~~
+
+プログラミング用コンピューターを **Robot Controller** に接続し、プログラミングソフトウェアを開きます。このチュートリアルでは**FTC Blocks** を使用します。
 
 .. note::
-   **OnBot Java** and **Android Studio** users can easily follow along, since
-   the Java Sample OpMode uses the same programming logic and is well
-   commented.
+   **OnBot Java** や**Android Studio** ユーザーも同じロジックで簡単に追従できます（Java サンプル**OpMode** はコメントも充実しています）。
 
-In FTC Blocks, create a new OpMode using the sample called
-“SensorHuskyLens”:
+**FTC Blocks** で、「SensorHuskyLens」というサンプルを使って新しい**OpMode** を作成します。
 
 .. figure:: images/140-Sample-Blocks.png
    :align: center
@@ -141,8 +112,8 @@ In FTC Blocks, create a new OpMode using the sample called
 
    HuskyLens Blocks Sample
 
-Change the OpMode type from ``TeleOp`` to ``Autonomous``, since this
-sample does not use the gamepads.
+このサンプルでは、**OpMode** のタイプを ``TeleOp`` から``Autonomous`` に変更してください（ゲームパッドは使用しません）。
+
 
 .. figure:: images/160-Algorithm-Blocks.png
    :align: center
@@ -151,21 +122,15 @@ sample does not use the gamepads.
 
    HuskyLens Blocks Algorithm
 
-Notice the default algorithm here is ``TAG_RECOGNITION``, which simply
-detects any (common) AprilTags in the sensor’s field of view. This
-recognition is unrelated to the FTC game CENTERSTAGE and its 10
-AprilTags with metadata. Instead, this is a simple built-in, generic
-function of HuskyLens, used here only to validate the sensor’s
-operation.
 
-For AprilTag recognition and navigation, FTC teams may find much more
-value from a UVC webcam and the FTC
+デフォルトのアルゴリズムは ``TAG_RECOGNITION`` で、センサーの視野内にある（一般的な）**AprilTag** を検出します。この認識は FTC ゲーム CENTERSTAGE の10個の**AprilTag** （メタデータ付き）とは関係ありません。ここでは、**HuskyLens** の動作確認のためのシンプルな内蔵機能です。
+
+**AprilTag** の認識やナビゲーションには、UVC ウェブカメラと FTC の
 :ref:`VisionPortal <apriltag/vision_portal/visionportal_overview/visionportal-overview:VisionPortal Overview>`
-software. An FTC robot may use HuskyLens **and** USB webcams.
+ソフトウェアの方が有用な場合があります。FTC ロボットは **HuskyLens** と USB ウェブカメラの両方を使うことができます。
 
-Click ``Save OpMode``, then select and run this OpMode from the Driver
-Station. After touching the Start arrow, point the HuskyLens at any
-AprilTag from the common 36h11 family:
+``Save OpMode`` をクリックし、Driver Station からこの **OpMode** を選択して実行します。Start 矢印をタップしたら、**HuskyLens** を一般的な 36h11 ファミリーの**AprilTag** に向けてください。
+
 
 .. figure:: images/210-AprilTag-double.png
    :align: center
@@ -174,10 +139,11 @@ AprilTag from the common 36h11 family:
 
    Uncategorized AprilTag Detected
 
-The HuskyLens’ small screen will show the recognized AprilTag,
-surrounded by a thin white Bounding Box.
 
-Here’s the corresponding DS Telemetry:
+**HuskyLens** の小さな画面には、認識した**AprilTag** が細い白いバウンディングボックスで囲まれて表示されます。
+
+対応する DS テレメトリーは以下の通りです：
+
 
 .. figure:: images/220-DS-1-big-AprilTag.png
    :align: center
@@ -186,27 +152,24 @@ Here’s the corresponding DS Telemetry:
 
    AprilTag Telemetry
 
-The data includes: 
 
-- number of objects (called “blocks”) detected 
-- ID code of object (might not be correct or meaningful) 
-- size of Bounding Box, in pixels 
-- center position of Bounding Box, in pixels, with (X, Y) origin at the top left
+データには以下が含まれます：
 
-The HuskyLens device screen is 320 x 240 pixels, with center at position
-(160, 120).
+- 検出されたオブジェクト（「ブロック」と呼ばれる）の数
+- オブジェクトの ID コード（正確でない場合や意味がない場合もあります）
+- バウンディングボックスのサイズ（ピクセル単位）
+- バウンディングボックスの中心位置（ピクセル単位、原点は左上）
 
-**Congratulations!** At this point, you have validated the HuskyLens
-device, its connection to the REV Hub, and the Sample OpMode program.
+**HuskyLens** の画面サイズは 320 x 240 ピクセル、中心は (160, 120) です。
 
-AprilTag Detection
+**おめでとうございます！** これで**HuskyLens** デバイス、REV Hub への接続、サンプル**OpMode** の動作確認ができました。
+
+
+**AprilTag** 検出
 ------------------
 
-Now you can test whether the HuskyLens can detect the AprilTag’s
-position on the CENTERSTAGE Spike Marks. This is not a real game
-scenario, since a Team Prop (Team Game Element) cannot use an AprilTag.
-This simply verifies whether your robot could aim the HuskyLens to “see”
-2 or 3 Spike Marks in a single view.
+次に、**HuskyLens** が CENTERSTAGE の Spike Mark 上の**AprilTag** の位置を検出できるかテストします。これは実際のゲームシナリオではありません（**Team Prop** ＝チームゲームエレメントは**AprilTag** を使えません）。ここでは、ロボットが**HuskyLens** で2～3個の Spike Mark を一度に「見る」ことができるかを検証します。
+
 
 .. figure:: images/230-3-tags-double.png
    :align: center
@@ -215,11 +178,11 @@ This simply verifies whether your robot could aim the HuskyLens to “see”
 
    HuskyLens Viewing 3 Uncategorized Tags
 
-Here the HuskyLens was placed in a feasible position, about 10 inches
-from the mat, near the middle of the foam tile before the Spike-Mark
-tile. The view **does include** the middle of all three Spike Marks.
 
-All three AprilTags were recognized:
+この例では、**HuskyLens** をマットから約10インチ離れた、Spike Mark タイル手前のフォームタイル中央付近に配置しました。視野には3つの Spike Mark の中央がすべて含まれています。
+
+3つの **AprilTag** がすべて認識されました：
+
 
 .. figure:: images/235-DS-3-AprilTag.png
    :align: center
@@ -228,23 +191,21 @@ All three AprilTags were recognized:
 
    Telemetry Showing 3 Blocks
 
-This validates the possibility that HuskyLens could recognize a trained
-object in one of various known positions – useful for the Autonomous
-phase of the CENTERSTAGE game.
 
-Single Color Training
+これは、**HuskyLens** が訓練済みオブジェクトを既知の複数位置のいずれかで認識できる可能性を示しています。CENTERSTAGE ゲームの**Autonomous** フェーズで有用です。
+
+
+単色の学習
 ---------------------
 
-Soon you will try a different algorithm called ``COLOR_RECOGNITION``.
-But first you need the HuskyLens to “learn” a single color, using its
-built-in AI feature.
+次は ``COLOR_RECOGNITION`` という別のアルゴリズムを試しますが、その前に **HuskyLens** の内蔵 AI 機能で「単色」を学習させます。
 
-Choose any object, about 3 to 4 inches in size, that’s completely one
-color – any color. Here we use a flat square beverage coaster (LEGO!),
-with a uniform **red color**.
 
-Place this object in the position and lighting that you expect to use
-for detection. This could be on a CENTERSTAGE Spike Mark, if available.
+3～4インチ程度の、完全に一色の物体を用意してください（色は何でも構いません）。ここでは、均一な**赤色** の平らな四角いコースター（LEGO!）を使います。
+
+
+検出に使う予定の位置や照明環境でこの物体を配置します。CENTERSTAGE の Spike Mark 上でも構いません。
+
 
 .. figure:: images/240-red-color-ID.png
    :align: center
@@ -253,76 +214,57 @@ for detection. This could be on a CENTERSTAGE Spike Mark, if available.
 
    Red Color ID
 
-In the above image, the trained color is shown as **``Color:ID1``** with
-a rectangular Bounding Box. The following steps describe how to do this
-training.
 
-The **HuskyLens instructions** for learning a color are `posted
-online <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__.
-You could try to follow those, or use the equivalent description here.
-Some practice may be required!
+上記画像では、学習した色が **``Color:ID1``** として長方形のバウンディングボックスで表示されています。以下の手順で色の学習を行います。
 
-On the top of the HuskyLens, the wheel at the left side is called the
-**Function button** (actually a dial and button). At the right side is
-the small **Learning button**.
 
-Dial the Function button to the right or left until **“Color
-Recognition”** is displayed at the bottom of the screen.
+**HuskyLens** の色学習手順は `公式オンライン <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__ に掲載されています。そちらを参照するか、同等の説明を本チュートリアルでご確認ください。少し練習が必要かもしれません。
 
-This is Step 1 only, under ``Operation and Setting`` of the HuskyLens
-instructions. For now, do not try to “learn” more than one color with
-Steps 2-4.
 
-Point the plus-sign “+” icon in the center of the HuskyLens screen at
-your object’s main color area. A white frame appears on the screen,
-targeting the main color. Aim the HuskyLens so the white frame includes
-only the target color.
+**HuskyLens** 上部の左側のダイヤルは「**Function ボタン**」（ダイヤル兼ボタン）、右側の小さいボタンは「**Learning ボタン**」です。
 
-This is Step 1 of ``Learning and Detection``. Next comes Step 2, Color
-Learning.
 
-With the main color framed, **long press** (press and hold) the small
-**Learning button** (right side). A yellow frame is displayed on the
-screen, indicating that HuskyLens is learning the color. During this
-long press, move the HuskyLens while pointing at the color area, to let
-HuskyLens learn the color from various distances and angles. Then,
-release the Learning button to complete learning that color. Do not
-press the button again (ignore the prompt); allow the 5-second time-out
-to finish.
+Function ボタンを左右に回し、画面下部に「Color Recognition」が表示されるまで操作します。
 
-The long-press learning period can last for just a few seconds. After
-releasing the Learning button, you allowed the training to time-out – no
-more colors to learn. Training is done!
 
-As shown above, the trained color will be shown on-screen as
-**``Color:ID1``** with a rectangular Bounding Box. This “block” (of
-color) will be reported in the Sample OpMode (next step).
+これは公式手順の ``Operation and Setting`` のステップ1です。今はステップ2～4で複数色を学習しようとしないでください。
 
-If you want to do this over again, short-press the Learning button, then
-short-press again to **Forget** the learned color(s). This will make the
-plus-sign “+” icon appear again. Aim the plus-sign at the center of the
-color area, and repeat the learning (long-press the Learning button).
-Release and let the time-out finish.
 
-This section showed how to train a single color. After completing this
-tutorial, you may wish to train **two colors** (e.g. a Red shade and a
-Blue shade). This is described near the end of this tutorial.
+**HuskyLens** 画面中央の「+」アイコンを物体の主な色領域に合わせます。白い枠が表示され、主色をターゲットします。枠内にターゲット色だけが入るように狙いましょう。
 
-HuskyLens documentation refers to the color zone as a “block” of color.
-This is not the same as a physical block or cube. HuskyLens uses the
-same word “block” for recognitions.
 
-Note the official warning:
+これは ``Learning and Detection`` のステップ1です。次はステップ2、色の学習です。
+
+
+主色が枠内に入ったら、右側の小さい **Learning ボタン** を** 長押し** します。画面に黄色い枠が表示され、**HuskyLens** が色を学習中であることを示します。長押し中は、色領域を指しながら**HuskyLens** を動かし、様々な距離や角度から色を学習させます。終わったら Learning ボタンを離して学習を完了します。ボタンを再度押さず（プロンプトは無視）、5秒のタイムアウトを待ちます。
+
+
+長押し学習は数秒で完了します。Learning ボタンを離した後、タイムアウトで学習終了となります。これで色の学習は完了です！
+
+
+上記のように、学習した色は画面上で **``Color:ID1``** として長方形のバウンディングボックスで表示されます。この「ブロック」（色領域）は次のサンプル**OpMode** で報告されます。
+
+
+再度学習したい場合は、Learning ボタンを短押し→もう一度短押しで学習済み色を**忘却** します。再び「+」アイコンが表示されるので、中心に合わせて長押しで学習を繰り返し、タイムアウトまで待ちます。
+
+
+このセクションでは単色の学習方法を説明しました。チュートリアル完了後、**2色** （例：赤系と青系）を学習する方法も後半で解説します。
+
+
+**HuskyLens** 公式ドキュメントでは色領域を「ブロック」と呼びますが、物理的なブロックやキューブとは異なります。認識領域も「ブロック」と呼ばれます。
+
+
+公式の注意事項：
 
 .. warning:: 
-   “Color recognition is greatly affected by ambient light. Sometimes
-   HuskyLens may misidentify similar colors. Please try to keep the
-   ambient light unchanged.”
+   「色認識は周囲の照明に大きく影響されます。**HuskyLens** は似た色を誤認識する場合があります。できるだけ照明環境を一定に保ってください。」
 
-Single Color Detection
+
+単色の検出
 ----------------------
 
-Aim the HuskyLens at one or more of your color-trained objects.
+**HuskyLens** を色学習済みの物体に向けます。
+
 
 .. figure:: images/250-two-red.png
    :align: center
@@ -331,12 +273,12 @@ Aim the HuskyLens at one or more of your color-trained objects.
 
    HuskyLens Detecting Two Red Objects
 
-As shown above, the HuskyLens should recognize and label your colored
-objects with **``Color:ID1``**. Here, both red objects are identified
-(yellow arrows).
 
-In the programming software (same OpMode), now select a different
-algorithm called ``COLOR_RECOGNITION``:
+上記のように、**HuskyLens** は色付き物体を**``Color:ID1``** として認識・ラベル付けします（ここでは赤色の物体2つが黄色矢印で示されています）。
+
+
+プログラミングソフトウェア（同じ **OpMode** ）で、アルゴリズムを ``COLOR_RECOGNITION`` に変更します：
+
 
 .. figure:: images/245-Color-Algorithm-Blocks.png
    :align: center
@@ -345,14 +287,16 @@ algorithm called ``COLOR_RECOGNITION``:
 
    Selecting COLOR_RECOGNITION algorithm
 
-In the Java sample OpMode, change the algorithm selection as follows:
+
+Java サンプル **OpMode** では、アルゴリズム選択を以下のように変更します：
 
 .. code:: java
 
    huskyLens.selectAlgorithm(HuskyLens.Algorithm.COLOR_RECOGNITION);
 
-Save this OpMode, then select and run it on the Driver Station. Make
-sure the active configuration includes the HuskyLens.
+
+この **OpMode** を保存し、Driver Station で選択・実行します。アクティブ構成に**HuskyLens** が含まれていることを確認してください。
+
 
 .. figure:: images/260-DS-two-red.png
    :align: center
@@ -361,22 +305,18 @@ sure the active configuration includes the HuskyLens.
 
    DS Telemetry Two Objects
 
-As shown above, the OpMode provides the size and location of the white
-Bounding Boxes (called “blocks”). This is done in a **FOR loop**;
-multiple recognitions are processed one at at time.
 
-In the Java sample OpMode, **inside the FOR loop**, you could save or
-evaluate **specific** info for the currently recognized Bounding Box:
-``blocks[i].width``, ``blocks[i].height``, ``blocks[i].left``,
-``blocks[i].top``, and (for the Box’s center) ``blocks[i].x`` and
-``blocks[i].y``. The Color ID ``blocks[i].id`` is always 1 here, for
-single-color detection. These values have Java type ``int``.
+上記のように、**OpMode** では白いバウンディングボックス（「ブロック」）のサイズと位置が表示されます。これは**FOR ループ** で処理され、複数認識が1つずつ処理されます。
 
-Even if your Team Prop’s color closely matches the color of the red or
-blue Spike Mark, you could write OpMode code to reject the narrow shape
-(aspect ratio) of an empty Spike Mark’s Bounding Box.
 
-Here’s an example with a trained **blue object**:
+Java サンプル **OpMode** の**FOR ループ内** では、現在認識されたバウンディングボックスの詳細情報（``blocks[i].width``、``blocks[i].height``、``blocks[i].left``、``blocks[i].top``、中心座標の``blocks[i].x``、``blocks[i].y`` ）を保存・評価できます。色 ID（``blocks[i].id`` ）は単色検出の場合常に1です。これらは Java の``int`` 型です。
+
+
+**Team Prop** の色が Spike Mark の赤や青と近い場合でも、空の Spike Mark のバウンディングボックスの形状（アスペクト比）を判定して除外する**OpMode** コードを書くことができます。
+
+
+以下は学習済み**青色物体** の例です：
+
 
 .. figure:: images/270-two-blue-double.png
    :align: center
@@ -385,7 +325,8 @@ Here’s an example with a trained **blue object**:
 
    HuskyLens Two Blue Objects
 
-Both blue objects were recognized by the OpMode:
+
+両方の青色物体が **OpMode** で認識されました：
 
 .. figure:: images/280-DS-2-blue.png
    :align: center
@@ -394,115 +335,76 @@ Both blue objects were recognized by the OpMode:
 
    Telemetry for Two Blue Objects
 
-Again, your code can evaluate the size and location of any provided
-Bounding Box, to verify a “real” recognition of your object.
 
-Competition Notes
------------------
+同様に、コードでバウンディングボックスのサイズや位置を評価し、物体の「本物の」認識かどうかを判定できます。
 
-1. Team Prop
-~~~~~~~~~~~~
 
-Now you are ready to experiment with color recognition of an actual Team
-Prop, also called a Team Game Element. Study the Competition Manual
-and the `FTC Q&A <https://ftc-qa.firstinspires.org/>`__ for the Team
-Prop requirements. Choose your shades of “red” and “blue” (see note
-below), and follow the same steps as above.
-
-2. Color
-~~~~~~~~
-
-The above trained **blue object** is not the same shade of blue as the
-blue Spike Mark. This difference increases the chance of a distinct and
-correct recognition of the object color.
-
-In this game, the Competition Manual specifically allowed the Team Prop to be a
-different shade of Red or Blue, compared to the official tape color of Spike
-Marks.
-
-3. Lighting
-~~~~~~~~~~~
-
-The HuskyLens documentation provides a warning (shown above) that
-ambient lighting can impact recognition of a trained color.
-
-For this reason, competition training should ideally be done with the
-Team Prop (Team Game Element) on the Spike Mark, and the HuskyLens in
-its planned match start position, “on-robot”.
-
-Also, the trained ambient lighting must be similar to expected match
-conditions. This may suggest performing the final color-training as part
-of tournament or match set-up. With practice, it could be done in a few
-seconds.
-
-4. Programming
-~~~~~~~~~~~~~~
-
-In this Sample OpMode, the main loop ends only upon touching the DS Stop
-button. For competition, teams should **modify this code** in at least
-two ways:
-
--  for a significant recognition, take action or store key information –
-   inside the FOR loop
-
--  end the main loop based on your criteria, to continue the OpMode
-
-As an example, you might set a Boolean variable ``isPropDetected`` to
-``true``, if a significant recognition has occurred.
-
-You might also evaluate and store which randomized Spike Mark (red or
-blue tape stripe) holds the Team Prop.
-
-Regarding the main loop, it could end after the HuskyLens views all
-three Spike Marks, or after your code provides a high-confidence result.
-If the HuskyLens’ view includes more than one Spike Mark position,
-perhaps the **Bounding Box** size(s) and location(s) could be useful.
-Teams should consider how long to seek an acceptable recognition, and
-what to do otherwise.
-
-In any case, the OpMode should exit the main loop and continue running,
-using any stored information. 
-
-Multi-Color Training
+競技に関する注意事項
 --------------------
 
-After completing the above tutorial with a single trained color, you may
-wish to train **two colors** (e.g. a Red shade and a Blue shade).
+1. **Team Prop**
+~~~~~~~~~~~~~~~~
 
-This would avoid the need for multiple color-training sessions during an
-FTC tournament. With single-color, you would train for Red before
-playing an FTC match as Red Alliance, and train for Blue before playing
-as Blue Alliance.
+実際の **Team Prop** （チームゲームエレメント）の色認識実験が可能です。**Competition Manual** や `FTC Q&A <https://ftc-qa.firstinspires.org/>`__ で**Team Prop** の要件を確認し、「赤」「青」の色合いを選び、上記と同じ手順で学習・認識を行ってください。
 
-With multi-color, your Red-Alliance Autonomous OpMode could seek Red as
-**``Color:ID1``**, for example, and your Blue-Alliance Autonomous OpMode
-could seek Blue as **``Color:ID2``**.
 
-The **HuskyLens instructions** for learning multiple colors are `posted
-online <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__.
-You could try to follow those, or use the equivalent description here.
-Again, some practice may be required!
+2. 色
+~~~~~~~~
 
-Reminder: on the top of the HuskyLens, the wheel at the left side is
-called the **Function button** (actually a dial and button). At the
-right side is the small **Learning button**.
+上記の学習済み**青色物体** は Spike Mark の青とは異なる色合いです。この違いにより、物体色の明確かつ正確な認識の可能性が高まります。
 
-**Step 1.** Dial the Function button to the right or left until **“Color
-Recognition”** is displayed at the bottom of the screen.
+このゲームでは、**Competition Manual** で**Team Prop** の色が Spike Mark の公式テープ色と異なる赤・青でも認められています。
 
-**Long press** (press and hold) the Function button to select Color
-Recognition.
 
-**Step 2.** This brings up the next menu, containing the choice “Learn
-Multiple”. If needed, dial the Function button to highlight “Learn
-Multiple”.
+3. 照明
+~~~~~~~~~~~
 
-**Short press** (press and release) the Function button to select Learn
-Multiple.
+**HuskyLens** 公式ドキュメント（上記参照）では、周囲の照明が学習済み色の認識に影響する旨の注意があります。
 
-This brings up the OFF-ON slider bar for “Learn Multiple”. If needed,
-dial the Function Button to move the blue square to the **right side**
-of the blue slider bar. See yellow arrow:
+そのため、競技用の学習は、**Team Prop** を Spike Mark 上に置き、**HuskyLens** を試合開始予定位置（ロボット上）に設置して行うのが理想です。
+
+また、学習時の照明環境は試合本番に近いものにしてください。大会や試合準備の一環として最終色学習を行うのも良いでしょう。慣れれば数秒で完了します。
+
+
+4. プログラミング
+~~~~~~~~~~~~~~~~~
+
+このサンプル **OpMode** では、メインループは DS の Stop ボタンを押すまで終了しません。競技用には、少なくとも以下2点で** コードを修正** してください：
+
+- 重要な認識があった場合、FOR ループ内でアクションを起こすか重要情報を保存する
+- 独自の基準でメインループを終了し、**OpMode** を継続する
+
+例として、重要な認識があれば Boolean 変数 ``isPropDetected`` を``true`` に設定するなどが考えられます。
+
+また、どの Spike Mark（赤・青テープ）に **Team Prop** があるかを判定・保存することもできます。
+
+メインループは、**HuskyLens** が3つの Spike Mark をすべて見終えた時や、コードが高信頼度の結果を出した時に終了しても良いでしょう。複数 Spike Mark が視野に入る場合は、** バウンディングボックス** のサイズや位置が有用です。認識にかける時間や、認識できなかった場合の対応も検討してください。
+
+いずれの場合も、**OpMode** はメインループを抜けて、保存した情報を使って処理を続行します。
+
+
+複数色の学習
+--------------------
+
+上記のチュートリアルで単色の学習が完了したら、**2色** （例：赤系と青系）を学習することもできます。
+
+これにより、FTC トーナメント中に複数回色学習を行う必要がなくなります。単色の場合は、Red Alliance の試合前に赤を、Blue Alliance の試合前に青を学習します。
+
+複数色の場合、Red Alliance の **Autonomous OpMode** では**``Color:ID1``** を、Blue Alliance の**Autonomous OpMode** では**``Color:ID2``** を探すことができます。
+
+複数色学習の **HuskyLens** 公式手順は `オンライン <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__ に掲載されています。そちらを参照するか、本チュートリアルの説明を参考にしてください。こちらも少し練習が必要です。
+
+再確認：**HuskyLens** 上部の左側のダイヤルは「**Function ボタン**」（ダイヤル兼ボタン）、右側の小さいボタンは「**Learning ボタン**」です。
+
+**ステップ1.** Function ボタンを左右に回し、画面下部に「Color Recognition」が表示されるまで操作します。
+
+**Function ボタンを長押し** して Color Recognition を選択します。
+
+**ステップ2.** 次のメニューで「Learn Multiple」を選択します。必要に応じて Function ボタンを回し、「Learn Multiple」をハイライトします。
+
+**Function ボタンを短押し** して「Learn Multiple」を選択します。
+
+「Learn Multiple」の ON/OFF スライダーが表示されます。必要に応じて Function ボタンを回し、青い四角をスライダーの**右側** に移動します（黄色矢印参照）：
 
 .. figure:: images/340-Husky-LearnMultiple.png
    :align: center
@@ -511,34 +413,21 @@ of the blue slider bar. See yellow arrow:
 
    HuskyLens - Learn Multiple
 
-**Short press** the Function button to set “Learn Multiple” to **ON**.
+**Function ボタンを短押し** して「Learn Multiple」を**ON** にします。
 
-**Step 3.** Dial the Function button to the left, and **short press** to
-select “Save & Return”.
+**ステップ3.** Function ボタンを左に回し、「Save & Return」を短押しで選択します。
 
-At the screen prompt “Do you want to save the parameters?” or “Do you
-save data?”, **short press** the Function button to select “Yes”. This
-saves the mode (again) as “Learn Multiple” and exits the settings menu.
+画面の「Do you want to save the parameters?」や「Do you save data?」のプロンプトで、Function ボタンを短押しして「Yes」を選択します。これで「Learn Multiple」モードが保存され、設定メニューを終了します。
 
-Now ready for learning!
+これで学習準備完了です！
 
-**Step 4.** As before, point the plus-sign “+” icon in the center of the
-HuskyLens screen at your object’s main color area. A **white frame**
-appears on the screen, targeting the main color. Aim the HuskyLens so
-the white frame includes only the target color.
+**ステップ4.** 先ほどと同様に、**HuskyLens** 画面中央の「+」アイコンを物体の主な色領域に合わせます。** 白い枠** が表示され、主色をターゲットします。枠内にターゲット色だけが入るように狙いましょう。
 
-With the main color framed, **long press** (press and hold) the small
-**Learning button** (right side). A **yellow frame** appears on the
-screen, indicating that HuskyLens is learning the color.
+主色が枠内に入ったら、右側の小さい **Learning ボタン** を** 長押し** します。** 黄色い枠** が表示され、**HuskyLens** が色を学習中であることを示します。
 
-During this long press, move the HuskyLens while pointing at the color
-area, to let HuskyLens learn the color from various distances and
-angles. Then, release the Learning button to complete learning that
-color.
+長押し中は、色領域を指しながら **HuskyLens** を動かし、様々な距離や角度から色を学習させます。終わったら Learning ボタンを離して学習を完了します。
 
-The long-press learning period can last for just a few seconds. After
-releasing the Learning button, **``Color:ID1``** is now trained, with
-its label shown on-screen. Easy!
+長押し学習は数秒で完了します。Learning ボタンを離した後、**``Color:ID1``** が学習され、ラベルが画面に表示されます。簡単です！
 
 .. figure:: images/240-red-color-ID.png
    :align: center
@@ -547,19 +436,14 @@ its label shown on-screen. Easy!
 
    HuskyLens - RED (Color 1) Trained
 
-**Step 5.** As prompted on the screen, **short press** the Learning
-button again (before the 5-second time-out). This prepares for learning
-the next color.
+**ステップ5.** 画面の指示に従い、Learning ボタンをもう一度短押しします（5秒タイムアウト前）。これで次の色の学習準備ができます。
 
-**Step 6.** Point the lens at your second color, and repeat the previous
-Step 4. Namely, **long press** the Learning button, aim and move, then
-**release** to complete learning that color.
+**ステップ6.** レンズを2色目に向け、前述のステップ4を繰り返します。Learning ボタンを長押し、狙い・動かし、離して学習を完了します。
 
-Now **``Color:ID2``** is trained, with its label shown on-screen.
 
-**Step 7.** As prompted, **short press** the “other” button, the
-Function button. Or, allow the 5-second time-out to complete. In either
-case, this completes the multi-color training. All done!
+これで **``Color:ID2``** も学習され、ラベルが画面に表示されます。
+
+**ステップ7.** 画面の指示に従い、もう一方のボタン（Function ボタン）を短押しするか、5秒のタイムアウトを待ちます。どちらでも複数色学習が完了します。お疲れさまでした！
 
 .. figure:: images/360-two-colors.png
    :align: center
@@ -568,20 +452,15 @@ case, this completes the multi-color training. All done!
 
    HuskyLens - Two Colors Trained (ID1 and ID2)
 
-If you want to do all this **over again**, short-press the Learning
-button, then (as prompted) short-press again to **``Forget`` all of the
-learned colors**.
+すべてをやり直したい場合は、Learning ボタンを短押し→画面の指示に従いもう一度短押しで、学習済み色をすべて**忘却** します。
 
-This makes the plus-sign “+” icon appear again. Repeat the above, from
-Step 4, to train colors again.
+再び「+」アイコンが表示されるので、ステップ4から繰り返して色を再学習できます。
 
-Multi-Color Detection
+
+複数色の検出
 ---------------------
 
-For your OpMode code to read **``Color:ID2``**, for example, the
-Algorithm must be set to ``COLOR_RECOGNITION`` and the field
-``HuskyLens.Block.id`` will be **the value 2**. This can be seen in the
-Telemetry portion of the Sample OpMode you used above.
+例えば **``Color:ID2``** を**OpMode** コードで読み取るには、アルゴリズムを``COLOR_RECOGNITION`` に設定し、``HuskyLens.Block.id`` フィールドが「2」になります。これは上記サンプル**OpMode** のテレメトリー部分で確認できます。
 
 .. figure:: images/400-Blocks-Color-ID.png
    :align: center
@@ -590,8 +469,7 @@ Telemetry portion of the Sample OpMode you used above.
 
    Adding Telemetry for Colors
 
-Here’s the DS Telemetry from the Sample OpMode used above for single
-color, **with no coding changes**:
+上記サンプル **OpMode** （単色用、コード変更なし）での DS テレメトリー例：
 
 .. figure:: images/420-2-color-telemetry.png
    :align: center
@@ -600,59 +478,36 @@ color, **with no coding changes**:
 
    Example Telemetry showing Both Colors
 
-Now there are two trained and recognized colors, with ID Codes 1 and 2 –
-see yellow arrow above.
+IDコード1と2の2色が学習・認識されています（黄色矢印参照）。
 
-These two lines of Telemetry are generated in different cycles of the
-same FOR Loop. They display together, since the ``Telemetry.update``
-Block appears **after** the FOR Loop has completed all of its cycles.
-Namely, the FOR Loop has processed each HuskyLens “color block” in the
-``List`` of HuskyLens “blocks”.
+これら2行のテレメトリーは、同じ FOR ループの異なるサイクルで生成されます。``Telemetry.update`` ブロックが FOR ループ終了後に実行されるため、両方が同時に表示されます。FOR ループは HuskyLens の「color block」リストをすべて処理します。
 
-In the Java sample OpMode, add these lines **inside the FOR loop**:
+Java サンプル **OpMode** では、FOR ループ内に以下の行を追加します：
 
 .. code:: java
 
-   int thisColorID = blocks[i].id;                      // save the current recognition's Color ID
-   telemetry.addData("This Color ID", thisColorID);     // display that Color ID
+   int thisColorID = blocks[i].id;                      // 現在認識した色IDを保存
+   telemetry.addData("This Color ID", thisColorID);     // 色IDを表示
 
-Besides ``.id``, other Java fields are available for the currently
-recognized Bounding Box: ``.width``, ``.height``, ``.left``, ``.top``,
-plus ``.x`` and ``.y`` (center location).
+``.id`` 以外にも、現在認識したバウンディングボックスの``.width``、``.height``、``.left``、``.top``、``.x``、``.y`` （中心座標）などのフィールドが利用できます。
 
-The color ID numbers are assigned **in order of training**. You cannot
-renumber these later, so plan your training and OpMode coding to agree
-with each other.
+色ID番号は**学習順** で割り当てられます。後から番号変更はできないので、学習順と**OpMode** コードの対応を計画してください。
 
 .. tip::
-   **Advanced tip:** If your color recognition is heavily affected by ambient
-   lighting, you could try training your object in various lighting conditions
-   **as different HuskyLens colors**. Namely, the Red-shade Team Prop could be
-   trained as **``Color:ID1``** in bright light, and trained as
-   **``Color:ID2``** in dim light or shadow. Your OpMode could accept
-   **either** Color ID (1 or 2) as “Red”. Likewise, Blue shades could have
-   Color IDs 3 and 4.
+   **応用ヒント：** 色認識が照明環境に大きく左右される場合、異なる照明条件ごとに別の HuskyLens 色として学習する方法もあります。例えば、赤系 Team Prop を明るい環境で**``Color:ID1``**、暗い環境や影で**``Color:ID2``** として学習し、**OpMode** でどちらのIDも「赤」として扱うことができます。青系も同様にID3・ID4など複数登録可能です。
 
-Object Training
----------------
 
-This tutorial ends with HuskyLens **color training**. Now you are
-familiar with the basic steps for HuskyLens operation, training, and FTC
-programming.
+オブジェクト学習
+~~~~~~~~~~~~~~~~
 
-You are encouraged to proceed with training the HuskyLens to recognize
-an **actual object**. This could be one of its 20 pre-trained models
-(“Object Recognition”) or a **custom model or image** that you train
-(“Object Classification”). In each case, follow a process similar to
-color training, using the `HuskyLens
-documentation <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336>`__.
+このチュートリアルは **HuskyLens** の「色学習」で終了です。これで**HuskyLens** の基本操作・学習・FTC プログラミング手順を習得できました。
 
-You may find that HuskyLens **object recognition** provides more
-(educational) exposure to the process of AI and Machine Learning, along
-with more reliable results than color recognition.
+今後は、**HuskyLens** で「実際の物体」を認識する学習にも挑戦してみてください。20種類のプリセットモデル（「Object Recognition」）や、独自に学習したモデル・画像（「Object Classification」）も利用できます。いずれも色学習と同様の手順で、`HuskyLens 公式ドキュメント <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336>`__ を参考にしてください。
 
-Best of luck this season!
+**HuskyLens** の「物体認識」は、AI・機械学習の教育的な体験や、色認識よりも高い信頼性を得られる場合があります。
+
+皆さんの FTC シーズンの成功を祈っています！
 
 ============
 
-Questions, comments and corrections to westsiderobotics@verizon.net
+ご質問・ご意見・修正依頼は westsiderobotics@verizon.net までお寄せください。

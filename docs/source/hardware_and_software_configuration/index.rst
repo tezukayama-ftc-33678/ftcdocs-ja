@@ -1,12 +1,12 @@
 .. meta::
-   :title: Hardware and Software Configuration
+   :title: ハードウェアとソフトウェアの構成
    :description:
-   :keywords: FTC Docs, FIRST Tech Challenge, FTC, configuration
+   :keywords: FTC Docs, FIRST Tech Challenge, FTC, 構成
 
-Hardware and Software Configuration
+ハードウェアとソフトウェアの構成
 =====================================
 
-Hardware and Software Configuration for the Control System
+制御システムのハードウェアとソフトウェアの構成
 
 .. toctree::
    :maxdepth: 2

@@ -368,20 +368,20 @@ Here are a few examples:
 
 .. code:: rst
    
-      This is **bold** text in **this document**.
+      This is **bold**text in**this document**.
    
       This is *italic* text in *this document*.
    
-      This is ``literal`` text in ``this document``.
+      This is ``literal``text in``this document``.
    
       This is a fun way using "\\ " to smash styles without 
       spaces: \*\*Bold\*\*\\ \*Italic\* will render as **Bold**\ *Italic*.
 
-This is **bold** text in **this document**.
+This is **bold**text in**this document**.
 
 This is *italic* text in *this document*.
 
-This is ``literal`` text in ``this document``.
+This is ``literal``text in``this document``.
 
 This is a fun way using "\\ " to smash styles without 
 spaces: \*\*Bold\*\*\\ \*Italic\* will render as **Bold**\ *Italic*.
@@ -472,8 +472,8 @@ Referencing Sections Example
 In plain text, a section can be created and referenced like::
 
     Section Name
-    ------------
-   
+    ----------------
+       
     This is a link to `Section Name`_
 
 As another real-life example within this document, I can jump to the top
@@ -533,19 +533,19 @@ An embedded URI follows this example:
 
 For example::
 
-   `Microsoft <https://microsoft.com/en-us>`_ 
+   `Microsoft <https://microsoft.com/en-us>`__ 
 
 **would be rendered as:**
 
-   `Microsoft <https://microsoft.com/en-us>`_
+   `Microsoft <https://microsoft.com/en-us>`__
 
 As another example::
 
-   `REV Robotics Website <https://www.revrobotics.com>`_ 
+   `REV Robotics Website <https://www.revrobotics.com>`__ 
 
 **would be rendered as:**
 
-   `REV Robotics Website <https://www.revrobotics.com>`_
+   `REV Robotics Website <https://www.revrobotics.com>`__
    
 ----
 
@@ -627,11 +627,11 @@ It is important to remember that directives must have a blank line before the
 directive and must have a blank line after the directive (and all its options).
 
 .. warning::
-   Images with the extension ``.gif`` and ``.svg`` are not supported in 
+   Images with the extension ``.gif``and``.svg`` are not supported in 
    PDF format. For documentation that will be used in PDFs, do not externally
    link to files with these extensions. It is possible to use these files
    when using a file path, as long as supported versions of the files exist.
-   For example, if you have both ``picture.svg`` and ``picture.png``, you can
+   For example, if you have both ``picture.svg``and``picture.png``, you can
    command the HTML to use one version and the PDF to use *any supported 
    version* through using a * (asterisk) in the file extension, like so:
    
@@ -642,12 +642,12 @@ directive and must have a blank line after the directive (and all its options).
 Embedding Images using the figure directive
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The ``.. figure::`` directive is very similar to the ``.. image::`` directive, 
-as a matter of fact the ``figure`` directive *contains* an ``image`` directive
+The ``.. figure::``directive is very similar to the``.. image::`` directive, 
+as a matter of fact the ``figure``directive *contains* an``image`` directive
 but also allows for an optional caption (a single paragraph) and an optional
 legend (with arbitrary body elements).
 
-The ``figure`` directive supports all of the options of the ``image``. These
+The ``figure``directive supports all of the options of the``image``. These
 options, except ``:align:``, are passed on to the contained image. The following
 options are important for the ``figure``:
 
@@ -676,7 +676,7 @@ help describe and label images. Some examples of using figures are:
 
       Simple Caption for Figure
 
-You can see more about the ``figure`` directive at the `Figure Directives Link <https://docutils.sourceforge.io/docs/ref/rst/directives.html#figure>`_.
+You can see more about the ``figure`` directive at the `Figure Directives Link <https://docutils.sourceforge.io/docs/ref/rst/directives.html#figure>`__.
 
 ----
 
@@ -688,8 +688,8 @@ There are five kinds of lists:
 * `Bulleted Lists`_
 * `Enumerated Lists`_
 * `Definition Lists`_
-* `Field Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#field-lists>`_
-* `Option Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#option-lists>`_
+* `Field Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#field-lists>`__
+* `Option Lists <https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#option-lists>`__
 
 We'll discuss the first three only - for Field and Option lists, click the
 links to go to the specifications for those types of lists.

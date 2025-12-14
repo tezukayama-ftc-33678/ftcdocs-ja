@@ -1,17 +1,13 @@
-Sample OpModes
---------------
+サンプル **OpModes**
+--------------------
 
-The intent of this tutorial is to describe the available webcam
-controls, allowing programmers to **develop their own solutions** guided
-by the SDK API (Javadoc).
+このチュートリアルの目的は、利用可能な Webcam 制御について説明し、プログラマーが **SDK** API（Javadoc）に基づいて**独自のソリューションを開発** できるようにすることです。
 
-The following sample OpModes are linked here for reference only. These
-rudimentary OpModes may not apply to your webcam and may not meet your
-needs in general.
+以下のサンプル **OpModes** は、参照のみを目的としてここにリンクされています。これらの初歩的な **OpModes** は、Webcam に適用されない場合があり、一般的にニーズを満たさない場合があります。
 
 
 
-.. dropdown:: Adjust exposure, gain and AE Priority
+.. dropdown:: 露出、ゲイン、AE Priority を調整
 
    :download:`W_WebcamControls_Exp_Gain.java <opmodes/W_WebcamControls_Exp_Gain.java>`
 
@@ -20,28 +16,28 @@ needs in general.
 
 
 
-.. dropdown:: Adjust exposure and gain with TFOD (test OpMode for Examples 1, 2, 3)
+.. dropdown:: TFOD で露出とゲインを調整（例1、2、3のテスト OpMode）
 
    :download:`W_TFOD_WebcamExpGain.java <opmodes/W_TFOD_WebcamExpGain.java>`
 
    .. literalinclude:: opmodes/W_TFOD_WebcamExpGain.java
       :language: java
 
-.. dropdown:: Adjust white balance temperature, if supported
+.. dropdown:: ホワイトバランス温度を調整（サポートされている場合）
 
    :download:`W_WebcamControls_WhiteBalance.java <opmodes/W_WebcamControls_WhiteBalance.java>`
 
    .. literalinclude:: opmodes/W_WebcamControls_WhiteBalance.java
       :language: java
 
-.. dropdown:: Adjust focus, if supported
+.. dropdown:: フォーカスを調整（サポートされている場合）
 
     :download:`W_WebcamControls_Focus.java <opmodes/W_WebcamControls_Focus.java>`
 
    .. literalinclude:: opmodes/W_WebcamControls_Focus.java
       :language: java
 
-.. dropdown:: Adjust virtual pan, tilt and zoom, if supported
+.. dropdown:: 仮想パン、チルト、ズームを調整（サポートされている場合）
 
    :download:`W_WebcamControls_PTZ.java <opmodes/W_WebcamControls_PTZ.java>`
 

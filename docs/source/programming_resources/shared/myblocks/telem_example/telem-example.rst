@@ -1,29 +1,21 @@
-Example: Modify Telemetry Settings
+例：**Telemetry** 設定の変更
 ==================================
 
-Telemetry messages are sent from the Robot Controller to the Driver
-Station up to **four time per second**, by default. This maximum refresh
-rate can be changed with Android Studio or OnBot Java, but **not** with
-regular Blocks. Now a myBlock can provide that capability too!
+**Telemetry** メッセージは、デフォルトでは**Robot Controller** から**Driver Station** に** 毎秒最大4回** 送信されます。この最大更新レートは**Android Studio** または**OnBot Java** で変更できますが、通常の**Blocks** では変更** できません**。**myBlock** を使用すれば、この機能も提供できます！
 
-This simple example allows a Blocks user to change the standard time
-interval from 250 milliseconds to any other interval.
+この簡単な例では、**Blocks** ユーザーが標準の時間間隔を 250 ミリ秒から他の間隔に変更できます。
 
 .. image:: images/a0600-Telemetry-interval.png
 
-A lower time interval can allow faster update of sensor or encoder data.
-A higher interval can ease the RC-DS communication bandwidth load.
+時間間隔を短くすると、センサーまたはエンコーダーデータの更新を高速化できます。間隔を長くすると、RC-DS 通信帯域幅の負荷を軽減できます。
 
-Here’s the Java code for the method only:
+メソッドのみの Java コードは次のとおりです：
 
 .. image:: images/a0610-Telemetry-interval-Blocks.png
 
-.. note:: This tutorial intends for you to **manually type** the Java
-      code above. If you require pre-typed text of this example, click
-      below. The linked copy includes the usual class declaration and 
-      package/import statements.
+.. note:: このチュートリアルでは、上記の Java コードを**手動で入力** することを意図しています。この例の事前入力されたテキストが必要な場合は、以下をクリックしてください。リンクされたコピーには、通常のクラス宣言とパッケージ/インポート文が含まれています。
 
-.. dropdown:: Example Code
+.. dropdown:: サンプルコード
 
    :download:`W_myBlocks.java <opmodes/W_myBlocks.java>`
 
@@ -31,14 +23,9 @@ Here’s the Java code for the method only:
       :language: java
 
 
-Want to verify this actually works? Another, slightly more advanced
-myBlock allows measuring the time between Telemetry updates; it’s posted below.
-That myBlock can be used in a Blocks program like
-the one attatched below; download the raw **.blk file** and click 
-the **Upload Op Mode** button at the main Blocks menu. Read all 
-comments and instructions.
+これが実際に機能することを確認したいですか？別の、やや高度な **myBlock** により、**Telemetry** 更新間の時間を測定できます。以下に投稿されています。その**myBlock** は、以下に添付されているような**Blocks** プログラムで使用できます。生の**.blk ファイル** をダウンロードし、メインの**Blocks** メニューで**Upload Op Mode** ボタンをクリックしてください。すべてのコメントと指示をお読みください。
 
-.. dropdown:: Example Code
+.. dropdown:: サンプルコード
 
    :download:`W_myBlocks_Telemetry_v02.java <opmodes/W_myBlocks_Telemetry_v02.java>`
 

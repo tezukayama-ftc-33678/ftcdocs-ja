@@ -81,7 +81,7 @@ Docs Folder
 
 Within the **repository main folder** will almost always be a folder that
 contains the actual project files for the project - for the *rST-Primer*
-repository, that folder is the ``docs/`` folder. The ``docs/`` folder 
+repository, that folder is the ``docs/``folder. The``docs/`` folder 
 is where the top-level build definitions are for building the documentation. 
 
 .. figure:: images/docs-directory.png
@@ -93,14 +93,14 @@ is where the top-level build definitions are for building the documentation.
 Again, as a documentation contributor the contents of this folder will
 likely not be of interest to you right now, but for project builders and 
 maintainers this is where the "magic happens." The important element here is
-that this is where the ``source/`` folder is located. The ``source/`` 
+that this is where the ``source/``folder is located. The``source/`` 
 folder is the actual starting point for the documentation and the rST-primer
 website.
 
 Source Folder
 ^^^^^^^^^^^^^
 
-Within the ``docs/`` folder you will find the ``source/`` folder. Please
+Within the ``docs/``folder you will find the``source/`` folder. Please
 take careful notice that above the folder listing we can see the full
 repository *path* of where these files and folders are within the repository;
 we are currently viewing the current contents of ``rst-primer/docs/source``. 
@@ -195,7 +195,7 @@ content structure can be found in the :octicon:`file-directory;1em;sd-text-info`
 -  Each **.rst** file is defined within its own folder.  
 -  Each **.rst** file generally has supporting files (images, included files,
    etc...) and so it will have subfolders that include those files
-   (``/images``, ``/includes``, etc...)
+   (``/images``,``/includes``, etc...)
 -  Content categories can have category-specific landing pages, and those landing
    pages are ``index.rst`` files. These category pages don't generally contain
    content themselves, except as an introduction to the content linked from those
@@ -204,7 +204,7 @@ content structure can be found in the :octicon:`file-directory;1em;sd-text-info`
    -  Content Categories is used heavily within ftcdocs, but we will likely cover
       this topic in a much later tutorial.
 
--  **.rst** files must be referenced from at least **one** ``index.rst`` page.
+-  **.rst**files must be referenced from at least**one** ``index.rst`` page.
 
 The best way to describe these rules are to show an example of these
 rules in practice.
@@ -232,12 +232,12 @@ Let's pick this apart a little to understand the structure of the content better
 We will learn later *why* this structure is important once we start creating
 our own content.
 
-#. The site's ``/source`` root for ``ftcdocs``, similar to ``rST-Primer``, is
+#. The site's ``/source``root for``ftcdocs``, similar to``rST-Primer``, is
    in the ``ftcdocs/docs/source`` repository folder. 
 #. The main content file is named ``gp.rst`` and lives within the
-   ``/gracious_professionalism`` fol der within the ``/source`` folder.
+   ``/gracious_professionalism``fol der within the``/source`` folder.
    Files and folder names cannot include spaces, so the general site-wide style
-   is to use underscores ``_`` for folders and dashes ``-`` for filenames 
+   is to use underscores ``_``for folders and dashes``-`` for filenames 
    where spaces would otherwise be used. You can see this is more of a "guideline"
    rather than a rule, especially when dealing with externally-sourced files.
 #. The ``gp.rst`` file references/uses two locally-stored images, and so those 
@@ -247,7 +247,7 @@ our own content.
    within the main site ``index.rst`` file (we'll see *how* it's included a
    little later). 
 
-Feel free to `browse the content folder <https://github.com/FIRST-Tech-Challenge/ftcdocs/tree/main/docs/source/gracious_professionalism>`_ 
+Feel free to `browse the content folder <https://github.com/FIRST-Tech-Challenge/ftcdocs/tree/main/docs/source/gracious_professionalism>`__ 
 on the ftcdocs github repo.
 
 Creating a New Content Document
@@ -304,7 +304,7 @@ we need an image to use. I downloaded this file locally:
 
 #. Navigate to the folder you created in the previous step.
 
-#. Create a new folder within your folder called ``images``. E.g. ``/source/Demo/images``.
+#. Create a new folder within your folder called ``images``. E.g.``/source/Demo/images``.
    This can be done by right-clicking on your folder (`Demo`) and selecting "New Folder" and
    then typing in "images".
 

@@ -1,12 +1,7 @@
-New Teams
-=========
+新規チーム
+==========
 
-Welcome to *FIRST* Tech Challenge! Resources have been organized by type to help
-your team stay organized and be successful throughout the season. Get started
-by exploring our robot building resources, control system and the game.  You
-may also find the Coach's Playbook, a weekly schedule of activities, helpful to
-organize the whole team under Team Management. Just click on the button for the
-resource you want to explore!
+*FIRST* Tech Challenge へようこそ！リソースは種類別に整理されており、チームがシーズンを通して組織的かつ円滑に活動できるようになっています。まずはロボット構築リソース、制御システム、競技について調べてみましょう。また、チームマネジメントの下にあるコーチのプレイブック（週間活動スケジュール）も、チーム全体を整理するのに役立ちます。探したいリソースのボタンをクリックするだけです！
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -15,14 +10,14 @@ resource you want to explore!
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      *FIRST* Core Values
+      *FIRST* コアバリュー
 
       ^^^
 
-      We express the *FIRST* philosophies of Gracious Professionalism 
-      and Coopertition through our Core Values.
+      私たちは *FIRST* の理念である **Gracious Professionalism** 
+      と **Coopertition** をコアバリューを通じて表現しています。
       
-      +++
+++++++
 
       .. div:: container-fluid p-0
 
@@ -34,7 +29,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Gracious Professionalism
+               Gracious Professionalism（グレイシャス・プロフェッショナリズム）
 
       .. div:: container-fluid p-0
 
@@ -46,7 +41,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Coopertition (external)
+               Coopertition（クーペティション）（外部リンク）
 
       .. div:: container-fluid p-0
 
@@ -58,17 +53,17 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Core Values (external)
+               コアバリュー（外部リンク）
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Programming Resources
+      プログラミングリソース
 
       ^^^
 
-      Look for programming resources here.
+      プログラミングリソースはこちらです。
 
       +++
 
@@ -82,7 +77,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Choosing a Programming Tool
+               プログラミングツールの選択
 
          .. div:: col-sm pl-1 pr-1
 
@@ -92,7 +87,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Blocks Programmming Tutorial
+               Blocks プログラミングチュートリアル
          
          .. div:: col-sm pl-1 pr-1
 
@@ -102,18 +97,18 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Programming Resources
+               プログラミングリソース
 
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Robot Building and Control
+      ロボット構築と制御
 
       ^^^
 
-      Look for robot and control system resources here.
+      ロボットと制御システムのリソースはこちらです。
 
       +++
 
@@ -127,7 +122,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               The FTC Control System
+               FTC 制御システム
             
          .. div:: col-sm pl-1 pr-1
 
@@ -137,7 +132,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Robot Controller
+               Robot Controller（ロボットコントローラー）
 
          .. div:: col-sm pl-1 pr-1
 
@@ -147,7 +142,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Driver Station
+               Driver Station（ドライバーステーション）
                
          .. div:: col-sm pl-1 pr-1
 
@@ -156,7 +151,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Hardware Component Overview
+               ハードウェアコンポーネント概要
 
          .. div:: col-sm pl-1 pr-1
 
@@ -165,18 +160,18 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Team Resources (external) 
+               チームリソース（外部リンク） 
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Competition Manual
+      競技マニュアル
    
       ^^^
 
-      Be sure you're following all of the rules of the competition! 
-      The Competition Manual is an essential document.
+      競技のすべてのルールに従っていることを確認してください！ 
+      競技マニュアルは必要不可欠なドキュメントです。
 
       +++
  
@@ -190,7 +185,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Competition Manual
+               競技マニュアル
 
          .. div:: col-sm pl-1 pr-1
       
@@ -200,7 +195,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Playing Field Resources
+               競技フィールドリソース
 
          .. div:: col-sm pl-1 pr-1
 
@@ -209,19 +204,19 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Game Question and Answer System (external)
+               競技Q&Aシステム（外部リンク）
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Team Management
+      チームマネジメント
 
       ^^^
 
-      Links to team management resources like team registration, mentor training/resources, team budget and fundraising, preparing for a competition, and more.
+      チーム登録、メンター研修/リソース、チーム予算と資金調達、競技への準備など、チームマネジメントリソースへのリンクです。
       
-      +++
+++++++
       
       .. div:: container-fluid p-0
 
@@ -233,19 +228,19 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Team Management (external)
+               チームマネジメント（外部リンク）
       
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      CAD Resources 
+      CAD リソース 
 
       ^^^
 
-      Look for resources for Computer-Aided Design (CAD) software.
+      コンピューター支援設計（CAD）ソフトウェアのリソースはこちらです。
       
-      +++
+++++++
       
       .. div:: container-fluid p-0
 
@@ -257,19 +252,19 @@ resource you want to explore!
                :outline:
                :expand:
 
-               CAD Resources
+               CAD リソース
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Event Info
+      イベント情報
 
       ^^^
 
-      FTC events and event results.
+      FTC イベントとイベント結果です。
             
-      +++
+++++++++++++
       
       .. div:: container-fluid p-0
 
@@ -281,7 +276,7 @@ resource you want to explore!
                :outline:
                :expand:
 
-               FTC Events (external)
+               FTC イベント（外部リンク）
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
@@ -291,9 +286,9 @@ resource you want to explore!
 
       ^^^
 
-      Know the awards criteria before the event.
+      イベント前に Awards 基準を知っておきましょう。
       
-      +++
+++++++
       
       .. div:: container-fluid p-0
 
@@ -305,19 +300,19 @@ resource you want to explore!
                :outline:
                :expand:
 
-               FTC Awards (external PDF)
+               FTC Awards（外部PDF）
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      Frequently Asked Questions
+      よくある質問
 
       ^^^
 
-      Commonly asked team questions.
+      チームからよく寄せられる質問です。
       
-      +++
+++++++
       
       .. div:: container-fluid p-0
 
@@ -329,5 +324,5 @@ resource you want to explore!
                :outline:
                :expand:
 
-               Frequently Asked Questions
+               よくある質問
 

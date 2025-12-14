@@ -1,10 +1,9 @@
-Team Resources
+チームリソース
 ==============
 
-There are several resources that teams might want to access throughout the *FIRST* Tech Challenge
-season.
+*FIRST* Tech Challenge シーズンを通じて、チームがアクセスしたいと思ういくつかのリソースがあります。
 
-Pages and Links
+ページとリンク
 ~~~~~~~~~~~~~~~
 
 | FTC Blog - https://community.firstinspires.org/topic/ftc

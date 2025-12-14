@@ -1,58 +1,33 @@
-Computer Requirements for *FIRST* Programs
+**FIRST** プログラムのコンピューター要件
 ==========================================
 
-*FIRST*\ :sup:`®` programs, such as *FIRST*\ :sup:`®` LEGO\ :sup:`®`
-League, *FIRST*\ :sup:`®` Tech Challenge, and *FIRST*\ :sup:`®` Robotics
-Competition, are as unique as the teams that participate in them. This
-uniqueness is partially due to the wide variety of vendors that provide
-technologies to the programs, the hardware and software necessary to
-manage each program’s distinctive goals, and the constantly evolving
-landscape of tools and techniques that teams find useful to participate
-and excel. One commonality between programs is the need for teams to
-have a computer platform for software development, design, and
-collaboration. This document serves as a recommendation for the hardware
-and operating system requirements for that computer system.
+**FIRST**\ :sup:`®` LEGO\ :sup:`®` League、**FIRST**\ :sup:`®` Tech Challenge、**FIRST**\ :sup:`®` Robotics Competition などの **FIRST**\ :sup:`®` プログラムは、参加するチームと同じくらいユニークです。このユニークさは、プログラムに技術を提供するさまざまなベンダー、各プログラムの独自の目標を管理するために必要なハードウェアとソフトウェア、そしてチームが参加し優れた成果を上げるために役立つツールと技術の絶えず進化する状況に一部起因しています。プログラム間の共通点の1つは、チームがソフトウェア開発、設計、およびコラボレーションのためのコンピュータープラットフォームを必要とすることです。このドキュメントは、そのコンピューターシステムのハードウェアとオペレーティングシステムの要件に関する推奨事項として機能します。
 
-Of the many factors that can affect the minimum requirements for a
-computer, these are the ones that affect those requirements most
-heavily:
+コンピューターの最小要件に影響を与える可能性のある多くの要因のうち、これらが最も大きく影響します：
 
--  Any role-specific tasks that the computer may perform in the program
+-  プログラム内でコンピューターが実行する可能性のある役割固有のタスク
 
--  Type of Computer-Aided Design (CAD) software that may be used on the
-   computer
+-  コンピューターで使用される可能性のあるコンピューター支援設計（CAD）ソフトウェアのタイプ
 
--  Software development and hardware update requirements
+-  ソフトウェア開発とハードウェア更新の要件
 
--  Vendor-specific application requirements and limitations
+-  ベンダー固有のアプリケーション要件と制限
 
-Program-Specific Requirements
+プログラム固有の要件
 -----------------------------
 
-Each program has a unique set of requirements, but each of those
-requirements can be met with a minimum computer configuration. This
-section attempts to identify the minimum requirements for each program’s
-roles. Specific recommended hardware that meets each of the requirements
-are listed in the “Recommended Hardware Sets” section.
+各プログラムには独自の要件セットがありますが、それらの各要件は最小限のコンピューター構成で満たすことができます。このセクションでは、各プログラムの役割の最小要件を特定しようとしています。各要件を満たす具体的な推奨ハードウェアは、「推奨ハードウェアセット」セクションに記載されています。
 
-Recommended Computer Hardware for *FIRST*\ :sup:`®` LEGO\ :sup:`®` League
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**FIRST**\ :sup:`®` LEGO\ :sup:`®` League の推奨コンピューターハードウェア
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*FIRST* LEGO League has two divisions which use programmable platforms:
-*FIRST* LEGO League Challenge which uses the `LEGO\ ® Education SPIKE\ ™
-Prime <https://education.lego.com/en-us/product-resources/spike-prime/downloads/system-requirements/>`__
-platform, and *FIRST* LEGO League Explore which uses the `LEGO\ ®
-Education SPIKE\ ™
-Essential <https://education.lego.com/en-us/products/lego-education-spike-essential-set/45345/>`__
-platform. Both platforms have virtually the same computer requirements,
-differences are noted below. These platforms are some of the most
-accessible, as they are supported by most computer configurations.
+**FIRST** LEGO League には、プログラム可能なプラットフォームを使用する2つのディビジョンがあります：`LEGO\ ® Education SPIKE\ ™ Prime <https://education.lego.com/en-us/product-resources/spike-prime/downloads/system-requirements/>`__ プラットフォームを使用する **FIRST** LEGO League Challenge と、`LEGO\ ® Education SPIKE\ ™ Essential <https://education.lego.com/en-us/products/lego-education-spike-essential-set/45345/>`__ プラットフォームを使用する **FIRST** LEGO League Explore です。両方のプラットフォームは、ほぼ同じコンピューター要件を持っており、違いは以下に記載されています。これらのプラットフォームは、ほとんどのコンピューター構成でサポートされているため、最もアクセスしやすいものの1つです。
 
-*Recommended for Software Development:*
+*ソフトウェア開発に推奨：*
 
 -  `Windows Standard Laptop`_
 
-Also Supported:
+サポート対象：
 
 -  `MacOS Standard Laptop`_
 
@@ -60,318 +35,229 @@ Also Supported:
 
 -  `iOS Standard Tablet`_
 
-   -  LEGO\ :sup:`®` Education SPIKE™ Essential hub cannot be updated
-      with iPad
+   -  LEGO\ :sup:`®` Education SPIKE™ Essential hub は iPad では更新できません
 
 -  `Android Standard Tablet`_
 
-   -  LEGO\ :sup:`®` Education SPIKE™ Essential not supported
+   -  LEGO\ :sup:`®` Education SPIKE™ Essential はサポートされていません
 
-It is also recommended to have an active internet connection to access
-the Google Play Store (for Chromebook Android apps), to download in-app
-content, to access teacher support materials, and to use certain
-features such as live weather data.
+また、Google Play ストア（Chromebook Android アプリ用）へのアクセス、アプリ内コンテンツのダウンロード、教師サポート資料へのアクセス、ライブ気象データなどの特定の機能を使用するために、アクティブなインターネット接続を持つことも推奨されます。
 
-Recommended Computer Hardware for *FIRST*\ :sup:`®` Tech Challenge
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**FIRST**\ :sup:`®` Tech Challenge の推奨コンピューターハードウェア
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The predominant hardware platform used in *FIRST* Tech Challenge is the
-`REV Control
-Hub <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics>`__
-and `REV Driver
-Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__.
-These platforms have unique operating system and application
-requirements, though it is possible to perform most of the basic
-functions with most hardware platforms (albeit with more manual steps).
-Teams in *FIRST* Tech Challenge use computers for two basic purposes –
-software development and CAD – and team preference in these two uses
-shapes the required hardware.
+**FIRST** Tech Challenge で使用される主要なハードウェアプラットフォームは、`REV Control Hub <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics>`__ と `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-system-overview/driver-hub-specifications>`__ です。これらのプラットフォームには独自のオペレーティングシステムとアプリケーション要件がありますが、ほとんどのハードウェアプラットフォームで基本的な機能のほとんどを実行できます（ただし、より多くの手動手順が必要です）。**FIRST** Tech Challenge のチームは、ソフトウェア開発と CAD という2つの基本的な目的でコンピューターを使用しており、この2つの使用法におけるチームの好みが必要なハードウェアを形成します。
 
-*Recommended for Software Development and CAD:*
+*ソフトウェア開発と CAD に推奨：*
 
 -  `Windows Performance Laptop`_
 
 
 
-*Recommended for Software Development Only:*
+*ソフトウェア開発のみに推奨：*
 
 -  `Windows Standard Laptop`_
 
-   -  Only cloud CAD solutions are recommended
+   -  クラウド CAD ソリューションのみ推奨
 
-      -  OnShape, SolidWorks 3D Experience, etc.
+      -  OnShape、SolidWorks 3D Experience など
 
 
-Also Supported:
+サポート対象：
 
 -  `MacOS Standard Laptop`_
 
-   -  `REV Hardware
-      Client <https://docs.revrobotics.com/rev-hardware-client/>`__ not
-      supported
+   -  `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ はサポートされていません
 
-      -  Must update manually using browser-based interface
+      -  ブラウザベースのインターフェースを使用して手動で更新する必要があります
 
 -  `Chrome OS Standard Laptop`_
 
-   -  `REV Hardware
-      Client <https://docs.revrobotics.com/rev-hardware-client/>`__ not
-      supported
+   -  `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ はサポートされていません
 
-      -  Must update manually using browser-based interface
+      -  ブラウザベースのインターフェースを使用して手動で更新する必要があります
 
-   -  `Android Studio <https://developer.android.com/studio>`__ not
-      supported
+   -  `Android Studio <https://developer.android.com/studio>`__ はサポートされていません
 
-      -  Only Blocks and OnBotJava supported
+      -  **Blocks** と **OnBot Java** のみサポート
 
-It is also recommended to have an active internet connection during
-software development. Access to https://github.com is required by the
-REV Hardware Client to download and install required season software
-updates and is required for Android Studio users to download software
-templates.
+また、ソフトウェア開発中はアクティブなインターネット接続を持つことが推奨されます。https://github.com へのアクセスは、**REV Hardware Client** が必要なシーズンソフトウェア更新をダウンロードしてインストールするために必要であり、**Android Studio** ユーザーがソフトウェアテンプレートをダウンロードするためにも必要です。
 
-Recommended Computer Hardware for *FIRST*\ :sup:`®` Robotics Competition
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**FIRST**\ :sup:`®` Robotics Competition の推奨コンピューターハードウェア
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The predominant hardware platform used in *FIRST* Robotics Competition
-is the `NI
-roboRIO <https://www.ni.com/docs/en-US/bundle/roborio-20-specs/page/specs.html>`__.
-This platform has a unique set of requirements for computer hardware in
-competition that may be different than requirements for software
-development depending on the programming environment. Like *FIRST* Tech
-Challenge, teams in *FIRST* Robotics Competition use software
-development computers for two basic purposes – software development and
-CAD – and team preferences in these two uses shape the required
-hardware. However, in *FIRST* Robotics Competition there are two roles
-that computers can serve, such as Software and Design Development
-platforms and/or Driver Station platforms, and those roles also shape
-the requirements of the computer hardware.
+**FIRST** Robotics Competition で使用される主要なハードウェアプラットフォームは、`NI roboRIO <https://www.ni.com/docs/en-US/bundle/roborio-20-specs/page/specs.html>`__ です。このプラットフォームには、プログラミング環境に応じて、ソフトウェア開発の要件とは異なる可能性のある競技におけるコンピューターハードウェアに対する独自の要件セットがあります。**FIRST** Tech Challenge と同様に、**FIRST** Robotics Competition のチームは、ソフトウェア開発と CAD という2つの基本的な目的でソフトウェア開発コンピューターを使用しており、この2つの使用法におけるチームの好みが必要なハードウェアを形成します。ただし、**FIRST** Robotics Competition では、コンピューターが果たすことができる2つの役割（ソフトウェアと設計開発プラットフォームおよび／または Driver Station プラットフォーム）があり、これらの役割もコンピューターハードウェアの要件を形成します。
 
-It is recommended to have two separate computers, one to use for the
-Driver Station platform and another for Software and Design Development,
-though one laptop can be used for both purposes if necessary.
+必要に応じて1台のラップトップを両方の目的に使用できますが、**Driver Station** プラットフォーム用とソフトウェアおよび設計開発用の2台の別々のコンピューターを持つことが推奨されます。
 
-Driver Station
-^^^^^^^^^^^^^^
+**Driver Station**
+^^^^^^^^^^^^^^^^^^
 
-The driver station computer is used as the primary interface to the
-robot, is used to interface with the Field Management System (FMS) at an
-event and is limited by the software tools used to communicate with the
-hardware and software platform on the robot. Teams find it advantageous
-to have separate computers for the Driver Station role and for the
-Software and Design Development role to enable them to segregate the
-duties and physical demands of the systems at an event. Budget-conscious
-teams can certainly use a single computer for both roles if that
-computer at least meets the minimum requirements of the Driver Station
-role. Note that the Driver Station role requires a Windows operating
-system, as the applications required to perform the role's duties are
-Windows-only applications.
+Driver Station コンピューターは、ロボットへの主要なインターフェースとして使用され、イベントで Field Management System（FMS）とのインターフェースに使用され、ロボット上のハードウェアおよびソフトウェアプラットフォームと通信するために使用されるソフトウェアツールによって制限されます。チームは、イベントでのシステムの義務と物理的要求を分離できるように、Driver Station の役割とソフトウェアおよび設計開発の役割に別々のコンピューターを持つことが有利であると感じています。予算を意識しているチームは、そのコンピューターが少なくとも Driver Station の役割の最小要件を満たしている場合、両方の役割に単一のコンピューターを確実に使用できます。Driver Station の役割には Windows オペレーティングシステムが必要であることに注意してください。これは、役割の義務を実行するために必要なアプリケーションが Windows 専用アプリケーションであるためです。
 
-*Recommended for the Driver Station role:*
+*Driver Station の役割に推奨：*
 
 -  `Windows Standard Laptop`_
 
 
-Also Supported:
+サポート対象：
 
 -  `Windows Performance Laptop`_
 
-Software Development and Design
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ソフトウェア開発と設計
+^^^^^^^^^^^^^^^^^^^^^^^
 
-Like *FIRST* Tech Challenge, *FIRST* Robotics Competition teams use
-Software Development and Design laptops for Software Development and
-CAD, and depending on the use of CAD the hardware requirements are
-slightly different:
+**FIRST** Tech Challenge と同様に、**FIRST** Robotics Competition チームは、ソフトウェア開発と設計ラップトップをソフトウェア開発と CAD に使用します。CAD の使用に応じて、ハードウェア要件は若干異なります：
 
-*Recommended for the Software and Design Development role with CAD:*
+*CAD を使用したソフトウェアおよび設計開発の役割に推奨：*
 
 -  `Windows Performance Laptop`_
 
 
-*Recommended for Software Development Only:*
+*ソフトウェア開発のみに推奨：*
 
 -  `Windows Standard Laptop`_
 
-   -  Only cloud CAD solutions are recommended
+   -  クラウド CAD ソリューションのみ推奨
 
-      -  OnShape, SolidWorks 3D Experience, etc.
+      -  OnShape、SolidWorks 3D Experience など
 
 
-Also Supported:
+サポート対象：
 
 -  `MacOS Standard Laptop`_
 
-   -  `REV Hardware
-      Client <https://docs.revrobotics.com/rev-hardware-client/>`__ not
-      supported
+   -  `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ はサポートされていません
 
-   -  `LabVIEW <https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/labview-setup.html>`__
-      software not supported
+   -  `LabVIEW <https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/labview-setup.html>`__ ソフトウェアはサポートされていません
 
-It is also recommended to have an active internet connection during
-software development. Access to https://github.com is required by the
-REV Hardware Client to download and install required season software and
-firmware updates. Additional software may have similar requirements.
+また、ソフトウェア開発中はアクティブなインターネット接続を持つことが推奨されます。https://github.com へのアクセスは、**REV Hardware Client** が必要なシーズンソフトウェアとファームウェア更新をダウンロードしてインストールするために必要です。追加のソフトウェアにも同様の要件がある場合があります。
 
-Recommended Hardware Sets
+推奨ハードウェアセット
 -------------------------
 
-These are the Recommended Hardware sets referenced by the
-Program-Specific Requirements. There are a few extra requirements and
-recommendations for all hardware platforms, such as:
+これらは、プログラム固有の要件によって参照される推奨ハードウェアセットです。すべてのハードウェアプラットフォームには、次のようないくつかの追加要件と推奨事項があります：
 
-*Windows Operating System*
+*Windows オペレーティングシステム*
 
--  Support for Windows 10 is ending in mid-2025, so purchasing a Windows
-   system that supports Windows 11 is highly recommended. While not all
-   software is specifically labeled as being supported by Windows 11,
-   virtually all the required software has been tested to work with
-   Windows 11.
+-  Windows 10 のサポートは2025年半ばに終了するため、Windows 11 をサポートする Windows システムを購入することを強くお勧めします。すべてのソフトウェアが Windows 11 でサポートされていると明示的にラベル付けされているわけではありませんが、必要なソフトウェアのほぼすべてが Windows 11 で動作するようにテストされています。
 
 
-*USB Ports*
+*USB ポート*
 
--  Laptops should have at least 2 available physical USB-A ports.
+-  ラップトップには少なくとも2つの利用可能な物理 USB-A ポートが必要です。
 
--  For *FIRST* Tech Challenge, USB-C ports on laptops are not able to
-   work properly with the REV Control Hub nor REV Driver Hub, so it is
-   important to have USB-A ports also available.
+-  **FIRST** Tech Challenge の場合、ラップトップの USB-C ポートは **REV Control Hub** または **REV Driver Hub** で適切に動作できないため、USB-A ポートも利用できることが重要です。
 
 
 *Bluetooth*
 
--  For *FIRST* LEGO League, it is important that laptops and tablets
-   support Bluetooth 4.0 or above.
+-  **FIRST** LEGO League の場合、ラップトップとタブレットが Bluetooth 4.0 以上をサポートすることが重要です。
 
 
-*Physical Ethernet Ports*
+*物理イーサネットポート*
 
--  While most features of hardware and software can be easily supported
-   by Wi-Fi, in some situations (such as the Driver Station for *FIRST*
-   Robotics Competition) having a physical RJ-45 ethernet port on the
-   system is a huge benefit.
+-  ハードウェアとソフトウェアのほとんどの機能は Wi-Fi で簡単にサポートできますが、一部の状況（**FIRST** Robotics Competition の Driver Station など）では、システムに物理 RJ-45 イーサネットポートがあることが大きな利点です。
 
 
-*SSD Hard Drive*
+*SSD ハードドライブ*
 
--  While not specifically required, hard drives that use SSD technology
-   (versus spinning disk technology) boot up faster and are less likely
-   to be damaged when carrying while powered on or experiences
-   “unexpected bumps” as is common for a *FIRST* Robotics Competition
-   Driver Station computer.
+-  特に必須ではありませんが、SSD 技術を使用するハードドライブ（回転ディスク技術と比較して）は、より速く起動し、電源を入れたまま持ち運んでいるときや、**FIRST** Robotics Competition Driver Station コンピューターで一般的な「予期しない衝撃」を経験したときに損傷する可能性が低くなります。
 
 **Windows Performance Laptop**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A laptop designed for high graphics performance containing a high-end
-processor, like a `Dell
-G16 <https://www.dell.com/en-us/shop/dell-laptops/g16-gaming-laptop/spd/g-series-16-7630-laptop>`__
-or `HP
-Omen <https://www.hp.com/us-en/shop/pdp/omen-gaming-laptop-16-xf0087nr>`__,
-with the following recommended specs:
+高性能プロセッサを含む高グラフィックス性能向けに設計されたラップトップ。`Dell G16 <https://www.dell.com/en-us/shop/dell-laptops/g16-gaming-laptop/spd/g-series-16-7630-laptop>`__ や `HP Omen <https://www.hp.com/us-en/shop/pdp/omen-gaming-laptop-16-xf0087nr>`__ など。以下の推奨仕様：
 
--  Processor: Intel Core i7, AMD Ryzen 7, or better
+-  プロセッサー：Intel Core i7、AMD Ryzen 7、またはそれ以上
 
--  Graphics: NVIDIA GeForce RTX 4050 or better
+-  グラフィックス：NVIDIA GeForce RTX 4050 またはそれ以上
 
--  Memory: 16GB RAM or more, 32GB preferred
+-  メモリー：16GB RAM 以上、32GB 推奨
 
--  Storage: 512 GB SSD or greater, 1TB SSD preferred
+-  ストレージ：512 GB SSD 以上、1TB SSD 推奨
 
--  Ethernet: RJ-45 Ethernet Port preferred
+-  イーサネット：RJ-45 イーサネットポート推奨
 
--  Ports: 2 or more USB type A ports preferred
+-  ポート：USB type A ポート2つ以上推奨
 
--  Bluetooth: Bluetooth 4.0 or better
+-  Bluetooth：Bluetooth 4.0 またはそれ以上
 
--  Wi-Fi: Integrated Wi-Fi, Wi-Fi 6E or better preferred
+-  Wi-Fi：統合 Wi-Fi、Wi-Fi 6E 以上推奨
 
--  Operating System: Windows 10 or better, Windows 11 preferred
+-  オペレーティングシステム：Windows 10 以上、Windows 11 推奨
 
 **Windows Standard Laptop**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A standard Windows laptop, like a `Dell Inspiron
-15 <https://www.dell.com/en-us/shop/dell-laptops/inspiron-15-laptop/spd/inspiron-15-3530-laptop>`__
-or `HP Pavilion
-Laptop <https://www.hp.com/us-en/shop/mdp/laptops/pavilion-15-344522--1>`__,
-designed for smooth performance and everyday tasks,
+スムーズなパフォーマンスと日常的なタスク向けに設計された標準的な Windows ラップトップ。`Dell Inspiron 15 <https://www.dell.com/en-us/shop/dell-laptops/inspiron-15-laptop/spd/inspiron-15-3530-laptop>`__ や `HP Pavilion Laptop <https://www.hp.com/us-en/shop/mdp/laptops/pavilion-15-344522--1>`__ など。
 
--  Processor: Intel Core i5, AMD Ryzen 5, or better
+-  プロセッサー：Intel Core i5、AMD Ryzen 5、またはそれ以上
 
--  Graphics: Intel or AMD embedded graphics adapter or better
+-  グラフィックス：Intel または AMD 組み込みグラフィックスアダプターまたはそれ以上
 
--  Memory: 8GB RAM or more, 16GB preferred
+-  メモリー：8GB RAM 以上、16GB 推奨
 
--  Storage: 256GB or greater, 512 GB SSD preferred
+-  ストレージ：256GB 以上、512 GB SSD 推奨
 
--  Ethernet: RJ-45 Ethernet Port preferred
+-  イーサネット：RJ-45 イーサネットポート推奨
 
--  Ports: 2 or more USB type A ports preferred
+-  ポート：USB type A ポート2つ以上推奨
 
--  Bluetooth: Bluetooth 4.0 or better
+-  Bluetooth：Bluetooth 4.0 またはそれ以上
 
--  Wi-Fi: Integrated Wi-Fi, Wi-Fi 6E or better preferred
+-  Wi-Fi：統合 Wi-Fi、Wi-Fi 6E 以上推奨
 
--  Operating System: Windows 10 or better, Windows 11 preferred
+-  オペレーティングシステム：Windows 10 以上、Windows 11 推奨
 
 **MacOS Standard Laptop**
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A standard MacOS laptop, like a `MacBook
-Air <https://www.apple.com/shop/buy-mac/macbook-air>`__ or `MacBook
-Pro <https://www.apple.com/shop/buy-mac/macbook-pro>`__,
-designed for smooth performance and everyday tasks.
+スムーズなパフォーマンスと日常的なタスク向けに設計された標準的な MacOS ラップトップ。`MacBook Air <https://www.apple.com/shop/buy-mac/macbook-air>`__ や `MacBook Pro <https://www.apple.com/shop/buy-mac/macbook-pro>`__ など。
 
--  Processor: Apple M1 or better, Apple M2 preferred
+-  プロセッサー：Apple M1 またはそれ以上、Apple M2 推奨
 
--  Memory: 4GB RAM or more
+-  メモリー：4GB RAM 以上
 
--  Storage: 2GB available storage space or better
+-  ストレージ：2GB 以上の利用可能なストレージスペース
 
--  Bluetooth: Bluetooth 4.0 or better
+-  Bluetooth：Bluetooth 4.0 またはそれ以上
 
--  Operating System: MacOS Mojave 10.14 or newer
+-  オペレーティングシステム：MacOS Mojave 10.14 以降
 
 **iOS Standard Tablet**
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-A standard iOS tablet, such as an iPad Air 2 or iPad Mini 4 or newer.
+iPad Air 2 または iPad Mini 4 以降などの標準的な iOS タブレット。
 
--  Operating System: iOS 13 or newer
+-  オペレーティングシステム：iOS 13 以降
 
 **Chrome OS Standard Laptop**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A standard Chromebook, such as the `Samsung Galaxy Chromebook
-2 <https://www.google.com/chromebook/discover/pdp-samsung-galaxy-chromebook-2/sku-samsung-galaxy-chromebook-2-8gb-128gb/>`__,
-or similar.
+`Samsung Galaxy Chromebook 2 <https://www.google.com/chromebook/discover/pdp-samsung-galaxy-chromebook-2/sku-samsung-galaxy-chromebook-2-8gb-128gb/>`__ などの標準的な Chromebook、または類似のもの。
 
--  Processor: 1.40 GHz Intel Celeron 2955U dual-core processor or better
+-  プロセッサー：1.40 GHz Intel Celeron 2955U デュアルコアプロセッサーまたはそれ以上
 
--  Memory: 4GB RAM or better
+-  メモリー：4GB RAM 以上
 
--  Storage: 3GB available storage space or better
+-  ストレージ：3GB 以上の利用可能なストレージスペース
 
--  Bluetooth: Bluetooth 4.0 or above
+-  Bluetooth：Bluetooth 4.0 以上
 
--  Operating System: Android 7.0 or newer
+-  オペレーティングシステム：Android 7.0 以降
 
 **Android Standard Tablet**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A standard Android Tablet, such as the `Samsung Galaxy Tab A7
-Lite <https://www.samsung.com/us/tablets/galaxy-tab-a/galaxy-tab-a7-10-4-inch-gray-64gb-wi-fi-sm-t500nzaexar/>`__,
-or similar.
+`Samsung Galaxy Tab A7 Lite <https://www.samsung.com/us/tablets/galaxy-tab-a/galaxy-tab-a7-10-4-inch-gray-64gb-wi-fi-sm-t500nzaexar/>`__ などの標準的な Android タブレット、または類似のもの。
 
--  8” display or larger
+-  8 インチ以上のディスプレイ
 
--  Memory: 3GB RAM or better
+-  メモリー：3GB RAM 以上
 
--  Storage: 3GB available storage space or better
+-  ストレージ：3GB 以上の利用可能なストレージスペース
 
--  Bluetooth: Bluetooth 4.0 or above
+-  Bluetooth：Bluetooth 4.0 以上
 
--  Operating System: Android 7.0 or newer
+-  オペレーティングシステム：Android 7.0 以降

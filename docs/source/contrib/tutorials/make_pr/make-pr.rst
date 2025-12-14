@@ -214,11 +214,11 @@ If you are using :bdg-info:`Codespaces` just skip to step 7.
 
     git push
 
-7. Navigate to the `official FTC Docs repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ on GitHub.
+7. Navigate to the `official FTC Docs repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`__ on GitHub.
 8. Click ``Compare & Pull Request``. 
 
    .. note:: This option is also available by clicking the "Pull Request" tab and then clicking the "New pull request" button. 
-       Then click ``compare across forks``. Select ```<USERNAME>/ftcdocs``` for the head repository and the branch you want to merge. 
+       Then click ``compare across forks``. Select```<USERNAME>/ftcdocs``` for the head repository and the branch you want to merge. 
        Select `FIRST-Tech-Challenge/ftcdocs` for the base repository and the branch you want to merge into. Then click ``Create Pull Request``.
 
    .. image:: images/compare_and_pr.png

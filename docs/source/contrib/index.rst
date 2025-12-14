@@ -1,4 +1,4 @@
-Contributing to FTC Docs
+FTC ドキュメントへの貢献
 =========================
 
 .. toctree::
@@ -10,26 +10,26 @@ Contributing to FTC Docs
     tutorials/index
 
 
-Mission Statement
------------------
+ミッションステートメント
+------------------------
 
 .. include:: /common/mission.rst
 
-- :doc:`Contribution Guidelines <guidelines/guidelines>`
-- :doc:`Style Guide <style_guide/style-guide>`
-- :doc:`FTC Docs Workflow <workflow/workflow>`
-- :doc:`Tutorials <tutorials/index>`
+- :doc:`貢献ガイドライン <guidelines/guidelines>`
+- :doc:`スタイルガイド <style_guide/style-guide>`
+- :doc:`FTC ドキュメントワークフロー <workflow/workflow>`
+- :doc:`チュートリアル <tutorials/index>`
 
 
 ====
 
-FTC Docs is brought to you by:
+FTC ドキュメントは以下の方々によって提供されています：
 
-- Daniel Alfredo Diaz, Jr — Maintainer.
-- Elizabeth Gilibert — Project Manager
-- Uday Vidyadharan, 7350 Watt's NXT? — Maintainer
-- Chris Johannesen, Westside Robotics — Contributor
-- Mike Silversides, BC FTA — Contributor
-- Miriam Sinton-Remes, 7182 Mechanical Paradox — Contributor
+- Daniel Alfredo Diaz, Jr — メンテナー
+- Elizabeth Gilibert — プロジェクトマネージャー
+- Uday Vidyadharan, 7350 Watt's NXT? — メンテナー
+- Chris Johannesen, Westside Robotics — コントリビューター
+- Mike Silversides, BC FTA — コントリビューター
+- Miriam Sinton-Remes, 7182 Mechanical Paradox — コントリビューター
 
-A special thanks to everyone who has contributed to this project.
+このプロジェクトに貢献してくださったすべての方に特別な感謝を申し上げます。

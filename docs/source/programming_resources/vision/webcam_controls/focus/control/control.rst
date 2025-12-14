@@ -1,30 +1,22 @@
-Focus Control
--------------
+フォーカス制御
+--------------
 
 :java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl`
 
-At a distance called “focus length”, a subject’s image (light rays)
-converge from the lens to form a clear image on the webcam sensor.
+「フォーカス長」と呼ばれる距離で、被写体の画像（光線）がレンズから収束して、Webcam センサー上に鮮明な画像を形成します。
 
-If supported by the webcam, focus can be managed with these FocusControl
-methods: 
+Webcam でサポートされている場合、フォーカスは次の **FocusControl** メソッドで管理できます：
 
--  setFocusLength(double focusLength) 
--  getFocusLength()
+-  **setFocusLength(double focusLength)**
+-  **getFocusLength()**
 
-Distance units are not specified here; they may be undimensioned values
-within an allowed range. For example, the Logitech C920 allows values
-from 0 to 250, with **higher** values focusing on **closer** objects.
+距離単位はここでは指定されていません。許可された範囲内の無次元値である場合があります。たとえば、Logitech C920 は 0 から 250 までの値を許可し、**より高い** 値は**より近い** オブジェクトにフォーカスします。
 
-The webcam may support minimum and maximum allowed values of focus
-length. These can be retrieved with: 
+Webcam は、フォーカス長の最小値と最大値をサポートする場合があります。これらは次の方法で取得できます：
 
 -  getMinFocusLength() 
 -  getMaxFocusLength()
 
-There are no ``set()`` methods for min and max focus length; these are
-hard-coded in the webcam’s firmware. Note that firmware settings may
-vary among different versions of the same webcam model.
+最小フォーカス長と最大フォーカス長の ``set()`` メソッドはありません。これらは Webcam のファームウェアにハードコードされています。ファームウェア設定は、同じ Webcam モデルの異なるバージョン間で異なる場合があることに注意してください。
 
-These and other focus methods are called on a FocusControl object, as
-described above for exposure.
+これらおよび他のフォーカスメソッドは、露出について上記で説明したように、**FocusControl** オブジェクトで呼び出されます。

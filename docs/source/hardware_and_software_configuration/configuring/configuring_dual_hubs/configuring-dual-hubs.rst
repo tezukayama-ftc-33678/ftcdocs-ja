@@ -1,156 +1,142 @@
-Adding an Expansion Hub
+Expansion Hub の追加
 =======================
 
-Introduction
+はじめに
 ~~~~~~~~~~~~
 
-A single REV Robotics Control or Expansion Hub has a limited amount of input/output
-(I/O) ports available. In some instances, you might want to use more
-devices than there are ports available. For these instances you might
-need to connect an Expansion Hub to your first Hub to add more I/O
-ports.
+単一の **REV Robotics Control Hub** または**Expansion Hub** には、限られた数の入出力（I/O）ポートしかありません。場合によっては、利用可能なポート数よりも多くのデバイスを使用したい場合があります。このような場合、最初の Hub に**Expansion Hub** を接続して、I/O ポートを追加する必要があるかもしれません。
 
-This document describes how to connect and configure an additional Expansion
-Hub for use in the FIRST Tech Challenge. Note that the FIRST Tech Challenge
-Competition Manual limits the maximum number of Control or Expansion Hubs on
-a single robot to two. 
+このドキュメントでは、FIRST Tech Challenge で使用する追加の **Expansion Hub** を接続および構成する方法について説明します。FIRST Tech Challenge
+競技マニュアルは、単一のロボット上の **Control Hub** または**Expansion Hub** の最大数を 2 つに制限しています。
 
-Equipment Needed
+必要な機器
 ~~~~~~~~~~~~~~~~
 
-To follow along with the instructional steps in this document, you will
-need the following items:
+このドキュメントの手順に従うには、次のアイテムが必要です。
 
 .. list-table::
    :header-rows: 1
    :widths: 50 50
    :class: longtable
 
-   * - Required Item(s)
-     - Image
+   * - 必要なアイテム
+     - 画像
 
-   * - REV Robotics Driver Hub (REV-31-1596)
+   * - **REV Robotics Driver Hub** （REV-31-1596）
      - .. figure:: images/driverHub.jpg
 
-   * - REV Robotics Switch, Cable, & Bracket (REV-31-1387).
+   * - **REV Robotics** スイッチ、ケーブル、ブラケット（REV-31-1387）
      - .. figure:: images/REVSwitch.jpg
 
-   * - REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382).
+   * - **REV Robotics** Tamiya to XT30 アダプターケーブル（REV-31-1382）
      - .. figure:: images/TamiyaAdapter.jpg
 
-   * - FIRST-approved 12V Battery (such as Tetrix W39057). For a list of
-       FIRST-approved 12V batteries, refer to the current Competition Manual.
+   * - **FIRST** 承認 12V バッテリー（Tetrix W39057 など）。
+       **FIRST** 承認 12V バッテリーのリストについては、現在の競技マニュアルを参照してください。
      - .. figure:: images/Battery.jpg
 
-   * - REV Robotics Control Hub (REV-31-1595).
+   * - **REV Robotics Control Hub** （REV-31-1595）
      - .. figure:: images/controlHub.jpg
 
-   * - REV Robotics Expansion Hub (REV-31-1153).
+   * - **REV Robotics Expansion Hub** （REV-31-1153）
      - .. figure:: images/ExpansionHub.jpg
 
-   * - REV Robotics (or equivalent) 3-Pin JST PH Cable (REV-35-1414, 3 pack shown but only one needed).
+   * - **REV Robotics** （または同等品）3 ピン JST PH ケーブル（REV-35-1414、3 本パックを表示していますが 1 本のみ必要）
      - .. figure:: images/3PinJSTPH.jpg
 
-   * - REV Robotics XT30 Extension Cable (REV-31-1394).
+   * - **REV Robotics** XT30 延長ケーブル（REV-31-1394）
      - .. figure:: images/xt30Extension.jpg
 
-Connecting the Expansion Hub
+**Expansion Hub** の接続
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. The first step is to use the 3-pin JST PH cable and the XT30 cable
-to daisy chain the two Hubs together. Before you do this, ensure that
-neither Hub is powered on.
+1. 最初のステップは、3 ピン JST PH ケーブルと XT30 ケーブルを使用して、
+2 つの Hub をデイジーチェーン接続することです。これを行う前に、
+どちらの Hub も電源が入っていないことを確認してください。
 
-Use the XT30 extension cable to connect an XT30 power port on the Control
-Hubs to an XT30 power port on the other Expansion Hub.
+XT30 延長ケーブルを使用して、**Control Hub** の XT30 電源ポートを
+もう一方の **Expansion Hub** の XT30 電源ポートに接続します。
 
-<INSET IMAGE>
+.. note:: 画像はこちらに挿入予定
 
-2. The Control Hub and Expansion Hub use the RS-485 serial bus standard
-to communicate between devices. You can use the 3-pin JST PH cable to
-connect one of the ports labeled “RS485” on the Control Hub to one of
-the ports labeled “RS485” on the Expansion Hub.
+2. **Control Hub** と**Expansion Hub** は、デバイス間の通信に RS-485 シリアルバス標準を使用します。
+3 ピン JST PH ケーブルを使用して、**Control Hub** の「RS485」とラベル付けされたポートの 1 つを、
+**Expansion Hub** の「RS485」とラベル付けされたポートの 1 つに接続できます。
 
-<INSERT IMAGE>
+.. note:: 画像はこちらに挿入予定
 
-Note that it is not important which “RS485” port that you select on the
-Expansion Hub or Control Hub. Either port should work.
+**Expansion Hub** または**Control Hub** でどの「RS485」ポートを選択するかは重要ではありません。
+どちらのポートでも機能するはずです。
+
 
 .. figure:: images/RS485Port.jpg
    :align: center
 
-3. Once you have the two devices daisy chained together (12V power and
-RS-485 signal) you can connect the battery and power switch, and power
-on the devices.
+3. 2 つのデバイスをデイジーチェーン接続したら（12V 電源と RS-485 信号）、
+バッテリーと電源スイッチを接続し、デバイスの電源を入れることができます。
 
-<INSERT IMAGE>
+.. note:: 画像はこちらに挿入予定
 
-Configuring Both devices
+両方のデバイスの構成
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you successfully daisy chained your Expansion Hub and Control Hub,
-then you should be able to create a new configuration file that includes
-both devices.
+**Expansion Hub** と**Control Hub** をデイジーチェーン接続できた場合、
+両方のデバイスを含む新しい構成ファイルを作成できるはずです。
 
-**Note:** If you already have a configuration that contains just the
-Control Hub, you can add the Expansion Hub by editing the configuration
-and pressing the "Scan" button.
+**注：** **Control Hub** のみを含む構成が既にある場合は、構成を編集して
+「Scan」ボタンを押すことで **Expansion Hub** を追加できます。
 
-Connect your Driver Hub to the Control Hub's WiFi network and select the
-Configure Robot option from the Driver Station app. Press the New button
-to create a new configuration file. When you first scan for hardware, your
-Robot Controller should detect the embedded Control Hub. The Robot Controller
-will automatically label this device as an Control Hub “Portal”. The Robot
-Controller will communicate through this portal to the individual Hubs.
+**Driver Hub** を**Control Hub** の WiFi ネットワークに接続し、**Driver Station** アプリから
+Configure Robot オプションを選択します。**New** ボタンを押して、新しい構成ファイルを作成します。
+最初にハードウェアをスキャンすると、**Robot Controller** は組み込みの**Control Hub** を検出するはずです。
+**Robot Controller** は、このデバイスに自動的に**Control Hub** 「Portal」とラベル付けします。
+**Robot Controller** は、このポータルを介して個々の Hub と通信します。
+
 
 <INSERT IMAGE>
 
-If you click on the Portal item in the configuration screen, you should
-see both the Control Hub and the Expansion Hub listed.
+構成画面の Portal アイテムをクリックすると、**Control Hub** と**Expansion Hub** の
+両方がリストされているはずです。
 
 <INSERT IMAGE>
 
-You can save this configuration file and return to the main screen of
-the Driver Station. After the robot has been restarted, both Hubs should
-have a solid green LED. On the Expansion Hub, the LED should blink blue
-every ~5 seconds.
+この構成ファイルを保存して、**Driver Station** のメイン画面に戻ることができます。
+ロボットが再起動された後、両方の Hub の LED が緑色に点灯するはずです。
+**Expansion Hub** では、LED が約 5 秒ごとに青色に点滅するはずです。
 
-Congratulations, you are now ready to use your combination of Control and
-Expansion Hubs! You can configure and operate these Hubs as you would an
-individual Hub.
+おめでとうございます。**Control** と**Expansion Hub** の組み合わせを使用する準備が整いました！
+これらの Hub を個々の Hub と同じように構成および操作できます。
 
 Using Two Expansion Hubs
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Teams without access to a Control Hub may use two Expansion Hubs on
-their robot.
+**Control Hub** にアクセスできないチームは、ロボットで 2 つの**Expansion Hub** を使用できます。
 
 Additional Equipment Needed
 ---------------------------
 
-There is some additional equipment required for teams who aren't
-using a Control Hub on their robot.
+ロボットで **Control Hub** を使用していないチームには、いくつかの追加機器が必要です。
 
 .. list-table::
    :header-rows: 1
    :widths: 50 50
    :class: longtable
 
-   * - Required Item(s)
-     - Image
+   * - 必要なアイテム
+     - 画像
 
-   * - A FIRST-approved Android smartphone with the FTC Robot Controller
-       app installed. For a list of FIRST-approved Android smartphones,
-       refer to the current Competition Manual.
+   * - **FIRST** 承認の Android スマートフォンで、**FTC Robot Controller**
+       アプリがインストールされているもの。**FIRST** 承認の Android スマートフォンのリストについては、
+       現在の競技マニュアルを参照してください。
      - .. figure:: images/oneAndroidPhone.jpg
 
-   * -  USB Type A male to type mini-B male cable.
+   * - USB Type A オス - Type mini-B オスケーブル
      -  .. figure:: images/USBTypeACable.jpg
 
-   * - Micro USB OTG adapter.
+   * - Micro USB OTG アダプター
      - .. figure:: images/OTGAdapter.jpg
   
-   * - An additional REV Robotics Expansion Hub (REV-31-1153).
+   * - 追加の **REV Robotics Expansion Hub** （REV-31-1153）
      - .. figure:: images/ExpansionHub.jpg
 
 Changing the Address of an Expansion Hub
@@ -159,41 +145,39 @@ Changing the Address of an Expansion Hub
 You can use the Advanced Settings menu of the Robot Controller App
 to change the address of any connected Expansion Hubs.
 
-**Important Note:** If both of your Expansion Hubs have the same address
-or were just removed from the box (by default, the address is set to 2),
-you need to change the address of one of them _before_ connecting them
-together. This guide assumes that you will be setting the address of the
-first Expansion Hub before connecting the second Expansion Hub.
+**重要な注意：** 両方の**Expansion Hub** が同じアドレスを持っている場合、
+または箱から取り出したばかりの場合（デフォルトでは、アドレスは 2 に設定されています）、
+それらを接続する _前に_ 一方のアドレスを変更する必要があります。
+このガイドでは、2 番目の **Expansion Hub** を接続する前に、
+最初の **Expansion Hub** のアドレスを設定することを前提としています。
 
-With your first Expansion Hub connected to the 12V battery and to the Robot
-Controller, launch the Settings menu from the Robot Controller app (note you
-can also do this from the Driver Station app, if the DRIVER STATION is
-paired to the Robot Controller).
+最初の **Expansion Hub** を 12V バッテリーと**Robot Controller** に接続した状態で、
+**Robot Controller** アプリから**Settings** メニューを起動します（**DRIVER STATION** が
+**Robot Controller** とペアリングされている場合は、**Driver Station** アプリからこれを行うこともできます）。
 
-1. Select the Advanced Settings item to display the Advanced Settings menu.
+1. **Advanced Settings** アイテムを選択して、Advanced Settings メニューを表示します。
 
 .. figure:: images/AdvancedSettings.jpg
    :align: center
 
-2. Then select the Expansion Hub Address Change item to display the
-Expansion Hub address screen.
+2. 次に、**Expansion Hub Address Change** アイテムを選択して、
+**Expansion Hub** アドレス画面を表示します。
 
 .. figure:: images/ExpansionHubAddressChange.jpg
    :align: center
 
-3. The USB serial number of the Expansion Hub and its currently-assigned
-address should be displayed.
+3. **Expansion Hub** の USB シリアル番号と現在割り当てられているアドレスが表示されるはずです。
 
-**Important Note:** If any Expansion Hubs that are physically connected and
-powered are not displayed, there may be an address conflict. If this happens,
-disconnect all Expansion Hubs except the one whose address you want to change.
+**重要な注意：** 物理的に接続され、電源が入っている**Expansion Hub** が表示されない場合、
+アドレスの競合がある可能性があります。これが発生した場合は、
+アドレスを変更したい Hub 以外のすべての **Expansion Hub** を切断してください。
 
 .. figure:: images/DefaultAddress.*
    :align: center
 
-4. Use the dropdown list control on the right hand side to change an Expansion
-Hub's address. Addresses that conflict with other currently-connected Expansion
-Hubs won't be available.
+4. 右側のドロップダウンリストコントロールを使用して、**Expansion Hub** の
+アドレスを変更します。現在接続されている他の **Expansion Hub** と競合するアドレスは
+使用できません。
 
 .. figure:: images/NewAddress.*
    :align: center
@@ -207,13 +191,12 @@ indicating that the Expansion Hub’s address has been changed.
 Connecting the Two Expansion Hubs
 ---------------------------------
 
-5. After you have changed the address of one of the Hubs, you can use the
-3-pin JST PH cable and the XT30 cable to daisy chain the two Hubs
-together. Before you do this, disconnect the 12V battery and power
-switch from the first Expansion Hub.
+5. Hub の 1 つのアドレスを変更した後、3 ピン JST PH ケーブルと XT30 ケーブルを使用して、
+2 つの Hub をデイジーチェーン接続できます。これを行う前に、
+最初の **Expansion Hub** から 12V バッテリーと電源スイッチを切断してください。
 
-Use the XT30 extension cable to connect an XT30 power port on one of the
-Expansion Hubs to an XT30 power port on the other Hub.
+XT30 延長ケーブルを使用して、一方の **Expansion Hub** の XT30 電源ポートを
+もう一方の Hub の XT30 電源ポートに接続します。
 
 .. figure:: images/XT30ExtensionConnected.jpg
    :align: center
@@ -234,7 +217,7 @@ Expansion Hub. Either port should work.
 
 7. Once you have the two devices daisy chained together (12V power and
 RS-485 signal) you can reconnect the battery and power switch, and then
-connect the Robot Controller and power on the devices.
+**Robot Controller** を接続し、デバイスの電源を入れます。
 
 .. figure:: images/DualConnected.jpg
    :align: center
@@ -242,13 +225,11 @@ connect the Robot Controller and power on the devices.
 Configuring Your Expansion Hubs
 -------------------------------
 
-If you successfully daisy chained your two Expansion Hubs,
-then you should be able to create a new configuration file that includes
-both devices.
+2 つの **Expansion Hub** をデイジーチェーン接続できた場合、
+両方のデバイスを含む新しい構成ファイルを作成できるはずです。
 
-**Note:** If you already have a configuration that contains just the USB-connected
-Expansion Hub, you can add the second Expansion Hub by editing the
-configuration and pressing the "Scan" button.
+**注：** USB 接続された**Expansion Hub** のみを含む構成が既にある場合は、
+構成を編集して「Scan」ボタンを押すことで、2 番目の **Expansion Hub** を追加できます。
 
 Connect the Robot Controller and select the Configure Robot option from
 the Settings menu. Press the New button to create a new configuration
@@ -262,9 +243,8 @@ Hubs.
 .. figure:: images/ExpansionHubPortal.jpg
    :align: center
 
-If you click on the Portal item in the configuration screen, you should
-see two Expansion Hubs listed, each with their respective addresses as
-part of their default device name.
+構成画面の Portal アイテムをクリックすると、2 つの **Expansion Hub** がリストされているはずです。
+それぞれのデフォルトのデバイス名の一部として、それぞれのアドレスが表示されます。
 
 .. figure:: images/TwoHubsConfigured.jpg
    :align: center
@@ -273,5 +253,5 @@ You can save this configuration file and return to the main screen of
 the Robot Controller. After the robot has been restarted, each Hub’s LED
 should be blinking in the manner that indicates its individual address.
 
-Congratulations, you are now ready to use your dual Expansion Hubs! You
-can configure and operate these Hubs as you would an individual Hub.
+おめでとうございます。デュアル **Expansion Hub** を使用する準備が整いました！
+これらの Hub を個々の Hub と同じように構成および操作できます。

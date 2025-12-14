@@ -67,7 +67,7 @@ status.  Those can be enabled or disabled at any time, but naturally require
 About Previews
 --------------
 
-As noted at the **Previews** page, LiveView refers only to the **Robot
+As noted at the **Previews**page, LiveView refers only to the**Robot
 Controller** preview.  It's completely separate from the Driver Station (DS)
 **Camera Stream**, which still operates normally even if LiveView is stopped
 (manually or automatically).
@@ -121,7 +121,7 @@ image (video).
          // Start the live view (RC preview) again.
          myVisionPortal.resumeLiveView();  
 
-Your OpMode will **not** need to work with camera status **enums** here, since
+Your OpMode will **not**need to work with camera status**enums** here, since
 these "stop" and "resume" actions happen quickly.
 
 The above commands toggle only LiveView; the DS Camera Stream preview (touch to
@@ -139,7 +139,7 @@ and Java:
 
 This setting causes LiveView to stop **automatically** if both processors
 (AprilTag and TFOD) are disabled.  Being part of the Builder pattern, this
-feature cannot be directly toggled ``true`` and ``false`` during the OpMode.
+feature cannot be directly toggled ``true``and``false`` during the OpMode.
 
 This setting is triggered when **both** processors are disabled.  When set to
 ``false``, by default, the monitor continues showing the camera's view without
@@ -165,7 +165,7 @@ Sample OpModes set this Builder field to ``true`` by default.
 
 This could be set to ``false``, if the OpMode will not need the LiveView
 preview at all.  Being part of the Builder pattern, this feature cannot be
-directly toggled ``true`` and ``false`` during the OpMode.
+directly toggled ``true``and``false`` during the OpMode.
 
 Toggle Processors
 -----------------
@@ -275,12 +275,12 @@ The ``close()`` process is a "teardown" of all camera processing.  It is not
 recommended to "re-open" the camera within the same OpMode, by building another
 VisionPortal.  This is risky and might take several seconds.
 
-Accordingly, the SDK offers no corresponding ``reopen()`` or ``resume()``
+Accordingly, the SDK offers no corresponding ``reopen()``or``resume()``
 method.
 
 The ``close()`` process happens automatically at the end of any OpMode.  
 
-Calling ``stopStreaming()`` before calling ``close()`` is allowed (for
+Calling ``stopStreaming()``before calling``close()`` is allowed (for
 clarity), but not required, since ``close()`` internally calls
 ``stopStreaming()`` if applicable.
 
@@ -290,7 +290,7 @@ Rapid Toggling
 Your OpMode (or manual testing) should avoid or handle rapid stacking of the
 "on" and "off" actions described above.
 
-It's legal to call ``resumeStreaming()`` while the status is ``STOPPING_STREAM``.
+It's legal to call ``resumeStreaming()``while the status is``STOPPING_STREAM``.
 But the program will be **blocked** until the stopping operation is done.
 
 **Blocking** means the latest function doesn't return immediately.  So the code
@@ -342,7 +342,7 @@ Frame Rate
 
 The VisionPortal **automatically optimizes** for maximum frame rate, the number
 of processed frames per second (FPS).  Presuming this optimization is based on
-**CPU resources**, measuring effects on **frame rate** could indirectly reflect
+**CPU resources**, measuring effects on**frame rate** could indirectly reflect
 CPU resource status/consumption/capacity.
 
 Frame rate is reported visually in the LiveView status window.  It's also
