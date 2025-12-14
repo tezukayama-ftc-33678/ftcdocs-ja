@@ -12,6 +12,7 @@ Usage:
 
 import argparse
 import polib
+import sys
 from pathlib import Path
 from typing import List, Tuple
 
@@ -28,7 +29,11 @@ def get_translation_stats(po_file: Path) -> Tuple[int, int]:
         untranslated = len([e for e in po if e.msgid and not e.msgstr and not e.obsolete])
         total = len([e for e in po if e.msgid and not e.obsolete])
         return untranslated, total
+    except (IOError, OSError) as e:
+        print(f"Warning: Failed to read {po_file}: {e}", file=sys.stderr)
+        return 0, 0
     except Exception as e:
+        print(f"Warning: Failed to parse {po_file}: {e}", file=sys.stderr)
         return 0, 0
 
 
@@ -57,7 +62,14 @@ def find_files_needing_translation(locale_dir: Path, top_n: int = None) -> List[
 
 
 def extract_for_file(po_file: Path, output_dir: Path, max_entries: int, file_num: int, total_files: int):
-    """Extract untranslated entries from a single file."""
+    """
+    Extract untranslated entries from a single file.
+    
+    Note: This function imports extract_for_translation locally to avoid circular imports
+    and to ensure it's only loaded when needed.
+    """
+    # Import here to avoid issues when the script is run from different directories
+    sys.path.insert(0, str(Path(__file__).parent))
     from extract_for_translation import extract_untranslated
     
     output_file = output_dir / f"{file_num:03d}_{po_file.stem}_to_translate.txt"
@@ -155,7 +167,8 @@ Examples:
     print(f"\n次のステップ:")
     print(f"  1. {output_dir}/の各ファイルをAIツールで翻訳")
     print(f"  2. 翻訳結果を同じファイル名で保存（例: 001_index_translated.txt）")
-    print(f"  3. python batch_import.py {output_dir}")
+    print(f"  3. 各ファイルをimport_translations.pyで個別にインポート:")
+    print(f"     python import_translations.py {output_dir}/001_..._translated.txt <対応する.po>")
 
 
 if __name__ == '__main__':

@@ -19,6 +19,9 @@ def parse_translated_file(translated_file: str):
     """
     Parse a file containing translated msgid/msgstr pairs.
     
+    Handles simple single-line msgid/msgstr pairs.
+    For complex multiline strings, use polib directly.
+    
     Returns:
         Dictionary mapping msgid to msgstr
     """
@@ -27,9 +30,10 @@ def parse_translated_file(translated_file: str):
     
     translations = {}
     
-    # Find all msgid/msgstr pairs
-    # Pattern matches: msgid "..." followed by msgstr "..."
-    pattern = r'msgid\s+"([^"]+)"\s*\nmsgstr\s+"([^"]*)"'
+    # Simple pattern for single-line msgid/msgstr pairs
+    # This handles the most common case from AI translation output
+    # For multiline or complex .po files, use polib instead
+    pattern = r'msgid\s+"([^"\\]*(?:\\.[^"\\]*)*)"\s*\nmsgstr\s+"([^"\\]*(?:\\.[^"\\]*)*)"'
     
     for match in re.finditer(pattern, content, re.MULTILINE):
         msgid = match.group(1)
