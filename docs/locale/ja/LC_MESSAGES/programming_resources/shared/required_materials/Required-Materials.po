@@ -12,33 +12,38 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:2
 msgid "Required Materials"
-msgstr ""
+msgstr "必要な材料"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:4
 msgid ""
-"This wiki contains tutorials that demonstrate how to configure, program, "
-"and operate the *FIRST* Tech Challenge control system. In order to "
-"complete the tutorials, you will need to have the following materials "
-"available:"
+"This wiki contains tutorials that demonstrate how to configure, program, and"
+" operate the *FIRST* Tech Challenge control system. In order to complete the"
+" tutorials, you will need to have the following materials available:"
 msgstr ""
+"この Wiki には、**FIRST** **Tech Challenge** "
+"制御システムの構成、プログラミング、操作方法を示すチュートリアルが含まれています。チュートリアルを完了するには、以下の材料が必要です："
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:8
 msgid "androidphones"
 msgstr ""
+"この Wiki には、**FIRST** **Tech Challenge** "
+"制御システムの構成、プログラミング、操作方法を示すチュートリアルが含まれています。チュートリアルを完了するには、以下の材料が必要です："
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:9
 msgid "chandphones"
 msgstr ""
+"この Wiki には、**FIRST** **Tech Challenge** "
+"制御システムの構成、プログラミング、操作方法を示すチュートリアルが含まれています。チュートリアルを完了するには、以下の材料が必要です："
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:11
 msgid "wifi"
@@ -118,8 +123,8 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:53
 msgid ""
-"A REV Robotics Control Hub to be used as a ROBOT CONTROLLER. Alternately,"
-" the Competition Manual does allow teams to instead use a REV Robotics "
+"A REV Robotics Control Hub to be used as a ROBOT CONTROLLER. Alternately, "
+"the Competition Manual does allow teams to instead use a REV Robotics "
 "Expansion Hub and a select list of Android phones."
 msgstr ""
 
@@ -130,8 +135,8 @@ msgstr ""
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:59
 msgid ""
 "A REV Robotics Driver Hub to be used as a DRIVER STATION device. "
-"Alternately, the Competition Manual does allow teams to instead use a "
-"select list of Android phones. See rule R901 for the full details."
+"Alternately, the Competition Manual does allow teams to instead use a select"
+" list of Android phones. See rule R901 for the full details."
 msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:63
@@ -148,13 +153,13 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:68
 msgid ""
-"Laptop with Microsoft Windows 7, 8, 10 or 11 and Wi-Fi capability. Note "
-"that your laptop should have the most current service packs and system "
-"updates from Microsoft. If you are using a different type of machine "
-"(such as a Chromebook, Android Tablet, etc.) as your programming device, "
-"the steps might differ slightly on how to access the Programming Server "
-"on the Robot Controller. Refer to your device’s user documentation for "
-"details on how to connect to a Wi-Fi network."
+"Laptop with Microsoft Windows 7, 8, 10 or 11 and Wi-Fi capability. Note that"
+" your laptop should have the most current service packs and system updates "
+"from Microsoft. If you are using a different type of machine (such as a "
+"Chromebook, Android Tablet, etc.) as your programming device, the steps "
+"might differ slightly on how to access the Programming Server on the Robot "
+"Controller. Refer to your device’s user documentation for details on how to "
+"connect to a Wi-Fi network."
 msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:69
@@ -162,7 +167,8 @@ msgid "|laptop|"
 msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:71
-msgid "Javascript-enabled web browser (Google Chrome is the recommended browser)."
+msgid ""
+"Javascript-enabled web browser (Google Chrome is the recommended browser)."
 msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:72
@@ -180,8 +186,8 @@ msgstr ""
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:77
 msgid ""
 "*FIRST*-approved\\* 12V Battery (such as Tetrix W39057 or REV Robotics "
-"REV-31-1302).\\*\\ **For a list of FIRST-approved 12V batteries, refer to"
-" the current Competition Manual.**\\"
+"REV-31-1302).\\*\\ **For a list of FIRST-approved 12V batteries, refer to "
+"the current Competition Manual.**\\"
 msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:78
@@ -190,8 +196,8 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:80
 msgid ""
-"*FIRST*-approved\\* 12V DC Motor (such as Tetrix W39530, with power cable"
-" W41352).\\*\\ **For a list of FIRST-approved 12V motors, refer to the "
+"*FIRST*-approved\\* 12V DC Motor (such as Tetrix W39530, with power cable "
+"W41352).\\*\\ **For a list of FIRST-approved 12V motors, refer to the "
 "current Competition Manual.**\\"
 msgstr ""
 
@@ -201,10 +207,10 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:84
 msgid ""
-"If you are using an approved 12V battery that has a Tamiya connector "
-"(like the Tetrix W39057 battery) you will need a REV Robotics Tamiya to "
-"XT30 Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery"
-" (REV-31-1302) then you will not need this adapter since the REV battery "
+"If you are using an approved 12V battery that has a Tamiya connector (like "
+"the Tetrix W39057 battery) you will need a REV Robotics Tamiya to XT30 "
+"Adapter Cable (REV-31-1382). If you have a REV Robotics Slim Battery "
+"(REV-31-1302) then you will not need this adapter since the REV battery "
 "already has an XT30 connector."
 msgstr ""
 
@@ -254,9 +260,9 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:102
 msgid ""
-"If you are using a smartphone as your Robot Controller, you will need a "
-"USB Type A male to type mini-B male cable. Control Hub users do not need "
-"this cable."
+"If you are using a smartphone as your Robot Controller, you will need a USB "
+"Type A male to type mini-B male cable. Control Hub users do not need this "
+"cable."
 msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:103
@@ -265,12 +271,11 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:105
 msgid ""
-"If you are using a smartphone as your Robot Controller, you will need two"
-" (2) micro USB OTG adapters. If you are using a Control Hub as your Robot"
-" Controller, you will need one(1) micro USB OTG adapter."
+"If you are using a smartphone as your Robot Controller, you will need two "
+"(2) micro USB OTG adapters. If you are using a Control Hub as your Robot "
+"Controller, you will need one(1) micro USB OTG adapter."
 msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:106
 msgid "|otg|   |otg|"
 msgstr ""
-

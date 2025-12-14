@@ -12,21 +12,20 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/contrib/tutorials/index.rst:2
 msgid "Tutorials"
-msgstr ""
+msgstr "チュートリアル"
 
 #: ../../source/contrib/tutorials/index.rst:4
 msgid ""
 "These are a couple tutorials that will walk you through the process of "
 "creating and editing in FTC Docs."
-msgstr ""
-
+msgstr "これらは、FTC Docs での作成と編集のプロセスを順を追って説明するいくつかのチュートリアルです。"

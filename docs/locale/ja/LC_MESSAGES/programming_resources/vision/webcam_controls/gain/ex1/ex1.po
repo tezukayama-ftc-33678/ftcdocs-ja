@@ -12,71 +12,84 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:2
 msgid "Example 1: Exposure’s effect on TFOD"
-msgstr ""
+msgstr "例1：露出の TFOD への影響"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:4
 msgid ""
 "We interrupt this tutorial to demonstrate the two webcam interfaces "
 "described so far: ExposureControl and GainControl."
 msgstr ""
+"このチュートリアルを中断して、これまでに説明した2つの Webcam インターフェイス：**ExposureControl** "
+"と**GainControl** を実証します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:7
 msgid ""
-"These 2 examples assume you are already using TensorFlow Object Detection"
-" (TFOD) in the Freight Frenzy game. Namely you have a TFOD model and "
-"OpMode that are working reasonably well. Here we will discuss only the "
-"Duck game element. **Can the exposure and/or gain controls improve the "
-"chance of a fast, accurate TFOD detection?**"
+"These 2 examples assume you are already using TensorFlow Object Detection "
+"(TFOD) in the Freight Frenzy game. Namely you have a TFOD model and OpMode "
+"that are working reasonably well. Here we will discuss only the Duck game "
+"element. **Can the exposure and/or gain controls improve the chance of a "
+"fast, accurate TFOD detection?**"
 msgstr ""
+"これらの2つの例では、**Freight Frenzy** ゲームで**TensorFlow Object Detection (TFOD)** "
+"を既に使用していることを前提としています。つまり、**TFOD** モデルと、適度にうまく機能する**OpMode** があります。ここでは、Duck "
+"ゲームエレメントのみについて説明します。** 露出および/またはゲイン制御により、高速で正確な TFOD 検出の可能性が向上しますか？**"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:14
 msgid ""
 "Another way to frame this effort is: can these controls simulate the "
-"lighting conditions used for TFOD model training? Namely, if the "
-"competition field has different lighting that affects recognition, can "
-"you achieve close to **your original (trained) TFOD performance**?"
-msgstr ""
+"lighting conditions used for TFOD model training? Namely, if the competition"
+" field has different lighting that affects recognition, can you achieve "
+"close to **your original (trained) TFOD performance**?"
+msgstr "まず、露出のみを試します。ゲインをゼロに設定し、さまざまな露出値で Webcam 画像に **TFOD** を適用します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:19
 msgid ""
-"We first try exposure alone. Setting gain to zero, we apply TFOD to "
-"webcam images at various exposure values."
+"We first try exposure alone. Setting gain to zero, we apply TFOD to webcam "
+"images at various exposure values."
 msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:25
 msgid "Gain 0, Exp 0 -> 20"
 msgstr ""
+"各露出設定で**5回の新しい読み取り** が行われました。つまり、テスト**OpMode** が毎回開かれ（INIT）、新しい**TFOD** 初期化と"
+" Webcam 画像処理が行われました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:30
 msgid "Gain 0, Exp 23 - > 40"
-msgstr ""
+msgstr "このチャートは **TFOD** 信頼度レベルを示しています。ここでの「instant」は、1秒以内の認識として定義されています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:35
 msgid "Gain 0, Exp 45 -> 55"
 msgstr ""
+"露出を高くすると認識が向上しますが、その後パフォーマンスが突然低下します。その後、より高いレベルでは、この **TFOD** モデルは Duck "
+"ではなく Cube を「見る」ようになります。良くありません！"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:37
 msgid ""
-"**Five fresh readings** were taken at each exposure setting. Namely the "
-"test OpMode was opened (INIT) each time for a new TFOD initialization and"
-" webcam image processing."
+"**Five fresh readings** were taken at each exposure setting. Namely the test"
+" OpMode was opened (INIT) each time for a new TFOD initialization and webcam"
+" image processing."
 msgstr ""
+"露出を高くすると認識が向上しますが、その後パフォーマンスが突然低下します。その後、より高いレベルでは、この **TFOD** モデルは Duck "
+"ではなく Cube を「見る」ようになります。良くありません！"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:41
 msgid ""
 "This chart shows TFOD confidence levels; ‘instant’ is defined here as "
 "recognition within 1 second."
 msgstr ""
+"このデータは、Webcam モデル（Logitech C270）、距離（12インチ）、俯角（30度）、**TFOD** モデル（**SDK** 7.0 "
+"デフォルト）、周囲照明、背景などの非常に特定の組み合わせの結果です。**結果は、おそらく大幅に異なります。**"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:48
 msgid "Five readings at each exposure level"
@@ -84,9 +97,9 @@ msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:50
 msgid ""
-"Higher exposure does improve recognition, then performance suddenly "
-"drops. Then at higher levels, this TFOD model begins to “see” a Cube, not"
-" a Duck. Not good!"
+"Higher exposure does improve recognition, then performance suddenly drops. "
+"Then at higher levels, this TFOD model begins to “see” a Cube, not a Duck. "
+"Not good!"
 msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:54
@@ -94,16 +107,15 @@ msgid ""
 "So, there does seem to be a range of exposure values that gives better "
 "results. Note the sharp drop-off at both ends of the range: below 25 and "
 "above 40. In engineering, a **robust** solution can withstand variation. "
-"Using a value in the middle of the improved range, can reduce the effects"
-" of unforeseen variation. But this range varies with ambient lighting "
+"Using a value in the middle of the improved range, can reduce the effects of"
+" unforeseen variation. But this range varies with ambient lighting "
 "conditions, which may be quite different at the tournament venue."
 msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:62
 msgid ""
-"This data is the result of a very particular combination of: webcam model"
-" (Logitech C270), distance (12 inches), lookdown angle (30 degrees), TFOD"
-" model (SDK 7.0 default), ambient lighting, background, etc. **Your "
-"results will vary, perhaps significantly.**"
+"This data is the result of a very particular combination of: webcam model "
+"(Logitech C270), distance (12 inches), lookdown angle (30 degrees), TFOD "
+"model (SDK 7.0 default), ambient lighting, background, etc. **Your results "
+"will vary, perhaps significantly.**"
 msgstr ""
-

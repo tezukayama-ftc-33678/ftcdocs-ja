@@ -12,78 +12,88 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:2
 msgid "Blocks Reference Materials :bdg-warning:`Blocks`"
-msgstr ""
+msgstr "Blocks リファレンス資料 :bdg-warning:`Blocks`"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:5
 msgid "Blocks Reference Manual"
-msgstr ""
+msgstr "**Blocks** リファレンスマニュアル"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:7
 msgid ""
-"As you start to write more complicated op modes, you will need to use "
-"more features of the FIRST Tech Challenge software development kit (SDK)."
-" Bruce Schafer of the Oregon Robotics Tournament & Outreach Program "
-"(ORTOP) created a useful reference document that describes the "
-"programming blocks that are available with the Blocks Programming Tool:"
+"As you start to write more complicated op modes, you will need to use more "
+"features of the FIRST Tech Challenge software development kit (SDK). Bruce "
+"Schafer of the Oregon Robotics Tournament & Outreach Program (ORTOP) created"
+" a useful reference document that describes the programming blocks that are "
+"available with the Blocks Programming Tool:"
 msgstr ""
+"より複雑な **Op Mode** を作成するようになると、**FIRST Tech Challenge** ソフトウェア開発キット（**SDK** "
+"）のより多くの機能を使用する必要が出てきます。Oregon Robotics Tournament & Outreach "
+"Program（ORTOP）のBruce Schafer氏は、**Blocks** "
+"プログラミングツールで利用可能なプログラミングブロックについて説明する有用なリファレンスドキュメントを作成しました："
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:14
 msgid ""
 "`Blocks Programming Tool Reference Manual "
 "<http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__"
 msgstr ""
+"**Blocks** プログラミングツールには、**FIRST Tech Challenge** "
+"制御システムでさまざまなタスクを実行する方法を示す、組み込みのサンプル**Op Mode** "
+"がいくつか含まれています。新しいファイルを作成する際、Sampleドロップダウンリストコントロールを使用して、利用可能なサンプル**Op Mode** "
+"やテンプレートのリストを表示できます："
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:18
 msgid "Sample Op Modes"
-msgstr ""
+msgstr "テクノロジーフォーラム"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:20
 msgid ""
 "The Blocks Programming Tool has several built-in example op modes that "
-"demonstrate how to do different tasks with the FIRST Tech Challenge "
-"control system. As you create a new file, you can use the Sample dropdown"
-" list control to display a list of available sample op modes or "
-"templates:"
+"demonstrate how to do different tasks with the FIRST Tech Challenge control "
+"system. As you create a new file, you can use the Sample dropdown list "
+"control to display a list of available sample op modes or templates:"
 msgstr ""
+"登録済みチームは、**FIRST Tech Challenge** "
+"コミュニティフォーラムでユーザーアカウントを作成できます。チームはフォーラムを使用して質問し、**FIRST Tech Challenge** "
+"コミュニティからサポートを受けることができます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:32
 msgid "Technology Forum"
-msgstr ""
+msgstr "**REV Robotics Control Hub** ドキュメント（英語）"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:34
 msgid ""
 "Registered teams can create user accounts on the FIRST Tech Challenge "
 "Community forum. Teams can use the forum to ask questions and receive "
 "support from the FIRST Tech Challenge community."
-msgstr ""
+msgstr "**REV Robotics Control Hub** ドキュメント（英語）"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:38
 msgid "The technology forum can be found at the following address:"
-msgstr ""
+msgstr "**REV Robotics Driver Hub** ドキュメント（英語）"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:40
 msgid "https://ftc-community.firstinspires.org"
-msgstr ""
+msgstr "**REV Robotics Driver Hub** ドキュメント（英語）"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:43
 msgid "REV Robotics Control Hub Documentation"
-msgstr ""
+msgstr "**REV Robotics Driver Hub** ドキュメント（英語）"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:45
 msgid ""
 "`REV Robotics Control Hub Getting Started Guide "
 "<https://docs.revrobotics.com/duo-control/control-hub-gs>`__"
-msgstr ""
+msgstr "**REV Robotics Driver Hub** ドキュメント（英語）"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:49
 msgid "REV Robotics Expansion Hub Documentation"
@@ -92,8 +102,8 @@ msgstr ""
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:51
 msgid ""
 "`REV Robotics Expansion Hub Getting Started Guide "
-"<https://docs.revrobotics.com/duo-control/control-system-overview"
-"/expansion-hub-basics>`__"
+"<https://docs.revrobotics.com/duo-control/control-system-overview/expansion-"
+"hub-basics>`__"
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:55
@@ -105,4 +115,3 @@ msgid ""
 "`REV Robotics Driver Hub Getting Started Guide "
 "<https://docs.revrobotics.com/duo-control/driver-hub-gs>`__"
 msgstr ""
-

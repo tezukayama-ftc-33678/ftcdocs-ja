@@ -12,17 +12,17 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/index.rst:2
 msgid "Webcam Controls"
-msgstr ""
+msgstr "Webcam 制御"
 
 #: ../../source/programming_resources/vision/webcam_controls/index.rst:4
 msgid ""
@@ -30,33 +30,36 @@ msgid ""
 "includes an example, using 2 of these controls to potentially improve "
 "TensorFlow recognition in Freight Frenzy."
 msgstr ""
+"この基本チュートリアルでは、**SDK** で利用可能な 8つの Webcam 制御について説明します。これには、**Freight Frenzy** "
+"で**TensorFlow** 認識を改善する可能性がある、これらの制御のうち 2つを使用する例が含まれています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/index.rst:8
 msgid ""
 "Hats off to `rgatkinson <https://github.com/rgatkinson>`__ and `Windwoes "
 "<https://github.com/Windwoes>`__ who developed these webcam controls."
 msgstr ""
+"これらの Webcam 制御を開発した `rgatkinson <https://github.com/rgatkinson>`__ さんと "
+"`Windwoes <https://github.com/Windwoes>`__ さんに敬意を表します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/index.rst:26
 msgid "Summary"
-msgstr ""
+msgstr "役に立った他の Webcam レポートと例を提出することをお勧めします。"
 
 #: ../../source/programming_resources/vision/webcam_controls/index.rst:28
 msgid ""
-"Some webcam controls in the SDK could potentially improve TFOD "
-"recognitions. Exposure, gain and other values could be pre-programmed in "
-"team autonomous OpModes. It’s also possible to manually enter such values"
-" before a match begins, based on anticipated lighting, starting position "
-"and other game-time factors."
-msgstr ""
+"Some webcam controls in the SDK could potentially improve TFOD recognitions."
+" Exposure, gain and other values could be pre-programmed in team autonomous "
+"OpModes. It’s also possible to manually enter such values before a match "
+"begins, based on anticipated lighting, starting position and other game-time"
+" factors."
+msgstr "役に立った他の Webcam レポートと例を提出することをお勧めします。"
 
 #: ../../source/programming_resources/vision/webcam_controls/index.rst:34
 msgid ""
-"You are encouraged to submit other webcam reports and examples that "
-"worked for you."
-msgstr ""
+"You are encouraged to submit other webcam reports and examples that worked "
+"for you."
+msgstr "質問、コメント、修正は westsiderobotics@verizon.net までお願いします。"
 
 #: ../../source/programming_resources/vision/webcam_controls/index.rst:39
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
 msgstr ""
-

@@ -12,30 +12,30 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:2
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:4
 msgid "Below is an overview of the process of contributing to FTC Docs."
-msgstr ""
+msgstr "以下は、FTC Docs への貢献プロセスの概要です。"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:8
 msgid ""
 "Using **Codespace** and working **Locally** are two different ways to "
-"contribute to FTC Docs. The steps for each are similar, but there are key"
-" differences in setup. After reading step 2, you should choose whether "
-"you want to use Codespaces or work locally. For the purposes of this "
-"guide, Local and Codespaces use will be mutually exclusive."
-msgstr ""
+"contribute to FTC Docs. The steps for each are similar, but there are key "
+"differences in setup. After reading step 2, you should choose whether you "
+"want to use Codespaces or work locally. For the purposes of this guide, "
+"Local and Codespaces use will be mutually exclusive."
+msgstr "以下は、FTC Docs への貢献プロセスの概要です。"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:12
 msgid "Key"
@@ -68,34 +68,42 @@ msgstr ""
 #: ../../source/contrib/tutorials/overview/overview.rst:24
 msgid "Step must be repeated for each set of changes"
 msgstr ""
+"2. :doc:`**Codespaces** 入門 <../codespaces/codespaces>` :bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:25
 msgid "Step specific to Codespaces users"
 msgstr ""
+"2. :doc:`**Codespaces** 入門 <../codespaces/codespaces>` :bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:26
 msgid "Step specific to Local users"
 msgstr ""
+"2. :doc:`**Codespaces** 入門 <../codespaces/codespaces>` :bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:27
 msgid "General information that provides context"
 msgstr ""
+"2. :doc:`**Codespaces** 入門 <../codespaces/codespaces>` :bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:29
 msgid ""
 ":doc:`Intro to Codesapces <../codespaces/codespaces>` :bdg-"
 "secondary:`Information`"
 msgstr ""
+"2. :doc:`**Codespaces** 入門 <../codespaces/codespaces>` :bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:31
 msgid "This will provide an overview of Codespaces and how to use them."
 msgstr ""
+"2. :doc:`**Codespaces** 入門 <../codespaces/codespaces>` :bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:32
 msgid ""
-":doc:`Getting to know the GitHub Repository <../github_repo/github-repo>`"
-" :bdg-secondary:`Information`"
+":doc:`Getting to know the GitHub Repository <../github_repo/github-repo>` "
+":bdg-secondary:`Information`"
 msgstr ""
+"3. :doc:`**GitHub** リポジトリを知る <../github_repo/github-repo>` :bdg-"
+"secondary:`情報`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:34
 msgid ""
@@ -103,22 +111,31 @@ msgid ""
 "organized. This is important to understand before you start working on a "
 "contribution."
 msgstr ""
+"3. :doc:`**GitHub** リポジトリを知る <../github_repo/github-repo>` :bdg-"
+"secondary:`情報`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:36
 msgid ""
-":doc:`Fork the repository <../make_fork/make-fork>` :bdg-danger:`One Time"
-" Only` :bdg-info:`Codespaces` :bdg-warning:`Local`"
+":doc:`Fork the repository <../make_fork/make-fork>` :bdg-danger:`One Time "
+"Only` :bdg-info:`Codespaces` :bdg-warning:`Local`"
 msgstr ""
+"4. :doc:`リポジトリをフォークする <../make_fork/make-fork>` :bdg-danger:`1回のみ` :bdg-"
+"info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:38
-msgid "This will create a copy of the FTC Docs repository in your GitHub account."
+msgid ""
+"This will create a copy of the FTC Docs repository in your GitHub account."
 msgstr ""
+"4. :doc:`リポジトリをフォークする <../make_fork/make-fork>` :bdg-danger:`1回のみ` :bdg-"
+"info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:40
 msgid ""
 ":doc:`Update the repository <../update_fork/update-fork>` :bdg-"
 "success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
 msgstr ""
+"5. :doc:`リポジトリを更新する <../update_fork/update-fork>` :bdg-success:`繰り返し` :bdg-"
+"info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:42
 msgid ""
@@ -126,41 +143,53 @@ msgid ""
 "repository. This is important to do before you start working on a new "
 "contribution."
 msgstr ""
+"5. :doc:`リポジトリを更新する <../update_fork/update-fork>` :bdg-success:`繰り返し` :bdg-"
+"info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:44
 msgid ""
-":doc:`Set up your environment <../setup/setup>` :bdg-danger:`One Time "
-"Only` :bdg-warning:`Local`"
+":doc:`Set up your environment <../setup/setup>` :bdg-danger:`One Time Only` "
+":bdg-warning:`Local`"
 msgstr ""
+"6. :doc:`環境をセットアップする <../setup/setup>` :bdg-danger:`1回のみ` :bdg-"
+"warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:46
 msgid ""
-"This will set up your local environment to work on FTC Docs. This step "
-"can be skipped for Codespaces users."
+"This will set up your local environment to work on FTC Docs. This step can "
+"be skipped for Codespaces users."
 msgstr ""
+"6. :doc:`環境をセットアップする <../setup/setup>` :bdg-danger:`1回のみ` :bdg-"
+"warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:48
 msgid ""
 ":doc:`Create a new branch <../make_branch/make-branch>` :bdg-"
 "success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
 msgstr ""
+"7. :doc:`新しいブランチを作成する <../make_branch/make-branch>` :bdg-success:`繰り返し` "
+":bdg-info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:50
 msgid ""
 "This will create a new branch for your change. You should create a new "
 "branch for each change you work on."
 msgstr ""
+"7. :doc:`新しいブランチを作成する <../make_branch/make-branch>` :bdg-success:`繰り返し` "
+":bdg-info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:52
 msgid ""
-":doc:`Create a new codespace <../create_codespace/create-codespace>` "
-":bdg-success:`Repeat` :bdg-info:`Codespaces`"
+":doc:`Create a new codespace <../create_codespace/create-codespace>` :bdg-"
+"success:`Repeat` :bdg-info:`Codespaces`"
 msgstr ""
+"7. :doc:`新しいブランチを作成する <../make_branch/make-branch>` :bdg-success:`繰り返し` "
+":bdg-info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/overview/overview.rst:54
 msgid ""
-"This will create a new Codespace for your change. You should create a new"
-" Codespace for each change/branch you work on."
+"This will create a new Codespace for your change. You should create a new "
+"Codespace for each change/branch you work on."
 msgstr ""
 
 #: ../../source/contrib/tutorials/overview/overview.rst:56
@@ -171,8 +200,8 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/overview/overview.rst:58
 msgid ""
-"This will switch to the branch you created in step 7. You should switch "
-"to the branch you created for each change you work on."
+"This will switch to the branch you created in step 7. You should switch to "
+"the branch you created for each change you work on."
 msgstr ""
 
 #: ../../source/contrib/tutorials/overview/overview.rst:60
@@ -194,8 +223,8 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/overview/overview.rst:66
 msgid ""
-":doc:`Setup Git Credentials <../setup_credentials/setup-credentials>`  "
-":bdg-danger:`One Time Only` :bdg-warning:`Local`"
+":doc:`Setup Git Credentials <../setup_credentials/setup-credentials>`  :bdg-"
+"danger:`One Time Only` :bdg-warning:`Local`"
 msgstr ""
 
 #: ../../source/contrib/tutorials/overview/overview.rst:68
@@ -204,11 +233,11 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/overview/overview.rst:70
 msgid ""
-":doc:`Submit your changes <../make_pr/make-pr>` :bdg-success:`Repeat` "
-":bdg-info:`Codespaces` :bdg-warning:`Local`"
+":doc:`Submit your changes <../make_pr/make-pr>` :bdg-success:`Repeat` :bdg-"
+"info:`Codespaces` :bdg-warning:`Local`"
 msgstr ""
 
 #: ../../source/contrib/tutorials/overview/overview.rst:72
-msgid "Commit your changes and submit a pull request to the FTC Docs repository."
+msgid ""
+"Commit your changes and submit a pull request to the FTC Docs repository."
 msgstr ""
-

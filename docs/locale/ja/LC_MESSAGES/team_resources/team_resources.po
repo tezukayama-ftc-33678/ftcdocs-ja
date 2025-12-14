@@ -12,35 +12,35 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/team_resources/team_resources.rst:2
 msgid "Team Resources"
-msgstr ""
+msgstr "チームリソース"
 
 #: ../../source/team_resources/team_resources.rst:4
 msgid ""
-"There are several resources that teams might want to access throughout "
-"the *FIRST* Tech Challenge season."
-msgstr ""
+"There are several resources that teams might want to access throughout the "
+"*FIRST* Tech Challenge season."
+msgstr "*FIRST* Tech Challenge シーズンを通じて、チームがアクセスしたいと思ういくつかのリソースがあります。"
 
 #: ../../source/team_resources/team_resources.rst:8
 msgid "Pages and Links"
-msgstr ""
+msgstr "ページとリンク"
 
 #: ../../source/team_resources/team_resources.rst:10
 msgid "FTC Blog - https://community.firstinspires.org/topic/ftc"
-msgstr ""
+msgstr "ページとリンク"
 
 #: ../../source/team_resources/team_resources.rst:11
 msgid "FTC Q&A - https://ftc-qa.firstinspires.org"
-msgstr ""
+msgstr "ページとリンク"
 
 #: ../../source/team_resources/team_resources.rst:12
 msgid "FTC Game and Season Info - https://ftc.game"
@@ -55,7 +55,8 @@ msgid "FTC Technical Support - https://ftc-community.firstinspires.org"
 msgstr ""
 
 #: ../../source/team_resources/team_resources.rst:15
-msgid "FTC Avatar Submission - https://community.firstinspires.org/team-avatars"
+msgid ""
+"FTC Avatar Submission - https://community.firstinspires.org/team-avatars"
 msgstr ""
 
 #: ../../source/team_resources/team_resources.rst:16
@@ -74,7 +75,5 @@ msgstr ""
 
 #: ../../source/team_resources/team_resources.rst:19
 msgid ""
-"FTC Competition Manual AI Chatbot - https://ftc-"
-"cmchatbot.firstinspires.org"
+"FTC Competition Manual AI Chatbot - https://ftc-cmchatbot.firstinspires.org"
 msgstr ""
-

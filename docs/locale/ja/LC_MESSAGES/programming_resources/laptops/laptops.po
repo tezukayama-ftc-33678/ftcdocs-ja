@@ -12,142 +12,157 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/laptops/laptops.rst:2
 msgid "Computer Requirements for *FIRST* Programs"
-msgstr ""
+msgstr "**FIRST** プログラムのコンピューター要件"
 
 #: ../../source/programming_resources/laptops/laptops.rst:4
 msgid ""
 "*FIRST*\\ :sup:`®` programs, such as *FIRST*\\ :sup:`®` LEGO\\ :sup:`®` "
-"League, *FIRST*\\ :sup:`®` Tech Challenge, and *FIRST*\\ :sup:`®` "
-"Robotics Competition, are as unique as the teams that participate in "
-"them. This uniqueness is partially due to the wide variety of vendors "
-"that provide technologies to the programs, the hardware and software "
-"necessary to manage each program’s distinctive goals, and the constantly "
-"evolving landscape of tools and techniques that teams find useful to "
-"participate and excel. One commonality between programs is the need for "
-"teams to have a computer platform for software development, design, and "
-"collaboration. This document serves as a recommendation for the hardware "
-"and operating system requirements for that computer system."
+"League, *FIRST*\\ :sup:`®` Tech Challenge, and *FIRST*\\ :sup:`®` Robotics "
+"Competition, are as unique as the teams that participate in them. This "
+"uniqueness is partially due to the wide variety of vendors that provide "
+"technologies to the programs, the hardware and software necessary to manage "
+"each program’s distinctive goals, and the constantly evolving landscape of "
+"tools and techniques that teams find useful to participate and excel. One "
+"commonality between programs is the need for teams to have a computer "
+"platform for software development, design, and collaboration. This document "
+"serves as a recommendation for the hardware and operating system "
+"requirements for that computer system."
 msgstr ""
+"**FIRST**\\ :sup:`®` LEGO\\ :sup:`®` League、**FIRST**\\ :sup:`®` Tech "
+"Challenge、**FIRST**\\ :sup:`®` Robotics Competition などの **FIRST**\\ :sup:`®`"
+" "
+"プログラムは、参加するチームと同じくらいユニークです。このユニークさは、プログラムに技術を提供するさまざまなベンダー、各プログラムの独自の目標を管理するために必要なハードウェアとソフトウェア、そしてチームが参加し優れた成果を上げるために役立つツールと技術の絶えず進化する状況に一部起因しています。プログラム間の共通点の1つは、チームがソフトウェア開発、設計、およびコラボレーションのためのコンピュータープラットフォームを必要とすることです。このドキュメントは、そのコンピューターシステムのハードウェアとオペレーティングシステムの要件に関する推奨事項として機能します。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:16
 msgid ""
-"Of the many factors that can affect the minimum requirements for a "
-"computer, these are the ones that affect those requirements most heavily:"
-msgstr ""
+"Of the many factors that can affect the minimum requirements for a computer,"
+" these are the ones that affect those requirements most heavily:"
+msgstr "プログラム固有の要件"
 
 #: ../../source/programming_resources/laptops/laptops.rst:20
 msgid "Any role-specific tasks that the computer may perform in the program"
 msgstr ""
+"各プログラムには独自の要件セットがありますが、それらの各要件は最小限のコンピューター構成で満たすことができます。このセクションでは、各プログラムの役割の最小要件を特定しようとしています。各要件を満たす具体的な推奨ハードウェアは、「推奨ハードウェアセット」セクションに記載されています。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:22
 msgid ""
 "Type of Computer-Aided Design (CAD) software that may be used on the "
 "computer"
-msgstr ""
+msgstr "**FIRST**\\ :sup:`®` LEGO\\ :sup:`®` League の推奨コンピューターハードウェア"
 
 #: ../../source/programming_resources/laptops/laptops.rst:25
 msgid "Software development and hardware update requirements"
 msgstr ""
+"**FIRST** LEGO League には、プログラム可能なプラットフォームを使用する2つのディビジョンがあります：`LEGO\\ ® "
+"Education SPIKE\\ ™ Prime <https://education.lego.com/en-us/product-"
+"resources/spike-prime/downloads/system-requirements/>`__ プラットフォームを使用する "
+"**FIRST** LEGO League Challenge と、`LEGO\\ ® Education SPIKE\\ ™ Essential "
+"<https://education.lego.com/en-us/products/lego-education-spike-essential-"
+"set/45345/>`__ プラットフォームを使用する **FIRST** LEGO League Explore "
+"です。両方のプラットフォームは、ほぼ同じコンピューター要件を持っており、違いは以下に記載されています。これらのプラットフォームは、ほとんどのコンピューター構成でサポートされているため、最もアクセスしやすいものの1つです。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:27
 msgid "Vendor-specific application requirements and limitations"
-msgstr ""
+msgstr "*ソフトウェア開発に推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:30
 msgid "Program-Specific Requirements"
-msgstr ""
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:32
 msgid ""
 "Each program has a unique set of requirements, but each of those "
-"requirements can be met with a minimum computer configuration. This "
-"section attempts to identify the minimum requirements for each program’s "
-"roles. Specific recommended hardware that meets each of the requirements "
-"are listed in the “Recommended Hardware Sets” section."
-msgstr ""
+"requirements can be met with a minimum computer configuration. This section "
+"attempts to identify the minimum requirements for each program’s roles. "
+"Specific recommended hardware that meets each of the requirements are listed"
+" in the “Recommended Hardware Sets” section."
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:39
 msgid ""
-"Recommended Computer Hardware for *FIRST*\\ :sup:`®` LEGO\\ :sup:`®` "
-"League"
+"Recommended Computer Hardware for *FIRST*\\ :sup:`®` LEGO\\ :sup:`®` League"
 msgstr ""
+"また、Google Play ストア（Chromebook Android "
+"アプリ用）へのアクセス、アプリ内コンテンツのダウンロード、教師サポート資料へのアクセス、ライブ気象データなどの特定の機能を使用するために、アクティブなインターネット接続を持つことも推奨されます。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:41
 msgid ""
 "*FIRST* LEGO League has two divisions which use programmable platforms: "
-"*FIRST* LEGO League Challenge which uses the `LEGO\\ ® Education SPIKE\\ "
-"™ Prime <https://education.lego.com/en-us/product-resources/spike-"
-"prime/downloads/system-requirements/>`__ platform, and *FIRST* LEGO "
-"League Explore which uses the `LEGO\\ ® Education SPIKE\\ ™ Essential "
-"<https://education.lego.com/en-us/products/lego-education-spike-"
-"essential-set/45345/>`__ platform. Both platforms have virtually the same"
-" computer requirements, differences are noted below. These platforms are "
-"some of the most accessible, as they are supported by most computer "
-"configurations."
+"*FIRST* LEGO League Challenge which uses the `LEGO\\ ® Education SPIKE\\ ™ "
+"Prime <https://education.lego.com/en-us/product-resources/spike-"
+"prime/downloads/system-requirements/>`__ platform, and *FIRST* LEGO League "
+"Explore which uses the `LEGO\\ ® Education SPIKE\\ ™ Essential "
+"<https://education.lego.com/en-us/products/lego-education-spike-essential-"
+"set/45345/>`__ platform. Both platforms have virtually the same computer "
+"requirements, differences are noted below. These platforms are some of the "
+"most accessible, as they are supported by most computer configurations."
 msgstr ""
+"また、Google Play ストア（Chromebook Android "
+"アプリ用）へのアクセス、アプリ内コンテンツのダウンロード、教師サポート資料へのアクセス、ライブ気象データなどの特定の機能を使用するために、アクティブなインターネット接続を持つことも推奨されます。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:51
 msgid "*Recommended for Software Development:*"
-msgstr ""
+msgstr "*ソフトウェア開発と CAD に推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:53
 #: ../../source/programming_resources/laptops/laptops.rst:98
 #: ../../source/programming_resources/laptops/laptops.rst:173
 #: ../../source/programming_resources/laptops/laptops.rst:195
 msgid "`Windows Standard Laptop`_"
-msgstr ""
+msgstr "*ソフトウェア開発と CAD に推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:55
 #: ../../source/programming_resources/laptops/laptops.rst:105
 #: ../../source/programming_resources/laptops/laptops.rst:176
 #: ../../source/programming_resources/laptops/laptops.rst:202
 msgid "Also Supported:"
-msgstr ""
+msgstr "*ソフトウェア開発のみに推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:57
 #: ../../source/programming_resources/laptops/laptops.rst:107
 #: ../../source/programming_resources/laptops/laptops.rst:204
 msgid "`MacOS Standard Laptop`_"
-msgstr ""
+msgstr "*ソフトウェア開発のみに推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:59
 #: ../../source/programming_resources/laptops/laptops.rst:115
 msgid "`Chrome OS Standard Laptop`_"
-msgstr ""
+msgstr "*ソフトウェア開発のみに推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:61
 msgid "`iOS Standard Tablet`_"
-msgstr ""
+msgstr "*ソフトウェア開発のみに推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:63
-msgid "LEGO\\ :sup:`®` Education SPIKE™ Essential hub cannot be updated with iPad"
-msgstr ""
+msgid ""
+"LEGO\\ :sup:`®` Education SPIKE™ Essential hub cannot be updated with iPad"
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:66
 msgid "`Android Standard Tablet`_"
-msgstr ""
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:68
 msgid "LEGO\\ :sup:`®` Education SPIKE™ Essential not supported"
-msgstr ""
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:70
 msgid ""
-"It is also recommended to have an active internet connection to access "
-"the Google Play Store (for Chromebook Android apps), to download in-app "
-"content, to access teacher support materials, and to use certain features"
-" such as live weather data."
-msgstr ""
+"It is also recommended to have an active internet connection to access the "
+"Google Play Store (for Chromebook Android apps), to download in-app content,"
+" to access teacher support materials, and to use certain features such as "
+"live weather data."
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:76
 msgid "Recommended Computer Hardware for *FIRST*\\ :sup:`®` Tech Challenge"
@@ -155,240 +170,275 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:78
 msgid ""
-"The predominant hardware platform used in *FIRST* Tech Challenge is the "
-"`REV Control Hub <https://docs.revrobotics.com/duo-control/control-"
-"system-overview/control-hub-basics>`__ and `REV Driver Hub "
+"The predominant hardware platform used in *FIRST* Tech Challenge is the `REV"
+" Control Hub <https://docs.revrobotics.com/duo-control/control-system-"
+"overview/control-hub-basics>`__ and `REV Driver Hub "
 "<https://docs.revrobotics.com/duo-control/control-system-overview/driver-"
 "hub-specifications>`__. These platforms have unique operating system and "
-"application requirements, though it is possible to perform most of the "
-"basic functions with most hardware platforms (albeit with more manual "
-"steps). Teams in *FIRST* Tech Challenge use computers for two basic "
-"purposes – software development and CAD – and team preference in these "
-"two uses shapes the required hardware."
+"application requirements, though it is possible to perform most of the basic"
+" functions with most hardware platforms (albeit with more manual steps). "
+"Teams in *FIRST* Tech Challenge use computers for two basic purposes – "
+"software development and CAD – and team preference in these two uses shapes "
+"the required hardware."
 msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:90
 msgid "*Recommended for Software Development and CAD:*"
 msgstr ""
+"**FIRST** Robotics Competition で使用される主要なハードウェアプラットフォームは、`NI roboRIO "
+"<https://www.ni.com/docs/en-US/bundle/roborio-20-specs/page/specs.html>`__ "
+"です。このプラットフォームには、プログラミング環境に応じて、ソフトウェア開発の要件とは異なる可能性のある競技におけるコンピューターハードウェアに対する独自の要件セットがあります。**FIRST**"
+" Tech Challenge と同様に、**FIRST** Robotics Competition のチームは、ソフトウェア開発と CAD "
+"という2つの基本的な目的でソフトウェア開発コンピューターを使用しており、この2つの使用法におけるチームの好みが必要なハードウェアを形成します。ただし、**FIRST**"
+" Robotics Competition では、コンピューターが果たすことができる2つの役割（ソフトウェアと設計開発プラットフォームおよび／または "
+"Driver Station プラットフォーム）があり、これらの役割もコンピューターハードウェアの要件を形成します。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:92
 #: ../../source/programming_resources/laptops/laptops.rst:178
 #: ../../source/programming_resources/laptops/laptops.rst:190
 msgid "`Windows Performance Laptop`_"
 msgstr ""
+"必要に応じて1台のラップトップを両方の目的に使用できますが、**Driver Station** "
+"プラットフォーム用とソフトウェアおよび設計開発用の2台の別々のコンピューターを持つことが推奨されます。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:96
 #: ../../source/programming_resources/laptops/laptops.rst:193
 msgid "*Recommended for Software Development Only:*"
 msgstr ""
+"Driver Station コンピューターは、ロボットへの主要なインターフェースとして使用され、イベントで Field Management "
+"System（FMS）とのインターフェースに使用され、ロボット上のハードウェアおよびソフトウェアプラットフォームと通信するために使用されるソフトウェアツールによって制限されます。チームは、イベントでのシステムの義務と物理的要求を分離できるように、Driver"
+" Station "
+"の役割とソフトウェアおよび設計開発の役割に別々のコンピューターを持つことが有利であると感じています。予算を意識しているチームは、そのコンピューターが少なくとも"
+" Driver Station の役割の最小要件を満たしている場合、両方の役割に単一のコンピューターを確実に使用できます。Driver Station "
+"の役割には Windows オペレーティングシステムが必要であることに注意してください。これは、役割の義務を実行するために必要なアプリケーションが "
+"Windows 専用アプリケーションであるためです。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:100
 #: ../../source/programming_resources/laptops/laptops.rst:197
 msgid "Only cloud CAD solutions are recommended"
-msgstr ""
+msgstr "*Driver Station の役割に推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:102
 #: ../../source/programming_resources/laptops/laptops.rst:199
 msgid "OnShape, SolidWorks 3D Experience, etc."
-msgstr ""
+msgstr "*Driver Station の役割に推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:109
 #: ../../source/programming_resources/laptops/laptops.rst:117
 #: ../../source/programming_resources/laptops/laptops.rst:206
 msgid ""
-"`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-"
-"client/>`__ not supported"
-msgstr ""
+"`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ "
+"not supported"
+msgstr "ソフトウェア開発と設計"
 
 #: ../../source/programming_resources/laptops/laptops.rst:113
 #: ../../source/programming_resources/laptops/laptops.rst:121
 msgid "Must update manually using browser-based interface"
-msgstr ""
+msgstr "*CAD を使用したソフトウェアおよび設計開発の役割に推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:123
-msgid "`Android Studio <https://developer.android.com/studio>`__ not supported"
-msgstr ""
+msgid ""
+"`Android Studio <https://developer.android.com/studio>`__ not supported"
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:126
 msgid "Only Blocks and OnBotJava supported"
-msgstr ""
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:128
 msgid ""
-"It is also recommended to have an active internet connection during "
-"software development. Access to https://github.com is required by the REV"
-" Hardware Client to download and install required season software updates"
-" and is required for Android Studio users to download software templates."
-msgstr ""
+"It is also recommended to have an active internet connection during software"
+" development. Access to https://github.com is required by the REV Hardware "
+"Client to download and install required season software updates and is "
+"required for Android Studio users to download software templates."
+msgstr "サポート対象："
 
 #: ../../source/programming_resources/laptops/laptops.rst:135
-msgid "Recommended Computer Hardware for *FIRST*\\ :sup:`®` Robotics Competition"
+msgid ""
+"Recommended Computer Hardware for *FIRST*\\ :sup:`®` Robotics Competition"
 msgstr ""
+"また、ソフトウェア開発中はアクティブなインターネット接続を持つことが推奨されます。https://github.com へのアクセスは、**REV "
+"Hardware Client** "
+"が必要なシーズンソフトウェアとファームウェア更新をダウンロードしてインストールするために必要です。追加のソフトウェアにも同様の要件がある場合があります。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:137
 msgid ""
-"The predominant hardware platform used in *FIRST* Robotics Competition is"
-" the `NI roboRIO <https://www.ni.com/docs/en-"
-"US/bundle/roborio-20-specs/page/specs.html>`__. This platform has a "
-"unique set of requirements for computer hardware in competition that may "
-"be different than requirements for software development depending on the "
+"The predominant hardware platform used in *FIRST* Robotics Competition is "
+"the `NI roboRIO <https://www.ni.com/docs/en-"
+"US/bundle/roborio-20-specs/page/specs.html>`__. This platform has a unique "
+"set of requirements for computer hardware in competition that may be "
+"different than requirements for software development depending on the "
 "programming environment. Like *FIRST* Tech Challenge, teams in *FIRST* "
 "Robotics Competition use software development computers for two basic "
-"purposes – software development and CAD – and team preferences in these "
-"two uses shape the required hardware. However, in *FIRST* Robotics "
-"Competition there are two roles that computers can serve, such as "
-"Software and Design Development platforms and/or Driver Station "
-"platforms, and those roles also shape the requirements of the computer "
-"hardware."
-msgstr ""
+"purposes – software development and CAD – and team preferences in these two "
+"uses shape the required hardware. However, in *FIRST* Robotics Competition "
+"there are two roles that computers can serve, such as Software and Design "
+"Development platforms and/or Driver Station platforms, and those roles also "
+"shape the requirements of the computer hardware."
+msgstr "推奨ハードウェアセット"
 
 #: ../../source/programming_resources/laptops/laptops.rst:151
 msgid ""
-"It is recommended to have two separate computers, one to use for the "
-"Driver Station platform and another for Software and Design Development, "
-"though one laptop can be used for both purposes if necessary."
+"It is recommended to have two separate computers, one to use for the Driver "
+"Station platform and another for Software and Design Development, though one"
+" laptop can be used for both purposes if necessary."
 msgstr ""
+"-  **FIRST** Tech Challenge の場合、ラップトップの USB-C ポートは **REV Control Hub** または "
+"**REV Driver Hub** で適切に動作できないため、USB-A ポートも利用できることが重要です。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:156
 msgid "Driver Station"
 msgstr ""
+"-  **FIRST** LEGO League の場合、ラップトップとタブレットが Bluetooth 4.0 以上をサポートすることが重要です。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:158
 msgid ""
-"The driver station computer is used as the primary interface to the "
-"robot, is used to interface with the Field Management System (FMS) at an "
-"event and is limited by the software tools used to communicate with the "
-"hardware and software platform on the robot. Teams find it advantageous "
-"to have separate computers for the Driver Station role and for the "
-"Software and Design Development role to enable them to segregate the "
-"duties and physical demands of the systems at an event. Budget-conscious "
-"teams can certainly use a single computer for both roles if that computer"
-" at least meets the minimum requirements of the Driver Station role. Note"
-" that the Driver Station role requires a Windows operating system, as the"
-" applications required to perform the role's duties are Windows-only "
-"applications."
-msgstr ""
+"The driver station computer is used as the primary interface to the robot, "
+"is used to interface with the Field Management System (FMS) at an event and "
+"is limited by the software tools used to communicate with the hardware and "
+"software platform on the robot. Teams find it advantageous to have separate "
+"computers for the Driver Station role and for the Software and Design "
+"Development role to enable them to segregate the duties and physical demands"
+" of the systems at an event. Budget-conscious teams can certainly use a "
+"single computer for both roles if that computer at least meets the minimum "
+"requirements of the Driver Station role. Note that the Driver Station role "
+"requires a Windows operating system, as the applications required to perform"
+" the role's duties are Windows-only applications."
+msgstr "*物理イーサネットポート*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:171
 msgid "*Recommended for the Driver Station role:*"
 msgstr ""
+"高性能プロセッサを含む高グラフィックス性能向けに設計されたラップトップ。`Dell G16 <https://www.dell.com/en-"
+"us/shop/dell-laptops/g16-gaming-laptop/spd/g-series-16-7630-laptop>`__ や `HP"
+" Omen <https://www.hp.com/us-en/shop/pdp/omen-gaming-laptop-16-xf0087nr>`__ "
+"など。以下の推奨仕様："
 
 #: ../../source/programming_resources/laptops/laptops.rst:181
 msgid "Software Development and Design"
-msgstr ""
+msgstr "-  イーサネット：RJ-45 イーサネットポート推奨"
 
 #: ../../source/programming_resources/laptops/laptops.rst:183
 msgid ""
-"Like *FIRST* Tech Challenge, *FIRST* Robotics Competition teams use "
-"Software Development and Design laptops for Software Development and CAD,"
-" and depending on the use of CAD the hardware requirements are slightly "
+"Like *FIRST* Tech Challenge, *FIRST* Robotics Competition teams use Software"
+" Development and Design laptops for Software Development and CAD, and "
+"depending on the use of CAD the hardware requirements are slightly "
 "different:"
-msgstr ""
+msgstr "-  ポート：USB type A ポート2つ以上推奨"
 
 #: ../../source/programming_resources/laptops/laptops.rst:188
 msgid "*Recommended for the Software and Design Development role with CAD:*"
-msgstr ""
+msgstr "-  オペレーティングシステム：Windows 10 以上、Windows 11 推奨"
 
 #: ../../source/programming_resources/laptops/laptops.rst:210
 msgid ""
-"`LabVIEW <https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2"
-"/labview-setup.html>`__ software not supported"
-msgstr ""
+"`LabVIEW <https://docs.wpilib.org/en/stable/docs/zero-to-"
+"robot/step-2/labview-setup.html>`__ software not supported"
+msgstr "-  Wi-Fi：統合 Wi-Fi、Wi-Fi 6E 以上推奨"
 
 #: ../../source/programming_resources/laptops/laptops.rst:213
 msgid ""
-"It is also recommended to have an active internet connection during "
-"software development. Access to https://github.com is required by the REV"
-" Hardware Client to download and install required season software and "
-"firmware updates. Additional software may have similar requirements."
-msgstr ""
+"It is also recommended to have an active internet connection during software"
+" development. Access to https://github.com is required by the REV Hardware "
+"Client to download and install required season software and firmware "
+"updates. Additional software may have similar requirements."
+msgstr "-  オペレーティングシステム：Windows 10 以上、Windows 11 推奨"
 
 #: ../../source/programming_resources/laptops/laptops.rst:219
 msgid "Recommended Hardware Sets"
-msgstr ""
+msgstr "-  プロセッサー：Apple M1 またはそれ以上、Apple M2 推奨"
 
 #: ../../source/programming_resources/laptops/laptops.rst:221
 msgid ""
-"These are the Recommended Hardware sets referenced by the Program-"
-"Specific Requirements. There are a few extra requirements and "
-"recommendations for all hardware platforms, such as:"
-msgstr ""
+"These are the Recommended Hardware sets referenced by the Program-Specific "
+"Requirements. There are a few extra requirements and recommendations for all"
+" hardware platforms, such as:"
+msgstr "-  メモリー：4GB RAM 以上"
 
 #: ../../source/programming_resources/laptops/laptops.rst:225
 msgid "*Windows Operating System*"
-msgstr ""
+msgstr "-  Bluetooth：Bluetooth 4.0 またはそれ以上"
 
 #: ../../source/programming_resources/laptops/laptops.rst:227
 msgid ""
-"Support for Windows 10 is ending in mid-2025, so purchasing a Windows "
-"system that supports Windows 11 is highly recommended. While not all "
-"software is specifically labeled as being supported by Windows 11, "
-"virtually all the required software has been tested to work with Windows "
-"11."
-msgstr ""
+"Support for Windows 10 is ending in mid-2025, so purchasing a Windows system"
+" that supports Windows 11 is highly recommended. While not all software is "
+"specifically labeled as being supported by Windows 11, virtually all the "
+"required software has been tested to work with Windows 11."
+msgstr "-  オペレーティングシステム：MacOS Mojave 10.14 以降"
 
 #: ../../source/programming_resources/laptops/laptops.rst:234
 msgid "*USB Ports*"
-msgstr ""
+msgstr "-  オペレーティングシステム：iOS 13 以降"
 
 #: ../../source/programming_resources/laptops/laptops.rst:236
 msgid "Laptops should have at least 2 available physical USB-A ports."
 msgstr ""
+"`Samsung Galaxy Chromebook 2 "
+"<https://www.google.com/chromebook/discover/pdp-samsung-galaxy-"
+"chromebook-2/sku-samsung-galaxy-chromebook-2-8gb-128gb/>`__ などの標準的な "
+"Chromebook、または類似のもの。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:238
 msgid ""
 "For *FIRST* Tech Challenge, USB-C ports on laptops are not able to work "
-"properly with the REV Control Hub nor REV Driver Hub, so it is important "
-"to have USB-A ports also available."
+"properly with the REV Control Hub nor REV Driver Hub, so it is important to "
+"have USB-A ports also available."
 msgstr ""
+"`Samsung Galaxy Chromebook 2 "
+"<https://www.google.com/chromebook/discover/pdp-samsung-galaxy-"
+"chromebook-2/sku-samsung-galaxy-chromebook-2-8gb-128gb/>`__ などの標準的な "
+"Chromebook、または類似のもの。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:243
 msgid "*Bluetooth*"
-msgstr ""
+msgstr "-  メモリー：4GB RAM 以上"
 
 #: ../../source/programming_resources/laptops/laptops.rst:245
 msgid ""
-"For *FIRST* LEGO League, it is important that laptops and tablets support"
-" Bluetooth 4.0 or above."
-msgstr ""
+"For *FIRST* LEGO League, it is important that laptops and tablets support "
+"Bluetooth 4.0 or above."
+msgstr "-  ストレージ：3GB 以上の利用可能なストレージスペース"
 
 #: ../../source/programming_resources/laptops/laptops.rst:249
 msgid "*Physical Ethernet Ports*"
-msgstr ""
+msgstr "-  オペレーティングシステム：Android 7.0 以降"
 
 #: ../../source/programming_resources/laptops/laptops.rst:251
 msgid ""
-"While most features of hardware and software can be easily supported by "
-"Wi-Fi, in some situations (such as the Driver Station for *FIRST* "
-"Robotics Competition) having a physical RJ-45 ethernet port on the system"
-" is a huge benefit."
+"While most features of hardware and software can be easily supported by Wi-"
+"Fi, in some situations (such as the Driver Station for *FIRST* Robotics "
+"Competition) having a physical RJ-45 ethernet port on the system is a huge "
+"benefit."
 msgstr ""
+"`Samsung Galaxy Tab A7 Lite <https://www.samsung.com/us/tablets/galaxy-"
+"tab-a/galaxy-tab-a7-10-4-inch-gray-64gb-wi-fi-sm-t500nzaexar/>`__ などの標準的な "
+"Android タブレット、または類似のもの。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:257
 msgid "*SSD Hard Drive*"
-msgstr ""
+msgstr "-  メモリー：3GB RAM 以上"
 
 #: ../../source/programming_resources/laptops/laptops.rst:259
 msgid ""
-"While not specifically required, hard drives that use SSD technology "
-"(versus spinning disk technology) boot up faster and are less likely to "
-"be damaged when carrying while powered on or experiences “unexpected "
-"bumps” as is common for a *FIRST* Robotics Competition Driver Station "
-"computer."
-msgstr ""
+"While not specifically required, hard drives that use SSD technology (versus"
+" spinning disk technology) boot up faster and are less likely to be damaged "
+"when carrying while powered on or experiences “unexpected bumps” as is "
+"common for a *FIRST* Robotics Competition Driver Station computer."
+msgstr "-  ストレージ：3GB 以上の利用可能なストレージスペース"
 
 #: ../../source/programming_resources/laptops/laptops.rst:266
 msgid "**Windows Performance Laptop**"
-msgstr ""
+msgstr "-  オペレーティングシステム：Android 7.0 以降"
 
 #: ../../source/programming_resources/laptops/laptops.rst:268
 msgid ""
 "A laptop designed for high graphics performance containing a high-end "
 "processor, like a `Dell G16 <https://www.dell.com/en-us/shop/dell-"
 "laptops/g16-gaming-laptop/spd/g-series-16-7630-laptop>`__ or `HP Omen "
-"<https://www.hp.com/us-en/shop/pdp/omen-gaming-laptop-16-xf0087nr>`__, "
-"with the following recommended specs:"
-msgstr ""
+"<https://www.hp.com/us-en/shop/pdp/omen-gaming-laptop-16-xf0087nr>`__, with "
+"the following recommended specs:"
+msgstr "-  オペレーティングシステム：Android 7.0 以降"
 
 #: ../../source/programming_resources/laptops/laptops.rst:275
 msgid "Processor: Intel Core i7, AMD Ryzen 7, or better"
@@ -438,12 +488,11 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:296
 msgid ""
-"A standard Windows laptop, like a `Dell Inspiron 15 <https://www.dell.com"
-"/en-us/shop/dell-"
-"laptops/inspiron-15-laptop/spd/inspiron-15-3530-laptop>`__ or `HP "
-"Pavilion Laptop <https://www.hp.com/us-"
-"en/shop/mdp/laptops/pavilion-15-344522--1>`__, designed for smooth "
-"performance and everyday tasks,"
+"A standard Windows laptop, like a `Dell Inspiron 15 "
+"<https://www.dell.com/en-us/shop/dell-"
+"laptops/inspiron-15-laptop/spd/inspiron-15-3530-laptop>`__ or `HP Pavilion "
+"Laptop <https://www.hp.com/us-en/shop/mdp/laptops/pavilion-15-344522--1>`__,"
+" designed for smooth performance and everyday tasks,"
 msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:302
@@ -468,9 +517,10 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:323
 msgid ""
-"A standard MacOS laptop, like a `MacBook Air <https://www.apple.com/shop"
-"/buy-mac/macbook-air>`__ or `MacBook Pro <https://www.apple.com/shop/buy-"
-"mac/macbook-pro>`__, designed for smooth performance and everyday tasks."
+"A standard MacOS laptop, like a `MacBook Air "
+"<https://www.apple.com/shop/buy-mac/macbook-air>`__ or `MacBook Pro "
+"<https://www.apple.com/shop/buy-mac/macbook-pro>`__, designed for smooth "
+"performance and everyday tasks."
 msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:328
@@ -553,4 +603,3 @@ msgstr ""
 #: ../../source/programming_resources/laptops/laptops.rst:371
 msgid "Memory: 3GB RAM or better"
 msgstr ""
-

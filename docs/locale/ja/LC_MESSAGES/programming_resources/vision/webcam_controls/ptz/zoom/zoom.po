@@ -12,51 +12,56 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:2
 msgid "Zoom"
-msgstr ""
+msgstr "ズーム"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:4
 msgid ""
-"Virtual zoom is described with a single dimensionless value of type "
-"integer. Similar to the interfaces described above, virtual zoom can be "
-"managed with these methods:"
-msgstr ""
+"Virtual zoom is described with a single dimensionless value of type integer."
+" Similar to the interfaces described above, virtual zoom can be managed with"
+" these methods:"
+msgstr "仮想ズームは、整数型の単一の無次元値で記述されます。上記で説明したインターフェイスと同様に、仮想ズームは次のメソッドで管理できます："
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:8
 msgid "setZoom(int zoom)"
 msgstr ""
+"Logitech C920 は、100 から 500 までのズーム値を許可しますが、250-280 "
+"より高い値は、プレビュー画像にさらなる影響を与えません（**Vuforia** の影響を受けます）。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:9
 msgid "getZoom()"
 msgstr ""
+"Logitech C920 は、100 から 500 までのズーム値を許可しますが、250-280 "
+"より高い値は、プレビュー画像にさらなる影響を与えません（**Vuforia** の影響を受けます）。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:10
 msgid "getMinZoom()"
-msgstr ""
+msgstr "これらのズームメソッドは、露出について上記で説明したように、**PtzControl** オブジェクトで呼び出されます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:11
 msgid "getMaxZoom()"
 msgstr ""
+"Logitech C920 は、100 から 500 までのズーム値を許可しますが、250-280 "
+"より高い値は、プレビュー画像にさらなる影響を与えません（**Vuforia** の影響を受けます）。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:13
 msgid ""
 "The Logitech C920 allows zoom values ranging from 100 to 500, although "
 "values higher than 250-280 have no further effect on the preview image "
 "(influenced by Vuforia)."
-msgstr ""
+msgstr "これらのズームメソッドは、露出について上記で説明したように、**PtzControl** オブジェクトで呼び出されます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:17
 msgid ""
-"These zoom methods are called on a PtzControl object, as described above "
-"for exposure."
-msgstr ""
-
+"These zoom methods are called on a PtzControl object, as described above for"
+" exposure."
+msgstr "これらのズームメソッドは、露出について上記で説明したように、**PtzControl** オブジェクトで呼び出されます。"

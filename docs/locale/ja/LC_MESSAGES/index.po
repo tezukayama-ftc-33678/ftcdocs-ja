@@ -12,12 +12,12 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/index.rst:24
@@ -158,31 +158,35 @@ msgstr ""
 
 #: ../../source/index.rst:-1
 msgid ""
-"FTC Control System, Blocks, OnBot Java, Android Studio, OpenCV, "
-"EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App,"
-" Control Hub, Driver Hub, IMU, Water Game"
+"FTC Control System, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, "
+"AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, "
+"Driver Hub, IMU, Water Game"
 msgstr ""
 
 #: ../../source/index.rst:7
 msgid "*FIRST* Tech Challenge documentation"
-msgstr ""
+msgstr "*FIRST* Tech Challenge ドキュメント"
 
 #: ../../source/index.rst:9
 msgid ""
-"Welcome to the *FIRST®* Tech Challenge Documentation! This website "
-"contains everything you need to know to create a competition robot! There"
-" is information and tutorials on how to use the *FIRST* Tech Challenge "
-"software and robot control system. There is also information for coaches "
-"and mentors."
+"Welcome to the *FIRST®* Tech Challenge Documentation! This website contains "
+"everything you need to know to create a competition robot! There is "
+"information and tutorials on how to use the *FIRST* Tech Challenge software "
+"and robot control system. There is also information for coaches and mentors."
 msgstr ""
+"*FIRST®* Tech Challenge ドキュメントへようこそ！このウェブサイトには、競技用ロボットを作成するために必要なすべての情報が含まれています！\n"
+"*FIRST* Tech Challenge のソフトウェアとロボット制御システムの使用方法に関する情報とチュートリアルがあります。\n"
+"また、コーチやメンターのための情報も提供しています。"
 
 #: ../../source/index.rst:13
 msgid ""
 "*FIRST* Tech Challenge is a robotics program for middle and high school "
-"students. It’s way more than building robots, see :doc:`About the FIRST "
-"Tech Challenge <overview/ftcoverview>` and "
-":doc:`gracious_professionalism/gp` to see why."
+"students. It’s way more than building robots, see :doc:`About the FIRST Tech"
+" Challenge <overview/ftcoverview>` and :doc:`gracious_professionalism/gp` to"
+" see why."
 msgstr ""
+"*FIRST* Tech Challenge は中高生向けのロボティクスプログラムです。\n"
+"単にロボットを作るだけではありません。その理由については :doc:`FIRST Tech Challenge について <overview/ftcoverview>` と :doc:`gracious_professionalism/gp` をご覧ください。"
 
 #: ../../source/index.rst:129
 msgid "**I am a...**"
@@ -190,14 +194,14 @@ msgstr ""
 
 #: ../../source/index.rst:131
 msgid ""
-":doc:`New Team <persona_pages/rookie_teams/rookie_teams>` New Teams may "
-"not know where to start. This is the way!"
+":doc:`New Team <persona_pages/rookie_teams/rookie_teams>` New Teams may not "
+"know where to start. This is the way!"
 msgstr ""
 
 #: ../../source/index.rst:133
 msgid ""
-":doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` "
-"Returning Teams looking for resources can look here."
+":doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` Returning "
+"Teams looking for resources can look here."
 msgstr ""
 
 #: ../../source/index.rst:135
@@ -210,21 +214,23 @@ msgstr ""
 msgid ""
 ":doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` Technical Mentors "
 "looking for Technical Resources should look here first!"
-msgstr ""
+msgstr "**私は...**"
 
 #: ../../source/index.rst:139
 msgid ""
 "The main menu contains links to the top level content. The following are "
 "quick links organized by topic."
-msgstr ""
+msgstr "**私は...**"
 
 #: ../../source/index.rst:148
 msgid "Programming Links"
 msgstr ""
+"- :doc:`コーチ <persona_pages/coach_admin/coach_admin>` "
+"ヘルプやチーム管理リソースをお探しのコーチの皆さんはこちらをご覧ください。"
 
 #: ../../source/index.rst:152
 msgid "Quick Links for Programming Language Resources"
-msgstr ""
+msgstr "メインメニューには、トップレベルのコンテンツへのリンクが含まれています。以下は、トピック別に整理されたクイックリンクです。"
 
 #: ../../source/index.rst:160
 msgid "Blocks"
@@ -272,8 +278,8 @@ msgstr ""
 
 #: ../../source/index.rst:270
 msgid ""
-"The Software Development Kit (SDK) is the collection of tools for "
-"developing software and executing it on the robot."
+"The Software Development Kit (SDK) is the collection of tools for developing"
+" software and executing it on the robot."
 msgstr ""
 
 #: ../../source/index.rst:279
@@ -303,7 +309,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/index.rst:342
-msgid "game_specific_resources/playing_field_resources/playing_field_resources"
+msgid ""
+"game_specific_resources/playing_field_resources/playing_field_resources"
 msgstr ""
 
 #: ../../source/index.rst:350
@@ -312,10 +319,9 @@ msgstr ""
 
 #: ../../source/index.rst:359
 msgid ""
-"This project is under active development. Anything contained herein is "
-"for informational purposes only; while this documentation is intended to "
-"support teams and in some way provide context to game rules, the game "
-"rules supercede all documentation found here. If you have feedback about "
-"this project, please use our :doc:`feedback form <ftc_docs/form/form>`."
+"This project is under active development. Anything contained herein is for "
+"informational purposes only; while this documentation is intended to support"
+" teams and in some way provide context to game rules, the game rules "
+"supercede all documentation found here. If you have feedback about this "
+"project, please use our :doc:`feedback form <ftc_docs/form/form>`."
 msgstr ""
-

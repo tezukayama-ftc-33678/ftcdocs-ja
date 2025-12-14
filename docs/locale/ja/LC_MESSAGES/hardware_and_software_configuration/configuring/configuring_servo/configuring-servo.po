@@ -12,49 +12,48 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:2
 msgid "Configuring a Servo"
-msgstr ""
+msgstr "サーボの構成"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:4
 msgid ""
 "You will also want to add a servo to the configuration file. In this "
 "example, you are using a standard 180-degree servo."
-msgstr ""
+msgstr "構成ファイルにサーボも追加します。この例では、標準の 180 度サーボを使用しています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:9
 msgid "Configuring a Servo Instructions"
-msgstr ""
+msgstr "サーボの構成手順"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:11
 msgid ""
 "1. Touch on the word **Servos** on the screen to display the **Servo "
 "Configuration** screen."
-msgstr ""
+msgstr "1. 画面の **Servos** という単語をタッチして、** サーボ構成** 画面を表示します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:19
 msgid ""
-"2. Use the dropdown control to select \"Servo\" as the servo type for "
-"port #0."
-msgstr ""
+"2. Use the dropdown control to select \"Servo\" as the servo type for port "
+"#0."
+msgstr "2. ドロップダウンコントロールを使用して、ポート #0 のサーボタイプとして「Servo」を選択します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:27
 msgid ""
 "3. Use the touch pad to specify the name of the servo (\"servoTest\" for "
 "this example) for port #0."
-msgstr ""
+msgstr "3. タッチパッドを使用して、ポート #0 のサーボの名前（この例では「servoTest」）を指定します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:35
 msgid ""
-"4. Press the **Done** button to complete the servo configuration. The app"
-" should return to the previous screen."
-msgstr ""
-
+"4. Press the **Done** button to complete the servo configuration. The app "
+"should return to the previous screen."
+msgstr "4. **Done** ボタンを押して、サーボ構成を完了します。アプリは前の画面に戻るはずです。"

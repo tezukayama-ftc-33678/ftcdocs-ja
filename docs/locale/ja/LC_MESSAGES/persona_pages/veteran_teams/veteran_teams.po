@@ -12,27 +12,29 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:2
 msgid "Returning Teams"
-msgstr ""
+msgstr "既存チーム"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:4
 msgid ""
 "Welcome back to *FIRST* Tech Challenge! Resources have been organized by "
 "type to help your team stay organized and be successful throughout the "
-"season. These resources are tailored to teams with experience in robotics"
-" looking to elevate their skills.  The technical resources are a stepping"
-" stone towards industry standard certifications. Just click on the button"
-" for the resource you want to explore!"
+"season. These resources are tailored to teams with experience in robotics "
+"looking to elevate their skills.  The technical resources are a stepping "
+"stone towards industry standard certifications. Just click on the button for"
+" the resource you want to explore!"
 msgstr ""
+"*FIRST* Tech Challenge "
+"へおかえりなさい！リソースは種類別に整理されており、チームがシーズンを通して組織的かつ円滑に活動できるようになっています。これらのリソースは、ロボティクスの経験があり、スキルを向上させたいチーム向けにカスタマイズされています。技術リソースは、業界標準の認定取得への足がかりとなります。探したいリソースのボタンをクリックするだけです！"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:18
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:60
@@ -89,4 +91,3 @@ msgstr ""
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:132
 msgid "FTC Awards (external PDF)"
 msgstr ""
-

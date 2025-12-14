@@ -12,12 +12,12 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/ftc_sdk/overview/index.rst:-1
@@ -36,28 +36,38 @@ msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:7
 msgid "*FIRST* Tech Challenge Software Development Kit"
-msgstr ""
+msgstr "**FIRST Tech Challenge** ソフトウェア開発キット"
 
 #: ../../source/ftc_sdk/overview/index.rst:9
 msgid ""
-"The Software Development Kit (SDK) is the collection of tools for "
-"developing software and executing it on a *FIRST* Tech Challenge robot. "
-"SDK Software includes:"
+"The Software Development Kit (SDK) is the collection of tools for developing"
+" software and executing it on a *FIRST* Tech Challenge robot. SDK Software "
+"includes:"
 msgstr ""
+"ソフトウェア開発キット（SDK）は、**FIRST Tech Challenge** "
+"ロボット用のソフトウェアを開発し、実行するためのツールのコレクションです。SDKソフトウェアには以下が含まれます："
 
 #: ../../source/ftc_sdk/overview/index.rst:13
 msgid "*FIRST* Tech Challenge Driver Station App"
 msgstr ""
+"ソフトウェア開発キット（SDK）は、**FIRST Tech Challenge** "
+"ロボット用のソフトウェアを開発し、実行するためのツールのコレクションです。SDKソフトウェアには以下が含まれます："
 
 #: ../../source/ftc_sdk/overview/index.rst:15
 msgid ""
 "Includes Self-Inspect, :doc:`Robot Configuration "
 "</hardware_and_software_configuration/configuring/index>`, and others"
 msgstr ""
+"-  `Android Studioプロジェクト <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__\n"
+"-  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__\n"
+"-  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど）"
 
 #: ../../source/ftc_sdk/overview/index.rst:17
 msgid "*FIRST* Tech Challenge Robot Controller App"
 msgstr ""
+"-  `Android Studioプロジェクト <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__\n"
+"-  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__\n"
+"-  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど）"
 
 #: ../../source/ftc_sdk/overview/index.rst:19
 msgid ""
@@ -70,14 +80,20 @@ msgid ""
 "Includes :doc:`OnBot Java Programming Environment "
 "</programming_resources/onbot_java/OnBot-Java-Tutorial>`"
 msgstr ""
+"-  `Android Studioプロジェクト <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__\n"
+"-  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__\n"
+"-  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど）"
 
 #: ../../source/ftc_sdk/overview/index.rst:22
 msgid ""
 "`Android Studio Project <https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController>`__ for building the Robot Controller App "
-"with :doc:`Android Studio </programming_resources/android_studio_java"
-"/Android-Studio-Tutorial>`"
+"Challenge/FtcRobotController>`__ for building the Robot Controller App with "
+":doc:`Android Studio </programming_resources/android_studio_java/Android-"
+"Studio-Tutorial>`"
 msgstr ""
+"-  `Android Studioプロジェクト <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__\n"
+"-  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__\n"
+"-  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど）"
 
 #: ../../source/ftc_sdk/overview/index.rst:25
 #: ../../source/ftc_sdk/overview/index.rst:48
@@ -85,58 +101,86 @@ msgid ""
 "`Javadoc Reference Documentation "
 "<https://javadoc.io/doc/org.firstinspires.ftc>`__"
 msgstr ""
+"すべてのリリース済みアプリ/ソースは、`SDK GitHubリポジトリ <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`__ にあります。"
 
 #: ../../source/ftc_sdk/overview/index.rst:26
 msgid "Season-Specific Assets (TensorFlow models, Vuforia databases, etc...)"
 msgstr ""
+"すべてのリリース済みアプリ/ソースは、`SDK GitHubリポジトリ <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`__ にあります。"
 
 #: ../../source/ftc_sdk/overview/index.rst:28
 msgid ""
 "All released apps/source can be found in the `SDK GitHub Repository "
 "<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__."
-msgstr ""
+msgstr "SDKリリース"
 
 #: ../../source/ftc_sdk/overview/index.rst:31
 msgid "SDK Releases"
 msgstr ""
+"ソフトウェア開発キットは、**FIRST Tech Challenge** **Technology Team** "
+"として知られるコアグループによって、プライベートGitHubリポジトリ内で開発および保守されています。このリポジトリは、将来の**FIRST Tech "
+"Challenge** "
+"ゲームの秘密、開発中の機能、およびその他の開発の側面の詳細を漏らさないようにするため、プライベートに保たれています。開発とメンテナンスは年間を通じて継続的に行われています。"
 
 #: ../../source/ftc_sdk/overview/index.rst:33
 msgid ""
-"The Software Development Kit is developed and maintained by a core group,"
-" known as the *FIRST* Tech Challenge *Technology Team*, within a private "
+"The Software Development Kit is developed and maintained by a core group, "
+"known as the *FIRST* Tech Challenge *Technology Team*, within a private "
 "GitHub repository. This repository is kept private in order to prevent "
-"leaking the details of future *FIRST* Tech Challenge game secrets, "
-"features in development, and other aspects of development. Development "
-"and maintenance is ongoing year round."
-msgstr ""
+"leaking the details of future *FIRST* Tech Challenge game secrets, features "
+"in development, and other aspects of development. Development and "
+"maintenance is ongoing year round."
+msgstr "リリースコンテンツ"
 
 #: ../../source/ftc_sdk/overview/index.rst:40
 msgid "Release Content"
 msgstr ""
+"-  ビルドされたDriver Stationアプリ（``FtcDriverStation-release.apk`` ）\n"
+"-  ビルドされたRobot Controllerアプリ（``FtcRobotController-release.apk`` ）\n"
+"-  Android Studioプロジェクトのソースコード（``vX.X.zip``、``vX.X.tar.gz`` ）\n"
+"-  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__\n"
+"-  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど、別途ホスト）"
 
 #: ../../source/ftc_sdk/overview/index.rst:42
 msgid ""
-"Once the SDK is ready to be released, the private SDK repository is built"
-" and exported. This build consists of:"
+"Once the SDK is ready to be released, the private SDK repository is built "
+"and exported. This build consists of:"
 msgstr ""
+"-  ビルドされたDriver Stationアプリ（``FtcDriverStation-release.apk`` ）\n"
+"-  ビルドされたRobot Controllerアプリ（``FtcRobotController-release.apk`` ）\n"
+"-  Android Studioプロジェクトのソースコード（``vX.X.zip``、``vX.X.tar.gz`` ）\n"
+"-  `Javadocリファレンスドキュメント <https://javadoc.io/doc/org.firstinspires.ftc>`__\n"
+"-  シーズン固有のアセット（TensorFlowモデル、Vuforiaデータベースなど、別途ホスト）"
 
 #: ../../source/ftc_sdk/overview/index.rst:45
 msgid "Built Driver Station App (``FtcDriverStation-release.apk``)"
 msgstr ""
+"エクスポートは、`FtcRobotController GitHubリポジトリ\n"
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に `ソフトウェアリリース\n"
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ としてプッシュされます。"
 
 #: ../../source/ftc_sdk/overview/index.rst:46
 msgid "Built Robot Controller App (``FtcRobotController-release.apk``)"
 msgstr ""
+"エクスポートは、`FtcRobotController GitHubリポジトリ\n"
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に `ソフトウェアリリース\n"
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ としてプッシュされます。"
 
 #: ../../source/ftc_sdk/overview/index.rst:47
 msgid "Android Studio Project source code (``vX.X.zip``, ``vX.X.tar.gz``)"
 msgstr ""
+"`FtcRobotController GitHubリポジトリ\n"
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ は、エクスポートされたAndroid Studioプロジェクトのソースでも更新され、変更を追跡でき、GitHubリポジトリをチームが `フォーク"
 
 #: ../../source/ftc_sdk/overview/index.rst:49
 msgid ""
-"Season-Specific Assets (TensorFlow models, Vuforia databases, etc... "
-"hosted separately)"
+"Season-Specific Assets (TensorFlow models, Vuforia databases, etc... hosted "
+"separately)"
 msgstr ""
+"`FtcRobotController GitHubリポジトリ\n"
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ は、エクスポートされたAndroid Studioプロジェクトのソースでも更新され、変更を追跡でき、GitHubリポジトリをチームが `フォーク"
 
 #: ../../source/ftc_sdk/overview/index.rst:51
 msgid ""
@@ -144,45 +188,46 @@ msgid ""
 "<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ as a "
 "`software release <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/releases>`__."
-msgstr ""
+msgstr "または `クローン"
 
 #: ../../source/ftc_sdk/overview/index.rst:56
 msgid ""
 "The `FtcRobotController GitHub Repository <https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController>`__ is also updated with the exported "
-"Android Studio Project source so that changes can be tracked and the "
-"GitHub repository can be `forked <https://docs.github.com/en/pull-"
-"requests/collaborating-with-pull-requests/working-with-forks/about-"
-"forks>`__ or `cloned <https://docs.github.com/en/repositories/creating-"
-"and-managing-repositories/cloning-a-repository>`__ by teams. This update "
-"is a one-way push, however, which is why public contributions (`Pull "
-"Requests <https://docs.github.com/en/pull-requests/collaborating-with-"
-"pull-requests/proposing-changes-to-your-work-with-pull-requests/about-"
-"pull-requests>`__) to the FtcRobotController repository are not accepted."
-"  The community is free and encouraged to create issues at the repository"
-" for the *Technology Team* to consider and address, however."
-msgstr ""
+"Challenge/FtcRobotController>`__ is also updated with the exported Android "
+"Studio Project source so that changes can be tracked and the GitHub "
+"repository can be `forked <https://docs.github.com/en/pull-"
+"requests/collaborating-with-pull-requests/working-with-forks/about-forks>`__"
+" or `cloned <https://docs.github.com/en/repositories/creating-and-managing-"
+"repositories/cloning-a-repository>`__ by teams. This update is a one-way "
+"push, however, which is why public contributions (`Pull Requests "
+"<https://docs.github.com/en/pull-requests/collaborating-with-pull-"
+"requests/proposing-changes-to-your-work-with-pull-requests/about-pull-"
+"requests>`__) to the FtcRobotController repository are not accepted.  The "
+"community is free and encouraged to create issues at the repository for the "
+"*Technology Team* to consider and address, however."
+msgstr "リリーススケジュール"
 
 #: ../../source/ftc_sdk/overview/index.rst:72
 msgid ""
 "Some season-specific assets, such as TensorFlow models and Vuforia "
 "Databases, are not included directly in the FtcRobotController GitHub "
 "repository. Instead, they are packaged in an ``.AAR`` hosted on Maven "
-"Central. When using the Robot Controller App, these assets are included "
-"in the app. When using Android Studio, these assets are downloaded and "
-"included in your project the first time you compile the project (so an "
-"active internet connection is necessary)."
-msgstr ""
+"Central. When using the Robot Controller App, these assets are included in "
+"the app. When using Android Studio, these assets are downloaded and included"
+" in your project the first time you compile the project (so an active "
+"internet connection is necessary)."
+msgstr "SDKリリースノート"
 
 #: ../../source/ftc_sdk/overview/index.rst:81
 msgid "Release Schedule"
 msgstr ""
+"破壊的変更は、その名前が示すとおり、SDKのAPIまたは一般的なアーキテクチャ内で行われた変更であり、既存のコードまたは構成を破壊する可能性があります。SDKのすべてのユーザーが、特定のリリースに破壊的変更セクションが存在する場合は、リリースノートの破壊的変更セクションを読み、既存のコードへの影響を判断することが特に重要です。"
 
 #: ../../source/ftc_sdk/overview/index.rst:83
 msgid ""
-"These releases happen on a regular schedule, even if the exact dates "
-"aren't specifically defined:"
-msgstr ""
+"These releases happen on a regular schedule, even if the exact dates aren't "
+"specifically defined:"
+msgstr "機能強化"
 
 #: ../../source/ftc_sdk/overview/index.rst:86
 msgid ""
@@ -190,41 +235,54 @@ msgid ""
 "*FIRST* Tech Challenge Kickoff. The Kickoff SDK is typically the minimal "
 "software version required for use during the season."
 msgstr ""
+"機能強化は、SDKの新機能または既存機能の（非破壊的な）改善です。機能強化には、改善されたロギング、新しいユーザーインターフェース（UI）、より良いユーザーエクスペリエンス（UX）、新しいAPI、より良いパフォーマンス、または信頼性の向上などの項目が含まれる場合があります。SDKのすべての機能強化がリリースノートに記載されているわけではありませんが、ユーザーに直接影響を与えるものは記載されている必要があります。"
 
 #: ../../source/ftc_sdk/overview/index.rst:89
 msgid ""
 "**Update / Patch Releases** - These are typically released during the "
-"*FIRST* Tech Challenge season, when critical issues or helpful features "
-"are available for teams. Update/Patch releases aren't generally required "
-"for competition unless a critical patch or bugfix is issued."
-msgstr ""
+"*FIRST* Tech Challenge season, when critical issues or helpful features are "
+"available for teams. Update/Patch releases aren't generally required for "
+"competition unless a critical patch or bugfix is issued."
+msgstr "バグ修正"
 
 #: ../../source/ftc_sdk/overview/index.rst:93
 msgid ""
 "**Offseason Release** - Offseason releases are used to prepare teams for "
-"breaking changes or to provide a technology preview for new features in "
-"the upcoming season."
-msgstr ""
+"breaking changes or to provide a technology preview for new features in the "
+"upcoming season."
+msgstr "SDKソフトウェアの更新"
 
 #: ../../source/ftc_sdk/overview/index.rst:97
 msgid ""
 "Software SDK updates are announced via the `FIRST Tech Challenge Blog "
-"<https://community.firstinspires.org/topic/ftc>`__ and `Team Email Blasts"
-" <https://www.firstinspires.org/resources/library/ftc/team-email-blast-"
+"<https://community.firstinspires.org/topic/ftc>`__ and `Team Email Blasts "
+"<https://www.firstinspires.org/resources/library/ftc/team-email-blast-"
 "archive>`__ ."
 msgstr ""
+"-  :doc:`REV Hardware Clientの更新 </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`\n"
+"-  :doc:`Driver Stationアプリの更新 </ftc_sdk/updating/ds_app/Updating-the-DS-App>`\n"
+"-  :doc:`Robot Controllerアプリの更新 </ftc_sdk/updating/rc_app/Updating-the-RC-App>`\n"
+"-  :doc:`Driver Hub OSの更新 </ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS>`\n"
+"-  :doc:`Control Hub OSの更新 </ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS>`\n"
+"-  :doc:`Hubファームウェアの更新 </ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware>`"
 
 #: ../../source/ftc_sdk/overview/index.rst:102
 msgid "SDK Release Notes"
 msgstr ""
+"-  :doc:`REV Hardware Clientの更新 </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`\n"
+"-  :doc:`Driver Stationアプリの更新 </ftc_sdk/updating/ds_app/Updating-the-DS-App>`\n"
+"-  :doc:`Robot Controllerアプリの更新 </ftc_sdk/updating/rc_app/Updating-the-RC-App>`\n"
+"-  :doc:`Driver Hub OSの更新 </ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS>`\n"
+"-  :doc:`Control Hub OSの更新 </ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS>`\n"
+"-  :doc:`Hubファームウェアの更新 </ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware>`"
 
 #: ../../source/ftc_sdk/overview/index.rst:104
 msgid ""
-"One of the most important elements of the SDK Release is the `SDK Release"
-" Notes <https://github.com/FIRST-Tech-Challenge/FtcRobotController"
-"#release-information>`__. The SDK Release Notes contain important aspects"
-" of each release, including breaking changes, enhancements, and critical "
-"bug fixes of note."
+"One of the most important elements of the SDK Release is the `SDK Release "
+"Notes <https://github.com/FIRST-Tech-Challenge/FtcRobotController#release-"
+"information>`__. The SDK Release Notes contain important aspects of each "
+"release, including breaking changes, enhancements, and critical bug fixes of"
+" note."
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:110
@@ -233,12 +291,12 @@ msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:112
 msgid ""
-"Breaking changes are as the name suggests, which are changes made within "
-"the SDK's APIs or general architecture that may break existing code or "
-"configurations that may already exist. It is especially important for all"
-" users of the SDK to read the Breaking Changes section of the release "
-"notes, if one exists for a given release, and determine the impact on "
-"their existing code."
+"Breaking changes are as the name suggests, which are changes made within the"
+" SDK's APIs or general architecture that may break existing code or "
+"configurations that may already exist. It is especially important for all "
+"users of the SDK to read the Breaking Changes section of the release notes, "
+"if one exists for a given release, and determine the impact on their "
+"existing code."
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:119
@@ -249,10 +307,10 @@ msgstr ""
 msgid ""
 "Enhancements are new features or (non-breaking) improvements made to "
 "existing features of the SDK. Enhancements might include items such as "
-"improved logging, new user interfaces (UI), better user experience (UX), "
-"new APIs, better performance, or greater reliability. Not all "
-"enhancements of the SDK are listed in the release notes, but those that "
-"have a direct user impact should be listed."
+"improved logging, new user interfaces (UI), better user experience (UX), new"
+" APIs, better performance, or greater reliability. Not all enhancements of "
+"the SDK are listed in the release notes, but those that have a direct user "
+"impact should be listed."
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:128
@@ -262,11 +320,11 @@ msgstr ""
 #: ../../source/ftc_sdk/overview/index.rst:130
 msgid ""
 "Virtually every release of the SDK includes bug fixes, but when the "
-"*Technology Team* wishes to elevate the visibility of an important bug "
-"fix it is included in a Bug Fixes section of the Release Notes. Sometimes"
-" team code can be affected if the bug required a workaround, and being "
-"elevated in the Release Notes is a way for the *Technology Team* to "
-"notify teams that the workaround is no longer necessary."
+"*Technology Team* wishes to elevate the visibility of an important bug fix "
+"it is included in a Bug Fixes section of the Release Notes. Sometimes team "
+"code can be affected if the bug required a workaround, and being elevated in"
+" the Release Notes is a way for the *Technology Team* to notify teams that "
+"the workaround is no longer necessary."
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:138
@@ -275,18 +333,18 @@ msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:140
 msgid ""
-"It is important for teams to update the SDK software. Updates mid-season "
-"may not be required. Teams can check  the minimum software version "
-"required for a game in the Competition Manual.  It is recommended to use "
-"the REV Hardware Client to update hardware, if a 64-bit Windows computer "
-"is available. If not, then alternate methods provided can be used to "
-"update the software."
+"It is important for teams to update the SDK software. Updates mid-season may"
+" not be required. Teams can check  the minimum software version required for"
+" a game in the Competition Manual.  It is recommended to use the REV "
+"Hardware Client to update hardware, if a 64-bit Windows computer is "
+"available. If not, then alternate methods provided can be used to update the"
+" software."
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:146
 msgid ""
-":doc:`Updating the REV Hardware Client </ftc_sdk/updating/hardware_client"
-"/Updating-REV-Hardware-Client>`"
+":doc:`Updating the REV Hardware Client "
+"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>`"
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:147
@@ -297,20 +355,20 @@ msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:148
 msgid ""
-":doc:`Updating the Robot Controller App </ftc_sdk/updating/rc_app"
-"/Updating-the-RC-App>`"
+":doc:`Updating the Robot Controller App </ftc_sdk/updating/rc_app/Updating-"
+"the-RC-App>`"
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:149
 msgid ""
-":doc:`Updating the Driver Hub OS </ftc_sdk/updating/driverhub_os"
-"/Updating-the-Driver-Hub-OS>`"
+":doc:`Updating the Driver Hub OS </ftc_sdk/updating/driverhub_os/Updating-"
+"the-Driver-Hub-OS>`"
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:150
 msgid ""
-":doc:`Updating the Control Hub OS </ftc_sdk/updating/controlhub_os"
-"/Updating-the-Control-Hub-OS>`"
+":doc:`Updating the Control Hub OS </ftc_sdk/updating/controlhub_os/Updating-"
+"the-Control-Hub-OS>`"
 msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:151
@@ -318,4 +376,3 @@ msgid ""
 ":doc:`Updating the Hub Firmware </ftc_sdk/updating/hub_firmware/Updating-"
 "Hub-Firmware>`"
 msgstr ""
-

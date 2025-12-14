@@ -12,81 +12,100 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:2
 msgid "AprilTag Introduction"
-msgstr ""
+msgstr "AprilTag 入門"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:7
 msgid ""
-"A popular camera-based technology is **AprilTag**, a scanned image "
-"similar to a QR Code. Its effectiveness and quick set-up on custom Signal"
-" Sleeves led to **wide adoption** in POWERPLAY (2022-2023) by *FIRST* "
-"Tech Challenge teams, especially those programming in Java."
+"A popular camera-based technology is **AprilTag**, a scanned image similar "
+"to a QR Code. Its effectiveness and quick set-up on custom Signal Sleeves "
+"led to **wide adoption** in POWERPLAY (2022-2023) by *FIRST* Tech Challenge "
+"teams, especially those programming in Java."
 msgstr ""
+"カメラベースの技術として人気があるのが **AprilTag** です。これは QR コードに似たスキャン画像です。カスタム Signal "
+"Sleeves での効果的な動作と迅速なセットアップにより、POWERPLAY（2022-2023）シーズンでは、特に Java でプログラミングを行う"
+" *FIRST* Tech Challenge チームに **広く採用** されました。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:17
 msgid "Dual Detection"
-msgstr ""
+msgstr "FTC Blocks を使用するチームを含む POWERPLAY のチームは、いくつかのリソースの使い方を学びました："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:17
 msgid "Photo Credit: Mike Silversides"
-msgstr ""
+msgstr "FTC Blocks を使用するチームを含む POWERPLAY のチームは、いくつかのリソースの使い方を学びました："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:19
 msgid ""
-"Those POWERPLAY teams, including those using FTC Blocks, learned how to "
-"use several resources:"
+"Those POWERPLAY teams, including those using FTC Blocks, learned how to use "
+"several resources:"
 msgstr ""
+"-  AprilTag: フォーマットされた画像を評価するためのオープンソース技術\n"
+"-  EasyOpenCV: *FIRST* Tech Challenge に最適化された OpenCV（画像処理ライブラリ）とのインターフェース\n"
+"-  myBlocks: OnBot Java (OBJ) で作成されたカスタム Blocks"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:22
 msgid "AprilTag: an open-source technology for evaluating formatted images"
 msgstr ""
+"現在、これら3つの領域は *FIRST* **Tech Challenge Software Development Kit (SDK) のバージョン "
+"8.2 以降** に提供、またはバンドルされています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:24
 msgid ""
 "EasyOpenCV: a *FIRST* Tech Challenge-optimized interface with OpenCV, an "
 "image processing library"
 msgstr ""
+"つまり、**AprilTag** と**EasyOpenCV** の主要な機能は、特別なダウンロードなしで Robot Controller (RC) "
+"と Driver Station (DS) アプリで利用できます。また、AprilTag の機能は、カスタム myBlocks を必要とせずに**FTC"
+" Blocks** に含まれています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:26
 msgid "myBlocks: custom Blocks created in OnBot Java (OBJ)"
 msgstr ""
+"AprilTag の機能は、ウェブカメラと Android RC フォンカメラの両方で動作します。\n"
+"単一の OpMode で AprilTag と Color Processing を使用できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:28
 msgid ""
 "Now these three areas are provided, or bundled, in the *FIRST* **Tech "
 "Challenge Software Development Kit (SDK), starting with version 8.2**."
 msgstr ""
+"AprilTag の機能は、ウェブカメラと Android RC フォンカメラの両方で動作します。\n"
+"単一の OpMode で AprilTag と Color Processing を使用できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:31
 msgid ""
-"Namely, key capabilities of **AprilTag** and **EasyOpenCV** are available"
-" to the Robot Controller (RC) and Driver Station (DS) apps, without "
-"special downloads. And AprilTag features are included in **FTC Blocks**, "
-"without needing custom myBlocks."
-msgstr ""
+"Namely, key capabilities of **AprilTag** and **EasyOpenCV** are available to"
+" the Robot Controller (RC) and Driver Station (DS) apps, without special "
+"downloads. And AprilTag features are included in **FTC Blocks**, without "
+"needing custom myBlocks."
+msgstr "AprilTag とは？"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:36
 msgid ""
 "The AprilTag features work on webcams and on Android RC phone cameras. A "
 "single OpMode can use AprilTag and Color Processing."
 msgstr ""
+"`ミシガン大学 <https://april.eecs.umich.edu/software/apriltag>`__ で開発された AprilTag "
+"は、2D バーコードまたは簡略化された QR コードのようなものです。数値の **ID コード** を含み、** 位置と方向** の特定に使用できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:39
 msgid "In *FIRST* Tech Challenge, AprilTag is ready for the spotlight!"
 msgstr ""
+"AprilTag は **視覚的フィデューシャル（visual fiducial）** "
+"またはフィデューシャルマーカーの一種で、情報を含み、簡単に認識できるように設計されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:42
 msgid "What is AprilTag?"
@@ -95,287 +114,368 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:44
 msgid ""
 "Developed at the `University of Michigan "
-"<https://april.eecs.umich.edu/software/apriltag>`__, AprilTag is like a "
-"2D barcode or a simplified QR Code. It contains a numeric **ID code** and"
-" can be used for **location and orientation**."
+"<https://april.eecs.umich.edu/software/apriltag>`__, AprilTag is like a 2D "
+"barcode or a simplified QR Code. It contains a numeric **ID code** and can "
+"be used for **location and orientation**."
 msgstr ""
+"AprilTag は **視覚的フィデューシャル（visual fiducial）** "
+"またはフィデューシャルマーカーの一種で、情報を含み、簡単に認識できるように設計されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:54
 msgid "AprilTag Robots"
 msgstr ""
+"*FIRST* Tech Challenge では、**36h11** と呼ばれる一般的なファミリーを使用します。36h11 ファミリーの 0 から "
+"20 までの番号を示す PDF は、ここからダウンロードできます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:54
 msgid "AprilTags on Robots. Photo Credit: University of Michigan"
 msgstr ""
+"*FIRST* Tech Challenge では、**36h11** と呼ばれる一般的なファミリーを使用します。36h11 ファミリーの 0 から "
+"20 までの番号を示す PDF は、ここからダウンロードできます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:56
 msgid ""
-"AprilTag is a type of **visual fiducial**, or fiducial marker, containing"
-" information and designed for easy recognition."
+"AprilTag is a type of **visual fiducial**, or fiducial marker, containing "
+"information and designed for easy recognition."
 msgstr ""
+"*FIRST* Tech Challenge では、**36h11** と呼ばれる一般的なファミリーを使用します。36h11 ファミリーの 0 から "
+"20 までの番号を示す PDF は、ここからダウンロードできます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:64
 msgid "Tag Families"
 msgstr ""
+"以下は **ID コード 2** を表す AprilTag です。SDK ソフトウェアは、ID "
+"コードを認識し、画像にオーバーレイ表示します（小さな青い矩形**ID 02** ）。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:64
 msgid "A sample of different AprilTag families"
 msgstr ""
+"以下は **ID コード 2** を表す AprilTag です。SDK ソフトウェアは、ID "
+"コードを認識し、画像にオーバーレイ表示します（小さな青い矩形**ID 02** ）。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:66
 msgid ""
-"The above samples represent different formats, or **families**. A project"
-" typically uses a single AprilTag family."
+"The above samples represent different formats, or **families**. A project "
+"typically uses a single AprilTag family."
 msgstr ""
+"上記の画像は、Robot Controller デバイス（Control Hub または RC フォン）からのカメラプレビュー画像（LiveView "
+"と呼ばれる）を示しています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:69
 msgid ""
-"*FIRST* Tech Challenge uses a common family called **36h11**. A PDF "
-"showing the numbers 0 through 20 from the 36h11 family can be downloaded "
-"here:"
+"*FIRST* Tech Challenge uses a common family called **36h11**. A PDF showing "
+"the numbers 0 through 20 from the 36h11 family can be downloaded here:"
 msgstr ""
+"上記の画像は、Robot Controller デバイス（Control Hub または RC フォン）からのカメラプレビュー画像（LiveView "
+"と呼ばれる）を示しています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:72
 msgid ":download:`AprilTag PDF 0-20 <files/AprilTag_0-20_family36h11.pdf>`"
 msgstr ""
+"AprilTag ファミリー 36h11 には、587 個の ID コードの容量があります。すべてを見るには、次のリンクをたどってください："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:74
 msgid "Each number is the ID code of that tag."
 msgstr ""
+"AprilTag ファミリー 36h11 には、587 個の ID コードの容量があります。すべてを見るには、次のリンクをたどってください："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:76
 msgid ""
-"Here’s an AprilTag representing **ID code 2**. The SDK software "
-"recognizes and overlays the ID code onto the image (small blue rectangle "
-"**ID 02**)."
+"Here’s an AprilTag representing **ID code 2**. The SDK software recognizes "
+"and overlays the ID code onto the image (small blue rectangle **ID 02**)."
 msgstr ""
+"正方形の AprilTag パターンには、より小さな黒と白の正方形が含まれており、それぞれが **ピクセル** と呼ばれます。36h11 タグには、10"
+" x 10 ピクセルが含まれており、**すべて白いピクセル** の外側の境界線と、**すべて黒いピクセル** の内側の境界線が含まれます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:85
 msgid "Tag02 Preview"
-msgstr ""
+msgstr "AprilTag ポーズ"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:85
 msgid "Stream output showing the detected tag ID 02"
-msgstr ""
+msgstr "AprilTag ポーズ"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:87
 msgid ""
-"The above image shows a camera preview image, called LiveView, from a "
-"Robot Controller device (Control Hub or RC phone)."
+"The above image shows a camera preview image, called LiveView, from a Robot "
+"Controller device (Control Hub or RC phone)."
 msgstr ""
+"上記の画像は、外側の白い境界線を持つ完全な AprilTag を示しています。36h11 ファミリーから、その ID コードは 42 です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:90
 msgid ""
-"The AprilTag family 36h11 has a capacity of 587 ID codes. To see them "
-"all, follow this link:"
-msgstr ""
+"The AprilTag family 36h11 has a capacity of 587 ID codes. To see them all, "
+"follow this link:"
+msgstr "AprilTag ポーズ"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:93
-msgid "https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/us_letter/100mm"
+msgid ""
+"https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/us_letter/100mm"
 msgstr ""
+"Robot Controller デバイス（Control Hub または RC フォン）からのカメラプレビュー画像（LiveView "
+"と呼ばれる）をもう一度見てみましょう。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:95
 msgid ""
-"The square AprilTag pattern contains smaller black and white squares, "
-"each called a **pixel**. A 36h11 tag contains 10 x 10 pixels, including "
-"an outer border of **all white pixels** and an inner border of **all "
-"black pixels**."
+"The square AprilTag pattern contains smaller black and white squares, each "
+"called a **pixel**. A 36h11 tag contains 10 x 10 pixels, including an outer "
+"border of **all white pixels** and an inner border of **all black pixels**."
 msgstr ""
+"Robot Controller デバイス（Control Hub または RC フォン）からのカメラプレビュー画像（LiveView "
+"と呼ばれる）をもう一度見てみましょう。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:100
 msgid ""
 "**Tag size** is measured across the outside edge of the **inner border** "
 "which comprises the black pixels for 36h11."
 msgstr ""
+"カメラレンズの中心からまっすぐ外側を指すレーザービームを想像してください。その 3 次元パスは（カメラから見て）**緑色の星** "
+"で示される単一の点として表示されます。AprilTag の中心（**黄色の星** ）がその「レーザービーム」からオフセットされていることがわかります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:108
 msgid "Tag Size"
 msgstr ""
+"-  X 距離（水平のオレンジ色の線）は中心から右方向です\n"
+"-  Y 距離（表示されていません）はレンズの中心から外側です\n"
+"-  Z 距離（垂直のオレンジ色の線）は中心から上方向です"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:108
 msgid "Figure demonstrating the tag size measurement"
 msgstr ""
+"-  X 距離（水平のオレンジ色の線）は中心から右方向です\n"
+"-  Y 距離（表示されていません）はレンズの中心から外側です\n"
+"-  Z 距離（垂直のオレンジ色の線）は中心から上方向です"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:110
 msgid ""
-"The above image shows a complete AprilTag with outer white border. From "
-"the 36h11 family, its ID code is 42."
-msgstr ""
+"The above image shows a complete AprilTag with outer white border. From the "
+"36h11 family, its ID code is 42."
+msgstr "SDK は、これらの距離を画面上のピクセル数を報告するだけでなく、**実世界で** 提供します。非常に便利です！"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:114
 msgid "AprilTag Pose"
 msgstr ""
+"要約すると、SDK は AprilTag 画像を評価し、**「ポーズ推定」** を実行し、タグとカメラ間の推定 X、Y、Z**距離** "
+"と、これらの軸を中心とした推定回転**角度** を提供します。より近いまたはより大きな AprilTag "
+"は、より正確なポーズ推定をもたらすことができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:116
 msgid ""
-"Beyond ID code, the new SDK also provides **pose** data, namely position "
-"and orientation (rotation) from the **camera’s point of view**.  This "
-"requires a **flat AprilTag**, which was not possible with curved "
-"POWERPLAY Signal Sleeves."
+"Beyond ID code, the new SDK also provides **pose** data, namely position and"
+" orientation (rotation) from the **camera’s point of view**.  This requires "
+"a **flat AprilTag**, which was not possible with curved POWERPLAY Signal "
+"Sleeves."
 msgstr ""
+"良好なポーズ推定を提供するために、各 RC フォンカメラまたはウェブカメラには、特定の解像度に対する **キャリブレーションデータ** "
+"が必要です。SDK "
+"には、限られた数のウェブカメラと解像度のためのそのようなデータが含まれています。チームは、提供された手順を使用して、**レンズ固有パラメーター** "
+"と呼ばれる独自のデータを生成できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:121
 msgid ""
-"Let’s look again at the camera preview image, called LiveView, from a "
-"Robot Controller device (Control Hub or RC phone)."
-msgstr ""
+"Let’s look again at the camera preview image, called LiveView, from a Robot "
+"Controller device (Control Hub or RC phone)."
+msgstr "OpMode はナビゲーションを実現するために AprilTag ポーズを使用します：入力を評価し、目的地まで走行します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:129
 msgid "LiveView Image"
 msgstr ""
+"ナビゲーションには、駆動モーターエンコーダー、REV Hub "
+"IMU、デッドホイールエンコーダー、カラー/距離センサー、超音波センサーなど、他のセンサーも使用できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:129
 msgid "LiveView Image with additional markings for explanation purposes"
 msgstr ""
+"ナビゲーションには、駆動モーターエンコーダー、REV Hub "
+"IMU、デッドホイールエンコーダー、カラー/距離センサー、超音波センサーなど、他のセンサーも使用できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:131
 msgid ""
-"Imagine a laser beam pointing straight outward from the center of the "
-"camera lens. Its 3-dimensional path appears (to the camera) as a single "
-"point, indicated by the **green star**. You can see that the center of "
-"the AprilTag (**yellow star**) is offset from that “laser beam”."
+"Imagine a laser beam pointing straight outward from the center of the camera"
+" lens. Its 3-dimensional path appears (to the camera) as a single point, "
+"indicated by the **green star**. You can see that the center of the AprilTag"
+" (**yellow star**) is offset from that “laser beam”."
 msgstr ""
+"同じカメラおよび/または2番目のカメラから **非 AprilTag 画像** を評価することも可能です。たとえば、SDK は、*FIRST* Tech"
+" Challenge で採用されているもう1つのビジョン技術である **Color Processing** "
+"で検出されたオブジェクトの水平角度（またはベアリング）を推定できます。高度なチームは、AprilTag "
+"または他のオブジェクトを視野内に保つために、アクティブカメラポインティング制御を検討するかもしれません。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:136
 msgid ""
-"That **translation offset** can break down into three traditional "
-"components (X, Y and Z distances), along axes at 90 degrees to each "
-"other:"
+"That **translation offset** can break down into three traditional components"
+" (X, Y and Z distances), along axes at 90 degrees to each other:"
 msgstr ""
+"プレビュー（RC フォン画面または DS Camera Stream）では、公式に認識された AprilTag は **色付きの境界線** "
+"とその数値**ID コード** を表示します。これらの** アノテーション** により、認識を視覚的に簡単に確認できます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:139
 msgid "X distance (horizontal orange line) is from the center, to the right"
 msgstr ""
+"プレビュー（RC フォン画面または DS Camera Stream）では、公式に認識された AprilTag は **色付きの境界線** "
+"とその数値**ID コード** を表示します。これらの** アノテーション** により、認識を視覚的に簡単に確認できます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:140
 msgid "Y distance (not shown) is from the lens center, outwards"
 msgstr ""
+"プレビュー（RC フォン画面または DS Camera Stream）では、公式に認識された AprilTag は **色付きの境界線** "
+"とその数値**ID コード** を表示します。これらの** アノテーション** により、認識を視覚的に簡単に確認できます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:141
 msgid "Z distance (vertical orange line) is from the center, upwards"
 msgstr ""
+"上記の :ref:`DS Camera Stream "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"external-webcam:image preview>` プレビューでは、左側の AprilTag はタグ **ライブラリ** "
+"（デフォルトまたはカスタマイズ）から認識されました。ライブラリタグには、タグサイズを含む事前にロードされた情報（**メタデータ** "
+"と呼ばれる）があり、**ポーズ推定** を可能にします。これらはデフォルトで**色付きの境界線** でアノテーションされます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:143
 msgid ""
-"The SDK provides these distances **in the real world**, not just "
-"reporting how many pixels on the screen. Very useful!"
+"The SDK provides these distances **in the real world**, not just reporting "
+"how many pixels on the screen. Very useful!"
 msgstr ""
+"上記の :ref:`DS Camera Stream "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"external-webcam:image preview>` プレビューでは、左側の AprilTag はタグ **ライブラリ** "
+"（デフォルトまたはカスタマイズ）から認識されました。ライブラリタグには、タグサイズを含む事前にロードされた情報（**メタデータ** "
+"と呼ばれる）があり、**ポーズ推定** を可能にします。これらはデフォルトで**色付きの境界線** でアノテーションされます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:146
 msgid ""
-"You can also see that the AprilTag’s flat face is not parallel to the "
-"plane of the camera. That **rotation offset** can break down into three "
-"angles about the X, Y and Z axes. This is discussed further in the "
-"section below, called **AprilTag Axes**."
+"You can also see that the AprilTag’s flat face is not parallel to the plane "
+"of the camera. That **rotation offset** can break down into three angles "
+"about the X, Y and Z axes. This is discussed further in the section below, "
+"called **AprilTag Axes**."
 msgstr ""
+"上記の :ref:`DS Camera Stream "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"external-webcam:image preview>` プレビューでは、左側の AprilTag はタグ **ライブラリ** "
+"（デフォルトまたはカスタマイズ）から認識されました。ライブラリタグには、タグサイズを含む事前にロードされた情報（**メタデータ** "
+"と呼ばれる）があり、**ポーズ推定** を可能にします。これらはデフォルトで**色付きの境界線** でアノテーションされます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:151
 msgid ""
 "In summary, the SDK evaluates the AprilTag image and performs **“pose "
-"estimation”**, providing an estimated X, Y and Z **distance** between the"
-" tag and the camera, along with an estimated **angle** of rotation around"
-" those axes. A closer or larger AprilTag can yield a more accurate "
-"estimate of pose."
+"estimation”**, providing an estimated X, Y and Z **distance** between the "
+"tag and the camera, along with an estimated **angle** of rotation around "
+"those axes. A closer or larger AprilTag can yield a more accurate estimate "
+"of pose."
 msgstr ""
+"注：**Camera Stream** は、Driver Station デバイスにカメラのビューのスナップショットを表示します。OpMode の "
+"INIT フェーズ中にのみ利用可能で、AprilTag（または Color "
+"Processing）アノテーションも表示されます。手順はここに掲載されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:156
 msgid ""
 "To provide good pose estimates, each RC phone camera or webcam requires "
-"**calibration data**, for a specific resolution. The SDK contains such "
-"data for a limited number of webcams and resolutions. Teams can generate "
-"their own data, called **lens intrinsics**, using a provided procedure."
-msgstr ""
+"**calibration data**, for a specific resolution. The SDK contains such data "
+"for a limited number of webcams and resolutions. Teams can generate their "
+"own data, called **lens intrinsics**, using a provided procedure."
+msgstr "オプションのアノテーションには、タグ中心の **色付き軸** と、タグ画像から投影される**色付きボックス** が含まれます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:162
 msgid "Navigation"
 msgstr ""
+"上記の画像は、Android Robot Controller (RC) フォン上のプレビュー（LiveView と呼ばれる）を示しています。REV "
+"Control Hub は RC プレビューを生成しますが、HDMI 外部モニターまたは ``scrcpy`` "
+"で見ることができます。``scrcpy`` はここで見つけることができます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:164
 msgid ""
-"OpModes use AprilTag pose to achieve **navigation**: evaluating inputs "
-"and driving to a destination."
+"OpModes use AprilTag pose to achieve **navigation**: evaluating inputs and "
+"driving to a destination."
 msgstr ""
+"上記の画像は、Android Robot Controller (RC) フォン上のプレビュー（LiveView と呼ばれる）を示しています。REV "
+"Control Hub は RC プレビューを生成しますが、HDMI 外部モニターまたは ``scrcpy`` "
+"で見ることができます。``scrcpy`` はここで見つけることができます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:167
 msgid ""
-"An OpMode can use pose data to drive towards the tag, or drive to a "
-"target position and orientation **relative to the tag**. (The new SDK "
-"provides Java **Sample OpModes** ``RobotAutoDriveToAprilTagOmni.java`` "
-"and ``RobotAutoDriveToAprilTagTank.java``.) Another navigation "
-"possibility is mentioned below under **Advanced Use**."
-msgstr ""
+"An OpMode can use pose data to drive towards the tag, or drive to a target "
+"position and orientation **relative to the tag**. (The new SDK provides Java"
+" **Sample OpModes** ``RobotAutoDriveToAprilTagOmni.java`` and "
+"``RobotAutoDriveToAprilTagTank.java``.) Another navigation possibility is "
+"mentioned below under **Advanced Use**."
+msgstr "AprilTag 軸"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:173
 msgid ""
-"Navigation is best done with **continuous** pose estimates, if the "
-"AprilTag remains within the camera’s field of view. Namely, an OpMode "
-"“**while() loop**” should regularly read the updated pose data, to guide "
-"the robot’s driving actions."
+"Navigation is best done with **continuous** pose estimates, if the AprilTag "
+"remains within the camera’s field of view. Namely, an OpMode “**while() "
+"loop**” should regularly read the updated pose data, to guide the robot’s "
+"driving actions."
 msgstr ""
+"-  位置は、**カメラレンズから AprilTag** への X、Y、Z 距離に基づいています。\n"
+"-  方向は、右手の法則を使用して、これらの軸を中心とした回転に基づいています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:178
 msgid ""
-"The SDK supports **multiple cameras**, switchable or simultaneous.  This "
-"can help if the robot changes direction, or you wish to navigate using "
-"another AprilTag (or Color Processing)."
+"The SDK supports **multiple cameras**, switchable or simultaneous.  This can"
+" help if the robot changes direction, or you wish to navigate using another "
+"AprilTag (or Color Processing)."
 msgstr ""
+"- Y 軸はカメラレンズの中心から **まっすぐ外側** を指します\n"
+"- X 軸は Y 軸に垂直に **右方向** を指します\n"
+"- Z 軸は Y と X に垂直に **上方向** を指します"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:182
 msgid ""
-"Other sensors can also be used for navigation, such as drive motor "
-"encoders, REV Hub IMU, deadwheel encoders, color/distance sensors, "
-"ultrasonic sensors, and more."
-msgstr ""
+"Other sensors can also be used for navigation, such as drive motor encoders,"
+" REV Hub IMU, deadwheel encoders, color/distance sensors, ultrasonic "
+"sensors, and more."
+msgstr "カメラがロボット上で直立して前方を向いている場合、これらの軸は次のために使用されるロボット座標系と一致しています"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:186
 msgid ""
-"It’s also possible to evaluate **non-AprilTag images** from the same "
-"camera and/or a second camera. For example, the SDK can estimate the "
-"horizontal angle (or Bearing) of an object detected with **Color "
-"Processing**, another vision technology employed in *FIRST* Tech "
-"Challenge. Advanced teams might consider active camera pointing control, "
-"to keep an AprilTag or other object in view."
-msgstr ""
+"It’s also possible to evaluate **non-AprilTag images** from the same camera "
+"and/or a second camera. For example, the SDK can estimate the horizontal "
+"angle (or Bearing) of an object detected with **Color Processing**, another "
+"vision technology employed in *FIRST* Tech Challenge. Advanced teams might "
+"consider active camera pointing control, to keep an AprilTag or other object"
+" in view."
+msgstr "注：これらの軸は、カメラの参照フレームからでも、公式 AprilTag"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:193
 msgid "Annotations"
-msgstr ""
+msgstr "回転は、伝統的な右手の法則に従います：親指が正の軸に沿って指している状態で、指は正の回転の方向に巻き付きます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:195
 msgid ""
-"In the preview (RC phone screen or DS Camera Stream), an official "
-"recognized AprilTag will display a **colored border** and its numeric "
-"**ID code**. These **annotations** allow easy visual confirmation of "
-"recognition:"
-msgstr ""
+"In the preview (RC phone screen or DS Camera Stream), an official recognized"
+" AprilTag will display a **colored border** and its numeric **ID code**. "
+"These **annotations** allow easy visual confirmation of recognition:"
+msgstr "さらなる議論はここで提供されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:204
 msgid "Simple Annotations"
-msgstr ""
+msgstr "OpMode は、ナビゲーションのためにロボットの方向を全体のフィールドまたは"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:204
 msgid ""
 "Two AprilTags with different metadata being detected and annotations "
 "displayed"
-msgstr ""
+msgstr "OpMode は、ナビゲーションのためにロボットの方向を全体のフィールドまたは"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:206
 msgid ""
 "In the above :ref:`DS Camera Stream "
-"<hardware_and_software_configuration/configuring/configuring_external_webcam"
-"/configuring-external-webcam:image preview>` preview, the left-side "
-"AprilTag was recognized from a tag **Library** (default or customized). A"
-" Library tag has pre-loaded information (called **Metadata**) including "
-"its tag size, which allows **pose estimation**. These are annotated by "
-"default with a **colored border**."
-msgstr ""
+"<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"external-webcam:image preview>` preview, the left-side AprilTag was "
+"recognized from a tag **Library** (default or customized). A Library tag has"
+" pre-loaded information (called **Metadata**) including its tag size, which "
+"allows **pose estimation**. These are annotated by default with a **colored "
+"border**."
+msgstr "高度な使用法"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:212
 msgid ""
-"The right-side AprilTag was not in a tag Library. It has no Metadata, so "
-"the SDK can provide only its numeric **ID code**, shown here as **ID "
-"03**. Such tags are **not** annotated by default with a colored border."
+"The right-side AprilTag was not in a tag Library. It has no Metadata, so the"
+" SDK can provide only its numeric **ID code**, shown here as **ID 03**. Such"
+" tags are **not** annotated by default with a colored border."
 msgstr ""
+"タグの **ゲームフィールド上の** 位置と方向が事前に指定されている場合、タグのポーズデータは、高度な OpMode によって使用されて、フィールド上のロボットの位置を計算できます。この変換計算は、読者への演習として、リアルタイムでタグのポーズデータを使用してロボットがフィールド上の目的の場所にナビゲートすることを可能にします。\n"
+"**オプション 2**"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:216
 msgid ""
@@ -384,39 +484,50 @@ msgid ""
 "OpMode, and also shows any AprilTag (or Color Processing) annotations. "
 "Instructions are posted here:"
 msgstr ""
+"- カメラの解像度を選択\n"
+"- RC プレビュー（LiveView と呼ばれる）を無効化および有効化\n"
+"- AprilTag（または Color Processing）プロセッサを無効化および有効化\n"
+"- カメラストリームを閉じる\n"
+"- 圧縮されたビデオストリーミング形式を選択\n"
+"- フレーム/秒を測定\n"
+"- デシメーション（ダウンサンプリング）を設定\n"
+"- ポーズソルバーアルゴリズムを選択"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:220
 msgid ""
 ":ref:`Camera Stream Image Preview Documentation "
-"<hardware_and_software_configuration/configuring/configuring_external_webcam"
-"/configuring-external-webcam:image preview>`"
-msgstr ""
+"<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"external-webcam:image preview>`"
+msgstr "**オプション 3**"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:222
 msgid ""
 "Optional annotations include **colored axes** at the tag center, and a "
 "**colored box** projecting from the tag image:"
-msgstr ""
+msgstr "**オプション 3**"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:230
 msgid "Optional Annotations"
-msgstr ""
+msgstr "**オプション 4**"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:230
 msgid "LiveView with additional annotations enabled"
-msgstr ""
+msgstr "**オプション 4**"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:232
 msgid ""
 "The above image shows a preview (called LiveView) on an Android Robot "
 "Controller (RC) phone. The REV Control Hub does generate an RC preview, "
-"which can be seen with an HDMI external monitor, or with ``scrcpy`` which"
-" can be found here:"
+"which can be seen with an HDMI external monitor, or with ``scrcpy`` which "
+"can be found here:"
 msgstr ""
+"上記の **AprilTag 軸** で説明した参照フレームは、8.2 SDK "
+"以降でデフォルトで計算および提供されます。高度なチームは、AprilTag/EasyOpenCV パイプラインからの** 生の値** "
+"に基づいて、独自のポーズ計算を実行することを好むかもしれません。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:237
 msgid "https://github.com/Genymobile/scrcpy"
-msgstr ""
+msgstr "これらの生の値は、Java と Blocks プログラマーが利用できます。Java バージョンはここに示されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:240
 msgid "AprilTag Axes"
@@ -440,39 +551,39 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:249
 msgid ""
-"Note: the optional red-green-blue annotated axes represent the **tag’s "
-"frame of reference**, unrelated to SDK pose data. That annotation "
-"indicates only a successful AprilTag recognition."
-msgstr ""
+"Note: the optional red-green-blue annotated axes represent the **tag’s frame"
+" of reference**, unrelated to SDK pose data. That annotation indicates only "
+"a successful AprilTag recognition."
+msgstr "これらの生の値は、SDK によって次のようにデフォルトのインターフェースに変換されます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:253
 msgid "Here are the axis designations in the new SDK:"
-msgstr ""
+msgstr "これらの生の値は、SDK によって次のようにデフォルトのインターフェースに変換されます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:255
 msgid "Y axis points **straight outward** from the camera lens center"
-msgstr ""
+msgstr "これらの生の値は、SDK によって次のようにデフォルトのインターフェースに変換されます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:256
 msgid "X axis points **to the right**, perpendicular to the Y axis"
-msgstr ""
+msgstr "これらの生の値は、SDK によって次のようにデフォルトのインターフェースに変換されます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:257
 msgid "Z axis points **upward**, perpendicular to Y and X"
-msgstr ""
+msgstr "これらの生の値は、SDK によって次のようにデフォルトのインターフェースに変換されます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:259
 msgid ""
-"If the camera is upright and pointing forward on the robot, these axes "
-"are consistent with the Robot Coordinate System used for :ref:`IMU "
-"navigation <programming_resources/imu/imu:axes definition>`."
+"If the camera is upright and pointing forward on the robot, these axes are "
+"consistent with the Robot Coordinate System used for :ref:`IMU navigation "
+"<programming_resources/imu/imu:axes definition>`."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:263
 msgid ""
 "Note: these axes are different than the official AprilTag `definitions "
-"<https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-Guide"
-"#coordinate-system>`__, even from the camera’s frame of reference."
+"<https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-"
+"Guide#coordinate-system>`__, even from the camera’s frame of reference."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:267
@@ -481,26 +592,26 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:269
 msgid "**Pitch** is the measure of rotation about the X axis"
-msgstr ""
+msgstr "再度、さらなる議論はここで提供されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:270
 msgid "**Roll** is the measure of rotation about the Y axis"
-msgstr ""
+msgstr "再度、さらなる議論はここで提供されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:271
 msgid "Heading, or **Yaw**, is the measure of rotation about the Z axis"
-msgstr ""
+msgstr "再度、さらなる議論はここで提供されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:273
 msgid ""
-"Rotation follows the traditional right-hand rule: with the thumb pointing"
-" along the positive axis, the fingers curl in the direction of positive "
+"Rotation follows the traditional right-hand rule: with the thumb pointing "
+"along the positive axis, the fingers curl in the direction of positive "
 "rotation."
-msgstr ""
+msgstr "再度、さらなる議論はここで提供されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:277
 msgid "Further discussion is provided here:"
-msgstr ""
+msgstr "まとめ"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:279
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:376
@@ -508,60 +619,63 @@ msgid ""
 ":ref:`Understanding AprilTag Detection Values "
 "<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
 "detection-values:understanding apriltag detection values>`"
-msgstr ""
+msgstr "まとめ"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:281
 msgid ""
-"Note: This article does not discuss the *FIRST* Tech Challenge "
-":ref:`Field Coordinate System "
-"<game_specific_resources/field_coordinate_system/field-coordinate-"
-"system:scope>`."
-msgstr ""
+"Note: This article does not discuss the *FIRST* Tech Challenge :ref:`Field "
+"Coordinate System <game_specific_resources/field_coordinate_system/field-"
+"coordinate-system:scope>`."
+msgstr "AprilTag は、QR コードに似たスキャン画像を使用する、人気のあるカメラベースの技術です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:284
 msgid ""
 "Your OpModes might relate robot orientation to the overall field or "
 ":download:`‘global coordinates’ <files/FTC-Global-Coordinates.png>` for "
 "navigation, but that’s beyond this AprilTag introduction."
-msgstr ""
+msgstr "デフォルトでは、SDK は 36h11 ファミリーの任意の AprilTag の ID コードを検出できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:289
 msgid "Advanced Use"
 msgstr ""
+"AprilTag 機能は、Android RC フォンカメラとウェブカメラで動作します。各カメラは、良好なポーズ推定を提供するために、特定の解像度の "
+"**キャリブレーションデータ** を必要とします。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:291
 msgid "**Option 1**"
 msgstr ""
+"複数のカメラがサポートされており、単一の OpMode で AprilTag と Color Processing を使用できます。AprilTag "
+"検出は、FTC Blocks でも利用可能なウェブカメラカメラコントロールで改善されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:293
 msgid ""
-"If a tag’s position and orientation **on the game field** are specified "
-"in advance, the tag’s pose data could be used by an advanced OpMode to "
+"If a tag’s position and orientation **on the game field** are specified in "
+"advance, the tag’s pose data could be used by an advanced OpMode to "
 "calculate the robot’s position on the field. This conversion math, an "
 "exercise for the reader, can allow a robot to use the tag’s pose data in "
 "real-time to navigate to the desired location on the field."
-msgstr ""
+msgstr "***FIRST* Tech Challenge において、AprilTag は CENTERSTAGE を飾る準備ができています！**"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:299
 msgid "**Option 2**"
-msgstr ""
+msgstr "謝辞:"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:301
 msgid ""
 "Vision processing can consume significant **CPU resources** and USB "
-"communications **bandwidth**. *FIRST* Tech Challenge teams may balance "
-"the benefits of higher resolution and speed (frames-per-second) against "
-"the risk of overloading CPU and bandwidth resources. The SDK 8.2 or later"
-" provides numerous tools to manage this balance:"
-msgstr ""
+"communications **bandwidth**. *FIRST* Tech Challenge teams may balance the "
+"benefits of higher resolution and speed (frames-per-second) against the risk"
+" of overloading CPU and bandwidth resources. The SDK 8.2 or later provides "
+"numerous tools to manage this balance:"
+msgstr "質問、コメント、訂正は westsiderobotics@verizon.net までお寄せください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:307
 msgid "select the camera resolution"
-msgstr ""
+msgstr "質問、コメント、訂正は westsiderobotics@verizon.net までお寄せください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:308
 msgid "disable and enable the RC preview (called LiveView)"
-msgstr ""
+msgstr "質問、コメント、訂正は westsiderobotics@verizon.net までお寄せください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:309
 msgid "disable and enable the AprilTag (or Color Processing) processor"
@@ -601,8 +715,8 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:323
 msgid ""
-"Exposure and Gain are adjusted together. The SDK offers Java Sample "
-"OpMode ``ConceptAprilTagOptimizeExposure.java``."
+"Exposure and Gain are adjusted together. The SDK offers Java Sample OpMode "
+"``ConceptAprilTagOptimizeExposure.java``."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:326
@@ -611,10 +725,10 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:328
 msgid ""
-"The frame of reference described above in **AprilTag Axes** is calculated"
-" and provided by default in the 8.2 SDK or later. Advanced teams may "
-"prefer to perform their own pose calculations, based on **raw values** "
-"from the AprilTag/EasyOpenCV pipeline."
+"The frame of reference described above in **AprilTag Axes** is calculated "
+"and provided by default in the 8.2 SDK or later. Advanced teams may prefer "
+"to perform their own pose calculations, based on **raw values** from the "
+"AprilTag/EasyOpenCV pipeline."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:333
@@ -639,16 +753,16 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:381
 msgid ""
-"AprilTag is a popular camera-based technology, using a scanned image "
-"similar to a QR Code."
+"AprilTag is a popular camera-based technology, using a scanned image similar"
+" to a QR Code."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:384
 msgid ""
 "The SDK version 8.2 or later includes key capabilities of AprilTag and "
 "EasyOpenCV, a *FIRST* Tech Challenge-optimized interface with OpenCV for "
-"image processing. These methods are packaged for convenient use by **Java"
-" and Blocks programmers**."
+"image processing. These methods are packaged for convenient use by **Java "
+"and Blocks programmers**."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:389
@@ -660,16 +774,15 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:392
 msgid ""
 "For AprilTags in a default or custom tag Library, the interface provides "
-"calculated **pose** estimates (position and rotation) from the **camera’s"
-" frame of reference**. The source data is also available for advanced "
-"teams."
+"calculated **pose** estimates (position and rotation) from the **camera’s "
+"frame of reference**. The source data is also available for advanced teams."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:397
 msgid ""
-"The AprilTag features work on Android RC phone cameras, and on webcams. "
-"Each camera requires **calibration data**, for a specific resolution, to "
-"provide good pose estimates."
+"The AprilTag features work on Android RC phone cameras, and on webcams. Each"
+" camera requires **calibration data**, for a specific resolution, to provide"
+" good pose estimates."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:401
@@ -680,7 +793,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:405
-msgid "**In** *FIRST* **Tech Challenge, AprilTag is ready to take CENTERSTAGE!**"
+msgid ""
+"**In** *FIRST* **Tech Challenge, AprilTag is ready to take CENTERSTAGE!**"
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:409
@@ -696,7 +810,8 @@ msgid "FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__"
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:413
-msgid "FTC navigation expert `@gearsincorg <https://github.com/gearsincorg>`__"
+msgid ""
+"FTC navigation expert `@gearsincorg <https://github.com/gearsincorg>`__"
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:414
@@ -708,4 +823,3 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:416
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
 msgstr ""
-

@@ -12,58 +12,72 @@ msgstr ""
 "POT-Creation-Date: 2025-12-14 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:2
 msgid "Controlling a Servo :bdg-warning:`Blocks`"
-msgstr ""
+msgstr "サーボの制御 :bdg-warning:`Blocks`"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:4
 msgid ""
 "In the section titled :doc:`Creating an Op Mode with Blocks "
-"<../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` you learned "
-"how to use the Blocks Programming Tool to write an op mode that controls "
-"a 12V DC motor. In this section, you will learn how to write an op mode "
-"that controls a servo motor."
+"<../creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks>` you learned how "
+"to use the Blocks Programming Tool to write an op mode that controls a 12V "
+"DC motor. In this section, you will learn how to write an op mode that "
+"controls a servo motor."
 msgstr ""
+":doc:`Blocks で Op Mode を作成する <../creating_op_modes/Writing-an-Op-Mode-with-"
+"FTC-Blocks>` セクションでは、**Blocks** プログラミングツールを使用して12V DCモーターを制御する**Op Mode** "
+"を作成する方法を学びました。このセクションでは、サーボモーターを制御する**Op Mode** を作成する方法を学びます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:11
 msgid "What is a Servo Motor?"
 msgstr ""
+"以下の図では、「標準スケール」の180度サーボが示されています。このタイプのサーボは、ホビイストや **FIRST Tech Challenge** "
+"チームに人気があります。このサーボモーターは、シャフトを180度の範囲で回転させることができます。サーボコントローラーとして知られる電子モジュールを使用すると、サーボモーターを特定の位置に移動させる**Op"
+" Mode** を作成できます。モーターがこのターゲット位置に到達すると、サーボのシャフトに外力が加えられても、その位置を保持します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:13
 msgid ""
 "A servo motor is a special type of motor that is designed for precise "
 "motion. A typical servo motor has a limited range of motion."
 msgstr ""
+"以下の図では、「標準スケール」の180度サーボが示されています。このタイプのサーボは、ホビイストや **FIRST Tech Challenge** "
+"チームに人気があります。このサーボモーターは、シャフトを180度の範囲で回転させることができます。サーボコントローラーとして知られる電子モジュールを使用すると、サーボモーターを特定の位置に移動させる**Op"
+" Mode** を作成できます。モーターがこのターゲット位置に到達すると、サーボのシャフトに外力が加えられても、その位置を保持します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:16
 msgid ""
-"In the figure below, a \"standard scale\" 180-degree servo is shown. This"
-" type of servo is popular with hobbyists and with FIRST Tech Challenge "
-"teams. This servo motor can rotate its shaft through a range of 180 "
-"degrees. Using an electronic module known as a servo controller you can "
-"write an op mode that will move a servo motor to a specific position. "
-"Once the motor reaches this target position, it will hold the position, "
-"even if external forces are applied to the shaft of the servo."
+"In the figure below, a \"standard scale\" 180-degree servo is shown. This "
+"type of servo is popular with hobbyists and with FIRST Tech Challenge teams."
+" This servo motor can rotate its shaft through a range of 180 degrees. Using"
+" an electronic module known as a servo controller you can write an op mode "
+"that will move a servo motor to a specific position. Once the motor reaches "
+"this target position, it will hold the position, even if external forces are"
+" applied to the shaft of the servo."
 msgstr ""
+"サーボモーターは、精密な動きをしたい場合に便利です（たとえば、ターゲットを探すためにセンサーでエリアをスイープしたり、遠隔操作の飛行機の制御面を動かしたりする場合など）。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:29
 msgid ""
-"Servo motors are useful when you want to do precise movements (for "
-"example, sweep an area with a sensor to look for a target or move the "
-"control surfaces on a remotely controlled airplane)."
+"Servo motors are useful when you want to do precise movements (for example, "
+"sweep an area with a sensor to look for a target or move the control "
+"surfaces on a remotely controlled airplane)."
 msgstr ""
+"**Blocks** のProgram & "
+"Manageサーバーでは、サーボのターゲット位置を0から1の範囲で指定できます。ターゲット位置0は0度の回転に対応し、ターゲット位置1は典型的なサーボモーターの180度の回転に対応します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:34
 msgid "Modifying Your Op Mode to Control a Servo"
 msgstr ""
+"この例では、F310コントローラーの右側にあるカラーボタンを使用してサーボの位置を制御します。最初に、**Op Mode** "
+"はサーボを中間位置（180度範囲の90度）に移動します。黄色の「Y」ボタンを押すと、サーボが0度の位置に移動します。青色の「X」ボタンまたは赤色の「B」ボタンを押すと、サーボが90度の位置に移動します。緑色の「A」ボタンを押すと、サーボが180度の位置に移動します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:36
 msgid ""
@@ -71,56 +85,64 @@ msgid ""
 "motor. For this example, you will use the buttons on the Logitech F310 "
 "gamepad to control the position of the servo motor."
 msgstr ""
+"この例では、F310コントローラーの右側にあるカラーボタンを使用してサーボの位置を制御します。最初に、**Op Mode** "
+"はサーボを中間位置（180度範囲の90度）に移動します。黄色の「Y」ボタンを押すと、サーボが0度の位置に移動します。青色の「X」ボタンまたは赤色の「B」ボタンを押すと、サーボが90度の位置に移動します。緑色の「A」ボタンを押すと、サーボが180度の位置に移動します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:40
 msgid ""
-"With a typical servo, you can specify a target position for the servo. "
-"The servo will turn its motor shaft to move to the target position, and "
-"then maintain that position, even if moderate forces are applied to try "
-"and disturb its position."
-msgstr ""
+"With a typical servo, you can specify a target position for the servo. The "
+"servo will turn its motor shaft to move to the target position, and then "
+"maintain that position, even if moderate forces are applied to try and "
+"disturb its position."
+msgstr "サーボモーターを制御するための Op Mode の変更手順"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:45
 msgid ""
-"For the blocks Program & Manage server, you can specify a target position"
-" that ranges from 0 to 1 for a servo. A target position of 0 corresponds "
-"to zero degrees of rotation and a target position of 1 corresponds to 180"
-" degrees of rotation for a typical servo motor."
+"For the blocks Program & Manage server, you can specify a target position "
+"that ranges from 0 to 1 for a servo. A target position of 0 corresponds to "
+"zero degrees of rotation and a target position of 1 corresponds to 180 "
+"degrees of rotation for a typical servo motor."
 msgstr ""
+"1. ラップトップが **Robot Controller** のProgram & Manage Wi-"
+"Fiネットワークにまだ接続されていることを確認します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:55
 msgid ""
-"In this example, you will use the colored buttons on the right side of "
-"the F310 controller to control the position of the servo. Initially, the "
-"op mode will move the servo to the midway position (90 degrees of its "
-"180-degree range). Pushing the yellow \"Y\" button will move the servo to"
-" the zero-degree position. Pushing the blue \"X\" button or the red \"B\""
-" button will move the servo to the 90-degree position. Pushing the green "
-"\"A\" button will move the servo to the 180-degree position."
+"In this example, you will use the colored buttons on the right side of the "
+"F310 controller to control the position of the servo. Initially, the op mode"
+" will move the servo to the midway position (90 degrees of its 180-degree "
+"range). Pushing the yellow \"Y\" button will move the servo to the zero-"
+"degree position. Pushing the blue \"X\" button or the red \"B\" button will "
+"move the servo to the 90-degree position. Pushing the green \"A\" button "
+"will move the servo to the 180-degree position."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:70
 msgid "Modifying the Op Mode to Control a Servo Motor Instructions"
 msgstr ""
+"5. 「set **servoTest.Position** to」ブロックを「Put initialization blocks "
+"here.」と書かれたコメントブロックのすぐ下にドラッグします。ブロックは所定の位置にクリックして収まるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:72
 msgid ""
 "1. Verify that your laptop is still connected to the Robot Controller's "
 "Program & Manage Wi-Fi network."
 msgstr ""
+"5. 「set **servoTest.Position** to」ブロックを「Put initialization blocks "
+"here.」と書かれたコメントブロックのすぐ下にドラッグします。ブロックは所定の位置にクリックして収まるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:75
 msgid ""
-"2. Verify that \"MyFIRSTOpMode\" is opened for editing. If it is not, you"
-" can click on the FIRST logo in the upper left-hand corner of the browser"
-" window on the laptop. This should take you to the main Blocks "
-"Development Tool project screen."
-msgstr ""
+"2. Verify that \"MyFIRSTOpMode\" is opened for editing. If it is not, you "
+"can click on the FIRST logo in the upper left-hand corner of the browser "
+"window on the laptop. This should take you to the main Blocks Development "
+"Tool project screen."
+msgstr "6. 数値ブロック「0」をクリックし、ブロックの値を「0.5」に変更します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:85
 msgid ""
-"Click on the \"MyFIRSTOpMode\" project to open it for editing if it is "
-"not already opened."
+"Click on the \"MyFIRSTOpMode\" project to open it for editing if it is not "
+"already opened."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:87
@@ -128,201 +150,229 @@ msgid ""
 "3. On the left-hand side of the screen click on the category called "
 "\"Actuators\" and look for the subcategory called \"Servos\"."
 msgstr ""
+"7. プログラミングブロックの「Logic」カテゴリをクリックし、利用可能なブロックのリストから「if do」ブロックを選択します。ブロックを「Put "
+"loop blocks here.」と書かれたコメントブロックの直後の位置にドラッグします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:95
 msgid ""
-"4. Select the \"set servoTest.Position to\" block from the list of "
-"available Servo blocks."
+"4. Select the \"set servoTest.Position to\" block from the list of available"
+" Servo blocks."
 msgstr ""
+"8. "
+"プログラミングブロックの「Gamepad」カテゴリをクリックし、利用可能なブロックのリストから「**gamepad1.Y**」ブロックを選択します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:103
 msgid ""
-"5. Drag the \"set servoTest.Position to\" block to the spot just under "
-"the comment block that reads \"Put initialization blocks here.\" The "
-"block should click into place."
+"5. Drag the \"set servoTest.Position to\" block to the spot just under the "
+"comment block that reads \"Put initialization blocks here.\" The block "
+"should click into place."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:112
-msgid ""
-"6. Click on the number block \"0\" and change the block's value to "
-"\"0.5\"."
+msgid "6. Click on the number block \"0\" and change the block's value to \"0.5\"."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:120
 msgid ""
-"When a user selects this op mode, the servo position will initially be "
-"set to the midway point (90-degree position)."
-msgstr ""
+"When a user selects this op mode, the servo position will initially be set "
+"to the midway point (90-degree position)."
+msgstr "11. 利用可能なServoブロックのリストから「set **servoTest.Position** to」ブロックを選択します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:122
 msgid ""
-"7. Click on the \"Logic\" category of the programming blocks and select "
-"the \"if do\" block from the list of available blocks. Drag the block to "
-"the position immediately after the comment block that reads \"Put loop "
-"blocks here.\""
-msgstr ""
+"7. Click on the \"Logic\" category of the programming blocks and select the "
+"\"if do\" block from the list of available blocks. Drag the block to the "
+"position immediately after the comment block that reads \"Put loop blocks "
+"here.\""
+msgstr "11. 利用可能なServoブロックのリストから「set **servoTest.Position** to」ブロックを選択します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:132
 msgid "The block should click into place."
 msgstr ""
+"13. 「if do」ブロックの青と白のSettingsアイコンをクリックします。これにより、「if "
+"do」ブロックを変更できるポップアップメニューが表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:134
 msgid ""
-"8. Click on the \"Gamepad\" category of the programming blocks and select"
-" the \"gamepad1.Y\" block from the list of available blocks."
+"8. Click on the \"Gamepad\" category of the programming blocks and select "
+"the \"gamepad1.Y\" block from the list of available blocks."
 msgstr ""
+"13. 「if do」ブロックの青と白のSettingsアイコンをクリックします。これにより、「if "
+"do」ブロックを変更できるポップアップメニューが表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:142
 msgid ""
-"Note that this block is towards the bottom of the list of blocks.  You "
-"might have to scroll down to the bottom of the list before you can select"
-" this block."
+"Note that this block is towards the bottom of the list of blocks.  You might"
+" have to scroll down to the bottom of the list before you can select this "
+"block."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:144
 msgid ""
-"9. Drag the \"gamepad1.Y\" block to the right side of the \"if do\" "
-"block. The block should click into place."
-msgstr ""
+"9. Drag the \"gamepad1.Y\" block to the right side of the \"if do\" block. "
+"The block should click into place."
+msgstr "14. ポップアップメニューの左側から「else if」ブロックをドラッグし、「if」ブロックの下に所定の位置にスナップします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:152
 msgid ""
 "The \"if do\" block will use the state of the gamepad1.Y value its test "
-"condition.  If the \"Y\" button is pressed, the statements within the "
-"\"do\" portion of the block will be executed."
+"condition.  If the \"Y\" button is pressed, the statements within the \"do\""
+" portion of the block will be executed."
 msgstr ""
+"15. Settingsアイコンをクリックして、「if do」ブロックのポップアップメニューを非表示にします。「if do」ブロックに2つの「else "
+"if」テスト条件が追加されているはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:154
 msgid ""
 "10. On the left-hand side of the screen click on the category called "
 "\"Actuators\" and look for the subcategory called \"Servos\"."
 msgstr ""
+"15. Settingsアイコンをクリックして、「if do」ブロックのポップアップメニューを非表示にします。「if do」ブロックに2つの「else "
+"if」テスト条件が追加されているはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:162
 msgid ""
 "11. Select the \"set servoTest.Position to\" block from the list of "
 "available Servo blocks."
-msgstr ""
+msgstr "16. 「Logic」カテゴリをクリックし、論理「and」ブロックを選択します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:170
 msgid ""
-"12. Drag the \"set servoTest.Position to\" block so that it snaps in "
-"place in the do portion of the \"if do\" block."
-msgstr ""
+"12. Drag the \"set servoTest.Position to\" block so that it snaps in place "
+"in the do portion of the \"if do\" block."
+msgstr "18. 「and」という単語をクリックし、ポップアップメニューから「or」を選択して、ブロックを論理「or」ブロックに変更します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:178
 msgid ""
 "If the \"Y\" button is pressed on gamepad #1, the op mode will move the "
 "servo's position to the 0-degree position."
 msgstr ""
+"19. "
+"「Gamepad」カテゴリをクリックし、「**gamepad1.X**」ブロックを選択します。ブロックを論理「or」ブロックの最初のテスト条件として所定の位置にクリックするようにドラッグします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:180
 msgid ""
-"13. Click on the blue and white Settings icon for the \"if do\" block. "
-"This will display a pop-up menu that lets you modify the \"if do\" block."
+"13. Click on the blue and white Settings icon for the \"if do\" block. This "
+"will display a pop-up menu that lets you modify the \"if do\" block."
 msgstr ""
+"19. "
+"「Gamepad」カテゴリをクリックし、「**gamepad1.X**」ブロックを選択します。ブロックを論理「or」ブロックの最初のテスト条件として所定の位置にクリックするようにドラッグします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:189
 msgid ""
-"14. Drag an \"else if\" block from the left side of the pop-up menu and "
-"snap it into place under the \"if\" block."
+"14. Drag an \"else if\" block from the left side of the pop-up menu and snap"
+" it into place under the \"if\" block."
 msgstr ""
+"20. "
+"「Gamepad」カテゴリをクリックし、「**gamepad1.B**」ブロックを選択します。ブロックを論理「or」ブロックの2番目のテスト条件として所定の位置にクリックするようにドラッグします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:197
 msgid ""
-"Drag a second \"else if\" block from the left side and snap it into place"
-" on the right side under the first \"else if\" block."
+"Drag a second \"else if\" block from the left side and snap it into place on"
+" the right side under the first \"else if\" block."
 msgstr ""
+"21. 「set **servoTest.Position** to」ブロックを選択し、最初の「else-if」ブロックの「do」句に配置します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:199
 msgid ""
 "15. Click on the Settings icon to hide the pop-up menu for the \"if do\" "
-"block. The \"if do\" block should now have two \"else if\" test "
-"conditions added."
+"block. The \"if do\" block should now have two \"else if\" test conditions "
+"added."
 msgstr ""
+"22. 数値「0」をハイライトし、「0.5」に変更します。この変更により、ユーザーがゲームパッド#1で「X」ボタンまたは「B」ボタンを押すと、**Op "
+"Mode** はサーボを中間（90度）の位置に移動します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:208
 msgid "Click on the \"Logic\" category and select the logical \"and\" block."
 msgstr ""
+"23. 2番目の「else "
+"if」ブロックのテスト条件として「**gamepad1.A**」ブロックを使用します。「set**servoTest.position** "
+"to」ブロックを2番目の「else if」ブロックの「do」句にドラッグし、サーボの位置が値1に設定されるように数値を変更します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:215
 msgid ""
-"17. Drag the \"and\" block so it clicks in place as the test condition "
-"for the first \"else if\" block."
+"17. Drag the \"and\" block so it clicks in place as the test condition for "
+"the first \"else if\" block."
 msgstr ""
+"24. 「call "
+"**Telemetry.update**」ブロックの前に「call**telemetry.addData**」ブロック（数値版）を挿入します。キーフィールドを「Servo"
+" Position」に変更し、数値フィールドに「**servoTest.Position**」ブロックを挿入します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:223
 msgid ""
 "18. Click on the word \"and\" and select \"or\" from the pop-up menu to "
 "change the block to a logical \"or\" block."
-msgstr ""
+msgstr "25. **Op Mode** を保存し、**Robot Controller** に正常に保存されたことを確認します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:231
 msgid ""
-"19. Click on the \"Gamepad\" category and select the \"gamepad1.X\" "
-"block. Drag the block so that it clicks in place as the first test "
-"condition of the logical \"or\" block."
+"19. Click on the \"Gamepad\" category and select the \"gamepad1.X\" block. "
+"Drag the block so that it clicks in place as the first test condition of the"
+" logical \"or\" block."
 msgstr ""
+"26. :doc:`Op Mode の実行 <../running_op_modes/Running-Your-Op-Mode>` "
+"セクションで説明されている手順に従って、更新された **Op Mode** を実行します。また、**Op Mode** "
+"を実行する前に、ゲームパッドがユーザー#1として指定されていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:240
 msgid ""
-"20. Click on the \"Gamepad\" category and select the \"gamepad1.B\" "
-"block. Drag the block so that it clicks in place as the second test "
-"condition of the logical \"or\" block."
+"20. Click on the \"Gamepad\" category and select the \"gamepad1.B\" block. "
+"Drag the block so that it clicks in place as the second test condition of "
+"the logical \"or\" block."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:249
 msgid ""
-"21. Select a \"set servoTest.Position to\" block and place it into \"do\""
-" clause of the first else-if block."
+"21. Select a \"set servoTest.Position to\" block and place it into \"do\" "
+"clause of the first else-if block."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:257
 msgid ""
-"22. Highlight the number \"0\" and change it to \"0.5\". With this "
-"change, if the user presses the \"X\" button or \"B\" button on gamepad "
-"#1, the op mode will move the servo to the midway (90-degree) position."
+"22. Highlight the number \"0\" and change it to \"0.5\". With this change, "
+"if the user presses the \"X\" button or \"B\" button on gamepad #1, the op "
+"mode will move the servo to the midway (90-degree) position."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:267
 msgid ""
-"23. Use a \"gamepad1.A\" block as the test condition for the second "
-"\"else if\" block. Drag a \"set servoTest.position to\" block to the do "
-"clause of the second \"else if\" block and modify the numeric value so "
-"that the servo's position will be set to a value of 1."
+"23. Use a \"gamepad1.A\" block as the test condition for the second \"else "
+"if\" block. Drag a \"set servoTest.position to\" block to the do clause of "
+"the second \"else if\" block and modify the numeric value so that the "
+"servo's position will be set to a value of 1."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:277
 msgid ""
-"For this clause, if the \"A\" button is pressed on the #1 gamepad, the op"
-" mode will move the servo to the 180-degree position."
+"For this clause, if the \"A\" button is pressed on the #1 gamepad, the op "
+"mode will move the servo to the 180-degree position."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:279
 msgid ""
-"24. Insert a \"call telemetry.addData\" block (numeric) before the \"call"
-" Telemetry.update\" block. Rename the key field to \"Servo Position\" and"
-" insert a \"servoTest.Position\" block for the number field."
+"24. Insert a \"call telemetry.addData\" block (numeric) before the \"call "
+"Telemetry.update\" block. Rename the key field to \"Servo Position\" and "
+"insert a \"servoTest.Position\" block for the number field."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:289
 msgid ""
-"This set of blocks will send the current servo position value to the "
-"DRIVER STATION while the op mode is running."
+"This set of blocks will send the current servo position value to the DRIVER "
+"STATION while the op mode is running."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:291
 msgid ""
-"25. Save your op mode and verify that it was saved successfully to the "
-"Robot Controller."
+"25. Save your op mode and verify that it was saved successfully to the Robot"
+" Controller."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:299
 msgid ""
-"26. Follow the procedure outlined in the section titled :doc:`Running "
-"Your OpMode <../running_op_modes/Running-Your-Op-Mode>` to run your "
-"updated op mode. Also, make sure that your gamepad is designated as User "
-"#1 before running your op mode."
+"26. Follow the procedure outlined in the section titled :doc:`Running Your "
+"OpMode <../running_op_modes/Running-Your-Op-Mode>` to run your updated op "
+"mode. Also, make sure that your gamepad is designated as User #1 before "
+"running your op mode."
 msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:309
@@ -330,4 +380,3 @@ msgid ""
 "You should now be able to control the servo position with the colored "
 "buttons.  The servo position should be displayed on the DRIVER STATION."
 msgstr ""
-
