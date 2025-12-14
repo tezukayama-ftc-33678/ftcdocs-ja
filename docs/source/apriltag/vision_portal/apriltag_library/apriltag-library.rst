@@ -1,20 +1,18 @@
 AprilTag ライブラリ
 ===================
 
-**FIRST** Tech Challenge の競技では、**OpMode** は検出すべき既知の **AprilTag** セットを持っています。これらはデフォルトでプリロードされているか、カスタムタグの有無に関わらず、皆さんが指定することができます。
+**FIRST** Tech Challenge の競技では、**OpMode** は検出すべき既知の**AprilTag** セットを持っています。これらはデフォルトでプリロードされているか、カスタムタグの有無に関わらず、皆さんが指定することができます。
 
-これらのタグは **AprilTag Library** を形成します。各ライブラリタグには4から6のプロパティがあり、**Metadata** ページで説明されています。
+これらのタグは**AprilTag Library** を形成します。各ライブラリタグには4から6のプロパティがあり、**Metadata** ページで説明されています。
 
-このページでは、**AprilTag** ライブラリを作成する多くの方法を示します。**Initialization** ページでは、これが **OpMode** で **AprilTag** を使用するための準備の ** ステップ1** （オプション）であることを説明しました。
-
-**AprilTag** ライブラリの使用をマスターするために、** これらの例を順番に試してください** 。
+このページでは、**AprilTag** ライブラリを作成する多くの方法を示します。**Initialization** ページでは、これが**OpMode** で**AprilTag** を使用するための準備の** ステップ1** （オプション）であることを説明しました。**AprilTag** ライブラリの使用をマスターするために、** これらの例を順番に試してください** 。
 
 簡単な方法
 ~~~~~~~~~~
 
-まず、ライブラリなしから始めましょう！ **OpMode** が現在のシーズンのデフォルトのみを使用する場合、ライブラリの操作は不要です。
+まず、ライブラリなしから始めましょう！**OpMode** が現在のシーズンのデフォルトのみを使用する場合、ライブラリの操作は不要です。
 
-次のように **AprilTagProcessor** を作成するだけです：
+次のように**AprilTagProcessor** を作成するだけです：
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -35,19 +33,15 @@ AprilTag ライブラリ
          AprilTagProcessor myAprilTagProcessor;
 
          // AprilTag プロセッサを作成し、変数に割り当てます。
-         myAprilTagProcessor = AprilTagProcessor.easyCreateWithDefaults();
-
-**AprilTag Processor** を作成するには、ライブラリの指定が必要です。この「簡単な方法」でも、背後でデフォルトのライブラリを指定しています。
+         myAprilTagProcessor = AprilTagProcessor.easyCreateWithDefaults();**AprilTag Processor** を作成するには、ライブラリの指定が必要です。この「簡単な方法」でも、背後でデフォルトのライブラリを指定しています。
 
 デフォルトライブラリ
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~**SDK** は、事前定義された**AprilTag** の2つのコアライブラリを使用します：
 
-**SDK** は、事前定義された **AprilTag** の2つのコアライブラリを使用します：
-
--  サンプル **OpMode** でのみ使用されるタグ
+-  サンプル**OpMode** でのみ使用されるタグ
 -  ロボットゲーム（競技）でのみ使用されるタグ
 
-最初のライブラリは ``SampleTagLibrary`` と呼ばれ、SDK 8.2で利用可能です。基本的な **Metadata** 値は次のとおりです：
+最初のライブラリは ``SampleTagLibrary`` と呼ばれ、SDK 8.2で利用可能です。基本的な**Metadata** 値は次のとおりです：
 
 -  ``583, Nemo, 4, DistanceUnit.INCH``
 -  ``584, Jonah, 4, DistanceUnit.INCH``
@@ -60,20 +54,18 @@ AprilTag ライブラリ
 -  ``1, WOOF, 0.166, DistanceUnit.METER``
 -  ``2, OINK, 0.166, DistanceUnit.METER``
 
-2023年9月のキックオフ後、これらは **CENTERSTAGE** の ** 実際のタグ** に置き換えられます（SDK 9.0で）。
+2023年9月のキックオフ後、これらは**CENTERSTAGE** の** 実際のタグ** に置き換えられます（SDK 9.0で）。
 
-便宜上、3番目のライブラリには、これら2つのコアライブラリの ** 両方** が含まれており、それ以外は何も含まれていません。これがデフォルトで、``CurrentGameTagLibrary`` と呼ばれます。
+便宜上、3番目のライブラリには、これら2つのコアライブラリの** 両方** が含まれており、それ以外は何も含まれていません。これがデフォルトで、``CurrentGameTagLibrary`` と呼ばれます。
 
 AprilTag Processor
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~**Processor** の** 任意の側面** を指定するには、**Processor Builder** を使用します。少なくとも2つのコマンドが必要です：
 
-**Processor** の ** 任意の側面** を指定するには、**Processor Builder** を使用します。少なくとも2つのコマンドが必要です：
-
--  Java キーワード ``new`` を使用して **Builder** を作成
+-  Java キーワード ``new`` を使用して**Builder** を作成
 
 -  機能を指定/追加した後、``.build()`` メソッドの呼び出しで完了
 
-これらのアクション間で、**OpMode** は3つのライブラリのいずれかを **Processor Builder** に直接追加します。すべての事前定義タグを含むデフォルトの ``CurrentGameTagLibrary`` を使用するのが最も簡単です。
+これらのアクション間で、**OpMode** は3つのライブラリのいずれかを**Processor Builder** に直接追加します。すべての事前定義タグを含むデフォルトの ``CurrentGameTagLibrary`` を使用するのが最も簡単です。
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -86,9 +78,7 @@ AprilTag Processor
          :align: center
          :alt: 現在のゲームのタグライブラリを設定
 
-         現在のゲームのタグライブラリを設定
-
-      ** これを囲むように** （前後に）、**Processor Builder** を ** 作成** する1つのブロックと、``.build()`` でプロセスを ** 完了** する別のブロックを配置します。
+         現在のゲームのタグライブラリを設定** これを囲むように** （前後に）、**Processor Builder** を** 作成** する1つのブロックと、``.build()`` でプロセスを** 完了** する別のブロックを配置します。
 
       .. figure:: images/030-Blocks-ATprocessor-CurrentGame.png
          :width: 75%
@@ -136,7 +126,7 @@ AprilTag Processor
 
          タグライブラリを設定
 
-      前と同様に、** これを囲むように** （前後に）、**Processor Builder** を ** 作成** する1つのブロックと、``.build()`` でプロセスを ** 完了** する別のブロックを配置します。
+      前と同様に、** これを囲むように** （前後に）、**Processor Builder** を** 作成** する1つのブロックと、``.build()`` でプロセスを** 完了** する別のブロックを配置します。
 
       .. figure:: images/050-Blocks-ATprocessor-CurrentGame-Variable.png
          :width: 75%
@@ -170,13 +160,13 @@ AprilTag Processor
 ライブラリ Builder、デフォルトを使用
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-次に、**Builder** パターンを試して、事前定義された **AprilTag** のみを含むライブラリを作成します。これは必要ではありませんが（ビルドする新しいものはありません！）、簡単な導入です。
+次に、**Builder** パターンを試して、事前定義された**AprilTag** のみを含むライブラリを作成します。これは必要ではありませんが（ビルドする新しいものはありません！）、簡単な導入です。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      -  **Library Builder** を作成します。**Processor Builder** とは異なります。
+      -**Library Builder** を作成します。**Processor Builder** とは異なります。
       -  次に ``addTags`` ブロックを使用します - 複数形の "tags" であり、"tag" ではないことに注意してください。
       -  ``.build`` コマンドでプロセスを完了します。
 
@@ -191,7 +181,7 @@ AprilTag Processor
 
       次に、おなじみの手順が続きます：
 
-      -  **Processor Builder** を作成します。
+      -**Processor Builder** を作成します。
       -  次に、前のシーケンスでビルドおよび保存されたライブラリを設定または追加します。
       -  ``.build`` コマンドでプロセスを完了します。
 
@@ -202,7 +192,7 @@ AprilTag Processor
 
          タグプロセッサをビルド
 
-      最終結果は前の例と同じですが、今度は **Library Builder** の使用方法がわかります。
+      最終結果は前の例と同じですが、今度は**Library Builder** の使用方法がわかります。
 
    .. tab-item:: Java
       :sync: java
@@ -239,7 +229,7 @@ AprilTag Processor
 
 最後に、ライブラリにカスタムタグを追加する準備が整いました。
 
-各タグには **Metadata** が必要です。次のように、新しいタグに **Metadata** 値を直接入力できます。
+各タグには**Metadata** が必要です。次のように、新しいタグに**Metadata** 値を直接入力できます。
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -257,7 +247,7 @@ AprilTag Processor
    .. tab-item:: Java
       :sync: java
 
-      カスタムタグは **1行の新しいコード** で追加され、それ以外は前の例と同じです。
+      カスタムタグは**1行の新しいコード** で追加され、それ以外は前の例と同じです。
 
       .. code-block:: java
 
@@ -292,7 +282,7 @@ AprilTag Processor
 カスタムタグ - 変数を使用
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-別の方法として、**Metadata** を変数に割り当て、その変数を使用して新しい **AprilTag** を作成できます。
+別の方法として、**Metadata** を変数に割り当て、その変数を使用して新しい**AprilTag** を作成できます。
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -307,12 +297,12 @@ AprilTag Processor
 
          変数を使用した Metadata の設定
 
-      これらのブロックは分離されており、**Metadata** 変数は **Library Builder** で追加される前のどこででも初期化/割り当てできることを示しています。使用の直前に表示する必要はありません。
+      これらのブロックは分離されており、**Metadata** 変数は**Library Builder** で追加される前のどこででも初期化/割り当てできることを示しています。使用の直前に表示する必要はありません。
 
    .. tab-item:: Java
       :sync: java
 
-      カスタムタグは **2行のコード** で追加され、前の例の **1行の新しいコード** を置き換えます。
+      カスタムタグは**2行のコード** で追加され、前の例の**1行の新しいコード** を置き換えます。
 
       .. code-block:: java
 
@@ -345,24 +335,22 @@ AprilTag Processor
          myAprilTagProcessorBuilder.setTagLibrary(myAprilTagLibrary);
 
          // AprilTag プロセッサをビルドし、変数に割り当てます。
-         myAprilTagProcessor = myAprilTagProcessorBuilder.build();
-
-**Blocks** または **Java** の場合、複数のタグを複数の（より短い！）変数名（``myTag1`` 、``myTag2`` など）で追加できます。
+         myAprilTagProcessor = myAprilTagProcessorBuilder.build();**Blocks** または**Java** の場合、複数のタグを複数の（より短い！）変数名（``myTag1`` 、``myTag2`` など）で追加できます。
 
 上書き
 ~~~~~~
 
-ライブラリに既に存在するタグと ** 同じ ID コード** を持つカスタム **AprilTag** を作成する場合があります。これは ** 上書き** であり、許可するかどうかを選択できます。
+ライブラリに既に存在するタグと** 同じ ID コード** を持つカスタム**AprilTag** を作成する場合があります。これは** 上書き** であり、許可するかどうかを選択できます。
 
 ``setAllowOverwrite()`` が ``false`` （デフォルト）に設定されており、上書きが試みられると、**OpMode** は適切なエラーメッセージとともにクラッシュします。
 
 ``true`` に設定すると、カスタムタグが既存のタグを置き換えます。
 
-なぜこれを行うのでしょうか？タグサイズが正確ではないとします。同じ **Metadata** で新しいタグを入力できますが、タグサイズを修正します。
+なぜこれを行うのでしょうか？タグサイズが正確ではないとします。同じ**Metadata** で新しいタグを入力できますが、タグサイズを修正します。
 
 または、独自のタグ名または距離単位を使用することを好む場合があります。
 
-上級ユーザーは、** ゲームフィールド** 上の事前定義タグの ** 位置** を指定したい場合があります。これは、オプションの **Vector** および **Quaternion** フィールドで行うことができます。
+上級ユーザーは、** ゲームフィールド** 上の事前定義タグの** 位置** を指定したい場合があります。これは、オプションの**Vector** および**Quaternion** フィールドで行うことができます。
 
 ====
 
