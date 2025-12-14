@@ -1,6 +1,6 @@
 # 翻訳進捗状況レポート
 
-**生成日時:** 2025-12-14 08:18:30
+**生成日時:** 2025-12-14 08:24:37
 
 このレポートは `docs/scripts/check_translation_progress.py` により自動生成されました。
 
@@ -10,8 +10,8 @@
 
 - **総ファイル数:** 255
 - **翻訳完了:** 139 (54.5%)
-- **部分的に翻訳:** 15 (5.9%)
-- **未翻訳:** 101 (39.6%)
+- **部分的に翻訳:** 16 (6.3%)
+- **未翻訳:** 100 (39.2%)
 
 **進捗:** `███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░` 54.5%
 
@@ -170,7 +170,7 @@
 
 ## ⚠️ 部分的に翻訳されているファイル
 
-英語が残っているファイル: **15個**
+英語が残っているファイル: **16個**
 
 ### `contrib/style_guide/image-and-figure-details.rst`
 
@@ -384,6 +384,15 @@
   1. REV Hardware Client（RHC）
   ```
 
+### `programming_resources/laptops/laptops.rst`
+
+**問題箇所:** 1件
+
+- **行 93:** Untranslated English paragraph/sentence
+  ```
+  Driver Station
+  ```
+
 ### `programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst`
 
 **問題箇所:** 1件
@@ -415,7 +424,7 @@
 
 ## 📝 未翻訳ファイル
 
-日本語が含まれていないファイル: **101個**
+日本語が含まれていないファイル: **100個**
 
 <details>
 <summary>ファイルリストを表示</summary>
@@ -512,7 +521,6 @@
 - `manufacturing/3d_printing/troubleshooting/troubleshooting.rst`
 - `manufacturing/index.rst`
 - `programming_resources/imu/imu.rst`
-- `programming_resources/laptops/laptops.rst`
 - `programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst`
 - `sponsors/discounts/discounts.rst`
 - `sponsors/software/software.rst`
@@ -566,12 +574,12 @@ python docs/scripts/check_translation_progress.py
 | Op Mode | **Op Mode** | 出現回数: 187 |
 | OpMode | **OpMode** | 出現回数: 136 |
 | Driver Station | **Driver Station** | 出現回数: 123 |
-| Blocks | **Blocks** | 出現回数: 113 |
+| Blocks | **Blocks** | 出現回数: 114 |
 | Expansion Hub | **Expansion Hub** | 出現回数: 98 |
 | DRIVER STATION | **DRIVER STATION** | 出現回数: 93 |
-| Android Studio | **Android Studio** | 出現回数: 86 |
-| FIRST | **FIRST** | 出現回数: 54 |
-| OnBot Java | **OnBot Java** | 出現回数: 49 |
+| Android Studio | **Android Studio** | 出現回数: 87 |
+| FIRST | **FIRST** | 出現回数: 77 |
+| OnBot Java | **OnBot Java** | 出現回数: 50 |
 | Android | **Android** | 出現回数: 44 |
 | HuskyLens | **HuskyLens** | 出現回数: 42 |
 | AprilTag | **AprilTag** | 出現回数: 36 |
