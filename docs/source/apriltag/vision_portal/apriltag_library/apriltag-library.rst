@@ -1,27 +1,18 @@
-AprilTag Library
-================
+AprilTag ライブラリ
+===================
 
-For a *FIRST* Tech Challenge match, your OpMode has a known set of AprilTags to
-detect.  They are preloaded by default or specified by you, with or without
-custom tags.
+**FIRST** Tech Challenge の競技では、**OpMode** は検出すべき既知の**AprilTag** セットを持っています。これらはデフォルトでプリロードされているか、カスタムタグの有無に関わらず、皆さんが指定することができます。
 
-These tags form an **AprilTag Library**. Each Library tag has a set of 4
-to 6 properties, described at the **Metadata** page.
+これらのタグは**AprilTag Library** を形成します。各ライブラリタグには4から6のプロパティがあり、**Metadata** ページで説明されています。
 
-This page shows many ways to create an AprilTag Library. The
-**Initialization**page explained this is the optional**Step 1** of
-preparing to use AprilTags in an OpMode.
+このページでは、**AprilTag** ライブラリを作成する多くの方法を示します。**Initialization** ページでは、これが**OpMode** で**AprilTag** を使用するための準備の** ステップ1** （オプション）であることを説明しました。**AprilTag** ライブラリの使用をマスターするために、** これらの例を順番に試してください** 。
 
-**Try these examples in order**, to master the use of AprilTag
-Libraries.
+簡単な方法
+~~~~~~~~~~
 
-The Easy Way
-~~~~~~~~~~~~
+まず、ライブラリなしから始めましょう！**OpMode** が現在のシーズンのデフォルトのみを使用する場合、ライブラリの操作は不要です。
 
-Let’s start with… no Library! If your OpMode will use only the current 
-season defaults, no Library action is needed.
-
-Simply create the AprilTagProcessor as follows:
+次のように**AprilTagProcessor** を作成するだけです：
 
 .. tab-set::
    .. tab-item:: Blocks
@@ -30,9 +21,9 @@ Simply create the AprilTagProcessor as follows:
       .. figure:: images/010-Blocks-ATprocessor-Easy.png
          :width: 75%
          :align: center
-         :alt: Simple AprilTag Processor
+         :alt: シンプルな AprilTag Processor
 
-         Simple AprilTag Processor
+         シンプルな AprilTag Processor
 
    .. tab-item:: Java
       :sync: java
@@ -41,88 +32,62 @@ Simply create the AprilTagProcessor as follows:
 
          AprilTagProcessor myAprilTagProcessor;
 
-         // Create the AprilTag processor and assign it to a variable.
-         myAprilTagProcessor = AprilTagProcessor.easyCreateWithDefaults();
+         // AprilTag プロセッサを作成し、変数に割り当てます。
+         myAprilTagProcessor = AprilTagProcessor.easyCreateWithDefaults();**AprilTag Processor** を作成するには、ライブラリの指定が必要です。この「簡単な方法」でも、背後でデフォルトのライブラリを指定しています。
 
-Specifying a Library is needed for creating an AprilTag Processor. Even
-this “Easy Way” does specify the default Library, behind the scenes.
+デフォルトライブラリ
+~~~~~~~~~~~~~~~~~~~~**SDK** は、事前定義された**AprilTag** の2つのコアライブラリを使用します：
 
-Default Libraries
-~~~~~~~~~~~~~~~~~
+-  サンプル**OpMode** でのみ使用されるタグ
+-  ロボットゲーム（競技）でのみ使用されるタグ
 
-The SDK uses two core Libraries of predefined AprilTags:
-
--  tags used only in Sample OpModes
--  tags used only in the Robot Game (competition)
-
-The first Library, called ``SampleTagLibrary``, is available now with
-SDK 8.2. Its basic Metadata values are:
+最初のライブラリは ``SampleTagLibrary`` と呼ばれ、SDK 8.2で利用可能です。基本的な**Metadata** 値は次のとおりです：
 
 -  ``583, Nemo, 4, DistanceUnit.INCH``
 -  ``584, Jonah, 4, DistanceUnit.INCH``
 -  ``585, Cousteau, 6, DistanceUnit.INCH``
 -  ``586, Ariel, 6, DistanceUnit.INCH``
 
-The second Library, called ``CenterStageTagLibrary``, is planned for
-future competition only. It’s available now in SDK 8.2, but currently
-holding three “placeholder” tags:
+2番目のライブラリは ``CenterStageTagLibrary`` と呼ばれ、将来の競技のみを対象としています。SDK 8.2で現在利用可能ですが、現在は3つの「プレースホルダー」タグを保持しています：
 
 -  ``0, MEOW, 0.166, DistanceUnit.METER``
 -  ``1, WOOF, 0.166, DistanceUnit.METER``
 -  ``2, OINK, 0.166, DistanceUnit.METER``
 
-After Kickoff in September 2023, these will be replaced (in SDK 9.0)
-by the **real tags** for CENTERSTAGE.
+2023年9月のキックオフ後、これらは**CENTERSTAGE** の** 実際のタグ** に置き換えられます（SDK 9.0で）。
 
-For convenience, a third Library contains **both** of these core
-Libraries, and nothing else. This is the default, called
-``CurrentGameTagLibrary``.
+便宜上、3番目のライブラリには、これら2つのコアライブラリの** 両方** が含まれており、それ以外は何も含まれていません。これがデフォルトで、``CurrentGameTagLibrary`` と呼ばれます。
 
 AprilTag Processor
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~**Processor** の** 任意の側面** を指定するには、**Processor Builder** を使用します。少なくとも2つのコマンドが必要です：
 
-Specifying **any aspect**of a Processor is done with a**Processor
-Builder**, requiring at least 2 commands:
+-  Java キーワード ``new`` を使用して**Builder** を作成
 
--  create the Builder, using the Java keyword ``new``
+-  機能を指定/追加した後、``.build()`` メソッドの呼び出しで完了
 
--  after specifying/adding features, finalize with a call to the
-   ``.build()`` method
-
-In between these actions, your OpMode will add one of the three
-Libraries directly to the Processor Builder. It’s easiest to use the
-default ``CurrentGameTagLibrary``, containing all of the predefined
-tags.
+これらのアクション間で、**OpMode** は3つのライブラリのいずれかを**Processor Builder** に直接追加します。すべての事前定義タグを含むデフォルトの ``CurrentGameTagLibrary`` を使用するのが最も簡単です。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      First create this expression, drawing the first component from the
-      ``AprilTagProcessor.Builder`` toolbox (or palette), and drawing the
-      second component from the ``AprilTagLibrary`` toolbox.
+      まず、この式を作成します。最初のコンポーネントを ``AprilTagProcessor.Builder`` ツールボックス（またはパレット）から描画し、2番目のコンポーネントを ``AprilTagLibrary`` ツールボックスから描画します。
 
       .. figure:: images/020-Blocks-setTagLibrary-CurrentGame.png
          :width: 75%
          :align: center
-         :alt: Set Current Game Tag Library
+         :alt: 現在のゲームのタグライブラリを設定
 
-         Setting Current Game Tag Library
-
-      **Around this**(before and after), place one Block to**create** the
-      Processor Builder, and another Block to **finalize** the process with
-      ``.build()``.
+         現在のゲームのタグライブラリを設定** これを囲むように** （前後に）、**Processor Builder** を** 作成** する1つのブロックと、``.build()`` でプロセスを** 完了** する別のブロックを配置します。
 
       .. figure:: images/030-Blocks-ATprocessor-CurrentGame.png
          :width: 75%
          :align: center
-         :alt: Completing Builder
+         :alt: Builder の完成
 
-         Completing Builder 
+         Builder の完成
 
-      These are the first and last Blocks in the ``AprilTagProcessor.Builder``
-      toolbox. The remaining Blocks are used to set optional features of the
-      Processor. Here we are setting only the Library.
+      これらは ``AprilTagProcessor.Builder`` ツールボックスの最初と最後のブロックです。残りのブロックは、**Processor** のオプション機能を設定するために使用されます。ここでは、ライブラリのみを設定しています。
 
    .. tab-item:: Java
       :sync: java
@@ -132,49 +97,43 @@ tags.
          AprilTagProcessor.Builder myAprilTagProcessorBuilder;
          AprilTagProcessor myAprilTagProcessor;
 
-         // Create a new AprilTagProcessor.Builder object and assign it to a variable.
+         // 新しい AprilTagProcessor.Builder オブジェクトを作成し、変数に割り当てます。
          myAprilTagProcessorBuilder = new AprilTagProcessor.Builder();
 
-         // Set the tag library.
-         // Get the AprilTagLibrary for the current season.
+         // タグライブラリを設定します。
+         // 現在のシーズンの AprilTagLibrary を取得します。
          myAprilTagProcessorBuilder.setTagLibrary(AprilTagGameDatabase.getCurrentGameTagLibrary());
 
-         // Build the AprilTag processor and assign it to a variable.
+         // AprilTag プロセッサをビルドし、変数に割り当てます。
          myAprilTagProcessor = myAprilTagProcessorBuilder.build();
 
 
-Library Variable
-~~~~~~~~~~~~~~~~
+ライブラリ変数
+~~~~~~~~~~~~~~
 
-As an alternate, you could first store the Library in your own Variable
-name. Then specify that name for the AprilTag Processor. Here we use
-``myAprilTagLibrary`` (any other name is fine).
+別の方法として、まずライブラリを独自の変数名に格納することもできます。次に、**AprilTag Processor** にその名前を指定します。ここでは ``myAprilTagLibrary`` を使用します（他の名前でも問題ありません）。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      First create this expression, drawing the first component from the
-      ``AprilTagLibrary`` toolbox, and drawing the second component from
-      the ``AprilTagProcessor.Builder`` toolbox.
+      まず、この式を作成します。最初のコンポーネントを ``AprilTagLibrary`` ツールボックスから描画し、2番目のコンポーネントを ``AprilTagProcessor.Builder`` ツールボックスから描画します。
 
       .. figure:: images/040-Blocks-ATProcessor-Variable.png
          :width: 75%
          :align: center
-         :alt: Set Tag Library
+         :alt: タグライブラリを設定
 
-         Set the Tag Library
+         タグライブラリを設定
 
-      As before, **around this** (before and after), place one Block to
-      **create**the Processor Builder, and another Block to**finalize** the
-      process with ``.build()``.
+      前と同様に、** これを囲むように** （前後に）、**Processor Builder** を** 作成** する1つのブロックと、``.build()`` でプロセスを** 完了** する別のブロックを配置します。
 
       .. figure:: images/050-Blocks-ATprocessor-CurrentGame-Variable.png
          :width: 75%
          :align: center
-         :alt: Build the AprilTag Processor
+         :alt: AprilTag Processor をビルド
 
-         Build the AprilTag Processor
+         AprilTag Processor をビルド
 
    .. tab-item:: Java
       :sync: java
@@ -185,61 +144,55 @@ name. Then specify that name for the AprilTag Processor. Here we use
          AprilTagProcessor myAprilTagProcessor;
          AprilTagLibrary myAprilTagLibrary;
 
-         // Create a new AprilTagProcessor.Builder object and assign it to a variable.
+         // 新しい AprilTagProcessor.Builder オブジェクトを作成し、変数に割り当てます。
          myAprilTagProcessorBuilder = new AprilTagProcessor.Builder();
 
-         // Get the AprilTagLibrary for the current season.
+         // 現在のシーズンの AprilTagLibrary を取得します。
          myAprilTagLibrary = AprilTagGameDatabase.getCurrentGameTagLibrary();
 
-         // Set the tag library.
+         // タグライブラリを設定します。
          myAprilTagProcessorBuilder.setTagLibrary(myAprilTagLibrary);
 
-         // Build the AprilTag processor and assign it to a variable.
+         // AprilTag プロセッサをビルドし、変数に割り当てます。
          myAprilTagProcessor = myAprilTagProcessorBuilder.build();
 
 
-Library Builder, with Defaults
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ライブラリ Builder、デフォルトを使用
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Next we try the Builder pattern, to create a Library containing only
-predefined AprilTags. It’s not needed (nothing new to Build!), but it’s
-an easy introduction.
+次に、**Builder** パターンを試して、事前定義された**AprilTag** のみを含むライブラリを作成します。これは必要ではありませんが（ビルドする新しいものはありません！）、簡単な導入です。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      -  Create a Library Builder, not the same as a Processor Builder.
-      -  Then use the ``addTags`` Block – note the plural “tags”, not
-         “tag”.
-      -  Finalize the process with the ``.build`` command.
+      -**Library Builder** を作成します。**Processor Builder** とは異なります。
+      -  次に ``addTags`` ブロックを使用します - 複数形の "tags" であり、"tag" ではないことに注意してください。
+      -  ``.build`` コマンドでプロセスを完了します。
 
-      The built Library is assigned or saved to your Variable, here called
-      ``myAprilTagLibrary``.
+      ビルドされたライブラリは、ここでは ``myAprilTagLibrary`` と呼ばれる変数に割り当てられるか保存されます。
 
       .. figure:: images/060-Blocks-LibraryBuilder-CurrentGame.png
          :width: 75%
          :align: center
-         :alt: Build the Tag Library
+         :alt: タグライブラリをビルド
 
-         Build the Tag Library
+         タグライブラリをビルド
 
-      Next comes the familiar steps:
+      次に、おなじみの手順が続きます：
 
-      -  Create a Processor Builder.
-      -  Then set, or add, the Library built and saved in the previous
-         sequence.
-      -  Finalize the process with the ``.build`` command.
+      -**Processor Builder** を作成します。
+      -  次に、前のシーケンスでビルドおよび保存されたライブラリを設定または追加します。
+      -  ``.build`` コマンドでプロセスを完了します。
 
       .. figure:: images/070-Blocks-Processor-Variable.png
          :width: 75%
          :align: center
-         :alt: Build the Tag Processor
+         :alt: タグプロセッサをビルド
 
-         Build the Tag Processor
+         タグプロセッサをビルド
 
-      The final result is the same as the previous examples, but now you see
-      how to use a Library Builder.
+      最終結果は前の例と同じですが、今度は**Library Builder** の使用方法がわかります。
 
    .. tab-item:: Java
       :sync: java
@@ -251,53 +204,50 @@ an easy introduction.
          AprilTagLibrary myAprilTagLibrary;
          AprilTagProcessor myAprilTagProcessor;
 
-         // Create a new AprilTagLibrary.Builder object and assigns it to a variable.
+         // 新しい AprilTagLibrary.Builder オブジェクトを作成し、変数に割り当てます。
          myAprilTagLibraryBuilder = new AprilTagLibrary.Builder();
 
-         // Add all the tags from the given AprilTagLibrary to the AprilTagLibrary.Builder.
-         // Get the AprilTagLibrary for the current season.
+         // 指定された AprilTagLibrary からすべてのタグを AprilTagLibrary.Builder に追加します。
+         // 現在のシーズンの AprilTagLibrary を取得します。
          myAprilTagLibraryBuilder.addTags(AprilTagGameDatabase.getCurrentGameTagLibrary());
 
-         // Build the AprilTag library and assign it to a variable.
+         // AprilTag ライブラリをビルドし、変数に割り当てます。
          myAprilTagLibrary = myAprilTagLibraryBuilder.build();
 
-         // Create a new AprilTagProcessor.Builder object and assign it to a variable.
+         // 新しい AprilTagProcessor.Builder オブジェクトを作成し、変数に割り当てます。
          myAprilTagProcessorBuilder = new AprilTagProcessor.Builder();
 
-         // Set the tag library.
+         // タグライブラリを設定します。
          myAprilTagProcessorBuilder.setTagLibrary(myAprilTagLibrary);
 
-         // Build the AprilTag processor and assign it to a variable.
+         // AprilTag プロセッサをビルドし、変数に割り当てます。
          myAprilTagProcessor = myAprilTagProcessorBuilder.build();
 
 
-Custom Tag - Direct
-~~~~~~~~~~~~~~~~~~~
+カスタムタグ - 直接指定
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Finally, we are ready to add custom tags to a Library.
+最後に、ライブラリにカスタムタグを追加する準備が整いました。
 
-Each tag needs Metadata. You can enter Metadata values directly to a new
-tag, as follows.
+各タグには**Metadata** が必要です。次のように、新しいタグに**Metadata** 値を直接入力できます。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      The third Block adds the custom tag to the Library. All other Blocks are
-      the same as the previous example.
+      3番目のブロックは、カスタムタグをライブラリに追加します。他のすべてのブロックは前の例と同じです。
 
       .. figure:: images/080-Blocks-addTag.png
          :width: 75%
          :align: center
-         :alt: Custom Tag Library
+         :alt: カスタムタグライブラリ
 
-         Add custom tags to Tag Library
+         タグライブラリにカスタムタグを追加
 
    .. tab-item:: Java
       :sync: java
 
-      The custom tag is added with **one new line** of code, otherwise the
-      same as the previous example.
+      カスタムタグは**1行の新しいコード** で追加され、それ以外は前の例と同じです。
 
       .. code-block:: java
 
@@ -306,58 +256,53 @@ tag, as follows.
          AprilTagLibrary myAprilTagLibrary;
          AprilTagProcessor myAprilTagProcessor;
 
-         // Create a new AprilTagLibrary.Builder object and assigns it to a variable.
+         // 新しい AprilTagLibrary.Builder オブジェクトを作成し、変数に割り当てます。
          myAprilTagLibraryBuilder = new AprilTagLibrary.Builder();
 
-         // Add all the tags from the given AprilTagLibrary to the AprilTagLibrary.Builder.
-         // Get the AprilTagLibrary for the current season.
+         // 指定された AprilTagLibrary からすべてのタグを AprilTagLibrary.Builder に追加します。
+         // 現在のシーズンの AprilTagLibrary を取得します。
          myAprilTagLibraryBuilder.addTags(AprilTagGameDatabase.getCurrentGameTagLibrary());
 
-         // Add a tag, without pose information, to the AprilTagLibrary.Builder.
+         // ポーズ情報なしでタグを AprilTagLibrary.Builder に追加します。
          myAprilTagLibraryBuilder.addTag(55, "Our Awesome Team Tag", 3.5, DistanceUnit.INCH);
 
-         // Build the AprilTag library and assign it to a variable.
+         // AprilTag ライブラリをビルドし、変数に割り当てます。
          myAprilTagLibrary = myAprilTagLibraryBuilder.build();
 
-         // Create a new AprilTagProcessor.Builder object and assign it to a variable.
+         // 新しい AprilTagProcessor.Builder オブジェクトを作成し、変数に割り当てます。
          myAprilTagProcessorBuilder = new AprilTagProcessor.Builder();
 
-         // Set the tag library.
+         // タグライブラリを設定します。
          myAprilTagProcessorBuilder.setTagLibrary(myAprilTagLibrary);
 
-         // Build the AprilTag processor and assign it to a variable.
+         // AprilTag プロセッサをビルドし、変数に割り当てます。
          myAprilTagProcessor = myAprilTagProcessorBuilder.build();
 
 
-Custom Tag - Variable
-~~~~~~~~~~~~~~~~~~~~~
+カスタムタグ - 変数を使用
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As an alternate, you can assign Metadata to a Variable, then use that
-Variable to create a new AprilTag.
+別の方法として、**Metadata** を変数に割り当て、その変数を使用して新しい**AprilTag** を作成できます。
 
 .. tab-set::
    .. tab-item:: Blocks
       :sync: blocks
 
-      These two Blocks could replace the single new Block in the previous
-      example.
+      これら2つのブロックは、前の例の1つの新しいブロックを置き換えることができます。
 
       .. figure:: images/090-Blocks-add-Metadata.png
          :width: 75%
          :align: center
-         :alt: Variable Metadata
+         :alt: 変数 Metadata
 
-         Setting Metadata with Variable
+         変数を使用した Metadata の設定
 
-      These Blocks are separated, to illustrate that the Metadata Variable can
-      be initialized/assigned anywhere before being added with the Library
-      Builder. It doesn’t have to appear immediately before use.
+      これらのブロックは分離されており、**Metadata** 変数は**Library Builder** で追加される前のどこででも初期化/割り当てできることを示しています。使用の直前に表示する必要はありません。
 
    .. tab-item:: Java
       :sync: java
 
-      The custom tag is added with **two lines**of code, replacing the**one
-      new line** in the previous example.
+      カスタムタグは**2行のコード** で追加され、前の例の**1行の新しいコード** を置き換えます。
 
       .. code-block:: java
 
@@ -367,56 +312,45 @@ Variable to create a new AprilTag.
          AprilTagLibrary myAprilTagLibrary;
          AprilTagProcessor myAprilTagProcessor;
 
-         // Create a new AprilTagLibrary.Builder object and assigns it to a variable.
+         // 新しい AprilTagLibrary.Builder オブジェクトを作成し、変数に割り当てます。
          myAprilTagLibraryBuilder = new AprilTagLibrary.Builder();
 
-         // Add all the tags from the given AprilTagLibrary to the AprilTagLibrary.Builder.
-         // Get the AprilTagLibrary for the current season.
+         // 指定された AprilTagLibrary からすべてのタグを AprilTagLibrary.Builder に追加します。
+         // 現在のシーズンの AprilTagLibrary を取得します。
          myAprilTagLibraryBuilder.addTags(AprilTagGameDatabase.getCurrentGameTagLibrary());
 
-         // Create a new AprilTagMetdata object and assign it to a variable.
+         // 新しい AprilTagMetdata オブジェクトを作成し、変数に割り当てます。
          myAprilTagMetadata = new AprilTagMetdata(55, "Our Awesome Team Tag", 3.5, DistanceUnit.INCH);
 
-         // Add a tag to the AprilTagLibrary.Builder.
+         // タグを AprilTagLibrary.Builder に追加します。
          myAprilTagLibraryBuilder.addTag(myAprilTagMetadata);
 
-         // Build the AprilTag library and assign it to a variable.
+         // AprilTag ライブラリをビルドし、変数に割り当てます。
          myAprilTagLibrary = myAprilTagLibraryBuilder.build();
 
-         // Create a new AprilTagProcessor.Builder object and assign it to a variable.
+         // 新しい AprilTagProcessor.Builder オブジェクトを作成し、変数に割り当てます。
          myAprilTagProcessorBuilder = new AprilTagProcessor.Builder();
 
-         // Set the tag library.
+         // タグライブラリを設定します。
          myAprilTagProcessorBuilder.setTagLibrary(myAprilTagLibrary);
 
-         // Build the AprilTag processor and assign it to a variable.
-         myAprilTagProcessor = myAprilTagProcessorBuilder.build();
+         // AprilTag プロセッサをビルドし、変数に割り当てます。
+         myAprilTagProcessor = myAprilTagProcessorBuilder.build();**Blocks** または**Java** の場合、複数のタグを複数の（より短い！）変数名（``myTag1`` 、``myTag2`` など）で追加できます。
 
-For Blocks or Java, multiple tags could be added with multiple
-(shorter!) Variable names, such as ``myTag1``,``myTag2``, etc.
+上書き
+~~~~~~
 
-Overwriting
-~~~~~~~~~~~
+ライブラリに既に存在するタグと** 同じ ID コード** を持つカスタム**AprilTag** を作成する場合があります。これは** 上書き** であり、許可するかどうかを選択できます。
 
-You might create a custom AprilTag with the **same ID code** as a tag
-already in the Library. This is **overwriting**, which you can allow or
-not allow.
+``setAllowOverwrite()`` が ``false`` （デフォルト）に設定されており、上書きが試みられると、**OpMode** は適切なエラーメッセージとともにクラッシュします。
 
-If ``setAllowOverwrite()``is set to``false`` (the default) and
-overwrite is attempted, the OpMode will crash with a suitable error
-message.
+``true`` に設定すると、カスタムタグが既存のタグを置き換えます。
 
-If set to ``true``, the custom tag will replace the existing tag.
+なぜこれを行うのでしょうか？タグサイズが正確ではないとします。同じ**Metadata** で新しいタグを入力できますが、タグサイズを修正します。
 
-Why might you do this? Suppose a tag size is not quite correct. You
-could enter a new tag with the same Metadata, but with a corrected tag
-size.
+または、独自のタグ名または距離単位を使用することを好む場合があります。
 
-Or you might prefer to use your own tag names, or distance units.
-
-Advanced users might want to specify the **location** of a predefined
-tag **on the game field**. This can be done with the optional Vector
-and Quaternion fields.
+上級ユーザーは、** ゲームフィールド** 上の事前定義タグの** 位置** を指定したい場合があります。これは、オプションの**Vector** および**Quaternion** フィールドで行うことができます。
 
 ====
 

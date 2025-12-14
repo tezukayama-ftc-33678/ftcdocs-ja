@@ -358,35 +358,43 @@
 ##### 実績工数: 約3時間（予想: 6-8時間）
 ##### 注記: Python スクリプトを使用した段階的翻訳により効率的に完了。全3ファイル（合計654→541行）を翻訳。
 
-#### Sub-Phase 5.2: AprilTag ライブラリと検出（約5ファイル）
-- [ ] `docs/source/apriltag/vision_portal/apriltag_library/apriltag-library.rst` - **大規模ファイル（約424行）** AprilTag ライブラリ
-- [ ] `docs/source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst` - 検出値の理解
-- [ ] `docs/source/apriltag/apriltag_tips/apriltag-tips.rst` - AprilTag のヒント
+#### Sub-Phase 5.2: AprilTag ライブラリと検出（3ファイル）✅ **完了**
+- [x] `docs/source/apriltag/vision_portal/apriltag_library/apriltag-library.rst` - **424行** AprilTag ライブラリ ✅ 2025-12-14完了
+- [x] `docs/source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst` - **223行** 検出値の理解 ✅ 2025-12-14完了
+- [x] `docs/source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst` - **218行** AprilTag デコードのヒント ✅ 2025-12-14完了
 
-##### 予想工数: 6-8時間
+##### 実績工数: 約2時間（予想: 6-8時間）
 
-#### Sub-Phase 5.3: AprilTag 位置推定と最適化（約5ファイル）
-- [ ] `docs/source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst` - **大規模ファイル（約410行）** AprilTag位置推定
-- [ ] `docs/source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst` - **大規模ファイル（約461行）** CPU・帯域幅最適化
-- [ ] `docs/source/apriltag/vision_portal/visionportal_multiportal/visionportal-multiportal.rst` - マルチポータル
+#### Sub-Phase 5.3: AprilTag 位置推定と最適化（3ファイル） **進行中（1/3完了）**
+- [ ] `docs/source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst` - **411行** AprilTag位置推定
+- [ ] `docs/source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst` - **462行** CPU・帯域幅最適化
+- [x] `docs/source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst` - **131行** マルチポータル ✅ 2025-12-14完了
 
-##### 予想工数: 7-9時間
+##### 実績工数: 約0.5時間（予想: 7-9時間）
+##### 進捗: 1ファイル完了（131行、13%）、残り2ファイル（873行、87%）
 
-#### Sub-Phase 5.4: カラーセンサーと色空間（約4ファイル）
-- [ ] `docs/source/color_processing/color-sensor/color-sensor.rst` - **大規模ファイル（約403行）** カラーセンサー
-- [ ] `docs/source/color_processing/color-spaces/color-spaces.rst` - 色空間
-- [ ] `docs/source/color_processing/color-blob-concepts/color-blob-concepts.rst` - Color Blob概念
+#### Sub-Phase 5.4: カラーセンサーと色空間（3ファイル） **進行中（2/3完了）**
+- [ ] `docs/source/color_processing/color-sensor/color-sensor.rst` - **404行** カラーセンサー
+- [x] `docs/source/color_processing/color-spaces/color-spaces.rst` - **138行** 色空間 ✅ 2025-12-14完了
+- [x] `docs/source/color_processing/color-blob-concepts/color-blob-concepts.rst` - **148行** Color Blob概念 ✅ 2025-12-14完了
 
-##### 予想工数: 6-8時間
+##### 実績工数: 約1時間（予想: 6-8時間）
+##### 進捗: 2ファイル完了（286行、41%）、残り1ファイル（404行、59%）
 
-#### Sub-Phase 5.5: Color Locator シリーズ（約5ファイル）
-- [ ] `docs/source/color_processing/color-locator-discover/color-locator-discover.rst` - **大規模ファイル（約341行）** Color Locator発見
-- [ ] `docs/source/color_processing/color-locator-explore/color-locator-explore.rst` - **大規模ファイル（約505行）** Color Locator探索
-- [ ] `docs/source/color_processing/color-locator-challenge/color-locator-challenge.rst` - **大規模ファイル（約565行）** Color Locatorチャレンジ
+#### Sub-Phase 5.5: Color Locator シリーズ（3ファイル）
+- [ ] `docs/source/color_processing/color-locator-discover/color-locator-discover.rst` - **342行** Color Locator発見
+- [ ] `docs/source/color_processing/color-locator-explore/color-locator-explore.rst` - **506行** Color Locator探索
+- [ ] `docs/source/color_processing/color-locator-challenge/color-locator-challenge.rst` - **566行** Color Locatorチャレンジ
 
 ##### 予想工数: 8-10時間
 
-#### Phase 5 合計予想工数: 27-35時間
+#### Phase 5 合計
+- **総ファイル数:** 15ファイル
+- **完了:** 9ファイル（60.0%）✅
+- **残り:** 6ファイル（40.0%）
+- **実績工数:** 約6.5時間
+- **残り予想工数:** 20-24.5時間
+- **Phase 5 合計予想工数:** 26.5-31時間
 #### Phase 5 注記
 - ビジョンプログラミング（Webcam制御）は Phase 4.11 に移動
 - IMU（慣性計測ユニット）は Phase 4.12 に移動
