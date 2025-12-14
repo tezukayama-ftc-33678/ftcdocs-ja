@@ -81,6 +81,19 @@
    AprilTag 値の理解 </apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values>
    AprilTag ローカリゼーション </apriltag/vision_portal/apriltag_localization/apriltag-localization>
    AprilTag テスト画像 </apriltag/opmode_test_images/opmode-test-images>
+   AprilTag 高度な使用法 </apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use>
+   AprilTag カメラキャリブレーション </apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration>
+   AprilTag ID とコード </apriltag/vision_portal/apriltag_id_code/apriltag-id-code>
+   AprilTag ライブラリ </apriltag/vision_portal/apriltag_library/apriltag-library>
+   AprilTag メタデータ </apriltag/vision_portal/apriltag_metadata/apriltag-metadata>
+   AprilTag ポーズ </apriltag/vision_portal/apriltag_pose/apriltag-pose>
+   AprilTag 参照フレーム </apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame>
+   Vision マルチポータル </apriltag/vision_portal/vision_multiportal/vision-multiportal>
+   Vision プロセッサーの初期化 </apriltag/vision_portal/vision_processor_init/vision-processor-init>
+   VisionPortal カメラコントロール </apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls>
+   VisionPortal CPU と帯域幅 </apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth>
+   VisionPortal 初期化 </apriltag/vision_portal/visionportal_init/visionportal-init>
+   VisionPortal プレビュー </apriltag/vision_portal/visionportal_previews/visionportal-previews>
 
 .. toctree::
    :caption: CAD リソース
