@@ -136,10 +136,11 @@ msgid ""
 "this feature, you might need to swipe up from the bottom of the screen to "
 "display the navigation buttons."
 msgstr ""
+"一部のAndroidスマートフォンには、下部のナビゲーションボタンを自動的に隠す自動非表示機能があることに注意してください。スマートフォンにこの機能がある場合は、画面の下部から上にスワイプしてナビゲーションボタンを表示する必要がある場合があります。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:92
 msgid "Displaying Available Apps on your Android Phone"
-msgstr ""
+msgstr "Androidスマートフォンで利用可能なアプリを表示する"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:94
 msgid ""
@@ -148,3 +149,6 @@ msgid ""
 "touchscreen. Newer versions of Android no longer have the *App Drawer* "
 "feature."
 msgstr ""
+"Android "
+"Nougat（7.x）以降のデバイスを使用している場合は、タッチスクリーンの下部から上にスワイプするだけで、利用可能なアプリを表示できます。新しいバージョンのAndroidには、*App"
+" Drawer*機能がなくなりました。"

@@ -57,6 +57,11 @@ msgid ""
 "onto an Android device `here <https://developer.android.com/training/data-"
 "storage>`__"
 msgstr ""
+"PID係数への変更は、REV Robotics **Control Hub** または REV Robotics **Expansion Hub** "
+"の電源を入れ直すと保持されないことに注意してください。PIDへの変更を保持する必要がある場合は、**OpMode** を変更して **Control "
+"Hub** またはAndroidスマートフォンに状態情報を保存することを検討してください。Android Developer "
+"Webサイトには、アプリからAndroidデバイスにデータを保存する方法についてのチュートリアルが `こちら "
+"<https://developer.android.com/training/data-storage>`__ にあります。"
 
 #: ../../source/programming_resources/shared/pid_coefficients/pid-coefficients.rst:79
 msgid ""
