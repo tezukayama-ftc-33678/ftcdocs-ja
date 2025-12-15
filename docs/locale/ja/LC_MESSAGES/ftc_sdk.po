@@ -1,0 +1,1842 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-15 09:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/ftc_sdk/overview/index.rst:-1
+msgid "FIRST Tech Challenge Software Development Kit"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:-1
+msgid "A brief introduction to the FTC SDK"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:-1
+msgid ""
+"FTC Docs, FIRST Tech Challenge, FTC, RC, Robot Controller, DS, Driver "
+"Station"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:7
+msgid "*FIRST* Tech Challenge Software Development Kit"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:9
+msgid ""
+"The Software Development Kit (SDK) is the collection of tools for "
+"developing software and executing it on a *FIRST* Tech Challenge robot. "
+"SDK Software includes:"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:13
+msgid "*FIRST* Tech Challenge Driver Station App"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:15
+msgid ""
+"Includes Self-Inspect, :doc:`Robot Configuration "
+"</hardware_and_software_configuration/configuring/index>`, and others"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:17
+msgid "*FIRST* Tech Challenge Robot Controller App"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:19
+msgid ""
+"Includes :doc:`Blocks Programming Environment "
+"</programming_resources/blocks/Blocks-Tutorial>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:20
+msgid ""
+"Includes :doc:`OnBot Java Programming Environment "
+"</programming_resources/onbot_java/OnBot-Java-Tutorial>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:22
+msgid ""
+"`Android Studio Project <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`__ for building the Robot Controller App "
+"with :doc:`Android Studio </programming_resources/android_studio_java"
+"/Android-Studio-Tutorial>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:25
+#: ../../source/ftc_sdk/overview/index.rst:48
+msgid ""
+"`Javadoc Reference Documentation "
+"<https://javadoc.io/doc/org.firstinspires.ftc>`__"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:26
+msgid "Season-Specific Assets (TensorFlow models, Vuforia databases, etc...)"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:28
+msgid ""
+"All released apps/source can be found in the `SDK GitHub Repository "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:31
+msgid "SDK Releases"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:33
+msgid ""
+"The Software Development Kit is developed and maintained by a core group,"
+" known as the *FIRST* Tech Challenge *Technology Team*, within a private "
+"GitHub repository. This repository is kept private in order to prevent "
+"leaking the details of future *FIRST* Tech Challenge game secrets, "
+"features in development, and other aspects of development. Development "
+"and maintenance is ongoing year round."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:40
+msgid "Release Content"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:42
+msgid ""
+"Once the SDK is ready to be released, the private SDK repository is built"
+" and exported. This build consists of:"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:45
+msgid "Built Driver Station App (``FtcDriverStation-release.apk``)"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:46
+msgid "Built Robot Controller App (``FtcRobotController-release.apk``)"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:47
+msgid "Android Studio Project source code (``vX.X.zip``, ``vX.X.tar.gz``)"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:49
+msgid ""
+"Season-Specific Assets (TensorFlow models, Vuforia databases, etc... "
+"hosted separately)"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:51
+msgid ""
+"The export is then pushed to the `FtcRobotController GitHub Repository "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ as a "
+"`software release <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/releases>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:56
+msgid ""
+"The `FtcRobotController GitHub Repository <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`__ is also updated with the exported "
+"Android Studio Project source so that changes can be tracked and the "
+"GitHub repository can be `forked <https://docs.github.com/en/pull-"
+"requests/collaborating-with-pull-requests/working-with-forks/about-"
+"forks>`__ or `cloned <https://docs.github.com/en/repositories/creating-"
+"and-managing-repositories/cloning-a-repository>`__ by teams. This update "
+"is a one-way push, however, which is why public contributions (`Pull "
+"Requests <https://docs.github.com/en/pull-requests/collaborating-with-"
+"pull-requests/proposing-changes-to-your-work-with-pull-requests/about-"
+"pull-requests>`__) to the FtcRobotController repository are not accepted."
+"  The community is free and encouraged to create issues at the repository"
+" for the *Technology Team* to consider and address, however."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:72
+msgid ""
+"Some season-specific assets, such as TensorFlow models and Vuforia "
+"Databases, are not included directly in the FtcRobotController GitHub "
+"repository. Instead, they are packaged in an ``.AAR`` hosted on Maven "
+"Central. When using the Robot Controller App, these assets are included "
+"in the app. When using Android Studio, these assets are downloaded and "
+"included in your project the first time you compile the project (so an "
+"active internet connection is necessary)."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:81
+msgid "Release Schedule"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:83
+msgid ""
+"These releases happen on a regular schedule, even if the exact dates "
+"aren't specifically defined:"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:86
+msgid ""
+"**Kickoff SDK Release** - Generally released within a week or two of the "
+"*FIRST* Tech Challenge Kickoff. The Kickoff SDK is typically the minimal "
+"software version required for use during the season."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:89
+msgid ""
+"**Update / Patch Releases** - These are typically released during the "
+"*FIRST* Tech Challenge season, when critical issues or helpful features "
+"are available for teams. Update/Patch releases aren't generally required "
+"for competition unless a critical patch or bugfix is issued."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:93
+msgid ""
+"**Offseason Release** - Offseason releases are used to prepare teams for "
+"breaking changes or to provide a technology preview for new features in "
+"the upcoming season."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:97
+msgid ""
+"Software SDK updates are announced via the `FIRST Tech Challenge Blog "
+"<https://community.firstinspires.org/topic/ftc>`__ and `Team Email Blasts"
+" <https://www.firstinspires.org/resources/library/ftc/team-email-blast-"
+"archive>`__ ."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:102
+msgid "SDK Release Notes"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:104
+msgid ""
+"One of the most important elements of the SDK Release is the `SDK Release"
+" Notes <https://github.com/FIRST-Tech-Challenge/FtcRobotController"
+"#release-information>`__. The SDK Release Notes contain important aspects"
+" of each release, including breaking changes, enhancements, and critical "
+"bug fixes of note."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:110
+msgid "Breaking Changes"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:112
+msgid ""
+"Breaking changes are as the name suggests, which are changes made within "
+"the SDK's APIs or general architecture that may break existing code or "
+"configurations that may already exist. It is especially important for all"
+" users of the SDK to read the Breaking Changes section of the release "
+"notes, if one exists for a given release, and determine the impact on "
+"their existing code."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:119
+msgid "Enhancements"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:121
+msgid ""
+"Enhancements are new features or (non-breaking) improvements made to "
+"existing features of the SDK. Enhancements might include items such as "
+"improved logging, new user interfaces (UI), better user experience (UX), "
+"new APIs, better performance, or greater reliability. Not all "
+"enhancements of the SDK are listed in the release notes, but those that "
+"have a direct user impact should be listed."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:128
+msgid "Bug Fixes"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:130
+msgid ""
+"Virtually every release of the SDK includes bug fixes, but when the "
+"*Technology Team* wishes to elevate the visibility of an important bug "
+"fix it is included in a Bug Fixes section of the Release Notes. Sometimes"
+" team code can be affected if the bug required a workaround, and being "
+"elevated in the Release Notes is a way for the *Technology Team* to "
+"notify teams that the workaround is no longer necessary."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:138
+msgid "Updating SDK Software"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:140
+msgid ""
+"It is important for teams to update the SDK software. Updates mid-season "
+"may not be required. Teams can check  the minimum software version "
+"required for a game in the Competition Manual.  It is recommended to use "
+"the REV Hardware Client to update hardware, if a 64-bit Windows computer "
+"is available. If not, then alternate methods provided can be used to "
+"update the software."
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:146
+msgid ""
+":doc:`Updating the REV Hardware Client </ftc_sdk/updating/hardware_client"
+"/Updating-REV-Hardware-Client>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:147
+msgid ""
+":doc:`Updating the Driver Station App </ftc_sdk/updating/ds_app/Updating-"
+"the-DS-App>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:148
+msgid ""
+":doc:`Updating the Robot Controller App </ftc_sdk/updating/rc_app"
+"/Updating-the-RC-App>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:149
+msgid ""
+":doc:`Updating the Driver Hub OS </ftc_sdk/updating/driverhub_os"
+"/Updating-the-Driver-Hub-OS>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:150
+msgid ""
+":doc:`Updating the Control Hub OS </ftc_sdk/updating/controlhub_os"
+"/Updating-the-Control-Hub-OS>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/overview/index.rst:151
+msgid ""
+":doc:`Updating the Hub Firmware </ftc_sdk/updating/hub_firmware/Updating-"
+"Hub-Firmware>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:2
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:35
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:58
+msgid "Updating the Control Hub OS"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:4
+msgid ""
+"An Operating System (OS) is software that supports a computer’s basic "
+"functions, such as scheduling tasks, executing applications, and "
+"controlling peripherals. This must sometimes be updated on the **REV "
+"Control Hub**. While this OS update is not specifically part of the "
+":doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK "
+"requires these updates for the Control Hub in order to perform correctly."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:11
+msgid "Here are two methods for updating the Control Hub OS:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:13
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:13
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:23
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:169
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:11
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:78
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:225
+msgid "REV Hardware Client (RHC)"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:14
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:14
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:79
+msgid "Manage page on computer"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:16
+msgid ""
+"More info about updating the Control Hub OS is `at REV Robotics’ "
+"excellent documentation site <https://docs.revrobotics.com/duo-control"
+"/managing-the-control-system/updating-operating-system>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
+msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:21
+msgid "Apply 12V robot power to the REV Control Hub."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:23
+msgid ""
+"Plug the Control Hub directly into a computer running the REV Hardware "
+"Client, with a USB-C data cable."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:26
+msgid ""
+"Click the hub’s large icon/rectangle. Under “Control Hub Operating "
+"System”, see the current/latest mismatch, if any (yellow oval, below)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:37
+msgid ""
+"Confirm the Latest Version in the drop-down menu, then click the blue "
+"“Update” rectangle (green arrow, above). The speed of this update is "
+"improved, since    :doc:`in Updating the REV Hardware Client "
+"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
+"required update file was previously downloaded."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:43
+msgid "Done! The Control Hub’s OS is now updated."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+msgid "Method 2 - Manage page on computer"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:47
+msgid ""
+"Connect the computer via Wi-Fi to the Control Hub. In the Chrome browser,"
+" open the *FIRST* Tech Challenge interface."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:50
+msgid ""
+"Click on the Manage tab, scroll down to Update Control Hub Operating "
+"System."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:60
+msgid ""
+"If needed, download the latest OS file from the REV Robotics `Control Hub"
+" OS web page <https://docs.revrobotics.com/duo-control/managing-the-"
+"control-system/updating-operating-system#using-the-robot-controller-"
+"console>`__. Do not extract or “un-zip” this file."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:65
+msgid ""
+"At the Manage page, click “Select Update File…” and navigate to the "
+"computer’s folder where you downloaded the OS file."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:68
+msgid "Select that file, and click “Update & Reboot” (green arrow, above)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:70
+msgid "That’s it! The Control Hub’s OS is now updated."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:72
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:78
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:288
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:99
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:212
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:351
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:2
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:33
+msgid "Updating the Driver Hub OS"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:4
+msgid ""
+"An Operating System (OS) is software that supports a computer’s basic "
+"functions, such as scheduling tasks, executing applications, and "
+"controlling peripherals. This must sometimes be updated on the **REV "
+"Driver Hub**. While this OS update is not specifically part of the "
+":doc:`Software Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK "
+"requires these updates for the Driver Hub in order to perform correctly."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:11
+msgid "Here are two methods for updating the Driver Hub OS:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:14
+msgid "Software Manager on Driver Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:16
+msgid ""
+"More info about updating the Driver Hub OS is `at REV Robotics’ excellent"
+" documentation site <https://docs.revrobotics.com/duo-control/managing-"
+"the-control-system/updating-the-driver-hub>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:21
+msgid ""
+"Turn on the Driver Hub. Plug it directly into a computer running the REV "
+"Hardware Client, with a USB-C data cable."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:24
+msgid ""
+"Click the Driver Hub’s large icon/rectangle. Under “Driver Hub Operating "
+"System”, see the current/latest mismatch, if any (yellow oval, below)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:35
+msgid ""
+"Confirm the Latest Version in the drop-down menu, if any. Then click the "
+"blue rectangle, labeled “Update” when applicable. The speed of this "
+"update is improved, since :doc:`in Updating the REV Hardware Client "
+"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
+"required update file was previously downloaded."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:43
+msgid "Done! The Driver Hub’s OS is now updated."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
+msgid "Method 2 - Software Manager"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:47
+msgid ""
+"The REV Driver Hub has a built-in app called the Software Manager, which "
+"can automatically update the Driver Hub OS (and other related software). "
+"It requires only an internet connection."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:51
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:142
+msgid ""
+"Close all apps, and open the Driver Hub’s Wi-Fi menu (in Settings, or "
+"swipe down twice from top of home screen). Temporarily connect the Driver"
+" Hub to the internet via Wi-Fi."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:55
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:146
+msgid ""
+"Open the Software Manager app at the Driver Hub home screen (left image, "
+"below)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:63
+msgid "Updating the Software Manager"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:65
+msgid ""
+"The Software Manager will automatically check for any updates needed, and"
+" display the results (right image, above). Touch the grey button to "
+"perform the updates, including the Driver Hub Operating System (OS) if "
+"needed."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:71
+msgid ""
+"While REV Robotics does provide a downloadable OS image file for the "
+"Driver Hub, the tools available in this tutorial do not accept providing "
+"this file for updating the OS."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:75
+msgid ""
+"When all is complete, “Forget” the Wi-Fi network used for internet "
+"access. Now the Driver Hub is ready for regular competition use."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:2
+msgid "Updating the Driver Station App"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:4
+msgid ""
+"The Driver Station App is one of the Apps provided with the *FIRST* Tech "
+"Challenge :doc:`Software Development Kit (SDK) "
+"</ftc_sdk/overview/index>`.  The Driver Station App is the major "
+"interface for robot configuration, gamepad support, self-inspect, Team "
+"code selection and execution, and others. This app runs on the REV Driver"
+" Hub or an approved Android smartphone."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:10
+msgid ""
+"This page shows how to update the Driver Station (DS) app on these "
+"devices:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:13
+msgid "REV Driver Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:14
+msgid "An approved Android DS phone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:16
+msgid ""
+"These methods for updating the Driver Station App are the same regardless"
+" of the programming language/environment used to program robot Team Code."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+msgid "Updating Driver Station (DS) app on REV Driver Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:21
+msgid "Here are 3 methods to update the DS app on a REV Driver Hub:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:24
+msgid "\"Side loading” with APK"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:25
+msgid "Software Manager on REV Driver Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:29
+msgid ""
+"Plug the REV Driver Hub directly into the Windows computer with RHC "
+"installed and open. Use a USB-C data cable. Make sure the “Hardware” tab "
+"is active, at top left. The DS app on the Driver Hub does **not** need to"
+" be open."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:34
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:179
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:92
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:240
+msgid ""
+"Here the computer does not need to be connected to the internet, since "
+":doc:`in Updating the REV Hardware Client "
+"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
+"required DS update file was previously downloaded."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:39
+msgid "The RHC app will recognize the Driver Hub, as shown here:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:46
+msgid "Recognizing the Driver Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:48
+msgid ""
+"Once recognized, click on the Driver Hub’s large icon/rectangle. The RHC "
+"app now displays the update status of the DS app, if any."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:56
+msgid "Updating the Driver Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:58
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:210
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:116
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:271
+msgid "Simply click the blue Update rectangle (green arrow) – done!"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:60
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:212
+msgid ""
+"The update was fast, because you had already downloaded the DS app to the"
+" RHC. That was noted with ’(Already Downloaded)“, to the left of the blue"
+" Update rectangle."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:64
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:216
+msgid ""
+"You could have selected an **older** version of the DS app, in the drop-"
+"down list just above the blue Update rectangle."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:67
+msgid ""
+"After install, drag the DS app icon from the app menu to the Driver Hub’s"
+" home screen, if needed."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:70
+msgid ""
+"You may now unplug the Driver Hub from the computer, and close the RHC "
+"app. The updated DS app is ready to use."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+msgid "Method 2 - Side-load APK"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:75
+msgid ""
+"Here you will work directly with the Android Package or **APK file** to "
+"install the DS app on the Driver Hub. Any computer can be used, PC or "
+"Mac, old or new. This method is sometimes called “side-loading”."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:79
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:231
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:292
+msgid ""
+"Connect your computer to the internet, open a web browser, and navigate "
+"to the `SDK github repository <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:88
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:240
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:129
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:301
+msgid "SDK GitHub Repo"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:90
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:242
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:131
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:303
+msgid ""
+"At the right side under “Releases”, click the “Latest” icon (yellow oval,"
+" above)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:93
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:245
+msgid ""
+"In the next page, scroll down slightly in the “Latest” section, to the "
+"short list of “Assets”. Click on the file “FtcDriverStation-release.apk”,"
+" to download it to your computer."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:102
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:254
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:143
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:315
+msgid "SDK GitHub Releases"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:104
+msgid ""
+"At this time, you could rename the file to reflect its current version "
+"number. For example, ``FtcDriverStation-release-8.0.apk`` or simply "
+"``DS-8.0-release.apk``. This distinguishes the file from other versions "
+"that might be stored later on that Driver Hub."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:109
+msgid ""
+"Transfer the APK file from the computer to the Driver Hub’s Downloads "
+"folder. Use a USB-C data cable. When complete, you may unplug the Driver "
+"Hub from the computer."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:113
+msgid ""
+"Uninstall the existing (obsolete) DS app, by dragging its icon to the "
+"Trash/Uninstall icon. Or, touch and hold the DS icon for “App info”, then"
+" choose Uninstall."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:117
+msgid ""
+"On the Driver Hub, navigate to the Downloads folder. This can be done in "
+"several ways:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:120
+msgid ""
+"at the main app menu (swipe up), touch the Files icon, then three bars at"
+" top left"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:123
+msgid "use the basic file manager in Settings/Storage, then touch Files"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:125
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:277
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:337
+msgid ""
+"use a third-party app such as FX File Explorer (from the Google Play "
+"Store)"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:128
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:280
+msgid ""
+"Touch the APK filename that you transferred. Respond to the prompts, to "
+"install the updated DS app."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:131
+msgid ""
+"After install, drag the DS app icon from the menu to the Driver Hub’s "
+"home screen, if needed."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:134
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:286
+msgid "Done! The updated DS app is now ready to use."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+msgid "Method 3 - Software Manager"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:138
+msgid ""
+"The REV Driver Hub has a built-in app called the Software Manager, which "
+"can automatically update the DS app (and other related software). It "
+"requires only an internet connection."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:154
+msgid "REV Software Manager"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:156
+msgid ""
+"The Software Manager will automatically check for any updates needed, and"
+" display the results (right image, above). Click the grey box to update "
+"the Driver Station (DS) app, if needed."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:160
+msgid "When all is complete, “Forget” the Wi-Fi network used for internet access."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:163
+msgid "Done! Now the Driver Hub is updated and ready for use."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+msgid "Updating Driver Station (DS) app on Android smartphone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:167
+msgid "There are 2 methods to update the DS app on a DS phone:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:170
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:226
+msgid "“Side loading” with APK"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:174
+msgid ""
+"Plug the DS phone directly into the computer with RHC installed and open."
+" Use a USB data cable, not a charge-only cable. Make sure the “Hardware” "
+"tab is active, at top left. The DS app on the phone does **not** need to "
+"be open."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:184
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:245
+msgid "The RHC app will recognize the phone, as shown here:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:191
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:252
+msgid "Recognizing the Phone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:193
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:254
+msgid ""
+"If the phone is not recognized, ensure that the phone has :doc:`developer"
+" options "
+"</programming_resources/tutorial_specific/android_studio/enabling_developer_options"
+"/Enabling-Developer-Options>` enabled. If necessary, click the \"Scan for"
+" Devices\" button in the lower-left of the REV Hardware Client app to "
+"force the RHC to rescan devices."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:200
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:261
+msgid ""
+"Once recognized, click on that phone’s large icon/rectangle. The RHC app "
+"now displays the update status of the DS app, if any."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:269
+msgid "Update Status of Phone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:208
+msgid "Update Status of Smartphone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:219
+msgid ""
+"After install, drag the DS app icon from the app menu to the phone’s home"
+" screen."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:222
+msgid ""
+"You may now unplug the DS phone from the computer, and close the RHC app."
+" The updated DS app is ready to use."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:227
+msgid ""
+"Here you will work directly with the Android Package or **APK file** to "
+"install the DS app on the Android phone. Any computer can be used, PC or "
+"Mac, old or new. This method is sometimes called “side-loading”."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:256
+msgid ""
+"At this time, you could rename the file to reflect its current version "
+"number. For example, ``FtcDriverStation-release-8.0.apk`` or simply "
+"``DS-8.0-release.apk``. This distinguishes the file from other versions "
+"that might be stored later on that DS phone."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:261
+msgid ""
+"Transfer the APK file from the computer to the DS phone’s Downloads (or "
+"Download) folder. Use a USB data cable (not a charge-only cable). When "
+"complete, you may unplug the DS phone from the computer."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:265
+msgid ""
+"Uninstall the existing (obsolete) DS app, by dragging its icon to a "
+"Trash/Uninstall icon. Or, touch and hold the DS icon for “App info”, then"
+" choose Uninstall."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:269
+msgid ""
+"On the DS phone, navigate to the Downloads folder. This can be done in "
+"several ways:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:272
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:333
+msgid ""
+"at the main app menu (swipe up), touch the Files icon or the Downloads "
+"icon (if present)"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:275
+msgid "use the basic file manager in Settings/Storage, then Explore or Files"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:283
+msgid ""
+"After install, drag the DS app icon from the menu to the phone’s home "
+"screen."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:2
+msgid "Installing and Updating the REV Hardware Client"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:4
+msgid ""
+"The REV Hardware Client is a desktop app, or software tool, that "
+"simplifies updating software on devices used in *FIRST* Tech Challenge. "
+"Unfortunately the REV Hardware Client is currently Windows-only, "
+"Apple/Mac users must use alternate methods of updating software. In this "
+"tutorial, some steps ask to download software and updates - doing this is"
+" not required, but will save time during updates."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:11
+msgid ""
+"To install, use the following steps on a **64-bit** PC or laptop running "
+"Windows 7 or newer."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:14
+msgid "**Apple/Mac users should skip these steps.**"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:17
+msgid ""
+"Not sure about 64-bit? In Windows Explorer, right-click “Computer” (Win "
+"7) or “This PC” (Win 10), choose Properties, see “System type”."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:21
+msgid "Installing the RHC"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:23
+msgid ""
+"Connect the computer to the internet, and download RHC `from the REV RHC "
+"download page <https://docs.revrobotics.com/rev-hardware-client/>`__. "
+"Just click the orange Download button and choose your computer’s "
+"Downloads folder to store the file."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:33
+msgid "Downloading REV Hardware Client"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:37
+msgid ""
+"See the downloaded file shown at lower left (green arrow). Click that "
+"filename to begin installing the RHC app; then follow the prompts. When "
+"that’s complete, the RHC icon will appear on your computer’s desktop."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:42
+msgid ""
+"If the computer is **not** 64-bit, RHC installation will fail with an "
+"appropriate error message."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:46
+msgid "Downloading Initial Updates"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:48
+msgid ""
+"Open the RHC app. This is a good time to **pre-download** various pieces "
+"of software you might need soon."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:51
+msgid ""
+"Why download now? Later, this computer might be connected via Wi-Fi to a "
+"Robot Controller, not to the internet. Or a good internet connection "
+"might not be available when urgently needed (Murphy’s Law)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:55
+msgid ""
+"Click on the Downloads tab (top left). Under “Available Files” is a list "
+"of software for *FIRST* Tech Challenge and other software for a different"
+" program called *FIRST* Robotics Competition."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:64
+msgid "Available Files"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:64
+msgid "REV Hardware Client Available Files"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:68
+msgid ""
+"Click the orange Download button, only for the 5 *FIRST* Tech Challenge "
+"items (yellow rectangles). This may take a few minutes; the OS files are "
+"large."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:71
+msgid ""
+"You don’t need to track where these files are stored; they will be "
+"available to the RHC app when needed for device update."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:74
+msgid ""
+"When complete, these 5 items will appear under the heading “Downloaded "
+"Files”."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:78
+msgid "Updating the REV Hardware Client"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:80
+msgid ""
+"On a Windows computer connected to the internet, open the REV Hardware "
+"Client."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:88
+msgid "Updating Updates"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:88
+msgid "REV Hardware Client Available Updates"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:92
+msgid ""
+"Click the \"About\" tab, then click \"Check for Updates\" (green arrow, "
+"above). If a new version is available, click to update."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:95
+msgid ""
+"That’s all for now! You will use these files later, when updating various"
+" devices. More info about the RHC is `at REV Robotics’ excellent "
+"documentation site. <https://docs.revrobotics.com/rev-hardware-"
+"client/>`__"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:2
+#: ../../source/ftc_sdk/updating/index.rst:14
+msgid "Updating Hub Firmware"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:4
+msgid ""
+"Firmware is low-level software that controls a device’s circuit boards, "
+"or electronic **hardware**. This must sometimes be updated on the REV "
+"Expansion Hub and the REV Control Hub in order for the :doc:`Software "
+"Development Kit (SDK) </ftc_sdk/overview/index>` to perform correctly."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:9
+msgid "Here are 5 methods:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:12
+msgid "Driver Station app"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:13
+msgid "Robot Controller (RC) app - on RC phone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:15
+msgid "Manage page on Driver Station device (DS phone or Driver Hub)"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:19
+msgid ""
+"For REV Control Hub, apply 12V robot power. For REV Expansion Hub, 12V "
+"power is optional."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:22
+msgid ""
+"Plug the REV Hub directly into a computer running the REV Hardware "
+"Client, with a USB data cable (not charge-only). The Expansion Hub’s port"
+" is Mini USB (not micro). On the Control Hub, use only the USB-C port, "
+"not its Mini USB port."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:27
+msgid ""
+"Click the hub’s large icon/rectangle. Under “Expansion/Control Hub "
+"Firmware”, see the current/latest mismatch, if any (yellow oval, below)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:36
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:45
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:78
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:125
+msgid "Updating Firmware"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:38
+msgid "Here’s an example with Control Hub:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:47
+msgid ""
+"Confirm the Latest Version in the drop-down menu, then click the blue "
+"“Re-install” rectangle (green arrow, above). This is done quickly, since "
+":doc:`in Updating the REV Hardware Client "
+"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
+"required update file was previously downloaded."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:53
+msgid "Done! The Hub’s firmware is now updated."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:55
+msgid ""
+"More info about using the RHC to update Hub firmware is `at REV Robotics’"
+" excellent documentation site <https://docs.revrobotics.com/duo-control"
+"/managing-the-control-system/updating-firmware>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
+msgid "Method 2 - Driver Station app"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:59
+msgid "This method applies to any DS app, running on a DS phone or a Driver Hub."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:62
+msgid ""
+"For REV Control Hub, apply 12V robot power. For REV Expansion Hub, "
+"connect directly to Robot Controller (RC) phone, open RC app, **and** "
+"apply 12V power. The Expansion Hub being updated must be **plugged "
+"directly** into the RC phone, with no intermediate Control Hub or other "
+"(primary) Expansion Hub. After updating you can return that Hub to its "
+"secondary position, if needed."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:69
+msgid ""
+"Connect/pair the DS app to the RC device, from a DS phone or Driver Hub. "
+"Select DS Settings, Advanced (Robot Controller) Settings, REV Hub "
+"Firmware Update."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:80
+msgid ""
+"Review the list of available Hub firmware, whether stored on the RC "
+"device and/or “bundled” in the app."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:83
+msgid ""
+"If the latest does **not** appear on the list, you can transfer the "
+"firmware file from a computer to the Robot Controller. Use a USB data "
+"cable (not a charge-only cable) to store the firmware file in the RC "
+"device’s subfolder called FIRST/updates/Expansion Hub Firmware."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:88
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:137
+msgid ""
+"Current and older firmware files can be found at the `REV Robotics "
+"website <https://docs.revrobotics.com/duo-control/managing-the-control-"
+"system/updating-firmware/firmware-changelog>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:91
+msgid "Then return to this list of available firmware."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:93
+msgid ""
+"Now select the latest firmware version and touch “Update Hub Firmware” "
+"(green arrow, above). Wait for the process to finish; do not unplug the "
+"Hub or restart the robot."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:97
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:154
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:210
+msgid "That’s it! The Hub’s firmware is now updated."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
+msgid "Method 3 - Robot Controller (RC) app - on RC phone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:101
+msgid ""
+"This method is **exactly the same** as Method #2 immediately above, since"
+" the DS app was simply providing a portal or window to the RC app."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:104
+msgid ""
+"It’s listed separately here, because it applies only to **Expansion "
+"Hub**, not Control Hub – which doesn’t use an RC phone. In other words, "
+"users do not normally interface directly with the RC app on a Control "
+"Hub."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:109
+msgid ""
+"Again, the Expansion Hub must be plugged **directly** into an RC phone, "
+"with no intermediate (primary) Expansion Hub. After updating you can "
+"return that Hub to its secondary position, if needed."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
+msgid "Method 4 - Manage page on computer"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:115
+msgid ""
+"Connect the computer via Wi-Fi to the Control Hub or RC phone. In the "
+"Chrome browser, open the Manage interface."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:118
+msgid "Click on the Manage tab, scroll down to Update REV Hub Firmware."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:127
+msgid ""
+"See if the grey box (see green arrow, above) offers the latest firmware "
+"version, included or bundled with the RC app."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:130
+msgid ""
+"If not, click the “Select Firmware…” box. Navigate to the desired "
+"firmware file stored on the computer, and select it."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:133
+msgid ""
+"As part of the update process, that selected firmware file will be stored"
+" on the Control Hub or RC phone, in a subfolder called "
+"FIRST/updates/Expansion Hub Firmware."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:140
+msgid ""
+"Now click the box called “Update to…” or “Update using…” (see green "
+"arrow, above)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:148
+msgid "Managing Firmware"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:150
+msgid ""
+"At the confirmation prompt, click the blue box “Update Hub Firmware”. "
+"Wait for the process to finish; do not unplug the Hub or restart the "
+"robot."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
+msgid "Method 5 - Manage page on Driver Station device - DS phone or Driver Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:158
+msgid ""
+"Connect the DS app to the Control Hub or RC phone, from the DS app’s "
+"Settings menu (never with the Android device Wi-Fi settings)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:161
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:194
+msgid ""
+"From the DS app’s menu, select “Program and Manage”. Then touch the 3 "
+"bars at top right, and select “Manage”."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:164
+msgid ""
+"This is the same Manage page that appears in a laptop browser. So the "
+"following instructions are similar to Method 4 above."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:167
+msgid "Scroll down to Update REV Hub Firmware."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:174
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:204
+msgid "Update Hub Firmware"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:176
+msgid ""
+"See if the grey box “Update to…” offers the latest firmware version, "
+"included or bundled with the DS app."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:179
+msgid ""
+"If not, you can transfer the desired firmware file to the **Driver "
+"Station device**."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:182
+msgid ""
+"Yes, that’s correct: transfer to the DS device, not to the RC device. "
+"This Method 5 uses a local file on the DS device, while Methods 2 and 3 "
+"(above) use a local file on the RC device."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:186
+msgid ""
+"Use a USB data cable (not a charge-only cable) to store the firmware file"
+" in the DS device’s Downloads folder."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:189
+msgid ""
+"Current and older firmware files can be found at the REV Robotics website"
+" `here <https://docs.revrobotics.com/duo-control/managing-the-control-"
+"system/updating-firmware/firmware-changelog>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:193
+msgid ""
+"Then click the “Select Firmware…” box. Navigate to the DS device’s "
+"Downloads folder, and select the desired firmware file."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:196
+msgid ""
+"Now click the box called “Update to…” or “Update using…” (second green "
+"arrow, above)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:206
+msgid ""
+"At the confirmation prompt, scroll down and click the blue box “Update "
+"Hub Firmware”. Wait for the process to finish; do not unplug the Hub or "
+"restart the robot."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:14
+msgid "Updating REV Hardware Client"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:14
+msgid "Updating Driver Station App"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:14
+msgid "Updating Robot Controller App"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:14
+msgid "Updating Driver Hub OS"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:14
+msgid "Updating Control Hub OS"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:-1
+msgid "Updating Components of the FTC Control System"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:-1
+msgid ""
+"A comprhensive guide to updating key components of the FIRST Tech "
+"Challenge Control System"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:-1
+msgid "FTC Docs, FIRST Tech Challenge, FTC, Control System, update"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:7
+msgid "Updating Components of the Control System"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/index.rst:9
+msgid ""
+"Certain components of the *FIRST* Tech Challenge Control System will "
+"periodically receive updates.  Teams should make sure to update each "
+"component of the Control System to the latest released version."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:2
+msgid "Updating the Robot Controller (RC) App"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:4
+msgid ""
+"The Robot Controller App is one of the Apps provided with the *FIRST* "
+"Tech Challenge :doc:`Software Development Kit (SDK) "
+"</ftc_sdk/overview/index>`. The Robot Controller App is the application "
+"that runs on the Robot Controller Android Device (REV Control Hub or an "
+"approved Android RC phone). This app communicates with the Driver Station"
+" App to control the robot."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:10
+msgid ""
+"This page shows how to update the Robot Controller (RC) app on these "
+"devices:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:13
+msgid "REV Control Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:14
+msgid "An approved Android RC smartphone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:17
+msgid "Blocks / OnBot Java vs Android Studio"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:20
+msgid "Blocks / OnBot Java"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:22
+msgid ""
+"The Robot Controller (RC) App contains the programming environments for "
+"Blocks and OnBot Java, and the User Programs (Team Code) developed using "
+"those environments are stored independently ALONGSIDE the RC App. This "
+"makes it possible to update the RC App independently without affecting "
+"Team Code.  This incredibly simplifies updating the RC App software, "
+"since no *code* needs to be modified in order to upgrade/downgrade the RC"
+" App itself. This does mean, however, that users of Blocks and OnBot Java"
+" are limited to the \"default\" RC App dependencies that are shipped with"
+" the App. Blocks and OnBot Java programs can still be run with an Android"
+" Studio-built RC App, however, so some flexibility is still possible in "
+"this regard for advanced users."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:34
+msgid "Android Studio"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:36
+msgid ""
+"Android Studio, in general, works exactly the opposite. The "
+"FtcRobotController repository (the Android Studio Project) contains the "
+"full source code needed to build a complete RC App; when the Android "
+"Studio Project is compiled and deployed, it's actually building a "
+"complete Robot Controller App and installing it onto the RC Android "
+"device. Team Code **and** the Robot Controller code are compiled "
+"*together*, meaning the Team Code is embedded WITHIN the RC App and "
+"cannot be updated/edited independently of the RC App. If the Android "
+"Studio-deployed RC App is replaced using the REV Hardware Client or "
+"similar process, the RC App with the Team Code embedded is removed and "
+"replaced with the default RC App - so Android Studio users should NEVER "
+"update the RC App using anything but Android Studio! However, this can "
+"complicate upgrading and downgrading software. In order to "
+"upgrade/downgrade the RC App portion of their Android Studio code, the "
+"team's :doc:`Android Studio project "
+"<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository"
+"/Fork-and-Clone-From-GitHub>` must be merged properly with software "
+"releases of the `FtcRobotController repository <https://github.com/FIRST-"
+"Tech-Challenge/FtcRobotController>`__ code aligning to the version of the"
+" Robot Controller App that they want to use. This must be carefully "
+"weighed when deciding to use Android Studio."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:56
+msgid "Updating the RC App for Android Studio"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:58
+msgid ""
+"**Android Studio** users should **not** use the steps on this page to "
+"update the RC app, for the reasons described above. **Android Studio** "
+"users must ensure that their Android Studio Projects are up to date with "
+"the desired version of the `SDK GitHub Repo <https://github.com/FIRST-"
+"Tech-Challenge/FtcRobotController>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:63
+msgid ""
+"For information on how to properly create and maintain an Android Studio "
+"project that can be updated using GitHub, please see :doc:`Using GitHub "
+"Fork and Clone "
+"<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository"
+"/Fork-and-Clone-From-GitHub>`"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:68
+msgid "Updating the RC App for Blocks / OnBot Java"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:70
+msgid ""
+"These instructions are for independently updating the RC App in "
+"situations where such an independent update is supported - i.e. Blocks or"
+" OnBot Java development. Expand the following instructions that apply to "
+"your Robot Controller hardware:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+msgid "Robot Controller (RC) app on REV Control Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:76
+msgid "Here are 3 methods to update the RC app on a REV Control Hub:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:80
+msgid "Manage page on DS phone or Driver Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:83
+msgid ""
+"“Side loading”, while possible, is not described here for the Control Hub"
+" as it requires a cumbersome procedure with extra equipment."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+msgid "Method 1 - REV Hardware Client - Windows computers only"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:88
+msgid ""
+"Use a USB data cable to connect the REV Control Hub’s USB-C port to the "
+"Windows computer.  Make sure the “Hardware” tab on the RHC is active, at "
+"top left."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:97
+msgid "The RHC app will recognize the Control Hub, as shown here:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:104
+msgid "Recognizing the Control Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:106
+msgid ""
+"Once recognized, click on the Control Hub’s large icon/rectangle. The RHC"
+" app now displays the update status of the RC app, if any."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:114
+msgid "Updating the Control Hub"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:120
+msgid ""
+"Connect a laptop to the internet, open a web browser, and navigate to the"
+" `SDK github repository <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`__."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:134
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:306
+msgid ""
+"In the next page, scroll down slightly in the “Latest” section, to the "
+"short list of “Assets”. Click on the file “FtcRobotController-"
+"release.apk”, to download it to your computer."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:145
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:317
+msgid ""
+"At this time, you could rename the file to reflect its current version "
+"number. For example, ``FtcRobotController-release-8.0.apk`` or simply "
+"``RC-8.0-release.apk``. This distinguishes the file from other versions "
+"that might be stored later on that RC phone."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:150
+msgid "Turn on the Control Hub (apply robot power), wait for green LED."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:152
+msgid ""
+"Connect the same laptop via Wi-Fi to the Control Hub. Open the Chrome "
+"browser, enter the usual address ``http://192.168.43.1:8080``"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:155
+msgid "Click the Manage tab, then scroll down to “Update Robot Controller App”."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:162
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:207
+msgid "Update RC App"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:164
+msgid ""
+"Click “Select App…”. Navigate to the laptop folder where the RC APK file "
+"is stored, and select that file."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:167
+msgid "Now click the “Update” button (green arrow, above)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:169
+msgid ""
+"The software will replace the existing RC app with your new updated RC "
+"app. The connection between laptop and Control Hub will temporarily be "
+"lost, then automatically restored."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:173
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:218
+msgid "When the completion message appears, the updated RC app is ready to use."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+msgid "Method 3 - Manage page on Driver Hub or DS phone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:177
+msgid ""
+"This method can be used if your computer is unavailable or unable to "
+"connect via Wi-Fi to the Control Hub. For example, your desktop computer "
+"might have only a wired (Ethernet) network port, lacking Wi-Fi."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:181
+msgid ""
+"But this method does require the RC APK file to be stored in the Download"
+" (or Downloads) folder on the Driver Hub or DS phone. That’s correct: "
+"**Robot Controller APK** stored on the **Driver Station** device."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:186
+msgid ""
+"First download the RC APK file from the github repo to the computer, as "
+"shown in Step 1 of Method 2. Then transfer that APK file from the "
+"computer to the DS device’s Download folder, using a USB data cable. When"
+" complete, you may unplug the DS device from the computer."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:191
+msgid ""
+"Connect the DS app to the Control Hub, from the DS app’s Settings menu "
+"(never with the Android device Wi-Fi settings)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:197
+msgid ""
+"This is the same Manage page that appears in a laptop browser. So the "
+"following instructions are the same as Method 2 above."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:200
+msgid "Scroll down to “Update Robot Controller App”."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:209
+msgid ""
+"Touch “Select App…”. Navigate to the DS device’s Download folder, and "
+"select the latest RC APK file."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:212
+msgid "Now touch the “Update” button (green arrow, above)."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:214
+msgid ""
+"The software will replace the existing RC app with your new updated RC "
+"app. The connection between Driver Station and Control Hub will "
+"temporarily be lost, then automatically restored."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+msgid "Robot Controller (RC) app on Android phone"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:222
+msgid "Here are 2 methods to update the RC app on a Robot Controller (RC) phone:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:229
+msgid ""
+"The Manage page, under Program and Manage, on a computer or Driver "
+"Station device, **does not** offer updating an RC app on a connected "
+"Robot Controller phone."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:235
+msgid ""
+"Plug the RC phone directly into the computer with RHC installed and open."
+" Use a USB data cable, not a charge-only cable. Make sure the “Hardware” "
+"tab is active, at top left. The RC app on the phone does **not** need to "
+"be open."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:273
+msgid ""
+"The update was fast, because you had already downloaded the RC app to the"
+" RHC. That was noted with ’(Already Downloaded)“, to the left of the blue"
+" Update rectangle."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:277
+msgid ""
+"You could have selected an **older** version of the RC app, in the drop-"
+"down list just above the blue Update rectangle."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:280
+msgid ""
+"After install, drag the RC app icon from the menu to the phone’s home "
+"screen."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:283
+msgid ""
+"You may now unplug the RC phone from the computer, and close the RHC app."
+" The updated RC app is ready to use."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
+msgid "Method 2 - Side-load"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:288
+msgid ""
+"Here you will work directly with the Android Package or **APK file** to "
+"install the RC app on the Android phone. Any computer can be used, PC or "
+"Mac, old or new. This method is sometimes called “side-loading”."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:322
+msgid ""
+"Transfer the APK file from the computer to the RC phone’s Downloads (or "
+"Download) folder. Use a USB data cable (not a charge-only cable). When "
+"complete, you may unplug the RC phone from the computer."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:326
+msgid ""
+"Uninstall the existing (obsolete) RC app, by dragging its icon to a "
+"Trash/Uninstall icon. Or, touch and hold the RC icon for “App info”, then"
+" choose Uninstall."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:330
+msgid ""
+"On the RC phone, navigate to the Downloads folder. This can be done in "
+"several ways:"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:335
+msgid "use the basic file manager in Settings/Storage: touch Explore or Files"
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:340
+msgid ""
+"Touch the APK filename that you transferred. Respond to the prompts, to "
+"install the updated RC app."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:343
+msgid ""
+"After install, drag the RC app icon from the app menu to the RC phone’s "
+"home screen."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:346
+msgid "Done! The updated RC app is now ready to use."
+msgstr ""
+
+#: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:348
+msgid ""
+"Other descriptions of updating the RC app are `at REV Robotics’ excellent"
+" documentation site <https://docs.revrobotics.com/duo-control/managing-"
+"the-control-system/updating-robot-controller-application>`__."
+msgstr ""
+

@@ -223,23 +223,24 @@ msgstr ""
 msgid ""
 ":doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` Technical Mentors "
 "looking for Technical Resources should look here first!"
-msgstr "**私は...**"
+msgstr ""
+":doc:`メンター <persona_pages/mentor_tech/mentor_tech>` "
+"技術リソースをお探しの技術メンターの皆さんは、まずこちらをご覧ください！"
 
 #: ../../source/index.rst:139
 msgid ""
 "The main menu contains links to the top level content. The following are "
 "quick links organized by topic."
-msgstr "**私は...**"
+msgstr ""
+"メインメニューには、トップレベルのコンテンツへのリンクが含まれています。以下は、トピック別に整理されたクイックリンクです。"
 
 #: ../../source/index.rst:148
 msgid "Programming Links"
-msgstr ""
-"- :doc:`コーチ <persona_pages/coach_admin/coach_admin>` "
-"ヘルプやチーム管理リソースをお探しのコーチの皆さんはこちらをご覧ください。"
+msgstr "プログラミングリンク"
 
 #: ../../source/index.rst:152
 msgid "Quick Links for Programming Language Resources"
-msgstr "メインメニューには、トップレベルのコンテンツへのリンクが含まれています。以下は、トピック別に整理されたクイックリンクです。"
+msgstr "プログラミング言語リソースへのクイックリンク"
 
 #: ../../source/index.rst:160
 msgid "Blocks"

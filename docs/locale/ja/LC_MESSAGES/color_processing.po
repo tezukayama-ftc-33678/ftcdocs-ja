@@ -1,0 +1,3537 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-15 09:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:2
+msgid "Color Blob Concepts"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:5
+msgid "Color Blobs"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:7
+msgid "An image can be evaluated by its **groupings of similar colors**."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:9
+msgid ""
+"The smallest unit of any digital image is a **pixel**: a tiny square of "
+"one particular color."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:12
+msgid ""
+"Each grouping or cluster of similar-colored pixels is called a **Blob**, "
+"which can be irregular in size and shape."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:15
+msgid ""
+"Forming a Blob is done automatically by the software.  It seeks pixels of"
+" similar color that are **contiguous** -- touching each other along an "
+"edge, not just at a corner."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:24
+msgid "Blob Formation Visualization"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:26
+msgid "There are 9 Blobs here, not 4.  Some are very small, just one pixel each."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:28
+msgid ""
+"The 5 pixels at top right, for example, are not contiguous (edges "
+"joined), so they are not joined to form a larger Blob."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:31
+msgid ""
+"The above simple example has only 2 colors: black and white.  For FTC, "
+"the definition of \"similar\" colors is a range specified by you."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:39
+msgid "Defining Blobs from an image of a red chair"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:39
+msgid "Blobs from a Red Chair image"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:41
+msgid ""
+"In the above example, the chair surfaces are not **exactly** the same "
+"shade of red.  But with a **target** definition \"close to red\" or "
+"\"mostly red\", the software can form reasonable Blobs for further "
+"processing."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:46
+msgid "Color Processing"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:48
+msgid ""
+"Now let's point the camera at an INTO THE DEEP game element called a "
+"**Sample**."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:56
+msgid "Detecting Blob from a Blue SAMPLE"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:56
+msgid "Blob from a Blue SAMPLE"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:58
+msgid ""
+"Here the software was told to seek shades of blue.  The orange rectangle "
+"encloses a Blob of blue color."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:61
+msgid ""
+"But why doesn't the rectangle enclose the entire game piece?  The "
+"software is processing only a certain **Region of Interest** or ROI.  "
+"That's the white rectangle; its size and location are specified by you."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:65
+msgid ""
+"Anything outside the ROI will not be considered part of any Blob that is "
+"detected.  This can help you avoid detecting (unwanted) background "
+"objects."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:68
+msgid ""
+"In the example above, the Blob was actually outlined in teal (blue-green "
+"color), very hard to see.  Let's try another image:"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:76
+msgid "Finding Teal Outline"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:76
+msgid "Teal Outline of Blue Blob"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:78
+msgid ""
+"Now the teal outline of the blue Blob can be seen.  Its shape is "
+"irregular, which can be difficult for your OpMode to evaluate."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:82
+msgid "boxFit Rectangles"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:84
+msgid ""
+"The orange rectangle is drawn automatically by OpenCV, to give your "
+"OpMode a simpler geometric shape that represents the Blob.  It's not "
+"**exactly** like the actual Blob, but hopefully still useful."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:88
+msgid ""
+"The orange rectangle, called the **boxFit**, fits tightly around the "
+"extreme edges of the Blob.  The boxFit is **not** required to stay inside"
+" the Region of Interest.  In the above case, the best-fitting rectangle "
+"happens to stay inside the ROI."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:93
+msgid "But here's another case:"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:100
+msgid "Showing Boxfit position"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:100
+msgid "New boxFit position"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:102
+msgid ""
+"Look very closely for the teal outline of the Blob, with its very rough "
+"lower edge."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:105
+msgid ""
+"Here, the best-fitting rectangle (boxFit) is **tilted**, and is not "
+"contained inside the ROI."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:108
+msgid ""
+"OpenCV provides all data for the boxFit, including its corner points, "
+"size, and tilt angle.  It can even provide a fitted horizontal version of"
+" the boxFit rectangle, if you prefer not to handle a tilted boxFit."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:112
+msgid "Now things get a bit more complicated:"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:119
+msgid "Detecting two blobs"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:121
+msgid ""
+"OpenCV detected **two Blobs**, each with a teal outline and each with a "
+"boxFit."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:123
+msgid ""
+"Your OpMode will need to \"decide\" which boxFit is important and which "
+"to ignore.  Fortunately, OpenCV provides tools to **filter out** certain "
+"unwanted results.  After filtering, your OpMode can **sort** the "
+"remaining results, to focus on the highest priority."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:128
+msgid ""
+"With these tools, your OpMode could handle even a \"busy\" result like "
+"this one:"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:135
+msgid "Many blob detections"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:135
+msgid "Many Blob Detections"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:137
+msgid "Your programming tasks will include:"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:139
+msgid "determine which boxFit is most relevant,"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:140
+msgid "evaluate its data, and"
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:141
+msgid "take robot action accordingly."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:143
+msgid ""
+"Now try the Sample OpMode for the :doc:`Color Locator <../color-locator-"
+"discover/color-locator-discover>` processor."
+msgstr ""
+
+#: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:147
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:564
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:341
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:504
+#: ../../source/color_processing/color-sensor/color-sensor.rst:402
+#: ../../source/color_processing/color-spaces/color-spaces.rst:136
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:2
+msgid "Color Locator (Challenge)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:5
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:5
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:5
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:5
+#: ../../source/color_processing/color-sensor/color-sensor.rst:5
+#: ../../source/color_processing/color-spaces/color-spaces.rst:5
+#: ../../source/color_processing/index.rst:5
+msgid "Overview"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:7
+msgid ""
+"This **Challenge** page introduces Color Locator settings that were **not"
+" mentioned in the Sample OpMode**.  It assumes you have already followed "
+"this tutorial's previous pages:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:10
+msgid ""
+":doc:`Discover <../color-locator-discover/color-locator-discover>` page, "
+"to open and test the Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:11
+msgid ""
+":doc:`Explore <../color-locator-explore/color-locator-explore>` page, to "
+"edit settings mentioned in the Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:13
+msgid "Here are the additional ColorLocator settings covered in this page:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:15
+msgid "pre-filtering, affecting Blob results and previews"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:16
+msgid "pre-sorting"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:17
+msgid "custom outline colors in the previews: ROI, contour, boxFit"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:18
+msgid "access a boxFit's corner points"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:19
+msgid "access all vertices of a contour"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:20
+msgid "access a boxFit's size and tilt angle"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:21
+msgid "create a horizonal rectangle around a tilted boxFit"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:22
+msgid "access the horizontal rectangle's size and location"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:25
+msgid "Pre-Filter Intro"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:27
+msgid ""
+"Here the term \"pre-\" means the filter criteria are implemented "
+"**before** the Blob formation results are passed further.  Thus the DS "
+"and RC previews will **not display** any filtered-out contour or its "
+"boxFit.  This can save CPU resources used to draw the outlines."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:32
+msgid ""
+"Likewise the resulting list of results will not include any filtered-out "
+"Blobs. A shorter list can help OpMode cycle time."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:35
+msgid ""
+"This contrasts with the post-filtering present in the Sample OpMode and "
+"discussed at this tutorial's Explore page.  Pre-filtering is a setting "
+"that persists, while post-filtering is a one-time action performed on a "
+"single set of processing results."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:40
+msgid ""
+"Teams may wish to use both.  Use a pre-filter to \"clean up\" the "
+"preview, which can appear chaotic with potentially dozens of Blobs.   "
+"Then use a post-filter to focus on the particular boxFit results of "
+"interest."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:44
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:355
+msgid ""
+"Caution: changing the ROI size and/or changing the camera resolution may "
+"require an adjustment to filtering by Area."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:48
+msgid "Pre-Filter Programming"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:50
+msgid "To apply a filter setting, use two steps:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:53
+msgid "**set** the filter name and criteria"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:54
+msgid "**add** that filter to the existing Processor"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:56
+msgid ""
+"The \"Color Blob Locator\" Processor must already be created; adding a "
+"filter is **not** part of the Builder pattern here.  A pre-filter can be "
+"added before or after the VisionPortal is built."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:60
+msgid ""
+"In general, a pre-filter setting remains in place and cannot be edited.  "
+"To \"change\" a pre-filter, it must be **removed** from the Processor, "
+"then **added** again."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:64
+msgid ""
+"Recall from this tutorial's :doc:`Explore <../color-locator-explore"
+"/color-locator-explore>` page, to edit settings mentioned in the Sample "
+"OpMode that filtering can be done by Contour Area, Blob Density and "
+"boxFit Aspect Ratio."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:69
+msgid ""
+"Multiple pre-filters can operate at the same time.  A single common "
+"filter name **could** be used, if its criteria are defined, then added --"
+" then redefined, and added again, etc."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:73
+msgid ""
+"You might find it more versatile and convenient to create unique filter "
+"names, each separately managed (i.e. set criteria, add, remove, add "
+"again)."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:76
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:183
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:244
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:280
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:339
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:434
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:495
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:57
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:138
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:187
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:260
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:316
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:393
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:446
+msgid "Select and read the Blocks **or** Java section below:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+msgid "Blocks"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:82
+msgid ""
+"These pre-filter Blocks are in the Vision/ColorBlobLocator/Pre-processing"
+" toolbox:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:89
+msgid "Setting a pre-filter"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:91
+msgid ""
+"The Blocks in the toolbox use the same variable name ``myFilter`` (green "
+"arrow) for the three available criteria (orange ovals).  As noted above, "
+"be careful about using a single name for different pre-filters."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:95
+msgid ""
+"For multiple pre-filters, you might prefer unique names; see the orange "
+"arrows:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:102
+msgid "Setting 3 filters"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:104
+msgid ""
+"These Blocks for adding and removing filters are in the "
+"Vision/ColorBlobLocator/Processor toolbox:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:112
+msgid "Adding and Removing a filter"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:114
+msgid ""
+"Be careful to designate the correct filter to be added or removed; see "
+"the green arrows."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+msgid "Java"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:120
+msgid "For multiple pre-filters, you might prefer unique names:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:128
+msgid ""
+"After defining a filter's criteria, add the filter to an already-existing"
+" Processor:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:137
+msgid "These methods can remove one or all filters from a Processor:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:146
+msgid "After removal, a filter can be re-added to the Processor."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:149
+msgid "Pre-sort"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:151
+msgid ""
+"Here the term \"pre-\" also means the sort criteria are already "
+"established, and applied to the results of the Blob formation process."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:154
+msgid ""
+"This works the same as the post-sorting mentioned in the Sample OpMode "
+"and discussed at this tutorial's Explore page.  Pre-sorting is a setting "
+"that persists, while post-sorting is a one-time action performed on a "
+"single set of processing results."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:159
+msgid ""
+"Only one sort (the last one applied) affects the final list of results "
+"provided for the OpMode to evaluate.  Thus there is no benefit to using "
+"both pre-sort and post-sort."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:163
+msgid "To apply a sort, use two steps:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:165
+msgid "define the sort name and criteria"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:166
+msgid "apply that sort to the existing Processor"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:168
+msgid ""
+"The \"Color Blob Locator\" Processor must already be created; adding a "
+"sort is **not** part of the Builder pattern here.  A pre-sort can be "
+"added before or after the VisionPortal is built."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:172
+msgid ""
+"In general, a pre-sort setting remains in place and cannot be removed or "
+"edited.  To \"change\" a sort, simply define and apply another one, with "
+"the same or a unique name.  The later ``setSort()`` will be in effect."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:176
+msgid ""
+"Reminder from this tutorial's :doc:`Explore <../color-locator-explore"
+"/color-locator-explore>` page: by default, the Sample OpMode sorts by "
+"**Contour Area** in descending order (largest is first).  This is an "
+"internally programmed sort, not appearing in the Sample OpMode.  This "
+"default is overridden or replaced by any pre-sort or post-sort specified "
+"in the OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:189
+msgid ""
+"These pre-sort Blocks are in the Vision/ColorBlobLocator/Pre-processing "
+"toolbox:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:197
+msgid "Selecting the Sort Criteria"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:199
+msgid ""
+"This Block for applying the named pre-sort is in the "
+"Vision/ColorBlobLocator/Processor toolbox:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:207
+msgid "Setting the Sort Criteria"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:212
+msgid ""
+"A generic pre-sort name works well, since only one sort can be in effect "
+"at a time:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:219
+msgid ""
+"If you are experimenting with different pre-sort criteria, you might "
+"consider unique names:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:228
+msgid ""
+"After defining a sort's criteria, apply the pre-sort to an already-"
+"existing Processor:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:236
+msgid "Preview Colors"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:238
+msgid "You can specify custom colors for the preview outlines of:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:240
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:16
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:120
+msgid "Region of Interest (ROI)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:241
+msgid "Blob contour"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:242
+msgid "boxFit rectangle"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+msgid "Setting Custom outline colors"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:255
+msgid "Setting custom outline colors"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:260
+msgid ""
+"Import the ``Color`` class if needed, then add any of the ``.set...`` "
+"methods to the Processor Builder pattern:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:272
+msgid ""
+"Use your own custom values, only from the RGB Color Space.  See the "
+"separate tutorial page called **Color Spaces**."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:276
+msgid "boxFit Corners"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:278
+msgid "An OpMode can access the four corner points of a boxFit rectangle."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:286
+msgid ""
+"This Blocks Function retrieves, stores and displays the 4 corner points "
+"of the instant boxFit being processed by the OpMode:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:294
+msgid "Displaying Corner Points via Telemetry"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:296
+msgid ""
+"The ``.points`` and ``Point.x`` and ``Point.y`` Blocks are in the "
+"\"Vision/ColorBlobLocator/Blob data\" toolbox."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:299
+msgid ""
+"The Function uses its own **For Loop** to cycle through the ``myPoints`` "
+"List of 4 points, clockwise from top left corner."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:302
+msgid ""
+"This Function operates inside the Sample OpMode's **For Loop** of all "
+"Blob results.  The instant ``myBoxFit`` is the one being processed, "
+"returned from the preceding ``.BoxFit`` Block."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:309
+msgid ""
+"This Java code retrieves, stores and displays the 4 corner points of the "
+"instant boxFit being processed by the OpMode:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:325
+msgid ""
+"This code operates inside the Sample OpMode's **For Loop** of all Blob "
+"results.  The instant ``boxFit`` is the one being processed, returned "
+"from the preceding ``getBoxFit()`` method."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:330
+msgid "Contour Vertices"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:332
+msgid ""
+"Blob contours are irregular and hard to process in code; it's easier to "
+"work with boxFit rectangles."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:335
+msgid ""
+"But the contour's outer points can be accessed by an OpMode.  The result "
+"is a list of (X, Y) coordinates, with origin at the top left corner of "
+"the camera's image. X increases to the right, Y increases downward."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:345
+msgid ""
+"The following Blocks Function retrieves, stores and displays a List of "
+"all the vertex Points of the contour of the instant Blob being processed "
+"by the OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:349
+msgid ""
+"The List can be as short as 4 values, or dozens of values for jagged "
+"contours."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:352
+msgid ""
+"Note that the ``.points`` Block (used above for boxFit corners) retrieves"
+" and stores the List within the same Block. This ``.ContourPoints`` Block"
+" only retrieves the List, to be assigned to a separate variable Block."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+msgid "Getting list of contour points"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:361
+msgid "Getting the list of contour points"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:363
+msgid ""
+"The ``.ContourPoints`` and ``Point.x`` and ``Point.y`` Blocks are in the "
+"\"Vision/ColorBlobLocator/Blob data\" toolbox."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:366
+msgid ""
+"The Function uses its own **For Loop** to cycle through the "
+"``myContourPoints`` List, of undetermined length (could be very long)."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:369
+msgid ""
+"This Function operates inside the Sample OpMode's **For Loop** of all "
+"Blob results.  The instant ``myBlob`` is the one being processed by that "
+"outer For Loop."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:376
+msgid ""
+"This Java code retrieves, stores and displays a List of all the vertex "
+"Points of the contour of the instant Blob being processed by the OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:395
+msgid ""
+"This Function operates inside the Sample OpMode's **For Loop** of all "
+"Blob results.  The instant Blob ``b`` is the one being processed by that "
+"outer For Loop."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:399
+msgid "Not covered here is one feature available in Java only:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:405
+msgid ""
+"This method returns a matrix unique to the OpenCV library.  The matrix "
+"object can convert itself to an array, as follows:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:415
+msgid ""
+"This code seems to give the same set of points as ``getContourPoints()`` "
+"shown above."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:419
+msgid "boxFit Size and Angle"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:421
+msgid "These simple fields were not demonstrated in the Sample OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:423
+msgid ""
+"The boxFit size variable contains two fields which must be accessed "
+"individually, as shown below."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:426
+msgid ""
+"If the boxFit is horizontal (parallel to the ROI), its angle might be 0 "
+"or 90 degrees, often jumping between the two values.  At 90 degrees, "
+"height and width become switched.  Your OpMode code needs to account for "
+"this scenario."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:430
+msgid ""
+"Likewise, the boxFit angle is sometimes reported as clockwise from "
+"vertical, rather than counterclockwise from horizontal.  More discussion "
+"is `here <https://namkeenman.wordpress.com/2015/12/18/open-cv-determine-"
+"angle-of-rotatedrect-minarearect/>`_."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:440
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:501
+msgid "These Blocks are in the \"Vision/ColorBlobLocator/Blob data\" toolbox."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:447
+msgid "boxFit properties"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:452
+msgid ""
+"Here's a modified version of the Sample OpMode's telemetry code, to "
+"display only the size and angle of the instant boxFit being processed."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:467
+msgid ""
+"The Java class ``Size`` here is different than another class of the same "
+"simple name.  OnBot Java and Android Studio do not allow imports of "
+"identical simple classnames."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:471
+msgid ""
+"In fact OnBot Java will not allow the import of this version, even if the"
+" other version (`android.util.Size`) is not used in the OpMode. Instead, "
+"declare the variable with the full classname, as shown in the first line "
+"above."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:477
+msgid "Horizontal Rectangle"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:479
+msgid ""
+"You might prefer to process only **horizontal** best-fit rectangles, "
+"parallel to the ROI, not tilted."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:482
+msgid ""
+"OpenCV can generate a best-fit rectangle for a boxFit, whether tilted or "
+"not. This is **not** a \"forced horizonal\" boxFit, rotated in place.  "
+"The new horizontal rectangle simply touches and encloses the outer "
+"corners of the boxFit."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:487
+msgid ""
+"If the boxFit is tilted, the new horizontal rectangle will be larger.  If"
+" the boxFit already had an angle of 0 (or 90) degrees, the new rectangle "
+"will be identical."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:491
+msgid ""
+"In Blocks and Java, the command ``boundingRect()`` accepts a boxFit of "
+"type ``RotatedRect`` and returns a horizontal rectangle of type ``Rect``."
+"  The new rectangle is not drawn or depicted in the preview."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:508
+msgid "Defining the horizontal box"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:510
+msgid ""
+"The (X, Y) values are the top left corner of the new horizontal "
+"rectangle, in the full image reference frame."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:516
+msgid ""
+"Here's a modified version of the Sample OpMode's telemetry code, to "
+"display only the **top left corner** and **size** of the horizontal "
+"rectangle around the boxFit being processed."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:535
+msgid ""
+"In this case, OnBot Java and Android Studio found no conflicts with the "
+"import of class ``Rect``."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:538
+msgid "Pay attention to classes and fields:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:540
+msgid ""
+"boxFit is of Java type ``RotatedRect``, even though it's not usually "
+"rotated"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:541
+msgid "the new method ``boundingRect()`` returns an object of type ``Rect``"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:542
+msgid ""
+"the ``Size`` and ``Rect`` classes both have fields named ``height`` and "
+"``width``"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:545
+msgid "Advanced Development"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:547
+msgid ""
+"Searching for multiple colors is possible by building **multiple "
+"processors** and adding them to the same VisionPortal. This allows "
+"different ROIs, for example, that can overlap if desired."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:556
+msgid "Using two processors"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:559
+msgid ""
+"The next ColorLocator page called :doc:`Color Locator (Round Blobs) "
+"<../color-locator-round-blobs/color-locator-round-blobs>` covers "
+"detection of round objects."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:2
+msgid "Color Locator (Discover)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:7
+msgid ""
+"Another way to use FTC's new OpenCV vision tools is to operate a \"Color "
+"Locator\".  Namely, it can **find a target color that you specify**."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:10
+msgid ""
+"As with the Color Sensor tool, you can specify a **Region of Interest** "
+"(ROI). Only that zone of the camera's view will be searched for the "
+"target color."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:13
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:46
+msgid ""
+"The \"target color\" is actually a **range** of numerical color values, "
+"for a better chance of finding the desired color."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:16
+msgid ""
+"OpenCV will form **\"Blobs\"** of that color.  As described in the "
+"Concepts page here, a Blob is a contiguous cluster of similar-colored "
+"pixels."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:19
+msgid ""
+"Blobs often have a complex, irregular shape or **contour**, so they are "
+"represented here by a best-fit rectangle called **\"boxFit\"**."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:27
+msgid "Zoomed Color Blob detection"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:29
+msgid ""
+"The target color here is BLUE.  The white rectangle is the Region of "
+"Interest (ROI), the teal jagged line is the Blob's contour (fully inside "
+"the ROI), and the purple rectangle is the boxFit."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:33
+msgid ""
+"The software reports the size, position and orientation of each "
+"\"boxFit\".  That data can be evaluated by your OpMode for **robot "
+"navigation** and other actions."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:37
+#: ../../source/color_processing/color-sensor/color-sensor.rst:35
+msgid "The following sections describe how to do this, with a Sample OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:40
+#: ../../source/color_processing/color-sensor/color-sensor.rst:38
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:42
+#: ../../source/color_processing/color-sensor/color-sensor.rst:40
+msgid "*Skip this section if ...*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:44
+msgid "*the active robot configuration already contains \"Webcam 1\",* or"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:45
+#: ../../source/color_processing/color-sensor/color-sensor.rst:44
+msgid "*using the built-in camera of an Android phone as Robot Controller.*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:47
+msgid ""
+"Before starting the programming, REV Control Hub users should make a "
+"robot configuration that includes the USB webcam to be used as a color "
+"locator."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:50
+#: ../../source/color_processing/color-sensor/color-sensor.rst:49
+msgid ""
+"For now, use the default webcam name, \"Webcam 1\".  If a different name "
+"is preferred, edit the Sample OpMode to agree with the exact webcam name "
+"in the robot configuration."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:54
+msgid ""
+"**Save and activate** that configuration; its name should appear on the "
+"paired Driver Station screen."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:58
+#: ../../source/color_processing/color-sensor/color-sensor.rst:57
+msgid "Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:61
+#: ../../source/color_processing/color-sensor/color-sensor.rst:60
+msgid "Opening the Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:63
+msgid ""
+"To learn about opening the Sample OpMode, select and read the Blocks "
+"**or** Java section below:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:70
+msgid ""
+"On a laptop or desktop computer connected via Wi-Fi to the Robot "
+"Controller, open the Chrome browser.  Go to the REV Control Hub's address"
+" http://192.168.43.1:8080 (or http://192.168.49.1:8080 for Android RC "
+"phone) and click the Blocks tab."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:76
+msgid ""
+"Click ``Create New OpMode``\\ , enter a new name such as "
+"\"ColorLocator_Monica_v01\", and select the Sample OpMode "
+"``ConceptVisionColorLocator_Rectangle``."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:80
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:99
+msgid "Near the beginning of the OpMode code, change `ARTIFACT_PURPLE` to `BLUE`."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:82
+#: ../../source/color_processing/color-sensor/color-sensor.rst:78
+msgid ""
+"At the top of the Blocks screen, you can change the type from \"TeleOp\" "
+"to \"Autonomous\", since this Sample OpMode does not use gamepads."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:85
+#: ../../source/color_processing/color-sensor/color-sensor.rst:81
+msgid ""
+"If using the built-in camera of an RC phone, drag out the relevant Block "
+"from the left-side ``VisionPortal.Builder`` toolbox."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:88
+#: ../../source/color_processing/color-sensor/color-sensor.rst:84
+msgid "Save the OpMode, time to try it!"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:93
+#: ../../source/color_processing/color-sensor/color-sensor.rst:90
+msgid "Open your choice of OnBot Java or Android Studio."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:95
+msgid ""
+"In the ``teamcode`` folder, add/create a new OpMode with a name such as "
+"\"ColorLocator_Javier_v01.java\", and select the Sample OpMode "
+"``ConceptVisionColorLocator_Rectangle.java``."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:101
+msgid ""
+"At about Line 63, you can change ``@TeleOp`` to ``@Autonomous``\\ , since"
+" this Sample OpMode does not use gamepads."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:104
+#: ../../source/color_processing/color-sensor/color-sensor.rst:99
+msgid ""
+"If using the built-in camera of an RC phone, follow the OpMode comments "
+"to specify that camera."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:107
+#: ../../source/color_processing/color-sensor/color-sensor.rst:102
+msgid "Click \"Build\", time to try it!"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:110
+#: ../../source/color_processing/color-sensor/color-sensor.rst:105
+msgid "Running the Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:112
+msgid ""
+"On the Driver Station, select the Autonomous OpMode that you just saved "
+"or built."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:115
+msgid ""
+"Turn off the automatic 30-second match timer (green slider).  Aim the "
+"camera at a **blue object**."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:118
+msgid ""
+"Touch INIT only.  The OpMode should give Telemetry showing the results of"
+" one or more Blobs:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:126
+msgid "Basic Telemetry"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:128
+msgid ""
+"In this example, the Region of Interest (ROI) contains only one Blob of "
+"the default target color BLUE."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:131
+msgid ""
+"Move the camera around, especially at BLUE objects, and watch the "
+"Telemetry area on the Driver Station screen.  It may sometimes show more "
+"lines of Blob data, and sometimes show no Blob data at all."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:135
+msgid ""
+"It's working!  Your camera is working as a **color locator**.  Think "
+"about how to use this in the FTC Robot Game."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:138
+msgid "*Skip the next two sections, if you already know how to use FTC previews.*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:141
+#: ../../source/color_processing/color-sensor/color-sensor.rst:132
+msgid "DS Preview"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:143
+msgid ""
+"Before describing the telemetry data, this page offers two sections "
+"showing how to view the OpenCV results with **previews**.  Previewing is "
+"essential for working with vision code."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:147
+#: ../../source/color_processing/color-sensor/color-sensor.rst:140
+msgid ""
+"On the Driver Station (DS), remain in INIT -- don't touch the Start "
+"button."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:149
+msgid ""
+"At the top right corner, touch the 3-dots menu, then ``Camera Stream``.  "
+"This shows the camera's view; tap the image to refresh it."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:157
+msgid "DS Camera Stream Preview"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:159
+msgid ""
+"The default target color here is BLUE.  The white rectangle is the Region"
+" of Interest (ROI), the teal (light blue) jagged line is the Blob's "
+"contour (fully inside the ROI), and the orange rectangle is the boxFit."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:163
+#: ../../source/color_processing/color-sensor/color-sensor.rst:158
+msgid "For a BIG preview, touch the arrows at the bottom right corner."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:165
+#: ../../source/color_processing/color-sensor/color-sensor.rst:160
+msgid ""
+"Or, select Camera Stream again, to return to the previous screen and its "
+"Telemetry."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:169
+#: ../../source/color_processing/color-sensor/color-sensor.rst:164
+msgid "RC Preview"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:171
+#: ../../source/color_processing/color-sensor/color-sensor.rst:166
+msgid ""
+"The Robot Controller (RC) device also makes a preview, called "
+"``LiveView``. This is full video, and is shown automatically on the "
+"screen of an RC phone."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:179
+msgid "Image of a LiveView stream"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:179
+msgid "LiveView stream"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:181
+#: ../../source/color_processing/color-sensor/color-sensor.rst:176
+msgid "The above preview is from a REV Control Hub."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:183
+#: ../../source/color_processing/color-sensor/color-sensor.rst:178
+msgid ""
+"It has no physical screen, so you must plug in an HDMI monitor **or** use"
+" open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "
+"\"screen copy\") to see the preview on a laptop or computer that's "
+"connected via Wi-Fi to the Control Hub."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:189
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:82
+msgid "Basic Telemetry Data"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:191
+msgid "Let's look closer at the DS telemetry:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:198
+msgid "Image of telemetry output"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:198
+msgid "Locator Telemetry"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:200
+msgid ""
+"In this example, the Region of Interest (ROI) contains only one Blob of "
+"the default target color BLUE.  You could probably move your camera to "
+"achieve the same result - with the help of previews."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:204
+msgid ""
+"The **first column** shows the (X, Y) position of the **Center** of the "
+"boxFit rectangle.  With the origin at the full image's top left corner, X"
+" increases to the right and Y increases downward."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:208
+msgid ""
+"The **second column** shows the **Area**, in pixels, of the Blob "
+"(contour, not boxFit).  By default, the Sample OpMode uses a **filter** "
+"to show Blobs between 50 and 20,000 pixels.  Also by default, the Sample "
+"uses a **sort** tool to display multiple Blobs in descending order of "
+"Area (largest is first)."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:213
+msgid ""
+"The **third column** shows the **Density** of the Blob contour.  From the"
+" Sample comments:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:218
+msgid ""
+"*A blob's density is an indication of how \"full\" the contour is.  If "
+"you put a rubber band around the contour you would get the \"Convex "
+"Hull\" of the contour.  The density is the ratio of Contour-area to "
+"Convex Hull-area.*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:223
+msgid ""
+"The **fourth column** shows the **Aspect Ratio of the boxFit**, the best-"
+"fit rectangle around the contour:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:228
+msgid ""
+"*A blob's Aspect Ratio is the ratio of boxFit long side to short side.  A"
+" perfect Square has an Aspect Ratio of 1.  All others are > 1.*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:233
+msgid ""
+"The boxFit is not required to stay inside the ROI.  Also the boxFit may "
+"be **tilted** at some angle, namely not horizontal.  This will be "
+"discussed more in a later page."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:237
+msgid ""
+"The fifth and sixth columns are described in a later page called "
+":doc:`Color Locator (Round Blobs) <../color-locator-round-blobs/color-"
+"locator-round-blobs>`."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:241
+msgid "Blob Formation"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:243
+msgid "So far these examples have shown a **single Blob** formed by OpenCV:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:250
+msgid "Boxfit and detection within ROI"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:250
+msgid "Single blob discovery"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:252
+msgid ""
+"But OpenCV can form and return **multiple Blobs** in a single set of "
+"results:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:259
+msgid "Two blobs detected"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:259
+msgid "Two blob discovery"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:261
+msgid ""
+"Without controls, OpenCV can easily form a **high number of Blobs** (at "
+"least 12 here):"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:269
+msgid "Multiple blob discovery"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:271
+msgid ""
+"And as mentioned above, some of those Blobs might have a **boxFit "
+"tilted** at some angle:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:279
+msgid "Tilted Boxfit"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:281
+msgid ""
+"This tutorial's **next two pages** show how to manage these scenarios by "
+"**editing the OpMode's default settings**, and **accessing more OpenCV "
+"features** not covered in the Sample OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:286
+msgid "Using boxFit Data for Position"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:288
+msgid ""
+"A team's Autonomous code can evaluate boxFit data to navigate or guide "
+"the robot on the field."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:291
+msgid ""
+"Imagine your camera is on the robot, looking forward.  **Underneath the "
+"camera** is your **intake mechanism**, perhaps a top grabber, sideways "
+"claw or spinner."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:300
+msgid "Game piece targeting"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:302
+msgid ""
+"OpenCV will report the data for this orange boxFit.  Could your code use "
+"this data to **position the robot** directly in front of the game piece, "
+"for a better chance to collect it?"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:306
+msgid "How would you do it?"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:309
+msgid "Using boxFit Data for Manipulation"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:311
+msgid ""
+"For advanced teams: imagine your webcam is on a grabber arm, looking down"
+" into the Submersible (from INTO THE DEEP)."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:319
+msgid "Targeting in clutter"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:321
+msgid ""
+"Could the data from this boxFit (orange rectangle) help you **grab only "
+"the Blue Sample**\\ ?"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:324
+msgid "Could this help in Autonomous **and** TeleOp?"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:327
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:477
+msgid "More Documentation"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:329
+msgid ""
+"This tutorial's next page called :doc:`Explore <../color-locator-explore"
+"/color-locator-explore>` covers **editing the OpMode's existing default "
+"settings**."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:332
+msgid ""
+"After that, the following page called :doc:`Challenge <../color-locator-"
+"challenge/color-locator-challenge>` shows how to **access more OpenCV "
+"features** not covered in the Sample OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:336
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:500
+msgid ""
+"Then a page called :doc:`Color Locator (Round Blobs) <../color-locator-"
+"round-blobs/color-locator-round-blobs>` covers detection of round "
+"objects."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:2
+msgid "Color Locator (Explore)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:7
+msgid ""
+"This **Explore** page shows how to modify the default settings of the "
+"**ColorLocator** Sample OpMode.  It assumes you have already followed "
+"this tutorial's previous :doc:`Discover <../color-locator-discover/color-"
+"locator-discover>` page, to open and test this OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:13
+msgid "ColorLocator has only two required **inputs**\\ :"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:15
+msgid "target color range"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:18
+msgid "Both of these can be specified in multiple ways."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:20
+msgid "This Explore page covers **settings** that are already in the Sample:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:22
+msgid "which contour types to process"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:23
+msgid "whether to draw contours in the preview"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:24
+msgid "pre-processing of the image"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:25
+msgid "camera resolution"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:26
+msgid "post-filter the Blob results"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:27
+msgid "post-sort the Blob results"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:30
+#: ../../source/color_processing/color-sensor/color-sensor.rst:209
+msgid "Building the VisionPortal"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:32
+msgid ""
+"The Sample OpMode first creates a \"Color Blob Locator\" **Processor** "
+"using the Java **Builder** pattern.  This is the same Builder pattern "
+"used to create an AprilTag Processor, and previously a TensorFlow "
+"Processor."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:36
+msgid ""
+"The Sample OpMode then creates a **VisionPortal**, again using a Builder "
+"pattern.  This includes adding the \"Color Blob Locator\" Processor to "
+"the VisionPortal."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:40
+msgid ""
+"The FTC VisionPortal was introduced in 2023. More information is "
+"available on the :ref:`ftc-docs VisionPortal Page "
+"<apriltag/vision_portal/visionportal_overview/visionportal-"
+"overview:visionportal overview>`."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:44
+msgid "Target Color Range"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:49
+msgid ""
+"Each **Swatch** name (BLUE, RED, YELLOW, GREEN, ARTIFACT_PURPLE, "
+"ARTIFACT_GREEN) has been pre-programmed with a range of color values to "
+"detect most shades of that color, in most lighting conditions."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:53
+msgid ""
+"The values for Red, Blue and Yellow were tuned for the plastic game "
+"pieces (called Samples) from INTO THE DEEP. The values for "
+"ARTIFACT_PURPLE and ARTIFACT_GREEN were tuned for the plastic game pieces"
+" from DECODE."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:63
+msgid ""
+"The sample OpMode uses this Builder Block to specify the target color "
+"Swatch:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+msgid "Setting the color swatch"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:70
+msgid "Setting the Color Range Swatch"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:72
+msgid ""
+"Use the drop-down list to select the Swatch of the desired target color "
+"range."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:75
+msgid ""
+"As an alternate, this Block can be replaced with the following Block in "
+"the Vision/ColorBlobLocator/Processor.Builder toolbox:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+msgid "Setting custom color range"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:83
+msgid "Setting a custom color range"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:85
+msgid ""
+"First use the drop-down list (green arrow) to choose the **Color Space** "
+": YCrCb, HSV or RGB.  Learn more about Color Spaces at the separate page "
+"in this tutorial."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:89
+msgid ""
+"Then select the numerical values in that Color Space to define the range "
+"of the target color."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:92
+msgid ""
+"The ``min`` and ``max`` fields relate to a corresponding pair of values, "
+"namely (v0, v0), (v1, v1) or (v2, v2)."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:98
+msgid ""
+"In the Sample OpMode, follow the instructions at about lines 70-75 to set"
+" the desired target color range at about line 110."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:101
+msgid ""
+"Use a predefined Swatch, or set a custom range in a specified Color Space"
+" (YCrCb, HSV or RGB).  Learn more about Color Spaces at the separate page"
+" in this tutorial."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:122
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:170
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:232
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:307
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:369
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:438
+msgid "The Blocks and Java Sample OpModes give this description:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:126
+msgid ""
+"*Focus the color locator by defining a RegionOfInterest (ROI) which you "
+"want to search.  This can be the entire frame, or a sub-region defined "
+"using standard image coordinates or a normalized +/- 1.0 coordinate "
+"system.  Use one form of the ImageRegion class to define the ROI.*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:132
+msgid ""
+"Caution: changing the ROI size and/or changing the camera resolution may "
+"require an adjustment to filtering by Area.  Post-filtering is covered "
+"here at this tutorial's **Explore** page, and pre-filtering is covered at"
+" the following :doc:`Challenge <../color-locator-challenge/color-locator-"
+"challenge>` page."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+msgid "Setting ROI"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:149
+msgid "Setting the ROI"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:154
+msgid ""
+"In the Sample OpMode, follow the instructions at about lines 77-83 to set"
+" the desired ROI at about line 112."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:168
+msgid "Choice of Contours"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:174
+msgid ""
+"*Define which contours are included.  You can get ALL the contours, or "
+"you can skip any contours that are completely inside another contour.  "
+"note: EXTERNAL_ONLY helps to avoid bright reflection spots from breaking "
+"up areas of solid color.*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:180
+msgid "Also, the display of contours (in the previews) can be turned ON or OFF:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:184
+msgid "Turning this on helps debugging but takes up valuable CPU time."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:198
+msgid "Contour Choices"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:203
+msgid ""
+"In the Sample OpMode, follow the instructions at about lines 85-92 to set"
+" the desired contour mode and drawing setting at about lines 111 and 113,"
+" respectively."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:219
+msgid "Image Pre-Processing"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:221
+msgid ""
+"The default Sample OpMode purposely **blurs** the camera's image.  This "
+"\"pre-processing\" happens **before** OpenCV performs Blob formation, "
+"thus affecting the contours seen in DS and RC previews."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:225
+msgid ""
+"The effect is very small (default kernel size of 5x5 pixels), but can "
+"significantly improve Blob formation, giving more useful results."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:228
+msgid ""
+"Blurring is one of three available image adjustments to improve "
+"processing results.  You can experiment with these advanced tools, after "
+"studying their usage.  See links at the section below called **More "
+"Documentation**."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:236
+msgid "Include any pre-processing of the image or mask before looking for Blobs."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:238
+msgid ""
+"There is some extra processing you can include to improve the formation "
+"of blobs.  Using these features requires an understanding of how they may"
+" affect the final blobs.  The \"pixels\" argument sets the NxN kernel "
+"size."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:242
+msgid ""
+"**Blurring** an image helps to provide a smooth color transition between "
+"objects, and smoother contours. The higher the number of pixels, the more"
+" blurred the image becomes.  Note: Even \"pixels\" values will be "
+"incremented to satisfy the \"odd number\" requirement.  Blurring too much"
+" may hide smaller features.  A \"pixels\" size of 5 is good for a 320x240"
+" image."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:248
+msgid ""
+"**Erosion** removes floating pixels and thin lines so that only "
+"substantive objects remain.  Erosion can grow holes inside regions, and "
+"also shrink objects.  A \"pixels\" value in the range of 2-4 is suitable "
+"for low res images."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:253
+msgid ""
+"**Dilation** makes objects more visible by filling in small holes, making"
+" lines appear thicker, and making filled shapes appear larger. Dilation "
+"is useful for joining broken parts of an object, such as when removing "
+"noise from an image.  A \"pixels\" value in the range of 2-4 is suitable "
+"for low res images."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+msgid "Pre-processor options"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:271
+msgid "Pre-processor Options"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:276
+msgid ""
+"In the Sample OpMode, follow the instructions at about lines 94-107 to "
+"set the desired pre-processing at about line 114."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:285
+msgid ""
+"Any of these pre-processing settings can be **disabled** by setting their"
+" pixel value to zero, or by removing the command."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:288
+msgid ""
+"In the FTC processor, any specified erosion is performed **before** "
+"dilation. This removes specular noise, then returns the remaining blobs "
+"to a size similar to their original size.  (This also will **not** be on "
+"the final.)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:293
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:327
+msgid "Camera Resolution"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:295
+msgid ""
+"The Sample OpMode uses a default camera resolution of 320 x 240 pixels, "
+"supported by most webcams and Android phone cameras.  You may edit this "
+"resolution, subject to a trade-off between:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:299
+msgid "computing performance, and"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:300
+msgid "image detail, possibly needed beyond ColorLocator."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:302
+msgid ""
+"Caution: changing the camera resolution and/or changing the ROI size may "
+"require an adjustment to filtering by Area.  Post-filtering is covered "
+"here at this tutorial's **Explore** page, and pre-filtering is covered at"
+" the following :doc:`Challenge <../color-locator-challenge/color-locator-"
+"challenge>` page."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:311
+msgid ""
+"Set the desired video resolution.  Since a high resolution will not "
+"improve this process, choose a lower resolution that is supported by your"
+" camera. This will improve overall performance and reduce latency."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:332
+msgid ""
+"In the Sample OpMode, follow the instructions at about lines 121-123 to "
+"set the desired camera resolution at about line 131.  This setting is "
+"made in the VisionPortal Builder, not the Processor Builder."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:341
+msgid "Post-filter the Blob Results"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:343
+msgid ""
+"After OpenCV has formed Blobs and provided results with the "
+"``getBlobs()`` command (in Blocks and Java), your OpMode can **post-"
+"filter** or reduce the list."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:347
+msgid ""
+"Here the term \"post-\" means after Blob formation and **after the DS and"
+" RC previews**.  So, you will still see contours and boxFits for **all "
+"Blobs**."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:350
+msgid ""
+"By default, the Sample OpMode uses a **Contour Area** filter of 50 pixels"
+" (minimum) to 20,000 pixels (maximum).  The lower limit eliminates very "
+"small Blobs, while the upper limit is approximately the size of the "
+"default Region of Interest (ROI)."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:359
+msgid ""
+"Remember that a Blob contour never extends beyond the ROI, although a "
+"boxFit may do so."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:362
+msgid ""
+"Why filter?  A smaller list means faster processing, with fewer boxFits "
+"for your OpMode to evaluate."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:365
+msgid ""
+"You can experiment with increasing the lower limit, and observing the "
+"effect on Telemetry.  Also experiment with the other filters for "
+"**Density** and **Aspect Ratio**."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:373
+msgid ""
+"The list of Blobs can be filtered to remove unwanted Blobs.  Note: All "
+"contours will be still displayed on the Stream Preview, but only those "
+"that satisfy the filter conditions will remain in the current list of "
+"\"blobs\". Multiple filters may be used.  Use any of the following "
+"filters."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:378
+msgid ""
+"**Util.filterByArea()** A Blob's area is the number of pixels contained "
+"within the contour.  Filter out any that are too big or small.  Start "
+"with a large range and then refine the range based on the likely size of "
+"the desired object in the viewfinder."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:383
+msgid ""
+"**Util.filterByDensity()** A blob's density is an indication of how "
+"\"full\" the contour is.  If you put a rubber band around the contour you"
+" would get the \"Convex Hull\" of the contour.  The density is the ratio "
+"of Contour-area to Convex Hull-area."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:388
+msgid ""
+"**Util.filterByAspectRatio()** A blob's aspect ratio is the ratio of "
+"**boxFit** long side to short side.  A perfect square has an aspect ratio"
+" of 1.  All others are > 1"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+msgid "post filter"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:404
+msgid "Post Filter"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:409
+msgid ""
+"In the Sample OpMode, follow the instructions at about lines 147-164 to "
+"set the desired post-filtering at about line 166."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:418
+msgid ""
+"Post-filtering commands should be placed **after** calling ``getBlobs()``"
+" and **before** your OpMode's handling (or Telemetry) of the "
+"``getBlobs()`` results. Remember this as you incorporate these tools into"
+" your team's larger OpModes."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:423
+msgid "Post-sort the Blob Results"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:425
+msgid ""
+"After OpenCV has formed Blobs and provided results with the "
+"``getBlobs()`` command (in Blocks and Java), your OpMode can **post-"
+"sort** the list."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:428
+msgid ""
+"By default, the Sample OpMode sorts by **Contour Area** in descending "
+"order (largest is first).  This is an internally programmed sort, not "
+"appearing in the Sample OpMode.  This default is overridden or replaced "
+"by any sort specified in the OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:433
+msgid ""
+"Why sort?  A sorted list means your OpMode can process Blobs in a known "
+"order, perhaps allowing your code to quickly reach a \"conclusion\".  "
+"Namely some logic condition (probably about boxFits) could be satisfied "
+"sooner, to exit the vision processing loop and move on to robot action."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:442
+msgid ""
+"*The list of Blobs can be sorted using the same Blob attributes as listed"
+" above.  No more than one sort call should be made.  Sorting can use "
+"ascending or descending order.*"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:457
+msgid "Post Sort"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:462
+msgid ""
+"In the Sample OpMode, follow the instructions at about lines 169-173 to "
+"set the desired post-sorting immediately after those instructions."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:471
+msgid ""
+"A post-sorting command should be placed **after** calling ``getBlobs()`` "
+"and any post-filtering, and **before** your OpMode's handling (or "
+"Telemetry) of the ``getBlobs()`` results.  Remember this as you "
+"incorporate these tools into your team's larger OpModes."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:479
+msgid ""
+"How does OpenCV match colors here?  The upper and lower values of the "
+"target color range are used to **threshold** the image's pixels and find "
+"those within the range.  Technical information on thresholding is "
+"available at the `OpenCV website for thresholding "
+"<https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>`_."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:484
+msgid ""
+"Technical information on Blur, Erosion and Dilation can be found `here "
+"<https://medium.com/@sasasulakshi/opencv-morphological-dilation-and-"
+"erosion-fab65c29efb3>`_ and at the `OpenCV website for morphology "
+"<https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:489
+msgid ""
+"Here's a conceptual note from co-developer `@Windwoes "
+"<https://github.com/Windwoes>`_\\ :"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:493
+msgid ""
+"The command ``getBlobs()`` does not initiate or perform the processing "
+"(Blob formation). The processing is **happening continuously**; "
+"``getBlobs()`` just obtains a reference to the latest results."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:497
+msgid ""
+"Next, this tutorial's :doc:`Challenge <../color-locator-challenge/color-"
+"locator-challenge>` page shows how to **access more OpenCV features** not"
+" covered in the Sample OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:2
+msgid "Color Locator (Round Blobs)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:7
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:261
+msgid ""
+"FTC's \"Color Locator\" now offers a best-fit circle called "
+"``circleFit``, an alternate to the best-fit rectangle (\"boxFit\") "
+"described in previous sections of this tutorial."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:14
+msgid "Images showing circlefit and boxfit best-fit algorithms"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:14
+msgid "circleFit versus boxFit detection"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:16
+msgid ""
+"This page describes the new Sample OpMode called "
+"``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  These "
+"notes assume familiarity with the original Sample OpMode, now called "
+"``ConceptVisionColorLocator_Rectangle``."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:18
+msgid ""
+"The new ``_Circle`` Sample uses these settings for convenient processing "
+"of DECODE Artifacts:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:20
+msgid "increase Erode and Dilate areas from 5 to 15 pixels"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:21
+msgid "change order of Erode and Dilate"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:22
+msgid "draw ``circleFit`` preview"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:23
+msgid "Telemetry shows only Circularity, Radius and Center"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:25
+msgid ""
+"As an alternate, the ``_Rectangle`` Sample OpMode can still be used and "
+"modified to process objects of any shape, including round balls, with "
+"access to the same attributes."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:28
+msgid "Quick Start"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:31
+msgid ""
+"This and other steps here were previously described in detail, starting "
+"with the page called :doc:`Color Locator - Discover <../color-locator-"
+"discover/color-locator-discover>`."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:33
+msgid ""
+"In FTC Blocks or Java, create a new Autonomous OpMode from the Sample "
+"``ConceptVisionColorLocator_Circle``."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:34
+msgid "On the Driver Station, select the OpMode that you just saved or built."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:35
+msgid ""
+"Turn off the automatic 30-second match timer (green slider).  Aim the "
+"camera at a DECODE **Purple Artifact**\\ , or a picture of one."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:36
+msgid ""
+"Touch INIT only. The OpMode should give Telemetry showing the results of "
+"one or more Blobs:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:43
+msgid "Image showing circle fit telemetry output on Driver Station App"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:43
+msgid "Circle Fit Telemetry from ``ConceptVisionColorLocator_Circle`` sample"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:45
+msgid ""
+"In this example, Telemetry reports only one Blob in the Region of "
+"Interest (ROI), of the default target color ARTIFACT_PURPLE."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:48
+msgid ""
+"The Sample OpModes `_Circle` and `_Rectangle` also offer the custom color"
+" ARTIFACT_GREEN."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:50
+msgid ""
+"Move the camera around, and watch the Telemetry area on the Driver "
+"Station screen.  It may sometimes show more lines of Blob data, and "
+"sometimes show no Blob data at all."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:52
+msgid ""
+"It's working!  Your camera is working as a **color locator**.  Think "
+"about how to use this in the DECODE game."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:55
+msgid "DS and RC Previews"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:57
+msgid ""
+"Before studying the telemetry data more closely (below), make sure you "
+"can see the **previews** of the OpenCV results.  Previewing is essential "
+"for working with vision code."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:59
+msgid ""
+"The Driver Station (DS) \"snapshot\" preview is available at the ``Camera"
+" Stream`` menu choice, with the OpMode in INIT."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
+msgid ""
+"Image showing circle fit camera stream output on Driver Station App with "
+"purple artifact"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
+msgid "Driver Station Camera Stream Image showing a successful Circle Fit"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:68
+msgid ""
+"The Robot Controller (RC) device makes a video preview called "
+"``LiveView``. For a REV Control Hub, this video can be seen on an HDMI "
+"monitor **or** with open-source `scrcpy "
+"<https://github.com/Genymobile/scrcpy>`_ (called \"screen copy\"):"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:75
+msgid "Image showing RC Liveview of artifact with CircleFit"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:75
+msgid "Robot Controller `LiveView` showing a successful Circle Fit"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:77
+msgid ""
+"For both previews, the **white rectangle** is the Region of Interest "
+"(ROI), and the thin **green jagged line** is the Blob's contour (fully "
+"inside the ROI)."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:79
+msgid ""
+"The **yellow circle** is the new ``circleFit`` : the smallest circle that"
+" encloses the contour.  The ``circleFit`` is not required to stay inside "
+"the ROI."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:84
+msgid "Here again is some DS telemetry from the new ``_Circle`` Sample:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
+msgid "Image with a circle around the Circularity telemetry data"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
+msgid "Driver Station Telemetry Data from ``_Circle`` sample"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:94
+msgid ""
+"The **first column** shows the **Circularity** of the Blob contour (not "
+"its circleFit).  This is calculated from the Blob's area and perimeter.  "
+"A higher value, closer to 1, indicates a more circular contour."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:96
+msgid ""
+"The **second column** shows the circleFit's **Radius** , an indicator of "
+"size.  Again, the circleFit is not required to stay inside the ROI."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:98
+msgid ""
+"The **third column** shows the (X, Y) position of the circleFit's "
+"**Center**.  With the origin at the full image's top left corner, X "
+"increases to the right and Y increases downward."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:100
+msgid ""
+"The Blob's **Area** is available but not displayed here.  The Sample "
+"OpMode uses a **filter** to show Blobs with area between 50 and 20,000 "
+"pixels.  Another filter shows Blobs with circularity greater than 0.6.  "
+"Filters can be customized, as described in the Sample's comments."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:102
+msgid ""
+"For multiple Blobs, the Sample lists Telemetry using only the built-in "
+"default **sort by area** (largest is first).  Other sorting choices are "
+"available, described in the Sample's comments."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:104
+msgid ""
+"The Blob's **Density** is also available but not displayed here.  From "
+"the Sample's comments:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:107
+msgid ""
+"A blob's density is an indication of how \"full\" the contour is.  If you"
+" put a rubber band around the contour you would get the \"Convex Hull\" "
+"of the contour.  The density is the ratio of Contour-area to Convex Hull-"
+"area."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:111
+msgid "Using CircleFit Data"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:113
+msgid ""
+"A team's Autonomous code can evaluate circleFit data to navigate or guide"
+" the robot on the field."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:115
+msgid ""
+"The **circleFit Radius** (indicating size) can help estimate the "
+"**distance** from the camera lens to the Artifact.  Calibrate this at "
+"your home field, based on the known physical size of an Artifact."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:118
+msgid ""
+"Fortunately, a round ball gives no complications of **perspective**, like"
+" the tapered image of a rectangular object.  An unobstructed, well-lit "
+"Artifact can reliably appear as a circle."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:120
+msgid ""
+"The **circleFit Center (X, Y)** can help estimate the Artifact's "
+"**position** relative to the camera on the robot.  Calibrate this at your"
+" home field, based on known test locations and distances."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:122
+msgid ""
+"With these estimates of distance and position, the robot can be "
+"programmed to approach and collect the Artifact, or perhaps navigate "
+"elsewhere on the field."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:125
+msgid "Manage the Previews"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:127
+msgid "The FTC SDK handles the two preview shapes differently:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:129
+msgid "``boxFit`` is enabled by default"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:130
+msgid "``circleFit`` is disabled by default"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:132
+msgid ""
+"The ``_Circle`` sample **turns off** the ``boxFit`` with this Builder "
+"command:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:138
+msgid ""
+"The \"zero\" is not a color, but an indicator to disable a preview "
+"drawing."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:140
+msgid ""
+"Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with "
+"this Builder command:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:146
+msgid ""
+"This default color is yellow, but any color space and values may be "
+"specified."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:148
+msgid ""
+"Both previews can be disabled or enabled at the same time.  The default "
+"``boxFit`` color can be modified from its default shade of red: "
+"``Color.rgb(255, 120, 31)``."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:151
+msgid "Manage Erode and Dilate"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:153
+msgid ""
+"Erosion and Dilation are **morphological** operations: pre-processing "
+"steps to improve vision recognition."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:160
+msgid "Examples of Dilation and Erosion"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:160
+msgid "Dilation and Erosion morphological operations"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:163
+msgid "The Sample's comments describe this Builder command:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:167
+msgid ""
+"``.setMorphOperationType(MorphOperationType morphOperationType)``    This"
+" defines the order in which the Erode/Dilate actions are performed."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:169
+msgid ""
+"OPENING: Will Erode and then Dilate which will make small noise blobs go "
+"away"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:170
+msgid ""
+"CLOSING: Will Dilate and then Erode which will tend to fill in any small "
+"holes in blob edges."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:178
+msgid "Dilation and Erosion examples using a sample image"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:178
+msgid "Dilation and Erosion examples using an image"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:181
+msgid ""
+"The original ``_Rectangle`` Sample used \"Erode then Dilate\", effective "
+"for most applications.  This new ``_Circle`` Sample uses \"Dilate then "
+"Erode\", which improves detection of a DECODE Artifact (smoothes edges of"
+" its large holes).  It also uses Erode and Dilate sizes of 15 pixels, "
+"larger than typical 5 pixels."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:184
+msgid "Improving Results"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:186
+msgid "FTC teams can adjust settings to improve results based on:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:188
+msgid "webcam model"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:189
+msgid "webcam position on robot (lookdown angle)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:190
+msgid "Artifact clustering or blocked views"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:191
+msgid "planned method of approach and collection"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:192
+msgid "game strategy (which Artifacts, from which positions)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:193
+msgid "possible presence of other robots"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:194
+msgid "static vs. moving targets"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:195
+msgid "venue lighting and potential shadowing"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:196
+msgid "OpMode loop rate"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:198
+msgid ""
+"In the case of adjacent or overlapping Artifacts, ``boxFit`` might offer "
+"more useful data than ``circleFit``."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:200
+msgid ""
+"The new ``_Circle`` Sample offers all of the settings from the "
+"``_Rectangle`` Sample.  These can be adjusted for different results:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:203
+msgid "camera resolution, default 320x240"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:204
+msgid "Region of Interest, default central 3/4"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:205
+msgid "target color range, predefined or custom"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:206
+msgid "type of contour, default External Only"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:207
+msgid "preview drawings, including circleFit and/or boxFit"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:208
+msgid "Blur size, default 5 pixels"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:209
+msgid "Erode size, default 15 pixels"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:210
+msgid "Dilate size, default 15 pixels"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:211
+msgid "order of operation, default Dilate then Erode"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:213
+msgid "Results can be **filtered** in multiple ways:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:216
+msgid "Contour Area"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:217
+msgid "Density"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:218
+msgid "Aspect Ratio (for boxFit)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:219
+msgid "Arc Length"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:220
+msgid "Circularity"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:222
+msgid ""
+"Telemetry Results can be **sorted** by any of the above attributes.  See "
+"the Sample's comments for guidance."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:225
+msgid "Lighting Challenges"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:227
+msgid ""
+"Robotics vision is highly sensitive to field lighting.  The FTC "
+"VisionPortal offers software tools called Camera Controls to help address"
+" varying or \"difficult\" lighting conditions."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:229
+msgid ""
+"If needed, see the separate tutorial called :ref:`FTC VisionPortal Camera"
+" Controls <apriltag/vision_portal/visionportal_camera_controls"
+"/visionportal-camera-controls:visionportal camera controls>`."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:231
+msgid ""
+"More detail on these controls is provided in an :ref:`older tutorial - "
+"ftc-docs Webcam Controls "
+"<programming_resources/vision/webcam_controls/index:webcam controls>`; "
+"disregard the TensorFlow references."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:233
+msgid "These tools can help with Color Processing **and** AprilTag Detection."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:235
+msgid ""
+"Lastly, some webcams perform **automatic color correction**, under "
+"changing lighting conditions.  If you observe this in Previews, make "
+"adjustments as needed."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:238
+msgid "OpMode Development"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:240
+msgid ""
+"You should eventually use or adapt program elements from the Color "
+"Locator ``_Circle`` or ``_Rectangle`` Sample, to become part of your "
+"team's Autonomous (or TeleOp) OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:242
+msgid ""
+"An early choice is: **how long** should the processing (looping) "
+"continue, before using the extracted data for robot action?  What should "
+"be the criteria to **exit a loop**, and which data should be used for "
+"subsequent calculations and movement?"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:244
+msgid ""
+"You may find it useful to learn about **Datalogging**.  Output this "
+"OpMode's Color Processor data to a file, then perhaps to a spreadsheet.  "
+"Careful review may reveal which data are useful, rather than trying to "
+"observe the \"jumpy\" preview and Telemetry results."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:246
+msgid "Also, you may want to **track multiple colors**, like this:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:253
+msgid "Example image of tracking multiple colors in a single ROI"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:253
+msgid "Tracking multiple colors within a single ROI"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:256
+msgid ""
+"This is quite possible, by setting up multiple processors, all "
+"incorporated into the Vision Portal.  You may find it helpful to first "
+"organize the Sample OpMode into methods (or Functions for FTC Blocks): "
+"one for the processor and one for Telemetry.  Then it should be "
+"straightforward to create parallel methods or Functions."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:259
+msgid "Summary"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:263
+msgid ""
+"This new feature is shown in the Sample OpMode called "
+"``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  This "
+"sample exists alongside the existing ``_Rectangle`` Sample OpMode."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:265
+msgid ""
+"The new ``_Circle`` Sample uses certain settings for convenient "
+"processing of DECODE Artifacts, as a starting point for teams.  Many "
+"choices are provided to optimize results for a team's robot and strategy."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:267
+msgid "This ends the tutorial’s 4 pages on ColorLocator:"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:269
+msgid ":doc:`Discover <../color-locator-discover/color-locator-discover>`,"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:270
+msgid ":doc:`Explore <../color-locator-explore/color-locator-explore>`,"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:271
+msgid ":doc:`Challenge <../color-locator-challenge/color-locator-challenge>`,"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:272
+msgid "**Round Blobs** (this document)"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:274
+msgid ""
+"The final page of this tutorial provides optional info on :doc:`Color "
+"Spaces <../color-spaces/color-spaces>`."
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:276
+msgid ""
+"Best of luck as you apply these tools to your Autonomous and TeleOp "
+"OpModes!"
+msgstr ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:280
+#: ../../source/color_processing/index.rst:84
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:2
+msgid "Color Processing Color Sensor"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:7
+msgid ""
+"A simple way to use FTC's new OpenCV vision tools is to operate a \"Color"
+" Sensor\".  Namely, it can determine **the color seen by the robot's "
+"camera**\\ , in a specified zone."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:11
+msgid "Below, the small central rectangle is the region being evaluated:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:18
+msgid "INTO THE DEEP game pieces"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:18
+msgid "Color sensor detection zone"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:20
+msgid ""
+"A key benefit is that the camera can be much further away from the object"
+" than, for example, a REV Color Sensor or others like it."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:23
+msgid ""
+"It's still important to accurately point the camera and carefully select "
+"the image zone to inspect."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:26
+msgid "For the above example, OpenCV can provide results like this:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:33
+msgid "Driver Station App showing RED detection"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:33
+msgid "RED Detection using Color Sensor"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:43
+msgid "*the active robot configuration already contains \"Webcam 1\"*, or"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:46
+msgid ""
+"Before starting the programming, REV Control Hub users should make a "
+"robot configuration that includes the USB webcam to be used as a color "
+"sensor."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:53
+msgid ""
+"Save and activate that configuration; its name should appear on the "
+"paired Driver Station screen."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:62
+msgid ""
+"To learn about opening the Sample OpMode, click the tab for Blocks or "
+"Java:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:68
+msgid ""
+"On a laptop or desktop computer connected via Wi-Fi to the Robot "
+"Controller, open the Chrome browser.  Go to the REV Control Hub's address"
+" ``http://192.168.43.1:8080`` (or ``http://192.168.49.1:8080`` for "
+"Android RC phone) and click the *Blocks* tab."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:74
+msgid ""
+"Click ``Create New OpMode``\\ , enter a new name such as "
+"\"ColorSensor_Maria_v01\", and select the Sample OpMode "
+"``ConceptVisionColorSensor``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:92
+msgid ""
+"In the ``teamcode`` folder, add/create a new OpMode with a name such as "
+"\"ColorSensor_Bobby_v01.java\", and select the Sample OpMode "
+"``ConceptVisionColorSensor.java``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:96
+msgid ""
+"At about Line 58, you can change ``@TeleOp`` to ``@Autonomous``\\ , since"
+" this Sample OpMode does not use gamepads."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:107
+msgid "On the Driver Station:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:109
+msgid "Select the Autonomous OpMode that you just saved or built."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:110
+msgid "Turn off the automatic 30-second match timer (green slider)."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:111
+msgid "Touch INIT only."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:113
+msgid ""
+"The OpMode should give Telemetry, stating the main \"matched\" color "
+"inside the Region of Interest."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:120
+msgid "Driver Station Telemetry"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:122
+msgid ""
+"Move the camera around, and watch the Telemetry area on the Driver "
+"Station screen.  It should state \"BLUE\" when pointing at a blue object,"
+" and likewise should identify other common colors."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:126
+msgid ""
+"**It's working!**  You have a color sensor in your robot camera.  Think "
+"about how to use this in the FTC Robot Game."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:129
+msgid "*Skip the next two sections if you already know how to use FTC previews.*"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:134
+msgid ""
+"Before describing how to modify the OpMode, this page offers two sections"
+" showing how to view the OpenCV results with **previews**.  Previewing is"
+" essential for working with vision code."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:138
+msgid "**Opening the DS Preview**"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:141
+msgid ""
+"At the top right corner, touch the 3-dots menu, then ``Camera Stream``. "
+"This shows the camera's view; tap the image to refresh it."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:149
+msgid "Camera Stream Preview"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:151
+msgid ""
+"Drawn on the image is the rectangle being evaluated, called the **Region "
+"of Interest** (ROI).  The ROI border color is the rectangle's predominant"
+" color, reported to DS Telemetry."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:155
+msgid ""
+"If that border \"disappears\" against a solid-color background, the thin "
+"white cross-hairs and 4 small white dots can still identify the ROI."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:174
+msgid "Control Hub LiveView"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:184
+msgid "Modify the Sample"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:186
+msgid ""
+"This Sample OpMode is designed for the user to select/edit **two "
+"inputs**\\ :"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:189
+msgid "define the Region of Interest (ROI)"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:190
+msgid "list the colors that might be found"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:192
+msgid "For the **first input**, there are 3 ways to define the ROI:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:194
+msgid "entire frame"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:195
+msgid "sub-region, defined with standard image coordinates"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:196
+msgid "sub-region, defined with a normalized +/- 1.0 coordinate system"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:198
+msgid ""
+"For the **second input**, you must list the candidate colors from which a"
+" result will be selected as a \"Match\"."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:201
+msgid ""
+"Simply choose from the 10 \"Swatches\": RED, ORANGE, YELLOW, GREEN, CYAN,"
+" BLUE, PURPLE, MAGENTA, BLACK, WHITE.  For efficiency, add only those "
+"Swatches for which you reasonably expect to get a match."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:205
+msgid ""
+"**The Blocks and Java OpModes contain detailed comments to guide you "
+"through these edits.**  They are not repeated in this tutorial."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:211
+msgid ""
+"The Sample OpMode first creates a \"Predominant Color\" **Processor** "
+"using the **Builder** pattern.  This is the same Builder pattern used to "
+"create an AprilTag Processor, and previously a TensorFlow Processor."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:215
+msgid ""
+"The Sample OpMode then creates a **VisionPortal**, again using a Builder "
+"pattern.  This includes adding the \"Predominant Color\" Processor to the"
+" VisionPortal."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:219
+msgid ""
+"How does OpenCV determine the \"predominant color\" of the ROI?  An "
+"algorithm called `\"k-means\" "
+"<https://en.wikipedia.org/wiki/K-means_clustering>`_ determines clusters "
+"of similar colors.  The color of the cluster with the most pixels is "
+"called \"predominant\" here. *(This will NOT be on the final.)*"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:225
+msgid "Testing the Result"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:227
+msgid ""
+"After trying and learning how the commands work, you can incorporate this"
+" Color Sensor into your Autonomous and/or TeleOp OpModes."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:230
+msgid ""
+"As seen in the OpMode's Telemetry section, the result is called "
+"``closestSwatch`` and appears as a word (RED, BLUE, etc.).  But this is "
+"not plain text!"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:234
+msgid ""
+"**Testing**, or comparing, for a particular color-match must be done as "
+"follows.  Select and read the Blocks **or** Java section below:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:241
+msgid ""
+"At the left side, pull out the following multi-Block from "
+"``Vision/PredominantColor/Processor``:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+#: ../../source/color_processing/color-sensor/color-sensor.rst:248
+msgid "Closest Swatch Comparison"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:250
+msgid ""
+"You must use this special Block to determine if the result is (for "
+"example) RED."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:252
+msgid ""
+"Why?  The result, called ``closestSwatch`` is not **text** (yes it seems "
+"like text!).  It's a type called ``Swatch`` and can be compared only to "
+"another ``Swatch``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:259
+msgid "In the sample OpMode, here's the Telemetry that gives the result:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:265
+msgid "This displays as text, but this is **not** Java type ``String``!"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:267
+msgid "Here's how to determine if the result is (for example) RED:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:273
+msgid ""
+"Why?  The result, called ``closestSwatch`` is of type ``Swatch`` and can "
+"be compared only to another ``Swatch``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:278
+msgid "OpMode Programming"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:280
+msgid ""
+"The Color Sensor part of your team's Autonomous OpMode might include "
+"these goals:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:283
+msgid "Seek a color, using the code from this Sample OpMode"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:284
+msgid "Take a robot action, based on finding that color"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:286
+msgid "If so, select and read the Blocks **or** Java section below:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:292
+msgid "Beginners often try this first:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+#: ../../source/color_processing/color-sensor/color-sensor.rst:299
+msgid "Wrong way to act upon match result"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:301
+msgid ""
+"The problem is, after the robot does the action for RED, the OpMode is "
+"still inside the vision loop.  Very messy and unpredictable."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:304
+msgid ""
+"A better approach is to save the result (as text!), exit the loop, then "
+"retrieve the stored result to take the desired RED action."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+#: ../../source/color_processing/color-sensor/color-sensor.rst:312
+msgid "Right way to act upon match result"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:314
+msgid ""
+"How to exit the vision loop?  It could be based on `time "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-"
+"in-FTC-Blocks>`_ , or finding a particular color, or finding a particular"
+" color 10 times in a row, or finding only a particular color for 1 full "
+"second, or any other desired criteria."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:323
+msgid ""
+"The color result is generated inside a vision loop.  Save the result (as "
+"text!), exit the loop, then retrieve the stored result to take the "
+"desired RED action."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:343
+msgid ""
+"How to exit the vision loop?  It could be based on time, or finding a "
+"particular color, or finding a particular color 10 times in a row, or "
+"finding only a particular color for 1 full second, or any other desired "
+"criteria."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:349
+msgid "Advanced Use"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:351
+msgid ""
+"Some teams may prefer to read and evaluate the **actual RGB color "
+"values**, rather than rely on a generic Swatch result."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:354
+msgid ""
+"RGB is a **Color Space** that uses three numerical components of Red, "
+"Green and Blue.  Values range from 0 to 255.  For more info, see this "
+"tutorial's :doc:`Color Spaces <../color-spaces/color-spaces>` page."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:358
+msgid ""
+"Extracting the RGB components can be seen in the Telemetry portion of the"
+" Sample OpMode.  Click the Blocks or Java tab:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:365
+#: ../../source/color_processing/color-sensor/color-sensor.rst:380
+msgid "Here are the RGB components of the ROI's predominant color:"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst
+msgid "Finding color by RGB"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:372
+msgid ""
+"Note: the ``Color`` Block has a drop-down list that includes Hue, "
+"Saturation and Value.  Those settings will **not work** here, to produce "
+"components in the HSV Color Space, because the source Block provides only"
+" RGB color (its method name is ``.rgb``\\ )."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:382
+msgid "``Color.red(result.rgb)``"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:383
+msgid "``Color.green(result.rgb)``"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:384
+msgid "``Color.blue(result.rgb)``"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:386
+msgid ""
+"For Blocks or Java, those component values can be assigned to numeric "
+"variables, with names like ``ROIRedValue``, ``ROIGreenValue``, and "
+"``ROIBlueValue``."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:390
+msgid "Now your code can process those RGB variables as desired."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:393
+msgid "Next Sections"
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:395
+msgid "Soon you can move ahead to try the **Color Locator** processor."
+msgstr ""
+
+#: ../../source/color_processing/color-sensor/color-sensor.rst:397
+msgid ""
+"But first, learn a few basic concepts at this tutorial's :doc:`Color Blob"
+" Concepts <../color-blob-concepts/color-blob-concepts>` page."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:2
+msgid "Color Spaces"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:7
+msgid ""
+"This page of the FTC Color Processing tutorial introduces **Color "
+"Spaces**."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:9
+msgid ""
+"OpenCV can process color information using any one of several Color "
+"Spaces, which are methods to describe an exact shade and brightness."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:12
+msgid "This page describes 3 choices available in the FTC SDK:"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:14
+msgid "RGB (Red, Green, Blue)"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:15
+msgid "HSV (Hue, Saturation, Value)"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:16
+msgid "YCrCb (Luminance, Chrominance red, Chrominance blue)"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:18
+msgid "Each Color Space uses 3 numbers, 0 to 255, to describe a particular color."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:21
+msgid "RGB Color Space"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:23
+msgid ""
+"**RGB** is a common Color Space, easy to understand.  Its 3 components "
+"are:"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:25
+msgid "**Red** (0 - 255)"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:26
+msgid "**Green** (0 - 255)"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:27
+msgid "**Blue** (0 -  255)"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:34
+msgid "RGB Color Wheel"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:36
+msgid ""
+"Pure Red has values 255 red, 0 green, 0 blue.  Pure Green has 0 red, 255 "
+"green, 0 blue."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:39
+msgid ""
+"Magenta is a blend of Red and Blue, so its values are 255 red, 0 green, "
+"and 255 blue."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:42
+msgid ""
+"Here's a useful way to visualize the RGB Color Space, with one axis for "
+"each component:"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:50
+msgid "RGB Cube Visualization"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:52
+msgid ""
+"Each near-side external face of this box has the maximum value for one "
+"component.  Every shade of color on the top face, for example, has a Blue"
+" component of 255."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:56
+msgid ""
+"The nearest corner is **White**, with RGB values of (255, 255, 255).  "
+"Namely, full values of Red, Green and Blue light will combine to appear "
+"as white light."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:59
+msgid ""
+"Where is **Black**?  It's the opposite corner, at the origin, hidden in "
+"this view.  Its values are (0, 0, 0) -- no color at all."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:62
+msgid ""
+"This RGB system is used only for light-based colors, including video.  It"
+" does not apply for painted colors, or printed colors, which use other "
+"color systems."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:66
+msgid ""
+"Mixing red paint, green paint and blue paint will **not** create white "
+"paint!"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:68
+msgid ""
+"Technical information is available at `Wikipedia Color Spaces "
+"<https://en.wikipedia.org/wiki/RGB_color_spaces>`_."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:71
+msgid "HSV Color Space"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:73
+msgid ""
+"Another Color Space used by OpenCV is **HSV**\\ : Hue, Saturation and "
+"Value."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:80
+msgid "HSV Cone Visualization"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:82
+msgid "**Hue** is the actual shade of color; see the familiar color wheel on top."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:84
+msgid ""
+"**Saturation** measures the amount of white: a lower value is whiter, or "
+"more grey.  On the HSV cone, see the outward arrow for Saturation.  The "
+"highest value of 255 is the fully saturated color (no white)."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:88
+msgid ""
+"**Value** measures brightness; see the upward arrow on the HSV cone.  The"
+" top face of the cone (Value = 255), is the fully bright color.  Black is"
+" found at the lower tip, Value = 0."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:92
+msgid ""
+"Technical information is available at `Wikipedia HSL/HSV "
+"<https://en.wikipedia.org/wiki/HSL_and_HSV>`_."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:95
+msgid "YCrCb Color Space"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:97
+msgid "A third Color Space used by OpenCV is **YCrCb**."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:104
+msgid "YCrCb Visualization"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:106
+msgid ""
+"The Y is **Luminance** or brightness, while Cr and Cb are red and blue "
+"components of **Chrominance**.  Technical information is available at "
+"`Wikipedia YCbCr <https://en.wikipedia.org/wiki/YCbCr>`_."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:110
+msgid ""
+"The YCrCb Color Space offers efficient computation of color processing, "
+"and is widely used in video applications."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:113
+msgid ""
+"Some online documentation refers to a Color Space called **YCbCr**.  This"
+" is the same system, with the last 2 values reversed."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:117
+msgid "How to choose?"
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:119
+msgid ""
+"Use the Color Space that's convenient for you.  RGB is easy to "
+"understand, while YCrCb may offer better computational performance (if "
+"needed)."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:122
+msgid ""
+"It's easy to find free public websites to convert the 3 values from one "
+"Color Space into the corresponding 3 values from another Color Space."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:125
+msgid ""
+"When converting to HSV, some online sites give Hue in degrees (0 to 360),"
+" and Saturation and Value as percentages (0 to 100).  Apply these (as a "
+"proportion of the maximum) to 255, for values to use in the FTC **Color "
+"Locator** processor."
+msgstr ""
+
+#: ../../source/color_processing/color-spaces/color-spaces.rst:130
+msgid ""
+"The **Color Locator** processor can use any of these three Color Spaces."
+"  The simple **Color Sensor** processor uses YCrCb internally, but "
+"reports results in RGB only."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:2
+msgid "Color Processing Introduction"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:7
+msgid ""
+"The *FIRST* Tech Challenge SDK software (as of v10.1) includes some "
+"**Color Processing** features from OpenCV, a popular and powerful open-"
+"source library for vision processing."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:11
+msgid ""
+"Introduced with INTO THE DEEP, these new features will help *FIRST* Tech "
+"Challenge teams **identify colors** and **process color blobs**\\ , "
+"useful in any game requiring color and shape recognition."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:15
+msgid "Here's the outline of this tutorial's main pages:"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:29
+msgid ""
+"Much credit to developer and Sample OpMode author `@gearsincorg "
+"<https://github.com/gearsincorg>`_, EasyOpenCV developer `@Windwoes "
+"<https://github.com/Windwoes>`_, FTC Blocks developer `@lizlooney "
+"<https://github.com/lizlooney>`_, and the open-source team at `OpenCV "
+"<https://opencv.org/>`_."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:32
+msgid "Compatibility"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:34
+msgid ""
+"This new software includes two Color Processors, each compatible with the"
+" FTC VisionPortal introduced in 2023.  These processors can run alongside"
+" an AprilTag processor, and replace the TensorFlow processor (removed in "
+"2024)."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:38
+msgid "These new processors can be used on the usual FTC cameras:"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:40
+msgid "any UVC-compatible webcam"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:41
+msgid ""
+"the built-in camera of an FTC-supported Android phone (as Robot "
+"Controller)"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:43
+msgid ""
+"This does **not** include vision sensors such as HuskyLens and LimeLight "
+"3A, which do not use the FTC VisionPortal."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:47
+msgid "Two Processors"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:49
+msgid "The new software includes these processors:"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:51
+msgid ""
+"**Color Sensor** - detects the color of a specified zone in the camera's "
+"view"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:53
+msgid ""
+"**Color Locator** - gives detailed info on clusters of a specified color,"
+" in a specified zone"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:56
+msgid ""
+"This tutorial has a :doc:`Color Sensor <color-sensor/color-sensor>` page,"
+" showing how to use the Sample OpMode called "
+"``ConceptVisionColorSensor``."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:59
+msgid ""
+"For the **Color Locator** processor, the color \"clusters\" are called "
+"**Blobs**. As listed above, this tutorial offers one page on Color Blob "
+"Concepts, and four pages covering the Sample OpModes called "
+"``ConceptVisionColorLocator_Rectangle`` and "
+"``ConceptVisionColorLocator_Circle``."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:64
+msgid ""
+"The Sample OpModes are available in **FTC Blocks**\\ , and in **Java** "
+"for use in OnBot Java or Android Studio.  Each programming section of "
+"this tutorial has a Blocks tab and a Java tab."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:69
+msgid "Next Steps"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:71
+msgid "Time to get started!"
+msgstr ""
+
+#: ../../source/color_processing/index.rst:73
+msgid ""
+"Following this tutorial in order, first try the Sample OpModes for "
+":doc:`Color Sensor <color-sensor/color-sensor>`."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:76
+msgid ""
+"Then read about **Color Blob Concepts**\\ , and try the **Color Locator**"
+" Sample OpModes."
+msgstr ""
+
+#: ../../source/color_processing/index.rst:79
+msgid ""
+"Soon you'll be ready to add one or both features to your Autonomous "
+"OpModes -- perhaps even to help automate your TeleOp!"
+msgstr ""
+

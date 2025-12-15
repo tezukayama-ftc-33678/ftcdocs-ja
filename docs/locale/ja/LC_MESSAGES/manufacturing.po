@@ -1,0 +1,3355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-15 09:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:2
+msgid "Example 3D Printed Parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:4
+msgid ""
+"Here are some example parts that your team could make with a 3d printer "
+"to either save funds or improve on customizability."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:7
+msgid "Mounting Brackets"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:9
+msgid ""
+"One of the most common uses, 3D Prints can be used to make mounting "
+"brackets for motors, servos, electrical parts, bearings, and various "
+"other objects. This provides teams with a great control of precision over"
+" how they mount things, and a decreased part count over commercial parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:18
+msgid "3d printed Power Switch Mounting Bracket"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:18
+msgid "A Power Switch Mounting Bracket."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:21
+msgid "Pulleys and Gears"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:23
+msgid ""
+"3D Prints can also be used to make your own pulleys and gears. Not only "
+"is this a great option for achieving optimal speed and torque ratios, but"
+" they save cost as well! A metal pulley typically costs around $10, while"
+" a printed one can be as low as 20 cents."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:32
+msgid "3d printed Pulley with a custom bearing mount on a mecanum wheel"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:32
+msgid "An example Deadaxle Mecanum setup with a custom 3d printed pulley."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:36
+msgid "Spacers and Shims"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:38
+msgid ""
+"Another common way to utilize 3D prints is to create spacers and shims to"
+" constrain objects on your robot, this is both lighter, simpler, and most"
+" cost effective (although not always preferred!) than using collars or "
+"clamping mounts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:47
+msgid "An Intake with example 3d printed spacers"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:47
+msgid ""
+"An FTC FREIGHT FRENZY intake utilizing 3d printed spacers to space out "
+"intake wheels."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:52
+msgid "Scoring Mechanisms"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:54
+msgid ""
+"Teams also often use 3D Prints to precisely grip and control each year's "
+"game elements. A common way to do this is a custom shaped claw."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:62
+msgid "An render of a 3d printed claw."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:62
+msgid "Rendered FTC ULTIMATE GOAL Wobble Goal arm with 3d printed claw parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:64
+msgid ""
+"Another common method of using 3D Prints is for creating custom intakes, "
+"primarily surgical tubing."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:71
+msgid "A render of surgical tubing mounts for an intake."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:71
+msgid "Rendered example surgical tubing mounts for an FTC FREIGHT FRENZY intake."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:74
+msgid "Robot Aesthetics"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:76
+msgid ""
+"3D Prints can do a whole ton for a robot's aesthetics as well. While it's"
+" more advanced, multicolor printing like shown below is a great option "
+"for teams that like making their robots look good!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:85
+msgid "6 multicolor square 3d printed logos."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:85
+msgid ""
+"This FTC Team printed their sponsors logos in multiple colors to "
+"represent them!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:2
+#: ../../source/manufacturing/3d_printing/index.rst:23
+msgid "3D Printing Introduction"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:11
+msgid "Example of 3D printed parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:11
+msgid "3D printed dead wheel odometry parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:16
+msgid "3D Printing Methods"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:18
+msgid ""
+"There are numerous kinds of 3D printing, but for FTC there are only a few"
+" that are practical. The most common is **Fused Deposition Modeling "
+"(FDM)**. FDM printers melt a plastic filament and extrude it through a "
+"nozzle, which moves around to create the part. FDM printers are the most "
+"common type of printer used, and the most practical for robotics teams, "
+"so this guide will focus on them."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:28
+msgid "FDM printer"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:28
+msgid "FDM printer printing a part"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:32
+msgid ""
+"Other types of printers include SLA (Stereolithography) and SLS "
+"(Selective Laser Sintering), however these are often more expensive, "
+"difficult to use, and have less use in FTC, although they have a few "
+"specific niches, such as very high precision details."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:41
+msgid "Resin spool"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:41
+msgid "SLA Resin printed lift string spools"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:46
+msgid "3D Printing Pros"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:48
+msgid ""
+"3D printed parts can be infinitely customized and optimized for a "
+"specific purpose. This can be used to create pulleys or gears with a "
+"specific number of teeth, or a part that fits perfectly in a specific "
+"place."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:50
+msgid ""
+"3D printing can be used to create parts that adapt between different "
+"build systems or standards. Many build systems contain their own "
+"standards for mounting holes, shaft sizes, or other dimensions. 3D "
+"printing can be used to create parts that adapt between these standards."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:53
+msgid ""
+"3D printing can be used to make parts relatively quickly and cheaply. "
+"This is especially useful for prototyping new designs, or iterating on a "
+"design to make it better at little cost and in a short amount of time."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:57
+msgid "3D Printing Cons"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:59
+msgid ""
+"3D printed parts are often not as strong as machined or cut parts. This "
+"is especially true for FDM printers, which have a layer-by-layer "
+"structure that can be a weak point if the part is loaded in a certain "
+"way. If consideration is given to this weakness when designing the part, "
+"however, the result can be made very strong."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:62
+msgid ""
+"A 3D printed part can only be as large as the print bed it is printed on."
+" This means that large parts may need to be printed in multiple pieces "
+"and assembled later."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:64
+msgid ""
+"3D printing can be slow, especially for large parts. Longer prints can "
+"take hours or even days to complete, raising the risk of a print failing "
+"and wasting time and material."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:66
+msgid ""
+"3D printing can be expensive. The cost of a printer, filament, and other "
+"materials can add up quickly. However, the cost of a 3D printer has been "
+"decreasing rapidly, and filament is relatively cheap."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:2
+msgid "What is Slicing?"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.rst:2
+msgid "Slicer Software Choices"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:2
+msgid "Explanation of Slicer Settings"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.rst:2
+msgid "General Design for 3d Printed Parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:2
+msgid "Design to Make Easy-To-Print Parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:2
+msgid "Working With Screws"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:2
+msgid "Tolerancing Prints"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:2
+#: ../../source/manufacturing/3d_printing/index.rst:23
+msgid "Designing and Slicing"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:4
+msgid ""
+"This section goes over the essentials of how to design CAD files that are"
+" easily 3d printable, and slicing softwares that can take cad files into "
+"instructions for a 3d printer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.rst:4
+msgid ""
+"Gradually as you 3d print more you will acquire a general design sense. "
+"You will have a good sense of what you should and shouldn't print, know "
+"what your printer is capable of, and know what won't break. A lot of this"
+" comes with experience, but there are some general tips that can be "
+"given."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.rst:9
+msgid "Large Prints"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.rst:10
+msgid ""
+"If you're using your entire build plate, you generally should not be "
+"printing that part continuously. Design the part to be connected in "
+"various places with hardware, or even better, design it to have metal "
+"reinforcement and use 3d prints for only the unique/specific geometry."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.rst:15
+msgid ""
+"The reason this is said is due to problems with unitization (a practice "
+"of combining or splitting multiple parts into smaller or larger objects)."
+" If your part takes a whole print plate, and breaks while on the robot, "
+"you have to painfully run a very long print again. Segmented parts can be"
+" more easily replaced if part of it breaks. Keep your parts small and "
+"easy to run replacement prints for."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.rst:20
+msgid "Avoiding Fine Details"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/general_3d_print_design/general_3d_print_design.rst:21
+msgid ""
+"3D Printers can achieve a fairly high level of detail but functional "
+"parts of a part should be kept to be large geometry as smaller geometry "
+"often fails easier. For example, when printing something like gears, it's"
+" advised to do a large module such as 1-2mm, because standard 3D printers"
+" just can't print smaller teeth with accuracy and strength. You should "
+"make sure all parts of a print are at least 2-3x your nozzle width, to "
+"make sure that sufficient strength can be achieved. For a standard 0.4mm "
+"nozzle, 1.2mm is really the thinnest any part of your design should be."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:4
+msgid ""
+"A major problem teams sometimes encounter is that their parts are "
+"difficult to print without extreme amounts of supports or precarious "
+"overhangs. This issue can and should be solved during the design process "
+"in a practice sometimes called DFAM (Designing for Additive "
+"Manufacturing). 3d Printers have limits, and these can be taken into "
+"account while initially creating a part, making those manufacturing "
+"limitations just as much of a consideration as what the function of the "
+"part you're creating is."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:11
+msgid "Printing Face"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:12
+msgid ""
+"When you first conceptualize a part you plan to print, immediately "
+"consider what face will lie on the built plate for it to print safely on."
+" In general the more area touching the plate, the better, as it provides "
+"more adhesion. Always design with creating large flat surfaces for "
+"printing in mind."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:-1
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:20
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:29
+msgid "A part on a slicer's bed view."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:20
+msgid ""
+"A part with a slightly concerning contact with the bed. This part could "
+"have been designed to rest another, larger face on the bed."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:29
+msgid ""
+"A part with much better contact with the bed. This part looks great to "
+"print."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:34
+msgid "Overhang Angles"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:36
+msgid ""
+"Supports should only be used if absolutely necessary. In almost all "
+"parts, you can find some way to create angles or adjust geometry to avoid"
+" support usage. Supports lengthen post-processing time, are generally "
+"difficult to tune, leave less clean surfaces, and are more prone to "
+"failure."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:46
+msgid ""
+"After you determine your printing face for a part, look at it closely and"
+" determine whether there's any areas with over a ~45 degree overhang. "
+"Then, try and mitigate those areas using chamfers, fillets, and adding "
+"material. If mitigation isn't possible, consider splitting the part into "
+"multiple pieces and securing them together with fasteners."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:51
+msgid "Overhang Angles Case Study #1"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:53
+msgid ""
+"The part you see below would have been very frustrating to print in any "
+"orientation without the use of supports, so it was opted to split it in "
+"two and use M3 screws to attach the pieces instead. This provided two "
+"very easy to print parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:-1
+msgid "A part split in two for printability."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:64
+msgid "Overhang Angles Case Study #2"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:66
+msgid ""
+"The part you see below is an arm hardstop for a robot, eventually printed"
+" with no supports despite its complex geometry. In particular, pay "
+"attention to the second picture. The part could have been designed to "
+"stop at the red line but was extended to a 45 degree overhang to ensure "
+"the printer wasn't printing in midair."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:-1
+msgid "A complex part printable without supports."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:5
+msgid "Layer Height"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:7
+#, python-format
+msgid ""
+"Layer height is the biggest factor affecting quality, speed, and "
+"(somewhat) strength, if you are concerned about tolerances and quality, a"
+" good starting point is 50% of your nozzle width (typically 0.4mm, so a "
+"0.2mm width at 50%). On the other hand if you want more speed, at the "
+"cost of some strength, opt for up to 75% of your nozzle width instead (up"
+" to 0.32mm for a 0.4mm nozzle)."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:-1
+msgid "An image visualizing layer lines"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:19
+msgid "Walls"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:21
+msgid ""
+"Walls refer to how many solid \"outer\" layers a print has a we'd "
+"recommend anywhere from 3-5 walls for strong prints. Additionally, its a "
+"good idea for all prints is to turn on an alternating extra shell. This "
+"interlocks the walls with the infill more, making the infill stronger."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:-1
+msgid "An image visualizing shell count"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:36
+msgid "An image visualizing alternating extra shell"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:36
+msgid ""
+"While sometimes a tough setting to find, this alternating extra shell "
+"interlocks with infill and considerably impacts strength."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:41
+msgid "Infill"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:42
+msgid ""
+"Infill is a measure of how solid your part is. This can vary based on "
+"desired strength. Infill patterns are the pattern taken by the percentage"
+" of infill that you specify. For Infill patterns it is recommended to use"
+" **3D infill patterns** such as \"Cubic\" and \"Gyroid\". 2D infill "
+"patterns such as \"Grid\" don't have uniform stability in all directions."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:-1
+msgid "An image showing various infill patterns available"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:54
+msgid "Supports"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:56
+msgid ""
+"3D Printers are amazing, but all machines unfortunately, have "
+"limitations, and with 3D printers that means, you can't print melted "
+"plastic in midair and expect it to stay there. This is where supports "
+"come in. Supports are excess printed material designed to be broken away "
+"after the print. Generally, we want to avoid support material by "
+"designing around it. But if not possible, it's a good idea to use "
+"\"Support Enforcers\"/\"Paint On Supports\" to closely control what areas"
+" you know need support. This makes cleanup after a print a lot easier."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:61
+msgid ""
+"If you want more info on supports, check out Prusa's guide `here! "
+"<https://help.prusa3d.com/article/support-material_1698>`_"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:-1
+msgid "An image showing support structures (Prusa)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:72
+msgid "Recommended Wall and Infill Settings"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:74
+msgid ""
+"While not applicable for all situations, this is some general guidance on"
+" wall and infill strength for PLA parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:76
+msgid "**Purely Aesthetic Parts**: 5-10% Infill, 2 alternating 3 Walls"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:77
+msgid "**Typical Use Parts**: 10-20% Infill, 3 alternating 4 Walls"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:78
+msgid ""
+"**Load Bearing and Structural Parts**: 40-60% Infill, 4 alternating 5 "
+"Walls"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:79
+msgid ""
+"**Fully Structural and Integral Parts (Take Shocks when Robot is "
+"dropped)**: 80-100% Infill, 4 alternating 5 Walls"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:81
+#, python-format
+msgid ""
+"Depending on how well your printer is tuned, 100% infill can be weaker "
+"than slightly lower infill. 90% infill is a recommended maximum to leave "
+"space for overextrusion."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.rst:4
+msgid ""
+"There's a variety of slicing software available for use, either community"
+" or company maintained. Preference plays a large factor in choosing "
+"software, so it's recommended to see what software you like best."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.rst:7
+msgid ""
+"If you are using a Prusa, BambuLab, or AnkerMake printer, your first "
+"consideration should be these companies respective softwares. PrusaSlicer"
+" is built to work well with Prusa machines, BambuStudio with BambuLab "
+"machines, and AnkerMake's slicer for Anker machines."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.rst:10
+msgid ""
+"If you are using any other printer or the proprietary software for your "
+"printer doesn't fit well with you, Ultimaker Cura and PrusaSlicer are "
+"both amazing options. Both with almost every modern slicer feature, these"
+" are great options. Cura is great if you want a clean UI with minimal "
+"settings, while PrusaSlicer may enable more powerful control of your "
+"printer with more customizable settings and a larger open source "
+"community."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.rst:19
+msgid "Cura and Prusaslicer's logos side by side"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.rst:19
+msgid ""
+"The two most popular slicer softwares with the most community support, "
+"Ultimaker Cura and PrusaSlicer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.rst:23
+msgid ""
+"Both PrusaSlicer and Cura have lists and lists of printers they have "
+"prebuilt slicer profiles for, but in case your printer isn't on those "
+"lists, you should search up the slicer you are using and your printers "
+"name. If the printer is relatively popular, there will be slicer profiles"
+" posted online that you can import into these slicer softwares."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:4
+msgid ""
+"Tolerances are everything when it comes to 3d printing- we're not "
+"precision machining parts here, we're laying down plastic and hoping it "
+"forms a shape. Differences in temperature, nozzle quality, and airflow "
+"can vastly change the size a hole actually is despite what the printers "
+"instructions tell it to do. A 4mm hole when printed could end up as "
+"actually being 3.6mm. Below are detailed two ways to deal with these "
+"tolerance issues for 3d printing."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:9
+msgid "Designing Tolerances"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:10
+msgid ""
+"A common way for teams to deal with prints interacting with each other "
+"and hardware is to form a table with a list of commonly used hole sizes "
+"for your various applications and then use these hole sizes in their CAD."
+" Numbers depend on your printer and nozzle size, so we would recommend "
+"making test prints to see how hardware can fit best in order to form this"
+" table. An example test print would be a print with a 2.8mm, 2.9mm, "
+"3.0mm, 3.1mm, and 3.2mm hole to see which best creates an M3 through "
+"hole."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:15
+msgid ""
+"This method is generally acceptable if kept well maintained and updated "
+"per printer, but it does mean that you have inconsistent hole sizes in "
+"CAD that would seem arbitrary to anyone looking at your team's CAD."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:19
+msgid "Slicer Horizontal Expansion"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:20
+msgid ""
+"The technically proper way to deal with tolerances- horizontal expansion "
+"compensation. All slicers have horizontal expansion settings to make it "
+"so that you can have a 4mm hole turn out as precisely 4mm."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:28
+msgid "An image showing XY compensation settings in a slicer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:28
+msgid "Example horizontal compensation setting names."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:32
+msgid ""
+"When tuning these, a good starting point is half your nozzle size- if "
+"you're using a 0.4mm nozzle, assume 0.2mm expansion and make the "
+"compensation numbers -0.2mm."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/tolerancing/tolerancing.rst:34
+msgid ""
+"You will still have to use different numbers for pressfit vs slipfit in "
+"cad for this however, so this is not a catch-all method of making it so "
+"you can cad parts perfectly to the size you'd like them to be. Constant "
+"thoughts about what size something should be to fit hardware properly "
+"should always be considered when designing parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:4
+msgid ""
+"One of the most important steps of 3D printing is turning your CAD files "
+"into instructions for the printer can carry out and read. This is done in"
+" a software called a slicer, which turns CAD files, into machine-"
+"readable, G-Code Files."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:-1
+msgid "A graphic showing the steps of creating a 3d printable file."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:14
+msgid ""
+"The basis of this software is that it takes a mesh file, normally an STL "
+"file, and splits it into layers and lines that the 3d printer can digest."
+" You get to select various parameters about how it will instruct the "
+"printer to follow this data, such as the speed, thickness of lines, "
+"temperatures, thickness of the slices, amount of walls, the patterns on "
+"the inside of the part, and even more. Most slicers will have over 200 "
+"options available to you if fine-tuning is something you're interested "
+"in, but there's only about 10-20 settings that you absolutely have to be "
+"concerned with."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/what_is_slicing/what_is_slicing.rst:20
+msgid ""
+"G-Code files are also notably just compilations of G-Code commands. "
+"G-Code commands tell the printer how to move, where to move, and what to "
+"turn on and off. These G-Code commands can be useful to learn if your "
+"printer has a command line or you want to eventually write start-up or "
+"shut-down scripts for your prints."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:4
+msgid ""
+"3D printed parts typically interact quite often with your hardware and "
+"screws. A lot of teams simply use locknuts to secure 3D printed parts but"
+" while they are strong, they may not always fit or work for your "
+"application. Thankfully, there a quite a few other ways to secure 3D "
+"printed parts without much effort:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:-1
+msgid "An image showing various screw interactions with 3d prints."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:16
+msgid "Plastic Threading"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:17
+msgid ""
+"For low strength, simple, and aesthetic applications you can simply "
+"thread a screw directly into an undersized 3D printed hole. An M4 screw "
+"could be threaded into a 3.3mm hole for example, and hold rather well. "
+"Specialized thread forming screws, similar in look to wood or concrete "
+"screws, make this process a lot easier and increase holding strength."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:21
+msgid ""
+"While simple to implement, threading directly into plastic should not be "
+"used for parts that need to be removed. When plastic threads are commonly"
+" screwed/unscrewed, they lose their strength extremely quickly. This "
+"method is best for combining parts that are never expected to be "
+"separated for maintenance or repairs."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:26
+msgid "Embedded Nuts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:27
+msgid ""
+"Nuts and Locknuts can be embedded into prints, removing the need for a "
+"wrench when tightening a screw. Simply inset the shape and size of the "
+"nut into a print and drop it in when attaching the part. These should "
+"hold very well, especially if placed in mid-print (pausing the print "
+"midway through to place a nut embedded inside)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:-1
+msgid "An exterior embedded nut on a 3d print."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:39
+msgid "Heat Set Inserts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:41
+msgid ""
+"An increasingly common solution to securing screws to 3d printed parts, "
+"heat set inserts are small brass components that can be melted into a 3d "
+"printed part using a soldering iron. There are custom soldering iron tips"
+" specifically for this purpose. There's lots of sizes available for "
+"whatever purpose you need (Amazon, Aliexpress, whatever storefront you "
+"prefer), but keep in mind that inserts with a \"chamfer\" will be a lot "
+"easier to put in."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:45
+msgid ""
+"A very important best practice when using heat set inserts is to place "
+"them on the print where when the screw is tightened, they will be pulled "
+"farther into the print instead of out. This increases longevity."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:53
+msgid "Pictured proper heat set insert use."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:53
+msgid ""
+"This part uses heat set inserts as described above, where tightening the "
+"screw pulls them farther into the part."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:57
+msgid ""
+"If you'd like a more in-depth guide on using heat set inserts or are "
+"considering doing so for your team, go read through `Markforged's article"
+" on the topic. <https://markforged.com/resources/blog/heat-set-"
+"inserts>`_."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:2
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:29
+msgid "Advanced Filaments"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:4
+msgid ""
+"If your printer's hotend (the part that melts the filament) has a PTFE "
+"(Teflon) lining where the PTFE tube goes all the way down to the heat "
+"block (common in lower price printers like the base Ender 3), then you "
+"should not be printing at or above 250° C. Doing so will cause the PTFE "
+"tube to degrade and melt, potentially releasing toxic fumes. If you need "
+"to print at these temperatures (used for some of the advanced filaments "
+"listed here), and you have a PTFE lined hotend, you can look at upgrading"
+" to an all-metal hotend."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:12
+msgid ""
+"ABS (Acrylonitrile Butadiene Styrene) / ASA (Acrylonitrile Styrene "
+"Acrylate)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:18
+msgid "A lego brick showing the plastic used"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:18
+msgid "ABS can best be recognized as the plastic used for Lego Bricks."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:22
+msgid ""
+"Before PLA became readily available, ABS was the most common filament "
+"used for 3D printing. Nowadays, it's regarded as a more advanced filament"
+" with a specilized setup needed. ABS is very strong, having a high "
+"ductility and able to withstand shock loads well. These strengths come "
+"with major difficulties, however, as an enclosure is often needed to "
+"increase the ambient temperature in order to prevent severe part warping."
+" This enclosure is also a good idea due to ABS's production of styrene "
+"when it melts, a carcinogenic gas that can cause headaches. ABS should "
+"only be printed within filtered enclosures or in extremely well "
+"ventilated areas. If you have a proper setup with a heated enclosure, ABS"
+" can be very worth your time, but if you don't have a setup for it, it's "
+"not worth the pain to try and print it. Notably, ABS can be very "
+"inexpensive and often found near the same price as PLA or even cheaper."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:31
+msgid ""
+"ASA, a slightly more expensive but similar material, prints at "
+"approximately the same temperatures but prints slightly easier and "
+"produces considerably less styrene. It also may not require an enclosure "
+"for smaller prints. Alongside that, it's UV Resistant and typically "
+"offers slightly better mechanical properties compared to most ABS "
+"plastics."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:34
+msgid "ABS hotend temperatures: 230-250° C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:35
+msgid "ABS bed temperatures: 100-120° C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:36
+msgid "ABS enclosure temperature: 30-40° C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:38
+msgid ""
+"It is important to properly vent/filter fumes emitting from ABS/ASA, as "
+"prolonged exposure to either can lead to poisoning. Typically it's "
+"recommended to use an activated carbon air filter, however most "
+"enclosures aren't airtight, and therefore it's also important to leave "
+"your printer somewhere safe if you plan on printing large or numerous "
+"parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:41
+msgid "Polyamide Filaments"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:47
+msgid "Picture of Nylon parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:47
+msgid "A collection of Nylon parts, including gears, a great usecase for Nylon"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:51
+msgid ""
+"Nylon is a category of Polyamide, and these generalizations should apply "
+"to all filaments based on Nylon or a general Polyamide."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:53
+msgid ""
+"Being more of a category of filaments, polyamide (PA) based filaments can"
+" boast impressive capabilities while being relatively easy to print. "
+"These show their strength in extreme durability and resistance to wear, "
+"making them ideal for gears and pulleys if you can safely print them. "
+"Common filaments in this category include Pure Nylon, Polyamide, PA-KV "
+"(kevlar filled nylon), and PA-CF (carbon fiber filled polyamide). "
+"Polyamide filaments will commonly require printing temperatures in excess"
+" of 250° C, making an all-metal hotend necessary, and require heated bed "
+"temperatures in the range of 80-100° C. Some of these filaments are "
+"abrasive, requiring a hardened steel nozzle on your hotend to avoid "
+"damage. These filaments are also **extremely** hygroscopic, making proper"
+" storage a necessity even while actively printing. Nylon prints also tend"
+" to shrink when cooling."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:62
+msgid "Carbon Fiber Filaments"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:68
+msgid "Picture of a Carbon Fiber filament roll"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:68
+msgid "The abrasiveness of Carbon Fiber filament is visible."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:72
+msgid ""
+"Carbon fiber (CF) filled filaments are everywhere, bringing increased "
+"stiffness and strength to many parts while keeping them light. You can "
+"find PLA-CF, PETG-CF, PA-CF, CF-ASA, PC-CF, and many others. CF filled "
+"filaments typically keep many properties from the filament they are based"
+" on, including how hygroscopic the filament is, the printing "
+"temperatures, and the ease of printing. The one large difference is the "
+"abrasion of the filament, meaning that you need a hardened steel nozzle "
+"or other abrasion resistant nozzle for your hotend."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:78
+msgid ""
+"Carbon Fiber reinforced PLA is one of the most commonly used CF "
+"Filaments, but comes with a notable drawback that it becomes incredibly "
+"brittle. It's important to to keep these kinds of trade-offs in mind, as "
+"while it's seen as \"stronger\", it doesn't hold up as well as most "
+"regular PLAs when it comes to dealing with impacts and may suffer from "
+"poor layer adhesion."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:82
+msgid "TPU/TPE (Thermoplastic Polyurethane/Elastomer)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:89
+msgid "Picture of TPU parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:89
+msgid "An intake using custom TPU parts to grab game elements."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:93
+msgid ""
+"TPU and TPE are flexible filaments that can be used to create parts that "
+"are flexible and can bend. These filaments are sold under a variety of "
+"different durometers (a measure of a material's hardness). You will find "
+"95A durometer the most common durometer due to it's printability. "
+"TPU/TPE's flexibility grants it an extremely high impact resistance, "
+"making it very durable as well. In FTC, TPU/TPE is often used to make "
+"flexible components such as intake rollers, wheel bumpers, and "
+"occasionally low-load toothed belts. Finally, TPU is extremely "
+"hygroscopic, and proper filament storage practices should be used."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:100
+msgid ""
+"Since TPU/TPE is very flexible, printers with a Bowden extrusion system, "
+"where the extruder motor and gear is not located near the hotend, will "
+"have a very difficult time printing with it."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:103
+msgid "TPU hotend temperatures: 210-250° C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:104
+msgid "TPU bed temperatures: Heated bed not required, but do not exceed 60° C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:105
+msgid ""
+"TPU printing speeds should never exceed 50mm/s on a direct drive printer "
+"and 20mm/s on a bowden printer"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:106
+msgid "Direct drive extrusion system highly recommended"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:2
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:29
+msgid "Common Filaments"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:4
+msgid ""
+"These common filaments come in the most variety of color. Printing parts "
+"in colors that match a team's brand is an easy way to customize a robot!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:7
+msgid ""
+"This page will go through the most common filaments and their properties."
+" While each filament has advantages and disadvantages, most teams will "
+"find that the filaments listed on this page, PLA (Polylactic Acid) and "
+"PETG (Polyethylene Terephthalate Glycol) will be their best choice for "
+"strength, durability, cost, and aesthetics. These filaments are the "
+"easiest to print with, and are available from many different "
+"manufacturers at a low cost. Many other filaments that will be discussed "
+"add some specific property (ex: TPU/TPE for flexibility), but are more "
+"difficult to print with, and are often more expensive."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:14
+msgid ""
+"The temperatures listed here are simply a range of the common "
+"temperatures for that filament, and may vary depending on the specific "
+"filament."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:18
+msgid "PLA (Polylactic Acid)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:25
+msgid "Picture of a PLA part"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:25
+msgid "A custom drivetrain with PLA parts used across it."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:29
+msgid ""
+"Polylactic Acid, or PLA, is the most common 3D printing filament used "
+"today. It is made from biological sources such as corn starch or sugar "
+"cane. PLA is easy to print with, and is usually the best choice for most "
+"robot parts. It prints at a low temperature, and tends to warp very "
+"little. PLA is very stiff, but can be brittle, especially under shock "
+"loads (impacts), and parts should be designed with this in mind."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:34
+msgid ""
+"PLA is also sold in a massive number of variations from different "
+"manufacturers, like PLA+ or PLA Pro. These filaments contain different "
+"additives to improve the properties of the filament, such as increased "
+"strength or better printability. While more expensive, these filaments "
+"can be a great option that make PLA much more capable."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:40
+msgid "PLA hotend temperatures: 190-230° C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:41
+msgid ""
+"PLA bed temperatures: 20-70° C; PLA does not require a heated bed, but it"
+" is recommended."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:43
+msgid ""
+"Warning #1 about PLA: Due to the relatively low melting point of PLA, it "
+"is not advisable to leave PLA parts in locations such as a hot car, as "
+"this can produce severe warping in those parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:46
+msgid ""
+"Warning #2 about PLA: PLA is extremely sensitive to UV light and "
+"sunlight. After multiple days outside during something such as an "
+"outreach event, if your robot is not under shade you may experience part "
+"failures. Make sure to account for this and either avoid long outdoor "
+"outreach events with your robot exposed or be prepared to replace parts "
+"after such events."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:52
+msgid "PETG (Polyethylene Terephthalate Glycol)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:59
+msgid "Picture of a PET-G part"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:59
+msgid "A linear slide insert printed in PET-G filament."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:63
+msgid ""
+"PETG is another very common filament that some consider an upgrade to "
+"PLA. Being only slightly more difficult to print with than PLA, PETG "
+"often has more stringing and other artifacts on parts. PETG's tensile "
+"strength is a technically lower than that of PLA, however it is much more"
+" flexible and less brittle. Because of this, PETG is more resistant to "
+"shock loads than PLA, and is a good choice for parts that may be "
+"impacted. PETG is also more resistant to heat than PLA, and is unlikely "
+"to warp when left in a hot location."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:69
+msgid "PETG hotend temperatures: 230-250° C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:70
+msgid "PETG bed temperatures: 60-80° C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:72
+msgid ""
+"PETG is well known for bonding extremely well to print beds, especially "
+"those made out of glass and PEI, to the point of tearing chunks out of "
+"the print surface. If you are printing with PETG, it may be a good idea "
+"to apply some glue stick or hairspray to the surface to prevent this."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:29
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:2
+msgid "Filament Storage Details"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:2
+#: ../../source/manufacturing/3d_printing/index.rst:23
+msgid "Filament Choice"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:3
+msgid ""
+"There are many different materials and colors of plastics called "
+"\"filaments\" that can be used for 3D printing, but for FTC there are "
+"only a few that are of practical use for most teams. Since this guide is "
+"currently only addressing FDM (Fused Deposition Modeling) printing, "
+"materials like resin (used in SLA printing) will not be discussed. |"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:8
+msgid ""
+"Currently, the majority of commercial 3D printers use a 1.75mm diameter "
+"filament, so when shopping for filaments, teams should take care to avoid"
+" other diameters, such as 2.85mm, as these will not work with most "
+"printers."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:13
+msgid ""
+"This section is all about FDM filament choices for 3D printing. There are"
+" a variety of plastics that are commonly used, with some being more "
+"common than others, and some fulfilling specialty use cases. There are "
+"specialized to FTC descriptions in this section, but if you want a simple"
+" comparison chart like shown below, check out this `Filament Properties "
+"Table <https://www.simplify3d.com/resources/materials-guide/properties-"
+"table/>`_."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:-1
+msgid "A chart comparing various 3d printing filaments."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_choice.rst:25
+msgid ""
+"This section also talks about proper ways to store filament and the ever "
+"present complaint of \"moisture in filament\" in the filament storage "
+"section."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:5
+msgid "General Guidelines"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:7
+msgid ""
+"Here are some general guidelines for how careful you should be to store "
+"filaments."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:9
+msgid "Can be left in open air, sealed storage preferred: ABS, ASA"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:10
+msgid "Sealed storage highly recommended: PLA, PET-G"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:11
+msgid ""
+"Sealed storage highly recommended while printing and storing: TPU/TPE, "
+"Polyamides"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:14
+msgid "Why We Need Filament Storage"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:21
+msgid "A DIY filament storage solution"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:21
+msgid ""
+"A large sealed bin can be customized to fit your use with silica packets "
+"thrown in."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:25
+msgid ""
+"It's important to keep in mind that filaments need to be stored in a "
+"specific way- and even the basic filaments PLA and PET-G are no "
+"exception. Filaments are **hygroscopic** (absorb moisture from the air), "
+"and that affects print quality majorly if not taken care of. Store "
+"filaments in a closed and sealed container, preferably kept dry with "
+"spare silica packets, and don't leave them out whenever possible."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:29
+msgid ""
+"If you suspect a filament has taken on water, look up a drying "
+"temperature for it, and put it in the oven or a specialized filament "
+"dryer at that temperature for a few hours to get rid of the water."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:32
+msgid ""
+"An easy way to tell if a filament has taken on moisture is if you hear a "
+"slight popping noise when printing- this is the moisture forming bubbles "
+"in the filament as it's heated."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:37
+msgid "Storing While Printing"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:39
+msgid ""
+"Some more sensitive hygroscopic filaments don't just need to be stored in"
+" sealed containers, but also need to be printed while in a sealed "
+"container. Lots of companies sell or design \"dryboxes\" for this "
+"purpose, such as SUNLU's filament dryer box, BambuLab's AMS setup, or "
+"custom designs such as one by Prusa Research. Do your own research and "
+"find out which of these is best for you if you deal with extremely "
+"sensitive filaments."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:48
+msgid "Prusa's filament drybox"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:48
+msgid "Prusa's filament drybox solution, 3D printed and DIY."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:2
+#: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:8
+msgid "Common 3D Printing Tools"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:5
+msgid "Allen Keys"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:7
+msgid ""
+"Allen keys are essential for operating your printer, even if you don't "
+"plan on upgrading, regular maintenance and repairs will require these. "
+"It's suggested that you buy high quality allen keys that won't strip your"
+" screws from the start (this goes for other tools as well!). The most "
+"common sizes for allen keys on today's printers are **2.0mm and 2.5mm** "
+"but we'd recommend stocking other sizes as well."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
+msgid "A kit of multiple allen keys."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:21
+msgid "Screwdrivers"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:23
+msgid ""
+"Screwdrivers are another tool to keep handy for repairing your printer "
+"especially for operating in spots hard to reach with allen keys and for "
+"screws other than hex key. It's suggested to get a kit with many small "
+"bits such as the one pictured below for easy maintenance, unless you "
+"already know exactly what type and size screws are utilized on all your "
+"3d printers."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
+msgid "A screwdriver kit with many types of bits."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:36
+msgid "Flush Cutter"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:38
+msgid ""
+"Flush cutters, otherwise known as diagonal cutters, snips, or snippers by"
+" teams, are an extremely versatile tool that can be used for cutting and "
+"trimming things on your printer or your prints. A cheap pair like "
+"pictured below is still great for 3D Printing and general use, just make "
+"sure that they stay sharp!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:50
+msgid "PTFE Cutter"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:52
+msgid ""
+"Many people think that they can just cut PTFE tube with scissors or flush"
+" cutters, but fail to realize the downsides of this. The compression of "
+"scissors or flush cutters can compress the sides of the tube or deform "
+"it, and when some PTFE tubes have little room for error, this can make a "
+"tube unusable. Specialized PTFE tube cutters like the one pictured below "
+"can make sure that one of the most important parts of filament transport "
+"on your printer is good quality. The one pictured below is clamped onto a"
+" PTFE tube, spun around it a few times, and then the cut will be complete"
+" with little effort."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
+msgid "A basic PTFE tube cutter."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:67
+msgid "Calipers"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:69
+msgid ""
+"Calipers are a precision measuring tool used to measure distances often "
+"down the the hundredth of a millimeter. These are incredible useful for "
+"dialing in pressfits and slipfits, ensuring dimensional accuracy, and "
+"tuning your printer. We'd recommend getting a quality pair with solid "
+"reviews that will last you a while and remain precise."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
+msgid "A nice set of calipers, for accurate measurement."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:82
+msgid "Files/Sandpaper"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:84
+msgid ""
+"Files and sandpaper are great for getting a nice surface finish and "
+"potentially modifying prints if they didn't initially fit your usecase. "
+"Oftentimes, quickly filing a part down can save you loads of print time "
+"so it's great to have some on hand."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
+msgid "A set of multiple types of files and rasps."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:96
+msgid "Putty Knives"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:98
+msgid ""
+"At its core, a putty knife can basically be used as a spatula to pull 3D "
+"prints off the bed. This is a must have for print removal to avoid "
+"touching the bed while it's still hot and to give yourself some extra "
+"leverage on those prints that are really stuck."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
+msgid "A standard putty knife for print removal."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:110
+msgid "Electrical Tools"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:112
+msgid ""
+"Crimpers, a soldering iron, and a good wire stripper are very important "
+"to have on hand if you plan modifying your 3D Printer or replacing "
+"electrical components. The ability to make your own wires is invaluable, "
+"and can often save you a lot of time from ordering materials."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
+msgid "A good quality wire crimper, the Engineer PA-09."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:2
+#: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:8
+msgid "Common 3D Printing Upgrades"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:4
+msgid ""
+"A pretty common thing to do with 3D Printers is upgrade them over time, "
+"here's a few of the most common upgrades for any printer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:8
+msgid "Removeable/Flexible Beds"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:10
+msgid ""
+"A lot of printers come with cheap \"BuildTak\" (typical stickers) beds "
+"that work just fine, but some people desire more removeable prints with "
+"better adhesion and more customizability, which is fulfilled by removable"
+" beds. WhamBam, Bambulabs, and generic Amazon sellers will typically "
+"carry these beds for various prices. You'll see some terms which we'll "
+"explain here. PEI is the \"gold standard\" nowadays, simply being a sheet"
+" of material that sticks well to 3D prints when heated. More advanced "
+"options includev PEX, which expands when heated and holds onto 3D prints "
+"better, and then as it cools completely releases the parts. Powder-Coated"
+" PEI/Textured PEI are by far the most popular flexible beds now, being "
+"cheap, simple, more resistant to damage than PEI or PEX flexible beds, "
+"and having exceptional print adhesion."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:-1
+msgid "Removing a print by bending a flexible bed."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:27
+msgid "Glass Beds"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:29
+msgid ""
+"Glass beds are also a great upgrade, they stay flat and last a long time."
+" They also tend to be a lot cheaper than flex beds! A glass bed combined "
+"with something like glue stick or hairspray works really well to keep "
+"prints secure. Most glass beds found on Amazon will work, look for the "
+"keywords Carborundum or Borosilicate when looking for glass beds for your"
+" printer size."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:-1
+msgid "A standard glass bed."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:42
+msgid "Hotend Upgrades"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:44
+msgid ""
+"A hotend upgrade can be very beneficial for printing with different "
+"filaments, speeding up prints, and general reliability. Learning how to "
+"mount hotends often takes some CAD skills or a quick Thingiverse search, "
+"but hotend upgrades are very worth it. Typically, you will need a hotend "
+"structure, heater wire, and thermistor to do a full upgrade (and some "
+"wiring tools to connect it to your board). Here are a few hotends from "
+"different price ranges that are well regarded and used."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:49
+msgid "**Low End:** E3D V6, All-Metal Microswiss Hotend."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:51
+msgid "**Mid Range:** Phaetus Dragonfly, Creality Spider."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:53
+msgid "**High End:** Phaetus Dragon HF, Slice Engineering Mosquito, E3D Revo."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:55
+msgid ""
+"**Speed Printing/Engineering:** These hotends are not for the faint of "
+"heart and typically require designing custom mounts. They are also "
+"typically in a very high price point. These include the Mosquito Magnum, "
+"Phaetus Dragon UHF, the Goliath, and the Nova."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:63
+msgid "3 pictured hotends that are example upgrades."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:63
+msgid "Left to Right: Slice Engineering Mosquito, E3D V6, Phaetus Dragon"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:67
+msgid ""
+"A quick way to increase your hotend's flow rate without breaking the bank"
+" and buying a new hotend is by buying and utilizing something called a "
+"**CHT Nozzle**. These nozzles split filament flow into 3 parts, allowing "
+"each section to melt faster, and resulting in a considerably higher flow "
+"rate of plastic."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:78
+msgid "An example CHT nozzle."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:78
+msgid "This Bondtech CHT nozzle splits flow into three."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:83
+msgid "Silent Stepper Boards"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:85
+msgid ""
+"Older printers or low end printers tend to be very loud stock, which is "
+"why silent stepper boards are a great upgrade. These boards use more "
+"advanced stepper drivers to smooth inputs, causing steppers to make less "
+"whining and whirring noises. For most printers you will have to do some "
+"research for the best replacement board for you, but for base model Ender"
+" 3 printers, the main compatible boards are the SKR Mini E3 and the SKR "
+"Mini Turbo, both of which are drop-in replacements and take no time at "
+"all. Luckily, most printers nowadays include this option stock, so it's "
+"not a concern for many."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:97
+msgid "An image of a silent stepper board."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:97
+msgid ""
+"An SKR e3 Turbo with TMC2209 Stepper Drivers, the current standard for "
+"silent printing."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:102
+msgid ""
+"ABL or Auto-Bed Leveling uses either a mechanical or inductive sensor on "
+"your toolhead to probe your bed in different locations and uses software "
+"to improve your first layer quality and adhesion. While it requires "
+"learning a bit about firmware, auto bed leveling is extremely worth it. "
+"More and more printers are coming with auto bed leveling stock, butcif "
+"yours didn't and you'd like to upgrade, these options are common:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:107
+msgid "Mechanical Sensors: BLTouch, CRTouch"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:108
+msgid "Inductive Sensors: Omron TL-Q5MC2-Z, Pinda Inductive Probes"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:115
+msgid "An image depicting a printers reading of a bed."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:115
+msgid ""
+"An example autoleveling reading, showing the imperfections in the bed "
+"that the printer will compensate for."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:120
+msgid "Raspberry Pi/Network Functionality"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:122
+msgid ""
+"Network functionality is becoming frequent in 3D printing, with many "
+"interfaces allowing you to interact with your printer remotely, and "
+"stop/start/watch prints while you aren't even there. Many companies have "
+"begun including this feature stock with newer printers, however, even if "
+"you have a printer without network functionality, using something such as"
+" a Raspberry Pi or old android phone, you can make quick work of this "
+"feature using various online guides. If you're using a printer with "
+"**Marlin** firmware (you can read through your printer's documentation or"
+" sale postings to check) you should research **Octoprint** setup guides. "
+"If you are using a printer with the **Klipper** firmware, you should "
+"research **Fluidd** and **Mainsail** setup guides."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:135
+msgid "A picture of a prusa being controlled by an octoprint dash panel."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:135
+msgid "An Octoprint Control Panel for a Prusa"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:140
+msgid "Dual Z-Axis Support"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:141
+msgid ""
+"A common issue people have with Ender 3's and other budget printers is "
+"the droop of the Z gantry if it's only driven by a lead screw on one "
+"side. This directly results in inconsistencies in prints due to a less "
+"stable frame. A fairly common solution to this is to add a lead screw on "
+"the other side, evening it out. This requires a board upgrade and an "
+"extra stepper. There are plenty of kits for this, or you could attempt to"
+" DIY it yourself."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:-1
+msgid "A picture of an Ender 3 with a dual z axis setup."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:156
+msgid "Part Cooling Upgrades"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:158
+msgid ""
+"As talked about in Terminology, hotend and part cooling are vital to part"
+" quality and preventing jamming issues. If you want to print PLA at "
+"higher speeds, it's recommended to upgrade your cooling fans to be larger"
+" and more efficient. 5015 and 4020 fans are a great upgrade from stock "
+"cooling, and can handle most of what's thrown at them. There are plenty "
+"of mounts available for these fans if you search up your printer model "
+"and the desired fan size (fan sizes are given in width-depth, so a 5015 "
+"comes in a 50mm circle that is 15mm thick) If you want a cooling upgrade "
+"with a lot of science behind it, take a look at Voron Design's **AB-BN** "
+"or **Stealthburner** projects, cooling systems that were completely "
+"engineered with air flow simulation."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:171
+msgid "The mantis cooling fan design with 2 5015 fans."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:171
+msgid "An example cooling setup with dual 5015 fans (Mantis)."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:180
+msgid "Cooling simulations of the Voron Stealthburner project."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:180
+msgid "Simulations of how air runs through a hotend cooling setup (Voron)."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:185
+msgid "Linear Rails"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:187
+msgid ""
+"A lot of 3D Printers use V-wheels for linear motion out of the box, "
+"however these can degrade, flex, and lose dimensional accuracy fairly "
+"easily. Steel linear rails helps make your carriage a lot more stable and"
+" unlocks the ability to print much faster. While this upgrade can be very"
+" valuable, it's important to keep in mind that this is one of the most "
+"expensive upgrades here, as good quality linear rails can cost upwards of"
+" 40$ apiece."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:197
+msgid "Hiwin MGN12 rails mounted on an Ender 3."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:197
+msgid ""
+"This is a MGN12 (12mm wide MGN style linear rail) being used for the x "
+"axis of a printer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:202
+msgid "Cable Drag Chain and Wire Management"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:203
+msgid ""
+"To avoid entanglement and fatigue of wires, a lot of people choose to add"
+" drag chain to their printers to guide their movement. These chains can "
+"either be printed or purchased from a vendor like IGUS/Digikey, so if "
+"you're interested in wire management, either shop around or take a look "
+"around on Printables/Thingiverse and find a set for your printer model."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:-1
+msgid "Cable drag chain mounted on an Ender 3."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:215
+msgid "Miscellaneous Printed Upgrades"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:216
+msgid ""
+"The 3D Printing community is heavily into modifying their "
+"printers...using their printers. There are a plethora of upgrades that "
+"you can just print yourself! Many are for aesthetics like V-Slot covers "
+"and LED lights, but others can improve functionality such as filament "
+"guides and belt tensioners. These upgrades are definitely worth exploring"
+" if you have some downtime!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:225
+msgid "A heavily upgraded Ender 3 using 3d prints."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:225
+msgid "Scott Yu-Jan's heavily upgraded Ender 3"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:8
+msgid "3D Printing Terminology"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:8
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:2
+msgid "Hardware Tradeoffs"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:2
+#: ../../source/manufacturing/3d_printing/index.rst:23
+msgid "General Knowledge"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:4
+msgid ""
+"The following section is general knowledge regarding the operation, "
+"maintenance, and terminology regarding 3D Printing. We'd highly suggest "
+"reading through at least the terminology section before getting into the "
+"more advanced knowledge documented here!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:4
+msgid ""
+"While these tradeoffs are important to consider they will not make or "
+"break your ability to print parts for most applications. Even the most "
+"basic entry printers will work well for FTC but if your team has specific"
+" needs (printing flexible materials for instance) it's recommended to "
+"look through these hardware tradeoffs for education."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:12
+msgid "Direct Drive vs Bowden:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:14
+msgid ""
+"Direct drive extrusion systems have a couple advantages over Bowden, most"
+" notably the ability to print with a wider range of materials "
+"(particularly flexibles) as well as more consistent extrusion and "
+"retraction. However Bowden printers are almost always cheaper so we'd "
+"recommend evaluating what kinds of printing your team needs and go from "
+"there."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:-1
+msgid "An image comparing direct drive and bowden setups."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:27
+msgid "Glass vs Flexible Beds"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:28
+msgid ""
+"Glass and flexibles beds are both common choices. Glass beds will usually"
+" last longer, are easier to maintain, and are more resistant to print "
+"head damage. Good Glass beds are also typically cheaper. Flex beds make "
+"prints easier to take off and typically have better first layer adhesion,"
+" but will run you a premium on cost and are relatively easy to damage or "
+"scrape."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:-1
+msgid "An image showing how flexible beds peel off of the bed."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:41
+msgid "PTFE Lined vs All-Metal Hotends"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:43
+msgid ""
+"PTFE tubing is a common low friction tubing used in 3d printing. PTFE "
+"lined hotends have a section of this tubing that goes right up to the "
+"heated area. These are typically the cheaper option, but it is not "
+"recommend to use them whatsover if you plan on 3d printing anything "
+"beyond PLA/PETG. PTFE at temperatures over standard printing temps "
+"(normally ~250C is the limit) can \"off-gas\", putting off dangerous VOCs"
+" (Volatile Organic Compounds). All-Metal hotends are more expensive, but "
+"remove this dangerous PTFE tube placement. Safety should always be your "
+"top priority, so look at All-Metal as long as you're planning on printing"
+" at higher temperatures. Notably, Ender series printers come stock with a"
+" PTFE lined hotend, so buying all-metal is one of the large upgrades that"
+" many do to their Ender 3s."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:-1
+msgid "An image comparing ptfe lined and all metal hotends."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:59
+msgid "Cartesian vs CoreXY"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:61
+msgid ""
+"Cartesian motion 3D printers, otherwise known colloquially as \"bed-"
+"slingers\" have been the standard for most consumer level printers and "
+"are practically everywhere, with one stepper controlling each axis, and a"
+" moving bed with not much complexity. An alternate form of 3d printer "
+"movement taking the is called CoreXY. These methods of control use a "
+"differential to control both X and Y axes with variable quantities of "
+"energy from 2 motors. This increases power and speed while decreasing "
+"gantry weight. Some of the most notable CoreXY printers include Vorons, "
+"BambuLab printers, and the Creality K1. Due to a lot of engineering "
+"effort, CoreXY is now considered the faster of the two kinematic, and is "
+"recommended to increase manufacturing speed. Cartesian printers are more "
+"tried and tested however, and Cartesian printers like the Prusa mk3, "
+"Prusa mk4, and Ender 3 are a better option if you desire the incredible "
+"resources and consistency behind them."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/hardware_tradeoffs/hardware_tradeoffs.rst:-1
+msgid "An image showing a corexy belting setup."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:2
+msgid "3d Printing Terminology"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:4
+msgid ""
+"3D Printing terminology can often feel overwhelming and complex, to "
+"simplify here's a list of some terms to know!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:7
+msgid "General 3D Printing Terms"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:9
+msgid ""
+"**Additive Manufacturing**: The method of creating a part by building "
+"material layer by layer from a CAD model (more commonly known as 3D "
+"Printing)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:11
+msgid ""
+"**Fused Deposition Modeling (FDM)**: The most common type of 3D Printing "
+"where objects are produced by laying plastics layer by layer on a bed "
+"utilizing a heated nozzle."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:13
+msgid ""
+"**Stereolithography (SLA)**: A slightly less common type of 3D Printing "
+"which uses UV screens to cure plastic resin onto a bed. While more "
+"precise, materials are generally weaker and prints require a lot more "
+"post processing (hence the lack in FTC)."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:15
+msgid ""
+"**Selective Laser Sintering (SLS)**: One of the least common types of 3D "
+"printing, you likely won't come across one of these machines in your "
+"FIRST career due to their cost. SLS machines utilize concentrated lasers "
+"to bind together patterns in material powder, eventually resulting in a "
+"complete part."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:17
+msgid ""
+"**Filament**: Plastics made of polymer resins that become soft above a "
+"certain temperature and harden when they cool. Common filaments include "
+"PLA, PET-G, ABS, Nylon, and Acrylic. These generally come in continuous "
+"rolls that you feed into your printer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:19
+msgid ""
+"**Direct Drive**: A type of FDM extruder where the extruder motor is "
+"placed on the carriage together with the hotend assembly, shortening the "
+"distance that filament needs to travel significantly."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:21
+msgid ""
+"**Bowden**: A type of FDM extruder where the extruder is placed at a "
+"different spot on the printer separate from the carriage and runs "
+"filament through a long PTFE tube to reach the hotend."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:25
+msgid "3D Printer Parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:27
+msgid ""
+"**Carriage**: The moving head of a printer that contains the hotend "
+"assembly."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:29
+msgid ""
+"**Bed**: The heated (or sometimes nonheated) surface that filament is "
+"laid upon."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:31
+msgid ""
+"**Hotend**: The part that melts filament it typically consists of a heat "
+"sink, heater, thermistor, and metal nozzle."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:33
+msgid ""
+"**Gantry**: The frame structure that supports the printing head/hotend as"
+" it moves."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:35
+msgid ""
+"**Stepper Motor**: The small motors that move each axis of the printer "
+"with precision."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:37
+msgid ""
+"**Extruder**: The stepper motor that moves filament into and out of the "
+"hotend, whether from up close or far away."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:39
+msgid ""
+"**Drive Gear**: The gear located on the extruder stepper that grips and "
+"moves the filament. Extruders can be either single drive gear or dual "
+"drive gear, with dual having more grip."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:41
+msgid ""
+"**Bowden Tube**: The slippery tube that is located on your printer that "
+"allows filament to pass through it. They are made of PTFE, a low friction"
+" compound that can degrade at higher temperatures."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:43
+msgid ""
+"**Axes**: A 3D printer has 3 axes, with the X and Y typically being "
+"interchangeable and the Z axis being up and down. There will normally be "
+"one or more steppers controlling each of these axes."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:45
+msgid ""
+"**Hotend Cooling Fan**: All hotends have a heatsink around them to "
+"dissipate heat and prevent it from interfering with other printer "
+"functions (\"heat creep\" is a common issue with poor hotend cooling, in "
+"which filament crumples upon itself instead of being pushed through the "
+"extruder). The hotend cooling fan is directed at the hotend heat sink in "
+"order to prevent issues and help further dissapate heat."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:47
+msgid ""
+"**Part Cooling Fan**: Most printers also have a fan directed below the "
+"nozzle to cool parts as they're printed. Some filaments don't print very "
+"cleanly without cooling, drooping over themselves, so this is a very "
+"important part of the printer for print quality. PLA is easily one of the"
+" most volatile materials when it comes to cooling."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:51
+msgid "Design Terms"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:54
+msgid ""
+"**Tolerances**: Formally described as \"the permissible limit of "
+"variation\", saying that this is how much we expect parts to vary in size"
+" due to the inconsistency of manufacturing."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:56
+msgid ""
+"**Pressfit/Interference Fit**: The tolerance at which pieces will be able"
+" to pressed together and stay together, whether that be a bearing in a "
+"hole or two 3D Printed parts snapping together."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:58
+msgid ""
+"**Throughhole/Thruhole/Slipfit**: The tolerance at which a piece can "
+"freely pass through another, for example being able to drop an M4 screw "
+"into a hole with little to no resistance."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:23
+msgid "Example 3d Printed Parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:23
+#: ../../source/manufacturing/3d_printing/printer_choice/printer_choice.rst:2
+msgid "Printer Choice"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:23
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/specific_skill_guides.rst:2
+msgid "Specific Skill Guides"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:23
+#: ../../source/manufacturing/3d_printing/troubleshooting/troubleshooting.rst:2
+msgid "Troubleshooting Common Issues"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:-1
+#: ../../source/manufacturing/3d_printing/index.rst:8
+msgid "3D Printing"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:-1
+msgid "3D Printing in the FIRST Tech Challenge."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:-1
+msgid "FIRST Tech Challenge, FTC Docs, Manufacturing, 3D Printing, Filaments"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:11
+msgid ""
+"Many parts in FTC need to be a special/unique shape and size, one that "
+"isn't sold or available from a vendor. Sometimes, teams need a part that "
+"is impossible to machine or cut out, or needs to be lightweight. Other "
+"times, teams may want to test and iterate the design of a part rapidly "
+"and cheaply. 3D printing is a great solution to all of these problems."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:16
+msgid ""
+"3D Printing is the process of creating a three dimensional object by "
+"laying down successive layers of material (typically plastic) from a "
+"digital model file. To do this, machines known as 3D Printers are "
+"employed which melt and place plastic in order to produce this model."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:20
+msgid ""
+"In order to start 3D printing, teams need to understand how the "
+"technology works, what printers are available to buy, how to properly set"
+" up a part to be printed, and what materials are available to print with."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:37
+msgid "Volunteer Special Thanks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:39
+msgid ""
+"The *FIRST* Tech Challenge staff would like to extend a special thanks to"
+" the following volunteers for their hard work and dedication toward this "
+"project:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:43
+msgid "Lucas Y., Team 16461"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:45
+msgid "Davy Hallihan, Team 16461"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/index.rst:47
+msgid "Ryan Driemeyer, Team 1002"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:2
+#: ../../source/manufacturing/3d_printing/printer_choice/printer_choice.rst:19
+msgid "Budget Printers (Under $300 USD)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:4
+msgid ""
+"Just because you buy a budget printer doesn't mean you can't upgrade it "
+"later to be even better! (Take a look at Common Upgrades)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:10
+msgid "Creality Ender-3/Pro/V2 ($100-$250)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:12
+msgid ""
+"If you're looking for the most cost effective printer that will still do "
+"a great job, this is a great option. The Ender-3 series is an open source"
+" classic in the FTC and 3D printing community. It has a huge support "
+"network and despite it's low cost, has proven itself to be a very capable"
+" printer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:17
+msgid "Ender 3 Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:18
+msgid "All Ender 3s have:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:20
+msgid "A huge support network"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:21
+msgid "Tons of printable and purchasable upgrades"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:22
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:48
+msgid "Open Source Hardware"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:23
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:70
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:18
+msgid "220mm x 220mm x 250mm Print Volume"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:25
+msgid "The Ender 3 Pro has:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:27
+msgid "A more stable Y axis"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:28
+msgid "A more powerful power supply"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:29
+msgid "A flexible bed"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:31
+msgid "The Ender 3 v2 has:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:33
+msgid "A glass bed"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:34
+msgid "Built in belt tensioners"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:35
+msgid "The power supply and Y axis from the Pro"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:37
+msgid ""
+"The V2 and Pro can often be found on sale for the same price as the base "
+"model, making them very good options."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:40
+msgid "Ender 3 Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:41
+msgid ""
+"Technology is dated due to initial release in 2018 (Lack of Auto Bed "
+"Leveling)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:42
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:170
+msgid "PTFE Lined Hotend"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:43
+msgid "Bowden Style Extruder"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:44
+msgid "V-Roller Motion system and singular lead screw setup causes frame flexing."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:45
+msgid "Can take a bit of tweaking/upgrading to work consistently."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:52
+msgid "Picture of a Creality Ender 3"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:52
+msgid "Creality Ender 3 Base Model"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:57
+msgid "Sovol SV06 ($259)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:59
+msgid ""
+"If you're willing to spend just a little bit more money for more quality "
+"of life features out of the box, the Sovol SV06 is a good option. It "
+"maintains an Ender-like frame but adds in modern features that the Ender "
+"lacks which can save tinkering and maintenance time down the road."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:64
+msgid "SV06 Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:65
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:97
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:21
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:53
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:88
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:125
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:157
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:198
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:14
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:45
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:86
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:119
+msgid "Auto Bed Leveling"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:66
+msgid "Flexible Bed"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:67
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:23
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:91
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:127
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:16
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:88
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:128
+msgid "All-Metal Direct Drive Extruder"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:68
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:99
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:122
+msgid "Built in Belt Tensioners"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:69
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:123
+msgid "Dual Z-Axis"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:73
+msgid "SV06 Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:74
+msgid "Known Quality Control Issues from factory (X-Axis not flat)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:75
+msgid "Not many slicer profiles available (Slowly being solved)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:-1
+msgid "Picture of a Sovol SV06"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:85
+msgid "Other Budget Printers/Ender Clones ($150-$300)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:87
+msgid ""
+"If you're ok with forgoing the huge knowledge base behind the Ender-3 "
+"series in exchange for a few more features out of the box, some Ender-3 "
+"clones can be a good option. Notable ones include the Elegoo Neptune, "
+"Anycubic Vyper, and Voxelab Aquila. It's notable that while these are "
+"more or less \"Ender 3 Clones\", all three companies and printer models "
+"listed here are still established companies with community trust and "
+"acceptable customer service. These printers can be a great buy and are "
+"often cheaper but make sure to do research before purchasing."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:94
+msgid "Common Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:95
+msgid "Ender 3 Clones typically have at least a couple of the following..."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:98
+msgid "Upgraded Print Surface"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:100
+msgid "Colored Touchscreen"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:103
+msgid "Common Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:104
+msgid "Less troubleshooting help/knowledge base compared to the Ender 3"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:105
+msgid ""
+"Any drawbacks of the individual printer. Make sure you keep an eye out "
+"for things you want in a printer when researching."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:112
+msgid "Picture of an Anycubic Viper"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:112
+msgid "Anycubic's Viper"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:2
+#: ../../source/manufacturing/3d_printing/printer_choice/printer_choice.rst:19
+msgid "High-End Printers ($600+ USD)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:4
+msgid ""
+"Tip for both of the Prusa printers listed on this page. You can now order"
+" Prusa printers from either their headquarters in Czechia or their "
+"subsidiary and sole authorized reseller **PrintedSolid**, based in "
+"Delaware. If you live in the USA and plan to order a Prusa printer, save "
+"yourself the headache of customs and long shipping times and order from "
+"their USA subsidiary."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:10
+msgid "Prusa MK3S+ ($649-$899)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:12
+msgid ""
+"If you're looking to buy a printer that just works every time, the Prusa "
+"MK3S+ is amazing. Prusa has had millions of hours running these machines,"
+" and just about every issue with this printer has been found, patched, "
+"and pushed to the consumer. If it's any testament to their consistency, "
+"the 3d printed parts used on the Mk3s+ are printed mostly on Mk3s+ "
+"printers. This is Prusa's previous flagship printer and is more tested "
+"and cheaper than the Mk4, but if you are looking at Prusa make sure to "
+"explore the Mk4 as well due to it's more updated features."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:19
+msgid "Mk3s+ Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:20
+msgid "Easy to Repair"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:22
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:54
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:199
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:46
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:120
+msgid "Removable Spring Steel Sheets"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:24
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:57
+msgid "250mm x 210mm x 210mm Print Volume"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:25
+msgid "Unrivaled consistency as a workhorse"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:28
+msgid "Mk3s+ Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:29
+msgid "Slow printing speed"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:30
+msgid "Dated technology (such as lack of WiFi)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:31
+msgid "Last generation 3d printer, Mk4 improves on issues"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
+msgid "Picture of a Prusa Mk3"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:41
+msgid "Prusa MK4 ($799-$1099)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:43
+msgid ""
+"This printer is for anyone interested in consistency with an improved "
+"featureset. The Prusa MK4 is the successor to the MK3S+ with the same "
+"reliability and consistency hallmarks but adds newer features such as "
+"WiFi as well as being much faster and more user friendly. This machine is"
+" still in it's early stages of development and improvement as of 2023, "
+"and will surely make leaps and bounds in consistency, features, and "
+"software optimization as Prusa finds more issues and patches them."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:51
+msgid "Mk4 Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:52
+msgid "High Speed (Nearing comparison to BambuLab printers)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:55
+msgid "All-Metal Direct Drive Extruder with a planetary gearbox"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:56
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:92
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:128
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:160
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:89
+msgid "WiFi Printing capabilities and remote print monitoring"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:60
+msgid "Mk4 Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:61
+msgid "Cartesian kinematics make matching the speed of CoreXY printers difficult"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
+msgid "Picture of a Prusa Mk4"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:72
+msgid "BambuLab X1C ($1199-$1449)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:74
+msgid ""
+"This printer is for you want a no-compromises 3d printer that can handle "
+"pretty much anything you throw at it with incredible speed and "
+"reliability while using engineering-grade filaments. This printer comes "
+"at $1199 for just the printer and $1449 for the combo that includes "
+"BambuLab's multimaterial system which can handle 4 filament rolls at "
+"once."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:79
+msgid ""
+"This printer is **expensive** and is targeted towards advanced filaments."
+" The P1P can print basic filaments such as PLA/PETG about as fast and "
+"well as the BambuLab X1C at half the price. If you have the budget for an"
+" X1C, it may be worth considering buying 2 P1Ps instead if you don't need"
+" all the bells and whistles the X1C has and plan to only print PLA/PETG."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:86
+msgid "X1C Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:87
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:124
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:85
+msgid "Extremely fast CoreXY motion system"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:89
+msgid "Full Color Touchscreen"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:90
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:126
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:87
+msgid "Removable Beds of All Surfaces"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:93
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:129
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:90
+msgid "256mm x 256mm x 256mm Print Volume"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:94
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:130
+msgid "Heated chamber allows for more advanced engineering materials"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:95
+msgid "LIDAR sensor for flow calibration and first layer quality checking"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:96
+msgid "Stock hardened hotend capable of most filled and abrasive filaments"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:97
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:131
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:162
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:91
+msgid "Automatic print failure detection"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:100
+msgid "X1C Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:101
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:135
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:95
+msgid "Replacement parts are proprietary from Bambu Lab (albeit well-priced)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:102
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:136
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:96
+msgid "Carbon Fiber rods can wear out over time"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:103
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:137
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:97
+msgid "Reliant on Bambu Lab for future firmware/software updates"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:104
+msgid ""
+"This printer doesn't shine if you don't use it for advanced filaments, "
+"and may not be worth the cost if you don't plan to"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
+msgid "Picture of a BambuLabs X1C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:114
+msgid "BambuLab P1S ($699-$949)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:116
+msgid ""
+"If the X1C's frills such as LIDAR, touchscreen, and a hardened extruder "
+"didn't sound all that useful to you, the P1S could be a good option. You "
+"still get an enclosure and auxiliary cooling, while the P1P doesn't, "
+"which allows you to print filaments like ABS/ASA without difficulty, but "
+"this printer needs a fair few upgrades to print filled filaments and more"
+" advanced engineering filaments safely."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:123
+msgid "P1S Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:134
+msgid "P1S Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
+msgid "Picture of a BambuLabs P1S"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:147
+msgid "AnkerMake M5 ($699)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:149
+msgid ""
+"Anker's new entry into the 3d printer market, the AnkerMake M5, is a very"
+" reasonably priced printer for the features it brings. With print failure"
+" detection, speed printing capabilities, and an extremely friendly "
+"interface with almost no setup, the M5 is a great option."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:155
+msgid "M5 Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:156
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:13
+msgid "Cartesian Motion System optimized for speed"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:158
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:15
+msgid "Removable Bed"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:159
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:121
+msgid "Direct Drive Extruder"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:161
+msgid "235mm x 235mm x 250mm Print Volume"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:163
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:19
+msgid "Extremely friendly software and setup for new users"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:166
+msgid "M5 Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:167
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:23
+msgid "Replacement parts are proprietary from AnkerMake (albeit well-priced)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:168
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:24
+msgid "Reliant on Anker for future firmware/software updates"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:169
+msgid ""
+"Cartesian motion system limits speed, still doesn't match CoreXY machines"
+" at a similar price range"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:171
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:27
+msgid "V wheel motion system can wear after long extended use"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
+msgid "Picture of a AnkerMake M5"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:182
+msgid "DIY Printers (Voron, HevOrt, VZBot)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:184
+msgid ""
+"For teams just getting into 3D printing or teams that haven't had "
+"experience with at least 2-3 other printers we would highly advise "
+"against a DIY printer. These printers are **projects** and take "
+"significant effort and upkeep, which make them a poor choice for a first "
+"or second printer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:188
+msgid ""
+"If you want to take a deeper dive into 3D Printing and achieve both "
+"extreme speeds and quality, a DIY printer may be a good choice. DIY "
+"printers can be tailored to your specific needs and perform extremely "
+"well but are typically a huge time and financial commitment."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:194
+msgid "Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:195
+msgid "Most well-documented DIY Printers feature..."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:197
+msgid "Extremely fast CoreXY motion systems"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:200
+msgid "Direct Drive Extruders with All Metal Hotends"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:201
+msgid "Large Build Volumes (250mm^3 or more)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:202
+msgid "Klipper Firmware and live dashboards for print monitoring"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:203
+msgid "High customizability and a strong community that creates modifications"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:206
+msgid "Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:207
+msgid "Extremely complex to assemble, wire, and configure"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:208
+msgid "Have to source your own parts, no \"official\" place to buy from"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:209
+msgid "Huge time commitment"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:210
+msgid "Huge financial commitment (typically $1000+)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
+msgid "Picture of a Voron 2.4"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:2
+#: ../../source/manufacturing/3d_printing/printer_choice/printer_choice.rst:19
+msgid "Mid-Range Printers ($300-$600 USD)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:5
+msgid "AnkerMake M5C ($399)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:7
+msgid ""
+"Anker's budget 3d printing machine, the AnkerMake M5C, is an absolute "
+"bargain for the features and speed it brings. This printer has speed "
+"printing capabilities and an extremely friendly interface with almost no "
+"setup. This is one of the cheapest printers that can reach 0.5m/s speeds "
+"while printing, which alone makes it stand out."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:12
+msgid "M5C Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:17
+msgid "WiFi Printing capabilities"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:22
+msgid "M5C Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:25
+msgid ""
+"Limited on speed compared to CoreXY, but still has unrivaled speed at "
+"this price and availability"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:26
+msgid "No screen on the printer, all monitoring must be done digitally"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:-1
+msgid "Picture of a AnkerMake M5C"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:37
+msgid "Prusa Mini ($429)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:39
+msgid ""
+"If you're ok with paying a premium and getting a smaller build volume in "
+"exchange for a printer that just works every time, the Prusa Mini is a "
+"great option, as Prusa has had millions of hours running these machines. "
+"Just about every issue with this printer has been found, patched, and "
+"pushed to the consumer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:44
+msgid "Prusa Mini Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:47
+msgid "Prusa's consistency guarantee"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:49
+msgid "Easily Transportable"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:50
+msgid "180mm x 180mm x 180mm Print Volume"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:53
+msgid "Prusa Mini Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:54
+msgid "Premium price"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:55
+msgid "Cantilever/unsupported X axis"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:56
+msgid "Lead times due to printer desirability"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:57
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:137
+msgid "No stock network capability"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:59
+msgid ""
+"You can now order Prusa printers from either their headquarters in "
+"Czechia or their subsidiary and sole authorized reseller "
+"**PrintedSolid**, based in Delaware. If you live in the USA and plan to "
+"order a Prusa printer, save yourself the headache of customs and long "
+"shipping times and order from their USA subsidiary."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:-1
+msgid "Picture of a Prusa Mini"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:71
+msgid "BambuLab P1P ($599)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:73
+msgid ""
+"Built for speed by BambuLab, the P1P is a CoreXY machine with well "
+"engineered proprietary hardware and software. A machine that is proving "
+"very reliable for many despite BambuLab's short time in the 3d printer "
+"marketplace so far, the P1P is an amazing mid range option with a lot of "
+"manufacturing capability for it's cost. This printer is also compatible "
+"with BambuLab's multimaterial system, and can be upgraded to their new "
+"offering, the P1S, for just 150$ if your needs eventually outgrow the "
+"P1P."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:79
+msgid ""
+"This printer is a PLA workhorse, being able to print it about as fast and"
+" well as the BambuLab X1C at half the price. Even if you have the budget "
+"for an X1C, it may be worth considering buying 2 P1Ps instead if you "
+"don't need all the bells and whistles the X1C has and plan to only print "
+"PLA/PETG."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:84
+msgid "P1P Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:94
+msgid "P1P Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:-1
+msgid "Picture of a BambuLabs P1P"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:107
+msgid "Creality Ender-3 S1/Pro/Plus ($379-$549)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:109
+msgid ""
+"If you want a printer that can do most things well at a reasonable price,"
+" the Ender-3 S1 is a good fit for you. It has a standard build volume but"
+" is packed with pretty much every modern and quality of life upgrade "
+"installed out of the box, although you are paying for this premium. "
+"Additionally, it has a similar community backing to that of the original "
+"Ender-3 series due to similarities between the S1s and the originals."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:116
+msgid "S1 Features"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:117
+msgid "All Ender 3 S1s have at least:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:124
+msgid "220mm x 220mm x 270mm Print Volume"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:126
+msgid "The S1 Pro also has:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:130
+msgid "The S1 Plus has:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:132
+msgid "300mm x 300mm x 300mm Print Volume"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:135
+msgid "S1 Drawbacks"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:136
+msgid "PTFE Lined Hotend on Normal and Plus Versions"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:138
+msgid "Speed limited compared to other printers at this price range"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:145
+msgid "Picture of an Ender 3 S1"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:145
+msgid "This is the Ender 3 S1 base model."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/printer_choice.rst:4
+msgid ""
+"This section will focus on printers from each budget range that could be "
+"useful for FTC teams. There will be many features listed and drawbacks "
+"listed for every budget range, but there is one feature that we would "
+"like to note that teams should not buy a printer without note of it being"
+" included."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/printer_choice.rst:9
+msgid ""
+"**Thermal Runaway Protection**: This is a feature where if a thermistor "
+"on the printer disagrees with the heater input and temperature trends "
+"don't make sense, the 3D printer will shut itself down. This is essential"
+" to prevent possible fires and teams should not buy 3D printers without "
+"this feature. Most 3D printers you buy today will have this due to "
+"firmware updates, despite the age of the printer, but it should still be "
+"checked."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/printer_choice/printer_choice.rst:14
+msgid ""
+"Please search up whether the printer model you intend on buying has this "
+"feature. If you search up Ender 3s, you will find some results that say "
+"it does not, but this is dated information and not true, as Ender 3s are "
+"now shipped with that enabled in the firmware by default. All other "
+"printers that we list in our sections below are modern enough to have "
+"this feature as well."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:2
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/specific_skill_guides.rst:5
+msgid "Basic Post-Processing"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:5
+msgid "Support Removal"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:7
+msgid ""
+"Support material removal is a basic form of post processing where, as the"
+" name suggests, you remove support material from your print. This can "
+"typically be done easily with either just your fingers or a pair of "
+"pliers/flush cutters, however, sometimes removing support from small "
+"features or holes can be difficult. This is why it's recommended to "
+"design away from using supports, and if you must use them, to set up your"
+" slicing settings properly in order to make them easy to remove."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:-1
+msgid "The process of support removal."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:20
+msgid "Drilling Out Holes"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:22
+msgid ""
+"Drilling out printed holes are typically used in order to widen screw "
+"holes to achieve a loose fit. This can be done with any drill and "
+"properly sized drill bit, however take your time while drilling to ensure"
+" that the drill bit is lined up properly to guaruntee that drilled holes "
+"are straight."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:27
+msgid "Brim Removal"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:29
+msgid ""
+"Brims are used to have more surface area for your print to contact the "
+"build plate. To remove them, you typically just use your fingers, "
+"however, if your Z-Offset is too low, it may be easier to use a deburring"
+" tool to remove the inner layer lines of the brim."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:2
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/specific_skill_guides.rst:5
+msgid "Bed Leveling"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:4
+msgid ""
+"This guide is primarily for older printers that don't have automatic "
+"leveling. If you have a newer printer, this process is likely not needed "
+"or there is a more advanced process to follow. Research what processes "
+"are available for your printer."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:7
+msgid ""
+"If you have a bed thats adjustable by screws, bed leveling is by far the "
+"biggest factor for how well your prints stick across the whole bed. The "
+"only tool you should need is a 0.2mm thick piece of metal, a piece of "
+"cardstock, or an index card."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
+msgid "Tools usable for bed leveling."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:17
+msgid "Here's the steps you should follow to level your bed:"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:19
+msgid ""
+"Ensure that your nozzle is clean and has no extra filament beneath it "
+"that would interfere with bed leveling precision."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:20
+msgid ""
+"Home the Z axis completely, and get it to Z coordinate 0 by using the "
+"printer's move commands"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:21
+msgid ""
+"Move the nozzle to just above one of the screws using the printer's move "
+"commands (This is done with move commands to make sure that it replicates"
+" the movement that the printer will perform when under it's own control)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:22
+msgid ""
+"Adjust the screw up and down until the 0.2mm material can barely slide "
+"with slight friction underneath the nozzle."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
+msgid "Placement of a tool under a nozzle."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:30
+msgid "Repeat this process with the other screws available on the bed."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:31
+msgid ""
+"Move the nozzle to the center of the bed and check bed height using your "
+"0.2mm material. If you leveled all of the screws properly, it should be "
+"roughly the same amount of friction."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:34
+msgid "Z-Offset"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:36
+msgid ""
+"Once your printer is leveled between the screws, the bed is flat, but "
+"it's not always at exactly the right height. All printers should have a Z"
+" offset variable that lets you adjust the height of the nozzle during or "
+"before printing. If at the start of your print the bed is either located "
+"too high or too low, but remaining consistent (provided you bed leveled),"
+" use your printers Z offset feature (also called baby-stepping) to adjust"
+" it live while it lays down the first layer. Reference the images below "
+"for some good visualizations on how to make sure you're at the proper "
+"height!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
+msgid "Visual specifications on how high a nozzle should be."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/extruder_calibration/extruder_calibration.rst:2
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/specific_skill_guides.rst:5
+msgid "Extruder Calibration (E-Steps)"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/extruder_calibration/extruder_calibration.rst:4
+msgid ""
+"If you're noticing any issues with over/under extrusion or if you just "
+"got a new printer, it's highly advisable that you tune your e-steps. "
+"E-Steps dictate how many steps the extruder motor takes to extrude a "
+"certain amount of filament. This procedure is best covered in videos, so "
+"go take a look at `Thomas Sanladerer's video on the topic. "
+"<https://www.youtube.com/watch?v=YUPfBJz3I6Y>`_"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:2
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/specific_skill_guides.rst:5
+msgid "Print Adhesion"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:4
+msgid ""
+"There's a lot of ways that print adhesion can go wrong, and it's one of "
+"the biggest things that people new to 3d printing struggle with. Bed "
+"Leveling is often the biggest, but if you just can't get that one part to"
+" stick even after a perfect bed level, try some of the things below "
+"depending on your build surface!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:9
+msgid "Increase Adhesion on Glass/Sticker/Powder Coated Bed Surfaces"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:11
+msgid ""
+"If you're having bed adhesion issues with any of these surfaces, the "
+"easiest way to deal with it is PVA Glue. School glue and gluesticks "
+"contain a plastic called PVA that can help bed adhesion by providing a "
+"film for the part you're printing to hold onto."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:14
+msgid ""
+"**Gluestick**: If you use gluestick, spread a thin layer of it over the "
+"area you're printing on, heat it up, and wait for the gluestick to mainly"
+" become invisible before starting the print."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:16
+msgid ""
+"**School Glue**: If you choose to use school glue, mix it thoroughly "
+"50/50 with tap water in a spray bottle, and spray a thin layer on the "
+"bed. Heat it up and begin your print."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:19
+msgid ""
+"If you are using a Glass bed, hairspray can also serve this function, but"
+" PVA glue is a more consistent surface and is more effective."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:21
+msgid ""
+"When using any form of glue on your bed, it's important to clean it every"
+" couple prints. Glue buildup can significantly change the height and "
+"properties of your printing surface, and sometimes even make it worse. "
+"Soapy Water or Isopropyl Alcohol will work well for these purposes."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:25
+msgid "Increase Adhesion on PEX/PEI Bed Surfaces"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:26
+msgid ""
+"If you have a PEX or PEI build surface and can't get anything to stick, "
+"it is recommended to clean it off with isopropyl alcohol and then rough "
+"it up slightly with steel wool and then proceed using PVA glue of some "
+"sort (described above). This will provide slightly more texture for a "
+"print to grip onto."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:31
+msgid "Free Stuck Prints"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:33
+msgid ""
+"While having too little bed adhesion is a pretty common problem, having "
+"too much can be bad as well, with prints sticking too well. If you "
+"encounter an issue like this, there's 2 easy ways to help prints get off "
+"the bed."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:36
+msgid ""
+"**Cooling**: Due to thermal expansion, letting the print cool completely "
+"will help it remove itself from the bed. If that wasn't quite enough, "
+"consider putting your entire printer bed in the fridge or freezer (or "
+"even just outside if it's winter) to contract the bed and part slightly "
+"more and possibly free them."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/print_adhesion/print_adhesion.rst:38
+msgid ""
+"**Water**: It sounds crazy, but if you put a few drops of water or a "
+"light spray around the part on the bed, the surface tension of the water "
+"will help lift up the part slightly and remove it from the bed."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/specific_skill_guides.rst:5
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.rst:2
+msgid "Temperature Tuning"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.rst:4
+msgid ""
+"In order to have strong, good quality 3d printed parts, you need to get "
+"your temperatures and speeds right. Every filament that you buy will have"
+" a range of temperatures that it thinks are acceptable to print it at, "
+"but the one that works best for you depends on all sorts of conditions. "
+"Start in the middle of that range, and work from there."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.rst:9
+msgid "Temperature Based Underextrusion and Overextrusion"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.rst:11
+msgid ""
+"This is the key to tuning filaments. There's a certain sweet temperature "
+"when printing that helps lay the perfect amount of plastic down to "
+"complete your part. Underextrusion looks like it's not quite able to get "
+"continuous plastic out (you need to raise your temperature), and "
+"Overextrusion looks like it's simply trying to melt too much (drooping "
+"around the sides, so you need to lower your temp)."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.rst:20
+msgid "Comparison of Overextrusion and Underextrusion."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.rst:20
+msgid "Underextrusion on the left, Overextrusion on the right."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/specific_skill_guides/temperature_tuning/temperature_tuning.rst:24
+msgid ""
+"Extra about PLA: PLA is a really easy filament to work with, unless "
+"you're trying to print it fast, in which case it becomes the worst "
+"filament you've ever encountered. PLA is a filament that requires a lot "
+"of cooling, otherwise it becomes really messy really quickly. Temperature"
+" issues can appear in PLA due to either lack of cooling or improper "
+"temperatures, so consider both of these factors when tuning for PLA. "
+"Consider dropping your printing speed to isolate issues to just "
+"temperature."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/troubleshooting/troubleshooting.rst:4
+msgid ""
+"Here are some hyperlinks to common issues with printers that are worth "
+"looking at during a troubleshooting process."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/troubleshooting/troubleshooting.rst:6
+msgid ""
+":doc:`Underextrusion and Overextrusion "
+"<../specific_skill_guides/temperature_tuning/temperature_tuning>`"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/troubleshooting/troubleshooting.rst:7
+msgid ""
+":doc:`Prints Not Sticking "
+"<../specific_skill_guides/print_adhesion/print_adhesion>`"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/troubleshooting/troubleshooting.rst:8
+msgid ":doc:`Bed Not Level <../specific_skill_guides/bed_leveling/bed_leveling>`"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/troubleshooting/troubleshooting.rst:9
+msgid ""
+":doc:`Parts Not Fitting "
+"<../designing_and_slicing/tolerancing/tolerancing>`"
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:-1
+#: ../../source/manufacturing/index.rst:7
+msgid "Manufacturing"
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:-1
+msgid "Manufacturing methods for the FIRST Tech Challenge."
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:-1
+msgid "FIRST Tech Challenge, FTC Docs, Manufacturing"
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:9
+msgid ""
+"Manufacturing is an extremely important part of building a robot for the "
+"FIRST Tech Challenge. While Commercial-Off-The-Shelf parts can be used "
+"for the majority, and in some cases the entirety, of a robot, there are "
+"many times when a custom part is needed. This section will cover some of "
+"the most common manufacturing methods used in FTC for creating these "
+"parts. It is important to note that there are many different ways to "
+"manufacture parts, and this section will only contain those that are most"
+" commonly used."
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:15
+msgid ""
+"While a CAD model is not always needed to build a robot or part, it is "
+"often required when manufacturing custom parts. For this reason, it is "
+"recommended that a team design their robot (or at least the part that "
+"needs to be made) in a CAD software. For more information on CAD, see the"
+" :doc:`CAD Resources <../cad_resources/index>` section."
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:20
+msgid "Here are some manufacturing methods that are commonly used in FTC:"
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:22
+msgid "Prototyping (Proof-of-Concept, Testing) (Cardboard, Wood, Foam, etc.)"
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:23
+msgid ""
+":doc:`3D Printing <3d_printing/index>` (Smaller parts, Prototyping) "
+"(Plastics)"
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:24
+msgid "Machining (Larger Parts, Plates) (Metal, Wood, Composites, Plastics)"
+msgstr ""
+
+#: ../../source/manufacturing/index.rst:25
+msgid "Laser Cutting (Plates, Gears, etc.) (Wood, Composites, Plastics)"
+msgstr ""
+

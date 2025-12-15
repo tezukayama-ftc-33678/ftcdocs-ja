@@ -1,0 +1,583 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-15 09:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/game_specific_resources/blog/blog.rst:2
+msgid "*FIRST* Tech Challenge Blog"
+msgstr ""
+
+#: ../../source/game_specific_resources/blog/blog.rst:4
+msgid ""
+"The `FIRST Community Blog <https://community.firstinspires.org/>`__  "
+"hosts the blogs for all *FIRST* programs."
+msgstr ""
+
+#: ../../source/game_specific_resources/blog/blog.rst:6
+msgid ""
+"*FIRST* Tech Challenge program specific information can be found on the "
+"`FIRST Tech Challenge Blog "
+"<https://community.firstinspires.org/topic/ftc>`__. The blog hosts "
+"articles that go beyond what can be covered in the `Team Email Blasts "
+"<https://www.firstinspires.org/resources/library/ftc/team-email-blast-"
+"archive>`__ ."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
+msgid ""
+"This document defines the FIRST Tech Challenge Field Coordinate System "
+"which can be used to specify position on the playing field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:4
+msgid "*FIRST* Tech Challenge Field Coordinate System Definition"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:9
+msgid ""
+"Summary: The *FIRST* Tech Challenge Field Coordinate System is a "
+"Cartesian Coordinate System of three dimensions. The X and Y axes will "
+"refer to a position on the field and the Z axis a height above the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:13
+msgid "Scope"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:15
+msgid ""
+"This document defines the Field Coordinate System for a *FIRST* Tech "
+"Challenge playing field. This definition can be used for consistent "
+"field-centric navigation, target localization and path planning."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:21
+msgid "Reference Frame"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:23
+msgid ""
+"The reference frame for this definition is the field perimeter wall, "
+"adjacent to the red Alliance Area, known here after as the Red Wall.  The"
+" definition is from the perspective of a person, standing outside the "
+"field, in the center of Red Wall, looking towards the center of the "
+"field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:29
+msgid ""
+"If the red Alliance Area is ever adjacent to two perimeter walls, the Red"
+" Wall will be the one with *most* contact with the Alliance Area. If the "
+"red Alliance Area is ever adjacent to two perimeter walls *equally*, then"
+" the most clockwise of the two walls will be considered to be the Red "
+"Wall."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:35
+msgid "Coordinate System"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:37
+msgid ""
+"The Field Coordinate System is a Cartesian Coordinate System of three "
+"dimensions. X and Y will refer to a position on the field. Z will refer "
+"to a height above the field. You may use any length measure as long as "
+"the same measure is used for all three axes. The coordinates are ordered "
+"(X, Y, Z). Example: coordinate position (10, -10, 0) has X = 10, Y = -10 "
+"and Z = 0."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:45
+msgid "Origin"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:47
+msgid ""
+"The 0,0,0 origin of the *FIRST* Tech Challenge coordinate system is the "
+"point in the center of the field, equidistant from all 4 perimeter walls "
+"(where the four center tiles meet). The origin point rests on the top "
+"surface of the floor mat."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:53
+msgid "X Axis"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:55
+msgid ""
+"Looking at the origin from the Red Wall, the X axis extends through the "
+"origin point and runs to the right and left, parallel with the Red Wall. "
+"The X axis values increase to the right."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:60
+msgid "Y Axis"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:62
+msgid ""
+"Looking at the origin from the Red Wall, the Y axis extends through the "
+"origin point and runs out and in, perpendicular to the Red Wall. "
+"Increasing Y values run out (away) from the Red Wall."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:67
+msgid "Z Axis"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:69
+msgid ""
+"Looking at the origin from the Red Wall, the Z axis extends through the "
+"origin point and runs up and down in a vertical line. Increasing Z values"
+" extend upwards."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:74
+msgid "Rotation About Axes"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:76
+msgid ""
+"When considering rotations about an axis, consider yourself looking down "
+"the axis from the positive end towards the origin. Positive rotations are"
+" then counterclockwise and negative rotations clockwise."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
+msgid "X, Y and Z coordinate axes."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:83
+msgid "Counterclockwise rotations about each axis"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:85
+msgid ""
+"Imagine looking down the positive Z axis towards the origin. This would "
+"be like standing in the middle of the field looking down. A positive "
+"rotation about the Z axis would be counterclockwise."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:89
+msgid ""
+"Example: a robot spinning clockwise on the Field is making a negative "
+"rotation about the Z axis."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:92
+msgid "Field Configuration Examples"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:94
+msgid ""
+"Below are two examples illustrating the Field Coordinate System for "
+"different *FIRST* Tech Challenge field configurations."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:98
+msgid ""
+"In both field configurations the red Alliance is facing out along the "
+"positive Y axis, and the Z axis points up from the center of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:102
+msgid "Diamond Field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
+msgid "A diamond field with X, Y and Z axes shown."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:107
+msgid "The FIRST RES-Q game field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:109
+msgid ""
+"In a diamond field configuration the two Alliance walls are adjacent. The"
+" field is rotated 45 degrees such that both Alliances face the audience. "
+"From the audience perspective the field forms a diamond shape. The Red "
+"Wall will be on the right as seen from the audience. The Y axis points "
+"across the field as seen from the Red Wall. The X axis points to the Blue"
+" Alliance."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:117
+msgid "Square Field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst
+msgid "A square field with X, Y and Z axes shown."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:122
+msgid "The Into The Deep game field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:124
+msgid ""
+"In a square field configuration the two Alliances face each other across "
+"the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:126
+msgid ""
+"The field is oriented such that the Red Wall is on the right as seen from"
+" the audience."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:127
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:145
+msgid ""
+"The Y axis points across the field from the Red Wall towards the Blue "
+"Alliance."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:128
+msgid "The X axis points away from the audience to the rear of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:131
+msgid "Square Field (Inverted ALLIANCE AREA)"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst
+msgid "A square field with X, Y and Z axes shown, with inverted ALLIANCE AREA."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:136
+msgid "The DECODE game field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:138
+msgid ""
+"The DECODE game field is essentially a square field, but the red and blue"
+" ALLIANCE AREAS are swapped from their typical configuration (red "
+"ALLIANCE AREA on the left when viewed from the audience). In this "
+"configuration, the X and Y axes are \"inverted\" in which direction the "
+"positive axis points. This is still consistent with the field coordinate "
+"system definition, but the field is inverted."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:144
+msgid ""
+"The field is oriented such that the Red Wall is on the left as seen from "
+"the audience."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:146
+msgid "The X axis points towards the audience to the front of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:150
+msgid "Coordinate Position Example"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:152
+msgid ""
+"Let's consider the coordinates (-58.3727, 55.6425, 29.5) in inches on the"
+" DECODE field, which is a square field with inverted red/blue. Given the "
+"order of coordinates then X = -58.3727, Y = 55.6425, and Z = 29.5."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:155
+msgid ""
+"The X axis value of -58.3727 is located deep in the back (away from the "
+"Audience Wall) of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:156
+msgid ""
+"The Y axis value of 55.6425 would be located closer to the Blue Wall, "
+"about a 3/4 tile length from the Blue wall."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:157
+msgid "The Z axis value of 29.5 is 29.5 inches above the field tiles."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:159
+msgid ""
+"This set of coordinates is the center of the Red Goal AprilTag on the Red"
+" Goal."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:162
+msgid "Measured Values"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:164
+msgid ""
+"The following metric values have been measured from a 2016 competition "
+"field. They are representative only, and should not be assumed to be "
+"exact, or guaranteed."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:167
+msgid ""
+"Distance between opposite inside faces of panels: 3580 mm, (if the field "
+"is assembled well: the straps give some adjustment tolerance)"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:169
+msgid "Polycarbonate transparencies have a visible opening height of 255 mm"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:170
+msgid "The top edge of transparencies is 30 mm from the top of the perimeter"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:171
+msgid "Total perimeter height is 313 mm"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:172
+msgid "Tiles are 13 mm thick"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:174
+msgid ""
+"So, for a diamond field configuration, the corner of the field closest to"
+" the audience, at a height equal to the top of the perimeter wall, would "
+"have a coordinate position of: (-1790, 1790, 300) in millimeters."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:179
+msgid "Additional Information"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:181
+msgid ""
+"See this Wikipedia article on `Cartesian coordinate system "
+"<https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Three_dimensions>`__"
+" in three dimensions. The Field Coordinate System rotation convention "
+"comes from the `right hand rule <https://en.wikipedia.org/wiki/Right-"
+"hand_rule>`__ of classic geometry."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:188
+msgid ""
+"Robots with a webcam can use :ref:`AprilTags "
+"<apriltag/vision_portal/apriltag_intro/apriltag-intro:apriltag "
+"introduction>` to determine where an :ref:`AprilTag is located "
+"<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
+"detection-values:introduction>` with respect to the robot. Since "
+"AprilTags are in known locations on the field, you can also determine the"
+" :ref:`location of the robot "
+"<apriltag/vision_portal/apriltag_localization/apriltag-"
+"localization:apriltag localization>` on the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:196
+msgid ""
+"Robots can use an inertial measurement unit (IMU) to measure rotations "
+"about axes with respect to the robot. See :ref:`IMU axes definition. "
+"<programming_resources/imu/imu:axes definition>` The yaw value from the "
+"IMU, also known the heading, measures rotation about the Z axis which "
+"points up from the robot. You can use the IMU to determine which "
+"direction a robot is facing."
+msgstr ""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:-1
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:6
+msgid "FIRST Tech Challenge Game Q&A"
+msgstr ""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:-1
+msgid "FTC Docs, FIRST Tech Challenge, FTC, Q&A"
+msgstr ""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:8
+msgid ""
+"The `Game Q&A <https://ftc-qa.firstinspires.org/>`_ is a forum/tool that "
+"provides teams an opportunity to receive clarifications from the Game "
+"Design Committee about the current season's challenge. Rulings on the Q&A"
+" are final and binding, and will be reflected in the Competition Manual."
+msgstr ""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:14
+msgid "How to Ask Questions"
+msgstr ""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:16
+msgid ""
+"Once the `Game Q&A <https://ftc-qa.firstinspires.org/>`_ opens for the "
+"season (usually within 2-3 weeks of the challenge being announced) teams "
+"may ask questions using unique accounts provided to teams via their "
+"`FIRST Dashboard <https://my.firstinspires.org/Dashboard/>`_ accounts. "
+"Teams must use these credentials to log into the system, and then may ask"
+" questions. Anyone may create a personal account and view or tag "
+"questions, but only accounts provided to teams may ask questions."
+msgstr ""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:24
+msgid ""
+"Obtaining the team credentials for the question-asking team accounts can "
+"only be done by the Lead Coach 1 or 2 by selecting \"Passwords/Voucher "
+"Codes\" from the \"Payment & Product\" drop-down in the \"Team Options\" "
+"column of the team information in the `FIRST Dashboard "
+"<https://my.firstinspires.org/Dashboard/>`_. The Q&A website credentials "
+"for the team will be listed under the \"Game Q&A Forum Accounts\" section"
+" of the resulting webpage."
+msgstr ""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:32
+msgid "Game Q&A Summary"
+msgstr ""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:34
+msgid ""
+"The Game Q&A tool periodically provides updates to their \"`one-page "
+"summary <https://ftc-qa.firstinspires.org/onepage.html>`_\" of all "
+"answered questions. This one-page summary is not guaranteed to contain "
+"all questions and answers, and is also not guaranteed to be updated on a "
+"regular basis, but it is the best way to obtain a printable format of the"
+" questions and answers on the forum."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:2
+msgid "Playing Field Resources"
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:7
+msgid ""
+"Arena with four teams in alliance areas. Four robots are on the field "
+"along with CENTERSTAGE game elements."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:7
+msgid "Traditional Playing Field, CENTERSTAGE presented by RTX, 2023-2024"
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:10
+msgid "About the Playing Field"
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:12
+msgid ""
+"There are multiple configurations of the playing field that can be used. "
+"For traditional games, the playing field is a part of the Arena that "
+"includes the 12 ft. x 12 ft. (3.66 m x 3.66 m) field and all the elements"
+" described in the official field drawings. The base field stays the same "
+"for all games but the game elements are subject to change as per the "
+"Competition Manual."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:15
+msgid ""
+"The Competition Manual contains an Arena section that details the playing"
+" field for that years game. It includes measurements for key aspects of "
+"the field and game elements and scoring elements. For example, the height"
+" of a basket into which a scoring element can be placed. The Competition "
+"Manual can be found on the `Game and Season Materials page <https://ftc-"
+"resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:22
+msgid "Field Setup Guide"
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:24
+msgid ""
+"The Field Setup Guide has the official instructions for assembling and "
+"setting up a *FIRST* Tech Challenge field. Typically there are assembly "
+"instructions that build structures that then have setup instructions for "
+"placing on the field. There are also teardown instructions that indicate "
+"how to take apart the field for storage or transport."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:28
+msgid "The guide typically has the following sections:"
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:30
+msgid ""
+"A list of all tools required for assembly and setup, some tools are only "
+"for assembly or for setup."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:31
+msgid ""
+"Lists all the game elements and scoring elements with the quantity of "
+"each."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:32
+msgid "Instructions for setup of the field perimeter and field tiles."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:33
+msgid ""
+"Step by step instructions for assembling parts and setting them on the "
+"field."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:34
+msgid ""
+"Most games have tape lines on the field to mark locations or areas of the"
+" game. There are also taped areas outside the field for the Alliances, "
+"and sometimes for game areas."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:35
+msgid ""
+"Most games have AprilTags placed around the field that can be used for "
+"robot navigation."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:36
+msgid ""
+"Finally, there are teardown instructions that indicate how to take the "
+"field down for storage or transport."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:38
+msgid ""
+"Use the following button link to download a PDF of the current Field "
+"Setup Guide from the *FIRST* Website:"
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:40
+msgid "Download Field Setup Guide PDF, 4.5 MB"
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:45
+msgid ""
+"The Field Setup Guide has instructions for assembling an official game "
+"set as purchased from AndyMark."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:47
+msgid ""
+"A purchased game set can be full or partial. A partial game set is less "
+"expensive and also suitable for teams who want official game elements but"
+" don't have room to setup a full field."
+msgstr ""
+
+#: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:50
+msgid ""
+"The `Game and Season Materials page <https://ftc-"
+"resources.firstinspires.org/files/ftc/game>`_ also contains a "
+"downloadable PDF for the AprilTag images that can be printed and placed "
+"on the field. There is a Do It Yourself (DIY) Resources section that "
+"includes CAD models of scoring elements and DIY field and perimeter build"
+" guides."
+msgstr ""
+

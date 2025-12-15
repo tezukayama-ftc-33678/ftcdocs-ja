@@ -1,0 +1,3444 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-15 09:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:2
+msgid "Configuring a Color Distance Sensor"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:4
+msgid ""
+"The REV Robotics Color Distance Sensor is an I2C sensor. It actually "
+"combines two sensor functions into a single device. It is a color sensor,"
+" that can determine the color of an object. It is also a distance or "
+"range sensor, that can be used to measure short range distances. Note "
+"that in this tutorial, the word \"distance\" is used interchangeably with"
+" the word \"range\"."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:12
+msgid "Configuring a Color Distance Sensor Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:14
+msgid ""
+"1. Touch the words **I2C Bus 0** on the screen to launch the I2C "
+"configuration screen for this I2C bus."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:22
+msgid ""
+"The Control Hub or Expansion Hub has four independent I2C buses, labeled "
+"\"0\" through \"3\".  In this example, since you connected the Color "
+"Sensor to the port labeled \"0\", it resides on I2C Bus 0."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:24
+msgid ""
+"2. Look at the **I2C Bus 0** screen. There should already be a sensor "
+"configured for this bus. The Control Hub or Expansion Hub has its own "
+"built-in inertial measurement unit (IMU) sensor. This sensor can be used "
+"to determine the orientation of a robot, as well as measure the "
+"accelerations on a robot."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:35
+msgid ""
+"The built-in IMU is internally connected to I2C Bus 0 on each Control Hub"
+" or Expansion Hub.  Whenever you configure a Control Hub or Expansion Hub"
+" using the Robot Controller, the app automatically configures the IMU for"
+" I2C Bus 0. You will need to add another I2C device for this bus to be "
+"able to configure the color sensor."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:37
+msgid "Press the **Add** button to add another I2C device to this bus."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:44
+msgid ""
+"4. Select \"REV Color/Range Sensor\" from the dropdown selector for this "
+"new device. Use the touchscreen keyboard to name this device "
+"\"sensorColorRange\"."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:53
+msgid ""
+"5. Press the **Done** button to complete the I2C sensor configuration. "
+"The app should return to the previous screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:2
+msgid "Configuring a DC Motor"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:4
+msgid ""
+"Now that you've created a file, you will need to add a DC Motor to the "
+"configuration file."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:7
+msgid ""
+"At this point, although you have created your configuration file, you "
+"have not yet saved its contents to the Robot Controller. You will save "
+"the configuration file later in the :ref:`Saving the Configuration "
+"Information "
+"<hardware_and_software_configuration/configuring/saving_config/saving-"
+"config:Saving the Configuration Information>` step."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:10
+msgid "Configuring a DC Motor Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:12
+msgid ""
+"1. Touch the word **Motors** on the screen to display the Motor "
+"Configuration screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:20
+msgid ""
+"2. Since we installed our motor onto port #0 of the Expansion Hub, use "
+"the dropdown control for port 0 to select the motor type (Tetrix Motor "
+"for this example)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:29
+msgid ""
+"3. Use the touch screen keypad to specify a name for your motor "
+"(\"motorTest\" in this example)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:37
+msgid ""
+"4. Press the **Done** button to complete the motor configuration. The app"
+" should return to the previous screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:2
+msgid "Configuring a Digital Touch Sensor"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:4
+msgid ""
+"The REV Robotics Touch Sensor is a digital sensor. An Op Mode can query "
+"the Touch Sensor to see if its button is being pressed or not."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:8
+msgid "Configuring a Digital Touch Sensor Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:10
+msgid ""
+"1. Touch the words **Digital Devices** on the screen to launch the "
+"Digital I/O configuration screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:18
+msgid ""
+"2. Use the touch screen to add a \"REV Touch Sensor\" for port #1 and "
+"name the device \"testTouch\"."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:26
+msgid ""
+"Notice that we are configuring the Touch Sensor on port #1 instead of "
+"port #0.  This is because when the REV Robotics Touch Sensor is connected"
+" to a digital port using a standard 4-wire JST sensor cable, it is the "
+"second digital pin that is connected. The first pin remains disconnected."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:28
+msgid "Press the **Done** button to return to the previous screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:2
+msgid "Adding an Expansion Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:5
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:5
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:5
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:5
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:5
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:7
+msgid ""
+"A single REV Robotics Control or Expansion Hub has a limited amount of "
+"input/output (I/O) ports available. In some instances, you might want to "
+"use more devices than there are ports available. For these instances you "
+"might need to connect an Expansion Hub to your first Hub to add more I/O "
+"ports."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:13
+msgid ""
+"This document describes how to connect and configure an additional "
+"Expansion Hub for use in the FIRST Tech Challenge. Note that the FIRST "
+"Tech Challenge Competition Manual limits the maximum number of Control or"
+" Expansion Hubs on a single robot to two."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:19
+msgid "Equipment Needed"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:21
+msgid ""
+"To follow along with the instructional steps in this document, you will "
+"need the following items:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:29
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:139
+msgid "Required Item(s)"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:30
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:140
+msgid "Image"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:32
+msgid "REV Robotics Driver Hub (REV-31-1596)"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:35
+msgid "REV Robotics Switch, Cable, & Bracket (REV-31-1387)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:38
+msgid "REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:41
+msgid ""
+"FIRST-approved 12V Battery (such as Tetrix W39057). For a list of FIRST-"
+"approved 12V batteries, refer to the current Competition Manual."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:45
+msgid "REV Robotics Control Hub (REV-31-1595)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:48
+msgid "REV Robotics Expansion Hub (REV-31-1153)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:51
+msgid ""
+"REV Robotics (or equivalent) 3-Pin JST PH Cable (REV-35-1414, 3 pack "
+"shown but only one needed)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:54
+msgid "REV Robotics XT30 Extension Cable (REV-31-1394)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:58
+msgid "Connecting the Expansion Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:60
+msgid ""
+"1. The first step is to use the 3-pin JST PH cable and the XT30 cable to "
+"daisy chain the two Hubs together. Before you do this, ensure that "
+"neither Hub is powered on."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:64
+msgid ""
+"Use the XT30 extension cable to connect an XT30 power port on the Control"
+" Hubs to an XT30 power port on the other Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:67
+msgid "<INSET IMAGE>"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:69
+msgid ""
+"2. The Control Hub and Expansion Hub use the RS-485 serial bus standard "
+"to communicate between devices. You can use the 3-pin JST PH cable to "
+"connect one of the ports labeled “RS485” on the Control Hub to one of the"
+" ports labeled “RS485” on the Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:74
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:86
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:106
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:111
+msgid "<INSERT IMAGE>"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:76
+msgid ""
+"Note that it is not important which “RS485” port that you select on the "
+"Expansion Hub or Control Hub. Either port should work."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:82
+msgid ""
+"3. Once you have the two devices daisy chained together (12V power and "
+"RS-485 signal) you can connect the battery and power switch, and power on"
+" the devices."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:89
+msgid "Configuring Both devices"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:91
+msgid ""
+"If you successfully daisy chained your Expansion Hub and Control Hub, "
+"then you should be able to create a new configuration file that includes "
+"both devices."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:95
+msgid ""
+"**Note:** If you already have a configuration that contains just the "
+"Control Hub, you can add the Expansion Hub by editing the configuration "
+"and pressing the \"Scan\" button."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:99
+msgid ""
+"Connect your Driver Hub to the Control Hub's WiFi network and select the "
+"Configure Robot option from the Driver Station app. Press the New button "
+"to create a new configuration file. When you first scan for hardware, "
+"your Robot Controller should detect the embedded Control Hub. The Robot "
+"Controller will automatically label this device as an Control Hub "
+"“Portal”. The Robot Controller will communicate through this portal to "
+"the individual Hubs."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:108
+msgid ""
+"If you click on the Portal item in the configuration screen, you should "
+"see both the Control Hub and the Expansion Hub listed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:113
+msgid ""
+"You can save this configuration file and return to the main screen of the"
+" Driver Station. After the robot has been restarted, both Hubs should "
+"have a solid green LED. On the Expansion Hub, the LED should blink blue "
+"every ~5 seconds."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:118
+msgid ""
+"Congratulations, you are now ready to use your combination of Control and"
+" Expansion Hubs! You can configure and operate these Hubs as you would an"
+" individual Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:123
+msgid "Using Two Expansion Hubs"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:125
+msgid ""
+"Teams without access to a Control Hub may use two Expansion Hubs on their"
+" robot."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:129
+msgid "Additional Equipment Needed"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:131
+msgid ""
+"There is some additional equipment required for teams who aren't using a "
+"Control Hub on their robot."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:142
+msgid ""
+"A FIRST-approved Android smartphone with the FTC Robot Controller app "
+"installed. For a list of FIRST-approved Android smartphones, refer to the"
+" current Competition Manual."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:147
+msgid "USB Type A male to type mini-B male cable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:150
+msgid "Micro USB OTG adapter."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:153
+msgid "An additional REV Robotics Expansion Hub (REV-31-1153)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:157
+msgid "Changing the Address of an Expansion Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:159
+msgid ""
+"You can use the Advanced Settings menu of the Robot Controller App to "
+"change the address of any connected Expansion Hubs."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:162
+msgid ""
+"**Important Note:** If both of your Expansion Hubs have the same address "
+"or were just removed from the box (by default, the address is set to 2), "
+"you need to change the address of one of them _before_ connecting them "
+"together. This guide assumes that you will be setting the address of the "
+"first Expansion Hub before connecting the second Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:168
+msgid ""
+"With your first Expansion Hub connected to the 12V battery and to the "
+"Robot Controller, launch the Settings menu from the Robot Controller app "
+"(note you can also do this from the Driver Station app, if the DRIVER "
+"STATION is paired to the Robot Controller)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:173
+msgid "Select the Advanced Settings item to display the Advanced Settings menu."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:178
+msgid ""
+"2. Then select the Expansion Hub Address Change item to display the "
+"Expansion Hub address screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:184
+msgid ""
+"3. The USB serial number of the Expansion Hub and its currently-assigned "
+"address should be displayed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:187
+msgid ""
+"**Important Note:** If any Expansion Hubs that are physically connected "
+"and powered are not displayed, there may be an address conflict. If this "
+"happens, disconnect all Expansion Hubs except the one whose address you "
+"want to change."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:194
+msgid ""
+"4. Use the dropdown list control on the right hand side to change an "
+"Expansion Hub's address. Addresses that conflict with other currently-"
+"connected Expansion Hubs won't be available."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:201
+msgid ""
+"Push the “Done” button to change the address. You should see a message "
+"indicating that the Expansion Hub’s address has been changed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:208
+msgid "Connecting the Two Expansion Hubs"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:210
+msgid ""
+"5. After you have changed the address of one of the Hubs, you can use the"
+" 3-pin JST PH cable and the XT30 cable to daisy chain the two Hubs "
+"together. Before you do this, disconnect the 12V battery and power switch"
+" from the first Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:215
+msgid ""
+"Use the XT30 extension cable to connect an XT30 power port on one of the "
+"Expansion Hubs to an XT30 power port on the other Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:221
+msgid ""
+"6. The Expansion Hubs use the RS-485 serial bus standard to communicate "
+"between devices. You can use the 3-pin JST PH cable to connect one of the"
+" ports labeled “RS485” on one Expansion Hub to one of the ports labeled "
+"“RS485” on the other Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:229
+msgid ""
+"Note that it is not important which “RS485” port that you select on an "
+"Expansion Hub. Either port should work."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:235
+msgid ""
+"7. Once you have the two devices daisy chained together (12V power and "
+"RS-485 signal) you can reconnect the battery and power switch, and then "
+"connect the Robot Controller and power on the devices."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:243
+msgid "Configuring Your Expansion Hubs"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:245
+msgid ""
+"If you successfully daisy chained your two Expansion Hubs, then you "
+"should be able to create a new configuration file that includes both "
+"devices."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:249
+msgid ""
+"**Note:** If you already have a configuration that contains just the USB-"
+"connected Expansion Hub, you can add the second Expansion Hub by editing "
+"the configuration and pressing the \"Scan\" button."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:253
+msgid ""
+"Connect the Robot Controller and select the Configure Robot option from "
+"the Settings menu. Press the New button to create a new configuration "
+"file. When you first scan for hardware, your Robot Controller should "
+"detect the Expansion Hub that is immediately connected to the Robot "
+"Controller via the OTG adapter and USB cable. The Robot Controller will "
+"automatically label this device as an Expansion Hub “Portal”. The Robot "
+"Controller will communicate through this portal to the individual "
+"Expansion Hubs."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:265
+msgid ""
+"If you click on the Portal item in the configuration screen, you should "
+"see two Expansion Hubs listed, each with their respective addresses as "
+"part of their default device name."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:272
+msgid ""
+"You can save this configuration file and return to the main screen of the"
+" Robot Controller. After the robot has been restarted, each Hub’s LED "
+"should be blinking in the manner that indicates its individual address."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:276
+msgid ""
+"Congratulations, you are now ready to use your dual Expansion Hubs! You "
+"can configure and operate these Hubs as you would an individual Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:2
+msgid "Configuring an External Webcam with a Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:7
+msgid ""
+"The Competition Manual allows the use of USB Video Class (UVC) compatible"
+" cameras for computer vision-related tasks. If you are using a REV "
+"Robotics Control Hub, then you will need to use an external webcam, since"
+" the Control Hub does not include a built-in camera. This document "
+"describes how to connect, configure and use an external webcam with a "
+"Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:14
+msgid ""
+"Special thanks to Chris Johannesen of Westside Robotics (Los Angeles) for"
+" putting together this documentation."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:18
+msgid "Type of External Camera"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:20
+msgid ""
+"Theoretically, any USB Video Class (UVC) camera should work with the "
+"system. However, *FIRST* recommends using UVC web cameras from Logitech. "
+"The following cameras have been tested and calibrated to work accurately "
+"with SDK software:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:25
+msgid ":ref:`logitech_c270_label`"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:26
+msgid ":ref:`logitech_c310_label`"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:27
+msgid ":ref:`logitech_c920_label`"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:29
+msgid ""
+"Calibrating a UVC camera is an optional, advanced task. Instructions for "
+"creating a calibration file are in the comments of the "
+"`teamwebcamcalibrations.xml "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
+" file in the ftc_app project folder (visit this `link "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
+" for an online copy of the file)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:37
+msgid "Connecting the Camera"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:39
+msgid ""
+"The UVC camera can plug directly into the USB 3.0 port on the REV Control"
+" Hub. Unlike the REV Expansion Hub, there is no need for an external "
+"powered USB hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid "Control Hub with UVC camera connected."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:46
+msgid ""
+"An electrostatic discharge (ESD) event on the USB 2.0 port on the Control"
+" Hub can cause Wi-Fi disconnects."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:48
+msgid ""
+"The REV Control Hub has a `known ESD issue <https://docs.revrobotics.com"
+"/duo-control/troubleshooting-the-control-system/troubleshooting-the-"
+"control-system#esd-mitigation-techniques>`_ with devices plugged into the"
+" USB 2.0 port. Using the USB 2.0 Port may cause ESD to affect your "
+"Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub)."
+" Ensure that you plug USB devices, such as a Camera, into the USB 3.0 "
+"Port on your Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:54
+msgid "If you wish to connect two webcams see `Cameras and USB Hubs`_."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:57
+msgid "Camera Configuration"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:59
+msgid ""
+"Before using the external camera, it must be added to the active "
+"configuration file as a USB-connected device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:62
+msgid ""
+"Use the Configure Robot menu item on the paired DRIVER STATION device to "
+"add the webcam as a USB-connected device to an existing or newly created "
+"configuration file. Note that the Scan operation for the Configure Robot "
+"activity should detect the webcam and give it a default name of “Webcam "
+"1”."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid ""
+"Screen shot showing the Scan button circled in yellow and the resulting "
+"USB device listed as Webcam 1."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:71
+msgid ""
+"You can keep this default name (the sample Op Modes reference this name) "
+"or change it. If you change the webcam name, make sure your Op Modes "
+"refer to this new name."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:76
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:130
+msgid "Sample Op Modes"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:78
+msgid ""
+"When the configuration has been saved and activated, the external UVC "
+"camera can be programmed for robot vision tasks."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:81
+msgid ""
+"The SDK software offers “webcam” versions of its sample Blocks and Java "
+"Op Modes, showing how to use the external UVC camera for VisionPortal "
+"operations."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid "Blocks code for initializing a webcam."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:87
+msgid ""
+"Before opening and editing an Op Mode, verify that the intended "
+"configuration (with camera) is active. Also verify that the name "
+"referenced in the Op Mode matches the name specified in the configuration"
+" file."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:93
+msgid "Image Preview"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:95
+msgid ""
+"The *FIRST* Tech Challenge apps provide camera preview for ‘stream-"
+"enabled’ Op Modes using VisionPortal."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:98
+msgid ""
+"On a paired DRIVER STATION device, with the camera connected and "
+"configured, select a stream-enabled Op Mode. Press the INIT button, and "
+"wait briefly for streaming software to initialize; do not press the START"
+" button. Instead open the main menu (the 3 dots in upper right hand "
+"corner of the screen) and select Camera Stream. This option appears only "
+"at this time, during which the game pads and START button are disabled "
+"for safety."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid ""
+"Driver Station screen shot showing the menu with the Camera Stream option"
+" circled in yellow."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:109
+msgid ""
+"The camera image will appear on the DRIVER STATION screen. Manually touch"
+" the image to refresh it. To preserve bandwidth, only one frame is sent "
+"at a time."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid "Driver Station screen shot showing the camera image."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:116
+msgid ""
+"This option may be used to adjust the camera, with frequent manual image "
+"refreshing as needed. When finished, open the main menu and select Camera"
+" Stream again to turn off the preview. The preview image will close, the "
+"game pads will be enabled, and the START button may be pressed to "
+"continue running the Op Mode."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:125
+msgid ""
+"Because the Camera Stream feature is only available during the INIT phase"
+" of an Op Mode, you must ensure that the VisionPortal is activated in "
+"your Op Mode **before** the waitForStart command:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid ""
+"Blocks code showing the INIT code for the webcam is called before wait "
+"for start."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:132
+msgid ""
+"If you do not see the Camera Stream option in your main menu on your "
+"DRIVER STATION, then verify that the VisionPortal is activated before the"
+" waitForStart command in your Op Mode. Also make sure you’ve given the "
+"system enough time to initialize the VisionPortal software before you "
+"check to see if Camera Stream is available."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:139
+msgid "Scrcpy"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:141
+msgid ""
+"To view the camera output from a computer while an OpMode is running, you"
+" can use `scrcpy <https://github.com/Genymobile/scrcpy>`__. To do this, "
+"you will first need to obtain an ADB connection with your Control Hub. "
+"This can be done by connecting a USB-A to USB-C cable to the USB-C port "
+"on your Control Hub. If on Windows, you may also connect to your Control "
+"Hub WiFi network and open the `REV Hardware Client "
+"<https://docs.revrobotics.com/rev-hardware-client/gs/install>`__. Once "
+"connected, use `these instructions "
+"<https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__ "
+"to install and run scrcpy on your computer."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid "Screen shot showing the camera output viewed with scrcpy."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:153
+msgid ""
+"While scrcpy is a great way to view the camera output, the Competition "
+"Manual does not allow teams to have any devices other than the DRIVER "
+"STATION connected to your Control Hub during a match."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:159
+msgid "External HDMI Monitor"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:161
+msgid ""
+"Alternatively, camera output can be viewed on a display monitor or other "
+"device plugged into the HDMI port on the REV Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid ""
+"Photo showing an external HDMI monitor displaying the camera output from "
+"a connected control hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:167
+msgid ""
+"While a portable display monitor can be used to view or troubleshoot the "
+"camera stream on your Control Hub, teams are not allowed to have a "
+"portable display monitor connected to their Control Hub during a match."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:173
+msgid "Advanced Users"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:175
+msgid ""
+"For custom streams, advanced users of Android Studio may consult the `API"
+" documentation <https://javadoc.io/doc/org.firstinspires.ftc>`__ for "
+"`CameraStreamClient "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamClient.html>`__,"
+" `CameraStreamServer "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamServer.html>`__"
+" and `CameraStreamSource "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/stream/CameraStreamSource.html>`__"
+" classes."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:184
+msgid "Cameras and USB Hubs"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:186
+msgid ""
+"You can already connect a UVC webcam into the USB 3.0 port of a Control "
+"Hub. But what if you want to use two webcams? Perhaps you want the robot "
+"to be able to look forward and/or behind without having to spin the "
+"robot. In order to use two webcams on the Control Hub's USB 3.0 port you "
+"can add a USB Hub. This avoid the ESD issue with devices on the USB 2.0 "
+"port."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:192
+msgid ""
+"If you're using two standard UVC webcams you are not required to use a "
+"powered USB hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:194
+msgid ""
+"However, some webcams like the Logitech C920 draw more power than others "
+"and there are reports of them drawing too much power from the USB port "
+"when used at the same time. Therefore, you should probably use a powered "
+"USB hub for the C920."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:197
+msgid ""
+"Another use case for a USB hub is if you have a `Limelight 3A "
+"<https://limelightvision.io/products/limelight-3a>`_ camera. This device "
+"has its own processor on board and one drawback of this is that the "
+"camera always draws power, even when an opMode is not running. By adding "
+"a powered USB hub the Limelight will not drain your robot's battery."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:201
+msgid ""
+"One suitable powered USB hub is the Acer ODK350 5-IN-1 USB 3.0 Hub. It "
+"has a USB C port that can supply power to all connected devices."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:204
+msgid ""
+"At the time this was written, the Acer ODK350 hub was not listed on "
+"Acer's website, but was available on Amazon's website."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:206
+msgid ""
+"Not all USB hubs are powered hubs. Typically, you can't just plug a power"
+" bank into any of the USB hub's ports. It must be a port that is designed"
+" to supply power. So if you looking for a powered USB hub there should be"
+" a note in the specifications something like the following: *Note: This "
+"USB C port (with IN 5V printed) can not be used for data transfer and "
+"charge other devices. It can only supply power for the other 4 USB "
+"ports.*"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid "A REV Control Hub with a powered USB hub and two webcams."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:214
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:228
+msgid "Acer ODK350 USB hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:216
+msgid ""
+"The USB Hub is connected to the USB 3.0 port of the Control Hub. A "
+"powerbank is connected to the USB C port on the USB hub to supply power "
+"to the connected devices. Two Logitech C920 webcams are connected to the "
+"USB hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:220
+msgid ""
+"See the `AprilTag Switchable Cameras <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/blob/master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptAprilTagSwitchableCameras.java>`_"
+" sample program that demonstrates swapping between the two cameras to "
+"detect AprilTags."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:222
+msgid ""
+"The other use case is using a Limelight a with a powered USB hub to "
+"reduce robot battery drain. This example shows both a Limelight and a "
+"webcam."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
+msgid "A USB hub with a webcam and a Limelight 3A connected to a REV Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:230
+msgid ""
+"The USB Hub is connected to the USB 3.0 port of the Control Hub. A "
+"powerbank is connected to the USB C port on the USB hub to supply power "
+"to the connected devices. A Logitech C270 webcam and a Limelight 3A are "
+"connected to the USB hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:234
+msgid ""
+"The Limelight 3A is not a compatible VisionPortal device. So you can't "
+"use the AprilTag switchable camera sample code. But you can still get "
+"results from either the Limelight and/or the VisionPortal webcam and use "
+"them as required."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:2
+msgid "Configuring a Servo"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:4
+msgid ""
+"You will also want to add a servo to the configuration file. In this "
+"example, you are using a standard 180-degree servo."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:9
+msgid "Configuring a Servo Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:11
+msgid ""
+"1. Touch on the word **Servos** on the screen to display the **Servo "
+"Configuration** screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:19
+msgid ""
+"2. Use the dropdown control to select \"Servo\" as the servo type for "
+"port #0."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:27
+msgid ""
+"3. Use the touch pad to specify the name of the servo (\"servoTest\" for "
+"this example) for port #0."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_servo/configuring-servo.rst:35
+msgid ""
+"4. Press the **Done** button to complete the servo configuration. The app"
+" should return to the previous screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:2
+msgid "Configuring an External UVC Camera and a Powered USB Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:7
+msgid ""
+"The Competition Manual allows the use of USB Video Class (UVC) compatible"
+" cameras for computer vision-related tasks. Teams who are using an "
+"Android smartphone as their ROBOT CONTROLLER have the option of using an "
+"externally connected camera instead of the built-in camera for computer "
+"vision tasks."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:13
+msgid ""
+"The advantage of using an external camera is that the camera can be "
+"mounted in a location that is convenient for vision-related tasks while "
+"the Android Robot Controller can be mounted where it is convenient for "
+"Robot Controller-related tasks."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:18
+msgid ""
+"The disadvantage of using an external camera is there is additional "
+"complexity introduced with the USB-connected camera. An external camera "
+"adds costs and weight to a robot and it needs to be wired correctly to "
+"run properly."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:24
+msgid "What type of External Camera can be Used?"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:26
+msgid ""
+"The system supports UVC cameras. Theoretically, if a camera is UVC "
+"compliant, then it should work with the system. However, there are a "
+"couple of recommended web cameras that have been tested with the *FIRST* "
+"Tech Challenge software and have been calibrated to work accurately with "
+"this software:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:32
+msgid "Logitech HD Webcam C310"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:33
+msgid "Logitech HD Pro Webcam C920"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:35
+msgid ""
+"There are notes on :doc:`other UVC webcams "
+"<../../../apriltag/vision_portal/visionportal_webcams/visionportal-"
+"webcams>` that teams can use."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:38
+msgid ""
+"Note that calibrating a UVC camera is an advanced task. Details on how to"
+" create a calibration file can be found in the comments of the "
+"*teamwebcamcalibrations.xml* file that is available as part of the "
+"ftc_app project folder (visit this `link "
+"<https://github.com/ftctechnh/ftc_app/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
+" for an online copy of the file)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:46
+msgid "REV Expansion Hub and Phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:48
+msgid ""
+"For teams using an Android phone and an Expansion Hub you are required to"
+" add a USB Hub to use a webcam."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:-1
+msgid ""
+"A REV expansion hub connected to an Android phone and a webcam via a USB "
+"Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:54
+msgid "USB Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:56
+msgid ""
+"Teams who would like to use an external camera will need a USB hub to "
+"connect their Android Robot Controller to the external camera and the REV"
+" Robotics Expansion Hub. To work properly, the USB hub should meet the "
+"following requirements:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:61
+msgid ""
+"Compatible with USB 2.0. Note: a USB 3.0 hub will still work, just not at"
+" the faster speed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:62
+msgid "Supports a data transfer rate of 480Mbps."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:64
+msgid ""
+"Note that the Modern Robotics Core Power Distribution Module cannot be "
+"used for this task since its data transfer speed is not fast enough to "
+"work with the USB-connected webcam."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:68
+msgid ""
+"Also note that the Competition Manual permits the use of a powered USB "
+"hub to make this connection. If a team uses a powered USB hub, the power "
+"to operate the USB hub can only come from either of the following "
+"sources:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:73
+msgid ""
+"An externally connected commercially available off-the-shelf (COTS) USB "
+"Battery Pack in compliance with the Competition Manual."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:75
+msgid ""
+"The 5V DC Aux power port of a REV Robotics Expansion Hub (note that this "
+"requires advanced skills to implement)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:78
+msgid ""
+"*FIRST* has tested a few USB 2.0 powered hubs and recommends one from "
+"Anker. At the time this document was written, this hub was available from"
+" `Anker.com <https://www.anker.com/products/a7516>`__."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:-1
+msgid "Hub with charger and cable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:85
+msgid ""
+"The Anker 4-port powered hub is convenient because it has a Micro USB "
+"port that is used to connect the hub to a 5V power source (highlighted "
+"with orange circle in figure below)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:-1
+msgid "USB Hub with Micro USB port."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:92
+msgid ""
+"This port allows a user to plug a standard USB type B Micro Cable into "
+"the hub, and then connect the other end of the cable (which has a USB "
+"Type A connector) into the output port of an external 5V USB battery "
+"pack. In the image below, the Anker 4 port hub is powered by a “limefuel”"
+" external 5V battery pack using a standard Type A to Type B USB Micro "
+"cable. Note the battery is highlighted by the yellow outline in the "
+"figure below."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:103
+msgid "A complete setup for using a phone and webcam."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:103
+msgid "The USB hub is drawing power from a power bank."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:105
+msgid ""
+"The USB hub is connected via it's Type A connector and cable to an OTG "
+"cable which connects to the phone. The power bank is connected to the USB"
+" type B Micro port on the USB hub. The webcam is connected to one of the "
+"USB type A ports on the USB hub. A USB Type A to USB Mini B cable "
+"connects the USB hub to the REV Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:110
+msgid ""
+"A USB hub can also draw power from the 5V auxiliary ports on the REV "
+"Robotics Expansion Hub. This configuration requires that the user have a "
+"special cable that on one end can be plugged into the 5V Auxiliary port "
+"and on the other end can be plugged into the power port of the USB hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:118
+msgid ":alt: A complete setup for using a phone and webcam."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:118
+msgid "The USB hub is connected to the 5V Auxiliary port."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:120
+msgid ""
+"Note that teams can create this special cable using one end of a servo "
+"extension cable (to plug into the 5V aux port) and one end of a Micro USB"
+" cable (to plug into the Anker hub’s power port). **Creating this cable "
+"is an advanced task and should only be attempted by teams who have "
+"guidance from an adult mentor who has expertise in electronics and "
+"wiring! It is extremely important that the polarity is correct for this "
+"special cable. If the polarity is reversed it could damage your "
+"electronic equipment.**"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:132
+msgid ""
+"There are sample Blocks and Java Op Modes that demonstrate how to use the"
+" external UVC web camera for VisionPortal operations. Before a team can "
+"use the external UVC camera, a configuration file must be configured with"
+" the external camera defined as one of the USB-connected devices."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:138
+msgid ""
+"Once a valid configuration file has been defined and activated, the "
+"programmer can use the external UVC camera, instead of the internal "
+"Android cameras, for vision-related tasks."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:-1
+msgid "Sample Blocks code"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:2
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:5
+msgid "Creating a Configuration"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:7
+msgid ""
+"Before you can communicate with the motor, servo and sensors that are "
+"connected to the Control Hub or Expansion Hub, you first must create a "
+"configuration file on your Robot Controller, so that the Robot Controller"
+" will know what hardware is available on the Control Hub's or Expansion "
+"Hub's external ports."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:14
+msgid "Getting the Control Hub Ready"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:16
+msgid ""
+"If you are using a Control Hub, you do not need to make any additional "
+"connections. You simply need to make sure that the Control Hub is powered"
+" on and paired to the DRIVER STATION."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:21
+msgid "Connecting an Android Smartphone to an Expansion Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:23
+msgid ""
+"If you are using an Android smartphone as a Robot Controller, you must "
+"physically connect the Robot Controller smartphone to the Expansion Hub "
+"using a USB cable and an On-The-Go (OTG) adapter. Also, you should verify"
+" that the DRIVER STATION is currently paired to the Robot Controller."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:30
+msgid "Connecting an Android Smartphone to an Expansion Hub Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:32
+msgid "Power on the Expansion Hub by turning on the power switch."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:39
+msgid ""
+"2. Plug the Type B Mini end of the USB cable into the USB mini port on "
+"the Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:47
+msgid "Plug the Type A end of the USB cable into the OTG adapter."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:54
+msgid ""
+"4. Verify that your Robot Controller smartphone is powered on and "
+"unlocked. Plug in the USB Micro OTG adapter into the OTG port of the "
+"Robot Controller phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:63
+msgid ""
+"Note that when the OTG adapter is plugged into the smartphone, the phone "
+"will detect the presence of the Expansion Hub and launch the Robot "
+"Controller app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:65
+msgid ""
+"5. The first time you connect the Robot Controller smartphone to the "
+"Expansion Hub, the Android operating system should prompt you to ask if "
+"it is OK to associate the newly detected USB device (which is the "
+"Expansion Hub) with the Robot Controller app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:76
+msgid ""
+"You might be prompted multiple times to associate the USB hardware with "
+"the Robot Controller.  Whenever you are prompted by your phone with this "
+"message, you should always select the \"Use by default for this USB "
+"device\" option and hit the \"OK\" button to associate the USB device "
+"with the Robot Controller app. If you fail to make this association, then"
+" the Robot Controller app might not reliably connect to this Expansion "
+"Hub the next time you turn your system on."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:86
+msgid "Creating a Configuration File Using the DRIVER STATION"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:88
+msgid ""
+"Although the configuration file needs to reside on the Robot Controller, "
+"for this tutorial we will use the DRIVER STATION app to create the "
+"configuration file remotely. The DRIVER STATION can be used to create a "
+"configuration file for a Control Hub or for an Android smartphone Robot "
+"Controller."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:96
+msgid ""
+"Creating a Configuration File on the Robot Controller using the DRIVER "
+"STATION Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:98
+msgid ""
+"1. Touch the three vertical dots in the upper right hand corner of the "
+"Driver Station app. This will launch a pop-up menu."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:106
+msgid ""
+"2. Select **Configure Robot** from the pop up menu to display the "
+"**Configuration** screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:114
+msgid ""
+"3. If your Robot Controller does not have any existing configuration "
+"files, the screen will display a message indicating that you need to "
+"create a file before proceeding."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:123
+msgid ""
+"Hit the **New** button to create a new configuration file for your Robot "
+"Controller."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:125
+msgid ""
+"4. When the new configuration screen appears, the Robot Controller app "
+"will do a scan of the serial bus to see what devices are connected to the"
+" Robot Controller."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:134
+msgid ""
+"It will display the devices that it found in a list underneath the words "
+"\"USB Devices in configuration.\" You should see an entry that says "
+"something like \"Expansion Hub Portal 1\" in the list."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:136
+msgid ""
+"Your Expansion Hub is listed as a Portal because it is directly connected"
+" to the Robot Controller phone through the USB cable or in the case of "
+"the Control Hub through the internal serial bus."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:138
+msgid ""
+"If you do not see your Expansion Hub Portal listed and you are using a "
+"smartphone as a Robot Controller, check the wired connections to make "
+"sure they are secure and then press the Scan button one or two times more"
+" to see if the smartphone detects the device on a re-scan of the USB bus."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:140
+msgid ""
+"5. Touch the Portal listing (\"Expansion Hub Portal 1\" in this example) "
+"to display what Expansion Hubs are connected through this Portal."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:149
+msgid ""
+"Since we only have a single Expansion Hub connected, we should only see a"
+" single Expansion Hub configured (\"Expansion Hub 2\" in this example)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:151
+msgid ""
+"6. Touch the Expansion Hub listing (\"Expansion Hub 2\" in this example) "
+"to display the Input/Output ports for that device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:159
+msgid ""
+"The screen should change and list all the motor, servo and sensor ports "
+"that are available on the selected Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/index.rst:2
+msgid "Configuring Your Hardware"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/index.rst:4
+msgid ""
+"This page contains information on configuring your control system "
+"hardware such that you may use them in your own projects."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:2
+msgid "Managing Electrostatic Discharge Effects"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:7
+msgid ""
+"Electrostatic discharge (ESD) events have the potential to disrupt the "
+"normal operation of a competition robot. This section examines causes of "
+"ESD events and discusses ways to mitigate the risk that an ESD event will"
+" disable or damage a robot’s control system."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:12
+msgid ""
+"Note that this section only provides a brief overview of the physical "
+"phenomenon that causes ESD disruptions. You can use the following link to"
+" view an in-depth white paper, written by Mr. Eric Chin (a *FIRST* "
+"alumnus and a 2018 summer engineering intern), which examines and "
+"quantifies the efficacy of various ESD mitigation techniques:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:18
+msgid ""
+":download:`ESD Mitigation Techniques For FTC (PDF 1.7MB) <files/analysis-"
+"esd-mitigation-echin.pdf>`"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:20
+msgid ""
+"Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the "
+"work they did to model the problems caused by ESD and to evaluate "
+"different techniques to mitigate the risk caused by this phenomenon.  "
+"Also special thanks to *FIRST* Tech Challenge Teams 2844, 8081, 10523, "
+"10523a, and 10984, and the volunteer team from Arizona (including Robert "
+"Garduno, Susan Garduno, Richard Gomez, Matthew Rainey, Christine Sapio, "
+"Patricia Strones, and David Thompson) for assisting in testing some of "
+"these mitigation techniques under the hot desert sun!"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:30
+msgid "What is an Electrostatic Discharge Event?"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:32
+msgid ""
+"An electrostatic discharge (ESD) event occurs when a highly charged "
+"conductive object (like the metal frame of a robot) touches an uncharged "
+"or oppositely charged conductive object and discharges to it. Because of "
+"the high voltages involved (up to tens of kilovolts), ESD events can "
+"produce extremely high electrical currents as the charge that was "
+"accumulated on one object flows through a conductive path to the neutral "
+"or oppositely charged object."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:44
+msgid "A positively charged robot touching a neutral field wall."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:44
+msgid ""
+"Example of an ESD event, current will flow from the robot to the field "
+"wall."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:47
+msgid "How Robots Become Charged"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:49
+msgid ""
+"Consider what happens when you shuffle your feet on a carpet in wool "
+"socks and then touch a door knob. You’ll almost certainly get a shock. "
+"What causes this phenomenon? When two surfaces interact, there is a small"
+" amount of adhesion. This means that they share electrons and if they are"
+" made from different materials the electron sharing may be uneven. When "
+"the surfaces are taken apart, they can become charged. This is called the"
+" triboelectric effect."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:61
+msgid ""
+"Illustration of a wheel on a floor with a close up portion showing how "
+"electrons in the floor can become attached to the wheel."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:61
+msgid "Robots become charged due to the triboelectric effect."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:63
+msgid ""
+"A robot’s wheels moving on field tiles build charge on the robot frame "
+"just like your wool socks moving on carpet build charge on your body.  "
+"Many other plastic and rubber materials behave similarly. It is important"
+" to note that triboelectric charging takes charge from one object and "
+"gives it to another, so the charges are mirrored. In the case of a "
+"*FIRST* Tech Challenge robot, positive charge accumulates on the wheels "
+"and negative charge accumulates on the tiles."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:71
+msgid ""
+"Note that a robot with wheels that slide across the soft tiles of a "
+"competition field will build electrostatic charge on its frame more "
+"rapidly than a robot with wheels that roll across the tiles."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:76
+msgid "Discharging a Robot"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:78
+msgid ""
+"Current “wants” to flow from objects at higher potential to the objects "
+"at lower potential to equalize the voltage difference between them and it"
+" will if given a conductive path to do so (like an uninsulated wire). In "
+"the case of a robotics competition, if a robot is at a higher potential "
+"than another metallic object (such as a portion of the game field), an "
+"ESD event will occur if the frame of the charged robot contacts the other"
+" object."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:86
+msgid ""
+"If the potential difference is high enough, it is also possible for "
+"current to flow through the air in the form of an electrical arc. Arcing "
+"occurs when the air between two differently charged conductors becomes "
+"ionized and allows current to flow from one conductor to the other. Arcs "
+"at voltages seen on *FIRST* Tech Challenge robots can jump air gaps of "
+"more than 3/8” (1 cm). Arcs behave almost like direct contact, so they "
+"can carry a significant amount of current. Visible sparks go with large "
+"electrostatic arcs."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:99
+msgid ""
+"Illustration showing two circles and the current flow from positive to "
+"negative."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:99
+msgid "Electric arc between two spheres of opposite charge."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:102
+msgid "What Steps can be Taken to Mitigate the Risk of an ESD Disruption?"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:105
+msgid "Step 1: Treating the Tile Floor with Anti-Static Spray (Event Hosts Only)"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:107
+msgid ""
+"One of the most effective ways to reduce the risk of disruption by ESD "
+"events is to treat the tile floors of a competition field with anti-"
+"static spray. Anti-static spray increases electrical conductivity of the "
+"surface of the tiles. This helps prevent the build-up of electrostatic "
+"charge on the robots as the move across the tile floor."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:-1
+msgid "A gallon jug and a quart spray bottle of ACL Heavy Duty Staticide."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:119
+msgid ""
+"*FIRST* recommends the use of `ACL Heavy Duty Staticide "
+"<https://www.aclstaticide.com/products/heavy-duty-staticide>`__ spray to "
+"treat the tiles. This spray is extremely effective at preventing charge "
+"build up on the robots. Also, this spray only needs to be applied once "
+"and it will last for an entire event (and it will work across multiple "
+"days)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:126
+msgid ""
+"Note that treating the tile floor is something that **only the event host"
+" is authorized to do**. Teams are **not permitted** to treat the tile "
+"floor themselves."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:131
+msgid "Step 2: Add Ferrite Chokes to Signal Wires"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:133
+msgid ""
+"Ferrite chokes block large changes in current like those seen during an "
+"ESD event. This can reduce the risk of damage to or disruption of "
+"electrical components when a sensor or other peripheral device receives a"
+" shock."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:-1
+msgid "A snap-on ferrite choke."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:142
+msgid ""
+"Using ferrite chokes can be a very effective method for mitigating the "
+"effects of ESD:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:145
+msgid "Use USB cables that have built-in or snap-on ferrite chokes."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:146
+msgid "Install snap-on ferrite chokes onto your signal cables:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:148
+msgid "Sensor cables"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:149
+msgid "Encoder cables"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:150
+msgid "Servo cables"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:153
+msgid ""
+"Step 3: Electrically Isolating the Electronics from the Metal Frame of "
+"the Robot"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:155
+msgid ""
+"As a robot moves back and forth across the tile floor during a *FIRST* "
+"Tech Challenge match, charge can accumulate on the metallic frame of the "
+"robot due to the triboelectric effect. If a charge builds up on the frame"
+" of the robot, but the electronics that make up the Control System are at"
+" a different voltage, then a shock can occur if an exposed or poorly "
+"insulated portion of the Control System gets close (less than 3/8” or "
+"10mm) to the metal frame."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:163
+msgid ""
+"Electrically isolating or insulating the electronics from the frame can "
+"help avoid disruptions due to this type of shock."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:167
+msgid "Sub Step A: Mounting Electronics on a Non-Conductive Material"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:169
+msgid ""
+"Mounting the Control System Electronics on a non-conductive material, "
+"such as a thin sheet of plywood or a sheet of PVC type A, can help reduce"
+" the risk of an ESD event between the frame and the electronics. Using a "
+"non-conductive, rigid panel can also help with wire management and strain"
+" relieving."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:179
+msgid "An expansion hub mounted on a plywood sheet."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:179
+msgid ""
+"The plywood sheet has holes drilled in it and wires are secured with "
+"cable ties to the plywood."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:182
+msgid "Sub Step B: Isolate Exposed or Poorly Insulated Parts of the Electronics"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:184
+msgid ""
+"Certain parts of the Control System’s electronics have exposed metal or "
+"are poorly insulated. If these parts are placed too close to the metal "
+"frame, a shock can occur if a charge accumulates on the frame."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:192
+msgid ""
+"A sensor with 4-wire connector and a servo wire extension connection, the"
+" 4-wire connector and extension connection are are circled in red."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:192
+msgid ""
+"Electrostatic shocks can occur at poorly insulated or exposed portions of"
+" the electronics."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:195
+msgid ""
+"For example, the 4-wire sensor cables that are used by the REV Robotics "
+"Expansion Hub have plastic connectors that are poorly insulated. If a "
+"charge accumulates on the metal frame of the robot, and the end of sensor"
+" cable is placed close to the frame, a shock can occur and this shock can"
+" disrupt or even damage the I2C port of an Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:201
+msgid ""
+"Similarly, some servo extension cables have exposed portions of metal "
+"that could be vulnerable to ESD unless properly isolated or insulated."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:205
+msgid ""
+"Moving these vulnerable areas of the electronics system away from the "
+"frame (with an air gap greater than 3/8” or 10mm) can help reduce the "
+"risk of an ESD disruption."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:213
+msgid "A sensor with an air gap between the frame and the 4-wire connector."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:213
+msgid "Keep exposed portions of the electronics away from the frame."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:215
+msgid ""
+"Using electrical tape to insulate these areas can be equally effective "
+"and may be easier to implement."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:221
+msgid ""
+"A servo wire extension connection wrapped in electrical tape and a sensor"
+" mounted on a frame where the frame is wrapped in electrical tape."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:221
+msgid "Electrical tape can be used to insulate exposed or poorly insulated metal."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:224
+msgid ""
+"An ESD event on the USB 2.0 port on the Control Hub can cause Wi-Fi "
+"disconnects."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:226
+msgid ""
+"The REV Control Hub has a `known ESD issue <https://docs.revrobotics.com"
+"/duo-control/troubleshooting-the-control-system/troubleshooting-the-"
+"control-system#esd-mitigation-techniques>`_ with devices plugged into the"
+" USB 2.0 port. Using the USB 2.0 Port may cause ESD to affect your "
+"Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:231
+msgid ""
+"Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port"
+" on your Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:234
+msgid ""
+"Step 3: Covering Exterior Metal Features with Electrically Insulated "
+"Material"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:236
+msgid ""
+"Another ESD mitigation strategy is to cover exposed portions of metallic "
+"frame pieces with an electrically insulating material. Covering the "
+"conductive exterior parts of a robot with a non-conductive material "
+"reduces the risk that they will touch a conductive object at a different "
+"electrical potential and trigger an ESD event. Wooden bumpers, electrical"
+" tape, and other non-conductive coatings are all effective."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:247
+msgid ""
+"A robot claw mechanism where the metal claws are wrapped in electrical "
+"tape."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:247
+msgid ""
+"Insulating portions of the robot that touch other metallic objects on the"
+" field can help."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:250
+msgid ""
+"In past seasons, teams who have done this have observed reductions in the"
+" frequency and severity of ESD events on their robots."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:254
+msgid "Step 4: Ground Electronics to Metal Frame with an Approved Cable"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:256
+msgid ""
+"Because it is difficult to perfectly isolate the electrical system, it is"
+" beneficial to ground the electrical system to the frame of the robot to "
+"prevent a potential difference from building up between the frame and the"
+" electronics. Doing this can help reduce the risk that a shock can occur "
+"between the frame of a robot and the Control System electronics."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:266
+msgid ""
+"The REV Resistive Grounding Strap has a XT30 connection on one end and an"
+" eye loop connector on the other end."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:266
+msgid ""
+"The REV Resistive Grounding Strap (REV-31-1269) is an approved grounding "
+"cable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:269
+msgid ""
+"It is important that the grounding **only be done using a FIRST-approved,"
+" commercially manufactured cable** (see the competition manual for the "
+"currently approved cables). A *FIRST*-approved cable has an appropriately"
+" sized inline resistor. This resistor is critical because it acts as a "
+"safeguard to prevent excessive current from flowing through the frame of "
+"the robot if a “hot” (positive) wire of the electronics system is "
+"inadvertently short circuited to the frame of the robot. Also, the "
+"commercially manufactured grounding cable has a keyed connection, which "
+"is designed to prevent a user from inadvertently connecting a hot (12V) "
+"line to the frame of robot."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:281
+msgid ""
+"Note that if your team uses Anderson Powerpole connectors, then you will "
+"need to use the REV Robotics Anderson Powerpole to XT30 Adapter cable in "
+"conjunction with REV Robotics’ Resistive Grounding Strap:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:289
+msgid "REV Robotics Anderson Powerpole to XT30 Adapter cable"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:289
+msgid ""
+"The REV-31-1385 adapter is approved for use with REV’s Resistive "
+"Grounding Strap."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:292
+msgid ""
+"To ground the electronics, plug one end of the *FIRST*-approved cable "
+"into a spare XT30 port on the Control System electronics. Then bolt the "
+"other end using a conductive (i.e., metal) bolt to the frame of the "
+"robot."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:300
+msgid ""
+"An expansion hub with a grounding cable connected to the XT30 port and "
+"bolted to the metal frame of the robot."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:300
+msgid "Ground the electronics to the frame using a FIRST-approved cable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:302
+msgid ""
+"It might initially seem contradictory to both insulate the electronic "
+"components of the control system from the frame and to also ground the "
+"electronics to the frame. However, if the electronics are not grounded to"
+" the frame, shocks can occur if a charge builds on the robot frame and an"
+" exposed or poorly insulated portion of the electronics (such as the base"
+" of a REV Robotics color sensor) gets close it. If the electronics are "
+"grounded to the frame, the grounding wire helps keep the electronics at "
+"the same potential as the frame, preventing arcs between the two systems."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:2
+msgid "Saving the Configuration Information"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:3
+msgid ""
+"Once you have configured your hardware, you must save the information to "
+"the configuration file. If you do not save this information, it will be "
+"lost and the robot controller will be unable to communicate with your "
+"hardware."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:9
+msgid "Saving the Configuration Information Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:11
+msgid ""
+"1. Press the **Done** button to go up one level in the configuration "
+"screens."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:19
+msgid ""
+"2. Press the **Done** button again to return to the highest level in the "
+"configuration screens."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:27
+msgid "Press the **Save** button."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:34
+msgid ""
+"4. When prompted, specify a configuration file name using the "
+"touchscreen's keypad (\"into_the_deep\" for this example)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:42
+msgid ""
+"1. Press the **OK** button to save your configuration information using "
+"that file name."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:50
+msgid ""
+"6. After the configuration file has been saved, touch the Android back-"
+"arrow button to return to the main screen of the app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:58
+msgid ""
+"7. Verify that the configuration file is the active configuration file on"
+" the main DRIVER STATION screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:2
+msgid "Connecting a Color-Distance Sensor to the Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:4
+msgid ""
+"The Hub has 4 independent I2C buses. Each bus has its own port on the "
+"Hub. We will connect a REV Robotics Color-Distance sensor to the I2C bus "
+"#0 on the Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:8
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:25
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:8
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:18
+msgid "Note that it will take an estimated 2.5 minutes to complete this task."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:12
+msgid "Connecting a Color-Distance Sensor to the Hub Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:14
+msgid ""
+"1. Connect one end of the 4-pin JST PH cable to the REV Robotics Color-"
+"Distance sensor."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:22
+msgid ""
+"2. Plug the other end of the 4-pin JST PH cable to the I2C port labeled "
+"\"0\" on the Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:2
+msgid "Connecting a Motor to the Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:4
+msgid ""
+"The Hub can drive up to four (4) 12V DC motors per Hub. The Hub uses a "
+"type of electrical connector known as a 2-pin JST VH connector. Many of "
+"the *FIRST* approved 12V DC motors are equipped with Anderson Powerpole "
+"connectors. An adapter cable can be used to connect the Anderson "
+"Powerpole connectors to the Hub motor port (see `FIRST Tech Challenge "
+"Robot Wiring Guide (PDF) <https://ftc-"
+"resources.firstinspires.org/ftc/team/robot-wires>`__ for more "
+"information)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:-1
+msgid "Simple test rig with motor mounted to some Tetrix channel"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:18
+msgid ""
+"For the examples in this tutorial, *FIRST* recommends that the user build"
+" a simple rig to secure the motor in place and prevent it from moving "
+"about during the test runs. The image above shows a Tetrix motor "
+"installed in a rig built with a Tetrix motor mount and some Tetrix "
+"C-channels. A gear was mounted on the motor shaft to make it easier for "
+"the user to see the rotation of the shaft."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:29
+msgid "Connecting a 12V Motor to the Hub Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:31
+msgid ""
+"1. Connect the Anderson Powerpole end of the motor's power cable to the "
+"Powerpole end of the Anderson to JST VH adapter cable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:-1
+msgid "Connecting the adapter cable"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:40
+msgid ""
+"Motors from different vendors can have different cabling requirments. "
+"Adjust this as needed for your motor. One end needs to be a JST VH two "
+"pin connector (white)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:44
+msgid ""
+"Connect the JST VH white connector into the motor port labeled \"0\" on "
+"the Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:-1
+msgid "Shows the JST VH white connector of the cable plugged into the Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:2
+msgid "Connecting 12V Power to the Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:4
+msgid ""
+"The Hub draws power from a 12V rechargeable battery. For safety reasons, "
+"the battery has a 20A fuse built in. A mechanical switch is used to turn "
+"on/turn off the power."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:8
+msgid "Note that it will take an estimated 5 minutes to complete this task."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:12
+msgid "Connecting 12V Power to the Hub Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:14
+msgid ""
+"1. If your 12V battery has a Tamiya style connector, connect the Tamiya "
+"to XT30 adapter cable to the matching end of the switch cable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:22
+msgid ""
+"Do not connect the 12V battery to the Tamiya adapter yet.  We will "
+"connect the battery during a later step."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:24
+msgid ""
+"2. Connect the other end of the switch cable to a matching XT30 port on "
+"the Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:32
+msgid "Verify that the switch is in the OFF position."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:39
+msgid "Connect the 12V battery to the Tamiya to XT30 cable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:46
+msgid ""
+"5. Turn on the switch and verify that the Hub is drawing power from the "
+"battery. Note that the Hub's LED should be illuminated (notice the blue "
+"LED in upper right-hand corner of the Hub in the image below)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_power/connecting-power.rst:56
+msgid ""
+"6. Turn off the switch and verify that the Hub is off. Note that the "
+"Hub's LED should not be illuminated."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:2
+msgid "Connecting a Servo to the Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:4
+msgid ""
+"The Hub has 6 built-in servo ports. The servo ports accept the standard "
+"3-wire header style connectors commonly found on servos. Note that ground"
+" pin is on the left side of the servo port."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:11
+msgid "Connecting a Servo to the Hub Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:13
+msgid ""
+"1. Connect the servo cable to the servo port labeled \"0\" on the Hub. "
+"Note that the ground pin is on the left side of the servo port."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:21
+msgid ""
+"2. Verify that the black ground wire of the servo cable matches the "
+"ground pin of the servo port (which is aligned on the left side of the "
+"port)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:2
+msgid "Connecting a Touch Sensor to the Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:4
+msgid ""
+"The Hub has 4 independent digital input/output (I/O) ports. Each port has"
+" two digital I/O pins for a total of 8 digital I/O pins on a Hub. You "
+"will connect a REV Robotics Touch sensor to one of the digital I/O ports."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:9
+msgid ""
+"Note that in the case of the REV Robotics Touch Sensor, the device has a "
+"connector port for a 4-pin sensor cable. However, the device only needs "
+"to connect to one of the two available digital I/O pins. For the REV "
+"Robotics Touch Sensor, the second digital I/O pin in the port is the one "
+"that gets connected when a standard REV Robotics 4-pin JST PH cable is "
+"used. For the \"0-1\" port, it is the pin labeled \"1\" that gets "
+"connected through the 4-pin cable. Similarly, for the \"2-3\" port, it is"
+" the pin labeled \"3\" that gets connected through the 4-pin cable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:21
+msgid "Connecting a Touch Sensor to the Hub Instructions"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:23
+msgid ""
+"1. Connect one end of the 4-pin JST PH cable to the REV Robotics Touch "
+"sensor."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:31
+msgid ""
+"2. Plug the other end of the 4-pin JST PH cable to digital I/O port "
+"labeled \"0\" on the Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/index.rst:2
+msgid "Connecting Devices To a Control or Expansion Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/index.rst:4
+msgid ""
+"This section explains how to connect a motor, a servo, and some sensors "
+"to your REV Robotics Control Hub or REV Robotics Expansion Hub. While the"
+" Control Hub differs from the Expansion Hub because of its built in "
+"Android device, the layout of the external motor, servo, and sensor ports"
+" are identical for the Control Hub and Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/index.rst:10
+msgid ""
+"The images in this section use an Expansion Hub to demonstrate how to "
+"connect the devices. The process, however, is identical for a Control "
+"Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/connecting_devices/index.rst:14
+msgid ""
+"When the instructions in this section use the word \"Hub\", they are "
+"referring to a Control Hub or Expansion Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/index.rst:-1
+#: ../../source/hardware_and_software_configuration/index.rst:7
+msgid "Hardware and Software Configuration"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/index.rst:-1
+msgid "FTC Docs, FIRST Tech Challenge, FTC, configuration"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/index.rst:9
+msgid "Hardware and Software Configuration for the Control System"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:2
+msgid "*FIRST* Tech Challenge Self-Inspect"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:7
+msgid ""
+"This page describes the Self Inspect screens in the FTC Driver Station "
+"(DS) app and the FTC Robot Controller (RC) app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:10
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:11
+msgid ""
+"A Self Inspect screen provides a snapshot of device status, as it relates"
+" to FTC rules for the control system. These rules are described in the "
+"Competition Manual which can be found on the `Current Game and Season "
+"Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_"
+" on the *FIRST* Website."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:15
+msgid ""
+"An `Inspection Checklist (PDF) <https://ftc-"
+"resources.firstinspires.org/ftc/event/inspection-check>`_ is available to"
+" help teams self-inspect their ROBOT before their event. Teams are "
+"strongly encouraged to self-inspect prior to their event."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:18
+msgid ""
+"There is also a `Inspection Quick Reference (PDF) <https://ftc-"
+"resources.firstinspires.org/ftc/event/inspection-reference>`_ with some "
+"examples of legal and illegal parts (though it is not a substitute for "
+"the Competition Manual)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:21
+msgid ""
+"The Self Inspect screen is provided only as a quick, handy reference to "
+"help teams confirm that certain control system elements are up-to-date "
+"and properly configured."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:25
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:196
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:25
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:501
+msgid ""
+"Each inspection screen updates automatically, with or without a Restart "
+"Robot. This allows quick verification that issues have been resolved."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:28
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:28
+msgid ""
+"The challenge is to maximize useful information in a small screen. The "
+"Self Inspect layout and graphics evolve with FTC requirements; this page "
+"clarifies some of the brief but meaningful captions."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:33
+msgid "Robot Inspection"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:35
+msgid ""
+"The Self Inspection reports may be reviewed in Robot Inspection at an FTC"
+" tournament, but is **not** a comprehensive or official standard of "
+"compliance with FTC rules. With the robot and driver station turned on "
+"and connected the inspector may go through the **Inspection Checklist** "
+"form (on paper or a tablet). They will check both the **Driver Station "
+"Inspection Report** and the **Robot Controller Inspection Report**, both "
+"of which can be displayed from the DS. Many FTC events will scan the QR "
+"Code that is displayed on the RC Inspection Report."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:41
+msgid "Version Information"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:43
+msgid ""
+"The Competition Manual lists the minimum recommended versions of device "
+"firmware, Android operating system, and FTC Apps. Teams may choose to run"
+" older versions without affecting their ROBOT inspection status. This "
+"avoids the situation of trying to upgrade a device at a competition at "
+"the last minute where a mistake might leave the robot inoperable."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:48
+msgid ""
+"The images in this page show Version 10.3 or newer of the FTC apps. This "
+"page only shows a Driver Hub paired with a Control Hub, there may be "
+"slight differences if a phone is used as a driver station or robot "
+"controller. See the :doc:`old self-inspect<self-inspect>` page for screen"
+" images for app versions 10.2 or earlier."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:52
+msgid ""
+"*FIRST* recommends but does not require that teams use the most recent "
+"versions of firmware, Android Operating System, and FTC Apps. Current "
+"versions have the latest bug fixes and enhancements. For example, version"
+" 1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:55
+msgid ""
+"Each FTC season new major versions the FTC Apps are released. The INTO "
+"THE DEEP major version is 10, and the DECODE major version is 11. If the "
+"game has AprilTags, the SDK will include "
+":doc:`localization<../../apriltag/vision_portal/apriltag_localization"
+"/apriltag-localization>` information for those tags that lets you "
+"determine the robot's position on the field. As the season progresses, "
+"minor releases will include bug fixes and some enhancements. e.g. 11.1, "
+"11.2, etc."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:59
+msgid ""
+"Regardless of the versions selected, it is highly recommended that the "
+"installed ROBOT CONTROLLER App and DRIVER STATION App versions match "
+"major and minor values to ensure compatibility as not all software "
+"versions are compatible with each other."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:63
+msgid ""
+"Teams may choose to run older versions without affecting their ROBOT "
+"inspection status."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:66
+msgid ""
+"Some FTC App versions have a different robot communication protocol and "
+"are unable to connect with each other."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:68
+msgid ""
+"FIELD STAFF will not be able to provide comprehensive support to teams "
+"with software older than the recommended version."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:71
+msgid "Driver Station Self Inspection Report"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:73
+msgid ""
+"The following is a screen shot of a DS Self Inspection Report with the "
+"Driver Hub rotated so that the screen is in portrait mode so all items on"
+" the report are visible on one screen without scrolling."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:80
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:123
+msgid "Driver station self inspection report"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:80
+msgid "All items are good"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:82
+msgid ""
+"Item 1 The three dots are a menu with two choices: ``Disconnect from Wi-"
+"Fi Direct`` and ``Disable Bluetooth``. Neither is likely needed for a "
+"Driver Hub paired to a Control Hub, they are mostly for phones that could"
+" be used as a driver station or robot controller. ``Disconnect from Wi-Fi"
+" Direct`` does work, but sometimes the apps re-pair automatically. "
+"``Disable Bluetooth`` shouldn't be needed unless Bluetooth was somehow "
+"enabled on the DS."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:86
+msgid "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:87
+msgid "Item 3 ``Model`` should be **Driver Hub**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:88
+msgid "Item 4 ``Driver Hub OS Version`` is probably 1.2.0."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:89
+msgid "Item 5 ``Android Version`` is probably 10 for a Driver Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:90
+msgid ""
+"Item 6 shows the ``Battery Level`` of the device being reported. Fun "
+"fact: the green color of the percentage value changes towards **orange** "
+"as the charge level goes down."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:93
+msgid "Item 7 ``Bluetooth`` should be **Disabled**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:94
+msgid ""
+"Item 8 ``Location services`` should be **Enabled**, but appears only on "
+"devices running **Android 8** or higher. This is an SDK/Android "
+"technology requirement, not an FTC rule."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:96
+msgid ""
+"Item 9 ``Wi-Fi Enabled`` must be **Yes** as it means the DS device’s Wi-"
+"Fi radio is **ON**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:97
+msgid ""
+"Item 10 ``Standard Wi-Fi Connected`` must be **Yes** to indicate the "
+"Driver Hub is connected to a standard Wi-Fi source, such as a Control "
+"Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:98
+msgid ""
+"Item 11 shows the ``Driver Station Name`` meets FTC format requirements. "
+"It should be your team number plus -DS, example 99999-DS. If a spare "
+"device is configured, a letter designator may be added <team "
+"number>-<letter>-DS (e.g., 12345-A-DS, 12345-B-DS). See the Competition "
+"Manual for device naming rules."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:101
+msgid ""
+"Item 12 shows the ``Robot Controller Name``. It will show **None** if not"
+" connected. It will show an error if team number portion of the Robot "
+"Controller and Driver Station names do not match. It does not check "
+"whether the RC name matches FTC format requirements. See the Robot "
+"Controller Self Inspection Report."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:103
+msgid ""
+"Item 13 Apps Installed ``Robot Controller`` should be **Not installed**. "
+"This verifies that the Driver Station device does **not** also have a "
+"Robot Controller app installed. Only one FTC app should be installed on "
+"each device. It's possible to accidentally install both apps, but this "
+"usually causes the apps to not work properly."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:105
+msgid ""
+"Item 14 Apps Installed ``Driver Station`` should indicate the version "
+"number of the Driver Station App. *FIRST* recommends but does not require"
+" that teams use the currently available version. An invalid or future "
+"device system date can result in an invalid inspection item here with a "
+"message that \"The Driver Station app is obsolete\". Correcting the date "
+"on the device should fix the invalid inspection item."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:111
+msgid ""
+"Here’s a report from a Driver Station with some items **rejected** by "
+"Self Inspect. Problems are indicated by a red circle exclamation mark "
+"icon, or an orange triangle exclamation mark icon."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:114
+msgid ""
+"This was a driver hub that was firmware reset. This reset the DS version "
+"to 7 and restored all system and DS app settings to defaults. Then the "
+"`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_"
+" was used to update the DS version 10.3. Then the FTCRobotController app "
+"was also deployed to the DS device from Android Studio."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:123
+msgid "Self Inspect with issues!"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:125
+msgid ""
+"Item 10 rejects ``Standard Wi-Fi Connected`` for being **No**. The DS is "
+"not yet connected to a robot. You should fix the Driver Station Name "
+"before connecting the devices."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:127
+msgid ""
+"Item 11 rejects ``Driver Station Name`` for not meeting FTC format "
+"requirements. **Android_a301** is an example of a DS name for a brand new"
+" DS. Go into the DS App Settings and set the Driver Station Name as per "
+"the rules in the Competition Manual. e.g. Team number plus -DS: "
+"**99999-DS**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:129
+msgid ""
+"Item 12 rejects ``Robot Controller Name`` because it doesn't match with "
+"the DS Name. The value of **None** is because the DS is not connected to "
+"a RC. This item doesn't check the RC name format is valid, only that the "
+"team number portion of the RC Name matches the team number portion of the"
+" DS Name."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:131
+msgid ""
+"Item 13 rejects the presence of an RC app installed on this DS device. "
+"Uninstall the RC App from the driver station device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:133
+msgid ""
+"As you correct each problem the inspection report should refresh and show"
+" the current status."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:136
+msgid ""
+"Touching a red circle exclamation mark icon or an orange triangle "
+"exclamation mark icon on a self-inspect screen should temporarily display"
+" a message related to the problem."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:139
+msgid "Robot Controller Self Inspection Report"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:141
+msgid ""
+"Now we change to **Robot Controller** Self Inspect report. This is "
+"normally viewed from the Driver Station by selecting the **Inspect Robot "
+"Controller** menu option on the Inspection Reports DS screen. FYI - if "
+"you connect an external monitor to the Control Hub's HDMI port and a "
+"mouse to a USB port you can view the RC Inspection report directly from "
+"the Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:150
+msgid "Robot controller self inspection report"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:150
+msgid "All items are good, except RC Password"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:152
+msgid ""
+"Item 1 The three dots are a menu with one choice: ``Disable Bluetooth``. "
+"It shouldn't be needed unless Bluetooth was somehow enabled on the "
+"Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:154
+msgid "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:155
+msgid "Item 3 ``Model`` should be **Control Hub v1.0**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:156
+msgid ""
+"Item 4 ``Control Hub OS Version`` should be at least 1.1.6. *FIRST* "
+"recommends but does not require that teams use the currently available "
+"version."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:157
+msgid "Item 5 ``Android Version`` is probably 7.1.2 for a Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:158
+msgid ""
+"Item 6 ``Hub Firmware`` lists the hub addresses and firmware levels. This"
+" example shows one Control Hub, but an Expansion Hub can also be listed "
+"here. A check mark indicates all firmware is up-to-date based on the "
+"current version of the RC app. *FIRST* recommends but does not require "
+"that teams use the currently available version."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:162
+msgid "Item 7 shows the ``Battery Level`` of the device being reported."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:163
+msgid "Item 8 ``Bluetooth`` should be **Disabled**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:164
+msgid ""
+"Item 9 ``RC Password`` appears only in RC Self Inspect. This inspection "
+"item has failed the FTC requirement for a Control Hub password different "
+"than the factory default (“password”). Go to the Program and Manage page,"
+" select Manage and then update the RC password. You will have to re-pair "
+"the DS to the RC and enter the new password to reconnect."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:167
+msgid ""
+"Item 10 ``Wi-Fi Enabled`` must be **Yes** as it means the control hub’s "
+"Wi-Fi radio is **ON**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:168
+msgid "Item 11 ``Standard Wi-Fi Connected`` must be **Yes**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:169
+msgid ""
+"Item 12 shows the ``Robot Controller Name`` meets FTC format "
+"requirements. It should be your team number plus -RC, example 99999-RC. "
+"If a spare device is configured, a letter designator may be added <team "
+"number>-<letter>-RC (e.g., 12345-A-RC, 12345-B-RC). See the Competition "
+"Manual for device naming rules."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:172
+msgid ""
+"Item 13 Apps Installed ``Robot Controller`` should show the RC app "
+"version. *FIRST* recommends but does not require that teams use the "
+"currently available version."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:173
+msgid ""
+"Item 14 ``Matches DS Version`` should be **Yes**. A **No** can show up "
+"here and is likely due to a point mismatch e.g. 10.0 and 10.1, mismatches"
+" are now allowed, but not recommended."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:174
+msgid ""
+"Item 15 Apps Installed ``Driver Station`` should be **Not installed**, "
+"this verifies that the Robot Controller device does **not** also have a "
+"Driver Station app installed. Only one FTC app should be installed on "
+"each device. It's possible to accidentally install both apps, but this "
+"usually causes the apps to not work properly."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:176
+msgid ""
+"Item 16 At the bottom of the RC inspection report is a QR Code that can "
+"be scanned during inspection to fill in many of the inspection checklist "
+"items if the inspector is using a tablet."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:183
+msgid "Self Inspect QR code"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:183
+msgid "The robot inspector may scan the QR Code during inspection"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:186
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:491
+msgid "Summary"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:188
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:493
+msgid ""
+"The Self Inspect screen is a quick, handy reference to help teams confirm"
+" that certain control system elements are up-to-date and properly "
+"configured."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:192
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:497
+msgid ""
+"Self Inspect may be reviewed in Robot Inspection at an FTC tournament, "
+"but is **not** a comprehensive or official standard of compliance with "
+"FTC rules."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:2
+msgid "Old Self-Inspect"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:7
+msgid ""
+"This page describes the older Self Inspect screens in the FTC Driver "
+"Station (DS) app and the FTC Robot Controller (RC) app. See the :doc:`new"
+" self-inspect<new-self-inspect>` page for screen images for version 10.3 "
+"or better."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:16
+msgid ""
+"An `Inspection Checklist PDF <https://ftc-"
+"resources.firstinspires.org/ftc/event/inspection-check>`_ is available to"
+" help teams self-inspect their ROBOT before their event. Teams are "
+"strongly encouraged to self-inspect prior to their event."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:19
+msgid ""
+"The Self Inspect screen is provided only as a quick, handy reference to "
+"help teams confirm that certain control system elements are up-to-date "
+"and properly configured. Self Inspect may be reviewed in Robot Inspection"
+" at an FTC tournament, but is **not** a comprehensive or official "
+"standard of compliance with FTC rules."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:33
+msgid ""
+"These images show Version 7.0 of the FTC apps. Please refer to "
+"Competition Manual for allowed software system versions. These images are"
+" valid up to version 10.2 of the FTC apps. See the :doc:`new self-inspect"
+"<new-self-inspect>` page for screen images for version 10.3 or better."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:38
+msgid "Device Pairing"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:40
+msgid ""
+"Pairing technology is a key aspect of Self Inspect reporting. Remember "
+"that RC phones host via **Wi-Fi Direct**, while Control Hubs host via "
+"**Standard, or ‘infrastructure’, Wi-Fi**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:44
+msgid ""
+"In the DS app’s Settings, the selected Pairing Method (Wi-Fi Direct or "
+"Control Hub) will influence acceptance/rejection in the DS Self Inspect "
+"report, as described in examples below."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:48
+msgid ""
+"RC and DS phones must have Airplane Mode **ON**, and Wi-Fi **ON** but not"
+" connected to any Standard/infra Wi-Fi host such as an internet router or"
+" hotspot. Devices should be set to **Forget** any local Wi-Fi networks."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:53
+msgid "FTC control devices may use these combinations:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:55
+msgid "DS phone, RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:56
+msgid "DS phone, Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:57
+msgid "Driver Hub, RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:58
+msgid "Driver Hub, Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:60
+msgid ""
+"A DS device (phone or Driver Hub) can display its own DS Self Inspect "
+"**and** an RC Self Inspect (for paired RC phone or Control Hub). An RC "
+"phone can display only its own RC Self Inspect."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:64
+msgid "This means that the Self Inspect screens can report as follows:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:66
+msgid "**DRIVER STATION**"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:68
+msgid ""
+"`DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-"
+"phone>`__, on DS phone paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:70
+msgid ""
+"`DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-"
+"hub>`__, on DS phone paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:72
+msgid ""
+"`DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-"
+"phone>`__, on Driver Hub paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:75
+msgid ""
+"`DS Self Inspect 4 <#ds-self-inspect-4-on-driver-hub-paired-to-control-"
+"hub>`__, on Driver Hub paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:79
+msgid "**ROBOT CONTROLLER**"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:81
+msgid ""
+"`RC Self Inspect 1 <#rc-self-inspect-1-appearing-on-rc-phone-paired-with-"
+"ds-phone>`__, appearing on RC phone paired with DS phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:84
+msgid ""
+"`RC Self Inspect 2 <#rc-self-inspect-2-appearing-on-ds-phone-paired-to-"
+"rc-phone>`__, appearing on DS phone paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:87
+msgid ""
+"`RC Self Inspect 3 <#rc-self-inspect-3-appearing-on-rc-phone-paired-with-"
+"driver-hub>`__, appearing on RC phone paired with Driver Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:90
+msgid ""
+"`RC Self Inspect 4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-"
+"rc-phone>`__, appearing on Driver Hub paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:93
+msgid ""
+"`RC Self Inspect 5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-"
+"control-hub>`__, appearing on DS phone paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:96
+msgid ""
+"`RC Self Inspect 6 <#rc-self-inspect-6-appearing-on-driver-hub-paired-to-"
+"control-hub>`__, appearing on Driver Hub paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:100
+msgid ""
+"These combinations can display **slightly different** Self Inspect "
+"categories, status phrases, and pass/fail results. They are described "
+"below; click the **blue link** to explore the Self Inspect screen for "
+"that device and combination."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:106
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:113
+msgid "DS Self Inspect 1, on DS phone paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:113
+msgid "DS 1"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:115
+msgid ""
+"Item 1 is a menu with one choice: Disconnect from Wi-Fi Direct. It does "
+"work, but sometimes the apps re-pair automatically."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:117
+msgid ""
+"Item 5 shows the battery level of the device being reported. Fun fact: "
+"the green color of the percentage value changes towards **orange** as the"
+" charge level goes down."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:120
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:226
+msgid ""
+"Item 8 ``Location services`` appears only on devices running **Android "
+"8** or higher. This is an SDK/Android technology requirement, not an FTC "
+"rule."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:123
+msgid ""
+"Items 9 and 10 here must be Yes and No. ``Wi-Fi Enabled`` means the DS "
+"device’s Wi-Fi radio is **ON**, to use Wi-Fi Direct. It must **not** be "
+"connected to a Standard/infrastructure Wi-Fi source, such as an internet "
+"router or a Control Hub, when intending to pair with an RC phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:128
+msgid ""
+"Item 11 indicates whether the **device’s Wi-Fi Direct name** meets FTC "
+"format requirements. It does not check whether the paired device has a "
+"matching RC name (team number). In this case, the phones are legally "
+"named 2468-A-DS and 2468-A-RC. DS Settings (Driver Station Name) allows "
+"only FTC-legal names, but any name can be entered in the DS phone’s "
+"Android Wi-Fi Direct settings."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:134
+msgid "Item 12 verifies that a DS device does **not** have an RC app installed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:136
+msgid ""
+"Item 13 ensures the DS app meets the minimum version **for the current "
+"FTC season**, based on the device’s system date. An “incorrect” red mark "
+"here can be cleared by correcting the date in the **Android device "
+"Settings**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:141
+msgid ""
+"Here’s a report from the same phone, with many items **rejected** by Self"
+" Inspect."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:149
+msgid "DS 1 Bad"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:149
+msgid "DS Self Inspect 1, on DS phone – with issues!"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:151
+msgid ""
+"Item 6 rejects ``Airplane Mode`` for being **OFF**; it must be on for FTC"
+" phones. This is an Android system setting, available at the phone’s "
+"Settings menu, or easily accessed by swiping down twice from the top of "
+"the screen. Turning on Airplane Mode automatically turns off the Wi-Fi "
+"radio, as an Android ‘convenience’. An FTC user will need to manually "
+"turn the Wi-Fi radio back on (although not connected to a local hotspot "
+"or internet router)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:158
+msgid ""
+"Item 7 rejects ``Bluetooth`` for being **ON**; it must be off for FTC "
+"use. This is also an Android system setting; swipe down twice or see "
+"Settings menu."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:161
+msgid ""
+"Item 8 rejects ``Location services`` for being **OFF**. For devices "
+"running **Android 8** or higher, the FTC apps require Location enabled. "
+"This is also an Android system setting; swipe down twice or see Settings "
+"menu."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:165
+msgid ""
+"Item 9 shows the DS phone’s Wi-Fi radio is **ON**, as required for Wi-Fi "
+"Direct **or** Standard Wi-Fi pairing to an RC device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:167
+msgid ""
+"Item 10 rejects the DS phone’s connection via Standard/infrastructure Wi-"
+"Fi, because the DS Pairing Method is set to Wi-Fi Direct – thus intending"
+" to connect with an RC phone. In this case, the phone is connected to a "
+"home Wi-Fi network. This and other such networks must be set to "
+"**Forget**, in the device’s Android Wi-Fi menu. If temporary internet "
+"access is needed, ‘Forget’ that network afterwards. Also **Remove "
+"Account** for any Google or other accounts that may have been used during"
+" the internet session. Such accounts can cause background activity, "
+"notifications and updates – at the worst possible times."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:177
+msgid ""
+"Item 11 rejects the device’s **Wi-Fi Direct name** for not meeting FTC "
+"format requirements. The bad name shown here was created in the DS "
+"phone’s Android Wi-Fi Direct settings; not possible using the app’s DS "
+"Settings (Driver Station Name)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:181
+msgid ""
+"Item 12 rejects the presence of an RC app installed on this DS device. "
+"The rejection is not for the older version (6.2), but simply for being an"
+" RC app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:186
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:193
+msgid "DS Self Inspect 2, on DS phone paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:193
+msgid "DS 2"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:195
+msgid ""
+"The same points apply as for DS Self Inspect 1 (immediately above), "
+"except:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:198
+msgid ""
+"Items 9 and 10 must now be Yes and Yes. The DS phone’s Wi-Fi radio is "
+"**ON**, and connected via Standard/infra Wi-Fi. It does not indicate "
+"**what** the DS phone is connected to; that’s covered by Item 11."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:201
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:279
+msgid ""
+"Item 10’s Yes would be **rejected** if the DS Pairing Method was set to "
+"Wi-Fi Direct – thus intending to connect with an RC phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:203
+msgid ""
+"Item 11 shows the Standard Wi-Fi **network name**, or Access Point (AP), "
+"that the DS phone is connected to. The check-mark indicates the AP is an "
+"FTC legal device (Control Hub) and has a correctly formatted name. This "
+"does **not** check that the DS and RC names match (team number). In fact,"
+" this phone is 2468-A-DS and this Control Hub is 9999-A-RC, an **illegal "
+"combination** to be flagged by the FTC team or the Robot Inspector."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:211
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:218
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:255
+msgid "DS Self Inspect 3, on Driver Hub paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:218
+msgid "DS 3a"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:220
+msgid ""
+"Item 4 appears only on the Driver Hub. The check-mark indicates the "
+"Operating System meets the minimum version requirement in the FTC "
+"Competition Manual."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:223
+msgid ""
+"Note that ``Airplane Mode`` has been omitted from the DS inspection, only"
+" for Driver Hub. FTC rules exclude the Driver Hub and Control Hub from "
+"the Airplane Mode requirement."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:229
+msgid ""
+"Items 9 and 10 must be Yes and No. ``Wi-Fi Enabled`` means the Driver "
+"Hub’s Wi-Fi radio is **ON**, to use Wi-Fi Direct for the RC phone. The "
+"Driver Hub is technically **able to also be connected** to a "
+"Standard/infrastructure Wi-Fi source, including an internet router or a "
+"Control Hub. Item 10 confirms this is not happening; see next example."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:235
+msgid ""
+"Item 10’s No would be **rejected** if the DS Pairing Method was set to "
+"Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:237
+msgid ""
+"Item 11 indicates whether the **device name** meets FTC format "
+"requirements. It does not check whether the paired device has a matching "
+"RC name (team number)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:240
+msgid ""
+"Item 12 verifies that the Driver Hub does **not** have an RC app "
+"installed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:242
+msgid ""
+"Item 13 ensures the DS app meets the minimum version **for the current "
+"FTC season**, based on the device’s system date. This particular version "
+"7.0.1 does not exactly match the RC phone’s 7.0. Such a “Point mismatch” "
+"is allowed under updated FTC rules (was Q&A #176 for 2021-2022 season). "
+"Otherwise, an “incorrect” red mark here can be cleared by correcting the "
+"date in the **Android device Settings**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:255
+msgid "DS 3b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:257
+msgid ""
+"This Self Inspect screen appeared while the Driver Hub was paired to an "
+"RC phone, then was *also* connected to to a Control Hub via Standard Wi-"
+"Fi. The DS home screen temporarily showed “Connected” (to RC phone) and "
+"“No Heartbeat”, then recovered its pairing to the RC phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:262
+msgid ""
+"Item 10 shows the discrepancy. The DS app soon closes this Standard Wi-Fi"
+" connection, allowing the Driver Hub to remain paired only with the RC "
+"phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:266
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:273
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:294
+msgid "DS Self Inspect 4, on Driver Hub paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:273
+msgid "DS 4b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:275
+msgid ""
+"Item 1 still offers one choice, “Disconnect from Wi-Fi Direct”. But now, "
+"touching that selection gives this message “There was an error "
+"disconnecting from Wi-Fi Direct”. That’s because the Driver Hub is paired"
+" to a Control Hub, thus **not** via Wi-Fi Direct."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:281
+msgid ""
+"Item 11 shows the Standard Wi-Fi **network name**, or Access Point (AP), "
+"that the Driver Hub is connected to. The check-mark indicates the AP is "
+"an FTC legal device (Control Hub) and has a correctly formatted name. "
+"This does **not** check that the DS and RC names match (team number). In "
+"fact, this Driver Hub is 1234-A-DS and this Control Hub is 9999-A-RC, an "
+"**illegal combination** to be flagged by the FTC team or the Robot "
+"Inspector."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:294
+msgid "DS 4a"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:296
+msgid ""
+"This Self Inspect screen appeared after the Driver Hub was paired to a "
+"Control Hub, then was connected to a Wi-Fi internet router."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:299
+msgid ""
+"Item 11 shows the error. The Driver Hub can connect via Standard Wi-Fi to"
+" only one AP at a time; this network is not an FTC RC device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:303
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:314
+msgid "RC Self Inspect 1, appearing on RC phone paired with DS phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:305
+msgid ""
+"Now we change to **Robot Controller** Self Inspect screens. Again, RC "
+"screens can be viewed from the DS device **or** from an RC phone, with "
+"slight differences."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:314
+msgid "RC 1"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:316
+msgid ""
+"Item 5 lists the Expansion Hub addresses and firmware levels. This "
+"example shows one Expansion Hub, but two can be listed here. A check-mark"
+" indicates all firmware is up-to-date based on the current version of the"
+" RC app. This item shows “N/A” if no Hubs are connected."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:321
+msgid ""
+"Item 10 ``RC Password`` appears only in RC Self Inspect, not in DS Self "
+"Inspect. It checks the FTC requirement for a Control Hub password "
+"different than the factory default (“password”). Although aimed only at "
+"the Control Hub, this item does appear on RC phones (as here) which don’t"
+" have a default password and thus always get the check-mark."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:327
+msgid ""
+"Item 14 ensures the RC app meets the minimum version **for the current "
+"FTC season**, based on the device’s system date. It does not check for a "
+"match with the DS app version. An “incorrect” red mark here can be "
+"cleared by correcting the date in the **Android device Settings**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:332
+msgid "Item 15 verifies that the RC device does **not** have an DS app installed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:336
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:343
+msgid "RC Self Inspect 2, appearing on DS phone paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:343
+msgid "RC 2"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:345
+msgid ""
+"This RC Self Inspect screen displayed on the paired DS phone is the "
+"“same” as the previous one on the RC phone, with two differences:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:348
+msgid ""
+"The 3-dots menu is missing from the header. This menu offered a single "
+"choice, to disconnect the Wi-Fi Direct. But this cannot be performed as "
+"an RC action, from a DS phone connected by that same Wi-Fi Direct."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:351
+msgid ""
+"Item 14 did not appear on the RC phone’s display of this RC Self Inspect."
+" Here is the verification that the DS app and RC app have matching "
+"versions; in this case both apps are version 7.0. Any “Point mismatch” "
+"(e.g. 7.0 vs. 7.0.1) is allowed under updated FTC rules (was Q&A #176 for"
+" 2021-2022 season)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:358
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:365
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:375
+msgid "RC Self Inspect 3, appearing on RC phone paired with Driver Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:365
+msgid "RC 3a"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:367
+msgid ""
+"The above screen is the same as RC Self Inspect 1, where the DS device is"
+" a DS phone. See the notes there."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:375
+msgid "RC 3b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:377
+msgid ""
+"This is also the same screen, except the RC phone was connected to an "
+"internet router, while paired with a Driver Hub. The Standard Wi-Fi "
+"connection caused the RC phone to temporarily lose that pairing, which "
+"was able to be restored."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:382
+msgid ""
+"Item 12 shows the rejection: connected via Standard Wi-Fi, but **not** to"
+" an FTC DS device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:386
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:393
+msgid "RC Self Inspect 4, appearing on Driver Hub paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:393
+msgid "RC 4"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:395
+msgid ""
+"This display on a paired Driver Hub is the “same” RC Self Inspect screen "
+"as the one immediately above, but there are two differences:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:398
+msgid ""
+"The 3-dots menu is missing from the header. This menu offered a single "
+"choice, to disconnect the Wi-Fi Direct. But this cannot be performed as "
+"an RC action, from a Driver Hub connected by that same Wi-Fi Direct."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:401
+msgid ""
+"Item 14 did not appear on the RC phone’s display of this RC Self Inspect."
+" Here is the check for matching versions of the DS app and RC app. In "
+"this case, the DS app is 7.0.1 and the RC app is 7.0, rejected here as a "
+"mismatch. Such a “Point mismatch” is allowed under updated FTC rules (was"
+" Q&A #176 for 2021-2022 season)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:408
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:418
+msgid "RC Self Inspect 5, appearing on DS phone paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:410
+msgid ""
+"Looking now at the **Control Hub**, the Self Inspect screen has a few "
+"differences. In this example, the robot is configured with **two** Hubs."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:418
+msgid "RC 5b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:420
+msgid ""
+"Again the 3-dots menu is missing from the header. This menu offered a "
+"single choice, to disconnect the Wi-Fi Direct. But the Control Hub hosts "
+"with Standard Wi-Fi, not with Wi-Fi Direct. In any case, the connection "
+"cannot be managed as an RC action, from a DS phone using that same "
+"connection."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:425
+msgid ""
+"Item 3 appears only on RC Self Inspect screens for Control Hub. It "
+"verifies the Operating System is up-to-date for the current version of "
+"the RC app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:428
+msgid ""
+"``Location services`` does **not** appear here, since the Control Hub’s "
+"Android version (Item 4) is **lower** than Android 8."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:430
+msgid ""
+"Item 5 shows the firmware version of the Expansion Hub embedded in the "
+"Control Hub; it’s up-to-date for the current version of the RC app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:433
+msgid ""
+"Item 6 shows the firmware version and address of the standalone Expansion"
+" Hub, also up-to-date."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:435
+msgid ""
+"Item 7 should always show a high battery charge here, indicating at least"
+" the nominal 12V charge level from the robot battery."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:437
+msgid ""
+"Note that ``Airplane Mode`` has been omitted from the RC inspection, only"
+" for Control Hub. FTC rules exclude the Driver Hub and Control Hub from "
+"the Airplane Mode requirement."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:440
+msgid ""
+"Item 9 does apply here to the Control Hub. Its password must be changed "
+"from the factory default (“password”)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:442
+msgid ""
+"Items 10 and 11 should be Yes and Yes for Control Hub, which uses only "
+"Standard/infra Wi-Fi. Item 11 does not indicate **what** the Control Hub "
+"is connected to (but it must be the DS phone displaying this screen)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:446
+msgid ""
+"Item 12 shows the Standard Wi-Fi **network name**, or Access Point (AP), "
+"that is broadcast by the Control Hub. The check-mark indicates the AP has"
+" a correctly formatted FTC name. This does **not** check that the DS and "
+"RC names match (team number). In fact, this DS phone is 2468-A-DS and "
+"this Control Hub is 9999-A-RC, an **illegal combination** to be flagged "
+"by the FTC team or the Robot Inspector."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:452
+msgid ""
+"Item 14 appears only on DS displays of RC Self Inspect. Here is the check"
+" for matching versions of DS app and RC app; in this case both apps are "
+"version 7.0. Any “Point mismatch” (e.g. 7.0 vs. 7.0.1) is allowed under "
+"updated FTC rules (was Q&A #176 for 2021-2022 season)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:456
+msgid ""
+"Item 15 verifies that an RC device does **not** have an DS app installed."
+" This would be quite a mistake for a Control Hub, lacking an onboard "
+"screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:461
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:471
+msgid "RC Self Inspect 6, appearing on Driver Hub paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:463
+msgid ""
+"For a Control Hub, the Self Inspect categories displayed on Driver Hub "
+"are the same as on DS phone, immediately above."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:471
+msgid "RC 6b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:473
+msgid ""
+"The only reporting difference here is the ‘mismatch’ between the Driver "
+"Hub’s DS app version of 7.0.1 and the Control Hub’s 7.0. This is likely "
+"to happen since Driver Hubs are typically auto-updated, in this case to a"
+" DS version intended only for old Android 6 phones. Such a “Point "
+"mismatch” is allowed under updated FTC rules (was Q&A #176 for 2021-2022 "
+"season)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:485
+msgid "RC 6a"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:485
+msgid ""
+"RC Self Inspect 6, appearing on Driver Hub previously paired to Control "
+"Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:487
+msgid ""
+"Lastly… with no active connection, a DS device cannot display any "
+"information about the RC device status."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:506
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""
+

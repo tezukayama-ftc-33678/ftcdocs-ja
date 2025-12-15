@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-15 09:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:2
+msgid "Coach (Administrative) Resources"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:4
+msgid ""
+"Welcome to the *FIRST* Tech Challenge coach's page! Resources have been "
+"organized by type to help your team stay organized and be successful "
+"throughout the season. These resources are focused on the coach or "
+"administrator needs to manage the team while promoting *FIRST*'s ethos. "
+"Just click on the button for the resource you want to explore!"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:16
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:18
+msgid "*FIRST* Core Values"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:20
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:22
+msgid ""
+"We express the *FIRST* philosophies of Gracious Professionalism and "
+"Coopertition through our Core Values."
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:29
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:31
+msgid "Gracious Professionalism"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:41
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:43
+msgid "Coopertition (external)"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:53
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:55
+msgid "Core Values (external)"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:65
+msgid "*FIRST* Dashboard Links"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:69
+msgid ""
+"Discover registration and purchasing FAQs. Team Registration requires "
+"*FIRST* Dashboard account access on firstinspires.org."
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:78
+msgid "Register Your Team (External Login)"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:87
+msgid "Youth Registration (external)"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:98
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:218
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:96
+msgid "Team Management"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:102
+msgid "Resources to provide your team a well-paced and successful season."
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:110
+msgid "Team Management Resources (External)"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:121
+msgid "Coach Guidance"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:125
+msgid "Discover the best practices for new coaches."
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:133
+msgid "Mentor Manual (External PDF)"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:144
+msgid "Pre-Event Checklists"
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:148
+msgid ""
+"Simple checklists to prepare for competition. See the Preparing for "
+"Competition heading on the linked page."
+msgstr ""
+
+#: ../../source/persona_pages/coach_admin/coach_admin.rst:156
+msgid "Preparing for Competition (External)"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:2
+msgid "Technical Mentor Resources"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:4
+msgid ""
+"Welcome technical mentors to *FIRST* Tech Challenge! Resources have been "
+"organized by type to help you stay organized and be successful with teams"
+" throughout the season. These resources are tailored to teams and mentors"
+" with experience in technical fields looking to elevate their skills.  "
+"The technical resources are also a stepping stone towards industry "
+"standard certifications. Just click on the button for the resource you "
+"want to explore!"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:18
+msgid "Control System Resources"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:22
+msgid "Look for Control System resources here."
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:30
+msgid "FTC Control System"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:42
+msgid "Mechanical Resources"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:46
+msgid "Mechanical engineering and robot building resources"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:54
+msgid "Robot Building Resources (external)"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:65
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:77
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:67
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:99
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:18
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:60
+msgid "Programming Resources"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:69
+msgid "Links to programming resources."
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:88
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:100
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:242
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:254
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:72
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:84
+msgid "CAD Resources"
+msgstr ""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:92
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:246
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:76
+msgid "Look for resources for Computer-Aided Design (CAD) software."
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:2
+msgid "New Teams"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:4
+msgid ""
+"Welcome to *FIRST* Tech Challenge! Resources have been organized by type "
+"to help your team stay organized and be successful throughout the season."
+" Get started by exploring our robot building resources, control system "
+"and the game.  You may also find the Coach's Playbook, a weekly schedule "
+"of activities, helpful to organize the whole team under Team Management. "
+"Just click on the button for the resource you want to explore!"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:71
+msgid "Look for programming resources here."
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:79
+msgid "Choosing a Programming Tool"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:89
+msgid "Blocks Programmming Tutorial"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:112
+msgid "Robot Building and Control"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:116
+msgid "Look for robot and control system resources here."
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:124
+msgid "The FTC Control System"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:134
+msgid "Robot Controller"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:144
+msgid "Driver Station"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:154
+msgid "Hardware Component Overview"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:163
+msgid "Team Resources (external)"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:174
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:187
+msgid "Competition Manual"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:178
+msgid ""
+"Be sure you're following all of the rules of the competition! The "
+"Competition Manual is an essential document."
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:197
+msgid "Playing Field Resources"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:207
+msgid "Game Question and Answer System (external)"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:222
+msgid ""
+"Links to team management resources like team registration, mentor "
+"training/resources, team budget and fundraising, preparing for a "
+"competition, and more."
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:230
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:108
+msgid "Team Management (external)"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:266
+msgid "Event Info"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:270
+msgid "FTC events and event results."
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:278
+msgid "FTC Events (external)"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:290
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:120
+msgid "Awards"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:294
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:124
+msgid "Know the awards criteria before the event."
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:302
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:132
+msgid "FTC Awards (external PDF)"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:314
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:326
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:318
+msgid "Commonly asked team questions."
+msgstr ""
+
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:2
+msgid "Returning Teams"
+msgstr ""
+
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:4
+msgid ""
+"Welcome back to *FIRST* Tech Challenge! Resources have been organized by "
+"type to help your team stay organized and be successful throughout the "
+"season. These resources are tailored to teams with experience in robotics"
+" looking to elevate their skills.  The technical resources are a stepping"
+" stone towards industry standard certifications. Just click on the button"
+" for the resource you want to explore!"
+msgstr ""
+
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:22
+msgid "Look for Java programming resources here."
+msgstr ""
+
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:30
+msgid "OnBot Java Tutorial"
+msgstr ""
+
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:40
+msgid "Android Studio Tutorial"
+msgstr ""
+
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:50
+msgid "AprilTag Introduction"
+msgstr ""
+
+#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:100
+msgid ""
+"Team management resources including marketing, community and industry "
+"outreach."
+msgstr ""
+
