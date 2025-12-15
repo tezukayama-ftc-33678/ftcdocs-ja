@@ -18,6 +18,18 @@
 
 DeepL、ChatGPT、Claude等のAI翻訳ツールの使い方。
 
+### 実践的な翻訳作業を始めたい
+
+👉 **[TRANSLATION_WORKFLOW.md](TRANSLATION_WORKFLOW.md)**
+
+残りの未翻訳エントリを効率的に翻訳する実践的ワークフロー。
+
+### 翻訳完成までの計画を知りたい
+
+👉 **[TRANSLATION_COMPLETION_PLAN.md](TRANSLATION_COMPLETION_PLAN.md)**
+
+8つのフェーズに分けた完成までのロードマップとスケジュール。
+
 ### 日常的な翻訳作業をしたい
 
 👉 **[po-translation/guides/WORKFLOW.md](po-translation/guides/WORKFLOW.md)**
@@ -63,6 +75,7 @@ ftcdocs-ja/
 │
 ├── README.md                    # プロジェクト全体の概要
 ├── DOCUMENTATION_GUIDE.md       # このファイル（ドキュメントナビゲーション）
+├── TRANSLATION_WORKFLOW.md      # 実践的な翻訳ワークフロー
 │
 ├── po-translation/              # 【推奨】.po翻訳システム
 │   ├── README.md               # システム概要
