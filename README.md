@@ -72,6 +72,11 @@ python -m http.server 8000 --directory build/html/ja
 
 詳細は [po-translation/guides/QUICK_START.md](po-translation/guides/QUICK_START.md) を参照。
 
+### ⚠️ Sphinxバージョンに関する注意
+
+- Sphinx 5.0.0 系の `make gettext` には既知のバグがあり、TypeError でビルドが停止します。回避のため `docs/requirements.txt` では **Sphinx 5.3.0** に固定しています。
+- 7.x 系は現行の拡張（`sphinx-design==0.2.0` など）と依存関係が衝突するため、現状は 5.3.0 を使用してください。
+
 ---
 
 ## 📁 ディレクトリ構成

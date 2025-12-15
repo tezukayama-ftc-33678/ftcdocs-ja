@@ -15,6 +15,7 @@ SIZEMAX       = 500
 
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
+JAHTMLBUILDDIR = build/html/ja
 LATEXBUILDDIR = build/latex/
 BOOKLETSBUILDDIR = build/booklets
 
@@ -26,6 +27,7 @@ help:
 	@echo "  gettext     Extract translatable messages to POT files"
 	@echo "  ja-update   Update Japanese PO files from POT files"
 	@echo "  ja-build    Build Japanese HTML documentation"
+	@echo "  ja-autobuild  Live-reload Japanese HTML (port 7351)"
 	@echo "  ja-stats    Show translation statistics for Japanese"
 
 .PHONY: help Makefile
@@ -35,6 +37,9 @@ setup:
 
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350
+
+ja-autobuild:
+	@$(AUTOBUILD) -D language=ja $(SOURCEDIR) $(JAHTMLBUILDDIR) --port=7351
 
 --move-booklets:
 	mkdir -p $(BOOKLETSBUILDDIR)
@@ -67,7 +72,7 @@ ja-stats:
 	@echo "Translation statistics for Japanese:"
 	@sphinx-intl stat -d $(LOCALEDIR) -l ja || echo "Run 'make gettext && make ja-update' first"
 
-.PHONY: help autobuild ja-update ja-build ja-stats Makefile
+.PHONY: help autobuild ja-autobuild ja-update ja-build ja-stats Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).

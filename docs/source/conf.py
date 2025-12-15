@@ -1,4 +1,4 @@
-# Configuration file for the Sphinx documentation builder.
+﻿# Configuration file for the Sphinx documentation builder.
 
 # -- Project information
 import os
@@ -84,6 +84,12 @@ output_name = 'ftcdocs'
 
 html_theme = 'sphinx_rtd_theme'
 
+# Internationalization (i18n)
+# Ensure Sphinx can find project translation catalogs under docs/locale/
+locale_dirs = ['../locale/']
+# Use one catalog per document so that per-file PO/MO under LC_MESSAGES work
+gettext_compact = True
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
@@ -158,8 +164,8 @@ latex_elements = {
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
                 }}
                 \fancyfoot[RE]{\py@HeaderFamily \py@release \hspace{4mm} \today}
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism\textsuperscript{®}} - 
-                    \textcolor[rgb]{.96, .49, .15}{\small{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST\textsuperscript{®}, first.”}}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism\textsuperscript{ﾂｮ}} - 
+                    \textcolor[rgb]{.96, .49, .15}{\small{窶廛oing your best work while treating others with respect and kindness - It窶冱 what makes FIRST\textsuperscript{ﾂｮ}, first.窶掵}
                 }
 
                 % Single-line header layout
@@ -177,8 +183,8 @@ latex_elements = {
                         \includegraphics[scale=0.75]{Latex_Footer_FTC.png}
                 }}
                 \fancyfoot[RE]{\py@HeaderFamily \py@release \hspace{4mm} \today}
-                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism\textsuperscript{®}} - 
-                    \textcolor[rgb]{.96, .49, .15}{\small{“Doing your best work while treating others with respect and kindness - It’s what makes FIRST\textsuperscript{®}, first.”}}
+                \fancyfoot[LO]{\py@HeaderFamily \textbf{Gracious Professionalism\textsuperscript{ﾂｮ}} - 
+                    \textcolor[rgb]{.96, .49, .15}{\small{窶廛oing your best work while treating others with respect and kindness - It窶冱 what makes FIRST\textsuperscript{ﾂｮ}, first.窶掵}
                 }
 
                 % Ensure same header format for plain pages
@@ -397,10 +403,6 @@ html_theme_options = {
 
 # Avoid duplicate labels
 autosectionlabel_maxdepth = 2
-
-# Add support for translations
-gettext_compact = False
-locale_dirs = ["locale/"]
 
 rediraffe_redirects = "redirects.txt"
 rediraffe_branch = "origin/main"
