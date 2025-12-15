@@ -22,15 +22,15 @@ msgstr ""
 
 #: ../../source/faq/faqs.rst:-1
 msgid "Common FTC Team FAQs"
-msgstr ""
+msgstr "FTCチームのよくある質問"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "Common questions asked by FIRST Tech Challenge teams answered"
-msgstr ""
+msgstr "FIRST Tech Challenge チームからよく寄せられる質問への回答"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "FTC Docs, FIRST Tech Challenge, FTC, FAQ"
-msgstr ""
+msgstr "FTC Docs、FIRST Tech Challenge、FTC、FAQ"
 
 #: ../../source/faq/faqs.rst:7
 msgid "Common Team FAQs"
@@ -89,6 +89,7 @@ msgid ""
 "who want to participate in the presentation. Please note that at some "
 "events, the Portfolio is collected when the team checks in for the event."
 msgstr ""
+"チームはロボット、ポートフォリオ、およびプレゼンテーションに参加したいチームメンバーをできるだけ多く連れてくる必要があります。なお、一部のイベントでは、チームがイベントのチェックイン時にポートフォリオが回収されることに注意してください。"
 
 #: ../../source/faq/faqs.rst:55
 msgid ""
@@ -108,7 +109,7 @@ msgstr "競技 FAQ"
 
 #: ../../source/faq/faqs.rst:66
 msgid "Competition FAQs"
-msgstr ""
+msgstr "競技会のよくある質問"
 
 #: ../../source/faq/faqs.rst:73
 msgid ""
@@ -122,6 +123,9 @@ msgid ""
 "starting configuration. Look at the self inspection checklist, you can "
 "generally determine what you're doing based on the checklist."
 msgstr ""
+"競技会マニュアルによると、検査中には少なくとも1人の生徒が立ち会う必要があります。ただし、検査員はロボットの機械的および電気的コンポーネントについて質問します。理想的には、そのような質問に答えられるチームメンバーが1人以上いることが望ましいです。さらに、ロボットと"
+" **Driver Station** "
+"の電源を入れ、サイズなどの特定のルールにロボットが準拠していることを実証する必要がある場合があります。メカニズムを操作するためにゲームパッドを使用したり、ロボットを開始構成に配置したりする必要がある場合は、ドライブチームの誰かが関与する必要があるかもしれません。自己検査チェックリストを見れば、チェックリストに基づいて何をしているのか一般的に判断できます。"
 
 #: ../../source/faq/faqs.rst:82
 msgid ""
@@ -131,12 +135,13 @@ msgid ""
 "field staff there will not be grounds for a replay. A malfunctioning robot "
 "typically does not provide grounds for a replay."
 msgstr ""
+"試合を再実施する正当な理由となる状況は限られています。リプレイにつながる条件とプロセスを理解するには、競技会マニュアルを参照してください。通常、フィールドまたはフィールドスタッフに問題が発生しない限り、リプレイの根拠はありません。ロボットの誤動作は通常、リプレイの根拠にはなりません。"
 
 #: ../../source/faq/faqs.rst:88
 msgid ""
 "The situation was different. If necessary, teams can talk with the head "
 "referee in the competition area Question Box."
-msgstr ""
+msgstr "状況は異なっていました。必要に応じて、チームは競技エリアのQuestion Boxで主審と話すことができます。"
 
 #: ../../source/faq/faqs.rst:92
 msgid ""
@@ -175,4 +180,4 @@ msgstr "*FIRST* Tech Challenge ゲームデザイン委員会によるレビュ�
 
 #: ../../source/faq/faqs.rst:118
 msgid "Reviewed by *FIRST* Tech Challenge Game Design Committee"
-msgstr ""
+msgstr "*FIRST* Tech Challenge ゲームデザイン委員会によるレビュー"

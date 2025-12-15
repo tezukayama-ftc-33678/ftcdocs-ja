@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:80
 msgid "Android Smartphones"
-msgstr ""
+msgstr "Androidスマートフォン"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:82
 msgid ""
@@ -155,6 +155,9 @@ msgid ""
 "CONTROLLER or both. DRIVER STATION phones should have the FTC Driver Station"
 " app installed, and will need an OTG adaptor USB hub to connect gamepads."
 msgstr ""
+"チームは、Androidスマートフォンを **DRIVER STATION**、**ROBOT "
+"CONTROLLER**、またはその両方として使用することができます。**DRIVER STATION** 用のスマートフォンには、FTC "
+"**Driver Station** アプリがインストールされている必要があり、ゲームパッドを接続するためにOTGアダプタUSBハブが必要です。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:91
 msgid ""
@@ -163,10 +166,14 @@ msgid ""
 " The smartphone is connected to the Expansion Hub via a USB-A to USB-Mini "
 "cable and an OTG adaptor."
 msgstr ""
+"Androidスマートフォンを **ROBOT CONTROLLER** "
+"として使用するチームは、モーター、サーボ、センサーを接続するために、追加のREV Robotics **Expansion Hub** "
+"が必要になります。スマートフォンは、USB-AからUSB-Miniケーブルと OTGアダプタを介して **Expansion Hub** "
+"に接続されます。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:101
 msgid "What’s an OpMode?"
-msgstr ""
+msgstr "**OpMode** とは？"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:103
 msgid ""
@@ -177,6 +184,9 @@ msgid ""
 "match. Teams write “OpModes” (which stand for “operational modes”) to "
 "specify the behavior for their robot."
 msgstr ""
+"典型的な *FIRST* Tech Challenge "
+"の試合中、チームのロボットはポイントを獲得するためにさまざまなタスクを実行する必要があります。例えば、チームは試合中にロボットが競技フロアの白い線をたどり、その後ゲーム要素（ボールなど）を自律的にゴールに得点させたい場合があります。チームは、ロボットの動作を指定するために「**OpMode**」（「operational"
+" modes」の略）を作成します。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:110
 msgid ""
@@ -184,6 +194,8 @@ msgid ""
 "a competition robot. The Robot Controller can *execute* a selected OpMode to"
 " perform certain tasks during a match."
 msgstr ""
+"*OpMode* は、競技ロボットの動作をカスタマイズするために使用されるコンピュータプログラムです。**Robot Controller** "
+"は、選択した **OpMode** を*実行*して、試合中に特定のタスクを実行できます。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:114
 msgid ""
@@ -195,3 +207,8 @@ msgid ""
 "Studio* integrated development environment (also known as an “IDE”) to "
 "create their OpModes."
 msgstr ""
+"*FIRST* Tech Challenge に参加しているチームは、独自の **OpMode** "
+"を作成するために使用できるさまざまなプログラミングツールを持っています。チームは、**OpMode** を作成するために *Blocks "
+"Programming Tool* と呼ばれるビジュアル（「ドラッグアンドドロップ」）プログラミングツールを使用できます。チームはまた、*OnBot "
+"Java Programming Tool* として知られるテキストベースのJavaツールや、Googleの *Android Studio* "
+"統合開発環境（「IDE」とも呼ばれる）を使用して **OpMode** を作成することもできます。"
