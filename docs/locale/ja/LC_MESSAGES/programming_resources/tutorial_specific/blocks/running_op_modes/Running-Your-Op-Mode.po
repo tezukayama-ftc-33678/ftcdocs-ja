@@ -62,15 +62,15 @@ msgid ""
 "gamepad as user #1. If using a PS4-style gamepad, use the Options and Cross "
 "buttons to designate your gamepad as user #1."
 msgstr ""
-"3. **DRIVER STATION** 画面で、三角形の「**TeleOp**」ドロップダウンリストボタンをタッチして、利用可能な**Op "
-"Mode** のリストを表示します。**Robot Controller** 上にある利用可能な**Op Mode** "
-"のリストの中に、最近保存した**Op Mode** が表示されるはずです。"
+"2. このウィキの例では、**Op Mode** はユーザーまたはドライバー #1 として指定されたゲームパッドからの入力を探しています。Logitech F310 "
+"コントローラーで Start ボタンと A ボタンを同時に押して、ゲームパッドをユーザー #1 として指定します。PS4 "
+"スタイルのゲームパッドを使用している場合は、Options ボタンと Cross ボタンを使用してゲームパッドをユーザー #1 として指定します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:40
 msgid ""
 "Note that pushing the Start button and the B button simultaneously would "
 "designate the gamepad as user #2."
-msgstr ""
+msgstr "Start ボタンと B ボタンを同時に押すと、ゲームパッドがユーザー #2 として指定されることに注意してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:42
 msgid ""
@@ -78,7 +78,10 @@ msgid ""
 "dropdown list button to display a list available OpModes. You should see "
 "your recently saved OpMode among the list of available OpModes that reside "
 "on your Robot Controller."
-msgstr "4. 「MyFIRSTOpMode」を選択して、**Robot Controller** に**Op Mode** をロードします。"
+msgstr ""
+"3. **DRIVER STATION** 画面で、三角形の「**TeleOp**」ドロップダウンリストボタンをタッチして、利用可能な **Op Mode** "
+"のリストを表示します。**Robot Controller** 上にある利用可能な **Op Mode** "
+"のリストの中に、最近保存した **Op Mode** が表示されるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:57
 msgid ""
@@ -89,7 +92,7 @@ msgstr "5. INITボタンを押して、**Op Mode** を初期化します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:59
 msgid "4. Select \"MyFIRSTOpMode\" to load your OpMode on the Robot Controller."
-msgstr ""
+msgstr "4. 「MyFIRSTOpMode」を選択して、**Robot Controller** に **Op Mode** をロードします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:72
 msgid ""
@@ -116,9 +119,10 @@ msgid ""
 " the motor power should be displayed in the upper right hand corner of the "
 "screen."
 msgstr ""
+"7. ゲームパッドの左ジョイスティックを使用して、DC モーターの動作を制御します。左ジョイスティックを上下に操作すると、ターゲットパワーとモーターパワーが画面の右上隅に表示されるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:114
 msgid ""
 "If you want to stop your OpMode, press the square-shaped Stop button on the "
 "DRIVER STATION."
-msgstr ""
+msgstr "**Op Mode** を停止したい場合は、**DRIVER STATION** の四角形の Stop ボタンを押してください。"
