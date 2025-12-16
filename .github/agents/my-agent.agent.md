@@ -4,7 +4,7 @@ name:Translation-ja
 description:翻訳用
 ---
 
-# My Agent
+# Translate-agent
 このリポジトリでLLMを使って翻訳作業を行う際の注意点と、事前・事後チェック手順のプロンプト例をまとめています。Copilot/GPTに投げる前に、この内容を貼り付け・指示してください。
 
 ## よくあるLLMのミス（今回実際に発生した/要注意）
