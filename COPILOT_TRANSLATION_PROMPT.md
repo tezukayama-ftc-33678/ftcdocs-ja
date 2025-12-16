@@ -4,26 +4,26 @@
 
 ## よくあるLLMのミス（今回実際に発生した/要注意）
 - `:doc:` 参照の欠落による **WARNING: inconsistent term references**（例: msgidに`:doc:`があるのにmsgstrで消える）
-- 強調マーカー `**...**` の不一致（片側だけで **inline strong start-string without end-string**）
 - ボタン/カードのラベルをリンク付きに書き換えてUI崩壊（sphinx-designのbutton-refはリンクを持つので、翻訳はラベルだけ）
 - 外部リンク(URL)を削除してしまう
 - msgidの改行/連結を勝手に変えて、msgstrとの対応が崩れる（長文msgidを分割しない）
 - 空の `msgstr` を生成して未翻訳を増やす
 
 ## プロンプトに必ず含める指示（テンプレ）
-- **参照保持**: msgidにある`:doc:`や外部リンク(http/https)、強調`**...**`はmsgstrにも必ず残す。
+- **参照保持**: msgidにある`:doc:`や外部リンク(http/https)はmsgstrにも必ず残す。
 - **ボタンの翻訳**: sphinx-designのbutton系はリンクを翻訳しない。ラベルだけ訳し、URL/参照は触らない。
 - **構造保持**: msgidの改行・スペースは極力崩さない。長文msgidを分割しない。
 - **空訳禁止**: 不要な空msgstrを作らない。
-- **技術用語**: 専門用語は原文踏襲、固有名詞は訳さない。
+- **技術用語**: API名・製品名は英語のまま表記（太字にする必要はない）。専門用語は原文踏襲、固有名詞は訳さない。
 - **品質チェック**: 翻訳後にスクリプトで検証（下記手順）。
 
 ### Copilotに渡す例文
 ```
 あなたはSphinxドキュメントのPO翻訳校正者です。以下を厳守して翻訳/修正してください:
-- msgidに含まれる`:doc:`参照、外部リンク、`**...**`強調をmsgstrでも必ず保持する
+- msgidに含まれる`:doc:`参照、外部リンク、RSTマークアップをmsgstrでも必ず保持する
 - sphinx-designのbutton/cardはラベルのみ翻訳し、リンク部分は変更しない
 - 長いmsgidを分割しない。空のmsgstrを作らない
+- API名・製品名は英語のまま表記（太字にする必要はない）
 - 専門用語・固有名詞は原文を尊重する
 出力はPOのmsgstrのみを示し、説明は不要。
 ```
@@ -47,13 +47,11 @@
 
 ## 具体的な警告例（再発防止リスト）
 - `WARNING: inconsistent term references in translated message.` → :doc: をmsgstrで落とした。
-- `WARNING: inline strong start-string without end-string.` → `**` ペア崩れ。
 - `WARNING: unknown document: ...` → リンクを翻訳してパスが消失/改変。
 
 ## PR前のチェックリスト
 - [ ] `python scripts/check_and_fix_po.py ...` で警告種類と件数を把握
 - [ ] missing_doc_ref を優先修正（:doc: を戻す）
-- [ ] emphasis_mismatch を修正（`**`のペア確認）
 - [ ] make clean && make html-ja で警告数を確認
 - [ ] 重要ページ（index, persona_pages, gp等）のUI崩れがないかブラウザで目視
 
