@@ -46,7 +46,7 @@ msgstr "PC 要件"
 
 #: ../../source/index.rst:47
 msgid "SDK Overview"
-msgstr "**SDK** 概要"
+msgstr "SDK 概要"
 
 #: ../../source/index.rst:47
 msgid "Updating Components"
@@ -54,7 +54,7 @@ msgstr "コンポーネントの更新"
 
 #: ../../source/index.rst:47 ../../source/index.rst:266
 msgid "Software Development Kit (SDK)"
-msgstr "ソフトウェア開発キット（**SDK**）"
+msgstr "ソフトウェア開発キット（SDK）"
 
 #: ../../source/index.rst:56
 msgid "Robot Building Resources"
@@ -66,31 +66,31 @@ msgstr "制御システムリソース"
 
 #: ../../source/index.rst:74
 msgid "AprilTag Introduction"
-msgstr "**AprilTag** 入門"
+msgstr "AprilTag 入門"
 
 #: ../../source/index.rst:74
 msgid "VisionPortal Overview"
-msgstr "**VisionPortal** 概要"
+msgstr "VisionPortal 概要"
 
 #: ../../source/index.rst:74
 msgid "Webcams for VisionPortal"
-msgstr "**VisionPortal** 用ウェブカメラ"
+msgstr "VisionPortal 用ウェブカメラ"
 
 #: ../../source/index.rst:74
 msgid "Understanding AprilTag Values"
-msgstr "**AprilTag** の値の理解"
+msgstr "AprilTag の値の理解"
 
 #: ../../source/index.rst:74
 msgid "AprilTag Localization"
-msgstr "**AprilTag** による位置推定"
+msgstr "AprilTag による位置推定"
 
 #: ../../source/index.rst:74
 msgid "AprilTag Test Images"
-msgstr "**AprilTag** テスト画像"
+msgstr "AprilTag テスト画像"
 
 #: ../../source/index.rst:74
 msgid "AprilTag Resources"
-msgstr "**AprilTag** リソース"
+msgstr "AprilTag リソース"
 
 #: ../../source/index.rst:86
 msgid "Computer Aided Design (CAD)"
@@ -150,22 +150,22 @@ msgstr "FTC ドキュメント"
 
 #: ../../source/index.rst:-1
 msgid "FIRST Tech Challenge Documentation"
-msgstr "**FIRST Tech Challenge** ドキュメント"
+msgstr "FIRST Tech Challenge ドキュメント"
 
 #: ../../source/index.rst:-1
 msgid "The official home of FIRST Tech Challenge Documentation."
-msgstr "**FIRST Tech Challenge** ドキュメントの公式ホーム。"
+msgstr "FIRST Tech Challenge ドキュメントの公式ホーム。"
 
 #: ../../source/index.rst:-1
 msgid ""
 "FTC Control System, Blocks, OnBot Java, Android Studio, OpenCV, "
 "EasyOpenCV, AprilTags, FTC SDK, Robot Controller App, Driver Station App,"
 " Control Hub, Driver Hub, IMU, Water Game"
-msgstr "FTC 制御システム、**Blocks**、**OnBot Java**、**Android Studio**、**OpenCV**、**EasyOpenCV**、**AprilTags**、FTC **SDK**、**Robot Controller** アプリ、**Driver Station** アプリ、**Control Hub**、**Driver Hub**、**IMU**、Water Game"
+msgstr "FTC 制御システム、Blocks、OnBot Java、Android Studio、OpenCV、EasyOpenCV、AprilTags、FTC SDK、Robot Controller アプリ、Driver Station アプリ、Control Hub、Driver Hub、IMU、Water Game"
 
 #: ../../source/index.rst:7
 msgid "*FIRST* Tech Challenge documentation"
-msgstr "**FIRST Tech Challenge** ドキュメント"
+msgstr "FIRST Tech Challenge ドキュメント"
 
 #: ../../source/index.rst:9
 msgid ""
@@ -174,7 +174,7 @@ msgid ""
 " is information and tutorials on how to use the *FIRST* Tech Challenge "
 "software and robot control system. There is also information for coaches "
 "and mentors."
-msgstr "**FIRST®** **Tech Challenge** ドキュメントへようこそ！このウェブサイトには、競技ロボットを作成するために必要なすべての情報が含まれています！**FIRST Tech Challenge** のソフトウェアとロボット制御システムの使い方に関する情報とチュートリアルがあります。コーチやメンターのための情報もあります。"
+msgstr "FIRST® Tech Challenge ドキュメントへようこそ！このウェブサイトには、競技ロボットを作成するために必要なすべての情報が含まれています！FIRST Tech Challenge のソフトウェアとロボット制御システムの使い方に関する情報とチュートリアルがあります。コーチやメンターのための情報もあります。"
 
 #: ../../source/index.rst:13
 msgid "*FIRST* Tech Challenge is a robotics program for middle and high school students. It's way more than building robots, see :doc:`About the FIRST Tech Challenge <overview/ftcoverview>` and :doc:`gracious_professionalism/gp` to see why."
@@ -182,7 +182,7 @@ msgstr "FIRST Tech Challenge は中学生と高校生のためのロボットプ
 
 #: ../../source/index.rst:129
 msgid "**I am a...**"
-msgstr "**私は...**"
+msgstr "私は..."
 
 #: ../../source/index.rst:131
 msgid ""
@@ -240,7 +240,7 @@ msgstr "AprilTags"
 
 #: ../../source/index.rst:200
 msgid "All Resources"
-msgstr "すべてのリソース"
+msgstr ":doc:`すべてのリソース <programming_resources/index>`"
 
 #: ../../source/index.rst:212
 msgid "Control System Links"
@@ -248,7 +248,7 @@ msgstr "制御システムリンク"
 
 #: ../../source/index.rst:216
 msgid "Let's get to know the *FIRST* Tech Challenge Control System!"
-msgstr "**FIRST Tech Challenge** 制御システムを知りましょう！"
+msgstr "FIRST Tech Challenge 制御システムを知りましょう！"
 
 #: ../../source/index.rst:224
 msgid "Driver Station"
@@ -260,21 +260,21 @@ msgstr "Robot Controller"
 
 #: ../../source/index.rst:244
 msgid "Device Connections"
-msgstr "デバイス接続"
+msgstr ":doc:`デバイス接続 <hardware_and_software_configuration/connecting_devices/index>`"
 
 #: ../../source/index.rst:254
 msgid "Hardware Configuration"
-msgstr "ハードウェア構成"
+msgstr ":doc:`ハードウェア構成 <hardware_and_software_configuration/configuring/index>`"
 
 #: ../../source/index.rst:270
 msgid ""
 "The Software Development Kit (SDK) is the collection of tools for "
 "developing software and executing it on the robot."
-msgstr "ソフトウェア開発キット（**SDK**）は、ソフトウェアを開発しロボットで実行するためのツールの集合です。"
+msgstr "ソフトウェア開発キット（SDK）は、ソフトウェアを開発しロボットで実行するためのツールの集合です。"
 
 #: ../../source/index.rst:279
 msgid "About the SDK"
-msgstr "SDK について"
+msgstr ":doc:`SDK について <ftc_sdk/overview/index>`"
 
 #: ../../source/index.rst:289
 msgid "SDK GitHub Repository"

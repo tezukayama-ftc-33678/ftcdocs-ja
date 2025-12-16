@@ -27,25 +27,25 @@ msgstr "技術メンターリソース"
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:4
 msgid ""
 "Welcome technical mentors to *FIRST* Tech Challenge! Resources have been "
-"organized by type to help you stay organized and be successful with teams"
+msgstr ""
 " throughout the season. These resources are tailored to teams and mentors"
 " with experience in technical fields looking to elevate their skills.  "
 "The technical resources are also a stepping stone towards industry "
 "standard certifications. Just click on the button for the resource you "
 "want to explore!"
-msgstr "**FIRST Tech Challenge** の技術メンターの皆さん、ようこそ！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。探索したいリソースのボタンをクリックしてください！"
+msgstr "FIRST Tech Challenge の技術メンターの皆さん、ようこそ！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。探索したいリソースのボタンをクリックしてください！"
 
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:18
 msgid "Control System Resources"
 msgstr "制御システムリソース"
-
+msgstr ""
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:22
 msgid "Look for Control System resources here."
 msgstr "制御システムのリソースはこちらをご覧ください。"
 
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:30
 msgid "FTC Control System"
-msgstr "**FTC** 制御システム"
+msgstr ":doc:`FTC 制御システム <../../programming_resources/shared/control_system_intro/The-FTC-Control-System>`"
 
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:42
 msgid "Mechanical Resources"
@@ -70,8 +70,8 @@ msgstr "プログラミングリソースへのリンクです。"
 
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:88
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:100
-msgid "CAD Resources"
 msgstr "CAD リソース"
+msgstr ":doc:`CAD リソース <../../cad_resources/index>`"
 
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:92
 msgid "Look for resources for Computer-Aided Design (CAD) software."

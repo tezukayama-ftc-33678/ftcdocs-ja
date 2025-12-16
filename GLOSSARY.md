@@ -1,79 +1,79 @@
 # FTC ドキュメント 翻訳用語集
 
 このドキュメントは、FTC ドキュメントの日本語翻訳プロジェクトで使用される統一用語のリストです。
-**TRANSLATION_GUIDE.md** に準拠し、翻訳の一貫性を保つために使用します。
+TRANSLATION_GUIDE.md に準拠し、翻訳の一貫性を保つために使用します。
 
 ---
 
 ## 📚 用語カテゴリ
 
-### 1. 和訳しない用語（英語のまま太字で表記）
+### 1. 和訳しない用語（英語のまま表記）
 
 #### API/クラス名
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| OpMode | **OpMode** | コードに登場する固有名詞 |
-| OpMode | **Op Mode** | コードに登場する固有名詞 |
-| LinearOpMode | **LinearOpMode** | コードに登場する固有名詞 |
-| Telemetry | **Telemetry** | コードに登場する固有名詞 |
-| HardwareMap | **HardwareMap** | コードに登場する固有名詞 |
-| Robot Controller | **Robot Controller** | アプリ名 |
-| Driver Station | **Driver Station** | アプリ名 |
-| VisionPortal | **VisionPortal** | API名 |
+| OpMode | OpMode | コードに登場する固有名詞 |
+| OpMode | Op Mode | コードに登場する固有名詞 |
+| LinearOpMode | LinearOpMode | コードに登場する固有名詞 |
+| Telemetry | Telemetry | コードに登場する固有名詞 |
+| HardwareMap | HardwareMap | コードに登場する固有名詞 |
+| Robot Controller | Robot Controller | アプリ名 |
+| Driver Station | Driver Station | アプリ名 |
+| VisionPortal | VisionPortal | API名 |
 
 #### 制御モード
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| Autonomous | **Autonomous** | 競技フィールドでの操作モード |
-| TeleOp | **TeleOp** | 競技フィールドでの操作モード |
+| Autonomous | Autonomous | 競技フィールドでの操作モード |
+| TeleOp | TeleOp | 競技フィールドでの操作モード |
 
 #### ハードウェア製品名
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| REV Robotics Control Hub | **REV Robotics Control Hub** | 製品名 |
-| REV Robotics Expansion Hub | **REV Robotics Expansion Hub** | 製品名 |
-| HuskyLens | **HuskyLens** | 出現回数: 42 |
-| DRIVER STATION | **DRIVER STATION** | 製品名 |
-| DS | **DS** | 出現回数: 18 |
-| RC | **RC** | 出現回数: 16 |
-| IMU | **IMU** | センサー名（Inertial Measurement Unit） |
-| Control Hub | **Control Hub** | 製品名 |
-| Driver Hub | **Driver Hub** | 製品名 |
+| REV Robotics Control Hub | REV Robotics Control Hub | 製品名 |
+| REV Robotics Expansion Hub | REV Robotics Expansion Hub | 製品名 |
+| HuskyLens | HuskyLens | 出現回数: 42 |
+| DRIVER STATION | DRIVER STATION | 製品名 |
+| DS | DS | 出現回数: 18 |
+| RC | RC | 出現回数: 16 |
+| IMU | IMU | センサー名（Inertial Measurement Unit） |
+| Control Hub | Control Hub | 製品名 |
+| Driver Hub | Driver Hub | 製品名 |
 
 #### ビジョンと画像処理
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| AprilTag | **AprilTag** | 画像認識技術名 |
-| OpenCV | **OpenCV** | ライブラリ名 |
-| EasyOpenCV | **EasyOpenCV** | ライブラリ名 |
+| AprilTag | AprilTag | 画像認識技術名 |
+| OpenCV | OpenCV | ライブラリ名 |
+| EasyOpenCV | EasyOpenCV | ライブラリ名 |
 
 #### プログラミング環境
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| Blocks | **Blocks** | プログラミング環境名 |
-| OnBot Java | **OnBot Java** | プログラミング環境名 |
-| Android Studio | **Android Studio** | IDE名 |
+| Blocks | Blocks | プログラミング環境名 |
+| OnBot Java | OnBot Java | プログラミング環境名 |
+| Android Studio | Android Studio | IDE名 |
 
 #### UI/機能名
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| Settings | **Settings** | UI上の設定メニュー名 |
-| Camera Stream | **Camera Stream** | カメラストリーム機能 |
-| Team Prop | **Team Prop** | チーム固有の小道具 |
-| Color Locator | **Color Locator** | 色検出機能 |
-| Access Codes | **Access Codes** | アクセスコード機能 |
-| Self Inspect | **Self Inspect** | 自己検査機能 |
-| Inspection Reports | **Inspection Reports** | 検査レポート機能 |
+| Settings | Settings | UI上の設定メニュー名 |
+| Camera Stream | Camera Stream | カメラストリーム機能 |
+| Team Prop | Team Prop | チーム固有の小道具 |
+| Color Locator | Color Locator | 色検出機能 |
+| Access Codes | Access Codes | アクセスコード機能 |
+| Self Inspect | Self Inspect | 自己検査機能 |
+| Inspection Reports | Inspection Reports | 検査レポート機能 |
 
 #### その他の固有名詞
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| FIRST | **FIRST** | 組織名（For Inspiration and Recognition of Science and Technology） |
-| FIRST Tech Challenge (FTC) | **FIRST Tech Challenge (FTC)** | プログラム名 |
-| Gracious Professionalism | **Gracious Professionalism** | FIRST の理念（登録商標） |
-| Awards | **Awards** | FTC 固有の表彰制度（FLLでも同様に英語で使用） |
-| Structured Judging Appointment | **Structured Judging Appointment** | 審査面談の形式 |
-| Structured Interview | **Structured Interview** | 構造化された審査インタビュー |
+| FIRST | FIRST | 組織名（For Inspiration and Recognition of Science and Technology） |
+| FIRST Tech Challenge (FTC) | FIRST Tech Challenge (FTC) | プログラム名 |
+| Gracious Professionalism | Gracious Professionalism | FIRST の理念（登録商標） |
+| Awards | Awards | FTC 固有の表彰制度（FLLでも同様に英語で使用） |
+| Structured Judging Appointment | Structured Judging Appointment | 審査面談の形式 |
+| Structured Interview | Structured Interview | 構造化された審査インタビュー |
 
 ---
 
@@ -146,8 +146,8 @@
 - 「あなた」や「君」といった呼びかけは避ける
 
 ### 技術用語の扱い
-1. **コード内のクラス名、API名は英語のまま太字**で表記
-2. **製品名は英語のまま太字**で表記
+1. コード内のクラス名、API名は英語のまま表記
+2. 製品名は英語のまま表記（太字指定は行わない）
 3. 一般的な技術用語は適切に和訳またはカタカナ表記
 4. 長音符号（ー）は省略しない（例: パラメーター、コンピューター）
 
@@ -181,5 +181,5 @@
 
 ## 参考
 
-このドキュメントは **TRANSLATION_GUIDE.md** の具体的な実装例として作成されています。
+このドキュメントは TRANSLATION_GUIDE.md の具体的な実装例として作成されています。
 翻訳作業を行う際は、必ずTRANSLATION_GUIDE.mdと併せて参照してください。
