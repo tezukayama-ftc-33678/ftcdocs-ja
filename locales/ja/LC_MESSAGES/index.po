@@ -6,6 +6,19 @@
 #
 #, fuzzy
 msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../source/index.rst:24
 msgid "Getting Started"
@@ -13,7 +26,7 @@ msgstr "はじめに"
 
 #: ../../source/index.rst:34 ../../source/index.rst:332
 msgid "Competition Manual"
-msgstr "競技マニュアル"
+msgstr ":doc:`競技マニュアル <manuals/game_manuals/game_manuals>`"
 
 #: ../../source/index.rst:34
 msgid "Game Q&A System"
@@ -164,11 +177,8 @@ msgid ""
 msgstr "**FIRST®** **Tech Challenge** ドキュメントへようこそ！このウェブサイトには、競技ロボットを作成するために必要なすべての情報が含まれています！**FIRST Tech Challenge** のソフトウェアとロボット制御システムの使い方に関する情報とチュートリアルがあります。コーチやメンターのための情報もあります。"
 
 #: ../../source/index.rst:13
-msgid ""
-"*FIRST* Tech Challenge is a robotics program for middle and high school "
-"students. It’s way more than building robots, see :doc:`About the FIRST "
-"Tech Challenge <overview/ftcoverview>` and "
-":doc:`gracious_professionalism/gp` to see why."
+msgid "*FIRST* Tech Challenge is a robotics program for middle and high school students. It's way more than building robots, see :doc:`About the FIRST Tech Challenge <overview/ftcoverview>` and :doc:`gracious_professionalism/gp` to see why."
+msgstr "FIRST Tech Challenge は中学生と高校生のためのロボットプログラムです。これは単にロボットを作る以上のものです。その理由については :doc:`FIRST Tech Challenge について <overview/ftcoverview>` と :doc:`gracious_professionalism/gp` をご覧ください。"
 
 #: ../../source/index.rst:129
 msgid "**I am a...**"
@@ -214,19 +224,19 @@ msgstr "プログラミング言語リソースへのクイックリンク"
 
 #: ../../source/index.rst:160
 msgid "Blocks"
-msgstr "**Blocks**"
+msgstr "Blocks"
 
 #: ../../source/index.rst:170
 msgid "OnBot Java"
-msgstr "**OnBot Java**"
+msgstr "OnBot Java"
 
 #: ../../source/index.rst:180
 msgid "Android Studio"
-msgstr "**Android Studio**"
+msgstr "Android Studio"
 
 #: ../../source/index.rst:190
 msgid "AprilTags"
-msgstr "**AprilTags**"
+msgstr "AprilTags"
 
 #: ../../source/index.rst:200
 msgid "All Resources"
@@ -242,11 +252,11 @@ msgstr "**FIRST Tech Challenge** 制御システムを知りましょう！"
 
 #: ../../source/index.rst:224
 msgid "Driver Station"
-msgstr "**Driver Station**"
+msgstr "Driver Station"
 
 #: ../../source/index.rst:234
 msgid "Robot Controller"
-msgstr "**Robot Controller**"
+msgstr "Robot Controller"
 
 #: ../../source/index.rst:244
 msgid "Device Connections"
@@ -264,15 +274,15 @@ msgstr "ソフトウェア開発キット（**SDK**）は、ソフトウェア�
 
 #: ../../source/index.rst:279
 msgid "About the SDK"
-msgstr "**SDK** について"
+msgstr "SDK について"
 
 #: ../../source/index.rst:289
 msgid "SDK GitHub Repository"
-msgstr "**SDK** GitHub リポジトリ"
+msgstr "SDK GitHub リポジトリ"
 
 #: ../../source/index.rst:299
 msgid "SDK Releases"
-msgstr "**SDK** リリース"
+msgstr "SDK リリース"
 
 #: ../../source/index.rst:308
 msgid "Javadoc Documentation"
@@ -289,8 +299,8 @@ msgid ""
 msgstr "競技のすべてのルールに従っていることを確認してください！競技マニュアルは必須のドキュメントです。"
 
 #: ../../source/index.rst:342
-msgid "game_specific_resources/playing_field_resources/playing_field_resources"
-msgstr "game_specific_resources/playing_field_resources/playing_field_resources"
+msgid "Playing Field Resources"
+msgstr "フィールド資材"
 
 #: ../../source/index.rst:350
 msgid "Game Question and Answer System"

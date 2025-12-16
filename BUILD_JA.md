@@ -123,8 +123,68 @@ msgfmt -c -v -o /dev/null locales/ja/LC_MESSAGES/<path>/<file>.po
 3. `make html-ja` でビルドして確認
 4. または `make autobuild-ja` で自動リビルドしながら翻訳作業
 
+## 翻訳品質の自動チェック
+
+### POファイルの問題検出
+
+翻訳ファイル(.po)の品質問題を自動検出するツールが用意されています：
+
+```bash
+cd docs
+python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues.json --verbose
+```
+
+**検出される問題**:
+- **missing_doc_ref** (重要): `:doc:` 参照の欠落
+- **emphasis_mismatch**: `**...**` 強調記法の不一致
+- **inconsistent_ref**: 外部リンクの欠落
+
+**出力例**:
+```
+🔍 Scanning 256 PO files...
+📊 Total issues found: 1622
+  emphasis_mismatch: 1044
+  inconsistent_ref: 433
+  missing_doc_ref: 145
+✅ Results written to ../po_issues.json
+```
+
+### 検出された問題の確認
+
+`po_issues.json` ファイルを開いて、各問題の詳細を確認できます：
+
+```json
+{
+  "type": "missing_doc_ref",
+  "file": "locales/ja/LC_MESSAGES/index.po",
+  "line": 145,
+  "severity": "error",
+  "suggestion": "Missing :doc: references in msgstr..."
+}
+```
+
+### 推奨ワークフロー（翻訳＋検証）
+
+1. **翻訳ファイルを編集**
+2. **問題をスキャン**:
+   ```bash
+   cd docs
+   python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues.json
+   ```
+3. **ビルド実行**:
+   ```bash
+   make clean
+   make html-ja
+   ```
+4. **警告数を確認**: ビルド出力の最後に「ビルド 成功, XX 警告」が表示されます
+5. **po_issues.json を確認**して重要な問題を優先的に修正
+6. **再ビルド**して警告数が減少したことを確認
+
+詳細は [docs/scripts/README.md](docs/scripts/README.md) を参照してください。
+
 ## 参考情報
 
 - オリジナルリポジトリ: [FIRST-Tech-Challenge/ftcdocs](https://github.com/FIRST-Tech-Challenge/ftcdocs)
 - Sphinx ドキュメント: https://www.sphinx-doc.org/
 - Sphinx i18n: https://www.sphinx-doc.org/en/master/usage/advanced/intl.html
+- 翻訳品質チェックツール: [docs/scripts/README.md](docs/scripts/README.md)
