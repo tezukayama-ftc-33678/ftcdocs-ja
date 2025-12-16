@@ -79,7 +79,6 @@ cover/
 
 # Translations
 *.mo
-*.pot
 
 # Django stuff:
 *.log
@@ -170,3 +169,15 @@ cython_debug/
 .idea/misc.xml
 .idea/workspace.xml
 .idea/ftcdocs.iml
+
+
+# Local Sphinx build files
+docs/_build/
+
+# Ignore the generated `docs/build` output (HTML, static assets, etc.)
+docs/build/*
+
+# Allow tracking only the generated gettext PO/POT under docs/build/gettext
+!docs/build
+!docs/build/gettext/
+!docs/build/gettext/**
