@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:2
+msgid "Codespaces"
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:3
+msgid ":bdg-secondary:`Information`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:6
+msgid "What is Codespaces?"
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:8
+msgid "Codespaces is a cloud-hosted development environment that you can access from anywhere. It comes with a pre-configured Visual Studio Code environment and a containerized runtime that matches your development environment. You can use Codespaces to develop in a browser, or by using the Visual Studio Code Remote - Codespaces extension in your local Visual Studio Code instance."
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:14
+msgid "Why use Codespaces?"
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:16
+msgid "Codespaces is a great way to develop in a consistent environment, no matter where you are. It also allows you to develop on a device that might not have the resources to run your development environment locally. It also allows you to sidestep the need to install and configure your development environment on a new machine."
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:22
+msgid "Who should use Codespaces?"
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:24
+msgid "Codespaces is our recommended development environment for all developers. It is especially useful for developers who need to work on multiple machines, or who are not comfortable with setting up their development environment and the troubleshooting that comes with it."
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:29
+msgid "Downside of Codespaces"
+msgstr ""
+
+#: ../../source/contrib/tutorials/codespaces/codespaces.rst:31
+msgid "Codespaces is a paid service, and you will be billed for the resources you use. However, GitHub currently offers GitHub Free tier users **120 Core hours** and GitHub Pro tier users **180 Core hours** per month for free. To learn more about Codespaces pricing, visit `GitHub Documentation <https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces>`_."
+msgstr ""

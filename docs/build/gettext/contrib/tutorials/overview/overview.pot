@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/contrib/tutorials/overview/overview.rst:2
+msgid "Overview"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:4
+msgid "Below is an overview of the process of contributing to FTC Docs."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:8
+msgid "Using **Codespace** and working **Locally** are two different ways to contribute to FTC Docs. The steps for each are similar, but there are key differences in setup. After reading step 2, you should choose whether you want to use Codespaces or work locally. For the purposes of this guide, Local and Codespaces use will be mutually exclusive."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:12
+msgid "Key"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:16
+msgid ":bdg-danger:`One Time Only`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:17
+msgid ":bdg-success:`Repeat`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:18
+msgid ":bdg-info:`Codespaces`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:19
+msgid ":bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:20
+msgid ":bdg-secondary:`Information`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:23
+msgid "Step only needs to be done once"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:24
+msgid "Step must be repeated for each set of changes"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:25
+msgid "Step specific to Codespaces users"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:26
+msgid "Step specific to Local users"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:27
+msgid "General information that provides context"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:29
+msgid ":doc:`Intro to Codesapces <../codespaces/codespaces>` :bdg-secondary:`Information`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:31
+msgid "This will provide an overview of Codespaces and how to use them."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:32
+msgid ":doc:`Getting to know the GitHub Repository <../github_repo/github-repo>` :bdg-secondary:`Information`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:34
+msgid "This will provide an overview of the FTC Docs repository and how it is organized. This is important to understand before you start working on a contribution."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:36
+msgid ":doc:`Fork the repository <../make_fork/make-fork>` :bdg-danger:`One Time Only` :bdg-info:`Codespaces` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:38
+msgid "This will create a copy of the FTC Docs repository in your GitHub account."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:40
+msgid ":doc:`Update the repository <../update_fork/update-fork>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:42
+msgid "This will update your fork with the latest changes from the FTC Docs repository. This is important to do before you start working on a new contribution."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:44
+msgid ":doc:`Set up your environment <../setup/setup>` :bdg-danger:`One Time Only` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:46
+msgid "This will set up your local environment to work on FTC Docs. This step can be skipped for Codespaces users."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:48
+msgid ":doc:`Create a new branch <../make_branch/make-branch>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:50
+msgid "This will create a new branch for your change. You should create a new branch for each change you work on."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:52
+msgid ":doc:`Create a new codespace <../create_codespace/create-codespace>` :bdg-success:`Repeat` :bdg-info:`Codespaces`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:54
+msgid "This will create a new Codespace for your change. You should create a new Codespace for each change/branch you work on."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:56
+msgid ":doc:`Switch to your branch <../switch_branch/switch-branch>` :bdg-success:`Repeat` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:58
+msgid "This will switch to the branch you created in step 7. You should switch to the branch you created for each change you work on."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:60
+msgid ":doc:`VS Code Tasks <../tasks/tasks>` :bdg-secondary:`Information`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:62
+msgid "This will provide an overview of the tasks for FTC Docs available in VS Code. This is important to understand before you start working on a contribution."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:64
+msgid ":doc:`Make your changes <../make_rst/index>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:66
+msgid ":doc:`Setup Git Credentials <../setup_credentials/setup-credentials>`  :bdg-danger:`One Time Only` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:68
+msgid "This will set up your Git credentials so you can push your changes."
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:70
+msgid ":doc:`Submit your changes <../make_pr/make-pr>` :bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/overview/overview.rst:72
+msgid "Commit your changes and submit a pull request to the FTC Docs repository."
+msgstr ""

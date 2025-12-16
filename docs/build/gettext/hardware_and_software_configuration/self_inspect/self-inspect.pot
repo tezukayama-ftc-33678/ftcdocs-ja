@@ -1,0 +1,537 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:2
+msgid "Old Self-Inspect"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:7
+msgid "This page describes the older Self Inspect screens in the FTC Driver Station (DS) app and the FTC Robot Controller (RC) app. See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:11
+msgid "A Self Inspect screen provides a snapshot of device status, as it relates to FTC rules for the control system. These rules are described in the Competition Manual which can be found on the `Current Game and Season Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:16
+msgid "An `Inspection Checklist PDF <https://ftc-resources.firstinspires.org/ftc/event/inspection-check>`_ is available to help teams self-inspect their ROBOT before their event. Teams are strongly encouraged to self-inspect prior to their event."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:19
+msgid "The Self Inspect screen is provided only as a quick, handy reference to help teams confirm that certain control system elements are up-to-date and properly configured. Self Inspect may be reviewed in Robot Inspection at an FTC tournament, but is **not** a comprehensive or official standard of compliance with FTC rules."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:25
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:501
+msgid "Each inspection screen updates automatically, with or without a Restart Robot. This allows quick verification that issues have been resolved."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:28
+msgid "The challenge is to maximize useful information in a small screen. The Self Inspect layout and graphics evolve with FTC requirements; this page clarifies some of the brief but meaningful captions."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:33
+msgid "These images show Version 7.0 of the FTC apps. Please refer to Competition Manual for allowed software system versions. These images are valid up to version 10.2 of the FTC apps. See the :doc:`new self-inspect<new-self-inspect>` page for screen images for version 10.3 or better."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:38
+msgid "Device Pairing"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:40
+msgid "Pairing technology is a key aspect of Self Inspect reporting. Remember that RC phones host via **Wi-Fi Direct**, while Control Hubs host via **Standard, or ‘infrastructure’, Wi-Fi**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:44
+msgid "In the DS app’s Settings, the selected Pairing Method (Wi-Fi Direct or Control Hub) will influence acceptance/rejection in the DS Self Inspect report, as described in examples below."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:48
+msgid "RC and DS phones must have Airplane Mode **ON**, and Wi-Fi **ON** but not connected to any Standard/infra Wi-Fi host such as an internet router or hotspot. Devices should be set to **Forget** any local Wi-Fi networks."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:53
+msgid "FTC control devices may use these combinations:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:55
+msgid "DS phone, RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:56
+msgid "DS phone, Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:57
+msgid "Driver Hub, RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:58
+msgid "Driver Hub, Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:60
+msgid "A DS device (phone or Driver Hub) can display its own DS Self Inspect **and** an RC Self Inspect (for paired RC phone or Control Hub). An RC phone can display only its own RC Self Inspect."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:64
+msgid "This means that the Self Inspect screens can report as follows:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:66
+msgid "**DRIVER STATION**"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:68
+msgid "`DS Self Inspect 1 <#ds-self-inspect-1-on-ds-phone-paired-to-rc-phone>`__, on DS phone paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:70
+msgid "`DS Self Inspect 2 <#ds-self-inspect-2-on-ds-phone-paired-to-control-hub>`__, on DS phone paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:72
+msgid "`DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__, on Driver Hub paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:75
+msgid "`DS Self Inspect 4 <#ds-self-inspect-4-on-driver-hub-paired-to-control-hub>`__, on Driver Hub paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:79
+msgid "**ROBOT CONTROLLER**"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:81
+msgid "`RC Self Inspect 1 <#rc-self-inspect-1-appearing-on-rc-phone-paired-with-ds-phone>`__, appearing on RC phone paired with DS phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:84
+msgid "`RC Self Inspect 2 <#rc-self-inspect-2-appearing-on-ds-phone-paired-to-rc-phone>`__, appearing on DS phone paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:87
+msgid "`RC Self Inspect 3 <#rc-self-inspect-3-appearing-on-rc-phone-paired-with-driver-hub>`__, appearing on RC phone paired with Driver Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:90
+msgid "`RC Self Inspect 4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-phone>`__, appearing on Driver Hub paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:93
+msgid "`RC Self Inspect 5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-control-hub>`__, appearing on DS phone paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:96
+msgid "`RC Self Inspect 6 <#rc-self-inspect-6-appearing-on-driver-hub-paired-to-control-hub>`__, appearing on Driver Hub paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:100
+msgid "These combinations can display **slightly different** Self Inspect categories, status phrases, and pass/fail results. They are described below; click the **blue link** to explore the Self Inspect screen for that device and combination."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:106
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:113
+msgid "DS Self Inspect 1, on DS phone paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:113
+msgid "DS 1"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:115
+msgid "Item 1 is a menu with one choice: Disconnect from Wi-Fi Direct. It does work, but sometimes the apps re-pair automatically."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:117
+msgid "Item 5 shows the battery level of the device being reported. Fun fact: the green color of the percentage value changes towards **orange** as the charge level goes down."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:120
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:226
+msgid "Item 8 ``Location services`` appears only on devices running **Android 8** or higher. This is an SDK/Android technology requirement, not an FTC rule."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:123
+msgid "Items 9 and 10 here must be Yes and No. ``Wi-Fi Enabled`` means the DS device’s Wi-Fi radio is **ON**, to use Wi-Fi Direct. It must **not** be connected to a Standard/infrastructure Wi-Fi source, such as an internet router or a Control Hub, when intending to pair with an RC phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:128
+msgid "Item 11 indicates whether the **device’s Wi-Fi Direct name** meets FTC format requirements. It does not check whether the paired device has a matching RC name (team number). In this case, the phones are legally named 2468-A-DS and 2468-A-RC. DS Settings (Driver Station Name) allows only FTC-legal names, but any name can be entered in the DS phone’s Android Wi-Fi Direct settings."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:134
+msgid "Item 12 verifies that a DS device does **not** have an RC app installed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:136
+msgid "Item 13 ensures the DS app meets the minimum version **for the current FTC season**, based on the device’s system date. An “incorrect” red mark here can be cleared by correcting the date in the **Android device Settings**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:141
+msgid "Here’s a report from the same phone, with many items **rejected** by Self Inspect."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:149
+msgid "DS 1 Bad"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:149
+msgid "DS Self Inspect 1, on DS phone – with issues!"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:151
+msgid "Item 6 rejects ``Airplane Mode`` for being **OFF**; it must be on for FTC phones. This is an Android system setting, available at the phone’s Settings menu, or easily accessed by swiping down twice from the top of the screen. Turning on Airplane Mode automatically turns off the Wi-Fi radio, as an Android ‘convenience’. An FTC user will need to manually turn the Wi-Fi radio back on (although not connected to a local hotspot or internet router)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:158
+msgid "Item 7 rejects ``Bluetooth`` for being **ON**; it must be off for FTC use. This is also an Android system setting; swipe down twice or see Settings menu."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:161
+msgid "Item 8 rejects ``Location services`` for being **OFF**. For devices running **Android 8** or higher, the FTC apps require Location enabled. This is also an Android system setting; swipe down twice or see Settings menu."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:165
+msgid "Item 9 shows the DS phone’s Wi-Fi radio is **ON**, as required for Wi-Fi Direct **or** Standard Wi-Fi pairing to an RC device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:167
+msgid "Item 10 rejects the DS phone’s connection via Standard/infrastructure Wi-Fi, because the DS Pairing Method is set to Wi-Fi Direct – thus intending to connect with an RC phone. In this case, the phone is connected to a home Wi-Fi network. This and other such networks must be set to **Forget**, in the device’s Android Wi-Fi menu. If temporary internet access is needed, ‘Forget’ that network afterwards. Also **Remove Account** for any Google or other accounts that may have been used during the internet session. Such accounts can cause background activity, notifications and updates – at the worst possible times."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:177
+msgid "Item 11 rejects the device’s **Wi-Fi Direct name** for not meeting FTC format requirements. The bad name shown here was created in the DS phone’s Android Wi-Fi Direct settings; not possible using the app’s DS Settings (Driver Station Name)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:181
+msgid "Item 12 rejects the presence of an RC app installed on this DS device. The rejection is not for the older version (6.2), but simply for being an RC app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:186
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:193
+msgid "DS Self Inspect 2, on DS phone paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:193
+msgid "DS 2"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:195
+msgid "The same points apply as for DS Self Inspect 1 (immediately above), except:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:198
+msgid "Items 9 and 10 must now be Yes and Yes. The DS phone’s Wi-Fi radio is **ON**, and connected via Standard/infra Wi-Fi. It does not indicate **what** the DS phone is connected to; that’s covered by Item 11."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:201
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:279
+msgid "Item 10’s Yes would be **rejected** if the DS Pairing Method was set to Wi-Fi Direct – thus intending to connect with an RC phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:203
+msgid "Item 11 shows the Standard Wi-Fi **network name**, or Access Point (AP), that the DS phone is connected to. The check-mark indicates the AP is an FTC legal device (Control Hub) and has a correctly formatted name. This does **not** check that the DS and RC names match (team number). In fact, this phone is 2468-A-DS and this Control Hub is 9999-A-RC, an **illegal combination** to be flagged by the FTC team or the Robot Inspector."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:211
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:218
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:255
+msgid "DS Self Inspect 3, on Driver Hub paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:218
+msgid "DS 3a"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:220
+msgid "Item 4 appears only on the Driver Hub. The check-mark indicates the Operating System meets the minimum version requirement in the FTC Competition Manual."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:223
+msgid "Note that ``Airplane Mode`` has been omitted from the DS inspection, only for Driver Hub. FTC rules exclude the Driver Hub and Control Hub from the Airplane Mode requirement."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:229
+msgid "Items 9 and 10 must be Yes and No. ``Wi-Fi Enabled`` means the Driver Hub’s Wi-Fi radio is **ON**, to use Wi-Fi Direct for the RC phone. The Driver Hub is technically **able to also be connected** to a Standard/infrastructure Wi-Fi source, including an internet router or a Control Hub. Item 10 confirms this is not happening; see next example."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:235
+msgid "Item 10’s No would be **rejected** if the DS Pairing Method was set to Control Hub."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:237
+msgid "Item 11 indicates whether the **device name** meets FTC format requirements. It does not check whether the paired device has a matching RC name (team number)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:240
+msgid "Item 12 verifies that the Driver Hub does **not** have an RC app installed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:242
+msgid "Item 13 ensures the DS app meets the minimum version **for the current FTC season**, based on the device’s system date. This particular version 7.0.1 does not exactly match the RC phone’s 7.0. Such a “Point mismatch” is allowed under updated FTC rules (was Q&A #176 for 2021-2022 season). Otherwise, an “incorrect” red mark here can be cleared by correcting the date in the **Android device Settings**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:255
+msgid "DS 3b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:257
+msgid "This Self Inspect screen appeared while the Driver Hub was paired to an RC phone, then was *also* connected to to a Control Hub via Standard Wi-Fi. The DS home screen temporarily showed “Connected” (to RC phone) and “No Heartbeat”, then recovered its pairing to the RC phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:262
+msgid "Item 10 shows the discrepancy. The DS app soon closes this Standard Wi-Fi connection, allowing the Driver Hub to remain paired only with the RC phone."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:266
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:273
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:294
+msgid "DS Self Inspect 4, on Driver Hub paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:273
+msgid "DS 4b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:275
+msgid "Item 1 still offers one choice, “Disconnect from Wi-Fi Direct”. But now, touching that selection gives this message “There was an error disconnecting from Wi-Fi Direct”. That’s because the Driver Hub is paired to a Control Hub, thus **not** via Wi-Fi Direct."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:281
+msgid "Item 11 shows the Standard Wi-Fi **network name**, or Access Point (AP), that the Driver Hub is connected to. The check-mark indicates the AP is an FTC legal device (Control Hub) and has a correctly formatted name. This does **not** check that the DS and RC names match (team number). In fact, this Driver Hub is 1234-A-DS and this Control Hub is 9999-A-RC, an **illegal combination** to be flagged by the FTC team or the Robot Inspector."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:294
+msgid "DS 4a"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:296
+msgid "This Self Inspect screen appeared after the Driver Hub was paired to a Control Hub, then was connected to a Wi-Fi internet router."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:299
+msgid "Item 11 shows the error. The Driver Hub can connect via Standard Wi-Fi to only one AP at a time; this network is not an FTC RC device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:303
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:314
+msgid "RC Self Inspect 1, appearing on RC phone paired with DS phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:305
+msgid "Now we change to **Robot Controller** Self Inspect screens. Again, RC screens can be viewed from the DS device **or** from an RC phone, with slight differences."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:314
+msgid "RC 1"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:316
+msgid "Item 5 lists the Expansion Hub addresses and firmware levels. This example shows one Expansion Hub, but two can be listed here. A check-mark indicates all firmware is up-to-date based on the current version of the RC app. This item shows “N/A” if no Hubs are connected."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:321
+msgid "Item 10 ``RC Password`` appears only in RC Self Inspect, not in DS Self Inspect. It checks the FTC requirement for a Control Hub password different than the factory default (“password”). Although aimed only at the Control Hub, this item does appear on RC phones (as here) which don’t have a default password and thus always get the check-mark."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:327
+msgid "Item 14 ensures the RC app meets the minimum version **for the current FTC season**, based on the device’s system date. It does not check for a match with the DS app version. An “incorrect” red mark here can be cleared by correcting the date in the **Android device Settings**."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:332
+msgid "Item 15 verifies that the RC device does **not** have an DS app installed."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:336
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:343
+msgid "RC Self Inspect 2, appearing on DS phone paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:343
+msgid "RC 2"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:345
+msgid "This RC Self Inspect screen displayed on the paired DS phone is the “same” as the previous one on the RC phone, with two differences:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:348
+msgid "The 3-dots menu is missing from the header. This menu offered a single choice, to disconnect the Wi-Fi Direct. But this cannot be performed as an RC action, from a DS phone connected by that same Wi-Fi Direct."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:351
+msgid "Item 14 did not appear on the RC phone’s display of this RC Self Inspect. Here is the verification that the DS app and RC app have matching versions; in this case both apps are version 7.0. Any “Point mismatch” (e.g. 7.0 vs. 7.0.1) is allowed under updated FTC rules (was Q&A #176 for 2021-2022 season)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:358
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:365
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:375
+msgid "RC Self Inspect 3, appearing on RC phone paired with Driver Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:365
+msgid "RC 3a"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:367
+msgid "The above screen is the same as RC Self Inspect 1, where the DS device is a DS phone. See the notes there."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:375
+msgid "RC 3b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:377
+msgid "This is also the same screen, except the RC phone was connected to an internet router, while paired with a Driver Hub. The Standard Wi-Fi connection caused the RC phone to temporarily lose that pairing, which was able to be restored."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:382
+msgid "Item 12 shows the rejection: connected via Standard Wi-Fi, but **not** to an FTC DS device."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:386
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:393
+msgid "RC Self Inspect 4, appearing on Driver Hub paired to RC phone"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:393
+msgid "RC 4"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:395
+msgid "This display on a paired Driver Hub is the “same” RC Self Inspect screen as the one immediately above, but there are two differences:"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:398
+msgid "The 3-dots menu is missing from the header. This menu offered a single choice, to disconnect the Wi-Fi Direct. But this cannot be performed as an RC action, from a Driver Hub connected by that same Wi-Fi Direct."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:401
+msgid "Item 14 did not appear on the RC phone’s display of this RC Self Inspect. Here is the check for matching versions of the DS app and RC app. In this case, the DS app is 7.0.1 and the RC app is 7.0, rejected here as a mismatch. Such a “Point mismatch” is allowed under updated FTC rules (was Q&A #176 for 2021-2022 season)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:408
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:418
+msgid "RC Self Inspect 5, appearing on DS phone paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:410
+msgid "Looking now at the **Control Hub**, the Self Inspect screen has a few differences. In this example, the robot is configured with **two** Hubs."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:418
+msgid "RC 5b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:420
+msgid "Again the 3-dots menu is missing from the header. This menu offered a single choice, to disconnect the Wi-Fi Direct. But the Control Hub hosts with Standard Wi-Fi, not with Wi-Fi Direct. In any case, the connection cannot be managed as an RC action, from a DS phone using that same connection."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:425
+msgid "Item 3 appears only on RC Self Inspect screens for Control Hub. It verifies the Operating System is up-to-date for the current version of the RC app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:428
+msgid "``Location services`` does **not** appear here, since the Control Hub’s Android version (Item 4) is **lower** than Android 8."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:430
+msgid "Item 5 shows the firmware version of the Expansion Hub embedded in the Control Hub; it’s up-to-date for the current version of the RC app."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:433
+msgid "Item 6 shows the firmware version and address of the standalone Expansion Hub, also up-to-date."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:435
+msgid "Item 7 should always show a high battery charge here, indicating at least the nominal 12V charge level from the robot battery."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:437
+msgid "Note that ``Airplane Mode`` has been omitted from the RC inspection, only for Control Hub. FTC rules exclude the Driver Hub and Control Hub from the Airplane Mode requirement."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:440
+msgid "Item 9 does apply here to the Control Hub. Its password must be changed from the factory default (“password”)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:442
+msgid "Items 10 and 11 should be Yes and Yes for Control Hub, which uses only Standard/infra Wi-Fi. Item 11 does not indicate **what** the Control Hub is connected to (but it must be the DS phone displaying this screen)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:446
+msgid "Item 12 shows the Standard Wi-Fi **network name**, or Access Point (AP), that is broadcast by the Control Hub. The check-mark indicates the AP has a correctly formatted FTC name. This does **not** check that the DS and RC names match (team number). In fact, this DS phone is 2468-A-DS and this Control Hub is 9999-A-RC, an **illegal combination** to be flagged by the FTC team or the Robot Inspector."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:452
+msgid "Item 14 appears only on DS displays of RC Self Inspect. Here is the check for matching versions of DS app and RC app; in this case both apps are version 7.0. Any “Point mismatch” (e.g. 7.0 vs. 7.0.1) is allowed under updated FTC rules (was Q&A #176 for 2021-2022 season)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:456
+msgid "Item 15 verifies that an RC device does **not** have an DS app installed. This would be quite a mistake for a Control Hub, lacking an onboard screen."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:461
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:471
+msgid "RC Self Inspect 6, appearing on Driver Hub paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:463
+msgid "For a Control Hub, the Self Inspect categories displayed on Driver Hub are the same as on DS phone, immediately above."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:471
+msgid "RC 6b"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:473
+msgid "The only reporting difference here is the ‘mismatch’ between the Driver Hub’s DS app version of 7.0.1 and the Control Hub’s 7.0. This is likely to happen since Driver Hubs are typically auto-updated, in this case to a DS version intended only for old Android 6 phones. Such a “Point mismatch” is allowed under updated FTC rules (was Q&A #176 for 2021-2022 season)."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:485
+msgid "RC 6a"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:485
+msgid "RC Self Inspect 6, appearing on Driver Hub previously paired to Control Hub"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:487
+msgid "Lastly… with no active connection, a DS device cannot display any information about the RC device status."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:491
+msgid "Summary"
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:493
+msgid "The Self Inspect screen is a quick, handy reference to help teams confirm that certain control system elements are up-to-date and properly configured."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:497
+msgid "Self Inspect may be reviewed in Robot Inspection at an FTC tournament, but is **not** a comprehensive or official standard of compliance with FTC rules."
+msgstr ""
+
+#: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:506
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+msgstr ""

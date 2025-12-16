@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
+msgid "This document defines the FIRST Tech Challenge Field Coordinate System which can be used to specify position on the playing field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:4
+msgid "*FIRST* Tech Challenge Field Coordinate System Definition"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:9
+msgid "Summary: The *FIRST* Tech Challenge Field Coordinate System is a Cartesian Coordinate System of three dimensions. The X and Y axes will refer to a position on the field and the Z axis a height above the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:13
+msgid "Scope"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:15
+msgid "This document defines the Field Coordinate System for a *FIRST* Tech Challenge playing field. This definition can be used for consistent field-centric navigation, target localization and path planning."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:21
+msgid "Reference Frame"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:23
+msgid "The reference frame for this definition is the field perimeter wall, adjacent to the red Alliance Area, known here after as the Red Wall.  The definition is from the perspective of a person, standing outside the field, in the center of Red Wall, looking towards the center of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:29
+msgid "If the red Alliance Area is ever adjacent to two perimeter walls, the Red Wall will be the one with *most* contact with the Alliance Area. If the red Alliance Area is ever adjacent to two perimeter walls *equally*, then the most clockwise of the two walls will be considered to be the Red Wall."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:35
+msgid "Coordinate System"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:37
+msgid "The Field Coordinate System is a Cartesian Coordinate System of three dimensions. X and Y will refer to a position on the field. Z will refer to a height above the field. You may use any length measure as long as the same measure is used for all three axes. The coordinates are ordered (X, Y, Z). Example: coordinate position (10, -10, 0) has X = 10, Y = -10 and Z = 0."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:45
+msgid "Origin"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:47
+msgid "The 0,0,0 origin of the *FIRST* Tech Challenge coordinate system is the point in the center of the field, equidistant from all 4 perimeter walls (where the four center tiles meet). The origin point rests on the top surface of the floor mat."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:53
+msgid "X Axis"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:55
+msgid "Looking at the origin from the Red Wall, the X axis extends through the origin point and runs to the right and left, parallel with the Red Wall. The X axis values increase to the right."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:60
+msgid "Y Axis"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:62
+msgid "Looking at the origin from the Red Wall, the Y axis extends through the origin point and runs out and in, perpendicular to the Red Wall. Increasing Y values run out (away) from the Red Wall."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:67
+msgid "Z Axis"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:69
+msgid "Looking at the origin from the Red Wall, the Z axis extends through the origin point and runs up and down in a vertical line. Increasing Z values extend upwards."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:74
+msgid "Rotation About Axes"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:76
+msgid "When considering rotations about an axis, consider yourself looking down the axis from the positive end towards the origin. Positive rotations are then counterclockwise and negative rotations clockwise."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
+msgid "X, Y and Z coordinate axes."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:83
+msgid "Counterclockwise rotations about each axis"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:85
+msgid "Imagine looking down the positive Z axis towards the origin. This would be like standing in the middle of the field looking down. A positive rotation about the Z axis would be counterclockwise."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:89
+msgid "Example: a robot spinning clockwise on the Field is making a negative rotation about the Z axis."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:92
+msgid "Field Configuration Examples"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:94
+msgid "Below are two examples illustrating the Field Coordinate System for different *FIRST* Tech Challenge field configurations."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:98
+msgid "In both field configurations the red Alliance is facing out along the positive Y axis, and the Z axis points up from the center of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:102
+msgid "Diamond Field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
+msgid "A diamond field with X, Y and Z axes shown."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:107
+msgid "The FIRST RES-Q game field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:109
+msgid "In a diamond field configuration the two Alliance walls are adjacent. The field is rotated 45 degrees such that both Alliances face the audience. From the audience perspective the field forms a diamond shape. The Red Wall will be on the right as seen from the audience. The Y axis points across the field as seen from the Red Wall. The X axis points to the Blue Alliance."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:117
+msgid "Square Field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:0
+msgid "A square field with X, Y and Z axes shown."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:122
+msgid "The Into The Deep game field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:124
+msgid "In a square field configuration the two Alliances face each other across the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:126
+msgid "The field is oriented such that the Red Wall is on the right as seen from the audience."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:127
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:145
+msgid "The Y axis points across the field from the Red Wall towards the Blue Alliance."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:128
+msgid "The X axis points away from the audience to the rear of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:131
+msgid "Square Field (Inverted ALLIANCE AREA)"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:0
+msgid "A square field with X, Y and Z axes shown, with inverted ALLIANCE AREA."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:136
+msgid "The DECODE game field"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:138
+msgid "The DECODE game field is essentially a square field, but the red and blue ALLIANCE AREAS are swapped from their typical configuration (red ALLIANCE AREA on the left when viewed from the audience). In this configuration, the X and Y axes are \"inverted\" in which direction the positive axis points. This is still consistent with the field coordinate system definition, but the field is inverted."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:144
+msgid "The field is oriented such that the Red Wall is on the left as seen from the audience."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:146
+msgid "The X axis points towards the audience to the front of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:150
+msgid "Coordinate Position Example"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:152
+msgid "Let's consider the coordinates (-58.3727, 55.6425, 29.5) in inches on the DECODE field, which is a square field with inverted red/blue. Given the order of coordinates then X = -58.3727, Y = 55.6425, and Z = 29.5."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:155
+msgid "The X axis value of -58.3727 is located deep in the back (away from the Audience Wall) of the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:156
+msgid "The Y axis value of 55.6425 would be located closer to the Blue Wall, about a 3/4 tile length from the Blue wall."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:157
+msgid "The Z axis value of 29.5 is 29.5 inches above the field tiles."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:159
+msgid "This set of coordinates is the center of the Red Goal AprilTag on the Red Goal."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:162
+msgid "Measured Values"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:164
+msgid "The following metric values have been measured from a 2016 competition field. They are representative only, and should not be assumed to be exact, or guaranteed."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:167
+msgid "Distance between opposite inside faces of panels: 3580 mm, (if the field is assembled well: the straps give some adjustment tolerance)"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:169
+msgid "Polycarbonate transparencies have a visible opening height of 255 mm"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:170
+msgid "The top edge of transparencies is 30 mm from the top of the perimeter"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:171
+msgid "Total perimeter height is 313 mm"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:172
+msgid "Tiles are 13 mm thick"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:174
+msgid "So, for a diamond field configuration, the corner of the field closest to the audience, at a height equal to the top of the perimeter wall, would have a coordinate position of: (-1790, 1790, 300) in millimeters."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:179
+msgid "Additional Information"
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:181
+msgid "See this Wikipedia article on `Cartesian coordinate system <https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Three_dimensions>`__ in three dimensions. The Field Coordinate System rotation convention comes from the `right hand rule <https://en.wikipedia.org/wiki/Right-hand_rule>`__ of classic geometry."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:188
+msgid "Robots with a webcam can use :ref:`AprilTags <apriltag/vision_portal/apriltag_intro/apriltag-intro:apriltag introduction>` to determine where an :ref:`AprilTag is located <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:introduction>` with respect to the robot. Since AprilTags are in known locations on the field, you can also determine the :ref:`location of the robot <apriltag/vision_portal/apriltag_localization/apriltag-localization:apriltag localization>` on the field."
+msgstr ""
+
+#: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:196
+msgid "Robots can use an inertial measurement unit (IMU) to measure rotations about axes with respect to the robot. See :ref:`IMU axes definition. <programming_resources/imu/imu:axes definition>` The yaw value from the IMU, also known the heading, measures rotation about the Z axis which points up from the robot. You can use the IMU to determine which direction a robot is facing."
+msgstr ""
