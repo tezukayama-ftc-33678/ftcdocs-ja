@@ -177,7 +177,10 @@ docs/_build/
 # Ignore the generated `docs/build` output (HTML, static assets, etc.)
 docs/build/*
 
-# Allow tracking only the generated gettext PO/POT under docs/build/gettext
+# Allow tracking only gettext .po/.pot under docs/build/gettext
 !docs/build
 !docs/build/gettext/
-!docs/build/gettext/**
+# ignore everything under gettext (so we can selectively unignore .po/.pot)
+docs/build/gettext/**
+!docs/build/gettext/**/*.po
+!docs/build/gettext/**/*.pot
