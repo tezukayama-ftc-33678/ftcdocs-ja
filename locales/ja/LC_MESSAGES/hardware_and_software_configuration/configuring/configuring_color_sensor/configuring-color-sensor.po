@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:2
 msgid "Configuring a Color Distance Sensor"
-msgstr ""
+msgstr "色距離センサーの構成"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:4
 msgid ""
@@ -33,16 +33,18 @@ msgid ""
 "that in this tutorial, the word \"distance\" is used interchangeably with"
 " the word \"range\"."
 msgstr ""
+"**REV Robotics** 色距離センサーは I2C センサーです。実際には、2 つのセンサー機能を 1 つのデバイスに組み合わせたものです。これは、オブジェクトの色を判定できる色センサーです。また、短距離を測定するために使用できる距離またはレンジセンサーでもあります。このチュートリアルでは、「distance」という語は「range」という語と同じ意味で使用されていることに注意してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:12
 msgid "Configuring a Color Distance Sensor Instructions"
-msgstr ""
+msgstr "色距離センサーの構成手順"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:14
 msgid ""
 "1. Touch the words **I2C Bus 0** on the screen to launch the I2C "
 "configuration screen for this I2C bus."
 msgstr ""
+"1. 画面上の **I2C Bus 0** という語をタッチして、この I2C バスの I2C 構成画面を起動します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:22
 msgid ""
@@ -50,6 +52,7 @@ msgid ""
 "\"0\" through \"3\".  In this example, since you connected the Color "
 "Sensor to the port labeled \"0\", it resides on I2C Bus 0."
 msgstr ""
+"**Control Hub** または **Expansion Hub** には、「0」から「3」までのラベルが付いた 4 つの独立した I2C バスがあります。この例では、色センサーを「0」とラベル付けされたポートに接続したため、I2C Bus 0 に存在します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:24
 msgid ""
@@ -59,6 +62,7 @@ msgid ""
 "to determine the orientation of a robot, as well as measure the "
 "accelerations on a robot."
 msgstr ""
+"2. **I2C Bus 0** 画面を見てください。このバスには既にセンサーが構成されているはずです。**Control Hub** または **Expansion Hub** には、独自の内蔵慣性測定装置（**IMU**）センサーがあります。このセンサーは、ロボットの方向を決定するだけでなく、ロボットの加速度を測定するためにも使用できます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:35
 msgid ""
@@ -68,10 +72,11 @@ msgid ""
 " I2C Bus 0. You will need to add another I2C device for this bus to be "
 "able to configure the color sensor."
 msgstr ""
+"内蔵 **IMU** は、各 **Control Hub** または **Expansion Hub** の I2C Bus 0 に内部的に接続されています。**Robot Controller** を使用して **Control Hub** または **Expansion Hub** を構成するたびに、アプリは I2C Bus 0 の **IMU** を自動的に構成します。色センサーを構成できるようにするには、このバスに別の I2C デバイスを追加する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:37
 msgid "Press the **Add** button to add another I2C device to this bus."
-msgstr ""
+msgstr "**Add** ボタンを押して、このバスに別の I2C デバイスを追加します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:44
 msgid ""
@@ -79,10 +84,12 @@ msgid ""
 "new device. Use the touchscreen keyboard to name this device "
 "\"sensorColorRange\"."
 msgstr ""
+"4. この新しいデバイスのドロップダウンセレクターから「REV Color/Range Sensor」を選択します。タッチスクリーンキーボードを使用して、このデバイスに「sensorColorRange」という名前を付けます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:53
 msgid ""
 "5. Press the **Done** button to complete the I2C sensor configuration. "
 "The app should return to the previous screen."
 msgstr ""
+"5. **Done** ボタンを押して、I2C センサーの構成を完了します。アプリは前の画面に戻ります。"
 

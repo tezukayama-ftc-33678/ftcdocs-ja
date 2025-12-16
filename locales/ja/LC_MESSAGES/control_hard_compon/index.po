@@ -23,19 +23,21 @@ msgstr ""
 #: ../../source/control_hard_compon/index.rst:-1
 #: ../../source/control_hard_compon/index.rst:7
 msgid "Hardware Component Overview"
-msgstr ""
+msgstr "ハードウェアコンポーネントの概要"
 
 #: ../../source/control_hard_compon/index.rst:-1
 msgid ""
 "A detailed overview of the hardware components present in the FTC Control"
 " System"
 msgstr ""
+"FTC 制御システムに存在するハードウェアコンポーネントの詳細な概要"
 
 #: ../../source/control_hard_compon/index.rst:-1
 msgid ""
 "FTC Docs, FIRST Tech Challenge, FTC, Hardware Component, Control System, "
 "Overview"
 msgstr ""
+"FTC ドキュメント, FIRST Tech Challenge, FTC, ハードウェアコンポーネント, 制御システム, 概要"
 
 #: ../../source/control_hard_compon/index.rst:9
 msgid ""
@@ -44,4 +46,5 @@ msgid ""
 "section will give you a brief introduction to the hardware components, "
 "their various configurations, and connections."
 msgstr ""
+"**FIRST** Tech Challenge 制御システムは、2つの主要なコンポーネントに分かれています：**Driver Station** (DS) と **Robot Controller** (RC) です。このセクションでは、ハードウェアコンポーネント、さまざまな構成、および接続について簡単に説明します。"
 

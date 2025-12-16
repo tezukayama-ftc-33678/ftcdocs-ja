@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:2
 msgid "Connecting a Servo to the Hub"
-msgstr ""
+msgstr "サーボを Hub に接続する"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:4
 msgid ""
@@ -30,20 +30,22 @@ msgid ""
 "3-wire header style connectors commonly found on servos. Note that ground"
 " pin is on the left side of the servo port."
 msgstr ""
+"Hub には 6 つの内蔵サーボポートがあります。サーボポートは、サーボによく見られる標準の 3 線式ヘッダースタイルコネクタを受け入れます。グランドピンはサーボポートの左側にあることに注意してください。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:8
 msgid "Note that it will take an estimated 2.5 minutes to complete this task."
-msgstr ""
+msgstr "このタスクを完了するには、推定 2.5 分かかります。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:11
 msgid "Connecting a Servo to the Hub Instructions"
-msgstr ""
+msgstr "サーボを Hub に接続する手順"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:13
 msgid ""
 "1. Connect the servo cable to the servo port labeled \"0\" on the Hub. "
 "Note that the ground pin is on the left side of the servo port."
 msgstr ""
+"1. サーボケーブルを Hub の「0」とラベル付けされたサーボポートに接続します。グランドピンはサーボポートの左側にあることに注意してください。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_servo/connecting-servo.rst:21
 msgid ""
@@ -51,4 +53,5 @@ msgid ""
 "ground pin of the servo port (which is aligned on the left side of the "
 "port)."
 msgstr ""
+"2. サーボケーブルの黒いグランド線がサーボポートのグランドピン（ポートの左側に配置されている）と一致していることを確認します。"
 

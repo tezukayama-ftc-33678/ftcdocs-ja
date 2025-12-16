@@ -22,13 +22,14 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:2
 msgid "Configuring a DC Motor"
-msgstr ""
+msgstr "DC モーターの構成"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:4
 msgid ""
 "Now that you've created a file, you will need to add a DC Motor to the "
 "configuration file."
 msgstr ""
+"ファイルを作成したので、構成ファイルに DC モーターを追加する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:7
 msgid ""
@@ -39,16 +40,18 @@ msgid ""
 "<hardware_and_software_configuration/configuring/saving_config/saving-"
 "config:Saving the Configuration Information>` step."
 msgstr ""
+"この時点では、構成ファイルを作成しましたが、その内容をまだ **Robot Controller** に保存していません。構成ファイルは、後の :ref:`構成情報の保存 <hardware_and_software_configuration/configuring/saving_config/saving-config:Saving the Configuration Information>` ステップで保存します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:10
 msgid "Configuring a DC Motor Instructions"
-msgstr ""
+msgstr "DC モーターの構成手順"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:12
 msgid ""
 "1. Touch the word **Motors** on the screen to display the Motor "
 "Configuration screen."
 msgstr ""
+"1. 画面上の **Motors** という語をタッチして、モーター構成画面を表示します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:20
 msgid ""
@@ -56,16 +59,19 @@ msgid ""
 "the dropdown control for port 0 to select the motor type (Tetrix Motor "
 "for this example)."
 msgstr ""
+"2. モーターを **Expansion Hub** のポート #0 に取り付けたので、ポート 0 のドロップダウンコントロールを使用して、モータータイプ（この例では Tetrix Motor）を選択します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:29
 msgid ""
 "3. Use the touch screen keypad to specify a name for your motor "
 "(\"motorTest\" in this example)."
 msgstr ""
+"3. タッチスクリーンキーパッドを使用して、モーターの名前（この例では「motorTest」）を指定します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:37
 msgid ""
 "4. Press the **Done** button to complete the motor configuration. The app"
 " should return to the previous screen."
 msgstr ""
+"4. **Done** ボタンを押して、モーターの構成を完了します。アプリは前の画面に戻ります。"
 
