@@ -14,6 +14,7 @@ SIZEMAX       = 500
 
 AUTOBUILD = sphinx-autobuild
 HTMLBUILDDIR = build/html
+HTMLBUILDDIR_JA = build/html-ja
 LATEXBUILDDIR = build/latex/
 BOOKLETSBUILDDIR = build/booklets
 
@@ -28,6 +29,12 @@ setup:
 
 autobuild:
 	@$(AUTOBUILD) $(SOURCEDIR) $(HTMLBUILDDIR) --port=7350
+
+autobuild-ja:
+	@$(AUTOBUILD) -D language=ja $(SOURCEDIR) $(HTMLBUILDDIR_JA) --port=7351 --open-browser --watch ../locales
+
+html-ja:
+	@$(SPHINXBUILD) -b html -D language=ja $(SOURCEDIR) $(HTMLBUILDDIR_JA) $(SPHINXOPTS) $(O)
 
 --move-booklets:
 	mkdir -p $(BOOKLETSBUILDDIR)
@@ -46,7 +53,7 @@ local-full:
 imagecheck:
 	@$(SIZECHECKER) $(SOURCEDIR) $(SIZEMAX) $(CONFEXCLUDE) $(O)
 
-.PHONY: help autobuild Makefile
+.PHONY: help autobuild autobuild-ja html-ja Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).

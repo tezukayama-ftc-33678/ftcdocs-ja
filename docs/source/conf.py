@@ -400,7 +400,7 @@ autosectionlabel_maxdepth = 2
 
 # Add support for translations
 gettext_compact = False
-locale_dirs = ["locale/"]
+locale_dirs = ["locale/", "../../locales/"]
 
 rediraffe_redirects = "redirects.txt"
 rediraffe_branch = "origin/main"
