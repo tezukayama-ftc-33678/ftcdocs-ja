@@ -82,14 +82,14 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:4
 msgid ""
-"**FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new"
+"FIRST Tech Challenge introduces VisionPortal, a comprehensive new"
 " interface for vision processing."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:7
 msgid ""
 "For **FTC Blocks and Java** teams, VisionPortal offers key capabilities "
-"of **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object "
+"of AprilTag and EasyOpenCV, along with **TensorFlow Object "
 "Detection (TFOD)** – at the same time!"
 msgstr ""
 
@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:20
 msgid ""
-"**AprilTag** detections include ID code and **pose**: tag location and "
+"AprilTag detections include ID code and **pose**: tag location and "
 "orientation, relative to the camera."
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:59
 msgid ""
 "In preparation for the 2023-2024 CENTERSTAGE season, the new Software "
-"Development Kit (SDK) **VisionPortal** includes **built-in support for "
+"Development Kit (SDK) VisionPortal includes **built-in support for "
 "AprilTag technology**. Previously, Teams needed to download and "
 "incorporate external libraries, complicating the programming effort."
 msgstr ""

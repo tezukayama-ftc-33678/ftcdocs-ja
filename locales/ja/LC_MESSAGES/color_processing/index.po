@@ -103,7 +103,7 @@ msgstr ""
 
 #: ../../source/color_processing/index.rst:53
 msgid ""
-"**Color Locator** - gives detailed info on clusters of a specified color,"
+"Color Locator - gives detailed info on clusters of a specified color,"
 " in a specified zone"
 msgstr ""
 
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../source/color_processing/index.rst:59
 msgid ""
-"For the **Color Locator** processor, the color \"clusters\" are called "
+"For the Color Locator processor, the color \"clusters\" are called "
 "**Blobs**. As listed above, this tutorial offers one page on Color Blob "
 "Concepts, and four pages covering the Sample OpModes called "
 "``ConceptVisionColorLocator_Rectangle`` and "
@@ -146,7 +146,7 @@ msgstr ""
 
 #: ../../source/color_processing/index.rst:76
 msgid ""
-"Then read about **Color Blob Concepts**\\ , and try the **Color Locator**"
+"Then read about **Color Blob Concepts**\\ , and try the Color Locator"
 " Sample OpModes."
 msgstr ""
 

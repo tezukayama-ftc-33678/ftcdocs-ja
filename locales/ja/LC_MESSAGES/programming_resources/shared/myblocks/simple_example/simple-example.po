@@ -34,7 +34,7 @@ msgstr ""
 msgid ""
 "Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone. "
 "Go to the address **http://192.168.43.1:8080** (CH) or "
-"**http://192.168.49.1:8080** (RC), and click the **OnBot Java** tab."
+"**http://192.168.49.1:8080** (RC), and click the OnBot Java tab."
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:11
@@ -182,7 +182,7 @@ msgstr ""
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:124
 msgid ""
 "In the browser still connected to the RC phone or Control Hub, - click "
-"the **Blocks** tab - click **Create New OpMode**, name it "
+"the Blocks tab - click **Create New OpMode**, name it "
 "**Test_myBlocks_v01** - use the default Sample, called **BasicOpMode** - "
 "click **OK**"
 msgstr ""
@@ -205,7 +205,7 @@ msgstr ""
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:142
 msgid ""
 "To display the myBlock’s String or text output, look under **Utilities** "
-"for the **Telemetry** menu. Drag out the **Telemetry.addData** Block that"
+"for the Telemetry menu. Drag out the **Telemetry.addData** Block that"
 " **displays text** (not numbers)."
 msgstr ""
 

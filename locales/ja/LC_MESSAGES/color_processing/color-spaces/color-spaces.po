@@ -243,7 +243,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:130
 msgid ""
-"The **Color Locator** processor can use any of these three Color Spaces."
+"The Color Locator processor can use any of these three Color Spaces."
 "  The simple **Color Sensor** processor uses YCrCb internally, but "
 "reports results in RGB only."
 msgstr ""

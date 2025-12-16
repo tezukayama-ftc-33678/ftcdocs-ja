@@ -55,12 +55,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:22
-msgid "**Camera Stream** on Driver Station (DS) device – DS phone or Driver Hub"
+msgid "Camera Stream on Driver Station (DS) device – DS phone or Driver Hub"
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
 msgid ""
-"LiveView refers only to the **Robot Controller** preview (example shown "
+"LiveView refers only to the Robot Controller preview (example shown "
 "above). It’s completely separate from **DS Camera Stream**, which still "
 "operates normally even if LiveView is stopped (manually or "
 "automatically)."
@@ -156,7 +156,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:76
 msgid ""
-"A new feature of SDK 8.2, the Driver Station’s **Camera Stream** preview "
+"A new feature of SDK 8.2, the Driver Station’s Camera Stream preview "
 "can appear regular-size or **BIG**."
 msgstr ""
 

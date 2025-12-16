@@ -106,8 +106,8 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:58
 msgid ""
-"**Android Studio** users should **not** use the steps on this page to "
-"update the RC app, for the reasons described above. **Android Studio** "
+"Android Studio users should **not** use the steps on this page to "
+"update the RC app, for the reasons described above. Android Studio "
 "users must ensure that their Android Studio Projects are up to date with "
 "the desired version of the `SDK GitHub Repo <https://github.com/FIRST-"
 "Tech-Challenge/FtcRobotController>`__."
@@ -310,7 +310,7 @@ msgstr ""
 msgid ""
 "But this method does require the RC APK file to be stored in the Download"
 " (or Downloads) folder on the Driver Hub or DS phone. That’s correct: "
-"**Robot Controller APK** stored on the **Driver Station** device."
+"**Robot Controller APK** stored on the Driver Station device."
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:186
