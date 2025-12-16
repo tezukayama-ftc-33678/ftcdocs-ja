@@ -12,14 +12,14 @@ TRANSLATION_GUIDE.md に準拠し、翻訳の一貫性を保つために使用�
 #### API/クラス名
 | 英語 | 表記 | 備考 |
 |------|------|------|
-| OpMode | OpMode | コードに登場する固有名詞（英語のまま表記） |
-| OpMode | Op Mode | コードに登場する固有名詞（英語のまま表記） |
-| LinearOpMode | LinearOpMode | コードに登場する固有名詞（英語のまま表記） |
-| Telemetry | Telemetry | コードに登場する固有名詞（英語のまま表記） |
-| HardwareMap | HardwareMap | コードに登場する固有名詞（英語のまま表記） |
-| Robot Controller | Robot Controller | アプリ名（英語のまま表記） |
-| Driver Station | Driver Station | アプリ名（英語のまま表記） |
-| VisionPortal | VisionPortal | API名（英語のまま表記） |
+| OpMode | OpMode | コードに登場する固有名詞 |
+| OpMode | Op Mode | コードに登場する固有名詞 |
+| LinearOpMode | LinearOpMode | コードに登場する固有名詞 |
+| Telemetry | Telemetry | コードに登場する固有名詞 |
+| HardwareMap | HardwareMap | コードに登場する固有名詞 |
+| Robot Controller | Robot Controller | アプリ名 |
+| Driver Station | Driver Station | アプリ名 |
+| VisionPortal | VisionPortal | API名 |
 
 #### 制御モード
 | 英語 | 表記 | 備考 |
@@ -146,10 +146,12 @@ TRANSLATION_GUIDE.md に準拠し、翻訳の一貫性を保つために使用�
 - 「あなた」や「君」といった呼びかけは避ける
 
 ### 技術用語の扱い
-1. コード内のクラス名、API名は英語のまま表記（太字にする必要はありません）
-2. 製品名は英語のまま表記（太字にする必要はありません）
+1. コード内のクラス名、API名は英語のまま表記
+2. 製品名は英語のまま表記
 3. 一般的な技術用語は適切に和訳またはカタカナ表記
 4. 長音符号（ー）は省略しない（例: パラメーター、コンピューター）
+
+**注**: 以前は API 名・製品名を太字にするルールがありましたが、RST 記法との兼ね合いでビルドエラーが発生するため、このルールは廃止されました。
 
 ### 句読点
 - 読点：「、」
