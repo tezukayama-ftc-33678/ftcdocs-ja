@@ -35,7 +35,7 @@ msgid ""
 "resources.firstinspires.org/ftc/team/robot-wires>`__ for more "
 "information)."
 msgstr ""
-"Hub は Hub あたり最大 4 つの 12V DC モーターを駆動できます。Hub は 2 ピン JST VH コネクタとして知られる電気コネクタの一種を使用します。**FIRST** 承認の 12V DC モーターの多くは Anderson Powerpole コネクタを装備しています。アダプターケーブルを使用して、Anderson Powerpole コネクタを Hub モーターポートに接続できます（詳細については `FIRST Tech Challenge Robot Wiring Guide (PDF) <https://ftc-resources.firstinspires.org/ftc/team/robot-wires>`__ を参照してください）。"
+"Hub は Hub あたり最大 4 つの 12V DC モーターを駆動できます。Hub は 2 ピン JST VH コネクタとして知られる電気コネクタの一種を使用します。FIRST 承認の 12V DC モーターの多くは Anderson Powerpole コネクタを装備しています。アダプターケーブルを使用して、Anderson Powerpole コネクタを Hub モーターポートに接続できます（詳細については `FIRST Tech Challenge Robot Wiring Guide (PDF) <https://ftc-resources.firstinspires.org/ftc/team/robot-wires>`__ を参照してください）。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:-1
 msgid "Simple test rig with motor mounted to some Tetrix channel"
@@ -50,7 +50,7 @@ msgid ""
 "C-channels. A gear was mounted on the motor shaft to make it easier for "
 "the user to see the rotation of the shaft."
 msgstr ""
-"このチュートリアルの例では、**FIRST** は、テスト実行中にモーターを所定の位置に固定し、動き回らないようにするシンプルなリグを構築することを推奨しています。上の画像は、Tetrix モーターマウントといくつかの Tetrix C チャネルで構築されたリグに取り付けられた Tetrix モーターを示しています。シャフトの回転を見やすくするために、モーターシャフトにギアが取り付けられています。"
+"このチュートリアルの例では、FIRST は、テスト実行中にモーターを所定の位置に固定し、動き回らないようにするシンプルなリグを構築することを推奨しています。上の画像は、Tetrix モーターマウントといくつかの Tetrix C チャネルで構築されたリグに取り付けられた Tetrix モーターを示しています。シャフトの回転を見やすくするために、モーターシャフトにギアが取り付けられています。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:25
 msgid "Note that it will take an estimated 2.5 minutes to complete this task."
@@ -88,5 +88,5 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-motor.rst:-1
 msgid "Shows the JST VH white connector of the cable plugged into the Control Hub"
-msgstr "**Control Hub** に接続されたケーブルの JST VH 白コネクタを示しています"
+msgstr "Control Hub に接続されたケーブルの JST VH 白コネクタを示しています"
 
