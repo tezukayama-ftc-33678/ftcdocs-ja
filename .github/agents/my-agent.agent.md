@@ -5,7 +5,7 @@
 # For format details, see: https://gh.io/customagents/config
 
 name:Translation-ja
-description:日本語翻訳用
+description:翻訳用
 ---
 
 # My Agent
