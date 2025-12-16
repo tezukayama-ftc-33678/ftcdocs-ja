@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:2
 msgid "Connecting a Color-Distance Sensor to the Hub"
-msgstr ""
+msgstr "色距離センサーを Hub に接続する"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:4
 msgid ""
@@ -30,24 +30,27 @@ msgid ""
 "Hub. We will connect a REV Robotics Color-Distance sensor to the I2C bus "
 "#0 on the Hub."
 msgstr ""
+"Hub には 4 つの独立した I2C バスがあります。各バスには Hub 上に独自のポートがあります。**REV Robotics** 色距離センサーを Hub の I2C バス #0 に接続します。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:8
 msgid "Note that it will take an estimated 2.5 minutes to complete this task."
-msgstr ""
+msgstr "このタスクを完了するには、推定 2.5 分かかります。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:12
 msgid "Connecting a Color-Distance Sensor to the Hub Instructions"
-msgstr ""
+msgstr "色距離センサーを Hub に接続する手順"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:14
 msgid ""
 "1. Connect one end of the 4-pin JST PH cable to the REV Robotics Color-"
 "Distance sensor."
 msgstr ""
+"1. 4 ピン JST PH ケーブルの一端を **REV Robotics** 色距離センサーに接続します。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:22
 msgid ""
 "2. Plug the other end of the 4-pin JST PH cable to the I2C port labeled "
 "\"0\" on the Hub."
 msgstr ""
+"2. 4 ピン JST PH ケーブルのもう一方の端を Hub の「0」とラベル付けされた I2C ポートに接続します。"
 
