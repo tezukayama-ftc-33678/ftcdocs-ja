@@ -22,64 +22,64 @@ msgstr ""
 
 #: ../../source/_templates/footer.html:4
 msgid "Footer"
-msgstr ""
+msgstr "フッター"
 
 #: ../../source/_templates/footer.html:6
 msgid "Previous"
-msgstr ""
+msgstr "前へ"
 
 #: ../../source/_templates/footer.html:9
 msgid "Next"
-msgstr ""
+msgstr "次へ"
 
 #: ../../source/_templates/footer.html:24
 #, python-format
 msgid "&#169; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
-msgstr ""
+msgstr "&#169; <a href=\"%(path)s\">Copyright</a> %(copyright)s."
 
 #: ../../source/_templates/footer.html:26
 #, python-format
 msgid "%(copyright)s"
-msgstr ""
+msgstr "%(copyright)s"
 
 #: ../../source/_templates/footer.html:45
 msgid "Build"
-msgstr ""
+msgstr "ビルド"
 
 #: ../../source/_templates/footer.html:51
 msgid "Revision"
-msgstr ""
+msgstr "リビジョン"
 
 #: ../../source/_templates/footer.html:56
 #, python-format
 msgid "Last updated on %(last_updated)s."
-msgstr ""
+msgstr "最終更新日: %(last_updated)s"
 
 #: ../../source/_templates/versions.html:12
 msgid "Languages"
-msgstr ""
+msgstr "言語"
 
 #: ../../source/_templates/versions.html:22
 msgid "Versions"
-msgstr ""
+msgstr "バージョン"
 
 #: ../../source/_templates/versions.html:32
 msgid "Downloads"
-msgstr ""
+msgstr "ダウンロード"
 
 #: ../../source/_templates/versions.html:40
 msgid "On Read the Docs"
-msgstr ""
+msgstr "Read the Docs 上"
 
 #: ../../source/_templates/versions.html:42
 msgid "Project Home"
-msgstr ""
+msgstr "プロジェクトホーム"
 
 #: ../../source/_templates/versions.html:45
 msgid "Builds"
-msgstr ""
+msgstr "ビルド"
 
 #: ../../source/_templates/versions.html:50
 msgid "Created by FTC Docs Development Team"
-msgstr ""
+msgstr "FTC Docs Development Team により作成"
 
