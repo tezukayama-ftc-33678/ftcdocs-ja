@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:2
+msgid "3D Printing Introduction"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:11
+msgid "Example of 3D printed parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:11
+msgid "3D printed dead wheel odometry parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:16
+msgid "3D Printing Methods"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:18
+msgid ""
+"There are numerous kinds of 3D printing, but for FTC there are only a few"
+" that are practical. The most common is **Fused Deposition Modeling "
+"(FDM)**. FDM printers melt a plastic filament and extrude it through a "
+"nozzle, which moves around to create the part. FDM printers are the most "
+"common type of printer used, and the most practical for robotics teams, "
+"so this guide will focus on them."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:28
+msgid "FDM printer"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:28
+msgid "FDM printer printing a part"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:32
+msgid ""
+"Other types of printers include SLA (Stereolithography) and SLS "
+"(Selective Laser Sintering), however these are often more expensive, "
+"difficult to use, and have less use in FTC, although they have a few "
+"specific niches, such as very high precision details."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:41
+msgid "Resin spool"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:41
+msgid "SLA Resin printed lift string spools"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:46
+msgid "3D Printing Pros"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:48
+msgid ""
+"3D printed parts can be infinitely customized and optimized for a "
+"specific purpose. This can be used to create pulleys or gears with a "
+"specific number of teeth, or a part that fits perfectly in a specific "
+"place."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:50
+msgid ""
+"3D printing can be used to create parts that adapt between different "
+"build systems or standards. Many build systems contain their own "
+"standards for mounting holes, shaft sizes, or other dimensions. 3D "
+"printing can be used to create parts that adapt between these standards."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:53
+msgid ""
+"3D printing can be used to make parts relatively quickly and cheaply. "
+"This is especially useful for prototyping new designs, or iterating on a "
+"design to make it better at little cost and in a short amount of time."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:57
+msgid "3D Printing Cons"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:59
+msgid ""
+"3D printed parts are often not as strong as machined or cut parts. This "
+"is especially true for FDM printers, which have a layer-by-layer "
+"structure that can be a weak point if the part is loaded in a certain "
+"way. If consideration is given to this weakness when designing the part, "
+"however, the result can be made very strong."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:62
+msgid ""
+"A 3D printed part can only be as large as the print bed it is printed on."
+" This means that large parts may need to be printed in multiple pieces "
+"and assembled later."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:64
+msgid ""
+"3D printing can be slow, especially for large parts. Longer prints can "
+"take hours or even days to complete, raising the risk of a print failing "
+"and wasting time and material."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:66
+msgid ""
+"3D printing can be expensive. The cost of a printer, filament, and other "
+"materials can add up quickly. However, the cost of a 3D printer has been "
+"decreasing rapidly, and filament is relatively cheap."
+msgstr ""
+

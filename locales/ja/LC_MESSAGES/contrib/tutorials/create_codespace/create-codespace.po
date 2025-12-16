@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:2
+msgid "Creating a Codespace"
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:3
+msgid ":bdg-success:`Repeat` :bdg-info:`Codespaces`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:5
+msgid ""
+"For every new branch you make in your repository, you must create a new "
+"codespace. This is a virtual environment that will allow you to run your "
+"code and test it before merging it into the main branch. It may take a "
+"few minutes to create the codespace, but once it is created, you can "
+"access it from the browser and subsequent access will be much faster."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:10
+msgid "Steps"
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:12
+msgid "Open your **forked** repository in GitHub."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:13
+msgid "On the left side of the page select the branch you want to work on."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst
+msgid "Screen shot showing the Demo branch is selected."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:18
+msgid ""
+"Click on the green Code button which will display a Local and a "
+"Codespaces tab, then click the Codespaces tab."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst
+msgid "Screen shot showing the Codespace tab being clicked."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:23
+msgid "Click on the green button that says \"Create codespace on\"."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst
+msgid "Screen shot showing the green button that says create codespace on."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:28
+msgid "Wait for the codespace to be created. This may take a few minutes."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:29
+msgid ""
+"Once the codespace is created, you will be taken to the codespace in your"
+" browser. This is a browser based version of VS Code that can be used to "
+"make your changes and build the HTML pages to review your changes."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:31
+msgid ""
+"Enter ``CTRL + SHIFT + B`` to build the project. You can also run the "
+"build task from the Terminal menu."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst
+msgid "Screen shot of Terminal menu with Run Build Task selected."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:36
+msgid ""
+"The build messages will be displayed. Look to see a \"build succeeded\" "
+"message. Then a pop up will indicate an application is running."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst
+msgid "Screen shot of build messages with Open in Browser button."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:42
+msgid ""
+"If you click the Open in Browser button a new tab will open displaying "
+"the HTML pages you just built."
+msgstr ""
+
+#: ../../source/contrib/tutorials/create_codespace/create-codespace.rst:44
+msgid ""
+"You can now make your changes. See the section on "
+":doc:`/contrib/tutorials/make_rst/index`."
+msgstr ""
+

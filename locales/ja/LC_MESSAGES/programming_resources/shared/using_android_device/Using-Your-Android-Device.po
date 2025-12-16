@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:2
+msgid "Using Your Android Device"
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:4
+msgid ""
+"Before you get started with your control system, it is helpful if you "
+"familiarize yourself with the basic operation of your Android device."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:8
+msgid "REV Robotics Driver Hub"
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:10
+msgid ""
+"Teams who are using the REV Robotics Driver Hub as their DRIVER STATION "
+"should refer to the `official documentation from REV Robotics "
+"<https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ for "
+"instructions on how to set up and use the REV Robotics Driver Hub."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:15
+msgid "Android Smartphone"
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:17
+msgid ""
+"While not recommended, the Competition Manual does allow select Android "
+"smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule "
+"R704 for the full details."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:22
+msgid "Unlocking Your Screen"
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:24
+msgid ""
+"When you first power on an Android phone, it usually starts off with the "
+"screen in a \"locked\" state. For the Motorola smartphones that are used "
+"in the *FIRST* Tech Challenge, you must touch the locked screen and then "
+"slide your finger upwards along the screen to unlock the phone. Note that"
+" different devices might require a slightly different procedure to unlock"
+" the screen."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:36
+msgid ""
+"Depending on your security settings, you might be challenged for a pass "
+"code or PIN number. Use the touch screen to enter in the pass code or PIN"
+" value and tap on the check mark to log into the device."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:46
+msgid "Navigating in Android"
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:48
+msgid ""
+"Your phone should display its home screen if you just powered it on and "
+"unlocked it. Note that the actual screens on your smartphone might differ"
+" slightly from the screens depicted in this tutorial."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:62
+msgid ""
+"At the bottom of the screen there should be some buttons that you can use"
+" to navigate the screens on your Android device."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:70
+msgid ""
+"The leftmost button (see image above) is the \"Back\" button. You can use"
+" this button to return to the previous screen on your Android device."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:73
+msgid ""
+"The center button is the \"Home\" button. Pressing this button should "
+"take you back to the home or opening screen of your Android device."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:76
+msgid ""
+"The rightmost button is the \"Recent Apps\" button. If you click on this "
+"button it will display the apps that were recently run and are dormant in"
+" the background. You can close a recent app by tapping the \"X\" button "
+"on the app's listing."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:86
+msgid ""
+"Note that some Android smartphones have an auto-hide feature which "
+"automatically hides the bottom navigation buttons. If your smartphone has"
+" this feature, you might need to swipe up from the bottom of the screen "
+"to display the navigation buttons."
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:92
+msgid "Displaying Available Apps on your Android Phone"
+msgstr ""
+
+#: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:94
+msgid ""
+"If you are using a device with Android Nougat (7.x) or newer, you can "
+"display the available apps by simply swiping upwards from the bottom of "
+"the touchscreen. Newer versions of Android no longer have the *App "
+"Drawer* feature."
+msgstr ""
+

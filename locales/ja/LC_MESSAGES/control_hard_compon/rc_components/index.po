@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/control_hard_compon/rc_components/index.rst:-1
+msgid "FTC Robot Controller Overview, FTC Docs"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:-1
+msgid "A Visual Overview of the FTC Robot Controller"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:-1
+msgid ""
+"FTC, FIRST Tech Challenge, RC, Robot Controller, Control Hub, Expansion "
+"Hub"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:8
+msgid "Robot Controller Overview"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:10
+msgid ""
+"These images represent a basic connection diagram for the components that"
+" have typically been included in a standard Robot Starter Kit plus the "
+"components purchased from the *FIRST* Storefront (demonstrating "
+"components from the REV and Tetrix starter kits, along with the "
+"Electronics kit). These configurations show sample connections, and in no"
+" way represent the only possible way of connecting these components.  In "
+"both diagrams is an extra optional REV Expansion Hub that has NOT been "
+"included with standard starter kits nor electronics kits; it is included "
+"in these diagrams as a sample of how to connect an additional optional "
+"REV Expansion Hub if one is available and desired."
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:21
+msgid ""
+"Click on the headers below to switch between the different control system"
+" configuration diagrams."
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst
+msgid "Control Hub"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:28
+msgid ":download:`Control Hub B1 - Basic Config<files/B1.pdf>`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst
+msgid "Basic Control Hub RC Diagram"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:34
+#: ../../source/control_hard_compon/rc_components/index.rst:44
+#: ../../source/control_hard_compon/rc_components/index.rst:54
+#: ../../source/control_hard_compon/rc_components/index.rst:64
+msgid "Diagrams courtesy of FRC Team 3161 and Stefen Acepcion"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:38
+msgid ":download:`Control Hub B2 - Advanced Config<files/B2.pdf>`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst
+msgid "Advanced Control Hub RC Diagram"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst
+msgid "Android Phone / Hub"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:48
+msgid ":download:`Android Phone A1 - Basic Config<files/A1.pdf>`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst
+msgid "Basic Android Phone RC Diagram"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:58
+msgid ":download:`Android Phone A1 - Advanced Config<files/A2.pdf>`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst
+msgid "Advanced Android Phone RC Diagram"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst
+msgid "License"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:68
+msgid ":download:`License and Attribution<../license/sa_license.pdf>`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst
+msgid "License Info"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/index.rst:74
+msgid "Diagram courtesy of FRC Team 3161 and Stefen Acepcion"
+msgstr ""
+

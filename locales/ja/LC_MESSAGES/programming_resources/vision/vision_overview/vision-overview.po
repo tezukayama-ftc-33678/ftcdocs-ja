@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:2
+msgid "Computer Vision Overview"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:7
+msgid ""
+"The *FIRST* Tech Challenge control system software has built-in support "
+"for two computer vision technologies:"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:10
+msgid ""
+"AprilTags - :doc:`AprilTags "
+"<../../../apriltag/vision_portal/apriltag_intro/apriltag-intro>` are "
+"fiducial markers similar in design to a QR code that can be used for "
+"identification and localization. AprilTags are used as reference points "
+"for autonomous navigation and for assisted navigation and identification "
+"of points of interest on a game field."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:17
+msgid ""
+"Each season, *FIRST* provides 2D image tagets that can be used as "
+"navigational reference points."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:19
+msgid ""
+"If the AprilTag system recognizes an AprilTag image, it provides very "
+"accurate pose information (assuming the camera used has calibration "
+"parameters for the working resolution) about the robot’s position "
+"relative to the target."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:23
+msgid "A robot can use this information to navigate autonomously on the field."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:26
+msgid ""
+"Color Processing - :doc:`Color Processing </color_processing/index>` is a"
+" feature in the *FIRST* Tech Challenge SDK that provides the ability to "
+"process colors using `OpenCV <https://opencv.org/>`__."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:31
+msgid ""
+"Color Sensor can detect the exact color in an image, which can help "
+"determine what is in front of a robot."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:33
+msgid ""
+"Color Locator can look for a specific color and return information about "
+"the size, shape and location of the color in the camera frame."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:35
+msgid "A robot can use this information to navigate to the recognized object."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:39
+msgid "AprilTags vs Color Processing"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:42
+msgid "AprilTag Advantages"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:44
+msgid ""
+"Very efficient with a fast detection rate (estimated 15 to 20 detections "
+"per second, depending on decimation and target size)."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:46
+msgid ""
+"Provides accurate, relative pose information of camera to target in field"
+" coordinates."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:48
+msgid "Is less prone to fluctuating or varied lighting conditions on the field."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:55
+msgid "AprilTag can provide accurate pose information to target"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:59
+msgid "AprilTag Disadvantages"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:61
+msgid ""
+"The entire AprilTag must be in the camera view in order to be recognized,"
+" any occlusions render the object unprocessable."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:63
+msgid ""
+"AprilTags must be included in the tag library in order to process pose "
+"information for the tag (tag size and value must be known to the AprilTag"
+" system in advance)."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:66
+msgid ""
+"Cameras require calibration data for every resolution used in order to "
+"process correct pose information."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:73
+msgid "AprilTags not in Tag Library detected, but no pose data available"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:76
+msgid "Color Processing Advantages"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:78
+msgid "Color Processing looks for colors, not specific images."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:80
+msgid "Recognizes objects in spite of different backgrounds."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:81
+msgid "Recognizes objects both up close and further away."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:82
+msgid "Recognizes objects even when objects are oriented in different positions."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:85
+msgid ""
+"Pre-defined colors are included in the *FIRST* Tech Challenge SDK that "
+"have already been tested on season-specific game elements."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:89
+msgid "Color Processing Disadvantages"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:91
+msgid "Color Processing can be sensitive to different lighting conditions."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:92
+msgid ""
+"If Color Processing recognizes an object in its field of view, it only "
+"returns location information on where the target object is within its "
+"field of view."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:100
+msgid ""
+"Color Processing can recognize actual objects (and not just 2D image "
+"targets)."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:106
+msgid "Color Processing can recognize the shape of the object."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:109
+msgid "Which Should I Use?"
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:111
+msgid ""
+"The choice of whether to use AprilTags or Color Processing will be "
+"influenced by factors such as distance-to-target, lighting, accuracy "
+"required, camera placement and etc.."
+msgstr ""
+
+#: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:115
+msgid ""
+"If the object and tag can always be guaranteed to be in a specific "
+"orientation and the tag fully visible, AprilTags are likely the best "
+"solution. However, if the object does not belong to you or a tag is not "
+"able to be physically placed on the object, Color Processing can be a "
+"good solution."
+msgstr ""
+

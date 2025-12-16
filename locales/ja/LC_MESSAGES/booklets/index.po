@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/booklets/index.rst:2
+msgid "Booklets"
+msgstr ""
+
+#: ../../source/booklets/index.rst:4
+msgid ""
+"More 'bite-sized' versions of the FTC Docs. These are meant to be printed"
+" out and used as a reference for teams."
+msgstr ""
+
+#: ../../source/booklets/index.rst:11
+msgid "Control System"
+msgstr ""
+
+#: ../../source/booklets/index.rst:13
+msgid ""
+"`Control System <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/control_system.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:16
+msgid "Manufacturing"
+msgstr ""
+
+#: ../../source/booklets/index.rst:17
+msgid ""
+"`3D Printing Guide <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/3d_printing.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:18
+msgid ""
+"`Electrostatic Discharge <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/esd.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:21
+msgid "Programming Resources"
+msgstr ""
+
+#: ../../source/booklets/index.rst:22
+msgid ""
+"`Programming Resources <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:23
+msgid ""
+"`Android Studios Manual <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/android_studios.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:24
+msgid ""
+"`OnBot Java Manual <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/onbot_java.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:25
+msgid "`Blocks Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:27
+msgid ""
+"`April Tags <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/april_tags.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:28
+msgid ""
+"`Advanced User <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/advanced.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:29
+msgid "`FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_"
+msgstr ""
+
+#: ../../source/booklets/index.rst:32
+msgid "Contributing"
+msgstr ""
+
+#: ../../source/booklets/index.rst:34
+msgid ""
+"`Contributor Guide <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/contrib.pdf>`_"
+msgstr ""
+

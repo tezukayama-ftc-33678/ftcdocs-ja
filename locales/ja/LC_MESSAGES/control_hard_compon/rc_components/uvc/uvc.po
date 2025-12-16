@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:2
+msgid "UVC Webcam"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:4
+msgid ""
+"A webcam is a device that provides visual images of the surrounding "
+"environment. UVC, or USB Video Class, is a standard that allows USB "
+"devices, like webcams and digital cameras, to stream video to computers "
+"without needing special drivers. For use as part of *FIRST* Tech "
+"Challenge teams must use a commercially available off-the-shelf (COTS) "
+"USB Video Class `(UVC) <https://www.usb.org/document-library/video-"
+"class-v15-document-set>`_ compatible camera. This device can be connected"
+" directly to the REV Control Hub or to the Robot Control system via a USB"
+" hub."
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:18
+msgid "Budget Webcam"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst
+msgid "Example budget UVC webcam"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:30
+msgid ":ref:`logitech_c270_label`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:36
+msgid "Mid-range Webcam"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst
+msgid "Example mid-range UVC webcam"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:48
+msgid ":ref:`logitech_c920_label`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:50
+msgid ""
+"Webcams are intended to be used in computer vision related tasks. Example"
+" use cases for a webcam are:"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:53
+msgid ""
+":doc:`detecting "
+"<../../../apriltag/understanding_apriltag_detection_values/understanding-"
+"apriltag-detection-values>` an AprilTag,"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:54
+msgid ""
+"determining where the robot is :doc:`located "
+"<../../../apriltag/vision_portal/apriltag_localization/apriltag-"
+"localization>` on the field,"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:55
+msgid ""
+"using OpenCV to :doc:`detect colors or shapes "
+"<../../../color_processing/index>` of game elements."
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:58
+msgid "Additional Resources"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:60
+msgid ""
+"A :doc:`list of webcams "
+"<../../../apriltag/vision_portal/visionportal_webcams/visionportal-"
+"webcams>` known to be compatible with VisionPortal."
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:61
+msgid ""
+":ref:`Connecting UVC Camera via Powered USB Hub "
+"<hardware_and_software_configuration/configuring/configuring_uvc_camera"
+"/configuring-uvc-camera:configuring an external uvc camera and a powered "
+"usb hub>`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:62
+msgid ""
+":ref:`Connecting UVC Camera directly to REV Control Hub "
+"<hardware_and_software_configuration/configuring/configuring_external_webcam"
+"/configuring-external-webcam:configuring an external webcam with a "
+"control hub>`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:63
+msgid ""
+":ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:USB Ports>`"
+msgstr ""
+
+#: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:64
+msgid ""
+":ref:`Vision in FIRST Tech Challenge <programming_resources/index:vision "
+"programming>`"
+msgstr ""
+

@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:2
+msgid "Example 3D Printed Parts"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:4
+msgid ""
+"Here are some example parts that your team could make with a 3d printer "
+"to either save funds or improve on customizability."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:7
+msgid "Mounting Brackets"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:9
+msgid ""
+"One of the most common uses, 3D Prints can be used to make mounting "
+"brackets for motors, servos, electrical parts, bearings, and various "
+"other objects. This provides teams with a great control of precision over"
+" how they mount things, and a decreased part count over commercial parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:18
+msgid "3d printed Power Switch Mounting Bracket"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:18
+msgid "A Power Switch Mounting Bracket."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:21
+msgid "Pulleys and Gears"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:23
+msgid ""
+"3D Prints can also be used to make your own pulleys and gears. Not only "
+"is this a great option for achieving optimal speed and torque ratios, but"
+" they save cost as well! A metal pulley typically costs around $10, while"
+" a printed one can be as low as 20 cents."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:32
+msgid "3d printed Pulley with a custom bearing mount on a mecanum wheel"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:32
+msgid "An example Deadaxle Mecanum setup with a custom 3d printed pulley."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:36
+msgid "Spacers and Shims"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:38
+msgid ""
+"Another common way to utilize 3D prints is to create spacers and shims to"
+" constrain objects on your robot, this is both lighter, simpler, and most"
+" cost effective (although not always preferred!) than using collars or "
+"clamping mounts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:47
+msgid "An Intake with example 3d printed spacers"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:47
+msgid ""
+"An FTC FREIGHT FRENZY intake utilizing 3d printed spacers to space out "
+"intake wheels."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:52
+msgid "Scoring Mechanisms"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:54
+msgid ""
+"Teams also often use 3D Prints to precisely grip and control each year's "
+"game elements. A common way to do this is a custom shaped claw."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:62
+msgid "An render of a 3d printed claw."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:62
+msgid "Rendered FTC ULTIMATE GOAL Wobble Goal arm with 3d printed claw parts."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:64
+msgid ""
+"Another common method of using 3D Prints is for creating custom intakes, "
+"primarily surgical tubing."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:71
+msgid "A render of surgical tubing mounts for an intake."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:71
+msgid "Rendered example surgical tubing mounts for an FTC FREIGHT FRENZY intake."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:74
+msgid "Robot Aesthetics"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:76
+msgid ""
+"3D Prints can do a whole ton for a robot's aesthetics as well. While it's"
+" more advanced, multicolor printing like shown below is a great option "
+"for teams that like making their robots look good!"
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:85
+msgid "6 multicolor square 3d printed logos."
+msgstr ""
+
+#: ../../source/manufacturing/3d_printing/3d_printed_parts/3d_printed_parts.rst:85
+msgid ""
+"This FTC Team printed their sponsors logos in multiple colors to "
+"represent them!"
+msgstr ""
+

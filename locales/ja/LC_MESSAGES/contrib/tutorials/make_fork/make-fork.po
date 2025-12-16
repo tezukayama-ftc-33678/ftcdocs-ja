@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:2
+msgid "Forking FTC Docs"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:3
+msgid ":bdg-danger:`One Time Only` :bdg-info:`Codespaces` :bdg-warning:`Local`"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:6
+msgid ""
+"This following assumes you have already created a GitHub account. If you "
+"have not, please `create one <https://github.com/join>`_"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:8
+msgid ""
+"Forking a repository is a simple process. It creates a copy of the "
+"repository in your account, and you can make changes to it without "
+"affecting the original repository. You can also submit a pull request to "
+"the original repository to propose changes to the original repository. It"
+" also allows you to easily keep your forked repository up to date with "
+"the original repository."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:12
+msgid "Steps"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:14
+msgid ""
+"Go to the repository you want to fork. In this case, it is the FTC Docs "
+"`repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:21
+msgid "FTC Docs Repository"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:21
+msgid "The Official FTC Docs GitHub Repository"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:23
+msgid "Follow the steps shown below to fork the repository."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:30
+msgid "Forking the Repository"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:30
+msgid "Click the \"Create Fork\" button to create a fork of the repository."
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:37
+msgid "Forked Repository"
+msgstr ""
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:39
+msgid ""
+"For more information on forking a repository, visit the `GitHub "
+"Documentation <https://docs.github.com/en/get-"
+"started/quickstart/fork-a-repo>`_."
+msgstr ""
+
