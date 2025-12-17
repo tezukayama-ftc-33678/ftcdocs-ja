@@ -4,26 +4,35 @@
 
 This document tracks the progress of translating Phases 4-7 of the FTC documentation project, covering approximately 2,900 entries across 178 files.
 
-## Current Status (2025-12-17)
+## Current Status (2025-12-17 - Updated)
 
 ### Overall Progress
 - **Total Entries**: ~2,900
-- **Translated**: 76 (2.6%)
-- **Remaining**: ~2,824 (97.4%)
-- **Files Completed**: 1/178 (0.56%)
+- **Translated**: 152 (5.2%)
+- **Remaining**: ~2,748 (94.8%)
+- **Files Completed**: 2/178 (1.1%)
+
+### Phase 4 Specific Progress
+- **Phase 4 Total**: 1,011 entries across 29 files
+- **Phase 4 Translated**: 152 (15.0%)
+- **Phase 4 Remaining**: 859 entries (~12-15 hours estimated)
 
 ### Phase Breakdown
 
 #### Phase 4: Vision Processing (AprilTag & Color Processing)
-- **Total**: 1,022 entries across 29 files
-- **Completed**: 76 entries (7.4%)
+- **Total**: 1,011 entries across 29 files
+- **Completed**: 152 entries (15.0%)
 - **Status**: IN PROGRESS
 
 **Completed Files:**
 - ✅ `apriltag/vision_portal/apriltag_intro/apriltag-intro.po` (63/63 entries)
+- ✅ `booklets/apriltags.po` (6/6 entries)
 
-**In Progress Files:**
-- ⏳ `apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.po` (13/66 entries)
+**Files With Significant Progress (>10%):**
+- ⏳ `apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.po` (11/62 entries, 18%)
+- ⏳ `apriltag/vision_portal/visionportal_previews/visionportal-previews.po` (4/19 entries, 21%)
+- ⏳ `apriltag/vision_portal/apriltag_localization/apriltag-localization.po` (8/50 entries, 16%)
+- ⏳ `color_processing/index.po` (10/11 entries, 91%)
 
 **Remaining High-Priority Files:**
 - `apriltag/vision_portal/visionportal_overview/visionportal-overview.po`
