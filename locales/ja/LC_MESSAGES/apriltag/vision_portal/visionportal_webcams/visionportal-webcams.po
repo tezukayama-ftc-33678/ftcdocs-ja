@@ -12,32 +12,39 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:2
 msgid "Webcams for Vision Portal"
-msgstr ""
+msgstr "ビジョンポータル用のウェブカメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:4
 msgid ""
 "This is a short list of common webcams that are known to work with the "
-":ref:`FTC VisionPortal <apriltag/vision_portal/visionportal_overview"
-"/visionportal-overview:visionportal overview>` and the :ref:`FTC Camera "
-"Controls <apriltag/vision_portal/visionportal_camera_controls"
-"/visionportal-camera-controls:visionportal camera controls>`."
+":ref:`FTC VisionPortal "
+"<apriltag/vision_portal/visionportal_overview/visionportal-"
+"overview:visionportal overview>` and the :ref:`FTC Camera Controls "
+"<apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-"
+"controls:visionportal camera controls>`."
 msgstr ""
+"これは、:ref:`FTC VisionPortal "
+"<apriltag/vision_portal/visionportal_overview/visionportal-"
+"overview:visionportal overview>` と :ref:`FTC Camera Controls "
+"<apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-"
+"controls:visionportal camera controls>` で動作する-known-to-work- "
+"一般的なウェブカメラの一覧です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:9
 msgid ""
-"VisionPortal is a comprehensive interface for FTC vision processing. "
-"Example use cases for a webcam are:"
-msgstr ""
+"VisionPortal is a comprehensive interface for FTC vision processing. Example"
+" use cases for a webcam are:"
+msgstr "VisionPortalはFTCビジョン処理のための総合的なインターフェースです。ウェブカメラでの例としての使用ケースは以下の通りです："
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:12
 msgid ""
@@ -45,6 +52,9 @@ msgid ""
 "<../../../apriltag/understanding_apriltag_detection_values/understanding-"
 "apriltag-detection-values>` an AprilTag,"
 msgstr ""
+":doc:`AprilTagの検出 "
+"<../../../apriltag/understanding_apriltag_detection_values/understanding-"
+"apriltag-detection-values>`，"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:13
 msgid ""
@@ -52,39 +62,48 @@ msgid ""
 "<../../../apriltag/vision_portal/apriltag_localization/apriltag-"
 "localization>` on the field,"
 msgstr ""
+"ロボットがフィールド上で :doc:`何処に位置しているか "
+"<../../../apriltag/vision_portal/apriltag_localization/apriltag-"
+"localization>` を決定する"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:14
 msgid ""
 "using OpenCV to :doc:`detect colors or shapes "
 "<../../../color_processing/index>` of game elements."
 msgstr ""
+"OpenCV を使用して、ゲーム要素の色や形状 :doc:`検出します <../../../color_processing/index>`."
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:16
 msgid ""
-"Many more webcams can work with the FTC VisionPortal; this is a short "
-"list of models with built-in calibrations suitable for AprilTag "
-":ref:`pose estimation <apriltag/vision_portal/apriltag_pose/apriltag-"
-"pose:aprilTag pose>`."
+"Many more webcams can work with the FTC VisionPortal; this is a short list "
+"of models with built-in calibrations suitable for AprilTag :ref:`pose "
+"estimation <apriltag/vision_portal/apriltag_pose/apriltag-pose:aprilTag "
+"pose>`."
 msgstr ""
+"多くのウェブカメラもFTC VisionPortalで使用可能；以下は、AprilTag用の内蔵校正が適しているモデルの一覧です :ref:`ポーズ推定"
+" <apriltag/vision_portal/apriltag_pose/apriltag-pose:aprilTag ポーズ>`。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:23
 msgid "Logitech C270"
-msgstr ""
+msgstr "ロジテック C270"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:31
 msgid "C270 Camera"
-msgstr ""
+msgstr "C270カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:31
 msgid "Logitech C270 Camera"
-msgstr ""
+msgstr "ロジテック C270 カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:33
 msgid ""
-"The `Logitech C270 <https://www.logitech.com/en-us/products/webcams/c270"
-"-hd-webcam.960-000694.html>`__ is available at the *FIRST* Storefront for"
-" new FTC teams, and at many online retailers."
+"The `Logitech C270 <https://www.logitech.com/en-us/products/webcams/c270-hd-"
+"webcam.960-000694.html>`__ is available at the *FIRST* Storefront for new "
+"FTC teams, and at many online retailers."
 msgstr ""
+"The `Logitech C270 <https://www.logitech.com/en-us/products/webcams/c270-hd-"
+"webcam.960-000694.html>`__ は、新規 FIRST Tech Challenge (FTC) チーム向けに *FIRST* "
+"ストレアフで販売されており、多くのオンラインレテラーでも購入できます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:37
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:71
@@ -92,7 +111,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:143
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:211
 msgid "**FTC Hot Take:**"
-msgstr ""
+msgstr "**FTCホットタック：**"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:39
 msgid ""
@@ -100,19 +119,20 @@ msgid ""
 "inexpensive, and fairly reliable. The C270 is the workhorse webcam for "
 "*FIRST* Tech Challenge."
 msgstr ""
+"The Logitech C270はLogitechの低価格 "
+"Webcamシリーズです。非常に安価で、比較的信頼性が高くなっています。C270は*FTC* Tech Challenge用の主力Webcamです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:42
 msgid ""
-"The Logitech C270 has a 60-degree field of view, and a maximum frame rate"
-" of 30fps at 720p which makes it a reasonable choice for vision "
-"processing."
-msgstr ""
+"The Logitech C270 has a 60-degree field of view, and a maximum frame rate of"
+" 30fps at 720p which makes it a reasonable choice for vision processing."
+msgstr "Logitech C270は60度の視野角を持ち、720pで最大フレームレートが30fpsなので、ビジョン処理に適した選択肢です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:44
 msgid ""
-"The audio quality of the C270 is lackluster, but audio is not generally a"
-" factor in *FIRST* Tech Challenge."
-msgstr ""
+"The audio quality of the C270 is lackluster, but audio is not generally a "
+"factor in *FIRST* Tech Challenge."
+msgstr "C270の音質は不満足ですが、音声がFIRST Tech Challengeにおいて一般的には重要な要素ではありません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:47
 msgid ""
@@ -120,6 +140,9 @@ msgid ""
 "432x240, 544x288, 640x360, 640x480, 752x416, 800x448, 800x600, 864x480, "
 "960x544, 960x720, 1024x576, 1184x656, 1280x720"
 msgstr ""
+"**サポートされている解像度:** 160x120, 176x144, 320x176, 320x240, 352x288, 432x240, "
+"544x288, 640x360, 640x480, 752x416, 800x448, 800x600, 864x480, 960x544, "
+"960x720, 1024x576, 1184x656, 1280x720"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:51
 msgid ""
@@ -129,113 +152,137 @@ msgid ""
 "<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
 "calibration:apriltag camera calibration>`."
 msgstr ""
+"FTC SDKは、FTC VisionPortalのデフォルト解像度640x480に対する**内蔵校正値**を提供し、それ以外はありません。詳細は "
+":ref:`AprilTagカメラ校正 "
+"<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:apriltag camera calibration>` を参照してください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:58
 msgid "Logitech C310"
-msgstr ""
+msgstr "ロジテック C310"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:66
 msgid "C310 Camera"
-msgstr ""
+msgstr "C310カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:66
 msgid "Logitech C310 Camera"
-msgstr ""
+msgstr "ロジテック C310 カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:68
 msgid ""
-"The `Logitech C310 <https://www.logitech.com/en-us/products/webcams/c310"
-"-hd-webcam.html>`__ is available at some online retailers."
+"The `Logitech C310 <https://www.logitech.com/en-us/products/webcams/c310-hd-"
+"webcam.html>`__ is available at some online retailers."
 msgstr ""
+"Logitech C310（`公式ページ <https://www.logitech.com/en-"
+"us/products/webcams/c310-hd-webcam.html>`__）は、一部のオンラインレTAILERで取り扱っています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:73
 msgid ""
 "The Logitech C310 is also in Logitech's budget line of webcams. It is "
 "slightly more expensive than the C270, and is a marginal step up."
 msgstr ""
+"Logitech C310 は Logitech の予算 Webcam 線の一つでもあります。C270 "
+"よりやや高価で、わずかながら性能が向上しています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:75
 msgid ""
 "Like the C270, the Logitech C310 has a 60-degree field of view, and a "
-"maximum frame rate of 30fps at 720p which makes it a reasonable choice "
-"for vision processing."
+"maximum frame rate of 30fps at 720p which makes it a reasonable choice for "
+"vision processing."
 msgstr ""
+"C270と同様に、Logitech "
+"C310も60度の視野角を持ち、720pで最大フレームレートが30fpsであるため、ビジョン処理用として適切な選択肢となっています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:78
 msgid ""
-"The C310 has slightly better color correction and dynamic color range "
-"than the C270, but these likely won't be realized without using the "
-"webcam control interface provided by the FTC SDK."
+"The C310 has slightly better color correction and dynamic color range than "
+"the C270, but these likely won't be realized without using the webcam "
+"control interface provided by the FTC SDK."
 msgstr ""
+"C310はC270よりもやや色補正と動的な色域が優れていますが、これらの利点を実現するには、FTC "
+"SDKによって提供されるウェブカメラ制御インターフェースを使用する必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:81
 msgid ""
-"The audio quality of the C310 is slightly better than the C270, but again"
-" audio is not generally a factor in *FIRST* Tech Challenge."
+"The audio quality of the C310 is slightly better than the C270, but again "
+"audio is not generally a factor in *FIRST* Tech Challenge."
 msgstr ""
+"C310の音質はC270よりもわずかに優れていますが、また音声は*FIRST* Tech Challengeにおいて一般的には大きな要素ではありません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:84
 msgid ""
-"**Supported Resolutions:** not published; probably similar to Logitech "
-"C270."
-msgstr ""
+"**Supported Resolutions:** not published; probably similar to Logitech C270."
+msgstr "**対応解像度:** 公開されていません；おそらくLogitech C270と似ています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:86
 msgid ""
 "The FTC SDK provides **built-in calibration values** for the FTC "
-"VisionPortal default resolution of 640x480, and for 640x360. Learn more "
-"at :ref:`AprilTag Camera Calibration "
+"VisionPortal default resolution of 640x480, and for 640x360. Learn more at "
+":ref:`AprilTag Camera Calibration "
 "<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
 "calibration:apriltag camera calibration>`."
 msgstr ""
+"FTC SDKは、FTC "
+"VisionPortalのデフォルト解像度640x480および640x360に対して組み込みの**校正値**を提供しています。詳しくは "
+":ref:`AprilTagカメラ校正 "
+"<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:apriltag camera calibration>` を参照してください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:93
 msgid "Logitech C920"
-msgstr ""
+msgstr "ロジテック C920"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:101
 msgid "C920 Camera"
-msgstr ""
+msgstr "C920カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:101
 msgid "Logitech C920 Camera"
-msgstr ""
+msgstr "ロジテック C920 カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:103
 msgid ""
-"The `Logitech C920 <https://www.logitech.com/en-us/products/webcams"
-"/c920s-pro-hd-webcam.960-001257.html>`__ is available at many online "
-"retailers."
+"The `Logitech C920 <https://www.logitech.com/en-"
+"us/products/webcams/c920s-pro-hd-webcam.960-001257.html>`__ is available at "
+"many online retailers."
 msgstr ""
+"Logitech C920 `<https://www.logitech.com/en-us/products/webcams/c920s-pro-"
+"hd-webcam.960-001257.html>`__ は多くのオンラインレtailerで入手できます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:108
 msgid ""
-"The Logitech C920 is in Logitech's mid-range line of webcams. It is "
-"slightly more expensive than the C310, but is a dramatic step-up in "
-"quality. If you find a C310 for almost the same price as a C920, just buy"
-" the C920."
+"The Logitech C920 is in Logitech's mid-range line of webcams. It is slightly"
+" more expensive than the C310, but is a dramatic step-up in quality. If you "
+"find a C310 for almost the same price as a C920, just buy the C920."
 msgstr ""
+"Logitech "
+"C920はLogitechの中級ウェブカメラシリーズに属します。価格はC310よりもやや高めですが、画質の面では大きな向上が期待できます。もしC310の価格がC920とほぼ同じであれば、C920を購入することをお勧めします。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:111
 msgid ""
-"The Logitech C920 has a 78-degree field of view, and a maximum frame rate"
-" of 30fps at 1080p which makes it a fabulous choice for vision "
-"processing. The C920 also includes an auto-focus option, whereas the C270"
-" and C310 are fixed-focus, though the auto-focus tends to be slow."
+"The Logitech C920 has a 78-degree field of view, and a maximum frame rate of"
+" 30fps at 1080p which makes it a fabulous choice for vision processing. The "
+"C920 also includes an auto-focus option, whereas the C270 and C310 are "
+"fixed-focus, though the auto-focus tends to be slow."
 msgstr ""
+"Logitech "
+"C920は、1080pでの最大フレームレートが30fpsで、視野角が78度という特性から、ビジョン処理用に非常に適しています。C920には自動フォーカスオプションが付属しており、一方でC270やC310は固定焦点ですが、自動フォーカスは速度が遅い傾向があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:115
 msgid ""
 "The C920 has additional options for mounting the camera, with a 1/4 inch "
 "threaded mount. The C920 also has a much better mounting clip."
 msgstr ""
+"C920には、1/4インチネジ式マウントを備えた追加のマウントオプションがあります。また、C920には大幅に改善されたマウントクリップもあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:117
 msgid ""
-"The audio quality of the the C920 is phenomenally better than the C270, "
-"or C310, but again audio is not generally a factor in *FIRST* Tech "
-"Challenge."
+"The audio quality of the the C920 is phenomenally better than the C270, or "
+"C310, but again audio is not generally a factor in *FIRST* Tech Challenge."
 msgstr ""
+"The audio quality of the C920 は C270 や C310 よりも圧倒的に良いですが、また音声が FIRST Tech "
+"Challenge において一般的には大きな要素ではありません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:120
 msgid ""
@@ -243,24 +290,33 @@ msgid ""
 "352x288, 432x240, 640x360, 640x480, 800x448, 800x600, 864x480, 960x720, "
 "1024x576, 1280x720, 1600x896, 1920x1080, 2304x1296, 2304x1536."
 msgstr ""
+"**サポートされている解像度:** 160x90, 160x120, 176x144, 320x180, 320x240, 352x288, "
+"432x240, 640x360, 640x480, 800x448, 800x600, 864x480, 960x720, 1024x576, "
+"1280x720, 1600x896, 1920x1080, 2304x1296, 2304x1536."
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:124
 msgid ""
 "The FTC SDK provides **built-in calibration values** for the FTC "
 "VisionPortal default resolution of 640x480, and five others: 640x360, "
 "800x448, 800x600, 864x480, and 1920x1080. Learn more at :ref:`AprilTag "
-"Camera Calibration <apriltag/vision_portal/apriltag_camera_calibration"
-"/apriltag-camera-calibration:apriltag camera calibration>`."
+"Camera Calibration "
+"<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:apriltag camera calibration>`."
 msgstr ""
+"FTC SDKは、FTC VisionPortalのデフォルト解像度640x480およびその他の5つ（640x360, 800x448, "
+"800x600, 864x480, 1920x1080）に対して**内蔵された校正値**を提供しています。詳細は "
+":ref:`AprilTagカメラの校正 "
+"<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:apriltag camera calibration>` を参照してください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:130
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:138
 msgid "Microsoft LifeCam HD-3000 v1/v2"
-msgstr ""
+msgstr "マイクロソフト ライフカム HD-3000 v1/v2"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:138
 msgid "LifeCam-3000 Camera"
-msgstr ""
+msgstr "ライフカム-3000カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:140
 msgid ""
@@ -268,52 +324,63 @@ msgid ""
 "<https://www.digitalcameraworld.com/reviews/microsoft-lifecam-"
 "hd-3000-review>`__ is available at some online retailers."
 msgstr ""
+"マイクロソフトライフカムHD-3000 <https://www.digitalcameraworld.com/reviews/microsoft-"
+"lifecam-hd-3000-review> は、一部のオンラインレテラーで入手できます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:145
 msgid ""
 "The Microsoft LifeCam HD-3000 has been a mainstay in *FIRST* Robotics "
-"Competition for a number of years, so it's likely a local team might have"
-" one they will just give you. The HD-3000 has been around for over 10 "
-"years, with a \"don't fix what isn't broken\" mentality. It defines the "
-"\"budget\" part of Microsoft's \"budget\" line of webcams."
+"Competition for a number of years, so it's likely a local team might have "
+"one they will just give you. The HD-3000 has been around for over 10 years, "
+"with a \"don't fix what isn't broken\" mentality. It defines the \"budget\" "
+"part of Microsoft's \"budget\" line of webcams."
 msgstr ""
+"Microsoft LifeCam HD-3000は、数年間*FIRST* Robotics "
+"Competitionで主流のカメラとして使用されており、おそらく地元のチームが持っている可能性があります。HD-3000は10年以上使われており、「機能していないものは修正しない」という考え方で開発されました。これはMicrosoftの「予算」ラインのウェブカムを定義する「予算」部分を表しています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:150
 msgid ""
 "The HD-3000 sports a 68.5 degree field of view, slightly wider than the "
 "Logitech C270 and C310 webcams, at 30fps at 720p (same as the others)."
 msgstr ""
+"HD-3000は、30fpsで720p解像度においてLogitech C270やC310のウェブカメラよりもやや広い68.5度の視野角を備えています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:152
 msgid ""
-"The HD-3000 is as \"no-frills\" as it gets otherwise, but at its price "
-"point that shouldn't be much of a surprise."
-msgstr ""
+"The HD-3000 is as \"no-frills\" as it gets otherwise, but at its price point"
+" that shouldn't be much of a surprise."
+msgstr "HD-3000は機能がシンプルな一方で、その価格帯を考えれば予想外のものではないでしょう。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:155
 msgid "**Supported Resolutions:** not published; up to 1280x720."
-msgstr ""
+msgstr "**サポートされている解像度:** 公開されていません；最大1280x720。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:157
 msgid ""
-"For v1 and v2 of this webcam, the FTC SDK provides **built-in calibration"
-" values** for the FTC VisionPortal default resolution of 640x480, and no "
+"For v1 and v2 of this webcam, the FTC SDK provides **built-in calibration "
+"values** for the FTC VisionPortal default resolution of 640x480, and no "
 "others. Learn more at :ref:`AprilTag Camera Calibration "
 "<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
 "calibration:apriltag camera calibration>`."
 msgstr ""
+"v1版とv2版のウェブカメラでは、FTC SDK は FTC VisionPortal のデフォルト解像度640x480に対する **内蔵校正値** "
+"を提供しており、それ以外のものはありません。詳細は :ref:`AprilTag カメラ校正 "
+"<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:apriltagカメラ校正>` を参照してください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:163
 msgid "Other Webcams"
-msgstr ""
+msgstr "その他のウェブカメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:165
 msgid ""
 "Many other webcams are available online, with and without published UVC "
-"compatibility.  The FTC SDK supports **only** UVC compatible webcams. "
-"Many modern webcams are UVC compatible without specifically advertising "
-"it; often indicated by “no drivers needed”."
+"compatibility.  The FTC SDK supports **only** UVC compatible webcams. Many "
+"modern webcams are UVC compatible without specifically advertising it; often"
+" indicated by “no drivers needed”."
 msgstr ""
+"多くのウェブカメラはオンラインで利用可能で、公開されたUVC互換性有無に関わらず用意されています。FTC "
+"SDKでは**のみ**UVC互換のウェブカメラをサポートします。多くの現代的なウェブカメラは特に広告せずにUVC互換であることが多い；しばしば「ドライバー不要」で示されます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:170
 msgid ""
@@ -324,103 +391,126 @@ msgid ""
 "estimation <apriltag/vision_portal/apriltag_pose/apriltag-pose:apriltag "
 "pose>`."
 msgstr ""
+"一般的に、上記にリストされていないその他のウェブカメラは、ユーザー提供の :ref:`カメラ校正値 "
+"<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:apriltag カメラ校正>` が必要です。AprilTag の :ref:`ポーズ推定 "
+"<apriltag/vision_portal/apriltag_pose/apriltag-pose:apriltag ポーズ>` に使用します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:175
 msgid ""
-"A digital camera opens its shutter to allow light (“the image”) to reach "
-"the detector’s array of small sensors (pixels). (Webcam shutters are "
-"typically electronic, not mechanical.) Most webcams use a **“rolling "
-"shutter”**, where the the image data is read **one pixel row at a time**."
+"A digital camera opens its shutter to allow light (“the image”) to reach the"
+" detector’s array of small sensors (pixels). (Webcam shutters are typically "
+"electronic, not mechanical.) Most webcams use a **“rolling shutter”**, where"
+" the the image data is read **one pixel row at a time**."
 msgstr ""
+"デジタルカメラはシャッターを開き、光（「画像」）をセンサーセンサーの配列（ピクセル）に達するようにします。（ウェブカムのシャッターは通常、機械的なものではなく電子的なものです。）ほとんどのウェブカムは**「ローリングシャッタ」**を使用しており、画像データは**1行ずつピクセル**を読み取ります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:181
 msgid ""
-"Another type of webcam, called **“global shutter”**, reads all pixels at "
-"the same time. This can help when the webcam (robot) is moving fast. "
-"Teams are encouraged to research the characteristics of rolling shutter "
-"vs. global shutter."
+"Another type of webcam, called **“global shutter”**, reads all pixels at the"
+" same time. This can help when the webcam (robot) is moving fast. Teams are "
+"encouraged to research the characteristics of rolling shutter vs. global "
+"shutter."
 msgstr ""
+"また、**「グローバルシャッタ」** "
+"と呼ばれる別の種類のウェブカメラがあります。これは、ウェブカメラ（ロボット）が高速に動いているときに役立ちます。チームは、ローリングシャッターやグローバルシャッタの特性について調査することを推奨します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:186
 msgid ""
-"One difference is that many global shutter cameras use a compressed video"
-" format called **MJPEG**. This saves bandwidth, to offset a higher frame "
-"rate (frames per second or FPS). The FTC VisionPortal uses a default "
+"One difference is that many global shutter cameras use a compressed video "
+"format called **MJPEG**. This saves bandwidth, to offset a higher frame rate"
+" (frames per second or FPS). The FTC VisionPortal uses a default "
 "(uncompressed) video format called **YUY2**, but does allow specifying "
 "MJPEG."
 msgstr ""
+"一つの違いは、多くのグローバルシャッターカメラが圧縮ビデオフォーマットの**MJPEG**を使用していることです。これは帯域幅を節約し、高いフレームレート（秒間フレーム数またはFPS）を補うために使用されます。FTC"
+" VisionPortalはデフォルトで非圧縮ビデオフォーマットの**YUY2**を使用しますが、MJPEGを指定することも可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:192
 msgid ""
-"Below is one example of a global shutter webcam, tested to work with the "
-"FTC VisionPortal."
-msgstr ""
+"Below is one example of a global shutter webcam, tested to work with the FTC"
+" VisionPortal."
+msgstr "以下は、FTC VisionPortal で動作を確認したグローバルシャッターウェブカメラの例です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:196
 msgid "Arducam Global Shutter 120 FPS"
-msgstr ""
+msgstr "アールデュカムグローバルシャッターカメラ（120FPS）"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:204
 msgid "Arducam GS 120 Camera"
-msgstr ""
+msgstr "アールデュカム GS 120 カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:206
 msgid ""
-"The `Arducam Global Shutter 120 FPS <https://www.arducam.com/product"
-"/arducam-100fps-global-shutter-usb-camera-board-1mp-720p-ov9281-uvc-"
-"webcam-module-with-low-distortion-m12-lens-without-microphones-for-"
-"computer-laptop-android-device-and-raspberry-pi/>`__ is available at some"
-" online retailers, including `Amazon <https://www.amazon.com/Arducam-"
-"Distortion-Microphones-Computer-Raspberry/dp/B096M5DKY6>`__."
+"The `Arducam Global Shutter 120 FPS "
+"<https://www.arducam.com/product/arducam-100fps-global-shutter-usb-camera-"
+"board-1mp-720p-ov9281-uvc-webcam-module-with-low-distortion-m12-lens-"
+"without-microphones-for-computer-laptop-android-device-and-raspberry-pi/>`__"
+" is available at some online retailers, including `Amazon "
+"<https://www.amazon.com/Arducam-Distortion-Microphones-Computer-"
+"Raspberry/dp/B096M5DKY6>`__."
 msgstr ""
+"The `Arducam Global Shutter 120 FPS "
+"<https://www.arducam.com/product/arducam-100fps-global-shutter-usb-camera-"
+"board-1mp-720p-ov9281-uvc-webcam-module-with-low-distortion-m12-lens-"
+"without-microphones-for-computer-laptop-android-device-and-raspberry-pi/>`__"
+" は、Amazon `<https://www.amazon.com/Arducam-Distortion-Microphones-Computer-"
+"Raspberry/dp/B096M5DKY6>`__ や他のオンライン小売店で入手できます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:213
 msgid ""
-"The Arducam OV9281 Global Shutter camera can pump out 100+fps in MJPG "
-"mode at full resolution, with phenomenal resistance to motion blur "
-"effects (due to the Global Shutter design)."
+"The Arducam OV9281 Global Shutter camera can pump out 100+fps in MJPG mode "
+"at full resolution, with phenomenal resistance to motion blur effects (due "
+"to the Global Shutter design)."
 msgstr ""
+"Arducam OV9281 "
+"グローバルシャッターカメラは、フルリゾリューションでMJPGモードで100fps以上を出し続け、動画ブラーの影響に優れた抵抗力があります（グローバルシャッターデザイン故）。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:216
 msgid ""
 "The Arducam OV9281 is a monochrome (black&white) camera, so applications "
 "needing color should look elsewhere."
-msgstr ""
+msgstr "Arducam OV9281は単色（黒白）のカメラであるため、色彩が必要なアプリケーションは他のところを検討すること。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:218
 msgid ""
-"The Arducam OV9281 is fantastic in low-light scenarios, and has a very "
-"low-distortion lens making it perfect for object tracking and motion "
-"detection."
-msgstr ""
+"The Arducam OV9281 is fantastic in low-light scenarios, and has a very low-"
+"distortion lens making it perfect for object tracking and motion detection."
+msgstr "Arducam OV9281は低照度状況での性能が優れており、非常に歪みの少ないレンズを持っているため、物体追跡や運動検出に最適です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:220
 msgid ""
-"The Arducam required a patch to the SDK and EasyOpenCV to work properly "
-"at high speeds, so it is not guaranteed to work properly with the FTC SDK"
-" prior to SDK 9.0."
+"The Arducam required a patch to the SDK and EasyOpenCV to work properly at "
+"high speeds, so it is not guaranteed to work properly with the FTC SDK prior"
+" to SDK 9.0."
 msgstr ""
+"Arducamは高速動作のためにSDKとEasyOpenCVのパッチが必要であり、FTC SDK（SDK "
+"9.0以前）では適切に動作する保証はありません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:222
 msgid ""
-"The FTC software have been observed to not function properly with more "
-"than one Arducam OV9281 at a time. If you encounter this issue please "
-"refer to the `Serial Number Tool <https://docs.arducam.com/UVC-Camera"
-"/Serial-Number-Tool-Guide/>` to reassign at least one of the Arducam "
-"serial numbers."
+"The FTC software have been observed to not function properly with more than "
+"one Arducam OV9281 at a time. If you encounter this issue please refer to "
+"the `Serial Number Tool <https://docs.arducam.com/UVC-Camera/Serial-Number-"
+"Tool-Guide/>` to reassign at least one of the Arducam serial numbers."
 msgstr ""
+"FTCソフトウェアは、一度に1つ以上のArducam "
+"OV9281を使用すると正常に動作しないことが観察されています。この問題が発生した場合は、`シリアル番号ツール "
+"<https://docs.arducam.com/UVC-Camera/Serial-Number-Tool-Guide/>` "
+"を参照し、少なくとも1つのArducamのシリアル番号を再割り当てしてください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:226
 msgid ""
 "**Supported Resolutions** in YUY2 format: 1280x720, 1280x800. Note frame "
 "rate limitations."
-msgstr ""
+msgstr "**サポートされている解像度** (YUY2形式): 1280x720、1280x800。フレームレートに制限があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:229
 msgid ""
 "**Supported Resolutions** in MJPEG format: 320x240, 640x480, 800x600, "
 "1280x720, 1280x800."
 msgstr ""
+"**サポートされている解像度**（MJPEG形式）: 320x240, 640x480, 800x600, 1280x720, 1280x800。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:232
 msgid ""
@@ -429,162 +519,173 @@ msgid ""
 "<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
 "calibration:apriltag camera calibration>`."
 msgstr ""
+"このウェブカメラには、FTC SDK では ** Built-in ** 校正値は提供されていません。詳細については :ref:`AprilTag "
+"カメラ校正 <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:apriltag カメラ校正>` を参照してください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:237
 msgid "Other Global Shutter Cameras"
-msgstr ""
+msgstr "その他のグローバルシャッターカメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:239
 msgid ""
-"Two other tested global shutter webcams (offering different resolutions "
-"than the Arducam) are from"
-msgstr ""
+"Two other tested global shutter webcams (offering different resolutions than"
+" the Arducam) are from"
+msgstr "他のテスト済みのグローバルシャッターウェブカム（Arducamと異なる解像度を提供）は、"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:242
 msgid "`Kayeton <https://www.aliexpress.us/item/3256804287066234.html>`__"
-msgstr ""
+msgstr "カイテオン <https://www.aliexpress.us/item/3256804287066234.html>"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:243
 msgid "`ELP <https://www.aliexpress.us/item/2251832829079715.html>`__"
-msgstr ""
+msgstr "`ELP <https://www.aliexpress.us/item/2251832829079715.html>`__"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:245
-msgid "both of these are available from AliExpress and other online retailers."
-msgstr ""
+msgid ""
+"both of these are available from AliExpress and other online retailers."
+msgstr "これらはAliExpressやその他のオンラインレテルから入手可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:248
 msgid "Quick Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:250
 msgid ""
-"This below table summarizes the most common and known-supported cameras "
-"with the *FIRST* Tech Challenge SDK, including resolutions with built-in "
+"This below table summarizes the most common and known-supported cameras with"
+" the *FIRST* Tech Challenge SDK, including resolutions with built-in "
 "calibrations and those without calibrations."
 msgstr ""
+"以下は、*FIRST* Tech Challenge SDK でサポートされている主要なカメラとその解像度（内蔵校正付きやなしを含む）のまとめです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:254
 msgid "Cameras and Supported Resolutions"
-msgstr ""
+msgstr "カメラとサポートされている解像度"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:258
 msgid "Camera"
-msgstr ""
+msgstr "カメラ"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:259
 msgid "Features"
-msgstr ""
+msgstr "機能"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:260
 msgid "Resolutions with Built-In Calibrations"
-msgstr ""
+msgstr "内蔵校正機能付き解像度"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:261
 msgid "Resolutions without Calibrations"
-msgstr ""
+msgstr "校正なしの解像度"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:262
 msgid "`Logitech C270`_"
-msgstr ""
+msgstr "`ロジテック C270`_"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:263
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:267
 msgid "60 DegFOV, 30fps\\@720p"
-msgstr ""
+msgstr "60度FOV、30fps@720p"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:264
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:276
 msgid "640x480"
-msgstr ""
+msgstr "640x480"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:265
 msgid ""
 "160x120, 176x144, 320x176, 320x240, 352x288, 432x240, 544x288, 640x360, "
-"752x416, 800x448, 800x600, 864x480, 960x544, 960x720, 1024x576, 1184x656,"
-" 1280x720"
+"752x416, 800x448, 800x600, 864x480, 960x544, 960x720, 1024x576, 1184x656, "
+"1280x720"
 msgstr ""
+"160x120, 176x144, 320x176, 320x240, 352x288, 432x240, 544x288, 640x360, "
+"752x416, 800x448, 800x600, 864x480, 960x544, 960x720, 1024x576, 1184x656, "
+"1280x720"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:266
 msgid "`Logitech C310`_"
-msgstr ""
+msgstr "`ロジテック C310`_"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:268
 msgid "640x480, 640x360"
-msgstr ""
+msgstr "640x480, 640x360"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:269
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:277
 msgid "All other resolutions"
-msgstr ""
+msgstr "その他の解像度"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:270
 msgid "`Logitech C920`_"
-msgstr ""
+msgstr "`ロジテック C920`_"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:271
 msgid "78 DegFOV, 30fps\\@1080p"
-msgstr ""
+msgstr "78DegFOV, 30fps@1080p"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:272
 msgid "640x480, 640x360, 800x448, 800x600, 864x480, 1920x1080"
-msgstr ""
+msgstr "640x480、640x360、800x448、800x600、864x480、1920x1080"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:273
 msgid ""
 "160x90, 160x120, 176x144, 320x180, 320x240, 352x288, 432x240, 960x720, "
 "1024x576, 1280x720, 1600x896, 2304x1296, 2304x1536"
 msgstr ""
+"160x90, 160x120, 176x144, 320x180, 320x240, 352x288, 432x240, 960x720, "
+"1024x576, 1280x720, 1600x896, 2304x1296, 2304x1536"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:274
 msgid "`Microsoft LifeCam HD-3000 v1/v2`_"
-msgstr ""
+msgstr "`Microsoft LifeCam HD-3000 v1/v2`_"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:275
 msgid "68.5 DegFOV, 30fps\\@720p"
-msgstr ""
+msgstr "68.5 DegFOV、30fps@720p"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:278
 msgid "`Arducam Global Shutter 120 FPS`_"
-msgstr ""
+msgstr "`アールデュカムグローバルシャッターカメラ 120 FPS`_"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:279
 msgid "70 DegFOV, 120fps\\@1280x800 MJPG, Monochrome"
-msgstr ""
+msgstr "70DegFOV, 120fps\\@1280x800 MJPG, モノクローム"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:280
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:284
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:288
 msgid "No Built-In Calibrations"
-msgstr ""
+msgstr "内蔵 Calibration なし"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:281
 msgid ""
 "MJPEG: 320x240, 640x480, 800x600, 1280x720, 1280x800; YUY2: 1280x720, "
 "1280x800"
 msgstr ""
+"MJPEG: 320x240, 640x480, 800x600, 1280x720, 1280x800; YUY2: 1280x720, "
+"1280x800"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:282
 msgid "Kayeton Global Shutter (`Other Global Shutter Cameras`_)"
-msgstr ""
+msgstr "カイテオングローバルシャッターカメラ（その他のグローバルシャッターカメラ）_"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:283
 msgid "70 DegFOV, 120fps\\@720p MJPG, Monochrome"
-msgstr ""
+msgstr "70DegFOV, 120fps@720p MJPG, モノクローム"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:285
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:289
 msgid "All resolutions"
-msgstr ""
+msgstr "すべての解像度"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:286
 msgid "ELP Global Shutter (`Other Global Shutter Cameras`_)"
-msgstr ""
+msgstr "ELPグローバルシャッターカメラ（その他のグローバルシャッターカメラ_）"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:287
 msgid "70 DegFOV, 90fps\\@1920x1200 MJPG, Monochrome"
-msgstr ""
+msgstr "70DegFOV, 90fps\\@1920x1200 MJPG, モノクローム"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:293
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
-msgstr ""
-
+msgstr "質問、ご意見や訂正はwestsiderobotics@verizon.netまでお願いいたします。"

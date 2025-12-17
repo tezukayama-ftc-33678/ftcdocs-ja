@@ -12,56 +12,60 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:2
 msgid "Example 2: Gain’s effect on TFOD"
-msgstr ""
+msgstr "例2：ゲインのTFODへの影響"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:4
 msgid ""
-"Now we adjust only gain. We set Exposure to a fixed value of 15, selected"
-" because it was a poor performer in Example 1. **Can gain help?**"
+"Now we adjust only gain. We set Exposure to a fixed value of 15, selected "
+"because it was a poor performer in Example 1. **Can gain help?**"
 msgstr ""
+"現在、Only gain のみを調整します。露出は、Example 1 でパフォーマンスが悪かったため固定値として 15に設定しています。「Can "
+"gain help?」**この調整は役立つでしょうか？**"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:11
 msgid "Exp 15, Gain 000 -> 035"
-msgstr ""
+msgstr "Exp 15, Gain 000 → 035"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:16
 msgid "Exp 15, Gain 040 -> 060"
-msgstr ""
+msgstr "Exp 15, Gain 040 -> 060"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:21
 msgid "Exp 15, Gain 070 -> 100"
-msgstr ""
+msgstr "Exp 15, Gain 070 -> 100"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:24
 msgid "Five fresh readings were taken at each gain setting."
-msgstr ""
+msgstr "各ゲイン設定で5回の新しい読み取りが行われました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:29
 msgid "Five readings at each gain level"
-msgstr ""
+msgstr "各ゲインレベルでの5回の読み取り"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:31
 msgid ""
 "Higher gain does improve recognition, then performance declines. Then at "
-"higher levels, this TFOD model begins to “see” a Cube, not a Duck. The "
-"gain effect was similar to the exposure effect."
+"higher levels, this TFOD model begins to “see” a Cube, not a Duck. The gain "
+"effect was similar to the exposure effect."
 msgstr ""
+"Higher gain "
+"は認識を向上させますが、その後パフォーマンスが低下します。さらに高いレベルでは、このTFODモデルは「キューブ」ではなく「ダック」として「見分ける」ようになります。ゲイン効果は露出効果と似ていました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:35
 msgid ""
-"These two charts suggest that TFOD results are affected by, and can "
-"perhaps be optimized by, setting specific values for exposure and gain. A"
-" team should compare this with the default or automatic performance of "
-"their robot and webcam, in the full range of expected match conditions."
+"These two charts suggest that TFOD results are affected by, and can perhaps "
+"be optimized by, setting specific values for exposure and gain. A team "
+"should compare this with the default or automatic performance of their robot"
+" and webcam, in the full range of expected match conditions."
 msgstr ""
-
+"これらの2つのチャートは、TFODの結果が露出とゲインなどの特定の値によって影響を受ける可能性があることを示唆しています。また、この結果をチームは、ロボットやウェブカメラのデフォルトまたは自動性能と比較し、想定されるマッチ条件の全範囲で最適化することができるかもしれません。"

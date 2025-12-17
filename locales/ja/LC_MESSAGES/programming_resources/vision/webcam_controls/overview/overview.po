@@ -12,92 +12,108 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:2
 msgid "Software Overview"
-msgstr ""
+msgstr "ソフトウェア概要"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:4
 msgid ""
 "The SDK contains a superinterface called CameraControl, which contains 5 "
 "interfaces:"
-msgstr ""
+msgstr "SDKには、CameraControlというスーパーインターフェースが含まれており、この中には5つのインターフェースが含まれています："
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:7
 msgid ""
 ":doc:`ExposureControl "
 "</programming_resources/vision/webcam_controls/exposure/index>`"
 msgstr ""
+":doc:`露出制御 </programming_resources/vision/webcam_controls/exposure/index>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:8
 msgid ""
 ":doc:`GainControl "
 "</programming_resources/vision/webcam_controls/gain/index>`"
 msgstr ""
+":doc:`ゲイン制御 </programming_resources/vision/webcam_controls/gain/index>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:9
 msgid ""
 ":doc:`WhiteBalanceControl "
-"</programming_resources/vision/webcam_controls/white_balance/index>` (new"
-" for SDK 7.1)"
+"</programming_resources/vision/webcam_controls/white_balance/index>` (new "
+"for SDK 7.1)"
 msgstr ""
+":doc:`白平衡制御 "
+"</programming_resources/vision/webcam_controls/white_balance/index>` (SDK "
+"7.1 版新機能)"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:10
 msgid ""
 ":doc:`FocusControl "
 "</programming_resources/vision/webcam_controls/focus/index>`"
 msgstr ""
+":doc:`焦点制御 </programming_resources/vision/webcam_controls/focus/index>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:11
 msgid ""
-":doc:`PtzControl "
-"</programming_resources/vision/webcam_controls/ptz/index>`"
+":doc:`PtzControl </programming_resources/vision/webcam_controls/ptz/index>`"
 msgstr ""
+":doc:`PtzControl </programming_resources/vision/webcam_controls/ptz/index>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:13
 msgid ""
-"Similar to Java classes, Java interfaces provide methods. A webcam can be"
-" controlled using methods of these 5 interfaces."
+"Similar to Java classes, Java interfaces provide methods. A webcam can be "
+"controlled using methods of these 5 interfaces."
 msgstr ""
+"Javaクラスと同様に、Javaインターフェースはメソッドを提供します。これらの5つのインターフェースのメソッドを使用してウェブカメラを制御できます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:16
 msgid ""
-"PtzControl allows control of 3 related features: virtual pan, tilt and "
-"zoom. ExposureControl also contains a feature called auto-exposure "
-"priority, or AE Priority. Together there are **8 webcam controls** "
-"discussed in this tutorial."
+"PtzControl allows control of 3 related features: virtual pan, tilt and zoom."
+" ExposureControl also contains a feature called auto-exposure priority, or "
+"AE Priority. Together there are **8 webcam controls** discussed in this "
+"tutorial."
 msgstr ""
+"パン・チルト・ズーム制御は、仮想的なパン、チルト、ズームの3つの関連機能を制御します。露出制御には、自動露出優先（AE "
+"優先）という機能も含まれています。このチュートリアルでは、**8つのウェブカメラ制御**について説明しています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:21
 msgid ""
 "The official documentation is found in the `Javadocs "
 "<https://javadoc.io/doc/org.firstinspires.ftc>`__. Click the link for "
 "**RobotCore**, then click the **CameraControl** link in the left column."
-msgstr ""
+"msgstr ""
+"公式ドキュメントは `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc>`__ にあります。リンクをクリックして **RobotCore** を選択し、左側の列にある **CameraControl** リンクをクリックしてください。"
+""
+"公式ドキュメントは `Javadocs <https://javadoc.io/doc/org.firstinspires.ftc>`__ にあります。リンクをクリックして **RobotCore** を選択し、左側の列にある **CameraControl** リンクをクリックしてください。"
+""
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:28
 msgid "RobotCore Javadoc API"
-msgstr ""
+msgstr "ロボットコアのJavadoc API"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:30
 msgid "That page provides links to the 5 interfaces listed above."
-msgstr ""
+msgstr "そのページには、上記にリストされた5つのインターフェースへのリンクが提供されています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:32
 msgid ""
-"The methods described here can be used in Android Studio or OnBot Java. "
-"They can also be provided to Blocks programmers by creating myBlocks, "
-"covered in a separate :ref:`Blocks programming Tutorial "
-"<programming_resources/blocks/blocks-tutorial:blocks programming "
-"tutorial>`."
+"The methods described here can be used in Android Studio or OnBot Java. They"
+" can also be provided to Blocks programmers by creating myBlocks, covered in"
+" a separate :ref:`Blocks programming Tutorial "
+"<programming_resources/blocks/blocks-tutorial:blocks programming tutorial>`."
 msgstr ""
+"ここで説明したメソッドは、Android Studio や OnBot Java で使用できます。また、別途 "
+":ref:`ブロックプログラミングチュートリアル <programming_resources/blocks/blocks-"
+"tutorial:blocks プログラミングチュートリアル>` で説明されているように、myBlocks "
+"を作成することでブロックプログラマーにも提供できます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:36
 msgid ""
@@ -107,11 +123,15 @@ msgid ""
 "Vuforia video stream. The SDK already includes and uses Vuforia for "
 "navigation, so it’s a convenient tool for passing camera streams to TFOD."
 msgstr ""
+"ここではVuforiaが記載されており、以下の「サンプルOpModes <#sample-"
+"opmodes>`__」でも参照されます。**なぜVuforiaなのか？** *FIRST* Tech "
+"ChallengeでGoogleのTensorFlow "
+"Liteの実装は、Vuforiaビデオストリームからカメラ画像を受け取ります。SDKには既にVuforiaが含まれており、ナビゲーションのために使用されているため、TFODにカメラストリームを送るのに便利なツールとなっています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:42
 msgid ""
 "These CameraControl interfaces allow some control of the webcam, within "
-"requirements or settings of Vuforia for its own performance. Such "
-"settings include resolution and frame rate, not covered here."
+"requirements or settings of Vuforia for its own performance. Such settings "
+"include resolution and frame rate, not covered here."
 msgstr ""
-
+"これらのCameraControlインターフェースでは、Vuforiaの独自性能のために必要な範囲や設定内でウェブカメラに対して一定程度の制御が可能です。そのような設定には解像度とフレームレートなどが含まれますが、ここではそれらはカバーしていません。"

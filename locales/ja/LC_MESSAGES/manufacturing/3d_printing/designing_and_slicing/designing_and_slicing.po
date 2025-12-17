@@ -12,50 +12,50 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "What is Slicing?"
-msgstr ""
+msgstr "What is Slicing?\\"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Slicer Software Choices"
-msgstr ""
+msgstr "スライサーソフトウェアの選択"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Explanation of Slicer Settings"
-msgstr ""
+msgstr "スライサー設定の説明"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "General Design for 3d Printed Parts"
-msgstr ""
+msgstr "3次元印刷部品の一般設計"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Design to Make Easy-To-Print Parts"
-msgstr ""
+msgstr "印刷しやすい部品の設計"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Working With Screws"
-msgstr ""
+msgstr "ネジの取り扱い"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Tolerancing Prints"
-msgstr ""
+msgstr "許容公差図面"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:2
 msgid "Designing and Slicing"
-msgstr ""
+msgstr "設計とスライcing"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:4
 msgid ""
-"This section goes over the essentials of how to design CAD files that are"
-" easily 3d printable, and slicing softwares that can take cad files into "
+"This section goes over the essentials of how to design CAD files that are "
+"easily 3d printable, and slicing softwares that can take cad files into "
 "instructions for a 3d printer."
 msgstr ""
-
+"このセクションでは、3次元プリンタで簡単に印刷できるCADファイルの設計方法と、CADファイルを3次元プリンタ向けの指示に変換するスライシングソフトウェアについての基本を解説します。"

@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:2
+msgid "Installing and Updating the REV Hardware Client"
+"msgstr "REVハードウェアクライアントのインストールと更新""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:4
+msgid ""
+"The REV Hardware Client is a desktop app, or software tool, that simplifies "
+"updating software on devices used in *FIRST* Tech Challenge. Unfortunately "
+"the REV Hardware Client is currently Windows-only, Apple/Mac users must use "
+"alternate methods of updating software. In this tutorial, some steps ask to "
+"download software and updates - doing this is not required, but will save "
+"time during updates."
+"msgstr """
+"The REV Hardware Clientはデスクトップアプリケーション、またはソフトウェアツールで、*FIRST* Tech "
+"Challengeにおいて使用されるデバイスのソフトウェアを簡単に更新できるようにします。 Unfortunately the REV Hardware"
+" Client is currently Windows-only, "
+"Apple/Macユーザーは代替方法を使用してソフトウェアを更新する必要があります。このチュートリアルでは、いくつかのステップでソフトウェアやアップデートをダウンロードするよう求めていますが、これを行う必要はありませんし、アップデート時に時間短縮に役立ちます。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:11
+msgid ""
+"To install, use the following steps on a **64-bit** PC or laptop running "
+"Windows 7 or newer."
+"msgstr ""
+"To install, use the following steps on a **64-bit** PC or laptop running Windows 7 or newer."
+""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:14
+msgid "**Apple/Mac users should skip these steps.**"
+"msgstr "**Apple/Macユーザーはこれらの手順をスキップしてください。**""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:17
+msgid ""
+"Not sure about 64-bit? In Windows Explorer, right-click “Computer” (Win 7) "
+"or “This PC” (Win 10), choose Properties, see “System type”."
+"msgstr """
+"64ビットについて自信がない？ Windows エクスプローラーで、「コンピューター」（Windows 7）または「このPC」（Windows "
+"10）を右クリックし、属性を選択して、「システムタイプ」を見つけてください。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:21
+msgid "Installing the RHC"
+"msgstr "RHCのインストール""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:23
+msgid ""
+"Connect the computer to the internet, and download RHC `from the REV RHC "
+"download page <https://docs.revrobotics.com/rev-hardware-client/>`__. Just "
+"click the orange Download button and choose your computer’s Downloads folder"
+" to store the file."
+"msgstr """
+"インターネットにコンピューターを接続し、REVのRHCダウンロードページから`RHCをダウンロード<https://docs.revrobotics.com/rev-"
+"hardware-"
+"client/>`__します。橙色の「ダウンロード」ボタンをクリックし、ファイルを保存するためのコンピューターのダウンロードフォルダを選択してください。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:33
+msgid "Downloading REV Hardware Client"
+"msgstr "REVハードウェアクライアントのダウンロード""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:37
+msgid ""
+"See the downloaded file shown at lower left (green arrow). Click that "
+"filename to begin installing the RHC app; then follow the prompts. When "
+"that’s complete, the RHC icon will appear on your computer’s desktop."
+"msgstr """
+"ダウンロードしたファイル（青い矢印で示されています）を確認してください。そのファイル名をクリックしてRHCアプリのインストールを開始し、指示に従ってください。完了すると、コンピュータデスクトップ上にRHCアイコンが表示されます。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:42
+msgid ""
+"If the computer is **not** 64-bit, RHC installation will fail with an "
+"appropriate error message."
+"msgstr "もしコンピューターが**64ビット**でない場合、RHCのインストールは適切なエラーメッセージとともに失敗します。""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:46
+msgid "Downloading Initial Updates"
+"msgstr ""
+"初期更新のダウンロード"
+""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:48
+msgid ""
+"Open the RHC app. This is a good time to **pre-download** various pieces of "
+"software you might need soon."
+"msgstr """
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:51
+msgid ""
+"Why download now? Later, this computer might be connected via Wi-Fi to a "
+"Robot Controller, not to the internet. Or a good internet connection might "
+"not be available when urgently needed (Murphy’s Law)."
+"msgstr """
+"なぜ今ダウンロードするか？後で、このコンピューターはWi-"
+"Fi経由でロボットコントローラーに接続される可能性があり、インターネットには接続されないかもしれません。または、緊急時に必要なときに良いインターネット接続が利用できない場合もあります（"
+" Murphy’s Law）。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:55
+msgid ""
+"Click on the Downloads tab (top left). Under “Available Files” is a list of "
+"software for *FIRST* Tech Challenge and other software for a different "
+"program called *FIRST* Robotics Competition."
+"msgstr """
+"ダウンロードタブ（左上）をクリックしてください。\"利用可能なファイル\" の下には、*FIRST* Tech "
+"Challengeのソフトウェアと、別のプログラムである*FIRST* Robotics Competition用のソフトウェアの一覧が表示されます。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:64
+msgid "Available Files"
+"msgstr "利用可能なファイル\\n""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:64
+msgid "REV Hardware Client Available Files"
+"msgstr "REVハードウェアクライアントの利用可能なファイル""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:68
+msgid ""
+"Click the orange Download button, only for the 5 *FIRST* Tech Challenge "
+"items (yellow rectangles). This may take a few minutes; the OS files are "
+"large."
+"msgstr """
+"オレンジ色の「ダウンロード」ボタンをクリックしてください。これは、5つの*FIRST* Tech "
+"Challengeアイテム（黄色い長方形）だけに適用します。この操作は数分かかる場合があります。OSファイルは大きいのでご了承ください。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:71
+msgid ""
+"You don’t need to track where these files are stored; they will be available"
+" to the RHC app when needed for device update."
+"msgstr "これらのファイルがどこに保存されているか追跡する必要はありません；必要なときにデバイス更新のためにRHCアプリケーションで利用可能です。""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:74
+msgid ""
+"When complete, these 5 items will appear under the heading “Downloaded "
+"Files”."
+"msgstr "完成すると、これらの5つの項目は「ダウンロードしたファイル」のヘッダーの下に表示されます。""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:78
+msgid "Updating the REV Hardware Client"
+"msgstr "REVハードウェアクライアントの更新""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:80
+msgid ""
+"On a Windows computer connected to the internet, open the REV Hardware "
+"Client."
+"msgstr "インターネットに接続されたWindowsコンピュータで、REV Hardware Clientを開きます。""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:88
+msgid "Updating Updates"
+"msgstr "アップデートの更新""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:88
+msgid "REV Hardware Client Available Updates"
+"msgstr "REVハードウェアクライアントの利用可能な更新プログラム""
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:92
+msgid ""
+"Click the \"About\" tab, then click \"Check for Updates\" (green arrow, "
+"above). If a new version is available, click to update."
+"msgstr """
+"「 ABOUT "
+"」タブをクリックし、その後、「アップデートの確認」（上の緑色の矢印）をクリックします。新しいバージョンが利用可能であれば、更新をクリックしてください。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:95
+msgid ""
+"That’s all for now! You will use these files later, when updating various "
+"devices. More info about the RHC is `at REV Robotics’ excellent "
+"documentation site. <https://docs.revrobotics.com/rev-hardware-client/>`__"
+"msgstr """
+"今でこそ全部ですが、これらのファイルは後でさまざまなデバイスの更新を行う際に使用します。RHCに関する詳細情報は、`REVロボティクスの優れたドキュメンテーションサイト"
+" <https://docs.revrobotics.com/rev-hardware-client/>`__ にあります。"
+
+#: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:99
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+"msgstr "質問、ご意見や訂正は westsiderobotics@verizon.net までお願いします。""

@@ -12,109 +12,121 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:2
 msgid "Getting to know the GitHub Repo"
-msgstr ""
+msgstr "GitHubリポジトリについて理解する"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:3
 msgid ":bdg-secondary:`Information`"
-msgstr ""
+msgstr ":bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:6
 msgid "It is assumed that you have already created a GitHub account."
-msgstr ""
+msgstr "あなたには既にGitHubアカウントを作成していることが前提です。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:8
 msgid ""
 "GitHub is a website where people and organizations can store projects in "
-"what's known as a \"repository\". Some repositories can be public, "
-"meaning anyone can see the content within it, and some are private. The "
-"ftcdocs repository you're working on is a public repository, which means "
-"that anyone can access it."
+"what's known as a \"repository\". Some repositories can be public, meaning "
+"anyone can see the content within it, and some are private. The ftcdocs "
+"repository you're working on is a public repository, which means that anyone"
+" can access it."
 msgstr ""
+"GitHubは、個人や組織がプロジェクトを「リポジトリ」と呼ばれる場所に保存できるウェブサイトです。一部のリポジトリは公開リポジトリで、誰でもその内容を見ることができます。また、一部はプライベートリポジトリとして設定され、誰でも見ることができません。あなたが作業しているftcdocsリポジトリは公開リポジトリなので、誰でもアクセスできます。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:14
 msgid "Understanding the ftcdocs Repo"
-msgstr ""
+msgstr "ftcdocs リポジトリの理解"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:16
 msgid ""
-"The GitHub ``ftcdocs`` repository can be found on GitHub at the following"
-" address:"
-msgstr ""
+"The GitHub ``ftcdocs`` repository can be found on GitHub at the following "
+"address:"
+msgstr "GitHubの``ftcdocs``リポジトリは、次のアドレスで見つけることができます："
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:18
 msgid "https://github.com/FIRST-Tech-Challenge/ftcdocs/"
-msgstr ""
+msgstr "https://github.com/FIRST-Tech-Challenge/ftcdocs/"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:20
 msgid ""
-"The GitHub repository is where all of the source files for this website "
-"are kept. Figure 1 shows what the main code page for the ``ftcdocs`` "
-"repository looks like."
+"The GitHub repository is where all of the source files for this website are "
+"kept. Figure 1 shows what the main code page for the ``ftcdocs`` repository "
+"looks like."
 msgstr ""
+"このウェブサイトのすべてのソースファイルが保存されているGitHubリポジトリがあります。図1は、``ftcdocs`` "
+"リポジトリのメインコードページの様子を示しています。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:28
 msgid "Figure 1 ftcdocs GitHub Repo"
-msgstr ""
+msgstr "図1 FTCドキュメントGitHubリポジトリ"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:28
 msgid "Figure 1: ftcdocs GitHub Repository"
-msgstr ""
+msgstr "図1: ftcdocs GitHubリポジトリ"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:30
 msgid ""
-"This main **code page** is where you'll do most of your work. It's called"
-" a **code page** because by default the ``< > Code`` tab of the "
-"repository is selected, and this is the page that we're currently "
-"viewing. For software projects, the **code page** is where code is "
-"stored; for us, this is where our *content* is stored. There are several "
-"different tabs, but we only really care about the first four:"
-msgstr ""
+"This main **code page** is where you'll do most of your work. It's called a "
+"**code page** because by default the ``< > Code`` tab of the repository is "
+"selected, and this is the page that we're currently viewing. For software "
+"projects, the **code page** is where code is stored; for us, this is where "
+"our *content* is stored. There are several different tabs, but we only "
+"really care about the first four:"
+"msgstr ""
+"このメインの**code page**は、ほとんどの作業を行う場所です。これは**code page**と呼ばれるのは、デフォルトではリポジトリの``< > Code``タブが選択されているためです。現在表示しているページもこれに該当します。ソフトウェアプロジェクトの場合、**code page**はコードを保存する場所ですが、私たちの場合、ここには*content*が保存されています。いくつかの異なるタブがありますが、私たちは主に最初の4つだけに注目しています："
+""
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:37
 msgid ""
 "``< > Code`` - The **Code page** shows us the file structure of our "
 "repository and also allows us to view and edit files."
-msgstr ""
+msgstr "``< > コード`` - **コードページ**はリポジトリのファイル構造を表示し、またファイルの確認や編集も可能です。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:40
 msgid ""
 "``Issues`` - The **Issues page** shows us \"issues\" that any user can "
-"submit. These issues are generally feature request (like \"Please add "
-"emojis to the document workflow\") or bug reports (like \"When I use "
-"dropdowns, my document errors out.\"). Issues are not meant to be "
-"discussions, but very specific tasks that need to be addressed."
+"submit. These issues are generally feature request (like \"Please add emojis"
+" to the document workflow\") or bug reports (like \"When I use dropdowns, my"
+" document errors out.\"). Issues are not meant to be discussions, but very "
+"specific tasks that need to be addressed."
 msgstr ""
+"``問題`` - **問題ページ** "
+"では、任意のユーザーが提出できる「問題」を確認できます。これらの問題は一般的に機能要望（例：「ドキュメントフローに絵文字を追加してください」）やバグレポート（例：「ドロップダウンを使用するとドキュメントでエラーが出ます」）などが含まれます。問題は議論の場ではなく、特定のタスクが解決されるべき具体的な課題です。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:45
 msgid ""
-"``Pull Requests`` - The **Pull Requests page** shows us \"Pull "
-"Requests\"; for this project, these will be requests to merge changes "
-"into the main branch. Don't worry about this page just now, we'll cover "
-"**Pull Requests** in more detail later."
+"``Pull Requests`` - The **Pull Requests page** shows us \"Pull Requests\"; "
+"for this project, these will be requests to merge changes into the main "
+"branch. Don't worry about this page just now, we'll cover **Pull Requests** "
+"in more detail later."
 msgstr ""
+"``プルリクエスト`` - "
+"**プルリクエストページ**には「プルリクエスト」が表示されます；このプロジェクトでは、これは主要ブランチに変更をマージするためのリクエストが含まれます。まだこのページについて心配する必要はありません。後で**プルリクエスト**について詳しく説明します。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:49
 msgid ""
-"``Discussions`` - The **Discussions page** is where users can visit and "
-"ask questions or get help on topics. This is meant to be an open "
-"discussion area for the repository. This area is similar to a forum, but "
-"specifically for ``ftcdocs``."
+"``Discussions`` - The **Discussions page** is where users can visit and ask "
+"questions or get help on topics. This is meant to be an open discussion area"
+" for the repository. This area is similar to a forum, but specifically for "
+"``ftcdocs``."
 msgstr ""
+"``ディスカッション`` - "
+"**ディスカッションページ**は、ユーザーが質問を投げかけたり助けを求めたりできる場所です。これはリポジトリのオープンな議論エリアとして意図されています。このエリアはフォーラムと似ていますが、特に"
+" ``ftcdocs`` 用です。"
 
 #: ../../source/contrib/tutorials/github_repo/github-repo.rst:53
 msgid ""
-"The ``< > Code`` tab will be the tab that we will spend most our time in,"
-" as this is where we manage *branches*, view and edit files, and perform "
-"most of our basic functions."
+"The ``< > Code`` tab will be the tab that we will spend most our time in, as"
+" this is where we manage *branches*, view and edit files, and perform most "
+"of our basic functions."
 msgstr ""
-
+"「< > コード」タブは、最も時間を費やすタブになるでしょう。ここではブランチを管理し、ファイルを表示・編集し、基本的な多くの機能を実行します。"

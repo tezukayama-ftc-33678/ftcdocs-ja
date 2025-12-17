@@ -12,75 +12,79 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/sponsors/discounts/discounts.rst:2
 msgid "*FIRST* Tech Challenge Team Discounts"
-msgstr ""
+msgstr "*FIRST* Tech Challenge チーム割引"
 
 #: ../../source/sponsors/discounts/discounts.rst:4
 msgid ""
 "As a benefit of being a *FIRST* Tech Challenge Team, some vendors and "
-"sponsors of *FIRST* programs have generously provided discounts on "
-"products to teams. These discounts may be for specific categories of "
-"products, or may apply site-wide, and may require an application process "
-"or a season-specific or team-specific promo code. Read details below for "
-"each vendor for more information."
+"sponsors of *FIRST* programs have generously provided discounts on products "
+"to teams. These discounts may be for specific categories of products, or may"
+" apply site-wide, and may require an application process or a season-"
+"specific or team-specific promo code. Read details below for each vendor for"
+" more information."
 msgstr ""
+"FIRST Tech "
+"Challengeチームとしての利点として、FIRSTプログラムの一部の販売元とスポンサーは、チームに対して製品に対する割引を好意的に提供しています。これらの割引は特定の商品カテゴリに限られている場合もありますし、サイト全体に適用される場合もあります。また、申請プロセスが必要な場合や季節別またはチーム別のプロモーションコードが必要な場合もあります。以下で各販売元について詳細をご確認ください。"
 
 #: ../../source/sponsors/discounts/discounts.rst:12
 msgid "Team Grant Opportunities"
-msgstr ""
+msgstr "チームの助成金機会"
 
 #: ../../source/sponsors/discounts/discounts.rst:22
 #: ../../source/sponsors/discounts/discounts.rst:44
 msgid "**What**:"
-msgstr ""
+msgstr "**何**:"
 
 #: ../../source/sponsors/discounts/discounts.rst:24
 msgid "FIRST Tech Challenge Team Grants"
-msgstr ""
+msgstr "FIRST Tech Challenge チーム助成金"
 
 #: ../../source/sponsors/discounts/discounts.rst:26
 msgid "**Expires**: See each individual grant opportunity."
-msgstr ""
+msgstr "**有効期限**: 各個別の助成金機会で確認してください。"
 
 #: ../../source/sponsors/discounts/discounts.rst:28
 msgid ""
 "**To Apply**: Check out the `list of current Team Grants available "
-"<https://www.firstinspires.org/programs/team-grant-opportunities>`_ and "
-"see if you're eligible!"
+"<https://www.firstinspires.org/programs/team-grant-opportunities>`_ and see "
+"if you're eligible!"
 msgstr ""
+"**申請方法**: 現在のチーム助成金の一覧を確認してください "
+"`<https://www.firstinspires.org/programs/team-grant-opportunities>`_ "
+"し、ご自身が資格があるかどうかをご確認ください!"
 
 #: ../../source/sponsors/discounts/discounts.rst:34
 msgid "*FIRST* Storefront"
-msgstr ""
+msgstr "*FIRST* ストレアフランセ"
 
 #: ../../source/sponsors/discounts/discounts.rst:46
 msgid ""
 "All *FIRST* Tech Challenge Teams are eligible for discounts on control "
 "equipment, electronics, and starter kits."
-msgstr ""
+msgstr "すべてのFIRST Tech Challengeチームは、制御機器、電子部品、およびセットアップキットに対する割引が利用可能です。"
 
 #: ../../source/sponsors/discounts/discounts.rst:48
 msgid "Teams are limited to one purchase per item per category each season."
-msgstr ""
+msgstr "各シーズンごとに、チームは各カテゴリごとのアイテムにつき一つしか購入できません。"
 
 #: ../../source/sponsors/discounts/discounts.rst:50
 msgid ""
-"**Expires**: Good for the current *FIRST* Tech Challenge competition "
-"season."
-msgstr ""
+"**Expires**: Good for the current *FIRST* Tech Challenge competition season."
+msgstr "**有効期限**: 現在のFIRST Tech Challenge大会シーズンに使用可能です。"
 
 #: ../../source/sponsors/discounts/discounts.rst:52
 msgid "**Promo Code**: N/A"
-msgstr ""
+msgstr "**プロモコード**: N/A"
 
 #: ../../source/sponsors/discounts/discounts.rst:54
 msgid ""
@@ -88,4 +92,6 @@ msgid ""
 "<https://www.firstinspires.org/hubfs/web/program/ftc/ftc-storefront-"
 "options.pdf>`_ for instructions on how to purchase discounted parts."
 msgstr ""
-
+"**使用方法**: 調整可能な部品の購入手順については、`Kit of Parts PDF "
+"<https://www.firstinspires.org/hubfs/web/program/ftc/ftc-storefront-"
+"options.pdf>`_ を参照してください。"

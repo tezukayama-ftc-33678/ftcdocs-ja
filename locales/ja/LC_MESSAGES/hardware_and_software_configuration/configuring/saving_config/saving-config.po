@@ -12,41 +12,47 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:2
 msgid "Saving the Configuration Information"
-msgstr ""
+msgstr "構成情報の保存"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:3
 msgid ""
-"Once you have configured your hardware, you must save the information to "
-"the configuration file. If you do not save this information, it will be "
-"lost and the robot controller will be unable to communicate with your "
-"hardware."
+"Once you have configured your hardware, you must save the information to the"
+" configuration file. If you do not save this information, it will be lost "
+"and the robot controller will be unable to communicate with your hardware."
 msgstr ""
+"ハードウェアの設定が完了したら、その情報を構成ファイルに保存する必要があります。この情報が保存されていない場合、情報は失われ、ロボットコントローラはハードウェアと通信できなくなります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:9
 msgid "Saving the Configuration Information Instructions"
-msgstr ""
+msgstr "構成情報の保存手順"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:11
 msgid ""
 "1. Press the **Done** button to go up one level in the configuration "
 "screens."
-msgstr ""
+"msgstr ""
+"1. **Done** ボタンを押して、設定画面の階層を一つ上に移動します。"
+""
+"1. **Done** ボタンを押して、設定画面の階層を一つ上に移動します。"
+""
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:19
 msgid ""
 "2. Press the **Done** button again to return to the highest level in the "
 "configuration screens."
-msgstr ""
+"msgstr ""
+"2. 再度 **Done** ボタンを押して、設定画面の最上位レベルに戻りましょう。"
+""
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:27
 msgid "Press the **Save** button."
@@ -54,25 +60,26 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:34
 msgid ""
-"4. When prompted, specify a configuration file name using the "
-"touchscreen's keypad (\"into_the_deep\" for this example)."
+"4. When prompted, specify a configuration file name using the touchscreen's "
+"keypad (\"into_the_deep\" for this example)."
 msgstr ""
+"4. プロンプトが表示された場合、タッチスクリーンのキーボードを使用して構成ファイル名を指定してください（この例では \"into_the_deep\""
+" を使用します）。"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:42
 msgid ""
-"1. Press the **OK** button to save your configuration information using "
-"that file name."
-msgstr ""
+"1. Press the **OK** button to save your configuration information using that"
+" file name."
+msgstr "1. ファイル名を使用して構成情報を保存するため、**OK** ボタンを押してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:50
 msgid ""
-"6. After the configuration file has been saved, touch the Android back-"
-"arrow button to return to the main screen of the app."
-msgstr ""
+"6. After the configuration file has been saved, touch the Android back-arrow"
+" button to return to the main screen of the app."
+msgstr "6. 設定ファイルの保存が完了したら、アプリのメイン画面に戻るためにはAndroidの戻り矢印ボタンをタッチしてください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:58
 msgid ""
-"7. Verify that the configuration file is the active configuration file on"
-" the main DRIVER STATION screen."
-msgstr ""
-
+"7. Verify that the configuration file is the active configuration file on "
+"the main DRIVER STATION screen."
+msgstr "7. メインのドライバー・ステーション画面で、設定ファイルがアクティブな設定ファイルになっていることを確認してください。"

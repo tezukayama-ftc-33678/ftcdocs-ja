@@ -12,166 +12,180 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "Common FTC Team FAQs"
-msgstr ""
+msgstr "一般的なFIRST Tech Challenge チームの質問と回答"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "Common questions asked by FIRST Tech Challenge teams answered"
-msgstr ""
+msgstr "FIRST Tech Challengeチームからよく聞かれる一般的な質問に答える"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "FTC Docs, FIRST Tech Challenge, FTC, FAQ"
-msgstr ""
+msgstr "FIRST Tech Challenge ドキュメント, FAQ"
 
 #: ../../source/faq/faqs.rst:7
 msgid "Common Team FAQs"
-msgstr ""
+msgstr "一般的なチームに関する質問と回答"
 
 #: ../../source/faq/faqs.rst:9
 msgid ""
 "If you're looking for quick answers regarding the many facets of being a "
 "team from registration to competition to judging. Please refer to these "
-"official questions and answers to guide you through the season. If you "
-"need further clarification navigate to https://www.firstinspires.org/ to "
-"Live Chat or ask game specific questions on the `Game Q&A <https://ftc-"
+"official questions and answers to guide you through the season. If you need "
+"further clarification navigate to https://www.firstinspires.org/ to Live "
+"Chat or ask game specific questions on the `Game Q&A <https://ftc-"
 "qa.firstinspires.org/>`_ ."
 msgstr ""
+"チームとしてのさまざまな面からレジストレーションまで、コンペティションまで、ジャッジメントまでについての迅速な回答を探す場合。公式の質問と答えをご参照いただき、シーズンを通じてガイドされます。追加の説明が必要な場合は、https://www.firstinspires.org/"
+" でライブチャットにアクセスしたり、「Game Q&A」（`ゲームに関する質問 <https://ftc-"
+"qa.firstinspires.org/>`_ ）でゲーム特定の質問を投げかけてください。"
 
 #: ../../source/faq/faqs.rst:15
 msgid "Dashboard/Registration FAQs"
-msgstr ""
+msgstr "ダッシュボード/登録に関するよくある質問"
 
 #: ../../source/faq/faqs.rst:22
 msgid ""
 "Each team is required to have two YPP screened lead coaches to see the "
 "Invite Youth Member contact option"
-msgstr ""
+msgstr "各チームは、招待された若手メンバー連絡先オプションを見せるため、2人のYPP審査済みのリードコーチを必要とします。"
 
 #: ../../source/faq/faqs.rst:26
 msgid ""
-"Pitsco submits payments to us electronically. This process can take 24-48"
-" hours to complete."
-msgstr ""
+"Pitsco submits payments to us electronically. This process can take 24-48 "
+"hours to complete."
+msgstr "ピッツコは電子的に支払いを提出します。このプロセスは完了するのに24〜48時間かかることがあります。"
 
 #: ../../source/faq/faqs.rst:29
 msgid "System FAQs"
-msgstr ""
+msgstr "システムのFAQ"
 
 #: ../../source/faq/faqs.rst:36
 msgid "Lead Coach 1 & 2"
-msgstr ""
+msgstr "リーダー・コーチ 1 と 2"
 
 #: ../../source/faq/faqs.rst:40
 msgid ""
-"https://ftc-events.firstinspires.org/ is the source for FIRST-official "
-"team, events and event results information for *FIRST* Tech Challenge"
+"https://ftc-events.firstinspires.org/ is the source for FIRST-official team,"
+" events and event results information for *FIRST* Tech Challenge"
 msgstr ""
+"https://ftc-events.firstinspires.org/ "
+"は、FIRST公式のチーム情報、イベント情報およびイベント結果情報を提供するためのものです。FIRST Tech Challenge"
 
 #: ../../source/faq/faqs.rst:43
 msgid "Judging FAQs"
-msgstr ""
+msgstr "審査 FAQ"
 
 #: ../../source/faq/faqs.rst:50
 msgid ""
-"Teams should bring their robot, Portfolio and as many members of the team"
-" who want to participate in the presentation. Please note that at some "
+"Teams should bring their robot, Portfolio and as many members of the team "
+"who want to participate in the presentation. Please note that at some "
 "events, the Portfolio is collected when the team checks in for the event."
 msgstr ""
+"チームはロボット、ポートフォリオ、そしてプレゼンテーションに参加したい全員を連れてきてください。なお、某些のイベントでは、チームがイベントへのチェックイン時にポートフォリオが収集されることをご了承ください。"
 
 #: ../../source/faq/faqs.rst:55
 msgid ""
-"Judges complete the feedback form immediately after the team has "
-"completed their Structured interview. Feedback is limited to the initial "
-"Structured interview and does not include the team's performance in "
-"follow-up Pit interviews or their Portfolio."
+"Judges complete the feedback form immediately after the team has completed "
+"their Structured interview. Feedback is limited to the initial Structured "
+"interview and does not include the team's performance in follow-up Pit "
+"interviews or their Portfolio."
 msgstr ""
+"審判はチームが構造化面接を終了した後、即座にフィードバックフォームを完了します。フィードバックは初期の構造化面接のみを対象とし、その後のピット面接でのチームのパフォーマンスやポートフォリオには含まれません。"
 
 #: ../../source/faq/faqs.rst:60
 msgid ""
-"Teams are not required to prepare a 5 minute presentation, but teams "
-"should let the judges know they do not have a presentation when they "
-"enter the room. The judges will begin to ask the team questions at the "
-"beginning of the interview."
+"Teams are not required to prepare a 5 minute presentation, but teams should "
+"let the judges know they do not have a presentation when they enter the "
+"room. The judges will begin to ask the team questions at the beginning of "
+"the interview."
 msgstr ""
+"チームは5分間のプレゼンテーションを準備する必要はありませんが、会場に入室した際にプレゼンテーションを持っていないことを審判に知らせるべきです。審判は面接開始時にチームに対して質問を始めます。"
 
 #: ../../source/faq/faqs.rst:66
 msgid "Competition FAQs"
-msgstr ""
+msgstr "競技に関するよくある質問"
 
 #: ../../source/faq/faqs.rst:73
 msgid ""
-"At least one student must be present during inspection per the "
-"Competition Manual. However, inspectors will ask questions about the "
-"mechanical and electrical components of your robot. Ideally, you have one"
-" or more team members who can answer such questions. In addition, you may"
-" need to turn your robot and driver station on and demonstrate your robot"
-" complies with a particular rule like sizing. That may involve someone "
-"from the drive team if you need to use a gamepad to operate a mechanism "
-"or place the robot in its starting configuration. Look at the self "
-"inspection checklist, you can generally determine what you're doing based"
-" on the checklist."
+"At least one student must be present during inspection per the Competition "
+"Manual. However, inspectors will ask questions about the mechanical and "
+"electrical components of your robot. Ideally, you have one or more team "
+"members who can answer such questions. In addition, you may need to turn "
+"your robot and driver station on and demonstrate your robot complies with a "
+"particular rule like sizing. That may involve someone from the drive team if"
+" you need to use a gamepad to operate a mechanism or place the robot in its "
+"starting configuration. Look at the self inspection checklist, you can "
+"generally determine what you're doing based on the checklist."
 msgstr ""
+"競技マニュアルによれば、検査中に最低1人の生徒がいる必要があります。ただし、検査官はあなたのロボットのメカニカルと電気部品について質問をすることがあります。理想的には、このような質問に答えられるチームメンバーが1人または複数いることが望ましいです。また、特定のルール（例：サイズ）に従うために、ロボットとドライバーステーションを起動し、その動作を示す必要があるかもしれません。これは、ゲームパッドを使用してメカニズムを操作する必要がある場合やロボットを開始位置に配置する場合などに涉及することがあります。自己検査チェックリストを参照してください。一般的には、チェックリストに基づいて何をしているかを判断できます。"
 
 #: ../../source/faq/faqs.rst:82
 msgid ""
-"There are only certain situations that warrant replaying a match. Consult"
-" the Competition Manual to understand what conditions and processes can "
-"result in a replay. Typically unless something went wrong with the field "
-"or field staff there will not be grounds for a replay. A malfunctioning "
-"robot typically does not provide grounds for a replay."
+"There are only certain situations that warrant replaying a match. Consult "
+"the Competition Manual to understand what conditions and processes can "
+"result in a replay. Typically unless something went wrong with the field or "
+"field staff there will not be grounds for a replay. A malfunctioning robot "
+"typically does not provide grounds for a replay."
 msgstr ""
+"只有在特定情况下才需要重播一场比赛。请参阅竞赛手册以了解哪些条件和流程可能导致重播。通常，除非场地或场地工作人员出现问题，否则一般不会有重播的理由。故障机器人通常也不会成为重播的理由。"
 
 #: ../../source/faq/faqs.rst:88
 msgid ""
 "The situation was different. If necessary, teams can talk with the head "
 "referee in the competition area Question Box."
-msgstr ""
+msgstr "状況は異なりました。必要に応じて、競技エリアの質問ボックスでチームはヘッドレフェリーと話すことができます。"
 
 #: ../../source/faq/faqs.rst:92
 msgid ""
-"Teams can go the Question Box so they can discuss this issue with the "
-"head referee. No photographs or videos will be reviewed."
-msgstr ""
+"Teams can go the Question Box so they can discuss this issue with the head "
+"referee. No photographs or videos will be reviewed."
+msgstr "チームは質問ボックスに進み、この問題について頭裁員と相談することができます。写真や動画は審査の対象外です。"
 
 #: ../../source/faq/faqs.rst:96
 msgid ""
-"Teams can work with the event FTA or Event Director if they have "
-"questions about the WiFi environment."
-msgstr ""
+"Teams can work with the event FTA or Event Director if they have questions "
+"about the WiFi environment."
+msgstr "チームは、無線LAN環境について質問がある場合は、イベントFTAまたはイベントディレクターと連絡を取りましょう。"
 
 #: ../../source/faq/faqs.rst:100
 msgid ""
-"If a team has questions about a match outcome, they should send one "
-"student representative to the Question Box to talk to the Head Referee "
-"(do not interrupt matches for this conversation). If the referees agree "
-"that they made a mistake, they can correct it. If the referees are "
-"confident in their score, the team should accept that decision. Check the"
-" Competition Manual for more information about key volunteer roles, "
-"tournament operations, and how to use the Question Box."
+"If a team has questions about a match outcome, they should send one student "
+"representative to the Question Box to talk to the Head Referee (do not "
+"interrupt matches for this conversation). If the referees agree that they "
+"made a mistake, they can correct it. If the referees are confident in their "
+"score, the team should accept that decision. Check the Competition Manual "
+"for more information about key volunteer roles, tournament operations, and "
+"how to use the Question Box."
 msgstr ""
+"チームが試合結果について質問がある場合、そのチームはQuestion "
+"Boxに1人の学生代表を送ってヘッドレフェリーと話すことをお勧めします（この会話のために試合を中断しないでください）。レフェリーやが一致して誤りがあったと判断した場合は、それを訂正することができます。レフェリーやがスコアについて自信を持っている場合、チームはその決定を受け入れるべきです。Competition"
+" Manualを参照して、重要なボランティア役割、トーナメント運営、およびQuestion Boxの使用方法についてもっと詳しく知ることができます。"
 
 #: ../../source/faq/faqs.rst:105
 msgid "Technology FAQs"
-msgstr ""
+msgstr "技術的な質問と回答\\n"
 
 #: ../../source/faq/faqs.rst:112
 msgid ""
-"The best place to go for help is the `ftc-community platform <https"
-"://ftc-community.firstinspires.org>`__. The ftc-community platform is a "
-"community place to ask questions that is monitored by a variety of "
-"knowledgeable folks who can likely help you with your questions!"
+"The best place to go for help is the `ftc-community platform <https://ftc-"
+"community.firstinspires.org>`__. The ftc-community platform is a community "
+"place to ask questions that is monitored by a variety of knowledgeable folks"
+" who can likely help you with your questions!"
 msgstr ""
+"お手伝いが必要な場合は、`ftc-communityプラットフォーム <https://ftc-"
+"community.firstinspires.org>`__ が最良の場所です。ftc-"
+"communityプラットフォームは、質問を投げかけられるコミュニティの場で、様々な知識豊富な方々によって監視されるため、おそらくあなたの質問にお手伝いができるでしょう！"
 
 #: ../../source/faq/faqs.rst:118
 msgid "Reviewed by *FIRST* Tech Challenge Game Design Committee"
-msgstr ""
-
+msgstr "REVIEWED BY *FIRST* TECH CHALLENGE GAME DESIGN COMMITTEE です"

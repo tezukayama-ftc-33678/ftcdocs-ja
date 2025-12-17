@@ -12,27 +12,29 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:2
 msgid "White Balance Control"
-msgstr ""
+msgstr "白平衡制御"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:4
-msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl`"
+msgid ""
+":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl`"
 msgstr ""
+":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.WhiteBalanceControl`"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:6
 msgid ""
 "Continuing with other interfaces, the SDK (new for version 7.1) provides "
 "methods for white balance control."
-msgstr ""
+msgstr "他のインターフェースに進むと、SDK（バージョン7.1新規追加）は白バランス制御用のメソッドを提供します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:9
 msgid ""
@@ -40,58 +42,65 @@ msgid ""
 "temperature** in the image. Color temperature is measured in units of "
 "degrees Kelvin (K) and is a physical property of light."
 msgstr ""
+"ホワイトバランスは、デジタルカメラの設定で、画像内の**色温度**を調整します。色温度はケルビン（K）という単位で測定され、光の物理的な性質です。"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:13
 msgid ""
-"For example, sunlight at noon measures between 5200-6000 K. An "
-"incandescent light bulb (warm/orange) has a color temperature of around "
-"3000 K, while shade (cool/blue) measures around 8000 K."
+"For example, sunlight at noon measures between 5200-6000 K. An incandescent "
+"light bulb (warm/orange) has a color temperature of around 3000 K, while "
+"shade (cool/blue) measures around 8000 K."
 msgstr ""
+"例えば、正午の太陽光は5200-6000K程度です。温かい/orange色の電球（incandescent light "
+"bulb）は約3000Kの色温度を持ち、一方で日陰（shade）は冷たい/blue色で約8000K程度の色温度を示します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:17
 msgid ""
-"When performed automatically, white balance adds the opposite color to "
-"the image in an attempt to bring the color temperature back to neutral. "
-"This interface WhiteBalanceControl allows the color temperature to be "
-"directly programmed by a user."
+"When performed automatically, white balance adds the opposite color to the "
+"image in an attempt to bring the color temperature back to neutral. This "
+"interface WhiteBalanceControl allows the color temperature to be directly "
+"programmed by a user."
 msgstr ""
+"自動で実行された場合、ホワイトバランスは画像に逆色を追加して、色温度を中性に戻試みます。このインターフェース「WhiteBalanceControl」では、ユーザーによって直接色温度がプログラムできます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:22
 msgid ""
-"A single value is used here to control white balance temperature, in "
-"units of degrees Kelvin, of Java type integer. Here are the methods:"
-msgstr ""
+"A single value is used here to control white balance temperature, in units "
+"of degrees Kelvin, of Java type integer. Here are the methods:"
+msgstr "ここでは、白平衡温度を制御するための単一の値が使用され、単位はケルビンで表されます。Java型整数を使用します。以下にメソッドを示します："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:25
 msgid "setWhiteBalanceTemperature(int temperature)"
-msgstr ""
+msgstr "白平衡温度を設定する(int 温度)\\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:26
 msgid "getWhiteBalanceTemperature()"
-msgstr ""
+msgstr "白平衡温度取得()"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:28
 msgid ""
 "As with exposure and gain, the webcam may support minimum and maximum "
 "allowed values of white balance temperature. These can be retrieved with:"
 msgstr ""
+"Webcamの露出やゲインと同じように、ホワイトバランス温度の最小値と最大値がサポートされている場合があります。これらの値は次のようになります："
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:32
 msgid "getMinWhiteBalanceTemperature()"
-msgstr ""
+msgstr "最小のホワイトバランス温度を得る()"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:33
 msgid "getMaxWhiteBalanceTemperature()"
-msgstr ""
+msgstr "getMaxWhiteBalanceTemperature()"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:35
 msgid ""
-"There are no ``set()`` methods for min and max temperature values; these "
-"are hard-coded in the webcam’s firmware. Note that firmware settings may "
-"vary among different versions of the same webcam model."
+"There are no ``set()`` methods for min and max temperature values; these are"
+" hard-coded in the webcam’s firmware. Note that firmware settings may vary "
+"among different versions of the same webcam model."
 msgstr ""
+"最小および最大温度値には ``set()`` "
+"メソッドがありません；これらはウェブカムのファームウェアでハードコーディングされています。なお、同じモデルのウェブカムのバージョンによってファームウェア設定は異なる場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:39
-msgid "The Logitech C920 webcam has a min value of 2000 and a max value of 6500."
-msgstr ""
-
+msgid ""
+"The Logitech C920 webcam has a min value of 2000 and a max value of 6500."
+msgstr "Logitech C920のウェブカムは、最小値が2000で最大値が6500です。"

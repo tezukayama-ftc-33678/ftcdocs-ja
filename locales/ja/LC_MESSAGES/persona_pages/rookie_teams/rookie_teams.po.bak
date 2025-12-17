@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:2
+msgid "New Teams"
+"msgstr "私たちは、FIRST の哲学である Gracious Professionalism と Coopertition をコアバリューを通じて表現します。""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:4
+msgid ""
+"Welcome to *FIRST* Tech Challenge! Resources have been organized by type "
+"msgstr """
+" Get started by exploring our robot building resources, control system "
+"and the game.  You may also find the Coach's Playbook, a weekly schedule "
+"of activities, helpful to organize the whole team under Team Management. "
+"Just click on the button for the resource you want to explore!"
+"msgstr "FIRST Tech Challenge へようこそ！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。ロボット製作リソース、制御システム、ゲームを探索することから始めてください。また、チーム管理では、チーム全体を組織するのに役立つ週次スケジュールであるコーチのプレイブックも役立つでしょう。探索したいリソースのボタンをクリックしてください！""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:18
+msgid "*FIRST* Core Values"
+"msgstr "FIRST コアバリュー""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:22
+msgid ""
+"We express the *FIRST* philosophies of Gracious Professionalism and "
+"Coopertition through our Core Values."
+"msgstr "私たちは、FIRST の哲学である Gracious Professionalism と Coopertition をコアバリューを通じて表現します。""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:31
+msgid "Gracious Professionalism"
+"msgstr "Gracious Professionalism""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:43
+msgid "Coopertition (external)"
+"msgstr "Coopertition（外部）""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:55
+msgid "Core Values (external)"
+"msgstr "コアバリュー（外部）""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:67
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:99
+msgid "Programming Resources"
+"msgstr ":doc:`プログラミングリソース <../../programming_resources/index>`""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:71
+msgid "Look for programming resources here."
+"msgstr "プログラミングリソースはこちらをご覧ください。""
+"msgstr """
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:79
+msgid "Choosing a Programming Tool"
+"msgstr ":doc:`プログラミングツールの選択 <../../programming_resources/shared/choosing_program_lang/choosing-program-lang>`""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:89
+msgid "Blocks Programmming Tutorial"
+"msgstr ":doc:`Blocks プログラミングチュートリアル <../../programming_resources/blocks/Blocks-Tutorial>`""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:112
+msgid "Robot Building and Control"
+"msgstr "ロボット製作と制御""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:116
+msgid "Look for robot and control system resources here."
+"msgstr "ロボットと制御システムのリソースはこちらをご覧ください。""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:124
+msgid "The FTC Control System"
+"msgstr ":doc:`FTC 制御システム <../../programming_resources/shared/control_system_intro/The-FTC-Control-System>`""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:134
+msgid "Robot Controller"
+"msgstr "Robot Controller""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:144
+msgid "Driver Station"
+"msgstr "Driver Station""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:154
+msgid "Hardware Component Overview"
+"msgstr ":doc:`ハードウェアコンポーネントの概要 <../../control_hard_compon/index>`""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:163
+msgid "Team Resources (external)"
+"msgstr "チームリソース（外部）""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:174
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:187
+msgid "Competition Manual"
+"msgstr "プログラミングリソース""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:178
+msgid ""
+"msgstr "競技マニュアル""
+"Competition Manual is an essential document."
+"msgstr "競技のすべてのルールに従っていることを確認してください！競技マニュアルは必須のドキュメントです。""
+
+msgstr "CAD リソース"
+"msgid "Playing Field Resources""
+"msgstr ":doc:`フィールドリソース <../../game_specific_resources/playing_field_resources/playing_field_resources>`""
+
+msgstr "よくある質問"
+"msgid "Game Question and Answer System (external)""
+"msgstr "ゲーム質疑応答システム（外部）""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:218
+msgid "Team Management"
+"msgstr "チーム管理""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:222
+msgid ""
+"Links to team management resources like team registration, mentor "
+"training/resources, team budget and fundraising, preparing for a "
+"competition, and more."
+"msgstr "チーム登録、メンター研修/リソース、チーム予算と資金調達、競技会への準備など、チーム管理リソースへのリンクです。""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:230
+msgid "Team Management (external)"
+"msgstr "チーム管理（外部）""
+"msgstr """
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:242
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:254
+msgid "CAD Resources"
+"msgstr ":doc:`CAD リソース <../../cad_resources/index>`""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:246
+msgid "Look for resources for Computer-Aided Design (CAD) software."
+"msgstr "コンピューター支援設計（CAD）ソフトウェアのリソースはこちらをご覧ください。""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:266
+msgid "Event Info"
+"msgstr "イベント情報""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:270
+msgid "FTC events and event results."
+"msgstr "FTC イベントとイベント結果。""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:278
+msgid "FTC Events (external)"
+"msgstr "FTC イベント（外部）""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:290
+msgid "Awards"
+"msgstr "Awards""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:294
+msgid "Know the awards criteria before the event."
+"msgstr "イベント前に Awards の基準を知っておきましょう。""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:302
+msgid "FTC Awards (external PDF)"
+"msgstr "FTC Awards（外部 PDF）""
+"msgstr """
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:314
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:326
+msgid "Frequently Asked Questions"
+"msgstr ":doc:`よくある質問 <../../faq/faqs>`""
+
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:318
+msgid "Commonly asked team questions."
+"msgstr "チームからよくある質問。""
+

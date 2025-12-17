@@ -12,21 +12,21 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:2
 msgid "Mid-Range Printers ($300-$600 USD)"
-msgstr ""
+msgstr "中途半端なレンジのプリンター（3,000〜6,000 ドル）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:5
 msgid "AnkerMake M5C ($399)"
-msgstr ""
+msgstr "AnkerMake M5C (¥3,990)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:7
 msgid ""
@@ -36,282 +36,290 @@ msgid ""
 "setup. This is one of the cheapest printers that can reach 0.5m/s speeds "
 "while printing, which alone makes it stand out."
 msgstr ""
+"Ankerの3Dプリンティング機器、AnkerMake "
+"M5Cは、機能と速度を考えると絶対的なお買い得品です。このプリンターには高速印刷機能があり、几乎不需要设置就拥有极其友好的界面。这是为数不多的能够以0.5m/s的速度进行打印且价格低廉的打印机之一，仅这一点就使其脱颖而出。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:12
 msgid "M5C Features"
-msgstr ""
+msgstr "M5C機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:13
 msgid "Cartesian Motion System optimized for speed"
-msgstr ""
+msgstr "直線運動システム、高速化に最適化"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:14
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:45
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:86
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:119
 msgid "Auto Bed Leveling"
-msgstr ""
+msgstr "自動ベッドレベル調整"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:15
 msgid "Removable Bed"
-msgstr ""
+msgstr "取り外し可能なベッド"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:16
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:88
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:128
 msgid "All-Metal Direct Drive Extruder"
-msgstr ""
+msgstr "全金属直接駆動エクストラドライバー"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:17
 msgid "WiFi Printing capabilities"
-msgstr ""
+msgstr "無線LAN印刷機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:18
 msgid "220mm x 220mm x 250mm Print Volume"
-msgstr ""
+msgstr "220mm × 220mm × 250mm の印刷可能なサイズ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:19
 msgid "Extremely friendly software and setup for new users"
-msgstr ""
+msgstr "新規ユーザーにとって非常に親切で使いやすいソフトウェアとセットアップ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:22
 msgid "M5C Drawbacks"
-msgstr ""
+msgstr "M5Cの欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:23
 msgid "Replacement parts are proprietary from AnkerMake (albeit well-priced)"
-msgstr ""
+msgstr "代替部品はAnkerMakeのもので、独自性があります（ただし価格は手頃です）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:24
 msgid "Reliant on Anker for future firmware/software updates"
-msgstr ""
+msgstr "将来的なファームウェアやソフトウェアの更新はAnkerに依存します"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:25
 msgid ""
-"Limited on speed compared to CoreXY, but still has unrivaled speed at "
-"this price and availability"
-msgstr ""
+"Limited on speed compared to CoreXY, but still has unrivaled speed at this "
+"price and availability"
+msgstr "コアXYに比べて速度が制限されるものの、この価格帯と入手可能性において依然として無双の高速性を誇ります"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:26
 msgid "No screen on the printer, all monitoring must be done digitally"
-msgstr ""
+msgstr "プリンターに画面が表示されていない場合、すべてのモニタリングはデジタルで行う必要があります"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:27
 msgid "V wheel motion system can wear after long extended use"
-msgstr ""
+msgstr "長時間の使用後、V輪移動システムは摩耗する可能性があります"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:-1
 msgid "Picture of a AnkerMake M5C"
-msgstr ""
+msgstr "AnkerMake M5C の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:37
 msgid "Prusa Mini ($429)"
-msgstr ""
+msgstr "プリュサ ミニ ($429)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:39
 msgid ""
 "If you're ok with paying a premium and getting a smaller build volume in "
-"exchange for a printer that just works every time, the Prusa Mini is a "
-"great option, as Prusa has had millions of hours running these machines. "
-"Just about every issue with this printer has been found, patched, and "
-"pushed to the consumer."
+"exchange for a printer that just works every time, the Prusa Mini is a great"
+" option, as Prusa has had millions of hours running these machines. Just "
+"about every issue with this printer has been found, patched, and pushed to "
+"the consumer."
 msgstr ""
+"もし、常に問題なく動作するプリンターを優先し、その代わりに小さな建造物の出力量と高額な費用を承認できるなら、Prusa "
+"Miniは素晴らしい選択肢です。Prusaはこれらのマシンを数百万時間運転しており、このプリンターに関連するほぼすべての問題はすでに見つかり、修正され、消費者に提供されています。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:44
 msgid "Prusa Mini Features"
-msgstr ""
+msgstr "プリスカミニの機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:46
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:120
 msgid "Removable Spring Steel Sheets"
-msgstr ""
+msgstr "取り外し可能なスプリングスティールシート"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:47
 msgid "Prusa's consistency guarantee"
-msgstr ""
+msgstr "プリュサの一貫性保証"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:48
 msgid "Open Source Hardware"
-msgstr ""
+msgstr "オープンソースハードウェア"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:49
 msgid "Easily Transportable"
-msgstr ""
+msgstr "容易に運搬可能な"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:50
 msgid "180mm x 180mm x 180mm Print Volume"
-msgstr ""
+msgstr "180mm x 180mm x 180mm の印刷可能なサイズ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:53
 msgid "Prusa Mini Drawbacks"
-msgstr ""
+msgstr "プリュサ ミニの欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:54
 msgid "Premium price"
-msgstr ""
+msgstr "プレミアム価格"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:55
 msgid "Cantilever/unsupported X axis"
-msgstr ""
+msgstr "cantilever/unsupported X軸"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:56
 msgid "Lead times due to printer desirability"
-msgstr ""
+msgstr "プリンターの人気により発生する納期"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:57
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:137
 msgid "No stock network capability"
-msgstr ""
+msgstr "ストックのネットワーク機能がありません"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:59
 msgid ""
-"You can now order Prusa printers from either their headquarters in "
-"Czechia or their subsidiary and sole authorized reseller "
-"**PrintedSolid**, based in Delaware. If you live in the USA and plan to "
-"order a Prusa printer, save yourself the headache of customs and long "
-"shipping times and order from their USA subsidiary."
+"You can now order Prusa printers from either their headquarters in Czechia "
+"or their subsidiary and sole authorized reseller **PrintedSolid**, based in "
+"Delaware. If you live in the USA and plan to order a Prusa printer, save "
+"yourself the headache of customs and long shipping times and order from "
+"their USA subsidiary."
 msgstr ""
+"あなたは現在、チェコ共和国の本社からまたはDelawareに拠点を置く唯一の正規販売代理店**PrintedSolid**からPrusaプリンターオーダーをすることができます。アメリカ在住でPrusaプリンターを購入計画がある場合、関税や長引く配送時間の面倒を避けるために、彼らのアメリカ子会社から注文することをお勧めします。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:-1
 msgid "Picture of a Prusa Mini"
-msgstr ""
+msgstr "Prusa Miniの画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:71
 msgid "BambuLab P1P ($599)"
-msgstr ""
+msgstr "バンブールabs P1P (5,99ドル)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:73
 msgid ""
 "Built for speed by BambuLab, the P1P is a CoreXY machine with well "
-"engineered proprietary hardware and software. A machine that is proving "
-"very reliable for many despite BambuLab's short time in the 3d printer "
+"engineered proprietary hardware and software. A machine that is proving very"
+" reliable for many despite BambuLab's short time in the 3d printer "
 "marketplace so far, the P1P is an amazing mid range option with a lot of "
-"manufacturing capability for it's cost. This printer is also compatible "
-"with BambuLab's multimaterial system, and can be upgraded to their new "
-"offering, the P1S, for just 150$ if your needs eventually outgrow the "
-"P1P."
+"manufacturing capability for it's cost. This printer is also compatible with"
+" BambuLab's multimaterial system, and can be upgraded to their new offering,"
+" the P1S, for just 150$ if your needs eventually outgrow the P1P."
 msgstr ""
+"BambuLabによって速さのために設計されたP1Pは、独自の高度に工程された専有ハードウェアとソフトウェアを持つCoreXYマシンです。BambuLabが3Dプリンターマーケットプレースでまだ短い期間しか存在していないにもかかわらず、多くのユーザーにとって非常に信頼性が高い機械であり、コストに対する製造能力は素晴らしいオプションです。このプリンターはまた、BambuLabのマルチマテリアルシステムと互換性があり、必要に応じてP1Pから新しいオファリングであるP1Sにアップグレードできるため、150ドルで可能となります。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:79
 msgid ""
-"This printer is a PLA workhorse, being able to print it about as fast and"
-" well as the BambuLab X1C at half the price. Even if you have the budget "
-"for an X1C, it may be worth considering buying 2 P1Ps instead if you "
-"don't need all the bells and whistles the X1C has and plan to only print "
-"PLA/PETG."
+"This printer is a PLA workhorse, being able to print it about as fast and "
+"well as the BambuLab X1C at half the price. Even if you have the budget for "
+"an X1C, it may be worth considering buying 2 P1Ps instead if you don't need "
+"all the bells and whistles the X1C has and plan to only print PLA/PETG."
 msgstr ""
+"このプリンターはPLA用の工作馬力で、BambuLab "
+"X1Cの半額でほぼ同等の速度と品質で印刷できる性能があります。X1Cに予算がある場合でも、すべての機能が不要で、 "
+"PLA/PETGのみを印刷する計画であれば、2台のP1Pを購入することも検討してみてください。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:84
 msgid "P1P Features"
-msgstr ""
+msgstr "P1Pの機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:85
 msgid "Extremely fast CoreXY motion system"
-msgstr ""
+msgstr "非常に高速なCoreXY運動システム"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:87
 msgid "Removable Beds of All Surfaces"
-msgstr ""
+msgstr "すべての表面に設置可能なベッド"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:89
 msgid "WiFi Printing capabilities and remote print monitoring"
-msgstr ""
+msgstr "無線LAN印刷機能とリモート印刷監視"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:90
 msgid "256mm x 256mm x 256mm Print Volume"
-msgstr ""
+msgstr "256mm × 256mm × 256mm の印刷可能なサイズ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:91
 msgid "Automatic print failure detection"
-msgstr ""
+msgstr "自動的な印刷失敗検出"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:94
 msgid "P1P Drawbacks"
-msgstr ""
+msgstr "P1Pの欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:95
 msgid "Replacement parts are proprietary from Bambu Lab (albeit well-priced)"
-msgstr ""
+msgstr "代替部品はBambu Labの独自製（ただし価格はリーズナブルです）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:96
 msgid "Carbon Fiber rods can wear out over time"
-msgstr ""
+msgstr "カーボンファイバーの棒が使用年数が経つと摩耗する可能性があります"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:97
 msgid "Reliant on Bambu Lab for future firmware/software updates"
-msgstr ""
+msgstr "将来的なファームウェアやソフトウェアの更新はBambu Labに依存します"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:-1
 msgid "Picture of a BambuLabs P1P"
-msgstr ""
+msgstr "バムラボズ P1P の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:107
 msgid "Creality Ender-3 S1/Pro/Plus ($379-$549)"
-msgstr ""
+msgstr "Creality Ender-3 S1/Pro/Plus（379ドル～549ドル）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:109
 msgid ""
-"If you want a printer that can do most things well at a reasonable price,"
-" the Ender-3 S1 is a good fit for you. It has a standard build volume but"
-" is packed with pretty much every modern and quality of life upgrade "
-"installed out of the box, although you are paying for this premium. "
-"Additionally, it has a similar community backing to that of the original "
-"Ender-3 series due to similarities between the S1s and the originals."
+"If you want a printer that can do most things well at a reasonable price, "
+"the Ender-3 S1 is a good fit for you. It has a standard build volume but is "
+"packed with pretty much every modern and quality of life upgrade installed "
+"out of the box, although you are paying for this premium. Additionally, it "
+"has a similar community backing to that of the original Ender-3 series due "
+"to similarities between the S1s and the originals."
 msgstr ""
+"もし、比較的安価で多くの機能を備えたプリンタを求めるのであれば、Ender-3 "
+"S1はあなたの選択肢となります。標準的な組み立てサイズを持ちながら、出荷時にほぼすべての現代的なおよび生活を便利にするアップグレードが装備されています。ただし、このプレミアムな機能に費用が伴います。また、S1シリーズと元のEnder-3シリーズには類似点があり、それらのコミュニティの支援も同様です。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:116
 msgid "S1 Features"
-msgstr ""
+msgstr "S1 特徴"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:117
 msgid "All Ender 3 S1s have at least:"
-msgstr ""
+msgstr "すべてのEnder 3 S1は少なくとも以下の機能を備えています："
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:121
 msgid "Direct Drive Extruder"
-msgstr ""
+msgstr "直接駆動エクストラダ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:122
 msgid "Built in Belt Tensioners"
-msgstr ""
+msgstr "組み込みベルトテンショナー"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:123
 msgid "Dual Z-Axis"
-msgstr ""
+msgstr "Dual Z軸"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:124
 msgid "220mm x 220mm x 270mm Print Volume"
-msgstr ""
+msgstr "220mm × 220mm × 270mm の印刷可能なサイズ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:126
 msgid "The S1 Pro also has:"
-msgstr ""
+msgstr "The S1 Pro にも以下があります："
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:130
 msgid "The S1 Plus has:"
-msgstr ""
+msgstr "S1 Plusには次の機能があります："
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:132
 msgid "300mm x 300mm x 300mm Print Volume"
-msgstr ""
+msgstr "300mm x 300mm x 300mm プリンターボリューム"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:135
 msgid "S1 Drawbacks"
-msgstr ""
+msgstr "S1 欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:136
 msgid "PTFE Lined Hotend on Normal and Plus Versions"
-msgstr ""
+msgstr "PTFE加工熱 Extruder（標準版およびプラス版）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:138
 msgid "Speed limited compared to other printers at this price range"
-msgstr ""
+msgstr "この価格帯の他のプリンタと比較して速度が制限されています"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:145
 msgid "Picture of an Ender 3 S1"
-msgstr ""
+msgstr "ENDER 3 S1の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/mid_range_printers/mid_range_printers.rst:145
 msgid "This is the Ender 3 S1 base model."
-msgstr ""
-
+msgstr "これはEnder 3 S1ベースモデルです。"

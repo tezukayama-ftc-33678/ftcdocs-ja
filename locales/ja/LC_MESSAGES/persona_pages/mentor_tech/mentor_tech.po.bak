@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:2
+msgid "Technical Mentor Resources"
+"msgstr "技術メンターリソース""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:4
+msgid ""
+"Welcome technical mentors to *FIRST* Tech Challenge! Resources have been "
+"msgstr """
+" throughout the season. These resources are tailored to teams and mentors"
+" with experience in technical fields looking to elevate their skills.  "
+"The technical resources are also a stepping stone towards industry "
+"standard certifications. Just click on the button for the resource you "
+"want to explore!"
+"msgstr "FIRST Tech Challenge の技術メンターの皆さん、ようこそ！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。探索したいリソースのボタンをクリックしてください！""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:18
+msgid "Control System Resources"
+"msgstr "制御システムリソース""
+"msgstr """
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:22
+msgid "Look for Control System resources here."
+"msgstr "制御システムのリソースはこちらをご覧ください。""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:30
+msgid "FTC Control System"
+"msgstr ":doc:`FTC 制御システム <../../programming_resources/shared/control_system_intro/The-FTC-Control-System>`""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:42
+msgid "Mechanical Resources"
+"msgstr "機械リソース""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:46
+msgid "Mechanical engineering and robot building resources"
+"msgstr "機械工学とロボット製作のリソース""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:54
+msgid "Robot Building Resources (external)"
+"msgstr "ロボット製作リソース（外部）""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:65
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:77
+msgid "Programming Resources"
+"msgstr "プログラミングリソース""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:69
+msgid "Links to programming resources."
+"msgstr "プログラミングリソースへのリンクです。""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:88
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:100
+msgstr "CAD リソース"
+"msgstr ":doc:`CAD リソース <../../cad_resources/index>`""
+
+#: ../../source/persona_pages/mentor_tech/mentor_tech.rst:92
+msgid "Look for resources for Computer-Aided Design (CAD) software."
+"msgstr "コンピューター支援設計（CAD）ソフトウェアのリソースはこちらをご覧ください。""
+

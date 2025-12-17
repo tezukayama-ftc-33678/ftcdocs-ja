@@ -12,188 +12,200 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:2
 msgid "Computer Vision Overview"
-msgstr ""
+msgstr "コンピュータビジョンの概要"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "紹介\\n"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:7
 msgid ""
-"The *FIRST* Tech Challenge control system software has built-in support "
-"for two computer vision technologies:"
+"The *FIRST* Tech Challenge control system software has built-in support for "
+"two computer vision technologies:"
 msgstr ""
+"FIRST Tech Challenge コントロールシステムソフトウェアには、2つのコンピュータビジョン技術の内包サポートが用意されています："
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:10
 msgid ""
 "AprilTags - :doc:`AprilTags "
 "<../../../apriltag/vision_portal/apriltag_intro/apriltag-intro>` are "
 "fiducial markers similar in design to a QR code that can be used for "
-"identification and localization. AprilTags are used as reference points "
-"for autonomous navigation and for assisted navigation and identification "
-"of points of interest on a game field."
+"identification and localization. AprilTags are used as reference points for "
+"autonomous navigation and for assisted navigation and identification of "
+"points of interest on a game field."
 msgstr ""
+"AprilTags - :doc:`AprilTags "
+"<../../../apriltag/vision_portal/apriltag_intro/apriltag-intro>` は、QR "
+"コードのような設計の信頼性のあるマークで、識別やロケーションに使用できます。AprilTags "
+"は自主ナビゲーションのために参照ポイントとして使用され、ゲームフィールド上の興味点の認識とナビゲーションにも使用されます。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:17
 msgid ""
 "Each season, *FIRST* provides 2D image tagets that can be used as "
 "navigational reference points."
-msgstr ""
+msgstr "各シーズン、FIRSTは2次元画像ターゲットを提供し、ナビゲーションの referencia 点として使用できます。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:19
 msgid ""
 "If the AprilTag system recognizes an AprilTag image, it provides very "
 "accurate pose information (assuming the camera used has calibration "
-"parameters for the working resolution) about the robot’s position "
-"relative to the target."
+"parameters for the working resolution) about the robot’s position relative "
+"to the target."
 msgstr ""
+"もしAprilTagシステムがAprilTag画像を認識した場合、使用されているカメラが作業解像度の校正パラメータを持っていると仮定すると、ロボットの位置に関する非常に正確なポーズ情報（目標に対する相対的位置）を提供します。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:23
-msgid "A robot can use this information to navigate autonomously on the field."
-msgstr ""
+msgid ""
+"A robot can use this information to navigate autonomously on the field."
+msgstr "ロボットはこの情報を利用してフィールド上で自律的にナビゲートすることができます。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:26
 msgid ""
-"Color Processing - :doc:`Color Processing </color_processing/index>` is a"
-" feature in the *FIRST* Tech Challenge SDK that provides the ability to "
+"Color Processing - :doc:`Color Processing </color_processing/index>` is a "
+"feature in the *FIRST* Tech Challenge SDK that provides the ability to "
 "process colors using `OpenCV <https://opencv.org/>`__."
 msgstr ""
+"色処理 - :doc:`色処理 </color_processing/index>` は、*FIRST* Tech Challenge SDK "
+"の機能で、`OpenCV <https://opencv.org/>`__ を使用して色を処理することができる。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:31
 msgid ""
 "Color Sensor can detect the exact color in an image, which can help "
 "determine what is in front of a robot."
-msgstr ""
+msgstr "色センサーは画像中の正確な色を検出できます。これにより、ロボットの前に何があるかを判定することができます。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:33
 msgid ""
-"Color Locator can look for a specific color and return information about "
-"the size, shape and location of the color in the camera frame."
-msgstr ""
+"Color Locator can look for a specific color and return information about the"
+" size, shape and location of the color in the camera frame."
+msgstr "色検出器は特定の色を探し、カメラフレーム内の色のサイズ、形状および位置に関する情報を返します。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:35
 msgid "A robot can use this information to navigate to the recognized object."
-msgstr ""
+msgstr "ロボットはこの情報を使って認識された物体に移動することができます。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:39
 msgid "AprilTags vs Color Processing"
-msgstr ""
+msgstr "AprilTags と色処理の比較"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:42
 msgid "AprilTag Advantages"
-msgstr ""
+msgstr "apriltag の利点"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:44
 msgid ""
-"Very efficient with a fast detection rate (estimated 15 to 20 detections "
-"per second, depending on decimation and target size)."
-msgstr ""
+"Very efficient with a fast detection rate (estimated 15 to 20 detections per"
+" second, depending on decimation and target size)."
+msgstr "非常に効率的で、検出速度が速い（約15から20回の検出を1秒間に達成し、デシメーションとターゲットサイズによって異なる）。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:46
 msgid ""
-"Provides accurate, relative pose information of camera to target in field"
-" coordinates."
-msgstr ""
+"Provides accurate, relative pose information of camera to target in field "
+"coordinates."
+msgstr "フィールド座標系でのカメラとターゲット間の正確で相対的な位置情報提供します。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:48
-msgid "Is less prone to fluctuating or varied lighting conditions on the field."
-msgstr ""
+msgid ""
+"Is less prone to fluctuating or varied lighting conditions on the field."
+msgstr "フィールド上の変動する照明状況や多様な照明条件に比較的影響を受けにくい。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:55
 msgid "AprilTag can provide accurate pose information to target"
-msgstr ""
+msgstr "AprilTag はターゲットに対する正確な位置情報（ポーズ情報）を提供できます。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:59
 msgid "AprilTag Disadvantages"
-msgstr ""
+msgstr "AprilTag の欠点"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:61
 msgid ""
-"The entire AprilTag must be in the camera view in order to be recognized,"
-" any occlusions render the object unprocessable."
-msgstr ""
+"The entire AprilTag must be in the camera view in order to be recognized, "
+"any occlusions render the object unprocessable."
+msgstr "Entire AprilTag がカメラの視界内にある必要があります。部分的に隠れた場合、オブジェクトは処理できません。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:63
 msgid ""
 "AprilTags must be included in the tag library in order to process pose "
-"information for the tag (tag size and value must be known to the AprilTag"
-" system in advance)."
+"information for the tag (tag size and value must be known to the AprilTag "
+"system in advance)."
 msgstr ""
+"AprilTagsは、タグのポーズ情報（タグのサイズと値）を処理するためには、タグライブラリに含まれる必要があります（AprilTagシステムでは事前にタグのサイズと値が知らなければなりません）。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:66
 msgid ""
 "Cameras require calibration data for every resolution used in order to "
 "process correct pose information."
-msgstr ""
+msgstr "カメラは、使用されるすべての解像度に対して校正データが必要で、正しいポーズ情報処理を行うことができます。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:73
 msgid "AprilTags not in Tag Library detected, but no pose data available"
-msgstr ""
+msgstr "AprilTagsがタグライブラリに存在しないが、ポーズデータは利用不可です"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:76
 msgid "Color Processing Advantages"
-msgstr ""
+msgstr "色処理の利点"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:78
 msgid "Color Processing looks for colors, not specific images."
-msgstr ""
+msgstr "色処理は色を探しますが、特定の画像ではありません。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:80
 msgid "Recognizes objects in spite of different backgrounds."
-msgstr ""
+msgstr "異なる背景にもかかわらず、物体を認識します。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:81
 msgid "Recognizes objects both up close and further away."
-msgstr ""
+msgstr "近距離から遠距離まで物体を認識します。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:82
-msgid "Recognizes objects even when objects are oriented in different positions."
-msgstr ""
+msgid ""
+"Recognizes objects even when objects are oriented in different positions."
+msgstr "物体が異なる位置に配置されている場合でも認識します。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:85
 msgid ""
-"Pre-defined colors are included in the *FIRST* Tech Challenge SDK that "
-"have already been tested on season-specific game elements."
-msgstr ""
+"Pre-defined colors are included in the *FIRST* Tech Challenge SDK that have "
+"already been tested on season-specific game elements."
+msgstr "事前に定義された色は、シーズンごとのゲーム要素で既にテストが行われた*FIRST* Tech Challenge SDKに含まれています。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:89
 msgid "Color Processing Disadvantages"
-msgstr ""
+msgstr "色処理の欠点"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:91
 msgid "Color Processing can be sensitive to different lighting conditions."
-msgstr ""
+msgstr "色処理は異なる照明条件に敏感である可能性があります。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:92
 msgid ""
 "If Color Processing recognizes an object in its field of view, it only "
-"returns location information on where the target object is within its "
-"field of view."
-msgstr ""
+"returns location information on where the target object is within its field "
+"of view."
+msgstr "もし色処理が視界内でオブジェクトを認識した場合、そのオブジェクトの位置情報のみを返します。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:100
 msgid ""
 "Color Processing can recognize actual objects (and not just 2D image "
 "targets)."
-msgstr ""
+msgstr "色処理は実際の物体を認識し、単なる2次元画像ターゲットにとどまらないです。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:106
 msgid "Color Processing can recognize the shape of the object."
-msgstr ""
+msgstr "色処理は物体の形状を認識できます。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:109
 msgid "Which Should I Use?"
-msgstr ""
+msgstr "私はどのものを使えばよろしいでしょうか？"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:111
 msgid ""
@@ -201,13 +213,15 @@ msgid ""
 "influenced by factors such as distance-to-target, lighting, accuracy "
 "required, camera placement and etc.."
 msgstr ""
+"距離からターゲットまでの距離、照明状況、必要な正確度、カメラの配置などによる Factors によっては、AprilTags の使用または Color "
+"Processing の利用を選択するかどうかが影響を受けることになります。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:115
 msgid ""
 "If the object and tag can always be guaranteed to be in a specific "
 "orientation and the tag fully visible, AprilTags are likely the best "
-"solution. However, if the object does not belong to you or a tag is not "
-"able to be physically placed on the object, Color Processing can be a "
-"good solution."
+"solution. However, if the object does not belong to you or a tag is not able"
+" to be physically placed on the object, Color Processing can be a good "
+"solution."
 msgstr ""
-
+"もし物体とタグが常に特定の向きで保証され、かつタグが完全に見える場合、AprilTagsは最良の解決策でしょう。しかし、物体が所有していない場合やタグを物理的に物体に配置できない場合、色処理が良い選択肢になります。"

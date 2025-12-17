@@ -1,0 +1,1088 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:2
+msgid "Fork and Clone from GitHub :bdg-success:`AS`"
+"msgstr "GitHubから分岐し、クローンする :bdg-success:`AS`""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:5
+msgid ""
+"This approach assumes a basic familiarity with `git "
+"<https://docs.github.com/en/get-started/learning-about-github/github-"
+"glossary#git>`_ and `GitHub <https://github.com/>`_.  As with most things "
+"related to git there are many different ways to satisfy any objective.  This"
+" documentation describes one method for Windows users. Users not comfortable"
+" with command line tools and git should obtain the SDK via :doc:`Downloading"
+" the SDK as a zip archive <../downloading_as_project_folder/Downloading-the-"
+"Android-Studio-Project-Folder>`."
+"msgstr """
+"このアプローチは、`git <https://docs.github.com/en/get-started/learning-about-"
+"github/github-glossary#git>`_ と `GitHub <https://github.com/>`_ "
+"の基本的な知識があることを前提としています。git "
+"に関連するほとんどのことは、多くの異なる方法で目標を達成することができます。このドキュメントでは、Windowsユーザー向けの1つの方法について説明しています。コマンドラインツールや"
+" git に不慣れなユーザーは、:doc:`zip アーカイブとして SDK をダウンロードする方法 "
+"<../downloading_as_project_folder/Downloading-the-Android-Studio-Project-"
+"Folder>` を通じて SDK を取得することをお勧めします。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:13
+msgid "Forks vs. Clones"
+"msgstr "フォークス-vs-クローンズ""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:15
+msgid ""
+"A `Fork <https://docs.github.com/en/get-started/learning-about-"
+"github/github-glossary#fork>`_ on GitHub is a copy of another `repository "
+"<https://docs.github.com/en/get-started/learning-about-github/github-"
+"glossary#repository>`_ on GitHub from one account to another account. The "
+"new forked repository retains a parent-child relationship with the `origin "
+"<https://docs.github.com/en/get-started/learning-about-github/github-"
+"glossary#origin>`_ repository. Forks are typically used when software will "
+"have an independent line of development, such as when FTC teams develop "
+"their own team code using the `FIRST-Tech-Challenge/FtcRobotController "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository as"
+" a basis.  FTC teams should create a Fork of the `FIRST-Tech-"
+"Challenge/FtcRobotController <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`_ repository as a convenient way to manage "
+"their software development process. Thanks to the parent-child relationship,"
+" when changes are made to the parent repository those changes can be easily "
+"tracked and `fetched <https://docs.github.com/en/get-started/learning-about-"
+"github/github-glossary#fetch>`_/`merged <https://docs.github.com/en/get-"
+"started/learning-about-github/github-glossary#merge>`_ into the forked "
+"repository, keeping the forked repository up to date."
+"msgstr """
+"GitHub 上の `Fork <https://docs.github.com/ja/get-started/using/github-"
+"glossary#fork>`_ は、1 つのアカウントから別のアカウントに GitHub の他の `リポジトリ "
+"<https://docs.github.com/ja/get-started/using/github-glossary#repository>`_ "
+"をコピーすることです。新しいフォークされたリポジトリは、元の `origin <https://docs.github.com/ja/get-"
+"started/using/github-glossary#origin>`_ リポジトリとの親子関係を保持します。Forks "
+"はソフトウェアが独立した開発ラインを持つ場合に使用されることが多いです。たとえば、FTC チームは `FIRST-Tech-"
+"Challenge/FtcRobotController <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`_ リポジトリを基に独自のチームコードを開発する際に Fork を使用します。FTC "
+"チームは、ソフトウェア開発プロセスを管理するために `FIRST-Tech-Challenge/FtcRobotController "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ リポジトリの Fork "
+"を作成することが便利です。親子関係のおかげで、元のリポジトリに変更が加わった場合、これらの変更は簡単に追跡され、`fetch "
+"<https://docs.github.com/ja/get-started/using/github-"
+"glossary#fetch>`_/`merge <https://docs.github.com/ja/get-"
+"started/using/github-glossary#merge>`_ されて Fork リポジトリが最新の状態に保たれます。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:28
+msgid ""
+"Teams should not issue pull requests against the `upstream "
+"<https://docs.github.com/en/get-started/learning-about-github/github-"
+"glossary#upstream>`_ parent, the FIRST-Tech-Challenge/FtcRobotContoller "
+"repository. Forks of the FIRST-Tech-Challenge/FtcRobotContoller repo may "
+"always fetch changes, but should never attempt to push changes up to the "
+"repo."
+"msgstr """
+"チームは、`upstream <https://docs.github.com/ja/get-started/learning-about-"
+"github/github-glossary#upstream>`_ の親リポジトリである FIRST-Tech-"
+"Challenge/FtcRobotController リポジトリに対してプルリクエストを送信してはなりません。FIRST-Tech-"
+"Challenge/FtcRobotContoller "
+"リポジトリのフォークは常に変更を取り込むことができますが、リポジトリに変更をプッシュすることは絶対に避けなければなりません。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:33
+msgid ""
+"A `Clone <https://docs.github.com/en/get-started/learning-about-"
+"github/github-glossary#clone>`_ is a copy of a repository, typically on a "
+"local computer. A team member creates a `feature branch "
+"<https://docs.github.com/en/get-started/learning-about-github/github-"
+"glossary#clone>`_ of the team's repository for feature development, and "
+"clones the branch to a local computer. Software development and testing then"
+" happens completely within their local clone. Once they're finished, or "
+"they've reached a checkpoint, the changes within the local clone can then be"
+" pushed from their local clone back to the team fork. That feature branch "
+"can then be merged into the team's main repository branch once it has been "
+"accepted by the team. Multiple different developers can work seamlessly "
+"using this process."
+"msgstr ""
+"クローン`は、リポジトリのコピーで、通常はローカルコンピュータ上に存在します。チームメンバーは、機能開発用の`フィーチャーブランチ <https://docs.github.com/en/get-started/learning-about-github/github-glossary#feature-branch>`_ をチームのリポジトリから作成し、そのブランチをローカルコンピュータにクローンします。ソフトウェア開発とテストは完全にローカルのクローン内で行われます。完了したら、またはチェックポイントに達したら、ローカルクローン内の変更はチームのフォークに戻してプッシュすることができます。その後、チームが承認した場合、そのフィーチャーブランチはチームのメインリポジトリブランチにマージされます。このプロセスを使用することで、複数の開発者は Seamless に作業できます。"
+""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:48
+msgid "Diagram showing the relationship between forks and clones."
+"msgstr "フォークとクローンの関係を示す図。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:48
+msgid ""
+"The relationship between forks and clones.  The clone exists on your local "
+"laptop while the fork exists on GitHub servers."
+"msgstr "フォークとクローンとの関係。クローンはあなたのローカルなノートブックに存在し、フォークはGitHubサーバー上に存在します。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:52
+msgid "Branch Strategies"
+"msgstr "分岐戦略""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:54
+msgid ""
+"A `branch <https://docs.github.com/en/get-started/learning-about-"
+"github/github-glossary#branch>`_ is a series of `commits "
+"<https://docs.github.com/en/get-started/learning-about-github/github-"
+"glossary#commit>`_ that are independent of any other lines of development "
+"and is typically used to develop new features for the repository. The "
+"default branch for the FtcRobotController repository, and its forks and "
+"clones, is `master <https://docs.github.com/en/get-started/learning-about-"
+"github/github-glossary#master>`_ (though for all newer repositories created "
+"by GitHub the default branch is called `main "
+"<https://docs.github.com/en/get-started/learning-about-github/github-"
+"glossary#main>`_).  Using branches judiciously can help developers "
+"collaborate on a common set of software by isolating changes, keeping the "
+"default branch clean, and providing space for feature development to iterate"
+" independent of software that's been deemed 'production ready'."
+"msgstr ""
+"ブランチは、他の開発ラインとは独立した `commits <https://docs.github.com/en/get-started/learning-about-github/github-glossary#commit>`_ の系列であり、リポジトリに新しい機能を開発するために使用されます。FtcRobotController リポジトリ、そのフォークやクローンのデフォルトブランチは `master <https://docs.github.com/en/get-started/learning-about-github/github-glossary#master>`_ ですが（GitHubによって作成されたすべての新しいリポジトリでは、デフォルトブランチは `main <https://docs.github.com/en/get-started/learning-about-github/github-glossary#main>`_ と呼ばれます）。適切にブランチを使用することで、開発者が共有ソフトウェアの一連の変更を隔離し、デフォルトブランチをクリーンに保ち、機能開発が「プロダクション準備完了」のソフトウェアから独立して進化するスペースを提供できるようになります。"
+""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:67
+msgid "one branch"
+"msgstr "1本の分岐""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:67
+msgid "A single branch with the default name of master"
+"msgstr "デフォルトの名前であるmasterという単一の分岐""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:69
+msgid ""
+"Each circle represents a commit to a branch. The name of the branch always "
+"points to the most recent commit, also known as the `HEAD "
+"<https://docs.github.com/en/get-started/learning-about-github/github-"
+"glossary#head>`_.  While there may be many branches there is only one HEAD "
+"and it always, unless it is in a `detached state <https://git-"
+"scm.com/docs/git-checkout#_detached_head>`_, points to the latest commit of "
+"the currently checked out branch.  All other commits point to their "
+"immediate parent."
+"msgstr """
+"各円はブランチへのコミットを表します。ブランチの名前は常に最新のコミット、つまり`HEAD "
+"<https://docs.github.com/ja/get-started/using/github-glossary#head>`_ "
+"に指向します。多くのブランチが存在するかもしれませんが、HEADは常に一つで、チェックアウトされているブランチの最新のコミットに指向します。それ以外の場合（`離脱状態"
+" <https://git-scm.com/docs/git-checkout#_detached_head>`_ "
+"である場合を除く）です。他のすべてのコミットはその直前の親コミットに指向します。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:74
+msgid ""
+"A commit is a `snapshot <https://docs.github.com/en/get-started/learning-"
+"about-github/github-glossary#snapshot>`_ of the entire workspace at a point "
+"in time.  Git does not store `diffs <https://docs.github.com/en/get-"
+"started/learning-about-github/github-glossary#diff>`_.  If you make a change"
+" to a file, and create a new commit with the changed file, it stores the "
+"entire changed file in the commit.  To avoid unnecessary duplication of "
+"files, if your repository consists of three files - one changed and the "
+"other two were unchanged - then the snapshot merely points back to the "
+"unchanged files rather than containing unchanged data."
+"msgstr """
+"コミットは、時間の一定点におけるワークスペース全体の `スナップショット <https://docs.github.com/ja/get-"
+"started/using-github/github-glossary#snapshot>`_ です。Git は `差分 "
+"<https://docs.github.com/ja/get-started/using-github/github-glossary#diff>`_"
+" "
+"を保存しません。ファイルに変更を加え、その変更後のファイルで新しいコミットを作成した場合、コミットには全体の変更されたファイルが含まれます。不要なファイルの複製を避けるために、リポジトリが3つのファイルから構成されていて、1つだけが変更され残り2つは変更されていない場合、スナップショットは変更されていないファイルへの参照のみを含むことになります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:79
+msgid ""
+"Note that each commit has a parent which allows git to determine "
+"reachability of commits from different branches.  It also allows git to "
+"determine the common ancestor commit of any two branches, which is important"
+" when merging branches.  More on that later."
+"msgstr """
+"各コミットには親コミットがあり、これによりgitは異なるブランチからのコミットの到達可能性を決定することができます。また、任意の2つのブランチの共有の祖先コミットも決定できます。これはブランチをマージする際によく重要となります。詳細については後で説明します。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:83
+msgid ""
+"So what is a branch?  A branch is simply a named pointer to a commit.  When "
+"a branch is created you are just telling git to create a name, and point it "
+"at a commit.  Being on a branch simply means that when you add a new commit,"
+" git moves the branch name to the new commit and the new commit's parent is "
+"the commit that the branch name was pointing to previously. Since this "
+"creates a line of development independent of the parent, developers can "
+"experiment, make changes, develop new features, all without disrupting the "
+"work of other team members.  When a developer is satisfied that a branch is "
+"stable enough to be shared, the branch can be merged back into the parent."
+"msgstr """
+"那么什么是分支呢？分支只是一个指向提交的命名指针。当创建一个分支时，你只是告诉 git 创建一个名称，并将其指向某个提交。处于分支状态 simply "
+"意味着当你添加一个新的提交时，git "
+"会将分支名称移动到新的提交，而新提交的父提交则是分支名称之前所指向的那个提交。由于这种做法创建了一条独立于父提交的发展线，开发人员可以进行实验、做出更改、开发新功能，而不必打扰其他团队成员的工作。当开发人员满意一个分支足够稳定可以共享时，该分支可以被合并回父提交。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:94
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:103
+msgid "two branches"
+"msgstr "二つの分岐""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:94
+msgid "Two branches that point to the same commit."
+"msgstr "同じコミットに指向する2つの分岐。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:96
+msgid ""
+"Immediately after creating a branch the new branch name simply points to the"
+" latest commit from the branch that the new branch was created from.  Now "
+"imagine that we create a new commit on that branch."
+"msgstr """
+"分岐を作成した直後、新しい分岐名は新規分岐が作成された元の分岐の最新コミットを指します。 "
+"現在、その分岐上で新しいコミットを作成する想像してみてください。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:103
+msgid "New commit on the feature branch."
+"msgstr "新規コミットが機能分岐に追加されました。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:105
+msgid ""
+"Note how the new commit caused the name pointer of the feature branch to "
+"move to the new commit, while the name pointer for the master branch remains"
+" on the prior commit, but the parent of the new commit is the commit that "
+"the name pointer for master points to.  If a new commit is added to the "
+"master branch then the parent of the new commit is also the commit that "
+"master is pointing to thereby creating independent lines of development."
+"msgstr """
+"新しいコミットが導入されると、機能ブランチの名前ポインタは新しいコミットに移動し、一方でマスターブランチの名前ポインタは前のコミットに留まりますが、新しいコミットの親はマスターの名前ポインタが指しているコミットです。もしマスターブランチに新しいコミットが追加された場合、新しいコミットの親もマスターが指しているコミットになります。これにより独立した開発ラインが作られます。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:115
+msgid "independent lines of development"
+"msgstr "独立した開発ライン""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:115
+msgid "Two independent lines of development."
+"msgstr "二つの独立した開発ライン。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:117
+msgid ""
+"Eventually you typically want to merge that feature branch back into the "
+"main line of development represented by the master branch.  When you merge "
+"one branch into another, git traverses the ancestor commits of the branches "
+"to find the common `ancestor "
+"<https://stackoverflow.com/questions/55203122/what-do-people-mean-when-they-"
+"say-ancestor-with-regards-to-git>`_.  It then determines what changed from "
+"the common ancestor, to the head of each branch, and applies those changes "
+"to a new commit called a *merge commit*.  An artifact of this process is "
+"that the merge commit will have two parents."
+"msgstr """
+"最終的に、通常はその機能ブランチをマスターブランチが表す主要な開発ラインにマージしたいと思います。ブランチをもう一つのブランチにマージする際には、git"
+" は各ブランチの祖先コミットを探し、共通の「祖先」コミットを見つけます（`参照 "
+"<https://stackoverflow.com/questions/55203122/what-do-people-mean-when-they-"
+"say-ancestor-with-regards-to-"
+"git>`_）。その後、共通の祖先コミットから各ブランチのヘッドまで何が変更されたかを決定し、それらの変更を新しいコミット「マージコミット」に適用します。このプロセスの結果として、マージコミットは二つの親を持つことになります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:129
+msgid "demonstration of merge commit"
+"msgstr "マージコミットの演示""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:129
+msgid "Merging the feature branch back into the master branch."
+"msgstr "featureブランチをmasterブランチにマージしています。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:131
+msgid ""
+"As shown above, the feature branch still exists.  New commits added to the "
+"feature branch will diverge again from the master branch.  However if "
+"development of the feature is finished, the branch can be deleted.  Deletion"
+" of the branch simply results in the name pointer being deleted.  Branch "
+"deletion does not result in the deletion of any commits that were made on "
+"that branch.  As you can see here, the commit that was on the feature branch"
+" still exists and is reachable by referencing the correct parent from the "
+"merge branch."
+"msgstr """
+"上記のように、機能分岐はまだ存在しています。機能分岐に新たに追加されたコミットは再度マスター分岐から離れて進化します。しかし、もし機能の開発が完了した場合、この分岐は削除することが可能です。分岐の削除は名前ポインタだけを削除することにより行われます。分岐の削除はその分岐で作成されたコミットを削除しません。ここに示すように、機能分岐にあるコミットはまだ存在し、マージ分岐から正しい親元を参照することでアクセス可能です。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:140
+msgid ""
+"It can be useful to ensure that the default branch in team forks and clones "
+"matches the default branch for FIRST-Tech-Challenge/FtcRobotController.  "
+"However a typical development pattern will have team developers committing "
+"team software back to the master branch, whether via merges from feature "
+"branches, or direct commits to master."
+"msgstr """
+"チームのフォークやクローンでデフォルトブランチがFIRST-Tech-"
+"Challenge/FtcRobotControllerと一致することを確認することは役立ちますが、通常の開発パターンでは、チーム開発者がフィーチャーブランチからマージしたり、直接マスターにコミットしたりしてチームソフトウェアをマスターブランチに戻します。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:148
+msgid "FTC master vs Team master"
+"msgstr "FIRST Tech Challenge マスター vs 団体マスター""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:148
+msgid ""
+"FIRST-Tech-Challenge/FtcRobotController master vs. typical team repository "
+"master."
+"msgstr "FIRST-Tech-Challenge/FtcRobotController マスター対照版 vs. 通常チームリポジトリ マスター""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:151
+msgid ""
+"Team commits are represented by blue circles, while commits containing SDK "
+"updates are represented by green circles.  The purple circle is a merge "
+"commit.  More on merges later. In this instance team commits are interleaved"
+" with SDK updates (1), which produces a situation where the two default "
+"branches do not match."
+"msgstr """
+"チームのコミットは青色の円で表され、SDK更新を含むコミットは緑色の円で表されます。紫色の円はマージコミットです。後ほど詳細をお伝えしますが、この例ではチームのコミットとSDK更新（1）が交互に表示されており、結果としてデフォルトブランチが一致していない状況になります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:155
+msgid ""
+"(1) Not really, or maybe depending upon how the commit parentage lays out. "
+"This is a vastly simplified view of things, but is sufficient to demonstrate"
+" the logical concept and is the view of things you get if you simply execute"
+" `git log <https://www.atlassian.com/git/tutorials/git-log>`_. For an in-"
+"depth, approachable, explanation of exactly what is happening with commits "
+"as they relate to branches `see this tutorial "
+"<https://www.biteinteractive.com/picturing-git-conceptions-and-"
+"misconceptions/>`_."
+"msgstr """
+"(1) "
+"そうでもないかもしれません、あるいはコミットの親子関係によっては変わるかもしれません。これは非常に簡略化された視点ですが、論理的な概念を示すのに十分で、単に"
+" `git log <https://www.atlassian.com/git/tutorials/git-log>`_ "
+"を実行することで得られる視点と一致します。コミットがブランチに関連する exact な動作について詳しく且つ易しく説明しているチュートリアルは "
+"`こちらのチュートリアル <https://www.biteinteractive.com/picturing-git-conceptions-and-"
+"misconceptions/>`_ を参照してください。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:161
+msgid ""
+"While this is a perfectly acceptable, and a very common branch management "
+"strategy, certain benefits can be obtained if we isolate the default branch "
+"so that it always matches the parent.  The following figure demonstrates a "
+"clone whose master branch is tracking the master branch from FIRST-Tech-"
+"Challenge/FtcRobotController."
+"msgstr """
+"これは完全に受け入れられる、そして非常に一般的な分岐管理戦略ですが、デフォルトブランチを孤立させることで特定の利点が得られます。つまり、デフォルトブランチは常に親ブランチと一致するように設定されます。以下の図では、FIRST-"
+"Tech-Challenge/FtcRobotControllerのマスターブランチを追跡するクローンが示されています。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:169
+msgid "keeping branches in sync"
+"msgstr "分岐を同期させる""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:169
+msgid ""
+"Team repository's master always matches FIRST-Tech-"
+"Challenge/FtcRobotController's master branch."
+"msgstr """
+"チームリポジトリのマスターは常にFIRST-Tech-Challenge/FtcRobotControllerのマスターブランチと一致します。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:172
+msgid ""
+"The purple commit is a merge of v7.1 into the competition branch.  In this "
+"diagram, v7.2 and v8.0 remain unmerged and the competition branch will be "
+"building against v7.1 of the SDK."
+"msgstr """
+"PURPLE のコミットは、v7.1 を競技用ブランチにマージしたものです。この図では、v7.2 と v8.0 は未マージの状態で、競技用ブランチは "
+"SDK の v7.1 版に対してビルドされます。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:175
+msgid ""
+"Following this model means that commit history for the master branch for the"
+" team's repository will always match the commit history for the FIRST-Tech-"
+"Challenge/FtcRobotController's master branch.  All software that teams "
+"intend to compete with is merged into a competition branch. Features, new "
+"software, experiments, etc, are worked on in child branches of the "
+"competition branch and merge back into the competition branch, not the "
+"master branch.  SDK updates to a team clone's master branch should always be"
+" conflict free, updates can be done independent of merges into a competition"
+" branch, and if something goes sideways when doing a merge of an SDK update "
+"into development it can be more straightforward to recover as opposed to "
+"backing out of an update straight into master where the branches do not "
+"match."
+"msgstr """
+"このモデルに従うと、チームのリポジトリのマスター分岐のコミット履歴は、FIRST-Tech-"
+"Challenge/FtcRobotControllerのマスター分岐のコミット履歴と常に一致します。競技用ソフトウェアはすべて、競技分岐にマージされ、競技用ソフトウェアに統合されます。「INIT」「START」などの機能や新しいソフトウェア、実験などは、競技分岐の子分岐で作業され、競技分岐に戻り、マスター分岐には直接マージされません。チームクローンのマスター分岐へのSDK更新は常に衝突なしで行われ、競技分岐へのマージとは独立して更新が行えます。SDK更新を開発にマージする際に何か問題が起こった場合、競技分岐とマスター分岐が一致していない状態から直接マスター分岐に戻るよりも、回復がより簡単になります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:183
+msgid ""
+"More detailed information on the mechanics of branching can be found here "
+"`Using Branches <https://www.atlassian.com/git/tutorials/using-branches>`_"
+"msgstr """
+"分岐の詳細については、`ブランチの使用方法 <https://www.atlassian.com/git/tutorials/using-"
+"branches>`_ で確認できます。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:187
+msgid "Getting Started (Quick-Start Guide)"
+"msgstr "Getting Started (快速開始ガイド)""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:190
+msgid ""
+"The following assumes all operations are done on the master branch of your "
+"local repository."
+"msgstr "以下の説明は、ローカルリポジトリのマスターブランチ上で全ての操作が行われていることを前提としています。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:193
+msgid ""
+"Obtain and install `GitForWindows <https://gitforwindows.org/>`_  This "
+"software contains a git client along with a bash shell.  All of the command "
+"line snippets below assume you are using a bash shell and that git is in "
+"your path.  GitForWindows is the easiest way to provide this for Windows "
+"machines.  Macs have a built in bash shell called terminal, but git must be "
+"installed separately."
+"msgstr """
+"GitForWindows を取得しインストールしてください `<https://gitforwindows.org/>`_ 。このソフトウェアには "
+"git クライアントと bash シェルが含まれています。以下のコマンドラインのコードSnippetは、bash "
+"シェルを使用していることを前提としており、git がパスに含まれていることも想定しています。Windows マシンでこれを行う最適な方法は "
+"GitForWindows を使用することです。Macs では、標準的な bash シェルである terminal が内蔵されていますが、git "
+"は別途インストールする必要があります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:200
+msgid ""
+"Fork the `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-"
+"Tech-Challenge/FtcRobotController>`_ repository into your account on GitHub."
+"msgstr """
+"FIRST-Tech-Challenge/FtcRobotController のリポジトリをGitHubアカウントに分岐してください "
+"`<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:205
+msgid ""
+"This step requires you to have a GitHub account, and you need to be logged "
+"in to GitHub in order to Fork a repository."
+"msgstr "このステップでは、GitHub アカウントが必要です。GitHub にログインしてリポジトリをフォークする必要があります。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "Forking a repo"
+"msgstr "リポジトリの分岐""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:213
+msgid "Forking a GitHub repository."
+"msgstr "GitHubリポジトリのフォーク。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:215
+msgid ""
+"Forking the repository is as easy as clicking the \":octicon:`repo-"
+"forked;1em;sd-text-info` Fork\" button shown in the image above. This will "
+"take you to the \"Create a new fork\" page, and will auto-fill the \"Owner\""
+" and \"Repository name\" fields. Just enter a description (optional), leave "
+"the \"Copy the ``master`` branch only\" option checked, and click the green "
+"\"Create fork\" button."
+"msgstr """
+"リポジトリのフォークは、上記画像に示されている\":\"octicon:`repo-forked;1em;sd-text-info` "
+"フォーク\"ボタンをクリックするだけです。これにより、「新しいフォークを作成」ページに移動し、「所有者」と「リポジトリ名」のフィールドが自動で入力されます。説明（任意）を入力し、\"``master``"
+" ブランチのみをコピー\"オプションをチェックし、緑色の\"フォークを作成\"ボタンをクリックしてください。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:221
+msgid ""
+"Once created, your new fork will be located at "
+"``github.com/<username>/FtcRobotController`` unless you edited the fork "
+"name."
+"msgstr """
+"作成後、新しいフォークは ``github.com/<username>/FtcRobotController`` "
+"に存在します。ただし、フォーク名を編集した場合は異なる場所に存在する可能性があります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:224
+msgid ""
+"Clone from your fork onto your local computer.  Note in the image below the "
+"account is FIRST-Tech-Challenge, but after your fork, the account should be "
+"your team account.  In all other respects the user interface will be "
+"identical."
+"msgstr """
+"フォークをローカルコンピュータにクローンします。以下の画像ではアカウント名がFIRST-Tech-"
+"Challengeですが、フォーク後のアカウントはあなたのチームアカウントになります。その他の点ではユーザーインターフェースは同じです。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "Cloning a repo"
+"msgstr "リポジトリのクローン""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:234
+msgid "Cloning a forked repository."
+"msgstr "フォークされたリポジトリのクローン作成。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:236
+msgid "To clone your fork of the FtcRobotController, follow these steps:"
+"msgstr "FtcRobotControllerのフォークをクローンするには、次の手順に従ってください：""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:238
+msgid ""
+"Click the green \":octicon:`code;1em;sd-text-info` Code\" button shown in "
+"the image above."
+"msgstr "上記の画像に示されている緑色の「:octicon:`code;1em;sd-text-info` コード」ボタンをクリックしてください。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:240
+msgid "Ensure the \"Local\" and \"HTTPS\" sub-tabs are selected."
+"msgstr "「ローカル」および「HTTPS」のサブタブを選択してください。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:241
+msgid ""
+"Click the \":octicon:`copy;1em;sd-text-info`\" button to copy the url in the"
+" text entry box."
+"msgstr """
+"テキスト入力ボックスにあるURLをコピーするには、「:octicon:`copy;1em;sd-text-info`」ボタンをクリックしてください。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:243
+msgid ""
+"Open a \"Git Bash\" shell in a suitable directory.  This is easily done on "
+"Windows by opening the File Explorer, finding the directory you want to "
+"clone the repository into, right clicking on that directory folder and "
+"selecting \"Git Bash here\""
+"msgstr """
+"適切なディレクトリで \"Git Bash\" シェルを開きます。Windows "
+"では、ファイルエクスプローラーを開き、クローンしたいリポジトリのディレクトリを見つけます。そのディレクトリフォルダを右クリックし、「ここに Git "
+"Bash を開く」を選択します。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:247
+msgid "Within the Git Bash shell, execute the following command"
+"msgstr "Git Bash シェル内で次のコマンドを実行します""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:253
+msgid ""
+"Git will download a clone of your repository. When it's done, Code away..."
+"msgstr "Git はあなたのリポジトリのクローンをダウンロードします。完了したら、コード作業を始めましょう...""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:255
+msgid ""
+"This is the point where you can create a branch for feature development, if "
+"desired. To create a branch, we can create and switch to a new branch via "
+"the following `git-checkout <https://git-scm.com/docs/git-checkout>`_ "
+"command:"
+"msgstr """
+"この部分では、機能開発のためにブランチを作成することもできます。ブランチを作成するには、次の `git-checkout <https://git-"
+"scm.com/docs/git-checkout>`_ コマンドを使用して新しいブランチを作成し、切り替えることができます："
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:263
+msgid ""
+"Using the ``-b`` option creates the new branch specified by ``<branchname>``"
+" and automatically switches to that branch. Omitting the ``-b`` option will "
+"simply *switch* to an existing branch if one exists."
+"msgstr """
+"``-b`` オプションを使用すると、指定された ``<branchname>`` "
+"の新しいブランチが作成され、自動的にそのブランチに切り替えます。``-b`` "
+"オプションを省略した場合、ブランチが存在する場合はそれを単に切り替えるだけです。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:268
+msgid "Best Practices"
+"msgstr "最善の実践""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:270
+msgid ""
+"Do not make changes to software in the FtcRobotController directory within "
+"the repository.  SDK updates will be much easier if you do not change "
+"anything within the FtcRobotController directory."
+"msgstr """
+"repository内のFtcRobotControllerディレクトリのソフトウェアを変更しないでください。FtcRobotControllerディレクトリ内に何も変更を行わなければ、SDKの更新がはるかに容易になります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:273
+msgid ""
+"Limit the use of long-lived branches.  Branches should implement a feature. "
+"Branches should not track milestones.  For example a branch named 'league-"
+"meet-1' is tracking a milestone.  It is much better if your branches track "
+"smaller units of development.  'detect-target', 'drive-to-parking', 'drop-"
+"game-element'.  Break your software down into tasks for the robot to do, and"
+" use branches to implement those tasks.  This will allow for much easier "
+"collaborative development, much smaller change sets when merging, and much "
+"easier fetches and merges."
+"msgstr """
+"長寿命のブランチの使用を制限してください。ブランチは機能を実装するために使用されるべきです。ブランチはミステーンスを追跡してはなりません。たとえば、「league-"
+"meet-1」という名前のブランチはミステーンスを追跡しています。より良い方法は、ブランチが開発の小さな単位を追跡することです。「detect-"
+"target」「drive-to-parking」「drop-game-"
+"element」などです。ソフトウェアをロボットが実行するタスクに分割し、これらのタスクを実装するためにブランチを使用してください。これにより、共通作業の進行がはるかに容易になり、マージ時の変更セットも小さくなり、fetchやmergeもはるかに簡単になります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:281
+msgid ""
+"Try to keep your `git index "
+"<http://shafiul.github.io/gitbook/1_the_git_index.html>`_ clean.  This will "
+"make fetches and merges easier.  ``git status`` is your best friend here.  "
+"Use ``git status`` often to see what has changed in your local workspace.  "
+"Commit often in logical chunks so that it is easy to see the most recent "
+"changes."
+"msgstr """
+"`gitインデックス <http://shafiul.github.io/gitbook/1_the_git_index.html>`_ "
+"を清潔に保とう。これにより、fetchやmergeが容易になります。「git "
+"status」はここでの最高の友人です。ローカルワークスペースで何が変更されたかを確認するために「git "
+"status」を頻繁に使用してください。論理的な単位で頻繁にコミットすることで、最近の変更内容を見やすくなります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:286
+msgid ""
+"Use short, meaningful, commit messages.  Do not use slang, offensive, or "
+"personal messaging in a commit message.  When you push your software to "
+"GitHub, those commit messages will be public.  If you plan to eventually "
+"become a professional software developer, and you retain your existing "
+"GitHub account any potential employer will be able to review your commit "
+"messages. Tread lightly here."
+"msgstr """
+"短く、意味のあるコミットメッセージを使用してください。コミットメッセージにはスラングや不適切、個人的な内容は使用しないでください。ソフトウェアをGitHubにプッシュすると、これらのコミットメッセージは公開されます。将来的にプロのソフトウェア開発者として働くことを計画している場合、現在のGitHubアカウントを保持する限り、潜在的な雇用者はあなたのコミットメッセージを確認することができます。ここでの慎重さが重要です。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:294
+msgid "Updating your Fork and Local Clone."
+"msgstr "あなたのフォークとローカルクローンの更新。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:296
+msgid ""
+"Updating the SDK involves pulling newly released software into both your "
+"local clone's and your fork.  There are two ways to go about this.  Either "
+"directly fetch and merge software from the parent into your fork on github, "
+"then fetch and merge to your local, or fetch from the parent into your local"
+" clone, merge locally and then push to your fork."
+"msgstr """
+"SDKの更新は、ローカルクローンとフォークに新たにリリースされたソフトウェアをプルすることを含みます。この作業には二つの方法があります。一つ目は、GitHub上の親ブランチからソフトウェアを直接取得し、フォークにマージした後、ローカルにも取得してマージする方法です。もう一つは、親ブランチからローカルクローンに取得し、ローカルでマージした後、フォークにプッシュする方法です。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:302
+msgid ""
+"This author prefers the latter because it gives the developer the "
+"opportunity test new software before pushing to the fork.  It also allows "
+"for merge conflict resolution locally instead of through GitHub's UI."
+"msgstr "この著者は後者を好む因为前者可以让开发者在推送到分支之前测试新的软件。此外，它还允许本地解决合并冲突，而不是通过GitHub的UI来解决。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:307
+msgid "Obtaining the Latest Software"
+"msgstr "最新のソフトウェアの取得""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:309
+msgid ""
+"When describing how to update a repository many basic tutorials will use the"
+" ``git pull`` command.  The ``git pull`` command is actually doing a *fetch*"
+" and *merge* for the user behind the scenes.  This can be fine, but it is "
+"useful to understand the concepts of *fetching* and *merging* as independent"
+" operations. If things go south, and you have a good concept of the "
+"underlying mechanics, you are much more likely to be able to fix any "
+"subsequent problems."
+"msgstr """
+"リポジトリを更新する方法について説明している多くの基本的なチュートリアルでは、``git pull`` コマンドを使用することがあります。``git "
+"pull`` コマンドはユーザーの後ろで実際には *fetch* と *merge* を行っています。これ自体は問題ありませんが、*fetching* "
+"と *merging* "
+"の概念を独立した操作として理解することは有用です。何かがうまくいかない場合でも、基本的なメカニズムについてよく理解していると、その後の問題を修正する可能性が高くなります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:317
+msgid "Remotes"
+"msgstr "リモコン""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:319
+msgid ""
+"Git is fundamentally built around the idea that there can be many copies of "
+"a repository floating about on the internet, or other people's machines, or "
+"corporate file servers, or any number of locations.  And that these "
+"repositories can linked to each other remotely.  A remote repository is "
+"simply defined as a version of a repository hosted somewhere else.   In the "
+"preceding examples, your fork of FtcRobotController is a remote of your "
+"local clone."
+"msgstr """
+"Gitは、リポジトリがインターネット上や他の人のマシン、企業のファイルサーバーなど、さまざまな場所で複数存在し得ること、そしてこれらのリポジトリが遠隔地からリンクできることを基本理念としています。遠隔地のリポジトリとは、別の場所にホストされているリポジトリのバージョンを指します。前の例では、あなたのFtcRobotControllerのフォークはローカルクローンの遠隔地のリポジトリです。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "remote named origin"
+"msgstr "リモート名付け済み元""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:330
+msgid "Illustration of FtcRobotController as remote named `origin`."
+"msgstr "FtcRobotControllerの遠隔操作イメージで、名前は`origin`です。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:332
+msgid ""
+"Remotes may be referenced in git commands and a repository can have any "
+"number of remotes.  The default name for the remote of a repository that has"
+" been cloned is 'origin'.  The conventional name of a remote that tracks the"
+" parent of a fork is 'upstream'."
+"msgstr """
+"リモートはgitコマンドで参照されることがあります。リポジトリには任意の数のリモートが存在できます。クローンされたリポジトリのデフォルト名は「origin」です。フォークの親を追跡するリモートの標準的な名前は「upstream」です。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "repo with two remotes"
+"msgstr "二つのリモートを持つリポジトリ""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:341
+msgid "A local repository with two remotes."
+"msgstr "ローカルリポジトリに2つのリモートが設定されています。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:343
+msgid "To see what remote are established for a given repository"
+"msgstr "指定されたリポジトリに接続されているリモートを確認する""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:349
+msgid "To add the parent of your team's fork as a remote of your local clone"
+"msgstr "チームのフォークの親としてローカルクローンにリモートを追加する方法""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:356
+msgid ""
+"Setting the FIRST Tech Challenge FtcRobotController repository as an "
+"upstream remote of your local clone allows you to fetch changes from the "
+"FIRST-Tech-Challenge/FtcRobotController to your local clone using the alias "
+"name 'upstream'.  This is very powerful. If the reason why this is important"
+" isn't immediately obvious, please re-read the two paragraphs under header "
+"marked ``Updating your Fork and Local Clone`` above."
+"msgstr """
+"FIRST Tech Challenge FtcRobotController "
+"リポジトリをローカルクローンのアップストリームリモートとして設定すると、アlias名 'upstream' を使ってFIRST-Tech-"
+"Challenge/FtcRobotController "
+"の変更をローカルクローンに取得できます。これは非常に強力です。なぜこれが重要なのかがすぐに理解できない場合は、上記「Forkとローカルクローンの更新」ヘッダーの2つの段落をもう一度読み直してください。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:364
+msgid ""
+"**The rest of this tutorial assumes that you have added FIRST-Tech-"
+"Challenge/FtcRobotController as an upstream in your local clone.**"
+"msgstr """
+"**このチュートリアルでは、ローカルクローンにFIRST-Tech-"
+"Challenge/FtcRobotControllerをアップストリームとして追加したことを前提とします。**"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:368
+msgid "Fetching"
+"msgstr "取得中""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:370
+msgid ""
+"Fetching is the process of downloading software changes from a remote "
+"repository.  Note specifically that fetching **does not** modify any of the "
+"existing software in the repository that you are fetching into, git isolates"
+" the changes in the local repository."
+"msgstr """
+"取得はリモートリポジトリからソフトウェアの変更をダウンロードするプロセスです。特に、取得によってリポジトリ内に取り込んでいる既存のソフトウェアは**変更されません**。git"
+" では、変更はローカルリポジトリ内で隔離されます。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:375
+msgid ""
+"If you are working with a team, and a teammate has pushed software to your "
+"FtcRobotController fork, you may fetch that software to a local clone by "
+"running"
+"msgstr """
+"もしチームで作業していて、 teammate が FtcRobotController "
+"のフォークにソフトウェアをプッシュした場合、ローカルのクローンにそのソフトウェアを取得するには、以下のコマンドを実行します。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:383
+msgid ""
+"This will download any changes in all branches on the remote named origin "
+"that are not present in the local repository."
+"msgstr "これで、ローカルリポジトリに存在しないリモート名のorigin上のすべての分岐での変更がダウンロードされます。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "fetching changes from origin"
+"msgstr "元本から変更を取得中""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:390
+msgid "Fetching changes from origin."
+"msgstr "元の変更を取り込んでいる中です。\\n""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:393
+msgid "Merging"
+"msgstr "マージ""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:395
+msgid ""
+"Merging is the process of merging fetched software into a branch, most "
+"commonly the current branch of the repository.  A merge is where things are "
+"most likely to get a bit confusing.  However, if you are simply merging from"
+" a remote master into a local master, and your local master is always "
+"tracking the remote, your merges should go smoothly."
+"msgstr """
+"マージは、取得したソフトウェアをリポジトリの現在のブランチに統合するプロセスです。マージはしばしば混乱が生じやすい部分ですが、ローカルマスターが常にリモートマスターを追跡している場合、そしてリモートマスターからローカルマスターへの単なるマージである場合は、マージはスムーズに進むべきです。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "merging fetched changes"
+"msgstr "取り込んだ変更のマージ""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:405
+msgid "Merging fetched changes from the origin repository."
+"msgstr "originリポジトリから取得した変更をマージしています。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:407
+msgid "Ensure you are on the ``master`` branch and run the following:"
+"msgstr "「master」ブランチにいることを確認し、以下のコマンドを実行してください：""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:413
+msgid ""
+"The ``master`` branch should be *clean* (i.e. ``git status`` on the "
+"``master`` branch shows no files that are modified but uncommitted) when "
+"this operation is performed.  Team members should be doing development work "
+"in feature branches, not in the ``master`` branch."
+"msgstr """
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:419
+msgid "Conflicts"
+"msgstr "衝突""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:421
+msgid ""
+"Conflicts, or \"What happens when more than one change is pending for a "
+"given piece of code.\"  It's best to read this great tutorial on `Git merge "
+"conflicts <https://www.atlassian.com/git/tutorials/using-branches/merge-"
+"conflicts>`_. Merge conflicts are a normal part of working in teams, and "
+"only with experience can you learn to effectively manage conflicts. Always "
+"approach with patience and a deep respect for the process."
+"msgstr """
+"衝突、つまり「同じコードに対して複数の変更が待機している場合に何が起こるか」についてです。`Git マージ衝突に関する素晴らしいチュートリアル "
+"<https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>`_ "
+"を読むのがベストです。マージ衝突はチームで働く際の正常な一部であり、経験を積んでいくことで効果的に管理する方法を学ぶことが可能です。常に冷静さとプロセスに対する深い敬意を持って対処しましょう。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:429
+msgid "Updating the SDK to the Latest Version"
+"msgstr "SDK最新バージョンに更新する""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:432
+msgid ""
+"Remember to use ``git remote -v`` to ensure that the upstream has been set "
+"as a remote on your clone. If not, be sure to review the \"Remotes\" section"
+" again to add the FtcRobotController repository to the upstream remote on "
+"your clone."
+"msgstr """
+"記憶に留めておいてください。``git remote -v`` "
+"を使用して、アップストリームがクローンに対してリモートとして設定されていることを確認してください。設定されていない場合は、再度「リモート」セクションを参照し、「FtcRobotController」リポジトリをクローンのアップストリームリモートに追加するように確認してください。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:437
+msgid ""
+"To update from the SDK, we simply fetch from upstream, FIRST-Tech-"
+"Challenge/FtcRobotController, the parent of your team fork, then merge and "
+"push to origin to complete the update."
+"msgstr """
+"SDKから更新するには、まずupstreamからfetchし、チームのフォークであるFIRST-Tech-"
+"Challenge/FtcRobotControllerから最新の変更を取得します。次に、変更をマージしてoriginにプッシュすることで更新を完了します。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "Fetching changes from upstream"
+"msgstr "アップストリームから変更を取得中""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:445
+msgid "Fetching changes from the upstream repository."
+"msgstr "アップストリームレポジトリから変更を取得しています。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:447
+msgid ""
+"Instead of fetching from origin, fetch from upstream.  This copies in any "
+"commits that you don't already have in your local clone. In the diagram "
+"above that is the v8.0 commit.  Your local master is not changed.  It is "
+"still pointing to, and representing, the v7.2 commit.  Since a commit is a "
+"complete snapshot of a workspace at a point in time, nothing changes in your"
+" workspace, but your repository has a new commit with the branch name "
+"upstream/master."
+"msgstr """
+"代わりに元のリポジトリからではなく、アップストリームから取得することをお勧めします。これにより、既存のローカルクローンにはまだないコミットがコピーされます。上図では"
+" v8.0 コミットがその例です。あなたのローカルマスターは変更されません。それはまだ v7.2 "
+"コミットを指し、それを表現しています。コミットは特定の時間点でのワークスペースの完全なスナップショットであるため、ワークスペースには何も変化はありませんが、リポジトリには新しいアップストリーム/master"
+" ブランチ名を持つコミットが追加されます。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "remotes"
+"msgstr "リモコン""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:460
+msgid "Merging fetched changes from the upstream repository."
+"msgstr "上流リポジトリから取得した変更をマージしています。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:462
+msgid ""
+"After fetching, merge the upstream/master branch into master.  If your local"
+" master matches your upstream master then a merge is as simple as moving the"
+" master branch label to the commit that upstream/master is pointing to.  "
+"This is referred to as a fast-forward merge.  And since a commit is a "
+"complete snapshot of a workspace at a point time, your local workspace now "
+"contains the snapshot represented by v8.0."
+"msgstr """
+"取得後、アップストリーム/マスター分岐をマスターにマージしてください。ローカルのマスターがアップストリームのマスターと一致している場合、マージはマスター分岐ラベルをアップストリーム/マスターが指しているコミットに移動することです。これは前方進捗マージと呼ばれます。また、コミットはポイント在時におけるワークスペースの完全なスナップショットであるため、ローカルのワークスペースにはv8.0によって表されるスナップショットが含まれています。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "Pushing fetched changes"
+"msgstr "取得した変更のプッシュ""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:475
+msgid "Pushing fetched and merged changes back to your team fork."
+"msgstr "チームのフォークに取り込んだ変更とマージした変更をプッシュします。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:477
+msgid ""
+"Once you've merged the upstream/master into your local clone's master "
+"branch, push those changes to GitHub so that your GitHub clone reflects the "
+"upstream repository."
+"msgstr """
+"アップストリーム/master "
+"がローカルクローンのmasterブランチにマージされたら、その変更をGitHubにプッシュして、あなたのGitHubクローンがアップストリームリポジトリと一致するようにします。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:484
+msgid ""
+"If you were working in a feature branch and want to bring the new SDK "
+"changes into that feature branch you merge from master into the branch by "
+"checking out the branch and running the merge command.  This is where things"
+" might get dicey as this is where you are most likely to encounter merge "
+"conflicts."
+"msgstr """
+"もし機能ブランチで作業中であり、新しいSDKの変更をその機能ブランチに取り込む必要がある場合、masterからブランチをチェックアウトし、マージコマンドを実行することでマージします。ここが問題が発生する可能性が高い場所です。この時点でマージコンフリクトに遭遇することが多いからです。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:495
+msgid "Downgrading the SDK to a Previous Version"
+"msgstr "前のバージョンにSDKをダウングレードする""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:497
+msgid ""
+"Typically, the working branch of a local repository, whether it's master, or"
+" a competition branch will eventually contain a series of team commits "
+"interleaved with SDK update commits.  In this scenario a team can not simply"
+" roll back to a prior SDK version without also rolling back all of their "
+"team commits.  Consider the following diagram."
+"msgstr """
+"通常、ローカルリポジトリの作業ブランチは、masterブランチや競技用ブランチであっても、SDK更新コミットとチームコミットが交差して含まれる系列になります。このシナリオでは、チームは以前のSDKバージョンに単純にロールバックすることができず、すべてのチームコミットもロールバックしなければなりません。以下の図を参考にしてください。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "sample repository"
+"msgstr "サンプル リポジトリ""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:505
+msgid "A repository with both team commits and SDK update commits."
+"msgstr "チームのコミットとSDK更新コミットが両方含まれているリポジトリ。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:507
+msgid ""
+"If you just chopped off the branch at M7.2, you'd lose the three blue team "
+"commits.  In order to retain team work, instead create a new merge commit "
+"that reverts the 8.0 commit.  Do not revert merge commits, e.g. M8.0.  The "
+"merge commit itself may contain work that represents the divergence of the "
+"the two branches that were merged.  This is not what you want.  You want to "
+"revert the parent of the merge commit that represents the new, old, SDK "
+"version."
+"msgstr """
+"M7.2で枝を切った場合、3つのブルートームのコミットが失われてしまいます。チームワークを維持するためには、代わりに8.0コミットを取り消す新しいマージコミットを作成してください。マージコミット自体を取るな、例えばM8.0はその例外です。マージコミットには、結合された2つのブランチの分岐点で行われた作業が含まれている可能性があります。これが望ましい結果ではありません。あなたが取り消したいのは、新しいSDKバージョンを表すマージコミットの親であるべきです。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:513
+msgid "A Short Digression on Tags"
+"msgstr "タグに関する短い補足説明""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:515
+msgid ""
+"A tag is simply a named pointer to a commit, that unlike a branch pointer, "
+"or HEAD, never moves.  Since a commit is a snapshot in time of an entire "
+"workspace, this allows a developer to *tag* a point in time in an immutable "
+"fashion. *FIRST* uses tags to track SDK versions through a standard "
+"`semantic versioning <https://semver.org/>`_ naming scheme.  When a new SDK "
+"version is released, the FTC engineering team pushes a release candidate "
+"branch to FIRST-Tech-Challenge/FtcRobotController, then merges that branch "
+"into master.  This results in two commits, the new SDK version commit that "
+"contains all the good stuff, and a merge commit representing the merge from "
+"the candidate branch into master.  The release is then formally cut, where a"
+" tag is then created, on the merge commit."
+"msgstr """
+"タグは、コミットへの名前付きポインタで、ブランチポインタやHEADとは異なり、動かないものだけです。コミットは一時的なタイムスナップショットであり、これは開発者が変更不能な形で特定のポイントをタグ付けできるようにします。「FIRST」はSDKバージョンを追跡するために、標準の`セマntイック"
+" バージョニング <https://semver.org/>`_ "
+"の命名スキームを使用しています。新しいSDKバージョンがリリースされると、FTCエンジニアリングチームは FIRST-Tech-"
+"Challenge/FtcRobotController "
+"に候補ブランチをプッシュし、その後マスターにマージします。これにより、新しいSDKバージョンのコミットと、候補ブランチからマスターへのマージを表すマージコミットが2つ生成されます。その後、リリースは正式に行われ、そのマージコミットに対してタグが作成されます。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:523
+msgid ""
+"Tags from remotes are not automatically copied into a repository on a clone."
+"  To retrieve tags execute."
+"msgstr "リモートからプルされたタグはクローンしたリポジトリに自動的にコピーされません。タグを取得するには以下のコマンドを実行してください。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:529
+msgid ""
+"The --all option fetches at once from all remotes, the --tags option tells "
+"git to fetch the tags. Tags always follow the semantic versioning rules.  "
+"e.g. v7.0, v7.1, v7.2, v8.0, etc."
+"msgstr """
+"--all オプションを使用すると、一度にすべてのリモートからデータを取得できます。--tags オプションは、git "
+"にタグも取得するように指示します。タグは常にセマンティックバージョニング規則に従います。たとえば、v7.0, v7.1, v7.2, v8.0 "
+"などです。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:532
+msgid ""
+"The `^ syntax <https://medium.com/@gabicle/git-ancestry-references-"
+"explained-bd3a84a0b821>`_ allows one to reference parents of a commit and "
+"can be applied to tag names.  tag^ is the immediate parent of the commit tag"
+" points to.  For commits with multiple parents such as merge commits one can"
+" apply a number to refer to a specific parent. tag^1 is the same as tag^ and"
+" is the first parent of the commit, tag^2 is the second parent of the "
+"commit."
+"msgstr """
+"The `^ シンタックス <https://medium.com/@gabicle/git-ancestry-references-"
+"explained-bd3a84a0b821>`_ "
+"では、コミットの親を参照することができます。これにはタグ名にも適用できます。tag^はtagが指すコミットの直前の親です。複数の親を持つコミット（マージコミットなど）に対しては、特定の親を参照するために数字を使用できます。tag^1はtag^と同じで、コミットの最初の親を示します。tag^2はコミットの二番目の親を示します。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:537
+msgid "Merging the Inverse of an SDK Update"
+"msgstr "SDK更新の逆元のマージ""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:539
+msgid ""
+"The diagram below shows the v8.0 tag pointing to the v8.0 merge commit along"
+" with references to the parents of v8.0."
+"msgstr "下記の図は、v8.0タグがv8.0マージコミットを指し示すもので、またv8.0の親コミットへの参照も含まれています。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "tags"
+"msgstr "タグ""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:545
+msgid "v8.0 tag pointing to the v8.0 merge commit."
+"msgstr "v8.0 マージコミット先のタグです。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:547
+msgid ""
+"If any commits have dependencies on new features or APIs introduced in the "
+"reverted versions, then your build will break.  You will have to manually "
+"figure out how to fix your software so that it is no longer depends upon "
+"reverted software."
+"msgstr """
+"もし、取り消されたバージョンで導入された新しい機能やAPIに依存するコミットがある場合、ビルドは失敗します。その SOFTWARE "
+"を取り消されたソフトウェアから独立させる方法を手動で確認する必要があります。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:551
+msgid ""
+"Remember that Git does not delete commits (with a few exceptions), so in "
+"order to revert a commit we must create a new commit that is the inverse of "
+"the commit you want to revert *from*.  And you'll want to do this for every "
+"version, in reverse order, that you want to undo.  The target of the command"
+" below is the tag of the version you want to undo, not the tag of the "
+"version you want to revert to."
+"msgstr """
+"Gitはコミットを削除しない（一部の例外を除き）ので、コミットを元に戻す場合は、元のコミットから逆のコミットを作成する新しいコミットを作成しなければなりません。そして、取り消したいバージョンのすべてのバージョンに対して、逆順でこの操作を行う必要があります。以下のコマンドのターゲットは、取り消したいバージョンのタグではなく、取り戻し先のバージョンのタグです。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst
+msgid "demonstrating the revert"
+"msgstr "復元の実演を示す""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:559
+msgid ""
+"Result of revert - a new merge commit representing the revert from v8.0 to "
+"v7.2."
+"msgstr "リバース後の結果 - v8.0からv7.2へのリバースを表す新しいマージコミットです。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:561
+msgid ""
+"Because the merge commit has two parents, and you want to reference the SDK "
+"version commit, use the tag name you want to roll back and append ^2.  For "
+"example to roll back v8.0, resulting in the SDK compiling against v7.2 use."
+"msgstr """
+"マージコミットは二つの親を持つため、SDKバージョン用のコミットを参照したい場合は、ロールバックしたいタグ名に^2を追加します。例えばv8.0をロールバックし、SDKがv7.2に対してコンパイルされるようにするには。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:568
+msgid ""
+"The -Xtheirs option is a convenience that says, \"If there are any "
+"conflicts, automatically take the software from the v8.0^2 side.\""
+"msgstr "-TheXtheirsオプションは、衝突がある場合に「自動的にv8.0^2側のソフトウェアを採用する」という便利な機能です。""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:570
+msgid ""
+"If you want to downgrade more than one revision you must revert each "
+"revision in sequence otherwise you could wind up with changes remaining "
+"after reversion from the SDK version in between latest and the target you "
+"are referring to. For example if you need to downgrade from v8.1.1 to v8.0, "
+"for reference all SDK versions can be found `here <https://github.com/FIRST-"
+"Tech-Challenge/FtcRobotController/releases>`_, you must revert v8.1.1 "
+"followed by v8.1. If you don't follow this order, then changes in v8.1.1 "
+"that don't overlap with v8.1 will remain in your workspace and that's not "
+"what you want."
+"msgstr """
+"もし1つ以上前のリビジョンに下級化する場合、各リビジョンを順番に元に戻さなければなりません。そうしないと、最新バージョンから目標バージョンへの元に戻しの間に残った変更が"
+" workspace に残ってしまう可能性があります。例えば v8.1.1 から v8.0 に下級化する場合、参照のためにすべての SDK バージョンは"
+" `こちら <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/releases>`_ で見つけることができます。v8.1.1 をまず元に戻し、その後 "
+"v8.1 を元に戻す必要があります。この順序を守らないと、v8.1.1 の中でも v8.1 と重複しない変更が workspace "
+"に残ってしまうため、これは望ましくありません。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:581
+msgid "Summary"
+"msgstr "概要""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:583
+msgid ""
+"Assumes all commands are run from the root directory of your local clone.  "
+"Also assumes you are not committing team code to your local master branch, "
+"but instead are working in a competition branch."
+"msgstr """
+"すべてのコマンドがローカルクローンのルートディレクトリから実行されることを前提としています。また、チームコードをローカルマスターブランチにコミットしないことを想定し、代わりに競技用ブランチで作業を行っていることを前提としています。"
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:587
+msgid "Add FIRST-Tech-Challenge/FtcRobotController as a remote"
+"msgstr "FIRST-Tech-Challenge/FtcRobotController をリモートとして追加""
+
+#: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:594
+msgid "Update the to latest SDK version"
+"msgstr "最新のSDKバージョンに更新する""

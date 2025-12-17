@@ -1,0 +1,2130 @@
+[
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\opmode_test_images\\opmode-test-images.po",
+    "line": 101,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_advanced_use\\apriltag-advanced-use.po",
+    "line": 71,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_advanced_use\\apriltag-advanced-use.po",
+    "line": 202,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_advanced_use\\apriltag-advanced-use.po",
+    "line": 231,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_advanced_use\\apriltag-advanced-use.po",
+    "line": 241,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_advanced_use\\apriltag-advanced-use.po",
+    "line": 270,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_advanced_use\\apriltag-advanced-use.po",
+    "line": 280,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_advanced_use\\apriltag-advanced-use.po",
+    "line": 280,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_camera_calibration\\apriltag-camera-calibration.po",
+    "line": 42,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_id_code\\apriltag-id-code.po",
+    "line": 85,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_id_code\\apriltag-id-code.po",
+    "line": 100,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 78,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 190,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 197,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 230,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 285,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 295,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 400,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 413,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 479,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 526,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 535,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 596,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 602,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 739,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 763,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+    "line": 774,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_library\\apriltag-library.po",
+    "line": 210,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_library\\apriltag-library.po",
+    "line": 266,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_library\\apriltag-library.po",
+    "line": 453,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_localization\\apriltag-localization.po",
+    "line": 31,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_localization\\apriltag-localization.po",
+    "line": 39,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_localization\\apriltag-localization.po",
+    "line": 79,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_localization\\apriltag-localization.po",
+    "line": 468,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_localization\\apriltag-localization.po",
+    "line": 480,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_localization\\apriltag-localization.po",
+    "line": 557,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_localization\\apriltag-localization.po",
+    "line": 587,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_localization\\apriltag-localization.po",
+    "line": 626,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_metadata\\apriltag-metadata.po",
+    "line": 144,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_pose\\apriltag-pose.po",
+    "line": 39,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_pose\\apriltag-pose.po",
+    "line": 45,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_pose\\apriltag-pose.po",
+    "line": 89,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_pose\\apriltag-pose.po",
+    "line": 97,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_pose\\apriltag-pose.po",
+    "line": 105,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_reference_frame\\apriltag-reference-frame.po",
+    "line": 31,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_reference_frame\\apriltag-reference-frame.po",
+    "line": 132,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_reference_frame\\apriltag-reference-frame.po",
+    "line": 139,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_multiportal\\vision-multiportal.po",
+    "line": 39,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_multiportal\\vision-multiportal.po",
+    "line": 159,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_multiportal\\vision-multiportal.po",
+    "line": 168,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_multiportal\\vision-multiportal.po",
+    "line": 214,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_processor_init\\vision-processor-init.po",
+    "line": 48,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_processor_init\\vision-processor-init.po",
+    "line": 59,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_processor_init\\vision-processor-init.po",
+    "line": 104,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_processor_init\\vision-processor-init.po",
+    "line": 144,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_processor_init\\vision-processor-init.po",
+    "line": 223,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "missing_doc_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_processor_init\\vision-processor-init.po",
+    "line": 223,
+    "severity": "error",
+    "suggestion": "Missing :doc: references in msgstr. msgid has [':doc:`Color Processing Documentation </color_processing/index>`'], msgstr missing: {':doc:`Color Processing Documentation </color_processing/index>`'}"
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_processor_init\\vision-processor-init.po",
+    "line": 240,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\vision_processor_init\\vision-processor-init.po",
+    "line": 262,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_camera_controls\\visionportal-camera-controls.po",
+    "line": 242,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_camera_controls\\visionportal-camera-controls.po",
+    "line": 333,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_camera_controls\\visionportal-camera-controls.po",
+    "line": 385,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_camera_controls\\visionportal-camera-controls.po",
+    "line": 391,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 147,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 313,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 331,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 337,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 346,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 661,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 670,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 776,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 781,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 813,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+    "line": 813,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_init\\visionportal-init.po",
+    "line": 177,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_init\\visionportal-init.po",
+    "line": 189,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_init\\visionportal-init.po",
+    "line": 196,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_overview\\visionportal-overview.po",
+    "line": 90,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_overview\\visionportal-overview.po",
+    "line": 217,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_previews\\visionportal-previews.po",
+    "line": 169,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_previews\\visionportal-previews.po",
+    "line": 183,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\cad_resources\\index.po",
+    "line": 36,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-blob-concepts\\color-blob-concepts.po",
+    "line": 96,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-blob-concepts\\color-blob-concepts.po",
+    "line": 165,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-challenge\\color-locator-challenge.po",
+    "line": 31,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-challenge\\color-locator-challenge.po",
+    "line": 94,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-challenge\\color-locator-challenge.po",
+    "line": 143,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-challenge\\color-locator-challenge.po",
+    "line": 147,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-challenge\\color-locator-challenge.po",
+    "line": 313,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-challenge\\color-locator-challenge.po",
+    "line": 661,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-challenge\\color-locator-challenge.po",
+    "line": 667,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-discover\\color-locator-discover.po",
+    "line": 52,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-discover\\color-locator-discover.po",
+    "line": 77,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-discover\\color-locator-discover.po",
+    "line": 379,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-discover\\color-locator-discover.po",
+    "line": 386,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-discover\\color-locator-discover.po",
+    "line": 395,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-discover\\color-locator-discover.po",
+    "line": 409,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-discover\\color-locator-discover.po",
+    "line": 421,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-discover\\color-locator-discover.po",
+    "line": 487,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-explore\\color-locator-explore.po",
+    "line": 31,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "missing_doc_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-explore\\color-locator-explore.po",
+    "line": 31,
+    "severity": "error",
+    "suggestion": "Missing :doc: references in msgstr. msgid has [':doc:`Discover <../color-locator-discover/color-locator-discover>`'], msgstr missing: {':doc:`Discover <../color-locator-discover/color-locator-discover>`'}"
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-explore\\color-locator-explore.po",
+    "line": 318,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-explore\\color-locator-explore.po",
+    "line": 332,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-explore\\color-locator-explore.po",
+    "line": 395,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-explore\\color-locator-explore.po",
+    "line": 401,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-explore\\color-locator-explore.po",
+    "line": 634,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-explore\\color-locator-explore.po",
+    "line": 672,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-round-blobs\\color-locator-round-blobs.po",
+    "line": 242,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-round-blobs\\color-locator-round-blobs.po",
+    "line": 249,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-round-blobs\\color-locator-round-blobs.po",
+    "line": 255,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-round-blobs\\color-locator-round-blobs.po",
+    "line": 304,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-round-blobs\\color-locator-round-blobs.po",
+    "line": 319,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-locator-round-blobs\\color-locator-round-blobs.po",
+    "line": 361,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-sensor\\color-sensor.po",
+    "line": 367,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-sensor\\color-sensor.po",
+    "line": 383,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-sensor\\color-sensor.po",
+    "line": 493,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\color-spaces\\color-spaces.po",
+    "line": 126,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\index.po",
+    "line": 40,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\color_processing\\index.po",
+    "line": 92,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\style_guide\\image-and-figure-details.po",
+    "line": 86,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\github_repo\\github-repo.po",
+    "line": 76,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\make_pr\\make-pr.po",
+    "line": 316,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\make_rst\\basic_rst_content\\basic_rst_content.po",
+    "line": 513,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\make_rst\\basic_rst_content\\basic_rst_content.po",
+    "line": 573,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\make_rst\\basic_rst_content\\basic_rst_content.po",
+    "line": 585,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\make_rst\\creating_rst\\creating-rst.po",
+    "line": 425,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\make_rst\\overview\\overview.po",
+    "line": 96,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 5 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\setup\\setup.po",
+    "line": 79,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\update_fork\\update-fork.po",
+    "line": 31,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\control_hard_compon\\rc_components\\hub\\ports\\ch-ports.po",
+    "line": 160,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 2 URLs, msgstr has 1."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\control_hard_compon\\rc_components\\hub\\ports\\ch-ports.po",
+    "line": 284,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\control_hard_compon\\rc_components\\hub\\ports\\exh-ports.po",
+    "line": 67,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 2 URLs, msgstr has 1."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\control_hard_compon\\rc_components\\hub\\ports\\exh-ports.po",
+    "line": 88,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 3 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\control_hard_compon\\rc_components\\hub\\ports\\exh-ports.po",
+    "line": 282,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\control_hard_compon\\rc_components\\hub\\ports\\std-ports.po",
+    "line": 279,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 65,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 159,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 503,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 510,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 673,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 691,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 845,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 881,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 888,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 936,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 964,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 979,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 994,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 1001,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 1012,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 1027,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 1081,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 1139,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+    "line": 1139,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\overview\\index.po",
+    "line": 159,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 2 URLs, msgstr has 1."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\ds_app\\Updating-the-DS-App.po",
+    "line": 85,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\ds_app\\Updating-the-DS-App.po",
+    "line": 175,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\ds_app\\Updating-the-DS-App.po",
+    "line": 343,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "missing_doc_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\ds_app\\Updating-the-DS-App.po",
+    "line": 360,
+    "severity": "error",
+    "suggestion": "Missing :doc: references in msgstr. msgid has [':doc:`developer options </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`'], msgstr missing: {':doc:`developer options </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`'}"
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\hardware_client\\Updating-REV-Hardware-Client.po",
+    "line": 41,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\hardware_client\\Updating-REV-Hardware-Client.po",
+    "line": 97,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\hub_firmware\\Updating-Hub-Firmware.po",
+    "line": 165,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\hub_firmware\\Updating-Hub-Firmware.po",
+    "line": 224,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\rc_app\\Updating-the-RC-App.po",
+    "line": 129,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\rc_app\\Updating-the-RC-App.po",
+    "line": 129,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\rc_app\\Updating-the-RC-App.po",
+    "line": 247,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\rc_app\\Updating-the-RC-App.po",
+    "line": 442,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "missing_doc_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\ftc_sdk\\updating\\rc_app\\Updating-the-RC-App.po",
+    "line": 459,
+    "severity": "error",
+    "suggestion": "Missing :doc: references in msgstr. msgid has [':doc:`developer options </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`'], msgstr missing: {':doc:`developer options </programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-Developer-Options>`'}"
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\game_specific_resources\\ftcqa\\ftcqa.po",
+    "line": 62,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\configuring\\configuring_color_sensor\\configuring-color-sensor.po",
+    "line": 57,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 8. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\configuring\\configuring_external_webcam\\configuring-external-webcam.po",
+    "line": 112,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\configuring\\getting_started\\getting-started.po",
+    "line": 166,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\configuring\\saving_config\\saving-config.po",
+    "line": 39,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\configuring\\saving_config\\saving-config.po",
+    "line": 45,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\configuring\\saving_config\\saving-config.po",
+    "line": 51,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\new-self-inspect.po",
+    "line": 62,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\new-self-inspect.po",
+    "line": 99,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\new-self-inspect.po",
+    "line": 232,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\new-self-inspect.po",
+    "line": 266,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\new-self-inspect.po",
+    "line": 411,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\new-self-inspect.po",
+    "line": 436,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 293,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 315,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 320,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 381,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 427,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 443,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 494,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 500,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 569,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 604,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 634,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 792,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 842,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 863,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\hardware_and_software_configuration\\self_inspect\\self-inspect.po",
+    "line": 922,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\index.po",
+    "line": 183,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\manufacturing\\3d_printing\\designing_and_slicing\\slicing_settings\\slicing_settings.po",
+    "line": 78,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "missing_doc_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\manufacturing\\3d_printing\\troubleshooting\\troubleshooting.po",
+    "line": 39,
+    "severity": "error",
+    "suggestion": "Missing :doc: references in msgstr. msgid has [':doc:`Prints Not Sticking <../specific_skill_guides/print_adhesion/print_adhesion>`'], msgstr missing: {':doc:`Prints Not Sticking <../specific_skill_guides/print_adhesion/print_adhesion>`'}"
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 87,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 95,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 233,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 379,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 403,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 409,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 421,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 452,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 452,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 466,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 485,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 623,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 649,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 653,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 830,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 891,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 1030,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 1061,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 1188,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\imu\\imu.po",
+    "line": 1580,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\laptops\\laptops.po",
+    "line": 332,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 291,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 299,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 311,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 412,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 412,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 596,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 727,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 752,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 761,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 771,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 781,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 791,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 965,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 990,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\configuring_android\\Configuring-Your-Android-Devices.po",
+    "line": 1027,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 8 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 97,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 104,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 240,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 251,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 290,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 320,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 327,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 376,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 428,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 469,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 574,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+    "line": 621,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\installing_kotlin\\Installing-Kotlin.po",
+    "line": 153,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\managing_control_hub\\Managing-a-Control-Hub.po",
+    "line": 813,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 3 URLs, msgstr has 2."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\annotation\\annotation.po",
+    "line": 48,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\annotation\\annotation.po",
+    "line": 77,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\annotation\\annotation.po",
+    "line": 135,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\annotation\\annotation.po",
+    "line": 147,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\driving_example\\driving-example.po",
+    "line": 27,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\driving_example\\driving-example.po",
+    "line": 35,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\driving_example\\driving-example.po",
+    "line": 53,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\driving_example\\driving-example.po",
+    "line": 53,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 2 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\editing\\editing.po",
+    "line": 60,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\editing\\editing.po",
+    "line": 104,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\hardware_example\\hardware-example.po",
+    "line": 27,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\hardware_example\\hardware-example.po",
+    "line": 101,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\hardware_example\\hardware-example.po",
+    "line": 143,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\ideas\\ideas.po",
+    "line": 27,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\ideas\\ideas.po",
+    "line": 43,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\intro\\intro.po",
+    "line": 27,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\intro\\intro.po",
+    "line": 42,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\method_example\\method-example.po",
+    "line": 61,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\parameter\\parameter.po",
+    "line": 65,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\parameter\\parameter.po",
+    "line": 94,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\parameter\\parameter.po",
+    "line": 101,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\rw_example\\rw-example.po",
+    "line": 53,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\rw_example\\rw-example.po",
+    "line": 75,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 33,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 33,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 2 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 52,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 87,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 10 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 107,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 170,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 209,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 10 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 216,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 223,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\simple_example\\simple-example.po",
+    "line": 255,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\telem_example\\telem-example.po",
+    "line": 27,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\timer_example\\timer-example.po",
+    "line": 38,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\timer_example\\timer-example.po",
+    "line": 64,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 12 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\timer_example\\timer-example.po",
+    "line": 74,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\myblocks\\timer_example\\timer-example.po",
+    "line": 121,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\program_and_manage_network\\Connecting-a-Laptop-to-the-Program-&-Manage-Network.po",
+    "line": 59,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\program_and_manage_network\\Connecting-a-Laptop-to-the-Program-&-Manage-Network.po",
+    "line": 179,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\tutorial_specific\\android_studio\\disable_instant_run\\disable-instant-run.po",
+    "line": 44,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\tutorial_specific\\android_studio\\downloading_as_project_folder\\Downloading-the-Android-Studio-Project-Folder.po",
+    "line": 74,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\tutorial_specific\\android_studio\\enabling_developer_options\\Enabling-Developer-Options.po",
+    "line": 36,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\tutorial_specific\\android_studio\\fork_and_clone_github_repository\\Fork-and-Clone-From-GitHub.po",
+    "line": 102,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 2 URLs, msgstr has 1."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\tutorial_specific\\android_studio\\fork_and_clone_github_repository\\Fork-and-Clone-From-GitHub.po",
+    "line": 137,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 4 URLs, msgstr has 3."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\tutorial_specific\\blocks\\creating_op_modes\\Writing-an-Op-Mode-with-FTC-Blocks.po",
+    "line": 169,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\tutorial_specific\\blocks\\managing_opmodes\\managing-opmodes.po",
+    "line": 67,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 6 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\vision\\webcam_controls\\eval\\eval.po",
+    "line": 147,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\vision\\webcam_controls\\eval\\eval.po",
+    "line": 269,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\vision\\webcam_controls\\overview\\overview.po",
+    "line": 87,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 4 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\programming_resources\\vision\\webcam_controls\\overview\\overview.po",
+    "line": 87,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\tech_tips\\tech-tips.po",
+    "line": 140,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 3 URLs, msgstr has 2."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\tech_tips\\tech-tips.po",
+    "line": 2625,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 1 URLs, msgstr has 0."
+  },
+  {
+    "type": "emphasis_mismatch",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\tech_tips\\tech-tips.po",
+    "line": 2814,
+    "severity": "warning",
+    "suggestion": "Emphasis count mismatch: msgid has 2 ** markers, msgstr has 0. Ensure balanced **...**."
+  },
+  {
+    "type": "inconsistent_ref",
+    "file": "..\\locales\\ja\\LC_MESSAGES\\tech_tips\\tech-tips.po",
+    "line": 3215,
+    "severity": "warning",
+    "suggestion": "Potential missing external links. msgid has 6 URLs, msgstr has 0."
+  }
+]

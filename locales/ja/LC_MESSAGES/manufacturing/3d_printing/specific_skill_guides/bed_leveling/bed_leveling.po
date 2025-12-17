@@ -12,74 +12,77 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:2
 msgid "Bed Leveling"
-msgstr ""
+msgstr "ベッドのレベル調整"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:4
 msgid ""
 "This guide is primarily for older printers that don't have automatic "
-"leveling. If you have a newer printer, this process is likely not needed "
-"or there is a more advanced process to follow. Research what processes "
-"are available for your printer."
+"leveling. If you have a newer printer, this process is likely not needed or "
+"there is a more advanced process to follow. Research what processes are "
+"available for your printer."
 msgstr ""
+"このガイドは、自動レベリング機能がない古いプリンタ向けに作成されています。新しいプリンタをお持ちの場合、このプロセスは必要ないか、より高度なプロセスが用意されている可能性があります。お持ちのプリンタで利用可能なプロセスについて調査してください。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:7
 msgid ""
 "If you have a bed thats adjustable by screws, bed leveling is by far the "
-"biggest factor for how well your prints stick across the whole bed. The "
-"only tool you should need is a 0.2mm thick piece of metal, a piece of "
-"cardstock, or an index card."
+"biggest factor for how well your prints stick across the whole bed. The only"
+" tool you should need is a 0.2mm thick piece of metal, a piece of cardstock,"
+" or an index card."
 msgstr ""
+"もしベッドがネジで調整できるものであれば、ベッドレベリングは全体のベッド上でプリントがどのように接着するかに及ぼす影響が最も大きい要因となります。必要な工具は0.2mm厚の金属片、カードストック、またはインデックスカードだけです。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
 msgid "Tools usable for bed leveling."
-msgstr ""
+msgstr "床レベル調整に使用できるツール。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:17
 msgid "Here's the steps you should follow to level your bed:"
-msgstr ""
+msgstr "ここではベッドを整えるための手順を説明します："
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:19
 msgid ""
-"Ensure that your nozzle is clean and has no extra filament beneath it "
-"that would interfere with bed leveling precision."
-msgstr ""
+"Ensure that your nozzle is clean and has no extra filament beneath it that "
+"would interfere with bed leveling precision."
+msgstr "nozzle は清潔にして、床整平の精度に干渉する余分なフィラメントが underneath ないことを確認してください。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:20
 msgid ""
 "Home the Z axis completely, and get it to Z coordinate 0 by using the "
 "printer's move commands"
-msgstr ""
+msgstr "Z軸を完全にホームインし、プリンタの移動コマンドを使用してZ座標0まで移動させます。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:21
 msgid ""
 "Move the nozzle to just above one of the screws using the printer's move "
-"commands (This is done with move commands to make sure that it replicates"
-" the movement that the printer will perform when under it's own control)"
+"commands (This is done with move commands to make sure that it replicates "
+"the movement that the printer will perform when under it's own control)"
 msgstr ""
+"印刷機の移動コマンドを使用して、ノズルを一つのスクリューの直上に移動します（これは、印刷機が自身の制御下でそれを実行する際に行う移動と一致するように移動を再現するために移動コマンドを使用することを確認します）"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:22
 msgid ""
-"Adjust the screw up and down until the 0.2mm material can barely slide "
-"with slight friction underneath the nozzle."
-msgstr ""
+"Adjust the screw up and down until the 0.2mm material can barely slide with "
+"slight friction underneath the nozzle."
+msgstr "ノズルの下にわずかな摩擦で動く程度に、0.2mmの材料がスライドできるように、スクリューを上下に調整します。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
 msgid "Placement of a tool under a nozzle."
-msgstr ""
+msgstr "ノズルの下に工具を配置する。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:30
 msgid "Repeat this process with the other screws available on the bed."
-msgstr ""
+msgstr "床に備え付けの他のスクリューでこのプロセスを繰り返してください。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:31
 msgid ""
@@ -87,25 +90,27 @@ msgid ""
 "0.2mm material. If you leveled all of the screws properly, it should be "
 "roughly the same amount of friction."
 msgstr ""
+"ヘッドをベッドの中心に移動し、0.2mmの材料を使用してベッドの高さを確認してください。すべてのスクリューが正しくレベル付けされている場合、摩擦量は大まかに同じになるはずです。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:34
 msgid "Z-Offset"
-msgstr ""
+msgstr "Z-オフセット"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:36
 msgid ""
-"Once your printer is leveled between the screws, the bed is flat, but "
-"it's not always at exactly the right height. All printers should have a Z"
-" offset variable that lets you adjust the height of the nozzle during or "
-"before printing. If at the start of your print the bed is either located "
-"too high or too low, but remaining consistent (provided you bed leveled),"
-" use your printers Z offset feature (also called baby-stepping) to adjust"
-" it live while it lays down the first layer. Reference the images below "
-"for some good visualizations on how to make sure you're at the proper "
-"height!"
+"Once your printer is leveled between the screws, the bed is flat, but it's "
+"not always at exactly the right height. All printers should have a Z offset "
+"variable that lets you adjust the height of the nozzle during or before "
+"printing. If at the start of your print the bed is either located too high "
+"or too low, but remaining consistent (provided you bed leveled), use your "
+"printers Z offset feature (also called baby-stepping) to adjust it live "
+"while it lays down the first layer. Reference the images below for some good"
+" visualizations on how to make sure you're at the proper height!"
 msgstr ""
+"印刷機を水平に調整した後、ベッドは平らになりますが、常に正確な高さではありません。すべての印刷機には、 nozzle の高さを印刷中や印刷前に調整できる"
+" Z オフセット変数があります。印刷が始まったときにベッドが高すぎるか低すぎる（ただし、ベッドを水平にした場合に一貫性がある限り）場合、プリンタの Z "
+"オフセット機能（バビーステッピングとも呼ばれます）を使用して、最初の層を配置しながらその高さをライブで調整できます。以下の画像を参照し、適切な高さであることを確認してください！"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
 msgid "Visual specifications on how high a nozzle should be."
-msgstr ""
-
+msgstr "ノズルがどのくらいの高さに应该放置的视觉规范。"

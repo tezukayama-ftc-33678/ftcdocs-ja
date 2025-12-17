@@ -1,0 +1,1187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/devices/huskylens/huskylens.rst:2
+msgid "HuskyLens Intro for *FIRST* Tech Challenge"
+"msgstr "FIRST Tech Challenge 用の HuskyLens について""
+
+#: ../../source/devices/huskylens/huskylens.rst:5
+msgid "Introduction"
+"msgstr "紹介\\n""
+
+#: ../../source/devices/huskylens/huskylens.rst:7
+msgid ""
+"This is a simple tutorial to introduce the use of `HuskyLens "
+"<https://www.dfrobot.com/product-1922.html>`__ in *FIRST* Tech Challenge, "
+"for teams that **already decided** to explore its potential."
+"msgstr """
+"これは、既に**探索を決定した**チーム向けに`HuskyLens "
+"<https://www.dfrobot.com/product-1922.html>`__ "
+"の使用方法を紹介する簡単なチュートリアルです。*FIRST* Tech Challengeにおいてその可能性を利用するためのものです。"
+
+#: ../../source/devices/huskylens/huskylens.rst:17
+msgid "HuskyLens"
+"msgstr "HuskyLens""
+
+#: ../../source/devices/huskylens/huskylens.rst:17
+msgid "DFRobot HuskyLens"
+"msgstr "DFRobot ハスキーレンス""
+
+#: ../../source/devices/huskylens/huskylens.rst:19
+msgid ""
+"Basic support for this **vision sensor** was added to the FTC SDK version "
+"9.0 in September 2023 with the CENTERSTAGE robot game kickoff."
+"msgstr """
+"この**ビジョンセンサー**に対する基本的なサポートは、CENTERSTAGEロボットゲームのキックオフと同時に2023年9月にFTC "
+"SDKバージョン9.0で追加されました。"
+
+#: ../../source/devices/huskylens/huskylens.rst:22
+msgid ""
+"HuskyLens uses **on-board programming** to perform AI-assisted learning, "
+"vision processing and recognition. It plugs into an **I2C sensor port** of a"
+" REV Control Hub or REV Expansion Hub."
+"msgstr """
+"HuskyLensは、**車載プログラミング**を使用してAI補助の学習、ビジョン処理および認識を実行します。REVコントロールハブまたはREVエクスパンションハブの**I2Cセンサーポート**に接続できます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:26
+msgid ""
+"HuskyLens is **not a USB webcam**, and **does not use** the FTC "
+":ref:`VisionPortal "
+"<apriltag/vision_portal/visionportal_overview/visionportal-"
+"overview:VisionPortal Overview>` software."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:31
+msgid "Electrical Connection"
+"msgstr "電気接続""
+
+#: ../../source/devices/huskylens/huskylens.rst:33
+msgid ""
+"You will need a **custom adapter cable** to connect the HuskyLens to an I2C "
+"port on a REV Control Hub or Expansion Hub. The 4 wires/pins of the "
+"HuskyLens connector are not in the same order/position as the 4 pins on the "
+"REV Hub."
+"msgstr """
+"REV Control HubやExpansion "
+"HubのI2CポートにHuskyLensを接続するには、**カスタムアダプターケーブル**が必要です。HuskyLensコネクタの4本のワイヤ/ピンは、REV"
+" Hubの4本のピンと同じ順序/位置ではありません。"
+
+#: ../../source/devices/huskylens/huskylens.rst:38
+msgid ""
+"Three of the wires have **the same color** as wires in the REV sensor cable."
+" Your custom cable should connect **red to red**, **black to black**, and "
+"**blue to blue**. This leaves only the HuskyLens **green wire**; connect it "
+"to the REV **white wire**. Simple!"
+"msgstr """
+"三本の線は、REVセンサーケーブル内の線と同じ**色**です。カスタムケーブルは、**赤を赤に**、**黒を黒に**、**青を青に**接続する必要があります。これで、フスキーレンスの**緑色の線**だけが残ります；それをREVの**白色の線**に接続してください。簡単です！"
+
+#: ../../source/devices/huskylens/huskylens.rst:43
+msgid "This tutorial does **not** cover the (many) ways to:"
+"msgstr "このチュートリアルでは、**(多くの)**方法についてはカバーしていません：""
+
+#: ../../source/devices/huskylens/huskylens.rst:45
+msgid "modify an existing cable (change pin order in one connector), **OR**"
+"msgstr "既存のケーブルを変更する（一つのコネクタ内のピン順序を変更）**、または**""
+
+#: ../../source/devices/huskylens/huskylens.rst:46
+msgid "fabricate a custom cable, with:"
+"msgstr "カスタムケーブルを作成するには、""
+
+#: ../../source/devices/huskylens/huskylens.rst:48
+msgid "soldering"
+"msgstr "溶接""
+
+#: ../../source/devices/huskylens/huskylens.rst:49
+msgid "crimped connectors"
+"msgstr "ねじったコネクタ""
+
+#: ../../source/devices/huskylens/huskylens.rst:50
+msgid "lever nuts (example below)"
+"msgstr "レバー式ナット (例下)""
+
+#: ../../source/devices/huskylens/huskylens.rst:52
+msgid ""
+"FTC Competition Manual allows this work, but teams must ensure high quality "
+"for robot competition all season."
+"msgstr """
+"FIRST Tech Challenge "
+"コンペティションマニュアルはこれに同意しますが、チームはロボットコンペティション全体を通じて高品質を確保する必要があります。"
+
+#: ../../source/devices/huskylens/huskylens.rst:60
+msgid "Wiring an Adapter"
+"msgstr "アダプターの配線""
+
+#: ../../source/devices/huskylens/huskylens.rst:60
+#: ../../source/devices/huskylens/huskylens.rst:83
+msgid "image credit: @texasdiaz"
+"msgstr "画像出典: @texasdiaz""
+
+#: ../../source/devices/huskylens/huskylens.rst:62
+msgid ""
+"To confirm these wiring instructions are correct, you could study the "
+"`HuskyLens documentation "
+"<https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_3>`__ "
+"and the `REV Hub documentation <https://docs.revrobotics.com/duo-"
+"control/sensors/i2c#wiring>`__. You will see the following “pinout” info:"
+"msgstr """
+"これらの配線手順が正しいことを確認するには、`HuskyLens ドキュメント "
+"<https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_3>`__ と "
+"`REV Hub ドキュメント <https://docs.revrobotics.com/duo-"
+"control/sensors/i2c#wiring>`__ を参照することができます。次のような “ピンアウト” の情報を見つけることができます："
+
+#: ../../source/devices/huskylens/huskylens.rst:69
+msgid ""
+"HuskyLens **green** wire 1 (“T”) SDA or data == REV Hub **white** wire 3 "
+"“SDA” or data"
+"msgstr """
+"HuskyLens の **緑** 色のワイヤー 1（“T”）SDA またはデータ ≒ REV ハブ の **白** 色のワイヤー 3 “SDA” "
+"またはデータ"
+
+#: ../../source/devices/huskylens/huskylens.rst:71
+msgid ""
+"HuskyLens **blue** wire 2 (“R”) SCL or clock == REV Hub **blue** wire 4 "
+"“SCL” or clock"
+"msgstr ""
+"HuskyLens **blue** wire 2 (“R”) SCL or clock == REV Hub **blue** wire 4 “SCL” or clock"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:73
+msgid ""
+"HuskyLens **black** wire 3 (“-”) GND or ground == REV Hub **black** wire 1 "
+"“GND” or ground"
+"msgstr """
+"HuskyLens の **黒** ワイヤー 3（“-”）GND もしくは接地 == REV ハブ の **黒** ワイヤー 1 “GND” "
+"もしくは接地"
+
+#: ../../source/devices/huskylens/huskylens.rst:75
+msgid ""
+"HuskyLens **red** wire 4 (“+”) VCC or +3.3-5VDC == REV Hub **red** wire 2 "
+"“3.3V” or Vcc"
+"msgstr """
+"HuskyLens **赤** ワイヤー 4（“+”）VCC または +3.3-5VDC == REV Hub **赤** ワイヤー 2 “3.3V” "
+"または Vcc"
+
+#: ../../source/devices/huskylens/huskylens.rst:83
+msgid "Ports"
+"msgstr "ポート""
+
+#: ../../source/devices/huskylens/huskylens.rst:86
+msgid "Configuration"
+"msgstr "設定""
+
+#: ../../source/devices/huskylens/huskylens.rst:88
+msgid ""
+"Plug the HuskyLens into a REV Hub I2C port, using your new adapter cable. "
+"The I2C connections labeled **Bus 1, 2 or 3** are suggested, to avoid "
+"(unlikely) overload of data traffic."
+"msgstr """
+"HuskyLensをREV "
+"HubのI2Cポートに接続し、新しいアダプターケーブルを使用して接続してください。データトラフィックの過負荷（予想外の）を避けるために、**バス1、2、または3**がラベル付けされたI2C接続を使用することをお勧めします。"
+
+#: ../../source/devices/huskylens/huskylens.rst:92
+msgid ""
+"The label 0 (zero) is I2C Bus 0, which likely has a **built-in IMU** on its "
+"Port 0. An I2C Bus can contain multiple I2C Ports, sharing traffic."
+"msgstr """
+"The label "
+"0（ゼロ）はI2Cバス0で、おそらくそのポート0に**内蔵IMU**が搭載されている可能性があります。I2Cバスには複数のI2Cポートが含まれていて、交通量を共有します。"
+
+#: ../../source/devices/huskylens/huskylens.rst:95
+msgid ""
+"On the Driver Station, touch the three-dots menu, and ``Configure Robot``."
+"msgstr "ドライバーステーションで、三本線アイコンをタッチし、「ロボット設定」を選択してください。""
+
+#: ../../source/devices/huskylens/huskylens.rst:98
+msgid ""
+"Edit an existing (correct) configuration, or touch ``New``. Touch ``Scan``, "
+"then navigate (through the Portal level) to the specific ``Expansion Hub`` "
+"or ``Control Hub`` with the HuskyLens plugged in."
+"msgstr """
+"既存の（正しい）設定を編集するか、新しいものを選択します。その後、「スキャン」をタッチし、HuskyLensが接続された特定の「拡張ハブ」または「コントロールハブ」に移動します。"
+
+#: ../../source/devices/huskylens/huskylens.rst:102
+msgid ""
+"Select ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged in."
+"msgstr "HuskyLensが接続されているバス番号を選択してください。例えば ``I2C バス 3`` や使用しているバス番号。""
+
+#: ../../source/devices/huskylens/huskylens.rst:110
+msgid "DS Config"
+"msgstr "ドライバーステーション設定""
+
+#: ../../source/devices/huskylens/huskylens.rst:110
+msgid "Driver Station Config"
+"msgstr "ドライバーステーション設定""
+
+#: ../../source/devices/huskylens/huskylens.rst:112
+msgid ""
+"Touch ``Add``, and select device “HuskyLens” from the drop-down list for "
+"Port 0 (or first available port). Type the device name “huskylens”, as "
+"expected by the Sample OpMode."
+"msgstr """
+"「Add」をタッチし、Port 0（または最初の利用可能なポート）からドロップダウンリストで“HuskyLens”を選択します。Sample "
+"OpMode が期待するようにデバイス名を “huskylens” とタイプします。"
+
+#: ../../source/devices/huskylens/huskylens.rst:116
+msgid ""
+"Touch ``Done`` several times, then ``Save``, to save and name/rename this "
+"updated robot configuration. Touch the DS “Back” arrow, returning to the DS "
+"app’s home screen."
+"msgstr """
+"「Done」を複数回タッチし、その後「Save」をタッチして更新したロボットの構成を保存および名前を変更します。「INIT」をタッチし、ドライバーステーションアプリケーションのホーム画面に戻ります。"
+
+#: ../../source/devices/huskylens/huskylens.rst:120
+msgid ""
+"Confirm that your new configuration is shown on-screen as the active "
+"configuration."
+"msgstr "新しい設定が有効な設定として画面に表示されていることを確認してください。""
+
+#: ../../source/devices/huskylens/huskylens.rst:124
+msgid "Sample OpMode"
+"msgstr "サンプルオペモード""
+
+#: ../../source/devices/huskylens/huskylens.rst:126
+msgid ""
+"Connect your programming computer to the Robot Controller, and open the "
+"programming software. This tutorial uses **FTC Blocks**."
+"msgstr """
+"プログラミングコンピュータをロボットコントROLLERに接続し、プログラミングソフトウェアを開きます。このチュートリアルでは、**FTCブロック**を使用します。"
+
+#: ../../source/devices/huskylens/huskylens.rst:130
+msgid ""
+"**OnBot Java** and **Android Studio** users can easily follow along, since "
+"the Java Sample OpMode uses the same programming logic and is well "
+"commented."
+"msgstr """
+"**OnBot Java** および **Android Studio** のユーザーは、Java "
+"サンプルオモードが同じプログラミングロジックを使用し、コメントも丁寧に付けられているため、簡単に追跡できます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:134
+msgid ""
+"In FTC Blocks, create a new OpMode using the sample called "
+"“SensorHuskyLens”:"
+"msgstr "FTCブロックで、“SensorHuskyLens”というサンプルを使用して新しいOpModeを作成してください：""
+
+#: ../../source/devices/huskylens/huskylens.rst:142
+msgid "Blocks Sample"
+"msgstr "ブロックサンプル""
+
+#: ../../source/devices/huskylens/huskylens.rst:142
+msgid "HuskyLens Blocks Sample"
+"msgstr "HuskyLens ブロックサンプル""
+
+#: ../../source/devices/huskylens/huskylens.rst:144
+msgid ""
+"Change the OpMode type from ``TeleOp`` to ``Autonomous``, since this sample "
+"does not use the gamepads."
+"msgstr "「TeleOp」から「Autonomous」にOpModeの種類を変更します。このサンプルではゲームパッドを使用していません。""
+
+#: ../../source/devices/huskylens/huskylens.rst:152
+msgid "Algorithm"
+"msgstr "アルゴリズム""
+
+#: ../../source/devices/huskylens/huskylens.rst:152
+msgid "HuskyLens Blocks Algorithm"
+"msgstr "HuskyLens ブロック アルゴリズム""
+
+#: ../../source/devices/huskylens/huskylens.rst:154
+msgid ""
+"Notice the default algorithm here is ``TAG_RECOGNITION``, which simply "
+"detects any (common) AprilTags in the sensor’s field of view. This "
+"recognition is unrelated to the FTC game CENTERSTAGE and its 10 AprilTags "
+"with metadata. Instead, this is a simple built-in, generic function of "
+"HuskyLens, used here only to validate the sensor’s operation."
+"msgstr """
+"ここでデフォルトのアルゴリズムは ``TAG_RECOGNITION`` "
+"です。これはセンサーが視野内に存在する（一般的な）AprilTagを単純に検出します。この認識はFIRST Tech Challenge (FTC) "
+"のゲームCENTERSTAGEとその10個のAprilTagおよびメタデータとは関係ありません。むしろ、これはHuskyLensのシンプルで汎用的な機能であり、ここではセンサーが正常に動作していることを確認するために使用されています。"
+
+#: ../../source/devices/huskylens/huskylens.rst:161
+msgid ""
+"For AprilTag recognition and navigation, FTC teams may find much more value "
+"from a UVC webcam and the FTC :ref:`VisionPortal "
+"<apriltag/vision_portal/visionportal_overview/visionportal-"
+"overview:VisionPortal Overview>` software. An FTC robot may use HuskyLens "
+"**and** USB webcams."
+"msgstr """
+"4月タグの認識とナビゲーションにおいて、FTCチームはUVCウェブカムとFIRST Tech Challenge (:ref:`VisionPortal"
+" <apriltag/vision_portal/visionportal_overview/visionportal-"
+"overview:VisionPortal Overview>`) "
+"ソフトウェアから多くの価値を見つけることができます。FTCロボットはHuskyLens **および** USBウェブカムを使用できます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:166
+msgid ""
+"Click ``Save OpMode``, then select and run this OpMode from the Driver "
+"Station. After touching the Start arrow, point the HuskyLens at any AprilTag"
+" from the common 36h11 family:"
+"msgstr """
+"「Save OpMode」をクリックしてから、Driver "
+"StationからこのOpModeを選択し実行してください。Start矢印にタッチした後、HuskyLensを共通の36h11ファミリーから任意のAprilTagに向けてください："
+
+#: ../../source/devices/huskylens/huskylens.rst:175
+msgid "Uncategorized Apriltag"
+"msgstr "未分類のApriltag""
+
+#: ../../source/devices/huskylens/huskylens.rst:175
+msgid "Uncategorized AprilTag Detected"
+"msgstr "分類未定のAprilTagが検出されました""
+
+#: ../../source/devices/huskylens/huskylens.rst:177
+msgid ""
+"The HuskyLens’ small screen will show the recognized AprilTag, surrounded by"
+" a thin white Bounding Box."
+"msgstr "HuskyLensの小さな画面には、認識されたAprilTagが薄い白いBounding Boxで囲まれて表示されます。""
+
+#: ../../source/devices/huskylens/huskylens.rst:180
+msgid "Here’s the corresponding DS Telemetry:"
+"msgstr "こちらが対応するドライバーステーションのテレメトリです：""
+
+#: ../../source/devices/huskylens/huskylens.rst:187
+msgid "DS AprilTag"
+"msgstr "ドライバーステーションAprilTag""
+
+#: ../../source/devices/huskylens/huskylens.rst:187
+msgid "AprilTag Telemetry"
+"msgstr "4月タグ伝送データ""
+
+#: ../../source/devices/huskylens/huskylens.rst:189
+msgid "The data includes:"
+"msgstr "データには次のものが含まれます：""
+
+#: ../../source/devices/huskylens/huskylens.rst:191
+msgid "number of objects (called “blocks”) detected"
+"msgstr "検出された物体の数（「ブロック」と呼ばれるもの）""
+
+#: ../../source/devices/huskylens/huskylens.rst:192
+msgid "ID code of object (might not be correct or meaningful)"
+"msgstr "オブジェクトのIDコード（正確でない場合もあります）""
+
+#: ../../source/devices/huskylens/huskylens.rst:193
+msgid "size of Bounding Box, in pixels"
+"msgstr "境界箱のサイズ、ピクセル単位""
+
+#: ../../source/devices/huskylens/huskylens.rst:194
+msgid ""
+"center position of Bounding Box, in pixels, with (X, Y) origin at the top "
+"left"
+"msgstr "Bounding Boxの中心位置、ピクセル単位で表し、原点(X, Y)は左上角です。""
+
+#: ../../source/devices/huskylens/huskylens.rst:196
+msgid ""
+"The HuskyLens device screen is 320 x 240 pixels, with center at position "
+"(160, 120)."
+"msgstr "HuskyLensデバイスの画面は320 x 240ピクセルで、中心位置は(160, 120)です。""
+
+#: ../../source/devices/huskylens/huskylens.rst:199
+msgid ""
+"**Congratulations!** At this point, you have validated the HuskyLens device,"
+" its connection to the REV Hub, and the Sample OpMode program."
+"msgstr """
+"**おめでとうございます！** ここまでは、HuskyLensデバイスの検証、REVハブとの接続、サンプルオモードプログラムを完了しました。"
+
+#: ../../source/devices/huskylens/huskylens.rst:203
+msgid "AprilTag Detection"
+"msgstr "AprilTag検出""
+
+#: ../../source/devices/huskylens/huskylens.rst:205
+msgid ""
+"Now you can test whether the HuskyLens can detect the AprilTag’s position on"
+" the CENTERSTAGE Spike Marks. This is not a real game scenario, since a Team"
+" Prop (Team Game Element) cannot use an AprilTag. This simply verifies "
+"whether your robot could aim the HuskyLens to “see” 2 or 3 Spike Marks in a "
+"single view."
+"msgstr """
+"現在、HuskyLensがCENTERSTAGE Spike "
+"Marksの位置を検出できるかどうかテストできます。これは実際のゲームシナリオではありません。チームプロップ（チームゲーム要素）はAprilTagを使用できませんからです。これにより、あなたのロボットが一度の視野で2つまたは3つのSpike"
+" Marksを見ることができるか確認できます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:216
+msgid "3 Tags"
+"msgstr "3 テイク""
+
+#: ../../source/devices/huskylens/huskylens.rst:216
+msgid "HuskyLens Viewing 3 Uncategorized Tags"
+"msgstr "HuskyLens の未分類タグ 3 件を見る""
+
+#: ../../source/devices/huskylens/huskylens.rst:218
+msgid ""
+"Here the HuskyLens was placed in a feasible position, about 10 inches from "
+"the mat, near the middle of the foam tile before the Spike-Mark tile. The "
+"view **does include** the middle of all three Spike Marks."
+"msgstr """
+"ここでは、HuskyLens "
+"をマットから約10インチ離れた位置に適切な場所に配置しました。泡沫タイルの中央にあるスパイクマークタイルの前にあります。視界は "
+"**すべてのスパイクマークの中央** を含んでいます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:222
+msgid "All three AprilTags were recognized:"
+"msgstr "すべてのAprilTagが認識されました：""
+
+#: ../../source/devices/huskylens/huskylens.rst:229
+msgid "3 Blocks"
+"msgstr "3 ブロック""
+
+#: ../../source/devices/huskylens/huskylens.rst:229
+msgid "Telemetry Showing 3 Blocks"
+"msgstr "テレメトリーで3つのブロックが表示中""
+
+#: ../../source/devices/huskylens/huskylens.rst:231
+msgid ""
+"This validates the possibility that HuskyLens could recognize a trained "
+"object in one of various known positions – useful for the Autonomous phase "
+"of the CENTERSTAGE game."
+"msgstr """
+"これは、HuskyLens が複数の既知位置のいずれかで訓練されたオブジェクトを認識する可能性があることを確認します。CENTERSTAGE "
+"ゲームの自律段階で有用です。"
+
+#: ../../source/devices/huskylens/huskylens.rst:236
+msgid "Single Color Training"
+"msgstr "単色トレーニング""
+
+#: ../../source/devices/huskylens/huskylens.rst:238
+msgid ""
+"Soon you will try a different algorithm called ``COLOR_RECOGNITION``. But "
+"first you need the HuskyLens to “learn” a single color, using its built-in "
+"AI feature."
+"msgstr """
+"不久後、異なるアルゴリズムである「COLOR_RECOGNITION」を試みるでしょう。しかし、最初にHuskyLensを使用して内置AI機能を利用して単一の色を“学習”する必要があります。"
+
+#: ../../source/devices/huskylens/huskylens.rst:242
+msgid ""
+"Choose any object, about 3 to 4 inches in size, that’s completely one color "
+"– any color. Here we use a flat square beverage coaster (LEGO!), with a "
+"uniform **red color**."
+"msgstr """
+"任意の物体を選択し、約3から4インチ程度の大きさで、完全に1色のもの – "
+"どんな色でも構いません。ここでは、均一な**赤色**を持つ平らな正方形の飲み物コ在游戏中使用します（LEGO!）。"
+
+#: ../../source/devices/huskylens/huskylens.rst:246
+msgid ""
+"Place this object in the position and lighting that you expect to use for "
+"detection. This could be on a CENTERSTAGE Spike Mark, if available."
+"msgstr """
+"このオブジェクトを検出時に使用する予想される位置と照明に配置します。利用可能であれば、CENTERSTAGE Spike Mark 上に配置できます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:254
+msgid "Red Color ID"
+"msgstr "赤色のColor ID""
+
+#: ../../source/devices/huskylens/huskylens.rst:256
+msgid ""
+"In the above image, the trained color is shown as **``Color:ID1``** with a "
+"rectangular Bounding Box. The following steps describe how to do this "
+"training."
+"msgstr """
+"上記の画像では、訓練された色は**``Color:ID1``**と矩形のバウンディングボックスで表示されています。以下の手順では、この訓練方法について説明します。"
+
+#: ../../source/devices/huskylens/huskylens.rst:260
+msgid ""
+"The **HuskyLens instructions** for learning a color are `posted online "
+"<https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__. "
+"You could try to follow those, or use the equivalent description here. Some "
+"practice may be required!"
+"msgstr ""
+"The **HuskyLens instructions** for learning a color are `posted online <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__. You could try to follow those, or use the equivalent description here. Some practice may be required!"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:265
+msgid ""
+"On the top of the HuskyLens, the wheel at the left side is called the "
+"**Function button** (actually a dial and button). At the right side is the "
+"small **Learning button**."
+"msgstr ""
+"On the top of the HuskyLens, the wheel at the left side is called the **Function button** (actually a dial and button). At the right side is the small **Learning button**."
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:269
+msgid ""
+"Dial the Function button to the right or left until **“Color Recognition”** "
+"is displayed at the bottom of the screen."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:272
+msgid ""
+"This is Step 1 only, under ``Operation and Setting`` of the HuskyLens "
+"instructions. For now, do not try to “learn” more than one color with Steps "
+"2-4."
+"msgstr """
+"これは「操作と設定」のホスキー Lens の手順におけるステップ 1 だけです。現時点では、ステップ 2 から 4 で 2 "
+"種類以上の色を「学習」しようとしないでください。"
+
+#: ../../source/devices/huskylens/huskylens.rst:276
+msgid ""
+"Point the plus-sign “+” icon in the center of the HuskyLens screen at your "
+"object’s main color area. A white frame appears on the screen, targeting the"
+" main color. Aim the HuskyLens so the white frame includes only the target "
+"color."
+"msgstr """
+"ホスキーレンスの画面中央にあるプラス記号 “+” "
+"アイコンを対象オブジェクトの主色領域に向けてください。画面に白い枠が表示され、主色がターゲットとなります。ホスキーレンスを調整して、白い枠内に目標色だけを入れるようにしてください。"
+
+#: ../../source/devices/huskylens/huskylens.rst:281
+msgid ""
+"This is Step 1 of ``Learning and Detection``. Next comes Step 2, Color "
+"Learning."
+"msgstr "これは「学習と検出」のステップ1です。次に続くのはステップ2、色学習です。""
+
+#: ../../source/devices/huskylens/huskylens.rst:284
+msgid ""
+"With the main color framed, **long press** (press and hold) the small "
+"**Learning button** (right side). A yellow frame is displayed on the screen,"
+" indicating that HuskyLens is learning the color. During this long press, "
+"move the HuskyLens while pointing at the color area, to let HuskyLens learn "
+"the color from various distances and angles. Then, release the Learning "
+"button to complete learning that color. Do not press the button again "
+"(ignore the prompt); allow the 5-second time-out to finish."
+"msgstr """
+"メインの色が枠で囲まれたら、右側にある「**Learningボタン**」（小さなボタン）を**長押し**します。画面に黄色い枠が表示され、HuskyLens"
+" が色を学習していることを示します。この長押し中に、色の領域に向けてHuskyLens "
+"を動かし、色からさまざまな距離や角度で学習させます。その後、「Learningボタン」を離して、その色の学習を完了させます。再度ボタンを押さない（警告メッセージは無視してください）で、5秒間のタイムアウトを待たせてください。"
+
+#: ../../source/devices/huskylens/huskylens.rst:293
+msgid ""
+"The long-press learning period can last for just a few seconds. After "
+"releasing the Learning button, you allowed the training to time-out – no "
+"more colors to learn. Training is done!"
+"msgstr "長押し学習期間は数秒で済むことがあります。学習ボタンを離した後、トレーニングはタイムアウトし、色の学習は終了しました。トレーニング完了！""
+
+#: ../../source/devices/huskylens/huskylens.rst:297
+msgid ""
+"As shown above, the trained color will be shown on-screen as "
+"**``Color:ID1``** with a rectangular Bounding Box. This “block” (of color) "
+"will be reported in the Sample OpMode (next step)."
+"msgstr """
+"上記のように、訓練された色はスクリーン上に「**Color:ID1**」というラベルとともに矩形のバウンディングボックスで表示されます。この“ブロック”（色）はサンプルオモード（次のステップ）で報告されます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:301
+msgid ""
+"If you want to do this over again, short-press the Learning button, then "
+"short-press again to **Forget** the learned color(s). This will make the "
+"plus-sign “+” icon appear again. Aim the plus-sign at the center of the "
+"color area, and repeat the learning (long-press the Learning button). "
+"Release and let the time-out finish."
+"msgstr """
+"もしまたやり直したい場合は、学習ボタンを短押ししてから再度短押しして「〇〇」に学習した色を**忘却**します。これによりプラス記号 “+” "
+"のアイコンが再び表示されます。プラス記号を色領域の中心に向けて、再度学習を行います（学習ボタンを長押し）。その後、押したままを解放し、タイムアウトを待つこと。"
+
+#: ../../source/devices/huskylens/huskylens.rst:307
+msgid ""
+"This section showed how to train a single color. After completing this "
+"tutorial, you may wish to train **two colors** (e.g. a Red shade and a Blue "
+"shade). This is described near the end of this tutorial."
+"msgstr """
+"このセクションでは、単一の色を訓練する方法について説明しました。このチュートリアルを終了した後は、**2つの色**（例えば赤みと青み）を訓練したいかもしれません。これは、このチュートリアルの末尾近くで説明されています。"
+
+#: ../../source/devices/huskylens/huskylens.rst:311
+msgid ""
+"HuskyLens documentation refers to the color zone as a “block” of color. This"
+" is not the same as a physical block or cube. HuskyLens uses the same word "
+"“block” for recognitions."
+"msgstr """
+"フスケレンのドキュメントでは、色領域を「ブロック」と呼びますが、これは物理的なブロックや立方体とは異なります。フスケレンは認識のために同じ単語「ブロック」を使用しています。"
+
+#: ../../source/devices/huskylens/huskylens.rst:315
+msgid "Note the official warning:"
+"msgstr "公式の警告に注意してください：""
+
+#: ../../source/devices/huskylens/huskylens.rst:318
+msgid ""
+"“Color recognition is greatly affected by ambient light. Sometimes HuskyLens"
+" may misidentify similar colors. Please try to keep the ambient light "
+"unchanged.”"
+"msgstr """
+"「色認識は周囲の光によって大きく影響されます。時々、HuskyLens は類似した色を誤识别することがあります。 Ambient Light "
+"を変更しないようにしてください。」"
+
+#: ../../source/devices/huskylens/huskylens.rst:323
+msgid "Single Color Detection"
+"msgstr "単色検出""
+
+#: ../../source/devices/huskylens/huskylens.rst:325
+msgid "Aim the HuskyLens at one or more of your color-trained objects."
+"msgstr "HuskyLens を1つ以上のお色目トレーニング済みのオブジェクトに向けます。""
+
+#: ../../source/devices/huskylens/huskylens.rst:332
+msgid "Two Red Objects"
+"msgstr "2つの赤いオブジェクト""
+
+#: ../../source/devices/huskylens/huskylens.rst:332
+msgid "HuskyLens Detecting Two Red Objects"
+"msgstr "HuskyLens が2つの赤い物体を検出しています""
+
+#: ../../source/devices/huskylens/huskylens.rst:334
+msgid ""
+"As shown above, the HuskyLens should recognize and label your colored "
+"objects with **``Color:ID1``**. Here, both red objects are identified "
+"(yellow arrows)."
+"msgstr """
+"上記のように、HuskyLens "
+"は色付きの物体を認識し、「**Color:ID1**」でラベル付けするべきです。ここでは、両方の赤い物体が識別されています（黄色い矢印）。"
+
+#: ../../source/devices/huskylens/huskylens.rst:338
+msgid ""
+"In the programming software (same OpMode), now select a different algorithm "
+"called ``COLOR_RECOGNITION``:"
+"msgstr "プログラミングソフトウェア（同じOpMode）で、異なるアルゴリズム「COLOR_RECOGNITION」を選択してください：""
+
+#: ../../source/devices/huskylens/huskylens.rst:346
+msgid "COLOR_RECOGNITION algorithm"
+"msgstr "色認識アルゴリズム""
+
+#: ../../source/devices/huskylens/huskylens.rst:346
+msgid "Selecting COLOR_RECOGNITION algorithm"
+"msgstr "COLOR_RECOGNITION アルゴリズムを選択""
+
+#: ../../source/devices/huskylens/huskylens.rst:348
+msgid "In the Java sample OpMode, change the algorithm selection as follows:"
+"msgstr "JavaサンプルOpModeでは、アルゴリズム選択を次のように変更してください：""
+
+#: ../../source/devices/huskylens/huskylens.rst:354
+msgid ""
+"Save this OpMode, then select and run it on the Driver Station. Make sure "
+"the active configuration includes the HuskyLens."
+"msgstr """
+"このOpModeを保存し、ドライバーステーション上で選択して実行します。確実にアクティブな構成にHuskyLensが含まれていることを確認してください。"
+
+#: ../../source/devices/huskylens/huskylens.rst:362
+msgid "DS Telemetry Two Objects"
+"msgstr "ドライバーステーション テレメトリー 2つのオブジェクト""
+
+#: ../../source/devices/huskylens/huskylens.rst:364
+msgid ""
+"As shown above, the OpMode provides the size and location of the white "
+"Bounding Boxes (called “blocks”). This is done in a **FOR loop**; multiple "
+"recognitions are processed one at at time."
+"msgstr ""
+"上記の図に示されるように、OpMode は白いBounding Boxes（「ブロック」と呼ばれる）のサイズと位置を提供します。これは **FOR loop** を使用して行われ、複数の recognitions は一度ずつ処理されます。"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:368
+msgid ""
+"In the Java sample OpMode, **inside the FOR loop**, you could save or "
+"evaluate **specific** info for the currently recognized Bounding Box: "
+"``blocks[i].width``, ``blocks[i].height``, ``blocks[i].left``, "
+"``blocks[i].top``, and (for the Box’s center) ``blocks[i].x`` and "
+"``blocks[i].y``. The Color ID ``blocks[i].id`` is always 1 here, for single-"
+"color detection. These values have Java type ``int``."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:375
+msgid ""
+"Even if your Team Prop’s color closely matches the color of the red or blue "
+"Spike Mark, you could write OpMode code to reject the narrow shape (aspect "
+"ratio) of an empty Spike Mark’s Bounding Box."
+"msgstr ""
+"チームプロップの色が赤スパイクマークや青スパイクマークの色と非常に近い場合でも、空のスパイクマークのバウンディングボックスの細長い形状（アスペクト比）を拒否するオペレーションモードコードを書くことができます。"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:379
+msgid "Here’s an example with a trained **blue object**:"
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:386
+msgid "Two Blue Objects"
+"msgstr "2つのブルー対象""
+
+#: ../../source/devices/huskylens/huskylens.rst:386
+msgid "HuskyLens Two Blue Objects"
+"msgstr "HuskyLens 2つのブルー物体""
+
+#: ../../source/devices/huskylens/huskylens.rst:388
+msgid "Both blue objects were recognized by the OpMode:"
+"msgstr "両方の青色オブジェクトがOpModeで認識されました：""
+
+#: ../../source/devices/huskylens/huskylens.rst:395
+msgid "DS Two Blue Objects"
+"msgstr "ドライバーステーションで2つの青いオブジェクト""
+
+#: ../../source/devices/huskylens/huskylens.rst:395
+msgid "Telemetry for Two Blue Objects"
+"msgstr "2つのブルー対象のテレメトリー""
+
+#: ../../source/devices/huskylens/huskylens.rst:397
+msgid ""
+"Again, your code can evaluate the size and location of any provided Bounding"
+" Box, to verify a “real” recognition of your object."
+"msgstr "また、あなたのコードは任意に提供されたバウンディングボックスのサイズと位置を評価し、「実質的な」オブジェクト認識を確認することができます。""
+
+#: ../../source/devices/huskylens/huskylens.rst:401
+msgid "Competition Notes"
+"msgstr "競技ノート""
+
+#: ../../source/devices/huskylens/huskylens.rst:404
+msgid "1. Team Prop"
+"msgstr "1. チームプロップ""
+
+#: ../../source/devices/huskylens/huskylens.rst:406
+msgid ""
+"Now you are ready to experiment with color recognition of an actual Team "
+"Prop, also called a Team Game Element. Study the Competition Manual and the "
+"`FTC Q&A <https://ftc-qa.firstinspires.org/>`__ for the Team Prop "
+"requirements. Choose your shades of “red” and “blue” (see note below), and "
+"follow the same steps as above."
+"msgstr """
+"今や TEAM PROPS の実際の色認識を Experiment する準備が整いました。TEAM GAME ELEMENT "
+"とも呼ばれます。競技マニュアルと `FTC Q&A <https://ftc-qa.firstinspires.org/>`__ を参照し、TEAM "
+"PROPS の要件を研究してください。赤と青のトーン（以下に注釈があります）を選択し、先ほどと同じ手順を進めてください。"
+
+#: ../../source/devices/huskylens/huskylens.rst:413
+msgid "2. Color"
+"msgstr "2. 色""
+
+#: ../../source/devices/huskylens/huskylens.rst:415
+msgid ""
+"The above trained **blue object** is not the same shade of blue as the blue "
+"Spike Mark. This difference increases the chance of a distinct and correct "
+"recognition of the object color."
+"msgstr """
+"上記で訓練された**青い物体**は、青いスパイクマークと同色ではありません。この違いにより、物体の色を正確かつ明確に認識する機会が増加します。"
+
+#: ../../source/devices/huskylens/huskylens.rst:419
+msgid ""
+"In this game, the Competition Manual specifically allowed the Team Prop to "
+"be a different shade of Red or Blue, compared to the official tape color of "
+"Spike Marks."
+"msgstr "このゲームでは、競技マニュアルはチームプロップがスパイクマークの公式テープ色と異なる赤や青の濃さであることを特別に許可していました。""
+
+#: ../../source/devices/huskylens/huskylens.rst:424
+msgid "3. Lighting"
+"msgstr "3. 照明""
+
+#: ../../source/devices/huskylens/huskylens.rst:426
+msgid ""
+"The HuskyLens documentation provides a warning (shown above) that ambient "
+"lighting can impact recognition of a trained color."
+"msgstr "HuskyLensのドキュメントには、周囲の明るさが訓練された色の認識に影響を及ぼす可能性があるという警告（上記に表示）が含まれています。""
+
+#: ../../source/devices/huskylens/huskylens.rst:429
+msgid ""
+"For this reason, competition training should ideally be done with the Team "
+"Prop (Team Game Element) on the Spike Mark, and the HuskyLens in its planned"
+" match start position, “on-robot”."
+"msgstr """
+"このため、競技トレーニングはIdeallyスパイクマーク（Spike Mark）上のチームプロップ（Team "
+"Prop）と、計画されたマッチ開始位置である「ロボット上」に設置したHuskyLensを使用して行うことが望ましいです。"
+
+#: ../../source/devices/huskylens/huskylens.rst:433
+msgid ""
+"Also, the trained ambient lighting must be similar to expected match "
+"conditions. This may suggest performing the final color-training as part of "
+"tournament or match set-up. With practice, it could be done in a few "
+"seconds."
+"msgstr """
+"また、訓練用の周囲照明は試合条件に類似している必要があります。これは、トーナメントや試合設定の一環として最終的な色訓練を実施することを意味するかもしれません。練習を重ねることで、数秒で完了させることができます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:439
+msgid "4. Programming"
+"msgstr "4. プログラミング""
+
+#: ../../source/devices/huskylens/huskylens.rst:441
+msgid ""
+"In this Sample OpMode, the main loop ends only upon touching the DS Stop "
+"button. For competition, teams should **modify this code** in at least two "
+"ways:"
+"msgstr """
+"このサンプルオモードでは、メインループはDS停止ボタンを押すまで終了しません。競技会では、チームはこのコードを少なくとも2つの方法で**修正**する必要があります："
+
+#: ../../source/devices/huskylens/huskylens.rst:445
+msgid ""
+"for a significant recognition, take action or store key information – inside"
+" the FOR loop"
+"msgstr "重要な認識を得たり、行動を起こすかキー情報を保存する場合は、FOR ループ内に処理を行ってください""
+
+#: ../../source/devices/huskylens/huskylens.rst:448
+msgid "end the main loop based on your criteria, to continue the OpMode"
+"msgstr "あなたの基準に基づいてメインループを終了し、OpModeを継続します。""
+
+#: ../../source/devices/huskylens/huskylens.rst:450
+msgid ""
+"As an example, you might set a Boolean variable ``isPropDetected`` to "
+"``true``, if a significant recognition has occurred."
+"msgstr "例えば、重要な認識が発生した場合、「isPropDetected」というブーリアン変数を「True」と設定するかもしれません。""
+
+#: ../../source/devices/huskylens/huskylens.rst:453
+msgid ""
+"You might also evaluate and store which randomized Spike Mark (red or blue "
+"tape stripe) holds the Team Prop."
+"msgstr "チームプロップを保持しているランダム化されたスパイクマーク（赤い帯または青い帯）も評価し、保存するかもしれません。""
+
+#: ../../source/devices/huskylens/huskylens.rst:456
+msgid ""
+"Regarding the main loop, it could end after the HuskyLens views all three "
+"Spike Marks, or after your code provides a high-confidence result. If the "
+"HuskyLens’ view includes more than one Spike Mark position, perhaps the "
+"**Bounding Box** size(s) and location(s) could be useful. Teams should "
+"consider how long to seek an acceptable recognition, and what to do "
+"otherwise."
+"msgstr """
+"メインループについては、HuskyLensがすべての3つのスパイクマークを確認した後で終了するか、またはあなたのコードが高信頼度の結果を提供した後に終了するかもしれません。もしHuskyLensの視界に2つ以上のスパイクマーク位置が含まれている場合は、**バウンディングボックス**"
+" "
+"のサイズや位置も役立つかもしれません。チームは適切な認識を得るまでの時間をどのように設定するかを考えるべきで、それ以外の場合には何をすべきかを検討する必要があります。"
+
+#: ../../source/devices/huskylens/huskylens.rst:463
+msgid ""
+"In any case, the OpMode should exit the main loop and continue running, "
+"using any stored information."
+"msgstr ""
+"In any case, the OpMode should exit the main loop and continue running, using any stored information."
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:467
+msgid "Multi-Color Training"
+"msgstr "多色トレーニング""
+
+#: ../../source/devices/huskylens/huskylens.rst:469
+msgid ""
+"After completing the above tutorial with a single trained color, you may "
+"wish to train **two colors** (e.g. a Red shade and a Blue shade)."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:472
+msgid ""
+"This would avoid the need for multiple color-training sessions during an FTC"
+" tournament. With single-color, you would train for Red before playing an "
+"FTC match as Red Alliance, and train for Blue before playing as Blue "
+"Alliance."
+"msgstr """
+"これにより、FTCトーナメント中に複数回の色訓練セッションを必要とすることはありません。単色の場合、レッドアライアンスとしてマッチに臨む前にレッド色で訓練し、ブルーアライアンスとしてマッチに臨む前に"
+" BLUE 色で訓練します。"
+
+#: ../../source/devices/huskylens/huskylens.rst:477
+msgid ""
+"With multi-color, your Red-Alliance Autonomous OpMode could seek Red as "
+"**``Color:ID1``**, for example, and your Blue-Alliance Autonomous OpMode "
+"could seek Blue as **``Color:ID2``**."
+"msgstr """
+"多色を使用すると、赤連盟の自動運転モードは「**Color:ID1**」として赤を探し、\"\n"
+"\"青連盟の自動運転モードは「**Color:ID2**」として青を探せます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:481
+msgid ""
+"The **HuskyLens instructions** for learning multiple colors are `posted "
+"online "
+"<https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__. "
+"You could try to follow those, or use the equivalent description here. "
+"Again, some practice may be required!"
+"msgstr ""
+"The **HuskyLens instructions** for learning multiple colors are `posted online <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__. You could try to follow those, or use the equivalent description here. Again, some practice may be required!"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:486
+msgid ""
+"Reminder: on the top of the HuskyLens, the wheel at the left side is called "
+"the **Function button** (actually a dial and button). At the right side is "
+"the small **Learning button**."
+"msgstr ""
+"Reminder: HuskyLens の上部に、左側の輪は **Function button**（実際にはダイアルとボタン）として呼ばれます。右側には小さな **Learning button** があります。"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:490
+msgid ""
+"**Step 1.** Dial the Function button to the right or left until **“Color "
+"Recognition”** is displayed at the bottom of the screen."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:493
+msgid ""
+"**Long press** (press and hold) the Function button to select Color "
+"Recognition."
+"msgstr "**長押し**（押し続けて）「Function」ボタンを押して「Color Recognition」を選択します。""
+
+#: ../../source/devices/huskylens/huskylens.rst:496
+msgid ""
+"**Step 2.** This brings up the next menu, containing the choice “Learn "
+"Multiple”. If needed, dial the Function button to highlight “Learn "
+"Multiple”."
+"msgstr """
+"**ステップ2。** "
+"次のメニューが表示されます。その中から「複数学習」を選択できます。必要であれば、機能ボタンを回転させて「複数学習」をハイライトします。"
+
+#: ../../source/devices/huskylens/huskylens.rst:500
+msgid ""
+"**Short press** (press and release) the Function button to select Learn "
+"Multiple."
+"msgstr "**短押し**（長押しせずに押してから離す）Functionボタンを押してLearn Multipleを選択します。""
+
+#: ../../source/devices/huskylens/huskylens.rst:503
+msgid ""
+"This brings up the OFF-ON slider bar for “Learn Multiple”. If needed, dial "
+"the Function Button to move the blue square to the **right side** of the "
+"blue slider bar. See yellow arrow:"
+"msgstr """
+"これは“複数学習”のOFF-"
+"ONスライダーを表示します。必要に応じて、機能ボタンを回転させ、青い正方形を青いスライダーの**右側**まで移動させます。黄色矢印をご覧ください："
+
+#: ../../source/devices/huskylens/huskylens.rst:512
+msgid "Learn Multiple"
+"msgstr ""
+"Learn Multiple"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:512
+msgid "HuskyLens - Learn Multiple"
+"msgstr "HuskyLens - 複数の学習""
+
+#: ../../source/devices/huskylens/huskylens.rst:514
+msgid "**Short press** the Function button to set “Learn Multiple” to **ON**."
+"msgstr "短押し**INIT**ボタンを押すと、“Learn Multiple”を**ON**に設定します。""
+
+#: ../../source/devices/huskylens/huskylens.rst:516
+msgid ""
+"**Step 3.** Dial the Function button to the left, and **short press** to "
+"select “Save & Return”."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:519
+msgid ""
+"At the screen prompt “Do you want to save the parameters?” or “Do you save "
+"data?”, **short press** the Function button to select “Yes”. This saves the "
+"mode (again) as “Learn Multiple” and exits the settings menu."
+"msgstr """
+"画面に「パラメータを保存しますか？」または「データを保存しますか？」と表示された場合、**短押し**で「はい」を選択します。これによりモード（再度）が「複数学習」に保存され、設定メニューから退出します。"
+
+#: ../../source/devices/huskylens/huskylens.rst:523
+msgid "Now ready for learning!"
+"msgstr ""
+"Now ready for learning!"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:525
+msgid ""
+"**Step 4.** As before, point the plus-sign “+” icon in the center of the "
+"HuskyLens screen at your object’s main color area. A **white frame** appears"
+" on the screen, targeting the main color. Aim the HuskyLens so the white "
+"frame includes only the target color."
+"msgstr """
+"**ステップ4。** "
+"以前と同じように、HuskyLensの画面中央にあるプラス記号“+”アイコンを対象オブジェクトの主色領域に向けてください。スクリーンに**白い枠**が表示され、主色をターゲットにします。HuskyLensを調整し、白い枠内に目標色のみが含まれるようにしてください。"
+
+#: ../../source/devices/huskylens/huskylens.rst:530
+msgid ""
+"With the main color framed, **long press** (press and hold) the small "
+"**Learning button** (right side). A **yellow frame** appears on the screen, "
+"indicating that HuskyLens is learning the color."
+"msgstr ""
+"With the main color framed, **長押し** (押して保持する) the small **学習ボタン** (右側)。画面に**黄色い枠**が表示され、HuskyLens が色を学習していることを示します。"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:534
+msgid ""
+"During this long press, move the HuskyLens while pointing at the color area,"
+" to let HuskyLens learn the color from various distances and angles. Then, "
+"release the Learning button to complete learning that color."
+"msgstr """
+"この長押し期間中、色領域に向けてHuskyLensを動かし、さまざまな距離や角度から色を学習させます。その後、学習ボタンを離してその色の学習を完了します。"
+
+#: ../../source/devices/huskylens/huskylens.rst:539
+msgid ""
+"The long-press learning period can last for just a few seconds. After "
+"releasing the Learning button, **``Color:ID1``** is now trained, with its "
+"label shown on-screen. Easy!"
+"msgstr ""
+"長押し学習期間は数秒で済むことがあります。Learningボタンを離すと、**``Color:ID1``** は訓練が完了し、画面にラベルが表示されます。簡単です！"
+""
+"長押し学習期間は数秒で済むことがあります。Learningボタンを離した後、「**Color:ID1**」が訓練され、そのラベルが画面に表示されます。簡単です！"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:548
+msgid "RED Color 1 Trained"
+"msgstr "レッド色1トレーニング""
+
+#: ../../source/devices/huskylens/huskylens.rst:548
+msgid "HuskyLens - RED (Color 1) Trained"
+"msgstr ""
+"HuskyLens - RED (Color 1) Trained"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:550
+msgid ""
+"**Step 5.** As prompted on the screen, **short press** the Learning button "
+"again (before the 5-second time-out). This prepares for learning the next "
+"color."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:554
+msgid ""
+"**Step 6.** Point the lens at your second color, and repeat the previous "
+"Step 4. Namely, **long press** the Learning button, aim and move, then "
+"**release** to complete learning that color."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:558
+msgid "Now **``Color:ID2``** is trained, with its label shown on-screen."
+"msgstr "今、**``Color:ID2``** は訓練が完了し、そのラベルは画面に表示されています。""
+
+#: ../../source/devices/huskylens/huskylens.rst:560
+msgid ""
+"**Step 7.** As prompted, **short press** the “other” button, the Function "
+"button. Or, allow the 5-second time-out to complete. In either case, this "
+"completes the multi-color training. All done!"
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:569
+msgid "Two Colors Trained"
+"msgstr "2色トレーニング""
+
+#: ../../source/devices/huskylens/huskylens.rst:569
+msgid "HuskyLens - Two Colors Trained (ID1 and ID2)"
+"msgstr "HuskyLens - 2色学習済み（ID1とID2）""
+
+#: ../../source/devices/huskylens/huskylens.rst:571
+msgid ""
+"If you want to do all this **over again**, short-press the Learning button, "
+"then (as prompted) short-press again to **``Forget`` all of the learned "
+"colors**."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:575
+msgid ""
+"This makes the plus-sign “+” icon appear again. Repeat the above, from Step "
+"4, to train colors again."
+"msgstr "これにより、プラス記号“+”のアイコンが再度表示されます。上記の手順から第4段階までを繰り返し、色を再訓練します。""
+
+#: ../../source/devices/huskylens/huskylens.rst:579
+msgid "Multi-Color Detection"
+"msgstr "多色検出""
+
+#: ../../source/devices/huskylens/huskylens.rst:581
+msgid ""
+"For your OpMode code to read **``Color:ID2``**, for example, the Algorithm "
+"must be set to ``COLOR_RECOGNITION`` and the field ``HuskyLens.Block.id`` "
+"will be **the value 2**. This can be seen in the Telemetry portion of the "
+"Sample OpMode you used above."
+"msgstr """
+"あなたのOpModeコードが**``Color:ID2``**を読み取るためには、アルゴリズムは``COLOR_RECOGNITION``に設定する必要があります。また、フィールド``HuskyLens.Block.id``の値は**2**になります。これについては、先ほど使用したサンプルOpModeのテレメトリ部分で確認できます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:591
+msgid "Color Detection Blocks"
+"msgstr "色検出ブロック""
+
+#: ../../source/devices/huskylens/huskylens.rst:591
+msgid "Adding Telemetry for Colors"
+"msgstr ""
+"色のテレメトリ追加"
+""
+
+#: ../../source/devices/huskylens/huskylens.rst:593
+msgid ""
+"Here’s the DS Telemetry from the Sample OpMode used above for single color, "
+"**with no coding changes**:"
+"msgstr "ここに上記の単色用のSample OpModeから取得したドライバーステーションの遥测データがあります。**コード変更なし**：""
+
+#: ../../source/devices/huskylens/huskylens.rst:601
+msgid "2 Color Telemetry"
+"msgstr "2色テレメトリー""
+
+#: ../../source/devices/huskylens/huskylens.rst:601
+msgid "Example Telemetry showing Both Colors"
+"msgstr "両方の色が表示された例的なテレメトリー""
+
+#: ../../source/devices/huskylens/huskylens.rst:603
+msgid ""
+"Now there are two trained and recognized colors, with ID Codes 1 and 2 – see"
+" yellow arrow above."
+"msgstr "現在、IDコード1とIDコード2で訓練され認識された2つの色があります – 上の黄色い矢印をご覧ください。""
+
+#: ../../source/devices/huskylens/huskylens.rst:606
+msgid ""
+"These two lines of Telemetry are generated in different cycles of the same "
+"FOR Loop. They display together, since the ``Telemetry.update`` Block "
+"appears **after** the FOR Loop has completed all of its cycles. Namely, the "
+"FOR Loop has processed each HuskyLens “color block” in the ``List`` of "
+"HuskyLens “blocks”."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:612
+msgid "In the Java sample OpMode, add these lines **inside the FOR loop**:"
+"msgstr "JavaサンプルOpModeでは、FORループの**中で**次の行を追加します：""
+
+#: ../../source/devices/huskylens/huskylens.rst:619
+msgid ""
+"Besides ``.id``, other Java fields are available for the currently "
+"recognized Bounding Box: ``.width``, ``.height``, ``.left``, ``.top``, plus "
+"``.x`` and ``.y`` (center location)."
+"msgstr """
+"Besides ``.id`` 以外、現在認識されているBounding "
+"Boxには以下のJavaフィールドが利用可能です：``.width``（幅）、``.height``（高さ）、``.left``（左端位置）、``.top``（上端位置），そして``.x``と``.y``（中心位置）。"
+
+#: ../../source/devices/huskylens/huskylens.rst:623
+msgid ""
+"The color ID numbers are assigned **in order of training**. You cannot "
+"renumber these later, so plan your training and OpMode coding to agree with "
+"each other."
+"msgstr """
+"色ID番号は**トレーニングの順序**で割り当てられます。後から再割り当てすることはできませんので、トレーニングとOpModeのコーディングを一致させるように計画してください。"
+
+#: ../../source/devices/huskylens/huskylens.rst:628
+msgid ""
+"**Advanced tip:** If your color recognition is heavily affected by ambient "
+"lighting, you could try training your object in various lighting conditions "
+"**as different HuskyLens colors**. Namely, the Red-shade Team Prop could be "
+"trained as **``Color:ID1``** in bright light, and trained as "
+"**``Color:ID2``** in dim light or shadow. Your OpMode could accept "
+"**either** Color ID (1 or 2) as “Red”. Likewise, Blue shades could have "
+"Color IDs 3 and 4."
+"msgstr """
+"**高度なヒント:** "
+"周囲の照明が色認識に大きく影響する場合、**異なるHuskyLensの色**として各種照明条件でオブジェクトを訓練することができます。例えば、明るい光ではRed-"
+"shade Team "
+"Propは**「Color:ID1」**として訓練され、暗い光や影では**「Color:ID2」**として訓練されます。あなたのOpModeは「赤」として**どちらのColor"
+" ID（1または2）**も受け入れることができます。同様に、青色もColor ID 3と4を持つことができます。"
+
+#: ../../source/devices/huskylens/huskylens.rst:637
+msgid "Object Training"
+"msgstr "オブジェクトトレーニング""
+
+#: ../../source/devices/huskylens/huskylens.rst:639
+msgid ""
+"This tutorial ends with HuskyLens **color training**. Now you are familiar "
+"with the basic steps for HuskyLens operation, training, and FTC programming."
+"msgstr """
+"このチュートリアルでは、HuskyLens の **色トレーニング** で終わります。現在、HuskyLens の基本操作手順、トレーニング方法、および"
+" FIRST Tech Challenge (FTC) プログラミングについて Familiar です。"
+
+#: ../../source/devices/huskylens/huskylens.rst:643
+msgid ""
+"You are encouraged to proceed with training the HuskyLens to recognize an "
+"**actual object**. This could be one of its 20 pre-trained models (“Object "
+"Recognition”) or a **custom model or image** that you train (“Object "
+"Classification”). In each case, follow a process similar to color training, "
+"using the `HuskyLens documentation "
+"<https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336>`__."
+"msgstr """
+
+#: ../../source/devices/huskylens/huskylens.rst:650
+msgid ""
+"You may find that HuskyLens **object recognition** provides more "
+"(educational) exposure to the process of AI and Machine Learning, along with"
+" more reliable results than color recognition."
+"msgstr """
+"HuskyLens の **オブジェクト認識** "
+"は、AIおよび機械学習のプロセスに対するより多くの（教育的な）理解を提供し、色認識よりもより信頼性の高い結果も得られる可能性があります。"
+
+#: ../../source/devices/huskylens/huskylens.rst:654
+msgid "Best of luck this season!"
+"msgstr "このシーズン、運良くお Playoff に進むことを願っています！""
+
+#: ../../source/devices/huskylens/huskylens.rst:658
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+"msgstr "質問、ご意見や訂正は westsiderobotics@verizon.net までお願いします。""

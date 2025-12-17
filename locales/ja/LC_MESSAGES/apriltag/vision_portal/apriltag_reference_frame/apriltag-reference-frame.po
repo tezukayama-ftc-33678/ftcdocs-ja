@@ -12,46 +12,46 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:2
 msgid "AprilTag Reference Frame"
-msgstr ""
+msgstr "AprilTag 参照フレーム"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "紹介"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:7
 msgid ""
-"Before discussing AprilTag **pose** (at the next page), the **FTC axes** "
-"or reference frame must be described.  Pose data is based on the "
-"**camera's point of view**, and requires a **flat AprilTag**."
+"Before discussing AprilTag **pose** (at the next page), the **FTC axes** or "
+"reference frame must be described.  Pose data is based on the **camera's "
+"point of view**, and requires a **flat AprilTag**."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:11
 msgid "Here are the axis designations in the new SDK:"
-msgstr ""
+msgstr "新しいSDKでの軸の指定は以下の通りです："
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:13
 msgid "Y axis points **straight outward** from the camera lens center"
-msgstr ""
+msgstr "Y軸はカメラレンズの中心から**直線的に外向き**に指向します"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:14
 msgid ""
 "X axis points **to the right** (looking outward), perpendicular to the Y "
 "axis"
-msgstr ""
+msgstr "x軸は右側**に**向いています（外側から見ると），y軸と直交しています"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:15
 msgid "Z axis points **upward**, perpendicular to Y and X"
-msgstr ""
+msgstr "Z軸は**上向き**に指向し、Y軸とX軸に垂直です"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:18
 msgid ""
@@ -59,17 +59,22 @@ msgid ""
 "these axes are consistent with the Robot Coordinate System used for "
 ":ref:`IMU navigation <programming_resources/imu/imu:axes definition>`"
 msgstr ""
+"注 1: カメラが垂直に設置され、ロボットの前方を向いている場合、これらの軸は :ref:`IMUナビゲーション "
+"<programming_resources/imu/imu:axes definition>` で使用されるロボット座標系と一致します"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:23
 msgid ""
 "Note 2: these axes are different than the official `AprilTag definitions "
-"<https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-Guide"
-"#coordinate-system>`__, even from the camera's frame of reference."
+"<https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-"
+"Guide#coordinate-system>`__, even from the camera's frame of reference."
 msgstr ""
+"注意：これらの軸は、公式の`AprilTag定義 "
+"<https://github.com/AprilRobotics/apriltag/wiki/AprilTag-User-"
+"Guide#coordinate-system>`__ とは異なります。カメラの観測フレームから見ても同じです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:28
 msgid "Translation Offset"
-msgstr ""
+msgstr "翻訳オフセット"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:30
 msgid ""
@@ -77,122 +82,139 @@ msgid ""
 "center is described in that reference frame as (X, Y, Z) position, also "
 "called displacement or translation."
 msgstr ""
+"もしAprilTagがカメラの視野内に検出された場合、そのタグの中心はその参照フレームにおいて(X, Y, "
+"Z)位置として記述され、これは移動または平移と呼ばれます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:34
 msgid ""
 "This is illustrated with a camera preview image, called LiveView, from a "
 "Robot Controller device (Control Hub or RC phone)."
 msgstr ""
+"これは、Robot Controller デバイス（Control Hub や RC 電話）から取得したカメラのプレビュー画像、LiveView "
+"で示されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:42
 msgid "LiveView Offsets"
-msgstr ""
+msgstr "ライブビューのオフセット"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:42
 msgid "Image depicting LiveView offsets"
-msgstr ""
+msgstr "LiveViewオフセットを示す画像"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:44
 msgid ""
-"Imagine a laser beam pointing straight outward from the center of the "
-"camera lens.  Its 3-dimensional path appears (to the camera) as a single "
-"point, located at the **green star**.  You can see that the center of the"
-" AprilTag (**yellow star**) is offset from that \"laser beam\"."
+"Imagine a laser beam pointing straight outward from the center of the camera"
+" lens.  Its 3-dimensional path appears (to the camera) as a single point, "
+"located at the **green star**.  You can see that the center of the AprilTag "
+"(**yellow star**) is offset from that \"laser beam\"."
 msgstr ""
+"カメラレンズの中心から一直線に外へと向いているレーザービームを想像してください。その3次元的な経路は（カメラにとって）単なる一点として見え、それが**緑色の星**に位置しています。そこで「レーザービーム」という点からアプライドタグの中心"
+" (**黄色い星**) がずれていることが確認できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:49
 msgid ""
-"That **translation offset** can break down into three traditional "
-"components (X, Y and Z distances), along axes at 90 degrees to each "
-"other:"
-msgstr ""
+"That **translation offset** can break down into three traditional components"
+" (X, Y and Z distances), along axes at 90 degrees to each other:"
+msgstr "その**翻訳オフセット**は、互いに直角に配置された3つの伝統的な成分（X軸距離、Y軸距離、Z軸距離）に分解される可能性があります："
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:52
 msgid "X distance (horizontal orange line) is from the center, to the right"
-msgstr ""
+msgstr "X距離（中央から右側までの水平オレンジ線）は中心から測定します"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:53
 msgid "Y distance (not shown) is from the lens center, outwards"
-msgstr ""
+msgstr "レンズの中心から外側に測定されたY距離（表示されていません）"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:54
 msgid "Z distance (vertical orange line) is from the center, upwards"
-msgstr ""
+msgstr "Z距離（中央から上に向かって垂直のオレンジ色の線）は、中心から上に測定します"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:56
 msgid ""
-"The SDK provides these distances **in the real world**, not just "
-"reporting how many pixels on the screen.  The **distance units** are "
-"specified in each tag's Metadata (default is **inches**)."
+"The SDK provides these distances **in the real world**, not just reporting "
+"how many pixels on the screen.  The **distance units** are specified in each"
+" tag's Metadata (default is **inches**)."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:60
 msgid ""
-"Think of the Y distance as the length of the \"laser beam\", when the tip"
-" of the horizontal orange line touches the yellow star **on the tag**."
-msgstr ""
+"Think of the Y distance as the length of the \"laser beam\", when the tip of"
+" the horizontal orange line touches the yellow star **on the tag**."
+"msgstr ""
+" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star **on the tag**."
+""
+" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star **on the tag**."
+""
+" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star **on the tag**."
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:63
 msgid ""
 "If the tag is exactly in front of the camera, X and Z are zero, while Y "
 "represents the positive distance to the tag."
-msgstr ""
+msgstr "タグがカメラの正面に Exactly 位置している場合、X と Z はゼロになります。一方で、Y はタグから正の距離を表します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:67
 msgid "Rotation Offset"
-msgstr ""
+msgstr "回転オフセット"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:69
 msgid ""
-"You can also see that the AprilTag's flat face is not parallel to the "
-"plane of the camera.  That **rotation offset** can break down into three "
-"angles about the X, Y and Z axes."
+"You can also see that the AprilTag's flat face is not parallel to the plane "
+"of the camera.  That **rotation offset** can break down into three angles "
+"about the X, Y and Z axes."
 msgstr ""
+"また、AprilTagの平面上の面がカメラ平面に並行でないことも確認できます。その **回転オフセット** "
+"は、X軸、Y軸およびZ軸周りの3つの角度に分解されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:73
 msgid ""
-"Any off-axis pointing or tilting of the AprilTag is reported by the SDK "
-"as rotation about axes X, Y or Z.  Here are some examples:"
+"Any off-axis pointing or tilting of the AprilTag is reported by the SDK as "
+"rotation about axes X, Y or Z.  Here are some examples:"
 msgstr ""
+"任意のオフ軸指向や傾きがAprilTagで発生した場合、SDKはX軸、Y軸、またはZ軸についての回転として報告します。以下に例をいくつか示します："
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:76
 msgid ""
-"If that tag is parallel to the camera but tilted, say, clockwise, this is"
-" expressed as positive angular rotation (Roll) about the Y axis."
+"If that tag is parallel to the camera but tilted, say, clockwise, this is "
+"expressed as positive angular rotation (Roll) about the Y axis."
 msgstr ""
+"もしそのタグがカメラに並行であるが傾いていた場合、例えば時計回りに傾いていた場合、これはY軸を中心に正の角度回転（ロール）として表現されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:79
 msgid ""
-"If a tag appears to the left side of the camera's view, this has an "
-"X-axis displacement or translation.  It's a negative translation, since X"
-" points to the right."
-msgstr ""
+"If a tag appears to the left side of the camera's view, this has an X-axis "
+"displacement or translation.  It's a negative translation, since X points to"
+" the right."
+msgstr "カメラの視野に左側にタグが見えた場合、これはX軸方向での位相移動または平移があります。これは負の平移です。Xは右に向かいます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:83
 msgid ""
-"If that left-displaced tag is also angled, say, to face the camera, this "
-"is expressed as angular rotation about the vertical Z axis.    It's a "
-"positive Yaw angle, according to the **right-hand rule**: with the thumb "
-"pointing along the positive axis, the fingers curl in the direction of "
-"positive rotation."
+"If that left-displaced tag is also angled, say, to face the camera, this is "
+"expressed as angular rotation about the vertical Z axis.    It's a positive "
+"Yaw angle, according to the **right-hand rule**: with the thumb pointing "
+"along the positive axis, the fingers curl in the direction of positive "
+"rotation."
 msgstr ""
+"もし左にずれたタグが角度を持ち、例えばカメラに向けて傾いている場合、これは垂直のZ軸を中心にした角度回転として表現されます。**右の手の規則**によれば、親指が正の軸方向を指しているとき、掌が正の回転方向に"
+" curled します。つまり、これは正の Yaw 角度です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:89
 msgid ""
 "If a detected tag is angled or pointing, say, slightly upward to the "
-"ceiling, this is expressed as rotation about X.  Use the right-hand rule "
-"to confirm this would be a negative Pitch angle, since X points to the "
-"right.   This example assumes the camera is pointing parallel to the "
-"ground/mat."
+"ceiling, this is expressed as rotation about X.  Use the right-hand rule to "
+"confirm this would be a negative Pitch angle, since X points to the right."
+"   This example assumes the camera is pointing parallel to the ground/mat."
 msgstr ""
+"もし検出されたタグが傾いていたり、天井に向けてわずかに上向いている場合、これはX軸周りの回転として表現されます。右手の規則を使って、X軸が右を指しているため、これは負のピッチ角度であることを確認します。この例では、カメラが地面やマットと平行に向けられていると仮定しています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:95
 msgid "Related Info"
-msgstr ""
+msgstr "関連情報"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:97
 msgid "More discussion of the AprilTag reference frame is available here:"
-msgstr ""
+msgstr "4月タグの参照フレームについての詳細は、こちらをご覧ください:"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:99
 msgid ""
@@ -200,17 +222,22 @@ msgid ""
 "<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
 "detection-values:understanding apriltag detection values>`"
 msgstr ""
+":ref:`AprilTag検出値の理解 "
+"<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
+"detection-values: apriltag検出値の理解>`"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:101
 msgid ""
-"This section described the SDK's default AprilTag reference frame.  Teams"
-" are welcome to make other calculations, such as the pose of the camera "
-"(or robot) relative to the AprilTag, or **relative to the game field**.  "
-"Such advanced efforts can be useful and a good learning exercise, beyond "
-"the scope of the SDK and this guide."
+"This section described the SDK's default AprilTag reference frame.  Teams "
+"are welcome to make other calculations, such as the pose of the camera (or "
+"robot) relative to the AprilTag, or **relative to the game field**.  Such "
+"advanced efforts can be useful and a good learning exercise, beyond the "
+"scope of the SDK and this guide."
 msgstr ""
+"このセクションでは、SDKのデフォルトのAprilTag参照フレームについて説明しています。チームは、カメラ（またはロボット）がAprilTagに対してのポーズや、**ゲームフィールドに対してのポーズ**など、他の計算を行うことも歓迎されます。このような高度な努力は、SDKおよびこのガイドの範囲を超えた有用で学習に役立つものです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:109
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
 msgstr ""
-
+"FIRST Tech Challengeに関する質問、ご意見や訂正は\\n\"\n"
+"\"westsiderobotics@verizon.net までお願いいたします。"

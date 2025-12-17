@@ -12,17 +12,17 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:2
 msgid "Vision MultiPortal"
-msgstr ""
+msgstr "ビジョンマルチポートル"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:4
 msgid ""
@@ -30,199 +30,235 @@ msgid ""
 "AprilTag and TFOD processors, and even switchable cameras. USB Bandwidth "
 "must be considered, especially for webcams sharing an external USB hub."
 msgstr ""
+"SDKは2つのポートルをサポートし、それぞれにAprilTagやTFODの処理機能が完全に備わっています。また、切り替え可能なカメラも利用できます。USB帯域幅は特にウェブカムが外部USBハブと共有している場合に考慮する必要があります。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:10
 msgid "Viewport ID"
-msgstr ""
+msgstr "ビューport ID"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:12
 msgid ""
-"Each portal is assigned a ``Viewport ID`` by the Android operating "
-"system. At initialization, the OpMode must **capture** and use these ID "
-"numbers for operating the portals."
-msgstr ""
+"Each portal is assigned a ``Viewport ID`` by the Android operating system. "
+"At initialization, the OpMode must **capture** and use these ID numbers for "
+"operating the portals."
+"msgstr ""
+"各ポートルはAndroidオペレーティングシステムによって``Viewport ID``が割り当てられます。初期化時にOpModeはこれらのID番号を**キャプチャ**し、ポートルの操作に使用する必要があります。"
+""
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:16
 msgid ""
-"Android typically assigns a different Viewport ID number with each run of"
-" an OpMode. If desired, you could observe this by sending Telemetry to "
-"the Driver Station."
+"Android typically assigns a different Viewport ID number with each run of an"
+" OpMode. If desired, you could observe this by sending Telemetry to the "
+"Driver Station."
 msgstr ""
+"Androidは通常、各OpModeの実行ごとに異なるViewport "
+"ID番号を割り当てます。必要であれば、テレメトリをドライバーステーションに送信して確認できます。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:20
 msgid ""
 "The ``makeMultiPortalView()`` Block or method returns a list of Viewport "
 "IDs. Each ID must be extracted from the list, then provided to each "
-"VisionPortal Builder using the ``setCameraMonitorViewId()`` Block or "
-"method."
+"VisionPortal Builder using the ``setCameraMonitorViewId()`` Block or method."
 msgstr ""
+"``makeMultiPortalView()`` ブロックまたはメソッドは、Viewport ID "
+"のリストを返します。各IDはリストから抽出し、VisionPortalビルダーにそれぞれ ``setCameraMonitorViewId()`` "
+"ブロックまたはメソッドを使用して提供する必要があります。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:25
 msgid ""
-"“Dual cameras” was previously (and still is) available with EasyOpenCV. "
-"Now this is possible within the SDK."
-msgstr ""
+"“Dual cameras” was previously (and still is) available with EasyOpenCV. Now "
+"this is possible within the SDK."
+msgstr "“デュアルカメラ”は以前（そして今でも）EasyOpenCV で利用可能でした。現在ではSDK内でこれを利用することが可能です。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:29
 msgid "Test OpMode"
-msgstr ""
+msgstr "テストオペレーションモード"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:31
 msgid ""
 "A sample FTC Blocks OpMode is posted `here "
 "<https://gist.github.com/WestsideRobotics/587b5c74375429ac4a929f690ae40940>`__"
-" to demonstrate AprilTag detections from **two cameras at the same "
-"time**. For a Java version, click ``Export to Java`` in the Blocks "
-"editing window."
+" to demonstrate AprilTag detections from **two cameras at the same time**. "
+"For a Java version, click ``Export to Java`` in the Blocks editing window."
 msgstr ""
+"FIRST Tech Challenge "
+"(FTC)ブロックスオペモードのサンプルは、**2つのカメラから同時にAprilTag検出を示す**ために`こちら "
+"<https://gist.github.com/WestsideRobotics/587b5c74375429ac4a929f690ae40940>`__"
+" に掲載されています。Java版が必要な場合は、ブロックス編集ウィンドウで「Export to Java」をクリックしてください。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:37
 msgid ""
 "Here’s the image of that test OpMode. Careful study will allow a better "
-"understanding of the Blocks and Java methods to create and operate "
-"multiple camera streams at the same time."
+"understanding of the Blocks and Java methods to create and operate multiple "
+"camera streams at the same time."
 msgstr ""
+"こちらがそのテストOpModeの画像です。精密に研究することで、複数のカメラストリームを同時に作成・操作するためのブロックとJavaメソッドの理解が深まります。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:41
 msgid ""
 "Right-click to open image in new browser tab, to magnify on a large PC "
 "screen."
-msgstr ""
+msgstr "右クリックして新しいブラウザタブで画像を開き、大型PC画面で拡大表示します。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:49
 msgid "Multiportal Blocks OpMode"
-msgstr ""
+msgstr "マルチポートルブロックオペモード"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:49
 msgid "Example Blocks Multiportal OpMode"
-msgstr ""
+msgstr "例 ブロックマルチポートルオペモード"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:51
 msgid ""
-"On a Moto e4 RC phone, the OpMode can run the built-in phone camera along"
-" with a webcam."
-msgstr ""
+"On a Moto e4 RC phone, the OpMode can run the built-in phone camera along "
+"with a webcam."
+msgstr "モトローラ・エフォー（Moto e4 RC）の電話では、OpModeは組み込みカメラとウェブカムを同時に使用して動作できます。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:54
 msgid "On a Control Hub, it can run two webcams:"
-msgstr ""
+msgstr "制御ハブでは、2つのウェブカメラを実行できます："
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:56
 msgid "both plugged in directly to the Hub, or"
-msgstr ""
+msgstr "ともにHubに直接接続されている、または"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:57
 msgid ""
-"both plugged into an unpowered USB Hub (with more restricted USB "
-"bandwidth)"
-msgstr ""
+"both plugged into an unpowered USB Hub (with more restricted USB bandwidth)"
+msgstr "両方、電源が切れたUSBハブに接続されている（制限されたUSB帯域幅を持つ）"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:60
 msgid "Dual Previews"
-msgstr ""
+msgstr "デュアルプレビュー"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:62
 msgid ""
-"The dual RC previews can be displayed as ``VERTICAL``, or side-by-side "
-"with the enum ``HORIZONTAL``:"
+"The dual RC previews can be displayed as ``VERTICAL``, or side-by-side with "
+"the enum ``HORIZONTAL``:"
 msgstr ""
+"デュアルRCプレビューは、``VERTICAL`` として表示されるか、列方向に並べられた ``HORIZONTAL`` で表示することができます："
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:70
 msgid "Dual RC Previews"
-msgstr ""
+msgstr "デュアルRCプレビュー"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:72
 msgid ""
-"The DS Camera Stream preview can display only one camera’s view (a `known"
-" characteristic <https://github.com/FIRST-Tech-"
+"The DS Camera Stream preview can display only one camera’s view (a `known "
+"characteristic <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/issues/585>`__)."
 msgstr ""
+"DSカメラストリームのプレビューは、同時にOnly one camera's view（既知の特性`参照 "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/issues/585>`__）を表示できます。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:77
 msgid "USB Bandwidth"
-msgstr ""
+msgstr "USB帯域幅"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:79
 msgid ""
-"**USB Bandwidth** is a concern for dual **webcams**; internal phone "
-"cameras have an independent high-speed interconnect (not USB), unaffected"
-" by an added USB webcam."
-msgstr ""
+"**USB Bandwidth** is a concern for dual **webcams**; internal phone cameras "
+"have an independent high-speed interconnect (not USB), unaffected by an "
+"added USB webcam."
+"msgstr ""
+"**USB帯域幅** はデュアル **ウェブカメラ** にとって懸念事項です；内部の電話用カメラには独立した高速インターコネクト（USB以外）があり、追加されたUSBウェブカメラによって影響を受けません。"
+""
+"**USB帯域幅** はデュアル **ウェブカメラ** にとって懸念事項です；内部の電話カメラには独立した高速インターコネクト（USBでないもの）があり、追加されたUSBウェブカメラによって影響を受けません。"
+""
+"**USB帯域幅** はデュアル **ウェブカメラ** にとって懸念事項です；内部の電話用カメラには独立した高速インターコネクト（USBでないもの）があり、追加されたUSBウェブカメラによって影響を受けません。"
+""
+"**USB帯域幅** はデュアル **ウェブカメラ** にとって懸念事項です；内部の電話カメラには独立した高速インターコネクト（USBでないもの）があり、追加されたUSBウェブカメラによって影響を受けません。"
+""
+"**USB帯域幅**は、デュアル**ウェブカメラ**の問題となります；内部の電話カメラには独立した高速インターコネクト（USBでない）があり、追加されたUSBウェブカメラによって影響を受けません。"
+""
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:83
-msgid "See the USB bandwidth analysis at the **Managing CPU and Bandwidth** page."
+msgid ""
+"See the USB bandwidth analysis at the **Managing CPU and Bandwidth** page."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:86
 msgid ""
-"The two webcams do *not* need to use the same format or resolution. For "
-"the testing mentioned above, the same format and resolution were applied "
-"to a Logitech C920 and a Logitech C270."
+"The two webcams do *not* need to use the same format or resolution. For the "
+"testing mentioned above, the same format and resolution were applied to a "
+"Logitech C920 and a Logitech C270."
 msgstr ""
+"両方のウェブカメラは同じフォーマットや解像度を使用する必要はありません。上記のテストでは、Logitech C920とLogitech "
+"C270に同じフォーマットと解像度が適用されました。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:91
 msgid "Control Hub"
-msgstr ""
+msgstr "制御ハブ"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:93
 msgid ""
-"For dual webcams **plugged directly into the Control Hub**, the USB 2.0 "
-"and USB 3.0 ports are on different buses."
-msgstr ""
+"For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and "
+"USB 3.0 ports are on different buses."
+msgstr "デュアルウェブカムが**コントロールハブに直接接続**されている場合、USB 2.0ポートとUSB 3.0ポートは異なるバスにあります。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:96
 msgid ""
 "This reduces the concern about USB bandwidth capacity, although higher "
 "resolution causes the auto-optimized frame rate to reduce (see test data "
 "below)."
-msgstr ""
+msgstr "これにより、USB帯域幅の心配が減りますが、解像度が高いと自動最適化されたフレームレートが低下します（以下にテストデータをご覧ください）。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:100
 msgid ""
-"Here the choice of stream format has little impact. But the USB 2.0 bus "
-"also carries the Control Hub’s **WiFi radio**; adding a webcam may affect"
-" its reliability."
-msgstr ""
+"Here the choice of stream format has little impact. But the USB 2.0 bus also"
+" carries the Control Hub’s **WiFi radio**; adding a webcam may affect its "
+"reliability."
+"msgstr ""
+"ここでのストリーム形式の選択はあまり影響を及ぼしません。しかし、USB 2.0 バスには制御ハブの**WiFi radio**も含まれています；ウェブカメラを追加すると、その信頼性に影響を及ぼす可能性があります。"
+""
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:105
 msgid "External USB Hub"
-msgstr ""
+msgstr "External USB Hub"
+"External USB Hub"
+""
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:107
 msgid ""
-"On the other hand, both webcams on an **external USB Hub** (plugged into "
-"the CH 3.0 port) can exceed **USB bandwidth limits** (not quantified "
-"here)."
+"On the other hand, both webcams on an **external USB Hub** (plugged into the"
+" CH 3.0 port) can exceed **USB bandwidth limits** (not quantified here)."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:111
 msgid ""
-"Under the legacy **YUY2 format**, one webcam or the other may stop "
-"streaming above roughly 640x360 resolution. This is indicated by no "
-"detections, and a blue screen in RC preview via ``scrcpy``."
+"Under the legacy **YUY2 format**, one webcam or the other may stop streaming"
+" above roughly 640x360 resolution. This is indicated by no detections, and a"
+" blue screen in RC preview via ``scrcpy``."
 msgstr ""
+"レガシーモードの **YUY2 形式** 下では、1 "
+"つのウェブカメラがもう一方を凌駕するほど解像度が640x360を超えるとストリーミングが停止することがあります。これは、RC プレビューで "
+"``scrcpy`` を使用した際に検出がないことや青い画面が出ることによって示されます。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:115
 msgid ""
-"Under **MJPEG format**, resolutions under roughly 432x240 may degrade the"
-" image to prevent AprilTag detection on at least 1 webcam, while higher "
+"Under **MJPEG format**, resolutions under roughly 432x240 may degrade the "
+"image to prevent AprilTag detection on at least 1 webcam, while higher "
 "resolutions may occasionally stop the RC app or crash the Control Hub."
 msgstr ""
+"**MJPEG形式**下では、約432x240以下の解像度は、少なくとも1つのウェブカメラでAprilTagの検出を妨げるため画質が低下する可能性があります。一方、高い解像度の場合には、RCアプリケーションが時折停止したり、コントロールハブがクラッシュする場合もあります。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:120
 msgid ""
-"For both formats, higher resolution reduces frame rate. The **Managing "
-"CPU and Bandwidth** page discusses testing, tradeoffs and optimization."
+"For both formats, higher resolution reduces frame rate. The **Managing CPU "
+"and Bandwidth** page discusses testing, tradeoffs and optimization."
 msgstr ""
+"両方のフォーマットにおいて、解像度が高くなるとフレームレートが低下します。**CPUと帯域幅の管理**ページでは、テスト、トレードオフおよび最適化について説明しています。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:123
 msgid ""
-"Teams can evaluate these tradeoffs, assisted by the new reporting feature"
-" ``getFps()``, providing Frames Per Second (FPS). It’s available for "
-"Blocks and Java."
+"Teams can evaluate these tradeoffs, assisted by the new reporting feature "
+"``getFps()``, providing Frames Per Second (FPS). It’s available for Blocks "
+"and Java."
 msgstr ""
+"チームは、新しいレポート機能 ``getFps()`` "
+"の支援を受けながら、これらのトレードオフを評価できます。この機能により、フレームパー秒（FPS）が提供されます。これはブロック言語とJavaで利用可能です。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:129
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr ""
-
+msgstr "*質問、コメントや訂正はwestsiderobotics@verizon.netまで*"

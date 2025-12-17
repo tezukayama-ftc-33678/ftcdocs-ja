@@ -12,52 +12,58 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:2
 msgid "Choosing a Programming Tool"
-msgstr ""
+msgstr "プログラミングツールの選択"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:4
 msgid ""
-"You need to select a programming tool to be able to create op modes for "
-"your competition robot. An Op Mode or Operational Mode is program that "
-"tells the robot what to do. There are three programming tools that are "
-"available for you to use."
+"You need to select a programming tool to be able to create op modes for your"
+" competition robot. An Op Mode or Operational Mode is program that tells the"
+" robot what to do. There are three programming tools that are available for "
+"you to use."
 msgstr ""
+"競技ロボットを作成するためには、オペレーションモード（Op "
+"Mode）を作成できるプログラミングツールを選択する必要があります。オペレーションモードとは、ロボットに何をさせるかを指示するプログラムです。利用可能なプログラミングツールは3つあります。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:9
 msgid ""
-"*FIRST* strongly recommends that **all users** begin by learning how to "
-"use the :ref:`Blocks programming tool <programming_resources/blocks"
-"/blocks-tutorial:blocks programming tutorial>`."
+"*FIRST* strongly recommends that **all users** begin by learning how to use "
+"the :ref:`Blocks programming tool <programming_resources/blocks/blocks-"
+"tutorial:blocks programming tutorial>`."
 msgstr ""
+"*FIRST*は、**すべてのユーザー**が最初に :ref:`ブロックプログラミングツールを使用する方法 "
+"<programming_resources/blocks/blocks-tutorial:blocks プログラミングチュートリアル>` "
+"を学ぶことを強く推奨します。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:14
 msgid "The Blocks Programming Tool"
-msgstr ""
+msgstr "ブロックプログラミングツール"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:16
 msgid ""
-"A visual programming tool that lets programmers use a web browser to "
-"create, edit and save their op modes. This tool is recommended for novice"
-" programmers and for users who prefer to design their op modes visually, "
+"A visual programming tool that lets programmers use a web browser to create,"
+" edit and save their op modes. This tool is recommended for novice "
+"programmers and for users who prefer to design their op modes visually, "
 "using a drag-and-drop interface."
 msgstr ""
+"プログラマがウェブブラウザを使用してオペレーションモードを作成、編集し、保存できる視覚的なプログラミングツールです。このツールは初心者向けプログラマーおよび視覚的にドラッグアンドドロップインターフェースを使ってオペレーションモードを設計したいユーザーにおすすめします。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:-1
 msgid "Blocks Programming Tool showing a graphical Blocks program."
-msgstr ""
+msgstr "ブロックプログラミングツールでグラフィカルなブロックプログラムを表示しています。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:26
 msgid "The OnBot Java Programming Tool"
-msgstr ""
+msgstr "OnBot Java プログラミングツール"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:27
 msgid ""
@@ -66,67 +72,78 @@ msgid ""
 "programmers who have basic to advanced Java skills and who would like to "
 "write text-based op modes."
 msgstr ""
+"テキストベースのプログラミングツールで、プログラマはウェブブラウザを使用してJavaオプションモードを作成、編集し、保存できます。このツールは、基本から高度なJavaスキルを持つプログラマ、テキストベースのオプションモードを書くことに興味があるプログラマに推奨されます。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:-1
 msgid "OnBot Java Programming Tool showing Java source code."
-msgstr ""
+msgstr "OnBot ジAVA プログラミングツールでJavaソースコードが表示されています。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:37
 msgid "Android Studio"
-msgstr ""
+msgstr "Android スタジオ"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:38
 msgid ""
-"An advanced integrated development environment for creating Android apps."
-" This tool is the same tool that professional Android app developers use."
-" Android Studio is only recommended for advanced users who have extensive"
-" Java programming experience."
+"An advanced integrated development environment for creating Android apps. "
+"This tool is the same tool that professional Android app developers use. "
+"Android Studio is only recommended for advanced users who have extensive "
+"Java programming experience."
 msgstr ""
+"Android アプリを作成するための高度な統合開発環境です。このツールはプロフェッショナルな Android "
+"アプリ開発者が使用している同一のツールです。Android Studio は、広範な Java "
+"プログラミング経験がある進んだユーザー向けに推奨されます。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:-1
 msgid "Android Studio showing Java source code."
-msgstr ""
+msgstr "Android Studio で Java ソースコードが表示されています。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:48
 msgid "Recommendations"
-msgstr ""
+msgstr "推奨事項"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:50
 msgid ""
 "Each tool has its own merits and weaknesses. For many users (especially "
-"rookies and novice programmers), **the Blocks Programming Tool is the "
-"best overall tool to use**. The Blocks Programming Tool is intuitive and "
-"easy-to-learn. **It is the fastest way to get started programming your "
-"robot.**"
+"rookies and novice programmers), **the Blocks Programming Tool is the best "
+"overall tool to use**. The Blocks Programming Tool is intuitive and easy-to-"
+"learn. **It is the fastest way to get started programming your robot.**"
 msgstr ""
+"各ツールにはそれぞれ長所と短所があります。多くのユーザー（特に初心者や初心者のプログラマーにとって）では、**ブロック型プログラミングツールが最も優れた全体的なツールです**。ブロック型プログラミングツールは直感的で学習しやすいものです。**ロボットのプログラムを始める最速の方法です**。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:56
 msgid ""
-"The OnBot Java Programming Tool is similar to the Blocks Programming "
-"Tool. However, OnBot Java is a text-based tool and it requires that the "
-"user have a sound understanding of the Java programming language."
+"The OnBot Java Programming Tool is similar to the Blocks Programming Tool. "
+"However, OnBot Java is a text-based tool and it requires that the user have "
+"a sound understanding of the Java programming language."
 msgstr ""
+"OnBot Javaプログラミングツールは、ブロックプログラミングツールに似ています。しかし、OnBot "
+"Javaはテキストベースのツールであり、ユーザーにはJavaプログラミング言語に関する確かな理解が必要です。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:-1
-msgid "A tablet, a phone, and a laptop each showing the programming tools in use."
-msgstr ""
+msgid ""
+"A tablet, a phone, and a laptop each showing the programming tools in use."
+msgstr "タブレット、スマートフォン、ノートパソコンそれぞれに使用中のプログラミングツールが表示されています。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:63
 msgid ""
-"It is important to note that with the Blocks Programming Tool and the "
-"OnBot Java Programming Tool, a user only needs a web browser to create, "
-"edit and build op modes for their robot. A user can even create, edit and"
-" build op modes using an iPad, an Android phone, or a Chromebook."
+"It is important to note that with the Blocks Programming Tool and the OnBot "
+"Java Programming Tool, a user only needs a web browser to create, edit and "
+"build op modes for their robot. A user can even create, edit and build op "
+"modes using an iPad, an Android phone, or a Chromebook."
 msgstr ""
+"ブロックプログラミングツールやOnBot "
+"Javaプログラミングツールを使用する際には、ユーザーはウェブブラウザのみでロボットのオペレーションモードを作成、編集、構築することができます。iPad、Androidスマートフォン、またはChromebookでもオペレーションモードを作成、編集、構築することが可能です。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:68
 msgid ""
 "Android Studio is a powerful development tool. However, it requires "
-"extensive Java programming knowledge. It also needs a dedicated laptop to"
-" run the Android Studio software. Android Studio offers enhanced editing "
-"and debugging features that are not available on the OnBot Java "
-"Programming Tool. However, it is a more complicated tool and you must "
-"spend time learning how to use it. It is only recommended for advanced "
-"users."
+"extensive Java programming knowledge. It also needs a dedicated laptop to "
+"run the Android Studio software. Android Studio offers enhanced editing and "
+"debugging features that are not available on the OnBot Java Programming "
+"Tool. However, it is a more complicated tool and you must spend time "
+"learning how to use it. It is only recommended for advanced users."
 msgstr ""
-
+"Android Studioは強力な開発ツールですが、広範囲のJavaプログラミング知識が必要です。また、Android "
+"Studioソフトウェアを実行するためには専用のノートパソコンが必要です。Android Studioは、OnBot Java Programming "
+"Toolでは利用できない高度な編集とデバッグ機能を提供しますが、より複雑なツールであるため、使い方を学ぶのに時間がかかります。 "
+"ADVANCEDユーザー向けにのみ推奨されます。"

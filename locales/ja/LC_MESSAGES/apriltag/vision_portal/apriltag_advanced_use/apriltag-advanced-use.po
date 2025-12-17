@@ -12,51 +12,54 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:2
 msgid "AprilTag Advanced Use"
-msgstr ""
+msgstr "4月タグの高度な使用方法"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:5
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:7
 msgid ""
-"This page will offer tips for *FIRST* Tech Challenge teams seeking more "
-"info about specialized features of the new VisionPortal."
+"This page will offer tips for *FIRST* Tech Challenge teams seeking more info"
+" about specialized features of the new VisionPortal."
 msgstr ""
+"このページでは、新しいVisionPortalの専用機能についてより詳しく知りたいという目的でFIRST Tech "
+"Challengeチームにアドバイスを提供します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:11
 msgid "Optional Metadata"
-msgstr ""
+msgstr "任意のメタデータ"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:13
 msgid ""
-"An AprilTag Library tag can store two optional **Metadata** fields (of "
-"these Blocks/Java types):"
-msgstr ""
+"An AprilTag Library tag can store two optional **Metadata** fields (of these"
+" Blocks/Java types):"
+msgstr "AprilTagライブラリのタグは、これらのブロック/Java型として2つのオプションの**メタデータ**フィールドを保存できます："
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:16
 msgid "``fieldPosition``: tag location on the game field (``VectorF``)"
-msgstr ""
+msgstr "``フィールドポジション``: ゲームフィールド上のタグ位置（``VectorF``）"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:17
-msgid "``fieldOrientation``: tag orientation on the game field (``Quaternion``)"
-msgstr ""
+msgid ""
+"``fieldOrientation``: tag orientation on the game field (``Quaternion``)"
+msgstr "``フィールドオrientation``: ゲームフィールド上のタグの向き（`` Quaternion ``）"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:19
 msgid ""
 "The reference frame is the *FIRST* Tech Challenge **Field Coordinate "
 "System**, provided here:"
-msgstr ""
+msgstr "referenciaフレームは、ここに提供される *FIRST* Tech Challenge **フィールド座標系** です："
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:22
 msgid ""
@@ -67,58 +70,68 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:24
 msgid ""
-"Here is a simple graphic showing the *FIRST* Tech Challenge global axes "
-"that apply to **every game, every season**:"
-msgstr ""
+"Here is a simple graphic showing the *FIRST* Tech Challenge global axes that"
+" apply to **every game, every season**:"
+"msgstr ""
+"Here is a simple graphic showing the *FIRST* Tech Challenge global axes that apply to **every game, every season**:"
+""
+"Here is a simple graphic showing the *FIRST* Tech Challenge global axes that apply to **every game, every season**:"
+""
+"Here is a simple graphic showing the *FIRST* Tech Challenge global axes that apply to **every game, every season**:"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:32
 msgid "Field Coordinates"
-msgstr ""
+msgstr "フィールド座標"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:32
 msgid "Image Credit: Phil Malone"
-msgstr ""
+msgstr "イメージクレジット: フィル・モールナ"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:34
 msgid ""
-"With a tag’s **field position** and **orientation** specified in advance "
-"as Metadata, the tag’s pose data could be used by an advanced OpMode to "
+"With a tag’s **field position** and **orientation** specified in advance as "
+"Metadata, the tag’s pose data could be used by an advanced OpMode to "
 "calculate the robot’s position on the field. This conversion math, an "
 "exercise for the reader, can allow a robot to use the tag’s pose data in "
 "real-time to navigate to the desired location on the field."
 msgstr ""
+"タグの**フィールド位置**と**向き**を事前にメタデータとして指定すると、タグのポーズデータは読み取り専用モードでロボットの場所を計算するために使用できます。この変換数学は、読者への演習であり、タグのポーズデータを使用してリアルタイムでフィールド上の目的地点にナビゲートするロボットを実現することができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:41
 msgid "Raw Pose Values"
-msgstr ""
+msgstr "生のポーズ値"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:43
 msgid ""
-"The frame of reference described at the **AprilTag Reference Frame** page"
-" is provided **by default** in the new 8.2 SDK."
+"The frame of reference described at the **AprilTag Reference Frame** page is"
+" provided **by default** in the new 8.2 SDK."
 msgstr ""
+"The frame of reference described at the **AprilTag Reference Frame** page is"
+" provided **by default** in the new 8.2 SDK。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:46
 msgid ""
-"Advanced teams may prefer to perform their own pose calculations, based "
-"on **raw values** from the AprilTag/EasyOpenCV pipeline."
+"Advanced teams may prefer to perform their own pose calculations, based on "
+"**raw values** from the AprilTag/EasyOpenCV pipeline."
 msgstr ""
+"ADVANCED チームは、AprilTag/EasyOpenCV パイプラインからの **原始値** を基にした自前のポーズ計算を好むかもしれません。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:49
 msgid ""
 "Those raw values are available to Java and Blocks programmers. The Java "
 "version is shown here:"
-msgstr ""
+msgstr "これらの生の値はJavaおよびブロックプログラマに利用可能です。Java版は以下に示されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:68
 msgid ""
 "These raw values are converted by the SDK to the default interface, as "
 "follows:"
-msgstr ""
+msgstr "これらの原始値はSDKによってデフォルトインターフェースに変換され、以下のようになります："
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:90
 msgid "Further discussion is provided here:"
-msgstr ""
+msgstr "さらなる議論はここにあります:"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:92
 msgid ""
@@ -126,10 +139,13 @@ msgid ""
 "<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
 "detection-values:understanding apriltag detection values>`"
 msgstr ""
+":ref:`AprilTag検出値の理解 "
+"<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
+"detection-values:AprilTag検出値の理解>`"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:95
 msgid "Advanced CPU Management"
-msgstr ""
+msgstr "高度なCPU管理"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:97
 msgid ""
@@ -137,54 +153,64 @@ msgid ""
 "which covered many basic tools for avoiding limits of CPU usage and USB "
 "bandwidth."
 msgstr ""
+"このセクションは、CPU使用量やUSB帯域幅の制限を回避するための多くの基本的なツールが説明された **VisionPortal CPUと帯域幅** "
+"ページから続きます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:100
 msgid ""
-"To evaluate multiple factors, changing at the same time, a customized "
-"Test OpMode can be very useful.  This section provides an example that "
-"allows **live gamepad control** to:"
+"To evaluate multiple factors, changing at the same time, a customized Test "
+"OpMode can be very useful.  This section provides an example that allows "
+"**live gamepad control** to:"
 msgstr ""
+"複数の要素を同時に変更して評価するには、カスタマイズされたTest "
+"OpModeが非常に有用です。このセクションでは、**ライブゲームパッド制御**を行う例を提供します："
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:104
 msgid "toggle AprilTag Processor on and off"
-msgstr ""
+msgstr "AprilTag プロセッサーのオンとオフ切り替え"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:105
 msgid "toggle TFOD Processor on and off"
-msgstr ""
+msgstr "TFOD プロセッサーのオンとオフを切り替える"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:106
 msgid "toggle LiveView on and off"
-msgstr ""
+msgstr "LiveViewの表示と非表示を切り替える"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:107
 msgid "toggle Streaming on and off"
-msgstr ""
+msgstr "ストリーミングのオンとオフを切り替える"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:109
 msgid "Other features of this Test OpMode include:"
-msgstr ""
+msgstr "このTest OpModeの他の機能には、次のものがあります："
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:111
 msgid ""
-"All controls are independent, to explore the combinations and their "
-"effect on frame rate (FPS)."
-msgstr ""
+"All controls are independent, to explore the combinations and their effect "
+"on frame rate (FPS)."
+msgstr "すべてのコントロールは独立していますので、組み合わせとフレームレート（FPS）への影響を探索できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:113
 msgid ""
-"The previews can be observed, and detections/recognitions can be "
-"monitored via annotations and Telemetry."
-msgstr ""
+"The previews can be observed, and detections/recognitions can be monitored "
+"via annotations and Telemetry."
+msgstr "プレビューは観察でき、検出や認識は注釈とテレメトリを通じてモニタリングできます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:115
 msgid "Frame rate is provided in LiveView and DS Telemetry."
-msgstr ""
+"msgstr ""
+"フレームレートはLiveViewおよびDSテレメトリーで提供されます。"
+""
+"フレームレートはLiveViewとDSテレメトリーで提供されます。"
+""
+"フレームレートはLiveViewおよびDS Telemetryで提供されます。"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:116
 msgid ""
-"The Telemetry functions include an alternate for getting **all** or "
-"**only fresh** detections/recognitions."
+"The Telemetry functions include an alternate for getting **all** or **only "
+"fresh** detections/recognitions."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:119
@@ -193,17 +219,26 @@ msgid ""
 "<https://gist.github.com/WestsideRobotics/ea7540175b11d07bf362cb9625a54042>`__"
 " or `Java "
 "<https://gist.github.com/WestsideRobotics/8566a1148dee6572084a6dea2b0d5627>`__."
-" The Blocks version is shown below; right-click to open in a new browser "
-"tab and zoom in."
+" The Blocks version is shown below; right-click to open in a new browser tab"
+" and zoom in."
 msgstr ""
+"このテストオペモードは、`FTC ブロック "
+"<https://gist.github.com/WestsideRobotics/ea7540175b11d07bf362cb9625a54042>`__"
+" または `Java "
+"<https://gist.github.com/WestsideRobotics/8566a1148dee6572084a6dea2b0d5627>`__"
+" からダウンロードできます。ブロックバージョンは下に示されています；右クリックして新しいブラウザタブで開き、拡大表示してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:131
 msgid "VisionPortal Example Code"
-msgstr ""
+"msgstr ""
+"VisionPortal Example Code"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:131
 msgid "VisionPortal Example OpMode"
-msgstr ""
+msgstr "VisionPortal Example OpMode"
+"VisionPortal Example OpMode"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:133
 msgid ""
@@ -211,50 +246,70 @@ msgid ""
 "phone camera.  For Control Hub, set up an HDMI monitor or `scrcpy "
 "<https://github.com/Genymobile/scrcpy>`__.  Follow the DS gamepad button "
 "guide."
-msgstr ""
+"msgstr ""
+"OpMode は \\"Webcam 1\\" を使用します。または ``USE_WEBCAM`` を変更して、内蔵の RC 遥控電話カメラを使用できます。Control Hub の場合は、HDMI モニターを設定するか `scrcpy <https://github.com/Genymobile/scrcpy>`__ を使用します。DS ゲームパッドボタンガイドに従ってください。"
+""
+"オペレーションモードは「Webcam 1」を使用します。または、内蔵のRC電話カメラを使用するには ``USE_WEBCAM`` を変更してください。Control Hubの場合、HDMI モニターを設定したり `scrcpy <https://github.com/Genymobile/scrcpy>`__ を使用したりします。Follow the DS gamepad button guide."
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:137
 msgid ""
-"At that **VisionPortal CPU and Bandwidth** page, four tools mentioned "
-"were not discussed:"
+"At that **VisionPortal CPU and Bandwidth** page, four tools mentioned were "
+"not discussed:"
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:140
 msgid "set decimation (down-sampling)"
-msgstr ""
+msgstr "デシマレーション（ダウンサンプリング）の設定"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:141
 msgid "select a pose solver algorithm"
-msgstr ""
+msgstr "ポーズソルバーアルゴリズムを選択"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:142
 msgid "get all or only fresh detections from the AprilTag Processor"
-msgstr ""
+"msgstr ""
+"get all or only fresh detections from the AprilTag Processor"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:143
 msgid "get all or only fresh recognitions from the TFOD Processor"
-msgstr ""
+"msgstr ""
+"get all or only fresh recognitions from the TFOD Processor"
+""
+"get all or only fresh recognitions from the TFOD Processor"
+""
+"TFODプロセッサからすべての認知結果や最新の認知結果だけを取得します"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:145
 msgid ""
-"For now, these are left for interested Blocks and Java users to research "
-"and investigate.  In time, more information may be posted at this page."
+"For now, these are left for interested Blocks and Java users to research and"
+" investigate.  In time, more information may be posted at this page."
 msgstr ""
+"現在は、これらの内容は興味のあるブロックやJavaユーザーに調査と検討を残しています。将来的には、より詳しい情報がこのページで公開される可能性があります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:148
 msgid ""
-"All of the above features are easily found in the relevant **FTC Blocks**"
-" toolbox, or palette, under the Vision category."
-msgstr ""
+"All of the above features are easily found in the relevant **FTC Blocks** "
+"toolbox, or palette, under the Vision category."
+"msgstr ""
+"すべての機能は関連する **FTC Blocks** ボックスまたはパレット内のビジョンカテゴリ下で簡単に見つけることができます。"
+""
+"All of the above features are easily found in the relevant **FTC Blocks** toolbox, or palette, under the Vision category."
+""
+"All of the above features are easily found in the relevant **FTC Blocks** toolbox, or palette, under the Vision category."
+""
+"すべての機能は、関連する**FTC Blocks**ツールボックスやパレット内のVision category下で簡単に見つけることができます。"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:151
 msgid ""
-"**Java** users should review the VisionPortal interface at the `SDK "
-"Javadocs <https://javadoc.io/doc/org.firstinspires.ftc/Vision/latest"
-"/overview-summary.html>`__ site.  Click **FRAMES** for easy navigation."
+"**Java** users should review the VisionPortal interface at the `SDK Javadocs"
+" <https://javadoc.io/doc/org.firstinspires.ftc/Vision/latest/overview-"
+"summary.html>`__ site.  Click **FRAMES** for easy navigation."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:157
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr ""
-
+msgstr "*質問、ご意見や訂正はwestsiderobotics@verizon.netまで*"

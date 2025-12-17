@@ -12,99 +12,100 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/booklets/index.rst:2
 msgid "Booklets"
-msgstr ""
+msgstr "ブックレット"
 
 #: ../../source/booklets/index.rst:4
 msgid ""
-"More 'bite-sized' versions of the FTC Docs. These are meant to be printed"
-" out and used as a reference for teams."
-msgstr ""
+"More 'bite-sized' versions of the FTC Docs. These are meant to be printed "
+"out and used as a reference for teams."
+msgstr "FIRST Tech Challengeドキュメントのより「まとめ版」的なバージョン。これらのドキュメントは印刷して、チームが参照する際のリファレンスとして使用することを目的としています。"
 
 #: ../../source/booklets/index.rst:11
 msgid "Control System"
-msgstr ""
+msgstr "制御システム"
 
 #: ../../source/booklets/index.rst:13
 msgid ""
 "`Control System <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/control_system.pdf>`_"
 msgstr ""
+"`制御システム <https://ftc-docs-cdn.ftclive.org/booklets/en/control_system.pdf>`_"
 
 #: ../../source/booklets/index.rst:16
 msgid "Manufacturing"
-msgstr ""
+msgstr "製造"
 
 #: ../../source/booklets/index.rst:17
 msgid ""
 "`3D Printing Guide <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/3d_printing.pdf>`_"
-msgstr ""
+msgstr "`3Dプリントガイド <https://ftc-docs-cdn.ftclive.org/booklets/en/3d_printing.pdf>`_"
 
 #: ../../source/booklets/index.rst:18
 msgid ""
 "`Electrostatic Discharge <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/esd.pdf>`_"
-msgstr ""
+msgstr "`静電気放電 <https://ftc-docs-cdn.ftclive.org/booklets/en/esd.pdf>`_"
 
 #: ../../source/booklets/index.rst:21
 msgid "Programming Resources"
-msgstr ""
+msgstr "プログラミングリソース"
 
 #: ../../source/booklets/index.rst:22
 msgid ""
 "`Programming Resources <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_"
-msgstr ""
+msgstr "`プログラミングリソース <https://ftc-docs-cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_"
 
 #: ../../source/booklets/index.rst:23
 msgid ""
 "`Android Studios Manual <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/android_studios.pdf>`_"
-msgstr ""
+msgstr "`Android Studios 手順書 <https://ftc-docs-cdn.ftclive.org/booklets/en/android_studios.pdf>`_"
 
 #: ../../source/booklets/index.rst:24
 msgid ""
 "`OnBot Java Manual <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/onbot_java.pdf>`_"
-msgstr ""
+msgstr "`OnBot Java マニュアル <https://ftc-docs-cdn.ftclive.org/booklets/en/onbot_java.pdf>`_"
 
 #: ../../source/booklets/index.rst:25
-msgid "`Blocks Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_"
-msgstr ""
+msgid ""
+"`Blocks Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_"
+msgstr "`ブロックマニュアル <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_"
 
 #: ../../source/booklets/index.rst:27
 msgid ""
-"`April Tags <https://ftc-docs-"
-"cdn.ftclive.org/booklets/en/april_tags.pdf>`_"
-msgstr ""
+"`April Tags <https://ftc-docs-cdn.ftclive.org/booklets/en/april_tags.pdf>`_"
+msgstr "`April タグ <https://ftc-docs-cdn.ftclive.org/booklets/en/april_tags.pdf>`_"
 
 #: ../../source/booklets/index.rst:28
 msgid ""
-"`Advanced User <https://ftc-docs-"
-"cdn.ftclive.org/booklets/en/advanced.pdf>`_"
+"`Advanced User <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_"
 msgstr ""
+"`高度なユーザー <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_"
 
 #: ../../source/booklets/index.rst:29
-msgid "`FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_"
-msgstr ""
+msgid ""
+"`FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_"
+msgstr "`FIRST Tech Challenge SDKガイド <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_"
 
 #: ../../source/booklets/index.rst:32
 msgid "Contributing"
-msgstr ""
+msgstr "寄稿"
 
 #: ../../source/booklets/index.rst:34
 msgid ""
 "`Contributor Guide <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/contrib.pdf>`_"
-msgstr ""
-
+msgstr "`貢献者ガイド <https://ftc-docs-cdn.ftclive.org/booklets/en/contrib.pdf>`_"

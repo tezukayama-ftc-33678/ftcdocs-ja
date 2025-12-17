@@ -20,7 +20,42 @@ https://ftc-docs.firstinspires.org
 
 ---
 
-## 翻訳の編集方法
+## 🤖 ローカルLLMによる自動翻訳（推奨）
+
+**VRAM 8GB以上のGPUがあれば、全自動で翻訳できます！**
+
+### クイックスタート（3ステップ）
+
+```powershell
+# 1. LLMモデルをダウンロード
+ollama pull qwen2.5:7b-instruct-q5_K_M
+
+# 2. 依存パッケージをインストール
+pip install ollama polib tqdm colorama
+
+# 3. 自動翻訳開始（放置で完了）
+python batch_translate.py --po-dir locales/ja/LC_MESSAGES
+```
+
+または、全自動スクリプトを実行：
+
+```powershell
+.\run_auto_translate.ps1
+```
+
+詳細は **[AUTO_TRANSLATE.md](AUTO_TRANSLATE.md)** を参照してください。
+
+### テスト実行
+
+環境が正しくセットアップされているか確認：
+
+```powershell
+python test_translation_env.py
+```
+
+---
+
+## 📝 手動での翻訳編集方法
 
 - **編集対象**: 翻訳は `locales/ja/LC_MESSAGES/*.po` を編集してください。`docs/build/gettext/*.pot` はビルド生成物のテンプレートであり、リポジトリでは追跡していません。
 - PO ファイルの生成と更新 (ローカルまたは CI):

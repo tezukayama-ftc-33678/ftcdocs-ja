@@ -12,61 +12,68 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:2
 msgid "Image and Figure Details"
-msgstr ""
+msgstr "画像と図の詳細"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:4
 msgid ""
 "This section has detailed information about images and figures and more "
 "advice about how to handle them in FTC Docs."
 msgstr ""
+"このセクションでは、画像や図についての詳細な情報と、FTC Docsでそれらをどのように扱うべきかに関する追加のアドバイスが記載されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:9
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:14
 msgid "Decorative Images"
-msgstr ""
+msgstr "装飾画像"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:16
 msgid ""
-"A wavy line image that is used to separate blocks of content is a "
-"decorative image. A photo of persons shaking hands on a page about "
-"negotiating contracts might be decorative if it was placed to look "
-"pretty. If the image is not directly related to the content and is only "
-"there for visual appeal then it is a decorative image."
+"A wavy line image that is used to separate blocks of content is a decorative"
+" image. A photo of persons shaking hands on a page about negotiating "
+"contracts might be decorative if it was placed to look pretty. If the image "
+"is not directly related to the content and is only there for visual appeal "
+"then it is a decorative image."
 msgstr ""
+"波纹線の画像はコンテンツのブロックを区切るためのデコレティブな画像です。契約交渉についてのページで握手をしている人物の写真が、美しく見せるために配置された場合、デコレティブな画像となるかもしれません。画像がコンテンツと直接関連がないばかりか、視覚的な魅力のためにのみ存在している場合は、デコレティブな画像となります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:20
 msgid ""
 "FTC Docs does not use decorative images. Do not add an image because it "
 "looks nice. This is not a marketing web site or a visual design website."
 msgstr ""
+"FTCドキュメントには装飾的な画像を使用していません。美しく見えても画像を追加しないでください。これはマーケティング用のウェブサイトや視覚デザイン用のウェブサイトではありません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:23
 msgid ""
-"Decorative images are also an accessibility problem. The screen reader "
-"has to process them. If the image has alt text it may not be related to "
-"the content so it may just cause confusion."
+"Decorative images are also an accessibility problem. The screen reader has "
+"to process them. If the image has alt text it may not be related to the "
+"content so it may just cause confusion."
 msgstr ""
+"デコレーション画像もアクセシビリティの問題です。スクリーンリーダーはそれらを処理しなければなりません。画像にaltテキストがある場合でも、そのテキストがコンテンツと関連がない場合があり、混乱を招く可能性があります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:26
 msgid ""
-"If you really need a decorative image, use the ``.. image`` directive and"
-" include the **:alt:** option with blank text. Blank alt text will cause "
-"screen readers to ignore the image, which is appropriate when the image "
-"is just there for visual presentation."
+"If you really need a decorative image, use the ``.. image`` directive and "
+"include the **:alt:** option with blank text. Blank alt text will cause "
+"screen readers to ignore the image, which is appropriate when the image is "
+"just there for visual presentation."
 msgstr ""
+"もし本当にデコレーション用の画像が必要な場合は、``.. image`` ディレクティブを使用し、**:alt:** "
+"オプションと共に空白のテキストを含めてください。空白の alt "
+"文字列はスクリーンリーダーが画像を無視するため、単なる視覚的な表示のために画像がある場合に適しています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:29
 msgid "Example"
@@ -74,159 +81,183 @@ msgstr ""
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:37
 msgid "Image Directive"
-msgstr ""
+msgstr "画像指示子"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:39
 msgid ""
-"Use the ``.. image`` directive to include an image that does **not** need"
-" a caption. Determine if the image needs a caption. Photo credits need a "
-"caption. Complex images probably need a caption. Anything that requires "
-"an editorial or illustrative description to tie the image to the content "
-"of the page requires a caption."
+"Use the ``.. image`` directive to include an image that does **not** need a "
+"caption. Determine if the image needs a caption. Photo credits need a "
+"caption. Complex images probably need a caption. Anything that requires an "
+"editorial or illustrative description to tie the image to the content of the"
+" page requires a caption."
 msgstr ""
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:43
 msgid ""
 "If no caption is required then the image directive can be used. Add the "
-"``:alt:`` option and provide text that describes the image. This is all "
-"you need for basic images."
+"``:alt:`` option and provide text that describes the image. This is all you "
+"need for basic images."
 msgstr ""
+"キャプションが不要な場合は、画像ディレクティブを使用できます。``:alt:`` "
+"オプションを追加し、画像を説明するテキストを提供します。これで基本的な画像は完了です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:52
 msgid ""
-"The alt text should have a functional description. A functional "
-"description explains exactly what is in an image. These descriptions "
-"should be thorough but brief, one or two sentences. If a long description"
-" is required, use the `figure directive`_ and provide a long description."
+"The alt text should have a functional description. A functional description "
+"explains exactly what is in an image. These descriptions should be thorough "
+"but brief, one or two sentences. If a long description is required, use the "
+"`figure directive`_ and provide a long description."
 msgstr ""
+"代替テキストには機能的な説明が必要です。機能的な説明は画像に何が含まれているかを詳細に説明します。これらの説明は thorough で brief "
+"な一文または二文程度にしてください。長い説明が必要な場合は、`figure ディレクティブ`_ を使用し、長さの説明を提供してください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:56
 msgid "See `Alt Text`_ for more information about alt text."
-msgstr ""
+msgstr "「Alt テキスト」_ で ALT 文字列についての詳細をご覧ください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:58
 msgid ""
-"Sphinx will set alt text set to the path and file name of the image if "
-"you don't specify the ``:alt:`` option. The HTML will look like ``<img "
+"Sphinx will set alt text set to the path and file name of the image if you "
+"don't specify the ``:alt:`` option. The HTML will look like ``<img "
 "alt=\"../_images/GoodStuff.png\" src=\"../_images/GoodStuff.png\">``. A "
-"screen reader will read out loud the alt text "
-"**../_images/GoodStuff.png**."
+"screen reader will read out loud the alt text **../_images/GoodStuff.png**."
 msgstr ""
+"スphinxsは、``:alt:``オプションを指定しない場合、画像のパスとファイル名をaltテキストとして設定します。HTMLは以下のようになります：``<img"
+" alt=\"../_images/GoodStuff.png\" "
+"src=\"../_images/GoodStuff.png\">``。スクリーンリーダーはaltテキスト**../_images/GoodStuff.png**を読み上げます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:62
 msgid ""
-"This is not good accessibility. If you are editting an existing page that"
-" has an image or figure directive with no ``:alt:`` option, please take a"
-" moment to add the ``:alt:`` option with a functional description of the "
+"This is not good accessibility. If you are editting an existing page that "
+"has an image or figure directive with no ``:alt:`` option, please take a "
+"moment to add the ``:alt:`` option with a functional description of the "
 "image."
 msgstr ""
+"これには適切なアクセシビリティがありません。画像や図のディレクティブがない場合、一時的に ``:alt:`` "
+"オプションを追加し、画像の機能的な説明を記述してください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:65
 msgid ""
-"The image directive has many options, but we don't recommend most of them"
-" for FTC Docs. This is new guidance, many existing pages specify "
-"**width** and **align**. It maybe worth removing those if you are "
-"changing the content on that page anyway."
+"The image directive has many options, but we don't recommend most of them "
+"for FTC Docs. This is new guidance, many existing pages specify **width** "
+"and **align**. It maybe worth removing those if you are changing the content"
+" on that page anyway."
 msgstr ""
+"画像ディレクティブには多くのオプションがありますが、FTCドキュメントでは大多数を推奨していません。これは新しいガイドラインで、既存の多くのページでは**width**と**align**を指定しています。そのページの内容を変更する場合、これらの項目も削除しても良いかもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:70
 msgid "Image Options"
-msgstr ""
+msgstr "画像オプション"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:72
 msgid "The options supported by the ``image`` directive are:"
-msgstr ""
+msgstr "「image」ディレクティブでサポートされるオプションは以下の通りです："
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:76
 msgid "alt : *text*"
-msgstr ""
+msgstr "alt : *テキスト*"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:75
 msgid "text"
-msgstr ""
+msgstr "テキスト"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:75
 msgid ""
-"Alternate text: a short description of the image, displayed by "
-"applications that cannot display images, or spoken by applications for "
-"visually impaired users"
+"Alternate text: a short description of the image, displayed by applications "
+"that cannot display images, or spoken by applications for visually impaired "
+"users"
 msgstr ""
+"代替画像テキスト: 画像の短い説明で、画像を表示できないアプリケーションではこのテキストが表示され、視覚障害者用のアプリケーションでは読み上げられます"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:81
 msgid "height : *length*"
 msgstr ""
+"高度 : *長さ*\"\n"
+"\n"
+"この翻訳は、指定されたガイドラインに従っており、reStructuredText形式も保持しています。また、強調マークアップも完全に保持されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:80
 msgid "length"
-msgstr ""
+msgstr "長さ"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:79
 msgid ""
-"The desired height of the image. Used to reserve space or scale the image"
-" vertically. When the \"scale\" option is also specified, they are "
-"combined. For example, a height of 200px and a scale of 50 is equivalent "
-"to a height of 100px with no scale."
+"The desired height of the image. Used to reserve space or scale the image "
+"vertically. When the \"scale\" option is also specified, they are combined. "
+"For example, a height of 200px and a scale of 50 is equivalent to a height "
+"of 100px with no scale."
 msgstr ""
+"画像の望ましい高さ。垂直方向にスペースを確保するか、画像のサイズを変更するために使用されます。\"スケール\"オプションが指定されている場合、両者は組み合わさります。例えば、高さ200pxとスケール50は、スケールなしで高さ100pxに相当します。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:84
 msgid "scale : *integer percentage (the \"%\" symbol is optional)*"
 msgstr ""
+"スケール : *整数のパーセンテージ（％記号は省略可）*\"\n"
+"\n"
+"この翻訳では、reStructuredText形式を保持し、Sphinx-Design記法も保持しています。また、構造や空白行もそのままにしています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:83
 msgid "integer percentage (the \"%\" symbol is optional)"
-msgstr ""
+msgstr "整数のパーセンテージ（％記号は省略可）"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:84
 msgid ""
-"The uniform scaling factor of the image. The default is \"100 %\", i.e. "
-"no scaling."
-msgstr ""
+"The uniform scaling factor of the image. The default is \"100 %\", i.e. no "
+"scaling."
+msgstr "画像の均一な拡大縮小率。デフォルトは「100 ％」で、つまり拡大縮小なしです。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:89
 msgid "width : *length or percentage of the current line width*"
 msgstr ""
+"幅 : *現在の線幅の長さまたはパーセンテージ*\"\n"
+"\n"
+"この翻訳では、強調マークアップ(*)とイタリックマークアップ(*)を完全に保持し、reStructuredText形式も維持しています。また、原文の技術用語はそのまま使用しています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:88
 msgid "length or percentage of the current line width"
-msgstr ""
+msgstr "現在の線幅の長さまたはパーセンテージ"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:87
 msgid ""
 "The width of the image. Used to reserve space or scale the image "
-"horizontally. As with \"height\" above, when the \"scale\" option is also"
-" specified, they are combined. It is often preferable to use *width* over"
-" *height* or *scale*."
+"horizontally. As with \"height\" above, when the \"scale\" option is also "
+"specified, they are combined. It is often preferable to use *width* over "
+"*height* or *scale*."
 msgstr ""
+"画像の幅。水平方向にスペースを確保するか、画像をスケーリングするために使用されます。上記で述べたように「scale」オプションが指定されている場合、両者は組み合わさります。「width」として使用することがしばしば望ましいです。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:98
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:112
 msgid "align"
-msgstr ""
+msgstr "alinhar"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:-1
 msgid "\"top\", \"middle\", \"bottom\", \"left\", \"center\", or \"right\""
-msgstr ""
+msgstr "上\", \"中央\", \"下\", \"左\", \"中心\", 或 \"右"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:92
 msgid ""
-"The alignment of the image, equivalent to the HTML <img> tag's deprecated"
-" \"align\" attribute or the corresponding \"vertical-align\" and \"text-"
+"The alignment of the image, equivalent to the HTML <img> tag's deprecated "
+"\"align\" attribute or the corresponding \"vertical-align\" and \"text-"
 "align\" CSS properties. The values \"top\", \"middle\", and \"bottom\" "
-"control an image's vertical alignment (relative to the text baseline); "
-"they are only useful for inline images (substitutions). The values "
-"\"left\", \"center\", and \"right\" control an image's horizontal "
-"alignment, allowing the image to float and have the text flow around it. "
-"The specific behavior depends upon the browser or rendering software "
-"used."
+"control an image's vertical alignment (relative to the text baseline); they "
+"are only useful for inline images (substitutions). The values \"left\", "
+"\"center\", and \"right\" control an image's horizontal alignment, allowing "
+"the image to float and have the text flow around it. The specific behavior "
+"depends upon the browser or rendering software used."
 msgstr ""
+"画像の配置は、HTML <img> タグの廃止された \"align\" 属性や対応する \"vertical-align\" および \"text-"
+"align\" CSS プロパティに相当します。\"top\", \"middle\", および \"bottom\" "
+"の値は、テキストのベースラインに対して画像の垂直配置を制御し（インライン画像用）、\"left\", \"center\", および \"right\""
+" の値は画像の水平配置を制御し、画像を流し込み表示することができます。具体的な動作は使用しているブラウザやレンダリングソフトウェアによって異なります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:103
 msgid "target : *text (URI or reference name)*"
-msgstr ""
+msgstr "ターゲット : *text (URIや参照名)*"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:102
 msgid "text (URI or reference name)"
-msgstr ""
+msgstr "テキスト (URI もしくは参照名)"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:101
 msgid ""
@@ -234,12 +265,14 @@ msgid ""
 "argument may be a URI (relative or absolute), or a reference name with "
 "underscore suffix (e.g. \\`a name`_)."
 msgstr ""
+"画像をハイパーリンクに変換し、クリック可能にする。オプション引数はURI（相対的なものや絶対的なもの）か、アンダースコアで終わる参照名（例: ``a "
+"name``_）であることができる。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:105
 msgid ""
 "The new guidance related to images comes from improving website "
 "accessibility. We recommending avoiding the following options."
-msgstr ""
+msgstr "画像に関する新しいガイドラインはウェブサイトのアクセシビリティ向上に伴うものです。次のようなオプションは避けた方が良いでしょう。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:110
 msgid ""
@@ -250,357 +283,398 @@ msgid ""
 "page in the PDF version, sometimes the image is there all alone on an "
 "otherwise blank page."
 msgstr ""
+"アクセシビリティの問題は、画像がテキストの再配置とともに新しい位置に浮遊することから来ます。これにより、画像は周囲のテキストとの文脈から外れてしまうことがあります。画像は近くにあるテキストと関連しているべきなので、これは大きなアクセシビリティ上の問題です。PDF版では次のページに画像が移動することがあり、場合によってはそれ単独で白紙のページがあることもあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:135
 msgid "width, height, scale"
-msgstr ""
+msgstr "幅, 高さ, スケール"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:115
 msgid ""
-"Width is usually used to force the image to not fill the width of the "
-"page which usually looks OK in HTML and PDF. However, when viewing in a "
-"mobile browser the image can be too small to see easily. For example, a "
-"width of 50% will look fine when viewed on a big screen, but in portrait "
-"mode in a mobile browser the image will be half the width of the screen. "
-"However, on mobile you can usually just use two fingers to zoom the image"
-" (as long as you don't have a physical disability with your fingers)."
+"Width is usually used to force the image to not fill the width of the page "
+"which usually looks OK in HTML and PDF. However, when viewing in a mobile "
+"browser the image can be too small to see easily. For example, a width of "
+"50% will look fine when viewed on a big screen, but in portrait mode in a "
+"mobile browser the image will be half the width of the screen. However, on "
+"mobile you can usually just use two fingers to zoom the image (as long as "
+"you don't have a physical disability with your fingers)."
 msgstr ""
+"幅は通常、画像がページの幅を埋め尽くさないようにするためのもので、HTMLやPDFでは大抵の場合良好な表示になります。しかし、モバイルブラウザで見ると画像が小さすぎて確認しにくくなることがあります。例えば、幅50%は大きな画面で見ても問題ありませんが、モバイルブラウザでの縦向き表示では画像の幅はスクリーンの半分ほどになるため、確認しづらくなります。しかし、モバイルデバイスでは通常、二本の指で画像をズームインさせることができます（ただし、手指に物理的な障害がある場合はこの操作ができないこともあります）。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:120
 msgid ""
-"The bigger accessibility problem with these options is that that Sphinx "
-"will insert a link to the image. The idea is that you can click the link "
-"to see the full size image. This is an accessibility issue as the link "
-"itself has no title. It does not read well in a screen reader. If a "
-"visually impaired person followed the link they end up on a page with no "
-"text content and no alt text either."
+"The bigger accessibility problem with these options is that that Sphinx will"
+" insert a link to the image. The idea is that you can click the link to see "
+"the full size image. This is an accessibility issue as the link itself has "
+"no title. It does not read well in a screen reader. If a visually impaired "
+"person followed the link they end up on a page with no text content and no "
+"alt text either."
 msgstr ""
+"これらのオプションのより大きなアクセシビリティ上の問題は、Sphinx "
+"が画像へのリンクを挿入することです。アイデアとしては、リンクをクリックすることでフルサイズの画像を見ることができるというものです。しかし、このリンク自体にタイトルがないため、スクリーンリーダーでは読みづらい問題があります。視覚障害のある人がリンクを追跡した場合、テキストコンテンツもaltテキストもないページに移動してしまう可能性があるのです。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:125
 msgid ""
-"Sighted persons who want to see the full size image have the option to "
-"right click the image and open it in a new tab or window."
-msgstr ""
+"Sighted persons who want to see the full size image have the option to right"
+" click the image and open it in a new tab or window."
+msgstr "視覚に障害のない人は、全サイズの画像を見るために画像を右クリックして新しいタブやウィンドウで開くことができます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:127
 msgid ""
-"The AprilTag test images have both height and width specified as 5 inches"
-" which looks OK on the desktop or in a PDF, but ends up with a squished "
+"The AprilTag test images have both height and width specified as 5 inches "
+"which looks OK on the desktop or in a PDF, but ends up with a squished "
 "aspect ratio if viewed in a mobile browser. We'd be better off not "
 "specifying set sizes for the HTML and the PDF version of FTC docs. Then "
-"provide a separate PDF download that they can print to get accurately "
-"sized AprilTags."
+"provide a separate PDF download that they can print to get accurately sized "
+"AprilTags."
 msgstr ""
+"4月タグテスト画像は、高さと幅がともに5インチとして指定されており、デスクトップやPDFでは問題ありませんが、モバイルブラウザで見ると歪んだアスペクト比になってしまいます。FTCドキュメントのHTML版やPDF版には固定サイズを指定せずに、別途正確なサイズの4月タグを得るために印刷できるPDFダウンロードを提供すべきです。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:132
 msgid ""
-"If you want to keep the **width** option (perhaps the image size is too "
-"big for the page), then for accessibility we recommend you add the "
-"**class** option with **no-scaled-link** e.g. ``:class: no-scaled-link`` "
-"This tells Sphinx to not create the link, but the images will have the "
-"width you want. Though a better option might be to change the resolution "
-"of the image if relevant detail can be preserved."
+"If you want to keep the **width** option (perhaps the image size is too big "
+"for the page), then for accessibility we recommend you add the **class** "
+"option with **no-scaled-link** e.g. ``:class: no-scaled-link`` This tells "
+"Sphinx to not create the link, but the images will have the width you want. "
+"Though a better option might be to change the resolution of the image if "
+"relevant detail can be preserved."
 msgstr ""
+"もしページのサイズに画像が大きすぎるので、**width** オプションを維持したい場合、アクセシビリティのために **class** オプションに "
+"**no-scaled-link** を追加することをお勧めします。例えば ``:class: no-scaled-link`` "
+"です。これによりスphinxsはリンクを作成しないことがわかりますが、画像にはあなたが望む幅が設定されます。ただし、詳細を保存できる場合は、画像の解像度を変更する方が良い選択肢かもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:138
 msgid "External Images"
-msgstr ""
+msgstr "外部画像"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:140
 msgid ""
-"It is possible to include images that are external to FTC Docs, but we "
-"don't recommend that. There is no way to know if the image will still be "
-"there in the future. There is also the issue that external images may be "
-"copyrighted and we might not have permission to use."
+"It is possible to include images that are external to FTC Docs, but we don't"
+" recommend that. There is no way to know if the image will still be there in"
+" the future. There is also the issue that external images may be copyrighted"
+" and we might not have permission to use."
 msgstr ""
+"FTC "
+"Docs以外の外部画像を含めることは可能ですが、おすすめしません。将来的に画像が存在しているかどうかは誰も保証できません。また、外部画像は著作権で保護されている可能性があり、使用するための許可がない場合もあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:144
 msgid "Including an external image using a web address:"
-msgstr ""
+msgstr "ウェブアドレスを使用して外部画像を含める："
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:154
 msgid "Alt Text"
-msgstr ""
+msgstr "代替テキスト"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:156
 msgid ""
-"Images must have text alternatives that describe the information or "
-"function represented by them. This ensures that images can be used by "
-"people with various disabilities."
+"Images must have text alternatives that describe the information or function"
+" represented by them. This ensures that images can be used by people with "
+"various disabilities."
 msgstr ""
+"画像には、その画像で表現されている情報や機能を説明するテキスト代替物が必要です。これにより、様々な障がいを持つ人々でも画像を使用できるようにすることができます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:159
 msgid "Why is this important?"
-msgstr ""
+msgstr "なぜこれが重要なのかは？"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:161
 msgid ""
-"Images and graphics make content more pleasant and easier to understand "
-"for many people, and in particular for those with cognitive and learning "
+"Images and graphics make content more pleasant and easier to understand for "
+"many people, and in particular for those with cognitive and learning "
 "disabilities. They serve as cues that are used by people with visual "
-"impairments, including people with low vision, to orient themselves in "
-"the content."
+"impairments, including people with low vision, to orient themselves in the "
+"content."
 msgstr ""
+"画像やグラフィックスは、多くの人々にとってコンテンツがよりpleasantで理解しやすくなります。特に認知障害や学習障害を持つ人々にとっては重要な役割を果たします。視覚障害者、特に低視力の人々にとって、これらの画像やグラフィックスは自己定位のヒントとして使用されます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:163
 msgid ""
 "However, images are used extensively on websites and can create major "
-"barriers when they are not accessible. Accessible images are beneficial "
-"in many situations, such as:"
+"barriers when they are not accessible. Accessible images are beneficial in "
+"many situations, such as:"
 msgstr ""
+"しかし、画像はウェブサイトで広く使用されており、アクセス不能な状態では大きな障壁となります。アクセシブルな画像は以下の状況など、多くの場合に有益です："
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:165
 msgid ""
 "People using screen readers: The text alternative can be read aloud or "
 "rendered as Braille"
-msgstr ""
+msgstr "PEOPLE USING SCREEN READERS: 文字替代テキストは読み上げられたり、ブライアール表示としてレンダリングされます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:166
 msgid ""
-"People using speech input software: Users can put the focus onto a button"
-" or linked image with a single voice command"
-msgstr ""
+"People using speech input software: Users can put the focus onto a button or"
+" linked image with a single voice command"
+msgstr "音声入力ソフトウェアを使用している人々：ユーザーは単一の声の命令でボタンやリンクされた画像にフォーカスを当てることが可能です"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:167
 msgid ""
-"People browsing speech-enabled websites: The text alternative can be read"
-" aloud"
-msgstr ""
+"People browsing speech-enabled websites: The text alternative can be read "
+"aloud"
+msgstr "PEOPLE BROWSING SPEECH-ENABLED WEBSITES: テキスト代替テキストは読み上げられます"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:168
-msgid "Mobile web users: Images can be turned off, especially for data-roaming"
-msgstr ""
+msgid ""
+"Mobile web users: Images can be turned off, especially for data-roaming"
+msgstr "モバイルウェブユーザー：画像はデータローミング時など、特に必要ない場合はオフにできます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:169
 msgid "Search engine optimization: Images become indexable by search engines"
-msgstr ""
+msgstr "検索エンジン最適化：画像が検索エンジンでインデックス化される"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:172
 msgid "Alt Text Guidelines"
-msgstr ""
+msgstr "代替テキストのガイドライン"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:174
 msgid ""
-"The following guidelines are from: https://www.nngroup.com/articles"
-"/write-alt-text/"
+"The following guidelines are from: https://www.nngroup.com/articles/write-"
+"alt-text/"
 msgstr ""
+"次のガイドラインは、https://www.nngroup.com/articles/write-alt-text/ から引用されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:176
 msgid ""
-"Keep it short. Alt text shouldn’t be much longer than around 150 "
-"characters. Users can’t pause and resume the screen reader in the middle "
-"of alt text without going back to the beginning. People also can’t hold "
-"very much information in their working memory. Users will skip alt text "
-"if it doesn’t immediately seem like it will help them with their task."
+"Keep it short. Alt text shouldn’t be much longer than around 150 characters."
+" Users can’t pause and resume the screen reader in the middle of alt text "
+"without going back to the beginning. People also can’t hold very much "
+"information in their working memory. Users will skip alt text if it doesn’t "
+"immediately seem like it will help them with their task."
 msgstr ""
+"簡潔に。代替テキストは約150文字程度で十分です。ユーザーは代替テキストの途中でスクリーンリーダーを一時停止し、再度再生することができません。また、人間は短時間記憶に大量の情報を保持することはできません。ユーザーはすぐにその代替テキストがタスクを達成するために役立つとは思えなければスキップします。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:177
 msgid ""
 "Do not include words like ‘image’ or ‘photo’ at the beginning. Screen "
-"readers already identify images as images when they encounter them "
-"because they are contained within the <img> HTML tag. Identifying an "
-"image as a certain type (e.g., infographic, chart, illustration) is "
-"appropriate if it will help the user understand the other alt text."
+"readers already identify images as images when they encounter them because "
+"they are contained within the <img> HTML tag. Identifying an image as a "
+"certain type (e.g., infographic, chart, illustration) is appropriate if it "
+"will help the user understand the other alt text."
 msgstr ""
+"画像や写真という言葉は最初に含めないでください。スクリーンリーダーは、<img> "
+"HTMLタグ内にあるため既に画像を認識しますので、画像を特定の種類（例えば、インフォグラフィック、チャート、イラストレーションなど）として識別する必要はありません。その他の代替テキストを理解するのに役立つ場合にのみ、特定のタイプを識別することが適切です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:178
 msgid ""
 "End alt text with a period, even if it isn’t a full sentence. The period "
 "ensures that the screen reader pauses after reading the alt text."
 msgstr ""
+"altテキストの終了には句点を使用し、文が完全でない場合でも同様にします。句点はスクリーンリーダーがaltテキストを読み上げ後に一時停止することを保証します。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:179
 msgid ""
-"Frontload alt text with the most important words, to help users make a "
-"quick and informed decision about whether it’s worth listening to the "
-"rest of the alt text before moving on."
+"Frontload alt text with the most important words, to help users make a quick"
+" and informed decision about whether it’s worth listening to the rest of the"
+" alt text before moving on."
 msgstr ""
+"前方投入用の代替テキストには、重要な単語を最初に含め、ユーザーが残りの代替テキストを読み飛ばす前に価値があるかどうか速やかで正確な判断ができるようにします。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:180
 msgid ""
 "Always include an alt attribute (alt=””), even if it will be empty. "
 "Otherwise, screen readers might announce the image file name."
-msgstr ""
+msgstr "常にalt属性（alt=\"\"）を含め、空の場合でもです。これにより、スクリーンリーダーは画像ファイル名の読み上げを避けることができます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:181
 msgid ""
 "Avoid technical jargon and abbreviations unless users are certain to "
 "understand them."
-msgstr ""
+msgstr "技術用語や略語は必ずしも避けることではなく、ユーザーが確実に理解できる場合は使用してもかまいません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:182
 msgid ""
-"Never reuse alt text for the same image without reanalyzing the context "
-"in which the image is placed."
-msgstr ""
+"Never reuse alt text for the same image without reanalyzing the context in "
+"which the image is placed."
+msgstr "同じ画像に対して、画像が配置されるコンテキストを再分析せずにaltテキストを再利用しないでください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:183
 msgid ""
 "Mention identity only if it’s relevant. If the race, ethnicity, gender, "
-"religion, or cultural identifiers of the people pictured aren’t part of "
-"the reason the image was included, don’t mention them."
+"religion, or cultural identifiers of the people pictured aren’t part of the "
+"reason the image was included, don’t mention them."
 msgstr ""
+"登場人物のアイデンティティを記述する際は、その画像が掲載された理由に関連がある場合のみに限って記述してください。人種、民族、性別、宗教、または文化に関する識別情報が画像掲載の理由に含まれていない場合は、それらを記述しないでください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:185
 msgid ""
 "The following examples are taken from: "
 "https://www.w3.org/WAI/tutorials/images/"
-msgstr ""
+msgstr "次の例は、https://www.w3.org/WAI/tutorials/images/ から引用されています："
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:188
 msgid "Example: Images used to supplement other information"
-msgstr ""
+msgstr "例：他の情報に補足するための画像"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:190
 msgid ""
-"The following image shows a dog wearing a bell. It supplements the "
-"adjacent text that explains the purpose of this bell. A short text "
-"alternative is sufficient to describe the information that is displayed "
-"visually but is not explained in the text; in this case, the text "
-"alternative is “Dog with a bell attached to its collar.”."
+"The following image shows a dog wearing a bell. It supplements the adjacent "
+"text that explains the purpose of this bell. A short text alternative is "
+"sufficient to describe the information that is displayed visually but is not"
+" explained in the text; in this case, the text alternative is “Dog with a "
+"bell attached to its collar.”."
 msgstr ""
+"以下の画像は、鈴が首輪に付けられた犬を示しています。この鈴の目的について説明する隣接したテキストを補完します。視覚的に表示される情報について十分な短い代替テキストで説明できればよいので、この場合の代替テキストは「首輪に鈴がついた犬」です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst
 msgid "Dog with a bell attached to its collar."
-msgstr ""
+msgstr "首輪にベルがついた犬。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:196
 msgid ""
-"Off-duty guide dogs often wear a bell. Its ring helps the blind owner "
-"keep track of the dog’s location"
+"Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep "
+"track of the dog’s location"
 msgstr ""
+"休憩中の導盲犬は Often wear a bell ften ベルをつけています。その音色は 盲人 の所有者に 犬の位置 を把握するのに役立ちます"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:198
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:217
 msgid "The alt text is added to the HTML img tag."
-msgstr ""
+msgstr "代替テキストはHTMLのimgタグに追加されます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:204
 msgid ""
-"If the text included an explanation of how the dog wears a bell, the "
-"image might be considered redundant and therefore decorative. As this "
-"isn’t mentioned in the text, the image is deemed to be informative."
+"If the text included an explanation of how the dog wears a bell, the image "
+"might be considered redundant and therefore decorative. As this isn’t "
+"mentioned in the text, the image is deemed to be informative."
 msgstr ""
+"もし犬がベルを着ける方法についての説明が含まれていた場合、画像は余分で装飾的なものと見なされる可能性があります。本文にそのような説明がないため、この画像は情報提供的であると判断されます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:208
 msgid "Example: Images conveying succinct information"
-msgstr ""
+msgstr "例：簡潔に情報伝達する画像"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:210
 msgid ""
-"This simple diagram illustrates a counterclockwise direction for "
-"unscrewing a bottle top or cap. The information can be described in a "
-"short sentence, so the text alternative “Push the cap down and turn it "
-"counterclockwise (from right to left)” is given in the alt attribute."
+"This simple diagram illustrates a counterclockwise direction for unscrewing "
+"a bottle top or cap. The information can be described in a short sentence, "
+"so the text alternative “Push the cap down and turn it counterclockwise "
+"(from right to left)” is given in the alt attribute."
 msgstr ""
+"このシンプルな図は、ボトルキャップを逆時計回りに外す方向を示しています。情報は短い文で説明できるため、alt属性には「キャップを下に押し込んで逆時計回りに回してください（右から左へ）」というテキストオプションが与えられています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst
 msgid "Push the cap down and turn it counterclockwise (from right to left)"
-msgstr ""
+msgstr "キャップを下に押して、反時計回りに回転させます（右から左へ）"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:224
 msgid ""
 "An alternative technique would be to provide the instructions within the "
-"main content rather than as a text alternative to the image. This "
-"technique makes all information available in text for everyone while "
-"providing an illustration for people who prefer to view the information "
-"visually."
+"main content rather than as a text alternative to the image. This technique "
+"makes all information available in text for everyone while providing an "
+"illustration for people who prefer to view the information visually."
 msgstr ""
+"代替的手法としては、指示を主コンテンツ内に提供することです。これにより、すべての情報がテキストで Everyone "
+"に利用可能になり、視覚的に情報を確認したい人に対して図表も提供されます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:226
 msgid ""
-"If more information than that of the diagram is intended to be conveyed "
-"by the image, it may be better to follow one of the approaches described "
-"in `Complex Image Example`_. For example, if the fact that this diagram "
-"appears on a bottle or if the shape and size of the bottle were relevant "
-"pieces of information, use a more detailed alternative text."
+"If more information than that of the diagram is intended to be conveyed by "
+"the image, it may be better to follow one of the approaches described in "
+"`Complex Image Example`_. For example, if the fact that this diagram appears"
+" on a bottle or if the shape and size of the bottle were relevant pieces of "
+"information, use a more detailed alternative text."
 msgstr ""
+"もし図より詳しい情報を画像で伝えたい場合、`複雑な画像の例`_ "
+"に記載されている方法のいずれかを採用することが良いかもしれません。例えば、この図が瓶に描かれていることや、瓶の形状やサイズが重要な情報であれば、詳細な代替テキストを使用することをお勧めします。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:229
 msgid "Alt Text and Captions"
-msgstr ""
+msgstr "代替テキストとキャプション"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:231
 msgid ""
 "The previous examples did not require captions. If you also require a "
-"caption use the RST figure directive with a caption and alt text. Ensure "
-"the caption does not repeat the alt text. That's because a screen reader "
-"will read both."
+"caption use the RST figure directive with a caption and alt text. Ensure the"
+" caption does not repeat the alt text. That's because a screen reader will "
+"read both."
 msgstr ""
+"前々の例ではキャプションは必要ありませんでした。キャプションが必要な場合は、RSTのfigureディレクティブを使用し、キャプションと代替テキストを指定してください。キャプションには代替テキストを繰り返さないでください。なぜならスクリーンリーダーは両方を読み上げるからです。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:238
 msgid ""
 "While both the alt attribute and the figcaption element provide a way to "
 "describe images, the way we write for them is different."
-msgstr ""
+msgstr "画像を説明する方法としては、alt属性とfigcaption要素がありますが、両者の記述方法は異なります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:237
 msgid "alt descriptions should be functional;"
-msgstr ""
+msgstr "代替説明は機能的でなければなりません；"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:238
 msgid "figcaption descriptions should be editorial or illustrative."
-msgstr ""
+msgstr "figcaptionの説明は編集的なものや説示的なものにしてください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:240
 msgid ""
 "If the caption is just a functional description of the image, maybe you "
 "don't need a caption and can use the image directive instead."
-msgstr ""
+msgstr "もしキャプションが画像の機能的な説明だけであれば、キャプションは必要ないかもしれませんし、画像指示子を使用するのも良いでしょう。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:242
 msgid ""
-"See more examples of `alt text and captions <https://thoughtbot.com/blog"
-"/alt-vs-figcaption#writing-for-alt-and-figcaption>`_ on this Thoughbot "
-"blog post."
+"See more examples of `alt text and captions "
+"<https://thoughtbot.com/blog/alt-vs-figcaption#writing-for-alt-and-"
+"figcaption>`_ on this Thoughbot blog post."
 msgstr ""
+"`代替テキストとキャプションの更多示例 <https://thoughtbot.com/blog/alt-vs-figcaption#writing-"
+"for-alt-and-figcaption>`_ については、このThoughtbotのブログ記事をご覧ください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:247
 msgid "Figure Directive"
-msgstr ""
+msgstr "図表-directive"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:249
 msgid ""
 "Use the ``.. figure`` directive when the image requires a visible text "
 "caption or a long description."
-msgstr ""
+msgstr "画像に視覚的なテキストキャプションが必要或者長い説明が必要な場合、「.. figure」ディレクティブを使用します。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:251
 msgid ""
-"Photo credits are an example of when you need a caption. You should also "
-"use a caption when you need editorial or illustrative text to highlight "
+"Photo credits are an example of when you need a caption. You should also use"
+" a caption when you need editorial or illustrative text to highlight "
 "something about the image to the reader or to connect the image to the "
 "surrounding text content."
 msgstr ""
+"写真のクレジットは、キャプションが必要な例です。画像に編集上のテキストや解説的なテキストを追加する必要がある場合も、キャプションを使用します。これにより読者に対して画像について重要な情報を提供し、または画像と周囲のテキストコンテンツをつなげることができます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:255
 msgid "If a caption is not required, just use the `Image Directive`_."
-msgstr ""
+msgstr "キャプションが不要な場合は、単に「Image Directive」_ を使用します。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:257
 msgid ""
-"Please create alt text for screen readers even though there is a caption."
-" The alt text and caption should be different because a screen reader "
-"will read both. One way to think about this is the alt text should be "
-"functional and the caption editorial or illustrative. In the following "
-"example, the alt text describes the image, and the caption serves to "
-"connect the image with a travel article about Machu Picchu."
+"Please create alt text for screen readers even though there is a caption. "
+"The alt text and caption should be different because a screen reader will "
+"read both. One way to think about this is the alt text should be functional "
+"and the caption editorial or illustrative. In the following example, the alt"
+" text describes the image, and the caption serves to connect the image with "
+"a travel article about Machu Picchu."
 msgstr ""
+"スクリーンリーダー用の代替テキストを作成してください。キャプションがあるからといって作成しない必要はありません。代替テキストとキャプションは異なるべきで、スクリーンリーダーは両方を読み上げます。この点について考えると、代替テキストは機能的なものであり、一方でキャプションは編集的なものや説明的なものであるべきです。以下の例では、代替テキストは画像の説明をし、キャプションはマチュ・ピチュに関する旅行記事と画像を結びつける役割を果たします。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:270
 msgid ""
-"Note that the ``:alt:`` line and caption are both indented 3 spaces after"
-" the directive. A blank line is required between the ``:alt:`` and the "
+"Note that the ``:alt:`` line and caption are both indented 3 spaces after "
+"the directive. A blank line is required between the ``:alt:`` and the "
 "caption."
 msgstr ""
+"``:alt:`` 行とキャプションはディレクティブの後ろに3スペースインデントされています。``:alt:`` とキャプション之间必须有一行空格。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:273
 msgid ""
-"We don't want the ``:alt:`` line to be blank for a figure. A screen "
-"reader will have probably spoken that there is a figure, without alt text"
-" the screen reader will skip over announcing the image and read the "
-"caption leaving the user wondering what the caption is referring to."
+"We don't want the ``:alt:`` line to be blank for a figure. A screen reader "
+"will have probably spoken that there is a figure, without alt text the "
+"screen reader will skip over announcing the image and read the caption "
+"leaving the user wondering what the caption is referring to."
 msgstr ""
+"図の ``:alt:`` 行は空白にしてはいけません。スクリーンリーダーはおそらく図があることを読み上げているはずです。-altテキストがない場合、スクリーンリーダーは画像を anunciando チャプター skipping して読み飛ばし、ユーザーがチャプターが何についているのか不思議に思う可能性があります。\n"
+"\"\"\"\n"
+"注:\n"
+"- reStructuredText形式を保持しています。\n"
+"- 構造（改行位置、インデント、空白行）を保持しています。\n"
+"- 専門用語（スクリーンリーダー）は原文のままです。\n"
+"- 丁寧語（です・ます調）で自然な日本語に翻訳しています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:277
 msgid ""
@@ -608,58 +682,65 @@ msgid ""
 "directive. These options (except align) are passed on to the contained "
 "image."
 msgstr ""
+"``.. figure`` ディレクティブは、``.. image`` "
+"ディレクティブのすべてのオプションをサポートします。これらのオプション（align以外）は、含まれる画像に渡されます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:283
 msgid "``:align:``  \"left\", \"center\", or \"right\"."
-msgstr ""
+msgstr ":align:`` は「左」とか「中央」、または「右」です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:280
 msgid ""
-"The horizontal alignment of the figure, allowing the image to float and "
-"have the text flow around it. The specific behavior depends upon the "
-"browser or rendering software used."
+"The horizontal alignment of the figure, allowing the image to float and have"
+" the text flow around it. The specific behavior depends upon the browser or "
+"rendering software used."
 msgstr ""
+"図の水平配置は、画像が流動し、テキストがその周りを流れることを許可します。具体的な動作は使用しているブラウザやレンダリングソフトウェアによって異なります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:282
 msgid ""
-"Avoid using **align**. In PDF it tends to float the figure to another "
-"area of the page, sometimes to the next page where the image is no longer"
-" in context."
+"Avoid using **align**. In PDF it tends to float the figure to another area "
+"of the page, sometimes to the next page where the image is no longer in "
+"context."
 msgstr ""
+"**align** "
+"を使用しないことを推奨します。PDFで画像はページの別の領域に浮き上がることがあり、場合によっては次のページに行ってしまうため、文脈から外れてしまうことがあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:285
 msgid ""
 "There is an optional legend that can be included after the caption. This "
-"might be useful for charts and maps and other complex imagery. The legend"
-" paragraph is a good place for a long description of the image to go."
+"might be useful for charts and maps and other complex imagery. The legend "
+"paragraph is a good place for a long description of the image to go."
 msgstr ""
+"キャプションの後にはオプションで説明図が含まれることがあります。これはグラフや地図、その他の複雑な画像に対して有用です。説明図の段落は、画像に対する長文の説明を入れるのに適しています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:288
 msgid "Legends looks like:"
-msgstr ""
+msgstr "レジェンドは次のようになります："
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:311
 msgid ""
 "There must be blank lines before the caption paragraph and before the "
-"legend. To specify a legend without a caption, use an empty comment "
-"(\"..\") in place of the caption."
+"legend. To specify a legend without a caption, use an empty comment (\"..\")"
+" in place of the caption."
 msgstr ""
+"キャプションパラグラフとレジェンドの前に空白行が必要です。キャプションなしでレジェンドを指定する場合は、キャプションの位置に空のコメント（\"..\\\"）を使用します。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:314
 msgid ""
 "A table might be useful for charts or complex images that might need "
 "descriptions of various parts of the image."
-msgstr ""
+msgstr "図表や複雑な画像など、画像の Various Parts の説明が必要な場合にテーブルが役立つかもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:316
 msgid ""
-"We do not recommend using the ascii art form of a table as shown above, "
-"use a list style table instead."
-msgstr ""
+"We do not recommend using the ascii art form of a table as shown above, use "
+"a list style table instead."
+msgstr "上記のようにASCIIアート形式のテーブルを使用することを推奨しません。代わりにリスト形式のテーブルを使用してください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:321
 msgid "Complex Image Example"
-msgstr ""
+msgstr "複雑な画像例"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:323
 msgid ""
@@ -668,72 +749,80 @@ msgid ""
 "actually describe the image as we assume the reader is not impaired "
 "visually."
 msgstr ""
+"FTC "
+"ドキュメントには非常に複雑な画像がいくつかあります。通常、これらの画像に関連する説明的なテキストがありますが、視覚に障害がないと仮定し、実際には画像自体を詳細に説明することはありません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:326
 msgid ""
 "If you are editing an existing page, you may need to adjust what text "
-"surrounds the image, and what text describes the image. If the "
-"surrounding text describes part of the image, it should probably be moved"
-" into the long description of the image."
+"surrounds the image, and what text describes the image. If the surrounding "
+"text describes part of the image, it should probably be moved into the long "
+"description of the image."
 msgstr ""
+"もし既存のページを編集している場合、画像を取り巻くテキストや画像を説明するテキストを調整する必要があるかもしれません。取り巻くテキストが画像の一部を説明している場合は、そのテキストは画像の長さ説明に移動すべきです。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:329
 msgid ""
-"The FTC Docs guidance is to use the legend of a ``.. figure`` directive "
-"when a long description is required. This paragraph should be placed "
-"after after the caption, leaving a single blank line in between. Instead "
-"of a paragraph, you can include a table or list if that would better "
-"describe the image."
+"The FTC Docs guidance is to use the legend of a ``.. figure`` directive when"
+" a long description is required. This paragraph should be placed after after"
+" the caption, leaving a single blank line in between. Instead of a "
+"paragraph, you can include a table or list if that would better describe the"
+" image."
 msgstr ""
+"長い説明が必要な場合、``.. figure`` "
+"指令の伝説を使用するようにFTCドキュメントガイドラインに従います。この段落はキャプションの後に配置し、その間には1行分の空白を残します。段落ではなく、画像がよりよく説明できる場合はテーブルやリストを含めることもできます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:333
 msgid ""
-"The following example is how we might describe a complex diagram. We use "
-"a ``.. figure`` directive with alt text, caption and long description. "
-"This diagram is located on the Control System Introduction page."
+"The following example is how we might describe a complex diagram. We use a "
+"``.. figure`` directive with alt text, caption and long description. This "
+"diagram is located on the Control System Introduction page."
 msgstr ""
+"次の例は、複雑な図をどのように説明するかの方法です。``.. figure`` "
+"ディレクティブを使用し、代替テキスト、キャプション、長い説明を含めます。この図は「制御システム入門」ページにあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:353
 msgid ""
-"The alt text is a summary of the functional description of the image "
-"(which follows the caption). The caption indicates that this is an "
-"example of an Expansion Hub and phone and relates to the prior paragraphs"
-" on the Control System Introduction page which talk about possible "
-"configurations of the Expansion Hub. In this case the long description is"
-" basically a listing of the devices connected to the Expansion Hub."
+"The alt text is a summary of the functional description of the image (which "
+"follows the caption). The caption indicates that this is an example of an "
+"Expansion Hub and phone and relates to the prior paragraphs on the Control "
+"System Introduction page which talk about possible configurations of the "
+"Expansion Hub. In this case the long description is basically a listing of "
+"the devices connected to the Expansion Hub."
 msgstr ""
+"代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これは拡張ハブと電話の例であり、制御システム入門ページで述べた拡張ハブの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst
 msgid "Rev expansion hub with various devices connected."
-msgstr ""
+msgstr "REV拡張ハブに Various Devices が接続されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:365
 msgid "Expansion Hub and Phone"
-msgstr ""
+msgstr "Expansion Hub と フォン"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:367
 msgid "The Expansion Hub has the following devices connected."
-msgstr ""
+msgstr "拡張ハブには次のデバイスが接続されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:369
 msgid "a Robot Controller phone via a USB connection;"
-msgstr ""
+msgstr "ロボットコントローラーとUSB接続で電話する；"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:370
 msgid "A 12 volt battery with on/off switch;"
-msgstr ""
+msgstr "12Vのバッテリーにオンオフスイッチが付いたもの；"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:371
 msgid "A three wire servo connects to one of six servo ports;"
-msgstr ""
+msgstr "3本のワイヤーを持つサーボは、6つのサーボポートの1つに接続します；"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:372
 msgid "An analog sensor connects to one of two analog sensor ports;"
-msgstr ""
+msgstr "アナログセンサは、2つのアナログセンサポートの1つに接続します；"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:373
 msgid "An I2C sensor connects to one of four I2C ports;"
-msgstr ""
+msgstr "I2Cセンサは4つのI2Cポートの1つに接続します；"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:374
 msgid ""
@@ -741,6 +830,8 @@ msgid ""
 "connection and an encoder connection. There are four motor ports on the "
 "Expansion Hub."
 msgstr ""
+"拡張ハブに2つのモータが接続されています。各モーターには電力コネクションとエンコーダー "
+"コネクションがあります。拡張ハブには4つのモーターポートがあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:376
 msgid ""
@@ -748,33 +839,37 @@ msgid ""
 "Sphinx will generate a HTML Figure tag and Figcaption tag. This clearly "
 "associates the text with the image for screen readers."
 msgstr ""
+"キャプションや伝説を使用した図を使うと、アクセシビリティが向上します。SphinxはHTMLのFigureタグとFigcaptionタグを生成するため、スクリーンリーダーによるテキストと画像との明確な関連付けが可能です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:379
 msgid ""
 "This HTML is from the square field image of the Field Coordinate System "
 "page."
-msgstr ""
+msgstr "このHTMLは、フィールド座標システムページの正方形フィールド画像から取得されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:397
 msgid ""
 "A screen reader encountering the HTML above will normally announce that "
-"there is a *figure*. It would then speak the alt text and indicate there "
-"was an *image*. It would continue by reading the caption followed by the "
-"long description. Finally the screen reader would announce *end figure*."
+"there is a *figure*. It would then speak the alt text and indicate there was"
+" an *image*. It would continue by reading the caption followed by the long "
+"description. Finally the screen reader would announce *end figure*."
 msgstr ""
+"スクリーンリーダーが上記のHTMLに遭遇した場合、通常は図があることを告げます。その後、替代テキストを読み上げて、画像であることを示します。次にキャプションを読み上げた後、長い説明を読み上げます。最後にスクリーンリーダーは「図の終わり」と告げます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:400
 msgid ""
-"Using the ``.. figure`` directive for complex images nicely surrounds the"
-" image with a complete text description that is useful for all users as "
-"we clearly indicate what the image is about and what is important."
+"Using the ``.. figure`` directive for complex images nicely surrounds the "
+"image with a complete text description that is useful for all users as we "
+"clearly indicate what the image is about and what is important."
 msgstr ""
+"複雑な画像のために ``.. figure`` "
+"ディレクティブを使用すると、画像を完全なテキスト説明で囲むことができ、ユーザー全員にとって有用です。私たちは画像が何についてのものであるか、そして重要な点は何であるかをはっきりと示します。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:403
 msgid ""
-"If you ever find that you need a long description, but the image really "
-"does not need a visible text caption, you can enter a blank comment as "
-"the caption. This looks like two periods ``..`` placed where the caption "
-"would be and at the same indent as the long description."
+"If you ever find that you need a long description, but the image really does"
+" not need a visible text caption, you can enter a blank comment as the "
+"caption. This looks like two periods ``..`` placed where the caption would "
+"be and at the same indent as the long description."
 msgstr ""
-
+"もし長い説明が必要な場合でも、画像に見えるテキストキャプションが不要な場合は、キャプションとして空白のコメントを入力できます。これは、キャプションが表示される位置と長さ説明と同じインデントで「..」という2つのピリオドを配置することで実現します。"

@@ -12,113 +12,118 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:2
 msgid "Design to Make Easy-To-Print Parts"
-msgstr ""
+msgstr "印刷しやすい部品の設計"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:4
 msgid ""
-"A major problem teams sometimes encounter is that their parts are "
-"difficult to print without extreme amounts of supports or precarious "
-"overhangs. This issue can and should be solved during the design process "
-"in a practice sometimes called DFAM (Designing for Additive "
-"Manufacturing). 3d Printers have limits, and these can be taken into "
-"account while initially creating a part, making those manufacturing "
-"limitations just as much of a consideration as what the function of the "
-"part you're creating is."
+"A major problem teams sometimes encounter is that their parts are difficult "
+"to print without extreme amounts of supports or precarious overhangs. This "
+"issue can and should be solved during the design process in a practice "
+"sometimes called DFAM (Designing for Additive Manufacturing). 3d Printers "
+"have limits, and these can be taken into account while initially creating a "
+"part, making those manufacturing limitations just as much of a consideration"
+" as what the function of the part you're creating is."
 msgstr ""
+"チームがしばしば遭遇する大きな問題の1つは、部品を極端な量のサポートなしで印刷するのが難しいか、あるいは不安定なオーバーハングがあることです。この問題は設計プロセスの中で解決できるものであり、DFAM（追加製造のために設計）という"
+" Practices "
+"によって解決することができます。3Dプリンターには限界がありますが、これらの制限を最初から部品を作成する際に考慮に入れることで、これらの製造制限は部品の機能と同様に重要な要素となります。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:11
 msgid "Printing Face"
-msgstr ""
+msgstr "印刷面"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:12
 msgid ""
-"When you first conceptualize a part you plan to print, immediately "
-"consider what face will lie on the built plate for it to print safely on."
-" In general the more area touching the plate, the better, as it provides "
-"more adhesion. Always design with creating large flat surfaces for "
-"printing in mind."
+"When you first conceptualize a part you plan to print, immediately consider "
+"what face will lie on the built plate for it to print safely on. In general "
+"the more area touching the plate, the better, as it provides more adhesion. "
+"Always design with creating large flat surfaces for printing in mind."
 msgstr ""
+"最初に印刷する部品を概念化したときに、その部品が安全に印刷できるように組み立てられたプレートのどの面が底面になるか直ちに考慮してください。一般的には、プレートと接触する面積が大きいほど良いです。これにより接着性が向上します。常に大きな平らな面を設計することで印刷することを念頭に置いて設計することをお勧めします。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:-1
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:20
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:29
 msgid "A part on a slicer's bed view."
-msgstr ""
+msgstr "スライサーの台座上の部品のビュー。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:20
 msgid ""
-"A part with a slightly concerning contact with the bed. This part could "
-"have been designed to rest another, larger face on the bed."
-msgstr ""
+"A part with a slightly concerning contact with the bed. This part could have"
+" been designed to rest another, larger face on the bed."
+msgstr "ベッドにやや心配な接触がある部品です。この部品は、別の Larger Face がベッドに休息できるように設計される可能性があります。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:29
 msgid ""
 "A part with much better contact with the bed. This part looks great to "
 "print."
-msgstr ""
+msgstr "床との接触がよっぽど良い部分です。この部分は印刷するのにとても良いと思います。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:34
 msgid "Overhang Angles"
-msgstr ""
+msgstr "オーバヘンガングレート"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:36
 msgid ""
-"Supports should only be used if absolutely necessary. In almost all "
-"parts, you can find some way to create angles or adjust geometry to avoid"
-" support usage. Supports lengthen post-processing time, are generally "
-"difficult to tune, leave less clean surfaces, and are more prone to "
-"failure."
+"Supports should only be used if absolutely necessary. In almost all parts, "
+"you can find some way to create angles or adjust geometry to avoid support "
+"usage. Supports lengthen post-processing time, are generally difficult to "
+"tune, leave less clean surfaces, and are more prone to failure."
 msgstr ""
+"サポートは絶対に必要不可欠な場合以外では使用しないでください。ほとんどの部分では、角度を作成する方法や幾何学を調整することでサポートの使用を避けることができます。サポートは後処理時間の延長につながり、一般的には調整が難しいものであり、より綺麗ではない表面を残し、故障する可能性も高いです。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:46
 msgid ""
-"After you determine your printing face for a part, look at it closely and"
-" determine whether there's any areas with over a ~45 degree overhang. "
-"Then, try and mitigate those areas using chamfers, fillets, and adding "
-"material. If mitigation isn't possible, consider splitting the part into "
-"multiple pieces and securing them together with fasteners."
+"After you determine your printing face for a part, look at it closely and "
+"determine whether there's any areas with over a ~45 degree overhang. Then, "
+"try and mitigate those areas using chamfers, fillets, and adding material. "
+"If mitigation isn't possible, consider splitting the part into multiple "
+"pieces and securing them together with fasteners."
 msgstr ""
+"部品の印刷面を決定した後、その部分をよく見て、45度以上のオーバヘング（突き出）がある領域がないか確認してください。次に、これらの領域を転角加工（チャームファーやフィレット）、または材料の追加で緩和試みてください。緩和が不可能な場合は、部品を複数の部分に分割し、ボルトなどの固定金具を使用して組み立てる方法を検討してください。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:51
 msgid "Overhang Angles Case Study #1"
-msgstr ""
+msgstr "オーバヘンゲン角度ケーススタディ #1"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:53
 msgid ""
 "The part you see below would have been very frustrating to print in any "
-"orientation without the use of supports, so it was opted to split it in "
-"two and use M3 screws to attach the pieces instead. This provided two "
-"very easy to print parts."
+"orientation without the use of supports, so it was opted to split it in two "
+"and use M3 screws to attach the pieces instead. This provided two very easy "
+"to print parts."
 msgstr ""
+"下記の部分は、サポートを使用しないとどの向きで印刷しても非常に frustrating "
+"だったため、2つに分割し、M3スクリューを使って部品を接続することにしました。これにより、非常に簡単に印刷できる2つの部品が得られました。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:-1
 msgid "A part split in two for printability."
-msgstr ""
+msgstr "印刷のため分割された部分。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:64
 msgid "Overhang Angles Case Study #2"
-msgstr ""
+msgstr "オーバヘンゲン角度ケーススタディ #2"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:66
 msgid ""
-"The part you see below is an arm hardstop for a robot, eventually printed"
-" with no supports despite its complex geometry. In particular, pay "
-"attention to the second picture. The part could have been designed to "
-"stop at the red line but was extended to a 45 degree overhang to ensure "
-"the printer wasn't printing in midair."
+"The part you see below is an arm hardstop for a robot, eventually printed "
+"with no supports despite its complex geometry. In particular, pay attention "
+"to the second picture. The part could have been designed to stop at the red "
+"line but was extended to a 45 degree overhang to ensure the printer wasn't "
+"printing in midair."
 msgstr ""
+"下に見せる部分は、ロボット用のアームハードストップで、複雑な幾何形状にもかかわらずサポートなしで印刷されます。特に、二番目の画像に注意してください。この部品は赤いラインで停止するように設計できるものでしたが、空中で印刷しないことを確認するために45度のオーバヘングまで延長されました。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/part_printability/part_printability.rst:-1
 msgid "A complex part printable without supports."
-msgstr ""
-
+msgstr "サポートなしで印刷可能な複雑な部品。"

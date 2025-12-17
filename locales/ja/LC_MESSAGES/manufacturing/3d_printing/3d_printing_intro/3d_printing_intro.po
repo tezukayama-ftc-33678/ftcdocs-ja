@@ -12,117 +12,128 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:2
 msgid "3D Printing Introduction"
-msgstr ""
+msgstr "3Dプリント入門"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:11
 msgid "Example of 3D printed parts"
-msgstr ""
+msgstr "3Dプリントされた部品の例"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:11
 msgid "3D printed dead wheel odometry parts"
-msgstr ""
+msgstr "3Dプリントによる死車オドメトリー部品"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:16
 msgid "3D Printing Methods"
-msgstr ""
+msgstr "3Dプリンティング方法"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:18
 msgid ""
-"There are numerous kinds of 3D printing, but for FTC there are only a few"
-" that are practical. The most common is **Fused Deposition Modeling "
-"(FDM)**. FDM printers melt a plastic filament and extrude it through a "
-"nozzle, which moves around to create the part. FDM printers are the most "
-"common type of printer used, and the most practical for robotics teams, "
-"so this guide will focus on them."
+"There are numerous kinds of 3D printing, but for FTC there are only a few "
+"that are practical. The most common is **Fused Deposition Modeling (FDM)**. "
+"FDM printers melt a plastic filament and extrude it through a nozzle, which "
+"moves around to create the part. FDM printers are the most common type of "
+"printer used, and the most practical for robotics teams, so this guide will "
+"focus on them."
 msgstr ""
+"FTCでは、多くの3Dプリンティング方法がありますが、実用的なのは数種類だけです。最も一般的なのは**融着層積造形（FDM）**です。FDMプリンターはプラスチックフィラメントを溶かし、ノズルを通じて"
+" Extrude "
+"します。そして、ノズルは動いて部品を作り出します。FDMプリンターは最も一般的な種類であり、ロボットチームにとって最も実用的なものなので、このガイドではそれらに焦点を当てます。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:28
 msgid "FDM printer"
-msgstr ""
+msgstr "FDMプリンタ"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:28
 msgid "FDM printer printing a part"
-msgstr ""
+msgstr "FDMプリンターが部品を印刷しています"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:32
 msgid ""
-"Other types of printers include SLA (Stereolithography) and SLS "
-"(Selective Laser Sintering), however these are often more expensive, "
-"difficult to use, and have less use in FTC, although they have a few "
-"specific niches, such as very high precision details."
+"Other types of printers include SLA (Stereolithography) and SLS (Selective "
+"Laser Sintering), however these are often more expensive, difficult to use, "
+"and have less use in FTC, although they have a few specific niches, such as "
+"very high precision details."
 msgstr ""
+"他の種類のプリンタにはSLA（立体光固化成型）やSLS（選択的レーザー焼結）がありますが、これらのプリンタは通常、より高価で使いにくく、FTCでの使用頻度が低いものが多く、ただし特定の分野では非常に精密な詳細が必要な場合があります。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:41
 msgid "Resin spool"
-msgstr ""
+msgstr "レジンスプール"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:41
 msgid "SLA Resin printed lift string spools"
-msgstr ""
+msgstr "SLA樹脂印刷によるリフトストリングスプール"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:46
 msgid "3D Printing Pros"
-msgstr ""
+msgstr "3Dプリントの利点"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:48
 msgid ""
-"3D printed parts can be infinitely customized and optimized for a "
-"specific purpose. This can be used to create pulleys or gears with a "
-"specific number of teeth, or a part that fits perfectly in a specific "
-"place."
+"3D printed parts can be infinitely customized and optimized for a specific "
+"purpose. This can be used to create pulleys or gears with a specific number "
+"of teeth, or a part that fits perfectly in a specific place."
 msgstr ""
+"3Dプリントされた部品は、特定の目的に無限にカスタマイズおよび最適化することができます。これを使用して、特定の歯数を持つピーチやギアを作成したり、特定の場所で完璧にフィットする部分を作成することができます。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:50
 msgid ""
-"3D printing can be used to create parts that adapt between different "
-"build systems or standards. Many build systems contain their own "
-"standards for mounting holes, shaft sizes, or other dimensions. 3D "
-"printing can be used to create parts that adapt between these standards."
+"3D printing can be used to create parts that adapt between different build "
+"systems or standards. Many build systems contain their own standards for "
+"mounting holes, shaft sizes, or other dimensions. 3D printing can be used to"
+" create parts that adapt between these standards."
 msgstr ""
+"3D "
+"プリンティングは、異なるビルドシステムや規格間で部品を適合させるために使用できます。多くのビルドシステムには、自社独自のマウント穴の標準、シャフトサイズ、またはその他の寸法が含まれています。3D"
+" プリンティングは、これらの規格間で部品を作成するために使用できます。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:53
 msgid ""
-"3D printing can be used to make parts relatively quickly and cheaply. "
-"This is especially useful for prototyping new designs, or iterating on a "
-"design to make it better at little cost and in a short amount of time."
+"3D printing can be used to make parts relatively quickly and cheaply. This "
+"is especially useful for prototyping new designs, or iterating on a design "
+"to make it better at little cost and in a short amount of time."
 msgstr ""
+"3Dプリンティングは、部品を比較的早くかつ安価に作成できる方法です。この技術は、新しい設計のプロトタイピングや、コストをかけずに短時間で設計を改善するのに特に有用です。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:57
 msgid "3D Printing Cons"
-msgstr ""
+msgstr "3Dプリントの欠点"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:59
 msgid ""
-"3D printed parts are often not as strong as machined or cut parts. This "
-"is especially true for FDM printers, which have a layer-by-layer "
-"structure that can be a weak point if the part is loaded in a certain "
-"way. If consideration is given to this weakness when designing the part, "
-"however, the result can be made very strong."
+"3D printed parts are often not as strong as machined or cut parts. This is "
+"especially true for FDM printers, which have a layer-by-layer structure that"
+" can be a weak point if the part is loaded in a certain way. If "
+"consideration is given to this weakness when designing the part, however, "
+"the result can be made very strong."
 msgstr ""
+"3Dプリントされた部品は、研削や切断で作られた部品ほど強くないことが多く、特にFDMプリンタの場合がその典型です。FDMプリンタは層別構造を持っているため、特定の方式で部品に荷重をかけると弱い点になることがあります。しかし、この弱点を設計段階から考慮に入れる場合、結果として非常に強い部品を作ることができるでしょう。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:62
 msgid ""
-"A 3D printed part can only be as large as the print bed it is printed on."
-" This means that large parts may need to be printed in multiple pieces "
-"and assembled later."
+"A 3D printed part can only be as large as the print bed it is printed on. "
+"This means that large parts may need to be printed in multiple pieces and "
+"assembled later."
 msgstr ""
+"3Dプリントされた部品は、その部品が印刷されるプリンタベッドの大きさに制限されます。そのため、大きな部品は複数の部分で印刷し、後から組み立てる必要がある場合があります。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:64
 msgid ""
-"3D printing can be slow, especially for large parts. Longer prints can "
-"take hours or even days to complete, raising the risk of a print failing "
-"and wasting time and material."
+"3D printing can be slow, especially for large parts. Longer prints can take "
+"hours or even days to complete, raising the risk of a print failing and "
+"wasting time and material."
 msgstr ""
+"3Dプリンティングは遅い場合があり、特に大きな部品の場合はなおさらです。長い印刷作業は数時間から数日までかかるため、プリントが失敗するリスクが高まり、時間を無駄にする可能性があります。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:66
 msgid ""
@@ -130,4 +141,4 @@ msgid ""
 "materials can add up quickly. However, the cost of a 3D printer has been "
 "decreasing rapidly, and filament is relatively cheap."
 msgstr ""
-
+"3Dプリンティングは費用がかかることがあります。プリンター、フィラメント、その他の材料のコストは早く積み上がります。しかし、3Dプリンターのコストは急速に低下しており、フィラメントは比較的安価です。"

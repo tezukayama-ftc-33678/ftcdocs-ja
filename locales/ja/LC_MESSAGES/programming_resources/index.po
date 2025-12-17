@@ -12,68 +12,69 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/index.rst:23
 msgid "Tutorials"
-msgstr ""
+msgstr "チュートリアル"
 
 #: ../../source/programming_resources/index.rst:53
 msgid "Supplemental"
-msgstr ""
+msgstr "補足"
 
 #: ../../source/programming_resources/index.rst:74
 msgid "AprilTag Introduction"
-msgstr ""
+msgstr "AprilTag について"
 
 #: ../../source/programming_resources/index.rst:74
 msgid "VisionPortal Overview"
-msgstr ""
+msgstr "ビジョンポータルの概要"
 
 #: ../../source/programming_resources/index.rst:74
 msgid "Webcams for VisionPortal"
-msgstr ""
+msgstr "VisionPortal用のウェブカメラ"
 
 #: ../../source/programming_resources/index.rst:74
 msgid "Understanding AprilTag Values"
-msgstr ""
+msgstr "AprilTag値の理解"
 
 #: ../../source/programming_resources/index.rst:74
 msgid "AprilTag Localization"
-msgstr ""
+msgstr "4月タグロケーション"
 
 #: ../../source/programming_resources/index.rst:74
 msgid "AprilTag Test Images"
-msgstr ""
+msgstr "4月タグテスト画像"
 
 #: ../../source/programming_resources/index.rst:91
 msgid "Camera Calibration"
-msgstr ""
+msgstr "カメラ校正"
 
 #: ../../source/programming_resources/index.rst:-1
 msgid "Programming Resources, FTC Docs"
-msgstr ""
+msgstr "プログラミングリソース、FTCドキュメント"
 
 #: ../../source/programming_resources/index.rst:-1
 msgid "Official Programming Resources for FIRST Tech Challenge"
-msgstr ""
+msgstr "FIRST Tech Challengeの公式プログラミングリソース"
 
 #: ../../source/programming_resources/index.rst:-1
 msgid ""
-"Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studio, Control "
-"Hub, Robot Controller, Driver Station, FTC Control System, Programming "
-"Resources"
+"Blocks, FTC, FIRST Tech Challenge, On Bot Java, Android Studio, Control Hub,"
+" Robot Controller, Driver Station, FTC Control System, Programming Resources"
 msgstr ""
+"ブロック, FTC, FIRST Tech Challenge, 本体用Java, Android Studio, コントロールハブ, "
+"ロボットコントローラ, ドライバーステーション, FTC制御システム, プログラミングリソース"
 
 #: ../../source/programming_resources/index.rst:7
 msgid "Programming Resources"
-msgstr ""
+msgstr "プログラミングリソース"
 
 #: ../../source/programming_resources/index.rst:9
 msgid ""
@@ -81,87 +82,97 @@ msgid ""
 "documentation useful for configuring and programming Control System "
 "components."
 msgstr ""
+"このページには、制御システムコンポーネントの設定やプログラミングに役立つプログラムチュートリアルと関連する制御システムドキュメントが含まれています。"
 
 #: ../../source/programming_resources/index.rst:14
 msgid "Programming Tutorials"
-msgstr ""
+msgstr "プログラミングチュートリアル"
 
 #: ../../source/programming_resources/index.rst:16
 msgid "*FIRST* Tech Challenge Programming Tutorials"
-msgstr ""
+msgstr "*FIRST* Tech Challenge プログラミングチュートリアル"
 
 #: ../../source/programming_resources/index.rst:18
 msgid ""
 ":doc:`Choosing a Programming Tool <shared/choosing_program_lang/choosing-"
 "program-lang>`"
-msgstr ""
+msgstr ":doc:`プログラミングツールの選択 <共有/プログラム言語を選択/プログラム言語の選択>`"
 
 #: ../../source/programming_resources/index.rst:19
 msgid ":doc:`Blocks Tutorial <blocks/Blocks-Tutorial>`"
-msgstr ""
+msgstr ":doc:`ブロックチュートリアル <blocks/ブロックチュートリアル>`"
 
 #: ../../source/programming_resources/index.rst:20
 msgid ":doc:`Onbot Java Tutorial <onbot_java/OnBot-Java-Tutorial>`"
-msgstr ""
+msgstr ":doc:`オンボットJavaチュートリアル <onbot_java/OnBot-Java-Tutorial>`"
 
 #: ../../source/programming_resources/index.rst:21
 msgid ""
-":doc:`Android Studio Tutorial <android_studio_java/Android-Studio-"
-"Tutorial>`"
+":doc:`Android Studio Tutorial <android_studio_java/Android-Studio-Tutorial>`"
 msgstr ""
+":doc:`Android Studio チュートリアル <android_studio_java/Android-Studio-Tutorial>`"
 
 #: ../../source/programming_resources/index.rst:36
 msgid "Supporting Documentation"
-msgstr ""
+msgstr "サポートドキュメント"
 
 #: ../../source/programming_resources/index.rst:38
 msgid "Control System Supporting Documentation"
-msgstr ""
+msgstr "制御システムの補助資料"
 
 #: ../../source/programming_resources/index.rst:40
 msgid ""
 ":doc:`Control System Introduction <shared/control_system_intro/The-FTC-"
 "Control-System>`"
-msgstr ""
+msgstr ":doc:`制御システム入門 <共有/制御システム入門/The_FTC制御システム>`"
 
 #: ../../source/programming_resources/index.rst:41
-msgid ":doc:`Required Materials <shared/required_materials/Required-Materials>`"
-msgstr ""
+msgid ""
+":doc:`Required Materials <shared/required_materials/Required-Materials>`"
+msgstr ":doc:`必要な材料 <shared/required_materials/必要な材料>`"
 
 #: ../../source/programming_resources/index.rst:42
 msgid ""
 ":doc:`Using Your Android Device <shared/using_android_device/Using-Your-"
 "Android-Device>`"
 msgstr ""
+":doc:`あなたのAndroidデバイスの使用方法 <shared/using_android_device/Using-Your-Android-"
+"Device>`"
 
 #: ../../source/programming_resources/index.rst:43
 msgid ":doc:`Phone Pairing <shared/phone_pairing/phone-pairing>`"
-msgstr ""
+msgstr ":doc:`電話ペアリング <shared/phone_pairing/phone-pairing>`"
 
 #: ../../source/programming_resources/index.rst:44
 msgid ""
-":doc:`Configuring Your Android Devices <shared/configuring_android"
-"/Configuring-Your-Android-Devices>`"
+":doc:`Configuring Your Android Devices "
+"<shared/configuring_android/Configuring-Your-Android-Devices>`"
 msgstr ""
+":doc:`あなたのAndroidデバイスの設定方法 <共有/Androidデバイスの設定/Your-Android-Devices-を設定する>`"
 
 #: ../../source/programming_resources/index.rst:45
 msgid ""
 ":doc:`Connecting Devices to a Control or Expansion Hub "
 "</hardware_and_software_configuration/connecting_devices/index>`"
 msgstr ""
+":doc:`デバイスをコントロールハブまたは拡張ハブに接続する方法 "
+"</hardware_and_software_configuration/connecting_devices/index>`"
 
 #: ../../source/programming_resources/index.rst:46
 msgid ""
 ":doc:`Configuring Your Hardware "
 "</hardware_and_software_configuration/configuring/index>`"
 msgstr ""
+":doc:`ハードウェアの設定 <hardware_and_software_configuration/configuring/index>`"
 
 #: ../../source/programming_resources/index.rst:47
 msgid ""
 ":doc:`Connecting a Laptop to a Program & Manage Wi-Fi Network "
-"<shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program"
-"-&-Manage-Network>`"
+"<shared/program_and_manage_network/Connecting-a-Laptop-to-the-"
+"Program-&-Manage-Network>`"
 msgstr ""
+":doc:`ノートブックをプログラムに接続し、Wi-Fi ネットワークを管理する "
+"<shared/program_and_manage_network/ノートブックをプログラムに接続し、Wi-Fi ネットワークを管理する>`"
 
 #: ../../source/programming_resources/index.rst:48
 msgid ""
@@ -169,62 +180,67 @@ msgid ""
 "<shared/installing_javascript_browser/Installing-a-Javascript-Enabled-"
 "Browser>`"
 msgstr ""
+":doc:`JavaScript機能を有効なブラウザにインストールする "
+"<shared/installing_javascript_browser/JavaScript機能を有効なブラウザにインストールする>`"
 
 #: ../../source/programming_resources/index.rst:49
 msgid ""
-":doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a"
-"-Control-Hub>`"
-msgstr ""
+":doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-"
+"Control-Hub>`"
+msgstr ":doc:`制御ハブの管理 <shared/managing_control_hub/制御ハブの管理>`"
 
 #: ../../source/programming_resources/index.rst:50
 msgid ""
-":doc:`Managing a Driver Hub <shared/managing_smartphone_ds/Managing-a"
-"-Smartphone-Driver-Station>`"
+":doc:`Managing a Driver Hub <shared/managing_smartphone_ds/Managing-a-"
+"Smartphone-Driver-Station>`"
 msgstr ""
+":doc:`スマートフォンドライバーステーションの管理 "
+"<共有/managing_smartphone_ds/スマートフォンドライバーステーションの管理>`"
 
 #: ../../source/programming_resources/index.rst:51
 msgid ""
 ":doc:`Managing a Smartphone Robot Controller (RC) "
 "<shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller>`"
 msgstr ""
+":doc:`スマートフォンロボットコントローラーの管理（RC）<shared/managing_smartphone_rc/スマートフォンロボットコントローラーの管理>`"
 
 #: ../../source/programming_resources/index.rst:70
 msgid "AprilTag Programming"
-msgstr ""
+msgstr "4月タグプログラミング"
 
 #: ../../source/programming_resources/index.rst:72
 msgid "Topics for programming with AprilTags"
-msgstr ""
+msgstr "AprilTagsを使用したプログラミングのトピック"
 
 #: ../../source/programming_resources/index.rst:87
 msgid "Vision Programming"
-msgstr ""
+msgstr "ビジョンプログラミング"
 
 #: ../../source/programming_resources/index.rst:89
 msgid "Learning more about using vision"
-msgstr ""
+msgstr "ビジョンを使用する方法について学ぶ"
 
 #: ../../source/programming_resources/index.rst:100
 msgid "Camera Color Processing"
-msgstr ""
+msgstr "カメラの色処理"
 
 #: ../../source/programming_resources/index.rst:102
 msgid ""
-"Learn more about using a simple webcam or smartphone camera to perform "
-"Color Processing"
-msgstr ""
+"Learn more about using a simple webcam or smartphone camera to perform Color"
+" Processing"
+msgstr "simple webcam やスマートフォンカメラを使用してColor Processingを行う方法についてもっと学ぶ"
 
 #: ../../source/programming_resources/index.rst:118
 msgid "Advanced Topics"
-msgstr ""
+msgstr "高度なトピック"
 
 #: ../../source/programming_resources/index.rst:120
 msgid "Advanced Topics for Programmers"
-msgstr ""
+msgstr "プログラマ向けの高度なトピック"
 
 #: ../../source/programming_resources/index.rst:136
 msgid "Additional *FIRST* Website Resources"
-msgstr ""
+msgstr "追加の *FIRST* ウェブサイトリソース"
 
 #: ../../source/programming_resources/index.rst:138
 msgid ""
@@ -232,4 +248,6 @@ msgid ""
 "<https://www.firstinspires.org/resources/library/ffc/programming-"
 "resources>`__"
 msgstr ""
-
+"`FIRSTWebsiteプログラミングリソースリンク "
+"<https://www.firstinspires.org/resources/library/ffc/programming-"
+"resources>`__"

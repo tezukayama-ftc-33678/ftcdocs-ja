@@ -12,150 +12,161 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:2
 msgid "Common 3D Printing Tools"
-msgstr ""
+msgstr "一般的な3Dプリンティングツール"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:5
 msgid "Allen Keys"
-msgstr ""
+msgstr "アレンキー"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:7
 msgid ""
-"Allen keys are essential for operating your printer, even if you don't "
-"plan on upgrading, regular maintenance and repairs will require these. "
-"It's suggested that you buy high quality allen keys that won't strip your"
-" screws from the start (this goes for other tools as well!). The most "
-"common sizes for allen keys on today's printers are **2.0mm and 2.5mm** "
-"but we'd recommend stocking other sizes as well."
+"Allen keys are essential for operating your printer, even if you don't plan "
+"on upgrading, regular maintenance and repairs will require these. It's "
+"suggested that you buy high quality allen keys that won't strip your screws "
+"from the start (this goes for other tools as well!). The most common sizes "
+"for allen keys on today's printers are **2.0mm and 2.5mm** but we'd "
+"recommend stocking other sizes as well."
 msgstr ""
+"Allenキーは、プリンターを操作する上で必須のアイテムです。アップグレードを考えないとしても、定期的なメンテナンスや修理にはこれらのキーが必要になります。高品質なAllenキーを最初から購入することをお勧めします（他のツールも同様です！）。現在のプリンターで最も一般的なAllenキーのサイズは**2.0mmと2.5mm**ですが、その他のサイズも備えておくことを推奨します。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A kit of multiple allen keys."
-msgstr ""
+msgstr "複数のアレンキーのキット。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:21
 msgid "Screwdrivers"
-msgstr ""
+msgstr "レンチ"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:23
 msgid ""
 "Screwdrivers are another tool to keep handy for repairing your printer "
 "especially for operating in spots hard to reach with allen keys and for "
-"screws other than hex key. It's suggested to get a kit with many small "
-"bits such as the one pictured below for easy maintenance, unless you "
-"already know exactly what type and size screws are utilized on all your "
-"3d printers."
+"screws other than hex key. It's suggested to get a kit with many small bits "
+"such as the one pictured below for easy maintenance, unless you already know"
+" exactly what type and size screws are utilized on all your 3d printers."
 msgstr ""
+"ドライバーは、allenキーで届かない場所での修理や、ヘクスキー以外のネジを回す際に便利なツールです。特にプリンターの修理に役立ちます。容易なメンテナンスのために、下記のように多くの小さなbitが付属しているセットを入手することをお勧めします。ただし、既に全ての3Dプリンターで使用されている種類とサイズのネジが分かっている場合は除きます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A screwdriver kit with many types of bits."
-msgstr ""
+msgstr "種類の多いスクリュードライバーキット"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:36
 msgid "Flush Cutter"
-msgstr ""
+msgstr "フラッシュカッター"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:38
 msgid ""
-"Flush cutters, otherwise known as diagonal cutters, snips, or snippers by"
-" teams, are an extremely versatile tool that can be used for cutting and "
-"trimming things on your printer or your prints. A cheap pair like "
-"pictured below is still great for 3D Printing and general use, just make "
-"sure that they stay sharp!"
+"Flush cutters, otherwise known as diagonal cutters, snips, or snippers by "
+"teams, are an extremely versatile tool that can be used for cutting and "
+"trimming things on your printer or your prints. A cheap pair like pictured "
+"below is still great for 3D Printing and general use, just make sure that "
+"they stay sharp!"
 msgstr ""
+"Flush "
+"cutters、つまりダイアゴナルカッターやスニップス（チームによってはスニッパーズ）は、プリンター上またはプリント物に切削や切り落としを行う非常に "
+"versatile な工具です。以下のように写真で示されているような安価な一対でも、3D "
+"プリンティングや一般的な用途には十分な性能がありますので、刃先が鋭いか確認してください！"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:50
 msgid "PTFE Cutter"
-msgstr ""
+msgstr "PTFEカッター"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:52
 msgid ""
-"Many people think that they can just cut PTFE tube with scissors or flush"
-" cutters, but fail to realize the downsides of this. The compression of "
-"scissors or flush cutters can compress the sides of the tube or deform "
-"it, and when some PTFE tubes have little room for error, this can make a "
-"tube unusable. Specialized PTFE tube cutters like the one pictured below "
-"can make sure that one of the most important parts of filament transport "
-"on your printer is good quality. The one pictured below is clamped onto a"
-" PTFE tube, spun around it a few times, and then the cut will be complete"
-" with little effort."
+"Many people think that they can just cut PTFE tube with scissors or flush "
+"cutters, but fail to realize the downsides of this. The compression of "
+"scissors or flush cutters can compress the sides of the tube or deform it, "
+"and when some PTFE tubes have little room for error, this can make a tube "
+"unusable. Specialized PTFE tube cutters like the one pictured below can make"
+" sure that one of the most important parts of filament transport on your "
+"printer is good quality. The one pictured below is clamped onto a PTFE tube,"
+" spun around it a few times, and then the cut will be complete with little "
+"effort."
 msgstr ""
+"多くの人がPTFEチューブをカッターで切るか、フラッシュカットヤスリで切ることができると思っているが、その欠点に気づかないことが多い。カッターの圧力はチューブの側面を圧縮したり変形させたりする可能性があり、特にエラー許容量が狭いPTFEチューブでは、これによりチューブが使用不能になることがある。下記の画像で示したように、専用のPTFEチューブカッターを使用することで、プリンタでのフィラメント輸送において最も重要な部分であるチューブの品質を確保できる。下記の画像はPTFEチューブに取り付けられ、数回回転させた後、わずかな力で切断が完了する。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A basic PTFE tube cutter."
-msgstr ""
+msgstr "PTFE管用の基本的なカッター。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:67
 msgid "Calipers"
-msgstr ""
+msgstr "カリパーズ"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:69
 msgid ""
-"Calipers are a precision measuring tool used to measure distances often "
-"down the the hundredth of a millimeter. These are incredible useful for "
-"dialing in pressfits and slipfits, ensuring dimensional accuracy, and "
-"tuning your printer. We'd recommend getting a quality pair with solid "
-"reviews that will last you a while and remain precise."
+"Calipers are a precision measuring tool used to measure distances often down"
+" the the hundredth of a millimeter. These are incredible useful for dialing "
+"in pressfits and slipfits, ensuring dimensional accuracy, and tuning your "
+"printer. We'd recommend getting a quality pair with solid reviews that will "
+"last you a while and remain precise."
 msgstr ""
+"カリパースは、距離をミリメートル単位で正確に測定する精密な測定工具です。多くの場合、分の百分の一まで測定できます。これらの工具は、押し入しやスリップフィットの調整、寸法精度の確認、プリンターのチューニングに非常に有用です。品質が良くレビューも良い持久力のあるカリパースをおすすめします。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A nice set of calipers, for accurate measurement."
-msgstr ""
+msgstr "正確な測定のために良いセットの計量器です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:82
 msgid "Files/Sandpaper"
-msgstr ""
+msgstr "ファイル/サンドペーパー"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:84
 msgid ""
 "Files and sandpaper are great for getting a nice surface finish and "
 "potentially modifying prints if they didn't initially fit your usecase. "
-"Oftentimes, quickly filing a part down can save you loads of print time "
-"so it's great to have some on hand."
+"Oftentimes, quickly filing a part down can save you loads of print time so "
+"it's great to have some on hand."
 msgstr ""
+"ファイルやサンドペーパーは、滑らかな表面仕上げを得るために非常に有用で、プリントが当初の用途に適さなかった場合にも形状を微調整できる可能性があります。部分的な削り直しを行うことで、多くのプリント時間を節約することが多いので、手元に用意しておいた方が良いです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A set of multiple types of files and rasps."
-msgstr ""
+msgstr "複数種類のファイルと研磨工具のセットです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:96
 msgid "Putty Knives"
-msgstr ""
+msgstr "プラティ knives"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:98
 msgid ""
 "At its core, a putty knife can basically be used as a spatula to pull 3D "
-"prints off the bed. This is a must have for print removal to avoid "
-"touching the bed while it's still hot and to give yourself some extra "
-"leverage on those prints that are really stuck."
+"prints off the bed. This is a must have for print removal to avoid touching "
+"the bed while it's still hot and to give yourself some extra leverage on "
+"those prints that are really stuck."
 msgstr ""
+"基本的には、プッティナイフは3Dプリントをベッドから取り出すための spatula "
+"の役割を果たすことができます。これには、ベッドがまだ熱いうちに触れずにプリントを取り除くために必要なものであるだけでなく、特に固着しているプリントに対して追加の力を持ち込むためにも必要です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A standard putty knife for print removal."
-msgstr ""
+msgstr "印刷物の取り外しに使用する標準的なパットナイフ。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:110
 msgid "Electrical Tools"
-msgstr ""
+msgstr "電気工具"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:112
 msgid ""
-"Crimpers, a soldering iron, and a good wire stripper are very important "
-"to have on hand if you plan modifying your 3D Printer or replacing "
-"electrical components. The ability to make your own wires is invaluable, "
-"and can often save you a lot of time from ordering materials."
+"Crimpers, a soldering iron, and a good wire stripper are very important to "
+"have on hand if you plan modifying your 3D Printer or replacing electrical "
+"components. The ability to make your own wires is invaluable, and can often "
+"save you a lot of time from ordering materials."
 msgstr ""
+"3Dプリンターを改造するか、電気部品を交換する場合、クリンパー、溶接用の鉛筆型溶接器、そして良いワイヤーストリッパは必ず用意しておいた方が良いです。 "
+"OWN（自己製作）のワイヤーを作成できる能力は非常に貴重で、材料を注文する時間を大幅に節約することがあります。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A good quality wire crimper, the Engineer PA-09."
-msgstr ""
-
+msgstr "品質の良いワイヤークリンパー、エンジニアPA-09。"

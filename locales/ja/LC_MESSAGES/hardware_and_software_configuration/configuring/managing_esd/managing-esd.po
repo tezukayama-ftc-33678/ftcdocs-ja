@@ -12,450 +12,497 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:2
 msgid "Managing Electrostatic Discharge Effects"
-msgstr ""
+msgstr "静電気放電効果の管理"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "紹介\\n"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:7
 msgid ""
 "Electrostatic discharge (ESD) events have the potential to disrupt the "
-"normal operation of a competition robot. This section examines causes of "
-"ESD events and discusses ways to mitigate the risk that an ESD event will"
-" disable or damage a robot’s control system."
+"normal operation of a competition robot. This section examines causes of ESD"
+" events and discusses ways to mitigate the risk that an ESD event will "
+"disable or damage a robot’s control system."
 msgstr ""
+"静電気放電（ESD）イベントは、競技ロボットの正常な動作を妨げる可能性があります。このセクションでは、ESDイベントの原因を検討し、ESDイベントによってロボットの制御システムが停止または損傷するリスクを軽減する方法について議論します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:12
 msgid ""
 "Note that this section only provides a brief overview of the physical "
-"phenomenon that causes ESD disruptions. You can use the following link to"
-" view an in-depth white paper, written by Mr. Eric Chin (a *FIRST* "
-"alumnus and a 2018 summer engineering intern), which examines and "
-"quantifies the efficacy of various ESD mitigation techniques:"
+"phenomenon that causes ESD disruptions. You can use the following link to "
+"view an in-depth white paper, written by Mr. Eric Chin (a *FIRST* alumnus "
+"and a 2018 summer engineering intern), which examines and quantifies the "
+"efficacy of various ESD mitigation techniques:"
 msgstr ""
+"このセクションでは、ESD（静電気放电）の干渉を引き起こす物理現象について簡潔な概要のみを提供しています。詳細な白書については、Eric Chin "
+"氏（FIRST の元生徒で 2018 年夏期エンジニアインターン）が執筆した以下のリンクからご確認ください："
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:18
 msgid ""
 ":download:`ESD Mitigation Techniques For FTC (PDF 1.7MB) <files/analysis-"
 "esd-mitigation-echin.pdf>`"
 msgstr ""
+":download:`FTCのESD対策技術 (PDF 1.7MB) <files/analysis-esd-mitigation-"
+"echin.pdf>`"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:20
 msgid ""
-"Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the "
-"work they did to model the problems caused by ESD and to evaluate "
-"different techniques to mitigate the risk caused by this phenomenon.  "
-"Also special thanks to *FIRST* Tech Challenge Teams 2844, 8081, 10523, "
-"10523a, and 10984, and the volunteer team from Arizona (including Robert "
-"Garduno, Susan Garduno, Richard Gomez, Matthew Rainey, Christine Sapio, "
-"Patricia Strones, and David Thompson) for assisting in testing some of "
-"these mitigation techniques under the hot desert sun!"
+"Special thanks to Doug Chin, Eric Chin, and Greg Szczeszynski for the work "
+"they did to model the problems caused by ESD and to evaluate different "
+"techniques to mitigate the risk caused by this phenomenon.  Also special "
+"thanks to *FIRST* Tech Challenge Teams 2844, 8081, 10523, 10523a, and 10984,"
+" and the volunteer team from Arizona (including Robert Garduno, Susan "
+"Garduno, Richard Gomez, Matthew Rainey, Christine Sapio, Patricia Strones, "
+"and David Thompson) for assisting in testing some of these mitigation "
+"techniques under the hot desert sun!"
 msgstr ""
+"ESDによる問題を模擬し、この現象によって生じるリスクを軽減するための異なる技術を評価するために尽力したDoug Chinさん、Eric Chinさん、Greg Szczeszynskiさんへの特別な感謝を表します。また、これらの軽減技術を熱々の砂漠の下でテストする際の支援にご協力いただいたFIRST Tech Challengeチーム2844、8081、10523、10523a、10984およびアリゾナからのボランティアチーム（ロバート・ガルドーノさん、スーザン・ガルドーノさん、リチャード・ゴメスさん、マ修・レインイさん、クリスティーン・サピオさん、パトリシア・ストラウネスさん、そしてデビッド・可以更好对原文进行一些调整，使其更加自然流畅：\n"
+"\n"
+"特別な感謝を表します。Doug Chinさん、Eric Chinさん、Greg Szczeszynskiさんには、ESDによる問題を模擬し、この現象によって生じるリスクを軽減するための異なる技術を評価するために尽力していただきました。また、アリゾナからのボランティアチーム（ロバート・ガルドーノさん、スーザン・ガルドーノさん、リチャード・ゴメスさん、マ修・レインイさん、クリスティーン・サピオさん、パトリシア・ストラウネスさん、デビッド・トーマスさんを含む）には、これらの軽減技術を熱々の砂漠の下でテストする際の支援にご協力いただきました。FIRST Tech Challengeチーム2844、8081、10523、10523a、10984にも感謝いたします。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:30
 msgid "What is an Electrostatic Discharge Event?"
-msgstr ""
+msgstr "静電気放電イベントとは何ですか？"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:32
 msgid ""
 "An electrostatic discharge (ESD) event occurs when a highly charged "
-"conductive object (like the metal frame of a robot) touches an uncharged "
-"or oppositely charged conductive object and discharges to it. Because of "
-"the high voltages involved (up to tens of kilovolts), ESD events can "
-"produce extremely high electrical currents as the charge that was "
-"accumulated on one object flows through a conductive path to the neutral "
-"or oppositely charged object."
+"conductive object (like the metal frame of a robot) touches an uncharged or "
+"oppositely charged conductive object and discharges to it. Because of the "
+"high voltages involved (up to tens of kilovolts), ESD events can produce "
+"extremely high electrical currents as the charge that was accumulated on one"
+" object flows through a conductive path to the neutral or oppositely charged"
+" object."
 msgstr ""
+"帯電放電（ESD）イベントは、高電荷状態の導体物体（ロボットの金属フレームなど）が未充電または反対に電荷された導体物体と接触し、その電荷を放電する際に発生します。高電圧（数万キロ_VOLT_まで）が関与しているため、ESDイベントは、一方の物体に蓄積された電荷が導電経路を通じて中性または反対に電荷された物体に流れることで、非常に高い電気的電流を生成することがあります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:44
 msgid "A positively charged robot touching a neutral field wall."
-msgstr ""
+msgstr "正電荷を持つロボットが中性のフィールド壁に触れています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:44
 msgid ""
-"Example of an ESD event, current will flow from the robot to the field "
-"wall."
-msgstr ""
+"Example of an ESD event, current will flow from the robot to the field wall."
+msgstr "例として、静電気（ESD）イベントでは、ロボットからフィールドの壁に電流が流れます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:47
 msgid "How Robots Become Charged"
-msgstr ""
+msgstr "ロボットが充電される方法"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:49
 msgid ""
-"Consider what happens when you shuffle your feet on a carpet in wool "
-"socks and then touch a door knob. You’ll almost certainly get a shock. "
-"What causes this phenomenon? When two surfaces interact, there is a small"
-" amount of adhesion. This means that they share electrons and if they are"
-" made from different materials the electron sharing may be uneven. When "
-"the surfaces are taken apart, they can become charged. This is called the"
-" triboelectric effect."
+"Consider what happens when you shuffle your feet on a carpet in wool socks "
+"and then touch a door knob. You’ll almost certainly get a shock. What causes"
+" this phenomenon? When two surfaces interact, there is a small amount of "
+"adhesion. This means that they share electrons and if they are made from "
+"different materials the electron sharing may be uneven. When the surfaces "
+"are taken apart, they can become charged. This is called the triboelectric "
+"effect."
 msgstr ""
+"considerations "
+"について考えてみてください。羊毛の靴下でカーペットを擦り、その後ドアノブに触れる場合、おそらくショックを感じるでしょう。この現象は何によって引き起こされるのでしょうか？2つの表面が相互作用すると、少量の接着が生じます。これは電子が共有されることを意味し、異なる材料から成っている場合は電子共有が不均衡になる可能性があります。表面が分かれると、これらは電荷を持つことがあります。これがトリボエレクトリック効果と呼ばれます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:61
 msgid ""
 "Illustration of a wheel on a floor with a close up portion showing how "
 "electrons in the floor can become attached to the wheel."
-msgstr ""
+msgstr "床に設置された輪の図解で、床の電子が輪に付着する様子を近くから示しています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:61
 msgid "Robots become charged due to the triboelectric effect."
-msgstr ""
+msgstr "ロボットはtriboelectric効果により充電されます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:63
 msgid ""
-"A robot’s wheels moving on field tiles build charge on the robot frame "
-"just like your wool socks moving on carpet build charge on your body.  "
-"Many other plastic and rubber materials behave similarly. It is important"
-" to note that triboelectric charging takes charge from one object and "
-"gives it to another, so the charges are mirrored. In the case of a "
-"*FIRST* Tech Challenge robot, positive charge accumulates on the wheels "
-"and negative charge accumulates on the tiles."
+"A robot’s wheels moving on field tiles build charge on the robot frame just "
+"like your wool socks moving on carpet build charge on your body.  Many other"
+" plastic and rubber materials behave similarly. It is important to note that"
+" triboelectric charging takes charge from one object and gives it to "
+"another, so the charges are mirrored. In the case of a *FIRST* Tech "
+"Challenge robot, positive charge accumulates on the wheels and negative "
+"charge accumulates on the tiles."
 msgstr ""
+"ロボットのタイヤがフィールドのタイル上で動くと、電荷がロボットフレームに蓄積し、あなたの羊毛ソックスがカーペット上で動くと体に電荷が蓄積するのと同じように動作します。多くのその他のプラスチックやゴム素材も同様の挙動を示します。トライボエレクティブ充電は、一方の物体から他方の物体へ電荷を移すので、電荷は鏡像的に反転します。*FIRST*"
+" Tech Challenge ロボットの場合、タイヤには正の電荷が蓄積し、タイルには負の電荷が蓄積します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:71
 msgid ""
 "Note that a robot with wheels that slide across the soft tiles of a "
-"competition field will build electrostatic charge on its frame more "
-"rapidly than a robot with wheels that roll across the tiles."
+"competition field will build electrostatic charge on its frame more rapidly "
+"than a robot with wheels that roll across the tiles."
 msgstr ""
+"競技場のソフトタイル上面を滑る輪車を使用したロボットは、タイル上面を転がる輪車を使用したロボットよりもフレームに帯電する速度が早くなることに注意してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:76
 msgid "Discharging a Robot"
-msgstr ""
+msgstr "ロボットの放電"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:78
 msgid ""
-"Current “wants” to flow from objects at higher potential to the objects "
-"at lower potential to equalize the voltage difference between them and it"
-" will if given a conductive path to do so (like an uninsulated wire). In "
-"the case of a robotics competition, if a robot is at a higher potential "
-"than another metallic object (such as a portion of the game field), an "
-"ESD event will occur if the frame of the charged robot contacts the other"
-" object."
+"Current “wants” to flow from objects at higher potential to the objects at "
+"lower potential to equalize the voltage difference between them and it will "
+"if given a conductive path to do so (like an uninsulated wire). In the case "
+"of a robotics competition, if a robot is at a higher potential than another "
+"metallic object (such as a portion of the game field), an ESD event will "
+"occur if the frame of the charged robot contacts the other object."
 msgstr ""
+"現在の電流は、高い電位にあるオブジェクトから低い電位にあるオブジェクトへと流れ、それら間の電圧差を等しくするようになります。もし導電性のある経路が与えられれば、そうします（無絶縁のワイヤのようなもの）。ロボットコンペティションの場合、ロボットが他の金属オブジェクト（ゲームフィールドの一部など）よりも高い電位にある場合、チャージされたロボットのフレームがその他のオブジェクトと接触したときにはESDイベントが発生します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:86
 msgid ""
-"If the potential difference is high enough, it is also possible for "
-"current to flow through the air in the form of an electrical arc. Arcing "
-"occurs when the air between two differently charged conductors becomes "
-"ionized and allows current to flow from one conductor to the other. Arcs "
-"at voltages seen on *FIRST* Tech Challenge robots can jump air gaps of "
-"more than 3/8” (1 cm). Arcs behave almost like direct contact, so they "
-"can carry a significant amount of current. Visible sparks go with large "
-"electrostatic arcs."
+"If the potential difference is high enough, it is also possible for current "
+"to flow through the air in the form of an electrical arc. Arcing occurs when"
+" the air between two differently charged conductors becomes ionized and "
+"allows current to flow from one conductor to the other. Arcs at voltages "
+"seen on *FIRST* Tech Challenge robots can jump air gaps of more than 3/8” (1"
+" cm). Arcs behave almost like direct contact, so they can carry a "
+"significant amount of current. Visible sparks go with large electrostatic "
+"arcs."
 msgstr ""
+"もし電圧差が十分に高い場合、空気中を電気の弧としての電流が流れることも可能です。弧は、異なる電荷を持つ2つの導体間の空気がイオン化され、1つの導体から他の導体への電流の流れを許すときに発生します。FIRST"
+" Tech Challenge "
+"ロボットで見られる電圧では、弧は3/8インチ（約1cm）以上の空中ギャップを跳躍することがあります。弧は直接接続とほぼ同じように動作するため、大きな電気静的アークとともに大量の電流を運ぶことができます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:99
 msgid ""
 "Illustration showing two circles and the current flow from positive to "
 "negative."
-msgstr ""
+msgstr "電流の流れを示す図で、正極から負極に電流が流れています。二つの円も表示されています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:99
 msgid "Electric arc between two spheres of opposite charge."
-msgstr ""
+msgstr "異極の2つの球体間での電気弧。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:102
 msgid "What Steps can be Taken to Mitigate the Risk of an ESD Disruption?"
-msgstr ""
+msgstr "ESDによる>\").中断のリスク軽減にどのようなステップが取れるでしょうか？"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:105
-msgid "Step 1: Treating the Tile Floor with Anti-Static Spray (Event Hosts Only)"
-msgstr ""
+msgid ""
+"Step 1: Treating the Tile Floor with Anti-Static Spray (Event Hosts Only)"
+msgstr "ステップ 1: 静電気防止スプレーでタイルフロアを処理する（イベントホストのみ）"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:107
 msgid ""
 "One of the most effective ways to reduce the risk of disruption by ESD "
-"events is to treat the tile floors of a competition field with anti-"
-"static spray. Anti-static spray increases electrical conductivity of the "
-"surface of the tiles. This helps prevent the build-up of electrostatic "
-"charge on the robots as the move across the tile floor."
+"events is to treat the tile floors of a competition field with anti-static "
+"spray. Anti-static spray increases electrical conductivity of the surface of"
+" the tiles. This helps prevent the build-up of electrostatic charge on the "
+"robots as the move across the tile floor."
 msgstr ""
+"競技場のタイル床に antic Static "
+"喷霧を施すことは、ESD（静電気放电）イベントによる中断リスクを大幅に低減する最も効果的な方法の一つです。antic Static "
+"喷霧はタイル表面の電気伝導率を向上させます。これにより、ロボットがタイル床を移動する際に帯電量の蓄積を防ぐことができます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:-1
 msgid "A gallon jug and a quart spray bottle of ACL Heavy Duty Staticide."
-msgstr ""
+msgstr "ACL ハビットデイ セティック 1ガロンの Jug と 1パINT のクォートサイズのスプレー瓶。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:119
 msgid ""
 "*FIRST* recommends the use of `ACL Heavy Duty Staticide "
 "<https://www.aclstaticide.com/products/heavy-duty-staticide>`__ spray to "
 "treat the tiles. This spray is extremely effective at preventing charge "
-"build up on the robots. Also, this spray only needs to be applied once "
-"and it will last for an entire event (and it will work across multiple "
-"days)."
+"build up on the robots. Also, this spray only needs to be applied once and "
+"it will last for an entire event (and it will work across multiple days)."
 msgstr ""
+"*FIRST*は、タイルを処理するための`ACL Heavy Duty Staticide "
+"<https://www.aclstaticide.com/products/heavy-duty-"
+"staticide>`__スプレーの使用を推奨します。このスプレーは、ロボットに電荷が蓄積しないようにする非常に効果的なものです。また、このスプレーは一度だけ適用すればよいので、イベント全体（複数日間）にわたって効果があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:126
 msgid ""
-"Note that treating the tile floor is something that **only the event host"
-" is authorized to do**. Teams are **not permitted** to treat the tile "
-"floor themselves."
-msgstr ""
+"Note that treating the tile floor is something that **only the event host is"
+" authorized to do**. Teams are **not permitted** to treat the tile floor "
+"themselves."
+msgstr "タイルフロアの処理は、**イベントホストのみが権限を持つ作業**です。チームは**自己処理を許可されていません**。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:131
 msgid "Step 2: Add Ferrite Chokes to Signal Wires"
-msgstr ""
+msgstr "ステップ 2: シグナルワイヤにフェライトコイルを追加する"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:133
 msgid ""
-"Ferrite chokes block large changes in current like those seen during an "
-"ESD event. This can reduce the risk of damage to or disruption of "
-"electrical components when a sensor or other peripheral device receives a"
-" shock."
+"Ferrite chokes block large changes in current like those seen during an ESD "
+"event. This can reduce the risk of damage to or disruption of electrical "
+"components when a sensor or other peripheral device receives a shock."
 msgstr ""
+"フェライトコイルは、ESDイベント時に見られるような大規模な電流変化を遮断します。これにより、センサーまたはその他の周辺デバイスがショックを受けた際に電子部品の損傷や機能停止のリスクを軽減できます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:-1
 msgid "A snap-on ferrite choke."
-msgstr ""
+msgstr "スナップオン型フェライトコイル。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:142
 msgid ""
 "Using ferrite chokes can be a very effective method for mitigating the "
 "effects of ESD:"
-msgstr ""
+msgstr "フェライトコイルを使用すると、静電気放電（ESD）の影響を緩和する非常に効果的な方法になります："
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:145
 msgid "Use USB cables that have built-in or snap-on ferrite chokes."
-msgstr ""
+msgstr "USBケーブルには内蔵または取り付けタイプのフェライトチョークを使用してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:146
 msgid "Install snap-on ferrite chokes onto your signal cables:"
-msgstr ""
+msgstr "信号ケーブルにスナップオン型フェライトコイルを取り付けます："
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:148
 msgid "Sensor cables"
-msgstr ""
+msgstr "センサーケーブル"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:149
 msgid "Encoder cables"
-msgstr ""
+msgstr "エンコーダーケーブル"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:150
 msgid "Servo cables"
-msgstr ""
+msgstr "サーボケーブル"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:153
 msgid ""
-"Step 3: Electrically Isolating the Electronics from the Metal Frame of "
-"the Robot"
-msgstr ""
+"Step 3: Electrically Isolating the Electronics from the Metal Frame of the "
+"Robot"
+msgstr "ステップ3：ロボットのメタルフレームから電子機器を電気的に隔離する"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:155
 msgid ""
-"As a robot moves back and forth across the tile floor during a *FIRST* "
-"Tech Challenge match, charge can accumulate on the metallic frame of the "
-"robot due to the triboelectric effect. If a charge builds up on the frame"
-" of the robot, but the electronics that make up the Control System are at"
-" a different voltage, then a shock can occur if an exposed or poorly "
-"insulated portion of the Control System gets close (less than 3/8” or "
-"10mm) to the metal frame."
+"As a robot moves back and forth across the tile floor during a *FIRST* Tech "
+"Challenge match, charge can accumulate on the metallic frame of the robot "
+"due to the triboelectric effect. If a charge builds up on the frame of the "
+"robot, but the electronics that make up the Control System are at a "
+"different voltage, then a shock can occur if an exposed or poorly insulated "
+"portion of the Control System gets close (less than 3/8” or 10mm) to the "
+"metal frame."
 msgstr ""
+"ロボットが*FIRST* Tech "
+"Challengeマッチ中、タイル床を往復するにつれて、摩擦電効果によりロボットの金属フレームに電荷が溜まることがあります。もしフレームに電荷が溜まった場合でも、制御システム構成要素が異なる電圧にある場合、制御システムの露出部や不良な絶縁部分が金属フレームに近づくと（3/8インチ未満または10mm未満）、ショックが発生する可能性があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:163
 msgid ""
-"Electrically isolating or insulating the electronics from the frame can "
-"help avoid disruptions due to this type of shock."
-msgstr ""
+"Electrically isolating or insulating the electronics from the frame can help"
+" avoid disruptions due to this type of shock."
+msgstr "フレームから電子機器を電気的に隔離したり、絶縁したりすることで、この種のショックによる混乱を避けることができます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:167
 msgid "Sub Step A: Mounting Electronics on a Non-Conductive Material"
-msgstr ""
+msgstr "サブステップA：電子機器を電気絶縁性の素材に取り付ける"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:169
 msgid ""
-"Mounting the Control System Electronics on a non-conductive material, "
-"such as a thin sheet of plywood or a sheet of PVC type A, can help reduce"
-" the risk of an ESD event between the frame and the electronics. Using a "
-"non-conductive, rigid panel can also help with wire management and strain"
-" relieving."
+"Mounting the Control System Electronics on a non-conductive material, such "
+"as a thin sheet of plywood or a sheet of PVC type A, can help reduce the "
+"risk of an ESD event between the frame and the electronics. Using a non-"
+"conductive, rigid panel can also help with wire management and strain "
+"relieving."
 msgstr ""
+"コントロールシステムの電子機器を電気絶縁性の素材、例えば薄い Plywood のシートや PVC 型 A "
+"のシートに取り付けることで、フレームと電子機器間での "
+"ESD（静電気放电）イベントのリスクを軽減することができます。非導電性で剛性のあるパネルを使用することも、配線管理と応力緩和に役立ちます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:179
 msgid "An expansion hub mounted on a plywood sheet."
-msgstr ""
+msgstr "Plywoodシートに取り付けられた拡張ハブ。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:179
 msgid ""
-"The plywood sheet has holes drilled in it and wires are secured with "
-"cable ties to the plywood."
-msgstr ""
+"The plywood sheet has holes drilled in it and wires are secured with cable "
+"ties to the plywood."
+msgstr "Plywoodシートには穴が開けられ、ワイヤーはコネクタバンドで固定されています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:182
-msgid "Sub Step B: Isolate Exposed or Poorly Insulated Parts of the Electronics"
-msgstr ""
+msgid ""
+"Sub Step B: Isolate Exposed or Poorly Insulated Parts of the Electronics"
+msgstr "サブステップB：露出しているか、不良に保熱されている電子機器の部品を分離する"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:184
 msgid ""
-"Certain parts of the Control System’s electronics have exposed metal or "
-"are poorly insulated. If these parts are placed too close to the metal "
-"frame, a shock can occur if a charge accumulates on the frame."
+"Certain parts of the Control System’s electronics have exposed metal or are "
+"poorly insulated. If these parts are placed too close to the metal frame, a "
+"shock can occur if a charge accumulates on the frame."
 msgstr ""
+"制御システムの電子部品の一部は露出している金属部分があり、または不良で十分に保険されていません。これらの部分がフレームの金属部分に近すぎる場合、フレームに電荷が蓄積した場合にショックが発生する可能性があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:192
 msgid ""
-"A sensor with 4-wire connector and a servo wire extension connection, the"
-" 4-wire connector and extension connection are are circled in red."
+"A sensor with 4-wire connector and a servo wire extension connection, the "
+"4-wire connector and extension connection are are circled in red."
 msgstr ""
+"4本線コネクタとサーボワイヤーエクステンション接続を持つセンサーで、4本線コネクタとエクステンション接続は赤色で囲まれています。「4本線コネクタ」および「エクステンション接続」は赤色で囲まれています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:192
 msgid ""
-"Electrostatic shocks can occur at poorly insulated or exposed portions of"
-" the electronics."
-msgstr ""
+"Electrostatic shocks can occur at poorly insulated or exposed portions of "
+"the electronics."
+msgstr "電気静的なショックは、電子機器の不良に保たれた部分や露出した部分で発生することがあります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:195
 msgid ""
 "For example, the 4-wire sensor cables that are used by the REV Robotics "
-"Expansion Hub have plastic connectors that are poorly insulated. If a "
-"charge accumulates on the metal frame of the robot, and the end of sensor"
-" cable is placed close to the frame, a shock can occur and this shock can"
-" disrupt or even damage the I2C port of an Expansion Hub."
+"Expansion Hub have plastic connectors that are poorly insulated. If a charge"
+" accumulates on the metal frame of the robot, and the end of sensor cable is"
+" placed close to the frame, a shock can occur and this shock can disrupt or "
+"even damage the I2C port of an Expansion Hub."
 msgstr ""
+"例えば、REV "
+"Roboticsの拡張ハブで使用される4本線センサーケーブルは、プラスチックコネクタが不良に保険されているため、不良な絶縁材を使用しています。ロボットの金属フレームに電荷が蓄積した場合、センサーケーブルの端がフレーム近くに配置された場合、ショックが発生し、このショックは拡張ハブのI2Cポートを妨害したり、甚至には壊すことがあります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:201
 msgid ""
-"Similarly, some servo extension cables have exposed portions of metal "
-"that could be vulnerable to ESD unless properly isolated or insulated."
+"Similarly, some servo extension cables have exposed portions of metal that "
+"could be vulnerable to ESD unless properly isolated or insulated."
 msgstr ""
+"同様に、いくつかのサーボーエクステンションケーブルには、ESD（静電気放電）によって損傷する可能性がある露出している金属部分が含まれている場合があります。適切に隔離または絶縁されていない限りです。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:205
 msgid ""
-"Moving these vulnerable areas of the electronics system away from the "
-"frame (with an air gap greater than 3/8” or 10mm) can help reduce the "
-"risk of an ESD disruption."
+"Moving these vulnerable areas of the electronics system away from the frame "
+"(with an air gap greater than 3/8” or 10mm) can help reduce the risk of an "
+"ESD disruption."
 msgstr ""
+"電子機器システムのこれらの脆弱な部分をフレームから離す（空気間隔が3/8インチ以上または10mmを超えるように）ことで、ESD（静電気放电）による障害のリスクを減らすことができます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:213
 msgid "A sensor with an air gap between the frame and the 4-wire connector."
-msgstr ""
+msgstr "フレームと4本線コネクタ間に空気隙があるセンサー。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:213
 msgid "Keep exposed portions of the electronics away from the frame."
-msgstr ""
+msgstr "電子機器の露出した部分はフレームから離して置きましょう。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:215
 msgid ""
-"Using electrical tape to insulate these areas can be equally effective "
-"and may be easier to implement."
-msgstr ""
+"Using electrical tape to insulate these areas can be equally effective and "
+"may be easier to implement."
+msgstr "これらのエリアを絶縁するために電気テープを使用することも効果的で、実装が容易である場合があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:221
 msgid ""
-"A servo wire extension connection wrapped in electrical tape and a sensor"
-" mounted on a frame where the frame is wrapped in electrical tape."
-msgstr ""
+"A servo wire extension connection wrapped in electrical tape and a sensor "
+"mounted on a frame where the frame is wrapped in electrical tape."
+msgstr "電気テープで巻かれたサーボワイヤーエクステンション接続と、フレームに取り付けられたセンサーで、そのフレームも電気テープで巻いてある。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:221
-msgid "Electrical tape can be used to insulate exposed or poorly insulated metal."
-msgstr ""
+msgid ""
+"Electrical tape can be used to insulate exposed or poorly insulated metal."
+msgstr "露出しているか、不良で保険が効いていない金属には電気テープを使用して絶縁します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:224
 msgid ""
 "An ESD event on the USB 2.0 port on the Control Hub can cause Wi-Fi "
 "disconnects."
-msgstr ""
+msgstr "USB 2.0ポート（制御ハブ）でのESDイベントは、Wi-Fi接続の切断を引き起こす可能性があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:226
 msgid ""
-"The REV Control Hub has a `known ESD issue <https://docs.revrobotics.com"
-"/duo-control/troubleshooting-the-control-system/troubleshooting-the-"
-"control-system#esd-mitigation-techniques>`_ with devices plugged into the"
-" USB 2.0 port. Using the USB 2.0 Port may cause ESD to affect your "
-"Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the driver hub)."
+"The REV Control Hub has a `known ESD issue "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/troubleshooting-the-control-system#esd-mitigation-techniques>`_ with "
+"devices plugged into the USB 2.0 port. Using the USB 2.0 Port may cause ESD "
+"to affect your Control Hub's Wi-Fi Chip (causing Wi-Fi disconnects with the "
+"driver hub)."
 msgstr ""
+"REV Control Hubは、USB 2.0ポートに接続されたデバイスについて`既知のESD問題 "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/troubleshooting-the-control-system#esd-mitigation-techniques>`_ "
+"があります。USB 2.0ポートを使用すると、ESDがControl HubのWi-Fiチップに影響を及ぼし（ドライバーハブとのWi-"
+"Fi接続が切れてしまう場合があります）。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:231
 msgid ""
-"Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port"
-" on your Control Hub."
-msgstr ""
+"Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on"
+" your Control Hub."
+msgstr "制御ハブのUSB 3.0ポートにカメラなどのUSBデバイスを接続してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:234
 msgid ""
 "Step 3: Covering Exterior Metal Features with Electrically Insulated "
 "Material"
-msgstr ""
+msgstr "ステップ3: 電気絶縁材で外側の金属部品を覆う"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:236
 msgid ""
 "Another ESD mitigation strategy is to cover exposed portions of metallic "
 "frame pieces with an electrically insulating material. Covering the "
-"conductive exterior parts of a robot with a non-conductive material "
-"reduces the risk that they will touch a conductive object at a different "
-"electrical potential and trigger an ESD event. Wooden bumpers, electrical"
-" tape, and other non-conductive coatings are all effective."
+"conductive exterior parts of a robot with a non-conductive material reduces "
+"the risk that they will touch a conductive object at a different electrical "
+"potential and trigger an ESD event. Wooden bumpers, electrical tape, and "
+"other non-conductive coatings are all effective."
 msgstr ""
+"また、電気絶縁材で金属フレームの露出した部分を覆うこともESD対策の一つです。ロボットの導電性の外表面に非導電性素材で覆いをかけることで、異なる電位の导电物体と触れることによるESDイベントを引き起こすリスクが低減されます。木製の衝突防止装置、電気テープ、その他の非導電性コーティングはすべて効果的です。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:247
 msgid ""
-"A robot claw mechanism where the metal claws are wrapped in electrical "
-"tape."
-msgstr ""
+"A robot claw mechanism where the metal claws are wrapped in electrical tape."
+msgstr "電気テープで金属の爪が包まれたロボット用のカ游戏玩家机制。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:247
 msgid ""
-"Insulating portions of the robot that touch other metallic objects on the"
-" field can help."
-msgstr ""
+"Insulating portions of the robot that touch other metallic objects on the "
+"field can help."
+msgstr "ロボットの金属物体と接触する部分を隔熱することができる。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:250
 msgid ""
-"In past seasons, teams who have done this have observed reductions in the"
-" frequency and severity of ESD events on their robots."
-msgstr ""
+"In past seasons, teams who have done this have observed reductions in the "
+"frequency and severity of ESD events on their robots."
+msgstr "過去のシーズンでは、この作業を行ったチームは、ロボットでのESDイベントの頻度と Severity が減少したことを観察しています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:254
 msgid "Step 4: Ground Electronics to Metal Frame with an Approved Cable"
-msgstr ""
+msgstr "ステップ4：認定されたケーブルを使用して地上電気装置を金属フレームに接続する"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:256
 msgid ""
-"Because it is difficult to perfectly isolate the electrical system, it is"
-" beneficial to ground the electrical system to the frame of the robot to "
-"prevent a potential difference from building up between the frame and the"
-" electronics. Doing this can help reduce the risk that a shock can occur "
+"Because it is difficult to perfectly isolate the electrical system, it is "
+"beneficial to ground the electrical system to the frame of the robot to "
+"prevent a potential difference from building up between the frame and the "
+"electronics. Doing this can help reduce the risk that a shock can occur "
 "between the frame of a robot and the Control System electronics."
 msgstr ""
+"電気システムを完全に隔離することは難しいため、電気システムをロボットフレームに接地することで、フレームと電子機器間の潜在的な差が蓄積しないようにすることが有利です。これを行うことで、フレームと制御システムの電子機器間でショックが発生するリスクを減らすことができます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:266
 msgid ""
-"The REV Resistive Grounding Strap has a XT30 connection on one end and an"
-" eye loop connector on the other end."
-msgstr ""
+"The REV Resistive Grounding Strap has a XT30 connection on one end and an "
+"eye loop connector on the other end."
+msgstr "REV抵抗接地ストラップは、一方の端にXT30接続があり、他方の端にはアイループコネクタがあります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:266
 msgid ""
 "The REV Resistive Grounding Strap (REV-31-1269) is an approved grounding "
 "cable."
-msgstr ""
+msgstr "REV抵抗接地ストラップ（REV-31-1269）は、承認された接地ケーブルです。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:269
 msgid ""
-"It is important that the grounding **only be done using a FIRST-approved,"
-" commercially manufactured cable** (see the competition manual for the "
-"currently approved cables). A *FIRST*-approved cable has an appropriately"
-" sized inline resistor. This resistor is critical because it acts as a "
-"safeguard to prevent excessive current from flowing through the frame of "
-"the robot if a “hot” (positive) wire of the electronics system is "
-"inadvertently short circuited to the frame of the robot. Also, the "
-"commercially manufactured grounding cable has a keyed connection, which "
-"is designed to prevent a user from inadvertently connecting a hot (12V) "
-"line to the frame of robot."
+"It is important that the grounding **only be done using a FIRST-approved, "
+"commercially manufactured cable** (see the competition manual for the "
+"currently approved cables). A *FIRST*-approved cable has an appropriately "
+"sized inline resistor. This resistor is critical because it acts as a "
+"safeguard to prevent excessive current from flowing through the frame of the"
+" robot if a “hot” (positive) wire of the electronics system is inadvertently"
+" short circuited to the frame of the robot. Also, the commercially "
+"manufactured grounding cable has a keyed connection, which is designed to "
+"prevent a user from inadvertently connecting a hot (12V) line to the frame "
+"of robot."
 msgstr ""
+"grounding "
+"**専用のFIRST認定製品である商用ケーブルのみを使用する**ことが重要です（競技マニュアルを参照して、現在認定されているケーブルをご確認ください）。"
+" "
+"FIRST認定のケーブルは適切なサイズのインライン抵抗子を備えています。この抵抗子は重要な機能があり、電子システムの「熱線」（正極）がロボットフレームに意図せずにショート回路した場合、フレームに過度な電流が流れることを防止するための保護装置となります。また、商用"
+" grounding ケーブルにはキー式接続があり、ユーザーが誤って12Vの線をロボットフレームにつなぐことを防ぐ設計となっています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:281
 msgid ""
@@ -463,44 +510,48 @@ msgid ""
 "need to use the REV Robotics Anderson Powerpole to XT30 Adapter cable in "
 "conjunction with REV Robotics’ Resistive Grounding Strap:"
 msgstr ""
+"チームがアンダーソン・パワーポールコネクタを使用している場合、REV RoboticsのAnderson Powerpole to "
+"XT30アダプターケーブルとREV Roboticsの抵抗接地ストラップと一緒に使用する必要があります："
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:289
 msgid "REV Robotics Anderson Powerpole to XT30 Adapter cable"
-msgstr ""
+msgstr "REVロボティクスアンダーソンパワーポールからXT30アダプターケーブル"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:289
 msgid ""
-"The REV-31-1385 adapter is approved for use with REV’s Resistive "
-"Grounding Strap."
-msgstr ""
+"The REV-31-1385 adapter is approved for use with REV’s Resistive Grounding "
+"Strap."
+msgstr "REV-31-1385 アダプターは、RESISTIVE GROUNDING STRAP との接続に REV の承認を受けている。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:292
 msgid ""
-"To ground the electronics, plug one end of the *FIRST*-approved cable "
-"into a spare XT30 port on the Control System electronics. Then bolt the "
-"other end using a conductive (i.e., metal) bolt to the frame of the "
-"robot."
+"To ground the electronics, plug one end of the *FIRST*-approved cable into a"
+" spare XT30 port on the Control System electronics. Then bolt the other end "
+"using a conductive (i.e., metal) bolt to the frame of the robot."
 msgstr ""
+"電子機器を接地するには、FIRST認定のケーブルの1端子を制御システムの電子部品に余裕のあるXT30ポートに接続します。次に、導電性（つまり、金属の）ボルトを使用してロボットフレームに他の端子を固定します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:300
 msgid ""
 "An expansion hub with a grounding cable connected to the XT30 port and "
 "bolted to the metal frame of the robot."
-msgstr ""
+msgstr "金属フレームに固定されたXT30ポートに接地ケーブルが接続されている拡張ハブ。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:300
 msgid "Ground the electronics to the frame using a FIRST-approved cable."
-msgstr ""
+msgstr "フレームに電子機器を接地するため、FIRST認定のケーブルを使用します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:302
 msgid ""
 "It might initially seem contradictory to both insulate the electronic "
 "components of the control system from the frame and to also ground the "
-"electronics to the frame. However, if the electronics are not grounded to"
-" the frame, shocks can occur if a charge builds on the robot frame and an"
-" exposed or poorly insulated portion of the electronics (such as the base"
-" of a REV Robotics color sensor) gets close it. If the electronics are "
-"grounded to the frame, the grounding wire helps keep the electronics at "
-"the same potential as the frame, preventing arcs between the two systems."
+"electronics to the frame. However, if the electronics are not grounded to "
+"the frame, shocks can occur if a charge builds on the robot frame and an "
+"exposed or poorly insulated portion of the electronics (such as the base of "
+"a REV Robotics color sensor) gets close it. If the electronics are grounded "
+"to the frame, the grounding wire helps keep the electronics at the same "
+"potential as the frame, preventing arcs between the two systems."
 msgstr ""
-
+"制御システムの電子部品をフレームから隔離し、同時に電子機器をフレームに接地するという点で、最初は矛盾しているように思えるかもしれません。しかし、電子機器がフレームに接地されていない場合、ロボットフレームに電荷が蓄積し、露出しているかまたは不良な絶縁部の電子機器（REV"
+" "
+"Roboticsの色センサーや基盤など）がフレームと近づくとショックが発生する可能性があります。電子機器がフレームに接地されている場合、接地線は電子機器をフレームと同じ電位に保つ助けとなり、両システム間での放電を防ぎます。"

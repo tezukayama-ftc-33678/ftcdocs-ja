@@ -12,75 +12,87 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:2
 msgid "Sample OpModes"
-msgstr ""
+msgstr "サンプルオペレーションモード"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:4
 msgid ""
-"The intent of this tutorial is to describe the available webcam controls,"
-" allowing programmers to **develop their own solutions** guided by the "
-"SDK API (Javadoc)."
+"The intent of this tutorial is to describe the available webcam controls, "
+"allowing programmers to **develop their own solutions** guided by the SDK "
+"API (Javadoc)."
 msgstr ""
+"このチュートリアルの意図は、利用可能なウェブカメラコントロールを説明し、プログラマがSDK API（Javadoc）を参照して "
+"**独自のソリューションを開発** できるようにすることです。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:8
 msgid ""
 "The following sample OpModes are linked here for reference only. These "
-"rudimentary OpModes may not apply to your webcam and may not meet your "
-"needs in general."
+"rudimentary OpModes may not apply to your webcam and may not meet your needs"
+" in general."
 msgstr ""
+"次のサンプルOpModeは、参照のためにここにリンクされています。これらの基本的なOpModeは、あなたのウェブカメラには適用されない場合があり、一般的なニーズを満たすものではないかもしれません。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust exposure, gain and AE Priority"
-msgstr ""
+msgstr "露出、ゲインおよびAE優先度を調整"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:16
 msgid ""
 ":download:`W_WebcamControls_Exp_Gain.java "
 "<opmodes/W_WebcamControls_Exp_Gain.java>`"
 msgstr ""
+":download:`W_ WebcamControls_Exp_Gain.java <opmodes/W_ "
+"WebcamControls_Exp_Gain.java>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust exposure and gain with TFOD (test OpMode for Examples 1, 2, 3)"
-msgstr ""
+msgstr "TFOD（例題1、2、3用のテストオペモード）を使用して露出とゲインを調整します"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:25
-msgid ":download:`W_TFOD_WebcamExpGain.java <opmodes/W_TFOD_WebcamExpGain.java>`"
+msgid ""
+":download:`W_TFOD_WebcamExpGain.java <opmodes/W_TFOD_WebcamExpGain.java>`"
 msgstr ""
+":download:`W_TFOD_ WebcamExpGain.java <opmodes/W_TFOD_ WebcamExpGain.java>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust white balance temperature, if supported"
-msgstr ""
+msgstr "白平衡温度を調整します（対応する場合）"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:32
 msgid ""
 ":download:`W_WebcamControls_WhiteBalance.java "
 "<opmodes/W_WebcamControls_WhiteBalance.java>`"
 msgstr ""
+":download:`W_WebcamControls_WhiteBalance.java "
+"<opmodes/W_WebcamControls_WhiteBalance.java>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust focus, if supported"
-msgstr ""
+msgstr "フォーカスを調整します（対応する場合は）"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:39
 msgid ""
 ":download:`W_WebcamControls_Focus.java "
 "<opmodes/W_WebcamControls_Focus.java>`"
 msgstr ""
+":download:`W_ WebcamControls_Focus.java <opmodes/W_ "
+"WebcamControls_Focus.java>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust virtual pan, tilt and zoom, if supported"
-msgstr ""
+msgstr "サポートされている場合、仮想的な pans、tilt、zoom の調整を行ってください"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:46
-msgid ":download:`W_WebcamControls_PTZ.java <opmodes/W_WebcamControls_PTZ.java>`"
+msgid ""
+":download:`W_WebcamControls_PTZ.java <opmodes/W_WebcamControls_PTZ.java>`"
 msgstr ""
-
+":download:`W_ WebcamControls_PTZ.java <opmodes/W_ WebcamControls_PTZ.java>`"

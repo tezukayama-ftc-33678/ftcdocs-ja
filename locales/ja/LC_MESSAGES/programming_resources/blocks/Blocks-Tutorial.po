@@ -12,42 +12,42 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/blocks/Blocks-Tutorial.rst:2
 msgid "Blocks Programming Tutorial"
-msgstr ""
+msgstr "ブロックプログラミングチュートリアル"
 
 #: ../../source/programming_resources/blocks/Blocks-Tutorial.rst:10
 msgid ""
-"This tutorial will take you step-by-step through the process of "
-"configuring, programming, and operating your Control System. This "
-"tutorial uses the *Blocks Programming Tool* to help you get started "
-"quickly."
+"This tutorial will take you step-by-step through the process of configuring,"
+" programming, and operating your Control System. This tutorial uses the "
+"*Blocks Programming Tool* to help you get started quickly."
 msgstr ""
+"このチュートリアルでは、制御システムの設定、プログラミング、および操作方法をステップバイステップで説明します。このチュートリアルでは、*ブロックプログラミングツール*を使用して、迅速に始められるように支援します。"
 
 #: ../../source/programming_resources/blocks/Blocks-Tutorial.rst:15
 msgid ""
-"The Blocks Programming Tool is a visual design tool that lets programmers"
-" use a web browser to create, edit and save their *op modes*."
-msgstr ""
+"The Blocks Programming Tool is a visual design tool that lets programmers "
+"use a web browser to create, edit and save their *op modes*."
+msgstr "ブロックプログラミングツールは、開発者がウェブブラウザを使用して*オペレーションモード*を作成、編集し、保存できる視覚的な設計ツールです。"
 
 #: ../../source/programming_resources/blocks/Blocks-Tutorial.rst:18
 msgid ""
 "*FIRST* recommends getting starting with Blocks, even if you are an "
-"experienced programmer. Using Blocks is the *easiest* and *fastest* way "
-"to get acquainted with the Control System!"
+"experienced programmer. Using Blocks is the *easiest* and *fastest* way to "
+"get acquainted with the Control System!"
 msgstr ""
+"*FIRST*は、経験豊富なプログラマーであってもブロックから始めるのをおすすめします。ブロックを使用することで、制御システムに慣れることを*最も簡単で迅速な方法*で実現できます！"
 
 #: ../../source/programming_resources/blocks/Blocks-Tutorial.rst:28
 msgid ""
 ":bdg-warning:`Blocks` indicates that the content is specific to Blocks "
 "Programming"
-msgstr ""
-
+msgstr ":bdg-warning:`ブロック` はブロックスプログラミングに特化した内容を示します"

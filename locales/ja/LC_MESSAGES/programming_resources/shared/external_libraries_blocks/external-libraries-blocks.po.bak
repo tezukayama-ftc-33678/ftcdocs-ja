@@ -1,0 +1,801 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:2
+msgid "External Libraries in OnBot Java and Blocks"
+"msgstr "OnBot Javaとブロックスで使用する外部ライブラリ""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:5
+msgid "Introduction"
+"msgstr "紹介\\n""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:7
+msgid ""
+"Blocks and OnBot Java programmers can use external libraries, starting with "
+"SDK 7.0 released for the Freight Frenzy season. This capability previously "
+"existed for programmers using Android Studio."
+"msgstr """
+"ブロックとOnBot Javaプログラマは、Freight Frenzyシーズン向けにリリースされたSDK "
+"7.0から外部ライブラリを使用できるようになりました。この機能は以前はAndroid Studioを使用するプログラマに対して存在していました。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:11
+msgid ""
+"An external library is a collection of specialized software ready for public"
+" use, and typically available from a website or repository, called a ‘repo’."
+" You don’t need to know its inner workings, just what it does and how to use"
+" it."
+"msgstr """
+"外部ライブラリは、公開用に準備された専門的なソフトウェアの集合体で、通常はウェブサイトやレポジトリ（repo）から利用可能です。その内部仕組みを知る必要はありません。どのような機能を持っているか、どのように使用するかだけを理解すればよいです。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:16
+msgid ""
+"This beginner-level tutorial shows how to incorporate a library’s features "
+"into your Op Modes, and provides simple examples. It does not teach Java."
+"msgstr """
+"初心者向けのチュートリアルでは、ライブラリの機能をOp Modesに組み込む方法を説明し、簡単な例も提供しています。Javaの教科書ではありません。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:20
+msgid ""
+"Many thanks to `Liz Looney <https://github.com/lizlooney>`__ who developed "
+"this capability, along with myBlocks and many other useful features of the "
+"software."
+"msgstr """
+"Many thanks to `Liz Looney <https://github.com/lizlooney>`__ "
+"がこの機能を開発し、myBlocks およびソフトウェアの多くの他の有用な機能も開発したことに感謝します。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:24
+msgid ""
+"*Note: This new capability exists for a Robot Controller (RC) running "
+"Android 7 & and higher. Moto G 2nd Gen and Moto G 3rd Gen RC phones cannot "
+"use this feature.*"
+"msgstr """
+"*注意: この新しい機能は、Android 7以降のバージョンを実行しているロボットコントローラ(RC)で利用できます。Moto G 2nd "
+"GenおよびMoto G 3rd GenのRC電話ではこの機能を利用できません。*"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:29
+msgid "Overview"
+"msgstr "概要""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:31
+msgid "It’s a simple process with three basic steps."
+"msgstr "これは三つの基本的なステップで簡単に実行できるプロセスです。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:33
+msgid ""
+"**Step 1**, find a library with features you want to use, and get its .jar "
+"or .aar file."
+"msgstr "**ステップ1**、使用したい機能を持つライブラリを見つけ、その.jarまたは.aarファイルを取得します。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:36
+msgid "**Step 2**, upload that file in OnBot Java."
+"msgstr "**ステップ2**、そのファイルをOnBot Javaにアップロードしてください。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:38
+msgid ""
+"Step 3 has three variations, depending on your planned use of the library."
+"msgstr "ステップ3には、ライブラリの使用計画によって3つのバリエーションがあります。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:41
+msgid ""
+"**Step 3A** assumes you want to use a library function, or *method*, in "
+"OnBot Java only. Namely you are **not** planning to make that method "
+"available for Blocks users."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:45
+msgid ""
+"**Step 3B** assumes that you **do** want to provide the library method to a "
+"Blocks user, by creating a special Block called a myBlock. MyBlocks are not "
+"new with 7.0, but now you can use library code in that myBlock. You can "
+"create your myBlock to have the exactly same inputs and outputs as the "
+"library method, or slightly different inputs and outputs."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:51
+msgid ""
+"**Step 3C** is a different scenario, where the library method is made "
+"available directly to the Blocks user, **without creating a myBlock**. This "
+"can be done, if the library is specially annotated by its author."
+"msgstr """
+"**ステップ3C**は、ライブラリメソッドをブロックユーザーに直接利用可能にする異なるシナリオです。これには、ライブラリが著者が特別に注釈を付けていない限り、**myBlockを作成せずに**行うことができます。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:57
+msgid "Step 1 - Select library, get archive file"
+"msgstr "ステップ 1 - ライブラリを選択し、アーカイブファイルを取得します""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:59
+msgid ""
+"There are hundreds of code libraries available on the internet. In Step 1, "
+"you find a library with specialized functions (methods) that you want to "
+"use. Start with a web search, or get suggestions from other teams."
+"msgstr """
+"インターネット上には数百のコードライブラリが用意されています。ステップ1では、使用したい専門的な機能（メソッド）を持つライブラリを見つけることができます。ウェブ検索から始めるか、他のチームから提案を受けてみてください。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:64
+msgid ""
+"It’s best to choose a repo with a well documented interface. Review its "
+"documentation or API, learn what the methods can do, and learn about inputs "
+"required and output provided."
+"msgstr """
+"最善は、 WELL DOCUMENTED なインターフェースを持つ REPO を選ぶことです。そのドキュメンテーションや API "
+"を確認し、メソッドが何をできるのかを学び、必要な入力と提供される出力を理解することです。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:68
+msgid ""
+"If that’s something you want to use, then try to find the .jar or .aar file."
+" The ``.jar`` suffix means Java Archive and ``.aar`` means a similar format "
+"called Android Archive. This is a compressed file containing the entire "
+"collection of code that you want, in a single file. It’s similar to a *zip "
+"file* that you may have used for general web downloads."
+"msgstr """
+"もしその機能を使用したい場合は、.jar もしくは .aar ファイルを見つけることを試みてください。``.jar`` のサフィックスは Java "
+"アーカイブを意味し、``.aar`` は同様のフォーマットで Android "
+"アーカイブと呼ばれます。これは、あなたが使用したい全コードを集めた圧縮ファイルです。これは一般的なウェブダウンロード用の *zip ファイル* "
+"に似ています。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:75
+msgid ""
+"If you’re having trouble locating that .jar file, or if you’re not sure how "
+"to use that library, you are encouraged to contact the repo owner or "
+"developer. They often enjoy hearing how programmers plan to use their code, "
+"and would be happy to help you get started. Don’t be intimidated, they are "
+"often willing to help."
+"msgstr """
+"もしその.jarファイルを見つけることができない場合、またはそのライブラリの使い方がわからなければ、リポジトリの所有者や開発者に連絡することをおすすめします。彼らはしばしばプログラマがどのようにコードを使用するか聞くことを楽しんでおり、あなたが始め方について手伝ってくれるでしょう。"
+" intimidiert されないでください、彼らはしばしば助けを求める人を助けることに同意します。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:81
+msgid ""
+"Then just download that .jar or .aar file to local storage such as your "
+"laptop or to a team Google drive."
+"msgstr """
+"次に、その.jarファイルや.aarファイルをローカルストレージにダウンロードします。例えば、あなたのノートパソコンやチームのGoogleドライブなどに保存してください。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:85
+msgid "Step 2 - Upload archive file"
+"msgstr "ステップ 2 - アーカイブファイルのアップロード""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:87
+msgid ""
+"Copy the .jar or .aar file to your programming laptop, if the file is not "
+"stored there already."
+"msgstr "既にプログラム用のノートパソコンに保存されていない場合、.jar もしくは .aar ファイルをコピーしておきます。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:90
+msgid ""
+"Connect your laptop via Wi-Fi to a Robot Controller device that’s running "
+"the RC app, version 7.0 or higher (see instructions at ``Program and "
+"Manage``, on the RC phone or its paired Driver Station device). In the "
+"Chrome browser, open OnBot Java."
+"msgstr """
+"ロボットコントローラ装置に搭載されているRCアプリ（バージョン7.0以上）をWi-"
+"Fi経由であなたのノートパソコンに接続してください（詳細は「Program and "
+"Manage」ページのRCスマートフォンやペアリングされたドライバーステーションデバイスの指示をご覧ください）。Google "
+"Chromeブラウザを開き、OnBot Javaを開きます。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:95
+msgid ""
+"In OnBot Java (OBJ) click the **upload icon**, normally used to upload a "
+"regular Java file to the ``teamcode`` folder."
+"msgstr """
+"OnBot "
+"Java（OBJ）で、通常は「チームコード」フォルダに一般的なJavaファイルをアップロードするために使用される**アップロードアイコン**をクリックします。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:103
+msgid "upload icon"
+"msgstr "アップロードアイコン""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:103
+msgid "Upload icon in OnBot Java"
+"msgstr "OnBot Javaでアイコンのアップロード""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:105
+msgid ""
+"Instead of a Java file, select the .jar or .aar library file to upload from "
+"the laptop."
+"msgstr "Javaファイルではなく、アップロードするための.laptopから.jarや.aarライブラリファイルを選択してください。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:108
+msgid ""
+"OnBot Java will recognize that it’s an archive file, and will automatically "
+"create a folder called ``ExternalLibraries``. This folder will appear above "
+"the ``teamcode`` folder."
+"msgstr """
+"OnBot "
+"Javaはアーカイブファイルと認識し、自動的に「ExternalLibraries」というフォルダを作成します。このフォルダは「teamcode」フォルダの上部に表示されます。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:116
+msgid "ExternalLibraries folder and Build Everything icon"
+"msgstr "外部ライブラリフォルダとビルドすべてアイコン""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:119
+msgid "Step 3 - Programming"
+"msgstr "ステップ3 - プログラミング""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:121
+msgid ""
+"The programming step has several variations depending on how you’re planning"
+" to use the External Library code."
+"msgstr "外部ライブラリコードを使用する方法によって、プログラムの手順にはいくつかの変種があります。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:124
+msgid ""
+"**Step 3A** assumes you want to use the library method only in your Java "
+"program or OpMode, and **not** provide it to Blocks users. Or perhaps your "
+"team doesn’t work with Blocks at all."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:128
+msgid "So, you can just start programming!"
+"msgstr "では、programmingを始めることができます！""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:130
+msgid ""
+"First import the class. You know the **class name** because you read about "
+"it in the library documentation. And you know the **method names** and how "
+"they work, including the inputs and outputs (and their Java types). This "
+"tutorial does not offer Java programming instruction."
+"msgstr ""
+"First import the class. You know the **class name** because you read about it in the library documentation. And you know the **method names** and how they work, including the inputs and outputs (and their Java types). This tutorial does not offer Java programming instruction."
+""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:135
+msgid ""
+"Remember, when all your programming is finished, click the ``Build "
+"Everything`` icon (see image above)."
+"msgstr "完了したすべてのプログラミングが終了したら、``Build Everything`` アイコン（上記画像参照）をクリックしてください。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:138
+msgid ""
+"In **Step 3B** you create a myBlock, which can modify the library method, or"
+" not. It depends on the functionality you want to provide to your Blocks "
+"programmer."
+"msgstr """
+"**ステップ3B**では、myBlockを作成します。このmyBlockはライブラリメソッドを変更することができるか、それとも変更しないかは、Blocksプログラマに提供したい機能によって決まります。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:142
+msgid ""
+"**Unmodified** means that your myBlock simply calls the library method, "
+"using exactly the same inputs and outputs. This might be called a *wrapper "
+"method*."
+"msgstr """
+"**未変更**とは、あなたのmyBlockがライブラリメソッドをそのまま呼び出し、同じ入力と出力を使用することを意味します。これは「ラッパーメソッド」と呼ばれることがあります。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:146
+msgid ""
+"Or, you can use the library method as a **utility function**, performing a "
+"specific task in or for your larger myBlock method. In other words, your "
+"myBlock **supplements** what the library method can do."
+"msgstr ""
+"または、ライブラリメソッドを**ユーティリティ関数**として使用して、より大きなmyBlockメソッド内で特定のタスクを実行できます。つまり、your myBlockはライブラリメソッドが行えること**補完**します。"
+""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:150
+msgid ""
+"Alternatively, the library method might have **more** parameters than your "
+"Blocks user needs, so you want a **simpler** interface. Your OBJ code can "
+"satisfy extra parameters without exposing them to the user of your myBlock."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:155
+msgid "As a reminder, creating a myBlock requires only these two items:"
+"msgstr "なお、myBlockを作成するには、これらの2つの項目だけが必要です：""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:157
+msgid "Extend your existing OpMode class with ``BlocksOpModeCompanion``."
+"msgstr "既存のOpModeクラスに``BlocksOpModeCompanion``を拡張します。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:158
+msgid ""
+"Place the annotation ``@ExportToBlocks`` immediately before each myBlock "
+"method."
+"msgstr "各myBlockメソッドの直前に注釈``@ExportToBlocks``を追加してください。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:161
+msgid ""
+"For more info, see the separate myBlock tutorial :ref:`here "
+"<programming_resources/shared/myblocks/index:custom blocks (myblocks)>`."
+"msgstr ""
+"For more info, see the separate myBlock tutorial :ref:`here <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`."
+""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:164
+msgid ""
+"**Step 3C** assumes the library methods should be provided **directly** to "
+"the Blocks user, without even creating a myBlock. This scenario doesn’t need"
+" to be enabled with your Java code at all."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:168
+msgid ""
+"Instead you must ask the **library developer** to add two annotations, then "
+"provide you a fresh .jar or .aar file. The changes are:"
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:172
+msgid ""
+"Place the annotation "
+"``@org.firstinspires.ftc.robotcore.external.ExportClassToBlocks`` directly "
+"before the library class declaration."
+"msgstr """
+"ライブラリクラス宣言の直前に注釈 "
+"``@org.firstinspires.ftc.robotcore.external.ExportClassToBlocks`` を置きます。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:176
+msgid ""
+"Place the annotation "
+"``@org.firstinspires.ftc.robotcore.external.ExportToBlocks`` directly before"
+" each library method to be exposed (shared or passed through to Blocks)."
+"msgstr """
+"ライブラリメソッドを公開（共有またはブロックに渡す）前に、注釈 "
+"``@org.firstinspires.ftc.robotcore.external.ExportToBlocks`` を直接置きましょう。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:181
+msgid ""
+"When you have that archive file with its annotations, upload it in OnBot "
+"Java, and click ``Build Everything``. That’s it!"
+"msgstr """
+"そのアーカイブファイルと注釈が揃ったら、OnBot Java にアップロードし、「Build "
+"Everything」をクリックしてください。それほど難しくありません！"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:184
+msgid ""
+"It doesn’t matter which Java file (if any) is currently open in OBJ; no such"
+" file is needed for this feature. Those library-annotated “pass-through” "
+"methods will automatically appear in the Blocks toolbox (menu), with the "
+"method’s actual inputs and outputs."
+"msgstr """
+"OBJで現在開いているJavaファイル（なければない）は関係ありません；この機能にはそのようなファイルが必要ありません。これらのライブラリ注釈付きの“通過型”メソッドは自動的にブロックツールボックス（メニュー）に表示され、メソッドの実際の入力と出力が表示されます。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:189
+msgid "See further below for examples of these 3 scenarios."
+"msgstr "これらの3つのシナリオの例については、さらに下記でご覧ください。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:192
+msgid "User Training & Documentation"
+"msgstr ""
+"User Training & Documentation"
+""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:194
+msgid ""
+"For Step 3B or Step 3C, your **Blocks users** must be taught how to use the "
+"new myBlocks or the new pass-through Blocks. That’s **your job**, as the "
+"Java developer who implemented this feature."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:198
+msgid ""
+"Start with good documentation. For myBlocks, use the existing tools to make "
+"helpful labels (for input parameters), clear tooltips and detailed comments."
+" The comments appear in a text box that expands after clicking the blue "
+"question-mark icon on that Block. Tell your users it’s there."
+"msgstr """
+"良好的ドキュメンテーションから始めましょう。myBlocksに対しては、既存のツールを使用して入力パラメータに役立つラベル、明確なヒント表示（トッピップ）と詳細なコメントを作成してください。コメントは、ブロック上の青い質問印アイコンをクリックしたときに拡大するテキストボックスに表示されます。ユーザーにその存在を知らせましょう。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:209
+msgid "wiggle servo myBlock"
+"msgstr "wiggle servo 「wiggle」""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:209
+msgid "myBlock documented using comment, tooltip and input labels"
+"msgstr "myBlock についてコメント、ツールチップ、および入力ラベルを使用してドキュメント化しました""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:211
+msgid ""
+"Meet with your team’s Blocks programmer(s) to explain the new features. "
+"Consider writing a short description, for their future reference. Encourage "
+"users to give you feedback, to improve your code. Congratulations, you are "
+"now a Java developer!"
+"msgstr """
+"チームのブロックプログラマーと会って、新しい機能について説明してください。将来的な参照用に短い説明文を書くことを検討してみてください。ユーザーからのフィードバックを促し、コードの改善に役立ててください。おめでとうございます、あなたは現在Java開発者です！"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:218
+msgid "Benefits"
+"msgstr "利点""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:220
+msgid ""
+"Obviously this External Libraries feature provides advanced functions "
+"previously available only to Android Studio teams."
+"msgstr "明らかに、この外部ライブラリ機能は以前はAndroid Studioチームのみが利用できていた高度な機能を提供します。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:223
+msgid ""
+"Secondly, more of your team members can continue programming the robot in "
+"Blocks. Meanwhile other students (like you), if they want to, can advance "
+"their Java skills and still contribute to the team’s actual robot "
+"programming."
+"msgstr ""
+"次に、チームの更多的メンバーはロボットのブロックプログラミングを続けられます。一方で、他の学生（あなたも含め）がJavaスキルを向上させたい場合は、実際のロボットプログラミングに貢献しながら進行することができます。"
+""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:228
+msgid ""
+"Often, teams have one student who has moved far ahead with their Java "
+"skills, and becomes the team programmer – the **only** programmer. Then "
+"nobody else has the chance to learn and contribute basic programming."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:233
+msgid ""
+"This feature can allow a new arrangement: “nobody is left out, and nobody is"
+" held back”."
+"msgstr "この機能は新しい配列を可能にします：「誰一人取り残さない、誰一人後退させない」です。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:236
+msgid ""
+"As a third benefit, judges love to hear about Outreach. For example your "
+"team could develop useful Blocks for beginner teams. Or, you share ideas and"
+" tips with other advanced teams who are doing the same kind of development. "
+"And, you are encouraged to communicate with library developers. This is a "
+"good opportunity for real-world interaction with specialists: sharing your "
+"needs, and receiving expert guidance. Scientists, engineers, doctors, "
+"entrepreneurs – nobody needs to reinvent the wheel. Professional life is "
+"built on these interactions."
+"msgstr """
+"第三の恩恵として、審判員たちはアウトリーチについて聞くのが大好きです。例えば、あなたのチームは初心者チームのために有用なブロックを開発することもできます。「INIT」や「START」といったボタン名はそのままに、「BEGINNER」や「ADVANCED」などのチーム名は翻訳します。また、同じ種類の開発を行っている他の上級チームとアイデアやヒントを共有することも可能です。そして、図書館開発者とのコミュニケーションが奨励されます。これは実世界での専門家との交流の良い機会です：あなたのニーズを共有し、専門的な指導を受けます。科学者、技術者、医師、起業家など"
+" - 何人かはこの輪を再発明する必要はありません。プロフェッショナルな生活はこれらの交流によって築かれています。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:247
+msgid "Example 1 - non-annotated library"
+"msgstr "例1 - アノテーションなしのライブラリ""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:249
+msgid ""
+"The first example uses a very basic “homemade” library called Geometry For "
+"OBJ. To get your own copy, click :download:`here "
+"<opmodes/GeometryForObj.jar>`."
+"msgstr ""
+"最初の例では、オブジェクト用の基本的な「手作り」ライブラリである「幾何学 For OBJ」を使用しています。自分のコピーを入手するには、:download:`here <opmodes/GeometryForObj.jar>` をクリックしてください。"
+""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:252
+msgid ""
+"As with any current real-world library, this one is **not annotated** for "
+"use. You can use it in OnBot Java only (Step 3A), **or** you can create a "
+"myBlock (Step 3B) to share its capabilities with Blocks programmers. Lacking"
+" annotations, this library does not provide direct “pass-through” methods "
+"(Step 3C) to Blocks."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:258
+msgid ""
+"This library contains a class called ``com.example.google.ftc.Geometry``, "
+"with three methods: - ``circleCircumference()`` accepts radius, returns "
+"circumference - ``circleArea()`` accepts radius, returns area - ``hypot()`` "
+"accepts 2 lengths, returns hypotenuse of right triangle"
+"msgstr """
+"このライブラリには、``com.example.google.ftc.Geometry`` というクラスが含まれており、3つのメソッドがあります：- "
+"``circleCircumference()`` は半径を受け取り、円の周長を返します- ``circleArea()`` "
+"は半径を受け取り、面積を返します- ``hypot()`` は2つの長さを受け取り、直角三角形の斜辺を返します"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:264
+msgid ""
+"Under **Step 3A**, you would use, for example, the ``hypot()`` method for "
+"your own OnBot Java programming, not providing it to Blocks."
+"msgstr """
+"**ステップ3A** の下では、あなたは独自のOnBot Javaプログラミングで例えば ``hypot()`` "
+"メソッドを使用します。ブロックに提供する必要はありません。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:267
+msgid "Add this to your list of import statements:"
+"msgstr "次をインポートステートメントのリストに追加してください：""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:273
+msgid "Then simply use the method in your Java code:"
+"msgstr "次に、Java コードで該当のメソッドを使用します：""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:281
+msgid ""
+"Under **Step 3B**, let’s create your own custom Block called “myHypotenuse”."
+" *This is just an exercise; regular Blocks could easily calculate this "
+"value.*"
+"msgstr """
+"**ステップ3B** "
+"の下で、独自のカスタムブロック「myHypotenuse」を作成しましょう。*これは単なる演習であり、通常のブロックはこの値を簡単に計算できます。*"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:285
+msgid ""
+"You will still need the ``import`` statement, same as above in Step 3A."
+"msgstr "あなたはまだ ``import`` ステートメントが必要です。Step 3A の上記と同じです。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:287
+msgid "Then, extend the main class:"
+"msgstr "次に、メインクラスを拡張します：""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:293
+msgid "The myBlock method might read:"
+"msgstr "myBlock メソッドは以下のように読めるかもしれません：""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:307
+msgid ""
+"This myBlock contains only the library method and uses the same inputs and "
+"output, an example of a ‘wrapper method’."
+"msgstr "このmyBlockにはライブラリメソッドのみが含まれており、同じ入力と出力を使用します。これは‘ラッパーメソッド’の例です。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:310
+msgid ""
+"Note that myHypotenuse() is a ``static`` method, required for all myBlock "
+"methods. Also note that parameter labels are allowed to be different than "
+"the actual method parameters. Learn more about myBlocks :ref:`here "
+"<programming_resources/shared/myblocks/index:custom blocks (myblocks)>`."
+"msgstr """
+"myHypotenuse()は静的メソッドであり、すべてのmyBlockメソッドで必要です。また、パラメータラベルは実際のメソッドパラメータと異なる場合がありますことに注意してください。:ref:`詳細についてはこちら"
+" <programming_resources/shared/myblocks/index:custom blocks (myblocks)>` "
+"を参照してください。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:315
+msgid "Here is the myBlock that will appear in the Blocks toolbox (menu):"
+"msgstr "以下はブロックツールボックス（メニュー）に表示されるmyBlockです:\\n""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:321
+msgid "myHypotenuse myBlock"
+"msgstr "私の斜辺 myBlock""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:321
+msgid "myBlock using library method ``Geometry.hypot()``"
+"msgstr "myBlock using library method ``Geometry.hypot()``""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:324
+msgid ""
+"On your own, you can try this with the two remaining methods. Use myBlocks "
+"to show telemetry output of various input values."
+"msgstr "自分で試すなら、残りの2つの方法でも実践してみてください。myBlocksを使用して、さまざまな入力値のテレメトリ出力を表示しましょう。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:332
+msgid "myBlocks telemetry"
+"msgstr "myBlocks テレメトリー""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:332
+msgid "Telemetry of myBlocks using Geometry library"
+"msgstr "myBlocksのジオメトリーライブラリを使用したテレメトリ""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:335
+msgid "Example 2 - *FIRST* Tech Challenge-annotated library"
+"msgstr ""
+"例 2 - *FIRST* Tech Challenge-注釈付きライブラリ"
+""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:337
+msgid ""
+"Now let’s try another “homemade” library that **does** already contain the "
+"annotations. This one is called Arithmetic For Blocks; click :download:`here"
+" <opmodes/ArithmeticForBlocks.aar>`."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:341
+msgid ""
+"This library contains a class name ``com.example.google.ftc.MoreMath``, with"
+" public methods ``sum``, ``min``, ``max`` and ``average``. Each accepts two "
+"numbers and provides a numeric result."
+"msgstr """
+"このライブラリにはクラス名が ``com.example.google.ftc.MoreMath`` のものがあり、公開メソッドとして ``sum``,"
+" ``min``, ``max`` と ``average`` があります。各メソッドは2つの数字を受け取り、数値の結果を提供します。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:345
+msgid ""
+"This library **is annotated** specifically for team use, as described above."
+" After you upload the .aar file and ``Build Everything``, its 4 “pass-"
+"through” methods will automatically appear as Blocks:"
+"msgstr """
+"このライブラリはチーム用に特別に**注釈が付けられており**、上記で説明しています。.aarファイルをアップロードし、「すべてビルド」を行った後、その4つの「パススルー」メソッドが自動的にブロックとして表示されます："
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:353
+msgid "MoreMath Blocks"
+"msgstr "MoreMath ブロック""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:353
+msgid ""
+"Pass-through methods from class MoreMath in annotated library Arithmetic For"
+" Blocks"
+"msgstr """
+"注釈付きライブラリ Arithmetic For Blocks からクラス MoreMath の Pass-through メソッドを引き継ぐ"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:356
+msgid ""
+"You **could** also use these methods in OnBot Java, including to create a "
+"myBlock. For example, perhaps you want to also provide a custom version of a"
+" pass-through method. But you **don’t need** an OnBot Java file to support "
+"this library or its methods; that’s done automatically by OnBot Java when it"
+" processes the library at upload."
+"msgstr ""
+"あなたはOnBot Javaでこれらのメソッドを使用する**こともできます**。myBlockを作成するためにも使用できます。例えば、通過メソッドのカスタムバージョンを提供したい場合があります。しかし、このライブラリやそのメソッドをサポートするためには、OnBot Javaファイル**は必要ありません**；それはアップロード時にライブラリを処理する際にOnBot Javaによって自動的に実行されます。"
+""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:362
+msgid ""
+"What if you have an annotated library, and don’t want **any** of its methods"
+" to appear as a Blocks pass-through? Just ``Build Everything``, then delete "
+"the .jar or .aar file."
+"msgstr """
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:366
+msgid ""
+"Here are two other “homemade” libraries, both **annotated**. Feel free to "
+"experiment with these."
+"msgstr "以下は、両方とも**注釈付き**の「手作り」ライブラリです。これらのライブラリを自由に実験してみてください。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:369
+msgid ""
+":download:`JniExample.aar <opmodes/JniExample.aar>` contains a class named "
+"``com.example.google.ftc.IntegerMath``, with methods for simple arithmetic "
+"operations, implemented in native C++ code. Its public methods are ``add``, "
+"``subtract``, ``multiply``, and ``divide``. Each accepts two integers and "
+"provides an integer result."
+"msgstr """
+":download:`JniExample.aar "
+"<opmodes/JniExample.aar>`には、ネイティブC++コードで実装された基本的な算術演算のメソッドを持つクラス "
+"``com.example.google.ftc.IntegerMath`` が含まれています。公開メソッドは "
+"``add``（加算）、``subtract``（減算）、``multiply``（乗算）、および "
+"``divide``（除算）です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:375
+msgid ""
+":download:`RevPotentiometer.aar <opmodes/RevPotentiometer.aar>` contains a "
+"class named ``com.example.google.ftc.RevPotentiometer``, which is a hardware"
+" device class for the `REV Potentiometer "
+"<https://www.revrobotics.com/rev-31-1155/>`__. It uses ``AnalogSensorType`` "
+"and ``DeviceProperties`` annotations to make this sensor appear in the "
+"“Configure Robot” menu of the RC app or paired DS app. After the .aar file "
+"has been uploaded (and ``Build Everything``), configure your robot’s Analog "
+"Input Devices and choose ``REV Potentiometer``. It has a public method "
+"``getRotation`` with parameter of type AngleUnit."
+"msgstr """
+":download:`RevPotentiometer.aar <opmodes/RevPotentiometer.aar>`には、クラス "
+"``com.example.google.ftc.RevPotentiometer`` が含まれており、これは `REV Potentiometer "
+"<https://www.revrobotics.com/rev-31-1155/>`__ のハードウェアデバイスクラスです。このセンサーは "
+"``AnalogSensorType`` および ``DeviceProperties`` "
+"アノテーションを使用して、RCアプリケーションまたはペアリングされたDSアプリケーションの「ロボットを構成」メニューに表示されます。.aarファイルがアップロードされ（そして"
+" ``Build Everything`` が実行された後）、ロボットのアナログ入力デバイスを構成し、「REV "
+"Potentiometer」を選択します。このクラスには、AngleUnit型のパラメータを持つ公開メソッド ``getRotation`` "
+"があります。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:387
+msgid "Real-world libraries"
+"msgstr "実世界のライブラリ""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:389
+msgid ""
+"External Libraries have unique content and structure. Each may pose special "
+"challenges as you try to use it in robot code. Communication with the "
+"library developer will be very helpful, perhaps essential."
+"msgstr """
+"外部ライブラリは独自の内容と構造を持っています。ロボットコードで使用する際に、それぞれに特有の課題が生じる可能性があります。ライブラリ開発者とのコミュニケーションは非常に役立つものであり、おそらく必要不可欠です。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:393
+msgid ""
+"Ideally, the library’s .jar or .aar file encompasses all the classes you’ll "
+"need, without external dependencies. A good example is **EasyOpenCV**, "
+"designed and ready for use. See the simple instructions `here "
+"<https://github.com/OpenFTC/EasyOpenCV>`__."
+"msgstr """
+"理想としては、ライブラリの.jarまたは.aarファイルには必要なすべてのクラスが含まれており、外部依存関係なしで使用できるはずです。良い例は "
+"**EasyOpenCV** です。使い方については `こちら <https://github.com/OpenFTC/EasyOpenCV>`__ "
+"を参照してください。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:399
+msgid ""
+"General external libraries might involve a longer journey. For example, "
+"`Apache Commons <https://commons.apache.org/>`__ is a vast public repo, "
+"basically a library of libraries, focused on the Java programming language. "
+"Complications can arise even when choosing a simple math-only library."
+"msgstr """
+"一般的な外部ライブラリは長い旅を必要とする場合があります。例えば、`Apache Commons "
+"<https://commons.apache.org/>`__ "
+"は広大な公開リポジトリで、主にJavaプログラミング言語向けのライブラリのライブラリ集です。単なる数学のみのライブラリを選択するときでも複雑性が生じることがあります。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:405
+msgid ""
+"Apache libraries are organized into Modules, typically each with one or more"
+" .jar files. It may not be sufficient to upload only the .jar file that "
+"seems to contain the class and methods you want to use."
+"msgstr """
+"アパcheライブラリは、モジュールに組織されており、通常は1つまたは複数の.jarファイルで構成されています。必要なクラスやメソッドが含まれていると思われる.jarファイルだけをアップロードするだけでは十分ではないかもしれません。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:409
+msgid ""
+"If the library code refers to a class **not contained** in that .jar file, "
+"OnBot Java’s auto-complete feature may eventually throw a ‘class not found’ "
+"exception, causing your RC app to crash. The exception triggered by this "
+"‘hidden dependency’ may occur within minutes or hours, whenever OBJ "
+"encounters the ‘missing’ class – even if your OpMode does not directly or "
+"indirectly use that class. After that point, your RC app will not operate. "
+"It can operate again only by manually deleting the .jar file and its "
+"associated folder, directly on the RC device."
+"msgstr """
+"もしライブラリコードがその.jarファイルに含まれていない**クラス**を参照している場合、OnBot "
+"Javaの自動完成機能は最終的に「クラスが見つかりません」という例外を投げ、あなたのRCアプリケーションがクラッシュする可能性があります。この「隠された依存関係」によって引き起こされる例外は、OBJが「欠けている」クラスに遭遇した瞬間や数分後、数時間後に発生し、あなたのOpModeがそのクラスを直接または間接的に使用していない場合でも同様です。その時点で以降、あなたのRCアプリケーションは動作しなくなります。RCデバイス上で手動で.jarファイルとその関連フォルダを削除することで再起動することができます。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:418
+msgid ""
+"Starting over, you can find and upload the .jar file containing the "
+"‘missing’ class. But that may expose further dependencies, requiring more "
+".jar files."
+"msgstr """
+"再開して、‘欠けている’クラスが含まれた.jarファイルを見つけてアップロードできます。しかし、これによりさらなる依存関係が露呈される可能性があり、さらに多くの.jarファイルが必要になるかもしれません。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:422
+msgid ""
+"Also, be aware that the SDK already contains some common Apache classes. "
+"OnBot Java may detect this duplication, preventing upload of your .jar file."
+" On the bright side, your desired methods should already be available!"
+"msgstr """
+"また、SDKには既に一部の一般的なApacheクラスが含まれていることに注意してください。OnBot Java "
+"はこの重複を検出する可能性があり、そのためあなたの.jarファイルのアップロードが制限されるかもしれません。しかし、希望するメソッドはすでに利用可能であるべきです！"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:427
+msgid ""
+"So, be prepared for these and other challenges that may arise. Again, it’s "
+"helpful to communicate with the library developer where possible."
+"msgstr "そこで、これらの問題以及其他可能发生的挑战，请做好准备。尽可能与库开发者沟通，这会很有帮助。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:431
+msgid "Advanced"
+"msgstr "高度な""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:433
+msgid ""
+"Here are some technical details that might apply to very advanced use of the"
+" External Libraries feature. These are not covered in this basic tutorial."
+"msgstr """
+"ここに、External Libraries "
+"フEATUREの高度な使用方法に関連する技術的な詳細があります。これらの内容は、この基本チュートリアルではカバーされていません。"
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:437
+msgid ".aar files with assets are not supported"
+"msgstr "aarファイルにはアセットが含まれていないことが推奨されます""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:438
+msgid "External libraries can include .so files for native code"
+"msgstr "外部ライブラリにはネイティブコード用の.soファイルが含まれる場合があります""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:439
+msgid ""
+"External libraries can add new hardware devices with these annotations:"
+"msgstr "外部ライブラリはこれらの注釈を使用して新しいハードウェアデバイスを追加できます：""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:451
+msgid ""
+"External libraries can add new functionality to the Robot Controller with "
+"these annotations:"
+"msgstr "外部ライブラリは、これらのアノテーションを使用してロボットコントローラーに新しい機能を追加することができます：""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:463
+msgid "Summary"
+"msgstr "概要""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:465
+msgid ""
+"Blocks and OnBot Java programmers can benefit and learn from this new "
+"capability with external libraries."
+"msgstr "ブロックスとOnBot Javaプログラマは、この新しい機能により外部ライブラリを使用して学べます。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:468
+msgid ""
+"You are encouraged to submit other examples and suggestions that worked for "
+"you."
+"msgstr "あなたは、他の例やご自身で効果的だった提案も提出されるよう推奨されます。""
+
+#: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:473
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+"msgstr "質問、ご意見や訂正は westsiderobotics@verizon.net までお願いいたします。""

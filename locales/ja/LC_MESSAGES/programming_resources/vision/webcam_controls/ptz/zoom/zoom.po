@@ -12,40 +12,41 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:2
 msgid "Zoom"
-msgstr ""
+msgstr "ズーム"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:4
 msgid ""
-"Virtual zoom is described with a single dimensionless value of type "
-"integer. Similar to the interfaces described above, virtual zoom can be "
-"managed with these methods:"
+"Virtual zoom is described with a single dimensionless value of type integer."
+" Similar to the interfaces described above, virtual zoom can be managed with"
+" these methods:"
 msgstr ""
+"仮想ズームは、次元無しの整数型の単一値で説明されます。上記のインターフェースと同様に、仮想ズームはこれらのメソッドを使用して管理することができます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:8
 msgid "setZoom(int zoom)"
-msgstr ""
+msgstr "ズーム設定(int ズーム)"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:9
 msgid "getZoom()"
-msgstr ""
+msgstr "ズームを得る()"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:10
 msgid "getMinZoom()"
-msgstr ""
+msgstr "最小縮尺を得る()"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:11
 msgid "getMaxZoom()"
-msgstr ""
+msgstr "最大ズーム値を得る()"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:13
 msgid ""
@@ -53,10 +54,11 @@ msgid ""
 "values higher than 250-280 have no further effect on the preview image "
 "(influenced by Vuforia)."
 msgstr ""
+"Logitech "
+"C920では、ズーム値が100から500までの範囲で設定できますが、250-280を超える値はプレビュー画像にさらなる影響を及ぼしません（Vuforiaによって制御されます）。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/zoom/zoom.rst:17
 msgid ""
-"These zoom methods are called on a PtzControl object, as described above "
-"for exposure."
-msgstr ""
-
+"These zoom methods are called on a PtzControl object, as described above for"
+" exposure."
+msgstr "これらのズーム方法は、上記の露出に関する説明で述べたように、PtzControlオブジェクト上で呼び出されます。"

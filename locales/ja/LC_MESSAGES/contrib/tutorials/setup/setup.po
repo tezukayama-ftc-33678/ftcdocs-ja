@@ -12,248 +12,272 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:2
 msgid "Setting Up Your Development Environment"
-msgstr ""
+msgstr "開発環境の設定"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:4
 msgid ":bdg-danger:`One Time Only` :bdg-warning:`Local`"
-msgstr ""
+msgstr ":bdg-danger:`一度のみ` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:7
 msgid ""
-"Only complete these steps if you have chosen to develop the site locally."
-" If you are using **GitHub Codespaces** you should skip this section."
+"Only complete these steps if you have chosen to develop the site locally. If"
+" you are using **GitHub Codespaces** you should skip this section."
 msgstr ""
+"ローカルでサイトを開発することを選択した場合のみこれらの手順を完了してください。**GitHub "
+"Codespaces**を使用している場合は、このセクションをスキップしてください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:10
 msgid ""
-"FTC Docs has a few dependencies that you'll need to install before you "
-"can start developing. Full build features are only available on Linux. "
-"This will only effect those who are looking to build PDFs locally."
+"FTC Docs has a few dependencies that you'll need to install before you can "
+"start developing. Full build features are only available on Linux. This will"
+" only effect those who are looking to build PDFs locally."
 msgstr ""
+"FTC "
+"Docsには開発を始める前にインストールする必要があるいくつかの依存関係があります。完全なビルド機能はLinuxのみで利用可能です。これは、ローカルでPDFを作成したい人だけに影響します。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:14
 msgid ""
-"Remember, this step should **ony be done for Local Development**. If you "
-"are using **GitHub Codespaces** you should skip this step. Also note that"
-" these steps should only be done **once**."
+"Remember, this step should **ony be done for Local Development**. If you are"
+" using **GitHub Codespaces** you should skip this step. Also note that these"
+" steps should only be done **once**."
 msgstr ""
+"覚えておいてください、この手順は**ローカル開発用にのみ実行する**べきです。**GitHub "
+"Codespaces**を使用している場合は、この手順をスキップしてください。また、これらの手順は**一度だけ**実行すべきです。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:18
 msgid "Steps"
-msgstr ""
+msgstr "手順"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:20
 msgid ""
-"Make sure you have forked the repository before starting this process. If"
-" you have not, please do so now."
-msgstr ""
+"Make sure you have forked the repository before starting this process. If "
+"you have not, please do so now."
+msgstr "このプロセスを開始する前に、リポジトリをフォークしていることを確認してください。まだforkしていない場合は、今すぐ行ってください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:21
 msgid ""
-"In some cases, you may need to restart your computer or terminal instance"
-" between or after installing these dependencies for the changes to take "
+"In some cases, you may need to restart your computer or terminal instance "
+"between or after installing these dependencies for the changes to take "
 "effect."
 msgstr ""
+"これらの依存関係をインストールした後や途中で変更が反映されるため、場合によってはコンピューターやターミナルインスタンスを再起動する必要があるかもしれません。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:26
 msgid "Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_."
-msgstr ""
+"msgstr ""
+"Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_."
+""
 
 #: ../../source/contrib/tutorials/setup/setup.rst:27
 msgid ""
 "Install Python 3.9-3.12 from the `Python website "
-"<https://www.python.org/downloads/windows/>`_. **Make sure to check the "
-"box that says \"Add Python to PATH\".**"
+"<https://www.python.org/downloads/windows/>`_. **Make sure to check the box "
+"that says \"Add Python to PATH\".**"
 msgstr ""
+"Python 3.9-3.12 を `Python のウェブサイト "
+"<https://www.python.org/downloads/windows/>`_ よりインストールしてください。**\"Python を "
+"PATH に追加する\" というボックスをチェックすることをお忘れなく。**"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:28
 msgid "Install Pip. ``python -m ensurepip``"
-msgstr ""
+msgstr "PIPをインストールします。``python -m ensurepip``"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:29
 msgid "Install Git. ``choco install git``"
-msgstr ""
+msgstr "Git をインストールしてください。``choco install git``"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:30
 msgid "Install Make. ``choco install make``"
-msgstr ""
+msgstr "Make をインストールします。``choco install make``"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:31
 msgid "Install the lastest version of VS Code. ``choco install vscode``"
-msgstr ""
+msgstr "最新版のVS Code をインストールしてください。``choco install vscode``"
 
 #: ../../source/contrib/tutorials/setup/setup.rst
 msgid "Linux/Mac"
-msgstr ""
+msgstr "Linux/Mac"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:35
 msgid ""
-"Install Python 3.9-3.12. You can download it from the Python website: "
-"`macOS <https://www.python.org/downloads/macos/>`_, `Linux "
+"Install Python 3.9-3.12. You can download it from the Python website: `macOS"
+" <https://www.python.org/downloads/macos/>`_, `Linux "
 "<https://www.python.org/downloads/source/>`_."
 msgstr ""
+"Python 3.9-3.12 をインストールしてください。ダウンロードは次のサイトから行います: \"\n"
+"`macOS <https://www.python.org/downloads/macos/>`_, `Linux <https://www.python.org/downloads/source/>`_。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:36
 msgid ""
 "Install the latest version of `Pip "
 "<https://pip.pypa.io/en/stable/installation/>`_."
 msgstr ""
+"最新版の `Pip <https://pip.pypa.io/en/stable/installation/>`_ をインストールしてください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:37
 msgid "Install Git from the `Git website <https://git-scm.com/downloads>`_."
 msgstr ""
+"Git をインストールするには、`Git ウェブサイト <https://git-scm.com/downloads>`_ "
+"からダウンロードしてください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:38
 msgid "Install `Make <https://www.gnu.org/software/make/>`_ ."
-msgstr ""
+msgstr "Make をインストールしてください。<https://www.gnu.org/software/make/>"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:39
 msgid ""
 "Install the lastest version of `VS Code  "
 "<https://code.visualstudio.com/download>`_."
 msgstr ""
+"最新版の`VS Code <https://code.visualstudio.com/download>`_ をインストールしてください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:42
 msgid "Open VS Code"
-msgstr ""
+msgstr "VS Codeを開く"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "VS Code"
-msgstr ""
+msgstr "VS Code"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:48
 msgid "Under Start in the welcome screen, click on \"Clone Repository\""
-msgstr ""
+msgstr "スタートに移動し、歓迎画面で「リポジトリをクローン」をクリックします。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Clone"
-msgstr ""
+msgstr "クローン"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:54
 msgid ""
-"Enter the URL of your forked repository and click \"Clone Repository\". "
-"This will take the format of `https://github.com/<NAME>/ftcdocs.git` "
-"replacing ``<NAME>`` with your GitHub username. If you changed the name "
-"of your fork to something other than ``ftcdocs``, replace ``ftcdocs`` "
-"with the name of your fork."
+"Enter the URL of your forked repository and click \"Clone Repository\". This"
+" will take the format of `https://github.com/<NAME>/ftcdocs.git` replacing "
+"``<NAME>`` with your GitHub username. If you changed the name of your fork "
+"to something other than ``ftcdocs``, replace ``ftcdocs`` with the name of "
+"your fork."
 msgstr ""
+"あなたのフォークしたリポジトリのURLを入力し、「リポジトリをクローン」をクリックしてください。これは "
+"`https://github.com/<NAME>/ftcdocs.git` "
+"の形式になります。「<NAME>」にはあなたのGitHubユーザー名を入れ替えます。もし、フォークの名前を「ftcdocs」と異なるものに変更した場合は、「ftcdocs」をフォークの名前に変更してください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Clone URL"
-msgstr ""
+msgstr "クローンURL"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:62
 msgid ""
-"Chose a location on your computer to save the repository and click "
-"\"Select Repository Destination\"."
-msgstr ""
+"Chose a location on your computer to save the repository and click \"Select "
+"Repository Destination\"."
+msgstr "コンピュータ上にリポジトリを保存する場所を選択し、「リポジトリの保存先を選択」をクリックしてください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:68
 msgid "Clone Destination"
-msgstr ""
+msgstr "クローン先"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:68
 msgid ""
 "You will then see a loading bar while the repository is cloned to your "
 "computer."
-msgstr ""
+msgstr "次に、リポジトリがコンピュータにクローンされるまでローディングバーが表示されます。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:74
 msgid "Clone Loading"
-msgstr ""
+msgstr "クローンローディング"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:74
 msgid "Select \"Open\" to open the repository in VS Code."
-msgstr ""
+msgstr "開く\" を選択して、リポジトリをVS Codeで開きます。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:76
 msgid "Select \"Yes, I trust the authors\""
-msgstr ""
+msgstr "「はい、著者を信頼します」を選択"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Trust"
-msgstr ""
+msgstr "信頼"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:82
-msgid ""
-"On the top ribbon of VS Code, click on \"Terminal\" and then \"Run "
-"Task...\""
-msgstr ""
+msgid "On the top ribbon of VS Code, click on \"Terminal\" and then \"Run Task...\""
+msgstr "VS Code の上部リボンで、「Terminal」をクリックし、その後「Run Task...」をクリックします。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Task Menu"
-msgstr ""
+msgstr "タスクメニュー"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:88
 msgid ""
-"On the new menu click on \"make-setup\". This task will only need to be "
-"run once per environment."
-msgstr ""
+"On the new menu click on \"make-setup\". This task will only need to be run "
+"once per environment."
+msgstr "新しいメニューで「make-setup」をクリックしてください。このタスクは環境ごとに一度だけ実行する必要があります。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Make Setup"
-msgstr ""
+msgstr "セットアップ開始"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:94
 msgid ""
-"You will see a terminal window open and run a series of commands. This "
-"will take a few minutes to complete."
-msgstr ""
+"You will see a terminal window open and run a series of commands. This will "
+"take a few minutes to complete."
+msgstr "ターミナルウィンドウが開き、一連のコマンドが実行されます。これには数分かかります。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Make Setup Run"
-msgstr ""
+msgstr "セットアップ実行"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:100
 msgid ""
-"Once you see the message \"Terminal will be reused by tasks, press any "
-"key to close it.\" you can move to the next step."
+"Once you see the message \"Terminal will be reused by tasks, press any key "
+"to close it.\" you can move to the next step."
 msgstr ""
+"一度「ターミナルはタスクによって再利用されます。任意のキーを押して閉じるには」というメッセージが表示されたら、次の手順に進むことができます。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:102
 msgid ""
-"To test that everything is working, press `Ctrl + Shift + B` to build the"
-" site. You should see a terminal window open and run a series of "
-"commands. This will take a few minutes to complete."
+"To test that everything is working, press `Ctrl + Shift + B` to build the "
+"site. You should see a terminal window open and run a series of commands. "
+"This will take a few minutes to complete."
 msgstr ""
+"すべてが正常に動作していることをテストするには、`Ctrl + Shift + B` "
+"を押してサイトをビルドします。ターミナルウィンドウが開き、一連のコマンドが実行されるught. この処理は数分かかります。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:106
 msgid ""
-"Once the build is complete, you will see \"build succeeded\" in the "
-"terminal window."
-msgstr ""
+"Once the build is complete, you will see \"build succeeded\" in the terminal"
+" window."
+msgstr "構築が完了すると、ターミナルウィンドウに「構築成功」が表示されます。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:106
-msgid "You can now click on the url ``http://127.0.0.1:7350`` to view the site."
-msgstr ""
+msgid ""
+"You can now click on the url ``http://127.0.0.1:7350`` to view the site."
+msgstr "現在、サイトを表示するには、URL ``http://127.0.0.1:7350`` をクリックしてください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Build Succeeded"
-msgstr ""
+msgstr "構築が成功しました"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Localhost"
-msgstr ""
+msgstr "ローカルホスト"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:117
 msgid ""
 "You are now ready to start developing! This version of the site will "
-"automagically update as you make changes to the source files. To stop the"
-" server, press `Ctrl + C` in the terminal window. To restart the server, "
+"automagically update as you make changes to the source files. To stop the "
+"server, press `Ctrl + C` in the terminal window. To restart the server, "
 "press `Ctrl + Shift + B`."
 msgstr ""
-
+"今すぐ開発を始めることができます！このサイトのバージョンは、ソースファイルに変更を加えたときに自動的に更新されます。サーバーを停止するには、ターミナルウィンドウで"
+" `Ctrl + C` を押してください。サーバーを再起動するには、ターミナルウィンドウで `Ctrl + Shift + B` を押してください。"

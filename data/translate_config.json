@@ -1,0 +1,11 @@
+{
+  "model": "qwen2.5:7b-instruct-q5_K_M",
+  "temperature": 0.3,
+  "max_retries": 3,
+  "batch_size": 10,
+  "context_window": 4096,
+  "checkpoint_interval": 50,
+  "skip_translated": true,
+  "quality_check_enabled": true,
+  "auto_fix_common_errors": true
+}

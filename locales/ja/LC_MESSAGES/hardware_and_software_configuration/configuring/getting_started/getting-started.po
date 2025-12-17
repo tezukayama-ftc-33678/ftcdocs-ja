@@ -12,155 +12,173 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:2
 msgid "Getting Started"
-msgstr ""
+msgstr "始め方"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:5
 msgid "Creating a Configuration"
-msgstr ""
+msgstr "構成の作成"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:7
 msgid ""
 "Before you can communicate with the motor, servo and sensors that are "
 "connected to the Control Hub or Expansion Hub, you first must create a "
-"configuration file on your Robot Controller, so that the Robot Controller"
-" will know what hardware is available on the Control Hub's or Expansion "
-"Hub's external ports."
+"configuration file on your Robot Controller, so that the Robot Controller "
+"will know what hardware is available on the Control Hub's or Expansion Hub's"
+" external ports."
 msgstr ""
+"Control HubやExpansion Hubに接続されたモータ、サーボ、センサと通信する前に、まずロボットコントローラー上にControl "
+"HubまたはExpansion Hubの外部ポートにあるハードウェアが何であるかを知らせるための構成ファイルを作成する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:14
 msgid "Getting the Control Hub Ready"
-msgstr ""
+msgstr "制御ハブの準備"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:16
 msgid ""
 "If you are using a Control Hub, you do not need to make any additional "
-"connections. You simply need to make sure that the Control Hub is powered"
-" on and paired to the DRIVER STATION."
+"connections. You simply need to make sure that the Control Hub is powered on"
+" and paired to the DRIVER STATION."
 msgstr ""
+"もし制御ハブを使用している場合、追加の接続は必要ありません。制御ハブが点灯し、DRIVER STATION "
+"とペアリングされていることを確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:21
 msgid "Connecting an Android Smartphone to an Expansion Hub"
-msgstr ""
+msgstr "Androidスマートフォンと拡張ハブの接続"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:23
 msgid ""
 "If you are using an Android smartphone as a Robot Controller, you must "
 "physically connect the Robot Controller smartphone to the Expansion Hub "
-"using a USB cable and an On-The-Go (OTG) adapter. Also, you should verify"
-" that the DRIVER STATION is currently paired to the Robot Controller."
+"using a USB cable and an On-The-Go (OTG) adapter. Also, you should verify "
+"that the DRIVER STATION is currently paired to the Robot Controller."
 msgstr ""
+"もしロボットコントローラとしてAndroidスマートフォンを使用している場合、ロボットコントローラ用のスマートフォンはUSBケーブルとOn-The-"
+"Go（OTG）アダプターを使って拡張ハブに物理的に接続する必要があります。また、ドライバーステーションが現在ロボットコントローラとペアリングされていることを確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:30
 msgid "Connecting an Android Smartphone to an Expansion Hub Instructions"
-msgstr ""
+msgstr "Androidスマートフォンと拡張ハブの接続手順"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:32
 msgid "Power on the Expansion Hub by turning on the power switch."
-msgstr ""
+msgstr "拡張ハブの電源をオンにするために、電源スイッチをオンにします。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:39
 msgid ""
-"2. Plug the Type B Mini end of the USB cable into the USB mini port on "
-"the Expansion Hub."
-msgstr ""
+"2. Plug the Type B Mini end of the USB cable into the USB mini port on the "
+"Expansion Hub."
+msgstr "2. USBケーブルのType B Mini端子を拡張ハブのUSB Miniポートに接続してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:47
 msgid "Plug the Type A end of the USB cable into the OTG adapter."
-msgstr ""
+msgstr "Type A端子のUSBケーブルをOTGアダプターに接続してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:54
 msgid ""
-"4. Verify that your Robot Controller smartphone is powered on and "
-"unlocked. Plug in the USB Micro OTG adapter into the OTG port of the "
-"Robot Controller phone."
+"4. Verify that your Robot Controller smartphone is powered on and unlocked. "
+"Plug in the USB Micro OTG adapter into the OTG port of the Robot Controller "
+"phone."
 msgstr ""
+"4. ロボットコントローラスマートフォンがオンかつロック解除されていることを確認してください。OTGポートにUSB Micro "
+"OTGアダプターを接続します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:63
 msgid ""
 "Note that when the OTG adapter is plugged into the smartphone, the phone "
 "will detect the presence of the Expansion Hub and launch the Robot "
 "Controller app."
-msgstr ""
+msgstr "OTGアダプターをスマートフォンに接続した場合、スマートフォンは拡張ハブの存在を検出し、ロボットコントローラーアプリが起動します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:65
 msgid ""
 "5. The first time you connect the Robot Controller smartphone to the "
-"Expansion Hub, the Android operating system should prompt you to ask if "
-"it is OK to associate the newly detected USB device (which is the "
-"Expansion Hub) with the Robot Controller app."
+"Expansion Hub, the Android operating system should prompt you to ask if it "
+"is OK to associate the newly detected USB device (which is the Expansion "
+"Hub) with the Robot Controller app."
 msgstr ""
+"5. "
+"ロボットコントローラスマートフォンを拡張ハブに初めて接続した場合、Androidのオペレーティングシステムは、新しく検出されたUSBデバイス（これは拡張ハブです）とロボットコントローラアプリを関連付けるかどうか尋ねるポップアップを表示するべきです。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:76
 msgid ""
-"You might be prompted multiple times to associate the USB hardware with "
-"the Robot Controller.  Whenever you are prompted by your phone with this "
-"message, you should always select the \"Use by default for this USB "
-"device\" option and hit the \"OK\" button to associate the USB device "
-"with the Robot Controller app. If you fail to make this association, then"
-" the Robot Controller app might not reliably connect to this Expansion "
-"Hub the next time you turn your system on."
+"You might be prompted multiple times to associate the USB hardware with the "
+"Robot Controller.  Whenever you are prompted by your phone with this "
+"message, you should always select the \"Use by default for this USB device\""
+" option and hit the \"OK\" button to associate the USB device with the Robot"
+" Controller app. If you fail to make this association, then the Robot "
+"Controller app might not reliably connect to this Expansion Hub the next "
+"time you turn your system on."
 msgstr ""
+"USBハードウェアをロボットコントローラーと関連付けることを促される場合があります。このようなメッセージが電話で表示された際には、常に「このUSBデバイスに対する既定の使用を有効にする」オプションを選択し、「OK」ボタンを押してUSBデバイスをロボットコントローラーアプリケーションと関連付けるようにしてください。この関連付けが行われない場合、システムを再起動した際にこの拡張ハブに信頼性の高い接続ができなくなる可能性があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:86
 msgid "Creating a Configuration File Using the DRIVER STATION"
-msgstr ""
+msgstr "DRIVER STATIONを使用してコンフィギュレーションファイルを作成する"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:88
 msgid ""
-"Although the configuration file needs to reside on the Robot Controller, "
-"for this tutorial we will use the DRIVER STATION app to create the "
+"Although the configuration file needs to reside on the Robot Controller, for"
+" this tutorial we will use the DRIVER STATION app to create the "
 "configuration file remotely. The DRIVER STATION can be used to create a "
 "configuration file for a Control Hub or for an Android smartphone Robot "
 "Controller."
 msgstr ""
+"Robot Controllerに構成ファイルが必要ですが、このチュートリアルでは、DRIVER "
+"STATIONアプリを使用してリモートから構成ファイルを作成します。DRIVER STATIONは、Control "
+"HubまたはAndroidスマートフォンのRobot Controller用の構成ファイルを作成するために使用できます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:96
 msgid ""
 "Creating a Configuration File on the Robot Controller using the DRIVER "
 "STATION Instructions"
-msgstr ""
+msgstr "ロボットコントローラーのDRIVER STATIONを使用してコンフィギュレーションファイルを作成する手順"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:98
 msgid ""
 "1. Touch the three vertical dots in the upper right hand corner of the "
 "Driver Station app. This will launch a pop-up menu."
-msgstr ""
+msgstr "1. ドライバーステーションアプリの右上隅にある3本の垂直線をタッチしてください。これにより、ポップアップメニューが表示されます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:106
 msgid ""
 "2. Select **Configure Robot** from the pop up menu to display the "
 "**Configuration** screen."
-msgstr ""
+msgstr "2. ポップアップメニューから「**ロボットの構成**」を選択して、「**設定**」画面を表示します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:114
 msgid ""
-"3. If your Robot Controller does not have any existing configuration "
-"files, the screen will display a message indicating that you need to "
-"create a file before proceeding."
-msgstr ""
+"3. If your Robot Controller does not have any existing configuration files, "
+"the screen will display a message indicating that you need to create a file "
+"before proceeding."
+msgstr "3. ロボットコントローラに既存の設定ファイルがない場合、画面にはファイルを作成する必要がある旨のメッセージが表示されます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:123
 msgid ""
 "Hit the **New** button to create a new configuration file for your Robot "
 "Controller."
-msgstr ""
+"msgstr ""
+"Hit the **New** button to create a new configuration file for your Robot Controller."
+""
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:125
 msgid ""
-"4. When the new configuration screen appears, the Robot Controller app "
-"will do a scan of the serial bus to see what devices are connected to the"
-" Robot Controller."
+"4. When the new configuration screen appears, the Robot Controller app will "
+"do a scan of the serial bus to see what devices are connected to the Robot "
+"Controller."
 msgstr ""
+"4. "
+"新しい設定画面が表示されたら、ロボットコントローラアプリはシリアルバスをスキャンし、どのデバイスがロボットコントローラに接続されているか確認します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:134
 msgid ""
@@ -168,43 +186,47 @@ msgid ""
 "\"USB Devices in configuration.\" You should see an entry that says "
 "something like \"Expansion Hub Portal 1\" in the list."
 msgstr ""
+"発見したデバイスは、\"USB デバイス（設定内）\" の下にリストで表示されます。リストには「拡張ハブ ポータル "
+"1」というような項目が表示されるはずです。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:136
 msgid ""
-"Your Expansion Hub is listed as a Portal because it is directly connected"
-" to the Robot Controller phone through the USB cable or in the case of "
-"the Control Hub through the internal serial bus."
+"Your Expansion Hub is listed as a Portal because it is directly connected to"
+" the Robot Controller phone through the USB cable or in the case of the "
+"Control Hub through the internal serial bus."
 msgstr ""
+"あなたの拡張ハブは、USBケーブルを通じてロボットコントローラーの電話に直接接続されているか、または制御ハブの場合には内部シリアルバスを介してポートとしてリストされています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:138
 msgid ""
 "If you do not see your Expansion Hub Portal listed and you are using a "
-"smartphone as a Robot Controller, check the wired connections to make "
-"sure they are secure and then press the Scan button one or two times more"
-" to see if the smartphone detects the device on a re-scan of the USB bus."
+"smartphone as a Robot Controller, check the wired connections to make sure "
+"they are secure and then press the Scan button one or two times more to see "
+"if the smartphone detects the device on a re-scan of the USB bus."
 msgstr ""
+"もし拡張ハブポータルがリストに表示されていない場合で、スマートフォンを使用してロボットコントローラーとして操作している場合は、有線接続を確認し、確実なものであることを確認した上で、USBバスの再スキャン時にデバイスを検出するかどうか、ス캔ボタンを1回または2回追加で押してみてください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:140
 msgid ""
-"5. Touch the Portal listing (\"Expansion Hub Portal 1\" in this example) "
-"to display what Expansion Hubs are connected through this Portal."
+"5. Touch the Portal listing (\"Expansion Hub Portal 1\" in this example) to "
+"display what Expansion Hubs are connected through this Portal."
 msgstr ""
+"5. ポータルの一覧にタッチして（この例では「Expansion Hub Portal 1」）、このポータルを通じて接続されている拡張ハブを表示します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:149
 msgid ""
-"Since we only have a single Expansion Hub connected, we should only see a"
-" single Expansion Hub configured (\"Expansion Hub 2\" in this example)."
-msgstr ""
+"Since we only have a single Expansion Hub connected, we should only see a "
+"single Expansion Hub configured (\"Expansion Hub 2\" in this example)."
+msgstr "接続されている拡張ハブが1つだけであるため、設定された拡張ハブは1つだけseenされるべきです（この例では\"拡張ハブ 2\"）。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:151
 msgid ""
-"6. Touch the Expansion Hub listing (\"Expansion Hub 2\" in this example) "
-"to display the Input/Output ports for that device."
-msgstr ""
+"6. Touch the Expansion Hub listing (\"Expansion Hub 2\" in this example) to "
+"display the Input/Output ports for that device."
+msgstr "6. 膨張拡張ハブのリスト（この例では「Expansion Hub 2」）をタッチして、そのデバイスの入力/出力ポートを表示します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:159
 msgid ""
-"The screen should change and list all the motor, servo and sensor ports "
-"that are available on the selected Expansion Hub."
-msgstr ""
-
+"The screen should change and list all the motor, servo and sensor ports that"
+" are available on the selected Expansion Hub."
+msgstr "選択された拡張ハブに接続されているモータ、サーボ、センサポート一覧が表示され、リストされるべきです。"

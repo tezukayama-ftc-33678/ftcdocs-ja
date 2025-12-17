@@ -12,239 +12,254 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:2
 msgid "AprilTag Challenges in DECODE presented by RTX"
-msgstr ""
+msgstr "RTXによって提供されるDECODEのAprilTagチャレンジ"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:5
 msgid "What are AprilTags?"
-msgstr ""
+msgstr "AprilTagsとは何ですか？"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:7
 msgid ""
 "Developed at the `University of Michigan "
-"<https://april.eecs.umich.edu/software/apriltag>`_, AprilTags are similar"
-" to a 2D barcode or a simplified QR Code. It contains a numeric **ID "
-"code** and can be used for **location and orientation**."
+"<https://april.eecs.umich.edu/software/apriltag>`_, AprilTags are similar to"
+" a 2D barcode or a simplified QR Code. It contains a numeric **ID code** and"
+" can be used for **location and orientation**."
 msgstr ""
+"開発されたのは`ミシガン大学 "
+"<https://april.eecs.umich.edu/software/apriltag>`_です。AprilTagsは2次元バーコードや簡略化されたQRコードに似ています。これは数値の**IDコード**を含んでおり、**位置と向き**の測定にも使用できます。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:12
 msgid ""
 "In *FIRST* Tech Challenge during the DECODE presented by RTX season, "
 "AprilTags are used in three different ways:"
-msgstr ""
+msgstr "FIRST Tech ChallengeのDECODE（RTX主催）シーズンにおいて、AprilTagsは3つの異なる方法で使用されます："
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:15
 msgid ""
-"On the OBELISK, the AprilTags are used to identify one of three MOTIFS "
-"that are randomized each MATCH."
-msgstr ""
+"On the OBELISK, the AprilTags are used to identify one of three MOTIFS that "
+"are randomized each MATCH."
+msgstr "オベリスクでは、アプライドタグは、各マッチでランダムに選択される3つのモチフのうちの1つを識別するために使用されます。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:17
 msgid ""
-"On the GOALS, AprilTags can be used to target the GOAL for teams to "
-"launch ARTIFACTS accurately into the correct GOAL."
-msgstr ""
+"On the GOALS, AprilTags can be used to target the GOAL for teams to launch "
+"ARTIFACTS accurately into the correct GOAL."
+msgstr "ゴールエリアで、AprilTags を使用してチームがアートファクトを正確に正しいゴールエリアに放り込むターゲットを設定できます。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:19
 msgid ""
-"On the GOALS, AprilTags can be used as a visual odometry system, using "
-"the information that AprilTags can provide to calculate the position of "
-"the ROBOT on the FIELD (through a process called localization). See the "
-":doc:`AprilTag Localization <../../vision_portal/apriltag_localization"
-"/apriltag-localization>` page for more information."
+"On the GOALS, AprilTags can be used as a visual odometry system, using the "
+"information that AprilTags can provide to calculate the position of the "
+"ROBOT on the FIELD (through a process called localization). See the "
+":doc:`AprilTag Localization "
+"<../../vision_portal/apriltag_localization/apriltag-localization>` page for "
+"more information."
 msgstr ""
+"ゴールズで、AprilTagsは視覚オドメトリーシステムとして使用され、AprilTagsが提供する情報を用いてロボットの位置をフィールド上で計算します（"
+" localization というプロセスを通じて）。詳細については :doc:`AprilTag ローカライゼーション "
+"<../../vision_portal/apriltag_localization/apriltag-localization>` "
+"のページをご覧ください。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:30
 msgid "Image showing the DECODE field and AprilTag locations"
-msgstr ""
+msgstr "DECODE フィールドと AprilTag の位置を示す画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:30
 msgid "AprilTag IDs and Locations on the DECODE field."
-msgstr ""
+msgstr "DECODEフィールド上のAprilTagのIDと位置。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:33
 msgid "AprilTags with Difficult Environmental Lighting"
-msgstr ""
+msgstr "明るさの難しい環境でのAprilTags"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:35
 msgid ""
 "One of the challenges teams will face this season is ensuring that their "
-"cameras are able to see the AprilTags correctly. AprilTags rely on the "
-"fact that the white and black portions of the AprilTags are contrasting "
-"colors - if the lighting in the environment doesn't allow for enough "
-"contrast, the AprilTag algorithm may not properly detect the AprilTag. "
-"Fortunately, there are things we can do with virtually every webcam that "
-"can help correct for environmental issues."
+"cameras are able to see the AprilTags correctly. AprilTags rely on the fact "
+"that the white and black portions of the AprilTags are contrasting colors - "
+"if the lighting in the environment doesn't allow for enough contrast, the "
+"AprilTag algorithm may not properly detect the AprilTag. Fortunately, there "
+"are things we can do with virtually every webcam that can help correct for "
+"environmental issues."
 msgstr ""
+"このシーズンでチームが直面する一つの課題は、カメラがAprilTagsを正しく認識できるようにすることです。AprilTagsは白と黒の部分が対照的な色であることを前提に作られています"
+" - "
+"環境の照明が十分な対比を提供しない場合、AprilTagアルゴリズムはAprilTagを適切に検出できない可能性があります。幸いにも、几乎每台网络摄像头都可以通过一些方法来纠正环境问题。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:42
 msgid ""
-"An excellent example situation came up in a warehouse. The DECODE field "
-"was set up in the warehouse, and using default settings with the "
-"``ConceptAprilTagEasy`` sample.  When viewing the camera stream preview, "
-"the AprilTag on the OBELISK was completely washed out by sunlight "
-"striking the OBELISK directly on a sunny day, making the AprilTag unable "
-"to be seen. A different camera at a slightly different angle took another"
-" picture of the same scene, and the AprilTag can be seen but there is "
-"definitely too much direct light reflecting off the AprilTag, making it "
-"unable to be recognized. This scenario is very similar to a gymnasium "
-"where an event could be hosted, and on a sunny day light can interfere "
-"with a camera's ability to view an AprilTag. What can be done?"
+"An excellent example situation came up in a warehouse. The DECODE field was "
+"set up in the warehouse, and using default settings with the "
+"``ConceptAprilTagEasy`` sample.  When viewing the camera stream preview, the"
+" AprilTag on the OBELISK was completely washed out by sunlight striking the "
+"OBELISK directly on a sunny day, making the AprilTag unable to be seen. A "
+"different camera at a slightly different angle took another picture of the "
+"same scene, and the AprilTag can be seen but there is definitely too much "
+"direct light reflecting off the AprilTag, making it unable to be recognized."
+" This scenario is very similar to a gymnasium where an event could be "
+"hosted, and on a sunny day light can interfere with a camera's ability to "
+"view an AprilTag. What can be done?"
 msgstr ""
+"倉庫内で素晴らしい例が発生しました。DECODEフィールドは、デフォルト設定を使用して「ConceptAprilTagEasy」サンプルで設定されました。カメラストリームプレビューを確認すると、晴れた日でOBELISKに直射日光が当たっており、その結果、AprilTagが完全に見えなくなっていました。これによりAprilTagが見つからない状況となりました。別の角度から撮影された写真ではAprilTagは見えるものの、反射光が多すぎており、認識されません。このシナリオは、グラウンドでイベントが開催される体育館と非常に似ており、晴れた日にはカメラがAprilTagを正しく観測できない状況になります。何ができるでしょうか？"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:62
 msgid "Image #1 - Example"
-msgstr ""
+msgstr "画像 #1 - 例"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst
 msgid "Image of DECODE field with obelisk AprilTag unable to be seen"
-msgstr ""
+msgstr "DECODEフィールドの画像で、obelisk AprilTagが見えない"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:73
 msgid "Washed Out AprilTag on OBELISK"
-msgstr ""
+msgstr "オベリスク上の洗練されたAprilTag"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:79
 msgid "Image #2 - Alternate View"
-msgstr ""
+msgstr "画像 #2 - 書き換えビュー"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst
 msgid "Image of DECODE field from another perspective"
-msgstr ""
+msgstr "他の角度から見たDECODEフィールドの画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:90
 msgid "Alternate View of OBELISK"
-msgstr ""
+msgstr "オベリスクの代替ビュー"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:96
 msgid "Image #3 - Alternate View"
-msgstr ""
+msgstr "画像 #3 - 関連図面"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst
 msgid "Image showing light coming in from windows of warehouse"
-msgstr ""
+msgstr "倉庫の窓から入る光を示した画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:107
 msgid "Sunlight Entering Warehouse"
-msgstr ""
+msgstr "倉庫に sunlight が入射する"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:111
 msgid "Different Views of Challenging Scenario"
-msgstr ""
+msgstr "挑戦的なシナリオの異なるビュー"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:118
 msgid ""
 "The best way to counter this environmental lighting is to use the webcam "
-"settings within the SDK to adjust both the Gain and the Exposure settings"
-" at the same time. By simultaneously minimizing the exposure (lessening "
-"the amount of time light is allowed to strike the sensor each image "
-"frame) and maximizing the gain (amplifying the signal from the sensor) "
-"the resulting image will be darker than a normal image but elements of "
-"high contrast will be accentuated, like AprilTags, allowing them to be "
-"recognized. This can be experimented with using the "
-"``ConceptAprilTagOptimizeExposure`` sample."
+"settings within the SDK to adjust both the Gain and the Exposure settings at"
+" the same time. By simultaneously minimizing the exposure (lessening the "
+"amount of time light is allowed to strike the sensor each image frame) and "
+"maximizing the gain (amplifying the signal from the sensor) the resulting "
+"image will be darker than a normal image but elements of high contrast will "
+"be accentuated, like AprilTags, allowing them to be recognized. This can be "
+"experimented with using the ``ConceptAprilTagOptimizeExposure`` sample."
 msgstr ""
+"この環境光をカウンターメASUREする最も良い方法は、SDK内のウェブカメラ設定を使用して、ゲインと露出設定を同時に調整することです。同時に露出を最小限に抑え（各画像フレームでセンサーに当たる光の量を減らす）、ゲインを最大化（センサーからのシグナルを増幅する）することで、結果的な画像は通常の画像よりも暗くなりますが、高コントラスト要素が強調され、AprilTagsなどが認識できるようになります。これについては、「ConceptAprilTagOptimizeExposure」サンプルを使用して実験できます。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:127
 msgid ""
 "Sure enough, by minimizing the Exposure and maximizing the Gain of the "
 "webcam, the resulting images from the webcam were able to be used to "
 "recognize the problematic AprilTags. For more examples, the "
-"``RobotAutoDriveToAprilTag...`` sample OpModes also use this technique "
-"for adjusting the exposure and gain settings of the camera to ensure the "
+"``RobotAutoDriveToAprilTag...`` sample OpModes also use this technique for "
+"adjusting the exposure and gain settings of the camera to ensure the "
 "AprilTags are readable under most conditions."
 msgstr ""
+"確実に、ウェブカメラの露出を最小限に抑え、ゲインを最大化することで、ウェブカメラからの結果画像は問題のあるAprilTagを認識することができました。詳細な例としては、「RobotAutoDriveToAprilTag...」サンプルOpModesもこの技術を使用し、カメラの露出とゲイン設定を調整して、ほとんどの条件下でAprilTagが読み取れるようにしています。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:135
 msgid ""
 "One big advantage is that this technique (minimizing exposure while "
-"maximizing gain) is ALSO very popular in reducing motion blur for reading"
-" AprilTags while moving - so this has more than one benefit!"
+"maximizing gain) is ALSO very popular in reducing motion blur for reading "
+"AprilTags while moving - so this has more than one benefit!"
 msgstr ""
+"大きな利点の一つは、この手法（露出を最小限に抑えながら感度を最大化）が移動中にAprilTagsを読み取る際の運動ぼけを減らすためにも非常に人気があること。そのため、これは一石二鳥の効果があります！"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:139
 msgid ""
 "Here are examples of the images once the exposure and gain are set "
-"appropriately, one image has the AprilTag processing enabled to show that"
-" the AprilTag is being detected properly, and the other has processing "
+"appropriately, one image has the AprilTag processing enabled to show that "
+"the AprilTag is being detected properly, and the other has processing "
 "disabled so that we can see the raw image being returned by the webcam."
 msgstr ""
+"適切な露出とゲインを設定した場合の画像の例です。一つの画像ではAprilTag処理が有効になっており、AprilTagが正しく検出されていることを示しています。もう一つの画像では処理が無効になっているため、ウェブカメラから返される原始的な画像を見ることが可能です。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:153
 msgid "Image #4 - Processed Image"
-msgstr ""
+msgstr "画像 #4 - 処理済み画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst
 msgid "Image of DECODE field with obelisk AprilTag being processed"
-msgstr ""
+msgstr "DECODEフィールドのAprilTagオベリスクが処理されるイメージ"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:164
 msgid "Processed Image showing Detections"
-msgstr ""
+msgstr "処理画像に示される検出結果"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:170
 msgid "Image #5 - Raw Processed Image"
-msgstr ""
+msgstr "画像 #5 - プロセス前の画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst
 msgid "Image of raw processed DECODE field"
-msgstr ""
+msgstr "未処理のDECODEフィールドの画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:181
 msgid "Image without AprilTag processing"
-msgstr ""
+msgstr "AprilTag処理なしの画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:185
 msgid "Resulting Images"
-msgstr ""
+msgstr "結果となる画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:192
 msgid "Reading Multiple AprilTags on the OBELISK"
-msgstr ""
+msgstr "OBELISK 上の複数のAprilTag の読み取り"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:194
 msgid ""
-"The OBELISK is an equilateral triangular prism (we know, real obelisks "
-"have 4 sides) which is positioned with 1 of the rectangular faces "
-"centered on the GOAL-side of the FIELD, just outside of the FIELD "
-"perimeter. When ROBOTS are set up on the field contacting their "
-"ALLIANCE'S GOAL, it is a very real possibility that the ROBOT's camera "
-"will see and process multiple AprilTags."
+"The OBELISK is an equilateral triangular prism (we know, real obelisks have "
+"4 sides) which is positioned with 1 of the rectangular faces centered on the"
+" GOAL-side of the FIELD, just outside of the FIELD perimeter. When ROBOTS "
+"are set up on the field contacting their ALLIANCE'S GOAL, it is a very real "
+"possibility that the ROBOT's camera will see and process multiple AprilTags."
 msgstr ""
+"オベリスクは等辺三角形の棱柱（実際のオベリスクは4面を持っていますが、ここでは1つの正方形の面をフィールド側に中心に配置し、フィールドの境界線の外側に位置します。ロボットがフィールド上に設置され、そのアライアンスのゴールと接触している場合、ロボットのカメラは複数のAprilTagを認識・処理する可能性があります。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:201
 msgid ""
 "It might seem logical to read both AprilTags and use those two tags to "
-"determine (and verify) which AprilTag is actually being seen. However, "
-"there is no defined order for AprilTags on an OBELISK, so this is not "
-"reliable."
+"determine (and verify) which AprilTag is actually being seen. However, there"
+" is no defined order for AprilTags on an OBELISK, so this is not reliable."
 msgstr ""
+"両方のAprilTagを読み込むことが逻辑的に思えるかもしれませんが、二つのタグを使用して実際に見ているAprilTagを确定（および确认）することは "
+"reliablity に欠けるものです。OBELISK 上の AprilTag の順序は定義されていないためです。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:211
 msgid "Image showing OBELISK with more than one AprilTag visible"
-msgstr ""
+msgstr "AprilTagが2つ以上見えるOBELISKの画像"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:211
 msgid "View of AprilTags on OBELISK from BLUE GOAL"
-msgstr ""
+msgstr "BLUE GOALからOBELISK上のAprilTagsのビュー"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:213
 msgid ""
-"A reliable way to determine which AprilTag is truly showing on the FIELD "
-"is to move the ROBOT into a position where the AprilTag on the front face"
-" of the OBELISK is the only tag that can be viewed."
+"A reliable way to determine which AprilTag is truly showing on the FIELD is "
+"to move the ROBOT into a position where the AprilTag on the front face of "
+"the OBELISK is the only tag that can be viewed."
 msgstr ""
+"フィールド上でどのAprilTagが本当に表示されているかを確実に確認するための方法は、オベリスクリンの前面にあるAprilTagのみが観測できる位置にロボットを移動することです。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:217
 msgid "Good Luck this season!"
-msgstr ""
-
+msgstr "このシーズン、ご好運をお祈りします！"

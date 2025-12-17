@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:2
+msgid "Vision Processor Initialization"
+"msgstr "ビジョンプロセッサ初期化""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:5
+msgid "Processor Initialization - Overview"
+"msgstr "プロセッサ初期化 - 概要""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:7
+msgid ""
+"Your OpMode must **first prepare** for using AprilTag and/or Color "
+"Processing commands, or methods."
+"msgstr """
+"あなたのOpModeはAprilTagやColor Processingのコマンドやメソッドを使用する前に、**まず準備**をする必要があります。"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:10
+msgid ""
+"In the INIT portion of your Java or Blocks code, before ``waitForStart()``, "
+"use these steps:"
+"msgstr "JavaまたはブロックコードのINIT部分で、``waitForStart()`` 之前にこれらの手順を使用してください：""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:13
+msgid "**Step 1.** *Optional:*"
+"msgstr "**ステップ1。** オプション：\"""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:15
+msgid ""
+"Supplement the default **AprilTag Library** with additional tags. This task "
+"is not shown in the Sample OpModes, and is covered at the **Library** page "
+"(not here)."
+"msgstr """
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:19
+msgid "**Step 2.** *Required:*"
+"msgstr "**ステップ 2。** 必須：\"""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:21
+msgid ""
+"Create the **AprilTag Processor** (or the **Color Locator or Color Sensor "
+"Processor**), to analyze frames streaming in from the camera. \"Under the "
+"hood\", the Apriltag Processor is attached to an EOCV **pipeline**, which "
+"performs various steps, in order, to each stream frame. The stream is the "
+"input to the pipeline. A similar process happens for Color Processing."
+"msgstr ""
+"Create the **AprilTag Processor** (or the **Color Locator or Color Sensor Processor**), to analyze frames streaming in from the camera. \\"Under the hood\\", the Apriltag Processor is attached to an EOCV **pipeline**, which performs various steps, in order, to each stream frame. The stream is the input to the pipeline. A similar process happens for Color Processing."
+""
+"Create the **AprilTag Processor** (or the **Color Locator or Color Sensor Processor**), to analyze frames streaming in from the camera. \\"Under the hood\\", the Apriltag Processor is attached to an EOCV **pipeline**, which performs various steps, in order, to each stream frame. The stream is the input to the pipeline. A similar process happens for Color Processing."
+""
+"Create the **AprilTag Processor** (or the **Color Locator or Color Sensor Processor**), to analyze frames streaming in from the camera. \\"Under the hood\\", the Apriltag Processor is attached to an EOCV **pipeline**, which performs various steps, in order, to each stream frame. The stream is the input to the pipeline. A similar process happens for Color Processing."
+""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:27
+msgid "**Step 3.** *Required:*"
+"msgstr "**ステップ 3。** 必須：\"""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:29
+msgid ""
+"Create the FTC **VisionPortal**, to manage the overall pipeline. Here you "
+"specify that the Portal includes the AprilTag and/or TFOD Processor(s) from "
+"Step 2. The two Processors evaluate camera frames independently."
+"msgstr """
+"FTCの**VisionPortal**を作成し、全体的なパイプラインを管理します。ここで、Portalがステップ2で指定したAprilTagやTFODプロセッサ（複数可）を含むことを指定します。両方のプロセッサはカメラフレームを独立して評価します。"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:34
+msgid ""
+"This page describes Step 2 in more detail, for both Processors.  The "
+":doc:`VisionPortal Init <../visionportal_init/visionportal-init>` page "
+"covers Step 3, **VisionPortal Initialization**."
+"msgstr """
+"このページでは、Processorの両方について詳細にStep 2を説明しています。:doc:`ビジョンポートル初期化 "
+"<../visionportal_init/visionportal-init>` ページは、Step "
+"3（**ビジョンポートル初期化**）をカバーしています。"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:37
+msgid "AprilTag Initialization - Easy"
+"msgstr "4月タグ初期化 - 容易""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:39
+msgid ""
+"**Step 2** is creating the **AprilTag Processor**, software that evaluates "
+"frames streaming in from the camera."
+"msgstr ""
+"**ステップ 2** は、カメラからストリーミング入力されるフレームを評価する **AprilTag プロセッサー** の作成です。"
+""
+"**ステップ 2** は、**AprilTag Processor** を作成することです。これはカメラからストリーミングされるフレームを評価するソフトウェアです。"
+""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:41
+msgid ""
+"The SDK provides an \"easy\" way to create the processor, using only "
+"**defaults** and not mentioning a \"Builder\":"
+"msgstr """
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst
+msgid "Blocks"
+"msgstr "ブロック""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst
+msgid "Easy AprilTag Initialization"
+"msgstr """
+"apriltag の初期化が簡単 \"\n"
+"注：msgidはそのまま保持し、msgstrのみを翻訳しました。改行やインデントは保持していませんが、必要に応じて適切な位置に調整してください。"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:52
+msgid "Easy AprilTag Processor Initialization without a Builder"
+"msgstr "AprilTag プロセッサーの初期化が簡単に行えます（ビルダーなし）""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst
+msgid "Java"
+"msgstr "Java""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:57
+msgid "Example of Easy AprilTag Processor Initialization without a Builder"
+"msgstr "容易なAprilTagプロセッサの初期化（ビルダーなし）""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:67
+msgid "AprilTag Initialization - Builder"
+"msgstr "4月タグ初期化 - ビルダー""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:69
+msgid ""
+"The SDK also provides the \"Builder\" way to create the processor, allowing "
+"**custom settings**."
+"msgstr ""
+"The SDK also provides the \"Builder\" way to create the processor, allowing **custom settings**."
+""
+"The SDK はまた、プロセッサーを作成するための「ビルダー」方式も提供しており、\n\n**custom settings** を可能にします。"
+""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:72
+msgid ""
+"**Builder** is a Java pattern or structure for adding features or "
+"parameters, finalized with the ``.build()`` command.  Such features are "
+"**not** modified later during an OpMode."
+"msgstr ""
+"**ビルダー**はJavaのパターンまたは構造で、追加機能やパラメータを追加し、最終的に``.build()`` コマンドで finalized します。そのような機能はOpMode中に後から変更**されません**。"
+""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:76
+msgid ""
+"*Inside the SDK, even the \"easy\" process uses the Builder pattern to set "
+"the default parameters.*"
+"msgstr "*SDK内では、「簡単」なプロセスでもデフォルトパラメータを設定するためにBuilderパターンを使用します.*""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst
+msgid "AprilTag Initialization with a Builder"
+"msgstr "AprilTagの初期化 (ビルダーを使用)""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:88
+msgid "AprilTag Processor Initialization with a Builder"
+"msgstr "AprilTag プロセッサーの初期化 (ビルダーを使用)""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:114
+msgid ""
+"This example shows only 4 AprilTag Processor Builder features; others are "
+"available."
+"msgstr "この例では、AprilTag プロセッサビルダーの機能のうち4つだけが示されています；他の機能も利用可能です。""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:117
+msgid ""
+"As seen above, Step 2 must specify any custom (non-default) Library from the"
+" optional Step 1 - otherwise the Processor will include only the default "
+"Library."
+"msgstr """
+"上記のように、Step 2 では任意の Step 1 - のカスタム（デフォルト以外）ライブラリを指定する必要があります。否则，Processor 将仅包含默认库。\n"
+"\"\"\"\n"
+"reStructuredText\n"
+"As seen above, Step 2 must specify any custom (non-default) Library from the optional Step 1 - otherwise the Processor will include only the default Library.\n"
+"\n"
+"reStructuredText\n"
+"上記のように、Step 2 では任意の Step 1 - のカスタム（デフォルト以外）ライブラリを指定する必要があります。否则，Processor 将仅包含默认库。"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:122
+msgid "AprilTag Java Builder Chain"
+"msgstr "4月タグJavaビルダー連鎖""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:124
+msgid ""
+"The Builder pattern can be implemented in a streamlined manner, using Java."
+"  The following code is equivalent to the above individual method calls."
+"msgstr "ビルダー模式は、Javaを使用して効率的に実装できます。以下のコードは、上記の個別のメソッド呼び出しに相当します。""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:126
+msgid "Comments are omitted here, to clearly illustrate the chaining."
+"msgstr "コメントはここでは省かれていますが、チェーニングを明確に示すために記載されています。\\n""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:140
+msgid ""
+"Here the object ``myAprilTagProcessorBuilder`` was not created; the build "
+"was performed directly on ``myAprilTagProcessor``.  The Builder pattern "
+"allows the \"dot\" methods to be chained in a single Java statement ending "
+"with ``.build()``."
+"msgstr """
+"ここではオブジェクト ``myAprilTagProcessorBuilder`` を作成せずに、直接 ``myAprilTagProcessor`` "
+"上でビルドが行われました。ビルダーパターンは、「ドット」メソッドを単一のJavaステートメントの中でチェインできるようにし、その末尾に "
+"``.build()`` を付けることで実現します。"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:145
+msgid "Color Processing Initialization"
+"msgstr ""
+"Color Processing Initialization"
+""
+"色処理初期化"
+""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:147
+msgid ""
+"**Step 2** is similar for creating the **Color Sensor/Locator Processor**, "
+"software that evaluates frames streaming in from the camera."
+"msgstr ""
+"**ステップ2**は、カメラからストリーミング入力されるフレームを評価するための**Color Sensor/Locator Processor**を作成する際と似ています。"
+""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:150
+msgid ""
+"The Builder is going to look a little different depending on if you are "
+"using the **Color Sensor** or the **Color Locator**. For more information, "
+"see the :doc:`Color Processing Documentation </color_processing/index>`."
+"msgstr ""
+"ビルダーは、**Color Sensor** や **Color Locator** を使用しているかによって見た目が少し異なります。詳細については、:doc:`Color Processing Documentation </color_processing/index>` を参照してください。"
+""
+"ビルダーは、**Color Sensor** もしくは **Color Locator** を使用しているかによって見た目が少し異なります。詳細については、:doc:`Color Processing Documentation </color_processing/index>` を参照してください。"
+""
+"ビルダーは、**Color Sensor** もしくは **Color Locator** を使用している場合によって見た目が少し異なります。詳細については、:doc:`Color Processing Documentation </color_processing/index>` を参照してください。"
+""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:155
+msgid "Enabling and Disabling Processors"
+"msgstr ""
+"プロセッサの有効化と無効化"
+""
+"プロセッサの有効化と無効化"
+""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:157
+msgid ""
+"For a Processor created here at Step 2, an OpMode does **not need** to "
+"enable that Processor at the following Step 3, **VisionPortal "
+"Initialization**."
+"msgstr """
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:160
+msgid ""
+"The ``setProcessorEnabled()`` command is **not** part of the Builder "
+"pattern."
+"msgstr "「setProcessorEnabled()」コマンドはビルダー模式の**一部分ではありません**。""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:162
+msgid ""
+"Use ``setProcessorEnabled(   , true)`` only to **re-enable** the processor, "
+"after **disabling** (by setting to ``false``).  This topic is covered "
+"further at the **Managing CPU and Bandwidth** page."
+"msgstr """
+"「setProcessorEnabled(   , true)」は、プロセッサを**再有効化**するためだけに使用し、**無効化**（``false``"
+" に設定）した後にのみ使用してください。このトピックは、**CPUと帯域幅の管理**ページでさらに詳しく説明されています。"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:166
+msgid ""
+"At the following page's Step 3, the ``addProcessor()`` command "
+"**automatically enables** the specified processor. Thus OpModes **do not "
+"initialize** with this, after Step 2:"
+"msgstr """
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst
+msgid "Enable or Disable Processor"
+"msgstr "プロセッサーの有効化または無効化""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:179
+msgid "Enable or Disable AprilTag Processor"
+"msgstr "Aprilタグプロセッサの有効化または無効化""
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:181
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:192
+msgid ""
+"Again, use this only to **re-enable** the processor, after **disabling** (by"
+" setting to `false`)."
+"msgstr """
+"また、この機能はプロセッサを**再起動**するためだけに使用し、**停止**状態から復帰（`false` に設定した場合）後にのみ使用してください。"
+
+#: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:197
+msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
+"msgstr """
+"FIRST Tech Challengeに関する質問、コメントや訂正は、westsiderobotics@verizon.netまでお願いします。"

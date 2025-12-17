@@ -12,55 +12,60 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:2
 msgid "Encoders (Rotation Counters)"
-msgstr ""
+msgstr "エンコーダー（回転カウンタ）"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:11
 msgid "REV HD Hex Motor"
-msgstr ""
+msgstr "REV HD ヘクスモーター"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:21
 msgid "Built-in Encoder in the REV HD Hex Motor"
-msgstr ""
+msgstr "REV HDヘクサモータ内蔵エンコーダ"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:27
 msgid "REV Through Bore Encoder"
-msgstr ""
+msgstr "REV 通過孔エンコーダ"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:37
 msgid "REV Through Bore Encoder, in incremental mode."
-msgstr ""
+msgstr "REV 通過孔エンコーダ、インクリメンタルモードで。"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:39
 msgid ""
-"An encoder is a device that measures the rotational displacement around "
-"an axis.  Most legal *FIRST* Tech Challenge motors contain a built in "
-"quadrature encoder that is compatible with a REV Hub. It is also possible"
-" to use a standalone incremental encoder like a REV Through Bore Encoder "
-"(shown above). An incremental encoder works by sending out a \"tick\" per"
-" partial rotation of the shaft. More information on how many ticks are "
-"output per rotation can be found on the manufacturer's website. An "
-"absolute encoder is able to indicate the displacement of the shaft from "
-"its starting position and the the exact angle the shaft is currently at "
-"relative to a \"zero\" position."
+"An encoder is a device that measures the rotational displacement around an "
+"axis.  Most legal *FIRST* Tech Challenge motors contain a built in "
+"quadrature encoder that is compatible with a REV Hub. It is also possible to"
+" use a standalone incremental encoder like a REV Through Bore Encoder (shown"
+" above). An incremental encoder works by sending out a \"tick\" per partial "
+"rotation of the shaft. More information on how many ticks are output per "
+"rotation can be found on the manufacturer's website. An absolute encoder is "
+"able to indicate the displacement of the shaft from its starting position "
+"and the the exact angle the shaft is currently at relative to a \"zero\" "
+"position."
 msgstr ""
+"エンコーダは、軸を中心に回転移位を測定する装置です。大多数の合法的なFIRST Tech "
+"Challengeモータには、REVハブと互換性のある内蔵クォドレートエンコーダが含まれています。単独のインクリメンタルエンコーダを使用することも可能です。REV"
+" Through Bore "
+"Encoder（上図参照）などがその例です。インクリメンタルエンコーダは、シャフトの部分的な回転ごとに「tick」を送出します。1回転あたり何個のtickが送出されるかについては、製造元のウェブサイトで確認できます。一方、絶対エンコーダは、シャフトの開始位置からの移動量と現在の角度（ゼロ位置に対する相対的な角度）を示すことができます。"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:51
 msgid "Additional Resources"
-msgstr ""
+msgstr "追加のリソース"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:53
 msgid ""
-":ref:`Encoder Port Overview <control_hard_compon/rc_components/hub/ports"
-"/exh-ports:encoder ports>`"
+":ref:`Encoder Port Overview "
+"<control_hard_compon/rc_components/hub/ports/exh-ports:encoder ports>`"
 msgstr ""
-
+":ref:`エンコーダポートの概要 <control_hard_compon/rc_components/hub/ports/exh-"
+"ports:encoder ports>`"

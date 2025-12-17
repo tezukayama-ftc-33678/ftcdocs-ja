@@ -12,30 +12,32 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:2
 msgid "Phone Pairing"
-msgstr ""
+msgstr "電話のペアリング"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "紹介"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:7
 msgid ""
 "The Robot Controller and Driver Station apps are extremely reliable for "
-"pairing, including between **all models of legal phones**. Please see the"
-" `Competition Manual <https://ftc-"
+"pairing, including between **all models of legal phones**. Please see the "
+"`Competition Manual <https://ftc-"
 "resources.firstinspires.org/ftc/game/manual>`__ for list of phone models "
 "currently legal to use at *FIRST* Tech Challenge events."
 msgstr ""
+"ロボットコントローラーアプリとドライバーステーションアプリは、**すべての法的な電話モデル**とのペアリングにも非常に信頼性が高いです。使用可能な電話モデルの一覧については、「競技マニュアル」（`こちら"
+" <https://ftc-resources.firstinspires.org/ftc/game/manual>`__ ）をご覧ください。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:13
 msgid ""
@@ -43,160 +45,181 @@ msgid ""
 "Direct is **fast** and usually **automatic**. Here is a procedure that "
 "addresses various **pre-existing conditions** that can impede pairing."
 msgstr ""
+"Android端末が適切に準備された場合、Wi-Fi "
+"Directによるペアリングは**素早く**、通常は**自動的**に行われます。以下は、ペアリングを妨げる可能性のあるさまざまな**既存の問題**に対処する手順です。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:17
 msgid "This article does not cover the REV Control Hub or REV Driver Hub."
-msgstr ""
+msgstr "この記事では、REV Control HubやREV Driver Hubについてはカバーしていません。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:20
 msgid "Phone Cleanup and Prep"
-msgstr ""
+msgstr "電話のクリーニングと準備"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:22
 msgid ""
-"On RC phone: if needed, select Settings/Accounts/Google/select/3 "
-"dots/Remove account/confirm. Repeat for any other accounts. Also remove "
-"any non-*FIRST* Tech Challenge apps/games that might run in the "
-"background or attempt updates."
+"On RC phone: if needed, select Settings/Accounts/Google/select/3 dots/Remove"
+" account/confirm. Repeat for any other accounts. Also remove any non-*FIRST*"
+" Tech Challenge apps/games that might run in the background or attempt "
+"updates."
 msgstr ""
+"RC電話で: "
+"必要に応じて、設定/アカウント/Googleを選択し、3つの点/アカウントの削除/確認を行ってください。他のアカウントも同様に行います。また、バックグラウンドで動作したりアップデートを試みる可能性のあるFIRST"
+" Tech Challenge以外のアプリやゲームも削除してください。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:27
 msgid "On RC phone: force quit (swipe away) all apps, including the RC app."
-msgstr ""
+msgstr "RC電話機で：すべてのアプリ（RCアプリも含む）を強制終了し、スワイプして閉じます。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:29
 msgid ""
 "RC phone, Apps/Settings/Wi-Fi. Manually select and Forget any saved "
 "Networks."
-msgstr ""
+msgstr "ロボットコントローラーのアプリケーション設定内の無線LAN。保存されたネットワークは手動で選択し、忘却します。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:32
 msgid ""
 "RC phone, still in WiFi menu: navigate to Wi-Fi Direct menu (via More "
 "Settings or Advanced)."
 msgstr ""
+"RC電話、まだWiFiメニュー内の場合：More Settings や Advanced からWi-Fi Direct メニューに移動してください。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:35
 msgid ""
-"Select and forget/disconnect any connections with Peer Devices, including"
-" the current phone pairing. This may take a few tries; OK to give up if "
+"Select and forget/disconnect any connections with Peer Devices, including "
+"the current phone pairing. This may take a few tries; OK to give up if "
 "disconnect not acknowledged."
 msgstr ""
+"Peerデバイスとの接続を選択して忘れるか、切断します。現在の電話ペアリングも含みます。一度に成功しない場合もあります；切断が確認されない場合は諦めるOKです。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:39
 msgid "If the top item shows ‘Created Group’, Disconnect it."
-msgstr ""
+msgstr "もし上位項目に「グループ作成」が表示されている場合、接続を切断します。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:40
 msgid ""
-"If you inadvertently create an Invitation pop-up on the other phone, "
-"Decline on the other phone and Cancel on this phone. In rare cases, the "
-"Invite prompt is underneath any open windows on the RC phone."
+"If you inadvertently create an Invitation pop-up on the other phone, Decline"
+" on the other phone and Cancel on this phone. In rare cases, the Invite "
+"prompt is underneath any open windows on the RC phone."
 msgstr ""
+"もし他の電話で意図せずに招待ポップアップを作成した場合、その他の電話では「断る」を選択し、この電話では「キャンセル」をクリックしてください。稀なケースでは、招待メッセージがRC電話の開いているウィンドウの下に隠れていることがあります。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:44
 msgid "Pairing will be done later in the apps; see below."
-msgstr ""
+msgstr "ペアリングはアプリケーション内で後ほど実施します；下記をご覧ください。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:46
 msgid ""
-"Select and Forget all Remembered Groups, including ANY phone pairings. "
-"(This can also be done from Advanced RC Settings from either app.) Your "
-"goal after steps d1 and d2: ‘Not visible’, no ‘Peer devices’, no "
-"‘Remembered groups’."
+"Select and Forget all Remembered Groups, including ANY phone pairings. (This"
+" can also be done from Advanced RC Settings from either app.) Your goal "
+"after steps d1 and d2: ‘Not visible’, no ‘Peer devices’, no ‘Remembered "
+"groups’."
 msgstr ""
+"すべての記憶されたグループを選択し、無視します。これには、どんな電話ペアリングも含まれます。(これは、どちらのアプリから先進的なロボットコントローラー設定からでも行うことができます。)"
+" ステップ d1 と d2 完了後の目標は、「表示されていない」状態で、‘ペアリングされたデバイス’や‘記憶されたグループ’が存在しないことです。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:51
 msgid ""
-"If needed, Rename/Configure the phone to a legal name, per the "
-"`Competition Manual <https://ftc-"
-"resources.firstinspires.org/ftc/game/manual>`__ (This can also be done "
-"from Settings in each app.)"
+"If needed, Rename/Configure the phone to a legal name, per the `Competition "
+"Manual <https://ftc-resources.firstinspires.org/ftc/game/manual>`__ (This "
+"can also be done from Settings in each app.)"
 msgstr ""
+"必要に応じて、電話を合法的な名前に再命名または設定し、`競技マニュアル <https://ftc-"
+"resources.firstinspires.org/ftc/game/manual>`__ "
+"に従ってください。（各アプリケーションの「設定」からも実行できます。）"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:55
 msgid ""
 "Configure device/Limit 2 devices, ‘Inactivity timeout’ Never, check box "
-"‘Auto connect remembered groups’. (Note: timeout is not persistent, re-"
-"check occasionally.)"
+"‘Auto connect remembered groups’. (Note: timeout is not persistent, re-check"
+" occasionally.)"
 msgstr ""
+"デバイスの設定/最大2台のデバイスに制限し、「無活性タイムアウト」を「決して」とし、「記憶されたグループの自動接続」チェックボックスをオンにしてください。(注意:"
+" タイムアウトは一時的なもので、定期的に再確認してください。)"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:59
 msgid ""
 "Force quit to device home screen. Swipe down twice from top, do this in "
 "order:"
-msgstr ""
+msgstr "デバイスのホーム画面へ強制終了します。トップから下に2回スワイプしてください："
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:62
 msgid "Airplane Mode ON"
-msgstr ""
+msgstr "飛行機モードON"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:63
-msgid "Wi-Fi ON (usually toggles off when Airplane Mode is turned on), then Done"
-msgstr ""
+msgid ""
+"Wi-Fi ON (usually toggles off when Airplane Mode is turned on), then Done"
+msgstr "Wi-Fi ON（通常、飛行機モードがオンになったときにオフに切り替わります）然後, 完了"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:65
 msgid "Bluetooth OFF"
-msgstr ""
+msgstr "BluetoothOFF"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:66
 msgid "Location OFF, only for Android 7.x"
-msgstr ""
+msgstr "場所OFF、Android 7.xのみ"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:68
 msgid "repeat above steps on DS phone."
-msgstr ""
+msgstr "上記の手順をドライバーステーションの電話でも繰り返してください。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:72
 msgid "Pairing"
-msgstr ""
+msgstr "ペアリング"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:74
 msgid ""
-"On RC phone: open the current season’s RC app. Check Self Inspect for any"
-" RC issues."
-msgstr ""
+"On RC phone: open the current season’s RC app. Check Self Inspect for any RC"
+" issues."
+msgstr "RC電話で：現在のシーズンのRCアプリを開きます。Self InspectからRCの問題を確認します。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:77
 msgid ""
-"On DS phone: open the current season’s DS app. Check Self Inspect for any"
-" DS issues."
-msgstr ""
+"On DS phone: open the current season’s DS app. Check Self Inspect for any DS"
+" issues."
+msgstr "DS電話で：現在のシーズンのDSアプリを開きます。Self InspectからDSの問題を確認します。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:80
 msgid ""
 "On DS phone: Menu (3 dots)/Settings. Confirm ‘Pairing Method’ is Wi-Fi "
-"Direct. Open ‘Pair with Robot Controller’. (Do not pair using "
-"phone/Android menu.)"
+"Direct. Open ‘Pair with Robot Controller’. (Do not pair using phone/Android "
+"menu.)"
 msgstr ""
+"DS電話で：メニュー（3つの点）/設定。‘ペアリング方法’がWi-"
+"Fiダイレクトであることを確認してください。‘ロボットコントローラーとのペアリング’を開きます。（電話/Androidのメニューを使用せずにペアリングしないでください。）"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:84
 msgid ""
-"Filter can remain on, be patient and wait for the app to find the "
-"matching device. Or turn off Filter to see all devices within a few "
-"seconds. Choose the corresponding RC phone, touch Back, and Back again to"
-" return to the DS home screen."
+"Filter can remain on, be patient and wait for the app to find the matching "
+"device. Or turn off Filter to see all devices within a few seconds. Choose "
+"the corresponding RC phone, touch Back, and Back again to return to the DS "
+"home screen."
 msgstr ""
+"フィルターを有効に保ち、アプリが一致するデバイスを見つけるまで patience "
+"を持って待ちましょう。または、数秒ですべてのデバイスを見るためにフィルターをオフにしてください。「対応するRC電話」を選択し、「Back」をタッチしてから再度「Back」をタッチして、DSホーム画面に戻りましょう。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:89
 msgid ""
 "Look at RC phone, accept the Invitation there. In rare cases, the Invite "
-"prompt is underneath any open windows on the RC phone. Pairing will "
-"happen within seconds."
+"prompt is underneath any open windows on the RC phone. Pairing will happen "
+"within seconds."
 msgstr ""
+"RC電話機を見ます。そこで招待を受け入れてください。稀に、招待の通知はRC電話機上の開いているウィンドウの下に表示されることがあります。ペアリングは数秒以内に行われます。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:94
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:96
 msgid ""
-"The above procedure may seem long, but it covers conditions that should "
-"not have been present in the first place. Going forward, pairing will be "
-"**fast and reliable – usually automatic**."
+"The above procedure may seem long, but it covers conditions that should not "
+"have been present in the first place. Going forward, pairing will be **fast "
+"and reliable – usually automatic**."
 msgstr ""
+"上記の手順は長く見えるかもしれませんが、本来存在すべきではなかった状況をカバーしています。今後、ペアリングは **高速で信頼性が高い – 通常自動的**"
+" になります。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:102
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
-msgstr ""
-
+msgstr "質問、ご意見や訂正は westsiderobotics@verizon.net までお願いいたします。"

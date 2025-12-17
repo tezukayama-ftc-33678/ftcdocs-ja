@@ -12,100 +12,106 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:2
 msgid "Filament Storage Details"
-msgstr ""
+msgstr "フィラメントの保管詳細"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:5
 msgid "General Guidelines"
-msgstr ""
+msgstr "一般的なガイドライン"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:7
 msgid ""
 "Here are some general guidelines for how careful you should be to store "
 "filaments."
-msgstr ""
+msgstr "ここでは、フィラメントを保管する際の注意事項について一般的なガイドラインをいくつか示します。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:9
 msgid "Can be left in open air, sealed storage preferred: ABS, ASA"
-msgstr ""
+msgstr "空気中で保管可能ですが、密封した保管が推奨されます：ABS, ASA"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:10
 msgid "Sealed storage highly recommended: PLA, PET-G"
-msgstr ""
+msgstr "密閉保存を強く推奨：PLA, PET-G"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:11
 msgid ""
 "Sealed storage highly recommended while printing and storing: TPU/TPE, "
 "Polyamides"
-msgstr ""
+msgstr "印刷や保管時、密閉保存を強く推奨します：TPU/TPE、ポリアミド"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:14
 msgid "Why We Need Filament Storage"
-msgstr ""
+msgstr "なぜフィラメントの保管が必要か"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:21
 msgid "A DIY filament storage solution"
-msgstr ""
+msgstr "DIYで作るフィルAMENT保管ソリューション"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:21
 msgid ""
 "A large sealed bin can be customized to fit your use with silica packets "
 "thrown in."
-msgstr ""
+msgstr "大きな密閉型の容器は、珪酸パックを入れることで用途に合わせてカスタマイズできます。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:25
 msgid ""
 "It's important to keep in mind that filaments need to be stored in a "
-"specific way- and even the basic filaments PLA and PET-G are no "
-"exception. Filaments are **hygroscopic** (absorb moisture from the air), "
-"and that affects print quality majorly if not taken care of. Store "
-"filaments in a closed and sealed container, preferably kept dry with "
-"spare silica packets, and don't leave them out whenever possible."
+"specific way- and even the basic filaments PLA and PET-G are no exception. "
+"Filaments are **hygroscopic** (absorb moisture from the air), and that "
+"affects print quality majorly if not taken care of. Store filaments in a "
+"closed and sealed container, preferably kept dry with spare silica packets, "
+"and don't leave them out whenever possible."
 msgstr ""
+"filamentを適切な方法で保管することが重要です-基本的なfilamentであるPLAやPET-"
+"Gも例外ではありません。filamentは**吸湿性がある**（空気から水分を吸収する）ため、適切に管理しないと印刷品質に大きな影響を与えます。filamentは密閉された容器で保管し、可能な限り乾燥した状態にしておくことが推奨されます。余分なシリカパックも用意しておくと良いでしょう。できるだけ外に出さないようにしましょう。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:29
 msgid ""
-"If you suspect a filament has taken on water, look up a drying "
-"temperature for it, and put it in the oven or a specialized filament "
-"dryer at that temperature for a few hours to get rid of the water."
+"If you suspect a filament has taken on water, look up a drying temperature "
+"for it, and put it in the oven or a specialized filament dryer at that "
+"temperature for a few hours to get rid of the water."
 msgstr ""
+"もしフィラメントに水分が入っている可能性があると疑った場合、そのフィラメントの乾燥温度を調べて、数時間おいて水気を取り除くためにオーブンまたは専用のフィラメントドライヤーでその温度で保管してください。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:32
 msgid ""
 "An easy way to tell if a filament has taken on moisture is if you hear a "
-"slight popping noise when printing- this is the moisture forming bubbles "
-"in the filament as it's heated."
+"slight popping noise when printing- this is the moisture forming bubbles in "
+"the filament as it's heated."
 msgstr ""
+"filamentが湿気を吸収しているかどうか簡単に確認できる方法は、印刷中に微かなパチパチ音がするかどうかを見る thing "
+"です。これは、filamentが加熱される際に湿気が泡を形成しているためです。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:37
 msgid "Storing While Printing"
-msgstr ""
+msgstr "印刷中にも保存"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:39
 msgid ""
-"Some more sensitive hygroscopic filaments don't just need to be stored in"
-" sealed containers, but also need to be printed while in a sealed "
-"container. Lots of companies sell or design \"dryboxes\" for this "
-"purpose, such as SUNLU's filament dryer box, BambuLab's AMS setup, or "
-"custom designs such as one by Prusa Research. Do your own research and "
-"find out which of these is best for you if you deal with extremely "
-"sensitive filaments."
+"Some more sensitive hygroscopic filaments don't just need to be stored in "
+"sealed containers, but also need to be printed while in a sealed container. "
+"Lots of companies sell or design \"dryboxes\" for this purpose, such as "
+"SUNLU's filament dryer box, BambuLab's AMS setup, or custom designs such as "
+"one by Prusa Research. Do your own research and find out which of these is "
+"best for you if you deal with extremely sensitive filaments."
 msgstr ""
+"一部のより敏感な吸湿性フィラメントは、単に密封容器で保管するだけでなく、密封容器の中で印刷する必要もあります。多くの企業はこの目的用の「ドライボックス」を販売していますか設計しており、SUNLUのフィラメント乾燥ボックスやBambuLabのAMSセットアップ、またはPrusa"
+" "
+"Researchによるカスタムデザインなどがあります。極めて敏感なフィラメントを使用する場合は、これらの製品の中から自分に最適なものを見つけるために独自の調査を行ってください。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:48
 msgid "Prusa's filament drybox"
-msgstr ""
+msgstr "プリスカのフィルAMENT乾燥ボックス"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/filament_storage/filament_storage.rst:48
 msgid "Prusa's filament drybox solution, 3D printed and DIY."
-msgstr ""
-
+msgstr "プリスカのフィルAMENT乾燥ボックスソリューション、3Dプリンタで作成し、DIY。"

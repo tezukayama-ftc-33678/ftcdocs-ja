@@ -12,88 +12,107 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:2
 msgid "AprilTag Pose"
-msgstr ""
+msgstr "AprilTagのポーズ"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:4
 msgid ""
-"The SDK can evaluate a **flat AprilTag** (not curved) to estimate "
-"**pose**, the combination of:"
-msgstr ""
+"The SDK can evaluate a **flat AprilTag** (not curved) to estimate **pose**, "
+"the combination of:"
+msgstr "SDKは、曲がっていない**フラットなAprilTag**を評価し、**ポーズ**（位置と向きの組み合わせ）を推定できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:7
 msgid ""
-"relative position **from the camera lens center to the AprilTag center**,"
-" and"
-msgstr ""
+"relative position **from the camera lens center to the AprilTag center**, "
+"and"
+msgstr "相対位置、**カメラレンズ中心からAprilTag中心までの距離**、"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:8
 msgid "orientation of the AprilTag **in the camera's reference frame**"
-msgstr ""
+"msgstr ""
+"AprilTag の方向性 **カメラの参照フレームにおける**"
+""
+"AprilTag の向き **カメラの参照フレームにおける**"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:10
 msgid ""
 "As described at the previous page **FTC Reference Frame**, position is "
-"expressed as (X, Y, Z).  Orientation is expressed as rotation about (X, "
-"Y, Z), called Pitch, Roll and Yaw respectively."
-msgstr ""
+"expressed as (X, Y, Z).  Orientation is expressed as rotation about (X, Y, "
+"Z), called Pitch, Roll and Yaw respectively."
+"msgstr ""
+"As described at the previous page **FTC Reference Frame**, position is expressed as (X, Y, Z). Orientation is expressed as rotation about (X, Y, Z), called Pitch, Roll and Yaw respectively."
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:14
 msgid ""
-"The tag must be in the Library, which ensures that tag size (with units) "
-"is defined.  Estimating pose requires knowing the tag size."
+"The tag must be in the Library, which ensures that tag size (with units) is "
+"defined.  Estimating pose requires knowing the tag size."
 msgstr ""
+"タグはライブラリに存在する必要があります。これにより、タグのサイズ（単位付き）が定義されます。ポーズの推定にはタグのサイズを知る必要があるためです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:17
 msgid ""
 "As demonstrated in the Sample OpModes, here are ways to retrieve the "
 "estimated pose values."
-msgstr ""
+msgstr "サンプルOpModeで示されているように、推定ポーズ値を取得する方法は次の通りです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst
 msgid "Blocks"
-msgstr ""
+msgstr "ブロック"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:29
 msgid "AprilTag Pose Blocks"
-msgstr ""
+msgstr "4月タグポーズブロック"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:31
 msgid ""
-"Use each of these green Blocks to pass a Pose value to a Telemetry Block,"
-" or to a Variable:"
-msgstr ""
+"Use each of these green Blocks to pass a Pose value to a Telemetry Block, or"
+" to a Variable:"
+msgstr "これらの緑色のブロックそれぞれを使用して、ポーズ値をテレメトリブロックや変数に伝達します："
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:36
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:74
 msgid "Use these `ftcPose` fields for Telemetry, or assign to a Variable:"
-msgstr ""
+"msgstr ""
+"Use these `ftcPose` fields for Telemetry, or assign to a Variable:"
+""
+"これらの `ftcPose` フィールドを使用して Telemetry に設定するか、変数に割り当てるために使用します："
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:48
 msgid ""
-"*The SDK terms for Pitch, Roll and Yaw are* **not the same** *as the "
-"native AprilTag terms, due to the FTC reference frame.*"
-msgstr ""
+"*The SDK terms for Pitch, Roll and Yaw are* **not the same** *as the native "
+"AprilTag terms, due to the FTC reference frame.*"
+"msgstr ""
+"*SDKで使用されるピッチ、ロール、ヨーの用語は* **同じではない** *ことについてFTC参考フレームにより説明します。*"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:51
 msgid ""
 "Teams may find it helpful to use a **calculated extension** of the basic "
 "pose, with these terms:"
-msgstr ""
+"msgstr ""
+" Teams may find it helpful to use a **calculated extension** of the basic pose, with these terms:"
+""
+"チームは基本姿勢から派生した**計算された延長**を使用することも役立つかもしれません："
+""
+" Teams may find it helpful to use a **calculated extension** of the basic pose, with these terms:"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:54
 msgid "**Range**, direct (point-to-point) distance to the tag center"
@@ -101,68 +120,75 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:55
 msgid ""
-"**Bearing**, the angle the camera must turn (left/right) to point "
-"directly at the tag center"
-msgstr ""
+"**Bearing**, the angle the camera must turn (left/right) to point directly "
+"at the tag center"
+msgstr "**ベアリング**、カメラがタグの中心に向かうために左または右に回転する角度です"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:56
 msgid ""
-"**Elevation**, the angle the camera must tilt (up/down) to point directly"
-" at the tag center"
-msgstr ""
+"**Elevation**, the angle the camera must tilt (up/down) to point directly at"
+" the tag center"
+msgstr "**エレベーション**、カメラがタグの中心に直接向かうために傾ける角度（上向き/下向き）"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:62
 msgid "Here each green Block assigns its value to a Variable:"
-msgstr ""
+msgstr "ここでは各緑色ブロックが変数にその値を割り当てています："
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst
 msgid "AprilTag RBE Blocks"
-msgstr ""
+msgstr "4月タグRBEブロック"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:69
 msgid "AprilTag Range, Bearing, Elevation Blocks"
-msgstr ""
+msgstr "AprilTagの距離、方位、仰角ブロック"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:83
 msgid ""
 "Here, the terms do agree with the SDK method names, because they are "
-"calculated within the SDK from the native AprilTag pose values shown "
-"above (XYZ distances and PRY rotations)."
+"calculated within the SDK from the native AprilTag pose values shown above "
+"(XYZ distances and PRY rotations)."
 msgstr ""
+"ここでは、 TERMS "
+"はSDKメソッド名と一致しています。これは上記のネイティブAprilTagポーズ値（XYZ距離とPRY回転）からSDK内で計算されるためです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:87
 msgid ""
-"As with tag ID code, pose data is usually retrieved inside a ``for() "
-"loop``, for immediate processing or stored for later use.  See the "
+"As with tag ID code, pose data is usually retrieved inside a ``for() loop``,"
+" for immediate processing or stored for later use.  See the "
 "**Initialization** page for sample ``for() loop`` code."
 msgstr ""
+"タグIDコードと同じように、ポーズデータは通常、直ちな処理のために ``for() ループ`` "
+"内で取得され、または後で使用するために保存されます。**初期化**ページを参照してください。そこで ``for() ループ`` "
+"のサンプルコードが示されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:91
 msgid ""
-"Unlike tag ID code, a detected AprilTag might provide **no pose data** --"
-" if it was not placed into the Library by default or with the custom "
-"Builder pattern. Namely, the tag might lack Metadata including **tag "
-"size**, required for pose estimation."
+"Unlike tag ID code, a detected AprilTag might provide **no pose data** -- if"
+" it was not placed into the Library by default or with the custom Builder "
+"pattern. Namely, the tag might lack Metadata including **tag size**, "
+"required for pose estimation."
 msgstr ""
+"タグIDコードとは異なり、検出されたAprilTagはデフォルトやカスタムビルダーパターンを使用せずにライブラリに追加されなかった場合、**ポーズデータが提供されない**可能性があります。つまり、ポーズ推定に必要な**タグサイズ**などのメタデータが不足している可能性があるということです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:96
 msgid ""
 "To avoid logic errors, an OpMode can check the Metadata for a **null** "
-"condition before attempting to process pose data.  This is illustrated in"
-" these Sample OpModes:"
+"condition before attempting to process pose data.  This is illustrated in "
+"these Sample OpModes:"
 msgstr ""
+"ロジックエラーを避けるために、OpModeはポーズデータを処理しようとする前にメタデータの**null**条件をチェックできます。これは次のサンプルOpModeで示されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:100
 msgid "Blocks: `ConceptAprilTag`"
-msgstr ""
+msgstr "ブロック:`ConceptAprilTag`"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:101
 msgid "Java: `ConceptAprilTag.java`"
-msgstr ""
+msgstr "Java: `ConceptAprilTag.java`"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:103
 msgid "More discussion of AprilTag pose data is available here:"
-msgstr ""
+msgstr "AprilTagのポーズデータについての詳細は、こちらをご覧ください:"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:105
 msgid ""
@@ -170,8 +196,10 @@ msgid ""
 "<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
 "detection-values:understanding apriltag detection values>`"
 msgstr ""
+":ref:`AprilTag検出値の理解 "
+"<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
+"detection-values: apriltag検出値の理解>`"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:109
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr ""
-
+msgstr "FIRSTの質問、コメントや訂正はwestsiderobotics@verizon.netまでお願いします。"

@@ -12,67 +12,70 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/index.rst:-1
 #: ../../source/manufacturing/index.rst:7
 msgid "Manufacturing"
-msgstr ""
+msgstr "製造"
 
 #: ../../source/manufacturing/index.rst:-1
 msgid "Manufacturing methods for the FIRST Tech Challenge."
-msgstr ""
+msgstr "FIRST Tech Challengeの製造方法。"
 
 #: ../../source/manufacturing/index.rst:-1
 msgid "FIRST Tech Challenge, FTC Docs, Manufacturing"
-msgstr ""
+msgstr "FIRST Tech Challenge, FTC Docs, 制造業"
 
 #: ../../source/manufacturing/index.rst:9
 msgid ""
 "Manufacturing is an extremely important part of building a robot for the "
-"FIRST Tech Challenge. While Commercial-Off-The-Shelf parts can be used "
-"for the majority, and in some cases the entirety, of a robot, there are "
-"many times when a custom part is needed. This section will cover some of "
-"the most common manufacturing methods used in FTC for creating these "
-"parts. It is important to note that there are many different ways to "
-"manufacture parts, and this section will only contain those that are most"
-" commonly used."
+"FIRST Tech Challenge. While Commercial-Off-The-Shelf parts can be used for "
+"the majority, and in some cases the entirety, of a robot, there are many "
+"times when a custom part is needed. This section will cover some of the most"
+" common manufacturing methods used in FTC for creating these parts. It is "
+"important to note that there are many different ways to manufacture parts, "
+"and this section will only contain those that are most commonly used."
 msgstr ""
+"FIRST Tech Challengeにおけるロボットの製作において、製造は極めて重要な要素です。商用オフザシェelf (Commercial-"
+"Off-The-Shelf) "
+"の部品は、ロボットの大部分乃至全部を構成するのに使用されることがありますが、多くの場合、カスタム部品が必要となります。このセクションでは、FTCでこれらの部品を作成するために最も一般的に使用される製造方法について説明します。重要なことに、部品を製造する方法は多種多样であり、このセクションには最も一般的に使用されるものだけが含まれています。"
 
 #: ../../source/manufacturing/index.rst:15
 msgid ""
-"While a CAD model is not always needed to build a robot or part, it is "
-"often required when manufacturing custom parts. For this reason, it is "
-"recommended that a team design their robot (or at least the part that "
-"needs to be made) in a CAD software. For more information on CAD, see the"
-" :doc:`CAD Resources <../cad_resources/index>` section."
+"While a CAD model is not always needed to build a robot or part, it is often"
+" required when manufacturing custom parts. For this reason, it is "
+"recommended that a team design their robot (or at least the part that needs "
+"to be made) in a CAD software. For more information on CAD, see the "
+":doc:`CAD Resources <../cad_resources/index>` section."
 msgstr ""
+"CADモデルはロボットや部品を構築する際には必ずしも必要ではありませんが、カスタム部品の製造ではしばしば必要となります。このため、チームはCADソフトウェアを使用してロボット（または少なくとも作成が必要な部品）を設計することをお勧めします。CADに関する詳細については、「:doc:`CADリソース"
+" <../cad_resources/index>`」セクションをご覧ください。"
 
 #: ../../source/manufacturing/index.rst:20
 msgid "Here are some manufacturing methods that are commonly used in FTC:"
-msgstr ""
+msgstr "ここにFTCで一般的に使用される製造方法があります："
 
 #: ../../source/manufacturing/index.rst:22
 msgid "Prototyping (Proof-of-Concept, Testing) (Cardboard, Wood, Foam, etc.)"
-msgstr ""
+msgstr "プロトタイピング（概念実証、テスト）( cardboard, wood, foam など )\\n"
 
 #: ../../source/manufacturing/index.rst:23
 msgid ""
 ":doc:`3D Printing <3d_printing/index>` (Smaller parts, Prototyping) "
 "(Plastics)"
-msgstr ""
+msgstr ":doc:`3Dプリンティング <3d_printing/index>` (小さな部品、プロトタイピング) (プラスチックス)"
 
 #: ../../source/manufacturing/index.rst:24
 msgid "Machining (Larger Parts, Plates) (Metal, Wood, Composites, Plastics)"
-msgstr ""
+msgstr "加工（ Larger Parts, Plates ）（ Metal, Wood, Composites, Plastics ）"
 
 #: ../../source/manufacturing/index.rst:25
 msgid "Laser Cutting (Plates, Gears, etc.) (Wood, Composites, Plastics)"
-msgstr ""
-
+msgstr "レーザー切断（プレート、ギアなど）（木材、複合材料、プラスチック）"

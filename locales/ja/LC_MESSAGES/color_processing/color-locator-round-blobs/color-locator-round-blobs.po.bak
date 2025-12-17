@@ -1,0 +1,730 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:2
+msgid "Color Locator (Round Blobs)"
+"msgstr "色検出器（円形ブロブ）""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:5
+msgid "Overview"
+"msgstr "概要""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:7
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:261
+msgid ""
+"FTC's \"Color Locator\" now offers a best-fit circle called ``circleFit``, "
+"an alternate to the best-fit rectangle (\"boxFit\") described in previous "
+"sections of this tutorial."
+"msgstr """
+"FTCの「Color Locator」は、以前のセクションで説明した最適な矩形（\"boxFit\"）に代わる最適な円を提供しています。その名称は "
+"``circleFit`` です。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:14
+msgid "Images showing circlefit and boxfit best-fit algorithms"
+"msgstr "円フィットと箱フィットの最適化アルゴリズムを示す画像""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:14
+msgid "circleFit versus boxFit detection"
+"msgstr "円フィットversus箱フィット検出""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:16
+msgid ""
+"This page describes the new Sample OpMode called "
+"``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  These notes "
+"assume familiarity with the original Sample OpMode, now called "
+"``ConceptVisionColorLocator_Rectangle``."
+"msgstr """
+"このページでは、FTC BlocksおよびJavaで新しく追加されたSample OpMode "
+"``ConceptVisionColorLocator_Circle`` の説明を行っています。これらのメモは、現在のSample OpMode "
+"``ConceptVisionColorLocator_Rectangle`` に精通していることを前提としています。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:18
+msgid ""
+"The new ``_Circle`` Sample uses these settings for convenient processing of "
+"DECODE Artifacts:"
+"msgstr "新しい ``_Circle`` サンプルでは、DECODE アートファクトの便利な処理のために次の設定を使用します：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:20
+msgid "increase Erode and Dilate areas from 5 to 15 pixels"
+"msgstr "エロードとダイラート領域を5ピクセルから15ピクセルに増加させます""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:21
+msgid "change order of Erode and Dilate"
+"msgstr "エロージョンとダイラージョンの順序を変更""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:22
+msgid "draw ``circleFit`` preview"
+"msgstr "円フィットのプレビューを表示""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:23
+msgid "Telemetry shows only Circularity, Radius and Center"
+"msgstr "テレメトリーはOnly Circularity, Radius and Centerのみを表示します""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:25
+msgid ""
+"As an alternate, the ``_Rectangle`` Sample OpMode can still be used and "
+"modified to process objects of any shape, including round balls, with access"
+" to the same attributes."
+"msgstr """
+"代替手段として、``_Rectangle`` "
+"サンプルオモードはまだ使用でき、任意の形状（包括して円形のボールも）の物体を処理できるように修正することができます。同じ属性にアクセスできます。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:28
+msgid "Quick Start"
+"msgstr "QUICK START""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:31
+msgid ""
+"This and other steps here were previously described in detail, starting with"
+" the page called :doc:`Color Locator - Discover <../color-locator-"
+"discover/color-locator-discover>`."
+"msgstr """
+"この手順と他の手順は、ページ「:doc:`色検出器 - 見つける <../color-locator-discover/color-locator-"
+"discover>`」から始めて詳細に説明されています。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:33
+msgid ""
+"In FTC Blocks or Java, create a new Autonomous OpMode from the Sample "
+"``ConceptVisionColorLocator_Circle``."
+"msgstr """
+"FTCブロックやJavaで、サンプル「ConceptVisionColorLocator_Circle」から新しいオートノミOUSモードを作成してください。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:34
+msgid "On the Driver Station, select the OpMode that you just saved or built."
+"msgstr "ドライバーステーションで、先ほど保存或いは構築したオペレーションモードを選択してください。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:35
+msgid ""
+"Turn off the automatic 30-second match timer (green slider).  Aim the camera"
+" at a DECODE **Purple Artifact**\\ , or a picture of one."
+"msgstr """
+"自動で動作する30秒のマッチタイマー（緑色のスライダー）をオフにしてください。カメラをDECODE **パープルアrtifact** "
+"に向け、またはその画像に向けてください。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:36
+msgid ""
+"Touch INIT only. The OpMode should give Telemetry showing the results of one"
+" or more Blobs:"
+"msgstr "INITのみをタッチしてください。OpModeは1つ以上の大規模物体（Blob）の結果を示すテレメトリー情報を表示すべきです：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:43
+msgid "Image showing circle fit telemetry output on Driver Station App"
+"msgstr "ドライバー ステーション アプリ上で表示される円フィット テレメトリ出力の画像""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:43
+msgid "Circle Fit Telemetry from ``ConceptVisionColorLocator_Circle`` sample"
+"msgstr "コンセプトビジョンコロラーロケーター_Circle サンプルからの円フィットテレメトリ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:45
+msgid ""
+"In this example, Telemetry reports only one Blob in the Region of Interest "
+"(ROI), of the default target color ARTIFACT_PURPLE."
+"msgstr "この例では、テレメトリーは興味領域（ROI）にデフォルトのターゲットカラーARTIFACT_PURPLEの1つのブロブのみを報告します。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:48
+msgid ""
+"The Sample OpModes `_Circle` and `_Rectangle` also offer the custom color "
+"ARTIFACT_GREEN."
+"msgstr "サンプルのOpMode「_Circle」および「_Rectangle」は、カスタムカラーARTIFACT_GREENも提供しています。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:50
+msgid ""
+"Move the camera around, and watch the Telemetry area on the Driver Station "
+"screen.  It may sometimes show more lines of Blob data, and sometimes show "
+"no Blob data at all."
+"msgstr """
+"カメラを動かして、ドライバー・ステーションの画面にあるテレメトリエリアを確認してください。時々はBlobデータの行が増えることがありますし、時々は何もBlobデータを表示しないこともあります。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:52
+msgid ""
+"It's working!  Your camera is working as a **color locator**.  Think about "
+"how to use this in the DECODE game."
+"msgstr "動いています！カメラは**色検出器**として正常に動作しています。DECODEゲームでどのように使用するか考えてみてください。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:55
+msgid "DS and RC Previews"
+"msgstr "ドライバーステーションとロボットコントローラーのプレビュー""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:57
+msgid ""
+"Before studying the telemetry data more closely (below), make sure you can "
+"see the **previews** of the OpenCV results.  Previewing is essential for "
+"working with vision code."
+"msgstr """
+"より詳しくテレメトリーデータを研究する前に（下記参照），OpenCV結果の**プレビュー**が見えることを確認してください。プレビューはビジョンコードを使用する上で重要です。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:59
+msgid ""
+"The Driver Station (DS) \"snapshot\" preview is available at the ``Camera "
+"Stream`` menu choice, with the OpMode in INIT."
+"msgstr """
+"ドライバーステーション（DS）の「スナップショット」プレビューは、オペレーションモードがINIT状態のとき、「カメラストリーム」メニューから利用できます。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
+msgid ""
+"Image showing circle fit camera stream output on Driver Station App with "
+"purple artifact"
+"msgstr "ドライバー ステーション アプリ上で紫色のアーテファットが含まれた円 fitting カメラストリーム出力を示す画像""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
+msgid "Driver Station Camera Stream Image showing a successful Circle Fit"
+"msgstr "ドライバーステーションカメラストリーム画像に、円 fitting が成功した状態を表示します""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:68
+msgid ""
+"The Robot Controller (RC) device makes a video preview called ``LiveView``. "
+"For a REV Control Hub, this video can be seen on an HDMI monitor **or** with"
+" open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "
+"\"screen copy\"):"
+"msgstr """
+"ロボットコントローラ（RC）デバイスは、``LiveView`` というビデオプレビューを作成します。REV "
+"コントロールハブの場合は、このビデオはHDMIモニター**または**オープンソースソフトウェア`scrcpy "
+"<https://github.com/Genymobile/scrcpy>`_（「スクリーンコピー」と呼ばれる）で確認できます："
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:75
+msgid "Image showing RC Liveview of artifact with CircleFit"
+"msgstr "RC Liveviewのアートファクトの画像（CircleFitを使用）""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:75
+msgid "Robot Controller `LiveView` showing a successful Circle Fit"
+"msgstr "ロボットコントローラー「LiveView」で円フィットが成功した状態を表示""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:77
+msgid ""
+"For both previews, the **white rectangle** is the Region of Interest (ROI), "
+"and the thin **green jagged line** is the Blob's contour (fully inside the "
+"ROI)."
+"msgstr """
+"両方のプレビューでは、**白い長方形**が興味領域（ROI）であり、細い**緑色の鋭角線**がブロブの輪郭です（ROIの完全な内部にあります）。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:79
+msgid ""
+"The **yellow circle** is the new ``circleFit`` : the smallest circle that "
+"encloses the contour.  The ``circleFit`` is not required to stay inside the "
+"ROI."
+"msgstr "The **黄色い円**は新しい``circleFit``：ROI内に留まらなくても、輪郭を囲む最小の円です。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:82
+msgid "Basic Telemetry Data"
+"msgstr "基本的なテレメトリーデータ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:84
+msgid "Here again is some DS telemetry from the new ``_Circle`` Sample:"
+"msgstr "ここに新しい ``_Circle`` サンプルからのドライバーステーションのテレメトリー情報again があります：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
+msgid "Image with a circle around the Circularity telemetry data"
+"msgstr "円で囲まれたCircularityテレメトリーデータの画像""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
+msgid "Driver Station Telemetry Data from ``_Circle`` sample"
+"msgstr "ドライバーステーションの遥测データ（_Circle サンプル）""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:94
+msgid ""
+"The **first column** shows the **Circularity** of the Blob contour (not its "
+"circleFit).  This is calculated from the Blob's area and perimeter.  A "
+"higher value, closer to 1, indicates a more circular contour."
+"msgstr """
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:96
+msgid ""
+"The **second column** shows the circleFit's **Radius** , an indicator of "
+"size.  Again, the circleFit is not required to stay inside the ROI."
+"msgstr """
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:98
+msgid ""
+"The **third column** shows the (X, Y) position of the circleFit's "
+"**Center**.  With the origin at the full image's top left corner, X "
+"increases to the right and Y increases downward."
+"msgstr """
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:100
+msgid ""
+"The Blob's **Area** is available but not displayed here.  The Sample OpMode "
+"uses a **filter** to show Blobs with area between 50 and 20,000 pixels.  "
+"Another filter shows Blobs with circularity greater than 0.6.  Filters can "
+"be customized, as described in the Sample's comments."
+"msgstr """
+"The Blobの**Area**は利用可能ですが、ここでは表示されていません。Sample OpModeは、**filter** "
+"を使用して50から20,000ピクセル間の面積を持つBlobを表示します。また別のfilterは、円度が0.6を超えるBlobを表示します。フィルターはサンプルのコメントで説明されている通りにカスタマイズできます。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:102
+msgid ""
+"For multiple Blobs, the Sample lists Telemetry using only the built-in "
+"default **sort by area** (largest is first).  Other sorting choices are "
+"available, described in the Sample's comments."
+"msgstr "複数のブロブ对于多个Blob，示例仅使用内置默认的**面積順序排列**（最大的排在前面）来列出遥测数据。其他排序选项请参阅示例中的注释。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:104
+msgid ""
+"The Blob's **Density** is also available but not displayed here.  From the "
+"Sample's comments:"
+"msgstr "The Blob の **Density** は利用可能ですが、ここでは表示されていません。Sample のコメントから：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:107
+msgid ""
+"A blob's density is an indication of how \"full\" the contour is.  If you "
+"put a rubber band around the contour you would get the \"Convex Hull\" of "
+"the contour.  The density is the ratio of Contour-area to Convex Hull-area."
+"msgstr """
+"ブロブの密度は、コン Tour の「満度」を示す指標です。コン Tour を rubber band "
+"で囲んだ場合、得られるものは「凸包」になります。密度は、コン Tour の面積に対する凸包の面積の比です。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:111
+msgid "Using CircleFit Data"
+"msgstr "円フィットデータの使用方法""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:113
+msgid ""
+"A team's Autonomous code can evaluate circleFit data to navigate or guide "
+"the robot on the field."
+"msgstr "チームの自動運転コードは、円フィットデータを評価してフィールド上でロボットをナビゲートしたり導いたりすることができます。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:115
+msgid ""
+"The **circleFit Radius** (indicating size) can help estimate the "
+"**distance** from the camera lens to the Artifact.  Calibrate this at your "
+"home field, based on the known physical size of an Artifact."
+"msgstr """
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:118
+msgid ""
+"Fortunately, a round ball gives no complications of **perspective**, like "
+"the tapered image of a rectangular object.  An unobstructed, well-lit "
+"Artifact can reliably appear as a circle."
+"msgstr """
+"幸運なことに、円形のボールは**視覚的な歪み**のような複雑さをもたらしません。長方形物体の尖った像のような問題はありません。明るく遮るものがないアートファクトは信頼できる円として出現します。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:120
+msgid ""
+"The **circleFit Center (X, Y)** can help estimate the Artifact's "
+"**position** relative to the camera on the robot.  Calibrate this at your "
+"home field, based on known test locations and distances."
+"msgstr """
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:122
+msgid ""
+"With these estimates of distance and position, the robot can be programmed "
+"to approach and collect the Artifact, or perhaps navigate elsewhere on the "
+"field."
+"msgstr """
+"これらの距離と位置の見積もりに基づいて、ロボットはアートファクトを取りに行くプログラムを作成できるし、あるいはフィールドの他の場所にナビゲートするプログラムを作成することもできる。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:125
+msgid "Manage the Previews"
+"msgstr "プレビューの管理""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:127
+msgid "The FTC SDK handles the two preview shapes differently:"
+"msgstr "FTC SDKは二つのプレビュー形状を異なる方法で処理します：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:129
+msgid "``boxFit`` is enabled by default"
+"msgstr "`boxFit`はデフォルトで有効になっています""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:130
+msgid "``circleFit`` is disabled by default"
+"msgstr "``circleFit``はデフォルトで無効です""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:132
+msgid ""
+"The ``_Circle`` sample **turns off** the ``boxFit`` with this Builder "
+"command:"
+"msgstr "_the _Circle サンプルでは、このビルダー コマンドで ``boxFit`` の機能を**停止**します：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:138
+msgid ""
+"The \"zero\" is not a color, but an indicator to disable a preview drawing."
+"msgstr "The \\\"ゼロ\\\"は色ではありませんが、プレビュー描画を無効にする指示子です。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:140
+msgid ""
+"Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with this "
+"Builder command:"
+"msgstr ""
+"Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with this Builder command:"
+""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:146
+msgid ""
+"This default color is yellow, but any color space and values may be "
+"specified."
+"msgstr "このデフォルトの色は黄色ですが、任意の色空間と値も指定できます。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:148
+msgid ""
+"Both previews can be disabled or enabled at the same time.  The default "
+"``boxFit`` color can be modified from its default shade of red: "
+"``Color.rgb(255, 120, 31)``."
+"msgstr """
+"両方のプレビューは同時に無効にするか有効にすることができます。デフォルトの ``boxFit`` 色は、デフォルトの赤色から変更することができます: "
+"``Color.rgb(255, 120, 31)``。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:151
+msgid "Manage Erode and Dilate"
+"msgstr "エロードとディラートの管理""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:153
+msgid ""
+"Erosion and Dilation are **morphological** operations: pre-processing steps "
+"to improve vision recognition."
+"msgstr "侵食と膨張は、視覚認識を改善するための**モルフォロジー**的な操作：事前処理手順です。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:160
+msgid "Examples of Dilation and Erosion"
+"msgstr "膨張と収縮の例""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:160
+msgid "Dilation and Erosion morphological operations"
+"msgstr "膨張と収縮のモルフォロジー操作""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:163
+msgid "The Sample's comments describe this Builder command:"
+"msgstr "サンプルのコメントはこのビルダー コマンドを説明しています：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:167
+msgid ""
+"``.setMorphOperationType(MorphOperationType morphOperationType)``    This "
+"defines the order in which the Erode/Dilate actions are performed."
+"msgstr """
+"``.setMorphOperationType(MorphOperationType morphOperationType)`` "
+"これは、エロード/ダイリートアクションが実行される順序を定義します。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:169
+msgid ""
+"OPENING: Will Erode and then Dilate which will make small noise blobs go "
+"away"
+"msgstr "開口部：エロードし、その後ダイアロードすることで、小さなノイズブロブを取り除きます""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:170
+msgid ""
+"CLOSING: Will Dilate and then Erode which will tend to fill in any small "
+"holes in blob edges."
+"msgstr "閉じる：膨張し、その後収縮することで、ブロブの縁にある小さな穴を埋めようとします。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:178
+msgid "Dilation and Erosion examples using a sample image"
+"msgstr "サンプル画像を使用した膨張と収縮の例""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:178
+msgid "Dilation and Erosion examples using an image"
+"msgstr "画像を使用した膨張と収縮の例""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:181
+msgid ""
+"The original ``_Rectangle`` Sample used \"Erode then Dilate\", effective for"
+" most applications.  This new ``_Circle`` Sample uses \"Dilate then Erode\","
+" which improves detection of a DECODE Artifact (smoothes edges of its large "
+"holes).  It also uses Erode and Dilate sizes of 15 pixels, larger than "
+"typical 5 pixels."
+"msgstr """
+"元の ``_Rectangle`` サンプルでは「エロードからディラート」を使用し、ほとんどのアプリケーションで効果的でした。新しい "
+"``_Circle`` サンプルでは「ディラートからエロード」を使用しており、DECODE アrtifact "
+"の検出を改善しています（大きな穴の周囲のエッジを滑らかにします）。また、通常の 5 ピクセルよりも大きい 15 "
+"ピクセルのエロードとディラートサイズも使用しています。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:184
+msgid "Improving Results"
+"msgstr "結果の改善""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:186
+msgid "FTC teams can adjust settings to improve results based on:"
+"msgstr "FTCチームは、結果を改善するために設定を調整できます：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:188
+msgid "webcam model"
+"msgstr "ウェブカムモデル""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:189
+msgid "webcam position on robot (lookdown angle)"
+"msgstr "ロボットからの Webcam の位置（下向き角度）""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:190
+msgid "Artifact clustering or blocked views"
+"msgstr "アートファクトのクラスタリングまたは視界妨げ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:191
+msgid "planned method of approach and collection"
+"msgstr "計画的なアプローチと収集方法""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:192
+msgid "game strategy (which Artifacts, from which positions)"
+"msgstr "ゲーム戦略（どのアートファクトを使用するか、どの位置から取得するか）""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:193
+msgid "possible presence of other robots"
+"msgstr "他のロボットの可能性のある存在""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:194
+msgid "static vs. moving targets"
+"msgstr "静的ターゲットと動的なターゲット""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:195
+msgid "venue lighting and potential shadowing"
+"msgstr "場所の照明と潜在的な影の影響""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:196
+msgid "OpMode loop rate"
+"msgstr "オペレーションモードループレート""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:198
+msgid ""
+"In the case of adjacent or overlapping Artifacts, ``boxFit`` might offer "
+"more useful data than ``circleFit``."
+"msgstr "隣接または重なるアートファクトの場合は、「boxFit」が「circleFit」と比較してより有用なデータを提供する可能性があります。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:200
+msgid ""
+"The new ``_Circle`` Sample offers all of the settings from the "
+"``_Rectangle`` Sample.  These can be adjusted for different results:"
+"msgstr """
+"新しい ``_Circle`` サンプルは、 ``_Rectangle`` "
+"サンプルのすべての設定を提供します。これらの設定は異なる結果を得るために調整できます："
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:203
+msgid "camera resolution, default 320x240"
+"msgstr "カメラ解像度、デフォルトでは320x240""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:204
+msgid "Region of Interest, default central 3/4"
+"msgstr "興味領域、デフォルトでは中央3/4（〇〇）""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:205
+msgid "target color range, predefined or custom"
+"msgstr "目標色範囲、事前に定義されたものまたはカスタム""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:206
+msgid "type of contour, default External Only"
+"msgstr "コンターフォームの種類、デフォルトでは外部のみ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:207
+msgid "preview drawings, including circleFit and/or boxFit"
+"msgstr "円フィットや箱フィットを含むプレビュー図面を確認します""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:208
+msgid "Blur size, default 5 pixels"
+"msgstr "ぼかしサイズ、デフォルトは5ピクセル""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:209
+msgid "Erode size, default 15 pixels"
+"msgstr "侵食サイズ、デフォルトは15ピクセルです""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:210
+msgid "Dilate size, default 15 pixels"
+"msgstr "膨張サイズ、デフォルトは15ピクセルです""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:211
+msgid "order of operation, default Dilate then Erode"
+"msgstr "操作の順序、デフォルトでは拡大処理を実施した後で収縮処理""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:213
+msgid "Results can be **filtered** in multiple ways:"
+"msgstr "結果は複数の方法で**フィルタリング**することができます：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:216
+msgid "Contour Area"
+"msgstr "コンターフォーム アrea""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:217
+msgid "Density"
+"msgstr "密度""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:218
+msgid "Aspect Ratio (for boxFit)"
+"msgstr "寸法比 (boxFit 用)""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:219
+msgid "Arc Length"
+"msgstr "弧長""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:220
+msgid "Circularity"
+"msgstr "円形""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:222
+msgid ""
+"Telemetry Results can be **sorted** by any of the above attributes.  See the"
+" Sample's comments for guidance."
+"msgstr "テレメトリー結果は、上記の属性のいずれかで**ソート**することができます。サンプルのコメントを参照してください。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:225
+msgid "Lighting Challenges"
+"msgstr "照明チャレンジ""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:227
+msgid ""
+"Robotics vision is highly sensitive to field lighting.  The FTC VisionPortal"
+" offers software tools called Camera Controls to help address varying or "
+"\"difficult\" lighting conditions."
+"msgstr """
+"ロボティクスのビジョンはフィールドの照明に非常に敏感です。FTC VisionPortal "
+"では、異なるまたは「難しかった」という照明条件に対処するためのソフトウェアツールである Camera Controls を提供しています。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:229
+msgid ""
+"If needed, see the separate tutorial called :ref:`FTC VisionPortal Camera "
+"Controls <apriltag/vision_portal/visionportal_camera_controls/visionportal-"
+"camera-controls:visionportal camera controls>`."
+"msgstr """
+"必要であれば、別途提供的のチュートリアル「:ref:`FTC VisionPortalカメラ制御 "
+"<apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-"
+"controls:visionportalカメラ制御>`」をご覧ください。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:231
+msgid ""
+"More detail on these controls is provided in an :ref:`older tutorial - ftc-"
+"docs Webcam Controls "
+"<programming_resources/vision/webcam_controls/index:webcam controls>`; "
+"disregard the TensorFlow references."
+"msgstr """
+"これらのコントロールに関する詳細は、古いチュートリアルの :ref:`ftc-docs のウェブカムコントロール<ftc-"
+"docs/programming_resources/vision/webcam_controls/index:webcam controls>` "
+"で説明されています；TensorFlowの参照は無視してください。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:233
+msgid "These tools can help with Color Processing **and** AprilTag Detection."
+"msgstr "これらのツールは、色処理とAprilTag検出に**役立ちます**。""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:235
+msgid ""
+"Lastly, some webcams perform **automatic color correction**, under changing "
+"lighting conditions.  If you observe this in Previews, make adjustments as "
+"needed."
+"msgstr """
+"最後に、一部のウェブカムは**自動色補正**を行い、照明条件が変わる場合があります。プレビューでこれを見つかった場合は、必要に応じて調整してください。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:238
+msgid "OpMode Development"
+"msgstr "オペレーションモード開発""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:240
+msgid ""
+"You should eventually use or adapt program elements from the Color Locator "
+"``_Circle`` or ``_Rectangle`` Sample, to become part of your team's "
+"Autonomous (or TeleOp) OpMode."
+"msgstr """
+"最終的には、Color Locator の ``_Circle`` または ``_Rectangle`` "
+"サンプルからプログラム要素を使用したり、適応させたりし、チームの自動運転（または遠隔操作）モードに組み込むべきです。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:242
+msgid ""
+"An early choice is: **how long** should the processing (looping) continue, "
+"before using the extracted data for robot action?  What should be the "
+"criteria to **exit a loop**, and which data should be used for subsequent "
+"calculations and movement?"
+"msgstr """
+"早期の選択肢は、処理（ループ）を継続する時間**は何時まで**かです。抽出されたデータを使用してロボットのアクションを行う前に、どのような基準で**ループから退出**すべきか、そして次の計算や移動に使用されるデータは何であるべきでしょうか？"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:244
+msgid ""
+"You may find it useful to learn about **Datalogging**.  Output this OpMode's"
+" Color Processor data to a file, then perhaps to a spreadsheet.  Careful "
+"review may reveal which data are useful, rather than trying to observe the "
+"\"jumpy\" preview and Telemetry results."
+"msgstr """
+"**データロギング**について学ぶと役立つかもしれません。このOpModeのColor "
+"Processorのデータをファイルに出力し、その後はスプレッドシートに転送することも可能です。詳細なレビューにより、どのデータが有用であるかが明らかになる可能性があります。\"ジャンプ\"しているプレビュー結果やテレメトリ結果を観察するよりも、その方が良いでしょう。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:246
+msgid "Also, you may want to **track multiple colors**, like this:"
+"msgstr "また、複数の色を**追跡したい場合もあります**、例えば：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:253
+msgid "Example image of tracking multiple colors in a single ROI"
+"msgstr "単一のROIで複数の色を追跡する例の画像""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:253
+msgid "Tracking multiple colors within a single ROI"
+"msgstr "単一のROI内で複数の色を追跡する""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:256
+msgid ""
+"This is quite possible, by setting up multiple processors, all incorporated "
+"into the Vision Portal.  You may find it helpful to first organize the "
+"Sample OpMode into methods (or Functions for FTC Blocks): one for the "
+"processor and one for Telemetry.  Then it should be straightforward to "
+"create parallel methods or Functions."
+"msgstr """
+"これ achievble です。Vision Portal 内に複数のプロセッサを設定することで実現できます。Sample OpMode "
+"をまずメソッド（FTC "
+"ブロックでは関数）に分けると役立つかもしれません。一つはプロセッサ用で、もう一つはテレメトリ用です。その後、並列なメソッドや関数を作成することが "
+"straightforward になります。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:259
+msgid "Summary"
+"msgstr "概要""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:263
+msgid ""
+"This new feature is shown in the Sample OpMode called "
+"``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  This sample "
+"exists alongside the existing ``_Rectangle`` Sample OpMode."
+"msgstr """
+"この新機能は、サンプル・オペモードとして「ConceptVisionColorLocator_Circle」で示されています。これはFTCブロックとJavaで利用可能です。このサンプルは既存の「ConceptVisionColorLocator_Rectangle」サンプル・オペモードと共に存在します。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:265
+msgid ""
+"The new ``_Circle`` Sample uses certain settings for convenient processing "
+"of DECODE Artifacts, as a starting point for teams.  Many choices are "
+"provided to optimize results for a team's robot and strategy."
+"msgstr """
+"新しい ``_Circle`` サンプルでは、DECODE "
+"アートファクトの便利な処理のために特定の設定を使用しています。チームがロボットと戦略を最適化するために使用できる多くの選択肢が提供されています。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:267
+msgid "This ends the tutorial’s 4 pages on ColorLocator:"
+"msgstr "この説明はColorLocatorに関するチュートリアルの4ページで終了します：""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:269
+msgid ":doc:`Discover <../color-locator-discover/color-locator-discover>`,"
+"msgstr ":doc:`発見 <../color-locator-discover/color-locator-discover>`，""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:270
+msgid ":doc:`Explore <../color-locator-explore/color-locator-explore>`,"
+"msgstr ":doc:`探索 <../color-locator-explore/color-locator-explore>`""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:271
+msgid ":doc:`Challenge <../color-locator-challenge/color-locator-challenge>`,"
+"msgstr ":doc:`挑戦 <../color-locator-challenge/color-locator-challenge>`，""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:272
+msgid "**Round Blobs** (this document)"
+"msgstr "**円形のブロブ** (このドキュメント)""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:274
+msgid ""
+"The final page of this tutorial provides optional info on :doc:`Color Spaces"
+" <../color-spaces/color-spaces>`."
+"msgstr """
+"このチュートリアルの最終ページでは、:doc:`色空間 <../color-spaces/color-spaces>` "
+"に関する任意の情報が提供されています。"
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:276
+msgid ""
+"Best of luck as you apply these tools to your Autonomous and TeleOp OpModes!"
+"msgstr "ご好運を! これらのツールを自動運転モードと遠隔操作モードに適用してみてください!""
+
+#: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:280
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+"msgstr "質問、ご意見や訂正は westsiderobotics@verizon.net までお願いします。""

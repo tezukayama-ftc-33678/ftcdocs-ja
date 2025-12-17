@@ -74,7 +74,7 @@ msgstr "USB-C データケーブルで、REV Hardware Client を実行してい�
 msgid ""
 "Click the hub’s large icon/rectangle. Under “Control Hub Operating "
 "System”, see the current/latest mismatch, if any (yellow oval, below)."
-msgstr "Hub の大きなアイコン（長方形）をクリックします。"Control Hub Operating System" の項目で、現在版と最新版の不一致があれば（下図の黄色の楕円）確認します。"
+msgstr "Hub の大きなアイコン（長方形）をクリックします。\"Control Hub Operating System\" の項目で、現在版と最新版の不一致があれば（下図の黄色の楕円）確認します。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:37
 msgid ""
@@ -83,7 +83,7 @@ msgid ""
 "improved, since    :doc:`in Updating the REV Hardware Client "
 "</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
 "required update file was previously downloaded."
-msgstr "プルダウンメニューで最新バージョンを確認し、青い "Update" の長方形（上図の緑の矢印）をクリックします。:doc:`REV Hardware Client の更新 </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` で必要な更新ファイルを事前にダウンロード済みのため、この更新は高速に実行されます。"
+msgstr "プルダウンメニューで最新バージョンを確認し、青い \"Update\" の長方形（上図の緑の矢印）をクリックします。:doc:`REV Hardware Client の更新 </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` で必要な更新ファイルを事前にダウンロード済みのため、この更新は高速に実行されます。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:43
 msgid "Done! The Control Hub’s OS is now updated."
@@ -103,7 +103,7 @@ msgstr "PC を Wi‑Fi で Control Hub に接続します。Chrome ブラウザ�
 msgid ""
 "Click on the Manage tab, scroll down to Update Control Hub Operating "
 "System."
-msgstr "Manage タブをクリックし、スクロールして "Update Control Hub Operating System" の項目へ移動します。"
+msgstr "Manage タブをクリックし、スクロールして \"Update Control Hub Operating System\" の項目へ移動します。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:60
 msgid ""
@@ -117,7 +117,7 @@ msgstr "必要に応じて、REV Robotics の `Control Hub OS のページ <http
 msgid ""
 "At the Manage page, click “Select Update File…” and navigate to the "
 "computer’s folder where you downloaded the OS file."
-msgstr "Manage ページで "Select Update File…" をクリックし、ダウンロードした OS ファイルがある PC 上のフォルダへ移動します。"
+msgstr "Manage ページで \"Select Update File…\" をクリックし、ダウンロードした OS ファイルがある PC 上のフォルダへ移動します。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:68
 msgid "Select that file, and click “Update & Reboot” (green arrow, above)."

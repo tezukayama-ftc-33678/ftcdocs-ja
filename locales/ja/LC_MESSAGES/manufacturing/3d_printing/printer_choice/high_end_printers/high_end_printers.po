@@ -12,51 +12,54 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:2
 msgid "High-End Printers ($600+ USD)"
-msgstr ""
+msgstr "高機能プリンター（$600以上）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:4
 msgid ""
-"Tip for both of the Prusa printers listed on this page. You can now order"
-" Prusa printers from either their headquarters in Czechia or their "
-"subsidiary and sole authorized reseller **PrintedSolid**, based in "
-"Delaware. If you live in the USA and plan to order a Prusa printer, save "
-"yourself the headache of customs and long shipping times and order from "
-"their USA subsidiary."
+"Tip for both of the Prusa printers listed on this page. You can now order "
+"Prusa printers from either their headquarters in Czechia or their subsidiary"
+" and sole authorized reseller **PrintedSolid**, based in Delaware. If you "
+"live in the USA and plan to order a Prusa printer, save yourself the "
+"headache of customs and long shipping times and order from their USA "
+"subsidiary."
 msgstr ""
+"このページにリストされている両方のプリュサプリンターについてのヒントです。現在、これらのプリンターはチェコ共和国の本社または単一の正規販売元である**PrintedSolid（デラウェア州に本社を置く）**から注文することが可能です。アメリカ在住でプリュサプリンターを注文する計画がある場合は、海関手続きや長期的な配送時間を避けるために、彼らのアメリカ子会社から注文することをお勧めします。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:10
 msgid "Prusa MK3S+ ($649-$899)"
-msgstr ""
+msgstr "プリューサ MK3S+ ($649-$899)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:12
 msgid ""
 "If you're looking to buy a printer that just works every time, the Prusa "
-"MK3S+ is amazing. Prusa has had millions of hours running these machines,"
-" and just about every issue with this printer has been found, patched, "
-"and pushed to the consumer. If it's any testament to their consistency, "
-"the 3d printed parts used on the Mk3s+ are printed mostly on Mk3s+ "
-"printers. This is Prusa's previous flagship printer and is more tested "
-"and cheaper than the Mk4, but if you are looking at Prusa make sure to "
-"explore the Mk4 as well due to it's more updated features."
+"MK3S+ is amazing. Prusa has had millions of hours running these machines, "
+"and just about every issue with this printer has been found, patched, and "
+"pushed to the consumer. If it's any testament to their consistency, the 3d "
+"printed parts used on the Mk3s+ are printed mostly on Mk3s+ printers. This "
+"is Prusa's previous flagship printer and is more tested and cheaper than the"
+" Mk4, but if you are looking at Prusa make sure to explore the Mk4 as well "
+"due to it's more updated features."
 msgstr ""
+"もし毎回問題なく印刷できるプリンタを購入したいなら、Prusa "
+"MK3S+は素晴らしい選択です。Prusaはこれらの機械を数百万時間動かし、このプリンタに関連するほぼすべての問題が見つかり、修正され、消費者に提供されています。その一貫性を証明するものとして、MK3s+に使用される3Dプリント部品の多くもMK3s+で印刷されています。これはPrusaの過去のフラッグシッププリンタであり、Mk4よりもテストが行われていて価格も安いため、しかしPrusaを検討しているなら、より更新された機能があるMk4も探索してみてください。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:19
 msgid "Mk3s+ Features"
-msgstr ""
+msgstr "Mk3s+ の機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:20
 msgid "Easy to Repair"
-msgstr ""
+msgstr "簡単に修理できます"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:21
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:53
@@ -65,351 +68,361 @@ msgstr ""
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:157
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:198
 msgid "Auto Bed Leveling"
-msgstr ""
+msgstr "自動ベッドレベル調整"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:22
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:54
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:199
 msgid "Removable Spring Steel Sheets"
-msgstr ""
+msgstr "取り外し可能なスプリングステンレスシート"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:23
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:91
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:127
 msgid "All-Metal Direct Drive Extruder"
-msgstr ""
+msgstr "全金属直接駆動エクストルダー"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:24
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:57
 msgid "250mm x 210mm x 210mm Print Volume"
-msgstr ""
+msgstr "250mm x 210mm x 210mm の印刷可能なサイズ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:25
 msgid "Unrivaled consistency as a workhorse"
-msgstr ""
+msgstr "無双の一貫性を誇る工作機"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:28
 msgid "Mk3s+ Drawbacks"
-msgstr ""
+msgstr "Mk3s+ の欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:29
 msgid "Slow printing speed"
-msgstr ""
+msgstr "印刷速度が遅い"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:30
 msgid "Dated technology (such as lack of WiFi)"
-msgstr ""
+msgstr "dated technology (such as lack of WiFi)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:31
 msgid "Last generation 3d printer, Mk4 improves on issues"
-msgstr ""
+msgstr "前世代の3Dプリンター、Mk4は問題を改善しています"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
 msgid "Picture of a Prusa Mk3"
-msgstr ""
+msgstr "Prusa Mk3の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:41
 msgid "Prusa MK4 ($799-$1099)"
-msgstr ""
+msgstr "プリューサー MK4 ($799-$1099)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:43
 msgid ""
 "This printer is for anyone interested in consistency with an improved "
 "featureset. The Prusa MK4 is the successor to the MK3S+ with the same "
-"reliability and consistency hallmarks but adds newer features such as "
-"WiFi as well as being much faster and more user friendly. This machine is"
-" still in it's early stages of development and improvement as of 2023, "
-"and will surely make leaps and bounds in consistency, features, and "
-"software optimization as Prusa finds more issues and patches them."
+"reliability and consistency hallmarks but adds newer features such as WiFi "
+"as well as being much faster and more user friendly. This machine is still "
+"in it's early stages of development and improvement as of 2023, and will "
+"surely make leaps and bounds in consistency, features, and software "
+"optimization as Prusa finds more issues and patches them."
 msgstr ""
+"このプリンターは、一貫性を重視し、改良された機能セットを持つ方々向けです。Prusa "
+"MK4は、MK3S+の後継機で、同じ信頼性と一貫性という特徴を持ちながら、無線LANなどの新しい機能も追加され、より速く、使いやすいものとなっています。この機械は2023年現在、開発および改善の初期段階にあり、Prusaが問題を見つけ出し修正するにつれて、一貫性、機能、ソフトウェア最適化において大きな進歩を遂げることでしょう。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:51
 msgid "Mk4 Features"
-msgstr ""
+msgstr "Mk4 の機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:52
 msgid "High Speed (Nearing comparison to BambuLab printers)"
-msgstr ""
+msgstr "高速版（BambuLabプリンターより近い比較）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:55
 msgid "All-Metal Direct Drive Extruder with a planetary gearbox"
-msgstr ""
+msgstr "すべての金属製直結駆動エクストリューダー（惑星減速機搭載）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:56
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:92
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:128
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:160
 msgid "WiFi Printing capabilities and remote print monitoring"
-msgstr ""
+msgstr "無線LANプリント機能とリモート印刷監視"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:60
 msgid "Mk4 Drawbacks"
-msgstr ""
+msgstr "Mk4 の欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:61
-msgid "Cartesian kinematics make matching the speed of CoreXY printers difficult"
-msgstr ""
+msgid ""
+"Cartesian kinematics make matching the speed of CoreXY printers difficult"
+msgstr "カートリジアン運動学は、CoreXY プリンターの速度をマッチングするのを難しくします"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
 msgid "Picture of a Prusa Mk4"
-msgstr ""
+msgstr "Prusa Mk4の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:72
 msgid "BambuLab X1C ($1199-$1449)"
-msgstr ""
+msgstr "BambuLab X1C (11,990円～14,490円)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:74
 msgid ""
 "This printer is for you want a no-compromises 3d printer that can handle "
-"pretty much anything you throw at it with incredible speed and "
-"reliability while using engineering-grade filaments. This printer comes "
-"at $1199 for just the printer and $1449 for the combo that includes "
-"BambuLab's multimaterial system which can handle 4 filament rolls at "
-"once."
+"pretty much anything you throw at it with incredible speed and reliability "
+"while using engineering-grade filaments. This printer comes at $1199 for "
+"just the printer and $1449 for the combo that includes BambuLab's "
+"multimaterial system which can handle 4 filament rolls at once."
 msgstr ""
+"このプリンターは、どんなものでも驚くほど高速かつ信頼性の高いパフォーマンスで処理できる無条件3Dプリンターです。エンジニアリンググレードのフィラメントを使用しながら、あなたが投げかけるどんなものでも対応できます。このプリンター単体は1,199ドルで、BambuLabのマルチマテリアルシステムも含むコンボモデルは1,449ドルです。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:79
 msgid ""
-"This printer is **expensive** and is targeted towards advanced filaments."
-" The P1P can print basic filaments such as PLA/PETG about as fast and "
-"well as the BambuLab X1C at half the price. If you have the budget for an"
-" X1C, it may be worth considering buying 2 P1Ps instead if you don't need"
-" all the bells and whistles the X1C has and plan to only print PLA/PETG."
+"This printer is **expensive** and is targeted towards advanced filaments. "
+"The P1P can print basic filaments such as PLA/PETG about as fast and well as"
+" the BambuLab X1C at half the price. If you have the budget for an X1C, it "
+"may be worth considering buying 2 P1Ps instead if you don't need all the "
+"bells and whistles the X1C has and plan to only print PLA/PETG."
 msgstr ""
+"このプリンターは**高価**で、高度なフィラメント向けに設計されています。P1PはBambuLab "
+"X1Cの半額で、基本的なフィラメント（PLA/PETG）を約同じ速度と品質で印刷できます。X1Cに予算がある場合、すべての機能が不要で、PLA/PETGのみを印刷する計画であれば、2台のP1Pを購入することも検討してみてください。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:86
 msgid "X1C Features"
-msgstr ""
+msgstr "X1C フEATURES"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:87
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:124
 msgid "Extremely fast CoreXY motion system"
-msgstr ""
+msgstr "Extremely fast CoreXY モーションシステム"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:89
 msgid "Full Color Touchscreen"
-msgstr ""
+msgstr "フルカラータッチスクリーン"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:90
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:126
 msgid "Removable Beds of All Surfaces"
-msgstr ""
+msgstr "全ての表面に取り外し可能なベッド"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:93
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:129
 msgid "256mm x 256mm x 256mm Print Volume"
-msgstr ""
+msgstr "256mm × 256mm × 256mm の印刷体積"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:94
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:130
 msgid "Heated chamber allows for more advanced engineering materials"
-msgstr ""
+msgstr "加熱室はより高度なエンジニアリング材料の使用を可能にします"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:95
 msgid "LIDAR sensor for flow calibration and first layer quality checking"
-msgstr ""
+msgstr "フロー校正および初層の品質確認用のLIDARセンサ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:96
 msgid "Stock hardened hotend capable of most filled and abrasive filaments"
-msgstr ""
+msgstr "硬化済みの stocked 熱 Extruder は、ほとんどの詰まったおよび研磨性のあるフィラメントに対応します"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:97
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:131
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:162
 msgid "Automatic print failure detection"
-msgstr ""
+msgstr "自動的な印刷失敗検出"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:100
 msgid "X1C Drawbacks"
-msgstr ""
+msgstr "X1C の欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:101
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:135
 msgid "Replacement parts are proprietary from Bambu Lab (albeit well-priced)"
-msgstr ""
+msgstr "代替部品はBambu Labのもので、独自性がありますが価格は適しています"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:102
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:136
 msgid "Carbon Fiber rods can wear out over time"
-msgstr ""
+msgstr "炭素繊維棒は時間の経過とともに劣化する可能性があります"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:103
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:137
 msgid "Reliant on Bambu Lab for future firmware/software updates"
-msgstr ""
+msgstr "将来的のファームウェアやソフトウェアの更新はBambu Labに依存します"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:104
 msgid ""
-"This printer doesn't shine if you don't use it for advanced filaments, "
-"and may not be worth the cost if you don't plan to"
-msgstr ""
+"This printer doesn't shine if you don't use it for advanced filaments, and "
+"may not be worth the cost if you don't plan to"
+msgstr "このプリンターは、高度なフィラメントを使わなければ光らないし、予定がない場合はコストパフォーマンスが良くないかもしれません。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
 msgid "Picture of a BambuLabs X1C"
-msgstr ""
+msgstr "BambuLabs X1C の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:114
 msgid "BambuLab P1S ($699-$949)"
-msgstr ""
+msgstr "BambuLab P1S (¥6,990-¥9,490)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:116
 msgid ""
 "If the X1C's frills such as LIDAR, touchscreen, and a hardened extruder "
 "didn't sound all that useful to you, the P1S could be a good option. You "
-"still get an enclosure and auxiliary cooling, while the P1P doesn't, "
-"which allows you to print filaments like ABS/ASA without difficulty, but "
-"this printer needs a fair few upgrades to print filled filaments and more"
-" advanced engineering filaments safely."
+"still get an enclosure and auxiliary cooling, while the P1P doesn't, which "
+"allows you to print filaments like ABS/ASA without difficulty, but this "
+"printer needs a fair few upgrades to print filled filaments and more "
+"advanced engineering filaments safely."
 msgstr ""
+"もしX1Cの装飾品、たとえばLIDARやタッチスクリーン、耐久性のある Extruder "
+"が特に役立つとは思えなかったら、P1Sは良い選択肢かもしれません。P1Sでは enclosure "
+"と付属の冷却機能を手に入れることができますが、P1Pにはないため、ABS/ASAのようなフィルメントを難なく印刷できます。しかし、このプリンターは埋め込みフィルメントや高度なエンジニアリングフィルメントを安全に印刷するためには多くのアップグレードが必要です。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:123
 msgid "P1S Features"
-msgstr ""
+msgstr "P1Sの機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:134
 msgid "P1S Drawbacks"
-msgstr ""
+msgstr "P1Sの欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
 msgid "Picture of a BambuLabs P1S"
-msgstr ""
+msgstr "BambuLabs P1Sの画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:147
 msgid "AnkerMake M5 ($699)"
-msgstr ""
+msgstr "AnkerMake M5 (¥6,990)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:149
 msgid ""
-"Anker's new entry into the 3d printer market, the AnkerMake M5, is a very"
-" reasonably priced printer for the features it brings. With print failure"
-" detection, speed printing capabilities, and an extremely friendly "
-"interface with almost no setup, the M5 is a great option."
+"Anker's new entry into the 3d printer market, the AnkerMake M5, is a very "
+"reasonably priced printer for the features it brings. With print failure "
+"detection, speed printing capabilities, and an extremely friendly interface "
+"with almost no setup, the M5 is a great option."
 msgstr ""
+"Ankerの新しく登場した3Dプリンター、AnkerMake "
+"M5は、その機能を考えると非常にリーズナブルな価格設定となっています。印刷故障検出機能や高速印刷能力、そしてほとんどセットアップ不要で極めて使いやすいインターフェースを持つM5は、素晴らしい選択肢です。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:155
 msgid "M5 Features"
-msgstr ""
+msgstr "M5の機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:156
 msgid "Cartesian Motion System optimized for speed"
-msgstr ""
+msgstr "直線運動システム、高速化に最適化"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:158
 msgid "Removable Bed"
-msgstr ""
+msgstr "取り外し可能なベッド"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:159
 msgid "Direct Drive Extruder"
-msgstr ""
+msgstr "直接駆動エクストルーダ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:161
 msgid "235mm x 235mm x 250mm Print Volume"
-msgstr ""
+msgstr "235mm × 235mm × 250mm の印刷可能なサイズ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:163
 msgid "Extremely friendly software and setup for new users"
-msgstr ""
+msgstr "新規ユーザーにとって非常に使いやすいソフトウェアと設定"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:166
 msgid "M5 Drawbacks"
-msgstr ""
+msgstr "M5 の欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:167
 msgid "Replacement parts are proprietary from AnkerMake (albeit well-priced)"
-msgstr ""
+msgstr "代替部品はAnkerMakeの特許製品（ただし、価格は手頃です）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:168
 msgid "Reliant on Anker for future firmware/software updates"
-msgstr ""
+msgstr "将来的なファームウェアやソフトウェアの更新はAnkerに依存します"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:169
 msgid ""
-"Cartesian motion system limits speed, still doesn't match CoreXY machines"
-" at a similar price range"
-msgstr ""
+"Cartesian motion system limits speed, still doesn't match CoreXY machines at"
+" a similar price range"
+msgstr "カートリジアン運動システムは速度に制限があり、価格帯が類似しているにもかかわらずCoreXYマシンにはまだ匹敵しない"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:170
 msgid "PTFE Lined Hotend"
-msgstr ""
+msgstr "PTFE張付熱端"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:171
 msgid "V wheel motion system can wear after long extended use"
-msgstr ""
+msgstr "V輪の運動システムは、長期的な使用により摩耗する可能性があります"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
 msgid "Picture of a AnkerMake M5"
-msgstr ""
+msgstr "AnkerMake M5 の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:182
 msgid "DIY Printers (Voron, HevOrt, VZBot)"
-msgstr ""
+msgstr "DIYプリンターズ（Voron, HevOrt, VZBot）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:184
 msgid ""
-"For teams just getting into 3D printing or teams that haven't had "
-"experience with at least 2-3 other printers we would highly advise "
-"against a DIY printer. These printers are **projects** and take "
-"significant effort and upkeep, which make them a poor choice for a first "
-"or second printer."
+"For teams just getting into 3D printing or teams that haven't had experience"
+" with at least 2-3 other printers we would highly advise against a DIY "
+"printer. These printers are **projects** and take significant effort and "
+"upkeep, which make them a poor choice for a first or second printer."
 msgstr ""
+"3Dプリンティングに初めて取り組むチームや、他の2〜3台以上のプリンターの経験がないチームには、DIYプリンターを強く推奨しません。これらのプリンターは**プロジェクト**で、大きな努力と維持が必要であり、初めの一台目や二台目のプリンターとしては適していません。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:188
 msgid ""
-"If you want to take a deeper dive into 3D Printing and achieve both "
-"extreme speeds and quality, a DIY printer may be a good choice. DIY "
-"printers can be tailored to your specific needs and perform extremely "
-"well but are typically a huge time and financial commitment."
+"If you want to take a deeper dive into 3D Printing and achieve both extreme "
+"speeds and quality, a DIY printer may be a good choice. DIY printers can be "
+"tailored to your specific needs and perform extremely well but are typically"
+" a huge time and financial commitment."
 msgstr ""
+"もし3Dプリンティングに深く取り組み、極端な速度と品質を両立させたいなら、DIYプリンターが良い選択肢かもしれません。DIYプリンターはあなたの特定のニーズに合わせてカスタマイズでき、非常に高性能ですが、通常大きな時間と金銭的なコミットメントが必要です。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:194
 msgid "Features"
-msgstr ""
+msgstr "機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:195
 msgid "Most well-documented DIY Printers feature..."
-msgstr ""
+msgstr "多くの丁寧にドキュメントが作成されたDIYプリンタは..."
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:197
 msgid "Extremely fast CoreXY motion systems"
-msgstr ""
+msgstr "非常に高速なCoreXY運動システム"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:200
 msgid "Direct Drive Extruders with All Metal Hotends"
-msgstr ""
+msgstr "全金属ホットエンド搭載の直接駆動エクストルダ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:201
 msgid "Large Build Volumes (250mm^3 or more)"
-msgstr ""
+msgstr "大型の建設容積 (250mm³ 以上)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:202
 msgid "Klipper Firmware and live dashboards for print monitoring"
-msgstr ""
+msgstr "クリッパー・ファームウェアとプリント監視用のライブダッシュボード"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:203
 msgid "High customizability and a strong community that creates modifications"
-msgstr ""
+msgstr "高いカスタマイズ性と、Modificationsを作成する強いコミュニティ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:206
 msgid "Drawbacks"
-msgstr ""
+msgstr "欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:207
 msgid "Extremely complex to assemble, wire, and configure"
-msgstr ""
+msgstr "組み立て、配線、設定が非常に複雑です"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:208
 msgid "Have to source your own parts, no \"official\" place to buy from"
-msgstr ""
+msgstr "自前でパーツを仕入れる必要があります。公式の購入先はありません。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:209
 msgid "Huge time commitment"
-msgstr ""
+msgstr "大きな時間のコミットメントが必要です"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:210
 msgid "Huge financial commitment (typically $1000+)"
-msgstr ""
+msgstr "大きな財政的なコミットメント（通常、1000ドル以上）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
 msgid "Picture of a Voron 2.4"
-msgstr ""
-
+msgstr "Voron 2.4の画像"

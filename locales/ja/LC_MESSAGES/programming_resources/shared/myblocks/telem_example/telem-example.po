@@ -12,76 +12,84 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:2
 msgid "Example: Modify Telemetry Settings"
-msgstr ""
+msgstr "例：テレメトリ設定を変更する"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:4
 msgid ""
-"Telemetry messages are sent from the Robot Controller to the Driver "
-"Station up to **four time per second**, by default. This maximum refresh "
-"rate can be changed with Android Studio or OnBot Java, but **not** with "
-"regular Blocks. Now a myBlock can provide that capability too!"
+"Telemetry messages are sent from the Robot Controller to the Driver Station "
+"up to **four time per second**, by default. This maximum refresh rate can be"
+" changed with Android Studio or OnBot Java, but **not** with regular Blocks."
+" Now a myBlock can provide that capability too!"
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:9
 msgid ""
 "This simple example allows a Blocks user to change the standard time "
 "interval from 250 milliseconds to any other interval."
-msgstr ""
+msgstr "このシンプルな例では、ブロックスユーザーが標準的なタイムインターバル（250ミリ秒）を任意の他の間隔に変更できるようにします。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:14
 msgid ""
-"A lower time interval can allow faster update of sensor or encoder data. "
-"A higher interval can ease the RC-DS communication bandwidth load."
+"A lower time interval can allow faster update of sensor or encoder data. A "
+"higher interval can ease the RC-DS communication bandwidth load."
 msgstr ""
+"センサーやエンコーダーのデータ更新が速くなるためには、時間間隔を短く設定できます。一方で、時間が長く設定すると、RC-"
+"DS通信の帯域負荷を軽減することができます。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:17
 msgid "Here’s the Java code for the method only:"
-msgstr ""
+msgstr "以下にメソッドのJavaコードのみを示します："
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:21
 msgid ""
-"This tutorial intends for you to **manually type** the Java code above. "
-"If you require pre-typed text of this example, click below. The linked "
-"copy includes the usual class declaration and package/import statements."
+"This tutorial intends for you to **manually type** the Java code above. If "
+"you require pre-typed text of this example, click below. The linked copy "
+"includes the usual class declaration and package/import statements."
 msgstr ""
+"このチュートリアルでは、上のJavaコードを**手入力**することをお勧めします。この例の既に型付けされたテキストが必要な場合は、下にあるボタンからアクセスできます。リンク先には通常のクラス宣言とパッケージ/インポートステートメントが含まれています。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst
 msgid "Example Code"
-msgstr ""
+msgstr "例程式"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:28
 msgid ":download:`W_myBlocks.java <opmodes/W_myBlocks.java>`"
-msgstr ""
+msgstr ":download:`W_myBlocks.java <opmodes/W_myBlocks.java>`"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:34
 msgid ""
-"Want to verify this actually works? Another, slightly more advanced "
-"myBlock allows measuring the time between Telemetry updates; it’s posted "
-"below. That myBlock can be used in a Blocks program like the one "
-"attatched below; download the raw **.blk file** and click the **Upload Op"
-" Mode** button at the main Blocks menu. Read all comments and "
-"instructions."
+"Want to verify this actually works? Another, slightly more advanced myBlock "
+"allows measuring the time between Telemetry updates; it’s posted below. That"
+" myBlock can be used in a Blocks program like the one attatched below; "
+"download the raw **.blk file** and click the **Upload Op Mode** button at "
+"the main Blocks menu. Read all comments and instructions."
 msgstr ""
+"この機能が実際に動作するか確認したいですか？もう少し高度なmyBlockを使用してテレメトリー更新間の時間を測定することができます；そのmyBlockは下に掲載されています。そのmyBlockは、添付されたブロックプログラムのように使用できます；raw"
+" **.blkファイル** をダウンロードし、ブロックメニューの主要項目で **Opモードのアップロード** "
+"ボタンをクリックしてください。すべてのコメントと指示を読みましょう。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:43
 msgid ""
 ":download:`W_myBlocks_Telemetry_v02.java "
 "<opmodes/W_myBlocks_Telemetry_v02.java>`"
 msgstr ""
+":download:`W_myBlocks_Telemetry_v02.java "
+"<opmodes/W_myBlocks_Telemetry_v02.java>`"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:45
 msgid ""
 ":download:`W_Telemetry_myBlocks_v02.blk "
 "<opmodes/W_Telemetry_myBlocks_v02.blk>`"
 msgstr ""
-
+":download:`W_Telemetry_myBlocks_v02.blk "
+"<opmodes/W_Telemetry_myBlocks_v02.blk>`"

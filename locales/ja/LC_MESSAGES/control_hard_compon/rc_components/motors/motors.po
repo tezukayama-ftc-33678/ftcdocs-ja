@@ -12,104 +12,107 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:2
 msgid "Motors"
-msgstr ""
+msgstr "モーターズ"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:11
 msgid "TETRIX 12V DC Motor"
-msgstr ""
+msgstr "テトリックス12V直流モータ"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst
 msgid "W44260"
-msgstr ""
+msgstr "W44260"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:22
 msgid "TETRIX 12V TorqueNADO DC Motor"
-msgstr ""
+msgstr "テトリックス12VトルクナドーDCモーター"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:28
 msgid "AndyMark 12V DC Motor"
-msgstr ""
+msgstr "AndyMark 12V DCモータ"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst
 msgid "am-3103AUS"
-msgstr ""
+msgstr "am-3103AUS"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:39
 msgid "AndyMark NeveRest series 12V DC Motors"
-msgstr ""
+msgstr "AndyMark NeveRest シリーズ 12V DCモーター"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:45
 msgid "MATRIX 12V DC Motors"
-msgstr ""
+msgstr "MATRIX 12V DCモータ"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst
 msgid "5202-0002-0014"
-msgstr ""
+msgstr "5202-0002-0014"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:56
 msgid "Modern Robotics/MATRIX 12V DC Motors"
-msgstr ""
+msgstr "現代ロボティクス/MATRIX 12V DCモータ"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:62
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:79
 msgid "REV 12V DC Motor"
-msgstr ""
+msgstr "REV 12V DCモータ"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst
 msgid "REV-41-1301"
-msgstr ""
+msgstr "REV-41-1301"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:73
 msgid "REV Robotics HD Hex 12V DC Motor"
-msgstr ""
+msgstr "REVロボティクスHDヘックス12VDCモーター"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst
 msgid "REV-41-1300"
-msgstr ""
+msgstr "REV-41-1300"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:90
 msgid "REV Robotics Core Hex 12V DC Motor"
-msgstr ""
+msgstr "REVロボティクスコアヒックス12VDCモーター"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:92
 msgid ""
 "Motors are the primary drivers of a robot. All motors are 12v brushed DC "
 "motors and are enumerated in the Competition Manual. They may only be "
-"controlled via a REV Expansion Hub, REV Control Hub, or REV SPARKmini "
-"Motor Controller."
+"controlled via a REV Expansion Hub, REV Control Hub, or REV SPARKmini Motor "
+"Controller."
 msgstr ""
+"ロボットの主な駆動装置はモータです。すべてのモータは12Vブラシ付きDCモータで、競技マニュアルに列挙されています。これらのモータは、REV拡張ハブ、REVコントロールハブ、またはREV"
+" SPARKmini モーター制御器のみを介して制御できます。"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:97
 msgid "Additional Resources"
-msgstr ""
+msgstr "追加のリソース"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:99
 msgid ""
 ":ref:`Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
 "ports:motor ports>`"
 msgstr ""
+":ref:`ポート概要 <control_hard_compon/rc_components/hub/ports/ch-ports:モーターポート>`"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:100
 msgid ""
 ":ref:`Connecting Motors "
-"<hardware_and_software_configuration/connecting_devices/connecting_motor"
-"/connecting-motor:connecting a motor to the hub>`"
+"<hardware_and_software_configuration/connecting_devices/connecting_motor/connecting-"
+"motor:connecting a motor to the hub>`"
 msgstr ""
+":ref:`モータの接続 <ハードウェアとソフトウェア設定/デバイスの接続/モータの接続/connecting-motor:モータをハブに接続>`"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:101
 msgid ""
 ":ref:`Configuring Motors "
-"<hardware_and_software_configuration/configuring/configuring_dc_motor"
-"/configuring-dc-motor:configuring a dc motor>`"
-msgstr ""
-
+"<hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-"
+"dc-motor:configuring a dc motor>`"
+msgstr ":ref:`DCモータの設定 <ハードウェアとソフトウェア構成/dcモータの設定>`です。"

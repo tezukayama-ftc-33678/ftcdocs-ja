@@ -12,76 +12,83 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:2
 msgid "Using Sensors :bdg-warning:`Blocks`"
-msgstr ""
+msgstr "センサを使用する :bdg-warning:`ブロック`"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:5
 msgid "Color-Distance Sensor"
-msgstr ""
+msgstr "色距離センサー"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:7
 msgid ""
-"A sensor is a device that lets the Robot Controller get information about"
-" its environment. In this example, you will use a REV Robotics Color-"
-"Distance sensor to display range (distance from an object) info to the "
-"DRIVER STATION."
+"A sensor is a device that lets the Robot Controller get information about "
+"its environment. In this example, you will use a REV Robotics Color-Distance"
+" sensor to display range (distance from an object) info to the DRIVER "
+"STATION."
 msgstr ""
+"センサーは、ロボットコントローラが環境について情報を得られるようにする装置です。この例では、REV RoboticsのColor-"
+"Distanceセンサーを使用して、オブジェクトからの距離（範囲）情報をお手伝いステーションに表示します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:12
 msgid ""
-"The Color-Range sensor uses reflected light to determine the distance "
-"from the sensor to the target object. It can be used to measure close "
-"distances (up 5\" or more) with reasonable accuracy. Note that at the "
-"time this document was most recently edited, the REV Color-Range sensor "
-"saturates around 2\" (5cm). This means that for distances less than or "
-"equal to 2\", the sensor returns a measured distance equal to 2\" or so."
+"The Color-Range sensor uses reflected light to determine the distance from "
+"the sensor to the target object. It can be used to measure close distances "
+"(up 5\" or more) with reasonable accuracy. Note that at the time this "
+"document was most recently edited, the REV Color-Range sensor saturates "
+"around 2\" (5cm). This means that for distances less than or equal to 2\", "
+"the sensor returns a measured distance equal to 2\" or so."
 msgstr ""
+"色範囲センサは反射光を使用して、センサから対象物までの距離を判定します。このセンサは、合理的な精度で近距離（5インチ未満）を測定することができます。ただし、このドキュメントが最後に編集された時点では、REV色範囲センサは約2インチ（5cm）で飽和します。つまり、2インチ以下の距離では、センサは測定した距離が2インチ程度となるため注意が必要です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:19
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:128
 msgid "Note that it will take an estimated 15 minutes to complete this task."
-msgstr ""
+msgstr "このタスクを完了するには、約15分かかります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:22
 msgid "Modifying the Op Mode to Display Distance Instructions"
-msgstr ""
+msgstr "距離指示の表示を変更するオペレーションモードの設定"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:24
 msgid ""
 "1. Verify that your laptop is still connected to the Robot Controller's "
 "Program & Manage Wi-Fi network."
 msgstr ""
+"1. ロボットコントローラのProgram & Manage Wi-Fiネットワークにタブレットがまだ接続されていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:27
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:136
 msgid ""
-"2. Verify that \"MyFIRSTOpMode\" is opened for editing. If it is not, you"
-" can click on the FIRST logo in the upper left hand corner of the browser"
-" window on the laptop. This should take you to the main Blocks "
-"Development Tool project screen."
+"2. Verify that \"MyFIRSTOpMode\" is opened for editing. If it is not, you "
+"can click on the FIRST logo in the upper left hand corner of the browser "
+"window on the laptop. This should take you to the main Blocks Development "
+"Tool project screen."
 msgstr ""
+"2. "
+"\"MyFIRSTOpMode\"が編集のために開かれていることを確認してください。開いていない場合は、ノートブックのブラウザウィンドウ左上にあるFIRSTロゴをクリックできます。これで主要なブロック開発ツールプロジェクト画面に移動します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:37
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:146
 msgid ""
-"Click on the \"MyFIRSTOpMode\" project to open it for editing if it is "
-"not already opened."
-msgstr ""
+"Click on the \"MyFIRSTOpMode\" project to open it for editing if it is not "
+"already opened."
+msgstr "「MyFIRSTOpMode」プロジェクトをクリックして、開いていない場合は編集のために開きます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:39
 msgid ""
 "3. Click on the \"Utilities\" category on the left-hand side of your "
 "browser. Find and click on the \"Telemetry\" subcategory."
 msgstr ""
+"3. ブラウザの左側にある「 Utilities 」カテゴリをクリックします。 「 Telemetry 」サブカテゴリを見つけたらクリックします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:47
 msgid ""
@@ -89,65 +96,79 @@ msgid ""
 "drag it to the spot in your \"while\" loop block immediately before the "
 "\"telemetry.update\" block."
 msgstr ""
+"4. \"call telemetry.addData\" ブロック（数値版）を選択し、\"while\" ループ ブロック内の "
+"\"telemetry.update\" ブロックの直前にドラッグしてください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:56
 msgid ""
 "5. Click and highlight the \"key\" text and change the text so it reads "
 "\"Distance (cm)\"."
-msgstr ""
+msgstr "5. 「key」テキストを選択し、ハイライトして、「Distance (cm)」と変更します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:64
 msgid ""
-"6. Click and expand the \"Sensors\" category. Click on the \"REV "
-"Color/Range Sensor\" subcategory. Click on and select the \"call "
+"6. Click and expand the \"Sensors\" category. Click on the \"REV Color/Range"
+" Sensor\" subcategory. Click on and select the \"call "
 "sensorColorRange.getDistance\" programming block."
 msgstr ""
+"6. クリックして「センサ」カテゴリを展開し、「REV コン网站地图/距離センサ」サブカテゴリを選択します。「call "
+"sensorColorRange.getDistance」プログラミングブロックをクリックして選択します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:73
 msgid ""
-"Note that earlier versions of the Blocks Programming tool refer to the "
-"REV Robotics Color-Distance Sensor as the \"LynxI2cColorRangeSensor\".  "
-"Newer versions of the software refer to the device as the \"REV "
-"Color/Range Sensor\"."
+"Note that earlier versions of the Blocks Programming tool refer to the REV "
+"Robotics Color-Distance Sensor as the \"LynxI2cColorRangeSensor\".  Newer "
+"versions of the software refer to the device as the \"REV Color/Range "
+"Sensor\"."
 msgstr ""
+"ブロックプログラミングツールの以前のバージョンでは、REVロボティクス "
+"カラーディスタンスセンサーは「LynxI2cColorRangeSensor」と呼ばれていました。新しいソフトウェアのバージョンでは、デバイスは「REV"
+" Color/Range Sensor」と呼ばれます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:75
 msgid ""
-"7. Drag the \"call sensorColorRange.getDistance\" programming block to "
-"the \"number\" field of the \"call telemetry.addData\" programming block."
+"7. Drag the \"call sensorColorRange.getDistance\" programming block to the "
+"\"number\" field of the \"call telemetry.addData\" programming block."
 msgstr ""
+"7. \"call sensorColorRange.getDistance\" プログラミングブロックを \"call "
+"telemetry.addData\" プログラミングブロックの \"number\" フィールドにドラッグしてください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:83
 msgid ""
-"This will send the measured distance to the target in centimeters back to"
-" the DRIVER STATION."
-msgstr ""
+"This will send the measured distance to the target in centimeters back to "
+"the DRIVER STATION."
+msgstr "これは、測定された距離（センチメートル単位）をターゲットに送信し、DRIVER STATION にその結果を戻します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:85
 msgid ""
-"8. Save your op mode and verify that it was saved successfully to the "
-"Robot Controller."
-msgstr ""
+"8. Save your op mode and verify that it was saved successfully to the Robot "
+"Controller."
+msgstr "8. 操作モードを保存し、ロボットコントローラに成功して保存されたことを確認してください。\\n"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:93
 msgid ""
-"9. Follow the procedure outlined in the section titled :doc:`Running Your"
-" OpMode <../running_op_modes/Running-Your-Op-Mode>` to run your updated "
-"op mode."
+"9. Follow the procedure outlined in the section titled :doc:`Running Your "
+"OpMode <../running_op_modes/Running-Your-Op-Mode>` to run your updated op "
+"mode."
 msgstr ""
+"9. 「:doc:`実行するオペレーションモードの手順 <../running_op_modes/Running-Your-Op-"
+"Mode>`」セクションに記載されている手順に従って、更新したオペレーションモードを実行してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:102
 msgid ""
-"As you run the op mode, if you move your hand above the color light "
-"sensor, you should see the measured distance change on the DRIVER STATION"
-" screen.  If the expression \"NaN\" (not a number) is displayed on the "
-"DRIVER STATION, the target is most likely out of range (and the sensor "
-"does not detect any reflected light)."
+"As you run the op mode, if you move your hand above the color light sensor, "
+"you should see the measured distance change on the DRIVER STATION screen.  "
+"If the expression \"NaN\" (not a number) is displayed on the DRIVER STATION,"
+" the target is most likely out of range (and the sensor does not detect any "
+"reflected light)."
 msgstr ""
+"オペレーションモードを実行中、色光センサーの上に手をかざすと、DRIVER STATION の画面で測定された距離が変化するはずです。もしDRIVER "
+"STATION で "
+"\"NaN\"（数値ではありません）という表現が表示されている場合、ターゲットはおそらく範囲外である可能性があり（センサーが反射光を検出していない）。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:105
 msgid "Touch Sensor"
-msgstr ""
+msgstr "タッチセンサー"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:107
 msgid ""
@@ -156,76 +177,86 @@ msgid ""
 "configuration file. We will use the \"isPressed\" programming block to "
 "determine if the button on the sensor is currently pressed or not."
 msgstr ""
+"この例では、REV Robotics Touch "
+"Sensorがロボットコントローラのアクティブな構成ファイルでデジタルタッチセンサーとして設定されていることを前提とします。Sensor上のボタンが現在押されているかどうかを判断するために、“isPressed”プログラミングブロックを使用します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:117
 msgid ""
-"The Control Hub or Expansion Hub digital ports contain two digital pins "
-"per port. When you use a 4-wire JST cable to connect a REV Robotics Touch"
-" sensor to a Control Hub or Expansion Hub digital port, the Touch Sensor "
-"is wired to the second of the two digital pins within the port. The first"
-" digital pin of the 4-wire cable remains disconnected."
+"The Control Hub or Expansion Hub digital ports contain two digital pins per "
+"port. When you use a 4-wire JST cable to connect a REV Robotics Touch sensor"
+" to a Control Hub or Expansion Hub digital port, the Touch Sensor is wired "
+"to the second of the two digital pins within the port. The first digital pin"
+" of the 4-wire cable remains disconnected."
 msgstr ""
+"制御ハブまたは拡張ハブのデジタルポートは、1つのポートに2本のデジタルピンを含みます。4ワイヤーJSTケーブルを使用してREV Robotics "
+"Touchセンサーを制御ハブまたは拡張ハブのデジタルポートに接続する場合、Touchセンサーはポート内の2番目のデジタルピンに接続されます。4ワイヤーケーブルの1本目のデジタルピンは、"
+" disconnect されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:123
 msgid ""
-"For example, if you connect a Touch Sensor to the \"0,1\" digital port of"
-" the Control Hub or Expansion Hub, the Touch Sensor will be connected to "
-"the second pin (labeled \"1\") of the port. The first pin (labeled \"0\")"
-" will stay disconnected."
+"For example, if you connect a Touch Sensor to the \"0,1\" digital port of "
+"the Control Hub or Expansion Hub, the Touch Sensor will be connected to the "
+"second pin (labeled \"1\") of the port. The first pin (labeled \"0\") will "
+"stay disconnected."
 msgstr ""
+"例えば、タッチセンサーを制御ハブまたは拡張ハブの「0,1」デジタルポートに接続すると、タッチセンサーはポートの2番目のピン（「1」とラベル付けされたピン）に接続されます。1番目のピン（「0」とラベル付けされたピン）は無接続のままになります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:131
-msgid "Modifying the Op Mode to Display Button (Touch Sensor) State Instructions"
-msgstr ""
+msgid ""
+"Modifying the Op Mode to Display Button (Touch Sensor) State Instructions"
+msgstr "ボタン（タッチセンサ）の状態を表示するオペレーションモードの変更方法についての指示"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:133
 msgid ""
 "1. Verify that your laptop is still connected to the Robot Controller's "
 "Programming Mode Wi-Fi network."
-msgstr ""
+msgstr "1. ロボットコントローラのプログラミングモードWi-Fiネットワークにまだラップトッピンが接続されていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:148
 msgid ""
 "3. Click on the \"Logic\" category. Find and click on the \"if do else\" "
 "block."
-msgstr ""
+msgstr "3. \"Logic\" カテゴリをクリックします。\"if do else\" ブロックを見つけたらクリックします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:156
 msgid ""
 "4. Drag the \"if do else\" block to the position before the "
 "\"telemetry.update\" block."
-msgstr ""
+msgstr "4. \"if do else\" ブロックを \"telemetry.update\" ブロックの前へドラッグしてください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:164
 msgid ""
 "5. Click on the \"Sensors\" category to expand it (if it isn't already "
-"expanded). Click on the \"Touch Sensor\" subcategory, then find and "
-"select the \".isPressed\" block."
+"expanded). Click on the \"Touch Sensor\" subcategory, then find and select "
+"the \".isPressed\" block."
 msgstr ""
+"5. "
+"\"センサ\"カテゴリをクリックして展開します（既に展開されている場合はこの操作は必要ありません）。その後、\"タッチセンサ\"サブカテゴリをクリックし、\".isPressed\"ブロックを見つけたら選択します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:173
 msgid ""
-"6. Drag the \"isPressed\" block to the test condition of the \"if do "
-"else\" programming block."
-msgstr ""
+"6. Drag the \"isPressed\" block to the test condition of the \"if do else\" "
+"programming block."
+msgstr "6. \"isPressed\" ブロックを \"if do else\" プログラミングブロックのテスト条件にドラッグしてください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:181
 msgid ""
 "7. Click on the \"Utilities\" category on the left-hand side of your "
 "browser. Find and click on the \"Telemetry\" subcategory."
 msgstr ""
+"7. ブラウザの左側にある「 Utilities 」カテゴリをクリックします。 「 Telemetry 」サブカテゴリを探し、クリックします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:189
 msgid ""
-"Select the \"call telemetry.addData\" block (the text version) and drag "
-"it to the \"do\" clause of the \"if do else\" block."
+"Select the \"call telemetry.addData\" block (the text version) and drag it "
+"to the \"do\" clause of the \"if do else\" block."
 msgstr ""
+"call telemetry.addData\" ブロック（テキスト版）を選択し、\"if do else\" ブロックの \"do\" クラuse "
+"にドラッグします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:191
-msgid ""
-"8. Change the \"key\" value to \"testTouch\" and the \"text\" value to "
-"\"is pressed\"."
-msgstr ""
+msgid "8. Change the \"key\" value to \"testTouch\" and the \"text\" value to \"is pressed\"."
+msgstr "8. \\\"key\\\" の値を \\\"testTouch\\\" に、\\\"text\\\" の値を \\\"押されている\\\" に変更します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:199
 msgid ""
@@ -233,24 +264,31 @@ msgid ""
 "\"else\" clause of the \"if do else\" block. Change the \"key\" value to "
 "\"testTouch\" and the \"text\" value to \"is NOT pressed\"."
 msgstr ""
+"9. \"if do else\" ブロックの \"else\" クラuse 内に別の \"telemetry.addData\" "
+"ブロック（テキスト版）を挿入します。\"key\" の値を \"testTouch\" に変更し、\"text\" の値を \"押されていません\" "
+"に変更します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:208
 msgid ""
-"10. Save your op mode and verify that it was saved successfully to the "
-"Robot Controller."
-msgstr ""
+"10. Save your op mode and verify that it was saved successfully to the Robot"
+" Controller."
+msgstr "10. モードを保存し、ロボットコントローラに成功して保存されたことを確認してください。\\n"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:216
 msgid ""
-"11. Follow the procedure outlined in the section titled :doc:`Running "
-"Your OpMode <../running_op_modes/Running-Your-Op-Mode>` to run your "
-"updated op mode."
+"11. Follow the procedure outlined in the section titled :doc:`Running Your "
+"OpMode <../running_op_modes/Running-Your-Op-Mode>` to run your updated op "
+"mode."
 msgstr ""
+"11. 「更新したオペレーションモードを実行する」セクションの :doc:` Running Your OpMode "
+"<../running_op_modes/Running-Your-Op-Mode> </running_op_modes/Running-Your-"
+"Op-Mode>` に記載されている手順に従って、更新したオペレーションモードを実行してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:225
 msgid ""
-"As you run the op mode and push or release the button, the telemetry "
-"message on the DRIVER STATION should update to reflect the current state "
-"of the digital Touch Sensor."
+"As you run the op mode and push or release the button, the telemetry message"
+" on the DRIVER STATION should update to reflect the current state of the "
+"digital Touch Sensor."
 msgstr ""
-
+"オペレーションモードを実行中、ボタンを押すか離すと、DRIVER STATION "
+"上のテレメトリーメッセージはデジタルタッチセンサーの現在の状態に更新されるべきです。"

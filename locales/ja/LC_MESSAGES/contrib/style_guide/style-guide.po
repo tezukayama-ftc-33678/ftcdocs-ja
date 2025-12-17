@@ -12,212 +12,238 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:2
 msgid "FTC Docs Style Guide"
-msgstr ""
+msgstr "FIRST Tech Challenge ドキュメント作成ガイド"
 
 #: ../../source/contrib/style_guide/style-guide.rst:4
 msgid ""
-"This guide contains the various reStructuredText (RST) and Sphinx "
-"specific guidelines for the FTC Docs project. reStructuredText is the "
-"default plain text markup language used by Sphinx."
+"This guide contains the various reStructuredText (RST) and Sphinx specific "
+"guidelines for the FTC Docs project. reStructuredText is the default plain "
+"text markup language used by Sphinx."
 msgstr ""
+"このガイドでは、FTC Docs プロジェクト用の Various reStructuredText (RST) および Sphinx "
+"特定のガイドラインを記載しています。reStructuredText は Sphinx で使用されるデフォルトの plain text "
+"マークアップ言語です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:10
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../source/contrib/style_guide/style-guide.rst:20
 msgid "Accessibility"
-msgstr ""
+msgstr "アクセシビリティ"
 
 #: ../../source/contrib/style_guide/style-guide.rst:22
 msgid ""
-"A new emphasis in FTC Docs is to improve the accessibility of FTC Docs. "
-"The `Americans with Disabilities Act (ADA) <https://www.ada.gov/topics"
-"/intro-to-ada/>`_ is a federal civil rights law that prohibits "
-"discrimination against people with disabilities in everyday activities."
+"A new emphasis in FTC Docs is to improve the accessibility of FTC Docs. The "
+"`Americans with Disabilities Act (ADA) <https://www.ada.gov/topics/intro-to-"
+"ada/>`_ is a federal civil rights law that prohibits discrimination against "
+"people with disabilities in everyday activities."
 msgstr ""
+"FTCドキュメントでは、アクセシビリティの改善に重点が置かれています。`アメリカの障害者権利法（ADA） "
+"<https://www.ada.gov/topics/intro-to-ada/>`_ "
+"は、障害を持つ人々に対する差別を日常生活の活動において禁止する連邦民事権利法です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:27
 msgid "What is Web Accessibility"
-msgstr ""
+msgstr "Webアクセシビリティとは何ですか"
 
 #: ../../source/contrib/style_guide/style-guide.rst:29
 msgid ""
-"This section is copied from: https://www.w3.org/WAI/fundamentals"
-"/accessibility-intro/."
+"This section is copied from: "
+"https://www.w3.org/WAI/fundamentals/accessibility-intro/."
 msgstr ""
+"このセクションは次のURLからコピーしました:\\n\"\n"
+"\"https://www.w3.org/WAI/fundamentals/accessibility-intro/."
 
 #: ../../source/contrib/style_guide/style-guide.rst:31
 msgid ""
-"Web accessibility means that websites, tools, and technologies are "
-"designed and developed so that people with disabilities can use them. "
-"More specifically, people can:"
+"Web accessibility means that websites, tools, and technologies are designed "
+"and developed so that people with disabilities can use them. More "
+"specifically, people can:"
 msgstr ""
+"ウェブアクセシビリティとは、ウェブサイトやツール、技術が設計および開発され、障碍を持つ人々でも利用できるようにすることを指します。より具体的には、人々は以下のことができます："
 
 #: ../../source/contrib/style_guide/style-guide.rst:33
 msgid "perceive, understand, navigate, and interact with the Web"
-msgstr ""
+msgstr "ウェブを感知し、理解し、ナビゲートし、相互作用する"
 
 #: ../../source/contrib/style_guide/style-guide.rst:34
 msgid "contribute to the Web"
-msgstr ""
+msgstr "ウェブに貢献する"
 
 #: ../../source/contrib/style_guide/style-guide.rst:36
 msgid ""
 "Web accessibility encompasses all disabilities that affect access to the "
 "Web, including:"
-msgstr ""
+msgstr "ウェブアクセシビリティは、ウェブへのアクセスに影響を与えるすべての障がいをカバーし、その中には以下のものがあります："
 
 #: ../../source/contrib/style_guide/style-guide.rst:38
 msgid "auditory"
-msgstr ""
+msgstr "聴覚"
 
 #: ../../source/contrib/style_guide/style-guide.rst:39
 msgid "cognitive"
-msgstr ""
+msgstr "認知"
 
 #: ../../source/contrib/style_guide/style-guide.rst:40
 msgid "neurological"
-msgstr ""
+msgstr "神経学的"
 
 #: ../../source/contrib/style_guide/style-guide.rst:41
 msgid "physical"
-msgstr ""
+msgstr "物理的"
 
 #: ../../source/contrib/style_guide/style-guide.rst:42
 msgid "speech"
-msgstr ""
+msgstr "発声"
 
 #: ../../source/contrib/style_guide/style-guide.rst:43
 msgid "visual"
-msgstr ""
+msgstr "視覚的"
 
 #: ../../source/contrib/style_guide/style-guide.rst:45
-msgid "Web accessibility also benefits people without disabilities, for example:"
-msgstr ""
+msgid ""
+"Web accessibility also benefits people without disabilities, for example:"
+msgstr "ウェブアクセシビリティは、障害のない人々にとっても利点があります。例えば："
 
 #: ../../source/contrib/style_guide/style-guide.rst:47
 msgid ""
-"people using mobile phones, smart watches, smart TVs, and other devices "
-"with small screens, different input modes, etc."
-msgstr ""
+"people using mobile phones, smart watches, smart TVs, and other devices with"
+" small screens, different input modes, etc."
+msgstr "PEOPLE がスマートフォン、スマートウォッチ、スマートテレビ、以及其他具有小屏幕和不同输入模式的设备等使用时，"
 
 #: ../../source/contrib/style_guide/style-guide.rst:48
 msgid "older people with changing abilities due to aging"
-msgstr ""
+msgstr "年配の利用者で、老化によって変化した能力を持つ人"
 
 #: ../../source/contrib/style_guide/style-guide.rst:49
-msgid "people with “temporary disabilities” such as a broken arm or lost glasses"
-msgstr ""
+msgid ""
+"people with “temporary disabilities” such as a broken arm or lost glasses"
+msgstr "一時的な障害を持つ人々、例えば骨折や眼鏡の紛失など"
 
 #: ../../source/contrib/style_guide/style-guide.rst:50
 msgid ""
-"people with “situational limitations” such as in bright sunlight or in an"
-" environment where they cannot listen to audio"
-msgstr ""
+"people with “situational limitations” such as in bright sunlight or in an "
+"environment where they cannot listen to audio"
+msgstr "明るい日光下や音声を聴くことができない環境など、状況によって制限がある人々"
 
 #: ../../source/contrib/style_guide/style-guide.rst:51
 msgid ""
-"people using a slow Internet connection, or who have limited or expensive"
-" bandwidth"
-msgstr ""
+"people using a slow Internet connection, or who have limited or expensive "
+"bandwidth"
+msgstr "インターネット接続が遅い人や、帯域幅が制限されているか高額な料金を支払っている人"
 
 #: ../../source/contrib/style_guide/style-guide.rst:54
 msgid "Web Content Accessibility Guidelines"
-msgstr ""
+msgstr "ウェブコンテンツのアクセシビリティガイドライン"
 
 #: ../../source/contrib/style_guide/style-guide.rst:56
 msgid ""
-"Web Content Accessibility Guidelines (WCAG) are a set of recommendations "
-"for making Web content more accessible, primarily for people with "
-"disabilities."
+"Web Content Accessibility Guidelines (WCAG) are a set of recommendations for"
+" making Web content more accessible, primarily for people with disabilities."
 msgstr ""
+"ウェブコンテンツアクセシビリティガイドライン（WCAG）は、主に障がいを持つ人々のためにウェブコンテンツをよりアクセスしやすくするための推奨事項です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:59
 msgid ""
-"Please refer to the :doc:`ftc-docs-accessibility-guidelines` section of "
-"FTC Docs for how to improve the accessibility of content created for FTC "
-"Docs."
+"Please refer to the :doc:`ftc-docs-accessibility-guidelines` section of FTC "
+"Docs for how to improve the accessibility of content created for FTC Docs."
 msgstr ""
+"FTCドキュメントのアクセシビリティを向上させる方法については、:doc:`ftc-docs-accessibility-guidelines` "
+"セクションをご参照ください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:63
 msgid "Plain Language"
-msgstr ""
+msgstr "Plain Language"
 
 #: ../../source/contrib/style_guide/style-guide.rst:65
 msgid ""
-"Plain language means communicating in a way that’s clear, "
-"straightforward, and easy to understand. It helps audiences “get” what "
-"you’re saying immediately."
+"Plain language means communicating in a way that’s clear, straightforward, "
+"and easy to understand. It helps audiences “get” what you’re saying "
+"immediately."
 msgstr ""
+"Plain language とは、明確で簡潔で理解しやすい表現方法を指します。これにより、聴衆はあなたが言っていることを即座に理解することができます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:67
 msgid "Writing in plain language ensures that users can:"
-msgstr ""
+msgstr "plain languageを使用することで、ユーザーが容易に理解できるようになります："
 
 #: ../../source/contrib/style_guide/style-guide.rst:69
 msgid "Find the information they need"
-msgstr ""
+msgstr "彼らが必要とする情報を探します"
 
 #: ../../source/contrib/style_guide/style-guide.rst:70
 msgid "Understand what they find"
-msgstr ""
+msgstr "彼らが見つけたことを理解する"
 
 #: ../../source/contrib/style_guide/style-guide.rst:71
 msgid "Use the information to fulfill their needs"
-msgstr ""
+msgstr "必要な情報を活用してください"
 
 #: ../../source/contrib/style_guide/style-guide.rst:74
 msgid ""
 "This article talks about plain language and contains `tips with examples "
 "<https://evolvingweb.com/blog/plain-language-guide-how-write-inclusive-"
-"digital-content-2024#how>`_. These are similar to the tips on `Writing "
-"for Web Accessibility <https://www.w3.org/WAI/tips/writing/#keep-content-"
-"clear-and-concise>`_. Finally, you can explore the `Federal plain "
-"language guidelines <https://www.plainlanguage.gov/guidelines/>`_."
+"digital-content-2024#how>`_. These are similar to the tips on `Writing for "
+"Web Accessibility <https://www.w3.org/WAI/tips/writing/#keep-content-clear-"
+"and-concise>`_. Finally, you can explore the `Federal plain language "
+"guidelines <https://www.plainlanguage.gov/guidelines/>`_."
 msgstr ""
+"この記事は簡潔な言葉遣いについて説明しており、`具体的な例を含むヒント <https://evolvingweb.com/blog/plain-"
+"language-guide-how-write-inclusive-digital-content-2024#how>`_ を含んでいます。これらは "
+"`ウェブアクセシビリティのための書き方 <https://www.w3.org/WAI/tips/writing/#keep-content-"
+"clear-and-concise>`_ のヒントに似ています。最後に、`連邦簡潔な言葉遣いガイドライン "
+"<https://www.plainlanguage.gov/guidelines/>`_ を探すことができます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:79
 msgid "reStructuredText Documents"
-msgstr ""
+msgstr "rst形式のドキュメント\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:81
 msgid ""
 "reStructuredText (RST) is the default plaintext `markup language "
-"<https://en.wikipedia.org/wiki/Markup_language>`_ used by Sphinx. See the"
-" `reStructuredText primer <https://www.sphinx-"
+"<https://en.wikipedia.org/wiki/Markup_language>`_ used by Sphinx. See the "
+"`reStructuredText primer <https://www.sphinx-"
 "doc.org/en/master/usage/restructuredtext/basics.html>`_ for a short "
 "introduction. There is also a `RST cheatsheet <https://sphinx-"
-"tutorial.readthedocs.io/cheatsheet/>`_ that can be helpful to remind you "
-"of the basics."
+"tutorial.readthedocs.io/cheatsheet/>`_ that can be helpful to remind you of "
+"the basics."
 msgstr ""
+"reStructuredText (RST) は Sphinx で使用されるデフォルトのテキスト `マークアップ言語 "
+"<https://en.wikipedia.org/wiki/Markup_language>`_ です。`reStructuredText の入門 "
+"<https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ "
+"を参照して、短い解説を確認してください。また、`RST シート <https://sphinx-"
+"tutorial.readthedocs.io/cheatsheet/>`_ も基本的なルールを思い出させるのに役立ちます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:85
 msgid ""
-"The following sections illustrate how to write RST for FTC Docs. They are"
-" not a tutorial or reference guide for RST."
+"The following sections illustrate how to write RST for FTC Docs. They are "
+"not a tutorial or reference guide for RST."
 msgstr ""
+"次のセクションでは、FTCドキュメント用のreStructuredText (RST) "
+"の書き方を示します。これらはRSTのチュートリアルやリファレンスガイドではありません。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:88
 msgid "Example Document"
-msgstr ""
+msgstr "例示ドキュメント\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:90
 msgid ""
-"The following example shows how content is mixed with RST markup. The RST"
-" markup indicates titles, paragraphs, code samples, images and document "
+"The following example shows how content is mixed with RST markup. The RST "
+"markup indicates titles, paragraphs, code samples, images and document "
 "sections."
 msgstr ""
+"次の例では、コンテンツとreStructuredTextマークアップが混在する方法を示しています。reStructuredTextマークアップはタイトル、段落、コードサンプル、画像、ドキュメントセクションを示します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:130
 msgid ""
@@ -226,23 +252,31 @@ msgid ""
 "<https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_"
 " extension."
 msgstr ""
+"もし ``.rst`` 接尾辞のファイルを編集する際に問題がある場合、推奨されるテキストエディタは `VS Code "
+"<https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_"
+" に `reStructuredText "
+"<https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_"
+" 拡張機能をインストールしたものです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:133
 msgid ""
 "However, a plain text editor works just fine. Though you would need to "
 "generate the HTML to see what the document will look like."
-msgstr ""
+msgstr "しかし、テキストエディタだけで問題ありません。HTMLを生成してドキュメントの見た目を確認する必要があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:136
 msgid "Document Filenames"
-msgstr ""
+msgstr "ドキュメントのファイル名"
 
 #: ../../source/contrib/style_guide/style-guide.rst:138
 msgid ""
-"This is for the files that make up the pages of FTC Docs. Use only "
-"lowercase alphanumeric characters and - (minus) symbol in the file name. "
-"Example: ``style-guide.rst``"
+"This is for the files that make up the pages of FTC Docs. Use only lowercase"
+" alphanumeric characters and - (minus) symbol in the file name. Example: "
+"``style-guide.rst``"
 msgstr ""
+"このファイル名はFTC "
+"Docsのページ構成ファイル用です。ファイル名には小文字のアルファベットと数字、およびハイフン（-）のみを使用してください。例：``style-"
+"guide.rst``"
 
 #: ../../source/contrib/style_guide/style-guide.rst:141
 msgid ""
@@ -250,826 +284,909 @@ msgid ""
 "“-hardware” or “-software” to the end of the document name. example: "
 "``ultrasonics-hardware.rst``"
 msgstr ""
+"ドキュメントに同じソフトウェア/ハードウェア名を使用する場合、ドキュメント名の末尾に“-ハードウェア”または“-ソフトウェア”を追加します。例: "
+"``ultrasonics-hardware.rst``"
 
 #: ../../source/contrib/style_guide/style-guide.rst:143
 msgid "Suffix filenames with the ``.rst`` extension."
-msgstr ""
+msgstr "ファイル名に ``.rst`` 扩展名 を付与します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:146
 msgid "Titles and Headings"
-msgstr ""
+msgstr "タイトルとヘッダー"
 
 #: ../../source/contrib/style_guide/style-guide.rst:148
 msgid ""
-"Titles and Section Headers are both related, and are treated the exact "
-"same way."
-msgstr ""
+"Titles and Section Headers are both related, and are treated the exact same "
+"way."
+msgstr "タイトルとセクションヘッダーは関連していますし、同じ方式で処理されます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:150
 msgid ""
-"In order to create a new Section, SubSection, SubSubSection, and so on, "
-"we just use a special character that we will define for each level. FTC "
-"Docs uses the following:"
+"In order to create a new Section, SubSection, SubSubSection, and so on, we "
+"just use a special character that we will define for each level. FTC Docs "
+"uses the following:"
 msgstr ""
+"新しいセクション、サブセクション、サブサブセクションなどを作成するには、各レベルごとに定義する特別な文字を使用します。FTC "
+"ドキュメントでは以下のようになっています："
 
 #: ../../source/contrib/style_guide/style-guide.rst:170
 msgid ""
-"This is what should be used for different levels of sections. Please nest"
-" the sections in order. For example, use SubSection to add something to a"
-" Section (not a SubSubSection)."
+"This is what should be used for different levels of sections. Please nest "
+"the sections in order. For example, use SubSection to add something to a "
+"Section (not a SubSubSection)."
 msgstr ""
+"これはセクションの異なるレベルで使用するためのもので、順にセクションをネストしてください。例えば、セクションに何か追加するにはSubSectionを使用し（サブサブセクションではありません）。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:173
 msgid ""
-"Titles, Sections, SubSections, etc. must all be uniquely named within the"
-" same document."
-msgstr ""
+"Titles, Sections, SubSections, etc. must all be uniquely named within the "
+"same document."
+msgstr "タイトル、セクション、サブセクションなどは同じドキュメント内では一意の名前でなければなりません。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:176
 msgid "Text"
-msgstr ""
+msgstr "テキスト"
 
 #: ../../source/contrib/style_guide/style-guide.rst:178
 msgid ""
-"Use the ASCII character set for English text. For special characters "
-"(e.g. Greek symbols) use the `standard character entity sets "
+"Use the ASCII character set for English text. For special characters (e.g. "
+"Greek symbols) use the `standard character entity sets "
 "<https://docutils.sourceforge.io/docs/ref/rst/definitions.html#character-"
 "entity-sets>`_."
 msgstr ""
+"英語のテキストにはASCII文字セットを使用してください。特殊な文字（例：ギリシャ語のシンボル）は、`標準的な文字エンティティセット "
+"<https://docutils.sourceforge.io/docs/ref/rst/definitions.html#character-"
+"entity-sets>`_ を使用します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:180
 msgid ""
 "Use ``.. math::`` for standalone equations and ``:math:`` for inline "
-"equations. The ``.. math::`` directive uses Latex markup, see this `LaTeX"
-" equation cheat sheet (PDF) "
-"<https://www.reed.edu/academic_support/pdfs/qskills/latexcheatsheet.pdf>`_"
-" for more information."
+"equations. The ``.. math::`` directive uses Latex markup, see this `LaTeX "
+"equation cheat sheet (PDF) "
+"<https://www.reed.edu/academic_support/pdfs/qskills/latexcheatsheet.pdf>`_ "
+"for more information."
 msgstr ""
+"独立した数式のために ``.. math::`` を、内包された数式のために ``:math:`` を使用します。``.. math::`` "
+"ディレクティブは LaTeX マークアップを使用しますので、詳細については `LaTeX 数式 Cheat Sheet (PDF) "
+"<https://www.reed.edu/academic_support/pdfs/qskills/latexcheatsheet.pdf>`_ "
+"を参照してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:183
 msgid "The standard text formatting markup is quite simple - use:"
-msgstr ""
+msgstr "標準のテキスト形式のマークアップは非常にシンプルです。使用するには:"
 
 #: ../../source/contrib/style_guide/style-guide.rst:185
 msgid "One Asterisk: \\*text\\* for emphasis (italics) - like *text*"
-msgstr ""
+msgstr "One Asterisk: \\*text\\* には強調（イタリック）で「text」のように表示します"
 
 #: ../../source/contrib/style_guide/style-guide.rst:186
-msgid ""
-"Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like "
-"**text**"
-msgstr ""
+msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
+msgstr "二重星付近: \\*\\*text\\*\\* で強調表示（太字）- 例:**text**"
 
 #: ../../source/contrib/style_guide/style-guide.rst:187
 msgid "Two Backticks: \\`\\`text\\`\\` for literals - like ``text``"
-msgstr ""
+msgstr "二つのバッククォート: ``text`` で文字列 - 例如 `text`"
 
 #: ../../source/contrib/style_guide/style-guide.rst:189
 msgid "Use literals for filenames, function, and variable names."
-msgstr ""
+msgstr "ファイル名、関数名、変数名には文字列を使用します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:192
 msgid "Whitespace"
-msgstr ""
+msgstr "空白スペース\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:195
 msgid "Indentation"
-msgstr ""
+msgstr "インデント"
 
 #: ../../source/contrib/style_guide/style-guide.rst:197
 msgid ""
-"Indentation should *always* match the previous level of indentation "
-"*unless* you are creating a new content block."
-msgstr ""
+"Indentation should *always* match the previous level of indentation *unless*"
+" you are creating a new content block."
+msgstr "インデントは常に前のレベルと一致する必要があります。ただし、新しいコンテンツブロックを作成している場合を除きます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:199
 msgid ""
-"Indentation of content directives as new line ``.. toctree::``  should be"
-" `3` spaces."
-msgstr ""
+"Indentation of content directives as new line ``.. toctree::``  should be "
+"`3` spaces."
+msgstr "コンテンツディレクティブのインデントは新しい行 ``.. toctree::`` として ``3`` スペースで应当。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:202
 msgid "Blank Lines"
-msgstr ""
+msgstr "空白行\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:204
 msgid ""
 "There should be one blank line separating basic text blocks and section "
-"titles. There should be one blank line separating text blocks and content"
-" directives."
-msgstr ""
+"titles. There should be one blank line separating text blocks and content "
+"directives."
+msgstr "基本的なテキストブロックとセクションタイトル之间应留有一行空格。文本块与内容指令之间也应留有一行空格。\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:207
 msgid "Interior Whitespace"
-msgstr ""
+msgstr "interiorspaces"
 
 #: ../../source/contrib/style_guide/style-guide.rst:209
 msgid "Use one space between sentences."
-msgstr ""
+msgstr "文間に1つのスペースを使用します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:212
 msgid "Tables"
-msgstr ""
+msgstr "テーブル"
 
 #: ../../source/contrib/style_guide/style-guide.rst:214
 msgid ""
 "There are many ways to create tables, FTC Docs prefers the `list "
-"<https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-"
-"table>`_ or `CSV "
-"<https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-"
+"<https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table>`_ "
+"or `CSV <https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-"
 "table-1>`_ style of RST table. Please avoid the ASCII art form of table."
 msgstr ""
+"テーブルを作成する方法はさまざまですが、FTC Docs では `リスト形式 "
+"<https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table>`_ "
+"や `CSV形式 <https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-"
+"table-1>`_ の RST テーブルが推奨されます。ASCII アート形式のテーブルは避けてください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:229
 msgid "Which creates the following:"
-msgstr ""
+msgstr "これにより次のものが作成されます："
 
 #: ../../source/contrib/style_guide/style-guide.rst:231
 msgid "Frozen Delights!"
-msgstr ""
+msgstr "凍結したデザート！"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "Treat"
-msgstr ""
+msgstr "対処方法"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "Quantity"
-msgstr ""
+msgstr "数量"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "Albatross"
-msgstr ""
+msgstr "アルバトリス"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "2.99"
-msgstr ""
+msgstr "2.99"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "On a stick!"
-msgstr ""
+msgstr "棒に！"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "Crunchy Frog"
-msgstr ""
+msgstr "クランキー・フロッグ"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "1.49"
-msgstr ""
+msgstr "1.49"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "If we took the bones out, it wouldn't be crunchy, now would it?"
-msgstr ""
+msgstr "骨を取り除くと、 Crunchy じゃないよね？"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "Gannet Ripple"
-msgstr ""
+msgstr "ガネットリプル"
 
 #: ../../source/contrib/style_guide/style-guide.rst:1
 msgid "1.99"
-msgstr ""
+msgstr "1.99"
 
 #: ../../source/contrib/style_guide/style-guide.rst:241
 msgid "Admonitions"
-msgstr ""
+msgstr "注意点"
 
 #: ../../source/contrib/style_guide/style-guide.rst:243
 msgid ""
 "Admonitions are RST directives that provide special formatting to the "
-"admonition text. In FTC docs admonitions have a color heading, followed "
-"by a color shaded block with the admonition text. The list of admonitions"
-" is: \"attention\", \"caution\", \"danger\", \"error\", \"hint\", "
-"\"important\", \"note\", \"tip\", \"warning\". FTC Docs has lots of "
-"\"note\" and \"warning\" admonitions."
+"admonition text. In FTC docs admonitions have a color heading, followed by a"
+" color shaded block with the admonition text. The list of admonitions is: "
+"\"attention\", \"caution\", \"danger\", \"error\", \"hint\", \"important\", "
+"\"note\", \"tip\", \"warning\". FTC Docs has lots of \"note\" and "
+"\"warning\" admonitions."
 msgstr ""
+"注意書きはRST命令で、注意書き本文に特別なフォーマットを提供します。FTCドキュメントでは、注意書きには色の見出しが続き、その下に色で塗りつぶされたブロックと注意書き本文が続きます。注意書きの一覧は、「注意」「警告」「危険」「エラー」「ヒント」「重要」「注記」「Tips」「警告」です。FTCドキュメントには多くの「注記」と「警告」の注意書きがあります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:248
 msgid "In RST an admonition looks like:"
-msgstr ""
+msgstr "RSTで注意書きは次のようになります："
 
 #: ../../source/contrib/style_guide/style-guide.rst:259
 msgid "Which results in the following:"
-msgstr ""
+msgstr "以下のように結果になります："
 
 #: ../../source/contrib/style_guide/style-guide.rst:261
-msgid "This is a note admonition. This is the second line of the first paragraph."
-msgstr ""
+msgid ""
+"This is a note admonition. This is the second line of the first paragraph."
+msgstr "これは注意書きのメモです。これは最初の段落の二行目です。\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:264
 msgid "The note contains all indented body elements following."
-msgstr ""
+msgstr "該当のメモには、すべてのインデントされた本文要素が含まれています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:266
 msgid "It includes this bullet list."
-msgstr ""
+msgstr "これはこのバッテリーリストを含みます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:268
 msgid "Please use admonitions to highlight important information."
-msgstr ""
+msgstr "重要な情報はアドモンションを使用して強調表示してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:270
 msgid "Admonitions should usually should be short."
-msgstr ""
+msgstr "注意は通常、短いものshould usually です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:273
 msgid "Links"
-msgstr ""
+msgstr "リンク"
 
 #: ../../source/contrib/style_guide/style-guide.rst:275
 msgid "Effective link text:"
-msgstr ""
+msgstr "効果的なリンクテキスト："
 
 #: ../../source/contrib/style_guide/style-guide.rst:277
 msgid ""
 "Avoid link text such as “click here” or \"learn more.\" These call to "
 "actions do not provide any relevant information."
-msgstr ""
+msgstr "リンクテキストは「クリックしてここを参照」や「もっと学ぶ」のようなもの避けましょう。これらの呼びかけは関連情報提供にはなりません。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:278
 msgid ""
-"Links should be unique and describe where it takes you. If you have "
-"multiple links that look or sound similar (but point to different "
-"sections), use different words for each link."
+"Links should be unique and describe where it takes you. If you have multiple"
+" links that look or sound similar (but point to different sections), use "
+"different words for each link."
 msgstr ""
+"リンクは一意で、そのリンク先を説明するものにしてください。類似した見た目や音色の複数のリンク（異なるセクション先に指向している場合）がある場合は、それぞれのリンクに対して異なる言葉を使用してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:279
 msgid ""
 "Links to files (e.g. Microsoft Word, PDF, etc.) should also indicate the "
 "file type or destination within the link text."
-msgstr ""
+msgstr "ファイルへのリンク（Microsoft Word、PDFなど）は、リンクテキスト内でもファイルの種類や先頭目的地を示すようにすること。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:280
 msgid ""
-"Avoid using long URLs as link text. Longer, less intelligible URLs used "
-"as link text might be difficult to comprehend with assistive technology."
-msgstr ""
+"Avoid using long URLs as link text. Longer, less intelligible URLs used as "
+"link text might be difficult to comprehend with assistive technology."
+msgstr "長いURLを使用しないでください。理解しにくい長いURLは、補助技術と併用する際には難解になる可能性があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:281
 msgid ""
 "Link text should be clear and concise. Avoid linking entire sentences or "
 "paragraphs."
-msgstr ""
+msgstr "リンク先のテキストは簡潔で明確にすること。文章や段落全体をリンクしない。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:283
 msgid ""
-"See this guide on `writing hyperlinks <https://www.nngroup.com/articles"
-"/writing-links/>`_ for more information."
+"See this guide on `writing hyperlinks "
+"<https://www.nngroup.com/articles/writing-links/>`_ for more information."
 msgstr ""
+"参照ガイド: `ハイパーリンクの書き方 <https://www.nngroup.com/articles/writing-links/>`_ "
+"で詳細を確認できます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:286
 msgid "Internal Links"
-msgstr ""
+msgstr "内部リンク"
 
 #: ../../source/contrib/style_guide/style-guide.rst:288
 msgid ""
-"Internal Links will be automatically generated based on the "
-"ReStructuredText filename and section title. For example, here are "
-"several ways to link to sections and documents."
+"Internal Links will be automatically generated based on the ReStructuredText"
+" filename and section title. For example, here are several ways to link to "
+"sections and documents."
 msgstr ""
+"内部リンクはReStructuredTextのファイル名とセクションタイトルに基づいて自動生成されます。例えば、セクションやドキュメントへのリンク方法はいくつかあります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:291
 msgid ""
-"Use this format to reference a section of the same document: "
-"```Images`_`` Note the single underscore. This renders to the link "
-"`Images`_ which is a section further down in this document."
+"Use this format to reference a section of the same document: ```Images`_`` "
+"Note the single underscore. This renders to the link `Images`_ which is a "
+"section further down in this document."
 msgstr ""
+"この形式で同じドキュメント内のセクションを参照してください: ``Images`_`` "
+"単一のアンダースコアに注意してください。これは、このドキュメントの下部にある `Images`_` セクションへのリンクとしてレンダリングされます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:293
 msgid ""
 "Use this format to reference the top level of a document. You can use "
-"relative paths ``:doc:`image-and-figure-details``` renders to :doc"
-":`image-and-figure-details`. Or to use absolute paths, put a forward "
-"slash at the beginning of the path "
-"``:doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-"
-"webcams``` renders to :doc:`/apriltag/vision_portal/visionportal_webcams"
-"/visionportal-webcams`. Note that the link text rendered is the main "
-"section title of the target page regardless of the target filename."
+"relative paths ``:doc:`image-and-figure-details``` renders to :doc:`image-"
+"and-figure-details`. Or to use absolute paths, put a forward slash at the "
+"beginning of the path "
+"``:doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams```"
+" renders to :doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-"
+"webcams`. Note that the link text rendered is the main section title of the "
+"target page regardless of the target filename."
 msgstr ""
+"この形式を使用してドキュメントのトップレベルを参照します。相対パスを使用する場合、``:doc:`image-and-figure-details```"
+" は :doc:`image-and-figure-details` "
+"にレンダリングされます。絶対パスを使用する場合は、パスの先頭にスラッシュを付けます。``:doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-"
+"webcams``` は "
+":doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams` "
+"にレンダリングされます。なお、リンクテキストとしてレンダリングされるのはターゲットページの主要セクションタイトルで、ファイル名に関係ありません。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:295
 msgid ""
-"The general way to reference a section in another document is to add a "
-"label in front of the section in that other document. Note the leading "
-"underscore and trailing colon that surround the label. The label must be "
-"unique across all of FTC Docs. You can also reference a Figure with the "
-"label method."
+"The general way to reference a section in another document is to add a label"
+" in front of the section in that other document. Note the leading underscore"
+" and trailing colon that surround the label. The label must be unique across"
+" all of FTC Docs. You can also reference a Figure with the label method."
 msgstr ""
+"別のドキュメント内のセクションを参照する一般的な方法は、その他のドキュメントの該当セクションの前にラベルを追加することです。ラベルは、ラベルの両端に "
+"Leading underscore と trailing colon が付いています。このラベルは FTC Docs "
+"全体で一意である必要があります。また、ラベル方法を使用して図も参照できます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:305
 msgid ""
-"Then you reference the label by using ``:ref:`` and surrounding the label"
-" with back ticks as follows:"
-msgstr ""
+"Then you reference the label by using ``:ref:`` and surrounding the label "
+"with back ticks as follows:"
+msgstr "次に、ラベルを参照するには ``:ref:`` を使用し、ラベルをバックタックで囲む必要があります。以下のようにします："
 
 #: ../../source/contrib/style_guide/style-guide.rst:313
 msgid ""
 "The second ``:ref:`` shows a format that lets you specify the link text, "
-"otherwise the section heading is used for the link text. This looks like "
-"the following:"
+"otherwise the section heading is used for the link text. This looks like the"
+" following:"
 msgstr ""
+"二番目の ``:ref:`` "
+"はリンクテキストを指定できるフォーマットを示しています。指定がない場合は、セクションヘッダーがリンクテキストとして使用されます。これは次のようになります："
 
 #: ../../source/contrib/style_guide/style-guide.rst:317
 msgid "partial sentence including :ref:`imu axes def`"
-msgstr ""
+msgstr "部分的な文が:ref:`imu axes def` に含まれています"
 
 #: ../../source/contrib/style_guide/style-guide.rst:318
 msgid "This shows the section heading."
-msgstr ""
+msgstr "この部分の見出しが表示されます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:319
 msgid "another reference to :ref:`IMU or robot axes <imu axes def>`"
 msgstr ""
+"IMUやロボット軸に関する別の参照:<br>\\n\"\n"
+"\":ref:`imu axes def`<br>\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:320
 msgid "This shows custom link text."
-msgstr ""
+msgstr "これはカスタムリンクテキストを表示します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:322
 msgid ""
-"When using ``:ref:`` or ``:doc:`` you may customize the displayed text by"
-" surrounding the actual link with angle brackets ``<>`` and adding the "
-"custom text between the first back tick ````` and the first angle bracket"
-" ``<``, leaving a space between the text and bracket. For example "
-"``:ref:`RC Overview <control_hard_compon/rc_components/index:Robot "
-"Controller Overview>``` renders to :ref:`RC Overview "
-"<control_hard_compon/rc_components/index:Robot Controller Overview>`. "
-"This is a link to the Robot Controller Overview section of the index in "
-"the rc_components folder."
+"When using ``:ref:`` or ``:doc:`` you may customize the displayed text by "
+"surrounding the actual link with angle brackets ``<>`` and adding the custom"
+" text between the first back tick ````` and the first angle bracket ``<``, "
+"leaving a space between the text and bracket. For example ``:ref:`RC "
+"Overview <control_hard_compon/rc_components/index:Robot Controller "
+"Overview>``` renders to :ref:`RC Overview "
+"<control_hard_compon/rc_components/index:Robot Controller Overview>`. This "
+"is a link to the Robot Controller Overview section of the index in the "
+"rc_components folder."
 msgstr ""
+"``:ref:`` または ``:doc:`` を使用する場合、リンクを角括弧 ``<>`` で囲み、カスタムテキストを最初のバックタック ````` "
+"と最初の角括弧 ``<`` の間に配置し、テキストと括弧の間にはスペースを入れることができます。例えば、``:ref:`RC オーバビュウ "
+"<control_hard_compon/rc_components/index:Robot Controller Overview>``` は "
+":ref:`RC オーバビュウ <control_hard_compon/rc_components/index:Robot Controller "
+"Overview>`` にレンダリングされます。これは rc_components フォルダー内のインデックスの Robot Controller "
+"Overview セクションへのリンクです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:327
 msgid "External Links"
-msgstr ""
+msgstr "外部リンク"
 
 #: ../../source/contrib/style_guide/style-guide.rst:329
 msgid ""
-"Links to other websites and even to the main *FIRST* Inspires site are "
-"call *external links*. It's possible to create a link by entering the URL"
-" in the text https://ftc-resources.firstinspires.org/ftc/game. Sphinx "
-"will build a link when it encounters a URL. But that is not the preferred"
-" approach."
+"Links to other websites and even to the main *FIRST* Inspires site are call "
+"*external links*. It's possible to create a link by entering the URL in the "
+"text https://ftc-resources.firstinspires.org/ftc/game. Sphinx will build a "
+"link when it encounters a URL. But that is not the preferred approach."
 msgstr ""
+"他のウェブサイトや、主な *FIRST* Inspires サイトへのリンクは「外部リンク」です。URL "
+"をテキストに記入することでリンクを作成できます。たとえば、https://ftc-"
+"resources.firstinspires.org/ftc/game に入力します。Sphinx は URL "
+"を見つけたときにリンクを生成しますが、これが推奨される方法ではありません。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:333
 msgid ""
 "Use descriptive link text rather than just embedding a URL. Use the "
 "following RST syntax:"
-msgstr ""
+msgstr "説明的なリンクテキストを使用し、単にURLを埋め込むのではなく、次のreStructuredText構文を使用してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:340
 msgid ""
 "Which looks like: `Game and Season Materials <https://ftc-"
 "resources.firstinspires.org/ftc/game>`_"
 msgstr ""
+"これは次のようになります: `ゲームとシーズンの資料 <https://ftc-"
+"resources.firstinspires.org/ftc/game>`_"
 
 #: ../../source/contrib/style_guide/style-guide.rst:342
 msgid ""
 "FTC Docs has chosen to open links to external sites in new tabs. This is "
 "done with JavaScript. We mitigate this somewhat by adding an icon that "
-"indicates the link is to an external site and add screen reader only "
-"text."
+"indicates the link is to an external site and add screen reader only text."
 msgstr ""
+"FTC Docs は外部サイトへのリンクを新しいタブで開くことにしています。これにはJavaScriptを使用します。この機能を少し mitigate "
+"するために、リンクが外部サイトであることを示すアイコンとスクリーンリーダーのみ用いるテキストを追加しています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:346
 msgid "Links to Files"
-msgstr ""
+msgstr "ファイルへのリンク"
 
 #: ../../source/contrib/style_guide/style-guide.rst:348
 msgid ""
-"You can directly link to files such as a PDF, but that is an "
-"accessibility problem. The issue is the context switch from web browsing "
-"to suddenly having to deal with a PDF that has probably opened in a new "
-"tab/window without any warning. FTC Docs contains quite a few links to "
-"PDFs that should be make more accessible."
+"You can directly link to files such as a PDF, but that is an accessibility "
+"problem. The issue is the context switch from web browsing to suddenly "
+"having to deal with a PDF that has probably opened in a new tab/window "
+"without any warning. FTC Docs contains quite a few links to PDFs that should"
+" be make more accessible."
 msgstr ""
+"ファイル SUCHAS PDF "
+"に直接リンクすることはできますが、アクセシビリティ上の問題があります。問題はウェブブラウジングから一瞬でPDFを開くことへの切り替えであり、おそらく新しいタブまたはウィンドウで開かれていて警告がないためです。FTC"
+" Docsには多くのPDFへのリンクがあり、これらをよりアクセシブルにすべきです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:352
 msgid ""
 "The recommended approach to linking to files is to include in the link a "
-"warning that the link is actually a file, the file type, and if possible "
-"the file size. Ideally that information is in text and included in the "
-"link text portion of the link so that a screen reader would read that "
-"information and let the user decide if they want to follow the link."
+"warning that the link is actually a file, the file type, and if possible the"
+" file size. Ideally that information is in text and included in the link "
+"text portion of the link so that a screen reader would read that information"
+" and let the user decide if they want to follow the link."
 msgstr ""
+"ファイルへのリンクには、リンクが実際にはファイルであることを警告し、ファイルの種類と可能な場合はファイルサイズも含めることが推奨されます。理想の場合、その情報はテキストとしてリンク先のリンクテキスト部分に含まれており、スクリーンリーダーがその情報を読み上げてユーザーがリンクを追跡するかどうかを判断できるようにします。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:355
 msgid "Simple example of a link to a PDF."
-msgstr ""
+msgstr "PDFへの簡単なリンクの例。\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:357
 msgid "RST Code:"
-msgstr ""
+msgstr "RSTコード:\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:363
 msgid "Which looks like:"
-msgstr ""
+msgstr "以下のように見えます："
 
 #: ../../source/contrib/style_guide/style-guide.rst:367
 msgid ""
 "`Field Setup Guide (PDF) <https://ftc-"
 "resources.firstinspires.org/ftc/field/eventfieldguide>`__"
 msgstr ""
+"`フィールド設置ガイド（PDF） <https://ftc-"
+"resources.firstinspires.org/ftc/field/eventfieldguide>`__"
 
 #: ../../source/contrib/style_guide/style-guide.rst:369
 msgid ""
-"Generally in FTC Docs we link to file to enable them to be downloaded for"
-" printing or offline viewing. In that case, the user is downloading the "
-"file, which is an action, so a button is appropriate. Buttons are "
-"appropriate user interface components for user actions. Using a button as"
-" a link will visually distinguish a file link from a regular link."
+"Generally in FTC Docs we link to file to enable them to be downloaded for "
+"printing or offline viewing. In that case, the user is downloading the file,"
+" which is an action, so a button is appropriate. Buttons are appropriate "
+"user interface components for user actions. Using a button as a link will "
+"visually distinguish a file link from a regular link."
 msgstr ""
+"FTCドキュメントでは、一般的にファイルへのリンクを提供し、印刷やオフライン閲覧のためにダウンロードできるようにします。その場合、ユーザーがファイルをダウンロードするアクションがあるため、ボタンが適切です。ユーザーのアクション用のユーザーインターフェースコンポーネントとして、ボタンは適しています。ファイルリンクと通常のリンクを視覚的に区別するために、ボタンを使用してリンクを提供します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:374
 msgid ""
-"The following RST example show a sentence that precedes the button to "
-"give context. We include the document name as screen readers and keyboard"
-" only users might tab to the link so we need to indicate in the link what"
-" file will be downloadable."
+"The following RST example show a sentence that precedes the button to give "
+"context. We include the document name as screen readers and keyboard only "
+"users might tab to the link so we need to indicate in the link what file "
+"will be downloadable."
 msgstr ""
+"以下のreStructuredTextの例では、ボタンをクリックする前に文脈を提供するために使用される文章が示されています。ドキュメント名を含めることで、スクリーンリーダーやキーボードのみを使用するユーザーがリンクにタブ操作した場合にダウンロードされるファイルを示すことができます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:387
 msgid "This looks like:"
-msgstr ""
+msgstr "これは以下のようになります："
 
 #: ../../source/contrib/style_guide/style-guide.rst:391
 #: ../../source/contrib/style_guide/style-guide.rst:423
 msgid ""
 "Use the following button link to download a PDF of the Field Setup Guide "
 "from the *FIRST* Website:"
-msgstr ""
+msgstr "次のようにリンクボタンを使用して、*FIRST* ウェブサイトからフィールド設定ガイドのPDFをダウンロードしてください:"
 
 #: ../../source/contrib/style_guide/style-guide.rst:393
 #: ../../source/contrib/style_guide/style-guide.rst:425
 msgid "Download Field Setup Guide PDF, 4.5 MB"
-msgstr ""
+msgstr "フィールド設定ガイドPDFをダウンロード、4.5 MB"
 
 #: ../../source/contrib/style_guide/style-guide.rst:398
 msgid ""
-"The preferred approach when linking to files is to create what is called "
-"a gateway page. The gateway page would describes the file, perhaps giving"
-" a summary of the content. This lets the reader decide if it's worth "
-"taking the trouble to view or download the file. Ideally, all references "
-"to the file elsewhere on the website link to the gateway page which then "
-"links to the file."
+"The preferred approach when linking to files is to create what is called a "
+"gateway page. The gateway page would describes the file, perhaps giving a "
+"summary of the content. This lets the reader decide if it's worth taking the"
+" trouble to view or download the file. Ideally, all references to the file "
+"elsewhere on the website link to the gateway page which then links to the "
+"file."
 msgstr ""
+"ファイルへのリンクをする際の推奨方法は、所谓ゲートウェイページを作成することです。このゲートウェイページでは、ファイルについて説明を記載し、内容の概要を提供するなどします。これにより、読者はファイルを見るかダウンロードする価値があるかどうかを自分で判断できます。理想の場合、ウェブサイト上の他のすべての場所でファイルへの参照はゲートウェイページにリンクしており、そのゲートウェイページからファイルへのリンクが行われます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:403
 msgid ""
-"External reference: https://www.nngroup.com/articles/gateway-pages-"
-"prevent-pdf-shock/"
+"External reference: https://www.nngroup.com/articles/gateway-pages-prevent-"
+"pdf-shock/"
 msgstr ""
+"外部リンク:<https://www.nngroup.com/articles/gateway-pages-prevent-pdf-shock/>"
 
 #: ../../source/contrib/style_guide/style-guide.rst:405
 msgid "Here's a gateway page example for the Field Setup Guide PDF."
-msgstr ""
+msgstr "ここはフィールド設定ガイドPDFのゲートウェイページの例です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:409
 msgid ""
 "The Field Setup Guide has the official instructions for assembling and "
 "setting up a *FIRST* Tech Challenge field. Typically there are assembly "
 "instructions that build structures that then have setup instructions for "
-"placing on the field. There are also tear down instructions that indicate"
-" how to take apart the field for storage or transport."
+"placing on the field. There are also tear down instructions that indicate "
+"how to take apart the field for storage or transport."
 msgstr ""
+"フィールド設置ガイドには、*FIRST* Tech Challenge "
+"フィールドを組み立てるための公式手順が記載されています。通常は、構造物を組み立てる作業手順があり、その後にフィールドに配置するための設置手順があります。また、収納や輸送のためにフィールドを解体する方法も示されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:413
 msgid "The guide typically has the following sections:"
-msgstr ""
+msgstr "ガイドは通常、以下のセクションを含みます："
 
 #: ../../source/contrib/style_guide/style-guide.rst:415
 msgid ""
-"A list of all tools required for assembly and setup, some tools are only "
-"for assembly or for setup."
-msgstr ""
+"A list of all tools required for assembly and setup, some tools are only for"
+" assembly or for setup."
+msgstr "組み立てと設定に必要なすべての工具の一覧です。一部の工具は組み立て用か、設定用のみです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:416
 msgid ""
-"A list all the game elements and scoring elements with the quantity of "
-"each."
-msgstr ""
+"A list all the game elements and scoring elements with the quantity of each."
+msgstr "ゲーム内のすべての要素と得点要素の一覧以及每种元素的数量。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:417
 msgid "Instructions for setup of the field perimeter and field tiles."
-msgstr ""
+msgstr "フィールド周囲とフィールドタイルの設定方法についての指示。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:418
 msgid ""
 "Step by step instructions for assembling parts and setting them on the "
 "field."
-msgstr ""
+msgstr "部品の組み立て方とフィールドに配置する手順。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:419
 msgid ""
-"Most games have tape lines on the field to mark locations or areas of the"
-" game. There are also taped areas outside the field for the Alliances, "
-"and sometimes for game areas."
+"Most games have tape lines on the field to mark locations or areas of the "
+"game. There are also taped areas outside the field for the Alliances, and "
+"sometimes for game areas."
 msgstr ""
+"多くのゲームでは、フィールドにテープ線が引かれており、ゲーム内の位置やエリアを示しています。また、アライアンス用のテープ区画や、有时用于游戏区域的外部区域也会被标记。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:420
 msgid ""
-"Most games have AprilTags placed around the field that can be used for "
-"robot navigation."
-msgstr ""
+"Most games have AprilTags placed around the field that can be used for robot"
+" navigation."
+msgstr "多くのゲームでは、フィールドの周囲にロボットナビゲーションで使用できるAprilTagsが配置されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:421
 msgid ""
 "Finally, there are tear down instructions that indicate how to take the "
 "field down for storage or transport."
-msgstr ""
+msgstr "最後に、フィールドを保管や輸送のために取り下げることについての手順があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:431
 msgid "Images"
-msgstr ""
+msgstr "画像"
 
 #: ../../source/contrib/style_guide/style-guide.rst:433
 msgid ""
 "Images usually support the text on a page. They provide visual "
-"reinforcement. Sometimes an image is the primary source of meaning for "
-"the content. It's hard to talk about AprilTags without images of what an "
+"reinforcement. Sometimes an image is the primary source of meaning for the "
+"content. It's hard to talk about AprilTags without images of what an "
 "AprilTag looks like."
 msgstr ""
+"画像は通常、ページ上のテキストを補完します。視覚的な強調を提供します。時として、コンテンツの意味の主な源は画像です。AprilTagについて話すのは、AprilTagがどのようなものかの画像がないと難しいです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:437
 msgid ""
-"For FTC Docs, please don't add :ref:`decorative-images-label` that are "
-"just for visual presentation. Images should relate to the content of the "
-"page."
+"For FTC Docs, please don't add :ref:`decorative-images-label` that are just "
+"for visual presentation. Images should relate to the content of the page."
 msgstr ""
+"FTCドキュメントでは、視覚的な表現のみのために使用される:ref:`decorative-images-"
+"label`は追加しないでください。画像はページの内容と関連付けてください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:440
 msgid ""
-"See `Image Files`_ for file formats, size, and where to place images the "
-"FTC Docs folders."
-msgstr ""
+"See `Image Files`_ for file formats, size, and where to place images the FTC"
+" Docs folders."
+msgstr "FTCドキュメントフォルダ内での画像ファイルの形式、サイズ、および配置については、`イメージファイル`_ を参照してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:443
 msgid "Simple Images"
-msgstr ""
+msgstr "単純な画像"
 
 #: ../../source/contrib/style_guide/style-guide.rst:445
 msgid ""
-"Use the following ``.. image`` directive when the image does not require "
-"a visible text caption. For accessibility, please add an ``:alt:`` option"
-" to the image directive with a functional description of the image. This "
-"description will not be visible on a web page or PDF, but will be spoken "
-"out loud by screen reader software."
+"Use the following ``.. image`` directive when the image does not require a "
+"visible text caption. For accessibility, please add an ``:alt:`` option to "
+"the image directive with a functional description of the image. This "
+"description will not be visible on a web page or PDF, but will be spoken out"
+" loud by screen reader software."
 msgstr ""
+"次の ``.. image`` "
+"ディレクティブを使用してください。画像に見えるテキストキャプションが不要な場合です。アクセシビリティのために、画像ディレクティブの ``:alt:`` "
+"オプションに画像の機能的な説明を追加してください。この説明はウェブページやPDFには見えませんが、スクリーンリーダーソフトウェアによって読み上げられます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:455
 msgid "The ``:alt:`` line is indented three spaces."
-msgstr ""
+msgstr "The ``:alt:`` 行は三つのスペースでインデントされています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:457
 msgid ""
 "The description should be functional. Describe the image for someone who "
 "cannot see it."
-msgstr ""
+msgstr "画像が見えない人でも機能するように説明してください。画像を詳細に説明します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:459
 msgid ""
-"Here's what the web page for an image looks like (but reduced in size for"
-" this example). The image is a screen shot of the Blocks programming tool"
-" on a page that talks about the various programming tools available."
+"Here's what the web page for an image looks like (but reduced in size for "
+"this example). The image is a screen shot of the Blocks programming tool on "
+"a page that talks about the various programming tools available."
 msgstr ""
+"ここに画像のウェブページの雰囲気を示します（この例ではサイズが縮小されています）。この画像は、各種プログラミングツールについて説明しているページ上のブロック型プログラミングツールのスクリーンショットです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst
 msgid "Blocks Programming Tool showing a graphical Blocks program."
-msgstr ""
+msgstr "ブロックプログラミングツールでグラフィカルなブロックプログラムを表示しています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:469
 msgid ""
 "The alt text reads *Blocks Programming Tool showing a graphical Blocks "
-"program.* The alt text is not visible in HTML or PDF, but would be spoken"
-" aloud by screen reading software. Alt text is displayed in the browser "
-"if the image failed to load or the user had selected to not load images "
-"because they are on a low bandwidth internet connection."
+"program.* The alt text is not visible in HTML or PDF, but would be spoken "
+"aloud by screen reading software. Alt text is displayed in the browser if "
+"the image failed to load or the user had selected to not load images because"
+" they are on a low bandwidth internet connection."
 msgstr ""
+"altテキストは「ブロックプログラミングツールでグラフィカルなブロックプログラムを表示しています」です。このaltテキストはHTMLやPDFでは見えませんが、読み上げソフトウェアによって読み上げられます。画像のロードに失敗した場合や画像をロードしないように設定しているユーザーの場合、ブラウザ上でaltテキストが表示されます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:474
 msgid ""
 "FTC Docs has many diagrams. Some are simple like this one for a control "
 "system diagram on a page that introduces the control system."
-msgstr ""
+msgstr "FTC ドキュメントには多くの図が含まれています。その中のいくつかは、制御システム図を説明するページにあるようなシンプルなものもあります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst
 msgid ""
-"Two gamepads are connected to a Rev Driver Hub, which is connected by "
-"WiFi to a Rev Control Hub on the robot."
+"Two gamepads are connected to a Rev Driver Hub, which is connected by WiFi "
+"to a Rev Control Hub on the robot."
 msgstr ""
+"二つのゲームパッドがREVドライバーハブに接続されており、この REV ドライバーハブはワイヤレス通信でロボット上の REV "
+"コントロールハブに接続されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:483
 msgid ""
-"The alt text reads *Two gamepads are connected to a Rev Driver Hub, which"
-" is connected by WiFi to a Rev Control Hub on the robot.*"
+"The alt text reads *Two gamepads are connected to a Rev Driver Hub, which is"
+" connected by WiFi to a Rev Control Hub on the robot.*"
 msgstr ""
+"The alt text reads 二つのゲームパッドがRev ドライバーハブに接続されており、そのRev "
+"コントロールハブはワイヤレスでロボットと接続されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:485
 msgid ""
 "FTC Docs also has photographs. These also need alt text to describe the "
 "image."
-msgstr ""
+msgstr "FTCドキュメントにも写真があります。これらの写真も画像の説明のために替代テキストが必要です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:488
 msgid "Alt Text Guidelines"
-msgstr ""
+msgstr "代替テキストのガイドライン"
 
 #: ../../source/contrib/style_guide/style-guide.rst:490
 msgid ""
-"Keep it short. Alt text shouldn’t be much longer than around 150 "
-"characters."
-msgstr ""
+"Keep it short. Alt text shouldn’t be much longer than around 150 characters."
+msgstr "簡潔に。代替テキストは約150文字程度に抑えること。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:492
 msgid "Do not include words like ‘image’ or ‘photo’ at the beginning."
-msgstr ""
+msgstr "画像や写真という言葉は最初に含めないでください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:494
 msgid ""
 "End alt text with a period, even if it isn’t a full sentence. The period "
 "ensures that the screen reader pauses after reading the alt text."
 msgstr ""
+"altテキストの終了には句点を使用し、必ずしも文全体でない場合でも同様です。句点はスクリーンリーダーがaltテキストを読み上げ後に一時停止することを確保します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:496
 msgid ""
 "Front load alt text with the most important words, to help users make a "
-"quick and informed decision about whether it’s worth listening to the "
-"rest of the alt text before moving on."
+"quick and informed decision about whether it’s worth listening to the rest "
+"of the alt text before moving on."
 msgstr ""
+"前方ローディングの代替テキストには、最も重要な単語を使用し、ユーザーが他の代替テキストをスキップする前に一時的な判断をするために役立つようにします。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:498
 msgid ""
-"Always include an alt attribute. Otherwise, screen readers might announce"
-" the image file name."
-msgstr ""
+"Always include an alt attribute. Otherwise, screen readers might announce "
+"the image file name."
+msgstr "常にalt属性を含めることをお勧めします。そうでない場合、スクリーンリーダは画像ファイル名を anunci する可能性があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:500
 msgid ""
 "Avoid technical jargon and abbreviations unless users are certain to "
 "understand them."
-msgstr ""
+msgstr "技術用語や省略语は、ユーザーが確実に理解できる場合以外は避けてください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:502
 msgid ""
-"If you need more than a sentence or two to describe the image, see "
-"`Complex Images`_."
-msgstr ""
+"If you need more than a sentence or two to describe the image, see `Complex "
+"Images`_."
+msgstr "画像を説明するのに一文以上必要なら、`複雑な画像`_ を参照してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:504
 msgid "For assistance with alt text descriptions, see :ref:`alt-text-label`."
-msgstr ""
+msgstr "ALTテキストの説明についての Assistance は、:ref:`alt-text-label` を参照してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:506
 msgid ""
 "If you are editting an existing page that has an ``.. image`` or ``.. "
-"figure`` directive with no ``:alt:`` option, please take a moment to add "
-"the ``:alt:`` option with a functional description of the image."
+"figure`` directive with no ``:alt:`` option, please take a moment to add the"
+" ``:alt:`` option with a functional description of the image."
 msgstr ""
+"もし既存のページを編集している場合、``.. image`` または ``.. figure`` ディレクティブに ``:alt:`` "
+"オプションが設定されていない場合は、画像の機能的な説明を持つ ``:alt:`` オプションを追加する時間をください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:510
 msgid "Images With Captions"
-msgstr ""
+msgstr "キャプション付き画像"
 
 #: ../../source/contrib/style_guide/style-guide.rst:512
 msgid ""
 "Use the ``..figure`` directive when the image requires a visible text "
-"caption. Sphinx place the caption text below the image. The caption text "
-"is in italic font."
+"caption. Sphinx place the caption text below the image. The caption text is "
+"in italic font."
 msgstr ""
+"画像に表示する visibly なテキストキャプションが必要な場合、「.. figure::」ディレクティブを使用します。Sphinx "
+"は画像の下にキャプションテキストを配置します。キャプションテキストはイタリック体で表示されます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:515
 msgid ""
-"Photo credits are an example of when you need a caption. You should also "
-"use a caption when you need editorial or illustrative text to highlight "
+"Photo credits are an example of when you need a caption. You should also use"
+" a caption when you need editorial or illustrative text to highlight "
 "something about the image to the reader or to connect the image to the "
 "surrounding text content. This could include the who, what, when, where, "
-"and/or why of an image. You might draw the readers attention to some "
-"detail of the image, or what is important in the image. Captions can be "
-"longer than one line if needed, but should generally be kept short."
+"and/or why of an image. You might draw the readers attention to some detail "
+"of the image, or what is important in the image. Captions can be longer than"
+" one line if needed, but should generally be kept short."
 msgstr ""
+"写真のクレジットは、キャプションが必要な例です。画像に編集上のテキストや説明的なテキストを追加して読者に情報を提供する必要がある場合にもキャプションを使用します。これには、写真の誰、何、いつ、どこ、なぜなどの情報が含まれることがあります。キャプションは詳細を指し示すために読者の注意を引くために使用されることがあります。必要に応じて1行以上で記述できるようですが、一般的には短い方が良いです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:522
 msgid ""
 "Please create alt text even though there is a caption. The alt text and "
-"caption should be different because a screen reader will read both. One "
-"way to think about this is the alt text should be functional and the "
-"caption should editorial or illustrative."
+"caption should be different because a screen reader will read both. One way "
+"to think about this is the alt text should be functional and the caption "
+"should editorial or illustrative."
 msgstr ""
+"请即使有图注也要创建替代文本。替代文本和图注应有所不同，因为屏幕阅读器会读取两者。思考这个问题的一种方式是，替代文本应该是功能性的，而图注则是编辑性或说明性的。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:526
 msgid ""
-"Do not add the word \"Figure\" to the caption, or \"Figure 1\", etc. The "
-"PDF writer will automatically add \"Fig.\" and a number to all captions."
+"Do not add the word \"Figure\" to the caption, or \"Figure 1\", etc. The PDF"
+" writer will automatically add \"Fig.\" and a number to all captions."
 msgstr ""
+"図のキャプションに「図」や「図1」などは追加しないでください。PDFライターは自動的にすべてのキャプションに「Fig.」と番号を追加します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:529
 msgid ""
-"If you need to reference the figure in the text of the page, use the "
-"leading text of the caption if possible, or some unique short identifier "
-"or description of the image. Try not to reference the figure by position "
-"(such as \"see the image above\") as visually impaired persons cannot see"
-" the position. Also, the PDF writer might move the figure out of context "
-"with the surrounding text."
+"If you need to reference the figure in the text of the page, use the leading"
+" text of the caption if possible, or some unique short identifier or "
+"description of the image. Try not to reference the figure by position (such "
+"as \"see the image above\") as visually impaired persons cannot see the "
+"position. Also, the PDF writer might move the figure out of context with the"
+" surrounding text."
 msgstr ""
+"ページのテキストで図を参照する必要がある場合は、可能であればキャプションの先頭のテキストを使用します。または、画像のユニークな短い識別子や説明を使用します。位置（「上部の図を参照してください」など）で図を参照しないようにしましょう。視覚障害者にとっては位置が見えないからです。また、PDF"
+" ワriter は図を周辺テキストから文脈を逸脱する場所に移動させる可能性があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:534
 msgid ""
-"The following example is on a page about 3D printed parts in a section "
-"about Robot Aesthetics."
-msgstr ""
+"The following example is on a page about 3D printed parts in a section about"
+" Robot Aesthetics."
+msgstr "次の例は、ロボットの美観についてのセクション内の3Dプリント部品に関するページにあります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:543
 msgid ""
-"Note that ``:alt:`` and caption are both indented 3 spaces. A blank line "
-"is required between ``:alt:`` and the caption."
+"Note that ``:alt:`` and caption are both indented 3 spaces. A blank line is "
+"required between ``:alt:`` and the caption."
 msgstr ""
 
 #: ../../source/contrib/style_guide/style-guide.rst:546
-msgid "Here's what this looks like (with image reduced in size for this example)."
-msgstr ""
+msgid ""
+"Here's what this looks like (with image reduced in size for this example)."
+msgstr "以下がこれの見た目です（例として画像サイズを小さくしています）。"
 
 #: ../../source/contrib/style_guide/style-guide.rst
 msgid "6 multicolor square 3d printed logos."
-msgstr ""
+msgstr "6種類の多色正方形3Dプリントロゴ。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:555
 msgid ""
-"This FTC Team printed their sponsors logos in multiple colors to "
-"represent them!"
-msgstr ""
+"This FTC Team printed their sponsors logos in multiple colors to represent "
+"them!"
+msgstr "このFIRST Tech Challengeチームは、スポンサーのロゴを複数色で印刷し、彼らを表現しました！"
 
 #: ../../source/contrib/style_guide/style-guide.rst:557
-msgid "The alt text for the image reads *6 multicolor square 3d printed logos.*"
-msgstr ""
+msgid ""
+"The alt text for the image reads *6 multicolor square 3d printed logos.*"
+msgstr "画像の代替テキストは「6つの多色正方形3Dプリンタードロゴ」です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:559
 msgid ""
 "This is a good example of a functional alt text description for a screen "
 "reader followed by an editorial caption that is visible."
-msgstr ""
+msgstr "これはスクリーンリーダー用の機能的な代替テキスト説明の良い例で、その後に編集者のキャプションが表示されます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:563
 msgid "Complex Images"
-msgstr ""
+msgstr "複雑な画像"
 
 #: ../../source/contrib/style_guide/style-guide.rst:565
 msgid ""
-"To make images accessible for the visually impaired, we need to provide a"
-" text description of the image. For complex images, you might need a "
-"whole paragraph to describe the image. Alt text is not supposed to be "
-"more than a sentence or two, we need to provide something short in the "
-"alt text knowing that a long description follows."
+"To make images accessible for the visually impaired, we need to provide a "
+"text description of the image. For complex images, you might need a whole "
+"paragraph to describe the image. Alt text is not supposed to be more than a "
+"sentence or two, we need to provide something short in the alt text knowing "
+"that a long description follows."
 msgstr ""
+"視覚障害者にとって画像がAccessibleであるためには、画像のテキスト説明を提供する必要があります。複雑な画像に対しては、画像を一整个段落で説明するかもしれません。Altテキストは1文又は2文程度にとどめるべきで、長い説明があることを認識した上で短いものをAltテキストに提供することが必要です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:569
 msgid ""
-"To include a complex image use the figure directive. Set the ``:alt:`` "
-"text to a short functional description, perhaps a summary of the long "
-"description. Set the caption to be an editorial or illustrative comment "
-"on the image. See the guidance about alt text and captions in the "
-"preceding section. The long description is then added as a paragraph "
-"after the caption in the figure directive."
+"To include a complex image use the figure directive. Set the ``:alt:`` text "
+"to a short functional description, perhaps a summary of the long "
+"description. Set the caption to be an editorial or illustrative comment on "
+"the image. See the guidance about alt text and captions in the preceding "
+"section. The long description is then added as a paragraph after the caption"
+" in the figure directive."
 msgstr ""
+"複雑な画像を含めるには、figureディレクティブを使用します。``:alt:``テキストに短い機能的な説明を設定し、長い説明の要約も可能です。キャプションは画像に対する編集的な或いは解説的なコメントとして設定します。先ほどのセクションで説明したaltテキストやキャプションに関するガイドラインをご覧ください。その後、figureディレクティブ内のキャプションの後に長い説明を段落として追加します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:575
 msgid ""
-"Try to adjust the alt text, caption, and long description so that the "
-"text flows such that it would make sense if read aloud by a screen "
-"reader."
-msgstr ""
+"Try to adjust the alt text, caption, and long description so that the text "
+"flows such that it would make sense if read aloud by a screen reader."
+msgstr "スクリーンリーダーによって読み上げられた場合でも意味が通るよう、ALTテキスト、キャプション、長い説明文を調整してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:578
 msgid ""
-"In the following reStructuredText source example the figure directive has"
-" alt text, followed by a one line caption. A descriptive paragraph is "
-"added after the caption. It is indented the same as the caption. There is"
-" a blank line before and after the caption."
+"In the following reStructuredText source example the figure directive has "
+"alt text, followed by a one line caption. A descriptive paragraph is added "
+"after the caption. It is indented the same as the caption. There is a blank "
+"line before and after the caption."
 msgstr ""
+"次のreStructuredTextのソース例では、図の指示子には代替テキストがあり、その後に一行のキャプションがあります。キャプションの後で説明的な段落が追加されています。この段落はキャプションと同じインデントになっています。キャプションの前後に空白行があります。\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:595
 msgid ""
-"Here's what a complex image looks like (with image reduced in size for "
-"this example)."
-msgstr ""
+"Here's what a complex image looks like (with image reduced in size for this "
+"example)."
+msgstr "ここでは、複雑な画像の例を見ます（この例では画像のサイズを小さくしています）。"
 
 #: ../../source/contrib/style_guide/style-guide.rst
 msgid "A square field with X, Y and Z axes shown."
-msgstr ""
+msgstr "X, Y, および Z 軸が表示された正方形のフィールド。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:604
 msgid "The Into The Deep game field"
-msgstr ""
+msgstr "The Into The Deep ゲームフィールド"
 
 #: ../../source/contrib/style_guide/style-guide.rst:606
 msgid ""
-"In a square field configuration the two Alliances face each other across "
-"the field. The field is oriented such that the Red Wall is on the right "
-"as seen from the audience, and the blue wall will be on the left. The Y "
-"axis points across the field from the Red Wall to the blue wall. The X "
-"axis points away from the audience to the rear of the field."
+"In a square field configuration the two Alliances face each other across the"
+" field. The field is oriented such that the Red Wall is on the right as seen"
+" from the audience, and the blue wall will be on the left. The Y axis points"
+" across the field from the Red Wall to the blue wall. The X axis points away"
+" from the audience to the rear of the field."
 msgstr ""
+"正方形のフィールド配置では、両チームアライアンスはフィールドを挟んで向かい合っています。フィールドは、観客から見ると赤い壁が右側にあり、青い壁が左側にあるように配置されています。Y軸は、赤い壁から青い壁に向かってフィールドの横方向を指します。X軸は、観客からフィールドの後方へ向かう方向を指します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:612
 msgid ""
@@ -1077,43 +1194,50 @@ msgid ""
 "axes shown.* This is a short functional description that a screen reader "
 "would say."
 msgstr ""
+"例の画像の代替テキストは「X、Y、Z軸が示された正方形のフィールド」です。この短い機能的な説明はスクリーンリーダーによって読み上げられます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:615
 msgid ""
 "The caption is an editorial comment that this field is from the Cascade "
 "Effect game. It is not the same as the alt text."
-msgstr ""
+msgstr "キャプションは、このフィールドがカASCADE EFFECTゲームから来ているという編集者のコメントです。ALTテキストとは異なります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:618
 msgid ""
-"The paragraph after the caption completely describes the image for those "
-"who cannot see it. A complete text description is also important for "
-"those persons who have trouble processing or understanding visual "
-"information. It can help them understand the image they are seeing."
+"The paragraph after the caption completely describes the image for those who"
+" cannot see it. A complete text description is also important for those "
+"persons who have trouble processing or understanding visual information. It "
+"can help them understand the image they are seeing."
 msgstr ""
+"キャプションの後の段落は、視覚障害者にとって画像を完全に説明します。また、視覚情報の処理や理解に困難を感じる人々にとっても重要な完全なテキスト説明です。これにより、彼らは見ている画像をよりよく理解することができます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:622
 msgid "For another example of a complex image see :ref:`complex-image-label`."
-msgstr ""
+msgstr "複雑な画像の別の例については :ref:`複雑な画像ラベル` を参照してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:625
 msgid "Image Files"
-msgstr ""
+msgstr "画像ファイル"
 
 #: ../../source/contrib/style_guide/style-guide.rst:627
 msgid ""
-"Image files should be stored in an ``images`` sub directory in the folder"
-" of the current document. This allows the document to reference the image"
-" as follows: ``.. image:: images/my-image.png``."
+"Image files should be stored in an ``images`` sub directory in the folder of"
+" the current document. This allows the document to reference the image as "
+"follows: ``.. image:: images/my-image.png``."
 msgstr ""
+"画像ファイルは現在のドキュメントと同じフォルダ内の ``images`` "
+"サブディレクトリに保存する必要があります。これにより、ドキュメントは次のように画像を参照できます: ``.. image:: images/my-"
+"image.png``。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:630
 msgid ""
 "Example: The document **field-coordinate-system.rst** is in the "
-"**game_specific_resources\\\\field_coordinate_system** folder. The images"
-" for that page are stored in the folder "
+"**game_specific_resources\\\\field_coordinate_system** folder. The images "
+"for that page are stored in the folder "
 "**game_specific_resources\\\\field_coordinate_system\\\\images**."
 msgstr ""
+"例：ドキュメント「**fieldd-coordinate-"
+"system.rst**」は、「**game_specific_resources\\\\field_coordinate_system**」フォルダ内にあります。そのページの画像は、「**game_specific_resources\\\\field_coordinate_system\\\\images**」フォルダ内に保存されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:633
 msgid ""
@@ -1122,48 +1246,57 @@ msgid ""
 "what the image shows. This should be less than 24 characters. File name "
 "extensions should be **.png** or **.jpg**."
 msgstr ""
+"画像ファイル名は、**短い説明.ext** "
+"の形式に従って命名する必要があります。ファイル名は画像が表示している内容の短い説明であるべきで、24文字未満にしてください。ファイル名の拡張子は "
+"**.png** または **.jpg** にする必要があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:637
 msgid ""
 "Image file formats should be Portable Network Graphics(PNG) or Joint "
 "Photographic Experts Group(JPEG)."
 msgstr ""
+"画像ファイル形式はPortable Network Graphics(PNG)またはJoint Photographic Experts "
+"Group(JPEG)を使用することをお勧めします。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:639
-msgid "Images with the extension .gif and .svg are not supported in PDF format."
-msgstr ""
+msgid ""
+"Images with the extension .gif and .svg are not supported in PDF format."
+msgstr "PDF形式では、.gifおよび.svgの拡張子を持つ画像はサポートされていません。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:641
 msgid ""
-"Images (including vector graphics) should be less than 500 kilobytes in "
-"size and no more than 1000 pixels in width. Please make use of a smaller "
+"Images (including vector graphics) should be less than 500 kilobytes in size"
+" and no more than 1000 pixels in width. Please make use of a smaller "
 "resolution and more efficient compression algorithms. This facilitates "
-"reasonable web page loading for those with slow internet connections. Our"
-" HTML documents have a maximum width of 1000 pixels for desktop browsing "
-"so image width should be 1000 pixels or less."
+"reasonable web page loading for those with slow internet connections. Our "
+"HTML documents have a maximum width of 1000 pixels for desktop browsing so "
+"image width should be 1000 pixels or less."
 msgstr ""
+"画像（ベクターグラフィックスを含む）のサイズは500キロバイト未満で、幅は1000ピクセル以内に保つことが推奨されます。小さな解像度とより効率的な圧縮アルゴリズムを使用していただくことをお勧めします。これにより、遅いインターネット接続を持つユーザーでも合理的なウェブページの読み込みが可能になります。当社のHTMLドキュメントはデスクトップでの閲覧において最大幅を1000ピクセルとし、因此，图像宽度应不超过1000像素。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:646
 msgid ""
-"An exception to image size is images like the control system diagrams in "
-"the :ref:`Robot Controller Overview "
-"<control_hard_compon/rc_components/index:Robot Controller Overview>`. "
-"Those diagrams are over 2500 pixels wide and greater than 500 KB in size."
-" However, that extra resolution is required to properly view the details "
-"of all the components and the connections. If those were reduced in "
-"resolution, or too heavily compressed as a jpg, relevant details might be"
-" lost or hard to see."
+"An exception to image size is images like the control system diagrams in the"
+" :ref:`Robot Controller Overview "
+"<control_hard_compon/rc_components/index:Robot Controller Overview>`. Those "
+"diagrams are over 2500 pixels wide and greater than 500 KB in size. However,"
+" that extra resolution is required to properly view the details of all the "
+"components and the connections. If those were reduced in resolution, or too "
+"heavily compressed as a jpg, relevant details might be lost or hard to see."
 msgstr ""
+"イメージのサイズ制限に例外がある場合、ロボットコントローラーオーバビューコントロールシステム図のようなもの (:ref:`Robot "
+"Controller Overview <control_hard_compon/rc_components/index:Robot "
+"Controller Overview>`参照) "
+"があります。これらの図は2500ピクセルを超える幅があり、500KB以上のサイズです。しかし、その追加の解像度は、すべてのコンポーネントと接続の詳細を正しく確認するのに必要です。これらの図が解像度を落として表示されると、またはjpgで過度に圧縮されると、重要な詳細が失われたり、見づらくなる可能性があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:653
 msgid "More Information"
-msgstr ""
+msgstr "より詳しい情報"
 
 #: ../../source/contrib/style_guide/style-guide.rst:655
 msgid ":doc:`ftc-docs-accessibility-guidelines`"
-msgstr ""
+msgstr ":doc:`ftc-docs-accessibility-guidelines`"
 
 #: ../../source/contrib/style_guide/style-guide.rst:656
 msgid ":doc:`image-and-figure-details`"
-msgstr ""
-
+msgstr ":doc:`画像と図の詳細`"

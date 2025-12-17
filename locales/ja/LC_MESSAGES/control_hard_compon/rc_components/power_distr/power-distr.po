@@ -12,404 +12,448 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:2
 msgid "Power Distribution"
-msgstr ""
+msgstr "電源分配"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:5
 msgid "Robot Main Battery"
-msgstr ""
+msgstr "ロボット本体バッテリー"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:14
 msgid "TETRIX 12V Battery"
-msgstr ""
+msgstr "TETRIX 12Vバッテリー"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "W39057"
-msgstr ""
+msgstr "W39057"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:25
 msgid "TETRIX (W39057, formally 739023)"
-msgstr ""
+msgstr "TETRIX (W39057, 形式上 739023)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:31
 msgid "MATRIX 12V Battery"
-msgstr ""
+msgstr "マトリックス12Vバッテリー"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "14-0014"
-msgstr ""
+msgstr "14-0014"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:42
 msgid "Modern Robotics/MATRIX (14-0014)"
-msgstr ""
+msgstr "現代ロボティクス/マトリックス (14-0014)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:48
 msgid "REV 12V Battery"
-msgstr ""
+msgstr "REV 12Vバッテリー"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "REV-31-1302"
-msgstr ""
+msgstr "REV-31-1302"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:59
 msgid "REV Robotics (REV-31-1302)"
-msgstr ""
+msgstr "REVロボティクス (REV-31-1302)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:61
 msgid ""
-"The main power of a robot comes from one 12v battery. The batterys above "
-"are samples of these batteries, check the Competition Manual for the full"
-" list of batteries. Note that it is typically allowed to replace the "
-"connector on the batteries, provided the in-line fuse on the battery is "
-"preserved, again check the Competition Manual for full details."
+"The main power of a robot comes from one 12v battery. The batterys above are"
+" samples of these batteries, check the Competition Manual for the full list "
+"of batteries. Note that it is typically allowed to replace the connector on "
+"the batteries, provided the in-line fuse on the battery is preserved, again "
+"check the Competition Manual for full details."
 msgstr ""
+"ロボットの主電源は12Vバッテリーから来ます。上のバッテリーはこれらのバッテリーのサンプルです。詳細なバッテリー一覧については、競技マニュアルをご確認ください。ただし、バッテリー内のInline"
+" Fuseを保つ限り、接続子を交換することは通常許可されています。詳細については、再び競技マニュアルをご確認ください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:68
 msgid ""
-"Be sure to remove the 20A fuse from the in-line fuse holder prior to "
-"cutting any wires/connectors if/when replacing the factory default "
-"battery connector."
+"Be sure to remove the 20A fuse from the in-line fuse holder prior to cutting"
+" any wires/connectors if/when replacing the factory default battery "
+"connector."
 msgstr ""
+"交換する場合や、ファクトリーデフォルトのバッテリー接続子を切断する前に、Inline フューズホルダーから 20A のフューズを取り外してください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:72
 msgid "Main Power Switch"
-msgstr ""
+msgstr "メイン電源スイッチ"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:81
 msgid "REV Power Switch"
-msgstr ""
+msgstr "REV パワースイッチ"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "REV-31-1387"
-msgstr ""
+msgstr "REV-31-1387"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:92
 msgid "REV (REV-31-1387)"
-msgstr ""
+msgstr "REV (REV-31-1387)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:98
 msgid "TETRIX Power Switch"
-msgstr ""
+msgstr "TETRIX パワースイッチ"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:109
 msgid "TETRIX (part # W39129)"
-msgstr ""
+msgstr "TETRIX (part # W39129)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:115
 msgid "MATRIX Power Switch"
-msgstr ""
+msgstr "MATRIX パワースイッチ"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:126
 msgid "MATRIX (part #50-0030)"
-msgstr ""
+msgstr "マトリックス (部品番号: 50-0030)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:132
 msgid "AndyMark Power Switch"
-msgstr ""
+msgstr "AndyMark パワースイッチ"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "AM-4969 Switch"
-msgstr ""
+msgstr "AM-4969スイッチ"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:143
 msgid "AndyMark (part #am-4969)"
-msgstr ""
+msgstr "AndyMark (part #am-4969)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:147
 msgid ""
-"One Main Power Switch must control all power provided by the Main "
-"Battery. The legal power switches above are representative examples, "
-"check the Competition Manual for the full list."
+"One Main Power Switch must control all power provided by the Main Battery. "
+"The legal power switches above are representative examples, check the "
+"Competition Manual for the full list."
 msgstr ""
+"メイン電源スイッチ1つが全てのメインバッテリーからの電力を制御する必要があります。上の合法的な電源スイッチは代表例です。競技マニュアルを確認して、全リストをご覧ください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:152
 msgid "Power Distribution Block"
-msgstr ""
+msgstr "電源配線ブロック"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:161
 msgid "REV XT30 Power Distribution Block"
-msgstr ""
+msgstr "REV XT30 パワーディストリビューションブロック"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "REV-31-1293"
-msgstr ""
+msgstr "REV-31-1293"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:172
 msgid "REV (REV-31-1293)"
-msgstr ""
+msgstr "REV (REV-31-1293)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:178
 msgid "goBILDA XT30 Power Distribution Block"
-msgstr ""
+msgstr "goBILDA XT30 パワーディストリビューションブロック"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "goBildaPDB"
-msgstr ""
+msgstr "goBILDA PDB"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:190
 msgid "goBILDA (SKU: 3108-2833-0801)"
-msgstr ""
+msgstr "goBILDA (SKU: 3108-2833-0801)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:192
 msgid ""
-"Power Distribution Blocks help to distribute the power to devices such as"
-" Control Hubs, SPARKminis, and more.  See the Competition Manual for a "
+"Power Distribution Blocks help to distribute the power to devices such as "
+"Control Hubs, SPARKminis, and more.  See the Competition Manual for a "
 "description of legal Power Distribution methods. The Power Distribution "
 "Blocks shown are not the only legal devices for power distribution."
 msgstr ""
+"電力配線ブロックは、制御ハブやSPARKminiなどのデバイスに電力を分配する役割を果たします。合法的な電力配線方法については、競技マニュアルをご覧ください。表示されている電力配線ブロックは、唯一の合法的な電力分配装置ではありません。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:198
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:207
 msgid "REV Servo Power Module"
-msgstr ""
+msgstr "REV サーボ電源モジュール"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "REV-31-1144"
-msgstr ""
+msgstr "REV-31-1144"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:218
 msgid "REV (REV-11-1144)"
-msgstr ""
+msgstr "REV (REV-11-1144)"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:220
 msgid ""
 "This is an electronic device (also known as a Servo Power Injector) that "
-"boosts the power supplied to 3-wire servos. A REV Servo Power Module has "
-"6 input servo ports and 6 matching output ports. It draws power from a "
-"12V source and provides 6V power to each output servo port.  A REV Servo "
-"Power Module can provide up to 15A of current across all output servo "
-"ports for a total of 90 Watts of power per module. There are more Servo "
-"Power Injectors allowed by the Competition Manual."
+"boosts the power supplied to 3-wire servos. A REV Servo Power Module has 6 "
+"input servo ports and 6 matching output ports. It draws power from a 12V "
+"source and provides 6V power to each output servo port.  A REV Servo Power "
+"Module can provide up to 15A of current across all output servo ports for a "
+"total of 90 Watts of power per module. There are more Servo Power Injectors "
+"allowed by the Competition Manual."
 msgstr ""
+"これは電子機器（サーボ電源インジェクターとも呼ばれます）で、3本線サーボに供給される電力の強化を目的としています。REV "
+"サーボ電源モジュールは6つの入力サーボポートと6つのマッチング出力ポートを持ちます。これは12Vの電源から電力を引き、各出力サーボポートに対して6Vの電力を提供します。"
+" REV "
+"サーボ電源モジュールは、すべての出力サーボポートを経由して最大で15Aの電流を供給でき、モジュールごとに合計90ワットの電力を提供できます。競技規則ではより多くのサーボ電源インジェクターが許可されています。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:229
 msgid "COTS USB Battery Pack"
-msgstr ""
+msgstr "商用オフザーシールドUSBバッテリーパック"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:238
 msgid "USB Battery Pack"
-msgstr ""
+msgstr "USBバッテリーパック"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst
 msgid "Anker Pack"
-msgstr ""
+msgstr "アンカー パック"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:249
 msgid "Anker Battery Pack"
-msgstr ""
+msgstr "アンカー蓄電池パック"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:251
 msgid ""
 "A Commercial Off The Shelf (COTS) USB battery pack is an auxiliary power "
 "source that can be used in specific situations in accordance with the "
 "Competition Manual. In the 2023-2024 season, these batteries were deemed "
-"permissible to power LEDs and, by extension, COTS light controller "
-"sources like the `REV Blinkin "
-"<https://www.revrobotics.com/rev-11-1105/>`__.  However, having a COTS "
-"USB External Battery on the Robot carries additional considerations.  All"
-" teams must ensure their COTS USB Battery Pack:"
+"permissible to power LEDs and, by extension, COTS light controller sources "
+"like the `REV Blinkin <https://www.revrobotics.com/rev-11-1105/>`__.  "
+"However, having a COTS USB External Battery on the Robot carries additional "
+"considerations.  All teams must ensure their COTS USB Battery Pack:"
 msgstr ""
+"商用オフザシェelf (COTS) "
+"USBバッテリーパックは、競技マニュアルに従って特定の状況で使用できる補助電源です。2023-2024シーズンでは、これらのバッテリーはLEDを駆動するために許可され、その結果として`REV"
+" Blinkin "
+"<https://www.revrobotics.com/rev-11-1105/>`__などのCOTSライトコントローラーソースも含まれました。ただし、ロボットにCOTS"
+" USB外部バッテリーを持参することは追加の考慮事項を伴います。すべてのチームは、彼らのCOTS "
+"USBバッテリーパックについて以下のことを確認する必要があります："
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:259
 msgid "Is manufactured by a reputable brand."
-msgstr ""
+msgstr "信頼できるブランドによって製造されています。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:260
 msgid "Is within allowed Watt-hour capacity limits."
-msgstr ""
+msgstr "許容 watt 時間容量内にあります。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:261
 msgid "Includes standard safety features."
-msgstr ""
+msgstr "標準的な安全機能が含まれています。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:262
 msgid "Is secured on the Robot."
-msgstr ""
+msgstr "ロボットに固定されています。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:263
 msgid "Has unused ports covered."
-msgstr ""
+msgstr "未使用のポートがカバーされているか確認してください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:264
 msgid "Is always charged properly."
-msgstr ""
+msgstr "常に適切に充電されています。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:265
 msgid "Does not show any signs of distress."
-msgstr ""
+msgstr "何らかの不安定な兆候は見られません。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:266
 msgid "Is never connected to the Robot power"
-msgstr ""
+msgstr "ロボットの電源に nunca 接続されることはありません"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:268
 msgid "The following sections are intended to help clarify the list above."
-msgstr ""
+msgstr "次のセクションでは、上記のリストを明確にするためにお手伝いします。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:271
 msgid "Reputable Brands"
-msgstr ""
+msgstr "信頼性の高いブランド"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:273
 msgid ""
-"Far and above, the most important factor regarding the safety of COTS USB"
-" Battery Packs is ensuring that the battery pack was manufactured by a "
+"Far and above, the most important factor regarding the safety of COTS USB "
+"Battery Packs is ensuring that the battery pack was manufactured by a "
 "reputable brand. International testing of COTS USB Battery Packs has "
 "concluded that unbranded batteries, or batteries manufactured by little-"
 "known companies, tend to fail more often than batteries from reputable "
-"brands. How do you know what brands are reputable and which ones are not?"
-" That's not always an easy thing to determine, however brands such as "
-"`Anker <https://www.anker.com/collections/power-banks>`__, `Belkin "
+"brands. How do you know what brands are reputable and which ones are not? "
+"That's not always an easy thing to determine, however brands such as `Anker "
+"<https://www.anker.com/collections/power-banks>`__, `Belkin "
 "<https://www.belkin.com/products/chargers/portable-chargers-power-"
-"banks/>`__, `Otterbox <https://www.otterbox.com/en-us/portable-"
-"chargers>`__, and `BioLite <https://www.bioliteenergy.com/collections"
-"/portable-battery-banks>`__ are among the most-used brands in the world. "
-"*FIRST* Tech Challenge recommends choosing an internationally reputable "
-"brand, even if the brand is more expensive than a lesser-known brand, as "
-"these batteries will be more apt to follow safety and performance "
-"guidelines. NEVER choose a COTS USB Battery Pack based on its (low) price"
-" alone!"
+"banks/>`__, `Otterbox <https://www.otterbox.com/en-us/portable-chargers>`__,"
+" and `BioLite <https://www.bioliteenergy.com/collections/portable-battery-"
+"banks>`__ are among the most-used brands in the world. *FIRST* Tech "
+"Challenge recommends choosing an internationally reputable brand, even if "
+"the brand is more expensive than a lesser-known brand, as these batteries "
+"will be more apt to follow safety and performance guidelines. NEVER choose a"
+" COTS USB Battery Pack based on its (low) price alone!"
 msgstr ""
+"遠くを見据えて、COTS "
+"USBバッテリーパックの安全性に関連する最も重要な要素は、そのバッテリーパックが信頼できるブランドによって製造されたかどうかを確認することです。国際的なテストにより、未ブランド化のバッテリーまたはあまり知られていない会社で製造されたバッテリーは、有名なブランドのバッテリーに比べて故障する確率が高いことが分かっています。信頼できるブランドとそうでないブランドをどのように判断すればよいでしょうか？これは必ずしも簡単ではありませんが、`Anker"
+" <https://www.anker.com/collections/power-banks>`__、`Belkin "
+"<https://www.belkin.com/products/chargers/portable-chargers-power-"
+"banks/>`__、`Otterbox <https://www.otterbox.com/en-us/portable-"
+"chargers>`__、および `BioLite "
+"<https://www.bioliteenergy.com/collections/portable-battery-banks>`__ "
+"は世界で最も使われているブランドのうちのいくつかです。FIRST Tech "
+"Challengeでは、国際的に信頼できるブランドを選択することをお勧めし、そのブランドがあまり知られていないブランドよりも高価であっても、これらのバッテリーはより安全と性能に関するガイドラインを遵守する傾向があるためです。COTS"
+" USBバッテリーパックを選ぶ際には、価格（低く）だけに基づいて決めるのは絶対に避けなければなりません！"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:291
 msgid "Capacity Limits"
-msgstr ""
+msgstr "容量制限"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:293
 msgid ""
-"The recurring theme in most discussions of COTS USB Battery Packs is "
-"safety. The United States Transportation Safety Administration (TSA) has "
-"strict limitations on COTS USB Battery Packs aboard aircraft, and *FIRST*"
-" Tech Challenge has adopted the capacity limit restriction. **Batteries "
-"are limited to 100 Watt-Hours (Wh) or less**."
+"The recurring theme in most discussions of COTS USB Battery Packs is safety."
+" The United States Transportation Safety Administration (TSA) has strict "
+"limitations on COTS USB Battery Packs aboard aircraft, and *FIRST* Tech "
+"Challenge has adopted the capacity limit restriction. **Batteries are "
+"limited to 100 Watt-Hours (Wh) or less**."
 msgstr ""
+"大多数关于商用现货（COTS）USBバッテリーパック的讨论中反复出现的主题是安全性。美国运输安全管理局（TSA）对航空器上的COTS "
+"USBバッテリーパック有严格的限制，*FIRST* Tech "
+"Challengeもその容量制限を採用しました。**バッテリーは100ワット時間（Wh）以下に限定される**。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:299
 msgid ""
 "How do you calculate Watt-hours? To calculate Watt-hours of a battery, "
 "multiply the Voltage (V) of the battery by its capacity measured in Amp-"
 "Hours (Ah). For example, a 12V battery with 3,000mAh capacity has a 36Wh "
-"capacity - when capacity is measured in milli-Amp Hours (mAh), divide the"
-" capacity by 1000 to get Ah and them multiply by Voltage.  However, for "
-"COTS USB Battery Packs, the Voltage cells predominantly used in the packs"
-" is **3.7V**, regardless of the ultimate Voltage provided by the USB "
-"ports. Therefore to calculate Wh for a COTS USB Battery Pack, multiply "
-"**3.7V** by the **Ah rating** of the pack. A 25,000mAh COTS USB Battery "
-"Pack has a rating of 92.5Wh. Using this formula, the maximum capacity "
-"COTS USB Battery Pack that is allowed is a **27,000mAh** pack."
+"capacity - when capacity is measured in milli-Amp Hours (mAh), divide the "
+"capacity by 1000 to get Ah and them multiply by Voltage.  However, for COTS "
+"USB Battery Packs, the Voltage cells predominantly used in the packs is "
+"**3.7V**, regardless of the ultimate Voltage provided by the USB ports. "
+"Therefore to calculate Wh for a COTS USB Battery Pack, multiply **3.7V** by "
+"the **Ah rating** of the pack. A 25,000mAh COTS USB Battery Pack has a "
+"rating of 92.5Wh. Using this formula, the maximum capacity COTS USB Battery "
+"Pack that is allowed is a **27,000mAh** pack."
 msgstr ""
+"電力（ワット時間）はどのように計算しますか？バッテリーのワット時間は、バッテリーの電圧（V）を Amp-Hours (Ah) "
+"で測定した容量に掛けることで計算できます。例えば、12V のバッテリーが 3,000mAh の容量を持つ場合、そのワット時間は 36Wh "
+"となります。ただし、容量が milli-Amp Hours (mAh) で測定される場合は、容量を 1000 で割って Ah "
+"を得てから電圧に掛ける必要があります。しかし、COTS USB バッテリーパックの場合、パック内に主に使用されている電池の電圧は **3.7V** "
+"であり、USBポートによって提供される最終的な電圧に関係なく同じです。したがって、COTS USB "
+"バッテリーパックのワット時間（Wh）を計算するには、**3.7V** をパックの **Ah ランク** に掛けることで得られます。25,000mAh の"
+" COTS USB バッテリーパックは、92.5Wh のランクを持っています。この公式を使用すると、許可される最大容量の COTS USB "
+"バッテリーパックは **27,000mAh** のパックとなります。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:311
 msgid "Standard Safety Features"
-msgstr ""
+msgstr "標準的な安全機能"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:313
 msgid ""
-"The major benefit of using a reputable COTS USB Battery Pack brand is the"
-" guarantee that the battery pack includes standard safety features, "
-"including but not limited to:"
+"The major benefit of using a reputable COTS USB Battery Pack brand is the "
+"guarantee that the battery pack includes standard safety features, including"
+" but not limited to:"
 msgstr ""
+"信頼できるCOTS "
+"USBバッテリーパックブランドを使用する主要な利点は、バッテリーパックに標準的な安全機能が含まれることの保証があることです。これには但不限于："
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:317
 msgid "Reverse Polarity Protection"
-msgstr ""
+msgstr "逆極性保護"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:318
 msgid "Short-Circuit Protection"
-msgstr ""
+msgstr "ショート回路保護"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:319
 msgid "Over-Charge Protection"
-msgstr ""
+msgstr "過充電保護"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:320
 msgid "Over-Temperature or Over-Heat Protection"
-msgstr ""
+msgstr "過熱保護"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:321
 msgid "Over-Current Protection"
-msgstr ""
+msgstr "過電流保護"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:323
 msgid ""
 "You should perform a good-faith effort to determine if your Battery Pack "
-"contains these safety features. Often within the documentation provided "
-"with your pack it will list the protections offered by the pack. Remember"
-" that the Battery Pack likely contains Lithium-Ion or Lithium Polymer "
-"batteries that will often explode or catch fire when they fail, and these"
-" protections are vital to ensuring that the batteries do not fail "
-"prematurely. It is not recommended to use COTS USB Battery Packs without "
-"these protections."
+"contains these safety features. Often within the documentation provided with"
+" your pack it will list the protections offered by the pack. Remember that "
+"the Battery Pack likely contains Lithium-Ion or Lithium Polymer batteries "
+"that will often explode or catch fire when they fail, and these protections "
+"are vital to ensuring that the batteries do not fail prematurely. It is not "
+"recommended to use COTS USB Battery Packs without these protections."
 msgstr ""
+"あなたは、バッテリーパックにこれらの安全機能が含まれているかどうかを誠意を持って確認するべきです。パックのドキュメントには、パックによって提供される保護機能がリストされていることが多いです。バッテリーパックはおそらくリチウムイオンまたはリチウムポリマー電池を含んでおり、これらの電池が故障したときに爆発したり火災につながったりする可能性があるため、これらの保護機能は電池が早期に故障しないように保証するために重要です。これらの保護機能がないCOTS"
+" USBバッテリーパックを使用することは推奨されません。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:332
 msgid "Securing the Battery Pack to the Robot"
-msgstr ""
+msgstr "ロボットにバッテリーパックを固定する方法"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:334
 msgid ""
-"The leading cause of battery failure is physical damage to the battery. "
-"For COTS USB Battery Packs this is usually attributed to dropping the "
-"battery pack, applying excessive force on the Battery Pack, and "
-"subjecting the pack to excessive shock (which might also damage internal "
-"components). In order to prevent damage, the Battery Pack should be "
-"properly secured within the robot. Tips for securing the battery are:"
+"The leading cause of battery failure is physical damage to the battery. For "
+"COTS USB Battery Packs this is usually attributed to dropping the battery "
+"pack, applying excessive force on the Battery Pack, and subjecting the pack "
+"to excessive shock (which might also damage internal components). In order "
+"to prevent damage, the Battery Pack should be properly secured within the "
+"robot. Tips for securing the battery are:"
 msgstr ""
+"バッテリーの故障の主な原因は、バッテリーに物理的な損傷が生じることです。COTS USB "
+"バッテリーパックの場合、これは通常、バッテリーパックを落とすこと、過度な力を加えること、そしてパックに過度な衝撃を与えること（これにより内部部品も損傷する可能性があります）が原因として挙げられます。故障を防ぐために、バッテリーパックはロボット内での適切な固定が必要です。バッテリーを固定するためのヒントは以下の通りです："
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:341
-msgid "Use Hook and Loop or 3M DualLock fasteners to secure the battery, **OR**"
-msgstr ""
+msgid ""
+"Use Hook and Loop or 3M DualLock fasteners to secure the battery, **OR**"
+msgstr "ハックとループを使用するか、3M デュアルロック固定金具を使用してバッテリーを固定してください、**又は**"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:342
 msgid ""
 "Store the battery in a tight-fitting or custom-fit enclosure within the "
 "robot that allows the battery to be exposed to air (for cooling), **AND**"
 msgstr ""
+"バッテリーは、冷却（冷卻）のために空気と接触できるようにロボット内に緊密な収納ケースまたはカスタムフィットケースで保管してください。**そして**"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:344
 msgid ""
-"Protect the battery from contact from other robots, game pieces, or field"
-" elements that might breach the perimeter of the robot."
+"Protect the battery from contact from other robots, game pieces, or field "
+"elements that might breach the perimeter of the robot."
 msgstr ""
+"他のロボット、ゲームピース、またはフィールド要素から電池に接触しないように保護します。これにより、ロボットの周囲境界を越えて電池に損傷が及ばないようにします。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:347
 msgid ""
-"If utilizing a COTS USB Battery Pack, it is of utmost importance to "
-"ensure that the battery is secured, protected, and ventilated. All "
-"batteries (both main batteries and COTS USB Battery Packs) should be "
-"easily accessible and be able to be quickly removed from the robot in "
-"case of an emergency."
+"If utilizing a COTS USB Battery Pack, it is of utmost importance to ensure "
+"that the battery is secured, protected, and ventilated. All batteries (both "
+"main batteries and COTS USB Battery Packs) should be easily accessible and "
+"be able to be quickly removed from the robot in case of an emergency."
 msgstr ""
+"もし商用USBバッテリーパックを使用する場合、バッテリーが固定され、保護され、換気されていることを確認することが極めて重要です。すべてのバッテリー（主バッテリーと商用USBバッテリーパックを含む）は容易にアクセスでき、緊急時にも迅速にロボットから取り外すことが可能でなければなりません。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:353
 msgid "Cover Unused Ports"
-msgstr ""
+msgstr "未使用のポートをカバーする"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:355
 msgid ""
-"Some COTS USB Battery Packs contain multiple ports, and it is often that "
-"not all ports are in-use while securely mounted to the robot. For "
-"example, the COTS USB Battery Pack may have multiple USB ports, a "
-"dedicated charging port, and other ports as necessary. Any ports that are"
-" not in-use (meaning don't have a USB connector inserted in them) are at "
-"great risk of short-circuiting. The most common reason for short-"
-"circuiting is metal fragments that may make their way into the ports, "
-"especially swarf due to metal rubbing together, gears wearing, or robot "
-"maintenance performed while electronics are present. Any unused ports "
-"should be covered using electrical tape, Gaffers Tape, or any other means"
-" of preventing debris from entering the ports. Short circuits may present"
-" risks of excessive heat, fire, or explosion and all reasonable efforts "
-"should be taken to prevent them."
+"Some COTS USB Battery Packs contain multiple ports, and it is often that not"
+" all ports are in-use while securely mounted to the robot. For example, the "
+"COTS USB Battery Pack may have multiple USB ports, a dedicated charging "
+"port, and other ports as necessary. Any ports that are not in-use (meaning "
+"don't have a USB connector inserted in them) are at great risk of short-"
+"circuiting. The most common reason for short-circuiting is metal fragments "
+"that may make their way into the ports, especially swarf due to metal "
+"rubbing together, gears wearing, or robot maintenance performed while "
+"electronics are present. Any unused ports should be covered using electrical"
+" tape, Gaffers Tape, or any other means of preventing debris from entering "
+"the ports. Short circuits may present risks of excessive heat, fire, or "
+"explosion and all reasonable efforts should be taken to prevent them."
 msgstr ""
+"一部の商用USBバッテリーパックには複数のポートが含まれており、ロボットに安全に取り付けられている場合でも、すべてのポートが使用されていないことがあります。たとえば、COTS"
+" "
+"USBバッテリーパックは複数のUSBポート、専用の充電ポート、そして必要に応じて他のポートを備えている可能性があります。使用されていないポート（つまり、USBコネクタが挿入されていないもの）は短絡のリスクにさらされています。短絡の最も一般的な理由は金属片がポートに入り込むことであり、特に金属同士の摩耗やギアの摩耗、または電子機器がある状態でのロボットメンテナンスによって発生するスワーフなどがあります。使用されていないポートは電気テープ、ガファータape、あるいは他の方法で遮蔽して、異物がポートに入らないようにすることが推奨されます。短絡は過熱、火災、または爆発のリスクを伴うため、可能な限りそのリスクを防ぐ努力が必要です。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:369
 msgid ""
@@ -417,100 +461,115 @@ msgid ""
 "manufacturer's recommended procedure to clean and dry the battery before "
 "continuing use."
 msgstr ""
+"COTS "
+"USBバッテリーパックは絶対に濡らしてはいけません。濡れた場合は、製造元の推奨手順に従ってバッテリーを清掃し、乾燥させてから使用を継続してください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:374
 msgid "Charge COTS USB Battery Packs properly"
-msgstr ""
+msgstr "COTS USBバッテリーパックの充電を適切に行います"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:376
 msgid ""
-"The owners/instruction manual provided with the COTS USB Battery Pack "
-"often contains instructions for the proper care and maintenance of the "
-"battery pack, including proper charging. Always follow the manufacturer's"
-" recommendations. In addition, these are common best practices for "
-"charging your Batteries:"
+"The owners/instruction manual provided with the COTS USB Battery Pack often "
+"contains instructions for the proper care and maintenance of the battery "
+"pack, including proper charging. Always follow the manufacturer's "
+"recommendations. In addition, these are common best practices for charging "
+"your Batteries:"
 msgstr ""
+"COTS USB "
+"バッテリーパックに付属する所有者/操作説明書には、バッテリーパックの適切な管理と充電方法に関する指示が含まれていることが多いです。常に製造元の推奨事項に従ってください。また、バッテリーの充電における一般的な最善の実践としては以下のものがあります："
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:381
 msgid ""
-"Avoid charging the power bank on places that build up heat, such as on "
-"your bed or within a bag."
-msgstr ""
+"Avoid charging the power bank on places that build up heat, such as on your "
+"bed or within a bag."
+msgstr "熱が溜まる場所、例えばベッド上やバッグ内などに、バッテリーパックの充電を避けてください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:383
 msgid "Unless it's a solar power bank, NEVER leave your battery in the sun!"
-msgstr ""
+msgstr "太陽電池ではない限り、決してバッテリーを日光にあてるな！"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:384
 msgid ""
-"Follow the manufacturer's guidelines on the time required to fully charge"
-" your COTS USB Battery Pack."
-msgstr ""
+"Follow the manufacturer's guidelines on the time required to fully charge "
+"your COTS USB Battery Pack."
+msgstr "COTS USBバッテリーパックを完全に充電するのに必要な時間については、製造元のガイドラインに従ってください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:386
 msgid ""
 "Avoid leaving your COTS USB Battery Pack on prolonged charge as this may "
 "cause it to overheat."
-msgstr ""
+msgstr "COTS USBバッテリパックを長時間充電しないでください。これにより過熱する可能性があります。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:388
 msgid ""
 "If the COTS USB Battery Pack becomes excessively hot during charging or "
-"discharging, unplug it from the power source or powered device "
-"immediately and allow it to cool before doing anything else with the "
-"battery."
+"discharging, unplug it from the power source or powered device immediately "
+"and allow it to cool before doing anything else with the battery."
 msgstr ""
+"もしCOTS "
+"USBバッテリーパックが充電中や放電中に過度に熱くなった場合、すぐに電源からまたは動作中のデバイスから取り外し、冷却を許すまで何もしないでください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:393
 msgid "Checking for signs of distress"
-msgstr ""
+msgstr "危機的な状況の兆候を確認する"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:395
 msgid ""
 "Most COTS USB Battery Packs are contained within a hard plastic shell in "
-"order to protect and package the battery cell(s) within. Therefore it can"
-" be difficult to determine if the battery is showing signs of failure and"
-" distress. Here are several tips for identifying a failing battery:"
+"order to protect and package the battery cell(s) within. Therefore it can be"
+" difficult to determine if the battery is showing signs of failure and "
+"distress. Here are several tips for identifying a failing battery:"
 msgstr ""
+"多くのCOTS "
+"USBバッテリーパックは、バッテリー細胞を保護し、包装するために硬質プラスチックのケースに収められています。そのため、バッテリーが故障や問題を示しているかどうかを判断することが難しい場合があります。故障したバッテリーを特定するためのいくつかのヒントを以下に示します："
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:400
 msgid ""
 "Check for Leaking Power Cells. Similar to an acid leak in an alkaline "
-"battery, check to see if there are any signs of corrosion or acid leak "
-"from the battery pack. This might be difficult to determine, so stay "
-"vigilent. If signs of acid or corrosion are present, dispose of the "
-"battery per the manufacturer's recommendations immediately with extreme "
-"prejudice."
+"battery, check to see if there are any signs of corrosion or acid leak from "
+"the battery pack. This might be difficult to determine, so stay vigilent. If"
+" signs of acid or corrosion are present, dispose of the battery per the "
+"manufacturer's recommendations immediately with extreme prejudice."
 msgstr ""
+"漏れた電池セルの確認。アルカリ性バッテリーでの酸漏れと同様に、バッテリーパックから腐食や酸漏れの兆候がないか確認してください。これは判断が難しい場合もありますので、警戒心を持ってください。腐食または酸漏れの兆候がある場合は、メーカーの推奨事項に従って直ちに廃棄し、厳重に対処してください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:405
 msgid ""
 "Look for bulging within the battery casing. When Lithium batteries fail, "
-"often they will begin to bulge like a balloon. If the case of the battery"
-" shows any signs of pressure from within, dispose of the battery per the "
+"often they will begin to bulge like a balloon. If the case of the battery "
+"shows any signs of pressure from within, dispose of the battery per the "
 "manufacturer's recommendations immediately with extreme prejudice."
 msgstr ""
+"バッテリーケース内に膨らみがないか確認してください。リチウムイオンバッテリーが故障した場合、しばしばその内部から空気を含んで膨らむようになります。バッテリーケースが内部からの圧力の兆候がある場合は、製造元の推奨に従って直ちにバッテリーを廃棄し、特に慎重に対処してください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:409
 msgid ""
-"Test the battery pack for any non-functional ports. Sometimes non-"
-"functional ports can be an early sign of internal damage. DO NOT use "
-"batteries that are suspected of being damaged - dispose of the battery "
-"per the manufacturer's recommendations immediately."
+"Test the battery pack for any non-functional ports. Sometimes non-functional"
+" ports can be an early sign of internal damage. DO NOT use batteries that "
+"are suspected of being damaged - dispose of the battery per the "
+"manufacturer's recommendations immediately."
 msgstr ""
+"バッテリーパックの任意の非機能ポートをテストしてください。非機能ポートは内部損傷の早期の兆候になることがあります。損傷が疑われるバッテリーを使用してはいけませんので、メーカーの推奨に従って直ちに廃棄してください。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:415
 msgid "Isolate COTS USB Battery Packs from the Robot Power"
-msgstr ""
+msgstr "ロボット電源からCOTS USBバッテリーパックを隔離する"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:417
 msgid ""
 "Great care must be take to NEVER allow the COTS USB Battery Pack to be "
-"connected to the main (or any) power system in use by the robot. The COTS"
-" USB Battery Pack and connected devices must be completely isolated from "
-"the robot electrical system, with the exception of controlling signals "
-"provided by the Competition Manual.  When using a COTS USB Battery Pack, "
-"controlling signals for LEDs powered by the Pack should ONLY connect to "
-"allowed compatible devices."
+"connected to the main (or any) power system in use by the robot. The COTS "
+"USB Battery Pack and connected devices must be completely isolated from the "
+"robot electrical system, with the exception of controlling signals provided "
+"by the Competition Manual.  When using a COTS USB Battery Pack, controlling "
+"signals for LEDs powered by the Pack should ONLY connect to allowed "
+"compatible devices."
 msgstr ""
-
+"Great care must be take to NEVER allow the COTS USB Battery Pack to be connected to the main (or any) power system in use by the robot. The COTS USB Battery Pack and connected devices must be completely isolated from the robot electrical system, with the exception of controlling signals provided by the Competition Manual.  When using a COTS USB Battery Pack, controlling signals for LEDs powered by the Pack should ONLY connect to allowed compatible devices.\n"
+"\"\"\"\n"
+"\n"
+"COTS USB バッテリーパックをロボットが使用しているメイン（またはどの）電力システムに接続することには十分な注意が必要です。絶対に許されません。COTS USB バッテリーパックと接続されたデバイスは、競技マニュアルによって提供される制御信号を除き、ロボットの電気システムから完全に隔離する必要があります。また、COTS USB バッテリーパックを使用している場合、パックによって供給される LED の制御信号は許可された互換性のあるデバイスのみに接続されるべきです。\n"
+"\"\"\"\n"
+"\n"
+"COTS USB バッテリーパックをロボットが使用しているメイン（またはどの）電力システムに接続することには十分な注意が必要です。絶対に許されません。COTS USB バッテリーパックと接続されたデバイスは、競技マニュアルによって提供される制御信号を除き、ロボットの電気システムから完全に隔離する必要があります。また、COTS USB バッテリーパックを使用している場合、パックによって供給される LED の制御信号は許可された互換性のあるデバイスのみに接続されるべきです。"

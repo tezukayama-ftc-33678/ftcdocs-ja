@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "AprilTag Introduction"
+"msgstr "AprilTag について""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "Vision Processor Initialization"
+"msgstr "ビジョンプロセッサ初期化""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "VisionPortal Initialization"
+"msgstr "ビジョンポートル初期化""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "VisionPortal Previews"
+"msgstr "ビジョンポータルプレビュー""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "AprilTag ID Codes"
+"msgstr "AprilTag ID コード""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "AprilTag Metadata"
+"msgstr "4月タグメタデータ""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "AprilTag Reference Frame"
+"msgstr "AprilTag 参照フレーム""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "AprilTag Camera Calibration"
+"msgstr "4月タグカメラ校正""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "AprilTag Pose"
+"msgstr "AprilTagの位置情報""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "AprilTag Library"
+"msgstr "AprilTag ライブラリ""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "VisionPortal CPU and Bandwidth"
+"msgstr "ビジョンポートルCPUと帯域幅""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "VisionPortal Camera Controls"
+"msgstr "ビジョンポートルカメラコントロール""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "Vision Multiportal"
+"msgstr "ビジョンマルチポートル""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:85
+msgid "AprilTag Advanced Use"
+"msgstr "4月タグの高度な使用方法""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:2
+msgid "VisionPortal Overview"
+"msgstr "ビジョンポートルの概要""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:4
+msgid ""
+"**FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new "
+"interface for vision processing."
+"msgstr """
+"**FIRST Tech Challenge** は、ビジョン処理用の総合的な新インターフェース **VisionPortal** を導入しました。"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:7
+msgid ""
+"For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of "
+"**AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection "
+"(TFOD)** – at the same time!"
+"msgstr ""
+"For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection (TFOD)** – at the same time!"
+""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
+msgid "Dual Detection"
+"msgstr "双方向検出""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:16
+msgid "Dual Preview with both AprilTags and TensorFlow"
+"msgstr "両方のプレビュー：AprilTagsとTensorFlow""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:20
+msgid ""
+"**AprilTag** detections include ID code and **pose**: tag location and "
+"orientation, relative to the camera."
+"msgstr "**AprilTag** 検出にはIDコードと**ポーズ**: タグの位置と向き（カメラに対して）が含まれます。""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:23
+msgid ""
+"**Camera Controls**, which can improve AprilTag and TFOD performance for "
+"webcam, are now fully available to **FTC Blocks** users."
+"msgstr """
+"**カメラコントロール**は、ウェブカムでのAprilTagおよびTFODの性能向上に貢献し、現在、**FTC "
+"ブロックス**ユーザー全員が利用可能になりました。"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:26
+msgid ""
+"**Multiple cameras** can operate at the same time – phone camera and/or "
+"webcam."
+"msgstr "**複数のカメラ**が同時に動作できます – 電話カメラやウェブカメラ。""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
+msgid "Dual Camera"
+"msgstr "デュアルカメラ""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:34
+msgid "Multiple Camera View"
+"msgstr "複数のカメラビュー""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:38
+msgid ""
+"**Sample OpModes** and new tools are available to operate and customize "
+"these features, including the **Builder pattern**."
+"msgstr """
+"**サンプルオペレーションモード** と新しいツールが利用可能で、これらの機能を操作およびカスタマイズするためのもの includings the "
+"**ビルダーパターン**。"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:41
+msgid ""
+"For heavy video processing, many options are available to manage **CPU "
+"resources** and **USB bandwidth**."
+"msgstr "重い動画処理のために、多くのオプションが用意されており、**CPUリソース**と**USB帯域幅**を管理できます。""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:44
+msgid "DS and RC previews can be **BIG**!"
+"msgstr "DSとRCのプレビューは**大きい**かもしれません！""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
+msgid "Full Screen"
+"msgstr "フルスクリーン""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:51
+msgid "Full Screen Preview"
+"msgstr "フルスクリーンプレビュー""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:53
+msgid ""
+"Many other new and improved features `await your discovery "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController#release-"
+"information>`__ in VisionPortal and beyond."
+"msgstr """
+"多くの新しいおよび改良された機能がVisionPortalやそれ以外でも`待っています <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController#release-information>`__ あなたの発見を待っています。"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:59
+msgid ""
+"In preparation for the 2023-2024 CENTERSTAGE season, the new Software "
+"Development Kit (SDK) **VisionPortal** includes **built-in support for "
+"AprilTag technology**. Previously, Teams needed to download and incorporate "
+"external libraries, complicating the programming effort."
+"msgstr """
+"2023-2024年のCENTERSTAGEシーズンに向けて、新しいSoftware Development Kit (SDK) "
+"**VisionPortal** には **AprilTag技術の内蔵サポート** "
+"が含まれています。以前は、チームは外部ライブラリをダウンロードし、プログラムに組み込む必要があり、プログラミング作業を複雑にしていました。"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:64
+msgid ""
+"AprilTag is a popular vision technology for detecting a simple black-and-"
+"white tag, used to estimate **position and orientation**. In the 2022-2023 "
+"POWERPLAY game, many Teams enjoyed AprilTag’s reliable Autonomous "
+"performance for Signal Sleeve recognition."
+"msgstr """
+"AprilTagは、単純な黒白タグの検出に利用される人気のあるビジョン技術で、**位置と向き**の推定に使用されます。2022-2023年のPOWERPLAYゲームでは、多くのチームがAprilTagの信頼性の高いオートノマス性能によるSignal"
+" Sleeve認識を楽しんでいました。"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:74
+msgid "Photo Credit: Mike Silversides"
+"msgstr "写真提供: ミック シルバサイド""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:76
+msgid ""
+"**All sections of this Guide assume prior reading of the** :doc:`AprilTag "
+"Introduction <../apriltag_intro/apriltag-intro>` **.**"
+"msgstr """
+"**このガイドのすべてのセクションは、** :doc:`AprilTag 介绍 <../apriltag_intro/apriltag-intro>` "
+"**の先行閱讀假定。**"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:79
+msgid ""
+"The SDK describes AprilTag pose **relative to the camera**, by default. This"
+" computing process is called **pose estimation**, a term that emphasizes "
+"this is an estimate only, based on many factors including **camera "
+"calibration**. You must determine AprilTag’s best use for reaching your "
+"goals."
+"msgstr """
+"SDK では、AprilTag のポーズはデフォルトで **カメラに対する相対的な位置** を説明します。この計算プロセスは **ポーズ推定** "
+"と呼ばれ、これは多くの要素に基づく推定であることを強調しています。これらの要素には **カメラの校正** も含まれます。AprilTag "
+"の最適な利用方法を決定する必要があります。"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:105
+msgid "Much credit to"
+"msgstr ""
+"Much credit to"
+""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:107
+msgid "EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__"
+"msgstr "EasyOpenCV デベロッパー「@Windwoes」""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:108
+msgid "FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__"
+"msgstr "FTC ブロック開発者「@lizlooney <https://github.com/lizlooney>`__」""
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:109
+msgid ""
+"*FIRST* Tech Challenge navigation expert `@gearsincorg "
+"<https://github.com/gearsincorg>`__"
+"msgstr """
+"*FIRST* Tech Challengeのナビゲーションエキスパート`@gearsincorg "
+"<https://github.com/gearsincorg>`__"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:110
+msgid ""
+"and the smart people at `UMich/AprilTag "
+"<https://april.eecs.umich.edu/software/apriltag>`__."
+"msgstr """
+"そして、`UMich/AprilTag <https://april.eecs.umich.edu/software/apriltag>`__ "
+"で働く賢明な人々。"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:112
+msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
+"msgstr "質問やご意見、訂正は westsiderobotics@verizon.net までお願いいたします。""

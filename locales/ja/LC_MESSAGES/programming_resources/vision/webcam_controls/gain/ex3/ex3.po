@@ -12,33 +12,35 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex3/ex3.rst:2
 msgid "Example 3: An odd preview"
-msgstr ""
+msgstr "例3: 奇妙なプレビュー"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex3/ex3.rst:7
 msgid "Did TFOD make this recognition?"
-msgstr ""
+msgstr "TFODはこの認識を行いましたか？"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex3/ex3.rst:10
 msgid ""
-"How can this be? Answer: this image was not an ‘instant’ result. Exposure"
-" was reduced very low, **after** TFOD had recognized the Duck."
+"How can this be? Answer: this image was not an ‘instant’ result. Exposure "
+"was reduced very low, **after** TFOD had recognized the Duck."
 msgstr ""
+"これはどうして可能なのか？答えは：この画像は「瞬間」結果ではなかったということです。露出はTFODがダックを認識した**後**に非常に低く設定されました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex3/ex3.rst:13
 msgid ""
 "The implementations of TensorFlow Lite (and Vuforia) are good at "
-"**tracking** a currently-identified object (or image) through "
-"translation, rotation, partial blockage, and even extreme changes in "
-"exposure."
+"**tracking** a currently-identified object (or image) through translation, "
+"rotation, partial blockage, and even extreme changes in exposure."
 msgstr ""
-
+"TensorFlow "
+"Lite（およびVuforia）の実装は、現在識別されている物体（または画像）を翻訳、回転、部分的な隠蔽、さらには露出の極端な変化-even- "
+"通过平移、旋转、部分遮挡，甚至极端的曝光变化也能良好地进行**追迹**。"

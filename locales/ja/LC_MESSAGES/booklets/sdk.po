@@ -12,27 +12,26 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/booklets/sdk.rst:11
 msgid "SDK Overview"
-msgstr ""
+msgstr "SDKの概要"
 
 #: ../../source/booklets/sdk.rst:11
 msgid "Updating Components"
-msgstr ""
+msgstr "コンポーネントの更新"
 
 #: ../../source/booklets/sdk.rst:-1
 msgid "noindex, nofollow"
-msgstr ""
+msgstr "noindex, nofollow"
 
 #: ../../source/booklets/sdk.rst:9
 msgid "*FIRST* Tech Challenge SDK"
-msgstr ""
-
+msgstr "*FIRST* Tech Challenge SDK"

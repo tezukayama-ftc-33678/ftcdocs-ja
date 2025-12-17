@@ -12,75 +12,81 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:2
 msgid "Exposure Control"
-msgstr ""
+msgstr "露出制御"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:4
 msgid ""
 "Exposure is the amount of light that reaches the webcam sensor. It is an "
 "important part of how bright or dark your image appears."
-msgstr ""
+msgstr "露出は、ウェブカメラセンサーに到達する光の量です。画像が明るいほどまたは暗いほど見えるかを決定する重要な要素です。"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:7
 msgid ""
-"Exposure varies directly with the amount of time that the shutter is "
-"open, allowing light to enter and reach the sensor. So, the interface "
-"ExposureControl uses a single value of **duration**, in units of time "
-"that you specify, typically ``TimeUnit.MILLISECONDS``."
+"Exposure varies directly with the amount of time that the shutter is open, "
+"allowing light to enter and reach the sensor. So, the interface "
+"ExposureControl uses a single value of **duration**, in units of time that "
+"you specify, typically ``TimeUnit.MILLISECONDS``."
 msgstr ""
+"露出はシャッターボタンが開いた時間に比例し、光を受光素子に届けることができます。そのため、インターフェース ExposureControl "
+"では、指定した単位（通常は ``TimeUnit.MILLISECONDS``）で表される **duration** の单一値を使用します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:12
 msgid ""
 "For example, at a frame rate of 60 frames per second (fps), exposure "
-"duration is 1/60 of a second, or 1/60 x 1000 = 16 milliseconds. This "
-"basic tutorial does not address frame rate."
+"duration is 1/60 of a second, or 1/60 x 1000 = 16 milliseconds. This basic "
+"tutorial does not address frame rate."
 msgstr ""
+"例えば、フレームレートが1秒間に60フレーム（fps）の場合、露出時間は1/60秒になります。または、1/60 x 1000 = "
+"16ミリ秒です。この基本的なチュートリアルではフレームレートについて扱っていません。"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:16
 msgid "Here are the methods to manage exposure:"
-msgstr ""
+msgstr "ここに露出の管理方法があります："
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:18
 msgid "setExposure() has two parameters: duration and time unit"
-msgstr ""
+msgstr "setExposure()には2つのパラメータがあります：持続時間と単位"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:19
 msgid "getExposure() has one parameter: time unit"
-msgstr ""
+msgstr "getExposure()には1つのパラメータがあります：時間単位（time unit）"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:21
 msgid ""
-"The webcam may support minimum and maximum allowed values of exposure. "
-"These can be retrieved with:"
-msgstr ""
+"The webcam may support minimum and maximum allowed values of exposure. These"
+" can be retrieved with:"
+msgstr "ウェブカメラは露出の最小値と最大値をサポートする場合があります。これらの値は次のようになります："
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:24
 msgid "getMinExposure(TimeUnit.MILLISECONDS)"
-msgstr ""
+msgstr "getMin露出時間(ミリ秒)\""
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:25
 msgid "getMaxExposure(TimeUnit.MILLISECONDS)"
-msgstr ""
+msgstr "ミリ秒単位での最大露出時間を取得する()"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:27
 msgid ""
 "There are no ``set()`` methods for min and max exposure; these are hard-"
-"coded in the webcam’s firmware. Note that firmware settings may vary "
-"among different versions of the same webcam model."
+"coded in the webcam’s firmware. Note that firmware settings may vary among "
+"different versions of the same webcam model."
 msgstr ""
+"最小露出と最大露出には ``set()`` "
+"メソッドがありません；これらはウェブカムのファームウェアでハードコーディングされています。なお、同じモデルのウェブカムの異なるバージョンではファームウェア設定が異なり得ます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:31
 msgid ""
-"These and other exposure methods are called on an ExposureControl object;"
-" sample code is shown below, after Exposure Control Mode."
+"These and other exposure methods are called on an ExposureControl object; "
+"sample code is shown below, after Exposure Control Mode."
 msgstr ""
-
+"これらの露光方法その他の露光方法は、ExposureControlオブジェクトで呼び出されます；露光制御モードのサンプルコードは以下に示されています。"

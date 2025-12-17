@@ -12,116 +12,128 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/contrib/guidelines/guidelines.rst:2
 msgid "Contribution Guidelines"
-msgstr ""
+msgstr "寄稿ガイドライン"
 
 #: ../../source/contrib/guidelines/guidelines.rst:4
 msgid ""
-"Contributors are the lifeblood of the project. We welcome contributions "
-"but remind everyone to be a :doc:`Gracious Professional "
+"Contributors are the lifeblood of the project. We welcome contributions but "
+"remind everyone to be a :doc:`Gracious Professional "
 "</gracious_professionalism/gp>`."
 msgstr ""
+"貢献者はプロジェクトの生命線です。貢献を歓迎しますが、あらゆる方々に：「優れた専門家の振る舞い」についてのガイドラインを守っていただくことをお願いします。（:doc:`優れた専門家の振る舞い"
+" </gracious_professionalism/gp>`）"
 
 #: ../../source/contrib/guidelines/guidelines.rst:8
 msgid "Creating an Issue"
-msgstr ""
+msgstr "問題の作成"
 
 #: ../../source/contrib/guidelines/guidelines.rst:10
 msgid ""
-"Please start by creating an issue to describe the problem or the feature "
-"you would like. This allows for discussion to happen which may resolve "
-"the issue at that stage, or perhaps clarify the request and the work to "
-"be done."
+"Please start by creating an issue to describe the problem or the feature you"
+" would like. This allows for discussion to happen which may resolve the "
+"issue at that stage, or perhaps clarify the request and the work to be done."
 msgstr ""
+"問題や希望する機能について説明したissueを作成してください。これにより、問題の解決やリクエストの明確化などの議論が行われ、issueを解決したり、必要な作業がはっきりとすることが可能になります。"
 
 #: ../../source/contrib/guidelines/guidelines.rst:13
 msgid ""
-"There are two types of issues: bugs and feature requests. A bug report is"
-" an issue that describes a problem with the documentation. A feature "
-"request is an issue that describes a new feature that should be added to "
-"the documentation."
+"There are two types of issues: bugs and feature requests. A bug report is an"
+" issue that describes a problem with the documentation. A feature request is"
+" an issue that describes a new feature that should be added to the "
+"documentation."
 msgstr ""
+"問題は二種類あります：バグと機能要望です。バグ報告はドキュメンテーションに問題があることを説明する-issue-"
+"です。機能要望はドキュメンテーションに追加すべき新しい機能を説明する-issue-です。"
 
 #: ../../source/contrib/guidelines/guidelines.rst:16
 msgid ""
 "Before creating either make sure to check for duplicates. If you find a "
 "duplicate, comment on the issue and add your input where possible. If "
-"possible we would love to see a pull request that fixes the issue. If you"
-" are unsure how to fix the issue that is perfectly alright."
+"possible we would love to see a pull request that fixes the issue. If you "
+"are unsure how to fix the issue that is perfectly alright."
 msgstr ""
+"どちらを作成する前に、重複を確認してください。重複を見つけたら、問題についてコメントし、可能な限り意見を追加します。修正Pull "
+"Requestがあれば大変嬉しいです。問題を修正する方法が不明確な場合でも、全く問題ありません。"
 
 #: ../../source/contrib/guidelines/guidelines.rst:21
 msgid "Bug Reports"
-msgstr ""
+msgstr "バグ報告"
 
 #: ../../source/contrib/guidelines/guidelines.rst:23
 msgid "A description of the bug"
-msgstr ""
+msgstr "バグの説明"
 
 #: ../../source/contrib/guidelines/guidelines.rst:24
 msgid "Expected behavior"
-msgstr ""
+msgstr "期待される動作"
 
 #: ../../source/contrib/guidelines/guidelines.rst:25
 msgid "Steps to reproduce the bug (If applicable)"
-msgstr ""
+msgstr "再現手順（適用する場合）"
 
 #: ../../source/contrib/guidelines/guidelines.rst:26
 #: ../../source/contrib/guidelines/guidelines.rst:33
 msgid "Screenshots (If applicable)"
-msgstr ""
+msgstr "スクリーンショット（適用時）"
 
 #: ../../source/contrib/guidelines/guidelines.rst:29
 msgid "Feature Requests"
-msgstr ""
+msgstr "機能要望"
 
 #: ../../source/contrib/guidelines/guidelines.rst:31
 msgid "A description of the feature"
-msgstr ""
+msgstr "機能の説明"
 
 #: ../../source/contrib/guidelines/guidelines.rst:32
 msgid "Why you think this feature should be added"
-msgstr ""
+msgstr "なぜこの機能が追加されるべきか"
 
 #: ../../source/contrib/guidelines/guidelines.rst:36
 msgid "Creating a Pull Request"
-msgstr ""
+msgstr "プルリクエストの作成"
 
 #: ../../source/contrib/guidelines/guidelines.rst:38
 msgid ""
-"A Pull Request (PR) is a proposal to merge a set of changes from one "
-"branch into another. In a pull request, collaborators can review and "
-"discuss the proposed set of changes before they integrate the changes "
-"into the main codebase. In GitHub, a PR will display the differences "
-"between the content in the source branch and the content in the target "
-"branch."
+"A Pull Request (PR) is a proposal to merge a set of changes from one branch "
+"into another. In a pull request, collaborators can review and discuss the "
+"proposed set of changes before they integrate the changes into the main "
+"codebase. In GitHub, a PR will display the differences between the content "
+"in the source branch and the content in the target branch."
 msgstr ""
+"プルリクエスト（PR）は、一つのブランチから一連の変更を別のブランチにマージするための提案です。プルリクエストでは、コラボレーターが提案された一連の変更をレビューし、議論することができます。その後、これらの変更を主要なコードベースに統合します。GitHub"
+" では、PR はソースブランチとターゲットブランチの内容間の差分を表示します。"
 
 #: ../../source/contrib/guidelines/guidelines.rst:42
 msgid ""
 "PRs should be made to the `FTC Docs <https://github.com/FIRST-Tech-"
-"Challenge/ftcdocs>`_ repository on GitHub. Your title should aim to "
-"describe the purpose of your PR in a *concise* manner. For more "
-"information on creating a PR, see `creating a pull request "
+"Challenge/ftcdocs>`_ repository on GitHub. Your title should aim to describe"
+" the purpose of your PR in a *concise* manner. For more information on "
+"creating a PR, see `creating a pull request "
 "<https://docs.github.com/en/pull-requests/collaborating-with-pull-"
-"requests/proposing-changes-to-your-work-with-pull-requests/creating-a"
-"-pull-request>`_ on GitHub. We have specific guidance for making changes,"
-" start with the :doc:`Change Overview "
-"</contrib/tutorials/overview/overview>`."
+"requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-"
+"request>`_ on GitHub. We have specific guidance for making changes, start "
+"with the :doc:`Change Overview </contrib/tutorials/overview/overview>`."
 msgstr ""
+"PRはGitHubの`FTC Docs <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ "
+"リポジトリに作成してください。タイトルはPRの目的を*簡潔*に説明するようにしてください。PRを作成する方法について詳しく知るには、GitHubの`pull"
+" requestの作成 <https://docs.github.com/en/pull-requests/collaborating-with-"
+"pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-"
+"pull-request>`_ を参照してください。変更を提出する際の具体的なガイドラインはありますので、最初に :doc:`変更概要 "
+"</contrib/tutorials/overview/overview>` から始めてください。"
 
 #: ../../source/contrib/guidelines/guidelines.rst:49
 msgid "Colophon"
-msgstr ""
+msgstr "著者情報"
 
 #: ../../source/contrib/guidelines/guidelines.rst:51
 msgid ""
@@ -129,13 +141,18 @@ msgid ""
 "`theme <https://github.com/readthedocs/sphinx_rtd_theme>`__ provided by "
 "`Read the Docs <https://readthedocs.org/>`__."
 msgstr ""
+"FTC ドキュメントは `Sphinx <https://www.sphinx-doc.org/>`__ を使用し、`Read the Docs "
+"<https://readthedocs.org/>`__ によって提供される `テーマ "
+"<https://github.com/readthedocs/sphinx_rtd_theme>`__ を使って構築されています。"
 
 #: ../../source/contrib/guidelines/guidelines.rst:53
 msgid ""
-"Sphinx is a documentation generator. Sphinx converts reStructuredText "
-"files into HTML web pages. Read the Docs is a documentation hosting "
-"platform and provides the base Sphinx theme for FTC Docs."
+"Sphinx is a documentation generator. Sphinx converts reStructuredText files "
+"into HTML web pages. Read the Docs is a documentation hosting platform and "
+"provides the base Sphinx theme for FTC Docs."
 msgstr ""
+"スphinxdocumentation生成ツールです。sphinxはreStructuredTextファイルをHTMLウェブページに変換します。Read"
+" the Docsはdocumentationホスティングプラットフォームで、FTC Docsの基本的なSphinxテーマを提供しています。"
 
 #: ../../source/contrib/guidelines/guidelines.rst:57
 msgid ""
@@ -143,4 +160,5 @@ msgid ""
 "helper/tree/main/sphinx_rtd_dark_mode_v2>`__ is provided by the FTC Docs "
 "development team."
 msgstr ""
-
+"The `ダークテーマ <https://github.com/FIRST-Tech-Challenge/ftcdocs-"
+"helper/tree/main/sphinx_rtd_dark_mode_v2>`__ はFTCドキュメント開発チームによって提供されています。"

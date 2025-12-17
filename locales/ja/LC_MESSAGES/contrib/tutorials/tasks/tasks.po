@@ -12,94 +12,105 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:2
 msgid "Intro to VS Code Tasks"
-msgstr ""
+msgstr "VS Code タスクの入門"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:3
 msgid ":bdg-secondary:`Information`"
-msgstr ""
+msgstr ":bdg-secondary:`情報`"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:5
 msgid ""
-"In order to simplify the process of building and running FTC Docs we have"
-" created a set of tasks for Visual Studio Code. These tasks are defined "
-"in the `.vscode/tasks.json` file and can be run via the `Terminal` -> "
-"`Run Task...` menu."
+"In order to simplify the process of building and running FTC Docs we have "
+"created a set of tasks for Visual Studio Code. These tasks are defined in "
+"the `.vscode/tasks.json` file and can be run via the `Terminal` -> `Run "
+"Task...` menu."
 msgstr ""
+"FIRST Docsの構築と実行プロセスを簡素化するために、Visual Studio "
+"Code用の一連のタスクを作成しました。これらのタスクは`.vscode/tasks.json`ファイルで定義されており、`Terminal` -> "
+"`Run Task...` メニューから実行できます。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:9
 msgid "Tasks"
-msgstr ""
+msgstr "タスク"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:12
 msgid "``make-setup``"
-msgstr ""
+msgstr "セットアップを作成する"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:13
 msgid ""
 "This task will install the necessary dependencies for building FTC Docs. "
 "This task should only need to be run once."
-msgstr ""
+msgstr "このタスクはFTC Docsの構築に必要な依存関係をインストールします。このタスクは一度だけ実行する必要があります。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:16
 msgid "``make-html``"
-msgstr ""
+msgstr "``作成HTML``"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:17
 msgid ""
-"This task will build the HTML version of the FTC Docs. The output will be"
-" placed in the `html` directory. This will not automatically create a "
-"local server to view the output. In most cases we would instead recommend"
-" using the `make-autobuild` task."
+"This task will build the HTML version of the FTC Docs. The output will be "
+"placed in the `html` directory. This will not automatically create a local "
+"server to view the output. In most cases we would instead recommend using "
+"the `make-autobuild` task."
 msgstr ""
+"このタスクはFTCドキュメントのHTML版を作成します。出力は`html`ディレクトリに配置されます。これはローカルサーバーを自動的に作成し、出力を表示するものではありません。大多数の場合では、代わりに`make-"
+"autobuild`タスクを使用することをお勧めします。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:22
 msgid "``make-latexpdf``"
-msgstr ""
+msgstr "``make-latexpdf``"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:23
 msgid ""
 "This task will build the PDF version of the FTC Docs. The output will be "
-"placed in the `latex` directory. In the backend it generates the LaTeX "
-"files and then runs `pdflatex` to generate the PDF. This build "
-"functionality is not supported in this tutorial though Codespace users "
-"can use this task. The PDF output is stored as "
-"``docs/build/latex/ftcdocs.pdf``. Note that this task takes a long time "
-"to run and is not recommended for frequent use."
+"placed in the `latex` directory. In the backend it generates the LaTeX files"
+" and then runs `pdflatex` to generate the PDF. This build functionality is "
+"not supported in this tutorial though Codespace users can use this task. The"
+" PDF output is stored as ``docs/build/latex/ftcdocs.pdf``. Note that this "
+"task takes a long time to run and is not recommended for frequent use."
 msgstr ""
+"このタスクはFTCドキュメントのPDF版を作成します。出力は`latex`ディレクトリに配置されます。バックエンドではLaTeXファイルを生成し、その後`pdflatex`を使用してPDFを生成します。ただし、このチュートリアルではこのビルド機能はサポートされていません。"
+" "
+"Codespaceユーザーはこのタスクを使用できます。PDF出力は``docs/build/latex/ftcdocs.pdf``に保存されます。なお、このタスクの実行には時間がかかるため、頻繁に使用する推奨されません。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:29
 msgid "``make-autobuild``"
-msgstr ""
+msgstr "自動ビルドを作成する"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:30
 msgid ""
-"This task will build the HTML version of the FTC Docs and then start a "
-"local server to view the output. It will also automatically rebuild the "
-"HTML version of the FTC Docs whenever a file is changed. This is the "
-"recommended way to view the FTC Docs while working on them. It is also "
-"hotkeyed to `Ctrl+Shift+B` for easy access. You can stop this task by "
-"pressing `Ctrl+C` in the terminal."
+"This task will build the HTML version of the FTC Docs and then start a local"
+" server to view the output. It will also automatically rebuild the HTML "
+"version of the FTC Docs whenever a file is changed. This is the recommended "
+"way to view the FTC Docs while working on them. It is also hotkeyed to "
+"`Ctrl+Shift+B` for easy access. You can stop this task by pressing `Ctrl+C` "
+"in the terminal."
 msgstr ""
+"このタスクは、FTC ドキュメントの HTML "
+"版を構築し、その後ローカルサーバーを起動して出力を確認できるようにします。また、ファイルが変更されるたびに FTC ドキュメントの HTML "
+"版が自動的に再構築されます。ドキュメントを作成中にこの方法で確認するのが推奨されています。また、この機能は `Ctrl+Shift+B` "
+"というショートカットキーで簡単にアクセスできます。ターミナルで `Ctrl+C` を押すことでこのタスクを停止することができます。"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:36
 msgid "``make-clean``"
-msgstr ""
+msgstr "``清掃を行う``"
 
 #: ../../source/contrib/tutorials/tasks/tasks.rst:37
 msgid ""
-"This task will remove all of the build artifacts. This is useful if you "
-"want to start from a clean slate. This is sometimes necessary if you are "
-"not seeing your changes reflected in the output as will sometimes happen "
-"with images and other static files."
+"This task will remove all of the build artifacts. This is useful if you want"
+" to start from a clean slate. This is sometimes necessary if you are not "
+"seeing your changes reflected in the output as will sometimes happen with "
+"images and other static files."
 msgstr ""
-
+"このタスクはすべてのビルドアーティファクトを削除します。これにより、クリーンな状態から再開したい場合に便利です。出力がイメージやその他の静的なファイルなど、変更が反映されない場合があるため、時々必要になることがあります。"

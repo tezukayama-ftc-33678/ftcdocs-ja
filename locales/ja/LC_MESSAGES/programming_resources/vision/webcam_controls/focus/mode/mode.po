@@ -12,78 +12,87 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:2
 msgid "Focus Control Mode"
-msgstr ""
+msgstr "フォーカス制御モード"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:4
-msgid ":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl.Mode`"
+msgid ""
+":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl.Mode`"
 msgstr ""
+":java:extdoc:`org.firstinspires.ftc.robotcore.external.hardware.camera.controls.FocusControl.Mode`"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:6
 msgid ""
-"A webcam may operate in one of various focus modes. To directly control "
-"the focus length, set the webcam to Fixed mode."
+"A webcam may operate in one of various focus modes. To directly control the "
+"focus length, set the webcam to Fixed mode."
 msgstr ""
+"ウェブカメラは Various フォーカスモード のいずれかで動作します。フォーカス距離を直接制御するには、ウェブカメラを Fixed モード "
+"に設定してください。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:9
 msgid "The SDK supports these values of FocusControl.Mode:"
-msgstr ""
+msgstr "SDKはFocusControl.Modeの次の値をサポートしています："
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:11
 msgid "`Auto`"
-msgstr ""
+msgstr "自動"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:12
 msgid "`ContinuousAuto`"
-msgstr ""
+msgstr "継続自動"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:13
 msgid "`Fixed`"
-msgstr ""
+msgstr "固定"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:14
 msgid "`Infinity`"
-msgstr ""
+msgstr "無限大"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:15
 msgid "`Macro`"
-msgstr ""
+msgstr "マクロ"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:16
 msgid "`Unknown`"
-msgstr ""
+msgstr "不明"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:18
 msgid "Mode is managed with these FocusControl methods:"
-msgstr ""
+msgstr "モードはこれらのFocusControlメソッドで管理されます："
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:20
 msgid "setMode(ExposureControl.Mode._mode_)"
-msgstr ""
+msgstr "ExposureControl.Mode._mode_ のモードに設定する"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:21
 msgid "getMode()"
-msgstr ""
+msgstr "モードを得る()"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:23
 msgid ""
-"The Logitech C920 webcam offers two modes: ContinuousAuto and Fixed, "
-"which does respond to FocusControl methods. The Logitech C270 (older "
-"model) offers only Fixed mode, but does not allow programmed control."
+"The Logitech C920 webcam offers two modes: ContinuousAuto and Fixed, which "
+"does respond to FocusControl methods. The Logitech C270 (older model) offers"
+" only Fixed mode, but does not allow programmed control."
 msgstr ""
+"Logitech "
+"C920のウェブカメラは、ContinuousAutoモードとFixedモードの2つを提供します。このFixedモードはFocusControlメソッドに反応します。一方、Logitech"
+" C270（旧モデル）はOnly Fixedモードのみを提供し、プログラムによる制御が不可能です。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:27
 msgid ""
 "Full details are described in the `FocusControl Javadoc "
 "<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.html>`__."
 msgstr ""
-
+"詳細は `FocusControl Javadoc "
+"<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.html>`__"
+" で説明されています。"

@@ -12,49 +12,50 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:2
 msgid "AprilTag Metadata"
-msgstr ""
+msgstr "4月タグメタデータ"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "紹介\\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:7
 msgid ""
 "A Library tag stores **Metadata**, a collection of at least 4 fields (of "
 "these Blocks/Java types):"
-msgstr ""
+msgstr "ライブラリタグは**メタデータ**を保存し、これらのブロックやJava型のうち少なくとも4つのフィールドからなるコレクションを保持します："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:10
 msgid "ID code (number/``int``)"
-msgstr ""
+msgstr "ID コード (番号/int)"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:11
 msgid "tag name (text/``String``)"
-msgstr ""
+msgstr "タグ名（text/String）"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:12
 msgid "tag size (number/``double``)"
-msgstr ""
+msgstr "タグサイズ（数値/``double``）"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:13
 msgid ""
 "unit for tag size and estimated position (``DistanceUnit INCH, MM, CM, "
 "METER``)"
-msgstr ""
+msgstr "タグサイズと推定位置の単位（``DistanceUnit INCH, MM, CM, METER``）"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:15
-msgid "Two optional Metadata fields are described at the **Advanced Use** page."
-msgstr ""
+msgid ""
+"Two optional Metadata fields are described at the **Advanced Use** page."
+msgstr "二つの任意のメタデータフィールドは、**高度な使用方法**ページで説明されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:17
 msgid ""
@@ -62,109 +63,120 @@ msgid ""
 "**Library** page.  For now it's enough to know the 4 basic elements of "
 "Metadata."
 msgstr ""
+"Metadata ブロックと Java メソッドの完全な使用方法は、**ライブラリ**ページで説明されています。現在のところ、Metadata "
+"の基本的な 4 要素だけを理解するだけで十分です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:21
 msgid "Tag Contents"
-msgstr ""
+msgstr "タグ内容"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:23
 msgid "The SDK 8.2 Sample OpModes use AprilTags with these Metadata values:"
-msgstr ""
+msgstr "SDK 8.2 のサンプルオペレーションモードでは、AprilTags が次のメタデータ値を使用します："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:25
 msgid "``583, Nemo, 4, DistanceUnit.INCH``"
-msgstr ""
+msgstr "``583, ネモ, 4, DistanceUnit.INCH``"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:26
 msgid "``584, Jonah, 4, DistanceUnit.INCH``"
-msgstr ""
+msgstr "``584, ジョナハ, 4, DistanceUnit.INCH``"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:27
 msgid "``585, Cousteau, 6, DistanceUnit.INCH``"
-msgstr ""
+msgstr "``585, コュストー, 6, DistanceUnit.INCH``"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:28
 msgid "``586, Ariel, 6, DistanceUnit.INCH``"
-msgstr ""
+msgstr "``586, アリエル, 6, DistanceUnit.INCH``"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:30
 msgid ""
-"These four are available with the ``getSampleTagLibrary()`` Block or Java"
-" method."
-msgstr ""
+"These four are available with the ``getSampleTagLibrary()`` Block or Java "
+"method."
+msgstr "これらの4つは ``getSampleTagLibrary()`` ブロックやJavaメソッドで利用可能です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:33
 msgid ""
-"After Kickoff in September 2023, the CENTERSTAGE game tags will be "
-"available with ``getCenterStageTagLibrary()``.  That Library currently "
-"contains 3 placeholder tags: MEOW (ID 0), WOOF (ID 1) and OINK (ID 2)."
+"After Kickoff in September 2023, the CENTERSTAGE game tags will be available"
+" with ``getCenterStageTagLibrary()``.  That Library currently contains 3 "
+"placeholder tags: MEOW (ID 0), WOOF (ID 1) and OINK (ID 2)."
 msgstr ""
+"2023年9月のKickoff以降、CENTERSTAGEゲームタグは ``getCenterStageTagLibrary()`` "
+"を使用して利用可能になります。そのライブラリには現在、3つのプレースホルダータグが含まれています：MEOW（ID 0）、WOOF（ID "
+"1）およびOINK（ID 2）。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:37
 msgid ""
 "Before and after Kickoff, a call to ``getCurrentGameTagLibrary()`` will "
 "provide **both sets** of tags."
-msgstr ""
+msgstr "キックオフ前後で、``getCurrentGameTagLibrary()`` を呼び出すと、**両方のセット**のタグが提供されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:40
 msgid "These three Libraries are discussed further at the **Library** page."
-msgstr ""
+msgstr "これらの3つのライブラリは、詳しく**ライブラリ**ページで説明されています。\\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:43
 msgid "Tag Names"
-msgstr ""
+msgstr "タグ名"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:45
 msgid "A tag name, whether default or custom, can be retrieved as follows:"
-msgstr ""
+msgstr "タグ名（デフォルトまたはカスタム）は、次のようになります："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst
 msgid "Blocks"
-msgstr ""
+msgstr "ブロック"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:56
 msgid "Example of Reading AprilTag Names"
-msgstr ""
+msgstr "AprilTag名の読み取り例"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:61
 msgid "Example of retrieving AprilTag Name"
-msgstr ""
+msgstr "AprilTag名の取得方法の例"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:69
 msgid ""
-"As with tag ID code, the tag name is usually retrieved inside a ``for()``"
-" loop, for immediate processing or stored for later use.  See the "
+"As with tag ID code, the tag name is usually retrieved inside a ``for()`` "
+"loop, for immediate processing or stored for later use.  See the "
 "**Initialization** page for sample ``for()`` loop code."
-msgstr ""
+"msgstr ""
+"タグIDコードと同じように、タグ名は通常 ``for()`` ループの中で取得され、即時の処理に使用されますか、後で使用するために保存されます。詳細については、**初期化**ページのサンプル ``for()`` ループコードをご覧ください。"
+""
+"タグIDコードと同じように、タグ名は通常 ``for()`` ループの中で取得され、即時処理に使用されるか、後で使用するために保存されます。サンプルの ``for()`` ループコードについては **Initialization** ページを参照してください。"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:73
 msgid ""
-"Unlike tag ID code, a detected AprilTag might have **no tag name** -- if "
-"it was not placed into the Library by default or with the custom Builder "
+"Unlike tag ID code, a detected AprilTag might have **no tag name** -- if it "
+"was not placed into the Library by default or with the custom Builder "
 "pattern."
 msgstr ""
+"Unlike tag ID コードとは異なり、検出された AprilTag には **タグ名が存在しない場合** "
+"があります。デフォルトでライブラリに追加されなかったり、カスタムビルダー パターンを使用して追加されなかった場合です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:76
 msgid ""
 "To avoid logic errors, an OpMode can check the Metadata for a **null** "
-"condition before attempting to process a tag name.  This is illustrated "
-"in these Sample OpModes:"
+"condition before attempting to process a tag name.  This is illustrated in "
+"these Sample OpModes:"
 msgstr ""
+"論理エラーを避けるために、OpModeはタグ名を処理する前にメタデータで**null**条件を確認できます。これは次のサンプルOpModeで示されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:80
 msgid "Blocks: ``ConceptAprilTag``"
-msgstr ""
+msgstr "ブロック: ``ConceptAprilTag``"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:81
 msgid "Java: ``ConceptAprilTag.java``"
-msgstr ""
+msgstr "Java: ``ConceptAprilTag.java``"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:85
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr ""
-
+msgstr "*質問、コメントや訂正はwestsiderobotics@verizon.netまで*"

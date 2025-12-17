@@ -12,201 +12,212 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:2
 msgid "Driver Station Components"
-msgstr ""
+msgstr "ドライバーステーションのコンポーネント"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:5
 msgid "Android Device"
-msgstr ""
+msgstr "Android デバイス"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:14
 msgid "REV Driver Hub"
-msgstr ""
+msgstr "REV ドライバーハブ"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:25
 msgid "REV Driver Hub (REV-31-1596)"
-msgstr ""
+msgstr "REV ドライバー ハブ (REV-31-1596)"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:31
 msgid "Android Smartphone"
-msgstr ""
+msgstr "Android スマートフォン"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:42
 msgid "Moto E5"
-msgstr ""
+msgstr "モト E5"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:44
 msgid ""
-"The heart of the Driver Station is the Android Device that runs the "
-"Driver Station App. This Android Device requirement can be fulfilled "
-"either through the use of a `REV Driver Hub "
-"<https://www.revrobotics.com/rev-31-1596/>`_ or one of the approved "
-"Android Smartphones listed in the Competition Manual. It is of vital "
-"importance that the Driver Station App be updated to a version that meets"
-" or exceeds the minimum Driver Station App version as defined in the "
-"Competition Manual."
+"The heart of the Driver Station is the Android Device that runs the Driver "
+"Station App. This Android Device requirement can be fulfilled either through"
+" the use of a `REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_ "
+"or one of the approved Android Smartphones listed in the Competition Manual."
+" It is of vital importance that the Driver Station App be updated to a "
+"version that meets or exceeds the minimum Driver Station App version as "
+"defined in the Competition Manual."
 msgstr ""
+"ドライバー・ステーションの核心は、ドライバー・ステーションアプリを実行するAndroidデバイスです。このAndroidデバイスの要件は、REV "
+"ドライバーハブ (` REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_) "
+"または競技マニュアルに記載されている承認されたAndroidスマートフォンを使用することにより満たすことができます。ドライバー・ステーションアプリが競技マニュアルで定義された最小ドライバー・ステーションアプリバージョンを満たすか、それ以上のバージョンであるように更新されることが極めて重要です。"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:53
 msgid "USB-OTG Adapter / Hubs"
-msgstr ""
+msgstr "USB-OTG アダプター / ハブ"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:62
 msgid "USB OTG Cable"
-msgstr ""
+msgstr "USB OTGケーブル"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:73
 msgid "USB OTG Adapter Cable"
-msgstr ""
+msgstr "USB OTGアダプターケーブル"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:79
 msgid "USB Hub"
-msgstr ""
+msgstr "USB ハブ"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:90
 msgid "Anker USB Hub"
-msgstr ""
+msgstr "アンカーUSBハブ"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:96
 msgid "USB OTG Hub"
-msgstr ""
+msgstr "USB OTG ハブ"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 msgid "REV UltraUSB"
-msgstr ""
+msgstr "REV ユーティラUSB"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:107
 msgid "REV UltraUSB (REV-31-1592)"
-msgstr ""
+msgstr "REV ウルトラUSB (REV-31-1592)"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:109
 msgid ""
-"If the Android Device being used is an Android Smartphone, the smartphone"
-" only provides a single USB-Micro-B port on the bottom of the phone. In "
-"order to use USB devices with the Android Smartphone, like a gamepad, a "
-"USB-OTG Adapter Cable must be used. This cable provides a USB Type A port"
-" for the Gamepad or peripherals (like a USB Hub, to allow more than one "
-"Gamepad to be used). If available, it is instead recommended to use a USB"
-" Hub with OTG cable built in, like the `REV UltraUSB (REV-31-1592) "
-"<https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`_ - this reduces "
-"the number of connections and failure points in the system."
+"If the Android Device being used is an Android Smartphone, the smartphone "
+"only provides a single USB-Micro-B port on the bottom of the phone. In order"
+" to use USB devices with the Android Smartphone, like a gamepad, a USB-OTG "
+"Adapter Cable must be used. This cable provides a USB Type A port for the "
+"Gamepad or peripherals (like a USB Hub, to allow more than one Gamepad to be"
+" used). If available, it is instead recommended to use a USB Hub with OTG "
+"cable built in, like the `REV UltraUSB (REV-31-1592) "
+"<https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`_ - this reduces the "
+"number of connections and failure points in the system."
 msgstr ""
+"もし使用しているAndroidデバイスがスマートフォンである場合、そのスマートフォンは電話の底に単一のUSB-Micro-"
+"Bポートのみを提供します。AndroidスマートフォンでUSBデバイスを使用するためには、ゲームパッドなど、USBゲームパッドや周辺機器（例えば、複数のゲームパッドを使用できるようにするUSBハブ）に接続するために、USB-"
+"OTGアダプターケーブルが必要です。このケーブルはゲームパッドや周辺機器用のUSB Type "
+"Aポートを提供します。もし利用可能であれば、代わりに内蔵OTGケーブルを持つUSBハブを使用することをお勧めします。例えば、「REV UltraUSB "
+"(REV-31-1592) <https://www.revrobotics.com/UltraUSB-Hub-and-"
+"Cables/>」のような製品が適しています。これにより、システム内の接続数と故障点を減らすことができます。"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:118
 msgid ""
-"When using a REV Driver Hub, no OTG adapters are necessary - gamepads may"
-" connect directly to one of the three USB-A ports on the device."
+"When using a REV Driver Hub, no OTG adapters are necessary - gamepads may "
+"connect directly to one of the three USB-A ports on the device."
 msgstr ""
+"REV ドライバーハブを使用する場合、OTG アダプターは必要ありません - ゲームパッドはデバイスの 3 つの USB-A "
+"ポートのいずれかに直接接続できます。"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:122
 msgid "Comercial USB Battery Pack"
-msgstr ""
+msgstr "商用USBバッテリーパック"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:131
 msgid "USB Battery Pack"
-msgstr ""
+msgstr "USB電源パック"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:142
 msgid "Anker Battery Pack"
-msgstr ""
+msgstr "アンカー蓄電池パック"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:144
 msgid ""
-"A commercial USB battery pack is an auxiliary power source that can be "
-"used in specific situations in accordance with the Competition Manual. A "
-"USB battery pack is permitted to be used to charge your Android Device. "
-"Only the REV Driver Hub can be charged while in use, through its USB-C "
-"port."
+"A commercial USB battery pack is an auxiliary power source that can be used "
+"in specific situations in accordance with the Competition Manual. A USB "
+"battery pack is permitted to be used to charge your Android Device. Only the"
+" REV Driver Hub can be charged while in use, through its USB-C port."
 msgstr ""
+"商業用のUSBバッテリーパックは、競技マニュアルに従って特定の状況で使用できる補助電源です。USBバッテリーパックは、Androidデバイスを充電するために使用が可能です。ただし、使用中にはみずから"
+" REV ドライバーハブのみがUSB-Cポートを通じて充電可能となります。"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:150
 msgid "Gamepads"
-msgstr ""
+msgstr "ゲームパッド"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:159
 msgid "Logitech F310"
-msgstr ""
+msgstr "ロジテック F310"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:170
 msgid "Logitech F310 Gamepad"
-msgstr ""
+msgstr "ロジテック F310 ゲームパッド"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:176
 msgid "Sony DualSense"
-msgstr ""
+msgstr "ソニー・デュアルセンス"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 msgid "Sony DualSense PS5"
-msgstr ""
+msgstr "ソニー デュアルセンス PS5"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:187
 msgid "Sony DualSense Gamepad"
-msgstr ""
+msgstr "ソニー デュアルセンス ゲームパッド"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:193
 msgid "Sony Dualshock 4"
-msgstr ""
+msgstr "ソニー デュアルショック 4"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 msgid "Dual Shock 4"
-msgstr ""
+msgstr "Dual Shock 4"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:204
 msgid "Sony DualShock 4 Gamepad"
-msgstr ""
+msgstr "ソニー DualShock 4 ゲームパッド"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:210
 msgid "Etpark PS4 Wired"
-msgstr ""
+msgstr "エトパarks PS4 ウイルド"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 msgid "Etpark PS4"
-msgstr ""
+msgstr "エトパarks PS4"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:221
 msgid "Etpark PS4 Wired Gamepad"
-msgstr ""
+msgstr "ETpark PS4有線ゲームパッド"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:227
 msgid "Xbox 360"
-msgstr ""
+msgstr "Xbox 360"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:238
 msgid "Xbox 360 Gamepad"
-msgstr ""
+msgstr "Xbox 360 ゲームパッド"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:244
 msgid "Quadstick"
-msgstr ""
+msgstr "クアッドスティック"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:255
 msgid "Quadstick FPS"
-msgstr ""
+msgstr "クアッドスティックFPS"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:257
 msgid ""
-"The Competition Manual defines the gamepads that are allowed in "
-"competition play. Up to two gamepads, in any combination, of the allowed "
-"types of gamepads may be used. All gamepads MUST be used in wired mode "
-"only, no wireless of any kind is allowed. Special features of some "
-"gamepads (Rumble, Lighting) may be programmed and used by teams for "
-"notifications and signaling to the drivers of the robot."
+"The Competition Manual defines the gamepads that are allowed in competition "
+"play. Up to two gamepads, in any combination, of the allowed types of "
+"gamepads may be used. All gamepads MUST be used in wired mode only, no "
+"wireless of any kind is allowed. Special features of some gamepads (Rumble, "
+"Lighting) may be programmed and used by teams for notifications and "
+"signaling to the drivers of the robot."
 msgstr ""
-
+"競技マニュアルでは、競技での使用が許可されたゲームパッドを定義しています。許可されたタイプのゲームパッドは最大2台まで、どのような組み合わせでも使用できます。すべてのゲームパッドは有線モードのみで使用する必要があります。どんな種類の無線も許可されていません。一部のゲームパッドの特別な機能（振動、照明）はチームによってプログラムされ、ドライバーに対して通知や信号を送る目的で使用することができます。"

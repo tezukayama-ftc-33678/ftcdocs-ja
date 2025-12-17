@@ -1,0 +1,3241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/tech_tips/tech-tips.rst:2
+msgid "*FIRST* Tech Challenge Tech Tips"
+"msgstr "*FIRST* Tech Challenge テックヒント""
+
+#: ../../source/tech_tips/tech-tips.rst:4
+msgid ""
+"Started in the 2023-2024 season, Tech Tips are a weekly segment released in "
+"the *FIRST* Tech Challenge `Team E-mail Blast "
+"<https://www.firstinspires.org/resources/library/ftc/team-email-blast-"
+"archive>`__. Sometimes the Tech Tips are included in whole in the email "
+"blast, but sometimes there is more content than is reasonable in the email "
+"blast so partial content is included in the blast with the rest of the "
+"content here. Blasts are ordered on this page chronologically, with the "
+"newest content at the top of the page."
+"msgstr """
+"2023-2024シーズンから始まったTech Tipsは、*FIRST* Tech Challengeの`Team E-mail Blast "
+"<https://www.firstinspires.org/resources/library/ftc/team-email-blast-"
+"archive>`__に週ごとのセグメントとしてリリースされています。Tech "
+"Tipsはメール便の全内容で含まれることもありますが、時にはメール便には収まらないほど多くの情報が含まれるので、部分的な内容がメール便に含まれ、残りの内容はここに掲載されます。ページ上の爆発は時系列順に並べられ、最新のコンテンツはページのトップに表示されます。"
+
+#: ../../source/tech_tips/tech-tips.rst:12
+msgid ""
+"Just click on the tech tip to read (in the \"Updated Tech Tips\" list "
+"below), or expand the Tech Tip (in the \"Legacy Tech Tips\" list) you'd like"
+" to read."
+"msgstr """
+"Tech Tip をクリックして読み進めることができます（下の「更新されたTech Tip」リストを参照）、「 Legacy Tech Tips "
+"」リスト中的的 Tech Tip を展開することもできます。"
+
+#: ../../source/tech_tips/tech-tips.rst:16
+msgid "Updated Tech Tips:"
+"msgstr "更新された技術ヒント：""
+
+#: ../../source/tech_tips/tech-tips.rst:25
+msgid "Legacy Tech Tips:"
+"msgstr "Legacy Tech Tips:""
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid ""
+"Week of 11/06/2024 \"Android Studio 2024.2.1 LadyBug Update and the FTC "
+"SDK\""
+"msgstr "週 11/06/2024 \"Android Studio 2024.2.1 レディーベグアップデートとFTC SDK\"""
+
+#: ../../source/tech_tips/tech-tips.rst:31
+msgid "**Android Studio 2024.2.1 LadyBug Update and the FTC SDK**"
+"msgstr "**Android Studio 2024.2.1 ラディーガーブアップデートとFTC SDK**""
+
+#: ../../source/tech_tips/tech-tips.rst:33
+msgid ""
+"This is an important message for teams who use Android Studio to program "
+"their robots. Teams who use Blocks or OnBot Java are not impacted."
+"msgstr """
+"これは、ロボットのプログラムにAndroid Studioを使用するチームにとって重要なメッセージです。ブロックやOnBot "
+"Javaを使用しているチームは影響を受けません。"
+
+#: ../../source/tech_tips/tech-tips.rst:36
+msgid ""
+"On October 1, 2024 `Android Studio "
+"<https://developer.android.com/studio/releases>`__ released a new version of"
+" their software, 2024.2.1 codenamed “LadyBug”, which brought a major user "
+"interface change as well as several other changes (bundled software and "
+"tooling changes) that affects how Android Studio builds projects. "
+"Unfortunately these tooling changes broke the native compatibility with the "
+"*FIRST* Tech Challenge `Software Development Kit (SDK) <https://ftc-"
+"docs.firstinspires.org/en/latest/ftc_sdk/overview/index.html>`__, most "
+"notably with the `FtcRobotController project <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`__.  *FIRST* Tech Challenge teams who use "
+"Android Studio with software projects version 10.1 and older are not able to"
+" use Android Studio “LadyBug” without `performing additional steps "
+"<https://ftc-"
+"docs.firstinspires.org/en/latest/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-"
+"Android-Studio.html#configuring-android-studio-ladybug-and-later>`__ to "
+"restore compatibility."
+"msgstr """
+"2024年10月1日、`Android Studio "
+"<https://developer.android.com/studio/releases>`__ "
+"は新しいソフトウェアバージョン2024.2.1（コードネーム：“LadyBug”）をリリースしました。このバージョンではユーザーインターフェイスが大幅に変更され、バンドルされたソフトウェアやツールの変更も行われ、Android"
+" Studioによるプロジェクトビルド方法に影響を与えました。不幸にもこれらのツールの変更により、*FIRST* Tech Challenge "
+"`Software Development Kit (SDK) <https://ftc-docs.firstinspires.org/en/latest/ftc_sdk/overview/index.html>`__ "
+"とのネイティブ互換性が損なわれ、特に`FtcRobotController プロジェクト <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ と関連する問題が生じました。*FIRST* Tech "
+"Challengeチームは、ソフトウェアプロジェクトバージョン10.1およびそれ以前を使用してAndroid Studioを実行する場合、`追加の手順 "
+"<https://ftc-"
+"docs.firstinspires.org/en/latest/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-"
+"Android-Studio.html#configuring-android-studio-ladybug-and-later>`__ "
+"を実施して互換性を回復する必要があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:52
+msgid ""
+"Teams do not need to update Android Studio to “LadyBug” to continue building"
+" current software, however if they do, a new version of the "
+"`FtcRobotController project (10.1.1) <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController>`__ has been released which is designed to work"
+" with Android Studio “LadyBug.” Users will be required to upgrade their "
+"Android Studio software minimally to Android Studio 2024.2.1 “LadyBug” in "
+"order to use the 10.1.1 version of the SDK and newer. There are no feature "
+"updates to SDK 10.1.1, it is merely a compatibility update which updates the"
+" build tools used by the SDK - including the underlying Gradle tools and the"
+" Android Gradle plugin - and eliminates the need to perform any additional "
+"steps to use Android Studio “LadyBug” and newer. It is expected that future "
+"updates of the SDK will build upon this update, and will minimally require "
+"“LadyBug.” Teams who are using older versions of Android Studio who upgrade "
+"to SDK 10.1.1 will receive notifications within Android Studio to update the"
+" version of Android Studio, which may require an internet connection to "
+"update."
+"msgstr """
+"チームは現在のソフトウェアを構築するためにAndroid "
+"Studioを“LadyBug”に更新する必要はありませんが、もし更新する場合、`FtcRobotController プロジェクト (10.1.1) "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ "
+"がリリースされています。これはAndroid Studio “LadyBug”と互換性のある設計となっています。ユーザーはAndroid "
+"Studioソフトウェアを最小限に更新し、Android Studio 2024.2.1 "
+"“LadyBug”にアップグレードする必要があります。10.1.1版のSDKおよびそれ以降を使用するためにです。SDK "
+"10.1.1には新機能は追加されていません。これは互換性更新であり、SDKが使用しているビルドツールを更新し、包括的なGradleツールとAndroid"
+" Gradレグループラグインを含みます。これにより、Android Studio "
+"“LadyBug”およびそれ以降を使用するために追加の手順を行う必要がなくなりました。将来的なSDKのアップデートはこの更新に基づいており、“LadyBug”に最小限に依存する必要があります。“LadyBug”以前のバージョンのAndroid"
+" Studioを使用しているチームがSDK 10.1.1にアップグレードすると、Android "
+"Studio内でSDKのバージョンを更新する通知を受け取る可能性があります。これにはインターネット接続が必要な場合があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:69
+msgid ""
+"Teams are encouraged to read the `Managing an Android Studio Project "
+"<https://ftc-"
+"docs.firstinspires.org/en/latest/programming_resources/android_studio_java/manage/manage.html>`__"
+" article on `ftc-docs <https://ftc-docs.firstinspires.org/en/latest/>`__ for"
+" tips on managing their projects using GitHub and the git version control "
+"system. Teams managing software projects outside of GitHub and git may re-"
+"download the project, reapply their changes, and copy over their TeamCode "
+"folder. Teams who need technical assistance may use the `ftc-community "
+"forums <https://ftc-community.firstinspires.org/>`__ to receive technical "
+"help and advice."
+"msgstr ""
+"チームは、GitHubやgitバージョン管理システムを使用してプロジェクトを管理するヒントを得るために、「Managing an Android Studio Project」記事を`<https://ftc-docs.firstinspires.org/en/latest/programming_resources/android_studio_java/manage/manage.html>`__で読むことを推奨します。GitHubやgit以外でソフトウェアプロジェクトを管理しているチームは、プロジェクトを再ダウンロードし、変更を再適用し、「TeamCode」フォルダをコピーして移動することができます。技術的な支援が必要なチームは、「ftc-community forums」の`<https://ftc-community.firstinspires.org/>`__を使用して技術的な助けやアドバイスを得ることができます。"
+""
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 10/10/2024 \"AprilTag Localization\""
+"msgstr """
+"2024年10月10日までの週 \\\"AprilTag ロケル化\\\"\"\n"
+"\n"
+"（注：AprilTagはFIRSTの技術用語として原文のままにしています。）"
+
+#: ../../source/tech_tips/tech-tips.rst:83
+msgid "**AprilTag Localization**"
+"msgstr "**AprilTagロケール化**""
+
+#: ../../source/tech_tips/tech-tips.rst:85
+msgid ""
+"This week's Tech Tip is all about AprilTag Localization. How can your robot "
+"determine where it is on the field by looking at an AprilTag? A new set of "
+"APIs have been added to SDK 10.0 to provide just that information, and it "
+"works for any static (immobile) AprilTag on the competition field. Check out"
+" the `AprilTag Localization documentation on ftc-docs <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_localization/apriltag-"
+"localization.html>`__!"
+"msgstr """
+"この週のテックヒントは、AprilTagローカライゼーションについてです。ロボットがフィールド上で自分がどこにいるかを確認するためにどのようにAprilTagを見ればよいかご説明します。SDK"
+" "
+"10.0には、その情報を提供する新しいAPIセットが追加されました。これは競技場上のどの静止型（動かない）AprilTagに対しても機能します。詳細は`ftc-"
+"docsのAprilTagローカライゼーションドキュメント <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_localization/apriltag-"
+"localization.html>`__ をチェックしてください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 09/09/2024 \"AI Innovation Corner - Google AI Studio\""
+"msgstr "週 2024年9月9日 \"AIイノベーションコーナー - Google AIスタジオ\"""
+
+#: ../../source/tech_tips/tech-tips.rst:96
+msgid "**AI Innovation Corner - Google AI Studio**"
+"msgstr "**AIイノベーションコーナー - Google AIスタジオ**""
+
+#: ../../source/tech_tips/tech-tips.rst:98
+msgid ""
+"This week’s Tech Tip of the Week launches a new initiative in *FIRST* Tech "
+"Challenge, an AI Innovation Corner. Generative AI has taken the world by "
+"storm, becoming commonplace now in everything from personal assistants, "
+"search engines, recipe curation, music innovation, and vehicle maintenance! "
+"Machine Learning AI has been a part of *FIRST* Tech Challenge in some way "
+"for the past six years, and we’re now transitioning to help teams learn how "
+"to use and incorporate Generative AI in their *FIRST* Tech Challenge "
+"experience (while we’re learning ourselves!)."
+"msgstr """
+"この週のテックヒントでは、*FIRST* Tech "
+"Challengeにおいて新しいイニシアチブであるAIイノベーションコーナーを立ち上げます。生成型AIは世界中で大流行し、個人アシスタントから検索エンジン、レシピキュレーション、音楽の革新、車両メンテナンスまで、あらゆる分野で身近な存在となっています！機械学習AIは過去6年間で*FIRST*"
+" Tech "
+"Challengeにおいて何かしらの形で存在しており、現在はチームが生成型AIを使いこなす方法を学びながら、その取り入れ方についても理解を深めていく支援を行います（自分たちも学んでいます！）。"
+
+#: ../../source/tech_tips/tech-tips.rst:107
+msgid ""
+"The first step (or *FIRST* step?) to getting the most out of AI is choosing "
+"a model. What do I mean by model? Every AI is a neural network that has been"
+" trained with specific knowledge with the ability to do specific things "
+"based on that knowledge. Each version of this neural network is stored in a "
+"“model”. Each different company has different models available for different"
+" purposes, though most models are variations on their flagship model (Gemini"
+" from Google, ChatGPT 4-o from OpenAI, Claude from Anthropic, and so on). "
+"Each company has different web-based and API interfaces for interacting with"
+" their models, and everyone has their favorite. In *FIRST* Tech Challenge, "
+"the standard tool we use is `Google AI Studio "
+"<https://ai.google.dev/aistudio>`__ to interact with Gemini."
+"msgstr """
+"AIを最大限に活用する最初のステップ（または、*FIRST* "
+"ステップ？）はモデルを選択することです。何を意味するかというと、すべてのAIは特定の知識で訓練されたニューラルネットワークであり、その知識に基づいて特定のことをできる能力があります。このニューラルネットワークの各バージョンは「モデル」として保存されています。各企業には異なる目的に合わせた異なるモデルが用意されており、大多数のモデルはそのフラグシップモデル（Google"
+" の Gemini、OpenAI の ChatGPT 4-o、Anthropic の Claude "
+"など）のバリエーションです。各企業は自社のモデルと相互作用するためのウェブベースや API "
+"インターフェースを提供しており、どのインターフェースが一番好きかは人それぞれです。*FIRST Tech "
+"Challenge*では、標準的なツールとして`Google AI Studio <https://ai.google.dev/aistudio>`__"
+" を使用してGeminiと相互作用します。"
+
+#: ../../source/tech_tips/tech-tips.rst:118
+msgid ""
+"Google AI Studio is free to use, but requires a Google account to access - "
+"virtually all models require a login or API token of some kind to use. "
+"Google AI Studio is our favorite for its list of examples (Prompt Gallery) "
+"and its easy to use interface to save prompt sessions and resume them later."
+" With Google AI Studio, you also can select the specific model you want to "
+"use, and when available you can choose to use preview versions of up and "
+"coming models."
+"msgstr """
+"Google AI Studioは無料ですが、アクセスにはGoogleアカウントが必要です - "
+"大部分のモデルはログインやAPIトークンなどの何かしらの種類が必要です。Google AI Studioは例の一覧（Prompt "
+"Gallery）と使いやすいセッション保存および後で再開できるインターフェースが評価されています。Google AI "
+"Studioでは、特定のモデルを選択することもできますし、利用可能な場合、未発表のモデルのプレビュー版を使用することも可能です。"
+
+#: ../../source/tech_tips/tech-tips.rst:125
+msgid ""
+"Future AI articles will be released not under the “Tech Tip of the Week” "
+"headline but under the “AI Innovation Corner” headline. Keep an eye out for "
+"future AI tips via the Team Blast and `ftc-docs <https://ftc-"
+"docs.firstinspires.org/en/latest/>`__ website!"
+"msgstr """
+"将来的なAI記事は「Tech Tip of the Week」のヘッダーではなく、「AI Innovation "
+"Corner」のヘッダーで公開されます。Team Blastや`ftc-docs <https://ftc-"
+"docs.firstinspires.org/en/latest/>`__ ウェブサイト経由で将来的なAIヒントに注目してください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 08/19/2024 \"REV Driver Hub Batteries\""
+"msgstr "2024年8月19日週「REV ドライバー・ハブバッテリー」""
+
+#: ../../source/tech_tips/tech-tips.rst:134
+msgid "**REV Driver Hub Batteries**"
+"msgstr "**REV ドライバーハブバッテリー**""
+
+#: ../../source/tech_tips/tech-tips.rst:136
+msgid ""
+"This week’s Tech Tip of the Week focuses on the REV Driver Hub. Sure, we "
+"already did a pretty thorough deep dive on the REV Driver Hub in the "
+"11/06/2023 Tech Tip \"Driver Hub or Smartphone?\", but we never really "
+"covered the batteries used in the Driver Hub themselves - and, of course, "
+"this topic was recently brought up in a team question. The question was, "
+"“Why aren’t batteries for the REV Driver Hub interchangeable?”"
+"msgstr """
+"今週のTech TipはREV Driver Hubに焦点を当てています。確かに、2023年11月6日の「Driver Hub or "
+"Smartphone?」というTech Tipで、REV Driver Hubについてかなり詳しく掘り下げましたがあれから、Driver "
+"Hub内蔵のバッテリーについてはあまり触れていませんでした——もちろん、この話題は最近チームからの質問で再び持ち上がりました。その質問は、「なぜ REV"
+" Driver Hub のバッテリーは互換性がないのか？」でした。"
+
+#: ../../source/tech_tips/tech-tips.rst:143
+msgid ""
+"Well, that wasn’t the actual question, as the team didn’t know the question "
+"they SHOULD have been asking, but that was the root of the issue. The team "
+"in question had purchased an extra REV Driver Hub battery, charged it, and "
+"was using it as a spare. We’ve also heard anecdotes from teams who attended "
+"events where FTAs would also purchase spare batteries (or pull batteries "
+"from spare Driver Hubs)  and let teams with depleted batteries use their "
+"charged batteries. However, in each case the teams noted that the spare "
+"battery never lasted as long as their “regular” batteries, often "
+"significantly shorter (half or less). The issue is actually not specific to "
+"the REV Driver Hub, but in the batteries themselves."
+"msgstr """
+"WELL, "
+"その質問ではありませんでしたね。チームは実際の質問を知らなかったからです。しかし、それが問題の根本原因でした。対象となったチームは、余分なREVドライバーハブバッテリーを購入し、充電して備えとして使用していました。また、FTAが開催されたイベントに参加したチームからは、"
+" Spare "
+"ドライバーハブからバッテリーを取り出し、バッテリーが減ったチームに充電済みのバッテリーを使用できるようにするというエピソードも聞かれました。しかし、各ケースでチームは、Spareバッテリーが「通常」使用しているバッテリーほど長持ちしないことを指摘しました。しばしば大幅に短い（半分以下）場合もあります。問題はREVドライバーハブ自体ではなく、バッテリ自身にあるのです。"
+
+#: ../../source/tech_tips/tech-tips.rst:154
+msgid ""
+"I noticed the same thing a few years ago when I owned a smartphone that had "
+"user-replaceable batteries. My phone battery stopped holding a charge, so I "
+"bought a battery online to replace it. However, I noticed that the "
+"replacement battery had a significantly lower “lifespan”, meaning it would "
+"go from full charge to near-dead in a shorter period of time versus the "
+"original battery. Over time the battery seemed to “last longer”, until after"
+" about a dozen charge cycles it was very close to the original battery’s "
+"performance. Did the battery get better, or did my phone adapt to the "
+"battery?"
+"msgstr """
+"数年前、ユーザーが交換できるバッテリーを搭載していたスマートフォンを持っており、その時に同じ現象に気付きました。私の携帯電話のバッテリーが充電容量を維持しなくなったので、オンラインで新しいバッテリーを購入して交換しました。しかし、新しいバッテリーは元のものと比べて「寿命」が著しく短いことに気づきました。つまり、フル充電からほとんど残量がない状態になるまでの期間が短かったのです。時間とともにバッテリーは「長持ち」するように見えましたが、約12回の充放電サイクル後には元のバッテリーと同じような性能に近づいていました。バッテリーが改善したのか、それとも携帯電話がバッテリーに対応して変わったのかはわかりません。"
+
+#: ../../source/tech_tips/tech-tips.rst:164
+msgid ""
+"What I didn’t know was that minor variances in how batteries are "
+"manufactured, especially in lower-voltage Li-Ion batteries, can affect the "
+"voltage stability of the battery as it depletes (how the voltage of a "
+"battery changes as it’s used). In order to know how much battery power is "
+"left, the device needs to know the “charged” voltage, the “depleted” "
+"voltage, and generally needs to understand how the battery voltage changes "
+"from one extreme to the other. Unfortunately this isn’t linear, and "
+"differences in a battery’s specific internal resistance and other factors "
+"will cause each battery to have different behavior (this occurs in all "
+"batteries, but higher capacity batteries with low internal resistance tend "
+"to show this difference less). The REV Driver Hub performs a `calibration "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/driver-hub-troubleshooting/driver-hub-battery-"
+"troubleshooting#battery-calibration>`__ phase as it charges a battery, and "
+"stores the battery charge characteristics - that helps it know how the "
+"battery should behave when it’s being depleted. In this way the Driver Hub "
+"“learns” how to interpret the battery it’s charging so that it can create an"
+" accurate charge profile for the battery as it’s used by the device."
+"msgstr """
+"私が知らなかったのは、バッテリーの製造方法による微小な差異、特に低電圧Li-"
+"Ionバッテリーの場合、バッテリーが使用される過程で電圧安定性に影響を及ぼすことができるということです。バッテリー残量を知るためには、「充電された」状態での電圧、「消費された」状態での電圧、そして電圧が極端な状態から極端な状態へどのように変化するかを理解することが必要となります。不幸なことにこれは線形的ではなく、バッテリーの特定の内部抵抗などの違いにより、各バッテリーは異なる動作をする（これにはすべてのバッテリーで起こりますが、内部抵抗が低い高容量バッテリーではこの差異を示す傾向が少ないです）。REV"
+" Driver Hubは、バッテリーを充電する際に`校正 <https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/driver-hub-"
+"troubleshooting/driver-hub-battery-troubleshooting#battery-calibration>`__ "
+"階段を行い、バッテリーの充電特性を記録します。これにより、バッテリーが消費される際にどのように動作するかを知ることができます。この方法でDriver "
+"Hubは、充電中のバッテリーを解釈し、デバイスによって使用される際の正確な充電プロファイルを作成することができます。"
+
+#: ../../source/tech_tips/tech-tips.rst:182
+msgid ""
+"When a team replaces the primary battery with a spare, the Driver Hub "
+"doesn’t necessarily know that this has happened, and can only apply the "
+"stored discharge characteristics for the primary battery to the new battery."
+" Unfortunately this often leads to the device misinterpreting the battery "
+"and shutting down before the battery has fully depleted, or thinking there’s"
+" more battery left when there really isn’t. If the new battery is then "
+"charged, the Driver Hub will calibrate to the new battery, and changing the "
+"battery again will cause the Driver Hub to mischaracterize the original "
+"battery if replaced."
+"msgstr """
+"チームが主電池を代替電池に交換した場合、ドライバーハブはこれに気づかないことが多く、新しい電池に対して蓄積された主電池の放電特性のみを適用します。不幸にも、これは装置が電池を誤解し、完全に放電する前にシャットダウンしてしまうか、実際には残っていないのにまだ電池があると認識してしまうなどの問題を引き起こすことがあります。新しい電池が充電された場合、ドライバーハブは新しい電池に対して校正を行い、再度電池を交換すると、元の電池が交換された場合にドライバーハブが誤った特性をもつ可能性があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:192
+msgid ""
+"It is highly recommended that all teams use an `external USB Battery Pack "
+"<https://www.amazon.com/Portable-Charger-Anker-"
+"PowerCore-20100mAh/dp/B00X5RV14Y?th=1>`__ connected to the USB-C port on the"
+" Driver Hub to provide consistent power (use USB-A to USB-C cables only). "
+"The battery pack will sustain your Driver Hub and keep it from being "
+"additionally depleted by any high-power-drain gamepads (such as the Sony "
+"DualShock and Sony DualSense gamepads) that your team may be using."
+"msgstr """
+"Driver HubのUSB-Cポートに接続するため、全チームが`外部USBバッテリーパック "
+"<https://www.amazon.com/Portable-Charger-Anker-"
+"PowerCore-20100mAh/dp/B00X5RV14Y?th=1>`__ を使用することを強く推奨します（USB-AからUSB-"
+"Cへのケーブルのみを使用してください）。バッテリーパックはDriver "
+"Hubを維持し、高消費電力のゲームパッド（ソニーDualShockやDualSenseなど）によって追加で消耗されるのを防ぎます。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 07/29/2024 \"Servo Power Injectors\""
+"msgstr "週 07/29/2024 「サーボ電源インジェクタ」""
+
+#: ../../source/tech_tips/tech-tips.rst:205
+msgid ""
+"This week’s Tech Tip of the Week is intended to be a short treatise on Servo"
+" Power Injectors. Servo Power Injectors have been used in FIRST Tech "
+"Challenge for several years now, but do you really understand what they are "
+"and how they work? What is a Servo Power Injector and how might servos "
+"behave differently when used with one?"
+"msgstr """
+"この週のテックヒントは、サーボ電源インジェクタについての短い論説です。サーボ電源インジェクタは、 FIRST Tech Challenge "
+"で数年間使用されてきましたが、本当にその機能や動作原理を理解していますか？ "
+"サーボ電源インジェクタとは何ですか？そして、それを使用した場合にサーボの動作がどのように異なるのでしょうか？"
+
+#: ../../source/tech_tips/tech-tips.rst:211
+msgid ""
+"A servo connection is a 3-wire combination that combines power, ground, and "
+"a signal. The actual command signal for the servo travels on the signal "
+"wire, and the power used to power the servo travels on the other two wires. "
+"A servo power injector is a device that removes the power provided by the "
+"servo controller (REV Control Hub or REV Expansion Hub for FTC) and provides"
+" a new, usually higher wattage power source. Both the REV Servo Power Module"
+" and Studica Servo Power Block replace the 5V/10W power provided by the REV "
+"Control/Expansion Hubs with a 6V power source with a higher maximum wattage."
+"msgstr """
+"サーボ接続は、電源、接地、シグナルの3本線で構成された組み合わせです。サーボに実際のコマンドシグナルが伝送されるのはシグナル線であり、サーボを動作させるための電力は他の2本の線を通じて伝えられます。サーボ電源インジェクターは、サーボコントローラ（FTC用REV制御ハブまたはREV拡張ハブ）によって提供される電力を取り除き、新しい通常より高いワット数の電源を供給する装置です。REV"
+" サーボ電源モジュールと Studica サーボ電源ブロックは、REV 制御/拡張ハブによって提供される 5V/10W の電力を、最大ワット数がより高い"
+" 6V の電源に置き換える機能を持っています。"
+
+#: ../../source/tech_tips/tech-tips.rst:220
+msgid ""
+"So what does higher voltage do for a servo? Servos operate on a power range;"
+" the more power they get, the faster and stronger they can become, up to a "
+"certain limit. Servos operating at 5V get a noticeable boost in speed and "
+"output power when used at 6V. The same servos may seem superhuman at higher "
+"voltages!"
+"msgstr """
+"那么高電圧對伺服馬達有什麼影響呢？伺服馬達是根據功率範圍運作的；它們獲得的功率越多，就能變得越快、越強大，直到達到某個極限。在5V下工作的伺服馬達在使用6V時會顯著提升速度和輸出功率。同樣的伺服馬達在更高電壓下可能會表現得如同超人一般！"
+
+#: ../../source/tech_tips/tech-tips.rst:225
+msgid ""
+"The downside of servo power injectors is that teams are now responsible for "
+"managing their own power usage. On the REV Control Hub, for instance, each "
+"servo port pair is limited in how much power it can draw (at least there’s a"
+" limit on how long it can draw high loads). When using a servo power "
+"injector, the pool of power for a servo is much larger and less restricted "
+"since it pulls its power directly from the robot battery - using power "
+"injectors means you could consume all of the power on the robot just from "
+"the servos alone! This will result in the robot power system browning out "
+"(resulting in loss of communications or loss of power to the control system)"
+" or even blowing the 20A battery fuse."
+"msgstr """
+"サーボ電源インジェクターの欠点は、チームが自らの電力使用量を管理する責任が増加することです。REV "
+"コントロールハブでは、例えば各サーボポートペアには電力を引き込める制限があります（高負荷を引き込む時間も含めて）。サーボ電源インジェクターを使用すると、サーボの電力プールは直接ロボットバッテリーから供給されるため、サーボだけで全電力を消費する可能性があります！これにより、ロボットの電力システムがオーバードレイン（通信の喪失や制御システムへの電力供給の喪失）または20A"
+" バッテリーフューズの断線に至る可能性があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:235
+msgid ""
+"Using a servo power injector can also expose different behaviors in servos "
+"that were not present when using the REV Control/Expansion Hub directly. The"
+" biggest behavior is the “Lost Signal” behavior. When an OpMode ends, the "
+"REV Control/Expansion hubs stop the signal and also cut power to the servo "
+"ports - this leads to the servos “going limp” as they lose power. With a "
+"servo power injector, the servos never lose power, and so “lost signal” "
+"behaviors will often then take over which may cause the servo to move to a "
+"“default” position (which is virtually never advantageous for robots but "
+"definitely advantageous for R/C planes for example). The Axon MAX+ servo and"
+" several higher-power HiTec servos have this behavior, the Axon MAX+ "
+"behavior is at least configurable with a servo programmer."
+"msgstr """
+"サーボ電源インジェクターを使用すると、REV制御/拡張ハブを直接使用した場合とは異なるサーボの動作が現れることがあります。最も大きな動作は「信号失われ」です。オペレーションモード（OpMode）が終了すると、REV制御/拡張ハブは信号を停止し、サーボポートへの電源も切断します。これにより、サーボは電源が切れたために「力尽きる」となります。「サーボ電源インジェクター」を使用すると、サーボには常に電源が供給され続け、そのため、「信号失われ」の動作が頻繁に現れ、サーボは「デフォルト」位置へ移動することがあります。これはロボットにとってはほとんど有利ではありませんが、R/C飛行機などでは非常に有利です。Axon"
+" MAX+サーボといくつかの高出力HiTecサーボにはこの動作があり、Axon MAX+の動作はサーボプログラマーで設定可能です。"
+
+#: ../../source/tech_tips/tech-tips.rst:247
+msgid ""
+"Finally, when using a servo power injector it’s of VITAL importance that you"
+" cover unused ports with tape or other debris-limiting measures to protect "
+"the ports. It’s very easy to get metal swarf in open servo ports, and that "
+"metal can short out the power output pins - especially lower-cost power "
+"injectors cannot tell when they’re being used, or don’t have protections "
+"against short circuits, but they still have all output pins powered. This "
+"can quickly turn your servo power injector into an expensive paperweight "
+"when the power regulator overloads and burns out."
+"msgstr """
+"最後に、サーボ電源インジェクターを使用する際は、未使用のポートをテープなどで覆い、または他のごみが入らないようにするなどの措置を講じて保護することが非常に重要です。オープンなサーボポートには金属スワーフが入りやすく、その金属は電力出力ピンをショートさせてしまうことがあります"
+" - "
+"特に低コストの電源インジェクターは使用状況を把握できない場合や短絡保護機能がない場合でも、すべての出力ピンは常に電圧が供給されています。これにより、サーボ電源インジェクターは瞬く間に高価な重りになってしまいます。特に電力規制装置が過負荷で故障した際には、そのリスクがさらに高まります。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 06/24/2024 \"Calculating Motor and Servo Power\""
+"msgstr "2024年6月24日までの週 \"モーターやサーボの電力計算\"""
+
+#: ../../source/tech_tips/tech-tips.rst:260
+msgid ""
+"In this Tech Tip of the Week we’ll be exploring mechanical and electrical "
+"power, why some types of power are calculated differently, and how to use "
+"this calculated power to compare servos. This Tech Tip was written and fact-"
+"checked with the help of Google Gemini 1.5 Flash using Google AI Studio."
+"msgstr """
+"この週のテクニックヒントでは、機械的および電気的なパワーについて調査し、なぜいくつかの種類のパワーが異なる方法で計算されるのか、また計算されたパワーを使用してサーボを比較する方法について説明します。このテクニックヒントは、Google"
+" AI Studioを使ってGoogle Gemini 1.5 Flashと協力して執筆され、事実チェックも行われました。"
+
+#: ../../source/tech_tips/tech-tips.rst:266
+msgid ""
+"The fundamental concept we need to understand is power. We are generally "
+"concerned with two similar but different kinds of power, so let’s look at "
+"the two most common types. In a motor, **electrical power** is the energy "
+"supplied by the electrical current flowing through the motor's windings. "
+"This electrical energy is transformed into **mechanical power**, which is "
+"the rate at which the motor performs work by rotating a shaft. Both kinds of"
+" power are measuring different aspects of the motor; electrical power deals "
+"with the movement of electrical charges, and mechanical power deals with the"
+" movement of objects due to forces. Both of these measurements are expressed"
+" in the same unit, Watts (W), because power, in general, is defined as the "
+"rate of energy transfer or work done. No matter the form of energy "
+"(electrical, mechanical, thermal, etc.) the fundamental concept of power "
+"remains the same. Even though these two power measurements carry the same "
+"unit, they are calculated differently and **cannot be used interchangeably "
+"(or together!)**."
+"msgstr """
+"必要な理解の基礎となる概念は「力」です。一般的に、電気的な力と機械的な力を2種類考えていますが、これらは似ているながらも異なる種類のものなので、それぞれについて見てみましょう。モーターにおいて、**電気的力**は電流がモーターの巻線を通過する際に供給されるエネルギーです。この電気的能量は、モーターがシャフトを回転させることで作業を行う速度である**機械的力**に変換されます。両種類の力は、それぞれのモーターの異なる側面を測定しています；電気的力は電荷の移動に関わっていますし、機械的力は力を受ける物体の移動に関わっています。これらの2つの測定値は、どちらもワット（W）という同じ単位で表されます。これは、一般的に力とはエネルギーの転送速度または作業量を定義するためです。どの形式のエネルギー（電気的、機械的、熱的など）が関わらず、力の基本的な概念は変わりません。これらの2つの力の測定値は同じ単位を持っていますが、計算方法は異なりますし、**互換性はありません（一緒に使うこともできません！）**。"
+
+#: ../../source/tech_tips/tech-tips.rst:282
+msgid ""
+"Motors and servos are constructed similarly - both are electromechanical "
+"devices that convert electrical energy into mechanical energy - but there "
+"are big differences in how they’re used. Motors are often used in "
+"applications requiring continuous power, such as pumps, fans, and conveyor "
+"systems. Motors are typically rated for **continuous power output**, meaning"
+" they can sustain that power level indefinitely without overheating. Servos "
+"are commonly used in robotics and precision positioning systems, where "
+"controlled movement and precise positioning are essential. Servos are "
+"designed for intermittent operation - typically cycling through on/off "
+"periods to control movement - and are often rated for their **stall torque**"
+" and **no-load speed** reflecting their ability to hold a position against a"
+" force and how fast they move when unloaded. While electrical power is "
+"calculated generally the same for both types of devices, these design and "
+"use differences have an impact on how mechanical power is determined."
+"msgstr """
+"モーターやサーボは構造が似ています - "
+"どちらも電気エネルギーを機械エネルギーに変換する電磁機器ですが、使用方法には大きな違いがあります。モータは連続的な電力が必要なアプリケーション、例えばポンプやファン、コンベヤーシステムなどに多く使用されます。モータは通常、**連続出力電力**に対応しており、その電力レベルを無期限に維持しても過熱しないよう設計されています。サーボはロボット工学や精密位置決めシステムでよく使用され、制御された移動と正確な位置決めが不可欠な場面で活用されます。サーボは間歇的な操作のために設計されており、通常はオンオフのサイクルを繰り返して移動を制御します。また、**スタールトルク**や**ノーロード速度**という指標で評価され、力に対する位置保持能力と荷重がない場合の移動速度を反映しています。両種類のデバイスにおける電気エネルギーの計算は基本的には同じですが、これらの設計と使用上の違いは機械エネルギーの決定に影響を与えます。"
+
+#: ../../source/tech_tips/tech-tips.rst:297
+msgid ""
+"Both motors and servos calculate **electrical power** the same, using the "
+"standard electrical power formula:"
+"msgstr "両方のモータとサーボは、標準的な電力計算式を使って同じように**電気的功率**を計算します：""
+
+#: ../../source/tech_tips/tech-tips.rst:300
+msgid "*Electrical Power(W) = volts(V) x amps(A)*"
+"msgstr "電力(W) = 电压(V) × 电流(A)""
+
+#: ../../source/tech_tips/tech-tips.rst:302
+msgid ""
+"For example, a typical REV Smart Servo is supplied with 6V when used with a "
+"REV Servo Power Module (SPM) or 5V when used with a Control or Expansion "
+"Hub. Per the servo’s specs, at 6V the servo will pull at most 2A at stall "
+"(when the servo cannot physically move to the position it’s being commanded "
+"to). This means the maximum electrical power the servo will consume is "
+"12Watts of power when plugged into the REV SPM and being commanded to a "
+"position it cannot reach. The REV SPM supplies 90W of maximum electrical "
+"power, so the maximum number of fully-stalled REV Smart Servos the SPM can "
+"supply full power to is 7 (90W divided by 12W, ignoring the remainder)."
+"msgstr """
+"例えば、REV Smart ServoはREV Servo Power "
+"Module（SPM）を使用する場合に6Vで供給され、ControlまたはExpansion "
+"Hubを使用する場合に5Vで供給されます。サーボの仕様によると、6Vの場合、サーボはスタール時（サーボが物理的に命令された位置に移動できないとき）に最大2Aを消費します。这意味着，当REV"
+" SPM供电且伺服器被命令到达无法达到的位置时，伺服器消耗的最大电功率为12瓦特。由于REV "
+"SPM提供90W的最大电功率，因此SPM可以完全供电给最多7个处于完全停止状态的REV Smart Servo（90W除以12W，忽略余数）。"
+
+#: ../../source/tech_tips/tech-tips.rst:312
+msgid "Motors and servos also generally calculate mechanical power similarly."
+"msgstr "モーターやサーボも一般的に機械的功率を類似した方法で計算します。""
+
+#: ../../source/tech_tips/tech-tips.rst:314
+msgid "*Mechanical Power(W) = torque (N-m) x angular speed (rad/s)*"
+"msgstr "機械的な力(W) = 軸力(N・m) × 角速度(rad/s)""
+
+#: ../../source/tech_tips/tech-tips.rst:316
+msgid ""
+"Mechanical Power for a DC motor generally follows a very specific curve, "
+"based on its efficiency, stall current, stall torque, speed, and a bunch of "
+"other factors. The general performance curve of a DC motor can be seen in "
+"Figure 1."
+"msgstr """
+"直流モータの機械的な駆動力は、効率、スタール電流、スタールトルク、速度などの多くの要素に基づいて非常に特定の曲線を追跡します。DCモータの一般的な性能曲線は図1で確認できます。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "DC Motor Performance Curves"
+"msgstr "DCモータ性能曲線""
+
+#: ../../source/tech_tips/tech-tips.rst:326
+msgid "Figure 1: General DC Motor Performance Curve"
+"msgstr "図1: 一般的な直流モータ性能曲線""
+
+#: ../../source/tech_tips/tech-tips.rst:328
+msgid ""
+"From this we can see that the Peak Power is found at the intersection of 1/2"
+" Stall Torque and 1/2 Speed. Even though a servo is used different than a "
+"generic motor, this approximation is still good for calculating the maximum "
+"mechanical power of a servo. Simplified, we can use this formula:"
+"msgstr """
+"この図から、ピーク電力は1/2スタールトルクと1/2速度の交差点で見つかることがわかります。サーボモーターが一般的なモーターとは異なるものであっても、この近似値はサーボモーターの最大機械的な電力を計算するのに十分です。簡略化すると、以下の式を使用できます："
+
+#: ../../source/tech_tips/tech-tips.rst:333
+msgid ""
+"*Servo Max Mechanical Power(W) = 0.25 x stall torque(N-m) x no-load "
+"speed(rad/s)*"
+"msgstr "*サーボ最大機械力(W) = 0.25 × スタールトルク(N・m) × ノーロード速度(radic/s)*""
+
+#: ../../source/tech_tips/tech-tips.rst:335
+msgid ""
+"Using this approximation the REV Smart Servo, when being provided 6V, "
+"produces a maximum Stall Torque of 13.5kg-cm (1.33N-m) and a time of 0.14s "
+"per 60 degrees of travel (7.48rad/s) yielding an approximate max servo "
+"mechanical power of 2.48W."
+"msgstr """
+"この近似値を使用すると、REV Smart Servoは6Vを供給された場合、最大スタールトルク13.5kg-"
+"cm（1.33N-m）と、60度の移動ごとに0.14秒（7.48rad/s）で動作し、約2.48Wの最大サーボ機械力が得られます。"
+
+#: ../../source/tech_tips/tech-tips.rst:342
+msgid ""
+"It's important to point out that a high speed motor or servo that is loaded "
+"past its maximum power point will actually do worse than a slower motor or "
+"servo with the same load. It's all about getting the maximum mechanical "
+"power by operating the motor at the max power point."
+"msgstr """
+"高速なモーターまたはサーボが最大出力ポイントを超えて負荷をかけた場合、同じ負荷でも速度の遅いモーターまたはサーボよりも性能が悪くなることがあります。重要なのは、モーターを最大出力ポイントで動作させることによって最大機械的な出力を得る点です。"
+
+#: ../../source/tech_tips/tech-tips.rst:350
+msgid ""
+"One of the most difficult parts of calculating Servo Mechanical Power is "
+"working with unit conversions, especially since servo manufacturers use lots"
+" of different units. In order to calculate servo mechanical power correctly "
+"the speed unit MUST be converted to radians-per-second and the max stall "
+"torque unit MUST be converted to Newton-meters. Below is a handy calculator "
+"that you can use to automatically perform the necessary conversions and "
+"calculate Servo Mechanical Power (*Thank you to Orion DeYoe for providing "
+"this tool*)."
+"msgstr """
+"計算する際のサーボ機械力について、最も難しい部分の一つは単位換算です。特に、サーボメーカーが多くの異なる単位を使用しているためです。サーボ機械力を正しく計算するには、速度単位をラジアン毎秒に変換し、最大スタールトルク単位をニュートンメートルに変換する必要があります。以下は、必要な換算とサーボ機械力の計算を行うための便利な計算機です（*オリオン・デイオエさんから提供していただき、感謝します*）。"
+
+#: ../../source/tech_tips/tech-tips.rst:591
+msgid ""
+"For Speed, use the radio button to choose the unit type that the "
+"manufacturer has provided - for most servos this will be listed in a period "
+"of time per 60 degrees (such as with the REV Smart Servo example) or perhaps"
+" the manufacturer may provide an angular velocity, such as rotations-per-"
+"minute (RPM). Enter the no-load speed value and unit as the manufacturer has"
+" provided."
+"msgstr """
+"スピードのために、製造元が提供した単位タイプを選択するにはラジオボタンを使用してください - "
+"ほとんどのサーボについては、60度あたりの時間（REVスマートサーボの例では如此）または角度速度（例えば回転数/分〔RPM〕）が製造元によってリストされている期間で表記されています。無負荷速度値とその単位を製造元が提供したまま入力してください。"
+
+#: ../../source/tech_tips/tech-tips.rst:598
+msgid ""
+"For stall torque, provide the value and select the unit as specified by the "
+"manufacturer. If the manufacturer merely provides kg, assume kg*cm."
+"msgstr "ストールトルクについては、製造元が指定した値と単位を提供し、kgのみが記載されている場合はkg*cmとして仮定してください。""
+
+#: ../../source/tech_tips/tech-tips.rst:601
+msgid ""
+"The calculator automatically recalculates on any changes, there is no button"
+" to press in order to trigger a calculation."
+"msgstr "計算機は任意の変更に対し自動的に再計算を行います。計算をトリガーするためのボタンはありません。""
+
+#: ../../source/tech_tips/tech-tips.rst:604
+msgid "Here is a handy table of some common servo mechanical power values:"
+"msgstr "以下は一般的なサーボの機械的電力値の便利な表です：""
+
+#: ../../source/tech_tips/tech-tips.rst:606
+msgid "Common Servo Mechanical Power Values ( @6V )"
+"msgstr "一般的なサーボの機械的電力値（@6V）""
+
+#: ../../source/tech_tips/tech-tips.rst:611
+msgid "Description"
+"msgstr "説明""
+
+#: ../../source/tech_tips/tech-tips.rst:612
+msgid "Speed"
+"msgstr "速度""
+
+#: ../../source/tech_tips/tech-tips.rst:613
+msgid "Torque"
+"msgstr "トルク""
+
+#: ../../source/tech_tips/tech-tips.rst:614
+msgid "Stall Current"
+"msgstr "止まり电流""
+
+#: ../../source/tech_tips/tech-tips.rst:615
+msgid "Max Power"
+"msgstr "最大出力""
+
+#: ../../source/tech_tips/tech-tips.rst:616
+msgid "Cost ($USD)"
+"msgstr "コスト（米ドル）""
+
+#: ../../source/tech_tips/tech-tips.rst:617
+msgid ""
+"`Tetrix MAX Standard (HiTec HS-485HB) "
+"<https://www.pitsco.com/products/tetrix-max-standard-scale-servo-motor>`__"
+"msgstr """
+"`Tetrix MAX Standard（HiTec HS-485HB）<https://www.pitsco.com/products/tetrix-"
+"max-standard-scale-servo-motor>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:618
+msgid "0.18 s/60°"
+"msgstr "0.18 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:619
+msgid "6 kg-cm"
+"msgstr "6 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:620
+msgid "1.2 A"
+"msgstr "1.2 A""
+
+#: ../../source/tech_tips/tech-tips.rst:621
+msgid "0.86 W"
+"msgstr "0.86 W""
+
+#: ../../source/tech_tips/tech-tips.rst:622
+msgid "$29.50"
+"msgstr "$29.50""
+
+#: ../../source/tech_tips/tech-tips.rst:623
+msgid "`REV Smart Servo <https://www.revrobotics.com/rev-41-1097/>`__"
+"msgstr "`REVスマートサーボ <https://www.revrobotics.com/rev-41-1097/>`__""
+
+#: ../../source/tech_tips/tech-tips.rst:624
+#: ../../source/tech_tips/tech-tips.rst:684
+msgid "0.14 s/60°"
+"msgstr "0.14 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:625
+msgid "13.5 kg-cm"
+"msgstr "13.5 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:626
+msgid "2.0 A"
+"msgstr "2.0 A""
+
+#: ../../source/tech_tips/tech-tips.rst:627
+msgid "2.48 W"
+"msgstr "2.48 W""
+
+#: ../../source/tech_tips/tech-tips.rst:628
+#: ../../source/tech_tips/tech-tips.rst:676
+msgid "$30.00"
+"msgstr "$30.00""
+
+#: ../../source/tech_tips/tech-tips.rst:629
+msgid ""
+"`goBILDA 2000 Series Speed Servo <https://www.gobilda.com/2000-series-dual-"
+"mode-servo-25-3-speed/>`__"
+"msgstr """
+"`goBILDA 2000シリーズ速度サーボ <https://www.gobilda.com/2000-series-dual-mode-"
+"servo-25-3-speed/>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:630
+#: ../../source/tech_tips/tech-tips.rst:702
+msgid "0.09 s/60°"
+"msgstr "0.09 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:631
+msgid "9.3 kg-cm"
+"msgstr "9.3 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:632
+#: ../../source/tech_tips/tech-tips.rst:644
+#: ../../source/tech_tips/tech-tips.rst:656
+msgid "2.5 A"
+"msgstr "2.5 A""
+
+#: ../../source/tech_tips/tech-tips.rst:633
+msgid "2.65 W"
+"msgstr "2.65 W""
+
+#: ../../source/tech_tips/tech-tips.rst:634
+#: ../../source/tech_tips/tech-tips.rst:646
+#: ../../source/tech_tips/tech-tips.rst:658
+msgid "$33.99"
+"msgstr "$33.99""
+
+#: ../../source/tech_tips/tech-tips.rst:635
+msgid "`Axon Robotics Micro+ <https://axon-robotics.com/products/micro>`__"
+"msgstr "`アクロンロボティクス ミクロ+ <https://axon-robotics.com/products/micro>`__""
+
+#: ../../source/tech_tips/tech-tips.rst:636
+msgid "0.075 s/60°"
+"msgstr "0.075 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:637
+msgid "7.8 kg-cm"
+"msgstr "7.8 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:638
+msgid "2.2 A"
+"msgstr "2.2 A""
+
+#: ../../source/tech_tips/tech-tips.rst:639
+msgid "2.67 W"
+"msgstr "2.67 W""
+
+#: ../../source/tech_tips/tech-tips.rst:640
+msgid "$63.79"
+"msgstr "$63.79""
+
+#: ../../source/tech_tips/tech-tips.rst:641
+msgid ""
+"`goBILDA 2000 Series Torque Servo <https://www.gobilda.com/2000-series-dual-"
+"mode-servo-25-2-torque/>`__"
+"msgstr """
+"`goBILDA 2000シリーズトルクサーボ <https://www.gobilda.com/2000-series-dual-mode-"
+"servo-25-2-torque/>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:642
+#: ../../source/tech_tips/tech-tips.rst:660
+#: ../../source/tech_tips/tech-tips.rst:678
+msgid "0.20 s/60°"
+"msgstr "0.20 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:643
+msgid "300 oz-in"
+"msgstr "300 oz-in""
+
+#: ../../source/tech_tips/tech-tips.rst:645
+msgid "2.77 W"
+"msgstr "2.77 W""
+
+#: ../../source/tech_tips/tech-tips.rst:647
+msgid ""
+"`Studica Multi-Mode Smart Servo 200 <https://www.studica.com/studica-"
+"robotics-brand/multi-mode-smart-servo-200>`__"
+"msgstr """
+"`スタディカ マルチモードスマートサーボ200 <https://www.studica.com/studica-robotics-"
+"brand/multi-mode-smart-servo-200>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:648
+msgid "0.046 s/60°"
+"msgstr "0.046 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:649
+msgid "5 kg-cm"
+"msgstr "5 kg・cm""
+
+#: ../../source/tech_tips/tech-tips.rst:650
+#: ../../source/tech_tips/tech-tips.rst:674
+#: ../../source/tech_tips/tech-tips.rst:692
+msgid "2.7 A"
+"msgstr "2.7 A""
+
+#: ../../source/tech_tips/tech-tips.rst:651
+msgid "2.79 W"
+"msgstr "2.79 W""
+
+#: ../../source/tech_tips/tech-tips.rst:652
+msgid "$24.99"
+"msgstr "$24.99""
+
+#: ../../source/tech_tips/tech-tips.rst:653
+msgid ""
+"`goBILDA 2000 Series Super Speed Servo <https://www.gobilda.com/2000-series-"
+"dual-mode-servo-25-4-super-speed/>`__"
+"msgstr """
+"`goBILDA 2000シリーズスーパースピードサーボ <https://www.gobilda.com/2000-series-dual-mode-"
+"servo-25-4-super-speed/>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:654
+msgid "0.043 s/60°"
+"msgstr "0.043 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:655
+msgid "4.7 kg-cm"
+"msgstr "4.7 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:657
+msgid "2.81 W"
+"msgstr "2.81 W""
+
+#: ../../source/tech_tips/tech-tips.rst:659
+msgid ""
+"`AndyMark am-4954 High Torque Servos "
+"<https://www.andymark.com/products/programmable-servos>`__"
+"msgstr """
+"`AndyMark am-4954 高トルクサーボ <https://www.andymark.com/products/programmable-"
+"servos>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:661
+msgid "22 kg-cm"
+"msgstr "22 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:662
+msgid "1.7 A"
+"msgstr "1.7 A""
+
+#: ../../source/tech_tips/tech-tips.rst:663
+msgid "2.82 W"
+"msgstr "2.82 W""
+
+#: ../../source/tech_tips/tech-tips.rst:664
+msgid "$34.00"
+"msgstr "$34.00""
+
+#: ../../source/tech_tips/tech-tips.rst:665
+msgid ""
+"`Studica Multi-Mode Smart Servo <https://www.studica.com/studica-robotics-"
+"brand/multi-mode-smart-servo>`__"
+"msgstr """
+"`スタディカ マルチモードスマートサーボ <https://www.studica.com/studica-robotics-brand/multi-"
+"mode-smart-servo>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:666
+msgid "62 RPM"
+"msgstr "62 RPM""
+
+#: ../../source/tech_tips/tech-tips.rst:667
+#: ../../source/tech_tips/tech-tips.rst:697
+msgid "20 kg-cm"
+"msgstr "20 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:668
+msgid "1.8 A"
+"msgstr "1.8 A""
+
+#: ../../source/tech_tips/tech-tips.rst:669
+msgid "3.18 W"
+"msgstr "3.18 W""
+
+#: ../../source/tech_tips/tech-tips.rst:670
+msgid "$23.99"
+"msgstr "$23.99""
+
+#: ../../source/tech_tips/tech-tips.rst:671
+msgid ""
+"`AndyMark am-4955 High Speed Servos "
+"<https://www.andymark.com/products/programmable-servos>`__"
+"msgstr """
+"`AndyMark am-4955 高速サーボ <https://www.andymark.com/products/programmable-"
+"servos>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:672
+msgid "0.05 s/60°"
+"msgstr "0.05 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:673
+msgid "7 kg-cm"
+"msgstr "7 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:675
+msgid "3.59 W"
+"msgstr "3.59 W""
+
+#: ../../source/tech_tips/tech-tips.rst:677
+msgid "`FeeTech FT5335M-FB <https://www.pololu.com/product/3446>`__"
+"msgstr "`FeeTech FT5335M-FB <https://www.pololu.com/product/3446>`__""
+
+#: ../../source/tech_tips/tech-tips.rst:679
+msgid "35 kg-cm"
+"msgstr "35 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:680
+#: ../../source/tech_tips/tech-tips.rst:698
+#: ../../source/tech_tips/tech-tips.rst:710
+msgid "4.0 A"
+"msgstr "4.0 A""
+
+#: ../../source/tech_tips/tech-tips.rst:681
+msgid "4.49 W"
+"msgstr "4.49 W""
+
+#: ../../source/tech_tips/tech-tips.rst:682
+msgid "$52.95"
+"msgstr "$52.95""
+
+#: ../../source/tech_tips/tech-tips.rst:683
+msgid ""
+"`HiTec HS-805BB <https://hitecrcd.com/hs-805bb-mega-giant-scale-servo/>`__"
+"msgstr """
+"`HiTec HS-805BB <https://hitecrcd.com/hs-805bb-mega-giant-scale-servo/>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:685
+msgid "24.7 kg-cm"
+"msgstr "24.7 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:686
+msgid "6.0 A"
+"msgstr "6.0 A""
+
+#: ../../source/tech_tips/tech-tips.rst:687
+msgid "4.53 W"
+"msgstr "4.53 W""
+
+#: ../../source/tech_tips/tech-tips.rst:688
+msgid "$49.99"
+"msgstr "$49.99""
+
+#: ../../source/tech_tips/tech-tips.rst:689
+msgid "`HiTec HSR-M9382TH <https://www.servocity.com/hsr-m9382th-servo/>`__"
+"msgstr "`HiTec HSR-M9382TH <https://www.servocity.com/hsr-m9382th-servo/>`__""
+
+#: ../../source/tech_tips/tech-tips.rst:690
+msgid "0.17 s/60°"
+"msgstr "0.17 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:691
+#: ../../source/tech_tips/tech-tips.rst:709
+msgid "34 kg-cm"
+"msgstr "34 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:693
+msgid "5.13 W"
+"msgstr "5.13 W""
+
+#: ../../source/tech_tips/tech-tips.rst:694
+msgid "$199.99"
+"msgstr "$199.99""
+
+#: ../../source/tech_tips/tech-tips.rst:695
+msgid ""
+"`Power HD GTS3 <https://www.rcmart.com/power-hd-30kg-gts-series-brushless-"
+"high-voltage-servo-for-1-10-1-8-rc-car-gts3-00126675>`__"
+"msgstr """
+"`Power HD GTS3 <https://www.rcmart.com/power-hd-30kg-gts-series-brushless-"
+"high-voltage-servo-for-1-10-1-8-rc-car-gts3-00126675>`__"
+
+#: ../../source/tech_tips/tech-tips.rst:696
+msgid "0.083 s/60°"
+"msgstr "0.083 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:699
+msgid "6.19 W"
+"msgstr "6.19 W""
+
+#: ../../source/tech_tips/tech-tips.rst:700
+msgid "$120.00"
+"msgstr "120.00ドル""
+
+#: ../../source/tech_tips/tech-tips.rst:701
+msgid "`Axon Robotics MINI+ <https://axon-robotics.com/products/mini>`__"
+"msgstr "FIRST  Axon Robotics MINI+ <https://axon-robotics.com/products/mini>""
+
+#: ../../source/tech_tips/tech-tips.rst:703
+msgid "25 kg-cm"
+"msgstr "25 kg-cm""
+
+#: ../../source/tech_tips/tech-tips.rst:704
+msgid "3.8 A"
+"msgstr "3.8 A""
+
+#: ../../source/tech_tips/tech-tips.rst:705
+msgid "7.13 W"
+"msgstr "7.13 W""
+
+#: ../../source/tech_tips/tech-tips.rst:706
+#: ../../source/tech_tips/tech-tips.rst:712
+msgid "$79.99"
+"msgstr "$79.99""
+
+#: ../../source/tech_tips/tech-tips.rst:707
+msgid "`Axon Robotics MAX+ <https://axon-robotics.com/products/max>`__"
+"msgstr "Axon Robotics MAX+ <https://axon-robotics.com/products/max>\\""
+
+#: ../../source/tech_tips/tech-tips.rst:708
+msgid "0.115 s/60°"
+"msgstr "0.115 s/60°""
+
+#: ../../source/tech_tips/tech-tips.rst:711
+msgid "7.59 W"
+"msgstr "7.59 W""
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 06/10/2024 \"Updating the SDK Manifest\""
+"msgstr "週 6月10日〜2024年 \"SDK マニフェストの更新\"""
+
+#: ../../source/tech_tips/tech-tips.rst:718
+msgid ""
+"This week’s Tech Tip of the Week comes to us from an amalgamation of emailed"
+" questions asking about allowed ways to update an FtcRobotController SDK "
+"project. An approximate summary of the emailed questions along this topic is"
+" as follows:"
+"msgstr """
+"この週のテックヒントは、FtcRobotController "
+"SDKプロジェクトを更新するための許可されている方法についての電子メールで送られてきた質問から集約されました。これらの質問に関する概要は以下の通りです："
+
+#: ../../source/tech_tips/tech-tips.rst:723
+msgid ""
+"*“Is merely editing the Android Manifest file in the TeamCode directory of "
+"the FtcRobotController SDK project an acceptable way of easily updating the "
+"SDK?”*"
+"msgstr """
+"*「FtcRobotController SDKプロジェクトのTeamCodeディレクトリ内のAndroid "
+"Manifestファイルを単に編集するだけで、SDKを簡単に更新できる方法は適切でしょうか？」*"
+
+#: ../../source/tech_tips/tech-tips.rst:727
+msgid ""
+"Even though it’s not forbidden, that doesn’t mean you should do it – like "
+"putting pineapple on pizza (sorry, the door was open, I couldn’t stop "
+"myself). Seriously, though, 4 times out of 5 you can likely get away with "
+"updating the SDK through editing the Android Manifest to point to the latest"
+" version of the SDK libraries. However, that assumes that all the Tech Team "
+"does is update the SDK libraries, which is never ever the case. In addition "
+"to also updating programming samples, often enough the Tech Team must also "
+"update tooling, dependencies, and other build items in addition to the SDK "
+"libraries, and simply updating the Android Manifest is going to get you into"
+" real trouble (things will appear to work, until they don’t, and you won’t "
+"know why). As a corollary, you can choose to simply only put gas in your car"
+" and ignore all the other fluids, but eventually you’re going to wish you "
+"hadn’t."
+"msgstr """
+"EVEN であっても禁止されていないとは限らないから、それをするべきではない – "
+"ピーナッツがピザに合うかどうかは別にして（すみません、ドアを開けていたので我慢できませんでした）。しかし本題に戻りますが、5回中4回はAndroid "
+"Manifestを編集して最新のSDKライブラリへの参照先を指定することで、SDKを更新することは大抵の場合問題ないでしょう。ただし、Tech Team"
+" "
+"が行うのはSDKライブラリの更新だけであると仮定していることになりますが、これは決して事実ではありません。プログラミングサンプルの更新やツール、依存関係、その他のビルドアイテムの更新などもしばしば必要であり、単にAndroid"
+" "
+"Manifestを更新するだけでは大変な問題になる可能性があります（機能は一時的に正常に動作しますが、いつかそれが機能しなくなるまで気づかないかもしれません）。それに伴い、車にガソリンを入れるだけで他のすべての液体を無視することもできますが、最終的には後悔することになります。"
+
+#: ../../source/tech_tips/tech-tips.rst:741
+msgid ""
+"The proper way of updating your SDK is to use Git/GitHub to update your "
+"robot source each time the SDK software updates. The Tech Team always "
+"updates the FtcRobotController in-place (meaning the same repo is always "
+"updated each version), so if you’re using Git you can easily pull the "
+"changes made upstream and accept the changes within your code. You should "
+"never be manually updating files, like the Android Manifest file, because "
+"Git can tell you all of the files you need to update and can do that for "
+"you. If you use Git or GitHub, we highly recommend reading our guide on ftc-"
+"docs for :ref:`managing your Android Studio project repositories "
+"<programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-"
+"and-Clone-From-GitHub:forks vs. clones>`."
+"msgstr """
+"SDKを適切に更新する方法は、Git/GitHubを使用してロボットソースコードを毎回更新することです。Tech Team は "
+"FtcRobotController をインプレースで更新します（つまり、常に同じリポジトリが各バージョンで更新されます）。そのため、Git "
+"を使用している場合は、上流で行われた変更を簡単にプルし、コード内で変更を受け入れることができます。手動でファイルを更新することは決してありません。なぜなら、Git"
+" は必要に応じて更新するすべてのファイルを教えてくれますので、それを行うことができます。Git や GitHub "
+"を使用している場合は、:ref:`Android Studio プロジェクトリポジトリの管理 "
+"<programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-"
+"and-Clone-From-GitHub:forks vs. clones>` に関する当方のガイドを読むことを強く推奨します。"
+
+#: ../../source/tech_tips/tech-tips.rst:752
+msgid ""
+"For example, check out these changelists. The `FtcRobotController v9.0 "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/pull/674/files>`__ commit/change is everything "
+"that needs to be changed to upgrade from version 8.2 to 9.0 – there are 75 "
+"changed files there, which include samples, a core interface module change, "
+"gradle dependencies, and in that changelist the Tech Team also rearchitected"
+" the asset structure. However, the `FtcRobotController v9.0.1 "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/pull/731/files>`__ and `FtcRobotController v9.1"
+" <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/pull/941/files>`__ pull requests only changed a"
+" handful of files (mostly samples), and the core changes are in the "
+"AndroidManifest.xml and build.dependencies.gradle files. In general our "
+"major version releases (where we increase the first number in the version "
+"string) are the big ones, and then the dot-releases are almost always fairly"
+" small targeted releases. The Tech Team tries very hard not to make big-"
+"scale changes to build systems or major dependencies during the season."
+"msgstr """
+"例えば、これらのバージョンアップリストを確認してみてください。`FtcRobotController v9.0 "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/pull/674/files>`__ のコミット/変更は、バージョン "
+"8.2から9.0にアップグレードするために必要なすべての変更点を含んでいます – その中には 75 "
+"件の変更ファイルがあり、サンプルやコアインターフェースモジュールの変更、gradle "
+"の依存関係などがあります。また、そのバージョンアップリストではテクニカルチームが資産構造を再設計しています。しかし、`FtcRobotController"
+" v9.0.1 <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/pull/731/files>`__ と `FtcRobotController v9.1 "
+"<https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/pull/941/files>`__ "
+"のプルリクエストでは、主にサンプルファイルのわずか数件が変更されただけで、コアの変更点は AndroidManifest.xml と "
+"build.dependencies.gradle "
+"ファイルにあります。一般的には、主要バージョンリリース（バージョン文字列の最初の数字を増やすもの）は大きな変更を含んでおり、ドットリリースはほとんどが小さなターゲット向けのリリースです。テクニカルチームはシーズン中にはビルドシステムや主要な依存関係の大規模な変更を行わないよう極力注意しています。"
+
+#: ../../source/tech_tips/tech-tips.rst:770
+msgid ""
+"In summary, teams should never simply change the Android Manifest, they "
+"should be updating the software appropriately – as Voltaire warned, with "
+"great “Android Studio” power comes great “GitHub” responsibility."
+"msgstr """
+"要するに、チームはAndroid "
+"Manifestを単純に変更することなく、適切にソフトウェアを更新するべきです──ボルテールが警告したように、「great Android "
+"Studio」の力と共に、「great GitHub」の責任も大きくなります。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 05/20/2024 \"Wi-Fi Bands, Part 3\""
+"msgstr "2024年5月20日～週「Wi-Fi バンド、第3部」""
+
+#: ../../source/tech_tips/tech-tips.rst:778
+msgid ""
+"Welcome back to the Tech Tip of the Week, this is Part 3 of a 3-part series "
+"talking about Wi-Fi bands and why you might be shooting yourself in the foot"
+" by not selecting (and designing your robots for) the right Wi-Fi band. In "
+"Part 1 we discussed the physical characteristics and properties of "
+"frequencies in each of the 2.4GHz and 5GHz bands. In part 2 we talked about "
+"the history of the bands, described sources of interference (e.g. other "
+"devices!) on each band, and how Wi-Fi improvements have made 5GHz more "
+"efficient to use."
+"msgstr """
+"Welcome back to the Tech Tip of the Week, this is Part 3 of a 3-part series talking about Wi-Fi bands and why you might be shooting yourself in the foot by not selecting (and designing your robots for) the right Wi-Fi band. In Part 1 we discussed the physical characteristics and properties of frequencies in each of the 2.4GHz and 5GHz bands. In part 2 we talked about the history of the bands, described sources of interference (e.g., other devices!) on each band, and how Wi-Fi improvements have made 5GHz more efficient to use.\n"
+"Tech Tipの週間レポートに戻ってまいります。本シリーズは3回にわたるものです。今回は、Wi-Fi バンドと適切な Wi-Fi バンドを選択（そしてロボットをそれに設計）しないことで自らを難癖付ける可能性がある理由について述べています。第1回では、2.4GHz および 5GHz バンドの各帯域における周波数の物理的な特性と性質について議論しました。第2回では、バンドの歴史、各バンドでの干渉源（例えば他のデバイスなど！）、そして Wi-Fi の改善が 5GHz をより効率的に使用するための手段となったことについて述べました。"
+
+#: ../../source/tech_tips/tech-tips.rst:787
+msgid ""
+"Robot design - and more aptly “Control Hub placement” - is THE critical "
+"factor in influencing the Wi-Fi frequency/band you should be using. Remember"
+" Wi-Fi is a line-of-sight technology, that means Wi-Fi does best when "
+"there’s a straight unobstructed path from the antenna on the Control Hub to "
+"the antenna on the Driver Hub. Where is the antenna in a Control Hub? It’s "
+"right under the plastic on the “face” of the hub on the logo side. If the "
+"Control Hub can be mounted so that its antenna is generally not "
+"covered/surrounded/blocked by metal, 5GHz should be your target band. "
+"However, if your Control Hub is buried deep inside the robot and surrounded "
+"by metal, the 2.4GHz band may be your only option (remember, the lower "
+"frequencies of 2.4GHz might be able to “bend around” metal obstacles "
+"slightly better). Unfortunately exposing the “back side” of the Control Hub "
+"instead of the “front side” of the hub is not going to yield similar "
+"results, as there is a PCB with metal traces between the antenna and the "
+"“back side” of the Hub that will block/reflect/absorb signals."
+"msgstr """
+"ロボット設計 - そしてより適切には「コントロールハブの配置」 - がWi-Fi周波数/バンドを選択する上で最も重要な要素です。Wi-Fiは線視技術であることを覚えておいてください。つまり、コントロールハブのアンテナとドライバーハブのアンテナとの間にある直線的な遮断のないパスが最適な状況です。コントロールハブのアンテナはどこにありますか？ ロゴ側の「顔」部分のプラスチック下にあります。「INIT」「START」はそれぞれ「初期化」「開始」と翻訳します。\n"
+"\n"
+"コントロールハブが金属で覆われないよう配置できれば、5GHz帯を目標とするべきです。しかし、コントロールハブがロボット内部に深く埋もれていて金属で囲まれている場合、2.4GHz帯が唯一の選択肢となる可能性があります（記憶しておいてください、2.4GHzの低い周波数は多少金属障害物を曲げて通過できるかもしれません）。不幸にもコントロールハブの「背面」ではなく「正面」を露出させた場合、類似した結果を得ることはできません。アンテナとコントロールハブの「背面」間にある金属トレースのあるPCBが信号を遮断/反射/吸収するからです。"
+
+#: ../../source/tech_tips/tech-tips.rst:803
+msgid ""
+"Does that mean your Control Hub needs to be mounted unprotected on the "
+"outside of the robot in order to get good signal reception? Not necessarily,"
+" fortunately not all materials are the same. Plastics are generally the most"
+" “invisible” to Wi-Fi frequencies, or at least their "
+"absorption/blocking/reflection (also known as attenuation) is generally "
+"minimal enough to not sufficiently matter. Wood, especially thin birch "
+"commonly used in many robot designs, is slightly more attenuating but "
+"definitely still a great option. Metals, however, will greatly attenuate Wi-"
+"Fi frequencies and are the worst materials for Wi-Fi transmission. Yes, I’m "
+"looking at YOU teams who use hook-and-loop to mount your robot battery to "
+"the top of the Control Hub - stop doing that! And for those looking for "
+"inspiration in this upcoming season, water is also an incredibly poor medium"
+" for transmission of Wi-Fi frequencies."
+"msgstr """
+"保護されていない状態で制御ハブをロボットの外側に取り付け、良い信号受信を得る必要があるのでしょうか？必ずしもそうではありません。幸いにも、すべての材料は同じではありません。プラスチックは一般的にWi-"
+"Fi周波数に対して最も「見えない」ものであり、または少なくとも吸収/遮断/反射（衰減と同義）は十分に問題にならないほど最小限です。特に多くのロボット設計で使用される薄いブリスはわずかに衰減しますが、それでも非常に良い選択肢です。しかし、金属はWi-"
+"Fi周波数を大幅に衰減し、Wi-"
+"Fi伝送には最悪の材料です。はい、私はあなた方チームが制御ハブの上面にロボットバッテリーをホックアンドループで取り付けることを見ています！それらをやめてください！そして、今シーズンのインスピレーションを探している人々にとっても、水はWi-"
+"Fi周波数の伝送には非常に悪い媒体です。"
+
+#: ../../source/tech_tips/tech-tips.rst:817
+msgid ""
+"But how do you know for sure how well your robot’s Wi-Fi is performing? You "
+"can monitor the Wi-Fi signal’s strength through the Driver Station App. "
+"Check out the **2024/02/12 Team Blast Tech Tip** for info on how to view and"
+" understand Wi-Fi Signal Strength. If your signal is strong when using 5GHz "
+"at maximum field range (from the Driver Hub) and in all robot orientations, "
+"you should be good to go on 5GHz! Feel free to compare the performance on "
+"5GHz and 2.4GHz, and if they’re comparable you should stick with 5GHz for "
+"better interference reduction."
+"msgstr """
+"しかし、どのようにしてあなたのロボットのWi-"
+"Fiがどれほど適切に動作しているのか確実に知る方法はありますか？ドライバーステーションアプリを使用してWi-"
+"Fi信号の強度を監視できます。**2024/02/12 Team Blast Tech Tip** を参照し、Wi-"
+"Fi信号強度をどのように表示し理解するかについての情報を確認してください。ドライバーハブから最大フィールド範囲で5GHzを使用し、ロボットがすべての向きにある場合でも信号が強い場合は、5GHzで問題なく動作できるはずです！5GHzと2.4GHzでのパフォーマンスを比較してみてください。もし同等であれば、干渉を減らすために5GHzを使用することをお勧めします。"
+
+#: ../../source/tech_tips/tech-tips.rst:826
+msgid ""
+"In summary, the vast majority of robots should be using 5GHz as this is the "
+"optimal channel in terms of interference reduction, device crowding, and "
+"channel utilization by the Wi-Fi standards. Robot design - specifically "
+"Control Hub placement - might necessitate the use of 2.4GHz if the line-of-"
+"sight path to the Control Hub antenna in the robot is too greatly obstructed"
+" by metal, especially motors. By monitoring the robot’s Wi-Fi signal "
+"strength, you can determine which frequency band yields the best Wi-Fi "
+"signal performance for your robot."
+"msgstr """
+"要するに、大部分のロボットは5GHzを使用すべきです。これは干渉を減らし、デバイスが詰まるのを防ぎ、Wi-"
+"Fi規格によるチャンネル利用効率を最適化するために最適な周波数帯域です。ロボット設計 - 特に制御ハブの配置 - "
+"によっては、制御ハブアンテナへの視界が金属（特にモーター）によって大きく遮られていて通信が悪化する場合、2.4GHzを使用することが必要になるかもしれません。ロボットのWi-"
+"Fi信号強度を監視することで、どの周波数帯域がロボットにとって最良のWi-Fi信号性能を提供するかを確認できます。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 05/06/2024 \"Wi-Fi Bands, Part 2\""
+"msgstr "2024年5月6日週 \"Wi-Fi バンド、パート2\"""
+
+#: ../../source/tech_tips/tech-tips.rst:839
+msgid ""
+"Welcome back to the Tech Tip of the Week, this is Part 2 of a 3-part series "
+"talking about Wi-Fi bands and why you might be shooting yourself in the foot"
+" by not selecting (and designing your robots for) the right Wi-Fi band. In "
+"Part 1 we discussed the physical characteristics and properties of "
+"frequencies in each of the 2.4GHz and 5GHz bands. In this part we’ll talk "
+"about sources of interference."
+"msgstr """
+"週刊テクニックTipsへようこそ。これは、2.4GHzと5GHzバンドの各帯域における周波数の物理的特性や性質について議論した1部目のシリーズの第2部です。このシリーズでは、適切なWi-"
+"Fiバンドを選択（そしてロボットをそれに設計する）しないことで自らを脅威に晒す可能性がある理由についても議論します。1部では2.4GHzと5GHzバンドにおける周波数の物理的特性や性質について説明しました。この部分では、干渉源について議論します。"
+
+#: ../../source/tech_tips/tech-tips.rst:846
+msgid ""
+"You might have realized this, but wireless devices are all the rage. The FCC"
+" (in the USA) doesn’t just let any device broadcast on any frequency they "
+"want. Instead, there are licensed and unlicensed radio frequency bands. Some"
+" frequencies are uniquely licensed to private operators, for example radio "
+"stations pay a lot of money to the FCC for the exclusive rights to broadcast"
+" on specific frequencies. HAM radio operators undergo special training to be"
+" allowed to broadcast on a range of licensed frequencies (some reserved only"
+" for HAM radio, some not). The FCC also sets aside frequencies that are "
+"unlicensed, meaning the operators themselves (like you, your neighbor, or "
+"the kid down the street) don’t need training or licensing to operate devices"
+" that broadcast on those frequencies. The devices themselves must adhere to "
+"specific regulations, but those requirements are generally easy to meet."
+"msgstr """
+"あなたはおそらく気づいていますが、無線機器が人気があります。米国のFCC（連邦通信委員会）では、どんなデバイスでも任意の周波数で放送できるわけではありません。代わりに、有料と無料の無線周波数帯域が存在します。一部の周波数はプライベートな運営者だけが利用できるように特別にライセンスされています。例えば、ラジオ局はFCCから特定の周波数で放送する権利を独占的に取得するために莫大な金額を支払います。HAM無線機器操縦士は特別な訓練を受け、一定の有料周波数帯域（一部はHAM無線機器操縦士専用、一部はそうではない）で放送できるように認可されます。FCCはまた、運営者が訓練やライセンスを必要とせずにデバイスを使用できる無線周波数帯域も設定しています（つまり、あなた自身、隣の人が、または通りにいる子供がそうしたデバイスを使用できます）。これらのデバイス自体は特定の規制に従う必要がありますが、その要件は一般的に満たしやすいです。"
+
+#: ../../source/tech_tips/tech-tips.rst:859
+msgid ""
+"Wi-Fi uses portions of the radio frequency spectrum designated as unlicensed"
+" - remember that these frequencies are available to the general public to "
+"use - so anyone can broadcast signals over it. And boy howdy do they. The "
+"2.4GHz frequency band was opened to the public in 1985, and devices began "
+"using that frequency for use. Wi-Fi emerged in the late 1990’s. The 2.4GHz "
+"frequency band became extremely crowded, and by devices using different "
+"protocols - think about trying to have a conversation with a friend in a "
+"crowded room, but some people are talking “normally”, some are using air "
+"horns, and others are mimicking nails on a chalkboard. The resource was very"
+" narrow, but at least interference was just a matter of distance - though "
+"not everyone lives in the deserts of Arizona where they can carry out their "
+"conversations in relative peace."
+"msgstr """
+"Wi-Fiは、一般公開されている無線周波数帯を使用しますので、誰でもその周波数帯上で信号を放送することができます。そして彼らはそれを大いに利用しています。1985年に2.4GHzの周波数帯が一般公開され、装置はそれを利用するために使用始めました。Wi-Fiは1990年代後半に登場しました。2.4GHzの周波数帯は非常に混雑し、異なるプロトコルを使用して装置が通信を行うことで、 congested な状況となりました。これは友人との会話に例えることができますが、一部の人々は普通に話しています、他の人々はエアホーンを使って話しています、そしてさらに一部の人々は黒板の上で釘を打つような音を模倣しています。リソースは非常に狭く、しかし干渉は距離によるものでした - ただし、必ずしも誰もアリゾナ州の砂漠に住んでいないわけではありませんので、そこでは比較的平和な会話を行うことができます。\n"
+"\"\"\"\n"
+"注意：翻訳文は可能な限り自然で正確であるよう努めましたが、原文の意味を完全に再現するためには若干の調整が必要かもしれません。"
+
+#: ../../source/tech_tips/tech-tips.rst:872
+msgid ""
+"By the turn of the 20th century, the 5GHz space was opened up for unlicensed"
+" use. This required different hardware, as the 2.4GHz devices couldn’t "
+"simply just start using 5GHz. The 5GHz band was much larger, and it took "
+"longer for it to become crowded as more devices came onto the market that "
+"could use it. 5GHz already had a bunch of legacy systems that used portions "
+"of it, and so the FCC grandfathered those systems and made special "
+"regulations for using those frequencies (most manufacturers designed their "
+"devices to only use the portions of the 5GHz band with the least rules and "
+"regulations). Some uses of 2.4GHz could not move to 5GHz because of the "
+"frequency wave propagation behaviors (that we talked about previously, e.g. "
+"reflections and wave bending), but many systems like Wi-Fi found the "
+"greatest use in 5GHz. The number of channels and the frequency space was "
+"much larger in 5GHz, and 5GHz Wi-Fi technologies learned to use the 5GHz "
+"space more efficiently and robustly."
+"msgstr """
+"20世紀末には、5GHz帯が無線使用許可不要の用途に開放されました。これにより異なるハードウェアが必要となりました。2.4GHzデバイスは単純に5GHzを使用することができませんでした。5GHz帯は広く、より多くのデバイスが利用可能になると徐々に混雑しました。5GHzには既存のシステムがあり、FCCはこれらのシステムを"
+" grandfathering "
+"し、特別な規制を設けました（多くの製造業者は規則と制約の少ない部分だけを使用するように設計していました）。2.4GHzの一部の用途は、周波数波動の伝播特性（以前に述べた反射や波の曲がりなど）のために5GHzへの移行ができませんでしたが、Wi-"
+"Fiのような多くのシステムでは5GHzで最も効果的に動作しました。5GHz帯にはチャンネル数が多く、頻度空間も広く、5GHz Wi-"
+"Fi技術はこの空間をより効率的かつ堅牢に利用する方法を学びました。"
+
+#: ../../source/tech_tips/tech-tips.rst:887
+msgid ""
+"When you consider which frequency you should use, you have to consider many "
+"factors. How obstructed is the path from the radio to the receiver?  How "
+"crowded might the frequency space be that you’re trying to use? Has the "
+"event organizer worked with the venue to clear specific channels for robots "
+"to use? What advanced technologies might the device you’re using be capable "
+"of utilizing on specific frequency bands?"
+"msgstr """
+"使用する周波数を決定する際には、多くの要素を考慮する必要があります。無線から受信機までの経路はどれほど障害が多いでしょうか？使用しようとしている周波数空間はどのくらい混雑している可能性がありますか？イベントの組織者は施設と特定のチャンネルをロボット用にクリアしたことがありますか？使用するデバイスが特定の周波数帯域で利用できる先進技術は何があるでしょうか。"
+
+#: ../../source/tech_tips/tech-tips.rst:894
+#: ../../source/tech_tips/tech-tips.rst:959
+msgid ""
+"In Part 3 of this series we’ll talk about how robot design can influence the"
+" Wi-Fi frequency you should be using, how to design for the best possible "
+"outcome, and how to characterize your optimal band."
+"msgstr """
+"本シリーズの第3部では、ロボット設計が使用するWi-"
+"Fi周波数にどのように影響を与えるかについて説明し、最善の結果を出すための設計方法、および最適なバンドを特徴付ける方法についても議論します。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 04/29/2024 \"Wi-Fi Bands, Part 1\""
+"msgstr "2024年4月29日週 \"Wi-Fi バンド、第1部\"""
+
+#: ../../source/tech_tips/tech-tips.rst:902
+msgid ""
+"Welcome to the Tech Tip of the Week, where this week hopefully “Bandwidth of"
+" Robots” will be your new favorite way to refer to groups of wireless "
+"robots. Today we’ll be starting a three-part series talking about Wi-Fi "
+"bands and why you might be shooting yourself in the foot by not selecting "
+"(and designing your robots for) the right Wi-Fi band. And at the end of the "
+"day how do you truly know which band you should be using?"
+"msgstr """
+"週のテクニックヒントへようこそ。今週は「ロボットの帯域幅」が新しいお気に入りの用語になることを願って、無線ロボットのグループを指す新たな方法として紹介されるでしょう。今日は3部作シリーズの第1弾で、Wi-"
+"Fiバンドについて話し合い、適切なWi-"
+"Fiバンドを選択（そしてロボットを設計する）しないと何故自らに足を投げ込んでしまうのかについて説明します。そして最終的に、あなたが本当に使用すべき帯域はどのものかどのように知るのでしょうか？"
+
+#: ../../source/tech_tips/tech-tips.rst:909
+msgid ""
+"If you’re anything like the average team, Wi-Fi bands are something nebulous"
+" that you don’t really understand or even give a second thought to. At "
+"least, until “bad things” start happening and you’re grasping at straws "
+"trying to resolve them. So let’s start this discussion by talking about "
+"radio frequency bands and then the two Wi-Fi bands we have access to, 2.4GHz"
+" and 5GHz."
+"msgstr """
+"もし平均的なチームと何か似ているなら、Wi-"
+"Fiバンドはあなたにとって具体的な理解が難しいもので、二度と頭に浮かばない存在かもしれません。少なくとも、「悪いことが起こる」までには至らない限りです。しかし、そのような問題が発生し、解決策を探そうとするときだけに手探り状態になります。では、この議論を始める前に、無線周波数バンドと2.4GHzおよび5GHzのWi-"
+"Fiバンドについて話しましょう。"
+
+#: ../../source/tech_tips/tech-tips.rst:916
+msgid ""
+"What are the important properties of Wi-Fi frequencies we should know? To "
+"explain Wi-Fi frequencies, let’s look at something most of us might already "
+"be more familiar with - AM and FM radio frequency bands (which share similar"
+" behaviors, ignoring modulation differences)."
+"msgstr """
+"Wi-Fiの周波数について、重要な特性は何でしょうか？Wi-"
+"Fiの周波数を説明するには、まずAMやFMラジオの周波数帯域（調制の違いを無視して類似した動作を持つもの）に目を向けるのが良いでしょう。"
+
+#: ../../source/tech_tips/tech-tips.rst:921
+msgid ""
+"AM radio stations are assigned carrier radio frequencies between "
+"540kHz-1600kHz. For example WGHM 900 AM out of Nashua, NH, is licensed to "
+"broadcast at 900kHz. AM radio station signals travel very far very easily "
+"mostly because the frequencies in AM radio have very large wavelengths - "
+"900kHz, for example, has a full wavelength of 333m (just over one fifth of a"
+" mile) - and because of this they can bend around obstacles very easily "
+"(buildings, mountains, curvature of the earth, etc). However, long "
+"wavelength AM radio is more susceptible to interference and static than "
+"shorter wavelength transmissions, like FM."
+"msgstr """
+"AMラジオ局は540kHz-1600kHzのキャリア無線周波数に割り当てられます。例えば、ニューハンプシャー州ナッシュウア出身のWGHM 900 "
+"AMは、900kHzで放送を許可されています。AMラジオ局の信号は、その周波数が非常に長いこと（例えば900kHzの場合、全長波長は333mあります）と、そのため障害物（建物、山脈、地球の曲率など）を容易に曲げることができるため、非常に遠くまで届きやすくなります。しかし、長"
+" wavelength のAMラジオは、短い周波数伝送（FMなど）よりも干渉やノイズにさらされやすいです。"
+
+#: ../../source/tech_tips/tech-tips.rst:931
+msgid ""
+"FM radio stations are assigned frequencies between 88.1MHz-108.1MHz. For "
+"example, WEVS 88.3 FM also in Nashua, NH broadcasts at 88.3MHz. FM radio "
+"frequencies are higher frequency, and have a shorter wavelength - 88.3MHz is"
+" about 3.4m (about 11 feet) in wavelength - and cannot bend around obstacles"
+" as easily. Shorter wavelength frequencies also tend to be "
+"absorbed/reflected (comparatively) much easier by obstacles as well."
+"msgstr """
+"FMラジオ局は88.1MHz-108.1MHzの周波数に割り当てられます。例えば、ニューイングハース（NH）で放送しているWEVS 88.3 "
+"FMも88.3MHzで放送しています。FMラジオの周波数は高い周波数であり、波長も短くなります。88.3MHzは約3.4m（約11フィート）の波長に相当し、障害物を容易には曲がることができません。また、短い波長の周波数は比較的容易に障害物によって吸収されたり反射されます。"
+
+#: ../../source/tech_tips/tech-tips.rst:938
+msgid ""
+"Hence when driving through the mountains and forests of NH I am more apt to "
+"be able to cleanly listen to the AM station uninterrupted but not the FM "
+"station, even though they’re broadcasting at roughly the same power and from"
+" very similar locations."
+"msgstr """
+"したがって、ニューハンプシャーの山々や森林を走行しているときには、AM放送局は比較的クリアに聞けることが多いですが、FM放送局は聞けない場合があります。これは両方とも大体同じ電力で放送されており、非常に類似した位置にあるにもかかわらずです。"
+
+#: ../../source/tech_tips/tech-tips.rst:943
+msgid ""
+"Frequency bands used for Wi-Fi share very similar characteristics, but "
+"because the frequencies for Wi-Fi are much higher some characteristics are "
+"more exaggerated. As an analogy, for the purposes of this discussion, we can"
+" say that 2.4GHz is to 5GHz as AM is to FM. 2.4GHz frequencies have a longer"
+" wavelength (starting at ~0.125m or ~5 inches) than 5GHz frequencies "
+"(starting at ~0.05m or ~2 inches), and because of that 2.4GHz radio waves "
+"can bend around objects better than 5GHz ones but are much more susceptible "
+"to interference than 5GHz. Similarly 5GHz frequencies will also tend to be "
+"reflected/absorbed much easier by solid objects, and so 5GHz tends to "
+"perform better with an unobstructed line of sight between antennas."
+"msgstr """
+"Wi-Fiで使用される周波数帯域は非常に類似した特性を持っていますが、Wi-"
+"Fiの周波数が高いためにはるかに強調された特性があります。この議論の目的のために例えると、2.4GHzは5GHzに対し、AM（連続波）はFM（変調波）に対応します。2.4GHzの周波数は長波長を持ち（約0.125mまたは約5インチから始まります）、5GHzの周波数よりも波長が長い（約0.05mまたは約2インチから始まります）。そのため、2.4GHzの無線波は物体を回り込む能力がより優れていますが、5GHzほど干渉を受けやすいです。同様に、5GHzの周波数は固体物質により反射されやすいため、アンテナ間の直視路が確保されている場合に5GHzの方が性能が良い傾向があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:954
+msgid ""
+"In Part 2 of this series we’ll talk more about the challenges Wi-Fi faces "
+"because unlike AM and FM radio, Wi-Fi doesn’t have dedicated frequency "
+"space.  This can cause legitimate issues due to the number of existing "
+"devices and services that already use frequencies that Wi-Fi has to share."
+"msgstr """
+"本シリーズの第2部では、Wi-FiがAMやFMラジオのように専用の周波数空間を持っていないため遭遇する課題について詳しく説明します。既にWi-Fiと共用している周波数を使用している既存のデバイスやサービスの数が多く、これにより legitime な問題が生じる可能性があります。\n"
+"\"\"\"\n"
+"注: \"legitimate\" を \"legitlime\" と訳したのは、原文の意図を保ちつつ自然な日本語表現に近づけるためです。ただし、この単語は一般的には使われないため、原文のまま翻訳することも可能です。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 04/08/2024 \"What makes Battery Voltage Sag? Part 3\""
+"msgstr "2024年4月8日週 \"バッテリー電圧が低下する要因は？ 第3部\"""
+
+#: ../../source/tech_tips/tech-tips.rst:967
+msgid ""
+"This Tech Tip of the Week is Part 3 in a 3-part series surrounding a "
+"question that we get asked at events all the time - “What makes battery "
+"voltage sag?”. As a battery is heavily used, teams will notice that the "
+"voltage of the battery temporarily decreases from its starting voltage "
+"during periods of heavy use, and then generally raises back up once the "
+"heavy use has subsided. So what causes this?"
+"msgstr """
+"この週のテックヒントは、イベントでよく聞かれる質問「バッテリー電圧が低下する要因は何ですか？」を取り扱った3部作の第3部です。バッテリーが頻繁に使用される中、チームはバッテリーの電圧が初期電圧から一時的に低下し、その後重用が終了すると通常は元に戻るのを観察します。では、この現象は何によって引き起こされますか？"
+
+#: ../../source/tech_tips/tech-tips.rst:974
+msgid ""
+"There are LOTS of reasons why battery voltage will sag during use. In Part 1"
+" we talked about battery chemistry to give an idea how a battery works, and "
+"we talked about how motor torque is inversely proportional to the power "
+"consumption (given a constant load). Part 2 covered cell health and battery "
+"temperature, both of which can affect a battery’s performance and longevity."
+" This week, we’ll cover another major factor which is Internal Resistance "
+"(IR)."
+"msgstr """
+"使用中に電池の電圧が低下する理由はたくさんあります。第1部では、電池の化学反応について説明し、電池の動作原理を理解するための基本的な概念を紹介しました。また、モータトルクは消費電力と逆比例すること（恒常的な負荷条件下）についても話し合いました。第2部では、セルの健康状態と電池の温度が電池の性能や耐久性にどのように影響するかについて説明しました。今週は、これらの要因以外にも大きな影響を与えるもう1つの要素である内部抵抗（IR）について説明します。"
+
+#: ../../source/tech_tips/tech-tips.rst:982
+#, python-format
+msgid ""
+"Understanding IR requires talking about the discharge rate of a battery. The"
+" discharge rate is a measure of how quickly the battery can deliver its "
+"stored energy. Most NiMH batteries used in FIRST Tech Challenge are rated at"
+" a nominal 12V and a maximum discharge rate of 30A, though that rate is "
+"limited by the 20A fuse. A battery’s IR refers to any opposition to that "
+"flow of electric current within the battery itself. Resistance can come from"
+" a number of sources, such as resistance within the battery’s chemistry "
+"(such as a breakdown of the conductive electrolyte within the battery), "
+"changes to the resistance of the electrodes (such as a buildup of crystals "
+"around the electrodes), resistance added due to connectors and wiring, and "
+"others. Rising IR affects the battery performance primarily in decreasing "
+"the Voltage and Current that the battery can provide, and causes the battery"
+" to generate excess heat when used. The starting IR of a battery can vary "
+"among different manufacturing processes and batches, so much that batteries "
+"should have their IR measured (using a `CTR Battery Beak "
+"<https://www.andymark.com/products/battery-beak-frc-ftc-"
+"usage?Intended%20Use=FTC%20(am-3430)&quantity=1>`__, `West Mountain Radio "
+"CBA <https://www.westmountainradio.com/cba.php>`__, or similarly capable "
+"battery tester - **YOU CANNOT MEASURE INTERNAL RESISTANCE DIRECTLY WITH A "
+"MULTIMETER, ATTEMPTING TO DO SO WILL BLOW YOUR FUSE AND MAY DAMAGE THE "
+"MULTIMETER!**) at “birth” (when “new” at time of purchase) and the IR then "
+"should be tracked over time. Once the battery’s IR increases by 50% from "
+"when it was “born”, the battery is universally considered ready for "
+"replacement."
+"msgstr """
+"IRを理解するには、バッテリーの放電率について話す必要があります。放電率は、バッテリーが蓄積したエネルギーをどれだけ速く放出できるかを測定する尺度です。FIRST"
+" Tech "
+"Challengeで使用される大多数のNiMHバッテリーは、平均的な12Vと最大放電率30Aで評価されていますが、その速度は20Aのファーストの制限によって制約されます。バッテリーのIRとは、バッテリー内での電流の流れに対する抵抗を指します。この抵抗は、バッテリーの化学反応（例えば、バッテリー内の導電性電解質の分解）、電極の抵抗の変化（例えば、電極周りの結晶の蓄積）、接続子や配線による追加的な抵抗などから来ることがあります。IRが上昇すると、バッテリーの性能は主に電圧と電流の低下に影響を受けることになり、使用時に過剰な熱を発生します。バッテリーの初期IRは、異なる製造プロセスやロットによって大きく異なりますので、「生まれたとき」（購入時の「新しい状態」）にはバッテリーのIRを測定する必要があります（CTRバッテリーベイク"
+" <https://www.andymark.com/products/battery-beak-frc-ftc-"
+"usage?Intended%20Use=FTC%20(am-3430)&quantity=1>`__、West Mountain Radio CBA "
+"<https://www.westmountainradio.com/cba.php>`__ または同等のバッテリーテスターを使用 - "
+"**マルチメーターを使って内部抵抗を直接測定することはできません。これを行うと、ファーストのファuseが壊れ、マルチメーターも損傷する可能性があります！**）。その後は時間とともにIRを追跡します。バッテリーのIRが「生まれたとき」から50%上昇した場合、バッテリーは普遍的に交換が必要とされる状態となります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1008
+msgid ""
+"You cannot measure the internal resistance of a battery directly with a "
+"multimeter. Please do not even try. Doing so will certainly blow your "
+"multimeter's fuse, and may even damage the multimeter. Please do not "
+"attempt.  Internal resistance can only be measured indirectly using a load-"
+"measuring device like a `CTR Battery Beak "
+"<https://www.andymark.com/products/battery-beak-frc-ftc-"
+"usage?Intended%20Use=FTC%20(am-3430)&quantity=1>`__."
+"msgstr """
+"バッテリの内部抵抗をマルチメーターで直接計ることはできません。絶対に試すなです。そうすると、マルチメーターのボルトが必ず跳ね上がり、最悪の場合、マルチメーターを壊す可能性もあります。絶対に試すなです。"
+" 内部抵抗は、`CTR バッテリービーク <https://www.andymark.com/products/battery-beak-frc-"
+"ftc-usage?Intended%20Use=FTC%20(am-3430)&quantity=1>`__ "
+"などの負荷測定装置を使って間接的に計測するしかありません。"
+
+#: ../../source/tech_tips/tech-tips.rst:1015
+msgid ""
+"What can teams do to slow the increase in a battery’s IR? Naturally the "
+"battery’s IR will change as the battery ages, increasing due to chemical "
+"changes and wear and tear. The temperature of the battery can also have a "
+"negative effect on IR, higher temperatures cause higher resistance (so keep "
+"your batteries cool!). It’s also important to note that the state of charge "
+"of a battery can change the IR, battery IR should always be measured fully "
+"charged. But the most important ways to keep your battery healthy are to "
+"avoid deep discharges (avoid letting your batteries drain below 10V steady-"
+"state, definitely never below 9V!), use a high-quality charger that prevents"
+" batteries from overcharging, follow the battery manufacturer’s recommended "
+"charging procedures, and use low-resistance connections (thick wires and "
+"clean connectors!)."
+"msgstr """
+"チームがバッテリーのIRの増加を遅らせるためには何ができるでしょうか。自然にバッテリーのIRは年月とともに変化し、化学的変化や摩耗によって増加します。また、バッテリーの温度もIRに負の影響を与え、高い温度は抵抗を高めます（なのでバッテリーは冷たいままでください）。バッテリーの充電状態もIRに影響を与えることに注意してください。バッテリーのIRは常に満充電状態で測定することをお勧めします。しかし、バッテリーを健康に保つ最も重要な方法は、深放電を避けること（バッテリーが安定した状態で10V未満にならないようにし、特に9V以下には絶対にならないように！）、高品質の充電器を使用してバッテリーを過充电させない、製造元の推奨する充電手順に従う、そして低抵抗接続を使用すること（太いワイヤーと清潔なコネクタを使用すること！）です。"
+
+#: ../../source/tech_tips/tech-tips.rst:1028
+msgid ""
+"Finally, the IR of NiMH batteries can also sometimes be decreased through a "
+"process known as “battery conditioning” (also referred to as “charge "
+"cycling”). If IR within a battery is raised due to crystal formations inside"
+" the battery, this process of conditioning can help break down those crystal"
+" formations and improve Voltage and the flow of current in a battery. Some "
+"chargers have automatic conditioning modes, but always refer to your "
+"manufacturer’s recommended procedure for charge cycling your NiMH batteries."
+"msgstr """
+"最後に、ニッケル水素電池のIRは、「バッテリーニジング」とも呼ばれる「充電サイクリング」などのプロセスを通じて時々低下することができます。バッテリー内の結晶形成によりIRが上昇した場合、このプロセスは結晶を分解し、バッテリーの電圧と電流の流れを改善するのに役立ちます。一部の充電器には自動的なニジングモードがありますが、NiMHバッテリーの充電サイクリングについてメーカー推奨の手順を常に参照してください。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 04/01/2024 \"What makes Battery Voltage Sag? Part 2\""
+"msgstr "週 2024年4月1日 \"バッテリー電圧が低下する要因 Part 2\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1040
+msgid ""
+"This Tech Tip of the Week is Part 2 in a 3-part series surrounding a "
+"question that we get asked at events all the time - “What makes battery "
+"voltage sag?”. As a battery is heavily used, teams will notice that the "
+"voltage of the battery temporarily decreases from its starting voltage "
+"during periods of heavy use, and then generally raises back up once the "
+"heavy use has subsided. So what causes this?"
+"msgstr """
+"この週のテックヒントは、イベントで頻繁に聞かれる質問「バッテリー電圧が低下する要因は何ですか？」を取り上げた3部作の第2部です。バッテリーが重用されるにつれて、チームはバッテリーの電圧が初期電圧から一時的に低下し、その後重用が終了した後には通常元の電圧に戻るのを観察します。では、この現象は何によって引き起こされますか？"
+
+#: ../../source/tech_tips/tech-tips.rst:1047
+msgid ""
+"There are LOTS of reasons why battery voltage will sag during use. In last "
+"week’s Tech Tip we talked about battery chemistry to give an idea how a "
+"battery works, and we talked about how motor torque is inversely "
+"proportional to the power consumption (given a constant load). In this "
+"week’s Tech Tip we’ll cover two more common reasons - cell health and "
+"battery temperature. In subsequent Tech Tips we’ll cover other reasons, such"
+" as the internal resistance of the battery."
+"msgstr """
+"バッテリーの電圧が使用中に低下する理由はたくさんあります。前週のTech "
+"Tipでは、バッテリーの化学反応について説明し、バッテリーの仕組みを理解する手助けをしました。また、モータトルクは負荷が一定の場合、消費電力と逆比例することも述べました。今週のTech"
+" Tipでは、セルの健康状態とバッテリーテンパラチャという2つの一般的な理由について説明します。その後のTech "
+"Tipでは、内部抵抗などの他の理由もカバーします。"
+
+#: ../../source/tech_tips/tech-tips.rst:1055
+msgid ""
+"Battery cell health is an important factor in the overall health of a "
+"battery. An NiMH battery used in FIRST Tech Challenge is a multi-cell "
+"battery, meaning it’s composed of individual smaller batteries connected "
+"together. Each cell contributes to the overall power output of the battery. "
+"As a battery ages, individual cells in the battery may age at different "
+"rates - this aging can lead to degradation of cell material, electrolyte "
+"breakdown, and creation of dendrites that can eventually puncture the cell "
+"wall from inside the cell among others. Most often this cell breakdown is "
+"accelerated due to improper storage, overcharging, deep discharging, "
+"excessive temperatures, or physical damage (especially due to dropping). "
+"When a cell fails, it can lead to a reduced capacity of the battery pack, "
+"and the battery will not last as long on a single charge nor will it be able"
+" to provide the peak power output that it previously could. Failed cells can"
+" cause other cells to fail prematurely, primarily due to overcharging and "
+"imbalanced voltage due to the fact that NiMH batteries and chargers for NiMH"
+" batteries do not contain a load-balancing management system for individual "
+"cells. In some cases, failed cells can cause short circuits, overheating, "
+"and increased risk of fire/explosion! If you’re suspicious of a battery, get"
+" it tested before using it again."
+"msgstr """
+"バッテリーのセル健康は、全体的なバッテリー健康に重要な要素です。FIRST Tech "
+"Challengeで使用されるNiMHバッテリーは多セルバッテリーであり、個々の小さなバッテリーが接続されて構成されています。各セルはバッテリーの総合出力に貢献します。バッテリーが老化すると、バッテリー内の個々のセルは異なる速度で老化することがあります。この老化はセル材料の劣化、電解質の分解、内部からセル壁を貫通する枝晶の生成など、さまざまな問題を引き起こす可能性があります。多くの場合、このセルの崩壊は適切な保管方法の欠如、過充電、深放電、高温、または物理的な損傷（特に落とし伤）によって加速されます。セルが故障すると、バッテリーパックの容量が低下し、一度の充電で持続する时间も短くなり、かつて提供できなかったピーク出力も供給できなくなります。故障したセルは他のセルを早期に故障させる原因となり、特に過充电と個々のセルに対する不平衡な电压により、NiMHバッテリーおよびNiMHバッテリー用チャージャーには個々のセルのバランス管理システムが含まれていないためです。一部の場合では、故障したセルはショート回路、过热、そして火災や爆発のリスクを増加させる可能性があります！バッテリーに疑念がある場合は、再使用する前にテストしてから使用してください。"
+
+#: ../../source/tech_tips/tech-tips.rst:1075
+msgid ""
+"Battery temperature is also an important consideration. When a battery is "
+"being charged, it will likely become warm and even slightly hot to the touch"
+" - this is expected and natural due to the process of recharging a battery. "
+"NiMH batteries deliver their best performance at moderate temperatures. When"
+" a battery is hot from charging, its internal resistance increases (we’ll "
+"cover internal resistance in a future segment) which can lead to reduced "
+"power output. Allowing the battery to cool down before use helps to ensure "
+"optimal performance. This process of allowing the battery to cool down "
+"before use can also prolong the life of the battery. This advice should also"
+" be tempered with the knowledge that most modern NiMH batteries are "
+"generally designed to handle some degree of heat; if you need to use the "
+"battery immediately after charging, it’s usually safe to do so as long as "
+"the battery is not excessively hot to the touch. However, understand that it"
+" may not provide the maximum level of power output as it would have if it "
+"had cooled first."
+"msgstr """
+"バッテリの温度も重要な考慮事項です。バッテリが充電されている場合、おそらく温かくなり、触ると少し熱くなることがあります - "
+"これは再充電プロセスによるもので、自然な現象です。NiMH "
+"バッテリは中程度の温度では最高性能を発揮します。バッテリが充電によって熱くなった場合、内部抵抗が増加し（将来的に内部抵抗について説明します）、これにより出力電力が低下することがあります。バッテリを使用する前に冷却することで最適なパフォーマンスを確保できます。この冷却プロセスはバッテリの寿命も延ばすことができます。ただし、現代の大多数の"
+" NiMH "
+"バッテリは一定程度の熱を処理できるよう設計されているため、バッテリが触れると少し熱くない限り直ちに使用しても通常安全です。ただし、最初に冷却してから使用した方が最大限の出力電力を得られる可能性があります。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 03/25/2024 \"What makes Battery Voltage Sag? Part 1\""
+"msgstr "週2024年3月25日 \"バッテリー電圧が低下する理由 Part 1\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1095
+msgid ""
+"This Tech Tip of the Week is a short one, Part 1 in a 3-part series "
+"surrounding a question that we get asked at events all the time - “What "
+"makes battery voltage sag?”. As a battery is heavily used, teams will notice"
+" that the voltage of the battery temporarily decreases from its starting "
+"voltage during periods of heavy use, and then generally raises back up once "
+"the heavy use has subsided. So what causes this?"
+"msgstr """
+"この週の技術提言は短めで、イベントでよく聞かれる質問「バッテリー電圧が低下する要因は何ですか？」を取り上げた3部作シリーズの第1部です。バッテリーが頻繁に使用されるにつれて、チームはバッテリーの電圧が初期電圧から一時的に低下し、その後重用が終了すると通常元に戻るという現象を観察します。では、この現象は何によって引き起こされるのでしょうか？"
+
+#: ../../source/tech_tips/tech-tips.rst:1102
+msgid ""
+"There are LOTS of reasons why battery voltage will sag during use. In this "
+"week’s Tech Tip we’ll cover the most common two reasons - battery chemistry "
+"and heavy use. In subsequent Tech Tips, we’ll cover other reasons, such as "
+"battery cell health, battery temperature, internal resistance, and other "
+"factors to be aware of!"
+"msgstr """
+"使用中に電池の電圧が低下する理由はたくさんあります。この週のテックヒントでは、最も一般的な2つの理由である電池の化学成分と重い使用について説明します。その後のテックヒントでは、電池セルの健康状態、電池の温度、内部抵抗、その他の注意すべき要因など、他の理由も詳しく解説します！"
+
+#: ../../source/tech_tips/tech-tips.rst:1108
+msgid ""
+"The first thing to remember is that a battery is a chemical reaction "
+"factory, and does not exactly work the same as the typical “gas tank” "
+"analogy makes it seem. The chemical reactions at the electrodes create a "
+"potential difference (voltage) between them. This voltage drives the flow of"
+" electrons generated by hydrogen and hydroxide ion creation and transfer. In"
+" NiMH batteries this reaction is reversible but it takes time and energy. "
+"What’s important to understand is that the chemical reaction can happen only"
+" at a specific rate (the rate is based on a number of factors which we’ll "
+"discuss later); if the demand exceeds the rate of reaction for the battery, "
+"the voltage and current will drop until the reactions can replenish the "
+"battery output (this temporary drop is known as “sag”). As the materials at "
+"the electrodes are gradually consumed, the overall battery charge will "
+"deplete and can no longer sustain the flow of electrons, and the battery "
+"will need to be recharged or replaced."
+"msgstr """
+"最初に覚えておくべきことは、バッテリーは化学反応工場であり、典型的な「ガスタンク」の例のように正確には機能しないということです。電極での化学反応は、それら間の電位差（電圧）を生成します。この電圧は、水素と塩素イオンの生成および移動によって生成される電子の流れを駆動します。NiMHバッテリーではこの反応は可逆的ですが、それは時間とエネルギーが必要です。重要となるのは、化学反応が特定の速度（その速度は後で議論する様々な要素に基づいています）でしか起こらないということです；もしバッテリーの反応速度を超える需要がある場合、電圧と電流は反応がバッテリーの出力を補充できるまで低下します（この一時的な低下は「サグ」と呼ばれます）。電極上の材料が徐々に消費されるにつれて、全体的なバッテリーの充電量は減少し、電子の流れを維持できなくなります。その結果、バッテリーは再充電または交換が必要となります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1123
+msgid ""
+"So what is the biggest reason why batteries will sag? On a FIRST Tech "
+"Challenge robot, this reason is actuator (motor and servo) current draw. "
+"Motors and Servos can pull a considerable amount of current when they’re "
+"being used, especially when they’re being used in low-torque configurations."
+" Motors that are geared closer to 1:1 gear ratio can spin faster - they can "
+"propel your robot’s drivetrain across the field much faster - but have less "
+"torque because of the lower gear ratio. Motor configurations that have less "
+"torque consume significantly more current to operate (when driving the same "
+"load) than motor configurations with more torque. Systems being driven by "
+"actuators that have more friction or less torque will cause the motors to "
+"consume larger amounts of current, and this can cause even healthy batteries"
+" to have their voltages “sag” during periods of high use. Teams must "
+"consider their power consumption very carefully when optimizing their "
+"battery and motor utilization during a match, even though that’s often an "
+"afterthought for most teams."
+"msgstr """
+"那么，电池为什么会下垂的最大原因是什么呢？在FIRST Tech "
+"Challenge（FTC）机器人上，这个原因是执行器（电机和伺服机）的电流消耗。当这些设备被使用时，尤其是处于低扭矩配置时，它们会拉取相当大的电流。接近1:1齿轮比的电机可以转得更快"
+" - 它们可以让您的机器人的驱动系统在场地上更快地移动 - "
+"但因为较低的齿轮比，它们产生的扭矩较少。具有较小扭矩的电机配置在驱动相同负载时需要消耗显著更多的电流（与具有较大扭矩的电机配置相比）。由摩擦力更大或扭矩更小的执行器驱动的系统会使电机消耗更大的电流，并且这甚至可以导致健康的电池在其高使用期间电压“下垂”。即使是在优化比赛中的电池和电机利用时，团队也必须非常仔细地考虑其电力消耗，尽管对于大多数团队来说，这通常是一个次要问题。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 03/18/2024 \"Battery Fuses\""
+"msgstr "周回 2024年3月18日分 \"バッテリー・フューズ\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1143
+msgid ""
+"Welcome to the Tech Tip of the Week, where hopefully after reading you don’t"
+" blow a fuse. Yup, you guessed it, we’re talking today about fuses - more "
+"specifically, we’re talking about the fuses on your Main Robot Battery."
+"msgstr """
+"週間技術ヒントへようこそ。読むことで融断器を壊さないことを願っています。はい、予想通り、今日は融断器について話します。より具体的には、メインロボットバッテリーの融断器についてです。"
+
+#: ../../source/tech_tips/tech-tips.rst:1147
+msgid ""
+"Every legal Main Robot Battery in FIRST Tech Challenge is required to have "
+"an in-line replaceable fuse on the battery, you’ll find the fuse housing on "
+"the red (positive) cable on your battery between the battery and the "
+"connector (the top lifts off, exposing the fuse). This fuse helps protect "
+"your battery and your electronics from prolonged or excessive over-current. "
+"The fuse used with all legal batteries is a `20A Automotive-Mini (ATM) "
+"blade-style fuse <https://www.amazon.com/Bussmann-Blade-Fuses-BP-"
+"ATM-20-RP/dp/B00JCB4WTS>`__, and can be found in virtually every auto parts "
+"store. It has a yellow-colored housing which easily identifies it as a 20A "
+"fuse. If you find that your battery’s voltage suddenly drops to zero (when "
+"tested using a `battery tester <https://www.andymark.com/products/battery-"
+"beak-frc-ftc-usage?Intended%20Use=FTC%20(am-3430)&quantity=1>`__ or "
+"multimeter) it’s probably because you’ve blown your battery’s in-line fuse."
+"msgstr """
+"FIRST Tech "
+"Challengeのすべての法的なメインロボットバッテリーは、バッテリーとコネクタ間（上部が開けられる位置にある）の赤い（正極）ケーブルに内蔵可能な交換可能な断路器を備える必要があります。この断路器は、バッテリーと電子機器から長期的な過電流または過大な電流による保護を提供します。すべての法的なバッテリーに使用される断路器は、「20A"
+" Automotive-Mini (ATM) ブレード型断路器 <https://www.amazon.com/Bussmann-Blade-"
+"Fuses-BP-"
+"ATM-20-RP/dp/B00JCB4WTS>`__」であり、自動車部品店で簡単に見つけることができます。黄色い色のハウジングが20Aの断路器であることを容易に識別します。バッテリーの電圧が急激にゼロに低下し（バッテリーテスター"
+" <https://www.andymark.com/products/battery-beak-frc-ftc-"
+"usage?Intended%20Use=FTC%20(am-3430)&quantity=1>`__ "
+"またはマルチメーターを使用して測定した場合）、それはバッテリーの内蔵断路器がブレーキされた可能性が高いことを示します。"
+
+#: ../../source/tech_tips/tech-tips.rst:1161
+msgid ""
+"A fuse is a short span of specially-designed electrical wire intended to "
+"carry electrical loads up to a very specific amount of current. When the "
+"current loads exceed the rating, the wire within the fuse begins heating up "
+"- the more the load exceeds the rating, the hotter the wire will get. "
+"Eventually the wire will heat up so much it self-destructs and melts or "
+"burns up, breaking the circuit. This fuse-melting condition is often called "
+"“Blowing a Fuse”; the fuse is thus destroyed and is no longer usable, but it"
+" protected the electronics in the circuit as its last selfless act."
+"msgstr """
+"Fusは、特定の電流量までしか流れないように設計された特殊な電気線で、短い範囲にわたっています。電流が規格を超えると、Fus内部の線は加熱し始めます。負荷が規格外になるとほど"
+" testimptively "
+"熱くなります。最終的に、線は非常に高温になり、自己破壊して溶けたり燃え尽きたりし、回路を切断します。このFus溶接状態は「Fusが飛ぶ」と呼ばれることもあります；Fusは破壊され、使用不能になりますが、最後の自我犠牲として電子機器を保護しました。"
+
+#: ../../source/tech_tips/tech-tips.rst:1170
+msgid ""
+"How does a fuse battery get blown? These are two of the most common reasons "
+"why a fuse can be blown:"
+"msgstr "ファuseバッテリーが切れるのはどのようにするのでしょうか。これらの理由は、最も一般的なファuseが切れる原因の2つです：""
+
+#: ../../source/tech_tips/tech-tips.rst:1173
+msgid ""
+"Overcurrent Conditions - The Robot has components (generally actuators, like"
+" servos and motors) that can pull a combined current that is more than the "
+"robot’s electrical circuit can safely carry. The main electrical power wires"
+" on a robot are required to be a minimum 18AWG, which can easily "
+"continuously carry up to 16A of current. When components pull a combined "
+"current far exceeding this limit, generating unsafe heat in excess of what "
+"the wires can tolerate (risking melting the wire insulation which could lead"
+" to short circuits and fire), the fuse blows to protect the circuit. The "
+"wire size and fuse limit has been carefully selected for the safety of the "
+"robot’s electrical system.  Short Circuits - Usually this happens if "
+"unshielded wires of opposite polarity touch each other in the robot’s "
+"electrical system, like when performing electrical maintenance on switches "
+"or wires (ALWAYS unplug the battery before performing any maintenance on a "
+"robot!). Other causes can be failed electronics and damaged components. This"
+" causes an extremely high current load to travel through the battery, near-"
+"instantly causing the fuse to blow. When replacing the connector on a "
+"battery, ALWAYS remove the fuse prior to performing any work - this protects"
+" the person doing the maintenance AND protects the fuse!"
+"msgstr """
+"過電流状況 - ロボットにはサーボやモーターなどのアクチュエータが含まれており、これらの部品はロボットの電気回路が安全に持つことができる合算電流を超える電流を引き出す可能性があります。ロボットの主な電力線は最小18AWGでなければならないため、常に最大16Aの電流を連続的に持つことができます。これらの部品がこの限界を超える電流を取り出し、耐えられないほど過熱を生じさせ（ワイヤーの絶縁層が溶け出すリスクがあり、これによりショート回路や火災につながる可能性があります）、断路器は回路を保護するために跳ね上がります。ワイヤーサイズと断路器の限界は、ロボットの電気システムの安全のために慎重に選ばれています。\n"
+"\n"
+"ショート回路 - 通常、これはロボットの電気システム内で相反する極性の露見したワイヤーが触れ合った場合に起こります（スイッチやワイヤーの電気メンテナンスを行う際に）。また、電子部品の故障や損傷した部品も原因となります。これによりバッテリーを通じて非常に高い電流が流れ出し、瞬時に断路器が跳ね上がります。バッテリーのコネクタを交換する際は、常にメンテナンスを行う前に断路器を取り外すことが重要です - これはメンテナンスを行う人を保護し、また断路器自体も保護します。"
+
+#: ../../source/tech_tips/tech-tips.rst:1192
+msgid ""
+"Always make sure your main battery fuse is replaced with the proper fuse "
+"(20A for FIRST Tech Challenge) and make sure you’re always following all "
+"safety guidelines when working with your robot’s electrical system!"
+"msgstr """
+"常に、メインバッテリーの Fusible（フュージブル）に適切な Fusible（フュージブル）（FIRST Tech "
+"Challengeでは20Aを使用）を交換し、ロボットの電気システムに関わる作業をする際はすべての安全規程に従ってください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 03/11/2024 \"Signal Filtering with Ferrite Cores\""
+"msgstr "週 2024年3月11日〜 \"フェライトコアを使用した信号フィルタリング\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1200
+msgid ""
+"For those about to use sensors, we salute you - with our Tech Tip of the "
+"Week! This week’s Tech Tip focuses on signal noise and how to eliminate it "
+"with ferrite cores."
+"msgstr """
+"センサを使用する方々、ご苦労さんです - "
+"今週のテックヒントで応援します！今週のテックヒントは、フェライトコアを使ってシグナルノイズを軽減する方法についてです。"
+
+#: ../../source/tech_tips/tech-tips.rst:1204
+msgid ""
+"When deciding to use a sensor on a robot, we’re normally worried about how "
+"accurate the sensor’s detection is, how much the sensor costs, or how the "
+"sensor’s protocol will interface with the control system. It isn’t until the"
+" device is being mounted to the robot before we consider how outside "
+"electrical noise already present on the robot might significantly impact the"
+" performance of the sensor. This electrical noise almost exclusively comes "
+"from the electric motors and other sources of electric fields on a robot, "
+"such as power wires, power supplies, some sensors (especially ultrasonic "
+"sensors and cameras), radio frequency generators (like the Wi-Fi on the "
+"robot), and other places. This electrical noise can generate unwanted "
+"currents through electromagnetic induction in nearby wires, especially "
+"sensor wires, and these unwanted currents can wreak havoc (create “noise”) "
+"within the signals from your sensors. The amount of current induced in the "
+"wire depends on several factors including the strength of the magnetic "
+"field, the rate of change of the field, and the orientation of the wire."
+"msgstr """
+"ロボットにセンサーを使用する際には、センサーの検出精度やコスト、センサーのプロトコルが制御システムとどのように interfacing "
+"されるかについて心配することが多いです。ロボットにセンサーを固定している最中に、既にロボット上で存在する外部電気ノイズがセンサーの性能に著しく影響を与える可能性があることに初めて気づくことがあります。この電気ノイズは、主にロボット上の電動機や電磁場の他の源（電力線、電源装置、一部のセンサー（特に超音波センサーとカメラ）、無線周波数生成器（ロボット上のWi-"
+"Fiなど））から来ます。これらの電気ノイズは、近隣のワイヤー、特にセンサー用ワイヤーを経由して electromagnetically "
+"で誘導された不要な電流を生じることがあります。そして、この不要な電流は、あなたのセンサーからのシグナルに「ノイズ」を作り出す可能性があります。ワイヤーに誘導される電流の量は、磁場の強度、フィールドの変化率、およびワイヤーの向きなどのいくつかの要素によって異なります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1220
+msgid ""
+"Some buses and wiring are more sensitive to electrical noise than others. On"
+" a FIRST Tech Challenge robot, long signal-carrying wires (such as Servo "
+"wires or I2C sensor wires) are most susceptible to induced noise. So how can"
+" we eliminate this noise? The easiest way to remove noise is through the use"
+" of a Ferrite Core. Ferrite Cores, also known as Ferrite Beads, are made of "
+"a ceramic material called ferrite that has incredibly useful magnetic "
+"properties. When a Ferrite Core is clipped around a signal-carrying wire, "
+"the induced “noisy” alternating currents in the wire generate electrical "
+"fields in the ferrite that act to oppose those currents - this has the "
+"effect of canceling out or removing the high-frequency noise. It’s not "
+"typically required to “loop” the cable around the ferrite core, but doing so"
+" could increase the efficiency of the noise filtering in cases where "
+"excessive noise is being generated. You can find ferrite cores already "
+"installed in cables meant for high-noise environments or highly sensitive "
+"devices such as USB webcam cables and monitor cables. It’s best to place "
+"ferrite cores on the wire closest to the connector leading into the "
+"Control/Expansion Hub port."
+"msgstr """
+"いくつかのバスや配線は他のものよりも電気ノイズに対してより敏感です。FIRST Tech "
+"Challengeロボットでは、信号を伝送する長い配線（サーボ配線やI2Cセンサ配線など）が特に誘起ノイズにさらされます。では、このノイズをどのように除去すればよいでしょうか？最も簡単なノイズ除去方法はフェライトコアの使用です。フェライトコアは、磁気的な性質を持つセラミック素材で作られています。フェライトコアを信号を伝送する配線に巻きつけると、配線内の誘起された「ノイジー」な交流電流がフェライト内で電磁場を生成し、これらの電流に対抗します"
+" - "
+"これは高周波ノイズを取り除く効果があります。一般的にはケーブルをフェライトコアに巻きつける必要はありませんが、過度のノイズが発生している場合、その効率性を向上させるためにそれをするかもしれません。高ノイズ環境や非常に敏感なデバイス（USBカメラケーブルやモニターケーブルなど）に既にインストールされているフェライトコアを見つけることができます。最善の方法は、コントロール/拡張ハブポートへの接続線から最も近い配線にフェライトコアを配置することです。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 03/04/2024 \"Motor Modes\""
+"msgstr "2024年3月4日週「モーター動作模式」""
+
+#: ../../source/tech_tips/tech-tips.rst:1241
+msgid ""
+"This week’s Tip of the Week is the first in a series for all you who love "
+"diving deep into the FIRST Tech Challenge SDK and exploring interesting "
+"lesser-known behaviors of well-known interfaces. Today we’re talking about "
+"motor modes. The `REV Robotics documentation "
+"<https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback>`__ for encoder feedback has a really good description of the four "
+"primary run modes, namely:"
+"msgstr """
+"この週のTip of the Weekは、FIRST Tech Challenge "
+"SDKに深く入り込んで、人気のあるインターフェースの興味深い未開拓な動作を探検するすべての皆さんに向けてのシリーズの最初の一環です。今日はモーターモードについて話します。エンコーダーフィードバックの`REVロボティクスドキュメンテーション"
+" <https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback>`__ には、主な4つの実行モードについて非常に良い説明があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1249
+msgid "DcMotor.RunMode.STOP_AND_RESET_ENCODER mode"
+"msgstr "DcMotor.RunMode.STOP_AND_RESET_ENCODER モード""
+
+#: ../../source/tech_tips/tech-tips.rst:1250
+msgid "DcMotor.RunMode.RUN_WITHOUT_ENCODER mode"
+"msgstr "DCモータ運転モードRUN_WITHOUT_ENCODERモード""
+
+#: ../../source/tech_tips/tech-tips.rst:1251
+msgid "DcMotor.RunMode.RUN_USING_ENCODER mode"
+"msgstr "DcMotor.RunMode.RUN_USING_ENCODER モード""
+
+#: ../../source/tech_tips/tech-tips.rst:1252
+msgid "DcMotor.RunMode.RUN_TO_POSITION mode"
+"msgstr "RUN_TO_POSITIONモード""
+
+#: ../../source/tech_tips/tech-tips.rst:1254
+msgid ""
+"The first two modes do exactly as their names suggest, and generally no "
+"more. STOP_AND_RESET_ENCODER stops the motors and resets the encoder count "
+"to zero. RUN_WITHOUT_ENCODER more or less blindly controls the motor power "
+"using a calculated percentage of the available battery power through the "
+"motor’s .setPower() method. There’s really no more to see here."
+"msgstr """
+"最初の2つのモードは、その名前が示す通りに動作し、基本的にそれ以上はありません。「INIT」モードでは、モーターを停止させ、エンコーダーのカウントをゼロにリセットします。「START」モードでは、可用電池電力の計算されたパーセンテージを使用してモーターの出力を無差別に制御します。ここには特に見どころはありません。"
+
+#: ../../source/tech_tips/tech-tips.rst:1260
+msgid ""
+"The last two modes are a bit more interesting. These two modes use a feature"
+" of the Control/Expansion hub firmware to externally (from robot code) "
+"control the motors. Using this feature you can do a lot more with the motors"
+" such as set the maximum velocity of the motor (nominally in encoder-ticks-"
+"per-second) using the .setVelocity() method, and :ref:`change the actual "
+"PIDF algorithm <programming_resources/shared/pidf_coefficients/pidf-"
+"coefficients:Changing PIDF Coefficients>` being used by the motor mode "
+"(using the .setPIDFCoefficients() methods). Because these two motor modes "
+"rely on knowing specific motor characteristics, it’s VERY important to set "
+"the correct motor type for the motor in the Robot Configuration!"
+"msgstr """
+"最後の2つのモードは少し興味深く、これらの2つのモードは制御/拡張ハブファームウェアの機能を使用してロボットコードから外部でモータを制御することができます。この機能を使って、エンコーダーチック毎秒（ノミナル値）でモータの最大速度を設定する(.setVelocity()"
+" メソッド) "
+"など、モータに対して多くの操作を行うことができます。また、モータモードで使用されている実際のPIDFアルゴリズム(:ref:`PIDF係数の変更 "
+"<programming_resources/shared/pidf_coefficients/pidf-coefficients:Changing "
+"PIDF Coefficients>` を使用して、.setPIDFCoefficients() メソッド) "
+"も変更することができます。これらの2つのモータモードは特定のモータ特性を知ることに依存しているため、ロボット構成でモータタイプを正しく設定することが非常に重要です！"
+
+#: ../../source/tech_tips/tech-tips.rst:1271
+msgid ""
+"Finally, one final note about RUN_TO_POSITION. When setting a Power or a "
+"Velocity for the motor in RUN_TO_POSITION mode, the value is intended to be "
+"unsigned. When using RUN_WITHOUT_ENCODER and RUN_USING_ENCODER the sign of "
+"the value of the Power or Velocity denotes direction; positive values mean "
+"run the motor “forwards” and negative values mean run the motor “backwards.”"
+" However, with RUN_TO_POSITION, the current encoder value and target encoder"
+" position are already known - and thanks to the motor setting in the Robot "
+"Configuration it knows everything about the motor - therefore the controller"
+" already knows which direction to run the motor and does not need a signed "
+"value indicating direction."
+"msgstr """
+"最後に、RUN_TO_POSITIONについての最終的な注意点です。RUN_TO_POSITIONモードでモータのパワーまたは速度を設定する際、その値は非符号値であることが意図されています。一方で、RUN_WITHOUT_ENCODERやRUN_USING_ENCODERを使用している場合、パワーまたは速度の符号は方向を示します；正の値は「前方」にモータを回転し、負の値は「後方」にモータを回転することを意味します。しかし、RUN_TO_POSITIONの場合、現在のエンコーダ値と目標エンコーダ位置は既に知られています"
+" - そしてロボット構成で設定されたモータ情報により、コントローラはモータの方向をすでに知っているため、符号付きの方向を示す値は必要ありません。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 02/26/2024 \"Robot Controller Source Code\""
+"msgstr "2024年2月26日週「ロボットコントローラーのソースコード」""
+
+#: ../../source/tech_tips/tech-tips.rst:1286
+msgid ""
+"Have you ever been programming your robot (especially in Blocks and OnBot "
+"Java) using FTC SDK APIs and wished you could see the source code under the "
+"hood that executes the commands you’re calling? Welcome to the Tech Tip of "
+"the Week, where we’re going to explore the `Extracted-RC GitHub repository "
+"<https://github.com/OpenFTC/Extracted-RC>`__.  Note that Android Studio "
+"users can already view source code within Android Studio!"
+"msgstr """
+"あなたは、ロボットをプログラミングする際に（特にブロックやOnBot Javaを使用して）FTC SDK "
+"APIを使ってコマンドを呼び出し、実行されるソースコードを見たいと思ったことはありますか？Tech Tip of the "
+"Weekにようこそ。ここでは`Extracted-RC GitHubリポジトリ "
+"<https://github.com/OpenFTC/Extracted-RC>`__ を探検します。なお、Android "
+"StudioユーザーはすでにAndroid Studio内でソースコードを確認できます。"
+
+#: ../../source/tech_tips/tech-tips.rst:1293
+msgid ""
+"Several years ago, FIRST Tech Challenge gave permission for the OpenFTC "
+"project to extract AAR’s from our SDK releases and publicly post an "
+"extracted version of the Robot Controller source code. The `Extracted-RC "
+"<https://github.com/OpenFTC/Extracted-RC>`__ repository has `branches "
+"<https://github.com/OpenFTC/Extracted-RC/branches/all>`__ that contain "
+"source code for each release of the SDK, as far back as SDK 5.2 through SDK "
+"9.0.1. You can look up how `setPower() works on a Continuous Rotation Servo "
+"<https://github.com/OpenFTC/Extracted-"
+"RC/blob/c04e3db091c5b63c2f4da31abb540c06ca33ac14/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/CRServoImpl.java#L125>`__,"
+" how `REV Core Hex motors are defined <https://github.com/OpenFTC/Extracted-"
+"RC/blob/c04e3db091c5b63c2f4da31abb540c06ca33ac14/Hardware/src/main/java/com/qualcomm/hardware/motors/RevRoboticsCoreHexMotor.java#L49>`__,"
+" how `Blocks OpModes are started <https://github.com/OpenFTC/Extracted-"
+"RC/blob/master/Blocks/src/main/java/com/google/blocks/ftcrobotcontroller/runtime/BlocksOpMode.java#L235>`__,"
+" and even see the `built-in driver for the HuskyLens vision camera "
+"<https://github.com/OpenFTC/Extracted-"
+"RC/blob/c04e3db091c5b63c2f4da31abb540c06ca33ac14/Hardware/src/main/java/com/qualcomm/hardware/dfrobot/HuskyLens.java#L55>`__."
+"msgstr """
+"数年前、FIRST Tech ChallengeはOpenFTCプロジェクトに、SDKリリースからAARを抽出し、公開的にRobot "
+"Controllerのソースコードの抽出版を掲載する許可を与えました。`Extracted-RC "
+"<https://github.com/OpenFTC/Extracted-RC>`__ リポジトリには、SDK 5.2からSDK "
+"9.0.1までの各SDKリリースのソースコードが含まれる`ブランチ <https://github.com/OpenFTC/Extracted-"
+"RC/branches/all>`__ があります。`setPower()が継続回転サーボでどのように動作するか "
+"<https://github.com/OpenFTC/Extracted-"
+"RC/blob/c04e3db091c5b63c2f4da31abb540c06ca33ac14/RobotCore/src/main/java/com/qualcomm/robotcore/hardware/CRServoImpl.java#L125>`__"
+" を確認できます。`REV Core Hexモーターがどのように定義されるか "
+"<https://github.com/OpenFTC/Extracted-"
+"RC/blob/c04e3db091c5b63c2f4da31abb540c06ca33ac14/Hardware/src/main/java/com/qualcomm/hardware/motors/RevRoboticsCoreHexMotor.java#L49>`__"
+" も確認できます。`ブロック型オペモードがどのように開始されるか <https://github.com/OpenFTC/Extracted-"
+"RC/blob/master/Blocks/src/main/java/com/google/blocks/ftcrobotcontroller/runtime/BlocksOpMode.java#L235>`__"
+" も確認できますし、`HuskyLensビジョンカメラの組み込みドライバー <https://github.com/OpenFTC/Extracted-"
+"RC/blob/c04e3db091c5b63c2f4da31abb540c06ca33ac14/Hardware/src/main/java/com/qualcomm/hardware/dfrobot/HuskyLens.java#L55>`__"
+" も確認できます。"
+
+#: ../../source/tech_tips/tech-tips.rst:1308
+msgid ""
+"The Extracted-RC repository will not accept Pull Requests (PR’s) since the "
+"repository has no actual development purpose - it is only to allow "
+"interested folks the ability to read the source code and see how things are "
+"implemented. Only FIRST staff and Tech Team members have access to the "
+"development source. Are you interested in joining the FIRST Tech Challenge "
+"Tech Team? Let us know by filling out `this survey "
+"<https://forms.microsoft.com/pages/responsepage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhJz4rTMLMkNKttplG8GSviZUQjdSTU1UQVU0S1dDSkQwRjhDWEUyTEo3Uy4u&route=shorturl>`__!"
+"msgstr """
+"The Extracted-RC リポジトリは、開発目的がなく - "
+"ただ興味のある方々にソースコードを読むことができるようにするためのものです。プルリクエスト（PR）は受け付けません。開発用のソースには FIRST "
+"スタッフと Tech Team のメンバーのみがアクセスできます。FIRST Tech Challenge Tech Team 加入を希望されますか？ "
+"`こちらのアンケート "
+"<https://forms.microsoft.com/pages/responsepage.aspx?id=v8Pzh9Ft7ES9j5nk5iLvhJz4rTMLMkNKttplG8GSviZUQjdSTU1UQVU0S1dDSkQwRjhDWEUyTEo3Uy4u&route=shorturl>`__"
+" にご記入ください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 02/19/2024 \"Robot Wi-Fi Link Speed\""
+"msgstr "2024年2月19日週の「ロボット・ワイヤレスリンク速度」""
+
+#: ../../source/tech_tips/tech-tips.rst:1320
+msgid ""
+"In last week’s Tech Tip of the Week we talked about Wi-Fi Signal Strength. "
+"This week’s Tech Tip rounds out the Wi-Fi reporting features and introduces "
+"Link Speed and the Signal Bar Graph, both found on the :ref:`FTC Driver "
+"Station App <ftc_sdk/updating/ds_app/Updating-the-DS-App:Updating the Driver"
+" Station App>`."
+"msgstr """
+"前週のTech Tip of the Weekでは、Wi-Fi信号強度について説明しました。今週のTech TipはWi-"
+"Fi報告機能を締めくくり、リンク速度とシグナルバーグラフを導入します。これらは:ref:`FTCドライバーステーションアプリ "
+"<ftc_sdk/updating/ds_app/Updating-the-DS-App:Driver Stationアプリの更新>` にあります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1326
+msgid ""
+"Link Speed is the speed (in Mbps) at which a Wi-Fi connection can "
+"communicate, and it generally ranges from a snail-like 1Mbps through about "
+"100Mbps, which is the maximum practical rate for an 802.11ac/b/g/n/w Wi-Fi "
+"network (when using a Control Hub and Driver Hub). It’s important to "
+"understand the difference between Signal Strength and Link Speed. Signal "
+"Strength is often used to describe how “loud” a connection is, and Link "
+"Speed is used to describe how “fast” a connection can communicate. Link "
+"Speed can also be a secondary indicator of how much “noise” or "
+"“interference” a communication channel has; the “louder” the signal and "
+"“clearer” the communication channel, the “faster” the devices can generally "
+"communicate. Wi-Fi link speeds are automatically renegotiated periodically "
+"and they’re most often affected by noise, channel congestion (too much "
+"happening at once), and distance."
+"msgstr """
+"リンク速度は、Wi-Fi接続が通信できる速度（Mbps単位）で、一般的には1Mbpsというスローペースから約100Mbpsまで-ranging from"
+" a snail-like 1Mbps through about 100Mbps-となり、802.11ac/b/g/n/wのWi-"
+"Fiネットワークでは最大実用速度となります（コントロールハブとドライバーハブを使用している場合）。信号強度とリンク速度は異なる概念であることを理解することが重要です。信号強度は接続がどれだけ「強く」なるかを説明するためによく使われ、リンク速度は通信がどれだけ「速く」なるかを説明するために使用されます。また、リンク速度は通信チャネルにどの程度の「ノイズ」や「干渉」があるかという2次的な指標でもあります；信号が「強く」で、「クリアな」通信チャネルがあるほど、装置は一般的に「速く」通信できます。Wi-"
+"Fiのリンク速度は定期的に再交渉され、ノイズ、チャンネル "
+"congestions（同時に行われるものが多すぎ）、距離などの要因によって最も影響を受けます。"
+
+#: ../../source/tech_tips/tech-tips.rst:1341
+msgid ""
+"A Wi-Fi channel is like a room where only one person/device is ever allowed "
+"to talk at a time. If each person/device can talk in short, fast bursts "
+"(fast link speed) then everyone has an opportunity to speak within a short "
+"duration of when they want to speak. However, if one or more devices are "
+"speaking slowly (slow link speed) then all devices have to wait for them to "
+"finish before they can talk REGARDLESS of their own link speeds - this "
+"invariably introduces communications lag. This example highlights the fact "
+"that even though it’s important for a given device to have a strong signal "
+"and a fast link speed, it’s important for ALL devices communicating on a "
+"channel to have a strong signal and fast link speed. As the idiom goes, it "
+"only takes one rotten apple to spoil the whole bunch."
+"msgstr """
+"Wi-Fi "
+"チャンネルは、一度に1つの人やデバイスだけが話すことができる部屋のようなもので、各人が短時間かつ高速に話すこと（高速リンク速度）で、話したいタイミングの近くに全員が話す機会を得ることができます。しかし、1つ以上のデバイスがゆっくりと話すこと（低速リンク速度）を余儀なくされる場合、それらのデバイスが終わるまで他のすべてのデバイスは待たなければならず、これにより通信遅延が発生します。この例は、特定のデバイスが強い信号と高速リンク速度を持つことが重要であるだけでなく、チャンネル上で通信する全デバイスが強い信号と高速リンク速度を持つことも重要なことを示しています。俗に言うところでは、一卵だけが腐っても、その他のすべての果物も腐ってしまうのです。"
+
+#: ../../source/tech_tips/tech-tips.rst:1354
+msgid ""
+"Finally the Signal “Bar” Graph attempts to combine the Signal Strength and "
+"Link Speed into an easy to understand graphical meter. The more bars, the "
+"stronger and clearer the signal and the faster the communications."
+"msgstr """
+"最後に、Signal「バー」グラフは、Signal スtrength と Link Speed "
+"を容易に理解できるグラフィカルなメーターとして統合しようと試みています。バーの数越多、信号がより強く明瞭で、通信もより速くなります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1359
+msgid ""
+"**NOTE:** The `Driver Hub <https://www.revrobotics.com/rev-31-1596/>`__ has "
+"a known bug where the Link Speed indicator only shows the initially "
+"negotiated link speed, and the link speed indicated does not change when the"
+" Wi-Fi device renegotiates different link speeds. This means the Link Speed "
+"indicator and the Bar graph are not represented accurately on Driver Hubs, "
+"but are represented accurately on all legal phones."
+"msgstr """
+"**注:** `Driver Hub <https://www.revrobotics.com/rev-31-1596/>`__ には、Link "
+"Speed表示が最初に交渉されたリンク速度のみを示す-known bug-があるため、Wi-Fiデバイスが異なるリンク速度で再交渉した場合、Link "
+"Speed表示は変化しません。これは、Driver Hub上でLink "
+"Speed表示と棒グラフが正確には表現されていないことを意味しますが、すべての合法的な携帯電話では正確に表現されます。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 02/12/2024 \"Robot Wi-Fi Signal Strength\""
+"msgstr "2024年2月12日週の「ロボット用Wi-Fi信号強度」""
+
+#: ../../source/tech_tips/tech-tips.rst:1370
+msgid ""
+"Welcome to the Tech Tip of the Week! One common question we get is how to "
+"determine the Wi-Fi signal strength between the Driver Station and the "
+"Robot. Because there are a lot of factors that can play into your robot "
+"performance on the field, it’s important to know that your robot is getting "
+"the strongest Wi-Fi signal possible."
+"msgstr """
+"週間技術ヒントへようこそ！よくある質問の一つは、ドライバーステーションとロボット間のWi-"
+"Fi信号強度をどのように測定するかです。フィールド上でロボットのパフォーマンスに影響を与える多くの要素があるため、ロボットが可能な限り強いWi-"
+"Fi信号を受け取っていることを知る必要があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1376
+msgid ""
+"Wi-Fi signal strength is measured in dBm (decibel-milliWatts) and is always "
+"negative. Typically the range for Wi-Fi is -30dBm to -90dBm; -30dBm is the "
+"maximum possible signal strength, and -90dBm is considered too weak of a "
+"signal to support Wi-Fi communications. dBm is measured on a logarithmic "
+"scale, so comparing dBm values differs from what you would normally consider"
+" on a linear scale. Increments of 3dBm indicate doubling/halving signal "
+"strength, and increments of 10dBm indicate 10x change in signal strength. "
+"For example, a signal strength of -40dBm is twice as strong as a signal "
+"strength of -43dBm, and a signal strength of -67dBm is one-tenth the signal "
+"strength of -57dBm. Signal strengths around -40dBm are Amazing, but rarely "
+"achievable in match play. A strength of -60dBm is still considered Very "
+"Good. -67dBm is considered Good. -70dBm is considered Okay. Anything less "
+"than -80dBm is considered unusable."
+"msgstr """
+"Wi-Fi信号強度はdBm（デシベルミリワット）で測定され、常に負の値となります。通常、Wi-"
+"Fiの範囲は-30dBmから-90dBmまでで、-30dBmは最大可能な信号強度であり、-90dBmはWi-"
+"Fi通信をサポートするのに十分な信号強度と見なされません。dBmは対数スケールで測定されるため、dBm値の比較は通常の線形スケールでの比較とは異なります。3dBmの増分は信号強度が倍になるか半分になることを示し、10dBmの増分は信号強度が10倍になることを示します。例えば、-40dBmの信号強度は-43dBmの信号強度の2倍であり、-67dBmの信号強度は-57dBmの信号強度の十分の一です。-40dBm程度の信号強度は素晴らしいものですが、試合で達成されることが稀です。-60dBmの信号強度はまだ非常に良いと見なされます。-67dBmは良いと見なされ、-70dBmはまあまあと見なされます。-80dBm未満の信号強度は使用できないと見なされます。"
+
+#: ../../source/tech_tips/tech-tips.rst:1390
+msgid ""
+"To see the Signal Strength between your Driver Station and the Robot "
+"Controller, first ensure that the robot is connected within the Driver "
+"Station App. At the top of the Driver Station App is a readout that shows "
+"the connected network name, and under it are Ping times and the Channel "
+"number of the Wi-Fi connection. Tap that area of the app, and the display "
+"will change and instead show the signal strength under the connected network"
+" name. Tap again to swap back."
+"msgstr """
+"ドライバーステーションとロボットコントローラ間のシグナル強度を確認するには、まずドライバーステーションアプリ内でロボットが接続されていることを確認してください。ドライバーステーションアプリの上部には、接続されたネットワーク名が表示される読み取り領域があり、その下にピング時間とWi-"
+"Fi接続のチャンネル番号が表示されています。そのエリアをタップすると、表示が変更され、接続されたネットワーク名の下でシグナル強度が表示されます。再度タップすることで元に戻ります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1398
+msgid ""
+"Knowing your Signal Strength can help you understand how metal on your robot"
+" might be affecting your Wi-Fi connection, understand how your robot’s "
+"signal may vary depending on the orientation of the robot to the Driver "
+"Station, and how external factors (like placing your Driver Station on a "
+"metal music stand) can degrade the signal strength. Remember that ensuring a"
+" strong Wi-Fi signal strength is just one factor in maintaining optimal "
+"robot health. Tune in next week to learn about Link Speed, which is the "
+"other piece of information provided by the Signal Strength readout."
+"msgstr """
+"信号強度を知ることは、ロボットの金属部品がWi-"
+"Fi接続にどのように影響しているかを理解するのに役立ちます。また、ロボットの向きによってドライバーステーションからの信号強度がどのように変化するかも理解できます。外部要因（ドライバーステーションを金属製の楽器台に乗せた場合など）も信号強度に影響を与えることがあります。ただし、強いWi-"
+"Fi信号強度を持つことはロボットの最適な健康状態を維持するための唯一の要素ではありません。次週は、信号強度読み取りで提供されるもう一つの情報であるリンク速度について学びましょう。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 02/05/2024 \"Gamepad Calibration and Drift\""
+"msgstr "2024年2月5日週「ゲームパッドの校正と漂移」""
+
+#: ../../source/tech_tips/tech-tips.rst:1411
+msgid ""
+"Welcome to the Tech Tip of the Week. Over the past couple weeks we’ve had an"
+" abnormally large number of questions regarding gamepad calibration hit our "
+"support lines, both at FIRST and at REV Robotics, though question submitters"
+" had no idea that gamepad calibration was the issue - so let’s cover the "
+"topic!"
+"msgstr """
+"週の技術ヒントへようこそ。最近の数週間では、ゲームパッド校正に関する質問が異常に多くなっており、FIRSTやREV "
+"Roboticsのサポートラインとも同様の状況です。しかし、質問を提出した人はゲームパッド校正が問題であることを全く意識していなかったので、このトピックについて説明しましょう！"
+
+#: ../../source/tech_tips/tech-tips.rst:1417
+msgid ""
+"How does a joystick know where “center” is on a gamepad? On virtually all "
+"gamepads the analog joysticks have an electrical device (usually a "
+"potentiometer) that electrically measures the motion of the stick. If the "
+"electrical device’s value at “center” does not coincide with the value the "
+"gamepad thinks should be center, the stick will have a non-zero value at its"
+" center position; this is called drift. In a video game, drift is what "
+"causes your character to walk left (or right, etc) even though you’re not "
+"moving the joystick. For a robot, this can cause ghost turning or unwanted "
+"motor or servo motion. So how is this “center” value determined?"
+"msgstr """
+"ゲームパッドのジョイスティックが“中心”とはどこを認識するのか？ほとんどのゲームパッドでは、アナログジョイスティックに電気的な装置（通常はポテンショメータ）があり、これはジョイスティックの動きを電気的に測定します。この電気的な装置の値が“中心”とゲームパッドが認識する中心の値と一致しない場合、ジョイスティックの中心位置には非ゼロの値が設定されることがあります；これがドリフトと呼ばれます。ビデオゲームでは、ドリフトはキャラクターが移動していないのに左（または右など）に歩く原因となります。ロボットの場合、これは幽霊回転や不要なモーター動作やサーボの動きを引き起こす可能性があります。ではこの“中心”値はどのように決定されるのでしょうか？"
+
+#: ../../source/tech_tips/tech-tips.rst:1427
+msgid ""
+"Some gamepads, like the Logitech F310 gamepads, simply read the value of the"
+" analog joystick when it’s first powered on and assumes the sticks are "
+"always “centered” at that time. If the analog stick is NOT centered when "
+"powered on, for example if it’s upside down on a table or otherwise resting "
+"against something that is deflecting the analog stick, the “center” value "
+"will include some amount of drift. In order to correct this, ensure the "
+"gamepad analog sticks are centered and simply unplug and replug the "
+"joystick. When replugged, the gamepad will again read the current analog "
+"stick value as “center” and correct the drift."
+"msgstr """
+"一部のゲームパッド、たとえば Logitech F310 "
+"ゲームパッドなどは、電源を入れたときにアナログジョイスティックの値を読み取り、その時点でのジョイスティックが常に「中央」であると想定します。例えば、テーブル上で逆さまに置かれている場合や他の何かによってアナログジョイスティックが反発されている場合は、電源を入れたときにジョイスティックが「中央」でない場合、その「中心」値には多少のずれが含まれる可能性があります。この問題を修正するためには、ゲームパッドのアナログジョイスティックを中央に保ち、ジョイスティックを抜き差ししてください。再挿入されたときに、ゲームパッドは再度現在のアナログジョイスティックの値を「中心」として読み取り、ずれを修正します。"
+
+#: ../../source/tech_tips/tech-tips.rst:1437
+msgid ""
+"Other gamepads, like the Sony DualShock 4 (PS4) or Sony DualSense (PS5), can"
+" be calibrated using online tools such as https://dualshock-tools.github.io/"
+" (this is not an official Sony calibration method)."
+"msgstr """
+"他のゲームパッド、例えばソニー DualShock 4（PS4）やDualSense（PS5）は、https://dualshock-"
+"tools.github.io/などのオンラインツールを使用して校正することができます。（これは公式のソニー校正方法ではありません）"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 01/29/2024 \"REV Driver Hub Tips\""
+"msgstr "週 2024年1月29日 \"REV ドライバーハブのヒント\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1445
+msgid ""
+"Welcome to the Tech Tip of the Week! This week is a long one, filled with "
+"great REV Driver Hub tips. Most everything here can be found in REV’s Driver"
+" Hub Troubleshooting tips page, we’ve just annotated a few of these for the "
+"most common scenarios you’ll potentially experience with the REV Driver Hub."
+" Understand that this Tip of the Week is not meant to disparage the REV "
+"Driver Hub in any way - no device is perfect, but the REV Driver Hub can "
+"provide you trouble-free performance if you can understand its nuances and "
+"take a few additional steps to keep it running optimally."
+"msgstr """
+"週のテクニックヒントへようこそ！ 今週は、REV ドライバーハブに関する素晴らしいヒントが盛りだくさんです。ここにあるほとんどの情報は、REV のドライバーハブトラブルシューティングページで見つけることができます。ただ、最も一般的なシナリオをいくつか注釈付きで示しました。 REV ドライバーハブを使用する際に遭遇する可能性のある多くの状況に対応するためにです。\n"
+"\n"
+"この週のヒントはREV ドライバーハブを非難することを意図したものではありません - どのデバイスも完璧ではないですが、REV ドライバーハブは、そのニュアンスを理解し、いくつかの追加の手順で最適に動作させることによって問題なく動作します。"
+
+#: ../../source/tech_tips/tech-tips.rst:1454
+msgid ""
+"Make sure your REV Driver Hub time/date is set correctly! This is the cause "
+"of a number of inspection nightmares and Robot Controller log file "
+"confusion, the first step should always be to check to make sure the "
+"Date/Time on the Driver Hub is set correctly. This is set through the normal"
+" Android System Settings by pulling down the Android Quick Settings pull-"
+"down twice, tapping the Gear Icon, selecting System, and then selecting "
+"“Date & Time”."
+"msgstr """
+"REV "
+"ドライバーハブの日時設定を確認してください！これは多くの検査の問題とロボットコントローラーログファイルの混乱の一因となっています。最初のステップとしては、常にドライバーハブ上の日時が正しく設定されていることを確認することから始めましょう。この設定は通常のAndroidシステム設定を通じて行います。Androidクイック設定を二度下げる、ギアアイコンをタップし、システムを選択し、「日付と時間」を選択します。"
+
+#: ../../source/tech_tips/tech-tips.rst:1462
+msgid ""
+"USB wall chargers are all the same, right? Wrong. A/C-to-USB wall chargers "
+"can range drastically in power (measured in Watts) - the REV Driver Hub "
+"comes with an A/C-to-USB wall charger, and that is the recommended wall "
+"charger to use to charge the REV Driver Hub. Can you use another device to "
+"charge the REV Driver Hub? Maybe, but it’s best to stick to either the one "
+"that ships with the REV Driver Hub or a fully-charged USB Battery Pack like "
+"the `Anker 10,000mA Power Bank <https://www.amazon.com/Anker-Ultra-Compact-"
+"High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__ which can keep a Driver"
+" Hub fully charged all day without ever needing to put the Driver Hub to "
+"sleep."
+"msgstr """
+"USBの壁コンセント充電器はすべて同じではありません。A/C-to-USBの壁コンセント充電器には、 "
+"Watts（ワット）で測定した電力が大幅に異なります - REVドライバーハブはA/C-to-"
+"USBの壁コンセント充電器が付属しており、これがREVドライバーハブを充電する推奨された充電器です。他のデバイスを使用してREVドライバーハブを充電することは可能でしょうか？もちろん可能ですがあくまで、"
+" REVドライバーハブ本体と一緒に届くものやフルチャージされたUSBバッテリーパック（例：`Anker 10,000mA ポータブル電源 "
+"<https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-"
+"Technology/dp/B07QXV6N1B>`__）を使用することをおすすめします。これらの充電器はドライバーハブを一昼夜中フルチャージ状態に保つことができますし、ドライバーハブをスリープモードに入れる必要はありません。"
+
+#: ../../source/tech_tips/tech-tips.rst:1473
+msgid ""
+"Rechargeable Lithium batteries don’t necessarily work the same way that "
+"other batteries work, they all have a slightly different usable Voltage "
+"range. The REV Driver Hub needs to calibrate to the Voltage range of the "
+"internal lithium battery plugged into it, and to do that there’s a full "
+"`calibration process <https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/driver-hub-"
+"troubleshooting/driver-hub-battery-troubleshooting#battery-calibration>`__ "
+"that has to be followed for any new battery, along with a `verification step"
+" <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/driver-hub-troubleshooting/driver-hub-battery-"
+"troubleshooting#battery-verification>`__. DO NOT simply “replace” a drained "
+"battery with a new charged one when it gets low, the new battery is NOT "
+"guaranteed to have the same calibration as the first and it is not "
+"guaranteed to perform optimally. If you’re having problems keeping the REV "
+"Driver Hub internal battery charged, consider a USB Battery Pack like the "
+"`Anker 10,000mA Power Bank <https://www.amazon.com/Anker-Ultra-Compact-High-"
+"Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__."
+"msgstr """
+"リチウムイオンバッテリーは、他のバッテリーとは必ずしも同じ働き方ではなく、使用可能な電圧範囲がわずかに異なることがあります。REV "
+"ドライバーハブは、内部のリチウムイオンバッテリーを接続した場合にその電圧範囲を校正する必要があります。そのためには、新しいバッテリーに対して完全な「校正プロセス」:`校正手順"
+" <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/driver-hub-troubleshooting/driver-hub-battery-"
+"troubleshooting#battery-calibration>`__ が従う必要があります。また、「確認ステップ」:`確認手順 "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/driver-hub-troubleshooting/driver-hub-battery-"
+"troubleshooting#battery-verification>`__ "
+"も実施する必要があります。バッテリーが低电量になったときに単に「交換」して新しい充電済みのバッテリーを入れるだけではいけません。新しいバッテリーは最初のものと同じ校正を保証されず、最適なパフォーマンスを発揮することも保証されません。REV"
+" ドライバーハブの内部バッテリーの充電に問題がある場合は、「Anker 10,000mA パワーバンク」のようなUSB "
+"バッテリーパックを検討してみてください:`Anker Ultra Compact High Speed Power Bank "
+"<https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-"
+"Technology/dp/B07QXV6N1B>`__。"
+
+#: ../../source/tech_tips/tech-tips.rst:1490
+msgid ""
+"Battery safety in any Lithium Battery system is paramount, and the REV "
+"Driver Hub has battery safety features that most teams will likely run into "
+"at least once. The most commonly experienced safety feature is the `Battery "
+"Lockout system <https://docs.revrobotics.com/duo-control/troubleshooting-"
+"the-control-system/driver-hub-troubleshooting/driver-hub-battery-"
+"troubleshooting#battery-lockout-recovery>`__. If a REV Battery depletes to a"
+" level below its recommended safe level, or the battery is overcharged, the "
+"REV Driver Hub will enter lockout mode to protect the battery. In this mode,"
+" the REV Driver Hub will not power on when the battery button is held down."
+"  The process for recovering from Battery Lockout can take several minutes, "
+"but it’s better than the alternative. It’s not recommended to leave a REV "
+"Driver Hub on charge unattended for more than 8-10 hours, and definitely NOT"
+" for multiple days."
+"msgstr """
+"リチウムイオンバッテリーのシステムにおいて、バッテリー安全は最優先事項であり、多くのチームはREVドライバーハブのバッテリー安全機能に少なくとも一度は遭遇するでしょう。最も一般的に経験される安全機能は「バッテリーロックアウトシステム」<https://docs.revrobotics.com/duo-"
+"control/troubleshooting-the-control-system/driver-hub-"
+"troubleshooting/driver-hub-battery-troubleshooting#battery-lockout-"
+"recovery>`__ "
+"です。REVバッテリーが推奨される安全レベル以下に低下したり、バッテリーが過充電された場合、REVドライバーハブはバッテリープロテクションモードに入り、バッテリーボタンを押したときに起動しません。バッテリーロックアウトからの復旧プロセスには数分かかることがありますがあれよりも良い結果が得られます。REVドライバーハブは8〜10時間未満で充電を放置しないことを推奨し、絶対に複数日間充電を放置してはなりません。"
+
+#: ../../source/tech_tips/tech-tips.rst:1504
+msgid ""
+"When a user puts the REV Driver Hub to sleep, or if it goes to sleep on its "
+"own because the Driver Station App main screen is not actively running in "
+"the foreground, it goes to sleep pretty easily. However, when the REV Driver"
+" Hub returns from a sleep state, sometimes the Wi-Fi and the gamepads will "
+"not reload correctly or automatically; this requires you to unplug and "
+"replug the gamepads from the REV Driver Hub before you can use them again, "
+"or perform a hard reboot in order to bring Wi-Fi connectivity back. Many "
+"veteran teams use a fully-charged USB Battery Pack, like the `Anker 10,000mA"
+" Power Bank <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-"
+"VoltageBoost-Technology/dp/B07QXV6N1B>`__, and leave the Driver Station App "
+"main screen running all day without putting the device to sleep."
+"msgstr """
+"ユーザーがREV Driver Hubを休眠状態にすると、またはDriver Station "
+"Appのメインスクリーンが前景で実行されていないため自身で休眠状態になる場合、比較的簡単に休眠状態になります。しかし、REV Driver "
+"Hubが休眠状態から復帰したときに、Wi-"
+"Fiやゲームパッドが正しく再読み込みされないか自動的に再接続されないことがあります；この場合は、ゲームパッドをREV Driver "
+"Hubから抜き差しする必要があります。または、Wi-"
+"Fi接続を取り戻すためにハードリブートを行う必要があります。多くのベテランチームは、フル充電のUSBバッテリーパック、たとえば「Anker "
+"10,000mA ポータブルバッテリー」(<https://www.amazon.com/Anker-Ultra-Compact-High-Speed-"
+"VoltageBoost-Technology/dp/B07QXV6N1B>) を使用し、デバイスを休眠状態にしないでDriver Station "
+"Appのメインスクリーンを一日中実行します。"
+
+#: ../../source/tech_tips/tech-tips.rst:1517
+msgid ""
+"Keep the REV Driver Hub safe by using 3M Dual-Lock or hook-and-loop "
+"fasteners (like those sold by Velcro Brand) to mount the Driver Hub to a "
+"`Driver Station Carrier <https://www.andymark.com/products/18-in-driver-"
+"station-tray>`__. This prevents your REV Driver Hub from being placed on the"
+" floor (where team members may step on it) and prevents you from "
+"accidentally dropping the Driver Hub on the floor - dropping the Driver Hub "
+"is the #1 cause of all Driver Hub damage! Some teams have designed their own"
+" `custom <https://www.thingiverse.com/thing:3386378>`__ `Driver "
+"<https://www.thingiverse.com/thing:5439041>`__ `Carriers "
+"<https://jmhannon.myportfolio.com/ftc-driver-station>`__, be creative and "
+"have fun!"
+"msgstr """
+"REVドライバーハブを安全に保つために、`ドライバーステーションキャリア "
+"<https://www.andymark.com/products/18-in-driver-station-tray>`__ "
+"にドライバーハブを取り付ける際は、3M Dual-"
+"LockやVельクロブランドのハックアンドループ式接着材を使用してください。これにより、チームメンバーが足をかけて傷つけたり、ドライバーハブを落としてしまうことを防げます。ドライバーハブを落とすことはすべてのドライバーハブの損傷の最大の原因です！一部のチームは独自に`カスタム"
+" <https://www.thingiverse.com/thing:3386378>`__ `ドライバーキャリア "
+"<https://www.thingiverse.com/thing:5439041>`__ と`キャリア "
+"<https://jmhannon.myportfolio.com/ftc-driver-station>`__ "
+"を設計しています。創造的になり、楽しんでください！"
+
+#: ../../source/tech_tips/tech-tips.rst:1530
+msgid ""
+"When the REV Driver Hub is not in use (not at competitions, not in use "
+"during practices) it should be turned OFF and have all sources of power "
+"disconnected. Do not put the Driver Hub to sleep, but actually turn it off -"
+" press the power button for 1-2 seconds and then use the drop-down menu to "
+"turn off the device. The Driver Hub uses power even in sleep mode, and that "
+"can lead to a dead battery and you may have to perform `Battery Lockout "
+"Recovery <https://docs.revrobotics.com/duo-control/troubleshooting-the-"
+"control-system/driver-hub-troubleshooting/driver-hub-battery-"
+"troubleshooting#battery-lockout-recovery>`__ before you can turn it back on."
+"msgstr """
+"REV Driver Hubが使用されていない場合（大会や練習中以外）は、OFFにし、すべての電源を切断してください。Driver "
+"Hubをスリープ状態にしないでください。実際には電源ボタンを1〜2秒長押ししてデバイスをオフにしてください。ドライバーHUBはスリープモードでも電力を消費しますので、これはバッテリーが死んでしまう原因となることがあります。その場合、再起動する前に`バッテリーロックアウト回復"
+" <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/driver-hub-troubleshooting/driver-hub-battery-"
+"troubleshooting#battery-lockout-recovery>`__ を実行する必要があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1540
+msgid ""
+"Sometimes teams may experience “random power loss” on the REV Driver Hub. "
+"This is usually due to a battery fitment issue within the battery box on the"
+" device (the battery momentarily stops making a connection with the power "
+"pins on the device), and can be mitigated using `techniques "
+"<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/driver-hub-troubleshooting#option-1-tape-quick-fix>`__ from the REV "
+"Troubleshooting tips. Some teams have been known to operate their REV Driver"
+" Hubs without a battery inserted at all, and simply run the Driver Hub using"
+" a fully-charged USB Battery Pack, like the `Anker 10,000mA Power Bank "
+"<https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-"
+"Technology/dp/B07QXV6N1B>`__. The jury is still out on whether that’s a good"
+" idea, but worth considering if you’re having problems that you’re desperate"
+" to solve and REV Support is unable to help you resolve (because of time "
+"pressures) before your big event."
+"msgstr """
+"時々、チームはREV Driver "
+"Hubで「ランダムな電源喪失」を経験するかもしれません。これは通常、デバイス内のバッテリー収納部（バッテリーが一瞬で電源ピンと接続を切断してしまう問題）に起因しており、REVのトラブルシューティングヒントから`技術的手法"
+" <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/driver-hub-troubleshooting#option-1-tape-quick-fix>`__ "
+"を使用することで軽減できます。一部のチームは、バッテリーを挿入せずにREV Driver Hubを操縦することも知られていますし、完全に充電されたUSB"
+" バッテリーパック（例：`Anker 10,000mA ポワーバンク <https://www.amazon.com/Anker-Ultra-"
+"Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__）を使用してDriver "
+"Hubを操縦することも可能です。その方法が良いアイデアかどうかはまだ議論の余地がありますが、大規模なイベント前にREVサポートから解決策を得られない（時間的な制約があるため）場合に問題を急いで解決したい場合は考慮する価値があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1556
+msgid ""
+"Ensure your REV Driver Hub is fully updated. Firmware 1.2.0 solves a host of"
+" REV Driver Hub issues, and it makes sense to use the on-board updater (once"
+" connected to Wi-Fi) to perform all updates on the Driver Hub."
+"msgstr """
+"REV Driver Hubを完全に更新してください。ファームウェア1.2.0はREV Driver Hubの多くの問題を解決しており、Wi-"
+"Fiに接続した状態で組み込まれたアップdaterを使用してDriver Hub全体の更新を行うのが最善です。"
+
+#: ../../source/tech_tips/tech-tips.rst:1561
+msgid ""
+"This isn’t specifically a REV Driver Hub tip, but it’s a question we get "
+"asked all the time. Did you know that the Robot Wi-Fi network name (Robot "
+"Controller Name) and the Wi-Fi passwords can be managed straight from within"
+" the Driver Station app? With the Driver Station App connected via Wi-Fi to "
+"the Robot Controller, click on the three dots menu on the upper-right and "
+"select “Program and Manage”, then use the hamburger menu on the upper-left "
+"and select “Manage”. On this page you’ll find all of the same settings as "
+"you’d find on the webpage by logging in to the controller on a laptop!"
+"msgstr """
+"これは特にREV Driver Hubのヒントではありませんが、よく聞かれる質問です。Robot Wi-Fiネットワーク名（Robot "
+"Controller Name）とWi-FiパスワードをDriver Stationアプリ内で直接管理できることがご存知ですか？Driver "
+"StationアプリがRobot Controllerに無線で接続されている場合、右上にある3つの点のメニューをクリックし、「Program and "
+"Manage」を選択します。その後、左上のハンバーガーメニューをクリックし、「Manage」を選択します。このページでは、ロボットコントローラーにログインしてウェブページで見つけることができるすべての設定を見つけることができます！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 01/22/2024 \"REV Grounding Strap\""
+"msgstr "週 2024年1月22日 \"REV グラウンドストラップ\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1575
+msgid ""
+"This week’s Tech Tip of the Week is dedicated to the `REV Resistive "
+"Grounding Strap <https://www.revrobotics.com/rev-31-1269/>`__; the REV "
+"Resistive Grounding Strap (RGS) is the only FTC-legal means of providing a "
+"grounding option for your robot frame or connected structural elements. "
+"Static electricity has two basic behaviors depending on whether it’s "
+"building up on a conductive or non-conductive surface; on non-conductive "
+"surfaces like polycarbonate or other plastics static electricity builds up "
+"in “pools”, on conductive surfaces like most metals static electricity "
+"spreads and distributes across the entire surface of the material. Aluminum "
+"extrusion used on robots typically has a clear non-conductive anodized layer"
+" used to prevent corrosion of the aluminum but the aluminum under the layer "
+"is conductive. When using the RGS, it’s important to connect the RGS to "
+"surfaces where you want to mitigate static buildup. If mounting the RGS to "
+"aluminum on your robot, it’s recommended to use a `multimeter "
+"<https://www.amazon.com/KAIWEETS-Multimeter-Resistance-Capacitance-"
+"Temperature/dp/B07SHLS639>`__ to test the continuity between the ring "
+"terminal on the RGS to different places on the robot to determine if the "
+"static buildup will be mitigated by the RGS. If testing for resistivity, "
+"remember that the REV Grounding Strap has a 470 Ohm resistor (with a ~5% "
+"tolerance) in-line in the strap - if not using an auto-range multimeter, be "
+"sure to select a range above 600 Ohms to ensure the resistivity is measured "
+"properly. It may be necessary to scrape the aluminum to create a conductive "
+"path between multiple segments of aluminum, just remember that a non-"
+"conductive oxide layer will eventually form on the exposed aluminum. "
+"Remember that if you're probing aluminum extrusion to check for continuity "
+"or resistivity, those areas need to be scraped to expose bare metal in order"
+" to ensure electrical connectivity. “Jumper wires” screwed to aluminum "
+"elements can also be added to ensure conductivity between components."
+"msgstr """
+"この週のテックヒントは、`REV抵抗接地ストラップ <https://www.revrobotics.com/rev-31-1269/>`__ "
+"に捧げられています。REV抵抗接地ストラップ（RGS）は、FTC法規に準拠した唯一のロボットフレームや接続された構造要素への接地オプションを提供する方法です。静電気は、導体または非導体表面で蓄積する基本的な2つの行動模式を持っています；ポリカーボネートなどの非導体表面では、静電気が「プール」のように蓄積し、金属のような導体表面では静電気が全体の表面に広がり分散します。ロボット用アルミニウム"
+" Extrusion "
+"は通常、アルミニウムを腐食防止するためにクリアな非導体酸化膜で被覆されており、その下のアルミニウムは導体ですが、RGSを使用する際には、静電気の蓄積を軽減したい部位にRGSを接続することが重要です。ロボットのアルミニウムにRGSを取り付ける場合、`マルチメーター"
+" <https://www.amazon.com/KAIWEETS-Multimeter-Resistance-Capacitance-"
+"Temperature/dp/B07SHLS639>`__ "
+"を使用して、RGSのリングターミナルからロボット上の異なる部位への連続性をテストし、静電気の蓄積がRGSによって軽減されるか確認することをお勧めします。抵抗率を測定する際は、REV接地ストラップには約5%の許容誤差がある470オームのリソスタットが内蔵されていることを忘れないでください。自動スケール範囲のマルチメーターを使用していない場合は、600オームを超える範囲を選択して、抵抗率を正確に測定できるようにしてください。複数のアルミニウムセグメント間の導通経路を作るためにアルミニウムを削る必要がある場合もありますが、記憶に留めておいてください：露出したアルミニウムには最終的に非導体の酸化膜が形成されます。「ジャンパワイヤー」をアルミニウム要素に固定することでも、部品間の導通性を確保できます。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 01/08/2024 \"OnBot Java Backups\""
+"msgstr "2024年1月8日週 \"OnBot Java バックアップ\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1608
+msgid ""
+"This week’s Tech Tip of the Week is for all those who program in OnBot Java."
+" Have you ever been worried that your OnBot Java programs could suddenly "
+"magically vanish? Has it ever happened to you? One lesser-known feature of "
+"OnBot Java is automatic backups - each time you “compile all” in OnBot Java "
+"the system saves a copy of all source code, up to 30 compilations deep. In "
+"order to find these backups, you must connect to the Control Hub via USB "
+"from a Windows machine and navigate to the “FIRST” folder on the device’s "
+"internal storage. In this folder you’ll find a “java” folder, and within "
+"that is the “srcBackups” folder. Here you’ll find zip files containing each "
+"backup with a time/date stamp. Happy Programming!"
+"msgstr """
+"この週のテックヒントは、OnBot Javaでプログラムを書くすべての人向けです。あなたのOnBot "
+"Javaプログラムが突然消えてしまうことが心配になったことはありますか？実際に起こったことがありますか？OnBot "
+"Javaのあまり知られていない機能の1つは自動バックアップです - OnBot "
+"Javaで「全コンパイル」を行うたびに、システムはすべてのソースコードのコピーを保存し、最大30回分まで保存します。これらのバックアップを見つけるには、WindowsマシンからUSB経由で制御ハブに接続し、「FIRST」フォルダにあるデバイスの内部ストレージに移動する必要があります。このフォルダ内では「java」フォルダを見つけ、その中に「srcBackups」フォルダがあります。ここにはタイム/日付スタンプがついたzipファイルが保存されています。楽しいプログラミングをお楽しみください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 12/25/2023 \"Protect your Robot with a Password\""
+"msgstr "週 12/25/2023 「ロボットにパスワードで保護する」""
+
+#: ../../source/tech_tips/tech-tips.rst:1623
+msgid ""
+"This week’s Tech Tip of the Week is a gentle reminder that strong passwords "
+"and regular backups make for good competition. Even when competing at a "
+"Scrimmage before your competition season starts, be sure to change your Wi-"
+"Fi password on your Control Hub from the default password of “password” to "
+"something only your team knows. Anyone who knows your password can easily "
+"gain access to your robot and change or delete your programs, change "
+"important settings, or even force your controller to revert to factory "
+"settings! And with that said, it’s ALWAYS a good idea to keep backups of "
+"your programs - it’s especially important to regularly :ref:`download all "
+"Blocks "
+"<programming_resources/tutorial_specific/blocks/managing_opmodes/managing-"
+"opmodes:downloading an opmode>` and OnBot Java programs that are normally "
+"only stored on the robot in case anything happens!"
+"msgstr """
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 12/18/2023 \"Automatic Auto to Driver Control Program Switching\""
+"msgstr "週12月18日 \"自動運転からドライバー制御プログラムへの切り替え\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1641
+msgid ""
+"Did you know that it’s possible for the Driver Station to "
+":ref:`automatically load your Driver Controlled OpMode "
+"<programming_resources/shared/auto_load_opmode/auto-load-"
+"opmode:Automatically Loading a Driver Controlled Op Mode>` as soon as your "
+"Autonomous OpMode has completed? Lots of teams go into panic mode "
+"immediately after Autonomous has completed - they’re trying to navigate and "
+"select the proper Driver Controlled OpMode, Initialize, and Run the OpMode "
+"while also picking up their gamepads and preparing to drive. Skip all that "
+"panic and confusion and let the Driver Station queue up your Driver "
+"Controlled OpMode for you! This week’s Tech Tip of the Week focuses on how "
+"to :ref:`designate a Driver-Controlled OpMode "
+"<programming_resources/shared/auto_load_opmode/auto-load-"
+"opmode:Automatically Loading a Driver Controlled Op Mode>` that is to be "
+"loaded once an Autonomous OpMode has completed. You still have to initialize"
+" and run the OpMode at the proper time, but at least the Driver Station can "
+"do the heavy lifting of swapping and loading the OpMode for you!"
+"msgstr """
+"Driver Station は、自動運転モードが完了した直後 :ref:`ドライバー制御されたオペレーションモードを自動的に読み込むことが可能 "
+"<programming_resources/shared/auto_load_opmode/auto-load-"
+"opmode:ドライバー制御されたオペレーションモードの自動読み込み>` です。多くのチームは、自動運転が完了した後すぐにパニック状態になります - "
+"ゲームパッドを取り扱い、ドライバーコントロールされたオペレーションモードを選択し、初期化し、オペレーションモードを実行しようとしながら混乱しています。そんなパニックと困惑を避けて、Driver"
+" Station がドライバー制御されたオペレーションモードの読み込みを行うよう設定してみてください！今週のテックヒントは、自動運転モードが完了した後 "
+":ref:`ドライバーコントロールされたオペレーションモードを指定する方法 "
+"<programming_resources/shared/auto_load_opmode/auto-load-"
+"opmode:ドライバー制御されたオペレーションモードの自動読み込み>` "
+"を説明しています。まだ適切なタイミングで初期化し、オペレーションモードを実行する必要がありますが、少なくともDriver Station "
+"はオペレーションモードの切り替えと読み込みの重い作業を代行してくれます！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 12/11/2023 \"Using Servos with the Control/Expansion Hubs\""
+"msgstr "週 12/11/2023 \"Control/拡張ハブを使用したサーボの活用\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1661
+msgid ""
+"In case you missed it (ICYMI) there was a fantastic `question on the FTC-QA "
+"<https://ftc-qa.firstinspires.org/qa/229>`__ that prompted an in-depth "
+"discussion about servos in FIRST Tech Challenge - the question was in regard"
+" to servo compatibility and operation/performance on a REV Control Hub, REV "
+"Expansion Hub, and REV Servo Power Module. While the full explanation was "
+"too much for a Q&A answer, the complete answer was provided on the `FTC-"
+"Community forums <https://ftc-community.firstinspires.org/t/rev-control-hub-"
+"servo-port-compatibility/858>`__. If you are using servos (or want to use "
+"servos) on your robot, the full answer contains an explanation of how servos"
+" are managed on a Control and Expansion Hub that you cannot get anywhere "
+"else!"
+"msgstr """
+"In case you missed it (ICYMI) に漏れがあった場合、FIRST Tech ChallengeのFTC-QAで素晴らしい `質問 <https://ftc-qa.firstinspires.org/qa/229>`__ が投稿され、サーボに関する深い議論を促しました。この質問はREV Control Hub、REV Expansion Hub、そしてREV Servo Power Moduleにおけるサーボの互換性と動作/性能についてでした。完全な説明はQ&A形式では長すぎたため、完全な答えは `FTC-Communityフォーラム <https://ftc-community.firstinspires.org/t/rev-control-hub-servo-port-compatibility/858>`__ に掲載されています。ロボットでサーボを使用しているか、または使用したい場合は、この完全な回答には他處無比的解释，说明了如何在Control和Expansion Hub上管理伺服器的信息！\n"
+"\"\"\"\n"
+"注：原文の改行とインデントを保持するために、日本語の翻訳も適切に改行しています。ただし、日本語では原文よりも長い場合がありますので、可能な限り自然な表現に調整しています。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 12/04/2023 \"Using Encoders\""
+"msgstr "2023年12月4日週「エンコーダーの使用」""
+
+#: ../../source/tech_tips/tech-tips.rst:1677
+msgid ""
+"This week’s Tech Tip of the Week highlights proper encoder use within the "
+"FIRST Tech Challenge SDK. Encoders are the devices that track how much a "
+"motor shaft has rotated, which the vast majority of motors used in FIRST "
+"Tech Challenge have built-in. The encoders on the motors can help track a "
+"motor, but they can also be used to help synchronize and control motors via "
+"“Motor Modes” built into the Control and Expansion Hub firmware. Did you "
+"know that most programmers use these motor modes incorrectly? More on these "
+"“Motor Modes” and the correct way to use them can be found on the `REV "
+"Robotics Encoder documentation <https://docs.revrobotics.com/duo-"
+"control/programming/using-encoder-feedback>`__."
+"msgstr """
+"この週のTech Tipでは、FIRST Tech Challenge SDK内で適切なエンコーダ使用方法を紹介します。エンコーダは、 FIRST "
+"Tech "
+"Challengeで使用される大半のモーターに内蔵されている回転量を追跡するデバイスです。モーター上のエンコーダはモーターの追跡に役立ちますが、Control"
+" and Expansion Hubファームウェアに組み込まれた「Motor "
+"Modes」を使用することで、同期やモーター制御にも利用できます。プログラマーがこれらの「Motor "
+"Modes」を誤って使用していることをご存知ですか？詳細については、「REV Robotics Encoderドキュメンテーション "
+"<https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback>`__ を参照してください。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 11/27/2023 \"HuskyLens Intro\""
+"msgstr "週 11月27日 \"ハスキー Lens 介绍\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1692
+msgid ""
+"This week’s Tech Tip of the Week comes to us from Chris Johannesen, 2023 "
+"*FIRST* Tech Challenge Volunteer of the Year and author of many ftc-docs "
+"tutorials. Have you heard of the HuskyLens and want to learn how to properly"
+" connect one to a Control Hub, learn how to use it to detect Team Props, and"
+" use the HuskyLens samples included with SDK 9.0.0 and newer? Chris has this"
+" and more in his :ref:`HuskyLens Tutorial "
+"<devices/huskylens/huskylens:HuskyLens Intro for *FIRST* Tech Challenge>` on"
+" ftc-docs, check it out!"
+"msgstr """
+"本週のTech Tipは、2023年の*FIRST* Tech Challengeボランティアの年間受賞者で、多くのftc-"
+"docsチュートリアルを執筆したクリス・ヨハンネセンからお届けします。HuskyLensという製品をご存知ですか？コントロールハブに適切に接続する方法や、チームプロップを検出する方法、SDK"
+" 9.0.0以降に含まれるサンプルを使用する方法について学びたいですか？クリスは、*FIRST* Tech "
+"Challenge向けのHuskyLens入門 :ref:`チュートリアル <devices/huskylens/huskylens:HuskyLens"
+" Intro for *FIRST* Tech Challenge>` をftc-docsで詳しく解説しています。ぜひご覧ください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 11/13/2023 \"Robot and Driver Station Self-Inspect\""
+"msgstr "2023年11月13日週「ロボットとドライバーステーションの自己診断」""
+
+#: ../../source/tech_tips/tech-tips.rst:1705
+msgid ""
+"This Week’s Tech Tip of the Week is here to help teams prepare for "
+"inspection at their events. Aside from making sure that your robot is within"
+" the Maximum Starting Size, ensuring that your robot code can correctly pass"
+" Robot Inspection, and other tasks in the `Robot Inspection Checklist "
+"<https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-"
+"check>`__, teams need to make sure their robot software and hardware apps "
+"are updated to the latest and greatest versions and that their hardware is "
+"configured correctly. There is a tool within the Driver Station App 3-dot "
+"menu called the “Self-Inspect” feature that can help teams perform a quick "
+"check to ensure their hardware and software is configured correctly. "
+"Depending on your hardware configuration the Self-Inspect screens may be "
+"formatted differently or have different options listed, so :ref:`there is a "
+"handy reference on ftc-docs "
+"<hardware_and_software_configuration/self_inspect/new-self-inspect:*FIRST* "
+"Tech Challenge Self-Inspect>` that can help you understand the Self-Inspect "
+"tool. Make sure you’re ready for inspection!"
+"msgstr ""
+"This Week’s Tech Tip of the Week is here to help teams prepare for inspection at their events. Aside from making sure that your robot is within the Maximum Starting Size, ensuring that your robot code can correctly pass Robot Inspection, and other tasks in the `Robot Inspection Checklist <https://ftc-resources.firstinspires.org/ftc/archive/2026/event/inspection-check>`__, teams need to make sure their robot software and hardware apps are updated to the latest and greatest versions and that their hardware is configured correctly. There is a tool within the Driver Station App 3-dot menu called the “Self-Inspect” feature that can help teams perform a quick check to ensure their hardware and software is configured correctly. Depending on your hardware configuration the Self-Inspect screens may be formatted differently or have different options listed, so :ref:`there is a handy reference on ftc-docs <hardware_and_software_configuration/self_inspect/new-self-inspect:*FIRST* Tech Challenge Self-Inspect>` that can help you understand the Self-Inspect tool. Make sure you’re ready for inspection!"
+""
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 11/06/2023 \"Driver Hub or Smartphone?\""
+"msgstr "週11月6日 \"ドライバーハブまたはスマートフォン？\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1726
+msgid "**REV Driver Hub or Smartphone?**"
+"msgstr "**REV ドライバーハブやスマートフォン？**""
+
+#: ../../source/tech_tips/tech-tips.rst:1728
+msgid ""
+"This week's Tech Tip of the Week briefly discusses the pros and cons of "
+"Smartphones versus the Driver Hub. Which one should you use? Are there "
+"hidden benefits or perils for using one over the other?"
+"msgstr """
+"今週のTech "
+"Tipは、スマートフォンとドライバーハブの利点と欠点について簡単に説明しています。どちらを使用するべきでしょうか？一方を選択する際には隠された利点やリスクはありませんか？"
+
+#: ../../source/tech_tips/tech-tips.rst:1732
+msgid ""
+"The REV Driver Hub is the standard *FIRST* Tech Challenge Driver Station "
+"hardware device. It boasts three USB-A ports for plugging in gamepads, a "
+"USB-C port used for communication and charging, a large touch screen, and an"
+" unused Ethernet port (for future-proofing). This device runs the Android "
+"operating system, maintained by REV Robotics, and uses Wi-Fi to communicate "
+"with the REV Control Hub."
+"msgstr """
+"The REV Driver Hubは、標準的なFIRST Tech "
+"Challengeドライバーステーションのハードウェアデバイスです。ゲームパッドを3つのUSB-Aポートで接続できるほか、通信と充電用にUSB-"
+"Cポートも備えています。大きなタッチスクリーンがあり、未使用のイーサネットポートも設けられており（将来対応のために）。このデバイスはREVロボティクスによって維持されるAndroidオペレーティングシステムを実行し、Wi-"
+"Fiを使ってREVコントロールハブと通信を行います。"
+
+#: ../../source/tech_tips/tech-tips.rst:1739
+msgid "**Driver Hub Pros**"
+"msgstr "**ドライバーハブプロス**""
+
+#: ../../source/tech_tips/tech-tips.rst:1741
+msgid ""
+"Driver Hub and Control Hub combo use 802.11w for communications. No approved"
+" Smartphone supports 802.11w communications."
+"msgstr """
+"ドライバーハブとコントロールハブの組み合わせでは、802.11wを使用して通信を行います。承認されたスマートフォンは802.11wによる通信をサポートしていません。"
+
+#: ../../source/tech_tips/tech-tips.rst:1744
+msgid ""
+"802.11w offers encryption of control packets, which prevents many Wi-Fi "
+"attacks by remote routers/devices."
+"msgstr "802.11w は制御パケットの暗号化を提供し、これにより遠隔のルーターやデバイスからの多くのWi-Fi攻撃を防止します。""
+
+#: ../../source/tech_tips/tech-tips.rst:1747
+msgid ""
+"Driver Hub is a \"standard\" *FIRST* Tech Challenge Driver Station device, "
+"which provides long-term support for *FIRST* Tech Challenge. The average "
+"SmartPhone is deprecated within 2 years after being released, but the Driver"
+" Hub is supported as long as it's legal to use in *FIRST* Tech Challenge."
+"msgstr """
+"ドライバーハブは、「標準」の*FIRST* Tech Challenge ドライバー・ステーションデバイスで、*FIRST* Tech "
+"Challengeに対する長期的なサポートを提供します。平均的なスマートフォンは発売から2年後に廃止されますが、ドライバーハブは*FIRST* Tech"
+" Challengeで使用が合法的である限りサポートされます。"
+
+#: ../../source/tech_tips/tech-tips.rst:1753
+msgid ""
+"Driver Hub has a USB-C port, which allows for charging while it's being "
+"used."
+"msgstr "ドライバーハブにはUSB-Cポートがあり、使用中でも充電が可能です。""
+
+#: ../../source/tech_tips/tech-tips.rst:1756
+msgid ""
+"USB-C port allows use of external battery packs, which are necessary for "
+"sustained use of PS4 and PS5 gamepads which leech power from the Driver "
+"Station to charge their own internal batteries."
+"msgstr """
+"USB-"
+"Cポートでは、ドライバーステーションから電力を吸収して内部バッテリーを充電するPS4およびPS5ゲームパッドの持続的な使用に必要な外部バッテリーパックを使用できます。"
+
+#: ../../source/tech_tips/tech-tips.rst:1760
+msgid ""
+"A single 10,000mAh External battery pack allows Control Hub to be used non-"
+"stop over the course of an entire day."
+"msgstr "単一の10,000mAh外部バッテリーパックにより、コントロールハブは一日中連続して使用可能になります。""
+
+#: ../../source/tech_tips/tech-tips.rst:1763
+msgid ""
+"Driver Hub has 3 USB-A ports, so no external USB hubs and additional cables "
+"are required for using multiple USB gamepads. This makes the Driver Hub very"
+" compact and easy to manage."
+"msgstr """
+"ドライバーハブには3つのUSB-"
+"Aポートがあり、複数のUSBゲームパッドを使用するための外部USBハブや追加のケーブルは必要ありません。これにより、ドライバーハブは非常にコンパクトで管理も簡単になります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1767
+msgid "**Driver Hub Cons**"
+"msgstr "**ドライバー・ハブ コンソール**""
+
+#: ../../source/tech_tips/tech-tips.rst:1769
+msgid "Driver Hub still has Power Management issues"
+"msgstr "ドライバーハブに電源管理の問題が依然残っています""
+
+#: ../../source/tech_tips/tech-tips.rst:1771
+msgid ""
+"Driver Hub needs battery compartment tweak to ensure internal battery makes "
+"good connection. Foam insert in battery compartment helps, but doesn't "
+"always perfectly fix the problem."
+"msgstr """
+"ドライバーハブには、内部バッテリーと良好な接続を確保するためのバッテリーコンパートメントの調整が必要です。バッテリーコンパートメント内のフォームインサートは役立ちますが、問題を完全に解決しないこともあります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1775
+msgid ""
+"Driver Hub cannot boot if the internal battery is too low, even if plugged "
+"into external battery. If battery dies, troubleshooting requires removal of "
+"battery to power device."
+"msgstr """
+"内部バッテリーが低電圧の場合は、ドライバーハブは外部バッテリーに接続されている場合でも起動できません。バッテリーが切れると、デバイスを動作させるためにバッテリーの取り外しが必要となるため、トラブルシューティングが必要です。"
+
+#: ../../source/tech_tips/tech-tips.rst:1779
+msgid "Power Management bugs can drain battery while charging."
+"msgstr "電力管理のバグは充電中にもバッテリーを消費する可能性があります。""
+
+#: ../../source/tech_tips/tech-tips.rst:1781
+msgid "Driver Hub USB ports are fragile"
+"msgstr "ドライバーハブのUSBポートは壊れやすいです""
+
+#: ../../source/tech_tips/tech-tips.rst:1783
+msgid ""
+"Teams carrying their Driver Hubs around without a Driver Station tray (NOT "
+"RECOMMENDED) have dropped their Driver Hubs with gamepads plugged in, and "
+"impact can damage USB-A ports."
+"msgstr """
+"チームはドライバーハブを持ち運ぶ際に、ドライバーステーションのトレイがないと（推奨されていません）ドライバーハブをゲームパッドが挿入された状態で落としてしまい、衝撃によりUSB-"
+"Aポートに損傷が生じる可能性があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1787
+msgid "Display screen ribbon cable comes loose"
+"msgstr "表示画面リボンケーブルが外れております""
+
+#: ../../source/tech_tips/tech-tips.rst:1789
+msgid ""
+"If the screen stops working, opening the back of the device and re-seating "
+"the screen ribbon cable can sometimes fix screen issues."
+"msgstr "画面が正常に動作しなくなった場合、デバイスの後ろを開き、画面 Ribbon ケーブルを再座席させることで問題を解決することができる有时。""
+
+#: ../../source/tech_tips/tech-tips.rst:1792
+msgid ""
+"Turning off the display unloads gamepad drivers, but turning the display "
+"back on does not reload them. USB devices must be re-plugged in order to "
+"trigger USB driver loading."
+"msgstr """
+"ディスプレイをオフにするとゲームパッドドライバがアンロードされますが、ディスプレイを再びオンにしてもドライバはリロードされません。USBデバイスはUSBドライバの読み込みをトリガするため、再度挿入する必要があります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1796
+msgid ""
+"USB-C to USB-C cables do not work with Driver Hub. USB-A to USB-C cables are"
+" required in order to use the USB-C port."
+"msgstr """
+"USB-CからUSB-Cのケーブルはドライバーハブと互換ありません。USB-Cポートを使用するには、USB-AからUSB-Cのケーブルが必要です。"
+
+#: ../../source/tech_tips/tech-tips.rst:1799
+msgid ""
+"On the other hand, several off-the-shelf SmartPhones are supported, "
+"including the Motorola Moto E4 and Moto E5 phones. These devices, like the "
+"REV Driver Hub, run the Android mobile operating system and use Wi-Fi to "
+"talk to the REV Control Hub (therefore no SIM card or cell plan is "
+"required). SmartPhones use USB-OTG to interface with gamepads and external "
+"USB hubs necessary for operating multiple gamepads."
+"msgstr """
+"一方、いくつかのオフザシェルフのスマートフォンもサポートされており、モトローラ "
+"モトE4とモトE5の電話も含まれます。これらのデバイスはREVドライバーハブと同じく、Androidモバイルオペレーティングシステムを実行し、Wi-"
+"Fiを使ってREVコントロールハブと通信するため（したがってSIMカードや携帯電話プランは必要ありません）。スマートフォンはUSB-"
+"OTGを使用してゲームパッドと複数のゲームパッドを操作するために必要な外部USBハブとインターフェースします。"
+
+#: ../../source/tech_tips/tech-tips.rst:1806
+msgid "**SmartPhone Pros**"
+"msgstr ""
+"**スマートフォンプロス**"
+""
+
+#: ../../source/tech_tips/tech-tips.rst:1808
+msgid ""
+"SmartPhones are typically cheaper than Driver Hubs, and generally survive "
+"being dropped better."
+"msgstr "スマートフォンは通常、ドライバーハブよりも安価で、落下した時により長持ちします。""
+
+#: ../../source/tech_tips/tech-tips.rst:1811
+msgid ""
+"SmartPhones don't have the same power management issues that Driver Hubs are"
+" known to have."
+"msgstr "スマートフォンは、ドライバー・ハブが知られるような電源管理上の問題には対応していません。""
+
+#: ../../source/tech_tips/tech-tips.rst:1814
+msgid ""
+"Some teams report having better Wi-Fi consistency with SmartPhones than "
+"Driver Hubs, though that has not been verified or debunked in any way."
+"msgstr """
+"一部のチームは、スマートフォンの方がドライバーハブよりもより良いWi-"
+"Fiの連続性があると報告していますが、その事実は確認されていませんし、証明されたり否定されることもありません。"
+
+#: ../../source/tech_tips/tech-tips.rst:1817
+msgid "**SmartPhone Cons**"
+"msgstr "**スマートフォン用コンソール**""
+
+#: ../../source/tech_tips/tech-tips.rst:1819
+msgid ""
+"There are only a small number of approved Android Smartphones, none of which"
+" are still supported by the manufacturers of the phones."
+"msgstr "認可されたAndroidスマートフォンは少数で、これらはすべて製造元からサポートされていません。""
+
+#: ../../source/tech_tips/tech-tips.rst:1822
+msgid ""
+"SmartPhones are deprecated typically within 2 years after being released. "
+"Security updates and OS updates are not guaranteed."
+"msgstr "スマートフォンは通常、発売から約2年以内に非推奨とされます。セキュリティアップデートやOSアップデートは保証されません。""
+
+#: ../../source/tech_tips/tech-tips.rst:1825
+msgid ""
+"The number of approved SmartPhones are dwindling, and SmartPhones are "
+"becoming increasingly difficult to obtain. New SmartPhones are not being "
+"approved to replace older ones."
+"msgstr """
+"認可されたスマートフォンの数が減少しており、スマートフォンはますます入手困難になっています。新しいスマートフォンは古いやつを置き換えるための認可が取られていません。"
+
+#: ../../source/tech_tips/tech-tips.rst:1829
+msgid ""
+"Android is not a consistent platform in the Mobile Phone industry. Each "
+"manufacturer, and sometimes even within product families, will produce their"
+" own \"flavor\" of Android which has different software requirements and "
+"behaviors. Supporting the different manufacturers in the changing Android "
+"landscape is near impossible."
+"msgstr """
+"モバイル電話業界では、Androidは一貫性のないプラットフォームです。各メーカーは、時には同じ製品ファミリ内でも、独自の「味付け」のAndroidを提供し、異なるソフトウェア要件と動作があります。変化するAndroidの風景に対応する不同的なメーカーのサポートはほぼ不可能です。"
+
+#: ../../source/tech_tips/tech-tips.rst:1835
+msgid ""
+"There is very little consistency between smartphones of the same model sold "
+"in different countries - each will have their own firmware with their own "
+"quirks, often impossible to debug or avoid."
+"msgstr """
+"同じモデルのスマートフォンでも、異なる国で販売されているものは非常に一貫性がありません - "
+"各機種は独自のファームウェアを持っており、その特徴は多くの場合、デバッグできずあるいは避けることが困難です。"
+
+#: ../../source/tech_tips/tech-tips.rst:1839
+msgid ""
+"*FIRST* Tech Challenge is not enough of a volume consumer to be able to set "
+"requirements or have partnerships with SmartPhone manufacturers."
+"msgstr "*FIRST* Tech Challengeはスマートフォン製造業者との要件設定や提携を可能にするほどの需要量が足りない。""
+
+#: ../../source/tech_tips/tech-tips.rst:1842
+msgid ""
+"SmartPhones cannot use 802.11w for encryption of Wi-Fi control packets, "
+"which makes the connection between devices vulnerable. Rogue Access Point "
+"Detection and Quarantine features within venue network security systems "
+"(like within schools and other venues) can interrupt these communications "
+"seemingly randomly, making connections difficult to maintain."
+"msgstr """
+"スマートフォンはWi-"
+"Fi制御パケットの暗号化に802.11wを使用できず、これによりデバイス間の接続が脆弱になります。場所ネットワークセキュリティシステム（学校やその他の場所内など）で実装されている不正アクセスポイント検出および隔離機能は、これらの通信を突然に中断することがあり、接続を維持するのが難しくなります。"
+
+#: ../../source/tech_tips/tech-tips.rst:1848
+msgid ""
+"SmartPhones cannot be used at the same time they're being charged, so teams "
+"frequently run down the internal batteries on the phones during the course "
+"of an event. Careful battery management is required."
+"msgstr """
+"スマートフォンは充電中には使用できませんので、チームはイベント中にスマートフォンの内蔵バッテリーを頻繁に使い切ります。慎重なバッテリーマネジメントが必要です。"
+
+#: ../../source/tech_tips/tech-tips.rst:1852
+msgid ""
+"PS4 and PS5 gamepads with internal batteries will further drain the "
+"SmartPhone batteries, as they leech power from the Driver Station in order "
+"to maintain a full charge level for their own batteries."
+"msgstr """
+"PS4やPS5の内蔵バッテリー付きゲームパッドは、スマートフォンのバッテリーをさらに消費します。これらのゲームパッドは、自身のバッテリーにフル充電レベルを維持するためにドライバー・ステーションから電力を引き抜きます。"
+
+#: ../../source/tech_tips/tech-tips.rst:1856
+msgid ""
+"SmartPhones require USB-OTG cables and external USB Hubs are also required "
+"in order to use multiple gamepads, and each cable/connection and device is a"
+" potential source of failure. Extreme care must be taken to ensure the "
+"connections remain solid."
+"msgstr """
+"スマートフォンはUSB-"
+"OTGケーブルが必要で、ゲームパッドを複数使用する場合は外部USBハブも必要です。各ケーブル/接続とデバイスは故障の可能性のある要素となります。接続が堅固に保たれるように極めて注意深く取り扱う必要があります。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 10/30/2023 \"Computer Requirements\""
+"msgstr "2023年10月30日から1週間 'コンピュータの要件""
+
+#: ../../source/tech_tips/tech-tips.rst:1865
+msgid ""
+"This week’s Tech Tip of the Week focuses on required computer hardware for "
+"*FIRST* programs. If you’re looking to buy a laptop and want to make sure "
+"you meet the minimum requirements for the program you’re participating in, "
+"like *FIRST* Tech Challenge, this tech tip is for you! There is a new "
+":ref:`Computer Requirements <programming_resources/laptops/laptops:Computer "
+"Requirements for *FIRST* Programs>` document on ftc-docs that provides a "
+"cross-program view of the laptop requirements for all *FIRST* programs. It "
+"also has examples of the different laptops and a list of the required "
+"features needed for each program. Check it out!"
+"msgstr """
+"この週のテックヒントは、*FIRST*プログラムに必要なコンピューターハードウェアについて焦点を当てています。参加しているプログラム、たとえば*FIRST*"
+" Tech "
+"Challengeで最低限の要件を満たすためにノートパソコンを購入したい場合、このテックヒントが役立ちます！新しい:ref:`コンピューターリクエリームент"
+" <programming_resources/laptops/laptops:コンピューターリクエリームメント for *FIRST* "
+"プログラム>`ドキュメントは、すべての*FIRST*プログラムのノートパソコン要件を横断的に示しています。また、異なるノートパソコンの例と、各プログラムで必要な機能の一覧も掲載されています。チェックしてみてください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 10/23/2023 \"Control and Expansion Hub Tips\""
+"msgstr "週10月23日 \"制御と拡張ハブのヒント\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1879
+msgid ""
+"This week’s Tech Tip of the Week provides useful tips when using Control and"
+" Expansion Hubs."
+"msgstr """
+"この週のTech Tip of the Weekは、Control HubやExpansion Hubを使用する際の有用なヒントを提供しています。"
+
+#: ../../source/tech_tips/tech-tips.rst:1882
+msgid ""
+"The RS485 data cable ports that provide data between Control and Expansion "
+"Hubs are redundant - you can use two data cables utilizing both ports to "
+"ensure that if one cable fails communications aren’t lost."
+"msgstr """
+"ControlとExpansion Hub間のデータ間のRS485データケーブルポートは冗長構成となっています - "
+"どちらのポートも利用して2本のケーブルを使用することで、1本のケーブルが故障しても通信が途切れないように確保できます。"
+
+#: ../../source/tech_tips/tech-tips.rst:1886
+msgid ""
+"Encoder ports 0 and 3 are hardware-counted, but ports 1 and 2 are software-"
+"counted. This means higher counts-per-revolution encoders (like the REV "
+"Through-Bore Encoder) should be placed on Ports 0 or 3 to ensure counts "
+"aren’t missed, and lower counts-per-revolution encoders (like the goBILDA "
+"Odometry Pods or most motors) can be connected to any port."
+"msgstr """
+"エンコーダポート0と3はハードウェアでカウントされますが、ポート1と2はソフトウェアでカウントされます。这意味着每转计数较高的编码器（如REV Through-Bore Encoder）应连接到端口0或3以确保不会错过计数，而每转计数较低的编码器（如goBILDA Odometry Pods或大多数电机）可以连接到任何端口。\n"
+"\"\"\"\n"
+"\n"
+"この翻訳は、Sphinx POファイルの構造を保持し、専門用語や固有名詞を原文のままにしています。また、丁寧語を使用し、自然な日本語で表現しています。"
+
+#: ../../source/tech_tips/tech-tips.rst:1892
+msgid ""
+"Servo port pairs (0,1), (2, 3), and (4,5) each share a common power supply, "
+"so if you’re using higher-current servos (like a goBILDA torque servo) "
+"directly on the Control or Expansion Hub you should only use ports (0, 2, 4)"
+" or (1, 3, 5) in order to maximize the power available to each servo. If you"
+" need to use more than 3 high-current servos per hub, consider using a `REV "
+"Servo Power Module <https://www.revrobotics.com/rev-11-1144/>`__."
+"msgstr """
+"サーボポートペア (0,1), (2, 3), および (4,5) "
+"は共通の電源を共有していますので、制御または拡張ハブに直接接続する高電流サーボ（goBILDAトルクサーボなど）を使用している場合、各サーボに最大限の電力を確保するためにポート"
+" (0, 2, 4) や (1, 3, 5) のみを使用することをお勧めします。各ハブで3基以上の高電流サーボを使用する必要がある場合は、`REV "
+"サーボ電源モジュール <https://www.revrobotics.com/rev-11-1144/>`__ を使用することを検討してください。"
+
+#: ../../source/tech_tips/tech-tips.rst:1900
+msgid ""
+"Each Digital and Analog sensor connector on the Control and Expansion Hub "
+"each have 2 signal channels. Some REV sensors are only designed to be "
+"configured and used on the N or N+1 channels. Read the documentation for "
+"each sensor carefully!"
+"msgstr """
+"各制御拡張ハブのデジタルおよびアナログセンサ接続は、それぞれ2つのシグナルチャネルを持っています。一部のREVセンサは、NまたはN+1チャネルのみで構成と使用が可能です。各センサのドキュメントを慎重に読みましょう！"
+
+#: ../../source/tech_tips/tech-tips.rst:1905
+msgid ""
+"The USB 2.0 port shares the same USB bus as the internal Control Hub radio. "
+"ESD or other electrical interference that affects devices (like webcams) "
+"plugged into that port may cause a loss of communications. When using a USB "
+"webcam, use the USB 3.0 port first."
+"msgstr """
+"The USB "
+"2.0ポートは内部制御ハブ無線と同じUSBバスを使用しています。そのポートにプラグインされたデバイス（ウェブカメラなど）に影響を与えるESDや他の電気的干渉が原因で通信の遮断が発生する可能性があります。USBウェブカメラを使用する場合は、まずUSB"
+" 3.0ポートを使用してください。"
+
+#: ../../source/tech_tips/tech-tips.rst:1910
+msgid ""
+"USB C-to-C cables do not work properly with the Control Hub, only USB A-to-C"
+" cables do."
+"msgstr "USB C-to-Cケーブルは制御ハブと正しく動作せず、只有USB A-to-Cケーブルを使用してください。""
+
+#: ../../source/tech_tips/tech-tips.rst:1913
+msgid ""
+"If you’re utilizing the onboard IMU, Do not plug I2C devices into Port 0 "
+"unless absolutely necessary. Port 0 shares an I2C bus with the IMU, and "
+"misbehaving devices (or devices that don’t “play well with others”) plugged "
+"into Port 0 can cause the IMU to stop communicating."
+"msgstr """
+"もしオンボードIMUを使用している場合、絶対に必要不可欠な場合は除き、ポート0にはI2Cデバイスを接続しないでください。ポート0はIMUと共用のI2Cバスを使用しており、ポート0に接続された不適切な動作を行うデバイス（または互換性のないデバイス）はIMUとの通信を停止させる可能性があります。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 10/16/2023 \"Battery Maintenance Tips\""
+"msgstr "週10月16日（水）\"バッテリーのメンテナンスタイプ\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1922
+#, python-format
+msgid ""
+"This week’s Tech Tip of the Week is an extension to our first-ever Tech Tip "
+"of the Week regarding battery maintenance. Nickel-Metal Hydride (NiMH or Ni-"
+"MH) batteries, like those used in FIRST Tech Challenge, do require periodic "
+"maintenance to keep them healthy! Every day, NiMH batteries lose on average "
+"1% of their charge capacity at normal room temperature - at colder "
+"temperatures this decline slows a bit but does not stop it. This means that "
+"every 2-3 months it’s important to recharge your batteries to keep them "
+"healthy - there is no off-season for batteries! It’s also recommended to "
+"mark your batteries with tape and a sharpie to mark (1) Your team number "
+"(never lose a battery at a competition!), (2) What year the battery was "
+"purchased, (3) Give your batteries names so you can differentiate batteries "
+"easily, and (4) optionally provide a tick mark each time the battery is "
+"recharged. NiMH batteries can generally last 200-300 recharge cycles before "
+"their internal resistance declines to the point where it’s time to replace "
+"them, and keeping track of charge cycles is an easy way to track how “used” "
+"the battery is before needing to have its internal resistance checked."
+"msgstr """
+"この週のテックヒントは、初めてのテックヒントであるバッテリー管理に関するものに拡張されています。FIRST Tech "
+"Challengeで使用されるようなニッケルメタルハイドライド（NiMHまたはNi-"
+"MH）バッテリーは、定期的なメンテナンスが必要です！通常の室温では、毎日平均1%の充電容量が失われます。温度が低い場合でもこの減少は少し遅れるかもしれませんが、完全には止まりません。これは、2〜3ヶ月ごとにバッテリーを再充電して健康に保つことが重要であることを意味します"
+" - バッテリーにはオフシーズンはありません！また、テープとシャープペンでバッテリーにマークを付けることを推奨します。1) "
+"運動会の番号（競技会でバッテリーを失わないように）、2) バッテリーが購入された年、3) バッテリーに名前を付け、簡単に区別できるようにする、4) "
+"オプションでは、バッテリーを再充電するたびにチェックマークを付けることも推奨します。NiMHバッテリーは一般的には200〜300回の充放電サイクルで内部抵抗が交換時期になるまで持つことができ、充電サイクルを追跡することは、内部抵抗を確認する前にバッテリーがどれだけ使用されているかを追跡する簡単な方法です。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 10/09/2023 \"Hardware Connection Diagrams\""
+"msgstr "週10月9日〜15日 \"ハードウェア接続図\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1943
+msgid ""
+"Have you ever asked, “How does that get connected?” when working with "
+"*FIRST* Tech Challenge control system components? This Tech Tip of the Week "
+"highlights Stefen Acepcion of *FIRST* Robotics Competition Team 3161 - he "
+"has graciously compiled several connection diagrams that demonstrate "
+"different ways that common components can be connected within the *FIRST* "
+"Tech Challenge control system.  :ref:`Driver Station connection diagrams "
+"<control_hard_compon/ds_components/index:Driver Station Overview>` (both "
+"Driver Hub and Android Smartphone configurations) and :ref:`Robot Controller"
+" connection diagrams <control_hard_compon/rc_components/index:Robot "
+"Controller Overview>` (both Control Hub and Android Smartphone "
+"configurations) can be found on ftc-docs. Stefen has contributed additional "
+"diagrams this season, including a new `Advanced REV Control Hub connection "
+"diagram <https://ftc-"
+"docs.firstinspires.org/en/latest/_downloads/4b186ff4e86995d4783883bf72a90474/B2.pdf>`__"
+" and a new `Advanced Smartphone connection diagram <https://ftc-"
+"docs.firstinspires.org/en/latest/_downloads/27dafd353271695f59d8b103142de605/A2.pdf>`__."
+" These diagrams are chock full of helpful tips, connection techniques, and "
+"information you otherwise can’t find in one place - check them out!"
+"msgstr """
+"「その接続方法はどのようにするの？」と*FIRST* Tech Challenge "
+"コントロールシステムの部品を扱っているときに一度は聞いたことがありますか？この週のテックヒントでは、*FIRST* "
+"ロボティクス競技大会チーム3161のステファン・アセピオンが好意的にまとめたいくつかの接続図を紹介します。これらの図は、*FIRST* Tech "
+"Challenge コントロールシステム内で一般的な部品を異なる方法で接続する方法を示しています。 :ref:`ドライバーステーションの接続図 "
+"<control_hard_compon/ds_components/index:Driver Station "
+"Overview>`（ドライバーハブとAndroidスマートフォンの両方の設定）、および :ref:`ロボットコントローラーの接続図 "
+"<control_hard_compon/rc_components/index:Robot Controller "
+"Overview>`（コントロールハブとAndroidスマートフォンの両方の設定）は、ftc-"
+"docsで見つけることができます。ステファンはこのシーズンに追加の図を提供し、新しい「高度なREV コントロールハブ接続図」`<https://ftc-"
+"docs.firstinspires.org/en/latest/_downloads/4b186ff4e86995d4783883bf72a90474/B2.pdf>`__"
+" と新しい「高度なスマートフォン接続図」`<https://ftc-"
+"docs.firstinspires.org/en/latest/_downloads/27dafd353271695f59d8b103142de605/A2.pdf>`__"
+" を含んでいます。これらの図には、役立つヒントや接続技術、そして他の場所で見つからない情報が詰まっています - それらをチェックしてみてください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid ""
+"Week of 10/02/2023 \"Choosing the right Webcam and Calibration Crowd-"
+"sourcing\""
+"msgstr "週 10/02/2023 \"適切なウェブカメラと校正のクラウドソーシングを選択する\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1967
+msgid ""
+"When using AprilTags, choosing the right webcam can save you from having to "
+":ref:`perform your own calibration "
+"<apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:AprilTag Camera Calibration>` before being able to use it for "
+"obtaining :ref:`AprilTag Pose information "
+"<apriltag/vision_portal/apriltag_pose/apriltag-pose:AprilTag Pose>`. This "
+"week’s Tech Tip of the Week explores the new :ref:`Webcams for VisionPortal "
+"<apriltag/vision_portal/visionportal_webcams/visionportal-webcams:Webcams "
+"for Vision Portal>` document that highlights several commonly used webcams "
+"that have calibration data built-in to the SDK itself. Maximum frame rates, "
+"field of view, and supported resolutions with calibration data are all "
+"covered for each of the most common webcams in *FIRST* Tech Challenge.  "
+"Short on time? Be sure to check out the handy :ref:`quick summary "
+"<apriltag/vision_portal/visionportal_webcams/visionportal-webcams:quick "
+"summary>` at the bottom of the page! Did you calibrate your own camera and "
+"determine lens intrinsics for it? Please check out `this FTC-Community post "
+"<https://ftc-community.firstinspires.org/t/sticky-camera-calibration-"
+"crowdsourcing/577>`__ to contribute to the crowd-sourcing effort for "
+"calibration data!"
+"msgstr """
+"AprilTagsを使用する際、適切なウェブカメラを選択することは、事前に自己校正を行う必要がないことを意味します。:ref:`自己校正を実行する必要がある"
+" <apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-"
+"calibration:AprilTag Camera Calibration>` ことなく :ref:`AprilTag Pose情報 "
+"<apriltag/vision_portal/apriltag_pose/apriltag-pose:AprilTag Pose>` "
+"を取得できるようになります。今週のTech Tipは、新しく公開された :ref:`VisionPortal用ウェブカメラ "
+"<apriltag/vision_portal/visionportal_webcams/visionportal-webcams:Webcams "
+"for Vision Portal>` "
+"のドキュメントを探索し、SDK内に校正データが組み込まれている多数の常用ウェブカメラについて説明しています。各一般的なウェブカメラの最大フレームレート、視野角、および校正データ付きのサポート解像度は、「FIRST"
+" Tech Challenge」でカバーされています。時間がない場合は、ページ下部にある便利な :ref:`概要 "
+"<apriltag/vision_portal/visionportal_webcams/visionportal-webcams:quick "
+"summary>` を確認してください！自分のカメラを校正し、レンズの内部パラメータも決定した場合がありますか？ `このFTC-Communityの投稿"
+" <https://ftc-community.firstinspires.org/t/sticky-camera-calibration-"
+"crowdsourcing/577>`__ をチェックして、校正データのクラウドソーシングに貢献してください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 09/25/2023 \"3D Printing Resources on FTC-Docs\""
+"msgstr "週2023年9月25日分 \"FTCドキュメント上の3Dプリンティングリソース\"""
+
+#: ../../source/tech_tips/tech-tips.rst:1991
+msgid ""
+"Do you wish you knew more about 3D printers, filament, and choosing and "
+"maintaining a 3D printer? This week’s Tech Tip of the Week highlights ftc-"
+"docs community contributions from *FIRST* Tech Challenge teams 16461 and "
+"1002 introducing :ref:`3D printing in FIRST Tech Challenge "
+"<manufacturing/3d_printing/index:3D Printing>`. Once you’ve got a 3D "
+"printer, be sure to check out :ref:`Computer Aided Design (CAD) "
+"<cad_resources/index:CAD Resources>` also on ftc-docs to find a CAD package "
+"and start designing and printing parts for your robots!"
+"msgstr """
+"あなたは3Dプリンター、フィラメント、そして3Dプリンターの選択とメンテナンスについてもっと知りたいですか？ 今週のTech Tip of the "
+"Weekでは、*FIRST* Tech "
+"Challengeチーム16461と1002から提供されたコミュニティ貢献を特集しています。:ref:`FIRST Tech "
+"Challengeにおける3Dプリント <manufacturing/3d_printing/index:3D "
+"Printing>`について詳しく知ることができます。3Dプリンターが手元に届いたら、ぜひ :ref:`CAD (Computer Aided "
+"Design) リソース <cad_resources/index:CAD Resources>` "
+"もチェックして、ロボット用の部品を設計し印刷するCADパッケージを見つけてください！"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 09/18/2023 \"Technical Update video by AJ Foster\""
+"msgstr "週2023年9月18日 \"テクニカル・アップデート動画 by AJ Foster\"""
+
+#: ../../source/tech_tips/tech-tips.rst:2004
+msgid ""
+"This week’s Tech Tip of the Week is a Video Tech Tip of the Week from AJ "
+"Foster, *FIRST* Tech Challenge World Championship FTA and Orlando Robotics "
+"League All-Star Volunteer. AJ gives a great synopsis on many of the key "
+"technical updates for the CENTERSTAGE presented by RTX season and some "
+"background on those changes. Watch his video on the *FIRST* Tech Challenge "
+"YouTube Channel here: "
+"https://www.youtube.com/watch?v=uOcVGwdhG3E&feature=youtu.be."
+"msgstr """
+"この週のテックヒントは、AJ Foster 氏によるビデオテックヒントです。彼は *FIRST* Tech "
+"ChallengeワールドチャンピオンシップFTAおよびオ兰迪ロボティクスリーグ全スターボランティアで、CENTERSTAGEを提供するRTXシーズンの多くの重要な技術的な更新内容について素晴らしい概説を行っています。また、これらの変更の背景についても解説しています。彼のビデオは"
+" *FIRST* Tech Challenge YouTubeチャンネルで見ることができます: "
+"https://www.youtube.com/watch?v=uOcVGwdhG3E&feature=youtu.be."
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 09/11/2023 \"Updating the Robot Controller App\""
+"msgstr "週 09/11/2023 \"ロボットコントローラーアプリケーションの更新\"""
+
+#: ../../source/tech_tips/tech-tips.rst:2015
+msgid ""
+"This week’s Tech Tip of the week is all about updating software on your "
+"Control Hub. If you use :ref:`Android Studio "
+"<programming_resources/android_studio_java/Android-Studio-Tutorial:android "
+"studio programming tutorial>`, did you know that you’re not supposed to use "
+"the `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-"
+"client/>`__ to update the Robot Controller (RC) App? Blocks and OnBot Java "
+"programs are stored on the Robot Controller (SmartPhone or Control Hub) "
+"differently than Android Studio programs, and this has a major effect on how"
+" updates can be managed on the device. Read more about this at "
+":ref:`Updating the Robot Controller (RC) App "
+"<ftc_sdk/updating/rc_app/Updating-the-RC-App:Updating the Robot Controller "
+"(RC) App>`."
+"msgstr """
+"今週のTech Tipは、制御ハブ上のソフトウェアを更新する方法についてです。 :ref:`Android Studio "
+"<programming_resources/android_studio_java/Android-Studio-Tutorial:android "
+"studio programming tutorial>` "
+"を使用している場合、ロボットコントローラー（RC）アプリをアップデートするためにREVハードウェアクライアント "
+"`https://docs.revrobotics.com/rev-hardware-client/`__ "
+"を使用するべきではありません。ブロックとOnBot "
+"Javaプログラムは、スマートフォンや制御ハブ上のロボットコントローラー（RC）アプリとは異なる方法で保存されており、これによりデバイス上でアップデートを管理する方法に大きな影響を与えます。詳細については"
+" :ref:`RCアプリの更新 <ftc_sdk/updating/rc_app/Updating-the-RC-App:Updating the "
+"Robot Controller (RC) App>` を参照してください。"
+
+#: ../../source/tech_tips/tech-tips.rst
+msgid "Week of 09/04/2023 \"Battery Charging\""
+"msgstr "2023年09月04日週「バッテリー充電」""
+
+#: ../../source/tech_tips/tech-tips.rst:2030
+msgid ""
+"The *FIRST* Tech Challenge Tech Tip of the week this week is all about "
+"Battery Charging. There are :ref:`three robot main batteries "
+"<control_hard_compon/rc_components/power_distr/power-distr:robot main "
+"battery>` that are legal to use in FIRST Tech Challenge, and they are all "
+"3000mAh NiMH batteries with an attached 20A fuse. However, the manufacturers"
+" of the batteries have different battery chargers and different recommended "
+"charging settings for the batteries. When charging the `TETRIX MAX 12-Volt "
+"battery <https://www.pitsco.com/products/TETRIX-12-Volt-Rechargeable-NiMH-"
+"Battery-Pack>`__, on the battery the manufacturer recommends charging at the"
+" 0.9A charge rate (the lowest setting on most selectable battery chargers) "
+"using the `Global NiMH battery pack charger "
+"<https://www.gobilda.com/battery-charger-nicad-nimh-12-1/>`__.  The `Matrix "
+"12-Volt battery <https://www.gobilda.com/matrix-12v-3000mah-nimh-"
+"battery/>`__ with the same form factor is recommended to be charged with the"
+" `goBILDA 12V battery charger <https://www.gobilda.com/battery-charger-"
+"nicad-nimh-12-1/>`__, which does not have a user-selectable charge rate "
+"switch but has a max charge rate of 1.0A.  However, the `REV 12-Volt Slim "
+"Battery <https://www.revrobotics.com/rev-31-1302/>`__ is recommended to be "
+"charged with the `REV Battery Charger "
+"<https://www.revrobotics.com/rev-31-1299/>`__ using the 1.8A charge rate "
+"setting. To ensure safety, proper charging, and a long battery life, make "
+"sure you’re charging your batteries at the manufacturer’s recommended charge"
+" rates!"
+"msgstr ""
+"The *FIRST* Tech Challenge Tech Tip of the week this week is all about Battery Charging. There are :ref:`three robot main batteries <control_hard_compon/rc_components/power_distr/power-distr:robot main battery>` that are legal to use in FIRST Tech Challenge, and they are all 3000mAh NiMH batteries with an attached 20A fuse. However, the manufacturers of the batteries have different battery chargers and different recommended charging settings for the batteries. When charging the `TETRIX MAX 12-Volt battery <https://www.pitsco.com/products/TETRIX-12-Volt-Rechargeable-NiMH-Battery-Pack>`__, on the battery the manufacturer recommends charging at the 0.9A charge rate (the lowest setting on most selectable battery chargers) using the `Global NiMH battery pack charger <https://www.gobilda.com/battery-charger-nicad-nimh-12-1/>`__. The `Matrix 12-Volt battery <https://www.gobilda.com/matrix-12v-3000mah-nimh-battery/>`__ with the same form factor is recommended to be charged with the `goBILDA 12V battery charger <https://www.gobilda.com/battery-charger-nicad-nimh-12-1/>`__, which does not have a user-selectable charge rate switch but has a max charge rate of 1.0A. However, the `REV 12-Volt Slim Battery <https://www.revrobotics.com/rev-31-1302/>`__ is recommended to be charged with the `REV Battery Charger <https://www.revrobotics.com/rev-31-1299/>`__ using the 1.8A charge rate setting. To ensure safety, proper charging, and a long battery life, make sure you’re charging your batteries at the manufacturer’s recommended charge rates!"
+""

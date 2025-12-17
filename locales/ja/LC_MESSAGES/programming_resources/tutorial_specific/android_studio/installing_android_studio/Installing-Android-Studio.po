@@ -12,68 +12,79 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:2
 msgid "Installing Android Studio :bdg-success:`AS`"
-msgstr ""
+msgstr "Android Studio のインストール :bdg-success:`AS`"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:5
 msgid "Android Developer Website"
-msgstr ""
+msgstr "Android デベロッパー ウェブサイト"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:7
 msgid ""
 "Android Studio is distributed freely by Google, and the most up-to-date "
-"reference for installing and using the Android Studio software can be "
-"found on the Android developer website:"
+"reference for installing and using the Android Studio software can be found "
+"on the Android developer website:"
 msgstr ""
+"Android StudioはGoogleによって無料で配布されており、Android "
+"Studioソフトウェアのインストールと使用方法の最新のリファレンスは、Android開発者ウェブサイトにあります："
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:11
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:50
 msgid "https://developer.android.com/studio"
-msgstr ""
+msgstr "<URL>https://developer.android.com/studio<URL>"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:13
 msgid ""
 "Android Studio is available on the Windows, MacOS, and Linux operating "
 "systems."
-msgstr ""
+msgstr "Android StudioはWindows、MacOS、およびLinuxのオペレーティングシステムで利用可能です。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:17
 msgid "System Requirements"
-msgstr ""
+msgstr "システム要件"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:19
 msgid ""
-"Before you download and install the Android Studio you should first check"
-" the list of system requirements on the Android developer's website to "
-"verify that your system satisfies the list of minimum requirements:"
+"Before you download and install the Android Studio you should first check "
+"the list of system requirements on the Android developer's website to verify"
+" that your system satisfies the list of minimum requirements:"
 msgstr ""
+"Android "
+"スタジオをダウンロードおよびインストールする前に、システム要件のリストを確認し、あなたのシステムが最低限の要件を満たしていることを確認してください。これには"
+" Android 開発者のウェブサイトをご覧ください："
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:23
 msgid ""
 "`Windows <https://developer.android.com/codelabs/basic-android-kotlin-"
 "compose-install-android-studio#1>`__"
 msgstr ""
+"`Windows <https://developer.android.com/codelabs/basic-android-kotlin-"
+"compose-install-android-studio#1>`__"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:24
 msgid ""
-"`MacOS <https://developer.android.com/codelabs/basic-android-kotlin-"
-"compose-install-android-studio#3>`__"
+"`MacOS <https://developer.android.com/codelabs/basic-android-kotlin-compose-"
+"install-android-studio#3>`__"
 msgstr ""
+"`macOS <https://developer.android.com/codelabs/basic-android-kotlin-compose-"
+"install-android-studio#3>`__"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:25
 msgid ""
-"`Linux <https://developer.android.com/codelabs/basic-android-kotlin-"
-"compose-install-android-studio#5>`__"
+"`Linux <https://developer.android.com/codelabs/basic-android-kotlin-compose-"
+"install-android-studio#5>`__"
 msgstr ""
+"`Linux <https://developer.android.com/codelabs/basic-android-kotlin-compose-"
+"install-android-studio#5>`__"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:30
 msgid ""
@@ -82,54 +93,64 @@ msgid ""
 "workspace.  If you install or update an existing installation to Android "
 "Studio Ladybug, you will need to install JDK 17 separately."
 msgstr ""
+"**Android Studio Ladybug** の導入により、Android "
+"StudioにバンドルされたJDKは、FtcRobotControllerワークスペースと互換性がありません。既存のインストールをAndroid "
+"Studio Ladybugに更新する場合、JDK 17を別途インストールする必要があります。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:35
 msgid ""
-"Upon initial load of the FtcRobotController workspace using Android "
-"Studio Ladybug, an error will be displayed during the Gradle sync and "
-"Android Studio will recommend that you upgrade Gradle.  Do not upgrade "
-"Gradle."
+"Upon initial load of the FtcRobotController workspace using Android Studio "
+"Ladybug, an error will be displayed during the Gradle sync and Android "
+"Studio will recommend that you upgrade Gradle.  Do not upgrade Gradle."
 msgstr ""
+"FIRST Robot ControllerのワークスペースをAndroid Studio "
+"Ladybugで最初に読み込むと、Gradle同期中にエラーが表示され、Android "
+"StudioはGradleのアップグレードをお勧めします。Gradleのアップグレードを行わないでください。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:39
 msgid "For more detailed instructions see: Configuring"
-msgstr ""
+msgstr "詳細な手順については、Configuring を参照してください。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:44
 msgid "Downloading and Installing Android Studio"
-msgstr ""
+msgstr "Android Studioのダウンロードとインストール"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:46
 msgid ""
 "Once you have verified that your laptop satisfies the minimum system "
-"requirements, you can go to the Android developer's website to download "
-"and install Android Studio:"
+"requirements, you can go to the Android developer's website to download and "
+"install Android Studio:"
 msgstr ""
+"一旦、あなたのノートブックが最小システム要件を満たしていることを確認したら、Android デベロッパーのウェブサイトに移動し、Android "
+"スタジオをダウンロードしてインストールできます："
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:52
 msgid ""
-"Click on the white \"Download Android Studio <latest version>\" button to"
-" start the download process."
-msgstr ""
+"Click on the white \"Download Android Studio <latest version>\" button to "
+"start the download process."
+msgstr "「Download Android Studio <最新版>」という白いボタンをクリックして、ダウンロードプロセスを開始します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:-1
 msgid "Screenshot of the Android Studio web page"
-msgstr ""
+msgstr "Android Studioのスクリーンショット"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:61
 msgid ""
-"Accept the license terms and then push the white \"Download Android "
-"Studio <latest version> for <operating system>\" button on the Android "
-"Developer webpage to download the software."
+"Accept the license terms and then push the white \"Download Android Studio "
+"<latest version> for <operating system>\" button on the Android Developer "
+"webpage to download the software."
 msgstr ""
+"利用規約に同意し、次にAndroid開発者ウェブページ上の白い「INIT Download Android Studio <最新バージョン> 用 "
+"<オペレーティングシステム>」ボタンを押してソフトウェアをダウンロードしてください。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:65
 msgid ""
-"Once the setup package has downloaded, launch the application and follow "
-"the on-screen instructions to install Android Studio."
+"Once the setup package has downloaded, launch the application and follow the"
+" on-screen instructions to install Android Studio."
 msgstr ""
+"セットアップパッケージのダウンロードが完了したら、アプリケーションを起動し、画面内の指示に従ってAndroid "
+"Studioのインストールを行ってください。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:-1
 msgid "Android Studio Setup screen"
-msgstr ""
-
+msgstr "Android Studio設定画面"

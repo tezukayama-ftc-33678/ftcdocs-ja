@@ -12,242 +12,254 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:2
 msgid "Sensors"
-msgstr ""
+msgstr "センサーズ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:4
 msgid ""
-"Listed below are some examples of common robot sensors. While the *FIRST*"
-" Tech Challenge SDK supports many sensors not all are natively supported."
+"Listed below are some examples of common robot sensors. While the *FIRST* "
+"Tech Challenge SDK supports many sensors not all are natively supported."
 msgstr ""
+"以下に、一般的なロボットセンサの例をいくつか挙げます。*FIRST* Tech Challenge "
+"SDKは多くのセンサをサポートしていますが、すべてがネイティブでサポートされているわけではありません。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:8
 msgid "Examples"
-msgstr ""
+msgstr "例示"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:11
 msgid "Distance Sensor (Ultrasonic)"
-msgstr ""
+msgstr "距離センサ（超音波）"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:20
 msgid "MaxBotix I2C Ultrasonic Sensor"
-msgstr ""
+msgstr "MaxBotix I2C超音波センサ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:31
 msgid "MB1242"
-msgstr ""
+msgstr "MB1242"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:34
 msgid ""
 "An Ultrasonic Distance Sensor is a device that is able to measure the "
-"distance between an object and the sensor.  It does this by sending out a"
-" sound wave and measuring the time it takes for the wave to travel to the"
-" object and back. Using this and the speed of sound the distance can be "
+"distance between an object and the sensor.  It does this by sending out a "
+"sound wave and measuring the time it takes for the wave to travel to the "
+"object and back. Using this and the speed of sound the distance can be "
 "calculated."
 msgstr ""
+"超音波距離センサーは、物体とセンサーとの間の距離を測定できる装置です。これは、音波を送り出し、その波が物体に到達して再び戻ってくるまでの時間を計測することで実現します。この時間と音速を使用して、距離を計算することができます。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:40
 msgid "Distance Sensor (Optical)"
-msgstr ""
+msgstr "光学距離センサー"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:49
 msgid "REV 2m Distance Sensor"
-msgstr ""
+msgstr "REV 2メートル距離センサー"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:60
 msgid "REV-31-1505"
-msgstr ""
+msgstr "REV-31-1505"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:62
 msgid ""
-"An Optical Time of Flight (ToF) Sensor is a device that is able to "
-"measure the distance between an object and the sensor. It does this by "
-"sending out a light beam and measuring the time it takes for the beam to "
-"travel to the object and back. Using this time and the known speed of "
-"light the distance can be calculated. Be aware that the way the object in"
-" question interacts with light can change the accuracy of the distance "
-"measurement. A transparent object like field panels will often provide "
-"inaccurate measurements."
+"An Optical Time of Flight (ToF) Sensor is a device that is able to measure "
+"the distance between an object and the sensor. It does this by sending out a"
+" light beam and measuring the time it takes for the beam to travel to the "
+"object and back. Using this time and the known speed of light the distance "
+"can be calculated. Be aware that the way the object in question interacts "
+"with light can change the accuracy of the distance measurement. A "
+"transparent object like field panels will often provide inaccurate "
+"measurements."
 msgstr ""
+"光学的時間飛行（ToF）センサーは、物体とセンサー間の距離を測定できる装置です。これは、光ビームを送り出し、ビームが物体に到達して再びセンサーに戻るまでの時間を測定することで実現します。この時間と光の既知速度を使用して距離を計算できます。ただし、対象となる物体が光との相互作用によって距離測定の正確性が変わる可能性があることに注意してください。フィールドパネルのような透明な物体は、しばしば不正確な測定結果を提供します。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:71
 msgid "Color Sensor"
-msgstr ""
+msgstr "色センサー"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:80
 msgid "REV Color Sensor"
-msgstr ""
+msgstr "REV 色センサー"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:91
 msgid "REV-31-1557"
-msgstr ""
+msgstr "REV-31-1557"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:97
 msgid "Modern Robotics Color Sensor"
-msgstr ""
+msgstr "現代のロボティクス カラーセンサ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:108
 msgid "MR 45-2018"
-msgstr ""
+msgstr "MR 45-2018"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:110
 msgid ""
-"A color sensor is usually a digital output device that is able to measure"
-" the color of an object. Most color sensors require the object in "
-"question to be relatively close to the sensor."
+"A color sensor is usually a digital output device that is able to measure "
+"the color of an object. Most color sensors require the object in question to"
+" be relatively close to the sensor."
 msgstr ""
+"色センサーは通常、オブジェクトの色を測定できるデジタル出力デバイスです。大多数の色センサーは、対象となるオブジェクトがセンサーに比較的近い位置にあることを要求します。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:115
 msgid "Touch Sensor"
-msgstr ""
+msgstr "タッチセンサー"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:124
 msgid "REV Touch Sensor"
-msgstr ""
+msgstr "REV 接触センサー"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:135
 msgid "REV-31-1425"
-msgstr ""
+msgstr "REV-31-1425"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:137
 msgid ""
-"A touch sensor is a digital output device that detects the activation of "
-"a button. This can be used as a limit switch, a way to limit the range of"
-" motion of a mechanism. Such a device would typically use the digital "
-"port."
+"A touch sensor is a digital output device that detects the activation of a "
+"button. This can be used as a limit switch, a way to limit the range of "
+"motion of a mechanism. Such a device would typically use the digital port."
 msgstr ""
+"タッチセンサーは、ボタンの押下を検出するデジタル出力デバイスです。このデバイスは、限界スイッチとして使用され、機械の動作範囲を制限する手段としても利用できます。このようなデバイスは通常、デジタルポートを使用します。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:143
 msgid "Magnetic Limit Switch"
-msgstr ""
+msgstr "磁気制限スイッチ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:152
 msgid "REV Magnetic Limit Switch"
-msgstr ""
+msgstr "REV 磁気制限スイッチ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:163
 msgid "REV-31-1462"
-msgstr ""
+msgstr "REV-31-1462"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:165
 msgid ""
-"A Magnetic Limit Switch is used to detect the presence of a magnet in "
-"near proximity. This is commonly used to limit the range of movement of a"
-" mechanism that would cause damage if it went beyond said limit. This is "
-"done by placing a magnet on said mechanism which would cause the Limit "
-"Switch to activate. It is important to note that as a digital device this"
-" will only send out a boolean output and not a range. For measuring the "
-"strength of a magnetic field take a look at a magnetometer."
+"A Magnetic Limit Switch is used to detect the presence of a magnet in near "
+"proximity. This is commonly used to limit the range of movement of a "
+"mechanism that would cause damage if it went beyond said limit. This is done"
+" by placing a magnet on said mechanism which would cause the Limit Switch to"
+" activate. It is important to note that as a digital device this will only "
+"send out a boolean output and not a range. For measuring the strength of a "
+"magnetic field take a look at a magnetometer."
 msgstr ""
+"磁気制限スイッチは、近傍にあるマグネットの存在を検出するために使用されます。これは、その制限を超えると機械が損傷する場合に、機械の動き範囲を制限するためによく使用されます。この機能は、指定された位置でマグネットを設置し、これにより制限スイッチがアクティブ化されることによって実現します。重要なことに、これはデジタルデバイスであるため、真偽値の出力のみを送信し、範囲を送信しません。磁場の強度を測定するには、磁気メータをご覧ください。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:174
 msgid "IMU"
-msgstr ""
+msgstr "IMU"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:183
 msgid "Navigation Sensor"
-msgstr ""
+msgstr "ナビゲーションセンサー"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:194
 msgid "navX2-Micro"
-msgstr ""
+msgstr "navX2-Micro"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:200
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:211
 msgid "BNO055"
-msgstr ""
+msgstr "BNO055"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:214
 msgid ""
-"An Interial Measurement Unit (IMU) is a sensor that is a combination of a"
-" Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that"
-" reports the `angular orientation "
-"<https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ of an object in "
-"3 dimensions. An Accelerometer is a device that reports the acceleration "
-"of an object in 3 dimensions. Acceleration can be thought of as the rate "
-"of change of speed at any given instant. A Magnetometer is a device that "
-"measures the strength of magnetic fields in 3 axes.  This can be used as "
-"a compass to gain the orientation of a robot relative to the poles of the"
-" Earth, an absolute measurement."
+"An Interial Measurement Unit (IMU) is a sensor that is a combination of a "
+"Gyroscope, Accelerometer, and Magnetometer. A Gyroscope is a device that "
+"reports the `angular orientation "
+"<https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ of an object in 3 "
+"dimensions. An Accelerometer is a device that reports the acceleration of an"
+" object in 3 dimensions. Acceleration can be thought of as the rate of "
+"change of speed at any given instant. A Magnetometer is a device that "
+"measures the strength of magnetic fields in 3 axes.  This can be used as a "
+"compass to gain the orientation of a robot relative to the poles of the "
+"Earth, an absolute measurement."
 msgstr ""
+"インテリヤル メasurement ウィットゥー (IMU) "
+"は、ジロスコープ、アクセラレーターミュート、そしてマグネットミュートの組み合わせであるセンサーです。ジロスコープは、オブジェクトの3次元的な "
+"`角度的向き <https://en.wikipedia.org/wiki/Orientation_(geometry)>`_ "
+"を報告する装置です。アクセラレーターミュートは、オブジェクトの3次元的な加速度を報告する装置です。加速度は任意の瞬間における速度の変化率と考えることができます。マグネットミュートは、3軸の磁場の強さを測定する装置です。これは地磁気の極に対するロボットの向きを得るためのコンパスとして使用され、絶対的な測定値となります。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:225
 msgid "Potentiometer"
-msgstr ""
+msgstr "POTENTIOMETER"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:234
 msgid "REV Potentiometer"
-msgstr ""
+msgstr "REV ポテンショメータ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:245
 msgid "REV-31-1155"
-msgstr ""
+msgstr "REV-31-1155"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:251
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:262
 msgid "50k Ohm Potentiometer"
-msgstr ""
+msgstr "50k 欧メトリックポテンショメータ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "BBG-770"
-msgstr ""
+msgstr "BBG-770"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:264
 msgid ""
-"A Potentiometer is a device that changes the output voltage based upon "
-"the degree to which the adjuster is turned. It is often used as a form of"
-" measuring the absolute orientation of an axle. The manner in which the "
-"output voltage changes is based on the Potentiometer that is used. Such a"
-" device is typically attatched via the analog port of the REV Hub."
+"A Potentiometer is a device that changes the output voltage based upon the "
+"degree to which the adjuster is turned. It is often used as a form of "
+"measuring the absolute orientation of an axle. The manner in which the "
+"output voltage changes is based on the Potentiometer that is used. Such a "
+"device is typically attatched via the analog port of the REV Hub."
 msgstr ""
+"ポテンショメータは、調整器が回転した角度に応じて出力電圧を変化させる装置です。軸の絶対的な向きを測定するためによく使用されます。出力電圧がどのように変化するかは、使用されるポテンショメータによります。このような装置は通常、REV"
+" ハブのアナログポートに接続されます。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:272
 msgid "Sensor Compatibility Chart"
-msgstr ""
+msgstr "センサーコンパチビリティチャート"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:274
 msgid ""
-"Thanks to the folks at REV Robotics for providing this handy chart of "
-"sensor compatibility."
-msgstr ""
+"Thanks to the folks at REV Robotics for providing this handy chart of sensor"
+" compatibility."
+msgstr "REVロボティクスの皆さんに感謝します。センサーの互換性チャートをご提供いただき、大変役立ちました。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:280
 msgid "Sensor"
-msgstr ""
+msgstr "センサ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:281
 msgid "Type"
-msgstr ""
+msgstr "種類"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:282
 msgid "Compatible"
-msgstr ""
+msgstr "互換性あり"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:283
 msgid "Adapters Needed"
-msgstr ""
+msgstr "必要とするアダプター"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:285
 msgid "Absolute Orientation IMU Fusion Breakout - BNO0552472Adafruit"
-msgstr ""
+msgstr "絶対位置付けIMU統合ブレークアウト - BNO0552472Adafruit"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:286
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:292
@@ -258,7 +270,7 @@ msgstr ""
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:318
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:323
 msgid "I2C"
-msgstr ""
+msgstr "I2C"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:287
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:293
@@ -278,47 +290,47 @@ msgstr ""
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:366
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:382
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "3.3V Compatible"
-msgstr ""
+msgstr "3.3V対応"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "Custom Wiring Harness Needed"
-msgstr ""
+msgstr "カスタム配線ハーネスが必要です"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:291
 msgid "RGB Color Sensor with IR filter and White LED - TCS347251334AdaFruit"
-msgstr ""
+msgstr "IRフィルター付きRGB色センサーと白LED - TCS347251334AdaFruit"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:297
 msgid "ColorSensor45-2018Modern Robotics"
-msgstr ""
+msgstr "ColorSensor45-2018Modern Robotics"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:302
 msgid "Compass45-2003Modern Robotics"
-msgstr ""
+msgstr "コンパス45-2003現代ロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:307
 msgid "Integrating Gyro45-2005Modern Robotics"
-msgstr ""
+msgstr "gyro45-2005モダンロボティクスの統合"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:312
 msgid "IR Locator 36045-2009Modern Robotics"
-msgstr ""
+msgstr "IRロケーター36045-2009モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:317
 msgid "IR Seeker V345-2017Modern Robotics"
-msgstr ""
+msgstr "IR Seeker V345-2017モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:322
 msgid "Ranger Sensor45-2008Modern Robotics"
-msgstr ""
+msgstr "レンジャー センサ45-2008モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:327
 msgid "NeveRest MotorAM-3461, AM-3102, AM-2964a, AM-3103, AM-3104AndyMark"
-msgstr ""
+msgstr "ネーブレスト モータAM-3461, AM-3102, AM-2964a, AM-3103, AM-3104アンドリーマーク"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:328
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:333
@@ -328,59 +340,59 @@ msgstr ""
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:355
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:360
 msgid "Quad Encoder"
-msgstr ""
+msgstr "クアッドエンコーダ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:332
 msgid "HD Hex MotorREV-41-1301REV Robotics"
-msgstr ""
+msgstr "HD ヘックスモーターREV-41-1301REVロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "Directly Compatible"
-msgstr ""
+msgstr "直接互換"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "No Custom Adapters Needed"
-msgstr ""
+msgstr "カスタムアダプターは必要ありません"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:338
 msgid "Core Hex MotorREV-41-1301REV Robotics"
-msgstr ""
+msgstr "コアヒックスモーターREV-41-1301REVロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:344
 msgid "12v 4mm Motor Kit50-0119MATRIX"
-msgstr ""
+msgstr "12V 4mm モーターキット50-0119MATRIX"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:349
 msgid "12v 6mm Motor Kit50-0120MATRIX"
-msgstr ""
+msgstr "12V 6mmモーターキット50-0120MATRIX"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:354
 msgid "Standard Motor Kit50-0001MATRIX"
-msgstr ""
+msgstr "標準モーターキット50-0001MATRIX"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:359
 msgid "Max Motor Shaft Encoder KitW38000Tetrix"
-msgstr ""
+msgstr "最大モーターシャフトエンコーダーキットW38000Tetrix"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:364
 msgid "Limit Switch45-2401Modern Robotics"
-msgstr ""
+msgstr "制限スイッチ45-2401モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:365
 msgid "Digital"
-msgstr ""
+msgstr "デジタル"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "No Adapter Needed"
-msgstr ""
+msgstr "アダプター不要"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "Custom Wiring Harness Required."
-msgstr ""
+msgstr "カスタム配線ハーネスが必要です。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:370
 msgid "Rate Gyro45-2004Modern Robotics"
-msgstr ""
+msgstr "レートジロイド45-2004モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:371
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:376
@@ -388,61 +400,66 @@ msgstr ""
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:387
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:392
 msgid "Analog"
-msgstr ""
+msgstr "アナログ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:372
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:377
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:388
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:393
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:373
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:378
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:389
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:394
 msgid "Not Officially Supported"
-msgstr ""
+msgstr "公式にサポートされていません"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:375
 msgid "Optical Distance Sensor45-2006Modern Robotics"
-msgstr ""
+msgstr "光学距離センサー45-2006モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:380
 msgid "Touch Sensor45-2007Modern Robotics"
-msgstr ""
+msgstr "触覚センサ45-2007モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "Custom Wiring Harness Required"
-msgstr ""
+msgstr "カスタム配線ハーネスが必要です"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:386
 msgid "Light Sensor45-2015Modern Robotics"
-msgstr ""
+msgstr "ライトセンサー45-2015モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:391
 msgid "Magnetic Sensor45-2020Modern Robotics"
-msgstr ""
+msgstr "磁気センサ45-2020モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:397
 msgid "Additional Resources"
-msgstr ""
+msgstr "追加のリソース"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:399
 msgid ""
-":ref:`Analog Port Overview <control_hard_compon/rc_components/hub/ports"
-"/ch-ports:analog ports>`"
+":ref:`Analog Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:analog ports>`"
 msgstr ""
+":ref:`アナログポート概要 <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:アナログポート>`"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:400
 msgid ""
-":ref:`Digital Port Overview <control_hard_compon/rc_components/hub/ports"
-"/ch-ports:digital ports>`"
+":ref:`Digital Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:digital ports>`"
 msgstr ""
+":ref:`デジタルポートの概要 <control_hard_compon/rc_components/hub/ports/ch-"
+"ports:digital ports>`"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:401
 msgid ""
 ":ref:`I2C Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
 "ports:i2c ports>`"
 msgstr ""
-
+":ref:`I2Cポートの概要 <control_hard_compon/rc_components/hub/ports/ch-ports:i2c "
+"ports>`"

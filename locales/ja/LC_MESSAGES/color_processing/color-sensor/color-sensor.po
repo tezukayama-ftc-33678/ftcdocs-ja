@@ -12,130 +12,137 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:2
 msgid "Color Processing Color Sensor"
-msgstr ""
+msgstr "色処理 色センサ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:5
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:7
 msgid ""
-"A simple way to use FTC's new OpenCV vision tools is to operate a \"Color"
-" Sensor\".  Namely, it can determine **the color seen by the robot's "
+"A simple way to use FTC's new OpenCV vision tools is to operate a \"Color "
+"Sensor\".  Namely, it can determine **the color seen by the robot's "
 "camera**\\ , in a specified zone."
 msgstr ""
+"FTCの新しいOpenCVビジョンツールを簡単に活用する方法は、「色センサー」を使用することです。つまり、指定されたゾーンでロボットのカメラが見ている**色を判定**\\"
+" できます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:11
 msgid "Below, the small central rectangle is the region being evaluated:"
-msgstr ""
+msgstr "以下に、評価対象となっている小さな中央の長方形があります："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:18
 msgid "INTO THE DEEP game pieces"
-msgstr ""
+msgstr "INTO THE DEEP ゲームピース"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:18
 msgid "Color sensor detection zone"
-msgstr ""
+msgstr "色センサー検出ゾーン"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:20
 msgid ""
-"A key benefit is that the camera can be much further away from the object"
-" than, for example, a REV Color Sensor or others like it."
-msgstr ""
+"A key benefit is that the camera can be much further away from the object "
+"than, for example, a REV Color Sensor or others like it."
+msgstr "カメラの主要な利点は、例えばREV Color Sensorや他のセンサーと比べて物体から非常に遠くに配置できることです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:23
 msgid ""
-"It's still important to accurately point the camera and carefully select "
-"the image zone to inspect."
-msgstr ""
+"It's still important to accurately point the camera and carefully select the"
+" image zone to inspect."
+msgstr "カメラの先端が正確に向けられ、検査する画像領域を選択するために慎重に行うことがまだ重要です。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:26
 msgid "For the above example, OpenCV can provide results like this:"
-msgstr ""
+msgstr "上記の例では、OpenCV は次のようないいえを提供できます："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:33
 msgid "Driver Station App showing RED detection"
-msgstr ""
+msgstr "ドライバーステーションアプリでRED検出表示"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:33
 msgid "RED Detection using Color Sensor"
-msgstr ""
+msgstr "赤色検出用Colorセンサ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:35
 msgid "The following sections describe how to do this, with a Sample OpMode."
-msgstr ""
+msgstr "次のセクションでは、Sample OpMode を用いてこの操作方法について説明します。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:38
 msgid "Configuration"
-msgstr ""
+msgstr "設定"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:40
 msgid "*Skip this section if ...*"
-msgstr ""
+msgstr "*このセクションをスキップする場合...*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:43
 msgid "*the active robot configuration already contains \"Webcam 1\"*, or"
-msgstr ""
+msgstr "*現在のロボット設定に「Webcam 1」が含まれている場合、*\\n"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:44
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
-msgstr ""
+msgstr "*Android電話の組み込みカメラを使用してロボットコントローラーにします.*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:46
 msgid ""
-"Before starting the programming, REV Control Hub users should make a "
-"robot configuration that includes the USB webcam to be used as a color "
-"sensor."
+"Before starting the programming, REV Control Hub users should make a robot "
+"configuration that includes the USB webcam to be used as a color sensor."
 msgstr ""
+"プログラミング開始前に、REV Control "
+"Hubのユーザーは、USBウェブカメラを使用して色センサとして設定するロボット構成を作成する必要があります。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:49
 msgid ""
-"For now, use the default webcam name, \"Webcam 1\".  If a different name "
-"is preferred, edit the Sample OpMode to agree with the exact webcam name "
-"in the robot configuration."
+"For now, use the default webcam name, \"Webcam 1\".  If a different name is "
+"preferred, edit the Sample OpMode to agree with the exact webcam name in the"
+" robot configuration."
 msgstr ""
+"現時点では、デフォルトのウェブカメラ名「Webcam "
+"1」を使用してください。異なる名前が好ましい場合は、サンプルオペモードをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:53
 msgid ""
-"Save and activate that configuration; its name should appear on the "
-"paired Driver Station screen."
-msgstr ""
+"Save and activate that configuration; its name should appear on the paired "
+"Driver Station screen."
+msgstr "設定を保存し、有効にします。その名前はペアリングされたドライバーステーションの画面に表示されます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:57
 msgid "Sample OpMode"
-msgstr ""
+msgstr "サンプルオペモード"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:60
 msgid "Opening the Sample OpMode"
-msgstr ""
+msgstr "サンプルオペモードを開く"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:62
 msgid ""
-"To learn about opening the Sample OpMode, click the tab for Blocks or "
-"Java:"
-msgstr ""
+"To learn about opening the Sample OpMode, click the tab for Blocks or Java:"
+msgstr "サンプルオペモードを開く方法について知りたい場合は、ブロックまたはJavaのタブをクリックしてください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst
 msgid "Blocks"
-msgstr ""
+msgstr "ブロック"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:68
 msgid ""
-"On a laptop or desktop computer connected via Wi-Fi to the Robot "
-"Controller, open the Chrome browser.  Go to the REV Control Hub's address"
-" ``http://192.168.43.1:8080`` (or ``http://192.168.49.1:8080`` for "
-"Android RC phone) and click the *Blocks* tab."
+"On a laptop or desktop computer connected via Wi-Fi to the Robot Controller,"
+" open the Chrome browser.  Go to the REV Control Hub's address "
+"``http://192.168.43.1:8080`` (or ``http://192.168.49.1:8080`` for Android RC"
+" phone) and click the *Blocks* tab."
 msgstr ""
+"ロボットコントローラに無線LANで接続されたノートパソコンやデスクトップコンピュータで、Chrome ブラウザを開きます。REV Control "
+"Hubのアドレス ``http://192.168.43.1:8080``（Android RC電話の場合は "
+"``http://192.168.49.1:8080``）に移動し、「ブロック」タブをクリックします。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:74
 msgid ""
@@ -143,30 +150,36 @@ msgid ""
 "\"ColorSensor_Maria_v01\", and select the Sample OpMode "
 "``ConceptVisionColorSensor``."
 msgstr ""
+"「Create New OpMode」をクリックし、新しい名前such as "
+"\"ColorSensor_Maria_v01\"のように入力し、「Sample "
+"OpMode」から「ConceptVisionColorSensor」というものを選択します。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:78
 msgid ""
-"At the top of the Blocks screen, you can change the type from \"TeleOp\" "
-"to \"Autonomous\", since this Sample OpMode does not use gamepads."
+"At the top of the Blocks screen, you can change the type from \"TeleOp\" to "
+"\"Autonomous\", since this Sample OpMode does not use gamepads."
 msgstr ""
+"ブロックスクリーンの上部で、「TeleOp」から「Autonomus」にタイプを変更できます。このサンプルオペモードはゲームパッドを使用していません。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:81
 msgid ""
 "If using the built-in camera of an RC phone, drag out the relevant Block "
 "from the left-side ``VisionPortal.Builder`` toolbox."
 msgstr ""
+"もしRC電話の内蔵カメラを使用する場合、左側の ``VisionPortal.Builder`` "
+"ツールボックスから関連するブロックをドラッグアウトしてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:84
 msgid "Save the OpMode, time to try it!"
-msgstr ""
+msgstr "オペレーションモードを保存してみましょう！"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:90
 msgid "Open your choice of OnBot Java or Android Studio."
-msgstr ""
+msgstr "OnBot Java や Android Studio のいずれかを開いてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:92
 msgid ""
@@ -174,168 +187,182 @@ msgid ""
 "\"ColorSensor_Bobby_v01.java\", and select the Sample OpMode "
 "``ConceptVisionColorSensor.java``."
 msgstr ""
+"チームコードフォルダの ``teamcode`` "
+"に、名前を「ColorSensor_Bobby_v01.java」などとして新しいOpモードを作成し、サンプルOpモード "
+"``ConceptVisionColorSensor.java`` を選択してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:96
 msgid ""
-"At about Line 58, you can change ``@TeleOp`` to ``@Autonomous``\\ , since"
-" this Sample OpMode does not use gamepads."
+"At about Line 58, you can change ``@TeleOp`` to ``@Autonomous``\\ , since "
+"this Sample OpMode does not use gamepads."
 msgstr ""
+"約Line 58付近で、``@TeleOp`` を ``@Autonomous`` に変更できます。このSample "
+"OpModeはゲームパッドを使用していませんからです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:99
 msgid ""
-"If using the built-in camera of an RC phone, follow the OpMode comments "
-"to specify that camera."
-msgstr ""
+"If using the built-in camera of an RC phone, follow the OpMode comments to "
+"specify that camera."
+msgstr "もしRC電話の内蔵カメラを使用する場合、OpMode コメントに該当カメラを指定してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:102
 msgid "Click \"Build\", time to try it!"
-msgstr ""
+msgstr "「Build」ボタンをクリックしてみましょう！"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:105
 msgid "Running the Sample OpMode"
-msgstr ""
+msgstr "サンプルオペモードの実行"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:107
 msgid "On the Driver Station:"
-msgstr ""
+msgstr "ドライバーステーション上："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:109
 msgid "Select the Autonomous OpMode that you just saved or built."
-msgstr ""
+msgstr "自主運転のOpModeを選択してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:110
 msgid "Turn off the automatic 30-second match timer (green slider)."
-msgstr ""
+msgstr "自動30秒マッチタイマー（緑のスライダー）を停止します。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:111
 msgid "Touch INIT only."
-msgstr ""
+msgstr "INITのみをタッチしてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:113
 msgid ""
-"The OpMode should give Telemetry, stating the main \"matched\" color "
-"inside the Region of Interest."
-msgstr ""
+"The OpMode should give Telemetry, stating the main \"matched\" color inside "
+"the Region of Interest."
+msgstr "オペレーションモードは、興味領域内の主要な「一致した」色についてのテレメトリーを提供すべきです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:120
 msgid "Driver Station Telemetry"
-msgstr ""
+msgstr "ドライバーステーションのテレメトリ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:122
 msgid ""
-"Move the camera around, and watch the Telemetry area on the Driver "
-"Station screen.  It should state \"BLUE\" when pointing at a blue object,"
-" and likewise should identify other common colors."
+"Move the camera around, and watch the Telemetry area on the Driver Station "
+"screen.  It should state \"BLUE\" when pointing at a blue object, and "
+"likewise should identify other common colors."
 msgstr ""
+"カメラを動かして、ドライバー・ステーションの画面にあるテレメトリエリアを見守ってください。青色の物体に向けていた場合、「 "
+"BLUE」が表示されるはずです。また、他の一般的な色も識別できるはずです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:126
 msgid ""
 "**It's working!**  You have a color sensor in your robot camera.  Think "
 "about how to use this in the FTC Robot Game."
-msgstr ""
+msgstr "**動いています！** ロボットカメラに色センサーがあります。FTCロボットゲームでどのように使用するか考えみてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:129
-msgid "*Skip the next two sections if you already know how to use FTC previews.*"
-msgstr ""
+msgid ""
+"*Skip the next two sections if you already know how to use FTC previews.*"
+msgstr "*FTCプレビューを使用する方法が既に分かっている場合は、次の2つのセクションをスキップできます。*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:132
 msgid "DS Preview"
-msgstr ""
+msgstr "ドライバーステーションプレビュー"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:134
 msgid ""
-"Before describing how to modify the OpMode, this page offers two sections"
-" showing how to view the OpenCV results with **previews**.  Previewing is"
-" essential for working with vision code."
+"Before describing how to modify the OpMode, this page offers two sections "
+"showing how to view the OpenCV results with **previews**.  Previewing is "
+"essential for working with vision code."
 msgstr ""
+"このページでは、OpMode を修正する方法を説明する前に、OpenCV の結果を確認するための **プレビュー** "
+"を使用した2つのセクションを提供しています。プレビューはビジョンコードを使用する上で重要です。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:138
 msgid "**Opening the DS Preview**"
-msgstr ""
+msgstr "**ドライバーステーションのプレビューを開く**"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:140
 msgid ""
-"On the Driver Station (DS), remain in INIT -- don't touch the Start "
-"button."
-msgstr ""
+"On the Driver Station (DS), remain in INIT -- don't touch the Start button."
+msgstr "ドライバーステーション（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:141
 msgid ""
-"At the top right corner, touch the 3-dots menu, then ``Camera Stream``. "
-"This shows the camera's view; tap the image to refresh it."
+"At the top right corner, touch the 3-dots menu, then ``Camera Stream``. This"
+" shows the camera's view; tap the image to refresh it."
 msgstr ""
+"右上角に移動し、3つの点アイコンをタッチします。次に「カメラストリーム」を選択します。これでカメラの視野が表示されます；画像をタップして更新します。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:149
 msgid "Camera Stream Preview"
-msgstr ""
+msgstr "カメラストリームプレビュー"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:151
 msgid ""
-"Drawn on the image is the rectangle being evaluated, called the **Region "
-"of Interest** (ROI).  The ROI border color is the rectangle's predominant"
-" color, reported to DS Telemetry."
+"Drawn on the image is the rectangle being evaluated, called the **Region of "
+"Interest** (ROI).  The ROI border color is the rectangle's predominant "
+"color, reported to DS Telemetry."
 msgstr ""
+"画像に描かれているのは評価中の長方形で、これは**興味領域**(ROI)と呼ばれます。ROIの境界線色は長方形の主な色であり、これをドライバーステーションのテレメトリに報告します。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:155
 msgid ""
 "If that border \"disappears\" against a solid-color background, the thin "
 "white cross-hairs and 4 small white dots can still identify the ROI."
-msgstr ""
+msgstr "もしその境界が単色の背景に対して「消え」てしまった場合でも、細い白い十字線と4つの小さな白い点はROIを識別するためにまだ使用できます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:158
 msgid "For a BIG preview, touch the arrows at the bottom right corner."
-msgstr ""
+msgstr "大きなプレビューを見るには、右下の矢印をタッチしてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:160
 msgid ""
 "Or, select Camera Stream again, to return to the previous screen and its "
 "Telemetry."
-msgstr ""
+msgstr "または、再度カメラストリームを選択して、前の画面とテレメトリに戻りましょう。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:164
 msgid "RC Preview"
-msgstr ""
+msgstr "ロボットカントリービューア"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:166
 msgid ""
-"The Robot Controller (RC) device also makes a preview, called "
-"``LiveView``. This is full video, and is shown automatically on the "
-"screen of an RC phone."
+"The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
+"This is full video, and is shown automatically on the screen of an RC phone."
 msgstr ""
+"ロボットコントローラ（RC）デバイスでは、プレビュー機能として「LiveView」と呼ばれるものも作成します。これはフルビデオで、自動的にRC電話の画面に表示されます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:174
 msgid "Control Hub LiveView"
-msgstr ""
+msgstr "制御ハブライブビュー"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:176
 msgid "The above preview is from a REV Control Hub."
-msgstr ""
+msgstr "上記のプレビューはREV Control Hubからです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:178
 msgid ""
-"It has no physical screen, so you must plug in an HDMI monitor **or** use"
-" open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "
-"\"screen copy\") to see the preview on a laptop or computer that's "
-"connected via Wi-Fi to the Control Hub."
+"It has no physical screen, so you must plug in an HDMI monitor **or** use "
+"open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "
+"\"screen copy\") to see the preview on a laptop or computer that's connected"
+" via Wi-Fi to the Control Hub."
 msgstr ""
+"物理的な画面がなく、因此、HDMI モニターを接続する**か**、Wi-Fi "
+"でコントロールハブに接続されたノートパソコンやコンピュータ上でプレビューを見るためにオープンソースの `scrcpy "
+"<https://github.com/Genymobile/scrcpy>`_（「スクリーンコピー」と呼ばれる）を使用する必要があります。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:184
 msgid "Modify the Sample"
-msgstr ""
+msgstr "サンプルを編集"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:186
 msgid ""
-"This Sample OpMode is designed for the user to select/edit **two "
-"inputs**\\ :"
-msgstr ""
+"This Sample OpMode is designed for the user to select/edit **two inputs**\\ "
+":"
+msgstr "このサンプルオペモードは、ユーザーが**2つの入力**を選択/編集できるように設計されています："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:189
 msgid "define the Region of Interest (ROI)"
-msgstr ""
+msgstr "관심領域（ROI）を定義する"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:190
 msgid "list the colors that might be found"
-msgstr ""
+msgstr "使用される可能性のある色をリストしてください"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:192
 msgid "For the **first input**, there are 3 ways to define the ROI:"
@@ -343,101 +370,114 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:194
 msgid "entire frame"
-msgstr ""
+msgstr "全体のフレーム"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:195
 msgid "sub-region, defined with standard image coordinates"
-msgstr ""
+msgstr "サブ領域、標準画像座標で定義される"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:196
 msgid "sub-region, defined with a normalized +/- 1.0 coordinate system"
-msgstr ""
+msgstr "正規化された+/-1.0座標系で定義されたサブ領域"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:198
 msgid ""
-"For the **second input**, you must list the candidate colors from which a"
-" result will be selected as a \"Match\"."
-msgstr ""
+"For the **second input**, you must list the candidate colors from which a "
+"result will be selected as a \"Match\"."
+"msgstr ""
+"第二入力**で**, 候補色をリストし、それから選ばれる結果が「一致」として扱われるものとして挙げてください。"
+""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:201
 msgid ""
-"Simply choose from the 10 \"Swatches\": RED, ORANGE, YELLOW, GREEN, CYAN,"
-" BLUE, PURPLE, MAGENTA, BLACK, WHITE.  For efficiency, add only those "
+"Simply choose from the 10 \"Swatches\": RED, ORANGE, YELLOW, GREEN, CYAN, "
+"BLUE, PURPLE, MAGENTA, BLACK, WHITE.  For efficiency, add only those "
 "Swatches for which you reasonably expect to get a match."
 msgstr ""
+"単に10種類の「サンプル」から選んでください：RED（赤）、ORANGE（橙）、YELLOW（黄）、GREEN（緑）、CYAN（青緑）、BLUE（藍）、PURPLE（紫）、MAGENTA（マゼンタ）、BLACK（黒）、WHITE（白）。効率のために、実際に一致するものがあると予想できるサンプルだけを追加してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:205
 msgid ""
-"**The Blocks and Java OpModes contain detailed comments to guide you "
-"through these edits.**  They are not repeated in this tutorial."
+"**The Blocks and Java OpModes contain detailed comments to guide you through"
+" these edits.**  They are not repeated in this tutorial."
 msgstr ""
+"**ブロックとJavaオペモードには、これらの編集手順をガイドする詳細なコメントが含まれています。** これらはこのチュートリアルでは繰り返されません。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:209
 msgid "Building the VisionPortal"
-msgstr ""
+msgstr "ビジョンポータルの構築"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:211
 msgid ""
-"The Sample OpMode first creates a \"Predominant Color\" **Processor** "
-"using the **Builder** pattern.  This is the same Builder pattern used to "
-"create an AprilTag Processor, and previously a TensorFlow Processor."
+"The Sample OpMode first creates a \"Predominant Color\" **Processor** using "
+"the **Builder** pattern.  This is the same Builder pattern used to create an"
+" AprilTag Processor, and previously a TensorFlow Processor."
 msgstr ""
+"サンプルのOpモードは、「 Predominant Color "
+"」**プロセッサー**を作成するために**ビルダー**パターンを使用します。これは、AprilTagプロセッサーおよび以前のTensorFlowプロセッサーを作成する際に使用したビルダーパターンと同じものです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:215
 msgid ""
 "The Sample OpMode then creates a **VisionPortal**, again using a Builder "
-"pattern.  This includes adding the \"Predominant Color\" Processor to the"
-" VisionPortal."
+"pattern.  This includes adding the \"Predominant Color\" Processor to the "
+"VisionPortal."
 msgstr ""
+"サンプルのOpModeでは、**VisionPortal** を再びビルダー模式を使って作成します。これには、「 Predominant Color」 "
+"プロセッサーをVisionPortalに追加する処理が含まれます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:219
 msgid ""
 "How does OpenCV determine the \"predominant color\" of the ROI?  An "
 "algorithm called `\"k-means\" "
-"<https://en.wikipedia.org/wiki/K-means_clustering>`_ determines clusters "
-"of similar colors.  The color of the cluster with the most pixels is "
-"called \"predominant\" here. *(This will NOT be on the final.)*"
+"<https://en.wikipedia.org/wiki/K-means_clustering>`_ determines clusters of "
+"similar colors.  The color of the cluster with the most pixels is called "
+"\"predominant\" here. *(This will NOT be on the final.)*"
 msgstr ""
+"OpenCVはROIの「主な色」をどのように決定しますか？「k-means」アルゴリズムが類似した色のクラスタを決定します。「k-means」<https://en.wikipedia.org/wiki/K-means_clustering>`_"
+" というアルゴリズムを使用して、ピクセル数最多的のクラスタの色が「主な色」と呼ばれます。*(最終的には出題されません。)*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:225
 msgid "Testing the Result"
-msgstr ""
+msgstr "結果のテスト"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:227
 msgid ""
-"After trying and learning how the commands work, you can incorporate this"
-" Color Sensor into your Autonomous and/or TeleOp OpModes."
-msgstr ""
+"After trying and learning how the commands work, you can incorporate this "
+"Color Sensor into your Autonomous and/or TeleOp OpModes."
+msgstr "試行錯誤し、コマンドの使い方を学んだ後は、この色センサーを自動モードと/または遠隔操作モードに組み込むことができます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:230
 msgid ""
 "As seen in the OpMode's Telemetry section, the result is called "
-"``closestSwatch`` and appears as a word (RED, BLUE, etc.).  But this is "
-"not plain text!"
+"``closestSwatch`` and appears as a word (RED, BLUE, etc.).  But this is not "
+"plain text!"
 msgstr ""
+"OpModeのテレメトリーセクションで確認できるように、結果は ``closestSwatch`` "
+"と呼ばれ、赤（RED）、青（BLUE）などの単語として表示されます。しかし、これは単なるテキストではありません！"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:234
 msgid ""
 "**Testing**, or comparing, for a particular color-match must be done as "
 "follows.  Select and read the Blocks **or** Java section below:"
-msgstr ""
+msgstr "**テスト**、特定の色合いに一致するか比較するには、以下のブロック **または** ジAVAセクションを参照してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:241
 msgid ""
 "At the left side, pull out the following multi-Block from "
 "``Vision/PredominantColor/Processor``:"
 msgstr ""
+"左側から、``Vision/PredominantColor/Processor`` から次の Multi-Block を引き出してください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst
 #: ../../source/color_processing/color-sensor/color-sensor.rst:248
 msgid "Closest Swatch Comparison"
-msgstr ""
+msgstr "最寄り色比較"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:250
 msgid ""
-"You must use this special Block to determine if the result is (for "
-"example) RED."
-msgstr ""
+"You must use this special Block to determine if the result is (for example) "
+"RED."
+msgstr "この特別なブロックを使用して、結果が（例えば）レッドであるかどうかを判定する必要があります。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:252
 msgid ""
@@ -445,10 +485,14 @@ msgid ""
 "like text!).  It's a type called ``Swatch`` and can be compared only to "
 "another ``Swatch``."
 msgstr ""
+"なぜか？ 結果は ``closestSwatch`` と呼ばれ、実際には**テキスト**ではありません（確かにテキストのようです）。これは "
+"``Swatch``という型で、他の ``Swatch`` とのみ比較できます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:259
 msgid "In the sample OpMode, here's the Telemetry that gives the result:"
-msgstr ""
+"msgstr ""
+"サンプルOpModeでは、以下が結果のテレメトリーです："
+""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:265
 msgid "This displays as text, but this is **not** Java type ``String``!"
@@ -456,77 +500,86 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:267
 msgid "Here's how to determine if the result is (for example) RED:"
-msgstr ""
+msgstr "次のように結果が（例えば）レッドであるかどうかを確認します："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:273
 msgid ""
-"Why?  The result, called ``closestSwatch`` is of type ``Swatch`` and can "
-"be compared only to another ``Swatch``."
+"Why?  The result, called ``closestSwatch`` is of type ``Swatch`` and can be "
+"compared only to another ``Swatch``."
 msgstr ""
+"なぜか？結果は ``closestSwatch`` という名前の ``Swatch`` 型オブジェクトであり、これには他の ``Swatch`` "
+"オブジェクトだけが比較可能です。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:278
 msgid "OpMode Programming"
-msgstr ""
+msgstr "オペレーションモードプログラミング"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:280
 msgid ""
-"The Color Sensor part of your team's Autonomous OpMode might include "
-"these goals:"
-msgstr ""
+"The Color Sensor part of your team's Autonomous OpMode might include these "
+"goals:"
+msgstr "あなたのチームのオートノマス・オペモードのカラーセンサ部分には、これらの目標が含まれる可能性があります："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:283
 msgid "Seek a color, using the code from this Sample OpMode"
-msgstr ""
+msgstr "このサンプルオモードのコードを使用して色を探します"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:284
 msgid "Take a robot action, based on finding that color"
-msgstr ""
+msgstr "色を見つけた場合にロボットが実行するアクション"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:286
 msgid "If so, select and read the Blocks **or** Java section below:"
-msgstr ""
+msgstr "もし如此の場合は、下記のブロック **または** ジAVAセクションを選択して読み進めてください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:292
 msgid "Beginners often try this first:"
-msgstr ""
+msgstr "初心者はこれから始めることが多くあります："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst
 #: ../../source/color_processing/color-sensor/color-sensor.rst:299
 msgid "Wrong way to act upon match result"
-msgstr ""
+msgstr "マッチ結果に基づいて行動する際の誤りの方法"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:301
 msgid ""
-"The problem is, after the robot does the action for RED, the OpMode is "
-"still inside the vision loop.  Very messy and unpredictable."
+"The problem is, after the robot does the action for RED, the OpMode is still"
+" inside the vision loop.  Very messy and unpredictable."
 msgstr ""
+"問題は、ロボットがレッドチームに対してアクションを実行した後で、OpMode "
+"がビジョンループの内側にまだ残っていることです。非常に乱雑で予測不可能です。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:304
 msgid ""
 "A better approach is to save the result (as text!), exit the loop, then "
 "retrieve the stored result to take the desired RED action."
 msgstr ""
+"より良いアプローチは、結果（テキストとして）を保存し、ループから退出した後、保存された結果を取り出して必要なREVアクションを実行することです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst
 #: ../../source/color_processing/color-sensor/color-sensor.rst:312
 msgid "Right way to act upon match result"
-msgstr ""
+msgstr "試合結果に応じた正しい行動方法"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:314
 msgid ""
 "How to exit the vision loop?  It could be based on `time "
-"<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-"
-"in-FTC-Blocks>`_ , or finding a particular color, or finding a particular"
-" color 10 times in a row, or finding only a particular color for 1 full "
-"second, or any other desired criteria."
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-in-"
+"FTC-Blocks>`_ , or finding a particular color, or finding a particular color"
+" 10 times in a row, or finding only a particular color for 1 full second, or"
+" any other desired criteria."
 msgstr ""
+"ビジョンループから退出する方法は？これは、`時間 <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/wiki/Timers-in-FTC-Blocks>`_ "
+"に基づくもので、特定の色を見つけたり、連続して10回特定の色を見つけること、または特定の色だけを1秒間見つけること、あるいは他のどのような条件でも可能です。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:323
 msgid ""
 "The color result is generated inside a vision loop.  Save the result (as "
-"text!), exit the loop, then retrieve the stored result to take the "
-"desired RED action."
+"text!), exit the loop, then retrieve the stored result to take the desired "
+"RED action."
 msgstr ""
+"色の結果はビジョンループ内で生成されます。その結果を保存（テキストとして！）し、ループから退出した後、保存された結果を取り出し、必要なレッドアクションを実行します。\\n"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:343
 msgid ""
@@ -535,58 +588,65 @@ msgid ""
 "finding only a particular color for 1 full second, or any other desired "
 "criteria."
 msgstr ""
+"ビジョンループから退出する方法は？時間に基づいたり、特定の色を見つけたり、連続して特定の色を10回見つけたり、または特定の色だけが1秒間見つかったり、その他の任意の条件に従って行います。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:349
 msgid "Advanced Use"
-msgstr ""
+msgstr "高度な使用方法"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:351
 msgid ""
-"Some teams may prefer to read and evaluate the **actual RGB color "
-"values**, rather than rely on a generic Swatch result."
-msgstr ""
+"Some teams may prefer to read and evaluate the **actual RGB color values**, "
+"rather than rely on a generic Swatch result."
+msgstr "一部のチームは、一般的なスウォッチ結果に頼るよりも、実際のRGB色値を読み取り評価する**ことを好むかもしれません**。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:354
 msgid ""
-"RGB is a **Color Space** that uses three numerical components of Red, "
-"Green and Blue.  Values range from 0 to 255.  For more info, see this "
-"tutorial's :doc:`Color Spaces <../color-spaces/color-spaces>` page."
+"RGB is a **Color Space** that uses three numerical components of Red, Green "
+"and Blue.  Values range from 0 to 255.  For more info, see this tutorial's "
+":doc:`Color Spaces <../color-spaces/color-spaces>` page."
 msgstr ""
+"RGBは**色空間**で、赤、緑、青の3つの数値成分を使用します。各値は0から255までの範囲です。詳細については、このチュートリアルの "
+":doc:`色空間 <../color-spaces/color-spaces>` ページを参照してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:358
 msgid ""
-"Extracting the RGB components can be seen in the Telemetry portion of the"
-" Sample OpMode.  Click the Blocks or Java tab:"
-msgstr ""
+"Extracting the RGB components can be seen in the Telemetry portion of the "
+"Sample OpMode.  Click the Blocks or Java tab:"
+msgstr "RGB成分の抽出は、サンプルオペモードのテレメトリー部分で確認できます。ブロックまたはJavaタブをクリックしてください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:365
 #: ../../source/color_processing/color-sensor/color-sensor.rst:380
 msgid "Here are the RGB components of the ROI's predominant color:"
-msgstr ""
+msgstr "ROIの主色のRGB成分は以下の通りです："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst
 msgid "Finding color by RGB"
-msgstr ""
+msgstr "RGBによる色検出"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:372
 msgid ""
-"Note: the ``Color`` Block has a drop-down list that includes Hue, "
-"Saturation and Value.  Those settings will **not work** here, to produce "
-"components in the HSV Color Space, because the source Block provides only"
-" RGB color (its method name is ``.rgb``\\ )."
+"Note: the ``Color`` Block has a drop-down list that includes Hue, Saturation"
+" and Value.  Those settings will **not work** here, to produce components in"
+" the HSV Color Space, because the source Block provides only RGB color (its "
+"method name is ``.rgb``\\ )."
 msgstr ""
+"Note: "
+"「Color」ブロックにはHue、Saturation、Valueが含まれるドロップダウンリストがあります。これらの設定は、HSV色空間の成分を生成するためにここでは**使えません**。ソースブロックはRGB色のみを提供するため（そのメソッド名は``.rgb``です）。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:382
 msgid "``Color.red(result.rgb)``"
-msgstr ""
+msgstr "result.rgb の赤色成分``Color.red(result.rgb)``"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:383
 msgid "``Color.green(result.rgb)``"
-msgstr ""
+msgstr "Color.green(result.rgb)"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:384
 msgid "``Color.blue(result.rgb)``"
 msgstr ""
+"result.rgbの青色成分を取得する\"\n"
+"Color.blue(result.rgb)"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:386
 msgid ""
@@ -594,26 +654,30 @@ msgid ""
 "variables, with names like ``ROIRedValue``, ``ROIGreenValue``, and "
 "``ROIBlueValue``."
 msgstr ""
+"ブロック言語やJavaの場合、これらのコンポーネントの値は数値変数に割り当てることができます。変数名は "
+"``ROIRedValue``、``ROIGreenValue``、および ``ROIBlueValue`` などとします。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:390
 msgid "Now your code can process those RGB variables as desired."
-msgstr ""
+msgstr "現在、あなたのコードはこれらのRGB変数を希望の通りに処理できます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:393
 msgid "Next Sections"
-msgstr ""
+msgstr "次節へ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:395
 msgid "Soon you can move ahead to try the **Color Locator** processor."
-msgstr ""
+msgstr "不久後、**Color Locator** プロセッサーを試すことができます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:397
 msgid ""
-"But first, learn a few basic concepts at this tutorial's :doc:`Color Blob"
-" Concepts <../color-blob-concepts/color-blob-concepts>` page."
+"But first, learn a few basic concepts at this tutorial's :doc:`Color Blob "
+"Concepts <../color-blob-concepts/color-blob-concepts>` page."
 msgstr ""
+"しかし、まず、このチュートリアルの :doc:`色のブロブ概念 <../color-blob-concepts/color-blob-"
+"concepts>` ページでいくつかの基本的な概念を学んでください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:402
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
 msgstr ""
-
+"FIRST Tech Challengeに関する質問、ご意見や訂正は、westsiderobotics@verizon.netまでお問い合わせください。"

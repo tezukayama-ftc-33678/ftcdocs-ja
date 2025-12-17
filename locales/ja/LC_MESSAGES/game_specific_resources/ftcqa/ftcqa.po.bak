@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech
+# Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+"msgstr """
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-16 11:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:-1
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:6
+msgid "FIRST Tech Challenge Game Q&A"
+"msgstr "FIRST Tech Challenge ゲーム Q&A""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:-1
+msgid "FTC Docs, FIRST Tech Challenge, FTC, Q&A"
+"msgstr "FIRST Tech Challenge ドキュメント, Q&A""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:8
+msgid ""
+"The `Game Q&A <https://ftc-qa.firstinspires.org/>`_ is a forum/tool that "
+"provides teams an opportunity to receive clarifications from the Game Design"
+" Committee about the current season's challenge. Rulings on the Q&A are "
+"final and binding, and will be reflected in the Competition Manual."
+"msgstr """
+"ゲームの質問と回答(`Game Q&A <https://ftc-"
+"qa.firstinspires.org/>`_)は、チームがゲーム設計委員会から現在のシーズンのチャレンジに関する説明を受ける機会を提供するフォーラム/ツールです。質問と回答に対する判断は最終的で拘束力があり、競技マニュアルに反映されます。"
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:14
+msgid "How to Ask Questions"
+"msgstr "質問をする方法""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:16
+msgid ""
+"Once the `Game Q&A <https://ftc-qa.firstinspires.org/>`_ opens for the "
+"season (usually within 2-3 weeks of the challenge being announced) teams may"
+" ask questions using unique accounts provided to teams via their `FIRST "
+"Dashboard <https://my.firstinspires.org/Dashboard/>`_ accounts. Teams must "
+"use these credentials to log into the system, and then may ask questions. "
+"Anyone may create a personal account and view or tag questions, but only "
+"accounts provided to teams may ask questions."
+"msgstr """
+"シーズンが始まった後、通常チャレンジが発表されてから2〜3週間程度で `Game Q&A <https://ftc-"
+"qa.firstinspires.org/>`_ "
+"が開通します。この時期からチームは独自のアカウントを使用して質問を提出できます。これらのアカウントは、チームが利用できる `FIRST ダッシュボード "
+"<https://my.firstinspires.org/Dashboard/>`_ "
+"アカウントを通じて提供されます。チームはこれらの資格情報を使ってシステムにログインし、その後質問を提出することができます。個人でもプライベートなアカウントを作成し、質問を見たりタグ付けしたりすることはできますが、質問を提出できるのはチームに提供されたアカウントのみです。"
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:24
+msgid ""
+"Obtaining the team credentials for the question-asking team accounts can "
+"only be done by the Lead Coach 1 or 2 by selecting \"Passwords/Voucher "
+"Codes\" from the \"Payment & Product\" drop-down in the \"Team Options\" "
+"column of the team information in the `FIRST Dashboard "
+"<https://my.firstinspires.org/Dashboard/>`_. The Q&A website credentials for"
+" the team will be listed under the \"Game Q&A Forum Accounts\" section of "
+"the resulting webpage."
+"msgstr ""
+"チームのアカウント（質問投げ込み用）のパスワードやクーポンコードは、FIRST ダッシュボードの「Team Information」欄内の「Team Options」列で「Payment & Product」ドロップダウンから「Passwords/Voucher Codes」を選択し、Lead Coach 1 や 2 が取得できます。チームの Q&A ウェブサイトのアカウント情報は、結果画面の「Game Q&A Forum Accounts」セクションで確認できます。"
+""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:32
+msgid "Game Q&A Summary"
+"msgstr "ゲームQ&A概要""
+
+#: ../../source/game_specific_resources/ftcqa/ftcqa.rst:34
+msgid ""
+"The Game Q&A tool periodically provides updates to their \"`one-page summary"
+" <https://ftc-qa.firstinspires.org/onepage.html>`_\" of all answered "
+"questions. This one-page summary is not guaranteed to contain all questions "
+"and answers, and is also not guaranteed to be updated on a regular basis, "
+"but it is the best way to obtain a printable format of the questions and "
+"answers on the forum."
+"msgstr """
+"The Game Q&Aツールは定期的に、すべての回答された質問の一覧を含む\"`一ページサマリー <https://ftc-"
+"qa.firstinspires.org/onepage.html>`_\"を更新します。この一覧には必ずしもすべての質問と回答が含まれていないことを保証するものではなく、また定期的に更新されることも保証されませんが、フォーラム上の質問と回答を印刷可能な形式で入手する最良の方法です。"

@@ -12,49 +12,54 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:2
 msgid "Managing a Driver Hub"
-msgstr ""
+msgstr "ドライバー・ハブの管理"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:5
 msgid "REV Driver Hub"
-msgstr ""
+msgstr "REV ドライバーハブ"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:7
 msgid ""
 "The `REV Driver Hub <https://docs.revrobotics.com/duo-control/control-"
-"system-overview/driver-hub-specifications>`__ is preloaded with the "
-"Driver Station (DS) app. The procedures described below for a REV Driver "
-"Hub, also apply to a using an Android phone as a DS."
+"system-overview/driver-hub-specifications>`__ is preloaded with the Driver "
+"Station (DS) app. The procedures described below for a REV Driver Hub, also "
+"apply to a using an Android phone as a DS."
 msgstr ""
+"REVドライバーハブ`<https://docs.revrobotics.com/duo-control/control-system-"
+"overview/driver-hub-"
+"specifications>`__は、ドライバーステーション（DS）アプリが事前にインストールされています。以下の手順は、 "
+"REVドライバーハブの場合に適用されますが、Android端末を使用したDSの場合は同じ手順を遵循します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:12
 msgid "Changing the Name"
-msgstr ""
+msgstr "名前の変更"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:14
 msgid ""
 "In order to comply with the Competition Manual, the name of the Driver "
-"Station (DS) should be changed. Configure devices for your team number. "
-"The ROBOT CONTROLLER, DRIVER STATION, and any spares used must be "
+"Station (DS) should be changed. Configure devices for your team number. The "
+"ROBOT CONTROLLER, DRIVER STATION, and any spares used must be "
 "configured/named to correspond to the correct team number as follows:"
 msgstr ""
+"競技マニュアルに従うため、ドライバーステーション（DS）の名前を変更する必要があります。チーム番号に応じてデバイスを設定してください。ロボットコントローラー、ドライバーステーション、および使用される任意のスペアも、正しいチーム番号に対応するように設定/命名する必要があります："
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:18
 msgid "ROBOT CONTROLLER should be named <team number>-RC (e.g., 12345-RC),"
-msgstr ""
+msgstr "ロボットコントローラは、<チーム番号>-RC（例：12345-RC）に命名するべきです。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:20
 msgid "DRIVER STATION should be named <team number>-DS (e.g., 12345-DS), and"
-msgstr ""
+msgstr "ドライバー・ステーションは、<チーム番号>-DS（例：12345-DS）と命名するべきです。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:22
 msgid ""
@@ -62,42 +67,52 @@ msgid ""
 "designator may be added <team number>-<letter>-RC/DS (e.g., 12345-A-DS, "
 "12345-B-DS)"
 msgstr ""
+"もし余裕のROBOT CONTROLLERやDRIVER STATIONが設定されている場合、チーム番号-文字-"
+"RC/DSという形式で識別子を追加できます（例：12345-A-DS, 12345-B-DS）"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:24
 msgid ""
 "Check the current Competition Manual for the rules related to *Control, "
 "Command & Signals System*."
-msgstr ""
+msgstr "*Control, Command & Signals System*に関するルールは、現在の競技マニュアルをご確認ください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:26
 msgid "The Driver Hub name can be changed in the DS app, as described below."
-msgstr ""
+msgstr "ドライバーハブの名前は、以下に説明するようにDSアプリ内で変更できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:28
 msgid ""
 "The steps below are mostly the same if you use an Android phone for your "
 "driver station."
-msgstr ""
+msgstr "以下の手順は、ドライバーステーションにAndroidスマートフォンを使用する場合も大抵同じです。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:30
 msgid ""
 "If you are using phones for your control system :ref:`this link "
-"<programming_resources/shared/configuring_android/Configuring-Your-"
-"Android-Devices:Renaming Your Smartphones>` shows how to rename a "
-"smartphone using the Android Settings activity of the phone."
+"<programming_resources/shared/configuring_android/Configuring-Your-Android-"
+"Devices:Renaming Your Smartphones>` shows how to rename a smartphone using "
+"the Android Settings activity of the phone."
 msgstr ""
+"もしコントロールシステムでスマートフォンを使用している場合、 :ref:`こちらのリンク "
+"<programming_resources/shared/configuring_android/Configuring-Your-Android-"
+"Devices:Renaming Your Smartphones>` "
+"では、電話のAndroid設定アクティビティを使用してスマートフォンを再命名する方法が説明されています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:34
 msgid "Troubleshooting"
-msgstr ""
+msgstr "トラブルシューティング"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:36
 msgid ""
-"If you see a yellow circled exclamation icon on your DS screen and touch "
-"it, a message will pop up temporarily and say \"*DS* does not match *DS*,"
-" see the FTC Competition Manual\". Note: *DS* is the current name of the "
-"Driver Station, and *RC* is the current Robot Controller name."
+"If you see a yellow circled exclamation icon on your DS screen and touch it,"
+" a message will pop up temporarily and say \"*DS* does not match *DS*, see "
+"the FTC Competition Manual\". Note: *DS* is the current name of the Driver "
+"Station, and *RC* is the current Robot Controller name."
 msgstr ""
+"もし、あなたのドライバーステーション（Driver "
+"Station）の画面に黄色い円の中に激突マークのアイコンが表示され、それをタッチすると一時的にメッセージが表示され、「*DS* は *DS* "
+"と一致していません。FTC コンペティションマニュアルを参照してください」という内容になります。注意：*DS* "
+"は現在のドライバーステーションの名前で、*RC* は現在のロボットコントローラーの名前です。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:40
 msgid ""
@@ -105,154 +120,171 @@ msgid ""
 "names to include your team number as indicated above, as required by the "
 "Competition Manual."
 msgstr ""
+"これはDS（ドライバーステーション）とRC（ロボットコントローラ）の名前が一致していないためです。両方の名前を上記のようにチーム番号を含め、競技マニュアルで要求されているように変更してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst
 msgid ""
 "Driver Station screen showing the yellow icon mismatch, and the name "
 "mismatch pop up message."
-msgstr ""
+msgstr "ドライバーステーションの画面に黄色いアイコンが一致しない表示と、名前が一致しないポップアップメッセージが表示されています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:48
 msgid "Changing the Name of a Driver Station Instructions"
-msgstr ""
+msgstr "ドライバーステーションの名前の変更方法"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:50
 msgid ""
-"1. In the Driver Station app, touch the three dots in the upper right "
-"hand corner to display a pop-up menu."
-msgstr ""
+"1. In the Driver Station app, touch the three dots in the upper right hand "
+"corner to display a pop-up menu."
+msgstr "1. ドライバーステーションアプリケーションで、右上隅の3つの点をタッチしてポップアップメニューを表示します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:-1
 msgid ""
 "Driver Station main screen showing the 3 dots highlighted with an orange "
 "circle."
-msgstr ""
+msgstr "ドライバーステーションのメイン画面で、3つの点がオレンジ色の円でハイライトされています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:59
 msgid "Select the *Settings* menu item from the pop-up menu."
-msgstr ""
+msgstr "ポップアップメニューから「設定」を選択してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:-1
 msgid ""
-"Driver Station main pop-up menu showing the Settings option highlighted "
-"with an orange circle."
-msgstr ""
+"Driver Station main pop-up menu showing the Settings option highlighted with"
+" an orange circle."
+msgstr "ドライバーステーションのメインポップアップメニューに、設定オプションがオレンジ色の円でハイライトされています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:67
-msgid "3. Click on *Driver Station Name* on the *DRIVER STATION SETTINGS* page."
-msgstr ""
+msgid ""
+"3. Click on *Driver Station Name* on the *DRIVER STATION SETTINGS* page."
+msgstr "3. *ドライバー・ステーション名* を *ドライバー・ステーション設定* ページでクリックします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:-1
 msgid ""
-"Driver Station settings screen showing the Driver Station Name "
-"highlighted with an orange circle."
-msgstr ""
+"Driver Station settings screen showing the Driver Station Name highlighted "
+"with an orange circle."
+msgstr "ドライバーステーション設定画面で、ドライバーステーション名がオレンジ色の円で強調表示されています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:76
 msgid ""
-"4. Specify the new Driver Station Name and press *OK* to accept the "
-"changes."
-msgstr ""
+"4. Specify the new Driver Station Name and press *OK* to accept the changes."
+msgstr "4. 新しいドライバーステーション名を指定し、「OK」を押して変更を承認してください。\\n"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:-1
 msgid ""
 "Driver Station Name pop-up screen that allows you to enter or change the "
 "name."
-msgstr ""
+msgstr "ドライバーステーション名入力ポップアップスクリーン（名称の変更も可能です）"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:87
 msgid "Updating the Driver Station App"
-msgstr ""
+msgstr "ドライバーステーションアプリの更新"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:89
 msgid ""
 "It is important to know how to update the Driver Station app that is "
-"installed on your device. *FIRST* periodically releases new versions of "
-"this app, which contain improvements and fixes, as well as season-"
-"specific data and features."
+"installed on your device. *FIRST* periodically releases new versions of this"
+" app, which contain improvements and fixes, as well as season-specific data "
+"and features."
 msgstr ""
+"デバイスにインストールされているドライバーステーションアプリケーションを更新する方法を知ることは重要です。*FIRST*は、改善と修正を含む新しいバージョンのアプリケーションを定期的にリリースしており、これは季節ごとのデータや機能も含まれています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:94
 msgid ""
 "Note that you can see the Driver Station app version number through the "
-"Driver Station user interface. Select the *About* menu option on the "
-"Driver Station and note the App Version number under the *ABOUT DRIVER "
-"STATION* section."
+"Driver Station user interface. Select the *About* menu option on the Driver "
+"Station and note the App Version number under the *ABOUT DRIVER STATION* "
+"section."
 msgstr ""
+"ドライバー ステーション アプリケーションのバージョン番号は、ドライバー ステーションのユーザー インターフェースから確認できます。ドライバー "
+"ステーションで *About* メニューを選択し、*ABOUT DRIVER STATION* セクションの App Version "
+"番号を確認してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:-1
 msgid ""
 "Driver Station About screen showing the App Version highlighted with an "
 "orange circle."
-msgstr ""
+msgstr "ドライバーステーションの「 ABOUT 」画面で、アプリバージョンがオレンジ色の円でハイライトされています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:105
 msgid ""
-"As of 2021, all apps (v 6.1 and higher) are no longer available on Google"
-" Play."
-msgstr ""
+"As of 2021, all apps (v 6.1 and higher) are no longer available on Google "
+"Play."
+msgstr "2021年以降、すべてのアプリ（バージョン6.1以上）はGoogle Playから利用できなくなりました。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:108
 msgid ""
 "The `REV Hardware Client software <https://docs.revrobotics.com/rev-"
 "hardware-client/>`__ will allow you to download the apps to approved "
-"devices: REV Control Hub, REV Expansion Hub, REV Driver Hub, and approved"
-" Android devices. Here are some of the benefits:"
+"devices: REV Control Hub, REV Expansion Hub, REV Driver Hub, and approved "
+"Android devices. Here are some of the benefits:"
 msgstr ""
+"REV Hardware Clientソフトウェア `REVハードウェアクライアントソフトウェア "
+"<https://docs.revrobotics.com/rev-hardware-client/>`__ では、承認されたデバイス（REV "
+"Control Hub, REV Expansion Hub, REV Driver "
+"Hub、および承認されたAndroidデバイス）にアプリケーションをダウンロードできます。以下はその一部の利点です："
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:113
 msgid "Connect a REV Control Hub via WiFi."
-msgstr ""
+msgstr "REV Control HubのWiFi経由で接続します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:114
 msgid "One Click update of all software on connected devices."
-msgstr ""
+msgstr "接続されたデバイスすべてのソフトウェアのワンクリック更新。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:115
 msgid "Pre-download software updates without a connected device."
-msgstr ""
+msgstr "接続されたデバイスなしでソフトウェア更新を事前にダウンロードします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:116
 msgid "Back up and restore user data from Control Hub."
-msgstr ""
+msgstr "Control Hubからユーザーデータのバックアップと復元を行います。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:117
 msgid "Install and switch between DS and RC applications on Android Devices."
 msgstr ""
+"Androidデバイス上でDriver StationとRobot Controllerアプリケーションのインストールと切り替えを行います。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:118
 msgid "Access the Robot Control Console on the Control Hub."
-msgstr ""
+msgstr "コントロールハブからロボット制御コンソールにアクセスします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:120
 msgid ""
 "All teams using Blocks, OnBot Java or Android Studio can use the REV "
 "Hardware Client to update the Driver Station (DS) app on a DS phone."
 msgstr ""
+"すべてのブロックを使用するチーム、OnBot Javaを使用するチーム、またはAndroid Studioを使用するチームは、REV Hardware "
+"Clientを使ってドライバーステーション（DS）アプリをDS電話に更新することができます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:123
 msgid ""
 "NOTE: it will take an estimated 7.5 minutes per device to complete this "
 "task."
-msgstr ""
+msgstr "NOTE: 設備ごとにこのタスクを完了するのに約7分30秒かかります。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:126
 msgid ""
-"As an alternate, the app releases are available on the "
-"`FTCRobotController Github <https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController/releases>`__. Download the Driver Station "
-"APK file to a computer, transfer it to the DS phone's Downloads folder, "
-"then open that file to install the DS app. This process is called \"side-"
+"As an alternate, the app releases are available on the `FTCRobotController "
+"Github <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/releases>`__. Download the Driver Station APK "
+"file to a computer, transfer it to the DS phone's Downloads folder, then "
+"open that file to install the DS app. This process is called \"side-"
 "loading\"."
 msgstr ""
+"代わりに、アプリのリリースは `FTCロボットコントローラー GitHub <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/releases>`__ で利用可能です。Driver Station "
+"APKファイルをコンピュータにダウンロードし、DS電話のDownloadsフォルダに転送した後、そのファイルを開いてDSアプリケーションをインストールします。このプロセスは「サイドローディング」と呼ばれます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:132
 msgid ""
-"If you update the Driver Station (DS) app, you should also update the "
-"Robot Controller (RC) app to the same version number. That process is "
-"different for Android Studio teams; updating RC phones is described "
-":ref:`found here "
-"<programming_resources/shared/managing_smartphone_rc/Managing-a"
-"-Smartphone-Robot-Controller:Updating the Robot Controller App>`"
+"If you update the Driver Station (DS) app, you should also update the Robot "
+"Controller (RC) app to the same version number. That process is different "
+"for Android Studio teams; updating RC phones is described :ref:`found here "
+"<programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-"
+"Robot-Controller:Updating the Robot Controller App>`"
 msgstr ""
-
+"もしドライバーステーション（DS）アプリを更新する場合、ロボットコントローラー（RC）アプリも同じバージョン番号に更新することをお勧めします。そのプロセスはAndroid"
+" Studioチームでは異なるため、RCスマートフォンのアップデートについては :ref:`こちら "
+"<programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-"
+"Robot-Controller:Updating the Robot Controller App>` で説明されています。"

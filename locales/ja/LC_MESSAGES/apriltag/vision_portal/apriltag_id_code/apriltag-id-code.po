@@ -12,103 +12,126 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:2
 msgid "AprilTag ID Codes"
-msgstr ""
+msgstr "AprilTag ID コード"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:4
 msgid ""
 "After the AprilTag Processor and VisionPortal have been **initialized**, "
 "your OpMode can begin tag detection."
 msgstr ""
+"AprilTag プロセッサーと VisionPortal が **初期化** された後、あなたのオペモードはタグ検出を開始することができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:7
 msgid ""
-"Let's start with the simple task of retrieving the **ID code** of a "
-"detected AprilTag.  For tag family 36h11, the numeric ID code ranges from"
-" 0 to 586. The FTC SDK can provide over 30 fields per detected AprilTag, "
-"if that tag's size was provided (thus eligible for pose estimation).  "
-"Otherwise only tag ID code is available."
+"Let's start with the simple task of retrieving the **ID code** of a detected"
+" AprilTag.  For tag family 36h11, the numeric ID code ranges from 0 to 586. "
+"The FTC SDK can provide over 30 fields per detected AprilTag, if that tag's "
+"size was provided (thus eligible for pose estimation).  Otherwise only tag "
+"ID code is available."
 msgstr ""
+"まず、検出されたAprilTagの**IDコード**を取得する簡単なタスクから始めましょう。tag family "
+"36h11の場合、数値IDコードは0から586までの範囲になります。FTC "
+"SDKでは、タグのサイズが提供されている場合（したがってポーズ推定に適している場合）、検出された各AprilTagに対して30項目以上のフィールドを提供できます。ただし、タグのサイズが提供されていない場合は、Only"
+" タグIDコードのみが利用可能です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst
 msgid "Blocks"
-msgstr ""
+msgstr "ブロック"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst
 msgid "AprilTag ID Code"
-msgstr ""
+msgstr "AprilTag IDコード"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:22
 msgid "Highlighting blocks for getting AprilTag ID Code"
-msgstr ""
+msgstr "AprilTag IDコードをハイライトするブロックの強調表示"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:27
 msgid "Example of retrieving AprilTag ID"
-msgstr ""
+msgstr "AprilTag ID の取得例"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:34
 msgid ""
 "Since the camera might see multiple AprilTags at once, retrieving any "
-"field(s) is usually done with a **`for() loop`**.  The loop can process "
-"each detection, one at a time:"
+"field(s) is usually done with a **`for() loop`**.  The loop can process each"
+" detection, one at a time:"
 msgstr ""
+"カメラが一度に複数のAprilTagを認識する可能性があるため、フィールドの取得は通常、**`for() ループ`** "
+"を使用して行われます。ループは各検出結果を順次処理します："
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst
 msgid "AprilTag FOR Loop"
-msgstr ""
+msgstr "4月タグFORループ"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:47
 msgid "All AprilTag Detections being read in a FOR Loop"
-msgstr ""
+msgstr "すべてのAprilTag検出結果がFORループ内で読み込まれています"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:49
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:79
 msgid ""
-"This code snippet assumes ``myAprilTagProcessor`` and VisionPortal have "
-"been initialized, as described at previous pages **Processor "
-"Initialization** and **VisionPortal Initialization**."
-msgstr ""
+"This code snippet assumes ``myAprilTagProcessor`` and VisionPortal have been"
+" initialized, as described at previous pages **Processor Initialization** "
+"and **VisionPortal Initialization**."
+"msgstr ""
+"このコードスニペットは、前のページ **Processor Initialization** および **VisionPortal Initialization** で説明したとおりに ``myAprilTagProcessor`` と VisionPortal が初期化されていることを前提としています。"
+""
+"このコードスニペットでは、以前のページ **Processor Initialization** と **VisionPortal Initialization** で説明したように ``myAprilTagProcessor`` および VisionPortal が初期化されていることを前提としています。"
+""
+"このコードスニペットは、前のページ **Processor Initialization** および **VisionPortal Initialization** で説明したとおり ``myAprilTagProcessor`` と VisionPortal が初期化されていることを前提としています。"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:56
 msgid "Example reading all detected AprilTags in a FOR Loop"
-msgstr ""
+"msgstr ""
+"例示: FOR ループで検出されたすべての AprilTag を読み取り"
+""
+"例で検出されたすべてのAprilTagをFORループ内で読み込む"
+""
+"例：FOR ループ内で検出されたすべての AprilTag を読み取ります"
+""
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:83
 msgid ""
-"The OpMode should take the desired action for each AprilTag **inside** "
-"the ``for() loop``, or store information for later action.  In the above "
-"example, the variable ``myAprilTagIdCode`` receives the different values "
-"of each detection, ending with only the **last tag's value**."
+"The OpMode should take the desired action for each AprilTag **inside** the "
+"``for() loop``, or store information for later action.  In the above "
+"example, the variable ``myAprilTagIdCode`` receives the different values of "
+"each detection, ending with only the **last tag's value**."
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:88
 msgid ""
-"By default, the FTC SDK recognizes the ID code of **any** 36h11 AprilTag,"
-" even if the OpMode did not place that tag in the AprilTag Library.  Some"
-" tags are placed in the Library automatically by the SDK: for example, ID"
-" codes 583-586 used by Sample OpModes."
+"By default, the FTC SDK recognizes the ID code of **any** 36h11 AprilTag, "
+"even if the OpMode did not place that tag in the AprilTag Library.  Some "
+"tags are placed in the Library automatically by the SDK: for example, ID "
+"codes 583-586 used by Sample OpModes."
 msgstr ""
+"デフォルトでは、FTC SDK は **任意の** 36h11 AprilTag のIDコードを認識し、OpMode がAprilTag "
+"Libraryにそのタグを入れなくても同様です。SDKによって自動的にLibraryに追加される一部のタグも存在します：例えば、サンプルOpModeで使用されるIDコード583-586など。"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:93
 msgid ""
-"An OpMode can also place other tags in a Library, to supplement or "
-"overwrite default tags.  This is covered further at the **Library** page."
+"An OpMode can also place other tags in a Library, to supplement or overwrite"
+" default tags.  This is covered further at the **Library** page."
 msgstr ""
+"オペレーションモードはライブラリに他のタグも配置し、デフォルトのタグを補完したり上書きすることもできます。詳細は **ライブラリ** "
+"ページで説明されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:98
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
 msgstr ""
-
+"FIRST Tech Challengeの質問、ご意見や訂正はwestsiderobotics@verizon.netまでお願いいたします。"
