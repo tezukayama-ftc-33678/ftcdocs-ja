@@ -385,7 +385,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:215
 msgid ""
-"The Sample OpMode then creates a **VisionPortal**, again using a Builder "
+"The Sample OpMode then creates a VisionPortal, again using a Builder "
 "pattern.  This includes adding the \"Predominant Color\" Processor to the"
 " VisionPortal."
 msgstr ""
@@ -604,7 +604,7 @@ msgid "Next Sections"
 msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:395
-msgid "Soon you can move ahead to try the **Color Locator** processor."
+msgid "Soon you can move ahead to try the Color Locator processor."
 msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:397

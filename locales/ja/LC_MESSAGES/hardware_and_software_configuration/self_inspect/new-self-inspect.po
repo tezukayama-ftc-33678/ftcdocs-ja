@@ -196,11 +196,11 @@ msgid ""
 msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:86
-msgid "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub."
+msgid "Item 2 ``Manufacturer`` should be REV Robotics for a REV Driver Hub."
 msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:87
-msgid "Item 3 ``Model`` should be **Driver Hub**."
+msgid "Item 3 ``Model`` should be Driver Hub."
 msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:88
@@ -349,7 +349,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:141
 msgid ""
-"Now we change to **Robot Controller** Self Inspect report. This is "
+"Now we change to Robot Controller Self Inspect report. This is "
 "normally viewed from the Driver Station by selecting the **Inspect Robot "
 "Controller** menu option on the Inspection Reports DS screen. FYI - if "
 "you connect an external monitor to the Control Hub's HDMI port and a "
@@ -373,7 +373,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:154
-msgid "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Control Hub."
+msgid "Item 2 ``Manufacturer`` should be REV Robotics for a REV Control Hub."
 msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:155

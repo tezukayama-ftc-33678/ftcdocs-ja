@@ -119,13 +119,13 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:33
 msgid ""
-"**Camera Stream** \"Level 3\": high reduction of resources used, resumes "
+"Camera Stream \"Level 3\": high reduction of resources used, resumes "
 "less quickly after stopping"
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:34
 msgid ""
-"**VisionPortal** \"Level 4\": maximum reduction of resources used, do not"
+"VisionPortal \"Level 4\": maximum reduction of resources used, do not"
 " resume after stopping"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgstr ""
 msgid ""
 "As noted at the **Previews** page, LiveView refers only to the **Robot "
 "Controller** preview.  It's completely separate from the Driver Station "
-"(DS) **Camera Stream**, which still operates normally even if LiveView is"
+"(DS) Camera Stream, which still operates normally even if LiveView is"
 " stopped (manually or automatically)."
 msgstr ""
 

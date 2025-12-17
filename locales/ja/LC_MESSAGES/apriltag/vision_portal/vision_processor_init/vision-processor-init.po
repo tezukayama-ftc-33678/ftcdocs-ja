@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:29
 msgid ""
-"Create the FTC **VisionPortal**, to manage the overall pipeline. Here you"
+"Create the FTC VisionPortal, to manage the overall pipeline. Here you"
 " specify that the Portal includes the AprilTag and/or TFOD Processor(s) "
 "from Step 2. The two Processors evaluate camera frames independently."
 msgstr ""
@@ -199,7 +199,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:150
 msgid ""
 "The Builder is going to look a little different depending on if you are "
-"using the **Color Sensor** or the **Color Locator**. For more "
+"using the **Color Sensor** or the Color Locator. For more "
 "information, see the :doc:`Color Processing Documentation "
 "</color_processing/index>`."
 msgstr ""

@@ -30,7 +30,7 @@ msgid ""
 "Hub. We will connect a REV Robotics Color-Distance sensor to the I2C bus "
 "#0 on the Hub."
 msgstr ""
-"Hub には 4 つの独立した I2C バスがあります。各バスには Hub 上に独自のポートがあります。**REV Robotics** 色距離センサーを Hub の I2C バス #0 に接続します。"
+"Hub には 4 つの独立した I2C バスがあります。各バスには Hub 上に独自のポートがあります。REV Robotics 色距離センサーを Hub の I2C バス #0 に接続します。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:8
 msgid "Note that it will take an estimated 2.5 minutes to complete this task."
@@ -45,7 +45,7 @@ msgid ""
 "1. Connect one end of the 4-pin JST PH cable to the REV Robotics Color-"
 "Distance sensor."
 msgstr ""
-"1. 4 ピン JST PH ケーブルの一端を **REV Robotics** 色距離センサーに接続します。"
+"1. 4 ピン JST PH ケーブルの一端を REV Robotics 色距離センサーに接続します。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_color/connecting-color.rst:22
 msgid ""

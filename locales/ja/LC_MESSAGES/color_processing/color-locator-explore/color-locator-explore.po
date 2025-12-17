@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:36
 msgid ""
-"The Sample OpMode then creates a **VisionPortal**, again using a Builder "
+"The Sample OpMode then creates a VisionPortal, again using a Builder "
 "pattern.  This includes adding the \"Color Blob Locator\" Processor to "
 "the VisionPortal."
 msgstr ""
