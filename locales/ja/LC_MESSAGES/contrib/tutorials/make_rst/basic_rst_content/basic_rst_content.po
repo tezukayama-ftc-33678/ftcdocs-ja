@@ -86,7 +86,7 @@ msgstr "内部リンク_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:29
 msgid "`Links with Anchors`_"
-msgstr "アンカー付きのリンク_`"
+msgstr "アンカー付きのリンク_``"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:30
 msgid "`Referencing Sections`_"
@@ -125,17 +125,17 @@ msgstr "リスト_"
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:44
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:688
 msgid "`Bulleted Lists`_"
-msgstr "箇条書きリスト_`"
+msgstr "箇条書きリスト_``"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:45
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:689
 msgid "`Enumerated Lists`_"
-msgstr "列挙されたリスト_`"
+msgstr "列挙されたリスト_``"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:46
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:690
 msgid "`Definition Lists`_"
-msgstr "定義リスト_`"
+msgstr "定義リスト_``"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:48
 msgid "Okay, so now let's cover these topics one by one."
@@ -761,7 +761,7 @@ msgstr "**以下はそのレンダリング方法です（リンクをクリッ�
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:488
 msgid "`Basic rST Content`_"
-msgstr "基本的なreStructuredTextコンテンツ_`"
+msgstr "基本的なreStructuredTextコンテンツ_``"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:490
 msgid "Pretty easy!"
@@ -837,7 +837,7 @@ msgstr "それでは、角括弧で囲まれたURL（\\< \\>）を定義しま�
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:530
 msgid "Followed by another ` (back tick) symbol"
-msgstr "また、` (バックティック) 記号が続きます"
+msgstr "また、` (バックティック) 記号が続きます`"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:531
 msgid "Followed by an _ (underscore) character"

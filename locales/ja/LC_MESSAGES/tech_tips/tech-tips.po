@@ -626,7 +626,7 @@ msgstr ""
 msgid ""
 "For stall torque, provide the value and select the unit as specified by the "
 "manufacturer. If the manufacturer merely provides kg, assume kg*cm."
-msgstr "ストールトルクについては、製造元が指定した値と単位を提供し、kgのみが記載されている場合はkg*cmとして仮定してください。"
+msgstr "ストールトルクについては、製造元が指定した値と単位を提供し、kgのみが記載されている場合はkg*cmとして仮定してください。*"
 
 #: ../../source/tech_tips/tech-tips.rst:601
 msgid ""
