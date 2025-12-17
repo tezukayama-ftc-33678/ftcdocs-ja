@@ -1,11 +1,12 @@
-技術メンターリソース
+Technical Mentor Resources
 ============================
 
-*FIRST* Tech Challenge の技術メンターの皆様へようこそ！リソースは種類別に整理されており、
-シーズンを通じてチームと共に組織的に、そして成功裏に活動できるよう支援します。
-これらのリソースは、技術分野での経験があり、スキルを向上させたいチームとメンター向けに調整されています。
-技術リソースは、業界標準の認定資格への足がかりともなります。
-探索したいリソースのボタンをクリックしてください！
+Welcome technical mentors to *FIRST* Tech Challenge! Resources have been
+organized by type to help you stay organized and be successful with teams
+throughout the season. These resources are tailored to teams and mentors with
+experience in technical fields looking to elevate their skills.  The technical
+resources are also a stepping stone towards industry standard certifications.
+Just click on the button for the resource you want to explore!
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -14,11 +15,11 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      制御システムリソース
+      Control System Resources
 
       ^^^
 
-      制御システムリソースはこちらをご覧ください。
+      Look for Control System resources here.
 
       +++
       
@@ -32,17 +33,17 @@
                :outline:
                :expand:
 
-               FTC 制御システム
+               FTC Control System
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      機械リソース
+      Mechanical Resources
 
       ^^^
 
-      機械工学とロボット製作リソース
+      Mechanical engineering and robot building resources
       
       +++
       
@@ -55,17 +56,17 @@
                :outline:
                :expand:
 
-               ロボット製作リソース (外部リンク)
+               Robot Building Resources (external) 
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      :doc:`プログラミングリソース <../../programming_resources/index>`
+      :doc:`Programming Resources <../../programming_resources/index>`
 
       ^^^
 
-      プログラミングリソースへのリンク。
+      Links to programming resources.
 
       +++
       
@@ -78,17 +79,17 @@
                :outline:
                :expand:
 
-               プログラミングリソース
+               Programming Resources
          
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      :doc:`CAD リソース <../../cad_resources/index>` 
+      :doc:`CAD Resources <../../cad_resources/index>` 
 
       ^^^
 
-      コンピューター支援設計 (CAD) ソフトウェアのリソースはこちらをご覧ください。
+      Look for resources for Computer-Aided Design (CAD) software.
       
       +++
       
@@ -102,4 +103,4 @@
                :outline:
                :expand:
 
-               CAD リソース   
+               CAD Resources   

@@ -1,9 +1,10 @@
-コーチ（管理）リソース
+Coach (Administrative) Resources
 ================================
 
-*FIRST* Tech Challenge コーチのページへようこそ！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。
-これらのリソースは、*FIRST* の精神を推進しながら、チームを管理するコーチや管理者のニーズに焦点を当てています。
-探索したいリソースのボタンをクリックしてください！
+Welcome to the *FIRST* Tech Challenge coach's page! Resources have been organized by
+type to help your team stay organized and be successful throughout the season.
+These resources are focused on the coach or administrator needs to manage the
+team while promoting *FIRST*'s ethos. Just click on the button for the resource you want to explore!
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -12,12 +13,12 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      *FIRST* コアバリュー
+      *FIRST* Core Values
 
       ^^^
 
-      私たちは、*FIRST* の哲学である Gracious Professionalism（グレイシャス・プロフェッショナリズム）と 
-      Coopertition（クーパティション）をコアバリューを通じて表現します。
+      We express the *FIRST* philosophies of Gracious Professionalism 
+      and Coopertition through our Core Values.
       
       +++
 
@@ -43,7 +44,7 @@
                :outline:
                :expand:
 
-               Coopertition (外部リンク)
+               Coopertition (external)
 
       .. div:: container-fluid p-0
 
@@ -55,18 +56,18 @@
                :outline:
                :expand:
 
-               コアバリュー (外部リンク)
+               Core Values (external)
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      *FIRST* ダッシュボードリンク
+      *FIRST* Dashboard Links
 
       ^^^
 
-      登録と購入に関するFAQをご覧ください。チーム登録には、firstinspires.org の *FIRST* 
-      ダッシュボードアカウントへのアクセスが必要です。
+      Discover registration and purchasing FAQs. Team Registration requires *FIRST* 
+      Dashboard account access on firstinspires.org.
    
       +++
 
@@ -79,7 +80,7 @@
                :outline:
                :expand:
 
-               チームを登録する (外部ログイン)
+               Register Your Team (External Login)
  
          .. div:: col-sm pl-1 pr-1
 
@@ -88,17 +89,17 @@
                :outline:
                :expand:
 
-               ユース登録 (外部リンク)
+               Youth Registration (external)
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      チーム管理
+      Team Management
 
       ^^^
 
-      チームにペースの良い成功したシーズンを提供するためのリソース。
+      Resources to provide your team a well-paced and successful season.
 
       +++
 
@@ -111,17 +112,17 @@
                :outline:
                :expand:
 
-               チーム管理リソース (外部リンク)
+               Team Management Resources (External)
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      コーチガイダンス
+      Coach Guidance
 
       ^^^
 
-      新しいコーチのためのベストプラクティスをご覧ください。
+      Discover the best practices for new coaches.
 
       +++
 
@@ -134,17 +135,17 @@
                :outline:
                :expand:
 
-               メンターマニュアル (外部 PDF)
+               Mentor Manual (External PDF)
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      イベント前チェックリスト
+      Pre-Event Checklists
 
       ^^^
 
-      競技会に備えるためのシンプルなチェックリスト。リンクされたページの「競技会の準備」の見出しを参照してください。
+      Simple checklists to prepare for competition. See the Preparing for Competition heading on the linked page.
 
       +++
 
@@ -157,5 +158,5 @@
                :outline:
                :expand:
 
-               競技会の準備 (外部リンク)
+               Preparing for Competition (External)
 

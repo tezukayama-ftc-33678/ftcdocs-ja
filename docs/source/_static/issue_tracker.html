@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翻訳問題トラッカー - FTC Docs 日本語版</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        input[type="text"],
+        input[type="url"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+        
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 25px;
+        }
+        
+        button {
+            flex: 1;
+            padding: 14px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #f5f5f5;
+            color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+        
+        .btn-export {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+        }
+        
+        .btn-export:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(17, 153, 142, 0.4);
+        }
+        
+        .issues-list {
+            margin-top: 30px;
+        }
+        
+        .issue-item {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s;
+        }
+        
+        .issue-item:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateX(5px);
+        }
+        
+        .issue-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+        
+        .issue-type {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+        }
+        
+        .type-translation { background: #f093fb; }
+        .type-structure { background: #f5576c; }
+        .type-build { background: #fa709a; }
+        .type-other { background: #764ba2; }
+        
+        .issue-page {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .issue-url {
+            font-size: 12px;
+            color: #666;
+            word-break: break-all;
+        }
+        
+        .issue-url a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .issue-url a:hover {
+            text-decoration: underline;
+        }
+        
+        .issue-description {
+            margin-top: 10px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .issue-meta {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .delete-btn {
+            background: #ff4757;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.3s;
+        }
+        
+        .delete-btn:hover {
+            background: #ff3838;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        
+        .empty-state svg {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-card {
+            flex: 1;
+            min-width: 120px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 翻訳問題トラッカー</h1>
+            <p>FTC Docs 日本語版の翻訳問題を記録・管理するツール</p>
+        </div>
+        
+        <div class="content">
+            <form id="issueForm">
+                <div class="form-group">
+                    <label for="pageTitle">ページタイトル *</label>
+                    <input type="text" id="pageTitle" placeholder="例: index.rst (トップページ)" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="pageUrl">ページURL</label>
+                    <input type="url" id="pageUrl" placeholder="https://ftc-docs-ja.example.com/...">
+                </div>
+                
+                <div class="form-group">
+                    <label for="issueType">問題の種類 *</label>
+                    <select id="issueType" required>
+                        <option value="">選択してください</option>
+                        <option value="translation">翻訳の誤り</option>
+                        <option value="structure">構造の崩れ</option>
+                        <option value="build">ビルドエラー</option>
+                        <option value="other">その他</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="description">問題の詳細 *</label>
+                    <textarea id="description" placeholder="どのような問題があるか具体的に記述してください..." required></textarea>
+                </div>
+                
+                <div class="button-group">
+                    <button type="submit" class="btn-primary">📝 問題を記録</button>
+                    <button type="button" onclick="clearForm()" class="btn-secondary">🔄 フォームをクリア</button>
+                </div>
+            </form>
+            
+            <div class="issues-list">
+                <h2 style="margin-bottom: 20px; color: #333;">記録された問題</h2>
+                <div class="stats" id="stats"></div>
+                <div id="issuesList"></div>
+            </div>
+            
+            <div class="button-group" style="margin-top: 30px;">
+                <button onclick="exportToJSON()" class="btn-export">💾 JSONエクスポート</button>
+                <button onclick="exportToMarkdown()" class="btn-export">📄 Markdownエクスポート</button>
+                <button onclick="clearAllIssues()" class="btn-secondary">🗑️ 全て削除</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // LocalStorageに問題を保存
+        let issues = JSON.parse(localStorage.getItem('ftcDocsIssues') || '[]');
+        
+        // ページロード時に問題リストを表示
+        displayIssues();
+        
+        // フォーム送信
+        document.getElementById('issueForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const issue = {
+                id: Date.now(),
+                pageTitle: document.getElementById('pageTitle').value,
+                pageUrl: document.getElementById('pageUrl').value,
+                issueType: document.getElementById('issueType').value,
+                description: document.getElementById('description').value,
+                timestamp: new Date().toISOString()
+            };
+            
+            issues.push(issue);
+            localStorage.setItem('ftcDocsIssues', JSON.stringify(issues));
+            
+            clearForm();
+            displayIssues();
+            
+            // 成功メッセージ
+            alert('✅ 問題を記録しました！');
+        });
+        
+        function clearForm() {
+            document.getElementById('issueForm').reset();
+        }
+        
+        function displayIssues() {
+            const issuesList = document.getElementById('issuesList');
+            const stats = document.getElementById('stats');
+            
+            if (issues.length === 0) {
+                issuesList.innerHTML = `
+                    <div class="empty-state">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                        <p>まだ問題は記録されていません</p>
+                    </div>
+                `;
+                stats.innerHTML = '';
+                return;
+            }
+            
+            // 統計情報
+            const typeCounts = {
+                translation: issues.filter(i => i.issueType === 'translation').length,
+                structure: issues.filter(i => i.issueType === 'structure').length,
+                build: issues.filter(i => i.issueType === 'build').length,
+                other: issues.filter(i => i.issueType === 'other').length
+            };
+            
+            stats.innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-number">${issues.length}</div>
+                    <div class="stat-label">総問題数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${typeCounts.translation}</div>
+                    <div class="stat-label">翻訳の誤り</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${typeCounts.structure}</div>
+                    <div class="stat-label">構造の崩れ</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${typeCounts.build}</div>
+                    <div class="stat-label">ビルドエラー</div>
+                </div>
+            `;
+            
+            // 問題リスト（新しい順）
+            issuesList.innerHTML = issues.slice().reverse().map(issue => {
+                const typeLabels = {
+                    translation: '翻訳の誤り',
+                    structure: '構造の崩れ',
+                    build: 'ビルドエラー',
+                    other: 'その他'
+                };
+                
+                return `
+                    <div class="issue-item">
+                        <div class="issue-header">
+                            <div>
+                                <span class="issue-type type-${issue.issueType}">${typeLabels[issue.issueType]}</span>
+                                <div class="issue-page">${escapeHtml(issue.pageTitle)}</div>
+                                ${issue.pageUrl ? `<div class="issue-url"><a href="${escapeHtml(issue.pageUrl)}" target="_blank">${escapeHtml(issue.pageUrl)}</a></div>` : ''}
+                            </div>
+                            <button class="delete-btn" onclick="deleteIssue(${issue.id})">削除</button>
+                        </div>
+                        <div class="issue-description">${escapeHtml(issue.description)}</div>
+                        <div class="issue-meta">記録日時: ${new Date(issue.timestamp).toLocaleString('ja-JP')}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function deleteIssue(id) {
+            if (confirm('この問題を削除してもよろしいですか？')) {
+                issues = issues.filter(issue => issue.id !== id);
+                localStorage.setItem('ftcDocsIssues', JSON.stringify(issues));
+                displayIssues();
+            }
+        }
+        
+        function clearAllIssues() {
+            if (confirm('すべての問題を削除してもよろしいですか？この操作は元に戻せません。')) {
+                issues = [];
+                localStorage.setItem('ftcDocsIssues', JSON.stringify(issues));
+                displayIssues();
+                alert('✅ すべての問題を削除しました。');
+            }
+        }
+        
+        function exportToJSON() {
+            const dataStr = JSON.stringify(issues, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `ftc-docs-issues-${new Date().toISOString().split('T')[0]}.json`;
+            link.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        function exportToMarkdown() {
+            const typeLabels = {
+                translation: '翻訳の誤り',
+                structure: '構造の崩れ',
+                build: 'ビルドエラー',
+                other: 'その他'
+            };
+            
+            let markdown = `# FTC Docs 日本語版 翻訳問題リスト\n\n`;
+            markdown += `生成日時: ${new Date().toLocaleString('ja-JP')}\n\n`;
+            markdown += `総問題数: ${issues.length}\n\n`;
+            markdown += `---\n\n`;
+            
+            issues.forEach((issue, index) => {
+                markdown += `## ${index + 1}. ${issue.pageTitle}\n\n`;
+                markdown += `- **種類**: ${typeLabels[issue.issueType]}\n`;
+                if (issue.pageUrl) {
+                    markdown += `- **URL**: ${issue.pageUrl}\n`;
+                }
+                markdown += `- **記録日時**: ${new Date(issue.timestamp).toLocaleString('ja-JP')}\n\n`;
+                markdown += `### 問題の詳細\n\n`;
+                markdown += `${issue.description}\n\n`;
+                markdown += `---\n\n`;
+            });
+            
+            const dataBlob = new Blob([markdown], { type: 'text/markdown' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `ftc-docs-issues-${new Date().toISOString().split('T')[0]}.md`;
+            link.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        function escapeHtml(text) {
+            // Using textContent ensures proper HTML escaping
+            // This prevents XSS by converting special characters like <, >, &, etc.
+            const div = document.createElement('div');
+            div.textContent = text;  // textContent automatically escapes HTML
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>

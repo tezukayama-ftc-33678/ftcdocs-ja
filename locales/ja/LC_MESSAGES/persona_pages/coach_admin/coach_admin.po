@@ -4,7 +4,10 @@
 # Challenge Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
+# NOTE: This file is intentionally left empty.
+# The persona pages (rookie_teams, veteran_teams, coach_admin, mentor_tech)
+# are manually translated and do not use .po translation.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
@@ -19,95 +22,3 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:2
-msgid "Coach (Administrative) Resources"
-msgstr "コーチ（管理）リソース"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:4
-msgid ""
-"Welcome to the *FIRST* Tech Challenge coach's page! Resources have been "
-"organized by type to help your team stay organized and be successful "
-"throughout the season. These resources are focused on the coach or "
-"administrator needs to manage the team while promoting *FIRST*'s ethos. "
-"Just click on the button for the resource you want to explore!"
-msgstr "FIRST Tech Challenge コーチのページへようこそ！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。探索したいリソースのボタンをクリックしてください！"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:16
-msgid "*FIRST* Core Values"
-msgstr "FIRST コアバリュー"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:20
-msgid ""
-"We express the *FIRST* philosophies of Gracious Professionalism and "
-"Coopertition through our Core Values."
-msgstr "私たちは、FIRST の哲学である Gracious Professionalism と Coopertition をコアバリューを通じて表現します。"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:29
-msgid "Gracious Professionalism"
-msgstr "Gracious Professionalism"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:41
-msgid "Coopertition (external)"
-msgstr "Coopertition（外部）"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:53
-msgid "Core Values (external)"
-msgstr "コアバリュー（外部）"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:65
-msgid "*FIRST* Dashboard Links"
-msgstr "FIRST ダッシュボードリンク"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:69
-msgid ""
-"Discover registration and purchasing FAQs. Team Registration requires "
-"*FIRST* Dashboard account access on firstinspires.org."
-msgstr "登録と購入に関する FAQ をご覧ください。チーム登録には FIRST ダッシュボードアカウントへのアクセスが必要です。また、ユース会員の登録に関するリソースも含まれています。"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:78
-msgid "Register Your Team (External Login)"
-msgstr "チームの登録（外部ログイン）"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:87
-msgid "Youth Registration (external)"
-msgstr "ユース登録（外部）"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:98
-msgid "Team Management"
-msgstr "チーム管理"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:102
-msgid "Resources to provide your team a well-paced and successful season."
-msgstr "チームにペースの良い成功したシーズンを提供するためのリソースです。"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:110
-msgid "Team Management Resources (External)"
-msgstr "チーム管理リソース（外部）"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:121
-msgid "Coach Guidance"
-msgstr "コーチガイダンス"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:125
-msgid "Discover the best practices for new coaches."
-msgstr "新しいコーチのためのベストプラクティスをご覧ください。"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:133
-msgid "Mentor Manual (External PDF)"
-msgstr "メンターマニュアル（外部 PDF）"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:144
-msgid "Pre-Event Checklists"
-msgstr "イベント前チェックリスト"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:148
-msgid ""
-"Simple checklists to prepare for competition. See the Preparing for "
-"Competition heading on the linked page."
-msgstr "競技会に備えるためのシンプルなチェックリストです。リンクされたページの「競技会への準備」の見出しをご覧ください。"
-
-#: ../../source/persona_pages/coach_admin/coach_admin.rst:156
-msgid "Preparing for Competition (External)"
-msgstr "競技会への準備（外部）"
-

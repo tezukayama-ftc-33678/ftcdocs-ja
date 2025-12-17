@@ -1,10 +1,12 @@
-既存チーム
+Returning Teams
 ===============
 
-*FIRST* Tech Challenge へようこそ！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。
-これらのリソースは、ロボティクスの経験があり、スキルを向上させたいチーム向けに調整されています。
-技術リソースは、業界標準の認定資格への足がかりとなります。
-探索したいリソースのボタンをクリックしてください！
+Welcome back to *FIRST* Tech Challenge! Resources have been
+organized by type to help your team stay organized and be successful throughout
+the season. These resources are tailored to teams with experience in robotics
+looking to elevate their skills.  The technical resources are a stepping stone
+towards industry standard certifications. Just click on the button for the
+resource you want to explore!
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -13,11 +15,11 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      :doc:`プログラミングリソース <../../programming_resources/index>`
+      :doc:`Programming Resources <../../programming_resources/index>`
 
       ^^^
 
-      Java プログラミングリソースはこちらをご覧ください。
+      Look for Java programming resources here.
       
       +++
 
@@ -31,7 +33,7 @@
                :outline:
                :expand:
 
-               OnBot Java チュートリアル
+               OnBot Java Tutorial
 
          .. div:: col-sm pl-1 pr-1
 
@@ -41,7 +43,7 @@
                :outline:
                :expand:
 
-               Android Studio チュートリアル
+               Android Studio Tutorial
 
          .. div:: col-sm pl-1 pr-1
 
@@ -51,7 +53,7 @@
                :outline:
                :expand:
 
-               AprilTag 入門
+               AprilTag Introduction
 
          .. div:: col-sm pl-1 pr-1
 
@@ -61,17 +63,17 @@
                :outline:
                :expand:
 
-               プログラミングリソース
+               Programming Resources
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      :doc:`CAD リソース <../../cad_resources/index>` 
+      :doc:`CAD Resources <../../cad_resources/index>` 
 
       ^^^
 
-      コンピューター支援設計 (CAD) ソフトウェアのリソースはこちらをご覧ください。
+      Look for resources for Computer-Aided Design (CAD) software.
       
       +++
       
@@ -85,17 +87,17 @@
                :outline:
                :expand:
 
-               CAD リソース
+               CAD Resources
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      チーム管理
+      Team Management
 
       ^^^
 
-      マーケティング、コミュニティおよび業界へのアウトリーチを含むチーム管理リソース。
+      Team management resources including marketing, community and industry outreach.
       
       +++
       
@@ -109,17 +111,17 @@
                :outline:
                :expand:
 
-               チーム管理 (外部リンク)
+               Team Management (external)
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      アワード
+      Awards
 
       ^^^
 
-      イベント前にアワードの基準を知っておきましょう。
+      Know the awards criteria before the event.
       
       +++
       
@@ -133,6 +135,6 @@
                :outline:
                :expand:
 
-               FTC アワード (外部 PDF)
+               FTC Awards (external PDF)
 
 

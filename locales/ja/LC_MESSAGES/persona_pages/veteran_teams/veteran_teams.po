@@ -4,7 +4,10 @@
 # Challenge Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
+# NOTE: This file is intentionally left empty.
+# The persona pages (rookie_teams, veteran_teams, coach_admin, mentor_tech)
+# are manually translated and do not use .po translation.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
@@ -19,74 +22,3 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.11.0\n"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:2
-msgid "Returning Teams"
-msgstr "既存チーム"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:4
-msgid ""
-"Welcome back to *FIRST* Tech Challenge! Resources have been organized by "
-"type to help your team stay organized and be successful throughout the "
-"season. These resources are tailored to teams with experience in robotics"
-" looking to elevate their skills.  The technical resources are a stepping"
-" stone towards industry standard certifications. Just click on the button"
-" for the resource you want to explore!"
-msgstr "FIRST Tech Challenge にお帰りなさい！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。探索したいリソースのボタンをクリックしてください！"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:18
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:60
-msgid "Programming Resources"
-msgstr ":doc:`プログラミングリソース <../../programming_resources/index>`"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:22
-msgid "Look for Java programming resources here."
-msgstr "Java プログラミングリソースはこちらをご覧ください。"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:30
-msgid "OnBot Java Tutorial"
-msgstr ":doc:`OnBot Java チュートリアル <../../programming_resources/onbot_java/OnBot-Java-Tutorial>`"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:40
-msgid "Android Studio Tutorial"
-msgstr ":doc:`Android Studio チュートリアル <../../programming_resources/android_studio_java/Android-Studio-Tutorial>`"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:50
-msgid "AprilTag Introduction"
-msgstr ":doc:`AprilTag 入門 <../../apriltag/vision_portal/apriltag_intro/apriltag-intro>`"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:72
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:84
-msgid "CAD Resources"
-msgstr ":doc:`CAD リソース <../../cad_resources/index>`"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:76
-msgid "Look for resources for Computer-Aided Design (CAD) software."
-msgstr "コンピューター支援設計（CAD）ソフトウェアのリソースはこちらをご覧ください。"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:96
-msgid "Team Management"
-msgstr "チーム管理"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:100
-msgid ""
-"Team management resources including marketing, community and industry "
-"outreach."
-msgstr "マーケティング、コミュニティおよび産業へのアウトリーチを含むチーム管理リソースです。"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:108
-msgid "Team Management (external)"
-msgstr "チーム管理（外部）"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:120
-msgid "Awards"
-msgstr "Awards"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:124
-msgid "Know the awards criteria before the event."
-msgstr "イベント前に Awards の基準を知っておきましょう。"
-
-#: ../../source/persona_pages/veteran_teams/veteran_teams.rst:132
-msgid "FTC Awards (external PDF)"
-msgstr "FTC Awards（外部 PDF）"
-
