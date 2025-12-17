@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:2
 msgid "VisionPortal CPU and Bandwidth"
-msgstr ""
+msgstr "VisionPortal CPUと帯域幅"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:7
 msgid ""
@@ -44,56 +44,56 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:15
 msgid "The 8.2 SDK provides numerous tools to manage this balance:"
-msgstr ""
+msgstr "8.2 SDKは、このバランスを管理するための多数のツールを提供します:"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:17
 msgid "disable and enable the RC preview (called LiveView) - \"Level 1\""
-msgstr ""
+msgstr "RCプレビュー（LiveViewと呼ばれる）を無効化および有効化 - \"レベル1\""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:18
 msgid "disable and enable the AprilTag (or TFOD) processor - \"Level 2\""
-msgstr ""
+msgstr "AprilTag（またはTFOD）プロセッサを無効化および有効化 - \"レベル2\""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:19
 msgid "stop and resume the camera stream - \"Level 3\""
-msgstr ""
+msgstr "カメラストリームを停止および再開 - \"レベル3\""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:20
 msgid "close VisionPortal - \"Level 4\""
-msgstr ""
+msgstr "VisionPortalを閉じる - \"レベル4\""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:21
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:332
 msgid "monitor frames-per-second (FPS)"
-msgstr ""
+msgstr "フレーム毎秒（FPS）を監視"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:22
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:333
 msgid "select a compressed video streaming format"
-msgstr ""
+msgstr "圧縮ビデオストリーミング形式を選択"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:23
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:334
 msgid "select the camera resolution"
-msgstr ""
+msgstr "カメラ解像度を選択"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:24
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:335
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:446
 msgid "set decimation (down-sampling)"
-msgstr ""
+msgstr "デシメーション（ダウンサンプリング）を設定"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:25
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:336
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:447
 msgid "select a pose solver algorithm"
-msgstr ""
+msgstr "ポーズソルバーアルゴリズムを選択"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:26
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:337
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:448
 msgid "get all or only fresh detections from the AprilTag Processor"
-msgstr ""
+msgstr "AprilTag Processorからすべての検出または最新の検出のみを取得"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:27
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:338
