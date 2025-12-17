@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:2
 msgid "AprilTag Introduction"
-msgstr ""
+msgstr "AprilTag 入門"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:5
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:7
 msgid ""
@@ -35,40 +35,44 @@ msgid ""
 " Sleeves led to **wide adoption** in POWERPLAY (2022-2023) by *FIRST* "
 "Tech Challenge teams, especially those programming in Java."
 msgstr ""
+"カメラベースの人気技術であるAprilTagは、QRコードに似たスキャン画像です。カスタムSignal Sleevesでの高い効果性と迅速なセットアップにより、POWERPLAY (2022-2023)において、特にJavaでプログラミングするチームを中心に、*FIRST* Tech Challengeチームで**広く採用**されました。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:17
 msgid "Dual Detection"
-msgstr ""
+msgstr "二重検出"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:17
 msgid "Photo Credit: Mike Silversides"
-msgstr ""
+msgstr "写真提供: Mike Silversides"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:19
 msgid ""
 "Those POWERPLAY teams, including those using FTC Blocks, learned how to "
 "use several resources:"
 msgstr ""
+"FTC Blocksを使用するチームを含むPOWERPLAYのチームは、いくつかのリソースの使い方を学びました:"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:22
 msgid "AprilTag: an open-source technology for evaluating formatted images"
-msgstr ""
+msgstr "AprilTag: フォーマットされた画像を評価するためのオープンソース技術"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:24
 msgid ""
 "EasyOpenCV: a *FIRST* Tech Challenge-optimized interface with OpenCV, an "
 "image processing library"
 msgstr ""
+"EasyOpenCV: 画像処理ライブラリであるOpenCVとの*FIRST* Tech Challenge最適化インターフェース"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:26
 msgid "myBlocks: custom Blocks created in OnBot Java (OBJ)"
-msgstr ""
+msgstr "myBlocks: OnBot Java (OBJ)で作成されたカスタムBlocks"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:28
 msgid ""
 "Now these three areas are provided, or bundled, in the *FIRST* **Tech "
 "Challenge Software Development Kit (SDK), starting with version 8.2**."
 msgstr ""
+"現在、これら3つの領域は*FIRST* **Tech Challenge Software Development Kit (SDK)のバージョン8.2以降**で提供またはバンドルされています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:31
 msgid ""
@@ -77,20 +81,22 @@ msgid ""
 "special downloads. And AprilTag features are included in **FTC Blocks**, "
 "without needing custom myBlocks."
 msgstr ""
+"つまり、AprilTagとEasyOpenCVの主要機能は、特別なダウンロードなしで、Robot Controller (RC)およびDriver Station (DS)アプリで利用できます。そして、AprilTag機能は**FTC Blocks**に含まれており、カスタムmyBlocksは不要です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:36
 msgid ""
 "The AprilTag features work on webcams and on Android RC phone cameras. A "
 "single OpMode can use AprilTag and Color Processing."
 msgstr ""
+"AprilTag機能は、ウェブカメラおよびAndroid RCスマートフォンカメラで動作します。単一のOpModeでAprilTagとColor Processingを使用できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:39
 msgid "In *FIRST* Tech Challenge, AprilTag is ready for the spotlight!"
-msgstr ""
+msgstr "*FIRST* Tech ChallengeでAprilTagは注目を集める準備ができています！"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:42
 msgid "What is AprilTag?"
-msgstr ""
+msgstr "AprilTagとは？"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:44
 msgid ""
@@ -99,34 +105,37 @@ msgid ""
 "2D barcode or a simplified QR Code. It contains a numeric **ID code** and"
 " can be used for **location and orientation**."
 msgstr ""
+"`ミシガン大学 <https://april.eecs.umich.edu/software/apriltag>`__で開発されたAprilTagは、2Dバーコードまたは簡略化されたQRコードのようなものです。数値の**IDコード**を含み、**位置と方向**に使用できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:54
 msgid "AprilTag Robots"
-msgstr "AprilTag ロボットs"
+msgstr "AprilTag ロボット"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:54
 msgid "AprilTags on Robots. Photo Credit: University of Michigan"
-msgstr ""
+msgstr "ロボット上のAprilTag。写真提供: ミシガン大学"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:56
 msgid ""
 "AprilTag is a type of **visual fiducial**, or fiducial marker, containing"
 " information and designed for easy recognition."
 msgstr ""
+"AprilTagは**ビジュアルフィデューシャル**またはフィデューシャルマーカーの一種で、情報を含み、容易に認識できるように設計されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:64
 msgid "Tag Families"
-msgstr ""
+msgstr "タグファミリー"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:64
 msgid "A sample of different AprilTag families"
-msgstr ""
+msgstr "異なるAprilTagファミリーのサンプル"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:66
 msgid ""
 "The above samples represent different formats, or **families**. A project"
 " typically uses a single AprilTag family."
 msgstr ""
+"上記のサンプルは異なる形式、つまり**ファミリー**を表しています。プロジェクトは通常、単一のAprilTagファミリーを使用します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:69
 msgid ""
@@ -134,14 +143,15 @@ msgid ""
 "showing the numbers 0 through 20 from the 36h11 family can be downloaded "
 "here:"
 msgstr ""
+"*FIRST* Tech Challengeは**36h11**という一般的なファミリーを使用します。36h11ファミリーの0から20までの番号を示すPDFは、ここからダウンロードできます:"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:72
 msgid ":download:`AprilTag PDF 0-20 <files/AprilTag_0-20_family36h11.pdf>`"
-msgstr ""
+msgstr ":download:`AprilTag PDF 0-20 <files/AprilTag_0-20_family36h11.pdf>`"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:74
 msgid "Each number is the ID code of that tag."
-msgstr ""
+msgstr "各番号はそのタグのIDコードです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:76
 msgid ""
