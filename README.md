@@ -55,13 +55,54 @@ python test_translation_env.py
 
 ---
 
-## 📝 手動での翻訳編集方法
+## 📝 翻訳アプローチ
 
-- **編集対象**: 翻訳は `locales/ja/LC_MESSAGES/*.po` を編集してください。`docs/build/gettext/*.pot` はビルド生成物のテンプレートであり、リポジトリでは追跡していません。
-- PO ファイルの生成と更新 (ローカルまたは CI):
-	- POT を生成: `make gettext` または `sphinx-build -b gettext docs/source docs/build/gettext`
-	- PO を更新: `sphinx-intl update -p docs/build/gettext -l ja`
-- 編集ツール: Poedit 等の PO エディタを推奨します。
-- 翻訳をビルドに反映するには: `sphinx-intl build` または `msgfmt` を使って `.mo` を生成し、その後 `make html` を実行してください。
+本プロジェクトでは、**2つの翻訳アプローチ**を組み合わせています：
 
-これにより翻訳ワークフローが安定します — POT は CI/ビルドで生成し、翻訳編集は `.po` のみ行ってください。
+### 1. 自動翻訳 (.po ファイル) - ほとんどのページ
+
+- **編集対象**: `locales/ja/LC_MESSAGES/*.po` ファイル
+- **利点**: 大量のページを効率的に翻訳可能
+- **編集方法**: Poedit 等の PO エディタを推奨
+
+### 2. 手動翻訳 (RST ファイル直接編集) - 重要なページ
+
+以下のページは構造を確実に維持するため、RST ファイルを直接翻訳しています：
+
+- **トップページ**: `docs/source/index.rst`
+- **新規チーム**: `docs/source/persona_pages/rookie_teams/rookie_teams.rst`
+- **既存チーム**: `docs/source/persona_pages/veteran_teams/veteran_teams.rst`
+- **コーチ**: `docs/source/persona_pages/coach_admin/coach_admin.rst`
+- **メンター**: `docs/source/persona_pages/mentor_tech/mentor_tech.rst`
+
+**詳細**: [TRANSLATION_APPROACH.md](TRANSLATION_APPROACH.md) を参照してください。
+
+### ビルド方法
+
+```bash
+cd docs
+make html-ja  # 日本語版をビルド
+```
+
+---
+
+## 🔍 翻訳問題トラッカー
+
+人力での問題修正を支援するため、ブラウザベースの問題トラッカーを提供しています。
+
+### 使い方
+
+1. ドキュメントをビルド: `cd docs && make html-ja`
+2. 問題トラッカーを開く: `docs/build/html-ja/_static/issue_tracker.html`
+3. ドキュメントを読みながら、おかしい箇所を記録
+4. JSON または Markdown 形式でエクスポート
+
+**詳細**: [ISSUE_TRACKER_GUIDE.md](ISSUE_TRACKER_GUIDE.md) を参照してください。
+
+---
+
+## 📚 ドキュメント
+
+- **[TRANSLATION_APPROACH.md](TRANSLATION_APPROACH.md)** - 翻訳アプローチの詳細説明
+- **[ISSUE_TRACKER_GUIDE.md](ISSUE_TRACKER_GUIDE.md)** - 問題トラッカーの使用方法
+- **[AUTO_TRANSLATE.md](AUTO_TRANSLATE.md)** - 自動翻訳の詳細（もし存在する場合）
