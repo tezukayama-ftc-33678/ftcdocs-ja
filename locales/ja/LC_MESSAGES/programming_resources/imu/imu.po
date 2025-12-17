@@ -74,11 +74,7 @@ msgstr "ロボット上のハブ取り付け方向を指定する3つの方法"
 
 #: ../../source/programming_resources/imu/imu.rst:25
 msgid "Teams wanting to use the newer IMU are required to:"
-<<<<<<< HEAD
 msgstr "新しいIMUを使用したいチームは、以下に記載のとおりです："
-=======
-msgstr "チームs wanting to use the newer IMU are required to:"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/imu/imu.rst:27
 msgid "use SDK 8.1 or newer"
@@ -118,11 +114,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:40
 msgid "REV Hardware Client (when Hub LED is green)"
-<<<<<<< HEAD
 msgstr "REVハードウェアクライアント（ハブLEDが緑のとき）"
-=======
-msgstr "REV ハードウェア Client (when Hub LED is green)"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/imu/imu.rst:42
 msgid "Each Hub’s IMU type is listed there, as of SDK 8.0."
@@ -355,11 +347,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:141
 msgid "IMU Robot Configuration"
-<<<<<<< HEAD
 msgstr "IMUロボット設定"
-=======
-msgstr "IMU ロボット 構成"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/imu/imu.rst:141
 msgid "REV IMU Robot Configuration Validation"
@@ -780,11 +768,7 @@ msgstr "変数にパラメータを設定"
 
 #: ../../source/programming_resources/imu/imu.rst:486
 msgid "Setting parameters to a Variable"
-<<<<<<< HEAD
 msgstr "変数にパラメータを設定する"
-=======
-msgstr "Setting parameters to a 変数"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "Java"
@@ -1081,19 +1065,11 @@ msgid "Initializing the IMU directly"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "Initialize IMU using Parameters"
-<<<<<<< HEAD
 msgstr "IMUの初期化（パラメータを使用）"
 
 #: ../../source/programming_resources/imu/imu.rst:785
 msgid "Initializing the IMU using Parameters"
 msgstr "IMUの初期化 (パラメータを使用)"
-=======
-msgstr "Initialize IMU using パラメーターs"
-
-#: ../../source/programming_resources/imu/imu.rst:785
-msgid "Initializing the IMU using Parameters"
-msgstr "Initializing the IMU using パラメーターs"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/imu/imu.rst:808
 msgid "Read IMU Angles - Basic"
@@ -1133,15 +1109,9 @@ msgstr "ここではIMU角度の読み取り方法について例を示します
 
 #: ../../source/programming_resources/imu/imu.rst:834
 msgid ""
-<<<<<<< HEAD
 "In Blocks, create a new Variable to receive data from this green Block in "
 "the **IMU** palette:"
 msgstr "ブロックで、この緑色のブロックから**IMU**パレットにあるデータを受け取る新しい変数を作成してください："
-=======
-"In Blocks, create a new Variable to receive data from this green Block in"
-" the IMU palette:"
-msgstr ""
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "Get YPR Angles"
@@ -1586,11 +1556,7 @@ msgstr "``IMU``"
 
 #: ../../source/programming_resources/imu/imu.rst:1168
 msgid "``ImuOrientationOnRobot``"
-<<<<<<< HEAD
 msgstr "ロボット上のIMU向き"
-=======
-msgstr "``ImuOrientationOnロボット``"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/imu/imu.rst:1169
 msgid "``YawPitchRollAngles``"

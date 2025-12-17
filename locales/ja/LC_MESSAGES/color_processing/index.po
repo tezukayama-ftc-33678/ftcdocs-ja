@@ -22,11 +22,7 @@ msgstr ""
 
 #: ../../source/color_processing/index.rst:2
 msgid "Color Processing Introduction"
-<<<<<<< HEAD
 msgstr "色処理の紹介"
-=======
-msgstr "Color Processing入門"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/index.rst:5
 msgid "Overview"
@@ -52,11 +48,7 @@ msgid ""
 
 #: ../../source/color_processing/index.rst:15
 msgid "Here's the outline of this tutorial's main pages:"
-<<<<<<< HEAD
 msgstr "このチュートリアルの主要ページのアウトラインは以下です："
-=======
-msgstr "このチュートリアルの主要ページの概要は次のとおりです:"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/index.rst:29
 msgid ""
@@ -109,19 +101,11 @@ msgstr ""
 
 #: ../../source/color_processing/index.rst:47
 msgid "Two Processors"
-<<<<<<< HEAD
 msgstr "二つのプロセッサ"
 
 #: ../../source/color_processing/index.rst:49
 msgid "The new software includes these processors:"
 msgstr "新しいソフトウェアにはこれらのプロセッサが含まれています："
-=======
-msgstr "2つのプロセッサ"
-
-#: ../../source/color_processing/index.rst:49
-msgid "The new software includes these processors:"
-msgstr "新しいソフトウェアには次のプロセッサが含まれています:"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/index.rst:51
 msgid ""
@@ -131,15 +115,9 @@ msgstr "**色センサー** - カメラの視野内の指定されたゾーン�
 
 #: ../../source/color_processing/index.rst:53
 msgid ""
-<<<<<<< HEAD
 "**Color Locator** - gives detailed info on clusters of a specified color, in"
 " a specified zone"
 msgstr "**色検出装置** - 指定された色のクラスタに関する詳細情報を指定されたゾーンで提供します"
-=======
-"Color Locator - gives detailed info on clusters of a specified color,"
-" in a specified zone"
-msgstr ""
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/index.rst:56
 msgid ""
@@ -172,19 +150,11 @@ msgstr ""
 
 #: ../../source/color_processing/index.rst:69
 msgid "Next Steps"
-<<<<<<< HEAD
 msgstr "次に進む"
 
 #: ../../source/color_processing/index.rst:71
 msgid "Time to get started!"
 msgstr "始めるには時間はもう Enough! です！"
-=======
-msgstr "次のステップ"
-
-#: ../../source/color_processing/index.rst:71
-msgid "Time to get started!"
-msgstr "さあ始めましょう！"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/index.rst:73
 msgid ""
@@ -196,15 +166,9 @@ msgstr ""
 
 #: ../../source/color_processing/index.rst:76
 msgid ""
-<<<<<<< HEAD
 "Then read about **Color Blob Concepts**\\ , and try the **Color Locator** "
 "Sample OpModes."
 msgstr "次に、**色のブロブ概念**について読み、**色検出サンプルオモード**を試してみてください。"
-=======
-"Then read about **Color Blob Concepts**\\ , and try the Color Locator"
-" Sample OpModes."
-msgstr ""
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/index.rst:79
 msgid ""
@@ -216,9 +180,4 @@ msgstr ""
 
 #: ../../source/color_processing/index.rst:84
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
-<<<<<<< HEAD
 msgstr "質問、ご意見や訂正はwestsiderobotics@verizon.netまでお願いします。"
-=======
-msgstr "質問、コメント、訂正は westsiderobotics@verizon.net まで"
-
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e

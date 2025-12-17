@@ -98,15 +98,9 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:36
 msgid ""
-<<<<<<< HEAD
 "The Sample OpMode then creates a **VisionPortal**, again using a Builder "
 "pattern.  This includes adding the \"Color Blob Locator\" Processor to the "
 "VisionPortal."
-=======
-"The Sample OpMode then creates a VisionPortal, again using a Builder "
-"pattern.  This includes adding the \"Color Blob Locator\" Processor to "
-"the VisionPortal."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "サンプルのOpModeでは、**VisionPortal** を再びビルダー模式を使用して作成します。これには、「Color Blob "
 "Locator」プロセッサをVisionPortalに追加する処理が含まれます。"
@@ -158,11 +152,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:393
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:446
 msgid "Select and read the Blocks **or** Java section below:"
-<<<<<<< HEAD
 msgstr "以下のBlocks **または** Javaのセクションを選択し、読み進めてください："
-=======
-msgstr "選択する and read the Blocks **or** Java section below:"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "Blocks"
@@ -427,11 +417,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:293
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:327
 msgid "Camera Resolution"
-<<<<<<< HEAD
 msgstr "カメラの解像度"
-=======
-msgstr "カメラ解像度"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:295
 msgid ""

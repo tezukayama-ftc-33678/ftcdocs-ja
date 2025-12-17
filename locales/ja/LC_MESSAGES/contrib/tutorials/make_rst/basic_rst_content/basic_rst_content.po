@@ -82,19 +82,11 @@ msgstr "テキストフォーマット_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:27
 msgid "`Internal Links`_"
-<<<<<<< HEAD
 msgstr "内部リンク_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:29
 msgid "`Links with Anchors`_"
 msgstr "アンカー付きのリンク_`"
-=======
-msgstr "`Internal リンクs`_"
-
-#: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:29
-msgid "`Links with Anchors`_"
-msgstr "`リンクs with Anchors`_"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:30
 msgid "`Referencing Sections`_"
@@ -102,19 +94,11 @@ msgstr "「セクションの参照」_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:32
 msgid "`External Links`_"
-<<<<<<< HEAD
 msgstr "外部リンク <URL>__"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:34
 msgid "`Simple External Link`_"
 msgstr "`シンプルな外部リンク`_"
-=======
-msgstr "`External リンクs`_"
-
-#: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:34
-msgid "`Simple External Link`_"
-msgstr "`Simple External リンク`_"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:35
 msgid "`Embedded URI`_"
@@ -716,11 +700,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:439
 msgid "Links with Anchors Example"
-<<<<<<< HEAD
 msgstr "アンカー付きのリンク例"
-=======
-msgstr "リンクs with Anchors Example"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:441
 msgid "In plain text, this could look like::"
@@ -799,11 +779,7 @@ msgstr "外部リンクは、外部のウェブサイトにリンクする方法
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:501
 msgid "Simple External Link"
-<<<<<<< HEAD
 msgstr "外部リンク"
-=======
-msgstr "Simple External リンク"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:503
 msgid "A simple External Link is simply the http address."
@@ -882,11 +858,7 @@ msgstr "また別の例として::"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:548
 msgid "`REV Robotics Website <https://www.revrobotics.com>`_"
-<<<<<<< HEAD
 msgstr "`REVロボティクスウェブサイト <https://www.revrobotics.com>`_"
-=======
-msgstr "`REV ロボットics Website <https://www.revrobotics.com>`_"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:553
 msgid "Embedding External Images"

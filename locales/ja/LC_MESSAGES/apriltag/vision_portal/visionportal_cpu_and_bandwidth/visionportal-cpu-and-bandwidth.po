@@ -22,19 +22,11 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:2
 msgid "VisionPortal CPU and Bandwidth"
-<<<<<<< HEAD
 msgstr "ビジョンポートルのCPUと帯域幅"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:5
 msgid "Introduction"
 msgstr "紹介"
-=======
-msgstr "VisionPortal CPUと帯域幅"
-
-#: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:5
-msgid "Introduction"
-msgstr "はじめに"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:7
 msgid ""
@@ -55,7 +47,6 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:15
 msgid "The 8.2 SDK provides numerous tools to manage this balance:"
-<<<<<<< HEAD
 msgstr "8.2 SDKはこのバランスを管理するための多くのツールを提供しています："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:17
@@ -73,34 +64,11 @@ msgstr "カメラストリームの停止と再開 - \"レベル 3\""
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:20
 msgid "close VisionPortal - \"Level 4\""
 msgstr "VisionPortal を閉じる - 'レベル4"
-=======
-msgstr "8.2 SDKは、このバランスを管理するための多数のツールを提供します:"
-
-#: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:17
-msgid "disable and enable the RC preview (called LiveView) - \"Level 1\""
-msgstr "RCプレビュー（LiveViewと呼ばれる）を無効化および有効化 - \"レベル1\""
-
-#: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:18
-msgid "disable and enable the AprilTag (or TFOD) processor - \"Level 2\""
-msgstr "AprilTag（またはTFOD）プロセッサを無効化および有効化 - \"レベル2\""
-
-#: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:19
-msgid "stop and resume the camera stream - \"Level 3\""
-msgstr "カメラストリームを停止および再開 - \"レベル3\""
-
-#: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:20
-msgid "close VisionPortal - \"Level 4\""
-msgstr "VisionPortalを閉じる - \"レベル4\""
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:21
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:332
 msgid "monitor frames-per-second (FPS)"
-<<<<<<< HEAD
 msgstr "フレーム毎秒数（FPS）を監視"
-=======
-msgstr "フレーム毎秒（FPS）を監視"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:22
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:333
@@ -110,21 +78,13 @@ msgstr "圧縮ビデオストリーミング形式を選択"
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:23
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:334
 msgid "select the camera resolution"
-<<<<<<< HEAD
 msgstr "カメラの解像度を選択"
-=======
-msgstr "カメラ解像度を選択"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:24
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:335
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:446
 msgid "set decimation (down-sampling)"
-<<<<<<< HEAD
 msgstr "デシメーション（ダウンサンプリング）を設定する"
-=======
-msgstr "デシメーション（ダウンサンプリング）を設定"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:25
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:336
@@ -136,11 +96,7 @@ msgstr "ポーズソルバーアルゴリズムを選択"
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:337
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:448
 msgid "get all or only fresh detections from the AprilTag Processor"
-<<<<<<< HEAD
 msgstr "AprilTag プロセッサーからすべての検出結果や新しい検出結果だけを取得しますか？"
-=======
-msgstr "AprilTag Processorからすべての検出または最新の検出のみを取得"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:27
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:338
@@ -172,15 +128,9 @@ msgstr "**カメラストリーム** \"レベル3\": 使用するリソースの
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:34
 msgid ""
-<<<<<<< HEAD
 "**VisionPortal** \"Level 4\": maximum reduction of resources used, do not "
 "resume after stopping"
 msgstr "**VisionPortal** \"レベル4\": リソースの使用量を最大限に削減、停止後は再開しない"
-=======
-"VisionPortal \"Level 4\": maximum reduction of resources used, do not"
-" resume after stopping"
-msgstr ""
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:37
 msgid "Camera Status"
@@ -275,15 +225,9 @@ msgstr "プレビューについて"
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:70
 msgid ""
 "As noted at the **Previews** page, LiveView refers only to the **Robot "
-<<<<<<< HEAD
 "Controller** preview.  It's completely separate from the Driver Station (DS)"
 " **Camera Stream**, which still operates normally even if LiveView is "
 "stopped (manually or automatically)."
-=======
-"Controller** preview.  It's completely separate from the Driver Station "
-"(DS) Camera Stream, which still operates normally even if LiveView is"
-" stopped (manually or automatically)."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "前ページの**プレビュー**欄で述べた通り、LiveViewは**ロボットコントローラー**のプレビューのみを指し、ドライバーステーション（DS）の**カメラストリーム**とは完全に独立しています。LiveViewが停止された場合（手動または自動）、カメラストリームは通常通り動作します。"
 
@@ -322,14 +266,9 @@ msgstr ""
 "8.2では、「LiveView」がRCプレビューの新しい普遍的な名称となりました。旧名称はまだ2つのインスタンスで使用されています："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:88
-<<<<<<< HEAD
 msgid ""
 "``myVisionPortalBuilder.enableCameraMonitoring(true);``, discussed below"
 msgstr "``myVisionPortalBuilder.enableCameraMonitoring(True);`` について後述する"
-=======
-msgid "``myVisionPortalBuilder.enableCameraMonitoring(true);``, discussed below"
-msgstr "``myVisionPortalビルドer.enableCameraMonitoring(true);``, discussed below"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:89
 msgid "``VIEWPORT`` appears in the preview status window, when stopped"

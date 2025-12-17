@@ -63,11 +63,7 @@ msgstr "このドキュメントの指示手順に沿って作業するには、
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:29
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:139
 msgid "Required Item(s)"
-<<<<<<< HEAD
 msgstr "必須項目"
-=======
-msgstr "必要なアイテム"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:30
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:140
@@ -76,19 +72,11 @@ msgstr "画像"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:32
 msgid "REV Robotics Driver Hub (REV-31-1596)"
-<<<<<<< HEAD
 msgstr "REVロボティクスドライバーハブ (REV-31-1596)"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:35
 msgid "REV Robotics Switch, Cable, & Bracket (REV-31-1387)."
 msgstr "REVロボティクスのスイッチ、ケーブル、およびブラケット (REV-31-1387)."
-=======
-msgstr "REV ロボットics Driver Hub (REV-31-1596)"
-
-#: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:35
-msgid "REV Robotics Switch, Cable, & Bracket (REV-31-1387)."
-msgstr "REV ロボットics Switch, Cable, & Bracket (REV-31-1387)."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:38
 msgid "REV Robotics Tamiya to XT30 Adapter Cable (REV-31-1382)."
@@ -119,11 +107,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:54
 msgid "REV Robotics XT30 Extension Cable (REV-31-1394)."
-<<<<<<< HEAD
 msgstr "REVロボティクスXT30エクステンションケーブル (REV-31-1394)."
-=======
-msgstr "REV ロボットics XT30 Extension Cable (REV-31-1394)."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:58
 msgid "Connecting the Expansion Hub"
