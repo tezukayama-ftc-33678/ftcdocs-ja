@@ -483,8 +483,10 @@
         }
         
         function escapeHtml(text) {
+            // Using textContent ensures proper HTML escaping
+            // This prevents XSS by converting special characters like <, >, &, etc.
             const div = document.createElement('div');
-            div.textContent = text;
+            div.textContent = text;  // textContent automatically escapes HTML
             return div.innerHTML;
         }
     </script>

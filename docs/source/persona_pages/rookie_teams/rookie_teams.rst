@@ -17,8 +17,7 @@
 
       ^^^
 
-      私たちは、*FIRST* の哲学である Gracious Professionalism（グレイシャス・プロフェッショナリズム）と 
-      Coopertition（クーパティション）をコアバリューを通じて表現します。
+      私たちは、*FIRST* の哲学である Gracious Professionalism（グレイシャス・プロフェッショナリズム）と Coopertition（クーパティション）をコアバリューを通じて表現します。
       
       +++
 
@@ -169,7 +168,7 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      :doc:`競技マニュアル <../../manuals/game_manuals/game_manuals>`
+      競技マニュアル
    
       ^^^
 
