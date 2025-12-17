@@ -55,7 +55,11 @@ msgstr ""
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:19
 msgid "Mk3s+ Features"
+<<<<<<< HEAD
 msgstr "Mk3s+ の機能"
+=======
+msgstr "Mk3s+ 機能s"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:20
 msgid "Easy to Repair"
@@ -130,7 +134,11 @@ msgstr ""
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:51
 msgid "Mk4 Features"
+<<<<<<< HEAD
 msgstr "Mk4 の機能"
+=======
+msgstr "Mk4 機能s"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:52
 msgid "High Speed (Nearing comparison to BambuLab printers)"
@@ -187,7 +195,11 @@ msgstr ""
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:86
 msgid "X1C Features"
+<<<<<<< HEAD
 msgstr "X1C フEATURES"
+=======
+msgstr "X1C 機能s"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:87
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:124
@@ -275,7 +287,11 @@ msgstr ""
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:123
 msgid "P1S Features"
+<<<<<<< HEAD
 msgstr "P1Sの機能"
+=======
+msgstr "P1S 機能s"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:134
 msgid "P1S Drawbacks"
@@ -301,11 +317,19 @@ msgstr ""
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:155
 msgid "M5 Features"
+<<<<<<< HEAD
 msgstr "M5の機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:156
 msgid "Cartesian Motion System optimized for speed"
 msgstr "直線運動システム、高速化に最適化"
+=======
+msgstr "M5 機能s"
+
+#: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:156
+msgid "Cartesian Motion System optimized for speed"
+msgstr "Cartesian Motion システム optimized for speed"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:158
 msgid "Removable Bed"
@@ -377,7 +401,11 @@ msgstr ""
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:194
 msgid "Features"
+<<<<<<< HEAD
 msgstr "機能"
+=======
+msgstr "機能s"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:195
 msgid "Most well-documented DIY Printers feature..."
@@ -393,7 +421,11 @@ msgstr "全金属ホットエンド搭載の直接駆動エクストルダ"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:201
 msgid "Large Build Volumes (250mm^3 or more)"
+<<<<<<< HEAD
 msgstr "大型の建設容積 (250mm³ 以上)"
+=======
+msgstr "Large ビルド Volumes (250mm^3 or more)"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:202
 msgid "Klipper Firmware and live dashboards for print monitoring"

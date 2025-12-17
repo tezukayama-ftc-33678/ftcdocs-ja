@@ -26,7 +26,11 @@ msgstr "ビジョンポータルプレビュー"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:5
 msgid "Introduction"
+<<<<<<< HEAD
 msgstr "入門"
+=======
+msgstr "はじめに"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:7
 msgid ""
@@ -55,13 +59,18 @@ msgid ""
 msgstr "**LiveView** はロボットコントローラ（RC）デバイスで使用します（RC電話機またはControl Hubを参照してください）"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:22
+<<<<<<< HEAD
 msgid ""
 "**Camera Stream** on Driver Station (DS) device – DS phone or Driver Hub"
 msgstr "**カメラストリーム** はドライバーステーション（DS）デバイス - DS電話機またはドライバーハブにあります。"
+=======
+msgid "Camera Stream on Driver Station (DS) device – DS phone or Driver Hub"
+msgstr ""
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
 msgid ""
-"LiveView refers only to the **Robot Controller** preview (example shown "
+"LiveView refers only to the Robot Controller preview (example shown "
 "above). It’s completely separate from **DS Camera Stream**, which still "
 "operates normally even if LiveView is stopped (manually or automatically)."
 msgstr ""
@@ -96,7 +105,11 @@ msgstr "サイドノート：SDK 8.2では、「LiveView」がRCプレビュー�
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:40
 msgid "``myVisionPortalBuilder.enableCameraMonitoring(true);``"
+<<<<<<< HEAD
 msgstr "``myVisionPortalBuilder.カメラモニタリングを有効にする(true);``"
+=======
+msgstr "``myVisionPortalビルドer.enableCameraMonitoring(true);``"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:41
 msgid "``VIEWPORT`` appears in the preview status window, when stopped"
@@ -122,7 +135,11 @@ msgstr "使用 ``scrcpy``（「スクリンコピー」発音）、こちらで�
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:53
 msgid "https://github.com/Genymobile/scrcpy"
+<<<<<<< HEAD
 msgstr "<URL>https://github.com/Genymobile/scrcpy<URL>"
+=======
+msgstr "https://github.com/Genymobile/scrcpy"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:56
 msgid "Camera Controls"
@@ -168,8 +185,13 @@ msgstr "大きなプレビュー"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:76
 msgid ""
+<<<<<<< HEAD
 "A new feature of SDK 8.2, the Driver Station’s **Camera Stream** preview can"
 " appear regular-size or **BIG**."
+=======
+"A new feature of SDK 8.2, the Driver Station’s Camera Stream preview "
+"can appear regular-size or **BIG**."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:84

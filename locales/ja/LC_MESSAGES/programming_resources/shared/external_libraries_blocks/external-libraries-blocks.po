@@ -225,7 +225,11 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:116
 msgid "ExternalLibraries folder and Build Everything icon"
+<<<<<<< HEAD
 msgstr "外部ライブラリフォルダとビルドすべてアイコン"
+=======
+msgstr "ExternalLibraries folder and ビルド Everything icon"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:119
 msgid "Step 3 - Programming"
@@ -684,10 +688,17 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:393
 msgid ""
+<<<<<<< HEAD
 "Ideally, the library’s .jar or .aar file encompasses all the classes you’ll "
 "need, without external dependencies. A good example is **EasyOpenCV**, "
 "designed and ready for use. See the simple instructions `here "
 "<https://github.com/OpenFTC/EasyOpenCV>`__."
+=======
+"Ideally, the library’s .jar or .aar file encompasses all the classes "
+"you’ll need, without external dependencies. A good example is "
+"EasyOpenCV, designed and ready for use. See the simple instructions "
+"`here <https://github.com/OpenFTC/EasyOpenCV>`__."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "理想としては、ライブラリの.jarまたは.aarファイルには必要なすべてのクラスが含まれており、外部依存関係なしで使用できるはずです。良い例は "
 "**EasyOpenCV** です。使い方については `こちら <https://github.com/OpenFTC/EasyOpenCV>`__ "

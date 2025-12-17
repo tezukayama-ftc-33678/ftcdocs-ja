@@ -45,7 +45,11 @@ msgstr "以下はDriver Hub OSの更新方法の2つです："
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:13
 msgid "REV Hardware Client (RHC)"
+<<<<<<< HEAD
 msgstr "REVハードウェアクライアント (RHC)"
+=======
+msgstr "REV ハードウェア Client (RHC)"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:14
 msgid "Software Manager on Driver Hub"

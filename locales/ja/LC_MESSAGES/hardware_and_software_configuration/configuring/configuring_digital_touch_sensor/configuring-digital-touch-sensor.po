@@ -29,7 +29,7 @@ msgid ""
 "The REV Robotics Touch Sensor is a digital sensor. An Op Mode can query "
 "the Touch Sensor to see if its button is being pressed or not."
 msgstr ""
-"**REV Robotics** タッチセンサーはデジタルセンサーです。**Op Mode** はタッチセンサーに問い合わせて、ボタンが押されているかどうかを確認できます。"
+"REV Robotics タッチセンサーはデジタルセンサーです。Op Mode はタッチセンサーに問い合わせて、ボタンが押されているかどうかを確認できます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:8
 msgid "Configuring a Digital Touch Sensor Instructions"
@@ -56,7 +56,7 @@ msgid ""
 " to a digital port using a standard 4-wire JST sensor cable, it is the "
 "second digital pin that is connected. The first pin remains disconnected."
 msgstr ""
-"ポート #0 ではなく、ポート #1 にタッチセンサーを構成していることに注意してください。これは、**REV Robotics** タッチセンサーが標準の 4 線式 JST センサーケーブルを使用してデジタルポートに接続されている場合、接続されるのは 2 番目のデジタルピンだからです。最初のピンは接続されていません。"
+"ポート #0 ではなく、ポート #1 にタッチセンサーを構成していることに注意してください。これは、REV Robotics タッチセンサーが標準の 4 線式 JST センサーケーブルを使用してデジタルポートに接続されている場合、接続されるのは 2 番目のデジタルピンだからです。最初のピンは接続されていません。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_digital_touch_sensor/configuring-digital-touch-sensor.rst:28
 msgid "Press the **Done** button to return to the previous screen."

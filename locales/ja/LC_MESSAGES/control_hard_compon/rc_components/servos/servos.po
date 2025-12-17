@@ -26,7 +26,11 @@ msgstr "サーボモータ"
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:11
 msgid "REV Smart Robot Servo (SRS)"
+<<<<<<< HEAD
 msgstr "REVスマートロボットサーボ (SRS)"
+=======
+msgstr "REV Smart ロボット Servo (SRS)"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst
 #: ../../source/control_hard_compon/rc_components/servos/servos.rst:22

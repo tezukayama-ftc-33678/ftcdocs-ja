@@ -30,7 +30,7 @@ msgid ""
 " two digital I/O pins for a total of 8 digital I/O pins on a Hub. You "
 "will connect a REV Robotics Touch sensor to one of the digital I/O ports."
 msgstr ""
-"Hub には 4 つの独立したデジタル入出力（I/O）ポートがあります。各ポートには 2 つのデジタル I/O ピンがあり、Hub には合計 8 つのデジタル I/O ピンがあります。**REV Robotics** タッチセンサーをデジタル I/O ポートの 1 つに接続します。"
+"Hub には 4 つの独立したデジタル入出力（I/O）ポートがあります。各ポートには 2 つのデジタル I/O ピンがあり、Hub には合計 8 つのデジタル I/O ピンがあります。REV Robotics タッチセンサーをデジタル I/O ポートの 1 つに接続します。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:9
 msgid ""
@@ -43,7 +43,7 @@ msgid ""
 "connected through the 4-pin cable. Similarly, for the \"2-3\" port, it is"
 " the pin labeled \"3\" that gets connected through the 4-pin cable."
 msgstr ""
-"**REV Robotics** タッチセンサーの場合、デバイスには 4 ピンセンサーケーブル用のコネクタポートがあることに注意してください。ただし、デバイスは使用可能な 2 つのデジタル I/O ピンのうちの 1 つに接続するだけで済みます。**REV Robotics** タッチセンサーの場合、標準の **REV Robotics** 4 ピン JST PH ケーブルを使用すると、ポートの 2 番目のデジタル I/O ピンが接続されます。「0-1」ポートの場合、4 ピンケーブルを介して接続されるのは「1」とラベル付けされたピンです。同様に、「2-3」ポートの場合、4 ピンケーブルを介して接続されるのは「3」とラベル付けされたピンです。"
+"REV Robotics タッチセンサーの場合、デバイスには 4 ピンセンサーケーブル用のコネクタポートがあることに注意してください。ただし、デバイスは使用可能な 2 つのデジタル I/O ピンのうちの 1 つに接続するだけで済みます。REV Robotics タッチセンサーの場合、標準の REV Robotics 4 ピン JST PH ケーブルを使用すると、ポートの 2 番目のデジタル I/O ピンが接続されます。「0-1」ポートの場合、4 ピンケーブルを介して接続されるのは「1」とラベル付けされたピンです。同様に、「2-3」ポートの場合、4 ピンケーブルを介して接続されるのは「3」とラベル付けされたピンです。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:18
 msgid "Note that it will take an estimated 2.5 minutes to complete this task."
@@ -58,7 +58,7 @@ msgid ""
 "1. Connect one end of the 4-pin JST PH cable to the REV Robotics Touch "
 "sensor."
 msgstr ""
-"1. 4 ピン JST PH ケーブルの一端を **REV Robotics** タッチセンサーに接続します。"
+"1. 4 ピン JST PH ケーブルの一端を REV Robotics タッチセンサーに接続します。"
 
 #: ../../source/hardware_and_software_configuration/connecting_devices/connecting_touch/connecting-touch.rst:31
 msgid ""

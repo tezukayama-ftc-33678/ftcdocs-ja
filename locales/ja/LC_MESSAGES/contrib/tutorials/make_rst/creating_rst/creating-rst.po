@@ -162,7 +162,11 @@ msgstr "レポメインフォルダ"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:77
 msgid "Repository Main folder for rst-primer the quick brown fox"
+<<<<<<< HEAD
 msgstr "rst-primerのquick brown fox用のリポジトリメインフォルダ"
+=======
+msgstr "リポジトリ Main folder for rst-primer the quick brown fox"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:80
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:91
@@ -609,11 +613,16 @@ msgstr ""
 "次に、ドキュメントで使用する画像ファイルをアップロードしましょう。reStructuredTextでは、ドキュメント内に画像を使用することができます。これらの画像はローカル画像（リポジトリ内で保存/保管されたもの）やリモート画像（HTTPリンクを使用したもの）が可能です。ドキュメント内で両方を使用する予定ですが、まずは使用する画像が必要です。私はこのファイルをローカルにダウンロードしました："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:303
+<<<<<<< HEAD
 msgid ""
 "https://ftc-docs.firstinspires.org/en/latest/_images/HoustonMatchPlay.jpg"
 msgstr ""
 "<URL>https://ftc-"
 "docs.firstinspires.org/en/latest/_images/HoustonMatchPlay.jpg<URL>"
+=======
+msgid "https://ftc-docs.firstinspires.org/en/latest/_images/HoustonMatchPlay.jpg"
+msgstr "https://ftc-docs.firstinspires.org/en/latest/_images/HoustonマッチPlay.jpg"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:305
 msgid "Navigate to the folder you created in the previous step."

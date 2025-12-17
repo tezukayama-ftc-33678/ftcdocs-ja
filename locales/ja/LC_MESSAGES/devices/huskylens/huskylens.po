@@ -26,7 +26,11 @@ msgstr "FIRST Tech Challenge 用の HuskyLens について"
 
 #: ../../source/devices/huskylens/huskylens.rst:5
 msgid "Introduction"
+<<<<<<< HEAD
 msgstr "紹介\\n"
+=======
+msgstr "はじめに"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/devices/huskylens/huskylens.rst:7
 msgid ""
@@ -186,7 +190,11 @@ msgstr "ポート"
 
 #: ../../source/devices/huskylens/huskylens.rst:86
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr "設定"
+=======
+msgstr "構成"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/devices/huskylens/huskylens.rst:88
 msgid ""
@@ -219,9 +227,14 @@ msgstr ""
 "既存の（正しい）設定を編集するか、新しいものを選択します。その後、「スキャン」をタッチし、HuskyLensが接続された特定の「拡張ハブ」または「コントロールハブ」に移動します。"
 
 #: ../../source/devices/huskylens/huskylens.rst:102
+<<<<<<< HEAD
 msgid ""
 "Select ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged in."
 msgstr "HuskyLensが接続されているバス番号を選択してください。例えば ``I2C バス 3`` や使用しているバス番号。"
+=======
+msgid "Select ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged in."
+msgstr "選択する ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged in."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/devices/huskylens/huskylens.rst:110
 msgid "DS Config"
@@ -267,8 +280,13 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:130
 msgid ""
+<<<<<<< HEAD
 "**OnBot Java** and **Android Studio** users can easily follow along, since "
 "the Java Sample OpMode uses the same programming logic and is well "
+=======
+"OnBot Java and Android Studio users can easily follow along, "
+"since the Java Sample OpMode uses the same programming logic and is well "
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 "commented."
 msgstr ""
 "**OnBot Java** および **Android Studio** のユーザーは、Java "
@@ -648,7 +666,11 @@ msgstr "色認識アルゴリズム"
 
 #: ../../source/devices/huskylens/huskylens.rst:346
 msgid "Selecting COLOR_RECOGNITION algorithm"
+<<<<<<< HEAD
 msgstr "COLOR_RECOGNITION アルゴリズムを選択"
+=======
+msgstr "選択するing COLOR_RECOGNITION algorithm"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/devices/huskylens/huskylens.rst:348
 msgid "In the Java sample OpMode, change the algorithm selection as follows:"
@@ -725,7 +747,11 @@ msgstr "また、あなたのコードは任意に提供されたバウンディ
 
 #: ../../source/devices/huskylens/huskylens.rst:401
 msgid "Competition Notes"
+<<<<<<< HEAD
 msgstr "競技ノート"
+=======
+msgstr "競技 Notes"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/devices/huskylens/huskylens.rst:404
 msgid "1. Team Prop"

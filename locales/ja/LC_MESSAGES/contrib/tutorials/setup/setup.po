@@ -94,6 +94,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/setup/setup.rst:28
 msgid "Install Pip. ``python -m ensurepip``"
+<<<<<<< HEAD
 msgstr "PIPをインストールします。``python -m ensurepip``"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:29
@@ -107,6 +108,21 @@ msgstr "Make をインストールします。``choco install make``"
 #: ../../source/contrib/tutorials/setup/setup.rst:31
 msgid "Install the lastest version of VS Code. ``choco install vscode``"
 msgstr "最新版のVS Code をインストールしてください。``choco install vscode``"
+=======
+msgstr "インストール Pip. ``python -m ensurepip``"
+
+#: ../../source/contrib/tutorials/setup/setup.rst:29
+msgid "Install Git. ``choco install git``"
+msgstr "インストール Git. ``choco install git``"
+
+#: ../../source/contrib/tutorials/setup/setup.rst:30
+msgid "Install Make. ``choco install make``"
+msgstr "インストール Make. ``choco install make``"
+
+#: ../../source/contrib/tutorials/setup/setup.rst:31
+msgid "Install the lastest version of VS Code. ``choco install vscode``"
+msgstr "インストール the lastest version of VS Code. ``choco install vscode``"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/setup/setup.rst
 msgid "Linux/Mac"
@@ -130,9 +146,13 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/setup/setup.rst:37
 msgid "Install Git from the `Git website <https://git-scm.com/downloads>`_."
+<<<<<<< HEAD
 msgstr ""
 "Git をインストールするには、`Git ウェブサイト <https://git-scm.com/downloads>`_ "
 "からダウンロードしてください。"
+=======
+msgstr "インストール Git from the `Git website <https://git-scm.com/downloads>`_."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/setup/setup.rst:38
 msgid "Install `Make <https://www.gnu.org/software/make/>`_ ."
@@ -155,7 +175,11 @@ msgstr "VS Code"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:48
 msgid "Under Start in the welcome screen, click on \"Clone Repository\""
+<<<<<<< HEAD
 msgstr "スタートに移動し、歓迎画面で「リポジトリをクローン」をクリックします。"
+=======
+msgstr "Under Start in the welcome screen, click on \"Clone リポジトリ\""Clone リポジトリ\""
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Clone"
@@ -203,7 +227,11 @@ msgstr "開く\" を選択して、リポジトリをVS Codeで開きます。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:76
 msgid "Select \"Yes, I trust the authors\""
+<<<<<<< HEAD
 msgstr "「はい、著者を信頼します」を選択"
+=======
+msgstr "選択する \"Yes, I trust the authors\""Yes, I trust the authors\""
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Trust"
@@ -266,7 +294,11 @@ msgstr "現在、サイトを表示するには、URL ``http://127.0.0.1:7350`` 
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Build Succeeded"
+<<<<<<< HEAD
 msgstr "構築が成功しました"
+=======
+msgstr "ビルド Succeeded"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Localhost"

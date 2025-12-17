@@ -22,7 +22,11 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:2
 msgid "Installing Android Studio :bdg-success:`AS`"
+<<<<<<< HEAD
 msgstr "Android Studio のインストール :bdg-success:`AS`"
+=======
+msgstr "インストールing Android Studio :bdg-success:`AS`"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/installing_android_studio/Installing-Android-Studio.rst:5
 msgid "Android Developer Website"

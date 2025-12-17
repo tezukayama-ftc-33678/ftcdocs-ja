@@ -157,7 +157,11 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:90
 msgid "Opmode Download"
+<<<<<<< HEAD
 msgstr "オペレーションモードダウンロード"
+=======
+msgstr "Opmode ダウンロード"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:90
 msgid "Downloading a Blocks program"
@@ -205,11 +209,19 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:122
 msgid "Blocks Management Download"
+<<<<<<< HEAD
 msgstr "ブロック管理ダウンロード"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:122
 msgid "Downloading Blocks via the Management Interface"
 msgstr "管理インターフェース経由でブロックをダウンロード"
+=======
+msgstr "Blocks Management ダウンロード"
+
+#: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:122
+msgid "Downloading Blocks via the Management Interface"
+msgstr "ダウンロードing Blocks via the Management Interface"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:125
 msgid "Uploading Blocks"
@@ -241,7 +253,11 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:143
 msgid "Blocks Management File Upload"
+<<<<<<< HEAD
 msgstr "ブロック管理ファイルアップロード"
+=======
+msgstr "Blocks Management File アップロード"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:143
 msgid "Uploading Blocks Files via the Management Interface"

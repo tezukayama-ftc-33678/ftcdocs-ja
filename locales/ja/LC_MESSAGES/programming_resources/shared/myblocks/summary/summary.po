@@ -55,10 +55,17 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/summary/summary.rst:19
 msgid ""
+<<<<<<< HEAD
 "MyBlocks can be created with **OnBot Java**, which runs on the RC phone or "
 "Control Hub. Building and testing are very fast. Many teams do not have easy"
 " access to Android Studio, for reasons including school computers that "
 "prevent software installation."
+=======
+"MyBlocks can be created with OnBot Java, which runs on the RC phone "
+"or Control Hub. Building and testing are very fast. Many teams do not "
+"have easy access to Android Studio, for reasons including school "
+"computers that prevent software installation."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "MyBlocksは、RC電話やコントロールハブで実行される**OnBot "
 "Java**を使用して作成できます。構築とテストは非常に迅速に行えます。多くのチームは、学校のコンピュータなどの理由によりAndroid "

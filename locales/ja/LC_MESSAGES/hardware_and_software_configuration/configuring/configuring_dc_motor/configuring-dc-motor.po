@@ -40,7 +40,7 @@ msgid ""
 "<hardware_and_software_configuration/configuring/saving_config/saving-"
 "config:Saving the Configuration Information>` step."
 msgstr ""
-"この時点では、構成ファイルを作成しましたが、その内容をまだ **Robot Controller** に保存していません。構成ファイルは、後の :ref:`構成情報の保存 <hardware_and_software_configuration/configuring/saving_config/saving-config:Saving the Configuration Information>` ステップで保存します。"
+"この時点では、構成ファイルを作成しましたが、その内容をまだ Robot Controller に保存していません。構成ファイルは、後の :ref:`構成情報の保存 <hardware_and_software_configuration/configuring/saving_config/saving-config:Saving the Configuration Information>` ステップで保存します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:10
 msgid "Configuring a DC Motor Instructions"
@@ -59,7 +59,7 @@ msgid ""
 "the dropdown control for port 0 to select the motor type (Tetrix Motor "
 "for this example)."
 msgstr ""
-"2. モーターを **Expansion Hub** のポート #0 に取り付けたので、ポート 0 のドロップダウンコントロールを使用して、モータータイプ（この例では Tetrix Motor）を選択します。"
+"2. モーターを Expansion Hub のポート #0 に取り付けたので、ポート 0 のドロップダウンコントロールを使用して、モータータイプ（この例では Tetrix Motor）を選択します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dc_motor/configuring-dc-motor.rst:29
 msgid ""

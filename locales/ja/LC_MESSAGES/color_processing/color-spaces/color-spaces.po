@@ -257,9 +257,15 @@ msgstr ""
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:130
 msgid ""
+<<<<<<< HEAD
 "The **Color Locator** processor can use any of these three Color Spaces.  "
 "The simple **Color Sensor** processor uses YCrCb internally, but reports "
 "results in RGB only."
+=======
+"The Color Locator processor can use any of these three Color Spaces."
+"  The simple **Color Sensor** processor uses YCrCb internally, but "
+"reports results in RGB only."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "The **Color Locator** プロセッサーはこれらの3つの色空間のいずれかを使用できます。シンプルな **Color Sensor** "
 "プロセッサーは内部で YCrCb を使用しますが、結果はRGBのみを報告します。"

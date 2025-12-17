@@ -32,9 +32,15 @@ msgstr "シンプルなmyBlockから始めて、“Hello World”的な挨拶を
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:7
 msgid ""
+<<<<<<< HEAD
 "Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone. Go "
 "to the address **http://192.168.43.1:8080** (CH) or "
 "**http://192.168.49.1:8080** (RC), and click the **OnBot Java** tab."
+=======
+"Open a Chrome browser connected via Wi-Fi to a Control Hub or RC phone. "
+"Go to the address **http://192.168.43.1:8080** (CH) or "
+"**http://192.168.49.1:8080** (RC), and click the OnBot Java tab."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:11
@@ -212,12 +218,20 @@ msgid "Simple Example: run myGreeting"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:124
 msgid ""
+<<<<<<< HEAD
 "In the browser still connected to the RC phone or Control Hub, - click the "
 "**Blocks** tab - click **Create New OpMode**, name it **Test_myBlocks_v01** "
 "- use the default Sample, called **BasicOpMode** - click **OK**"
 "msgstr ""
 "In the browser still connected to the RC phone or Control Hub, - click the **Blocks** tab - click **Create New OpMode**, name it **Test_myBlocks_v01** - use the default Sample, called **BasicOpMode** - click **OK**"
 ""
+=======
+"In the browser still connected to the RC phone or Control Hub, - click "
+"the Blocks tab - click **Create New OpMode**, name it "
+"**Test_myBlocks_v01** - use the default Sample, called **BasicOpMode** - "
+"click **OK**"
+msgstr ""
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:131
 msgid ""
@@ -236,9 +250,15 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:142
 msgid ""
+<<<<<<< HEAD
 "To display the myBlock’s String or text output, look under **Utilities** for"
 " the **Telemetry** menu. Drag out the **Telemetry.addData** Block that "
 "**displays text** (not numbers)."
+=======
+"To display the myBlock’s String or text output, look under **Utilities** "
+"for the Telemetry menu. Drag out the **Telemetry.addData** Block that"
+" **displays text** (not numbers)."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "myBlockの文字列やテキスト出力を表示するには、** Utilities ** から ** Telemetry ** メニューを探します。** "
 "テキストを表示 **（数値ではなく）する **Telemetry.addData** ブロックをドラッグアウトしてください。"

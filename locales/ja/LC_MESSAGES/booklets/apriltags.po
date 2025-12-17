@@ -22,6 +22,7 @@ msgstr ""
 
 #: ../../source/booklets/apriltags.rst:11
 msgid "AprilTag Introduction"
+<<<<<<< HEAD
 msgstr "AprilTag について"
 
 #: ../../source/booklets/apriltags.rst:11
@@ -35,6 +36,21 @@ msgstr "AprilTagの値についての理解"
 #: ../../source/booklets/apriltags.rst:11
 msgid "AprilTag Test Images"
 msgstr "4月タグテスト画像"
+=======
+msgstr "AprilTag入門"
+
+#: ../../source/booklets/apriltags.rst:11
+msgid "VisionPortal Overview"
+msgstr "VisionPortal概要"
+
+#: ../../source/booklets/apriltags.rst:11
+msgid "Understanding AprilTag Values"
+msgstr "AprilTag値の理解"
+
+#: ../../source/booklets/apriltags.rst:11
+msgid "AprilTag Test Images"
+msgstr "AprilTagテスト画像"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/booklets/apriltags.rst:-1
 msgid "noindex, nofollow"
@@ -42,4 +58,9 @@ msgstr "noindex, nofollow"
 
 #: ../../source/booklets/apriltags.rst:9
 msgid "April Tags in *FIRST* Tech Challenge"
+<<<<<<< HEAD
 msgstr "FIRST Tech Challenge の April Tags について"
+=======
+msgstr "*FIRST* Tech ChallengeにおけるApril Tags"
+
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e

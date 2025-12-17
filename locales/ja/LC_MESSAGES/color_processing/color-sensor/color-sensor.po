@@ -79,7 +79,11 @@ msgstr "次のセクションでは、Sample OpMode を用いてこの操作方�
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:38
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr "設定"
+=======
+msgstr "構成"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:40
 msgid "*Skip this section if ...*"
@@ -219,7 +223,11 @@ msgstr "ドライバーステーション上："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:109
 msgid "Select the Autonomous OpMode that you just saved or built."
+<<<<<<< HEAD
 msgstr "自主運転のOpModeを選択してください。"
+=======
+msgstr "選択する the Autonomous OpMode that you just saved or built."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:110
 msgid "Turn off the automatic 30-second match timer (green slider)."
@@ -318,7 +326,11 @@ msgstr "または、再度カメラストリームを選択して、前の画面
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:164
 msgid "RC Preview"
+<<<<<<< HEAD
 msgstr "ロボットカントリービューア"
+=======
+msgstr "RCプレビュー"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:166
 msgid ""
@@ -418,9 +430,15 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:215
 msgid ""
+<<<<<<< HEAD
 "The Sample OpMode then creates a **VisionPortal**, again using a Builder "
 "pattern.  This includes adding the \"Predominant Color\" Processor to the "
 "VisionPortal."
+=======
+"The Sample OpMode then creates a VisionPortal, again using a Builder "
+"pattern.  This includes adding the \"Predominant Color\" Processor to the"
+" VisionPortal."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "サンプルのOpModeでは、**VisionPortal** を再びビルダー模式を使って作成します。これには、「 Predominant Color」 "
 "プロセッサーをVisionPortalに追加する処理が含まれます。"
@@ -666,8 +684,13 @@ msgid "Next Sections"
 msgstr "次節へ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:395
+<<<<<<< HEAD
 msgid "Soon you can move ahead to try the **Color Locator** processor."
 msgstr "不久後、**Color Locator** プロセッサーを試すことができます。"
+=======
+msgid "Soon you can move ahead to try the Color Locator processor."
+msgstr ""
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:397
 msgid ""

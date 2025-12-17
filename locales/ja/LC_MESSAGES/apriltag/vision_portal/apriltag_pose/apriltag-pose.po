@@ -132,7 +132,11 @@ msgstr "**エレベーション**、カメラがタグの中心に直接向か�
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:62
 msgid "Here each green Block assigns its value to a Variable:"
+<<<<<<< HEAD
 msgstr "ここでは各緑色ブロックが変数にその値を割り当てています："
+=======
+msgstr "Here each green Block assigns its value to a 変数:"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst
 msgid "AprilTag RBE Blocks"

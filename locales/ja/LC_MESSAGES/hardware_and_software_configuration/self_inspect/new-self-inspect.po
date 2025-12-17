@@ -228,14 +228,19 @@ msgstr ""
 "Bluetooth がどうか有効になっていた場合にのみ必要となるでしょう。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:86
+<<<<<<< HEAD
 msgid ""
 "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub."
 "msgstr ""
 "アイテム2 ``Manufacturer`` は、REVドライバーハブの場合、**REV Robotics**に設定する必要があります。"
 ""
+=======
+msgid "Item 2 ``Manufacturer`` should be REV Robotics for a REV Driver Hub."
+msgstr "Item 2 ``Manufacturer`` should be REV ロボットics for a REV Driver Hub."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:87
-msgid "Item 3 ``Model`` should be **Driver Hub**."
+msgid "Item 3 ``Model`` should be Driver Hub."
 msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:88
@@ -416,16 +421,29 @@ msgid "Robot Controller Self Inspection Report"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:141
 msgid ""
+<<<<<<< HEAD
 "Now we change to **Robot Controller** Self Inspect report. This is normally "
 "viewed from the Driver Station by selecting the **Inspect Robot Controller**"
 " menu option on the Inspection Reports DS screen. FYI - if you connect an "
 "external monitor to the Control Hub's HDMI port and a mouse to a USB port "
 "you can view the RC Inspection report directly from the Control Hub."
+=======
+"Now we change to Robot Controller Self Inspect report. This is "
+"normally viewed from the Driver Station by selecting the **Inspect Robot "
+"Controller** menu option on the Inspection Reports DS screen. FYI - if "
+"you connect an external monitor to the Control Hub's HDMI port and a "
+"mouse to a USB port you can view the RC Inspection report directly from "
+"the Control Hub."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:150
 msgid "Robot controller self inspection report"
+<<<<<<< HEAD
 msgstr "ロボットコントローラーの自己診断報告書"
+=======
+msgstr "ロボット controller self inspection report"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:150
 msgid "All items are good, except RC Password"
@@ -440,9 +458,14 @@ msgid ""
 ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:154
+<<<<<<< HEAD
 msgid ""
 "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Control Hub."
 msgstr ""
+=======
+msgid "Item 2 ``Manufacturer`` should be REV Robotics for a REV Control Hub."
+msgstr "Item 2 ``Manufacturer`` should be REV ロボットics for a REV Control Hub."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:155
 msgid "Item 3 ``Model`` should be **Control Hub v1.0**."

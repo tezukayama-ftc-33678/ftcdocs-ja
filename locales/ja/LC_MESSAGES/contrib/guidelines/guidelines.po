@@ -88,7 +88,11 @@ msgstr "スクリーンショット（適用時）"
 
 #: ../../source/contrib/guidelines/guidelines.rst:29
 msgid "Feature Requests"
+<<<<<<< HEAD
 msgstr "機能要望"
+=======
+msgstr "機能 Requests"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/guidelines/guidelines.rst:31
 msgid "A description of the feature"

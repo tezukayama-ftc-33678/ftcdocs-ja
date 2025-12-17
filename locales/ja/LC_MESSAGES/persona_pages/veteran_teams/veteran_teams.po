@@ -32,12 +32,12 @@ msgid ""
 " looking to elevate their skills.  The technical resources are a stepping"
 " stone towards industry standard certifications. Just click on the button"
 " for the resource you want to explore!"
-msgstr "**FIRST Tech Challenge** にお帰りなさい！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。探索したいリソースのボタンをクリックしてください！"
+msgstr "FIRST Tech Challenge にお帰りなさい！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。探索したいリソースのボタンをクリックしてください！"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:18
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:60
 msgid "Programming Resources"
-msgstr "プログラミングリソース"
+msgstr ":doc:`プログラミングリソース <../../programming_resources/index>`"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:22
 msgid "Look for Java programming resources here."
@@ -45,20 +45,20 @@ msgstr "Java プログラミングリソースはこちらをご覧ください�
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:30
 msgid "OnBot Java Tutorial"
-msgstr "OnBot Java チュートリアル"
+msgstr ":doc:`OnBot Java チュートリアル <../../programming_resources/onbot_java/OnBot-Java-Tutorial>`"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:40
 msgid "Android Studio Tutorial"
-msgstr "Android Studio チュートリアル"
+msgstr ":doc:`Android Studio チュートリアル <../../programming_resources/android_studio_java/Android-Studio-Tutorial>`"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:50
 msgid "AprilTag Introduction"
-msgstr "AprilTag 入門"
+msgstr ":doc:`AprilTag 入門 <../../apriltag/vision_portal/apriltag_intro/apriltag-intro>`"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:72
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:84
 msgid "CAD Resources"
-msgstr "CAD リソース"
+msgstr ":doc:`CAD リソース <../../cad_resources/index>`"
 
 #: ../../source/persona_pages/veteran_teams/veteran_teams.rst:76
 msgid "Look for resources for Computer-Aided Design (CAD) software."

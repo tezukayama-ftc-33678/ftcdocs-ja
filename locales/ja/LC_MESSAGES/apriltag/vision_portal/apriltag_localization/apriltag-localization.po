@@ -26,7 +26,11 @@ msgstr "4月タグロケーション"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:5
 msgid "Introduction"
+<<<<<<< HEAD
 msgstr "紹介\\n"
+=======
+msgstr "はじめに"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:7
 msgid ""
@@ -53,7 +57,11 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:19
 msgid "Field Locations of AprilTags in INTO THE DEEP"
+<<<<<<< HEAD
 msgstr "INTO THE DEEP のフィールド上の AprilTag 的場所"
+=======
+msgstr "フィールド Locations of AprilTags in INTO THE DEEP"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:19
 msgid "Field locations of AprilTags in INTO THE DEEP"
@@ -75,9 +83,13 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:33
 msgid "Field Coordinate System"
+<<<<<<< HEAD
 "msgstr ""
 "フィールド座標系"
 ""
+=======
+msgstr "フィールド Coordinate システム"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:33
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:249
@@ -104,7 +116,11 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:44
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr "設定"
+=======
+msgstr "構成"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:46
 msgid "*Skip this section if ...*"
@@ -256,8 +272,13 @@ msgstr "部分的なAprilTagシート"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:128
 msgid ""
+<<<<<<< HEAD
 "**Touch INIT only.**  No telemetry will appear, but at this moment the DS "
 "**Camera Stream** preview can be accessed.  See the next section re.  "
+=======
+"**Touch INIT only.**  No telemetry will appear, but at this moment the DS"
+" Camera Stream preview can be accessed.  See the next section re.  "
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 "previews."
 msgstr ""
 "**INITのみをタッチしてください。** "
@@ -332,7 +353,11 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:170
 msgid "DS Camera Stream"
+<<<<<<< HEAD
 msgstr "ドライバステーションカメラストリーム"
+=======
+msgstr "DSカメラストリーム"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:170
 msgid "Example of DS Camera Stream"
@@ -609,9 +634,14 @@ msgid ""
 msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:351
+<<<<<<< HEAD
 msgid ""
 "These green Blocks can be assigned to position Variables, for later use."
 msgstr "これらの緑色のブロックは、後で使用するための位置変数に割り当てることができます。"
+=======
+msgid "These green Blocks can be assigned to position Variables, for later use."
+msgstr "These green Blocks can be assigned to position 変数s, for later use."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:358
@@ -643,7 +673,11 @@ msgid ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:392
 msgid "Summary"
+<<<<<<< HEAD
 msgstr "概要"
+=======
+msgstr "まとめ"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:394
 msgid ""

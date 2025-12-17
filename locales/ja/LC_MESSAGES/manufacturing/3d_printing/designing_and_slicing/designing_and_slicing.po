@@ -26,7 +26,11 @@ msgstr "What is Slicing?\\"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Slicer Software Choices"
+<<<<<<< HEAD
 msgstr "スライサーソフトウェアの選択"
+=======
+msgstr "Slicer ソフトウェア Choices"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Explanation of Slicer Settings"

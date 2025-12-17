@@ -33,7 +33,7 @@ msgid ""
 "that in this tutorial, the word \"distance\" is used interchangeably with"
 " the word \"range\"."
 msgstr ""
-"**REV Robotics** 色距離センサーは I2C センサーです。実際には、2 つのセンサー機能を 1 つのデバイスに組み合わせたものです。これは、オブジェクトの色を判定できる色センサーです。また、短距離を測定するために使用できる距離またはレンジセンサーでもあります。このチュートリアルでは、「distance」という語は「range」という語と同じ意味で使用されていることに注意してください。"
+"REV Robotics 色距離センサーは I2C センサーです。実際には、2 つのセンサー機能を 1 つのデバイスに組み合わせたものです。これは、オブジェクトの色を判定できる色センサーです。また、短距離を測定するために使用できる距離またはレンジセンサーでもあります。このチュートリアルでは、「distance」という語は「range」という語と同じ意味で使用されていることに注意してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:12
 msgid "Configuring a Color Distance Sensor Instructions"
@@ -52,7 +52,7 @@ msgid ""
 "\"0\" through \"3\".  In this example, since you connected the Color "
 "Sensor to the port labeled \"0\", it resides on I2C Bus 0."
 msgstr ""
-"**Control Hub** または **Expansion Hub** には、「0」から「3」までのラベルが付いた 4 つの独立した I2C バスがあります。この例では、色センサーを「0」とラベル付けされたポートに接続したため、I2C Bus 0 に存在します。"
+"Control Hub または Expansion Hub には、「0」から「3」までのラベルが付いた 4 つの独立した I2C バスがあります。この例では、色センサーを「0」とラベル付けされたポートに接続したため、I2C Bus 0 に存在します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:24
 msgid ""
@@ -61,9 +61,14 @@ msgid ""
 "built-in inertial measurement unit (IMU) sensor. This sensor can be used "
 "to determine the orientation of a robot, as well as measure the "
 "accelerations on a robot."
+<<<<<<< HEAD
 "msgstr ""
 "2. Look at the **I2C Bus 0** screen. There should already be a sensor configured for this bus. The Control Hub or Expansion Hub has its own built-in inertial measurement unit (IMU) sensor. This sensor can be used to determine the orientation of a robot, as well as measure the accelerations on a robot."
 ""
+=======
+msgstr ""
+"2. **I2C Bus 0** 画面を見てください。このバスには既にセンサーが構成されているはずです。Control Hub または Expansion Hub には、独自の内蔵慣性測定装置（IMU）センサーがあります。このセンサーは、ロボットの方向を決定するだけでなく、ロボットの加速度を測定するためにも使用できます。"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:35
 msgid ""
@@ -73,7 +78,7 @@ msgid ""
 " I2C Bus 0. You will need to add another I2C device for this bus to be "
 "able to configure the color sensor."
 msgstr ""
-"内蔵 **IMU** は、各 **Control Hub** または **Expansion Hub** の I2C Bus 0 に内部的に接続されています。**Robot Controller** を使用して **Control Hub** または **Expansion Hub** を構成するたびに、アプリは I2C Bus 0 の **IMU** を自動的に構成します。色センサーを構成できるようにするには、このバスに別の I2C デバイスを追加する必要があります。"
+"内蔵 IMU は、各 Control Hub または Expansion Hub の I2C Bus 0 に内部的に接続されています。Robot Controller を使用して Control Hub または Expansion Hub を構成するたびに、アプリは I2C Bus 0 の IMU を自動的に構成します。色センサーを構成できるようにするには、このバスに別の I2C デバイスを追加する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:37
 msgid "Press the **Add** button to add another I2C device to this bus."

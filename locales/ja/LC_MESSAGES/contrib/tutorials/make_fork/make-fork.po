@@ -62,11 +62,19 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:21
 msgid "FTC Docs Repository"
+<<<<<<< HEAD
 msgstr "FIRST Tech Challenge ドキュメントリポジトリ"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:21
 msgid "The Official FTC Docs GitHub Repository"
 msgstr "公式FIRST Tech Challenge Docs GitHubリポジトリ"
+=======
+msgstr "FTC Docs リポジトリ"
+
+#: ../../source/contrib/tutorials/make_fork/make-fork.rst:21
+msgid "The Official FTC Docs GitHub Repository"
+msgstr "The Official FTC Docs GitHub リポジトリ"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:23
 msgid "Follow the steps shown below to fork the repository."
@@ -74,7 +82,11 @@ msgstr "以下の手順に従ってリポジトリをフォークしてくださ
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:30
 msgid "Forking the Repository"
+<<<<<<< HEAD
 msgstr "リポジトリのフォーク"
+=======
+msgstr "Forking the リポジトリ"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:30
 msgid "Click the \"Create Fork\" button to create a fork of the repository."

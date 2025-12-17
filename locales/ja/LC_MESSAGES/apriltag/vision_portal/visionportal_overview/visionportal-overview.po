@@ -82,19 +82,31 @@ msgstr "ビジョンポートルの概要"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:4
 msgid ""
+<<<<<<< HEAD
 "**FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new "
 "interface for vision processing."
+=======
+"FIRST Tech Challenge introduces VisionPortal, a comprehensive new"
+" interface for vision processing."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "**FIRST Tech Challenge** は、ビジョン処理用の総合的な新インターフェース **VisionPortal** を導入しました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:7
 msgid ""
+<<<<<<< HEAD
 "For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of "
 "**AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection "
 "(TFOD)** – at the same time!"
 "msgstr ""
 "For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection (TFOD)** – at the same time!"
 ""
+=======
+"For **FTC Blocks and Java** teams, VisionPortal offers key capabilities "
+"of AprilTag and EasyOpenCV, along with **TensorFlow Object "
+"Detection (TFOD)** – at the same time!"
+msgstr ""
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
 msgid "Dual Detection"
@@ -106,7 +118,7 @@ msgstr "両方のプレビュー：AprilTagsとTensorFlow"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:20
 msgid ""
-"**AprilTag** detections include ID code and **pose**: tag location and "
+"AprilTag detections include ID code and **pose**: tag location and "
 "orientation, relative to the camera."
 msgstr "**AprilTag** 検出にはIDコードと**ポーズ**: タグの位置と向き（カメラに対して）が含まれます。"
 
@@ -170,9 +182,15 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:59
 msgid ""
 "In preparation for the 2023-2024 CENTERSTAGE season, the new Software "
+<<<<<<< HEAD
 "Development Kit (SDK) **VisionPortal** includes **built-in support for "
 "AprilTag technology**. Previously, Teams needed to download and incorporate "
 "external libraries, complicating the programming effort."
+=======
+"Development Kit (SDK) VisionPortal includes **built-in support for "
+"AprilTag technology**. Previously, Teams needed to download and "
+"incorporate external libraries, complicating the programming effort."
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "2023-2024年のCENTERSTAGEシーズンに向けて、新しいSoftware Development Kit (SDK) "
 "**VisionPortal** には **AprilTag技術の内蔵サポート** "
@@ -220,11 +238,19 @@ msgid "Much credit to"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:107
 msgid "EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__"
+<<<<<<< HEAD
 msgstr "EasyOpenCV デベロッパー「@Windwoes」"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:108
 msgid "FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__"
 msgstr "FTC ブロック開発者「@lizlooney <https://github.com/lizlooney>`__」"
+=======
+msgstr "EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__"
+
+#: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:108
+msgid "FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__"
+msgstr "FTC Blocks developer `@lizlooney <https://github.com/lizlooney>`__"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:109
 msgid ""

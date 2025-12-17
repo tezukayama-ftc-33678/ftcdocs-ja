@@ -200,7 +200,11 @@ msgstr ""
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:434
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:495
 msgid "Select and read the Blocks **or** Java section below:"
+<<<<<<< HEAD
 msgstr "下記のBlocks **または** Java のセクションを選択し、読み進めてください："
+=======
+msgstr "選択する and read the Blocks **or** Java section below:"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
 msgid "Blocks"

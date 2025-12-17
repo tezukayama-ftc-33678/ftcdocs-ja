@@ -22,7 +22,11 @@ msgstr ""
 
 #: ../../source/booklets/advanced.rst:11
 msgid "Camera Calibration"
+<<<<<<< HEAD
 msgstr "カメラ校正"
+=======
+msgstr "カメラキャリブレーション"
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/booklets/advanced.rst:-1
 msgid "noindex, nofollow"
@@ -30,4 +34,9 @@ msgstr "noindex, nofollow"
 
 #: ../../source/booklets/advanced.rst:9
 msgid "Advanced Topics, Progrmming Resources"
+<<<<<<< HEAD
 msgstr "高度なトピック, プログラミングリソース"
+=======
+msgstr "高度なトピック、プログラミングリソース"
+
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e

@@ -168,11 +168,17 @@ msgstr "2. プログラミングモードサーバに接続されていること
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:115
 msgid ""
+<<<<<<< HEAD
 "3. Press the **Blocks** link towards the top of the Console to navigate to "
 "the main Blocks Programming screen."
 "msgstr ""
 "3. Console の上部にある **Blocks** リンクを押して、主要なブロックプログラミング画面に移動します。"
 ""
+=======
+"3. Press the Blocks link towards the top of the Console to navigate "
+"to the main Blocks Programming screen."
+msgstr ""
+>>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:123
 msgid ""
