@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:40
 msgid "``myVisionPortalBuilder.enableCameraMonitoring(true);``"
-msgstr ""
+msgstr "``myVisionPortalビルドer.enableCameraMonitoring(true);``"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:41
 msgid "``VIEWPORT`` appears in the preview status window, when stopped"

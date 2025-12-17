@@ -189,7 +189,7 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:102
 msgid "Select ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged in."
-msgstr ""
+msgstr "選択する ``I2C Bus 3`` or whichever Bus number has the HuskyLens plugged in."
 
 #: ../../source/devices/huskylens/huskylens.rst:110
 msgid "DS Config"
@@ -568,7 +568,7 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:346
 msgid "Selecting COLOR_RECOGNITION algorithm"
-msgstr ""
+msgstr "選択するing COLOR_RECOGNITION algorithm"
 
 #: ../../source/devices/huskylens/huskylens.rst:348
 msgid "In the Java sample OpMode, change the algorithm selection as follows:"
@@ -640,7 +640,7 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:401
 msgid "Competition Notes"
-msgstr ""
+msgstr "競技 Notes"
 
 #: ../../source/devices/huskylens/huskylens.rst:404
 msgid "1. Team Prop"

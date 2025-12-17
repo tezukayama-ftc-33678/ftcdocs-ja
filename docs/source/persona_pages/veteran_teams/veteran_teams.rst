@@ -15,7 +15,7 @@ resource you want to explore!
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      Programming Resources
+      :doc:`Programming Resources <../../programming_resources/index>`
 
       ^^^
 
@@ -69,7 +69,7 @@ resource you want to explore!
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      CAD Resources 
+      :doc:`CAD Resources <../../cad_resources/index>` 
 
       ^^^
 

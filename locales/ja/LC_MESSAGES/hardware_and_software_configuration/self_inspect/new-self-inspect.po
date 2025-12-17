@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:86
 msgid "Item 2 ``Manufacturer`` should be REV Robotics for a REV Driver Hub."
-msgstr ""
+msgstr "Item 2 ``Manufacturer`` should be REV ロボットics for a REV Driver Hub."
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:87
 msgid "Item 3 ``Model`` should be Driver Hub."
@@ -359,7 +359,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:150
 msgid "Robot controller self inspection report"
-msgstr ""
+msgstr "ロボット controller self inspection report"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:150
 msgid "All items are good, except RC Password"
@@ -374,7 +374,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:154
 msgid "Item 2 ``Manufacturer`` should be REV Robotics for a REV Control Hub."
-msgstr ""
+msgstr "Item 2 ``Manufacturer`` should be REV ロボットics for a REV Control Hub."
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:155
 msgid "Item 3 ``Model`` should be **Control Hub v1.0**."

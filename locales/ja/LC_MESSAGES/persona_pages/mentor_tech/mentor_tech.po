@@ -38,7 +38,7 @@ msgstr "FIRST Tech Challenge の技術メンターの皆さん、ようこそ！
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:18
 msgid "Control System Resources"
 msgstr "制御システムリソース"
-msgstr ""
+
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:22
 msgid "Look for Control System resources here."
 msgstr "制御システムのリソースはこちらをご覧ください。"
@@ -62,7 +62,7 @@ msgstr "ロボット製作リソース（外部）"
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:65
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:77
 msgid "Programming Resources"
-msgstr "プログラミングリソース"
+msgstr ":doc:`プログラミングリソース <../../programming_resources/index>`"
 
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:69
 msgid "Links to programming resources."
@@ -70,7 +70,7 @@ msgstr "プログラミングリソースへのリンクです。"
 
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:88
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:100
-msgstr "CAD リソース"
+msgid "CAD Resources"
 msgstr ":doc:`CAD リソース <../../cad_resources/index>`"
 
 #: ../../source/persona_pages/mentor_tech/mentor_tech.rst:92

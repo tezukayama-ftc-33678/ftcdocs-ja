@@ -79,11 +79,11 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:27
 msgid "`Internal Links`_"
-msgstr ""
+msgstr "`Internal リンクs`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:29
 msgid "`Links with Anchors`_"
-msgstr ""
+msgstr "`リンクs with Anchors`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:30
 msgid "`Referencing Sections`_"
@@ -91,11 +91,11 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:32
 msgid "`External Links`_"
-msgstr ""
+msgstr "`External リンクs`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:34
 msgid "`Simple External Link`_"
-msgstr ""
+msgstr "`Simple External リンク`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:35
 msgid "`Embedded URI`_"
@@ -635,7 +635,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:439
 msgid "Links with Anchors Example"
-msgstr ""
+msgstr "リンクs with Anchors Example"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:441
 msgid "In plain text, this could look like::"
@@ -714,7 +714,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:501
 msgid "Simple External Link"
-msgstr ""
+msgstr "Simple External リンク"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:503
 msgid "A simple External Link is simply the http address."
@@ -792,7 +792,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:548
 msgid "`REV Robotics Website <https://www.revrobotics.com>`_"
-msgstr ""
+msgstr "`REV ロボットics Website <https://www.revrobotics.com>`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:553
 msgid "Embedding External Images"

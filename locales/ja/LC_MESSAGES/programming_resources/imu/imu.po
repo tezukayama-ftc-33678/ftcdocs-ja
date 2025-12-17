@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:25
 msgid "Teams wanting to use the newer IMU are required to:"
-msgstr ""
+msgstr "チームs wanting to use the newer IMU are required to:"
 
 #: ../../source/programming_resources/imu/imu.rst:27
 msgid "use SDK 8.1 or newer"
@@ -100,7 +100,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:40
 msgid "REV Hardware Client (when Hub LED is green)"
-msgstr ""
+msgstr "REV ハードウェア Client (when Hub LED is green)"
 
 #: ../../source/programming_resources/imu/imu.rst:42
 msgid "Each Hub’s IMU type is listed there, as of SDK 8.0."
@@ -317,7 +317,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:141
 msgid "IMU Robot Configuration"
-msgstr ""
+msgstr "IMU ロボット 構成"
 
 #: ../../source/programming_resources/imu/imu.rst:141
 msgid "REV IMU Robot Configuration Validation"
@@ -709,7 +709,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:486
 msgid "Setting parameters to a Variable"
-msgstr ""
+msgstr "Setting parameters to a 変数"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "Java"
@@ -979,11 +979,11 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "Initialize IMU using Parameters"
-msgstr ""
+msgstr "Initialize IMU using パラメーターs"
 
 #: ../../source/programming_resources/imu/imu.rst:785
 msgid "Initializing the IMU using Parameters"
-msgstr ""
+msgstr "Initializing the IMU using パラメーターs"
 
 #: ../../source/programming_resources/imu/imu.rst:808
 msgid "Read IMU Angles - Basic"
@@ -1431,7 +1431,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:1168
 msgid "``ImuOrientationOnRobot``"
-msgstr ""
+msgstr "``ImuOrientationOnロボット``"
 
 #: ../../source/programming_resources/imu/imu.rst:1169
 msgid "``YawPitchRollAngles``"

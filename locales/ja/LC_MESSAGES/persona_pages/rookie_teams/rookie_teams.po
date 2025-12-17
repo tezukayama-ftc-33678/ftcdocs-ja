@@ -22,13 +22,11 @@ msgstr ""
 
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:2
 msgid "New Teams"
-msgstr "私たちは、FIRST の哲学である Gracious Professionalism と Coopertition をコアバリューを通じて表現します。"
+msgstr "新規チーム"
 
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:4
 msgid ""
 "Welcome to *FIRST* Tech Challenge! Resources have been organized by type "
-msgstr ""
-" Get started by exploring our robot building resources, control system "
 "and the game.  You may also find the Coach's Playbook, a weekly schedule "
 "of activities, helpful to organize the whole team under Team Management. "
 "Just click on the button for the resource you want to explore!"
@@ -64,7 +62,7 @@ msgstr ":doc:`プログラミングリソース <../../programming_resources/ind
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:71
 msgid "Look for programming resources here."
 msgstr "プログラミングリソースはこちらをご覧ください。"
-msgstr ""
+
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:79
 msgid "Choosing a Programming Tool"
 msgstr ":doc:`プログラミングツールの選択 <../../programming_resources/shared/choosing_program_lang/choosing-program-lang>`"
@@ -104,19 +102,17 @@ msgstr "チームリソース（外部）"
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:174
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:187
 msgid "Competition Manual"
-msgstr "プログラミングリソース"
+msgstr "競技 Manual"
 
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:178
-msgid ""
-msgstr "競技マニュアル"
-"Competition Manual is an essential document."
+msgid "Be sure you're following all of the rules of the competition! The Competition Manual is an essential document."
 msgstr "競技のすべてのルールに従っていることを確認してください！競技マニュアルは必須のドキュメントです。"
 
-msgstr "CAD リソース"
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:182
 msgid "Playing Field Resources"
 msgstr ":doc:`フィールドリソース <../../game_specific_resources/playing_field_resources/playing_field_resources>`"
 
-msgstr "よくある質問"
+#: ../../source/persona_pages/rookie_teams/rookie_teams.rst:194
 msgid "Game Question and Answer System (external)"
 msgstr "ゲーム質疑応答システム（外部）"
 
@@ -134,7 +130,7 @@ msgstr "チーム登録、メンター研修/リソース、チーム予算と�
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:230
 msgid "Team Management (external)"
 msgstr "チーム管理（外部）"
-msgstr ""
+
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:242
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:254
 msgid "CAD Resources"
@@ -167,7 +163,7 @@ msgstr "イベント前に Awards の基準を知っておきましょう。"
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:302
 msgid "FTC Awards (external PDF)"
 msgstr "FTC Awards（外部 PDF）"
-msgstr ""
+
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:314
 #: ../../source/persona_pages/rookie_teams/rookie_teams.rst:326
 msgid "Frequently Asked Questions"

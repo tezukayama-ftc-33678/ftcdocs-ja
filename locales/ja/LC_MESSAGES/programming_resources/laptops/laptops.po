@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:25
 msgid "Software development and hardware update requirements"
-msgstr ""
+msgstr "ソフトウェア development and hardware update requirements"
 
 #: ../../source/programming_resources/laptops/laptops.rst:27
 msgid "Vendor-specific application requirements and limitations"
@@ -98,14 +98,14 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:51
 msgid "*Recommended for Software Development:*"
-msgstr ""
+msgstr "*Recommended for ソフトウェア Development:*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:53
 #: ../../source/programming_resources/laptops/laptops.rst:98
 #: ../../source/programming_resources/laptops/laptops.rst:173
 #: ../../source/programming_resources/laptops/laptops.rst:195
 msgid "`Windows Standard Laptop`_"
-msgstr ""
+msgstr "`Windows Standard PC`_"
 
 #: ../../source/programming_resources/laptops/laptops.rst:55
 #: ../../source/programming_resources/laptops/laptops.rst:105
@@ -118,12 +118,12 @@ msgstr ""
 #: ../../source/programming_resources/laptops/laptops.rst:107
 #: ../../source/programming_resources/laptops/laptops.rst:204
 msgid "`MacOS Standard Laptop`_"
-msgstr ""
+msgstr "`MacOS Standard PC`_"
 
 #: ../../source/programming_resources/laptops/laptops.rst:59
 #: ../../source/programming_resources/laptops/laptops.rst:115
 msgid "`Chrome OS Standard Laptop`_"
-msgstr ""
+msgstr "`Chrome OS Standard PC`_"
 
 #: ../../source/programming_resources/laptops/laptops.rst:61
 msgid "`iOS Standard Tablet`_"
@@ -169,18 +169,18 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:90
 msgid "*Recommended for Software Development and CAD:*"
-msgstr ""
+msgstr "*Recommended for ソフトウェア Development and CAD:*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:92
 #: ../../source/programming_resources/laptops/laptops.rst:178
 #: ../../source/programming_resources/laptops/laptops.rst:190
 msgid "`Windows Performance Laptop`_"
-msgstr ""
+msgstr "`Windows Performance PC`_"
 
 #: ../../source/programming_resources/laptops/laptops.rst:96
 #: ../../source/programming_resources/laptops/laptops.rst:193
 msgid "*Recommended for Software Development Only:*"
-msgstr ""
+msgstr "*Recommended for ソフトウェア Development Only:*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:100
 #: ../../source/programming_resources/laptops/laptops.rst:197
@@ -430,7 +430,7 @@ msgstr ""
 #: ../../source/programming_resources/laptops/laptops.rst:291
 #: ../../source/programming_resources/laptops/laptops.rst:318
 msgid "Operating System: Windows 10 or better, Windows 11 preferred"
-msgstr ""
+msgstr "Operating システム: Windows 10 or better, Windows 11 preferred"
 
 #: ../../source/programming_resources/laptops/laptops.rst:294
 msgid "**Windows Standard Laptop**"
@@ -487,7 +487,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:336
 msgid "Operating System: MacOS Mojave 10.14 or newer"
-msgstr ""
+msgstr "Operating システム: MacOS Mojave 10.14 or newer"
 
 #: ../../source/programming_resources/laptops/laptops.rst:339
 msgid "**iOS Standard Tablet**"
@@ -499,7 +499,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:343
 msgid "Operating System: iOS 13 or newer"
-msgstr ""
+msgstr "Operating システム: iOS 13 or newer"
 
 #: ../../source/programming_resources/laptops/laptops.rst:346
 msgid "**Chrome OS Standard Laptop**"
@@ -533,7 +533,7 @@ msgstr ""
 #: ../../source/programming_resources/laptops/laptops.rst:360
 #: ../../source/programming_resources/laptops/laptops.rst:377
 msgid "Operating System: Android 7.0 or newer"
-msgstr ""
+msgstr "Operating システム: Android 7.0 or newer"
 
 #: ../../source/programming_resources/laptops/laptops.rst:363
 msgid "**Android Standard Tablet**"

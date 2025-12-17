@@ -43,7 +43,7 @@ msgstr "Control Hub の OS を更新する方法は次の2通りです:"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:13
 msgid "REV Hardware Client (RHC)"
-msgstr "REV Hardware Client（RHC）"
+msgstr "REV ハードウェア Client (RHC)"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:14
 msgid "Manage page on computer"
@@ -58,7 +58,7 @@ msgstr "Control Hub の OS 更新に関する詳細は、`REV Robotics の優れ
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
-msgstr "方法1 - REV Hardware Client（RHC） - Windows PC 限定"
+msgstr "Method 1 - REV ハードウェア Client (RHC) - Windows computers only"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:21
 msgid "Apply 12V robot power to the REV Control Hub."
@@ -72,9 +72,9 @@ msgstr "USB-C データケーブルで、REV Hardware Client を実行してい�
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:26
 msgid ""
-"Click the hub’s large icon/rectangle. Under “Control Hub Operating "
-"System”, see the current/latest mismatch, if any (yellow oval, below)."
-msgstr "Hub の大きなアイコン（長方形）をクリックします。"Control Hub Operating System" の項目で、現在版と最新版の不一致があれば（下図の黄色の楕円）確認します。"
+"Click the hub's large icon/rectangle. Under "Control Hub Operating "
+"System", see the current/latest mismatch, if any (yellow oval, below)."
+msgstr "Hub の大きなアイコン（長方形）をクリックします。Control Hub Operating System の項目で、現在版と最新版の不一致があれば（下図の黄色の楕円）確認します。"
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:37
 msgid ""
@@ -121,7 +121,7 @@ msgstr "Manage ページで "Select Update File…" をクリックし、ダウ�
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:68
 msgid "Select that file, and click “Update & Reboot” (green arrow, above)."
-msgstr ""
+msgstr "選択する that file, and click “Update & Reboot” (green arrow, above)."
 
 #: ../../source/ftc_sdk/updating/controlhub_os/Updating-the-Control-Hub-OS.rst:70
 msgid "That’s it! The Control Hub’s OS is now updated."

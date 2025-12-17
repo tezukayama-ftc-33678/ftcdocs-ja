@@ -248,7 +248,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:177
 msgid "Build the AprilTag Processor"
-msgstr ""
+msgstr "ビルド the AprilTag Processor"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:202
 msgid "Library Builder, with Defaults"
@@ -263,7 +263,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:212
 msgid "Create a Library Builder, not the same as a Processor Builder."
-msgstr ""
+msgstr "Create a Library ビルドer, not the same as a Processor ビルドer."
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:213
 msgid "Then use the ``addTags`` Block – note the plural “tags”, not “tag”."
@@ -283,7 +283,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:225
 msgid "Build the Tag Library"
-msgstr ""
+msgstr "ビルド the Tag Library"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:227
 msgid "Next comes the familiar steps:"
@@ -291,7 +291,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:229
 msgid "Create a Processor Builder."
-msgstr ""
+msgstr "Create a Processor ビルドer."
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:230
 msgid "Then set, or add, the Library built and saved in the previous sequence."
@@ -360,7 +360,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 msgid "Variable Metadata"
-msgstr ""
+msgstr "変数 Metadata"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:350
 msgid "Setting Metadata with Variable"
