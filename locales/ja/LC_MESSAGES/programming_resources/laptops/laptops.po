@@ -60,11 +60,7 @@ msgstr "使用可能なコンピュータ支援設計（CAD）ソフトウェア
 
 #: ../../source/programming_resources/laptops/laptops.rst:25
 msgid "Software development and hardware update requirements"
-<<<<<<< HEAD
 msgstr "ソフトウェア開発およびハードウェア更新の要件"
-=======
-msgstr "ソフトウェア development and hardware update requirements"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:27
 msgid "Vendor-specific application requirements and limitations"
@@ -113,22 +109,14 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:51
 msgid "*Recommended for Software Development:*"
-<<<<<<< HEAD
 msgstr "*ソフトウェア開発におすすめ：*"
-=======
-msgstr "*Recommended for ソフトウェア Development:*"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:53
 #: ../../source/programming_resources/laptops/laptops.rst:98
 #: ../../source/programming_resources/laptops/laptops.rst:173
 #: ../../source/programming_resources/laptops/laptops.rst:195
 msgid "`Windows Standard Laptop`_"
-<<<<<<< HEAD
 msgstr "`Windowsスタンダードノートパソコン`_"
-=======
-msgstr "`Windows Standard PC`_"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:55
 #: ../../source/programming_resources/laptops/laptops.rst:105
@@ -141,20 +129,12 @@ msgstr "またサポートされています："
 #: ../../source/programming_resources/laptops/laptops.rst:107
 #: ../../source/programming_resources/laptops/laptops.rst:204
 msgid "`MacOS Standard Laptop`_"
-<<<<<<< HEAD
 msgstr "`macOS標準ノートブック`_"
-=======
-msgstr "`MacOS Standard PC`_"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:59
 #: ../../source/programming_resources/laptops/laptops.rst:115
 msgid "`Chrome OS Standard Laptop`_"
-<<<<<<< HEAD
 msgstr "`クロムOS標準ノートブック`_"
-=======
-msgstr "`Chrome OS Standard PC`_"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:61
 msgid "`iOS Standard Tablet`_"
@@ -210,30 +190,18 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:90
 msgid "*Recommended for Software Development and CAD:*"
-<<<<<<< HEAD
 msgstr "*ソフトウェア開発およびCADに推奨：*"
-=======
-msgstr "*Recommended for ソフトウェア Development and CAD:*"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:92
 #: ../../source/programming_resources/laptops/laptops.rst:178
 #: ../../source/programming_resources/laptops/laptops.rst:190
 msgid "`Windows Performance Laptop`_"
-<<<<<<< HEAD
 msgstr "`Windowsパフォーマンスノートパソコン`_"
-=======
-msgstr "`Windows Performance PC`_"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:96
 #: ../../source/programming_resources/laptops/laptops.rst:193
 msgid "*Recommended for Software Development Only:*"
-<<<<<<< HEAD
 msgstr "*ソフトウェア開発用に推奨されます:*"
-=======
-msgstr "*Recommended for ソフトウェア Development Only:*"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:100
 #: ../../source/programming_resources/laptops/laptops.rst:197
@@ -365,9 +333,8 @@ msgstr "*ソフトウェアおよび設計開発の役割に推奨されます�
 msgid ""
 "`LabVIEW <https://docs.wpilib.org/en/stable/docs/zero-to-"
 "robot/step-2/labview-setup.html>`__ software not supported"
-"msgstr ""
+msgstr ""
 "`LabVIEW <https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/labview-setup.html>`__ ソフトウェアはサポートされていません。"
-""
 
 #: ../../source/programming_resources/laptops/laptops.rst:213
 msgid ""
@@ -516,11 +483,7 @@ msgstr "Wi-Fi: 内蔵Wi-Fi、Wi-Fi 6E以上が推奨されます"
 #: ../../source/programming_resources/laptops/laptops.rst:291
 #: ../../source/programming_resources/laptops/laptops.rst:318
 msgid "Operating System: Windows 10 or better, Windows 11 preferred"
-<<<<<<< HEAD
 msgstr "オペレーティングシステム：Windows 10以上、Windows 11が推奨されます"
-=======
-msgstr "Operating システム: Windows 10 or better, Windows 11 preferred"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:294
 msgid "**Windows Standard Laptop**"
@@ -584,11 +547,7 @@ msgstr "ストレージ: 2GB以上の可用的なストレージスペース"
 
 #: ../../source/programming_resources/laptops/laptops.rst:336
 msgid "Operating System: MacOS Mojave 10.14 or newer"
-<<<<<<< HEAD
 msgstr "OS: macOS Mojave 10.14 以降"
-=======
-msgstr "Operating システム: MacOS Mojave 10.14 or newer"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:339
 msgid "**iOS Standard Tablet**"
@@ -600,11 +559,7 @@ msgstr "標準的なiOSタブレット、例えばiPad Air 2以降やiPad Mini 4
 
 #: ../../source/programming_resources/laptops/laptops.rst:343
 msgid "Operating System: iOS 13 or newer"
-<<<<<<< HEAD
 msgstr "オペレーティングシステム：iOS 13以降"
-=======
-msgstr "Operating システム: iOS 13 or newer"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:346
 msgid "**Chrome OS Standard Laptop**"
@@ -641,11 +596,7 @@ msgstr "Bluetooth: Bluetooth 4.0 以上"
 #: ../../source/programming_resources/laptops/laptops.rst:360
 #: ../../source/programming_resources/laptops/laptops.rst:377
 msgid "Operating System: Android 7.0 or newer"
-<<<<<<< HEAD
 msgstr "オペレーティングシステム：Android 7.0 以降"
-=======
-msgstr "Operating システム: Android 7.0 or newer"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/laptops/laptops.rst:363
 msgid "**Android Standard Tablet**"

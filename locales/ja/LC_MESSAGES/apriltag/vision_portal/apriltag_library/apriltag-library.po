@@ -281,11 +281,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:177
 msgid "Build the AprilTag Processor"
-<<<<<<< HEAD
 msgstr "AprilTag プロセッサーの構築"
-=======
-msgstr "ビルド the AprilTag Processor"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:202
 msgid "Library Builder, with Defaults"
@@ -301,11 +297,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:212
 msgid "Create a Library Builder, not the same as a Processor Builder."
-<<<<<<< HEAD
 msgstr "ライブラリビルダーを作成し、プロセッサビルダーとは異なります。"
-=======
-msgstr "Create a Library ビルドer, not the same as a Processor ビルドer."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:213
 msgid "Then use the ``addTags`` Block – note the plural “tags”, not “tag”."
@@ -325,11 +317,7 @@ msgstr "構築されたライブラリは、変数に割り当てられ或者说
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:225
 msgid "Build the Tag Library"
-<<<<<<< HEAD
 msgstr "タグライブラリの構築"
-=======
-msgstr "ビルド the Tag Library"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:227
 msgid "Next comes the familiar steps:"
@@ -337,11 +325,7 @@ msgstr "次は懐かしい手順が続きます："
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:229
 msgid "Create a Processor Builder."
-<<<<<<< HEAD
 msgstr "プロセッサビルダーを作成します。"
-=======
-msgstr "Create a Processor ビルドer."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:230
 msgid ""
@@ -410,11 +394,7 @@ msgstr "これらの2つのブロックは、前の例で使用した単一の�
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 msgid "Variable Metadata"
-<<<<<<< HEAD
 msgstr "変数メタデータ"
-=======
-msgstr "変数 Metadata"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:350
 msgid "Setting Metadata with Variable"

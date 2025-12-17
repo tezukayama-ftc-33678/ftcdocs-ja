@@ -26,11 +26,7 @@ msgstr "あなたのAndroidデバイスの設定方法"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:5
 msgid "What Needs to Be Configured for My Control System?"
-<<<<<<< HEAD
 msgstr "What Needs to Be Configured for My Control System?\\"
-=======
-msgstr "What Needs to Be Configured for My Control システム?"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:8
 msgid "Driver Hub Configuration"
@@ -277,11 +273,7 @@ msgstr "|rename1|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:112
 msgid "Click on **Wi-Fi** to launch the Wi-Fi screen."
-<<<<<<< HEAD
 msgstr "**Wi-Fi** をクリックしてWi-Fi画面を開きます。"
-=======
-msgstr "クリック on **Wi-Fi** to launch the Wi-Fi screen."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:113
 msgid "|rename2|"
@@ -298,12 +290,8 @@ msgstr "|rename3|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:118
 msgid "Select **Advanced** from the pop-up menu."
-<<<<<<< HEAD
 "msgstr "msgstr:"
 "\"Select **Advanced** from the pop-up menu.""
-=======
-msgstr "選択する **Advanced** from the pop-up menu."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:119
 msgid "|rename4|"
@@ -407,11 +395,7 @@ msgstr "REV Robotics コントロールハブに無線LANで接続します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:158
 msgid "One Click update of all software on connected devices."
-<<<<<<< HEAD
 msgstr "接続されたデバイスのすべてのソフトウェアをワンクリックで更新します。"
-=======
-msgstr "One クリック update of all software on connected devices."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:159
 msgid "Pre-download software updates without a connected device."
@@ -423,15 +407,11 @@ msgstr "Control Hubからユーザーデータのバックアップと復元を�
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:161
 msgid "Install and switch between DS and RC applications on Android Devices."
-<<<<<<< HEAD
 "msgstr ""
 "Androidデバイス上でDSおよびRCアプリケーションのインストールと切り替え。"
 ""
 "Androidデバイス上でDriver StationとRobot Controllerアプリケーションのインストールと切り替えを行います。"
 ""
-=======
-msgstr "インストール and switch between DS and RC applications on Android Devices."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:162
 msgid "Access the Robot Control Console on the Control Hub."
@@ -794,13 +774,8 @@ msgid "|pairing5|"
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:325
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:414
 msgid ""
-<<<<<<< HEAD
 "From the **Settings** screen, look for and select \\ **Pairing Method** to "
 "launch the **Pairing** \\ **Method** screen."
-=======
-"From the Settings screen, look for and select \\ **Pairing Method** "
-"to launch the **Pairing** \\ **Method** screen."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:326
@@ -811,17 +786,11 @@ msgid "|pairing6|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:328
 msgid ""
-<<<<<<< HEAD
 "Touch the words **Control Hub** to indicate that this DRIVER STATION will be"
 " pairing with a Control Hub."
 "msgstr ""
 "Touch the words **Control Hub** to indicate that this DRIVER STATION will be pairing with a Control Hub."
 ""
-=======
-"Touch the words Control Hub to indicate that this DRIVER STATION will"
-" be pairing with a Control Hub."
-msgstr ""
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:329
 msgid "|pairing7|"
@@ -1081,14 +1050,8 @@ msgstr "|ペアリングNS7|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:420
 msgid ""
-<<<<<<< HEAD
 "From the **Settings** screen, look for and select \\ **Pair with Robot "
 "Controller** to launch the **Pair** \\ \\ **with Robot Controller** screen."
-=======
-"From the Settings screen, look for and select \\ **Pair with Robot "
-"Controller** to launch the **Pair** \\ \\ **with Robot Controller** "
-"screen."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:421

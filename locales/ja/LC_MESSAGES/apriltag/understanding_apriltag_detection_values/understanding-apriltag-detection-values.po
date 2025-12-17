@@ -30,11 +30,7 @@ msgstr "*最終更新日: 2023年7月5日*"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:7
 msgid "Introduction"
-<<<<<<< HEAD
 msgstr "紹介\\n"
-=======
-msgstr "はじめに"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:9
 msgid ""
@@ -341,11 +337,7 @@ msgstr ""
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:194
 msgid "See SDK Sample: RobotAutoDriveToAprilTagTank.java for more info."
-<<<<<<< HEAD
 msgstr "SDKサンプル: RobotAutoDriveToAprilTagTank.java を参照してください。"
-=======
-msgstr "See SDK Sample: ロボットAutoDriveToAprilTagTank.java for more info."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:196
 msgid "Approaching a target squarely (Omni Drive)."
@@ -390,9 +382,4 @@ msgstr ""
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:221
 msgid "See SDK Sample: RobotAutoDriveToAprilTagOmni.java for more info."
-<<<<<<< HEAD
 msgstr "SDKサンプル: RobotAutoDriveToAprilTagOmni.java を参照してください。"
-=======
-msgstr "See SDK Sample: ロボットAutoDriveToAprilTagOmni.java for more info."
-
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e

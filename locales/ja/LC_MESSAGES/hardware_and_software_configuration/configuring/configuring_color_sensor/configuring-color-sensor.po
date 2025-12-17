@@ -61,14 +61,9 @@ msgid ""
 "built-in inertial measurement unit (IMU) sensor. This sensor can be used "
 "to determine the orientation of a robot, as well as measure the "
 "accelerations on a robot."
-<<<<<<< HEAD
 "msgstr ""
 "2. Look at the **I2C Bus 0** screen. There should already be a sensor configured for this bus. The Control Hub or Expansion Hub has its own built-in inertial measurement unit (IMU) sensor. This sensor can be used to determine the orientation of a robot, as well as measure the accelerations on a robot."
 ""
-=======
-msgstr ""
-"2. **I2C Bus 0** 画面を見てください。このバスには既にセンサーが構成されているはずです。Control Hub または Expansion Hub には、独自の内蔵慣性測定装置（IMU）センサーがあります。このセンサーは、ロボットの方向を決定するだけでなく、ロボットの加速度を測定するためにも使用できます。"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:35
 msgid ""
@@ -98,4 +93,3 @@ msgid ""
 "The app should return to the previous screen."
 msgstr ""
 "5. **Done** ボタンを押して、I2C センサーの構成を完了します。アプリは前の画面に戻ります。"
-

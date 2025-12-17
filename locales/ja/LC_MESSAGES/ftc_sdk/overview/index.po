@@ -22,11 +22,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:-1
 msgid "FIRST Tech Challenge Software Development Kit"
-<<<<<<< HEAD
 msgstr "FIRST Tech Challenge ソフトウェア開発キット"
-=======
-msgstr "FIRST Tech Challenge ソフトウェア Development Kit"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/ftc_sdk/overview/index.rst:-1
 msgid "A brief introduction to the FTC SDK"
@@ -148,11 +144,7 @@ msgstr "FIRST ドライバーステーション アプリを構築する（``Ftc
 
 #: ../../source/ftc_sdk/overview/index.rst:46
 msgid "Built Robot Controller App (``FtcRobotController-release.apk``)"
-<<<<<<< HEAD
 msgstr "FIRSTロボットコントローラアプリを構築する（``FtcRobotController-release.apk``）"
-=======
-msgstr "Built Robot Controller App (``FtcロボットController-release.apk``)"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/ftc_sdk/overview/index.rst:47
 msgid "Android Studio Project source code (``vX.X.zip``, ``vX.X.tar.gz``)"

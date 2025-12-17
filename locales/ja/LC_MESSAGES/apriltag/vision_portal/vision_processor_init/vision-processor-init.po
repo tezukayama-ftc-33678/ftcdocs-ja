@@ -77,15 +77,9 @@ msgstr "**ステップ 3。** 必須：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:29
 msgid ""
-<<<<<<< HEAD
 "Create the FTC **VisionPortal**, to manage the overall pipeline. Here you "
 "specify that the Portal includes the AprilTag and/or TFOD Processor(s) from "
 "Step 2. The two Processors evaluate camera frames independently."
-=======
-"Create the FTC VisionPortal, to manage the overall pipeline. Here you"
-" specify that the Portal includes the AprilTag and/or TFOD Processor(s) "
-"from Step 2. The two Processors evaluate camera frames independently."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "FTCの**VisionPortal**を作成し、全体的なパイプラインを管理します。ここで、Portalがステップ2で指定したAprilTagやTFODプロセッサ（複数可）を含むことを指定します。両方のプロセッサはカメラフレームを独立して評価します。"
 
@@ -131,11 +125,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:52
 msgid "Easy AprilTag Processor Initialization without a Builder"
-<<<<<<< HEAD
 msgstr "AprilTag プロセッサーの初期化が簡単に行えます（ビルダーなし）"
-=======
-msgstr "Easy AprilTag Processor Initialization without a ビルドer"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst
 msgid "Java"
@@ -143,11 +133,7 @@ msgstr "Java"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:57
 msgid "Example of Easy AprilTag Processor Initialization without a Builder"
-<<<<<<< HEAD
 msgstr "容易なAprilTagプロセッサの初期化（ビルダーなし）"
-=======
-msgstr "Example of Easy AprilTag Processor Initialization without a ビルドer"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:67
 msgid "AprilTag Initialization - Builder"
@@ -180,11 +166,7 @@ msgstr "*SDK内では、「簡単」なプロセスでもデフォルトパラ�
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst
 msgid "AprilTag Initialization with a Builder"
-<<<<<<< HEAD
 msgstr "AprilTagの初期化 (ビルダーを使用)"
-=======
-msgstr "AprilTag Initialization with a ビルドer"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:88
 msgid "AprilTag Processor Initialization with a Builder"
@@ -254,7 +236,6 @@ msgid ""
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:150
 msgid ""
 "The Builder is going to look a little different depending on if you are "
-<<<<<<< HEAD
 "using the **Color Sensor** or the **Color Locator**. For more information, "
 "see the :doc:`Color Processing Documentation </color_processing/index>`."
 "msgstr ""
@@ -264,12 +245,6 @@ msgid ""
 ""
 "ビルダーは、**Color Sensor** もしくは **Color Locator** を使用している場合によって見た目が少し異なります。詳細については、:doc:`Color Processing Documentation </color_processing/index>` を参照してください。"
 ""
-=======
-"using the **Color Sensor** or the Color Locator. For more "
-"information, see the :doc:`Color Processing Documentation "
-"</color_processing/index>`."
-msgstr ""
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:155
 msgid "Enabling and Disabling Processors"

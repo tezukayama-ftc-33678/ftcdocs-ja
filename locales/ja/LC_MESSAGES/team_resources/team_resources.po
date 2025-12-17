@@ -22,7 +22,6 @@ msgstr ""
 
 #: ../../source/team_resources/team_resources.rst:2
 msgid "Team Resources"
-<<<<<<< HEAD
 msgstr "チームのリソース"
 
 #: ../../source/team_resources/team_resources.rst:4
@@ -30,16 +29,6 @@ msgid ""
 "There are several resources that teams might want to access throughout the "
 "*FIRST* Tech Challenge season."
 msgstr "チームは、*FIRST* Tech Challengeシーズン中、いくつかのリソースにアクセスしたいかもしれません。"
-=======
-msgstr "チームリソース"
-
-#: ../../source/team_resources/team_resources.rst:4
-msgid ""
-"There are several resources that teams might want to access throughout "
-"the *FIRST* Tech Challenge season."
-msgstr ""
-"*FIRST* Tech Challengeシーズンを通じて、チームがアクセスしたいと思ういくつかのリソースがあります。"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/team_resources/team_resources.rst:8
 msgid "Pages and Links"
@@ -47,7 +36,6 @@ msgstr "ページとリンク"
 
 #: ../../source/team_resources/team_resources.rst:10
 msgid "FTC Blog - https://community.firstinspires.org/topic/ftc"
-<<<<<<< HEAD
 msgstr "FTC ブログ - https://community.firstinspires.org/topic/ftc"
 
 #: ../../source/team_resources/team_resources.rst:11
@@ -61,42 +49,21 @@ msgstr "FIRST Tech Challenge ゲームとシーズン情報 - https://ftc.game"
 #: ../../source/team_resources/team_resources.rst:13
 msgid "FTC Events site - https://ftc-events.firstinspires.org"
 msgstr "FTC イベントサイト - https://ftc-events.firstinspires.org"
-=======
-msgstr "FTC Blog - https://community.firstinspires.org/topic/ftc"
-
-#: ../../source/team_resources/team_resources.rst:11
-msgid "FTC Q&A - https://ftc-qa.firstinspires.org"
-msgstr "FTC Q&A - https://ftc-qa.firstinspires.org"
-
-#: ../../source/team_resources/team_resources.rst:12
-msgid "FTC Game and Season Info - https://ftc.game"
-msgstr "FTCゲームとシーズン情報 - https://ftc.game"
-
-#: ../../source/team_resources/team_resources.rst:13
-msgid "FTC Events site - https://ftc-events.firstinspires.org"
-msgstr "FTCイベントサイト - https://ftc-events.firstinspires.org"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/team_resources/team_resources.rst:14
 msgid "FTC Technical Support - https://ftc-community.firstinspires.org"
 msgstr "FTC技術サポート - https://ftc-community.firstinspires.org"
 
 #: ../../source/team_resources/team_resources.rst:15
-<<<<<<< HEAD
 msgid ""
 "FTC Avatar Submission - https://community.firstinspires.org/team-avatars"
 msgstr "FTC アバター提出 - https://community.firstinspires.org/team-avatars"
-=======
-msgid "FTC Avatar Submission - https://community.firstinspires.org/team-avatars"
-msgstr "FTCアバター提出 - https://community.firstinspires.org/team-avatars"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/team_resources/team_resources.rst:16
 msgid ""
 "FTC Scoring Site (for avatar and hybrid event portfolio submission) - "
 "https://ftc-scoring.firstinspires.org"
 msgstr ""
-<<<<<<< HEAD
 "FTC スコアリングサイト（アバターおよびハイブリッドイベントポートフォリオ提出用） - https://ftc-"
 "scoring.firstinspires.org"
 
@@ -107,28 +74,10 @@ msgstr "FIRST Tech Challenge 競技マニュアル - https://ftc.game/manual"
 #: ../../source/team_resources/team_resources.rst:18
 msgid "FTC Competition Manual (HTML) - https://ftc.game/cm-html"
 msgstr "FIRST Tech Challenge 競技マニュアル (HTML) - https://ftc.game/cm-html"
-=======
-"FTCスコアリングサイト（アバターとハイブリッドイベントポートフォリオの提出用） - "
-"https://ftc-scoring.firstinspires.org"
-
-#: ../../source/team_resources/team_resources.rst:17
-msgid "FTC Competition Manual - https://ftc.game/manual"
-msgstr "FTC 競技 Manual - https://ftc.game/manual"
-
-#: ../../source/team_resources/team_resources.rst:18
-msgid "FTC Competition Manual (HTML) - https://ftc.game/cm-html"
-msgstr "FTC大会マニュアル (HTML) - https://ftc.game/cm-html"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/team_resources/team_resources.rst:19
 msgid ""
 "FTC Competition Manual AI Chatbot - https://ftc-cmchatbot.firstinspires.org"
 msgstr ""
-<<<<<<< HEAD
 "FIRST Tech Challenge 競技マニュアル AI キャットボット - \"\n"
 "\"https://ftc-cmchatbot.firstinspires.org"
-=======
-"FTC大会マニュアル AIチャットボット - https://ftc-"
-"cmchatbot.firstinspires.org"
-
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e

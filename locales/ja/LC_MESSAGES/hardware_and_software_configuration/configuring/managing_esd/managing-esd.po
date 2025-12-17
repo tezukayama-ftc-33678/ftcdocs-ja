@@ -256,11 +256,7 @@ msgstr "USBケーブルには内蔵または取り付けタイプのフェライ
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:146
 msgid "Install snap-on ferrite chokes onto your signal cables:"
-<<<<<<< HEAD
 msgstr "信号ケーブルにスナップオン型フェライトコイルを取り付けます："
-=======
-msgstr "インストール snap-on ferrite chokes onto your signal cables:"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:148
 msgid "Sensor cables"

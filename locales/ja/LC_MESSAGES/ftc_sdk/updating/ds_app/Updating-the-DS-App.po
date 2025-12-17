@@ -68,11 +68,7 @@ msgstr "以下はREVドライバーハブ上でDSアプリケーションを更�
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:23
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:169
 msgid "REV Hardware Client (RHC)"
-<<<<<<< HEAD
 msgstr "REVハードウェアクライアント (RHC)"
-=======
-msgstr "REV ハードウェア Client (RHC)"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:24
 msgid "\"Side loading” with APK"
@@ -80,11 +76,7 @@ msgstr "APK を使用した「サイドローディング」"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:25
 msgid "Software Manager on REV Driver Hub"
-<<<<<<< HEAD
 msgstr "REV ドライバーハブ上的ソフトウェアマネージャ"
-=======
-msgstr "ソフトウェア Manager on REV Driver Hub"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"

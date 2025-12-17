@@ -128,19 +128,11 @@ msgstr "Android Studio の RC アプリの更新"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:58
 msgid ""
-<<<<<<< HEAD
 "**Android Studio** users should **not** use the steps on this page to update"
 " the RC app, for the reasons described above. **Android Studio** users must "
 "ensure that their Android Studio Projects are up to date with the desired "
 "version of the `SDK GitHub Repo <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController>`__."
-=======
-"Android Studio users should **not** use the steps on this page to "
-"update the RC app, for the reasons described above. Android Studio "
-"users must ensure that their Android Studio Projects are up to date with "
-"the desired version of the `SDK GitHub Repo <https://github.com/FIRST-"
-"Tech-Challenge/FtcRobotController>`__."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:63
@@ -181,11 +173,7 @@ msgstr "以下はREV Control Hub上でRCアプリケーションを更新する�
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:78
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:225
 msgid "REV Hardware Client (RHC)"
-<<<<<<< HEAD
 msgstr "REVハードウェアクライアント (RHC)"
-=======
-msgstr "REV ハードウェア Client (RHC)"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:79
 msgid "Manage page on computer"
@@ -318,14 +306,9 @@ msgstr ""
 "``http://192.168.43.1:8080`` を入力してください。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:155
-<<<<<<< HEAD
 msgid ""
 "Click the Manage tab, then scroll down to “Update Robot Controller App”."
 msgstr "「管理」タブをクリックし、その後、「ロボットコントローラアプリケーションの更新」までスクロールします。"
-=======
-msgid "Click the Manage tab, then scroll down to “Update Robot Controller App”."
-msgstr "クリック the Manage tab, then scroll down to “Update Robot Controller App”."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:162
@@ -374,15 +357,9 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:181
 msgid ""
-<<<<<<< HEAD
 "But this method does require the RC APK file to be stored in the Download "
 "(or Downloads) folder on the Driver Hub or DS phone. That’s correct: **Robot"
 " Controller APK** stored on the **Driver Station** device."
-=======
-"But this method does require the RC APK file to be stored in the Download"
-" (or Downloads) folder on the Driver Hub or DS phone. That’s correct: "
-"**Robot Controller APK** stored on the Driver Station device."
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 msgstr ""
 "しかし、この方法ではロボットコントローラーAPKファイルをドライバーハブやDSの電話のダウンロード（またはDownloads）フォルダに保存する必要があります。正確です：**Robot"
 " Controller APK** を **Driver Station** デバイスに保存しておいてください。"

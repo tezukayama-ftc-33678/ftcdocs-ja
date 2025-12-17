@@ -100,11 +100,7 @@ msgstr "REV-31-1557"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:97
 msgid "Modern Robotics Color Sensor"
-<<<<<<< HEAD
 msgstr "現代のロボティクス カラーセンサ"
-=======
-msgstr "Modern ロボットics Color Sensor"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:108
@@ -310,7 +306,6 @@ msgstr "IRフィルター付きRGB色センサーと白LED - TCS347251334AdaFrui
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:297
 msgid "ColorSensor45-2018Modern Robotics"
-<<<<<<< HEAD
 msgstr "ColorSensor45-2018Modern Robotics"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:302
@@ -332,29 +327,6 @@ msgstr "IR Seeker V345-2017モダンロボティクス"
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:322
 msgid "Ranger Sensor45-2008Modern Robotics"
 msgstr "レンジャー センサ45-2008モダンロボティクス"
-=======
-msgstr "ColorSensor45-2018Modern ロボットics"
-
-#: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:302
-msgid "Compass45-2003Modern Robotics"
-msgstr "Compass45-2003Modern ロボットics"
-
-#: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:307
-msgid "Integrating Gyro45-2005Modern Robotics"
-msgstr "Integrating Gyro45-2005Modern ロボットics"
-
-#: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:312
-msgid "IR Locator 36045-2009Modern Robotics"
-msgstr "IR Locator 36045-2009Modern ロボットics"
-
-#: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:317
-msgid "IR Seeker V345-2017Modern Robotics"
-msgstr "IR Seeker V345-2017Modern ロボットics"
-
-#: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:322
-msgid "Ranger Sensor45-2008Modern Robotics"
-msgstr "Ranger Sensor45-2008Modern ロボットics"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:327
 msgid "NeveRest MotorAM-3461, AM-3102, AM-2964a, AM-3103, AM-3104AndyMark"
@@ -372,11 +344,7 @@ msgstr "クアッドエンコーダ"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:332
 msgid "HD Hex MotorREV-41-1301REV Robotics"
-<<<<<<< HEAD
 msgstr "HD ヘックスモーターREV-41-1301REVロボティクス"
-=======
-msgstr "HD Hex MotorREV-41-1301REV ロボットics"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "Directly Compatible"
@@ -388,11 +356,7 @@ msgstr "カスタムアダプターは必要ありません"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:338
 msgid "Core Hex MotorREV-41-1301REV Robotics"
-<<<<<<< HEAD
 msgstr "コアヒックスモーターREV-41-1301REVロボティクス"
-=======
-msgstr "Core Hex MotorREV-41-1301REV ロボットics"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:344
 msgid "12v 4mm Motor Kit50-0119MATRIX"
@@ -412,11 +376,7 @@ msgstr "最大モーターシャフトエンコーダーキットW38000Tetrix"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:364
 msgid "Limit Switch45-2401Modern Robotics"
-<<<<<<< HEAD
 msgstr "制限スイッチ45-2401モダンロボティクス"
-=======
-msgstr "Limit Switch45-2401Modern ロボットics"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:365
 msgid "Digital"
@@ -432,11 +392,7 @@ msgstr "カスタム配線ハーネスが必要です。"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:370
 msgid "Rate Gyro45-2004Modern Robotics"
-<<<<<<< HEAD
 msgstr "レートジロイド45-2004モダンロボティクス"
-=======
-msgstr "Rate Gyro45-2004Modern ロボットics"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:371
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:376
@@ -462,19 +418,11 @@ msgstr "公式にサポートされていません"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:375
 msgid "Optical Distance Sensor45-2006Modern Robotics"
-<<<<<<< HEAD
 msgstr "光学距離センサー45-2006モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:380
 msgid "Touch Sensor45-2007Modern Robotics"
 msgstr "触覚センサ45-2007モダンロボティクス"
-=======
-msgstr "Optical Distance Sensor45-2006Modern ロボットics"
-
-#: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:380
-msgid "Touch Sensor45-2007Modern Robotics"
-msgstr "Touch Sensor45-2007Modern ロボットics"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst
 msgid "Custom Wiring Harness Required"
@@ -482,19 +430,11 @@ msgstr "カスタム配線ハーネスが必要です"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:386
 msgid "Light Sensor45-2015Modern Robotics"
-<<<<<<< HEAD
 msgstr "ライトセンサー45-2015モダンロボティクス"
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:391
 msgid "Magnetic Sensor45-2020Modern Robotics"
 msgstr "磁気センサ45-2020モダンロボティクス"
-=======
-msgstr "Light Sensor45-2015Modern ロボットics"
-
-#: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:391
-msgid "Magnetic Sensor45-2020Modern Robotics"
-msgstr "Magnetic Sensor45-2020Modern ロボットics"
->>>>>>> b4738c5fe461a0363457c18d6d02d73bf94be95e
 
 #: ../../source/control_hard_compon/rc_components/sensors/sensors.rst:397
 msgid "Additional Resources"

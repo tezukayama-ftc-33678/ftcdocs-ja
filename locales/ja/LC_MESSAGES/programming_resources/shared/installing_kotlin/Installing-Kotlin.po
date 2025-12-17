@@ -93,7 +93,7 @@ msgstr "null安全性；Kotlinはnull指針例外を eliminates を防ぐため�
 msgid ""
 "Operator overloading; Kotlin allows you to define how operators such as "
 "``+`` and ``*`` work with your own classes."
-msgstr "オペレーター上書き；Kotlinでは、``+``や``*``などの演算子が自定义クラスでどのように動作するかを定義できます。"
+msgstr "オペレーター上書き；Kotlinでは、``+``や``*``などの演算子が自定义クラスでどのように動作するかを定義できます。*"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:31
 msgid "Many more!"
