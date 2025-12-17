@@ -1,10 +1,12 @@
-新規チーム
+New Teams
 =========
 
-*FIRST* Tech Challenge へようこそ！リソースは種類別に整理されており、チームがシーズンを通じて組織的に、そして成功裏に活動できるよう支援します。
-ロボット製作リソース、制御システム、ゲームを探索することから始めてください。
-また、チーム管理の下にあるコーチのプレイブック（週次スケジュール）も、チーム全体を組織するのに役立つでしょう。
-探索したいリソースのボタンをクリックしてください！
+Welcome to *FIRST* Tech Challenge! Resources have been organized by type to help
+your team stay organized and be successful throughout the season. Get started
+by exploring our robot building resources, control system and the game.  You
+may also find the Coach's Playbook, a weekly schedule of activities, helpful to
+organize the whole team under Team Management. Just click on the button for the
+resource you want to explore!
 
 .. grid:: 1 2 2 3
    :gutter: 2
@@ -13,12 +15,12 @@
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      *FIRST* コアバリュー
+      *FIRST* Core Values
 
       ^^^
 
-      私たちは、*FIRST* の哲学である Gracious Professionalism（グレイシャス・プロフェッショナリズム）と 
-      Coopertition（クーパティション）をコアバリューを通じて表現します。
+      We express the *FIRST* philosophies of Gracious Professionalism 
+      and Coopertition through our Core Values.
       
       +++
 
@@ -44,7 +46,7 @@
                :outline:
                :expand:
 
-               Coopertition (外部リンク)
+               Coopertition (external)
 
       .. div:: container-fluid p-0
 
@@ -56,17 +58,17 @@
                :outline:
                :expand:
 
-               コアバリュー (外部リンク)
+               Core Values (external)
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      :doc:`プログラミングリソース <../../programming_resources/index>`
+      :doc:`Programming Resources <../../programming_resources/index>`
 
       ^^^
 
-      プログラミングリソースはこちらをご覧ください。
+      Look for programming resources here.
 
       +++
 
@@ -80,7 +82,7 @@
                :outline:
                :expand:
 
-               プログラミングツールの選択
+               Choosing a Programming Tool
 
          .. div:: col-sm pl-1 pr-1
 
@@ -90,7 +92,7 @@
                :outline:
                :expand:
 
-               Blocks プログラミングチュートリアル
+               Blocks Programmming Tutorial
          
          .. div:: col-sm pl-1 pr-1
 
@@ -100,18 +102,18 @@
                :outline:
                :expand:
 
-               プログラミングリソース
+               Programming Resources
 
 
    .. grid-item-card::
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left
 
-      ロボット製作と制御
+      Robot Building and Control
 
       ^^^
 
-      ロボットと制御システムのリソースはこちらをご覧ください。
+      Look for robot and control system resources here.
 
       +++
 
@@ -125,7 +127,7 @@
                :outline:
                :expand:
 
-               FTC 制御システム
+               The FTC Control System
             
          .. div:: col-sm pl-1 pr-1
 
@@ -135,7 +137,7 @@
                :outline:
                :expand:
 
-               ロボットコントローラー
+               Robot Controller
 
          .. div:: col-sm pl-1 pr-1
 
@@ -145,7 +147,7 @@
                :outline:
                :expand:
 
-               ドライバーステーション
+               Driver Station
                
          .. div:: col-sm pl-1 pr-1
 
@@ -154,7 +156,7 @@
                :outline:
                :expand:
 
-               ハードウェアコンポーネント概要
+               Hardware Component Overview
 
          .. div:: col-sm pl-1 pr-1
 
@@ -163,18 +165,18 @@
                :outline:
                :expand:
 
-               チームリソース (外部リンク)
+               Team Resources (external) 
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      :doc:`競技マニュアル <../../manuals/game_manuals/game_manuals>`
+      :doc:`Competition Manual <../../manuals/game_manuals/game_manuals>`
    
       ^^^
 
-      競技のすべてのルールに必ず従ってください！
-      競技マニュアルは必須のドキュメントです。
+      Be sure you're following all of the rules of the competition! 
+      The Competition Manual is an essential document.
 
       +++
  
@@ -188,7 +190,7 @@
                :outline:
                :expand:
 
-               競技マニュアル
+               Competition Manual
 
          .. div:: col-sm pl-1 pr-1
       
@@ -198,7 +200,7 @@
                :outline:
                :expand:
 
-               プレイフィールドリソース
+               Playing Field Resources
 
          .. div:: col-sm pl-1 pr-1
 
@@ -207,17 +209,17 @@
                :outline:
                :expand:
 
-               ゲーム質問回答システム (外部リンク)
+               Game Question and Answer System (external)
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      チーム管理
+      Team Management
 
       ^^^
 
-      チーム登録、メンタートレーニング/リソース、チーム予算と資金調達、競技会の準備などのチーム管理リソースへのリンクです。
+      Links to team management resources like team registration, mentor training/resources, team budget and fundraising, preparing for a competition, and more.
       
       +++
       
@@ -231,17 +233,17 @@
                :outline:
                :expand:
 
-               チーム管理 (外部リンク)
+               Team Management (external)
       
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      :doc:`CAD リソース <../../cad_resources/index>` 
+      :doc:`CAD Resources <../../cad_resources/index>` 
 
       ^^^
 
-      コンピューター支援設計 (CAD) ソフトウェアのリソースはこちらをご覧ください。
+      Look for resources for Computer-Aided Design (CAD) software.
       
       +++
       
@@ -255,17 +257,17 @@
                :outline:
                :expand:
 
-               CAD リソース
+               CAD Resources
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      イベント情報
+      Event Info
 
       ^^^
 
-      FTC イベントとイベント結果。
+      FTC events and event results.
             
       +++
       
@@ -279,17 +281,17 @@
                :outline:
                :expand:
 
-               FTC イベント (外部リンク)
+               FTC Events (external)
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      アワード
+      Awards
 
       ^^^
 
-      イベント前にアワードの基準を知っておきましょう。
+      Know the awards criteria before the event.
       
       +++
       
@@ -303,17 +305,17 @@
                :outline:
                :expand:
 
-               FTC アワード (外部 PDF)
+               FTC Awards (external PDF)
 
    .. grid-item-card:: 
       :class-header: sd-bg-secondary font-weight-bold sd-text-black
       :class-body: sd-text-left 
 
-      :doc:`よくある質問 <../../faq/faqs>`
+      :doc:`Frequently Asked Questions <../../faq/faqs>`
 
       ^^^
 
-      チームからよくある質問。
+      Commonly asked team questions.
       
       +++
       
@@ -327,5 +329,5 @@
                :outline:
                :expand:
 
-               よくある質問
+               Frequently Asked Questions
 
