@@ -31,7 +31,7 @@ msgid ""
 "<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-in-"
 "FTC-Blocks>`__; you can easily apply its lessons to Java programs."
 msgstr ""
-"FTC **タイマー**は、おなじみの``.sleep``ブロックよりもはるかに機能が豊富です。Javaプログラマは`このブロックのチュートリアル "
+"FTC タイマーは、おなじみの .sleep ブロックよりもはるかに機能が豊富です。Javaプログラマは このブロックのチュートリアル "
 "<https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki/Timers-in-"
 "FTC-Blocks>`__ からタイマーについて学ぶことができます；その教訓をJavaプログラムにも簡単に適用できます。"
 
@@ -44,9 +44,8 @@ msgid ""
 "will be called many times – this may or may not be what you intended. Use "
 "the annotation **comment** to tell the Blocks user how your myBlock should "
 "be run, including looping (or not)."
-"msgstr ""
-"When creating myBlocks, be careful when converting or ‘packaging’ a section of existing Java code into a myBlock method. As a programmer, you must consider **where** your myBlock might be placed in the OpMode. For example, if the myBlock is placed inside a **repeat while loop**, the Java method will be called many times – this may or may not be what you intended. Use the annotation **comment** to tell the Blocks user how your myBlock should be run, including looping (or not)."
-""
+msgstr ""
+"myBlockを作成する際には、既存のJavaコードのセクションをmyBlockメソッドに変換または「パッケージ化」するときに注意してください。プログラマーとして、あなたは ** どこ ** あなたのmyBlockがOpModeに配置されるかを考慮する必要があります。例えば、myBlockが ** 繰り返しループ ** 内に配置されている場合、Javaメソッドは何度も呼び出されます。これはあなたの意図したことかもしれませんし、そうでないかもしれません。アノテーション ** コメント ** を使用して、ブロックユーザーにあなたのmyBlockがどのように実行されるべきかを伝えます。ループを含める（または含めない）を含めて。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:17
 msgid ""
@@ -55,15 +54,14 @@ msgid ""
 "myBlock that’s used in a Blocks **repeat loop**, that timer will constantly "
 "reset and never advance to the intended time limit."
 msgstr ""
-"タイマーに関する特定の注意点：新しいFTCタイマーを作成または**インスタンス化**すると、そのタイマーも開始または**リセット**されます。タイマーがBlocksの**繰り返しループ**内で使用されるmyBlockの中で作成された場合、そのタイマーは常にリセットされ、予定された時間制限に到達することはありません。"
+"タイマーに関する特定の注意点：新しいFTCタイマーを作成または ** インスタンス化 ** すると、そのタイマーも開始または ** リセット ** されます。タイマーがBlocksの ** 繰り返しループ ** 内で使用されるmyBlockの中で作成された場合、そのタイマーは常にリセットされ、予定された時間制限に到達することはありません。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:22
 msgid ""
 "The following example separates the **create timer** task from the **reset "
 "timer** task."
-"msgstr ""
-"次の例では、**create timer** タスクから **reset timer** タスクを分離しています。"
-""
+msgstr ""
+"次の例では、** create timer ** タスクから ** reset timer ** タスクを分離しています。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:27
 msgid ""
@@ -89,8 +87,8 @@ msgid ""
 "outputs** (keyword **void**). This is why the annotation @ExportToBlocks was"
 " missing the **parameterLabels** field."
 msgstr ""
-"行22：このメソッドは**入力がない**（空の括弧）で、**出力もない**（キーワード**void**）。そのため、@ExportToBlocks "
-"アノテーションに**parameterLabels** フィールドが欠けていました。"
+"行22：このメソッドは** 入力がない **（空の括弧）で、** 出力もない **（キーワード** void **）。そのため、@ExportToBlocks "
+"アノテーションに** parameterLabels ** フィールドが欠けていました。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:43
 msgid ""
@@ -98,7 +96,7 @@ msgid ""
 "the percent sign. The **.2f** will display a numeric value with 2 digits to "
 "the right of the decimal point."
 msgstr ""
-"24行目でデータはパーセント記号で示される**フォーマットコード**を使用して表示されます。**.2f**では、小数点以下の右側に2桁の数値が表示されます。"
+"24行目でデータはパーセント記号で示される** フォーマットコード ** を使用して表示されます。** .2f ** では、小数点以下の右側に2桁の数値が表示されます。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:47
 msgid ""
@@ -112,9 +110,9 @@ msgid ""
 "Line 28: the double-strokes operator **\\|\\|** means “OR”. Other operators "
 "include **&&** (“AND”), **==** (“EQUALS”), and **!=** (“NOT EQUAL TO”)."
 msgstr ""
-"行 28: ダブルストロケス演算子 **||** は「OR（論理和）」を意味します。他の演算子には "
-"**&&**（「AND（論理積）」）、**==**（「EQUALS（等しい）」）、および **!=**（「NOT EQUAL "
-"TO（等しくない）」）があります。\\n"
+"行 28: ダブルストロケス演算子 ** || ** は「OR（論理和）」を意味します。他の演算子には "
+"** && ** （「AND（論理積）」）、** == ** （「EQUALS（等しい）」）、および ** != ** （「NOT EQUAL "
+"TO（等しくない）」）があります。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:54
 msgid ""
@@ -188,4 +186,4 @@ msgstr "例程式"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:94
 msgid ":download:`SampleMyBlocks_v03.java <opmodes/SampleMyBlocks_v03.java>`"
-msgstr ":download:`サンプルマイブロックス_v03.java <opmodes/サンプルマイブロックス_v03.java>`"
+msgstr ":download:`SampleMyBlocks_v03.java <opmodes/SampleMyBlocks_v03.java>`"

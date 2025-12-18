@@ -94,13 +94,12 @@ msgstr "*FIRST* Tech Challenge プログラミングチュートリアル"
 
 #: ../../source/programming_resources/index.rst:18
 msgid ""
-":doc:`Choosing a Programming Tool <shared/choosing_program_lang/choosing-"
-"program-lang>`"
-msgstr ":doc:`プログラミングツールの選択 <共有/プログラム言語を選択/プログラム言語の選択>`"
+":doc:`Choosing a Programming Tool <shared/choosing_program_lang/choosing-program-lang>`"
+msgstr ":doc:`プログラミングツールの選択 <shared/choosing_program_lang/choosing-program-lang>`"
 
 #: ../../source/programming_resources/index.rst:19
 msgid ":doc:`Blocks Tutorial <blocks/Blocks-Tutorial>`"
-msgstr ":doc:`ブロックチュートリアル <blocks/ブロックチュートリアル>`"
+msgstr ":doc:`ブロックチュートリアル <blocks/Blocks-Tutorial>`"
 
 #: ../../source/programming_resources/index.rst:20
 msgid ":doc:`Onbot Java Tutorial <onbot_java/OnBot-Java-Tutorial>`"
@@ -122,22 +121,19 @@ msgstr "制御システムの補助資料"
 
 #: ../../source/programming_resources/index.rst:40
 msgid ""
-":doc:`Control System Introduction <shared/control_system_intro/The-FTC-"
-"Control-System>`"
-msgstr ":doc:`制御システム入門 <共有/制御システム入門/The_FTC制御システム>`"
+":doc:`Control System Introduction <shared/control_system_intro/The-FTC-Control-System>`"
+msgstr ":doc:`制御システム入門 <shared/control_system_intro/The-FTC-Control-System>`"
 
 #: ../../source/programming_resources/index.rst:41
 msgid ""
 ":doc:`Required Materials <shared/required_materials/Required-Materials>`"
-msgstr ":doc:`必要な材料 <shared/required_materials/必要な材料>`"
+msgstr ":doc:`必要な材料 <shared/required_materials/Required-Materials>`"
 
 #: ../../source/programming_resources/index.rst:42
 msgid ""
-":doc:`Using Your Android Device <shared/using_android_device/Using-Your-"
-"Android-Device>`"
+":doc:`Using Your Android Device <shared/using_android_device/Using-Your-Android-Device>`"
 msgstr ""
-":doc:`あなたのAndroidデバイスの使用方法 <shared/using_android_device/Using-Your-Android-"
-"Device>`"
+":doc:`あなたのAndroidデバイスの使用方法 <shared/using_android_device/Using-Your-Android-Device>`"
 
 #: ../../source/programming_resources/index.rst:43
 msgid ":doc:`Phone Pairing <shared/phone_pairing/phone-pairing>`"
@@ -148,7 +144,7 @@ msgid ""
 ":doc:`Configuring Your Android Devices "
 "<shared/configuring_android/Configuring-Your-Android-Devices>`"
 msgstr ""
-":doc:`あなたのAndroidデバイスの設定方法 <共有/Androidデバイスの設定/Your-Android-Devices-を設定する>`"
+":doc:`あなたのAndroidデバイスの設定方法 <shared/configuring_android/Configuring-Your-Android-Devices>`"
 
 #: ../../source/programming_resources/index.rst:45
 msgid ""
@@ -160,49 +156,43 @@ msgstr ""
 
 #: ../../source/programming_resources/index.rst:46
 msgid ""
-":doc:`Configuring Your Hardware "
-"</hardware_and_software_configuration/configuring/index>`"
+":doc:`Configuring Your Hardware </hardware_and_software_configuration/configuring/index>`"
 msgstr ""
 ":doc:`ハードウェアの設定 <hardware_and_software_configuration/configuring/index>`"
 
 #: ../../source/programming_resources/index.rst:47
 msgid ""
 ":doc:`Connecting a Laptop to a Program & Manage Wi-Fi Network "
-"<shared/program_and_manage_network/Connecting-a-Laptop-to-the-"
-"Program-&-Manage-Network>`"
+"<shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`"
 msgstr ""
 ":doc:`ノートブックをプログラムに接続し、Wi-Fi ネットワークを管理する "
-"<shared/program_and_manage_network/ノートブックをプログラムに接続し、Wi-Fi ネットワークを管理する>`"
+"<shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network>`"
 
 #: ../../source/programming_resources/index.rst:48
 msgid ""
 ":doc:`Installing a Javascript Enabled Browser "
-"<shared/installing_javascript_browser/Installing-a-Javascript-Enabled-"
-"Browser>`"
+"<shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser>`"
 msgstr ""
 ":doc:`JavaScript機能を有効なブラウザにインストールする "
-"<shared/installing_javascript_browser/JavaScript機能を有効なブラウザにインストールする>`"
+"<shared/installing_javascript_browser/Installing-a-Javascript-Enabled-Browser>`"
 
 #: ../../source/programming_resources/index.rst:49
 msgid ""
-":doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-"
-"Control-Hub>`"
-msgstr ":doc:`制御ハブの管理 <shared/managing_control_hub/制御ハブの管理>`"
+":doc:`Managing a Control Hub <shared/managing_control_hub/Managing-a-Control-Hub>`"
+msgstr ":doc:`制御ハブの管理 <shared/managing_control_hub/Managing-a-Control-Hub>`"
 
 #: ../../source/programming_resources/index.rst:50
 msgid ""
-":doc:`Managing a Driver Hub <shared/managing_smartphone_ds/Managing-a-"
-"Smartphone-Driver-Station>`"
+":doc:`Managing a Driver Hub <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`"
 msgstr ""
-":doc:`スマートフォンドライバーステーションの管理 "
-"<共有/managing_smartphone_ds/スマートフォンドライバーステーションの管理>`"
+":doc:`スマートフォンドライバーステーションの管理 <shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station>`"
 
 #: ../../source/programming_resources/index.rst:51
 msgid ""
 ":doc:`Managing a Smartphone Robot Controller (RC) "
 "<shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller>`"
 msgstr ""
-":doc:`スマートフォンロボットコントローラーの管理（RC）<shared/managing_smartphone_rc/スマートフォンロボットコントローラーの管理>`"
+":doc:`スマートフォンロボットコントローラーの管理（RC）<shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller>`"
 
 #: ../../source/programming_resources/index.rst:70
 msgid "AprilTag Programming"
@@ -245,9 +235,7 @@ msgstr "追加の *FIRST* ウェブサイトリソース"
 #: ../../source/programming_resources/index.rst:138
 msgid ""
 "`FIRST Website Programming Resources Link "
-"<https://www.firstinspires.org/resources/library/ffc/programming-"
-"resources>`__"
+"<https://www.firstinspires.org/resources/library/ffc/programming-resources>`__"
 msgstr ""
 "`FIRSTWebsiteプログラミングリソースリンク "
-"<https://www.firstinspires.org/resources/library/ffc/programming-"
-"resources>`__"
+"<https://www.firstinspires.org/resources/library/ffc/programming-resources>`__"

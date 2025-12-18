@@ -31,7 +31,7 @@ msgid ""
 "API (Javadoc)."
 msgstr ""
 "このチュートリアルの意図は、利用可能なウェブカメラコントロールを説明し、プログラマがSDK API（Javadoc）を参照して "
-"**独自のソリューションを開発** できるようにすることです。"
+"** 独自のソリューションを開発 ** できるようにすることです。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:8
 msgid ""
@@ -50,8 +50,8 @@ msgid ""
 ":download:`W_WebcamControls_Exp_Gain.java "
 "<opmodes/W_WebcamControls_Exp_Gain.java>`"
 msgstr ""
-":download:`W_ WebcamControls_Exp_Gain.java <opmodes/W_ "
-"WebcamControls_Exp_Gain.java>`"
+":download:`W_WebcamControls_Exp_Gain.java "
+"<opmodes/W_WebcamControls_Exp_Gain.java>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust exposure and gain with TFOD (test OpMode for Examples 1, 2, 3)"
@@ -61,7 +61,7 @@ msgstr "TFOD（例題1、2、3用のテストオペモード）を使用して�
 msgid ""
 ":download:`W_TFOD_WebcamExpGain.java <opmodes/W_TFOD_WebcamExpGain.java>`"
 msgstr ""
-":download:`W_TFOD_ WebcamExpGain.java <opmodes/W_TFOD_ WebcamExpGain.java>`"
+":download:`W_TFOD_WebcamExpGain.java <opmodes/W_TFOD_WebcamExpGain.java>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust white balance temperature, if supported"
@@ -84,8 +84,8 @@ msgid ""
 ":download:`W_WebcamControls_Focus.java "
 "<opmodes/W_WebcamControls_Focus.java>`"
 msgstr ""
-":download:`W_ WebcamControls_Focus.java <opmodes/W_ "
-"WebcamControls_Focus.java>`"
+":download:`W_WebcamControls_Focus.java "
+"<opmodes/W_WebcamControls_Focus.java>`"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust virtual pan, tilt and zoom, if supported"
@@ -95,4 +95,4 @@ msgstr "サポートされている場合、仮想的な pans、tilt、zoom の�
 msgid ""
 ":download:`W_WebcamControls_PTZ.java <opmodes/W_WebcamControls_PTZ.java>`"
 msgstr ""
-":download:`W_ WebcamControls_PTZ.java <opmodes/W_ WebcamControls_PTZ.java>`"
+":download:`W_WebcamControls_PTZ.java <opmodes/W_WebcamControls_PTZ.java>`"

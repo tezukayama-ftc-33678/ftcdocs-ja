@@ -130,14 +130,14 @@ msgid ""
 "Even if you don’t want to use any of these features, you still need the "
 "**annotation** line ``@ExportToBlocks``."
 msgstr ""
-"これらは新しいmyBlockに表示されるオプションのラベルです；以下に示します。これらの機能を使用するつもりがないとしても、**注釈**行 "
-"``@ExportToBlocks`` は必要です。"
+"これらは新しいmyBlockに表示されるオプションのラベルです；以下に示します。これらの機能を使用するつもりがないとしても、注釈行 "
+"@ExportToBlocks は必要です。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:76
 msgid ""
 "When you typed that annotation, OBJ automatically added the ``import`` "
 "statement."
-msgstr "あなたがその注釈を入力したとき、OBJは自動的に``import``ステートメントを追加しました。"
+msgstr "あなたがその注釈を入力したとき、OBJは自動的に import ステートメントを追加しました。"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:79
 msgid ""
@@ -202,7 +202,7 @@ msgstr "例示コード"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:116
 msgid ":download:`SampleMyBlocks_v00.java <opmodes/SampleMyBlocks_v00.java>`"
-msgstr ":download:`サンプルマイブロックス_v00.java <opmodes/サンプルマイブロックス_v00.java>`"
+msgstr ":download:`SampleMyBlocks_v00.java <opmodes/SampleMyBlocks_v00.java>`"
 
 #: ../../source/programming_resources/shared/myblocks/simple_example/simple-example.rst:122
 msgid "Simple Example: run myGreeting"
