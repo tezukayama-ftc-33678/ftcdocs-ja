@@ -89,7 +89,7 @@ pip install ollama polib tqdm colorama
 cd h:\ftcdocs-ja
 
 # バッチ翻訳開始（完全自動）
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
 ```
 
 実行されること：
@@ -117,7 +117,7 @@ Get-Content batch_translate.log -Wait -Tail 20
 
 ```powershell
 # 再開（前回の続きから自動再開）
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
 ```
 
 ## 📊 ステップ3: 結果の確認
@@ -159,21 +159,21 @@ start docs/build/html-ja/index.html
 
 ```powershell
 cd docs
-python scripts/fix_po_issues.py --po-dir ../locales/ja/LC_MESSAGES --issues ../po_issues.json
+python tools/archived/fix_po_issues.py --po-dir ../locales/ja/LC_MESSAGES --issues ../po_issues.json
 ```
 
 ### 4.2 特定のファイルだけ再翻訳
 
 ```powershell
 # 単一ファイルを再翻訳
-python translate_po.py locales/ja/LC_MESSAGES/index.po --no-skip
+python tools/translation/translate_po.py locales/ja/LC_MESSAGES/index.po --no-skip
 ```
 
 ### 4.3 全てリセットして再実行
 
 ```powershell
 # 進捗をリセット（全て最初からやり直し）
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES --reset-progress
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES --reset-progress
 ```
 
 ## ⚡ 高度なオプション
@@ -186,13 +186,13 @@ python batch_translate.py --po-dir locales/ja/LC_MESSAGES --reset-progress
   "skip_translated": false  # true から false に変更
 }
 
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
 ```
 
 ### ビルド検証をスキップ（翻訳のみ）
 
 ```powershell
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES --skip-build
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES --skip-build
 ```
 
 ### モデルの切り替え
@@ -292,7 +292,7 @@ ollama pull qwen2.5:7b-instruct-q5_K_M
 pip install ollama polib tqdm colorama
 
 # 3. 翻訳開始（あとは放置）
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
 ```
 
 **以上！数時間後に全て完了しています 🎉**

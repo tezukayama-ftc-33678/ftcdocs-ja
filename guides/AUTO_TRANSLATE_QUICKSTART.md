@@ -34,7 +34,7 @@ ollama pull qwen2.5:7b-instruct-q5_K_M
 pip install ollama polib tqdm colorama
 
 # 環境テスト
-python test_translation_env.py
+python tools/translation/test_translation_env.py
 ```
 
 ### ステップ3: 翻訳開始（1コマンド）
@@ -47,7 +47,7 @@ python test_translation_env.py
 または:
 
 ```powershell
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
 ```
 
 ---
@@ -88,13 +88,13 @@ Get-Content translation_progress.json | ConvertFrom-Json
 ### エラーが出た場合
 ```powershell
 # 環境テストを実行
-python test_translation_env.py
+python tools/translation/test_translation_env.py
 ```
 
 ### 途中で止まった場合
 ```powershell
 # 再実行すれば続きから再開
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
 ```
 
 ### 最初からやり直したい場合

@@ -14,7 +14,7 @@
 
 ```powershell
 cd h:\ftcdocs-ja\docs
-python scripts/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
+python tools/po-fixing/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
 ```
 
 **効果**: 改行・空白・文末クリーンアップで 50-100 件削減
@@ -29,31 +29,31 @@ python scripts/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
 cd h:\ftcdocs-ja\docs
 
 # ラウンド1: 最重要問題（missing_doc_ref）
-python scripts/fix_po_with_llm.py --issues ../po_issues_after_fix.json --types missing_doc_ref --limit 10
+python tools/po-fixing/fix_po_with_llm.py --issues ../po_issues_after_fix.json --types missing_doc_ref --limit 10
 
 # 正規化
-python scripts/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
+python tools/po-fixing/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
 
 # 品質チェック
-python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_round1.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_round1.json --verbose
 
 # ラウンド2: リンク切れ（inconsistent_ref）
-python scripts/fix_po_with_llm.py --issues ../po_issues_round1.json --types inconsistent_ref --limit 50
+python tools/po-fixing/fix_po_with_llm.py --issues ../po_issues_round1.json --types inconsistent_ref --limit 50
 
 # 正規化
-python scripts/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
+python tools/po-fixing/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
 
 # 品質チェック
-python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_round2.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_round2.json --verbose
 
 # ラウンド3: 強調（emphasis_mismatch）
-python scripts/fix_po_with_llm.py --issues ../po_issues_round2.json --types emphasis_mismatch --limit 100
+python tools/po-fixing/fix_po_with_llm.py --issues ../po_issues_round2.json --types emphasis_mismatch --limit 100
 
 # 正規化
-python scripts/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
+python tools/po-fixing/normalize_po_whitespace.py --po-dir ../locales/ja/LC_MESSAGES
 
 # 品質チェック
-python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_round3.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_round3.json --verbose
 ```
 
 **効果**: タイプ別に段階修正、各ラウンドで検証
@@ -121,8 +121,8 @@ for i in issues:
 URL や `:ref:` の欠落。LLM で修正可能：
 
 ```powershell
-python docs/scripts/fix_po_with_llm.py --issues po_issues_after_fix.json --types inconsistent_ref --limit 40
-python docs/scripts/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
+python tools/po-fixing/fix_po_with_llm.py --issues po_issues_after_fix.json --types inconsistent_ref --limit 40
+python tools/po-fixing/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
 ```
 
 ---
@@ -146,10 +146,10 @@ msgstr "**太字テキスト** を参照"
 cd h:\ftcdocs-ja
 
 # 1. 正規化
-python docs/scripts/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
+python tools/po-fixing/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
 
 # 2. 品質チェック
-python docs/scripts/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_clean.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_clean.json --verbose
 
 # 3. 問題数を確認
 python -c "import json; print(f'{len(json.load(open(\"po_issues_clean.json\")))} 件')"
@@ -158,10 +158,10 @@ python -c "import json; print(f'{len(json.load(open(\"po_issues_clean.json\")))}
 # → VS Code で該当ファイルを開いて :doc: を追加
 
 # 5. inconsistent_ref を LLM で修正
-python docs/scripts/fix_po_with_llm.py --issues po_issues_clean.json --types inconsistent_ref --limit 50
+python tools/po-fixing/fix_po_with_llm.py --issues po_issues_clean.json --types inconsistent_ref --limit 50
 
 # 6. 再正規化
-python docs/scripts/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
+python tools/po-fixing/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
 
 # 7. 最終ビルド
 cd docs
@@ -236,8 +236,8 @@ make html-ja 2>&1 | Select-String "WARNING" | Group-Object | Sort-Object Count -
 **現在の最優先**:
 ```powershell
 # これだけ実行
-python docs/scripts/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
-python docs/scripts/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_normalized.json --verbose
+python tools/po-fixing/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
+python tools/po-fixing/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_normalized.json --verbose
 ```
 
 その後、結果を見て次の手を決定。

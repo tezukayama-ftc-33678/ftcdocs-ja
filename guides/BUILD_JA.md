@@ -131,7 +131,7 @@ msgfmt -c -v -o /dev/null locales/ja/LC_MESSAGES/<path>/<file>.po
 
 ```bash
 cd docs
-python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues.json --verbose
 ```
 
 **検出される問題**:
@@ -169,7 +169,7 @@ python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output .
 2. **問題をスキャン**:
    ```bash
    cd docs
-   python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues.json
+   python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues.json
    ```
 3. **ビルド実行**:
    ```bash
