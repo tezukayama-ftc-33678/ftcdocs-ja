@@ -34,7 +34,7 @@ msgid ""
 "**ColorLocator** Sample OpMode.  It assumes you have already followed this "
 "tutorial's previous :doc:`Discover <../color-locator-discover/color-locator-"
 "discover>` page, to open and test this OpMode."
-"msgstr ""
+msgstr ""
 "この **Explore** ページでは、**ColorLocator** サンプルオペモードのデフォルト設定を変更する方法について説明しています。このページは、以前の :doc:`Discover <../color-locator-discover/color-locator-discover>` ページでこのオペモードを開きテストしたことを前提としています。"
 ""
 
@@ -315,7 +315,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:219
 msgid "Image Pre-Processing"
-"msgstr ""
+msgstr ""
 "画像前処理"
 ""
 
@@ -330,7 +330,7 @@ msgstr ""
 msgid ""
 "The effect is very small (default kernel size of 5x5 pixels), but can "
 "significantly improve Blob formation, giving more useful results."
-"msgstr ""
+msgstr ""
 "効果は非常に小さい（デフォルトのカーネルサイズが5x5ピクセル）、ですが、ブロブ形成に大幅に改善をもたらし、より有用な結果を得ることができます。"
 ""
 
@@ -401,7 +401,7 @@ msgstr "サンプルOpModeでは、約94行目から107行目の指示に従っ�
 msgid ""
 "Any of these pre-processing settings can be **disabled** by setting their "
 "pixel value to zero, or by removing the command."
-"msgstr ""
+msgstr ""
 "Any of these pre-processing settings can be **disabled** by setting their pixel value to zero, or by removing the command."
 ""
 
@@ -630,7 +630,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:457
 msgid "Post Sort"
-"msgstr ""
+msgstr ""
 "Post Sort"
 ""
 
@@ -671,7 +671,7 @@ msgid ""
 "<https://medium.com/@sasasulakshi/opencv-morphological-dilation-and-erosion-"
 "fab65c29efb3>`_ and at the `OpenCV website for morphology "
 "<https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_."
-"msgstr ""
+msgstr ""
 "Technical information on Blur, Erosion and Dilation can be found `here <https://medium.com/@sasasulakshi/opencv-morphological-dilation-and-erosion-fab65c29efb3>`_ and at the `OpenCV website for morphology <https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_."
 ""
 

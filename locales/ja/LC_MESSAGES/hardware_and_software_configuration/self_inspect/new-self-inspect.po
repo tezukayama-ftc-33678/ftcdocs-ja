@@ -65,7 +65,7 @@ msgid ""
 "resources.firstinspires.org/ftc/event/inspection-reference>`_ with some "
 "examples of legal and illegal parts (though it is not a substitute for the "
 "Competition Manual)."
-"msgstr ""
+msgstr ""
 "また、合法的で不法なパーツの例がいくつか記載されている `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ も用意されています（ただし、競技マニュアルの代わりにはなりません）。"
 ""
 
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:33
 msgid "Robot Inspection"
-"msgstr ""
+msgstr ""
 "ロボットinspection"
 ""
 
@@ -230,7 +230,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:86
 msgid ""
 "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub."
-"msgstr ""
+msgstr ""
 "アイテム2 ``Manufacturer`` は、REVドライバーハブの場合、**REV Robotics**に設定する必要があります。"
 ""
 
@@ -263,7 +263,7 @@ msgid ""
 "Item 8 ``Location services`` should be **Enabled**, but appears only on "
 "devices running **Android 8** or higher. This is an SDK/Android technology "
 "requirement, not an FTC rule."
-"msgstr ""
+msgstr ""
 "アイテム8「位置情報サービス」は**有効**にしておくべきですが、**Android 8**以降のデバイスでしか表示されません。これはSDK/Android技術上の要件であり、FTCのルールではありません。"
 ""
 
@@ -410,7 +410,7 @@ msgstr "赤い円形の警告アイコンや橙色の三角形の警告アイコ
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:139
 msgid "Robot Controller Self Inspection Report"
-"msgstr ""
+msgstr ""
 "Robot Controller Self Inspection Report"
 ""
 
@@ -435,7 +435,7 @@ msgstr "すべての項目は問題ありませんが、Robot Controllerパス�
 msgid ""
 "Item 1 The three dots are a menu with one choice: ``Disable Bluetooth``. It "
 "shouldn't be needed unless Bluetooth was somehow enabled on the Control Hub."
-"msgstr ""
+msgstr ""
 "アイテム1 もしもの場合の3つのドットはメニューリストで、一つの選択肢「Bluetoothを無効にする」があります。コントロールハブでBluetoothがどうやってか有効になった場合にのみ必要となる可能性があります。"
 ""
 

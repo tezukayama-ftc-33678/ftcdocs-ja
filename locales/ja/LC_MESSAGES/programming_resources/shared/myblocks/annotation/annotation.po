@@ -137,14 +137,14 @@ msgid ""
 "If the number of parameter labels does not match the actual number of Java "
 "parameters, **all** custom label will be ignored. Instead the default labels"
 " will be displayed."
-"msgstr ""
+msgstr ""
 "もしパラメーターラベルの数がJavaのパラメーターの実際の数と一致しない場合、**すべて**のカスタムラベルは無視されます。代わりにデフォルトのラベルが表示されます。"
 ""
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:61
 msgid ""
 "A myBlock may have up to 21 parameters… not recommended! Keep things simple."
-"msgstr ""
+msgstr ""
 "myBlockは最大21個のパラメータを持つことができます…推奨されません！シンプルに保ちましょう。"
 ""
 

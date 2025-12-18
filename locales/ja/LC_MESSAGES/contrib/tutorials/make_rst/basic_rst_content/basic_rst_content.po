@@ -512,7 +512,7 @@ msgstr "一つの星：\\*text\\* で強調（イタリック）- 例如 \\*text
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:342
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
-"msgstr ""
+msgstr ""
 "Two Asterisks: \\*\\*text\\*\\*  для сильного акцента (полужирный) - как **text**"
 ""
 
@@ -570,7 +570,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:367
 msgid "Here are a few examples:"
-"msgstr ""
+msgstr ""
 "Here are a few examples:"
 ""
 
@@ -584,15 +584,7 @@ msgstr "これは *イタリック* の文字列です。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:384
 msgid "This is ``literal`` text in ``this document``."
-"msgstr "msgid:"
-"\"\"\""
-This is ``literal`` text in ``this document``.
-\"\"\"
-
-msgstr:
-"\"\"\""
-これは``literal``テキストが含まれている``this document``です。
-"
+msgstr "これは``literal``テキストが含まれている``this document``です。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:386
 msgid ""

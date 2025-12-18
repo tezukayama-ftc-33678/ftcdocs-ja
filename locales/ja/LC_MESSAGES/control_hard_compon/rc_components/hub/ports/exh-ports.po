@@ -76,7 +76,7 @@ msgid ""
 "<https://www.youtube.com/watch?v=UYXTiSeVmB0>`_. While this video features "
 "an XT60 connector, a larger version of the XT30, and a drone, the advice is "
 "much the same."
-"msgstr ""
+msgstr ""
 "XT30コネクタは脆いので、使用する際には特に注意して扱うことを強く推奨します。また、コネクタの爪を定期的に広げるのもおすすめです。REVは `トラブルシューティング記事 <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/control-hub-troubleshooting#xt30-pins-are-compressed>`_ でXT30コネクタのピンを広げる方法を掲載しています。詳しく知りたい場合は、`こちらのYouTube動画 <https://www.youtube.com/watch?v=UYXTiSeVmB0>`_ をご覧ください。この動画ではXT60コネクタが特徴としていますが、XT30の大きなバージョンとドローンを扱っていますので、アドバイスは同じです。"
 ""
 
@@ -98,7 +98,7 @@ msgid ""
 "power more motors. For more information on this port please see `REV Motor "
 "Port Documentation <https://docs.revrobotics.com/duo-control/control-system-"
 "overview/control-hub-basics#motor-port-specifications>`_."
-"msgstr ""
+msgstr ""
 "これらの`JST-VH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-vh-motor-power>`_ スタイルのコネクタは、モーターを電源に接続するために使用されます。1つのハブには4つのポートがあり、番号は0から3までです。ロボットにつながれる8つのモーターを使用できるため、これらのハブで制御できる数を超える場合もあります。その場合、追加のハブ`:ref:`二つの拡張ハブを使用する<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` または`REV SPARKmini モーターコントローラ <https://www.revrobotics.com/rev-31-1230/>`_ (REV-31-1230) を使用して、より多くのモーターを電源に接続することができます。このポートに関する詳細については、`REV モーターコネクタドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#motor-port-specifications>`_ を参照してください。"
 ""
 
@@ -278,7 +278,7 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:111
 msgid "UART"
-"msgstr ""
+msgstr ""
 "UART"
 ""
 

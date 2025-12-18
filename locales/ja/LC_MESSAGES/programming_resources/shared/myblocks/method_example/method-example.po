@@ -63,7 +63,7 @@ msgid ""
 "Line 34 shows the shared method that is **not** a myBlock. Simply omit the "
 "annotation @ExportToBlocks. The keyword ``private`` means the method can be "
 "called only from inside the same class. Use this whenever possible."
-"msgstr ""
+msgstr ""
 "Line 34 shows the shared method that is **not** a myBlock. Simply omit the annotation @ExportToBlocks. The keyword ``private`` means the method can be called only from inside the same class. Use this whenever possible."
 ""
 

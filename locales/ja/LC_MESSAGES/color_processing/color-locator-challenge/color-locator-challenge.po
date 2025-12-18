@@ -97,7 +97,7 @@ msgid ""
 "the Blob formation results are passed further.  Thus the DS and RC previews "
 "will **not display** any filtered-out contour or its boxFit.  This can save "
 "CPU resources used to draw the outlines."
-"msgstr ""
+msgstr ""
 "Here the term \"pre-\" means the filter criteria are implemented **before** the Blob formation results are passed further. Thus the DS and RC previews will **not display** any filtered-out contour or its boxFit. This can save CPU resources used to draw the outlines."
 ""
 
@@ -140,14 +140,13 @@ msgstr "フィルター設定を適用するには、2つのステップを使�
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:53
 msgid "**set** the filter name and criteria"
-"msgstr ""
+msgstr ""
 "フィルター名と基準を**set**する"
 ""
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:54
 msgid "**add** that filter to the existing Processor"
-"msgstr "msgstr:"
-"\"**add** that filter to the existing Processor""
+msgstr "既存のプロセッサにそのフィルターを**add**する"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:56
 msgid ""
@@ -309,7 +308,7 @@ msgstr "ソートを適用するには、次の2つの手順を使用します�
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:165
 msgid "define the sort name and criteria"
-"msgstr ""
+msgstr ""
 "ソート名と基準を定義します"
 ""
 
@@ -657,13 +656,13 @@ msgid ""
 "other version (`android.util.Size`) is not used in the OpMode. Instead, "
 "declare the variable with the full classname, as shown in the first line "
 "above."
-"msgstr ""
+msgstr ""
 "実際、OnBot Javaでは、他のバージョン（`android.util.Size`）がOpModeで使用されていない場合でも、このバージョンのインポートは許可されません。代わりに、上の最初の行のように完全なクラス名 `android.util.Size` を使用して変数を宣言してください。"
 ""
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:477
 msgid "Horizontal Rectangle"
-"msgstr ""
+msgstr ""
 "Horizontal Rectangle"
 ""
 

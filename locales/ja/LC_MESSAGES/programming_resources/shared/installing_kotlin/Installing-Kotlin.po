@@ -158,7 +158,7 @@ msgid ""
 "current Gradle version) is available (see table `here "
 "<https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-"
 "plugin>`__)."
-"msgstr ""
+msgstr ""
 "The exact Kotlin version can be changed/updated if desired per new releases. The latest version as of this writing is 2.2.20 but you should check the Kotlin website to see if a newer version (one that is compatible with the current Gradle version) is available (see table `here <https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-plugin>`__)."
 ""
 

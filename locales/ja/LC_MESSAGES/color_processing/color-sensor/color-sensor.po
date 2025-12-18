@@ -384,7 +384,7 @@ msgstr "正規化された+/-1.0座標系で定義されたサブ領域"
 msgid ""
 "For the **second input**, you must list the candidate colors from which a "
 "result will be selected as a \"Match\"."
-"msgstr ""
+msgstr ""
 "第二入力**で**, 候補色をリストし、それから選ばれる結果が「一致」として扱われるものとして挙げてください。"
 ""
 
@@ -490,7 +490,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:259
 msgid "In the sample OpMode, here's the Telemetry that gives the result:"
-"msgstr ""
+msgstr ""
 "サンプルOpModeでは、以下が結果のテレメトリーです："
 ""
 

@@ -254,7 +254,7 @@ msgid ""
 "it in the library documentation. And you know the **method names** and how "
 "they work, including the inputs and outputs (and their Java types). This "
 "tutorial does not offer Java programming instruction."
-"msgstr ""
+msgstr ""
 "First import the class. You know the **class name** because you read about it in the library documentation. And you know the **method names** and how they work, including the inputs and outputs (and their Java types). This tutorial does not offer Java programming instruction."
 ""
 
@@ -313,7 +313,7 @@ msgstr "各myBlockメソッドの直前に注釈``@ExportToBlocks``を追加し�
 msgid ""
 "For more info, see the separate myBlock tutorial :ref:`here "
 "<programming_resources/shared/myblocks/index:custom blocks (myblocks)>`."
-"msgstr ""
+msgstr ""
 "For more info, see the separate myBlock tutorial :ref:`here <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`."
 ""
 
@@ -371,7 +371,7 @@ msgstr "これらの3つのシナリオの例については、さらに下記�
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:192
 msgid "User Training & Documentation"
-"msgstr ""
+msgstr ""
 "User Training & Documentation"
 ""
 
@@ -424,7 +424,7 @@ msgid ""
 "Blocks. Meanwhile other students (like you), if they want to, can advance "
 "their Java skills and still contribute to the team’s actual robot "
 "programming."
-"msgstr ""
+msgstr ""
 "次に、チームの更多的メンバーはロボットのブロックプログラミングを続けられます。一方で、他の学生（あなたも含め）がJavaスキルを向上させたい場合は、実際のロボットプログラミングに貢献しながら進行することができます。"
 ""
 
@@ -464,7 +464,7 @@ msgid ""
 "The first example uses a very basic “homemade” library called Geometry For "
 "OBJ. To get your own copy, click :download:`here "
 "<opmodes/GeometryForObj.jar>`."
-"msgstr ""
+msgstr ""
 "最初の例では、オブジェクト用の基本的な「手作り」ライブラリである「幾何学 For OBJ」を使用しています。自分のコピーを入手するには、:download:`here <opmodes/GeometryForObj.jar>` をクリックしてください。"
 ""
 
@@ -571,7 +571,7 @@ msgstr "myBlocksのジオメトリーライブラリを使用したテレメト�
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:335
 msgid "Example 2 - *FIRST* Tech Challenge-annotated library"
-"msgstr ""
+msgstr ""
 "例 2 - *FIRST* Tech Challenge-注釈付きライブラリ"
 ""
 
@@ -617,7 +617,7 @@ msgid ""
 " pass-through method. But you **don’t need** an OnBot Java file to support "
 "this library or its methods; that’s done automatically by OnBot Java when it"
 " processes the library at upload."
-"msgstr ""
+msgstr ""
 "あなたはOnBot Javaでこれらのメソッドを使用する**こともできます**。myBlockを作成するためにも使用できます。例えば、通過メソッドのカスタムバージョンを提供したい場合があります。しかし、このライブラリやそのメソッドをサポートするためには、OnBot Javaファイル**は必要ありません**；それはアップロード時にライブラリを処理する際にOnBot Javaによって自動的に実行されます。"
 ""
 

@@ -290,12 +290,11 @@ msgstr "|rename3|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:118
 msgid "Select **Advanced** from the pop-up menu."
-"msgstr "msgstr:"
-"\"Select **Advanced** from the pop-up menu.""
+msgstr "ポップアップメニューから**詳細設定**を選択します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:119
 msgid "|rename4|"
-"msgstr ""
+msgstr ""
 "|rename4|"
 ""
 
@@ -309,7 +308,7 @@ msgstr "|rename5|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:125
 msgid "|rename6|"
-"msgstr ""
+msgstr ""
 "|rename6|"
 ""
 
@@ -407,7 +406,7 @@ msgstr "Control Hubからユーザーデータのバックアップと復元を�
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:161
 msgid "Install and switch between DS and RC applications on Android Devices."
-"msgstr ""
+msgstr ""
 "Androidデバイス上でDSおよびRCアプリケーションのインストールと切り替え。"
 ""
 "Androidデバイス上でDriver StationとRobot Controllerアプリケーションのインストールと切り替えを行います。"
@@ -724,7 +723,7 @@ msgid ""
 "Control Hub is ready to pair with the Driver Station when the LED turns "
 "green. Note: the light blinks blue every ~5 seconds to indicate that the "
 "Control Hub is healthy."
-"msgstr ""
+msgstr ""
 "コントロールハブが電源を入れるのに約18秒かかります。LEDが緑色に光ったときには、コントロールハブはドライバーステーションとのペアリングが可能です。注意：コントロールハブが正常であることを示すために、約5秒ごとに青色で blink します。"
 ""
 
@@ -750,13 +749,13 @@ msgstr "|ペアリング3|"
 msgid ""
 "Touch the three vertical dots on the upper right hand corner of the main "
 "screen of the Driver Station app. This will launch a pop-up menu."
-"msgstr ""
+msgstr ""
 "ドライバーステーションアプリのメイン画面右上にある三本線をタッチしてください。これでポップアップメニューが表示されます。"
 ""
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:320
 msgid "|pairing4|"
-"msgstr ""
+msgstr ""
 "|pairing4|"
 ""
 
@@ -767,7 +766,7 @@ msgstr "選択する Settings from the pop-up menu."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:323
 msgid "|pairing5|"
-"msgstr ""
+msgstr ""
 "|pairing5|"
 ""
 
@@ -780,7 +779,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:326
 msgid "|pairing6|"
-"msgstr ""
+msgstr ""
 "|pairing6|"
 ""
 
@@ -788,7 +787,7 @@ msgid "|pairing6|"
 msgid ""
 "Touch the words **Control Hub** to indicate that this DRIVER STATION will be"
 " pairing with a Control Hub."
-"msgstr ""
+msgstr ""
 "Touch the words **Control Hub** to indicate that this DRIVER STATION will be pairing with a Control Hub."
 ""
 
@@ -962,7 +961,7 @@ msgstr "ペアリングNS7"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:384
 msgid "pairingns8"
-"msgstr ""
+msgstr ""
 "pairingns8"
 ""
 
@@ -990,7 +989,7 @@ msgid ""
 "device might prompt you for permissions that the app will need to run "
 "properly. Whenever prompted, press **Allow** to grant the requested "
 "permission."
-"msgstr ""
+msgstr ""
 "On the Robot Controller device, browse the available apps and locate the **FTC Robot Controller** icon. Tap on the icon to launch the Robot Controller app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press **Allow** to grant the requested permission."
 ""
 
@@ -1024,7 +1023,7 @@ msgstr "|ペアリングNS3| |ペアリングNS3b|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:409
 msgid "|pairingns4|"
-"msgstr ""
+msgstr ""
 "|pairingns4|"
 ""
 
