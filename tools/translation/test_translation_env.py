@@ -144,18 +144,21 @@ def test_scripts():
     """スクリプト存在確認"""
     print("\n📜 スクリプト確認...")
     
+    # Get the script directory (tools/translation/)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
     required_scripts = [
-        "translate_po.py",
-        "batch_translate.py",
-        "translate_config.json"
+        ("translate_po.py", os.path.join(script_dir, "translate_po.py")),
+        ("batch_translate.py", os.path.join(script_dir, "batch_translate.py")),
+        ("translate_config.json", "translate_config.json")  # In project root
     ]
     
     all_exist = True
-    for script in required_scripts:
-        if os.path.exists(script):
-            print(f"  ✓ {script}")
+    for name, path in required_scripts:
+        if os.path.exists(path):
+            print(f"  ✓ {name}")
         else:
-            print(f"  ✗ {script} が見つかりません")
+            print(f"  ✗ {name} が見つかりません")
             all_exist = False
     
     return all_exist
@@ -193,7 +196,7 @@ def main():
     if all_passed:
         print("\n🎉 全てのテストに合格しました！")
         print("\n次のコマンドで翻訳を開始できます:")
-        print("  python batch_translate.py --po-dir locales/ja/LC_MESSAGES")
+        print("  python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES")
         print("または:")
         print("  .\\run_auto_translate.ps1")
         return 0

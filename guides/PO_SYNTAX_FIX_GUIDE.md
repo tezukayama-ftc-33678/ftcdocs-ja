@@ -66,7 +66,7 @@ print(f'{errors} ファイルに構文エラー（目標: 0）')
 
 # 品質チェック
 cd docs
-python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_fixed.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_fixed.json --verbose
 ```
 
 ---
@@ -166,22 +166,22 @@ cd h:\ftcdocs-ja
 python fix_po_syntax.py
 
 # 2. 正規化
-python docs/scripts/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
+python tools/po-fixing/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
 
 # 3. 品質チェック
-python docs/scripts/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_clean.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_clean.json --verbose
 
 # 4. 問題数を確認
 python -c "import json; print(f\"{len(json.load(open('po_issues_clean.json')))} 件\")"
 
 # 5. 重要問題を修正（missing_doc_ref, inconsistent_ref）
-python docs/scripts/fix_po_with_llm.py --issues po_issues_clean.json --types missing_doc_ref inconsistent_ref --limit 50
+python tools/po-fixing/fix_po_with_llm.py --issues po_issues_clean.json --types missing_doc_ref inconsistent_ref --limit 50
 
 # 6. 再正規化
-python docs/scripts/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
+python tools/po-fixing/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
 
 # 7. 最終チェック
-python docs/scripts/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_final.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_final.json --verbose
 
 # 8. ビルド
 cd docs
@@ -213,8 +213,8 @@ cd h:\ftcdocs-ja
 
 # 実行
 python fix_po_syntax.py
-python docs/scripts/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
-python docs/scripts/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_clean.json --verbose
+python tools/po-fixing/normalize_po_whitespace.py --po-dir locales/ja/LC_MESSAGES
+python tools/po-fixing/check_and_fix_po.py --po-dir locales/ja/LC_MESSAGES --output po_issues_clean.json --verbose
 ```
 
 この3ステップで状況が劇的に改善します。

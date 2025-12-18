@@ -36,7 +36,7 @@ ollama pull qwen2.5:7b-instruct-q5_K_M
 pip install ollama polib tqdm colorama
 
 # 3. 自動翻訳開始（放置で完了）
-python batch_translate.py --po-dir locales/ja/LC_MESSAGES
+python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
 ```
 
 または、全自動スクリプトを実行：
@@ -45,14 +45,14 @@ python batch_translate.py --po-dir locales/ja/LC_MESSAGES
 .\run_auto_translate.ps1
 ```
 
-詳細は **[AUTO_TRANSLATE.md](AUTO_TRANSLATE.md)** を参照してください。
+詳細は **[guides/AUTO_TRANSLATE.md](guides/AUTO_TRANSLATE.md)** を参照してください。
 
 ### テスト実行
 
 環境が正しくセットアップされているか確認：
 
 ```powershell
-python test_translation_env.py
+python tools/translation/test_translation_env.py
 ```
 
 ---
@@ -77,7 +77,7 @@ python test_translation_env.py
 - **コーチ**: `docs/source/persona_pages/coach_admin/coach_admin.rst`
 - **メンター**: `docs/source/persona_pages/mentor_tech/mentor_tech.rst`
 
-**詳細**: [TRANSLATION_APPROACH.md](TRANSLATION_APPROACH.md) を参照してください。
+**詳細**: [guides/TRANSLATION_APPROACH.md](guides/TRANSLATION_APPROACH.md) を参照してください。
 
 ### ビルド方法
 
@@ -88,23 +88,27 @@ make html-ja  # 日本語版をビルド
 
 ---
 
-## 🔍 翻訳問題トラッカー
+## 📚 ドキュメント構成
 
-人力での問題修正を支援するため、ブラウザベースの問題トラッカーを提供しています。
+### ユーザー向けガイド
+- **[QUICKSTART.md](QUICKSTART.md)** - 5分で始めるクイックスタート
+- **[guides/](guides/)** - 詳細なガイド集
+  - [AUTO_TRANSLATE.md](guides/AUTO_TRANSLATE.md) - 自動翻訳実行ガイド
+  - [BUILD_JA.md](guides/BUILD_JA.md) - ビルドガイド
+  - [TRANSLATION_GUIDE.md](guides/TRANSLATION_GUIDE.md) - 翻訳ガイドライン
+  - [GLOSSARY.md](guides/GLOSSARY.md) - 用語集
+  - [ERROR_FIX_GUIDE.md](guides/ERROR_FIX_GUIDE.md) - エラー修正ガイド
+  - [PO_SYNTAX_FIX_GUIDE.md](guides/PO_SYNTAX_FIX_GUIDE.md) - PO構文修正ガイド
+  - その他多数...
 
-### 使い方
+### ツール
+- **[tools/](tools/)** - 翻訳・修正・分析ツール集
+  - [translation/](tools/translation/) - 自動翻訳ツール
+  - [po-fixing/](tools/po-fixing/) - PO修正ツール
+  - [analysis/](tools/analysis/) - 分析ツール
+  - 詳細は [tools/README.md](tools/README.md) を参照
 
-1. ドキュメントをビルド: `cd docs && make html-ja`
-2. 問題トラッカーを開く: `docs/build/html-ja/_static/issue_tracker.html`
-3. ドキュメントを読みながら、おかしい箇所を記録
-4. JSON または Markdown 形式でエクスポート
-
-**詳細**: [ISSUE_TRACKER_GUIDE.md](ISSUE_TRACKER_GUIDE.md) を参照してください。
-
----
-
-## 📚 ドキュメント
-
-- **[TRANSLATION_APPROACH.md](TRANSLATION_APPROACH.md)** - 翻訳アプローチの詳細説明
-- **[ISSUE_TRACKER_GUIDE.md](ISSUE_TRACKER_GUIDE.md)** - 問題トラッカーの使用方法
-- **[AUTO_TRANSLATE.md](AUTO_TRANSLATE.md)** - 自動翻訳の詳細（もし存在する場合）
+### プロジェクト資料
+- **[docs/project-docs/](docs/project-docs/)** - プロジェクト内部資料
+  - [archived/](docs/project-docs/archived/) - 過去のレポート
+  - [reports/](docs/project-docs/reports/) - 現在のレポート

@@ -48,10 +48,10 @@ cd h:\ftcdocs-ja
 cd h:\ftcdocs-ja\docs
 
 # ステップ 1: LLM で PO を修正
-python scripts/fix_po_with_llm.py --issues ../po_issues.json --types emphasis_mismatch inconsistent_ref missing_doc_ref --limit 1000
+python tools/po-fixing/fix_po_with_llm.py --issues ../po_issues.json --types emphasis_mismatch inconsistent_ref missing_doc_ref --limit 1000
 
 # ステップ 2: 修正後の品質確認
-python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_after_fix.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_after_fix.json --verbose
 
 # ステップ 3: ビルド
 make clean && make html && make html-ja
@@ -130,7 +130,7 @@ ollama pull qwen2.5:7b-instruct-q5_K_M
 
 ```powershell
 # 特定のPOファイルをチェック
-python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --verbose 2>&1 | grep -i error
+python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --verbose 2>&1 | grep -i error
 ```
 
 ### **ビルドが失敗**
@@ -161,7 +161,7 @@ code locales/ja/LC_MESSAGES/path/to/file.po
 
 ```powershell
 cd h:\ftcdocs-ja\docs
-python scripts/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_final.json --verbose
+python tools/po-fixing/check_and_fix_po.py --po-dir ../locales/ja/LC_MESSAGES --output ../po_issues_final.json --verbose
 make clean && make html-ja
 ```
 
