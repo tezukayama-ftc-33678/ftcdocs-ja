@@ -456,7 +456,7 @@ msgid ""
 "looks like::"
 msgstr ""
 "これはセクションの異なるレベルで使用するべきものです。これらのレベルを超えて追加の特殊文字を使用する必要がある場合（例：必要な場合は）は、ハッシュ記号 "
-"(#) とアスタリスク (*) を使用できます。セクションを使用した例は以下の通りです::"
+"(#) とアスタリスク () を使用できます。セクションを使用した例は以下の通りです::"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:310
 msgid ""
@@ -513,8 +513,8 @@ msgstr "一つの星：\\*text\\* で強調（イタリック）- 例如 \\*text
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:342
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
 msgstr ""
-"Two Asterisks: \\*\\*text\\*\\*  для сильного акцента (полужирный) - как **text**"
-""
+"Two Asterisks: \\*\\*text\\*\\*  для сильного акцента (полужирный) - как "
+"**text**"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:343
 msgid "Two Backquotes: \\`\\`text\\`\\` for literals - like ``text``"
@@ -570,9 +570,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:367
 msgid "Here are a few examples:"
-msgstr ""
-"Here are a few examples:"
-""
+msgstr "Here are a few examples:"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:380
 msgid "This is **bold** text in **this document**."
@@ -725,7 +723,7 @@ msgid ""
 "section name in ` (back tick) characters and then follow with an underscore."
 msgstr ""
 "このものは本当に簡単です - "
-"すべてのタイトル、セクション、サブセクション、サブサブセクションなどは既にアンカーが組み込まれています。アンカーの名前はセクションの名前と同じです。セクション参照を使用するには、セクション名をバックタック（`）で囲ってからアンダースコアを追加します。"
+"すべてのタイトル、セクション、サブセクション、サブサブセクションなどは既にアンカーが組み込まれています。アンカーの名前はセクションの名前と同じです。セクション参照を使用するには、セクション名をバックタック（）で囲ってからアンダースコアを追加します。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:470
 msgid "Referencing Sections Example"
@@ -1026,7 +1024,7 @@ msgstr ""
 ".pdf形式で使用されるドキュメンテーションでは、拡張子が ``.gif`` および ``.svg`` "
 "の画像はサポートされていません。これらの拡張子を持つファイルへの外部リンクは禁止します。ファイルパスを使用してファイルを参照する場合、対応可能なバージョンのファイルが存在すれば、これらのファイルを使用できます。例えば、``picture.svg``"
 " と ``picture.png`` がある場合、HTMLでは ``picture.svg`` を使用し、.pdfでは *（アスタリスク）* "
-"を使用することで ``picture.*`` の形式で対応可能なバージョンを参照することができます。"
+"を使用することで ``picture.`` の形式で対応可能なバージョンを参照することができます。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:643
 msgid "Embedding Images using the figure directive"
@@ -1054,7 +1052,7 @@ msgstr ""
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:657
 msgid "align : *\"left\", \"center\", or \"right\"*"
 msgstr ""
-"alinhanuki: \\\"左\\\", \\\"中央\\\", または \\\"右\\\"*\"\n"
+"alinhanuki: \\\"左\\\", \\\"中央\\\", または \\\"右\\\"\"\n"
 "\n"
 "（注：`align`は専門用語として原文のままになっています。）"
 
@@ -1137,8 +1135,8 @@ msgid ""
 "paragraphs; the text immediately after the bullet determines the "
 "indentation."
 msgstr ""
-"番号のないリスト、つまり「無順序リスト」は、空白行で区切られた単純なテキストブロックです。各リストアイテムは、星(*), プラス(+), "
-"ダッシュ(-), "
+"番号のないリスト、つまり「無順序リスト」は、空白行で区切られた単純なテキストブロックです。各リストアイテムは、星(), プラス(+), ダッシュ(-),"
+" "
 "や丸点(•)で始まり、その後にスペースがあるテキストブロックです。ただし、一貫性のある記号を使用することをおすすめします。リストアイテムの本文は、段落のように左揃えにして、お互いに対してインデントし、直後の文字がインデントの基準となります。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:707

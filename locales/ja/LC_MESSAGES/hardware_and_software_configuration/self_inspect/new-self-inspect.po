@@ -56,7 +56,7 @@ msgid ""
 "encouraged to self-inspect prior to their event."
 msgstr ""
 "チームがイベント前にロボットを自ら点検するのに役立つ「Inspection Checklist (PDF) <https://ftc-"
-"resources.firstinspires.org/ftc/event/inspection-check>`_ "
+"resources.firstinspires.org/ftc/event/inspection-check>_ "
 "が用意されています。チームはイベント前に自ら点検することをお勧めします。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:18
@@ -66,8 +66,9 @@ msgid ""
 "examples of legal and illegal parts (though it is not a substitute for the "
 "Competition Manual)."
 msgstr ""
-"また、合法的で不法なパーツの例がいくつか記載されている `Inspection Quick Reference (PDF) <https://ftc-resources.firstinspires.org/ftc/event/inspection-reference>`_ も用意されています（ただし、競技マニュアルの代わりにはなりません）。"
-""
+"また、合法的で不法なパーツの例がいくつか記載されている `Inspection Quick Reference (PDF) <https://ftc-"
+"resources.firstinspires.org/ftc/event/inspection-reference>`_ "
+"も用意されています（ただし、競技マニュアルの代わりにはなりません）。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:21
 msgid ""
@@ -95,9 +96,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:33
 msgid "Robot Inspection"
-msgstr ""
-"ロボットinspection"
-""
+msgstr "ロボットinspection"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:35
 msgid ""
@@ -230,9 +229,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:86
 msgid ""
 "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub."
-msgstr ""
-"アイテム2 ``Manufacturer`` は、REVドライバーハブの場合、**REV Robotics**に設定する必要があります。"
-""
+msgstr "アイテム2 ``Manufacturer`` は、REVドライバーハブの場合、**REV Robotics**に設定する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:87
 msgid "Item 3 ``Model`` should be Driver Hub."
@@ -264,8 +261,8 @@ msgid ""
 "devices running **Android 8** or higher. This is an SDK/Android technology "
 "requirement, not an FTC rule."
 msgstr ""
-"アイテム8「位置情報サービス」は**有効**にしておくべきですが、**Android 8**以降のデバイスでしか表示されません。これはSDK/Android技術上の要件であり、FTCのルールではありません。"
-""
+"アイテム8「位置情報サービス」は**有効**にしておくべきですが、**Android "
+"8**以降のデバイスでしか表示されません。これはSDK/Android技術上の要件であり、FTCのルールではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:96
 msgid ""
@@ -348,7 +345,7 @@ msgid ""
 " deployed to the DS device from Android Studio."
 msgstr ""
 "これはドライバーハブで、ファームウェアリセットが実行されました。これにより、DSのバージョンは7にリセットされ、すべてのシステム設定とDSアプリケーション設定がデフォルト値に復元されました。その後、「REV"
-" Hardware Client <https://docs.revrobotics.com/rev-hardware-client>`_ "
+" Hardware Client <https://docs.revrobotics.com/rev-hardware-client>_ "
 "を使用してDSのバージョン10.3を更新しました。次に、Android "
 "StudioからFTCRobotControllerアプリケーションもDSデバイスに展開しました。"
 
@@ -410,9 +407,7 @@ msgstr "赤い円形の警告アイコンや橙色の三角形の警告アイコ
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:139
 msgid "Robot Controller Self Inspection Report"
-msgstr ""
-"Robot Controller Self Inspection Report"
-""
+msgstr "Robot Controller Self Inspection Report"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:141
 msgid ""
@@ -436,8 +431,8 @@ msgid ""
 "Item 1 The three dots are a menu with one choice: ``Disable Bluetooth``. It "
 "shouldn't be needed unless Bluetooth was somehow enabled on the Control Hub."
 msgstr ""
-"アイテム1 もしもの場合の3つのドットはメニューリストで、一つの選択肢「Bluetoothを無効にする」があります。コントロールハブでBluetoothがどうやってか有効になった場合にのみ必要となる可能性があります。"
-""
+"アイテム1 "
+"もしもの場合の3つのドットはメニューリストで、一つの選択肢「Bluetoothを無効にする」があります。コントロールハブでBluetoothがどうやってか有効になった場合にのみ必要となる可能性があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:154
 msgid ""
