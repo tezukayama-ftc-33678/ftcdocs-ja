@@ -51,7 +51,7 @@ msgstr "ノートパソコン"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:15
 msgid "chrome"
-msgstr "クロム"
+msgstr "chrome"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:17
 msgid "exhub"
@@ -128,7 +128,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:57
 msgid "|chandphones| |exhub|"
-msgstr "|チャンドフォンズ| |エクスキューバ|\\n"
+msgstr "|chandphones| |exhub|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:59
 msgid ""
@@ -136,12 +136,11 @@ msgid ""
 "Alternately, the Competition Manual does allow teams to instead use a select"
 " list of Android phones. See rule R901 for the full details."
 msgstr ""
-"REV Robotics Driver Hubを使用してDRIVER "
-"STATIONデバイスとして利用します。ただし、コンペティションマニュアルでは、チームは指定された一覧のAndroidスマートフォンを使用することも可能です。「ルールR901」を参照してください。"
+"REV Robotics Driver Hubを使用してDRIVER STATIONデバイスとして利用します。ただし、コンペティションマニュアルでは、チームは指定された一覧のAndroidスマートフォンを使用することも可能です。「ルールR901」を参照してください。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:63
 msgid "|driverhub|"
-msgstr "|ドライバーハブ|"
+msgstr "|driverhub|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:65
 msgid "Wireless Internet access."
@@ -149,7 +148,7 @@ msgstr "無線インターネットアクセス。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:66
 msgid "|wifi|"
-msgstr "|WiFi|"
+msgstr "|wifi|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:68
 msgid ""
@@ -166,7 +165,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:69
 msgid "|laptop|"
-msgstr "|ノートパソコン|"
+msgstr "|laptop|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:71
 msgid ""
@@ -175,7 +174,7 @@ msgstr "JavaScriptが有効なウェブブラウザ（Google Chromeが推奨さ�
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:72
 msgid "|chrome|"
-msgstr "|クロム|"
+msgstr "|chrome|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:74
 msgid "REV Robotics Switch, Cable, & Bracket (REV-31-1387)."
@@ -183,7 +182,7 @@ msgstr "REVロボティクスのスイッチ、ケーブル、およびブラケ
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:75
 msgid "|switch|"
-msgstr "スイッチ"
+msgstr "|switch|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:77
 msgid ""
@@ -192,12 +191,12 @@ msgid ""
 "the current Competition Manual.**\\"
 msgstr ""
 "*FIRST*-approved\\* 12Vバッテリー (たとえばTetrix W39057やREV Robotics "
-"REV-31-1302).\\*\\ **FIRST-approved "
-"12Vバッテリーのリストについては、現在の競技マニュアルを参照してください。**\\"
+"REV-31-1302).\\*\\ ** FIRST-approved "
+"12Vバッテリーのリストについては、現在の競技マニュアルを参照してください。 **\\"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:78
 msgid "|battery|   Or |slimbattery|"
-msgstr "|バッテリー|   もしくは |スリムバッテリー|"
+msgstr "|battery|   もしくは |slimbattery|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:80
 msgid ""
@@ -206,11 +205,11 @@ msgid ""
 "current Competition Manual.**\\"
 msgstr ""
 "*FIRST*-approved\\* 12V DCモーター（たとえばTetrix W39530、電源ケーブルW41352付き）。\\*\\ "
-"**12Vモーターのリストについては、現在の競技マニュアルを参照してください。**\\"
+"** 12Vモーターのリストについては、現在の競技マニュアルを参照してください。 **\\"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:81
 msgid "|motor|"
-msgstr "|モーター|"
+msgstr "|motor|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:84
 msgid ""
@@ -222,12 +221,12 @@ msgid ""
 msgstr ""
 "もし承認された12Vバッテリー（タミヤコネクタを搭載しているもの）を使用している場合（たとえば、Tetrix W39057バッテリーなど）、REV "
 "Robotics Tamiya to XT30 Adapter Cable (REV-31-1382)が必要です。REV Robotics Slim "
-"Battery (REV-31-1302)を持っている場合は、 REV バッテリーにXT30コネクタが Already "
+"Battery (REV-31-1302)を持っている場合は、 REV バッテリーにXT30コネクタが 既に "
 "ついているため、このアダプターは必要ありません。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:85
 msgid "|tamiya|"
-msgstr "|タミヤ|"
+msgstr "|tamiya|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:87
 msgid "REV Robotics Anderson to JST VH Cable (REV-31-1381)."
@@ -235,7 +234,7 @@ msgstr "REVロボティクス・アンダーソンからJST VHケーブル（REV
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:88
 msgid "|jst|"
-msgstr "|japanese|"
+msgstr "|jst|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:90
 msgid "180-Degree Standard Scale Servo (such as Hitec HS-485HB)."
@@ -243,7 +242,7 @@ msgstr "180度標準スケールサーボ（例：HITEC HS-485HB）"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:91
 msgid "|servo|"
-msgstr "|サーボ|"
+msgstr "|servo|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:93
 msgid "REV Robotics Color Sensor with 4-Pin Cable (REV-31-1154)."
@@ -251,7 +250,7 @@ msgstr "REVロボティクスカラーセンサ（4ピンケーブル付）(REV-
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:94
 msgid "|color|"
-msgstr "|色|"
+msgstr "|color|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:96
 msgid "REV Robotics Touch Sensor with 4-Pin Cable( REV-31-1425)."
@@ -259,7 +258,7 @@ msgstr "REVロボティクスのタッチセンサ（4ピンケーブル付）( 
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:97
 msgid "|touch|"
-msgstr "|\\u30A4\\u30EB|"
+msgstr "|touch|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:99
 msgid "Logitech F310 USB Gamepad."
