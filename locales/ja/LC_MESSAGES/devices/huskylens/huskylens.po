@@ -161,8 +161,8 @@ msgid ""
 "HuskyLens **blue** wire 2 (“R”) SCL or clock == REV Hub **blue** wire 4 "
 "“SCL” or clock"
 msgstr ""
-"HuskyLens **blue** wire 2 (“R”) SCL or clock == REV Hub **blue** wire 4 “SCL” or clock"
-""
+"HuskyLens **blue** wire 2 (“R”) SCL or clock == REV Hub **blue** wire 4 "
+"“SCL” or clock"
 
 #: ../../source/devices/huskylens/huskylens.rst:73
 msgid ""
@@ -499,8 +499,10 @@ msgid ""
 "You could try to follow those, or use the equivalent description here. Some "
 "practice may be required!"
 msgstr ""
-"The **HuskyLens instructions** for learning a color are `posted online <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__. You could try to follow those, or use the equivalent description here. Some practice may be required!"
-""
+"The **HuskyLens instructions** for learning a color are `posted online "
+"<https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__. "
+"You could try to follow those, or use the equivalent description here. Some "
+"practice may be required!"
 
 #: ../../source/devices/huskylens/huskylens.rst:265
 msgid ""
@@ -508,8 +510,9 @@ msgid ""
 "**Function button** (actually a dial and button). At the right side is the "
 "small **Learning button**."
 msgstr ""
-"On the top of the HuskyLens, the wheel at the left side is called the **Function button** (actually a dial and button). At the right side is the small **Learning button**."
-""
+"On the top of the HuskyLens, the wheel at the left side is called the "
+"**Function button** (actually a dial and button). At the right side is the "
+"small **Learning button**."
 
 #: ../../source/devices/huskylens/huskylens.rst:269
 msgid ""
@@ -608,7 +611,7 @@ msgid ""
 " may misidentify similar colors. Please try to keep the ambient light "
 "unchanged.”"
 msgstr ""
-"「色認識は周囲の光によって大きく影響されます。時々、HuskyLens は類似した色を誤识别することがあります。 Ambient Light "
+"「色認識は周囲の光によって大きく影響されます。時々、HuskyLens は類似した色を誤認識することがあります。 Ambient Light "
 "を変更しないようにしてください。」"
 
 #: ../../source/devices/huskylens/huskylens.rst:323
@@ -671,8 +674,8 @@ msgid ""
 "Bounding Boxes (called “blocks”). This is done in a **FOR loop**; multiple "
 "recognitions are processed one at at time."
 msgstr ""
-"上記の図に示されるように、OpMode は白いBounding Boxes（「ブロック」と呼ばれる）のサイズと位置を提供します。これは **FOR loop** を使用して行われ、複数の recognitions は一度ずつ処理されます。"
-""
+"上記の図に示されるように、OpMode は白いBounding Boxes（「ブロック」と呼ばれる）のサイズと位置を提供します。これは **FOR "
+"loop** を使用して行われ、複数の recognitions は一度ずつ処理されます。"
 
 #: ../../source/devices/huskylens/huskylens.rst:368
 msgid ""
@@ -691,7 +694,6 @@ msgid ""
 "ratio) of an empty Spike Mark’s Bounding Box."
 msgstr ""
 "チームプロップの色が赤スパイクマークや青スパイクマークの色と非常に近い場合でも、空のスパイクマークのバウンディングボックスの細長い形状（アスペクト比）を拒否するオペレーションモードコードを書くことができます。"
-""
 
 #: ../../source/devices/huskylens/huskylens.rst:379
 msgid "Here’s an example with a trained **blue object**:"
@@ -842,8 +844,8 @@ msgid ""
 "In any case, the OpMode should exit the main loop and continue running, "
 "using any stored information."
 msgstr ""
-"In any case, the OpMode should exit the main loop and continue running, using any stored information."
-""
+"In any case, the OpMode should exit the main loop and continue running, "
+"using any stored information."
 
 #: ../../source/devices/huskylens/huskylens.rst:467
 msgid "Multi-Color Training"
@@ -882,8 +884,11 @@ msgid ""
 "You could try to follow those, or use the equivalent description here. "
 "Again, some practice may be required!"
 msgstr ""
-"The **HuskyLens instructions** for learning multiple colors are `posted online <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__. You could try to follow those, or use the equivalent description here. Again, some practice may be required!"
-""
+"The **HuskyLens instructions** for learning multiple colors are `posted "
+"online "
+"<https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_19>`__. "
+"You could try to follow those, or use the equivalent description here. "
+"Again, some practice may be required!"
 
 #: ../../source/devices/huskylens/huskylens.rst:486
 msgid ""
@@ -891,8 +896,8 @@ msgid ""
 "the **Function button** (actually a dial and button). At the right side is "
 "the small **Learning button**."
 msgstr ""
-"Reminder: HuskyLens の上部に、左側の輪は **Function button**（実際にはダイアルとボタン）として呼ばれます。右側には小さな **Learning button** があります。"
-""
+"Reminder: HuskyLens の上部に、左側の輪は **Function "
+"button**（実際にはダイアルとボタン）として呼ばれます。右側には小さな **Learning button** があります。"
 
 #: ../../source/devices/huskylens/huskylens.rst:490
 msgid ""
@@ -932,9 +937,7 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:512
 msgid "Learn Multiple"
-msgstr ""
-"Learn Multiple"
-""
+msgstr "Learn Multiple"
 
 #: ../../source/devices/huskylens/huskylens.rst:512
 msgid "HuskyLens - Learn Multiple"
@@ -960,9 +963,7 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:523
 msgid "Now ready for learning!"
-msgstr ""
-"Now ready for learning!"
-""
+msgstr "Now ready for learning!"
 
 #: ../../source/devices/huskylens/huskylens.rst:525
 msgid ""
@@ -980,8 +981,8 @@ msgid ""
 "**Learning button** (right side). A **yellow frame** appears on the screen, "
 "indicating that HuskyLens is learning the color."
 msgstr ""
-"With the main color framed, **長押し** (押して保持する) the small **学習ボタン** (右側)。画面に**黄色い枠**が表示され、HuskyLens が色を学習していることを示します。"
-""
+"With the main color framed, **長押し** (押して保持する) the small **学習ボタン** "
+"(右側)。画面に**黄色い枠**が表示され、HuskyLens が色を学習していることを示します。"
 
 #: ../../source/devices/huskylens/huskylens.rst:534
 msgid ""
@@ -997,10 +998,8 @@ msgid ""
 "releasing the Learning button, **``Color:ID1``** is now trained, with its "
 "label shown on-screen. Easy!"
 msgstr ""
-"長押し学習期間は数秒で済むことがあります。Learningボタンを離すと、**``Color:ID1``** は訓練が完了し、画面にラベルが表示されます。簡単です！"
-""
-"長押し学習期間は数秒で済むことがあります。Learningボタンを離した後、「**Color:ID1**」が訓練され、そのラベルが画面に表示されます。簡単です！"
-""
+"長押し学習期間は数秒で済むことがあります。Learningボタンを離すと、**``Color:ID1``** "
+"は訓練が完了し、画面にラベルが表示されます。簡単です！長押し学習期間は数秒で済むことがあります。Learningボタンを離した後、「**Color:ID1**」が訓練され、そのラベルが画面に表示されます。簡単です！"
 
 #: ../../source/devices/huskylens/huskylens.rst:548
 msgid "RED Color 1 Trained"
@@ -1008,9 +1007,7 @@ msgstr "レッド色1トレーニング"
 
 #: ../../source/devices/huskylens/huskylens.rst:548
 msgid "HuskyLens - RED (Color 1) Trained"
-msgstr ""
-"HuskyLens - RED (Color 1) Trained"
-""
+msgstr "HuskyLens - RED (Color 1) Trained"
 
 #: ../../source/devices/huskylens/huskylens.rst:550
 msgid ""
@@ -1077,15 +1074,13 @@ msgstr "色検出ブロック"
 
 #: ../../source/devices/huskylens/huskylens.rst:591
 msgid "Adding Telemetry for Colors"
-msgstr ""
-"色のテレメトリ追加"
-""
+msgstr "色のテレメトリ追加"
 
 #: ../../source/devices/huskylens/huskylens.rst:593
 msgid ""
 "Here’s the DS Telemetry from the Sample OpMode used above for single color, "
 "**with no coding changes**:"
-msgstr "ここに上記の単色用のSample OpModeから取得したドライバーステーションの遥测データがあります。**コード変更なし**："
+msgstr "ここに上記の単色用のSample OpModeから取得したDSテレメトリーがあります。**コード変更なし**です："
 
 #: ../../source/devices/huskylens/huskylens.rst:601
 msgid "2 Color Telemetry"

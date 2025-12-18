@@ -84,9 +84,9 @@ msgid ""
 "does respond to FocusControl methods. The Logitech C270 (older model) offers"
 " only Fixed mode, but does not allow programmed control."
 msgstr ""
-"Logitech "
-"C920のウェブカメラは、ContinuousAutoモードとFixedモードの2つを提供します。このFixedモードはFocusControlメソッドに反応します。一方、Logitech"
-" C270（旧モデル）はOnly Fixedモードのみを提供し、プログラムによる制御が不可能です。"
+"ロジテック C920 "
+"ウェブカムは、ContinuousAutoモードとFixedモードの2つのモードを提供します。このウェブカムはFocusControlメソッドに反応しますが、ロジテック"
+" C270（古いモデル）はOnly Fixedモードのみを提供し、プログラムによる制御は許可されていません。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:27
 msgid ""

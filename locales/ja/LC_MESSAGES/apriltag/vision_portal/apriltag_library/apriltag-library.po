@@ -213,12 +213,13 @@ msgid ""
 "Processor Builder, and another Block to **finalize** the process with "
 "``.build()``."
 msgstr ""
-"** Around this** (before and after), place one Block to ** create** the Processor Builder, and another Block to ** finalize** the process with ``.build()``."
-""
-"** Around this** (before and after), place one Block to ** create** the Processor Builder, and another Block to ** finalize** the process with ``.build()``."
-""
-"** Around this** (before and after), place one Block to ** create** the Processor Builder, and another Block to ** finalize** the process with ``.build()``."
-""
+"** Around this** (before and after), place one Block to ** create** the "
+"Processor Builder, and another Block to ** finalize** the process with "
+"``.build()``.** Around this** (before and after), place one Block to ** "
+"create** the Processor Builder, and another Block to ** finalize** the "
+"process with ``.build()``.** Around this** (before and after), place one "
+"Block to ** create** the Processor Builder, and another Block to ** "
+"finalize** the process with ``.build()``."
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:121
@@ -263,13 +264,7 @@ msgstr "タグライブラリ設定"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:166
 msgid "Set the Tag Library"
-msgstr ""
-"Set the Tag Library"
-""
-"Set the Tag Library"
-""
-"タグライブラリの設定"
-""
+msgstr "Set the Tag LibrarySet the Tag Libraryタグライブラリの設定"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:168
 msgid ""
@@ -312,7 +307,7 @@ msgstr "最終処理は ``.build`` コマンドで実行します。"
 msgid ""
 "The built Library is assigned or saved to your Variable, here called "
 "``myAprilTagLibrary``."
-msgstr "構築されたライブラリは、変数に割り当てられ或者说是保存到这里称为`myAprilTagLibrary`的变量中。"
+msgstr "構築されたライブラリは、ここでは ``myAprilTagLibrary`` と呼ばれますので、変数に割り当てられ或者保存されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:225
@@ -449,16 +444,14 @@ msgid ""
 "Why might you do this? Suppose a tag size is not quite correct. You could "
 "enter a new tag with the same Metadata, but with a corrected tag size."
 msgstr ""
-"なぜこれをする必要があるのでしょうか？ タグサイズが正確でない場合を想定します。同じメタデータを持つ新しいタグを入力することができますが、タグサイズを修正したものを使用することも可能です。"
-""
+"なぜこれをする必要があるのでしょうか？ "
+"タグサイズが正確でない場合を想定します。同じメタデータを持つ新しいタグを入力することができますが、タグサイズを修正したものを使用することも可能です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:415
 msgid "Or you might prefer to use your own tag names, or distance units."
 msgstr ""
-"Or you might prefer to use your own tag names, or distance units."
-""
-"または、ご自身のタグ名や距離単位を使用したい場合もあります。"
-""
+"Or you might prefer to use your own tag names, or distance "
+"units.または、ご自身のタグ名や距離単位を使用したい場合もあります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:417
 msgid ""

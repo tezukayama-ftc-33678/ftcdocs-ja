@@ -98,8 +98,10 @@ msgid ""
 "will **not display** any filtered-out contour or its boxFit.  This can save "
 "CPU resources used to draw the outlines."
 msgstr ""
-"Here the term \"pre-\" means the filter criteria are implemented **before** the Blob formation results are passed further. Thus the DS and RC previews will **not display** any filtered-out contour or its boxFit. This can save CPU resources used to draw the outlines."
-""
+"Here the term \"pre-\" means the filter criteria are implemented **before** "
+"the Blob formation results are passed further. Thus the DS and RC previews "
+"will **not display** any filtered-out contour or its boxFit. This can save "
+"CPU resources used to draw the outlines."
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:32
 msgid ""
@@ -140,9 +142,7 @@ msgstr "フィルター設定を適用するには、2つのステップを使�
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:53
 msgid "**set** the filter name and criteria"
-msgstr ""
-"フィルター名と基準を**set**する"
-""
+msgstr "フィルター名と基準を**set**する"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:54
 msgid "**add** that filter to the existing Processor"
@@ -308,9 +308,7 @@ msgstr "ソートを適用するには、次の2つの手順を使用します�
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:165
 msgid "define the sort name and criteria"
-msgstr ""
-"ソート名と基準を定義します"
-""
+msgstr "ソート名と基準を定義します"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:166
 msgid "apply that sort to the existing Processor"
@@ -372,7 +370,12 @@ msgstr "ソート基準の設定"
 msgid ""
 "A generic pre-sort name works well, since only one sort can be in effect at "
 "a time:"
-msgstr "一般的な事前分類名が適しています、因为一次只能生效一种排序："
+msgstr ""
+"一般的な事前分類名は適していますsince一度にOnly one sort可以被生效：\n"
+"\n"
+"（正確な技術用語を使用し、RST/Sphinxのマークアップを保持するために、「Only one sort可以被生效」は「同時に只一个ソートが有効になることができます」と修正します。）\n"
+"\n"
+"同時に只一个ソートが有効になることができます。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:219
 msgid ""
@@ -426,7 +429,7 @@ msgstr ""
 msgid ""
 "Use your own custom values, only from the RGB Color Space.  See the separate"
 " tutorial page called **Color Spaces**."
-msgstr "ご自身のカスタム値を使用し、RGB色空間のみから値を選択してください。別途提供的的教程页面名为**色空间**。"
+msgstr "自分のカスタム値を使用し、RGB色情報だけから設定してください。別途参照ページの**色空間**をご覧ください。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:276
 msgid "boxFit Corners"
@@ -488,7 +491,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:330
 msgid "Contour Vertices"
-msgstr "コンターボ用微信中的“轮廓顶点”一词来描述，因此保持原文即可。"
+msgstr "輪郭頂点"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:332
 msgid ""
@@ -657,14 +660,13 @@ msgid ""
 "declare the variable with the full classname, as shown in the first line "
 "above."
 msgstr ""
-"実際、OnBot Javaでは、他のバージョン（`android.util.Size`）がOpModeで使用されていない場合でも、このバージョンのインポートは許可されません。代わりに、上の最初の行のように完全なクラス名 `android.util.Size` を使用して変数を宣言してください。"
-""
+"実際、OnBot "
+"Javaでは、他のバージョン（`android.util.Size`）がOpModeで使用されていない場合でも、このバージョンのインポートは許可されません。代わりに、上の最初の行のように完全なクラス名"
+" `android.util.Size` を使用して変数を宣言してください。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:477
 msgid "Horizontal Rectangle"
-msgstr ""
-"Horizontal Rectangle"
-""
+msgstr "Horizontal Rectangle"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:479
 msgid ""

@@ -299,7 +299,7 @@ msgid ""
 "mobile you can usually just use two fingers to zoom the image (as long as "
 "you don't have a physical disability with your fingers)."
 msgstr ""
-"幅は通常、画像がページの幅を埋め尽くさないようにするためのもので、HTMLやPDFでは大抵の場合良好な表示になります。しかし、モバイルブラウザで見ると画像が小さすぎて確認しにくくなることがあります。例えば、幅50%は大きな画面で見ても問題ありませんが、モバイルブラウザでの縦向き表示では画像の幅はスクリーンの半分ほどになるため、確認しづらくなります。しかし、モバイルデバイスでは通常、二本の指で画像をズームインさせることができます（ただし、手指に物理的な障害がある場合はこの操作ができないこともあります）。"
+"幅は通常、画像がページの幅を埋めるのを防ぐために使用され、HTMLやPDFでは大抵はこれで問題ありません。しかし、モバイルブラウザで見ると画像が小さすぎて確認しにくいことがあります。例えば、幅50％は大きな画面で見ても問題ありませんが、モバイルブラウザでの縦向き表示では画面の半分ほどの幅になります。しかし、モバイルでは通常、二本の指で画像をズームインさせることができます（ただし、手指に物理的な障害がない場合に限ります）。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:120
 msgid ""
@@ -659,7 +659,8 @@ msgid ""
 "the directive. A blank line is required between the ``:alt:`` and the "
 "caption."
 msgstr ""
-"``:alt:`` 行とキャプションはディレクティブの後ろに3スペースインデントされています。``:alt:`` とキャプション之间必须有一行空格。"
+"注意してください。``:alt:`` 行とキャプションは、ディレクティブの後ろに3スペースインデントされています。``:alt:`` "
+"とキャプションの間には空白行が必要です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:273
 msgid ""

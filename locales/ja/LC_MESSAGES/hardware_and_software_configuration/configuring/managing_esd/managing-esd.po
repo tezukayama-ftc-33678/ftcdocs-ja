@@ -67,9 +67,10 @@ msgid ""
 "and David Thompson) for assisting in testing some of these mitigation "
 "techniques under the hot desert sun!"
 msgstr ""
-"ESDによる問題を模擬し、この現象によって生じるリスクを軽減するための異なる技術を評価するために尽力したDoug Chinさん、Eric Chinさん、Greg Szczeszynskiさんへの特別な感謝を表します。また、これらの軽減技術を熱々の砂漠の下でテストする際の支援にご協力いただいたFIRST Tech Challengeチーム2844、8081、10523、10523a、10984およびアリゾナからのボランティアチーム（ロバート・ガルドーノさん、スーザン・ガルドーノさん、リチャード・ゴメスさん、マ修・レインイさん、クリスティーン・サピオさん、パトリシア・ストラウネスさん、そしてデビッド・可以更好对原文进行一些调整，使其更加自然流畅：\n"
-"\n"
-"特別な感謝を表します。Doug Chinさん、Eric Chinさん、Greg Szczeszynskiさんには、ESDによる問題を模擬し、この現象によって生じるリスクを軽減するための異なる技術を評価するために尽力していただきました。また、アリゾナからのボランティアチーム（ロバート・ガルドーノさん、スーザン・ガルドーノさん、リチャード・ゴメスさん、マ修・レインイさん、クリスティーン・サピオさん、パトリシア・ストラウネスさん、デビッド・トーマスさんを含む）には、これらの軽減技術を熱々の砂漠の下でテストする際の支援にご協力いただきました。FIRST Tech Challengeチーム2844、8081、10523、10523a、10984にも感謝いたします。"
+"特別な感謝を表すならば、Doug Chin、Eric Chin、そしてGreg "
+"Szczeszynskiに感謝します。彼らはESDによって引き起こされる問題をモデル化し、この現象によるリスクを軽減するための異なる技術を評価しました。また特別な感謝を送るなら、FIRST"
+" Tech "
+"Challengeチーム2844、8081、10523、10523a、10984、そしてアリゾナからのボランティアチーム（ロバート・ガルドノ、スーザン・ガルドノ、リチャード・ゴメス、マ修・レインリー、クリスティーネ・サピオ、パトリシア・ストーンズ、そしてデイビッド・トミソンを含む）に感謝します。彼らはこれらのリスク軽減技術の一部を熱気球の下でテストするのに協力しました！"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:30
 msgid "What is an Electrostatic Discharge Event?"
@@ -440,7 +441,7 @@ msgid ""
 "potential and trigger an ESD event. Wooden bumpers, electrical tape, and "
 "other non-conductive coatings are all effective."
 msgstr ""
-"また、電気絶縁材で金属フレームの露出した部分を覆うこともESD対策の一つです。ロボットの導電性の外表面に非導電性素材で覆いをかけることで、異なる電位の导电物体と触れることによるESDイベントを引き起こすリスクが低減されます。木製の衝突防止装置、電気テープ、その他の非導電性コーティングはすべて効果的です。"
+"また、ESD（静電気放电）対策の一つとして、金属フレーム部品の露出した部分に絶縁性材料で覆う方法があります。ロボットの導電性の外表面を非導電性の材料で覆うことにより、異なる電位を持つ導電物体と接触してESDイベントが引き起こされるリスクを減らすことができます。木製の衝突防止装置、電気テープ、その他の非導電性コーティングはすべて効果的です。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:247
 msgid ""

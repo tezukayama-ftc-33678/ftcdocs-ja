@@ -93,12 +93,13 @@ msgid ""
 "**AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection "
 "(TFOD)** – at the same time!"
 msgstr ""
-"For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of **AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection (TFOD)** – at the same time!"
-""
+"For **FTC Blocks and Java** teams, VisionPortal offers key capabilities of "
+"**AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection "
+"(TFOD)** – at the same time!"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
 msgid "Dual Detection"
-msgstr "双方向検出"
+msgstr "デュアル検出"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:16
 msgid "Dual Preview with both AprilTags and TensorFlow"
@@ -214,9 +215,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:105
 msgid "Much credit to"
-msgstr ""
-"Much credit to"
-""
+msgstr "Much credit to"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:107
 msgid "EasyOpenCV developer `@Windwoes <https://github.com/Windwoes>`__"

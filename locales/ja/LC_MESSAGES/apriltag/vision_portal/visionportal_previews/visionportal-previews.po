@@ -61,9 +61,9 @@ msgstr "**カメラストリーム** はドライバーステーション（DS�
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
 msgid ""
-"LiveView refers only to the Robot Controller preview (example shown "
-"above). It’s completely separate from **DS Camera Stream**, which still "
-"operates normally even if LiveView is stopped (manually or automatically)."
+"LiveView refers only to the Robot Controller preview (example shown above). "
+"It’s completely separate from **DS Camera Stream**, which still operates "
+"normally even if LiveView is stopped (manually or automatically)."
 msgstr ""
 "LiveViewは、**ロボットコントローラー**のプレビュー（上記の例参照）に限定されます。LiveViewが停止された場合（手動または自動で）、**ドライバーステーションカメラストリーム**は通常通り動作します。"
 
@@ -92,7 +92,7 @@ msgstr ""
 msgid ""
 "Side Note: For SDK 8.2, “LiveView” became the new universal name for the RC "
 "preview. There remain two instances of old names:"
-msgstr "サイドノート：SDK 8.2では、「LiveView」がRCプレビューの新しい普遍的な名前になった。旧名称はまだ2箇所存在している："
+msgstr "サイドノート：SDK 8.2では、「LiveView」がRCプレビューの新しい普遍的な名前になりました。古い名称はまだ2箇所存在しています："
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:40
 msgid "``myVisionPortalBuilder.enableCameraMonitoring(true);``"
@@ -184,9 +184,7 @@ msgstr "カメラストリームプレビューの拡大ボタン"
 msgid ""
 "**Circled in yellow** are the user buttons to **go BIG** or return to the "
 "**default** screen."
-msgstr ""
-"**黄で囲まれた**のはユーザーが**BIGへ進む**か、もとの**デフォルト**画面に戻るボタンです。"
-""
+msgstr "**黄で囲まれた**のはユーザーが**BIGへ進む**か、もとの**デフォルト**画面に戻るボタンです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:90
 msgid "Note the annotations have shifted to fit in the image."
@@ -217,7 +215,7 @@ msgstr ""
 msgid ""
 "SENSOR_NATIVE is ideal because the overhead of rotating the image stream is "
 "rather high."
-msgstr "SENSOR_NATIVEは適している因为将图像流旋转的开销相对较高。"
+msgstr "SENSOR_NATIVE は理想的です。画像ストリームを回転させるオーバヘッドが比較的高いためです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:106
 msgid ""

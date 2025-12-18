@@ -116,7 +116,9 @@ msgid ""
 "available directly to the Blocks user, **without creating a myBlock**. This "
 "can be done, if the library is specially annotated by its author."
 msgstr ""
-"** ステップ3C ** は、ライブラリメソッドをブロックユーザーに直接利用可能にする異なるシナリオです。これには、ライブラリが著者が特別に注釈を付けていない限り、** myBlockを作成せずに ** 行うことができます。"
+"** ステップ3C ** "
+"は、ライブラリメソッドをブロックユーザーに直接利用可能にする異なるシナリオです。これには、ライブラリが著者が特別に注釈を付けていない限り、** "
+"myBlockを作成せずに ** 行うことができます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:57
 msgid "Step 1 - Select library, get archive file"
@@ -255,8 +257,10 @@ msgid ""
 "they work, including the inputs and outputs (and their Java types). This "
 "tutorial does not offer Java programming instruction."
 msgstr ""
-"First import the class. You know the **class name** because you read about it in the library documentation. And you know the **method names** and how they work, including the inputs and outputs (and their Java types). This tutorial does not offer Java programming instruction."
-""
+"First import the class. You know the **class name** because you read about "
+"it in the library documentation. And you know the **method names** and how "
+"they work, including the inputs and outputs (and their Java types). This "
+"tutorial does not offer Java programming instruction."
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:135
 msgid ""
@@ -270,7 +274,8 @@ msgid ""
 " not. It depends on the functionality you want to provide to your Blocks "
 "programmer."
 msgstr ""
-"** ステップ3B ** では、myBlockを作成します。このmyBlockはライブラリメソッドを変更することができるか、それとも変更しないかは、Blocksプログラマに提供したい機能によって決まります。"
+"** ステップ3B ** "
+"では、myBlockを作成します。このmyBlockはライブラリメソッドを変更することができるか、それとも変更しないかは、Blocksプログラマに提供したい機能によって決まります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:142
 msgid ""
@@ -278,7 +283,8 @@ msgid ""
 "using exactly the same inputs and outputs. This might be called a *wrapper "
 "method*."
 msgstr ""
-"** 未変更 ** とは、あなたのmyBlockがライブラリメソッドをそのまま呼び出し、同じ入力と出力を使用することを意味します。これは「ラッパーメソッド」と呼ばれることがあります。"
+"** 未変更 ** "
+"とは、あなたのmyBlockがライブラリメソッドをそのまま呼び出し、同じ入力と出力を使用することを意味します。これは「ラッパーメソッド」と呼ばれることがあります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:146
 msgid ""
@@ -286,7 +292,9 @@ msgid ""
 "specific task in or for your larger myBlock method. In other words, your "
 "myBlock **supplements** what the library method can do."
 msgstr ""
-"または、ライブラリメソッドを** ユーティリティ関数 **として使用して、より大きなmyBlockメソッド内で特定のタスクを実行できます。つまり、your myBlockはライブラリメソッドが行えること** 補完 **します。"
+"または、ライブラリメソッドを** ユーティリティ関数 "
+"**として使用して、より大きなmyBlockメソッド内で特定のタスクを実行できます。つまり、your myBlockはライブラリメソッドが行えること**"
+" 補完 **します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:150
 msgid ""
@@ -314,8 +322,8 @@ msgid ""
 "For more info, see the separate myBlock tutorial :ref:`here "
 "<programming_resources/shared/myblocks/index:custom blocks (myblocks)>`."
 msgstr ""
-"For more info, see the separate myBlock tutorial :ref:`here <programming_resources/shared/myblocks/index:custom blocks (myblocks)>`."
-""
+"For more info, see the separate myBlock tutorial :ref:`here "
+"<programming_resources/shared/myblocks/index:custom blocks (myblocks)>`."
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:164
 msgid ""
@@ -371,9 +379,7 @@ msgstr "これらの3つのシナリオの例については、さらに下記�
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:192
 msgid "User Training & Documentation"
-msgstr ""
-"User Training & Documentation"
-""
+msgstr "User Training & Documentation"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:194
 msgid ""
@@ -426,7 +432,6 @@ msgid ""
 "programming."
 msgstr ""
 "次に、チームの更多的メンバーはロボットのブロックプログラミングを続けられます。一方で、他の学生（あなたも含め）がJavaスキルを向上させたい場合は、実際のロボットプログラミングに貢献しながら進行することができます。"
-""
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:228
 msgid ""
@@ -452,8 +457,7 @@ msgid ""
 "entrepreneurs – nobody needs to reinvent the wheel. Professional life is "
 "built on these interactions."
 msgstr ""
-"第三の恩恵として、審判員たちはアウトリーチについて聞くのが大好きです。例えば、あなたのチームは初心者チームのために有用なブロックを開発することもできます。「INIT」や「START」といったボタン名はそのままに、「BEGINNER」や「ADVANCED」などのチーム名は翻訳します。また、同じ種類の開発を行っている他の上級チームとアイデアやヒントを共有することも可能です。そして、図書館開発者とのコミュニケーションが奨励されます。これは実世界での専門家との交流の良い機会です：あなたのニーズを共有し、専門的な指導を受けます。科学者、技術者、医師、起業家など"
-" - 何人かはこの輪を再発明する必要はありません。プロフェッショナルな生活はこれらの交流によって築かれています。"
+"第三の恩恵として、審判員たちはアウトリーチについて聞くのが大好きです。例えば、あなたのチームは初心者チームのために有用なBlocksを開発することができます。また、同じ種類の開発を行っている他の上級チームとアイデアやヒントを共有することも可能です。さらに、ライブラリ開発者とのコミュニケーションが奨励されます。これは実世界での専門家との交流の良い機会です：あなたのニーズを共有し、専門的な指導を受けることができます。科学者、エンジニア、医師、起業家など、誰も車輪を再発明する必要はありません。プロフェッショナルな生活はこれらの交流によって築かれています。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:247
 msgid "Example 1 - non-annotated library"
@@ -465,8 +469,9 @@ msgid ""
 "OBJ. To get your own copy, click :download:`here "
 "<opmodes/GeometryForObj.jar>`."
 msgstr ""
-"最初の例では、オブジェクト用の基本的な「手作り」ライブラリである「幾何学 For OBJ」を使用しています。自分のコピーを入手するには、:download:`here <opmodes/GeometryForObj.jar>` をクリックしてください。"
-""
+"最初の例では、オブジェクト用の基本的な「手作り」ライブラリである「幾何学 For "
+"OBJ」を使用しています。自分のコピーを入手するには、:download:`here <opmodes/GeometryForObj.jar>` "
+"をクリックしてください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:252
 msgid ""
@@ -571,9 +576,7 @@ msgstr "myBlocksのジオメトリーライブラリを使用したテレメト�
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:335
 msgid "Example 2 - *FIRST* Tech Challenge-annotated library"
-msgstr ""
-"例 2 - *FIRST* Tech Challenge-注釈付きライブラリ"
-""
+msgstr "例 2 - *FIRST* Tech Challenge-注釈付きライブラリ"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:337
 msgid ""
@@ -618,8 +621,9 @@ msgid ""
 "this library or its methods; that’s done automatically by OnBot Java when it"
 " processes the library at upload."
 msgstr ""
-"あなたはOnBot Javaでこれらのメソッドを使用する**こともできます**。myBlockを作成するためにも使用できます。例えば、通過メソッドのカスタムバージョンを提供したい場合があります。しかし、このライブラリやそのメソッドをサポートするためには、OnBot Javaファイル**は必要ありません**；それはアップロード時にライブラリを処理する際にOnBot Javaによって自動的に実行されます。"
-""
+"あなたはOnBot "
+"Javaでこれらのメソッドを使用する**こともできます**。myBlockを作成するためにも使用できます。例えば、通過メソッドのカスタムバージョンを提供したい場合があります。しかし、このライブラリやそのメソッドをサポートするためには、OnBot"
+" Javaファイル**は必要ありません**；それはアップロード時にライブラリを処理する際にOnBot Javaによって自動的に実行されます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:362
 msgid ""
@@ -642,11 +646,11 @@ msgid ""
 "``subtract``, ``multiply``, and ``divide``. Each accepts two integers and "
 "provides an integer result."
 msgstr ""
-":download:`JniExample.aar "
-"<opmodes/JniExample.aar>` には、ネイティブC++コードで実装された基本的な算術演算のメソッドを持つクラス "
-"`` com.example.google.ftc.IntegerMath `` が含まれています。公開メソッドは "
-"`` add ``（加算）、`` subtract ``（減算）、`` multiply ``（乗算）、および "
-"`` divide ``（除算）です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
+":download:`JniExample.aar <opmodes/JniExample.aar>` "
+"には、ネイティブC++コードで実装された基本的な算術演算のメソッドを持つクラス `` "
+"com.example.google.ftc.IntegerMath `` が含まれています。公開メソッドは `` add ``（加算）、`` "
+"subtract ``（減算）、`` multiply ``（乗算）、および `` divide "
+"``（除算）です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:375
 msgid ""
@@ -660,10 +664,10 @@ msgid ""
 "Input Devices and choose ``REV Potentiometer``. It has a public method "
 "``getRotation`` with parameter of type AngleUnit."
 msgstr ""
-":download:`RevPotentiometer.aar <opmodes/RevPotentiometer.aar>` には、クラス "
-"`` com.example.google.ftc.RevPotentiometer `` が含まれており、これは `REV Potentiometer "
-"<https://www.revrobotics.com/rev-31-1155/>`__ のハードウェアデバイスクラスです。このセンサーは "
-"`` AnalogSensorType `` および `` DeviceProperties `` "
+":download:`RevPotentiometer.aar <opmodes/RevPotentiometer.aar>` には、クラス `` "
+"com.example.google.ftc.RevPotentiometer `` が含まれており、これは `REV Potentiometer "
+"<https://www.revrobotics.com/rev-31-1155/>`__ のハードウェアデバイスクラスです。このセンサーは `` "
+"AnalogSensorType `` および `` DeviceProperties `` "
 "アノテーションを使用して、RCアプリケーションまたはペアリングされたDSアプリケーションの「ロボットを構成」メニューに表示されます。.aarファイルがアップロードされ（そして"
 " `` Build Everything `` が実行された後）、ロボットのアナログ入力デバイスを構成し、「REV "
 "Potentiometer」を選択します。このクラスには、AngleUnit型のパラメータを持つ公開メソッド `` getRotation `` "
@@ -746,7 +750,8 @@ msgstr ""
 msgid ""
 "So, be prepared for these and other challenges that may arise. Again, it’s "
 "helpful to communicate with the library developer where possible."
-msgstr "そこで、これらの問題以及其他可能发生的挑战，请做好准备。尽可能与库开发者沟通，这会很有帮助。"
+msgstr ""
+"これらのチャレンジや他の予期せぬ問題に対処する準備を整えてください。また、開発者の都合が許す限り、コミュニケーションを取ることは役立ちます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:431
 msgid "Advanced"

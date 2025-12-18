@@ -97,8 +97,8 @@ msgid ""
 "Don’t know which IMU you have? Check the **Manage** page under ``Program & "
 "Manage`` in any of these places:"
 msgstr ""
-"Don’t know which IMU you have? Check the **Manage** page under ``Program & Manage`` in any of these places:"
-""
+"Don’t know which IMU you have? Check the **Manage** page under ``Program & "
+"Manage`` in any of these places:"
 
 #: ../../source/programming_resources/imu/imu.rst:38
 msgid "connected Driver Station (DS) app"
@@ -150,7 +150,7 @@ msgstr "SDK 8.1 のREADMEはより詳細な技術的な背景情報を提供し�
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "Unlike the old ``BNO055IMU`` interface, which only worked correctly when the"
-msgstr "旧い ``BNO055IMU`` インターフェースとは異なり、これは古いインターフェースが正しく動作するためだけに使用できていたのに対し、"
+msgstr "古い ``BNO055IMU`` インターフェースとは異なり、これは正しく動作するためには特定の条件が必要ではありませんです。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
@@ -230,9 +230,7 @@ msgstr "注意深くドキュメントに従ってください。"
 
 #: ../../source/programming_resources/imu/imu.rst:80
 msgid "Potential Usage"
-msgstr ""
-" Potential Usage"
-""
+msgstr " Potential Usage"
 
 #: ../../source/programming_resources/imu/imu.rst:82
 msgid ""
@@ -377,8 +375,8 @@ msgid ""
 " Blocks and Java. You may enter a custom name here, but you must then "
 "**update** all your OpModes that reference the IMU."
 msgstr ""
-"**紫**: デフォルトのデバイス名は「imu」で、ブロックとJavaのすべてのサンプルオモードで使用されます。ここにカスタム名を入力できますが、その後はIMUを参照しているすべてのオモードを**更新**する必要があります。"
-""
+"**紫**: "
+"デフォルトのデバイス名は「imu」で、ブロックとJavaのすべてのサンプルオモードで使用されます。ここにカスタム名を入力できますが、その後はIMUを参照しているすべてのオモードを**更新**する必要があります。"
 
 #: ../../source/programming_resources/imu/imu.rst:155
 msgid "When done, **save** and **activate** this configuration."
@@ -402,25 +400,23 @@ msgid ""
 "Robot orientation is defined using the Robot Coordinate System, with 3 axes "
 "that are **orthogonal** (at 90 degrees to each other), with origin inside "
 "the robot."
-msgstr ""
-"ロボットの向きは、ロボット座標系を使用して定義され、3つの軸が**直交**（お互いに90度の角度を成す）で、原点はロボット内にある。"
-""
+msgstr "ロボットの向きは、ロボット座標系を使用して定義され、3つの軸が**直交**（お互いに90度の角度を成す）で、原点はロボット内にある。"
 
 #: ../../source/programming_resources/imu/imu.rst:171
 msgid ""
 "You must decide which face or direction is **“forward”** on your robot "
 "(which could be round!)."
 msgstr ""
-"You must decide which face or direction is **\"forward\"** on your robot (which could be round!)."
-""
+"You must decide which face or direction is **\"forward\"** on your robot "
+"(which could be round!)."
 
 #: ../../source/programming_resources/imu/imu.rst:175
 msgid ""
 "Placing a tape label “FRONT” at the **team-agreed front face** or front edge"
 " of the robot can avoid confusion later – really!"
 msgstr ""
-"Placing a tape label “FRONT” at the **team-agreed front face** or front edge of the robot can avoid confusion later – really!"
-""
+"Placing a tape label “FRONT” at the **team-agreed front face** or front edge"
+" of the robot can avoid confusion later – really!"
 
 #: ../../source/programming_resources/imu/imu.rst:178
 msgid ""
@@ -451,9 +447,7 @@ msgid ""
 "Rotation follows the traditional **right-hand rule**: with the thumb "
 "pointing along the positive axis, the fingers curl in the direction of "
 "**positive** rotation."
-msgstr ""
-"回転は伝統的な **右の親指の規則** に従います：親指が正の軸方向を向いているとき、指が **正の** 回転方向へと曲がります。"
-""
+msgstr "回転は伝統的な **右の親指の規則** に従います：親指が正の軸方向を向いているとき、指が **正の** 回転方向へと曲がります。"
 
 #: ../../source/programming_resources/imu/imu.rst:195
 msgid ""
@@ -488,8 +482,8 @@ msgid ""
 "mounting the Hub on the robot. In general, the Hub’s mounting can be "
 "considered **Orthogonal** or **Non-Orthogonal**."
 msgstr ""
-"プログラミングに飛び込む前に、ロボットにHubを物理的に取り付ける方法について話し合いましょう。一般的には、Hubの取り付けは**Orthogonal**または**Non-Orthogonal**と考慮できます。"
-""
+"プログラミングに飛び込む前に、ロボットにHubを物理的に取り付ける方法について話し合いましょう。一般的には、Hubの取り付けは**Orthogonal**または**Non-"
+"Orthogonal**と考慮できます。"
 
 #: ../../source/programming_resources/imu/imu.rst:218
 msgid "Orthogonal Mounting"
@@ -627,7 +621,6 @@ msgid ""
 "(clockwise or counter-clockwise, looking at the logo)."
 msgstr ""
 "Hubは、仮想の立方体の面から一定の傾斜角度で取り付けられています。その単一の傾斜角度では、Hubは平面内（ロゴを向いて見たときの時計回りまたは反時計回り）に回転していません。"
-""
 
 #: ../../source/programming_resources/imu/imu.rst:402
 msgid ""
@@ -651,10 +644,8 @@ msgid ""
 "types of IMU. Once configured, the IMU type will not affect your "
 "programming. The programming steps include:"
 msgstr ""
-"SDK 8.1 では、両方のタイプの IMU に **普遍的に** 適用される新しいクラスとメソッドが提供されています。IMU の設定を行った後は、IMU の型はプログラミングには影響しません。プログラミング手順は以下の通りです："
-""
-"SDK 8.1では、両方のタイプのIMUに**普遍的に**適用される新しいクラスとメソッドが提供されています。設定完成后，IMU类型将不会影响您的编程。プログラミング手順は以下の通りです："
-""
+"SDK 8.1 "
+"では、両方のタイプのIMUに対して**普遍的に**新しいクラスとメソッドが提供されています。構成完成后，IMUタイプはプログラミングに影響しません。プログラミング手順は以下の通りです："
 
 #: ../../source/programming_resources/imu/imu.rst:416
 msgid "set the IMU **parameters**, or use defaults"
@@ -833,8 +824,10 @@ msgid ""
 "The new SDK 8.1 universal IMU driver uses the above Hub axes for BNO055 and "
 "BHI260AP."
 msgstr ""
-"The legacy ``BNO055IMU`` driver uses **different Hub axes**: its X axis pointed to the USB port, and Y axis pointed to the left-side motor ports. The new SDK 8.1 universal IMU driver uses the above Hub axes for BNO055 and BHI260AP."
-""
+"The legacy ``BNO055IMU`` driver uses **different Hub axes**: its X axis "
+"pointed to the USB port, and Y axis pointed to the left-side motor ports. "
+"The new SDK 8.1 universal IMU driver uses the above Hub axes for BNO055 and "
+"BHI260AP."
 
 #: ../../source/programming_resources/imu/imu.rst:534
 msgid "Parameters for Method 2, Angles"
@@ -868,10 +861,8 @@ msgid ""
 "rotations in that order. Thus the “first angle” is the Z axis, the “second "
 "angle” is the Y axis, and the “third angle” is the X axis."
 msgstr ""
-"リストされたデフォルトの2番目は ZYX で、这意味着您将以这种顺序提供 Hub 的旋转角度。因此，“第一个角度”是 Z 轸，“第二个角度”是 Y 轸，“第三个角度”是 X 轸。\n"
-"\"\"\"\n"
-"\n"
-"（注：原文のままの表現を保持するために、「这意味着」などの訳語は使用せず、原文の意味を直接翻訳しています。また、文中に含まれる「Z」「Y」「X」などの軸名は原文のままです。）"
+"第二にリストされているデフォルトは ZYX で、これによりハブの回転はその順序で提供されます。したがって「最初の角度」は Z 軸、「二番目の角度」は Y"
+" 軸、「三番目の角度」は X 軸です。"
 
 #: ../../source/programming_resources/imu/imu.rst:557
 msgid ""
@@ -894,8 +885,11 @@ msgid ""
 "side. Note the **X and Y axes have also rotated CCW**, since they are "
 "INTRINSIC (described below)."
 msgstr ""
-"From logo-up/USB-forward, this example starts with a “first angle” rotation of **+90 degrees about the Z axis**. Namely, the Hub rotates counter-clockwise (CCW), ending with the USB ports pointing to the robot’s left side. Note the **X and Y axes have also rotated CCW**, since they are INTRINSIC (described below)."
-""
+"From logo-up/USB-forward, this example starts with a “first angle” rotation "
+"of **+90 degrees about the Z axis**. Namely, the Hub rotates counter-"
+"clockwise (CCW), ending with the USB ports pointing to the robot’s left "
+"side. Note the **X and Y axes have also rotated CCW**, since they are "
+"INTRINSIC (described below)."
 
 #: ../../source/programming_resources/imu/imu.rst:571
 msgid "The “second angle” rotation is **0 degrees, no action**."
@@ -1028,9 +1022,7 @@ msgstr ""
 msgid ""
 "The IMU should be motionless during its initialization process. The OpMode "
 "will continue when initialization is complete."
-msgstr ""
-"IMUは初期化プロセス中は動きがありません。初期化が完了したら、OpModeが継続します。"
-""
+msgstr "IMUは初期化プロセス中は動きがありません。初期化が完了したら、OpModeが継続します。"
 
 #: ../../source/programming_resources/imu/imu.rst:757
 msgid ""
@@ -1059,9 +1051,7 @@ msgstr "IMUを直接初期化"
 
 #: ../../source/programming_resources/imu/imu.rst:778
 msgid "Initializing the IMU directly"
-msgstr ""
-"IMUの初期化"
-""
+msgstr "IMUの初期化"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "Initialize IMU using Parameters"
@@ -1187,9 +1177,7 @@ msgstr "上方に（X軸周りに40度回転）。X軸はそのままです。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "moved with the robot, the pitch is not affected by the yaw value. Then"
-msgstr ""
-"ロボットと共に移動した場合、ピッチはヨー値によって影響されません。Then"
-""
+msgstr "ロボットと共に移動した場合、ピッチはヨー値によって影響されません。Then"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
@@ -1581,8 +1569,8 @@ msgid ""
 "The SDK 8.1 provides a universal interface that supports both the BHI260AP "
 "and BNO055 IMU. This basic tutorial introduced some new features:"
 msgstr ""
-"SDK 8.1は、BHI260APとBNO055のIMUを両方サポートする universal インターフェースを提供します。この基本的なチュートリアルでは、いくつかの新しい機能が紹介されています："
-""
+"SDK 8.1は、BHI260APとBNO055のIMUを両方サポートする universal "
+"インターフェースを提供します。この基本的なチュートリアルでは、いくつかの新しい機能が紹介されています："
 
 #: ../../source/programming_resources/imu/imu.rst:1184
 msgid "new Blocks and Java methods to read data from both IMU types"

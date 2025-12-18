@@ -122,8 +122,8 @@ msgstr "**プロセッサ** \\\"レベル2\\\"：リソースの使用量をさ�
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:33
 msgid ""
-"Camera Stream \"Level 3\": high reduction of resources used, resumes "
-"less quickly after stopping"
+"Camera Stream \"Level 3\": high reduction of resources used, resumes less "
+"quickly after stopping"
 msgstr "**カメラストリーム** \"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:34
@@ -149,12 +149,9 @@ msgid ""
 "Repeated from the **Camera Controls** page, these camera states are now "
 "available:"
 msgstr ""
-"繰り返し表示される **Camera Controls** ページからのカメラ状態は、現在利用可能になりました："
-""
-"繰り返し表示される **Camera Controls** ページからのカメラ状態は、現在利用可能になりました："
-""
-"繰り返し表示される **Camera Controls** ページからのカメラ状態は、現在利用可能になりました："
-""
+"繰り返し表示される **Camera Controls** ページからのカメラ状態は、現在利用可能になりました：繰り返し表示される **Camera "
+"Controls** ページからのカメラ状態は、現在利用可能になりました：繰り返し表示される **Camera Controls** "
+"ページからのカメラ状態は、現在利用可能になりました："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:45
 msgid "OPENING_CAMERA_DEVICE - No vision processing is happening."
@@ -262,8 +259,7 @@ msgid ""
 "Side Note: For SDK 8.2, \"LiveView\" became the new universal name for the "
 "RC preview. There remain two instances of old names:"
 msgstr ""
-"サイドノート：SDK "
-"8.2では、「LiveView」がRCプレビューの新しい普遍的な名称となりました。旧名称はまだ2つのインスタンスで使用されています："
+"サイドノート：SDK 8.2では、「LiveView」がRCプレビューの新しい普遍的な名称となりました。古い名称はまだ2つのインスタンスで使用されています："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:88
 msgid ""
@@ -310,11 +306,7 @@ msgstr "LiveViewの切り替え例"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst
 msgid "Java"
-msgstr ""
-"Java"
-""
-"Java"
-""
+msgstr "JavaJava"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:124
 msgid ""
@@ -330,13 +322,7 @@ msgstr "上記のコマンドはリアルタイムビューのみを切り替え
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:131
 msgid "Pause LiveView - Indirect"
-msgstr ""
-"Pause LiveView - Indirect"
-""
-"Pause LiveView - Indirect"
-""
-"Pause LiveView - 間接"
-""
+msgstr "Pause LiveView - IndirectPause LiveView - IndirectPause LiveView - 間接"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:133
 msgid ""
@@ -351,7 +337,6 @@ msgid ""
 "feature cannot be directly toggled ``true`` and ``false`` during the OpMode."
 msgstr ""
 "この設定は、両方のプロセッサー（AprilTagとTFOD）が無効にされた場合にLiveViewを**自動的に停止**します。Builderパターンの一環として、この機能はオペレーションモード中に直接TrueやFalseとして切り替えることはできません。"
-""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:144
 msgid ""
@@ -608,7 +593,7 @@ msgid ""
 " based on **CPU resources**, measuring effects on **frame rate** could "
 "indirectly reflect CPU resource status/consumption/capacity."
 msgstr ""
-"ビジョンポータルは、フレームレートを最大化するために自動的に最適化されます。処理されたフレーム数每秒（FPS）の数値です。この最適化が**CPUリソース**に基づいていると仮定すると、**フレームレート**への影響を測定することで、间接的に**CPUリソースの状態/消費量/容量**を反映することができるかもしれません。"
+"VisionPortalは自動的に最適化され、1秒間の処理フレーム数（FPS）が最大になるようにします。この最適化がCPUリソースに基づいている場合、フレームレートに及ぼす影響を測定することで、CPUリソースの状態/消費量/容量を間接的に反映することが可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:348
 msgid ""
@@ -644,9 +629,7 @@ msgid ""
 "Before discussing Streaming Formats, we should mention that **USB "
 "Bandwidth** can be a concern for **dual webcams**."
 msgstr ""
-"ストリーミングフォーマットについて議論する前に、**USB帯域幅** が**ダブルウェブカム**对于双摄像头，USB带宽可能会成为一个问题。\n"
-"\"\"\"\n"
-"注：原文の文末の句読点が欠落しているため、日本語訳でも適切な位置に追加しました。原文の意図を尊重しつつ、自然な日本語表現に調整しています。"
+"ストリーミングフォーマットについて議論する前に、**USB帯域幅**が**デュアルウェブカメラ**では問題になる可能性があることに言及する必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:370
 msgid ""
@@ -665,10 +648,11 @@ msgid ""
 "bandwidth capacity, although higher resolution can cause the auto-optimized "
 "frame rate to reduce."
 msgstr ""
-"For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and USB 3.0 ports are on different buses. This reduces the concern about bandwidth capacity, although higher resolution can cause the auto-optimized frame rate to reduce."
-""
-"デュアルウェブカム**がコントロールハブに直接接続**されている場合、USB 2.0ポートとUSB 3.0ポートは異なるバスにあります。これにより帯域幅の容量に関する懸念が軽減されるものの、高解像度では自動最適化されたフレームレートが低下する可能性があります。"
-""
+"For dual webcams **plugged directly into the Control Hub**, the USB 2.0 and "
+"USB 3.0 ports are on different buses. This reduces the concern about "
+"bandwidth capacity, although higher resolution can cause the auto-optimized "
+"frame rate to reduce.デュアルウェブカム**がコントロールハブに直接接続**されている場合、USB 2.0ポートとUSB "
+"3.0ポートは異なるバスにあります。これにより帯域幅の容量に関する懸念が軽減されるものの、高解像度では自動最適化されたフレームレートが低下する可能性があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:380
 msgid ""
@@ -676,8 +660,8 @@ msgid ""
 "little impact.  But the USB 2.0 bus also carries the Control Hub's **WiFi "
 "radio**; adding a webcam may affect its reliability."
 msgstr ""
-"Control Hubの2つのUSBポートを使用していれば、ストリームフォーマットの選択はほとんど影響ありません。しかし、USB 2.0バスはControl Hubの**WiFiラジオ**も運転しています；ウェブカメラを追加すると、その信頼性に影響を与える可能性があります。"
-""
+"Control Hubの2つのUSBポートを使用していれば、ストリームフォーマットの選択はほとんど影響ありません。しかし、USB "
+"2.0バスはControl Hubの**WiFiラジオ**も運転しています；ウェブカメラを追加すると、その信頼性に影響を与える可能性があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:384
 msgid ""
@@ -773,14 +757,11 @@ msgstr "CPUの過負荷を避ける"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:427
 msgid "avoid USB bandwidth limits"
-msgstr ""
-"USB帯域制限を回避する"
-""
+msgstr "USB帯域制限を回避する"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:428
 msgid "resolution (or aspect ratio) for which calibration values exist"
-msgstr ""
-"Calibration 値が存在する解像度（またはアスペクト比）"
+msgstr "Calibration 値が存在する解像度（またはアスペクト比）"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:429
 msgid "accommodates lighting conditions and any Camera Controls applied"
@@ -809,10 +790,10 @@ msgid ""
 "advanced tools for managing CPU usage. It includes a Test OpMode in Blocks "
 "and Java."
 msgstr ""
-"このトピックは **AprilTag Advanced Use** ページで続き、CPU 使用量の管理に使用する高度なツールについて議論します。Blocks と Java の Test OpMode も含まれます。"
-""
-"このトピックは **AprilTag Advanced Use** のページに続き、CPU 使用量を管理するための高度なツールについて議論します。Block と Java でのテストオペモードも含まれています。"
-""
+"このトピックは **AprilTag Advanced Use** ページで続き、CPU "
+"使用量の管理に使用する高度なツールについて議論します。Blocks と Java の Test OpMode も含まれます。このトピックは "
+"**AprilTag Advanced Use** のページに続き、CPU 使用量を管理するための高度なツールについて議論します。Block と "
+"Java でのテストオペモードも含まれています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:444
 msgid ""

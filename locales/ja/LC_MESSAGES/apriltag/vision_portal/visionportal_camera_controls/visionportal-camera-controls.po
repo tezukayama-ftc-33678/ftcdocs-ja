@@ -143,7 +143,7 @@ msgstr "``ストップ中`` - 處理が行われているかどうかは不明�
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:55
 msgid "``CLOSING_CAMERA_DEVICE`` - no processing is happening"
-msgstr "「カメラデバイスの閉じる」- 任何处理未发生"
+msgstr "``CLOSING_CAMERA_DEVICE`` - 処理が行われていません"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:57
 msgid ""
@@ -190,9 +190,9 @@ msgstr "制御範囲"
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:78
 msgid "Each webcam model has its own level of support for Camera Controls."
 msgstr ""
-"各ウェブカムモデルは、カメラコントロール对于此句，翻译如下：\n"
+"各ウェブカムモデルは、カメラコントロール此句，：\n"
 "\n"
-"各ウェブカメラモデルには、カメラコントロール对于的自身支持水平各有不同。"
+"各ウェブカメラモデルには、カメラコントロール的自身支持水平各有不同。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:80
 msgid ""
@@ -333,12 +333,9 @@ msgstr "露出と連携してゲインを管理できます。"
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:144
 msgid "Actually, in the SDK, Gain **must** be managed with Exposure."
 msgstr ""
-"Actually, in the SDK, Gain **must** be managed with Exposure."
-""
-"Actually, in the SDK, Gain **must** be managed with Exposure."
-""
-"Actually, in the SDK, Gain **must** be managed with Exposure."
-""
+"Actually, in the SDK, Gain **must** be managed with Exposure.Actually, in "
+"the SDK, Gain **must** be managed with Exposure.Actually, in the SDK, Gain "
+"**must** be managed with Exposure."
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:147
 msgid "Shared Blocks"
@@ -383,14 +380,8 @@ msgstr "パンチルホルダ"
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:177
 msgid "Examples of Pan/Tilt Blocks"
 msgstr ""
-"Examples of Pan/Tilt Blocks"
-""
-"Examples of Pan/Tilt Blocks"
-""
-"Examples of Pan/Tilt Blocks"
-""
-"Pan/Tilt Blocks の例"
-""
+"Examples of Pan/Tilt BlocksExamples of Pan/Tilt BlocksExamples of Pan/Tilt "
+"BlocksPan/Tilt Blocks の例"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:179
 msgid ""

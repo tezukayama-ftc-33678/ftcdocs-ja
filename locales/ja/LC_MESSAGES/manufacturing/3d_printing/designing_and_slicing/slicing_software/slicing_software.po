@@ -39,9 +39,7 @@ msgid ""
 " built to work well with Prusa machines, BambuStudio with BambuLab machines,"
 " and AnkerMake's slicer for Anker machines."
 msgstr ""
-"もし普鲁莎（Prusa）、バンブールーラ（BambuLab）、アンカーMAKE（AnkerMake）のプリンタを使用している場合、まずこれらの会社が提供するソフトウェアを考慮することが大切です。普鲁莎切片软件（PrusaSlicer）は、普鲁莎机器（Prusa"
-" machines）との互換性が高く、バンブース튜dio（BambuStudio）はバンブールーラ机器（BambuLab "
-"machines）との互換性が高いです。また、アンカーMAKEの切片软件是为安克机器（Anker machines）设计的。"
+"普段使用しているプリンタがPrusa、BambuLab、またはAnkerMakeの場合、最初に考慮すべきはそれぞれの企業が提供するソフトウェアです。PrusaSlicerはPrusa機種用に作られており、BambuStudioはBambuLab機種用に設計されています。また、AnkerMakeのスライサーはAnker機種用です。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_software/slicing_software.rst:10
 msgid ""

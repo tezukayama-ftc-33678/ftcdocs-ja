@@ -31,7 +31,7 @@ msgid ""
 "read this, you probably have, but double-check with your friendly FTC "
 "Support person."
 msgstr ""
-"あなたはGitHubアカウントを作成し、このリポジトリ内でトレーニングを行うための適切な権限が与えられていると想定されます。もし今読めているなら、おそらくそのような状況にあると思いますが、信頼できるFTCサポート担当者と再度確認してください。"
+"GitHubアカウントを作成し、このリポジトリ内でトレーニングを行うための適切な権限が与えられていることを想定します。もし今読めているなら、おそらくそうしていると思いますが、信頼できるFTCサポートスタッフと確認してみてください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:9
 msgid ""
@@ -478,8 +478,8 @@ msgid ""
 "The site's ``/source`` root for ``ftcdocs``, similar to ``rST-Primer``, is "
 "in the ``ftcdocs/docs/source`` repository folder."
 msgstr ""
-"サイトの ``/source`` ルート对于 ``ftcdocs``，类似于 ``rST-Primer``，位于 "
-"``ftcdocs/docs/source`` リポジトリフォルダ内。"
+"FTCDocs の ``/source`` ルートは、``rST-Primer`` と同様に ``ftcdocs/docs/source`` "
+"リポジトリフォルダ内にあります。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:237
 msgid ""
@@ -509,7 +509,8 @@ msgid ""
 "Because the content is a single page with high-level content, it is included"
 " within the main site ``index.rst`` file (we'll see *how* it's included a "
 "little later)."
-msgstr "因为内容是单页且包含高级信息，所以将其包含在主站点的 ``index.rst`` 文件中（稍后我们会看到它是如何被包含在内的）。"
+msgstr ""
+"このコンテンツは高レベルの情報を含む単一ページであるため、メインサイトの ``index.rst`` ファイルに含まれています（*どのように*含まれているかは後で説明します）。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:250
 msgid ""

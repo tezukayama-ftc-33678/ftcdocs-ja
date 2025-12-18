@@ -1,0 +1,272 @@
+﻿{
+  "total_failures": 28,
+  "files": [
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_camera_calibration\\apriltag-camera-calibration.po",
+      "failures": [
+        {
+          "line": 173,
+          "status": "entry_not_found"
+        },
+        {
+          "line": 175,
+          "msgid": "a user-specified resolution for which",
+          "msgstr": "ユーザーが指定した解像度对于",
+          "msgid_length": 37,
+          "word_count": 5,
+          "is_fragment": true,
+          "is_long_text": false
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\apriltag_intro\\apriltag-intro.po",
+      "failures": [
+        {
+          "line": 510,
+          "msgid": "Note: the optional red-green-blue annotated axes represent the **tag’s frame of reference**, unrelated to SDK pose data. That annotation indicates only a successful AprilTag recognition.",
+          "msgstr": "注意：任意の赤緑青注釈付き軸は、タグのフレームオブ可以更好翻译为：\n\n注意: 任意の赤緑青色注釈付き軸は、**タグの座標系**を表し、SDKポーズデータとは関係ありません。その注釈は、AprilTag認識が成功したことを示すのみです。",
+          "msgid_length": 186,
+          "word_count": 25,
+          "is_fragment": false,
+          "is_long_text": false
+        },
+        {
+          "line": 516,
+          "status": "entry_not_found"
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_camera_controls\\visionportal-camera-controls.po",
+      "failures": [
+        {
+          "line": 190,
+          "msgid": "Each webcam model has its own level of support for Camera Controls.",
+          "msgstr": "各ウェブカムモデルは、カメラコントロール对于此句，翻译如下：\n\n各ウェブカメラモデルには、カメラコントロール对于的自身支持水平各有不同。",
+          "msgid_length": 67,
+          "word_count": 12,
+          "is_fragment": false,
+          "is_long_text": false
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_cpu_and_bandwidth\\visionportal-cpu-and-bandwidth.po",
+      "failures": [
+        {
+          "line": 257,
+          "msgid": "Side Note: For SDK 8.2, \"LiveView\" became the new universal name for the RC preview. There remain two instances of old names:",
+          "msgstr": "サイドノート：SDK 8.2では、「LiveView」がRCプレビューの新しい普遍的な名称となりました。旧名称はまだ2つのインスタンスで使用されています：",
+          "msgid_length": 125,
+          "word_count": 22,
+          "is_fragment": false,
+          "is_long_text": false
+        },
+        {
+          "line": 260,
+          "status": "entry_not_found"
+        },
+        {
+          "line": 628,
+          "msgid": "Before discussing Streaming Formats, we should mention that **USB Bandwidth** can be a concern for **dual webcams**.",
+          "msgstr": "ストリーミングフォーマットについて議論する前に、**USB帯域幅** が**ダブルウェブカム**对于双摄像头，USB带宽可能会成为一个问题。\n\"\"\"\n注：原文の文末の句読点が欠落しているため、日本語訳でも適切な位置に追加しました。原文の意図を尊重しつつ、自然な日本語表現に調整しています。",
+          "msgid_length": 116,
+          "word_count": 17,
+          "is_fragment": false,
+          "is_long_text": false
+        },
+        {
+          "line": 642,
+          "status": "entry_not_found"
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\apriltag\\vision_portal\\visionportal_previews\\visionportal-previews.po",
+      "failures": [
+        {
+          "line": 91,
+          "msgid": "Side Note: For SDK 8.2, “LiveView” became the new universal name for the RC preview. There remain two instances of old names:",
+          "msgstr": "サイドノート：SDK 8.2では、「LiveView」がRCプレビューの新しい普遍的な名前になった。旧名称はまだ2箇所存在している：",
+          "msgid_length": 125,
+          "word_count": 22,
+          "is_fragment": false,
+          "is_long_text": false
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\contrib\\style_guide\\style-guide.po",
+      "failures": [
+        {
+          "line": 399,
+          "status": "entry_not_found"
+        },
+        {
+          "line": 402,
+          "msgid": "There should be one blank line separating basic text blocks and section titles. There should be one blank line separating text blocks and content directives.",
+          "msgstr": "基本的なテキストブロックとセクションタイトル之间应留有一行空格。文本块与内容指令之间也应留有一行空格。\\n",
+          "msgid_length": 157,
+          "word_count": 25,
+          "is_fragment": false,
+          "is_long_text": false
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\contrib\\tutorials\\make_rst\\creating_rst\\creating-rst.po",
+      "failures": [
+        {
+          "line": 507,
+          "msgid": "Because the content is a single page with high-level content, it is included within the main site ``index.rst`` file (we'll see *how* it's included a little later).",
+          "msgstr": "因为内容是单页且包含高级信息，所以将其包含在主站点的 ``index.rst`` 文件中（稍后我们会看到它是如何被包含在内的）。",
+          "msgid_length": 164,
+          "word_count": 27,
+          "is_fragment": false,
+          "is_long_text": false
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\devices\\huskylens\\huskylens.po",
+      "failures": [
+        {
+          "line": 605,
+          "status": "entry_not_found"
+        },
+        {
+          "line": 608,
+          "msgid": "“Color recognition is greatly affected by ambient light. Sometimes HuskyLens may misidentify similar colors. Please try to keep the ambient light unchanged.”",
+          "msgstr": "「色認識は周囲の光によって大きく影響されます。時々、HuskyLens は類似した色を誤识别することがあります。 Ambient Light を変更しないようにしてください。」",
+          "msgid_length": 157,
+          "word_count": 22,
+          "is_fragment": true,
+          "is_long_text": false
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\ftc_sdk\\overview\\index.po",
+      "failures": [
+        {
+          "line": 314,
+          "msgid": "Virtually every release of the SDK includes bug fixes, but when the *Technology Team* wishes to elevate the visibility of an important bug fix it is included in a Bug Fixes section of the Release Notes. Sometimes team code can be affected if the bug required a workaround, and being elevated in the Release Notes is a way for the *Technology Team* to notify teams that the workaround is no longer necessary.",
+          "msgstr": "SDKの几乎每次发布都会包含错误修复，但当*技术团队*希望提高某个重要错误修复的可见性时，该修复会在发行说明中的“错误修复”部分列出。有时如果错误需要一个临时解决方案，团队代码可能会受到影响，在发行说明中将错误修复提升为重要项是一种方式，以便*技术团队*通知各团队临时解决方案已不再必要。",
+          "msgid_length": 407,
+          "word_count": 72,
+          "is_fragment": false,
+          "is_long_text": true
+        },
+        {
+          "line": 315,
+          "status": "entry_not_found"
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\manufacturing\\3d_printing\\printer_choice\\mid_range_printers\\mid_range_printers.po",
+      "failures": [
+        {
+          "line": 31,
+          "msgid": "Anker's budget 3d printing machine, the AnkerMake M5C, is an absolute bargain for the features and speed it brings. This printer has speed printing capabilities and an extremely friendly interface with almost no setup. This is one of the cheapest printers that can reach 0.5m/s speeds while printing, which alone makes it stand out.",
+          "msgstr": "Ankerの3Dプリンティング機器、AnkerMake M5Cは、機能と速度を考えると絶対的なお買い得品です。このプリンターには高速印刷機能があり、几乎不需要设置就拥有极其友好的界面。这是为数不多的能够以0.5m/s的速度进行打印且价格低廉的打印机之一，仅这一点就使其脱颖而出。",
+          "msgid_length": 332,
+          "word_count": 54,
+          "is_fragment": false,
+          "is_long_text": true
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\external_libraries_blocks\\external-libraries-blocks.po",
+      "failures": [
+        {
+          "line": 444,
+          "status": "entry_not_found"
+        },
+        {
+          "line": 449,
+          "msgid": "As a third benefit, judges love to hear about Outreach. For example your team could develop useful Blocks for beginner teams. Or, you share ideas and tips with other advanced teams who are doing the same kind of development. And, you are encouraged to communicate with library developers. This is a good opportunity for real-world interaction with specialists: sharing your needs, and receiving expert guidance. Scientists, engineers, doctors, entrepreneurs – nobody needs to reinvent the wheel. Professional life is built on these interactions.",
+          "msgstr": "第三の恩恵として、審判員たちはアウトリーチについて聞くのが大好きです。例えば、あなたのチームは初心者チームのために有用なブロックを開発することもできます。「INIT」や「START」といったボタン名はそのままに、「BEGINNER」や「ADVANCED」などのチーム名は翻訳します。また、同じ種類の開発を行っている他の上級チームとアイデアやヒントを共有することも可能です。そして、図書館開発者とのコミュニケーションが奨励されます。これは実世界での専門家との交流の良い機会です：あなたのニーズを共有し、専門的な指導を受けます。科学者、技術者、医師、起業家など - 何人かはこの輪を再発明する必要はありません。プロフェッショナルな生活はこれらの交流によって築かれています。",
+          "msgid_length": 545,
+          "word_count": 83,
+          "is_fragment": false,
+          "is_long_text": true
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\programming_resources\\shared\\managing_smartphone_rc\\Managing-a-Smartphone-Robot-Controller.po",
+      "failures": [
+        {
+          "line": 333,
+          "msgid": "3. Make sure that your Expansion Hub is turned on and powered by a freshly charged 12V battery and that the Robot Controller phone is connected to the Expansion Hub through a USB connection. Note that the Robot Controller does **not** need to have the Expansion Hub included in an active configuration file in order for the update to work.",
+          "msgstr": "3. 扩展枢纽确保开启并由充满电的12V电池供电，并且请确认机器人控制器手机已通过USB连接与扩展枢纽相连。请注意，更新操作**不需要**将扩展枢纽包含在活动配置文件中才能进行。",
+          "msgid_length": 339,
+          "word_count": 60,
+          "is_fragment": false,
+          "is_long_text": true
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\tech_tips\\tech-tips.po",
+      "failures": [
+        {
+          "line": 528,
+          "msgid": "*Electrical Power(W) = volts(V) x amps(A)*",
+          "msgstr": "電気的な電力(W)＝ボルts(V)×アンペア(A)",
+          "msgid_length": 42,
+          "word_count": 6,
+          "is_fragment": true,
+          "is_long_text": false
+        },
+        {
+          "line": 2982,
+          "status": "entry_not_found"
+        },
+        {
+          "line": 2995,
+          "msgid": "Encoder ports 0 and 3 are hardware-counted, but ports 1 and 2 are software-counted. This means higher counts-per-revolution encoders (like the REV Through-Bore Encoder) should be placed on Ports 0 or 3 to ensure counts aren’t missed, and lower counts-per-revolution encoders (like the goBILDA Odometry Pods or most motors) can be connected to any port.",
+          "msgstr": "エンコーダポート0と3はハードウェアでカウントされますが、ポート1と2はソフトウェアでカウントされます。这意味着每转计数较高的编码器（如REV Through-Bore Encoder）应连接到端口0或3以确保不会错过计数，而每转计数较低的编码器（如goBILDA Odometry Pods或大多数电机）可以连接到任何端口。\n\"\"\"\n\nこの翻訳は、Sphinx POファイルの構造を保持し、専門用語や固有名詞を原文のままにしています。また、丁寧語を使用し、自然な日本語で表現しています。",
+          "msgid_length": 352,
+          "word_count": 55,
+          "is_fragment": false,
+          "is_long_text": true
+        }
+      ]
+    },
+    {
+      "file": "locales\\ja\\LC_MESSAGES\\tos\\tos.po",
+      "failures": [
+        {
+          "line": 257,
+          "status": "entry_not_found"
+        },
+        {
+          "line": 259,
+          "msgid": "Interfere with, disrupt, or create an undue burden on the Site or the networks or services connected to the Site.",
+          "msgstr": "サイトまたはサイトに接続されているネットワークやサービスに干渉し、妨害するか、不適切な負担をかけること。",
+          "msgid_length": 113,
+          "word_count": 20,
+          "is_fragment": false,
+          "is_long_text": false
+        },
+        {
+          "line": 524,
+          "status": "entry_not_found"
+        },
+        {
+          "line": 526,
+          "msgid": "We reserve the right, but not the obligation, to: (1) monitor the Site for violations of these Terms of Use; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Terms of Use, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Site or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Site in a manner designed to protect our rights and property and to facilitate the proper functioning of the Site.",
+          "msgstr": "私たちは、これらの利用規約の違反や法律違反に対してサイトをモニタリングする権利、適切な法的措置を取るための権利、または独自の判断で貢献物を削除したり制限したりする権利などを保有しますが、その義務はありません。具体的には以下の通りです：(1) 利用規約の違反や法律違反に対してサイトをモニタリングすること；(2) 独自の判断で法律違反または利用規約違反を行った人に対して適切な法的措置を取ること、これには当該ユーザーに法執行機関への通報も含まれます；(3) 独自の判断で貢献物やその一部を拒否し、アクセス制限を設けたり、利用可能期間を制限したり、または技術的に実現可能な範囲で無効にすること；(4) 独自の判断で必要に応じてサイトからファイルやコンテンツを削除し、またはシステムにとって過度の負担となるもの全てを無効にすること；および (5) 当該サイトの権利と財産を保護し、またサイトの適切な機能を確保するために独自の判断でその他の方法でサイトを管理すること。",
+          "msgid_length": 872,
+          "word_count": 143,
+          "is_fragment": false,
+          "is_long_text": true
+        }
+      ]
+    }
+  ]
+}

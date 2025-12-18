@@ -36,7 +36,8 @@ msgid ""
 " can be used for **location and orientation**."
 msgstr ""
 "開発されたのは`ミシガン大学 "
-"<https://april.eecs.umich.edu/software/apriltag>`_です。AprilTagsは2次元バーコードや簡略化されたQRコードに似ています。これは数値の ** IDコード ** を含んでおり、 ** 位置と向き ** の測定にも使用できます。"
+"<https://april.eecs.umich.edu/software/apriltag>`_です。AprilTagsは2次元バーコードや簡略化されたQRコードに似ています。これは数値の"
+" ** IDコード ** を含んでおり、 ** 位置と向き ** の測定にも使用できます。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:12
 msgid ""
@@ -92,9 +93,10 @@ msgid ""
 "are things we can do with virtually every webcam that can help correct for "
 "environmental issues."
 msgstr ""
-"このシーズンでチームが直面する一つの課題は、カメラがAprilTagsを正しく認識できるようにすることです。AprilTagsは白と黒の部分が対照的な色であることを前提に作られています"
+"チームが今シーズン直面する課題の一つは、カメラが適切にAprilTagsを認識できるようにすることです。AprilTagsは白と黒の部分が対照的な色であることを前提としています"
 " - "
-"環境の照明が十分な対比を提供しない場合、AprilTagアルゴリズムはAprilTagを適切に検出できない可能性があります。幸いにも、几乎每台网络摄像头都可以通过一些方法来纠正环境问题。"
+"環境の照明が十分な対比を提供しない場合、AprilTagアルゴリズムはAprilTagを正しく検出できない可能性があります。幸いにも、ほぼすべてのウェブカメラで行うことができる"
+" Measures があります。これらの Measures を使用することで、環境上の問題を修正することができます。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:42
 msgid ""

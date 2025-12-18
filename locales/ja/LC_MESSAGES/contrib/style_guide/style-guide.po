@@ -120,7 +120,10 @@ msgstr "ウェブアクセシビリティは、障害のない人々にとって
 msgid ""
 "people using mobile phones, smart watches, smart TVs, and other devices with"
 " small screens, different input modes, etc."
-msgstr "PEOPLE がスマートフォン、スマートウォッチ、スマートテレビ、以及其他具有小屏幕和不同输入模式的设备等使用时，"
+msgstr ""
+"スマートフォン、スマートウォッチ、スマートテレビ、小さな画面を持つ Various Other デバイス、異なる入力モードなど-using RST/Sphinx markup as requested: \n"
+"\n"
+"スマートフォン、スマートウォッチ、スマートテレビ、小さな画面を持つ Various Other デバイス、異なる入力モードなどです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:48
 msgid "older people with changing abilities due to aging"
@@ -289,7 +292,7 @@ msgstr ""
 
 #: ../../source/contrib/style_guide/style-guide.rst:143
 msgid "Suffix filenames with the ``.rst`` extension."
-msgstr "ファイル名に ``.rst`` 扩展名 を付与します。"
+msgstr "ファイル名の後ろに「.rst」の拡張子を付けるです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:146
 msgid "Titles and Headings"
@@ -390,7 +393,7 @@ msgstr "インデントは常に前のレベルと一致する必要がありま
 msgid ""
 "Indentation of content directives as new line ``.. toctree::``  should be "
 "`3` spaces."
-msgstr "コンテンツディレクティブのインデントは新しい行 ``.. toctree::`` として ``3`` スペースで应当。"
+msgstr "コンテンツディレクティブのインデントは新しい行として ``.. toctree::`` は3つのスペースで行うべきです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:202
 msgid "Blank Lines"
@@ -401,7 +404,7 @@ msgid ""
 "There should be one blank line separating basic text blocks and section "
 "titles. There should be one blank line separating text blocks and content "
 "directives."
-msgstr "基本的なテキストブロックとセクションタイトル之间应留有一行空格。文本块与内容指令之间也应留有一行空格。\\n"
+msgstr "基本的なテキストブロックとセクションタイトルの間には1行の空白行を入れる必要があります。テキストブロックとコンテンツディレクティブの間にも1行の空白行を入れる必要があります。\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:207
 msgid "Interior Whitespace"
@@ -857,7 +860,7 @@ msgid ""
 "game. There are also taped areas outside the field for the Alliances, and "
 "sometimes for game areas."
 msgstr ""
-"多くのゲームでは、フィールドにテープ線が引かれており、ゲーム内の位置やエリアを示しています。また、アライアンス用のテープ区画や、有时用于游戏区域的外部区域也会被标记。"
+"大部分のゲームでは、フィールドにテープで線が引かれており、ゲームの位置やエリアを示しています。また、フィールド外にもアライアンス用のテープで区切られたエリアがあり、時にはゲームエリアも同様です。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:420
 msgid ""
@@ -1065,7 +1068,9 @@ msgid ""
 "to think about this is the alt text should be functional and the caption "
 "should editorial or illustrative."
 msgstr ""
-"请即使有图注也要创建替代文本。替代文本和图注应有所不同，因为屏幕阅读器会读取两者。思考这个问题的一种方式是，替代文本应该是功能性的，而图注则是编辑性或说明性的。"
+"请 ALT 文を作成してください。キャプションがある場合でもです。ALT "
+"文とキャプションは異なるべきで、スクリーンリーダーが両方を読み上げるからです。この点を考える方法の一つとしては、ALT "
+"文は機能的であり、キャプションは編集的なものや説明的なものであるべきです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:526
 msgid ""
@@ -1272,7 +1277,7 @@ msgid ""
 "HTML documents have a maximum width of 1000 pixels for desktop browsing so "
 "image width should be 1000 pixels or less."
 msgstr ""
-"画像（ベクターグラフィックスを含む）のサイズは500キロバイト未満で、幅は1000ピクセル以内に保つことが推奨されます。小さな解像度とより効率的な圧縮アルゴリズムを使用していただくことをお勧めします。これにより、遅いインターネット接続を持つユーザーでも合理的なウェブページの読み込みが可能になります。当社のHTMLドキュメントはデスクトップでの閲覧において最大幅を1000ピクセルとし、因此，图像宽度应不超过1000像素。"
+"画像（ベクターグラフィックスを含む）は500キロバイト未満で、幅は1000ピクセル以内にしてください。小さな解像度と効率的な圧縮アルゴリズムを使用してください。これにより、遅いインターネット接続を持つユーザーでも合理的なウェブページの読み込みが可能になります。当社のHTMLドキュメントはデスクトップブラウジング用に最大幅1000ピクセルとし、画像の幅も1000ピクセル以内にしてください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:646
 msgid ""

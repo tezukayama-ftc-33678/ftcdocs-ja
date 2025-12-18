@@ -35,9 +35,10 @@ msgid ""
 "Development Kit (SDK) </ftc_sdk/overview/index>`, the SDK requires these "
 "updates for the Driver Hub in order to perform correctly."
 msgstr ""
-"オペレーティングシステム（OS）は、コンピューターの基本的な機能をサポートするソフトウェアで、タスクスケジューリング、アプリケーション実行、周辺機器制御などが含まれます。このOSは時々、**REV"
-" Driver Hub** で更新が必要です。虽然这个OS更新不是SDK（:doc:`ソフトウェア開発キット (SDK) "
-"</ftc_sdk/overview/index>` 的特定组成部分），但为了使Driver Hub 正确运行，SDK 需要这些更新。"
+"オペレーティングシステム（OS）は、コンピュータの基本的な機能をサポートするソフトウェアで、タスクのスケジューリング、アプリケーションの実行、周辺機器の制御などを行います。これは時々"
+" **REV Driver Hub** に更新が必要です。このOSの更新は特に :doc:`Software Development Kit (SDK)"
+" </ftc_sdk/overview/index>` の一部ではありませんが、SDKはDriver "
+"Hubに対してこれらの更新を必要とし、適切に動作するためです。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:11
 msgid "Here are two methods for updating the Driver Hub OS:"

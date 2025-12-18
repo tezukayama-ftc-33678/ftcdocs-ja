@@ -122,7 +122,7 @@ msgstr "この図は単純な2次元のため、垂直方向の「Z」（上）�
 msgid ""
 "The green X axis value represents the sideways offset to the tag. Note that "
 "this value is negative (to the left of the camera center)."
-msgstr "緑色のX軸値はタグに対する左右オフセットを示します。この値はカメラ中心点左侧に位置する場合負の値となります。"
+msgstr "緑色のX軸値はタグに対する横方向のオフセットを示します。カメラ中央から左側に移動すると、この値は負になります。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:61
 msgid "The red Y axis value represents the forward distance to the Tag."
@@ -151,8 +151,10 @@ msgid ""
 "tilt UP to center on the tag). Note that Target Bearing has the same "
 "positive counterclockwise orientation."
 msgstr ""
-"X軸およびY軸の値から3つの追加パラメータが導き出されます。これらは、ターゲットの中心までの直接距離を示す *Range* 、カメラがターゲットを直接見つめるために何度回転する必要があるかを示す *Bearing* 、そしてタグに焦点を合わせるためにカメラが必要以上に上に向けて傾ける角度を示す *Elevation* です。なお、Target"
-" Bearing は同じ正の反時計回り方向を持っています。"
+"X軸およびY軸の値から3つの追加パラメータが導き出されます。これらは、ターゲットの中心までの直接距離を示す *Range* "
+"、カメラがターゲットを直接見つめるために何度回転する必要があるかを示す *Bearing* "
+"、そしてタグに焦点を合わせるためにカメラが必要以上に上に向けて傾ける角度を示す *Elevation* です。なお、Target Bearing "
+"は同じ正の反時計回り方向を持っています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:80
 msgid "Investigating some real data"
@@ -247,7 +249,8 @@ msgid ""
 "inches), Bearing, and Elevation (in degrees). The angle of Elevation results"
 " from the height difference between the camera and the Tag."
 msgstr ""
-"オペレーションモードは、 ** 図2 ** に表示されるパラメータに対応する値を表示します。XYZ線は、インチ単位のX軸、Y軸、Z軸の平移値を示しています。PRY線は、これらの軸周りの回転（ピッチ、ロール、ヨー）に対応する度数で示されます。RBE線は、ターゲット範囲（インチ単位）、方位角、および仰角（度数）を示します。仰角は、カメラとタグの高さ差から計算されます。"
+"オペレーションモードは、 ** 図2 ** "
+"に表示されるパラメータに対応する値を表示します。XYZ線は、インチ単位のX軸、Y軸、Z軸の平移値を示しています。PRY線は、これらの軸周りの回転（ピッチ、ロール、ヨー）に対応する度数で示されます。RBE線は、ターゲット範囲（インチ単位）、方位角、および仰角（度数）を示します。仰角は、カメラとタグの高さ差から計算されます。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:145
 msgid "*Several items to observe:*"

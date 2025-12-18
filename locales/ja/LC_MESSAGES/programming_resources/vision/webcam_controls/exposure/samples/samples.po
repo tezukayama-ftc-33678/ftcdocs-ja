@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:9
 msgid "Declare the ExposureControl object, before ``runOpMode()``."
-msgstr "runOpMode() 之前，声明 ExposureControl 对象。"
+msgstr "露光制御オブジェクトを宣言してください。`runOpMode()` 之前。"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/samples/samples.rst:11
 msgid "``ExposureControl myExposureControl;``"

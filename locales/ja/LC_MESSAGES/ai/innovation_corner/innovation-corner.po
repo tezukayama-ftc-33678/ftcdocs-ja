@@ -35,8 +35,9 @@ msgid ""
 "technical direction for this content."
 msgstr ""
 "これらの記事は、*FIRST* Tech Challenge "
-"AIイノベーションコーナーの一環です。ここでは、AIと私たちの日常生活や周囲の世界に及ぼす影響に関連する独自で選りすぐられた記事を掲載します。*FIRST* "
-" Tech Challengeへのアクセスを未開発コミュニティに拡大するための寄付、そしてこのコンテンツに対する支援および時折の技術的な指導を提供していただき、心から感謝いたします。"
+"AIイノベーションコーナーの一環です。ここでは、AIと私たちの日常生活や周囲の世界に及ぼす影響に関連する独自で選りすぐられた記事を掲載します。*FIRST*"
+"  Tech "
+"Challengeへのアクセスを未開発コミュニティに拡大するための寄付、そしてこのコンテンツに対する支援および時折の技術的な指導を提供していただき、心から感謝いたします。"
 
 #: ../../source/ai/innovation_corner/innovation-corner.rst:12
 msgid ""
@@ -67,7 +68,8 @@ msgid ""
 " in a future article)."
 msgstr ""
 "この週のAIイノベーションコーナーでは、AIを使ってチームが* FIRST * Tech "
-"Challengeチームとして最初に行うべきステップを支援する方法について探ります。具体的には、ソーシャルメディアの存在感を増やすためのソーシャルメディアキャンペーンやチームマーケティングに焦点を当てます。これはコミュニティ内でチームの可視性を高める重要なステップであり、メンバーとメンターの募集、自分たちと * FIRST * についての認知度向上につながります。これにより、資金調達（今後の記事で詳しく解説します）にも一歩近づくことができます。"
+"Challengeチームとして最初に行うべきステップを支援する方法について探ります。具体的には、ソーシャルメディアの存在感を増やすためのソーシャルメディアキャンペーンやチームマーケティングに焦点を当てます。これはコミュニティ内でチームの可視性を高める重要なステップであり、メンバーとメンターの募集、自分たちと"
+" * FIRST * についての認知度向上につながります。これにより、資金調達（今後の記事で詳しく解説します）にも一歩近づくことができます。"
 
 #: ../../source/ai/innovation_corner/innovation-corner.rst:33
 msgid ""
@@ -108,7 +110,8 @@ msgid ""
 "turn on post notifications for more content from our FIRST Tech Challenge "
 "team.*"
 msgstr ""
-"私たちのFIRST Tech Challengeチームの活動をもっと知ってもらえるよう、コメントへの感謝を伝えつつ、投稿通知をオンにするよう促すフレンドリーな返信を1文で作成してください。"
+"私たちのFIRST Tech "
+"Challengeチームの活動をもっと知ってもらえるよう、コメントへの感謝を伝えつつ、投稿通知をオンにするよう促すフレンドリーな返信を1文で作成してください。"
 
 #: ../../source/ai/innovation_corner/innovation-corner.rst:56
 msgid ""
@@ -256,8 +259,7 @@ msgstr ""
 
 #: ../../source/ai/innovation_corner/innovation-corner.rst:139
 msgid "https://ftc-resources.firstinspires.org/file/ftc/game/manual"
-msgstr ""
-"https://ftc-resources.firstinspires.org/file/ftc/game/manual"
+msgstr "https://ftc-resources.firstinspires.org/file/ftc/game/manual"
 
 #: ../../source/ai/innovation_corner/innovation-corner.rst:141
 msgid ""
@@ -278,7 +280,7 @@ msgid ""
 " interact with the prompt later without having to recreate the prompt "
 "session every time."
 msgstr ""
-"今では新しいプロンプトが用意されていますので、このプロンプトに名前をつけてください。これにより、後でプロンプトと再度互动而无需每次都重新创建整个会话，您可以将该提示保存在“我的图书馆”中。"
+"新しいプロンプトが用意されたので、プロンプトに名前を付けてください。これにより、後でプロンプトと再度互動する際にプロンプトセッションを作り直さなくても「マイライブラリ」に保存できるようになります。"
 
 #: ../../source/ai/innovation_corner/innovation-corner.rst:152
 msgid ""
@@ -421,8 +423,8 @@ msgid ""
 "experience (while we’re learning ourselves!)."
 msgstr ""
 "この週のテックヒントでは、*FIRST* Tech "
-"Challengeにおける新しいイニシアチブであるAIイノベーションコーナーを立ち上げます。生成型AIは世界中で大注目を浴び、現在は個人アシスタントから検索エンジン、レシピの作成、音楽の革新、車両メンテナンスなどあらゆる分野に浸透しています！機械学習AIは過去6年間、*FIRST* "
-" Tech "
+"Challengeにおける新しいイニシアチブであるAIイノベーションコーナーを立ち上げます。生成型AIは世界中で大注目を浴び、現在は個人アシスタントから検索エンジン、レシピの作成、音楽の革新、車両メンテナンスなどあらゆる分野に浸透しています！機械学習AIは過去6年間、*FIRST*"
+"  Tech "
 "Challengeにおいてどのような形でも一部として存在してきましたが、今やチームが生成型AIを使用し組み込む方法を学ぶ手助けをする段階に来ています（私たちも学んでいます！）。"
 
 #: ../../source/ai/innovation_corner/innovation-corner.rst:230
@@ -442,7 +444,8 @@ msgstr ""
 "AIを最大限に活用する最初のステップ（または、*FIRST* "
 "ステップ？）はモデルを選択することです。何を意味するかというと、すべてのAIは特定の知識で訓練されたニューラルネットワークであり、その知識に基づいて特定のことをできる能力があります。このニューラルネットワークの各バージョンは「モデル」として保存されています。各企業は目的によって異なるモデルを提供していますが、ほとんどのモデルはその旗艦モデル（GoogleのGemini、OpenAIのChatGPT"
 " "
-"4-o、AnthropicのClaudeなど）のバリエーションです。各企業はウェブベースやAPIインターフェースを通じて自社のモデルと対話できるようになっていますし、誰もが自分の好きなものを選択しています。 * FIRST Tech Challenge * では、標準的なツールとして`Google AI Studio "
+"4-o、AnthropicのClaudeなど）のバリエーションです。各企業はウェブベースやAPIインターフェースを通じて自社のモデルと対話できるようになっていますし、誰もが自分の好きなものを選択しています。"
+" * FIRST Tech Challenge * では、標準的なツールとして`Google AI Studio "
 "<https://ai.google.dev/aistudio>`__ を使用してGeminiと対話し、その機能を利用します。"
 
 #: ../../source/ai/innovation_corner/innovation-corner.rst:241

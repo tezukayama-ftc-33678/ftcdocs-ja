@@ -67,7 +67,7 @@ msgid ""
 " their op mode. The Blocks Programming Tool is powered by Google's Blockly "
 "software and was developed with support from Google."
 msgstr ""
-"ブロックプログラミングツールは、ロボットコントローラーによって提供されるユーザーフレンドリーなプログラミングツールです。ユーザーはこのツールを使用して、自前のオペレーションモードを作成し、その後、これらのオペレーションモードを直接ロボットコントローラーに保存できます。ユーザーは、「ジャグソウ」と呼ばれる编程积木块拖放到设计“画布”上，并将其排列以创建其操作模式的程序逻辑。ブロックプログラミングツールはGoogleのBlocklyソフトウェアによって駆動され、Googleの支援で開発されました。"
+"ロボットコントローラーから提供されるブロックプログラミングツールは、ユーザーフレンドリーなプログラミングツールです。このツールを使用して、ユーザーはロボット用のカスタムオペレーションモードを作成し、その後、これらのオペレーションモードを直接ロボットコントローラーに保存できます。ユーザーは、デザイン「キャンバス」上にパазルのようなプログラミングブロックをドラッグアンドドロップし、これらのブロックを配置してオペレーションモードのプログラム論理を作成します。ブロックプログラミングツールはGoogleのBlocklyソフトウェアで駆動されており、Googleの支援のもと開発されました。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:38
 msgid ""
@@ -133,8 +133,8 @@ msgid ""
 "Chrome) and find the web address that is displayed on the Program & Manage "
 "screen of the Robot Controller."
 msgstr ""
-"1. ラップトッパにウェブブラウザを起動し（FIRSTではGoogle "
-"Chromeの使用を推奨します）并且在机器人控制器的“程序与管理”屏幕上显示的网址中找到该网址。"
+"1. ラップトップ上でウェブブラウザを起動し（FIRSTではGoogle Chromeの使用を推奨します）并且找到机器人控制器のProgram & "
+"Manageスクリーンに表示されているウェブアドレスです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:85
 msgid ""
@@ -170,9 +170,7 @@ msgstr "2. プログラミングモードサーバに接続されていること
 msgid ""
 "3. Press the **Blocks** link towards the top of the Console to navigate to "
 "the main Blocks Programming screen."
-msgstr ""
-"3. Console の上部にある **Blocks** リンクを押して、主要なブロックプログラミング画面に移動します。"
-""
+msgstr "3. Console の上部にある **Blocks** リンクを押して、主要なブロックプログラミング画面に移動します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:123
 msgid ""

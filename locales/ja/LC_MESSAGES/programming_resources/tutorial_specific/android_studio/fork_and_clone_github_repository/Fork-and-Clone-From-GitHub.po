@@ -225,9 +225,9 @@ msgid ""
 "work of other team members.  When a developer is satisfied that a branch is "
 "stable enough to be shared, the branch can be merged back into the parent."
 msgstr ""
-"那么什么是分支呢？分支只是一个指向提交的命名指针。当创建一个分支时，你只是告诉 git 创建一个名称，并将其指向某个提交。处于分支状态 simply "
-"意味着当你添加一个新的提交时，git "
-"会将分支名称移动到新的提交，而新提交的父提交则是分支名称之前所指向的那个提交。由于这种做法创建了一条独立于父提交的发展线，开发人员可以进行实验、做出更改、开发新功能，而不必打扰其他团队成员的工作。当开发人员满意一个分支足够稳定可以共享时，该分支可以被合并回父提交。"
+"那么ブランチとは何でしょうか。ブランチは単にコミットを指す名前付きのポインタです。ブランチが作成されたときには、git "
+"に対して名前を作成し、その名前にコミットを指定するだけです。ブランチにいるということは、新しいコミットを追加したときに、git "
+"がブランチの名前を新しいコミットに移動し、新しいコミットの親は、ブランチの名前が以前指していたコミットであることを意味します。このようにして親から独立した開発ラインが作られることで、開発者は実験を行い、変更を行うことができ、新機能を開発することができ、他のチームメンバーの作業を妨げずに済みます。開発者がブランチが共有できるほど安定していると満足したときには、そのブランチを親にマージすることができます。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:94
 #: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:103
@@ -635,7 +635,8 @@ msgid ""
 "This author prefers the latter because it gives the developer the "
 "opportunity test new software before pushing to the fork.  It also allows "
 "for merge conflict resolution locally instead of through GitHub's UI."
-msgstr "この著者は後者を好む因为前者可以让开发者在推送到分支之前测试新的软件。此外，它还允许本地解决合并冲突，而不是通过GitHub的UI来解决。"
+msgstr ""
+"この著者は後者を好む因為それは開発者が新しいソフトウェアをプッシュする前にテストできる機会を提供するからです。また、GitHubのUIではなくローカルでマージコンフリクトを解決できるようにもなります。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:307
 msgid "Obtaining the Latest Software"

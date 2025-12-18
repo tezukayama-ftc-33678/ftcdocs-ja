@@ -35,8 +35,9 @@ msgid ""
 "tutorial's previous :doc:`Discover <../color-locator-discover/color-locator-"
 "discover>` page, to open and test this OpMode."
 msgstr ""
-"この **Explore** ページでは、**ColorLocator** サンプルオペモードのデフォルト設定を変更する方法について説明しています。このページは、以前の :doc:`Discover <../color-locator-discover/color-locator-discover>` ページでこのオペモードを開きテストしたことを前提としています。"
-""
+"この **Explore** ページでは、**ColorLocator** "
+"サンプルオペモードのデフォルト設定を変更する方法について説明しています。このページは、以前の :doc:`Discover <../color-"
+"locator-discover/color-locator-discover>` ページでこのオペモードを開きテストしたことを前提としています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:13
 msgid "ColorLocator has only two required **inputs**\\ :"
@@ -206,7 +207,7 @@ msgstr ""
 msgid ""
 "Then select the numerical values in that Color Space to define the range of "
 "the target color."
-msgstr "その後、その色空間の数值值在该颜色空间中选择数值，以定义目标颜色的范围。"
+msgstr "その色情報空間における数値を選択して、ターゲットカラーの範囲を定義します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:92
 msgid ""
@@ -315,9 +316,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:219
 msgid "Image Pre-Processing"
-msgstr ""
-"画像前処理"
-""
+msgstr "画像前処理"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:221
 msgid ""
@@ -332,7 +331,6 @@ msgid ""
 "significantly improve Blob formation, giving more useful results."
 msgstr ""
 "効果は非常に小さい（デフォルトのカーネルサイズが5x5ピクセル）、ですが、ブロブ形成に大幅に改善をもたらし、より有用な結果を得ることができます。"
-""
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:228
 msgid ""
@@ -402,8 +400,8 @@ msgid ""
 "Any of these pre-processing settings can be **disabled** by setting their "
 "pixel value to zero, or by removing the command."
 msgstr ""
-"Any of these pre-processing settings can be **disabled** by setting their pixel value to zero, or by removing the command."
-""
+"Any of these pre-processing settings can be **disabled** by setting their "
+"pixel value to zero, or by removing the command."
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:288
 msgid ""
@@ -630,9 +628,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:457
 msgid "Post Sort"
-msgstr ""
-"Post Sort"
-""
+msgstr "Post Sort"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:462
 msgid ""
@@ -672,8 +668,10 @@ msgid ""
 "fab65c29efb3>`_ and at the `OpenCV website for morphology "
 "<https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_."
 msgstr ""
-"Technical information on Blur, Erosion and Dilation can be found `here <https://medium.com/@sasasulakshi/opencv-morphological-dilation-and-erosion-fab65c29efb3>`_ and at the `OpenCV website for morphology <https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_."
-""
+"Technical information on Blur, Erosion and Dilation can be found `here "
+"<https://medium.com/@sasasulakshi/opencv-morphological-dilation-and-erosion-"
+"fab65c29efb3>`_ and at the `OpenCV website for morphology "
+"<https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_."
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:489
 msgid ""

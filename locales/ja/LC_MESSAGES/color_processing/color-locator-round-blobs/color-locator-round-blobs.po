@@ -237,7 +237,7 @@ msgstr "円で囲まれたCircularityテレメトリーデータの画像"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
 msgid "Driver Station Telemetry Data from ``_Circle`` sample"
-msgstr "ドライバーステーションの遥测データ（_Circle サンプル）"
+msgstr "ドライバーステーションのテレメトリデータから ``_Circle`` サンプル"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:94
 msgid ""
@@ -274,7 +274,8 @@ msgid ""
 "For multiple Blobs, the Sample lists Telemetry using only the built-in "
 "default **sort by area** (largest is first).  Other sorting choices are "
 "available, described in the Sample's comments."
-msgstr "複数のブロブ对于多个Blob，示例仅使用内置默认的**面積順序排列**（最大的排在前面）来列出遥测数据。其他排序选项请参阅示例中的注释。"
+msgstr ""
+"複数のBlobについて、サンプルはデフォルトの**面積でソート**（最大が最初）を使用してテレメトリをリスト表示します。他のソートオプションは、サンプルのコメントで説明されています。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:104
 msgid ""
@@ -363,8 +364,8 @@ msgid ""
 "Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with this "
 "Builder command:"
 msgstr ""
-"Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with this Builder command:"
-""
+"Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with this "
+"Builder command:"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:146
 msgid ""

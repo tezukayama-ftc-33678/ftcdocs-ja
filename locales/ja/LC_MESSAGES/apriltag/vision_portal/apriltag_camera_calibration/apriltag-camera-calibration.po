@@ -28,7 +28,8 @@ msgstr "AprilTagカメラキャリブレーション"
 msgid ""
 "To provide good pose estimates, **each RC phone camera or webcam model** "
 "requires calibration data, for **each specific resolution**."
-msgstr "良いポーズ推定为了提供良好的姿态估计，**各RC電話カメラまたはウェブカムモデル**对于**每个特定分辨率**都需要校准数据。"
+msgstr ""
+"良好的ポーズ推定のために、**各RC電話カメラまたはウェブカメラのモデル**には、**それぞれの特定の解像度**に対する校正データが必要です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:7
 msgid ""
@@ -45,12 +46,13 @@ msgid ""
 "webcams and resolutions. Teams can generate their own data, called **lens "
 "intrinsics**."
 msgstr ""
-"The *FIRST* Tech Challenge SDK contains such data for a limited number of webcams and resolutions. Teams can generate their own data, called **lens intrinsics**."
-""
-"The *FIRST* Tech Challenge SDK contains such data for a limited number of webcams and resolutions. Teams can generate their own data, called **lens intrinsics**."
-""
-"The *FIRST* Tech Challenge SDK contains such data for a limited number of webcams and resolutions. Teams can generate their own data, called **lens intrinsics**."
-""
+"The *FIRST* Tech Challenge SDK contains such data for a limited number of "
+"webcams and resolutions. Teams can generate their own data, called **lens "
+"intrinsics**.The *FIRST* Tech Challenge SDK contains such data for a limited"
+" number of webcams and resolutions. Teams can generate their own data, "
+"called **lens intrinsics**.The *FIRST* Tech Challenge SDK contains such data"
+" for a limited number of webcams and resolutions. Teams can generate their "
+"own data, called **lens intrinsics**."
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:15
 msgid ""
@@ -77,7 +79,7 @@ msgid ""
 " may become available as a regular Block, avoiding the need for a myBlock. "
 "Learn more about myBlocks here:"
 msgstr ""
-"FTCブロックでは、チームはこのオペレーションモードを複製できます。必要となるのは、メソッド ``saveNextFrameRaw()`` "
+"FTCブロックでは、チームはこのOpmodeを複製できます。必要となるのは、メソッド ``saveNextFrameRaw()`` "
 "だけのカスタムmyBlockです。将来的には、このJavaメソッドが通常のブロックとして利用可能になる可能性があり、myBlockが必要なくなるかもしれません。myBlockについて詳しくはここを参照してください:"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:30
@@ -86,7 +88,7 @@ msgid ""
 "blocks (myblocks)>`."
 msgstr ""
 ":ref:`MyBlocksチュートリアル "
-"<programming_resources/shared/myblocks/index:カスタムブロック（myblocks）>`。\\n"
+"<programming_resources/shared/myblocks/index:カスタムブロック（myblocks）>`。"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:32
 msgid ""
@@ -95,7 +97,7 @@ msgid ""
 "on the Robot Controller (Control Hub or RC phone), with each press of the "
 "gamepad button X (or Square)."
 msgstr ""
-"このユーティリティ・オペモードは、AprilTagのポーズ推定に必要なウェブカムやRC電話機カメラの校正を支援します。カメラフレーム（画像）をキャプチャし、各ゲームパッドボタンX（またはスクエア）を押すごとにロボットコントローラー（制御ハブまたはRC電話機）に保存します。"
+"このユーティリティOpmodeは、AprilTagのポーズ推定に必要なウェブカムやRC電話機カメラの校正を支援します。カメラフレーム（画像）をキャプチャし、各ゲームパッドボタンX（またはスクエア）を押すごとにロボットコントローラー（制御ハブまたはRC電話機）に保存します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:37
 msgid "To illustrate, the OpMode stores the first two captured images as:"
@@ -168,11 +170,11 @@ msgstr "SDK は、OpMode が次の **特別なケース** を使用する場合�
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:78
 msgid "a camera model for which the SDK **does have** lens intrinsics, and"
-msgstr "SDK がレンズの内在パラメータ **拥有** 的镜头内在参数的相机模型，"
+msgstr "SDKでレンズ内参数を有するカメラモデル、"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:79
 msgid "a user-specified resolution for which"
-msgstr "ユーザーが指定した解像度对于"
+msgstr "ユーザーが指定した解像度"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:81
 msgid "the SDK **does not have** lens intrinsics, and"
