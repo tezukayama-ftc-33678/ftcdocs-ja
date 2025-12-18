@@ -36,7 +36,7 @@ msgid ""
 " can be used for **location and orientation**."
 msgstr ""
 "開発されたのは`ミシガン大学 "
-"<https://april.eecs.umich.edu/software/apriltag>`_です。AprilTagsは2次元バーコードや簡略化されたQRコードに似ています。これは数値の**IDコード**を含んでおり、**位置と向き**の測定にも使用できます。"
+"<https://april.eecs.umich.edu/software/apriltag>`_です。AprilTagsは2次元バーコードや簡略化されたQRコードに似ています。これは数値の ** IDコード ** を含んでおり、 ** 位置と向き ** の測定にも使用できます。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:12
 msgid ""
@@ -241,8 +241,8 @@ msgid ""
 "determine (and verify) which AprilTag is actually being seen. However, there"
 " is no defined order for AprilTags on an OBELISK, so this is not reliable."
 msgstr ""
-"両方のAprilTagを読み込むことが逻辑的に思えるかもしれませんが、二つのタグを使用して実際に見ているAprilTagを确定（および确认）することは "
-"reliablity に欠けるものです。OBELISK 上の AprilTag の順序は定義されていないためです。"
+"両方のAprilTagを読み込むことが論理的に思えるかもしれませんが、二つのタグを使用して実際に見ているAprilTagを特定（および検証）することは "
+"信頼性 に欠けるものです。OBELISK 上の AprilTag の順序は定義されていないためです。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:211
 msgid "Image showing OBELISK with more than one AprilTag visible"
