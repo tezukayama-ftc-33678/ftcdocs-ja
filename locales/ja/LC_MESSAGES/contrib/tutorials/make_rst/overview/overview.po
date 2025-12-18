@@ -99,8 +99,9 @@ msgid ""
 " we would add two asterisks (**) to the front and end of each word to make "
 "them **bold**. Let's do that by modifying the text to show the following::"
 msgstr ""
-"Let's assume we want to **強調** the nouns in the sentence, so in rST format we would add two asterisks (**) to the front and end of each word to make them **bold**. Let's do that by modifying the text to show the following::"
-""
+"Let's assume we want to **強調** the nouns in the sentence, so in rST format "
+"we would add two asterisks (**) to the front and end of each word to make "
+"them **bold. Let's do that by modifying the text to show the following::"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:54
 msgid "This would ultimately output text that looks like:"
@@ -116,7 +117,7 @@ msgid ""
 "*italicize* words or sections by adding a single asterisk (*) to the front "
 "and end of each section we want to *italicize*. It would now look like so::"
 msgstr ""
-"今では「quick」をイタリック体にしたいですね。rST形式では、イタリック体にするためには、各イタリック体の部分の前後に単一のアスタリスク(*)を追加します。以下のように表示されます::"
+"今では「quick」をイタリック体にしたいですね。rST形式では、イタリック体にするためには、各イタリック体の部分の前後に単一のアスタリスク()を追加します。以下のように表示されます::"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:64
 msgid "This would output text that looks like:"
@@ -135,7 +136,7 @@ msgid ""
 msgstr ""
 "最後に、「over」の言葉に `dictionary.com での over の辞書参照 "
 "<https://www.dictionary.com/browse/over>`_ "
-"をリンク追加しましょう。これを行うには、バックタック（`）とアンダースコア（_）を含むやや複雑なマークアップを使用します。以下のように::"
+"をリンク追加しましょう。これを行うには、バックタック（）とアンダースコア（_）を含むやや複雑なマークアップを使用します。以下のように::"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:75
 msgid ""
@@ -148,7 +149,7 @@ msgid ""
 "The *quick* brown **fox** jumped `over "
 "<https://www.dictionary.com/browse/over>`_ the lazy **dog**."
 msgstr ""
-"速い* Browns ** fox ** は、怠け者 ** dog ** の上を`越えて "
+"速い* Browns ** fox ** は、怠け者 ** dog * の上を`越えて "
 "<https://www.dictionary.com/browse/over>`_ jumped。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:79

@@ -384,9 +384,7 @@ msgstr "正規化された+/-1.0座標系で定義されたサブ領域"
 msgid ""
 "For the **second input**, you must list the candidate colors from which a "
 "result will be selected as a \"Match\"."
-msgstr ""
-"第二入力**で**, 候補色をリストし、それから選ばれる結果が「一致」として扱われるものとして挙げてください。"
-""
+msgstr "第二入力**で**, 候補色をリストし、それから選ばれる結果が「一致」として扱われるものとして挙げてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:201
 msgid ""
@@ -433,7 +431,7 @@ msgid ""
 "similar colors.  The color of the cluster with the most pixels is called "
 "\"predominant\" here. *(This will NOT be on the final.)*"
 msgstr ""
-"OpenCVはROIの「主な色」をどのように決定しますか？「k-means」アルゴリズムが類似した色のクラスタを決定します。「k-means」<https://en.wikipedia.org/wiki/K-means_clustering>`_"
+"OpenCVはROIの「主な色」をどのように決定しますか？「k-means」アルゴリズムが類似した色のクラスタを決定します。「k-means」<https://en.wikipedia.org/wiki/K-means_clustering>_"
 " というアルゴリズムを使用して、ピクセル数最多的のクラスタの色が「主な色」と呼ばれます。*(最終的には出題されません。)*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:225
@@ -490,9 +488,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:259
 msgid "In the sample OpMode, here's the Telemetry that gives the result:"
-msgstr ""
-"サンプルOpModeでは、以下が結果のテレメトリーです："
-""
+msgstr "サンプルOpModeでは、以下が結果のテレメトリーです："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:265
 msgid "This displays as text, but this is **not** Java type ``String``!"
