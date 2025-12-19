@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:46
 msgid "Saving Opmode"
-msgstr "オペモードの保存"
+msgstr "OpModeの保存"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:46
 msgid "Saving the OpMode within the Blocks Editor"
@@ -223,10 +223,7 @@ msgid ""
 "button to open a file browser for your local computer to select the **.blk**"
 " Blocks file to upload. Once uploaded, the Blocks program will open within "
 "the Blocks interface."
-msgstr ""
-"一旦「 ** アップロードオペモード ** 」を押すと、ファイルを選択できるポップアップウィンドウが表示されます。「 ** Choose "
-"File ** 」ボタンをクリックして、ローカルコンピュータのファイルブラウザを開き、アップロードしたい ** .blk ** "
-"ブロックファイルを選択してください。アップロードが完了すると、ブロックプログラムはブロックインターフェース内で開きます。"
+msgstr "一旦「 ** アップロードOpMode ** 」を押すと、ファイルを選択できるポップアップウィンドウが表示されます。「 ** Choose File ** 」ボタンをクリックして、ローカルコンピュータのファイルブラウザを開き、アップロードしたい ** .blk ** ブロックファイルを選択してください。アップロードが完了すると、ブロックプログラムはブロックインターフェース内で開きます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:143
 msgid "Blocks Management File Upload"

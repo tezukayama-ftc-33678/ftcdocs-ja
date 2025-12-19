@@ -52,9 +52,7 @@ msgid ""
 "OpModes. It’s also possible to manually enter such values before a match "
 "begins, based on anticipated lighting, starting position and other game-time"
 " factors."
-msgstr ""
-"一部のSDKのウェブカメラコントロールを改善することで、TFODの認識精度が向上する可能性があります。露出度、ゲインその他の値はチームのオートノーマンス・オペモードで事前にプログラムすることが可能です。また、試合開始前に想定される照明状況、スタート位置、およびその他のゲーム時間"
-" Factors に基づいてこれらの値を手動で入力することもできます。"
+msgstr "一部のSDKのウェブカメラコントロールを改善することで、TFODの認識精度が向上する可能性があります。露出度、ゲインその他の値はチームのオートノーマンス・OpModeで事前にプログラムすることが可能です。また、試合開始前に想定される照明状況、スタート位置、およびその他のゲーム時間 Factors に基づいてこれらの値を手動で入力することもできます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/index.rst:34
 msgid ""

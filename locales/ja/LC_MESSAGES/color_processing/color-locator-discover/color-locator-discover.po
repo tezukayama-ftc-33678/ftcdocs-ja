@@ -116,9 +116,7 @@ msgid ""
 "For now, use the default webcam name, \"Webcam 1\".  If a different name is "
 "preferred, edit the Sample OpMode to agree with the exact webcam name in the"
 " robot configuration."
-msgstr ""
-"現在は、デフォルトのウェブカメラ名「Webcam "
-"1」を使用してください。異なる名前が好ましい場合は、サンプルオペモードをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
+msgstr "現在は、デフォルトのウェブカメラ名「Webcam 1」を使用してください。異なる名前が好ましい場合は、サンプルOpModeをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:54
 msgid ""
@@ -128,11 +126,11 @@ msgstr " ** 保存し、有効に ** してください；その名前はペア�
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:58
 msgid "Sample OpMode"
-msgstr "サンプルオペモード"
+msgstr "サンプルOpMode"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:61
 msgid "Opening the Sample OpMode"
-msgstr "サンプルオペモードを開く"
+msgstr "サンプルOpModeを開く"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:63
 msgid ""
@@ -170,8 +168,7 @@ msgstr "OpModeのコードの最初の部分で、`ARTIFACT_PURPLE` を `ブル�
 msgid ""
 "At the top of the Blocks screen, you can change the type from \"TeleOp\" to "
 "\"Autonomous\", since this Sample OpMode does not use gamepads."
-msgstr ""
-"ブロックスクリーンのトップで、「TeleOp」から「Autonomous」にタイプを変更できます。このサンプルオペモードではゲームパッドを使用していません。"
+msgstr "ブロックスクリーンのトップで、「TeleOp」から「Autonomous」にタイプを変更できます。このサンプルOpModeではゲームパッドを使用していません。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:85
 msgid ""

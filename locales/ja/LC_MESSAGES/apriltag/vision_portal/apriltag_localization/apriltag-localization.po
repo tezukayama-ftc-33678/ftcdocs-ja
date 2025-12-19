@@ -127,9 +127,7 @@ msgid ""
 "For now, use the default webcam name, \"Webcam 1\".  If a different name is "
 "preferred, edit the Sample OpMode to agree with the exact webcam name in the"
 " robot configuration."
-msgstr ""
-"現在は、デフォルトのウェブカメラ名「Webcam "
-"1」を使用してください。異なる名前を希望する場合は、サンプルオペモードをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
+msgstr "現在は、デフォルトのウェブカメラ名「Webcam 1」を使用してください。異なる名前を希望する場合は、サンプルOpModeをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:59
 msgid ""
@@ -139,7 +137,7 @@ msgstr " ** 保存し、有効化 ** して下さい；その名前はペアリ�
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:63
 msgid "Open the Sample OpMode"
-msgstr "サンプルオペモードを開く"
+msgstr "サンプルOpModeを開く"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:65
 msgid ""
@@ -210,7 +208,7 @@ msgstr "「Build」をクリックしてみましょう！"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:101
 msgid "Run the Sample OpMode"
-msgstr "サンプルオペモードを実行する"
+msgstr "サンプルOpModeを実行する"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:103
 msgid ""

@@ -362,9 +362,7 @@ msgid ""
 "**Green**: The default IMU type shown will reflect the actual unit in this "
 "Hub; fix this only if it was incorrectly modified. Your IMU OpModes "
 "**require a correct choice here**."
-msgstr ""
-" ** 緑色 ** : "
-"このハブに実際のユニットが反映されるデフォルトのIMUタイプが表示されます；誤って変更された場合のみ修正してください。あなたのIMUオペモードでは、ここで ** 正しい選択が必要です ** 。"
+msgstr " ** 緑色 ** : このハブに実際のユニットが反映されるデフォルトのIMUタイプが表示されます；誤って変更された場合のみ修正してください。あなたのIMUOpModeでは、ここで ** 正しい選択が必要です ** 。"
 
 #: ../../source/programming_resources/imu/imu.rst:151
 msgid ""
@@ -1426,7 +1424,7 @@ msgstr "サンプルOpMode"
 
 #: ../../source/programming_resources/imu/imu.rst:1099
 msgid "SDK 8.1 and newer contains Sample OpModes demonstrating the above."
-msgstr "SDK 8.1以降には、上記の機能を示すサンプル・オペモードが含まれています。"
+msgstr "SDK 8.1以降には、上記の機能を示すサンプル・OpModeが含まれています。"
 
 #: ../../source/programming_resources/imu/imu.rst:1106
 msgid "In Blocks, a simple example is called ``SensorIMU``."

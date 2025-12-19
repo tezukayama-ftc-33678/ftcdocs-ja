@@ -60,7 +60,7 @@ msgstr "ここに公開されている複数の自由な選択肢の中の一つ
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:19
 msgid "Utility OpMode"
-msgstr "ユーティリティオペモード"
+msgstr "ユーティリティOpMode"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:21
 msgid ""
@@ -139,7 +139,7 @@ msgstr "既存の警告"
 msgid ""
 "Running ``ConceptDoubleVision`` (or any AprilTag Sample OpModes) using a "
 "built-in RC phone camera, gives the following error message on both devices:"
-msgstr "内置RCスマホカメラを使用して「ConceptDoubleVision」（または任意のAprilTagサンプルオペモード）を実行すると、両方のデバイスで次のエラーメッセージが表示されます："
+msgstr "内置RCスマホカメラを使用して「ConceptDoubleVision」（または任意のAprilTagサンプルOpMode）を実行すると、両方のデバイスで次のエラーメッセージが表示されます："
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:64
 msgid "Camera Calibration Warning"

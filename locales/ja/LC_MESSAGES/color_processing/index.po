@@ -160,9 +160,7 @@ msgstr "始めるには時間はもう Enough! です！"
 msgid ""
 "Following this tutorial in order, first try the Sample OpModes for "
 ":doc:`Color Sensor <color-sensor/color-sensor>`."
-msgstr ""
-"このチュートリアルの順序に従って、まず :doc:`色センサーのサンプルオペモード <color-sensor/color-sensor>` "
-"を試してみてください。"
+msgstr "このチュートリアルの順序に従って、まず :doc:`色センサーのサンプルOpMode <color-sensor/color-sensor>` を試してみてください。"
 
 #: ../../source/color_processing/index.rst:76
 msgid ""

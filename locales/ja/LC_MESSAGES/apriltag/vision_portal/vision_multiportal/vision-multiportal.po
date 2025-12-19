@@ -80,11 +80,7 @@ msgid ""
 "<https://gist.github.com/WestsideRobotics/587b5c74375429ac4a929f690ae40940>`__"
 " to demonstrate AprilTag detections from **two cameras at the same time**. "
 "For a Java version, click ``Export to Java`` in the Blocks editing window."
-msgstr ""
-"FIRST Tech Challenge "
-"(FTC)ブロックスオペモードのサンプルは、 ** 2つのカメラから同時にAprilTag検出を示す ** ために`こちら "
-"<https://gist.github.com/WestsideRobotics/587b5c74375429ac4a929f690ae40940>`__"
-" に掲載されています。Java版が必要な場合は、ブロックス編集ウィンドウで「Export to Java」をクリックしてください。"
+msgstr "FIRST Tech Challenge (FTC)ブロックスOpModeのサンプルは、 ** 2つのカメラから同時にAprilTag検出を示す ** ために`こちら <https://gist.github.com/WestsideRobotics/587b5c74375429ac4a929f690ae40940>`__ に掲載されています。Java版が必要な場合は、ブロックス編集ウィンドウで「Export to Java」をクリックしてください。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:37
 msgid ""
@@ -102,11 +98,11 @@ msgstr "右クリックして新しいブラウザタブで画像を開き、大
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:49
 msgid "Multiportal Blocks OpMode"
-msgstr "マルチポートルブロックオペモード"
+msgstr "マルチポートルブロックOpMode"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:49
 msgid "Example Blocks Multiportal OpMode"
-msgstr "例 ブロックマルチポートルオペモード"
+msgstr "例 ブロックマルチポートルOpMode"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:51
 msgid ""

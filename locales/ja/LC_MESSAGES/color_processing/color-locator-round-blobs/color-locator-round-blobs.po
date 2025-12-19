@@ -680,8 +680,7 @@ msgid ""
 "This new feature is shown in the Sample OpMode called "
 "``ConceptVisionColorLocator_Circle``, in FTC Blocks and Java.  This sample "
 "exists alongside the existing ``_Rectangle`` Sample OpMode."
-msgstr ""
-"この新機能は、サンプル・オペモードとして「ConceptVisionColorLocator_Circle」で示されています。これはFTCブロックとJavaで利用可能です。このサンプルは既存の「ConceptVisionColorLocator_Rectangle」サンプル・オペモードと共に存在します。"
+msgstr "この新機能は、サンプル・OpModeとして「ConceptVisionColorLocator_Circle」で示されています。これはFTCブロックとJavaで利用可能です。このサンプルは既存の「ConceptVisionColorLocator_Rectangle」サンプル・OpModeと共に存在します。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:265
 msgid ""

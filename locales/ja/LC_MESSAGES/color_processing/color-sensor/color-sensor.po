@@ -106,9 +106,7 @@ msgid ""
 "For now, use the default webcam name, \"Webcam 1\".  If a different name is "
 "preferred, edit the Sample OpMode to agree with the exact webcam name in the"
 " robot configuration."
-msgstr ""
-"現時点では、デフォルトのウェブカメラ名「Webcam "
-"1」を使用してください。異なる名前が好ましい場合は、サンプルオペモードをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
+msgstr "現時点では、デフォルトのウェブカメラ名「Webcam 1」を使用してください。異なる名前が好ましい場合は、サンプルOpModeをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:53
 msgid ""
@@ -118,16 +116,16 @@ msgstr "設定を保存し、有効にします。その名前はペアリング
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:57
 msgid "Sample OpMode"
-msgstr "サンプルオペモード"
+msgstr "サンプルOpMode"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:60
 msgid "Opening the Sample OpMode"
-msgstr "サンプルオペモードを開く"
+msgstr "サンプルOpModeを開く"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:62
 msgid ""
 "To learn about opening the Sample OpMode, click the tab for Blocks or Java:"
-msgstr "サンプルオペモードを開く方法について知りたい場合は、ブロックまたはJavaのタブをクリックしてください："
+msgstr "サンプルOpModeを開く方法について知りたい場合は、ブロックまたはJavaのタブをクリックしてください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst
 msgid "Blocks"
@@ -155,8 +153,7 @@ msgstr ""
 msgid ""
 "At the top of the Blocks screen, you can change the type from \"TeleOp\" to "
 "\"Autonomous\", since this Sample OpMode does not use gamepads."
-msgstr ""
-"ブロックスクリーンの上部で、「TeleOp」から「Autonomus」にタイプを変更できます。このサンプルオペモードはゲームパッドを使用していません。"
+msgstr "ブロックスクリーンの上部で、「TeleOp」から「Autonomus」にタイプを変更できます。このサンプルOpModeはゲームパッドを使用していません。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:81
 msgid ""
@@ -206,7 +203,7 @@ msgstr "「Build」ボタンをクリックしてみましょう！"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:105
 msgid "Running the Sample OpMode"
-msgstr "サンプルオペモードの実行"
+msgstr "サンプルOpModeの実行"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:107
 msgid "On the Driver Station:"
@@ -348,7 +345,7 @@ msgstr "サンプルを編集"
 msgid ""
 "This Sample OpMode is designed for the user to select/edit **two inputs**\\ "
 ":"
-msgstr "このサンプルオペモードは、ユーザーが ** 2つの入力 ** を選択/編集できるように設計されています："
+msgstr "このサンプルOpModeは、ユーザーが ** 2つの入力 ** を選択/編集できるように設計されています："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:189
 msgid "define the Region of Interest (ROI)"
@@ -392,8 +389,7 @@ msgstr ""
 msgid ""
 "**The Blocks and Java OpModes contain detailed comments to guide you through"
 " these edits.**  They are not repeated in this tutorial."
-msgstr ""
-" ** ブロックとJavaオペモードには、これらの編集手順をガイドする詳細なコメントが含まれています。 ** これらはこのチュートリアルでは繰り返されません。"
+msgstr " ** ブロックとJavaOpModeには、これらの編集手順をガイドする詳細なコメントが含まれています。 ** これらはこのチュートリアルでは繰り返されません。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:209
 msgid "Building the VisionPortal"
@@ -508,7 +504,7 @@ msgstr "OpModeプログラミング"
 msgid ""
 "The Color Sensor part of your team's Autonomous OpMode might include these "
 "goals:"
-msgstr "あなたのチームのオートノマス・オペモードのカラーセンサ部分には、これらの目標が含まれる可能性があります："
+msgstr "あなたのチームのオートノマス・OpModeのカラーセンサ部分には、これらの目標が含まれる可能性があります："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:283
 msgid "Seek a color, using the code from this Sample OpMode"
@@ -603,7 +599,7 @@ msgstr ""
 msgid ""
 "Extracting the RGB components can be seen in the Telemetry portion of the "
 "Sample OpMode.  Click the Blocks or Java tab:"
-msgstr "RGB成分の抽出は、サンプルオペモードのテレメトリー部分で確認できます。ブロックまたはJavaタブをクリックしてください："
+msgstr "RGB成分の抽出は、サンプルOpModeのテレメトリー部分で確認できます。ブロックまたはJavaタブをクリックしてください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:365
 #: ../../source/color_processing/color-sensor/color-sensor.rst:380

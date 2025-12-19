@@ -211,9 +211,7 @@ msgid ""
 "the list of available sample op modes (see image above).  By selecting "
 "\"BlankLinearOpMode\" the OnBot Java editor will automatically generate a "
 "basic LinearOpMode framework for you."
-msgstr ""
-"サンプルドロップダウンリストコントロールを使用して、利用可能なサンプルオペモードの一覧から「BlankLinearOpMode」を選択してください（上記の図を参照）。この選択により、「BlankLinearOpMode」はOnBot"
-" Javaエディタが基本的なLinearOpModeフレームワークを自動生成します。"
+msgstr "サンプルドロップダウンリストコントロールを使用して、利用可能なサンプルOpModeの一覧から「BlankLinearOpMode」を選択してください（上記の図を参照）。この選択により、「BlankLinearOpMode」はOnBot Javaエディタが基本的なLinearOpModeフレームワークを自動生成します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:157
 msgid ""
@@ -541,11 +539,7 @@ msgstr "一度「START」ボタンを押すと、OpModeは継続して繰り返�
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:518
 msgid "Congratulations! You ran your first java op mode!"
-msgstr ""
-"Congratulations! You ran your first java op mode! \"\n"
-"->\n"
-"\n"
-"\"おめでとうございます！あなたは初めてのjavaオペモードを実行しました！"
+msgstr "Congratulations! You ran your first java op mode! \"\n->\n\n\"おめでとうございます！あなたは初めてのjavaOpModeを実行しました！"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:521
 msgid "Modifying Your Op Mode to Control a Motor"

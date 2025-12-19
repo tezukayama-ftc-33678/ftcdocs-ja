@@ -28,8 +28,7 @@ msgstr "AprilTag ID コード"
 msgid ""
 "After the AprilTag Processor and VisionPortal have been **initialized**, "
 "your OpMode can begin tag detection."
-msgstr ""
-"AprilTag プロセッサーと VisionPortal が ** 初期化 ** された後、あなたのオペモードはタグ検出を開始することができます。"
+msgstr "AprilTag プロセッサーと VisionPortal が ** 初期化 ** された後、あなたのOpModeはタグ検出を開始することができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:7
 msgid ""
