@@ -122,10 +122,7 @@ msgid ""
 "Name\"``. The Driver Station will then automatically activate the "
 "preselection feature and configure it to preselect the OpMode specified in "
 "the annotation."
-msgstr ""
-"もし毎回オートノミOUSプログラムを実行する際に手動でプリセレクト機能を有効化および設定する必要がないようにしたい場合は、OpModeの注釈に "
-"``preselectTeleOp=\"My TeleOp Name\"`` "
-"を追加して編集することができます。ドライバーステーションはその後、プリセレクト機能を自動的に有効化し、指定された注釈内のOpModeをプリセレクトします。"
+msgstr "もし毎回AUTOプログラムを実行する際に手動でプリセレクト機能を有効化および設定する必要がないようにしたい場合は、OpModeの注釈に ``preselectTeleOp=\"My TeleOp Name\"`` を追加して編集することができます。ドライバーステーションはその後、プリセレクト機能を自動的に有効化し、指定された注釈内のOpModeをプリセレクトします。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:80
 msgid "Use the preselectTeleOp parameter to specify a preselected op mode."
