@@ -2,8 +2,10 @@
 
 ## 概要
 
-このスクリプトは、Sphinxビルド時に発生する「Inline literal/emphasis」警告を修正するためのツールです。
-日本語テキストとインラインマークアップ（バッククォート `` ` `` やアスタリスク `*`）の間にスペースがないことが原因で発生する警告を自動的に修正します。
+このスクリプトは、Sphinxビルド時に発生する「Inline emphasis」警告を修正するためのツールです。
+日本語テキストとシングルアスタリスク `*`（イタリック/強調）の間にスペースがないことが原因で発生する警告を自動的に修正します。
+
+**重要**: このスクリプトは**シングルアスタリスク（`*`）のみ**を対象としています。バッククォート（`` ` ``）は複雑な構文（リンク、参照、コードブロック等）で使用されるため、自動修正の対象外としています。
 
 ## 問題の背景
 
@@ -19,15 +21,17 @@ WARNING: Inline emphasis start-string without end-string.
 
 **問題のある例：**
 ```
-msgstr "これは`サンプル`です"
 msgstr "これは*重要*な情報です"
+msgstr "*FIRST*Tech Challengeは素晴らしい"
 ```
 
 **修正後：**
 ```
-msgstr "これは `サンプル` です"
 msgstr "これは *重要* な情報です"
+msgstr "* FIRST * Tech Challengeは素晴らしい"
 ```
+
+**注意**: バッククォート（`` ` ``）については、リンク構文 `` `text <url>`_ `` やコードブロック ``` ``code`` ``` などの複雑な構文があるため、このスクリプトでは処理しません。
 
 ## スクリプトの仕様
 
@@ -36,11 +40,11 @@ msgstr "これは *重要* な情報です"
 1. **対象ファイル**: 指定したディレクトリ内のすべての `.po` ファイル
 2. **対象行**: `msgstr "..."` の行のみ（`msgid` は絶対に書き換えません）
 3. **置換ルール**:
-   - バッククォート `` ` `` の前後に半角スペースを挿入
-   - シングルアスタリスク `*` の前後に半角スペースを挿入
+   - シングルアスタリスク `*` の前後に半角スペースを挿入（日本語文字に隣接する場合のみ）
 4. **除外条件**:
    - ダブルアスタリスク `**` は太字指定なので、そのまま（スペースを入れない）
-   - エスケープされた `\*` や `` \` `` も対象外
+   - エスケープされた `\*` も対象外
+   - バッククォート `` ` `` は処理対象外
 5. **重複防止**: すでにスペースがある場合は、二重にスペースを入れません
 
 ### 処理アルゴリズム
@@ -144,7 +148,8 @@ $ python fix_inline_markup_spacing.py
 # ビルド前の警告数を記録
 cd docs
 make clean
-make html-ja 2>&1 | grep -c "WARNING" > /tmp/warnings_before.txt
+make html-ja 2>&1 | tee /tmp/build_before.log | grep -c "WARNING"
+grep -i "inline emphasis" /tmp/build_before.log | wc -l
 
 # スクリプト実行
 cd ..
@@ -153,12 +158,20 @@ python fix_inline_markup_spacing.py
 # ビルド後の警告数を記録
 cd docs
 make clean
-make html-ja 2>&1 | grep -c "WARNING" > /tmp/warnings_after.txt
+make html-ja 2>&1 | tee /tmp/build_after.log | grep -c "WARNING"
+grep -i "inline emphasis" /tmp/build_after.log | wc -l
 
 # 比較
-echo "修正前の警告数: $(cat /tmp/warnings_before.txt)"
-echo "修正後の警告数: $(cat /tmp/warnings_after.txt)"
+echo "修正前の合計警告数: $(grep -c "WARNING" /tmp/build_before.log)"
+echo "修正後の合計警告数: $(grep -c "WARNING" /tmp/build_after.log)"
+echo "修正前のInline emphasis警告: $(grep -i "inline emphasis" /tmp/build_before.log | wc -l)"
+echo "修正後のInline emphasis警告: $(grep -i "inline emphasis" /tmp/build_after.log | wc -l)"
 ```
+
+**実測結果（2025-12-19時点）:**
+- 修正前: 合計警告268個、Inline emphasis警告62個
+- 修正後: 合計警告246個、Inline emphasis警告40個
+- **削減: 合計22個、Inline emphasis 22個（35.5%削減）**
 
 ## 出力形式
 
@@ -186,11 +199,12 @@ Inline Markup Spacing Fix Script
 変更されたファイル数:   45
 
 修正内容:
-  バッククォート前にスペース追加:     87 箇所
-  バッククォート後にスペース追加:     92 箇所
-  シングルアスタリスク前にスペース追加: 123 箇所
-  シングルアスタリスク後にスペース追加: 118 箇所
-  合計修正箇所:                        420 箇所
+  シングルアスタリスク前にスペース追加: 122 箇所
+  シングルアスタリスク後にスペース追加: 164 箇所
+  合計修正箇所:                        286 箇所
+
+注意: バッククォート（`）は複雑な構文で使用されるため、
+このスクリプトでは処理していません。手動で確認・修正してください。
 
 ✓ ファイルの変更が完了しました
 
@@ -205,8 +219,6 @@ Inline Markup Spacing Fix Script
 
 ```
 ✓ ai/innovation_corner/innovation-corner.po
-  バッククォート前スペース追加: 3 箇所
-  バッククォート後スペース追加: 3 箇所
   アスタリスク前スペース追加: 5 箇所
   アスタリスク後スペース追加: 5 箇所
 ```
@@ -330,7 +342,7 @@ python fix_inline_markup_spacing.py --po-dir /tmp/test_locales/ja/LC_MESSAGES
 
 ### Q5: エスケープ文字が壊れた
 
-**A**: スクリプトは `\*` と `` \` `` を保護しますが、万が一問題が発生した場合：
+**A**: スクリプトは `\*` を保護しますが、万が一問題が発生した場合：
 
 ```bash
 # 変更を取り消し
@@ -340,12 +352,24 @@ git checkout locales/
 python fix_inline_markup_spacing.py
 ```
 
+### Q6: バッククォート（`）の警告が残る
+
+**A**: このスクリプトはバッククォートを処理しません。バッククォートは以下のような複雑な構文で使用されるため、自動修正すると構文が壊れる可能性が高いためです：
+
+- インラインコード: `` `code` ``
+- リンク: `` `text <url>`_ ``
+- 参照: `` `reference` ``
+- コードブロック: ``` ``code`` ```
+
+バッククォート関連の警告は、手動で確認・修正してください。
+
 ## 注意事項
 
 1. **バックアップ**: 初回実行前に、必ずバックアップを取るか、gitでコミットしてください
 2. **Dry-run推奨**: 必ず `--dry-run` で動作確認してから本実行してください
 3. **msgidは変更されません**: スクリプトは `msgstr` のみを変更し、`msgid`（原文）には一切手を加えません
-4. **手動確認**: 自動修正後も、一部のケースでは手動での確認・調整が必要な場合があります
+4. **シングルアスタリスクのみ対象**: バッククォート（`` ` ``）は構文の複雑さから対象外としています
+5. **手動確認**: 自動修正後も、バッククォート関連の警告は手動で確認・修正が必要です
 
 ## 関連スクリプト
 
