@@ -44,7 +44,7 @@ msgid ""
 "Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on"
 " the *FIRST* Website."
 msgstr ""
-"自検査画面は、FTCルールに基づく制御システムに関連するデバイスの状態を一瞬で把握できる概要を提供します。これらのルールは、*FIRST*ウェブサイトの`現在のゲームとシーズン資料ページ"
+"自検査画面は、FTCルールに基づく制御システムに関連するデバイスの状態を一瞬で把握できる概要を提供します。これらのルールは、 *FIRST* ウェブサイトの`現在のゲームとシーズン資料ページ"
 " <https://ftc-resources.firstinspires.org/files/ftc/game>`_ "
 "にある競技マニュアルに記載されています。"
 
@@ -140,7 +140,7 @@ msgid ""
 "versions have the latest bug fixes and enhancements. For example, version "
 "1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi."
 msgstr ""
-"*FIRST*は、ファームウェア、Androidオペレーティングシステム、FTCアプリケーションの最新バージョンを使用することを推奨しますが、必須ではありません。現在のバージョンには最新のバグ修正と改善が含まれています。例えば、 ** コントロールハブAndroid"
+"*FIRST* は、ファームウェア、Androidオペレーティングシステム、FTCアプリケーションの最新バージョンを使用することを推奨しますが、必須ではありません。現在のバージョンには最新のバグ修正と改善が含まれています。例えば、 ** コントロールハブAndroid"
 " OS ** のバージョン1.1.6では、Wi-Fiに関する修正が施されています。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:55
@@ -318,7 +318,7 @@ msgid ""
 "device should fix the invalid inspection item."
 msgstr ""
 "Item 14 アプリケーションインストール ``ドライバーステーション`` "
-"には、ドライバーステーションアプリのバージョン番号が表示されるべきです。*FIRST*はチームに現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。デバイスシステム日付が無効または将来的なものである場合、ここでは「ドライバーステーションアプリケーションは古びています」というメッセージとともに無効な検査項目が表示されることがあります。デバイスの日付を修正することで、この無効な検査項目は解決されます。"
+"には、ドライバーステーションアプリのバージョン番号が表示されるべきです。 *FIRST* はチームに現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。デバイスシステム日付が無効または将来的なものである場合、ここでは「ドライバーステーションアプリケーションは古びています」というメッセージとともに無効な検査項目が表示されることがあります。デバイスの日付を修正することで、この無効な検査項目は解決されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:111
 msgid ""
@@ -442,7 +442,7 @@ msgid ""
 "recommends but does not require that teams use the currently available "
 "version."
 msgstr ""
-"アイテム4「制御ハブOSバージョン」は少なくとも1.1.6であるべきです。*FIRST*はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+"アイテム4「制御ハブOSバージョン」は少なくとも1.1.6であるべきです。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:157
 msgid "Item 5 ``Android Version`` is probably 7.1.2 for a Control Hub."
@@ -456,7 +456,7 @@ msgid ""
 "version of the RC app. *FIRST* recommends but does not require that teams "
 "use the currently available version."
 msgstr ""
-"アイテム6「ハブファームウェア」はハブのアドレスとファームウェアレベルをリストします。この例では制御ハブが1つ表示されていますが、拡張ハブもここにリストできます。チェックマークが表示されている場合、すべてのファームウェアは現在のRCアプリケーションのバージョンに基づいて最新です。*FIRST*はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+"アイテム6「ハブファームウェア」はハブのアドレスとファームウェアレベルをリストします。この例では制御ハブが1つ表示されていますが、拡張ハブもここにリストできます。チェックマークが表示されている場合、すべてのファームウェアは現在のRCアプリケーションのバージョンに基づいて最新です。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:162
 msgid "Item 7 shows the ``Battery Level`` of the device being reported."
@@ -507,7 +507,7 @@ msgid ""
 "available version."
 msgstr ""
 "アイテム13 "
-"アプリケーションインストール「ロボットコントローラ」にRCアプリのバージョンが表示されるべきです。*FIRST*はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+"アプリケーションインストール「ロボットコントローラ」にRCアプリのバージョンが表示されるべきです。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:173
 msgid ""

@@ -2,20 +2,26 @@
 r"""
 Inline Markup Spacing Fix Script for .po Files
 
-This script adds spaces around backticks (`) and single asterisks (*) in msgstr entries
-of .po files to fix Sphinx inline literal/emphasis warnings when Japanese text is
-adjacent to markup characters.
+This script adds spaces around single asterisks (*) in msgstr entries of .po files 
+to fix Sphinx inline emphasis warnings when Japanese text is adjacent to markup characters.
+
+NOTE: This script focuses on single asterisks only, as backtick handling is complex
+and can break various reStructuredText constructs (links, code blocks, etc.).
 
 処理仕様:
 - 対象ファイル: 指定したディレクトリ内のすべての .po ファイル
 - 対象行: msgstr "..." の行のみ（msgid は絶対に書き換えない）
 - 置換ルール:
-  * バッククォート: ` の前後に半角スペースを挿入
-  * シングルアスタリスク: * の前後に半角スペースを挿入
+  * シングルアスタリスク: * の前後に半角スペースを挿入（日本語文字に隣接する場合のみ）
 - 除外条件:
   * アスタリスクが2つ連続 ** は太字なのでそのまま（スペースを入れない）
-  * エスケープされた \* や \` も対象外
+  * エスケープされた \* も対象外
+  * リンク構文内は対象外
 - 重複防止: すでにスペースがある場合は二重にスペースを入れない
+
+バッククォート（`）の処理について:
+バッククォートはreStructuredTextで多様な用途（インラインコード、リンク、参照等）に
+使用されるため、自動修正は推奨されません。手動で確認・修正してください。
 """
 
 import os
@@ -49,11 +55,6 @@ def count_patterns_in_msgstr(content):
         
         # msgstr内の行のみをカウント
         if in_msgstr:
-            # 日本語文字に隣接するバッククォート（スペースなし）
-            # [ひらがな、カタカナ、漢字]`  または  `[ひらがな、カタカナ、漢字]
-            counts['backtick_no_space_before'] += len(re.findall(r'[ぁ-んァ-ヶー一-龠々]`', line))
-            counts['backtick_no_space_after'] += len(re.findall(r'`[ぁ-んァ-ヶー一-龠々]', line))
-            
             # 日本語文字に隣接するシングルアスタリスク（**は除外）
             # [ひらがな、カタカナ、漢字]*（直後が*でない） または *[ひらがな、カタカナ、漢字]（直前が*でない）
             counts['asterisk_no_space_before'] += len(re.findall(r'[ぁ-んァ-ヶー一-龠々]\*(?!\*)', line))
@@ -64,14 +65,15 @@ def count_patterns_in_msgstr(content):
 
 def fix_line_spacing(line):
     """
-    1行内のバッククォートとアスタリスクの前後にスペースを追加
+    1行内のシングルアスタリスクの前後にスペースを追加
+    
+    バッククォートは複雑な構文で使用されるため、このスクリプトでは処理しません。
     
     処理順序:
-    1. エスケープされた文字を一時的にプレースホルダーに置換
-    2. バッククォートの前後にスペースを追加
-    3. **（太字）を一時的にプレースホルダーに置換
-    4. シングルアスタリスクの前後にスペースを追加
-    5. プレースホルダーを元に戻す
+    1. エスケープされたアスタリスクを一時的にプレースホルダーに置換
+    2. **（太字）を一時的にプレースホルダーに置換
+    3. 日本語文字に隣接するシングルアスタリスクの前後にスペースを追加
+    4. プレースホルダーを元に戻す
     
     Args:
         line: 処理対象の行
@@ -79,32 +81,25 @@ def fix_line_spacing(line):
     Returns:
         スペースが追加された行
     """
-    # エスケープされた文字を一時的に保護
-    ESCAPED_BACKTICK = "<<<ESCAPED_BACKTICK>>>"
+    # エスケープされたアスタリスクを一時的に保護
     ESCAPED_ASTERISK = "<<<ESCAPED_ASTERISK>>>"
-    
-    line = line.replace(r'\`', ESCAPED_BACKTICK)
     line = line.replace(r'\*', ESCAPED_ASTERISK)
-    
-    # バッククォートの前後にスペースを追加
-    # 前にスペースがない場合のみ追加（日本語文字、英数字、記号の後）
-    line = re.sub(r'([^\s])`', r'\1 `', line)
-    # 後にスペースがない場合のみ追加
-    line = re.sub(r'`([^\s])', r'` \1', line)
     
     # **（太字）を一時的に保護
     DOUBLE_ASTERISK = "<<<DOUBLE_ASTERISK>>>"
     line = line.replace('**', DOUBLE_ASTERISK)
     
-    # シングルアスタリスクの前後にスペースを追加
-    # 前にスペースがない場合のみ追加
-    line = re.sub(r'([^\s])\*', r'\1 *', line)
-    # 後にスペースがない場合のみ追加
-    line = re.sub(r'\*([^\s])', r'* \1', line)
+    # 日本語文字パターン（ひらがな、カタカナ、漢字、全角記号）
+    japanese_char = r'[ぁ-んァ-ヶー一-龠々〜～、。！？]'
+    
+    # シングルアスタリスクの前後にスペースを追加（日本語文字に隣接する場合のみ）
+    # 日本語文字の後にアスタリスク（スペースなし）→ スペースを追加
+    line = re.sub(f'({japanese_char})\\*', r'\1 *', line)
+    # アスタリスクの後に日本語文字（スペースなし）→ スペースを追加
+    line = re.sub(f'\\*({japanese_char})', r'* \1', line)
     
     # プレースホルダーを元に戻す
     line = line.replace(DOUBLE_ASTERISK, '**')
-    line = line.replace(ESCAPED_BACKTICK, r'\`')
     line = line.replace(ESCAPED_ASTERISK, r'\*')
     
     return line
@@ -177,8 +172,6 @@ def process_po_file(filepath, dry_run=False):
             'before': before_counts,
             'after': after_counts,
             'fixed': {
-                'backtick_before': before_counts['backtick_no_space_before'] - after_counts['backtick_no_space_before'],
-                'backtick_after': before_counts['backtick_no_space_after'] - after_counts['backtick_no_space_after'],
                 'asterisk_before': before_counts['asterisk_no_space_before'] - after_counts['asterisk_no_space_before'],
                 'asterisk_after': before_counts['asterisk_no_space_after'] - after_counts['asterisk_no_space_after'],
             }
@@ -240,6 +233,12 @@ def main():
         help='詳細なログを表示'
     )
     
+    parser.add_argument(
+        '--version',
+        action='version',
+        version='%(prog)s 1.0 - Asterisk spacing fix only'
+    )
+    
     args = parser.parse_args()
     
     # ディレクトリの存在確認
@@ -258,7 +257,8 @@ def main():
     # ヘッダー表示
     print("=" * 80)
     print("Inline Markup Spacing Fix Script")
-    print("バッククォート（`）とシングルアスタリスク（*）の前後にスペースを追加")
+    print("シングルアスタリスク（*）の前後にスペースを追加")
+    print("（注：バッククォート（`）は複雑なため処理対象外）")
     print("=" * 80)
     print(f"\n処理対象ディレクトリ: {po_dir}")
     print(f"検出された.poファイル数: {len(po_files)}")
@@ -287,8 +287,6 @@ def main():
             if args.verbose or any(stats['fixed'].values()):
                 print(f"✓ {relative_path}")
                 if args.verbose:
-                    print(f"  バッククォート前スペース追加: {stats['fixed']['backtick_before']} 箇所")
-                    print(f"  バッククォート後スペース追加: {stats['fixed']['backtick_after']} 箇所")
                     print(f"  アスタリスク前スペース追加: {stats['fixed']['asterisk_before']} 箇所")
                     print(f"  アスタリスク後スペース追加: {stats['fixed']['asterisk_after']} 箇所")
                     print()
@@ -300,11 +298,11 @@ def main():
     print(f"処理ファイル数:         {len(po_files)}")
     print(f"変更されたファイル数:   {total_files_modified}")
     print(f"\n修正内容:")
-    print(f"  バッククォート前にスペース追加:     {total_fixes['backtick_before']} 箇所")
-    print(f"  バッククォート後にスペース追加:     {total_fixes['backtick_after']} 箇所")
     print(f"  シングルアスタリスク前にスペース追加: {total_fixes['asterisk_before']} 箇所")
     print(f"  シングルアスタリスク後にスペース追加: {total_fixes['asterisk_after']} 箇所")
     print(f"  合計修正箇所:                        {sum(total_fixes.values())} 箇所")
+    print(f"\n注意: バッククォート（`）は複雑な構文で使用されるため、")
+    print(f"このスクリプトでは処理していません。手動で確認・修正してください。")
     
     if args.dry_run:
         print("\n⚠️  DRY-RUNモードで実行されたため、ファイルは変更されていません")

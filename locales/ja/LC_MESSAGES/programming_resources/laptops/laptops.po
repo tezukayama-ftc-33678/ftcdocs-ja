@@ -39,7 +39,7 @@ msgid ""
 "requirements for that computer system."
 msgstr ""
 "*FIRST*\\ :sup:`®` のプログラム、たとえば *FIRST*\\ :sup:`®` LEGO\\ :sup:`®` "
-"リーグ、*FIRST*\\ :sup:`®` Tech Challenge、および *FIRST*\\ :sup:`®` "
+"リーグ、 *FIRST*\\ :sup:`®` Tech Challenge、および *FIRST*\\ :sup:`®` "
 "ロボティクス競技大会は、参加するチームの多様性と同じくらい独特です。この独特さは、プログラムに提供される技術製品の幅広い種類、各プログラムの独自の目標を管理するために必要なハードウェアとソフトウェア、そしてチームが参加し優勝するために有用とするツールや手法の常に進化する景観によって一部形成されています。プログラム間で共通しているのは、ソフトウェア開発、設計、および協力のためにコンピュータプラットフォームを持つチームの必要性です。このドキュメントでは、そのコンピューターシステムのハードウェアとオペレーティングシステム要件についての推奨事項を提供します。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:16
@@ -101,7 +101,7 @@ msgstr ""
 "Challenge は、`LEGO\\ ® Education SPIKE\\ ™ Prime "
 "<https://education.lego.com/en-us/product-resources/spike-"
 "prime/downloads/system-requirements/>`__ "
-"プラットフォームを使用し、「INIT」ボタンを押して始動します。「START」ボタンを押して開始します。また、*FIRST* LEGO League "
+"プラットフォームを使用し、「INIT」ボタンを押して始動します。「START」ボタンを押して開始します。また、 *FIRST* LEGO League "
 "Explore は、`LEGO\\ ® Education SPIKE\\ ™ Essential "
 "<https://education.lego.com/en-us/products/lego-education-spike-essential-"
 "set/45345/>`__ "
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:51
 msgid "*Recommended for Software Development:*"
-msgstr "*ソフトウェア開発におすすめ：*"
+msgstr "* ソフトウェア開発におすすめ：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:53
 #: ../../source/programming_resources/laptops/laptops.rst:98
@@ -184,13 +184,13 @@ msgstr ""
 "<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
 "hub-basics>`__ と `REV Driver Hub <https://docs.revrobotics.com/duo-"
 "control/control-system-overview/driver-hub-specifications>`__ "
-"です。これらのプラットフォームは独自のオペレーティングシステムとアプリケーション要件を持っていますが、ほとんどのハードウェアプラットフォームで基本的な機能の大半を実行することは可能です（ただし、より多くの手動ステップが必要となる場合があります）。*FIRST*"
+"です。これらのプラットフォームは独自のオペレーティングシステムとアプリケーション要件を持っていますが、ほとんどのハードウェアプラットフォームで基本的な機能の大半を実行することは可能です（ただし、より多くの手動ステップが必要となる場合があります）。 *FIRST*"
 " Tech "
 "Challengeでは、チームはコンピュータをソフトウェア開発とCADの2つの基本的な目的のために使用します。これらの2つの用途におけるチームの好みが必要とするハードウェアを形成します。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:90
 msgid "*Recommended for Software Development and CAD:*"
-msgstr "*ソフトウェア開発およびCADに推奨：*"
+msgstr "* ソフトウェア開発およびCADに推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:92
 #: ../../source/programming_resources/laptops/laptops.rst:178
@@ -201,7 +201,7 @@ msgstr "`Windowsパフォーマンスノートパソコン`_"
 #: ../../source/programming_resources/laptops/laptops.rst:96
 #: ../../source/programming_resources/laptops/laptops.rst:193
 msgid "*Recommended for Software Development Only:*"
-msgstr "*ソフトウェア開発用に推奨されます:*"
+msgstr "* ソフトウェア開発用に推奨されます:*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:100
 #: ../../source/programming_resources/laptops/laptops.rst:197
@@ -274,7 +274,7 @@ msgstr ""
 "<https://www.ni.com/docs/en-US/bundle/roborio-20-specs/page/specs.html>`__ "
 "です。このプラットフォームには、競技におけるコンピュータハードウェアに対する一意の要件があり、これはソフトウェア開発用の要件とは異なる場合があります。プログラミング環境によって異なります。同様に"
 " *FIRST* Tech Challenge "
-"のチームは、ソフトウェア開発とCADのためにソフトウェア開発コンピュータを使用していますが、これらの2つの用途におけるチームの好みは必要とするハードウェアを形成します。しかし、*FIRST*"
+"のチームは、ソフトウェア開発とCADのためにソフトウェア開発コンピュータを使用していますが、これらの2つの用途におけるチームの好みは必要とするハードウェアを形成します。しかし、 *FIRST*"
 " ロボティクス競技会では、コンピュータには2つの役割があります - "
 "ソフトウェア開発と設計開発プラットフォーム、またはドライバーステーションプラットフォームなど - "
 "これらの役割もコンピュータハードウェアの要件を形成します。"
@@ -322,12 +322,12 @@ msgid ""
 "depending on the use of CAD the hardware requirements are slightly "
 "different:"
 msgstr ""
-"如き *FIRST* Tech Challenge、*FIRST* Robotics "
+"如き *FIRST* Tech Challenge、 *FIRST* Robotics "
 "Competitionチームはソフトウェア開発とCADのためにソフトウェア開発用および設計用ノートパソコンを使用します。CADの使用に応じてハードウェア要件は若干異なります："
 
 #: ../../source/programming_resources/laptops/laptops.rst:188
 msgid "*Recommended for the Software and Design Development role with CAD:*"
-msgstr "*ソフトウェアおよび設計開発の役割に推奨されます（CADを使用）：*"
+msgstr "* ソフトウェアおよび設計開発の役割に推奨されます（CADを使用）：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:210
 msgid ""
@@ -360,7 +360,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:225
 msgid "*Windows Operating System*"
-msgstr "*Windowsオペレーティングシステム*"
+msgstr "*Windowsオペレーティングシステム *"
 
 #: ../../source/programming_resources/laptops/laptops.rst:227
 msgid ""
@@ -374,7 +374,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:234
 msgid "*USB Ports*"
-msgstr "*USBポート*"
+msgstr "*USBポート *"
 
 #: ../../source/programming_resources/laptops/laptops.rst:236
 msgid "Laptops should have at least 2 available physical USB-A ports."
@@ -415,7 +415,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:257
 msgid "*SSD Hard Drive*"
-msgstr "*SSDハードドライブ*"
+msgstr "*SSDハードドライブ *"
 
 #: ../../source/programming_resources/laptops/laptops.rst:259
 msgid ""

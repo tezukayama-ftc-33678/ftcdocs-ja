@@ -226,7 +226,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:120
 msgid "*Repository Location*"
-msgstr "*リポジトリの場所*"
+msgstr "* リポジトリの場所 *"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:118
 msgid ""
@@ -234,11 +234,11 @@ msgid ""
 " shown in the path within GitHub. This location is only used as a reference "
 "within GitHub, where the full *repository location* is sometimes needed."
 msgstr ""
-"このファイルがリポジトリ内にある位置です。GitHubのパス内で便利に表示されます。この位置はGitHub内で参照用として使用され、全般的には*リポジトリの位置*が必要な場合があります。"
+"このファイルがリポジトリ内にある位置です。GitHubのパス内で便利に表示されます。この位置はGitHub内で参照用として使用され、全般的には * リポジトリの位置 * が必要な場合があります。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:128
 msgid "*Document Location*"
-msgstr "*ドキュメントの位置*\"\\n"
+msgstr "* ドキュメントの位置 *\"\\n"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:123
 msgid ""
@@ -252,7 +252,7 @@ msgstr ""
 "この文書が存在する最終的なウェブサイト内の位置です。ファイルのドキュメント位置は、リポジトリ位置から ``rst-"
 "primer/docs/source`` を除いたものと同じになります。例えば、リポジトリ位置が ``rst-"
 "primer/docs/source/tutorial/overview/overview.rst`` の場合、ドキュメント位置は "
-"``/tutorial/overview/overview.rst`` となります。この *ドキュメント位置* を文書内で使用します。"
+"``/tutorial/overview/overview.rst`` となります。この * ドキュメント位置 * を文書内で使用します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:130
 msgid ""
@@ -274,7 +274,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:147
 msgid ":octicon:`file-directory;1em;sd-text-info` *_assets*"
-msgstr ":octicon:`file-directory;1em;sd-text-info` *_資産*"
+msgstr ":octicon:`file-directory;1em;sd-text-info` *_資産 *"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:140
 msgid ""
@@ -325,7 +325,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:169
 msgid ":octicon:`file;1em;sd-text-info` *conf.py*"
-msgstr ":octicon:`file;1em;sd-text-info` は、*conf.py* の情報です。"
+msgstr ":octicon:`file;1em;sd-text-info` は、 *conf.py* の情報です。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:166
 msgid ""
@@ -340,7 +340,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:178
 msgid ":octicon:`file;1em;sd-text-info` *index.rst*"
-msgstr ":octicon:`file;1em;sd-text-info` *インデックス.rst*"
+msgstr ":octicon:`file;1em;sd-text-info` * インデックス.rst*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:172
 msgid ""
@@ -352,7 +352,7 @@ msgid ""
 " the website, but **this** particular file is the master index file for the "
 "website."
 msgstr ""
-"ここにある「ルート」ドキュメンテーションの位置に存在する ** index.rst ** ファイルは、ドキュメンテーションのHTML版の主要な組織とレイアウトファイルです。この ** index.rst ** は、通常HTMLウェブサイトの左側パネルで見られる*目次*(Table"
+"ここにある「ルート」ドキュメンテーションの位置に存在する ** index.rst ** ファイルは、ドキュメンテーションのHTML版の主要な組織とレイアウトファイルです。この ** index.rst ** は、通常HTMLウェブサイトの左側パネルで見られる * 目次 *(Table"
 " of "
 "Contents)を定義し、またウェブサイトのトップページのコンテンツも定義します。ウェブサイト内には複数の`index.rst`ファイルが存在するかもしれませんが、 ** この ** ファイルはウェブサイトのマスターアイデックスファイルです。"
 
@@ -455,7 +455,7 @@ msgstr ""
 msgid ""
 "Here is a view of all of the folders and files that are involved within the "
 "structure of the *Gracious Professionalism* content:"
-msgstr "以下は、*Gracious Professionalism* コンテンツの構造内に含まれるすべてのフォルダとファイルのビューです："
+msgstr "以下は、 *Gracious Professionalism* コンテンツの構造内に含まれるすべてのフォルダとファイルのビューです："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:229
 msgid "ftcdocs Gracious Professionalism structure"
@@ -510,7 +510,7 @@ msgid ""
 " within the main site ``index.rst`` file (we'll see *how* it's included a "
 "little later)."
 msgstr ""
-"このコンテンツは高レベルの情報を含む単一ページであるため、メインサイトの ``index.rst`` ファイルに含まれています（*どのように*含まれているかは後で説明します）。"
+"このコンテンツは高レベルの情報を含む単一ページであるため、メインサイトの ``index.rst`` ファイルに含まれています（* どのように * 含まれているかは後で説明します）。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:250
 msgid ""

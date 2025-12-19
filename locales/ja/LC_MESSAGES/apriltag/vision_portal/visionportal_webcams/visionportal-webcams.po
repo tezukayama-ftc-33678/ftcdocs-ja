@@ -120,7 +120,7 @@ msgid ""
 "*FIRST* Tech Challenge."
 msgstr ""
 "The Logitech C270はLogitechの低価格 "
-"Webcamシリーズです。非常に安価で、比較的信頼性が高くなっています。C270は*FTC* Tech Challenge用の主力Webcamです。"
+"Webcamシリーズです。非常に安価で、比較的信頼性が高くなっています。C270は *FTC* Tech Challenge用の主力Webcamです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:42
 msgid ""
@@ -208,7 +208,7 @@ msgid ""
 "The audio quality of the C310 is slightly better than the C270, but again "
 "audio is not generally a factor in *FIRST* Tech Challenge."
 msgstr ""
-"C310の音質はC270よりもわずかに優れていますが、また音声は*FIRST* Tech Challengeにおいて一般的には大きな要素ではありません。"
+"C310の音質はC270よりもわずかに優れていますが、また音声は *FIRST* Tech Challengeにおいて一般的には大きな要素ではありません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:84
 msgid ""
@@ -335,7 +335,7 @@ msgid ""
 "with a \"don't fix what isn't broken\" mentality. It defines the \"budget\" "
 "part of Microsoft's \"budget\" line of webcams."
 msgstr ""
-"Microsoft LifeCam HD-3000は、数年間*FIRST* Robotics "
+"Microsoft LifeCam HD-3000は、数年間 *FIRST* Robotics "
 "Competitionで主流のカメラとして使用されており、おそらく地元のチームが持っている可能性があります。HD-3000は10年以上使われており、「機能していないものは修正しない」という考え方で開発されました。これはMicrosoftの「予算」ラインのウェブカムを定義する「予算」部分を表しています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:150
@@ -556,7 +556,7 @@ msgid ""
 " the *FIRST* Tech Challenge SDK, including resolutions with built-in "
 "calibrations and those without calibrations."
 msgstr ""
-"以下は、*FIRST* Tech Challenge SDK でサポートされている主要なカメラとその解像度（内蔵校正付きやなしを含む）のまとめです。"
+"以下は、 *FIRST* Tech Challenge SDK でサポートされている主要なカメラとその解像度（内蔵校正付きやなしを含む）のまとめです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_webcams/visionportal-webcams.rst:254
 msgid "Cameras and Supported Resolutions"

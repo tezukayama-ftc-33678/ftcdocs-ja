@@ -254,7 +254,7 @@ msgstr ""
 msgid ""
 "You can select the operating channel for the Control Hub from the *Manage* "
 "page."
-msgstr "制御ハブの操作チャンネルは、*管理*ページから選択できます。"
+msgstr "制御ハブの操作チャンネルは、 * 管理 * ページから選択できます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:139
 msgid "Changing the WiFi Channel Instructions"
@@ -363,7 +363,7 @@ msgid ""
 "control/managing-the-control-system/updating-firmware#using-the-robot-"
 "controller-console>`__."
 msgstr ""
-"代替手段として、接続されたノートブックパソコンやDriver Station（DS）アプリから*Manage*インターフェースを使用して、Control"
+"代替手段として、接続されたノートブックパソコンやDriver Station（DS）アプリから *Manage* インターフェースを使用して、Control"
 " "
 "Hubのファームウェアをアップロードしたり、搭載されているまたはアップロードされたバージョンを使って更新することもできます。新しいファームウェアイメージは、`REV"
 " Roboticsウェブサイト <https://docs.revrobotics.com/duo-control/managing-the-"
@@ -403,7 +403,7 @@ msgstr ""
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:226
 msgid ""
 "An *Upload* button should appear after you successfully selected a file."
-msgstr "ファイルを選択した後、*アップロード* ボタンが表示されるべきです。"
+msgstr "ファイルを選択した後、 * アップロード * ボタンが表示されるべきです。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:228
 msgid ""
@@ -451,7 +451,7 @@ msgid ""
 "firmware version. Press the *Update Expansion Hub Firmware* button to start "
 "the update process."
 msgstr ""
-"もし現在の拡張ハブにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を表示するべきです。*拡張ハブファームウェアを更新*ボタンを押して更新プロセスを開始してください。"
+"もし現在の拡張ハブにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を表示するべきです。 * 拡張ハブファームウェアを更新 * ボタンを押して更新プロセスを開始してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:272
 msgid ""
@@ -560,7 +560,7 @@ msgstr "APKファイルが成功して選択された場合、更新\\\"INIT\\\"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:340
 msgid "Click on the *Update* button to begin the update process."
-msgstr "*更新*ボタンをクリックして、更新プロセスを開始します。"
+msgstr "* 更新 * ボタンをクリックして、更新プロセスを開始します。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:347
 msgid ""
@@ -601,7 +601,7 @@ msgid ""
 "your computer to the Control Hub's network, you should see an *installed "
 "successfully* message on the *Manage* web page."
 msgstr ""
-"更新プロセスが完了し、コンピュータを制御ハブのネットワークに再接続した場合、*管理*ウェブページで「インストールに成功しました」と表示されるべきです。"
+"更新プロセスが完了し、コンピュータを制御ハブのネットワークに再接続した場合、 * 管理 * ウェブページで「インストールに成功しました」と表示されるべきです。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:373
 msgid "Uploading a Custom Webcam Calibration File"
@@ -623,8 +623,8 @@ msgid ""
 "file can be found `here <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__."
 msgstr ""
-"-calibrationファイルの内容がどのようなものであるべきかをコメント付きで示す例は、Android Studioプロジェクトフォルダに含まれている*teamwebcamcalibrations.xml*という名前のファイルにあります。この例の calibration ファイルは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ で見つけることができます。\n"
-"+ calibrationファイルの内容がどのようなものであるべきかをコメント付きで示す例は、Android Studioプロジェクトフォルダに含まれている*teamwebcamcalibrations.xml*という名前のファイルにあります。この例の calibration ファイルは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ で見つけることができます。"
+"-calibrationファイルの内容がどのようなものであるべきかをコメント付きで示す例は、Android Studioプロジェクトフォルダに含まれている *teamwebcamcalibrations.xml* という名前のファイルにあります。この例の calibration ファイルは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ で見つけることができます。\n"
+"+ calibrationファイルの内容がどのようなものであるべきかをコメント付きで示す例は、Android Studioプロジェクトフォルダに含まれている *teamwebcamcalibrations.xml* という名前のファイルにあります。この例の calibration ファイルは `こちら <https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__ で見つけることができます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:386
 msgid "Uploading a Custom Webcam Calibration File Instructions"
@@ -634,7 +634,7 @@ msgstr "カスタムウェブカメラ校正ファイルのアップロード手
 msgid ""
 "On the *Manage* page, click on the *Select Webcam Calibration File* button "
 "to select the calibration file."
-msgstr "管理ページで、*Webcam校正ファイルを選択* ボタンをクリックして校正ファイルを選択します。"
+msgstr "管理ページで、 *Webcam校正ファイルを選択 * ボタンをクリックして校正ファイルを選択します。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:395
 msgid "An *Upload* button should appear if a file was successfully selected."
@@ -723,7 +723,7 @@ msgid ""
 "underway."
 msgstr ""
 "3. "
-"*更新&再起動*ボタンをクリックして、更新プロセスを開始してください。OSファイルのアップロードが制御ハブに完了するまでお待ちください。ファイルが比較的大きいため、アップロードが完了するまで数分かかることがあります。プロセスが進行中は制御ハブをオフしないでください。"
+"* 更新&再起動 * ボタンをクリックして、更新プロセスを開始してください。OSファイルのアップロードが制御ハブに完了するまでお待ちください。ファイルが比較的大きいため、アップロードが完了するまで数分かかることがあります。プロセスが進行中は制御ハブをオフしないでください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:453
 msgid ""
@@ -731,7 +731,7 @@ msgid ""
 "indicating that the device is being rebooted and the update is being "
 "installed."
 msgstr ""
-"4. アップロードが成功した場合、*Manage* ページにはデバイスが再起動され serta "
+"4. アップロードが成功した場合、 *Manage* ページにはデバイスが再起動され serta "
 "更新がインストールされていることを示すメッセージが表示されます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:462
@@ -795,8 +795,8 @@ msgid ""
 " to address \"192.168.43.1:8080\":"
 msgstr ""
 "1. ロボットコントローラ接続情報ページを表示できるように、あなたのノートブックが制御ホブのProgram & "
-"Manage無線ネットワークに接続されていることを確認してください。ネットワークに接続されている場合、アドレス\"192.168.43.1:8080\"にアクセスすると*Robot"
-" Controller Connection Info*ページを見ることができます："
+"Manage無線ネットワークに接続されていることを確認してください。ネットワークに接続されている場合、アドレス\"192.168.43.1:8080\"にアクセスすると *Robot"
+" Controller Connection Info* ページを見ることができます："
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:509
 msgid ""

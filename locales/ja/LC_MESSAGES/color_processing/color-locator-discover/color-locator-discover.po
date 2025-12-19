@@ -94,11 +94,11 @@ msgstr "設定"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:42
 msgid "*Skip this section if ...*"
-msgstr "*このセクションをスキップする場合...*"
+msgstr "* このセクションをスキップする場合...*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:44
 msgid "*the active robot configuration already contains \"Webcam 1\",* or"
-msgstr "*アクティブなロボット構成にはすでに「Webcam 1」が含まれています、*\"\\iltrobot"
+msgstr "* アクティブなロボット構成にはすでに「Webcam 1」が含まれています、 *\"\\iltrobot"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:45
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
@@ -267,7 +267,7 @@ msgstr "動いています！あなたのカメラは ** 色検出器 ** とし�
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:138
 msgid ""
 "*Skip the next two sections, if you already know how to use FTC previews.*"
-msgstr "*次の2つのセクションをスキップします。既にFTCプレビューの使用方法を知っている場合はこの指示を飛ばしてください。*"
+msgstr "* 次の2つのセクションをスキップします。既にFTCプレビューの使用方法を知っている場合はこの指示を飛ばしてください。 *"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:141
 msgid "DS Preview"
@@ -401,7 +401,7 @@ msgid ""
 "put a rubber band around the contour you would get the \"Convex Hull\" of "
 "the contour.  The density is the ratio of Contour-area to Convex Hull-area.*"
 msgstr ""
-"*ブロブの密度は、コンtourがどれだけ「満たされているか」を示します。コンtourにゴムバンドを巻きつけると、「Convex Hull」が得られます。密度は、コンtour面積に対するConvex Hull面積の比です.*"
+"* ブロブの密度は、コンtourがどれだけ「満たされているか」を示します。コンtourにゴムバンドを巻きつけると、「Convex Hull」が得られます。密度は、コンtour面積に対するConvex Hull面積の比です.*"
 ""
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:223
@@ -415,7 +415,7 @@ msgid ""
 "*A blob's Aspect Ratio is the ratio of boxFit long side to short side.  A "
 "perfect Square has an Aspect Ratio of 1.  All others are > 1.*"
 msgstr ""
-"*ブロブのアスペクト比は、boxFit の長辺と短辺の比率です。完全な正方形の場合、アスペクト比は 1 になります。それ以外の場合はすべて 1 より大きいです。*"
+"* ブロブのアスペクト比は、boxFit の長辺と短辺の比率です。完全な正方形の場合、アスペクト比は 1 になります。それ以外の場合はすべて 1 より大きいです。 *"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:233
 msgid ""
@@ -584,4 +584,4 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:341
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "*質問、コメントや訂正はwestsiderobotics@verizon.netまで*"
+msgstr "* 質問、コメントや訂正はwestsiderobotics@verizon.netまで *"

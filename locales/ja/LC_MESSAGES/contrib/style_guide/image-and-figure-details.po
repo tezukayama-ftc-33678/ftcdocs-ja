@@ -155,7 +155,7 @@ msgstr "「image」ディレクティブでサポートされるオプション�
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:76
 msgid "alt : *text*"
-msgstr "alt : *テキスト*"
+msgstr "alt : * テキスト *"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:75
 msgid "text"
@@ -172,7 +172,7 @@ msgstr ""
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:81
 msgid "height : *length*"
 msgstr ""
-"高度 : *長さ*\"\n"
+"高度 : * 長さ *\"\n"
 "\n"
 "この翻訳は、指定されたガイドラインに従っており、reStructuredText形式も保持しています。また、強調マークアップも完全に保持されています。"
 
@@ -192,7 +192,7 @@ msgstr ""
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:84
 msgid "scale : *integer percentage (the \"%\" symbol is optional)*"
 msgstr ""
-"スケール : *整数のパーセンテージ（％記号は省略可）*\"\n"
+"スケール : * 整数のパーセンテージ（％記号は省略可）*\"\n"
 "\n"
 "この翻訳では、reStructuredText形式を保持し、Sphinx-Design記法も保持しています。また、構造や空白行もそのままにしています。"
 
@@ -209,7 +209,7 @@ msgstr "画像の均一な拡大縮小率。デフォルトは「100 ％」で�
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:89
 msgid "width : *length or percentage of the current line width*"
 msgstr ""
-"幅 : *現在の線幅の長さまたはパーセンテージ*\"\n"
+"幅 : * 現在の線幅の長さまたはパーセンテージ *\"\n"
 "\n"
 "この翻訳では、強調マークアップ(*)とイタリックマークアップ(*)を完全に保持し、reStructuredText形式も維持しています。また、原文の技術用語はそのまま使用しています。"
 
