@@ -83,11 +83,11 @@ msgstr "これは三つの基本的なステップで簡単に実行できるプ
 msgid ""
 "**Step 1**, find a library with features you want to use, and get its .jar "
 "or .aar file."
-msgstr "**ステップ1**、使用したい機能を持つライブラリを見つけ、その.jarまたは.aarファイルを取得します。"
+msgstr " ** ステップ1 ** 、使用したい機能を持つライブラリを見つけ、その.jarまたは.aarファイルを取得します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:36
 msgid "**Step 2**, upload that file in OnBot Java."
-msgstr "**ステップ2**、そのファイルをOnBot Javaにアップロードしてください。"
+msgstr " ** ステップ2 ** 、そのファイルをOnBot Javaにアップロードしてください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:38
 msgid ""
@@ -116,8 +116,8 @@ msgid ""
 "available directly to the Blocks user, **without creating a myBlock**. This "
 "can be done, if the library is specially annotated by its author."
 msgstr ""
-"** ステップ3C ** "
-"は、ライブラリメソッドをブロックユーザーに直接利用可能にする異なるシナリオです。これには、ライブラリが著者が特別に注釈を付けていない限り、** "
+" ** ステップ3C ** "
+"は、ライブラリメソッドをブロックユーザーに直接利用可能にする異なるシナリオです。これには、ライブラリが著者が特別に注釈を付けていない限り、 ** "
 "myBlockを作成せずに ** 行うことができます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:57
@@ -200,7 +200,7 @@ msgid ""
 "regular Java file to the ``teamcode`` folder."
 msgstr ""
 "OnBot "
-"Java（OBJ）で、通常は「チームコード」フォルダに一般的なJavaファイルをアップロードするために使用される**アップロードアイコン**をクリックします。"
+"Java（OBJ）で、通常は「チームコード」フォルダに一般的なJavaファイルをアップロードするために使用される ** アップロードアイコン ** をクリックします。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:103
 msgid "upload icon"
@@ -257,8 +257,8 @@ msgid ""
 "they work, including the inputs and outputs (and their Java types). This "
 "tutorial does not offer Java programming instruction."
 msgstr ""
-"First import the class. You know the **class name** because you read about "
-"it in the library documentation. And you know the **method names** and how "
+"First import the class. You know the ** class name ** because you read about "
+"it in the library documentation. And you know the ** method names ** and how "
 "they work, including the inputs and outputs (and their Java types). This "
 "tutorial does not offer Java programming instruction."
 
@@ -274,7 +274,7 @@ msgid ""
 " not. It depends on the functionality you want to provide to your Blocks "
 "programmer."
 msgstr ""
-"** ステップ3B ** "
+" ** ステップ3B ** "
 "では、myBlockを作成します。このmyBlockはライブラリメソッドを変更することができるか、それとも変更しないかは、Blocksプログラマに提供したい機能によって決まります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:142
@@ -283,7 +283,7 @@ msgid ""
 "using exactly the same inputs and outputs. This might be called a *wrapper "
 "method*."
 msgstr ""
-"** 未変更 ** "
+" ** 未変更 ** "
 "とは、あなたのmyBlockがライブラリメソッドをそのまま呼び出し、同じ入力と出力を使用することを意味します。これは「ラッパーメソッド」と呼ばれることがあります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:146
@@ -292,9 +292,9 @@ msgid ""
 "specific task in or for your larger myBlock method. In other words, your "
 "myBlock **supplements** what the library method can do."
 msgstr ""
-"または、ライブラリメソッドを** ユーティリティ関数 "
-"**として使用して、より大きなmyBlockメソッド内で特定のタスクを実行できます。つまり、your myBlockはライブラリメソッドが行えること**"
-" 補完 **します。"
+"または、ライブラリメソッドを ** ユーティリティ関数 "
+" ** として使用して、より大きなmyBlockメソッド内で特定のタスクを実行できます。つまり、your myBlockはライブラリメソッドが行えること ** "
+" 補完 ** します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:150
 msgid ""
@@ -498,7 +498,7 @@ msgid ""
 "Under **Step 3A**, you would use, for example, the ``hypot()`` method for "
 "your own OnBot Java programming, not providing it to Blocks."
 msgstr ""
-"**ステップ3A** の下では、あなたは独自のOnBot Javaプログラミングで例えば ``hypot()`` "
+" ** ステップ3A ** の下では、あなたは独自のOnBot Javaプログラミングで例えば ``hypot()`` "
 "メソッドを使用します。ブロックに提供する必要はありません。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:267
@@ -515,7 +515,7 @@ msgid ""
 " *This is just an exercise; regular Blocks could easily calculate this "
 "value.*"
 msgstr ""
-"**ステップ3B** "
+" ** ステップ3B ** "
 "の下で、独自のカスタムブロック「myHypotenuse」を作成しましょう。*これは単なる演習であり、通常のブロックはこの値を簡単に計算できます。*"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:285
@@ -600,7 +600,7 @@ msgid ""
 " After you upload the .aar file and ``Build Everything``, its 4 “pass-"
 "through” methods will automatically appear as Blocks:"
 msgstr ""
-"このライブラリはチーム用に特別に**注釈が付けられており**、上記で説明しています。.aarファイルをアップロードし、「すべてビルド」を行った後、その4つの「パススルー」メソッドが自動的にブロックとして表示されます："
+"このライブラリはチーム用に特別に ** 注釈が付けられており ** 、上記で説明しています。.aarファイルをアップロードし、「すべてビルド」を行った後、その4つの「パススルー」メソッドが自動的にブロックとして表示されます："
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:353
 msgid "MoreMath Blocks"
@@ -622,8 +622,8 @@ msgid ""
 " processes the library at upload."
 msgstr ""
 "あなたはOnBot "
-"Javaでこれらのメソッドを使用する**こともできます**。myBlockを作成するためにも使用できます。例えば、通過メソッドのカスタムバージョンを提供したい場合があります。しかし、このライブラリやそのメソッドをサポートするためには、OnBot"
-" Javaファイル**は必要ありません**；それはアップロード時にライブラリを処理する際にOnBot Javaによって自動的に実行されます。"
+"Javaでこれらのメソッドを使用する ** こともできます ** 。myBlockを作成するためにも使用できます。例えば、通過メソッドのカスタムバージョンを提供したい場合があります。しかし、このライブラリやそのメソッドをサポートするためには、OnBot"
+" Javaファイル ** は必要ありません ** ；それはアップロード時にライブラリを処理する際にOnBot Javaによって自動的に実行されます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:362
 msgid ""
@@ -636,7 +636,7 @@ msgstr ""
 msgid ""
 "Here are two other “homemade” libraries, both **annotated**. Feel free to "
 "experiment with these."
-msgstr "以下は、両方とも**注釈付き**の「手作り」ライブラリです。これらのライブラリを自由に実験してみてください。"
+msgstr "以下は、両方とも ** 注釈付き ** の「手作り」ライブラリです。これらのライブラリを自由に実験してみてください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:369
 msgid ""
@@ -693,7 +693,7 @@ msgid ""
 "<https://github.com/OpenFTC/EasyOpenCV>`__."
 msgstr ""
 "理想としては、ライブラリの.jarまたは.aarファイルには必要なすべてのクラスが含まれており、外部依存関係なしで使用できるはずです。良い例は "
-"**EasyOpenCV** です。使い方については `こちら <https://github.com/OpenFTC/EasyOpenCV>`__ "
+" ** EasyOpenCV ** です。使い方については `こちら <https://github.com/OpenFTC/EasyOpenCV>`__ "
 "を参照してください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:399
@@ -726,7 +726,7 @@ msgid ""
 "It can operate again only by manually deleting the .jar file and its "
 "associated folder, directly on the RC device."
 msgstr ""
-"もしライブラリコードがその.jarファイルに含まれていない**クラス**を参照している場合、OnBot "
+"もしライブラリコードがその.jarファイルに含まれていない ** クラス ** を参照している場合、OnBot "
 "Javaの自動完成機能は最終的に「クラスが見つかりません」という例外を投げ、あなたのRCアプリケーションがクラッシュする可能性があります。この「隠された依存関係」によって引き起こされる例外は、OBJが「欠けている」クラスに遭遇した瞬間や数分後、数時間後に発生し、あなたのOpModeがそのクラスを直接または間接的に使用していない場合でも同様です。その時点で以降、あなたのRCアプリケーションは動作しなくなります。RCデバイス上で手動で.jarファイルとその関連フォルダを削除することで再起動することができます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:418

@@ -98,9 +98,9 @@ msgid ""
 "will **not display** any filtered-out contour or its boxFit.  This can save "
 "CPU resources used to draw the outlines."
 msgstr ""
-"Here the term \"pre-\" means the filter criteria are implemented **before** "
+"Here the term \"pre-\" means the filter criteria are implemented ** before ** "
 "the Blob formation results are passed further. Thus the DS and RC previews "
-"will **not display** any filtered-out contour or its boxFit. This can save "
+"will ** not display ** any filtered-out contour or its boxFit. This can save "
 "CPU resources used to draw the outlines."
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:32
@@ -142,11 +142,11 @@ msgstr "フィルター設定を適用するには、2つのステップを使�
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:53
 msgid "**set** the filter name and criteria"
-msgstr "フィルター名と基準を**set**する"
+msgstr "フィルター名と基準を ** set ** する"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:54
 msgid "**add** that filter to the existing Processor"
-msgstr "既存のプロセッサにそのフィルターを**add**する"
+msgstr "既存のプロセッサにそのフィルターを ** add ** する"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:56
 msgid ""
@@ -161,7 +161,7 @@ msgid ""
 "\"change\" a pre-filter, it must be **removed** from the Processor, then "
 "**added** again."
 msgstr ""
-"一般的に、プレフィルタ設定は変更できず、編集できません。プレフィルタを「変更」するには、まずProcessorから**削除**し、その後再度**追加**する必要があります。"
+"一般的に、プレフィルタ設定は変更できず、編集できません。プレフィルタを「変更」するには、まずProcessorから ** 削除 ** し、その後再度 ** 追加 ** する必要があります。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:64
 msgid ""
@@ -180,7 +180,7 @@ msgid ""
 "name **could** be used, if its criteria are defined, then added -- then "
 "redefined, and added again, etc."
 msgstr ""
-"複数の事前フィルターが同時に動作することができます。その場合、条件が定義されていれば、単一の共通フィルター名 **could** "
+"複数の事前フィルターが同時に動作することができます。その場合、条件が定義されていれば、単一の共通フィルター名 ** could ** "
 "使用され、その定義を変更し、再度追加 -- そしてまた定義を変更し、再度追加されるなどできます。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:73
@@ -199,7 +199,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:434
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:495
 msgid "Select and read the Blocks **or** Java section below:"
-msgstr "下記のBlocks **または** Java のセクションを選択し、読み進めてください："
+msgstr "下記のBlocks ** または ** Java のセクションを選択し、読み進めてください："
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
 msgid "Blocks"
@@ -339,8 +339,8 @@ msgid ""
 "overridden or replaced by any pre-sort or post-sort specified in the OpMode."
 msgstr ""
 "このチュートリアルの:doc:`Explore <../color-locator-explore/color-locator-"
-"explore>`ページからの注意：デフォルトでは、サンプルオペモードは**コン Tour "
-"計測面積**に基づいて降順に並べ替えます（大きいものが先頭）。これは内部でプログラムされた並べ替えであり、サンプルオペモードには表示されません。このデフォルトは、オペモード内で指定される任意の前処理並べ替えや後処理並べ替えによって上書きまたは置き換えられます。"
+"explore>`ページからの注意：デフォルトでは、サンプルオペモードは ** コン Tour "
+"計測面積 ** に基づいて降順に並べ替えます（大きいものが先頭）。これは内部でプログラムされた並べ替えであり、サンプルオペモードには表示されません。このデフォルトは、オペモード内で指定される任意の前処理並べ替えや後処理並べ替えによって上書きまたは置き換えられます。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:189
 msgid ""
@@ -429,7 +429,7 @@ msgstr ""
 msgid ""
 "Use your own custom values, only from the RGB Color Space.  See the separate"
 " tutorial page called **Color Spaces**."
-msgstr "自分のカスタム値を使用し、RGB色情報だけから設定してください。別途参照ページの**色空間**をご覧ください。"
+msgstr "自分のカスタム値を使用し、RGB色情報だけから設定してください。別途参照ページの ** 色空間 ** をご覧ください。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:276
 msgid "boxFit Corners"
@@ -463,7 +463,7 @@ msgid ""
 "The Function uses its own **For Loop** to cycle through the ``myPoints`` "
 "List of 4 points, clockwise from top left corner."
 msgstr ""
-"関数は独自の**For ループ**を使用して、左上角から時計回りに配置された4つのポイントを含む ``myPoints`` リストを周回します。"
+"関数は独自の ** For ループ ** を使用して、左上角から時計回りに配置された4つのポイントを含む ``myPoints`` リストを周回します。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:302
 msgid ""
@@ -471,7 +471,7 @@ msgid ""
 "results.  The instant ``myBoxFit`` is the one being processed, returned from"
 " the preceding ``.BoxFit`` Block."
 msgstr ""
-"この関数は、サンプルオペモードのすべてのブロブ結果の **For ループ** 内で動作します。瞬時に ``myBoxFit`` "
+"この関数は、サンプルオペモードのすべてのブロブ結果の ** For ループ ** 内で動作します。瞬時に ``myBoxFit`` "
 "が処理されているものであり、前の ``.BoxFit`` ブロックから返されるものです。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:309
@@ -486,7 +486,7 @@ msgid ""
 "results.  The instant ``boxFit`` is the one being processed, returned from "
 "the preceding ``getBoxFit()`` method."
 msgstr ""
-"このコードは、サンプルオペモードのすべてのブロブ結果の **For ループ** 内で動作します。瞬時に ``boxFit`` が処理対象の場合、 "
+"このコードは、サンプルオペモードのすべてのブロブ結果の ** For ループ ** 内で動作します。瞬時に ``boxFit`` が処理対象の場合、 "
 "preceding の ``getBoxFit()`` メソッドから返されます。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:330
@@ -552,7 +552,7 @@ msgid ""
 "The Function uses its own **For Loop** to cycle through the "
 "``myContourPoints`` List, of undetermined length (could be very long)."
 msgstr ""
-"関数は独自の**For ループ**を使用して、未定義長さ（非常に長い場合があります）の「myContourPoints」リストを周回します。"
+"関数は独自の ** For ループ ** を使用して、未定義長さ（非常に長い場合があります）の「myContourPoints」リストを周回します。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:369
 msgid ""
@@ -560,7 +560,7 @@ msgid ""
 "results.  The instant ``myBlob`` is the one being processed by that outer "
 "For Loop."
 msgstr ""
-"この関数は、サンプルオペモードのすべてのブロブ結果の**For ループ**内で動作します。その瞬間、「myBlob」が外側の For "
+"この関数は、サンプルオペモードのすべてのブロブ結果の ** For ループ ** 内で動作します。その瞬間、「myBlob」が外側の For "
 "ループによって処理されているブロブです。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:376
@@ -575,7 +575,7 @@ msgid ""
 "results.  The instant Blob ``b`` is the one being processed by that outer "
 "For Loop."
 msgstr ""
-"この関数は、サンプルオペモードのすべてのブロブ結果の外側の**For ループ**内で動作します。その瞬間、ブロブ ``b`` は外側の For "
+"この関数は、サンプルオペモードのすべてのブロブ結果の外側の ** For ループ ** 内で動作します。その瞬間、ブロブ ``b`` は外側の For "
 "ループによって処理されているブロブです。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:399
@@ -715,7 +715,7 @@ msgid ""
 "only the **top left corner** and **size** of the horizontal rectangle around"
 " the boxFit being processed."
 msgstr ""
-"ここでは、boxFitが処理されている水平長方形の**左上隅**と**サイズ**のみを表示するようにサンプルOpModeのテレメトリコードが改良されています。"
+"ここでは、boxFitが処理されている水平長方形の ** 左上隅 ** と ** サイズ ** のみを表示するようにサンプルOpModeのテレメトリコードが改良されています。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:535
 msgid ""
@@ -754,7 +754,7 @@ msgid ""
 "processors** and adding them to the same VisionPortal. This allows different"
 " ROIs, for example, that can overlap if desired."
 msgstr ""
-"複数の色を検索するには、**複数のプロセッサー**を作成し、同じVisionPortalに追加します。これにより、必要に応じて重複させる異なるROI（興味領域）を設定できます。"
+"複数の色を検索するには、 ** 複数のプロセッサー ** を作成し、同じVisionPortalに追加します。これにより、必要に応じて重複させる異なるROI（興味領域）を設定できます。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:556
 msgid "Using two processors"

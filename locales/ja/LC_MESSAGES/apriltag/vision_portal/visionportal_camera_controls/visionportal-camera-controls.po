@@ -31,7 +31,7 @@ msgid ""
 "more), now available in Blocks! These controls can be applied under various "
 "lighting conditions."
 msgstr ""
-"はっきりとしたカメラ画像は、AprilTag（およびTFOD）のビジョン処理を改善します。SDKでは、強力な**ウェブカムコントロール**（露出量、ゲイン、フォーカスなど）が提供されており、ブロックでも利用可能になりました。これらのコントロールは、さまざまな照明条件下で適用できます。"
+"はっきりとしたカメラ画像は、AprilTag（およびTFOD）のビジョン処理を改善します。SDKでは、強力な ** ウェブカムコントロール ** （露出量、ゲイン、フォーカスなど）が提供されており、ブロックでも利用可能になりました。これらのコントロールは、さまざまな照明条件下で適用できます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:9
 msgid ""
@@ -103,7 +103,7 @@ msgid ""
 "build), then starting or resuming streaming, then stopping streaming, then "
 "closing the camera."
 msgstr ""
-"これらの**enum**は、カメラを開く（新規構築）、ストリーミングを開始または再開、ストリーミングを停止、そしてカメラを閉じるという順序でリストされています。"
+"これらの ** enum ** は、カメラを開く（新規構築）、ストリーミングを開始または再開、ストリーミングを停止、そしてカメラを閉じるという順序でリストされています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:39
 msgid "Notes and Guidelines for Enums"
@@ -268,7 +268,7 @@ msgid ""
 "choosing “use return value” or “ignore return value” from each Block’s "
 "context (right-click) menu."
 msgstr ""
-"Webcam コントロール下的の **setter ブロック** "
+"Webcam コントロール下的の ** setter ブロック ** "
 "は、各ブロックのコンテキストメニュー（右クリック）から「戻り値を使用」または「戻り値を無視」を選択したときに変更/切り替えが可能になりました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:117
@@ -281,7 +281,7 @@ msgstr "トグル可能な戻り値を持つセッターブロックの例"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:119
 msgid "In either form, the setting task **is performed**."
-msgstr "どちらの形式でも、設定タスクは**実行されます**。"
+msgstr "どちらの形式でも、設定タスクは ** 実行されます ** 。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:121
 msgid "The “non-return” version comment is:"
@@ -333,9 +333,9 @@ msgstr "露出と連携してゲインを管理できます。"
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:144
 msgid "Actually, in the SDK, Gain **must** be managed with Exposure."
 msgstr ""
-"Actually, in the SDK, Gain **must** be managed with Exposure.Actually, in "
-"the SDK, Gain **must** be managed with Exposure.Actually, in the SDK, Gain "
-"**must** be managed with Exposure."
+"Actually, in the SDK, Gain ** must ** be managed with Exposure.Actually, in "
+"the SDK, Gain ** must ** be managed with Exposure.Actually, in the SDK, Gain "
+" ** must ** be managed with Exposure."
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:147
 msgid "Shared Blocks"
@@ -510,9 +510,9 @@ msgid ""
 "observing the **live effect** on previews and TFOD recognitions. This allows"
 " a team to quickly find their preferred Exposure value in that environment."
 msgstr ""
-"ゲームパッドでは、ウェブカメラの露出値（**Exposure value**）を調整できます。同時にプレビューとTFOD（Target Finding "
-"and Object Detection）の実時効果（**live "
-"effect**）を観察しながら操作が可能です。これにより、チームはその環境で好ましい露出値を見つけやすくすることができ、迅速に最適な Exposure"
+"ゲームパッドでは、ウェブカメラの露出値（ ** Exposure value ** ）を調整できます。同時にプレビューとTFOD（Target Finding "
+"and Object Detection）の実時効果（ ** live "
+"effect ** ）を観察しながら操作が可能です。これにより、チームはその環境で好ましい露出値を見つけやすくすることができ、迅速に最適な Exposure"
 " value を設定することができます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:247

@@ -41,17 +41,17 @@ msgstr "新しいSDKでの軸の指定は以下の通りです："
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:13
 msgid "Y axis points **straight outward** from the camera lens center"
-msgstr "Y軸はカメラレンズの中心から**直線的に外向き**に指向します"
+msgstr "Y軸はカメラレンズの中心から ** 直線的に外向き ** に指向します"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:14
 msgid ""
 "X axis points **to the right** (looking outward), perpendicular to the Y "
 "axis"
-msgstr "x軸は右側**に**向いています（外側から見ると），y軸と直交しています"
+msgstr "x軸は右側 ** に ** 向いています（外側から見ると），y軸と直交しています"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:15
 msgid "Z axis points **upward**, perpendicular to Y and X"
-msgstr "Z軸は**上向き**に指向し、Y軸とX軸に垂直です"
+msgstr "Z軸は ** 上向き ** に指向し、Y軸とX軸に垂直です"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:18
 msgid ""
@@ -108,14 +108,14 @@ msgid ""
 "located at the **green star**.  You can see that the center of the AprilTag "
 "(**yellow star**) is offset from that \"laser beam\"."
 msgstr ""
-"カメラレンズの中心から一直線に外へと向いているレーザービームを想像してください。その3次元的な経路は（カメラにとって）単なる一点として見え、それが**緑色の星**に位置しています。そこで「レーザービーム」という点からアプライドタグの中心"
-" (**黄色い星**) がずれていることが確認できます。"
+"カメラレンズの中心から一直線に外へと向いているレーザービームを想像してください。その3次元的な経路は（カメラにとって）単なる一点として見え、それが ** 緑色の星 ** に位置しています。そこで「レーザービーム」という点からアプライドタグの中心"
+" ( ** 黄色い星 ** ) がずれていることが確認できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:49
 msgid ""
 "That **translation offset** can break down into three traditional components"
 " (X, Y and Z distances), along axes at 90 degrees to each other:"
-msgstr "その**翻訳オフセット**は、互いに直角に配置された3つの伝統的な成分（X軸距離、Y軸距離、Z軸距離）に分解される可能性があります："
+msgstr "その ** 翻訳オフセット ** は、互いに直角に配置された3つの伝統的な成分（X軸距離、Y軸距離、Z軸距離）に分解される可能性があります："
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:52
 msgid "X distance (horizontal orange line) is from the center, to the right"
@@ -141,11 +141,11 @@ msgid ""
 "Think of the Y distance as the length of the \"laser beam\", when the tip of"
 " the horizontal orange line touches the yellow star **on the tag**."
 msgstr ""
-" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star **on the tag**."
+" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star ** on the tag ** ."
 ""
-" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star **on the tag**."
+" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star ** on the tag ** ."
 ""
-" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star **on the tag**."
+" Think of the Y distance as the length of the \"laser beam\", when the tip of the horizontal orange line touches the yellow star ** on the tag ** ."
 ""
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:63
@@ -164,7 +164,7 @@ msgid ""
 "of the camera.  That **rotation offset** can break down into three angles "
 "about the X, Y and Z axes."
 msgstr ""
-"また、AprilTagの平面上の面がカメラ平面に並行でないことも確認できます。その **回転オフセット** "
+"また、AprilTagの平面上の面がカメラ平面に並行でないことも確認できます。その ** 回転オフセット ** "
 "は、X軸、Y軸およびZ軸周りの3つの角度に分解されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:73
@@ -196,7 +196,7 @@ msgid ""
 "along the positive axis, the fingers curl in the direction of positive "
 "rotation."
 msgstr ""
-"もし左にずれたタグが角度を持ち、例えばカメラに向けて傾いている場合、これは垂直のZ軸を中心にした角度回転として表現されます。**右の手の規則**によれば、親指が正の軸方向を指しているとき、掌が正の回転方向に"
+"もし左にずれたタグが角度を持ち、例えばカメラに向けて傾いている場合、これは垂直のZ軸を中心にした角度回転として表現されます。 ** 右の手の規則 ** によれば、親指が正の軸方向を指しているとき、掌が正の回転方向に"
 " curled します。つまり、これは正の Yaw 角度です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:89
@@ -234,7 +234,7 @@ msgid ""
 "advanced efforts can be useful and a good learning exercise, beyond the "
 "scope of the SDK and this guide."
 msgstr ""
-"このセクションでは、SDKのデフォルトのAprilTag参照フレームについて説明しています。チームは、カメラ（またはロボット）がAprilTagに対してのポーズや、**ゲームフィールドに対してのポーズ**など、他の計算を行うことも歓迎されます。このような高度な努力は、SDKおよびこのガイドの範囲を超えた有用で学習に役立つものです。"
+"このセクションでは、SDKのデフォルトのAprilTag参照フレームについて説明しています。チームは、カメラ（またはロボット）がAprilTagに対してのポーズや、 ** ゲームフィールドに対してのポーズ ** など、他の計算を行うことも歓迎されます。このような高度な努力は、SDKおよびこのガイドの範囲を超えた有用で学習に役立つものです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:109
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"

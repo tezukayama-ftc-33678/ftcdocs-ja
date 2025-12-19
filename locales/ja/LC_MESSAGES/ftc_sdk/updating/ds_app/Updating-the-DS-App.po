@@ -89,7 +89,7 @@ msgid ""
 "active, at top left. The DS app on the Driver Hub does **not** need to be "
 "open."
 msgstr ""
-" Plug the REV Driver Hub directly into the Windows computer with RHC installed and open. Use a USB-C data cable. Make sure the “Hardware” tab is active, at top left. The DS app on the Driver Hub does **not** need to be open."
+" Plug the REV Driver Hub directly into the Windows computer with RHC installed and open. Use a USB-C data cable. Make sure the “Hardware” tab is active, at top left. The DS app on the Driver Hub does ** not ** need to be open."
 ""
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:34
@@ -144,7 +144,7 @@ msgid ""
 "You could have selected an **older** version of the DS app, in the drop-down"
 " list just above the blue Update rectangle."
 msgstr ""
-"あなたはドロップダウンリストにある青い「Update」正方形の直上に表示されている**古い**バージョンのDSアプリを選べるかもしれませんでした。"
+"あなたはドロップダウンリストにある青い「Update」正方形の直上に表示されている ** 古い ** バージョンのDSアプリを選べるかもしれませんでした。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:67
 msgid ""
@@ -170,7 +170,7 @@ msgid ""
 "install the DS app on the Driver Hub. Any computer can be used, PC or Mac, "
 "old or new. This method is sometimes called “side-loading”."
 msgstr ""
-"ここでは、ドライバーハブにDSアプリをインストールするために、直接Androidパッケージまたは**APKファイル**と dealings します。PCやMacなどのどんなコンピュータでも使用できます。古いものから新しいものまで対応しています。この方法は時として「サイドロード」と呼ばれます。"
+"ここでは、ドライバーハブにDSアプリをインストールするために、直接Androidパッケージまたは ** APKファイル ** と dealings します。PCやMacなどのどんなコンピュータでも使用できます。古いものから新しいものまで対応しています。この方法は時として「サイドロード」と呼ばれます。"
 ""
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:79
@@ -405,8 +405,8 @@ msgid ""
 "install the DS app on the Android phone. Any computer can be used, PC or "
 "Mac, old or new. This method is sometimes called “side-loading”."
 msgstr ""
-"ここで、Driver Station アプリを Android フォンにインストールするために直接 Android パッケージまたは **APK "
-"ファイル** と働き始めます。PC や Mac "
+"ここで、Driver Station アプリを Android フォンにインストールするために直接 Android パッケージまたは ** APK "
+"ファイル ** と働き始めます。PC や Mac "
 "のどのコンピューターでも使用できます。古いものや新しいものでも構いません。この方法は時々「サイドロード」と呼ばれます。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:256

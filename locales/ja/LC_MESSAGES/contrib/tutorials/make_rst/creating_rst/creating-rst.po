@@ -154,7 +154,7 @@ msgid ""
 "repository is managed by, and so on. As a contributor of this repository, "
 "most of the content here will not be important to you."
 msgstr ""
-"リポジトリ内の最初のフォルダを「**リポジトリメインフォルダ**」と呼びます。これは、リポジトリの視聴者がリポジトリが何のために存在するのか、リポジトリはどのようなライセンスで管理されているのかなどの重要な情報を得られる主要なフォルダです。このリポジトリの貢献者として、ここに書かれているほとんどの内容はあなたにとって重要ではありません。"
+"リポジトリ内の最初のフォルダを「 ** リポジトリメインフォルダ ** 」と呼びます。これは、リポジトリの視聴者がリポジトリが何のために存在するのか、リポジトリはどのようなライセンスで管理されているのかなどの重要な情報を得られる主要なフォルダです。このリポジトリの貢献者として、ここに書かれているほとんどの内容はあなたにとって重要ではありません。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:77
 msgid "Repo Main Folder"
@@ -176,7 +176,7 @@ msgid ""
 "repository, that folder is the ``docs/`` folder. The ``docs/`` folder is "
 "where the top-level build definitions are for building the documentation."
 msgstr ""
-"**リポジトリのメインフォルダ**内には、プロジェクトの実際のファイルが入ったフォルダ Almost always は「ほぼ常に」で表現します。- "
+" ** リポジトリのメインフォルダ ** 内には、プロジェクトの実際のファイルが入ったフォルダ Almost always は「ほぼ常に」で表現します。- "
 "たいていの場合、そのフォルダは ``docs/`` フォルダです。``docs/`` "
 "フォルダは、ドキュメンテーションを構築するためのトップレベルのビルド定義が格納されている場所です。"
 
@@ -335,7 +335,7 @@ msgid ""
 "this file should never be modified without first consulting an "
 "administrator."
 msgstr ""
-"The **conf.py** "
+"The ** conf.py ** "
 "ファイルは、スphinxBでドキュメンテーションをすべての形式（HTML、PDFなど）で構築するために使用するモジュール、パラメータ、およびツールを定義する特別なファイルです。このファイルにはアンダースコアプレフィックスはありませんが、このファイルを無く事前に対応管理者に相談せずに変更することは絶対に避けなければなりません。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:178
@@ -352,9 +352,9 @@ msgid ""
 " the website, but **this** particular file is the master index file for the "
 "website."
 msgstr ""
-"ここにある「ルート」ドキュメンテーションの位置に存在する**index.rst**ファイルは、ドキュメンテーションのHTML版の主要な組織とレイアウトファイルです。この**index.rst**は、通常HTMLウェブサイトの左側パネルで見られる*目次*(Table"
+"ここにある「ルート」ドキュメンテーションの位置に存在する ** index.rst ** ファイルは、ドキュメンテーションのHTML版の主要な組織とレイアウトファイルです。この ** index.rst ** は、通常HTMLウェブサイトの左側パネルで見られる*目次*(Table"
 " of "
-"Contents)を定義し、またウェブサイトのトップページのコンテンツも定義します。ウェブサイト内には複数の`index.rst`ファイルが存在するかもしれませんが、**この**ファイルはウェブサイトのマスターアイデックスファイルです。"
+"Contents)を定義し、またウェブサイトのトップページのコンテンツも定義します。ウェブサイト内には複数の`index.rst`ファイルが存在するかもしれませんが、 ** この ** ファイルはウェブサイトのマスターアイデックスファイルです。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:183
 msgid ":octicon:`file;1em;sd-text-info` *todo.rst*"
@@ -366,7 +366,7 @@ msgid ""
 "will be discussed in a much later tutorial, but for now we're just going to "
 "pretend that this file doesn't exist."
 msgstr ""
-"The **todo.rst** file は \"To-Do\" "
+"The ** todo.rst ** file は \"To-Do\" "
 "モジュールによって自動的に作成されるファイルです。このファイルについては、後々のチュートリアルで詳しく説明しますが、現時点ではこのファイルが存在しないことに仮想的に思い描くだけです。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:186
@@ -389,11 +389,11 @@ msgstr ""
 msgid ""
 "Each content page is defined by a reStructuredText file with an **.rst** "
 "extension."
-msgstr "各コンテンツページは、**.rst** 拡張子の reStructuredText ファイルで定義されます。"
+msgstr "各コンテンツページは、 ** .rst ** 拡張子の reStructuredText ファイルで定義されます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:195
 msgid "Each **.rst** file is defined within its own folder."
-msgstr "各 **.rst** ファイルは、それぞれのフォルダで定義されます。"
+msgstr "各 ** .rst ** ファイルは、それぞれのフォルダで定義されます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:196
 msgid ""
@@ -401,7 +401,7 @@ msgid ""
 "etc...) and so it will have subfolders that include those files "
 "(``/images``, ``/includes``, etc...)"
 msgstr ""
-"各 **.rst** "
+"各 ** .rst ** "
 "ファイルは一般的にサポートするファイル（画像、参照ファイルなど）が含まれており、そのためサブフォルダにもこれらのファイルが含まれるフォルダ（``/images``、``/includes``"
 " など）が存在します。"
 
@@ -501,7 +501,7 @@ msgid ""
 "two images are stored within a ``/images`` folder located immediately within"
 " the same folder that the **.rst** file is stored."
 msgstr ""
-"gp.rst ファイルは、ローカルに保存された2つの画像を参照または使用していますので、これらの2つの画像は、**.rst** "
+"gp.rst ファイルは、ローカルに保存された2つの画像を参照または使用していますので、これらの2つの画像は、 ** .rst ** "
 "ファイルが保存されている同じフォルダ内に即座に存在する ``/images`` フォルダに保存されています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:246

@@ -30,8 +30,8 @@ msgid ""
 "may be listed in any order. These fields allow a myBlock to have a custom "
 "**comment**, **tooltip**, and **parameter labels**."
 msgstr ""
-"必要な**注釈** ``@ExportToBlocks`` "
-"には任意のフィールドがあり、これらのフィールドは任意の順序でリストアップできます。これらのフィールドにより、myBlockにカスタムの**コメント**、**ツールチップ**、および**パラメーターラベル**を追加することができます。"
+"必要な ** 注釈 ** ``@ExportToBlocks`` "
+"には任意のフィールドがあり、これらのフィールドは任意の順序でリストアップできます。これらのフィールドにより、myBlockにカスタムの ** コメント ** 、 ** ツールチップ ** 、および ** パラメーターラベル ** を追加することができます。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:12
 msgid "Comment"
@@ -42,8 +42,8 @@ msgid ""
 "The **comment** text appears in a balloon when the Blocks user clicks the "
 "blue question-mark icon. Tell the user **how to use your myBlock**."
 msgstr ""
-"The **コメント** "
-"文字はブロックユーザーが青い疑問符アイコンをクリックしたときにバブルに表示されます。ユーザーに**myBlockの使用方法**について説明してください。"
+"The ** コメント ** "
+"文字はブロックユーザーが青い疑問符アイコンをクリックしたときにバブルに表示されます。ユーザーに ** myBlockの使用方法 ** について説明してください。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:17
 msgid ""
@@ -71,8 +71,8 @@ msgid ""
 "an image or icon. Every Block has a short tooltip to **indicate its "
 "purpose**."
 msgstr ""
-"マウスカーソルを画像やアイコンに** Hover したとき **、** ツールチップ **が表示されます。各ブロックには目的を** 示す短いツールチップ"
-" **があります。"
+"マウスカーソルを画像やアイコンに ** Hover したとき ** 、 ** ツールチップ ** が表示されます。各ブロックには目的を ** 示す短いツールチップ"
+" ** があります。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:30
 msgid "Must be entered on a **single line**, with no line breaks."
@@ -99,7 +99,7 @@ msgid ""
 "The **parameterLabels** text appears on the myBlock, each next to its grey "
 "input **socket**."
 msgstr ""
-"myBlockの各パラメータの名前が**parameterLabels**と表示され、それぞれは灰色の入力**ソケット**の隣に位置します。"
+"myBlockの各パラメータの名前が ** parameterLabels ** と表示され、それぞれは灰色の入力 ** ソケット ** の隣に位置します。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:41
 msgid ""
@@ -121,7 +121,7 @@ msgid ""
 " user, the other is for the Java programmer. Just list them in the "
 "correct/same order, so their meanings correspond."
 msgstr ""
-"ハローワールドの例では、パラメータラベル「**Recipient**」がJavaの入力パラメータ名「**greetingRecipient**」と異なることに気づいたかもしれません。同じでなくても構いません。一つはブロックユーザー用であり、もう一つはJavaプログラマ用です。適切な順序で列挙し、意味が対応するようにします。"
+"ハローワールドの例では、パラメータラベル「 ** Recipient ** 」がJavaの入力パラメータ名「 ** greetingRecipient ** 」と異なることに気づいたかもしれません。同じでなくても構いません。一つはブロックユーザー用であり、もう一つはJavaプログラマ用です。適切な順序で列挙し、意味が対応するようにします。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:52
 msgid ""
@@ -138,7 +138,7 @@ msgid ""
 "parameters, **all** custom label will be ignored. Instead the default labels"
 " will be displayed."
 msgstr ""
-"もしパラメーターラベルの数がJavaのパラメーターの実際の数と一致しない場合、**すべて**のカスタムラベルは無視されます。代わりにデフォルトのラベルが表示されます。"
+"もしパラメーターラベルの数がJavaのパラメーターの実際の数と一致しない場合、 ** すべて ** のカスタムラベルは無視されます。代わりにデフォルトのラベルが表示されます。"
 ""
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:61

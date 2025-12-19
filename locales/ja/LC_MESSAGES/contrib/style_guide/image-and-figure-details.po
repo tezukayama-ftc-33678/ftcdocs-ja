@@ -71,7 +71,7 @@ msgid ""
 "screen readers to ignore the image, which is appropriate when the image is "
 "just there for visual presentation."
 msgstr ""
-"もし本当にデコレーション用の画像が必要な場合は、``.. image`` ディレクティブを使用し、**:alt:** "
+"もし本当にデコレーション用の画像が必要な場合は、``.. image`` ディレクティブを使用し、 ** :alt: ** "
 "オプションと共に空白のテキストを含めてください。空白の alt "
 "文字列はスクリーンリーダーが画像を無視するため、単なる視覚的な表示のために画像がある場合に適しています。"
 
@@ -124,7 +124,7 @@ msgid ""
 msgstr ""
 "スphinxsは、``:alt:``オプションを指定しない場合、画像のパスとファイル名をaltテキストとして設定します。HTMLは以下のようになります：``<img"
 " alt=\"../_images/GoodStuff.png\" "
-"src=\"../_images/GoodStuff.png\">``。スクリーンリーダーはaltテキスト**../_images/GoodStuff.png**を読み上げます。"
+"src=\"../_images/GoodStuff.png\">``。スクリーンリーダーはaltテキスト ** ../_images/GoodStuff.png ** を読み上げます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:62
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 "and **align**. It maybe worth removing those if you are changing the content"
 " on that page anyway."
 msgstr ""
-"画像ディレクティブには多くのオプションがありますが、FTCドキュメントでは大多数を推奨していません。これは新しいガイドラインで、既存の多くのページでは**width**と**align**を指定しています。そのページの内容を変更する場合、これらの項目も削除しても良いかもしれません。"
+"画像ディレクティブには多くのオプションがありますが、FTCドキュメントでは大多数を推奨していません。これは新しいガイドラインで、既存の多くのページでは ** width ** と ** align ** を指定しています。そのページの内容を変更する場合、これらの項目も削除しても良いかもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:70
 msgid "Image Options"
@@ -339,8 +339,8 @@ msgid ""
 "Though a better option might be to change the resolution of the image if "
 "relevant detail can be preserved."
 msgstr ""
-"もしページのサイズに画像が大きすぎるので、**width** オプションを維持したい場合、アクセシビリティのために **class** オプションに "
-"**no-scaled-link** を追加することをお勧めします。例えば ``:class: no-scaled-link`` "
+"もしページのサイズに画像が大きすぎるので、 ** width ** オプションを維持したい場合、アクセシビリティのために ** class ** オプションに "
+" ** no-scaled-link ** を追加することをお勧めします。例えば ``:class: no-scaled-link`` "
 "です。これによりスphinxsはリンクを作成しないことがわかりますが、画像にはあなたが望む幅が設定されます。ただし、詳細を保存できる場合は、画像の解像度を変更する方が良い選択肢かもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:138
@@ -704,7 +704,7 @@ msgid ""
 "of the page, sometimes to the next page where the image is no longer in "
 "context."
 msgstr ""
-"**align** "
+" ** align ** "
 "を使用しないことを推奨します。PDFで画像はページの別の領域に浮き上がることがあり、場合によっては次のページに行ってしまうため、文脈から外れてしまうことがあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:285

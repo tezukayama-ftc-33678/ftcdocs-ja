@@ -117,7 +117,7 @@ msgid ""
 "Turn off the automatic 30-second match timer (green slider).  Aim the camera"
 " at a DECODE **Purple Artifact**\\ , or a picture of one."
 msgstr ""
-"自動で動作する30秒のマッチタイマー（緑色のスライダー）をオフにしてください。カメラをDECODE **パープルアrtifact** "
+"自動で動作する30秒のマッチタイマー（緑色のスライダー）をオフにしてください。カメラをDECODE ** パープルアrtifact ** "
 "に向け、またはその画像に向けてください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:36
@@ -158,7 +158,7 @@ msgstr ""
 msgid ""
 "It's working!  Your camera is working as a **color locator**.  Think about "
 "how to use this in the DECODE game."
-msgstr "動いています！カメラは**色検出器**として正常に動作しています。DECODEゲームでどのように使用するか考えてみてください。"
+msgstr "動いています！カメラは ** 色検出器 ** として正常に動作しています。DECODEゲームでどのように使用するか考えてみてください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:55
 msgid "DS and RC Previews"
@@ -170,7 +170,7 @@ msgid ""
 "see the **previews** of the OpenCV results.  Previewing is essential for "
 "working with vision code."
 msgstr ""
-"より詳しくテレメトリーデータを研究する前に（下記参照），OpenCV結果の**プレビュー**が見えることを確認してください。プレビューはビジョンコードを使用する上で重要です。"
+"より詳しくテレメトリーデータを研究する前に（下記参照），OpenCV結果の ** プレビュー ** が見えることを確認してください。プレビューはビジョンコードを使用する上で重要です。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:59
 msgid ""
@@ -196,7 +196,7 @@ msgid ""
 "\"screen copy\"):"
 msgstr ""
 "ロボットコントローラ（RC）デバイスは、``LiveView`` というビデオプレビューを作成します。REV "
-"コントロールハブの場合は、このビデオはHDMIモニター**または**オープンソースソフトウェア`scrcpy "
+"コントロールハブの場合は、このビデオはHDMIモニター ** または ** オープンソースソフトウェア`scrcpy "
 "<https://github.com/Genymobile/scrcpy>`_（「スクリーンコピー」と呼ばれる）で確認できます："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:75
@@ -213,14 +213,14 @@ msgid ""
 "and the thin **green jagged line** is the Blob's contour (fully inside the "
 "ROI)."
 msgstr ""
-"両方のプレビューでは、**白い長方形**が興味領域（ROI）であり、細い**緑色の鋭角線**がブロブの輪郭です（ROIの完全な内部にあります）。"
+"両方のプレビューでは、 ** 白い長方形 ** が興味領域（ROI）であり、細い ** 緑色の鋭角線 ** がブロブの輪郭です（ROIの完全な内部にあります）。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:79
 msgid ""
 "The **yellow circle** is the new ``circleFit`` : the smallest circle that "
 "encloses the contour.  The ``circleFit`` is not required to stay inside the "
 "ROI."
-msgstr "The **黄色い円**は新しい``circleFit``：ROI内に留まらなくても、輪郭を囲む最小の円です。"
+msgstr "The ** 黄色い円 ** は新しい``circleFit``：ROI内に留まらなくても、輪郭を囲む最小の円です。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:82
 msgid "Basic Telemetry Data"
@@ -265,7 +265,7 @@ msgid ""
 "Another filter shows Blobs with circularity greater than 0.6.  Filters can "
 "be customized, as described in the Sample's comments."
 msgstr ""
-"The Blobの**Area**は利用可能ですが、ここでは表示されていません。Sample OpModeは、**filter** "
+"The Blobの ** Area ** は利用可能ですが、ここでは表示されていません。Sample OpModeは、 ** filter ** "
 "を使用して50から20,000ピクセル間の面積を持つBlobを表示します。また別のfilterは、円度が0.6を超えるBlobを表示します。フィルターはサンプルのコメントで説明されている通りにカスタマイズできます。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:102
@@ -274,13 +274,13 @@ msgid ""
 "default **sort by area** (largest is first).  Other sorting choices are "
 "available, described in the Sample's comments."
 msgstr ""
-"複数のBlobについて、サンプルはデフォルトの**面積でソート**（最大が最初）を使用してテレメトリをリスト表示します。他のソートオプションは、サンプルのコメントで説明されています。"
+"複数のBlobについて、サンプルはデフォルトの ** 面積でソート ** （最大が最初）を使用してテレメトリをリスト表示します。他のソートオプションは、サンプルのコメントで説明されています。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:104
 msgid ""
 "The Blob's **Density** is also available but not displayed here.  From the "
 "Sample's comments:"
-msgstr "The Blob の **Density** は利用可能ですが、ここでは表示されていません。Sample のコメントから："
+msgstr "The Blob の ** Density ** は利用可能ですが、ここでは表示されていません。Sample のコメントから："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:107
 msgid ""
@@ -314,7 +314,7 @@ msgid ""
 "the tapered image of a rectangular object.  An unobstructed, well-lit "
 "Artifact can reliably appear as a circle."
 msgstr ""
-"幸運なことに、円形のボールは**視覚的な歪み**のような複雑さをもたらしません。長方形物体の尖った像のような問題はありません。明るく遮るものがないアートファクトは信頼できる円として出現します。"
+"幸運なことに、円形のボールは ** 視覚的な歪み ** のような複雑さをもたらしません。長方形物体の尖った像のような問題はありません。明るく遮るものがないアートファクトは信頼できる円として出現します。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:120
 msgid ""
@@ -351,7 +351,7 @@ msgstr "``circleFit``はデフォルトで無効です"
 msgid ""
 "The ``_Circle`` sample **turns off** the ``boxFit`` with this Builder "
 "command:"
-msgstr "_the _Circle サンプルでは、このビルダー コマンドで ``boxFit`` の機能を**停止**します："
+msgstr "_the _Circle サンプルでは、このビルダー コマンドで ``boxFit`` の機能を ** 停止 ** します："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:138
 msgid ""
@@ -363,7 +363,7 @@ msgid ""
 "Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with this "
 "Builder command:"
 msgstr ""
-"Conversely, the ``_Circle`` sample **turns on** the ``circleFit`` with this "
+"Conversely, the ``_Circle`` sample ** turns on ** the ``circleFit`` with this "
 "Builder command:"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:146
@@ -389,7 +389,7 @@ msgstr "エロードとディラートの管理"
 msgid ""
 "Erosion and Dilation are **morphological** operations: pre-processing steps "
 "to improve vision recognition."
-msgstr "侵食と膨張は、視覚認識を改善するための**モルフォロジー**的な操作：事前処理手順です。"
+msgstr "侵食と膨張は、視覚認識を改善するための ** モルフォロジー ** 的な操作：事前処理手順です。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:160
 msgid "Examples of Dilation and Erosion"
@@ -540,7 +540,7 @@ msgstr "操作の順序、デフォルトでは拡大処理を実施した後で
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:213
 msgid "Results can be **filtered** in multiple ways:"
-msgstr "結果は複数の方法で**フィルタリング**することができます："
+msgstr "結果は複数の方法で ** フィルタリング ** することができます："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:216
 msgid "Contour Area"
@@ -566,7 +566,7 @@ msgstr "円形"
 msgid ""
 "Telemetry Results can be **sorted** by any of the above attributes.  See the"
 " Sample's comments for guidance."
-msgstr "テレメトリー結果は、上記の属性のいずれかで**ソート**することができます。サンプルのコメントを参照してください。"
+msgstr "テレメトリー結果は、上記の属性のいずれかで ** ソート ** することができます。サンプルのコメントを参照してください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:225
 msgid "Lighting Challenges"
@@ -604,7 +604,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:233
 msgid "These tools can help with Color Processing **and** AprilTag Detection."
-msgstr "これらのツールは、色処理とAprilTag検出に**役立ちます**。"
+msgstr "これらのツールは、色処理とAprilTag検出に ** 役立ちます ** 。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:235
 msgid ""
@@ -612,7 +612,7 @@ msgid ""
 "lighting conditions.  If you observe this in Previews, make adjustments as "
 "needed."
 msgstr ""
-"最後に、一部のウェブカムは**自動色補正**を行い、照明条件が変わる場合があります。プレビューでこれを見つかった場合は、必要に応じて調整してください。"
+"最後に、一部のウェブカムは ** 自動色補正 ** を行い、照明条件が変わる場合があります。プレビューでこれを見つかった場合は、必要に応じて調整してください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:238
 msgid "OpMode Development"
@@ -634,7 +634,7 @@ msgid ""
 "criteria to **exit a loop**, and which data should be used for subsequent "
 "calculations and movement?"
 msgstr ""
-"早期の選択肢は、処理（ループ）を継続する時間**は何時まで**かです。抽出されたデータを使用してロボットのアクションを行う前に、どのような基準で**ループから退出**すべきか、そして次の計算や移動に使用されるデータは何であるべきでしょうか？"
+"早期の選択肢は、処理（ループ）を継続する時間 ** は何時まで ** かです。抽出されたデータを使用してロボットのアクションを行う前に、どのような基準で ** ループから退出 ** すべきか、そして次の計算や移動に使用されるデータは何であるべきでしょうか？"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:244
 msgid ""
@@ -643,12 +643,12 @@ msgid ""
 "review may reveal which data are useful, rather than trying to observe the "
 "\"jumpy\" preview and Telemetry results."
 msgstr ""
-"**データロギング**について学ぶと役立つかもしれません。このOpModeのColor "
+" ** データロギング ** について学ぶと役立つかもしれません。このOpModeのColor "
 "Processorのデータをファイルに出力し、その後はスプレッドシートに転送することも可能です。詳細なレビューにより、どのデータが有用であるかが明らかになる可能性があります。\"ジャンプ\"しているプレビュー結果やテレメトリ結果を観察するよりも、その方が良いでしょう。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:246
 msgid "Also, you may want to **track multiple colors**, like this:"
-msgstr "また、複数の色を**追跡したい場合もあります**、例えば："
+msgstr "また、複数の色を ** 追跡したい場合もあります ** 、例えば："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:253
 msgid "Example image of tracking multiple colors in a single ROI"
@@ -710,7 +710,7 @@ msgstr ":doc:`挑戦 <../color-locator-challenge/color-locator-challenge>`，"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:272
 msgid "**Round Blobs** (this document)"
-msgstr "**円形のブロブ** (このドキュメント)"
+msgstr " ** 円形のブロブ ** (このドキュメント)"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:274
 msgid ""
