@@ -7,6 +7,8 @@
 
 **🚀 すぐに始めたい方は**: [QUICKSTART.md](QUICKSTART.md) をご覧ください！
 
+**📖 Read the Docsで公開したい方は**: [PUBLISHING.md](PUBLISHING.md) と [LICENSE_AND_LOGO_GUIDE.md](guides/LICENSE_AND_LOGO_GUIDE.md) をご覧ください！
+
 ---
 
 ## ⚠️ 非公式な翻訳と免責事項（重要）
@@ -19,6 +21,12 @@
 
 公式ウェブサイト（英語原文）：
 https://ftc-docs.firstinspires.org
+
+### 📖 Read the Docsでの公開について
+
+このドキュメントをRead the Docsで公開する手順については、**[PUBLISHING.md](PUBLISHING.md)** をご覧ください。
+
+ライセンスと著作権については、**[LICENSE-JA.md](LICENSE-JA.md)** をご確認ください。
 
 ---
 
