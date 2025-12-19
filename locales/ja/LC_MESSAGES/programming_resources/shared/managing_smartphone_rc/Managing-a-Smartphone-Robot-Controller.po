@@ -338,7 +338,7 @@ msgid ""
 "**not** need to have the Expansion Hub included in an active configuration "
 "file in order for the update to work."
 msgstr ""
-"3. Expansion Hubが電源オンになっており、完全に充電された12Vバッテリーで電源供給されていることを確認してください。また、Robot Controllerスマートフォンが、USB接続を通じてExpansion Hubに接続されていることを確認してください。注意：更新を実行するために、Robot ControllerのアクティブなConfigurationファイルにExpansion Hubを含める必要は**ありません**。"
+"3. Expansion Hubが電源オンになっており、完全に充電された12Vバッテリーで電源供給されていることを確認してください。また、Robot Controllerスマートフォンが、USB接続を通じてExpansion Hubに接続されていることを確認してください。注意：更新を実行するために、Robot ControllerのアクティブなConfigurationファイルにExpansion Hubを含める必要は ** ありません ** 。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:242
 msgid ""

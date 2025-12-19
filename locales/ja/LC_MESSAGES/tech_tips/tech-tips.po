@@ -65,7 +65,7 @@ msgstr "週 11/06/2024 \"Android Studio 2024.2.1 レディーベグアップデ�
 
 #: ../../source/tech_tips/tech-tips.rst:31
 msgid "**Android Studio 2024.2.1 LadyBug Update and the FTC SDK**"
-msgstr "**Android Studio 2024.2.1 ラディーガーブアップデートとFTC SDK**"
+msgstr " ** Android Studio 2024.2.1 ラディーガーブアップデートとFTC SDK ** "
 
 #: ../../source/tech_tips/tech-tips.rst:33
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips.rst:83
 msgid "**AprilTag Localization**"
-msgstr "**AprilTagロケール化**"
+msgstr " ** AprilTagロケール化 ** "
 
 #: ../../source/tech_tips/tech-tips.rst:85
 msgid ""
@@ -192,7 +192,7 @@ msgstr "週 2024年9月9日 \"AIイノベーションコーナー - Google AIス
 
 #: ../../source/tech_tips/tech-tips.rst:96
 msgid "**AI Innovation Corner - Google AI Studio**"
-msgstr "**AIイノベーションコーナー - Google AIスタジオ**"
+msgstr " ** AIイノベーションコーナー - Google AIスタジオ ** "
 
 #: ../../source/tech_tips/tech-tips.rst:98
 msgid ""
@@ -264,7 +264,7 @@ msgstr "2024年8月19日週「REV ドライバー・ハブバッテリー」"
 
 #: ../../source/tech_tips/tech-tips.rst:134
 msgid "**REV Driver Hub Batteries**"
-msgstr "**REV ドライバーハブバッテリー**"
+msgstr " ** REV ドライバーハブバッテリー ** "
 
 #: ../../source/tech_tips/tech-tips.rst:136
 msgid ""
@@ -497,7 +497,7 @@ msgid ""
 "unit, they are calculated differently and **cannot be used interchangeably "
 "(or together!)**."
 msgstr ""
-"必要な理解の基礎となる概念は「力」です。一般的に、電気的な力と機械的な力を2種類考えていますが、これらは似ているながらも異なる種類のものなので、それぞれについて見てみましょう。モーターにおいて、**電気的力**は電流がモーターの巻線を通過する際に供給されるエネルギーです。この電気的能量は、モーターがシャフトを回転させることで作業を行う速度である**機械的力**に変換されます。両種類の力は、それぞれのモーターの異なる側面を測定しています；電気的力は電荷の移動に関わっていますし、機械的力は力を受ける物体の移動に関わっています。これらの2つの測定値は、どちらもワット（W）という同じ単位で表されます。これは、一般的に力とはエネルギーの転送速度または作業量を定義するためです。どの形式のエネルギー（電気的、機械的、熱的など）が関わらず、力の基本的な概念は変わりません。これらの2つの力の測定値は同じ単位を持っていますが、計算方法は異なりますし、**互換性はありません（一緒に使うこともできません！）**。"
+"必要な理解の基礎となる概念は「力」です。一般的に、電気的な力と機械的な力を2種類考えていますが、これらは似ているながらも異なる種類のものなので、それぞれについて見てみましょう。モーターにおいて、 ** 電気的力 ** は電流がモーターの巻線を通過する際に供給されるエネルギーです。この電気的能量は、モーターがシャフトを回転させることで作業を行う速度である ** 機械的力 ** に変換されます。両種類の力は、それぞれのモーターの異なる側面を測定しています；電気的力は電荷の移動に関わっていますし、機械的力は力を受ける物体の移動に関わっています。これらの2つの測定値は、どちらもワット（W）という同じ単位で表されます。これは、一般的に力とはエネルギーの転送速度または作業量を定義するためです。どの形式のエネルギー（電気的、機械的、熱的など）が関わらず、力の基本的な概念は変わりません。これらの2つの力の測定値は同じ単位を持っていますが、計算方法は異なりますし、 ** 互換性はありません（一緒に使うこともできません！） ** 。"
 
 #: ../../source/tech_tips/tech-tips.rst:282
 msgid ""
@@ -517,13 +517,13 @@ msgid ""
 "use differences have an impact on how mechanical power is determined."
 msgstr ""
 "モーターやサーボは構造が似ています - "
-"どちらも電気エネルギーを機械エネルギーに変換する電磁機器ですが、使用方法には大きな違いがあります。モータは連続的な電力が必要なアプリケーション、例えばポンプやファン、コンベヤーシステムなどに多く使用されます。モータは通常、**連続出力電力**に対応しており、その電力レベルを無期限に維持しても過熱しないよう設計されています。サーボはロボット工学や精密位置決めシステムでよく使用され、制御された移動と正確な位置決めが不可欠な場面で活用されます。サーボは間歇的な操作のために設計されており、通常はオンオフのサイクルを繰り返して移動を制御します。また、**スタールトルク**や**ノーロード速度**という指標で評価され、力に対する位置保持能力と荷重がない場合の移動速度を反映しています。両種類のデバイスにおける電気エネルギーの計算は基本的には同じですが、これらの設計と使用上の違いは機械エネルギーの決定に影響を与えます。"
+"どちらも電気エネルギーを機械エネルギーに変換する電磁機器ですが、使用方法には大きな違いがあります。モータは連続的な電力が必要なアプリケーション、例えばポンプやファン、コンベヤーシステムなどに多く使用されます。モータは通常、 ** 連続出力電力 ** に対応しており、その電力レベルを無期限に維持しても過熱しないよう設計されています。サーボはロボット工学や精密位置決めシステムでよく使用され、制御された移動と正確な位置決めが不可欠な場面で活用されます。サーボは間歇的な操作のために設計されており、通常はオンオフのサイクルを繰り返して移動を制御します。また、 ** スタールトルク ** や ** ノーロード速度 ** という指標で評価され、力に対する位置保持能力と荷重がない場合の移動速度を反映しています。両種類のデバイスにおける電気エネルギーの計算は基本的には同じですが、これらの設計と使用上の違いは機械エネルギーの決定に影響を与えます。"
 
 #: ../../source/tech_tips/tech-tips.rst:297
 msgid ""
 "Both motors and servos calculate **electrical power** the same, using the "
 "standard electrical power formula:"
-msgstr "両方のモータとサーボは、標準的な電力計算式を使って同じように**電気的功率**を計算します："
+msgstr "両方のモータとサーボは、標準的な電力計算式を使って同じように ** 電気的功率 ** を計算します："
 
 #: ../../source/tech_tips/tech-tips.rst:300
 msgid "*Electrical Power(W) = volts(V) x amps(A)*"
@@ -1237,7 +1237,7 @@ msgid ""
 msgstr ""
 "しかし、どのようにしてあなたのロボットのWi-"
 "Fiがどれほど適切に動作しているのか確実に知る方法はありますか？ドライバーステーションアプリを使用してWi-"
-"Fi信号の強度を監視できます。**2024/02/12 Team Blast Tech Tip** を参照し、Wi-"
+"Fi信号の強度を監視できます。 ** 2024/02/12 Team Blast Tech Tip ** を参照し、Wi-"
 "Fi信号強度をどのように表示し理解するかについての情報を確認してください。ドライバーハブから最大フィールド範囲で5GHzを使用し、ロボットがすべての向きにある場合でも信号が強い場合は、5GHzで問題なく動作できるはずです！5GHzと2.4GHzでのパフォーマンスを比較してみてください。もし同等であれば、干渉を減らすために5GHzを使用することをお勧めします。"
 
 #: ../../source/tech_tips/tech-tips.rst:826
@@ -1517,7 +1517,7 @@ msgstr ""
 " <https://www.andymark.com/products/battery-beak-frc-ftc-"
 "usage?Intended%20Use=FTC%20(am-3430)&quantity=1>`__、West Mountain Radio CBA "
 "<https://www.westmountainradio.com/cba.php>`__ または同等のバッテリーテスターを使用 - "
-"**マルチメーターを使って内部抵抗を直接測定することはできません。これを行うと、ファーストのファuseが壊れ、マルチメーターも損傷する可能性があります！**）。その後は時間とともにIRを追跡します。バッテリーのIRが「生まれたとき」から50%上昇した場合、バッテリーは普遍的に交換が必要とされる状態となります。"
+" ** マルチメーターを使って内部抵抗を直接測定することはできません。これを行うと、ファーストのファuseが壊れ、マルチメーターも損傷する可能性があります！ ** ）。その後は時間とともにIRを追跡します。バッテリーのIRが「生まれたとき」から50%上昇した場合、バッテリーは普遍的に交換が必要とされる状態となります。"
 
 #: ../../source/tech_tips/tech-tips.rst:1008
 msgid ""
@@ -2096,7 +2096,7 @@ msgid ""
 "indicator and the Bar graph are not represented accurately on Driver Hubs, "
 "but are represented accurately on all legal phones."
 msgstr ""
-"**注:** `Driver Hub <https://www.revrobotics.com/rev-31-1596/>`__ には、Link "
+" ** 注: ** `Driver Hub <https://www.revrobotics.com/rev-31-1596/>`__ には、Link "
 "Speed表示が最初に交渉されたリンク速度のみを示す-known bug-があるため、Wi-Fiデバイスが異なるリンク速度で再交渉した場合、Link "
 "Speed表示は変化しません。これは、Driver Hub上でLink "
 "Speed表示と棒グラフが正確には表現されていないことを意味しますが、すべての合法的な携帯電話では正確に表現されます。"
@@ -2667,7 +2667,7 @@ msgstr "週11月6日 \"ドライバーハブまたはスマートフォン？\""
 
 #: ../../source/tech_tips/tech-tips.rst:1726
 msgid "**REV Driver Hub or Smartphone?**"
-msgstr "**REV ドライバーハブやスマートフォン？**"
+msgstr " ** REV ドライバーハブやスマートフォン？ ** "
 
 #: ../../source/tech_tips/tech-tips.rst:1728
 msgid ""
@@ -2694,7 +2694,7 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips.rst:1739
 msgid "**Driver Hub Pros**"
-msgstr "**ドライバーハブプロス**"
+msgstr " ** ドライバーハブプロス ** "
 
 #: ../../source/tech_tips/tech-tips.rst:1741
 msgid ""
@@ -2752,7 +2752,7 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips.rst:1767
 msgid "**Driver Hub Cons**"
-msgstr "**ドライバー・ハブ コンソール**"
+msgstr " ** ドライバー・ハブ コンソール ** "
 
 #: ../../source/tech_tips/tech-tips.rst:1769
 msgid "Driver Hub still has Power Management issues"
@@ -2832,7 +2832,7 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips.rst:1806
 msgid "**SmartPhone Pros**"
-msgstr "**スマートフォンプロス**"
+msgstr " ** スマートフォンプロス ** "
 
 #: ../../source/tech_tips/tech-tips.rst:1808
 msgid ""
@@ -2856,7 +2856,7 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips.rst:1817
 msgid "**SmartPhone Cons**"
-msgstr "**スマートフォン用コンソール**"
+msgstr " ** スマートフォン用コンソール ** "
 
 #: ../../source/tech_tips/tech-tips.rst:1819
 msgid ""

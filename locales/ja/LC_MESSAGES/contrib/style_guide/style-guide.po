@@ -365,7 +365,7 @@ msgstr "One Asterisk: \\*text\\* には強調（イタリック）で「text」�
 
 #: ../../source/contrib/style_guide/style-guide.rst:186
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
-msgstr "二重星付近: \\*\\*text\\*\\* で強調表示（太字）- 例:**text**"
+msgstr "二重星付近: \\*\\*text\\*\\* で強調表示（太字）- 例: ** text ** "
 
 #: ../../source/contrib/style_guide/style-guide.rst:187
 msgid "Two Backticks: \\`\\`text\\`\\` for literals - like ``text``"
@@ -1241,8 +1241,8 @@ msgid ""
 "for that page are stored in the folder "
 "**game_specific_resources\\\\field_coordinate_system\\\\images**."
 msgstr ""
-"例：ドキュメント「**fieldd-coordinate-"
-"system.rst**」は、「**game_specific_resources\\\\field_coordinate_system**」フォルダ内にあります。そのページの画像は、「**game_specific_resources\\\\field_coordinate_system\\\\images**」フォルダ内に保存されています。"
+"例：ドキュメント「 ** fieldd-coordinate-"
+"system.rst ** 」は、「 ** game_specific_resources\\\\field_coordinate_system ** 」フォルダ内にあります。そのページの画像は、「 ** game_specific_resources\\\\field_coordinate_system\\\\images ** 」フォルダ内に保存されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:633
 msgid ""
@@ -1251,9 +1251,9 @@ msgid ""
 "what the image shows. This should be less than 24 characters. File name "
 "extensions should be **.png** or **.jpg**."
 msgstr ""
-"画像ファイル名は、**短い説明.ext** "
+"画像ファイル名は、 ** 短い説明.ext ** "
 "の形式に従って命名する必要があります。ファイル名は画像が表示している内容の短い説明であるべきで、24文字未満にしてください。ファイル名の拡張子は "
-"**.png** または **.jpg** にする必要があります。"
+" ** .png ** または ** .jpg ** にする必要があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:637
 msgid ""

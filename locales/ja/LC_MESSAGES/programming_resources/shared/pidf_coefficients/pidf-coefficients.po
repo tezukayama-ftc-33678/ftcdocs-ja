@@ -66,7 +66,7 @@ msgid ""
 "adjust the PIDF coefficients is to use the extended/enhanced **PIDF-related "
 "methods of the DcMotorControllerEx class**, as follows:"
 msgstr ""
-"選択されたモータを制御しているモータコントローラー**上で**実際のPIDF係数の変更が行われます。PIDF係数を調整する別の方法は、DcMotorControllerExクラスの拡張/強化された**PIDF関連メソッド**を使用することです。以下にその方法を示します："
+"選択されたモータを制御しているモータコントローラー ** 上で ** 実際のPIDF係数の変更が行われます。PIDF係数を調整する別の方法は、DcMotorControllerExクラスの拡張/強化された ** PIDF関連メソッド ** を使用することです。以下にその方法を示します："
 
 #: ../../source/programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:154
 msgid ""

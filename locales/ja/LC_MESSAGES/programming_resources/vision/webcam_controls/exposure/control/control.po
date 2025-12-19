@@ -38,7 +38,7 @@ msgid ""
 "you specify, typically ``TimeUnit.MILLISECONDS``."
 msgstr ""
 "露出はシャッターボタンが開いた時間に比例し、光を受光素子に届けることができます。そのため、インターフェース ExposureControl "
-"では、指定した単位（通常は ``TimeUnit.MILLISECONDS``）で表される **duration** の单一値を使用します。"
+"では、指定した単位（通常は ``TimeUnit.MILLISECONDS``）で表される ** duration ** の单一値を使用します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/control/control.rst:12
 msgid ""

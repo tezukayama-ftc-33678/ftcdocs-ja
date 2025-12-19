@@ -39,7 +39,7 @@ msgid ""
 "Processor. The two Processors evaluate camera frames independently."
 msgstr ""
 "ここでは、Step 3 "
-"**VisionPortalの作成**について説明します。これにより、OpModeがAprilTagやTensorFlowオブジェクト検出(TFOD)を使用できるようになります。これは前ページ"
+" ** VisionPortalの作成 ** について説明します。これにより、OpModeがAprilTagやTensorFlowオブジェクト検出(TFOD)を使用できるようになります。これは前ページ"
 " :doc:`ビジョンプロセッサ初期化 <../vision_processor_init/vision-processor-init>` "
 "から続き、そこでStep 2: "
 "AprilTagプロセッサやTFODプロセッサの作成が説明されています。両方のプロセッサはカメラフレームを独立して評価します。"
@@ -67,7 +67,7 @@ msgid ""
 "The SDK provides an \"easy\" way to make VisionPortal, using only "
 "**defaults** and not mentioning a \"Builder\":"
 msgstr ""
-"SDK は、**デフォルト** を使用し、「ビルダー」を明記せずに VisionPortal を簡単に作成できる「簡単な」方法を提供します："
+"SDK は、 ** デフォルト ** を使用し、「ビルダー」を明記せずに VisionPortal を簡単に作成できる「簡単な」方法を提供します："
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst
 msgid "Blocks"
@@ -111,7 +111,7 @@ msgstr "ビジョンポータル初期化 - ビルダー"
 msgid ""
 "The SDK also provides the \"Builder\" way to make VisionPortal, allowing "
 "**custom settings**:"
-msgstr "SDK は VisionPortal を作成するための \"ビルダー\" 方式も提供し、**カスタム設定** を可能にします："
+msgstr "SDK は VisionPortal を作成するための \"ビルダー\" 方式も提供し、 ** カスタム設定 ** を可能にします："
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:75
 msgid "VisionPortal Initialization with a Builder"
@@ -135,7 +135,7 @@ msgstr ""
 msgid ""
 "The SDK allows multiple, fully capable Portals.  This is covered separately "
 "at the **MultiPortal** page."
-msgstr "SDKは複数の完全に機能的なポータルを許可します。これは単独で**MultiPortal**ページで詳しく説明されています。"
+msgstr "SDKは複数の完全に機能的なポータルを許可します。これは単独で ** MultiPortal ** ページで詳しく説明されています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:113
 msgid "Java Builder Chain"
@@ -179,7 +179,7 @@ msgid ""
 "For a Processor created at Step 2, an OpMode does **not need** to enable "
 "that Processor at this Step 3, **VisionPortal Initialization**."
 msgstr ""
-"Step 2 で作成されたプロセッサに対して、この Step 3 の **VisionPortal 初期化** では OpMode はそのプロセッサを有効化する必要**がない**。"
+"Step 2 で作成されたプロセッサに対して、この Step 3 の ** VisionPortal 初期化 ** では OpMode はそのプロセッサを有効化する必要 ** がない ** 。"
 ""
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:145
@@ -187,7 +187,7 @@ msgid ""
 "The ``setProcessorEnabled()`` command is **not** part of the Builder "
 "pattern."
 msgstr ""
-"The ``setProcessorEnabled()`` command is **not** part of the Builder pattern."
+"The ``setProcessorEnabled()`` command is ** not ** part of the Builder pattern."
 ""
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:147
@@ -196,7 +196,7 @@ msgid ""
 "after **disabling** (by setting to ``false``).  This topic is covered "
 "further at the **Managing CPU and Bandwidth** page."
 msgstr ""
-"Use ``setProcessorEnabled(   , true)`` only to **re-enable** the processor, after **disabling** (by setting to ``false``).  This topic is covered further at the **Managing CPU and Bandwidth** page."
+"Use ``setProcessorEnabled(   , true)`` only to ** re-enable ** the processor, after ** disabling ** (by setting to ``false``).  This topic is covered further at the ** Managing CPU and Bandwidth ** page."
 ""
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:151
@@ -219,7 +219,7 @@ msgid ""
 "Again, use this only to **re-enable** the processor, after **disabling** (by"
 " setting to ``false``)."
 msgstr ""
-"また、この機能はプロセッサを**再起動**するためだけに使用し、**停止**状態から復帰（``false`` に設定した場合）後にのみ使用してください。"
+"また、この機能はプロセッサを ** 再起動 ** するためだけに使用し、 ** 停止 ** 状態から復帰（``false`` に設定した場合）後にのみ使用してください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:179
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"

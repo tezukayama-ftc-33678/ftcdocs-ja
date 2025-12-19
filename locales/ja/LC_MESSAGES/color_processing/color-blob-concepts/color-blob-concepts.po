@@ -30,19 +30,19 @@ msgstr "色のブロブ"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:7
 msgid "An image can be evaluated by its **groupings of similar colors**."
-msgstr "画像は**類似色のグループ化**によって評価できます。"
+msgstr "画像は ** 類似色のグループ化 ** によって評価できます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:9
 msgid ""
 "The smallest unit of any digital image is a **pixel**: a tiny square of one "
 "particular color."
-msgstr "任意のデジタル画像の最小単位は**ピクセル**です：特定の色の小さな正方形です。"
+msgstr "任意のデジタル画像の最小単位は ** ピクセル ** です：特定の色の小さな正方形です。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:12
 msgid ""
 "Each grouping or cluster of similar-colored pixels is called a **Blob**, "
 "which can be irregular in size and shape."
-msgstr "各グループまたは類似色のピクセルの集まりは、形状やサイズが不規則でもある **Blob** と呼ばれます。"
+msgstr "各グループまたは類似色のピクセルの集まりは、形状やサイズが不規則でもある ** Blob ** と呼ばれます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:15
 msgid ""
@@ -50,7 +50,7 @@ msgid ""
 "similar color that are **contiguous** -- touching each other along an edge, "
 "not just at a corner."
 msgstr ""
-"ブロブの形成はソフトウェアによって自動で行われます。類似した色のピクセルを探索し、これらが辺を通じて接している（角だけではなし）**連続**なピクセル群を見つけ出します。"
+"ブロブの形成はソフトウェアによって自動で行われます。類似した色のピクセルを探索し、これらが辺を通じて接している（角だけではなし） ** 連続 ** なピクセル群を見つけ出します。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:24
 msgid "Blob Formation Visualization"
@@ -87,7 +87,7 @@ msgid ""
 "of red.  But with a **target** definition \"close to red\" or \"mostly "
 "red\", the software can form reasonable Blobs for further processing."
 msgstr ""
-"上記の例では、椅子の表面は完全に同じレッド色ではありません。しかし、「レッドに近い」または「主にレッド」という**ターゲット**定義であれば、ソフトウェアは適切な**ブロブ**を形成し、その後の処理に使用できます。"
+"上記の例では、椅子の表面は完全に同じレッド色ではありません。しかし、「レッドに近い」または「主にレッド」という ** ターゲット ** 定義であれば、ソフトウェアは適切な ** ブロブ ** を形成し、その後の処理に使用できます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:46
 msgid "Color Processing"
@@ -119,8 +119,8 @@ msgid ""
 "is processing only a certain **Region of Interest** or ROI.  That's the "
 "white rectangle; its size and location are specified by you."
 msgstr ""
-"でも、なぜ長方形がゲームピースの全体を囲んでいないのでしょうか？ソフトウェアは特定の** Region of Interest "
-"**（ROI）のみを処理しています。それが白い長方形で、そのサイズと位置はあなたによって指定されます。"
+"でも、なぜ長方形がゲームピースの全体を囲んでいないのでしょうか？ソフトウェアは特定の ** Region of Interest "
+" ** （ROI）のみを処理しています。それが白い長方形で、そのサイズと位置はあなたによって指定されます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:65
 msgid ""
@@ -160,7 +160,7 @@ msgid ""
 " simpler geometric shape that represents the Blob.  It's not **exactly** "
 "like the actual Blob, but hopefully still useful."
 msgstr ""
-"オレンジの長方形はOpenCVによって自動的に描画され、OpModeにBlobを表す単純な幾何形状を与えます。実際のBlobと**完全には**同じではありませんが、それでも有用であることを願っています。"
+"オレンジの長方形はOpenCVによって自動的に描画され、OpModeにBlobを表す単純な幾何形状を与えます。実際のBlobと ** 完全には ** 同じではありませんが、それでも有用であることを願っています。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:88
 msgid ""
@@ -192,7 +192,7 @@ msgstr "青緑色のBlobの輪郭を見逃さないように、非常に粗い�
 msgid ""
 "Here, the best-fitting rectangle (boxFit) is **tilted**, and is not "
 "contained inside the ROI."
-msgstr "ここでは、最適な fitting 矩形（boxFit）が**傾斜**しており、ROI（興味領域）の内側に含まれていません。"
+msgstr "ここでは、最適な fitting 矩形（boxFit）が ** 傾斜 ** しており、ROI（興味領域）の内側に含まれていません。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:108
 msgid ""
@@ -215,7 +215,7 @@ msgstr "2つのブロブ検出"
 msgid ""
 "OpenCV detected **two Blobs**, each with a teal outline and each with a "
 "boxFit."
-msgstr "OpenCV で **2つのブロブ** を検出しました。それぞれには青緑色の枠線があり、それぞれに箱型フィットが表示されています。"
+msgstr "OpenCV で ** 2つのブロブ ** を検出しました。それぞれには青緑色の枠線があり、それぞれに箱型フィットが表示されています。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:123
 msgid ""
@@ -224,7 +224,7 @@ msgid ""
 "unwanted results.  After filtering, your OpMode can **sort** the remaining "
 "results, to focus on the highest priority."
 msgstr ""
-"あなたのOpModeは、「重要」と判断するboxFitと「無視」するboxFitを「決断」する必要があります。幸いなことに、OpenCVには特定の不要な結果を**フィルタリング**するためのツールが用意されています。フィルタリング後、あなたのOpModeは残った結果を**ソート**し、最優先順位に焦点を当てることができます。"
+"あなたのOpModeは、「重要」と判断するboxFitと「無視」するboxFitを「決断」する必要があります。幸いなことに、OpenCVには特定の不要な結果を ** フィルタリング ** するためのツールが用意されています。フィルタリング後、あなたのOpModeは残った結果を ** ソート ** し、最優先順位に焦点を当てることができます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:128
 msgid ""

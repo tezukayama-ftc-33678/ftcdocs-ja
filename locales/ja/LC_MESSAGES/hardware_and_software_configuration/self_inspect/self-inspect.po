@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 "The Self Inspect screen "
 "は、チームが特定の制御システム要素が最新で適切に設定されていることを確認するための迅速かつ便利な参照資料として提供されています。Self Inspect"
-" は FTC ツーリズムでのロボット検査時にレビューされるかもしれませんが、FTC のルール遵守の総合的なまたは公式基準 **ではありません**。"
+" は FTC ツーリズムでのロボット検査時にレビューされるかもしれませんが、FTC のルール遵守の総合的なまたは公式基準 ** ではありません ** 。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:25
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:501
@@ -112,8 +112,8 @@ msgid ""
 "RC phones host via **Wi-Fi Direct**, while Control Hubs host via **Standard,"
 " or ‘infrastructure’, Wi-Fi**."
 msgstr ""
-"ペアリング技術はSelf Inspectレポートの重要な側面です。RC電話は**Wi-Fi "
-"Direct**を介してホストし、コントロールハブは**標準的な、または「インフラストラクチャ」Wi-Fi**を介してホストします。"
+"ペアリング技術はSelf Inspectレポートの重要な側面です。RC電話は ** Wi-Fi "
+"Direct ** を介してホストし、コントロールハブは ** 標準的な、または「インフラストラクチャ」Wi-Fi ** を介してホストします。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:44
 msgid ""
@@ -130,9 +130,9 @@ msgid ""
 "connected to any Standard/infra Wi-Fi host such as an internet router or "
 "hotspot. Devices should be set to **Forget** any local Wi-Fi networks."
 msgstr ""
-"RCおよびDSの電話は、航空機モードを**オン**にし、Wi-"
-"Fiを**オン**にしておく必要がありますが、インターネットルーターやホットスポットなどの標準/WIFI基地局には接続しないでください。デバイスは、あらゆるローカルなWi-"
-"Fiネットワークを**忘れ**ることをお勧めします。"
+"RCおよびDSの電話は、航空機モードを ** オン ** にし、Wi-"
+"Fiを ** オン ** にしておく必要がありますが、インターネットルーターやホットスポットなどの標準/WIFI基地局には接続しないでください。デバイスは、あらゆるローカルなWi-"
+"Fiネットワークを ** 忘れ ** ることをお勧めします。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:53
 msgid "FTC control devices may use these combinations:"
@@ -160,7 +160,7 @@ msgid ""
 "**and** an RC Self Inspect (for paired RC phone or Control Hub). An RC phone"
 " can display only its own RC Self Inspect."
 msgstr ""
-"A DS デバイス（スマートフォンまたはドライバーハブ）は、自身のDS 自己診断**と**ペアリングされたRC スマートフォンやコントロールハブのRC "
+"A DS デバイス（スマートフォンまたはドライバーハブ）は、自身のDS 自己診断 ** と ** ペアリングされたRC スマートフォンやコントロールハブのRC "
 "自己診断を表示できます。一方で、RC スマートフォンは自身のみのRC 自己診断のみを表示します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:64
@@ -169,7 +169,7 @@ msgstr "これは、自己診断画面が次のようになることを意味し
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:66
 msgid "**DRIVER STATION**"
-msgstr "**ドライバー・ステーション**"
+msgstr " ** ドライバー・ステーション ** "
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:68
 msgid ""
@@ -200,7 +200,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:79
 msgid "**ROBOT CONTROLLER**"
-msgstr "**ロボットコントローラ**"
+msgstr " ** ロボットコントローラ ** "
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:81
 msgid ""
@@ -253,8 +253,8 @@ msgid ""
 " click the **blue link** to explore the Self Inspect screen for that device "
 "and combination."
 msgstr ""
-"これらの組み合わせは、**やや異なる** "
-"自己検査カテゴリ、ステータスフレーズ、およびパス/失敗結果を表示する可能性があります。詳細は以下の通りで、該当するデバイスと組み合わせの自己検査画面を探索するには、**青色のリンク**"
+"これらの組み合わせは、 ** やや異なる ** "
+"自己検査カテゴリ、ステータスフレーズ、およびパス/失敗結果を表示する可能性があります。詳細は以下の通りで、該当するデバイスと組み合わせの自己検査画面を探索するには、 ** 青色のリンク ** "
 " をクリックしてください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:106
@@ -279,7 +279,7 @@ msgid ""
 "green color of the percentage value changes towards **orange** as the charge"
 " level goes down."
 msgstr ""
-"アイテム5は装置のバッテリー残量を示しています。おもしろいこと：パーセンテージ値の緑色は充電レベルが下がるにつれて**オレンジ**に変化します。"
+"アイテム5は装置のバッテリー残量を示しています。おもしろいこと：パーセンテージ値の緑色は充電レベルが下がるにつれて ** オレンジ ** に変化します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:120
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:226
@@ -287,7 +287,7 @@ msgid ""
 "Item 8 ``Location services`` appears only on devices running **Android 8** "
 "or higher. This is an SDK/Android technology requirement, not an FTC rule."
 msgstr ""
-"アイテム8「位置情報サービス」は、**Android 8** "
+"アイテム8「位置情報サービス」は、 ** Android 8 ** "
 "以降のデバイスのみで表示されます。これはSDK/Android技術上の要件であり、FTCのルールではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:123
@@ -298,7 +298,7 @@ msgid ""
 "router or a Control Hub, when intending to pair with an RC phone."
 msgstr ""
 "Items 9 and 10 here must be Yes and No. ``Wi-Fi Enabled`` means the DS "
-"device’s Wi-Fi radio is **ON**, to use Wi-Fi Direct. It must **not** be "
+"device’s Wi-Fi radio is ** ON ** , to use Wi-Fi Direct. It must ** not ** be "
 "connected to a Standard/infrastructure Wi-Fi source, such as an internet "
 "router or a Control Hub, when intending to pair with an RC phone."
 
@@ -311,8 +311,8 @@ msgid ""
 "legal names, but any name can be entered in the DS phone’s Android Wi-Fi "
 "Direct settings."
 msgstr ""
-"Item 11は、**デバイスのWi-Fi "
-"Direct名**がFTC形式要件を満たしているかどうかを示しています。ペアリングされたデバイスが一致するRC名（チーム番号）を持っているかどうかはチェックしていません。この場合、電話は法的に2468-A-DSと2468-A-RCと名付けられています。DRIVER"
+"Item 11は、 ** デバイスのWi-Fi "
+"Direct名 ** がFTC形式要件を満たしているかどうかを示しています。ペアリングされたデバイスが一致するRC名（チーム番号）を持っているかどうかはチェックしていません。この場合、電話は法的に2468-A-DSと2468-A-RCと名付けられています。DRIVER"
 " STATION NAME (ドライバーステーション名)設定では、みずからFTC法的な名前のみを許容しますが、どの名前でもDRIVER "
 "STATIONの電話のAndroid Wi-Fi Direct設定に入力できます。"
 
@@ -332,7 +332,7 @@ msgstr ""
 msgid ""
 "Here’s a report from the same phone, with many items **rejected** by Self "
 "Inspect."
-msgstr "こちらはSelf Inspectで多くの項目が**拒否**された同じスマートフォンからの報告です。"
+msgstr "こちらはSelf Inspectで多くの項目が ** 拒否 ** された同じスマートフォンからの報告です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:149
 msgid "DS 1 Bad"
@@ -353,7 +353,7 @@ msgid ""
 "router)."
 msgstr ""
 "Item 6は「Airplane "
-"Mode」を拒否し、**オフ**になっているため、「FTC用の電話ではオンにしてください」としています。これはAndroidシステム設定であり、電話の設定メニューから利用できます。また、画面の上部から2回スワイプすることで簡単にアクセスできます。Airplaneモードをオンにすると、自動的にWi-"
+"Mode」を拒否し、 ** オフ ** になっているため、「FTC用の電話ではオンにしてください」としています。これはAndroidシステム設定であり、電話の設定メニューから利用できます。また、画面の上部から2回スワイプすることで簡単にアクセスできます。Airplaneモードをオンにすると、自動的にWi-"
 "Fi無線局もオフになります。これはAndroidの「便利さ」の一環です。FTCユーザーはWi-"
 "Fi無線局を手動で再開する必要があります（ローカルホットスポットやインターネットルーターに接続されていない場合でも）。"
 
@@ -363,7 +363,7 @@ msgid ""
 "This is also an Android system setting; swipe down twice or see Settings "
 "menu."
 msgstr ""
-"アイテム7は「Bluetooth」が**オン**であることを拒否します；FTC用にはオフにする必要があります。これはAndroidのシステム設定でもあります；下に2度スワイプするか、設定メニューをご覧ください。"
+"アイテム7は「Bluetooth」が ** オン ** であることを拒否します；FTC用にはオフにする必要があります。これはAndroidのシステム設定でもあります；下に2度スワイプするか、設定メニューをご覧ください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:161
 msgid ""
@@ -371,15 +371,15 @@ msgid ""
 "**Android 8** or higher, the FTC apps require Location enabled. This is also"
 " an Android system setting; swipe down twice or see Settings menu."
 msgstr ""
-"アイテム8は「位置情報サービス」が**オフ**であることを拒否します。**Android "
-"8**以降のデバイスでは、FTCアプリケーションは位置情報を必要とします。これはAndroidのシステム設定でもありますので、下に2回スワイプしてみてください或者查看“设置”菜单。"
+"アイテム8は「位置情報サービス」が ** オフ ** であることを拒否します。 ** Android "
+"8 ** 以降のデバイスでは、FTCアプリケーションは位置情報を必要とします。これはAndroidのシステム設定でもありますので、下に2回スワイプしてみてください或者查看“设置”菜单。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:165
 msgid ""
 "Item 9 shows the DS phone’s Wi-Fi radio is **ON**, as required for Wi-Fi "
 "Direct **or** Standard Wi-Fi pairing to an RC device."
 msgstr ""
-"アイテム9では、DS電話のWi-Fi無線ルータが**オン**であることを示しており、Wi-Fi Direct **または** "
+"アイテム9では、DS電話のWi-Fi無線ルータが ** オン ** であることを示しており、Wi-Fi Direct ** または ** "
 "ロボットコントローラーとの標準的なWi-Fiペアリングに必要です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:167
@@ -397,9 +397,9 @@ msgstr ""
 "Item 10 rejects the DS phone’s connection via Standard/infrastructure Wi-Fi,"
 " because the DS Pairing Method is set to Wi-Fi Direct – thus intending to "
 "connect with an RC phone. In this case, the phone is connected to a home Wi-"
-"Fi network. This and other such networks must be set to **Forget**, in the "
+"Fi network. This and other such networks must be set to ** Forget ** , in the "
 "device’s Android Wi-Fi menu. If temporary internet access is needed, "
-"‘Forget’ that network afterwards. Also **Remove Account** for any Google or "
+"‘Forget’ that network afterwards. Also ** Remove Account ** for any Google or "
 "other accounts that may have been used during the internet session. Such "
 "accounts can cause background activity, notifications and updates – at the "
 "worst possible times."
@@ -411,8 +411,8 @@ msgid ""
 "Android Wi-Fi Direct settings; not possible using the app’s DS Settings "
 "(Driver Station Name)."
 msgstr ""
-"アイテム11は、デバイスの**Wi-"
-"Fiダイレクト名**がFTCフォーマット要件を満たしていないため、この不良な名前を拒否します。ここに表示された不良な名前は、ドライバーステーション電話のAndroid"
+"アイテム11は、デバイスの ** Wi-"
+"Fiダイレクト名 ** がFTCフォーマット要件を満たしていないため、この不良な名前を拒否します。ここに表示された不良な名前は、ドライバーステーション電話のAndroid"
 " Wi-Fiダイレクト設定で作成されたものであり、アプリケーションのDS設定（ドライバーステーション名）では不可能です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:181
@@ -451,7 +451,7 @@ msgid ""
 "Fi Direct – thus intending to connect with an RC phone."
 msgstr ""
 "アイテム10の「はい」は、DSペアリング方法がWi-"
-"Fiダイレクトに設定されている場合、ロボットコンピュータでRC電話との接続を試みることから**拒否**されます。"
+"Fiダイレクトに設定されている場合、ロボットコンピュータでRC電話との接続を試みることから ** 拒否 ** されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:203
 msgid ""
@@ -500,15 +500,15 @@ msgid ""
 "confirms this is not happening; see next example."
 msgstr ""
 "Items 9 と 10 は「Yes」と「No」でなければなりません。「Wi-Fi Enabled」はドライバーハブのWi-"
-"Fi無線局が**ON**になっていることを意味し、RC電話をWi-Fi Directで使用するためには必要です。ドライバーハブは技術的には標準的なWi-"
-"Fiソースやインターネットルーター、コントロールハブなどに接続可能である **technically able to also be "
-"connected** です。Item 10 はこれにより接続されていないことを確認します。次例を参照してください。"
+"Fi無線局が ** ON ** になっていることを意味し、RC電話をWi-Fi Directで使用するためには必要です。ドライバーハブは技術的には標準的なWi-"
+"Fiソースやインターネットルーター、コントロールハブなどに接続可能である ** technically able to also be "
+"connected ** です。Item 10 はこれにより接続されていないことを確認します。次例を参照してください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:235
 msgid ""
 "Item 10’s No would be **rejected** if the DS Pairing Method was set to "
 "Control Hub."
-msgstr "Item 10のNoは、DSペアリング方法がコントロールハブに設定されている場合、**拒否**されます。"
+msgstr "Item 10のNoは、DSペアリング方法がコントロールハブに設定されている場合、 ** 拒否 ** されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:237
 msgid ""
@@ -520,7 +520,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:240
 msgid ""
 "Item 12 verifies that the Driver Hub does **not** have an RC app installed."
-msgstr "アイテム12は、ドライバーハブにRCアプリが**インストールされていないことを確認**します。"
+msgstr "アイテム12は、ドライバーハブにRCアプリが ** インストールされていないことを確認 ** します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:242
 msgid ""
@@ -532,9 +532,9 @@ msgid ""
 "date in the **Android device Settings**."
 msgstr ""
 "Item "
-"13は、DSアプリが現在のFTCシーズンにおける**最小バージョン**に達していることを確認します。これはデバイスのシステム日付に基づいています。この特定のバージョン7.0.1はRC電話の7.0と完全には一致していません。更新されたFTCルール（2021-2022シーズンではQ&A"
+"13は、DSアプリが現在のFTCシーズンにおける ** 最小バージョン ** に達していることを確認します。これはデバイスのシステム日付に基づいています。この特定のバージョン7.0.1はRC電話の7.0と完全には一致していません。更新されたFTCルール（2021-2022シーズンではQ&A"
 " "
-"#176）によれば、「ポイントミスマッチ」は許可されています。そうでない場合、**Androidデバイス設定**で日付を修正することで、「不適切」と表示される赤いマークはクリアできます。"
+"#176）によれば、「ポイントミスマッチ」は許可されています。そうでない場合、 ** Androidデバイス設定 ** で日付を修正することで、「不適切」と表示される赤いマークはクリアできます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:255
 msgid "DS 3b"
@@ -577,7 +577,7 @@ msgid ""
 msgstr ""
 "アイテム1はまだ「Wi-Fi Directから切断」の選択肢を提供しています。しかし、その選択肢をタッチすると、「There was an error "
 "disconnecting from Wi-Fi "
-"Direct」というメッセージが表示されます。これはドライバーハブがコントロールハブにペアリングされているため、**not** via Wi-Fi "
+"Direct」というメッセージが表示されます。これはドライバーハブがコントロールハブにペアリングされているため、 ** not ** via Wi-Fi "
 "Directの理由からです。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:281
@@ -657,7 +657,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:332
 msgid ""
 "Item 15 verifies that the RC device does **not** have an DS app installed."
-msgstr "アイテム15は、RCデバイスにドライバーステーションアプリが**インストールされていないことを確認**します。"
+msgstr "アイテム15は、RCデバイスにドライバーステーションアプリが ** インストールされていないことを確認 ** します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:336
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:343
@@ -731,7 +731,7 @@ msgid ""
 "Item 12 shows the rejection: connected via Standard Wi-Fi, but **not** to an"
 " FTC DS device."
 msgstr ""
-"アイテム12では、標準Wi-Fi経由で接続されていますが、** Driver Station **デバイスには接続されていませんことを示しています。"
+"アイテム12では、標準Wi-Fi経由で接続されていますが、 ** Driver Station ** デバイスには接続されていませんことを示しています。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:386
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:393
@@ -779,8 +779,8 @@ msgid ""
 "Looking now at the Control Hub, the Self Inspect screen has a few "
 "differences. In this example, the robot is configured with **two** Hubs."
 msgstr ""
-"現在、**コントロールハブ**について見てみます。Self "
-"Inspect画面にはいくつかの違いがあります。この例では、ロボットは**2つの**ハブで構成されています。"
+"現在、 ** コントロールハブ ** について見てみます。Self "
+"Inspect画面にはいくつかの違いがあります。この例では、ロボットは ** 2つの ** ハブで構成されています。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:418
 msgid "RC 5b"
@@ -851,7 +851,7 @@ msgid ""
 "connected to (but it must be the DS phone displaying this screen)."
 msgstr ""
 "Items 10 and 11 should be Yes and Yes for Control Hub, which uses only "
-"Standard/infra Wi-Fi. Item 11 does not indicate **what** the Control Hub is "
+"Standard/infra Wi-Fi. Item 11 does not indicate ** what ** the Control Hub is "
 "connected to (but it must be the DS phone displaying this screen)."
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:446

@@ -31,7 +31,7 @@ msgid ""
 " Hub and the REV Control Hub in order for the :doc:`Software Development Kit"
 " (SDK) </ftc_sdk/overview/index>` to perform correctly."
 msgstr ""
-"ファームウェアは、デバイスの回路板や電子**ハードウェア**を制御する低レベルソフトウェアです。これが必要な場合、REV "
+"ファームウェアは、デバイスの回路板や電子 ** ハードウェア ** を制御する低レベルソフトウェアです。これが必要な場合、REV "
 "エク(strpos)ansion ハブと REV Control Hub に時々アップデートが必要で、:doc:`Software "
 "Development Kit (SDK) </ftc_sdk/overview/index>` の正常動作が保証されます。"
 
@@ -144,8 +144,8 @@ msgid ""
 "needed."
 msgstr ""
 "REV コントロールハブの場合は、12V ロボット電源を適用してください。REV エクスパンションハブの場合は、直接 Robot "
-"Controller（RC）電話に接続し、RC アプリを開き、**その後** 12V "
-"電源を適用してください。更新が必要なエクスパンションハブは、**直接** RC "
+"Controller（RC）電話に接続し、RC アプリを開き、 ** その後 ** 12V "
+"電源を適用してください。更新が必要なエクスパンションハブは、 ** 直接 ** RC "
 "電話に接続する必要があります。中継コントロールハブやその他の（主要）エクスパンションハブは使用しないでください。更新が完了したら、必要であればそのハブを二次的な位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:69
@@ -209,7 +209,7 @@ msgid ""
 "This method is **exactly the same** as Method #2 immediately above, since "
 "the DS app was simply providing a portal or window to the RC app."
 msgstr ""
-"このメソッドは、DSアプリケーションが単にRCアプリケーションへの窓やポートルを提供しただけであるため、**完全に同じ**ものと一致します。"
+"このメソッドは、DSアプリケーションが単にRCアプリケーションへの窓やポートルを提供しただけであるため、 ** 完全に同じ ** ものと一致します。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:104
 msgid ""
@@ -217,7 +217,7 @@ msgid ""
 "not Control Hub – which doesn’t use an RC phone. In other words, users do "
 "not normally interface directly with the RC app on a Control Hub."
 msgstr ""
-"別途ここに記載しているのは、これは** Expansion Hub **のみに適用され、Control Hubには適用されないためです。Control "
+"別途ここに記載しているのは、これは ** Expansion Hub ** のみに適用され、Control Hubには適用されないためです。Control "
 "HubではRC電話を使用していないからです。つまり、ユーザーは通常、Control Hub上のRCアプリと直接 interfacing "
 "しないことになります。"
 
@@ -227,7 +227,7 @@ msgid ""
 " no intermediate (primary) Expansion Hub. After updating you can return that"
 " Hub to its secondary position, if needed."
 msgstr ""
-"また、拡張ハブはRC電話に**直接**接続する必要があります。中間（プライマリ）拡張ハブを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
+"また、拡張ハブはRC電話に ** 直接 ** 接続する必要があります。中間（プライマリ）拡張ハブを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
 ""
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
@@ -330,7 +330,7 @@ msgstr "「Update to…」という灰色のボックスが最新のファーム
 msgid ""
 "If not, you can transfer the desired firmware file to the **Driver Station "
 "device**."
-msgstr "もしできなければ、望むファームウェアファイルを**ドライバーステーションデバイス**に転送できます。"
+msgstr "もしできなければ、望むファームウェアファイルを ** ドライバーステーションデバイス ** に転送できます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:182
 msgid ""

@@ -35,7 +35,7 @@ msgid ""
 "library for vision processing."
 msgstr ""
 "FIRST Tech Challenge "
-"SDKソフトウェア（バージョン10.1以降）には、人気のある且つ強力なビジョン処理用オープンソースライブラリOpenCVから一部の**色処理**機能が含まれています。"
+"SDKソフトウェア（バージョン10.1以降）には、人気のある且つ強力なビジョン処理用オープンソースライブラリOpenCVから一部の ** 色処理 ** 機能が含まれています。"
 
 #: ../../source/color_processing/index.rst:11
 msgid ""
@@ -44,7 +44,7 @@ msgid ""
 "in any game requiring color and shape recognition."
 msgstr ""
 " Introduced with INTO THE DEEP, these new features will help *FIRST* Tech "
-"Challenge teams **identify colors** and **process color blobs**\\ , useful "
+"Challenge teams ** identify colors ** and ** process color blobs ** \\ , useful "
 "in any game requiring color and shape recognition."
 
 #: ../../source/color_processing/index.rst:15
@@ -111,13 +111,13 @@ msgstr "新しいソフトウェアにはこれらのプロセッサが含まれ
 msgid ""
 "**Color Sensor** - detects the color of a specified zone in the camera's "
 "view"
-msgstr "**色センサー** - カメラの視野内の指定されたゾーンの色を検出します"
+msgstr " ** 色センサー ** - カメラの視野内の指定されたゾーンの色を検出します"
 
 #: ../../source/color_processing/index.rst:53
 msgid ""
 "**Color Locator** - gives detailed info on clusters of a specified color, in"
 " a specified zone"
-msgstr "**色検出装置** - 指定された色のクラスタに関する詳細情報を指定されたゾーンで提供します"
+msgstr " ** 色検出装置 ** - 指定された色のクラスタに関する詳細情報を指定されたゾーンで提供します"
 
 #: ../../source/color_processing/index.rst:56
 msgid ""
@@ -135,7 +135,7 @@ msgid ""
 "``ConceptVisionColorLocator_Rectangle`` and "
 "``ConceptVisionColorLocator_Circle``."
 msgstr ""
-"色検出プロセッサーにおいて、色の「クラスタ」は**Blobs**と呼ばれます。上記のリストに従って、このチュートリアルでは色**Blob**の概念について1ページを、そしてSample"
+"色検出プロセッサーにおいて、色の「クラスタ」は ** Blobs ** と呼ばれます。上記のリストに従って、このチュートリアルでは色 ** Blob ** の概念について1ページを、そしてSample"
 " "
 "OpModesである``ConceptVisionColorLocator_Rectangle``と``ConceptVisionColorLocator_Circle``に関する4ページを提供しています。"
 
@@ -145,7 +145,7 @@ msgid ""
 "use in OnBot Java or Android Studio.  Each programming section of this "
 "tutorial has a Blocks tab and a Java tab."
 msgstr ""
-"サンプルのOpModeは、**FTC Blocks** と **Java** で利用可能です。OnBot JavaやAndroid "
+"サンプルのOpModeは、 ** FTC Blocks ** と ** Java ** で利用可能です。OnBot JavaやAndroid "
 "Studioで使用できます。このチュートリアルの各プログラミングセクションには、BlocksタブとJavaタブがあります。"
 
 #: ../../source/color_processing/index.rst:69
@@ -168,7 +168,7 @@ msgstr ""
 msgid ""
 "Then read about **Color Blob Concepts**\\ , and try the **Color Locator** "
 "Sample OpModes."
-msgstr "次に、**色のブロブ概念**について読み、**色検出サンプルオモード**を試してみてください。"
+msgstr "次に、 ** 色のブロブ概念 ** について読み、 ** 色検出サンプルオモード ** を試してみてください。"
 
 #: ../../source/color_processing/index.rst:79
 msgid ""

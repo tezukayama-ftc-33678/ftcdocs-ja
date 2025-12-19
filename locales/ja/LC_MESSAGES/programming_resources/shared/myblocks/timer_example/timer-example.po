@@ -48,7 +48,7 @@ msgstr ""
 "myBlockを作成する際には、既存のJavaコードのセクションをmyBlockメソッドに変換または「パッケージ化」するときに注意してください。プログラマーとして、あなたは"
 " ** どこ ** あなたのmyBlockがOpModeに配置されるかを考慮する必要があります。例えば、myBlockが ** 繰り返しループ ** "
 "内に配置されている場合、Javaメソッドは何度も呼び出されます。これはあなたの意図したことかもしれませんし、そうでないかもしれません。アノテーション "
-"** コメント ** "
+" ** コメント ** "
 "を使用して、ブロックユーザーにあなたのmyBlockがどのように実行されるべきかを伝えます。ループを含める（または含めない）を含めて。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:17
@@ -66,7 +66,7 @@ msgstr ""
 msgid ""
 "The following example separates the **create timer** task from the **reset "
 "timer** task."
-msgstr "次の例では、** create timer ** タスクから ** reset timer ** タスクを分離しています。"
+msgstr "次の例では、 ** create timer ** タスクから ** reset timer ** タスクを分離しています。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:27
 msgid ""
@@ -92,8 +92,8 @@ msgid ""
 "outputs** (keyword **void**). This is why the annotation @ExportToBlocks was"
 " missing the **parameterLabels** field."
 msgstr ""
-"行22：このメソッドは** 入力がない **（空の括弧）で、** 出力もない **（キーワード** void "
-"**）。そのため、@ExportToBlocks アノテーションに** parameterLabels ** フィールドが欠けていました。"
+"行22：このメソッドは ** 入力がない ** （空の括弧）で、 ** 出力もない ** （キーワード ** void "
+" ** ）。そのため、@ExportToBlocks アノテーションに ** parameterLabels ** フィールドが欠けていました。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:43
 msgid ""
@@ -101,7 +101,7 @@ msgid ""
 "the percent sign. The **.2f** will display a numeric value with 2 digits to "
 "the right of the decimal point."
 msgstr ""
-"24行目でデータはパーセント記号で示される** フォーマットコード ** を使用して表示されます。** .2f ** "
+"24行目でデータはパーセント記号で示される ** フォーマットコード ** を使用して表示されます。 ** .2f ** "
 "では、小数点以下の右側に2桁の数値が表示されます。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:47
@@ -116,7 +116,7 @@ msgid ""
 "Line 28: the double-strokes operator **\\|\\|** means “OR”. Other operators "
 "include **&&** (“AND”), **==** (“EQUALS”), and **!=** (“NOT EQUAL TO”)."
 msgstr ""
-"行 28: ダブルストロケス演算子 ** || ** は「OR（論理和）」を意味します。他の演算子には ** && ** （「AND（論理積）」）、**"
+"行 28: ダブルストロケス演算子 ** || ** は「OR（論理和）」を意味します。他の演算子には ** && ** （「AND（論理積）」）、 ** "
 " == ** （「EQUALS（等しい）」）、および ** != ** （「NOT EQUAL TO（等しくない）」）があります。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:54
@@ -141,9 +141,9 @@ msgid ""
 "If the operator has not yet pressed gamepad button X, the object does not "
 "exist and the program will crash."
 msgstr ""
-"または、プログラマーはLine 15を使用してLine 29を**置き換える**こともできます。なぜなら、両者は「同じことをする」からです。しかし、 "
-"telemetry のためにLine 24でも **myStopwatch** オブジェクトが必要となります。telemetry をLine "
-"29の**後**に移動しても役立ちません。オペレーターがまだゲームパッドのボタンXを押していない場合、そのオブジェクトは存在せず、プログラムはクラッシュします。"
+"または、プログラマーはLine 15を使用してLine 29を ** 置き換える ** こともできます。なぜなら、両者は「同じことをする」からです。しかし、 "
+"telemetry のためにLine 24でも ** myStopwatch ** オブジェクトが必要となります。telemetry をLine "
+"29の ** 後 ** に移動しても役立ちません。オペレーターがまだゲームパッドのボタンXを押していない場合、そのオブジェクトは存在せず、プログラムはクラッシュします。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:68
 msgid ""
@@ -154,12 +154,12 @@ msgid ""
 "**needed** to be outside the method."
 msgstr ""
 "OnBot Javaで「Build "
-"Everything」をクリックしたとき、SampleMyBlocksクラス内のすべてのコードが処理されました。その中にはmyStopwatchオブジェクトの作成も含まれており、そのオブジェクトはクラス内の任意のメソッドで利用可能になりました。myBlockメソッド内に宣言する必要はありませんでした。この場合、メソッドの外で定義する**必要**がありました。"
+"Everything」をクリックしたとき、SampleMyBlocksクラス内のすべてのコードが処理されました。その中にはmyStopwatchオブジェクトの作成も含まれており、そのオブジェクトはクラス内の任意のメソッドで利用可能になりました。myBlockメソッド内に宣言する必要はありませんでした。この場合、メソッドの外で定義する ** 必要 ** がありました。"
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:74
 msgid ""
 "Here’s the myBlock in a repeat loop, with its **comment** and **tooltip**:"
-msgstr "こちらがrepeatループ内のmyBlockで、その**コメント**と**ツールチップ**です："
+msgstr "こちらがrepeatループ内のmyBlockで、その ** コメント ** と ** ツールチップ ** です："
 
 #: ../../source/programming_resources/shared/myblocks/timer_example/timer-example.rst:79
 msgid ""
@@ -178,7 +178,7 @@ msgid ""
 "more Java comments, omitted above to focus on the Java code. Also not shown "
 "are the package and import statements."
 msgstr ""
-"このチュートリアルでは、Java コードを**手入力**していただくことを意図しています。OnBot Java "
+"このチュートリアルでは、Java コードを ** 手入力 ** していただくことを意図しています。OnBot Java "
 "は、タイピングしながらいくつかのコードを提案し、クラスを使用するたびに import ステートメントを入力します。Android Studio "
 "はさらにサポートします。必要であれば、この例の既入力済みテキストを見ることができます。リンク先のコピーには、上記で省略された Java "
 "コメントが含まれています。また、パッケージと import ステートメントも表示されていません。"

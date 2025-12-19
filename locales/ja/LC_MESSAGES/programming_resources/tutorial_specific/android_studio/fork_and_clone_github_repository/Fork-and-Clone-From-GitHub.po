@@ -725,8 +725,8 @@ msgid ""
 "**The rest of this tutorial assumes that you have added FIRST-Tech-"
 "Challenge/FtcRobotController as an upstream in your local clone.**"
 msgstr ""
-"**このチュートリアルでは、ローカルクローンにFIRST-Tech-"
-"Challenge/FtcRobotControllerをアップストリームとして追加したことを前提とします。**"
+" ** このチュートリアルでは、ローカルクローンにFIRST-Tech-"
+"Challenge/FtcRobotControllerをアップストリームとして追加したことを前提とします。 ** "
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:368
 msgid "Fetching"
@@ -739,7 +739,7 @@ msgid ""
 "existing software in the repository that you are fetching into, git isolates"
 " the changes in the local repository."
 msgstr ""
-"取得はリモートリポジトリからソフトウェアの変更をダウンロードするプロセスです。特に、取得によってリポジトリ内に取り込んでいる既存のソフトウェアは**変更されません**。git"
+"取得はリモートリポジトリからソフトウェアの変更をダウンロードするプロセスです。特に、取得によってリポジトリ内に取り込んでいる既存のソフトウェアは ** 変更されません ** 。git"
 " では、変更はローカルリポジトリ内で隔離されます。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:375

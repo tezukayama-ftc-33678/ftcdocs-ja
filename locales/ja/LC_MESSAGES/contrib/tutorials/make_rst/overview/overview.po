@@ -51,7 +51,7 @@ msgid ""
 "easily translated between output formats whereas \"reStructured Text\" is."
 msgstr ""
 "最初に、「reStructured "
-"Text」は少し誤解の元になる表現かもしれません。これは、特定の一貫したパターン（マークアップとも呼ばれます）を使用して、テキストが最終的にどのように表示されるべきかまたは感じられるべきかをツールに指示する「Text」に近いものです。たとえば、ある文節が*イタリック*に、**強調**され、またはその位置に画像が表示されることを示すことができます。reStructured"
+"Text」は少し誤解の元になる表現かもしれません。これは、特定の一貫したパターン（マークアップとも呼ばれます）を使用して、テキストが最終的にどのように表示されるべきかまたは感じられるべきかをツールに指示する「Text」に近いものです。たとえば、ある文節が*イタリック*に、 ** 強調 ** され、またはその位置に画像が表示されることを示すことができます。reStructured"
 " "
 "Textは、ウェブプログラミングやPDF出版の経験が不要で、かつ人間が読める形で、最小限のインタラクティブなウェブページ、PDFドキュメント、他の出力形式を生成するのに使用されます。このようにして、reStructured"
 " "
@@ -99,9 +99,9 @@ msgid ""
 " we would add two asterisks (**) to the front and end of each word to make "
 "them **bold**. Let's do that by modifying the text to show the following::"
 msgstr ""
-"Let's assume we want to **強調** the nouns in the sentence, so in rST format "
-"we would add two asterisks (**) to the front and end of each word to make "
-"them **bold. Let's do that by modifying the text to show the following::"
+"Let's assume we want to ** 強調 ** the nouns in the sentence, so in rST format "
+"we would add two asterisks ( ** ) to the front and end of each word to make "
+"them ** bold. Let's do that by modifying the text to show the following::"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:54
 msgid "This would ultimately output text that looks like:"
@@ -109,7 +109,7 @@ msgstr "これは最終的に次のようになります："
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:56
 msgid "The quick brown **fox** jumped over the lazy **dog**."
-msgstr "素早い茶色の** fox** は怠惰な** dog** の上を飛び越えた。"
+msgstr "素早い茶色の ** fox ** は怠惰な ** dog ** の上を飛び越えた。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:58
 msgid ""
@@ -125,7 +125,7 @@ msgstr "これは出力するテキストが見えるようになります。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:66
 msgid "The *quick* brown **fox** jumped over the lazy **dog**."
-msgstr "速い棕毛の** fox **は怠惰な** dog **の上を飛び越えました。"
+msgstr "速い棕毛の ** fox ** は怠惰な ** dog ** の上を飛び越えました。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:68
 msgid ""
