@@ -13,6 +13,16 @@
 
   <hr/>
 
+  {%- if language == 'ja' %}
+  <div role="contentinfo" style="background-color: #fff3cd; border: 1px solid #ffc107; padding: 10px; margin-bottom: 15px; border-radius: 4px;">
+    <strong>⚠️ 非公式翻訳版の注意事項:</strong>
+    この日本語翻訳は <strong>非公式</strong> であり、FIRST® の公式ドキュメントではありません。
+    翻訳はTeam 33678 Tezukayamaによって提供されています。
+    正確な情報については、必ず<a href="https://ftc-docs.firstinspires.org" target="_blank">英語の公式ドキュメント</a>をご確認ください。
+    | <a href="https://github.com/tezukayama-ftc-33678/ftcdocs-ja/blob/main/LICENSE-JA.md" target="_blank">翻訳版ライセンスについて</a>
+  </div>
+  {%- endif %}
+
   <div role="contentinfo" style="display: flex">
   {%- block contentinfo %}
   
@@ -25,6 +35,9 @@
         {%- else %}
         &#169; 2025 <i>{%- trans copyright=copyright|e %}{{ copyright }}{% endtrans %}</i>
         {%- endif %}
+        {%- endif %}
+        {%- if language == 'ja' %}
+        <br/><small>日本語翻訳: Team 33678 Tezukayama</small>
         {%- endif %}
       </div>
 

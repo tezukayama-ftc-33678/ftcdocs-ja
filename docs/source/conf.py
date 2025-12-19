@@ -11,6 +11,10 @@ copyright = 'FIRST'
 author = 'FIRST Tech Challenge'
 license = 'BSD 3-Clause'
 
+# Japanese translation metadata
+# Get language from environment or use default
+language = os.environ.get('SPHINXOPTS', '').replace('-D language=', '').strip() or 'en'
+
 release = '0.3'
 version = '0.3.0'
 # -- General configuration

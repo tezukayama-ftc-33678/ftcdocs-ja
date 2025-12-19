@@ -11,12 +11,20 @@
    
    このドキュメントは **非公式の日本語翻訳** です。
    
-   * 本翻訳は有志による非公式なものであり、FIRST® の公式ドキュメントではありません
+   * 本翻訳は有志（Team 33678 Tezukayama）による非公式なものであり、FIRST® の公式ドキュメントではありません
    * AI翻訳（ローカルLLM）を使用しているため、不正確な翻訳や構造の崩れがある可能性があります
    * 現在、順次修正を進めています
    * **正確な情報については、必ず英語の公式ドキュメントをご確認ください**: https://ftc-docs.firstinspires.org
    
-   翻訳の改善にご協力いただける方は、GitHubリポジトリまでお問い合わせください。
+   翻訳の改善にご協力いただける方は、`GitHubリポジトリ <https://github.com/tezukayama-ftc-33678/ftcdocs-ja>`_ までお問い合わせください。
+
+.. note::
+   **📋 ライセンスと著作権について**
+   
+   * 原文: © 2022 FIRST Tech Challenge (BSD 3-Clause License)
+   * 翻訳: Team 33678 Tezukayama (同ライセンス)
+   * FIRST®、FIRST® Tech Challenge、およびロゴは FIRST® の登録商標です
+   * 詳細は `LICENSE-JA.md <https://github.com/tezukayama-ftc-33678/ftcdocs-ja/blob/main/LICENSE-JA.md>`_ をご覧ください
 
 *FIRST®* Tech Challenge ドキュメントへようこそ！このウェブサイトには、競技用ロボットを作成するために必要なすべての情報が含まれています。
 *FIRST* Tech Challenge のソフトウェアとロボット制御システムの使用方法に関する情報とチュートリアルがあります。
