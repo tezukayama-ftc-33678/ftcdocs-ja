@@ -83,11 +83,11 @@ msgstr "設定"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:40
 msgid "*Skip this section if ...*"
-msgstr "*このセクションをスキップする場合...*"
+msgstr "* このセクションをスキップする場合...*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:43
 msgid "*the active robot configuration already contains \"Webcam 1\"*, or"
-msgstr "*現在のロボット設定に「Webcam 1」が含まれている場合、*\\n"
+msgstr "* 現在のロボット設定に「Webcam 1」が含まれている場合、 *\\n"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:44
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
@@ -252,7 +252,7 @@ msgstr " ** 動いています！ ** ロボットカメラに色センサーが�
 #: ../../source/color_processing/color-sensor/color-sensor.rst:129
 msgid ""
 "*Skip the next two sections if you already know how to use FTC previews.*"
-msgstr "*FTCプレビューを使用する方法が既に分かっている場合は、次の2つのセクションをスキップできます。*"
+msgstr "*FTCプレビューを使用する方法が既に分かっている場合は、次の2つのセクションをスキップできます。 *"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:132
 msgid "DS Preview"
@@ -426,7 +426,7 @@ msgid ""
 "\"predominant\" here. *(This will NOT be on the final.)*"
 msgstr ""
 "OpenCVはROIの「主な色」をどのように決定しますか？「k-means」アルゴリズムが類似した色のクラスタを決定します。「k-means」<https://en.wikipedia.org/wiki/K-means_clustering>_"
-" というアルゴリズムを使用して、ピクセル数最多的のクラスタの色が「主な色」と呼ばれます。*(最終的には出題されません。)*"
+" というアルゴリズムを使用して、ピクセル数最多的のクラスタの色が「主な色」と呼ばれます。 *(最終的には出題されません。)*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:225
 msgid "Testing the Result"

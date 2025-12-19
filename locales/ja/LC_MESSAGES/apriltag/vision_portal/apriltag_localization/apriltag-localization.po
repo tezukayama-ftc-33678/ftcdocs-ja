@@ -103,7 +103,7 @@ msgstr "設定"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:46
 msgid "*Skip this section if ...*"
-msgstr "*このセクションをスキップする場合...*"
+msgstr "* このセクションをスキップする場合...*"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:48
 msgid "*the active robot configuration already contains \"Webcam 1\", or*"
@@ -500,13 +500,13 @@ msgstr " ** カメラ軸: ** "
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:283
 msgid "*Origin location:* Center of the lens"
-msgstr "*原点位置:*レンズの中心"
+msgstr "* 原点位置:* レンズの中心"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:284
 msgid ""
 "*Axes orientation:* +x right, +y down, +z forward (from camera's "
 "perspective)"
-msgstr "*軸の向き:* +xは右、+yは下、+zはカメラから見た前方（から）"
+msgstr "* 軸の向き:* +xは右、+yは下、+zはカメラから見た前方（から）"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:286
 msgid ""
@@ -515,11 +515,11 @@ msgstr " ** ロボットの軸: ** (これは一般的ですが、あなたが�
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:288
 msgid "*Origin location:* Center of the robot at field height"
-msgstr "*原点位置:* フィールド高さでのロボットの中心"
+msgstr "* 原点位置:* フィールド高さでのロボットの中心"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:289
 msgid "*Axes orientation:* +x right, +y forward, +z upward"
-msgstr "*軸の向き:* +xは右、+yは前方、+zは上方"
+msgstr "* 軸の向き:* +xは右、+yは前方、+zは上方"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:291
 msgid "**Position:**"

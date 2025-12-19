@@ -249,7 +249,7 @@ msgid ""
 "standard image coordinates or a normalized +/- 1.0 coordinate system.  Use "
 "one form of the ImageRegion class to define the ROI.*"
 msgstr ""
-"*色ロケーターを集中させるには、検索したい領域（ROI）を定義します。これは全体のフレームであるか、標準画像座標や正規化された±1.0座標系を使用して定義したサブ領域であるかを選べます。ImageRegionクラスのいずれかの形式を使用してROIを定義します.*"
+"* 色ロケーターを集中させるには、検索したい領域（ROI）を定義します。これは全体のフレームであるか、標準画像座標や正規化された±1.0座標系を使用して定義したサブ領域であるかを選べます。ImageRegionクラスのいずれかの形式を使用してROIを定義します.*"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:132
 msgid ""
@@ -289,7 +289,7 @@ msgid ""
 "EXTERNAL_ONLY helps to avoid bright reflection spots from breaking up areas "
 "of solid color.*"
 msgstr ""
-"*含まれる輪郭を定義してください。すべての輪郭を取得するか、他の輪郭の中に完全に含まれている輪郭はスキップすることができます。注意：EXTERNAL_ONLY"
+"* 含まれる輪郭を定義してください。すべての輪郭を取得するか、他の輪郭の中に完全に含まれている輪郭はスキップすることができます。注意：EXTERNAL_ONLY"
 " を使用すると、明るい反射斑点による単色領域の分割を避けることができます.*"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:180
@@ -621,7 +621,7 @@ msgid ""
 "above.  No more than one sort call should be made.  Sorting can use "
 "ascending or descending order.*"
 msgstr ""
-"*Blobのリストは、上記でリストされた同じBlob属性を使用してソートできます。ソート呼び出しは最大1回までです。ソートは昇順または降順を使用できます。*"
+"*Blobのリストは、上記でリストされた同じBlob属性を使用してソートできます。ソート呼び出しは最大1回までです。ソートは昇順または降順を使用できます。 *"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:457
@@ -706,4 +706,4 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:504
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "*質問、コメント、訂正についてはwestsiderobotics@verizon.netまで*\\n"
+msgstr "* 質問、コメント、訂正についてはwestsiderobotics@verizon.netまで *\\n"

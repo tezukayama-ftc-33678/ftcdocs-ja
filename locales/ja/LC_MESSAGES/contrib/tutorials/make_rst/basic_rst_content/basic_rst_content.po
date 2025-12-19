@@ -497,7 +497,7 @@ msgid ""
 "order to do (YUCK!)."
 msgstr ""
 "あなたはReStructured Textを使用して単純なテキストフォーマット - "
-"つまり、 ** 強調 ** 、*イタリック*、および``リテラル``を非常に簡単に追加できます。ただし、これらのテキストフォーマットは重ね合わせられませんので、「強調イタリック」や「イタリック化されたリテラル」を作成することはできません。インラインマーカースタイル（テキストフォーマット、外部リンクなど）のほとんどは重ね合わせることができないため、リンクテキスト内の*FIRST*という言葉をイタリック体にするには非常に創造的で複雑な手順が必要です（時たま、それが不可能であることもあります）。また、下線はReStructured"
+"つまり、 ** 強調 ** 、 * イタリック * 、および``リテラル``を非常に簡単に追加できます。ただし、これらのテキストフォーマットは重ね合わせられませんので、「強調イタリック」や「イタリック化されたリテラル」を作成することはできません。インラインマーカースタイル（テキストフォーマット、外部リンクなど）のほとんどは重ね合わせることができないため、リンクテキスト内の *FIRST* という言葉をイタリック体にするには非常に創造的で複雑な手順が必要です（時たま、それが不可能であることもあります）。また、下線はReStructured"
 " Textでは本来サポートされていませんので、下線を追加するにはスタイルシートやPDFレイアウト定義を弄る必要があります（うーん）。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:339
@@ -578,7 +578,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:382
 msgid "This is *italic* text in *this document*."
-msgstr "これは *イタリック* の文字列です。"
+msgstr "これは * イタリック * の文字列です。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:384
 msgid "This is ``literal`` text in ``this document``."
@@ -656,10 +656,10 @@ msgid ""
 "this case a single colon identifies this as a *simple directive* versus an "
 "*external directive*, and helps rST determine how to process the directive."
 msgstr ""
-"これは初めて導入する *ダイレクティブ* で、これは2つのピリオドとスペースから始まる *ブロック* "
+"これは初めて導入する * ダイレクティブ * で、これは2つのピリオドとスペースから始まる * ブロック * "
 "です。多くの場合、ダイレクティブは特別なテキストブロックを非常に特定の方法で形式化します - この場合、ラベル前のアンダースコアは "
-"*アンカーダイレクティブ* を示しています。大多数の場合、ダイレクティブ名の後に2つのコロンが付きますが、この場合は1つのコロンが使用され、これは "
-"*単純なダイレクティブ* と *外部ダイレクティブ* の区別をし、rSTがダイレクティブの処理方法を決定するのに役立ちます。"
+"* アンカーダイレクティブ * を示しています。大多数の場合、ダイレクティブ名の後に2つのコロンが付きますが、この場合は1つのコロンが使用され、これは "
+"* 単純なダイレクティブ * と * 外部ダイレクティブ * の区別をし、rSTがダイレクティブの処理方法を決定するのに役立ちます。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:424
 msgid ""
@@ -887,7 +887,7 @@ msgstr "画像ディレクティブでサポートされるオプションは以
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:582
 msgid "alt : *text*"
-msgstr "alt : *テキスト*"
+msgstr "alt : * テキスト *"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:581
 msgid "text"
@@ -904,7 +904,7 @@ msgstr ""
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:587
 msgid "height : *length*"
 msgstr ""
-"高度 : *長さ*\"\n"
+"高度 : * 長さ *\"\n"
 "\n"
 "この翻訳では、reStructuredText形式の強調マークアップ(*length*)が保持され、技術用語も原文のままです。"
 
@@ -924,7 +924,7 @@ msgstr ""
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:590
 msgid "scale : *integer percentage (the \"%\" symbol is optional)*"
 msgstr ""
-"スケール : *整数パーセンテージ（％の記号は省略可）*\"\n"
+"スケール : * 整数パーセンテージ（％の記号は省略可）*\"\n"
 "\n"
 "この翻訳では、reStructuredText形式を保持し、Sphinx-Design記法も尊重しています。また、専門用語や技術用語は原文のままにしています。"
 
@@ -941,7 +941,7 @@ msgstr "画像の均一な拡大縮小率。デフォルトは「100 ％」で�
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:595
 msgid "width : *length or percentage of the current line width*"
 msgstr ""
-"幅 : *現在の線幅の長さまたはパーセンテージ*\"\n"
+"幅 : * 現在の線幅の長さまたはパーセンテージ *\"\n"
 "\n"
 "この翻訳は、指定されたガイドラインに従っており、reStructuredText形式も保持しています。また、強調マークアップも完全に保持されています。"
 
@@ -1038,7 +1038,7 @@ msgid ""
 "paragraph) and an optional legend (with arbitrary body elements)."
 msgstr ""
 "The ``.. figure::`` ディレクティブは ``.. image::`` ディレクティブと非常に似ており、実際には ``figure`` "
-"ディレクティブ内に ``image`` ディレクティブが *含まれ* "
+"ディレクティブ内に ``image`` ディレクティブが * 含まれ * "
 "ています。しかし、オプションのキャプション（単一行の段落）やオプションの伝説（任意のボディ要素を持つ）も許されます。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:650

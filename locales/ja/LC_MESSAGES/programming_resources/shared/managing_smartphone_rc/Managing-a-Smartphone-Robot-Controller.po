@@ -117,7 +117,7 @@ msgid ""
 "Refer to the Competition Manual for a list of *FIRST*-approved phones that "
 "support channel changing through the software."
 msgstr ""
-"すべてのAndroidスマートフォンがソフトウェアを通じてチャンネル変更をサポートしているわけではありません。競技マニュアルをご覧ください。そこで、ソフトウェアを通じてチャンネル変更をサポートする*FIRST*認定のスマートフォンの一覧が掲載されています。"
+"すべてのAndroidスマートフォンがソフトウェアを通じてチャンネル変更をサポートしているわけではありません。競技マニュアルをご覧ください。そこで、ソフトウェアを通じてチャンネル変更をサポートする *FIRST* 認定のスマートフォンの一覧が掲載されています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:75
 msgid "Changing the WiFi Channel Instructions"
@@ -141,13 +141,13 @@ msgid ""
 "ROBOT CONTROLLER SETTINGS* activity."
 msgstr ""
 "3. "
-"*ロボットコントローラー設定*セクションまでスクロールし、*設定*スクリーンの*高度な設定*という言葉をクリックして、*高度なロボットコントローラー設定*アクティビティを表示します。"
+"* ロボットコントローラー設定 * セクションまでスクロールし、 * 設定 * スクリーンの * 高度な設定 * という言葉をクリックして、 * 高度なロボットコントローラー設定 * アクティビティを表示します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:93
 msgid ""
 "4. Click on the *Change Wifi Channel* link to display a list of available "
 "channels."
-msgstr "4. *Wi-Fiチャンネル変更* リンクをクリックして、利用可能なチャンネルの一覧を表示します。"
+msgstr "4. *Wi-Fiチャンネル変更 * リンクをクリックして、利用可能なチャンネルの一覧を表示します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:101
 msgid ""
@@ -271,7 +271,7 @@ msgid ""
 "firmware images can be obtained from the `REV Robotics website "
 "<https://docs.revrobotics.com/duo-control/managing-the-control-"
 "system/updating-firmware#using-the-robot-controller-console>`__."
-msgstr "代替として、ラップトップやドライバーステーション（DS）を使用してロボットコントローラーのスマホにUSB経由で拡張ハブを接続し、*管理*インターフェースから操作することができます。管理ページでは、拡張ハブのファームウェアをアップロードしたり、含まれているものやアップロードしたものを使用して更新することができます。新しいファームウェアイメージは、「<https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__` からREVロボティクスのウェブサイトで取得できます」。"
+msgstr "代替として、ラップトップやドライバーステーション（DS）を使用してロボットコントローラーのスマホにUSB経由で拡張ハブを接続し、 * 管理 * インターフェースから操作することができます。管理ページでは、拡張ハブのファームウェアをアップロードしたり、含まれているものやアップロードしたものを使用して更新することができます。新しいファームウェアイメージは、「<https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__` からREVロボティクスのウェブサイトで取得できます」。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:198
 msgid ""
@@ -311,7 +311,7 @@ msgstr "ファイルを選択した後、_アップロード_ ボタンが表示
 msgid ""
 "2. Press the *Upload* button to upload the firmware file from your computer "
 "to the Robot Controller."
-msgstr "2. *アップロード* ボタンを押して、コンピュータからロボットコントローラにファームウェアファイルをアップロードします。"
+msgstr "2. * アップロード * ボタンを押して、コンピュータからロボットコントローラにファームウェアファイルをアップロードします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:228
 msgid ""
@@ -352,7 +352,7 @@ msgstr ""
 msgid ""
 "7. Select the *Expansion Hub Firmware Update* item on the *ADVANCED ROBOT "
 "CONTROLLER SETTINGS* activity."
-msgstr "7. *高度なロボットコントローラ設定* アクティビティ内の *展開ハブファームウェア更新* 項目を選択してください。"
+msgstr "7. * 高度なロボットコントローラ設定 * アクティビティ内の * 展開ハブファームウェア更新 * 項目を選択してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:274
 msgid ""
@@ -363,7 +363,7 @@ msgid ""
 "the update process."
 msgstr ""
 "8. "
-"現在の拡張ハブにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を見せてください。*拡張ハブファームウェアを更新*ボタンを押すことで更新プロセスを開始できます。"
+"現在の拡張ハブにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を見せてください。 * 拡張ハブファームウェアを更新 * ボタンを押すことで更新プロセスを開始できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:285
 msgid ""

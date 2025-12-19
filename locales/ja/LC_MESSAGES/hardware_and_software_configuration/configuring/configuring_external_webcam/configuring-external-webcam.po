@@ -57,7 +57,7 @@ msgid ""
 "following cameras have been tested and calibrated to work accurately with "
 "SDK software:"
 msgstr ""
-"理論上、任意のUSBビデオクラス（UVC）カメラはシステムと動作します。ただし、*FIRST*ではロジテック製のUVCウェブカメラを使用することを推奨します。以下のカメラはSDKソフトウェアと正確に動作するようにテストおよび校正されています："
+"理論上、任意のUSBビデオクラス（UVC）カメラはシステムと動作します。ただし、 *FIRST* ではロジテック製のUVCウェブカメラを使用することを推奨します。以下のカメラはSDKソフトウェアと正確に動作するようにテストおよび校正されています："
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:25
 msgid ":ref:`logitech_c270_label`"
@@ -414,8 +414,8 @@ msgid ""
 "(with IN 5V printed) can not be used for data transfer and charge other "
 "devices. It can only supply power for the other 4 USB ports.*"
 msgstr ""
-"すべてのUSBハブが電源供給型ハブとは限らないため、電源バンクを任意のUSBハブポートに直接接続することはできません。電源を供給する設計のポートであることが必要です。したがって、電源供給型USBハブを探す場合、仕様書には次のような注記があるべきです：*注意：このUSB-"
-"Cポート（IN 5V表示）はデータ転送や他のデバイスの充電には使用できません。他の4つのUSBポートに電力を供給するだけです。*"
+"すべてのUSBハブが電源供給型ハブとは限らないため、電源バンクを任意のUSBハブポートに直接接続することはできません。電源を供給する設計のポートであることが必要です。したがって、電源供給型USBハブを探す場合、仕様書には次のような注記があるべきです：* 注意：このUSB-"
+"Cポート（IN 5V表示）はデータ転送や他のデバイスの充電には使用できません。他の4つのUSBポートに電力を供給するだけです。 *"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
 msgid "A REV Control Hub with a powered USB hub and two webcams."

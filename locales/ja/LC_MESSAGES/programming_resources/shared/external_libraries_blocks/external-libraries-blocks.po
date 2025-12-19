@@ -67,7 +67,7 @@ msgid ""
 "*Note: This new capability exists for a Robot Controller (RC) running "
 "Android 7 & and higher. Moto G 2nd Gen and Moto G 3rd Gen RC phones cannot "
 "use this feature.*"
-msgstr "*注意: この新しい機能は、Android 7以降のバージョンを実行しているロボットコントローラ(RC)で利用できます。Moto G 2nd GenおよびMoto G 3rd GenのRCスマホではこの機能を利用できません。*"
+msgstr "* 注意: この新しい機能は、Android 7以降のバージョンを実行しているロボットコントローラ(RC)で利用できます。Moto G 2nd GenおよびMoto G 3rd GenのRCスマホではこの機能を利用できません。 *"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:29
 msgid "Overview"
@@ -149,7 +149,7 @@ msgid ""
 msgstr ""
 "もしその機能を使用したい場合は、.jar もしくは .aar ファイルを見つけることを試みてください。``.jar`` のサフィックスは Java "
 "アーカイブを意味し、``.aar`` は同様のフォーマットで Android "
-"アーカイブと呼ばれます。これは、あなたが使用したい全コードを集めた圧縮ファイルです。これは一般的なウェブダウンロード用の *zip ファイル* "
+"アーカイブと呼ばれます。これは、あなたが使用したい全コードを集めた圧縮ファイルです。これは一般的なウェブダウンロード用の *zip ファイル * "
 "に似ています。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:75
@@ -514,7 +514,7 @@ msgid ""
 "value.*"
 msgstr ""
 " ** ステップ3B ** "
-"の下で、独自のカスタムブロック「myHypotenuse」を作成しましょう。*これは単なる演習であり、通常のブロックはこの値を簡単に計算できます。*"
+"の下で、独自のカスタムブロック「myHypotenuse」を作成しましょう。 * これは単なる演習であり、通常のブロックはこの値を簡単に計算できます。 *"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:285
 msgid ""
