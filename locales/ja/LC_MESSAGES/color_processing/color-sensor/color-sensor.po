@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:84
 msgid "Save the OpMode, time to try it!"
-msgstr "オペレーションモードを保存してみましょう！"
+msgstr "OpModeを保存してみましょう！"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst
 msgid "Java"
@@ -233,7 +233,7 @@ msgstr "INITのみをタッチしてください。"
 msgid ""
 "The OpMode should give Telemetry, stating the main \"matched\" color inside "
 "the Region of Interest."
-msgstr "オペレーションモードは、興味領域内の主要な「一致した」色についてのテレメトリーを提供すべきです。"
+msgstr "OpModeは、興味領域内の主要な「一致した」色についてのテレメトリーを提供すべきです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:120
 msgid "Driver Station Telemetry"
@@ -508,7 +508,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:278
 msgid "OpMode Programming"
-msgstr "オペレーションモードプログラミング"
+msgstr "OpModeプログラミング"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:280
 msgid ""

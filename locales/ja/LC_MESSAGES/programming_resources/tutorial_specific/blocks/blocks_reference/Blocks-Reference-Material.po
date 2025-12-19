@@ -35,11 +35,7 @@ msgid ""
 "Schafer of the Oregon Robotics Tournament & Outreach Program (ORTOP) created"
 " a useful reference document that describes the programming blocks that are "
 "available with the Blocks Programming Tool:"
-msgstr ""
-"複雑なオペレーションモードを書くにつれて、FIRST Tech "
-"Challengeソフトウェア開発キット（SDK）のより多くの機能を使用する必要が出てきます。Oregon Robotics Tournament & "
-"Outreach Program (ORTOP) "
-"のブライス・シャファーサーさんが作成した有用なリファレンスドキュメントでは、ブロックプログラミングツールで利用できるプログラミングブロックについて説明しています:"
+msgstr "複雑なOpModeを書くにつれて、FIRST Tech Challengeソフトウェア開発キット（SDK）のより多くの機能を使用する必要が出てきます。Oregon Robotics Tournament & Outreach Program (ORTOP) のブライス・シャファーサーさんが作成した有用なリファレンスドキュメントでは、ブロックプログラミングツールで利用できるプログラミングブロックについて説明しています:"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:14
 msgid ""
@@ -51,7 +47,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:18
 msgid "Sample Op Modes"
-msgstr "サンプルオペレーションモード"
+msgstr "サンプルOpMode"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:20
 msgid ""
@@ -59,9 +55,7 @@ msgid ""
 "demonstrate how to do different tasks with the FIRST Tech Challenge control "
 "system. As you create a new file, you can use the Sample dropdown list "
 "control to display a list of available sample op modes or templates:"
-msgstr ""
-"ブロックプログラミングツールには、FIRST Tech "
-"Challenge制御システムで異なるタスクを実行する方法を示すいくつかの内包例モードが含まれています。新しいファイルを作成すると、サンプルドロップダウンリストコントロールを使用して利用可能なサンプルオペレーションモードやテンプレートの一覧を表示できます："
+msgstr "ブロックプログラミングツールには、FIRST Tech Challenge制御システムで異なるタスクを実行する方法を示すいくつかの内包例モードが含まれています。新しいファイルを作成すると、サンプルドロップダウンリストコントロールを使用して利用可能なサンプルOpModeやテンプレートの一覧を表示できます："
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:32
 msgid "Technology Forum"

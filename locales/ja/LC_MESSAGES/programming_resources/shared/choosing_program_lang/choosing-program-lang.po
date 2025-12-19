@@ -30,9 +30,7 @@ msgid ""
 " competition robot. An Op Mode or Operational Mode is program that tells the"
 " robot what to do. There are three programming tools that are available for "
 "you to use."
-msgstr ""
-"競技ロボットを作成するためには、オペレーションモード（Op "
-"Mode）を作成できるプログラミングツールを選択する必要があります。オペレーションモードとは、ロボットに何をさせるかを指示するプログラムです。利用可能なプログラミングツールは3つあります。"
+msgstr "競技ロボットを作成するためには、OpMode（Op Mode）を作成できるプログラミングツールを選択する必要があります。OpModeとは、ロボットに何をさせるかを指示するプログラムです。利用可能なプログラミングツールは3つあります。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:9
 msgid ""
@@ -54,8 +52,7 @@ msgid ""
 " edit and save their op modes. This tool is recommended for novice "
 "programmers and for users who prefer to design their op modes visually, "
 "using a drag-and-drop interface."
-msgstr ""
-"プログラマがウェブブラウザを使用してオペレーションモードを作成、編集し、保存できる視覚的なプログラミングツールです。このツールは初心者向けプログラマーおよび視覚的にドラッグアンドドロップインターフェースを使ってオペレーションモードを設計したいユーザーにおすすめします。"
+msgstr "プログラマがウェブブラウザを使用してOpModeを作成、編集し、保存できる視覚的なプログラミングツールです。このツールは初心者向けプログラマーおよび視覚的にドラッグアンドドロップインターフェースを使ってOpModeを設計したいユーザーにおすすめします。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:-1
 msgid "Blocks Programming Tool showing a graphical Blocks program."
@@ -130,9 +127,7 @@ msgid ""
 "Java Programming Tool, a user only needs a web browser to create, edit and "
 "build op modes for their robot. A user can even create, edit and build op "
 "modes using an iPad, an Android phone, or a Chromebook."
-msgstr ""
-"ブロックプログラミングツールやOnBot "
-"Javaプログラミングツールを使用する際には、ユーザーはウェブブラウザのみでロボットのオペレーションモードを作成、編集、構築することができます。iPad、Androidスマートフォン、またはChromebookでもオペレーションモードを作成、編集、構築することが可能です。"
+msgstr "ブロックプログラミングツールやOnBot Javaプログラミングツールを使用する際には、ユーザーはウェブブラウザのみでロボットのOpModeを作成、編集、構築することができます。iPad、Androidスマートフォン、またはChromebookでもOpModeを作成、編集、構築することが可能です。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:68
 msgid ""

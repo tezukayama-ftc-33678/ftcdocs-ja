@@ -30,9 +30,7 @@ msgid ""
 "followed by a 2 minute driver controlled (i.e., tele-operated or teleop) "
 "period. Previously, teams had to manually select their teleop op mode after "
 "the autonomous portion their match was over."
-msgstr ""
-"FIRST Tech "
-"Challengeの試合は、30秒間の自動制御期間に続いて2分間のドライバー制御（つまり、遠隔操作またはテレオペレーション）期間で構成されます。以前は、チームは試合の自動制御部分が終了した後でテレオペレーションモードを選択しなければなりませんでした。"
+msgstr "FIRST Tech Challengeの試合は、30秒間の自動制御期間に続いて2分間のドライバー制御（つまり、遠隔操作またはテレオペレーション）期間で構成されます。以前は、チームは試合の自動制御部分が終了した後でテレOpModeを選択しなければなりませんでした。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:9
 msgid ""
@@ -40,8 +38,7 @@ msgid ""
 "automatically load this op mode as soon as their autonomous run has "
 "completed. This feature can help a team avoid selecting the wrong op mode "
 "during a match."
-msgstr ""
-"チームは現在、テレオペレーションオペレーションモードを事前に選択できるようになりました。そして、自動運転の実行が完了した直後にドライバーステーションがこのオペレーションモードを自動的に読み込むことができます。この機能は、マッチ中におかしなオペレーションモードを選ばないようにチームに助けを提供します。"
+msgstr "チームは現在、テレオペレーションOpModeを事前に選択できるようになりました。そして、自動運転の実行が完了した直後にドライバーステーションがこのOpModeを自動的に読み込むことができます。この機能は、マッチ中におかしなOpModeを選ばないようにチームに助けを提供します。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:14
 msgid ""
@@ -77,16 +74,13 @@ msgid ""
 " *Autonomous* option in the Blocks editor. If you do not see the preselect "
 "button, verify that your currently selected op mode has been designated as "
 "autonomous."
-msgstr ""
-"preselectボタンが表示されるためには、選択されたオペレーションモードが自動運転オペレーションモードとして指定されている必要があります。Javaで書かれた場合、\\_@Autonomous\\_"
-" "
-"アノテーションを使用して指定するか、ブロックエディタで*自動運転*オプションを選択します。preselectボタンを見つからない場合は、現在選択中のオペレーションモードが自動運転として指定されていることを確認してください。"
+msgstr "preselectボタンが表示されるためには、選択されたOpModeが自動運転OpModeとして指定されている必要があります。Javaで書かれた場合、\\_@Autonomous\\_ アノテーションを使用して指定するか、ブロックエディタで*自動運転*オプションを選択します。preselectボタンを見つからない場合は、現在選択中のOpModeが自動運転として指定されていることを確認してください。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:44
 msgid ""
 "The selected op mode must be designated as Autonomous in order for the "
 "preselect button to be visible."
-msgstr "選択されたオペレーションモードは自動運転に設定する必要があります。そのためにはプリセレクトボタンが表示されます。"
+msgstr "選択されたOpModeは自動運転に設定する必要があります。そのためにはプリセレクトボタンが表示されます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:46
 msgid ""
@@ -94,8 +88,7 @@ msgid ""
 "The button will then become fully opaque and the name of the preselected op "
 "mode will appear adjacent to the button. This indicates the feature is "
 "active."
-msgstr ""
-"有効にするには、半透明のボタンをタップし、オペレーションモードを選択します。その後、ボタンは完全に不透明になり、予め選択されたオペレーションモードの名前がボタンの隣に表示されます。これにより、機能が有効であることが示されます。"
+msgstr "有効にするには、半透明のボタンをタップし、OpModeを選択します。その後、ボタンは完全に不透明になり、予め選択されたOpModeの名前がボタンの隣に表示されます。これにより、機能が有効であることが示されます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:54
 msgid "The driver controlled OpMode to be auto-loaded in landscape mode."
@@ -119,8 +112,7 @@ msgid ""
 "(either the main stop or init stop buttons). It will only transition if the "
 "OpMode either self-exits, or is terminated by the 30s timer. Drive Teams "
 "must still press Init and start the op mode manually, for safety reasons."
-msgstr ""
-"自律プログラムが終了すると、ドライバー・ステーションは予め選択されたテレオペプログラムをキューから取り出し、テレオペプログラムに切り替えます。ユーザーが停止ボタン（主停止ボタンまたは初期化停止ボタン）を押した場合は、自動選択は中止されます。OpModeが自己終了するか、30秒タイマーによって終了される場合のみ切り替わります。安全上の理由から、ドライブチームは依然としてInitを押してオペレーションモードを開始する必要があります。"
+msgstr "自律プログラムが終了すると、ドライバー・ステーションは予め選択されたテレオペプログラムをキューから取り出し、テレオペプログラムに切り替えます。ユーザーが停止ボタン（主停止ボタンまたは初期化停止ボタン）を押した場合は、自動選択は中止されます。OpModeが自己終了するか、30秒タイマーによって終了される場合のみ切り替わります。安全上の理由から、ドライブチームは依然としてInitを押してOpModeを開始する必要があります。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:73
 msgid ""
@@ -137,7 +129,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:80
 msgid "Use the preselectTeleOp parameter to specify a preselected op mode."
-msgstr "preselectTeleOpパラメータを使用して、事前に選択されたオペレーションモードを指定します。"
+msgstr "preselectTeleOpパラメータを使用して、事前に選択されたOpModeを指定します。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:86
 msgid ""
@@ -147,7 +139,7 @@ msgstr "ブロックを使用するユーザーも、新しいドロップダウ
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:92
 msgid "You can preselect a teleop op mode mode using the Blocks editor."
-msgstr "ブロックエディタを使用して、テレオペレーションモードを選択することができます。\\n"
+msgstr "ブロックエディタを使用して、テレOpModeを選択することができます。\\n"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:94
 msgid ""
@@ -159,20 +151,16 @@ msgid ""
 "preselected teleop op mode. If the “Op Mode Auto Queue” option is disabled, "
 "a team can still select a teleop op mode by using the preselect button on "
 "the main Driver Station activity."
-msgstr ""
-"Driver "
-"Stationアプリの設定メニューにある「オペレーションモード自動キュー」オプションについて注意してください。このオプションが有効な場合、ドライバーステーションは``preselectTeleOp``パラメータによって指定された自主運転オペレーションモードの後続の操縦者運転オペレーションモードを自動的に読み込みます。このオプションが無効な場合、ドライバーステーションは自動的に後続の操縦者運転オペレーションモードを読み込みません。この「オペレーションモード自動キュー」オプションが無効な場合でも、チームはメインのドライバーステーションアクティビティにあるプリセレクトボタンを使用して後続の操縦者運転オペレーションモードを選択できます。"
+msgstr "Driver Stationアプリの設定メニューにある「OpMode自動キュー」オプションについて注意してください。このオプションが有効な場合、ドライバーステーションは``preselectTeleOp``パラメータによって指定された自主運転OpModeの後続の操縦者運転OpModeを自動的に読み込みます。このオプションが無効な場合、ドライバーステーションは自動的に後続の操縦者運転OpModeを読み込みません。この「OpMode自動キュー」オプションが無効な場合でも、チームはメインのドライバーステーションアクティビティにあるプリセレクトボタンを使用して後続の操縦者運転OpModeを選択できます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:106
 msgid ""
 "If the OpMode Auto Queue option is enabled, the Driver Station will "
 "automatically load the preselectTeleOp op mode in landscape mode."
-msgstr ""
-"もしオペレーションモードの自動キュー機能が有効化されている場合、ドライバー・ステーションはランドスケープモードで「preselectTeleOp」オペレーションモードを自動的に読み込みます。"
+msgstr "もしOpModeの自動キュー機能が有効化されている場合、ドライバー・ステーションはランドスケープモードで「preselectTeleOp」OpModeを自動的に読み込みます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:112
 msgid ""
 "If the OpMode Auto Queue option is enabled, the Driver Station will "
 "automatically load the preselectTeleOp op mode in portrait mode."
-msgstr ""
-"もしオペレーションモードの自動キュー機能が有効化されている場合、ドライバーステーションはポートレートモードで「preselectTeleOp」オペレーションモードを自動的に読み込みます。"
+msgstr "もしOpModeの自動キュー機能が有効化されている場合、ドライバーステーションはポートレートモードで「preselectTeleOp」OpModeを自動的に読み込みます。"

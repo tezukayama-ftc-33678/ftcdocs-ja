@@ -28,7 +28,7 @@ msgstr "サーボの制御 :bdg-success:`AS`"
 msgid ""
 "In this section, you will modify your op mode to control a servo motor with "
 "the buttons of the gamepad."
-msgstr "このセクションでは、ゲームパッドのボタンを使用してサーボモーターを制御するためのオペレーションモードを修正します。"
+msgstr "このセクションでは、ゲームパッドのボタンを使用してサーボモーターを制御するためのOpModeを修正します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:8
 msgid "What is a Servo Motor?"
@@ -50,9 +50,7 @@ msgid ""
 "that will move a servo motor to a specific position. Once the motor reaches "
 "this target position, it will hold the position, even if external forces are"
 " applied to the shaft of the servo."
-msgstr ""
-"下記の図では、「標準スケール」180度サーボが示されています。この種類のサーボは、趣味愛好家やFIRST Tech "
-"Challengeチームで人気があります。このサーボモーターは、シャフトを180度の範囲まで回転させることができます。電子制御モジュールであるサーボコントローラを使用して、特定の位置にサーボモーターを動かすオペレーションモードを書くことができます。モーターが目標位置に到達すると、外部力がシャフトに作用してもその位置を保持します。"
+msgstr "下記の図では、「標準スケール」180度サーボが示されています。この種類のサーボは、趣味愛好家やFIRST Tech Challengeチームで人気があります。このサーボモーターは、シャフトを180度の範囲まで回転させることができます。電子制御モジュールであるサーボコントローラを使用して、特定の位置にサーボモーターを動かすOpModeを書くことができます。モーターが目標位置に到達すると、外部力がシャフトに作用してもその位置を保持します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:26
 msgid ""
@@ -64,16 +62,14 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:31
 msgid "Modifying Your Op Mode to Control a Servo"
-msgstr "サーボの制御にオペレーションモードを修正する方法"
+msgstr "サーボの制御にOpModeを修正する方法"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:33
 msgid ""
 "Let's modify your op mode to add the logic required to control a servo "
 "motor. For this example, you will use the buttons on the Logitech F310 "
 "gamepad to control the position of the servo motor."
-msgstr ""
-"Servoモータの位置制御に必要なロジックをオペレーションモードに追加するために、設定を変更しましょう。この例では、Logitech "
-"F310ゲームパッドのボタンを使用してServoモータの位置を制御します。「INIT」「START」"
+msgstr "Servoモータの位置制御に必要なロジックをOpModeに追加するために、設定を変更しましょう。この例では、Logitech F310ゲームパッドのボタンを使用してServoモータの位置を制御します。「INIT」「START」"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:37
 msgid ""
@@ -103,13 +99,11 @@ msgid ""
 "degree position. Pushing the blue \"X\" button or the red \"B\" button will "
 "move the servo to the 90-degree position. Pushing the green \"A\" button "
 "will move the servo to the 180-degree position."
-msgstr ""
-"この例では、F310 "
-"コントローラ右側にある色付きのボタンを使用してサーボの位置を制御します。初期状態では、オペレーションモードはサーボを180度範囲の中間位置（90度）に移動させます。黄色の「Y」ボタンを押すと、サーボが0度位置に移動します。青い「X」ボタンや赤い「B」ボタンを押すと、サーボが90度位置に移動します。緑色の「A」ボタンを押すと、サーボが180度位置に移動します。"
+msgstr "この例では、F310 コントローラ右側にある色付きのボタンを使用してサーボの位置を制御します。初期状態では、OpModeはサーボを180度範囲の中間位置（90度）に移動させます。黄色の「Y」ボタンを押すと、サーボが0度位置に移動します。青い「X」ボタンや赤い「B」ボタンを押すと、サーボが90度位置に移動します。緑色の「A」ボタンを押すと、サーボが180度位置に移動します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:65
 msgid "Modify your op mode to add the following code:"
-msgstr "あなたのオペレーションモードを修正して、次のコードを追加してください："
+msgstr "あなたのOpModeを修正して、次のコードを追加してください："
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:93
 msgid ""
@@ -119,15 +113,11 @@ msgid ""
 "will move the servo to the 90-degree position. If the A button is pressed, "
 "it will move the servo to the 180-degree position. The op mode will also "
 "send telemetry data on the servo position to the Driver Station."
-msgstr ""
-"この追加されたコードは、F310 ゲームパッドの色付きボタンがどれか押されているかどうかを確認します。Y ボタンが押された場合、サーボは 0 "
-"度位置に移動します。X ボタンまたは B ボタンが押された場合、サーボは 90 度位置に移動します。A ボタンが押された場合、サーボは 180 "
-"度位置に移動します。オペレーションモードは、サーボの位置に関するテレメトリデータをドライバーステーションに送信することもできます。"
+msgstr "この追加されたコードは、F310 ゲームパッドの色付きボタンがどれか押されているかどうかを確認します。Y ボタンが押された場合、サーボは 0 度位置に移動します。X ボタンまたは B ボタンが押された場合、サーボは 90 度位置に移動します。A ボタンが押された場合、サーボは 180 度位置に移動します。OpModeは、サーボの位置に関するテレメトリデータをドライバーステーションに送信することもできます。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:101
 msgid ""
 "After you have modified your op mode, you can build it and then run it. "
 "Verify that gamepad #1 is still configured and then use the colored buttons "
 "to move the position of the servo."
-msgstr ""
-"あなたがオペレーションモードを修正した後は、それをビルドし実行します。ゲームパッド#1がまだ設定されていることを確認した上で、色付きのボタンを使用してサーボの位置を移動させます。"
+msgstr "あなたがOpModeを修正した後は、それをビルドし実行します。ゲームパッド#1がまだ設定されていることを確認した上で、色付きのボタンを使用してサーボの位置を移動させます。"

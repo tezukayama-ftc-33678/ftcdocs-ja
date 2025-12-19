@@ -422,9 +422,7 @@ msgid ""
 "The Sample OpMode uses a default camera resolution of 320 x 240 pixels, "
 "supported by most webcams and Android phone cameras.  You may edit this "
 "resolution, subject to a trade-off between:"
-msgstr ""
-"サンプルオペレーションモードは、大多数のウェブカメラやAndroid携帯電話カメラでサポートされる320 x "
-"240ピクセルのデフォルトのカメラ解像度を使用します。この解像度を編集することができますが、その際には次のトレードオフがあります："
+msgstr "サンプルOpModeは、大多数のウェブカメラやAndroid携帯電話カメラでサポートされる320 x 240ピクセルのデフォルトのカメラ解像度を使用します。この解像度を編集することができますが、その際には次のトレードオフがあります："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:299
 msgid "computing performance, and"

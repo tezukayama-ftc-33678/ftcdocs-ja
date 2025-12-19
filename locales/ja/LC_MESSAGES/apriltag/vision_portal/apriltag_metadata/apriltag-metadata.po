@@ -72,7 +72,7 @@ msgstr "タグ内容"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:23
 msgid "The SDK 8.2 Sample OpModes use AprilTags with these Metadata values:"
-msgstr "SDK 8.2 のサンプルオペレーションモードでは、AprilTags が次のメタデータ値を使用します："
+msgstr "SDK 8.2 のサンプルOpModeでは、AprilTags が次のメタデータ値を使用します："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:25
 msgid "``583, Nemo, 4, DistanceUnit.INCH``"

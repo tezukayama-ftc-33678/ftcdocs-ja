@@ -692,8 +692,7 @@ msgid ""
 "Even if your Team Prop’s color closely matches the color of the red or blue "
 "Spike Mark, you could write OpMode code to reject the narrow shape (aspect "
 "ratio) of an empty Spike Mark’s Bounding Box."
-msgstr ""
-"チームプロップの色が赤スパイクマークや青スパイクマークの色と非常に近い場合でも、空のスパイクマークのバウンディングボックスの細長い形状（アスペクト比）を拒否するオペレーションモードコードを書くことができます。"
+msgstr "チームプロップの色が赤スパイクマークや青スパイクマークの色と非常に近い場合でも、空のスパイクマークのバウンディングボックスの細長い形状（アスペクト比）を拒否するOpModeコードを書くことができます。"
 
 #: ../../source/devices/huskylens/huskylens.rst:379
 msgid "Here’s an example with a trained **blue object**:"

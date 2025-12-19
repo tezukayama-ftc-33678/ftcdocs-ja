@@ -127,9 +127,7 @@ msgstr ""
 msgid ""
 "An OpMode can also place other tags in a Library, to supplement or overwrite"
 " default tags.  This is covered further at the **Library** page."
-msgstr ""
-"オペレーションモードはライブラリに他のタグも配置し、デフォルトのタグを補完したり上書きすることもできます。詳細は **ライブラリ** "
-"ページで説明されています。"
+msgstr "OpModeはライブラリに他のタグも配置し、デフォルトのタグを補完したり上書きすることもできます。詳細は **ライブラリ** ページで説明されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_id_code/apriltag-id-code.rst:98
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"

@@ -264,7 +264,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:130
 msgid "Sample Op Modes"
-msgstr "サンプルオペレーションモード"
+msgstr "サンプルOpMode"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:132
 msgid ""
@@ -272,8 +272,7 @@ msgid ""
 "external UVC web camera for VisionPortal operations. Before a team can use "
 "the external UVC camera, a configuration file must be configured with the "
 "external camera defined as one of the USB-connected devices."
-msgstr ""
-"外部UVCウェブカメラを使用したVisionPortal操作の方法を示すサンプルのブロックとJavaオペレーションモードがあります。チームが外部UVCカメラを使用する前に、外部カメラをUSB接続デバイスの1つとして定義した構成ファイルを設定する必要があります。"
+msgstr "外部UVCウェブカメラを使用したVisionPortal操作の方法を示すサンプルのブロックとJavaOpModeがあります。チームが外部UVCカメラを使用する前に、外部カメラをUSB接続デバイスの1つとして定義した構成ファイルを設定する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:138
 msgid ""

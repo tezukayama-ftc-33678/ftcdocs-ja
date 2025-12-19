@@ -243,8 +243,7 @@ msgid ""
 "Heading is preserved between OpMode runs, unless the robot or Robot "
 "Controller (RC) app are restarted. This can be useful between Autonomous and"
 " TeleOp. Heading can be reset during an OpMode, as discussed below."
-msgstr ""
-"オペレーションモード（OpMode）の実行間でヘッジngは保持されます。ただし、ロボットやロボットコントローラー（RC）アプリが再起動された場合はこの限りではありません。これは自動運転とテレオペレーション（TeleOp）間での使用に有用です。オペレーションモード内でヘッジngをリセットすることも可能です。詳細は以下の通りです。"
+msgstr "OpMode（OpMode）の実行間でヘッジngは保持されます。ただし、ロボットやロボットコントローラー（RC）アプリが再起動された場合はこの限りではありません。これは自動運転とテレオペレーション（TeleOp）間での使用に有用です。OpMode内でヘッジngをリセットすることも可能です。詳細は以下の通りです。"
 
 #: ../../source/programming_resources/imu/imu.rst:89
 msgid ""
@@ -388,8 +387,7 @@ msgid ""
 "re-open that OpMode to capture this updated configuration. Blocks are "
 "provided only for devices in the configuration that’s active*\\  **upon "
 "opening**\\  *an OpMode.*"
-msgstr ""
-"もしオペレーションモードが開いていた場合、コンピュータのプログラミング画面でそのオペレーションモードを閉じてから再開し、この更新された構成をキャプチャしてください。ブロックは、オペレーションモードを開く際にアクティブな**構成**に含まれるデバイス用のみが提供されます。"
+msgstr "もしOpModeが開いていた場合、コンピュータのプログラミング画面でそのOpModeを閉じてから再開し、この更新された構成をキャプチャしてください。ブロックは、OpModeを開く際にアクティブな**構成**に含まれるデバイス用のみが提供されます。"
 
 #: ../../source/programming_resources/imu/imu.rst:165
 msgid "Axes Definition"
@@ -723,8 +721,7 @@ msgid ""
 "*Certain combinations are physically impossible. For example, if the REV "
 "logo is facing UP, the USB ports cannot also be facing UP. The OpMode will "
 "reject such combinations during IMU initialization.*"
-msgstr ""
-"*特定の組み合わせは物理的に不可能です。例えば、REVロゴが上向きの場合、USBポートも上向きにはできません。このような組み合わせはIMU初期化時にオペレーションモードによって拒否されます。*"
+msgstr "*特定の組み合わせは物理的に不可能です。例えば、REVロゴが上向きの場合、USBポートも上向きにはできません。このような組み合わせはIMU初期化時にOpModeによって拒否されます。*"
 
 #: ../../source/programming_resources/imu/imu.rst:458
 msgid ""
@@ -1427,7 +1424,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:1097
 msgid "Sample OpModes"
-msgstr "サンプルオペレーションモード"
+msgstr "サンプルOpMode"
 
 #: ../../source/programming_resources/imu/imu.rst:1099
 msgid "SDK 8.1 and newer contains Sample OpModes demonstrating the above."

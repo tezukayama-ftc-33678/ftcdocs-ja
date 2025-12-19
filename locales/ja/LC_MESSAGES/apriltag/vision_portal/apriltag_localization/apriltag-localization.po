@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:84
 msgid "Save the OpMode, time to try it!"
-msgstr "オペレーションモードを保存しました。試してみましょう！"
+msgstr "OpModeを保存しました。試してみましょう！"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst
 msgid "Java"
@@ -220,7 +220,7 @@ msgstr "サンプルオペモードを実行する"
 msgid ""
 "On the Driver Station, select the TeleOp OpMode that you just saved or "
 "built."
-msgstr "ドライバーステーションで、先ほど保存または構築したテレオペレーションモードを選択してください。"
+msgstr "ドライバーステーションで、先ほど保存または構築したテレOpModeを選択してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:105
 msgid "Aim the camera at an AprilTag from the current FTC game."

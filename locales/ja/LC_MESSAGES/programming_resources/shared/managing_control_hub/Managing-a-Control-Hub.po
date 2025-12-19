@@ -188,9 +188,7 @@ msgid ""
 "However, existing configuration files and op modes should not be affected by"
 " the reset. This includes op modes that were created using the Blocks, OnBot"
 " Java and Android Studio tools."
-msgstr ""
-"制御ハブのリセットを行うと、デフォルトのネットワーク名とパスワードが復元されます。ただし、既存の設定ファイルやオペレーションモードはリセットによって影響を受けないものとします。これには、ブロック、OnBot"
-" Java、Android Studioツールを使用して作成されたオペレーションモードも含まれます。"
+msgstr "制御ハブのリセットを行うと、デフォルトのネットワーク名とパスワードが復元されます。ただし、既存の設定ファイルやOpModeはリセットによって影響を受けないものとします。これには、ブロック、OnBot Java、Android Studioツールを使用して作成されたOpModeも含まれます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:105
 msgid "Resetting Instructions"

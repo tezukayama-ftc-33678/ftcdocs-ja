@@ -248,9 +248,7 @@ msgid ""
 "Yaw) around those axes, in degrees. The RBE line shows the target Range (in "
 "inches), Bearing, and Elevation (in degrees). The angle of Elevation results"
 " from the height difference between the camera and the Tag."
-msgstr ""
-"オペレーションモードは、 ** 図2 ** "
-"に表示されるパラメータに対応する値を表示します。XYZ線は、インチ単位のX軸、Y軸、Z軸の平移値を示しています。PRY線は、これらの軸周りの回転（ピッチ、ロール、ヨー）に対応する度数で示されます。RBE線は、ターゲット範囲（インチ単位）、方位角、および仰角（度数）を示します。仰角は、カメラとタグの高さ差から計算されます。"
+msgstr "OpModeは、 ** 図2 ** に表示されるパラメータに対応する値を表示します。XYZ線は、インチ単位のX軸、Y軸、Z軸の平移値を示しています。PRY線は、これらの軸周りの回転（ピッチ、ロール、ヨー）に対応する度数で示されます。RBE線は、ターゲット範囲（インチ単位）、方位角、および仰角（度数）を示します。仰角は、カメラとタグの高さ差から計算されます。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:145
 msgid "*Several items to observe:*"

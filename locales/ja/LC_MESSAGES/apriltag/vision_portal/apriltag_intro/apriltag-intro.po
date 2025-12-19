@@ -324,7 +324,7 @@ msgstr "ナビゲーション"
 msgid ""
 "OpModes use AprilTag pose to achieve **navigation**: evaluating inputs and "
 "driving to a destination."
-msgstr "オペレーションモードはAprilTagの位置情報を用いて ** ナビゲーション ** を行う：入力評価と目的地への移動を行います。"
+msgstr "OpModeはAprilTagの位置情報を用いて ** ナビゲーション ** を行う：入力評価と目的地への移動を行います。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:167
 msgid ""
@@ -333,11 +333,7 @@ msgid ""
 " **Sample OpModes** ``RobotAutoDriveToAprilTagOmni.java`` and "
 "``RobotAutoDriveToAprilTagTank.java``.) Another navigation possibility is "
 "mentioned below under **Advanced Use**."
-msgstr ""
-"オペレーションモードはポーズデータを使用してタグに向かって走行することができ、またはタグに対する ** 相対的な位置と向き ** に目標位置を走行することができます。（新しいSDKでは、Javaの ** サンプルオペレーションモード ** "
-" ``RobotAutoDriveToAprilTagOmni.java`` および "
-"``RobotAutoDriveToAprilTagTank.java`` "
-"が提供されています。）別のナビゲーション方法は、以下の ** 高度な使用法 ** セクションで述べられています。"
+msgstr "OpModeはポーズデータを使用してタグに向かって走行することができ、またはタグに対する ** 相対的な位置と向き ** に目標位置を走行することができます。（新しいSDKでは、Javaの ** サンプルOpMode **  ``RobotAutoDriveToAprilTagOmni.java`` および ``RobotAutoDriveToAprilTagTank.java`` が提供されています。）別のナビゲーション方法は、以下の ** 高度な使用法 ** セクションで述べられています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:173
 msgid ""
@@ -430,10 +426,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:216
 msgid ""
 "Note: **Camera Stream** displays a snapshot of the camera’s view, on the Driver Station device. It’s available only during the INIT phase of an OpMode, and also shows any AprilTag (or Color Processing) annotations. Instructions are posted here:"
-msgstr ""
-"注意： **Camera Stream** "
-"はドライバーステーションデバイス上でカメラの視野のスナップショットを表示します。これはオペレーションモード（OpMode）の初期化フェーズ（INIT）中にのみ利用可能です。また、AprilTag（またはColor"
-" Processing）の注釈も表示されます。詳細な使用方法はここに掲載されています："
+msgstr "注意： **Camera Stream** はドライバーステーションデバイス上でカメラの視野のスナップショットを表示します。これはOpMode（OpMode）の初期化フェーズ（INIT）中にのみ利用可能です。また、AprilTag（またはColor Processing）の注釈も表示されます。詳細な使用方法はここに掲載されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:220
 msgid ""

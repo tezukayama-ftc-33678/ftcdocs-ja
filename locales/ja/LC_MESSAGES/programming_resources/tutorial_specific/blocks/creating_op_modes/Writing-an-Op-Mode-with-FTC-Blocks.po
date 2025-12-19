@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:2
 msgid "Creating Op Modes :bdg-warning:`Blocks`"
-msgstr "オペレーションモードの作成 :bdg-warning:`ブロック`"
+msgstr "OpModeの作成 :bdg-warning:`ブロック`"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:6
 msgid "What's an Op Mode?"
-msgstr "オペレーションモードとは何ですか？"
+msgstr "OpModeとは何ですか？"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:8
 msgid ""
@@ -49,9 +49,7 @@ msgid ""
 "programming tools that they can use to create their own op modes. This "
 "section of the wiki explains how to use the Blocks Programming Tool to write"
 " an op mode for a robot."
-msgstr ""
-"チームがFIRST Tech "
-"Challengeに参加している場合、独自のオペレーションモードを作成するために使用できる種類のプログラミングツールがあります。このウィキのセクションでは、ブロック型プログラミングツールを使用してロボット用のオペレーションモードを書く方法について説明しています。"
+msgstr "チームがFIRST Tech Challengeに参加している場合、独自のOpModeを作成するために使用できる種類のプログラミングツールがあります。このウィキのセクションでは、ブロック型プログラミングツールを使用してロボット用のOpModeを書く方法について説明しています。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:22
 msgid "The Blocks Programming Tool"
@@ -66,8 +64,7 @@ msgid ""
 "a design \"canvas\" and arrange these blocks to create the program logic for"
 " their op mode. The Blocks Programming Tool is powered by Google's Blockly "
 "software and was developed with support from Google."
-msgstr ""
-"ロボットコントローラーから提供されるブロックプログラミングツールは、ユーザーフレンドリーなプログラミングツールです。このツールを使用して、ユーザーはロボット用のカスタムオペレーションモードを作成し、その後、これらのオペレーションモードを直接ロボットコントローラーに保存できます。ユーザーは、デザイン「キャンバス」上にパазルのようなプログラミングブロックをドラッグアンドドロップし、これらのブロックを配置してオペレーションモードのプログラム論理を作成します。ブロックプログラミングツールはGoogleのBlocklyソフトウェアで駆動されており、Googleの支援のもと開発されました。"
+msgstr "ロボットコントローラーから提供されるブロックプログラミングツールは、ユーザーフレンドリーなプログラミングツールです。このツールを使用して、ユーザーはロボット用のカスタムOpModeを作成し、その後、これらのOpModeを直接ロボットコントローラーに保存できます。ユーザーは、デザイン「キャンバス」上にパазルのようなプログラミングブロックをドラッグアンドドロップし、これらのブロックを配置してOpModeのプログラム論理を作成します。ブロックプログラミングツールはGoogleのBlocklyソフトウェアで駆動されており、Googleの支援のもと開発されました。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:38
 msgid ""
@@ -81,7 +78,7 @@ msgstr ""
 msgid ""
 "Note that the process used to create and edit an op mode is identical if you"
 " are using a Control Hub as your Robot Controller."
-msgstr "制御ハブを使用してロボットコントローラーとしている場合、オペレーションモードを作成または編集するプロセスは同じです。"
+msgstr "制御ハブを使用してロボットコントローラーとしている場合、OpModeを作成または編集するプロセスは同じです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:56
 msgid ""
@@ -106,7 +103,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:68
 msgid "Creating Your First Op Mode"
-msgstr "あなたの最初のオペレーションモードを作成する"
+msgstr "あなたの最初のOpModeを作成する"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:70
 msgid ""
@@ -114,18 +111,16 @@ msgid ""
 "network of the Robot Controller, then you are ready to create your first op "
 "mode. In this section, you will use the Blocks Programming Tool to create "
 "the program logic for your first op mode."
-msgstr ""
-"もしロボットコントローラの「Program & "
-"Manage」無線ネットワークにあなたのノートブックを成功裏に接続した場合、初めてのオペレーションモードを作成する準備はできています。このセクションでは、ブロックプログラミングツールを使用して、初めてのオペレーションモードのプログラムロジックを作成します。"
+msgstr "もしロボットコントローラの「Program & Manage」無線ネットワークにあなたのノートブックを成功裏に接続した場合、初めてのOpModeを作成する準備はできています。このセクションでは、ブロックプログラミングツールを使用して、初めてのOpModeのプログラムロジックを作成します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:75
 msgid ""
 "Note that it will take an estimated 10 minutes to create your first op mode."
-msgstr "初回のオペレーションモードを作成するには、約10分かかります。"
+msgstr "初回のOpModeを作成するには、約10分かかります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:79
 msgid "Creating Your First Op Mode Instructions"
-msgstr "初のオペレーションモード作成手順"
+msgstr "初のOpMode作成手順"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:81
 msgid ""
@@ -178,14 +173,13 @@ msgid ""
 "also the screen where you can see a list of existing Blocks Op Modes on a "
 "Robot Controller.  Initially this list will be empty until you create and "
 "save your first op mode."
-msgstr ""
-"ブロックプログラミングのメインスクリーンは、新しいオペレーションモードを作成する場所です。また、ロボットコントローラー上の既存のブロックオペレーションモードの一覧を確認できる場所でもあります。最初はこのリストは空で、初めてのオペレーションモードを作成して保存した後に内容が増えていきます。"
+msgstr "ブロックプログラミングのメインスクリーンは、新しいOpModeを作成する場所です。また、ロボットコントローラー上の既存のブロックOpModeの一覧を確認できる場所でもあります。最初はこのリストは空で、初めてのOpModeを作成して保存した後に内容が増えていきます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:130
 msgid ""
 "4. Press the \"Create New Op Mode\" button which should be visible towards "
 "the upper left hand corner of the browser window."
-msgstr "4. 「新しいオペレーションモードを作成」ボタンを押してください。このボタンはブラウザウィンドウの左上に表示されます。"
+msgstr "4. 「新しいOpModeを作成」ボタンを押してください。このボタンはブラウザウィンドウの左上に表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:138
 msgid "When prompted, specify a name for the op mode and hit \"OK\" to continue."
@@ -195,9 +189,7 @@ msgstr "お名前を指定し、\"OK\" をクリックして続行してくだ�
 msgid ""
 "5. Verify that you created the new op mode. You should see your newly "
 "created op mode opened for editing in your web browser's main screen."
-msgstr ""
-"5. "
-"新しいオペレーションモードを作成したことを確認してください。ウェブブラウザのメイン画面で、作成した新しいオペレーションモードが編集可能になっていることをご確認ください。"
+msgstr "5. 新しいOpModeを作成したことを確認してください。ウェブブラウザのメイン画面で、作成した新しいOpModeが編集可能になっていることをご確認ください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:148
 msgid ""
@@ -211,7 +203,7 @@ msgstr ""
 msgid ""
 "The right-hand side of the screen is where you arrange your programming "
 "blocks to create the logic for your op mode."
-msgstr "画面の右側は、プログラムブロックを配置してオペレーションモードのロジックを作成する場所です。"
+msgstr "画面の右側は、プログラムブロックを配置してOpModeのロジックを作成する場所です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:154
 msgid "Examining the Structure of Your Op Mode"
@@ -223,8 +215,7 @@ msgid ""
 "blocks that are placed on the design canvas for your op mode. These blocks "
 "are automatically included with each new op mode that you create. They "
 "create the basic structure for your op mode."
-msgstr ""
-"新しいオペレーションモードを作成した場合、既に設計キャンバス上にあなたのオペレーションモード用のプログラムブロックが配置されているべきです。これらのブロックは、あなたが作成する每个新的オペレーションモードと共に自動的に含まれます。それらはあなたのオペレーションモードの基本的な構造を作り出します。"
+msgstr "新しいOpModeを作成した場合、既に設計キャンバス上にあなたのOpMode用のプログラムブロックが配置されているべきです。これらのブロックは、あなたが作成する每个新的OpModeと共に自動的に含まれます。それらはあなたのOpModeの基本的な構造を作り出します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:166
 msgid ""
@@ -244,9 +235,7 @@ msgid ""
 "sequentially. Users can also use control loops (such as a while loop) to "
 "have the Robot Controller repeat (or iterate) certain tasks within an op "
 "mode."
-msgstr ""
-"オペレーションモードをロボットコントローラが実行するタスクの一覧と考えると、それは役立つかもしれません。ロボットコントローラはこのタスクのリストを順次処理します。ユーザーはまた、制御ループ（例えば"
-" while ループ）を使用して、オペレーションモード内の特定のタスクを繰り返し（または反復）させることもできます。"
+msgstr "OpModeをロボットコントローラが実行するタスクの一覧と考えると、それは役立つかもしれません。ロボットコントローラはこのタスクのリストを順次処理します。ユーザーはまた、制御ループ（例えば while ループ）を使用して、OpMode内の特定のタスクを繰り返し（または反復）させることもできます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:182
 msgid ""
@@ -254,8 +243,7 @@ msgid ""
 "set of instructions will be executed by the robot whenever a team member "
 "selects the op mode called \"MyFIRSTOpMode\" from the list of available op "
 "modes for this Robot Controller."
-msgstr ""
-"もしオペレーションモードをロボットが実行する一連の指示として考えると、この一連の指示は、チームメンバーが利用可能なオペレーションモードの一覧から「MyFIRSTOpMode」というオペレーションモードを選択したときに、このロボットコントローラーで実行されます。"
+msgstr "もしOpModeをロボットが実行する一連の指示として考えると、この一連の指示は、チームメンバーが利用可能なOpModeの一覧から「MyFIRSTOpMode」というOpModeを選択したときに、このロボットコントローラーで実行されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:187
 msgid ""
@@ -264,9 +252,7 @@ msgid ""
 "colored block with the words \"Put initialization blocks here\" is a "
 "comment. Comments are placed in an op mode for the benefit of the human "
 "user. The robot will ignore any comments in an op mode."
-msgstr ""
-"ヘルプテキストを表示しない場合は、質問記号（？）が描かれた青いボタンをクリックしてください。「Put initialization blocks "
-"here」という言葉が書かれている青色のブロックはコメントです。このコメントはオペレーションモードのために人間のユーザーに有益な情報として配置されます。ロボットはオペレーションモード内の任何のコメントを無視します。"
+msgstr "ヘルプテキストを表示しない場合は、質問記号（？）が描かれた青いボタンをクリックしてください。「Put initialization blocks here」という言葉が書かれている青色のブロックはコメントです。このコメントはOpModeのために人間のユーザーに有益な情報として配置されます。ロボットはOpMode内の任何のコメントを無視します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:198
 msgid ""
@@ -274,10 +260,7 @@ msgid ""
 " here\" comment (and before the \"call MyFIRSTOpMode.waitForStart\" block) "
 "will be executed when the op mode is first selected by a user at the DRIVER "
 "STATION."
-msgstr ""
-"DRIVER STATION でユーザーがオペレーションモードを選択した際に最初に実行されるプログラムブロックは、\"Put "
-"initialization blocks here\" コメントの後に置かれたもの（\"call "
-"MyFIRSTOpMode.waitForStart\" ブロックの前に）です。"
+msgstr "DRIVER STATION でユーザーがOpModeを選択した際に最初に実行されるプログラムブロックは、\"Put initialization blocks here\" コメントの後に置かれたもの（\"call MyFIRSTOpMode.waitForStart\" ブロックの前に）です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:203
 msgid ""
@@ -298,10 +281,7 @@ msgid ""
 "After the \"call MyFIRSTOpMode.waitForStart\", there is a conditional \"if\""
 " block (\"if call MyFIRSTOpMode.isActive\") that only gets executed if the "
 "op mode is still active (i.e., a stop command hasn't been received)."
-msgstr ""
-"call MyFIRSTOpMode.waitForStart\" を呼び出した後、条件分岐 \"if\" ブロック (\"if call "
-"MyFIRSTOpMode.isActive\") "
-"があります。このブロックは、オペレーションモードがまだアクティブである場合（すなわち、停止コマンドが受信されていない場合）にのみ実行されます。"
+msgstr "call MyFIRSTOpMode.waitForStart\" を呼び出した後、条件分岐 \"if\" ブロック (\"if call MyFIRSTOpMode.isActive\") があります。このブロックは、OpModeがまだアクティブである場合（すなわち、停止コマンドが受信されていない場合）にのみ実行されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:224
 msgid ""
@@ -331,10 +311,7 @@ msgid ""
 "executed as long as the op mode \"MyFIRSTOpMode\" is running. Once the user "
 "presses the Stop button, the \"call MyFIRSTOpMode.opModeIsActive\" clause is"
 " no longer true and the \"repeat while\" loop will stop repeating itself."
-msgstr ""
-"この緑色の制御ブロックは、「do」部分にリストされたステップを、条件「call "
-"MyFIRSTOpMode.opModeIsActive」が真である限り実行します。つまり、「do」部分に含まれている文は、「MyFIRSTOpMode」オペレーションモードが実行されている間、繰り返し実行されます。ユーザーが「Stop」ボタンを押した場合、「call"
-" MyFIRSTOpMode.opModeIsActive」の条件は偽になり、「repeat while」ループは再び繰り返さなくなります。"
+msgstr "この緑色の制御ブロックは、「do」部分にリストされたステップを、条件「call MyFIRSTOpMode.opModeIsActive」が真である限り実行します。つまり、「do」部分に含まれている文は、「MyFIRSTOpMode」OpModeが実行されている間、繰り返し実行されます。ユーザーが「Stop」ボタンを押した場合、「call MyFIRSTOpMode.opModeIsActive」の条件は偽になり、「repeat while」ループは再び繰り返さなくなります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:247
 msgid "Controlling a DC Motor"
@@ -344,7 +321,7 @@ msgstr "DCモータの制御"
 msgid ""
 "In this section, you will add some blocks to your op mode that will allow "
 "you to control a DC motor with a gamepad."
-msgstr "このセクションで、ゲームパッドを使用してDCモーターを制御できるようにオペレーションモードにいくつかのブロックを追加します。"
+msgstr "このセクションで、ゲームパッドを使用してDCモーターを制御できるようにOpModeにいくつかのブロックを追加します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:252
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:405
@@ -370,16 +347,11 @@ msgid ""
 "After you created and activated your configuration file, you can close and "
 "then reopen your op mode so that the programming blocks for the newly "
 "configured devices will be visible."
-msgstr ""
-"もしまだ :doc:`コンフィギュレーションファイルを作成し、アクティベートしていない場合 "
-"</hardware_and_software_configuration/connecting_devices/index>` "
-"は、:doc:`こちらのリンク "
-"</hardware_and_software_configuration/connecting_devices/index>` "
-"を通じて作成してください。コンフィギュレーションファイルを作成し、アクティベートした後は、新しい構成されたデバイス用のプログラミングブロックが表示されるようにオペレーションモードを閉じて再開することができます。"
+msgstr "もしまだ :doc:`コンフィギュレーションファイルを作成し、アクティベートしていない場合 </hardware_and_software_configuration/connecting_devices/index>` は、:doc:`こちらのリンク </hardware_and_software_configuration/connecting_devices/index>` を通じて作成してください。コンフィギュレーションファイルを作成し、アクティベートした後は、新しい構成されたデバイス用のプログラミングブロックが表示されるようにOpModeを閉じて再開することができます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:262
 msgid "Modifying Your Op Mode to Control a DC Motor Instructions"
-msgstr "DCモータの制御にオペレーションモードを改良する手順"
+msgstr "DCモータの制御にOpModeを改良する手順"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:264
 msgid ""
@@ -394,7 +366,7 @@ msgstr ""
 msgid ""
 "Click on \"Create variable...\" to create a new variable that will represent"
 " the target motor power for our op mode."
-msgstr "新しい変数を作成…\"をクリックして、オペレーションモードで目標モーターパワーを表す新しい変数を作成します。"
+msgstr "新しい変数を作成…\"をクリックして、OpModeで目標モーターパワーを表す新しい変数を作成します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:275
 msgid "When prompted, type in a name (\"tgtPower\") for your new variable."
@@ -430,8 +402,7 @@ msgid ""
 "Note that the control system lets you have up to two gamepads controlling a "
 "robot.  By selecting \"gamepad1\" you are telling the op mode to use the "
 "control input from the gamepad that is designated as driver #1."
-msgstr ""
-"ゲームパッドはロボットを制御するために最大2つを使用できるので、注意してください。\"gamepad1\"を選択すると、オペレーションモードにドライバー番号1として指定されたゲームパッドからの入力を使うように指示します。"
+msgstr "ゲームパッドはロボットを制御するために最大2つを使用できるので、注意してください。\"gamepad1\"を選択すると、OpModeにドライバー番号1として指定されたゲームパッドからの入力を使うように指示します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:313
 msgid ""
@@ -530,9 +501,7 @@ msgid ""
 "information from the robot on the DRIVER STATION. You can use this mechanism"
 " to display sensor data, motor status, gamepad state, etc. from the Robot "
 "Controller to the DRIVER STATION."
-msgstr ""
-"あなたのオペレーションモードは実行 READY "
-"にほぼ完成しています。しかし、継続する前に、ロボットコントローラからドライバステーションに情報を送信するために表示されるドライバステーションユーザーインターフェース上に情報を表示するためのいくつかのテレメトリステートメントを追加します。このテレメトリメカニズムは、ロボットの状態情報などをドライバステーション上で表示する有用な方法です。このメカニズムを使用して、ロボットコントローラからドライバステーションにセンサデータやモーターステータス、ゲームパッド状態などから情報を表示することができます。"
+msgstr "あなたのOpModeは実行 READY にほぼ完成しています。しかし、継続する前に、ロボットコントローラからドライバステーションに情報を送信するために表示されるドライバステーションユーザーインターフェース上に情報を表示するためのいくつかのテレメトリステートメントを追加します。このテレメトリメカニズムは、ロボットの状態情報などをドライバステーション上で表示する有用な方法です。このメカニズムを使用して、ロボットコントローラからドライバステーションにセンサデータやモーターステータス、ゲームパッド状態などから情報を表示することができます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:408
 msgid "Inserting Telemetry Statements Instructions"
@@ -605,17 +574,17 @@ msgstr "6. \"motorTest.Power\" ブロックを2番目のテレメトリーブロ
 msgid ""
 "Your op mode will now also send the motor power information from the Robot "
 "Controller to be displayed on the DRIVER STATION."
-msgstr "あなたのオペレーションモードでは、ロボットコントローラからのモーターの電力情報もドライバーステーションに送信され、表示されます。"
+msgstr "あなたのOpModeでは、ロボットコントローラからのモーターの電力情報もドライバーステーションに送信され、表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:467
 msgid "Saving Your Op Mode"
-msgstr "あなたのオペレーションモードの保存"
+msgstr "あなたのOpModeの保存"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:469
 msgid ""
 "After you have modified your op mode, it is very important to save the op "
 "mode to the Robot Controller."
-msgstr "あなたがオペレーションモードを修正した後、ロボットコントローラにオペレーションモードを保存することが非常に重要です。"
+msgstr "あなたがOpModeを修正した後、ロボットコントローラにOpModeを保存することが非常に重要です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:472
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:494
@@ -624,16 +593,14 @@ msgstr "このタスクを完了するには、約1分間かかります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:475
 msgid "Saving Your Op Mode Instructions"
-msgstr "あなたのオペレーションモード手順を保存します"
+msgstr "あなたのOpMode手順を保存します"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:477
 msgid ""
 "1. Press the \"Save Op Mode\" button to save the op mode to the Robot "
 "Controller. If your save was successful, you should see the words \"Save "
 "completed successfully\" to the right of the buttons."
-msgstr ""
-"1. "
-"「保存オペレーションモード」ボタンを押して、ロボットコントローラにオペレーションモードを保存します。保存が成功すると、「保存完了しました」という文字列がボタンの右側に表示されます。"
+msgstr "1. 「保存OpMode」ボタンを押して、ロボットコントローラにOpModeを保存します。保存が成功すると、「保存完了しました」という文字列がボタンの右側に表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:488
 msgid "Exiting Program & Manage Screen"
@@ -644,9 +611,7 @@ msgid ""
 "After you have modified and saved your op mode, if your DRIVER STATION is "
 "still in the Program & Manage screen, then you should exit this screen and "
 "return to the Main DRIVER STATION screen."
-msgstr ""
-"あなたのオペレーションモードを修正して保存した後、DRIVER STATION が Program & Manage "
-"スクリーンにまだ表示されている場合は、このスクリーンから退出し、Main DRIVER STATION スクリーンに戻ってください。"
+msgstr "あなたのOpModeを修正して保存した後、DRIVER STATION が Program & Manage スクリーンにまだ表示されている場合は、このスクリーンから退出し、Main DRIVER STATION スクリーンに戻ってください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:498
 msgid "Exiting Programming Mode Instructions"
@@ -656,14 +621,11 @@ msgstr "プログラミングモードからの退出手順"
 msgid ""
 "1. Press the Android back arrow to exit the Program & Manage screen. You "
 "need to exit the Program & Manage screen before you can run your op mode."
-msgstr ""
-"1. Androidの戻る矢印ボタンを押して「プログラム&管理」画面から退出してください。この操作はオペレーションモードを実行する前に必要です。"
+msgstr "1. Androidの戻る矢印ボタンを押して「プログラム&管理」画面から退出してください。この操作はOpModeを実行する前に必要です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:509
 msgid ""
 "Congratulations! You wrote your first op mode using the Blocks Programming "
 "Tool! You will learn how to run your op mode in the the section entitled "
 ":doc:`Running Your Op Mode <../running_op_modes/Running-Your-Op-Mode>`."
-msgstr ""
-"おめでとうございます！ブロックプログラミングツールを使用して、初めてのオペレーションモードを作成しました。次節「:doc:`あなたのオペレーションモードを実行する"
-" <../running_op_modes/Running-Your-Op-Mode>` で、どのようにオペレーションモードを実行するか学びます。"
+msgstr "おめでとうございます！ブロックプログラミングツールを使用して、初めてのOpModeを作成しました。次節「:doc:`あなたのOpModeを実行する <../running_op_modes/Running-Your-Op-Mode>` で、どのようにOpModeを実行するか学びます。"

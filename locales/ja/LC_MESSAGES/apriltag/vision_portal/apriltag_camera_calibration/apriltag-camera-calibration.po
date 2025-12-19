@@ -68,9 +68,7 @@ msgid ""
 "First, create an OpMode from the Java Sample "
 "``UtilityCameraFrameCapture.java``. Android Studio teams can find this "
 "utility program in the External Samples folder."
-msgstr ""
-"まず、Javaサンプルの ``UtilityCameraFrameCapture.java`` からオペレーションモードを作成します。Android "
-"Studioチームはこのユーティリティプログラムを外部サンプルフォルダで見つけることができます。"
+msgstr "まず、Javaサンプルの ``UtilityCameraFrameCapture.java`` からOpModeを作成します。Android Studioチームはこのユーティリティプログラムを外部サンプルフォルダで見つけることができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:25
 msgid ""

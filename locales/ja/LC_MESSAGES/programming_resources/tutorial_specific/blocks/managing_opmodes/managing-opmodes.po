@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:18
 msgid "Creating an OpMode"
-msgstr "オペレーションモードの作成"
+msgstr "OpModeの作成"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:20
 msgid ""
@@ -94,15 +94,15 @@ msgstr "プログラムが保存されると、同一行の右側に「保存し
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:56
 msgid "Opmode Saved"
-msgstr "オペレーションモードが保存されました"
+msgstr "OpModeが保存されました"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:56
 msgid "Message indicating OpMode has been Saved"
-msgstr "オペレーションモードが保存されました"
+msgstr "OpModeが保存されました"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:59
 msgid "Downloading an OpMode"
-msgstr "オペレーションモードのダウンロード"
+msgstr "OpModeのダウンロード"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:61
 msgid ""
@@ -112,10 +112,7 @@ msgid ""
 "Often it is desirable to save a copy of the program on your laptop (or on "
 "another device, or in some other safe location) or provide the program for "
 "use by others (teammates, another robot, other teams, provide online, etc.)."
-msgstr ""
-"一度オペレーションモードがデバイスに保存されると、DRIVER STATION "
-"から選択したり、プログラムインターフェース経由で再度編集することができます。しかし、そのブロックスプログラムはデバイス上では **.blk** "
-"ファイルとして存在するだけです。多くの場合、プログラムのコピーをラップトップ（または他のデバイス、または安全な場所など）に保存したいと考えたり、他の人（チームメイト、別のロボット、他のチーム、オンラインで提供するなど）のためにプログラムを提供したいというニーズがあります。"
+msgstr "一度OpModeがデバイスに保存されると、DRIVER STATION から選択したり、プログラムインターフェース経由で再度編集することができます。しかし、そのブロックスプログラムはデバイス上では **.blk** ファイルとして存在するだけです。多くの場合、プログラムのコピーをラップトップ（または他のデバイス、または安全な場所など）に保存したいと考えたり、他の人（チームメイト、別のロボット、他のチーム、オンラインで提供するなど）のためにプログラムを提供したいというニーズがあります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:68
 msgid ""
@@ -155,7 +152,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:90
 msgid "Opmode Download"
-msgstr "オペレーションモードダウンロード"
+msgstr "OpModeダウンロード"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:90
 msgid "Downloading a Blocks program"
@@ -166,8 +163,7 @@ msgid ""
 "Pressing the \"Download Op Mode\" button makes the file available to the web"
 " browser, so the web browser will manage the file in its usual way (e.g. "
 "with Chrome the file is saved into the computer's \"Downloads\" folder)."
-msgstr ""
-"「ダウンロードオペレーションモード」ボタンを押すと、ファイルはウェブブラウザに利用可能になります。そのため、通常の方法でファイルが管理されます（例：Chromeではファイルはコンピュータの「ダウンロード」フォルダに保存されます）。"
+msgstr "「ダウンロードOpMode」ボタンを押すと、ファイルはウェブブラウザに利用可能になります。そのため、通常の方法でファイルが管理されます（例：Chromeではファイルはコンピュータの「ダウンロード」フォルダに保存されます）。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:97
 msgid "Downloading an OpMode through the Management Interface"
@@ -179,8 +175,7 @@ msgid ""
 "management interface. This interface shows you all of the Blocks OpModes "
 "currently on the device and provides you with options for managing those "
 "OpModes."
-msgstr ""
-"「ブロック」メニュー項目をクリックすると、ブロック管理インターフェースに移動します。このインターフェースでは、デバイス上で現在利用可能なすべてのブロックオペレーションモード（OpMode）を表示し、それらのオペレーションモードの管理オプションを提供します。"
+msgstr "「ブロック」メニュー項目をクリックすると、ブロック管理インターフェースに移動します。このインターフェースでは、デバイス上で現在利用可能なすべてのブロックOpMode（OpMode）を表示し、それらのOpModeの管理オプションを提供します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:109
 msgid "Blocks Management"
@@ -198,8 +193,7 @@ msgid ""
 "all be downloaded at once. In the example below, the \"Mecanum Drive\" "
 "opmode is selected and then downloaded via the \"**Download Selected Op "
 "Modes**\" button."
-msgstr ""
-"オペレーションモードはこのインターフェースを通じてダウンロードできます。最初に、このインターフェースの「**選択したオペレーションモードをダウンロード**」ボタンは灰色になっています。このインターフェースで1つ以上のオペレーションモードを選択し、その後一括でダウンロードすることが可能です。以下の例では、「メカNUMドライブ」オペレーションモードが選択され、その後「**選択したオペレーションモードをダウンロード**」ボタンからダウンロードされています。"
+msgstr "OpModeはこのインターフェースを通じてダウンロードできます。最初に、このインターフェースの「**選択したOpModeをダウンロード**」ボタンは灰色になっています。このインターフェースで1つ以上のOpModeを選択し、その後一括でダウンロードすることが可能です。以下の例では、「メカNUMドライブ」OpModeが選択され、その後「**選択したOpModeをダウンロード**」ボタンからダウンロードされています。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:122
 msgid "Blocks Management Download"
@@ -220,10 +214,7 @@ msgid ""
 " want to *upload* the Blocks file (**.blk**) to the device (REV Control Hub "
 "or Android Smartphone). Within the Blocks Management interface, there is a "
 "button on the top menu marked, \"**Upload Op Mode**\"."
-msgstr ""
-"もし以前にダウンロードしたブロックファイルがある場合、または他のソースからブロックファイルを受け取った場合は（REVからのサンプルブロックなど）、そのブロックファイル"
-" (**.blk**) をデバイス（REV コントロールハブや Android "
-"スマホ）にアップロードする必要があります。ブロック管理インターフェイス内では、トップメニューにある「**アップロードオペレーションモード**」というラベルのボタンがあります。"
+msgstr "もし以前にダウンロードしたブロックファイルがある場合、または他のソースからブロックファイルを受け取った場合は（REVからのサンプルブロックなど）、そのブロックファイル (**.blk**) をデバイス（REV コントロールハブや Android スマホ）にアップロードする必要があります。ブロック管理インターフェイス内では、トップメニューにある「**アップロードOpMode**」というラベルのボタンがあります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:133
 msgid ""

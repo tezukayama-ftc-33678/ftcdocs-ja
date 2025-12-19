@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:2
 msgid "Running Your OpMode (All Languages)"
-msgstr "オペレーションモードの実行（すべての言語）"
+msgstr "OpModeの実行（すべての言語）"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:4
 msgid ""
@@ -83,9 +83,7 @@ msgid ""
 "Note that the word \"TeleOp\" is short for \"Tele-Operated\" and it implies "
 "a driver controlled OpMode (i.e. an OpMode that gets input from a human "
 "driver)."
-msgstr ""
-"「TeleOp」は「Tele-"
-"Operated（遠隔操作）」の略称であり、これはドライバーによる制御が可能なオペレーションモード（つまり、人間のドライバーから入力を受け取るオペレーションモード）を意味します。"
+msgstr "「TeleOp」は「Tele-Operated（遠隔操作）」の略称であり、これはドライバーによる制御が可能なOpMode（つまり、人間のドライバーから入力を受け取るOpMode）を意味します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:59
 msgid "4. Select \"MyFIRSTOpMode\" to load your OpMode on the Robot Controller."

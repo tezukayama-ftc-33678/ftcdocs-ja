@@ -192,7 +192,7 @@ msgstr "カメラデバイスの接続を閉じています - 現在処理は行
 msgid ""
 "CAMERA_DEVICE_CLOSED - Nothing is running, USB comms are closed.  Once "
 "closed, don't open camera again during this OpMode."
-msgstr "カメラデバイスが閉じています - オペレーションモード中はUSB通信が閉じているため、カメラを再度開くことはありません。"
+msgstr "カメラデバイスが閉じています - OpMode中はUSB通信が閉じているため、カメラを再度開くことはありません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:57
 msgid "ERROR"
@@ -280,8 +280,7 @@ msgid ""
 "LiveView, while running an OpMode.  The CPU continues processing camera "
 "images for AprilTag and/or TFOD recognitions, but does not actually generate"
 " an RC preview image (video)."
-msgstr ""
-"CPUリソースを節約する一つの方法（レベル1）として、オペレーションモードを実行中にLiveViewを**直接一時停止**することがあります。このとき、カメラ画像のAprilTagやTFOD認識は継続的に処理されますが、RCプレビュー画像（動画）は生成されません。"
+msgstr "CPUリソースを節約する一つの方法（レベル1）として、OpModeを実行中にLiveViewを**直接一時停止**することがあります。このとき、カメラ画像のAprilTagやTFOD認識は継続的に処理されますが、RCプレビュー画像（動画）は生成されません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst
 msgid "Blocks"
@@ -335,8 +334,7 @@ msgid ""
 "This setting causes LiveView to stop **automatically** if both processors "
 "(AprilTag and TFOD) are disabled.  Being part of the Builder pattern, this "
 "feature cannot be directly toggled ``true`` and ``false`` during the OpMode."
-msgstr ""
-"この設定は、両方のプロセッサー（AprilTagとTFOD）が無効にされた場合にLiveViewを**自動的に停止**します。Builderパターンの一環として、この機能はオペレーションモード中に直接TrueやFalseとして切り替えることはできません。"
+msgstr "この設定は、両方のプロセッサー（AprilTagとTFOD）が無効にされた場合にLiveViewを**自動的に停止**します。Builderパターンの一環として、この機能はOpMode中に直接TrueやFalseとして切り替えることはできません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:144
 msgid ""

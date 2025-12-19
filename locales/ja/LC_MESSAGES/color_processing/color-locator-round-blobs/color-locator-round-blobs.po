@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:34
 msgid "On the Driver Station, select the OpMode that you just saved or built."
-msgstr "ドライバーステーションで、先ほど保存或いは構築したオペレーションモードを選択してください。"
+msgstr "ドライバーステーションで、先ほど保存或いは構築したOpModeを選択してください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:35
 msgid ""
@@ -176,8 +176,7 @@ msgstr ""
 msgid ""
 "The Driver Station (DS) \"snapshot\" preview is available at the ``Camera "
 "Stream`` menu choice, with the OpMode in INIT."
-msgstr ""
-"ドライバーステーション（DS）の「スナップショット」プレビューは、オペレーションモードがINIT状態のとき、「カメラストリーム」メニューから利用できます。"
+msgstr "ドライバーステーション（DS）の「スナップショット」プレビューは、OpModeがINIT状態のとき、「カメラストリーム」メニューから利用できます。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
 msgid ""
@@ -487,7 +486,7 @@ msgstr "場所の照明と潜在的な影の影響"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:196
 msgid "OpMode loop rate"
-msgstr "オペレーションモードループレート"
+msgstr "OpModeループレート"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:198
 msgid ""
@@ -617,7 +616,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:238
 msgid "OpMode Development"
-msgstr "オペレーションモード開発"
+msgstr "OpMode開発"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:240
 msgid ""

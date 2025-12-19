@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:2
 msgid "Creating and Running an OpMode :bdg-success:`AS`"
-msgstr "オペレーションモードの作成と実行 :bdg-success:`AS`"
+msgstr "OpModeの作成と実行 :bdg-success:`AS`"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:5
 msgid "TeamCode Module"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:50
 msgid "Sample OpModes"
-msgstr "サンプルオペレーションモード"
+msgstr "サンプルOpMode"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:52
 msgid ""
@@ -100,10 +100,7 @@ msgid ""
 "modes that are included with the Android Studio project folder. You can "
 "locate these files in the FtcRobotController module in the package "
 "``org.firstinspires.ftc.robotcontroller.external.samples``."
-msgstr ""
-"ロボットのプログラミングを学ぶ良い方法は、Android "
-"Studioプロジェクトフォルダに含まれているサンプルオペレーションモードを検討することです。これらのファイルは、「FtcRobotController」モジュール内のパッケージ"
-" ``org.firstinspires.ftc.robotcontroller.external.samples`` にあります。"
+msgstr "ロボットのプログラミングを学ぶ良い方法は、Android Studioプロジェクトフォルダに含まれているサンプルOpModeを検討することです。これらのファイルは、「FtcRobotController」モジュール内のパッケージ ``org.firstinspires.ftc.robotcontroller.external.samples`` にあります。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:62
 msgid ""
@@ -216,8 +213,7 @@ msgid ""
 "At the start of the OpMode there is an annotation that occurs before the "
 "class definition. This annotation states that this is a tele-operated (i.e.,"
 " driver controlled) OpMode:"
-msgstr ""
-"オペレーションモード開始時に、クラス定義の前にアノテーションが発生します。このアノテーションは、これはテレオペレート（ドライバー制御）のオペレーションモードであることを示しています："
+msgstr "OpMode開始時に、クラス定義の前にアノテーションが発生します。このアノテーションは、これはテレオペレート（ドライバー制御）のOpModeであることを示しています："
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:202
 msgid "``@TeleOp``"
@@ -227,9 +223,7 @@ msgstr "``@TeleOp``"
 msgid ""
 "If you wanted to change this OpMode to an autonomous OpMode, you would "
 "replace the ``@TeleOp`` with an ``@Autonomous`` annotation instead."
-msgstr ""
-"もしこのオペレーションモードを自動運転オペレーションモードに変更したい場合、``@TeleOp`` を ``@Autonomous`` の "
-"Annotation に変更します。"
+msgstr "もしこのOpModeを自動運転OpModeに変更したい場合、``@TeleOp`` を ``@Autonomous`` の Annotation に変更します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:207
 msgid ""
@@ -263,9 +257,7 @@ msgid ""
 "At the start of the ``runOpMode`` method, the OpMode uses an object named "
 "``hardwareMap`` to get references to the hardware devices that are listed in"
 " the Robot Controller's configuration file:"
-msgstr ""
-"RUN_OPMODEメソッドの開始時に、オペレーションモードは「ハードウェアマップ」이라는 "
-"이름의オブジェクトを使用して、ロボットコントローラーの設定ファイルにリストされたハードウェアデバイスへの参照を取得します："
+msgstr "RUN_OPMODEメソッドの開始時に、OpModeは「ハードウェアマップ」이라는 이름의オブジェクトを使用して、ロボットコントローラーの設定ファイルにリストされたハードウェアデバイスへの参照を取得します："
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:249
 msgid ""
@@ -457,9 +449,7 @@ msgid ""
 "The OpMode will execute the statements in the runOpMode method up to the "
 "waitForStart statement. It will then wait until you press the start button "
 "(which is represented by the triangular shaped symbol) to continue."
-msgstr ""
-"オペレーションモードは、runOpMode メソッド内のステートメントをwaitForStart "
-"ステートメントまで実行します。その後、開始ボタン（三角形のシンボルで表されます）を押したときにのみ続行待ちを行います。"
+msgstr "OpModeは、runOpMode メソッド内のステートメントをwaitForStart ステートメントまで実行します。その後、開始ボタン（三角形のシンボルで表されます）を押したときにのみ続行待ちを行います。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:424
 msgid ""
@@ -586,7 +576,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:548
 msgid "Select, initialize and run your ``MyFIRSTJavaOpMode`` OpMode."
-msgstr "「MyFIRSTJavaOpMode」オペレーションモードを選択し、初期化し、実行します。"
+msgstr "「MyFIRSTJavaOpMode」OpModeを選択し、初期化し、実行します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:550
 msgid ""

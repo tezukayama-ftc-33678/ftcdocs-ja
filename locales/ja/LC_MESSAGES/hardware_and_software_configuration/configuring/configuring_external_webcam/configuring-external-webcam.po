@@ -158,12 +158,11 @@ msgid ""
 "You can keep this default name (the sample Op Modes reference this name) or "
 "change it. If you change the webcam name, make sure your Op Modes refer to "
 "this new name."
-msgstr ""
-"このデフォルト名は維持することもできます（サンプルのオペレーションモードはこの名前を参照しています）または変更することも可能です。Webカメラ名を変更する場合は、オペレーションモードがこの新しい名前に参照していることを確認してください。"
+msgstr "このデフォルト名は維持することもできます（サンプルのOpModeはこの名前を参照しています）または変更することも可能です。Webカメラ名を変更する場合は、OpModeがこの新しい名前に参照していることを確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:76
 msgid "Sample Op Modes"
-msgstr "サンプルオペレーションモード"
+msgstr "サンプルOpMode"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:78
 msgid ""
@@ -189,9 +188,7 @@ msgid ""
 "Before opening and editing an Op Mode, verify that the intended "
 "configuration (with camera) is active. Also verify that the name referenced "
 "in the Op Mode matches the name specified in the configuration file."
-msgstr ""
-"オペレーションモードを開き編集する前に、カメラ付きの意図した構成が有効であることを確認してください。また、オペレーションモードで参照されている名前が構成ファイルに指定された名"
-" enthus と一致していることを確認してください。"
+msgstr "OpModeを開き編集する前に、カメラ付きの意図した構成が有効であることを確認してください。また、OpModeで参照されている名前が構成ファイルに指定された名 enthus と一致していることを確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:93
 msgid "Image Preview"
@@ -201,9 +198,7 @@ msgstr "イメージプレビュー"
 msgid ""
 "The *FIRST* Tech Challenge apps provide camera preview for ‘stream-enabled’ "
 "Op Modes using VisionPortal."
-msgstr ""
-"FIRST Tech Challenge アプリケーションは、VisionPortal "
-"を使用して「ストリーム有り」オペレーションモード用のカメラプレビューを提供します。"
+msgstr "FIRST Tech Challenge アプリケーションは、VisionPortal を使用して「ストリーム有り」OpMode用のカメラプレビューを提供します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:98
 msgid ""
@@ -213,10 +208,7 @@ msgid ""
 " open the main menu (the 3 dots in upper right hand corner of the screen) "
 "and select Camera Stream. This option appears only at this time, during "
 "which the game pads and START button are disabled for safety."
-msgstr ""
-"ペアリングされたDRIVER "
-"STATIONデバイスで、カメラが接続され設定されている場合、ストリーミング機能を有効にしたオペレーションモードを選択します。INITボタンを押して、一時的にストリーミングソフトウェアが初期化されるのを待ちます。STARTボタンは押さないでください。代わりに、画面右上の3つの点からメインメニューを開き、「Camera"
-" Stream」を選択してください。このタイミングのみ、ゲームパッドとSTARTボタンは安全上の理由で無効になります。"
+msgstr "ペアリングされたDRIVER STATIONデバイスで、カメラが接続され設定されている場合、ストリーミング機能を有効にしたOpModeを選択します。INITボタンを押して、一時的にストリーミングソフトウェアが初期化されるのを待ちます。STARTボタンは押さないでください。代わりに、画面右上の3つの点からメインメニューを開き、「Camera Stream」を選択してください。このタイミングのみ、ゲームパッドとSTARTボタンは安全上の理由で無効になります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
 msgid ""
@@ -243,16 +235,14 @@ msgid ""
 "Stream again to turn off the preview. The preview image will close, the game"
 " pads will be enabled, and the START button may be pressed to continue "
 "running the Op Mode."
-msgstr ""
-"このオプションはカメラの調整に使用でき、必要に応じて頻繁に手動で画像を更新できます。完了したら、メインメニューを開き、再度「カメラストリーム」を選択してプレビューを停止します。プレビュー画像が閉じ、ゲームパッドが有効になり、「START」ボタンを押すことでオペレーションモードの実行を継続できます。"
+msgstr "このオプションはカメラの調整に使用でき、必要に応じて頻繁に手動で画像を更新できます。完了したら、メインメニューを開き、再度「カメラストリーム」を選択してプレビューを停止します。プレビュー画像が閉じ、ゲームパッドが有効になり、「START」ボタンを押すことでOpModeの実行を継続できます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:125
 msgid ""
 "Because the Camera Stream feature is only available during the INIT phase of"
 " an Op Mode, you must ensure that the VisionPortal is activated in your Op "
 "Mode **before** the waitForStart command:"
-msgstr ""
-"カメラストリーム機能はオペレーションモードのINITフェーズ期間中にのみ利用可能ですので、waitForStartコマンド実行**以前**にVisionPortalをアクティブ化する必要があります："
+msgstr "カメラストリーム機能はOpModeのINITフェーズ期間中にのみ利用可能ですので、waitForStartコマンド実行**以前**にVisionPortalをアクティブ化する必要があります："
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
 msgid ""
@@ -267,10 +257,7 @@ msgid ""
 "waitForStart command in your Op Mode. Also make sure you’ve given the system"
 " enough time to initialize the VisionPortal software before you check to see"
 " if Camera Stream is available."
-msgstr ""
-"DRIVER "
-"STATIONのメインメニューでカメラストリームオプションが見つからない場合は、オペレーションモード内のwaitForStartコマンド前にVisionPortalが有効になっていることを確認してください。また、Camera"
-" Streamが利用可能かどうかを確認する前に、ビジョンポートルソフトウェアが適切に初期化されるまで十分な時間を与えておくことも確認してください。"
+msgstr "DRIVER STATIONのメインメニューでカメラストリームオプションが見つからない場合は、OpMode内のwaitForStartコマンド前にVisionPortalが有効になっていることを確認してください。また、Camera Streamが利用可能かどうかを確認する前に、ビジョンポートルソフトウェアが適切に初期化されるまで十分な時間を与えておくことも確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:139
 msgid "Scrcpy"

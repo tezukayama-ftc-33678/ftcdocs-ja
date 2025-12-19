@@ -56,7 +56,7 @@ msgstr "このタスクを完了するには、約15分かかります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:22
 msgid "Modifying the Op Mode to Display Distance Instructions"
-msgstr "距離指示の表示を変更するオペレーションモードの設定"
+msgstr "距離指示の表示を変更するOpModeの設定"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:24
 msgid ""
@@ -150,9 +150,7 @@ msgid ""
 "9. Follow the procedure outlined in the section titled :doc:`Running Your "
 "OpMode <../running_op_modes/Running-Your-Op-Mode>` to run your updated op "
 "mode."
-msgstr ""
-"9. 「:doc:`実行するオペレーションモードの手順 <../running_op_modes/Running-Your-Op-"
-"Mode>`」セクションに記載されている手順に従って、更新したオペレーションモードを実行してください。"
+msgstr "9. 「:doc:`実行するOpModeの手順 <../running_op_modes/Running-Your-Op-Mode>`」セクションに記載されている手順に従って、更新したOpModeを実行してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:102
 msgid ""
@@ -161,10 +159,7 @@ msgid ""
 "If the expression \"NaN\" (not a number) is displayed on the DRIVER STATION,"
 " the target is most likely out of range (and the sensor does not detect any "
 "reflected light)."
-msgstr ""
-"オペレーションモードを実行中、色光センサーの上に手をかざすと、DRIVER STATION の画面で測定された距離が変化するはずです。もしDRIVER "
-"STATION で "
-"\"NaN\"（数値ではありません）という表現が表示されている場合、ターゲットはおそらく範囲外である可能性があり（センサーが反射光を検出していない）。"
+msgstr "OpModeを実行中、色光センサーの上に手をかざすと、DRIVER STATION の画面で測定された距離が変化するはずです。もしDRIVER STATION で \"NaN\"（数値ではありません）という表現が表示されている場合、ターゲットはおそらく範囲外である可能性があり（センサーが反射光を検出していない）。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:105
 msgid "Touch Sensor"
@@ -204,7 +199,7 @@ msgstr ""
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:131
 msgid ""
 "Modifying the Op Mode to Display Button (Touch Sensor) State Instructions"
-msgstr "ボタン（タッチセンサ）の状態を表示するオペレーションモードの変更方法についての指示"
+msgstr "ボタン（タッチセンサ）の状態を表示するOpModeの変更方法についての指示"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:133
 msgid ""
@@ -279,16 +274,11 @@ msgid ""
 "11. Follow the procedure outlined in the section titled :doc:`Running Your "
 "OpMode <../running_op_modes/Running-Your-Op-Mode>` to run your updated op "
 "mode."
-msgstr ""
-"11. 「更新したオペレーションモードを実行する」セクションの :doc:` Running Your OpMode "
-"<../running_op_modes/Running-Your-Op-Mode> </running_op_modes/Running-Your-"
-"Op-Mode>` に記載されている手順に従って、更新したオペレーションモードを実行してください。"
+msgstr "11. 「更新したOpModeを実行する」セクションの :doc:` Running Your OpMode <../running_op_modes/Running-Your-Op-Mode> </running_op_modes/Running-Your-Op-Mode>` に記載されている手順に従って、更新したOpModeを実行してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:225
 msgid ""
 "As you run the op mode and push or release the button, the telemetry message"
 " on the DRIVER STATION should update to reflect the current state of the "
 "digital Touch Sensor."
-msgstr ""
-"オペレーションモードを実行中、ボタンを押すか離すと、DRIVER STATION "
-"上のテレメトリーメッセージはデジタルタッチセンサーの現在の状態に更新されるべきです。"
+msgstr "OpModeを実行中、ボタンを押すか離すと、DRIVER STATION 上のテレメトリーメッセージはデジタルタッチセンサーの現在の状態に更新されるべきです。"

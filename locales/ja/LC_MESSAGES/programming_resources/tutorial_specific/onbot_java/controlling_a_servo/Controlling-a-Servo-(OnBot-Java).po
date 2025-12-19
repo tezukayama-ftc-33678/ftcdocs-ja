@@ -28,7 +28,7 @@ msgstr "サーボモーターの制御 :bdg-info:`OBJ`"
 msgid ""
 "In this section, you will modify your op mode to control a servo motor with "
 "the buttons of the gamepad."
-msgstr "このセクションでは、ゲームパッドのボタンを使用してサーボモーターを制御するためのオペレーションモードを修正します。"
+msgstr "このセクションでは、ゲームパッドのボタンを使用してサーボモーターを制御するためのOpModeを修正します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst:8
 msgid "What is a Servo Motor?"
@@ -50,9 +50,7 @@ msgid ""
 "that will move a servo motor to a specific position. Once the motor reaches "
 "this target position, it will hold the position, even if external forces are"
 " applied to the shaft of the servo."
-msgstr ""
-"下の図では、「標準スケール」180度サーボが示されています。この種類のサーボは、趣味愛好家やFIRST Tech "
-"Challengeチームに人気があります。このサーボモーターはシャフトを180度の範囲で回転させることができます。電子制御モジュールであるサーボコントローラを使用して、特定の位置までサーボモーターを動かすオペレーションモードを書くことができます。モーターが目標位置に到達すると、シャフトに対して外部力が作用してもその位置を保持します。"
+msgstr "下の図では、「標準スケール」180度サーボが示されています。この種類のサーボは、趣味愛好家やFIRST Tech Challengeチームに人気があります。このサーボモーターはシャフトを180度の範囲で回転させることができます。電子制御モジュールであるサーボコントローラを使用して、特定の位置までサーボモーターを動かすOpModeを書くことができます。モーターが目標位置に到達すると、シャフトに対して外部力が作用してもその位置を保持します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst:26
 msgid ""
@@ -64,7 +62,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst:31
 msgid "Modifying Your Op Mode to Control a Servo"
-msgstr "サーボの制御のためにオペレーションモードを修正する"
+msgstr "サーボの制御のためにOpModeを修正する"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst:33
 msgid ""
@@ -103,15 +101,11 @@ msgid ""
 "degree position. Pushing the blue \"X\" button or the red \"B\" button will "
 "move the servo to the 90-degree position. Pushing the green \"A\" button "
 "will move the servo to the 180-degree position."
-msgstr ""
-"この例では、F310 コントローラーの右側にある色分けされたボタンを使用してサーボの位置を制御します。初期状態では、オペレーションモードはサーボを "
-"180 度範囲の中間位置（90 度）に移動させます。黄色の「Y」ボタンを押すと、サーボは 0 "
-"度位置に移動します。青い「X」ボタンや赤い「B」ボタンを押すと、サーボは 90 度位置に移動します。緑色の「A」ボタンを押すと、サーボは 180 "
-"度位置に移動します。"
+msgstr "この例では、F310 コントローラーの右側にある色分けされたボタンを使用してサーボの位置を制御します。初期状態では、OpModeはサーボを 180 度範囲の中間位置（90 度）に移動させます。黄色の「Y」ボタンを押すと、サーボは 0 度位置に移動します。青い「X」ボタンや赤い「B」ボタンを押すと、サーボは 90 度位置に移動します。緑色の「A」ボタンを押すと、サーボは 180 度位置に移動します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst:65
 msgid "Modify your op mode to add the following code:"
-msgstr "あなたのオペレーションモードに次のコードを追加してください："
+msgstr "あなたのOpModeに次のコードを追加してください："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst:93
 msgid ""
@@ -121,15 +115,11 @@ msgid ""
 "will move the servo to the 90-degree position. If the A button is pressed, "
 "it will move the servo to the 180-degree position. The op mode will also "
 "send telemetry data on the servo position to the Driver Station."
-msgstr ""
-"この追加されたコードは、F310 ゲームパッドの色付きボタンがどれか押されているかを確認します。Y ボタンが押された場合、サーボは 0 "
-"度位置に移動します。X ボタンまたは B ボタンが押された場合、サーボは 90 度位置に移動します。A ボタンが押された場合、サーボは 180 "
-"度位置に移動します。オペレーションモードは、サーボの位置に関するテレメトリデータをドライバーステーションに送信することもできます。"
+msgstr "この追加されたコードは、F310 ゲームパッドの色付きボタンがどれか押されているかを確認します。Y ボタンが押された場合、サーボは 0 度位置に移動します。X ボタンまたは B ボタンが押された場合、サーボは 90 度位置に移動します。A ボタンが押された場合、サーボは 180 度位置に移動します。OpModeは、サーボの位置に関するテレメトリデータをドライバーステーションに送信することもできます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/controlling_a_servo/Controlling-a-Servo-(OnBot-Java).rst:101
 msgid ""
 "After you have modified your op mode, you can build it and then run it. "
 "Verify that gamepad #1 is still configured and then use the colored buttons "
 "to move the position of the servo."
-msgstr ""
-"あなたがオペレーションモードを修正した後は、それをビルドし実行します。ゲームパッド#1がまだ設定されていることを確認した上で、色分けされたボタンを使用してサーボの位置を移動させます。"
+msgstr "あなたがOpModeを修正した後は、それをビルドし実行します。ゲームパッド#1がまだ設定されていることを確認した上で、色分けされたボタンを使用してサーボの位置を移動させます。"
