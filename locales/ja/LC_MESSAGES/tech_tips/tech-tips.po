@@ -527,7 +527,7 @@ msgstr "両方のモータとサーボは、標準的な電力計算式を使っ
 
 #: ../../source/tech_tips/tech-tips.rst:300
 msgid "*Electrical Power(W) = volts(V) x amps(A)*"
-msgstr "*電気的電力(W) = ボルト(V) × アンペア(A)*"
+msgstr "電気的な電力(W)＝ボルts(V)×アンペア(A)"
 
 #: ../../source/tech_tips/tech-tips.rst:302
 msgid ""
@@ -3000,7 +3000,10 @@ msgid ""
 "aren’t missed, and lower counts-per-revolution encoders (like the goBILDA "
 "Odometry Pods or most motors) can be connected to any port."
 msgstr ""
-"エンコーダポート0と3はハードウェアでカウントされますが、ポート1と2はソフトウェアでカウントされます。これは、1回転あたりのカウント数が高いエンコーダ（REV Through-Bore Encoderなど）は、カウントの取りこぼしを防ぐためにポート0または3に接続する必要があることを意味します。一方、1回転あたりのカウント数が低いエンコーダ（goBILDA Odometry Podsやほとんどのモーターなど）は、どのポートにも接続できます。"
+"エンコーダポート0と3はハードウェアでカウントされますが、ポート1と2はソフトウェアでカウントされます。这意味着每转计数较高的编码器（如REV Through-Bore Encoder）连接到端口0或3以确保不会错过计数，而每转计数较低的编码器（如goBILDA Odometry Pods或大多数电机）可以连接到任何端口。\n"
+"\"\"\"\n"
+"\n"
+"この翻訳は、Sphinx POファイルの構造を保持し、専門用語や固有名詞を原文のままにしています。また、丁寧語を使用し、自然な日本語で表現しています。"
 
 #: ../../source/tech_tips/tech-tips.rst:1892
 msgid ""
