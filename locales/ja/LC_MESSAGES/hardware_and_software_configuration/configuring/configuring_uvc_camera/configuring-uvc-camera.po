@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:46
 msgid "REV Expansion Hub and Phone"
-msgstr "REV テンションハブと電話"
+msgstr "REV テンションハブとスマホ"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:48
 msgid ""
@@ -117,7 +117,7 @@ msgstr "チームがAndroid端末と拡張ハブを使用している場合、�
 msgid ""
 "A REV expansion hub connected to an Android phone and a webcam via a USB "
 "Hub."
-msgstr "USB ハブ経由で Android 携帯電話とウェブカメラに接続された REV エク(strpos)ンドハブ。"
+msgstr "USB ハブ経由で Android 携帯スマホとウェブカメラに接続された REV エク(strpos)ンドハブ。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:54
 msgid "USB Hub"
@@ -212,7 +212,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:103
 msgid "A complete setup for using a phone and webcam."
-msgstr "電話機とウェブカメラを使用する完全な設定。"
+msgstr "スマホとウェブカメラを使用する完全な設定。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:103
 msgid "The USB hub is drawing power from a power bank."
@@ -225,11 +225,7 @@ msgid ""
 "Micro port on the USB hub. The webcam is connected to one of the USB type A "
 "ports on the USB hub. A USB Type A to USB Mini B cable connects the USB hub "
 "to the REV Expansion Hub."
-msgstr ""
-"USB ハブは、Type A コネクタとケーブルを介してUSB OTG ケーブルに接続され、そのOTG "
-"ケーブルは電話機に接続されます。バッテリー充電器は、USB Hub のUSB Type B Microポートに接続されています。ウェブカメラは、USB "
-"Hub のType A ポートの1つに接続されています。USB Type AからUSB Mini Bへのケーブルで、USB Hub がREV "
-"Expansion Hub に接続されます。"
+msgstr "USB ハブは、Type A コネクタとケーブルを介してUSB OTG ケーブルに接続され、そのOTG ケーブルはスマホに接続されます。バッテリー充電器は、USB Hub のUSB Type B Microポートに接続されています。ウェブカメラは、USB Hub のType A ポートの1つに接続されています。USB Type AからUSB Mini Bへのケーブルで、USB Hub がREV Expansion Hub に接続されます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:110
 msgid ""
@@ -243,7 +239,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:118
 msgid ":alt: A complete setup for using a phone and webcam."
-msgstr ":alt: 電話機とウェブカメラを使用するための完全なセットアップ。"
+msgstr ":alt: スマホとウェブカメラを使用するための完全なセットアップ。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:118
 msgid "The USB hub is connected to the 5V Auxiliary port."

@@ -52,12 +52,12 @@ msgstr "ドライバー ステーションとロボット コントローラ ア
 msgid ""
 "**LiveView** on Robot Controller (RC) device – RC phone or Control Hub (see "
 "below)"
-msgstr " ** LiveView ** はロボットコントローラ（RC）デバイスで使用します（RC電話機またはControl Hubを参照してください）"
+msgstr " ** LiveView ** はロボットコントローラ（RC）デバイスで使用します（RCスマホまたはControl Hubを参照してください）"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:22
 msgid ""
 "**Camera Stream** on Driver Station (DS) device – DS phone or Driver Hub"
-msgstr " ** カメラストリーム ** はドライバーステーション（DS）デバイス - DS電話機またはドライバーハブにあります。"
+msgstr " ** カメラストリーム ** はドライバーステーション（DS）デバイス - DSスマホまたはドライバーハブにあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
 msgid ""
@@ -232,8 +232,7 @@ msgid ""
 " as if you were to open the camera app on the phone. That rotation happens "
 "during the GPU-accelerated rendering of the bitmap and is significantly "
 "easier on resources."
-msgstr ""
-"また、RC電話カメラの場合、LiveViewプレビューは回転enumとは独立して回転し（電話のカメラアプリを開いたときのように「期待する」ように表示される）、その回転はGPUによるビットマップの加速レンダリング中に発生し、リソースに大幅に優しいです。"
+msgstr "また、RCスマホカメラの場合、LiveViewプレビューは回転enumとは独立して回転し（スマホのカメラアプリを開いたときのように「期待する」ように表示される）、その回転はGPUによるビットマップの加速レンダリング中に発生し、リソースに大幅に優しいです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:118
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"

@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:27
 msgid "Put your phone into Airplane Mode (with the WiFi radio still on)."
-msgstr "携帯電話を飛行機モードに切り替える（無線LANはオンのまま）。"
+msgstr "携帯スマホを飛行機モードに切り替える（無線LANはオンのまま）。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:28
 msgid "Pair (i.e., wirelessly connect) the DRIVER STATION to the Control Hub."
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:49
 msgid "Install the Robot Controller app onto the Robot Controller phone."
-msgstr "ロボットコントローラー電話にRobot Controllerアプリをインストールしてください。"
+msgstr "ロボットコントローラースマホにRobot Controllerアプリをインストールしてください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:50
 msgid ""
@@ -142,7 +142,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:52
 msgid "Put your phones into Airplane Mode (with the WiFi radios still on)."
-msgstr "携帯電話の無線LAN機能だけをオンにして、飛行機モードに設定してください。"
+msgstr "携帯スマホの無線LAN機能だけをオンにして、飛行機モードに設定してください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:53
 msgid ""
@@ -173,8 +173,7 @@ msgid ""
 "the Robot Controller and the other phone \"9999-C-DS\" for the DRIVER "
 "STATION. The \"-C\" indicates that these devices belong to the third set of "
 "phones for this team."
-msgstr ""
-"例えば、チームがチーム番号が9999で複数の電話がある場合、そのチームはロボットコントローラー用に「9999-C-RC」と命名し、ドライバーステーション用に「9999-C-DS」と命名するかもしれません。「-C」はこれらのデバイスがこのチームの第三セットの電話であることを示します。"
+msgstr "例えば、チームがチーム番号が9999で複数のスマホがある場合、そのチームはロボットコントローラー用に「9999-C-RC」と命名し、ドライバーステーション用に「9999-C-DS」と命名するかもしれません。「-C」はこれらのデバイスがこのチームの第三セットのスマホであることを示します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:76
 msgid ""
@@ -184,12 +183,7 @@ msgid ""
 "Robot-Controller:changing the name>`. It can also be changed at the *Manage*"
 " page from the RC app, a paired DS app, or a connected laptop; click ``Apply"
 " Wi-Fi Settings`` when done."
-msgstr ""
-"ロボットコントローラー用の電話の名前は、RCアプリを使用して変更できます。詳細については :ref:`ここ "
-"<programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-"
-"Robot-Controller:changing the name>` "
-"の指示を参照してください。また、RCアプリ、ペアリングされたDSアプリ、または接続されたラップトップから「Manage」ページで名前を変更することもできます。完了したら、「Apply"
-" Wi-Fi Settings」をクリックします。"
+msgstr "ロボットコントローラー用のスマホの名前は、RCアプリを使用して変更できます。詳細については :ref:`ここ <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:changing the name>` の指示を参照してください。また、RCアプリ、ペアリングされたDSアプリ、または接続されたラップトップから「Manage」ページで名前を変更することもできます。完了したら、「Apply Wi-Fi Settings」をクリックします。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:81
 msgid ""
@@ -210,7 +204,7 @@ msgstr "代替手段として、デバイス名はAndroidシステムレベル�
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:88
 msgid "It will take an estimated 5 minutes per phone to complete this task."
-msgstr "各電話について、このタスクは約5分かかります。"
+msgstr "各スマホについて、このタスクは約5分かかります。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:91
 msgid "rename1"
@@ -330,10 +324,7 @@ msgid ""
 "right, the team number is 9999. The \"-C\" indicates that this is from the "
 "third pair of smartphones for this team. The -RC indicates that this phone "
 "will be a Robot Controller."
-msgstr ""
-"デバイスの新しい名前をタッチパッドで入力してください。このデバイスがロボットコントローラの場合、チーム番号と-"
-"RCを指定します。このデバイスがドライバステーションの場合、チーム番号と-DSを指定します。Wi-Fi "
-"Directの非アクティブタイムアウトを ** 永遠に切断しない ** に設定し、その後、「SAVE」ボタンを押して変更を保存できます。右側に示したスクリーンショットでは、チーム番号は9999です。「-C」はこのチームの3台目のスマートフォンから来ていることを示します。「-RC」はこの電話がロボットコントローラであることを示します。"
+msgstr "デバイスの新しい名前をタッチパッドで入力してください。このデバイスがロボットコントローラの場合、チーム番号と-RCを指定します。このデバイスがドライバステーションの場合、チーム番号と-DSを指定します。Wi-Fi Directの非アクティブタイムアウトを ** 永遠に切断しない ** に設定し、その後、「SAVE」ボタンを押して変更を保存できます。右側に示したスクリーンショットでは、チーム番号は9999です。「-C」はこのチームの3台目のスマートフォンから来ていることを示します。「-RC」はこのスマホがロボットコントローラであることを示します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:131
 msgid "|rename8|"
@@ -341,7 +332,7 @@ msgstr "|rename8|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:133
 msgid "After renaming your phone, power cycle the device."
-msgstr "電話の名前を変更後、デバイスを再起動してください。"
+msgstr "スマホの名前を変更後、デバイスを再起動してください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:138
 msgid "Installing the *FIRST* Tech Challenge Apps"
@@ -506,7 +497,7 @@ msgstr "devop5"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:212
 msgid "Go to \"Settings\", then tap \"About device\" or \"About phone\"."
-msgstr "「設定」に進み、「デバイスについて」または「電話について」タップします。"
+msgstr "「設定」に進み、「デバイスについて」または「スマホについて」タップします。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:213
 msgid "|devop1|"
@@ -593,8 +584,7 @@ msgid ""
 "your screen. Look for the Airplane mode icon (which is shaped like an "
 "airplane) and if the icon is not activated, touch the icon to put the phone "
 "into airplane mode."
-msgstr ""
-"各スマートフォンのメインAndroid画面で、指を使って画面の上から下にスライドしてクイック設定画面を表示します。一部のスマートフォンでは、メッセージや通知が画面の上部にある場合、一度だけではなく複数回スワイプする必要があります。空港モードアイコン（飛行機の形に似たアイコン）を探し、アイコンがアクティブでない場合は、そのアイコンをタップして電話を空港モードに入れてください。"
+msgstr "各スマートフォンのメインAndroid画面で、指を使って画面の上から下にスライドしてクイック設定画面を表示します。一部のスマートフォンでは、メッセージや通知が画面の上部にある場合、一度だけではなく複数回スワイプする必要があります。空港モードアイコン（飛行機の形に似たアイコン）を探し、アイコンがアクティブでない場合は、そのアイコンをタップしてスマホを空港モードに入れてください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:254
 msgid "|airplane1|"

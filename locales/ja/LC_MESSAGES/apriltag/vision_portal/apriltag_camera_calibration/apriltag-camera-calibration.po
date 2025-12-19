@@ -28,8 +28,7 @@ msgstr "AprilTagカメラキャリブレーション"
 msgid ""
 "To provide good pose estimates, **each RC phone camera or webcam model** "
 "requires calibration data, for **each specific resolution**."
-msgstr ""
-"良好的ポーズ推定のために、 ** 各RC電話カメラまたはウェブカメラのモデル ** には、 ** それぞれの特定の解像度 ** に対する校正データが必要です。"
+msgstr "良好的ポーズ推定のために、 ** 各RCスマホカメラまたはウェブカメラのモデル ** には、 ** それぞれの特定の解像度 ** に対する校正データが必要です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:7
 msgid ""
@@ -94,8 +93,7 @@ msgid ""
 "AprilTag pose estimation. It captures a camera frame (image) and stores it "
 "on the Robot Controller (Control Hub or RC phone), with each press of the "
 "gamepad button X (or Square)."
-msgstr ""
-"このユーティリティOpmodeは、AprilTagのポーズ推定に必要なウェブカムやRC電話機カメラの校正を支援します。カメラフレーム（画像）をキャプチャし、各ゲームパッドボタンX（またはスクエア）を押すごとにロボットコントローラー（制御ハブまたはRC電話機）に保存します。"
+msgstr "このユーティリティOpmodeは、AprilTagのポーズ推定に必要なウェブカムやRCスマホカメラの校正を支援します。カメラフレーム（画像）をキャプチャし、各ゲームパッドボタンX（またはスクエア）を押すごとにロボットコントローラー（制御ハブまたはRCスマホ）に保存します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:37
 msgid "To illustrate, the OpMode stores the first two captured images as:"
@@ -141,8 +139,7 @@ msgstr "既存の警告"
 msgid ""
 "Running ``ConceptDoubleVision`` (or any AprilTag Sample OpModes) using a "
 "built-in RC phone camera, gives the following error message on both devices:"
-msgstr ""
-"内置RC電話カメラを使用して「ConceptDoubleVision」（または任意のAprilTagサンプルオペモード）を実行すると、両方のデバイスで次のエラーメッセージが表示されます："
+msgstr "内置RCスマホカメラを使用して「ConceptDoubleVision」（または任意のAprilTagサンプルオペモード）を実行すると、両方のデバイスで次のエラーメッセージが表示されます："
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:64
 msgid "Camera Calibration Warning"
@@ -278,8 +275,7 @@ msgstr ""
 msgid ""
 "Android RC phone cameras also need calibration data for good pose estimates."
 " The SDK provides no lens intrinsics for these cameras."
-msgstr ""
-"Android RC電話のカメラも、良いポーズ推定のために校正データが必要です。SDKはこれらのカメラ用のレンズ内在パラメータを提供していません。"
+msgstr "Android RCスマホのカメラも、良いポーズ推定のために校正データが必要です。SDKはこれらのカメラ用のレンズ内在パラメータを提供していません。"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:134
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"

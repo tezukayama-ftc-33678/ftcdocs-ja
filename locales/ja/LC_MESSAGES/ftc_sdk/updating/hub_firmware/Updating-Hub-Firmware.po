@@ -49,7 +49,7 @@ msgstr "ドライバーステーションアプリ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:13
 msgid "Robot Controller (RC) app - on RC phone"
-msgstr "ロボットコントローラー（RC）アプリ - RC携帯電話"
+msgstr "ロボットコントローラー（RC）アプリ - RC携帯スマホ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:14
 msgid "Manage page on computer"
@@ -57,7 +57,7 @@ msgstr "コンピュータ上の管理ページ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:15
 msgid "Manage page on Driver Station device (DS phone or Driver Hub)"
-msgstr "ドライバーステーション装置（DS電話機またはドライバーハブ）の管理ページ"
+msgstr "ドライバーステーション装置（DSスマホまたはドライバーハブ）の管理ページ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
@@ -132,7 +132,7 @@ msgstr "メソッド 2 - ドライバーステーションアプリ"
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:59
 msgid ""
 "This method applies to any DS app, running on a DS phone or a Driver Hub."
-msgstr "このメソッドは、DSアプリケーションに適用され、DS電話またはドライバーハブ上で実行されている場合にも適用されます。"
+msgstr "このメソッドは、DSアプリケーションに適用され、DSスマホまたはドライバーハブ上で実行されている場合にも適用されます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:62
 msgid ""
@@ -142,11 +142,7 @@ msgid ""
 " RC phone, with no intermediate Control Hub or other (primary) Expansion "
 "Hub. After updating you can return that Hub to its secondary position, if "
 "needed."
-msgstr ""
-"REV コントロールハブの場合は、12V ロボット電源を適用してください。REV エクスパンションハブの場合は、直接 Robot "
-"Controller（RC）電話に接続し、RC アプリを開き、 ** その後 ** 12V "
-"電源を適用してください。更新が必要なエクスパンションハブは、 ** 直接 ** RC "
-"電話に接続する必要があります。中継コントロールハブやその他の（主要）エクスパンションハブは使用しないでください。更新が完了したら、必要であればそのハブを二次的な位置に戻すことができます。"
+msgstr "REV コントロールハブの場合は、12V ロボット電源を適用してください。REV エクスパンションハブの場合は、直接 Robot Controller（RC）スマホに接続し、RC アプリを開き、 ** その後 ** 12V 電源を適用してください。更新が必要なエクスパンションハブは、 ** 直接 ** RC スマホに接続する必要があります。中継コントロールハブやその他の（主要）エクスパンションハブは使用しないでください。更新が完了したら、必要であればそのハブを二次的な位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:69
 msgid ""
@@ -216,19 +212,14 @@ msgid ""
 "It’s listed separately here, because it applies only to **Expansion Hub**, "
 "not Control Hub – which doesn’t use an RC phone. In other words, users do "
 "not normally interface directly with the RC app on a Control Hub."
-msgstr ""
-"別途ここに記載しているのは、これは ** Expansion Hub ** のみに適用され、Control Hubには適用されないためです。Control "
-"HubではRC電話を使用していないからです。つまり、ユーザーは通常、Control Hub上のRCアプリと直接 interfacing "
-"しないことになります。"
+msgstr "別途ここに記載しているのは、これは ** Expansion Hub ** のみに適用され、Control Hubには適用されないためです。Control HubではRCスマホを使用していないからです。つまり、ユーザーは通常、Control Hub上のRCアプリと直接 interfacing しないことになります。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:109
 msgid ""
 "Again, the Expansion Hub must be plugged **directly** into an RC phone, with"
 " no intermediate (primary) Expansion Hub. After updating you can return that"
 " Hub to its secondary position, if needed."
-msgstr ""
-"また、拡張ハブはRC電話に ** 直接 ** 接続する必要があります。中間（プライマリ）拡張ハブを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
-""
+msgstr "また、拡張ハブはRCスマホに ** 直接 ** 接続する必要があります。中間（プライマリ）拡張ハブを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 4 - Manage page on computer"
@@ -238,7 +229,7 @@ msgstr "メソッド 4 - コンピュータ上の管理ページ"
 msgid ""
 "Connect the computer via Wi-Fi to the Control Hub or RC phone. In the Chrome"
 " browser, open the Manage interface."
-msgstr "コンピュータをWi-Fi経由でコントロールハブやRC電話に接続します。Google ドライバーのブラウザで管理インターフェースを開きます。"
+msgstr "コンピュータをWi-Fi経由でコントロールハブやRCスマホに接続します。Google ドライバーのブラウザで管理インターフェースを開きます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:118
 msgid "Click on the Manage tab, scroll down to Update REV Hub Firmware."
@@ -262,8 +253,7 @@ msgid ""
 "As part of the update process, that selected firmware file will be stored on"
 " the Control Hub or RC phone, in a subfolder called FIRST/updates/Expansion "
 "Hub Firmware."
-msgstr ""
-"アップデートプロセスの一部として、選択したファームウェアファイルは、制御ハブやRC電話にFIRST/updates/拡張ハブファームウェアというサブフォルダに保存されます。"
+msgstr "アップデートプロセスの一部として、選択したファームウェアファイルは、制御ハブやRCスマホにFIRST/updates/拡張ハブファームウェアというサブフォルダに保存されます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:140
 msgid ""
@@ -287,15 +277,13 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid ""
 "Method 5 - Manage page on Driver Station device - DS phone or Driver Hub"
-msgstr "メソッド5 - ドライバーステーションデバイス（DS電話機またはドライバーハブ）上の管理ページ"
+msgstr "メソッド5 - ドライバーステーションデバイス（DSスマホまたはドライバーハブ）上の管理ページ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:158
 msgid ""
 "Connect the DS app to the Control Hub or RC phone, from the DS app’s "
 "Settings menu (never with the Android device Wi-Fi settings)."
-msgstr ""
-"DSアプリをコントロールハブやRC電話に接続し、DSアプリの設定メニューから接続してください（AndroidデバイスのWi-"
-"Fi設定経由では絶対に接続しないでください）。"
+msgstr "DSアプリをコントロールハブやRCスマホに接続し、DSアプリの設定メニューから接続してください（AndroidデバイスのWi-Fi設定経由では絶対に接続しないでください）。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:161
 msgid ""

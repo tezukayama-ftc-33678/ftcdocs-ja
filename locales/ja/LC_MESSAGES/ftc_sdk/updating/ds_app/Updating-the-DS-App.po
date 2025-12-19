@@ -49,7 +49,7 @@ msgstr "REV ドライバーハブ"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:14
 msgid "An approved Android DS phone"
-msgstr "承認されたAndroid Driver Station電話"
+msgstr "承認されたAndroid Driver Stationスマホ"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:16
 msgid ""
@@ -336,7 +336,7 @@ msgstr "Androidスマートフォン上のドライバーステーション（DS
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:167
 msgid "There are 2 methods to update the DS app on a DS phone:"
-msgstr "DS電話でDSアプリケーションを更新する方法は2つあります："
+msgstr "DSスマホでDSアプリケーションを更新する方法は2つあります："
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:170
 msgid "“Side loading” with APK"
@@ -359,9 +359,7 @@ msgstr "RHC アプリはここに示すように、スマートフォンを認�
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:191
 msgid "Recognizing the Phone"
-msgstr ""
-"電話の認識"
-""
+msgstr "スマホの認識"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:193
 msgid ""
@@ -377,11 +375,11 @@ msgstr ""
 msgid ""
 "Once recognized, click on that phone’s large icon/rectangle. The RHC app now"
 " displays the update status of the DS app, if any."
-msgstr "認識次第、該当する電話の大きなアイコン/長方形をクリックしてください。RHC アプリでは、DS アプリの更新状況が表示されます。"
+msgstr "認識次第、該当するスマホの大きなアイコン/長方形をクリックしてください。RHC アプリでは、DS アプリの更新状況が表示されます。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 msgid "Update Status of Phone"
-msgstr "電話のステータスを更新します"
+msgstr "スマホのステータスを更新します"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:208
 msgid "Update Status of Smartphone"
@@ -391,13 +389,13 @@ msgstr "スマートフォンのステータスを更新"
 msgid ""
 "After install, drag the DS app icon from the app menu to the phone’s home "
 "screen."
-msgstr "インストール後、アプリメニューからドライバーステーションのアイコンを携帯電話のホーム画面にドラッグしてください。"
+msgstr "インストール後、アプリメニューからドライバーステーションのアイコンを携帯スマホのホーム画面にドラッグしてください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:222
 msgid ""
 "You may now unplug the DS phone from the computer, and close the RHC app. "
 "The updated DS app is ready to use."
-msgstr "今やDS電話をコンピュータから外し、RHCアプリを閉じてください。更新されたDSアプリは使用準備完了です。"
+msgstr "今やDSスマホをコンピュータから外し、RHCアプリを閉じてください。更新されたDSアプリは使用準備完了です。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:227
 msgid ""
@@ -415,18 +413,14 @@ msgid ""
 "number. For example, ``FtcDriverStation-release-8.0.apk`` or simply "
 "``DS-8.0-release.apk``. This distinguishes the file from other versions that"
 " might be stored later on that DS phone."
-msgstr ""
-"現在、ファイル名を現在のバージョン番号に変更できます。例えば、「FtcDriverStation-"
-"release-8.0.apk」や単に「DS-8.0-release.apk」のようにします。これにより、そのDS電話で後から保存される他のバージョンと区別がつきます。"
+msgstr "現在、ファイル名を現在のバージョン番号に変更できます。例えば、「FtcDriverStation-release-8.0.apk」や単に「DS-8.0-release.apk」のようにします。これにより、そのDSスマホで後から保存される他のバージョンと区別がつきます。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:261
 msgid ""
 "Transfer the APK file from the computer to the DS phone’s Downloads (or "
 "Download) folder. Use a USB data cable (not a charge-only cable). When "
 "complete, you may unplug the DS phone from the computer."
-msgstr ""
-"DS電話のダウンロード（またはDownload）フォルダにAPKファイルを転送してください。USBデータケーブル（充電専用ケーブルではなし）を使用して接続します。完了したら、DS電話からコンピュータを"
-" unplugged してもかまいません。"
+msgstr "DSスマホのダウンロード（またはDownload）フォルダにAPKファイルを転送してください。USBデータケーブル（充電専用ケーブルではなし）を使用して接続します。完了したら、DSスマホからコンピュータを unplugged してもかまいません。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:265
 msgid ""
@@ -440,7 +434,7 @@ msgstr ""
 msgid ""
 "On the DS phone, navigate to the Downloads folder. This can be done in "
 "several ways:"
-msgstr "ドライバーステーションの電話で、ダウンロードフォルダーに移動してください。これには複数の方法があります："
+msgstr "ドライバーステーションのスマホで、ダウンロードフォルダーに移動してください。これには複数の方法があります："
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:272
 msgid ""
@@ -456,7 +450,7 @@ msgstr "設定/ストレージで基本的なファイルマネージャを使�
 msgid ""
 "After install, drag the DS app icon from the menu to the phone’s home "
 "screen."
-msgstr "インストール後、メニューからDSアプリアイコンを電話のホーム画面にドラッグします。"
+msgstr "インストール後、メニューからDSアプリアイコンをスマホのホーム画面にドラッグします。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:288
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"

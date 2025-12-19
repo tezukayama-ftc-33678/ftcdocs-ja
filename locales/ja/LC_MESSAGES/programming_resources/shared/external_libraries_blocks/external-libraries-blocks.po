@@ -67,9 +67,7 @@ msgid ""
 "*Note: This new capability exists for a Robot Controller (RC) running "
 "Android 7 & and higher. Moto G 2nd Gen and Moto G 3rd Gen RC phones cannot "
 "use this feature.*"
-msgstr ""
-"*注意: この新しい機能は、Android 7以降のバージョンを実行しているロボットコントローラ(RC)で利用できます。Moto G 2nd "
-"GenおよびMoto G 3rd GenのRC電話ではこの機能を利用できません。*"
+msgstr "*注意: この新しい機能は、Android 7以降のバージョンを実行しているロボットコントローラ(RC)で利用できます。Moto G 2nd GenおよびMoto G 3rd GenのRCスマホではこの機能を利用できません。*"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:29
 msgid "Overview"

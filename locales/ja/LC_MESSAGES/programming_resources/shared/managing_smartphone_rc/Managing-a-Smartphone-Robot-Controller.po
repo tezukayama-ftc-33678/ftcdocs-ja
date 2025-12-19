@@ -48,10 +48,7 @@ msgid ""
 "Devices<programming_resources/shared/configuring_android/Configuring-Your-"
 "Android-Devices:renaming your smartphones>` show how to rename a smartphone "
 "using the Android Settings activity of the phone."
-msgstr ""
-"代替手段として、:ref:`デバイスの名前変更<programming_resources/shared/configuring_android/Configuring-"
-"Your-Android-Devices:デバイスの名前変更>` では、スマートフォンを電話機の Android 設定 "
-"アクティビティを使用して名前を変更する方法について説明しています。"
+msgstr "代替手段として、:ref:`デバイスの名前変更<programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:デバイスの名前変更>` では、スマートフォンをスマホの Android 設定 アクティビティを使用して名前を変更する方法について説明しています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:16
 msgid ""
@@ -69,8 +66,7 @@ msgstr "ロボットコントローラーの名前の変更"
 msgid ""
 "1. On the Robot Controller phone or paired Driver Station phone, touch the "
 "three dots in the upper right hand corner to display a pop-up menu."
-msgstr ""
-"1. ロボットコントローラーやペアリングされたドライバーステーションの電話で、右上にある3つの点をタッチしてポップアップメニューを表示します。"
+msgstr "1. ロボットコントローラーやペアリングされたドライバーステーションのスマホで、右上にある3つの点をタッチしてポップアップメニューを表示します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:32
 msgid "Select the *Settings* menu item from the pop-up menu."
@@ -157,7 +153,7 @@ msgstr "4. *Wi-Fiチャンネル変更* リンクをクリックして、利用�
 msgid ""
 "5. Select the desired operating channel. The phone should display a toast "
 "message if the channel change was successful."
-msgstr "5. 使用するオペレーションチャンネルを選択してください。チャンネル変更が成功した場合、電話はトーストメッセージを表示します。"
+msgstr "5. 使用するオペレーションチャンネルを選択してください。チャンネル変更が成功した場合、スマホはトーストメッセージを表示します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:109
 msgid ""
@@ -255,11 +251,7 @@ msgid ""
 "sensors of the robot. Periodically, REV Robotics may release new versions of"
 " the firmware which contains fixes and improvements for the Expansion Hub. "
 "The firmware releases are in the form of a binary (\".bin\") file."
-msgstr ""
-"ロボットコントローラの電話は、USB接続を使用してスタンドアローンのREV Robotics "
-"エクスパンションハブに接続します。エクスパンションハブの目的は、ロボットコントローラとロボットのモータ、サーボ、センサー間の通信を容易にすることです。REV"
-" Robotics "
-"は時々、エクスパンションハブ用の修正や改善が含まれた新しいファームウェアバージョンをリリースする可能性があります。ファームウェアのリリース形式はバイナリファイル（\".bin\"）です。"
+msgstr "ロボットコントローラのスマホは、USB接続を使用してスタンドアローンのREV Robotics エクスパンションハブに接続します。エクスパンションハブの目的は、ロボットコントローラとロボットのモータ、サーボ、センサー間の通信を容易にすることです。REV Robotics は時々、エクスパンションハブ用の修正や改善が含まれた新しいファームウェアバージョンをリリースする可能性があります。ファームウェアのリリース形式はバイナリファイル（\".bin\"）です。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:187
 msgid ""
@@ -279,10 +271,7 @@ msgid ""
 "firmware images can be obtained from the `REV Robotics website "
 "<https://docs.revrobotics.com/duo-control/managing-the-control-"
 "system/updating-firmware#using-the-robot-controller-console>`__."
-msgstr ""
-"代替として、ラップトップやドライバーステーション（DS）を使用してロボットコントローラーの電話にUSB経由で拡張ハブを接続し、*管理*インターフェースから操作することができます。管理ページでは、拡張ハブのファームウェアをアップロードしたり、含まれているものやアップロードしたものを使用して更新することができます。新しいファームウェアイメージは、「<https://docs.revrobotics.com/duo-"
-"control/managing-the-control-system/updating-firmware#using-the-robot-"
-"controller-console>`__` からREVロボティクスのウェブサイトで取得できます」。"
+msgstr "代替として、ラップトップやドライバーステーション（DS）を使用してロボットコントローラーのスマホにUSB経由で拡張ハブを接続し、*管理*インターフェースから操作することができます。管理ページでは、拡張ハブのファームウェアをアップロードしたり、含まれているものやアップロードしたものを使用して更新することができます。新しいファームウェアイメージは、「<https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__` からREVロボティクスのウェブサイトで取得できます」。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:198
 msgid ""
@@ -456,9 +445,7 @@ msgstr "コントロールハブからロボット制御コンソールにアク
 msgid ""
 "Teams using Blocks or OnBot Java for programming can use the REV Hardware "
 "Client to update the Robot Controller (RC) app on an RC phone."
-msgstr ""
-"ブロックやOnBot "
-"Javaでプログラミングを行うチームは、REVハードウェアクライアントを使用して、ロボットコントローラ（RC）アプリをRC電話に更新できます。"
+msgstr "ブロックやOnBot Javaでプログラミングを行うチームは、REVハードウェアクライアントを使用して、ロボットコントローラ（RC）アプリをRCスマホに更新できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:332
 msgid ""
@@ -473,10 +460,7 @@ msgid ""
 " file to a computer, transfer it to the RC phone's Downloads folder, then "
 "open that file to install the RC app. This process is called \"side-"
 "loading\"."
-msgstr ""
-"代替として、アプリのリリースは `FTCRobotController GitHub <https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController/releases>`__ "
-"で利用可能です。ロボットコントローラー用APKファイルをコンピュータにダウンロードし、RC電話のダウンロードフォルダに転送した後、そのファイルを開いてRCアプリをインストールします。このプロセスは「サイドローディング」と呼ばれます。"
+msgstr "代替として、アプリのリリースは `FTCRobotController GitHub <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ で利用可能です。ロボットコントローラー用APKファイルをコンピュータにダウンロードし、RCスマホのダウンロードフォルダに転送した後、そのファイルを開いてRCアプリをインストールします。このプロセスは「サイドローディング」と呼ばれます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:342
 msgid ""

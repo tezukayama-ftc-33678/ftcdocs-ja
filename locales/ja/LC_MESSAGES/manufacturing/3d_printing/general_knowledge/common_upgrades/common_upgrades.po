@@ -224,12 +224,7 @@ msgid ""
 " to check) you should research **Octoprint** setup guides. If you are using "
 "a printer with the **Klipper** firmware, you should research **Fluidd** and "
 "**Mainsail** setup guides."
-msgstr ""
-"ネットワーク機能は3Dプリンティングにおいて頻繁に使用されており、多くのインターフェースが遠隔地からプリンターと交互する方法を提供します。そのため、あなたが場所にいないときでも印刷の開始・停止や監視を行うことができます。多くの企業では、新しいプリンターにはこの機能が標準で搭載されるようになってきていますが、ネットワーク機能がないプリンターを使用している場合でも、Raspberry"
-" Piや古いAndroid携帯電話などの装置を使って、さまざまなオンラインガイドを用いて簡単にこの機能を利用できます。 ** Marlin ** "
-"ファームウェアを使用しているプリンター（プリンターのドキュメンテーションや販売掲示を確認することで確認できます）の場合には、 ** Octoprint ** "
-"のセットアップガイドについて調査するべきです。 ** Klipper ** ファームウェアを使用しているプリンターの場合には、 ** Fluidd ** および "
-" ** Mainsail ** のセットアップガイドについて調査するべきです。"
+msgstr "ネットワーク機能は3Dプリンティングにおいて頻繁に使用されており、多くのインターフェースが遠隔地からプリンターと交互する方法を提供します。そのため、あなたが場所にいないときでも印刷の開始・停止や監視を行うことができます。多くの企業では、新しいプリンターにはこの機能が標準で搭載されるようになってきていますが、ネットワーク機能がないプリンターを使用している場合でも、Raspberry Piや古いAndroid携帯スマホなどの装置を使って、さまざまなオンラインガイドを用いて簡単にこの機能を利用できます。 ** Marlin ** ファームウェアを使用しているプリンター（プリンターのドキュメンテーションや販売掲示を確認することで確認できます）の場合には、 ** Octoprint ** のセットアップガイドについて調査するべきです。 ** Klipper ** ファームウェアを使用しているプリンターの場合には、 ** Fluidd ** および  ** Mainsail ** のセットアップガイドについて調査するべきです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:135
 msgid "A picture of a prusa being controlled by an octoprint dash panel."

@@ -111,7 +111,7 @@ msgstr "現在のロボット構成に「Webcam 1」が含まれています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:49
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
-msgstr "*Android電話の内蔵カメラを使用してロボットコントローラーに.*\""
+msgstr "*Androidスマホの内蔵カメラを使用してロボットコントローラーに.*\""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:51
 msgid ""
@@ -157,10 +157,7 @@ msgid ""
 " open the Chrome browser.  Go to the REV Control Hub's address "
 "http://192.168.43.1:8080 (or http://192.168.49.1:8080 for Android RC phone) "
 "and click the Blocks tab."
-msgstr ""
-"ロボットコントローラに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control "
-"Hubのアドレスhttp://192.168.43.1:8080（Android "
-"RC電話の場合はhttp://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
+msgstr "ロボットコントローラに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control Hubのアドレスhttp://192.168.43.1:8080（Android RCスマホの場合はhttp://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:77
 msgid ""
@@ -175,8 +172,7 @@ msgstr ""
 msgid ""
 "If using the built-in camera of an RC phone, change ``true`` to ``false`` at"
 " the OpMode's first Block called ``set USE_WEBCAM``."
-msgstr ""
-"RC電話の組み込みカメラを使用する場合、OpModeの最初のブロックである「USE_WEBCAM」を「true」から「false」に変更してください。"
+msgstr "RCスマホの組み込みカメラを使用する場合、OpModeの最初のブロックである「USE_WEBCAM」を「true」から「false」に変更してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:84
 msgid "Save the OpMode, time to try it!"
@@ -348,8 +344,7 @@ msgstr "RCプレビュー"
 msgid ""
 "The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
 "This is full video, and is shown automatically on the screen of an RC phone."
-msgstr ""
-"ロボットコントローラ（RC）デバイスでもプレビューを生成し、「ライブビュー」と呼ばれます。これは全画面のビデオで、自動的にRC電話の画面に表示されます。"
+msgstr "ロボットコントローラ（RC）デバイスでもプレビューを生成し、「ライブビュー」と呼ばれます。これは全画面のビデオで、自動的にRCスマホの画面に表示されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:188
 msgid "Control Hub Preview"

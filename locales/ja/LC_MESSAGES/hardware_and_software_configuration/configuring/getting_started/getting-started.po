@@ -119,8 +119,7 @@ msgid ""
 " Controller app. If you fail to make this association, then the Robot "
 "Controller app might not reliably connect to this Expansion Hub the next "
 "time you turn your system on."
-msgstr ""
-"USBハードウェアをロボットコントローラーと関連付けることを促される場合があります。このようなメッセージが電話で表示された際には、常に「このUSBデバイスに対する既定の使用を有効にする」オプションを選択し、「OK」ボタンを押してUSBデバイスをロボットコントローラーアプリケーションと関連付けるようにしてください。この関連付けが行われない場合、システムを再起動した際にこの拡張ハブに信頼性の高い接続ができなくなる可能性があります。"
+msgstr "USBハードウェアをロボットコントローラーと関連付けることを促される場合があります。このようなメッセージがスマホで表示された際には、常に「このUSBデバイスに対する既定の使用を有効にする」オプションを選択し、「OK」ボタンを押してUSBデバイスをロボットコントローラーアプリケーションと関連付けるようにしてください。この関連付けが行われない場合、システムを再起動した際にこの拡張ハブに信頼性の高い接続ができなくなる可能性があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:86
 msgid "Creating a Configuration File Using the DRIVER STATION"
@@ -194,8 +193,7 @@ msgid ""
 "Your Expansion Hub is listed as a Portal because it is directly connected to"
 " the Robot Controller phone through the USB cable or in the case of the "
 "Control Hub through the internal serial bus."
-msgstr ""
-"あなたの拡張ハブは、USBケーブルを通じてロボットコントローラーの電話に直接接続されているか、または制御ハブの場合には内部シリアルバスを介してポートとしてリストされています。"
+msgstr "あなたの拡張ハブは、USBケーブルを通じてロボットコントローラーのスマホに直接接続されているか、または制御ハブの場合には内部シリアルバスを介してポートとしてリストされています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:138
 msgid ""

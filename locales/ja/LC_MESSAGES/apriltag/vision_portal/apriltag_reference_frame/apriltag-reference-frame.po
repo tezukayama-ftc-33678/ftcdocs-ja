@@ -89,9 +89,7 @@ msgstr ""
 msgid ""
 "This is illustrated with a camera preview image, called LiveView, from a "
 "Robot Controller device (Control Hub or RC phone)."
-msgstr ""
-"これは、Robot Controller デバイス（Control Hub や RC 電話）から取得したカメラのプレビュー画像、LiveView "
-"で示されています。"
+msgstr "これは、Robot Controller デバイス（Control Hub や RC スマホ）から取得したカメラのプレビュー画像、LiveView で示されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:42
 msgid "LiveView Offsets"

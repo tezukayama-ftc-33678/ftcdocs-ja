@@ -332,8 +332,7 @@ msgstr "あなたのOpModeの構築とインストール"
 msgid ""
 "Verify that the Robot Controller phone is connected to your laptop and that "
 "the laptop has USB debugging permission for the phone."
-msgstr ""
-"ロボットコントローラーの電話がラップトップに接続されていることを確認し、ラップトップが電話に対するUSBデバッグ権限を持っていることを確認してください。"
+msgstr "ロボットコントローラーのスマホがラップトップに接続されていることを確認し、ラップトップがスマホに対するUSBデバッグ権限を持っていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:309
 msgid ""
@@ -361,10 +360,7 @@ msgid ""
 "arrow) next to the words ``TeamCode``. Verify that the correct device is "
 "selected, then press this green button to build the Robot Controller app and"
 " to install it onto your Control Hub (or RC phone)."
-msgstr ""
-"Android "
-"Studioのユーザーインターフェースの上部に目をやると、「TeamCode」という文字の隣にある小さな緑色のPlayまたはRunボタン（緑色の円形矢印で表現されています）を見つけてください。適切なデバイスが選択されていることを確認し、その後、Robot"
-" Controllerアプリを作成して制御ハブ（またはRC電話）にインストールするために、この緑色のボタンを押してください。"
+msgstr "Android Studioのユーザーインターフェースの上部に目をやると、「TeamCode」という文字の隣にある小さな緑色のPlayまたはRunボタン（緑色の円形矢印で表現されています）を見つけてください。適切なデバイスが選択されていることを確認し、その後、Robot Controllerアプリを作成して制御ハブ（またはRCスマホ）にインストールするために、この緑色のボタンを押してください。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:339
 msgid ""
@@ -546,9 +542,7 @@ msgid ""
 "Connect the gamepad to the Driver Station. If using a REV Robotics Driver "
 "Hub, you can directly connect the gamepad to one of the USB-A ports. On a "
 "DRIVER STATION phone, you will need a Micro USB OTG adapter cable."
-msgstr ""
-"ゲームパッドをドライバーステーションに接続してください。REVロボティクス ドライバーハブを使用する場合、ゲームパッドはUSB-"
-"Aポートのいずれかに直接接続できます。DRIVER STATION電話を使用する場合は、Micro USB OTGアダプターケーブルが必要です。"
+msgstr "ゲームパッドをドライバーステーションに接続してください。REVロボティクス ドライバーハブを使用する場合、ゲームパッドはUSB-Aポートのいずれかに直接接続できます。DRIVER STATIONスマホを使用する場合は、Micro USB OTGアダプターケーブルが必要です。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:528
 msgid ""

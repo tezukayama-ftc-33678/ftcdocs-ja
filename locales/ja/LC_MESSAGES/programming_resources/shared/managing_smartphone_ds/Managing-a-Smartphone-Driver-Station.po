@@ -92,11 +92,7 @@ msgid ""
 "<programming_resources/shared/configuring_android/Configuring-Your-Android-"
 "Devices:Renaming Your Smartphones>` shows how to rename a smartphone using "
 "the Android Settings activity of the phone."
-msgstr ""
-"もしコントロールシステムでスマートフォンを使用している場合、 :ref:`こちらのリンク "
-"<programming_resources/shared/configuring_android/Configuring-Your-Android-"
-"Devices:Renaming Your Smartphones>` "
-"では、電話のAndroid設定アクティビティを使用してスマートフォンを再命名する方法が説明されています。"
+msgstr "もしコントロールシステムでスマートフォンを使用している場合、 :ref:`こちらのリンク <programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:Renaming Your Smartphones>` では、スマホのAndroid設定アクティビティを使用してスマートフォンを再命名する方法が説明されています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:34
 msgid "Troubleshooting"
@@ -253,9 +249,7 @@ msgstr "コントロールハブからロボット制御コンソールにアク
 msgid ""
 "All teams using Blocks, OnBot Java or Android Studio can use the REV "
 "Hardware Client to update the Driver Station (DS) app on a DS phone."
-msgstr ""
-"すべてのブロックを使用するチーム、OnBot Javaを使用するチーム、またはAndroid Studioを使用するチームは、REV Hardware "
-"Clientを使ってドライバーステーション（DS）アプリをDS電話に更新することができます。"
+msgstr "すべてのブロックを使用するチーム、OnBot Javaを使用するチーム、またはAndroid Studioを使用するチームは、REV Hardware Clientを使ってドライバーステーション（DS）アプリをDSスマホに更新することができます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:123
 msgid ""
@@ -271,10 +265,7 @@ msgid ""
 "file to a computer, transfer it to the DS phone's Downloads folder, then "
 "open that file to install the DS app. This process is called \"side-"
 "loading\"."
-msgstr ""
-"代わりに、アプリのリリースは `FTCロボットコントローラー GitHub <https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController/releases>`__ で利用可能です。Driver Station "
-"APKファイルをコンピュータにダウンロードし、DS電話のDownloadsフォルダに転送した後、そのファイルを開いてDSアプリケーションをインストールします。このプロセスは「サイドローディング」と呼ばれます。"
+msgstr "代わりに、アプリのリリースは `FTCロボットコントローラー GitHub <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ で利用可能です。Driver Station APKファイルをコンピュータにダウンロードし、DSスマホのDownloadsフォルダに転送した後、そのファイルを開いてDSアプリケーションをインストールします。このプロセスは「サイドローディング」と呼ばれます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:132
 msgid ""

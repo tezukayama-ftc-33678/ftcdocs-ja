@@ -790,8 +790,7 @@ msgid ""
 "System Introduction page which talk about possible configurations of the "
 "Expansion Hub. In this case the long description is basically a listing of "
 "the devices connected to the Expansion Hub."
-msgstr ""
-"代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これは拡張ハブと電話の例であり、制御システム入門ページで述べた拡張ハブの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
+msgstr "代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これは拡張ハブとスマホの例であり、制御システム入門ページで述べた拡張ハブの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst
 msgid "Rev expansion hub with various devices connected."
@@ -807,7 +806,7 @@ msgstr "拡張ハブには次のデバイスが接続されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:369
 msgid "a Robot Controller phone via a USB connection;"
-msgstr "ロボットコントローラーとUSB接続で電話する；"
+msgstr "ロボットコントローラーとUSB接続でスマホする；"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:370
 msgid "A 12 volt battery with on/off switch;"

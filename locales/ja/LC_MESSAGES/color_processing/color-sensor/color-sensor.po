@@ -91,7 +91,7 @@ msgstr "*現在のロボット設定に「Webcam 1」が含まれている場合
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:44
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
-msgstr "*Android電話の組み込みカメラを使用してロボットコントローラーにします.*"
+msgstr "*Androidスマホの組み込みカメラを使用してロボットコントローラーにします.*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:46
 msgid ""
@@ -139,10 +139,7 @@ msgid ""
 " open the Chrome browser.  Go to the REV Control Hub's address "
 "``http://192.168.43.1:8080`` (or ``http://192.168.49.1:8080`` for Android RC"
 " phone) and click the *Blocks* tab."
-msgstr ""
-"ロボットコントローラに無線LANで接続されたノートパソコンやデスクトップコンピュータで、Chrome ブラウザを開きます。REV Control "
-"Hubのアドレス ``http://192.168.43.1:8080``（Android RC電話の場合は "
-"``http://192.168.49.1:8080``）に移動し、「ブロック」タブをクリックします。"
+msgstr "ロボットコントローラに無線LANで接続されたノートパソコンやデスクトップコンピュータで、Chrome ブラウザを開きます。REV Control Hubのアドレス ``http://192.168.43.1:8080``（Android RCスマホの場合は ``http://192.168.49.1:8080``）に移動し、「ブロック」タブをクリックします。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:74
 msgid ""
@@ -165,9 +162,7 @@ msgstr ""
 msgid ""
 "If using the built-in camera of an RC phone, drag out the relevant Block "
 "from the left-side ``VisionPortal.Builder`` toolbox."
-msgstr ""
-"もしRC電話の内蔵カメラを使用する場合、左側の ``VisionPortal.Builder`` "
-"ツールボックスから関連するブロックをドラッグアウトしてください。"
+msgstr "もしRCスマホの内蔵カメラを使用する場合、左側の ``VisionPortal.Builder`` ツールボックスから関連するブロックをドラッグアウトしてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:84
 msgid "Save the OpMode, time to try it!"
@@ -203,7 +198,7 @@ msgstr ""
 msgid ""
 "If using the built-in camera of an RC phone, follow the OpMode comments to "
 "specify that camera."
-msgstr "もしRC電話の内蔵カメラを使用する場合、OpMode コメントに該当カメラを指定してください。"
+msgstr "もしRCスマホの内蔵カメラを使用する場合、OpMode コメントに該当カメラを指定してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:102
 msgid "Click \"Build\", time to try it!"
@@ -324,8 +319,7 @@ msgstr "ロボットカントリービューア"
 msgid ""
 "The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
 "This is full video, and is shown automatically on the screen of an RC phone."
-msgstr ""
-"ロボットコントローラ（RC）デバイスでは、プレビュー機能として「LiveView」と呼ばれるものも作成します。これはフルビデオで、自動的にRC電話の画面に表示されます。"
+msgstr "ロボットコントローラ（RC）デバイスでは、プレビュー機能として「LiveView」と呼ばれるものも作成します。これはフルビデオで、自動的にRCスマホの画面に表示されます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:174
 msgid "Control Hub LiveView"

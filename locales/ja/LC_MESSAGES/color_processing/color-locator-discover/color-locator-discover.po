@@ -102,7 +102,7 @@ msgstr "*アクティブなロボット構成にはすでに「Webcam 1」が含
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:45
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
-msgstr "*Android電話の組み込みカメラを使用してロボットコントローラーにします.*"
+msgstr "*Androidスマホの組み込みカメラを使用してロボットコントローラーにします.*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:47
 msgid ""
@@ -150,10 +150,7 @@ msgid ""
 " open the Chrome browser.  Go to the REV Control Hub's address "
 "http://192.168.43.1:8080 (or http://192.168.49.1:8080 for Android RC phone) "
 "and click the Blocks tab."
-msgstr ""
-"ロボットコントローラーに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control "
-"Hubのアドレス http://192.168.43.1:8080（またはAndroid "
-"RC電話の場合、http://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
+msgstr "ロボットコントローラーに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control Hubのアドレス http://192.168.43.1:8080（またはAndroid RCスマホの場合、http://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:76
 msgid ""
@@ -180,9 +177,7 @@ msgstr ""
 msgid ""
 "If using the built-in camera of an RC phone, drag out the relevant Block "
 "from the left-side ``VisionPortal.Builder`` toolbox."
-msgstr ""
-"もしRC電話の内蔵カメラを使用する場合、左側の ``VisionPortal.Builder`` "
-"ツールボックスから関連するブロックをドラッグアウトしてください。"
+msgstr "もしRCスマホの内蔵カメラを使用する場合、左側の ``VisionPortal.Builder`` ツールボックスから関連するブロックをドラッグアウトしてください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:88
 msgid "Save the OpMode, time to try it!"
@@ -217,7 +212,7 @@ msgstr ""
 msgid ""
 "If using the built-in camera of an RC phone, follow the OpMode comments to "
 "specify that camera."
-msgstr "RC電話の組み込みカメラを使用する場合、OpModeのコメントに該当するカメラを指定します。"
+msgstr "RCスマホの組み込みカメラを使用する場合、OpModeのコメントに該当するカメラを指定します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:107
 msgid "Click \"Build\", time to try it!"
@@ -328,8 +323,7 @@ msgstr "RCプレビュー"
 msgid ""
 "The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
 "This is full video, and is shown automatically on the screen of an RC phone."
-msgstr ""
-"ロボットコントローラ（RC）デバイスでもプレビューを生成し、「LiveView」と呼びます。これはフルビデオで、自動的にRC電話の画面に表示されます。"
+msgstr "ロボットコントローラ（RC）デバイスでもプレビューを生成し、「LiveView」と呼びます。これはフルビデオで、自動的にRCスマホの画面に表示されます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:179
 msgid "Image of a LiveView stream"

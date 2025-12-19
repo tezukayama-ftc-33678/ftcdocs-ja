@@ -108,9 +108,7 @@ msgstr "接続されたドライバーステーション(DS)アプリ"
 msgid ""
 "connected computer’s Chrome browser, at ``http://192.168.43.1:8080`` "
 "(Control Hub) or ``http://192.168.49.1:8080`` (RC phone)"
-msgstr ""
-"接続済みのコンピュータのChromeブラウザで、制御ハブは ``http://192.168.43.1:8080`` またはRC電話は "
-"``http://192.168.49.1:8080``"
+msgstr "接続済みのコンピュータのChromeブラウザで、制御ハブは ``http://192.168.43.1:8080`` またはRCスマホは ``http://192.168.49.1:8080``"
 
 #: ../../source/programming_resources/imu/imu.rst:40
 msgid "REV Hardware Client (when Hub LED is green)"
