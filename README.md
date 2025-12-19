@@ -22,11 +22,6 @@
 公式ウェブサイト（英語原文）：
 https://ftc-docs.firstinspires.org
 
-### 📖 Read the Docsでの公開について
-
-このドキュメントをRead the Docsで公開する手順については、**[PUBLISHING.md](PUBLISHING.md)** をご覧ください。
-
-ライセンスと著作権については、**[LICENSE-JA.md](LICENSE-JA.md)** をご確認ください。
 
 ---
 
