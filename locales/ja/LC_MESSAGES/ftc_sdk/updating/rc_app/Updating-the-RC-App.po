@@ -159,8 +159,7 @@ msgid ""
 "where such an independent update is supported - i.e. Blocks or OnBot Java "
 "development. Expand the following instructions that apply to your Robot "
 "Controller hardware:"
-msgstr ""
-"これらの指示は、独立してRCアプリケーションを更新する機能がサポートされている場合（ブロックスまたはオンボットJava開発など）に使用します。以下の指示は、あなたのロボットコントローラーのハードウェアに応じて展開してください："
+msgstr "これらの指示は、独立してRCアプリケーションを更新する機能がサポートされている場合（ブロックスまたはOnBot Java開発など）に使用します。以下の指示は、あなたのロボットコントローラーのハードウェアに応じて展開してください："
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 msgid "Robot Controller (RC) app on REV Control Hub"
