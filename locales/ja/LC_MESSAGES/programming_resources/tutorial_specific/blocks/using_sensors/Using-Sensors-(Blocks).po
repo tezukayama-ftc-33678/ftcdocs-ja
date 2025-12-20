@@ -182,10 +182,7 @@ msgid ""
 " to a Control Hub or Expansion Hub digital port, the Touch Sensor is wired "
 "to the second of the two digital pins within the port. The first digital pin"
 " of the 4-wire cable remains disconnected."
-msgstr ""
-"制御ハブまたは拡張ハブのデジタルポートは、1つのポートに2本のデジタルピンを含みます。4ワイヤーJSTケーブルを使用してREV Robotics "
-"Touchセンサーを制御ハブまたは拡張ハブのデジタルポートに接続する場合、Touchセンサーはポート内の2番目のデジタルピンに接続されます。4ワイヤーケーブルの1本目のデジタルピンは、"
-" disconnect されます。"
+msgstr "Control HubまたはExpansion Hubのデジタルポートは、1つのポートに2本のデジタルピンを含みます。4ワイヤーJSTケーブルを使用してREV Robotics TouchセンサーをControl HubまたはExpansion Hubのデジタルポートに接続する場合、Touchセンサーはポート内の2番目のデジタルピンに接続されます。4ワイヤーケーブルの1本目のデジタルピンは、 disconnect されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:123
 msgid ""
@@ -193,8 +190,7 @@ msgid ""
 "the Control Hub or Expansion Hub, the Touch Sensor will be connected to the "
 "second pin (labeled \"1\") of the port. The first pin (labeled \"0\") will "
 "stay disconnected."
-msgstr ""
-"例えば、タッチセンサーを制御ハブまたは拡張ハブの「0,1」デジタルポートに接続すると、タッチセンサーはポートの2番目のピン（「1」とラベル付けされたピン）に接続されます。1番目のピン（「0」とラベル付けされたピン）は無接続のままになります。"
+msgstr "例えば、タッチセンサーをControl HubまたはExpansion Hubの「0,1」デジタルポートに接続すると、タッチセンサーはポートの2番目のピン（「1」とラベル付けされたピン）に接続されます。1番目のピン（「0」とラベル付けされたピン）は無接続のままになります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:131
 msgid ""

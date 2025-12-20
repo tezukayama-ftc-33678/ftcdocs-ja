@@ -790,11 +790,11 @@ msgid ""
 "System Introduction page which talk about possible configurations of the "
 "Expansion Hub. In this case the long description is basically a listing of "
 "the devices connected to the Expansion Hub."
-msgstr "代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これは拡張ハブとスマホの例であり、制御システム入門ページで述べた拡張ハブの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
+msgstr "代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これはExpansion Hubとスマホの例であり、制御システム入門ページで述べたExpansion Hubの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst
 msgid "Rev expansion hub with various devices connected."
-msgstr "REV拡張ハブに Various Devices が接続されています。"
+msgstr "REVExpansion Hubに Various Devices が接続されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:365
 msgid "Expansion Hub and Phone"
@@ -802,7 +802,7 @@ msgstr "Expansion Hub と フォン"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:367
 msgid "The Expansion Hub has the following devices connected."
-msgstr "拡張ハブには次のデバイスが接続されています。"
+msgstr "Expansion Hubには次のデバイスが接続されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:369
 msgid "a Robot Controller phone via a USB connection;"
@@ -829,9 +829,7 @@ msgid ""
 "Two motors are connected to the Expansion hub. Each motor has a power "
 "connection and an encoder connection. There are four motor ports on the "
 "Expansion Hub."
-msgstr ""
-"拡張ハブに2つのモータが接続されています。各モーターには電力コネクションとエンコーダー "
-"コネクションがあります。拡張ハブには4つのモーターポートがあります。"
+msgstr "Expansion Hubに2つのモータが接続されています。各モーターには電力コネクションとエンコーダー コネクションがあります。Expansion Hubには4つのモーターポートがあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:376
 msgid ""

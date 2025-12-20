@@ -222,18 +222,18 @@ msgstr "RHC アプリはコントロールハブを認識し、以下のよう�
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:104
 msgid "Recognizing the Control Hub"
-msgstr "制御ハブの認識"
+msgstr "Control Hubの認識"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:106
 msgid ""
 "Once recognized, click on the Control Hub’s large icon/rectangle. The RHC "
 "app now displays the update status of the RC app, if any."
-msgstr "認識次第、制御ハブの大型アイコン/長方形をクリックしてください。RHC アプリでは、RC アプリの更新状況が表示されます。"
+msgstr "認識次第、Control Hubの大型アイコン/長方形をクリックしてください。RHC アプリでは、RC アプリの更新状況が表示されます。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:114
 msgid "Updating the Control Hub"
-msgstr "制御ハブの更新"
+msgstr "Control Hubの更新"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:116
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:271
@@ -295,7 +295,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:150
 msgid "Turn on the Control Hub (apply robot power), wait for green LED."
-msgstr "制御ハブをオンにし（ロボット電源を供給します）、緑色のLEDが点灯するまで待ちます。"
+msgstr "Control Hubをオンにし（ロボット電源を供給します）、緑色のLEDが点灯するまで待ちます。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:152
 msgid ""
@@ -350,10 +350,7 @@ msgid ""
 "This method can be used if your computer is unavailable or unable to connect"
 " via Wi-Fi to the Control Hub. For example, your desktop computer might have"
 " only a wired (Ethernet) network port, lacking Wi-Fi."
-msgstr ""
-"このメソッドは、コンピュータが利用不可或者いなWi-"
-"Fi経由で制御ハブに接続できない場合に使用できます。例えば、デスクトップコンピュータは有線（エチケット）ネットワークポートしか持たず、Wi-"
-"Fiがない場合があります。"
+msgstr "このメソッドは、コンピュータが利用不可或者いなWi-Fi経由でControl Hubに接続できない場合に使用できます。例えば、デスクトップコンピュータは有線（エチケット）ネットワークポートしか持たず、Wi-Fiがない場合があります。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:181
 msgid ""

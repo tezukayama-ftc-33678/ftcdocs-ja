@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:2
 msgid "Configuring an External Webcam with a Control Hub"
-msgstr "外部ウェブカメラの制御ハブとの設定"
+msgstr "外部ウェブカメラのControl Hubとの設定"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:5
 msgid "Introduction"
@@ -274,15 +274,7 @@ msgid ""
 "hardware-client/gs/install>`__. Once connected, use `these instructions "
 "<https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__ to "
 "install and run scrcpy on your computer."
-msgstr ""
-"FIRSTモードが実行中である場合、コンピュータからカメラ出力を確認するには、`scrcpy "
-"<https://github.com/Genymobile/scrcpy>`__ "
-"を使用できます。これを行うためには、まず制御ハブとADB接続を取得する必要があります。これを行うには、USB-A to USB-"
-"Cケーブルで制御ハブのUSB-Cポートに接続します。Windowsの場合、制御ハブのWiFiネットワークに接続し、`REV Hardware "
-"Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__ "
-"を開くこともできます。接続が完了したら、`これらの手順 "
-"<https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__ "
-"を使用してコンピュータ上でscrcpyをインストールし、実行します。"
+msgstr "FIRSTモードが実行中である場合、コンピュータからカメラ出力を確認するには、`scrcpy <https://github.com/Genymobile/scrcpy>`__ を使用できます。これを行うためには、まずControl HubとADB接続を取得する必要があります。これを行うには、USB-A to USB-CケーブルでControl HubのUSB-Cポートに接続します。Windowsの場合、Control HubのWiFiネットワークに接続し、`REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/gs/install>`__ を開くこともできます。接続が完了したら、`これらの手順 <https://github.com/Genymobile/scrcpy?tab=readme-ov-file#get-the-app>`__ を使用してコンピュータ上でscrcpyをインストールし、実行します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
 msgid "Screen shot showing the camera output viewed with scrcpy."
@@ -304,21 +296,20 @@ msgstr "外部HDMIモニター"
 msgid ""
 "Alternatively, camera output can be viewed on a display monitor or other "
 "device plugged into the HDMI port on the REV Control Hub."
-msgstr "あるいは、カメラ出力はREV制御ハブのHDMIポートに接続されたディスプレイモニターやその他のデバイスで確認できます。"
+msgstr "あるいは、カメラ出力はREVControl HubのHDMIポートに接続されたディスプレイモニターやその他のデバイスで確認できます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
 msgid ""
 "Photo showing an external HDMI monitor displaying the camera output from a "
 "connected control hub."
-msgstr "外部HDMIモニターに接続された制御ハブからのカメラ出力が表示されている写真。"
+msgstr "外部HDMIモニターに接続されたControl Hubからのカメラ出力が表示されている写真。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:167
 msgid ""
 "While a portable display monitor can be used to view or troubleshoot the "
 "camera stream on your Control Hub, teams are not allowed to have a portable "
 "display monitor connected to their Control Hub during a match."
-msgstr ""
-"持ち込みディスプレイモニターは、制御ハブでカメラストリームを表示またはトラブルシューティングするのに使用できますが、試合中にはチームは制御ハブに持ち込みディスプレイモニターを接続してはできません。"
+msgstr "持ち込みディスプレイモニターは、Control Hubでカメラストリームを表示またはトラブルシューティングするのに使用できますが、試合中にはチームはControl Hubに持ち込みディスプレイモニターを接続してはできません。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:173
 msgid "Advanced Users"
@@ -356,11 +347,7 @@ msgid ""
 "able to look forward and/or behind without having to spin the robot. In "
 "order to use two webcams on the Control Hub's USB 3.0 port you can add a USB"
 " Hub. This avoid the ESD issue with devices on the USB 2.0 port."
-msgstr ""
-"あなたはすでに、制御ハブのUSB "
-"3.0ポートにUVCウェブカメラを接続できます。しかし、2つ以上のウェブカメラを使用したい場合どうしますか？たとえば、ロボットが前方や後方を見るために回転することなく両方を見たい場合があります。Control"
-" HubのUSB 3.0ポートで2つのウェブカメラを使用するには、USBハブを追加できます。これにより、USB "
-"2.0ポート上のデバイスでのESD問題を避けることができます。"
+msgstr "あなたはすでに、Control HubのUSB 3.0ポートにUVCウェブカメラを接続できます。しかし、2つ以上のウェブカメラを使用したい場合どうしますか？たとえば、ロボットが前方や後方を見るために回転することなく両方を見たい場合があります。Control HubのUSB 3.0ポートで2つのウェブカメラを使用するには、USBハブを追加できます。これにより、USB 2.0ポート上のデバイスでのESD問題を避けることができます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:192
 msgid ""

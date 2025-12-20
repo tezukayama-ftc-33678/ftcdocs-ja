@@ -74,9 +74,7 @@ msgid ""
 "The REV Robotics Touch Sensor can be connected to a digital port on the "
 "Control Hub or Expansion Hub. The Touch Sensor is HIGH (returns TRUE) when "
 "it is not pressed. It is pulled LOW (returns FALSE) when it is pressed."
-msgstr ""
-"REV "
-"Roboticsのタッチセンサーは、制御ハブまたは拡張ハブのデジタルポートに接続できます。タッチセンサーが押されていないときはHIGH状態（TRUEを返します）。押されたときはLOW状態（FALSEを返します）になります。"
+msgstr "REV Roboticsのタッチセンサーは、Control HubまたはExpansion Hubのデジタルポートに接続できます。タッチセンサーが押されていないときはHIGH状態（TRUEを返します）。押されたときはLOW状態（FALSEを返します）になります。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst:50
 msgid ""
@@ -85,10 +83,7 @@ msgid ""
 " to a Control Hub or Expansion Hub digital port, the Touch Sensor is wired "
 "to the second of the two digital pins within the port. The first digital pin"
 " of the 4-wire cable remains disconnected."
-msgstr ""
-"制御ハブまたは拡張ハブのデジタルポートには、1つのポートにつき2本のデジタルピンが含まれています。4ワイヤJSTケーブルを使用してREV "
-"Robotics Touchセンサーを制御ハブまたは拡張ハブのデジタルポートに接続する場合、Touchセンサーはポート内の2本目のデジタルピンに "
-"Wiring されます。4ワイヤケーブルの1つ目のデジタルピンは接続されません。"
+msgstr "Control HubまたはExpansion Hubのデジタルポートには、1つのポートにつき2本のデジタルピンが含まれています。4ワイヤJSTケーブルを使用してREV Robotics TouchセンサーをControl HubまたはExpansion Hubのデジタルポートに接続する場合、Touchセンサーはポート内の2本目のデジタルピンに Wiring されます。4ワイヤケーブルの1つ目のデジタルピンは接続されません。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst:56
 msgid ""
@@ -96,8 +91,7 @@ msgid ""
 "the Control Hub or Expansion Hub, the Touch Sensor will be connected to the "
 "second pin (labeled \"1\") of the port. The first pin (labeled \"0\") will "
 "stay disconnected."
-msgstr ""
-"例えば、タッチセンサを制御ハブまたは拡張ハブの「0,1」デジタルポートに接続すると、タッチセンサはポートの二番目のピン（「1」とラベル付けされたピン）に接続されます。一方、一番目のピン（「0」とラベル付けされたピン）は無接続のままになります。"
+msgstr "例えば、タッチセンサをControl HubまたはExpansion Hubの「0,1」デジタルポートに接続すると、タッチセンサはポートの二番目のピン（「1」とラベル付けされたピン）に接続されます。一方、一番目のピン（「0」とラベル付けされたピン）は無接続のままになります。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst:61
 msgid ""

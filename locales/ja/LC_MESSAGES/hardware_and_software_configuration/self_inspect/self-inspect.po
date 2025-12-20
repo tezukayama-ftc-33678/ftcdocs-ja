@@ -594,8 +594,7 @@ msgid ""
 "shows one Expansion Hub, but two can be listed here. A check-mark indicates "
 "all firmware is up-to-date based on the current version of the RC app. This "
 "item shows “N/A” if no Hubs are connected."
-msgstr ""
-"アイテム5には拡張ハブのアドレスとファームウェアレベルが記載されています。この例では1つの拡張ハブを示していますが、ここに2つ記載することも可能です。チェックマークは、現在のRCアプリケーションのバージョンに基づいてすべてのファームウェアが最新であることを示します。接続されていないハブがある場合は、「N/A」が表示されます。"
+msgstr "アイテム5にはExpansion Hubのアドレスとファームウェアレベルが記載されています。この例では1つのExpansion Hubを示していますが、ここに2つ記載することも可能です。チェックマークは、現在のRCアプリケーションのバージョンに基づいてすべてのファームウェアが最新であることを示します。接続されていないハブがある場合は、「N/A」が表示されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:321
 msgid ""
@@ -604,7 +603,7 @@ msgid ""
 "than the factory default (“password”). Although aimed only at the Control "
 "Hub, this item does appear on RC phones (as here) which don’t have a default"
 " password and thus always get the check-mark."
-msgstr "アイテム10 ``RC Password`` はRC自検査にのみ表示され、DS自検査には表示されません。これは、FTCの制御ハブ用のパスワード（ファクトリーデフォルトとは異なる「password」というパスワード）がチェックされることを確認します。この項目は、デフォルトパスワードがないRC端末（ここではRCスマホ）にも表示されます。"
+msgstr "アイテム10 ``RC Password`` はRC自検査にのみ表示され、DS自検査には表示されません。これは、FTCのControl Hub用のパスワード（ファクトリーデフォルトとは異なる「password」というパスワード）がチェックされることを確認します。この項目は、デフォルトパスワードがないRC端末（ここではRCスマホ）にも表示されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:327
 msgid ""
@@ -721,7 +720,7 @@ msgstr "Item 14は、このRC Self InspectのRCスマホの表示には表示さ
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:408
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:418
 msgid "RC Self Inspect 5, appearing on DS phone paired to Control Hub"
-msgstr "REV 自己点検 5、制御ハブにペアリングされたドライバーステーションのスマホで表示"
+msgstr "REV 自己点検 5、Control Hubにペアリングされたドライバーステーションのスマホで表示"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:410
 msgid ""
@@ -741,14 +740,13 @@ msgid ""
 " choice, to disconnect the Wi-Fi Direct. But the Control Hub hosts with "
 "Standard Wi-Fi, not with Wi-Fi Direct. In any case, the connection cannot be"
 " managed as an RC action, from a DS phone using that same connection."
-msgstr "ヘッダーから再度、3点メニューやが欠如しています。このメニューはWi-Fi Directとの接続を切断する唯一の選択肢を提供していましたが、制御ハブは標準的なWi-Fiを使用しており、Wi-Fi Directではありません。いずれにせよ、その同じ接続を使用してRCアクションからDSスマホで接続を管理することはできません。"
+msgstr "ヘッダーから再度、3点メニューやが欠如しています。このメニューはWi-Fi Directとの接続を切断する唯一の選択肢を提供していましたが、Control Hubは標準的なWi-Fiを使用しており、Wi-Fi Directではありません。いずれにせよ、その同じ接続を使用してRCアクションからDSスマホで接続を管理することはできません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:425
 msgid ""
 "Item 3 appears only on RC Self Inspect screens for Control Hub. It verifies "
 "the Operating System is up-to-date for the current version of the RC app."
-msgstr ""
-"アイテム3は制御ハブのRC自検画面にのみ表示されます。この項目は、RCアプリの現在のバージョン用にオペレーティングシステムが最新であることを確認します。"
+msgstr "アイテム3はControl HubのRC自検画面にのみ表示されます。この項目は、RCアプリの現在のバージョン用にオペレーティングシステムが最新であることを確認します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:428
 msgid ""
@@ -760,8 +758,7 @@ msgstr ""
 msgid ""
 "Item 5 shows the firmware version of the Expansion Hub embedded in the "
 "Control Hub; it’s up-to-date for the current version of the RC app."
-msgstr ""
-"アイテム5には、コントロールハブに組み込まれた拡張ハブのファームウェアバージョンが表示されており、現在のRCアプリケーションのバージョンに対応しています。"
+msgstr "アイテム5には、コントロールハブに組み込まれたExpansion Hubのファームウェアバージョンが表示されており、現在のRCアプリケーションのバージョンに対応しています。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:433
 msgid ""

@@ -94,8 +94,7 @@ msgid ""
 " changed the Control Hub's name yet, then by default the  wireless network's"
 " name will begin with \"FTC-\".  If you haven't changed its password yet, "
 "then by default the wireless network's passphrase will be \"password\"."
-msgstr ""
-"もし制御ハブを使用している場合、無線ネットワーク名は制御ハブの設定時に指定した内容になります。まだ制御ハブの名前を変更していない場合は、デフォルトでは無線ネットワークの名前は「FTC-」で始まります。また、まだパスワードを変更していない場合、デフォルトでは無線ネットワークのパスフレーズは「password」になります。"
+msgstr "もしControl Hubを使用している場合、無線ネットワーク名はControl Hubの設定時に指定した内容になります。まだControl Hubの名前を変更していない場合は、デフォルトでは無線ネットワークの名前は「FTC-」で始まります。また、まだパスワードを変更していない場合、デフォルトでは無線ネットワークのパスフレーズは「password」になります。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:56
 msgid ""

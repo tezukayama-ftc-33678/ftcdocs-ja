@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:15
 msgid "Control Hub Configuration"
-msgstr "制御ハブの設定"
+msgstr "Control Hubの設定"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:18
 msgid ""
@@ -88,7 +88,7 @@ msgstr "携帯スマホを飛行機モードに切り替える（無線LANはオ
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:28
 msgid "Pair (i.e., wirelessly connect) the DRIVER STATION to the Control Hub."
-msgstr "DRIVER STATION を制御ハブに無線で接続してください。"
+msgstr "DRIVER STATION をControl Hubに無線で接続してください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:35
 msgid ""
@@ -608,7 +608,7 @@ msgstr "ドライバーステーションとロボットコントローラのペ
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:266
 msgid "Control Hub Pairing"
-msgstr "制御ハブペアリング"
+msgstr "Control Hubペアリング"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:268
 msgid ""
@@ -628,8 +628,7 @@ msgid ""
 "the Control Hub does not have its own internal battery. Before you can "
 "connect a Driver Station to the Control Hub, you must connect the Control "
 "Hub to a 12V battery."
-msgstr ""
-"制御ハブには内部バッテリーがありません。ドライバー・ステーションを制御ハブに接続する前に、制御ハブに12Vのバッテリーを接続する必要があります。"
+msgstr "Control Hubには内部バッテリーがありません。ドライバー・ステーションをControl Hubに接続する前に、Control Hubに12Vのバッテリーを接続する必要があります。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:283
 msgid ""
@@ -694,8 +693,7 @@ msgid ""
 "sure the switch is in the off position. Connect the switch to an XT30 port "
 "on the Control Hub and turn the switch on. The LED should initially be blue "
 "on the Control Hub."
-msgstr ""
-"承認された12Vバッテリーを電源スイッチ（REV-31-1387）に接続し、スイッチがオフの位置にあることを確認してください。スイッチを制御ハブのXT30ポートに接続し、スイッチをオンにします。制御ハブのLEDは最初青色で点灯するはずです。"
+msgstr "承認された12Vバッテリーを電源スイッチ（REV-31-1387）に接続し、スイッチがオフの位置にあることを確認してください。スイッチをControl HubのXT30ポートに接続し、スイッチをオンにします。Control HubのLEDは最初青色で点灯するはずです。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:311
 msgid "|pairing1|"
@@ -807,9 +805,7 @@ msgid ""
 "default network name should begin with the prefix FTC- (FTC-1Ybr in this "
 "example). The default network name should be listed on a sticker attached to"
 " the bottom side of the Control Hub."
-msgstr ""
-"制御ハブの無線ネットワーク名を、利用可能なWiFiネットワークの一覧から探していただきます。ネットワーク名をクリックしてネットワークを選択してください。これが初めて制御ハブに接続する場合、デフォルトのネットワーク名は"
-" FTC-（この例では FTC-1Ybr）で始まるはずです。デフォルトのネットワーク名は、制御ハブの底面に貼付けてあるラベルに記載されています。"
+msgstr "Control Hubの無線ネットワーク名を、利用可能なWiFiネットワークの一覧から探していただきます。ネットワーク名をクリックしてネットワークを選択してください。これが初めてControl Hubに接続する場合、デフォルトのネットワーク名は FTC-（この例では FTC-1Ybr）で始まるはずです。デフォルトのネットワーク名は、Control Hubの底面に貼付けてあるラベルに記載されています。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:338
 msgid "|pairing10|"
@@ -854,10 +850,7 @@ msgid ""
 "that it is connected to the Control Hub. The name of the Control Hub's WiFi "
 "network (FTC-1Ybr in this example) should be displayed in the Network field "
 "on the Driver Station."
-msgstr ""
-"DRIVER "
-"STATIONの画面が変更されたことを確認し、制御ハブに接続されていることを示していることを確認してください。この例ではFTC-1Ybrという名前の制御ハブの無線LANネットワーク名は、DRIVER"
-" STATIONのNetworkフィールドで表示されるべきです。"
+msgstr "DRIVER STATIONの画面が変更されたことを確認し、Control Hubに接続されていることを示していることを確認してください。この例ではFTC-1Ybrという名前のControl Hubの無線LANネットワーク名は、DRIVER STATIONのNetworkフィールドで表示されるべきです。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:347
 msgid "|pairing13|"
@@ -878,13 +871,7 @@ msgid ""
 "forgotten this network, then the DRIVER STATION might try and connect to the"
 " Control Hub and might be unable to connect to the Robot Controller "
 "smartphone."
-msgstr ""
-"もし、DRIVER STATION "
-"が以前に制御ハブとペアリングされていた場合で、現在Androidスマートフォンのロボットコントローラーとの接続をしたい場合は、まずRobot "
-"Controllerへのペアリング前に、DRIVER STATION のAndroid Wi-Fi設定画面を使用して、過去の制御ハブ用のWi-"
-"Fiネットワークを忘却し、その後DRIVER STATION "
-"フォンを再起動する必要があります。過去の制御ハブが電源ON状態で、かつこのネットワークを忘却していない場合、DRIVER STATION "
-"は制御ハブに接続しようと試み、ロボットコントローラーのスマートフォンに接続できない可能性があります。"
+msgstr "もし、DRIVER STATION が以前にControl Hubとペアリングされていた場合で、現在Androidスマートフォンのロボットコントローラーとの接続をしたい場合は、まずRobot Controllerへのペアリング前に、DRIVER STATION のAndroid Wi-Fi設定画面を使用して、過去のControl Hub用のWi-Fiネットワークを忘却し、その後DRIVER STATION フォンを再起動する必要があります。過去のControl Hubが電源ON状態で、かつこのネットワークを忘却していない場合、DRIVER STATION はControl Hubに接続しようと試み、ロボットコントローラーのスマートフォンに接続できない可能性があります。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:364
 msgid ""

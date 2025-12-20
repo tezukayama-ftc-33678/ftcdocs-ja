@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:2
 msgid "Control Hub Ports"
-msgstr "制御ハブポート"
+msgstr "Control Hubポート"
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:8
 msgid "REV Control Hub"
@@ -101,10 +101,7 @@ msgid ""
 "power more motors. For more information on this port please see `REV Motor "
 "Port Documentation <https://docs.revrobotics.com/duo-control/control-system-"
 "overview/control-hub-basics#motor-port-specifications>`_."
-msgstr ""
-"これらの`JST-VH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-vh-motor-power>`_ スタイルのコネクタは、モーターを駆動するために使用されます。1つのハブにつき4つのポートがあり、これらのポートは0から3までの番号が付けられています。ロボットで8基のモーターを使用できるため、これらのハブだけでは制御できないモーター数があるかもしれません。その場合、追加の`拡張ハブ <https://reference.firstinspires.org/docs/articles/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs#using-two-expansion-hubs>`_ を使用したり、`REV SPARKmini モーター制御器 <https://www.revrobotics.com/rev-31-1230/>`_(REV-31-1230) を使用して更多的モーターを駆動することができます。このポートに関する詳細については、「REV モーター端子ドキュメンテーション」<https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#motor-port-specifications>`_ を参照してください。\n"
-"\n"
-"（注意：英語の原文に含まれるRST/Sphinx markupはそのまま保持しています。追加の拡張ハブに関するリンクは、日本語版のFIRST Tech Challengeドキュメンテーションにおける正しいリンクを使用する必要があります。また、`REV SPARKmini モーター制御器 <https://www.revrobotics.com/rev-31-1230/>`_ のリンクも同様に日本語版の公式サイトへのリンクに置き換える必要があります。）"
+msgstr "これらの`JST-VH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-vh-motor-power>`_ スタイルのコネクタは、モーターを駆動するために使用されます。1つのハブにつき4つのポートがあり、これらのポートは0から3までの番号が付けられています。ロボットで8基のモーターを使用できるため、これらのハブだけでは制御できないモーター数があるかもしれません。その場合、追加の`Expansion Hub <https://reference.firstinspires.org/docs/articles/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs#using-two-expansion-hubs>`_ を使用したり、`REV SPARKmini モーター制御器 <https://www.revrobotics.com/rev-31-1230/>`_(REV-31-1230) を使用して更多的モーターを駆動することができます。このポートに関する詳細については、「REV モーター端子ドキュメンテーション」<https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#motor-port-specifications>`_ を参照してください。\n\n（注意：英語の原文に含まれるRST/Sphinx markupはそのまま保持しています。追加のExpansion Hubに関するリンクは、日本語版のFIRST Tech Challengeドキュメンテーションにおける正しいリンクを使用する必要があります。また、`REV SPARKmini モーター制御器 <https://www.revrobotics.com/rev-31-1230/>`_ のリンクも同様に日本語版の公式サイトへのリンクに置き換える必要があります。）"
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:36
 msgid "Encoder Ports"
@@ -296,7 +293,7 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:17
 msgid "Control Hub Front Ports"
-msgstr "制御ハブ前面ポート"
+msgstr "Control Hub前面ポート"
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:20
 msgid "USB Ports"

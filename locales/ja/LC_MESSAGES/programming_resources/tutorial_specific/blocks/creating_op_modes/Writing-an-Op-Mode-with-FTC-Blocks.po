@@ -78,7 +78,7 @@ msgstr ""
 msgid ""
 "Note that the process used to create and edit an op mode is identical if you"
 " are using a Control Hub as your Robot Controller."
-msgstr "制御ハブを使用してロボットコントローラーとしている場合、OpModeを作成または編集するプロセスは同じです。"
+msgstr "Control Hubを使用してロボットコントローラーとしている場合、OpModeを作成または編集するプロセスは同じです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:56
 msgid ""
@@ -144,9 +144,7 @@ msgid ""
 "Program & Manage server is \"192.168.43.1:8080\".  Notice the difference in "
 "the third octet of the IP addresses (the Control Hub has a \"43\" instead of"
 " a \"49\")."
-msgstr ""
-"もしロボットコントローラーが制御ハブである場合、プログラムと管理サーバーにアクセスするためのアドレスは \"192.168.43.1:8080\" "
-"です。IP アドレスの第三オクテットにおける違いに注意してください（制御ハブは \"43\" ではなく \"49\" を持っています）。"
+msgstr "もしロボットコントローラーがControl Hubである場合、プログラムと管理サーバーにアクセスするためのアドレスは \"192.168.43.1:8080\" です。IP アドレスの第三オクテットにおける違いに注意してください（Control Hubは \"43\" ではなく \"49\" を持っています）。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:99
 msgid ""

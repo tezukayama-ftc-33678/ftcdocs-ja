@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/exh-ports.rst:2
 msgid "Expansion Hub Ports"
-msgstr "拡張ハブポート"
+msgstr "Expansion Hubポート"
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/exh-ports.rst:8
 msgid "Expansion Hub"
-msgstr "拡張ハブ"
+msgstr "Expansion Hub"
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/exh-ports.rst:8
 msgid "REV Expansion Hub (REV-31-1153)"
@@ -102,15 +102,7 @@ msgid ""
 "power more motors. For more information on this port please see `REV Motor "
 "Port Documentation <https://docs.revrobotics.com/duo-control/control-system-"
 "overview/control-hub-basics#motor-port-specifications>`_."
-msgstr ""
-"これらの`JST-VH <https://docs.revrobotics.com/duo-control/control-system-"
-"overview/cables-and-connectors/jst-vh-motor-power>`_ "
-"スタイルのコネクタは、モーターを電源に接続するために使用されます。1つのハブには4つのポートがあり、番号は0から3までです。ロボットにつながれる8つのモーターを使用できるため、これらのハブで制御できる数を超える場合もあります。その場合、追加のハブ`:ref:`二つの拡張ハブを使用する<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
-"dual-hubs:using two expansion hubs>` または`REV SPARKmini モーターコントローラ "
-"<https://www.revrobotics.com/rev-31-1230/>`_ (REV-31-1230) "
-"を使用して、より多くのモーターを電源に接続することができます。このポートに関する詳細については、`REV モーターコネクタドキュメント "
-"<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
-"hub-basics#motor-port-specifications>_ を参照してください。"
+msgstr "これらの`JST-VH <https://docs.revrobotics.com/duo-control/control-system-overview/cables-and-connectors/jst-vh-motor-power>`_ スタイルのコネクタは、モーターを電源に接続するために使用されます。1つのハブには4つのポートがあり、番号は0から3までです。ロボットにつながれる8つのモーターを使用できるため、これらのハブで制御できる数を超える場合もあります。その場合、追加のハブ`:ref:`二つのExpansion Hubを使用する<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` または`REV SPARKmini モーターコントローラ <https://www.revrobotics.com/rev-31-1230/>`_ (REV-31-1230) を使用して、より多くのモーターを電源に接続することができます。このポートに関する詳細については、`REV モーターコネクタドキュメント <https://docs.revrobotics.com/duo-control/control-system-overview/control-hub-basics#motor-port-specifications>_ を参照してください。"
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/std-ports.rst:36
 msgid "Encoder Ports"
@@ -304,4 +296,4 @@ msgstr "USB-B ポート"
 msgid ""
 "An Android RC phone controls an Expansion Hub through this USB-mini-B port, "
 "connected with USB OTG cable. This port also allows firmware updates."
-msgstr "AndroidのRCスマホは、このUSB-mini-Bポート経由で拡張ハブを制御します。このポートでは、USB OTGケーブルを使用してファームウェア更新も可能です。"
+msgstr "AndroidのRCスマホは、このUSB-mini-Bポート経由でExpansion Hubを制御します。このポートでは、USB OTGケーブルを使用してファームウェア更新も可能です。"

@@ -52,12 +52,7 @@ msgid ""
 "information on the Control Hub or Android phone. The Android Developer "
 "website has a tutorial on how to save data from your app onto an Android "
 "device `here <https://developer.android.com/training/data-storage>`__"
-msgstr ""
-"REV Robotics制御ハブやREV "
-"Robotics拡張ハブを再起動した場合、PIDF係数の変更は保存されません。状態情報を保存したい場合は、OpModeを修改してControl "
-"HubまたはAndroid端末にステート情報を取り扱うことを検討してください。Android開発者ウェブサイトでは、アプリからデータをAndroidデバイスに保存する方法について"
-" `こちら <https://developer.android.com/training/data-storage>`__ "
-"のチュートリアルがあります。"
+msgstr "REV RoboticsControl HubやREV RoboticsExpansion Hubを再起動した場合、PIDF係数の変更は保存されません。状態情報を保存したい場合は、OpModeを修改してControl HubまたはAndroid端末にステート情報を取り扱うことを検討してください。Android開発者ウェブサイトでは、アプリからデータをAndroidデバイスに保存する方法について `こちら <https://developer.android.com/training/data-storage>`__ のチュートリアルがあります。"
 
 #: ../../source/programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:82
 msgid ""

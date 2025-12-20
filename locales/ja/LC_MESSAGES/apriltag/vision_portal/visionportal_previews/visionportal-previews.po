@@ -104,17 +104,17 @@ msgstr "「VIEWPORT」は停止時にプレビュー状態ウィンドウに表�
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:44
 msgid "LiveView on Control Hub"
-msgstr "制御ハブ上的ライブビュー"
+msgstr "Control Hub上的ライブビュー"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:46
 msgid ""
 "The Control Hub does generate an RC preview, despite not having a built-in "
 "screen. LiveView can be seen in two ways:"
-msgstr "制御ハブは、内蔵ディスプレイがないにもかかわらず、RCプレビューを生成します。LiveViewは次の2つの方法で確認できます："
+msgstr "Control Hubは、内蔵ディスプレイがないにもかかわらず、RCプレビューを生成します。LiveViewは次の2つの方法で確認できます："
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:49
 msgid "Plug an HDMI monitor into the Control Hub’s (full-size) HDMI port"
-msgstr "制御ハブのフルサイズHDMIポートにHDMIモニターを接続してください"
+msgstr "Control HubのフルサイズHDMIポートにHDMIモニターを接続してください"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:51
 msgid "Use ``scrcpy`` (pronounced “screen copy”), available here:"

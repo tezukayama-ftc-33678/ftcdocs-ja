@@ -49,7 +49,7 @@ msgstr "（写真はDan Donovan氏にご提供いただき、©2017 Dan Donovan 
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:23
 msgid "AUTO vs. TELEOP"
-msgstr "自動運転 vs. TELEOP操作"
+msgstr "AUTO vs. TELEOP"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:25
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:32
 msgid "Point-to-Point Control System"
-msgstr "ポイントツーポイント制御システム"
+msgstr "Point-to-Point制御システム"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:34
 msgid ""
@@ -87,7 +87,7 @@ msgstr ""
 " "
 "コントロールハブが統合されています。ロボットコントローラーはロボットの「脳」として機能します。ロボットのために考えをし、ロボットに何をするかを指示します。これはAndroidデバイスとRobot"
 " Controllerアプリケーションが動作する構成からなります。多くのチームでは、モーターやサーボ、センサーへの追加ポートを接続するためにREV "
-"Robotics エク(strpos)アンションハブも接続することもあります。"
+"Robotics Expansion Hubも接続することもあります。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:50
 msgid ""
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:60
 msgid "REV Robotics Control Hub and Expansion Hub"
-msgstr "REVロボティクス制御ハブおよび拡張ハブ"
+msgstr "REVロボティクスControl HubおよびExpansion Hub"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:62
 msgid ""
@@ -118,10 +118,7 @@ msgid ""
 "Control Hub, and communicates with the Expansion Hub through a serial "
 "connection. For the situation where an Android smartphone is used as the "
 "Robot Controller, a USB cable is used to establish the serial connection."
-msgstr ""
-"REV Robotics "
-"コントロールハブまたは拡張ハブは、ロボットコントローラーがロボットのモーター、サーボ、センサーと通信できる電子的な入出力（「I/O」）モジュールです。ロボットコントローラーはコントロールハブに統合されており、シリアル接続を介して拡張ハブと通信します。Android"
-" スマートフォンがロボットコントローラーとして使用される場合、USB ケーブルを使用してシリアル接続を確立します。"
+msgstr "REV Robotics コントロールハブまたはExpansion Hubは、ロボットコントローラーがロボットのモーター、サーボ、センサーと通信できる電子的な入出力（「I/O」）モジュールです。ロボットコントローラーはコントロールハブに統合されており、シリアル接続を介してExpansion Hubと通信します。Android スマートフォンがロボットコントローラーとして使用される場合、USB ケーブルを使用してシリアル接続を確立します。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:69
 msgid ""
@@ -129,8 +126,7 @@ msgid ""
 "is used to power the Control Hub, the Expansion Hub, the motors, the servos "
 "and sensors. If an Android smartphone is used as the Robot Controller, then "
 "the smartphone will have its own independent battery."
-msgstr ""
-"制御ハブと拡張ハブは、制御ハブ、拡張ハブ、モータ、サーボモーター、およびセンサーを駆動するための12Vバッテリーに接続されています。ロボットコントローラとしてAndroidスマートフォンを使用する場合、スマートフォンには独自の独立したバッテリーがあります。"
+msgstr "Control HubとExpansion Hubは、Control Hub、Expansion Hub、モータ、サーボモーター、およびセンサーを駆動するための12Vバッテリーに接続されています。ロボットコントローラとしてAndroidスマートフォンを使用する場合、スマートフォンには独自の独立したバッテリーがあります。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:80
 msgid "Android Smartphones"
@@ -169,7 +165,7 @@ msgid ""
 "score a game element (such as a ball) into a goal autonomously during a "
 "match. Teams write “OpModes” (which stand for “operational modes”) to "
 "specify the behavior for their robot."
-msgstr "一般的なFIRST Tech Challengeのマッチ中、各チームのロボットは得点のためにさまざまなタスクを実行する必要があります。例えば、チームはロボットに競技場の白線を追跡し、その後、マッチ中に自動制御でゴールにゲーム要素（ボールなど）をスコアリングしたいかもしれません。各チームは「OpModes」（「OpMode」という意味）を書くことで、ロボットの動作を指定します。"
+msgstr "一般的なFIRST Tech Challengeのマッチ中、各チームのロボットは得点のためにさまざまなタスクを実行する必要があります。例えば、チームはロボットに競技場の白線を追跡し、その後、マッチ中に自動制御でゴールにゲーム要素（ボールなど）をスコアリングしたいかもしれません。各チームは「OpModes」（「operational modes」という意味）を書くことで、ロボットの動作を指定します。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:110
 msgid ""

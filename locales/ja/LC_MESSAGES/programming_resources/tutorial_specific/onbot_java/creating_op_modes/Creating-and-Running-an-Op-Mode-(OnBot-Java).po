@@ -550,7 +550,7 @@ msgid ""
 "Let's modify your op mode to control the DC motor that you connected and "
 "configured for your REV Expansion Hub. Modify the code for the program loop "
 "so that it looks like the following:"
-msgstr "REV拡張ハブに接続し、設定したDCモーターの制御を行うOpModeを修改しましょう。プログラムループのコードを以下のように変更してください："
+msgstr "REVExpansion Hubに接続し、設定したDCモーターの制御を行うOpModeを修改しましょう。プログラムループのコードを以下のように変更してください："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:541
 msgid ""

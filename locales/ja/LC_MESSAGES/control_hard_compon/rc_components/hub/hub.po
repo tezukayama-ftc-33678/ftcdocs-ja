@@ -31,7 +31,7 @@ msgstr "REV Hubsは、 *FIRST* Tech Challengeロボットの核心的な制御�
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:7
 msgid "Control Hub"
-msgstr "制御ハブ"
+msgstr "Control Hub"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:19
 msgid "REV-31-1595"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:28
 msgid "Expansion Hub"
-msgstr "拡張ハブ"
+msgstr "Expansion Hub"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:40
 msgid "REV-31-1153"
@@ -78,11 +78,4 @@ msgid ""
 " via ``RS485`` or USB. More information can be found :ref:`here "
 "<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
 "dual-hubs:using two expansion hubs>`."
-msgstr ""
-"FIRST REV Expansion "
-"Hubは、ロボットのすべてのハードウェアコンポーネントを制御するために使用されるハブです。Androidデバイスから送られるコマンドを受け取り、実際にそれを実行します。モーターを動かしたい場合、Expansion"
-" Hubはモーターを動かす指示を受け取り、正しい方法でモーターに電力を供給します。しかし、 Expansion "
-"Hubはそのタイミングを知るわけではありません。これがAndroidデバイスが介入する場所です。このデバイスは、USB経由で接続される伝統的なAndroidスマートフォンや、制御ハブ内蔵のデバイスとして使用できます。複数のハブを使用する場合、これらのハブは``RS485``またはUSBを介して接続することができます。詳細情報については"
-" :ref:`こちら "
-"<hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-"
-"dual-hubs:using two expansion hubs>` を参照してください。"
+msgstr "FIRST REV Expansion Hubは、ロボットのすべてのハードウェアコンポーネントを制御するために使用されるハブです。Androidデバイスから送られるコマンドを受け取り、実際にそれを実行します。モーターを動かしたい場合、Expansion Hubはモーターを動かす指示を受け取り、正しい方法でモーターに電力を供給します。しかし、 Expansion Hubはそのタイミングを知るわけではありません。これがAndroidデバイスが介入する場所です。このデバイスは、USB経由で接続される伝統的なAndroidスマートフォンや、Control Hub内蔵のデバイスとして使用できます。複数のハブを使用する場合、これらのハブは``RS485``またはUSBを介して接続することができます。詳細情報については :ref:`こちら <hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs:using two expansion hubs>` を参照してください。"

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:2
 msgid "Managing a Control Hub"
-msgstr "制御ハブの管理"
+msgstr "Control Hubの管理"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:5
 msgid "Changing the Name"
@@ -62,12 +62,11 @@ msgid ""
 "Changing the name of a Control Hub changes the name of the Hub's wireless "
 "network. Once the name is changed, you will have to connect your devices "
 "(Driver Station and programming laptop) to the new network."
-msgstr ""
-"制御ハブの名前を変更すると、ハブの無線ネットワークの名前も変わります。名前が変更された後は、ドライバーステーションやプログラミングラップトップなどのデバイスを新しいネットワークに接続する必要があります。"
+msgstr "Control Hubの名前を変更すると、ハブの無線ネットワークの名前も変わります。名前が変更された後は、ドライバーステーションやプログラミングラップトップなどのデバイスを新しいネットワークに接続する必要があります。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:25
 msgid "Changing the Name of a Control Hub"
-msgstr "制御ハブの名前の変更"
+msgstr "Control Hubの名前の変更"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:27
 msgid ""
@@ -110,7 +109,7 @@ msgstr "ロボットコントローラ接続情報ページの上部にある「
 msgid ""
 "Change the name in the *Robot Controller Name* field and click on the "
 "*Change Name* button to change the Control Hub's name."
-msgstr "ロボットコントローラー名のフィールドに名前を変更し、「名称変更」ボタンをクリックして制御ハブの名前を変更します。"
+msgstr "ロボットコントローラー名のフィールドに名前を変更し、「名称変更」ボタンをクリックしてControl Hubの名前を変更します。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:52
 msgid ""
@@ -129,9 +128,7 @@ msgid ""
 "By default, the Control Hub has its password set to password at the factory."
 " It is a good idea to change the password from its default value before you "
 "begin using your Control Hub."
-msgstr ""
-"デフォルトでは、制御ハブのパスワードはファクトリ出荷時にpasswordに設定されています。Control "
-"Hubを使用する前に、パスワードをデフォルト値から変更することをお勧めします。"
+msgstr "デフォルトでは、Control Hubのパスワードはファクトリ出荷時にpasswordに設定されています。Control Hubを使用する前に、パスワードをデフォルト値から変更することをお勧めします。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:66
 msgid ""
@@ -153,7 +150,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:77
 msgid "Changing the Password of a Control Hub"
-msgstr "制御ハブのパスワード変更"
+msgstr "Control Hubのパスワード変更"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:79
 msgid ""
@@ -174,13 +171,13 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:94
 msgid "Resetting a Control Hub"
-msgstr "制御ハブのリセット"
+msgstr "Control Hubのリセット"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:96
 msgid ""
 "If you forget the network name or password for a Control Hub, you can reset "
 "the Hub's name and password back to their factory default values."
-msgstr "制御ハブのネットワーク名やパスワードを忘れた場合、ハブの名前とパスワードをファクトリーデフォルト値にリセットすることができます。"
+msgstr "Control Hubのネットワーク名やパスワードを忘れた場合、ハブの名前とパスワードをファクトリーデフォルト値にリセットすることができます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:99
 msgid ""
@@ -188,7 +185,7 @@ msgid ""
 "However, existing configuration files and op modes should not be affected by"
 " the reset. This includes op modes that were created using the Blocks, OnBot"
 " Java and Android Studio tools."
-msgstr "制御ハブのリセットを行うと、デフォルトのネットワーク名とパスワードが復元されます。ただし、既存の設定ファイルやOpModeはリセットによって影響を受けないものとします。これには、ブロック、OnBot Java、Android Studioツールを使用して作成されたOpModeも含まれます。"
+msgstr "Control Hubのリセットを行うと、デフォルトのネットワーク名とパスワードが復元されます。ただし、既存の設定ファイルやOpModeはリセットによって影響を受けないものとします。これには、ブロック、OnBot Java、Android Studioツールを使用して作成されたOpModeも含まれます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:105
 msgid "Resetting Instructions"
@@ -196,7 +193,7 @@ msgstr "リセット手順"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:107
 msgid "Turn off the power to your Control Hub for 5 seconds."
-msgstr "制御ハブの電源を5秒間オフにしてください。"
+msgstr "Control Hubの電源を5秒間オフにしてください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:108
 msgid "Press and hold the button on the Control Hub (see image below)."
@@ -207,9 +204,7 @@ msgid ""
 "Power on the Control Hub while continuing to hold the button. Monitor the "
 "LED while the Control Hub is rebooting. Eventually, the LED will switch from"
 " being solid blue, to a multi-color blink pattern."
-msgstr ""
-"制御ハブの電源を入れる際は、ボタンを引き続き押しておいてください。制御ハブが再起動している間、LED を監視してください。最終的には、LED "
-"は常に青色から多彩な blink パターンに切り替わります。"
+msgstr "Control Hubの電源を入れる際は、ボタンを引き続き押しておいてください。Control Hubが再起動している間、LED を監視してください。最終的には、LED は常に青色から多彩な blink パターンに切り替わります。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:117
 msgid ""
@@ -237,8 +232,7 @@ msgid ""
 "for the programming laptop or Chromebook. By default the Control Hub "
 "automatically picks an operating WiFi channel. However, it is sometimes "
 "necessary to specify the operating channel for the Hub."
-msgstr ""
-"制御ハブは、ドライバーステーションとプログラミング用ノートパソコンやクロムブックの無線接続アクセスポイントとして機能します。デフォルトでは、制御ハブは自動的に使用するWiFiチャンネルを選択します。しかし、場合によっては、ハブの動作チャンネルを指定することが必要になります。"
+msgstr "Control Hubは、ドライバーステーションとプログラミング用ノートパソコンやクロムブックの無線接続アクセスポイントとして機能します。デフォルトでは、Control Hubは自動的に使用するWiFiチャンネルを選択します。しかし、場合によっては、ハブの動作チャンネルを指定することが必要になります。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:129
 msgid ""
@@ -254,7 +248,7 @@ msgstr ""
 msgid ""
 "You can select the operating channel for the Control Hub from the *Manage* "
 "page."
-msgstr "制御ハブの操作チャンネルは、 * 管理 * ページから選択できます。"
+msgstr "Control Hubの操作チャンネルは、 * 管理 * ページから選択できます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:139
 msgid "Changing the WiFi Channel Instructions"
@@ -275,17 +269,14 @@ msgid ""
 "when the channel change occurs, the Driver Station might momentarily "
 "disconnect from the Control Hub. It should eventually, however, reconnect to"
 " Control Hub's wireless network."
-msgstr ""
-"新しいチャンネルに切り替えるには、「チャンネル変更」ボタンを押してください。チャンネルが切り替わる際、ドライバーステーションは制御ハブから一時的に切断される場合があります。しかし、最終的には制御ハブの無線ネットワークに再接続するはずです。"
+msgstr "新しいチャンネルに切り替えるには、「チャンネル変更」ボタンを押してください。チャンネルが切り替わる際、ドライバーステーションはControl Hubから一時的に切断される場合があります。しかし、最終的にはControl Hubの無線ネットワークに再接続するはずです。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:150
 msgid ""
 "3. Verify on the Driver Station that the Control Hub is operating on the "
 "desired WiFi channel. The operating channel should be displayed under the "
 "network name in the *Network* section of the main Driver Station screen."
-msgstr ""
-"3. "
-"ドライバーステーションで、制御ハブが望むWiFiチャンネルで動作していることを確認してください。動作中のチャンネルは、ドライバーステーションのメイン画面の「ネットワーク」セクションにあるネットワーク名の下に表示されます。"
+msgstr "3. ドライバーステーションで、Control Hubが望むWiFiチャンネルで動作していることを確認してください。動作中のチャンネルは、ドライバーステーションのメイン画面の「ネットワーク」セクションにあるネットワーク名の下に表示されます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:161
 msgid "Downloading the Log File"
@@ -297,8 +288,7 @@ msgid ""
 "download the log file from the Control Hub. This can be done from the "
 "*Manage* page. Note that the log file name is *robotControllerLog.txt* by "
 "default."
-msgstr ""
-"制御システムに関連する問題をトラブルシューティングする際には、制御ハブからログファイルをダウンロードすることが役立ちます。これは「管理」ページから実行できます。なお、デフォルトではログファイル名は「robotControllerLog.txt」です。"
+msgstr "制御システムに関連する問題をトラブルシューティングする際には、Control Hubからログファイルをダウンロードすることが役立ちます。これは「管理」ページから実行できます。なお、デフォルトではログファイル名は「robotControllerLog.txt」です。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:169
 msgid "Downloading the Log File Instructions"
@@ -308,8 +298,7 @@ msgstr "ログファイルのダウンロード方法"
 msgid ""
 "On the *Manage* page of the Control Hub user interface, press the *Download "
 "Logs* button to download the Robot Controller log file."
-msgstr ""
-"制御ハブユーザーインターフェースの「管理」ページで、「ログをダウンロード」ボタンを押してロボットコントローラーのログファイルをダウンロードします。"
+msgstr "Control Hubユーザーインターフェースの「管理」ページで、「ログをダウンロード」ボタンを押してロボットコントローラーのログファイルをダウンロードします。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:178
 msgid ""
@@ -339,20 +328,14 @@ msgid ""
 "robot. Periodically, REV Robotics will release new versions of the firmware "
 "which contains fixes and improvements for the Expansion Hub. The firmware "
 "releases are in the form of a binary (.bin) file."
-msgstr ""
-"制御ハブには独自にREV "
-"Roboticsの拡張ハブが内蔵されています。拡張ハブボードの目的は、制御ハブのAndroidコントローラとロボットのモータ、サーボ、センサー間の通信を円滑にすることです。定期的に、REV"
-" "
-"Roboticsは拡張ハブ向けのファームウェアの新バージョンをリリースし、修正や改善が含まれています。ファームウェアのリリース形式はバイナリファイル（.bin）です。"
+msgstr "Control Hubには独自にREV RoboticsのExpansion Hubが内蔵されています。Expansion Hubボードの目的は、Control HubのAndroidコントローラとロボットのモータ、サーボ、センサー間の通信を円滑にすることです。定期的に、REV RoboticsはExpansion Hub向けのファームウェアの新バージョンをリリースし、修正や改善が含まれています。ファームウェアのリリース形式はバイナリファイル（.bin）です。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:198
 msgid ""
 "The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-"
 "client/>`__ software can update the firmware for the Control Hub's embedded "
 "Expansion Hub."
-msgstr ""
-"REVハードウェアクライアント `<https://docs.revrobotics.com/rev-hardware-client/>`__ "
-"のソフトウェアは、制御ハブ内蔵の拡張ハブのファームウェアを更新できます。"
+msgstr "REVハードウェアクライアント `<https://docs.revrobotics.com/rev-hardware-client/>`__ のソフトウェアは、Control Hub内蔵のExpansion Hubのファームウェアを更新できます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:202
 msgid ""
@@ -375,8 +358,7 @@ msgid ""
 "Also, included or uploaded Control Hub firmware can be updated in Robot "
 "Controller Advanced Settings, from a paired Driver Station (DS) app as shown"
 " below."
-msgstr ""
-"また、インクルードまたはアップロードされた制御ハブファームウェアは、ペアリング済みのドライバーステーション（DS）アプリからロボットコントローラーの高度な設定で更新できます。"
+msgstr "また、インクルードまたはアップロードされたControl Hubファームウェアは、ペアリング済みのドライバーステーション（DS）アプリからロボットコントローラーの高度な設定で更新できます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:211
 msgid ""
@@ -384,21 +366,18 @@ msgid ""
 "Hub connected to a Control Hub via RS485 data wire. Standalone Expansion "
 "Hubs must be updated by direct USB plug-in to a laptop running the REV "
 "Hardware Client or to a Robot Controller phone."
-msgstr ""
-"これらの3つのメソッドは、RS485データワイヤーで制御ハブに接続された拡張ハブのファームウェア更新には適用されません。スタンドアロンの拡張ハブは、REVハードウェアクライアントを実行しているノートパソコンやロボットコントローラーフォンに直接USBで挿入して更新する必要があります。"
+msgstr "これらの3つのメソッドは、RS485データワイヤーでControl Hubに接続されたExpansion Hubのファームウェア更新には適用されません。スタンドアロンのExpansion Hubは、REVハードウェアクライアントを実行しているノートパソコンやロボットコントローラーフォンに直接USBで挿入して更新する必要があります。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:217
 msgid "Uploading and Updating the Expansion Hub Firmware"
-msgstr "拡張ハブファームウェアのアップロードと更新"
+msgstr "Expansion Hubファームウェアのアップロードと更新"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:219
 msgid ""
 "On the *Manage* page of the Control Hub user interface, press the *Select "
 "Firmware* button to to select the firmware file that you would like to "
 "upload."
-msgstr ""
-"制御ハブユーザーインターフェースの「管理」ページで、ファームウェアを選択するボタン「SELECT "
-"FIRMWARE」を押して、アップロードしたいファームウェアファイルを選択します。"
+msgstr "Control Hubユーザーインターフェースの「管理」ページで、ファームウェアを選択するボタン「SELECT FIRMWARE」を押して、アップロードしたいファームウェアファイルを選択します。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:226
 msgid ""
@@ -409,7 +388,7 @@ msgstr "ファイルを選択した後、 * アップロード * ボタンが表
 msgid ""
 "Press the *Upload* button to upload the firmware file from your computer to "
 "the Control Hub."
-msgstr "コンピュータから制御ハブにファームウェアファイルをアップロードするには、「アップロード」ボタンを押してください。"
+msgstr "コンピュータからControl Hubにファームウェアファイルをアップロードするには、「アップロード」ボタンを押してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:235
 msgid ""
@@ -440,8 +419,7 @@ msgstr ""
 msgid ""
 "Select the *Expansion Hub Firmware Update* item on the *ADVANCED ROBOT "
 "CONTROLLER SETTINGS* activity."
-msgstr ""
-"ADVANCED ROBOT CONTROLLER SETTINGS アクティビティ内の「拡張ハブファームウェア更新」項目を選択してください。"
+msgstr "ADVANCED ROBOT CONTROLLER SETTINGS アクティビティ内の「Expansion Hubファームウェア更新」項目を選択してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:265
 msgid ""
@@ -450,8 +428,7 @@ msgid ""
 "display some information about the current firmware version and the new "
 "firmware version. Press the *Update Expansion Hub Firmware* button to start "
 "the update process."
-msgstr ""
-"もし現在の拡張ハブにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を表示するべきです。 * 拡張ハブファームウェアを更新 * ボタンを押して更新プロセスを開始してください。"
+msgstr "もし現在のExpansion Hubにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を表示するべきです。 * Expansion Hubファームウェアを更新 * ボタンを押して更新プロセスを開始してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:272
 msgid ""
@@ -512,9 +489,7 @@ msgid ""
 "version of the Android Studio project folder you will update the Robot "
 "Controller app when you build the project and install it on your Control "
 "Hub."
-msgstr ""
-"Android Studioユーザーの場合は、最新バージョンのAndroid "
-"Studioプロジェクトフォルダーに更新することで、プロジェクトをビルドし制御ハブにインストールする際、ロボットコントローラーアプリも更新されます。"
+msgstr "Android Studioユーザーの場合は、最新バージョンのAndroid Studioプロジェクトフォルダーに更新することで、プロジェクトをビルドしControl Hubにインストールする際、ロボットコントローラーアプリも更新されます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:309
 msgid ""
@@ -569,8 +544,7 @@ msgid ""
 "signature of the APK that is already installed, the Hub might prompt you to "
 "ask if it is OK to uninstall the current app and replace it with the new "
 "one."
-msgstr ""
-"更新プロセス中、制御ハブがインストール中のAPKのデジタル署名が既にインストールされているAPKのデジタル署名と異なる場合、ハブは現在のアプリをアンインストールし、新しいもので置き換えることを確認するように質問するかもしれません。"
+msgstr "更新プロセス中、Control Hubがインストール中のAPKのデジタル署名が既にインストールされているAPKのデジタル署名と異なる場合、ハブは現在のアプリをアンインストールし、新しいもので置き換えることを確認するように質問するかもしれません。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:349
 msgid ""
@@ -592,16 +566,14 @@ msgid ""
 "Controller app, the network name and password for the Control Hub will be "
 "reset back to their factory values. If this happens, then you will need to "
 "reconnect your computer to the Control Hub using the factory default values."
-msgstr ""
-"もしロボットコントローラーアプリの更新プロセスで以前のバージョンをアンインストールする必要があった場合、制御ハブのネットワーク名とパスワードは工場出荷時の設定にリセットされます。この場合、コンピュータを制御ハブに再接続するために、工場デフォルト値を使用する必要があります。"
+msgstr "もしロボットコントローラーアプリの更新プロセスで以前のバージョンをアンインストールする必要があった場合、Control Hubのネットワーク名とパスワードは工場出荷時の設定にリセットされます。この場合、コンピュータをControl Hubに再接続するために、工場デフォルト値を使用する必要があります。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:365
 msgid ""
 "When the update process is complete and you have successfully reconnected "
 "your computer to the Control Hub's network, you should see an *installed "
 "successfully* message on the *Manage* web page."
-msgstr ""
-"更新プロセスが完了し、コンピュータを制御ハブのネットワークに再接続した場合、 * 管理 * ウェブページで「インストールに成功しました」と表示されるべきです。"
+msgstr "更新プロセスが完了し、コンピュータをControl Hubのネットワークに再接続した場合、 * 管理 * ウェブページで「インストールに成功しました」と表示されるべきです。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:373
 msgid "Uploading a Custom Webcam Calibration File"
@@ -657,8 +629,7 @@ msgid ""
 "REV Robotics periodically releases new versions of the Control Hub operating"
 " system (OS). These new versions incorporate fixes, improvements, and new "
 "features."
-msgstr ""
-"REVロボティクスは定期的に制御ハブオペレーティングシステム（OS）の新バージョンをリリースします。これらの新バージョンには修正事項、改善点、および新しい機能が含まれています。"
+msgstr "REVロボティクスは定期的にControl Hubオペレーティングシステム（OS）の新バージョンをリリースします。これらの新バージョンには修正事項、改善点、および新しい機能が含まれています。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:411
 msgid ""
@@ -666,10 +637,7 @@ msgid ""
 "Station user interface. Select the *About* menu option on the Driver Station"
 " and note the Operating System Version number under the *ABOUT ROBOT "
 "CONTROLLER* section."
-msgstr ""
-"制御ハブのOSバージョン番号は、ドライバーステーションのユーザーインターフェースから確認できます。ドライバーステーションで「 ABOUT "
-"」メニューのオプションを選択し、「 ABOUT ROBOT CONTROLLER 」セクションのOperating System "
-"Version（OSバージョン）を確認してください。"
+msgstr "Control HubのOSバージョン番号は、ドライバーステーションのユーザーインターフェースから確認できます。ドライバーステーションで「 ABOUT 」メニューのオプションを選択し、「 ABOUT ROBOT CONTROLLER 」セクションのOperating System Version（OSバージョン）を確認してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:421
 msgid ""
@@ -690,7 +658,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:429
 msgid "Updating the Control Hub OS Instructions"
-msgstr "制御ハブOSの更新手順"
+msgstr "Control HubOSの更新手順"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:431
 msgid ""
@@ -721,9 +689,7 @@ msgid ""
 "the file is relatively large, it might take several minutes before the "
 "upload is complete. Do not turn off the Control Hub while the process is "
 "underway."
-msgstr ""
-"3. "
-"* 更新&再起動 * ボタンをクリックして、更新プロセスを開始してください。OSファイルのアップロードが制御ハブに完了するまでお待ちください。ファイルが比較的大きいため、アップロードが完了するまで数分かかることがあります。プロセスが進行中は制御ハブをオフしないでください。"
+msgstr "3. * 更新&再起動 * ボタンをクリックして、更新プロセスを開始してください。OSファイルのアップロードがControl Hubに完了するまでお待ちください。ファイルが比較的大きいため、アップロードが完了するまで数分かかることがあります。プロセスが進行中はControl Hubをオフしないでください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:453
 msgid ""
@@ -741,9 +707,7 @@ msgid ""
 "to indicate the Hub's serial address number, then the pattern repeats "
 "itself). Reconnect your computer to the Control Hub network and verify that "
 "the update was a success."
-msgstr ""
-"5. "
-"OSの更新が完了すると、制御ハブLEDは青から通常の点滅パターン（緑から始まり、制御ハブのシリアルアドレス番号を示すために一度だけ青に点滅）に戻ります。その後、パターンは再び繰り返されます。制御ハブネットワークにコンピュータを再接続し、更新が成功したことを確認してください。"
+msgstr "5. OSの更新が完了すると、Control HubLEDは青から通常の点滅パターン（緑から始まり、Control Hubのシリアルアドレス番号を示すために一度だけ青に点滅）に戻ります。その後、パターンは再び繰り返されます。Control Hubネットワークにコンピュータを再接続し、更新が成功したことを確認してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:473
 msgid ""
@@ -781,7 +745,7 @@ msgstr ""
 msgid ""
 "The Control Hub is configured so that it automatically will support an adb "
 "wireless connection request on port 5555."
-msgstr "制御ハブは、adb無線接続リクエストをポート5555で自動的にサポートするように設定されています。"
+msgstr "Control Hubは、adb無線接続リクエストをポート5555で自動的にサポートするように設定されています。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:497
 msgid "Connecting to the Control Hub Using Wireless ADB Instructions"

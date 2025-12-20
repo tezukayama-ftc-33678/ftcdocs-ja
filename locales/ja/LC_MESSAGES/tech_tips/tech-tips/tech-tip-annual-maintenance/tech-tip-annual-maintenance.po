@@ -60,12 +60,7 @@ msgid ""
 "<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
 "system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__ for proper"
 " maintenance of these pins."
-msgstr ""
-"安全なXT30接続: "
-"REVコントロールハブや拡張ハブのXT30コネクタに電源ケーブルが緩んでいる場合、熱溶着胶のような接着剤で接続を固定しないでください。これらの接着剤は金属接触部間の不安定な接続を隠すだけであり、衝撃条件下では断続的な電力喪失を引き起こす可能性があります。代わりに、デバイスのXT30コネクタ上の金属ピンが圧縮されていることが考えられます。`REVロボティクスのXT30トラブルシューティング"
-" <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
-"system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__ "
-"を参照し、これらのピンの適切なメンテナンス方法を確認してください。"
+msgstr "安全なXT30接続: REVコントロールハブやExpansion HubのXT30コネクタに電源ケーブルが緩んでいる場合、熱溶着胶のような接着剤で接続を固定しないでください。これらの接着剤は金属接触部間の不安定な接続を隠すだけであり、衝撃条件下では断続的な電力喪失を引き起こす可能性があります。代わりに、デバイスのXT30コネクタ上の金属ピンが圧縮されていることが考えられます。`REVロボティクスのXT30トラブルシューティング <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__ を参照し、これらのピンの適切なメンテナンス方法を確認してください。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance.rst:27
 #, python-format
@@ -104,10 +99,7 @@ msgid ""
 "version (e.g., 1.1.6 for Wi-Fi driver security) and your FIRST Tech "
 "Challenge SDK (e.g., SDK 11.0) for improved performance and better support "
 "from tournament staff."
-msgstr ""
-"ソフトウェアの更新は重要です：制御ハブOSを最新バージョン（例：Wi-Fiドライバーのセキュリティ対策として1.1.6）に、またFIRST Tech "
-"Challenge SDK（例：SDK "
-"11.0）も常に更新してください。これによりパフォーマンスが向上し、大会スタッフからのサポートもより良いものになります。"
+msgstr "ソフトウェアの更新は重要です：Control HubOSを最新バージョン（例：Wi-Fiドライバーのセキュリティ対策として1.1.6）に、またFIRST Tech Challenge SDK（例：SDK 11.0）も常に更新してください。これによりパフォーマンスが向上し、大会スタッフからのサポートもより良いものになります。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance.rst:49
 msgid ""

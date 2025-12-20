@@ -441,12 +441,11 @@ msgid ""
 "Item 4 ``Control Hub OS Version`` should be at least 1.1.6. *FIRST* "
 "recommends but does not require that teams use the currently available "
 "version."
-msgstr ""
-"アイテム4「制御ハブOSバージョン」は少なくとも1.1.6であるべきです。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+msgstr "アイテム4「Control HubOSバージョン」は少なくとも1.1.6であるべきです。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:157
 msgid "Item 5 ``Android Version`` is probably 7.1.2 for a Control Hub."
-msgstr "Item 5 ``Android Version`` は制御ハブの場合 Probablemente 7.1.2 です。"
+msgstr "Item 5 ``Android Version`` はControl Hubの場合 Probablemente 7.1.2 です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:158
 msgid ""
@@ -455,8 +454,7 @@ msgid ""
 " A check mark indicates all firmware is up-to-date based on the current "
 "version of the RC app. *FIRST* recommends but does not require that teams "
 "use the currently available version."
-msgstr ""
-"アイテム6「ハブファームウェア」はハブのアドレスとファームウェアレベルをリストします。この例では制御ハブが1つ表示されていますが、拡張ハブもここにリストできます。チェックマークが表示されている場合、すべてのファームウェアは現在のRCアプリケーションのバージョンに基づいて最新です。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+msgstr "アイテム6「ハブファームウェア」はハブのアドレスとファームウェアレベルをリストします。この例ではControl Hubが1つ表示されていますが、Expansion Hubもここにリストできます。チェックマークが表示されている場合、すべてのファームウェアは現在のRCアプリケーションのバージョンに基づいて最新です。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:162
 msgid "Item 7 shows the ``Battery Level`` of the device being reported."
@@ -473,9 +471,7 @@ msgid ""
 "the factory default (“password”). Go to the Program and Manage page, select "
 "Manage and then update the RC password. You will have to re-pair the DS to "
 "the RC and enter the new password to reconnect."
-msgstr ""
-"Item 9 "
-"``RCパスワード``はRC自検査のみに表示されます。この検査項目は、制御ハブのパスワードがファクトリーデフォルト（“password”）と異なることのFTC要件を満たしていないため失敗しました。プログラムおよび管理ページに移動し、管理を選択してからRCパスワードを更新します。その後、DSをRCとのペアリングを解除し、新しいパスワードを入力して再接続する必要があります。"
+msgstr "Item 9 ``RCパスワード``はRC自検査のみに表示されます。この検査項目は、Control Hubのパスワードがファクトリーデフォルト（“password”）と異なることのFTC要件を満たしていないため失敗しました。プログラムおよび管理ページに移動し、管理を選択してからRCパスワードを更新します。その後、DSをRCとのペアリングを解除し、新しいパスワードを入力して再接続する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:167
 msgid ""

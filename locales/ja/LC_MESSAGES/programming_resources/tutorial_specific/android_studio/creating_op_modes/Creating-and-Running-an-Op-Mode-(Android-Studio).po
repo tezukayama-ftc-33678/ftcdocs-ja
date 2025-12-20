@@ -340,9 +340,7 @@ msgid ""
 "by a freshly charged 12V battery, and that it is connected to your laptop "
 "through its USB Type C port. Note that the Control Hub should automatically "
 "have USB debugging permission enabled."
-msgstr ""
-"または、制御ハブを使用している場合は、制御ハブが新しく充電された12Vバッテリーで電源供給されていることを確認し、USB Type-"
-"Cポートを通じてノートパソコンに接続されていることを確認してください。なお、制御ハブはUSBデバッグ権限が自動的に有効になっているはずです。"
+msgstr "または、Control Hubを使用している場合は、Control Hubが新しく充電された12Vバッテリーで電源供給されていることを確認し、USB Type-Cポートを通じてノートパソコンに接続されていることを確認してください。なお、Control HubはUSBデバッグ権限が自動的に有効になっているはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:319
 msgid ""
@@ -360,7 +358,7 @@ msgid ""
 "arrow) next to the words ``TeamCode``. Verify that the correct device is "
 "selected, then press this green button to build the Robot Controller app and"
 " to install it onto your Control Hub (or RC phone)."
-msgstr "Android Studioのユーザーインターフェースの上部に目をやると、「TeamCode」という文字の隣にある小さな緑色のPlayまたはRunボタン（緑色の円形矢印で表現されています）を見つけてください。適切なデバイスが選択されていることを確認し、その後、Robot Controllerアプリを作成して制御ハブ（またはRCスマホ）にインストールするために、この緑色のボタンを押してください。"
+msgstr "Android Studioのユーザーインターフェースの上部に目をやると、「TeamCode」という文字の隣にある小さな緑色のPlayまたはRunボタン（緑色の円形矢印で表現されています）を見つけてください。適切なデバイスが選択されていることを確認し、その後、Robot Controllerアプリを作成してControl Hub（またはRCスマホ）にインストールするために、この緑色のボタンを押してください。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:339
 msgid ""
@@ -472,9 +470,7 @@ msgid ""
 "Let's modify your OpMode to control the DC motor that you connected and "
 "configured for your REV Robotics Control Hub or REV Robotics Expansion Hub. "
 "Modify the code for the program loop so that it looks like the following:"
-msgstr ""
-"REV Robotics制御ハブやREV "
-"Robotics拡張ハブに接続し、設定したDCモータの制御をOpModeで変更しましょう。プログラムループのコードを以下のように修改してください："
+msgstr "REV RoboticsControl HubやREV RoboticsExpansion Hubに接続し、設定したDCモータの制御をOpModeで変更しましょう。プログラムループのコードを以下のように修改してください："
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:461
 msgid ""

@@ -93,7 +93,7 @@ msgid ""
 "AprilTag pose estimation. It captures a camera frame (image) and stores it "
 "on the Robot Controller (Control Hub or RC phone), with each press of the "
 "gamepad button X (or Square)."
-msgstr "このユーティリティOpmodeは、AprilTagのポーズ推定に必要なウェブカムやRCスマホカメラの校正を支援します。カメラフレーム（画像）をキャプチャし、各ゲームパッドボタンX（またはスクエア）を押すごとにロボットコントローラー（制御ハブまたはRCスマホ）に保存します。"
+msgstr "このユーティリティOpmodeは、AprilTagのポーズ推定に必要なウェブカムやRCスマホカメラの校正を支援します。カメラフレーム（画像）をキャプチャし、各ゲームパッドボタンX（またはスクエア）を押すごとにロボットコントローラー（Control HubまたはRCスマホ）に保存します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_camera_calibration/apriltag-camera-calibration.rst:37
 msgid "To illustrate, the OpMode stores the first two captured images as:"

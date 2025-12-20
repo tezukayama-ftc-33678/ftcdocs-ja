@@ -87,9 +87,7 @@ msgid ""
 "motors and are enumerated in the Competition Manual. They may only be "
 "controlled via a REV Expansion Hub, REV Control Hub, or REV SPARKmini Motor "
 "Controller."
-msgstr ""
-"ロボットの主な駆動装置はモータです。すべてのモータは12Vブラシ付きDCモータで、競技マニュアルに列挙されています。これらのモータは、REV拡張ハブ、REVコントロールハブ、またはREV"
-" SPARKmini モーター制御器のみを介して制御できます。"
+msgstr "ロボットの主な駆動装置はモータです。すべてのモータは12Vブラシ付きDCモータで、競技マニュアルに列挙されています。これらのモータは、REVExpansion Hub、REVコントロールハブ、またはREV SPARKmini モーター制御器のみを介して制御できます。"
 
 #: ../../source/control_hard_compon/rc_components/motors/motors.rst:97
 msgid "Additional Resources"

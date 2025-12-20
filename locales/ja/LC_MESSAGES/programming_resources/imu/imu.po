@@ -38,13 +38,7 @@ msgid ""
 "<https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__.  Both "
 "are from Bosch Sensortec. An IMU can measure many aspects of device motion; "
 "this explanatory document focuses primarily on **rotation**."
-msgstr ""
-"2022年9月から、REV Roboticsは内部インテリジェント測位装置（IMU）が異なるものになった`制御ハブ "
-"<https://www.revrobotics.com/rev-31-1595/>`__ を発送始めました。新しいIMUチップは`BHI260AP "
-"<https://www.bosch-sensortec.com/products/smart-sensor-"
-"systems/bhi260ap/>`__で、既存のハブのIMUチップである`BNO055 <https://www.bosch-"
-"sensortec.com/products/smart-sensors/bno055/>`__を置き換えました。両方ともBosch "
-"Sensortecからです。IMUはデバイスの運動に関する多くの側面を測定できます；この説明書では主に ** 回転 ** について解説します。"
+msgstr "2022年9月から、REV Roboticsは内部インテリジェント測位装置（IMU）が異なるものになった`Control Hub <https://www.revrobotics.com/rev-31-1595/>`__ を発送始めました。新しいIMUチップは`BHI260AP <https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__で、既存のハブのIMUチップである`BNO055 <https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__を置き換えました。両方ともBosch Sensortecからです。IMUはデバイスの運動に関する多くの側面を測定できます；この説明書では主に ** 回転 ** について解説します。"
 
 #: ../../source/programming_resources/imu/imu.rst:16
 msgid ""
@@ -82,7 +76,7 @@ msgstr "SDK 8.1以降を使用してください"
 
 #: ../../source/programming_resources/imu/imu.rst:28
 msgid "update the Control Hub OS to 1.1.3 or newer."
-msgstr "制御ハブOSを1.1.3版以上に更新してください。"
+msgstr "Control HubOSを1.1.3版以上に更新してください。"
 
 #: ../../source/programming_resources/imu/imu.rst:30
 msgid ""
@@ -108,7 +102,7 @@ msgstr "接続されたドライバーステーション(DS)アプリ"
 msgid ""
 "connected computer’s Chrome browser, at ``http://192.168.43.1:8080`` "
 "(Control Hub) or ``http://192.168.49.1:8080`` (RC phone)"
-msgstr "接続済みのコンピュータのChromeブラウザで、制御ハブは ``http://192.168.43.1:8080`` またはRCスマホは ``http://192.168.49.1:8080``"
+msgstr "接続済みのコンピュータのChromeブラウザで、Control Hubは ``http://192.168.43.1:8080`` またはRCスマホは ``http://192.168.49.1:8080``"
 
 #: ../../source/programming_resources/imu/imu.rst:40
 msgid "REV Hardware Client (when Hub LED is green)"
@@ -124,13 +118,13 @@ msgstr "2つのハブ表示"
 
 #: ../../source/programming_resources/imu/imu.rst:49
 msgid "Sample Control Hub and Expansion Hub display"
-msgstr "サンプルのコントロールハブと拡張ハブの表示"
+msgstr "サンプルのコントロールハブとExpansion Hubの表示"
 
 #: ../../source/programming_resources/imu/imu.rst:52
 msgid ""
 "*Reminder: REV Expansion Hubs purchased after December 2021 have no internal"
 " IMU.*"
-msgstr "* Reminder: 2021年12月以降に購入したREV拡張ハブには内部IMUがありません。 *"
+msgstr "* Reminder: 2021年12月以降に購入したREVExpansion Hubには内部IMUがありません。 *"
 
 #: ../../source/programming_resources/imu/imu.rst:55
 msgid ""
@@ -305,7 +299,7 @@ msgstr "ロボットが傾いています (!)"
 #: ../../source/programming_resources/imu/imu.rst:118
 msgid ""
 "robot’s secondary Expansion Hub (with IMU) is mounted on a tilting mechanism"
-msgstr "ロボットのセカンダリ拡張ハブ（IMU付き）は傾斜機構に取り付けられています"
+msgstr "ロボットのセカンダリExpansion Hub（IMU付き）は傾斜機構に取り付けられています"
 
 #: ../../source/programming_resources/imu/imu.rst:120
 msgid ""

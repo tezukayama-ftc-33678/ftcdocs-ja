@@ -39,8 +39,7 @@ msgid ""
 "This can be done in the RC app or in a paired DS app, as described below. "
 "(These steps also work for changing the name of a Control Hub, from a paired"
 " DS app.)"
-msgstr ""
-"これはRCアプリケーションやペアリングされたドライバーステーション（DS）アプリケーションで行うことができます。詳細は以下の通りです。（これらの手順は、ペアリングされたDSアプリケーションから制御ハブの名前を変更する場合にも適用されます。）"
+msgstr "これはRCアプリケーションやペアリングされたドライバーステーション（DS）アプリケーションで行うことができます。詳細は以下の通りです。（これらの手順は、ペアリングされたDSアプリケーションからControl Hubの名前を変更する場合にも適用されます。）"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:14
 msgid ""
@@ -258,9 +257,7 @@ msgid ""
 "The `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-"
 "client/>`__ software can update the firmware of an Expansion Hub plugged "
 "directly into the computer via USB cable."
-msgstr ""
-"REVハードウェアクライアント `<https://docs.revrobotics.com/rev-hardware-client/>`__ "
-"のソフトウェアは、USBケーブルを介してコンピュータに直接接続された拡張ハブのファームウェアを更新できます。"
+msgstr "REVハードウェアクライアント `<https://docs.revrobotics.com/rev-hardware-client/>`__ のソフトウェアは、USBケーブルを介してコンピュータに直接接続されたExpansion Hubのファームウェアを更新できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:191
 msgid ""
@@ -271,23 +268,21 @@ msgid ""
 "firmware images can be obtained from the `REV Robotics website "
 "<https://docs.revrobotics.com/duo-control/managing-the-control-"
 "system/updating-firmware#using-the-robot-controller-console>`__."
-msgstr "代替として、ラップトップやドライバーステーション（DS）を使用してロボットコントローラーのスマホにUSB経由で拡張ハブを接続し、 * 管理 * インターフェースから操作することができます。管理ページでは、拡張ハブのファームウェアをアップロードしたり、含まれているものやアップロードしたものを使用して更新することができます。新しいファームウェアイメージは、「<https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__` からREVロボティクスのウェブサイトで取得できます」。"
+msgstr "代替として、ラップトップやドライバーステーション（DS）を使用してロボットコントローラーのスマホにUSB経由でExpansion Hubを接続し、 * 管理 * インターフェースから操作することができます。管理ページでは、Expansion Hubのファームウェアをアップロードしたり、含まれているものやアップロードしたものを使用して更新することができます。新しいファームウェアイメージは、「<https://docs.revrobotics.com/duo-control/managing-the-control-system/updating-firmware#using-the-robot-controller-console>`__` からREVロボティクスのウェブサイトで取得できます」。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:198
 msgid ""
 "Also, included or uploaded Expansion Hub firmware can be updated in Robot "
 "Controller Advanced Settings, from a paired Driver Station (DS) app as shown"
 " below."
-msgstr ""
-"また、拡張ハブファームウェアはロボットコントローラーの高度な設定から、ペアリングされたドライバーステーション（DS）アプリケーションから更新できます。"
+msgstr "また、Expansion Hubファームウェアはロボットコントローラーの高度な設定から、ペアリングされたドライバーステーション（DS）アプリケーションから更新できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:202
 msgid ""
 "These three update methods do not apply to an Expansion Hub connected via "
 "RS485 data wire. Standalone Expansion Hubs must be updated by direct USB "
 "plug-in."
-msgstr ""
-"これらの3つの更新方法は、RS485データワイヤで接続された拡張ハブには適用されません。スタンドアローンの拡張ハブは、直接的なUSBプラグインによって更新する必要があります。"
+msgstr "これらの3つの更新方法は、RS485データワイヤで接続されたExpansion Hubには適用されません。スタンドアローンのExpansion Hubは、直接的なUSBプラグインによって更新する必要があります。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:207
 msgid "Updating the Expansion Hub Firmware Instructions"
@@ -361,18 +356,14 @@ msgid ""
 "display some information about the current firmware version and the new "
 "firmware version. Press the *Update Expansion Hub Firmware* button to start "
 "the update process."
-msgstr ""
-"8. "
-"現在の拡張ハブにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を見せてください。 * 拡張ハブファームウェアを更新 * ボタンを押すことで更新プロセスを開始できます。"
+msgstr "8. 現在のExpansion Hubにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を見せてください。 * Expansion Hubファームウェアを更新 * ボタンを押すことで更新プロセスを開始できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:285
 msgid ""
 "9. A progress bar will display while the firmware is being updated. Do not "
 "power off the Robot Controller/Expansion Hub during this process. The Driver"
 " Station will display a message when the update process is complete."
-msgstr ""
-"9. "
-"ファームウェアが更新される間、進行状況バーが表示されます。このプロセス中はロボットコントローラー/拡張ハブの電源を切らないでください。ドライバーステーションでは更新プロセスが完了したときにメッセージが表示されます。"
+msgstr "9. ファームウェアが更新される間、進行状況バーが表示されます。このプロセス中はロボットコントローラー/Expansion Hubの電源を切らないでください。ドライバーステーションでは更新プロセスが完了したときにメッセージが表示されます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:297
 msgid "Updating the Robot Controller App"

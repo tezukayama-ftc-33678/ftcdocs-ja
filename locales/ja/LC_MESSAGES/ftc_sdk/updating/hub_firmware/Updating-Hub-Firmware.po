@@ -219,7 +219,7 @@ msgid ""
 "Again, the Expansion Hub must be plugged **directly** into an RC phone, with"
 " no intermediate (primary) Expansion Hub. After updating you can return that"
 " Hub to its secondary position, if needed."
-msgstr "また、拡張ハブはRCスマホに ** 直接 ** 接続する必要があります。中間（プライマリ）拡張ハブを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
+msgstr "また、Expansion HubはRCスマホに ** 直接 ** 接続する必要があります。中間（プライマリ）Expansion Hubを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 4 - Manage page on computer"
@@ -253,7 +253,7 @@ msgid ""
 "As part of the update process, that selected firmware file will be stored on"
 " the Control Hub or RC phone, in a subfolder called FIRST/updates/Expansion "
 "Hub Firmware."
-msgstr "アップデートプロセスの一部として、選択したファームウェアファイルは、制御ハブやRCスマホにFIRST/updates/拡張ハブファームウェアというサブフォルダに保存されます。"
+msgstr "アップデートプロセスの一部として、選択したファームウェアファイルは、Control HubやRCスマホにFIRST/updates/Expansion Hubファームウェアというサブフォルダに保存されます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:140
 msgid ""

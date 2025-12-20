@@ -314,7 +314,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:179
 msgid "An expansion hub mounted on a plywood sheet."
-msgstr "Plywoodシートに取り付けられた拡張ハブ。"
+msgstr "Plywoodシートに取り付けられたExpansion Hub。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:179
 msgid ""
@@ -355,9 +355,7 @@ msgid ""
 " accumulates on the metal frame of the robot, and the end of sensor cable is"
 " placed close to the frame, a shock can occur and this shock can disrupt or "
 "even damage the I2C port of an Expansion Hub."
-msgstr ""
-"例えば、REV "
-"Roboticsの拡張ハブで使用される4本線センサーケーブルは、プラスチックコネクタが不良に保険されているため、不良な絶縁材を使用しています。ロボットの金属フレームに電荷が蓄積した場合、センサーケーブルの端がフレーム近くに配置された場合、ショックが発生し、このショックは拡張ハブのI2Cポートを妨害したり、甚至には壊すことがあります。"
+msgstr "例えば、REV RoboticsのExpansion Hubで使用される4本線センサーケーブルは、プラスチックコネクタが不良に保険されているため、不良な絶縁材を使用しています。ロボットの金属フレームに電荷が蓄積した場合、センサーケーブルの端がフレーム近くに配置された場合、ショックが発生し、このショックはExpansion HubのI2Cポートを妨害したり、甚至には壊すことがあります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:201
 msgid ""
@@ -403,7 +401,7 @@ msgstr "露出しているか、不良で保険が効いていない金属には
 msgid ""
 "An ESD event on the USB 2.0 port on the Control Hub can cause Wi-Fi "
 "disconnects."
-msgstr "USB 2.0ポート（制御ハブ）でのESDイベントは、Wi-Fi接続の切断を引き起こす可能性があります。"
+msgstr "USB 2.0ポート（Control Hub）でのESDイベントは、Wi-Fi接続の切断を引き起こす可能性があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:226
 msgid ""
@@ -424,7 +422,7 @@ msgstr ""
 msgid ""
 "Ensure that you plug USB devices, such as a Camera, into the USB 3.0 Port on"
 " your Control Hub."
-msgstr "制御ハブのUSB 3.0ポートにカメラなどのUSBデバイスを接続してください。"
+msgstr "Control HubのUSB 3.0ポートにカメラなどのUSBデバイスを接続してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:234
 msgid ""
@@ -536,7 +534,7 @@ msgstr ""
 msgid ""
 "An expansion hub with a grounding cable connected to the XT30 port and "
 "bolted to the metal frame of the robot."
-msgstr "金属フレームに固定されたXT30ポートに接地ケーブルが接続されている拡張ハブ。"
+msgstr "金属フレームに固定されたXT30ポートに接地ケーブルが接続されているExpansion Hub。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:300
 msgid "Ground the electronics to the frame using a FIRST-approved cable."

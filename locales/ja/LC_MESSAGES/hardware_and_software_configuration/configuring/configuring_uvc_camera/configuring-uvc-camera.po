@@ -111,7 +111,7 @@ msgstr "REV テンションハブとスマホ"
 msgid ""
 "For teams using an Android phone and an Expansion Hub you are required to "
 "add a USB Hub to use a webcam."
-msgstr "チームがAndroid端末と拡張ハブを使用している場合、ウェブカメラを使用するためにはUSBハブを追加する必要があります。"
+msgstr "チームがAndroid端末とExpansion Hubを使用している場合、ウェブカメラを使用するためにはUSBハブを追加する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:-1
 msgid ""
@@ -169,7 +169,7 @@ msgstr "競技マニュアルに準拠した商用の外部接続可能なオフ
 msgid ""
 "The 5V DC Aux power port of a REV Robotics Expansion Hub (note that this "
 "requires advanced skills to implement)."
-msgstr "REV Robotics拡張ハブの5V DC補助電源ポート（この機能を実装するには高度なスキルが必要です）。"
+msgstr "REV RoboticsExpansion Hubの5V DC補助電源ポート（この機能を実装するには高度なスキルが必要です）。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:78
 msgid ""
@@ -233,9 +233,7 @@ msgid ""
 "Robotics Expansion Hub. This configuration requires that the user have a "
 "special cable that on one end can be plugged into the 5V Auxiliary port and "
 "on the other end can be plugged into the power port of the USB hub."
-msgstr ""
-"REV "
-"Robotics拡張ハブの5V付属ポートから電力を引き出すこともできます。この設定は、ユーザーが1端子を5V付属ポートに挿入し、もう1端子をUSBハブの電源ポートに挿入できる特別なケーブルを持っていることを要求します。"
+msgstr "REV RoboticsExpansion Hubの5V付属ポートから電力を引き出すこともできます。この設定は、ユーザーが1端子を5V付属ポートに挿入し、もう1端子をUSBハブの電源ポートに挿入できる特別なケーブルを持っていることを要求します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:118
 msgid ":alt: A complete setup for using a phone and webcam."
