@@ -100,6 +100,7 @@ make html-ja  # 日本語版をビルド
   - [BUILD_JA.md](guides/BUILD_JA.md) - ビルドガイド
   - [TRANSLATION_GUIDE.md](guides/TRANSLATION_GUIDE.md) - 翻訳ガイドライン
   - [GLOSSARY.md](guides/GLOSSARY.md) - 用語集
+  - [TRANSLATION_REFLECTION_FIX.md](guides/TRANSLATION_REFLECTION_FIX.md) - 翻訳未反映問題の修正 ⭐ NEW
   - [ERROR_FIX_GUIDE.md](guides/ERROR_FIX_GUIDE.md) - エラー修正ガイド
   - [PO_SYNTAX_FIX_GUIDE.md](guides/PO_SYNTAX_FIX_GUIDE.md) - PO構文修正ガイド
   - その他多数...

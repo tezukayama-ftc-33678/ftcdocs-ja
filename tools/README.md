@@ -4,6 +4,27 @@
 
 ## 📁 ディレクトリ構成
 
+### `integration/` - LLM統合ツール ⭐ NEW
+ローカルLLM（Ollama）を使用した自動修正ツール
+
+**主要スクリプト:**
+- **`fix_issues_with_llm.py`** - 翻訳問題をLLMで自動修正
+  - `analyze_translation_issues.py`の出力を使用
+  - CRITICAL/HIGH問題を段階的に修正
+  - ドライラン機能で安全に確認
+
+**使い方:**
+```bash
+# 問題を分析
+python tools/analysis/analyze_translation_issues.py docs/build.log --json issues.json
+
+# LLMで自動修正（10件ずつ推奨）
+python tools/integration/fix_issues_with_llm.py issues.json --limit 10 --dry-run
+python tools/integration/fix_issues_with_llm.py issues.json --limit 10
+```
+
+詳細は [integration/README.md](integration/README.md) を参照してください。
+
 ### `translation/` - 翻訳ツール
 自動翻訳とLLMベースの翻訳支援ツール
 
@@ -56,22 +77,34 @@ python tools/po-fixing/comprehensive_fix.py
 ビルド警告や翻訳品質の分析ツール
 
 **主要スクリプト:**
+- **`analyze_translation_issues.py`** ⭐ NEW - 翻訳問題の分析と優先順位付け
+  - ビルド警告から翻訳が反映されない原因を特定
+  - 重大度別、タイプ別の統計
+  - HTMLレポート生成で視覚的に問題を把握
+- **`detect_translation_not_reflected.py`** ⭐ NEW - POファイルとHTML比較
+  - 翻訳があるのに反映されていない箇所を検出
+- **`detect_untranslated.py`** - 未翻訳箇所検出（英語のまま残っているテキスト）
 - **`analyze_warnings.py`** - ビルド警告の詳細分析
 - **`analyze_all_warnings.py`** - 全警告の分類
 - **`summarize_warnings.py`** - 警告サマリー生成
 - **`validate_build.py`** - ビルド検証
 - **`compare_build_structures.py`** - 英語版/日本語版の構造比較
 - **`analyze_build_diff_with_llm.py`** - 差分のLLM分析
-- **`detect_untranslated.py`** - 未翻訳箇所検出
 - **`detect_untranslated_simple.py`** - 未翻訳箇所検出（簡易版）
 
 **使い方:**
 ```bash
-# ビルド警告を分析
-python tools/analysis/analyze_warnings.py
+# ビルドして警告を収集
+cd docs && make clean && make html-ja 2>&1 | tee build.log
+
+# 翻訳問題を分析（推奨）
+python tools/analysis/analyze_translation_issues.py build.log --html-report report.html
 
 # 未翻訳箇所を検出
 python tools/analysis/detect_untranslated.py --check
+
+# PO/HTML比較
+python tools/analysis/detect_translation_not_reflected.py --check
 ```
 
 ### `archived/` - アーカイブ
