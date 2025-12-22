@@ -80,6 +80,10 @@ cover/
 # Translations
 *.mo
 
+# Quality reports (large generated files)
+data/quality_reports/*.html
+data/quality_reports/*.json
+
 # Django stuff:
 *.log
 local_settings.py

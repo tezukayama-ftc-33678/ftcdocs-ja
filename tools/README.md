@@ -52,6 +52,33 @@ python tools/po-fixing/comprehensive_fix.py
 
 詳細は [guides/PO_SYNTAX_FIX_GUIDE.md](../guides/PO_SYNTAX_FIX_GUIDE.md) を参照してください。
 
+### `quality/` - 翻訳品質チェックツール
+翻訳の品質を自動的にチェックし、問題を検出・修正するツール
+
+**主要スクリプト:**
+- **`translation_quality_checker.py`** - 包括的翻訳品質チェッカー（メインツール）
+
+**機能:**
+- 空のmsgstrエントリーの検出
+- RST構文エラーの検出と自動修正
+- インラインマークアップの不一致検出
+- LLMによる修正案の提案
+- インタラクティブなHTMLレポート生成
+
+**使い方:**
+```bash
+# チェックのみ
+python tools/quality/translation_quality_checker.py --check
+
+# 自動修正実行
+python tools/quality/translation_quality_checker.py --fix
+
+# 詳細レポート生成
+python tools/quality/translation_quality_checker.py --report
+```
+
+詳細は [tools/quality/README.md](quality/README.md) を参照してください。
+
 ### `analysis/` - 分析ツール
 ビルド警告や翻訳品質の分析ツール
 
@@ -84,12 +111,22 @@ python tools/analysis/detect_untranslated.py --check
 python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
 ```
 
-### 2. POファイルを修正
+### 2. 翻訳品質をチェック
+```bash
+python tools/quality/translation_quality_checker.py --check
+```
+
+### 3. 自動修正可能な問題を修正
+```bash
+python tools/quality/translation_quality_checker.py --fix
+```
+
+### 4. POファイルを正規化
 ```bash
 python tools/po-fixing/normalize_po_files.py
 ```
 
-### 3. ビルド警告を分析
+### 5. ビルド警告を分析
 ```bash
 python tools/analysis/analyze_warnings.py
 ```

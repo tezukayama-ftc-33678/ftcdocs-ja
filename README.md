@@ -89,6 +89,21 @@ cd docs
 make html-ja  # 日本語版をビルド
 ```
 
+### 翻訳品質チェック
+
+```bash
+# 翻訳品質をチェック
+python tools/quality/translation_quality_checker.py --check
+
+# 自動修正を実行
+python tools/quality/translation_quality_checker.py --fix
+
+# 詳細レポート生成
+python tools/quality/translation_quality_checker.py --report
+```
+
+詳細は **[guides/QUALITY_CHECKER_GUIDE.md](guides/QUALITY_CHECKER_GUIDE.md)** を参照してください。
+
 ---
 
 ## 📚 ドキュメント構成
@@ -97,6 +112,7 @@ make html-ja  # 日本語版をビルド
 - **[QUICKSTART.md](QUICKSTART.md)** - 5分で始めるクイックスタート
 - **[guides/](guides/)** - 詳細なガイド集
   - [AUTO_TRANSLATE.md](guides/AUTO_TRANSLATE.md) - 自動翻訳実行ガイド
+  - [QUALITY_CHECKER_GUIDE.md](guides/QUALITY_CHECKER_GUIDE.md) - 翻訳品質チェックガイド ⭐ NEW
   - [BUILD_JA.md](guides/BUILD_JA.md) - ビルドガイド
   - [TRANSLATION_GUIDE.md](guides/TRANSLATION_GUIDE.md) - 翻訳ガイドライン
   - [GLOSSARY.md](guides/GLOSSARY.md) - 用語集
@@ -107,6 +123,7 @@ make html-ja  # 日本語版をビルド
 ### ツール
 - **[tools/](tools/)** - 翻訳・修正・分析ツール集
   - [translation/](tools/translation/) - 自動翻訳ツール
+  - [quality/](tools/quality/) - 翻訳品質チェックツール ⭐ NEW
   - [po-fixing/](tools/po-fixing/) - PO修正ツール
   - [analysis/](tools/analysis/) - 分析ツール
   - 詳細は [tools/README.md](tools/README.md) を参照
