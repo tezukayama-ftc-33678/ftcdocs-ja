@@ -30,6 +30,26 @@ SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
 LOCALES_DIR = PROJECT_ROOT / "locales" / "ja" / "LC_MESSAGES"
 
+# 定数
+DEFAULT_MODEL = 'qwen2.5:7b-instruct-q5_K_M'
+LLM_TEMPERATURE = 0.1  # 低めに設定して一貫性を保つ
+LINE_MATCH_TOLERANCE = 5  # エントリマッチングの行番号許容範囲
+
+# 日本語文字の範囲
+JAPANESE_RANGES = [
+    (0x3040, 0x309F),  # ひらがな
+    (0x30A0, 0x30FF),  # カタカナ
+    (0x4E00, 0x9FFF),  # 漢字
+]
+
+
+def has_japanese(text: str) -> bool:
+    """テキストに日本語が含まれているかチェック"""
+    return any(
+        any(start <= ord(c) <= end for start, end in JAPANESE_RANGES)
+        for c in text
+    )
+
 
 class LLMFixIntegrator:
     """翻訳問題のLLM自動修正統合ツール"""
@@ -154,10 +174,9 @@ class LLMFixIntegrator:
             print(f"[INFO] 利用可能なモデル: {', '.join(model_names[:3])}")
             
             # 推奨モデルがあるかチェック
-            recommended = 'qwen2.5:7b-instruct-q5_K_M'
-            if not any(recommended in name for name in model_names):
-                print(f"⚠️  推奨モデル {recommended} が見つかりません")
-                print(f"   ollama pull {recommended}")
+            if not any(DEFAULT_MODEL in name for name in model_names):
+                print(f"⚠️  推奨モデル {DEFAULT_MODEL} が見つかりません")
+                print(f"   ollama pull {DEFAULT_MODEL}")
                 
         except Exception as e:
             print(f"❌ Ollamaに接続できません: {e}")
@@ -213,14 +232,9 @@ class LLMFixIntegrator:
             
             for entry in po:
                 # 行番号が近いエントリを探す
-                if abs(entry.linenum - line_num) <= 5:
+                if abs(entry.linenum - line_num) <= LINE_MATCH_TOLERANCE:
                     # メッセージに日本語が含まれているかチェック
-                    has_japanese = any('\u3040' <= c <= '\u309F' or
-                                      '\u30A0' <= c <= '\u30FF' or
-                                      '\u4E00' <= c <= '\u9FFF'
-                                      for c in entry.msgstr)
-                    
-                    if has_japanese and self._entry_has_issue_pattern(entry, issue):
+                    if has_japanese(entry.msgstr) and self._entry_has_issue_pattern(entry, issue):
                         target_entry = entry
                         break
             
@@ -259,18 +273,17 @@ class LLMFixIntegrator:
         # 日本語ラベル参照の問題
         if 'undefined label' in issue_message:
             # :ref:`...日本語...` のパターンを探す
-            ref_pattern = r':ref:`[^`]*[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]'
-            if re.search(ref_pattern, msgstr):
+            if re.search(r':ref:`[^`]*[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]', msgstr):
                 return True
         
         # 日本語ドキュメントパスの問題
         if 'unknown document' in issue_message:
             # :doc:`...日本語...` のパターンを探す
-            doc_pattern = r':doc:`[^`]*[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]'
-            if re.search(doc_pattern, msgstr):
+            if re.search(r':doc:`[^`]*[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]', msgstr):
                 return True
         
-        return True  # その他の場合は候補として扱う
+        # その他の日本語を含むエントリも候補として扱う
+        return has_japanese(msgstr)
     
     def _generate_fix_with_llm(self, msgid: str, msgstr: str, issue: Dict) -> str:
         """LLMを使用して修正案を生成"""
@@ -288,7 +301,7 @@ class LLMFixIntegrator:
         
         try:
             response = ollama.chat(
-                model='qwen2.5:7b-instruct-q5_K_M',
+                model=DEFAULT_MODEL,
                 messages=[
                     {
                         'role': 'system',
@@ -300,7 +313,7 @@ class LLMFixIntegrator:
                     }
                 ],
                 options={
-                    'temperature': 0.1,  # 低めに設定して一貫性を保つ
+                    'temperature': LLM_TEMPERATURE,
                 }
             )
             
