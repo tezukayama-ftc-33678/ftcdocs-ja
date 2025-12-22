@@ -47,10 +47,7 @@ msgid ""
 "hardware components of your robot and also run your actual robot software.  "
 "This is in contrast to the REV Expansion Hub which was only able to control "
 "hardware devices but is not able to to interpret and run the SDK."
-msgstr ""
-"A REV Control Hubは、REV Expansion "
-"Hubと組み込まれたAndroidのサブボードが接続されたREVエクステンションハブを組み合わせたもので、これによりロボットのすべてのハードウェアコンポーネントを制御できるだけでなく、実際のロボットソフトウェアも実行できます。これは、"
-" REV Expansion Hubがハードウェアデバイスのみを制御できましたがSDKを解釈して実行することができなかった点と対照的です。"
+msgstr "A REV Control Hubは、REV Expansion Hubと組み込まれたAndroidのサブボードが接続されたREV Expansion Hubを組み合わせたもので、これによりロボットのすべてのハードウェアコンポーネントを制御できるだけでなく、実際のロボットソフトウェアも実行できます。これは、 REV Expansion Hubがハードウェアデバイスのみを制御できましたがSDKを解釈して実行することができなかった点と対照的です。"
 
 #: ../../source/control_hard_compon/rc_components/hub/hub.rst:28
 msgid "Expansion Hub"
