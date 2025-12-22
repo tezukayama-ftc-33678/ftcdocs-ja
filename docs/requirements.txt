@@ -1,9 +1,9 @@
-Sphinx==5.3.0
+Sphinx==6.2.1
 sphinx-autobuild==2024.2.4
 make==0.1.6.post2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=sphinx_rtd_dark_mode_v2
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=javasphinx
-sphinx_design==0.2.0
+sphinx_design==0.6.1
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=googleanalytics
 git+https://github.com/FIRST-Tech-Challenge/ftcdocs-helper@main#subdirectory=cookiebanner
 sphinx-sitemap==2.3.0
