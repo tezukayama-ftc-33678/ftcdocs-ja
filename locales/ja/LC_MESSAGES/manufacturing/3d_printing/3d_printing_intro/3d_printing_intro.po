@@ -44,8 +44,8 @@ msgid ""
 "printer used, and the most practical for robotics teams, so this guide will "
 "focus on them."
 msgstr ""
-"FTCでは、多くの3Dプリンティング方法がありますが、実用的なのは数種類だけです。最も一般的なのは**融着層積造形（FDM）**です。FDMプリンターはプラスチックフィラメントを溶かし、ノズルを通じて"
-" Extrude "
+"FTCでは、多くの3Dプリンティング方法がありますが、実用的なのは数種類だけです。最も一般的なのは**融着層積造形（FDM）** "
+"です。FDMプリンターはプラスチックフィラメントを溶かし、ノズルを通じて Extrude "
 "します。そして、ノズルは動いて部品を作り出します。FDMプリンターは最も一般的な種類であり、ロボットチームにとって最も実用的なものなので、このガイドではそれらに焦点を当てます。"
 
 #: ../../source/manufacturing/3d_printing/3d_printing_intro/3d_printing_intro.rst:28

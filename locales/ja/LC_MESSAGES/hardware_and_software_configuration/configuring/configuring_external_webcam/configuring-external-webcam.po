@@ -56,7 +56,8 @@ msgid ""
 "following cameras have been tested and calibrated to work accurately with "
 "SDK software:"
 msgstr ""
-"理論上、任意のUSBビデオクラス（UVC）カメラはシステムと動作します。ただし、*FIRST*ではロジテック製のUVCウェブカメラを使用することを推奨します。以下のカメラはSDKソフトウェアと正確に動作するようにテストおよび校正されています："
+"理論上、任意のUSBビデオクラス（UVC）カメラはシステムと動作します。ただし、*FIRST* "
+"ではロジテック製のUVCウェブカメラを使用することを推奨します。以下のカメラはSDKソフトウェアと正確に動作するようにテストおよび校正されています："
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:25
 msgid ":ref:`logitech_c270_label`"
@@ -255,7 +256,8 @@ msgid ""
 " an Op Mode, you must ensure that the VisionPortal is activated in your Op "
 "Mode **before** the waitForStart command:"
 msgstr ""
-"カメラストリーム機能はOpModeのINITフェーズ期間中にのみ利用可能ですので、waitForStartコマンド実行**以前**にVisionPortalをアクティブ化する必要があります："
+"カメラストリーム機能はOpModeのINITフェーズ期間中にのみ利用可能ですので、waitForStartコマンド実行**以前** "
+"にVisionPortalをアクティブ化する必要があります："
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
 msgid ""

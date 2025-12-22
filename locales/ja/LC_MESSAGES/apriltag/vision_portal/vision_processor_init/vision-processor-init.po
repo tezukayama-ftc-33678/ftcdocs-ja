@@ -32,7 +32,7 @@ msgid ""
 "Your OpMode must **first prepare** for using AprilTag and/or Color "
 "Processing commands, or methods."
 msgstr ""
-"あなたのOpModeはAprilTagやColor Processingのコマンドやメソッドを使用する前に、**まず準備**をする必要があります。"
+"あなたのOpModeはAprilTagやColor Processingのコマンドやメソッドを使用する前に、**まず準備** をする必要があります。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:10
 msgid ""
@@ -42,7 +42,7 @@ msgstr "JavaまたはブロックコードのINIT部分で、``waitForStart()``�
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:13
 msgid "**Step 1.** *Optional:*"
-msgstr "**ステップ1。**オプション：\""
+msgstr "**ステップ1。** オプション：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:15
 msgid ""
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:19
 msgid "**Step 2.** *Required:*"
-msgstr "**ステップ 2。**必須：\""
+msgstr "**ステップ 2。** 必須：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:21
 msgid ""
@@ -63,17 +63,17 @@ msgid ""
 "performs various steps, in order, to each stream frame. The stream is the "
 "input to the pipeline. A similar process happens for Color Processing."
 msgstr ""
-"Create the**AprilTag Processor**(or the**Color Locator or Color Sensor "
+"Create the**AprilTag Processor**(or the** Color Locator or Color Sensor "
 "Processor**), to analyze frames streaming in from the camera. \\\"Under the "
 "hood\\\", the Apriltag Processor is attached to an EOCV**pipeline**, which "
 "performs various steps, in order, to each stream frame. The stream is the "
 "input to the pipeline. A similar process happens for Color Processing.Create"
-" the**AprilTag Processor**(or the**Color Locator or Color Sensor "
+" the** AprilTag Processor**(or the** Color Locator or Color Sensor "
 "Processor**), to analyze frames streaming in from the camera. \\\"Under the "
 "hood\\\", the Apriltag Processor is attached to an EOCV**pipeline**, which "
 "performs various steps, in order, to each stream frame. The stream is the "
 "input to the pipeline. A similar process happens for Color Processing.Create"
-" the**AprilTag Processor**(or the**Color Locator or Color Sensor "
+" the** AprilTag Processor**(or the** Color Locator or Color Sensor "
 "Processor**), to analyze frames streaming in from the camera. \\\"Under the "
 "hood\\\", the Apriltag Processor is attached to an EOCV**pipeline**, which "
 "performs various steps, in order, to each stream frame. The stream is the "
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:27
 msgid "**Step 3.** *Required:*"
-msgstr "**ステップ 3。**必須：\""
+msgstr "**ステップ 3。** 必須：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:29
 msgid ""
@@ -89,7 +89,8 @@ msgid ""
 "specify that the Portal includes the AprilTag and/or TFOD Processor(s) from "
 "Step 2. The two Processors evaluate camera frames independently."
 msgstr ""
-"FTCの**VisionPortal**を作成し、全体的なパイプラインを管理します。ここで、Portalがステップ2で指定したAprilTagやTFODプロセッサ（複数可）を含むことを指定します。両方のプロセッサはカメラフレームを独立して評価します。"
+"FTCの**VisionPortal** "
+"を作成し、全体的なパイプラインを管理します。ここで、Portalがステップ2で指定したAprilTagやTFODプロセッサ（複数可）を含むことを指定します。両方のプロセッサはカメラフレームを独立して評価します。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:34
 msgid ""
@@ -110,8 +111,8 @@ msgid ""
 "**Step 2** is creating the **AprilTag Processor**, software that evaluates "
 "frames streaming in from the camera."
 msgstr ""
-"**ステップ 2**は、カメラからストリーミング入力されるフレームを評価する**AprilTag プロセッサー**の作成です。**ステップ "
-"2**は、**AprilTag Processor**を作成することです。これはカメラからストリーミングされるフレームを評価するソフトウェアです。"
+"**ステップ 2** は、カメラからストリーミング入力されるフレームを評価する**AprilTag プロセッサー** の作成です。**ステップ 2** "
+"は、**AprilTag Processor** を作成することです。これはカメラからストリーミングされるフレームを評価するソフトウェアです。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:41
 msgid ""
@@ -152,7 +153,7 @@ msgid ""
 msgstr ""
 "The SDK also provides the \"Builder\" way to create the processor, "
 "allowing**custom settings**.The SDK "
-"はまた、プロセッサーを作成するための「ビルダー」方式も提供しており、**custom settings**を可能にします。"
+"はまた、プロセッサーを作成するための「ビルダー」方式も提供しており、**custom settings** を可能にします。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:72
 msgid ""
@@ -160,7 +161,7 @@ msgid ""
 "parameters, finalized with the ``.build()`` command.  Such features are "
 "**not** modified later during an OpMode."
 msgstr ""
-"**ビルダー**はJavaのパターンまたは構造で、追加機能やパラメータを追加し、最終的に``.build()`` コマンドで finalized "
+"**ビルダー**はJavaのパターンまたは構造で、追加機能やパラメータを追加し、最終的に``.build()``コマンドで finalized "
 "します。そのような機能はOpMode中に後から変更**されません**。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:76
@@ -223,8 +224,8 @@ msgid ""
 "**Step 2** is similar for creating the **Color Sensor/Locator Processor**, "
 "software that evaluates frames streaming in from the camera."
 msgstr ""
-"**ステップ2**は、カメラからストリーミング入力されるフレームを評価するための**Color Sensor/Locator "
-"Processor**を作成する際と似ています。"
+"**ステップ2** は、カメラからストリーミング入力されるフレームを評価するための**Color Sensor/Locator Processor** "
+"を作成する際と似ています。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:150
 msgid ""
@@ -232,12 +233,12 @@ msgid ""
 "using the **Color Sensor** or the **Color Locator**. For more information, "
 "see the :doc:`Color Processing Documentation </color_processing/index>`."
 msgstr ""
-"ビルダーは、**Color Sensor**や**Color "
-"Locator**を使用しているかによって見た目が少し異なります。詳細については、:doc:`Color Processing "
-"Documentation </color_processing/index>` を参照してください。ビルダーは、**Color "
-"Sensor**もしくは**Color Locator**を使用しているかによって見た目が少し異なります。詳細については、:doc:`Color "
-"Processing Documentation </color_processing/index>` を参照してください。ビルダーは、**Color "
-"Sensor**もしくは**Color Locator**を使用している場合によって見た目が少し異なります。詳細については、:doc:`Color "
+"ビルダーは、**Color Sensor** や**Color Locator** "
+"を使用しているかによって見た目が少し異なります。詳細については、:doc:`Color Processing Documentation "
+"</color_processing/index>` を参照してください。ビルダーは、**Color Sensor** もしくは**Color "
+"Locator** を使用しているかによって見た目が少し異なります。詳細については、:doc:`Color Processing "
+"Documentation </color_processing/index>` を参照してください。ビルダーは、**Color Sensor** "
+"もしくは**Color Locator** を使用している場合によって見た目が少し異なります。詳細については、:doc:`Color "
 "Processing Documentation </color_processing/index>` を参照してください。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:155
@@ -255,7 +256,7 @@ msgstr ""
 msgid ""
 "The ``setProcessorEnabled()`` command is **not** part of the Builder "
 "pattern."
-msgstr "「setProcessorEnabled()」コマンドはビルダー模式の**一部分ではありません**。"
+msgstr "「setProcessorEnabled()」コマンドはビルダー模式の **一部分ではありません**。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:162
 msgid ""
@@ -263,8 +264,8 @@ msgid ""
 "after **disabling** (by setting to ``false``).  This topic is covered "
 "further at the **Managing CPU and Bandwidth** page."
 msgstr ""
-"「setProcessorEnabled(   , true)」は、プロセッサを**再有効化**するためだけに使用し、**無効化**（``false``"
-" に設定）した後にのみ使用してください。このトピックは、**CPUと帯域幅の管理**ページでさらに詳しく説明されています。"
+"「setProcessorEnabled(   , "
+"true)」は、プロセッサを**再有効化**するためだけに使用し、**無効化**（``false``に設定）した後にのみ使用してください。このトピックは、**CPUと帯域幅の管理**ページでさらに詳しく説明されています。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:166
 msgid ""
@@ -287,7 +288,7 @@ msgid ""
 "Again, use this only to **re-enable** the processor, after **disabling** (by"
 " setting to `false`)."
 msgstr ""
-"また、この機能はプロセッサを**再起動**するためだけに使用し、**停止**状態から復帰（`false` に設定した場合）後にのみ使用してください。"
+"また、この機能はプロセッサを**再起動** するためだけに使用し、**停止** 状態から復帰（`false` に設定した場合）後にのみ使用してください。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:197
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"

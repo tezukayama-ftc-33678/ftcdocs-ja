@@ -51,12 +51,12 @@ msgstr "ドライバー ステーションとロボット コントローラ ア
 msgid ""
 "**LiveView** on Robot Controller (RC) device – RC phone or Control Hub (see "
 "below)"
-msgstr "**LiveView**はロボットコントローラ（RC）デバイスで使用します（RCスマホまたはControl Hubを参照してください）"
+msgstr "**LiveView** はロボットコントローラ（RC）デバイスで使用します（RCスマホまたはControl Hubを参照してください）"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:22
 msgid ""
 "**Camera Stream** on Driver Station (DS) device – DS phone or Driver Hub"
-msgstr "**カメラストリーム**はドライバーステーション（DS）デバイス - DSスマホまたはドライバーハブにあります。"
+msgstr "**カメラストリーム** はドライバーステーション（DS）デバイス - DSスマホまたはドライバーハブにあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
 msgid ""
@@ -64,7 +64,9 @@ msgid ""
 "It’s completely separate from **DS Camera Stream**, which still operates "
 "normally even if LiveView is stopped (manually or automatically)."
 msgstr ""
-"LiveViewは、**ロボットコントローラー**のプレビュー（上記の例参照）に限定されます。LiveViewが停止された場合（手動または自動で）、**ドライバーステーションカメラストリーム**は通常通り動作します。"
+"LiveViewは、**ロボットコントローラー** "
+"のプレビュー（上記の例参照）に限定されます。LiveViewが停止された場合（手動または自動で）、**ドライバーステーションカメラストリーム** "
+"は通常通り動作します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:29
 msgid ""
@@ -83,8 +85,7 @@ msgid ""
 "**Managing CPU and Bandwidth** page, and the **VisionPortal Camera "
 "Controls** page."
 msgstr ""
-"カメラストリームは独自のフレーム収集プロセスを使用し、自然にカメラ/パイプライン状態が ``STREAMING`` "
-"であることを必要とします。ストリームを無効にすると、DSプレビューが制御不能になります。カメラ状態については**CPUと帯域幅の管理**ページおよび**VisionPortal"
+"カメラストリームは独自のフレーム収集プロセスを使用し、自然にカメラ/パイプライン状態が``STREAMING``であることを必要とします。ストリームを無効にすると、DSプレビューが制御不能になります。カメラ状態については**CPUと帯域幅の管理**ページおよび**VisionPortal"
 " カメラコントロール**ページで詳しく説明されています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:37
@@ -160,7 +161,7 @@ msgid ""
 "and at the :ref:`Webcam Control tutorial "
 "<programming_resources/vision/webcam_controls/index:webcam controls>`."
 msgstr ""
-"更多の情報は**VisionPortal カメラ制御**ページ、および :ref:`ウェブカム制御チュートリアル "
+"更多の情報は**VisionPortal カメラ制御** ページ、および :ref:`ウェブカム制御チュートリアル "
 "<programming_resources/vision/webcam_controls/index:ウェブカム制御>` でご確認ください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:74
@@ -185,7 +186,7 @@ msgstr "カメラストリームプレビューの拡大ボタン"
 msgid ""
 "**Circled in yellow** are the user buttons to **go BIG** or return to the "
 "**default** screen."
-msgstr "**黄で囲まれた**のはユーザーが**BIGへ進む**か、もとの**デフォルト**画面に戻るボタンです。"
+msgstr "**黄で囲まれた** のはユーザーが**BIGへ進む** か、もとの**デフォルト** 画面に戻るボタンです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:90
 msgid "Note the annotations have shifted to fit in the image."
@@ -197,7 +198,7 @@ msgstr "傾きノート"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:95
 msgid "With SDK 8.2, the default image orientation is **SENSOR_NATIVE**."
-msgstr "SDK 8.2 では、デフォルトの画像向きは**SENSOR_NATIVE**です。"
+msgstr "SDK 8.2 では、デフォルトの画像向きは**SENSOR_NATIVE** です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:97
 msgid ""
@@ -207,7 +208,8 @@ msgid ""
 "same as SENSOR_NATIVE, while for a phone camera, (former) enum SIDEWAYS_LEFT"
 " is the same as SENSOR_NATIVE."
 msgstr ""
-"このJava**enum**SENSOR_NATIVEは、画像処理パイプラインがカメラセンサーのネイティブな向きで画像を受け取ることを意味します。つまり、回転は行われません。なお、ウェブカメラ用の（以前の）enum"
+"このJava**enum** "
+"SENSOR_NATIVEは、画像処理パイプラインがカメラセンサーのネイティブな向きで画像を受け取ることを意味します。つまり、回転は行われません。なお、ウェブカメラ用の（以前の）enum"
 " UPRIGHTはSENSOR_NATIVEと同じであり、スマートフォンカメラ用の（以前の）enum "
 "SIDEWAYS_LEFTもSENSOR_NATIVEと同じです。"
 

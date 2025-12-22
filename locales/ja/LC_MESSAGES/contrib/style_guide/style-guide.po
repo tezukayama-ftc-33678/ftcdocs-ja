@@ -360,11 +360,11 @@ msgstr "標準のテキスト形式のマークアップは非常にシンプル
 
 #: ../../source/contrib/style_guide/style-guide.rst:185
 msgid "One Asterisk: \\*text\\* for emphasis (italics) - like *text*"
-msgstr "One Asterisk: \\*text\\*には強調（イタリック）で「text」のように表示します"
+msgstr "One Asterisk: \\*text\\* には強調（イタリック）で「text」のように表示します"
 
 #: ../../source/contrib/style_guide/style-guide.rst:186
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
-msgstr "二重星付近: \\*\\*text\\*\\* で強調表示（太字）- 例:**text**"
+msgstr "二重星付近: \\*\\*text\\*\\*で強調表示（太字）- 例:**text**"
 
 #: ../../source/contrib/style_guide/style-guide.rst:187
 msgid "Two Backticks: \\`\\`text\\`\\` for literals - like ``text``"
@@ -685,7 +685,7 @@ msgid ""
 "text https://ftc-resources.firstinspires.org/ftc/game. Sphinx will build a "
 "link when it encounters a URL. But that is not the preferred approach."
 msgstr ""
-"他のウェブサイトや、主な*FIRST*Inspires サイトへのリンクは「外部リンク」です。URL "
+"他のウェブサイトや、主な*FIRST* Inspires サイトへのリンクは「外部リンク」です。URL "
 "をテキストに記入することでリンクを作成できます。たとえば、https://ftc-"
 "resources.firstinspires.org/ftc/game に入力します。Sphinx は URL "
 "を見つけたときにリンクを生成しますが、これが推奨される方法ではありません。"
@@ -787,7 +787,7 @@ msgstr "これは以下のようになります："
 msgid ""
 "Use the following button link to download a PDF of the Field Setup Guide "
 "from the *FIRST* Website:"
-msgstr "次のようにリンクボタンを使用して、*FIRST*ウェブサイトからフィールド設定ガイドのPDFをダウンロードしてください:"
+msgstr "次のようにリンクボタンを使用して、*FIRST* ウェブサイトからフィールド設定ガイドのPDFをダウンロードしてください:"
 
 #: ../../source/contrib/style_guide/style-guide.rst:393
 #: ../../source/contrib/style_guide/style-guide.rst:425
@@ -824,7 +824,7 @@ msgid ""
 "placing on the field. There are also tear down instructions that indicate "
 "how to take apart the field for storage or transport."
 msgstr ""
-"フィールド設置ガイドには、*FIRST*Tech Challenge "
+"フィールド設置ガイドには、*FIRST* Tech Challenge "
 "フィールドを組み立てるための公式手順が記載されています。通常は、構造物を組み立てる作業手順があり、その後にフィールドに配置するための設置手順があります。また、収納や輸送のためにフィールドを解体する方法も示されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:413
@@ -1237,8 +1237,9 @@ msgid ""
 "for that page are stored in the folder "
 "**game_specific_resources\\\\field_coordinate_system\\\\images**."
 msgstr ""
-"例：ドキュメント「**fieldd-coordinate-"
-"system.rst**」は、「**game_specific_resources\\\\field_coordinate_system**」フォルダ内にあります。そのページの画像は、「**game_specific_resources\\\\field_coordinate_system\\\\images**」フォルダ内に保存されています。"
+"例：ドキュメント「**fieldd-coordinate-system.rst "
+"**」は、「**game_specific_resources\\\\field_coordinate_system "
+"**」フォルダ内にあります。そのページの画像は、「**game_specific_resources\\\\field_coordinate_system\\\\images**」フォルダ内に保存されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:633
 msgid ""
@@ -1247,7 +1248,9 @@ msgid ""
 "what the image shows. This should be less than 24 characters. File name "
 "extensions should be **.png** or **.jpg**."
 msgstr ""
-"画像ファイル名は、**短い説明.ext**の形式に従って命名する必要があります。ファイル名は画像が表示している内容の短い説明であるべきで、24文字未満にしてください。ファイル名の拡張子は**.png**または**.jpg**にする必要があります。"
+"画像ファイル名は、**短い説明.ext** "
+"の形式に従って命名する必要があります。ファイル名は画像が表示している内容の短い説明であるべきで、24文字未満にしてください。ファイル名の拡張子は**.png**"
+" または**.jpg** にする必要があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:637
 msgid ""

@@ -176,8 +176,7 @@ msgid ""
 "where the top-level build definitions are for building the documentation."
 msgstr ""
 "**リポジトリのメインフォルダ**内には、プロジェクトの実際のファイルが入ったフォルダ Almost always は「ほぼ常に」で表現します。- "
-"たいていの場合、そのフォルダは ``docs/`` フォルダです。``docs/`` "
-"フォルダは、ドキュメンテーションを構築するためのトップレベルのビルド定義が格納されている場所です。"
+"たいていの場合、そのフォルダは``docs/``フォルダです。``docs/``フォルダは、ドキュメンテーションを構築するためのトップレベルのビルド定義が格納されている場所です。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:91
 msgid "docs folder"
@@ -232,7 +231,8 @@ msgid ""
 " shown in the path within GitHub. This location is only used as a reference "
 "within GitHub, where the full *repository location* is sometimes needed."
 msgstr ""
-"このファイルがリポジトリ内にある位置です。GitHubのパス内で便利に表示されます。この位置はGitHub内で参照用として使用され、全般的には*リポジトリの位置*が必要な場合があります。"
+"このファイルがリポジトリ内にある位置です。GitHubのパス内で便利に表示されます。この位置はGitHub内で参照用として使用され、全般的には*リポジトリの位置*"
+" が必要な場合があります。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:128
 msgid "*Document Location*"
@@ -247,10 +247,9 @@ msgid ""
 "would have a *document location* of ``/tutorial/overview/overview.rst``. We "
 "will use this *document location* within our documents."
 msgstr ""
-"この文書が存在する最終的なウェブサイト内の位置です。ファイルのドキュメント位置は、リポジトリ位置から ``rst-"
-"primer/docs/source`` を除いたものと同じになります。例えば、リポジトリ位置が ``rst-"
-"primer/docs/source/tutorial/overview/overview.rst`` の場合、ドキュメント位置は "
-"``/tutorial/overview/overview.rst`` となります。この*ドキュメント位置*を文書内で使用します。"
+"この文書が存在する最終的なウェブサイト内の位置です。ファイルのドキュメント位置は、リポジトリ位置から``rst-"
+"primer/docs/source``を除いたものと同じになります。例えば、リポジトリ位置が``rst-"
+"primer/docs/source/tutorial/overview/overview.rst``の場合、ドキュメント位置は``/tutorial/overview/overview.rst``となります。この*ドキュメント位置*を文書内で使用します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:130
 msgid ""
@@ -300,7 +299,7 @@ msgid ""
 "by a document contributor, but if you feel you do then please coordinate any"
 " changes with an administrator."
 msgstr ""
-"The*_static*フォルダ、名前がアンダースコアで始まる特別なフォルダは、HTML 特有のコードを含んでおり、ドキュメントを HTML "
+"The*_static* フォルダ、名前がアンダースコアで始まる特別なフォルダは、HTML 特有のコードを含んでおり、ドキュメントを HTML "
 "で形式化するために必要です。このコードは文書貢献者が編集したり更新したりする必要はほとんどありませんが、もし編集が必要と感じた場合は、管理者と変更内容について連絡してください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:163
@@ -318,12 +317,12 @@ msgid ""
 "work with an administrator to coordinate any updates to the HTML site "
 "templates."
 msgstr ""
-"The*_templates*フォルダは、名前にアンダースコアが付く特別なフォルダで、Sphinxのテンプレーティングエンジンである Jinja "
+"The*_templates* フォルダは、名前にアンダースコアが付く特別なフォルダで、Sphinxのテンプレーティングエンジンである Jinja "
 "によって使用され、基本テーマの管理方法をオーバライドし、ページレイアウトやヘッダー内容、フッター内容（その他の要素も含む）のカスタマイズが可能になります。また、この機能は文書貢献者が編集する必要があるものではない（追加コンテンツを追加する場合は除く）ですが、HTMLサイトテンプレートへの更新は管理者と連携して実施してください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:169
 msgid ":octicon:`file;1em;sd-text-info` *conf.py*"
-msgstr ":octicon:`file;1em;sd-text-info` は、*conf.py*の情報です。"
+msgstr ":octicon:`file;1em;sd-text-info` は、*conf.py* の情報です。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:166
 msgid ""
@@ -333,7 +332,8 @@ msgid ""
 "this file should never be modified without first consulting an "
 "administrator."
 msgstr ""
-"The**conf.py**ファイルは、スphinxBでドキュメンテーションをすべての形式（HTML、PDFなど）で構築するために使用するモジュール、パラメータ、およびツールを定義する特別なファイルです。このファイルにはアンダースコアプレフィックスはありませんが、このファイルを無く事前に対応管理者に相談せずに変更することは絶対に避けなければなりません。"
+"The**conf.py** "
+"ファイルは、スphinxBでドキュメンテーションをすべての形式（HTML、PDFなど）で構築するために使用するモジュール、パラメータ、およびツールを定義する特別なファイルです。このファイルにはアンダースコアプレフィックスはありませんが、このファイルを無く事前に対応管理者に相談せずに変更することは絶対に避けなければなりません。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:178
 msgid ":octicon:`file;1em;sd-text-info` *index.rst*"
@@ -349,8 +349,8 @@ msgid ""
 " the website, but **this** particular file is the master index file for the "
 "website."
 msgstr ""
-"ここにある「ルート」ドキュメンテーションの位置に存在する**index.rst**ファイルは、ドキュメンテーションのHTML版の主要な組織とレイアウトファイルです。この**index.rst**は、通常HTMLウェブサイトの左側パネルで見られる"
-" * 目次 *(Table of "
+"ここにある「ルート」ドキュメンテーションの位置に存在する**index.rst**ファイルは、ドキュメンテーションのHTML版の主要な組織とレイアウトファイルです。この**index.rst**は、通常HTMLウェブサイトの左側パネルで見られる*目次*(Table"
+" of "
 "Contents)を定義し、またウェブサイトのトップページのコンテンツも定義します。ウェブサイト内には複数の`index.rst`ファイルが存在するかもしれませんが、**この**ファイルはウェブサイトのマスターアイデックスファイルです。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:183
@@ -363,7 +363,7 @@ msgid ""
 "will be discussed in a much later tutorial, but for now we're just going to "
 "pretend that this file doesn't exist."
 msgstr ""
-"The**todo.rst**file は \"To-Do\" "
+"The **todo.rst**file は \"To-Do\" "
 "モジュールによって自動的に作成されるファイルです。このファイルについては、後々のチュートリアルで詳しく説明しますが、現時点ではこのファイルが存在しないことに仮想的に思い描くだけです。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:186
@@ -385,11 +385,11 @@ msgstr ""
 msgid ""
 "Each content page is defined by a reStructuredText file with an **.rst** "
 "extension."
-msgstr "各コンテンツページは、**.rst**拡張子の reStructuredText ファイルで定義されます。"
+msgstr "各コンテンツページは、**.rst** 拡張子の reStructuredText ファイルで定義されます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:195
 msgid "Each **.rst** file is defined within its own folder."
-msgstr "各**.rst**ファイルは、それぞれのフォルダで定義されます。"
+msgstr "各**.rst** ファイルは、それぞれのフォルダで定義されます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:196
 msgid ""
@@ -397,8 +397,7 @@ msgid ""
 "etc...) and so it will have subfolders that include those files "
 "(``/images``, ``/includes``, etc...)"
 msgstr ""
-"各**.rst**ファイルは一般的にサポートするファイル（画像、参照ファイルなど）が含まれており、そのためサブフォルダにもこれらのファイルが含まれるフォルダ（``/images``、``/includes``"
-" など）が存在します。"
+"各**.rst**ファイルは一般的にサポートするファイル（画像、参照ファイルなど）が含まれており、そのためサブフォルダにもこれらのファイルが含まれるフォルダ（``/images``、``/includes``など）が存在します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:199
 msgid ""
@@ -447,7 +446,7 @@ msgstr ""
 msgid ""
 "Here is a view of all of the folders and files that are involved within the "
 "structure of the *Gracious Professionalism* content:"
-msgstr "以下は、*Gracious Professionalism*コンテンツの構造内に含まれるすべてのフォルダとファイルのビューです："
+msgstr "以下は、*Gracious Professionalism* コンテンツの構造内に含まれるすべてのフォルダとファイルのビューです："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:229
 msgid "ftcdocs Gracious Professionalism structure"
@@ -494,8 +493,7 @@ msgid ""
 " the same folder that the **.rst** file is stored."
 msgstr ""
 "gp.rst "
-"ファイルは、ローカルに保存された2つの画像を参照または使用していますので、これらの2つの画像は、**.rst**ファイルが保存されている同じフォルダ内に即座に存在する"
-" ``/images`` フォルダに保存されています。"
+"ファイルは、ローカルに保存された2つの画像を参照または使用していますので、これらの2つの画像は、**.rst**ファイルが保存されている同じフォルダ内に即座に存在する``/images``フォルダに保存されています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:246
 msgid ""
@@ -503,8 +501,7 @@ msgid ""
 " within the main site ``index.rst`` file (we'll see *how* it's included a "
 "little later)."
 msgstr ""
-"このコンテンツは高レベルの情報を含む単一ページであるため、メインサイトの ``index.rst`` "
-"ファイルに含まれています（*どのように*含まれているかは後で説明します）。"
+"このコンテンツは高レベルの情報を含む単一ページであるため、メインサイトの``index.rst``ファイルに含まれています（*どのように*含まれているかは後で説明します）。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:250
 msgid ""

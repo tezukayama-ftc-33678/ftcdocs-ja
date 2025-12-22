@@ -35,8 +35,9 @@ msgid ""
 "resources.firstinspires.org/ftc/game/manual>`__ for list of phone models "
 "currently legal to use at *FIRST* Tech Challenge events."
 msgstr ""
-"ロボットコントローラーアプリとドライバーステーションアプリは、**すべての法的なスマホモデル**とのペアリングにも非常に信頼性が高いです。使用可能なスマホモデルの一覧については、「競技マニュアル」（`こちら"
-" <https://ftc-resources.firstinspires.org/ftc/game/manual>`__ ）をご覧ください。"
+"ロボットコントローラーアプリとドライバーステーションアプリは、**すべての法的なスマホモデル** "
+"とのペアリングにも非常に信頼性が高いです。使用可能なスマホモデルの一覧については、「競技マニュアル」（`こちら <https://ftc-"
+"resources.firstinspires.org/ftc/game/manual>`__ ）をご覧ください。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:13
 msgid ""
@@ -44,8 +45,8 @@ msgid ""
 "Direct is **fast** and usually **automatic**. Here is a procedure that "
 "addresses various **pre-existing conditions** that can impede pairing."
 msgstr ""
-"Android端末が適切に準備された場合、Wi-Fi "
-"Directによるペアリングは**素早く**、通常は**自動的**に行われます。以下は、ペアリングを妨げる可能性のあるさまざまな**既存の問題**に対処する手順です。"
+"Android端末が適切に準備された場合、Wi-Fi Directによるペアリングは**素早く**、通常は** "
+"自動的**に行われます。以下は、ペアリングを妨げる可能性のあるさまざまな** 既存の問題**に対処する手順です。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:17
 msgid "This article does not cover the REV Control Hub or REV Driver Hub."
@@ -216,8 +217,8 @@ msgid ""
 "have been present in the first place. Going forward, pairing will be **fast "
 "and reliable – usually automatic**."
 msgstr ""
-"上記の手順は長く見えるかもしれませんが、本来存在すべきではなかった状況をカバーしています。今後、ペアリングは**高速で信頼性が高い – "
-"通常自動的**になります。"
+"上記の手順は長く見えるかもしれませんが、本来存在すべきではなかった状況をカバーしています。今後、ペアリングは**高速で信頼性が高い – 通常自動的** "
+"になります。"
 
 #: ../../source/programming_resources/shared/phone_pairing/phone-pairing.rst:102
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"

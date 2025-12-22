@@ -43,7 +43,7 @@ msgstr "色距離センサーの構成手順"
 msgid ""
 "1. Touch the words **I2C Bus 0** on the screen to launch the I2C "
 "configuration screen for this I2C bus."
-msgstr "1. 画面上の**I2C Bus 0**という語をタッチして、この I2C バスの I2C 構成画面を起動します。"
+msgstr "1. 画面上の**I2C Bus 0** という語をタッチして、この I2C バスの I2C 構成画面を起動します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:22
 msgid ""
@@ -62,7 +62,7 @@ msgid ""
 "determine the orientation of a robot, as well as measure the accelerations "
 "on a robot."
 msgstr ""
-"2. Look at the**I2C Bus 0**screen. There should already be a sensor "
+"2. Look at the **I2C Bus 0**screen. There should already be a sensor "
 "configured for this bus. The Control Hub or Expansion Hub has its own built-"
 "in inertial measurement unit (IMU) sensor. This sensor can be used to "
 "determine the orientation of a robot, as well as measure the accelerations "
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:37
 msgid "Press the **Add** button to add another I2C device to this bus."
-msgstr "**Add**ボタンを押して、このバスに別の I2C デバイスを追加します。"
+msgstr "**Add** ボタンを押して、このバスに別の I2C デバイスを追加します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_color_sensor/configuring-color-sensor.rst:44
 msgid ""
@@ -97,4 +97,4 @@ msgstr ""
 msgid ""
 "5. Press the **Done** button to complete the I2C sensor configuration. The "
 "app should return to the previous screen."
-msgstr "5.**Done**ボタンを押して、I2C センサーの構成を完了します。アプリは前の画面に戻ります。"
+msgstr "5.**Done** ボタンを押して、I2C センサーの構成を完了します。アプリは前の画面に戻ります。"

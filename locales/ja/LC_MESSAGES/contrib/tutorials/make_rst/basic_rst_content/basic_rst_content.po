@@ -495,11 +495,9 @@ msgid ""
 " underlining you must mess with style sheets and pdf layout definitions in "
 "order to do (YUCK!)."
 msgstr ""
-"あなたはReStructured Textを使用して単純なテキストフォーマット - つまり、**強調**、 * イタリック * "
-"、および``リテラル``を非常に簡単に追加できます。ただし、これらのテキストフォーマットは重ね合わせられませんので、「強調イタリック」や「イタリック化されたリテラル」を作成することはできません。インラインマーカースタイル（テキストフォーマット、外部リンクなど）のほとんどは重ね合わせることができないため、リンクテキスト内の"
-" *FIRST* "
-"という言葉をイタリック体にするには非常に創造的で複雑な手順が必要です（時たま、それが不可能であることもあります）。また、下線はReStructured "
-"Textでは本来サポートされていませんので、下線を追加するにはスタイルシートやPDFレイアウト定義を弄る必要があります（うーん）。"
+"あなたはReStructured Textを使用して単純なテキストフォーマット - "
+"つまり、**強調**、*イタリック*、および``リテラル``を非常に簡単に追加できます。ただし、これらのテキストフォーマットは重ね合わせられませんので、「強調イタリック」や「イタリック化されたリテラル」を作成することはできません。インラインマーカースタイル（テキストフォーマット、外部リンクなど）のほとんどは重ね合わせることができないため、リンクテキスト内の*FIRST*という言葉をイタリック体にするには非常に創造的で複雑な手順が必要です（時たま、それが不可能であることもあります）。また、下線はReStructured"
+" Textでは本来サポートされていませんので、下線を追加するにはスタイルシートやPDFレイアウト定義を弄る必要があります（うーん）。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:339
 msgid "The standard Text Formatting Markup is quite simple - use:"
@@ -509,12 +507,12 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:341
 msgid "One Asterisk: \\*text\\* for emphasis (italics) - like *text*"
-msgstr "一つの星：\\*text\\*で強調（イタリック）- 例如 \\*text\\*"
+msgstr "一つの星：\\*text\\* で強調（イタリック）- 例如 \\*text\\*"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:342
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
 msgstr ""
-"Two Asterisks: \\*\\*text\\*\\*  для сильного акцента (полужирный) - "
+"Two Asterisks: \\*\\*text\\*\\*для сильного акцента (полужирный) - "
 "как**text**"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:343
@@ -543,8 +541,8 @@ msgid ""
 "the word or phrase that is expected to follow."
 msgstr ""
 "インラインマークアップを周囲のテキストから区別するには、非単語文字、例えばスペースを使用してください。例えば、\\*This text is "
-"italicized\\*は*This text is italicized*のように表示されます。しかし、\\*This text is "
-"not\\*は最初のアスタリスクと続く単語やフレーズとの間のスペースがあるため、予想通りにレンダリングされません。"
+"italicized\\* は*This text is italicized* のように表示されます。しかし、\\*This text is "
+"not\\* は最初のアスタリスクと続く単語やフレーズとの間のスペースがあるため、予想通りにレンダリングされません。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:355
 msgid ""
@@ -557,8 +555,8 @@ msgid ""
 msgstr ""
 "これを避けるための一つの方法は、強制空白文字を使用することです。これは、引用符で囲われていない \"\\\" なしで "
 "(キャラクターを強制的に指定するために、バックスラッシュ（\\\\）で該当の文字 preceding します。例えば、空白文字を注入することで Bold"
-" と Italics を隣り合わせに表示できます。見えない強制空白文字 \\*\\*Alien\\*\\*\\\\ \\*Nation\\* "
-"を挿入すると、**Alien**\\ *Nation* のように見えるようになります。"
+" と Italics を隣り合わせに表示できます。見えない強制空白文字 \\*\\*Alien\\*\\*\\\\ "
+"\\*Nation\\*を挿入すると、**Alien**\\*Nation*のように見えるようになります。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:362
 msgid ""
@@ -579,7 +577,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:382
 msgid "This is *italic* text in *this document*."
-msgstr "これは*イタリック*の文字列です。"
+msgstr "これは*イタリック* の文字列です。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:384
 msgid "This is ``literal`` text in ``this document``."
@@ -657,9 +655,11 @@ msgid ""
 "this case a single colon identifies this as a *simple directive* versus an "
 "*external directive*, and helps rST determine how to process the directive."
 msgstr ""
-"これは初めて導入する*ダイレクティブ*で、これは2つのピリオドとスペースから始まる*ブロック*です。多くの場合、ダイレクティブは特別なテキストブロックを非常に特定の方法で形式化します"
-" - "
-"この場合、ラベル前のアンダースコアは*アンカーダイレクティブ*を示しています。大多数の場合、ダイレクティブ名の後に2つのコロンが付きますが、この場合は1つのコロンが使用され、これは*単純なダイレクティブ*と*外部ダイレクティブ*の区別をし、rSTがダイレクティブの処理方法を決定するのに役立ちます。"
+"これは初めて導入する*ダイレクティブ* で、これは2つのピリオドとスペースから始まる*ブロック* "
+"です。多くの場合、ダイレクティブは特別なテキストブロックを非常に特定の方法で形式化します - "
+"この場合、ラベル前のアンダースコアは*アンカーダイレクティブ* "
+"を示しています。大多数の場合、ダイレクティブ名の後に2つのコロンが付きますが、この場合は1つのコロンが使用され、これは*単純なダイレクティブ* "
+"と*外部ダイレクティブ* の区別をし、rSTがダイレクティブの処理方法を決定するのに役立ちます。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:424
 msgid ""
@@ -791,7 +791,7 @@ msgstr "**リンクが埋め込まれた表示テキストを作成します:**"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:514
 msgid "*FIRST* Website: https://www.firstinspires.org"
-msgstr "*FIRST*ホームページ: https://www.firstinspires.org"
+msgstr "*FIRST* ホームページ: https://www.firstinspires.org"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:517
 msgid "Embedded URI"
@@ -905,7 +905,7 @@ msgstr ""
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:587
 msgid "height : *length*"
 msgstr ""
-"高度 :*長さ*\"\n"
+"高度 :*長さ *\"\n"
 "\n"
 "この翻訳では、reStructuredText形式の強調マークアップ(*length*)が保持され、技術用語も原文のままです。"
 
@@ -1022,10 +1022,7 @@ msgid ""
 "HTML to use one version and the PDF to use *any supported version* through "
 "using a * (asterisk) in the file extension, like so:"
 msgstr ""
-".pdf形式で使用されるドキュメンテーションでは、拡張子が ``.gif`` および ``.svg`` "
-"の画像はサポートされていません。これらの拡張子を持つファイルへの外部リンクは禁止します。ファイルパスを使用してファイルを参照する場合、対応可能なバージョンのファイルが存在すれば、これらのファイルを使用できます。例えば、``picture.svg``"
-" と ``picture.png`` がある場合、HTMLでは ``picture.svg`` "
-"を使用し、.pdfでは*（アスタリスク）*を使用することで ``picture.`` の形式で対応可能なバージョンを参照することができます。"
+".pdf形式で使用されるドキュメンテーションでは、拡張子が``.gif``および``.svg``の画像はサポートされていません。これらの拡張子を持つファイルへの外部リンクは禁止します。ファイルパスを使用してファイルを参照する場合、対応可能なバージョンのファイルが存在すれば、これらのファイルを使用できます。例えば、``picture.svg``と``picture.png``がある場合、HTMLでは``picture.svg``を使用し、.pdfでは*（アスタリスク）*を使用することで``picture.``の形式で対応可能なバージョンを参照することができます。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:643
 msgid "Embedding Images using the figure directive"
@@ -1038,9 +1035,8 @@ msgid ""
 "``image`` directive but also allows for an optional caption (a single "
 "paragraph) and an optional legend (with arbitrary body elements)."
 msgstr ""
-"The ``.. figure::`` ディレクティブは ``.. image::`` ディレクティブと非常に似ており、実際には ``figure`` "
-"ディレクティブ内に ``image`` "
-"ディレクティブが*含まれ*ています。しかし、オプションのキャプション（単一行の段落）やオプションの伝説（任意のボディ要素を持つ）も許されます。"
+"The``.. figure::``ディレクティブは``.. "
+"image::``ディレクティブと非常に似ており、実際には``figure``ディレクティブ内に``image``ディレクティブが*含まれ*ています。しかし、オプションのキャプション（単一行の段落）やオプションの伝説（任意のボディ要素を持つ）も許されます。"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:650
 msgid ""
@@ -1146,7 +1142,7 @@ msgstr "例えば、次の単純なリスト例を考えてみましょう::"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:731
 msgid "Here are examples of **incorrectly** formatted bullet lists::"
-msgstr "以下は、**不適切に**フォーマットされたポイントリストの例です::"
+msgstr "以下は、**不適切に** フォーマットされたポイントリストの例です::"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:742
 msgid "Enumerated Lists"

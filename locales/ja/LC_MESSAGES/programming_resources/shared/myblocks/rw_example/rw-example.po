@@ -53,7 +53,7 @@ msgid ""
 "Write and read actions can happen in the same OpMode or **different "
 "OpModes**, allowing various scenarios:"
 msgstr ""
-"書くアクションと読み取りアクションは同じOpMode内で起こるか**異なるOpMode**で起こることを許容し、様々なシナリオを作成できます："
+"書くアクションと読み取りアクションは同じOpMode内で起こるか**異なるOpMode** で起こることを許容し、様々なシナリオを作成できます："
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:22
 msgid ""

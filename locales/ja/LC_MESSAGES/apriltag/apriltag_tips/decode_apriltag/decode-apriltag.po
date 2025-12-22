@@ -35,7 +35,8 @@ msgid ""
 " can be used for **location and orientation**."
 msgstr ""
 "開発されたのは`ミシガン大学 "
-"<https://april.eecs.umich.edu/software/apriltag>`_です。AprilTagsは2次元バーコードや簡略化されたQRコードに似ています。これは数値の**IDコード**を含んでおり、**位置と向き**の測定にも使用できます。"
+"<https://april.eecs.umich.edu/software/apriltag>`_です。AprilTagsは2次元バーコードや簡略化されたQRコードに似ています。これは数値の**IDコード**"
+" を含んでおり、**位置と向き** の測定にも使用できます。"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:12
 msgid ""

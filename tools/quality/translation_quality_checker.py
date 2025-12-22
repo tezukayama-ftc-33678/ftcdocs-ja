@@ -53,6 +53,11 @@ DEFAULT_LLM_MODEL = 'qwen2.5:7b-instruct-q5_K_M'
 REGEX_BOLD_SPACING = re.compile(r'\*\*\s+\w|\w\s+\*\*')
 REGEX_ITALIC_SPACING = re.compile(r'(?<!\*)\*\s+\w|\w\s+\*(?!\*)')
 REGEX_CODE_SPACING = re.compile(r'``\s+\w|\w\s+``')
+# Missing space after inline markup (e.g., *FIRST*Tech -> should be *FIRST* Tech)
+# Matches markup followed immediately by uppercase letter or Japanese character
+REGEX_MARKUP_NO_SPACE_AFTER = re.compile(r'(\*\*[^\*]+\*\*|\*[^\*]+\*)([A-Z\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF])', re.UNICODE)
+# Missing space before inline markup (e.g., Text*FIRST* -> should be Text *FIRST*)
+REGEX_MARKUP_NO_SPACE_BEFORE = re.compile(r'([A-Za-z\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF])(\*\*[^\*]+\*\*|\*[^\*]+\*)', re.UNICODE)
 
 
 @dataclass
@@ -242,6 +247,47 @@ class TranslationQualityChecker:
             issues.append(issue)
             self.stats['syntax_errors'] += 1
         
+        # マークアップの後にスペースがない問題
+        # 誤: *FIRST*Tech  正: *FIRST* Tech
+        if REGEX_MARKUP_NO_SPACE_AFTER.search(msgstr):
+            issue = TranslationIssue(
+                po_file=str(po_path.relative_to(PROJECT_ROOT)),
+                entry_id=f"{entry.msgid[:50]}...",
+                msgid=entry.msgid,
+                msgstr=msgstr,
+                issue_type='rst_syntax',
+                severity='error',
+                description='インラインマークアップの直後にスペースがありません（例: *text*Word → *text* Word）',
+                line_number=entry.linenum,
+                suggested_fix=self._fix_markup_missing_space_after(msgstr),
+                auto_fixable=True
+            )
+            issues.append(issue)
+            self.stats['syntax_errors'] += 1
+            self.stats['auto_fixable'] += 1
+        
+        # マークアップの前にスペースがない問題
+        # 誤: Text*FIRST*  正: Text *FIRST*
+        if REGEX_MARKUP_NO_SPACE_BEFORE.search(msgstr):
+            # Check if not already fixed by the "after" check
+            has_after_issue = REGEX_MARKUP_NO_SPACE_AFTER.search(msgstr)
+            if not has_after_issue:
+                issue = TranslationIssue(
+                    po_file=str(po_path.relative_to(PROJECT_ROOT)),
+                    entry_id=f"{entry.msgid[:50]}...",
+                    msgid=entry.msgid,
+                    msgstr=msgstr,
+                    issue_type='rst_syntax',
+                    severity='error',
+                    description='インラインマークアップの直前にスペースがありません（例: Word*text* → Word *text*）',
+                    line_number=entry.linenum,
+                    suggested_fix=self._fix_markup_missing_space_before(msgstr),
+                    auto_fixable=True
+                )
+                issues.append(issue)
+                self.stats['syntax_errors'] += 1
+                self.stats['auto_fixable'] += 1
+        
         return issues
     
     def check_inline_markup(self, entry: polib.POEntry, po_path: Path) -> List[TranslationIssue]:
@@ -312,6 +358,22 @@ class TranslationQualityChecker:
         text = re.sub(r'``\s+', '``', text)
         # `` の前のスペースを削除
         text = re.sub(r'\s+``', '``', text)
+        return text
+    
+    def _fix_markup_missing_space_after(self, text: str) -> str:
+        """マークアップの後のスペース不足を修正"""
+        # **text**Word -> **text** Word
+        text = re.sub(r'(\*\*[^\*]+\*\*)([A-Z\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF])', r'\1 \2', text)
+        # *text*Word -> *text* Word
+        text = re.sub(r'(\*[^\*]+\*)([A-Z\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF])', r'\1 \2', text)
+        return text
+    
+    def _fix_markup_missing_space_before(self, text: str) -> str:
+        """マークアップの前のスペース不足を修正"""
+        # Word**text** -> Word **text**
+        text = re.sub(r'([A-Za-z\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF])(\*\*[^\*]+\*\*)', r'\1 \2', text)
+        # Word*text* -> Word *text*
+        text = re.sub(r'([A-Za-z\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF])(\*[^\*]+\*)', r'\1 \2', text)
         return text
     
     def suggest_fix_with_llm(self, issue: TranslationIssue) -> Optional[str]:

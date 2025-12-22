@@ -439,7 +439,8 @@ msgid ""
 "to start the build process. Note that the build process will build **all of "
 "the .java files** on your Robot Controller."
 msgstr ""
-"もし、あなたのOpModeに満足している場合で、構築を開始する準備ができているなら、「Build」ボタン（レンチのシンボルがついたボタン、下記の画像を参照）を押して構築プロセスを開始してください。なお、構築プロセスはあなたのロボットコントローラー上の**すべての.javaファイル**を構築します。"
+"もし、あなたのOpModeに満足している場合で、構築を開始する準備ができているなら、「Build」ボタン（レンチのシンボルがついたボタン、下記の画像を参照）を押して構築プロセスを開始してください。なお、構築プロセスはあなたのロボットコントローラー上の**すべての.javaファイル**"
+" を構築します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:369
 msgid ""

@@ -31,7 +31,8 @@ msgstr "紹介\\n"
 msgid ""
 "A Library tag stores **Metadata**, a collection of at least 4 fields (of "
 "these Blocks/Java types):"
-msgstr "ライブラリタグは**メタデータ**を保存し、これらのブロックやJava型のうち少なくとも4つのフィールドからなるコレクションを保持します："
+msgstr ""
+"ライブラリタグは**メタデータ** を保存し、これらのブロックやJava型のうち少なくとも4つのフィールドからなるコレクションを保持します："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:10
 msgid "ID code (number/``int``)"
@@ -54,7 +55,7 @@ msgstr "タグサイズと推定位置の単位（``DistanceUnit INCH, MM, CM, M
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:15
 msgid ""
 "Two optional Metadata fields are described at the **Advanced Use** page."
-msgstr "二つの任意のメタデータフィールドは、**高度な使用方法**ページで説明されています。"
+msgstr "二つの任意のメタデータフィールドは、**高度な使用方法** ページで説明されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:17
 msgid ""
@@ -62,7 +63,7 @@ msgid ""
 "**Library** page.  For now it's enough to know the 4 basic elements of "
 "Metadata."
 msgstr ""
-"Metadata ブロックと Java メソッドの完全な使用方法は、**ライブラリ**ページで説明されています。現在のところ、Metadata "
+"Metadata ブロックと Java メソッドの完全な使用方法は、**ライブラリ** ページで説明されています。現在のところ、Metadata "
 "の基本的な 4 要素だけを理解するだけで十分です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:21
@@ -108,11 +109,11 @@ msgstr ""
 msgid ""
 "Before and after Kickoff, a call to ``getCurrentGameTagLibrary()`` will "
 "provide **both sets** of tags."
-msgstr "キックオフ前後で、``getCurrentGameTagLibrary()`` を呼び出すと、**両方のセット**のタグが提供されます。"
+msgstr "キックオフ前後で、``getCurrentGameTagLibrary()``を呼び出すと、**両方のセット**のタグが提供されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:40
 msgid "These three Libraries are discussed further at the **Library** page."
-msgstr "これらの3つのライブラリは、詳しく**ライブラリ**ページで説明されています。\\n"
+msgstr "これらの3つのライブラリは、詳しく**ライブラリ** ページで説明されています。\\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:43
@@ -145,11 +146,7 @@ msgid ""
 "loop, for immediate processing or stored for later use.  See the "
 "**Initialization** page for sample ``for()`` loop code."
 msgstr ""
-"タグIDコードと同じように、タグ名は通常 ``for()`` "
-"ループの中で取得され、即時の処理に使用されますか、後で使用するために保存されます。詳細については、**初期化**ページのサンプル ``for()`` "
-"ループコードをご覧ください。タグIDコードと同じように、タグ名は通常 ``for()`` "
-"ループの中で取得され、即時処理に使用されるか、後で使用するために保存されます。サンプルの ``for()`` "
-"ループコードについては**Initialization**ページを参照してください。"
+"タグIDコードと同じように、タグ名は通常``for()``ループの中で取得され、即時の処理に使用されますか、後で使用するために保存されます。詳細については、**初期化**ページのサンプル``for()``ループコードをご覧ください。タグIDコードと同じように、タグ名は通常``for()``ループの中で取得され、即時処理に使用されるか、後で使用するために保存されます。サンプルの``for()``ループコードについては**Initialization**ページを参照してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:73
 msgid ""
@@ -157,8 +154,8 @@ msgid ""
 "was not placed into the Library by default or with the custom Builder "
 "pattern."
 msgstr ""
-"Unlike tag ID コードとは異なり、検出された AprilTag "
-"には**タグ名が存在しない場合**があります。デフォルトでライブラリに追加されなかったり、カスタムビルダー パターンを使用して追加されなかった場合です。"
+"Unlike tag ID コードとは異なり、検出された AprilTag には**タグ名が存在しない場合** "
+"があります。デフォルトでライブラリに追加されなかったり、カスタムビルダー パターンを使用して追加されなかった場合です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:76
 msgid ""
@@ -166,7 +163,8 @@ msgid ""
 "condition before attempting to process a tag name.  This is illustrated in "
 "these Sample OpModes:"
 msgstr ""
-"論理エラーを避けるために、OpModeはタグ名を処理する前にメタデータで**null**条件を確認できます。これは次のサンプルOpModeで示されています："
+"論理エラーを避けるために、OpModeはタグ名を処理する前にメタデータで**null** "
+"条件を確認できます。これは次のサンプルOpModeで示されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:80
 msgid "Blocks: ``ConceptAprilTag``"

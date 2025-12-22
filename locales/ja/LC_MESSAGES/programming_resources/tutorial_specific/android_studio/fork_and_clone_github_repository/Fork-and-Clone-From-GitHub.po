@@ -657,9 +657,8 @@ msgid ""
 "underlying mechanics, you are much more likely to be able to fix any "
 "subsequent problems."
 msgstr ""
-"リポジトリを更新する方法について説明している多くの基本的なチュートリアルでは、``git pull`` コマンドを使用することがあります。``git "
-"pull`` "
-"コマンドはユーザーの後ろで実際には*fetch*と*merge*を行っています。これ自体は問題ありませんが、*fetching*と*merging*の概念を独立した操作として理解することは有用です。何かがうまくいかない場合でも、基本的なメカニズムについてよく理解していると、その後の問題を修正する可能性が高くなります。"
+"リポジトリを更新する方法について説明している多くの基本的なチュートリアルでは、``git pull``コマンドを使用することがあります。``git "
+"pull``コマンドはユーザーの後ろで実際には*fetch*と*merge*を行っています。これ自体は問題ありませんが、*fetching*と*merging*の概念を独立した操作として理解することは有用です。何かがうまくいかない場合でも、基本的なメカニズムについてよく理解していると、その後の問題を修正する可能性が高くなります。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:317
 msgid "Remotes"
@@ -743,8 +742,8 @@ msgid ""
 "existing software in the repository that you are fetching into, git isolates"
 " the changes in the local repository."
 msgstr ""
-"取得はリモートリポジトリからソフトウェアの変更をダウンロードするプロセスです。特に、取得によってリポジトリ内に取り込んでいる既存のソフトウェアは**変更されません**。git"
-" では、変更はローカルリポジトリ内で隔離されます。"
+"取得はリモートリポジトリからソフトウェアの変更をダウンロードするプロセスです。特に、取得によってリポジトリ内に取り込んでいる既存のソフトウェアは "
+"**変更されません**。git では、変更はローカルリポジトリ内で隔離されます。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-and-Clone-From-GitHub.rst:375
 msgid ""

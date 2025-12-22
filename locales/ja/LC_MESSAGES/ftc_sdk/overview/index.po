@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:7
 msgid "*FIRST* Tech Challenge Software Development Kit"
-msgstr "*FIRST*Tech Challenge ソフトウェア開発キット"
+msgstr "*FIRST* Tech Challenge ソフトウェア開発キット"
 
 #: ../../source/ftc_sdk/overview/index.rst:9
 msgid ""
@@ -45,12 +45,12 @@ msgid ""
 " software and executing it on a *FIRST* Tech Challenge robot. SDK Software "
 "includes:"
 msgstr ""
-"ソフトウェア開発キット（SDK）は、*FIRST*Tech Challenge ロボット上でソフトウェアを開発し実行するためのツールの集合体です。SDK"
-" ソフトウェアには以下のものがあります："
+"ソフトウェア開発キット（SDK）は、*FIRST* Tech Challenge "
+"ロボット上でソフトウェアを開発し実行するためのツールの集合体です。SDK ソフトウェアには以下のものがあります："
 
 #: ../../source/ftc_sdk/overview/index.rst:13
 msgid "*FIRST* Tech Challenge Driver Station App"
-msgstr "*FIRST*Tech Challenge ドライバーステーション アプリケーション"
+msgstr "*FIRST* Tech Challenge ドライバーステーション アプリケーション"
 
 #: ../../source/ftc_sdk/overview/index.rst:15
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/overview/index.rst:17
 msgid "*FIRST* Tech Challenge Robot Controller App"
-msgstr "*FIRST*Tech Challenge ロボットコントローラアプリ"
+msgstr "*FIRST* Tech Challenge ロボットコントローラアプリ"
 
 #: ../../source/ftc_sdk/overview/index.rst:19
 msgid ""
@@ -193,7 +193,8 @@ msgstr ""
 "できるようになりました。ただし、これは一方通行のプッシュであるため、FtcRobotControllerリポジトリへの公開貢献（`Pull "
 "Request <https://docs.github.com/en/pull-requests/collaborating-with-pull-"
 "requests/proposing-changes-to-your-work-with-pull-requests/about-pull-"
-"requests>`__）は受け付けられません。コミュニティは自由に、そして推奨されるように、リポジトリで*技術チーム*が考慮し対応するための問題を提出できます。"
+"requests>`__）は受け付けられません。コミュニティは自由に、そして推奨されるように、リポジトリで*技術チーム* "
+"が考慮し対応するための問題を提出できます。"
 
 #: ../../source/ftc_sdk/overview/index.rst:72
 msgid ""
@@ -227,7 +228,7 @@ msgid ""
 "*FIRST* Tech Challenge Kickoff. The Kickoff SDK is typically the minimal "
 "software version required for use during the season."
 msgstr ""
-"**キックオフSDKリリース**- 通常、 *FIRST* Tech Challenge "
+"**キックオフSDKリリース**- 通常、*FIRST*Tech Challenge "
 "キックオフから約1週間または2週間後に一般公開されます。キックオフSDKはシーズン中における使用に必要な最小限のソフトウェアバージョンです。"
 
 #: ../../source/ftc_sdk/overview/index.rst:89
@@ -320,7 +321,9 @@ msgid ""
 " the Release Notes is a way for the *Technology Team* to notify teams that "
 "the workaround is no longer necessary."
 msgstr ""
-"SDKのほぼすべてのリリースにはバグ修正が含まれていますが、*技術チーム*が重要なバグ修正の可視性を高めたい場合、それはリリースノートのバグ修正セクションに含まれます。バグに回避策が必要だった場合、チームのコードが影響を受けることがあります。リリースノートで強調することは、*技術チーム*が各チームに回避策がもはや不要であることを通知する方法です。"
+"SDKのほぼすべてのリリースにはバグ修正が含まれていますが、*技術チーム* "
+"が重要なバグ修正の可視性を高めたい場合、それはリリースノートのバグ修正セクションに含まれます。バグに回避策が必要だった場合、チームのコードが影響を受けることがあります。リリースノートで強調することは、*技術チーム*"
+" が各チームに回避策がもはや不要であることを通知する方法です。"
 
 #: ../../source/ftc_sdk/overview/index.rst:138
 msgid "Updating SDK Software"

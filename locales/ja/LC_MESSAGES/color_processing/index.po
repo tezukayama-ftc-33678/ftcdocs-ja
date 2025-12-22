@@ -34,7 +34,8 @@ msgid ""
 "library for vision processing."
 msgstr ""
 "FIRST Tech Challenge "
-"SDKソフトウェア（バージョン10.1以降）には、人気のある且つ強力なビジョン処理用オープンソースライブラリOpenCVから一部の**色処理**機能が含まれています。"
+"SDKソフトウェア（バージョン10.1以降）には、人気のある且つ強力なビジョン処理用オープンソースライブラリOpenCVから一部の**色処理** "
+"機能が含まれています。"
 
 #: ../../source/color_processing/index.rst:11
 msgid ""
@@ -42,7 +43,7 @@ msgid ""
 "Challenge teams **identify colors** and **process color blobs**\\ , useful "
 "in any game requiring color and shape recognition."
 msgstr ""
-" Introduced with INTO THE DEEP, these new features will help *FIRST* Tech "
+" Introduced with INTO THE DEEP, these new features will help*FIRST*Tech "
 "Challenge teams**identify colors**and**process color blobs**\\ , useful in "
 "any game requiring color and shape recognition."
 
@@ -134,8 +135,8 @@ msgid ""
 "``ConceptVisionColorLocator_Rectangle`` and "
 "``ConceptVisionColorLocator_Circle``."
 msgstr ""
-"色検出プロセッサーにおいて、色の「クラスタ」は**Blobs**と呼ばれます。上記のリストに従って、このチュートリアルでは色**Blob**の概念について1ページを、そしてSample"
-" "
+"色検出プロセッサーにおいて、色の「クラスタ」は**Blobs** と呼ばれます。上記のリストに従って、このチュートリアルでは色**Blob** "
+"の概念について1ページを、そしてSample "
 "OpModesである``ConceptVisionColorLocator_Rectangle``と``ConceptVisionColorLocator_Circle``に関する4ページを提供しています。"
 
 #: ../../source/color_processing/index.rst:64
@@ -144,7 +145,7 @@ msgid ""
 "use in OnBot Java or Android Studio.  Each programming section of this "
 "tutorial has a Blocks tab and a Java tab."
 msgstr ""
-"サンプルのOpModeは、**FTC Blocks**と**Java**で利用可能です。OnBot JavaやAndroid "
+"サンプルのOpModeは、**FTC Blocks** と**Java** で利用可能です。OnBot JavaやAndroid "
 "Studioで使用できます。このチュートリアルの各プログラミングセクションには、BlocksタブとJavaタブがあります。"
 
 #: ../../source/color_processing/index.rst:69
@@ -167,7 +168,7 @@ msgstr ""
 msgid ""
 "Then read about **Color Blob Concepts**\\ , and try the **Color Locator** "
 "Sample OpModes."
-msgstr "次に、**色のブロブ概念**について読み、**色検出サンプルオモード**を試してみてください。"
+msgstr "次に、**色のブロブ概念** について読み、**色検出サンプルオモード** を試してみてください。"
 
 #: ../../source/color_processing/index.rst:79
 msgid ""

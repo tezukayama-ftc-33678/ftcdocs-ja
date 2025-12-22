@@ -40,8 +40,8 @@ msgid ""
 " named PanTiltHolder. This class has two fields, named pan and tilt, of type"
 " integer."
 msgstr ""
-"ウェブカメラはパンとチルトを (x, y) "
-"のペアとして受け付けます。したがって、SDKのパンとチルトメソッドはこれらの値を**ペアとしてのみ**処理し、特別なクラスPanTiltHolderで管理します。このクラスには、整数型のフィールドpanとtiltがあります。"
+"ウェブカメラはパンとチルトを (x, y) のペアとして受け付けます。したがって、SDKのパンとチルトメソッドはこれらの値を**ペアとしてのみ** "
+"処理し、特別なクラスPanTiltHolderで管理します。このクラスには、整数型のフィールドpanとtiltがあります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:14
 msgid "Here’s an example to illustrate using the basic methods:"

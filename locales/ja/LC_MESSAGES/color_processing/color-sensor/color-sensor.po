@@ -33,8 +33,8 @@ msgid ""
 "Sensor\".  Namely, it can determine **the color seen by the robot's "
 "camera**\\ , in a specified zone."
 msgstr ""
-"FTCの新しいOpenCVビジョンツールを簡単に活用する方法は、「色センサー」を使用することです。つまり、指定されたゾーンでロボットのカメラが見ている**色を判定**\\"
-" できます。"
+"FTCの新しいOpenCVビジョンツールを簡単に活用する方法は、「色センサー」を使用することです。つまり、指定されたゾーンでロボットのカメラが見ている "
+"**色を判定**\\ できます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:11
 msgid "Below, the small central rectangle is the region being evaluated:"
@@ -248,7 +248,7 @@ msgstr ""
 msgid ""
 "**It's working!**  You have a color sensor in your robot camera.  Think "
 "about how to use this in the FTC Robot Game."
-msgstr "**動いています！**ロボットカメラに色センサーがあります。FTCロボットゲームでどのように使用するか考えみてください。"
+msgstr "**動いています！** ロボットカメラに色センサーがあります。FTCロボットゲームでどのように使用するか考えみてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:129
 msgid ""
@@ -265,8 +265,8 @@ msgid ""
 "showing how to view the OpenCV results with **previews**.  Previewing is "
 "essential for working with vision code."
 msgstr ""
-"このページでは、OpMode を修正する方法を説明する前に、OpenCV "
-"の結果を確認するための**プレビュー**を使用した2つのセクションを提供しています。プレビューはビジョンコードを使用する上で重要です。"
+"このページでは、OpMode を修正する方法を説明する前に、OpenCV の結果を確認するための**プレビュー** "
+"を使用した2つのセクションを提供しています。プレビューはビジョンコードを使用する上で重要です。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:138
 msgid "**Opening the DS Preview**"
@@ -294,7 +294,8 @@ msgid ""
 "Interest** (ROI).  The ROI border color is the rectangle's predominant "
 "color, reported to DS Telemetry."
 msgstr ""
-"画像に描かれているのは評価中の長方形で、これは**興味領域**(ROI)と呼ばれます。ROIの境界線色は長方形の主な色であり、これをドライバーステーションのテレメトリに報告します。"
+"画像に描かれているのは評価中の長方形で、これは "
+"**興味領域**(ROI)と呼ばれます。ROIの境界線色は長方形の主な色であり、これをドライバーステーションのテレメトリに報告します。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:155
 msgid ""
@@ -338,7 +339,7 @@ msgid ""
 "\"screen copy\") to see the preview on a laptop or computer that's connected"
 " via Wi-Fi to the Control Hub."
 msgstr ""
-"物理的な画面がなく、因此、HDMI モニターを接続する**か**、Wi-Fi "
+"物理的な画面がなく、因此、HDMI モニターを接続する **か**、Wi-Fi "
 "でコントロールハブに接続されたノートパソコンやコンピュータ上でプレビューを見るためにオープンソースの `scrcpy "
 "<https://github.com/Genymobile/scrcpy>`_（「スクリーンコピー」と呼ばれる）を使用する必要があります。"
 
@@ -350,7 +351,7 @@ msgstr "サンプルを編集"
 msgid ""
 "This Sample OpMode is designed for the user to select/edit **two inputs**\\ "
 ":"
-msgstr "このサンプルOpModeは、ユーザーが**2つの入力**を選択/編集できるように設計されています："
+msgstr "このサンプルOpModeは、ユーザーが**2つの入力** を選択/編集できるように設計されています："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:189
 msgid "define the Region of Interest (ROI)"
@@ -380,7 +381,7 @@ msgstr "正規化された+/-1.0座標系で定義されたサブ領域"
 msgid ""
 "For the **second input**, you must list the candidate colors from which a "
 "result will be selected as a \"Match\"."
-msgstr "第二入力**で**, 候補色をリストし、それから選ばれる結果が「一致」として扱われるものとして挙げてください。"
+msgstr "第二入力 **で**, 候補色をリストし、それから選ばれる結果が「一致」として扱われるものとして挙げてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:201
 msgid ""
@@ -395,7 +396,8 @@ msgid ""
 "**The Blocks and Java OpModes contain detailed comments to guide you through"
 " these edits.**  They are not repeated in this tutorial."
 msgstr ""
-"**ブロックとJavaOpModeには、これらの編集手順をガイドする詳細なコメントが含まれています。**これらはこのチュートリアルでは繰り返されません。"
+"**ブロックとJavaOpModeには、これらの編集手順をガイドする詳細なコメントが含まれています。** "
+"これらはこのチュートリアルでは繰り返されません。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:209
 msgid "Building the VisionPortal"
@@ -407,8 +409,8 @@ msgid ""
 "the **Builder** pattern.  This is the same Builder pattern used to create an"
 " AprilTag Processor, and previously a TensorFlow Processor."
 msgstr ""
-"サンプルのOpモードは、「 Predominant Color "
-"」**プロセッサー**を作成するために**ビルダー**パターンを使用します。これは、AprilTagプロセッサーおよび以前のTensorFlowプロセッサーを作成する際に使用したビルダーパターンと同じものです。"
+"サンプルのOpモードは、「 Predominant Color 」**プロセッサー** を作成するために**ビルダー** "
+"パターンを使用します。これは、AprilTagプロセッサーおよび以前のTensorFlowプロセッサーを作成する際に使用したビルダーパターンと同じものです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:215
 msgid ""
@@ -416,7 +418,7 @@ msgid ""
 "pattern.  This includes adding the \"Predominant Color\" Processor to the "
 "VisionPortal."
 msgstr ""
-"サンプルのOpModeでは、**VisionPortal**を再びビルダー模式を使って作成します。これには、「 Predominant Color」 "
+"サンプルのOpModeでは、**VisionPortal** を再びビルダー模式を使って作成します。これには、「 Predominant Color」 "
 "プロセッサーをVisionPortalに追加する処理が含まれます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:219
@@ -452,7 +454,7 @@ msgstr ""
 msgid ""
 "**Testing**, or comparing, for a particular color-match must be done as "
 "follows.  Select and read the Blocks **or** Java section below:"
-msgstr "**テスト**、特定の色合いに一致するか比較するには、以下のブロック**または**ジAVAセクションを参照してください。"
+msgstr "**テスト**、特定の色合いに一致するか比較するには、以下のブロック** または**ジAVAセクションを参照してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:241
 msgid ""
@@ -478,8 +480,8 @@ msgid ""
 "like text!).  It's a type called ``Swatch`` and can be compared only to "
 "another ``Swatch``."
 msgstr ""
-"なぜか？ 結果は ``closestSwatch`` と呼ばれ、実際には**テキスト**ではありません（確かにテキストのようです）。これは "
-"``Swatch``という型で、他の ``Swatch`` とのみ比較できます。"
+"なぜか？ "
+"結果は``closestSwatch``と呼ばれ、実際には**テキスト**ではありません（確かにテキストのようです）。これは``Swatch``という型で、他の``Swatch``とのみ比較できます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:259
 msgid "In the sample OpMode, here's the Telemetry that gives the result:"
@@ -520,7 +522,7 @@ msgstr "色を見つけた場合にロボットが実行するアクション"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:286
 msgid "If so, select and read the Blocks **or** Java section below:"
-msgstr "もし如此の場合は、下記のブロック**または**ジAVAセクションを選択して読み進めてください："
+msgstr "もし如此の場合は、下記のブロック**または** ジAVAセクションを選択して読み進めてください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:292
 msgid "Beginners often try this first:"
@@ -588,7 +590,7 @@ msgstr "高度な使用方法"
 msgid ""
 "Some teams may prefer to read and evaluate the **actual RGB color values**, "
 "rather than rely on a generic Swatch result."
-msgstr "一部のチームは、一般的なスウォッチ結果に頼るよりも、実際のRGB色値を読み取り評価する**ことを好むかもしれません**。"
+msgstr "一部のチームは、一般的なスウォッチ結果に頼るよりも、実際のRGB色値を読み取り評価する **ことを好むかもしれません**。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:354
 msgid ""
@@ -596,7 +598,7 @@ msgid ""
 "and Blue.  Values range from 0 to 255.  For more info, see this tutorial's "
 ":doc:`Color Spaces <../color-spaces/color-spaces>` page."
 msgstr ""
-"RGBは**色空間**で、赤、緑、青の3つの数値成分を使用します。各値は0から255までの範囲です。詳細については、このチュートリアルの "
+"RGBは**色空間** で、赤、緑、青の3つの数値成分を使用します。各値は0から255までの範囲です。詳細については、このチュートリアルの "
 ":doc:`色空間 <../color-spaces/color-spaces>` ページを参照してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:358
@@ -622,7 +624,8 @@ msgid ""
 "method name is ``.rgb``\\ )."
 msgstr ""
 "Note: "
-"「Color」ブロックにはHue、Saturation、Valueが含まれるドロップダウンリストがあります。これらの設定は、HSV色空間の成分を生成するためにここでは**使えません**。ソースブロックはRGB色のみを提供するため（そのメソッド名は``.rgb``です）。"
+"「Color」ブロックにはHue、Saturation、Valueが含まれるドロップダウンリストがあります。これらの設定は、HSV色空間の成分を生成するためにここでは"
+" **使えません**。ソースブロックはRGB色のみを提供するため（そのメソッド名は``.rgb``です）。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:382
 msgid "``Color.red(result.rgb)``"
@@ -656,7 +659,7 @@ msgstr "次節へ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:395
 msgid "Soon you can move ahead to try the **Color Locator** processor."
-msgstr "不久後、**Color Locator**プロセッサーを試すことができます。"
+msgstr "不久後、**Color Locator** プロセッサーを試すことができます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:397
 msgid ""

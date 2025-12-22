@@ -121,7 +121,8 @@ msgid ""
 "Refer to the Competition Manual for a list of *FIRST*-approved phones that "
 "support channel changing through the software."
 msgstr ""
-"すべてのAndroidスマートフォンがソフトウェアを通じてチャンネル変更をサポートしているわけではありません。競技マニュアルをご覧ください。そこで、ソフトウェアを通じてチャンネル変更をサポートする*FIRST*認定のスマートフォンの一覧が掲載されています。"
+"すべてのAndroidスマートフォンがソフトウェアを通じてチャンネル変更をサポートしているわけではありません。競技マニュアルをご覧ください。そこで、ソフトウェアを通じてチャンネル変更をサポートする*FIRST*"
+" 認定のスマートフォンの一覧が掲載されています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:75
 msgid "Changing the WiFi Channel Instructions"
@@ -144,13 +145,14 @@ msgid ""
 "screen and click on the words *Advanced Settings* to display the *ADVANCED "
 "ROBOT CONTROLLER SETTINGS* activity."
 msgstr ""
-"3.*ロボットコントローラー設定*セクションまでスクロールし、*設定*スクリーンの*高度な設定*という言葉をクリックして、*高度なロボットコントローラー設定*アクティビティを表示します。"
+"3.*ロボットコントローラー設定* セクションまでスクロールし、*設定* スクリーンの*高度な設定* "
+"という言葉をクリックして、*高度なロボットコントローラー設定* アクティビティを表示します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:93
 msgid ""
 "4. Click on the *Change Wifi Channel* link to display a list of available "
 "channels."
-msgstr "4.*Wi-Fiチャンネル変更*リンクをクリックして、利用可能なチャンネルの一覧を表示します。"
+msgstr "4.*Wi-Fiチャンネル変更* リンクをクリックして、利用可能なチャンネルの一覧を表示します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:101
 msgid ""
@@ -280,7 +282,7 @@ msgid ""
 "system/updating-firmware#using-the-robot-controller-console>`__."
 msgstr ""
 "代替として、ラップトップやドライバーステーション（DS）を使用してロボットコントローラーのスマホにUSB経由でExpansion "
-"Hubを接続し、*管理*インターフェースから操作することができます。管理ページでは、Expansion "
+"Hubを接続し、*管理* インターフェースから操作することができます。管理ページでは、Expansion "
 "Hubのファームウェアをアップロードしたり、含まれているものやアップロードしたものを使用して更新することができます。新しいファームウェアイメージは、「<https://docs.revrobotics.com/duo-"
 "control/managing-the-control-system/updating-firmware#using-the-robot-"
 "controller-console>`__` からREVロボティクスのウェブサイトで取得できます」。"
@@ -325,7 +327,7 @@ msgstr "ファイルを選択した後、_アップロード_ ボタンが表示
 msgid ""
 "2. Press the *Upload* button to upload the firmware file from your computer "
 "to the Robot Controller."
-msgstr "2.*アップロード*ボタンを押して、コンピュータからロボットコントローラにファームウェアファイルをアップロードします。"
+msgstr "2.*アップロード* ボタンを押して、コンピュータからロボットコントローラにファームウェアファイルをアップロードします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:228
 msgid ""
@@ -344,7 +346,7 @@ msgstr ""
 "3. Expansion Hubが電源オンになっており、完全に充電された12Vバッテリーで電源供給されていることを確認してください。また、Robot "
 "Controllerスマートフォンが、USB接続を通じてExpansion "
 "Hubに接続されていることを確認してください。注意：更新を実行するために、Robot "
-"ControllerのアクティブなConfigurationファイルにExpansion Hubを含める必要は**ありません**。"
+"ControllerのアクティブなConfigurationファイルにExpansion Hubを含める必要は **ありません**。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:242
 msgid ""
@@ -369,7 +371,7 @@ msgstr ""
 msgid ""
 "7. Select the *Expansion Hub Firmware Update* item on the *ADVANCED ROBOT "
 "CONTROLLER SETTINGS* activity."
-msgstr "7.*高度なロボットコントローラ設定*アクティビティ内の*展開ハブファームウェア更新*項目を選択してください。"
+msgstr "7.*高度なロボットコントローラ設定* アクティビティ内の*展開ハブファームウェア更新* 項目を選択してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:274
 msgid ""
@@ -381,7 +383,7 @@ msgid ""
 msgstr ""
 "8. 現在のExpansion "
 "Hubにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を見せてください。*Expansion"
-" Hubファームウェアを更新*ボタンを押すことで更新プロセスを開始できます。"
+" Hubファームウェアを更新* ボタンを押すことで更新プロセスを開始できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:285
 msgid ""
@@ -412,8 +414,8 @@ msgid ""
 "option on the Robot Controller or Driver Station and note the App Version "
 "number under the *ABOUT ROBOT CONTROLLER* section."
 msgstr ""
-"ロボットコントローラーアプリケーションのバージョン番号は、ロボットコントローラーやドライバーステーションのユーザーインターフェースから確認できます。ロボットコントローラーやドライバーステーションで*About*メニューを選択し、「ABOUT"
-" ROBOT CONTROLLER」セクションのApp Version番号を確認してください。"
+"ロボットコントローラーアプリケーションのバージョン番号は、ロボットコントローラーやドライバーステーションのユーザーインターフェースから確認できます。ロボットコントローラーやドライバーステーションで*About*"
+" メニューを選択し、「ABOUT ROBOT CONTROLLER」セクションのApp Version番号を確認してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:314
 msgid ""
@@ -528,8 +530,8 @@ msgid ""
 "Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__."
 msgstr ""
 "校正ファイルの内容がどのようなものであるべきかをコメント付きで示した例は、Android "
-"Studioプロジェクトフォルダに含まれている*teamwebcamcalibrations.xml*ファイルにあります。この例としての校正ファイルは "
-"`こちら <https://github.com/FIRST-Tech-"
+"Studioプロジェクトフォルダに含まれている*teamwebcamcalibrations.xml* ファイルにあります。この例としての校正ファイルは"
+" `こちら <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/blob/master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml>`__"
 " で見つけることができます。"
 

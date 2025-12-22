@@ -263,7 +263,7 @@ msgstr "画像"
 msgid ""
 "Browse the list of available apps on the smartphone and locate the Settings "
 "icon. Click on Settings icon to display the Settings screen."
-msgstr "スマートフォンの利用可能なアプリ一覧から、**設定**アイコンを探し出します。**設定**アイコンをクリックして、設定画面を開きます。"
+msgstr "スマートフォンの利用可能なアプリ一覧から、**設定** アイコンを探し出します。**設定** アイコンをクリックして、設定画面を開きます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:110
 msgid "|rename1|"
@@ -271,7 +271,7 @@ msgstr "|rename1|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:112
 msgid "Click on **Wi-Fi** to launch the Wi-Fi screen."
-msgstr "**Wi-Fi**をクリックしてWi-Fi画面を開きます。"
+msgstr "**Wi-Fi** をクリックしてWi-Fi画面を開きます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:113
 msgid "|rename2|"
@@ -288,7 +288,7 @@ msgstr "|rename3|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:118
 msgid "Select **Advanced** from the pop-up menu."
-msgstr "ポップアップメニューから**詳細設定**を選択します。"
+msgstr "ポップアップメニューから**詳細設定** を選択します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:119
 msgid "|rename4|"
@@ -296,7 +296,7 @@ msgstr "|rename4|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:121
 msgid "Select **Wi-Fi Direct** from the **Advanced Wi-Fi** screen."
-msgstr "選択する**Wi-Fi Direct**from the**Advanced Wi-Fi**screen."
+msgstr "選択する**Wi-Fi Direct**from the** Advanced Wi-Fi**screen."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:122
 msgid "|rename5|"
@@ -308,7 +308,7 @@ msgstr "|rename6|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:127
 msgid "Select **Configure Device** from the pop-up menu."
-msgstr "選択する**Configure Device**from the pop-up menu."
+msgstr "選択する **Configure Device**from the pop-up menu."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:128
 msgid "|rename7|"
@@ -327,7 +327,8 @@ msgid ""
 msgstr ""
 "デバイスの新しい名前をタッチパッドで入力してください。このデバイスがロボットコントローラの場合、チーム番号と-"
 "RCを指定します。このデバイスがドライバステーションの場合、チーム番号と-DSを指定します。Wi-Fi "
-"Directの非アクティブタイムアウトを**永遠に切断しない**に設定し、その後、「SAVE」ボタンを押して変更を保存できます。右側に示したスクリーンショットでは、チーム番号は9999です。「-C」はこのチームの3台目のスマートフォンから来ていることを示します。「-RC」はこのスマホがロボットコントローラであることを示します。"
+"Directの非アクティブタイムアウトを**永遠に切断しない** "
+"に設定し、その後、「SAVE」ボタンを押して変更を保存できます。右側に示したスクリーンショットでは、チーム番号は9999です。「-C」はこのチームの3台目のスマートフォンから来ていることを示します。「-RC」はこのスマホがロボットコントローラであることを示します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:131
 msgid "|rename8|"
@@ -339,7 +340,7 @@ msgstr "スマホの名前を変更後、デバイスを再起動してくださ
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:138
 msgid "Installing the *FIRST* Tech Challenge Apps"
-msgstr "*FIRST*Tech Challenge アプリのインストール"
+msgstr "*FIRST* Tech Challenge アプリのインストール"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:140
 msgid ""
@@ -474,7 +475,7 @@ msgstr ""
 "client/>`__ のソフトウェアは、Android フォンにアプリをインストール、アンインストール、および `更新するためのツールです "
 "<https://docs.revrobotics.com/rev-hardware-client/android-device/installing-"
 "rc-ds-applications>`__ 。ただし、REV Hardware Client "
-"ソフトウェアでフォンが正しく認識され、更新されるためには**開発者オプション**が必要です。開発者オプションを有効にする手順は以下の通りです："
+"ソフトウェアでフォンが正しく認識され、更新されるためには**開発者オプション** が必要です。開発者オプションを有効にする手順は以下の通りです："
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:198
 msgid "devop1"
@@ -774,7 +775,7 @@ msgid ""
 "Touch the words **Control Hub** to indicate that this DRIVER STATION will be"
 " pairing with a Control Hub."
 msgstr ""
-"Touch the words**Control Hub**to indicate that this DRIVER STATION will be "
+"Touch the words **Control Hub**to indicate that this DRIVER STATION will be "
 "pairing with a Control Hub."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:329
@@ -828,9 +829,9 @@ msgid ""
 " have access to the Internet."
 msgstr ""
 "When prompted, specify the password for the Control Hub's WiFi network and "
-"press**接続**to connect to the Hub. なお、Control Hubネットワークのデフォルトパスワードは "
-"``password`` です。また、Control HubのWiFiネットワークに成功して接続すると、DRIVER "
-"STATIONにはインターネットへのアクセスが制限されます。"
+"press**接続**to connect to the Hub. なお、Control "
+"Hubネットワークのデフォルトパスワードは``password``です。また、Control "
+"HubのWiFiネットワークに成功して接続すると、DRIVER STATIONにはインターネットへのアクセスが制限されます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:341
 msgid "|pairing11|"
@@ -980,7 +981,7 @@ msgstr ""
 "the**FTC Robot Controller**icon. Tap on the icon to launch the Robot "
 "Controller app. Note that the first time you launch the app your Android "
 "device might prompt you for permissions that the app will need to run "
-"properly. Whenever prompted, press**Allow**to grant the requested "
+"properly. Whenever prompted, press** Allow**to grant the requested "
 "permission."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:400
@@ -1028,7 +1029,7 @@ msgid ""
 "Verify that the **Wifi Direct** mode is selected, which means that this "
 "DRIVER STATION will be pairing with another Android device."
 msgstr ""
-"**Wifi Direct**モードが選択されていることを確認してください。これにより、このDRIVER "
+"**Wifi Direct** モードが選択されていることを確認してください。これにより、このDRIVER "
 "STATIONは他のAndroidデバイスとペアリングされます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:418
@@ -1066,8 +1067,8 @@ msgid ""
 "connection request from the DRIVER STATION."
 msgstr ""
 "DRIVER STATION "
-"がメイン画面に戻ったとき、ロボットコントローラーのスクリーンに接続要求が表示されるべきです。ロボットコントローラーのスクリーン上で**ACCEPT**ボタンをクリックして、DRIVER"
-" STATION 従っての接続リクエストを受け入れてください。"
+"がメイン画面に戻ったとき、ロボットコントローラーのスクリーンに接続要求が表示されるべきです。ロボットコントローラーのスクリーン上で**ACCEPT** "
+"ボタンをクリックして、DRIVER STATION 従っての接続リクエストを受け入れてください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:427
 msgid "|pairingns10|"

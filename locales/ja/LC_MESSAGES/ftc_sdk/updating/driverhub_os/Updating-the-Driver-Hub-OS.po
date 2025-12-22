@@ -35,7 +35,7 @@ msgid ""
 "updates for the Driver Hub in order to perform correctly."
 msgstr ""
 "オペレーティングシステム（OS）は、コンピュータの基本的な機能をサポートするソフトウェアで、タスクのスケジューリング、アプリケーションの実行、周辺機器の制御などを行います。これは時々**REV"
-" Driver Hub**に更新が必要です。このOSの更新は特に :doc:`Software Development Kit (SDK) "
+" Driver Hub** に更新が必要です。このOSの更新は特に :doc:`Software Development Kit (SDK) "
 "</ftc_sdk/overview/index>` の一部ではありませんが、SDKはDriver "
 "Hubに対してこれらの更新を必要とし、適切に動作するためです。"
 
