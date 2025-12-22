@@ -33,7 +33,7 @@ make clean > /dev/null 2>&1
 
 # 日本語版ビルド
 echo "日本語版ビルド中（数分かかる場合があります）..."
-make html-ja 2>&1 | tee build.log > /dev/null
+make html-ja > build.log 2>&1
 
 # 警告数を取得
 WARNING_COUNT=$(grep "build succeeded" build.log | grep -oP '\d+(?= warnings)' || echo "0")
@@ -70,7 +70,7 @@ echo "======================================"
 echo "英語のまま残っているテキストを検出中..."
 
 # 未翻訳検出
-python tools/analysis/detect_untranslated.py --check 2>&1 | head -30 > reports/untranslated_summary.txt
+python tools/analysis/detect_untranslated.py --check > reports/untranslated_summary.txt 2>&1
 echo -e "${GREEN}✓ 検出完了${NC}"
 echo ""
 

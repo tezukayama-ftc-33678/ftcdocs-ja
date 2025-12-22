@@ -198,7 +198,7 @@ class TranslationReflectionDetector:
                         match_count = sum(1 for word in msgstr_words if word in html_text)
                         if match_count >= len(msgstr_words) * 0.5:
                             is_reflected = True
-                            break
+                            break  # 早期終了
             
             if is_reflected:
                 self.stats['reflected'] += 1
