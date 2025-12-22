@@ -84,8 +84,7 @@ msgid ""
 " the webcam’s firmware. Note that firmware settings may vary among different"
 " versions of the same webcam model."
 msgstr ""
-"最小ゲインと最大ゲインには ``set()`` "
-"メソッドがありません；これらはウェブカムのファームウェアで固有に設定されています。なお、同じモデルのウェブカムの異なるバージョン間ではファームウェア設定が異なり得ます。"
+"最小ゲインと最大ゲインには``set()``メソッドがありません；これらはウェブカムのファームウェアで固有に設定されています。なお、同じモデルのウェブカムの異なるバージョン間ではファームウェア設定が異なり得ます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:33
 msgid ""
