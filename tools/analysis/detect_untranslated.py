@@ -20,8 +20,8 @@ import difflib
 
 # プロジェクトルート
 SCRIPT_DIR = Path(__file__).parent
-DOCS_ROOT = SCRIPT_DIR.parent
-PROJECT_ROOT = DOCS_ROOT.parent
+PROJECT_ROOT = SCRIPT_DIR.parent.parent  # tools/analysis -> tools -> project root
+DOCS_ROOT = PROJECT_ROOT / "docs"
 
 # ビルドディレクトリ
 HTML_EN = DOCS_ROOT / "build" / "html"
