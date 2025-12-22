@@ -164,9 +164,33 @@ python tools/analysis/analyze_translation_issues.py build.log --json issues.json
 
 ## 自動修正の可能性
 
-### ローカルLLMを使用した修正
+### ローカルLLMを使用した自動修正 ⭐ NEW
 
-VRAM 8GBのローカルLLMを使用して、段階的に修正できます：
+**新しい統合ツール**を使用して、検出された問題をローカルLLMで自動的に修正できます：
+
+```bash
+# ステップ1: 問題を分析してJSON出力
+python tools/analysis/analyze_translation_issues.py docs/build.log --json issues.json
+
+# ステップ2: LLMで自動修正（10件ずつ推奨）
+python tools/integration/fix_issues_with_llm.py issues.json --limit 10 --dry-run  # 確認
+python tools/integration/fix_issues_with_llm.py issues.json --limit 10             # 実行
+
+# ステップ3: ビルドして結果を確認
+cd docs && make clean && make html-ja 2>&1 | grep "build succeeded"
+```
+
+**機能**:
+- CRITICAL/HIGH問題を優先的に修正
+- 日本語ラベル参照、ドキュメントパス問題に特化
+- ドライラン機能で安全に確認
+- 段階的修正（10-20件ずつ推奨）
+
+**詳細**: [tools/integration/README.md](../tools/integration/README.md)
+
+### 既存のLLMツール（個別修正用）
+
+VRAM 8GBのローカルLLMを使用して、個別に修正することもできます：
 
 ```bash
 # Ollamaがインストールされている場合
@@ -174,7 +198,7 @@ ollama pull qwen2.5:7b-instruct-q5_K_M
 
 # LLMによる修正（慎重に、少量ずつ）
 python tools/po-fixing/fix_po_with_llm.py \
-  --issues translation_issues.json \
+  --issues po_issues.json \
   --types undefined_label \
   --limit 10
 ```
@@ -183,6 +207,18 @@ python tools/po-fixing/fix_po_with_llm.py \
 - LLMは完璧ではないため、少量（10-20件）ずつ修正
 - 各修正後にビルドして警告が増えていないか確認
 - 悪化した場合は中止してロールバック
+
+### 推奨アプローチ
+
+**統合ツール**（`fix_issues_with_llm.py`）を使用することを強く推奨します：
+- 分析結果と直接統合
+- CRITICAL問題に特化
+- より安全で使いやすい
+- 段階的修正をサポート
+
+**既存ツール**（`fix_po_with_llm.py`）は以下の場合に使用：
+- 個別のPOファイルを修正したい場合
+- カスタムな修正ルールが必要な場合
 
 ### 手動修正推奨のケース
 

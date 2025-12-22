@@ -4,6 +4,27 @@
 
 ## 📁 ディレクトリ構成
 
+### `integration/` - LLM統合ツール ⭐ NEW
+ローカルLLM（Ollama）を使用した自動修正ツール
+
+**主要スクリプト:**
+- **`fix_issues_with_llm.py`** - 翻訳問題をLLMで自動修正
+  - `analyze_translation_issues.py`の出力を使用
+  - CRITICAL/HIGH問題を段階的に修正
+  - ドライラン機能で安全に確認
+
+**使い方:**
+```bash
+# 問題を分析
+python tools/analysis/analyze_translation_issues.py docs/build.log --json issues.json
+
+# LLMで自動修正（10件ずつ推奨）
+python tools/integration/fix_issues_with_llm.py issues.json --limit 10 --dry-run
+python tools/integration/fix_issues_with_llm.py issues.json --limit 10
+```
+
+詳細は [integration/README.md](integration/README.md) を参照してください。
+
 ### `translation/` - 翻訳ツール
 自動翻訳とLLMベースの翻訳支援ツール
 
