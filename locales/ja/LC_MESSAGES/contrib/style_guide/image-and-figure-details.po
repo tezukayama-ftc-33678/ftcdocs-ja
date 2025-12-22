@@ -70,8 +70,8 @@ msgid ""
 "screen readers to ignore the image, which is appropriate when the image is "
 "just there for visual presentation."
 msgstr ""
-"もし本当にデコレーション用の画像が必要な場合は、``.. image`` ディレクティブを使用し、 ** :alt: ** "
-"オプションと共に空白のテキストを含めてください。空白の alt "
+"もし本当にデコレーション用の画像が必要な場合は、``.. image`` "
+"ディレクティブを使用し、**:alt:**オプションと共に空白のテキストを含めてください。空白の alt "
 "文字列はスクリーンリーダーが画像を無視するため、単なる視覚的な表示のために画像がある場合に適しています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:29
@@ -97,8 +97,7 @@ msgid ""
 "``:alt:`` option and provide text that describes the image. This is all you "
 "need for basic images."
 msgstr ""
-"キャプションが不要な場合は、画像ディレクティブを使用できます。``:alt:`` "
-"オプションを追加し、画像を説明するテキストを提供します。これで基本的な画像は完了です。"
+"キャプションが不要な場合は、画像ディレクティブを使用できます。``:alt:``オプションを追加し、画像を説明するテキストを提供します。これで基本的な画像は完了です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:52
 msgid ""
@@ -123,7 +122,7 @@ msgid ""
 msgstr ""
 "スphinxsは、``:alt:``オプションを指定しない場合、画像のパスとファイル名をaltテキストとして設定します。HTMLは以下のようになります：``<img"
 " alt=\"../_images/GoodStuff.png\" "
-"src=\"../_images/GoodStuff.png\">``。スクリーンリーダーはaltテキスト ** ../_images/GoodStuff.png ** を読み上げます。"
+"src=\"../_images/GoodStuff.png\">``。スクリーンリーダーはaltテキスト**../_images/GoodStuff.png**を読み上げます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:62
 msgid ""
@@ -132,8 +131,7 @@ msgid ""
 "moment to add the ``:alt:`` option with a functional description of the "
 "image."
 msgstr ""
-"これには適切なアクセシビリティがありません。画像や図のディレクティブがない場合、一時的に ``:alt:`` "
-"オプションを追加し、画像の機能的な説明を記述してください。"
+"これには適切なアクセシビリティがありません。画像や図のディレクティブがない場合、一時的に``:alt:``オプションを追加し、画像の機能的な説明を記述してください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:65
 msgid ""
@@ -142,7 +140,7 @@ msgid ""
 "and **align**. It maybe worth removing those if you are changing the content"
 " on that page anyway."
 msgstr ""
-"画像ディレクティブには多くのオプションがありますが、FTCドキュメントでは大多数を推奨していません。これは新しいガイドラインで、既存の多くのページでは ** width ** と ** align ** を指定しています。そのページの内容を変更する場合、これらの項目も削除しても良いかもしれません。"
+"画像ディレクティブには多くのオプションがありますが、FTCドキュメントでは大多数を推奨していません。これは新しいガイドラインで、既存の多くのページでは**width**と**align**を指定しています。そのページの内容を変更する場合、これらの項目も削除しても良いかもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:70
 msgid "Image Options"
@@ -154,7 +152,7 @@ msgstr "「image」ディレクティブでサポートされるオプション�
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:76
 msgid "alt : *text*"
-msgstr "alt : * テキスト *"
+msgstr "alt :*テキスト*"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:75
 msgid "text"
@@ -171,7 +169,7 @@ msgstr ""
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:81
 msgid "height : *length*"
 msgstr ""
-"高度 : * 長さ *\"\n"
+"高度 :*長さ*\"\n"
 "\n"
 "この翻訳は、指定されたガイドラインに従っており、reStructuredText形式も保持しています。また、強調マークアップも完全に保持されています。"
 
@@ -191,7 +189,7 @@ msgstr ""
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:84
 msgid "scale : *integer percentage (the \"%\" symbol is optional)*"
 msgstr ""
-"スケール : * 整数のパーセンテージ（％記号は省略可）*\"\n"
+"スケール :*整数のパーセンテージ（％記号は省略可）*\"\n"
 "\n"
 "この翻訳では、reStructuredText形式を保持し、Sphinx-Design記法も保持しています。また、構造や空白行もそのままにしています。"
 
@@ -208,7 +206,7 @@ msgstr "画像の均一な拡大縮小率。デフォルトは「100 ％」で�
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:89
 msgid "width : *length or percentage of the current line width*"
 msgstr ""
-"幅 : * 現在の線幅の長さまたはパーセンテージ *\"\n"
+"幅 :*現在の線幅の長さまたはパーセンテージ*\"\n"
 "\n"
 "この翻訳では、強調マークアップ(*)とイタリックマークアップ(*)を完全に保持し、reStructuredText形式も維持しています。また、原文の技術用語はそのまま使用しています。"
 
@@ -338,8 +336,8 @@ msgid ""
 "Though a better option might be to change the resolution of the image if "
 "relevant detail can be preserved."
 msgstr ""
-"もしページのサイズに画像が大きすぎるので、 ** width ** オプションを維持したい場合、アクセシビリティのために ** class ** オプションに "
-" ** no-scaled-link ** を追加することをお勧めします。例えば ``:class: no-scaled-link`` "
+"もしページのサイズに画像が大きすぎるので、**width**オプションを維持したい場合、アクセシビリティのために**class**オプションに**no-"
+"scaled-link**を追加することをお勧めします。例えば ``:class: no-scaled-link`` "
 "です。これによりスphinxsはリンクを作成しないことがわかりますが、画像にはあなたが望む幅が設定されます。ただし、詳細を保存できる場合は、画像の解像度を変更する方が良い選択肢かもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:138
@@ -658,8 +656,7 @@ msgid ""
 "the directive. A blank line is required between the ``:alt:`` and the "
 "caption."
 msgstr ""
-"注意してください。``:alt:`` 行とキャプションは、ディレクティブの後ろに3スペースインデントされています。``:alt:`` "
-"とキャプションの間には空白行が必要です。"
+"注意してください。``:alt:``行とキャプションは、ディレクティブの後ろに3スペースインデントされています。``:alt:``とキャプションの間には空白行が必要です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:273
 msgid ""
@@ -668,7 +665,7 @@ msgid ""
 "screen reader will skip over announcing the image and read the caption "
 "leaving the user wondering what the caption is referring to."
 msgstr ""
-"図の ``:alt:`` 行は空白にしてはいけません。スクリーンリーダーはおそらく図があることを読み上げているはずです。-altテキストがない場合、スクリーンリーダーは画像を anunciando チャプター skipping して読み飛ばし、ユーザーがチャプターが何についているのか不思議に思う可能性があります。\n"
+"図の``:alt:``行は空白にしてはいけません。スクリーンリーダーはおそらく図があることを読み上げているはずです。-altテキストがない場合、スクリーンリーダーは画像を anunciando チャプター skipping して読み飛ばし、ユーザーがチャプターが何についているのか不思議に思う可能性があります。\n"
 "\"\"\"\n"
 "注:\n"
 "- reStructuredText形式を保持しています。\n"
@@ -682,12 +679,12 @@ msgid ""
 "directive. These options (except align) are passed on to the contained "
 "image."
 msgstr ""
-"``.. figure`` ディレクティブは、``.. image`` "
-"ディレクティブのすべてのオプションをサポートします。これらのオプション（align以外）は、含まれる画像に渡されます。"
+"``.. figure``ディレクティブは、``.. "
+"image``ディレクティブのすべてのオプションをサポートします。これらのオプション（align以外）は、含まれる画像に渡されます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:283
 msgid "``:align:``  \"left\", \"center\", or \"right\"."
-msgstr ":align:`` は「左」とか「中央」、または「右」です。"
+msgstr ":align:``は「左」とか「中央」、または「右」です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:280
 msgid ""
@@ -703,8 +700,7 @@ msgid ""
 "of the page, sometimes to the next page where the image is no longer in "
 "context."
 msgstr ""
-" ** align ** "
-"を使用しないことを推奨します。PDFで画像はページの別の領域に浮き上がることがあり、場合によっては次のページに行ってしまうため、文脈から外れてしまうことがあります。"
+"**align**を使用しないことを推奨します。PDFで画像はページの別の領域に浮き上がることがあり、場合によっては次のページに行ってしまうため、文脈から外れてしまうことがあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:285
 msgid ""
@@ -769,8 +765,8 @@ msgid ""
 "paragraph, you can include a table or list if that would better describe the"
 " image."
 msgstr ""
-"長い説明が必要な場合、``.. figure`` "
-"指令の伝説を使用するようにFTCドキュメントガイドラインに従います。この段落はキャプションの後に配置し、その間には1行分の空白を残します。段落ではなく、画像がよりよく説明できる場合はテーブルやリストを含めることもできます。"
+"長い説明が必要な場合、``.. "
+"figure``指令の伝説を使用するようにFTCドキュメントガイドラインに従います。この段落はキャプションの後に配置し、その間には1行分の空白を残します。段落ではなく、画像がよりよく説明できる場合はテーブルやリストを含めることもできます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:333
 msgid ""
@@ -778,8 +774,8 @@ msgid ""
 "``.. figure`` directive with alt text, caption and long description. This "
 "diagram is located on the Control System Introduction page."
 msgstr ""
-"次の例は、複雑な図をどのように説明するかの方法です。``.. figure`` "
-"ディレクティブを使用し、代替テキスト、キャプション、長い説明を含めます。この図は「制御システム入門」ページにあります。"
+"次の例は、複雑な図をどのように説明するかの方法です。``.. "
+"figure``ディレクティブを使用し、代替テキスト、キャプション、長い説明を含めます。この図は「制御システム入門」ページにあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:353
 msgid ""
@@ -789,7 +785,10 @@ msgid ""
 "System Introduction page which talk about possible configurations of the "
 "Expansion Hub. In this case the long description is basically a listing of "
 "the devices connected to the Expansion Hub."
-msgstr "代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これはExpansion Hubとスマホの例であり、制御システム入門ページで述べたExpansion Hubの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
+msgstr ""
+"代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これはExpansion "
+"Hubとスマホの例であり、制御システム入門ページで述べたExpansion "
+"Hubの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst
 msgid "Rev expansion hub with various devices connected."
@@ -828,7 +827,9 @@ msgid ""
 "Two motors are connected to the Expansion hub. Each motor has a power "
 "connection and an encoder connection. There are four motor ports on the "
 "Expansion Hub."
-msgstr "Expansion Hubに2つのモータが接続されています。各モーターには電力コネクションとエンコーダー コネクションがあります。Expansion Hubには4つのモーターポートがあります。"
+msgstr ""
+"Expansion Hubに2つのモータが接続されています。各モーターには電力コネクションとエンコーダー コネクションがあります。Expansion "
+"Hubには4つのモーターポートがあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:376
 msgid ""
@@ -859,8 +860,8 @@ msgid ""
 "image with a complete text description that is useful for all users as we "
 "clearly indicate what the image is about and what is important."
 msgstr ""
-"複雑な画像のために ``.. figure`` "
-"ディレクティブを使用すると、画像を完全なテキスト説明で囲むことができ、ユーザー全員にとって有用です。私たちは画像が何についてのものであるか、そして重要な点は何であるかをはっきりと示します。"
+"複雑な画像のために``.. "
+"figure``ディレクティブを使用すると、画像を完全なテキスト説明で囲むことができ、ユーザー全員にとって有用です。私たちは画像が何についてのものであるか、そして重要な点は何であるかをはっきりと示します。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:403
 msgid ""

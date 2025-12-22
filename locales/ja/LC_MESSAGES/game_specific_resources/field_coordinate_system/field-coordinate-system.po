@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:4
 msgid "*FIRST* Tech Challenge Field Coordinate System Definition"
-msgstr "*FIRST* Tech Challengeフィールド座標系定義"
+msgstr "*FIRST*Tech Challengeフィールド座標系定義"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:9
 msgid ""
@@ -37,7 +37,7 @@ msgid ""
 "Coordinate System of three dimensions. The X and Y axes will refer to a "
 "position on the field and the Z axis a height above the field."
 msgstr ""
-"概要: *FIRST* Tech "
+"概要:*FIRST*Tech "
 "Challengeのフィールド座標系は3次元のカートエスian座標系です。X軸とY軸はフィールド上の位置を表し、Z軸はフィールド上で一定高度にあります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:13
@@ -50,7 +50,7 @@ msgid ""
 "Challenge playing field. This definition can be used for consistent field-"
 "centric navigation, target localization and path planning."
 msgstr ""
-"このドキュメントでは、 *FIRST* Tech "
+"このドキュメントでは、*FIRST*Tech "
 "Challengeのプレイフィールドのフィールド座標系を定義しています。この定義は、フィールド中心のナビゲーション、ターゲットロケーション、およびルート計画に一貫性を持たせるために使用できます。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:21

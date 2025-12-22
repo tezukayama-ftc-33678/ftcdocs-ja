@@ -30,7 +30,7 @@ msgstr "概要"
 #: ../../source/color_processing/color-spaces/color-spaces.rst:7
 msgid ""
 "This page of the FTC Color Processing tutorial introduces **Color Spaces**."
-msgstr "このFTCカラー処理チュートリアルのページでは、 ** 色空間 ** について説明します。"
+msgstr "このFTCカラー処理チュートリアルのページでは、**色空間**について説明します。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:9
 msgid ""
@@ -68,19 +68,19 @@ msgstr "RGB色空間"
 #: ../../source/color_processing/color-spaces/color-spaces.rst:23
 msgid ""
 "**RGB** is a common Color Space, easy to understand.  Its 3 components are:"
-msgstr " ** RGB ** は一般的な色空間で、理解しやすいものです。その3つの成分は："
+msgstr "**RGB**は一般的な色空間で、理解しやすいものです。その3つの成分は："
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:25
 msgid "**Red** (0 - 255)"
-msgstr "赤 ** （0 - 255） ** "
+msgstr "赤**（0 - 255）**"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:26
 msgid "**Green** (0 - 255)"
-msgstr " ** グリーン ** (0 - 255)"
+msgstr "**グリーン**(0 - 255)"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:27
 msgid "**Blue** (0 -  255)"
-msgstr " ** ブルー ** (0 - 255)"
+msgstr "**ブルー**(0 - 255)"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:34
 msgid "RGB Color Wheel"
@@ -120,15 +120,15 @@ msgid ""
 "The nearest corner is **White**, with RGB values of (255, 255, 255).  "
 "Namely, full values of Red, Green and Blue light will combine to appear as "
 "white light."
-msgstr "最寄りの角は ** 白 ** で、RGB値は(255, 255, 255)です。つまり、赤、緑、青の光が最大値を合わせて白い光として見えます。"
+msgstr "最寄りの角は**白**で、RGB値は(255, 255, 255)です。つまり、赤、緑、青の光が最大値を合わせて白い光として見えます。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:59
 msgid ""
 "Where is **Black**?  It's the opposite corner, at the origin, hidden in this"
 " view.  Its values are (0, 0, 0) -- no color at all."
 msgstr ""
-"Where is ** Black ** ?  It's the opposite corner, at the origin, hidden in this view.  Its values are (0, 0, 0) -- no color at all."
-""
+"Where is**Black**?  It's the opposite corner, at the origin, hidden in this "
+"view.  Its values are (0, 0, 0) -- no color at all."
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:62
 msgid ""
@@ -141,7 +141,7 @@ msgstr "このRGBシステムは、ビデオなどの光に基づいた色のみ
 msgid ""
 "Mixing red paint, green paint and blue paint will **not** create white "
 "paint!"
-msgstr "赤の絵具、緑の絵具、青の絵具を混ぜても ** 白い絵具にはなりません ** ！"
+msgstr "赤の絵具、緑の絵具、青の絵具を混ぜても**白い絵具にはなりません**！"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:68
 msgid ""
@@ -158,7 +158,7 @@ msgstr "HSV色空間"
 #: ../../source/color_processing/color-spaces/color-spaces.rst:73
 msgid ""
 "Another Color Space used by OpenCV is **HSV**\\ : Hue, Saturation and Value."
-msgstr "OpenCV で使用される別の色空間は ** HSV ** \\ : 色相、彩度および値です。"
+msgstr "OpenCV で使用される別の色空間は**HSV**\\ : 色相、彩度および値です。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:80
 msgid "HSV Cone Visualization"
@@ -167,7 +167,7 @@ msgstr "HSV コーン可視化"
 #: ../../source/color_processing/color-spaces/color-spaces.rst:82
 msgid ""
 "**Hue** is the actual shade of color; see the familiar color wheel on top."
-msgstr " ** 色相 ** は実際の色のトーンを表します；上部にある familar 色輪をご覧ください。"
+msgstr "**色相**は実際の色のトーンを表します；上部にある familar 色輪をご覧ください。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:84
 msgid ""
@@ -175,7 +175,7 @@ msgid ""
 "more grey.  On the HSV cone, see the outward arrow for Saturation.  The "
 "highest value of 255 is the fully saturated color (no white)."
 msgstr ""
-" ** 飽和度 ** は白色の量を測定します：値が低いほど白く、または灰色に近くなります。HSV円錐では、飽和度については外向きの矢印をご覧ください。最大値255は完全に飽和した色（白色なし）を示します。"
+"**飽和度**は白色の量を測定します：値が低いほど白く、または灰色に近くなります。HSV円錐では、飽和度については外向きの矢印をご覧ください。最大値255は完全に飽和した色（白色なし）を示します。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:88
 msgid ""
@@ -183,7 +183,7 @@ msgid ""
 "top face of the cone (Value = 255), is the fully bright color.  Black is "
 "found at the lower tip, Value = 0."
 msgstr ""
-" ** 値 ** は明るさを測定します；HSV円錐の上向き矢印をご覧ください。円錐の頂面（Value = 255）は完全に明るい色です。黒は下端、Value ="
+"**値**は明るさを測定します；HSV円錐の上向き矢印をご覧ください。円錐の頂面（Value = 255）は完全に明るい色です。黒は下端、Value ="
 " 0 の位置にあります。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:92
@@ -200,7 +200,7 @@ msgstr "YCrCb 色空間"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:97
 msgid "A third Color Space used by OpenCV is **YCrCb**."
-msgstr "Athird Color Space used by OpenCV is ** YCrCb ** ."
+msgstr "Athird Color Space used by OpenCV is**YCrCb**."
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:104
 msgid "YCrCb Visualization"
@@ -212,7 +212,7 @@ msgid ""
 "components of **Chrominance**.  Technical information is available at "
 "`Wikipedia YCbCr <https://en.wikipedia.org/wiki/YCbCr>`_."
 msgstr ""
-"Yは ** 輝度 ** または明るさです。一方、CrとCbは ** 彩度 ** の赤成分と青成分です。「Wikipedia YCbCr」 "
+"Yは**輝度**または明るさです。一方、CrとCbは**彩度**の赤成分と青成分です。「Wikipedia YCbCr」 "
 "`<https://en.wikipedia.org/wiki/YCbCr>`_ で技術情報が提供されています。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:110
@@ -226,7 +226,7 @@ msgid ""
 "Some online documentation refers to a Color Space called **YCbCr**.  This is"
 " the same system, with the last 2 values reversed."
 msgstr ""
-"一部のオンラインドキュメンテーションでは、色空間として ** YCbCr ** を参照しています。これは同じシステムですが、最後の2つの値が逆になっています。"
+"一部のオンラインドキュメンテーションでは、色空間として**YCbCr**を参照しています。これは同じシステムですが、最後の2つの値が逆になっています。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:117
 msgid "How to choose?"
@@ -251,8 +251,8 @@ msgid ""
 "proportion of the maximum) to 255, for values to use in the FTC **Color "
 "Locator** processor."
 msgstr ""
-"HSVに変換する際、一部のオンラインサイトでは色相（Hue）を度数（0から360）で表し、彩度（Saturation）と値（Value）はパーセント（0から100）で示します。最大値に対するこれらの値を比例して255に適用し、FTCの ** Color"
-" Locator ** プロセッサーで使用する値として利用します。"
+"HSVに変換する際、一部のオンラインサイトでは色相（Hue）を度数（0から360）で表し、彩度（Saturation）と値（Value）はパーセント（0から100）で示します。最大値に対するこれらの値を比例して255に適用し、FTCの**Color"
+" Locator**プロセッサーで使用する値として利用します。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:130
 msgid ""
@@ -260,8 +260,8 @@ msgid ""
 "The simple **Color Sensor** processor uses YCrCb internally, but reports "
 "results in RGB only."
 msgstr ""
-"The ** Color Locator ** プロセッサーはこれらの3つの色空間のいずれかを使用できます。シンプルな ** Color Sensor ** "
-"プロセッサーは内部で YCrCb を使用しますが、結果はRGBのみを報告します。"
+"The**Color Locator**プロセッサーはこれらの3つの色空間のいずれかを使用できます。シンプルな**Color "
+"Sensor**プロセッサーは内部で YCrCb を使用しますが、結果はRGBのみを報告します。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:136
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"

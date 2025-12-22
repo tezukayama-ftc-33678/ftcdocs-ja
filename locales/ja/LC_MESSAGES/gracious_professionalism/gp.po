@@ -4,7 +4,6 @@
 # Challenge Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
@@ -12,12 +11,12 @@ msgstr ""
 "POT-Creation-Date: 2025-12-16 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
 "Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../source/gracious_professionalism/gp.rst:2
@@ -25,8 +24,16 @@ msgid "*Gracious Professionalism®*"
 msgstr "Gracious Professionalism®"
 
 #: ../../source/gracious_professionalism/gp.rst:4
-msgid "*Gracious Professionalism®* is part of the ethos of *FIRST*. It’s a way of doing things that encourages high quality work, emphasizes the value of others, and respects individuals and the community.  *Gracious Professionalism* is not clearly defined for a reason. It can and should mean different things to everyone."
-msgstr "*Gracious Professionalism®* は *FIRST* の理念の一部です。これは、高品質な仕事を奨励し、他者の価値を強調し、個人とコミュニティを尊重する、物事を行う方法です。 *Gracious Professionalism* は理由があって明確に定義されていません。それは、すべての人にとって異なる意味を持つことができ、そうあるべきです。"
+msgid ""
+"*Gracious Professionalism®* is part of the ethos of *FIRST*. It’s a way of "
+"doing things that encourages high quality work, emphasizes the value of "
+"others, and respects individuals and the community.  *Gracious "
+"Professionalism* is not clearly defined for a reason. It can and should mean"
+" different things to everyone."
+msgstr ""
+"*Gracious "
+"Professionalism®*は*FIRST*の理念の一部です。これは、高品質な仕事を奨励し、他者の価値を強調し、個人とコミュニティを尊重する、物事を行う方法です。*Gracious"
+" Professionalism*は理由があって明確に定義されていません。それは、すべての人にとって異なる意味を持つことができ、そうあるべきです。"
 
 #: ../../source/gracious_professionalism/gp.rst:10
 msgid "Some possible meanings of *Gracious Professionalism* include:"
@@ -37,23 +44,32 @@ msgid "gracious attitudes and behaviors are win-win,"
 msgstr "思いやりのある態度と行動は、ウィンウィンの関係を生む"
 
 #: ../../source/gracious_professionalism/gp.rst:13
-msgid "gracious folks respect others and let that respect show in their actions,"
+msgid ""
+"gracious folks respect others and let that respect show in their actions,"
 msgstr "思いやりのある人々は他者を尊重し、その尊重を行動で示す"
 
 #: ../../source/gracious_professionalism/gp.rst:14
-msgid "professionals possess special knowledge and are trusted by society to use that knowledge responsibly, and"
+msgid ""
+"professionals possess special knowledge and are trusted by society to use "
+"that knowledge responsibly, and"
 msgstr "プロフェッショナルは特別な知識を持ち、その知識を責任を持って使うことを社会から信頼されている"
 
 #: ../../source/gracious_professionalism/gp.rst:15
-msgid "gracious professionals make a valued contribution in a manner pleasing to others and to themselves."
+msgid ""
+"gracious professionals make a valued contribution in a manner pleasing to "
+"others and to themselves."
 msgstr "思いやりのあるプロフェッショナルは、他者にも自分自身にも喜ばれる方法で価値ある貢献をする"
 
 #: ../../source/gracious_professionalism/gp.rst:17
-msgid "In the context of *FIRST*, this means that all teams and participants should:"
+msgid ""
+"In the context of *FIRST*, this means that all teams and participants "
+"should:"
 msgstr "FIRST の文脈では、これはすべてのチームと参加者が以下を行うべきことを意味します："
 
 #: ../../source/gracious_professionalism/gp.rst:19
-msgid "learn to be strong competitors, but also treat one another with respect and kindness in the process, and"
+msgid ""
+"learn to be strong competitors, but also treat one another with respect and "
+"kindness in the process, and"
 msgstr "強力な競争相手になることを学ぶと同時に、そのプロセスで互いに尊重と親切を持って接する"
 
 #: ../../source/gracious_professionalism/gp.rst:20
@@ -61,28 +77,62 @@ msgid "avoid leaving anyone feeling as if they are excluded or unappreciated."
 msgstr "誰も排除されたり過小評価されたりしていると感じさせない"
 
 #: ../../source/gracious_professionalism/gp.rst:22
-msgid "Knowledge, pride, and empathy should be comfortably and genuinely blended.  In the end, *Gracious Professionalism* is part of pursuing a meaningful life. When professionals use knowledge in a gracious manner and individuals act with integrity and sensitivity, everyone wins and society benefits."
-msgstr "知識、誇り、共感は、快適かつ真摯に融合されるべきです。最終的に、Gracious Professionalism は有意義な人生を追求することの一部です。プロフェッショナルが知識を思いやりのある方法で使い、個人が誠実さと繊細さを持って行動するとき、すべての人が勝利し、社会が利益を得ます。"
+msgid ""
+"Knowledge, pride, and empathy should be comfortably and genuinely blended.  "
+"In the end, *Gracious Professionalism* is part of pursuing a meaningful "
+"life. When professionals use knowledge in a gracious manner and individuals "
+"act with integrity and sensitivity, everyone wins and society benefits."
+msgstr ""
+"知識、誇り、共感は、快適かつ真摯に融合されるべきです。最終的に、Gracious Professionalism "
+"は有意義な人生を追求することの一部です。プロフェッショナルが知識を思いやりのある方法で使い、個人が誠実さと繊細さを持って行動するとき、すべての人が勝利し、社会が利益を得ます。"
 
 #: ../../source/gracious_professionalism/gp.rst:32
-msgid "*The FIRST spirit encourages doing high-quality, well-informed work in a manner that leaves everyone feeling valued. Gracious Professionalism seems to be a good descriptor for part of the ethos of FIRST. It is part of what makes FIRST different and wonderful.*"
-msgstr "*FIRST の精神は、すべての人が価値を感じられる方法で、高品質で十分な情報に基づいた仕事をすることを奨励します。Gracious Professionalism は FIRST の理念の一部を表す良い表現のようです。それは FIRST を異なる素晴らしいものにしている要素の一部です。 *"
+msgid ""
+"*The FIRST spirit encourages doing high-quality, well-informed work in a "
+"manner that leaves everyone feeling valued. Gracious Professionalism seems "
+"to be a good descriptor for part of the ethos of FIRST. It is part of what "
+"makes FIRST different and wonderful.*"
+msgstr ""
+"*FIRST の精神は、すべての人が価値を感じられる方法で、高品質で十分な情報に基づいた仕事をすることを奨励します。Gracious "
+"Professionalism は FIRST の理念の一部を表す良い表現のようです。それは FIRST "
+"を異なる素晴らしいものにしている要素の一部です。 *"
 
 #: ../../source/gracious_professionalism/gp.rst:37
 msgid "Dr. Woodie Flowers, (1943 – 2019), Distinguished Advisor to *FIRST*"
 msgstr "Dr. Woodie Flowers 氏（1943 – 2019）、FIRST Distinguished Advisor"
 
 #: ../../source/gracious_professionalism/gp.rst:39
-msgid "It is a good idea to spend time going over this concept with your team and reinforcing it regularly. We recommend providing your team with real-life examples of *Gracious Professionalism* in practice, such as when a team loans valuable materials or expertise to another team that they will later face as an opponent in competition. Routinely highlight opportunities to display *Gracious Professionalism* at events and encourage team members to suggest ways in which they can demonstrate this quality themselves and through outreach activities."
-msgstr "この概念をチームで時間をかけて確認し、定期的に強化することをお勧めします。チームに、Gracious Professionalism を実践する実例を提供することをお勧めします。例えば、チームが後に競技で対戦相手となる他のチームに貴重な材料や専門知識を貸し出す場合などです。イベントで Gracious Professionalism を示す機会を定期的に強調し、チームメンバーが自分自身やアウトリーチ活動を通してこの資質を示す方法を提案するよう促してください。"
+msgid ""
+"It is a good idea to spend time going over this concept with your team and "
+"reinforcing it regularly. We recommend providing your team with real-life "
+"examples of *Gracious Professionalism* in practice, such as when a team "
+"loans valuable materials or expertise to another team that they will later "
+"face as an opponent in competition. Routinely highlight opportunities to "
+"display *Gracious Professionalism* at events and encourage team members to "
+"suggest ways in which they can demonstrate this quality themselves and "
+"through outreach activities."
+msgstr ""
+"この概念をチームで時間をかけて確認し、定期的に強化することをお勧めします。チームに、Gracious Professionalism "
+"を実践する実例を提供することをお勧めします。例えば、チームが後に競技で対戦相手となる他のチームに貴重な材料や専門知識を貸し出す場合などです。イベントで "
+"Gracious Professionalism "
+"を示す機会を定期的に強調し、チームメンバーが自分自身やアウトリーチ活動を通してこの資質を示す方法を提案するよう促してください。"
 
 #: ../../source/gracious_professionalism/gp.rst:48
 msgid "In Memoriam"
 msgstr "追悼"
 
 #: ../../source/gracious_professionalism/gp.rst:50
-msgid "In October 2019, Dr. Woodie Flowers, an innovator in design and engineering education and a Distinguished Advisor to *FIRST* and supporter of our mission, passed away. As thousands of heartfelt tributes to Woodie have poured in from around the world, it is clear his legacy will live on indefinitely through the gracious nature of our community and our ongoing commitment to empowering educators and building global citizens."
-msgstr "2019年10月、デザインおよび工学教育の革新者であり、FIRST の Distinguished Advisor であり、私たちのミッションの支援者である Dr. Woodie Flowers 氏が亡くなりました。世界中から何千もの心のこもった Woodie 氏への追悼が寄せられる中、彼の遺産は、私たちのコミュニティの思いやりある性質と、教育者に力を与え、グローバルな市民を育成するという継続的なコミットメントを通じて、永遠に生き続けることは明らかです。"
+msgid ""
+"In October 2019, Dr. Woodie Flowers, an innovator in design and engineering "
+"education and a Distinguished Advisor to *FIRST* and supporter of our "
+"mission, passed away. As thousands of heartfelt tributes to Woodie have "
+"poured in from around the world, it is clear his legacy will live on "
+"indefinitely through the gracious nature of our community and our ongoing "
+"commitment to empowering educators and building global citizens."
+msgstr ""
+"2019年10月、デザインおよび工学教育の革新者であり、FIRST の Distinguished Advisor "
+"であり、私たちのミッションの支援者である Dr. Woodie Flowers 氏が亡くなりました。世界中から何千もの心のこもった Woodie "
+"氏への追悼が寄せられる中、彼の遺産は、私たちのコミュニティの思いやりある性質と、教育者に力を与え、グローバルな市民を育成するという継続的なコミットメントを通じて、永遠に生き続けることは明らかです。"
 
 #: ../../source/gracious_professionalism/gp.rst:59
 msgid "Dr. Woodie Flowers, (1943 - 2019)"

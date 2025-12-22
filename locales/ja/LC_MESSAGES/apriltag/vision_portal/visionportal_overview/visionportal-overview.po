@@ -84,7 +84,7 @@ msgid ""
 "**FIRST Tech Challenge** introduces **VisionPortal**, a comprehensive new "
 "interface for vision processing."
 msgstr ""
-" ** FIRST Tech Challenge ** は、ビジョン処理用の総合的な新インターフェース ** VisionPortal ** を導入しました。"
+"**FIRST Tech Challenge**は、ビジョン処理用の総合的な新インターフェース**VisionPortal**を導入しました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:7
 msgid ""
@@ -92,9 +92,9 @@ msgid ""
 "**AprilTag** and **EasyOpenCV**, along with **TensorFlow Object Detection "
 "(TFOD)** – at the same time!"
 msgstr ""
-"For ** FTC Blocks and Java ** teams, VisionPortal offers key capabilities of "
-" ** AprilTag ** and ** EasyOpenCV ** , along with ** TensorFlow Object Detection "
-"(TFOD) ** – at the same time!"
+"For**FTC Blocks and Java**teams, VisionPortal offers key capabilities "
+"of**AprilTag**and**EasyOpenCV**, along with**TensorFlow Object Detection "
+"(TFOD)**– at the same time!"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
 msgid "Dual Detection"
@@ -108,21 +108,21 @@ msgstr "両方のプレビュー：AprilTagsとTensorFlow"
 msgid ""
 "AprilTag detections include ID code and **pose**: tag location and "
 "orientation, relative to the camera."
-msgstr " ** AprilTag ** 検出にはIDコードと ** ポーズ ** : タグの位置と向き（カメラに対して）が含まれます。"
+msgstr "**AprilTag**検出にはIDコードと**ポーズ**: タグの位置と向き（カメラに対して）が含まれます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:23
 msgid ""
 "**Camera Controls**, which can improve AprilTag and TFOD performance for "
 "webcam, are now fully available to **FTC Blocks** users."
 msgstr ""
-" ** カメラコントロール ** は、ウェブカムでのAprilTagおよびTFODの性能向上に貢献し、現在、 ** FTC "
-"ブロックス ** ユーザー全員が利用可能になりました。"
+"**カメラコントロール**は、ウェブカムでのAprilTagおよびTFODの性能向上に貢献し、現在、**FTC "
+"ブロックス**ユーザー全員が利用可能になりました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:26
 msgid ""
 "**Multiple cameras** can operate at the same time – phone camera and/or "
 "webcam."
-msgstr " ** 複数のカメラ ** が同時に動作できます – スマホカメラやウェブカメラ。"
+msgstr "**複数のカメラ**が同時に動作できます – スマホカメラやウェブカメラ。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
 msgid "Dual Camera"
@@ -136,17 +136,19 @@ msgstr "複数のカメラビュー"
 msgid ""
 "**Sample OpModes** and new tools are available to operate and customize "
 "these features, including the **Builder pattern**."
-msgstr " ** サンプルOpMode ** と新しいツールが利用可能で、これらの機能を操作およびカスタマイズするためのもの includings the ** ビルダーパターン ** 。"
+msgstr ""
+"**サンプルOpMode**と新しいツールが利用可能で、これらの機能を操作およびカスタマイズするためのもの includings "
+"the**ビルダーパターン**。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:41
 msgid ""
 "For heavy video processing, many options are available to manage **CPU "
 "resources** and **USB bandwidth**."
-msgstr "重い動画処理のために、多くのオプションが用意されており、 ** CPUリソース ** と ** USB帯域幅 ** を管理できます。"
+msgstr "重い動画処理のために、多くのオプションが用意されており、**CPUリソース**と**USB帯域幅**を管理できます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:44
 msgid "DS and RC previews can be **BIG**!"
-msgstr "DSとRCのプレビューは ** 大きい ** かもしれません！"
+msgstr "DSとRCのプレビューは**大きい**かもしれません！"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst
 msgid "Full Screen"
@@ -172,9 +174,8 @@ msgid ""
 "AprilTag technology**. Previously, Teams needed to download and incorporate "
 "external libraries, complicating the programming effort."
 msgstr ""
-"2023-2024年のCENTERSTAGEシーズンに向けて、新しいSoftware Development Kit (SDK) "
-" ** VisionPortal ** には ** AprilTag技術の内蔵サポート ** "
-"が含まれています。以前は、チームは外部ライブラリをダウンロードし、プログラムに組み込む必要があり、プログラミング作業を複雑にしていました。"
+"2023-2024年のCENTERSTAGEシーズンに向けて、新しいSoftware Development Kit "
+"(SDK)**VisionPortal**には**AprilTag技術の内蔵サポート**が含まれています。以前は、チームは外部ライブラリをダウンロードし、プログラムに組み込む必要があり、プログラミング作業を複雑にしていました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:64
 msgid ""
@@ -182,7 +183,9 @@ msgid ""
 "white tag, used to estimate **position and orientation**. In the 2022-2023 "
 "POWERPLAY game, many Teams enjoyed AprilTag’s reliable Autonomous "
 "performance for Signal Sleeve recognition."
-msgstr "AprilTagは、単純な黒白タグの検出に利用される人気のあるビジョン技術で、 ** 位置と向き ** の推定に使用されます。2022-2023年のPOWERPLAYゲームでは、多くのチームがAprilTagの信頼性の高いAUTO性能によるSignal Sleeve認識を楽しんでいました。"
+msgstr ""
+"AprilTagは、単純な黒白タグの検出に利用される人気のあるビジョン技術で、**位置と向き**の推定に使用されます。2022-2023年のPOWERPLAYゲームでは、多くのチームがAprilTagの信頼性の高いAUTO性能によるSignal"
+" Sleeve認識を楽しんでいました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:74
 msgid "Photo Credit: Mike Silversides"
@@ -193,8 +196,8 @@ msgid ""
 "**All sections of this Guide assume prior reading of the** :doc:`AprilTag "
 "Introduction <../apriltag_intro/apriltag-intro>` **.**"
 msgstr ""
-" ** このガイドのすべてのセクションは、 ** :doc:`AprilTag 介绍 <../apriltag_intro/apriltag-intro>` "
-" ** の先行閱讀假定。 ** "
+"**このガイドのすべてのセクションは、**:doc:`AprilTag 介绍 <../apriltag_intro/apriltag-"
+"intro>`**の先行閱讀假定。**"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:79
 msgid ""
@@ -204,9 +207,9 @@ msgid ""
 "calibration**. You must determine AprilTag’s best use for reaching your "
 "goals."
 msgstr ""
-"SDK では、AprilTag のポーズはデフォルトで ** カメラに対する相対的な位置 ** を説明します。この計算プロセスは ** ポーズ推定 ** "
-"と呼ばれ、これは多くの要素に基づく推定であることを強調しています。これらの要素には ** カメラの校正 ** も含まれます。AprilTag "
-"の最適な利用方法を決定する必要があります。"
+"SDK では、AprilTag "
+"のポーズはデフォルトで**カメラに対する相対的な位置**を説明します。この計算プロセスは**ポーズ推定**と呼ばれ、これは多くの要素に基づく推定であることを強調しています。これらの要素には**カメラの校正**も含まれます。AprilTag"
+" の最適な利用方法を決定する必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:105
 msgid "Much credit to"
@@ -225,7 +228,7 @@ msgid ""
 "*FIRST* Tech Challenge navigation expert `@gearsincorg "
 "<https://github.com/gearsincorg>`__"
 msgstr ""
-"*FIRST* Tech Challengeのナビゲーションエキスパート`@gearsincorg "
+"*FIRST*Tech Challengeのナビゲーションエキスパート`@gearsincorg "
 "<https://github.com/gearsincorg>`__"
 
 #: ../../source/apriltag/vision_portal/visionportal_overview/visionportal-overview.rst:110

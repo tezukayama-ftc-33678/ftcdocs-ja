@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:2
 msgid "Computer Requirements for *FIRST* Programs"
-msgstr "*FIRST* プログラムのコンピュータ要件"
+msgstr "*FIRST*プログラムのコンピュータ要件"
 
 #: ../../source/programming_resources/laptops/laptops.rst:4
 msgid ""
@@ -37,8 +37,8 @@ msgid ""
 "serves as a recommendation for the hardware and operating system "
 "requirements for that computer system."
 msgstr ""
-"*FIRST*\\ :sup:`®` のプログラム、たとえば *FIRST*\\ :sup:`®` LEGO\\ :sup:`®` "
-"リーグ、 *FIRST*\\ :sup:`®` Tech Challenge、および *FIRST*\\ :sup:`®` "
+"*FIRST*\\ :sup:`®` のプログラム、たとえば*FIRST*\\ :sup:`®` LEGO\\ :sup:`®` "
+"リーグ、*FIRST*\\ :sup:`®` Tech Challenge、および*FIRST*\\ :sup:`®` "
 "ロボティクス競技大会は、参加するチームの多様性と同じくらい独特です。この独特さは、プログラムに提供される技術製品の幅広い種類、各プログラムの独自の目標を管理するために必要なハードウェアとソフトウェア、そしてチームが参加し優勝するために有用とするツールや手法の常に進化する景観によって一部形成されています。プログラム間で共通しているのは、ソフトウェア開発、設計、および協力のためにコンピュータプラットフォームを持つチームの必要性です。このドキュメントでは、そのコンピューターシステムのハードウェアとオペレーティングシステム要件についての推奨事項を提供します。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:16
@@ -96,11 +96,11 @@ msgid ""
 "requirements, differences are noted below. These platforms are some of the "
 "most accessible, as they are supported by most computer configurations."
 msgstr ""
-"*FIRST* LEGO League には、プログラミABLEプラットフォームを使用する2つの部門があります：*FIRST* LEGO League "
+"*FIRST*LEGO League には、プログラミABLEプラットフォームを使用する2つの部門があります：*FIRST*LEGO League "
 "Challenge は、`LEGO\\ ® Education SPIKE\\ ™ Prime "
 "<https://education.lego.com/en-us/product-resources/spike-"
 "prime/downloads/system-requirements/>`__ "
-"プラットフォームを使用し、「INIT」ボタンを押して始動します。「START」ボタンを押して開始します。また、 *FIRST* LEGO League "
+"プラットフォームを使用し、「INIT」ボタンを押して始動します。「START」ボタンを押して開始します。また、*FIRST*LEGO League "
 "Explore は、`LEGO\\ ® Education SPIKE\\ ™ Essential "
 "<https://education.lego.com/en-us/products/lego-education-spike-essential-"
 "set/45345/>`__ "
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:51
 msgid "*Recommended for Software Development:*"
-msgstr "* ソフトウェア開発におすすめ：*"
+msgstr "*ソフトウェア開発におすすめ：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:53
 #: ../../source/programming_resources/laptops/laptops.rst:98
@@ -179,17 +179,17 @@ msgid ""
 "software development and CAD – and team preference in these two uses shapes "
 "the required hardware."
 msgstr ""
-"*FIRST* Tech Challengeで使用される主なハードウェアプラットフォームは、`REV Control Hub "
+"*FIRST*Tech Challengeで使用される主なハードウェアプラットフォームは、`REV Control Hub "
 "<https://docs.revrobotics.com/duo-control/control-system-overview/control-"
 "hub-basics>`__ と `REV Driver Hub <https://docs.revrobotics.com/duo-"
 "control/control-system-overview/driver-hub-specifications>`__ "
-"です。これらのプラットフォームは独自のオペレーティングシステムとアプリケーション要件を持っていますが、ほとんどのハードウェアプラットフォームで基本的な機能の大半を実行することは可能です（ただし、より多くの手動ステップが必要となる場合があります）。 *FIRST*"
-" Tech "
+"です。これらのプラットフォームは独自のオペレーティングシステムとアプリケーション要件を持っていますが、ほとんどのハードウェアプラットフォームで基本的な機能の大半を実行することは可能です（ただし、より多くの手動ステップが必要となる場合があります）。*FIRST*Tech"
+" "
 "Challengeでは、チームはコンピュータをソフトウェア開発とCADの2つの基本的な目的のために使用します。これらの2つの用途におけるチームの好みが必要とするハードウェアを形成します。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:90
 msgid "*Recommended for Software Development and CAD:*"
-msgstr "* ソフトウェア開発およびCADに推奨：*"
+msgstr "*ソフトウェア開発およびCADに推奨：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:92
 #: ../../source/programming_resources/laptops/laptops.rst:178
@@ -200,7 +200,7 @@ msgstr "`Windowsパフォーマンスノートパソコン`_"
 #: ../../source/programming_resources/laptops/laptops.rst:96
 #: ../../source/programming_resources/laptops/laptops.rst:193
 msgid "*Recommended for Software Development Only:*"
-msgstr "* ソフトウェア開発用に推奨されます:*"
+msgstr "*ソフトウェア開発用に推奨されます:*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:100
 #: ../../source/programming_resources/laptops/laptops.rst:197
@@ -269,13 +269,12 @@ msgid ""
 "Development platforms and/or Driver Station platforms, and those roles also "
 "shape the requirements of the computer hardware."
 msgstr ""
-"*FIRST* ロボティクス競技会で使用される主なハードウェアプラットフォームは、`NI roboRIO "
+"*FIRST*ロボティクス競技会で使用される主なハードウェアプラットフォームは、`NI roboRIO "
 "<https://www.ni.com/docs/en-US/bundle/roborio-20-specs/page/specs.html>`__ "
-"です。このプラットフォームには、競技におけるコンピュータハードウェアに対する一意の要件があり、これはソフトウェア開発用の要件とは異なる場合があります。プログラミング環境によって異なります。同様に"
-" *FIRST* Tech Challenge "
-"のチームは、ソフトウェア開発とCADのためにソフトウェア開発コンピュータを使用していますが、これらの2つの用途におけるチームの好みは必要とするハードウェアを形成します。しかし、 *FIRST*"
-" ロボティクス競技会では、コンピュータには2つの役割があります - "
-"ソフトウェア開発と設計開発プラットフォーム、またはドライバーステーションプラットフォームなど - "
+"です。このプラットフォームには、競技におけるコンピュータハードウェアに対する一意の要件があり、これはソフトウェア開発用の要件とは異なる場合があります。プログラミング環境によって異なります。同様に*FIRST*Tech"
+" Challenge "
+"のチームは、ソフトウェア開発とCADのためにソフトウェア開発コンピュータを使用していますが、これらの2つの用途におけるチームの好みは必要とするハードウェアを形成します。しかし、*FIRST*ロボティクス競技会では、コンピュータには2つの役割があります"
+" - ソフトウェア開発と設計開発プラットフォーム、またはドライバーステーションプラットフォームなど - "
 "これらの役割もコンピュータハードウェアの要件を形成します。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:151
@@ -321,12 +320,12 @@ msgid ""
 "depending on the use of CAD the hardware requirements are slightly "
 "different:"
 msgstr ""
-"如き *FIRST* Tech Challenge、 *FIRST* Robotics "
+"如き*FIRST*Tech Challenge、*FIRST*Robotics "
 "Competitionチームはソフトウェア開発とCADのためにソフトウェア開発用および設計用ノートパソコンを使用します。CADの使用に応じてハードウェア要件は若干異なります："
 
 #: ../../source/programming_resources/laptops/laptops.rst:188
 msgid "*Recommended for the Software and Design Development role with CAD:*"
-msgstr "* ソフトウェアおよび設計開発の役割に推奨されます（CADを使用）：*"
+msgstr "*ソフトウェアおよび設計開発の役割に推奨されます（CADを使用）：*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:210
 msgid ""
@@ -359,7 +358,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:225
 msgid "*Windows Operating System*"
-msgstr "*Windowsオペレーティングシステム *"
+msgstr "*Windowsオペレーティングシステム*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:227
 msgid ""
@@ -373,7 +372,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:234
 msgid "*USB Ports*"
-msgstr "*USBポート *"
+msgstr "*USBポート*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:236
 msgid "Laptops should have at least 2 available physical USB-A ports."
@@ -414,7 +413,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:257
 msgid "*SSD Hard Drive*"
-msgstr "*SSDハードドライブ *"
+msgstr "*SSDハードドライブ*"
 
 #: ../../source/programming_resources/laptops/laptops.rst:259
 msgid ""
@@ -428,7 +427,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:266
 msgid "**Windows Performance Laptop**"
-msgstr " ** Windowsパフォーマンスノートパソコン ** "
+msgstr "**Windowsパフォーマンスノートパソコン**"
 
 #: ../../source/programming_resources/laptops/laptops.rst:268
 msgid ""
@@ -487,7 +486,7 @@ msgstr "オペレーティングシステム：Windows 10以上、Windows 11が�
 
 #: ../../source/programming_resources/laptops/laptops.rst:294
 msgid "**Windows Standard Laptop**"
-msgstr " ** WindowsスタンダードノートPC ** "
+msgstr "**WindowsスタンダードノートPC**"
 
 #: ../../source/programming_resources/laptops/laptops.rst:296
 msgid ""
@@ -520,7 +519,7 @@ msgstr "ストレージ: 256GB以上、512GB SSDが推奨"
 
 #: ../../source/programming_resources/laptops/laptops.rst:321
 msgid "**MacOS Standard Laptop**"
-msgstr " ** macOS標準ノートブック ** "
+msgstr "**macOS標準ノートブック**"
 
 #: ../../source/programming_resources/laptops/laptops.rst:323
 msgid ""
@@ -551,7 +550,7 @@ msgstr "OS: macOS Mojave 10.14 以降"
 
 #: ../../source/programming_resources/laptops/laptops.rst:339
 msgid "**iOS Standard Tablet**"
-msgstr " ** iOS標準タブレット ** "
+msgstr "**iOS標準タブレット**"
 
 #: ../../source/programming_resources/laptops/laptops.rst:341
 msgid "A standard iOS tablet, such as an iPad Air 2 or iPad Mini 4 or newer."
@@ -563,7 +562,7 @@ msgstr "オペレーティングシステム：iOS 13以降"
 
 #: ../../source/programming_resources/laptops/laptops.rst:346
 msgid "**Chrome OS Standard Laptop**"
-msgstr " ** クロムOS標準ノートブック ** "
+msgstr "**クロムOS標準ノートブック**"
 
 #: ../../source/programming_resources/laptops/laptops.rst:348
 msgid ""
@@ -600,7 +599,7 @@ msgstr "オペレーティングシステム：Android 7.0 以降"
 
 #: ../../source/programming_resources/laptops/laptops.rst:363
 msgid "**Android Standard Tablet**"
-msgstr " ** Android標準タブレット ** "
+msgstr "**Android標準タブレット**"
 
 #: ../../source/programming_resources/laptops/laptops.rst:365
 msgid ""

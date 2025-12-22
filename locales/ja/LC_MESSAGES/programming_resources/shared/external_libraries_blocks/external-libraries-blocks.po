@@ -66,7 +66,9 @@ msgid ""
 "*Note: This new capability exists for a Robot Controller (RC) running "
 "Android 7 & and higher. Moto G 2nd Gen and Moto G 3rd Gen RC phones cannot "
 "use this feature.*"
-msgstr "* 注意: この新しい機能は、Android 7以降のバージョンを実行しているロボットコントローラ(RC)で利用できます。Moto G 2nd GenおよびMoto G 3rd GenのRCスマホではこの機能を利用できません。 *"
+msgstr ""
+"*注意: この新しい機能は、Android 7以降のバージョンを実行しているロボットコントローラ(RC)で利用できます。Moto G 2nd "
+"GenおよびMoto G 3rd GenのRCスマホではこの機能を利用できません。*"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:29
 msgid "Overview"
@@ -80,11 +82,11 @@ msgstr "これは三つの基本的なステップで簡単に実行できるプ
 msgid ""
 "**Step 1**, find a library with features you want to use, and get its .jar "
 "or .aar file."
-msgstr " ** ステップ1 ** 、使用したい機能を持つライブラリを見つけ、その.jarまたは.aarファイルを取得します。"
+msgstr "**ステップ1**、使用したい機能を持つライブラリを見つけ、その.jarまたは.aarファイルを取得します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:36
 msgid "**Step 2**, upload that file in OnBot Java."
-msgstr " ** ステップ2 ** 、そのファイルをOnBot Javaにアップロードしてください。"
+msgstr "**ステップ2**、そのファイルをOnBot Javaにアップロードしてください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:38
 msgid ""
@@ -113,9 +115,7 @@ msgid ""
 "available directly to the Blocks user, **without creating a myBlock**. This "
 "can be done, if the library is specially annotated by its author."
 msgstr ""
-" ** ステップ3C ** "
-"は、ライブラリメソッドをブロックユーザーに直接利用可能にする異なるシナリオです。これには、ライブラリが著者が特別に注釈を付けていない限り、 ** "
-"myBlockを作成せずに ** 行うことができます。"
+"**ステップ3C**は、ライブラリメソッドをブロックユーザーに直接利用可能にする異なるシナリオです。これには、ライブラリが著者が特別に注釈を付けていない限り、**myBlockを作成せずに**行うことができます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:57
 msgid "Step 1 - Select library, get archive file"
@@ -148,8 +148,8 @@ msgid ""
 msgstr ""
 "もしその機能を使用したい場合は、.jar もしくは .aar ファイルを見つけることを試みてください。``.jar`` のサフィックスは Java "
 "アーカイブを意味し、``.aar`` は同様のフォーマットで Android "
-"アーカイブと呼ばれます。これは、あなたが使用したい全コードを集めた圧縮ファイルです。これは一般的なウェブダウンロード用の *zip ファイル * "
-"に似ています。"
+"アーカイブと呼ばれます。これは、あなたが使用したい全コードを集めた圧縮ファイルです。これは一般的なウェブダウンロード用の*zip "
+"ファイル*に似ています。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:75
 msgid ""
@@ -197,7 +197,7 @@ msgid ""
 "regular Java file to the ``teamcode`` folder."
 msgstr ""
 "OnBot "
-"Java（OBJ）で、通常は「チームコード」フォルダに一般的なJavaファイルをアップロードするために使用される ** アップロードアイコン ** をクリックします。"
+"Java（OBJ）で、通常は「チームコード」フォルダに一般的なJavaファイルをアップロードするために使用される**アップロードアイコン**をクリックします。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:103
 msgid "upload icon"
@@ -254,16 +254,16 @@ msgid ""
 "they work, including the inputs and outputs (and their Java types). This "
 "tutorial does not offer Java programming instruction."
 msgstr ""
-"First import the class. You know the ** class name ** because you read about "
-"it in the library documentation. And you know the ** method names ** and how "
-"they work, including the inputs and outputs (and their Java types). This "
-"tutorial does not offer Java programming instruction."
+"First import the class. You know the**class name**because you read about it "
+"in the library documentation. And you know the**method names**and how they "
+"work, including the inputs and outputs (and their Java types). This tutorial"
+" does not offer Java programming instruction."
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:135
 msgid ""
 "Remember, when all your programming is finished, click the ``Build "
 "Everything`` icon (see image above)."
-msgstr "完了したすべてのプログラミングが終了したら、``Build Everything`` アイコン（上記画像参照）をクリックしてください。"
+msgstr "完了したすべてのプログラミングが終了したら、``Build Everything``アイコン（上記画像参照）をクリックしてください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:138
 msgid ""
@@ -271,8 +271,7 @@ msgid ""
 " not. It depends on the functionality you want to provide to your Blocks "
 "programmer."
 msgstr ""
-" ** ステップ3B ** "
-"では、myBlockを作成します。このmyBlockはライブラリメソッドを変更することができるか、それとも変更しないかは、Blocksプログラマに提供したい機能によって決まります。"
+"**ステップ3B**では、myBlockを作成します。このmyBlockはライブラリメソッドを変更することができるか、それとも変更しないかは、Blocksプログラマに提供したい機能によって決まります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:142
 msgid ""
@@ -280,8 +279,7 @@ msgid ""
 "using exactly the same inputs and outputs. This might be called a *wrapper "
 "method*."
 msgstr ""
-" ** 未変更 ** "
-"とは、あなたのmyBlockがライブラリメソッドをそのまま呼び出し、同じ入力と出力を使用することを意味します。これは「ラッパーメソッド」と呼ばれることがあります。"
+"**未変更**とは、あなたのmyBlockがライブラリメソッドをそのまま呼び出し、同じ入力と出力を使用することを意味します。これは「ラッパーメソッド」と呼ばれることがあります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:146
 msgid ""
@@ -289,9 +287,8 @@ msgid ""
 "specific task in or for your larger myBlock method. In other words, your "
 "myBlock **supplements** what the library method can do."
 msgstr ""
-"または、ライブラリメソッドを ** ユーティリティ関数 "
-" ** として使用して、より大きなmyBlockメソッド内で特定のタスクを実行できます。つまり、your myBlockはライブラリメソッドが行えること ** "
-" 補完 ** します。"
+"または、ライブラリメソッドを**ユーティリティ関数**として使用して、より大きなmyBlockメソッド内で特定のタスクを実行できます。つまり、your "
+"myBlockはライブラリメソッドが行えること**補完**します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:150
 msgid ""
@@ -341,8 +338,7 @@ msgid ""
 "``@org.firstinspires.ftc.robotcore.external.ExportClassToBlocks`` directly "
 "before the library class declaration."
 msgstr ""
-"ライブラリクラス宣言の直前に注釈 "
-"``@org.firstinspires.ftc.robotcore.external.ExportClassToBlocks`` を置きます。"
+"ライブラリクラス宣言の直前に注釈``@org.firstinspires.ftc.robotcore.external.ExportClassToBlocks``を置きます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:176
 msgid ""
@@ -350,8 +346,7 @@ msgid ""
 "``@org.firstinspires.ftc.robotcore.external.ExportToBlocks`` directly before"
 " each library method to be exposed (shared or passed through to Blocks)."
 msgstr ""
-"ライブラリメソッドを公開（共有またはブロックに渡す）前に、注釈 "
-"``@org.firstinspires.ftc.robotcore.external.ExportToBlocks`` を直接置きましょう。"
+"ライブラリメソッドを公開（共有またはブロックに渡す）前に、注釈``@org.firstinspires.ftc.robotcore.external.ExportToBlocks``を直接置きましょう。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:181
 msgid ""
@@ -486,16 +481,14 @@ msgid ""
 "circumference - ``circleArea()`` accepts radius, returns area - ``hypot()`` "
 "accepts 2 lengths, returns hypotenuse of right triangle"
 msgstr ""
-"このライブラリには、``com.example.google.ftc.Geometry`` というクラスが含まれており、3つのメソッドがあります：- "
-"``circleCircumference()`` は半径を受け取り、円の周長を返します- ``circleArea()`` "
-"は半径を受け取り、面積を返します- ``hypot()`` は2つの長さを受け取り、直角三角形の斜辺を返します"
+"このライブラリには、``com.example.google.ftc.Geometry``というクラスが含まれており、3つのメソッドがあります：-``circleCircumference()``は半径を受け取り、円の周長を返します-``circleArea()``は半径を受け取り、面積を返します-``hypot()``は2つの長さを受け取り、直角三角形の斜辺を返します"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:264
 msgid ""
 "Under **Step 3A**, you would use, for example, the ``hypot()`` method for "
 "your own OnBot Java programming, not providing it to Blocks."
 msgstr ""
-" ** ステップ3A ** の下では、あなたは独自のOnBot Javaプログラミングで例えば ``hypot()`` "
+"**ステップ3A**の下では、あなたは独自のOnBot Javaプログラミングで例えば ``hypot()`` "
 "メソッドを使用します。ブロックに提供する必要はありません。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:267
@@ -512,13 +505,13 @@ msgid ""
 " *This is just an exercise; regular Blocks could easily calculate this "
 "value.*"
 msgstr ""
-" ** ステップ3B ** "
-"の下で、独自のカスタムブロック「myHypotenuse」を作成しましょう。 * これは単なる演習であり、通常のブロックはこの値を簡単に計算できます。 *"
+"**ステップ3B**の下で、独自のカスタムブロック「myHypotenuse」を作成しましょう。 * "
+"これは単なる演習であり、通常のブロックはこの値を簡単に計算できます。 *"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:285
 msgid ""
 "You will still need the ``import`` statement, same as above in Step 3A."
-msgstr "あなたはまだ ``import`` ステートメントが必要です。Step 3A の上記と同じです。"
+msgstr "あなたはまだ``import``ステートメントが必要です。Step 3A の上記と同じです。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:287
 msgid "Then, extend the main class:"
@@ -555,7 +548,7 @@ msgstr "私の斜辺 myBlock"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:321
 msgid "myBlock using library method ``Geometry.hypot()``"
-msgstr "myBlock using library method ``Geometry.hypot()``"
+msgstr "myBlock using library method``Geometry.hypot()``"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:324
 msgid ""
@@ -573,7 +566,7 @@ msgstr "myBlocksのジオメトリーライブラリを使用したテレメト�
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:335
 msgid "Example 2 - *FIRST* Tech Challenge-annotated library"
-msgstr "例 2 - *FIRST* Tech Challenge-注釈付きライブラリ"
+msgstr "例 2 -*FIRST*Tech Challenge-注釈付きライブラリ"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:337
 msgid ""
@@ -588,8 +581,7 @@ msgid ""
 " public methods ``sum``, ``min``, ``max`` and ``average``. Each accepts two "
 "numbers and provides a numeric result."
 msgstr ""
-"このライブラリにはクラス名が ``com.example.google.ftc.MoreMath`` のものがあり、公開メソッドとして ``sum``,"
-" ``min``, ``max`` と ``average`` があります。各メソッドは2つの数字を受け取り、数値の結果を提供します。"
+"このライブラリにはクラス名が``com.example.google.ftc.MoreMath``のものがあり、公開メソッドとして``sum``,``min``,``max``と``average``があります。各メソッドは2つの数字を受け取り、数値の結果を提供します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:345
 msgid ""
@@ -597,7 +589,7 @@ msgid ""
 " After you upload the .aar file and ``Build Everything``, its 4 “pass-"
 "through” methods will automatically appear as Blocks:"
 msgstr ""
-"このライブラリはチーム用に特別に ** 注釈が付けられており ** 、上記で説明しています。.aarファイルをアップロードし、「すべてビルド」を行った後、その4つの「パススルー」メソッドが自動的にブロックとして表示されます："
+"このライブラリはチーム用に特別に**注釈が付けられており**、上記で説明しています。.aarファイルをアップロードし、「すべてビルド」を行った後、その4つの「パススルー」メソッドが自動的にブロックとして表示されます："
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:353
 msgid "MoreMath Blocks"
@@ -619,8 +611,8 @@ msgid ""
 " processes the library at upload."
 msgstr ""
 "あなたはOnBot "
-"Javaでこれらのメソッドを使用する ** こともできます ** 。myBlockを作成するためにも使用できます。例えば、通過メソッドのカスタムバージョンを提供したい場合があります。しかし、このライブラリやそのメソッドをサポートするためには、OnBot"
-" Javaファイル ** は必要ありません ** ；それはアップロード時にライブラリを処理する際にOnBot Javaによって自動的に実行されます。"
+"Javaでこれらのメソッドを使用する**こともできます**。myBlockを作成するためにも使用できます。例えば、通過メソッドのカスタムバージョンを提供したい場合があります。しかし、このライブラリやそのメソッドをサポートするためには、OnBot"
+" Javaファイル**は必要ありません**；それはアップロード時にライブラリを処理する際にOnBot Javaによって自動的に実行されます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:362
 msgid ""
@@ -633,7 +625,7 @@ msgstr ""
 msgid ""
 "Here are two other “homemade” libraries, both **annotated**. Feel free to "
 "experiment with these."
-msgstr "以下は、両方とも ** 注釈付き ** の「手作り」ライブラリです。これらのライブラリを自由に実験してみてください。"
+msgstr "以下は、両方とも**注釈付き**の「手作り」ライブラリです。これらのライブラリを自由に実験してみてください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:369
 msgid ""
@@ -644,10 +636,7 @@ msgid ""
 "provides an integer result."
 msgstr ""
 ":download:`JniExample.aar <opmodes/JniExample.aar>` "
-"には、ネイティブC++コードで実装された基本的な算術演算のメソッドを持つクラス `` "
-"com.example.google.ftc.IntegerMath `` が含まれています。公開メソッドは `` add ``（加算）、`` "
-"subtract ``（減算）、`` multiply ``（乗算）、および `` divide "
-"``（除算）です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
+"には、ネイティブC++コードで実装された基本的な算術演算のメソッドを持つクラス``com.example.google.ftc.IntegerMath``が含まれています。公開メソッドは``add``（加算）、``subtract``（減算）、``multiply``（乗算）、および``divide``（除算）です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:375
 msgid ""
@@ -661,14 +650,12 @@ msgid ""
 "Input Devices and choose ``REV Potentiometer``. It has a public method "
 "``getRotation`` with parameter of type AngleUnit."
 msgstr ""
-":download:`RevPotentiometer.aar <opmodes/RevPotentiometer.aar>` には、クラス `` "
-"com.example.google.ftc.RevPotentiometer `` が含まれており、これは `REV Potentiometer "
-"<https://www.revrobotics.com/rev-31-1155/>`__ のハードウェアデバイスクラスです。このセンサーは `` "
-"AnalogSensorType `` および `` DeviceProperties `` "
-"アノテーションを使用して、RCアプリケーションまたはペアリングされたDSアプリケーションの「ロボットを構成」メニューに表示されます。.aarファイルがアップロードされ（そして"
-" `` Build Everything `` が実行された後）、ロボットのアナログ入力デバイスを構成し、「REV "
-"Potentiometer」を選択します。このクラスには、AngleUnit型のパラメータを持つ公開メソッド `` getRotation `` "
-"があります。"
+":download:`RevPotentiometer.aar <opmodes/RevPotentiometer.aar>` "
+"には、クラス``com.example.google.ftc.RevPotentiometer``が含まれており、これは `REV "
+"Potentiometer <https://www.revrobotics.com/rev-31-1155/>`__ "
+"のハードウェアデバイスクラスです。このセンサーは``AnalogSensorType``および``DeviceProperties``アノテーションを使用して、RCアプリケーションまたはペアリングされたDSアプリケーションの「ロボットを構成」メニューに表示されます。.aarファイルがアップロードされ（そして``Build"
+" Everything``が実行された後）、ロボットのアナログ入力デバイスを構成し、「REV "
+"Potentiometer」を選択します。このクラスには、AngleUnit型のパラメータを持つ公開メソッド``getRotation``があります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:387
 msgid "Real-world libraries"
@@ -689,9 +676,8 @@ msgid ""
 "designed and ready for use. See the simple instructions `here "
 "<https://github.com/OpenFTC/EasyOpenCV>`__."
 msgstr ""
-"理想としては、ライブラリの.jarまたは.aarファイルには必要なすべてのクラスが含まれており、外部依存関係なしで使用できるはずです。良い例は "
-" ** EasyOpenCV ** です。使い方については `こちら <https://github.com/OpenFTC/EasyOpenCV>`__ "
-"を参照してください。"
+"理想としては、ライブラリの.jarまたは.aarファイルには必要なすべてのクラスが含まれており、外部依存関係なしで使用できるはずです。良い例は**EasyOpenCV**です。使い方については"
+" `こちら <https://github.com/OpenFTC/EasyOpenCV>`__ を参照してください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:399
 msgid ""
@@ -723,7 +709,7 @@ msgid ""
 "It can operate again only by manually deleting the .jar file and its "
 "associated folder, directly on the RC device."
 msgstr ""
-"もしライブラリコードがその.jarファイルに含まれていない ** クラス ** を参照している場合、OnBot "
+"もしライブラリコードがその.jarファイルに含まれていない**クラス**を参照している場合、OnBot "
 "Javaの自動完成機能は最終的に「クラスが見つかりません」という例外を投げ、あなたのRCアプリケーションがクラッシュする可能性があります。この「隠された依存関係」によって引き起こされる例外は、OBJが「欠けている」クラスに遭遇した瞬間や数分後、数時間後に発生し、あなたのOpModeがそのクラスを直接または間接的に使用していない場合でも同様です。その時点で以降、あなたのRCアプリケーションは動作しなくなります。RCデバイス上で手動で.jarファイルとその関連フォルダを削除することで再起動することができます。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:418

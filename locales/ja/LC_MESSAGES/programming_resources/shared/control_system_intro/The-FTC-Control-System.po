@@ -25,7 +25,7 @@ msgstr "制御システムの紹介"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:5
 msgid "About *FIRST* Tech Challenge"
-msgstr "*FIRST* Tech Challengeについて"
+msgstr "*FIRST*Tech Challengeについて"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:7
 msgid ""
@@ -37,8 +37,8 @@ msgid ""
 "start of each season. The more tasks that a robot can complete, the more "
 "points a team will earn."
 msgstr ""
-"*FIRST* Tech Challengeは、メンターガイドのロボティクス競技に参加することで、若者を次世代のSTEMリーダーと革新者へと "
-"Inspirer 構想します。各チームが *FIRST* Tech Challenge "
+"*FIRST*Tech Challengeは、メンターガイドのロボティクス競技に参加することで、若者を次世代のSTEMリーダーと革新者へと "
+"Inspirer 構想します。各チームが*FIRST*Tech Challenge "
 "に参加する際には、さまざまなタスクを実行できるロボットを作成しなければなりません。これらのタスクはシーズンごとに変化し、各シーズンの開始時に公表されるゲームルールに基づいています。ロボットが完了できるタスク越多ければ多いほど、チームはより多くのポイントを得ることができます。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:20
@@ -69,7 +69,7 @@ msgid ""
 "*FIRST* Tech Challenge uses Android devices to control its robots. During a "
 "competition, each team has two Android devices."
 msgstr ""
-"*FIRST* Tech "
+"*FIRST*Tech "
 "ChallengeはAndroidデバイスを使用してロボットを制御します。競技中には、各チームに2台のAndroidデバイスがあります。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:42
@@ -117,7 +117,10 @@ msgid ""
 "Control Hub, and communicates with the Expansion Hub through a serial "
 "connection. For the situation where an Android smartphone is used as the "
 "Robot Controller, a USB cable is used to establish the serial connection."
-msgstr "REV Robotics コントロールハブまたはExpansion Hubは、ロボットコントローラーがロボットのモーター、サーボ、センサーと通信できる電子的な入出力（「I/O」）モジュールです。ロボットコントローラーはコントロールハブに統合されており、シリアル接続を介してExpansion Hubと通信します。Android スマートフォンがロボットコントローラーとして使用される場合、USB ケーブルを使用してシリアル接続を確立します。"
+msgstr ""
+"REV Robotics コントロールハブまたはExpansion "
+"Hubは、ロボットコントローラーがロボットのモーター、サーボ、センサーと通信できる電子的な入出力（「I/O」）モジュールです。ロボットコントローラーはコントロールハブに統合されており、シリアル接続を介してExpansion"
+" Hubと通信します。Android スマートフォンがロボットコントローラーとして使用される場合、USB ケーブルを使用してシリアル接続を確立します。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:69
 msgid ""
@@ -125,7 +128,9 @@ msgid ""
 "is used to power the Control Hub, the Expansion Hub, the motors, the servos "
 "and sensors. If an Android smartphone is used as the Robot Controller, then "
 "the smartphone will have its own independent battery."
-msgstr "Control HubとExpansion Hubは、Control Hub、Expansion Hub、モータ、サーボモーター、およびセンサーを駆動するための12Vバッテリーに接続されています。ロボットコントローラとしてAndroidスマートフォンを使用する場合、スマートフォンには独自の独立したバッテリーがあります。"
+msgstr ""
+"Control HubとExpansion Hubは、Control Hub、Expansion "
+"Hub、モータ、サーボモーター、およびセンサーを駆動するための12Vバッテリーに接続されています。ロボットコントローラとしてAndroidスマートフォンを使用する場合、スマートフォンには独自の独立したバッテリーがあります。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:80
 msgid "Android Smartphones"
@@ -164,14 +169,18 @@ msgid ""
 "score a game element (such as a ball) into a goal autonomously during a "
 "match. Teams write “OpModes” (which stand for “operational modes”) to "
 "specify the behavior for their robot."
-msgstr "一般的なFIRST Tech Challengeのマッチ中、各チームのロボットは得点のためにさまざまなタスクを実行する必要があります。例えば、チームはロボットに競技場の白線を追跡し、その後、マッチ中に自動制御でゴールにゲーム要素（ボールなど）をスコアリングしたいかもしれません。各チームは「OpModes」（「operational modes」という意味）を書くことで、ロボットの動作を指定します。"
+msgstr ""
+"一般的なFIRST Tech "
+"Challengeのマッチ中、各チームのロボットは得点のためにさまざまなタスクを実行する必要があります。例えば、チームはロボットに競技場の白線を追跡し、その後、マッチ中に自動制御でゴールにゲーム要素（ボールなど）をスコアリングしたいかもしれません。各チームは「OpModes」（「operational"
+" modes」という意味）を書くことで、ロボットの動作を指定します。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:110
 msgid ""
 "An *OpMode* is a computer program that is used to customize the behavior of "
 "a competition robot. The Robot Controller can *execute* a selected OpMode to"
 " perform certain tasks during a match."
-msgstr "OpMode(*OpMode*)は、競技ロボットの動作をカスタマイズするためのコンピュータープログラムです。ロボットコントローラーは、選択されたOpModeを実行して、マッチ中に特定のタスクを実行することができます。"
+msgstr ""
+"OpMode(*OpMode*)は、競技ロボットの動作をカスタマイズするためのコンピュータープログラムです。ロボットコントローラーは、選択されたOpModeを実行して、マッチ中に特定のタスクを実行することができます。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:114
 msgid ""
@@ -182,4 +191,7 @@ msgid ""
 "Java tool known as the *OnBot Java Programming Tool* or Google’s *Android "
 "Studio* integrated development environment (also known as an “IDE”) to "
 "create their OpModes."
-msgstr "チームがFIRST Tech Challengeに参加している場合、様々なプログラミングツールを使用して独自のOpModeを作成できます。チームは、「ドラッグアンドドロップ」型の視覚的なプログラミングツールである「ブロックズプログラミングツール」を使ってOpModeを作成することができます。また、テキストベースのJavaツールである「OnBot Javaプログラミングツール」や、Googleの統合開発環境「Android Studio」（略称：IDE）も使用できます。"
+msgstr ""
+"チームがFIRST Tech "
+"Challengeに参加している場合、様々なプログラミングツールを使用して独自のOpModeを作成できます。チームは、「ドラッグアンドドロップ」型の視覚的なプログラミングツールである「ブロックズプログラミングツール」を使ってOpModeを作成することができます。また、テキストベースのJavaツールである「OnBot"
+" Javaプログラミングツール」や、Googleの統合開発環境「Android Studio」（略称：IDE）も使用できます。"

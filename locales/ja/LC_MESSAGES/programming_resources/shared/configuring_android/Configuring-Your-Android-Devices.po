@@ -172,7 +172,8 @@ msgid ""
 "the Robot Controller and the other phone \"9999-C-DS\" for the DRIVER "
 "STATION. The \"-C\" indicates that these devices belong to the third set of "
 "phones for this team."
-msgstr "例えば、チームがチーム番号が9999で複数のスマホがある場合、そのチームはロボットコントローラー用に「9999-C-RC」と命名し、ドライバーステーション用に「9999-C-DS」と命名するかもしれません。「-C」はこれらのデバイスがこのチームの第三セットのスマホであることを示します。"
+msgstr ""
+"例えば、チームがチーム番号が9999で複数のスマホがある場合、そのチームはロボットコントローラー用に「9999-C-RC」と命名し、ドライバーステーション用に「9999-C-DS」と命名するかもしれません。「-C」はこれらのデバイスがこのチームの第三セットのスマホであることを示します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:76
 msgid ""
@@ -182,7 +183,12 @@ msgid ""
 "Robot-Controller:changing the name>`. It can also be changed at the *Manage*"
 " page from the RC app, a paired DS app, or a connected laptop; click ``Apply"
 " Wi-Fi Settings`` when done."
-msgstr "ロボットコントローラー用のスマホの名前は、RCアプリを使用して変更できます。詳細については :ref:`ここ <programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller:changing the name>` の指示を参照してください。また、RCアプリ、ペアリングされたDSアプリ、または接続されたラップトップから「Manage」ページで名前を変更することもできます。完了したら、「Apply Wi-Fi Settings」をクリックします。"
+msgstr ""
+"ロボットコントローラー用のスマホの名前は、RCアプリを使用して変更できます。詳細については :ref:`ここ "
+"<programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-"
+"Robot-Controller:changing the name>` "
+"の指示を参照してください。また、RCアプリ、ペアリングされたDSアプリ、または接続されたラップトップから「Manage」ページで名前を変更することもできます。完了したら、「Apply"
+" Wi-Fi Settings」をクリックします。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:81
 msgid ""
@@ -255,10 +261,9 @@ msgstr "画像"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:109
 msgid ""
-"Browse the list of available apps on the smartphone and locate the "
-"Settings icon. Click on Settings icon to display the Settings "
-"screen."
-msgstr "スマートフォンの利用可能なアプリ一覧から、 ** 設定 ** アイコンを探し出します。 ** 設定 ** アイコンをクリックして、設定画面を開きます。"
+"Browse the list of available apps on the smartphone and locate the Settings "
+"icon. Click on Settings icon to display the Settings screen."
+msgstr "スマートフォンの利用可能なアプリ一覧から、**設定**アイコンを探し出します。**設定**アイコンをクリックして、設定画面を開きます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:110
 msgid "|rename1|"
@@ -266,7 +271,7 @@ msgstr "|rename1|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:112
 msgid "Click on **Wi-Fi** to launch the Wi-Fi screen."
-msgstr " ** Wi-Fi ** をクリックしてWi-Fi画面を開きます。"
+msgstr "**Wi-Fi**をクリックしてWi-Fi画面を開きます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:113
 msgid "|rename2|"
@@ -283,17 +288,15 @@ msgstr "|rename3|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:118
 msgid "Select **Advanced** from the pop-up menu."
-msgstr "ポップアップメニューから ** 詳細設定 ** を選択します。"
+msgstr "ポップアップメニューから**詳細設定**を選択します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:119
 msgid "|rename4|"
-msgstr ""
-"|rename4|"
-""
+msgstr "|rename4|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:121
 msgid "Select **Wi-Fi Direct** from the **Advanced Wi-Fi** screen."
-msgstr "選択する ** Wi-Fi Direct ** from the ** Advanced Wi-Fi ** screen."
+msgstr "選択する**Wi-Fi Direct**from the**Advanced Wi-Fi**screen."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:122
 msgid "|rename5|"
@@ -301,13 +304,11 @@ msgstr "|rename5|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:125
 msgid "|rename6|"
-msgstr ""
-"|rename6|"
-""
+msgstr "|rename6|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:127
 msgid "Select **Configure Device** from the pop-up menu."
-msgstr "選択する ** Configure Device ** from the pop-up menu."
+msgstr "選択する**Configure Device**from the pop-up menu."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:128
 msgid "|rename7|"
@@ -323,7 +324,10 @@ msgid ""
 "right, the team number is 9999. The \"-C\" indicates that this is from the "
 "third pair of smartphones for this team. The -RC indicates that this phone "
 "will be a Robot Controller."
-msgstr "デバイスの新しい名前をタッチパッドで入力してください。このデバイスがロボットコントローラの場合、チーム番号と-RCを指定します。このデバイスがドライバステーションの場合、チーム番号と-DSを指定します。Wi-Fi Directの非アクティブタイムアウトを ** 永遠に切断しない ** に設定し、その後、「SAVE」ボタンを押して変更を保存できます。右側に示したスクリーンショットでは、チーム番号は9999です。「-C」はこのチームの3台目のスマートフォンから来ていることを示します。「-RC」はこのスマホがロボットコントローラであることを示します。"
+msgstr ""
+"デバイスの新しい名前をタッチパッドで入力してください。このデバイスがロボットコントローラの場合、チーム番号と-"
+"RCを指定します。このデバイスがドライバステーションの場合、チーム番号と-DSを指定します。Wi-Fi "
+"Directの非アクティブタイムアウトを**永遠に切断しない**に設定し、その後、「SAVE」ボタンを押して変更を保存できます。右側に示したスクリーンショットでは、チーム番号は9999です。「-C」はこのチームの3台目のスマートフォンから来ていることを示します。「-RC」はこのスマホがロボットコントローラであることを示します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:131
 msgid "|rename8|"
@@ -335,7 +339,7 @@ msgstr "スマホの名前を変更後、デバイスを再起動してくださ
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:138
 msgid "Installing the *FIRST* Tech Challenge Apps"
-msgstr "*FIRST* Tech Challenge アプリのインストール"
+msgstr "*FIRST*Tech Challenge アプリのインストール"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:140
 msgid ""
@@ -363,7 +367,7 @@ msgstr ""
 msgid ""
 "**As of 2021, the SDK apps (v 6.1 and higher) are no longer available on "
 "Google Play.**"
-msgstr " ** 2021年以降、SDKアプリ（バージョン6.1以上）はGoogle Playから利用できなくなりました。 ** "
+msgstr "**2021年以降、SDKアプリ（バージョン6.1以上）はGoogle Playから利用できなくなりました。**"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:151
 msgid ""
@@ -376,7 +380,7 @@ msgstr ""
 "REV Hardware Client (<https://docs.revrobotics.com/rev-hardware-client/>) "
 "のソフトウェアを使用すると、REV Robotics Control Hub、REV Robotics Expansion Hub、REV "
 "Robotics Driver Hub、およびその他の承認されたAndroidデバイスにアプリケーションをダウンロードできます "
-"(* 以下参照してください。セクション名は「Androidスマートフォン上のアプリ更新」です *)。以下はその一部の利点です："
+"(*以下参照してください。セクション名は「Androidスマートフォン上のアプリ更新」です*)。以下はその一部の利点です："
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:157
 msgid "Connect to a REV Robotics Control Hub via WiFi."
@@ -397,10 +401,8 @@ msgstr "Control Hubからユーザーデータのバックアップと復元を�
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:161
 msgid "Install and switch between DS and RC applications on Android Devices."
 msgstr ""
-"Androidデバイス上でDSおよびRCアプリケーションのインストールと切り替え。"
-""
-"Androidデバイス上でDriver StationとRobot Controllerアプリケーションのインストールと切り替えを行います。"
-""
+"Androidデバイス上でDSおよびRCアプリケーションのインストールと切り替え。Androidデバイス上でDriver StationとRobot "
+"Controllerアプリケーションのインストールと切り替えを行います。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:162
 msgid "Access the Robot Control Console on the Control Hub."
@@ -471,8 +473,8 @@ msgstr ""
 "REV Hardware Client `ドキュメント <https://docs.revrobotics.com/rev-hardware-"
 "client/>`__ のソフトウェアは、Android フォンにアプリをインストール、アンインストール、および `更新するためのツールです "
 "<https://docs.revrobotics.com/rev-hardware-client/android-device/installing-"
-"rc-ds-applications>`__ 。ただし、REV Hardware Client ソフトウェアでフォンが正しく認識され、更新されるためには"
-" ** 開発者オプション ** が必要です。開発者オプションを有効にする手順は以下の通りです："
+"rc-ds-applications>`__ 。ただし、REV Hardware Client "
+"ソフトウェアでフォンが正しく認識され、更新されるためには**開発者オプション**が必要です。開発者オプションを有効にする手順は以下の通りです："
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:198
 msgid "devop1"
@@ -583,7 +585,8 @@ msgid ""
 "your screen. Look for the Airplane mode icon (which is shaped like an "
 "airplane) and if the icon is not activated, touch the icon to put the phone "
 "into airplane mode."
-msgstr "各スマートフォンのメインAndroid画面で、指を使って画面の上から下にスライドしてクイック設定画面を表示します。一部のスマートフォンでは、メッセージや通知が画面の上部にある場合、一度だけではなく複数回スワイプする必要があります。空港モードアイコン（飛行機の形に似たアイコン）を探し、アイコンがアクティブでない場合は、そのアイコンをタップしてスマホを空港モードに入れてください。"
+msgstr ""
+"各スマートフォンのメインAndroid画面で、指を使って画面の上から下にスライドしてクイック設定画面を表示します。一部のスマートフォンでは、メッセージや通知が画面の上部にある場合、一度だけではなく複数回スワイプする必要があります。空港モードアイコン（飛行機の形に似たアイコン）を探し、アイコンがアクティブでない場合は、そのアイコンをタップしてスマホを空港モードに入れてください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:254
 msgid "|airplane1|"
@@ -620,14 +623,22 @@ msgid ""
 "running on your Robot Controller to send telemetry data to your DRIVER "
 "STATION phone where it can be displayed for your drivers. The process to "
 "connect the two devices is known as \"pairing.\""
-msgstr "REV Robotics コントロールハブには、ロボットコントローラーアプリが事前にインストールされているはずです。Driver Station を Android フォンに成功してインストールしたら、Control Hub と DRIVER STATION の間で安全な無線接続を確立したいところです。この接続により、DRIVER STATION デバイスは Robot Controller 上のOpModeを選択し、ゲームパッド入力をこれらのプログラムに送信することができます。同様に、Robot Controller 上で実行されているOpModeは、テレメトリデータを DRIVER STATION フォンに送信し、ドライバーが表示できるようになります。この二つのデバイスを接続するプロセスは「ペアリング」と呼ばれます。"
+msgstr ""
+"REV Robotics コントロールハブには、ロボットコントローラーアプリが事前にインストールされているはずです。Driver Station を "
+"Android フォンに成功してインストールしたら、Control Hub と DRIVER STATION "
+"の間で安全な無線接続を確立したいところです。この接続により、DRIVER STATION デバイスは Robot Controller "
+"上のOpModeを選択し、ゲームパッド入力をこれらのプログラムに送信することができます。同様に、Robot Controller "
+"上で実行されているOpModeは、テレメトリデータを DRIVER STATION "
+"フォンに送信し、ドライバーが表示できるようになります。この二つのデバイスを接続するプロセスは「ペアリング」と呼ばれます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:279
 msgid ""
 "the Control Hub does not have its own internal battery. Before you can "
 "connect a Driver Station to the Control Hub, you must connect the Control "
 "Hub to a 12V battery."
-msgstr "Control Hubには内部バッテリーがありません。ドライバー・ステーションをControl Hubに接続する前に、Control Hubに12Vのバッテリーを接続する必要があります。"
+msgstr ""
+"Control Hubには内部バッテリーがありません。ドライバー・ステーションをControl Hubに接続する前に、Control "
+"Hubに12Vのバッテリーを接続する必要があります。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:283
 msgid ""
@@ -692,7 +703,9 @@ msgid ""
 "sure the switch is in the off position. Connect the switch to an XT30 port "
 "on the Control Hub and turn the switch on. The LED should initially be blue "
 "on the Control Hub."
-msgstr "承認された12Vバッテリーを電源スイッチ（REV-31-1387）に接続し、スイッチがオフの位置にあることを確認してください。スイッチをControl HubのXT30ポートに接続し、スイッチをオンにします。Control HubのLEDは最初青色で点灯するはずです。"
+msgstr ""
+"承認された12Vバッテリーを電源スイッチ（REV-31-1387）に接続し、スイッチがオフの位置にあることを確認してください。スイッチをControl "
+"HubのXT30ポートに接続し、スイッチをオンにします。Control HubのLEDは最初青色で点灯するはずです。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:311
 msgid "|pairing1|"
@@ -705,8 +718,8 @@ msgid ""
 "green. Note: the light blinks blue every ~5 seconds to indicate that the "
 "Control Hub is healthy."
 msgstr ""
-"コントロールハブが電源を入れるのに約18秒かかります。LEDが緑色に光ったときには、コントロールハブはドライバーステーションとのペアリングが可能です。注意：コントロールハブが正常であることを示すために、約5秒ごとに青色で blink します。"
-""
+"コントロールハブが電源を入れるのに約18秒かかります。LEDが緑色に光ったときには、コントロールハブはドライバーステーションとのペアリングが可能です。注意：コントロールハブが正常であることを示すために、約5秒ごとに青色で"
+" blink します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:314
 msgid "|pairing2|"
@@ -730,9 +743,7 @@ msgstr "|pairing3|"
 msgid ""
 "Touch the three vertical dots on the upper right hand corner of the main "
 "screen of the Driver Station app. This will launch a pop-up menu."
-msgstr ""
-"ドライバーステーションアプリのメイン画面右上にある三本線をタッチしてください。これでポップアップメニューが表示されます。"
-""
+msgstr "ドライバーステーションアプリのメイン画面右上にある三本線をタッチしてください。これでポップアップメニューが表示されます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:320
 msgid "|pairing4|"
@@ -747,7 +758,6 @@ msgstr "選択する Settings from the pop-up menu."
 msgid "|pairing5|"
 msgstr "|pairing5|"
 
-
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:325
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:414
 msgid ""
@@ -759,14 +769,13 @@ msgstr ""
 msgid "|pairing6|"
 msgstr "|pairing6|"
 
-
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:328
 msgid ""
 "Touch the words **Control Hub** to indicate that this DRIVER STATION will be"
 " pairing with a Control Hub."
 msgstr ""
-"Touch the words ** Control Hub ** to indicate that this DRIVER STATION will be pairing with a Control Hub."
-""
+"Touch the words**Control Hub**to indicate that this DRIVER STATION will be "
+"pairing with a Control Hub."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:329
 msgid "|pairing7|"
@@ -800,7 +809,11 @@ msgid ""
 "default network name should begin with the prefix FTC- (FTC-1Ybr in this "
 "example). The default network name should be listed on a sticker attached to"
 " the bottom side of the Control Hub."
-msgstr "Control Hubの無線ネットワーク名を、利用可能なWiFiネットワークの一覧から探していただきます。ネットワーク名をクリックしてネットワークを選択してください。これが初めてControl Hubに接続する場合、デフォルトのネットワーク名は FTC-（この例では FTC-1Ybr）で始まるはずです。デフォルトのネットワーク名は、Control Hubの底面に貼付けてあるラベルに記載されています。"
+msgstr ""
+"Control "
+"Hubの無線ネットワーク名を、利用可能なWiFiネットワークの一覧から探していただきます。ネットワーク名をクリックしてネットワークを選択してください。これが初めてControl"
+" Hubに接続する場合、デフォルトのネットワーク名は FTC-（この例では "
+"FTC-1Ybr）で始まるはずです。デフォルトのネットワーク名は、Control Hubの底面に貼付けてあるラベルに記載されています。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:338
 msgid "|pairing10|"
@@ -815,7 +828,7 @@ msgid ""
 " have access to the Internet."
 msgstr ""
 "When prompted, specify the password for the Control Hub's WiFi network and "
-"press ** 接続 ** to connect to the Hub. なお、Control Hubネットワークのデフォルトパスワードは "
+"press**接続**to connect to the Hub. なお、Control Hubネットワークのデフォルトパスワードは "
 "``password`` です。また、Control HubのWiFiネットワークに成功して接続すると、DRIVER "
 "STATIONにはインターネットへのアクセスが制限されます。"
 
@@ -845,7 +858,10 @@ msgid ""
 "that it is connected to the Control Hub. The name of the Control Hub's WiFi "
 "network (FTC-1Ybr in this example) should be displayed in the Network field "
 "on the Driver Station."
-msgstr "DRIVER STATIONの画面が変更されたことを確認し、Control Hubに接続されていることを示していることを確認してください。この例ではFTC-1Ybrという名前のControl Hubの無線LANネットワーク名は、DRIVER STATIONのNetworkフィールドで表示されるべきです。"
+msgstr ""
+"DRIVER STATIONの画面が変更されたことを確認し、Control "
+"Hubに接続されていることを示していることを確認してください。この例ではFTC-1Ybrという名前のControl "
+"Hubの無線LANネットワーク名は、DRIVER STATIONのNetworkフィールドで表示されるべきです。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:347
 msgid "|pairing13|"
@@ -866,7 +882,13 @@ msgid ""
 "forgotten this network, then the DRIVER STATION might try and connect to the"
 " Control Hub and might be unable to connect to the Robot Controller "
 "smartphone."
-msgstr "もし、DRIVER STATION が以前にControl Hubとペアリングされていた場合で、現在Androidスマートフォンのロボットコントローラーとの接続をしたい場合は、まずRobot Controllerへのペアリング前に、DRIVER STATION のAndroid Wi-Fi設定画面を使用して、過去のControl Hub用のWi-Fiネットワークを忘却し、その後DRIVER STATION フォンを再起動する必要があります。過去のControl Hubが電源ON状態で、かつこのネットワークを忘却していない場合、DRIVER STATION はControl Hubに接続しようと試み、ロボットコントローラーのスマートフォンに接続できない可能性があります。"
+msgstr ""
+"もし、DRIVER STATION が以前にControl "
+"Hubとペアリングされていた場合で、現在Androidスマートフォンのロボットコントローラーとの接続をしたい場合は、まずRobot "
+"Controllerへのペアリング前に、DRIVER STATION のAndroid Wi-Fi設定画面を使用して、過去のControl "
+"Hub用のWi-Fiネットワークを忘却し、その後DRIVER STATION フォンを再起動する必要があります。過去のControl "
+"Hubが電源ON状態で、かつこのネットワークを忘却していない場合、DRIVER STATION はControl "
+"Hubに接続しようと試み、ロボットコントローラーのスマートフォンに接続できない可能性があります。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:364
 msgid ""
@@ -878,7 +900,12 @@ msgid ""
 " to send telemetry data to your DRIVER STATION device where it can be "
 "displayed for your drivers. The process to connect the two phones is known "
 "as pairing."
-msgstr "Android端末にアプリをインストールしたら、両方のデバイス間で安全な無線接続を確立したいところです。この接続は、DRIVER STATIONデバイスがRobot Controller端末のOpModeを選択し、ゲームパッド入力をおよそのプログラムに送信できるようにします。同様に、DRIVER STATIONデバイスでドライバーがデータを表示できるように、Robot Controller端末上のOpModeはテレメトリデータを送信できます。両方の端末を接続するプロセスはペアリングと呼ばれます。"
+msgstr ""
+"Android端末にアプリをインストールしたら、両方のデバイス間で安全な無線接続を確立したいところです。この接続は、DRIVER "
+"STATIONデバイスがRobot "
+"Controller端末のOpModeを選択し、ゲームパッド入力をおよそのプログラムに送信できるようにします。同様に、DRIVER "
+"STATIONデバイスでドライバーがデータを表示できるように、Robot "
+"Controller端末上のOpModeはテレメトリデータを送信できます。両方の端末を接続するプロセスはペアリングと呼ばれます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:373
 msgid "Note that it will take an estimated 10 minutes to complete this task."
@@ -922,9 +949,7 @@ msgstr "ペアリングNS7"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:384
 msgid "pairingns8"
-msgstr ""
-"pairingns8"
-""
+msgstr "pairingns8"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:385
 msgid "pairingns9"
@@ -951,8 +976,12 @@ msgid ""
 "properly. Whenever prompted, press **Allow** to grant the requested "
 "permission."
 msgstr ""
-"On the Robot Controller device, browse the available apps and locate the ** FTC Robot Controller ** icon. Tap on the icon to launch the Robot Controller app. Note that the first time you launch the app your Android device might prompt you for permissions that the app will need to run properly. Whenever prompted, press ** Allow ** to grant the requested permission."
-""
+"On the Robot Controller device, browse the available apps and locate "
+"the**FTC Robot Controller**icon. Tap on the icon to launch the Robot "
+"Controller app. Note that the first time you launch the app your Android "
+"device might prompt you for permissions that the app will need to run "
+"properly. Whenever prompted, press**Allow**to grant the requested "
+"permission."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:400
 msgid "|pairingns1| |pairingns1b|"
@@ -963,7 +992,7 @@ msgid ""
 "Verify that the Robot Controller app is running. The **Robot Status** field "
 "should read running if it is working properly."
 msgstr ""
-"ロボットコントローラアプリケーションが動作していることを確認してください。正常に動作している場合は、「 ** ロボットステータス ** 」フィールドは「実行中」と表示されます。"
+"ロボットコントローラアプリケーションが動作していることを確認してください。正常に動作している場合は、「**ロボットステータス**」フィールドは「実行中」と表示されます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:403
 msgid "|pairingns2|"
@@ -999,7 +1028,7 @@ msgid ""
 "Verify that the **Wifi Direct** mode is selected, which means that this "
 "DRIVER STATION will be pairing with another Android device."
 msgstr ""
-" ** Wifi Direct ** モードが選択されていることを確認してください。これにより、このDRIVER "
+"**Wifi Direct**モードが選択されていることを確認してください。これにより、このDRIVER "
 "STATIONは他のAndroidデバイスとペアリングされます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:418
@@ -1037,8 +1066,8 @@ msgid ""
 "connection request from the DRIVER STATION."
 msgstr ""
 "DRIVER STATION "
-"がメイン画面に戻ったとき、ロボットコントローラーのスクリーンに接続要求が表示されるべきです。ロボットコントローラーのスクリーン上で ** ACCEPT ** "
-" ボタンをクリックして、DRIVER STATION 従っての接続リクエストを受け入れてください。"
+"がメイン画面に戻ったとき、ロボットコントローラーのスクリーンに接続要求が表示されるべきです。ロボットコントローラーのスクリーン上で**ACCEPT**ボタンをクリックして、DRIVER"
+" STATION 従っての接続リクエストを受け入れてください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:427
 msgid "|pairingns10|"

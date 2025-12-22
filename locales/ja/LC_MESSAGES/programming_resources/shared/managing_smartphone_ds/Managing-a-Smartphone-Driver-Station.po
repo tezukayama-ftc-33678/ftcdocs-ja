@@ -73,7 +73,7 @@ msgstr ""
 msgid ""
 "Check the current Competition Manual for the rules related to *Control, "
 "Command & Signals System*."
-msgstr "*Control, Command & Signals System* に関するルールは、現在の競技マニュアルをご確認ください。"
+msgstr "*Control, Command & Signals System*に関するルールは、現在の競技マニュアルをご確認ください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:26
 msgid "The Driver Hub name can be changed in the DS app, as described below."
@@ -91,7 +91,11 @@ msgid ""
 "<programming_resources/shared/configuring_android/Configuring-Your-Android-"
 "Devices:Renaming Your Smartphones>` shows how to rename a smartphone using "
 "the Android Settings activity of the phone."
-msgstr "もしコントロールシステムでスマートフォンを使用している場合、 :ref:`こちらのリンク <programming_resources/shared/configuring_android/Configuring-Your-Android-Devices:Renaming Your Smartphones>` では、スマホのAndroid設定アクティビティを使用してスマートフォンを再命名する方法が説明されています。"
+msgstr ""
+"もしコントロールシステムでスマートフォンを使用している場合、 :ref:`こちらのリンク "
+"<programming_resources/shared/configuring_android/Configuring-Your-Android-"
+"Devices:Renaming Your Smartphones>` "
+"では、スマホのAndroid設定アクティビティを使用してスマートフォンを再命名する方法が説明されています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:34
 msgid "Troubleshooting"
@@ -105,9 +109,9 @@ msgid ""
 "Station, and *RC* is the current Robot Controller name."
 msgstr ""
 "もし、あなたのドライバーステーション（Driver "
-"Station）の画面に黄色い円の中に激突マークのアイコンが表示され、それをタッチすると一時的にメッセージが表示され、「*DS* は *DS* "
-"と一致していません。FTC コンペティションマニュアルを参照してください」という内容になります。注意：*DS* "
-"は現在のドライバーステーションの名前で、 *RC* は現在のロボットコントローラーの名前です。"
+"Station）の画面に黄色い円の中に激突マークのアイコンが表示され、それをタッチすると一時的にメッセージが表示され、「*DS*は*DS*と一致していません。FTC"
+" "
+"コンペティションマニュアルを参照してください」という内容になります。注意：*DS*は現在のドライバーステーションの名前で、*RC*は現在のロボットコントローラーの名前です。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:40
 msgid ""
@@ -152,7 +156,7 @@ msgstr "ドライバーステーションのメインポップアップメニュ
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:67
 msgid ""
 "3. Click on *Driver Station Name* on the *DRIVER STATION SETTINGS* page."
-msgstr "3. * ドライバー・ステーション名 * を * ドライバー・ステーション設定 * ページでクリックします。"
+msgstr "3.*ドライバー・ステーション名*を*ドライバー・ステーション設定*ページでクリックします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:-1
 msgid ""
@@ -182,7 +186,7 @@ msgid ""
 " app, which contain improvements and fixes, as well as season-specific data "
 "and features."
 msgstr ""
-"デバイスにインストールされているドライバーステーションアプリケーションを更新する方法を知ることは重要です。 *FIRST* は、改善と修正を含む新しいバージョンのアプリケーションを定期的にリリースしており、これは季節ごとのデータや機能も含まれています。"
+"デバイスにインストールされているドライバーステーションアプリケーションを更新する方法を知ることは重要です。*FIRST*は、改善と修正を含む新しいバージョンのアプリケーションを定期的にリリースしており、これは季節ごとのデータや機能も含まれています。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:94
 msgid ""
@@ -192,8 +196,7 @@ msgid ""
 "section."
 msgstr ""
 "ドライバー ステーション アプリケーションのバージョン番号は、ドライバー ステーションのユーザー インターフェースから確認できます。ドライバー "
-"ステーションで *About* メニューを選択し、 *ABOUT DRIVER STATION* セクションの App Version "
-"番号を確認してください。"
+"ステーションで*About*メニューを選択し、*ABOUT DRIVER STATION*セクションの App Version 番号を確認してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:-1
 msgid ""
@@ -248,7 +251,9 @@ msgstr "コントロールハブからロボット制御コンソールにアク
 msgid ""
 "All teams using Blocks, OnBot Java or Android Studio can use the REV "
 "Hardware Client to update the Driver Station (DS) app on a DS phone."
-msgstr "すべてのブロックを使用するチーム、OnBot Javaを使用するチーム、またはAndroid Studioを使用するチームは、REV Hardware Clientを使ってドライバーステーション（DS）アプリをDSスマホに更新することができます。"
+msgstr ""
+"すべてのブロックを使用するチーム、OnBot Javaを使用するチーム、またはAndroid Studioを使用するチームは、REV Hardware "
+"Clientを使ってドライバーステーション（DS）アプリをDSスマホに更新することができます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:123
 msgid ""
@@ -264,7 +269,10 @@ msgid ""
 "file to a computer, transfer it to the DS phone's Downloads folder, then "
 "open that file to install the DS app. This process is called \"side-"
 "loading\"."
-msgstr "代わりに、アプリのリリースは `FTCロボットコントローラー GitHub <https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases>`__ で利用可能です。Driver Station APKファイルをコンピュータにダウンロードし、DSスマホのDownloadsフォルダに転送した後、そのファイルを開いてDSアプリケーションをインストールします。このプロセスは「サイドローディング」と呼ばれます。"
+msgstr ""
+"代わりに、アプリのリリースは `FTCロボットコントローラー GitHub <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/releases>`__ で利用可能です。Driver Station "
+"APKファイルをコンピュータにダウンロードし、DSスマホのDownloadsフォルダに転送した後、そのファイルを開いてDSアプリケーションをインストールします。このプロセスは「サイドローディング」と呼ばれます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:132
 msgid ""

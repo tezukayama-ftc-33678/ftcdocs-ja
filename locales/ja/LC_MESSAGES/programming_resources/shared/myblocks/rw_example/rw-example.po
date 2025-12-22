@@ -30,8 +30,7 @@ msgid ""
 " Log file entries. File access is a useful capability, available so far to "
 "Java programmers only. Now it can be done with myBlocks!"
 msgstr ""
-"現在のバージョンのレギュラー・ブロック（SDK "
-"7.0）では、読み書きアクセスが提供されていません。自動ログやマッチログファイル-"
+"現在のバージョンのレギュラー・ブロック（SDK 7.0）では、読み書きアクセスが提供されていません。自動ログやマッチログファイル-"
 "entry以外を除いてです。ファイルアクセスは、これまでJavaプログラマーのみに利用可能でした。しかし今ではmyBlocksを使用して実現できます！"
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:9
@@ -46,14 +45,15 @@ msgstr ""
 msgid ""
 "The file is stored on the Control Hub or RC phone, in the FIRST/settings "
 "folder. It exists separately from the RC app, OpModes, and other files."
-msgstr "ファイルは制御ホブ或いはRCスマホのFIRST/settingsフォルダに保存されています。これはRCアプリ、OpModes、その他のファイルとは別個に存在します。"
+msgstr ""
+"ファイルは制御ホブ或いはRCスマホのFIRST/settingsフォルダに保存されています。これはRCアプリ、OpModes、その他のファイルとは別個に存在します。"
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:19
 msgid ""
 "Write and read actions can happen in the same OpMode or **different "
 "OpModes**, allowing various scenarios:"
 msgstr ""
-"書くアクションと読み取りアクションは同じOpMode内で起こるか ** 異なるOpMode ** で起こることを許容し、様々なシナリオを作成できます："
+"書くアクションと読み取りアクションは同じOpMode内で起こるか**異なるOpMode**で起こることを許容し、様々なシナリオを作成できます："
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:22
 msgid ""
@@ -68,7 +68,9 @@ msgid ""
 "time, even turned off. When the match begins, the Autonomous OpMode would "
 "read those settings and implement the chosen/adjusted actions."
 msgstr ""
-"特別なset-up OpModeでは、ゲームパッドからの入力を使って自動運転の戦略を選択し、重要なパラメータを調整することができます。ロボットは長時間無作為状態に保たれることも、甚至は電源を切っても構いません。試合が開始されると、Autonomous OpModeはこれらの設定を読み込み、選択されたまたは調整されたアクションを実行します。"
+"特別なset-up "
+"OpModeでは、ゲームパッドからの入力を使って自動運転の戦略を選択し、重要なパラメータを調整することができます。ロボットは長時間無作為状態に保たれることも、甚至は電源を切っても構いません。試合が開始されると、Autonomous"
+" OpModeはこれらの設定を読み込み、選択されたまたは調整されたアクションを実行します。"
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:31
 msgid ""
@@ -76,7 +78,8 @@ msgid ""
 "optional time-stamps. For program development and debugging, this could be "
 "more efficient than working with the large standard logs or Match Logs."
 msgstr ""
-"専用ログファイルは、カスタム形式の主要なセンサーデータとオプションのタイムスタンプを報告します。プログラム開発とデバッグの場合、これは大規模な標準ログまたはMatch Logsを使用するよりも効率的である可能性があります。"
+"専用ログファイルは、カスタム形式の主要なセンサーデータとオプションのタイムスタンプを報告します。プログラム開発とデバッグの場合、これは大規模な標準ログまたはMatch"
+" Logsを使用するよりも効率的である可能性があります。"
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:36
 msgid ""
@@ -84,8 +87,8 @@ msgid ""
 "comments** that explain some unfamiliar Java expressions. The code can be "
 "copied and pasted directly into OnBot Java or Android Studio."
 msgstr ""
-"この例のJavaコードは下にあります。詳細なコメントが含まれており、不慣れなJava表現を説明しています。コードはOnBot "
-"JavaやAndroid Studioに直接コピーして貼り付けることができます。"
+"この例のJavaコードは下にあります。詳細なコメントが含まれており、不慣れなJava表現を説明しています。コードはOnBot JavaやAndroid "
+"Studioに直接コピーして貼り付けることができます。"
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:41
 msgid ""
@@ -117,7 +120,7 @@ msgid ""
 " needlessly adds cycle time and might increase the risk of a corrupt or "
 "interrupted read operation."
 msgstr ""
-" ** myBlocksをループ内に配置する際は注意してください ** 。現在の例を拡張すると、あなたのmyBlockはファイルからより大きな量（変化しない）のデータを読み込む可能性があります。もしOpModeが必要とするデータが一度だけであれば、ループ内でファイルを読み込む必要はありません。これによりサイクル時間に余分な負荷がかかり、データの読み込みが"
+"**myBlocksをループ内に配置する際は注意してください**。現在の例を拡張すると、あなたのmyBlockはファイルからより大きな量（変化しない）のデータを読み込む可能性があります。もしOpModeが必要とするデータが一度だけであれば、ループ内でファイルを読み込む必要はありません。これによりサイクル時間に余分な負荷がかかり、データの読み込みが"
 " corrupt または中断されるリスクも高まります。"
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:61

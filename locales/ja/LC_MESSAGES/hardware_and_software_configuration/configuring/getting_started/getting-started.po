@@ -47,7 +47,9 @@ msgid ""
 "If you are using a Control Hub, you do not need to make any additional "
 "connections. You simply need to make sure that the Control Hub is powered on"
 " and paired to the DRIVER STATION."
-msgstr "もしControl Hubを使用している場合、追加の接続は必要ありません。Control Hubが点灯し、DRIVER STATION とペアリングされていることを確認してください。"
+msgstr ""
+"もしControl Hubを使用している場合、追加の接続は必要ありません。Control Hubが点灯し、DRIVER STATION "
+"とペアリングされていることを確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:21
 msgid "Connecting an Android Smartphone to an Expansion Hub"
@@ -59,7 +61,10 @@ msgid ""
 "physically connect the Robot Controller smartphone to the Expansion Hub "
 "using a USB cable and an On-The-Go (OTG) adapter. Also, you should verify "
 "that the DRIVER STATION is currently paired to the Robot Controller."
-msgstr "もしロボットコントローラとしてAndroidスマートフォンを使用している場合、ロボットコントローラ用のスマートフォンはUSBケーブルとOn-The-Go（OTG）アダプターを使ってExpansion Hubに物理的に接続する必要があります。また、ドライバーステーションが現在ロボットコントローラとペアリングされていることを確認してください。"
+msgstr ""
+"もしロボットコントローラとしてAndroidスマートフォンを使用している場合、ロボットコントローラ用のスマートフォンはUSBケーブルとOn-The-"
+"Go（OTG）アダプターを使ってExpansion "
+"Hubに物理的に接続する必要があります。また、ドライバーステーションが現在ロボットコントローラとペアリングされていることを確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:30
 msgid "Connecting an Android Smartphone to an Expansion Hub Instructions"
@@ -93,7 +98,8 @@ msgid ""
 "Note that when the OTG adapter is plugged into the smartphone, the phone "
 "will detect the presence of the Expansion Hub and launch the Robot "
 "Controller app."
-msgstr "OTGアダプターをスマートフォンに接続した場合、スマートフォンはExpansion Hubの存在を検出し、ロボットコントローラーアプリが起動します。"
+msgstr ""
+"OTGアダプターをスマートフォンに接続した場合、スマートフォンはExpansion Hubの存在を検出し、ロボットコントローラーアプリが起動します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:65
 msgid ""
@@ -101,7 +107,10 @@ msgid ""
 "Expansion Hub, the Android operating system should prompt you to ask if it "
 "is OK to associate the newly detected USB device (which is the Expansion "
 "Hub) with the Robot Controller app."
-msgstr "5. ロボットコントローラスマートフォンをExpansion Hubに初めて接続した場合、Androidのオペレーティングシステムは、新しく検出されたUSBデバイス（これはExpansion Hubです）とロボットコントローラアプリを関連付けるかどうか尋ねるポップアップを表示するべきです。"
+msgstr ""
+"5. ロボットコントローラスマートフォンをExpansion "
+"Hubに初めて接続した場合、Androidのオペレーティングシステムは、新しく検出されたUSBデバイス（これはExpansion "
+"Hubです）とロボットコントローラアプリを関連付けるかどうか尋ねるポップアップを表示するべきです。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:76
 msgid ""
@@ -112,7 +121,9 @@ msgid ""
 " Controller app. If you fail to make this association, then the Robot "
 "Controller app might not reliably connect to this Expansion Hub the next "
 "time you turn your system on."
-msgstr "USBハードウェアをロボットコントローラーと関連付けることを促される場合があります。このようなメッセージがスマホで表示された際には、常に「このUSBデバイスに対する既定の使用を有効にする」オプションを選択し、「OK」ボタンを押してUSBデバイスをロボットコントローラーアプリケーションと関連付けるようにしてください。この関連付けが行われない場合、システムを再起動した際にこのExpansion Hubに信頼性の高い接続ができなくなる可能性があります。"
+msgstr ""
+"USBハードウェアをロボットコントローラーと関連付けることを促される場合があります。このようなメッセージがスマホで表示された際には、常に「このUSBデバイスに対する既定の使用を有効にする」オプションを選択し、「OK」ボタンを押してUSBデバイスをロボットコントローラーアプリケーションと関連付けるようにしてください。この関連付けが行われない場合、システムを再起動した際にこのExpansion"
+" Hubに信頼性の高い接続ができなくなる可能性があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:86
 msgid "Creating a Configuration File Using the DRIVER STATION"
@@ -146,7 +157,7 @@ msgstr "1. ドライバーステーションアプリの右上隅にある3本�
 msgid ""
 "2. Select **Configure Robot** from the pop up menu to display the "
 "**Configuration** screen."
-msgstr "2. ポップアップメニューから「 ** ロボットの構成 ** 」を選択して、「 ** 設定 ** 」画面を表示します。"
+msgstr "2. ポップアップメニューから「**ロボットの構成**」を選択して、「**設定**」画面を表示します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:114
 msgid ""
@@ -160,8 +171,8 @@ msgid ""
 "Hit the **New** button to create a new configuration file for your Robot "
 "Controller."
 msgstr ""
-"Hit the ** New ** button to create a new configuration file for your Robot Controller."
-""
+"Hit the**New**button to create a new configuration file for your Robot "
+"Controller."
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:125
 msgid ""
@@ -177,14 +188,18 @@ msgid ""
 "It will display the devices that it found in a list underneath the words "
 "\"USB Devices in configuration.\" You should see an entry that says "
 "something like \"Expansion Hub Portal 1\" in the list."
-msgstr "発見したデバイスは、\"USB デバイス（設定内）\" の下にリストで表示されます。リストには「Expansion Hub ポータル 1」というような項目が表示されるはずです。"
+msgstr ""
+"発見したデバイスは、\"USB デバイス（設定内）\" の下にリストで表示されます。リストには「Expansion Hub ポータル "
+"1」というような項目が表示されるはずです。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:136
 msgid ""
 "Your Expansion Hub is listed as a Portal because it is directly connected to"
 " the Robot Controller phone through the USB cable or in the case of the "
 "Control Hub through the internal serial bus."
-msgstr "あなたのExpansion Hubは、USBケーブルを通じてロボットコントローラーのスマホに直接接続されているか、またはControl Hubの場合には内部シリアルバスを介してポートとしてリストされています。"
+msgstr ""
+"あなたのExpansion Hubは、USBケーブルを通じてロボットコントローラーのスマホに直接接続されているか、またはControl "
+"Hubの場合には内部シリアルバスを介してポートとしてリストされています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:138
 msgid ""
@@ -192,25 +207,32 @@ msgid ""
 "smartphone as a Robot Controller, check the wired connections to make sure "
 "they are secure and then press the Scan button one or two times more to see "
 "if the smartphone detects the device on a re-scan of the USB bus."
-msgstr "もしExpansion Hubポータルがリストに表示されていない場合で、スマートフォンを使用してロボットコントローラーとして操作している場合は、有線接続を確認し、確実なものであることを確認した上で、USBバスの再スキャン時にデバイスを検出するかどうか、ス캔ボタンを1回または2回追加で押してみてください。"
+msgstr ""
+"もしExpansion "
+"Hubポータルがリストに表示されていない場合で、スマートフォンを使用してロボットコントローラーとして操作している場合は、有線接続を確認し、確実なものであることを確認した上で、USBバスの再スキャン時にデバイスを検出するかどうか、ス캔ボタンを1回または2回追加で押してみてください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:140
 msgid ""
 "5. Touch the Portal listing (\"Expansion Hub Portal 1\" in this example) to "
 "display what Expansion Hubs are connected through this Portal."
-msgstr "5. ポータルの一覧にタッチして（この例では「Expansion Hub Portal 1」）、このポータルを通じて接続されているExpansion Hubを表示します。"
+msgstr ""
+"5. ポータルの一覧にタッチして（この例では「Expansion Hub Portal 1」）、このポータルを通じて接続されているExpansion "
+"Hubを表示します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:149
 msgid ""
 "Since we only have a single Expansion Hub connected, we should only see a "
 "single Expansion Hub configured (\"Expansion Hub 2\" in this example)."
-msgstr "接続されているExpansion Hubが1つだけであるため、設定されたExpansion Hubは1つだけseenされるべきです（この例では\"Expansion Hub 2\"）。"
+msgstr ""
+"接続されているExpansion Hubが1つだけであるため、設定されたExpansion "
+"Hubは1つだけseenされるべきです（この例では\"Expansion Hub 2\"）。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:151
 msgid ""
 "6. Touch the Expansion Hub listing (\"Expansion Hub 2\" in this example) to "
 "display the Input/Output ports for that device."
-msgstr "6. 膨張Expansion Hubのリスト（この例では「Expansion Hub 2」）をタッチして、そのデバイスの入力/出力ポートを表示します。"
+msgstr ""
+"6. 膨張Expansion Hubのリスト（この例では「Expansion Hub 2」）をタッチして、そのデバイスの入力/出力ポートを表示します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:159
 msgid ""

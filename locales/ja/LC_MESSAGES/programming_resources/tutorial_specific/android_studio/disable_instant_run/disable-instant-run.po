@@ -32,7 +32,7 @@ msgid ""
 "Software Development Kit (SDK) v7.1 and older with previous versions of "
 "Android Studio."
 msgstr ""
-"*Instant Run* はAndroid Studioバージョン3.5で削除され、Android Studio "
+"*Instant Run*はAndroid Studioバージョン3.5で削除され、Android Studio "
 "3.5以降のバージョンでは問題ではありません。ただし、この記事はFIRST Tech Challenge Software Development "
 "Kit (SDK) v7.1およびそれ以前を使用し、過去のAndroid Studioバージョンを使用している人に対して依然として有用です。"
 
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst:22
 msgid "Teams who use Android Studio **must** disable Instant Run."
-msgstr "Teams が Android Studio を使用する場合、Instant Run を ** 無効化 ** する必要があります。"
+msgstr "Teams が Android Studio を使用する場合、Instant Run を**無効化**する必要があります。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/disable_instant_run/disable-instant-run.rst:25
 msgid "Locating Instant Run Settings"

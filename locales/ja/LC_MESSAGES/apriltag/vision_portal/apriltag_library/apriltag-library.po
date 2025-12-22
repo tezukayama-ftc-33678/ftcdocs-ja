@@ -37,7 +37,7 @@ msgid ""
 "These tags form an **AprilTag Library**. Each Library tag has a set of 4 to "
 "6 properties, described at the **Metadata** page."
 msgstr ""
-"これらのタグは ** AprilTagライブラリ ** を構成します。各ライブラリのタグには、 ** メタデータ ** ページで説明されている4から6つのプロパティがあります。"
+"これらのタグは**AprilTagライブラリ**を構成します。各ライブラリのタグには、**メタデータ**ページで説明されている4から6つのプロパティがあります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:11
 msgid ""
@@ -45,12 +45,12 @@ msgid ""
 "**Initialization** page explained this is the optional **Step 1** of "
 "preparing to use AprilTags in an OpMode."
 msgstr ""
-"このページでは、AprilTagライブラリを作成する多くの方法を示しています。 ** 初期化 ** ページでは、これがあなたがAprilTagsを使用するためにOpModeで準備する場合の任意の ** ステップ1 ** であることが説明されています。"
+"このページでは、AprilTagライブラリを作成する多くの方法を示しています。**初期化**ページでは、これがあなたがAprilTagsを使用するためにOpModeで準備する場合の任意の**ステップ1**であることが説明されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:15
 msgid ""
 "**Try these examples in order**, to master the use of AprilTag Libraries."
-msgstr " ** これらの例を順に試してみてください ** 、AprilTagライブラリの使用方法をマスターしましょう。"
+msgstr "**これらの例を順に試してみてください**、AprilTagライブラリの使用方法をマスターしましょう。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:19
 msgid "The Easy Way"
@@ -107,7 +107,7 @@ msgid ""
 "The first Library, called ``SampleTagLibrary``, is available now with SDK "
 "8.2. Its basic Metadata values are:"
 msgstr ""
-"最初のライブラリ、``SampleTagLibrary`` は現在SDK 8.2で利用可能です。その基本的なMetadata値は以下の通りです："
+"最初のライブラリ、``SampleTagLibrary``は現在SDK 8.2で利用可能です。その基本的なMetadata値は以下の通りです："
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:61
 msgid "``583, Nemo, 4, DistanceUnit.INCH``"
@@ -150,14 +150,14 @@ msgstr "``2, オインk, 0.166, DistanceUnit.METER``"
 msgid ""
 "After Kickoff in September 2023, these will be replaced (in SDK 9.0) by the "
 "**real tags** for CENTERSTAGE."
-msgstr "2023年9月のキックオフ後、これらはSDK 9.0で ** 実際のタグ ** に置き換わります。"
+msgstr "2023年9月のキックオフ後、これらはSDK 9.0で**実際のタグ**に置き換わります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:77
 msgid ""
 "For convenience, a third Library contains **both** of these core Libraries, "
 "and nothing else. This is the default, called ``CurrentGameTagLibrary``."
 msgstr ""
-"便利のため、第三のライブラリには ** 両方 ** のコアライブラリが含まれており、それ以外は何もありません。これはデフォルトで、「CurrentGameTagLibrary」です。"
+"便利のため、第三のライブラリには**両方**のコアライブラリが含まれており、それ以外は何もありません。これはデフォルトで、「CurrentGameTagLibrary」です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:82
 msgid "AprilTag Processor"
@@ -167,17 +167,17 @@ msgstr "AprilTag プロセッサー"
 msgid ""
 "Specifying **any aspect** of a Processor is done with a **Processor "
 "Builder**, requiring at least 2 commands:"
-msgstr "任意のプロセッサの ** アспект ** を指定するには、最低でも2つのコマンドが必要で、 ** プロセッサビルダー ** を使用します："
+msgstr "任意のプロセッサの**アспект**を指定するには、最低でも2つのコマンドが必要で、**プロセッサビルダー**を使用します："
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:87
 msgid "create the Builder, using the Java keyword ``new``"
-msgstr "Javaキーワード ``new`` を使用してBuilderを作成します。"
+msgstr "Javaキーワード``new``を使用してBuilderを作成します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:89
 msgid ""
 "after specifying/adding features, finalize with a call to the ``.build()`` "
 "method"
-msgstr "特徴を指定または追加した後、``.build()`` メソッドで finalized します。"
+msgstr "特徴を指定または追加した後、``.build()``メソッドで finalized します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:92
 msgid ""
@@ -194,9 +194,7 @@ msgid ""
 "``AprilTagProcessor.Builder`` toolbox (or palette), and drawing the second "
 "component from the ``AprilTagLibrary`` toolbox."
 msgstr ""
-"まず、この式を作成します。最初のコンポーネントは ``AprilTagProcessor.Builder`` "
-"ツールボックス（またはパレット）から、二つ目のコンポーネントは ``AprilTagLibrary`` "
-"ツールボックスからドラッグアンドドロップしてください。"
+"まず、この式を作成します。最初のコンポーネントは``AprilTagProcessor.Builder``ツールボックス（またはパレット）から、二つ目のコンポーネントは``AprilTagLibrary``ツールボックスからドラッグアンドドロップしてください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 msgid "Set Current Game Tag Library"
@@ -212,13 +210,13 @@ msgid ""
 "Processor Builder, and another Block to **finalize** the process with "
 "``.build()``."
 msgstr ""
-" ** Around this ** (before and after), place one Block to ** create ** the "
-"Processor Builder, and another Block to ** finalize ** the process with "
-"``.build()``. ** Around this ** (before and after), place one Block to ** "
-"create ** the Processor Builder, and another Block to ** finalize ** the "
-"process with ``.build()``. ** Around this ** (before and after), place one "
-"Block to ** create ** the Processor Builder, and another Block to ** "
-"finalize ** the process with ``.build()``."
+"**Around this**(before and after), place one Block to**create**the Processor"
+" Builder, and another Block to**finalize**the process with "
+"``.build()``.**Around this**(before and after), place one Block "
+"to**create**the Processor Builder, and another Block to**finalize**the "
+"process with ``.build()``.**Around this**(before and after), place one Block"
+" to**create**the Processor Builder, and another Block to**finalize**the "
+"process with ``.build()``."
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:121
@@ -231,8 +229,7 @@ msgid ""
 "toolbox. The remaining Blocks are used to set optional features of the "
 "Processor. Here we are setting only the Library."
 msgstr ""
-"これらは ``AprilTagProcessor.Builder`` "
-"ツールボックスの最初と最後のブロックです。残りのブロックは、プロセッサーのオプション機能を設定するために使用されます。ここでは、ライブラリのみを設定しています。"
+"これらは``AprilTagProcessor.Builder``ツールボックスの最初と最後のブロックです。残りのブロックは、プロセッサーのオプション機能を設定するために使用されます。ここでは、ライブラリのみを設定しています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:147
 msgid "Library Variable"
@@ -244,8 +241,8 @@ msgid ""
 "name. Then specify that name for the AprilTag Processor. Here we use "
 "``myAprilTagLibrary`` (any other name is fine)."
 msgstr ""
-"代わりに、ライブラリを自分の変数名で保存することもできます。その後、その名称をAprilTag プロセッサーに指定します。ここでは "
-"``myAprilTagLibrary`` （他の任何の名称でも構いません）を使用しています。"
+"代わりに、ライブラリを自分の変数名で保存することもできます。その後、その名称をAprilTag "
+"プロセッサーに指定します。ここでは``myAprilTagLibrary``（他の任何の名称でも構いません）を使用しています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:157
 msgid ""
@@ -253,9 +250,7 @@ msgid ""
 "``AprilTagLibrary`` toolbox, and drawing the second component from the "
 "``AprilTagProcessor.Builder`` toolbox."
 msgstr ""
-"最初にこの式を作成します。まず、``AprilTagLibrary`` "
-"ツールボックスから第1コンポーネントを引き出し、次に、``AprilTagProcessor.Builder`` "
-"ツールボックスから第2コンポーネントを引き出します。"
+"最初にこの式を作成します。まず、``AprilTagLibrary``ツールボックスから第1コンポーネントを引き出し、次に、``AprilTagProcessor.Builder``ツールボックスから第2コンポーネントを引き出します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 msgid "Set Tag Library"
@@ -300,13 +295,13 @@ msgstr "その後、「addTags」ブロックを使用します – 複数形の
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:215
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:232
 msgid "Finalize the process with the ``.build`` command."
-msgstr "最終処理は ``.build`` コマンドで実行します。"
+msgstr "最終処理は``.build``コマンドで実行します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:217
 msgid ""
 "The built Library is assigned or saved to your Variable, here called "
 "``myAprilTagLibrary``."
-msgstr "構築されたライブラリは、ここでは ``myAprilTagLibrary`` と呼ばれますので、変数に割り当てられ或者保存されます。"
+msgstr "構築されたライブラリは、ここでは``myAprilTagLibrary``と呼ばれますので、変数に割り当てられ或者保存されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:225
@@ -369,7 +364,7 @@ msgstr "タグライブラリにカスタムタグを追加する"
 msgid ""
 "The custom tag is added with **one new line** of code, otherwise the same as"
 " the previous example."
-msgstr "カスタムタグは ** 1行分のコード ** で追加します。それ以外の場合、前の例と同様です。"
+msgstr "カスタムタグは**1行分のコード**で追加します。それ以外の場合、前の例と同様です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:333
 msgid "Custom Tag - Variable"
@@ -406,13 +401,13 @@ msgstr ""
 msgid ""
 "The custom tag is added with **two lines** of code, replacing the **one new "
 "line** in the previous example."
-msgstr "カスタムタグは、前の例の ** 1つの改行 ** を ** 2行分のコード ** で置き換えて追加します。"
+msgstr "カスタムタグは、前の例の**1つの改行**を**2行分のコード**で置き換えて追加します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:395
 msgid ""
 "For Blocks or Java, multiple tags could be added with multiple (shorter!) "
 "Variable names, such as ``myTag1``, ``myTag2``, etc."
-msgstr "ブロック言語やJavaでは、複数のタグを短い変数名とともに追加できます。例えば、``myTag1``、``myTag2`` などです。"
+msgstr "ブロック言語やJavaでは、複数のタグを短い変数名とともに追加できます。例えば、``myTag1``、``myTag2``などです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:399
 msgid "Overwriting"
@@ -424,19 +419,18 @@ msgid ""
 "already in the Library. This is **overwriting**, which you can allow or not "
 "allow."
 msgstr ""
-"あなたは、ライブラリに既に存在するタグと同じ ** IDコード ** を使用してカスタムAprilTagを作成することができます。これは ** 上書き ** で、これを許可したり許可しないことができます。"
+"あなたは、ライブラリに既に存在するタグと同じ**IDコード**を使用してカスタムAprilTagを作成することができます。これは**上書き**で、これを許可したり許可しないことができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:405
 msgid ""
 "If ``setAllowOverwrite()`` is set to ``false`` (the default) and overwrite "
 "is attempted, the OpMode will crash with a suitable error message."
 msgstr ""
-"もし ``setAllowOverwrite()`` が "
-"``false``（デフォルト設定）に設定されていてオーバライド操作が試みられた場合、OpModeは適切なエラーメッセージとともにクラッシュします。"
+"もし``setAllowOverwrite()``が``false``（デフォルト設定）に設定されていてオーバライド操作が試みられた場合、OpModeは適切なエラーメッセージとともにクラッシュします。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:409
 msgid "If set to ``true``, the custom tag will replace the existing tag."
-msgstr "カスタムタグが ``true`` に設定されている場合、そのタグは既存のタグを置き換えることになります。"
+msgstr "カスタムタグが``true``に設定されている場合、そのタグは既存のタグを置き換えることになります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:411
 msgid ""

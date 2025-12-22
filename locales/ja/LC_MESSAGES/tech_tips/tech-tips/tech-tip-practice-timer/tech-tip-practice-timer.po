@@ -32,13 +32,13 @@ msgid ""
 "sometimes there is more content than is reasonable in the email blast so "
 "partial content is included in the blast with the rest of the content here."
 msgstr ""
-"2023-2024シーズンから始まったテックヒントは、 *FIRST* Tech Challengeの「Team E-mail Blast "
+"2023-2024シーズンから始まったテックヒントは、*FIRST*Tech Challengeの「Team E-mail Blast "
 "<https://www.firstinspires.org/resource-library/ftc/team-blast-"
 "archive>`__に含まれるセグメントです`。時折、テックヒントはメールブラスト全体として含まれますが、時折、メールブラストには適切な量を超える情報が含まれるので、ブラストには部分的な内容が含まれ、その他の内容はここに掲載されています。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:13
 msgid "**FTC Driver Station Practice Timer**"
-msgstr " ** FIRST Tech Challenge ドライバーステーション練習タイマー ** "
+msgstr "**FIRST Tech Challenge ドライバーステーション練習タイマー**"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:15
 msgid ""
@@ -50,7 +50,11 @@ msgid ""
 "optimizing your endgame strategy, all without the pressure of a real "
 "competition. This (not so) hidden gem allows teams to practice match timing "
 "for every critical phase:"
-msgstr "ご存知ですか？FTCドライバーステーションアプリ内に、チームがマッチタイムを制するのを助ける強力なツールがあります。複雑なイベントソフトウェアが必要ないことを忘れないでください – ドライバーステーションには、全体のマッチフローをシミュレートしたり、その一部をシミュレートできる組み込みの練習マッチタイマーが備わっています！実際のコンペティションの圧力なく、自動運転ルーチンを完璧に仕上げる、AUTOからTELEOPへの切り替えを確実にする、またはエンドゲーム戦略を最適化するなど、マッチタイムの練習ができます。この（意外と）隠れた宝石は、以下の各 Critical Phase でのマッチタイムの練習を可能にします："
+msgstr ""
+"ご存知ですか？FTCドライバーステーションアプリ内に、チームがマッチタイムを制するのを助ける強力なツールがあります。複雑なイベントソフトウェアが必要ないことを忘れないでください"
+" – "
+"ドライバーステーションには、全体のマッチフローをシミュレートしたり、その一部をシミュレートできる組み込みの練習マッチタイマーが備わっています！実際のコンペティションの圧力なく、自動運転ルーチンを完璧に仕上げる、AUTOからTELEOPへの切り替えを確実にする、またはエンドゲーム戦略を最適化するなど、マッチタイムの練習ができます。この（意外と）隠れた宝石は、以下の各"
+" Critical Phase でのマッチタイムの練習を可能にします："
 
 #: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:24
 msgid "Autonomous - Fine-tune your robot's pre-programmed actions."
@@ -90,7 +94,8 @@ msgid ""
 " Practice Timer also runs independently of other activities, therefore "
 "OpModes can be selected, started, stopped, reselected, and so on while the "
 "Practice Timer is running without affecting the timer."
-msgstr "* どのように動作しますか？ * ドライバステーションアプリの左上に「練習タイマー窓口」が表示されます。これは「練習タイマー」というヘッダーを持ち、可能な練習マッチの残り時間と「PLAY（開始）」ボタンを含みます。この練習タイマー領域は、実行中のOpModeやその他のアクティビティに関係なく常に表示されます。また、練習タイマーが動作している間も、他のアクティビティとは独立して動作するため、OpModeを選択し、開始し、停止し、再選択することができます。"
+msgstr ""
+"*どのように動作しますか？*ドライバステーションアプリの左上に「練習タイマー窓口」が表示されます。これは「練習タイマー」というヘッダーを持ち、可能な練習マッチの残り時間と「PLAY（開始）」ボタンを含みます。この練習タイマー領域は、実行中のOpModeやその他のアクティビティに関係なく常に表示されます。また、練習タイマーが動作している間も、他のアクティビティとは独立して動作するため、OpModeを選択し、開始し、停止し、再選択することができます。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:47
 msgid "Image showing Practice Timer Window"
@@ -135,7 +140,8 @@ msgid ""
 "The *Autonomous* and *Transition* periods have audio cues that give the user"
 " time to select and start OpModes in sync with the match transition, whereas"
 " the other options start as soon as the option is selected."
-msgstr "自律走行期間と移行期間には、ユーザーにマッチの遷移とともにOpModeを選択し始める時間を与える音声案内があります。一方、他の選択肢は選択が確定した瞬間に開始します。"
+msgstr ""
+"自律走行期間と移行期間には、ユーザーにマッチの遷移とともにOpModeを選択し始める時間を与える音声案内があります。一方、他の選択肢は選択が確定した瞬間に開始します。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:71
 msgid "Image of Driver Station match period selection screen"

@@ -32,14 +32,14 @@ msgid ""
 "sometimes there is more content than is reasonable in the email blast so "
 "partial content is included in the blast with the rest of the content here."
 msgstr ""
-"2023-2024シーズンから始まったTech Tipsは、 *FIRST* Tech Challengeの`Team E-mail Blast "
+"2023-2024シーズンから始まったTech Tipsは、*FIRST*Tech Challengeの`Team E-mail Blast "
 "<https://www.firstinspires.org/resource-library/ftc/team-blast-"
 "archive>`__に含まれるセグメントです。Tech "
 "Tipsは時としてメール爆弾の中で完全に含まれますが、時としてメール爆弾には適切な量を超える情報が含まれるので、部分的な内容がメール爆弾と共に配信され、残りの内容はここに掲載されています。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance.rst:13
 msgid "**Robot Annual Maintenance Tips**"
-msgstr " ** ロボットの年次メンテナンスTips ** "
+msgstr "**ロボットの年次メンテナンスTips**"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance.rst:15
 msgid ""
@@ -59,7 +59,12 @@ msgid ""
 "<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
 "system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__ for proper"
 " maintenance of these pins."
-msgstr "安全なXT30接続: REVコントロールハブやExpansion HubのXT30コネクタに電源ケーブルが緩んでいる場合、熱溶着胶のような接着剤で接続を固定しないでください。これらの接着剤は金属接触部間の不安定な接続を隠すだけであり、衝撃条件下では断続的な電力喪失を引き起こす可能性があります。代わりに、デバイスのXT30コネクタ上の金属ピンが圧縮されていることが考えられます。`REVロボティクスのXT30トラブルシューティング <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__ を参照し、これらのピンの適切なメンテナンス方法を確認してください。"
+msgstr ""
+"安全なXT30接続: REVコントロールハブやExpansion "
+"HubのXT30コネクタに電源ケーブルが緩んでいる場合、熱溶着胶のような接着剤で接続を固定しないでください。これらの接着剤は金属接触部間の不安定な接続を隠すだけであり、衝撃条件下では断続的な電力喪失を引き起こす可能性があります。代わりに、デバイスのXT30コネクタ上の金属ピンが圧縮されていることが考えられます。`REVロボティクスのXT30トラブルシューティング"
+" <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
+"system/expansion-hub-troubleshooting#xt30-pins-are-compressed>`__ "
+"を参照し、これらのピンの適切なメンテナンス方法を確認してください。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance.rst:27
 #, python-format
@@ -98,7 +103,10 @@ msgid ""
 "version (e.g., 1.1.6 for Wi-Fi driver security) and your FIRST Tech "
 "Challenge SDK (e.g., SDK 11.0) for improved performance and better support "
 "from tournament staff."
-msgstr "ソフトウェアの更新は重要です：Control HubOSを最新バージョン（例：Wi-Fiドライバーのセキュリティ対策として1.1.6）に、またFIRST Tech Challenge SDK（例：SDK 11.0）も常に更新してください。これによりパフォーマンスが向上し、大会スタッフからのサポートもより良いものになります。"
+msgstr ""
+"ソフトウェアの更新は重要です：Control HubOSを最新バージョン（例：Wi-Fiドライバーのセキュリティ対策として1.1.6）に、またFIRST"
+" Tech Challenge SDK（例：SDK "
+"11.0）も常に更新してください。これによりパフォーマンスが向上し、大会スタッフからのサポートもより良いものになります。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-annual-maintenance/tech-tip-annual-maintenance.rst:49
 msgid ""

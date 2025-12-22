@@ -39,7 +39,7 @@ msgid ""
 "fast, accurate TFOD detection?**"
 msgstr ""
 "これらの2つの例は、すでにFreight "
-"FrenzyゲームでTensorFlowオブジェクト検出（TFOD）を使用していることを前提としています。つまり、動作が比較的良好なTFODモデルとOpModeを持っているとします。ここでは、ダックゲーム要素についてのみ議論します。 ** 露出度やゲインの制御は、高速かつ正確なTFOD検出の確率を向上させることが可能でしょうか？ ** "
+"FrenzyゲームでTensorFlowオブジェクト検出（TFOD）を使用していることを前提としています。つまり、動作が比較的良好なTFODモデルとOpModeを持っているとします。ここでは、ダックゲーム要素についてのみ議論します。**露出度やゲインの制御は、高速かつ正確なTFOD検出の確率を向上させることが可能でしょうか？**"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:14
 msgid ""
@@ -48,7 +48,7 @@ msgid ""
 " field has different lighting that affects recognition, can you achieve "
 "close to **your original (trained) TFOD performance**?"
 msgstr ""
-"この努力のもう一つの表現は、これらの制御がTFODモデル訓練に使用された照明条件を模倣できるかということです。つまり、競技場が異なる照明により認識に影響を与える場合でも、 ** 元々の（訓練済み）TFODパフォーマンスと同等の性能 ** を得られるでしょうか？"
+"この努力のもう一つの表現は、これらの制御がTFODモデル訓練に使用された照明条件を模倣できるかということです。つまり、競技場が異なる照明により認識に影響を与える場合でも、**元々の（訓練済み）TFODパフォーマンスと同等の性能**を得られるでしょうか？"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:19
 msgid ""
@@ -75,7 +75,7 @@ msgid ""
 " OpMode was opened (INIT) each time for a new TFOD initialization and webcam"
 " image processing."
 msgstr ""
-" ** 5回の新しい読み取り ** が、それぞれの露出設定で取得されました。具体的には、新しいTFOD初期化とウェブカメラ画像処理のために、各回test "
+"**5回の新しい読み取り**が、それぞれの露出設定で取得されました。具体的には、新しいTFOD初期化とウェブカメラ画像処理のために、各回test "
 "OpMode（INIT）を開きました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:41
@@ -106,7 +106,7 @@ msgid ""
 " unforeseen variation. But this range varies with ambient lighting "
 "conditions, which may be quite different at the tournament venue."
 msgstr ""
-"しかし、より良い結果を得られる露出値の範囲があるようです。範囲の両端で急激な変化が見られます：25未満と40を超える部分です。エンジニアリングでは、 ** 堅牢 ** な解決策は変動にも耐えます。改善された範囲の中間にある値を使用することで、予想外の変動による影響を軽減できますが、この範囲は周囲の照明条件によって異なるため、大会場所により異なる可能性があります。"
+"しかし、より良い結果を得られる露出値の範囲があるようです。範囲の両端で急激な変化が見られます：25未満と40を超える部分です。エンジニアリングでは、**堅牢**な解決策は変動にも耐えます。改善された範囲の中間にある値を使用することで、予想外の変動による影響を軽減できますが、この範囲は周囲の照明条件によって異なるため、大会場所により異なる可能性があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:62
 msgid ""
@@ -116,4 +116,4 @@ msgid ""
 "will vary, perhaps significantly.**"
 msgstr ""
 "このデータは、以下の特定の組み合わせによるものです：ウェブカメラモデル（ロジテックC270）、距離（12インチ）、下視角度（30度）、TFODモデル（SDK"
-" 7.0デフォルト）、周囲の照明、背景など。 ** 結果は異なる場合がありますし、それほど大きく異なる可能性もあります。 ** "
+" 7.0デフォルト）、周囲の照明、背景など。**結果は異なる場合がありますし、それほど大きく異なる可能性もあります。**"

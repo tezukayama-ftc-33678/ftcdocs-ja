@@ -254,7 +254,7 @@ msgid ""
 "<https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_"
 " extension."
 msgstr ""
-"もし ``.rst`` 接尾辞のファイルを編集する際に問題がある場合、推奨されるテキストエディタは `VS Code "
+"もし``.rst``接尾辞のファイルを編集する際に問題がある場合、推奨されるテキストエディタは `VS Code "
 "<https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_"
 " に `reStructuredText "
 "<https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_"
@@ -349,8 +349,8 @@ msgid ""
 "<https://www.reed.edu/academic_support/pdfs/qskills/latexcheatsheet.pdf>`_ "
 "for more information."
 msgstr ""
-"独立した数式のために ``.. math::`` を、内包された数式のために ``:math:`` を使用します。``.. math::`` "
-"ディレクティブは LaTeX マークアップを使用しますので、詳細については `LaTeX 数式 Cheat Sheet (PDF) "
+"独立した数式のために``.. math::``を、内包された数式のために``:math:``を使用します。``.. math::``ディレクティブは "
+"LaTeX マークアップを使用しますので、詳細については `LaTeX 数式 Cheat Sheet (PDF) "
 "<https://www.reed.edu/academic_support/pdfs/qskills/latexcheatsheet.pdf>`_ "
 "を参照してください。"
 
@@ -360,15 +360,15 @@ msgstr "標準のテキスト形式のマークアップは非常にシンプル
 
 #: ../../source/contrib/style_guide/style-guide.rst:185
 msgid "One Asterisk: \\*text\\* for emphasis (italics) - like *text*"
-msgstr "One Asterisk: \\*text\\* には強調（イタリック）で「text」のように表示します"
+msgstr "One Asterisk: \\*text\\*には強調（イタリック）で「text」のように表示します"
 
 #: ../../source/contrib/style_guide/style-guide.rst:186
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
-msgstr "二重星付近: \\*\\*text\\*\\* で強調表示（太字）- 例: ** text ** "
+msgstr "二重星付近: \\*\\*text\\*\\* で強調表示（太字）- 例:**text**"
 
 #: ../../source/contrib/style_guide/style-guide.rst:187
 msgid "Two Backticks: \\`\\`text\\`\\` for literals - like ``text``"
-msgstr "二つのバッククォート: ``text`` で文字列 - 例如 `text`"
+msgstr "二つのバッククォート:``text``で文字列 - 例如 `text`"
 
 #: ../../source/contrib/style_guide/style-guide.rst:189
 msgid "Use literals for filenames, function, and variable names."
@@ -392,7 +392,7 @@ msgstr "インデントは常に前のレベルと一致する必要がありま
 msgid ""
 "Indentation of content directives as new line ``.. toctree::``  should be "
 "`3` spaces."
-msgstr "コンテンツディレクティブのインデントは新しい行として ``.. toctree::`` は3つのスペースで行うべきです。"
+msgstr "コンテンツディレクティブのインデントは新しい行として``.. toctree::``は3つのスペースで行うべきです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:202
 msgid "Blank Lines"
@@ -403,7 +403,8 @@ msgid ""
 "There should be one blank line separating basic text blocks and section "
 "titles. There should be one blank line separating text blocks and content "
 "directives."
-msgstr "基本的なテキストブロックとセクションタイトルの間には1行の空白行を入れる必要があります。テキストブロックとコンテンツディレクティブの間にも1行の空白行を入れる必要があります。\\n"
+msgstr ""
+"基本的なテキストブロックとセクションタイトルの間には1行の空白行を入れる必要があります。テキストブロックとコンテンツディレクティブの間にも1行の空白行を入れる必要があります。\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:207
 msgid "Interior Whitespace"
@@ -591,8 +592,8 @@ msgid ""
 "Note the single underscore. This renders to the link `Images`_ which is a "
 "section further down in this document."
 msgstr ""
-"この形式で同じドキュメント内のセクションを参照してください: ``Images`_`` "
-"単一のアンダースコアに注意してください。これは、このドキュメントの下部にある `Images`_` セクションへのリンクとしてレンダリングされます。"
+"この形式で同じドキュメント内のセクションを参照してください:``Images`_``単一のアンダースコアに注意してください。これは、このドキュメントの下部にある"
+" `Images`_` セクションへのリンクとしてレンダリングされます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:293
 msgid ""
@@ -605,11 +606,11 @@ msgid ""
 "webcams`. Note that the link text rendered is the main section title of the "
 "target page regardless of the target filename."
 msgstr ""
-"この形式を使用してドキュメントのトップレベルを参照します。相対パスを使用する場合、``:doc:`image-and-figure-details```"
-" は :doc:`image-and-figure-details` "
+"この形式を使用してドキュメントのトップレベルを参照します。相対パスを使用する場合、``:doc:`image-and-figure-"
+"details```は :doc:`image-and-figure-details` "
 "にレンダリングされます。絶対パスを使用する場合は、パスの先頭にスラッシュを付けます。``:doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-"
-"webcams``` は "
-":doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-webcams` "
+"webcams```は :doc:`/apriltag/vision_portal/visionportal_webcams/visionportal-"
+"webcams` "
 "にレンダリングされます。なお、リンクテキストとしてレンダリングされるのはターゲットページの主要セクションタイトルで、ファイル名に関係ありません。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:295
@@ -627,7 +628,7 @@ msgstr ""
 msgid ""
 "Then you reference the label by using ``:ref:`` and surrounding the label "
 "with back ticks as follows:"
-msgstr "次に、ラベルを参照するには ``:ref:`` を使用し、ラベルをバックタックで囲む必要があります。以下のようにします："
+msgstr "次に、ラベルを参照するには``:ref:``を使用し、ラベルをバックタックで囲む必要があります。以下のようにします："
 
 #: ../../source/contrib/style_guide/style-guide.rst:313
 msgid ""
@@ -635,8 +636,7 @@ msgid ""
 "otherwise the section heading is used for the link text. This looks like the"
 " following:"
 msgstr ""
-"二番目の ``:ref:`` "
-"はリンクテキストを指定できるフォーマットを示しています。指定がない場合は、セクションヘッダーがリンクテキストとして使用されます。これは次のようになります："
+"二番目の``:ref:``はリンクテキストを指定できるフォーマットを示しています。指定がない場合は、セクションヘッダーがリンクテキストとして使用されます。これは次のようになります："
 
 #: ../../source/contrib/style_guide/style-guide.rst:317
 msgid "partial sentence including :ref:`imu axes def`"
@@ -668,12 +668,11 @@ msgid ""
 "is a link to the Robot Controller Overview section of the index in the "
 "rc_components folder."
 msgstr ""
-"``:ref:`` または ``:doc:`` を使用する場合、リンクを角括弧 ``<>`` で囲み、カスタムテキストを最初のバックタック ````` "
-"と最初の角括弧 ``<`` の間に配置し、テキストと括弧の間にはスペースを入れることができます。例えば、``:ref:`RC オーバビュウ "
-"<control_hard_compon/rc_components/index:Robot Controller Overview>``` は "
-":ref:`RC オーバビュウ <control_hard_compon/rc_components/index:Robot Controller "
-"Overview>`` にレンダリングされます。これは rc_components フォルダー内のインデックスの Robot Controller "
-"Overview セクションへのリンクです。"
+"``:ref:``または``:doc:``を使用する場合、リンクを角括弧``<>``で囲み、カスタムテキストを最初のバックタック`````と最初の角括弧``<``の間に配置し、テキストと括弧の間にはスペースを入れることができます。例えば、``:ref:`RC"
+" オーバビュウ <control_hard_compon/rc_components/index:Robot Controller "
+"Overview>```は :ref:`RC オーバビュウ <control_hard_compon/rc_components/index:Robot"
+" Controller Overview>``にレンダリングされます。これは rc_components フォルダー内のインデックスの Robot "
+"Controller Overview セクションへのリンクです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:327
 msgid "External Links"
@@ -686,7 +685,7 @@ msgid ""
 "text https://ftc-resources.firstinspires.org/ftc/game. Sphinx will build a "
 "link when it encounters a URL. But that is not the preferred approach."
 msgstr ""
-"他のウェブサイトや、主な *FIRST* Inspires サイトへのリンクは「外部リンク」です。URL "
+"他のウェブサイトや、主な*FIRST*Inspires サイトへのリンクは「外部リンク」です。URL "
 "をテキストに記入することでリンクを作成できます。たとえば、https://ftc-"
 "resources.firstinspires.org/ftc/game に入力します。Sphinx は URL "
 "を見つけたときにリンクを生成しますが、これが推奨される方法ではありません。"
@@ -788,7 +787,7 @@ msgstr "これは以下のようになります："
 msgid ""
 "Use the following button link to download a PDF of the Field Setup Guide "
 "from the *FIRST* Website:"
-msgstr "次のようにリンクボタンを使用して、 *FIRST* ウェブサイトからフィールド設定ガイドのPDFをダウンロードしてください:"
+msgstr "次のようにリンクボタンを使用して、*FIRST*ウェブサイトからフィールド設定ガイドのPDFをダウンロードしてください:"
 
 #: ../../source/contrib/style_guide/style-guide.rst:393
 #: ../../source/contrib/style_guide/style-guide.rst:425
@@ -825,7 +824,7 @@ msgid ""
 "placing on the field. There are also tear down instructions that indicate "
 "how to take apart the field for storage or transport."
 msgstr ""
-"フィールド設置ガイドには、 *FIRST* Tech Challenge "
+"フィールド設置ガイドには、*FIRST*Tech Challenge "
 "フィールドを組み立てるための公式手順が記載されています。通常は、構造物を組み立てる作業手順があり、その後にフィールドに配置するための設置手順があります。また、収納や輸送のためにフィールドを解体する方法も示されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:413
@@ -912,13 +911,12 @@ msgid ""
 "description will not be visible on a web page or PDF, but will be spoken out"
 " loud by screen reader software."
 msgstr ""
-"次の ``.. image`` "
-"ディレクティブを使用してください。画像に見えるテキストキャプションが不要な場合です。アクセシビリティのために、画像ディレクティブの ``:alt:`` "
-"オプションに画像の機能的な説明を追加してください。この説明はウェブページやPDFには見えませんが、スクリーンリーダーソフトウェアによって読み上げられます。"
+"次の``.. "
+"image``ディレクティブを使用してください。画像に見えるテキストキャプションが不要な場合です。アクセシビリティのために、画像ディレクティブの``:alt:``オプションに画像の機能的な説明を追加してください。この説明はウェブページやPDFには見えませんが、スクリーンリーダーソフトウェアによって読み上げられます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:455
 msgid "The ``:alt:`` line is indented three spaces."
-msgstr "The ``:alt:`` 行は三つのスペースでインデントされています。"
+msgstr "The``:alt:``行は三つのスペースでインデントされています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:457
 msgid ""
@@ -1032,8 +1030,8 @@ msgid ""
 "figure`` directive with no ``:alt:`` option, please take a moment to add the"
 " ``:alt:`` option with a functional description of the image."
 msgstr ""
-"もし既存のページを編集している場合、``.. image`` または ``.. figure`` ディレクティブに ``:alt:`` "
-"オプションが設定されていない場合は、画像の機能的な説明を持つ ``:alt:`` オプションを追加する時間をください。"
+"もし既存のページを編集している場合、``.. image``または``.. "
+"figure``ディレクティブに``:alt:``オプションが設定されていない場合は、画像の機能的な説明を持つ``:alt:``オプションを追加する時間をください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:510
 msgid "Images With Captions"
@@ -1229,9 +1227,8 @@ msgid ""
 " the current document. This allows the document to reference the image as "
 "follows: ``.. image:: images/my-image.png``."
 msgstr ""
-"画像ファイルは現在のドキュメントと同じフォルダ内の ``images`` "
-"サブディレクトリに保存する必要があります。これにより、ドキュメントは次のように画像を参照できます: ``.. image:: images/my-"
-"image.png``。"
+"画像ファイルは現在のドキュメントと同じフォルダ内の``images``サブディレクトリに保存する必要があります。これにより、ドキュメントは次のように画像を参照できます:``.."
+" image:: images/my-image.png``。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:630
 msgid ""
@@ -1240,8 +1237,8 @@ msgid ""
 "for that page are stored in the folder "
 "**game_specific_resources\\\\field_coordinate_system\\\\images**."
 msgstr ""
-"例：ドキュメント「 ** fieldd-coordinate-"
-"system.rst ** 」は、「 ** game_specific_resources\\\\field_coordinate_system ** 」フォルダ内にあります。そのページの画像は、「 ** game_specific_resources\\\\field_coordinate_system\\\\images ** 」フォルダ内に保存されています。"
+"例：ドキュメント「**fieldd-coordinate-"
+"system.rst**」は、「**game_specific_resources\\\\field_coordinate_system**」フォルダ内にあります。そのページの画像は、「**game_specific_resources\\\\field_coordinate_system\\\\images**」フォルダ内に保存されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:633
 msgid ""
@@ -1250,9 +1247,7 @@ msgid ""
 "what the image shows. This should be less than 24 characters. File name "
 "extensions should be **.png** or **.jpg**."
 msgstr ""
-"画像ファイル名は、 ** 短い説明.ext ** "
-"の形式に従って命名する必要があります。ファイル名は画像が表示している内容の短い説明であるべきで、24文字未満にしてください。ファイル名の拡張子は "
-" ** .png ** または ** .jpg ** にする必要があります。"
+"画像ファイル名は、**短い説明.ext**の形式に従って命名する必要があります。ファイル名は画像が表示している内容の短い説明であるべきで、24文字未満にしてください。ファイル名の拡張子は**.png**または**.jpg**にする必要があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:637
 msgid ""

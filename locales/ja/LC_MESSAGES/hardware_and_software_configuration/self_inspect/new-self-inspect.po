@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:2
 msgid "*FIRST* Tech Challenge Self-Inspect"
-msgstr "*FIRST* Tech Challenge 自己点検"
+msgstr "*FIRST*Tech Challenge 自己点検"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:5
 msgid "Introduction"
@@ -43,7 +43,7 @@ msgid ""
 "Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on"
 " the *FIRST* Website."
 msgstr ""
-"自検査画面は、FTCルールに基づく制御システムに関連するデバイスの状態を一瞬で把握できる概要を提供します。これらのルールは、 *FIRST* ウェブサイトの`現在のゲームとシーズン資料ページ"
+"自検査画面は、FTCルールに基づく制御システムに関連するデバイスの状態を一瞬で把握できる概要を提供します。これらのルールは、*FIRST*ウェブサイトの`現在のゲームとシーズン資料ページ"
 " <https://ftc-resources.firstinspires.org/files/ftc/game>`_ "
 "にある競技マニュアルに記載されています。"
 
@@ -130,7 +130,9 @@ msgid ""
 "differences if a phone is used as a driver station or robot controller. See "
 "the :doc:`old self-inspect<self-inspect>` page for screen images for app "
 "versions 10.2 or earlier."
-msgstr "このページの画像は、FTCアプリケーションのバージョン10.3以降を示しています。このページではドライバーハブとコントロールハブがペアになった状態のみを表示しており、ドライバーステーションやロボットコントローラーとして携帯スマホを使用した場合にわずかな違いがある可能性があります。アプリケーションバージョン10.2以前のスクリーンショットについては :doc:`古い自己点検<old self-inspect>` ページをご覧ください。"
+msgstr ""
+"このページの画像は、FTCアプリケーションのバージョン10.3以降を示しています。このページではドライバーハブとコントロールハブがペアになった状態のみを表示しており、ドライバーステーションやロボットコントローラーとして携帯スマホを使用した場合にわずかな違いがある可能性があります。アプリケーションバージョン10.2以前のスクリーンショットについては"
+" :doc:`古い自己点検<old self-inspect>` ページをご覧ください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:52
 msgid ""
@@ -139,8 +141,9 @@ msgid ""
 "versions have the latest bug fixes and enhancements. For example, version "
 "1.1.6 of the **Control Hub Android OS** has a fix related to Wi-Fi."
 msgstr ""
-"*FIRST* は、ファームウェア、Androidオペレーティングシステム、FTCアプリケーションの最新バージョンを使用することを推奨しますが、必須ではありません。現在のバージョンには最新のバグ修正と改善が含まれています。例えば、 ** コントロールハブAndroid"
-" OS ** のバージョン1.1.6では、Wi-Fiに関する修正が施されています。"
+"*FIRST* "
+"は、ファームウェア、Androidオペレーティングシステム、FTCアプリケーションの最新バージョンを使用することを推奨しますが、必須ではありません。現在のバージョンには最新のバグ修正と改善が含まれています。例えば、**コントロールハブAndroid"
+" OS**のバージョン1.1.6では、Wi-Fiに関する修正が施されています。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:55
 msgid ""
@@ -216,12 +219,17 @@ msgid ""
 "does work, but sometimes the apps re-pair automatically. ``Disable "
 "Bluetooth`` shouldn't be needed unless Bluetooth was somehow enabled on the "
 "DS."
-msgstr "アイテム1 三つの点はメニューで、二つの選択肢があります：「Wi-Fi Directから切断」および「Bluetoothを無効にする」。これらは Driver Hub が Control Hub にペアリングされている場合に必要ない可能性が高いです。主にドライバーステーションやロボットコントローラーとして使用できる携帯スマホ用のものが多いです。「Wi-Fi Directから切断」は機能しますが、時々アプリは自動的に再ペアリングされることがあります。「Bluetoothを無効にする」は、DS 上で Bluetooth がどうか有効になっていた場合にのみ必要となるでしょう。"
+msgstr ""
+"アイテム1 三つの点はメニューで、二つの選択肢があります：「Wi-Fi Directから切断」および「Bluetoothを無効にする」。これらは "
+"Driver Hub が Control Hub "
+"にペアリングされている場合に必要ない可能性が高いです。主にドライバーステーションやロボットコントローラーとして使用できる携帯スマホ用のものが多いです。「Wi-"
+"Fi Directから切断」は機能しますが、時々アプリは自動的に再ペアリングされることがあります。「Bluetoothを無効にする」は、DS 上で "
+"Bluetooth がどうか有効になっていた場合にのみ必要となるでしょう。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:86
 msgid ""
 "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub."
-msgstr "アイテム2 ``Manufacturer`` は、REVドライバーハブの場合、 ** REV Robotics ** に設定する必要があります。"
+msgstr "アイテム2 ``Manufacturer`` は、REVドライバーハブの場合、**REV Robotics**に設定する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:87
 msgid "Item 3 ``Model`` should be Driver Hub."
@@ -233,7 +241,7 @@ msgstr "アイテム4「ドライバーハブOSバージョン」はおそらく
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:89
 msgid "Item 5 ``Android Version`` is probably 10 for a Driver Hub."
-msgstr "アイテム5 ``Android バージョン`` はおそらくドライバーハブ用に10です。"
+msgstr "アイテム5``Android バージョン``はおそらくドライバーハブ用に10です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:90
 msgid ""
@@ -241,11 +249,11 @@ msgid ""
 "the green color of the percentage value changes towards **orange** as the "
 "charge level goes down."
 msgstr ""
-"アイテム6にはデバイスのバッテリー残量が表示されています。おもしろい事実：バッテリーレベルが下がるにつれて、パーセンテージ値の緑色は ** オレンジ ** に変化します。"
+"アイテム6にはデバイスのバッテリー残量が表示されています。おもしろい事実：バッテリーレベルが下がるにつれて、パーセンテージ値の緑色は**オレンジ**に変化します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:93
 msgid "Item 7 ``Bluetooth`` should be **Disabled**."
-msgstr "項目7 Bluetoothは ** 無効 ** にしてください。"
+msgstr "項目7 Bluetoothは**無効**にしてください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:94
 msgid ""
@@ -253,8 +261,8 @@ msgid ""
 "devices running **Android 8** or higher. This is an SDK/Android technology "
 "requirement, not an FTC rule."
 msgstr ""
-"アイテム8「位置情報サービス」は ** 有効 ** にしておくべきですが、 ** Android "
-"8 ** 以降のデバイスでしか表示されません。これはSDK/Android技術上の要件であり、FTCのルールではありません。"
+"アイテム8「位置情報サービス」は**有効**にしておくべきですが、**Android "
+"8**以降のデバイスでしか表示されません。これはSDK/Android技術上の要件であり、FTCのルールではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:96
 msgid ""
@@ -267,8 +275,8 @@ msgid ""
 "Item 10 ``Standard Wi-Fi Connected`` must be **Yes** to indicate the Driver "
 "Hub is connected to a standard Wi-Fi source, such as a Control Hub."
 msgstr ""
-"アイテム10 ``標準Wi-Fi接続`` は、ドライバーハブがコントロールハブなどの標準Wi-Fiソースに接続されていることを示すために ** Yes ** "
-" にする必要があります。"
+"アイテム10 ``標準Wi-Fi接続`` は、ドライバーハブがコントロールハブなどの標準Wi-"
+"Fiソースに接続されていることを示すために**Yes**にする必要があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:98
 msgid ""
@@ -291,7 +299,7 @@ msgid ""
 "Inspection Report."
 msgstr ""
 "Item 12は「Robot Controller "
-"Name」を表示します。接続されていない場合は ** None ** が表示されます。ロボットコントローラーとドライバーステーションのチーム番号部分が一致しない場合、エラーが表示されます。RC名がFTCフォーマットの要件に適合しているかどうかはチェックしていません。Robot"
+"Name」を表示します。接続されていない場合は**None**が表示されます。ロボットコントローラーとドライバーステーションのチーム番号部分が一致しない場合、エラーが表示されます。RC名がFTCフォーマットの要件に適合しているかどうかはチェックしていません。Robot"
 " Controller Self Inspection Reportを参照してください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:103
@@ -303,8 +311,8 @@ msgid ""
 "causes the apps to not work properly."
 msgstr ""
 "Item 13 Apps Installed ``Robot Controller`` "
-"は「インストールされていない」 ** に設定 ** してください。これにより、Driver Station デバイスには Robot Controller "
-"アプリが ** インストールされていない ** ことを確認できます。各デバイスには最大で 1 つの FTC "
+"は「インストールされていない」**に設定**してください。これにより、Driver Station デバイスには Robot Controller "
+"アプリが**インストールされていない**ことを確認できます。各デバイスには最大で 1 つの FTC "
 "アプリのみがインストールされるべきです。両方のアプリを誤ってインストールする可能性がありますが、これにより通常はアプリケーションが正しく動作しないことがあります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:105
@@ -317,7 +325,7 @@ msgid ""
 "device should fix the invalid inspection item."
 msgstr ""
 "Item 14 アプリケーションインストール ``ドライバーステーション`` "
-"には、ドライバーステーションアプリのバージョン番号が表示されるべきです。 *FIRST* はチームに現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。デバイスシステム日付が無効または将来的なものである場合、ここでは「ドライバーステーションアプリケーションは古びています」というメッセージとともに無効な検査項目が表示されることがあります。デバイスの日付を修正することで、この無効な検査項目は解決されます。"
+"には、ドライバーステーションアプリのバージョン番号が表示されるべきです。*FIRST*はチームに現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。デバイスシステム日付が無効または将来的なものである場合、ここでは「ドライバーステーションアプリケーションは古びています」というメッセージとともに無効な検査項目が表示されることがあります。デバイスの日付を修正することで、この無効な検査項目は解決されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:111
 msgid ""
@@ -326,7 +334,7 @@ msgid ""
 " orange triangle exclamation mark icon."
 msgstr ""
 "ここにはSelf "
-"Inspectで ** 拒否 ** された項目のあるドライバーステーションからの報告書があります。問題は赤い円形の警告アイコンまたは橙色の三角形の警告アイコンで示されます。"
+"Inspectで**拒否**された項目のあるドライバーステーションからの報告書があります。問題は赤い円形の警告アイコンまたは橙色の三角形の警告アイコンで示されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:114
 msgid ""
@@ -352,7 +360,7 @@ msgid ""
 "connecting the devices."
 msgstr ""
 "アイテム10は「標準Wi-"
-"Fi接続」を拒否しました。 ** No ** です。ドライバーステーションはまだロボットに接続されていません。デバイスを接続する前に、ドライバーステーション名を修正してください。"
+"Fi接続」を拒否しました。**No**です。ドライバーステーションはまだロボットに接続されていません。デバイスを接続する前に、ドライバーステーション名を修正してください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:127
 msgid ""
@@ -362,8 +370,8 @@ msgid ""
 "rules in the Competition Manual. e.g. Team number plus -DS: **99999-DS**."
 msgstr ""
 "Item 11は「Driver Station "
-"Name」がFTCのフォーマット要件を満たしていないためを拒否します。 ** Android_a301 ** は新しいドライバーステーション（DS）の例です。「DSアプリ設定」に進み、競技マニュアルにあるルールに従って「Driver"
-" Station Name」を設定してください。例えば、チーム番号に-DSをつけたもの： ** 99999-DS ** 。"
+"Name」がFTCのフォーマット要件を満たしていないためを拒否します。**Android_a301**は新しいドライバーステーション（DS）の例です。「DSアプリ設定」に進み、競技マニュアルにあるルールに従って「Driver"
+" Station Name」を設定してください。例えば、チーム番号に-DSをつけたもの：**99999-DS**。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:129
 msgid ""
@@ -374,7 +382,7 @@ msgid ""
 "Name."
 msgstr ""
 "Item 12は``Robot Controller Name``を拒否し、これはDS "
-"Nameと一致していないためです。この値が ** None ** である理由は、DSがRCに接続されていないからです。このアイテムはRC名の形式が有効かどうかチェックしないもので、"
+"Nameと一致していないためです。この値が**None**である理由は、DSがRCに接続されていないからです。このアイテムはRC名の形式が有効かどうかチェックしないもので、"
 " hanya RC Nameのチーム番号部分がDS Nameのチーム番号部分と一致しているかどうかを確認します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:131
@@ -433,18 +441,20 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:155
 msgid "Item 3 ``Model`` should be **Control Hub v1.0**."
-msgstr "アイテム3「モデル」は ** コントロールハブv1.0 ** です。"
+msgstr "アイテム3「モデル」は**コントロールハブv1.0**です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:156
 msgid ""
 "Item 4 ``Control Hub OS Version`` should be at least 1.1.6. *FIRST* "
 "recommends but does not require that teams use the currently available "
 "version."
-msgstr "アイテム4「Control HubOSバージョン」は少なくとも1.1.6であるべきです。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+msgstr ""
+"アイテム4「Control "
+"HubOSバージョン」は少なくとも1.1.6であるべきです。*FIRST*はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:157
 msgid "Item 5 ``Android Version`` is probably 7.1.2 for a Control Hub."
-msgstr "Item 5 ``Android Version`` はControl Hubの場合 Probablemente 7.1.2 です。"
+msgstr "Item 5``Android Version``はControl Hubの場合 Probablemente 7.1.2 です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:158
 msgid ""
@@ -453,7 +463,10 @@ msgid ""
 " A check mark indicates all firmware is up-to-date based on the current "
 "version of the RC app. *FIRST* recommends but does not require that teams "
 "use the currently available version."
-msgstr "アイテム6「ハブファームウェア」はハブのアドレスとファームウェアレベルをリストします。この例ではControl Hubが1つ表示されていますが、Expansion Hubもここにリストできます。チェックマークが表示されている場合、すべてのファームウェアは現在のRCアプリケーションのバージョンに基づいて最新です。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+msgstr ""
+"アイテム6「ハブファームウェア」はハブのアドレスとファームウェアレベルをリストします。この例ではControl "
+"Hubが1つ表示されていますが、Expansion "
+"Hubもここにリストできます。チェックマークが表示されている場合、すべてのファームウェアは現在のRCアプリケーションのバージョンに基づいて最新です。*FIRST*はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:162
 msgid "Item 7 shows the ``Battery Level`` of the device being reported."
@@ -461,7 +474,7 @@ msgstr "項目7には装置のバッテリー電圧が報告されているこ�
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:163
 msgid "Item 8 ``Bluetooth`` should be **Disabled**."
-msgstr "アイテム8 ``Bluetooth`` は ** 無効 ** にしてください。"
+msgstr "アイテム8 ``Bluetooth`` は**無効**にしてください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:164
 msgid ""
@@ -470,18 +483,20 @@ msgid ""
 "the factory default (“password”). Go to the Program and Manage page, select "
 "Manage and then update the RC password. You will have to re-pair the DS to "
 "the RC and enter the new password to reconnect."
-msgstr "Item 9 ``RCパスワード``はRC自検査のみに表示されます。この検査項目は、Control Hubのパスワードがファクトリーデフォルト（“password”）と異なることのFTC要件を満たしていないため失敗しました。プログラムおよび管理ページに移動し、管理を選択してからRCパスワードを更新します。その後、DSをRCとのペアリングを解除し、新しいパスワードを入力して再接続する必要があります。"
+msgstr ""
+"Item 9``RCパスワード``はRC自検査のみに表示されます。この検査項目は、Control "
+"Hubのパスワードがファクトリーデフォルト（“password”）と異なることのFTC要件を満たしていないため失敗しました。プログラムおよび管理ページに移動し、管理を選択してからRCパスワードを更新します。その後、DSをRCとのペアリングを解除し、新しいパスワードを入力して再接続する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:167
 msgid ""
 "Item 10 ``Wi-Fi Enabled`` must be **Yes** as it means the control hub’s Wi-"
 "Fi radio is **ON**."
 msgstr ""
-"アイテム10 ``Wi-Fi有り`` は ** はい ** でなければならず、これは制御ヘッブのWi-Fi無線電波が ** オン ** であることを意味します。"
+"アイテム10 ``Wi-Fi有り`` は**はい**でなければならず、これは制御ヘッブのWi-Fi無線電波が**オン**であることを意味します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:168
 msgid "Item 11 ``Standard Wi-Fi Connected`` must be **Yes**."
-msgstr "アイテム11「標準Wi-Fi接続」は ** はい ** でなければなりません。"
+msgstr "アイテム11「標準Wi-Fi接続」は**はい**でなければなりません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:169
 msgid ""
@@ -502,7 +517,7 @@ msgid ""
 "available version."
 msgstr ""
 "アイテム13 "
-"アプリケーションインストール「ロボットコントローラ」にRCアプリのバージョンが表示されるべきです。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+"アプリケーションインストール「ロボットコントローラ」にRCアプリのバージョンが表示されるべきです。*FIRST*はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:173
 msgid ""
@@ -510,8 +525,8 @@ msgid ""
 "and is likely due to a point mismatch e.g. 10.0 and 10.1, mismatches are now"
 " allowed, but not recommended."
 msgstr ""
-"アイテム14 ``Matches DS Version`` は ** Yes ** に設定してください。 ** No ** "
-"が表示される場合、これはポイントの不一致（例：10.0と10.1）によるもので、現在は許可されていますが推奨されていません。"
+"アイテム14 ``Matches DS Version`` "
+"は**Yes**に設定してください。**No**が表示される場合、これはポイントの不一致（例：10.0と10.1）によるもので、現在は許可されていますが推奨されていません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:174
 msgid ""
@@ -522,9 +537,9 @@ msgid ""
 " apps to not work properly."
 msgstr ""
 "Item 15 インストール済みアプリ ``Driver "
-"Station``は ** インストールされていない ** ことが確認されるべきです。これにより、Robot Controllerデバイスには Driver "
+"Station``は**インストールされていない**ことが確認されるべきです。これにより、Robot Controllerデバイスには Driver "
 "Station "
-"アプリが ** インストールされていない ** ことも確認できます。各デバイスには最大で一つのFTCアプリのみがインストールされるべきです。両方のアプリを誤ってインストールしてしまう可能性がありますが、通常はこの場合アプリが正しく動作しないことがあります。"
+"アプリが**インストールされていない**ことも確認できます。各デバイスには最大で一つのFTCアプリのみがインストールされるべきです。両方のアプリを誤ってインストールしてしまう可能性がありますが、通常はこの場合アプリが正しく動作しないことがあります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:176
 msgid ""
@@ -560,4 +575,4 @@ msgid ""
 "rules."
 msgstr ""
 "Self InspectはFTCトーナメントのRobot "
-"Inspectionで確認されるかもしれませんが、FTCルールに完全にまたは公式に準拠しているかどうかの標準とは ** ではありません ** 。"
+"Inspectionで確認されるかもしれませんが、FTCルールに完全にまたは公式に準拠しているかどうかの標準とは**ではありません**。"

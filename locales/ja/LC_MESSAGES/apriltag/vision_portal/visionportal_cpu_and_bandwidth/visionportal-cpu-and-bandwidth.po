@@ -33,8 +33,7 @@ msgid ""
 "communications **bandwidth**.  Reaching such limits may affect previews, and"
 " cause an OpMode or Robot Controller to slow down, or freeze, or crash."
 msgstr ""
-"ビジョン処理は、重要な ** CPUリソース ** とUSB通信の ** 帯域幅 ** "
-"を消費する可能性があります。これらの制限に達すると、プレビューが影響を受けることがありますし、OpModeやロボットコントローラーが遅くなる、停止する、またはクラッシュする場合もあります。"
+"ビジョン処理は、重要な**CPUリソース**とUSB通信の**帯域幅**を消費する可能性があります。これらの制限に達すると、プレビューが影響を受けることがありますし、OpModeやロボットコントローラーが遅くなる、停止する、またはクラッシュする場合もあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:11
 msgid ""
@@ -111,25 +110,25 @@ msgstr "最初の4つのアクションは、利益と対応について非公�
 msgid ""
 "**LiveView** \"Level 1\": some reduction of resources used, resumes very "
 "quickly after stopping"
-msgstr " ** LiveView ** 「レベル1」: リソースの使用量が一部削減され、停止後すぐに再開します"
+msgstr "**LiveView**「レベル1」: リソースの使用量が一部削減され、停止後すぐに再開します"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:32
 msgid ""
 "**Processor(s)** \"Level 2\": more reduction of resources used, resumes "
 "quickly after stopping"
-msgstr " ** プロセッサ ** \\\"レベル2\\\"：リソースの使用量をさらに削減し、停止後すぐに再開します"
+msgstr "**プロセッサ**\\\"レベル2\\\"：リソースの使用量をさらに削減し、停止後すぐに再開します"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:33
 msgid ""
 "Camera Stream \"Level 3\": high reduction of resources used, resumes less "
 "quickly after stopping"
-msgstr " ** カメラストリーム ** \"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
+msgstr "**カメラストリーム**\"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:34
 msgid ""
 "**VisionPortal** \"Level 4\": maximum reduction of resources used, do not "
 "resume after stopping"
-msgstr " ** VisionPortal ** \"レベル4\": リソースの使用量を最大限に削減、停止後は再開しない"
+msgstr "**VisionPortal**\"レベル4\": リソースの使用量を最大限に削減、停止後は再開しない"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:37
 msgid "Camera Status"
@@ -141,16 +140,16 @@ msgid ""
 " review again the available **camera states**.  This may help you monitor, "
 "evaluate and troubleshoot your optimization efforts."
 msgstr ""
-"ビジョン処理リソースを管理するツールについて議論する前に、再度 ** カメラ状態 ** が利用可能であることを確認しましょう。これにより、最適化努力のモニタリング、評価、トラブルシューティングが助けになるかもしれません。"
+"ビジョン処理リソースを管理するツールについて議論する前に、再度**カメラ状態**が利用可能であることを確認しましょう。これにより、最適化努力のモニタリング、評価、トラブルシューティングが助けになるかもしれません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:43
 msgid ""
 "Repeated from the **Camera Controls** page, these camera states are now "
 "available:"
 msgstr ""
-"繰り返し表示される ** Camera Controls ** ページからのカメラ状態は、現在利用可能になりました：繰り返し表示される ** Camera "
-"Controls ** ページからのカメラ状態は、現在利用可能になりました：繰り返し表示される ** Camera Controls ** "
-"ページからのカメラ状態は、現在利用可能になりました："
+"繰り返し表示される**Camera Controls**ページからのカメラ状態は、現在利用可能になりました：繰り返し表示される**Camera "
+"Controls**ページからのカメラ状態は、現在利用可能になりました：繰り返し表示される**Camera "
+"Controls**ページからのカメラ状態は、現在利用可能になりました："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:45
 msgid "OPENING_CAMERA_DEVICE - No vision processing is happening."
@@ -162,8 +161,7 @@ msgid ""
 " background processing from EOCV (i.e. pulling frames and performing color "
 "conversion). Ready to call ``resumeStreaming()``."
 msgstr ""
-"カメラデバイスが準備完了しました。カメラは開いています。バックグラウンド処理（EOCVからのフレームの取得や色変換など）は行われていません。``resumeStreaming()``"
-" を呼び出す準備ができています。"
+"カメラデバイスが準備完了しました。カメラは開いています。バックグラウンド処理（EOCVからのフレームの取得や色変換など）は行われていません。``resumeStreaming()``を呼び出す準備ができています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:49
 msgid "STARTING_STREAM - No processing is happening."
@@ -181,7 +179,7 @@ msgstr ""
 msgid ""
 "STOPPING_STREAM - Processing may or may not be happening.  This status is "
 "followed by ``CAMERA_DEVICE_READY``."
-msgstr "ストップ中 - 計算処理は発生している可能性もあります。このステータスは ``カメラデバイス準備完了`` の後に続きます。"
+msgstr "ストップ中 - 計算処理は発生している可能性もあります。このステータスは``カメラデバイス準備完了``の後に続きます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:54
 msgid "CLOSING_CAMERA_DEVICE - No processing is happening."
@@ -203,7 +201,7 @@ msgid ""
 "build), then starting or resuming streaming, then stopping streaming, then "
 "closing the VisionPortal."
 msgstr ""
-"これらの ** enum ** はカメラを開く（新規構築）、ストリーミングを開始または再開、ストリーミングを停止、VisionPortal "
+"これらの**enum**はカメラを開く（新規構築）、ストリーミングを開始または再開、ストリーミングを停止、VisionPortal "
 "を閉じるという順序でリストされています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:63
@@ -225,15 +223,14 @@ msgid ""
 " **Camera Stream**, which still operates normally even if LiveView is "
 "stopped (manually or automatically)."
 msgstr ""
-"前ページの ** プレビュー ** 欄で述べた通り、LiveViewは ** ロボットコントローラー ** のプレビューのみを指し、ドライバーステーション（DS）の ** カメラストリーム ** とは完全に独立しています。LiveViewが停止された場合（手動または自動）、カメラストリームは通常通り動作します。"
+"前ページの**プレビュー**欄で述べた通り、LiveViewは**ロボットコントローラー**のプレビューのみを指し、ドライバーステーション（DS）の**カメラストリーム**とは完全に独立しています。LiveViewが停止された場合（手動または自動）、カメラストリームは通常通り動作します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:75
 msgid ""
 "DS Camera Stream uses its own frame collection process, which naturally "
 "still requires the camera/pipeline status to be ``STREAMING``."
 msgstr ""
-"ドライバーステーションカメラストリームは独自のフレーム収集プロセスを使用しますが、自然にカメラ/パイプラインの状態は`` STREAMING`` "
-"である必要があります。"
+"ドライバーステーションカメラストリームは独自のフレーム収集プロセスを使用しますが、自然にカメラ/パイプラインの状態は``STREAMING``である必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:78
 msgid ""
@@ -258,12 +255,13 @@ msgid ""
 "Side Note: For SDK 8.2, \"LiveView\" became the new universal name for the "
 "RC preview. There remain two instances of old names:"
 msgstr ""
-"サイドノート：SDK 8.2では、「LiveView」がRCプレビューの新しい普遍的な名称となりました。古い名称はまだ2つのインスタンスで使用されています："
+"サイドノート：SDK "
+"8.2では、「LiveView」がRCプレビューの新しい普遍的な名称となりました。古い名称はまだ2つのインスタンスで使用されています："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:88
 msgid ""
 "``myVisionPortalBuilder.enableCameraMonitoring(true);``, discussed below"
-msgstr "``myVisionPortalBuilder.enableCameraMonitoring(True);`` について後述する"
+msgstr "``myVisionPortalBuilder.enableCameraMonitoring(True);``について後述する"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:89
 msgid "``VIEWPORT`` appears in the preview status window, when stopped"
@@ -279,7 +277,8 @@ msgid ""
 "LiveView, while running an OpMode.  The CPU continues processing camera "
 "images for AprilTag and/or TFOD recognitions, but does not actually generate"
 " an RC preview image (video)."
-msgstr "CPUリソースを節約する一つの方法（レベル1）として、OpModeを実行中にLiveViewを ** 直接一時停止 ** することがあります。このとき、カメラ画像のAprilTagやTFOD認識は継続的に処理されますが、RCプレビュー画像（動画）は生成されません。"
+msgstr ""
+"CPUリソースを節約する一つの方法（レベル1）として、OpModeを実行中にLiveViewを**直接一時停止**することがあります。このとき、カメラ画像のAprilTagやTFOD認識は継続的に処理されますが、RCプレビュー画像（動画）は生成されません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst
 msgid "Blocks"
@@ -292,7 +291,7 @@ msgstr "ブロック"
 msgid ""
 "These are found in the ``VisionPortal`` toolbox, or palette, under the "
 "``Vision`` category."
-msgstr "これらは ``VisionPortal`` ツールボックスやパレット内の ``ビジョン`` カテゴリにあります。"
+msgstr "これらは``VisionPortal``ツールボックスやパレット内の``ビジョン``カテゴリにあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst
 msgid "Toggle LiveView"
@@ -333,7 +332,8 @@ msgid ""
 "This setting causes LiveView to stop **automatically** if both processors "
 "(AprilTag and TFOD) are disabled.  Being part of the Builder pattern, this "
 "feature cannot be directly toggled ``true`` and ``false`` during the OpMode."
-msgstr "この設定は、両方のプロセッサー（AprilTagとTFOD）が無効にされた場合にLiveViewを ** 自動的に停止 ** します。Builderパターンの一環として、この機能はOpMode中に直接TrueやFalseとして切り替えることはできません。"
+msgstr ""
+"この設定は、両方のプロセッサー（AprilTagとTFOD）が無効にされた場合にLiveViewを**自動的に停止**します。Builderパターンの一環として、この機能はOpMode中に直接TrueやFalseとして切り替えることはできません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:144
 msgid ""
@@ -363,11 +363,11 @@ msgid ""
 "The SDK also contains a different Builder setting that allows (or disallows)"
 " LiveView **in general**, available in Blocks and Java:"
 msgstr ""
-"SDKには、LiveView ** 全体について ** (有効にするか無効にすることができる)異なるBuilder設定が含まれています。この設定はブロックとJavaで利用可能です："
+"SDKには、LiveView**全体について**(有効にするか無効にすることができる)異なるBuilder設定が含まれています。この設定はブロックとJavaで利用可能です："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:164
 msgid "Sample OpModes set this Builder field to ``true`` by default."
-msgstr "サンプルのOpModeはこのビルダー項目をデフォルトで ``true`` に設定します。"
+msgstr "サンプルのOpModeはこのビルダー項目をデフォルトで``true``に設定します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:166
 msgid ""
@@ -386,7 +386,7 @@ msgid ""
 "Another way to conserve CPU resources (\"Level 2\") is **disabling an "
 "AprilTag or TFOD Processor**, while running an OpMode."
 msgstr ""
-"CPUリソースを節約するもう一つの方法（レベル2）は、OpModeを実行している間、AprilTagやTFODプロセッサーを ** 無効にすること ** です。"
+"CPUリソースを節約するもう一つの方法（レベル2）は、OpModeを実行している間、AprilTagやTFODプロセッサーを**無効にすること**です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst
 msgid "Toggle Processor"
@@ -422,7 +422,7 @@ msgid ""
 "Levels 1 and 2: stopping LiveView and preventing operation of the AprilTag "
 "and TFOD Processors. DS Camera Stream provides no new snapshots."
 msgstr ""
-"CPUリソースをより積極的に節約する方法（レベル3）は、OpModeを実行しながら ** カメラストリームの停止 ** です。もちろんこれにより、レベル1と2も達成されます：LiveViewの停止とAprilTagおよびTFODプロセッサの動作防止。DS"
+"CPUリソースをより積極的に節約する方法（レベル3）は、OpModeを実行しながら**カメラストリームの停止**です。もちろんこれにより、レベル1と2も達成されます：LiveViewの停止とAprilTagおよびTFODプロセッサの動作防止。DS"
 " Camera Streamには新しいスナップショットが提供されません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:227
@@ -466,7 +466,7 @@ msgstr ""
 msgid ""
 "Accordingly, the SDK offers no corresponding ``reopen()`` or ``resume()`` "
 "method."
-msgstr "従って、SDK には対応する ``reopen()`` や ``resume()`` メソッドは用意されていません。"
+msgstr "従って、SDK には対応する``reopen()``や``resume()``メソッドは用意されていません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:281
 msgid ""
@@ -479,9 +479,7 @@ msgid ""
 "clarity), but not required, since ``close()`` internally calls "
 "``stopStreaming()`` if applicable."
 msgstr ""
-"``stopStreaming()`` を呼び出してから ``close()`` "
-"を呼び出すことは、明確さの観点からは許可されていますが、必須ではありません。なぜなら ``close()`` は適用される場合に内部で "
-"``stopStreaming()`` を呼び出しているためです。"
+"``stopStreaming()``を呼び出してから``close()``を呼び出すことは、明確さの観点からは許可されていますが、必須ではありません。なぜなら``close()``は適用される場合に内部で``stopStreaming()``を呼び出しているためです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:288
 msgid "Rapid Toggling"
@@ -500,14 +498,14 @@ msgid ""
 "``STOPPING_STREAM``. But the program will be **blocked** until the stopping "
 "operation is done."
 msgstr ""
-"ステータスが「STOPPING_STREAM」の間、「resumeStreaming()」を呼び出すことは法則に違反しません。しかし、停止操作が完了するまでプログラムは ** ブロック ** されます。"
+"ステータスが「STOPPING_STREAM」の間、「resumeStreaming()」を呼び出すことは法則に違反しません。しかし、停止操作が完了するまでプログラムは**ブロック**されます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:296
 msgid ""
 "**Blocking** means the latest function doesn't return immediately.  So the "
 "code is temporarily \"stuck\" there, as if executing a ``sleep()`` command."
 msgstr ""
-" ** ブロッキング ** とは、最新の関数がすぐに返さないことを意味します。そのためコードは一時的に「止まっている」という状態になり、``sleep()`` "
+"**ブロッキング**とは、最新の関数がすぐに返さないことを意味します。そのためコードは一時的に「止まっている」という状態になり、``sleep()`` "
 "コマンドと同じように実行されます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:299
@@ -515,8 +513,7 @@ msgid ""
 "The same applies if calling ``stopStreaming()`` while the status is "
 "``STARTING_STREAM``.  It's allowed, but your code may have to wait."
 msgstr ""
-"同じことが、ステータスが ``STARTING_STREAM`` の状態で ``stopStreaming()`` "
-"を呼び出す場合にも適用されます。これは可能ですがあなたのコードは待ち時間が発生する可能性があります。"
+"同じことが、ステータスが``STARTING_STREAM``の状態で``stopStreaming()``を呼び出す場合にも適用されます。これは可能ですがあなたのコードは待ち時間が発生する可能性があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:302
 msgid ""
@@ -524,8 +521,8 @@ msgid ""
 "sure the previous operation is complete.  This can be done with an empty "
 "``while()`` loop, in a linear OpMode."
 msgstr ""
-"ブロッキングを避けるため、以前の操作が完了していることを確認するために関連する ** status "
-"enum ** をチェックするのが最善です。これには空の``while()``ループを使用し、線形OpMode内で行うことができます。"
+"ブロッキングを避けるため、以前の操作が完了していることを確認するために関連する**status "
+"enum**をチェックするのが最善です。これには空の``while()``ループを使用し、線形OpMode内で行うことができます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:307
 msgid "CPU Management Choices"
@@ -535,7 +532,7 @@ msgstr "CPU管理選択肢"
 msgid ""
 "So far, there are **10 possible configurations** to evaluate CPU "
 "performance, using only the vision process controls discussed above:"
-msgstr "これまでに、上記で述べたビジョンプロセス制御のみを使用して評価するための ** 10種類の可能な構成 ** があります："
+msgstr "これまでに、上記で述べたビジョンプロセス制御のみを使用して評価するための**10種類の可能な構成**があります："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:312
 msgid "VisionPortal closed"
@@ -626,7 +623,7 @@ msgid ""
 "Before discussing Streaming Formats, we should mention that **USB "
 "Bandwidth** can be a concern for **dual webcams**."
 msgstr ""
-"ストリーミングフォーマットについて議論する前に、 ** USB帯域幅 ** が ** デュアルウェブカメラ ** では問題になる可能性があることに言及する必要があります。"
+"ストリーミングフォーマットについて議論する前に、**USB帯域幅**が**デュアルウェブカメラ**では問題になる可能性があることに言及する必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:370
 msgid ""
@@ -645,10 +642,10 @@ msgid ""
 "bandwidth capacity, although higher resolution can cause the auto-optimized "
 "frame rate to reduce."
 msgstr ""
-"For dual webcams ** plugged directly into the Control Hub ** , the USB 2.0 and "
+"For dual webcams**plugged directly into the Control Hub**, the USB 2.0 and "
 "USB 3.0 ports are on different buses. This reduces the concern about "
 "bandwidth capacity, although higher resolution can cause the auto-optimized "
-"frame rate to reduce.デュアルウェブカム ** がコントロールハブに直接接続 ** されている場合、USB 2.0ポートとUSB "
+"frame rate to reduce.デュアルウェブカム**がコントロールハブに直接接続**されている場合、USB 2.0ポートとUSB "
 "3.0ポートは異なるバスにあります。これにより帯域幅の容量に関する懸念が軽減されるものの、高解像度では自動最適化されたフレームレートが低下する可能性があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:380
@@ -658,7 +655,7 @@ msgid ""
 "radio**; adding a webcam may affect its reliability."
 msgstr ""
 "Control Hubの2つのUSBポートを使用していれば、ストリームフォーマットの選択はほとんど影響ありません。しかし、USB "
-"2.0バスはControl Hubの ** WiFiラジオ ** も運転しています；ウェブカメラを追加すると、その信頼性に影響を与える可能性があります。"
+"2.0バスはControl Hubの**WiFiラジオ**も運転しています；ウェブカメラを追加すると、その信頼性に影響を与える可能性があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:384
 msgid ""
@@ -678,8 +675,8 @@ msgid ""
 "may stop streaming above roughly 640x360 resolution.  This is **below the "
 "default** resolution of 640x480."
 msgstr ""
-"遺伝的な ** YUY2 形式 ** 下では、共有ハブ上の Web カメラのどちらかが約 640x360 "
-"解像度を超えるとストリーミングを停止する場合があります。これは、デフォルトの 640x480 解像度 ** 未満 ** のものです。"
+"遺伝的な**YUY2 形式**下では、共有ハブ上の Web カメラのどちらかが約 640x360 "
+"解像度を超えるとストリーミングを停止する場合があります。これは、デフォルトの 640x480 解像度**未満**のものです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:396
 msgid ""
@@ -687,8 +684,7 @@ msgid ""
 "screen in LiveView.  A team using default resolutions may quickly conclude "
 "(incorrectly) that dual webcams **does not work**."
 msgstr ""
-"帯域幅問題は、通常、 ** 検出なし ** とライブビューでの青い画面で示されます。デフォルトの解像度を使用しているチームは、誤って2つのウェブカムが "
-" ** 動作しない ** と直ぐに結論付けるかもしれません。"
+"帯域幅問題は、通常、**検出なし**とライブビューでの青い画面で示されます。デフォルトの解像度を使用しているチームは、誤って2つのウェブカムが**動作しない**と直ぐに結論付けるかもしれません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:400
 msgid ""
@@ -696,7 +692,7 @@ msgid ""
 "reduce USB bandwidth issues, but must be evaluated also for speed and "
 "quality of recognitions."
 msgstr ""
-"SDKは現在、圧縮された ** MJPEG形式 ** を提供しています。これによりUSB帯域幅の問題が大幅に軽減される可能性がありますが、認識速度と品質も評価する必要があります。"
+"SDKは現在、圧縮された**MJPEG形式**を提供しています。これによりUSB帯域幅の問題が大幅に軽減される可能性がありますが、認識速度と品質も評価する必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:404
 msgid ""
@@ -786,7 +782,10 @@ msgid ""
 "This topic continues at the **AprilTag Advanced Use** page, to discuss "
 "advanced tools for managing CPU usage. It includes a Test OpMode in Blocks "
 "and Java."
-msgstr "このトピックは ** AprilTag Advanced Use ** ページで続き、CPU 使用量の管理に使用する高度なツールについて議論します。Blocks と Java の Test OpMode も含まれます。このトピックは  ** AprilTag Advanced Use ** のページに続き、CPU 使用量を管理するための高度なツールについて議論します。Block と Java でのテストOpModeも含まれています。"
+msgstr ""
+"このトピックは**AprilTag Advanced Use**ページで続き、CPU 使用量の管理に使用する高度なツールについて議論します。Blocks"
+" と Java の Test OpMode も含まれます。このトピックは**AprilTag Advanced Use**のページに続き、CPU "
+"使用量を管理するための高度なツールについて議論します。Block と Java でのテストOpModeも含まれています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:444
 msgid ""
@@ -797,7 +796,7 @@ msgstr "現時点では、これらの内容は興味のあるユーザーに調
 msgid ""
 "All of the above features are easily found in the **FTC Blocks** toolboxes, "
 "or palettes, under Vision category."
-msgstr "すべての機能は、Visionカテゴリの下にある ** FTC ブロック ** ツールボックスやパレットで簡単に見つけることができます。"
+msgstr "すべての機能は、Visionカテゴリの下にある**FTC ブロック**ツールボックスやパレットで簡単に見つけることができます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:454
 msgid ""
@@ -808,4 +807,4 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:460
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "* 質問、ご意見や訂正はwestsiderobotics@verizon.netまで *"
+msgstr "*質問、ご意見や訂正はwestsiderobotics@verizon.netまで*"

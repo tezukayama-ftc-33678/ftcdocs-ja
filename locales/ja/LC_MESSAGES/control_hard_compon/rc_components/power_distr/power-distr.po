@@ -168,7 +168,9 @@ msgid ""
 "Control Hubs, SPARKminis, and more.  See the Competition Manual for a "
 "description of legal Power Distribution methods. The Power Distribution "
 "Blocks shown are not the only legal devices for power distribution."
-msgstr "電力配線ブロックは、Control HubやSPARKminiなどのデバイスに電力を分配する役割を果たします。合法的な電力配線方法については、競技マニュアルをご覧ください。表示されている電力配線ブロックは、唯一の合法的な電力分配装置ではありません。"
+msgstr ""
+"電力配線ブロックは、Control "
+"HubやSPARKminiなどのデバイスに電力を分配する役割を果たします。合法的な電力配線方法については、競技マニュアルをご覧ください。表示されている電力配線ブロックは、唯一の合法的な電力分配装置ではありません。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:198
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:207
@@ -315,7 +317,7 @@ msgid ""
 msgstr ""
 "大多数COTS USBバッテリーパックに関する議論の中心テーマは安全です。アメリカ合衆国輸送安全局（TSA）は、航空機上におけるCOTS "
 "USBバッテリーパックに厳しい制限を設けており、 *FIRST* Tech "
-"Challengeもその容量制限を採用しました。 ** バッテリーの容量は100ワット時間（Wh）以下 ** です。"
+"Challengeもその容量制限を採用しました。**バッテリーの容量は100ワット時間（Wh）以下**です。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:299
 msgid ""
@@ -334,11 +336,11 @@ msgstr ""
 "電力（ワット時間）はどのように計算しますか？バッテリーのワット時間は、バッテリーの電圧（V）を Amp-Hours (Ah) "
 "で測定した容量に掛けることで計算できます。例えば、12V のバッテリーが 3,000mAh の容量を持つ場合、そのワット時間は 36Wh "
 "となります。ただし、容量が milli-Amp Hours (mAh) で測定される場合は、容量を 1000 で割って Ah "
-"を得てから電圧に掛ける必要があります。しかし、COTS USB バッテリーパックの場合、パック内に主に使用されている電池の電圧は ** 3.7V ** "
-"であり、USBポートによって提供される最終的な電圧に関係なく同じです。したがって、COTS USB "
-"バッテリーパックのワット時間（Wh）を計算するには、 ** 3.7V ** をパックの ** Ah ランク ** に掛けることで得られます。25,000mAh の"
-" COTS USB バッテリーパックは、92.5Wh のランクを持っています。この公式を使用すると、許可される最大容量の COTS USB "
-"バッテリーパックは ** 27,000mAh ** のパックとなります。"
+"を得てから電圧に掛ける必要があります。しかし、COTS USB "
+"バッテリーパックの場合、パック内に主に使用されている電池の電圧は**3.7V**であり、USBポートによって提供される最終的な電圧に関係なく同じです。したがって、COTS"
+" USB バッテリーパックのワット時間（Wh）を計算するには、**3.7V**をパックの**Ah ランク**に掛けることで得られます。25,000mAh"
+" の COTS USB バッテリーパックは、92.5Wh のランクを持っています。この公式を使用すると、許可される最大容量の COTS USB "
+"バッテリーパックは**27,000mAh**のパックとなります。"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:311
 msgid "Standard Safety Features"
@@ -405,14 +407,14 @@ msgstr ""
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:341
 msgid ""
 "Use Hook and Loop or 3M DualLock fasteners to secure the battery, **OR**"
-msgstr "ハックとループを使用するか、3M デュアルロック固定金具を使用してバッテリーを固定してください、 ** 又は ** "
+msgstr "ハックとループを使用するか、3M デュアルロック固定金具を使用してバッテリーを固定してください、**又は**"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:342
 msgid ""
 "Store the battery in a tight-fitting or custom-fit enclosure within the "
 "robot that allows the battery to be exposed to air (for cooling), **AND**"
 msgstr ""
-"バッテリーは、冷却（冷卻）のために空気と接触できるようにロボット内に緊密な収納ケースまたはカスタムフィットケースで保管してください。 ** そして ** "
+"バッテリーは、冷却（冷卻）のために空気と接触できるようにロボット内に緊密な収納ケースまたはカスタムフィットケースで保管してください。**そして**"
 
 #: ../../source/control_hard_compon/rc_components/power_distr/power-distr.rst:344
 msgid ""

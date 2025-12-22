@@ -105,7 +105,7 @@ msgstr "Gitとは何ですか？"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:93
 msgid "**Simplified Local Git Repository Workflow**"
-msgstr " ** ローカルGitリポジトリのシンプルなワークフロー ** "
+msgstr "**ローカルGitリポジトリのシンプルなワークフロー**"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:95
 msgid ""
@@ -188,7 +188,7 @@ msgid ""
 "by separating them with a space."
 msgstr ""
 "おまけに、ステージングは次のコミット（「Git Save」）に含めたいファイルを指定するプロセスです。これは :bdg-warning:`ローカル` "
-"コマンド ``git add <file>`` を使用して実行されます。複数のファイルを追加する場合はスペースで区切ります。"
+"コマンド``git add <file>``を使用して実行されます。複数のファイルを追加する場合はスペースで区切ります。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:129
 msgid ""
@@ -222,9 +222,8 @@ msgid ""
 "repository is a collection of commits each describing incremental changes "
 "relative to the previous commit."
 msgstr ""
-"一度変更内容を準備したら、それをコミットすることができます。これには、:bdg-warning:`ローカル` コマンド ``git commit -m "
-"\"あなたのコミットメッセージ\"`` "
-"を使用します。コミットは、変更内容のスナップショットと考えることができます。各リポジトリは、前のコミットに比較して増分的な変更を記述するコミットの集合体です。"
+"一度変更内容を準備したら、それをコミットすることができます。これには、:bdg-warning:`ローカル` コマンド``git commit -m "
+"\"あなたのコミットメッセージ\"``を使用します。コミットは、変更内容のスナップショットと考えることができます。各リポジトリは、前のコミットに比較して増分的な変更を記述するコミットの集合体です。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:146
 msgid ""
@@ -250,9 +249,9 @@ msgid ""
 "repository. This means it will be accessible to others. After this change is"
 " pushed, you can create a pull request."
 msgstr ""
-"変更をコミットしたら、リポジトリのフォークにプッシュできます。これを行うには、:bdg-warning:`ローカル` コマンド ``git push "
-"origin <branch>`` "
-"を使用します。これで、あなたのローカルの変更がリモートリポジトリにプッシュされます。つまり、他のユーザーにもアクセス可能になります。この変更がプッシュされた後は、プルリクエストを作成できます。"
+"変更をコミットしたら、リポジトリのフォークにプッシュできます。これを行うには、:bdg-warning:`ローカル` コマンド``git push "
+"origin "
+"<branch>``を使用します。これで、あなたのローカルの変更がリモートリポジトリにプッシュされます。つまり、他のユーザーにもアクセス可能になります。この変更がプッシュされた後は、プルリクエストを作成できます。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:158
 msgid "In :bdg-info:`Codespaces` click the Sync Changes button."

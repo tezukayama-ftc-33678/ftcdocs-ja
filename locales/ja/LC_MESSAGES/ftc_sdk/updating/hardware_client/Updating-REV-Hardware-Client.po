@@ -32,7 +32,7 @@ msgid ""
 "download software and updates - doing this is not required, but will save "
 "time during updates."
 msgstr ""
-"The REV Hardware Clientはデスクトップアプリケーション、またはソフトウェアツールで、 *FIRST* Tech "
+"The REV Hardware Clientはデスクトップアプリケーション、またはソフトウェアツールで、*FIRST*Tech "
 "Challengeにおいて使用されるデバイスのソフトウェアを簡単に更新できるようにします。 Unfortunately the REV Hardware"
 " Client is currently Windows-only, "
 "Apple/Macユーザーは代替方法を使用してソフトウェアを更新する必要があります。このチュートリアルでは、いくつかのステップでソフトウェアやアップデートをダウンロードするよう求めていますが、これを行う必要はありませんし、アップデート時に時間短縮に役立ちます。"
@@ -42,12 +42,12 @@ msgid ""
 "To install, use the following steps on a **64-bit** PC or laptop running "
 "Windows 7 or newer."
 msgstr ""
-"To install, use the following steps on a ** 64-bit ** PC or laptop running Windows 7 or newer."
-""
+"To install, use the following steps on a**64-bit**PC or laptop running "
+"Windows 7 or newer."
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:14
 msgid "**Apple/Mac users should skip these steps.**"
-msgstr " ** Apple/Macユーザーはこれらの手順をスキップしてください。 ** "
+msgstr "**Apple/Macユーザーはこれらの手順をスキップしてください。**"
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:17
 msgid ""
@@ -89,13 +89,11 @@ msgstr ""
 msgid ""
 "If the computer is **not** 64-bit, RHC installation will fail with an "
 "appropriate error message."
-msgstr "もしコンピューターが ** 64ビット ** でない場合、RHCのインストールは適切なエラーメッセージとともに失敗します。"
+msgstr "もしコンピューターが**64ビット**でない場合、RHCのインストールは適切なエラーメッセージとともに失敗します。"
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:46
 msgid "Downloading Initial Updates"
-msgstr ""
-"初期更新のダウンロード"
-""
+msgstr "初期更新のダウンロード"
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:48
 msgid ""
@@ -119,8 +117,8 @@ msgid ""
 "software for *FIRST* Tech Challenge and other software for a different "
 "program called *FIRST* Robotics Competition."
 msgstr ""
-"ダウンロードタブ（左上）をクリックしてください。\"利用可能なファイル\" の下には、 *FIRST* Tech "
-"Challengeのソフトウェアと、別のプログラムである *FIRST* Robotics Competition用のソフトウェアの一覧が表示されます。"
+"ダウンロードタブ（左上）をクリックしてください。\"利用可能なファイル\" の下には、*FIRST*Tech "
+"Challengeのソフトウェアと、別のプログラムである*FIRST*Robotics Competition用のソフトウェアの一覧が表示されます。"
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:64
 msgid "Available Files"
@@ -136,7 +134,7 @@ msgid ""
 "items (yellow rectangles). This may take a few minutes; the OS files are "
 "large."
 msgstr ""
-"オレンジ色の「ダウンロード」ボタンをクリックしてください。これは、5つの *FIRST* Tech "
+"オレンジ色の「ダウンロード」ボタンをクリックしてください。これは、5つの*FIRST*Tech "
 "Challengeアイテム（黄色い長方形）だけに適用します。この操作は数分かかる場合があります。OSファイルは大きいのでご了承ください。"
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:71

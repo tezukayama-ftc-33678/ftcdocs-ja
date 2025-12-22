@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:2
 msgid "Camera Calibration for *FIRST* Tech Challenge"
-msgstr "*FIRST* Tech Challenge のカメラ校正"
+msgstr "*FIRST*Tech Challenge のカメラ校正"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:5
 msgid "What is a camera calibration and why is it needed?"
@@ -111,7 +111,8 @@ msgid ""
 "Copy the sample ``UtilityCameraFrameCapture`` OpMode to your teamcode "
 "folder, and modify the parameters at the top according to your needs. It's "
 "important to note that this Sample is only written in Java."
-msgstr "チームコードフォルダにサンプルの ``UtilityCameraFrameCapture`` OpModeをコピーし、必要に応じて上部のパラメータを修正してください。なお、このサンプルはJavaでしか書かれていません。"
+msgstr ""
+"チームコードフォルダにサンプルの``UtilityCameraFrameCapture``OpModeをコピーし、必要に応じて上部のパラメータを修正してください。なお、このサンプルはJavaでしか書かれていません。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:48
 msgid "In 3DF Zephyr, go to:"
@@ -147,5 +148,5 @@ msgid ""
 "will provide you with ``fx, fy, cx, cy`` which are the needed calibration "
 "parameters to be applied to your ``AprilTagProcessor``."
 msgstr ""
-"3DF Zephyrで校正ターゲットの分析を実行し、完了すると必要な校正パラメータ ``fx, fy, cx, cy`` "
-"を提供します。これらのパラメータは ``AprilTagProcessor`` に適用する必要があります。"
+"3DF Zephyrで校正ターゲットの分析を実行し、完了すると必要な校正パラメータ``fx, fy, cx, "
+"cy``を提供します。これらのパラメータは``AprilTagProcessor``に適用する必要があります。"

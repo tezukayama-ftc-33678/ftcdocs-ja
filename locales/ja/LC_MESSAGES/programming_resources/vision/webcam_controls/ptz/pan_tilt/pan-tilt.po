@@ -41,7 +41,7 @@ msgid ""
 " integer."
 msgstr ""
 "ウェブカメラはパンとチルトを (x, y) "
-"のペアとして受け付けます。したがって、SDKのパンとチルトメソッドはこれらの値を ** ペアとしてのみ ** 処理し、特別なクラスPanTiltHolderで管理します。このクラスには、整数型のフィールドpanとtiltがあります。"
+"のペアとして受け付けます。したがって、SDKのパンとチルトメソッドはこれらの値を**ペアとしてのみ**処理し、特別なクラスPanTiltHolderで管理します。このクラスには、整数型のフィールドpanとtiltがあります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:14
 msgid "Here’s an example to illustrate using the basic methods:"
@@ -77,8 +77,7 @@ msgid ""
 "hard-coded in the webcam’s firmware. Note that firmware settings may vary "
 "among different versions of the same webcam model."
 msgstr ""
-"最小および最大パン・ティルト値には ``set()`` "
-"メソッドがありません；これらの設定はウェブカメラのファームウェアで固有に定義されています。なお、同じモデルのウェブカメラでもファームウェア設定は異なる場合があります。"
+"最小および最大パン・ティルト値には``set()``メソッドがありません；これらの設定はウェブカメラのファームウェアで固有に定義されています。なお、同じモデルのウェブカメラでもファームウェア設定は異なる場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:49
 msgid ""

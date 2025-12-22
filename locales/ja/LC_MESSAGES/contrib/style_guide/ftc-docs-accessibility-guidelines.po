@@ -33,7 +33,12 @@ msgid ""
 "also for all user agents, including highly limited devices, such as mobile "
 "phones. See the `WCAG overview <https://www.w3.org/WAI/standards-"
 "guidelines/wcag/>`_ for more information about the WCAG standard."
-msgstr "Webコンテンツのアクセシビリティガイドライン（WCAG）は、世界 Wide Web 計画 Consortium (W3C) のウェブアクセシビリティイニシアチブ (WAI) によって発行される一連のウェブアクセシビリティガイドラインの一部です。主要な国際標準化団体である W3C の主催により、WCAG は Web コンテンツをよりアクセシブルにするための推奨事項のセットであり、主に障害を持つ人々のために作られていますが、すべてのユーザーエージェント、包括的なデバイスも含め、モバイルスマホなどの制限のあるデバイスも含まれます。詳細については、`WCAG の概要 <https://www.w3.org/WAI/standards-guidelines/wcag/>`_ を参照してください。"
+msgstr ""
+"Webコンテンツのアクセシビリティガイドライン（WCAG）は、世界 Wide Web 計画 Consortium (W3C) "
+"のウェブアクセシビリティイニシアチブ (WAI) によって発行される一連のウェブアクセシビリティガイドラインの一部です。主要な国際標準化団体である "
+"W3C の主催により、WCAG は Web "
+"コンテンツをよりアクセシブルにするための推奨事項のセットであり、主に障害を持つ人々のために作られていますが、すべてのユーザーエージェント、包括的なデバイスも含め、モバイルスマホなどの制限のあるデバイスも含まれます。詳細については、`WCAG"
+" の概要 <https://www.w3.org/WAI/standards-guidelines/wcag/>`_ を参照してください。"
 
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:8
 msgid ""
@@ -76,25 +81,24 @@ msgstr "次のものは、アクセシビリティガイドラインが基づく
 msgid ""
 "**Perceivable** - Information and user interface components must be "
 "presentable to users in ways they can perceive."
-msgstr " ** 感知可能 ** - 情報やユーザーインターフェースのコンポーネントは、ユーザーが感知できる方法で提示される必要があります。"
+msgstr "**感知可能**- 情報やユーザーインターフェースのコンポーネントは、ユーザーが感知できる方法で提示される必要があります。"
 
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:28
 msgid ""
 "**Operable** - User interface components and navigation must be operable."
-msgstr " ** 操作可能 ** - ユーザインターフェースのコンポーネントやナビゲーションは操作可能です。"
+msgstr "**操作可能**- ユーザインターフェースのコンポーネントやナビゲーションは操作可能です。"
 
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:30
 msgid ""
 "**Understandable** - Information and the operation of the user interface "
 "must be understandable."
-msgstr " ** 理解しやすい ** - ユーザインターフェースの情報や操作方法は理解しやすさが求められます。"
+msgstr "**理解しやすい**- ユーザインターフェースの情報や操作方法は理解しやすさが求められます。"
 
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:32
 msgid ""
 "**Robust** - Content must be robust enough that it can be interpreted by a "
 "wide variety of user agents, including assistive technologies."
-msgstr ""
-" ** 堅牢 ** - コンテンツは幅広いユーザーエージェント、包括的な補助技術を含むものも含まれるなど、解釈できるほど堅牢でなければなりません。"
+msgstr "**堅牢**- コンテンツは幅広いユーザーエージェント、包括的な補助技術を含むものも含まれるなど、解釈できるほど堅牢でなければなりません。"
 
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:36
 msgid "Principle 1 – Perceivable"
@@ -170,7 +174,7 @@ msgstr ""
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:134
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:149
 msgid "**FTC Docs To Do**"
-msgstr " ** FTCドキュメント作業中 ** "
+msgstr "**FTCドキュメント作業中**"
 
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:63
 msgid ""
@@ -298,10 +302,10 @@ msgid ""
 "Ideally all Persona pages should link to FTC Docs pages, some of which might"
 " be Gateway Pages to the main *FIRST* site."
 msgstr ""
-"私は、リンクがFTC Docsのページだと考えていたのに実際にはPDFや *FIRST* "
-"Inspiresのウェブページに飛ばされることがいくつかありました。これはPersonasページでよく起こります。グリッドボタンリンクは時々ftc-"
+"私は、リンクがFTC "
+"Docsのページだと考えていたのに実際にはPDFや*FIRST*Inspiresのウェブページに飛ばされることがいくつかありました。これはPersonasページでよく起こります。グリッドボタンリンクは時々ftc-"
 "docsのページに飛ぶことがありますがあまりにも頻繁に別のサイトに飛ばされ、警告もありません。理想としてはすべてのPersonasページはFTC "
-"Docsのページにリンクすべきで、そのうちいくつかは *FIRST* サイトへのゲートウェイページとなるべきです。"
+"Docsのページにリンクすべきで、そのうちいくつかは*FIRST*サイトへのゲートウェイページとなるべきです。"
 
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:110
 msgid ""

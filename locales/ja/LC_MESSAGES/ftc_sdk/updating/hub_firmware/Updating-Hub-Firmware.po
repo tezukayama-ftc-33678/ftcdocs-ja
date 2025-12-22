@@ -30,7 +30,7 @@ msgid ""
 " Hub and the REV Control Hub in order for the :doc:`Software Development Kit"
 " (SDK) </ftc_sdk/overview/index>` to perform correctly."
 msgstr ""
-"ファームウェアは、デバイスの回路板や電子 ** ハードウェア ** を制御する低レベルソフトウェアです。これが必要な場合、REV "
+"ファームウェアは、デバイスの回路板や電子**ハードウェア**を制御する低レベルソフトウェアです。これが必要な場合、REV "
 "エク(strpos)ansion ハブと REV Control Hub に時々アップデートが必要で、:doc:`Software "
 "Development Kit (SDK) </ftc_sdk/overview/index>` の正常動作が保証されます。"
 
@@ -141,7 +141,11 @@ msgid ""
 " RC phone, with no intermediate Control Hub or other (primary) Expansion "
 "Hub. After updating you can return that Hub to its secondary position, if "
 "needed."
-msgstr "REV コントロールハブの場合は、12V ロボット電源を適用してください。REV エクスパンションハブの場合は、直接 Robot Controller（RC）スマホに接続し、RC アプリを開き、 ** その後 ** 12V 電源を適用してください。更新が必要なエクスパンションハブは、 ** 直接 ** RC スマホに接続する必要があります。中継コントロールハブやその他の（主要）エクスパンションハブは使用しないでください。更新が完了したら、必要であればそのハブを二次的な位置に戻すことができます。"
+msgstr ""
+"REV コントロールハブの場合は、12V ロボット電源を適用してください。REV エクスパンションハブの場合は、直接 Robot "
+"Controller（RC）スマホに接続し、RC アプリを開き、**その後**12V "
+"電源を適用してください。更新が必要なエクスパンションハブは、**直接**RC "
+"スマホに接続する必要があります。中継コントロールハブやその他の（主要）エクスパンションハブは使用しないでください。更新が完了したら、必要であればそのハブを二次的な位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:69
 msgid ""
@@ -204,21 +208,26 @@ msgid ""
 "This method is **exactly the same** as Method #2 immediately above, since "
 "the DS app was simply providing a portal or window to the RC app."
 msgstr ""
-"このメソッドは、DSアプリケーションが単にRCアプリケーションへの窓やポートルを提供しただけであるため、 ** 完全に同じ ** ものと一致します。"
+"このメソッドは、DSアプリケーションが単にRCアプリケーションへの窓やポートルを提供しただけであるため、**完全に同じ**ものと一致します。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:104
 msgid ""
 "It’s listed separately here, because it applies only to **Expansion Hub**, "
 "not Control Hub – which doesn’t use an RC phone. In other words, users do "
 "not normally interface directly with the RC app on a Control Hub."
-msgstr "別途ここに記載しているのは、これは ** Expansion Hub ** のみに適用され、Control Hubには適用されないためです。Control HubではRCスマホを使用していないからです。つまり、ユーザーは通常、Control Hub上のRCアプリと直接 interfacing しないことになります。"
+msgstr ""
+"別途ここに記載しているのは、これは**Expansion Hub**のみに適用され、Control Hubには適用されないためです。Control "
+"HubではRCスマホを使用していないからです。つまり、ユーザーは通常、Control Hub上のRCアプリと直接 interfacing "
+"しないことになります。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:109
 msgid ""
 "Again, the Expansion Hub must be plugged **directly** into an RC phone, with"
 " no intermediate (primary) Expansion Hub. After updating you can return that"
 " Hub to its secondary position, if needed."
-msgstr "また、Expansion HubはRCスマホに ** 直接 ** 接続する必要があります。中間（プライマリ）Expansion Hubを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
+msgstr ""
+"また、Expansion HubはRCスマホに**直接**接続する必要があります。中間（プライマリ）Expansion "
+"Hubを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 4 - Manage page on computer"
@@ -228,7 +237,8 @@ msgstr "メソッド 4 - コンピュータ上の管理ページ"
 msgid ""
 "Connect the computer via Wi-Fi to the Control Hub or RC phone. In the Chrome"
 " browser, open the Manage interface."
-msgstr "コンピュータをWi-Fi経由でコントロールハブやRCスマホに接続します。Google ドライバーのブラウザで管理インターフェースを開きます。"
+msgstr ""
+"コンピュータをWi-Fi経由でコントロールハブやRCスマホに接続します。Google ドライバーのブラウザで管理インターフェースを開きます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:118
 msgid "Click on the Manage tab, scroll down to Update REV Hub Firmware."
@@ -252,7 +262,9 @@ msgid ""
 "As part of the update process, that selected firmware file will be stored on"
 " the Control Hub or RC phone, in a subfolder called FIRST/updates/Expansion "
 "Hub Firmware."
-msgstr "アップデートプロセスの一部として、選択したファームウェアファイルは、Control HubやRCスマホにFIRST/updates/Expansion Hubファームウェアというサブフォルダに保存されます。"
+msgstr ""
+"アップデートプロセスの一部として、選択したファームウェアファイルは、Control HubやRCスマホにFIRST/updates/Expansion "
+"Hubファームウェアというサブフォルダに保存されます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:140
 msgid ""
@@ -282,7 +294,9 @@ msgstr "メソッド5 - ドライバーステーションデバイス（DSスマ
 msgid ""
 "Connect the DS app to the Control Hub or RC phone, from the DS app’s "
 "Settings menu (never with the Android device Wi-Fi settings)."
-msgstr "DSアプリをコントロールハブやRCスマホに接続し、DSアプリの設定メニューから接続してください（AndroidデバイスのWi-Fi設定経由では絶対に接続しないでください）。"
+msgstr ""
+"DSアプリをコントロールハブやRCスマホに接続し、DSアプリの設定メニューから接続してください（AndroidデバイスのWi-"
+"Fi設定経由では絶対に接続しないでください）。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:161
 msgid ""
@@ -317,7 +331,7 @@ msgstr "「Update to…」という灰色のボックスが最新のファーム
 msgid ""
 "If not, you can transfer the desired firmware file to the **Driver Station "
 "device**."
-msgstr "もしできなければ、望むファームウェアファイルを ** ドライバーステーションデバイス ** に転送できます。"
+msgstr "もしできなければ、望むファームウェアファイルを**ドライバーステーションデバイス**に転送できます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:182
 msgid ""

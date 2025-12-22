@@ -56,7 +56,7 @@ msgid ""
 " to 250, with **higher** values focusing on **closer** objects."
 msgstr ""
 "距離単位はここでは指定されていません；許容範囲内の未次元値である可能性があります。例えば、Logitech C920 では 0 から 250 "
-"の値を許容し、 ** 高い ** 値は ** 近い ** オブジェクトに焦点を当てます。"
+"の値を許容し、**高い**値は**近い**オブジェクトに焦点を当てます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:19
 msgid ""
@@ -78,8 +78,7 @@ msgid ""
 "coded in the webcam’s firmware. Note that firmware settings may vary among "
 "different versions of the same webcam model."
 msgstr ""
-"最小焦点距離と最大焦点距離には ``set()`` "
-"メソッドがありません；これらはウェブカムのファームウェアでハードコーディングされています。ファームウェア設定は、同じモデルの異なるバージョン間で異なる場合があります。"
+"最小焦点距離と最大焦点距離には``set()``メソッドがありません；これらはウェブカムのファームウェアでハードコーディングされています。ファームウェア設定は、同じモデルの異なるバージョン間で異なる場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/control/control.rst:29
 msgid ""

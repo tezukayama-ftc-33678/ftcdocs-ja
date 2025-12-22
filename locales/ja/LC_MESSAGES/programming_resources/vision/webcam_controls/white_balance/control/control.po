@@ -41,7 +41,7 @@ msgid ""
 "temperature** in the image. Color temperature is measured in units of "
 "degrees Kelvin (K) and is a physical property of light."
 msgstr ""
-"ホワイトバランスは、デジタルカメラの設定で、画像内の ** 色温度 ** を調整します。色温度はケルビン（K）という単位で測定され、光の物理的な性質です。"
+"ホワイトバランスは、デジタルカメラの設定で、画像内の**色温度**を調整します。色温度はケルビン（K）という単位で測定され、光の物理的な性質です。"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:13
 msgid ""
@@ -96,8 +96,7 @@ msgid ""
 " hard-coded in the webcam’s firmware. Note that firmware settings may vary "
 "among different versions of the same webcam model."
 msgstr ""
-"最小および最大温度値には ``set()`` "
-"メソッドがありません；これらはウェブカムのファームウェアでハードコーディングされています。なお、同じモデルのウェブカムのバージョンによってファームウェア設定は異なる場合があります。"
+"最小および最大温度値には``set()``メソッドがありません；これらはウェブカムのファームウェアでハードコーディングされています。なお、同じモデルのウェブカムのバージョンによってファームウェア設定は異なる場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/white_balance/control/control.rst:39
 msgid ""

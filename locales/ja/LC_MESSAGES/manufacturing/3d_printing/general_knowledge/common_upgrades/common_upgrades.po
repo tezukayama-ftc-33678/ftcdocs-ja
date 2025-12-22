@@ -92,15 +92,15 @@ msgstr ""
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:49
 msgid "**Low End:** E3D V6, All-Metal Microswiss Hotend."
-msgstr " ** 低スペック: ** E3D V6、アルミ製マイクロスイスホットエンド。"
+msgstr "**低スペック:**E3D V6、アルミ製マイクロスイスホットエンド。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:51
 msgid "**Mid Range:** Phaetus Dragonfly, Creality Spider."
-msgstr " ** 中距離帯: ** フヘタスドラゴンフライ, キレアリティスパイダー。"
+msgstr "**中距離帯:**フヘタスドラゴンフライ, キレアリティスパイダー。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:53
 msgid "**High End:** Phaetus Dragon HF, Slice Engineering Mosquito, E3D Revo."
-msgstr " ** 高機能: ** Phaetus Dragon HF、Slice Engineering Mosquito、E3D Revo。"
+msgstr "**高機能:**Phaetus Dragon HF、Slice Engineering Mosquito、E3D Revo。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:55
 msgid ""
@@ -109,8 +109,7 @@ msgid ""
 " very high price point. These include the Mosquito Magnum, Phaetus Dragon "
 "UHF, the Goliath, and the Nova."
 msgstr ""
-" ** スピードプリント/エンジニアリング: ** "
-"これらのホットエンドは軽々と取り組めるものではありません。通常、カスタムマウントを設計する必要があり、また非常に高価な傾向があります。これらにはミソキートマグナム、フェタスドラゴンUHF、ゴリアッス、ノヴァが含まれます。"
+"**スピードプリント/エンジニアリング:**これらのホットエンドは軽々と取り組めるものではありません。通常、カスタムマウントを設計する必要があり、また非常に高価な傾向があります。これらにはミソキートマグナム、フェタスドラゴンUHF、ゴリアッス、ノヴァが含まれます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:63
 msgid "3 pictured hotends that are example upgrades."
@@ -128,8 +127,8 @@ msgid ""
 "section to melt faster, and resulting in a considerably higher flow rate of "
 "plastic."
 msgstr ""
-"FIRST Tech Challenge（FTC）で熱 Extruder の流量を増やす迅速な方法は、新しい Extruder を購入せずに ** CHT"
-" Nozzle ** を購入して利用することです。これらのノズルは filament の流れを 3 "
+"FIRST Tech Challenge（FTC）で熱 Extruder の流量を増やす迅速な方法は、新しい Extruder を購入せずに**CHT "
+"Nozzle**を購入して利用することです。これらのノズルは filament の流れを 3 "
 "部に分割し、それぞれのセクションがより早く溶け出すようにすることで、プラスチックの流量を大幅に向上させることができます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:78
@@ -223,7 +222,10 @@ msgid ""
 " to check) you should research **Octoprint** setup guides. If you are using "
 "a printer with the **Klipper** firmware, you should research **Fluidd** and "
 "**Mainsail** setup guides."
-msgstr "ネットワーク機能は3Dプリンティングにおいて頻繁に使用されており、多くのインターフェースが遠隔地からプリンターと交互する方法を提供します。そのため、あなたが場所にいないときでも印刷の開始・停止や監視を行うことができます。多くの企業では、新しいプリンターにはこの機能が標準で搭載されるようになってきていますが、ネットワーク機能がないプリンターを使用している場合でも、Raspberry Piや古いAndroid携帯スマホなどの装置を使って、さまざまなオンラインガイドを用いて簡単にこの機能を利用できます。 ** Marlin ** ファームウェアを使用しているプリンター（プリンターのドキュメンテーションや販売掲示を確認することで確認できます）の場合には、 ** Octoprint ** のセットアップガイドについて調査するべきです。 ** Klipper ** ファームウェアを使用しているプリンターの場合には、 ** Fluidd ** および  ** Mainsail ** のセットアップガイドについて調査するべきです。"
+msgstr ""
+"ネットワーク機能は3Dプリンティングにおいて頻繁に使用されており、多くのインターフェースが遠隔地からプリンターと交互する方法を提供します。そのため、あなたが場所にいないときでも印刷の開始・停止や監視を行うことができます。多くの企業では、新しいプリンターにはこの機能が標準で搭載されるようになってきていますが、ネットワーク機能がないプリンターを使用している場合でも、Raspberry"
+" "
+"Piや古いAndroid携帯スマホなどの装置を使って、さまざまなオンラインガイドを用いて簡単にこの機能を利用できます。**Marlin**ファームウェアを使用しているプリンター（プリンターのドキュメンテーションや販売掲示を確認することで確認できます）の場合には、**Octoprint**のセットアップガイドについて調査するべきです。**Klipper**ファームウェアを使用しているプリンターの場合には、**Fluidd**および**Mainsail**のセットアップガイドについて調査するべきです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:135
 msgid "A picture of a prusa being controlled by an octoprint dash panel."
@@ -272,7 +274,7 @@ msgid ""
 "with air flow simulation."
 msgstr ""
 "熱処理装置および部品冷却は、部品の品質と詰まり問題を防止するために重要です。テクノロジーセクションで説明した通り、PLAを高速で印刷するためには、冷却ファンをより大きなものにアップグレードすることをお勧めします。標準的な冷却から5015や4020のファンに変更することで、多くの場合に対応できます。これらのファンは、プリンターモデルと希望するファンサイズを検索すれば多数の取り付け金具が見つかります（ファンサイズは幅×奥行きで表され、5015の場合には直径50mmで厚さ15mmの円形です）。科学的な裏付けのある冷却性能向上を目指すなら、Voron"
-" Designの ** AB-BN ** または ** Stealthburner ** プロジェクトをチェックしてみてください。これらの冷却システムは完全に "
+" Designの**AB-BN**または**Stealthburner**プロジェクトをチェックしてみてください。これらの冷却システムは完全に "
 "airflow シミュレーションに基づいて設計されています。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:171

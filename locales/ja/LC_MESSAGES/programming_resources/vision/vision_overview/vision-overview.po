@@ -74,7 +74,7 @@ msgid ""
 "feature in the *FIRST* Tech Challenge SDK that provides the ability to "
 "process colors using `OpenCV <https://opencv.org/>`__."
 msgstr ""
-"色処理 - :doc:`色処理 </color_processing/index>` は、 *FIRST* Tech Challenge SDK "
+"色処理 - :doc:`色処理 </color_processing/index>` は、*FIRST*Tech Challenge SDK "
 "の機能で、`OpenCV <https://opencv.org/>`__ を使用して色を処理することができる。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:31
@@ -175,7 +175,7 @@ msgstr "物体が異なる位置に配置されている場合でも認識しま
 msgid ""
 "Pre-defined colors are included in the *FIRST* Tech Challenge SDK that have "
 "already been tested on season-specific game elements."
-msgstr "事前に定義された色は、シーズンごとのゲーム要素で既にテストが行われた *FIRST* Tech Challenge SDKに含まれています。"
+msgstr "事前に定義された色は、シーズンごとのゲーム要素で既にテストが行われた*FIRST*Tech Challenge SDKに含まれています。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:89
 msgid "Color Processing Disadvantages"

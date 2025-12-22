@@ -50,7 +50,7 @@ msgstr "ExposureControl.Mode._mode_ のモードがサポートされている�
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:17
 msgid "for *mode*, enter the specific mode name you are testing"
-msgstr "モード * の場合、テストしている特定のモード名を入力してください *"
+msgstr "モード*の場合、テストしている特定のモード名を入力してください*"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:19
 msgid ""
@@ -201,7 +201,7 @@ msgstr "``wasZoomSet = setZoom(3)``"
 msgid ""
 "For PTZ get() methods, some webcams simply **return zero** for unsupported "
 "values."
-msgstr "PTZのget()メソッドでは、一部のウェブカムはサポートされていない値に対して単に ** ゼロを返す ** 場合があります。"
+msgstr "PTZのget()メソッドでは、一部のウェブカムはサポートされていない値に対して単に**ゼロを返す**場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:93
 msgid "Some Caveats"
@@ -247,13 +247,13 @@ msgstr "与えられた露出値に対して、異なるモードのプレビュ
 msgid ""
 "some webcams **accept** / ``set()`` and **confirm** / ``get()`` a **non-"
 "supported mode**"
-msgstr "一部のウェブカムは、非対応モードに対して ** 受け入れる ** /``set()``と ** 確認する ** /``get()``を ** 許可します ** "
+msgstr "一部のウェブカムは、非対応モードに対して**受け入れる**/``set()``と**確認する**/``get()``を**許可します**"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:112
 msgid ""
 "Logitech C270 preview becomes **lighter** up to exposure 655, then rolls "
 "over to **dark** at 656"
-msgstr "ロジテックC270のプレビューは露出度655まで ** 明るく ** なり、656から ** 暗くなります ** 。"
+msgstr "ロジテックC270のプレビューは露出度655まで**明るく**なり、656から**暗くなります**。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:115
 msgid "this webcam’s Min is 0, Max is 1000."
@@ -263,15 +263,13 @@ msgstr "このウェブカメラのMinは0、Maxは1000です。"
 msgid ""
 "Logitech V-UAX16 preview looks normal at exposure = 0, becomes **darker** up"
 " to 30-40"
-msgstr "ロジテック V-UAX16 のプレビューは露出量が 0 のときは正常に表示されますが、30〜40まで増加すると ** 暗くなります ** 。"
+msgstr "ロジテック V-UAX16 のプレビューは露出量が 0 のときは正常に表示されますが、30〜40まで増加すると**暗くなります**。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:119
 msgid ""
 "Logitech C920 **gain** value (0-255) greatly influences preview quality, "
 "comparable to **exposure** (0-204)"
-msgstr ""
-"Logitech C920 の ** gain ** 値（0-255）はプレビュー品質に大きく影響を与え、 ** 露出 ** （0-204）と比較できる"
-""
+msgstr "Logitech C920 の**gain**値（0-255）はプレビュー品質に大きく影響を与え、**露出**（0-204）と比較できる"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:121
 msgid ""

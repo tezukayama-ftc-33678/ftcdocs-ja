@@ -32,8 +32,8 @@ msgid ""
 "Only complete these steps if you have chosen to develop the site locally. If"
 " you are using **GitHub Codespaces** you should skip this section."
 msgstr ""
-"ローカルでサイトを開発することを選択した場合のみこれらの手順を完了してください。 ** GitHub "
-"Codespaces ** を使用している場合は、このセクションをスキップしてください。"
+"ローカルでサイトを開発することを選択した場合のみこれらの手順を完了してください。**GitHub "
+"Codespaces**を使用している場合は、このセクションをスキップしてください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:10
 msgid ""
@@ -50,8 +50,8 @@ msgid ""
 " using **GitHub Codespaces** you should skip this step. Also note that these"
 " steps should only be done **once**."
 msgstr ""
-"覚えておいてください、この手順は ** ローカル開発用にのみ実行する ** べきです。 ** GitHub "
-"Codespaces ** を使用している場合は、この手順をスキップしてください。また、これらの手順は ** 一度だけ ** 実行すべきです。"
+"覚えておいてください、この手順は**ローカル開発用にのみ実行する**べきです。**GitHub "
+"Codespaces**を使用している場合は、この手順をスキップしてください。また、これらの手順は**一度だけ**実行すべきです。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:18
 msgid "Steps"
@@ -79,7 +79,6 @@ msgstr "Windows"
 msgid "Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_."
 msgstr ""
 "Install `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_."
-""
 
 #: ../../source/contrib/tutorials/setup/setup.rst:27
 msgid ""
@@ -261,7 +260,7 @@ msgstr "構築が完了すると、ターミナルウィンドウに「構築成
 #: ../../source/contrib/tutorials/setup/setup.rst:106
 msgid ""
 "You can now click on the url ``http://127.0.0.1:7350`` to view the site."
-msgstr "現在、サイトを表示するには、URL ``http://127.0.0.1:7350`` をクリックしてください。"
+msgstr "現在、サイトを表示するには、URL``http://127.0.0.1:7350``をクリックしてください。"
 
 #: ../../source/contrib/tutorials/setup/setup.rst:-1
 msgid "Build Succeeded"
