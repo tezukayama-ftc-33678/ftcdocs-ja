@@ -14,11 +14,13 @@ Forks vs. Clones
 
 A `Fork <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fork>`_ on GitHub is a copy of another `repository <https://docs.github.com/en/get-started/learning-about-github/github-glossary#repository>`_ on GitHub from one account
 to another account. The new forked repository retains a parent-child
-relationship with the `origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`_ repository. Forks are typically used when software
-will have an independent line of development, such as when FTC teams develop
+relationship with the `origin <https://docs.github.com/en/get-started/learning-about-github/github-glossary#origin>`_ repository.
+
+Forks are typically used when software will have an independent line of development, such as when FTC teams develop
 their own team code using the `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_
-repository as a basis.  FTC teams should create a Fork of the
-`FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository as a convenient way to
+repository as a basis.
+
+FTC teams should create a Fork of the `FIRST-Tech-Challenge/FtcRobotController <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`_ repository as a convenient way to
 manage their software development process. Thanks to the parent-child
 relationship, when changes are made to the parent repository those changes can
 be easily tracked and `fetched <https://docs.github.com/en/get-started/learning-about-github/github-glossary#fetch>`_/`merged <https://docs.github.com/en/get-started/learning-about-github/github-glossary#merge>`_ into the forked repository, keeping the
