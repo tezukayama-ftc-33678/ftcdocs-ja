@@ -148,7 +148,7 @@ python tools/quality/translation_quality_checker.py --check
 python tools/quality/translation_quality_checker.py --report
 
 # 3. HTMLレポートを開いて問題を確認
-# ブラウザで data/quality_reports/質report_*.html を開く
+# ブラウザで data/quality_reports/quality_report_*.html を開く
 
 # 4. 自動修正可能な問題を修正
 python tools/quality/translation_quality_checker.py --fix

@@ -46,6 +46,14 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent
 LOCALES_DIR = PROJECT_ROOT / "locales" / "ja" / "LC_MESSAGES"
 OUTPUT_DIR = PROJECT_ROOT / "data" / "quality_reports"
 
+# デフォルト設定
+DEFAULT_LLM_MODEL = 'qwen2.5:7b-instruct-q5_K_M'
+
+# Pre-compiled regex patterns for performance
+REGEX_BOLD_SPACING = re.compile(r'\*\*\s+\w|\w\s+\*\*')
+REGEX_ITALIC_SPACING = re.compile(r'(?<!\*)\*\s+\w|\w\s+\*(?!\*)')
+REGEX_CODE_SPACING = re.compile(r'``\s+\w|\w\s+``')
+
 
 @dataclass
 class TranslationIssue:
@@ -65,9 +73,10 @@ class TranslationIssue:
 class TranslationQualityChecker:
     """翻訳品質チェッカー"""
     
-    def __init__(self, use_llm: bool = False, verbose: bool = False):
+    def __init__(self, use_llm: bool = False, verbose: bool = False, llm_model: str = DEFAULT_LLM_MODEL):
         self.use_llm = use_llm and OLLAMA_AVAILABLE
         self.verbose = verbose
+        self.llm_model = llm_model
         self.issues: List[TranslationIssue] = []
         self.stats = {
             'total_files': 0,
@@ -141,7 +150,7 @@ class TranslationQualityChecker:
         
         # アスタリスクのスペーシング問題
         # 誤: ** 太字 **  正: **太字**
-        if re.search(r'\*\*\s+\w', msgstr) or re.search(r'\w\s+\*\*', msgstr):
+        if REGEX_BOLD_SPACING.search(msgstr):
             issue = TranslationIssue(
                 po_file=str(po_path.relative_to(PROJECT_ROOT)),
                 entry_id=f"{entry.msgid[:50]}...",
@@ -160,7 +169,7 @@ class TranslationQualityChecker:
         
         # イタリック体のスペーシング問題
         # 誤: * イタリック *  正: *イタリック*
-        if re.search(r'(?<!\*)\*\s+\w', msgstr) or re.search(r'\w\s+\*(?!\*)', msgstr):
+        if REGEX_ITALIC_SPACING.search(msgstr):
             issue = TranslationIssue(
                 po_file=str(po_path.relative_to(PROJECT_ROOT)),
                 entry_id=f"{entry.msgid[:50]}...",
@@ -179,7 +188,7 @@ class TranslationQualityChecker:
         
         # バッククオートのスペーシング問題
         # 誤: `` コード ``  正: ``コード``
-        if re.search(r'``\s+\w', msgstr) or re.search(r'\w\s+``', msgstr):
+        if REGEX_CODE_SPACING.search(msgstr):
             issue = TranslationIssue(
                 po_file=str(po_path.relative_to(PROJECT_ROOT)),
                 entry_id=f"{entry.msgid[:50]}...",
@@ -324,7 +333,7 @@ class TranslationQualityChecker:
         
         try:
             response = ollama.chat(
-                model='qwen2.5:7b-instruct-q5_K_M',
+                model=self.llm_model,
                 messages=[{'role': 'user', 'content': prompt}]
             )
             return response['message']['content'].strip()
@@ -371,9 +380,11 @@ class TranslationQualityChecker:
                 po = polib.pofile(str(po_path))
                 
                 for issue in issues:
-                    # エントリーを探して修正
+                    # エントリーを探して修正 (行番号とmsgidで識別)
                     for entry in po:
-                        if entry.msgid == issue.msgid and entry.msgstr == issue.msgstr:
+                        if (entry.linenum == issue.line_number and 
+                            entry.msgid == issue.msgid and 
+                            entry.msgstr == issue.msgstr):
                             entry.msgstr = issue.suggested_fix
                             fixed_count += 1
                             self.log(f"Fixed: {po_path.name} line {issue.line_number}")
@@ -869,6 +880,12 @@ def main():
         help='ローカルLLM (Ollama) を使用して修正案を提案'
     )
     parser.add_argument(
+        '--llm-model',
+        type=str,
+        default=DEFAULT_LLM_MODEL,
+        help=f'使用するLLMモデル (デフォルト: {DEFAULT_LLM_MODEL})'
+    )
+    parser.add_argument(
         '--verbose',
         '-v',
         action='store_true',
@@ -884,7 +901,8 @@ def main():
     # チェッカーを初期化
     checker = TranslationQualityChecker(
         use_llm=args.use_llm,
-        verbose=args.verbose
+        verbose=args.verbose,
+        llm_model=args.llm_model
     )
     
     # チェック実行
