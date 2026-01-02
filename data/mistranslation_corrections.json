@@ -1,0 +1,44 @@
+{
+  "corrections": [
+    {
+      "mistranslation": "アプルタグ",
+      "correct": "AprilTag",
+      "description": "AprilTag should remain in English"
+    },
+    {
+      "mistranslation": "アプルタグの値を理解する",
+      "correct": "Understanding AprilTag Values",
+      "description": "Keep AprilTag in English, this is a title"
+    },
+    {
+      "mistranslation": "アプルタグローカライゼーション",
+      "correct": "AprilTag Localization",
+      "description": "Keep AprilTag in English"
+    },
+    {
+      "mistranslation": "アプルタグテスト画像",
+      "correct": "AprilTag Test Images",
+      "description": "Keep AprilTag in English"
+    },
+    {
+      "mistranslation": "アプルタグプログラミング",
+      "correct": "AprilTag Programming",
+      "description": "Keep AprilTag in English"
+    },
+    {
+      "mistranslation": "アプルタグ紹介",
+      "correct": "AprilTag Introduction",
+      "description": "Keep AprilTag in English, this is a title"
+    },
+    {
+      "mistranslation": "AprilTagを使用したプログラミングに関するトピック",
+      "correct": "Topics for programming with AprilTags",
+      "description": "Restore original English"
+    },
+    {
+      "mistranslation": "ホブ",
+      "correct": "hub",
+      "description": "hub should remain in English"
+    }
+  ]
+}

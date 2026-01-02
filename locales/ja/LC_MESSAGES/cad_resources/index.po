@@ -43,7 +43,6 @@ msgid ""
 "free access to \"premium\" CAD software to *FIRST* teams."
 msgstr ""
 "コンピュータ支援設計（CAD）ソフトウェア `<https://en.wikipedia.org/wiki/Computer-aided_design>`__ と3次元アニメーションソフトウェアは、チームが製造前に複雑なシステムを設計および可視化するためにFIRST Tech Challengeで使用されています。CAD用のソフトウェアオプションは多くあり、すべてを一覧にすることは不可能です。一部のソフトウェアは無料で提供され、一部は有料で提供され、また一部にはサブスクリプションが必要です。ただし、多くの組織は「プレミアム」CADソフトウェアへの無料アクセスを *FIRST* チームに提供しています。"
-""
 
 #: ../../source/cad_resources/index.rst:17
 msgid ""
@@ -68,7 +67,7 @@ msgstr "初心者向けソフトウェア"
 
 #: ../../source/cad_resources/index.rst:27
 msgid "`Autodesk TinkerCAD <https://www.tinkercad.com/>`__ (free) (Web)"
-msgstr "`Autodesk TinkerCAD <https://www.tinkercad.com/>`__（無料）（ウェブ）``"
+msgstr "`Autodesk TinkerCAD <https://www.tinkercad.com/>`__ (無料) (Web)"
 
 #: ../../source/cad_resources/index.rst:29
 msgid "Software for Intermediate Users"
@@ -78,26 +77,25 @@ msgstr "中級ユーザー用ソフトウェア"
 msgid ""
 ":doc:`PTC Onshape <ptc/ptc>` (Free to *FIRST* teams) (Web, iOS, iPadOS, "
 "Android)"
-msgstr ":doc:`PTC Onshape <ptc/ptc>`（FIRSTチーム無料）（Web、iOS、iPadOS、Android）"
+msgstr ":doc:`PTC Onshape <ptc/ptc>` (FIRSTチーム無料) (Web, iOS, iPadOS, Android)"
 
 #: ../../source/cad_resources/index.rst:32
 msgid ""
 ":doc:`Autodesk Fusion 360 <autodesk/autodesk>` (Free to *FIRST* teams) "
 "(Windows, macOS, Web)"
 msgstr ""
-":doc:`Autodesk Fusion 360 <autodesk/autodesk>` "
-"（FIRSTチーム向けに無料）（Windows、macOS、Web）"
+":doc:`Autodesk Fusion 360 <autodesk/autodesk>` (FIRSTチーム向けに無料) (Windows, macOS, Web)"
 
 #: ../../source/cad_resources/index.rst:33
 msgid ""
 ":doc:`Dassault Systemes 3DEXPERIENCE <solidworks/solidworks>` (Free to "
 "*FIRST* teams) (Web)"
 msgstr ""
-":doc:`ダシュー・システムズ 3DEXPERIENCE <solidworks/solidworks>` （FIRSTチーム向けに無料）（ウェブ）"
+":doc:`Dassault Systemes 3DEXPERIENCE <solidworks/solidworks>` (FIRSTチーム向けに無料) (Web)"
 
 #: ../../source/cad_resources/index.rst:34
 msgid "`FreeCAD <https://www.freecad.org/>`__ (free) (Windows, macOS, Linux)"
-msgstr "`FreeCAD <https://www.freecad.org/>`__（無料）(Windows, macOS, Linux)``"
+msgstr "`FreeCAD <https://www.freecad.org/>`__ (無料) (Windows, macOS, Linux)"
 
 #: ../../source/cad_resources/index.rst:36
 msgid "Software for Professional Users"
@@ -108,14 +106,14 @@ msgid ""
 ":doc:`Dassault Systèmes Solidworks <solidworks/solidworks>` (Free to *FIRST*"
 " teams) (Windows)"
 msgstr ""
-":doc:`ダルシーム・システムズ・ソリッドワークス <solidworks/solidworks>`（FIRSTチーム向けに無料）（Windows）"
+":doc:`Dassault Systèmes Solidworks <solidworks/solidworks>` (FIRSTチーム向けに無料) (Windows)"
 
 #: ../../source/cad_resources/index.rst:39
 msgid ""
 ":doc:`Autodesk Inventor <autodesk/autodesk>` (Free to *FIRST* teams) "
 "(Windows)"
-msgstr ":doc:`Autodesk Inventor <autodesk/autodesk>` （FIRSTチーム向けに無料）（Windows）"
+msgstr ":doc:`Autodesk Inventor <autodesk/autodesk>` (FIRSTチーム向けに無料) (Windows)"
 
 #: ../../source/cad_resources/index.rst:40
 msgid ":doc:`PTC Creo <ptc/ptc>` (Free to *FIRST* teams) (Windows)"
-msgstr ":doc:`PTC Creo <ptc/ptc>`（FIRSTチーム向けに無料）（Windows）"
+msgstr ":doc:`PTC Creo <ptc/ptc>` (FIRSTチーム向けに無料) (Windows)"

@@ -43,9 +43,12 @@ msgid ""
 "(SDK) has been updated to add AprilTag detection APIs to help teams make use"
 " of this resource."
 msgstr ""
-"2023-2024シーズン、`FIRST Tech ChallengeはAprilTags <https://ftc-docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-intro.html>`__ をシーズン独自の競技に導入しました。AprilTagsはミシガン大学のApril Robotics "
-"Laboratoryによって開発され、QRコードのような概念に基づく視覚的なフィドゥーシアルタグシステムで、拡張現実、ロボット工学、カメラ校正など様々な用途に有用です。適切に校正されたカメラとタグライブラリを使用することで、AprilTagsを検出でき、タグに対するレンジや向きなどの情報（またこれを ** ポーズ ** データといいます）を提供することができます。 * FIRST * "
-" Tech Challengeのソフトウェア開発キット（SDK）には、このリソースを活用するためのAprilTag検出APIが追加されています。"
+"2023-2024シーズン、`FIRST Tech ChallengeはAprilTags <https://ftc-"
+"docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
+"intro.html>`__ をシーズン独自の競技に導入しました。AprilTagsはミシガン大学のApril Robotics "
+"Laboratoryによって開発され、QRコードのような概念に基づく視覚的なフィドゥーシアルタグシステムで、拡張現実、ロボット工学、カメラ校正など様々な用途に有用です。適切に校正されたカメラとタグライブラリを使用することで、AprilTagsを検出でき、タグに対するレンジや向きなどの情報（またこれを"
+" ** ポーズ ** データといいます）を提供することができます。 * FIRST *  Tech "
+"Challengeのソフトウェア開発キット（SDK）には、このリソースを活用するためのAprilTag検出APIが追加されています。"
 
 #: ../../source/apriltag/opmode_test_images/opmode-test-images.rst:20
 msgid ""
@@ -66,9 +69,9 @@ msgstr ""
 "の例が含まれています。2023-2024シーズンで使用されるすべての AprilTag は、36h11 "
 "タグファミリーからなります。これは事前に決定されたタグのセットです。主要なタグエリアは、黒と白の * ピクセル * で構成された 8x8 "
 "の正方形マトリックスで構成されています。タグのサイズは、タグ全体の中の黒い部分の物理的な寸法に基づいて測定されます。4インチの AprilTag "
-"には、各辺が 4 インチの黒い四角形があります。ただし、サイズを測定する際には使用されません。各タグには、主要なタグエリアの周りに 1 * ピクセル *  "
-"厚さの白い枠が必要です（これにより、タグ全体のサイズは 10x10  * ピクセル * になります）。この追加された白い枠がある場合、例えば 4インチの "
-"AprilTag の面積は各辺が 5 インチになります。"
+"には、各辺が 4 インチの黒い四角形があります。ただし、サイズを測定する際には使用されません。各タグには、主要なタグエリアの周りに 1 * ピクセル *"
+"  厚さの白い枠が必要です（これにより、タグ全体のサイズは 10x10  * ピクセル * になります）。この追加された白い枠がある場合、例えば "
+"4インチの AprilTag の面積は各辺が 5 インチになります。"
 
 #: ../../source/apriltag/opmode_test_images/opmode-test-images.rst:39
 msgid "AprilTag Sizing"
@@ -97,8 +100,7 @@ msgstr " ** タグの説明 ** "
 
 #: ../../source/apriltag/opmode_test_images/opmode-test-images.rst:49
 msgid "**Size of Tag in Inches (millimeters)**"
-msgstr ""
-" ** インチ（ミリメートル）でのタグサイズ ** "
+msgstr " ** インチ（ミリメートル）でのタグサイズ ** "
 
 #: ../../source/apriltag/opmode_test_images/opmode-test-images.rst:52
 msgid "Tag ID: 583 (AKA “Nemo”)"
@@ -160,8 +162,9 @@ msgid ""
 ":download:`Download and print the official PDF "
 "<files/FTCAprilTagSDK82SamplesExtended.pdf>`"
 msgstr ""
-":ref:`AprilTag検出値の理解 "
-"<apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:AprilTag検出値の理解>` - :download:`公式PDFをダウンロードして印刷してください "
+":ref:`AprilTag検出値の理解<apriltag/understanding_apriltag_detection_values/understanding-"
+"apriltag-detection-values:understanding apriltag detection values>` - "
+":download:`公式PDFをダウンロードして印刷してください "
 "<files/FTCAprilTagSDK82SamplesExtended.pdf>`"
 
 #: ../../source/apriltag/opmode_test_images/opmode-test-images.rst:83
@@ -176,8 +179,9 @@ msgid ""
 "image. It is recommended to :download:`download and print the official PDF "
 "<files/FTCAprilTagSDK82SamplesExtended.pdf>`."
 msgstr ""
-"カメラでこれらのタグを認識するために向けることができます - ftc-docs では画像の拡張が許可されているため、表示エリアの幅が画像の幅未満の場合、画像は明確にかつ正確には表現されない可能性があります。"
-":download:`公式PDFをダウンロードし印刷してください <files/FTCAprilTagSDK82SamplesExtended.pdf>`。"
+"カメラでこれらのタグを認識するために向けることができます - ftc-docs "
+"では画像の拡張が許可されているため、表示エリアの幅が画像の幅未満の場合、画像は明確にかつ正確には表現されない可能性があります。:download:`公式PDFをダウンロードし印刷してください"
+" <files/FTCAprilTagSDK82SamplesExtended.pdf>`。"
 
 #: ../../source/apriltag/opmode_test_images/opmode-test-images.rst:96
 msgid "Tag583_nemo"

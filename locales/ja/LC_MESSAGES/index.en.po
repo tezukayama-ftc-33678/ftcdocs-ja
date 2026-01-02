@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) FIRST
+# This file is distributed under the same license as the FIRST Tech Challenge Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-02 22:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.en.rst:24
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: ../../source/index.en.rst:34 ../../source/index.en.rst:332
+msgid "Competition Manual"
+msgstr "コンペティションマニュアル"
+
+#: ../../source/index.en.rst:34
+msgid "Game Q&A System"
+msgstr "ゲームQ&Aシステム"
+
+#: ../../source/index.en.rst:34
+msgid "Field Coordinate System"
+msgstr "フィールド座標系"
+
+#: ../../source/index.en.rst:34
+msgid "Game and Season-Specific Resources"
+msgstr "ゲームと季節に特化したリソース"
+
+#: ../../source/index.en.rst:47
+msgid "Laptop Requirements"
+msgstr "ノートパソコンの要件"
+
+#: ../../source/index.en.rst:47
+msgid "SDK Overview"
+msgstr "SDK オーバービュー"
+
+#: ../../source/index.en.rst:47
+msgid "Updating Components"
+msgstr "コンポーネントの更新"
+
+#: ../../source/index.en.rst:47 ../../source/index.en.rst:266
+msgid "Software Development Kit (SDK)"
+msgstr "ソフトウェア開発キット（SDK）"
+
+#: ../../source/index.en.rst:56
+msgid "Robot Building Resources"
+msgstr "ロボット構築リソース"
+
+#: ../../source/index.en.rst:62
+msgid "Control System Resources"
+msgstr "制御システムリソース"
+
+#: ../../source/index.en.rst:74
+msgid "AprilTag Introduction"
+msgstr "AprilTag紹介"
+
+#: ../../source/index.en.rst:74
+msgid "VisionPortal Overview"
+msgstr "ビジョンポータルの概要"
+
+#: ../../source/index.en.rst:74
+msgid "Webcams for VisionPortal"
+msgstr "ビジョンポータル用のウェブカメラ"
+
+#: ../../source/index.en.rst:74
+msgid "Understanding AprilTag Values"
+msgstr ""
+"AprilTagの値を理解する\n"
+"AprilTagは、FTCで使用される特定のマークです。これらのマークは、ロボットの位置や方向を認識するために使用されます。AprilTagには、ID番号と向きの情報が含まれています。\n"
+"ID番号は、特定のAprilTagを識別するために使用されます。たと"
+
+#: ../../source/index.en.rst:74
+msgid "AprilTag Localization"
+msgstr "AprilTagローカライゼーション"
+
+#: ../../source/index.en.rst:74
+msgid "AprilTag Test Images"
+msgstr "AprilTagテスト画像"
+
+#: ../../source/index.en.rst:74
+msgid "AprilTag Resources"
+msgstr "AprilTagリソース"
+
+#: ../../source/index.en.rst:86
+msgid "Computer Aided Design (CAD)"
+msgstr "コンピュータ支援設計 (Kōpyuta shien sekaini)"
+
+#: ../../source/index.en.rst:86
+msgid "CAD Resources"
+msgstr "CADリソース"
+
+#: ../../source/index.en.rst:93
+msgid "Managing ESD Effects"
+msgstr ""
+"ESDの影響を管理する\n"
+"(ESD: Electromagnetic Static Discharge)"
+
+#: ../../source/index.en.rst:93
+msgid "Electrostatic Discharge"
+msgstr "電気静放電"
+
+#: ../../source/index.en.rst:100
+msgid "Manufacturing Methods"
+msgstr "製造方法"
+
+#: ../../source/index.en.rst:100
+msgid "Manufacturing"
+msgstr "製造"
+
+#: ../../source/index.en.rst:107
+msgid "Team Complimentary Software"
+msgstr "チーム補完ソフトウェア"
+
+#: ../../source/index.en.rst:107
+msgid "Team Discounts"
+msgstr "チーム割引"
+
+#: ../../source/index.en.rst:107
+msgid "Team Resources"
+msgstr "チームリソース"
+
+#: ../../source/index.en.rst:117
+msgid "Booklets"
+msgstr "ブックレット"
+
+#: ../../source/index.en.rst:117
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: ../../source/index.en.rst:117
+msgid "Site Feedback Form"
+msgstr "サイトフィードバックフォーム"
+
+#: ../../source/index.en.rst:117
+msgid "Contributing to FTC Docs"
+msgstr "FTC ドキュメンテーションへの貢献"
+
+#: ../../source/index.en.rst:117
+msgid "FTC Docs"
+msgstr "FTC ドキュメンテーション"
+
+#: ../../source/index.en.rst:-1
+msgid "FIRST Tech Challenge Documentation"
+msgstr "FIRST Tech Challenge ドキュメンテーション"
+
+#: ../../source/index.en.rst:-1
+msgid "The official home of FIRST Tech Challenge Documentation."
+msgstr "FIRST Tech Challenge ドキュメンテーションの公式ホーム。"
+
+#: ../../source/index.en.rst:-1
+msgid ""
+"FTC Control System, Blocks, OnBot Java, Android Studio, OpenCV, EasyOpenCV, "
+"AprilTags, FTC SDK, Robot Controller App, Driver Station App, Control Hub, "
+"Driver Hub, IMU, Water Game"
+msgstr ""
+"FTC コントロールシステム、ブロック、OnBot Java、Android "
+"Studio、OpenCV、EasyOpenCV、AprilTags、FTC "
+"SDK、ロボットコントローラアプリ、ドライバーステーションアプリ、Control Hub、Driver Hub、IMU、Water Game"
+
+#: ../../source/index.en.rst:7
+msgid "*FIRST* Tech Challenge documentation"
+msgstr "*FIRST* FTC ドキュメンテーション"
+
+#: ../../source/index.en.rst:9
+msgid ""
+"Welcome to the *FIRST®* Tech Challenge Documentation! This website contains "
+"everything you need to know to create a competition robot! There is "
+"information and tutorials on how to use the *FIRST* Tech Challenge software "
+"and robot control system. There is also information for coaches and mentors."
+msgstr ""
+"FIRST® テックチャレンジ "
+"ドキュメンテーションへようこそ！このウェブサイトには、コンペティション用ロボットを作るために必要なすべての情報とチュートリアルが含まれています。FIRST"
+" Tech Challengeソフトウェアとロボットコントロールシステムを使用する方法についての情報と、コーチやメンター向けの情報も含まれています。"
+
+#: ../../source/index.en.rst:13
+msgid ""
+"*FIRST* Tech Challenge is a robotics program for middle and high school "
+"students. It’s way more than building robots, see :doc:`About the FIRST Tech"
+" Challenge <overview/ftcoverview>` and :doc:`gracious_professionalism/gp` to"
+" see why."
+msgstr ""
+"FIRST Tech Challenge は中学生と高校生向けのロボットプログラムです。ただロボットを作るだけではありません。なぜなら、 "
+":doc:`About the FIRST Tech Challenge <overview/ftcoverview>` と "
+":doc:`gracious_professionalism/gp` を見てください。"
+
+#: ../../source/index.en.rst:129
+msgid "**I am a...**"
+msgstr "** 私は...**"
+
+#: ../../source/index.en.rst:131
+msgid ""
+":doc:`New Team <persona_pages/rookie_teams/rookie_teams>` New Teams may not "
+"know where to start. This is the way!"
+msgstr "新チームの方々はどこから始めたらよいのかわからないかもしれません。これが正しい方法です！"
+
+#: ../../source/index.en.rst:133
+msgid ""
+":doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` Returning "
+"Teams looking for resources can look here."
+msgstr ""
+":doc:`Returning Team <persona_pages/veteran_teams/veteran_teams>` "
+"以前のチームがリソースを探している場合、ここにいます。"
+
+#: ../../source/index.en.rst:135
+msgid ""
+":doc:`Coach <persona_pages/coach_admin/coach_admin>` Coaches looking for "
+"help or Team Administrative Resources can look here."
+msgstr ""
+":doc:`Coach <persona_pages/coach_admin/coach_admin>` "
+"コーチの方々、助けが必要またはチーム管理リソースを探している場合は、ここにあります。"
+
+#: ../../source/index.en.rst:137
+msgid ""
+":doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` Technical Mentors "
+"looking for Technical Resources should look here first!"
+msgstr ""
+":doc:`Mentor <persona_pages/mentor_tech/mentor_tech>` "
+"技術メンターが技術リソースを探している場合は、ここから始めましょう！"
+
+#: ../../source/index.en.rst:139
+msgid ""
+"The main menu contains links to the top level content. The following are "
+"quick links organized by topic."
+msgstr "主メニューにはトップレベルのコンテンツへのリンクが含まれています。以下の項目はトピック별に整理されたクイックリンクです。"
+
+#: ../../source/index.en.rst:148
+msgid "Programming Links"
+msgstr "プログラミングリンク"
+
+#: ../../source/index.en.rst:152
+msgid "Quick Links for Programming Language Resources"
+msgstr "プログラミング言語リソースのクイックリンク"
+
+#: ../../source/index.en.rst:160
+msgid "Blocks"
+msgstr "ブロック"
+
+#: ../../source/index.en.rst:170
+msgid "OnBot Java"
+msgstr "OnBot Java"
+
+#: ../../source/index.en.rst:180
+msgid "Android Studio"
+msgstr "Android Studio"
+
+#: ../../source/index.en.rst:190
+msgid "AprilTags"
+msgstr "AprilTag"
+
+#: ../../source/index.en.rst:200
+msgid "All Resources"
+msgstr "すべてのリソース"
+
+#: ../../source/index.en.rst:212
+msgid "Control System Links"
+msgstr "制御システムのリンク"
+
+#: ../../source/index.en.rst:216
+msgid "Let's get to know the *FIRST* Tech Challenge Control System!"
+msgstr "FIRST Tech Challenge コントロールシステムについて紹介しましょう！"
+
+#: ../../source/index.en.rst:224
+msgid "Driver Station"
+msgstr "DRIVER STATION"
+
+#: ../../source/index.en.rst:234
+msgid "Robot Controller"
+msgstr "ロボットコントローラー"
+
+#: ../../source/index.en.rst:244
+msgid "Device Connections"
+msgstr "デバイス接続"
+
+#: ../../source/index.en.rst:254
+msgid "Hardware Configuration"
+msgstr "ハードウェア構成"
+
+#: ../../source/index.en.rst:270
+msgid ""
+"The Software Development Kit (SDK) is the collection of tools for developing"
+" software and executing it on the robot."
+msgstr "ソフトウェア開発キット（SDK）は、ロボット上でソフトウェアを開発し実行するためのツールの集まりです。"
+
+#: ../../source/index.en.rst:279
+msgid "About the SDK"
+msgstr "SDKについて"
+
+#: ../../source/index.en.rst:289
+msgid "SDK GitHub Repository"
+msgstr "SDK GitHub リポジトリ"
+
+#: ../../source/index.en.rst:299
+msgid "SDK Releases"
+msgstr "SDK リリース"
+
+#: ../../source/index.en.rst:308
+msgid "Javadoc Documentation"
+msgstr "JavaDoc ドキュメンテーション"
+
+#: ../../source/index.en.rst:319
+msgid "Game Links"
+msgstr "ゲームリンク"
+
+#: ../../source/index.en.rst:323
+msgid ""
+"Be sure you're following all of the rules of the competition! The "
+"Competition Manual is an essential document."
+msgstr "コンペティションのルールを全て守ってください！ コンペティションマニュアルは重要な文書です。"
+
+#: ../../source/index.en.rst:342
+msgid ""
+"game_specific_resources/playing_field_resources/playing_field_resources"
+msgstr "ゲーム特定リソース/プレイフィールドリソース/プレイフィールドリソース"
+
+#: ../../source/index.en.rst:350
+msgid "Game Question and Answer System"
+msgstr "ゲームの質問と答えシステム"
+
+#: ../../source/index.en.rst:359
+msgid ""
+"This project is under active development. Anything contained herein is for "
+"informational purposes only; while this documentation is intended to support"
+" teams and in some way provide context to game rules, the game rules "
+"supercede all documentation found here. If you have feedback about this "
+"project, please use our :doc:`feedback form <ftc_docs/form/form>`."
+msgstr ""
+"このプロジェクトは積極的に開発中です。ここに含まれるものは情報提供のためのみであり、このドキュメンテーションはチームをサポートし、ゲームルールに関する文脈を一部提供することを目的としています。しかし、ゲームルールはここに見つかるすべてのドキュメンテーションを上回ります。このプロジェクトについてフィードバックがあれば、私たちの"
+" :doc:`feedback form <ftc_docs/form/form>` をご利用ください。"

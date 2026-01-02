@@ -11,9 +11,19 @@
    ```
 
 ### 推奨モデルのダウンロード（VRAM 8GB対応）
-以下のモデルから選択（日本語性能順）:
+以下のモデルから選択:
 
-#### 推奨1: Qwen2.5 7B Instruct（最もバランスが良い）
+#### 🏆 推奨1: Qwen2.5-Coder 7B Instruct（RST構文に最適）
+```powershell
+ollama pull qwen2.5-coder:7b-instruct
+```
+- VRAM使用量: 約6GB
+- **RST構文保護**: 優秀（コード生成モデル）
+- 日本語翻訳品質: 優秀
+- 速度: 中速
+- **特徴**: マークアップ構文を理解し、正確に保持
+
+#### 推奨2: Qwen2.5 7B Instruct（汎用翻訳）
 ```powershell
 ollama pull qwen2.5:7b-instruct-q5_K_M
 ```
@@ -21,7 +31,7 @@ ollama pull qwen2.5:7b-instruct-q5_K_M
 - 日本語翻訳品質: 優秀
 - 速度: 中速
 
-#### 推奨2: Gemma 2 9B Instruct（高品質）
+#### 推奨3: Gemma 2 9B Instruct（高品質）
 ```powershell
 ollama pull gemma2:9b-instruct-q4_K_M
 ```
@@ -29,7 +39,7 @@ ollama pull gemma2:9b-instruct-q4_K_M
 - 日本語翻訳品質: 非常に優秀
 - 速度: やや遅め
 
-#### 推奨3: Llama 3.1 8B Instruct（安定）
+#### 推奨4: Llama 3.1 8B Instruct（高速）
 ```powershell
 ollama pull llama3.1:8b-instruct-q5_K_M
 ```
@@ -103,4 +113,31 @@ $env:OLLAMA_GPU_DRIVER
 ```
 
 ## 次のステップ
-セットアップ完了後、`AUTO_TRANSLATE.md`の手順に従って自動翻訳を実行してください。
+
+### 新しい構文保護型翻訳スクリプト（推奨）
+
+前回の翻訳でRST構文が崩れた経験から、新しい賢い翻訳システムを作成しました：
+
+```powershell
+# 単一ファイルをテスト翻訳
+python scripts/translate_po_smart.py locales/ja/LC_MESSAGES/index.po --test
+
+# 単一ファイルを翻訳
+python scripts/translate_po_smart.py locales/ja/LC_MESSAGES/index.po
+
+# 全ファイルをバッチ翻訳
+python scripts/batch_translate_smart.py locales/ja/LC_MESSAGES
+```
+
+**新システムの特徴**:
+- ✅ RST構文を事前抽出・保護
+- ✅ 段落単位の小チャンク翻訳（VRAM 8GBでも安全）
+- ✅ 日本語マークアップ前後の空白を自動追加
+- ✅ 構文に強いQwen2.5-Coderを使用
+- ✅ 用語集（GLOSSARY.md）の自動適用
+
+詳細は `guides/SMART_TRANSLATE_GUIDE.md` を参照してください。
+
+### 従来の翻訳スクリプト
+
+シンプルな翻訳には `AUTO_TRANSLATE.md` の手順を参照してください。

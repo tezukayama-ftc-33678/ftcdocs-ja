@@ -57,11 +57,11 @@ msgstr "このチュートリアルでは、簡単なドキュメントの基本
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:21
 msgid "`Simple Table of Contents`_"
-msgstr "単純な目次「Simple Table of Contents」_"
+msgstr "`Simple Table of Contents`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:22
 msgid "`Simple Paragraph Content`_"
-msgstr "単純な段落コンテンツ_"
+msgstr "`Simple Paragraph Content`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:23
 msgid "`Transitions`_"
@@ -69,72 +69,70 @@ msgstr "`トランジション`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:24
 msgid "`Document Title`_"
-msgstr "ドキュメントタイトル_"
+msgstr "`Document Title`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:25
 msgid "`Section Headers`_"
-msgstr "「セクションヘッダー」_"
+msgstr "`Section Headers`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:26
 msgid "`Text Formatting`_"
-msgstr "テキストフォーマット_"
+msgstr "`Text Formatting`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:27
 msgid "`Internal Links`_"
-msgstr "内部リンク_"
+msgstr "`Internal Links`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:29
 msgid "`Links with Anchors`_"
-msgstr "アンカー付きのリンク_``"
+msgstr "`Links with Anchors`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:30
 msgid "`Referencing Sections`_"
-msgstr "「セクションの参照」_"
+msgstr "`Referencing Sections`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:32
 msgid "`External Links`_"
-msgstr "外部リンク <URL>__"
+msgstr "`External Links`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:34
 msgid "`Simple External Link`_"
-msgstr "`シンプルな外部リンク`_"
+msgstr "`Simple External Link`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:35
 msgid "`Embedded URI`_"
-msgstr "`埋め込みURI`_"
+msgstr "`Embedded URI`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:37
 msgid "`Embedding External Images`_"
-msgstr "外部画像の埋め込み:`Embedding External Images`_"
+msgstr "`Embedding External Images`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:39
 msgid "`Embedding Images using the image directive`_"
-msgstr ""
-"画像の埋め込み: :image:`ディレクティブを使用して画像を埋め込む <Embedding/Images-using-the-image-"
-"directive_>`"
+msgstr "`Embedding Images using the image directive`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:40
 msgid "`Embedding Images using the figure directive`_"
-msgstr "画像の埋め込み方: :fig:`figure ディレクティブを使用して画像を埋め込む`"
+msgstr "`Embedding Images using the figure directive`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:42
 msgid "`Lists`_"
-msgstr "リスト_"
+msgstr "`Lists`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:44
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:688
 msgid "`Bulleted Lists`_"
-msgstr "箇条書きリスト_``"
+msgstr "`箇条書きリスト`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:45
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:689
 msgid "`Enumerated Lists`_"
-msgstr "列挙されたリスト_``"
+msgstr "`番号付きリスト`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:46
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:690
 msgid "`Definition Lists`_"
-msgstr "定義リスト_``"
+msgstr "`定義リスト`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:48
 msgid "Okay, so now let's cover these topics one by one."
@@ -501,23 +499,19 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:339
 msgid "The standard Text Formatting Markup is quite simple - use:"
-msgstr ""
-"The標準的なテキストフォーマットのマークアップは非常にシンプルです。使用するには:\"\n"
-"注意: \"standard\" は \"標準的な\" に直訳していますが、文脈によっては \"標準的\" も適切な翻訳となる場合があります。この例では \"標準的な\" の方が自然な日本語表現として適していると考えています。"
+msgstr "The standard Text Formatting Markup is quite simple - use:"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:341
 msgid "One Asterisk: \\*text\\* for emphasis (italics) - like *text*"
-msgstr "一つの星：\\*text\\* で強調（イタリック）- 例如 \\*text\\*"
+msgstr "One Asterisk: \\*text\\* for emphasis (italics) - like *text*"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:342
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
-msgstr ""
-"Two Asterisks: \\*\\*text\\*\\*  для сильного акцента (полужирный) - как "
-" ** text ** "
+msgstr "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:343
 msgid "Two Backquotes: \\`\\`text\\`\\` for literals - like ``text``"
-msgstr "二つのバッククォート: `\\`text\\`` で文字列 - 例如 ``text``"
+msgstr "Two Backquotes: \\`\\`text\\`\\` for literals - like ``text``"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:345
 msgid "There are a few important restrictions to be aware of:"
@@ -635,7 +629,7 @@ msgstr "次にスペース"
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:411
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:433
 msgid "Followed by an underscore"
-msgstr "_ollowed by an underscore"
+msgstr "Followed by an underscore"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:412
 msgid "Followed by a descriptor for the anchor"
@@ -703,7 +697,7 @@ msgstr " ** これは以下のように表示されます: ** "
 msgid ""
 "This is a link to an anchor_. This reference can be anywhere before or after"
 " the anchor."
-msgstr "これはアンカ_へのリンクです。この参照はアンカの前にあるか、後にあっても構いません。"
+msgstr "This is a link to an anchor_. This reference can be anywhere before or after the anchor."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:458
 msgid ""

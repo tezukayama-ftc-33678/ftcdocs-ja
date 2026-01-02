@@ -310,8 +310,7 @@ msgid ""
 "including good link text which helps users decide whether they want to "
 "follow the link."
 msgstr ""
-"スタイルガイドの「:ref:`contrib/style_guide/style-"
-"guide:リンク`」セクションを参照してください。RSTコンテンツでリンクを作成する方法についての情報があり、これにはユーザーがリンクを追跡したいかどうか判断できる良いリンクテキストも含まれています。"
+"スタイルガイドの :ref:`links <contrib/style_guide/style-guide:links>` セクションを参照してください。RSTコンテンツでリンクを作成する方法についての情報があり、これにはユーザーがリンクを追跡したいかどうか判断できる良いリンクテキストも含まれています。"
 
 #: ../../source/contrib/style_guide/ftc-docs-accessibility-guidelines.rst:114
 msgid "Guideline 2.5 – Input Modalities"

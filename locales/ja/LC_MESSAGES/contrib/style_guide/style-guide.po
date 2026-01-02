@@ -66,14 +66,7 @@ msgstr ""
 
 #: ../../source/contrib/style_guide/style-guide.rst:31
 msgid ""
-"Web accessibility means that websites, tools, and technologies are designed "
-"and developed so that people with disabilities can use them. More "
-"specifically, people can:"
-msgstr ""
-"ウェブアクセシビリティとは、ウェブサイトやツール、技術が設計および開発され、障碍を持つ人々でも利用できるようにすることを指します。より具体的には、人々は以下のことができます："
-
-#: ../../source/contrib/style_guide/style-guide.rst:33
-msgid "perceive, understand, navigate, and interact with the Web"
+msgstr "IMUやロボット軸に関する別の参照: :ref:`IMU or robot axes <imu axes def>`"
 msgstr "ウェブを感知し、理解し、ナビゲートし、相互作用する"
 
 #: ../../source/contrib/style_guide/style-guide.rst:34
@@ -101,10 +94,6 @@ msgstr "神経学的"
 #: ../../source/contrib/style_guide/style-guide.rst:41
 msgid "physical"
 msgstr "物理的"
-
-#: ../../source/contrib/style_guide/style-guide.rst:42
-msgid "speech"
-msgstr "発声"
 
 #: ../../source/contrib/style_guide/style-guide.rst:43
 msgid "visual"
@@ -403,7 +392,8 @@ msgid ""
 "There should be one blank line separating basic text blocks and section "
 "titles. There should be one blank line separating text blocks and content "
 "directives."
-msgstr "基本的なテキストブロックとセクションタイトルの間には1行の空白行を入れる必要があります。テキストブロックとコンテンツディレクティブの間にも1行の空白行を入れる必要があります。\\n"
+msgstr ""
+"基本的なテキストブロックとセクションタイトルの間には1行の空白行を入れる必要があります。テキストブロックとコンテンツディレクティブの間にも1行の空白行を入れる必要があります。\\n"
 
 #: ../../source/contrib/style_guide/style-guide.rst:207
 msgid "Interior Whitespace"
@@ -591,8 +581,7 @@ msgid ""
 "Note the single underscore. This renders to the link `Images`_ which is a "
 "section further down in this document."
 msgstr ""
-"この形式で同じドキュメント内のセクションを参照してください: ``Images`_`` "
-"単一のアンダースコアに注意してください。これは、このドキュメントの下部にある `Images`_` セクションへのリンクとしてレンダリングされます。"
+"この形式で同じドキュメント内のセクションを参照してください: ``Images`_`` 。単一のアンダースコアに注意してください。これは、このドキュメントの下部にある `Images`_ セクションへのリンクとしてレンダリングされます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:293
 msgid ""
@@ -640,7 +629,7 @@ msgstr ""
 
 #: ../../source/contrib/style_guide/style-guide.rst:317
 msgid "partial sentence including :ref:`imu axes def`"
-msgstr "部分的な文が:ref:`imu axes def` に含まれています"
+msgstr "部分的な文が :ref:`imu axes def` に含まれています"
 
 #: ../../source/contrib/style_guide/style-guide.rst:318
 msgid "This shows the section heading."
@@ -648,9 +637,7 @@ msgstr "この部分の見出しが表示されます。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:319
 msgid "another reference to :ref:`IMU or robot axes <imu axes def>`"
-msgstr ""
-"IMUやロボット軸に関する別の参照:<br>\\n\"\n"
-"\":ref:`imu axes def`<br>\\n"
+msgstr "IMUやロボット軸に関する別の参照: :ref:`IMU or robot axes <imu axes def>`"
 
 #: ../../source/contrib/style_guide/style-guide.rst:320
 msgid "This shows custom link text."
@@ -669,10 +656,10 @@ msgid ""
 "rc_components folder."
 msgstr ""
 "``:ref:`` または ``:doc:`` を使用する場合、リンクを角括弧 ``<>`` で囲み、カスタムテキストを最初のバックタック ````` "
-"と最初の角括弧 ``<`` の間に配置し、テキストと括弧の間にはスペースを入れることができます。例えば、``:ref:`RC オーバビュウ "
-"<control_hard_compon/rc_components/index:Robot Controller Overview>``` は "
-":ref:`RC オーバビュウ <control_hard_compon/rc_components/index:Robot Controller "
-"Overview>`` にレンダリングされます。これは rc_components フォルダー内のインデックスの Robot Controller "
+"と最初の角括弧 ``<`` の間に配置し、テキストと括弧の間にはスペースを入れることができます。例えば、``:ref:`RC "
+"Overview <control_hard_compon/rc_components/index:Robot Controller Overview>```"
+" は :ref:`RC Overview <control_hard_compon/rc_components/index:Robot Controller "
+"Overview>` にレンダリングされます。これは rc_components フォルダー内のインデックスの Robot Controller "
 "Overview セクションへのリンクです。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:327
@@ -891,8 +878,7 @@ msgid ""
 "For FTC Docs, please don't add :ref:`decorative-images-label` that are just "
 "for visual presentation. Images should relate to the content of the page."
 msgstr ""
-"FTCドキュメントでは、視覚的な表現のみのために使用される:ref:`decorative-images-"
-"label`は追加しないでください。画像はページの内容と関連付けてください。"
+"FTCドキュメントでは、見た目だけの :ref:`decorative-images-label` を追加しないでください。画像はページの内容と関連付けてください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:440
 msgid ""
@@ -1151,7 +1137,7 @@ msgid ""
 "section. The long description is then added as a paragraph after the caption"
 " in the figure directive."
 msgstr ""
-"複雑な画像を含めるには、figureディレクティブを使用します。``:alt:``テキストに短い機能的な説明を設定し、長い説明の要約も可能です。キャプションは画像に対する編集的な或いは解説的なコメントとして設定します。先ほどのセクションで説明したaltテキストやキャプションに関するガイドラインをご覧ください。その後、figureディレクティブ内のキャプションの後に長い説明を段落として追加します。"
+"複雑な画像を含めるには figure ディレクティブを使用します。``:alt:`` には短い機能的な説明（長い説明の要約など）を設定します。キャプションは画像に対する編集的・解説的なコメントとして設定します。前のセクションで説明した alt テキストとキャプションのガイドラインを参照してください。長い説明は figure ディレクティブ内でキャプションの後に段落として追加します。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:575
 msgid ""
@@ -1217,7 +1203,7 @@ msgstr ""
 
 #: ../../source/contrib/style_guide/style-guide.rst:622
 msgid "For another example of a complex image see :ref:`complex-image-label`."
-msgstr "複雑な画像の別の例については :ref:`複雑な画像ラベル` を参照してください。"
+msgstr "複雑な画像の別の例については :ref:`complex-image-label` を参照してください。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:625
 msgid "Image Files"
@@ -1240,8 +1226,11 @@ msgid ""
 "for that page are stored in the folder "
 "**game_specific_resources\\\\field_coordinate_system\\\\images**."
 msgstr ""
-"例：ドキュメント「 ** fieldd-coordinate-"
-"system.rst ** 」は、「 ** game_specific_resources\\\\field_coordinate_system ** 」フォルダ内にあります。そのページの画像は、「 ** game_specific_resources\\\\field_coordinate_system\\\\images ** 」フォルダ内に保存されています。"
+"例：ドキュメント「 ** fieldd-coordinate-system.rst ** 」は、「 ** "
+"game_specific_resources\\\\field_coordinate_system ** "
+"」フォルダ内にあります。そのページの画像は、「 ** "
+"game_specific_resources\\\\field_coordinate_system\\\\images ** "
+"」フォルダ内に保存されています。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:633
 msgid ""
@@ -1251,8 +1240,8 @@ msgid ""
 "extensions should be **.png** or **.jpg**."
 msgstr ""
 "画像ファイル名は、 ** 短い説明.ext ** "
-"の形式に従って命名する必要があります。ファイル名は画像が表示している内容の短い説明であるべきで、24文字未満にしてください。ファイル名の拡張子は "
-" ** .png ** または ** .jpg ** にする必要があります。"
+"の形式に従って命名する必要があります。ファイル名は画像が表示している内容の短い説明であるべきで、24文字未満にしてください。ファイル名の拡張子は  **"
+" .png ** または ** .jpg ** にする必要があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:637
 msgid ""
@@ -1288,10 +1277,7 @@ msgid ""
 "components and the connections. If those were reduced in resolution, or too "
 "heavily compressed as a jpg, relevant details might be lost or hard to see."
 msgstr ""
-"イメージのサイズ制限に例外がある場合、ロボットコントローラーオーバビューコントロールシステム図のようなもの (:ref:`Robot "
-"Controller Overview <control_hard_compon/rc_components/index:Robot "
-"Controller Overview>`参照) "
-"があります。これらの図は2500ピクセルを超える幅があり、500KB以上のサイズです。しかし、その追加の解像度は、すべてのコンポーネントと接続の詳細を正しく確認するのに必要です。これらの図が解像度を落として表示されると、またはjpgで過度に圧縮されると、重要な詳細が失われたり、見づらくなる可能性があります。"
+"画像サイズには例外があり、:ref:`Robot Controller Overview <control_hard_compon/rc_components/index:Robot Controller Overview>` にある制御システム図がその例です。これらの図は幅が2500ピクセルを超え、500KBより大きくなりますが、すべてのコンポーネントと接続の詳細を適切に確認するために必要な解像度です。解像度を下げたりjpgで過度に圧縮すると、重要な詳細が失われたり見えづらくなる可能性があります。"
 
 #: ../../source/contrib/style_guide/style-guide.rst:653
 msgid "More Information"
@@ -1303,4 +1289,4 @@ msgstr ":doc:`ftc-docs-accessibility-guidelines`"
 
 #: ../../source/contrib/style_guide/style-guide.rst:656
 msgid ":doc:`image-and-figure-details`"
-msgstr ":doc:`画像と図の詳細`"
+msgstr ":doc:`画像と図の詳細 <image-and-figure-details>`"

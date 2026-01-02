@@ -34,8 +34,8 @@ msgid ""
 " compatible camera. This device can be connected directly to the REV Control"
 " Hub or to the Robot Control system via a USB hub."
 msgstr ""
-"ウェブカメラは、周囲の環境を視覚的な画像で提供するデバイスです。UVC（USBビデオクラス）は、特殊なドライバーなしでUSBデバイス、例えばウェブカメラやデジタルカメラからコンピュータにビデオストリーミングを行う標準規格です。 *FIRST*"
-" Tech Challengeチームとして使用するには、REV Control "
+"ウェブカメラは、周囲の環境を視覚的な画像で提供するデバイスです。UVC（USBビデオクラス）は、特殊なドライバーなしでUSBデバイス、例えばウェブカメラやデジタルカメラからコンピュータにビデオストリーミングを行う標準規格です。"
+" *FIRST* Tech Challengeチームとして使用するには、REV Control "
 "Hubまたはロボット制御システム経由のUSBハブを介して直接接続できる商用のUSBビデオクラス（UVC）`コンpatibleカメラ "
 "<https://www.usb.org/document-library/video-class-v15-document-set>`_ "
 "を使用しなければなりません。"
@@ -50,7 +50,7 @@ msgstr "例の予算UVCウェブカメラ"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:30
 msgid ":ref:`logitech_c270_label`"
-msgstr ":ref:`ロジテックC270_label`"
+msgstr ":ref:`logitech_c270_label`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:36
 msgid "Mid-range Webcam"
@@ -62,7 +62,7 @@ msgstr "例となる中距離UVCウェブカメラ"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:48
 msgid ":ref:`logitech_c920_label`"
-msgstr ":ref:`ロジテック C920`"
+msgstr ":ref:`logitech_c920_label`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:50
 msgid ""
@@ -118,22 +118,25 @@ msgid ""
 "<hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-"
 "uvc-camera:configuring an external uvc camera and a powered usb hub>`"
 msgstr ""
-":ref:`UVCカメラを有源USBハブ経由で接続する方法 <ハードウェアとソフトウェアの設定/設定/UVCカメラの設定/configuring-"
-"uvc-camera:外部UVCカメラと有源USBハブの設定>`"
+":ref:`UVCカメラを有源USBハブ経由で接続する方法<hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-"
+"uvc-camera:configuring an external uvc camera and a powered usb hub>`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:62
 msgid ""
 ":ref:`Connecting UVC Camera directly to REV Control Hub "
 "<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:configuring an external webcam with a control hub>`"
-msgstr ":ref:`REVControl Hub経由でUVCカメラを直接接続する方法 <ハードウェアとソフトウェア設定/外部Webカメラの設定/外部Webカメラの設定:外部WebカメラをControl Hubと共に設定>`"
+msgstr ""
+":ref:`REVControl "
+"Hub経由でUVCカメラを直接接続する方法<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"external-webcam:configuring an external webcam with a control hub>`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:63
 msgid ""
 ":ref:`USB Port Overview <control_hard_compon/rc_components/hub/ports/ch-"
 "ports:USB Ports>`"
 msgstr ""
-":ref:`USBポートの概要 <control_hard_compon/rc_components/hub/ports/ch-ports:USB "
+":ref:`USBポートの概要<control_hard_compon/rc_components/hub/ports/ch-ports:USB "
 "Ports>`"
 
 #: ../../source/control_hard_compon/rc_components/uvc/uvc.rst:64
@@ -141,5 +144,5 @@ msgid ""
 ":ref:`Vision in FIRST Tech Challenge <programming_resources/index:vision "
 "programming>`"
 msgstr ""
-":ref:`FIRST Tech Challenge のビジョンプログラミング "
-"<programming_resources/index:vision_programming>`"
+":ref:`FIRST Tech Challenge のビジョンプログラミング<programming_resources/index:vision "
+"programming>`"
