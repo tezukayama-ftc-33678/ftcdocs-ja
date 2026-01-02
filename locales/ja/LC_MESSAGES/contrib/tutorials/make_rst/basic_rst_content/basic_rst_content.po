@@ -385,10 +385,7 @@ msgid ""
 "`http://127.0.0.1:7350/` in your browser for local users or click the button"
 " shown below for codespaces users."
 msgstr ""
-"Great! "
-"では、このドキュメントがウェブ上や印刷された際にはどのような形になるのでしょうか？ここにreStructuredTextの自動レンダリングが役立ちます。VS"
-" Codeエディタで`ctrl-shift-b`を押すと、自動ビルドによってドキュメントがレンダリングされます。一度だけ`ctrl-"
-"shift-b`を押すだけで、その後のどのドキュメントへの変更も保存したときに自動的にレンダリングされます。ドキュメントの見た目を確認するには、ローカルユーザーはブラウザで`http://127.0.0.1:7350/`に移動し、codespacesユーザーは下記のボタンをクリックしてください。"
+"Great! So what will this document ACTUALLY look like on the web or in print? This is where the auto-rendering of ReStructured Text comes in. When you press `ctrl-shift-b` in the VS Code editor, the autobuild will render the document. You only need to press `ctrl-shift-b` once, and all future changes to any documents will automatically render when you save the document. To see what the document will look like, you can navigate `http://127.0.0.1:7350/` in your browser for local users or click the button shown below for codespaces users."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:247
 msgid "Previewing a Document with a Title"
@@ -405,7 +402,7 @@ msgid ""
 "don't add the document to the `toctree` directive, the document will not be "
 "rendered in the preview."
 msgstr ""
-"記憶しておいてください。レンダリングされたドキュメントを確認するには、ドキュメントを`index.rst`ファイルの`toctree`ディレクティブに追加する必要があります。`toctree`ディレクティブにドキュメントを追加しない場合、プレビューではドキュメントが表示されません。"
+"Remember that inorder to see the rendered document, you must have the document added to the `toctree` directive in the `index.rst` file. If you don't add the document to the `toctree` directive, the document will not be rendered in the preview."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:256
 msgid ""
@@ -567,22 +564,23 @@ msgstr "Here are a few examples:"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:380
 msgid "This is **bold** text in **this document**."
-msgstr ""
+msgstr "This is **bold** text in **this document**."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:382
 msgid "This is *italic* text in *this document*."
-msgstr "これは * イタリック * の文字列です。"
+msgstr "This is *italic* text in *this document*."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:384
 msgid "This is ``literal`` text in ``this document``."
-msgstr "これは``literal``テキストが含まれている``this document``です。"
+msgstr "This is ``literal`` text in ``this document``."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:386
 msgid ""
 "This is a fun way using \"\\\\ \" to smash styles without spaces: "
 "\\*\\*Bold\\*\\*\\\\ \\*Italic\\* will render as **Bold**\\ *Italic*."
 msgstr ""
-
+msgstr ""
+"This is a fun way using \"\\ \\" to smash styles without spaces: \\*\\*Bold\\*\\*\\ \\*Italic\\* will render as **Bold**\\ *Italic*."
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:392
 msgid "Internal Links"
 msgstr "内部リンク"
@@ -658,28 +656,27 @@ msgstr ""
 msgid ""
 "The name ``anchor`` can be replaced by any descriptor, like for example: "
 "``.. first-example:``"
-msgstr "「anchor」の名前は任意の説明子に置き換えることができます。例えば: ``.. first-example:`` です。"
+msgstr "The name ``anchor`` can be replaced by any descriptor, like for example: ``.. first-example:``"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:427
 msgid ""
 "Then, you can create an internal link anywhere in your text that directs to "
 "that anchor, in the following way:"
-msgstr "次に、テキストのどこでもアンカーファンクションへの内部リンクを作成できます。次の方法で行います："
+msgstr "Then, you can create an internal link anywhere in your text that directs to that anchor, in the following way:"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:430
 msgid "anchor\\_"
-msgstr "アンカー\\_"
+msgstr "anchor\\_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:432
 msgid "This is simply the anchor descriptor"
-msgstr "これは単にアンカーの説明です"
+msgstr "This is simply the anchor descriptor"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:435
 msgid ""
 "Therefore, in order to reference the ``.. first-example:`` anchor, you would"
 " use ``first-example_`` as the link text in your content."
-msgstr ""
-"従って、「.. first-example:」のアンカーを参照するには、コンテンツ内のリンクテキストとして「first-example_」を使用します。"
+msgstr "Therefore, in order to reference the ``.. first-example:`` anchor, you would use ``first-example_`` as the link text in your content."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:439
 msgid "Links with Anchors Example"
@@ -744,7 +741,7 @@ msgstr " ** 以下はそのレンダリング方法です（リンクをクリ�
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:488
 msgid "`Basic rST Content`_"
-msgstr "基本的なreStructuredTextコンテンツ_``"
+msgstr "`Basic rST Content`_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:490
 msgid "Pretty easy!"
@@ -788,8 +785,7 @@ msgstr "*FIRST* ホームページ: https://www.firstinspires.org"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:517
 msgid "Embedded URI"
-msgstr "埋め込まれたURI"
-
+msgstr "height : *length*"
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:519
 msgid ""
 "An embedded URI can provide user-readable text with a link while hiding the "
@@ -820,8 +816,7 @@ msgstr "それでは、角括弧で囲まれたURL（\\< \\>）を定義しま�
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:530
 msgid "Followed by another ` (back tick) symbol"
-msgstr "また、` (バックティック) 記号が続きます`"
-
+msgstr "scale : *integer percentage (the \"%\" symbol is optional)*"
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:531
 msgid "Followed by an _ (underscore) character"
 msgstr "_（アンダースコア）文字が続く"
@@ -896,14 +891,11 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:587
 msgid "height : *length*"
-msgstr ""
-"高度 : * 長さ *\"\n"
-"\n"
-"この翻訳では、reStructuredText形式の強調マークアップ(*length*)が保持され、技術用語も原文のままです。"
+msgstr "height : *length*"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:586
 msgid "length"
-msgstr "長さ"
+msgstr "length"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:585
 msgid ""
@@ -912,14 +904,14 @@ msgid ""
 "For example, a height of 200px and a scale of 50 is equivalent to a height "
 "of 100px with no scale."
 msgstr ""
-"画像の望ましい高さ。垂直方向に空間を確保するか、画像をスケーリングするために使用されます。\"スケーリング\"オプションも指定された場合は、両者が組み合わさります。例えば、200pxの高さと50倍のスケーリングは、スケーリングなしで100pxの高さに相当します。"
+"The desired height of the image. Used to reserve space or scale the image "
+"vertically. When the \"scale\" option is also specified, they are combined. "
+"For example, a height of 200px and a scale of 50 is equivalent to a height "
+"of 100px with no scale."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:590
 msgid "scale : *integer percentage (the \"%\" symbol is optional)*"
-msgstr ""
-"スケール : * 整数パーセンテージ（％の記号は省略可）*\"\n"
-"\n"
-"この翻訳では、reStructuredText形式を保持し、Sphinx-Design記法も尊重しています。また、専門用語や技術用語は原文のままにしています。"
+msgstr "scale : *integer percentage (the \"%\" symbol is optional)*"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:589
 msgid "integer percentage (the \"%\" symbol is optional)"
@@ -933,10 +925,7 @@ msgstr "画像の均一な拡大縮小率。デフォルトは「100 ％」で�
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:595
 msgid "width : *length or percentage of the current line width*"
-msgstr ""
-"幅 : * 現在の線幅の長さまたはパーセンテージ *\"\n"
-"\n"
-"この翻訳は、指定されたガイドラインに従っており、reStructuredText形式も保持しています。また、強調マークアップも完全に保持されています。"
+msgstr "width : *length or percentage of the current line width*"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:594
 msgid "length or percentage of the current line width"
@@ -990,8 +979,9 @@ msgid ""
 "argument may be a URI (relative or absolute), or a reference name with "
 "underscore suffix (e.g. \\`a name`_)."
 msgstr ""
-"画像をハイパーリンクに変換し、クリック可能にする。オプション引数はURI（相対的なものや絶対的なもの）か、アンダースコアで終わる参照名（例: \\`a "
-"name`_）であることができる。"
+"Makes the image into a hyperlink reference (\"clickable\"). The option "
+"argument may be a URI (relative or absolute), or a reference name with "
+"underscore suffix (e.g. \\`a name`_)."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:611
 msgid "Examples of using these options:"
@@ -1051,7 +1041,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:656
 msgid "\"left\", \"center\", or \"right\""
-msgstr "左\", \"中央\", 或 \"右"
+msgstr "\"left\", \"center\", or \"right\""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:655
 msgid ""
