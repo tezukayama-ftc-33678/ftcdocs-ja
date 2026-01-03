@@ -141,7 +141,7 @@ msgid ""
 " RC phone, with no intermediate Control Hub or other (primary) Expansion "
 "Hub. After updating you can return that Hub to its secondary position, if "
 "needed."
-msgstr "REV コントロールハブの場合は、12V ロボット電源を適用してください。REV エクスパンションハブの場合は、直接 Robot Controller（RC）スマホに接続し、RC アプリを開き、 ** その後 ** 12V 電源を適用してください。更新が必要なエクスパンションハブは、 ** 直接 ** RC スマホに接続する必要があります。中継コントロールハブやその他の（主要）エクスパンションハブは使用しないでください。更新が完了したら、必要であればそのハブを二次的な位置に戻すことができます。"
+msgstr "REV コントロールハブの場合は、12V ロボット電源を適用してください。REV エクスパンションハブの場合は、直接 Robot Controller（RC）スマホに接続し、RC アプリを開き、 **その後** 12V 電源を適用してください。更新が必要なエクスパンションハブは、 **直接** RC スマホに接続する必要があります。中継コントロールハブやその他の（主要）エクスパンションハブは使用しないでください。更新が完了したら、必要であればそのハブを二次的な位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:69
 msgid ""
@@ -211,14 +211,14 @@ msgid ""
 "It’s listed separately here, because it applies only to **Expansion Hub**, "
 "not Control Hub – which doesn’t use an RC phone. In other words, users do "
 "not normally interface directly with the RC app on a Control Hub."
-msgstr "別途ここに記載しているのは、これは ** Expansion Hub ** のみに適用され、Control Hubには適用されないためです。Control HubではRCスマホを使用していないからです。つまり、ユーザーは通常、Control Hub上のRCアプリと直接 interfacing しないことになります。"
+msgstr "別途ここに記載しているのは、これは **Expansion Hub** のみに適用され、Control Hubには適用されないためです。Control HubではRCスマホを使用していないからです。つまり、ユーザーは通常、Control Hub上のRCアプリと直接 interfacing しないことになります。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:109
 msgid ""
 "Again, the Expansion Hub must be plugged **directly** into an RC phone, with"
 " no intermediate (primary) Expansion Hub. After updating you can return that"
 " Hub to its secondary position, if needed."
-msgstr "また、Expansion HubはRCスマホに ** 直接 ** 接続する必要があります。中間（プライマリ）Expansion Hubを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
+msgstr "また、Expansion HubはRCスマホに **直接** 接続する必要があります。中間（プライマリ）Expansion Hubを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 4 - Manage page on computer"
@@ -317,7 +317,7 @@ msgstr "「Update to…」という灰色のボックスが最新のファーム
 msgid ""
 "If not, you can transfer the desired firmware file to the **Driver Station "
 "device**."
-msgstr "もしできなければ、望むファームウェアファイルを ** ドライバーステーションデバイス ** に転送できます。"
+msgstr "もしできなければ、望むファームウェアファイルを **ドライバーステーションデバイス** に転送できます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:182
 msgid ""

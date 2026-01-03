@@ -29,19 +29,19 @@ msgstr "色のブロブ"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:7
 msgid "An image can be evaluated by its **groupings of similar colors**."
-msgstr "画像は ** 類似色のグループ化 ** によって評価できます。"
+msgstr "画像は **類似色のグループ化** によって評価できます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:9
 msgid ""
 "The smallest unit of any digital image is a **pixel**: a tiny square of one "
 "particular color."
-msgstr "任意のデジタル画像の最小単位は ** ピクセル ** です：特定の色の小さな正方形です。"
+msgstr "任意のデジタル画像の最小単位は **ピクセル** です：特定の色の小さな正方形です。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:12
 msgid ""
 "Each grouping or cluster of similar-colored pixels is called a **Blob**, "
 "which can be irregular in size and shape."
-msgstr "各グループまたは類似色のピクセルの集まりは、形状やサイズが不規則でもある ** Blob ** と呼ばれます。"
+msgstr "各グループまたは類似色のピクセルの集まりは、形状やサイズが不規則でもある **Blob** と呼ばれます。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:15
 msgid ""
@@ -191,7 +191,7 @@ msgstr "青緑色のBlobの輪郭を見逃さないように、非常に粗い�
 msgid ""
 "Here, the best-fitting rectangle (boxFit) is **tilted**, and is not "
 "contained inside the ROI."
-msgstr "ここでは、最適な fitting 矩形（boxFit）が ** 傾斜 ** しており、ROI（興味領域）の内側に含まれていません。"
+msgstr "ここでは、最適な fitting 矩形（boxFit）が **傾斜** しており、ROI（興味領域）の内側に含まれていません。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:108
 msgid ""
@@ -214,7 +214,7 @@ msgstr "2つのブロブ検出"
 msgid ""
 "OpenCV detected **two Blobs**, each with a teal outline and each with a "
 "boxFit."
-msgstr "OpenCV で ** 2つのブロブ ** を検出しました。それぞれには青緑色の枠線があり、それぞれに箱型フィットが表示されています。"
+msgstr "OpenCV で **2つのブロブ** を検出しました。それぞれには青緑色の枠線があり、それぞれに箱型フィットが表示されています。"
 
 #: ../../source/color_processing/color-blob-concepts/color-blob-concepts.rst:123
 msgid ""

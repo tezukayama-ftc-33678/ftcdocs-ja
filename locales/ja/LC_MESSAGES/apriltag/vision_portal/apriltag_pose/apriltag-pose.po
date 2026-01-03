@@ -34,11 +34,11 @@ msgstr ""
 msgid ""
 "relative position **from the camera lens center to the AprilTag center**, "
 "and"
-msgstr "相対位置、 ** カメラレンズ中心からAprilTag中心までの距離 ** 、"
+msgstr "相対位置、 **カメラレンズ中心からAprilTag中心までの距離** 、"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:8
 msgid "orientation of the AprilTag **in the camera's reference frame**"
-msgstr "AprilTag の方向性 ** カメラの参照フレームにおける ** AprilTag の向き ** カメラの参照フレームにおける ** "
+msgstr "AprilTag の方向性 **カメラの参照フレームにおける** AprilTag の向き **カメラの参照フレームにおける** "
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:10
 msgid ""
@@ -93,7 +93,7 @@ msgstr ""
 msgid ""
 "*The SDK terms for Pitch, Roll and Yaw are* **not the same** *as the native "
 "AprilTag terms, due to the FTC reference frame.*"
-msgstr "*SDKで使用されるピッチ、ロール、ヨーの用語は * ** 同じではない ** * ことについてFTC参考フレームにより説明します。 *"
+msgstr "*SDKで使用されるピッチ、ロール、ヨーの用語は * **同じではない** *ことについてFTC参考フレームにより説明します。*"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:51
 msgid ""
@@ -113,13 +113,13 @@ msgstr ""
 msgid ""
 "**Bearing**, the angle the camera must turn (left/right) to point directly "
 "at the tag center"
-msgstr " ** ベアリング ** 、カメラがタグの中心に向かうために左または右に回転する角度です"
+msgstr " **ベアリング** 、カメラがタグの中心に向かうために左または右に回転する角度です"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:56
 msgid ""
 "**Elevation**, the angle the camera must tilt (up/down) to point directly at"
 " the tag center"
-msgstr " ** エレベーション ** 、カメラがタグの中心に直接向かうために傾ける角度（上向き/下向き）"
+msgstr " **エレベーション** 、カメラがタグの中心に直接向かうために傾ける角度（上向き/下向き）"
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst:62
 msgid "Here each green Block assigns its value to a Variable:"

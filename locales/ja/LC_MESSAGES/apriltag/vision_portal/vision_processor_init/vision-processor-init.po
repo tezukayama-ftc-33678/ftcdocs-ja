@@ -42,7 +42,7 @@ msgstr "JavaまたはブロックコードのINIT部分で、``waitForStart()`` 
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:13
 msgid "**Step 1.** *Optional:*"
-msgstr " ** ステップ1。 ** オプション：\""
+msgstr " **ステップ1。** オプション：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:15
 msgid ""
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:19
 msgid "**Step 2.** *Required:*"
-msgstr " ** ステップ 2。 ** 必須：\""
+msgstr " **ステップ 2。** 必須：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:21
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:27
 msgid "**Step 3.** *Required:*"
-msgstr " ** ステップ 3。 ** 必須：\""
+msgstr " **ステップ 3。** 必須：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:29
 msgid ""
@@ -257,7 +257,7 @@ msgstr ""
 msgid ""
 "The ``setProcessorEnabled()`` command is **not** part of the Builder "
 "pattern."
-msgstr "「setProcessorEnabled()」コマンドはビルダー模式の ** 一部分ではありません ** 。"
+msgstr "「setProcessorEnabled()」コマンドはビルダー模式の **一部分ではありません** 。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:162
 msgid ""

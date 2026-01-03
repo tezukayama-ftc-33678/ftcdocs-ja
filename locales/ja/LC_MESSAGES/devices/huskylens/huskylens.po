@@ -98,11 +98,11 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:43
 msgid "This tutorial does **not** cover the (many) ways to:"
-msgstr "このチュートリアルでは、 ** (多くの) ** 方法についてはカバーしていません："
+msgstr "このチュートリアルでは、 **(多くの)** 方法についてはカバーしていません："
 
 #: ../../source/devices/huskylens/huskylens.rst:45
 msgid "modify an existing cable (change pin order in one connector), **OR**"
-msgstr "既存のケーブルを変更する（一つのコネクタ内のピン順序を変更） ** 、または ** "
+msgstr "既存のケーブルを変更する（一つのコネクタ内のピン順序を変更） **、または** "
 
 #: ../../source/devices/huskylens/huskylens.rst:46
 msgid "fabricate a custom cable, with:"
@@ -918,7 +918,7 @@ msgstr ""
 msgid ""
 "**Long press** (press and hold) the Function button to select Color "
 "Recognition."
-msgstr " ** 長押し ** （押し続けて）「Function」ボタンを押して「Color Recognition」を選択します。"
+msgstr " **長押し** （押し続けて）「Function」ボタンを押して「Color Recognition」を選択します。"
 
 #: ../../source/devices/huskylens/huskylens.rst:496
 msgid ""
@@ -933,7 +933,7 @@ msgstr ""
 msgid ""
 "**Short press** (press and release) the Function button to select Learn "
 "Multiple."
-msgstr " ** 短押し ** （長押しせずに押してから離す）Functionボタンを押してLearn Multipleを選択します。"
+msgstr " **短押し** （長押しせずに押してから離す）Functionボタンを押してLearn Multipleを選択します。"
 
 #: ../../source/devices/huskylens/huskylens.rst:503
 msgid ""
@@ -954,7 +954,7 @@ msgstr "HuskyLens - 複数の学習"
 
 #: ../../source/devices/huskylens/huskylens.rst:514
 msgid "**Short press** the Function button to set “Learn Multiple” to **ON**."
-msgstr "短押し ** INIT ** ボタンを押すと、“Learn Multiple”を ** ON ** に設定します。"
+msgstr "短押し **INIT** ボタンを押すと、“Learn Multiple”を **ON** に設定します。"
 
 #: ../../source/devices/huskylens/huskylens.rst:516
 msgid ""
@@ -1037,7 +1037,7 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:558
 msgid "Now **``Color:ID2``** is trained, with its label shown on-screen."
-msgstr "今、 ** ``Color:ID2`` ** は訓練が完了し、そのラベルは画面に表示されています。"
+msgstr "今、 **``Color:ID2``** は訓練が完了し、そのラベルは画面に表示されています。"
 
 #: ../../source/devices/huskylens/huskylens.rst:560
 msgid ""
@@ -1094,7 +1094,7 @@ msgstr "色のテレメトリ追加"
 msgid ""
 "Here’s the DS Telemetry from the Sample OpMode used above for single color, "
 "**with no coding changes**:"
-msgstr "ここに上記の単色用のSample OpModeから取得したDSテレメトリーがあります。 ** コード変更なし ** です："
+msgstr "ここに上記の単色用のSample OpModeから取得したDSテレメトリーがあります。 **コード変更なし** です："
 
 #: ../../source/devices/huskylens/huskylens.rst:601
 msgid "2 Color Telemetry"
@@ -1121,7 +1121,7 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:612
 msgid "In the Java sample OpMode, add these lines **inside the FOR loop**:"
-msgstr "JavaサンプルOpModeでは、FORループの ** 中で ** 次の行を追加します："
+msgstr "JavaサンプルOpModeでは、FORループの **中で** 次の行を追加します："
 
 #: ../../source/devices/huskylens/huskylens.rst:619
 msgid ""

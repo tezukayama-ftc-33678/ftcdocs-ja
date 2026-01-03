@@ -110,7 +110,7 @@ msgstr "ビジョンポータル初期化 - ビルダー"
 msgid ""
 "The SDK also provides the \"Builder\" way to make VisionPortal, allowing "
 "**custom settings**:"
-msgstr "SDK は VisionPortal を作成するための \"ビルダー\" 方式も提供し、 ** カスタム設定 ** を可能にします："
+msgstr "SDK は VisionPortal を作成するための \"ビルダー\" 方式も提供し、 **カスタム設定** を可能にします："
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:75
 msgid "VisionPortal Initialization with a Builder"
@@ -134,7 +134,7 @@ msgstr ""
 msgid ""
 "The SDK allows multiple, fully capable Portals.  This is covered separately "
 "at the **MultiPortal** page."
-msgstr "SDKは複数の完全に機能的なポータルを許可します。これは単独で ** MultiPortal ** ページで詳しく説明されています。"
+msgstr "SDKは複数の完全に機能的なポータルを許可します。これは単独で **MultiPortal** ページで詳しく説明されています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:113
 msgid "Java Builder Chain"
@@ -222,4 +222,4 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:179
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "* 質問、ご意見や訂正はwestsiderobotics@verizon.netまで *"
+msgstr "*質問、ご意見や訂正はwestsiderobotics@verizon.netまで*"

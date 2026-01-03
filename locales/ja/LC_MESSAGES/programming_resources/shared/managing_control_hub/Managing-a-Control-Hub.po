@@ -247,7 +247,7 @@ msgstr ""
 msgid ""
 "You can select the operating channel for the Control Hub from the *Manage* "
 "page."
-msgstr "Control Hubの操作チャンネルは、 * 管理 * ページから選択できます。"
+msgstr "Control Hubの操作チャンネルは、 *管理* ページから選択できます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:139
 msgid "Changing the WiFi Channel Instructions"
@@ -381,7 +381,7 @@ msgstr "Control Hubユーザーインターフェースの「管理」ページ�
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:226
 msgid ""
 "An *Upload* button should appear after you successfully selected a file."
-msgstr "ファイルを選択した後、 * アップロード * ボタンが表示されるべきです。"
+msgstr "ファイルを選択した後、 *アップロード* ボタンが表示されるべきです。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:228
 msgid ""
@@ -427,7 +427,7 @@ msgid ""
 "display some information about the current firmware version and the new "
 "firmware version. Press the *Update Expansion Hub Firmware* button to start "
 "the update process."
-msgstr "もし現在のExpansion Hubにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を表示するべきです。 * Expansion Hubファームウェアを更新 * ボタンを押して更新プロセスを開始してください。"
+msgstr "もし現在のExpansion Hubにインストールされているバージョンと異なるファームウェアファイルが成功してアップロードされた場合、ドライバーステーションは現在のファームウェアバージョンと新しいファームウェアバージョンについての情報を表示するべきです。 *Expansion Hubファームウェアを更新* ボタンを押して更新プロセスを開始してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:272
 msgid ""
@@ -534,7 +534,7 @@ msgstr "APKファイルが成功して選択された場合、更新\\\"INIT\\\"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:340
 msgid "Click on the *Update* button to begin the update process."
-msgstr "* 更新 * ボタンをクリックして、更新プロセスを開始します。"
+msgstr "*更新* ボタンをクリックして、更新プロセスを開始します。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:347
 msgid ""
@@ -572,7 +572,7 @@ msgid ""
 "When the update process is complete and you have successfully reconnected "
 "your computer to the Control Hub's network, you should see an *installed "
 "successfully* message on the *Manage* web page."
-msgstr "更新プロセスが完了し、コンピュータをControl Hubのネットワークに再接続した場合、 * 管理 * ウェブページで「インストールに成功しました」と表示されるべきです。"
+msgstr "更新プロセスが完了し、コンピュータをControl Hubのネットワークに再接続した場合、 *管理* ウェブページで「インストールに成功しました」と表示されるべきです。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:373
 msgid "Uploading a Custom Webcam Calibration File"
@@ -688,7 +688,7 @@ msgid ""
 "the file is relatively large, it might take several minutes before the "
 "upload is complete. Do not turn off the Control Hub while the process is "
 "underway."
-msgstr "3. * 更新&再起動 * ボタンをクリックして、更新プロセスを開始してください。OSファイルのアップロードがControl Hubに完了するまでお待ちください。ファイルが比較的大きいため、アップロードが完了するまで数分かかることがあります。プロセスが進行中はControl Hubをオフしないでください。"
+msgstr "3. *更新&再起動* ボタンをクリックして、更新プロセスを開始してください。OSファイルのアップロードがControl Hubに完了するまでお待ちください。ファイルが比較的大きいため、アップロードが完了するまで数分かかることがあります。プロセスが進行中はControl Hubをオフしないでください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:453
 msgid ""

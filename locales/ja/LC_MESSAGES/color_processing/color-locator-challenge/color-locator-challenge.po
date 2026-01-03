@@ -139,11 +139,11 @@ msgstr "フィルター設定を適用するには、2つのステップを使�
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:53
 msgid "**set** the filter name and criteria"
-msgstr "フィルター名と基準を ** set ** する"
+msgstr "フィルター名と基準を **set** する"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:54
 msgid "**add** that filter to the existing Processor"
-msgstr "既存のプロセッサにそのフィルターを ** add ** する"
+msgstr "既存のプロセッサにそのフィルターを **add** する"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:56
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:434
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:495
 msgid "Select and read the Blocks **or** Java section below:"
-msgstr "下記のBlocks ** または ** Java のセクションを選択し、読み進めてください："
+msgstr "下記のBlocks **または** Java のセクションを選択し、読み進めてください："
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
 msgid "Blocks"
@@ -331,7 +331,7 @@ msgid ""
 "Area** in descending order (largest is first).  This is an internally "
 "programmed sort, not appearing in the Sample OpMode.  This default is "
 "overridden or replaced by any pre-sort or post-sort specified in the OpMode."
-msgstr "このチュートリアルの:doc:`Explore <../color-locator-explore/color-locator-explore>`ページからの注意：デフォルトでは、サンプルOpModeは ** コン Tour 計測面積 ** に基づいて降順に並べ替えます（大きいものが先頭）。これは内部でプログラムされた並べ替えであり、サンプルOpModeには表示されません。このデフォルトは、OpMode内で指定される任意の前処理並べ替えや後処理並べ替えによって上書きまたは置き換えられます。"
+msgstr "このチュートリアルの:doc:`Explore <../color-locator-explore/color-locator-explore>`ページからの注意：デフォルトでは、サンプルOpModeは **コン Tour 計測面積** に基づいて降順に並べ替えます（大きいものが先頭）。これは内部でプログラムされた並べ替えであり、サンプルOpModeには表示されません。このデフォルトは、OpMode内で指定される任意の前処理並べ替えや後処理並べ替えによって上書きまたは置き換えられます。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:189
 msgid ""
@@ -420,7 +420,7 @@ msgstr ""
 msgid ""
 "Use your own custom values, only from the RGB Color Space.  See the separate"
 " tutorial page called **Color Spaces**."
-msgstr "自分のカスタム値を使用し、RGB色情報だけから設定してください。別途参照ページの ** 色空間 ** をご覧ください。"
+msgstr "自分のカスタム値を使用し、RGB色情報だけから設定してください。別途参照ページの **色空間** をご覧ください。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:276
 msgid "boxFit Corners"
@@ -461,7 +461,7 @@ msgid ""
 "This Function operates inside the Sample OpMode's **For Loop** of all Blob "
 "results.  The instant ``myBoxFit`` is the one being processed, returned from"
 " the preceding ``.BoxFit`` Block."
-msgstr "この関数は、サンプルOpModeのすべてのブロブ結果の ** For ループ ** 内で動作します。瞬時に ``myBoxFit`` が処理されているものであり、前の ``.BoxFit`` ブロックから返されるものです。"
+msgstr "この関数は、サンプルOpModeのすべてのブロブ結果の **For ループ** 内で動作します。瞬時に ``myBoxFit``が処理されているものであり、前の``.BoxFit`` ブロックから返されるものです。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:309
 msgid ""
@@ -474,7 +474,7 @@ msgid ""
 "This code operates inside the Sample OpMode's **For Loop** of all Blob "
 "results.  The instant ``boxFit`` is the one being processed, returned from "
 "the preceding ``getBoxFit()`` method."
-msgstr "このコードは、サンプルOpModeのすべてのブロブ結果の ** For ループ ** 内で動作します。瞬時に ``boxFit`` が処理対象の場合、 preceding の ``getBoxFit()`` メソッドから返されます。"
+msgstr "このコードは、サンプルOpModeのすべてのブロブ結果の **For ループ** 内で動作します。瞬時に ``boxFit``が処理対象の場合、 preceding の``getBoxFit()`` メソッドから返されます。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:330
 msgid "Contour Vertices"
@@ -546,7 +546,7 @@ msgid ""
 "This Function operates inside the Sample OpMode's **For Loop** of all Blob "
 "results.  The instant ``myBlob`` is the one being processed by that outer "
 "For Loop."
-msgstr "この関数は、サンプルOpModeのすべてのブロブ結果の ** For ループ ** 内で動作します。その瞬間、「myBlob」が外側の For ループによって処理されているブロブです。"
+msgstr "この関数は、サンプルOpModeのすべてのブロブ結果の **For ループ** 内で動作します。その瞬間、「myBlob」が外側の For ループによって処理されているブロブです。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:376
 msgid ""
@@ -559,7 +559,7 @@ msgid ""
 "This Function operates inside the Sample OpMode's **For Loop** of all Blob "
 "results.  The instant Blob ``b`` is the one being processed by that outer "
 "For Loop."
-msgstr "この関数は、サンプルOpModeのすべてのブロブ結果の外側の ** For ループ ** 内で動作します。その瞬間、ブロブ ``b`` は外側の For ループによって処理されているブロブです。"
+msgstr "この関数は、サンプルOpModeのすべてのブロブ結果の外側の **For ループ** 内で動作します。その瞬間、ブロブ ``b`` は外側の For ループによって処理されているブロブです。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:399
 msgid "Not covered here is one feature available in Java only:"

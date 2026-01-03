@@ -170,7 +170,7 @@ msgid ""
 "**Note:** If you already have a configuration that contains just the Control"
 " Hub, you can add the Expansion Hub by editing the configuration and "
 "pressing the \"Scan\" button."
-msgstr " ** 注記: ** コントロールハブのみが含まれている設定がある場合、Expansion Hubを追加するには、設定を編集し、「スキャン」ボタンを押してください。"
+msgstr " **注記:** コントロールハブのみが含まれている設定がある場合、Expansion Hubを追加するには、設定を編集し、「スキャン」ボタンを押してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:99
 msgid ""
@@ -264,7 +264,7 @@ msgid ""
 "need to change the address of one of them _before_ connecting them together."
 " This guide assumes that you will be setting the address of the first "
 "Expansion Hub before connecting the second Expansion Hub."
-msgstr " ** 重要なお知らせ: ** 両方のExpansion Hubが同じアドレスを持っている場合、または箱から取り出された場合（デフォルトではアドレスは2に設定されています）、それらを接続する前に少なくとも1つのハブのアドレスを変更する必要があります。このガイドでは、第2のExpansion Hubを接続する前に最初のExpansion Hubのアドレスを設定することを前提としています。"
+msgstr " **重要なお知らせ:** 両方のExpansion Hubが同じアドレスを持っている場合、または箱から取り出された場合（デフォルトではアドレスは2に設定されています）、それらを接続する前に少なくとも1つのハブのアドレスを変更する必要があります。このガイドでは、第2のExpansion Hubを接続する前に最初のExpansion Hubのアドレスを設定することを前提としています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:168
 msgid ""
@@ -300,7 +300,7 @@ msgid ""
 "powered are not displayed, there may be an address conflict. If this "
 "happens, disconnect all Expansion Hubs except the one whose address you want"
 " to change."
-msgstr " ** 重要なお知らせ: ** 物理的に接続され、電源が供給されているすべてのExpansion Hubが表示されていない場合、アドレス衝突が発生している可能性があります。その場合、変更したいアドレスのハブ以外は全て切断してください。"
+msgstr " **重要なお知らせ:** 物理的に接続され、電源が供給されているすべてのExpansion Hubが表示されていない場合、アドレス衝突が発生している可能性があります。その場合、変更したいアドレスのハブ以外は全て切断してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:194
 msgid ""
@@ -376,7 +376,7 @@ msgid ""
 "**Note:** If you already have a configuration that contains just the USB-"
 "connected Expansion Hub, you can add the second Expansion Hub by editing the"
 " configuration and pressing the \"Scan\" button."
-msgstr " ** 注意: ** もし既にUSB接続のExpansion Hubのみを含む設定がある場合、2番目のExpansion Hubを追加するには、設定を編集し、「スキャン」ボタンを押してください。"
+msgstr " **注意:** もし既にUSB接続のExpansion Hubのみを含む設定がある場合、2番目のExpansion Hubを追加するには、設定を編集し、「スキャン」ボタンを押してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:253
 msgid ""

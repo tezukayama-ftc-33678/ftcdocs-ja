@@ -25,7 +25,7 @@ msgstr "AprilTag検出値の理解"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:4
 msgid "*Last Updated: 7/05/2023*"
-msgstr " * 最終更新日: 2023年7月5日 * "
+msgstr " *最終更新日: 2023年7月5日* "
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:7
 msgid "Introduction"
@@ -58,7 +58,7 @@ msgstr "これらの値の解釈方法を理解するには、垂直成分を無
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:22
 msgid "**Figure 1** below represents one possible 2D scenario."
-msgstr " ** 図1 ** 以下は1つの可能な2次元シナリオを示しています。"
+msgstr " **図1** 以下は1つの可能な2次元シナリオを示しています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:29
 msgid "Figure 1"
@@ -101,7 +101,7 @@ msgstr ""
 msgid ""
 "**Figure 2** shows the measured values associated with the camera/target "
 "scenario shown in Figure 1."
-msgstr " ** 図2 ** では、図1に示されたカメラ/ターゲットシナリオに関連する測定値が示されています。"
+msgstr " **図2** では、図1に示されたカメラ/ターゲットシナリオに関連する測定値が示されています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:53
 msgid "Figure 2"
@@ -247,11 +247,11 @@ msgid ""
 "Yaw) around those axes, in degrees. The RBE line shows the target Range (in "
 "inches), Bearing, and Elevation (in degrees). The angle of Elevation results"
 " from the height difference between the camera and the Tag."
-msgstr "OpModeは、 ** 図2 ** に表示されるパラメータに対応する値を表示します。XYZ線は、インチ単位のX軸、Y軸、Z軸の平移値を示しています。PRY線は、これらの軸周りの回転（ピッチ、ロール、ヨー）に対応する度数で示されます。RBE線は、ターゲット範囲（インチ単位）、方位角、および仰角（度数）を示します。仰角は、カメラとタグの高さ差から計算されます。"
+msgstr "OpModeは、 **図2** に表示されるパラメータに対応する値を表示します。XYZ線は、インチ単位のX軸、Y軸、Z軸の平移値を示しています。PRY線は、これらの軸周りの回転（ピッチ、ロール、ヨー）に対応する度数で示されます。RBE線は、ターゲット範囲（インチ単位）、方位角、および仰角（度数）を示します。仰角は、カメラとタグの高さ差から計算されます。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:145
 msgid "*Several items to observe:*"
-msgstr " * 観察すべきいくつかの項目: * "
+msgstr " *観察すべきいくつかの項目:* "
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:147
 msgid ""

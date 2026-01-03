@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:14
 msgid "**Apple/Mac users should skip these steps.**"
-msgstr " ** Apple/Macユーザーはこれらの手順をスキップしてください。 ** "
+msgstr " **Apple/Macユーザーはこれらの手順をスキップしてください。** "
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:17
 msgid ""
@@ -89,7 +89,7 @@ msgstr ""
 msgid ""
 "If the computer is **not** 64-bit, RHC installation will fail with an "
 "appropriate error message."
-msgstr "もしコンピューターが ** 64ビット ** でない場合、RHCのインストールは適切なエラーメッセージとともに失敗します。"
+msgstr "もしコンピューターが **64ビット** でない場合、RHCのインストールは適切なエラーメッセージとともに失敗します。"
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:46
 msgid "Downloading Initial Updates"

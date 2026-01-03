@@ -38,7 +38,7 @@ msgid ""
 "**Additive Manufacturing**: The method of creating a part by building "
 "material layer by layer from a CAD model (more commonly known as 3D "
 "Printing)"
-msgstr " ** 追加製造 ** : CADモデル（一般的には3Dプリンティングと呼ばれる）から層を重ねて素材で部品を作成する方法です。"
+msgstr " **追加製造** : CADモデル（一般的には3Dプリンティングと呼ばれる）から層を重ねて素材で部品を作成する方法です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:11
 msgid ""
@@ -106,37 +106,37 @@ msgstr "3Dプリンター部品"
 msgid ""
 "**Carriage**: The moving head of a printer that contains the hotend "
 "assembly."
-msgstr " ** カートリッジ ** : プリンターの移動ヘッドで、ホットエンドアセンブリを含むもの。"
+msgstr " **カートリッジ** : プリンターの移動ヘッドで、ホットエンドアセンブリを含むもの。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:29
 msgid ""
 "**Bed**: The heated (or sometimes nonheated) surface that filament is laid "
 "upon."
-msgstr " ** ベッド ** : フィラメントが敷き詰められる加熱（または時々加熱されていない）面です。"
+msgstr " **ベッド** : フィラメントが敷き詰められる加熱（または時々加熱されていない）面です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:31
 msgid ""
 "**Hotend**: The part that melts filament it typically consists of a heat "
 "sink, heater, thermistor, and metal nozzle."
-msgstr " ** ホットエンド ** : フィラメントを溶かす部分で、通常はヒートシンク、ヒータ、サーモスタット、金属ノズルから構成されています。"
+msgstr " **ホットエンド** : フィラメントを溶かす部分で、通常はヒートシンク、ヒータ、サーモスタット、金属ノズルから構成されています。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:33
 msgid ""
 "**Gantry**: The frame structure that supports the printing head/hotend as it"
 " moves."
-msgstr " ** Gantry ** : プリンタヘッド/ヒートエンドが動く際に支持するフレーム構造。"
+msgstr " **Gantry** : プリンタヘッド/ヒートエンドが動く際に支持するフレーム構造。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:35
 msgid ""
 "**Stepper Motor**: The small motors that move each axis of the printer with "
 "precision."
-msgstr " ** ステッピングモータ ** : プリンターの各軸を精密に動かす小さなモーターです。"
+msgstr " **ステッピングモータ** : プリンターの各軸を精密に動かす小さなモーターです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:37
 msgid ""
 "**Extruder**: The stepper motor that moves filament into and out of the "
 "hotend, whether from up close or far away."
-msgstr " ** Extruder ** : 熱弁端にフィラメントを近接または遠隔で投入・排出するためのステッピングモータです。"
+msgstr " **Extruder** : 熱弁端にフィラメントを近接または遠隔で投入・排出するためのステッピングモータです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:39
 msgid ""

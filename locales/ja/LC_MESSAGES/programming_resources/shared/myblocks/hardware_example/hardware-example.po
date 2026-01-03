@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/myblocks/hardware_example/hardware-example.rst:24
 msgid "Line 15: this method has 3 inputs and no outputs (keyword **void**)."
-msgstr "行15：このメソッドは3つの入力があり、出力はありません（キーワード ** void ** ）。"
+msgstr "行15：このメソッドは3つの入力があり、出力はありません（キーワード **void** ）。"
 
 #: ../../source/programming_resources/shared/myblocks/hardware_example/hardware-example.rst:26
 msgid ""
@@ -77,7 +77,7 @@ msgid ""
 "runs the specified servo back and forth, using the specified duration and "
 "number of cycles. This **for loop** has the added condition "
 "``opModeIsActive()``, to monitor and verify the OpMode has not been stopped."
-msgstr "Line 20は ** forループ ** で、詳しくは`こちら <https://www.w3schools.com/java/java_for_loop.asp>`__ や`こちら <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html>`__ を参照してください。指定されたサーボを指定された期間とサイクル数を使って往復させます。この ** forループ ** には、OpModeが停止していないか監視・確認する追加条件 ``opModeIsActive()`` があります。"
+msgstr "Line 20は **forループ** で、詳しくは`こちら <https://www.w3schools.com/java/java_for_loop.asp>`__ や`こちら <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html>`__ を参照してください。指定されたサーボを指定された期間とサイクル数を使って往復させます。この **forループ** には、OpModeが停止していないか監視・確認する追加条件 ``opModeIsActive()`` があります。"
 
 #: ../../source/programming_resources/shared/myblocks/hardware_example/hardware-example.rst:40
 msgid ""

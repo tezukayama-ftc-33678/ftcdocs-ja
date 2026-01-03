@@ -53,13 +53,13 @@ msgstr "``フィールドポジション``: ゲームフィールド上のタグ
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:17
 msgid ""
 "``fieldOrientation``: tag orientation on the game field (``Quaternion``)"
-msgstr "``フィールドオrientation``: ゲームフィールド上のタグの向き（`` Quaternion ``）"
+msgstr "``フィールドオrientation``: ゲームフィールド上のタグの向き（``Quaternion``）"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:19
 msgid ""
 "The reference frame is the *FIRST* Tech Challenge **Field Coordinate "
 "System**, provided here:"
-msgstr "referenciaフレームは、ここに提供される *FIRST* Tech Challenge ** フィールド座標系 ** です："
+msgstr "referenciaフレームは、ここに提供される *FIRST* Tech Challenge **フィールド座標系** です："
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:22
 msgid ""
@@ -275,7 +275,7 @@ msgstr ""
 msgid ""
 "All of the above features are easily found in the relevant **FTC Blocks** "
 "toolbox, or palette, under the Vision category."
-msgstr "すべての機能は関連する ** FTC Blocks ** ボックスまたはパレット内のビジョンカテゴリ下で簡単に見つけることができます。"
+msgstr "すべての機能は関連する **FTC Blocks** ボックスまたはパレット内のビジョンカテゴリ下で簡単に見つけることができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:151
 msgid ""
@@ -286,4 +286,4 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:157
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "* 質問、ご意見や訂正はwestsiderobotics@verizon.netまで *"
+msgstr "*質問、ご意見や訂正はwestsiderobotics@verizon.netまで*"
