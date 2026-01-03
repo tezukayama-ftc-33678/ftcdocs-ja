@@ -42,7 +42,7 @@ msgstr "JavaまたはブロックコードのINIT部分で、``waitForStart()`` 
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:13
 msgid "**Step 1.** *Optional:*"
-msgstr " **ステップ1。** オプション：\""
+msgstr "**ステップ1。** オプション：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:15
 msgid ""
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:19
 msgid "**Step 2.** *Required:*"
-msgstr " **ステップ 2。** 必須：\""
+msgstr "**ステップ 2。** 必須：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:21
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:27
 msgid "**Step 3.** *Required:*"
-msgstr " **ステップ 3。** 必須：\""
+msgstr "**ステップ 3。** 必須：\""
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:29
 msgid ""
@@ -110,7 +110,7 @@ msgid ""
 "**Step 2** is creating the **AprilTag Processor**, software that evaluates "
 "frames streaming in from the camera."
 msgstr ""
-" ** ステップ 2 ** は、カメラからストリーミング入力されるフレームを評価する ** AprilTag プロセッサー ** の作成です。 ** ステップ 2 ** "
+"** ステップ 2 ** は、カメラからストリーミング入力されるフレームを評価する ** AprilTag プロセッサー ** の作成です。 ** ステップ 2 ** "
 " は、 ** AprilTag Processor ** を作成することです。これはカメラからストリーミングされるフレームを評価するソフトウェアです。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:41
@@ -160,7 +160,7 @@ msgid ""
 "parameters, finalized with the ``.build()`` command.  Such features are "
 "**not** modified later during an OpMode."
 msgstr ""
-" ** ビルダー ** はJavaのパターンまたは構造で、追加機能やパラメータを追加し、最終的に``.build()`` コマンドで finalized "
+"** ビルダー ** はJavaのパターンまたは構造で、追加機能やパラメータを追加し、最終的に``.build()`` コマンドで finalized "
 "します。そのような機能はOpMode中に後から変更 ** されません ** 。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:76
@@ -225,7 +225,7 @@ msgid ""
 "**Step 2** is similar for creating the **Color Sensor/Locator Processor**, "
 "software that evaluates frames streaming in from the camera."
 msgstr ""
-" ** ステップ2 ** は、カメラからストリーミング入力されるフレームを評価するための ** Color Sensor/Locator "
+"** ステップ2 ** は、カメラからストリーミング入力されるフレームを評価するための ** Color Sensor/Locator "
 "Processor ** を作成する際と似ています。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:150

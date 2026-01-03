@@ -348,7 +348,7 @@ msgid ""
 " you want another I2C device also on Bus 0, plug it into the Hub and use the"
 " ``Add`` button."
 msgstr ""
-" ** 黄色 ** : "
+"** 黄色 ** : "
 "内部IMUはI2Cバス0、ポート0に接続されています。他のI2Cデバイスをバス0にも接続したい場合は、ハブに接続し、「追加」ボタンを使用してください。"
 
 #: ../../source/programming_resources/imu/imu.rst:147
@@ -356,7 +356,7 @@ msgid ""
 "**Green**: The default IMU type shown will reflect the actual unit in this "
 "Hub; fix this only if it was incorrectly modified. Your IMU OpModes "
 "**require a correct choice here**."
-msgstr " **緑色** : このハブに実際のユニットが反映されるデフォルトのIMUタイプが表示されます；誤って変更された場合のみ修正してください。あなたのIMUOpModeでは、ここで **正しい選択が必要です** 。"
+msgstr "**緑色** : このハブに実際のユニットが反映されるデフォルトのIMUタイプが表示されます；誤って変更された場合のみ修正してください。あなたのIMUOpModeでは、ここで **正しい選択が必要です** 。"
 
 #: ../../source/programming_resources/imu/imu.rst:151
 msgid ""
@@ -364,7 +364,7 @@ msgid ""
 " Blocks and Java. You may enter a custom name here, but you must then "
 "**update** all your OpModes that reference the IMU."
 msgstr ""
-" ** 紫 ** : "
+"** 紫 ** : "
 "デフォルトのデバイス名は「imu」で、ブロックとJavaのすべてのサンプルオモードで使用されます。ここにカスタム名を入力できますが、その後はIMUを参照しているすべてのオモードを ** 更新 ** する必要があります。"
 
 #: ../../source/programming_resources/imu/imu.rst:155
@@ -770,7 +770,7 @@ msgid ""
 "USB ports FORWARD (Robot +Y).** For the Angles and Quaternion methods, all "
 "rotations start here."
 msgstr ""
-" ** 想定される初期Hubの位置は、REVロゴが上向き（ロボット+Z）でUSBポートが前方に向けられており（ロボット+Y）、角度とクォータニオンメソッドでのすべての回転はここから始まります。 ** "
+"** 想定される初期Hubの位置は、REVロゴが上向き（ロボット+Z）でUSBポートが前方に向けられており（ロボット+Y）、角度とクォータニオンメソッドでのすべての回転はここから始まります。 ** "
 
 #: ../../source/programming_resources/imu/imu.rst:514
 msgid "*Again, “forward” is based on your team’s agreed definition.*"

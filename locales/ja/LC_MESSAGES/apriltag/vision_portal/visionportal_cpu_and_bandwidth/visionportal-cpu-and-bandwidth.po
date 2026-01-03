@@ -111,25 +111,25 @@ msgstr "最初の4つのアクションは、利益と対応について非公�
 msgid ""
 "**LiveView** \"Level 1\": some reduction of resources used, resumes very "
 "quickly after stopping"
-msgstr " **LiveView** 「レベル1」: リソースの使用量が一部削減され、停止後すぐに再開します"
+msgstr "**LiveView** 「レベル1」: リソースの使用量が一部削減され、停止後すぐに再開します"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:32
 msgid ""
 "**Processor(s)** \"Level 2\": more reduction of resources used, resumes "
 "quickly after stopping"
-msgstr " **プロセッサ** \\\"レベル2\\\"：リソースの使用量をさらに削減し、停止後すぐに再開します"
+msgstr "**プロセッサ** \\\"レベル2\\\"：リソースの使用量をさらに削減し、停止後すぐに再開します"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:33
 msgid ""
 "Camera Stream \"Level 3\": high reduction of resources used, resumes less "
 "quickly after stopping"
-msgstr " **カメラストリーム** \"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
+msgstr "**カメラストリーム** \"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:34
 msgid ""
 "**VisionPortal** \"Level 4\": maximum reduction of resources used, do not "
 "resume after stopping"
-msgstr " **VisionPortal** \"レベル4\": リソースの使用量を最大限に削減、停止後は再開しない"
+msgstr "**VisionPortal** \"レベル4\": リソースの使用量を最大限に削減、停止後は再開しない"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:37
 msgid "Camera Status"
@@ -520,7 +520,7 @@ msgid ""
 "**Blocking** means the latest function doesn't return immediately.  So the "
 "code is temporarily \"stuck\" there, as if executing a ``sleep()`` command."
 msgstr ""
-" ** ブロッキング ** "
+"** ブロッキング ** "
 "とは、最新の関数がすぐに返さないことを意味します。そのためコードは一時的に「止まっている」という状態になり、``sleep()`` "
 "コマンドと同じように実行されます。"
 

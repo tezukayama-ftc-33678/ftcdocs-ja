@@ -68,7 +68,7 @@ msgstr "RGB色空間"
 #: ../../source/color_processing/color-spaces/color-spaces.rst:23
 msgid ""
 "**RGB** is a common Color Space, easy to understand.  Its 3 components are:"
-msgstr " **RGB** は一般的な色空間で、理解しやすいものです。その3つの成分は："
+msgstr "**RGB** は一般的な色空間で、理解しやすいものです。その3つの成分は："
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:25
 msgid "**Red** (0 - 255)"
@@ -76,11 +76,11 @@ msgstr "赤 **（0 - 255）** "
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:26
 msgid "**Green** (0 - 255)"
-msgstr " **グリーン** (0 - 255)"
+msgstr "**グリーン** (0 - 255)"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:27
 msgid "**Blue** (0 -  255)"
-msgstr " **ブルー** (0 - 255)"
+msgstr "**ブルー** (0 - 255)"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:34
 msgid "RGB Color Wheel"
@@ -167,7 +167,7 @@ msgstr "HSV コーン可視化"
 #: ../../source/color_processing/color-spaces/color-spaces.rst:82
 msgid ""
 "**Hue** is the actual shade of color; see the familiar color wheel on top."
-msgstr " **色相** は実際の色のトーンを表します；上部にある familar 色輪をご覧ください。"
+msgstr "**色相** は実際の色のトーンを表します；上部にある familar 色輪をご覧ください。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:84
 msgid ""
@@ -175,7 +175,7 @@ msgid ""
 "more grey.  On the HSV cone, see the outward arrow for Saturation.  The "
 "highest value of 255 is the fully saturated color (no white)."
 msgstr ""
-" ** 飽和度 ** は白色の量を測定します：値が低いほど白く、または灰色に近くなります。HSV円錐では、飽和度については外向きの矢印をご覧ください。最大値255は完全に飽和した色（白色なし）を示します。"
+"** 飽和度 ** は白色の量を測定します：値が低いほど白く、または灰色に近くなります。HSV円錐では、飽和度については外向きの矢印をご覧ください。最大値255は完全に飽和した色（白色なし）を示します。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:88
 msgid ""
@@ -183,7 +183,7 @@ msgid ""
 "top face of the cone (Value = 255), is the fully bright color.  Black is "
 "found at the lower tip, Value = 0."
 msgstr ""
-" ** 値 ** は明るさを測定します；HSV円錐の上向き矢印をご覧ください。円錐の頂面（Value = 255）は完全に明るい色です。黒は下端、Value ="
+"** 値 ** は明るさを測定します；HSV円錐の上向き矢印をご覧ください。円錐の頂面（Value = 255）は完全に明るい色です。黒は下端、Value ="
 " 0 の位置にあります。"
 
 #: ../../source/color_processing/color-spaces/color-spaces.rst:92

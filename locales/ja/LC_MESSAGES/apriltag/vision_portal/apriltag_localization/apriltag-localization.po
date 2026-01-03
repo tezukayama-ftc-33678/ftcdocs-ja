@@ -136,7 +136,7 @@ msgstr ""
 msgid ""
 "**Save and activate** that configuration; its name should appear on the "
 "paired Driver Station screen."
-msgstr " **保存し、有効化** して下さい；その名前はペアリングされたドライバー・ステーションの画面に表示されます。"
+msgstr "**保存し、有効化** して下さい；その名前はペアリングされたドライバー・ステーションの画面に表示されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:63
 msgid "Open the Sample OpMode"
@@ -258,7 +258,7 @@ msgid ""
 "**Camera Stream** preview can be accessed.  See the next section re.  "
 "previews."
 msgstr ""
-" ** INITのみをタッチしてください。 ** テレメトリは表示されませんが、この時点ではドライバーステーション（DS）の ** "
+"** INITのみをタッチしてください。 ** テレメトリは表示されませんが、この時点ではドライバーステーション（DS）の ** "
 "カメラストリームプレビュー ** にアクセスできます。次のセクションで詳細をご覧ください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:131
@@ -505,7 +505,7 @@ msgstr "これらの値を設定するには、カメラおよびロボットの
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:281
 msgid "**Camera axes:**"
-msgstr " **カメラ軸:** "
+msgstr "**カメラ軸:** "
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:283
 msgid "*Origin location:* Center of the lens"
@@ -520,7 +520,7 @@ msgstr "*軸の向き:* +xは右、+yは下、+zはカメラから見た前方�
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:286
 msgid ""
 "**Robot axes:** (this is typical, but you can define this however you want)"
-msgstr " **ロボットの軸:** (これは一般的ですが、あなたがどのように定義したいかによって異なります)"
+msgstr "**ロボットの軸:** (これは一般的ですが、あなたがどのように定義したいかによって異なります)"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:288
 msgid "*Origin location:* Center of the robot at field height"
@@ -532,7 +532,7 @@ msgstr "*軸の向き:* +xは右、+yは前方、+zは上方"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:291
 msgid "**Position:**"
-msgstr " **位置:** "
+msgstr "**位置:** "
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:293
 msgid ""
@@ -546,7 +546,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:298
 msgid "**Orientation:**"
-msgstr " **方向性:** "
+msgstr "**方向性:** "
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:300
 msgid ""

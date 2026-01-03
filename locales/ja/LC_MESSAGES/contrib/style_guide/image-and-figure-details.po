@@ -694,7 +694,7 @@ msgid ""
 "of the page, sometimes to the next page where the image is no longer in "
 "context."
 msgstr ""
-" ** align ** "
+"** align ** "
 "を使用しないことを推奨します。PDFで画像はページの別の領域に浮き上がることがあり、場合によっては次のページに行ってしまうため、文脈から外れてしまうことがあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:285

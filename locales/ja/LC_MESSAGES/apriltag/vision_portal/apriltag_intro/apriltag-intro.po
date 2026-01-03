@@ -210,7 +210,7 @@ msgstr ""
 msgid ""
 "**Tag size** is measured across the outside edge of the **inner border** "
 "which comprises the black pixels for 36h11."
-msgstr " **タグサイズ** は、36h11の黒いピクセルで構成される **内側の枠組み** の外周円上から測定します。"
+msgstr "**タグサイズ** は、36h11の黒いピクセルで構成される **内側の枠組み** の外周円上から測定します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:108
 msgid "Tag Size"
@@ -560,11 +560,11 @@ msgstr "SDKはAprilTagの **回転** データを次のように提供します:
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:269
 msgid "**Pitch** is the measure of rotation about the X axis"
-msgstr " **Pitch** はX軸周りの回転量を測定します。"
+msgstr "**Pitch** はX軸周りの回転量を測定します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:270
 msgid "**Roll** is the measure of rotation about the Y axis"
-msgstr " **Roll** はY軸周りの回転量を測定します"
+msgstr "**Roll** はY軸周りの回転量を測定します"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:271
 msgid "Heading, or **Yaw**, is the measure of rotation about the Z axis"
@@ -616,7 +616,7 @@ msgstr "高度な使用方法"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:291
 msgid "**Option 1**"
-msgstr " **オプション 1** "
+msgstr "**オプション 1** "
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:293
 msgid ""
@@ -631,7 +631,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:299
 msgid "**Option 2**"
-msgstr " **オプション 2** "
+msgstr "**オプション 2** "
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:301
 msgid ""
@@ -679,7 +679,7 @@ msgstr "ポーズソルバーアルゴリズムを選択してください"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:316
 msgid "**Option 3**"
-msgstr " **オプション 3** "
+msgstr "**オプション 3** "
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:318
 msgid ""
@@ -701,7 +701,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:326
 msgid "**Option 4**"
-msgstr " **オプション 4** "
+msgstr "**オプション 4** "
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:328
 msgid ""

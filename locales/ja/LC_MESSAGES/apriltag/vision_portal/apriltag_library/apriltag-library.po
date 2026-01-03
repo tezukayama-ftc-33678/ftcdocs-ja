@@ -50,7 +50,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:15
 msgid ""
 "**Try these examples in order**, to master the use of AprilTag Libraries."
-msgstr " **これらの例を順に試してみてください** 、AprilTagライブラリの使用方法をマスターしましょう。"
+msgstr "**これらの例を順に試してみてください** 、AprilTagライブラリの使用方法をマスターしましょう。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:19
 msgid "The Easy Way"
@@ -212,7 +212,7 @@ msgid ""
 "Processor Builder, and another Block to **finalize** the process with "
 "``.build()``."
 msgstr ""
-" ** Around this ** (before and after), place one Block to ** create ** the "
+"** Around this ** (before and after), place one Block to ** create ** the "
 "Processor Builder, and another Block to ** finalize ** the process with "
 "``.build()``. ** Around this ** (before and after), place one Block to ** "
 "create ** the Processor Builder, and another Block to ** finalize ** the "
