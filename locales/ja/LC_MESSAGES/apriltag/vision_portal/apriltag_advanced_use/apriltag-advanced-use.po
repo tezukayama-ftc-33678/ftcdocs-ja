@@ -53,13 +53,13 @@ msgstr "``フィールドポジション``: ゲームフィールド上のタグ
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:17
 msgid ""
 "``fieldOrientation``: tag orientation on the game field (``Quaternion``)"
-msgstr "``フィールドオrientation``: ゲームフィールド上のタグの向き（`` Quaternion ``）"
+msgstr "``フィールドオrientation``: ゲームフィールド上のタグの向き（``Quaternion``）"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:19
 msgid ""
 "The reference frame is the *FIRST* Tech Challenge **Field Coordinate "
 "System**, provided here:"
-msgstr "referenciaフレームは、ここに提供される *FIRST* Tech Challenge ** フィールド座標系 ** です："
+msgstr "referenciaフレームは、ここに提供される *FIRST* Tech Challenge **フィールド座標系** です："
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:22
 msgid ""
@@ -73,7 +73,7 @@ msgid ""
 "Here is a simple graphic showing the *FIRST* Tech Challenge global axes that"
 " apply to **every game, every season**:"
 msgstr ""
-" ** すべてのゲーム、すべてのシーズン ** に適用される、 *FIRST*  Tech "
+"** すべてのゲーム、すべてのシーズン ** に適用される、 *FIRST*  Tech "
 "Challengeのグローバル座標軸を示すシンプルな図を以下に示します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:32
@@ -104,7 +104,7 @@ msgid ""
 "The frame of reference described at the **AprilTag Reference Frame** page is"
 " provided **by default** in the new 8.2 SDK."
 msgstr ""
-" ** AprilTagリファレンスフレーム ** のページで説明されている基準座標系は、新しい8.2 SDKで ** デフォルトで ** "
+"** AprilTagリファレンスフレーム ** のページで説明されている基準座標系は、新しい8.2 SDKで ** デフォルトで ** "
 "提供されています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:46
@@ -246,7 +246,7 @@ msgid ""
 "At that **VisionPortal CPU and Bandwidth** page, four tools mentioned were "
 "not discussed:"
 msgstr ""
-" ** VisionPortalのCPUと帯域幅 ** のページでは、4つのツールについて言及されていましたが、そこでは議論されていませんでした。"
+"** VisionPortalのCPUと帯域幅 ** のページでは、4つのツールについて言及されていましたが、そこでは議論されていませんでした。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:140
 msgid "set decimation (down-sampling)"
@@ -275,7 +275,7 @@ msgstr ""
 msgid ""
 "All of the above features are easily found in the relevant **FTC Blocks** "
 "toolbox, or palette, under the Vision category."
-msgstr "すべての機能は関連する ** FTC Blocks ** ボックスまたはパレット内のビジョンカテゴリ下で簡単に見つけることができます。"
+msgstr "すべての機能は関連する **FTC Blocks** ボックスまたはパレット内のビジョンカテゴリ下で簡単に見つけることができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:151
 msgid ""
@@ -286,4 +286,4 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:157
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "* 質問、ご意見や訂正はwestsiderobotics@verizon.netまで *"
+msgstr "*質問、ご意見や訂正はwestsiderobotics@verizon.netまで*"

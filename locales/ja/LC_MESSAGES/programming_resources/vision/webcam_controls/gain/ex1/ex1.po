@@ -75,7 +75,7 @@ msgid ""
 " OpMode was opened (INIT) each time for a new TFOD initialization and webcam"
 " image processing."
 msgstr ""
-" ** 5回の新しい読み取り ** が、それぞれの露出設定で取得されました。具体的には、新しいTFOD初期化とウェブカメラ画像処理のために、各回test "
+"** 5回の新しい読み取り ** が、それぞれの露出設定で取得されました。具体的には、新しいTFOD初期化とウェブカメラ画像処理のために、各回test "
 "OpMode（INIT）を開きました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:41

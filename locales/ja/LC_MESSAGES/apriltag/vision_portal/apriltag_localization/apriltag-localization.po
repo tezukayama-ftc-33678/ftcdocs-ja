@@ -62,7 +62,7 @@ msgstr "INTO THE DEEP の AprilTag 的位置"
 msgid ""
 "This means it's possible to calculate the camera's **global** pose -- namely"
 " its position and orientation on the game field."
-msgstr "これは、カメラの ** グローバル ** ポーズを計算できる可能性があることを意味します。つまり、ゲームフィールド上の位置と向きです。"
+msgstr "これは、カメラの **グローバル** ポーズを計算できる可能性があることを意味します。つまり、ゲームフィールド上の位置と向きです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:24
 msgid ""
@@ -104,7 +104,7 @@ msgstr "設定"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:46
 msgid "*Skip this section if ...*"
-msgstr "* このセクションをスキップする場合...*"
+msgstr "*このセクションをスキップする場合...*"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:48
 msgid "*the active robot configuration already contains \"Webcam 1\", or*"
@@ -136,7 +136,7 @@ msgstr ""
 msgid ""
 "**Save and activate** that configuration; its name should appear on the "
 "paired Driver Station screen."
-msgstr " ** 保存し、有効化 ** して下さい；その名前はペアリングされたドライバー・ステーションの画面に表示されます。"
+msgstr "**保存し、有効化** して下さい；その名前はペアリングされたドライバー・ステーションの画面に表示されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:63
 msgid "Open the Sample OpMode"
@@ -258,7 +258,7 @@ msgid ""
 "**Camera Stream** preview can be accessed.  See the next section re.  "
 "previews."
 msgstr ""
-" ** INITのみをタッチしてください。 ** テレメトリは表示されませんが、この時点ではドライバーステーション（DS）の ** "
+"** INITのみをタッチしてください。 ** テレメトリは表示されませんが、この時点ではドライバーステーション（DS）の ** "
 "カメラストリームプレビュー ** にアクセスできます。次のセクションで詳細をご覧ください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:131
@@ -505,34 +505,34 @@ msgstr "これらの値を設定するには、カメラおよびロボットの
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:281
 msgid "**Camera axes:**"
-msgstr " ** カメラ軸: ** "
+msgstr "**カメラ軸:** "
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:283
 msgid "*Origin location:* Center of the lens"
-msgstr "* 原点位置:* レンズの中心"
+msgstr "*原点位置:* レンズの中心"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:284
 msgid ""
 "*Axes orientation:* +x right, +y down, +z forward (from camera's "
 "perspective)"
-msgstr "* 軸の向き:* +xは右、+yは下、+zはカメラから見た前方（から）"
+msgstr "*軸の向き:* +xは右、+yは下、+zはカメラから見た前方（から）"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:286
 msgid ""
 "**Robot axes:** (this is typical, but you can define this however you want)"
-msgstr " ** ロボットの軸: ** (これは一般的ですが、あなたがどのように定義したいかによって異なります)"
+msgstr "**ロボットの軸:** (これは一般的ですが、あなたがどのように定義したいかによって異なります)"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:288
 msgid "*Origin location:* Center of the robot at field height"
-msgstr "* 原点位置:* フィールド高さでのロボットの中心"
+msgstr "*原点位置:* フィールド高さでのロボットの中心"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:289
 msgid "*Axes orientation:* +x right, +y forward, +z upward"
-msgstr "* 軸の向き:* +xは右、+yは前方、+zは上方"
+msgstr "*軸の向き:* +xは右、+yは前方、+zは上方"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:291
 msgid "**Position:**"
-msgstr " ** 位置: ** "
+msgstr "**位置:** "
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:293
 msgid ""
@@ -546,7 +546,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:298
 msgid "**Orientation:**"
-msgstr " ** 方向性: ** "
+msgstr "**方向性:** "
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:300
 msgid ""

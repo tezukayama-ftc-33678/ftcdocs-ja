@@ -54,7 +54,7 @@ msgid ""
 "feature. Most 3D printers you buy today will have this due to firmware "
 "updates, despite the age of the printer, but it should still be checked."
 msgstr ""
-" ** 熱 runaway保護 ** : "
+"** 熱 runaway保護 ** : "
 "この機能は、プリンターに取り付けられたサーモスタットがヒーターの入力と不一致で、温度のトレンドが意味がない場合、3Dプリンターが自身を停止するもののことです。これにより可能な火災を防ぐことができますので、この機能がない3Dプリンターは購入しないことが推奨されます。現在販売されている多くの3Dプリンターは、ファームウェアの更新によってこの機能を持っているため、プリンターの年式に関係なくチェックする必要があります。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/printer_choice.rst:14

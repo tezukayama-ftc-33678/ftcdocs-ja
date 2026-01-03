@@ -272,7 +272,7 @@ msgstr "|rename1|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:112
 msgid "Click on **Wi-Fi** to launch the Wi-Fi screen."
-msgstr " ** Wi-Fi ** をクリックしてWi-Fi画面を開きます。"
+msgstr "**Wi-Fi** をクリックしてWi-Fi画面を開きます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:113
 msgid "|rename2|"
@@ -289,7 +289,7 @@ msgstr "|rename3|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:118
 msgid "Select **Advanced** from the pop-up menu."
-msgstr "ポップアップメニューから ** 詳細設定 ** を選択します。"
+msgstr "ポップアップメニューから **詳細設定** を選択します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:119
 msgid "|rename4|"
@@ -297,7 +297,7 @@ msgstr "|rename4|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:121
 msgid "Select **Wi-Fi Direct** from the **Advanced Wi-Fi** screen."
-msgstr "選択する ** Wi-Fi Direct ** from the ** Advanced Wi-Fi ** screen."
+msgstr "選択する **Wi-Fi Direct** from the **Advanced Wi-Fi** screen."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:122
 msgid "|rename5|"
@@ -309,7 +309,7 @@ msgstr "|rename6|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:127
 msgid "Select **Configure Device** from the pop-up menu."
-msgstr "選択する ** Configure Device ** from the pop-up menu."
+msgstr "選択する **Configure Device** from the pop-up menu."
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:128
 msgid "|rename7|"
@@ -369,7 +369,7 @@ msgstr ""
 msgid ""
 "**As of 2021, the SDK apps (v 6.1 and higher) are no longer available on "
 "Google Play.**"
-msgstr " ** 2021年以降、SDKアプリ（バージョン6.1以上）はGoogle Playから利用できなくなりました。 ** "
+msgstr "**2021年以降、SDKアプリ（バージョン6.1以上）はGoogle Playから利用できなくなりました。** "
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:151
 msgid ""
@@ -381,8 +381,7 @@ msgid ""
 msgstr ""
 "REV Hardware Client (<https://docs.revrobotics.com/rev-hardware-client/>) "
 "のソフトウェアを使用すると、REV Robotics Control Hub、REV Robotics Expansion Hub、REV "
-"Robotics Driver Hub、およびその他の承認されたAndroidデバイスにアプリケーションをダウンロードできます (* "
-"以下参照してください。セクション名は「Androidスマートフォン上のアプリ更新」です *)。以下はその一部の利点です："
+"Robotics Driver Hub、およびその他の承認されたAndroidデバイスにアプリケーションをダウンロードできます (*以下参照してください。セクション名は「Androidスマートフォン上のアプリ更新」です*)。以下はその一部の利点です："
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:157
 msgid "Connect to a REV Robotics Control Hub via WiFi."
@@ -1030,7 +1029,7 @@ msgid ""
 "Verify that the **Wifi Direct** mode is selected, which means that this "
 "DRIVER STATION will be pairing with another Android device."
 msgstr ""
-" ** Wifi Direct ** モードが選択されていることを確認してください。これにより、このDRIVER "
+"** Wifi Direct ** モードが選択されていることを確認してください。これにより、このDRIVER "
 "STATIONは他のAndroidデバイスとペアリングされます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:418

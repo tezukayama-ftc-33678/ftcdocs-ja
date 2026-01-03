@@ -222,7 +222,7 @@ msgstr "``@TeleOp``"
 msgid ""
 "If you wanted to change this OpMode to an autonomous OpMode, you would "
 "replace the ``@TeleOp`` with an ``@Autonomous`` annotation instead."
-msgstr "もしこのOpModeを自動運転OpModeに変更したい場合、``@TeleOp`` を ``@Autonomous`` の Annotation に変更します。"
+msgstr "もしこのOpModeを自動運転OpModeに変更したい場合、``@TeleOp``を``@Autonomous`` の Annotation に変更します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:207
 msgid ""

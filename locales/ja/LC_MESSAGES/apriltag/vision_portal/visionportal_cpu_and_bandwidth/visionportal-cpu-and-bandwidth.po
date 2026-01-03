@@ -111,25 +111,25 @@ msgstr "最初の4つのアクションは、利益と対応について非公�
 msgid ""
 "**LiveView** \"Level 1\": some reduction of resources used, resumes very "
 "quickly after stopping"
-msgstr " ** LiveView ** 「レベル1」: リソースの使用量が一部削減され、停止後すぐに再開します"
+msgstr "**LiveView** 「レベル1」: リソースの使用量が一部削減され、停止後すぐに再開します"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:32
 msgid ""
 "**Processor(s)** \"Level 2\": more reduction of resources used, resumes "
 "quickly after stopping"
-msgstr " ** プロセッサ ** \\\"レベル2\\\"：リソースの使用量をさらに削減し、停止後すぐに再開します"
+msgstr "**プロセッサ** \\\"レベル2\\\"：リソースの使用量をさらに削減し、停止後すぐに再開します"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:33
 msgid ""
 "Camera Stream \"Level 3\": high reduction of resources used, resumes less "
 "quickly after stopping"
-msgstr " ** カメラストリーム ** \"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
+msgstr "**カメラストリーム** \"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:34
 msgid ""
 "**VisionPortal** \"Level 4\": maximum reduction of resources used, do not "
 "resume after stopping"
-msgstr " ** VisionPortal ** \"レベル4\": リソースの使用量を最大限に削減、停止後は再開しない"
+msgstr "**VisionPortal** \"レベル4\": リソースの使用量を最大限に削減、停止後は再開しない"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:37
 msgid "Camera Status"
@@ -299,7 +299,7 @@ msgstr "ブロック"
 msgid ""
 "These are found in the ``VisionPortal`` toolbox, or palette, under the "
 "``Vision`` category."
-msgstr "これらは ``VisionPortal`` ツールボックスやパレット内の ``ビジョン`` カテゴリにあります。"
+msgstr "これらは ``VisionPortal``ツールボックスやパレット内の``ビジョン`` カテゴリにあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst
 msgid "Toggle LiveView"
@@ -478,7 +478,7 @@ msgstr ""
 msgid ""
 "Accordingly, the SDK offers no corresponding ``reopen()`` or ``resume()`` "
 "method."
-msgstr "従って、SDK には対応する ``reopen()`` や ``resume()`` メソッドは用意されていません。"
+msgstr "従って、SDK には対応する ``reopen()``や``resume()`` メソッドは用意されていません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:281
 msgid ""
@@ -520,7 +520,7 @@ msgid ""
 "**Blocking** means the latest function doesn't return immediately.  So the "
 "code is temporarily \"stuck\" there, as if executing a ``sleep()`` command."
 msgstr ""
-" ** ブロッキング ** "
+"** ブロッキング ** "
 "とは、最新の関数がすぐに返さないことを意味します。そのためコードは一時的に「止まっている」という状態になり、``sleep()`` "
 "コマンドと同じように実行されます。"
 
@@ -549,7 +549,7 @@ msgstr "CPU管理選択肢"
 msgid ""
 "So far, there are **10 possible configurations** to evaluate CPU "
 "performance, using only the vision process controls discussed above:"
-msgstr "これまでに、上記で述べたビジョンプロセス制御のみを使用して評価するための ** 10種類の可能な構成 ** があります："
+msgstr "これまでに、上記で述べたビジョンプロセス制御のみを使用して評価するための **10種類の可能な構成** があります："
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:312
 msgid "VisionPortal closed"
@@ -817,7 +817,7 @@ msgstr "現時点では、これらの内容は興味のあるユーザーに調
 msgid ""
 "All of the above features are easily found in the **FTC Blocks** toolboxes, "
 "or palettes, under Vision category."
-msgstr "すべての機能は、Visionカテゴリの下にある ** FTC ブロック ** ツールボックスやパレットで簡単に見つけることができます。"
+msgstr "すべての機能は、Visionカテゴリの下にある **FTC ブロック** ツールボックスやパレットで簡単に見つけることができます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:454
 msgid ""
@@ -828,4 +828,4 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:460
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "* 質問、ご意見や訂正はwestsiderobotics@verizon.netまで *"
+msgstr "*質問、ご意見や訂正はwestsiderobotics@verizon.netまで*"

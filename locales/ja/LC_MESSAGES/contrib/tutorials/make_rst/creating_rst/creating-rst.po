@@ -175,7 +175,7 @@ msgid ""
 "repository, that folder is the ``docs/`` folder. The ``docs/`` folder is "
 "where the top-level build definitions are for building the documentation."
 msgstr ""
-" ** リポジトリのメインフォルダ ** 内には、プロジェクトの実際のファイルが入ったフォルダ Almost always は「ほぼ常に」で表現します。- "
+"** リポジトリのメインフォルダ ** 内には、プロジェクトの実際のファイルが入ったフォルダ Almost always は「ほぼ常に」で表現します。- "
 "たいていの場合、そのフォルダは ``docs/`` フォルダです。``docs/`` "
 "フォルダは、ドキュメンテーションを構築するためのトップレベルのビルド定義が格納されている場所です。"
 
@@ -225,7 +225,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:120
 msgid "*Repository Location*"
-msgstr "* リポジトリの場所 *"
+msgstr "*リポジトリの場所*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:118
 msgid ""
@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:128
 msgid "*Document Location*"
-msgstr "* ドキュメントの位置 *\"\\n"
+msgstr "*ドキュメントの位置*\"\\n"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:123
 msgid ""
@@ -273,7 +273,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:147
 msgid ":octicon:`file-directory;1em;sd-text-info` *_assets*"
-msgstr ":octicon:`file-directory;1em;sd-text-info` *_資産 *"
+msgstr ":octicon:`file-directory;1em;sd-text-info` *_資産*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:140
 msgid ""
@@ -388,11 +388,11 @@ msgstr ""
 msgid ""
 "Each content page is defined by a reStructuredText file with an **.rst** "
 "extension."
-msgstr "各コンテンツページは、 ** .rst ** 拡張子の reStructuredText ファイルで定義されます。"
+msgstr "各コンテンツページは、 **.rst** 拡張子の reStructuredText ファイルで定義されます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:195
 msgid "Each **.rst** file is defined within its own folder."
-msgstr "各 ** .rst ** ファイルは、それぞれのフォルダで定義されます。"
+msgstr "各 **.rst** ファイルは、それぞれのフォルダで定義されます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:196
 msgid ""

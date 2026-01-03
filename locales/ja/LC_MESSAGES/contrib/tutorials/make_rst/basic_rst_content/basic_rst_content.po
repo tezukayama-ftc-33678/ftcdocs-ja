@@ -165,11 +165,11 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:66
 msgid "**Before**"
-msgstr " ** 前段階 ** "
+msgstr "**前段階** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:76
 msgid "**After**"
-msgstr " ** その後 ** "
+msgstr "**その後** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:88
 msgid "Simple Paragraph Content"
@@ -218,7 +218,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:122
 msgid "**would be ultimately rendered on a webpage as:**"
-msgstr " ** 最終的にウェブページ上で表示される内容は: ** "
+msgstr "**最終的にウェブページ上で表示される内容は:** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:124
 msgid ""
@@ -262,7 +262,7 @@ msgstr "インデントについて話しましたよね？段落のインデン
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:163
 msgid "**This will be rendered as:**"
-msgstr " ** これはレンダリングされます: ** "
+msgstr "**これはレンダリングされます:** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:165
 msgid "This is the first paragraph. It might be one or more lines."
@@ -500,7 +500,7 @@ msgstr "The standard Text Formatting Markup is quite simple - use:"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:341
 msgid "One Asterisk: \\*text\\* for emphasis (italics) - like *text*"
-msgstr "One Asterisk: \\*text\\* for emphasis (italics) - like *text*"
+msgstr "One Asterisk: \\*text\\*for emphasis (italics) - like*text*"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:342
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
@@ -564,15 +564,15 @@ msgstr "Here are a few examples:"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:380
 msgid "This is **bold** text in **this document**."
-msgstr "This is **bold** text in **this document**."
+msgstr "This is **bold**text in**this document**."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:382
 msgid "This is *italic* text in *this document*."
-msgstr "This is *italic* text in *this document*."
+msgstr "This is *italic*text in*this document*."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:384
 msgid "This is ``literal`` text in ``this document``."
-msgstr "This is ``literal`` text in ``this document``."
+msgstr "This is ``literal``text in``this document``."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:386
 msgid ""
@@ -656,7 +656,7 @@ msgstr ""
 msgid ""
 "The name ``anchor`` can be replaced by any descriptor, like for example: "
 "``.. first-example:``"
-msgstr "The name ``anchor`` can be replaced by any descriptor, like for example: ``.. first-example:``"
+msgstr "The name ``anchor``can be replaced by any descriptor, like for example:``.. first-example:``"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:427
 msgid ""
@@ -676,7 +676,7 @@ msgstr "This is simply the anchor descriptor"
 msgid ""
 "Therefore, in order to reference the ``.. first-example:`` anchor, you would"
 " use ``first-example_`` as the link text in your content."
-msgstr "Therefore, in order to reference the ``.. first-example:`` anchor, you would use ``first-example_`` as the link text in your content."
+msgstr "Therefore, in order to reference the ``.. first-example:``anchor, you would use``first-example_`` as the link text in your content."
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:439
 msgid "Links with Anchors Example"
@@ -688,7 +688,7 @@ msgstr "Plain 文字で表示すると、以下のように見える可能性が
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:451
 msgid "**And this would be rendered as:**"
-msgstr " ** これは以下のように表示されます: ** "
+msgstr "**これは以下のように表示されます:** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:453
 msgid ""
@@ -737,7 +737,7 @@ msgstr "平文で表示すると、以下のように見えます::"
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:486
 msgid ""
 "**And here's how it would be rendered (click the link to jump to the top):**"
-msgstr " ** 以下はそのレンダリング方法です（リンクをクリックしてトップに移動します）: ** "
+msgstr "**以下はそのレンダリング方法です（リンクをクリックしてトップに移動します）:** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:488
 msgid "`Basic rST Content`_"
@@ -777,7 +777,7 @@ msgstr "例えば、単に以下のように記述するだけです::"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:512
 msgid "**creates the rendered text with the link embedded:**"
-msgstr " ** リンクが埋め込まれた表示テキストを作成します: ** "
+msgstr "**リンクが埋め込まれた表示テキストを作成します:** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:514
 msgid "*FIRST* Website: https://www.firstinspires.org"
@@ -824,7 +824,7 @@ msgstr "_（アンダースコア）文字が続く"
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:538
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:546
 msgid "**would be rendered as:**"
-msgstr " ** 表示される内容は: ** "
+msgstr "**表示される内容は:** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:540
 msgid "`Microsoft <https://microsoft.com/en-us>`_"
@@ -875,7 +875,7 @@ msgstr "画像ディレクティブでサポートされるオプションは以
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:582
 msgid "alt : *text*"
-msgstr "alt : * テキスト *"
+msgstr "alt : *テキスト*"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:581
 msgid "text"
@@ -1128,7 +1128,7 @@ msgstr "例えば、次の単純なリスト例を考えてみましょう::"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:731
 msgid "Here are examples of **incorrectly** formatted bullet lists::"
-msgstr "以下は、 ** 不適切に ** フォーマットされたポイントリストの例です::"
+msgstr "以下は、 **不適切に** フォーマットされたポイントリストの例です::"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:742
 msgid "Enumerated Lists"
@@ -1273,7 +1273,7 @@ msgstr "例::\\n"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:848
 msgid "**Once rendered, this looks like:**"
-msgstr " ** レンダリング一旦完了すると、これは次のようになります: ** "
+msgstr "**レンダリング一旦完了すると、これは次のようになります:** "
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:850
 msgid "term 1"

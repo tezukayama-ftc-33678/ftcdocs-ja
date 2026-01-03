@@ -241,7 +241,7 @@ msgid ""
 "Because the Camera Stream feature is only available during the INIT phase of"
 " an Op Mode, you must ensure that the VisionPortal is activated in your Op "
 "Mode **before** the waitForStart command:"
-msgstr "カメラストリーム機能はOpModeのINITフェーズ期間中にのみ利用可能ですので、waitForStartコマンド実行 ** 以前 ** にVisionPortalをアクティブ化する必要があります："
+msgstr "カメラストリーム機能はOpModeのINITフェーズ期間中にのみ利用可能ですので、waitForStartコマンド実行 **以前** にVisionPortalをアクティブ化する必要があります："
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
 msgid ""

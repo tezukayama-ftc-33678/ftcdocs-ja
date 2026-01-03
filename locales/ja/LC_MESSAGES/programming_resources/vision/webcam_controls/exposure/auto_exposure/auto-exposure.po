@@ -43,7 +43,7 @@ msgid ""
 "If the webcam’s built-in auto-exposure detects that the image is very dark, "
 "AE Priority **allows the frame rate to decrease**. This slowdown, or "
 "‘undershoot’, allows more light per frame, which can ‘brighten’ the image."
-msgstr "もしウェブカメラの内蔵AUTOエクスポージャーが画像が非常に暗いと検出した場合、AEプライオリティは ** フレームレートを低下させる ** ことができます。この遅延、または「欠 Shoot」は、1 フレームあたりの光量を増やすことができ、これにより画像が「明るく」なることがあります。"
+msgstr "もしウェブカメラの内蔵AUTOエクスポージャーが画像が非常に暗いと検出した場合、AEプライオリティは **フレームレートを低下させる** ことができます。この遅延、または「欠 Shoot」は、1 フレームあたりの光量を増やすことができ、これにより画像が「明るく」なることがあります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/exposure/auto_exposure/auto-exposure.rst:17
 msgid "Its methods are:"

@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:13
 msgid "**FTC Driver Station Practice Timer**"
-msgstr " ** FIRST Tech Challenge ドライバーステーション練習タイマー ** "
+msgstr "**FIRST Tech Challenge ドライバーステーション練習タイマー** "
 
 #: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:15
 msgid ""
@@ -90,7 +90,7 @@ msgid ""
 " Practice Timer also runs independently of other activities, therefore "
 "OpModes can be selected, started, stopped, reselected, and so on while the "
 "Practice Timer is running without affecting the timer."
-msgstr "* どのように動作しますか？ * ドライバステーションアプリの左上に「練習タイマー窓口」が表示されます。これは「練習タイマー」というヘッダーを持ち、可能な練習マッチの残り時間と「PLAY（開始）」ボタンを含みます。この練習タイマー領域は、実行中のOpModeやその他のアクティビティに関係なく常に表示されます。また、練習タイマーが動作している間も、他のアクティビティとは独立して動作するため、OpModeを選択し、開始し、停止し、再選択することができます。"
+msgstr "*どのように動作しますか？* ドライバステーションアプリの左上に「練習タイマー窓口」が表示されます。これは「練習タイマー」というヘッダーを持ち、可能な練習マッチの残り時間と「PLAY（開始）」ボタンを含みます。この練習タイマー領域は、実行中のOpModeやその他のアクティビティに関係なく常に表示されます。また、練習タイマーが動作している間も、他のアクティビティとは独立して動作するため、OpModeを選択し、開始し、停止し、再選択することができます。"
 
 #: ../../source/tech_tips/tech-tips/tech-tip-practice-timer/tech-tip-practice-timer.rst:47
 msgid "Image showing Practice Timer Window"

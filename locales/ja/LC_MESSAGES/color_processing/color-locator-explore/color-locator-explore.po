@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:13
 msgid "ColorLocator has only two required **inputs**\\ :"
-msgstr "ColorLocatorにはOnly two required ** inputs ** \\ があります："
+msgstr "ColorLocatorにはOnly two required **inputs** \\ があります："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:15
 msgid "target color range"
@@ -57,7 +57,7 @@ msgstr "これらは複数の方法で指定できます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:20
 msgid "This Explore page covers **settings** that are already in the Sample:"
-msgstr "このExploreページでは、Sampleに既に含まれている ** 設定 ** について説明しています："
+msgstr "このExploreページでは、Sampleに既に含まれている **設定** について説明しています："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:22
 msgid "which contour types to process"
@@ -124,7 +124,7 @@ msgstr "ターゲットの色の範囲"
 msgid ""
 "The \"target color\" is actually a **range** of numerical color values, for "
 "a better chance of finding the desired color."
-msgstr "「ターゲットカラー」は、目的の色を見つけるためのより良い確率を得るために、実際には数値的な色値の ** 範囲 ** を指します。"
+msgstr "「ターゲットカラー」は、目的の色を見つけるためのより良い確率を得るために、実際には数値的な色値の **範囲** を指します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:49
 msgid ""
@@ -153,7 +153,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:393
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:446
 msgid "Select and read the Blocks **or** Java section below:"
-msgstr "以下のBlocks ** または ** Javaのセクションを選択し、読み進めてください："
+msgstr "以下のBlocks **または** Javaのセクションを選択し、読み進めてください："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "Blocks"
@@ -362,7 +362,7 @@ msgid ""
 " to satisfy the \"odd number\" requirement.  Blurring too much may hide "
 "smaller features.  A \"pixels\" size of 5 is good for a 320x240 image."
 msgstr ""
-" ** 画像のぼけ味 ** "
+"** 画像のぼけ味 ** "
 "を加えると、オブジェクト間の色トランジションが平滑になり、さらに滑らかな輪郭も得られます。ピクセル数が増えるほど、画像はよりぼけ味が強くなります。注意：「ピクセル」値は、「奇数」要求を満たすためにインクリメントされます。「ピクセル」サイズが大きすぎると、小さな特徴が隠れてしまう可能性があります。320x240の画像では、「ピクセル」サイズ5が適しています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:248
@@ -372,7 +372,7 @@ msgid ""
 "objects.  A \"pixels\" value in the range of 2-4 is suitable for low res "
 "images."
 msgstr ""
-" ** エрозション ** "
+"** エрозション ** "
 "は浮遊ピクセルと細い線を除去し、実質的なオブジェクトのみが残ります。エrozションは領域内部に穴を拡大し、またオブジェクトを縮小することもあります。解像度の低い画像では、'pixels'値を2〜4の範囲で設定するのが適しています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:253
@@ -383,7 +383,7 @@ msgid ""
 "from an image.  A \"pixels\" value in the range of 2-4 is suitable for low "
 "res images."
 msgstr ""
-" ** 膨張処理 ** "
+"** 膨張処理 ** "
 "は、小さな穴を埋めて物体がより見えやすくし、線を太く見せ、塗りつぶされた形状を大きく見せる機能です。膨張処理は、画像からノイズを取り除く際など、物体の破損した部分を結合するのに有用です。低解像度の画像では、\"ピクセル\"値が2-4程度が適しています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
@@ -543,7 +543,7 @@ msgid ""
 " large range and then refine the range based on the likely size of the "
 "desired object in the viewfinder."
 msgstr ""
-" ** Util.filterByArea() ** "
+"** Util.filterByArea() ** "
 "ブロブの面積は、カウンtour内に含まれるピクセル数です。面積が大きすぎたり小さすぎたりのものをフィルタリングして除外します。最初は広い範囲から始めて、視野"
 " Finder 内で望むオブジェクトの可能性のあるサイズに基づいて範囲を refining します。"
 
@@ -554,7 +554,7 @@ msgid ""
 "the \"Convex Hull\" of the contour.  The density is the ratio of Contour-"
 "area to Convex Hull-area."
 msgstr ""
-" ** Util.filterByDensity() ** ブロブの密度は、コン Tour の「満度」を示す指標です。コン Tour を rubber "
+"** Util.filterByDensity() ** ブロブの密度は、コン Tour の「満度」を示す指標です。コン Tour を rubber "
 "band で囲むと、「凸包」が得られます。密度は、コン Tour の面積に対する凸包の面積の比です。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:388
@@ -563,7 +563,7 @@ msgid ""
 "**boxFit** long side to short side.  A perfect square has an aspect ratio of"
 " 1.  All others are > 1"
 msgstr ""
-" ** Util.filterByAspectRatio() ** は、ブロブのアスペクト比を計算する関数です。アスペクト比は、 ** boxFit "
+"** Util.filterByAspectRatio() ** は、ブロブのアスペクト比を計算する関数です。アスペクト比は、 ** boxFit "
 "** の長辺と短辺の比率を表します。完全な正方形の場合、アスペクト比は1になります。それ以外のすべての場合は、アスペクト比が1より大きいことになります。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
@@ -629,8 +629,7 @@ msgid ""
 "above.  No more than one sort call should be made.  Sorting can use "
 "ascending or descending order.*"
 msgstr ""
-"*Blobのリストは、上記でリストされた同じBlob属性を使用してソートできます。ソート呼び出しは最大1回までです。ソートは昇順または降順を使用できます。"
-" *"
+"*Blobのリストは、上記でリストされた同じBlob属性を使用してソートできます。ソート呼び出しは最大1回までです。ソートは昇順または降順を使用できます。*"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:457
@@ -714,4 +713,4 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:504
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "* 質問、コメント、訂正についてはwestsiderobotics@verizon.netまで *\\n"
+msgstr "*質問、コメント、訂正についてはwestsiderobotics@verizon.netまで*\\n"

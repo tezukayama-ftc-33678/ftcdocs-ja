@@ -38,7 +38,7 @@ msgid ""
 "**Additive Manufacturing**: The method of creating a part by building "
 "material layer by layer from a CAD model (more commonly known as 3D "
 "Printing)"
-msgstr " ** 追加製造 ** : CADモデル（一般的には3Dプリンティングと呼ばれる）から層を重ねて素材で部品を作成する方法です。"
+msgstr "**追加製造** : CADモデル（一般的には3Dプリンティングと呼ばれる）から層を重ねて素材で部品を作成する方法です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:11
 msgid ""
@@ -46,7 +46,7 @@ msgid ""
 "where objects are produced by laying plastics layer by layer on a bed "
 "utilizing a heated nozzle."
 msgstr ""
-" ** 融着堆積造形（FDM） ** : "
+"** 融着堆積造形（FDM） ** : "
 "最も一般的な3Dプリンティングの種類で、物体は加熱ノズルを使用してプラストックを層ごとにベッド上に積み重ねることで生成されます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:13
@@ -56,7 +56,7 @@ msgid ""
 "materials are generally weaker and prints require a lot more post processing"
 " (hence the lack in FTC)."
 msgstr ""
-" ** 立体光固化（SLA） ** : "
+"** 立体光固化（SLA） ** : "
 "3Dプリンティングの一種で、UVスクリーンを使用してプラスチック樹脂をベッドに硬化させるもの。より精密ではありますが、材料は一般的に弱く、プリント後処理が必要が多く（そのためFTCでの使用が少ない）。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:15
@@ -67,7 +67,7 @@ msgid ""
 "together patterns in material powder, eventually resulting in a complete "
 "part."
 msgstr ""
-" ** 選択的レーザーシンタリング (SLS) ** : 3Dプリンティングの最も一般的でない1種類であり、これらの機械はコストが高く FIRST "
+"** 選択的レーザーシンタリング (SLS) ** : 3Dプリンティングの最も一般的でない1種類であり、これらの機械はコストが高く FIRST "
 "のキャリア中で遭遇する可能性が低いです。SLS機械は集中したレーザーを使用して素材の粉末にパターンを結合し、最終的に完全な部品を作成します。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:17
@@ -77,7 +77,7 @@ msgid ""
 " PET-G, ABS, Nylon, and Acrylic. These generally come in continuous rolls "
 "that you feed into your printer."
 msgstr ""
-" ** フィラメント ** : "
+"** フィラメント ** : "
 "一定温度を超えると軟化し、冷却すると硬化するポリマー樹脂から作られたプラスチックです。一般的なフィラメントにはPLA、PET-G、ABS、ナイロン、アクリルが含まれます。これらは通常、プリンターに供給するために連続したロールで提供されます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:19
@@ -86,7 +86,7 @@ msgid ""
 "on the carriage together with the hotend assembly, shortening the distance "
 "that filament needs to travel significantly."
 msgstr ""
-" ** 直接駆動 ** : 一種のFDM "
+"** 直接駆動 ** : 一種のFDM "
 "Extruderで、extruderモーターが熱端アセンブリと一緒に車両に設置されることで、フィラメントが必要とする行程を大幅に短縮します。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:21
@@ -95,7 +95,7 @@ msgid ""
 "different spot on the printer separate from the carriage and runs filament "
 "through a long PTFE tube to reach the hotend."
 msgstr ""
-" ** ボウデン ** : FDM（フィルAMENT直接メソッド） Extruderの一種で、 "
+"** ボウデン ** : FDM（フィルAMENT直接メソッド） Extruderの一種で、 "
 "Extruderはプリンター上の車両から離れた場所に設置され、フィラメントを通じて長いPTFE管を介してヒートエンドまで届けるものです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:25
@@ -106,37 +106,37 @@ msgstr "3Dプリンター部品"
 msgid ""
 "**Carriage**: The moving head of a printer that contains the hotend "
 "assembly."
-msgstr " ** カートリッジ ** : プリンターの移動ヘッドで、ホットエンドアセンブリを含むもの。"
+msgstr "**カートリッジ** : プリンターの移動ヘッドで、ホットエンドアセンブリを含むもの。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:29
 msgid ""
 "**Bed**: The heated (or sometimes nonheated) surface that filament is laid "
 "upon."
-msgstr " ** ベッド ** : フィラメントが敷き詰められる加熱（または時々加熱されていない）面です。"
+msgstr "**ベッド** : フィラメントが敷き詰められる加熱（または時々加熱されていない）面です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:31
 msgid ""
 "**Hotend**: The part that melts filament it typically consists of a heat "
 "sink, heater, thermistor, and metal nozzle."
-msgstr " ** ホットエンド ** : フィラメントを溶かす部分で、通常はヒートシンク、ヒータ、サーモスタット、金属ノズルから構成されています。"
+msgstr "**ホットエンド** : フィラメントを溶かす部分で、通常はヒートシンク、ヒータ、サーモスタット、金属ノズルから構成されています。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:33
 msgid ""
 "**Gantry**: The frame structure that supports the printing head/hotend as it"
 " moves."
-msgstr " ** Gantry ** : プリンタヘッド/ヒートエンドが動く際に支持するフレーム構造。"
+msgstr "**Gantry** : プリンタヘッド/ヒートエンドが動く際に支持するフレーム構造。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:35
 msgid ""
 "**Stepper Motor**: The small motors that move each axis of the printer with "
 "precision."
-msgstr " ** ステッピングモータ ** : プリンターの各軸を精密に動かす小さなモーターです。"
+msgstr "**ステッピングモータ** : プリンターの各軸を精密に動かす小さなモーターです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:37
 msgid ""
 "**Extruder**: The stepper motor that moves filament into and out of the "
 "hotend, whether from up close or far away."
-msgstr " ** Extruder ** : 熱弁端にフィラメントを近接または遠隔で投入・排出するためのステッピングモータです。"
+msgstr "**Extruder** : 熱弁端にフィラメントを近接または遠隔で投入・排出するためのステッピングモータです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:39
 msgid ""
@@ -144,7 +144,7 @@ msgid ""
 "moves the filament. Extruders can be either single drive gear or dual drive "
 "gear, with dual having more grip."
 msgstr ""
-" ** ドライブギア ** : "
+"** ドライブギア ** : "
 "エクストラダステッピングモーターに設置され、フィルAMENTを握りしめ・移動させるギアです。エクストラダは単一ドライブギアまたはデュアルドライブギアのいずれかで、デュアルはより強い"
 " Grip を持っています。"
 
@@ -154,7 +154,7 @@ msgid ""
 "allows filament to pass through it. They are made of PTFE, a low friction "
 "compound that can degrade at higher temperatures."
 msgstr ""
-" ** ボウデンチューブ ** : "
+"** ボウデンチューブ ** : "
 "プリンターに設置されている滑らかな管で、フィラメントが通過できるようにします。このチューブはPTFEという低摩擦材料で作られており、高温下では劣化することがあります。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:43
@@ -163,7 +163,7 @@ msgid ""
 "interchangeable and the Z axis being up and down. There will normally be one"
 " or more steppers controlling each of these axes."
 msgstr ""
-" ** 軸 ** : "
+"** 軸 ** : "
 "3Dプリンターには3つの軸があります。X軸とY軸は互換性があり、Z軸は上下に動きます。これらの各軸を制御する1つまたは複数のステッピングモータが通常使用されます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:45
@@ -175,7 +175,7 @@ msgid ""
 "hotend cooling fan is directed at the hotend heat sink in order to prevent "
 "issues and help further dissapate heat."
 msgstr ""
-" ** 熱 Extruder 冷却ファン ** : すべての Extruder "
+"** 熱 Extruder 冷却ファン ** : すべての Extruder "
 "周囲にはヒートシンクがあり、熱を放散し、他のプリンタ機能に干渉しないようにします（熱 creep は、冷却が不十分な Extruder "
 "の共通問題で、フィラメントが自身に絡み合って押し出されない場合があります）。熱 Extruder 冷却ファンは Extruder "
 "ヒートシンクに向けて設置されており、問題を防ぐとともにさらに熱を放散します。"
@@ -188,7 +188,7 @@ msgid ""
 "important part of the printer for print quality. PLA is easily one of the "
 "most volatile materials when it comes to cooling."
 msgstr ""
-" ** 部品冷却ファン ** : 大部分のプリンターは、 nozzle "
+"** 部品冷却ファン ** : 大部分のプリンターは、 nozzle "
 "の下に冷却ファンを向けることで、部品が印刷されるときに冷却します。一部のフィラメントは冷却なしでは非常にきれいに印刷されないため、自体に垂れ下がる可能性がありますので、印刷品質にとって非常に重要な構成要素です。PLA"
 " は冷却に関して最も不安定な素材の一つであることがよくあります。"
 
@@ -202,7 +202,7 @@ msgid ""
 "variation\", saying that this is how much we expect parts to vary in size "
 "due to the inconsistency of manufacturing."
 msgstr ""
-" ** 許容誤差 ** : "
+"** 許容誤差 ** : "
 "「公式的に定義される範囲」として「許容される変動の限界」と表現され、これは製造過程における不均一性により部品のサイズがどれだけ異なることを期待しているかを示します。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:56
@@ -211,7 +211,7 @@ msgid ""
 " pressed together and stay together, whether that be a bearing in a hole or "
 "two 3D Printed parts snapping together."
 msgstr ""
-" ** 押し合わせ寸法/干渉寸法 ** : "
+"** 押し合わせ寸法/干渉寸法 ** : "
 "規格内で部品を押し合わせて接合し、その後も離れないようにすることができる寸法。例えば穴に嵌め込まれたベアリングや3Dプリンタで作られた2つの部品が噛み合う寸法。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/terminology/terminology.rst:58
@@ -220,5 +220,5 @@ msgid ""
 "pass through another, for example being able to drop an M4 screw into a hole"
 " with little to no resistance."
 msgstr ""
-" ** 通過穴/スルーホール/スリップフィット ** : "
+"** 通過穴/スルーホール/スリップフィット ** : "
 "1つの部品が別の部品を通る際に生じる許容誤差で、例えばM4のネジをわずかな抵抗もなく穴に落とすことができる程度の精度。"

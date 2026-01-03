@@ -50,7 +50,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:15
 msgid ""
 "**Try these examples in order**, to master the use of AprilTag Libraries."
-msgstr " ** これらの例を順に試してみてください ** 、AprilTagライブラリの使用方法をマスターしましょう。"
+msgstr "**これらの例を順に試してみてください** 、AprilTagライブラリの使用方法をマスターしましょう。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:19
 msgid "The Easy Way"
@@ -150,7 +150,7 @@ msgstr "``2, オインk, 0.166, DistanceUnit.METER``"
 msgid ""
 "After Kickoff in September 2023, these will be replaced (in SDK 9.0) by the "
 "**real tags** for CENTERSTAGE."
-msgstr "2023年9月のキックオフ後、これらはSDK 9.0で ** 実際のタグ ** に置き換わります。"
+msgstr "2023年9月のキックオフ後、これらはSDK 9.0で **実際のタグ** に置き換わります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:77
 msgid ""
@@ -167,7 +167,7 @@ msgstr "AprilTag プロセッサー"
 msgid ""
 "Specifying **any aspect** of a Processor is done with a **Processor "
 "Builder**, requiring at least 2 commands:"
-msgstr "任意のプロセッサの ** アспект ** を指定するには、最低でも2つのコマンドが必要で、 ** プロセッサビルダー ** を使用します："
+msgstr "任意のプロセッサの **アспект** を指定するには、最低でも2つのコマンドが必要で、 **プロセッサビルダー** を使用します："
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:87
 msgid "create the Builder, using the Java keyword ``new``"
@@ -212,7 +212,7 @@ msgid ""
 "Processor Builder, and another Block to **finalize** the process with "
 "``.build()``."
 msgstr ""
-" ** Around this ** (before and after), place one Block to ** create ** the "
+"** Around this ** (before and after), place one Block to ** create ** the "
 "Processor Builder, and another Block to ** finalize ** the process with "
 "``.build()``. ** Around this ** (before and after), place one Block to ** "
 "create ** the Processor Builder, and another Block to ** finalize ** the "
@@ -369,7 +369,7 @@ msgstr "タグライブラリにカスタムタグを追加する"
 msgid ""
 "The custom tag is added with **one new line** of code, otherwise the same as"
 " the previous example."
-msgstr "カスタムタグは ** 1行分のコード ** で追加します。それ以外の場合、前の例と同様です。"
+msgstr "カスタムタグは **1行分のコード** で追加します。それ以外の場合、前の例と同様です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:333
 msgid "Custom Tag - Variable"
@@ -406,7 +406,7 @@ msgstr ""
 msgid ""
 "The custom tag is added with **two lines** of code, replacing the **one new "
 "line** in the previous example."
-msgstr "カスタムタグは、前の例の ** 1つの改行 ** を ** 2行分のコード ** で置き換えて追加します。"
+msgstr "カスタムタグは、前の例の **1つの改行** を **2行分のコード** で置き換えて追加します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:395
 msgid ""

@@ -226,7 +226,7 @@ msgid ""
 "Note that treating the tile floor is something that **only the event host is"
 " authorized to do**. Teams are **not permitted** to treat the tile floor "
 "themselves."
-msgstr "タイルフロアの処理は、 ** イベントホストのみが権限を持つ作業 ** です。チームは ** 自己処理を許可されていません ** 。"
+msgstr "タイルフロアの処理は、 **イベントホストのみが権限を持つ作業** です。チームは **自己処理を許可されていません** 。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:131
 msgid "Step 2: Add Ferrite Chokes to Signal Wires"

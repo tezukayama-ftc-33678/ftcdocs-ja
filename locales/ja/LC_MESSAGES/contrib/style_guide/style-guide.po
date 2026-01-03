@@ -353,7 +353,7 @@ msgstr "One Asterisk: \\*text\\* には強調（イタリック）で「text」�
 
 #: ../../source/contrib/style_guide/style-guide.rst:186
 msgid "Two Asterisks: \\*\\*text\\*\\* for strong emphasis (boldface) - like **text**"
-msgstr "二重星付近: \\*\\*text\\*\\* で強調表示（太字）- 例: ** text ** "
+msgstr "二重星付近: \\*\\*text\\*\\* で強調表示（太字）- 例: **text** "
 
 #: ../../source/contrib/style_guide/style-guide.rst:187
 msgid "Two Backticks: \\`\\`text\\`\\` for literals - like ``text``"
@@ -798,7 +798,7 @@ msgid ""
 "External reference: https://www.nngroup.com/articles/gateway-pages-prevent-"
 "pdf-shock/"
 msgstr ""
-"外部リンク:<https://www.nngroup.com/articles/gateway-pages-prevent-pdf-shock/>"
+"外部リンク:<https://www.nngroup.com/articles/gateway-pages-prevent-pdf-shock/>`__"
 
 #: ../../source/contrib/style_guide/style-guide.rst:405
 msgid "Here's a gateway page example for the Field Setup Guide PDF."

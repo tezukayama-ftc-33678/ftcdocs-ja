@@ -42,7 +42,7 @@ msgid ""
 "Challenge teams **identify colors** and **process color blobs**\\ , useful "
 "in any game requiring color and shape recognition."
 msgstr ""
-" Introduced with INTO THE DEEP, these new features will help *FIRST* Tech "
+"Introduced with INTO THE DEEP, these new features will help *FIRST* Tech "
 "Challenge teams ** identify colors ** and ** process color blobs ** \\ , useful "
 "in any game requiring color and shape recognition."
 
@@ -110,13 +110,13 @@ msgstr "新しいソフトウェアにはこれらのプロセッサが含まれ
 msgid ""
 "**Color Sensor** - detects the color of a specified zone in the camera's "
 "view"
-msgstr " ** 色センサー ** - カメラの視野内の指定されたゾーンの色を検出します"
+msgstr "**色センサー** - カメラの視野内の指定されたゾーンの色を検出します"
 
 #: ../../source/color_processing/index.rst:53
 msgid ""
 "**Color Locator** - gives detailed info on clusters of a specified color, in"
 " a specified zone"
-msgstr " ** 色検出装置 ** - 指定された色のクラスタに関する詳細情報を指定されたゾーンで提供します"
+msgstr "**色検出装置** - 指定された色のクラスタに関する詳細情報を指定されたゾーンで提供します"
 
 #: ../../source/color_processing/index.rst:56
 msgid ""
@@ -165,7 +165,7 @@ msgstr "このチュートリアルの順序に従って、まず :doc:`色セ�
 msgid ""
 "Then read about **Color Blob Concepts**\\ , and try the **Color Locator** "
 "Sample OpModes."
-msgstr "次に、 ** 色のブロブ概念 ** について読み、 ** 色検出サンプルオモード ** を試してみてください。"
+msgstr "次に、 **色のブロブ概念** について読み、 **色検出サンプルオモード** を試してみてください。"
 
 #: ../../source/color_processing/index.rst:79
 msgid ""

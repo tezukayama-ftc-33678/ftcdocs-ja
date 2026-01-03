@@ -82,11 +82,11 @@ msgstr "設定"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:40
 msgid "*Skip this section if ...*"
-msgstr "* このセクションをスキップする場合...*"
+msgstr "*このセクションをスキップする場合...*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:43
 msgid "*the active robot configuration already contains \"Webcam 1\"*, or"
-msgstr "* 現在のロボット設定に「Webcam 1」が含まれている場合、 *\\n"
+msgstr "*現在のロボット設定に「Webcam 1」が含まれている場合、*\\n"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:44
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
@@ -243,12 +243,12 @@ msgstr ""
 msgid ""
 "**It's working!**  You have a color sensor in your robot camera.  Think "
 "about how to use this in the FTC Robot Game."
-msgstr " ** 動いています！ ** ロボットカメラに色センサーがあります。FTCロボットゲームでどのように使用するか考えみてください。"
+msgstr "**動いています！** ロボットカメラに色センサーがあります。FTCロボットゲームでどのように使用するか考えみてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:129
 msgid ""
 "*Skip the next two sections if you already know how to use FTC previews.*"
-msgstr "*FTCプレビューを使用する方法が既に分かっている場合は、次の2つのセクションをスキップできます。 *"
+msgstr "*FTCプレビューを使用する方法が既に分かっている場合は、次の2つのセクションをスキップできます。*"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:132
 msgid "DS Preview"
@@ -265,7 +265,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:138
 msgid "**Opening the DS Preview**"
-msgstr " ** ドライバーステーションのプレビューを開く ** "
+msgstr "**ドライバーステーションのプレビューを開く** "
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:140
 msgid ""
@@ -344,7 +344,7 @@ msgstr "サンプルを編集"
 msgid ""
 "This Sample OpMode is designed for the user to select/edit **two inputs**\\ "
 ":"
-msgstr "このサンプルOpModeは、ユーザーが ** 2つの入力 ** を選択/編集できるように設計されています："
+msgstr "このサンプルOpModeは、ユーザーが **2つの入力** を選択/編集できるように設計されています："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:189
 msgid "define the Region of Interest (ROI)"
@@ -374,7 +374,7 @@ msgstr "正規化された+/-1.0座標系で定義されたサブ領域"
 msgid ""
 "For the **second input**, you must list the candidate colors from which a "
 "result will be selected as a \"Match\"."
-msgstr "第二入力 ** で ** , 候補色をリストし、それから選ばれる結果が「一致」として扱われるものとして挙げてください。"
+msgstr "第二入力 **で** , 候補色をリストし、それから選ばれる結果が「一致」として扱われるものとして挙げてください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:201
 msgid ""
@@ -388,7 +388,7 @@ msgstr ""
 msgid ""
 "**The Blocks and Java OpModes contain detailed comments to guide you through"
 " these edits.**  They are not repeated in this tutorial."
-msgstr " ** ブロックとJavaOpModeには、これらの編集手順をガイドする詳細なコメントが含まれています。 ** これらはこのチュートリアルでは繰り返されません。"
+msgstr "**ブロックとJavaOpModeには、これらの編集手順をガイドする詳細なコメントが含まれています。** これらはこのチュートリアルでは繰り返されません。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:209
 msgid "Building the VisionPortal"
@@ -446,7 +446,7 @@ msgstr ""
 msgid ""
 "**Testing**, or comparing, for a particular color-match must be done as "
 "follows.  Select and read the Blocks **or** Java section below:"
-msgstr " ** テスト ** 、特定の色合いに一致するか比較するには、以下のブロック ** または ** ジAVAセクションを参照してください。"
+msgstr "**テスト** 、特定の色合いに一致するか比較するには、以下のブロック **または** ジAVAセクションを参照してください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:241
 msgid ""
@@ -515,7 +515,7 @@ msgstr "色を見つけた場合にロボットが実行するアクション"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:286
 msgid "If so, select and read the Blocks **or** Java section below:"
-msgstr "もし如此の場合は、下記のブロック ** または ** ジAVAセクションを選択して読み進めてください："
+msgstr "もし如此の場合は、下記のブロック **または** ジAVAセクションを選択して読み進めてください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:292
 msgid "Beginners often try this first:"
@@ -583,7 +583,7 @@ msgstr "高度な使用方法"
 msgid ""
 "Some teams may prefer to read and evaluate the **actual RGB color values**, "
 "rather than rely on a generic Swatch result."
-msgstr "一部のチームは、一般的なスウォッチ結果に頼るよりも、実際のRGB色値を読み取り評価する ** ことを好むかもしれません ** 。"
+msgstr "一部のチームは、一般的なスウォッチ結果に頼るよりも、実際のRGB色値を読み取り評価する **ことを好むかもしれません** 。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:354
 msgid ""
@@ -652,7 +652,7 @@ msgstr "次節へ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:395
 msgid "Soon you can move ahead to try the **Color Locator** processor."
-msgstr "不久後、 ** Color Locator ** プロセッサーを試すことができます。"
+msgstr "不久後、 **Color Locator** プロセッサーを試すことができます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:397
 msgid ""

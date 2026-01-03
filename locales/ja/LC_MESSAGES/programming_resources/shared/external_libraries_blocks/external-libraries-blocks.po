@@ -82,11 +82,11 @@ msgstr "これは三つの基本的なステップで簡単に実行できるプ
 msgid ""
 "**Step 1**, find a library with features you want to use, and get its .jar "
 "or .aar file."
-msgstr " ** ステップ1 ** 、使用したい機能を持つライブラリを見つけ、その.jarまたは.aarファイルを取得します。"
+msgstr "**ステップ1** 、使用したい機能を持つライブラリを見つけ、その.jarまたは.aarファイルを取得します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:36
 msgid "**Step 2**, upload that file in OnBot Java."
-msgstr " ** ステップ2 ** 、そのファイルをOnBot Javaにアップロードしてください。"
+msgstr "**ステップ2** 、そのファイルをOnBot Javaにアップロードしてください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:38
 msgid ""
@@ -115,7 +115,7 @@ msgid ""
 "available directly to the Blocks user, **without creating a myBlock**. This "
 "can be done, if the library is specially annotated by its author."
 msgstr ""
-" ** ステップ3C ** "
+"** ステップ3C ** "
 "は、ライブラリメソッドをブロックユーザーに直接利用可能にする異なるシナリオです。これには、ライブラリが著者が特別に注釈を付けていない限り、 ** "
 "myBlockを作成せずに ** 行うことができます。"
 
@@ -150,7 +150,7 @@ msgid ""
 msgstr ""
 "もしその機能を使用したい場合は、.jar もしくは .aar ファイルを見つけることを試みてください。``.jar`` のサフィックスは Java "
 "アーカイブを意味し、``.aar`` は同様のフォーマットで Android "
-"アーカイブと呼ばれます。これは、あなたが使用したい全コードを集めた圧縮ファイルです。これは一般的なウェブダウンロード用の *zip ファイル * "
+"アーカイブと呼ばれます。これは、あなたが使用したい全コードを集めた圧縮ファイルです。これは一般的なウェブダウンロード用の *zipファイル* "
 "に似ています。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:75
@@ -273,7 +273,7 @@ msgid ""
 " not. It depends on the functionality you want to provide to your Blocks "
 "programmer."
 msgstr ""
-" ** ステップ3B ** "
+"** ステップ3B ** "
 "では、myBlockを作成します。このmyBlockはライブラリメソッドを変更することができるか、それとも変更しないかは、Blocksプログラマに提供したい機能によって決まります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:142
@@ -282,7 +282,7 @@ msgid ""
 "using exactly the same inputs and outputs. This might be called a *wrapper "
 "method*."
 msgstr ""
-" ** 未変更 ** "
+"** 未変更 ** "
 "とは、あなたのmyBlockがライブラリメソッドをそのまま呼び出し、同じ入力と出力を使用することを意味します。これは「ラッパーメソッド」と呼ばれることがあります。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:146
@@ -498,7 +498,7 @@ msgid ""
 "Under **Step 3A**, you would use, for example, the ``hypot()`` method for "
 "your own OnBot Java programming, not providing it to Blocks."
 msgstr ""
-" ** ステップ3A ** の下では、あなたは独自のOnBot Javaプログラミングで例えば ``hypot()`` "
+"** ステップ3A ** の下では、あなたは独自のOnBot Javaプログラミングで例えば ``hypot()`` "
 "メソッドを使用します。ブロックに提供する必要はありません。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:267
@@ -515,7 +515,7 @@ msgid ""
 " *This is just an exercise; regular Blocks could easily calculate this "
 "value.*"
 msgstr ""
-" ** ステップ3B ** の下で、独自のカスタムブロック「myHypotenuse」を作成しましょう。 * "
+"** ステップ3B ** の下で、独自のカスタムブロック「myHypotenuse」を作成しましょう。 * "
 "これは単なる演習であり、通常のブロックはこの値を簡単に計算できます。 *"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:285
@@ -636,7 +636,7 @@ msgstr ""
 msgid ""
 "Here are two other “homemade” libraries, both **annotated**. Feel free to "
 "experiment with these."
-msgstr "以下は、両方とも ** 注釈付き ** の「手作り」ライブラリです。これらのライブラリを自由に実験してみてください。"
+msgstr "以下は、両方とも **注釈付き** の「手作り」ライブラリです。これらのライブラリを自由に実験してみてください。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:369
 msgid ""

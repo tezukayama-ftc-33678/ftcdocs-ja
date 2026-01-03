@@ -105,7 +105,7 @@ msgstr "Gitとは何ですか？"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:93
 msgid "**Simplified Local Git Repository Workflow**"
-msgstr " ** ローカルGitリポジトリのシンプルなワークフロー ** "
+msgstr "**ローカルGitリポジトリのシンプルなワークフロー** "
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:95
 msgid ""
@@ -162,7 +162,7 @@ msgid ""
 "request <Pull Request>`."
 msgstr ""
 "あなたが変更をステージングし、コミットしたら、次にリモートリポジトリにプッシュすることができます。これはGitHubで見られるリポジトリです。これにより、他人はあなたの変更を見ることができますし、共同作業を行うことができます。あなたは自分の"
-" :term:`フォーク <Fork>` であるメインリポジトリの変更を任意にプッシュできる完全なコントロールを持っています。あなたの変更が主要な "
+" :term:`フォーク <Fork>` である :term:`メインリポジトリ <Main Repository>` の変更を任意にプッシュできる完全なコントロールを持っています。あなたの変更が主要な "
 "FTC Docs ウェブサイトで反映されるためには、変更をメインリポジトリに追加する必要があります。これを行う方法は :term:`プルリクエスト "
 "<Pull Request>` を作成することです。"
 
@@ -277,7 +277,7 @@ msgid ""
 "important as it allows comments and feedback to be given on your changes. "
 "For details on how to create a pull request, see the next section."
 msgstr ""
-"現在、リポジトリのフォークに変更をプッシュしたので次のステップは、これらの変更をメインリポジトリに提案することです。なぜ直接メインリポジトリに変更をプッシュしないのでしょうか？これは、プルリクエストがメインリポジトリのメンテナが変更をマージする前にあなたの変更を審査できるようにするためです。これにより、コメントやフィードバックを提供することができます。プルリクエストを作成する方法については、次のセクションで詳しく説明しています。"
+"現在、リポジトリの :term:`フォーク <Fork>` に変更をプッシュしたので次のステップは、これらの変更を :term:`メインリポジトリ <Main Repository>` に提案することです。なぜ直接メインリポジトリに変更をプッシュしないのでしょうか？これは、プルリクエストがメインリポジトリのメンテナが変更をマージする前にあなたの変更を審査できるようにするためです。これにより、コメントやフィードバックを提供することができます。プルリクエストを作成する方法については、次のセクションで詳しく説明しています。"
 
 #: ../../source/contrib/tutorials/make_pr/make-pr.rst:171
 msgid "Example"

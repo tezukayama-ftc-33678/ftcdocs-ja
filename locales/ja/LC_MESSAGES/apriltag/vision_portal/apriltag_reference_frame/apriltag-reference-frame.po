@@ -40,17 +40,17 @@ msgstr "新しいSDKでの軸の指定は以下の通りです："
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:13
 msgid "Y axis points **straight outward** from the camera lens center"
-msgstr "Y軸はカメラレンズの中心から ** 直線的に外向き ** に指向します"
+msgstr "Y軸はカメラレンズの中心から **直線的に外向き** に指向します"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:14
 msgid ""
 "X axis points **to the right** (looking outward), perpendicular to the Y "
 "axis"
-msgstr "x軸は右側 ** に ** 向いています（外側から見ると），y軸と直交しています"
+msgstr "x軸は右側 **に** 向いています（外側から見ると），y軸と直交しています"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:15
 msgid "Z axis points **upward**, perpendicular to Y and X"
-msgstr "Z軸は ** 上向き ** に指向し、Y軸とX軸に垂直です"
+msgstr "Z軸は **上向き** に指向し、Y軸とX軸に垂直です"
 
 #: ../../source/apriltag/vision_portal/apriltag_reference_frame/apriltag-reference-frame.rst:18
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 "Think of the Y distance as the length of the \"laser beam\", when the tip of"
 " the horizontal orange line touches the yellow star **on the tag**."
 msgstr ""
-" Think of the Y distance as the length of the \"laser beam\", when the tip "
+"Think of the Y distance as the length of the \"laser beam\", when the tip "
 "of the horizontal orange line touches the yellow star ** on the tag ** . "
 "Think of the Y distance as the length of the \"laser beam\", when the tip of"
 " the horizontal orange line touches the yellow star ** on the tag ** . Think"

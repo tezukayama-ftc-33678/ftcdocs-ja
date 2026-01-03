@@ -73,7 +73,7 @@ msgid ""
 " *Autonomous* option in the Blocks editor. If you do not see the preselect "
 "button, verify that your currently selected op mode has been designated as "
 "autonomous."
-msgstr "preselectボタンが表示されるためには、選択されたOpModeが自動運転OpModeとして指定されている必要があります。Javaで書かれた場合、\\_@Autonomous\\_ アノテーションを使用して指定するか、ブロックエディタで * 自動運転 * オプションを選択します。preselectボタンを見つからない場合は、現在選択中のOpModeが自動運転として指定されていることを確認してください。"
+msgstr "preselectボタンが表示されるためには、選択されたOpModeが自動運転OpModeとして指定されている必要があります。Javaで書かれた場合、\\_@Autonomous\\_ アノテーションを使用して指定するか、ブロックエディタで *自動運転* オプションを選択します。preselectボタンを見つからない場合は、現在選択中のOpModeが自動運転として指定されていることを確認してください。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:44
 msgid ""
@@ -121,7 +121,7 @@ msgid ""
 "Name\"``. The Driver Station will then automatically activate the "
 "preselection feature and configure it to preselect the OpMode specified in "
 "the annotation."
-msgstr "もし毎回AUTOプログラムを実行する際に手動でプリセレクト機能を有効化および設定する必要がないようにしたい場合は、OpModeの注釈に ``preselectTeleOp=\"My TeleOp Name\"`` を追加して編集することができます。ドライバーステーションはその後、プリセレクト機能を自動的に有効化し、指定された注釈内のOpModeをプリセレクトします。"
+msgstr "もし毎回AUTOプログラムを実行する際に手動でプリセレクト機能を有効化および設定する必要がないようにしたい場合は、OpModeの注釈に ``preselectTeleOp=\"My TeleOp Name\"``を追加して編集することができます。ドライバーステーションはその後、プリセレクト機能を自動的に有効化し、指定された注釈内のOpModeをプリセレクトします。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:80
 msgid "Use the preselectTeleOp parameter to specify a preselected op mode."

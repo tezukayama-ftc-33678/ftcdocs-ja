@@ -139,7 +139,7 @@ msgstr ""
 msgid ""
 "``STOPPING_STREAM`` - processing may or may not be happening. This status is"
 " followed by ``CAMERA_DEVICE_READY``."
-msgstr "``ストップ中`` - 處理が行われているかどうかは不明です。このステータスは ``カメラデバイス準備完了`` に続きます。"
+msgstr "``ストップ中``- 處理が行われているかどうかは不明です。このステータスは``カメラデバイス準備完了`` に続きます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:55
 msgid "``CLOSING_CAMERA_DEVICE`` - no processing is happening"
@@ -281,7 +281,7 @@ msgstr "トグル可能な戻り値を持つセッターブロックの例"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:119
 msgid "In either form, the setting task **is performed**."
-msgstr "どちらの形式でも、設定タスクは ** 実行されます ** 。"
+msgstr "どちらの形式でも、設定タスクは **実行されます** 。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:121
 msgid "The “non-return” version comment is:"
@@ -420,8 +420,7 @@ msgid ""
 "OpMode/Feature only applies to an externally connected Webcam.*"
 msgstr ""
 "* "
-"このOpModeは、ウェブカメラで画像のモーションボルが最小になる最適な露出を決定します。なお、スマホカメラについては露出を制御することは不可能であるため、ロボットコントローラとしてスマホを使用している場合、このOpMode/機能は外部接続されたウェブカメラに対してのみ適用されます。"
-" *"
+"このOpModeは、ウェブカメラで画像のモーションボルが最小になる最適な露出を決定します。なお、スマホカメラについては露出を制御することは不可能であるため、ロボットコントローラとしてスマホを使用している場合、このOpMode/機能は外部接続されたウェブカメラに対してのみ適用されます。*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:201
 msgid ""
@@ -431,14 +430,13 @@ msgid ""
 "reliably from the likely operational distance.*"
 msgstr ""
 "* 目標は、信頼性のあるタグ検出が可能 STILL "
-"となる最小の（最短の）露出値を決定することです。最低露出と最大ゲインから始めて、露出を徐々に増加させ、タグがおそらく動作距離から信頼性のある形で検出されるまで続けます。"
-" *"
+"となる最小の（最短の）露出値を決定することです。最低露出と最大ゲインから始めて、露出を徐々に増加させ、タグがおそらく動作距離から信頼性のある形で検出されるまで続けます。*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:206
 msgid ""
 "*The best way to run this optimization is to view the camera preview screen "
 "while changing the exposure and gain.*"
-msgstr "* この最適化を実行する最も良い方法は、露出やゲインを変更しながらカメラプレビュー画面を確認することです。 *"
+msgstr "*この最適化を実行する最も良い方法は、露出やゲインを変更しながらカメラプレビュー画面を確認することです。*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:209
 msgid ""
@@ -449,8 +447,7 @@ msgid ""
 "program like scrcpy (https://scrcpy.org/)*"
 msgstr ""
 "* "
-"これを実行するには、ロボットコントローラー画面を直接確認する必要があります（ドライバーステーションからではなく）。RCスマホの画面から直接確認できます（外部ウェブカムを使用している場合）、しかしコントロールハブの場合、HDMIモニターをコントロールハブのHDMIポートに接続するか、scrcpyなどの外部ビューワープログラム（https://scrcpy.org/）を使用する必要があります。"
-" *"
+"これを実行するには、ロボットコントローラー画面を直接確認する必要があります（ドライバーステーションからではなく）。RCスマホの画面から直接確認できます（外部ウェブカムを使用している場合）、しかしコントロールハブの場合、HDMIモニターをコントロールハブのHDMIポートに接続するか、scrcpyなどの外部ビューワープログラム（https://scrcpy.org/）を使用する必要があります。*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:216
 msgid "Other Test OpModes"
@@ -526,4 +523,4 @@ msgstr "ブロックズ露出オモード例"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:251
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "* 質問、ご意見や訂正はwestsiderobotics@verizon.netまで *"
+msgstr "*質問、ご意見や訂正はwestsiderobotics@verizon.netまで*"

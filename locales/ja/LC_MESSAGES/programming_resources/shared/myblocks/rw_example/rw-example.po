@@ -117,7 +117,7 @@ msgid ""
 " needlessly adds cycle time and might increase the risk of a corrupt or "
 "interrupted read operation."
 msgstr ""
-" ** myBlocksをループ内に配置する際は注意してください ** 。現在の例を拡張すると、あなたのmyBlockはファイルからより大きな量（変化しない）のデータを読み込む可能性があります。もしOpModeが必要とするデータが一度だけであれば、ループ内でファイルを読み込む必要はありません。これによりサイクル時間に余分な負荷がかかり、データの読み込みが"
+"** myBlocksをループ内に配置する際は注意してください ** 。現在の例を拡張すると、あなたのmyBlockはファイルからより大きな量（変化しない）のデータを読み込む可能性があります。もしOpModeが必要とするデータが一度だけであれば、ループ内でファイルを読み込む必要はありません。これによりサイクル時間に余分な負荷がかかり、データの読み込みが"
 " corrupt または中断されるリスクも高まります。"
 
 #: ../../source/programming_resources/shared/myblocks/rw_example/rw-example.rst:61

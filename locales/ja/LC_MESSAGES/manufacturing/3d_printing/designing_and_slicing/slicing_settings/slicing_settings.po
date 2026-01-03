@@ -128,22 +128,22 @@ msgstr "すべての状況に適用できるわけではありませんが、PLA
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:76
 msgid "**Purely Aesthetic Parts**: 5-10% Infill, 2 alternating 3 Walls"
-msgstr " ** 純粋に美観用部品 ** : 5〜10% 填充，2つの交互に変換される3壁"
+msgstr "**純粋に美観用部品** : 5〜10% 填充，2つの交互に変換される3壁"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:77
 msgid "**Typical Use Parts**: 10-20% Infill, 3 alternating 4 Walls"
-msgstr " ** 一般的な使用部品 ** : 10〜20％インフィル、4つの壁を交互に3回使用"
+msgstr "**一般的な使用部品** : 10〜20％インフィル、4つの壁を交互に3回使用"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:78
 msgid ""
 "**Load Bearing and Structural Parts**: 40-60% Infill, 4 alternating 5 Walls"
-msgstr " ** 負荷承载和结构部件 ** : 40-60% 内填料，交替排列的 5 墙"
+msgstr "**負荷承载和结构部件** : 40-60% 内填料，交替排列的 5 墙"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:79
 msgid ""
 "**Fully Structural and Integral Parts (Take Shocks when Robot is dropped)**:"
 " 80-100% Infill, 4 alternating 5 Walls"
-msgstr " ** 完全構造部品および整合性のある部品（ロボットが落下したときに衝撃を受ける） ** : 80〜100%インフィル、5つの壁を交互に4つ"
+msgstr "**完全構造部品および整合性のある部品（ロボットが落下したときに衝撃を受ける）** : 80〜100%インフィル、5つの壁を交互に4つ"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/slicing_settings/slicing_settings.rst:81
 #, python-format

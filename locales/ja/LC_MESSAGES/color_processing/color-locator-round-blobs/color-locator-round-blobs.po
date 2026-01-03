@@ -157,7 +157,7 @@ msgstr ""
 msgid ""
 "It's working!  Your camera is working as a **color locator**.  Think about "
 "how to use this in the DECODE game."
-msgstr "動いています！カメラは ** 色検出器 ** として正常に動作しています。DECODEゲームでどのように使用するか考えてみてください。"
+msgstr "動いています！カメラは **色検出器** として正常に動作しています。DECODEゲームでどのように使用するか考えてみてください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:55
 msgid "DS and RC Previews"
@@ -222,7 +222,7 @@ msgid ""
 "The **yellow circle** is the new ``circleFit`` : the smallest circle that "
 "encloses the contour.  The ``circleFit`` is not required to stay inside the "
 "ROI."
-msgstr "The ** 黄色い円 ** は新しい``circleFit``：ROI内に留まらなくても、輪郭を囲む最小の円です。"
+msgstr "The **黄色い円** は新しい``circleFit``：ROI内に留まらなくても、輪郭を囲む最小の円です。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:82
 msgid "Basic Telemetry Data"
@@ -283,7 +283,7 @@ msgstr ""
 msgid ""
 "The Blob's **Density** is also available but not displayed here.  From the "
 "Sample's comments:"
-msgstr "The Blob の ** Density ** は利用可能ですが、ここでは表示されていません。Sample のコメントから："
+msgstr "The Blob の **Density** は利用可能ですが、ここでは表示されていません。Sample のコメントから："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:107
 msgid ""
@@ -355,7 +355,7 @@ msgstr "``circleFit``はデフォルトで無効です"
 msgid ""
 "The ``_Circle`` sample **turns off** the ``boxFit`` with this Builder "
 "command:"
-msgstr "_the _Circle サンプルでは、このビルダー コマンドで ``boxFit`` の機能を ** 停止 ** します："
+msgstr "_the _Circle サンプルでは、このビルダー コマンドで ``boxFit`` の機能を **停止** します："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:138
 msgid ""
@@ -393,7 +393,7 @@ msgstr "エロードとディラートの管理"
 msgid ""
 "Erosion and Dilation are **morphological** operations: pre-processing steps "
 "to improve vision recognition."
-msgstr "侵食と膨張は、視覚認識を改善するための ** モルフォロジー ** 的な操作：事前処理手順です。"
+msgstr "侵食と膨張は、視覚認識を改善するための **モルフォロジー** 的な操作：事前処理手順です。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:160
 msgid "Examples of Dilation and Erosion"
@@ -544,7 +544,7 @@ msgstr "操作の順序、デフォルトでは拡大処理を実施した後で
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:213
 msgid "Results can be **filtered** in multiple ways:"
-msgstr "結果は複数の方法で ** フィルタリング ** することができます："
+msgstr "結果は複数の方法で **フィルタリング** することができます："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:216
 msgid "Contour Area"
@@ -570,7 +570,7 @@ msgstr "円形"
 msgid ""
 "Telemetry Results can be **sorted** by any of the above attributes.  See the"
 " Sample's comments for guidance."
-msgstr "テレメトリー結果は、上記の属性のいずれかで ** ソート ** することができます。サンプルのコメントを参照してください。"
+msgstr "テレメトリー結果は、上記の属性のいずれかで **ソート** することができます。サンプルのコメントを参照してください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:225
 msgid "Lighting Challenges"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:233
 msgid "These tools can help with Color Processing **and** AprilTag Detection."
-msgstr "これらのツールは、色処理とAprilTag検出に ** 役立ちます ** 。"
+msgstr "これらのツールは、色処理とAprilTag検出に **役立ちます** 。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:235
 msgid ""
@@ -649,12 +649,12 @@ msgid ""
 "review may reveal which data are useful, rather than trying to observe the "
 "\"jumpy\" preview and Telemetry results."
 msgstr ""
-" ** データロギング ** について学ぶと役立つかもしれません。このOpModeのColor "
+"** データロギング ** について学ぶと役立つかもしれません。このOpModeのColor "
 "Processorのデータをファイルに出力し、その後はスプレッドシートに転送することも可能です。詳細なレビューにより、どのデータが有用であるかが明らかになる可能性があります。\"ジャンプ\"しているプレビュー結果やテレメトリ結果を観察するよりも、その方が良いでしょう。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:246
 msgid "Also, you may want to **track multiple colors**, like this:"
-msgstr "また、複数の色を ** 追跡したい場合もあります ** 、例えば："
+msgstr "また、複数の色を **追跡したい場合もあります** 、例えば："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:253
 msgid "Example image of tracking multiple colors in a single ROI"
@@ -716,7 +716,7 @@ msgstr ":doc:`挑戦 <../color-locator-challenge/color-locator-challenge>`，"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:272
 msgid "**Round Blobs** (this document)"
-msgstr " ** 円形のブロブ ** (このドキュメント)"
+msgstr "**円形のブロブ** (このドキュメント)"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:274
 msgid ""
