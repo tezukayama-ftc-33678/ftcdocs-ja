@@ -221,13 +221,14 @@ msgstr "注意深くドキュメントに従ってください。"
 
 #: ../../source/programming_resources/imu/imu.rst:80
 msgid "Potential Usage"
-msgstr " Potential Usage"
+msgstr "使用可能性"
 
 #: ../../source/programming_resources/imu/imu.rst:82
 msgid ""
 "*FIRST* Tech Challenge robots drive mostly on a flat playing field, "
 "typically using the IMU to monitor or control **Heading** (Yaw or Z-angle)."
 msgstr ""
+"*FIRST* Tech Challengeのロボットは主に平坦な競技フィールドで動作し、通常はIMUを使用して **ヘディング** （ヨー角またはZ角度）を監視または制御します。"
 
 #: ../../source/programming_resources/imu/imu.rst:85
 msgid ""
