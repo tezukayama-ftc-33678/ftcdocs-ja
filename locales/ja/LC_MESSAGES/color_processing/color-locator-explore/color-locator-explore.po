@@ -629,8 +629,7 @@ msgid ""
 "above.  No more than one sort call should be made.  Sorting can use "
 "ascending or descending order.*"
 msgstr ""
-"*Blobのリストは、上記でリストされた同じBlob属性を使用してソートできます。ソート呼び出しは最大1回までです。ソートは昇順または降順を使用できます。"
-" *"
+"*Blobのリストは、上記でリストされた同じBlob属性を使用してソートできます。ソート呼び出しは最大1回までです。ソートは昇順または降順を使用できます。*"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:457
