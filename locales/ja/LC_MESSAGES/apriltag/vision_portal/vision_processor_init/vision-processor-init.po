@@ -235,12 +235,7 @@ msgid ""
 "see the :doc:`Color Processing Documentation </color_processing/index>`."
 msgstr ""
 "ビルダーは、 ** Color Sensor ** や ** Color Locator ** "
-"を使用しているかによって見た目が少し異なります。詳細については、:doc:`Color Processing Documentation "
-"</color_processing/index>` を参照してください。ビルダーは、 ** Color Sensor ** もしくは ** Color "
-"Locator ** を使用しているかによって見た目が少し異なります。詳細については、:doc:`Color Processing "
-"Documentation </color_processing/index>` を参照してください。ビルダーは、 ** Color Sensor ** "
-"もしくは ** Color Locator ** を使用している場合によって見た目が少し異なります。詳細については、:doc:`Color "
-"Processing Documentation </color_processing/index>` を参照してください。"
+"を使用しているかによって見た目が少し異なります。詳細については、 :doc:`Color Processing Documentation </color_processing/index>` を参照してください。"
 
 #: ../../source/apriltag/vision_portal/vision_processor_init/vision-processor-init.rst:155
 msgid "Enabling and Disabling Processors"

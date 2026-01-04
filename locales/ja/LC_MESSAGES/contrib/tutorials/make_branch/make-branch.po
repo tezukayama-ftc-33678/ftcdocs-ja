@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:2
 msgid "Creating a New Branch"
-msgstr "新しい分岐を作成する"
+msgstr "新しいブランチを作成する"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:3
 msgid ":bdg-success:`Repeat` :bdg-info:`Codespaces` :bdg-warning:`Local`"
@@ -29,7 +29,7 @@ msgstr ":bdg-success:`再実行` :bdg-info:`コードスペースズ` :bdg-warni
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:6
 msgid "What are branches and why do we need them?"
-msgstr "分岐とは何ですか？なぜ必要なのでしょうか？"
+msgstr "ブランチとは何ですか？なぜ必要なのでしょうか？"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:8
 msgid ""
@@ -48,11 +48,11 @@ msgid ""
 "are merged, we will use the process described in the "
 ":doc:`/contrib/tutorials/update_fork/update-fork`"
 msgstr ""
-"分岐はプロジェクトの並行版と考えることができます。これにより、開発時に機能の実装やバグ修正を孤立した環境で行い、主要なプロジェクトに影響を与えることなく作業できます。変更が完了したら、その分岐を主要な分岐に戻して変更内容を公開することができます。FTCドキュメントの場合、あなたのフォークの主要分岐は常に主要リポジトリの主要分岐のコピーであり、新しい分岐を作成する際の参照点となります。私たちが分岐で行った変更に満足した後、プルリクエストを作成して変更内容を主要リポジトリの主要分岐に戻します。プルリクエストが承認されると、変更内容は主要リポジトリの主要分岐にマージされ、FTCドキュメントのウェブサイトに公開されます。変更内容がマージされた後は、:doc:`/contrib/tutorials/update_fork/update-fork` で説明されているプロセスを使用してフォークを更新します。"
+"ブランチは、プロジェクトの「並行バージョン」と考えることができます。これは、メインプロジェクトに影響を与えずに、独立した環境で機能開発やバグ修正を行えるため、開発において非常に有用です。変更が完了したら、ブランチをメインブランチにマージして変更内容を公開できます。FTC Docs の場合、フォークしたリポジトリのメインブランチは、常に :term:`Main Repository <Main Repository>` のメインブランチのコピーである必要があり、そこから新しいブランチを作成するための基準点となります。作成したブランチの内容に満足したら、プルリクエストを作成して、変更を元のメインブランチにマージします。プルリクエストが承認されると、変更は Main Repository のメインブランチにマージされ、FTC Docs のウェブサイトに公開されます。マージが完了した後は、 :doc:`/contrib/tutorials/update_fork/update-fork` で説明されている手順を実行します。"
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:22
 msgid "On the ``< > Code`` tab, we can see the Branch information below:"
-msgstr "「< > コード」タブでは、以下に分岐情報が表示されます："
+msgstr "``< > Code`` タブでは、以下に分岐情報が表示されます："
 
 #: ../../source/contrib/tutorials/make_branch/make-branch.rst:29
 msgid "Figure 3 rst-primer branch information"

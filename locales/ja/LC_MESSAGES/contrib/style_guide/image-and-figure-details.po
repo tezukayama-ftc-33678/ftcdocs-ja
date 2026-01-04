@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:56
 msgid "See `Alt Text`_ for more information about alt text."
-msgstr "「Alt テキスト」_ で ALT 文字列についての詳細をご覧ください。"
+msgstr "`Alt Text`_ で ALT テキストについての詳細をご覧ください。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:58
 msgid ""
@@ -121,7 +121,7 @@ msgid ""
 "alt=\"../_images/GoodStuff.png\" src=\"../_images/GoodStuff.png\">``. A "
 "screen reader will read out loud the alt text **../_images/GoodStuff.png**."
 msgstr ""
-"スphinxsは、``:alt:``オプションを指定しない場合、画像のパスとファイル名をaltテキストとして設定します。HTMLは以下のようになります：``<img"
+"Sphinxsは、``:alt:``オプションを指定しない場合、画像のパスとファイル名をaltテキストとして設定します。HTMLは以下のようになります：``<img"
 " alt=\"../_images/GoodStuff.png\" "
 "src=\"../_images/GoodStuff.png\">``。スクリーンリーダーはaltテキスト ** ../_images/GoodStuff.png ** を読み上げます。"
 
@@ -255,8 +255,9 @@ msgid ""
 "argument may be a URI (relative or absolute), or a reference name with "
 "underscore suffix (e.g. \\`a name`_)."
 msgstr ""
-"画像をハイパーリンクに変換し、クリック可能にする。オプション引数はURI（相対的なものや絶対的なもの）か、アンダースコアで終わる参照名（例: ``a "
-"name``_）であることができる。"
+"画像をハイパーリンク参照（「クリック可能」）にします。オプションの引数には、"
+"URI（相対または絶対）、またはアンダースコアの接尾辞が付いた参照名"
+"（例： \\`a name`_）を指定できます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:105
 msgid ""
@@ -630,7 +631,7 @@ msgstr ""
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:255
 msgid "If a caption is not required, just use the `Image Directive`_."
-msgstr "キャプションが不要な場合は、単に「Image Directive」_ を使用します。"
+msgstr "キャプションが不要な場合は、単に `Image Directive`_ を使用します。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:257
 msgid ""

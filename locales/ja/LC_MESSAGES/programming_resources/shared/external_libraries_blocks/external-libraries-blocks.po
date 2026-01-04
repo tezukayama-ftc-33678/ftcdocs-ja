@@ -25,7 +25,7 @@ msgstr "OnBot Javaとブロックスで使用する外部ライブラリ"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:5
 msgid "Introduction"
-msgstr "紹介\\n"
+msgstr "紹介"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:7
 msgid ""
@@ -647,10 +647,10 @@ msgid ""
 "provides an integer result."
 msgstr ""
 ":download:`JniExample.aar <opmodes/JniExample.aar>` "
-"には、ネイティブC++コードで実装された基本的な算術演算のメソッドを持つクラス `` "
-"com.example.google.ftc.IntegerMath `` が含まれています。公開メソッドは `` add ``（加算）、`` "
-"subtract ``（減算）、`` multiply ``（乗算）、および `` divide "
-"``（除算）です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
+"には、ネイティブC++コードで実装された基本的な算術演算のメソッドを持つクラス "
+"``com.example.google.ftc.IntegerMath`` が含まれています。公開メソッドは ``add``（加算）、 "
+"``subtract``（減算）、 ``multiply`` （乗算）、および ``divide`` （除算）"
+"です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:375
 msgid ""

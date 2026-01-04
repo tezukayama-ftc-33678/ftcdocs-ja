@@ -25,7 +25,7 @@ msgstr "Kotlinプログラミング言語を使用する"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:6
 msgid "What Is Kotlin?"
-msgstr "What Is Kotlin?\"\\n"
+msgstr "Kotlinとは"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:9
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:14
 msgid "https://kotlinlang.org/"
-msgstr "<URL>https://kotlinlang.org/</URL>"
+msgstr "https://kotlinlang.org/"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:16
 msgid ""
@@ -92,7 +92,7 @@ msgstr "null安全性；Kotlinはnull指針例外を eliminates を防ぐため�
 msgid ""
 "Operator overloading; Kotlin allows you to define how operators such as "
 "``+`` and ``*`` work with your own classes."
-msgstr "オペレーター上書き；Kotlinでは、`+`や`*`這樣的演算子が独自のクラスでどのように動作するかを定義できます。"
+msgstr "オペレーター上書き;Kotlinでは、 `+` や `*` 演算子が独自のクラスでどのように動作するかを定義できます。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:31
 msgid "Many more!"

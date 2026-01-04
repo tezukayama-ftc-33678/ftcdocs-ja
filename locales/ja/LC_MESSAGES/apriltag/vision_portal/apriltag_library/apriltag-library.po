@@ -384,7 +384,7 @@ msgstr "代わりに、メタデータを変数に割り当てることができ
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:342
 msgid ""
 "These two Blocks could replace the single new Block in the previous example."
-msgstr "これらの2つのブロックは、前の例で使用した単一の新しいブロックを置き換えることができます。\\n"
+msgstr "これらの2つのブロックは、前の例で使用した単一の新しいブロックを置き換えることができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst
 msgid "Variable Metadata"
@@ -432,7 +432,7 @@ msgid ""
 "is attempted, the OpMode will crash with a suitable error message."
 msgstr ""
 "もし ``setAllowOverwrite()`` が "
-"``false``（デフォルト設定）に設定されていてオーバライド操作が試みられた場合、OpModeは適切なエラーメッセージとともにクラッシュします。"
+"``false`` （デフォルト設定）に設定されていてオーバライド操作が試みられた場合、OpModeは適切なエラーメッセージとともにクラッシュします。"
 
 #: ../../source/apriltag/vision_portal/apriltag_library/apriltag-library.rst:409
 msgid "If set to ``true``, the custom tag will replace the existing tag."

@@ -332,9 +332,9 @@ msgid ""
 "\"screen copy\") to see the preview on a laptop or computer that's connected"
 " via Wi-Fi to the Control Hub."
 msgstr ""
-"物理的な画面がなく、因此、HDMI モニターを接続する ** か ** 、Wi-Fi "
-"でコントロールハブに接続されたノートパソコンやコンピュータ上でプレビューを見るためにオープンソースの `scrcpy "
-"<https://github.com/Genymobile/scrcpy>`_（「スクリーンコピー」と呼ばれる）を使用する必要があります。"
+"物理的な画面がない場合、HDMI モニターを接続するか 、Wi-Fi "
+"でコントロールハブに接続されたノートパソコンやコンピュータ上でプレビューを見るためにオープンソースの"
+"`scrcpy <https://github.com/Genymobile/scrcpy>`_ （「スクリーンコピー」と呼ばれる）を使用する必要があります。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:184
 msgid "Modify the Sample"
@@ -348,7 +348,7 @@ msgstr "このサンプルOpModeは、ユーザーが **2つの入力** を選�
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:189
 msgid "define the Region of Interest (ROI)"
-msgstr "관심領域（ROI）を定義する"
+msgstr "関心領域（ROI）を定義する"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:190
 msgid "list the colors that might be found"
@@ -356,7 +356,7 @@ msgstr "使用される可能性のある色をリストしてください"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:192
 msgid "For the **first input**, there are 3 ways to define the ROI:"
-msgstr ""
+msgstr "**1番目の入力（first input）** については、ROIを定義する3つの方法があります："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:194
 msgid "entire frame"
@@ -652,7 +652,7 @@ msgstr "次節へ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:395
 msgid "Soon you can move ahead to try the **Color Locator** processor."
-msgstr "不久後、 **Color Locator** プロセッサーを試すことができます。"
+msgstr "すぐに **Color Locator** プロセッサーを試すことができます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:397
 msgid ""

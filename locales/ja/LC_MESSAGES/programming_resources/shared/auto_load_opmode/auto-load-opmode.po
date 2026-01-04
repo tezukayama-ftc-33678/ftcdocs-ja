@@ -111,7 +111,7 @@ msgid ""
 "(either the main stop or init stop buttons). It will only transition if the "
 "OpMode either self-exits, or is terminated by the 30s timer. Drive Teams "
 "must still press Init and start the op mode manually, for safety reasons."
-msgstr "自律プログラムが終了すると、ドライバー・ステーションは予め選択されたテレオペプログラムをキューから取り出し、テレオペプログラムに切り替えます。ユーザーが停止ボタン（主停止ボタンまたは初期化停止ボタン）を押した場合は、自動選択は中止されます。OpModeが自己終了するか、30秒タイマーによって終了される場合のみ切り替わります。安全上の理由から、ドライブチームは依然としてInitを押してOpModeを開始する必要があります。"
+msgstr "AUTOプログラムが終了すると、ドライバー・ステーションは予め選択されたテレオペプログラムをキューから取り出し、テレオペプログラムに切り替えます。ユーザーが停止ボタン（主停止ボタンまたは初期化停止ボタン）を押した場合は、自動選択は中止されます。OpModeが自己終了するか、30秒タイマーによって終了される場合のみ切り替わります。安全上の理由から、ドライブチームは依然としてInitを押してOpModeを開始する必要があります。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:73
 msgid ""
@@ -121,7 +121,7 @@ msgid ""
 "Name\"``. The Driver Station will then automatically activate the "
 "preselection feature and configure it to preselect the OpMode specified in "
 "the annotation."
-msgstr "もし毎回AUTOプログラムを実行する際に手動でプリセレクト機能を有効化および設定する必要がないようにしたい場合は、OpModeの注釈に ``preselectTeleOp=\"My TeleOp Name\"``を追加して編集することができます。ドライバーステーションはその後、プリセレクト機能を自動的に有効化し、指定された注釈内のOpModeをプリセレクトします。"
+msgstr "もし毎回AUTOプログラムを実行する際に手動でプリセレクト機能を有効化および設定する必要がないようにしたい場合は、OpModeの注釈に ``preselectTeleOp=\"My TeleOp Name\"`` を追加して編集することができます。ドライバーステーションはその後、プリセレクト機能を自動的に有効化し、指定された注釈内のOpModeをプリセレクトします。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:80
 msgid "Use the preselectTeleOp parameter to specify a preselected op mode."

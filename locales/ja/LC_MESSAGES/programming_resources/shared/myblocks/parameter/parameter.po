@@ -75,9 +75,9 @@ msgid ""
 "is Java type ``double`` (a number), ``parola`` is type ``String`` (text), "
 "and ``verita`` is type ``boolean`` (true or false)."
 msgstr ""
-"各入力ソケットには、そのパラメータの種類に対応するデフォルト値が表示され、それに応じたツールチップが表示されます。メソッドシグネチャによると、パラメータ"
-" ``uno`` は Java 型 ``double``（数値）で、``parola`` は型 ``String``（テキスト）で、``verita``"
-" は型 ``boolean``（真偽値）です。"
+"各入力ソケットには、そのパラメータの種類に対応するデフォルト値が表示され、それに応じたツールチップが表示されます。メソッドシグネチャによると、パラメータ "
+"``uno`` は Java 型 ``double`` （数値）で、 ``parola`` は型 ``String`` （テキスト）で、 ``verita`` "
+" は型 ``boolean`` （真偽値）です。"
 
 #: ../../source/programming_resources/shared/myblocks/parameter/parameter.rst:33
 msgid ""

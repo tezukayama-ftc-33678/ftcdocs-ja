@@ -25,7 +25,7 @@ msgstr "ユニバーサルIMUインターフェース"
 
 #: ../../source/programming_resources/imu/imu.rst:5
 msgid "Introduction"
-msgstr "紹介\\n"
+msgstr "紹介"
 
 #: ../../source/programming_resources/imu/imu.rst:7
 msgid ""
@@ -1510,8 +1510,8 @@ msgid ""
 "Advanced programmers are invited to browse the `Javadocs documentation "
 "<https://javadoc.io/doc/org.firstinspires.ftc>`__ (API), particularly in:"
 msgstr ""
-"高度なプログラマは、`Javadocsドキュメント "
-"<https://javadoc.io/doc/org.firstinspires.ftc>`__（API）を参照していただけます。特に以下の部分をご覧ください："
+"高度なプログラマは、 `Javadocsドキュメント "
+"<https://javadoc.io/doc/org.firstinspires.ftc>`__ （API）を参照していただけます。特に以下の部分をご覧ください："
 
 #: ../../source/programming_resources/imu/imu.rst:1162
 msgid "``com.qualcomm.robotcore.hardware``"

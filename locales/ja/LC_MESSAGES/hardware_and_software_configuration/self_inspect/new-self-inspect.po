@@ -43,7 +43,7 @@ msgid ""
 "Materials page <https://ftc-resources.firstinspires.org/files/ftc/game>`_ on"
 " the *FIRST* Website."
 msgstr ""
-"自検査画面は、FTCルールに基づく制御システムに関連するデバイスの状態を一瞬で把握できる概要を提供します。これらのルールは、 *FIRST* ウェブサイトの`現在のゲームとシーズン資料ページ"
+"検査画面は、FTCルールに基づく制御システムに関連するデバイスの状態を一瞬で把握できる概要を提供します。これらのルールは、 *FIRST* ウェブサイトの`現在のゲームとシーズン資料ページ"
 " <https://ftc-resources.firstinspires.org/files/ftc/game>`_ "
 "にある競技マニュアルに記載されています。"
 
@@ -153,11 +153,10 @@ msgid ""
 " include bug fixes and some enhancements. e.g. 11.1, 11.2, etc."
 msgstr ""
 "各FTCシーズンごとに、FTCアプリケーションは新しい主要バージョンがリリースされます。INTO THE "
-"DEEPの主要バージョンは10で、DECODEの主要バージョンは11です。ゲームにAprilTagsがある場合、SDKには :doc:` "
-"Localization<../../apriltag/vision_portal/apriltag_localization/apriltag-"
+"DEEPの主要バージョンは10で、DECODEの主要バージョンは11です。ゲームにAprilTagsがある場合、SDKには "
+":doc:`localization<../../apriltag/vision_portal/apriltag_localization/apriltag-"
 "localization>` "
-"の情報が含まれており、そのタグの位置を特定してロボットの場所を決定することができます。シーズンが進行するにつれて、小幅なリリースではバグ修正やいくつかの改善機能が含まれます。たとえば、11.1,"
-" 11.2など。"
+"の情報が含まれており、そのタグの位置を特定してロボットの場所を決定することができます。シーズンが進行するにつれて、小幅なリリースではバグ修正やいくつかの改善機能が含まれます。たとえば、11.1, 11.2など。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:59
 msgid ""
@@ -470,18 +469,18 @@ msgid ""
 "the factory default (“password”). Go to the Program and Manage page, select "
 "Manage and then update the RC password. You will have to re-pair the DS to "
 "the RC and enter the new password to reconnect."
-msgstr "Item 9 ``RCパスワード``はRC自検査のみに表示されます。この検査項目は、Control Hubのパスワードがファクトリーデフォルト（“password”）と異なることのFTC要件を満たしていないため失敗しました。プログラムおよび管理ページに移動し、管理を選択してからRCパスワードを更新します。その後、DSをRCとのペアリングを解除し、新しいパスワードを入力して再接続する必要があります。"
+msgstr "Item 9 ``RCパスワード`` はRCSelf Inspectにのみに表示されます。この検査項目は、Control Hubのパスワードがファクトリーデフォルト（“password”）と異なることのFTC要件を満たしていないため失敗しました。プログラムおよび管理ページに移動し、管理を選択してからRCパスワードを更新します。その後、DSをRCとのペアリングを解除し、新しいパスワードを入力して再接続する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:167
 msgid ""
 "Item 10 ``Wi-Fi Enabled`` must be **Yes** as it means the control hub’s Wi-"
 "Fi radio is **ON**."
 msgstr ""
-"アイテム10 ``Wi-Fi有り`` は ** はい ** でなければならず、これは制御ヘッブのWi-Fi無線電波が ** オン ** であることを意味します。"
+"Item 10 ``Wi-Fi Enabled`` は ** はい ** でなければならず、これは制御ヘッブのWi-Fi無線電波が ** オン ** であることを意味します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:168
 msgid "Item 11 ``Standard Wi-Fi Connected`` must be **Yes**."
-msgstr "アイテム11「標準Wi-Fi接続」は **はい** でなければなりません。"
+msgstr "Item 11 ``Standard Wi-Fi Connected`` は **Yes** でなければなりません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:169
 msgid ""
@@ -501,8 +500,8 @@ msgid ""
 "*FIRST* recommends but does not require that teams use the currently "
 "available version."
 msgstr ""
-"アイテム13 "
-"アプリケーションインストール「ロボットコントローラ」にRCアプリのバージョンが表示されるべきです。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
+"Item 13 "
+"「ロボットコントローラ」にRCアプリのバージョンが表示されるべきです。 *FIRST* はチームが現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:173
 msgid ""
@@ -510,7 +509,7 @@ msgid ""
 "and is likely due to a point mismatch e.g. 10.0 and 10.1, mismatches are now"
 " allowed, but not recommended."
 msgstr ""
-"アイテム14 ``Matches DS Version`` は ** Yes ** に設定してください。 ** No ** "
+"Item14 ``Matches DS Version`` は ** Yes ** に設定してください。 ** No ** "
 "が表示される場合、これはポイントの不一致（例：10.0と10.1）によるもので、現在は許可されていますが推奨されていません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:174
@@ -522,9 +521,8 @@ msgid ""
 " apps to not work properly."
 msgstr ""
 "Item 15 インストール済みアプリ ``Driver "
-"Station``は ** インストールされていない ** ことが確認されるべきです。これにより、Robot Controllerデバイスには Driver "
-"Station "
-"アプリが ** インストールされていない ** ことも確認できます。各デバイスには最大で一つのFTCアプリのみがインストールされるべきです。両方のアプリを誤ってインストールしてしまう可能性がありますが、通常はこの場合アプリが正しく動作しないことがあります。"
+"Station`` は **インストールされていない** ことが確認されるべきです。これにより、Robot Controllerデバイスには Driver "
+"Station アプリが **インストールされていない** ことも確認できます。各デバイスには最大で一つのFTCアプリのみがインストールされるべきです。両方のアプリを誤ってインストールしてしまう可能性がありますが、通常はこの場合アプリが正しく動作しないことがあります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:176
 msgid ""

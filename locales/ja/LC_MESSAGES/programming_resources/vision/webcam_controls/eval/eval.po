@@ -247,7 +247,9 @@ msgstr "与えられた露出値に対して、異なるモードのプレビュ
 msgid ""
 "some webcams **accept** / ``set()`` and **confirm** / ``get()`` a **non-"
 "supported mode**"
-msgstr "一部のウェブカムは、非対応モードに対して **受け入れる** /``set()``と **確認する** /``get()``を **許可します** "
+msgstr ""
+"一部のウェブカメラは、 **サポートされていないモード** を "
+"**accept** （受理） / ``set()`` し、 **confirm** （確定） / ``get()`` します"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:112
 msgid ""

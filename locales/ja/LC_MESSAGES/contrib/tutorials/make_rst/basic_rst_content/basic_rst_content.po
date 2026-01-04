@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:2
 msgid "Basic rST Content"
-msgstr "基本的なreStructuredTextコンテンツ"
+msgstr "基本的なrSTコンテンツ"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:4
 msgid ""
@@ -1034,10 +1034,8 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:657
 msgid "align : *\"left\", \"center\", or \"right\"*"
-msgstr ""
-"alinhanuki: \\\"左\\\", \\\"中央\\\", または \\\"右\\\"\"\n"
-"\n"
-"（注：`align`は専門用語として原文のままになっています。）"
+msgstr "align : *\"left\", \"center\", or \"right\"*"
+
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:656
 msgid "\"left\", \"center\", or \"right\""
