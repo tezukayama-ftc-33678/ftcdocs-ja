@@ -1,13 +1,10 @@
 # FIRST Tech Challenge ドキュメントプロジェクト（日本語翻訳版）
-=====================================================
 
 ![ビルド](https://readthedocs.com/projects/first-tech-challenge-ftcdocs/badge/?version=latest) ![リンクチェック](https://github.com/FIRST-Tech-Challenge/ftcdocs/actions/workflows/link-check.yaml/badge.svg)
 
-本リポジトリは、 **FIRST Tech Challenge 公式ドキュメント**の非公式日本語翻訳プロジェクトです。
+本リポジトリは、**FIRST Tech Challenge 公式ドキュメント**の非公式日本語翻訳プロジェクトです。
 
-**🚀 すぐに始めたい方は**: [QUICKSTART.md](QUICKSTART.md) をご覧ください！
-
-**📖 Read the Docsで公開したい方は**: [PUBLISHING.md](PUBLISHING.md) と [LICENSE_AND_LOGO_GUIDE.md](guides/LICENSE_AND_LOGO_GUIDE.md) をご覧ください！
+**📖 翻訳の始め方**: [WORKFLOW.md](WORKFLOW.md) をご覧ください！
 
 ---
 
@@ -19,100 +16,71 @@
 * 翻訳の正確性には努めていますが、**公式な情報源としては必ず英語のオリジナルドキュメントを参照してください。**
 * 本翻訳の使用により生じたいかなる損害についても、本プロジェクトの貢献者および運営者は一切の責任を負いません。
 
-公式ウェブサイト（英語原文）：
-https://ftc-docs.firstinspires.org
-
+公式ウェブサイト（英語原文）：https://ftc-docs.firstinspires.org
 
 ---
 
-## 🤖 ローカルLLMによる自動翻訳（推奨）
+## 🚀 クイックスタート
 
-**VRAM 8GB以上のGPUがあれば、全自動で翻訳できます！**
-
-### クイックスタート（3ステップ）
+### 1. ローカルLLM環境のセットアップ
 
 ```powershell
-# 1. LLMモデルをダウンロード
-ollama pull qwen2.5:7b-instruct-q5_K_M
+# Ollamaインストール後、モデルをダウンロード
+ollama pull qwen2.5-coder:7b-instruct
 
-# 2. 依存パッケージをインストール
-pip install ollama polib tqdm colorama
-
-# 3. 自動翻訳開始（放置で完了）
-python tools/translation/batch_translate.py --po-dir locales/ja/LC_MESSAGES
+# 依存パッケージをインストール
+pip install polib ollama tqdm colorama
 ```
 
-または、全自動スクリプトを実行：
+### 2. POファイルの翻訳
 
 ```powershell
-.\run_auto_translate.ps1
+# 単一ファイルを翻訳
+python scripts/translate_po_smart.py locales/ja/LC_MESSAGES/index.po
+
+# 全ファイルをバッチ翻訳
+python scripts/batch_translate_smart.py locales/ja/LC_MESSAGES
 ```
 
-詳細は **[guides/AUTO_TRANSLATE.md](guides/AUTO_TRANSLATE.md)** を参照してください。
-
-### テスト実行
-
-環境が正しくセットアップされているか確認：
-
-```powershell
-python tools/translation/test_translation_env.py
-```
-
----
-
-## 📝 翻訳アプローチ
-
-本プロジェクトでは、**2つの翻訳アプローチ**を組み合わせています：
-
-### 1. 自動翻訳 (.po ファイル) - ほとんどのページ
-
-- **編集対象**: `locales/ja/LC_MESSAGES/*.po` ファイル
-- **利点**: 大量のページを効率的に翻訳可能
-- **編集方法**: Poedit 等の PO エディタを推奨
-
-### 2. 手動翻訳 (RST ファイル直接編集) - 重要なページ
-
-以下のページは構造を確実に維持するため、RST ファイルを直接翻訳しています：
-
-- **トップページ**: `docs/source/index.rst`
-- **新規チーム**: `docs/source/persona_pages/rookie_teams/rookie_teams.rst`
-- **既存チーム**: `docs/source/persona_pages/veteran_teams/veteran_teams.rst`
-- **コーチ**: `docs/source/persona_pages/coach_admin/coach_admin.rst`
-- **メンター**: `docs/source/persona_pages/mentor_tech/mentor_tech.rst`
-
-**詳細**: [guides/TRANSLATION_APPROACH.md](guides/TRANSLATION_APPROACH.md) を参照してください。
-
-### ビルド方法
+### 3. 日本語版のビルド
 
 ```bash
 cd docs
-make html-ja  # 日本語版をビルド
+make html-ja
 ```
+
+詳しくは **[WORKFLOW.md](WORKFLOW.md)** をご覧ください。
 
 ---
 
-## 📚 ドキュメント構成
+## 📚 メインドキュメント
 
-### ユーザー向けガイド
-- **[QUICKSTART.md](QUICKSTART.md)** - 5分で始めるクイックスタート
-- **[guides/](guides/)** - 詳細なガイド集
-  - [AUTO_TRANSLATE.md](guides/AUTO_TRANSLATE.md) - 自動翻訳実行ガイド
-  - [BUILD_JA.md](guides/BUILD_JA.md) - ビルドガイド
-  - [TRANSLATION_GUIDE.md](guides/TRANSLATION_GUIDE.md) - 翻訳ガイドライン
-  - [GLOSSARY.md](guides/GLOSSARY.md) - 用語集
-  - [TRANSLATION_REFLECTION_FIX.md](guides/TRANSLATION_REFLECTION_FIX.md) - 翻訳未反映問題の修正 ⭐ NEW
-  - [ERROR_FIX_GUIDE.md](guides/ERROR_FIX_GUIDE.md) - エラー修正ガイド
-  - [PO_SYNTAX_FIX_GUIDE.md](guides/PO_SYNTAX_FIX_GUIDE.md) - PO構文修正ガイド
-  - その他多数...
+- **[WORKFLOW.md](WORKFLOW.md)** - 翻訳ワークフローの完全ガイド
+- **[guides/GLOSSARY.md](guides/GLOSSARY.md)** - 用語集
+- **[guides/LICENSE_AND_LOGO_GUIDE.md](guides/LICENSE_AND_LOGO_GUIDE.md)** - ライセンスとロゴの使用
+- **[guides/LOCAL_LLM_SETUP.md](guides/LOCAL_LLM_SETUP.md)** - LLM環境構築の詳細
 
-### ツール
-- **[tools/](tools/)** - 翻訳・修正・分析ツール集
-  - [translation/](tools/translation/) - 自動翻訳ツール
-  - [po-fixing/](tools/po-fixing/) - PO修正ツール
-  - [analysis/](tools/analysis/) - 分析ツール
-  - 詳細は [tools/README.md](tools/README.md) を参照
+---
 
-### プロジェクト資料
-- **[docs/project-docs/](docs/project-docs/)** - プロジェクト内部資料
-  - [archived/](docs/project-docs/archived/) - 過去のレポート
-  - [reports/](docs/project-docs/reports/) - 現在のレポート
+## 🔧 メインスクリプト（3つ）
+
+| スクリプト | 用途 |
+|-----------|------|
+| `scripts/translate_po_smart.py` | POファイルの翻訳 |
+| `scripts/test_simplified_chinese_detection.py` | 翻訳品質テスト |
+| `scripts/normalize_po_files.py` | 構文エラー自動修正 |
+
+---
+
+## 📂 ディレクトリ構成
+
+```
+ftcdocs-ja/
+├── docs/                    # Sphinxドキュメント
+│   └── source/              # ソースファイル（RST）
+├── locales/ja/LC_MESSAGES/  # 翻訳ファイル（PO）
+├── scripts/                 # メインスクリプト
+├── data/                    # 設定ファイル
+├── guides/                  # ガイドドキュメント
+└── legacy/                  # 古いスクリプト・ガイド
+```
