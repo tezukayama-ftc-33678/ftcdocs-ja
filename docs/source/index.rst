@@ -22,7 +22,7 @@
    **📋 ライセンスと著作権について**
    
    * 原文: © 2022 FIRST Tech Challenge (BSD 3-Clause License)
-   * 翻訳: Team 33678 Tezukayama (同ライセンス)
+   * 翻訳: Team 33678 Tezukayama-Rise (同ライセンス)
    * FIRST®、FIRST® Tech Challenge、およびロゴは FIRST® の登録商標です
    * 詳細は `LICENSE-JA.md <https://github.com/tezukayama-ftc-33678/ftcdocs-ja/blob/main/LICENSE-JA.md>`_ をご覧ください
 
