@@ -800,7 +800,7 @@ msgstr "埋め込みURIは次の例に従います："
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:525
 msgid "\\`Description\\<URL>\\`\\_"
-msgstr "`説明<URL>`__"
+msgstr "\\`説明\\<URL>\\`\\_"
 
 #: ../../source/contrib/tutorials/make_rst/basic_rst_content/basic_rst_content.rst:527
 msgid "It starts with a ` (back tick) symbol"

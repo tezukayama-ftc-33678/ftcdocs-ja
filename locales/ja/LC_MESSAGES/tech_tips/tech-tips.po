@@ -138,11 +138,10 @@ msgid ""
 "forums <https://ftc-community.firstinspires.org/>`__ to receive technical "
 "help and advice."
 msgstr ""
-"チームは、GitHubやgitバージョン管理システムを使用してプロジェクトを管理するヒントを得るために、「Managing an Android "
-"Studio Project」記事を`<https://ftc-"
-"docs.firstinspires.org/en/latest/programming_resources/android_studio_java/manage/manage.html>`__で読むことを推奨します。GitHubやgit以外でソフトウェアプロジェクトを管理しているチームは、プロジェクトを再ダウンロードし、変更を再適用し、「TeamCode」フォルダをコピーして移動することができます。技術的な支援が必要なチームは、「ftc-"
-"community forums」の`<https://ftc-"
-"community.firstinspires.org/>`__を使用して技術的な助けやアドバイスを得ることができます。"
+"チームは、GitHubやgitバージョン管理システムを使用してプロジェクトを管理するヒントを得るために、 `ftc-docs <https://ftc-docs.firstinspires.org/en/latest/>`__ の `Managing an Android Studio Project <https://ftc-"
+"docs.firstinspires.org/en/latest/programming_resources/android_studio_java/manage/manage.html>`__ 記事を読むことを推奨します。GitHubやgit以外でソフトウェアプロジェクトを管理しているチームは、プロジェクトを再ダウンロードし、変更を再適用し、「TeamCode」フォルダをコピーして移動することができます。技術的な支援が必要なチームは、 `ftc-community "
+"forums <https://ftc-"
+"community.firstinspires.org/>`__ を使用して技術的な助けやアドバイスを得ることができます。"
 
 #: ../../source/tech_tips/tech-tips.rst
 msgid "Week of 10/10/2024 \"AprilTag Localization\""
@@ -1010,7 +1009,7 @@ msgstr "120.00ドル"
 
 #: ../../source/tech_tips/tech-tips.rst:701
 msgid "`Axon Robotics MINI+ <https://axon-robotics.com/products/mini>`__"
-msgstr "FIRST  Axon Robotics MINI+ <https://axon-robotics.com/products/mini>`__"
+msgstr "`Axon Robotics MINI+ <https://axon-robotics.com/products/mini>`__"
 
 #: ../../source/tech_tips/tech-tips.rst:703
 msgid "25 kg-cm"
@@ -1031,7 +1030,7 @@ msgstr "$79.99"
 
 #: ../../source/tech_tips/tech-tips.rst:707
 msgid "`Axon Robotics MAX+ <https://axon-robotics.com/products/max>`__"
-msgstr "Axon Robotics MAX+ <https://axon-robotics.com/products/max>\\"
+msgstr "`Axon Robotics MAX+ <https://axon-robotics.com/products/max>`__"
 
 #: ../../source/tech_tips/tech-tips.rst:708
 msgid "0.115 s/60°"
@@ -2341,9 +2340,9 @@ msgstr ""
 "Hubが休眠状態から復帰したときに、Wi-"
 "Fiやゲームパッドが正しく再読み込みされないか自動的に再接続されないことがあります；この場合は、ゲームパッドをREV Driver "
 "Hubから抜き差しする必要があります。または、Wi-"
-"Fi接続を取り戻すためにハードリブートを行う必要があります。多くのベテランチームは、フル充電のUSBバッテリーパック、たとえば「Anker "
-"10,000mA ポータブルバッテリー」(<https://www.amazon.com/Anker-Ultra-Compact-High-Speed-"
-"VoltageBoost-Technology/dp/B07QXV6N1B>) を使用し、デバイスを休眠状態にしないでDriver Station "
+"Fi接続を取り戻すためにハードリブートを行う必要があります。多くのベテランチームは、フル充電のUSBバッテリーパック、たとえば `Anker "
+"10,000mA Power Bank <https://www.amazon.com/Anker-Ultra-Compact-High-Speed-"
+"VoltageBoost-Technology/dp/B07QXV6N1B>`__ を使用し、デバイスを休眠状態にしないでDriver Station "
 "Appのメインスクリーンを一日中実行します。"
 
 #: ../../source/tech_tips/tech-tips.rst:1517
@@ -2604,9 +2603,8 @@ msgstr ""
 "Challengeで使用される大半のモーターに内蔵されている回転量を追跡するデバイスです。モーター上のエンコーダはモーターの追跡に役立ちますが、Control"
 " and Expansion Hubファームウェアに組み込まれた「Motor "
 "Modes」を使用することで、同期やモーター制御にも利用できます。プログラマーがこれらの「Motor "
-"Modes」を誤って使用していることをご存知ですか？詳細については、「REV Robotics Encoderドキュメンテーション "
-"<https://docs.revrobotics.com/duo-control/programming/using-encoder-"
-"feedback>__ を参照してください。"
+"Modes」を誤って使用していることをご存知ですか？詳細については、 `REV Robotics Encoder documentation <https://docs.revrobotics.com/duo-control/programming/using-encoder-"
+"feedback>`__ を参照してください。"
 
 #: ../../source/tech_tips/tech-tips.rst
 msgid "Week of 11/27/2023 \"HuskyLens Intro\""
@@ -3208,8 +3206,7 @@ msgstr ""
 "今週のTech Tipは、Control Hub上のソフトウェアを更新する方法についてです。 :ref:`Android "
 "Studio<programming_resources/android_studio_java/Android-Studio-"
 "Tutorial:android studio programming tutorial>` "
-"を使用している場合、ロボットコントローラー（RC）アプリをアップデートするためにREVハードウェアクライアント "
-"`https://docs.revrobotics.com/rev-hardware-client/`__ "
+"を使用している場合、ロボットコントローラー（RC）アプリをアップデートするために `REV Hardware Client <https://docs.revrobotics.com/rev-hardware-client/>`__ "
 "を使用するべきではありません。ブロックとOnBot Javaプログラムは、スマートフォンやControl "
 "Hub上のロボットコントローラー（RC）アプリとは異なる方法で保存されており、これによりデバイス上でアップデートを管理する方法に大きな影響を与えます。詳細については"
 " :ref:`RCアプリの更新<ftc_sdk/updating/rc_app/Updating-the-RC-App:Updating the "
