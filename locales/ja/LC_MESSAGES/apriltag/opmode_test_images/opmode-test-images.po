@@ -47,7 +47,7 @@ msgstr ""
 "docs.firstinspires.org/en/latest/apriltag/vision_portal/apriltag_intro/apriltag-"
 "intro.html>`__ をシーズン独自の競技に導入しました。AprilTagsはミシガン大学のApril Robotics "
 "Laboratoryによって開発され、QRコードのような概念に基づく視覚的なフィドゥーシアルタグシステムで、拡張現実、ロボット工学、カメラ校正など様々な用途に有用です。適切に校正されたカメラとタグライブラリを使用することで、AprilTagsを検出でき、タグに対するレンジや向きなどの情報（またこれを"
-" ** ポーズ ** データといいます）を提供することができます。 * FIRST *  Tech "
+" **ポーズ** データといいます）を提供することができます。 *FIRST*  Tech "
 "Challengeのソフトウェア開発キット（SDK）には、このリソースを活用するためのAprilTag検出APIが追加されています。"
 
 #: ../../source/apriltag/opmode_test_images/opmode-test-images.rst:20
