@@ -277,7 +277,8 @@ msgid ""
 msgstr ""
 "DRIVER "
 "STATIONのメインメニューでカメラストリームオプションが見つからない場合は、OpMode内のwaitForStartコマンド前にVisionPortalが有効になっていることを確認してください。また、Camera"
-" Streamが利用可能かどうかを確認する前に、ビジョンポートルソフトウェアが適切に初期化されるまで十分な時間を与えておくことも確認してください。"
+" Streamが利用可能かどうかを確認する前に、Vision "
+"Portalソフトウェアが適切に初期化されるまで十分な時間を与えておくことも確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:139
 msgid "Scrcpy"

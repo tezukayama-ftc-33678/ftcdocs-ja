@@ -22,7 +22,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:2
 msgid "VisionPortal Initialization"
-msgstr "ビジョンポートル初期化"
+msgstr "Vision Portal初期化"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:5
 msgid "Overview"
@@ -37,8 +37,8 @@ msgid ""
 "creating an AprilTag Processor and/or a TensorFlow Object Detection (TFOD) "
 "Processor. The two Processors evaluate camera frames independently."
 msgstr ""
-"ここでは、Step 3 "
-" ** VisionPortalの作成 ** について説明します。これにより、OpModeがAprilTagやTensorFlowオブジェクト検出(TFOD)を使用できるようになります。これは前ページ"
+"ここでは、Step 3  ** VisionPortalの作成 ** "
+"について説明します。これにより、OpModeがAprilTagやTensorFlowオブジェクト検出(TFOD)を使用できるようになります。これは前ページ"
 " :doc:`ビジョンプロセッサ初期化 <../vision_processor_init/vision-processor-init>` "
 "から続き、そこでStep 2: "
 "AprilTagプロセッサやTFODプロセッサの作成が説明されています。両方のプロセッサはカメラフレームを独立して評価します。"
@@ -59,7 +59,7 @@ msgstr "このステップ3後、AprilTagやTFODの実際の使用が開始で�
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:21
 msgid "VisionPortal Initialization - Easy"
-msgstr "ビジョンポータル初期化 - 容易"
+msgstr "Vision Portal初期化 - 容易"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:23
 msgid ""
@@ -104,7 +104,7 @@ msgstr "同じOpModeでTFODも使用したい場合は、次のように追加�
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:61
 msgid "VisionPortal Initialization - Builder"
-msgstr "ビジョンポータル初期化 - ビルダー"
+msgstr "Vision Portal初期化 - ビルダー"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:63
 msgid ""
@@ -114,7 +114,7 @@ msgstr "SDK は VisionPortal を作成するための \"ビルダー\" 方式も
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:75
 msgid "VisionPortal Initialization with a Builder"
-msgstr "ビジョンポータル初期化 (ビルダー用)"
+msgstr "Vision Portal初期化 (ビルダー用)"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:104
 msgid ""
@@ -178,16 +178,16 @@ msgid ""
 "For a Processor created at Step 2, an OpMode does **not need** to enable "
 "that Processor at this Step 3, **VisionPortal Initialization**."
 msgstr ""
-"Step 2 で作成されたプロセッサに対して、この Step 3 の ** VisionPortal 初期化 ** では OpMode はそのプロセッサを有効化する必要 ** がない ** 。"
-""
+"Step 2 で作成されたプロセッサに対して、この Step 3 の ** VisionPortal 初期化 ** では OpMode "
+"はそのプロセッサを有効化する必要 ** がない ** 。"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:145
 msgid ""
 "The ``setProcessorEnabled()`` command is **not** part of the Builder "
 "pattern."
 msgstr ""
-"The ``setProcessorEnabled()`` command is ** not ** part of the Builder pattern."
-""
+"The ``setProcessorEnabled()`` command is ** not ** part of the Builder "
+"pattern."
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:147
 msgid ""
@@ -195,8 +195,9 @@ msgid ""
 "after **disabling** (by setting to ``false``).  This topic is covered "
 "further at the **Managing CPU and Bandwidth** page."
 msgstr ""
-"Use ``setProcessorEnabled(   , true)`` only to ** re-enable ** the processor, after ** disabling ** (by setting to ``false``).  This topic is covered further at the ** Managing CPU and Bandwidth ** page."
-""
+"Use ``setProcessorEnabled(   , true)`` only to ** re-enable ** the "
+"processor, after ** disabling ** (by setting to ``false``).  This topic is "
+"covered further at the ** Managing CPU and Bandwidth ** page."
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:151
 msgid ""
@@ -207,18 +208,19 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst
 msgid "VisionPortal Enable"
-msgstr "ビジョンポートル有効化"
+msgstr "Vision Portal有効化"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:164
 msgid "VisionPortal Enabling/Disabling"
-msgstr "ビジョンポートルの有効化/無効化"
+msgstr "Vision Portalの有効化/無効化"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:174
 msgid ""
 "Again, use this only to **re-enable** the processor, after **disabling** (by"
 " setting to ``false``)."
 msgstr ""
-"また、この機能はプロセッサを ** 再起動 ** するためだけに使用し、 ** 停止 ** 状態から復帰（``false`` に設定した場合）後にのみ使用してください。"
+"また、この機能はプロセッサを ** 再起動 ** するためだけに使用し、 ** 停止 ** 状態から復帰（``false`` "
+"に設定した場合）後にのみ使用してください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_init/visionportal-init.rst:179
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"

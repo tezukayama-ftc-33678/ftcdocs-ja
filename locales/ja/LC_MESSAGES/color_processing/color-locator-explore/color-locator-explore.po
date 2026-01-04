@@ -85,7 +85,7 @@ msgstr "ポストソートのBlob結果"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:30
 msgid "Building the VisionPortal"
-msgstr "ビジョンポータルの構築"
+msgstr "Vision Portalの構築"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:32
 msgid ""
@@ -563,8 +563,8 @@ msgid ""
 "**boxFit** long side to short side.  A perfect square has an aspect ratio of"
 " 1.  All others are > 1"
 msgstr ""
-"** Util.filterByAspectRatio() ** は、ブロブのアスペクト比を計算する関数です。アスペクト比は、 ** boxFit "
-"** の長辺と短辺の比率を表します。完全な正方形の場合、アスペクト比は1になります。それ以外のすべての場合は、アスペクト比が1より大きいことになります。"
+"** Util.filterByAspectRatio() ** は、ブロブのアスペクト比を計算する関数です。アスペクト比は、 ** boxFit **"
+" の長辺と短辺の比率を表します。完全な正方形の場合、アスペクト比は1になります。それ以外のすべての場合は、アスペクト比が1より大きいことになります。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "post filter"
