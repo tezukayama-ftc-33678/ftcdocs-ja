@@ -30,8 +30,8 @@ msgid ""
 "Logitech C920 and the Microsoft LifeCam VX-5000 have a range of +/-36,000 "
 "units, far greater than the pixel count in each axis."
 msgstr ""
-"ウェブカメラは通常、ピクセルという最小の画像捕捉単位でパンとチルト値を表現しません。たとえば、ロジテック C920 およびマイクロソフト LifeCam"
-" VX-5000 はそれぞれ ±36,000 ユニットの範囲を持ち、各軸のピクセル数よりも遥かに大きいです。"
+"ウェブカメラは通常、ピクセルという最小の画像捕捉単位でパンとチルト値を表現しません。たとえば、Logitech C920 およびMicrosoft "
+"LifeCam VX-5000 はそれぞれ ±36,000 ユニットの範囲を持ち、各軸のピクセル数よりも遥かに大きいです。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:9
 msgid ""
@@ -40,8 +40,8 @@ msgid ""
 " named PanTiltHolder. This class has two fields, named pan and tilt, of type"
 " integer."
 msgstr ""
-"ウェブカメラはパンとチルトを (x, y) "
-"のペアとして受け付けます。したがって、SDKのパンとチルトメソッドはこれらの値を ** ペアとしてのみ ** 処理し、特別なクラスPanTiltHolderで管理します。このクラスには、整数型のフィールドpanとtiltがあります。"
+"ウェブカメラはパンとチルトを (x, y) のペアとして受け付けます。したがって、SDKのパンとチルトメソッドはこれらの値を ** ペアとしてのみ **"
+" 処理し、特別なクラスPanTiltHolderで管理します。このクラスには、整数型のフィールドpanとtiltがあります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/ptz/pan_tilt/pan-tilt.rst:14
 msgid "Here’s an example to illustrate using the basic methods:"

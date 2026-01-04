@@ -104,7 +104,13 @@ msgid ""
 "cable built in, like the `REV UltraUSB (REV-31-1592) "
 "<https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>`_ - this reduces the "
 "number of connections and failure points in the system."
-msgstr "もし使用しているAndroidデバイスがスマートフォンである場合、そのスマートフォンはスマホの底に単一のUSB-Micro-Bポートのみを提供します。AndroidスマートフォンでUSBデバイスを使用するためには、ゲームパッドなど、USBゲームパッドや周辺機器（例えば、複数のゲームパッドを使用できるようにするUSBハブ）に接続するために、USB-OTGアダプターケーブルが必要です。このケーブルはゲームパッドや周辺機器用のUSB Type Aポートを提供します。もし利用可能であれば、代わりに内蔵OTGケーブルを持つUSBハブを使用することをお勧めします。例えば、「REV UltraUSB (REV-31-1592) <https://www.revrobotics.com/UltraUSB-Hub-and-Cables/>」のような製品が適しています。これにより、システム内の接続数と故障点を減らすことができます。"
+msgstr ""
+"もし使用しているAndroidデバイスがスマートフォンである場合、そのスマートフォンはスマホの底に単一のUSB-Micro-"
+"Bポートのみを提供します。AndroidスマートフォンでUSBデバイスを使用するためには、ゲームパッドなど、USBゲームパッドや周辺機器（例えば、複数のゲームパッドを使用できるようにするUSBハブ）に接続するために、USB-"
+"OTGアダプターケーブルが必要です。このケーブルはゲームパッドや周辺機器用のUSB Type "
+"Aポートを提供します。もし利用可能であれば、代わりに内蔵OTGケーブルを持つUSBハブを使用することをお勧めします。例えば、「REV UltraUSB "
+"(REV-31-1592) <https://www.revrobotics.com/UltraUSB-Hub-and-"
+"Cables/>」のような製品が適しています。これにより、システム内の接続数と故障点を減らすことができます。"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:118
 msgid ""
@@ -144,11 +150,11 @@ msgstr "ゲームパッド"
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:159
 msgid "Logitech F310"
-msgstr "ロジテック F310"
+msgstr "Logitech F310"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:170
 msgid "Logitech F310 Gamepad"
-msgstr "ロジテック F310 ゲームパッド"
+msgstr "Logitech F310 ゲームパッド"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:176
 msgid "Sony DualSense"

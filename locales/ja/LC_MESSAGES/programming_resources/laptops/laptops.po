@@ -38,8 +38,8 @@ msgid ""
 "requirements for that computer system."
 msgstr ""
 "*FIRST*\\ :sup:`®` のプログラム、たとえば *FIRST*\\ :sup:`®` LEGO\\ :sup:`®` "
-"リーグ、 *FIRST*\\ :sup:`®` Tech Challenge、および *FIRST*\\ :sup:`®` "
-"ロボティクス競技大会は、参加するチームの多様性と同じくらい独特です。この独特さは、プログラムに提供される技術製品の幅広い種類、各プログラムの独自の目標を管理するために必要なハードウェアとソフトウェア、そしてチームが参加し優勝するために有用とするツールや手法の常に進化する景観によって一部形成されています。プログラム間で共通しているのは、ソフトウェア開発、設計、および協力のためにコンピュータプラットフォームを持つチームの必要性です。このドキュメントでは、そのコンピューターシステムのハードウェアとオペレーティングシステム要件についての推奨事項を提供します。"
+"League、 *FIRST*\\ :sup:`®` Tech Challenge、および *FIRST*\\ :sup:`®` "
+"Robotics Competitionは、参加するチームの多様性と同じくらい独特です。この独特さは、プログラムに提供される技術製品の幅広い種類、各プログラムの独自の目標を管理するために必要なハードウェアとソフトウェア、そしてチームが参加し優勝するために有用とするツールや手法の常に進化する景観によって一部形成されています。プログラム間で共通しているのは、ソフトウェア開発、設計、および協力のためにコンピュータプラットフォームを持つチームの必要性です。このドキュメントでは、そのコンピューターシステムのハードウェアとオペレーティングシステム要件についての推奨事項を提供します。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:16
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 #: ../../source/programming_resources/laptops/laptops.rst:39
 msgid ""
 "Recommended Computer Hardware for *FIRST*\\ :sup:`®` LEGO\\ :sup:`®` League"
-msgstr "*FIRST*\\ :sup:`®` LEGO\\ :sup:`®` リーグ用の推奨コンピュータハードウェア"
+msgstr "*FIRST*\\ :sup:`®` LEGO\\ :sup:`®` League用の推奨コンピュータハードウェア"
 
 #: ../../source/programming_resources/laptops/laptops.rst:41
 msgid ""
@@ -133,7 +133,7 @@ msgstr "`macOS標準ノートブック`_"
 #: ../../source/programming_resources/laptops/laptops.rst:59
 #: ../../source/programming_resources/laptops/laptops.rst:115
 msgid "`Chrome OS Standard Laptop`_"
-msgstr "`クロムOS標準ノートブック`_"
+msgstr "`Chrome OS標準ノートブック`_"
 
 #: ../../source/programming_resources/laptops/laptops.rst:61
 msgid "`iOS Standard Tablet`_"
@@ -142,7 +142,7 @@ msgstr "`iOS標準タブレット`_"
 #: ../../source/programming_resources/laptops/laptops.rst:63
 msgid ""
 "LEGO\\ :sup:`®` Education SPIKE™ Essential hub cannot be updated with iPad"
-msgstr "LEGO\\ :sup:`®` Education SPIKE™ エッセンシャル ハブはiPadで更新できません"
+msgstr "LEGO\\ :sup:`®` Education SPIKE™ Essential hubはiPadで更新できません"
 
 #: ../../source/programming_resources/laptops/laptops.rst:66
 msgid "`Android Standard Tablet`_"
@@ -288,7 +288,7 @@ msgstr ""
 
 #: ../../source/programming_resources/laptops/laptops.rst:156
 msgid "Driver Station"
-msgstr "ドライバーステーション"
+msgstr "Driver Station"
 
 #: ../../source/programming_resources/laptops/laptops.rst:158
 msgid ""
@@ -400,7 +400,7 @@ msgstr "FIRST LEGO Leagueでは、ノートパソコンやタブレットがBlue
 
 #: ../../source/programming_resources/laptops/laptops.rst:249
 msgid "*Physical Ethernet Ports*"
-msgstr "物理的な以太網ポート"
+msgstr "物理的なEthernetポート"
 
 #: ../../source/programming_resources/laptops/laptops.rst:251
 msgid ""
@@ -410,7 +410,7 @@ msgid ""
 "benefit."
 msgstr ""
 "ハードウェアやソフトウェアの大多数の機能はWi-Fiで簡単にサポートできますが、状況によっては（FIRST "
-"ロボティクス競技大会のドライバー・ステーションの場合など）システムに物理的なRJ-45以太網ポートがあると大きな利点があります。"
+"Robotics Competitionのドライバー・ステーションの場合など）システムに物理的なRJ-45ポートがあると大きな利点があります。"
 
 #: ../../source/programming_resources/laptops/laptops.rst:257
 msgid "*SSD Hard Drive*"

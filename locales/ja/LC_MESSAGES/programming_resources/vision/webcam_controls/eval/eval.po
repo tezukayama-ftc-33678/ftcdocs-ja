@@ -248,14 +248,14 @@ msgid ""
 "some webcams **accept** / ``set()`` and **confirm** / ``get()`` a **non-"
 "supported mode**"
 msgstr ""
-"一部のウェブカメラは、 **サポートされていないモード** を "
-"**accept** （受理） / ``set()`` し、 **confirm** （確定） / ``get()`` します"
+"一部のウェブカメラは、 **サポートされていないモード** を **accept** （受理） / ``set()`` し、 **confirm** "
+"（確定） / ``get()`` します"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:112
 msgid ""
 "Logitech C270 preview becomes **lighter** up to exposure 655, then rolls "
 "over to **dark** at 656"
-msgstr "ロジテックC270のプレビューは露出度655まで **明るく** なり、656から **暗くなります** 。"
+msgstr "LogitechC270のプレビューは露出度655まで **明るく** なり、656から **暗くなります** 。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:115
 msgid "this webcam’s Min is 0, Max is 1000."
@@ -265,7 +265,8 @@ msgstr "このウェブカメラのMinは0、Maxは1000です。"
 msgid ""
 "Logitech V-UAX16 preview looks normal at exposure = 0, becomes **darker** up"
 " to 30-40"
-msgstr "ロジテック V-UAX16 のプレビューは露出量が 0 のときは正常に表示されますが、30〜40まで増加すると **暗くなります** 。"
+msgstr ""
+"Logitech V-UAX16 のプレビューは露出量が 0 のときは正常に表示されますが、30〜40まで増加すると **暗くなります** 。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:119
 msgid ""
@@ -273,7 +274,6 @@ msgid ""
 "comparable to **exposure** (0-204)"
 msgstr ""
 "Logitech C920 の ** gain ** 値（0-255）はプレビュー品質に大きく影響を与え、 ** 露出 ** （0-204）と比較できる"
-""
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:121
 msgid ""

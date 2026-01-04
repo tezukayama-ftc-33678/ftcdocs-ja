@@ -56,8 +56,23 @@
       "description": "should remain in English"
     },
     {
-      "mistranslation": "ブロックス",
-      "correct": "Blocks",
+      "mistranslation": "ロジテック",
+      "correct": "Logitech",
+      "description": "should remain in English"
+    },
+    {
+      "mistranslation": "マイクロソフト",
+      "correct": "Microsoft",
+      "description": "should remain in English"
+    },
+    {
+      "mistranslation": "アールデュカム",
+      "correct": "Arducam",
+      "description": "should remain in English"
+    },
+    {
+      "mistranslation": "カイテオン",
+      "correct": "Kayeton",
       "description": "should remain in English"
     }
   ]
