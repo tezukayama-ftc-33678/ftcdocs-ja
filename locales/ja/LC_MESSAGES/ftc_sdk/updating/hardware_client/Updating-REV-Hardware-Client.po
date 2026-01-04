@@ -42,8 +42,8 @@ msgid ""
 "To install, use the following steps on a **64-bit** PC or laptop running "
 "Windows 7 or newer."
 msgstr ""
-"To install, use the following steps on a ** 64-bit ** PC or laptop running Windows 7 or newer."
-""
+"To install, use the following steps on a ** 64-bit ** PC or laptop running "
+"Windows 7 or newer."
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:14
 msgid "**Apple/Mac users should skip these steps.**"
@@ -93,9 +93,7 @@ msgstr "もしコンピューターが **64ビット** でない場合、RHCの�
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:46
 msgid "Downloading Initial Updates"
-msgstr ""
-"初期更新のダウンロード"
-""
+msgstr "初期更新のダウンロード"
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:48
 msgid ""
@@ -109,8 +107,8 @@ msgid ""
 "Robot Controller, not to the internet. Or a good internet connection might "
 "not be available when urgently needed (Murphy’s Law)."
 msgstr ""
-"なぜ今ダウンロードするか？後で、このコンピューターはWi-"
-"Fi経由でロボットコントローラーに接続される可能性があり、インターネットには接続されないかもしれません。または、緊急時に必要なときに良いインターネット接続が利用できない場合もあります（"
+"なぜ今ダウンロードするか？後で、このコンピューターはWi-Fi経由でRobot "
+"Controllerに接続される可能性があり、インターネットには接続されないかもしれません。または、緊急時に必要なときに良いインターネット接続が利用できない場合もあります（"
 " Murphy’s Law）。"
 
 #: ../../source/ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client.rst:55

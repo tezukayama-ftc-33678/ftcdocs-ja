@@ -50,7 +50,8 @@ msgid ""
 "ROBOT CONTROLLER, DRIVER STATION, and any spares used must be "
 "configured/named to correspond to the correct team number as follows:"
 msgstr ""
-"競技マニュアルに従うため、ドライバーステーション（DS）の名前を変更する必要があります。チーム番号に応じてデバイスを設定してください。ロボットコントローラー、ドライバーステーション、および使用される任意のスペアも、正しいチーム番号に対応するように設定/命名する必要があります："
+"競技マニュアルに従うため、ドライバーステーション（DS）の名前を変更する必要があります。チーム番号に応じてデバイスを設定してください。Robot "
+"Controller、ドライバーステーション、および使用される任意のスペアも、正しいチーム番号に対応するように設定/命名する必要があります："
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:18
 msgid "ROBOT CONTROLLER should be named <team number>-RC (e.g., 12345-RC),"
@@ -111,7 +112,7 @@ msgstr ""
 "もし、あなたのドライバーステーション（Driver "
 "Station）の画面に黄色い円の中に激突マークのアイコンが表示され、それをタッチすると一時的にメッセージが表示され、「*DS* は *DS* "
 "と一致していません。FTC コンペティションマニュアルを参照してください」という内容になります。注意：*DS* は現在のドライバーステーションの名前で、"
-" *RC* は現在のロボットコントローラーの名前です。"
+" *RC* は現在のRobot Controllerの名前です。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:40
 msgid ""
@@ -247,7 +248,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:118
 msgid "Access the Robot Control Console on the Control Hub."
-msgstr "コントロールハブからロボット制御コンソールにアクセスします。"
+msgstr "Control Hubからロボット制御コンソールにアクセスします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:120
 msgid ""
@@ -272,7 +273,7 @@ msgid ""
 "open that file to install the DS app. This process is called \"side-"
 "loading\"."
 msgstr ""
-"代わりに、アプリのリリースは `FTCロボットコントローラー GitHub <https://github.com/FIRST-Tech-"
+"代わりに、アプリのリリースは `FTCRobot Controller GitHub <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/releases>`__ で利用可能です。Driver Station "
 "APKファイルをコンピュータにダウンロードし、DSスマホのDownloadsフォルダに転送した後、そのファイルを開いてDSアプリケーションをインストールします。このプロセスは「サイドローディング」と呼ばれます。"
 
@@ -284,7 +285,8 @@ msgid ""
 "<programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-"
 "Robot-Controller:Updating the Robot Controller App>`"
 msgstr ""
-"もしドライバーステーション（DS）アプリを更新する場合、ロボットコントローラー（RC）アプリも同じバージョン番号に更新することをお勧めします。そのプロセスはAndroid"
-" Studioチームでは異なるため、RCスマートフォンのアップデートについては "
+"もしドライバーステーション（DS）アプリを更新する場合、Robot "
+"Controller（RC）アプリも同じバージョン番号に更新することをお勧めします。そのプロセスはAndroid "
+"Studioチームでは異なるため、RCスマートフォンのアップデートについては "
 ":ref:`こちら<programming_resources/shared/managing_smartphone_rc/Managing-a-"
 "Smartphone-Robot-Controller:Updating the Robot Controller App>` で説明されています。"

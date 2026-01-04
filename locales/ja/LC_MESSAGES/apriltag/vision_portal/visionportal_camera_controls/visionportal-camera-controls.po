@@ -132,8 +132,8 @@ msgid ""
 "``STREAMING`` - Frames are available for processing (AprilTag and/or TFOD "
 "recognitions) and preview (RC preview and DS Camera Stream)"
 msgstr ""
-"``ストリーミング`` - "
-"フレームは処理（AprilTagやTFODの認識）とプレビュー（ロボットコントローラーのカメラストリームとドライバーステーションのカメラストリーム）のために利用可能です"
+"``ストリーミング`` - フレームは処理（AprilTagやTFODの認識）とプレビュー（Robot "
+"Controllerのカメラストリームとドライバーステーションのカメラストリーム）のために利用可能です"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:52
 msgid ""
@@ -446,8 +446,10 @@ msgid ""
 "HDMI monitor into the Control Hub HDMI port, or use an external viewer "
 "program like scrcpy (https://scrcpy.org/)*"
 msgstr ""
-"* "
-"これを実行するには、ロボットコントローラー画面を直接確認する必要があります（ドライバーステーションからではなく）。RCスマホの画面から直接確認できます（外部ウェブカムを使用している場合）、しかしコントロールハブの場合、HDMIモニターをコントロールハブのHDMIポートに接続するか、scrcpyなどの外部ビューワープログラム（https://scrcpy.org/）を使用する必要があります。*"
+"* これを実行するには、Robot "
+"Controller画面を直接確認する必要があります（ドライバーステーションからではなく）。RCスマホの画面から直接確認できます（外部ウェブカムを使用している場合）、しかしControl"
+" Hubの場合、HDMIモニターをControl "
+"HubのHDMIポートに接続するか、scrcpyなどの外部ビューワープログラム（https://scrcpy.org/）を使用する必要があります。*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:216
 msgid "Other Test OpModes"

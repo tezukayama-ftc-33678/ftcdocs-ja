@@ -34,7 +34,10 @@ msgid ""
 " reference online Javadoc material that provide descriptions of the "
 "available FIRST Tech Challenge-related classes and methods, at the following"
 " web address:"
-msgstr "複雑なOpModeを書くにつれて、FIRST Tech Challengeソフトウェア開発キット（SDK）のより多くの機能を使用する必要が出てきます。利用可能なFIRST Tech Challenge関連のクラスやメソッドの説明は、次のウェブサイトでオンラインJavadoc資料を参照できます:"
+msgstr ""
+"複雑なOpModeを書くにつれて、FIRST Tech "
+"Challengeソフトウェア開発キット（SDK）のより多くの機能を使用する必要が出てきます。利用可能なFIRST Tech "
+"Challenge関連のクラスやメソッドの説明は、次のウェブサイトでオンラインJavadoc資料を参照できます:"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst:13
 msgid "https://javadoc.io/doc/org.firstinspires.ftc"
@@ -51,7 +54,9 @@ msgid ""
 "system. As you create a new file, you can use the Sample dropdown list "
 "control to display a list of available sample op modes or templates. The "
 "comments in these examples help explain what the program statements do."
-msgstr "OnBot Javaプログラミングツールには、FIRST Tech Challenge制御システムでさまざまなタスクを実行する方法を示すビルトインの例OpModeがいくつか含まれています。新しいファイルを作成すると、「サンプル」ドロップダウンリストを使用して利用可能なサンプルOpModeやテンプレートの一覧を表示できます。これらの例のコメントは、プログラムステートメントが何をするかを説明しています。"
+msgstr ""
+"OnBot Javaプログラミングツールには、FIRST Tech "
+"Challenge制御システムでさまざまなタスクを実行する方法を示すビルトインの例OpModeがいくつか含まれています。新しいファイルを作成すると、「サンプル」ドロップダウンリストを使用して利用可能なサンプルOpModeやテンプレートの一覧を表示できます。これらの例のコメントは、プログラムステートメントが何をするかを説明しています。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst:31
 msgid "Technology Forum"
@@ -77,14 +82,14 @@ msgstr "<URL>https://ftc-community.firstinspires.org</URL>"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst:42
 msgid "REV Robotics Control Hub Documentation"
-msgstr "REV ロボティクス コントロールハブ 文書"
+msgstr "REV ロボティクス Control Hub 文書"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst:44
 msgid ""
 "`REV Robotics Control Hub Getting Started Guide "
 "<https://docs.revrobotics.com/duo-control/control-hub-gs>`__"
 msgstr ""
-"REVロボティクスコントロールハブ開始ガイド <https://docs.revrobotics.com/duo-control/control-"
+"REVロボティクスControl Hub開始ガイド <https://docs.revrobotics.com/duo-control/control-"
 "hub-gs>`__"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst:48
@@ -96,7 +101,9 @@ msgid ""
 "`REV Robotics Expansion Hub Getting Started Guide "
 "<https://docs.revrobotics.com/duo-control/control-system-overview/expansion-"
 "hub-basics>`__"
-msgstr "REVロボティクスExpansion Hub 使用開始ガイド <https://docs.revrobotics.com/duo-control/control-system-overview/expansion-hub-basics>`__"
+msgstr ""
+"REVロボティクスExpansion Hub 使用開始ガイド <https://docs.revrobotics.com/duo-"
+"control/control-system-overview/expansion-hub-basics>`__"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/onbot_java_reference/OnBot-Java-Reference-Info.rst:54
 msgid "REV Robotics Driver Hub Documentation"

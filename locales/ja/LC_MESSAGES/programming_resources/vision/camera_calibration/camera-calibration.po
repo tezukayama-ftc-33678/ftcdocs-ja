@@ -111,7 +111,9 @@ msgid ""
 "Copy the sample ``UtilityCameraFrameCapture`` OpMode to your teamcode "
 "folder, and modify the parameters at the top according to your needs. It's "
 "important to note that this Sample is only written in Java."
-msgstr "チームコードフォルダにサンプルの ``UtilityCameraFrameCapture`` OpModeをコピーし、必要に応じて上部のパラメータを修正してください。なお、このサンプルはJavaでしか書かれていません。"
+msgstr ""
+"チームコードフォルダにサンプルの ``UtilityCameraFrameCapture`` "
+"OpModeをコピーし、必要に応じて上部のパラメータを修正してください。なお、このサンプルはJavaでしか書かれていません。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:48
 msgid "In 3DF Zephyr, go to:"
@@ -133,7 +135,8 @@ msgid ""
 "copy the captured frames to your computer. They will be located in the root "
 "of the USB storage, with names prefixed by ``VisionPortal-``."
 msgstr ""
-"ロボットコントローラー装置をUSBケーブルでコンピュータに接続し、キャプチャされたフレームをコンピュータにコピーしてください。これらのファイルはUSBストレージのルートディレクトリに配置され、「VisionPortal-」というプレフィックスが付きます。"
+"Robot "
+"Controller装置をUSBケーブルでコンピュータに接続し、キャプチャされたフレームをコンピュータにコピーしてください。これらのファイルはUSBストレージのルートディレクトリに配置され、「VisionPortal-」というプレフィックスが付きます。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:56
 msgid ""

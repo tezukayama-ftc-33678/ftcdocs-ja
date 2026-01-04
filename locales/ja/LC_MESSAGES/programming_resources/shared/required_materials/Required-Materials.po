@@ -122,7 +122,7 @@ msgid ""
 "the Competition Manual does allow teams to instead use a REV Robotics "
 "Expansion Hub and a select list of Android phones."
 msgstr ""
-"REV Robotics コントロールハブをロボットコントローラとして使用します。また、競技マニュアルではチームがREV Robotics "
+"REV Robotics Control Hubをロボットコントローラとして使用します。また、競技マニュアルではチームがREV Robotics "
 "エクスパンションハブと選定されたAndroid フォンのリストを使用することも許可されています。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:57
@@ -135,7 +135,8 @@ msgid ""
 "Alternately, the Competition Manual does allow teams to instead use a select"
 " list of Android phones. See rule R901 for the full details."
 msgstr ""
-"REV Robotics Driver Hubを使用してDRIVER STATIONデバイスとして利用します。ただし、コンペティションマニュアルでは、チームは指定された一覧のAndroidスマートフォンを使用することも可能です。「ルールR901」を参照してください。"
+"REV Robotics Driver Hubを使用してDRIVER "
+"STATIONデバイスとして利用します。ただし、コンペティションマニュアルでは、チームは指定された一覧のAndroidスマートフォンを使用することも可能です。「ルールR901」を参照してください。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:63
 msgid "|driverhub|"
@@ -160,7 +161,8 @@ msgid ""
 "connect to a Wi-Fi network."
 msgstr ""
 "Microsoft Windows 7、8、10、または11搭載のノートパソコンとWi-"
-"Fi機能が必要です。Microsoftから最新のサービスパックやシステム更新をインストールしていることを確認してください。プログラミングデバイスとしてChromebookやAndroidタブレットなどの異なるタイプの機器を使用する場合、ロボットコントローラー上のプログラミングサーバーにアクセスする手順は若干異なります。詳細については、各デバイスのユーザドキュメントを参照してください。"
+"Fi機能が必要です。Microsoftから最新のサービスパックやシステム更新をインストールしていることを確認してください。プログラミングデバイスとしてChromebookやAndroidタブレットなどの異なるタイプの機器を使用する場合、Robot"
+" Controller上のプログラミングサーバーにアクセスする手順は若干異なります。詳細については、各デバイスのユーザドキュメントを参照してください。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:69
 msgid "|laptop|"
@@ -190,8 +192,8 @@ msgid ""
 "the current Competition Manual.**\\"
 msgstr ""
 "*FIRST*-approved\\* 12Vバッテリー (たとえばTetrix W39057やREV Robotics "
-"REV-31-1302).\\*\\ ** FIRST-approved "
-"12Vバッテリーのリストについては、現在の競技マニュアルを参照してください。 ** \\"
+"REV-31-1302).\\*\\ ** FIRST-approved 12Vバッテリーのリストについては、現在の競技マニュアルを参照してください。 "
+"** \\"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:78
 msgid "|battery|   Or |slimbattery|"
@@ -203,8 +205,8 @@ msgid ""
 "W41352).\\*\\ **For a list of FIRST-approved 12V motors, refer to the "
 "current Competition Manual.**\\"
 msgstr ""
-"*FIRST*-approved\\* 12V DCモーター（たとえばTetrix W39530、電源ケーブルW41352付き）。\\*\\ "
-" ** 12Vモーターのリストについては、現在の競技マニュアルを参照してください。 ** \\"
+"*FIRST*-approved\\* 12V DCモーター（たとえばTetrix W39530、電源ケーブルW41352付き）。\\*\\  ** "
+"12Vモーターのリストについては、現在の競技マニュアルを参照してください。 ** \\"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:81
 msgid "|motor|"

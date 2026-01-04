@@ -59,9 +59,8 @@ msgid ""
 "vision processing and recognition. It plugs into an **I2C sensor port** of a"
 " REV Control Hub or REV Expansion Hub."
 msgstr ""
-"HuskyLensは、 ** 車載プログラミング ** "
-"を使用してAI補助の学習、ビジョン処理および認識を実行します。REVコントロールハブまたはREVエクスパンションハブの ** I2Cセンサーポート **"
-" に接続できます。"
+"HuskyLensは、 ** 車載プログラミング ** を使用してAI補助の学習、ビジョン処理および認識を実行します。REVControl "
+"HubまたはREVエクスパンションハブの ** I2Cセンサーポート ** に接続できます。"
 
 #: ../../source/devices/huskylens/huskylens.rst:26
 msgid ""
@@ -220,7 +219,7 @@ msgid ""
 "or ``Control Hub`` with the HuskyLens plugged in."
 msgstr ""
 "既存の（正しい）設定を編集するか、新しいものを選択します。その後、「スキャン」をタッチし、HuskyLensが接続された特定の「Expansion "
-"Hub」または「コントロールハブ」に移動します。"
+"Hub」または「Control Hub」に移動します。"
 
 #: ../../source/devices/huskylens/huskylens.rst:102
 msgid ""

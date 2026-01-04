@@ -39,6 +39,16 @@
       "mistranslation": "ホブ",
       "correct": "hub",
       "description": "hub should remain in English"
+    },
+    {
+      "mistranslation": "コントロールハブ",
+      "correct": "Control Hub",
+      "description": "hub should remain in English"
+    },
+    {
+      "mistranslation": "ロボットコントローラー",
+      "correct": "Robot Controller",
+      "description": "Robot Controller should remain in English"
     }
   ]
 }

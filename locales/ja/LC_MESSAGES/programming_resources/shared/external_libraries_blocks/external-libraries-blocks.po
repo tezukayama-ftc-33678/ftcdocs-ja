@@ -649,8 +649,8 @@ msgstr ""
 ":download:`JniExample.aar <opmodes/JniExample.aar>` "
 "には、ネイティブC++コードで実装された基本的な算術演算のメソッドを持つクラス "
 "``com.example.google.ftc.IntegerMath`` が含まれています。公開メソッドは ``add``（加算）、 "
-"``subtract``（減算）、 ``multiply`` （乗算）、および ``divide`` （除算）"
-"です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
+"``subtract``（減算）、 ``multiply`` （乗算）、および ``divide`` "
+"（除算）です。各メソッドには2つの整数を引数とし、整数の結果を返します。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:375
 msgid ""
@@ -782,7 +782,7 @@ msgstr "外部ライブラリはこれらの注釈を使用して新しいハー
 msgid ""
 "External libraries can add new functionality to the Robot Controller with "
 "these annotations:"
-msgstr "外部ライブラリは、これらのアノテーションを使用してロボットコントローラーに新しい機能を追加することができます："
+msgstr "外部ライブラリは、これらのアノテーションを使用してRobot Controllerに新しい機能を追加することができます："
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:463
 msgid "Summary"

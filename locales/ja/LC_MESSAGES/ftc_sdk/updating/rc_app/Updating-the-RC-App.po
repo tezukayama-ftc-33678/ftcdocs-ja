@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:2
 msgid "Updating the Robot Controller (RC) App"
-msgstr "ロボットコントローラー（RC）アプリの更新"
+msgstr "Robot Controller（RC）アプリの更新"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:4
 msgid ""
@@ -31,20 +31,20 @@ msgid ""
 "Controller Android Device (REV Control Hub or an approved Android RC phone)."
 " This app communicates with the Driver Station App to control the robot."
 msgstr ""
-"ロボットコントローラーアプリは、 *FIRST* Tech Challenge :doc:`ソフトウェア開発キット（SDK） "
-"</ftc_sdk/overview/index>` に同梱されているアプリケーションの1つです。ロボットコントローラーアプリは、REV "
-"コントロールハブや承認された Android RC フォンなどのロボットコントローラー Android "
+"Robot Controllerアプリは、 *FIRST* Tech Challenge :doc:`ソフトウェア開発キット（SDK） "
+"</ftc_sdk/overview/index>` に同梱されているアプリケーションの1つです。Robot Controllerアプリは、REV "
+"Control Hubや承認された Android RC フォンなどのRobot Controller Android "
 "デバイスで実行されるアプリケーションです。このアプリケーションはドライバー・ステーション アプリと通信し、ロボットの制御を行います。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:10
 msgid ""
 "This page shows how to update the Robot Controller (RC) app on these "
 "devices:"
-msgstr "これらのデバイスでロボットコントローラー（RC）アプリケーションを更新する方法について説明します："
+msgstr "これらのデバイスでRobot Controller（RC）アプリケーションを更新する方法について説明します："
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:13
 msgid "REV Control Hub"
-msgstr "REV コントロールハブ"
+msgstr "REV Control Hub"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:14
 msgid "An approved Android RC smartphone"
@@ -107,9 +107,9 @@ msgid ""
 msgstr ""
 "Android Studio では、一般的にその仕組みが逆です。FtcRobotController リポジトリ（Android Studio "
 "プロジェクト）には、完全なソースコードが含まれており、これを使って完全なRCアプリケーションを構築できます；Android Studio "
-"プロジェクトがコンパイルされデプロイされるとき、実際には完全なロボットコントローラーアプリケーションが作成され、RC Android "
-"デバイスにインストールされます。チームコード ** と ** "
-"ロボットコントローラーのコードは一緒にコンパイルされ、つまりチームコードはRCアプリケーション内に埋め込まれ、独立して更新/編集することはできません。Android"
+"プロジェクトがコンパイルされデプロイされるとき、実際には完全なRobot Controllerアプリケーションが作成され、RC Android "
+"デバイスにインストールされます。チームコード ** と ** Robot "
+"Controllerのコードは一緒にコンパイルされ、つまりチームコードはRCアプリケーション内に埋め込まれ、独立して更新/編集することはできません。Android"
 " Studio "
 "でデプロイされたRCアプリがREVハードウェアクライアントや類似のプロセスを使って置き換えられた場合、埋め込まれたチームコード付きのRCアプリは削除され、デフォルトのRCアプリに置き換わります。したがって、Android"
 " StudioユーザーはRCアプリを更新する際には常にAndroid "
@@ -118,7 +118,8 @@ msgstr ""
 "<../../../programming_resources/tutorial_specific/android_studio/fork_and_clone_github_repository/Fork-"
 "and-Clone-From-GitHub>` を適切にマージし、`FtcRobotController リポジトリ "
 "<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ "
-"のソフトウェアリリースが使用するロボットコントローラーアプリケーションのバージョンと一致している場合にのみ、RCアプリケーション部分をアップグレード/ダウングレードすることができます。これはAndroid"
+"のソフトウェアリリースが使用するRobot "
+"Controllerアプリケーションのバージョンと一致している場合にのみ、RCアプリケーション部分をアップグレード/ダウングレードすることができます。これはAndroid"
 " Studioを使用する際には慎重に考慮しなければなりません。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:56
@@ -158,7 +159,9 @@ msgid ""
 "where such an independent update is supported - i.e. Blocks or OnBot Java "
 "development. Expand the following instructions that apply to your Robot "
 "Controller hardware:"
-msgstr "これらの指示は、独立してRCアプリケーションを更新する機能がサポートされている場合（ブロックスまたはOnBot Java開発など）に使用します。以下の指示は、あなたのロボットコントローラーのハードウェアに応じて展開してください："
+msgstr ""
+"これらの指示は、独立してRCアプリケーションを更新する機能がサポートされている場合（ブロックスまたはOnBot "
+"Java開発など）に使用します。以下の指示は、あなたのRobot Controllerのハードウェアに応じて展開してください："
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 msgid "Robot Controller (RC) app on REV Control Hub"
@@ -186,7 +189,8 @@ msgid ""
 "“Side loading”, while possible, is not described here for the Control Hub as"
 " it requires a cumbersome procedure with extra equipment."
 msgstr ""
-"「サイドローディング」は可能ではありますが、コントロールハブについては説明していません。これはcumbersomeな手順と追加の機器が必要となるためです。"
+"「サイドローディング」は可能ではありますが、Control "
+"Hubについては説明していません。これはcumbersomeな手順と追加の機器が必要となるためです。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 msgid "Method 1 - REV Hardware Client - Windows computers only"
@@ -198,7 +202,7 @@ msgid ""
 "Windows computer.  Make sure the “Hardware” tab on the RHC is active, at top"
 " left."
 msgstr ""
-"REV コントロールハブのUSB-CポートをWindowsコンピュータにUSBデータケーブルで接続してください。RHC "
+"REV Control HubのUSB-CポートをWindowsコンピュータにUSBデータケーブルで接続してください。RHC "
 "の「ハードウェア」タブが左上にあることを確認してください。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:92
@@ -215,7 +219,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:97
 msgid "The RHC app will recognize the Control Hub, as shown here:"
-msgstr "RHC アプリはコントロールハブを認識し、以下のように表示されます："
+msgstr "RHC アプリはControl Hubを認識し、以下のように表示されます："
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:104
@@ -248,8 +252,8 @@ msgid ""
 "`SDK github repository <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController>`__."
 msgstr ""
-"接続するためには、ノートブックコンピュータにインターネットに接続し、ウェブブラウザを開き、`SDK ゲットハブ リポジトリ <https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に移動します。"
-""
+"接続するためには、ノートブックコンピュータにインターネットに接続し、ウェブブラウザを開き、`SDK ゲットハブ リポジトリ "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__ に移動します。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:129
@@ -300,7 +304,7 @@ msgid ""
 "Connect the same laptop via Wi-Fi to the Control Hub. Open the Chrome "
 "browser, enter the usual address ``http://192.168.43.1:8080``"
 msgstr ""
-"同じラップトップをWi-Fi経由でコントロールハブに接続してください。Chrome ブラウザを開き、通常のアドレス "
+"同じラップトップをWi-Fi経由でControl Hubに接続してください。Chrome ブラウザを開き、通常のアドレス "
 "``http://192.168.43.1:8080`` を入力してください。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:155
@@ -331,7 +335,8 @@ msgid ""
 "The connection between laptop and Control Hub will temporarily be lost, then"
 " automatically restored."
 msgstr ""
-"ソフトウェアは、既存のRCアプリケーションを新しい更新済みRCアプリケーションに置き換わります。ノートブックとコントロールハブとの接続は一時的に失われますが、自動的に復元されます。"
+"ソフトウェアは、既存のRCアプリケーションを新しい更新済みRCアプリケーションに置き換わります。ノートブックとControl "
+"Hubとの接続は一時的に失われますが、自動的に復元されます。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:173
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:218
@@ -348,14 +353,20 @@ msgid ""
 "This method can be used if your computer is unavailable or unable to connect"
 " via Wi-Fi to the Control Hub. For example, your desktop computer might have"
 " only a wired (Ethernet) network port, lacking Wi-Fi."
-msgstr "このメソッドは、コンピュータが利用不可或者いなWi-Fi経由でControl Hubに接続できない場合に使用できます。例えば、デスクトップコンピュータは有線（エチケット）ネットワークポートしか持たず、Wi-Fiがない場合があります。"
+msgstr ""
+"このメソッドは、コンピュータが利用不可或者いなWi-Fi経由でControl "
+"Hubに接続できない場合に使用できます。例えば、デスクトップコンピュータは有線（エチケット）ネットワークポートしか持たず、Wi-"
+"Fiがない場合があります。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:181
 msgid ""
 "But this method does require the RC APK file to be stored in the Download "
 "(or Downloads) folder on the Driver Hub or DS phone. That’s correct: **Robot"
 " Controller APK** stored on the **Driver Station** device."
-msgstr "しかし、この方法ではロボットコントローラーAPKファイルをドライバーハブやDSのスマホのダウンロード（またはDownloads）フォルダに保存する必要があります。正確です： **Robot Controller APK** を **Driver Station** デバイスに保存しておいてください。"
+msgstr ""
+"しかし、この方法ではRobot "
+"ControllerAPKファイルをドライバーハブやDSのスマホのダウンロード（またはDownloads）フォルダに保存する必要があります。正確です： "
+"**Robot Controller APK** を **Driver Station** デバイスに保存しておいてください。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:186
 msgid ""
@@ -372,7 +383,7 @@ msgid ""
 "Connect the DS app to the Control Hub, from the DS app’s Settings menu "
 "(never with the Android device Wi-Fi settings)."
 msgstr ""
-"DS アプリをコントロールハブに接続してください。DS アプリの設定メニューから行い、決して Android デバイスの Wi-Fi "
+"DS アプリをControl Hubに接続してください。DS アプリの設定メニューから行い、決して Android デバイスの Wi-Fi "
 "設定を使用しないでください。（INIT）"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:194
@@ -414,7 +425,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 msgid "Robot Controller (RC) app on Android phone"
-msgstr "Androidスマホでのロボットコントローラー(RC)アプリ"
+msgstr "AndroidスマホでのRobot Controller(RC)アプリ"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:222
 msgid ""
@@ -430,7 +441,9 @@ msgid ""
 "The Manage page, under Program and Manage, on a computer or Driver Station "
 "device, **does not** offer updating an RC app on a connected Robot "
 "Controller phone."
-msgstr "コンピュータまたはドライバーステーションデバイスの「管理」ページ、プログラムと管理の下で、「RC アプリケーションを接続されたロボットコントローラーのスマホに更新する機能」は **ありません** 。"
+msgstr ""
+"コンピュータまたはドライバーステーションデバイスの「管理」ページ、プログラムと管理の下で、「RC アプリケーションを接続されたRobot "
+"Controllerのスマホに更新する機能」は **ありません** 。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:235
 msgid ""
@@ -463,7 +476,8 @@ msgstr ""
 msgid ""
 "Once recognized, click on that phone’s large icon/rectangle. The RHC app now"
 " displays the update status of the DS app, if any."
-msgstr "認識次第、そのスマホの大きなアイコンや長方形にクリックしてください。RHC アプリは現在、DS アプリの更新状況を表示します（もし更新がある場合）。"
+msgstr ""
+"認識次第、そのスマホの大きなアイコンや長方形にクリックしてください。RHC アプリは現在、DS アプリの更新状況を表示します（もし更新がある場合）。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:269
@@ -506,8 +520,9 @@ msgid ""
 "install the RC app on the Android phone. Any computer can be used, PC or "
 "Mac, old or new. This method is sometimes called “side-loading”."
 msgstr ""
-"ここでは、RCアプリをAndroidスマートフォンにインストールするために、直接Androidパッケージまたは ** APKファイル ** と dealings"
-" します。PCやMacなどの任意のコンピュータを使用できます。古いものでも新しいものでも構いません。この方法は時として「サイドロード」と呼ばれます。"
+"ここでは、RCアプリをAndroidスマートフォンにインストールするために、直接Androidパッケージまたは ** APKファイル ** と "
+"dealings "
+"します。PCやMacなどの任意のコンピュータを使用できます。古いものでも新しいものでも構いません。この方法は時として「サイドロード」と呼ばれます。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:292
 msgid ""
@@ -523,7 +538,9 @@ msgid ""
 "Transfer the APK file from the computer to the RC phone’s Downloads (or "
 "Download) folder. Use a USB data cable (not a charge-only cable). When "
 "complete, you may unplug the RC phone from the computer."
-msgstr "RCスマホのダウンロード（またはDownload）フォルダにAPKファイルを転送してください。USBデータケーブル（充電専用ケーブルではなし）を使用して接続します。完了したら、RCスマホからコンピュータを unplugged してもかまいません。"
+msgstr ""
+"RCスマホのダウンロード（またはDownload）フォルダにAPKファイルを転送してください。USBデータケーブル（充電専用ケーブルではなし）を使用して接続します。完了したら、RCスマホからコンピュータを"
+" unplugged してもかまいません。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:326
 msgid ""

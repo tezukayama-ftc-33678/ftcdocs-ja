@@ -75,18 +75,21 @@ msgid ""
 "on your Robot Controller."
 msgstr ""
 "3. "
-"ドライバーステーションの画面で、三角形の「テレオペレーション」ドロップダウンリストボタンをタッチして、利用可能なOpModeの一覧を表示します。あなたの最近保存したOpModeが、ロボットコントローラーに保存されている利用可能なOpModeの一覧の中に含まれていることを確認してください。"
+"ドライバーステーションの画面で、三角形の「テレオペレーション」ドロップダウンリストボタンをタッチして、利用可能なOpModeの一覧を表示します。あなたの最近保存したOpModeが、Robot"
+" Controllerに保存されている利用可能なOpModeの一覧の中に含まれていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:57
 msgid ""
 "Note that the word \"TeleOp\" is short for \"Tele-Operated\" and it implies "
 "a driver controlled OpMode (i.e. an OpMode that gets input from a human "
 "driver)."
-msgstr "「TeleOp」は「Tele-Operated（遠隔操作）」の略称であり、これはドライバーによる制御が可能なOpMode（つまり、人間のドライバーから入力を受け取るOpMode）を意味します。"
+msgstr ""
+"「TeleOp」は「Tele-"
+"Operated（遠隔操作）」の略称であり、これはドライバーによる制御が可能なOpMode（つまり、人間のドライバーから入力を受け取るOpMode）を意味します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:59
 msgid "4. Select \"MyFIRSTOpMode\" to load your OpMode on the Robot Controller."
-msgstr "4. 「MyFIRSTOpMode」を選択してロボットコントローラーにOpModeを読み込みます。"
+msgstr "4. 「MyFIRSTOpMode」を選択してRobot ControllerにOpModeを読み込みます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:72
 msgid ""

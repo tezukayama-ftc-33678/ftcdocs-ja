@@ -161,7 +161,7 @@ msgstr "動いています！カメラは **色検出器** として正常に動
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:55
 msgid "DS and RC Previews"
-msgstr "ドライバーステーションとロボットコントローラーのプレビュー"
+msgstr "ドライバーステーションとRobot Controllerのプレビュー"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:57
 msgid ""
@@ -196,8 +196,8 @@ msgid ""
 " open-source `scrcpy <https://github.com/Genymobile/scrcpy>`_ (called "
 "\"screen copy\"):"
 msgstr ""
-"ロボットコントローラ（RC）デバイスは、``LiveView`` というビデオプレビューを作成します。REV "
-"コントロールハブの場合は、このビデオはHDMIモニター ** または ** オープンソースソフトウェア`scrcpy "
+"ロボットコントローラ（RC）デバイスは、``LiveView`` というビデオプレビューを作成します。REV Control "
+"Hubの場合は、このビデオはHDMIモニター ** または ** オープンソースソフトウェア`scrcpy "
 "<https://github.com/Genymobile/scrcpy>`_（「スクリーンコピー」と呼ばれる）で確認できます："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:75
@@ -206,7 +206,7 @@ msgstr "RC Liveviewのアートファクトの画像（CircleFitを使用）"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:75
 msgid "Robot Controller `LiveView` showing a successful Circle Fit"
-msgstr "ロボットコントローラー「LiveView」で円フィットが成功した状態を表示"
+msgstr "Robot Controller「LiveView」で円フィットが成功した状態を表示"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:77
 msgid ""

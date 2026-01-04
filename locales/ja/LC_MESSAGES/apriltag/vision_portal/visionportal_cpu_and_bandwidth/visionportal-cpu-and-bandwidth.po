@@ -34,7 +34,8 @@ msgid ""
 " cause an OpMode or Robot Controller to slow down, or freeze, or crash."
 msgstr ""
 "ビジョン処理は、重要な ** CPUリソース ** とUSB通信の ** 帯域幅 ** "
-"を消費する可能性があります。これらの制限に達すると、プレビューが影響を受けることがありますし、OpModeやロボットコントローラーが遅くなる、停止する、またはクラッシュする場合もあります。"
+"を消費する可能性があります。これらの制限に達すると、プレビューが影響を受けることがありますし、OpModeやRobot "
+"Controllerが遅くなる、停止する、またはクラッシュする場合もあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:11
 msgid ""
@@ -226,7 +227,7 @@ msgid ""
 " **Camera Stream**, which still operates normally even if LiveView is "
 "stopped (manually or automatically)."
 msgstr ""
-"前ページの ** プレビュー ** 欄で述べた通り、LiveViewは ** ロボットコントローラー ** "
+"前ページの ** プレビュー ** 欄で述べた通り、LiveViewは ** Robot Controller ** "
 "のプレビューのみを指し、ドライバーステーション（DS）の ** カメラストリーム ** "
 "とは完全に独立しています。LiveViewが停止された場合（手動または自動）、カメラストリームは通常通り動作します。"
 
@@ -663,7 +664,8 @@ msgstr ""
 "For dual webcams ** plugged directly into the Control Hub ** , the USB 2.0 "
 "and USB 3.0 ports are on different buses. This reduces the concern about "
 "bandwidth capacity, although higher resolution can cause the auto-optimized "
-"frame rate to reduce.デュアルウェブカム ** がコントロールハブに直接接続 ** されている場合、USB 2.0ポートとUSB "
+"frame rate to reduce.デュアルウェブカム ** がControl Hubに直接接続 ** されている場合、USB "
+"2.0ポートとUSB "
 "3.0ポートは異なるバスにあります。これにより帯域幅の容量に関する懸念が軽減されるものの、高解像度では自動最適化されたフレームレートが低下する可能性があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:380
@@ -720,7 +722,8 @@ msgid ""
 "image to prevent AprilTag detection on at least 1 webcam, while higher "
 "resolutions may occasionally stop the RC app or crash the Control Hub."
 msgstr ""
-"MJPEG形式で、約432x240以下の解像度は、少なくとも1つのウェブカメラでのAprilTag検出を防ぐために画像の品質を低下させる可能性があります。一方、高い解像度ではRCアプリケーションが時々停止したり、コントロールハブがクラッシュする場合もあります。"
+"MJPEG形式で、約432x240以下の解像度は、少なくとも1つのウェブカメラでのAprilTag検出を防ぐために画像の品質を低下させる可能性があります。一方、高い解像度ではRCアプリケーションが時々停止したり、Control"
+" Hubがクラッシュする場合もあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:408
 msgid "For both formats, higher resolution can reduce frame rate."

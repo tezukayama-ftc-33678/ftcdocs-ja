@@ -29,7 +29,7 @@ msgid ""
 "change the PID coefficients used for closed loop motor control. The PID "
 "coefficients are channel and mode specific."
 msgstr ""
-"REV Robotics コントロールハブと REV Robotics "
+"REV Robotics Control Hubと REV Robotics "
 "エクスパンションハブは、クローズドループモーターコントロールで使用するPID係数をユーザーが変更できるようにします。これらのPID係数はチャネルおよびモードに特定されています。"
 
 #: ../../source/programming_resources/shared/pid_coefficients/pid-coefficients.rst:8
@@ -39,7 +39,8 @@ msgid ""
 "for a motor named “left_drive”. The op mode uses the setPIDCoefficients "
 "method of the DcMotorEx class to change the values. This method is not "
 "available with the standard DcMotor class."
-msgstr "以下のOpModeは、拡張されたまたは強化されたDcMotorクラス（「DcMotorEx」呼ばれる）を使用して、「left_drive」と名付けられたモーターのRUN_USING_ENCODERモードにおけるPID係数を変更します。このOpModeでは、DcMotorExクラスのsetPIDCoefficientsメソッドを使用して値を変更します。このメソッドは標準のDcMotorクラスでは利用できません。"
+msgstr ""
+"以下のOpModeは、拡張されたまたは強化されたDcMotorクラス（「DcMotorEx」呼ばれる）を使用して、「left_drive」と名付けられたモーターのRUN_USING_ENCODERモードにおけるPID係数を変更します。このOpModeでは、DcMotorExクラスのsetPIDCoefficientsメソッドを使用して値を変更します。このメソッドは標準のDcMotorクラスでは利用できません。"
 
 #: ../../source/programming_resources/shared/pid_coefficients/pid-coefficients.rst:14
 msgid ""
@@ -50,7 +51,12 @@ msgid ""
 "Android Developer website has a tutorial on how to save data from your app "
 "onto an Android device `here <https://developer.android.com/training/data-"
 "storage>`__"
-msgstr "REV Robotics コントロールハブや REV Robotics エクスパンションハブを電源を切る場合、PID係数の変更は保存されません。PIDの変更を保存したい場合は、OpModeを修改し、コントロールハブやAndroid端末に状態情報を保存することを検討してください。Android デベロッパー ウェbsiteには、アプリからデータを Android デバイスに保存する方法のチュートリアルがあります `<https://developer.android.com/training/data-storage>`__。"
+msgstr ""
+"REV Robotics Control Hubや REV Robotics "
+"エクスパンションハブを電源を切る場合、PID係数の変更は保存されません。PIDの変更を保存したい場合は、OpModeを修改し、Control "
+"HubやAndroid端末に状態情報を保存することを検討してください。Android デベロッパー ウェbsiteには、アプリからデータを "
+"Android デバイスに保存する方法のチュートリアルがあります "
+"`<https://developer.android.com/training/data-storage>`__。"
 
 #: ../../source/programming_resources/shared/pid_coefficients/pid-coefficients.rst:79
 msgid ""

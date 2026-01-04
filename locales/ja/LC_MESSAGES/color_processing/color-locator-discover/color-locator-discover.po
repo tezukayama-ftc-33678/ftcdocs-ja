@@ -32,7 +32,8 @@ msgid ""
 "Another way to use FTC's new OpenCV vision tools is to operate a \"Color "
 "Locator\".  Namely, it can **find a target color that you specify**."
 msgstr ""
-"FTCの新しいOpenCVビジョンツールを使用するもう一つの方法は、「色ロケーター」を操作することです。つまり、 ** 指定したターゲットカラーを見つけることができます ** 。"
+"FTCの新しいOpenCVビジョンツールを使用するもう一つの方法は、「色ロケーター」を操作することです。つまり、 ** "
+"指定したターゲットカラーを見つけることができます ** 。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:10
 msgid ""
@@ -53,15 +54,17 @@ msgid ""
 "OpenCV will form **\"Blobs\"** of that color.  As described in the Concepts "
 "page here, a Blob is a contiguous cluster of similar-colored pixels."
 msgstr ""
-"OpenCV will form ** \"Blobs\" ** of that color.  As described in the Concepts page here, a Blob is a contiguous cluster of similar-colored pixels."
-""
+"OpenCV will form ** \"Blobs\" ** of that color.  As described in the "
+"Concepts page here, a Blob is a contiguous cluster of similar-colored "
+"pixels."
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:19
 msgid ""
 "Blobs often have a complex, irregular shape or **contour**, so they are "
 "represented here by a best-fit rectangle called **\"boxFit\"**."
 msgstr ""
-"ブロブはしばしば複雑で不規則な形状や ** 境界線 ** を有するため、ここでは最適な fits の長方形「 ** boxFit ** 」で表現されています。"
+"ブロブはしばしば複雑で不規則な形状や ** 境界線 ** を有するため、ここでは最適な fits の長方形「 ** boxFit ** "
+"」で表現されています。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:27
 msgid "Zoomed Color Blob detection"
@@ -73,8 +76,8 @@ msgid ""
 "Interest (ROI), the teal jagged line is the Blob's contour (fully inside the"
 " ROI), and the purple rectangle is the boxFit."
 msgstr ""
-"ここでのターゲットの色はBLUEです。白い長方形は興味領域（ROI）で、青グリーンの尖った線はブロブの輪郭（fully inside the ROI）、そして紫の長方形はboxFitです。"
-""
+"ここでのターゲットの色はBLUEです。白い長方形は興味領域（ROI）で、青グリーンの尖った線はブロブの輪郭（fully inside the "
+"ROI）、そして紫の長方形はboxFitです。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:33
 msgid ""
@@ -101,7 +104,7 @@ msgstr "*アクティブなロボット構成にはすでに「Webcam 1」が含
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:45
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
-msgstr "*Androidスマホの組み込みカメラを使用してロボットコントローラーにします.*"
+msgstr "*Androidスマホの組み込みカメラを使用してRobot Controllerにします.*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:47
 msgid ""
@@ -115,7 +118,9 @@ msgid ""
 "For now, use the default webcam name, \"Webcam 1\".  If a different name is "
 "preferred, edit the Sample OpMode to agree with the exact webcam name in the"
 " robot configuration."
-msgstr "現在は、デフォルトのウェブカメラ名「Webcam 1」を使用してください。異なる名前が好ましい場合は、サンプルOpModeをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
+msgstr ""
+"現在は、デフォルトのウェブカメラ名「Webcam "
+"1」を使用してください。異なる名前が好ましい場合は、サンプルOpModeをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:54
 msgid ""
@@ -147,7 +152,10 @@ msgid ""
 " open the Chrome browser.  Go to the REV Control Hub's address "
 "http://192.168.43.1:8080 (or http://192.168.49.1:8080 for Android RC phone) "
 "and click the Blocks tab."
-msgstr "ロボットコントローラーに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control Hubのアドレス http://192.168.43.1:8080（またはAndroid RCスマホの場合、http://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
+msgstr ""
+"Robot Controllerに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control"
+" Hubのアドレス http://192.168.43.1:8080（またはAndroid "
+"RCスマホの場合、http://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:76
 msgid ""
@@ -167,13 +175,16 @@ msgstr "OpModeのコードの最初の部分で、`ARTIFACT_PURPLE` を `ブル�
 msgid ""
 "At the top of the Blocks screen, you can change the type from \"TeleOp\" to "
 "\"Autonomous\", since this Sample OpMode does not use gamepads."
-msgstr "ブロックスクリーンのトップで、「TeleOp」から「Autonomous」にタイプを変更できます。このサンプルOpModeではゲームパッドを使用していません。"
+msgstr ""
+"ブロックスクリーンのトップで、「TeleOp」から「Autonomous」にタイプを変更できます。このサンプルOpModeではゲームパッドを使用していません。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:85
 msgid ""
 "If using the built-in camera of an RC phone, drag out the relevant Block "
 "from the left-side ``VisionPortal.Builder`` toolbox."
-msgstr "もしRCスマホの内蔵カメラを使用する場合、左側の ``VisionPortal.Builder`` ツールボックスから関連するブロックをドラッグアウトしてください。"
+msgstr ""
+"もしRCスマホの内蔵カメラを使用する場合、左側の ``VisionPortal.Builder`` "
+"ツールボックスから関連するブロックをドラッグアウトしてください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:88
 msgid "Save the OpMode, time to try it!"
@@ -258,7 +269,8 @@ msgstr ""
 msgid ""
 "It's working!  Your camera is working as a **color locator**.  Think about "
 "how to use this in the FTC Robot Game."
-msgstr "動いています！あなたのカメラは **色検出器** として正常に動作しています。FTCロボットゲームでどのように使用するか考えてみてください。"
+msgstr ""
+"動いています！あなたのカメラは **色検出器** として正常に動作しています。FTCロボットゲームでどのように使用するか考えてみてください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:138
 msgid ""
@@ -275,7 +287,8 @@ msgid ""
 "how to view the OpenCV results with **previews**.  Previewing is essential "
 "for working with vision code."
 msgstr ""
-"テレメトリデータの説明前に、このページではOpenCV結果を確認するための ** プレビュー ** について2つのセクションを提供しています。プレビューはビジョンコードを使用する際には不可欠です。"
+"テレメトリデータの説明前に、このページではOpenCV結果を確認するための ** プレビュー ** "
+"について2つのセクションを提供しています。プレビューはビジョンコードを使用する際には不可欠です。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:147
 msgid ""
@@ -319,7 +332,8 @@ msgstr "RCプレビュー"
 msgid ""
 "The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
 "This is full video, and is shown automatically on the screen of an RC phone."
-msgstr "ロボットコントローラ（RC）デバイスでもプレビューを生成し、「LiveView」と呼びます。これはフルビデオで、自動的にRCスマホの画面に表示されます。"
+msgstr ""
+"ロボットコントローラ（RC）デバイスでもプレビューを生成し、「LiveView」と呼びます。これはフルビデオで、自動的にRCスマホの画面に表示されます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:179
 msgid "Image of a LiveView stream"
@@ -340,8 +354,8 @@ msgid ""
 "\"screen copy\") to see the preview on a laptop or computer that's connected"
 " via Wi-Fi to the Control Hub."
 msgstr ""
-"物理的な画面がなく、因此、HDMI モニターを接続する ** か ** 、Wi-Fi "
-"でコントロールハブに接続されたノートパソコンやコンピュータ上でプレビューを見るためにオープンソースの `scrcpy "
+"物理的な画面がなく、因此、HDMI モニターを接続する ** か ** 、Wi-Fi でControl "
+"Hubに接続されたノートパソコンやコンピュータ上でプレビューを見るためにオープンソースの `scrcpy "
 "<https://github.com/Genymobile/scrcpy>`_ (「スクリーンコピー」と呼ばれる) を使用する必要があります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:189
@@ -366,8 +380,8 @@ msgid ""
 "default target color BLUE.  You could probably move your camera to achieve "
 "the same result - with the help of previews."
 msgstr ""
-"この例では、興味領域（ROI）にはデフォルトのターゲット色ブルーの1つのブロブしか含まれていません。カメラを移動して同じ結果を得られるかもしれません - プレビューを使用して。"
-""
+"この例では、興味領域（ROI）にはデフォルトのターゲット色ブルーの1つのブロブしか含まれていません。カメラを移動して同じ結果を得られるかもしれません -"
+" プレビューを使用して。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:204
 msgid ""
@@ -397,8 +411,8 @@ msgid ""
 "put a rubber band around the contour you would get the \"Convex Hull\" of "
 "the contour.  The density is the ratio of Contour-area to Convex Hull-area.*"
 msgstr ""
-"* ブロブの密度は、コンtourがどれだけ「満たされているか」を示します。コンtourにゴムバンドを巻きつけると、「Convex Hull」が得られます。密度は、コンtour面積に対するConvex Hull面積の比です.*"
-""
+"* ブロブの密度は、コンtourがどれだけ「満たされているか」を示します。コンtourにゴムバンドを巻きつけると、「Convex "
+"Hull」が得られます。密度は、コンtour面積に対するConvex Hull面積の比です.*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:223
 msgid ""
@@ -411,7 +425,8 @@ msgid ""
 "*A blob's Aspect Ratio is the ratio of boxFit long side to short side.  A "
 "perfect Square has an Aspect Ratio of 1.  All others are > 1.*"
 msgstr ""
-"* ブロブのアスペクト比は、boxFit の長辺と短辺の比率です。完全な正方形の場合、アスペクト比は 1 になります。それ以外の場合はすべて 1 より大きいです。 *"
+"* ブロブのアスペクト比は、boxFit の長辺と短辺の比率です。完全な正方形の場合、アスペクト比は 1 になります。それ以外の場合はすべて 1 "
+"より大きいです。 *"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:233
 msgid ""
@@ -474,8 +489,8 @@ msgid ""
 "And as mentioned above, some of those Blobs might have a **boxFit tilted** "
 "at some angle:"
 msgstr ""
-"And as mentioned above, some of those Blobs might have a ** boxFit tilted ** at some angle:"
-""
+"And as mentioned above, some of those Blobs might have a ** boxFit tilted **"
+" at some angle:"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:279
 msgid "Tilted Boxfit"
@@ -504,7 +519,8 @@ msgid ""
 "camera** is your **intake mechanism**, perhaps a top grabber, sideways claw "
 "or spinner."
 msgstr ""
-"カメラがロボットの前側に向けられていると想像してみてください。 ** カメラの下部 ** には ** 投入メカニズム ** があります。たとえば、上部把持器、サイドワードクロー、またはスピンナーなどが含まれる可能性があります。"
+"カメラがロボットの前側に向けられていると想像してみてください。 ** カメラの下部 ** には ** 投入メカニズム ** "
+"があります。たとえば、上部把持器、サイドワードクロー、またはスピンナーなどが含まれる可能性があります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:300
 msgid "Game piece targeting"
@@ -516,7 +532,8 @@ msgid ""
 "this data to **position the robot** directly in front of the game piece, for"
 " a better chance to collect it?"
 msgstr ""
-"OpenCVはこのオレンジ色のボックスフィットのデータを報告します。あなたのコードは、ゲームピースの直接前までロボットを ** 位置調整 ** するために、このデータを使用できますか？これにより、ゲームピースをより確実に取得する機会が増します。"
+"OpenCVはこのオレンジ色のボックスフィットのデータを報告します。あなたのコードは、ゲームピースの直接前までロボットを ** 位置調整 ** "
+"するために、このデータを使用できますか？これにより、ゲームピースをより確実に取得する機会が増します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:306
 msgid "How would you do it?"

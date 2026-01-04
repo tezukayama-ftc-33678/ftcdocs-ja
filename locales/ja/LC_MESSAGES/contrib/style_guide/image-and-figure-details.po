@@ -123,7 +123,8 @@ msgid ""
 msgstr ""
 "Sphinxsは、``:alt:``オプションを指定しない場合、画像のパスとファイル名をaltテキストとして設定します。HTMLは以下のようになります：``<img"
 " alt=\"../_images/GoodStuff.png\" "
-"src=\"../_images/GoodStuff.png\">``。スクリーンリーダーはaltテキスト ** ../_images/GoodStuff.png ** を読み上げます。"
+"src=\"../_images/GoodStuff.png\">``。スクリーンリーダーはaltテキスト ** "
+"../_images/GoodStuff.png ** を読み上げます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:62
 msgid ""
@@ -142,7 +143,8 @@ msgid ""
 "and **align**. It maybe worth removing those if you are changing the content"
 " on that page anyway."
 msgstr ""
-"画像ディレクティブには多くのオプションがありますが、FTCドキュメントでは大多数を推奨していません。これは新しいガイドラインで、既存の多くのページでは ** width ** と ** align ** を指定しています。そのページの内容を変更する場合、これらの項目も削除しても良いかもしれません。"
+"画像ディレクティブには多くのオプションがありますが、FTCドキュメントでは大多数を推奨していません。これは新しいガイドラインで、既存の多くのページでは "
+"** width ** と ** align ** を指定しています。そのページの内容を変更する場合、これらの項目も削除しても良いかもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:70
 msgid "Image Options"
@@ -255,9 +257,8 @@ msgid ""
 "argument may be a URI (relative or absolute), or a reference name with "
 "underscore suffix (e.g. \\`a name`_)."
 msgstr ""
-"画像をハイパーリンク参照（「クリック可能」）にします。オプションの引数には、"
-"URI（相対または絶対）、またはアンダースコアの接尾辞が付いた参照名"
-"（例： \\`a name`_）を指定できます。"
+"画像をハイパーリンク参照（「クリック可能」）にします。オプションの引数には、URI（相対または絶対）、またはアンダースコアの接尾辞が付いた参照名（例： "
+"\\`a name`_）を指定できます。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:105
 msgid ""
@@ -330,8 +331,8 @@ msgid ""
 "Though a better option might be to change the resolution of the image if "
 "relevant detail can be preserved."
 msgstr ""
-"もしページのサイズに画像が大きすぎるので、 ** width ** オプションを維持したい場合、アクセシビリティのために ** class ** オプションに "
-" ** no-scaled-link ** を追加することをお勧めします。例えば ``:class: no-scaled-link`` "
+"もしページのサイズに画像が大きすぎるので、 ** width ** オプションを維持したい場合、アクセシビリティのために ** class ** "
+"オプションに  ** no-scaled-link ** を追加することをお勧めします。例えば ``:class: no-scaled-link`` "
 "です。これによりスphinxsはリンクを作成しないことがわかりますが、画像にはあなたが望む幅が設定されます。ただし、詳細を保存できる場合は、画像の解像度を変更する方が良い選択肢かもしれません。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:138
@@ -781,7 +782,10 @@ msgid ""
 "System Introduction page which talk about possible configurations of the "
 "Expansion Hub. In this case the long description is basically a listing of "
 "the devices connected to the Expansion Hub."
-msgstr "代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これはExpansion Hubとスマホの例であり、制御システム入門ページで述べたExpansion Hubの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
+msgstr ""
+"代替テキストは、画像の機能的な説明を要約したものです（これはキャプションの後になります）。キャプションでは、これはExpansion "
+"Hubとスマホの例であり、制御システム入門ページで述べたExpansion "
+"Hubの可能性のある構成に関連しています。この場合、長い説明は基本上に接続されているデバイスの一覧です。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst
 msgid "Rev expansion hub with various devices connected."
@@ -797,7 +801,7 @@ msgstr "Expansion Hubには次のデバイスが接続されています。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:369
 msgid "a Robot Controller phone via a USB connection;"
-msgstr "ロボットコントローラーとUSB接続でスマホする；"
+msgstr "Robot ControllerとUSB接続でスマホする；"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:370
 msgid "A 12 volt battery with on/off switch;"
@@ -820,7 +824,9 @@ msgid ""
 "Two motors are connected to the Expansion hub. Each motor has a power "
 "connection and an encoder connection. There are four motor ports on the "
 "Expansion Hub."
-msgstr "Expansion Hubに2つのモータが接続されています。各モーターには電力コネクションとエンコーダー コネクションがあります。Expansion Hubには4つのモーターポートがあります。"
+msgstr ""
+"Expansion Hubに2つのモータが接続されています。各モーターには電力コネクションとエンコーダー コネクションがあります。Expansion "
+"Hubには4つのモーターポートがあります。"
 
 #: ../../source/contrib/style_guide/image-and-figure-details.rst:376
 msgid ""
