@@ -37,7 +37,7 @@ msgid ""
 "<https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__.  Both "
 "are from Bosch Sensortec. An IMU can measure many aspects of device motion; "
 "this explanatory document focuses primarily on **rotation**."
-msgstr "2022年9月から、REV Roboticsは内部インテリジェント測位装置（IMU）が異なるものになった`Control Hub <https://www.revrobotics.com/rev-31-1595/>`__ を発送始めました。新しいIMUチップは`BHI260AP <https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__で、既存のハブのIMUチップである`BNO055 <https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__を置き換えました。両方ともBosch Sensortecからです。IMUはデバイスの運動に関する多くの側面を測定できます；この説明書では主に **回転** について解説します。"
+msgstr "2022年9月から、REV Roboticsは内部インテリジェント測位装置（IMU）が異なるものになった `Control Hub <https://www.revrobotics.com/rev-31-1595/>`__ を発送始めました。新しいIMUチップは `BHI260AP <https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__ で、既存のハブのIMUチップである `BNO055 <https://www.bosch-sensortec.com/products/smart-sensors/bno055/>`__ を置き換えました。両方ともBosch Sensortecからです。IMUはデバイスの運動に関する多くの側面を測定できます；この説明書では主に **回転** について解説します。"
 
 #: ../../source/programming_resources/imu/imu.rst:16
 msgid ""
@@ -105,7 +105,7 @@ msgstr "接続されたドライバーステーション(DS)アプリ"
 msgid ""
 "connected computer’s Chrome browser, at ``http://192.168.43.1:8080`` "
 "(Control Hub) or ``http://192.168.49.1:8080`` (RC phone)"
-msgstr "接続済みのコンピュータのChromeブラウザで、Control Hubは ``http://192.168.43.1:8080``またはRCスマホは``http://192.168.49.1:8080``"
+msgstr "接続済みのコンピュータのChromeブラウザで、Control Hubは ``http://192.168.43.1:8080`` またはRCスマホは ``http://192.168.49.1:8080``"
 
 #: ../../source/programming_resources/imu/imu.rst:40
 msgid "REV Hardware Client (when Hub LED is green)"
@@ -150,7 +150,7 @@ msgstr "古い ``BNO055IMU`` インターフェースとは異なり、これは
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "REV Hub was mounted flat on your robot, the ``IMU`` interface allows you to"
-msgstr "REV Hubはあなたのロボットに平らに取り付けられました。``IMU``インターフェースを使用して、"
+msgstr "REV Hubはあなたのロボットに平らに取り付けられました。 ``IMU`` インターフェースを使用して、"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
@@ -1076,7 +1076,7 @@ msgid ""
 "values that might cross the +/- 180-degree transition, handle this with your"
 " programming. That’s beyond the scope of this IMU tutorial."
 msgstr ""
-"すべての軸について、IMU角度は ** -180度から+180度 ** （または``-Pi``から``+Pi``ラジアン）の範囲で提供されます。±180度の切り替わりを超える値を使用している場合は、プログラムで対応してください。これは本IMUチュートリアルの範囲外です。"
+"すべての軸について、IMU角度は ** -180度から+180度 ** （または ``-Pi`` から ``+Pi`` ラジアン）の範囲で提供されます。±180度の切り替わりを超える値を使用している場合は、プログラムで対応してください。これは本IMUチュートリアルの範囲外です。"
 
 #: ../../source/programming_resources/imu/imu.rst:827
 msgid "Here's an example of reading IMU Angles:"
@@ -1336,7 +1336,7 @@ msgid ""
 "``resetYaw()``, even after the robot has returned to its original defined "
 "orientation."
 msgstr ""
-"つまり、正交性を持たないハブがパラメータで定義された向きから離れた場合、Heading/Yawや``resetYaw()``の結果は信頼性がなく、ロボットが元の定義された向きに戻っても同様です。"
+"つまり、正交性を持たないハブがパラメータで定義された向きから離れた場合、Heading/Yawや ``resetYaw()`` の結果は信頼性がなく、ロボットが元の定義された向きに戻っても同様です。"
 
 #: ../../source/programming_resources/imu/imu.rst:1063
 msgid ""
