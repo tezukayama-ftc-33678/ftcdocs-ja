@@ -201,7 +201,7 @@ msgid ""
 "robots as the move across the tile floor."
 msgstr ""
 "競技場のタイル床に antic Static "
-"喷霧を施すことは、ESD（静電気放电）イベントによる中断リスクを大幅に低減する最も効果的な方法の一つです。antic Static "
+"喷霧を施すことは、ESD（静電気放電）イベントによる中断リスクを大幅に低減する最も効果的な方法の一つです。antic Static "
 "喷霧はタイル表面の電気伝導率を向上させます。これにより、ロボットがタイル床を移動する際に帯電量の蓄積を防ぐことができます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:-1
@@ -308,7 +308,7 @@ msgid ""
 msgstr ""
 "コントロールシステムの電子機器を電気絶縁性の素材、例えば薄い Plywood のシートや PVC 型 A "
 "のシートに取り付けることで、フレームと電子機器間での "
-"ESD（静電気放电）イベントのリスクを軽減することができます。非導電性で剛性のあるパネルを使用することも、配線管理と応力緩和に役立ちます。"
+"ESD（静電気放電）イベントのリスクを軽減することができます。非導電性で剛性のあるパネルを使用することも、配線管理と応力緩和に役立ちます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:179
 msgid "An expansion hub mounted on a plywood sheet."
@@ -368,7 +368,7 @@ msgid ""
 "(with an air gap greater than 3/8” or 10mm) can help reduce the risk of an "
 "ESD disruption."
 msgstr ""
-"電子機器システムのこれらの脆弱な部分をフレームから離す（空気間隔が3/8インチ以上または10mmを超えるように）ことで、ESD（静電気放电）による障害のリスクを減らすことができます。"
+"電子機器システムのこれらの脆弱な部分をフレームから離す（空気間隔が3/8インチ以上または10mmを超えるように）ことで、ESD（静電気放電）による障害のリスクを減らすことができます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:213
 msgid "A sensor with an air gap between the frame and the 4-wire connector."
@@ -437,7 +437,7 @@ msgid ""
 "potential and trigger an ESD event. Wooden bumpers, electrical tape, and "
 "other non-conductive coatings are all effective."
 msgstr ""
-"また、ESD（静電気放电）対策の一つとして、金属フレーム部品の露出した部分に絶縁性材料で覆う方法があります。ロボットの導電性の外表面を非導電性の材料で覆うことにより、異なる電位を持つ導電物体と接触してESDイベントが引き起こされるリスクを減らすことができます。木製の衝突防止装置、電気テープ、その他の非導電性コーティングはすべて効果的です。"
+"また、ESD（静電気放電）対策の一つとして、金属フレーム部品の露出した部分に絶縁性材料で覆う方法があります。ロボットの導電性の外表面を非導電性の材料で覆うことにより、異なる電位を持つ導電物体と接触してESDイベントが引き起こされるリスクを減らすことができます。木製の衝突防止装置、電気テープ、その他の非導電性コーティングはすべて効果的です。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:247
 msgid ""
