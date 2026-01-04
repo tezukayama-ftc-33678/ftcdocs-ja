@@ -3,6 +3,7 @@
 
 本リポジトリは、**FIRST Tech Challenge 公式ドキュメント**の非公式日本語翻訳プロジェクトです。
 現在日本語を自然にしていく作業をしています。
+我々だけでは限界があるので、誤字脱字を見つけたらGitHubのIssueやPRを投げて頂けると幸いです。
 
 Read the docsで公開中： https://ftcdocs-ja.readthedocs.io/ja/latest/index.html
 
@@ -21,6 +22,8 @@ Read the docsで公開中： https://ftcdocs-ja.readthedocs.io/ja/latest/index.h
 公式ウェブサイト（英語原文）：https://ftc-docs.firstinspires.org
 
 ---
+
+
 
 ## 🚀 自動翻訳クイックスタート
 
