@@ -4,7 +4,7 @@
 本リポジトリは、**FIRST Tech Challenge 公式ドキュメント**の非公式日本語翻訳プロジェクトです。
 現在日本語を自然にしていく作業をしています。
 
-**📖 翻訳の始め方**: [WORKFLOW.md](WORKFLOW.md) をご覧ください！
+**📖 自動翻訳の始め方**: [WORKFLOW.md](WORKFLOW.md) をご覧ください！
 
 ---
 
