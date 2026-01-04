@@ -25,7 +25,7 @@ msgstr "静電気放電効果の管理"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:5
 msgid "Introduction"
-msgstr "紹介\\n"
+msgstr "紹介"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:7
 msgid ""
@@ -44,7 +44,7 @@ msgid ""
 "and a 2018 summer engineering intern), which examines and quantifies the "
 "efficacy of various ESD mitigation techniques:"
 msgstr ""
-"このセクションでは、ESD（静電気放电）の干渉を引き起こす物理現象について簡潔な概要のみを提供しています。詳細な白書については、Eric Chin "
+"このセクションでは、ESD（静電気放電）の干渉を引き起こす物理現象について簡潔な概要のみを提供しています。詳細な白書については、Eric Chin "
 "氏（FIRST の元生徒で 2018 年夏期エンジニアインターン）が執筆した以下のリンクからご確認ください："
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:18
@@ -85,7 +85,7 @@ msgid ""
 " object flows through a conductive path to the neutral or oppositely charged"
 " object."
 msgstr ""
-"帯電放電（ESD）イベントは、高電荷状態の導体物体（ロボットの金属フレームなど）が未充電または反対に電荷された導体物体と接触し、その電荷を放電する際に発生します。高電圧（数万キロ_VOLT_まで）が関与しているため、ESDイベントは、一方の物体に蓄積された電荷が導電経路を通じて中性または反対に電荷された物体に流れることで、非常に高い電気的電流を生成することがあります。"
+"帯電放電（ESD）イベントは、高電荷状態の導体物体（ロボットの金属フレームなど）が帯電していない、または反対に電荷された導体物体と接触し、その電荷を放電する際に発生します。高電圧（数万キロ_VOLT_まで）が関与しているため、ESDイベントは、一方の物体に蓄積された電荷が導電経路を通じて中性または反対に電荷された物体に流れることで、非常に高い電気的電流を生成することがあります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:44
 msgid "A positively charged robot touching a neutral field wall."
@@ -110,8 +110,7 @@ msgid ""
 "are taken apart, they can become charged. This is called the triboelectric "
 "effect."
 msgstr ""
-"considerations "
-"について考えてみてください。羊毛の靴下でカーペットを擦り、その後ドアノブに触れる場合、おそらくショックを感じるでしょう。この現象は何によって引き起こされるのでしょうか？2つの表面が相互作用すると、少量の接着が生じます。これは電子が共有されることを意味し、異なる材料から成っている場合は電子共有が不均衡になる可能性があります。表面が分かれると、これらは電荷を持つことがあります。これがトリボエレクトリック効果と呼ばれます。"
+"羊毛の靴下でカーペットを擦り、その後ドアノブに触れる場合、おそらくショックを感じるでしょう。この現象は何によって引き起こされるのでしょうか？2つの表面が相互作用すると、少量の接着が生じます。これは電子が共有されることを意味し、異なる材料から成っている場合は電子共有が不均衡になる可能性があります。表面が分かれると、これらは電荷を持つことがあります。これがトリボエレクトリック効果と呼ばれます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/managing_esd/managing-esd.rst:61
 msgid ""
