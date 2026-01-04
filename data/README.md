@@ -10,15 +10,12 @@
 
 翻訳スクリプト（`scripts/translate_po_smart.py`）の設定ファイル。
 
-```json
-{
-  "model": "qwen2.5-coder:7b-instruct",  // 使用するLLMモデル
-  "temperature": 0.05,                    // 翻訳の創造性（低いほど正確）
-  "max_retries": 3,                       // 失敗時のリトライ回数
-  "chunk_size": 400,                      // テキスト分割サイズ
-  "context_window": 2048                  // コンテキストウィンドウサイズ
-}
-```
+**主な設定項目**:
+- `model`: 使用するLLMモデル（例: `qwen2.5-coder:7b-instruct`）
+- `temperature`: 翻訳の創造性（低いほど正確、例: `0.05`）
+- `max_retries`: 失敗時のリトライ回数（例: `3`）
+- `chunk_size`: テキスト分割サイズ（例: `400`）
+- `context_window`: コンテキストウィンドウサイズ（例: `2048`）
 
 ### `mistranslation_corrections.json`
 

@@ -19,7 +19,7 @@
 ### 1. ローカルLLMのセットアップ
 
 ```powershell
-# Ollamaをインストール（https://ollama.ai/）
+# Ollamaをインストール（https://ollama.com/）
 # インストール後、翻訳用モデルをダウンロード
 ollama pull qwen2.5-coder:7b-instruct
 ```
