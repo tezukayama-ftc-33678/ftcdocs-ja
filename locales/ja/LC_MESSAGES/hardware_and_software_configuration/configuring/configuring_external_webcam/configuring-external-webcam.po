@@ -373,8 +373,8 @@ msgid ""
 "always draws power, even when an opMode is not running. By adding a powered "
 "USB hub the Limelight will not drain your robot's battery."
 msgstr ""
-"USBハブの別の使用例として、`Limelight 3A "
-"<https://limelightvision.io/products/limelight-3a>`_カメラがある場合があります。このデバイスにはボードに組み込まれたプロセッサーがあり、これの欠点の1つはカメラが常に電力を消費することです。つまり、opModeが実行されていないときでもカメラは電源を引き続けます。有線USBハブを追加することで、Limelightはロボットのバッテリーを消耗しません。"
+"USBハブの別の使用例として、 `Limelight 3A "
+"<https://limelightvision.io/products/limelight-3a>`_ カメラがある場合があります。このデバイスにはボードに組み込まれたプロセッサーがあり、これの欠点の1つはカメラが常に電力を消費することです。つまり、opModeが実行されていないときでもカメラは電源を引き続けます。有線USBハブを追加することで、Limelightはロボットのバッテリーを消耗しません。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:201
 msgid ""
