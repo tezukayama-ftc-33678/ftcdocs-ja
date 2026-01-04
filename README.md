@@ -4,6 +4,8 @@
 本リポジトリは、**FIRST Tech Challenge 公式ドキュメント**の非公式日本語翻訳プロジェクトです。
 現在日本語を自然にしていく作業をしています。
 
+Read the docsで公開中： https://ftcdocs-ja.readthedocs.io/ja/latest/index.html
+
 **📖 自動翻訳の始め方**: [WORKFLOW.md](WORKFLOW.md) をご覧ください！
 
 ---
