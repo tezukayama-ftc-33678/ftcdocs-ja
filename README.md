@@ -1,8 +1,8 @@
 # FIRST Tech Challenge ドキュメントプロジェクト（日本語翻訳版）
 
-![ビルド](https://ftcdocs-ja.readthedocs.io/ja/latest/index.html)
 
 本リポジトリは、**FIRST Tech Challenge 公式ドキュメント**の非公式日本語翻訳プロジェクトです。
+現在日本語を自然にしていく作業をしています。
 
 **📖 翻訳の始め方**: [WORKFLOW.md](WORKFLOW.md) をご覧ください！
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 🚀 クイックスタート
+## 🚀 自動翻訳クイックスタート
 
 ### 1. ローカルLLM環境のセットアップ
 
