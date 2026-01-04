@@ -1,6 +1,6 @@
 # FIRST Tech Challenge ドキュメントプロジェクト（日本語翻訳版）
 
-![ビルド](https://readthedocs.com/projects/first-tech-challenge-ftcdocs/badge/?version=latest) ![リンクチェック](https://github.com/FIRST-Tech-Challenge/ftcdocs/actions/workflows/link-check.yaml/badge.svg)
+![ビルド](https://ftcdocs-ja.readthedocs.io/ja/latest/index.html)
 
 本リポジトリは、**FIRST Tech Challenge 公式ドキュメント**の非公式日本語翻訳プロジェクトです。
 
