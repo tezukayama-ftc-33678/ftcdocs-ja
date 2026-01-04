@@ -29,7 +29,8 @@ msgid ""
 " programming, and operating your Control System. This tutorial uses the "
 "*Blocks Programming Tool* to help you get started quickly."
 msgstr ""
-"このチュートリアルでは、制御システムの設定、プログラミング、および操作方法をステップバイステップで説明します。このチュートリアルでは、 * ブロックプログラミングツール * を使用して、迅速に始められるように支援します。"
+"このチュートリアルでは、制御システムの設定、プログラミング、および操作方法をステップバイステップで説明します。このチュートリアルでは、 * "
+"ブロックプログラミングツール * を使用して、迅速に始められるように支援します。"
 
 #: ../../source/programming_resources/blocks/Blocks-Tutorial.rst:15
 msgid ""
@@ -43,10 +44,11 @@ msgid ""
 "experienced programmer. Using Blocks is the *easiest* and *fastest* way to "
 "get acquainted with the Control System!"
 msgstr ""
-"*FIRST* は、経験豊富なプログラマーであってもブロックから始めるのをおすすめします。ブロックを使用することで、制御システムに慣れることを *最も簡単で迅速な方法* で実現できます！"
+"*FIRST* は、経験豊富なプログラマーであってもブロックから始めるのをおすすめします。ブロックを使用することで、制御システムに慣れることを "
+"*最も簡単で迅速な方法* で実現できます！"
 
 #: ../../source/programming_resources/blocks/Blocks-Tutorial.rst:28
 msgid ""
 ":bdg-warning:`Blocks` indicates that the content is specific to Blocks "
 "Programming"
-msgstr ":bdg-warning:`ブロック` はブロックスプログラミングに特化した内容を示します"
+msgstr ":bdg-warning:`ブロック` はBlocksプログラミングに特化した内容を示します"

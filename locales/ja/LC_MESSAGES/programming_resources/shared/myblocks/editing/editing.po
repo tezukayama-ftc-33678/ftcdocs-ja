@@ -42,7 +42,7 @@ msgid ""
 "warning**; replace it with the new myBlock. In some cases you may need to "
 "re-open the OpMode from the top-level Blocks listing."
 msgstr ""
-"もしJavaの変更が外部機能に影響を与える場合、その更新されたmyBlockはブロックスの「JAVAクラス」メニューからしか利用できません。 ** "
+"もしJavaの変更が外部機能に影響を与える場合、その更新されたmyBlockはBlocksの「JAVAクラス」メニューからしか利用できません。 ** "
 "OpMode内に既に配置されているmyBlock ** は無効となり、 ** ブロック警告 ** "
 "を生成する可能性があります；新しいmyBlockで置き換えてください。場合によっては、上位レベルのブロックリストからOpModeを開く必要があります。"
 
@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 "もし、あなたの編集がmyBlockの ** 内部 ** 処理にのみ影響する場合、\"Build Everything\" "
 "を実行した後で自動的に更新される可能性があります。この場合、Java Classes "
-"メニューから新しい置き換えを行う必要がないかもしれません。ブロックスクリーンでSave "
+"メニューから新しい置き換えを行う必要がないかもしれません。BlocksクリーンでSave "
 "OpModeをクリックせずに、ドライバーステーション上でINITとStartを再度実行することで十分にテストできることがあります。これにより、myBlockの小幅な/内部的な変更の非常に高速なテストが可能になります。"
 
 #: ../../source/programming_resources/shared/myblocks/editing/editing.rst:24

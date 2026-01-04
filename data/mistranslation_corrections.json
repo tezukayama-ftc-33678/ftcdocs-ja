@@ -49,6 +49,16 @@
       "mistranslation": "ロボットコントローラー",
       "correct": "Robot Controller",
       "description": "Robot Controller should remain in English"
+    },
+    {
+      "mistranslation": "ブロックズ",
+      "correct": "Blocks",
+      "description": "should remain in English"
+    },
+    {
+      "mistranslation": "ブロックス",
+      "correct": "Blocks",
+      "description": "should remain in English"
     }
   ]
 }

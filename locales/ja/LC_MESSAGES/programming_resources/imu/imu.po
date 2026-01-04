@@ -697,11 +697,11 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:438
 msgid "Sample Blocks screenshot demonstrating parameter methods"
-msgstr "サンプルブロックスクリーンショットでパラメータメソッドの実行を示しています"
+msgstr "サンプルBlocksクリーンショットでパラメータメソッドの実行を示しています"
 
 #: ../../source/programming_resources/imu/imu.rst:438
 msgid "Sample Blocks screenshot, demonstrating the three parameter methods"
-msgstr "サンプルブロックスのスクリーンショット、三つのパラメータメソッドを示しています"
+msgstr "サンプルBlocksのスクリーンショット、三つのパラメータメソッドを示しています"
 
 #: ../../source/programming_resources/imu/imu.rst:441
 msgid "Parameters for Method 1, Orthogonal"
@@ -1247,7 +1247,7 @@ msgid ""
 "As before, first create an object (Blocks Variable) containing the array of "
 "orientation values (from the Blocks ``Sensors / IMU`` palette):"
 msgstr ""
-"以前と同様に、まず「ブロックセンサ / IMU」パレットからオrientation値の配列を含むオブジェクト（ブロックス変数）を作成してください："
+"以前と同様に、まず「ブロックセンサ / IMU」パレットからオrientation値の配列を含むオブジェクト（Blocks変数）を作成してください："
 
 #: ../../source/programming_resources/imu/imu.rst
 #: ../../source/programming_resources/imu/imu.rst:927
@@ -1300,7 +1300,7 @@ msgid ""
 "As before, first create an object (Blocks Variable) containing the array of "
 "angular velocity values (from the Blocks ``Sensors / IMU`` palette):"
 msgstr ""
-"以前と同様に、まず「ブロックス変数」というオブジェクトを作成し、角度速度値の配列（ブロックス「センサーズ / IMU」パレットから）を含めます："
+"以前と同様に、まず「Blocks変数」というオブジェクトを作成し、角度速度値の配列（Blocks「センサーズ / IMU」パレットから）を含めます："
 
 #: ../../source/programming_resources/imu/imu.rst
 #: ../../source/programming_resources/imu/imu.rst:988
@@ -1340,7 +1340,7 @@ msgstr "ここではYaw軸のリセット方法を例示します："
 
 #: ../../source/programming_resources/imu/imu.rst:1035
 msgid "In Blocks, this optional command is simple:"
-msgstr "ブロックスで、このオプションのコマンドはシンプルです："
+msgstr "Blocksで、このオプションのコマンドはシンプルです："
 
 #: ../../source/programming_resources/imu/imu.rst
 #: ../../source/programming_resources/imu/imu.rst:1042
@@ -1457,7 +1457,7 @@ msgstr "SDK 8.1以降には、上記の機能を示すサンプル・OpModeが�
 
 #: ../../source/programming_resources/imu/imu.rst:1106
 msgid "In Blocks, a simple example is called ``SensorIMU``."
-msgstr "ブロックスで、シンプルな例は ``SensorIMU`` です。"
+msgstr "Blocksで、シンプルな例は ``SensorIMU`` です。"
 
 #: ../../source/programming_resources/imu/imu.rst
 #: ../../source/programming_resources/imu/imu.rst:1113

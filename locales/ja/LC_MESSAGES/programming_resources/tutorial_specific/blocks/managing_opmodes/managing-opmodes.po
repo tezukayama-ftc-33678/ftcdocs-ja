@@ -38,11 +38,11 @@ msgid ""
 "that is, to say, you cannot simply double-click on the file to open it up in"
 " an editor program that lives on your computer."
 msgstr ""
-"ブロックスはグラフィカルなプログラミング要素を使用してプログラムを作成するプログラミング言語です。そのため、JAVAやその他のテキストベースのプログラミング言語ファイルとは異なるファイル形式を持っています。ブロックスプログラムは"
+"Blocksはグラフィカルなプログラミング要素を使用してプログラムを作成するプログラミング言語です。そのため、JAVAやその他のテキストベースのプログラミング言語ファイルとは異なるファイル形式を持っています。Blocksプログラムは"
 " **.blk** "
-"の拡張子で保存されますが、その内容は実際にはXML（拡張可能なマークアップ言語）としてフォーマットされています。ブロックスプログラム内の実際のXMLフォーマットについては、この文書の範囲外ですが、他のプログラムによって読み取り/視覚化/解釈されるものではありません。マックやPC上の一般的なプログラムはブロックスプログラムを表示または編集することはできず、常にRobot"
+"の拡張子で保存されますが、その内容は実際にはXML（拡張可能なマークアップ言語）としてフォーマットされています。Blocksプログラム内の実際のXMLフォーマットについては、この文書の範囲外ですが、他のプログラムによって読み取り/視覚化/解釈されるものではありません。マックやPC上の一般的なプログラムはBlocksプログラムを表示または編集することはできず、常にRobot"
 " Controllerアプリ（REVControl "
-"Hubや合法的なAndroidスマートフォン上で動作する）内のブロックスインターフェースを通じて行う必要があります。つまり、ファイルをコンピューター上のエディタプログラムで開くことはできません。"
+"Hubや合法的なAndroidスマートフォン上で動作する）内のBlocksインターフェースを通じて行う必要があります。つまり、ファイルをコンピューター上のエディタプログラムで開くことはできません。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:18
 msgid "Creating an OpMode"
@@ -117,7 +117,7 @@ msgid ""
 "use by others (teammates, another robot, other teams, provide online, etc.)."
 msgstr ""
 "一度OpModeがデバイスに保存されると、DRIVER STATION "
-"から選択したり、プログラムインターフェース経由で再度編集することができます。しかし、そのブロックスプログラムはデバイス上では **.blk** "
+"から選択したり、プログラムインターフェース経由で再度編集することができます。しかし、そのBlocksプログラムはデバイス上では **.blk** "
 "ファイルとして存在するだけです。多くの場合、プログラムのコピーをラップトップ（または他のデバイス、または安全な場所など）に保存したいと考えたり、他の人（チームメイト、別のロボット、他のチーム、オンラインで提供するなど）のためにプログラムを提供したいというニーズがあります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:68

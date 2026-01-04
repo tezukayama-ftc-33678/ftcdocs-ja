@@ -35,7 +35,7 @@ msgstr ""
 msgid ""
 "This simple example allows a Blocks user to change the standard time "
 "interval from 250 milliseconds to any other interval."
-msgstr "このシンプルな例では、ブロックスユーザーが標準的なタイムインターバル（250ミリ秒）を任意の他の間隔に変更できるようにします。"
+msgstr "このシンプルな例では、Blocksユーザーが標準的なタイムインターバル（250ミリ秒）を任意の他の間隔に変更できるようにします。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:14
 msgid ""
@@ -55,7 +55,8 @@ msgid ""
 "you require pre-typed text of this example, click below. The linked copy "
 "includes the usual class declaration and package/import statements."
 msgstr ""
-"このチュートリアルでは、上のJavaコードを ** 手入力 ** することをお勧めします。この例の既に型付けされたテキストが必要な場合は、下にあるボタンからアクセスできます。リンク先には通常のクラス宣言とパッケージ/インポートステートメントが含まれています。"
+"このチュートリアルでは、上のJavaコードを ** 手入力 ** "
+"することをお勧めします。この例の既に型付けされたテキストが必要な場合は、下にあるボタンからアクセスできます。リンク先には通常のクラス宣言とパッケージ/インポートステートメントが含まれています。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst
 msgid "Example Code"
