@@ -238,7 +238,7 @@ msgid ""
 "available for teams. Update/Patch releases aren't generally required for "
 "competition unless a critical patch or bugfix is issued."
 msgstr ""
-"** アップデート / パッチリリース ** - これらは、重要な問題や役立つ機能がチームに利用可能になる FIRST Tech Challenge "
+"**アップデート / パッチリリース** - これらは、重要な問題や役立つ機能がチームに利用可能になる FIRST Tech Challenge "
 "シーズン中に通常リリースされます。競技会でアップデート/PATCHリリースが必要となるのは、重要なパッチまたはバグ修正が発行された場合のみです。"
 
 #: ../../source/ftc_sdk/overview/index.rst:93
@@ -247,7 +247,7 @@ msgid ""
 "breaking changes or to provide a technology preview for new features in the "
 "upcoming season."
 msgstr ""
-"** オフシーズンリリース ** - "
+"**オフシーズンリリース** - "
 "オフシーズンリリースは、チームがブレークチェンジに対処するための準備をするために使用され、または次期シーズンで導入される新機能のテクノロジー見本を提供するために使用されます。"
 
 #: ../../source/ftc_sdk/overview/index.rst:97
@@ -321,9 +321,9 @@ msgid ""
 " the Release Notes is a way for the *Technology Team* to notify teams that "
 "the workaround is no longer necessary."
 msgstr ""
-"SDKのほぼすべてのリリースにはバグ修正が含まれていますが、 * 技術チーム * "
+"SDKのほぼすべてのリリースにはバグ修正が含まれていますが、 *技術チーム* "
 "が重要なバグ修正の可視性を高めたい場合、それはリリースノートのバグ修正セクションに含まれます。バグに回避策が必要だった場合、チームのコードが影響を受けることがあります。リリースノートで強調することは、"
-" * 技術チーム * が各チームに回避策がもはや不要であることを通知する方法です。"
+" *技術チーム* が各チームに回避策がもはや不要であることを通知する方法です。"
 
 #: ../../source/ftc_sdk/overview/index.rst:138
 msgid "Updating SDK Software"
