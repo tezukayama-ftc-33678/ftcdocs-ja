@@ -89,6 +89,16 @@
       "mistranslation": "* FIRST *",
       "correct": "*FIRST*",
       "description": "markup should be without spaces"
+    },
+    {
+      "mistranslation": "ビジョンポータル",
+      "correct": "Vision Portal",
+      "description": "should remain in English"
+    },
+    {
+      "mistranslation": "<URL>",
+      "correct": "",
+      "description": "remove placeholder URL"
     }
   ]
 }
