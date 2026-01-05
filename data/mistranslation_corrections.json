@@ -106,9 +106,9 @@
       "description": "Blocks表記を統一"
     },
     {
-      "mistranslation": "更多的",
-      "correct": "大半の",
-      "description": "remove chinese characters"
+      "mistranslation": "* OpMode *",
+      "correct": "*OpMode*",
+      "description": "markup should be without spaces"
     }
   ]
 }
