@@ -106,9 +106,9 @@
       "description": "Blocks表記を統一"
     },
     {
-      "mistranslation": "* OpMode *",
-      "correct": "*OpMode*",
-      "description": "markup should be without spaces"
+      "mistranslation": ":bdg-warning:`ブロック`",
+      "correct": ":bdg-warning:`Blocks`",
+      "description": "Blocks表記を統一"
     }
   ]
 }
