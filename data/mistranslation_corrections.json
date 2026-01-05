@@ -99,6 +99,11 @@
       "mistranslation": "<URL>",
       "correct": "",
       "description": "remove placeholder URL"
+    },
+    {
+      "mistranslation": "ブロックプログラミングツール",
+      "correct": "Blocksプログラミングツール",
+      "description": "Blocks表記を統一"
     }
   ]
 }

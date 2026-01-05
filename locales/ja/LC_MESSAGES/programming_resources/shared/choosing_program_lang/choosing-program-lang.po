@@ -40,12 +40,12 @@ msgid ""
 "tutorial:blocks programming tutorial>`."
 msgstr ""
 "*FIRST* は、 ** すべてのユーザー ** が最初に "
-":ref:`ブロックプログラミングツールを使用する方法<programming_resources/blocks/blocks-"
+":ref:`Blocksプログラミングツールを使用する方法<programming_resources/blocks/blocks-"
 "tutorial:blocks programming tutorial>` を学ぶことを強く推奨します。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:14
 msgid "The Blocks Programming Tool"
-msgstr "ブロックプログラミングツール"
+msgstr "Blocksプログラミングツール"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:16
 msgid ""
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:-1
 msgid "Blocks Programming Tool showing a graphical Blocks program."
-msgstr "ブロックプログラミングツールでグラフィカルなブロックプログラムを表示しています。"
+msgstr "Blocksプログラミングツールでグラフィカルなブロックプログラムを表示しています。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:26
 msgid "The OnBot Java Programming Tool"
@@ -117,7 +117,7 @@ msgid ""
 "However, OnBot Java is a text-based tool and it requires that the user have "
 "a sound understanding of the Java programming language."
 msgstr ""
-"OnBot Javaプログラミングツールは、ブロックプログラミングツールに似ています。しかし、OnBot "
+"OnBot Javaプログラミングツールは、Blocksプログラミングツールに似ています。しかし、OnBot "
 "Javaはテキストベースのツールであり、ユーザーにはJavaプログラミング言語に関する確かな理解が必要です。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:-1
@@ -132,7 +132,7 @@ msgid ""
 "build op modes for their robot. A user can even create, edit and build op "
 "modes using an iPad, an Android phone, or a Chromebook."
 msgstr ""
-"ブロックプログラミングツールやOnBot "
+"BlocksプログラミングツールやOnBot "
 "Javaプログラミングツールを使用する際には、ユーザーはウェブブラウザのみでロボットのOpModeを作成、編集、構築することができます。iPad、Androidスマートフォン、またはChromebookでもOpModeを作成、編集、構築することが可能です。"
 
 #: ../../source/programming_resources/shared/choosing_program_lang/choosing-program-lang.rst:68

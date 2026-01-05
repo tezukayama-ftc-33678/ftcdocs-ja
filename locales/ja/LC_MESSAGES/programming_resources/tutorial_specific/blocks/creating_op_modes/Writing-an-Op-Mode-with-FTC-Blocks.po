@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:22
 msgid "The Blocks Programming Tool"
-msgstr "ブロックプログラミングツール"
+msgstr "Blocksプログラミングツール"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:24
 msgid ""
@@ -67,9 +67,9 @@ msgid ""
 "software and was developed with support from Google."
 msgstr ""
 "Robot "
-"Controllerから提供されるブロックプログラミングツールは、ユーザーフレンドリーなプログラミングツールです。このツールを使用して、ユーザーはロボット用のカスタムOpModeを作成し、その後、これらのOpModeを直接Robot"
+"Controllerから提供されるBlocksプログラミングツールは、ユーザーフレンドリーなプログラミングツールです。このツールを使用して、ユーザーはロボット用のカスタムOpModeを作成し、その後、これらのOpModeを直接Robot"
 " "
-"Controllerに保存できます。ユーザーは、デザイン「キャンバス」上にパазルのようなプログラミングブロックをドラッグアンドドロップし、これらのブロックを配置してOpModeのプログラム論理を作成します。ブロックプログラミングツールはGoogleのBlocklyソフトウェアで駆動されており、Googleの支援のもと開発されました。"
+"Controllerに保存できます。ユーザーは、デザイン「キャンバス」上にパазルのようなプログラミングブロックをドラッグアンドドロップし、これらのブロックを配置してOpModeのプログラム論理を作成します。BlocksプログラミングツールはGoogleのBlocklyソフトウェアで駆動されており、Googleの支援のもと開発されました。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:38
 msgid ""
@@ -78,7 +78,7 @@ msgid ""
 " browser installed that is used to access the Blocks Programming Tool."
 msgstr ""
 "このセクションの例では、Robot "
-"Controllerに接続するためにWindowsノートパソコンを使用しています。このWindowsノートパソコンにはJavaScript機能を搭載したウェブブラウザがインストールされており、ブロックプログラミングツールへのアクセスに使用されます。"
+"Controllerに接続するためにWindowsノートパソコンを使用しています。このWindowsノートパソコンにはJavaScript機能を搭載したウェブブラウザがインストールされており、Blocksプログラミングツールへのアクセスに使用されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:48
 msgid ""
@@ -119,7 +119,7 @@ msgid ""
 "the program logic for your first op mode."
 msgstr ""
 "もしロボットコントローラの「Program & "
-"Manage」無線ネットワークにあなたのノートブックを成功裏に接続した場合、初めてのOpModeを作成する準備はできています。このセクションでは、ブロックプログラミングツールを使用して、初めてのOpModeのプログラムロジックを作成します。"
+"Manage」無線ネットワークにあなたのノートブックを成功裏に接続した場合、初めてのOpModeを作成する準備はできています。このセクションでは、Blocksプログラミングツールを使用して、初めてのOpModeのプログラムロジックを作成します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:75
 msgid ""
@@ -669,5 +669,5 @@ msgid ""
 "Tool! You will learn how to run your op mode in the the section entitled "
 ":doc:`Running Your Op Mode <../running_op_modes/Running-Your-Op-Mode>`."
 msgstr ""
-"おめでとうございます！ブロックプログラミングツールを使用して、初めてのOpModeを作成しました。次節「:doc:`あなたのOpModeを実行する "
+"おめでとうございます！Blocksプログラミングツールを使用して、初めてのOpModeを作成しました。次節「:doc:`あなたのOpModeを実行する "
 "<../running_op_modes/Running-Your-Op-Mode>` で、どのようにOpModeを実行するか学びます。"

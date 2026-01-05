@@ -38,14 +38,14 @@ msgstr ""
 "複雑なOpModeを書くにつれて、FIRST Tech "
 "Challengeソフトウェア開発キット（SDK）のより多くの機能を使用する必要が出てきます。Oregon Robotics Tournament & "
 "Outreach Program (ORTOP) "
-"のブライス・シャファーサーさんが作成した有用なリファレンスドキュメントでは、ブロックプログラミングツールで利用できるプログラミングブロックについて説明しています:"
+"のブライス・シャファーサーさんが作成した有用なリファレンスドキュメントでは、Blocksプログラミングツールで利用できるプログラミングブロックについて説明しています:"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:14
 msgid ""
 "`Blocks Programming Tool Reference Manual "
 "<http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__"
 msgstr ""
-"`ブロックプログラミングツール referencia 手順書 "
+"`Blocksプログラミングツール 手順書 "
 "<http://www.ortop.org/ftc/BlocksProgramming/BlocksProgrammingReferenceManual.pdf>`__"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:18
@@ -59,7 +59,7 @@ msgid ""
 "system. As you create a new file, you can use the Sample dropdown list "
 "control to display a list of available sample op modes or templates:"
 msgstr ""
-"ブロックプログラミングツールには、FIRST Tech "
+"Blocksプログラミングツールには、FIRST Tech "
 "Challenge制御システムで異なるタスクを実行する方法を示すいくつかの内包例モードが含まれています。新しいファイルを作成すると、サンプルドロップダウンリストコントロールを使用して利用可能なサンプルOpModeやテンプレートの一覧を表示できます："
 
 #: ../../source/programming_resources/tutorial_specific/blocks/blocks_reference/Blocks-Reference-Material.rst:32
