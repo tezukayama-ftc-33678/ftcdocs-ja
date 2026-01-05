@@ -130,6 +130,28 @@ make html-ja
 # Windows: start build/html-ja/index.html
 # Mac/Linux: open build/html-ja/index.html
 ```
+---
+
+### 🔄 一部のPOファイルだけ変更された場合の対処法
+
+上流の変更で一部の.poファイルだけ内容が変わった場合、`data/translation_progress.json` の履歴は自動でリセットされません。
+
+**推奨運用：変更されたPOファイルのみ再翻訳する場合**
+
+1. `data/translation_progress.json` の "completed" リストから、変更された.poファイルのパスだけを手動で削除します。
+2. その後、バッチ翻訳コマンドを実行すると、削除したファイルのみ未翻訳扱いとなり、再翻訳されます。
+
+```powershell
+python scripts/batch_translate_smart.py locales/ja/LC_MESSAGES
+```
+
+この方法なら、既存の翻訳済みファイルは維持され、変更分だけ効率的に翻訳できます。（必ず再ビルドしてエラーや警告がないかチェック）
+
+どうしても進捗管理が不整合になった場合や、全ファイルを再翻訳したい場合のみ `--reset` を利用してください。
+
+```powershell
+python scripts/batch_translate_smart.py locales/ja/LC_MESSAGES --reset
+```
 
 ---
 
