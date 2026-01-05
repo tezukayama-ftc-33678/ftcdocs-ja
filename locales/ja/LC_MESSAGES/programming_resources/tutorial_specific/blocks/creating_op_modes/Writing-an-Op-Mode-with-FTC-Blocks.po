@@ -174,7 +174,7 @@ msgstr "2. プログラミングモードサーバに接続されていること
 msgid ""
 "3. Press the **Blocks** link towards the top of the Console to navigate to "
 "the main Blocks Programming screen."
-msgstr "3. Console の上部にある **Blocks** リンクを押して、主要なブロックプログラミング画面に移動します。"
+msgstr "3. Console の上部にある **Blocks** リンクを押して、主要なBlocksプログラミング画面に移動します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:123
 msgid ""
@@ -183,7 +183,7 @@ msgid ""
 "Robot Controller.  Initially this list will be empty until you create and "
 "save your first op mode."
 msgstr ""
-"ブロックプログラミングのメインスクリーンは、新しいOpModeを作成する場所です。また、Robot "
+"Blocksプログラミングのメインスクリーンは、新しいOpModeを作成する場所です。また、Robot "
 "Controller上の既存のブロックOpModeの一覧を確認できる場所でもあります。最初はこのリストは空で、初めてのOpModeを作成して保存した後に内容が増えていきます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:130

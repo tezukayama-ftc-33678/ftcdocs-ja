@@ -101,9 +101,14 @@
       "description": "remove placeholder URL"
     },
     {
-      "mistranslation": "ブロックプログラミングツール",
-      "correct": "Blocksプログラミングツール",
+      "mistranslation": "ブロックプログラミング",
+      "correct": "Blocksプログラミング",
       "description": "Blocks表記を統一"
+    },
+    {
+      "mistranslation": "更多的",
+      "correct": "大半の",
+      "description": "remove chinese characters"
     }
   ]
 }
