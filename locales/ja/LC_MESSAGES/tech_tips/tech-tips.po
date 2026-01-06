@@ -254,7 +254,7 @@ msgstr "2024年8月19日週「REV ドライバー・ハブバッテリー」"
 
 #: ../../source/tech_tips/tech-tips.rst:134
 msgid "**REV Driver Hub Batteries**"
-msgstr "**REV ドライバーハブバッテリー** "
+msgstr "**REV Driver Hubバッテリー** "
 
 #: ../../source/tech_tips/tech-tips.rst:136
 msgid ""
@@ -284,9 +284,10 @@ msgid ""
 "the REV Driver Hub, but in the batteries themselves."
 msgstr ""
 "WELL, "
-"その質問ではありませんでしたね。チームは実際の質問を知らなかったからです。しかし、それが問題の根本原因でした。対象となったチームは、余分なREVドライバーハブバッテリーを購入し、充電して備えとして使用していました。また、FTAが開催されたイベントに参加したチームからは、"
-" Spare "
-"ドライバーハブからバッテリーを取り出し、バッテリーが減ったチームに充電済みのバッテリーを使用できるようにするというエピソードも聞かれました。しかし、各ケースでチームは、Spareバッテリーが「通常」使用しているバッテリーほど長持ちしないことを指摘しました。しばしば大幅に短い（半分以下）場合もあります。問題はREVドライバーハブ自体ではなく、バッテリ自身にあるのです。"
+"その質問ではありませんでしたね。チームは実際の質問を知らなかったからです。しかし、それが問題の根本原因でした。対象となったチームは、余分なREVDriver"
+" Hubバッテリーを購入し、充電して備えとして使用していました。また、FTAが開催されたイベントに参加したチームからは、 Spare Driver "
+"Hubからバッテリーを取り出し、バッテリーが減ったチームに充電済みのバッテリーを使用できるようにするというエピソードも聞かれました。しかし、各ケースでチームは、Spareバッテリーが「通常」使用しているバッテリーほど長持ちしないことを指摘しました。しばしば大幅に短い（半分以下）場合もあります。問題はREVDriver"
+" Hub自体ではなく、バッテリ自身にあるのです。"
 
 #: ../../source/tech_tips/tech-tips.rst:154
 msgid ""
@@ -343,7 +344,9 @@ msgid ""
 "battery again will cause the Driver Hub to mischaracterize the original "
 "battery if replaced."
 msgstr ""
-"チームが主電池を代替電池に交換した場合、ドライバーハブはこれに気づかないことが多く、新しい電池に対して蓄積された主電池の放電特性のみを適用します。不幸にも、これは装置が電池を誤解し、完全に放電する前にシャットダウンしてしまうか、実際には残っていないのにまだ電池があると認識してしまうなどの問題を引き起こすことがあります。新しい電池が充電された場合、ドライバーハブは新しい電池に対して校正を行い、再度電池を交換すると、元の電池が交換された場合にドライバーハブが誤った特性をもつ可能性があります。"
+"チームが主電池を代替電池に交換した場合、Driver "
+"Hubはこれに気づかないことが多く、新しい電池に対して蓄積された主電池の放電特性のみを適用します。不幸にも、これは装置が電池を誤解し、完全に放電する前にシャットダウンしてしまうか、実際には残っていないのにまだ電池があると認識してしまうなどの問題を引き起こすことがあります。新しい電池が充電された場合、Driver"
+" Hubは新しい電池に対して校正を行い、再度電池を交換すると、元の電池が交換された場合にDriver Hubが誤った特性をもつ可能性があります。"
 
 #: ../../source/tech_tips/tech-tips.rst:192
 msgid ""
@@ -1194,7 +1197,7 @@ msgid ""
 "results, as there is a PCB with metal traces between the antenna and the "
 "“back side” of the Hub that will block/reflect/absorb signals."
 msgstr ""
-"ロボット設計 - そしてより適切には「Control Hubの配置」 - がWi-Fi周波数/バンドを選択する上で最も重要な要素です。Wi-Fiは線視技術であることを覚えておいてください。つまり、Control Hubのアンテナとドライバーハブのアンテナとの間にある直線的な遮断のないパスが最適な状況です。Control Hubのアンテナはどこにありますか？ ロゴ側の「顔」部分のプラスチック下にあります。「INIT」「START」はそれぞれ「初期化」「開始」と翻訳します。\n"
+"ロボット設計 - そしてより適切には「Control Hubの配置」 - がWi-Fi周波数/バンドを選択する上で最も重要な要素です。Wi-Fiは線視技術であることを覚えておいてください。つまり、Control HubのアンテナとDriver Hubのアンテナとの間にある直線的な遮断のないパスが最適な状況です。Control Hubのアンテナはどこにありますか？ ロゴ側の「顔」部分のプラスチック下にあります。「INIT」「START」はそれぞれ「初期化」「開始」と翻訳します。\n"
 "\n"
 "Control Hubが金属で覆われないよう配置できれば、5GHz帯を目標とするべきです。しかし、Control Hubがロボット内部に深く埋もれていて金属で囲まれている場合、2.4GHz帯が唯一の選択肢となる可能性があります（記憶しておいてください、2.4GHzの低い周波数は多少金属障害物を曲げて通過できるかもしれません）。不幸にもControl Hubの「背面」ではなく「正面」を露出させた場合、類似した結果を得ることはできません。アンテナとControl Hubの「背面」間にある金属トレースのあるPCBが信号を遮断/反射/吸収するからです。"
 
@@ -1234,8 +1237,8 @@ msgid ""
 msgstr ""
 "しかし、どのようにしてあなたのロボットのWi-Fiがどれほど適切に動作しているのか確実に知る方法はありますか？Driver "
 "Stationアプリを使用してWi-Fi信号の強度を監視できます。 ** 2024/02/12 Team Blast Tech Tip ** "
-"を参照し、Wi-"
-"Fi信号強度をどのように表示し理解するかについての情報を確認してください。ドライバーハブから最大フィールド範囲で5GHzを使用し、ロボットがすべての向きにある場合でも信号が強い場合は、5GHzで問題なく動作できるはずです！5GHzと2.4GHzでのパフォーマンスを比較してみてください。もし同等であれば、干渉を減らすために5GHzを使用することをお勧めします。"
+"を参照し、Wi-Fi信号強度をどのように表示し理解するかについての情報を確認してください。Driver "
+"Hubから最大フィールド範囲で5GHzを使用し、ロボットがすべての向きにある場合でも信号が強い場合は、5GHzで問題なく動作できるはずです！5GHzと2.4GHzでのパフォーマンスを比較してみてください。もし同等であれば、干渉を減らすために5GHzを使用することをお勧めします。"
 
 #: ../../source/tech_tips/tech-tips.rst:826
 msgid ""
@@ -2060,8 +2063,8 @@ msgid ""
 msgstr ""
 "リンク速度は、Wi-Fi接続が通信できる速度（Mbps単位）で、一般的には1Mbpsというスローペースから約100Mbpsまで-ranging from"
 " a snail-like 1Mbps through about 100Mbps-となり、802.11ac/b/g/n/wのWi-"
-"Fiネットワークでは最大実用速度となります（Control "
-"Hubとドライバーハブを使用している場合）。信号強度とリンク速度は異なる概念であることを理解することが重要です。信号強度は接続がどれだけ「強く」なるかを説明するためによく使われ、リンク速度は通信がどれだけ「速く」なるかを説明するために使用されます。また、リンク速度は通信チャネルにどの程度の「ノイズ」や「干渉」があるかという2次的な指標でもあります；信号が「強く」で、「クリアな」通信チャネルがあるほど、装置は一般的に「速く」通信できます。Wi-"
+"Fiネットワークでは最大実用速度となります（Control HubとDriver "
+"Hubを使用している場合）。信号強度とリンク速度は異なる概念であることを理解することが重要です。信号強度は接続がどれだけ「強く」なるかを説明するためによく使われ、リンク速度は通信がどれだけ「速く」なるかを説明するために使用されます。また、リンク速度は通信チャネルにどの程度の「ノイズ」や「干渉」があるかという2次的な指標でもあります；信号が「強く」で、「クリアな」通信チャネルがあるほど、装置は一般的に「速く」通信できます。Wi-"
 "Fiのリンク速度は定期的に再交渉され、ノイズ、チャンネル "
 "congestions（同時に行われるものが多すぎ）、距離などの要因によって最も影響を受けます。"
 
@@ -2227,7 +2230,7 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips.rst
 msgid "Week of 01/29/2024 \"REV Driver Hub Tips\""
-msgstr "週 2024年1月29日 \"REV ドライバーハブのヒント\""
+msgstr "週 2024年1月29日 \"REV Driver Hubのヒント\""
 
 #: ../../source/tech_tips/tech-tips.rst:1445
 msgid ""
@@ -2240,9 +2243,9 @@ msgid ""
 "provide you trouble-free performance if you can understand its nuances and "
 "take a few additional steps to keep it running optimally."
 msgstr ""
-"週のテクニックヒントへようこそ！ 今週は、REV ドライバーハブに関する素晴らしいヒントが盛りだくさんです。ここにあるほとんどの情報は、REV のドライバーハブトラブルシューティングページで見つけることができます。ただ、最も一般的なシナリオをいくつか注釈付きで示しました。 REV ドライバーハブを使用する際に遭遇する可能性のある多くの状況に対応するためにです。\n"
+"週のテクニックヒントへようこそ！ 今週は、REV Driver Hubに関する素晴らしいヒントが盛りだくさんです。ここにあるほとんどの情報は、REV のDriver Hubトラブルシューティングページで見つけることができます。ただ、最も一般的なシナリオをいくつか注釈付きで示しました。 REV Driver Hubを使用する際に遭遇する可能性のある多くの状況に対応するためにです。\n"
 "\n"
-"この週のヒントはREV ドライバーハブを非難することを意図したものではありません - どのデバイスも完璧ではないですが、REV ドライバーハブは、そのニュアンスを理解し、いくつかの追加の手順で最適に動作させることによって問題なく動作します。"
+"この週のヒントはREV Driver Hubを非難することを意図したものではありません - どのデバイスも完璧ではないですが、REV Driver Hubは、そのニュアンスを理解し、いくつかの追加の手順で最適に動作させることによって問題なく動作します。"
 
 #: ../../source/tech_tips/tech-tips.rst:1454
 msgid ""
@@ -2254,8 +2257,9 @@ msgid ""
 "down twice, tapping the Gear Icon, selecting System, and then selecting "
 "“Date & Time”."
 msgstr ""
-"REV ドライバーハブの日時設定を確認してください！これは多くの検査の問題とRobot "
-"Controllerログファイルの混乱の一因となっています。最初のステップとしては、常にドライバーハブ上の日時が正しく設定されていることを確認することから始めましょう。この設定は通常のAndroidシステム設定を通じて行います。Androidクイック設定を二度下げる、ギアアイコンをタップし、システムを選択し、「日付と時間」を選択します。"
+"REV Driver Hubの日時設定を確認してください！これは多くの検査の問題とRobot "
+"Controllerログファイルの混乱の一因となっています。最初のステップとしては、常にDriver "
+"Hub上の日時が正しく設定されていることを確認することから始めましょう。この設定は通常のAndroidシステム設定を通じて行います。Androidクイック設定を二度下げる、ギアアイコンをタップし、システムを選択し、「日付と時間」を選択します。"
 
 #: ../../source/tech_tips/tech-tips.rst:1462
 msgid ""
@@ -2271,11 +2275,13 @@ msgid ""
 "sleep."
 msgstr ""
 "USBの壁コンセント充電器はすべて同じではありません。A/C-to-USBの壁コンセント充電器には、 "
-"Watts（ワット）で測定した電力が大幅に異なります - REVドライバーハブはA/C-to-"
-"USBの壁コンセント充電器が付属しており、これがREVドライバーハブを充電する推奨された充電器です。他のデバイスを使用してREVドライバーハブを充電することは可能でしょうか？もちろん可能ですがあくまで、"
-" REVドライバーハブ本体と一緒に届くものやフルチャージされたUSBバッテリーパック（例：`Anker 10,000mA ポータブル電源 "
+"Watts（ワット）で測定した電力が大幅に異なります - REVDriver HubはA/C-to-"
+"USBの壁コンセント充電器が付属しており、これがREVDriver Hubを充電する推奨された充電器です。他のデバイスを使用してREVDriver "
+"Hubを充電することは可能でしょうか？もちろん可能ですがあくまで、 REVDriver "
+"Hub本体と一緒に届くものやフルチャージされたUSBバッテリーパック（例：`Anker 10,000mA ポータブル電源 "
 "<https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-"
-"Technology/dp/B07QXV6N1B>`__）を使用することをおすすめします。これらの充電器はドライバーハブを一昼夜中フルチャージ状態に保つことができますし、ドライバーハブをスリープモードに入れる必要はありません。"
+"Technology/dp/B07QXV6N1B>`__）を使用することをおすすめします。これらの充電器はDriver "
+"Hubを一昼夜中フルチャージ状態に保つことができますし、Driver Hubをスリープモードに入れる必要はありません。"
 
 #: ../../source/tech_tips/tech-tips.rst:1473
 msgid ""
@@ -2297,8 +2303,8 @@ msgid ""
 "`Anker 10,000mA Power Bank <https://www.amazon.com/Anker-Ultra-Compact-High-"
 "Speed-VoltageBoost-Technology/dp/B07QXV6N1B>`__."
 msgstr ""
-"リチウムイオンバッテリーは、他のバッテリーとは必ずしも同じ働き方ではなく、使用可能な電圧範囲がわずかに異なることがあります。REV "
-"ドライバーハブは、内部のリチウムイオンバッテリーを接続した場合にその電圧範囲を校正する必要があります。そのためには、新しいバッテリーに対して完全な「校正プロセス」:`校正手順"
+"リチウムイオンバッテリーは、他のバッテリーとは必ずしも同じ働き方ではなく、使用可能な電圧範囲がわずかに異なることがあります。REV Driver "
+"Hubは、内部のリチウムイオンバッテリーを接続した場合にその電圧範囲を校正する必要があります。そのためには、新しいバッテリーに対して完全な「校正プロセス」:`校正手順"
 " <https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
 "system/driver-hub-troubleshooting/driver-hub-battery-"
 "troubleshooting#battery-calibration>`__ が従う必要があります。また、「確認ステップ」:`確認手順 "
@@ -2306,7 +2312,7 @@ msgstr ""
 "system/driver-hub-troubleshooting/driver-hub-battery-"
 "troubleshooting#battery-verification>`__ "
 "も実施する必要があります。バッテリーが低电量になったときに単に「交換」して新しい充電済みのバッテリーを入れるだけではいけません。新しいバッテリーは最初のものと同じ校正を保証されず、最適なパフォーマンスを発揮することも保証されません。REV"
-" ドライバーハブの内部バッテリーの充電に問題がある場合は、「Anker 10,000mA パワーバンク」のようなUSB "
+" Driver Hubの内部バッテリーの充電に問題がある場合は、「Anker 10,000mA パワーバンク」のようなUSB "
 "バッテリーパックを検討してみてください:`Anker Ultra Compact High Speed Power Bank "
 "<https://www.amazon.com/Anker-Ultra-Compact-High-Speed-VoltageBoost-"
 "Technology/dp/B07QXV6N1B>`__。"
@@ -2371,11 +2377,13 @@ msgid ""
 "<https://jmhannon.myportfolio.com/ftc-driver-station>`__, be creative and "
 "have fun!"
 msgstr ""
-"REVドライバーハブを安全に保つために、`Driver Stationキャリア "
-"<https://www.andymark.com/products/18-in-driver-station-tray>`__ "
-"にドライバーハブを取り付ける際は、3M Dual-"
-"LockやVельクロブランドのハックアンドループ式接着材を使用してください。これにより、チームメンバーが足をかけて傷つけたり、ドライバーハブを落としてしまうことを防げます。ドライバーハブを落とすことはすべてのドライバーハブの損傷の最大の原因です！一部のチームは独自に`カスタム"
-" <https://www.thingiverse.com/thing:3386378>`__ `ドライバーキャリア "
+"REVDriver Hubを安全に保つために、`Driver Stationキャリア "
+"<https://www.andymark.com/products/18-in-driver-station-tray>`__ にDriver "
+"Hubを取り付ける際は、3M Dual-"
+"LockやVельクロブランドのハックアンドループ式接着材を使用してください。これにより、チームメンバーが足をかけて傷つけたり、Driver "
+"Hubを落としてしまうことを防げます。Driver Hubを落とすことはすべてのDriver "
+"Hubの損傷の最大の原因です！一部のチームは独自に`カスタム "
+"<https://www.thingiverse.com/thing:3386378>`__ `ドライバーキャリア "
 "<https://www.thingiverse.com/thing:5439041>`__ と`キャリア "
 "<https://jmhannon.myportfolio.com/ftc-driver-station>`__ "
 "を設計しています。創造的になり、楽しんでください！"
@@ -2684,11 +2692,11 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips.rst
 msgid "Week of 11/06/2023 \"Driver Hub or Smartphone?\""
-msgstr "週11月6日 \"ドライバーハブまたはスマートフォン？\""
+msgstr "週11月6日 \"Driver Hubまたはスマートフォン？\""
 
 #: ../../source/tech_tips/tech-tips.rst:1726
 msgid "**REV Driver Hub or Smartphone?**"
-msgstr "**REV ドライバーハブやスマートフォン？** "
+msgstr "**REV Driver Hubやスマートフォン？** "
 
 #: ../../source/tech_tips/tech-tips.rst:1728
 msgid ""
@@ -2696,8 +2704,8 @@ msgid ""
 "Smartphones versus the Driver Hub. Which one should you use? Are there "
 "hidden benefits or perils for using one over the other?"
 msgstr ""
-"今週のTech "
-"Tipは、スマートフォンとドライバーハブの利点と欠点について簡単に説明しています。どちらを使用するべきでしょうか？一方を選択する際には隠された利点やリスクはありませんか？"
+"今週のTech Tipは、スマートフォンとDriver "
+"Hubの利点と欠点について簡単に説明しています。どちらを使用するべきでしょうか？一方を選択する際には隠された利点やリスクはありませんか？"
 
 #: ../../source/tech_tips/tech-tips.rst:1732
 msgid ""
@@ -2715,14 +2723,14 @@ msgstr ""
 
 #: ../../source/tech_tips/tech-tips.rst:1739
 msgid "**Driver Hub Pros**"
-msgstr "**ドライバーハブプロス** "
+msgstr "**Driver Hubプロス** "
 
 #: ../../source/tech_tips/tech-tips.rst:1741
 msgid ""
 "Driver Hub and Control Hub combo use 802.11w for communications. No approved"
 " Smartphone supports 802.11w communications."
 msgstr ""
-"ドライバーハブとControl "
+"Driver HubとControl "
 "Hubの組み合わせでは、802.11wを使用して通信を行います。承認されたスマートフォンは802.11wによる通信をサポートしていません。"
 
 #: ../../source/tech_tips/tech-tips.rst:1744
@@ -2738,15 +2746,15 @@ msgid ""
 "SmartPhone is deprecated within 2 years after being released, but the Driver"
 " Hub is supported as long as it's legal to use in *FIRST* Tech Challenge."
 msgstr ""
-"ドライバーハブは、「標準」の *FIRST* Tech Challenge ドライバー・ステーションデバイスで、 *FIRST* Tech "
-"Challengeに対する長期的なサポートを提供します。平均的なスマートフォンは発売から2年後に廃止されますが、ドライバーハブは *FIRST* "
+"Driver Hubは、「標準」の *FIRST* Tech Challenge Driver Stationデバイスで、 *FIRST* Tech "
+"Challengeに対する長期的なサポートを提供します。平均的なスマートフォンは発売から2年後に廃止されますが、Driver Hubは *FIRST* "
 "Tech Challengeで使用が合法的である限りサポートされます。"
 
 #: ../../source/tech_tips/tech-tips.rst:1753
 msgid ""
 "Driver Hub has a USB-C port, which allows for charging while it's being "
 "used."
-msgstr "ドライバーハブにはUSB-Cポートがあり、使用中でも充電が可能です。"
+msgstr "Driver HubにはUSB-Cポートがあり、使用中でも充電が可能です。"
 
 #: ../../source/tech_tips/tech-tips.rst:1756
 msgid ""
@@ -2769,8 +2777,9 @@ msgid ""
 "are required for using multiple USB gamepads. This makes the Driver Hub very"
 " compact and easy to manage."
 msgstr ""
-"ドライバーハブには3つのUSB-"
-"Aポートがあり、複数のUSBゲームパッドを使用するための外部USBハブや追加のケーブルは必要ありません。これにより、ドライバーハブは非常にコンパクトで管理も簡単になります。"
+"Driver Hubには3つのUSB-"
+"Aポートがあり、複数のUSBゲームパッドを使用するための外部USBハブや追加のケーブルは必要ありません。これにより、Driver "
+"Hubは非常にコンパクトで管理も簡単になります。"
 
 #: ../../source/tech_tips/tech-tips.rst:1767
 msgid "**Driver Hub Cons**"
@@ -2778,7 +2787,7 @@ msgstr "**ドライバー・ハブ コンソール** "
 
 #: ../../source/tech_tips/tech-tips.rst:1769
 msgid "Driver Hub still has Power Management issues"
-msgstr "ドライバーハブに電源管理の問題が依然残っています"
+msgstr "Driver Hubに電源管理の問題が依然残っています"
 
 #: ../../source/tech_tips/tech-tips.rst:1771
 msgid ""
@@ -2786,7 +2795,8 @@ msgid ""
 "good connection. Foam insert in battery compartment helps, but doesn't "
 "always perfectly fix the problem."
 msgstr ""
-"ドライバーハブには、内部バッテリーと良好な接続を確保するためのバッテリーコンパートメントの調整が必要です。バッテリーコンパートメント内のフォームインサートは役立ちますが、問題を完全に解決しないこともあります。"
+"Driver "
+"Hubには、内部バッテリーと良好な接続を確保するためのバッテリーコンパートメントの調整が必要です。バッテリーコンパートメント内のフォームインサートは役立ちますが、問題を完全に解決しないこともあります。"
 
 #: ../../source/tech_tips/tech-tips.rst:1775
 msgid ""
@@ -2794,7 +2804,8 @@ msgid ""
 "into external battery. If battery dies, troubleshooting requires removal of "
 "battery to power device."
 msgstr ""
-"内部バッテリーが低電圧の場合は、ドライバーハブは外部バッテリーに接続されている場合でも起動できません。バッテリーが切れると、デバイスを動作させるためにバッテリーの取り外しが必要となるため、トラブルシューティングが必要です。"
+"内部バッテリーが低電圧の場合は、Driver "
+"Hubは外部バッテリーに接続されている場合でも起動できません。バッテリーが切れると、デバイスを動作させるためにバッテリーの取り外しが必要となるため、トラブルシューティングが必要です。"
 
 #: ../../source/tech_tips/tech-tips.rst:1779
 msgid "Power Management bugs can drain battery while charging."
@@ -2802,7 +2813,7 @@ msgstr "電力管理のバグは充電中にもバッテリーを消費する可
 
 #: ../../source/tech_tips/tech-tips.rst:1781
 msgid "Driver Hub USB ports are fragile"
-msgstr "ドライバーハブのUSBポートは壊れやすいです"
+msgstr "Driver HubのUSBポートは壊れやすいです"
 
 #: ../../source/tech_tips/tech-tips.rst:1783
 msgid ""
@@ -2810,9 +2821,8 @@ msgid ""
 "RECOMMENDED) have dropped their Driver Hubs with gamepads plugged in, and "
 "impact can damage USB-A ports."
 msgstr ""
-"チームはドライバーハブを持ち運ぶ際に、Driver "
-"Stationのトレイがないと（推奨されていません）ドライバーハブをゲームパッドが挿入された状態で落としてしまい、衝撃によりUSB-"
-"Aポートに損傷が生じる可能性があります。"
+"チームはDriver Hubを持ち運ぶ際に、Driver Stationのトレイがないと（推奨されていません）Driver "
+"Hubをゲームパッドが挿入された状態で落としてしまい、衝撃によりUSB-Aポートに損傷が生じる可能性があります。"
 
 #: ../../source/tech_tips/tech-tips.rst:1787
 msgid "Display screen ribbon cable comes loose"
@@ -2837,7 +2847,7 @@ msgid ""
 "USB-C to USB-C cables do not work with Driver Hub. USB-A to USB-C cables are"
 " required in order to use the USB-C port."
 msgstr ""
-"USB-CからUSB-Cのケーブルはドライバーハブと互換ありません。USB-Cポートを使用するには、USB-AからUSB-Cのケーブルが必要です。"
+"USB-CからUSB-CのケーブルはDriver Hubと互換ありません。USB-Cポートを使用するには、USB-AからUSB-Cのケーブルが必要です。"
 
 #: ../../source/tech_tips/tech-tips.rst:1799
 msgid ""
@@ -2849,8 +2859,9 @@ msgid ""
 "USB hubs necessary for operating multiple gamepads."
 msgstr ""
 "一方、いくつかのオフザシェルフのスマートフォンもサポートされており、モトローラ "
-"モトE4とモトE5のスマホも含まれます。これらのデバイスはREVドライバーハブと同じく、Androidモバイルオペレーティングシステムを実行し、Wi-"
-"Fiを使ってREVControl Hubと通信するため（したがってSIMカードや携帯スマホプランは必要ありません）。スマートフォンはUSB-"
+"モトE4とモトE5のスマホも含まれます。これらのデバイスはREVDriver "
+"Hubと同じく、Androidモバイルオペレーティングシステムを実行し、Wi-Fiを使ってREVControl "
+"Hubと通信するため（したがってSIMカードや携帯スマホプランは必要ありません）。スマートフォンはUSB-"
 "OTGを使用してゲームパッドと複数のゲームパッドを操作するために必要な外部USBハブとインターフェースします。"
 
 #: ../../source/tech_tips/tech-tips.rst:1806
@@ -2861,7 +2872,7 @@ msgstr "**スマートフォンプロス** "
 msgid ""
 "SmartPhones are typically cheaper than Driver Hubs, and generally survive "
 "being dropped better."
-msgstr "スマートフォンは通常、ドライバーハブよりも安価で、落下した時により長持ちします。"
+msgstr "スマートフォンは通常、Driver Hubよりも安価で、落下した時により長持ちします。"
 
 #: ../../source/tech_tips/tech-tips.rst:1811
 msgid ""
@@ -2874,7 +2885,7 @@ msgid ""
 "Some teams report having better Wi-Fi consistency with SmartPhones than "
 "Driver Hubs, though that has not been verified or debunked in any way."
 msgstr ""
-"一部のチームは、スマートフォンの方がドライバーハブよりもより良いWi-"
+"一部のチームは、スマートフォンの方がDriver Hubよりもより良いWi-"
 "Fiの連続性があると報告していますが、その事実は確認されていませんし、証明されたり否定されることもありません。"
 
 #: ../../source/tech_tips/tech-tips.rst:1817
@@ -2951,7 +2962,8 @@ msgid ""
 "SmartPhone batteries, as they leech power from the Driver Station in order "
 "to maintain a full charge level for their own batteries."
 msgstr ""
-"PS4やPS5の内蔵バッテリー付きゲームパッドは、スマートフォンのバッテリーをさらに消費します。これらのゲームパッドは、自身のバッテリーにフル充電レベルを維持するためにドライバー・ステーションから電力を引き抜きます。"
+"PS4やPS5の内蔵バッテリー付きゲームパッドは、スマートフォンのバッテリーをさらに消費します。これらのゲームパッドは、自身のバッテリーにフル充電レベルを維持するためにDriver"
+" Stationから電力を引き抜きます。"
 
 #: ../../source/tech_tips/tech-tips.rst:1856
 msgid ""

@@ -23,7 +23,7 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:2
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:33
 msgid "Updating the Driver Hub OS"
-msgstr "ドライバーハブOSの更新"
+msgstr "Driver HubOSの更新"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:4
 msgid ""
@@ -35,8 +35,8 @@ msgid ""
 "updates for the Driver Hub in order to perform correctly."
 msgstr ""
 "オペレーティングシステム（OS）は、コンピュータの基本的な機能をサポートするソフトウェアで、タスクのスケジューリング、アプリケーションの実行、周辺機器の制御などを行います。これは時々"
-" ** REV Driver Hub ** に更新が必要です。このOSの更新は特に :doc:`Software Development Kit (SDK)"
-" </ftc_sdk/overview/index>` の一部ではありませんが、SDKはDriver "
+" ** REV Driver Hub ** に更新が必要です。このOSの更新は特に :doc:`Software Development Kit "
+"(SDK) </ftc_sdk/overview/index>` の一部ではありませんが、SDKはDriver "
 "Hubに対してこれらの更新を必要とし、適切に動作するためです。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:11
@@ -78,7 +78,7 @@ msgid ""
 "Click the Driver Hub’s large icon/rectangle. Under “Driver Hub Operating "
 "System”, see the current/latest mismatch, if any (yellow oval, below)."
 msgstr ""
-"ドライバーハブの大型アイコン/長方形をクリックしてください。\"ドライバーハブオペレーティングシステム\" "
+"Driver Hubの大型アイコン/長方形をクリックしてください。\"Driver Hubオペレーティングシステム\" "
 "の下で、現在または最新の不一致（下に示す黄色い卵形）を見つけることができます。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:35
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:43
 msgid "Done! The Driver Hub’s OS is now updated."
-msgstr "完了しました！ドライバーハブのOSが更新されました。"
+msgstr "完了しました！Driver HubのOSが更新されました。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
 msgid "Method 2 - Software Manager"
@@ -123,7 +123,7 @@ msgstr ""
 msgid ""
 "Open the Software Manager app at the Driver Hub home screen (left image, "
 "below)."
-msgstr "ドライバーハブのホームスクリーン（左画像）でソフトウェアマネージャーアプリを開きます。"
+msgstr "Driver Hubのホームスクリーン（左画像）でソフトウェアマネージャーアプリを開きます。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:63
@@ -136,7 +136,8 @@ msgid ""
 "display the results (right image, above). Touch the grey button to perform "
 "the updates, including the Driver Hub Operating System (OS) if needed."
 msgstr ""
-"ソフトウェアマネージャは必要な更新がある場合は自動的にチェックし、結果（右画像、上部）を表示します。灰色のボタンをタッチして更新を行い、必要であればドライバーハブオペレーティングシステム（OS）も更新してください。"
+"ソフトウェアマネージャは必要な更新がある場合は自動的にチェックし、結果（右画像、上部）を表示します。灰色のボタンをタッチして更新を行い、必要であればDriver"
+" Hubオペレーティングシステム（OS）も更新してください。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:71
 msgid ""
@@ -152,8 +153,8 @@ msgid ""
 "When all is complete, “Forget” the Wi-Fi network used for internet access. "
 "Now the Driver Hub is ready for regular competition use."
 msgstr ""
-"すべてが完了したら、インターネットアクセス用の“ Forget ”するWi-"
-"Fiネットワークを削除します。現在、ドライバーハブは通常の競技使用に準備ができています。"
+"すべてが完了したら、インターネットアクセス用の“ Forget ”するWi-Fiネットワークを削除します。現在、Driver "
+"Hubは通常の競技使用に準備ができています。"
 
 #: ../../source/ftc_sdk/updating/driverhub_os/Updating-the-Driver-Hub-OS.rst:78
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"

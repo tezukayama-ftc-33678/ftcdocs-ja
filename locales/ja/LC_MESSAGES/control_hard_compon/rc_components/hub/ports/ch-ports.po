@@ -370,9 +370,9 @@ msgstr ""
 "REV Control Hubには、USB 2.0 ポートに接続されたデバイスによって発生する `既知の静電気問題 "
 "<https://docs.revrobotics.com/duo-control/troubleshooting-the-control-"
 "system/troubleshooting-the-control-system#esd-mitigation-techniques>`_ "
-"があります。USB 2.0 ポートを使用すると、静電気によりControl Hubの Wi-Fi "
-"クロックチップに影響が及ぶ可能性があり、ドライバーハブとの Wi-Fi 接続が切断されることがあります。Control Hub の USB 3.0 "
-"ポートにカメラなどの USB デバイスを接続することを確認してください。"
+"があります。USB 2.0 ポートを使用すると、静電気によりControl Hubの Wi-Fi クロックチップに影響が及ぶ可能性があり、Driver "
+"Hubとの Wi-Fi 接続が切断されることがあります。Control Hub の USB 3.0 ポートにカメラなどの USB "
+"デバイスを接続することを確認してください。"
 
 #: ../../source/control_hard_compon/rc_components/hub/ports/ch-ports.rst:47
 msgid "USB 3.0"

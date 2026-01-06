@@ -30,7 +30,7 @@ msgstr "Android デバイス"
 #: ../../source/control_hard_compon/ds_components/components/components.rst
 #: ../../source/control_hard_compon/ds_components/components/components.rst:14
 msgid "REV Driver Hub"
-msgstr "REV ドライバーハブ"
+msgstr "REV Driver Hub"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:25
 msgid "REV Driver Hub (REV-31-1596)"
@@ -55,9 +55,11 @@ msgid ""
 "version that meets or exceeds the minimum Driver Station App version as "
 "defined in the Competition Manual."
 msgstr ""
-"ドライバー・ステーションの核心は、ドライバー・ステーションアプリを実行するAndroidデバイスです。このAndroidデバイスの要件は、REV "
-"ドライバーハブ (` REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_) "
-"または競技マニュアルに記載されている承認されたAndroidスマートフォンを使用することにより満たすことができます。ドライバー・ステーションアプリが競技マニュアルで定義された最小ドライバー・ステーションアプリバージョンを満たすか、それ以上のバージョンであるように更新されることが極めて重要です。"
+"Driver Stationの核心は、Driver Stationアプリを実行するAndroidデバイスです。このAndroidデバイスの要件は、REV"
+" Driver Hub (` REV Driver Hub <https://www.revrobotics.com/rev-31-1596/>`_) "
+"または競技マニュアルに記載されている承認されたAndroidスマートフォンを使用することにより満たすことができます。Driver "
+"Stationアプリが競技マニュアルで定義された最小Driver "
+"Stationアプリバージョンを満たすか、それ以上のバージョンであるように更新されることが極めて重要です。"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:53
 msgid "USB-OTG Adapter / Hubs"
@@ -117,7 +119,7 @@ msgid ""
 "When using a REV Driver Hub, no OTG adapters are necessary - gamepads may "
 "connect directly to one of the three USB-A ports on the device."
 msgstr ""
-"REV ドライバーハブを使用する場合、OTG アダプターは必要ありません - ゲームパッドはデバイスの 3 つの USB-A "
+"REV Driver Hubを使用する場合、OTG アダプターは必要ありません - ゲームパッドはデバイスの 3 つの USB-A "
 "ポートのいずれかに直接接続できます。"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:122
@@ -141,7 +143,7 @@ msgid ""
 " REV Driver Hub can be charged while in use, through its USB-C port."
 msgstr ""
 "商業用のUSBバッテリーパックは、競技マニュアルに従って特定の状況で使用できる補助電源です。USBバッテリーパックは、Androidデバイスを充電するために使用が可能です。ただし、使用中にはみずから"
-" REV ドライバーハブのみがUSB-Cポートを通じて充電可能となります。"
+" REV Driver HubのみがUSB-Cポートを通じて充電可能となります。"
 
 #: ../../source/control_hard_compon/ds_components/components/components.rst:150
 msgid "Gamepads"

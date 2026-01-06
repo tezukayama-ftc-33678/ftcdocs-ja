@@ -129,6 +129,21 @@
       "mistranslation": "ドライバーステーション",
       "correct": "Driver Station",
       "description": "should remain in English"
+    },
+    {
+      "mistranslation": "ドライバー・ステーション",
+      "correct": "Driver Station",
+      "description": "should remain in English"
+    },
+    {
+      "mistranslation": "ドライバーハブ",
+      "correct": "Driver Hub",
+      "description": "should remain in English"
+    },
+    {
+      "mistranslation": "テレメトリ",
+      "correct": "Telemetry",
+      "description": "should remain in English"
     }
   ]
 }

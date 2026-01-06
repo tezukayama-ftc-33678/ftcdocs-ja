@@ -53,7 +53,7 @@ msgid ""
 "page from a connected Driver Station or laptop, as described below. Click "
 "``Apply Wi-Fi Settings`` when done."
 msgstr ""
-"代替手段として、接続されたドライバー・ステーションやノートブックから「管理」ページでControl Hubの名前を変更できます。完了したら、「Wi-"
+"代替手段として、接続されたDriver Stationやノートブックから「管理」ページでControl Hubの名前を変更できます。完了したら、「Wi-"
 "Fi設定適用」をクリックしてください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:19
@@ -453,8 +453,8 @@ msgid ""
 "On the Driver Station, scroll down and select the *Advanced Settings* item "
 "(under the *ROBOT CONTROLLER SETTINGS* category)."
 msgstr ""
-"ドライバー・ステーションでスクロールダウンし、「ROBOT CONTROLLER SETTINGS」カテゴリの「 ADVANCED SETTINGS "
-"」項目を選択してください。"
+"Driver Stationでスクロールダウンし、「ROBOT CONTROLLER SETTINGS」カテゴリの「 ADVANCED SETTINGS"
+" 」項目を選択してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:258
 msgid ""
@@ -506,10 +506,9 @@ msgid ""
 "Station and note the App Version number under the *ABOUT ROBOT CONTROLLER* "
 "section."
 msgstr ""
-"Robot "
-"Controllerアプリケーションのバージョン番号は、ドライバー・ステーションのユーザーインターフェースから確認できます。ドライバー・ステーションで「About（について）」メニューを選択し、「ABOUT"
-" ROBOT CONTROLLER（Robot Controllerについて）」セクション下的位に表示されるApp "
-"Version（アプリバージョン）番号を確認してください。"
+"Robot Controllerアプリケーションのバージョン番号は、Driver Stationのユーザーインターフェースから確認できます。Driver"
+" Stationで「About（について）」メニューを選択し、「ABOUT ROBOT CONTROLLER（Robot "
+"Controllerについて）」セクション下的位に表示されるApp Version（アプリバージョン）番号を確認してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:297
 msgid ""

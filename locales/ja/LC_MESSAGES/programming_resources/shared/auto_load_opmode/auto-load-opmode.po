@@ -121,7 +121,8 @@ msgid ""
 "OpMode either self-exits, or is terminated by the 30s timer. Drive Teams "
 "must still press Init and start the op mode manually, for safety reasons."
 msgstr ""
-"AUTOプログラムが終了すると、ドライバー・ステーションは予め選択されたテレオペプログラムをキューから取り出し、テレオペプログラムに切り替えます。ユーザーが停止ボタン（主停止ボタンまたは初期化停止ボタン）を押した場合は、自動選択は中止されます。OpModeが自己終了するか、30秒タイマーによって終了される場合のみ切り替わります。安全上の理由から、ドライブチームは依然としてInitを押してOpModeを開始する必要があります。"
+"AUTOプログラムが終了すると、Driver "
+"Stationは予め選択されたテレオペプログラムをキューから取り出し、テレオペプログラムに切り替えます。ユーザーが停止ボタン（主停止ボタンまたは初期化停止ボタン）を押した場合は、自動選択は中止されます。OpModeが自己終了するか、30秒タイマーによって終了される場合のみ切り替わります。安全上の理由から、ドライブチームは依然としてInitを押してOpModeを開始する必要があります。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:73
 msgid ""
@@ -173,7 +174,8 @@ msgid ""
 "If the OpMode Auto Queue option is enabled, the Driver Station will "
 "automatically load the preselectTeleOp op mode in landscape mode."
 msgstr ""
-"もしOpModeの自動キュー機能が有効化されている場合、ドライバー・ステーションはランドスケープモードで「preselectTeleOp」OpModeを自動的に読み込みます。"
+"もしOpModeの自動キュー機能が有効化されている場合、Driver "
+"Stationはランドスケープモードで「preselectTeleOp」OpModeを自動的に読み込みます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:112
 msgid ""

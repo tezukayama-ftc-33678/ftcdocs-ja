@@ -76,7 +76,7 @@ msgstr "円フィットのプレビューを表示"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:23
 msgid "Telemetry shows only Circularity, Radius and Center"
-msgstr "テレメトリーはOnly Circularity, Radius and Centerのみを表示します"
+msgstr "TelemetryはOnly Circularity, Radius and Centerのみを表示します"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:25
 msgid ""
@@ -123,21 +123,22 @@ msgstr ""
 msgid ""
 "Touch INIT only. The OpMode should give Telemetry showing the results of one"
 " or more Blobs:"
-msgstr "INITのみをタッチしてください。OpModeは1つ以上の大規模物体（Blob）の結果を示すテレメトリー情報を表示すべきです："
+msgstr "INITのみをタッチしてください。OpModeは1つ以上の大規模物体（Blob）の結果を示すTelemetry情報を表示すべきです："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:43
 msgid "Image showing circle fit telemetry output on Driver Station App"
-msgstr "ドライバー ステーション アプリ上で表示される円フィット テレメトリ出力の画像"
+msgstr "ドライバー ステーション アプリ上で表示される円フィット Telemetry出力の画像"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:43
 msgid "Circle Fit Telemetry from ``ConceptVisionColorLocator_Circle`` sample"
-msgstr "コンセプトビジョンコロラーロケーター_Circle サンプルからの円フィットテレメトリ"
+msgstr "コンセプトビジョンコロラーロケーター_Circle サンプルからの円フィットTelemetry"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:45
 msgid ""
 "In this example, Telemetry reports only one Blob in the Region of Interest "
 "(ROI), of the default target color ARTIFACT_PURPLE."
-msgstr "この例では、テレメトリーは興味領域（ROI）にデフォルトのターゲットカラーARTIFACT_PURPLEの1つのブロブのみを報告します。"
+msgstr ""
+"この例では、Telemetryは興味領域（ROI）にデフォルトのターゲットカラーARTIFACT_PURPLEの1つのブロブのみを報告します。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:48
 msgid ""
@@ -151,7 +152,8 @@ msgid ""
 "screen.  It may sometimes show more lines of Blob data, and sometimes show "
 "no Blob data at all."
 msgstr ""
-"カメラを動かして、ドライバー・ステーションの画面にあるテレメトリエリアを確認してください。時々はBlobデータの行が増えることがありますし、時々は何もBlobデータを表示しないこともあります。"
+"カメラを動かして、Driver "
+"Stationの画面にあるTelemetryエリアを確認してください。時々はBlobデータの行が増えることがありますし、時々は何もBlobデータを表示しないこともあります。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:52
 msgid ""
@@ -169,7 +171,7 @@ msgid ""
 "see the **previews** of the OpenCV results.  Previewing is essential for "
 "working with vision code."
 msgstr ""
-"より詳しくテレメトリーデータを研究する前に（下記参照），OpenCV結果の ** プレビュー ** "
+"より詳しくTelemetryデータを研究する前に（下記参照），OpenCV結果の ** プレビュー ** "
 "が見えることを確認してください。プレビューはビジョンコードを使用する上で重要です。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:59
@@ -226,19 +228,19 @@ msgstr "The **黄色い円** は新しい``circleFit``：ROI内に留まらな�
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:82
 msgid "Basic Telemetry Data"
-msgstr "基本的なテレメトリーデータ"
+msgstr "基本的なTelemetryデータ"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:84
 msgid "Here again is some DS telemetry from the new ``_Circle`` Sample:"
-msgstr "ここに新しい ``_Circle`` サンプルからのDriver Stationのテレメトリー情報again があります："
+msgstr "ここに新しい ``_Circle`` サンプルからのDriver StationのTelemetry情報again があります："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
 msgid "Image with a circle around the Circularity telemetry data"
-msgstr "円で囲まれたCircularityテレメトリーデータの画像"
+msgstr "円で囲まれたCircularityTelemetryデータの画像"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
 msgid "Driver Station Telemetry Data from ``_Circle`` sample"
-msgstr "Driver Stationのテレメトリデータから ``_Circle`` サンプル"
+msgstr "Driver StationのTelemetryデータから ``_Circle`` サンプル"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:94
 msgid ""
@@ -277,7 +279,7 @@ msgid ""
 "available, described in the Sample's comments."
 msgstr ""
 "複数のBlobについて、サンプルはデフォルトの ** 面積でソート ** "
-"（最大が最初）を使用してテレメトリをリスト表示します。他のソートオプションは、サンプルのコメントで説明されています。"
+"（最大が最初）を使用してTelemetryをリスト表示します。他のソートオプションは、サンプルのコメントで説明されています。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:104
 msgid ""
@@ -570,7 +572,7 @@ msgstr "円形"
 msgid ""
 "Telemetry Results can be **sorted** by any of the above attributes.  See the"
 " Sample's comments for guidance."
-msgstr "テレメトリー結果は、上記の属性のいずれかで **ソート** することができます。サンプルのコメントを参照してください。"
+msgstr "Telemetry結果は、上記の属性のいずれかで **ソート** することができます。サンプルのコメントを参照してください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:225
 msgid "Lighting Challenges"
@@ -650,7 +652,7 @@ msgid ""
 "\"jumpy\" preview and Telemetry results."
 msgstr ""
 "** データロギング ** について学ぶと役立つかもしれません。このOpModeのColor "
-"Processorのデータをファイルに出力し、その後はスプレッドシートに転送することも可能です。詳細なレビューにより、どのデータが有用であるかが明らかになる可能性があります。\"ジャンプ\"しているプレビュー結果やテレメトリ結果を観察するよりも、その方が良いでしょう。"
+"Processorのデータをファイルに出力し、その後はスプレッドシートに転送することも可能です。詳細なレビューにより、どのデータが有用であるかが明らかになる可能性があります。\"ジャンプ\"しているプレビュー結果やTelemetry結果を観察するよりも、その方が良いでしょう。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:246
 msgid "Also, you may want to **track multiple colors**, like this:"
@@ -674,8 +676,8 @@ msgid ""
 msgstr ""
 "これ achievble です。Vision Portal 内に複数のプロセッサを設定することで実現できます。Sample OpMode "
 "をまずメソッド（FTC "
-"ブロックでは関数）に分けると役立つかもしれません。一つはプロセッサ用で、もう一つはテレメトリ用です。その後、並列なメソッドや関数を作成することが "
-"straightforward になります。"
+"ブロックでは関数）に分けると役立つかもしれません。一つはプロセッサ用で、もう一つはTelemetry用です。その後、並列なメソッドや関数を作成することが"
+" straightforward になります。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:259
 msgid "Summary"

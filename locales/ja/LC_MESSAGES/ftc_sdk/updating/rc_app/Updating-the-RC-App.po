@@ -34,7 +34,7 @@ msgstr ""
 "Robot Controllerアプリは、 *FIRST* Tech Challenge :doc:`ソフトウェア開発キット（SDK） "
 "</ftc_sdk/overview/index>` に同梱されているアプリケーションの1つです。Robot Controllerアプリは、REV "
 "Control Hubや承認された Android RC フォンなどのRobot Controller Android "
-"デバイスで実行されるアプリケーションです。このアプリケーションはドライバー・ステーション アプリと通信し、ロボットの制御を行います。"
+"デバイスで実行されるアプリケーションです。このアプリケーションはDriver Station アプリと通信し、ロボットの制御を行います。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:10
 msgid ""
@@ -182,7 +182,7 @@ msgstr "コンピュータ上の管理ページ"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:80
 msgid "Manage page on DS phone or Driver Hub"
-msgstr "Driver Stationのスマホやドライバーハブから管理ページ"
+msgstr "Driver StationのスマホやDriver Hubから管理ページ"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:83
 msgid ""
@@ -346,7 +346,7 @@ msgstr "完了メッセージが表示されたら、更新済みのRCアプリ�
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 msgid "Method 3 - Manage page on Driver Hub or DS phone"
-msgstr "方法3 - ドライバーハブやDSのスマホからページを管理する"
+msgstr "方法3 - Driver HubやDSのスマホからページを管理する"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:177
 msgid ""
@@ -364,9 +364,9 @@ msgid ""
 "(or Downloads) folder on the Driver Hub or DS phone. That’s correct: **Robot"
 " Controller APK** stored on the **Driver Station** device."
 msgstr ""
-"しかし、この方法ではRobot "
-"ControllerAPKファイルをドライバーハブやDSのスマホのダウンロード（またはDownloads）フォルダに保存する必要があります。正確です： "
-"**Robot Controller APK** を **Driver Station** デバイスに保存しておいてください。"
+"しかし、この方法ではRobot ControllerAPKファイルをDriver "
+"HubやDSのスマホのダウンロード（またはDownloads）フォルダに保存する必要があります。正確です： **Robot Controller "
+"APK** を **Driver Station** デバイスに保存しておいてください。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:186
 msgid ""
@@ -421,7 +421,8 @@ msgid ""
 "The connection between Driver Station and Control Hub will temporarily be "
 "lost, then automatically restored."
 msgstr ""
-"ソフトウェアは、既存のRCアプリケーションを新しい更新版RCアプリケーションに置き換わります。ドライバー・ステーションとコントロール・ハブとの接続は一時的に失われますが、自動で復元されます。"
+"ソフトウェアは、既存のRCアプリケーションを新しい更新版RCアプリケーションに置き換わります。Driver "
+"Stationとコントロール・ハブとの接続は一時的に失われますが、自動で復元されます。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 msgid "Robot Controller (RC) app on Android phone"

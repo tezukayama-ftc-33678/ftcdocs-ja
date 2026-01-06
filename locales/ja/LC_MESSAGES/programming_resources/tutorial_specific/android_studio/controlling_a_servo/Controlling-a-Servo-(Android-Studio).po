@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 "この追加されたコードは、F310 ゲームパッドの色付きボタンがどれか押されているかどうかを確認します。Y ボタンが押された場合、サーボは 0 "
 "度位置に移動します。X ボタンまたは B ボタンが押された場合、サーボは 90 度位置に移動します。A ボタンが押された場合、サーボは 180 "
-"度位置に移動します。OpModeは、サーボの位置に関するテレメトリデータをDriver Stationに送信することもできます。"
+"度位置に移動します。OpModeは、サーボの位置に関するTelemetryデータをDriver Stationに送信することもできます。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/controlling_a_servo/Controlling-a-Servo-(Android-Studio).rst:101
 msgid ""

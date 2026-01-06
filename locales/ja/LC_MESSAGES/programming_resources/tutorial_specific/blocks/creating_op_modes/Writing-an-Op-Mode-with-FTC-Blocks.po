@@ -527,7 +527,7 @@ msgstr "The \\\"tgtPower\\\" ブロックはデフォルトの \\\"1\\\" ブロ�
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:395
 msgid "Inserting Telemetry Statements"
-msgstr "テレメトリステートメントの追加"
+msgstr "Telemetryステートメントの追加"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:397
 msgid ""
@@ -540,12 +540,12 @@ msgid ""
 "Controller to the DRIVER STATION."
 msgstr ""
 "あなたのOpModeは実行 READY にほぼ完成しています。しかし、継続する前に、Robot "
-"Controllerからドライバステーションに情報を送信するために表示されるドライバステーションユーザーインターフェース上に情報を表示するためのいくつかのテレメトリステートメントを追加します。このテレメトリメカニズムは、ロボットの状態情報などをドライバステーション上で表示する有用な方法です。このメカニズムを使用して、Robot"
+"Controllerからドライバステーションに情報を送信するために表示されるドライバステーションユーザーインターフェース上に情報を表示するためのいくつかのTelemetryステートメントを追加します。このTelemetryメカニズムは、ロボットの状態情報などをドライバステーション上で表示する有用な方法です。このメカニズムを使用して、Robot"
 " Controllerからドライバステーションにセンサデータやモーターステータス、ゲームパッド状態などから情報を表示することができます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:408
 msgid "Inserting Telemetry Statements Instructions"
-msgstr "テレメトリステートメントの挿入手順"
+msgstr "Telemetryステートメントの挿入手順"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:410
 msgid ""
@@ -572,8 +572,8 @@ msgid ""
 " until the \"telemetry.update\" method is called."
 msgstr ""
 "call telemetry.update\" "
-"ブロックは重要なブロックです。テレメトリバッファに追加されたデータは、\"telemetry.update\" メソッドが呼び出されるまでDriver "
-"Stationに送信されません。"
+"ブロックは重要なブロックです。Telemetryバッファに追加されたデータは、\"telemetry.update\" "
+"メソッドが呼び出されるまでDriver Stationに送信されません。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:430
 msgid ""
@@ -582,7 +582,7 @@ msgid ""
 "parameter on the telemetry programming block."
 msgstr ""
 "3. "
-"\"変数\"ブロックカテゴリをクリックし、\"tgtPower\"ブロックを選択します。ブロックをドラッグして、テレメトリプログラミングブロックの\"number\"パラメータの隣に配置します。"
+"\"変数\"ブロックカテゴリをクリックし、\"tgtPower\"ブロックを選択します。ブロックをドラッグして、Telemetryプログラミングブロックの\"number\"パラメータの隣に配置します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:439
 msgid ""
@@ -608,7 +608,7 @@ msgstr ""
 msgid ""
 "6. Drag the \"motorTest.Power\" block to the \"number\" parameter of the "
 "second telemetry block."
-msgstr "6. \"motorTest.Power\" ブロックを2番目のテレメトリーブロックの\"number\"パラメータにドラッグしてください。"
+msgstr "6. \"motorTest.Power\" ブロックを2番目のTelemetryブロックの\"number\"パラメータにドラッグしてください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:464
 msgid ""

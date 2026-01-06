@@ -136,7 +136,7 @@ msgstr ""
 msgid ""
 "**Save and activate** that configuration; its name should appear on the "
 "paired Driver Station screen."
-msgstr "**保存し、有効化** して下さい；その名前はペアリングされたドライバー・ステーションの画面に表示されます。"
+msgstr "**保存し、有効化** して下さい；その名前はペアリングされたDriver Stationの画面に表示されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:63
 msgid "Open the Sample OpMode"
@@ -258,7 +258,7 @@ msgid ""
 "**Camera Stream** preview can be accessed.  See the next section re.  "
 "previews."
 msgstr ""
-"** INITのみをタッチしてください。 ** テレメトリは表示されませんが、この時点ではDriver Station（DS）の ** "
+"** INITのみをタッチしてください。 ** Telemetryは表示されませんが、この時点ではDriver Station（DS）の ** "
 "カメラストリームプレビュー ** にアクセスできます。次のセクションで詳細をご覧ください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:131
@@ -266,7 +266,7 @@ msgid ""
 "After using the preview to aim at the AprilTag, touch the DS Start arrow.   "
 "The OpMode should give Telemetry showing the **localization results**:"
 msgstr ""
-"プレビューを使用してAprilTagに向けて瞄准したら、DSスタート矢印をタッチしてください。OpModeはローカライゼーション結果を示すテレメトリーを表示します："
+"プレビューを使用してAprilTagに向けて瞄准したら、DSスタート矢印をタッチしてください。OpModeはローカライゼーション結果を示すTelemetryを表示します："
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:139
 msgid "Driver Station Sample Output"
@@ -284,7 +284,8 @@ msgid ""
 "Slowly move the camera around, keeping the AprilTag fully in the camera's "
 "view. The telemetry will update with the camera's location on the field."
 msgstr ""
-"カメラを徐々に動かし、AprilTagがカメラの視野内 entire に保たれるようにします。テレメトリはカメラのフィールド上の位置を更新します。"
+"カメラを徐々に動かし、AprilTagがカメラの視野内 entire "
+"に保たれるようにします。Telemetryはカメラのフィールド上の位置を更新します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:147
 msgid ""
@@ -342,7 +343,7 @@ msgstr "大きなプレビューを見るには、右下の矢印をタッチし
 msgid ""
 "Or, select Camera Stream again, to return to the previous screen and its "
 "Telemetry."
-msgstr "または、再度カメラストリームを選択して、前の画面とテレメトリに戻りましょう。"
+msgstr "または、再度カメラストリームを選択して、前の画面とTelemetryに戻りましょう。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:178
 msgid "RC Preview"
@@ -377,7 +378,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:198
 msgid "Basic Telemetry Data"
-msgstr "基本的なテレメトリデータ"
+msgstr "基本的なTelemetryデータ"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:200
 msgid "Let's look closer at the DS telemetry:"
@@ -385,7 +386,7 @@ msgstr "lets look closer at the DS telemetry:"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:207
 msgid "DS Telemetry Example"
-msgstr "Driver Stationのテレメトリー例"
+msgstr "Driver StationのTelemetry例"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:209
 msgid ""
@@ -408,7 +409,7 @@ msgid ""
 "-60 inches, namely 12 inches in front of that tag."
 msgstr ""
 "4月タグ#11の中心は、フィールドの中心からX = "
-"-72インチの位置にあります。このテレメトリーでは、カメラのX位置が約-60インチであることが伝えられ、つまりそのタグの前方12インチの位置にあるとされています。"
+"-72インチの位置にあります。このTelemetryでは、カメラのX位置が約-60インチであることが伝えられ、つまりそのタグの前方12インチの位置にあるとされています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:223
 msgid ""
@@ -417,7 +418,7 @@ msgid ""
 "48 inches, namely directly aligned (horizontally) with that tag."
 msgstr ""
 "AprilTag "
-"#11の中心は、フィールドの中心からY方向に約48インチの位置にある。このテレメトリは、カメラのY座標が約48インチであることを示し、つまりそのタグと水平に正対している。"
+"#11の中心は、フィールドの中心からY方向に約48インチの位置にある。このTelemetryは、カメラのY座標が約48インチであることを示し、つまりそのタグと水平に正対している。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:227
 msgid ""
@@ -426,7 +427,7 @@ msgid ""
 "namely directly aligned (vertically) with that tag."
 msgstr ""
 "AprilTag "
-"#11の中心は、マットより上に5.9インチの位置にある。このテレメトリでは、カメラのZ位置が約5.9インチであることが示され、つまりそのタグと垂直に正確にalinied（aliniedをそのまま使用）されている。"
+"#11の中心は、マットより上に5.9インチの位置にある。このTelemetryでは、カメラのZ位置が約5.9インチであることが示され、つまりそのタグと垂直に正確にalinied（aliniedをそのまま使用）されている。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:231
 msgid ""
@@ -435,7 +436,7 @@ msgid ""
 " confirms the parallel orientation, with PRY values (approximately) 0 or 90 "
 "degrees."
 msgstr ""
-"カメラレンズはAprilTagに対して平行であるため、ピッチ、ロール、ユーロの値は直交（0度または90度の倍数）でなければなりません。このテレメトリは並行な方向性を確認し、PRYの値（約）0度または90度です。"
+"カメラレンズはAprilTagに対して平行であるため、ピッチ、ロール、ユーロの値は直交（0度または90度の倍数）でなければなりません。このTelemetryは並行な方向性を確認し、PRYの値（約）0度または90度です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:236
 msgid "Reference Frames"

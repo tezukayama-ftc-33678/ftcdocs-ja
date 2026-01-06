@@ -131,7 +131,7 @@ msgid ""
 "the :doc:`old self-inspect<self-inspect>` page for screen images for app "
 "versions 10.2 or earlier."
 msgstr ""
-"このページの画像は、FTCアプリケーションのバージョン10.3以降を示しています。このページではドライバーハブとControl "
+"このページの画像は、FTCアプリケーションのバージョン10.3以降を示しています。このページではDriver HubとControl "
 "Hubがペアになった状態のみを表示しており、Driver StationやRobot "
 "Controllerとして携帯スマホを使用した場合にわずかな違いがある可能性があります。アプリケーションバージョン10.2以前のスクリーンショットについては"
 " :doc:`old self-inspect<self-inspect>` ページをご覧ください。"
@@ -202,7 +202,8 @@ msgid ""
 "Driver Hub rotated so that the screen is in portrait mode so all items on "
 "the report are visible on one screen without scrolling."
 msgstr ""
-"次の図は、ドライバーハブを回転させて画面を縦向きにし、レポート上のすべての項目がスクロールせずに一覧表示できるようにしたDS自検証報告書のスクリーンショットです。"
+"次の図は、Driver "
+"Hubを回転させて画面を縦向きにし、レポート上のすべての項目がスクロールせずに一覧表示できるようにしたDS自検証報告書のスクリーンショットです。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:80
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:123
@@ -233,7 +234,7 @@ msgstr ""
 msgid ""
 "Item 2 ``Manufacturer`` should be **REV Robotics** for a REV Driver Hub."
 msgstr ""
-"アイテム2 ``Manufacturer`` は、REVドライバーハブの場合、 **REV Robotics** に設定する必要があります。"
+"アイテム2 ``Manufacturer`` は、REVDriver Hubの場合、 **REV Robotics** に設定する必要があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:87
 msgid "Item 3 ``Model`` should be Driver Hub."
@@ -241,11 +242,11 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:88
 msgid "Item 4 ``Driver Hub OS Version`` is probably 1.2.0."
-msgstr "アイテム4「ドライバーハブOSバージョン」はおそらく1.2.0です。"
+msgstr "アイテム4「Driver HubOSバージョン」はおそらく1.2.0です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:89
 msgid "Item 5 ``Android Version`` is probably 10 for a Driver Hub."
-msgstr "アイテム5 ``Android バージョン`` はおそらくドライバーハブ用に10です。"
+msgstr "アイテム5 ``Android バージョン`` はおそらくDriver Hub用に10です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:90
 msgid ""
@@ -280,8 +281,8 @@ msgid ""
 "Item 10 ``Standard Wi-Fi Connected`` must be **Yes** to indicate the Driver "
 "Hub is connected to a standard Wi-Fi source, such as a Control Hub."
 msgstr ""
-"アイテム10 ``標準Wi-Fi接続`` は、ドライバーハブがControl Hubなどの標準Wi-Fiソースに接続されていることを示すために ** "
-"Yes **  にする必要があります。"
+"アイテム10 ``標準Wi-Fi接続`` は、Driver HubがControl Hubなどの標準Wi-Fiソースに接続されていることを示すために "
+"** Yes **  にする必要があります。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:98
 msgid ""
@@ -353,7 +354,8 @@ msgid ""
 "used to update the DS version 10.3. Then the FTCRobotController app was also"
 " deployed to the DS device from Android Studio."
 msgstr ""
-"これはドライバーハブで、ファームウェアリセットが実行されました。これにより、DSのバージョンは7にリセットされ、すべてのシステム設定とDSアプリケーション設定がデフォルト値に復元されました。その後、「REV"
+"これはDriver "
+"Hubで、ファームウェアリセットが実行されました。これにより、DSのバージョンは7にリセットされ、すべてのシステム設定とDSアプリケーション設定がデフォルト値に復元されました。その後、「REV"
 " Hardware Client <https://docs.revrobotics.com/rev-hardware-client>_ "
 "を使用してDSのバージョン10.3を更新しました。次に、Android "
 "StudioからFTCRobotControllerアプリケーションもDSデバイスに展開しました。"

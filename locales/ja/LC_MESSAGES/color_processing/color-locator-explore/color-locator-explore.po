@@ -523,7 +523,7 @@ msgid ""
 " on Telemetry.  Also experiment with the other filters for **Density** and "
 "**Aspect Ratio**."
 msgstr ""
-"lower限界を増加させることでテレメトリーへの影響を観察することができます。また、 ** 密度 ** と ** アスペクト比 ** "
+"lower限界を増加させることでTelemetryへの影響を観察することができます。また、 ** 密度 ** と ** アスペクト比 ** "
 "の他のフィルターも試してみてください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:373
@@ -587,8 +587,8 @@ msgid ""
 "results. Remember this as you incorporate these tools into your team's "
 "larger OpModes."
 msgstr ""
-"ポストフィルタリングコマンドは、``getBlobs()`` を呼び出した ** 後 ** に配置し、チームのOpMode（またはテレメトリ）が "
-"``getBlobs()`` の結果を処理する ** 前 ** "
+"ポストフィルタリングコマンドは、``getBlobs()`` を呼び出した ** 後 ** に配置し、チームのOpMode（またはTelemetry）が"
+" ``getBlobs()`` の結果を処理する ** 前 ** "
 "に挿入してください。これらのツールをチームの大きなOpModeに組み込む際は、この点を覚えておいてください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:423

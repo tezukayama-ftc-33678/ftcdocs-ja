@@ -71,7 +71,7 @@ msgstr "画像"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:32
 msgid "REV Robotics Driver Hub (REV-31-1596)"
-msgstr "REVロボティクスドライバーハブ (REV-31-1596)"
+msgstr "REVロボティクスDriver Hub (REV-31-1596)"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_dual_hubs/configuring-dual-hubs.rst:35
 msgid "REV Robotics Switch, Cable, & Bracket (REV-31-1387)."
@@ -196,7 +196,7 @@ msgid ""
 "The Robot Controller will communicate through this portal to the individual "
 "Hubs."
 msgstr ""
-"ドライバーハブをControl HubのWiFiネットワークに接続し、Driver "
+"Driver HubをControl HubのWiFiネットワークに接続し、Driver "
 "Stationアプリからロボット設定オプションを選択します。新しい設定ファイルを作成するには、ニューボタンを押してください。ハードウェアを初めてスキャンしたときに、Robot"
 " Controllerは組み込まれたControl Hubを検出します。Robot "
 "Controllerはこのデバイスを自動的に「ポートル」とラベル付けします。Robot "

@@ -192,20 +192,18 @@ msgstr "すべてのコントロールは独立していますので、組み合
 msgid ""
 "The previews can be observed, and detections/recognitions can be monitored "
 "via annotations and Telemetry."
-msgstr "プレビューは観察でき、検出や認識は注釈とテレメトリを通じてモニタリングできます。"
+msgstr "プレビューは観察でき、検出や認識は注釈とTelemetryを通じてモニタリングできます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:115
 msgid "Frame rate is provided in LiveView and DS Telemetry."
-msgstr ""
-"フレームレートはLiveViewおよびDSテレメトリーで提供されます。フレームレートはLiveViewとDSテレメトリーで提供されます。フレームレートはLiveViewおよびDS"
-" Telemetryで提供されます。"
+msgstr "フレームレートはLiveViewおよびDSのTelemetryで提供されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:116
 msgid ""
 "The Telemetry functions include an alternate for getting **all** or **only "
 "fresh** detections/recognitions."
 msgstr ""
-"テレメトリ機能には、 ** すべて ** の検出結果を取得するか、 ** 最新の検出結果 ** のみを取得するかを選択できる代替機能が含まれています。"
+"Telemetry機能には、 **すべて** の検出結果を取得するか、 **最新の検出結果** のみを取得するかを選択できる代替機能が含まれています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_advanced_use/apriltag-advanced-use.rst:119
 msgid ""

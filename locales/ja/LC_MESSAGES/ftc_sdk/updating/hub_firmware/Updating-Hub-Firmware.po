@@ -56,7 +56,7 @@ msgstr "コンピュータ上の管理ページ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:15
 msgid "Manage page on Driver Station device (DS phone or Driver Hub)"
-msgstr "Driver Station装置（DSスマホまたはドライバーハブ）の管理ページ"
+msgstr "Driver Station装置（DSスマホまたはDriver Hub）の管理ページ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
@@ -133,7 +133,7 @@ msgstr "メソッド 2 - Driver Stationアプリ"
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:59
 msgid ""
 "This method applies to any DS app, running on a DS phone or a Driver Hub."
-msgstr "このメソッドは、DSアプリケーションに適用され、DSスマホまたはドライバーハブ上で実行されている場合にも適用されます。"
+msgstr "このメソッドは、DSアプリケーションに適用され、DSスマホまたはDriver Hub上で実行されている場合にも適用されます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:62
 msgid ""
@@ -291,7 +291,7 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid ""
 "Method 5 - Manage page on Driver Station device - DS phone or Driver Hub"
-msgstr "メソッド5 - Driver Stationデバイス（DSスマホまたはドライバーハブ）上の管理ページ"
+msgstr "メソッド5 - Driver Stationデバイス（DSスマホまたはDriver Hub）上の管理ページ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:158
 msgid ""

@@ -25,7 +25,7 @@ msgstr "ドライバー・ハブの管理"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:5
 msgid "REV Driver Hub"
-msgstr "REV ドライバーハブ"
+msgstr "REV Driver Hub"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:7
 msgid ""
@@ -34,10 +34,10 @@ msgid ""
 "Station (DS) app. The procedures described below for a REV Driver Hub, also "
 "apply to a using an Android phone as a DS."
 msgstr ""
-"REVドライバーハブ`<https://docs.revrobotics.com/duo-control/control-system-"
+"REVDriver Hub`<https://docs.revrobotics.com/duo-control/control-system-"
 "overview/driver-hub-specifications>`__は、Driver "
-"Station（DS）アプリが事前にインストールされています。以下の手順は、 "
-"REVドライバーハブの場合に適用されますが、Android端末を使用したDSの場合は同じ手順を遵循します。"
+"Station（DS）アプリが事前にインストールされています。以下の手順は、 REVDriver "
+"Hubの場合に適用されますが、Android端末を使用したDSの場合は同じ手順を遵循します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:12
 msgid "Changing the Name"
@@ -59,7 +59,7 @@ msgstr "Robot Controllerは、<チーム番号>-RC（例：12345-RC）に命名�
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:20
 msgid "DRIVER STATION should be named <team number>-DS (e.g., 12345-DS), and"
-msgstr "ドライバー・ステーションは、<チーム番号>-DS（例：12345-DS）と命名するべきです。"
+msgstr "Driver Stationは、<チーム番号>-DS（例：12345-DS）と命名するべきです。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:22
 msgid ""
@@ -78,7 +78,7 @@ msgstr "*Control, Command & Signals System* に関するルールは、現在の
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:26
 msgid "The Driver Hub name can be changed in the DS app, as described below."
-msgstr "ドライバーハブの名前は、以下に説明するようにDSアプリ内で変更できます。"
+msgstr "Driver Hubの名前は、以下に説明するようにDSアプリ内で変更できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:28
 msgid ""
@@ -158,7 +158,7 @@ msgstr "Driver Stationのメインポップアップメニューに、設定オ�
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:67
 msgid ""
 "3. Click on *Driver Station Name* on the *DRIVER STATION SETTINGS* page."
-msgstr "3. *ドライバー・ステーション名* を *ドライバー・ステーション設定* ページでクリックします。"
+msgstr "3. *Driver Station名* を *Driver Station設定* ページでクリックします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:-1
 msgid ""

@@ -452,7 +452,7 @@ msgstr "このブロック機能は、OpMode によって処理中の瞬時の b
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:294
 msgid "Displaying Corner Points via Telemetry"
-msgstr "テレメトリー経由でコーナーポイントを表示"
+msgstr "Telemetry経由でコーナーポイントを表示"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:296
 msgid ""
@@ -646,7 +646,8 @@ msgstr "ボックスフィットプロパティ"
 msgid ""
 "Here's a modified version of the Sample OpMode's telemetry code, to display "
 "only the size and angle of the instant boxFit being processed."
-msgstr "ここでは、サンプルOpModeのテレメトリコードを一部修改し、現在処理中の瞬時boxFitのサイズと角度のみを表示するようにしました。"
+msgstr ""
+"ここでは、サンプルOpModeのTelemetryコードを一部修改し、現在処理中の瞬時boxFitのサイズと角度のみを表示するようにしました。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:467
 msgid ""
@@ -720,7 +721,7 @@ msgid ""
 " the boxFit being processed."
 msgstr ""
 "ここでは、boxFitが処理されている水平長方形の ** 左上隅 ** と ** サイズ ** "
-"のみを表示するようにサンプルOpModeのテレメトリコードが改良されています。"
+"のみを表示するようにサンプルOpModeのTelemetryコードが改良されています。"
 
 #: ../../source/color_processing/color-locator-challenge/color-locator-challenge.rst:535
 msgid ""

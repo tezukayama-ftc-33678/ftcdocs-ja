@@ -124,7 +124,7 @@ msgstr ""
 "REV Control Hubには、`known ESD issue <https://docs.revrobotics.com/duo-"
 "control/troubleshooting-the-control-system/troubleshooting-the-control-"
 "system#esd-mitigation-techniques>`_ があります。USB 2.0ポートに接続されたデバイスが原因で、USB "
-"2.0ポートを使用するとESDによりControl HubのWi-Fiチップ（ドライバーハブとのWi-"
+"2.0ポートを使用するとESDによりControl HubのWi-Fiチップ（Driver HubとのWi-"
 "Fi切断を引き起こす可能性がある）に影響が及ぶ可能性があります。カメラなどのUSBデバイスは、Control HubのUSB "
 "3.0ポートに接続することを確認してください。"
 

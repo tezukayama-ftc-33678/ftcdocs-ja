@@ -158,8 +158,8 @@ msgid ""
 "**and** an RC Self Inspect (for paired RC phone or Control Hub). An RC phone"
 " can display only its own RC Self Inspect."
 msgstr ""
-"A DS デバイス（スマートフォンまたはドライバーハブ）は、自身のDS 自己診断 ** と ** ペアリングされたRC スマートフォンやControl "
-"HubのRC 自己診断を表示できます。一方で、RC スマートフォンは自身のみのRC 自己診断のみを表示します。"
+"A DS デバイス（スマートフォンまたはDriver Hub）は、自身のDS 自己診断 ** と ** ペアリングされたRC "
+"スマートフォンやControl HubのRC 自己診断を表示できます。一方で、RC スマートフォンは自身のみのRC 自己診断のみを表示します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:64
 msgid "This means that the Self Inspect screens can report as follows:"
@@ -167,7 +167,7 @@ msgstr "これは、自己診断画面が次のようになることを意味し
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:66
 msgid "**DRIVER STATION**"
-msgstr "**ドライバー・ステーション** "
+msgstr "**Driver Station** "
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:68
 msgid ""
@@ -186,7 +186,7 @@ msgstr "「DRIVER STATION 自己点検 2」__、CONTROL HUBにペアリングさ
 msgid ""
 "`DS Self Inspect 3 <#ds-self-inspect-3-on-driver-hub-paired-to-rc-phone>`__,"
 " on Driver Hub paired to RC phone"
-msgstr "「DRIVER STATION 自己検査 3」__、RC フォンにペアリングされたドライバーハブ上"
+msgstr "「DRIVER STATION 自己検査 3」__、RC フォンにペアリングされたDriver Hub上"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:75
 msgid ""
@@ -228,7 +228,7 @@ msgstr ""
 msgid ""
 "`RC Self Inspect 4 <#rc-self-inspect-4-appearing-on-driver-hub-paired-to-rc-"
 "phone>`__, appearing on Driver Hub paired to RC phone"
-msgstr "「RC 自己検査 4」__、RC フォンにペアリングされたドライバーハブに表示される"
+msgstr "「RC 自己検査 4」__、RC フォンにペアリングされたDriver Hubに表示される"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:93
 msgid ""
@@ -479,7 +479,7 @@ msgid ""
 "Operating System meets the minimum version requirement in the FTC "
 "Competition Manual."
 msgstr ""
-"アイテム4はドライバーハブのみに表示されます。チェックマークは、Operating "
+"アイテム4はDriver Hubのみに表示されます。チェックマークは、Operating "
 "SystemがFTC競技マニュアルの最小バージョン要件を満たしていることを示しています。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:223
@@ -499,8 +499,8 @@ msgid ""
 "Wi-Fi source, including an internet router or a Control Hub. Item 10 "
 "confirms this is not happening; see next example."
 msgstr ""
-"Items 9 と 10 は「Yes」と「No」でなければなりません。「Wi-Fi Enabled」はドライバーハブのWi-Fi無線局が **ON** "
-"になっていることを意味し、RCスマホをWi-Fi Directで使用するためには必要です。ドライバーハブは技術的には標準的なWi-"
+"Items 9 と 10 は「Yes」と「No」でなければなりません。「Wi-Fi Enabled」はDriver HubのWi-Fi無線局が "
+"**ON** になっていることを意味し、RCスマホをWi-Fi Directで使用するためには必要です。Driver Hubは技術的には標準的なWi-"
 "Fiソースやインターネットルーター、Control Hubなどに接続可能である **technically able to also be "
 "connected** です。Item 10 はこれにより接続されていないことを確認します。次例を参照してください。"
 
@@ -520,7 +520,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:240
 msgid ""
 "Item 12 verifies that the Driver Hub does **not** have an RC app installed."
-msgstr "アイテム12は、ドライバーハブにRCアプリが **インストールされていないことを確認** します。"
+msgstr "アイテム12は、Driver HubにRCアプリが **インストールされていないことを確認** します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:242
 msgid ""
@@ -547,7 +547,7 @@ msgid ""
 " DS home screen temporarily showed “Connected” (to RC phone) and “No "
 "Heartbeat”, then recovered its pairing to the RC phone."
 msgstr ""
-"この自己点検画面は、ドライバーハブがRCスマホとペアリングされている間に出 FORCE ました。その後、標準Wi-Fi経由でControl "
+"この自己点検画面は、Driver HubがRCスマホとペアリングされている間に出 FORCE ました。その後、標準Wi-Fi経由でControl "
 "Hubにも接続されました。DSのホーム画面には一時的に「接続中（RCスマホ）」と「心拍なし」と表示されましたが、その後RCスマホとのペアリングに戻りました。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:262
@@ -555,8 +555,8 @@ msgid ""
 "Item 10 shows the discrepancy. The DS app soon closes this Standard Wi-Fi "
 "connection, allowing the Driver Hub to remain paired only with the RC phone."
 msgstr ""
-"項目10に不一致が示されています。DSアプリは直後にこの標準Wi-"
-"Fi接続を閉じ、ドライバーハブはRCスマホのみとペアリングされた状態で維持されることが許可されます。"
+"項目10に不一致が示されています。DSアプリは直後にこの標準Wi-Fi接続を閉じ、Driver "
+"HubはRCスマホのみとペアリングされた状態で維持されることが許可されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:266
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:273
@@ -576,7 +576,7 @@ msgid ""
 "Hub, thus **not** via Wi-Fi Direct."
 msgstr ""
 "アイテム1はまだ「Wi-Fi Directから切断」の選択肢を提供しています。しかし、その選択肢をタッチすると、「There was an error "
-"disconnecting from Wi-Fi Direct」というメッセージが表示されます。これはドライバーハブがControl "
+"disconnecting from Wi-Fi Direct」というメッセージが表示されます。これはDriver HubがControl "
 "Hubにペアリングされているため、 ** not ** via Wi-Fi Directの理由からです。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:281
@@ -606,7 +606,7 @@ msgid ""
 "Item 11 shows the error. The Driver Hub can connect via Standard Wi-Fi to "
 "only one AP at a time; this network is not an FTC RC device."
 msgstr ""
-"アイテム11にエラーが表示されています。ドライバーハブは標準Wi-"
+"アイテム11にエラーが表示されています。Driver Hubは標準Wi-"
 "Fi経由で一度に1つのAP（アクセスポイント）のみに接続でき；このネットワークはFTCRobot Controller装置ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:303
@@ -700,7 +700,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:365
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:375
 msgid "RC Self Inspect 3, appearing on RC phone paired with Driver Hub"
-msgstr "ドライバーハブとペアリングされたRCスマホに表示されるRC自検3"
+msgstr "Driver HubとペアリングされたRCスマホに表示されるRC自検3"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:365
 msgid "RC 3a"
@@ -723,7 +723,7 @@ msgid ""
 "connection caused the RC phone to temporarily lose that pairing, which was "
 "able to be restored."
 msgstr ""
-"これは同じ画面ですが、RCスマホはインターネットルーターに接続され、ドライバーハブとペアリングされていました。標準的なWi-"
+"これは同じ画面ですが、RCスマホはインターネットルーターに接続され、Driver Hubとペアリングされていました。標準的なWi-"
 "Fi接続により、RCスマホは一時的にそのペアリングを失いましたが、これを取り戻すことができました。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:382
@@ -886,13 +886,13 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:461
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:471
 msgid "RC Self Inspect 6, appearing on Driver Hub paired to Control Hub"
-msgstr "ドライバーハブにControl Hubがペアリングされた場合のRC自検6"
+msgstr "Driver HubにControl Hubがペアリングされた場合のRC自検6"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:463
 msgid ""
 "For a Control Hub, the Self Inspect categories displayed on Driver Hub are "
 "the same as on DS phone, immediately above."
-msgstr "Control Hubの場合、ドライバーハブで表示されるセルフインスペクト項目はDSスマホの直上にすぐに表示され、同じです。"
+msgstr "Control Hubの場合、Driver Hubで表示されるセルフインスペクト項目はDSスマホの直上にすぐに表示され、同じです。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:471
 msgid "RC 6b"
@@ -917,7 +917,7 @@ msgstr "REV 6a"
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:485
 msgid ""
 "RC Self Inspect 6, appearing on Driver Hub previously paired to Control Hub"
-msgstr "ドライバーハブに以前ペアリングされたControl Hub上で表示されるRC自検6"
+msgstr "Driver Hubに以前ペアリングされたControl Hub上で表示されるRC自検6"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:487
 msgid ""

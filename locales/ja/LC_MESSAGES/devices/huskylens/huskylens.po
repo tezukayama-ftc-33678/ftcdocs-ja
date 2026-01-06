@@ -357,7 +357,7 @@ msgstr "HuskyLensの小さな画面には、認識されたAprilTagが薄い白�
 
 #: ../../source/devices/huskylens/huskylens.rst:180
 msgid "Here’s the corresponding DS Telemetry:"
-msgstr "こちらが対応するDriver Stationのテレメトリです："
+msgstr "こちらが対応するDriver StationのTelemetryです："
 
 #: ../../source/devices/huskylens/huskylens.rst:187
 msgid "DS AprilTag"
@@ -446,7 +446,7 @@ msgstr "3 ブロック"
 
 #: ../../source/devices/huskylens/huskylens.rst:229
 msgid "Telemetry Showing 3 Blocks"
-msgstr "テレメトリーで3つのブロックが表示中"
+msgstr "Telemetryで3つのブロックが表示中"
 
 #: ../../source/devices/huskylens/huskylens.rst:231
 msgid ""
@@ -675,7 +675,7 @@ msgstr ""
 
 #: ../../source/devices/huskylens/huskylens.rst:362
 msgid "DS Telemetry Two Objects"
-msgstr "Driver Station テレメトリー 2つのオブジェクト"
+msgstr "Driver Station Telemetry 2つのオブジェクト"
 
 #: ../../source/devices/huskylens/huskylens.rst:364
 msgid ""
@@ -726,7 +726,7 @@ msgstr "Driver Stationで2つの青いオブジェクト"
 
 #: ../../source/devices/huskylens/huskylens.rst:395
 msgid "Telemetry for Two Blue Objects"
-msgstr "2つのブルー対象のテレメトリー"
+msgstr "2つのブルー対象のTelemetry"
 
 #: ../../source/devices/huskylens/huskylens.rst:397
 msgid ""
@@ -1081,7 +1081,7 @@ msgid ""
 msgstr ""
 "あなたのOpModeコードが ** ``Color:ID2`` ** "
 "を読み取るためには、アルゴリズムは``COLOR_RECOGNITION``に設定する必要があります。また、フィールド``HuskyLens.Block.id``の値は"
-" ** 2 ** になります。これについては、先ほど使用したサンプルOpModeのテレメトリ部分で確認できます。"
+" ** 2 ** になります。これについては、先ほど使用したサンプルOpModeのTelemetry部分で確認できます。"
 
 #: ../../source/devices/huskylens/huskylens.rst:591
 msgid "Color Detection Blocks"
@@ -1089,21 +1089,21 @@ msgstr "色検出ブロック"
 
 #: ../../source/devices/huskylens/huskylens.rst:591
 msgid "Adding Telemetry for Colors"
-msgstr "色のテレメトリ追加"
+msgstr "色のTelemetry追加"
 
 #: ../../source/devices/huskylens/huskylens.rst:593
 msgid ""
 "Here’s the DS Telemetry from the Sample OpMode used above for single color, "
 "**with no coding changes**:"
-msgstr "ここに上記の単色用のSample OpModeから取得したDSテレメトリーがあります。 **コード変更なし** です："
+msgstr "ここに上記の単色用のSample OpModeから取得したDSTelemetryがあります。 **コード変更なし** です："
 
 #: ../../source/devices/huskylens/huskylens.rst:601
 msgid "2 Color Telemetry"
-msgstr "2色テレメトリー"
+msgstr "2色Telemetry"
 
 #: ../../source/devices/huskylens/huskylens.rst:601
 msgid "Example Telemetry showing Both Colors"
-msgstr "両方の色が表示された例的なテレメトリー"
+msgstr "両方の色が表示された例的なTelemetry"
 
 #: ../../source/devices/huskylens/huskylens.rst:603
 msgid ""

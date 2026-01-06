@@ -126,7 +126,7 @@ msgstr ""
 msgid ""
 "**Save and activate** that configuration; its name should appear on the "
 "paired Driver Station screen."
-msgstr "**保存し、有効に** してください；その名前はペアリングされたドライバー・ステーションの画面に表示されます。"
+msgstr "**保存し、有効に** してください；その名前はペアリングされたDriver Stationの画面に表示されます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:58
 msgid "Sample OpMode"
@@ -245,11 +245,11 @@ msgstr "自動で動作する30秒のマッチタイマー（緑色のスライ�
 msgid ""
 "Touch INIT only.  The OpMode should give Telemetry showing the results of "
 "one or more Blobs:"
-msgstr "INITのみをタッチしてください。OpModeは1つ以上のかす（Blob）の結果を示すテレメトリを表示するべきです："
+msgstr "INITのみをタッチしてください。OpModeは1つ以上のかす（Blob）の結果を示すTelemetryを表示するべきです："
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:126
 msgid "Basic Telemetry"
-msgstr "基本的なテレメトリー"
+msgstr "基本的なTelemetry"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:128
 msgid ""
@@ -264,7 +264,7 @@ msgid ""
 " data, and sometimes show no Blob data at all."
 msgstr ""
 "カメラを動かして、特にブルーのオブジェクト付近で動かし、Driver "
-"Station画面のテレメトリエリアを見守ってください。時々はBlobデータの行が増えることもありますし、時々は何らかのBlobデータも表示されないことがあります。"
+"Station画面のTelemetryエリアを見守ってください。時々はBlobデータの行が増えることもありますし、時々は何らかのBlobデータも表示されないことがあります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:135
 msgid ""
@@ -288,7 +288,7 @@ msgid ""
 "how to view the OpenCV results with **previews**.  Previewing is essential "
 "for working with vision code."
 msgstr ""
-"テレメトリデータの説明前に、このページではOpenCV結果を確認するための ** プレビュー ** "
+"Telemetryデータの説明前に、このページではOpenCV結果を確認するための ** プレビュー ** "
 "について2つのセクションを提供しています。プレビューはビジョンコードを使用する際には不可欠です。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:147
@@ -323,7 +323,7 @@ msgstr "大きなプレビューを見るには、右下の矢印をタッチし
 msgid ""
 "Or, select Camera Stream again, to return to the previous screen and its "
 "Telemetry."
-msgstr "または、再度カメラストリームを選択して、前の画面とテレメトリに戻りましょう。"
+msgstr "または、再度カメラストリームを選択して、前の画面とTelemetryに戻りましょう。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:169
 msgid "RC Preview"
@@ -362,7 +362,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:189
 msgid "Basic Telemetry Data"
-msgstr "基本的なテレメトリデータ"
+msgstr "基本的なTelemetryデータ"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:191
 msgid "Let's look closer at the DS telemetry:"
@@ -370,11 +370,11 @@ msgstr "LET'S look closer at the DS telemetry:"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:198
 msgid "Image of telemetry output"
-msgstr "テレメトリー出力の画像"
+msgstr "Telemetry出力の画像"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:198
 msgid "Locator Telemetry"
-msgstr "ロケーターのテレメトリー"
+msgstr "ロケーターのTelemetry"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:200
 msgid ""

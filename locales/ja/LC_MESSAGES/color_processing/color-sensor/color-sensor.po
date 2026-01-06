@@ -232,11 +232,11 @@ msgstr "INITのみをタッチしてください。"
 msgid ""
 "The OpMode should give Telemetry, stating the main \"matched\" color inside "
 "the Region of Interest."
-msgstr "OpModeは、興味領域内の主要な「一致した」色についてのテレメトリーを提供すべきです。"
+msgstr "OpModeは、興味領域内の主要な「一致した」色についてのTelemetryを提供すべきです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:120
 msgid "Driver Station Telemetry"
-msgstr "Driver Stationのテレメトリ"
+msgstr "Driver StationのTelemetry"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:122
 msgid ""
@@ -244,7 +244,7 @@ msgid ""
 "screen.  It should state \"BLUE\" when pointing at a blue object, and "
 "likewise should identify other common colors."
 msgstr ""
-"カメラを動かして、ドライバー・ステーションの画面にあるテレメトリエリアを見守ってください。青色の物体に向けていた場合、「 "
+"カメラを動かして、Driver Stationの画面にあるTelemetryエリアを見守ってください。青色の物体に向けていた場合、「 "
 "BLUE」が表示されるはずです。また、他の一般的な色も識別できるはずです。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:126
@@ -298,7 +298,7 @@ msgid ""
 "color, reported to DS Telemetry."
 msgstr ""
 "画像に描かれているのは評価中の長方形で、これは ** 興味領域 ** (ROI)と呼ばれます。ROIの境界線色は長方形の主な色であり、これをDriver"
-" Stationのテレメトリに報告します。"
+" StationのTelemetryに報告します。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:155
 msgid ""
@@ -314,7 +314,7 @@ msgstr "大きなプレビューを見るには、右下の矢印をタッチし
 msgid ""
 "Or, select Camera Stream again, to return to the previous screen and its "
 "Telemetry."
-msgstr "または、再度カメラストリームを選択して、前の画面とテレメトリに戻りましょう。"
+msgstr "または、再度カメラストリームを選択して、前の画面とTelemetryに戻りましょう。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:164
 msgid "RC Preview"
@@ -452,7 +452,7 @@ msgid ""
 "``closestSwatch`` and appears as a word (RED, BLUE, etc.).  But this is not "
 "plain text!"
 msgstr ""
-"OpModeのテレメトリーセクションで確認できるように、結果は ``closestSwatch`` "
+"OpModeのTelemetryセクションで確認できるように、結果は ``closestSwatch`` "
 "と呼ばれ、赤（RED）、青（BLUE）などの単語として表示されます。しかし、これは単なるテキストではありません！"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:234
@@ -490,7 +490,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:259
 msgid "In the sample OpMode, here's the Telemetry that gives the result:"
-msgstr "サンプルOpModeでは、以下が結果のテレメトリーです："
+msgstr "サンプルOpModeでは、以下が結果のTelemetryです："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:265
 msgid "This displays as text, but this is **not** Java type ``String``!"
@@ -611,7 +611,7 @@ msgstr ""
 msgid ""
 "Extracting the RGB components can be seen in the Telemetry portion of the "
 "Sample OpMode.  Click the Blocks or Java tab:"
-msgstr "RGB成分の抽出は、サンプルOpModeのテレメトリー部分で確認できます。ブロックまたはJavaタブをクリックしてください："
+msgstr "RGB成分の抽出は、サンプルOpModeのTelemetry部分で確認できます。ブロックまたはJavaタブをクリックしてください："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:365
 #: ../../source/color_processing/color-sensor/color-sensor.rst:380

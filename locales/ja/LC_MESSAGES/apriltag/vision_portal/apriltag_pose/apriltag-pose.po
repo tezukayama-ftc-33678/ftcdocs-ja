@@ -76,7 +76,7 @@ msgstr "4月タグポーズブロック"
 msgid ""
 "Use each of these green Blocks to pass a Pose value to a Telemetry Block, or"
 " to a Variable:"
-msgstr "これらの緑色のブロックそれぞれを使用して、ポーズ値をテレメトリブロックや変数に伝達します："
+msgstr "これらの緑色のブロックそれぞれを使用して、ポーズ値をTelemetryブロックや変数に伝達します："
 
 #: ../../source/apriltag/vision_portal/apriltag_pose/apriltag-pose.rst
 msgid "Java"

@@ -563,15 +563,16 @@ msgstr "myBlock using library method ``Geometry.hypot()``"
 msgid ""
 "On your own, you can try this with the two remaining methods. Use myBlocks "
 "to show telemetry output of various input values."
-msgstr "自分で試すなら、残りの2つの方法でも実践してみてください。myBlocksを使用して、さまざまな入力値のテレメトリ出力を表示しましょう。"
+msgstr ""
+"自分で試すなら、残りの2つの方法でも実践してみてください。myBlocksを使用して、さまざまな入力値のTelemetry出力を表示しましょう。"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:332
 msgid "myBlocks telemetry"
-msgstr "myBlocks テレメトリー"
+msgstr "myBlocks Telemetry"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:332
 msgid "Telemetry of myBlocks using Geometry library"
-msgstr "myBlocksのジオメトリーライブラリを使用したテレメトリ"
+msgstr "myBlocksのジオメトリーライブラリを使用したTelemetry"
 
 #: ../../source/programming_resources/shared/external_libraries_blocks/external-libraries-blocks.rst:335
 msgid "Example 2 - *FIRST* Tech Challenge-annotated library"
