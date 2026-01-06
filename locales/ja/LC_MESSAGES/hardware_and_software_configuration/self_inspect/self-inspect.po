@@ -892,7 +892,7 @@ msgstr "Driver HubにControl Hubがペアリングされた場合のRC自検6"
 msgid ""
 "For a Control Hub, the Self Inspect categories displayed on Driver Hub are "
 "the same as on DS phone, immediately above."
-msgstr "Control Hubの場合、Driver Hubで表示されるセルフインスペクト項目はDSスマホの直上にすぐに表示され、同じです。"
+msgstr "Control Hubの場合、Driver Hubで表示されるSelf Inspect項目はDSスマホの直上にすぐに表示され、同じです。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:471
 msgid "RC 6b"

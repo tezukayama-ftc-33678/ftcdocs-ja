@@ -264,7 +264,7 @@ msgid ""
 "``hardwareMap`` to get references to the hardware devices that are listed in"
 " the Robot Controller's configuration file:"
 msgstr ""
-"RUN_OPMODEメソッドの開始時に、OpModeは「ハードウェアマップ」이라는 이름의オブジェクトを使用して、Robot "
+"RUN_OPMODEメソッドの開始時に、OpModeは「HardwareMap」이라는 이름의オブジェクトを使用して、Robot "
 "Controllerの設定ファイルにリストされたハードウェアデバイスへの参照を取得します："
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:249
@@ -272,7 +272,8 @@ msgid ""
 "The ``hardwareMap`` object is available to use in the ``runOpMode`` method. "
 "It is an object of type ``HardwareMap`` class."
 msgstr ""
-"ハードウェアマップオブジェクトは、``runOpMode`` メソッドで使用可能です。これは ``HardwareMap`` クラスのオブジェクトです。"
+"HardwareMapオブジェクトは、``runOpMode`` メソッドで使用可能です。これは ``HardwareMap`` "
+"クラスのオブジェクトです。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:252
 msgid ""

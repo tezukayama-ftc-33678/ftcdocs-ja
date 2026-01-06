@@ -400,8 +400,8 @@ msgid ""
 " AprilTag will display a **colored border** and its numeric **ID code**. "
 "These **annotations** allow easy visual confirmation of recognition:"
 msgstr ""
-"プレビュー（RCスマホ画面やDSカメラストリーム）では、公式に認識されたAprilTagが ** 色の枠線 ** とその数値の ** IDコード ** "
-"を表示します。これらの ** 注釈 ** は、認識の確認を容易に行うのに役立ちます："
+"プレビュー（RCスマホ画面やDSCamera Stream）では、公式に認識されたAprilTagが ** 色の枠線 ** とその数値の ** "
+"IDコード ** を表示します。これらの ** 注釈 ** は、認識の確認を容易に行うのに役立ちます："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:204
 msgid "Simple Annotations"
@@ -456,7 +456,8 @@ msgid ""
 "<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:image preview>`"
 msgstr ""
-":ref:`カメラストリーム画像プレビューのドキュメント<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+":ref:`Camera "
+"Stream画像プレビューのドキュメント<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:image preview>`"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:222
@@ -659,7 +660,7 @@ msgstr "AprilTag（またはColor Processing）プロセッサの無効化と有
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:310
 msgid "close the camera stream"
-msgstr "カメラストリームを閉じます"
+msgstr "Camera Streamを閉じます"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:311
 msgid "select a compressed video streaming format"

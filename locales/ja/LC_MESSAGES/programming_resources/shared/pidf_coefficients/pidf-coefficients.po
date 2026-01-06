@@ -29,8 +29,8 @@ msgid ""
 "change the PIDF coefficients used for closed loop motor control. The PIDF "
 "coefficients are specific to each channel (motor port) and to each RunMode."
 msgstr ""
-"REV Robotics Control Hubまたは REV Robotics "
-"エクスパンションハブでは、クローズドループモーターコントロールに使用されるPIDF係数を変更することができます。これらのPIDF係数は、各チャネル（モーターポート）および各RunModeに特定しています。"
+"REV Robotics Control Hubまたは REV Robotics Expansion "
+"Hubでは、クローズドループモーターコントロールに使用されるPIDF係数を変更することができます。これらのPIDF係数は、各チャネル（モーターポート）および各RunModeに特定しています。"
 
 #: ../../source/programming_resources/shared/pidf_coefficients/pidf-coefficients.rst:8
 msgid ""

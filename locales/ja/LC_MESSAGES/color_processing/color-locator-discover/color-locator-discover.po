@@ -301,11 +301,12 @@ msgid ""
 "At the top right corner, touch the 3-dots menu, then ``Camera Stream``.  "
 "This shows the camera's view; tap the image to refresh it."
 msgstr ""
-"右上角に移動し、3つの点アイコンをタッチします。次に「カメラストリーム」を選択します。これによりカメラの視野が表示されます；画像をタップして更新します。"
+"右上角に移動し、3つの点アイコンをタッチします。次に「Camera "
+"Stream」を選択します。これによりカメラの視野が表示されます；画像をタップして更新します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:157
 msgid "DS Camera Stream Preview"
-msgstr "Driver Stationカメラストリームプレビュー"
+msgstr "Driver StationCamera Streamプレビュー"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:159
 msgid ""
@@ -323,7 +324,7 @@ msgstr "大きなプレビューを見るには、右下の矢印をタッチし
 msgid ""
 "Or, select Camera Stream again, to return to the previous screen and its "
 "Telemetry."
-msgstr "または、再度カメラストリームを選択して、前の画面とTelemetryに戻りましょう。"
+msgstr "または、再度Camera Streamを選択して、前の画面とTelemetryに戻りましょう。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:169
 msgid "RC Preview"

@@ -125,7 +125,8 @@ msgid ""
 msgstr ""
 "ここではVuforiaが記載されており、以下の「サンプルOpModes <#sample-opmodes>__」でも参照されます。 ** "
 "なぜVuforiaなのか？ ** *FIRST* Tech ChallengeでGoogleのTensorFlow "
-"Liteの実装は、Vuforiaビデオストリームからカメラ画像を受け取ります。SDKには既にVuforiaが含まれており、ナビゲーションのために使用されているため、TFODにカメラストリームを送るのに便利なツールとなっています。"
+"Liteの実装は、Vuforiaビデオストリームからカメラ画像を受け取ります。SDKには既にVuforiaが含まれており、ナビゲーションのために使用されているため、TFODにCamera"
+" Streamを送るのに便利なツールとなっています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/overview/overview.rst:42
 msgid ""

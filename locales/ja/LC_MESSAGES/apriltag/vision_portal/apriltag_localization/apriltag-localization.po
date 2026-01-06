@@ -259,7 +259,7 @@ msgid ""
 "previews."
 msgstr ""
 "** INITのみをタッチしてください。 ** Telemetryは表示されませんが、この時点ではDriver Station（DS）の ** "
-"カメラストリームプレビュー ** にアクセスできます。次のセクションで詳細をご覧ください。"
+"Camera Streamプレビュー ** にアクセスできます。次のセクションで詳細をご覧ください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:131
 msgid ""
@@ -325,15 +325,16 @@ msgid ""
 "At the top right corner, touch the 3-dots menu, then ``Camera Stream``.  "
 "This shows the camera's view; tap the image to refresh it."
 msgstr ""
-"右上角に移動し、3つの点アイコンをタッチします。次に「カメラストリーム」を選択します。これでカメラの視野が表示されます；画像をタップして更新できます。"
+"右上角に移動し、3つの点アイコンをタッチします。次に「Camera "
+"Stream」を選択します。これでカメラの視野が表示されます；画像をタップして更新できます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:170
 msgid "DS Camera Stream"
-msgstr "ドライバステーションカメラストリーム"
+msgstr "ドライバステーションCamera Stream"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:170
 msgid "Example of DS Camera Stream"
-msgstr "例のDriver Stationカメラストリーム"
+msgstr "例のDriver StationCamera Stream"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:172
 msgid "For a BIG preview, touch the arrows at the bottom right corner."
@@ -343,7 +344,7 @@ msgstr "大きなプレビューを見るには、右下の矢印をタッチし
 msgid ""
 "Or, select Camera Stream again, to return to the previous screen and its "
 "Telemetry."
-msgstr "または、再度カメラストリームを選択して、前の画面とTelemetryに戻りましょう。"
+msgstr "または、再度Camera Streamを選択して、前の画面とTelemetryに戻りましょう。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:178
 msgid "RC Preview"

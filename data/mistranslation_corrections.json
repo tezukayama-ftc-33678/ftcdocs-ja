@@ -144,6 +144,136 @@
       "mistranslation": "テレメトリ",
       "correct": "Telemetry",
       "description": "should remain in English"
+    },
+    {
+      "mistranslation": "オプモード",
+      "correct": "OpMode",
+      "description": "OpModeは英語のまま表記"
+    },
+    {
+      "mistranslation": "リニアオプモード",
+      "correct": "LinearOpMode",
+      "description": "LinearOpModeは英語のまま表記"
+    },
+    {
+      "mistranslation": "ハードウェアマップ",
+      "correct": "HardwareMap",
+      "description": "HardwareMapは英語のまま表記"
+    },
+    {
+      "mistranslation": "ビジョンポータル",
+      "correct": "VisionPortal",
+      "description": "API名はVisionPortal表記（スペースなし）"
+    },
+    {
+      "mistranslation": "オートノマス",
+      "correct": "Autonomous",
+      "description": "Autonomousは英語のまま表記"
+    },
+    {
+      "mistranslation": "テレオプ",
+      "correct": "TeleOp",
+      "description": "TeleOpは英語のまま表記"
+    },
+    {
+      "mistranslation": "エクスパンションハブ",
+      "correct": "Expansion Hub",
+      "description": "Expansion Hubは英語のまま表記"
+    },
+    {
+      "mistranslation": "ハスキー レンズ",
+      "correct": "HuskyLens",
+      "description": "HuskyLensは英語のまま表記"
+    },
+    {
+      "mistranslation": "DS",
+      "correct": "DS",
+      "description": "DSは英語のまま表記"
+    },
+    {
+      "mistranslation": "RC",
+      "correct": "RC",
+      "description": "RCは英語のまま表記"
+    },
+    {
+      "mistranslation": "IMU",
+      "correct": "IMU",
+      "description": "IMUは英語のまま表記"
+    },
+    {
+      "mistranslation": "オープンCV",
+      "correct": "OpenCV",
+      "description": "OpenCVは英語のまま表記"
+    },
+    {
+      "mistranslation": "イージーオープンCV",
+      "correct": "EasyOpenCV",
+      "description": "EasyOpenCVは英語のまま表記"
+    },
+    {
+      "mistranslation": "オンボットジャバ",
+      "correct": "OnBot Java",
+      "description": "OnBot Javaは英語のまま表記"
+    },
+    {
+      "mistranslation": "アンドロイドスタジオ",
+      "correct": "Android Studio",
+      "description": "Android Studioは英語のまま表記"
+    },
+    {
+      "mistranslation": "カメラストリーム",
+      "correct": "Camera Stream",
+      "description": "Camera Streamは英語のまま表記"
+    },
+    {
+      "mistranslation": "チームプロップ",
+      "correct": "Team Prop",
+      "description": "Team Propは英語のまま表記"
+    },
+    {
+      "mistranslation": "カラー ロケーター",
+      "correct": "Color Locator",
+      "description": "Color Locatorは英語のまま表記"
+    },
+    {
+      "mistranslation": "アクセスコード",
+      "correct": "Access Codes",
+      "description": "Access Codesは英語のまま表記"
+    },
+    {
+      "mistranslation": "セルフインスペクト",
+      "correct": "Self Inspect",
+      "description": "Self Inspectは英語のまま表記"
+    },
+    {
+      "mistranslation": "インスペクションレポート",
+      "correct": "Inspection Reports",
+      "description": "Inspection Reportsは英語のまま表記"
+    },
+    {
+      "mistranslation": "ファースト",
+      "correct": "FIRST",
+      "description": "FIRSTは英語のまま表記"
+    },
+    {
+      "mistranslation": "グレイシャスプロフェッショナリズム",
+      "correct": "Gracious Professionalism",
+      "description": "Gracious Professionalismは英語のまま表記"
+    },
+    {
+      "mistranslation": "アワード",
+      "correct": "Awards",
+      "description": "Awardsは英語のまま表記"
+    },
+    {
+      "mistranslation": "ストラクチャードジャッジングアポイントメント",
+      "correct": "Structured Judging Appointment",
+      "description": "Structured Judging Appointmentは英語のまま表記"
+    },
+    {
+      "mistranslation": "ストラクチャードインタビュー",
+      "correct": "Structured Interview",
+      "description": "Structured Interviewは英語のまま表記"
     }
   ]
 }

@@ -35,8 +35,10 @@ msgid ""
 "proof of registration requirement. Read details below for each product for "
 "more information."
 msgstr ""
-"*FIRST* Tech "
-"Challengeチームとしての利点として、 *FIRST* プログラムの一部のスポンサーは、チームに無料ソフトウェア、ライセンス、またはサポートを提供するための余裕を持たせました。これらのライセンスは通常1年間有効ですが、多くの場合年度ごとに更新が必要です。スポンサードコンテンツには、 *FIRST* ダッシュボード内のチームアカウントで提供される寄付証明書を使用することが必要である場合もありますし、一部のスポンサーは単にチーム番号と連絡先情報を要求するだけで済むこともあります。また、登録不要で無料で提供されているソフトウェアもあります。各製品ごとの詳細については以下をご覧ください。"
+"*FIRST* Tech Challengeチームとしての利点として、 *FIRST* "
+"プログラムの一部のスポンサーは、チームに無料ソフトウェア、ライセンス、またはサポートを提供するための余裕を持たせました。これらのライセンスは通常1年間有効ですが、多くの場合年度ごとに更新が必要です。スポンサードコンテンツには、"
+" *FIRST* "
+"ダッシュボード内のチームアカウントで提供される寄付証明書を使用することが必要である場合もありますし、一部のスポンサーは単にチーム番号と連絡先情報を要求するだけで済むこともあります。また、登録不要で無料で提供されているソフトウェアもあります。各製品ごとの詳細については以下をご覧ください。"
 
 #: ../../source/sponsors/software/software.rst
 msgid "Autodesk"
@@ -70,15 +72,15 @@ msgstr "**有効期限** : 精確な詳細については、Autodeskにお問い
 #: ../../source/sponsors/software/software.rst:110
 #: ../../source/sponsors/software/software.rst:126
 msgid "**Access Codes**: N/A"
-msgstr "**アクセスコード** : 無し"
+msgstr "**Access Codes** : 無し"
 
 #: ../../source/sponsors/software/software.rst:32
 msgid ""
 "**To Access**: Check out the :doc:`Autodesk page "
 "<../../cad_resources/autodesk/autodesk>` for details."
 msgstr ""
-"** アクセス方法 ** : 詳細については、:doc:`アドゥルースページ <../../cad_resources/autodesk/autodesk>`"
-" を参照してください。"
+"** アクセス方法 ** : 詳細については、:doc:`アドゥルースページ "
+"<../../cad_resources/autodesk/autodesk>` を参照してください。"
 
 #: ../../source/sponsors/software/software.rst
 msgid "Dassault Systèmes"
@@ -114,7 +116,7 @@ msgstr "**有効期限** : 確実な詳細は、ダサール・システムズ�
 
 #: ../../source/sponsors/software/software.rst:56
 msgid "**Access Codes**: [COMING SOON]"
-msgstr "**アクセスコード** : [近々公開予定]"
+msgstr "**Access Codes** : [近々公開予定]"
 
 #: ../../source/sponsors/software/software.rst:58
 msgid ""
@@ -238,4 +240,5 @@ msgstr "視聴者をお誘いください"
 msgid ""
 "**To Access**: Create free account on `trello.com <https://trello.com>`__"
 msgstr ""
-"** アクセス方法 ** : 無料アカウントを作成して `<trello.com <https://trello.com>`__ 参照にアクセスしてください。"
+"** アクセス方法 ** : 無料アカウントを作成して `<trello.com <https://trello.com>`__ "
+"参照にアクセスしてください。"

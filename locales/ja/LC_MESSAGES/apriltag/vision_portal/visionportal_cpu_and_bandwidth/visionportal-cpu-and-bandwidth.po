@@ -59,7 +59,7 @@ msgstr "AprilTag（またはTFOD）プロセッサの無効化と有効化 - 「
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:19
 msgid "stop and resume the camera stream - \"Level 3\""
-msgstr "カメラストリームの停止と再開 - \"レベル 3\""
+msgstr "Camera Streamの停止と再開 - \"レベル 3\""
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:20
 msgid "close VisionPortal - \"Level 4\""
@@ -124,7 +124,7 @@ msgstr "**プロセッサ** \\\"レベル2\\\"：リソースの使用量をさ�
 msgid ""
 "Camera Stream \"Level 3\": high reduction of resources used, resumes less "
 "quickly after stopping"
-msgstr "**カメラストリーム** \"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
+msgstr "**Camera Stream** \"レベル3\": 使用するリソースの大幅な削減、停止後に再開が遅い"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:34
 msgid ""
@@ -176,8 +176,8 @@ msgid ""
 "STREAMING - Frames are available for processing (AprilTag and/or TFOD "
 "recognitions) and preview (LiveView RC preview and DS Camera Stream)."
 msgstr ""
-"ストリーミング - フレームは処理（AprilTagやTFODの認識）とプレビュー（LiveView "
-"RCプレビューとDSカメラストリーム）に利用可能です。"
+"ストリーミング - フレームは処理（AprilTagやTFODの認識）とプレビュー（LiveView RCプレビューとDSCamera "
+"Stream）に利用可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:52
 msgid ""
@@ -228,16 +228,16 @@ msgid ""
 "stopped (manually or automatically)."
 msgstr ""
 "前ページの ** プレビュー ** 欄で述べた通り、LiveViewは ** Robot Controller ** "
-"のプレビューのみを指し、Driver Station（DS）の ** カメラストリーム ** "
-"とは完全に独立しています。LiveViewが停止された場合（手動または自動）、カメラストリームは通常通り動作します。"
+"のプレビューのみを指し、Driver Station（DS）の ** Camera Stream ** "
+"とは完全に独立しています。LiveViewが停止された場合（手動または自動）、Camera Streamは通常通り動作します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:75
 msgid ""
 "DS Camera Stream uses its own frame collection process, which naturally "
 "still requires the camera/pipeline status to be ``STREAMING``."
 msgstr ""
-"Driver Stationカメラストリームは独自のフレーム収集プロセスを使用しますが、自然にカメラ/パイプラインの状態は`` STREAMING`` "
-"である必要があります。"
+"Driver StationCamera Streamは独自のフレーム収集プロセスを使用しますが、自然にカメラ/パイプラインの状態は`` "
+"STREAMING`` である必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:78
 msgid ""
@@ -245,7 +245,7 @@ msgid ""
 "<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:image preview>`."
 msgstr ""
-"DSカメラストリームの視聴方法については、:ref:`ftc-"
+"DSCamera Streamの視聴方法については、:ref:`ftc-"
 "docs<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:image preview>` を参照してください。"
 
@@ -255,8 +255,8 @@ msgid ""
 "MultiPortal feature.  Teams can create specialty OpModes to see one camera's"
 " image or the other camera's image, if needed for match set-up."
 msgstr ""
-"DRIVER "
-"STATIONカメラストリームは、新しいMultiPortal機能を使用しても、一度に1つのカメラの画像のみを表示できます。チームは必要に応じて、マッチセットアップのために1つのカメラの画像またはもう1つのカメラの画像を見るための専用のOpModeを作成できます。"
+"DRIVER STATIONCamera "
+"Streamは、新しいMultiPortal機能を使用しても、一度に1つのカメラの画像のみを表示できます。チームは必要に応じて、マッチセットアップのために1つのカメラの画像またはもう1つのカメラの画像を見るための専用のOpModeを作成できます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:85
 msgid ""
@@ -324,7 +324,8 @@ msgstr ""
 msgid ""
 "The above commands toggle only LiveView; the DS Camera Stream preview (touch"
 " to refresh) remains available."
-msgstr "上記のコマンドはリアルタイムビューのみを切り替えるので、DSカメラストリームプレビュー（タッチすると更新されます）は利用可能です。"
+msgstr ""
+"上記のコマンドはリアルタイムビューのみを切り替えるので、DSCamera Streamプレビュー（タッチすると更新されます）は利用可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:131
 msgid "Pause LiveView - Indirect"
@@ -362,7 +363,7 @@ msgid ""
 "available."
 msgstr ""
 "一方または両方のプロセッサが再有効化されると、LiveViewが再開します。この設定はOnly LiveViewに影響し、Driver "
-"Stationカメラストリームプレビューは利用可能保持されます。"
+"StationCamera Streamプレビューは利用可能保持されます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:155
 msgid "Disable LiveView"
@@ -425,7 +426,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:208
 msgid "Toggle Camera Stream"
-msgstr "カメラストリームの切り替え"
+msgstr "Camera Streamの切り替え"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:210
 msgid ""
@@ -434,13 +435,13 @@ msgid ""
 "Levels 1 and 2: stopping LiveView and preventing operation of the AprilTag "
 "and TFOD Processors. DS Camera Stream provides no new snapshots."
 msgstr ""
-"CPUリソースをより積極的に節約する方法（レベル3）は、OpModeを実行しながら ** カメラストリームの停止 ** "
+"CPUリソースをより積極的に節約する方法（レベル3）は、OpModeを実行しながら ** Camera Streamの停止 ** "
 "です。もちろんこれにより、レベル1と2も達成されます：LiveViewの停止とAprilTagおよびTFODプロセッサの動作防止。DS Camera "
 "Streamには新しいスナップショットが提供されません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:227
 msgid "Examples of Toggling Camera Stream"
-msgstr "カメラストリームの切り替え例"
+msgstr "Camera Streamの切り替え例"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:241
 msgid ""

@@ -132,8 +132,8 @@ msgid ""
 "``STREAMING`` - Frames are available for processing (AprilTag and/or TFOD "
 "recognitions) and preview (RC preview and DS Camera Stream)"
 msgstr ""
-"``ストリーミング`` - フレームは処理（AprilTagやTFODの認識）とプレビュー（Robot "
-"ControllerのカメラストリームとDriver Stationのカメラストリーム）のために利用可能です"
+"``ストリーミング`` - フレームは処理（AprilTagやTFODの認識）とプレビュー（Robot ControllerのCamera "
+"StreamとDriver StationのCamera Stream）のために利用可能です"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:52
 msgid ""
@@ -171,7 +171,7 @@ msgstr "https://github.com/Genymobile/scrcpy"
 msgid ""
 "or an HDMI monitor. Optimizing via DS Camera Stream will be less effective "
 "and less efficient."
-msgstr "またはHDMIモニターを使用する。Driver Stationカメラストリーム経由での最適化は効果的でないし、効率も悪い。"
+msgstr "またはHDMIモニターを使用する。Driver StationCamera Stream経由での最適化は効果的でないし、効率も悪い。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:71
 msgid ""
@@ -180,8 +180,9 @@ msgid ""
 "adjustments cannot be made in real time, with gamepads disabled during "
 "Camera Stream."
 msgstr ""
-"DRIVER STATIONカメラストリームは、``scrcpy`` "
-"と同じ画像を表示し、露出とゲインが認識に影響を与えることを確認できます。しかし、この画像はスナップショットであり、リアルタイムでの調整はできません。また、カメラストリーム中にはゲームパッドの使用も禁止されます。"
+"DRIVER STATIONCamera Streamは、``scrcpy`` "
+"と同じ画像を表示し、露出とゲインが認識に影響を与えることを確認できます。しかし、この画像はスナップショットであり、リアルタイムでの調整はできません。また、Camera"
+" Stream中にはゲームパッドの使用も禁止されます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:76
 msgid "Control Ranges"

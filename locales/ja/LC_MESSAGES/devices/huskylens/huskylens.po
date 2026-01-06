@@ -60,7 +60,7 @@ msgid ""
 " REV Control Hub or REV Expansion Hub."
 msgstr ""
 "HuskyLensは、 ** 車載プログラミング ** を使用してAI補助の学習、ビジョン処理および認識を実行します。REVControl "
-"HubまたはREVエクスパンションハブの ** I2Cセンサーポート ** に接続できます。"
+"HubまたはREVExpansion Hubの ** I2Cセンサーポート ** に接続できます。"
 
 #: ../../source/devices/huskylens/huskylens.rst:26
 msgid ""
@@ -415,8 +415,9 @@ msgid ""
 "single view."
 msgstr ""
 "現在、HuskyLensがCENTERSTAGE Spike "
-"Marksの位置を検出できるかどうかテストできます。これは実際のゲームシナリオではありません。チームプロップ（チームゲーム要素）はAprilTagを使用できませんからです。これにより、あなたのロボットが一度の視野で2つまたは3つのSpike"
-" Marksを見ることができるか確認できます。"
+"Marksの位置を検出できるかどうかテストできます。これは実際のゲームシナリオではありません。Team "
+"Prop（チームゲーム要素）はAprilTagを使用できませんからです。これにより、あなたのロボットが一度の視野で2つまたは3つのSpike "
+"Marksを見ることができるか確認できます。"
 
 #: ../../source/devices/huskylens/huskylens.rst:216
 msgid "3 Tags"
@@ -702,7 +703,8 @@ msgid ""
 "Spike Mark, you could write OpMode code to reject the narrow shape (aspect "
 "ratio) of an empty Spike Mark’s Bounding Box."
 msgstr ""
-"チームプロップの色が赤スパイクマークや青スパイクマークの色と非常に近い場合でも、空のスパイクマークのバウンディングボックスの細長い形状（アスペクト比）を拒否するOpModeコードを書くことができます。"
+"Team "
+"Propの色が赤スパイクマークや青スパイクマークの色と非常に近い場合でも、空のスパイクマークのバウンディングボックスの細長い形状（アスペクト比）を拒否するOpModeコードを書くことができます。"
 
 #: ../../source/devices/huskylens/huskylens.rst:379
 msgid "Here’s an example with a trained **blue object**:"
@@ -740,7 +742,7 @@ msgstr "競技ノート"
 
 #: ../../source/devices/huskylens/huskylens.rst:404
 msgid "1. Team Prop"
-msgstr "1. チームプロップ"
+msgstr "1. Team Prop"
 
 #: ../../source/devices/huskylens/huskylens.rst:406
 msgid ""
@@ -771,7 +773,7 @@ msgid ""
 "In this game, the Competition Manual specifically allowed the Team Prop to "
 "be a different shade of Red or Blue, compared to the official tape color of "
 "Spike Marks."
-msgstr "このゲームでは、競技マニュアルはチームプロップがスパイクマークの公式テープ色と異なる赤や青の濃さであることを特別に許可していました。"
+msgstr "このゲームでは、競技マニュアルはTeam Propがスパイクマークの公式テープ色と異なる赤や青の濃さであることを特別に許可していました。"
 
 #: ../../source/devices/huskylens/huskylens.rst:424
 msgid "3. Lighting"
@@ -789,7 +791,7 @@ msgid ""
 "Prop (Team Game Element) on the Spike Mark, and the HuskyLens in its planned"
 " match start position, “on-robot”."
 msgstr ""
-"このため、競技トレーニングはIdeallyスパイクマーク（Spike Mark）上のチームプロップ（Team "
+"このため、競技トレーニングはIdeallyスパイクマーク（Spike Mark）上のTeam Prop（Team "
 "Prop）と、計画されたマッチ開始位置である「ロボット上」に設置したHuskyLensを使用して行うことが望ましいです。"
 
 #: ../../source/devices/huskylens/huskylens.rst:433
@@ -834,7 +836,7 @@ msgstr "例えば、重要な認識が発生した場合、「isPropDetected」�
 msgid ""
 "You might also evaluate and store which randomized Spike Mark (red or blue "
 "tape stripe) holds the Team Prop."
-msgstr "チームプロップを保持しているランダム化されたスパイクマーク（赤い帯または青い帯）も評価し、保存するかもしれません。"
+msgstr "Team Propを保持しているランダム化されたスパイクマーク（赤い帯または青い帯）も評価し、保存するかもしれません。"
 
 #: ../../source/devices/huskylens/huskylens.rst:456
 msgid ""

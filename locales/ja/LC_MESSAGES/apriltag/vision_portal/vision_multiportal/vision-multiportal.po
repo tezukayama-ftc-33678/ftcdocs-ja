@@ -91,7 +91,8 @@ msgid ""
 "understanding of the Blocks and Java methods to create and operate multiple "
 "camera streams at the same time."
 msgstr ""
-"こちらがそのテストOpModeの画像です。精密に研究することで、複数のカメラストリームを同時に作成・操作するためのブロックとJavaメソッドの理解が深まります。"
+"こちらがそのテストOpModeの画像です。精密に研究することで、複数のCamera "
+"Streamを同時に作成・操作するためのブロックとJavaメソッドの理解が深まります。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:41
 msgid ""
@@ -147,7 +148,7 @@ msgid ""
 "characteristic <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/issues/585>`__)."
 msgstr ""
-"DSカメラストリームのプレビューは、同時にOnly one camera's view（既知の特性`参照 "
+"DSCamera Streamのプレビューは、同時にOnly one camera's view（既知の特性`参照 "
 "<https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController/issues/585>`__）を表示できます。"
 

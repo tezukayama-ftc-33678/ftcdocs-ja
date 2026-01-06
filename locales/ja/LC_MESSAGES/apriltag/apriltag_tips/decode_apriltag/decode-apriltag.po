@@ -111,7 +111,9 @@ msgid ""
 "hosted, and on a sunny day light can interfere with a camera's ability to "
 "view an AprilTag. What can be done?"
 msgstr ""
-"倉庫内で素晴らしい例が発生しました。DECODEフィールドは、デフォルト設定を使用して「ConceptAprilTagEasy」サンプルで設定されました。カメラストリームプレビューを確認すると、晴れた日でOBELISKに直射日光が当たっており、その結果、AprilTagが完全に見えなくなっていました。これによりAprilTagが見つからない状況となりました。別の角度から撮影された写真ではAprilTagは見えるものの、反射光が多すぎており、認識されません。このシナリオは、グラウンドでイベントが開催される体育館と非常に似ており、晴れた日にはカメラがAprilTagを正しく観測できない状況になります。何ができるでしょうか？"
+"倉庫内で素晴らしい例が発生しました。DECODEフィールドは、デフォルト設定を使用して「ConceptAprilTagEasy」サンプルで設定されました。Camera"
+" "
+"Streamプレビューを確認すると、晴れた日でOBELISKに直射日光が当たっており、その結果、AprilTagが完全に見えなくなっていました。これによりAprilTagが見つからない状況となりました。別の角度から撮影された写真ではAprilTagは見えるものの、反射光が多すぎており、認識されません。このシナリオは、グラウンドでイベントが開催される体育館と非常に似ており、晴れた日にはカメラがAprilTagを正しく観測できない状況になります。何ができるでしょうか？"
 
 #: ../../source/apriltag/apriltag_tips/decode_apriltag/decode-apriltag.rst:62
 msgid "Image #1 - Example"

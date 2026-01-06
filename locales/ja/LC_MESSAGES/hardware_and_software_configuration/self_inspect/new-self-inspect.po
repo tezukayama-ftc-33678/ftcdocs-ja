@@ -33,7 +33,7 @@ msgid ""
 "app and the FTC Robot Controller (RC) app."
 msgstr ""
 "このページでは、FIRST Tech Challenge（FTC）Driver Station（DS）アプリとRobot "
-"Controller（RC）アプリのセルフインスペクト画面について説明します。"
+"Controller（RC）アプリのSelf Inspect画面について説明します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:10
 msgid ""
@@ -566,7 +566,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:183
 msgid "Self Inspect QR code"
-msgstr "セルフインスペクトQRコード"
+msgstr "Self InspectQRコード"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:183
 msgid "The robot inspector may scan the QR Code during inspection"

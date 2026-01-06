@@ -57,7 +57,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:22
 msgid ""
 "**Camera Stream** on Driver Station (DS) device – DS phone or Driver Hub"
-msgstr "**カメラストリーム** はDriver Station（DS）デバイス - DSスマホまたはDriver Hubにあります。"
+msgstr "**Camera Stream** はDriver Station（DS）デバイス - DSスマホまたはDriver Hubにあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
 msgid ""
@@ -66,8 +66,8 @@ msgid ""
 "normally even if LiveView is stopped (manually or automatically)."
 msgstr ""
 "LiveViewは、 ** Robot Controller ** "
-"のプレビュー（上記の例参照）に限定されます。LiveViewが停止された場合（手動または自動で）、 ** Driver Stationカメラストリーム "
-"** は通常通り動作します。"
+"のプレビュー（上記の例参照）に限定されます。LiveViewが停止された場合（手動または自動で）、 ** Driver StationCamera "
+"Stream ** は通常通り動作します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:29
 msgid ""
@@ -75,7 +75,8 @@ msgid ""
 "<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:image preview>`."
 msgstr ""
-"Dsカメラストリームの視聴方法については、:ref:`こちら<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
+"DsCamera "
+"Streamの視聴方法については、:ref:`こちら<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:image preview>` で説明しています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:32
@@ -86,7 +87,7 @@ msgid ""
 "**Managing CPU and Bandwidth** page, and the **VisionPortal Camera "
 "Controls** page."
 msgstr ""
-"カメラストリームは独自のフレーム収集プロセスを使用し、自然にカメラ/パイプライン状態が ``STREAMING`` "
+"Camera Streamは独自のフレーム収集プロセスを使用し、自然にカメラ/パイプライン状態が ``STREAMING`` "
 "であることを必要とします。ストリームを無効にすると、DSプレビューが制御不能になります。カメラ状態については ** CPUと帯域幅の管理 ** "
 "ページおよび ** VisionPortal カメラコントロール ** ページで詳しく説明されています。"
 
@@ -138,14 +139,16 @@ msgid ""
 "for webcam. Changing values of Exposure and Gain, for example, do affect the"
 " displayed image and the actual recognitions."
 msgstr ""
-"ライブビューおよびカメラストリームの画像は、ウェブカメラの場合、カメラコントロールによって両方とも影響を受けます。露出やゲインなどの値を変更すると、表示される画像と実際の認識に影響が及ぶことがあります。"
+"ライブビューおよびCamera "
+"Streamの画像は、ウェブカメラの場合、カメラコントロールによって両方とも影響を受けます。露出やゲインなどの値を変更すると、表示される画像と実際の認識に影響が及ぶことがあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:62
 msgid ""
 "During Camera Stream, manual adjustments to Camera Controls cannot be made "
 "in real time (with visible feedback) since gamepads are disabled."
 msgstr ""
-"カメラストリーム中に、ゲームパッドが無効化されるため、カメラコントロールへのリアルタイムの手動調整は見えないフィードバックと共に実行できません。"
+"Camera "
+"Stream中に、ゲームパッドが無効化されるため、カメラコントロールへのリアルタイムの手動調整は見えないフィードバックと共に実行できません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:65
 msgid ""
@@ -155,7 +158,8 @@ msgid ""
 "efficient."
 msgstr ""
 "そのため、AprilTagやColor "
-"Processingの認識をカメラ制御で最適化したいチームは、「scrcpy」やHDMIモニターを使用することをお勧めします。これを行うにはカメラストリーム（「往復」）を使うと効果的ではなく、効率も低くなります。"
+"Processingの認識をカメラ制御で最適化したいチームは、「scrcpy」やHDMIモニターを使用することをお勧めします。これを行うにはCamera"
+" Stream（「往復」）を使うと効果的ではなく、効率も低くなります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:69
 msgid ""
@@ -179,11 +183,11 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:84
 msgid "Camera Stream Full Screen"
-msgstr "カメラストリーム 全画面表示"
+msgstr "Camera Stream 全画面表示"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:84
 msgid "Camera Stream preview enlargement buttons"
-msgstr "カメラストリームプレビューの拡大ボタン"
+msgstr "Camera Streamプレビューの拡大ボタン"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:87
 msgid ""

@@ -179,17 +179,18 @@ msgid ""
 "The Driver Station (DS) \"snapshot\" preview is available at the ``Camera "
 "Stream`` menu choice, with the OpMode in INIT."
 msgstr ""
-"Driver Station（DS）の「スナップショット」プレビューは、OpModeがINIT状態のとき、「カメラストリーム」メニューから利用できます。"
+"Driver Station（DS）の「スナップショット」プレビューは、OpModeがINIT状態のとき、「Camera "
+"Stream」メニューから利用できます。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
 msgid ""
 "Image showing circle fit camera stream output on Driver Station App with "
 "purple artifact"
-msgstr "ドライバー ステーション アプリ上で紫色のアーテファットが含まれた円 fitting カメラストリーム出力を示す画像"
+msgstr "ドライバー ステーション アプリ上で紫色のアーテファットが含まれた円 fitting Camera Stream出力を示す画像"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
 msgid "Driver Station Camera Stream Image showing a successful Circle Fit"
-msgstr "Driver Stationカメラストリーム画像に、円 fitting が成功した状態を表示します"
+msgstr "Driver StationCamera Stream画像に、円 fitting が成功した状態を表示します"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:68
 msgid ""
