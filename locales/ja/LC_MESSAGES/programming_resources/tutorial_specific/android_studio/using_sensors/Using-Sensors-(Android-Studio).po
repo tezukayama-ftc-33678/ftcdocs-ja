@@ -35,7 +35,7 @@ msgid ""
 "station."
 msgstr ""
 "センサーは、ロボットコントローラが環境について情報を得られるようにする装置です。この例では、REV RoboticsのColor-"
-"Distanceセンサーを使用して、オブジェクトからの距離（範囲）情報をお手元のドライバーステーションに表示します。"
+"Distanceセンサーを使用して、オブジェクトからの距離（範囲）情報をお手元のDriver Stationに表示します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst:12
 msgid ""
@@ -52,7 +52,7 @@ msgstr ""
 msgid ""
 "Modify your op mode to add a telemetry statement that will send the distance"
 " information (in centimeters) to the Driver Station."
-msgstr "OpModeを修改し、距離情報（センチメートル単位）をドライバーステーションに送信するテレメトリステートメントを追加してください。"
+msgstr "OpModeを修改し、距離情報（センチメートル単位）をDriver Stationに送信するテレメトリステートメントを追加してください。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst:31
 msgid ""
@@ -64,8 +64,8 @@ msgid ""
 "cm."
 msgstr ""
 "あなたがOpModeを修正した後、更新されたRobot "
-"Controllerアプリケーションをビルドしてインストールし、その後、OpModeを実行して、ドライバーステーション上で距離が表示されることを確認してください。なお、「NaN」（「Not"
-" a "
+"Controllerアプリケーションをビルドしてインストールし、その後、OpModeを実行して、Driver "
+"Station上で距離が表示されることを確認してください。なお、「NaN」（「Not a "
 "Number」という意味）が表示されている場合、センサーがターゲットからあまり遠いか、反射率がゼロである可能性が高いことをご了承ください。また、センサーは約5"
 " cmで飽和するのでご注意ください。"
 

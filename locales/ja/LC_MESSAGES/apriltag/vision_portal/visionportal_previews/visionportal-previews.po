@@ -57,7 +57,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:22
 msgid ""
 "**Camera Stream** on Driver Station (DS) device – DS phone or Driver Hub"
-msgstr "**カメラストリーム** はドライバーステーション（DS）デバイス - DSスマホまたはドライバーハブにあります。"
+msgstr "**カメラストリーム** はDriver Station（DS）デバイス - DSスマホまたはドライバーハブにあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:25
 msgid ""
@@ -66,8 +66,8 @@ msgid ""
 "normally even if LiveView is stopped (manually or automatically)."
 msgstr ""
 "LiveViewは、 ** Robot Controller ** "
-"のプレビュー（上記の例参照）に限定されます。LiveViewが停止された場合（手動または自動で）、 ** ドライバーステーションカメラストリーム ** "
-"は通常通り動作します。"
+"のプレビュー（上記の例参照）に限定されます。LiveViewが停止された場合（手動または自動で）、 ** Driver Stationカメラストリーム "
+"** は通常通り動作します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_previews/visionportal-previews.rst:29
 msgid ""

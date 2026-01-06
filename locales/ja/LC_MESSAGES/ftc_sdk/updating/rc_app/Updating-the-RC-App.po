@@ -182,7 +182,7 @@ msgstr "コンピュータ上の管理ページ"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:80
 msgid "Manage page on DS phone or Driver Hub"
-msgstr "ドライバーステーションのスマホやドライバーハブから管理ページ"
+msgstr "Driver Stationのスマホやドライバーハブから管理ページ"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:83
 msgid ""
@@ -214,8 +214,8 @@ msgid ""
 "required DS update file was previously downloaded."
 msgstr ""
 "ここではコンピュータがインターネットに接続する必要はありません。:doc:`REVハードウェアクライアントの更新 "
-"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` "
-"で必要なドライバーステーション（Driver Station）更新ファイルを事前にダウンロードしたためです。"
+"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` で必要なDriver"
+" Station（Driver Station）更新ファイルを事前にダウンロードしたためです。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:97
 msgid "The RHC app will recognize the Control Hub, as shown here:"
@@ -408,8 +408,8 @@ msgid ""
 "Touch “Select App…”. Navigate to the DS device’s Download folder, and select"
 " the latest RC APK file."
 msgstr ""
-"「Select App...」ボタンをタッチしてください。その後、ドライバーステーションのDSデバイスのダウンロードフォルダに移動し、「最新のRC "
-"APKファイル」を選択してください。"
+"「Select App...」ボタンをタッチしてください。その後、Driver StationのDSデバイスのダウンロードフォルダに移動し、「最新のRC"
+" APKファイル」を選択してください。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:212
 msgid "Now touch the “Update” button (green arrow, above)."
@@ -442,7 +442,7 @@ msgid ""
 "device, **does not** offer updating an RC app on a connected Robot "
 "Controller phone."
 msgstr ""
-"コンピュータまたはドライバーステーションデバイスの「管理」ページ、プログラムと管理の下で、「RC アプリケーションを接続されたRobot "
+"コンピュータまたはDriver Stationデバイスの「管理」ページ、プログラムと管理の下で、「RC アプリケーションを接続されたRobot "
 "Controllerのスマホに更新する機能」は **ありません** 。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:235

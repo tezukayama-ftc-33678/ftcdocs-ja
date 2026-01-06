@@ -34,7 +34,7 @@ msgid ""
 "inspect<new-self-inspect>` page for screen images for version 10.3 or "
 "better."
 msgstr ""
-"このページでは、FTCドライバーステーション（DS）アプリとFTCRobot Controller（RC）アプリの古いSelf "
+"このページでは、FTCDriver Station（DS）アプリとFTCRobot Controller（RC）アプリの古いSelf "
 "Inspect画面について説明しています。バージョン10.3以降の画面イメージについては、 :doc:`新しいSelf Inspect<new-"
 "self-inspect>` ページをご覧ください。"
 
@@ -138,11 +138,11 @@ msgstr "FTC制御デバイスはこれらの組み合わせを使用できます
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:55
 msgid "DS phone, RC phone"
-msgstr "ドライバーステーションスマホ、ロボットコントローラスマホ"
+msgstr "Driver Stationスマホ、ロボットコントローラスマホ"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:56
 msgid "DS phone, Control Hub"
-msgstr "ドライバーステーションスマホ、Control Hub"
+msgstr "Driver Stationスマホ、Control Hub"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:57
 msgid "Driver Hub, RC phone"
@@ -234,7 +234,7 @@ msgstr "「RC 自己検査 4」__、RC フォンにペアリングされたド�
 msgid ""
 "`RC Self Inspect 5 <#rc-self-inspect-5-appearing-on-ds-phone-paired-to-"
 "control-hub>`__, appearing on DS phone paired to Control Hub"
-msgstr "「RC 自己検査 5」__、Control Hubにペアリングされたドライバーステーションのスマホに表示"
+msgstr "「RC 自己検査 5」__、Control HubにペアリングされたDriver Stationのスマホに表示"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:96
 msgid ""
@@ -262,7 +262,7 @@ msgstr "DS 自己検査 1、RCスマホとペアリングされたDSスマホ上
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:113
 msgid "DS 1"
-msgstr "ドライバーステーション 1"
+msgstr "Driver Station 1"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:115
 msgid ""
@@ -311,7 +311,7 @@ msgid ""
 msgstr ""
 "Item 11は、 **デバイスのWi-Fi Direct名** "
 "がFTC形式要件を満たしているかどうかを示しています。ペアリングされたデバイスが一致するRC名（チーム番号）を持っているかどうかはチェックしていません。この場合、スマホは法的に2468-A-DSと2468-A-RCと名付けられています。DRIVER"
-" STATION NAME (ドライバーステーション名)設定では、みずからFTC法的な名前のみを許容しますが、どの名前でもDRIVER "
+" STATION NAME (Driver Station名)設定では、みずからFTC法的な名前のみを許容しますが、どの名前でもDRIVER "
 "STATIONのスマホのAndroid Wi-Fi Direct設定に入力できます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:134
@@ -334,11 +334,11 @@ msgstr "こちらはSelf Inspectで多くの項目が **拒否** された同じ
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:149
 msgid "DS 1 Bad"
-msgstr "ドライバーステーション 1 不正"
+msgstr "Driver Station 1 不正"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:149
 msgid "DS Self Inspect 1, on DS phone – with issues!"
-msgstr "ドライバーステーション自検1、DSの携帯スマホから – 問題があります！"
+msgstr "Driver Station自検1、DSの携帯スマホから – 問題があります！"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:151
 msgid ""
@@ -411,8 +411,9 @@ msgid ""
 "(Driver Station Name)."
 msgstr ""
 "アイテム11は、デバイスの **Wi-Fiダイレクト名** "
-"がFTCフォーマット要件を満たしていないため、この不良な名前を拒否します。ここに表示された不良な名前は、ドライバーステーションスマホのAndroid "
-"Wi-Fiダイレクト設定で作成されたものであり、アプリケーションのDS設定（ドライバーステーション名）では不可能です。"
+"がFTCフォーマット要件を満たしていないため、この不良な名前を拒否します。ここに表示された不良な名前は、Driver "
+"StationスマホのAndroid Wi-Fiダイレクト設定で作成されたものであり、アプリケーションのDS設定（Driver "
+"Station名）では不可能です。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:181
 msgid ""
@@ -425,11 +426,11 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:186
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:193
 msgid "DS Self Inspect 2, on DS phone paired to Control Hub"
-msgstr "ドライバーステーション自検 2, Control HubにペアリングされたDSスマホ"
+msgstr "Driver Station自検 2, Control HubにペアリングされたDSスマホ"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:193
 msgid "DS 2"
-msgstr "ドライバーステーション 2"
+msgstr "Driver Station 2"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:195
 msgid ""
@@ -470,7 +471,7 @@ msgstr "ドライバーシステム自検 3、ドライバーHUBとロボット�
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:218
 msgid "DS 3a"
-msgstr "ドライバーステーション 3a"
+msgstr "Driver Station 3a"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:220
 msgid ""
@@ -561,7 +562,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:273
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:294
 msgid "DS Self Inspect 4, on Driver Hub paired to Control Hub"
-msgstr "ドライバーhubにペアリングされたコントロールhubと連携した自走検査4、ドライバーステーション"
+msgstr "ドライバーhubにペアリングされたコントロールhubと連携した自走検査4、Driver Station"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:273
 msgid "DS 4b"
@@ -590,7 +591,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:294
 msgid "DS 4a"
-msgstr "ドライバーステーション 4a"
+msgstr "Driver Station 4a"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:296
 msgid ""
@@ -656,7 +657,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:332
 msgid ""
 "Item 15 verifies that the RC device does **not** have an DS app installed."
-msgstr "アイテム15は、RCデバイスにドライバーステーションアプリが **インストールされていないことを確認** します。"
+msgstr "アイテム15は、RCデバイスにDriver Stationアプリが **インストールされていないことを確認** します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:336
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:343
@@ -771,7 +772,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:408
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:418
 msgid "RC Self Inspect 5, appearing on DS phone paired to Control Hub"
-msgstr "REV 自己点検 5、Control Hubにペアリングされたドライバーステーションのスマホで表示"
+msgstr "REV 自己点検 5、Control HubにペアリングされたDriver Stationのスマホで表示"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:410
 msgid ""
@@ -923,7 +924,7 @@ msgid ""
 "Lastly… with no active connection, a DS device cannot display any "
 "information about the RC device status."
 msgstr ""
-"最後に…有効な接続がない場合、ドライバーステーション（DS）装置はロボットコントローラ（RC）装置の状態について何らかの情報も表示できません。"
+"最後に…有効な接続がない場合、Driver Station（DS）装置はロボットコントローラ（RC）装置の状態について何らかの情報も表示できません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:491
 msgid "Summary"

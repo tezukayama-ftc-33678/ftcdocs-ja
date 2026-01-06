@@ -246,7 +246,7 @@
                :outline:
                :expand:
 
-               ドライバーステーション
+               Driver Station
 
          .. div:: col-sm pl-1 pr-1
       
@@ -256,7 +256,7 @@
                :outline:
                :expand:
 
-               ロボットコントローラー
+               Robot Controller
 
          .. div:: col-sm pl-1 pr-1
       

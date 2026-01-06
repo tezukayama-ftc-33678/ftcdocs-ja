@@ -228,7 +228,7 @@ msgstr ""
 msgid ""
 "Driver Station screen shot showing the menu with the Camera Stream option "
 "circled in yellow."
-msgstr "ドライバーステーションのスクリーンショットに、カメラストリームオプションが黄色で囲われたメニューが表示されています。"
+msgstr "Driver Stationのスクリーンショットに、カメラストリームオプションが黄色で囲われたメニューが表示されています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:109
 msgid ""
@@ -236,11 +236,12 @@ msgid ""
 "the image to refresh it. To preserve bandwidth, only one frame is sent at a "
 "time."
 msgstr ""
-"カメラ画像はドライバーステーションの画面に表示されます。画像を手動でタッチして更新してください。帯域幅を保存するため、一度に1フレームだけが送信されます。"
+"カメラ画像はDriver "
+"Stationの画面に表示されます。画像を手動でタッチして更新してください。帯域幅を保存するため、一度に1フレームだけが送信されます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:-1
 msgid "Driver Station screen shot showing the camera image."
-msgstr "ドライバーステーションのスクリーンショットにカメラ画像が表示されています。"
+msgstr "Driver Stationのスクリーンショットにカメラ画像が表示されています。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:116
 msgid ""
@@ -315,8 +316,8 @@ msgid ""
 "Manual does not allow teams to have any devices other than the DRIVER "
 "STATION connected to your Control Hub during a match."
 msgstr ""
-"scrcpyはカメラ出力を確認するための素晴らしい方法ですが、競技マニュアルでは、マッチ中にはControl "
-"Hubにドライバーステーション以外のデバイスを接続することは許可されていません。"
+"scrcpyはカメラ出力を確認するための素晴らしい方法ですが、競技マニュアルでは、マッチ中にはControl HubにDriver "
+"Station以外のデバイスを接続することは許可されていません。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-external-webcam.rst:159
 msgid "External HDMI Monitor"

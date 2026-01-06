@@ -64,8 +64,8 @@ msgid ""
 "that the DRIVER STATION is currently paired to the Robot Controller."
 msgstr ""
 "もしロボットコントローラとしてAndroidスマートフォンを使用している場合、ロボットコントローラ用のスマートフォンはUSBケーブルとOn-The-"
-"Go（OTG）アダプターを使ってExpansion "
-"Hubに物理的に接続する必要があります。また、ドライバーステーションが現在ロボットコントローラとペアリングされていることを確認してください。"
+"Go（OTG）アダプターを使ってExpansion Hubに物理的に接続する必要があります。また、Driver "
+"Stationが現在ロボットコントローラとペアリングされていることを確認してください。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:30
 msgid "Connecting an Android Smartphone to an Expansion Hub Instructions"
@@ -155,7 +155,7 @@ msgstr "Robot ControllerのDRIVER STATIONを使用してコンフィギュレー
 msgid ""
 "1. Touch the three vertical dots in the upper right hand corner of the "
 "Driver Station app. This will launch a pop-up menu."
-msgstr "1. ドライバーステーションアプリの右上隅にある3本の垂直線をタッチしてください。これにより、ポップアップメニューが表示されます。"
+msgstr "1. Driver Stationアプリの右上隅にある3本の垂直線をタッチしてください。これにより、ポップアップメニューが表示されます。"
 
 #: ../../source/hardware_and_software_configuration/configuring/getting_started/getting-started.rst:106
 msgid ""

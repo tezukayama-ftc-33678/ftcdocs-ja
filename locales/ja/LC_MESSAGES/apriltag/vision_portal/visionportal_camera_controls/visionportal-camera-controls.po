@@ -133,7 +133,7 @@ msgid ""
 "recognitions) and preview (RC preview and DS Camera Stream)"
 msgstr ""
 "``ストリーミング`` - フレームは処理（AprilTagやTFODの認識）とプレビュー（Robot "
-"Controllerのカメラストリームとドライバーステーションのカメラストリーム）のために利用可能です"
+"ControllerのカメラストリームとDriver Stationのカメラストリーム）のために利用可能です"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:52
 msgid ""
@@ -171,7 +171,7 @@ msgstr "https://github.com/Genymobile/scrcpy"
 msgid ""
 "or an HDMI monitor. Optimizing via DS Camera Stream will be less effective "
 "and less efficient."
-msgstr "またはHDMIモニターを使用する。ドライバーステーションカメラストリーム経由での最適化は効果的でないし、効率も悪い。"
+msgstr "またはHDMIモニターを使用する。Driver Stationカメラストリーム経由での最適化は効果的でないし、効率も悪い。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:71
 msgid ""
@@ -446,9 +446,9 @@ msgid ""
 "HDMI monitor into the Control Hub HDMI port, or use an external viewer "
 "program like scrcpy (https://scrcpy.org/)*"
 msgstr ""
-"* これを実行するには、Robot "
-"Controller画面を直接確認する必要があります（ドライバーステーションからではなく）。RCスマホの画面から直接確認できます（外部ウェブカムを使用している場合）、しかしControl"
-" Hubの場合、HDMIモニターをControl "
+"* これを実行するには、Robot Controller画面を直接確認する必要があります（Driver "
+"Stationからではなく）。RCスマホの画面から直接確認できます（外部ウェブカムを使用している場合）、しかしControl "
+"Hubの場合、HDMIモニターをControl "
 "HubのHDMIポートに接続するか、scrcpyなどの外部ビューワープログラム（https://scrcpy.org/）を使用する必要があります。*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:216

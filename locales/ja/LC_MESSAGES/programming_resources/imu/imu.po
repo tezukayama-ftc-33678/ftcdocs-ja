@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../source/programming_resources/imu/imu.rst:38
 msgid "connected Driver Station (DS) app"
-msgstr "接続されたドライバーステーション(DS)アプリ"
+msgstr "接続されたDriver Station(DS)アプリ"
 
 #: ../../source/programming_resources/imu/imu.rst:39
 msgid ""
@@ -340,7 +340,7 @@ msgid ""
 "Hub Portal``, then select the Hub with the IMU you want to use. Typically "
 "this will be the Control Hub, whether old or new."
 msgstr ""
-"接続されたドライバーステーション（Driver "
+"接続されたDriver Station（Driver "
 "Station）アプリケーションで、右上の3点線アイコンをタッチし、「ロボット設定」をタッチしてください。新しい設定または既存の設定がある場合は、「Control"
 " Hubポータル」をタッチし、使用するIMUが搭載されているハブを選択します。通常、これは古いものであれ新しいものであれ、Control "
 "Hub（Control Hub）になります。"
@@ -1142,7 +1142,7 @@ msgstr "角度を抽出する"
 msgid ""
 "These Blocks are used here in a Repeat Loop, to display the angles on the "
 "Driver Station:"
-msgstr "これらのブロックは、ここではREVループで使用され、ドライバーステーションに角度を表示します："
+msgstr "これらのブロックは、ここではREVループで使用され、Driver Stationに角度を表示します："
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "Displaying YPR using Telemetry"

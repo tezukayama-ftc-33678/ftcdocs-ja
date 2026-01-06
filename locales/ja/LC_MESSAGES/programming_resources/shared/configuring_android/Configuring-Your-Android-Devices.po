@@ -78,7 +78,7 @@ msgid ""
 "Install the Driver Station (DS) app onto the DRIVER STATION device. (The DS "
 "app is pre-installed on the REV Robotics Driver Hub.)"
 msgstr ""
-"DRIVER STATIONデバイスにドライバーステーション（DS）アプリをインストールしてください。（REV Robotics Driver "
+"DRIVER STATIONデバイスにDriver Station（DS）アプリをインストールしてください。（REV Robotics Driver "
 "Hubには事前にDSアプリがインストールされています。）"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:27
@@ -113,7 +113,8 @@ msgid ""
 "smartphone for use as an DRIVER STATION. The process is as follows,"
 msgstr ""
 "チームは、2台のスマートフォンを持ち且つControl "
-"Hubを使用していない場合、1台のスマートフォンをロボットコントローラとして設定し、もう1台のスマートフォンをドライバーステーションとして設定する必要があります。プロセスは以下の通りです。"
+"Hubを使用していない場合、1台のスマートフォンをロボットコントローラとして設定し、もう1台のスマートフォンをDriver "
+"Stationとして設定する必要があります。プロセスは以下の通りです。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:48
 msgid ""
@@ -137,7 +138,7 @@ msgid ""
 "Install the Driver Station app onto the DRIVER STATION device. (The DS app "
 "is pre-installed on the REV Robotics Driver Hub.)"
 msgstr ""
-"DRIVER STATIONデバイスにドライバーステーションアプリをインストールしてください。(REVロボティクス "
+"DRIVER STATIONデバイスにDriver Stationアプリをインストールしてください。(REVロボティクス "
 "ドライバーハブにはDSアプリが事前にインストールされています。)"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:52
@@ -175,7 +176,8 @@ msgid ""
 "phones for this team."
 msgstr ""
 "例えば、チームがチーム番号が9999で複数のスマホがある場合、そのチームはRobot "
-"Controller用に「9999-C-RC」と命名し、ドライバーステーション用に「9999-C-DS」と命名するかもしれません。「-C」はこれらのデバイスがこのチームの第三セットのスマホであることを示します。"
+"Controller用に「9999-C-RC」と命名し、Driver "
+"Station用に「9999-C-DS」と命名するかもしれません。「-C」はこれらのデバイスがこのチームの第三セットのスマホであることを示します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:76
 msgid ""
@@ -456,7 +458,7 @@ msgstr ""
 "をインストールして実行しているPCにデバイスを接続するだけで、ソフトウェアは接続されたハードウェアを検出します。検出後、REV Hardware "
 "Client は`REV Robotics Control Hub上のロボットコントローラ（RC）アプリの更新 "
 "<https://docs.revrobotics.com/rev-hardware-client/control-hub/updating-"
-"control-hub>`__、`REV Robotics ドライバーハブ上のドライバーステーション（DS）アプリの更新 "
+"control-hub>`__、`REV Robotics ドライバーハブ上のDriver Station（DS）アプリの更新 "
 "<https://docs.revrobotics.com/rev-hardware-client/driver-hub/updating-a-"
 "driver-hub>`__ 、または`ファームウェアの更新 <https://docs.revrobotics.com/rev-hardware-"
 "client/expansion-hub/updating-expansion-hub>`__ を実行できます。"
@@ -611,7 +613,7 @@ msgstr "|airplane2|"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:261
 msgid "Pairing the DRIVER STATION to the Robot Controller"
-msgstr "ドライバーステーションとロボットコントローラのペアリング"
+msgstr "Driver Stationとロボットコントローラのペアリング"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:266
 msgid "Control Hub Pairing"
@@ -723,9 +725,8 @@ msgid ""
 "green. Note: the light blinks blue every ~5 seconds to indicate that the "
 "Control Hub is healthy."
 msgstr ""
-"Control Hubが電源を入れるのに約18秒かかります。LEDが緑色に光ったときには、Control "
-"Hubはドライバーステーションとのペアリングが可能です。注意：Control Hubが正常であることを示すために、約5秒ごとに青色で blink "
-"します。"
+"Control Hubが電源を入れるのに約18秒かかります。LEDが緑色に光ったときには、Control HubはDriver "
+"Stationとのペアリングが可能です。注意：Control Hubが正常であることを示すために、約5秒ごとに青色で blink します。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:314
 msgid "|pairing2|"
@@ -749,7 +750,7 @@ msgstr "|pairing3|"
 msgid ""
 "Touch the three vertical dots on the upper right hand corner of the main "
 "screen of the Driver Station app. This will launch a pop-up menu."
-msgstr "ドライバーステーションアプリのメイン画面右上にある三本線をタッチしてください。これでポップアップメニューが表示されます。"
+msgstr "Driver Stationアプリのメイン画面右上にある三本線をタッチしてください。これでポップアップメニューが表示されます。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:320
 msgid "|pairing4|"
@@ -1058,7 +1059,8 @@ msgid ""
 "the main DRIVER STATION screen."
 msgstr ""
 "Robot "
-"Controllerの名前をリストから見つけて選択してください。選択が完了したら、戻る矢印キーを使用して設定画面に戻ります。その後、もう一度戻る矢印キーを押してドライバーステーションのメイン画面に戻ってください。"
+"Controllerの名前をリストから見つけて選択してください。選択が完了したら、戻る矢印キーを使用して設定画面に戻ります。その後、もう一度戻る矢印キーを押してDriver"
+" Stationのメイン画面に戻ってください。"
 
 #: ../../source/programming_resources/shared/configuring_android/Configuring-Your-Android-Devices.rst:424
 msgid "|pairingns9|"

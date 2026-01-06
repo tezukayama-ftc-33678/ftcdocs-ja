@@ -50,8 +50,8 @@ msgid ""
 " OpMode. If desired, you could observe this by sending Telemetry to the "
 "Driver Station."
 msgstr ""
-"Androidは通常、各OpModeの実行ごとに異なるViewport "
-"ID番号を割り当てます。必要であれば、テレメトリをドライバーステーションに送信して確認できます。"
+"Androidは通常、各OpModeの実行ごとに異なるViewport ID番号を割り当てます。必要であれば、テレメトリをDriver "
+"Stationに送信して確認できます。"
 
 #: ../../source/apriltag/vision_portal/vision_multiportal/vision-multiportal.rst:20
 msgid ""

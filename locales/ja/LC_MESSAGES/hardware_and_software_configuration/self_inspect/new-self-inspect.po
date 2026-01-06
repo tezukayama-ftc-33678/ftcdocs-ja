@@ -32,7 +32,7 @@ msgid ""
 "This page describes the Self Inspect screens in the FTC Driver Station (DS) "
 "app and the FTC Robot Controller (RC) app."
 msgstr ""
-"このページでは、FIRST Tech Challenge（FTC）ドライバーステーション（DS）アプリとRobot "
+"このページでは、FIRST Tech Challenge（FTC）Driver Station（DS）アプリとRobot "
 "Controller（RC）アプリのセルフインスペクト画面について説明します。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:10
@@ -132,7 +132,7 @@ msgid ""
 "versions 10.2 or earlier."
 msgstr ""
 "このページの画像は、FTCアプリケーションのバージョン10.3以降を示しています。このページではドライバーハブとControl "
-"Hubがペアになった状態のみを表示しており、ドライバーステーションやRobot "
+"Hubがペアになった状態のみを表示しており、Driver StationやRobot "
 "Controllerとして携帯スマホを使用した場合にわずかな違いがある可能性があります。アプリケーションバージョン10.2以前のスクリーンショットについては"
 " :doc:`old self-inspect<self-inspect>` ページをご覧ください。"
 
@@ -171,8 +171,8 @@ msgid ""
 "and minor values to ensure compatibility as not all software versions are "
 "compatible with each other."
 msgstr ""
-"選択されたバージョンに関係なく、インストールされたRobot "
-"Controllerアプリケーションとドライバーステーションアプリケーションのバージョンは、メジャーやマイナーバージョンが一致していることを推奨します。すべてのソフトウェアバージョンが互換性があるわけではなく、不具合を避けるためにバージョンの互換性を確認してください。"
+"選択されたバージョンに関係なく、インストールされたRobot ControllerアプリケーションとDriver "
+"Stationアプリケーションのバージョンは、メジャーやマイナーバージョンが一致していることを推奨します。すべてのソフトウェアバージョンが互換性があるわけではなく、不具合を避けるためにバージョンの互換性を確認してください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:63
 msgid ""
@@ -194,7 +194,7 @@ msgstr "フィールドスタッフは、推奨バージョンより古いソフ
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:71
 msgid "Driver Station Self Inspection Report"
-msgstr "ドライバーステーション自検査報告書"
+msgstr "Driver Station自検査報告書"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:73
 msgid ""
@@ -207,7 +207,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:80
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:123
 msgid "Driver station self inspection report"
-msgstr "ドライバーステーションの自検診報告書"
+msgstr "Driver Stationの自検診報告書"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:80
 msgid "All items are good"
@@ -224,7 +224,7 @@ msgid ""
 "DS."
 msgstr ""
 "アイテム1 三つの点はメニューで、二つの選択肢があります：「Wi-Fi Directから切断」および「Bluetoothを無効にする」。これらは "
-"Driver Hub が Control Hub にペアリングされている場合に必要ない可能性が高いです。主にドライバーステーションやRobot "
+"Driver Hub が Control Hub にペアリングされている場合に必要ない可能性が高いです。主にDriver StationやRobot "
 "Controllerとして使用できる携帯スマホ用のものが多いです。「Wi-Fi "
 "Directから切断」は機能しますが、時々アプリは自動的に再ペアリングされることがあります。「Bluetoothを無効にする」は、DS 上で "
 "Bluetooth がどうか有効になっていた場合にのみ必要となるでしょう。"
@@ -304,7 +304,8 @@ msgid ""
 "Inspection Report."
 msgstr ""
 "Item 12は「Robot Controller Name」を表示します。接続されていない場合は ** None ** が表示されます。Robot "
-"Controllerとドライバーステーションのチーム番号部分が一致しない場合、エラーが表示されます。RC名がFTCフォーマットの要件に適合しているかどうかはチェックしていません。Robot"
+"ControllerとDriver "
+"Stationのチーム番号部分が一致しない場合、エラーが表示されます。RC名がFTCフォーマットの要件に適合しているかどうかはチェックしていません。Robot"
 " Controller Self Inspection Reportを参照してください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:103
@@ -329,9 +330,11 @@ msgid ""
 "that \"The Driver Station app is obsolete\". Correcting the date on the "
 "device should fix the invalid inspection item."
 msgstr ""
-"Item 14 アプリケーションインストール ``ドライバーステーション`` には、ドライバーステーションアプリのバージョン番号が表示されるべきです。 "
-"*FIRST* "
-"はチームに現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。デバイスシステム日付が無効または将来的なものである場合、ここでは「ドライバーステーションアプリケーションは古びています」というメッセージとともに無効な検査項目が表示されることがあります。デバイスの日付を修正することで、この無効な検査項目は解決されます。"
+"Item 14 アプリケーションインストール ``Driver Station`` には、Driver "
+"Stationアプリのバージョン番号が表示されるべきです。 *FIRST* "
+"はチームに現在利用可能なバージョンを使用することを推奨しますが、強制ではありません。デバイスシステム日付が無効または将来的なものである場合、ここでは「Driver"
+" "
+"Stationアプリケーションは古びています」というメッセージとともに無効な検査項目が表示されることがあります。デバイスの日付を修正することで、この無効な検査項目は解決されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:111
 msgid ""
@@ -339,8 +342,8 @@ msgid ""
 "Inspect. Problems are indicated by a red circle exclamation mark icon, or an"
 " orange triangle exclamation mark icon."
 msgstr ""
-"ここにはSelf Inspectで ** 拒否 ** "
-"された項目のあるドライバーステーションからの報告書があります。問題は赤い円形の警告アイコンまたは橙色の三角形の警告アイコンで示されます。"
+"ここにはSelf Inspectで ** 拒否 ** された項目のあるDriver "
+"Stationからの報告書があります。問題は赤い円形の警告アイコンまたは橙色の三角形の警告アイコンで示されます。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:114
 msgid ""
@@ -365,8 +368,8 @@ msgid ""
 " yet connected to a robot. You should fix the Driver Station Name before "
 "connecting the devices."
 msgstr ""
-"アイテム10は「標準Wi-Fi接続」を拒否しました。 ** No ** "
-"です。ドライバーステーションはまだロボットに接続されていません。デバイスを接続する前に、ドライバーステーション名を修正してください。"
+"アイテム10は「標準Wi-Fi接続」を拒否しました。 ** No ** です。Driver "
+"Stationはまだロボットに接続されていません。デバイスを接続する前に、Driver Station名を修正してください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:127
 msgid ""
@@ -376,7 +379,7 @@ msgid ""
 "rules in the Competition Manual. e.g. Team number plus -DS: **99999-DS**."
 msgstr ""
 "Item 11は「Driver Station Name」がFTCのフォーマット要件を満たしていないためを拒否します。 ** Android_a301 "
-"** は新しいドライバーステーション（DS）の例です。「DSアプリ設定」に進み、競技マニュアルにあるルールに従って「Driver Station "
+"** は新しいDriver Station（DS）の例です。「DSアプリ設定」に進み、競技マニュアルにあるルールに従って「Driver Station "
 "Name」を設定してください。例えば、チーム番号に-DSをつけたもの： ** 99999-DS ** 。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:129
@@ -396,7 +399,8 @@ msgid ""
 "Item 13 rejects the presence of an RC app installed on this DS device. "
 "Uninstall the RC App from the driver station device."
 msgstr ""
-"アイテム13は、このDSデバイスにRCアプリがインストールされていることを拒否します。ドライバーステーションデバイスからRCアプリをアンインストールしてください。"
+"アイテム13は、このDSデバイスにRCアプリがインストールされていることを拒否します。Driver "
+"StationデバイスからRCアプリをアンインストールしてください。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/new-self-inspect.rst:133
 msgid ""

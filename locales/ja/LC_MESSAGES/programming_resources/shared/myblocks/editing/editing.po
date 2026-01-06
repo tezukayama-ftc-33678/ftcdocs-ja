@@ -57,8 +57,8 @@ msgid ""
 msgstr ""
 "もし、あなたの編集がmyBlockの ** 内部 ** 処理にのみ影響する場合、\"Build Everything\" "
 "を実行した後で自動的に更新される可能性があります。この場合、Java Classes "
-"メニューから新しい置き換えを行う必要がないかもしれません。BlocksクリーンでSave "
-"OpModeをクリックせずに、ドライバーステーション上でINITとStartを再度実行することで十分にテストできることがあります。これにより、myBlockの小幅な/内部的な変更の非常に高速なテストが可能になります。"
+"メニューから新しい置き換えを行う必要がないかもしれません。BlocksクリーンでSave OpModeをクリックせずに、Driver "
+"Station上でINITとStartを再度実行することで十分にテストできることがあります。これにより、myBlockの小幅な/内部的な変更の非常に高速なテストが可能になります。"
 
 #: ../../source/programming_resources/shared/myblocks/editing/editing.rst:24
 msgid ""

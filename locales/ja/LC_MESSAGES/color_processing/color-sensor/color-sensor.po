@@ -66,7 +66,7 @@ msgstr "上記の例では、OpenCV は次のようないいえを提供でき�
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:33
 msgid "Driver Station App showing RED detection"
-msgstr "ドライバーステーションアプリでRED検出表示"
+msgstr "Driver StationアプリでRED検出表示"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:33
 msgid "RED Detection using Color Sensor"
@@ -113,7 +113,7 @@ msgstr ""
 msgid ""
 "Save and activate that configuration; its name should appear on the paired "
 "Driver Station screen."
-msgstr "設定を保存し、有効にします。その名前はペアリングされたドライバーステーションの画面に表示されます。"
+msgstr "設定を保存し、有効にします。その名前はペアリングされたDriver Stationの画面に表示されます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:57
 msgid "Sample OpMode"
@@ -214,7 +214,7 @@ msgstr "サンプルOpModeの実行"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:107
 msgid "On the Driver Station:"
-msgstr "ドライバーステーション上："
+msgstr "Driver Station上："
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:109
 msgid "Select the Autonomous OpMode that you just saved or built."
@@ -236,7 +236,7 @@ msgstr "OpModeは、興味領域内の主要な「一致した」色について
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:120
 msgid "Driver Station Telemetry"
-msgstr "ドライバーステーションのテレメトリ"
+msgstr "Driver Stationのテレメトリ"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:122
 msgid ""
@@ -260,7 +260,7 @@ msgstr "*FTCプレビューを使用する方法が既に分かっている場�
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:132
 msgid "DS Preview"
-msgstr "ドライバーステーションプレビュー"
+msgstr "Driver Stationプレビュー"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:134
 msgid ""
@@ -273,12 +273,12 @@ msgstr ""
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:138
 msgid "**Opening the DS Preview**"
-msgstr "**ドライバーステーションのプレビューを開く** "
+msgstr "**Driver Stationのプレビューを開く** "
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:140
 msgid ""
 "On the Driver Station (DS), remain in INIT -- don't touch the Start button."
-msgstr "ドライバーステーション（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
+msgstr "Driver Station（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:141
 msgid ""
@@ -297,8 +297,8 @@ msgid ""
 "Interest** (ROI).  The ROI border color is the rectangle's predominant "
 "color, reported to DS Telemetry."
 msgstr ""
-"画像に描かれているのは評価中の長方形で、これは ** 興味領域 ** "
-"(ROI)と呼ばれます。ROIの境界線色は長方形の主な色であり、これをドライバーステーションのテレメトリに報告します。"
+"画像に描かれているのは評価中の長方形で、これは ** 興味領域 ** (ROI)と呼ばれます。ROIの境界線色は長方形の主な色であり、これをDriver"
+" Stationのテレメトリに報告します。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:155
 msgid ""

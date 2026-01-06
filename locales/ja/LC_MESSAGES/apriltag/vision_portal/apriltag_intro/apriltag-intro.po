@@ -446,8 +446,8 @@ msgid ""
 "OpMode, and also shows any AprilTag (or Color Processing) annotations. "
 "Instructions are posted here:"
 msgstr ""
-"注意： ** Camera Stream ** "
-"はドライバーステーションデバイス上でカメラの視野のスナップショットを表示します。これはOpMode（OpMode）の初期化フェーズ（INIT）中にのみ利用可能です。また、AprilTag（またはColor"
+"注意： ** Camera Stream ** はDriver "
+"Stationデバイス上でカメラの視野のスナップショットを表示します。これはOpMode（OpMode）の初期化フェーズ（INIT）中にのみ利用可能です。また、AprilTag（またはColor"
 " Processing）の注釈も表示されます。詳細な使用方法はここに掲載されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:220

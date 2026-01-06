@@ -228,7 +228,7 @@ msgid ""
 "stopped (manually or automatically)."
 msgstr ""
 "前ページの ** プレビュー ** 欄で述べた通り、LiveViewは ** Robot Controller ** "
-"のプレビューのみを指し、ドライバーステーション（DS）の ** カメラストリーム ** "
+"のプレビューのみを指し、Driver Station（DS）の ** カメラストリーム ** "
 "とは完全に独立しています。LiveViewが停止された場合（手動または自動）、カメラストリームは通常通り動作します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:75
@@ -236,7 +236,7 @@ msgid ""
 "DS Camera Stream uses its own frame collection process, which naturally "
 "still requires the camera/pipeline status to be ``STREAMING``."
 msgstr ""
-"ドライバーステーションカメラストリームは独自のフレーム収集プロセスを使用しますが、自然にカメラ/パイプラインの状態は`` STREAMING`` "
+"Driver Stationカメラストリームは独自のフレーム収集プロセスを使用しますが、自然にカメラ/パイプラインの状態は`` STREAMING`` "
 "である必要があります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:78
@@ -361,8 +361,8 @@ msgid ""
 "affects only LiveView; the Driver Station Camera Stream preview remains "
 "available."
 msgstr ""
-"一方または両方のプロセッサが再有効化されると、LiveViewが再開します。この設定はOnly "
-"LiveViewに影響し、ドライバーステーションカメラストリームプレビューは利用可能保持されます。"
+"一方または両方のプロセッサが再有効化されると、LiveViewが再開します。この設定はOnly LiveViewに影響し、Driver "
+"Stationカメラストリームプレビューは利用可能保持されます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:155
 msgid "Disable LiveView"

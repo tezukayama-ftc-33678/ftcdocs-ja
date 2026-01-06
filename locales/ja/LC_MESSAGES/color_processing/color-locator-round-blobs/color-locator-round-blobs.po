@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:34
 msgid "On the Driver Station, select the OpMode that you just saved or built."
-msgstr "ドライバーステーションで、先ほど保存或いは構築したOpModeを選択してください。"
+msgstr "Driver Stationで、先ほど保存或いは構築したOpModeを選択してください。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:35
 msgid ""
@@ -161,7 +161,7 @@ msgstr "動いています！カメラは **色検出器** として正常に動
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:55
 msgid "DS and RC Previews"
-msgstr "ドライバーステーションとRobot Controllerのプレビュー"
+msgstr "Driver StationとRobot Controllerのプレビュー"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:57
 msgid ""
@@ -177,7 +177,7 @@ msgid ""
 "The Driver Station (DS) \"snapshot\" preview is available at the ``Camera "
 "Stream`` menu choice, with the OpMode in INIT."
 msgstr ""
-"ドライバーステーション（DS）の「スナップショット」プレビューは、OpModeがINIT状態のとき、「カメラストリーム」メニューから利用できます。"
+"Driver Station（DS）の「スナップショット」プレビューは、OpModeがINIT状態のとき、「カメラストリーム」メニューから利用できます。"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
 msgid ""
@@ -187,7 +187,7 @@ msgstr "ドライバー ステーション アプリ上で紫色のアーテフ�
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:66
 msgid "Driver Station Camera Stream Image showing a successful Circle Fit"
-msgstr "ドライバーステーションカメラストリーム画像に、円 fitting が成功した状態を表示します"
+msgstr "Driver Stationカメラストリーム画像に、円 fitting が成功した状態を表示します"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:68
 msgid ""
@@ -230,7 +230,7 @@ msgstr "基本的なテレメトリーデータ"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:84
 msgid "Here again is some DS telemetry from the new ``_Circle`` Sample:"
-msgstr "ここに新しい ``_Circle`` サンプルからのドライバーステーションのテレメトリー情報again があります："
+msgstr "ここに新しい ``_Circle`` サンプルからのDriver Stationのテレメトリー情報again があります："
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
 msgid "Image with a circle around the Circularity telemetry data"
@@ -238,7 +238,7 @@ msgstr "円で囲まれたCircularityテレメトリーデータの画像"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:91
 msgid "Driver Station Telemetry Data from ``_Circle`` sample"
-msgstr "ドライバーステーションのテレメトリデータから ``_Circle`` サンプル"
+msgstr "Driver Stationのテレメトリデータから ``_Circle`` サンプル"
 
 #: ../../source/color_processing/color-locator-round-blobs/color-locator-round-blobs.rst:94
 msgid ""

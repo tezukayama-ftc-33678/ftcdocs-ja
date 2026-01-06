@@ -48,7 +48,7 @@ msgid ""
 "1. Connect the gamepad to the DRIVER STATION. If using a phone, you will "
 "need a Micro USB OTG adapter cable."
 msgstr ""
-"1. ゲームパッドをドライバーステーションに接続してください。スマートフォンを使用する場合、マイクロUSB OTGアダプターケーブルが必要です。"
+"1. ゲームパッドをDriver Stationに接続してください。スマートフォンを使用する場合、マイクロUSB OTGアダプターケーブルが必要です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:28
 msgid ""
@@ -74,8 +74,8 @@ msgid ""
 "your recently saved OpMode among the list of available OpModes that reside "
 "on your Robot Controller."
 msgstr ""
-"3. "
-"ドライバーステーションの画面で、三角形の「テレオペレーション」ドロップダウンリストボタンをタッチして、利用可能なOpModeの一覧を表示します。あなたの最近保存したOpModeが、Robot"
+"3. Driver "
+"Stationの画面で、三角形の「テレオペレーション」ドロップダウンリストボタンをタッチして、利用可能なOpModeの一覧を表示します。あなたの最近保存したOpModeが、Robot"
 " Controllerに保存されている利用可能なOpModeの一覧の中に含まれていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/running_op_modes/Running-Your-Op-Mode.rst:57

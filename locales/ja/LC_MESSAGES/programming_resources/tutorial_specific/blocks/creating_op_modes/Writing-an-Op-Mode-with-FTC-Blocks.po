@@ -568,8 +568,8 @@ msgid ""
 " until the \"telemetry.update\" method is called."
 msgstr ""
 "call telemetry.update\" "
-"ブロックは重要なブロックです。テレメトリバッファに追加されたデータは、\"telemetry.update\" "
-"メソッドが呼び出されるまでドライバーステーションに送信されません。"
+"ブロックは重要なブロックです。テレメトリバッファに追加されたデータは、\"telemetry.update\" メソッドが呼び出されるまでDriver "
+"Stationに送信されません。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:430
 msgid ""
@@ -610,7 +610,7 @@ msgstr "6. \"motorTest.Power\" ブロックを2番目のテレメトリーブロ
 msgid ""
 "Your op mode will now also send the motor power information from the Robot "
 "Controller to be displayed on the DRIVER STATION."
-msgstr "あなたのOpModeでは、ロボットコントローラからのモーターの電力情報もドライバーステーションに送信され、表示されます。"
+msgstr "あなたのOpModeでは、ロボットコントローラからのモーターの電力情報もDriver Stationに送信され、表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:467
 msgid "Saving Your Op Mode"

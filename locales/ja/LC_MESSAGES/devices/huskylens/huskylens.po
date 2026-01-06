@@ -210,7 +210,7 @@ msgstr ""
 #: ../../source/devices/huskylens/huskylens.rst:95
 msgid ""
 "On the Driver Station, touch the three-dots menu, and ``Configure Robot``."
-msgstr "ドライバーステーションで、三本線アイコンをタッチし、「ロボット設定」を選択してください。"
+msgstr "Driver Stationで、三本線アイコンをタッチし、「ロボット設定」を選択してください。"
 
 #: ../../source/devices/huskylens/huskylens.rst:98
 msgid ""
@@ -228,11 +228,11 @@ msgstr "HuskyLensが接続されているバス番号を選択してください
 
 #: ../../source/devices/huskylens/huskylens.rst:110
 msgid "DS Config"
-msgstr "ドライバーステーション設定"
+msgstr "Driver Station設定"
 
 #: ../../source/devices/huskylens/huskylens.rst:110
 msgid "Driver Station Config"
-msgstr "ドライバーステーション設定"
+msgstr "Driver Station設定"
 
 #: ../../source/devices/huskylens/huskylens.rst:112
 msgid ""
@@ -249,7 +249,8 @@ msgid ""
 "updated robot configuration. Touch the DS “Back” arrow, returning to the DS "
 "app’s home screen."
 msgstr ""
-"「Done」を複数回タッチし、その後「Save」をタッチして更新したロボットの構成を保存および名前を変更します。「INIT」をタッチし、ドライバーステーションアプリケーションのホーム画面に戻ります。"
+"「Done」を複数回タッチし、その後「Save」をタッチして更新したロボットの構成を保存および名前を変更します。「INIT」をタッチし、Driver "
+"Stationアプリケーションのホーム画面に戻ります。"
 
 #: ../../source/devices/huskylens/huskylens.rst:120
 msgid ""
@@ -356,11 +357,11 @@ msgstr "HuskyLensの小さな画面には、認識されたAprilTagが薄い白�
 
 #: ../../source/devices/huskylens/huskylens.rst:180
 msgid "Here’s the corresponding DS Telemetry:"
-msgstr "こちらが対応するドライバーステーションのテレメトリです："
+msgstr "こちらが対応するDriver Stationのテレメトリです："
 
 #: ../../source/devices/huskylens/huskylens.rst:187
 msgid "DS AprilTag"
-msgstr "ドライバーステーションAprilTag"
+msgstr "Driver StationAprilTag"
 
 #: ../../source/devices/huskylens/huskylens.rst:187
 msgid "AprilTag Telemetry"
@@ -669,11 +670,12 @@ msgid ""
 "Save this OpMode, then select and run it on the Driver Station. Make sure "
 "the active configuration includes the HuskyLens."
 msgstr ""
-"このOpModeを保存し、ドライバーステーション上で選択して実行します。確実にアクティブな構成にHuskyLensが含まれていることを確認してください。"
+"このOpModeを保存し、Driver "
+"Station上で選択して実行します。確実にアクティブな構成にHuskyLensが含まれていることを確認してください。"
 
 #: ../../source/devices/huskylens/huskylens.rst:362
 msgid "DS Telemetry Two Objects"
-msgstr "ドライバーステーション テレメトリー 2つのオブジェクト"
+msgstr "Driver Station テレメトリー 2つのオブジェクト"
 
 #: ../../source/devices/huskylens/huskylens.rst:364
 msgid ""
@@ -720,7 +722,7 @@ msgstr "両方の青色オブジェクトがOpModeで認識されました："
 
 #: ../../source/devices/huskylens/huskylens.rst:395
 msgid "DS Two Blue Objects"
-msgstr "ドライバーステーションで2つの青いオブジェクト"
+msgstr "Driver Stationで2つの青いオブジェクト"
 
 #: ../../source/devices/huskylens/huskylens.rst:395
 msgid "Telemetry for Two Blue Objects"

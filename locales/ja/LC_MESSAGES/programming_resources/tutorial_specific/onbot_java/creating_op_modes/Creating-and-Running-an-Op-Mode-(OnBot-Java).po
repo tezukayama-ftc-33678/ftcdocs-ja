@@ -562,7 +562,7 @@ msgid ""
 "Since you designated that your example op mode is a tele-operated op mode, "
 "it will be listed as a \"TeleOp\" op mode."
 msgstr ""
-"もしOpModeの再構築に成功したなら、OpModeを実行できる準備はできています。ドライバーステーションがRobot "
+"もしOpModeの再構築に成功したなら、OpModeを実行できる準備はできています。Driver StationがRobot "
 "Controllerとまだ接続されていることを確認してください。あなたが例として指定したOpModeがテレオペレートモードであるため、「TeleOp」OpModeとしてリストに表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:465

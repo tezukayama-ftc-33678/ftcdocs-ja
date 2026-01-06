@@ -222,7 +222,7 @@ msgstr "サンプルOpModeを実行する"
 msgid ""
 "On the Driver Station, select the TeleOp OpMode that you just saved or "
 "built."
-msgstr "ドライバーステーションで、先ほど保存または構築したテレOpModeを選択してください。"
+msgstr "Driver Stationで、先ほど保存または構築したテレOpModeを選択してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:105
 msgid "Aim the camera at an AprilTag from the current FTC game."
@@ -258,7 +258,7 @@ msgid ""
 "**Camera Stream** preview can be accessed.  See the next section re.  "
 "previews."
 msgstr ""
-"** INITのみをタッチしてください。 ** テレメトリは表示されませんが、この時点ではドライバーステーション（DS）の ** "
+"** INITのみをタッチしてください。 ** テレメトリは表示されませんが、この時点ではDriver Station（DS）の ** "
 "カメラストリームプレビュー ** にアクセスできます。次のセクションで詳細をご覧ください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:131
@@ -270,7 +270,7 @@ msgstr ""
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:139
 msgid "Driver Station Sample Output"
-msgstr "ドライバーステーションサンプル出力"
+msgstr "Driver Stationサンプル出力"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:141
 msgid ""
@@ -302,7 +302,7 @@ msgstr "FTCプレビューの使い方を既に知っている場合は、次の
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:154
 msgid "DS Preview"
-msgstr "ドライバーステーションプレビュー"
+msgstr "Driver Stationプレビュー"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:156
 msgid ""
@@ -317,7 +317,7 @@ msgstr ""
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:160
 msgid ""
 "On the Driver Station (DS), remain in INIT -- don't touch the Start button."
-msgstr "ドライバーステーション（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
+msgstr "Driver Station（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:162
 msgid ""
@@ -332,7 +332,7 @@ msgstr "ドライバステーションカメラストリーム"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:170
 msgid "Example of DS Camera Stream"
-msgstr "例のドライバーステーションカメラストリーム"
+msgstr "例のDriver Stationカメラストリーム"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:172
 msgid "For a BIG preview, touch the arrows at the bottom right corner."
@@ -384,7 +384,7 @@ msgstr "lets look closer at the DS telemetry:"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:207
 msgid "DS Telemetry Example"
-msgstr "ドライバーステーションのテレメトリー例"
+msgstr "Driver Stationのテレメトリー例"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:209
 msgid ""

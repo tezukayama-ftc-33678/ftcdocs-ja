@@ -233,7 +233,7 @@ msgstr "サンプルOpModeの実行"
 msgid ""
 "On the Driver Station, select the Autonomous OpMode that you just saved or "
 "built."
-msgstr "ドライバーステーションで、先ほど保存または構築した自動運転モードを選択してください。"
+msgstr "Driver Stationで、先ほど保存または構築した自動運転モードを選択してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:115
 msgid ""
@@ -263,7 +263,8 @@ msgid ""
 "area on the Driver Station screen.  It may sometimes show more lines of Blob"
 " data, and sometimes show no Blob data at all."
 msgstr ""
-"カメラを動かして、特にブルーのオブジェクト付近で動かし、ドライバーステーション画面のテレメトリエリアを見守ってください。時々はBlobデータの行が増えることもありますし、時々は何らかのBlobデータも表示されないことがあります。"
+"カメラを動かして、特にブルーのオブジェクト付近で動かし、Driver "
+"Station画面のテレメトリエリアを見守ってください。時々はBlobデータの行が増えることもありますし、時々は何らかのBlobデータも表示されないことがあります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:135
 msgid ""
@@ -279,7 +280,7 @@ msgstr "*次の2つのセクションをスキップします。既にFTCプレ�
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:141
 msgid "DS Preview"
-msgstr "ドライバーステーションプレビュー"
+msgstr "Driver Stationプレビュー"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:143
 msgid ""
@@ -293,7 +294,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:147
 msgid ""
 "On the Driver Station (DS), remain in INIT -- don't touch the Start button."
-msgstr "ドライバーステーション（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
+msgstr "Driver Station（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:149
 msgid ""
@@ -304,7 +305,7 @@ msgstr ""
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:157
 msgid "DS Camera Stream Preview"
-msgstr "ドライバーステーションカメラストリームプレビュー"
+msgstr "Driver Stationカメラストリームプレビュー"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:159
 msgid ""
