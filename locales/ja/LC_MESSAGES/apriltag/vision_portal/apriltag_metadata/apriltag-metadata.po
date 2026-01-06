@@ -25,13 +25,14 @@ msgstr "4月タグメタデータ"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:5
 msgid "Introduction"
-msgstr "紹介\\n"
+msgstr "紹介"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:7
 msgid ""
 "A Library tag stores **Metadata**, a collection of at least 4 fields (of "
 "these Blocks/Java types):"
-msgstr "ライブラリタグは **メタデータ** を保存し、これらのブロックやJava型のうち少なくとも4つのフィールドからなるコレクションを保持します："
+msgstr ""
+"ライブラリタグは **メタデータ** を保存し、これらのブロックやJava型のうち少なくとも4つのフィールドからなるコレクションを保持します："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:10
 msgid "ID code (number/``int``)"
@@ -109,7 +110,8 @@ msgstr ""
 msgid ""
 "Before and after Kickoff, a call to ``getCurrentGameTagLibrary()`` will "
 "provide **both sets** of tags."
-msgstr "キックオフ前後で、``getCurrentGameTagLibrary()`` を呼び出すと、 **両方のセット** のタグが提供されます。"
+msgstr ""
+"キックオフ前後で、``getCurrentGameTagLibrary()`` を呼び出すと、 **両方のセット** のタグが提供されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:40
 msgid "These three Libraries are discussed further at the **Library** page."
@@ -146,10 +148,11 @@ msgid ""
 "loop, for immediate processing or stored for later use.  See the "
 "**Initialization** page for sample ``for()`` loop code."
 msgstr ""
-"タグIDコードと同じように、タグ名は通常 ``for()`` ループの中で取得され、即時の処理に使用されますか、後で使用するために保存されます。詳細については、 ** 初期化 ** ページのサンプル ``for()`` ループコードをご覧ください。"
-""
-"タグIDコードと同じように、タグ名は通常 ``for()`` ループの中で取得され、即時処理に使用されるか、後で使用するために保存されます。サンプルの ``for()`` ループコードについては ** Initialization ** ページを参照してください。"
-""
+"タグIDコードと同じように、タグ名は通常 ``for()`` "
+"ループの中で取得され、即時の処理に使用されますか、後で使用するために保存されます。詳細については、 ** 初期化 ** ページのサンプル "
+"``for()`` ループコードをご覧ください。タグIDコードと同じように、タグ名は通常 ``for()`` "
+"ループの中で取得され、即時処理に使用されるか、後で使用するために保存されます。サンプルの ``for()`` ループコードについては ** "
+"Initialization ** ページを参照してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:73
 msgid ""
@@ -166,7 +169,8 @@ msgid ""
 "condition before attempting to process a tag name.  This is illustrated in "
 "these Sample OpModes:"
 msgstr ""
-"論理エラーを避けるために、OpModeはタグ名を処理する前にメタデータで ** null ** 条件を確認できます。これは次のサンプルOpModeで示されています："
+"論理エラーを避けるために、OpModeはタグ名を処理する前にメタデータで ** null ** "
+"条件を確認できます。これは次のサンプルOpModeで示されています："
 
 #: ../../source/apriltag/vision_portal/apriltag_metadata/apriltag-metadata.rst:80
 msgid "Blocks: ``ConceptAprilTag``"

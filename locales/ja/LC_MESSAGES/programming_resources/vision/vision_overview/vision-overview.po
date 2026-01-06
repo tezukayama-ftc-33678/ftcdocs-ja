@@ -25,7 +25,7 @@ msgstr "コンピュータビジョンの概要"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:5
 msgid "Introduction"
-msgstr "紹介\\n"
+msgstr "紹介"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:7
 msgid ""
@@ -175,7 +175,8 @@ msgstr "物体が異なる位置に配置されている場合でも認識しま
 msgid ""
 "Pre-defined colors are included in the *FIRST* Tech Challenge SDK that have "
 "already been tested on season-specific game elements."
-msgstr "事前に定義された色は、シーズンごとのゲーム要素で既にテストが行われた *FIRST* Tech Challenge SDKに含まれています。"
+msgstr ""
+"事前に定義された色は、シーズンごとのゲーム要素で既にテストが行われた *FIRST* Tech Challenge SDKに含まれています。"
 
 #: ../../source/programming_resources/vision/vision_overview/vision-overview.rst:89
 msgid "Color Processing Disadvantages"
