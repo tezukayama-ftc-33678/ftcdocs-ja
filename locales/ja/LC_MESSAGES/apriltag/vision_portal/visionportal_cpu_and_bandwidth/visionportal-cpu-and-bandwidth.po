@@ -176,7 +176,7 @@ msgid ""
 "STREAMING - Frames are available for processing (AprilTag and/or TFOD "
 "recognitions) and preview (LiveView RC preview and DS Camera Stream)."
 msgstr ""
-"ストリーミング - フレームは処理（AprilTagやTFODの認識）とプレビュー（LiveView RCプレビューとDSCamera "
+"ストリーミング - フレームは処理（AprilTagやTFODの認識）とプレビュー（LiveView RCプレビューとDS Camera "
 "Stream）に利用可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:52
@@ -245,7 +245,7 @@ msgid ""
 "<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:image preview>`."
 msgstr ""
-"DSCamera Streamの視聴方法については、:ref:`ftc-"
+"DS Camera Streamの視聴方法については、:ref:`ftc-"
 "docs<hardware_and_software_configuration/configuring/configuring_external_webcam/configuring-"
 "external-webcam:image preview>` を参照してください。"
 
@@ -325,7 +325,7 @@ msgid ""
 "The above commands toggle only LiveView; the DS Camera Stream preview (touch"
 " to refresh) remains available."
 msgstr ""
-"上記のコマンドはリアルタイムビューのみを切り替えるので、DSCamera Streamプレビュー（タッチすると更新されます）は利用可能です。"
+"上記のコマンドはリアルタイムビューのみを切り替えるので、DS Camera Streamプレビュー（タッチすると更新されます）は利用可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_cpu_and_bandwidth/visionportal-cpu-and-bandwidth.rst:131
 msgid "Pause LiveView - Indirect"

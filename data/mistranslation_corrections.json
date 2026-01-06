@@ -226,6 +226,11 @@
       "description": "Camera Streamは英語のまま表記"
     },
     {
+      "mistranslation": "DSCamera Stream",
+      "correct": "DS Camera Stream",
+      "description": "Camera Streamは英語のまま表記"
+    },
+    {
       "mistranslation": "チームプロップ",
       "correct": "Team Prop",
       "description": "Team Propは英語のまま表記"
