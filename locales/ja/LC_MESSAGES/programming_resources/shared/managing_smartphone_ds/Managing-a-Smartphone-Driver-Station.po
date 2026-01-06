@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:18
 msgid "ROBOT CONTROLLER should be named <team number>-RC (e.g., 12345-RC),"
-msgstr "ロボットコントローラは、<チーム番号>-RC（例：12345-RC）に命名するべきです。"
+msgstr "Robot Controllerは、<チーム番号>-RC（例：12345-RC）に命名するべきです。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst:20
 msgid "DRIVER STATION should be named <team number>-DS (e.g., 12345-DS), and"
@@ -120,8 +120,8 @@ msgid ""
 "names to include your team number as indicated above, as required by the "
 "Competition Manual."
 msgstr ""
-"これはDS（Driver "
-"Station）とRC（ロボットコントローラ）の名前が一致していないためです。両方の名前を上記のようにチーム番号を含め、競技マニュアルで要求されているように変更してください。"
+"これはDS（Driver Station）とRC（Robot "
+"Controller）の名前が一致していないためです。両方の名前を上記のようにチーム番号を含め、競技マニュアルで要求されているように変更してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_ds/Managing-a-Smartphone-Driver-Station.rst
 msgid ""

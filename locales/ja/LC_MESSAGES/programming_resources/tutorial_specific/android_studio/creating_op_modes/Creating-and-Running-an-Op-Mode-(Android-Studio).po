@@ -189,7 +189,8 @@ msgid ""
 "(such as a while loop) to have the Robot Controller repeat (or iterate) "
 "certain tasks within a linear OpMode."
 msgstr ""
-"Opモードをロボットコントローラが順次実行するタスクの一覧と考えるのも役立ちます。線形のOpモードでは、ロボットコントローラはこのタスク一覧を順に処理します。ユーザーはまた、制御ループ（例えばwhileループ）を使用して、線形のOpモード内の特定のタスクを繰り返し（または反復）実行させることができます。"
+"OpモードをRobot Controllerが順次実行するタスクの一覧と考えるのも役立ちます。線形のOpモードでは、Robot "
+"Controllerはこのタスク一覧を順に処理します。ユーザーはまた、制御ループ（例えばwhileループ）を使用して、線形のOpモード内の特定のタスクを繰り返し（または反復）実行させることができます。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:155
 msgid ""
@@ -246,7 +247,7 @@ msgid ""
 "file of your Robot Controller."
 msgstr ""
 "OnBot Javaエディタで生成されたOpModeには、五つのプライベートメンバー変数も含まれています。これらの変数は、OnBot "
-"Javaエディタがロボットコントローラの構成ファイルで検出した五つの設定済みデバイスへの参照を保持します。"
+"JavaエディタがRobot Controllerの構成ファイルで検出した五つの設定済みデバイスへの参照を保持します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/creating_op_modes/Creating-and-Running-an-Op-Mode-(Android-Studio).rst:228
 msgid ""

@@ -34,7 +34,7 @@ msgid ""
 " sensor to display range (distance from an object) info to the DRIVER "
 "STATION."
 msgstr ""
-"センサーは、ロボットコントローラが環境について情報を得られるようにする装置です。この例では、REV RoboticsのColor-"
+"センサーは、Robot Controllerが環境について情報を得られるようにする装置です。この例では、REV RoboticsのColor-"
 "Distanceセンサーを使用して、オブジェクトからの距離（範囲）情報をお手伝いステーションに表示します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:12
@@ -62,7 +62,7 @@ msgid ""
 "1. Verify that your laptop is still connected to the Robot Controller's "
 "Program & Manage Wi-Fi network."
 msgstr ""
-"1. ロボットコントローラのProgram & Manage Wi-Fiネットワークにタブレットがまだ接続されていることを確認してください。"
+"1. Robot ControllerのProgram & Manage Wi-Fiネットワークにタブレットがまだ接続されていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:27
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:136
@@ -142,7 +142,7 @@ msgstr "これは、測定された距離（センチメートル単位）をタ
 msgid ""
 "8. Save your op mode and verify that it was saved successfully to the Robot "
 "Controller."
-msgstr "8. 操作モードを保存し、ロボットコントローラに成功して保存されたことを確認してください。\\n"
+msgstr "8. 操作モードを保存し、Robot Controllerに成功して保存されたことを確認してください。\\n"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:93
 msgid ""
@@ -176,8 +176,8 @@ msgid ""
 "configuration file. We will use the \"isPressed\" programming block to "
 "determine if the button on the sensor is currently pressed or not."
 msgstr ""
-"この例では、REV Robotics Touch "
-"Sensorがロボットコントローラのアクティブな構成ファイルでデジタルタッチセンサーとして設定されていることを前提とします。Sensor上のボタンが現在押されているかどうかを判断するために、“isPressed”プログラミングブロックを使用します。"
+"この例では、REV Robotics Touch SensorがRobot "
+"Controllerのアクティブな構成ファイルでデジタルタッチセンサーとして設定されていることを前提とします。Sensor上のボタンが現在押されているかどうかを判断するために、“isPressed”プログラミングブロックを使用します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:117
 msgid ""
@@ -212,7 +212,8 @@ msgstr "ボタン（タッチセンサ）の状態を表示するOpModeの変更
 msgid ""
 "1. Verify that your laptop is still connected to the Robot Controller's "
 "Programming Mode Wi-Fi network."
-msgstr "1. ロボットコントローラのプログラミングモードWi-Fiネットワークにまだラップトッピンが接続されていることを確認してください。"
+msgstr ""
+"1. Robot ControllerのプログラミングモードWi-Fiネットワークにまだラップトッピンが接続されていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:148
 msgid ""
@@ -274,7 +275,7 @@ msgstr ""
 msgid ""
 "10. Save your op mode and verify that it was saved successfully to the Robot"
 " Controller."
-msgstr "10. モードを保存し、ロボットコントローラに成功して保存されたことを確認してください。\\n"
+msgstr "10. モードを保存し、Robot Controllerに成功して保存されたことを確認してください。\\n"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/using_sensors/Using-Sensors-(Blocks).rst:216
 msgid ""

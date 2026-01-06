@@ -100,7 +100,8 @@ msgid ""
 "operating WiFi channel. However, it is sometimes necessary to specify the "
 "operating channel for the device."
 msgstr ""
-"デフォルトでは、スマートフォンロボットコントローラは自動的に自分の動作用WiFiチャンネルを選びます。しかし、装置の動作チャンネルを指定する必要がある場合もあります。"
+"デフォルトでは、スマートフォンRobot "
+"Controllerは自動的に自分の動作用WiFiチャンネルを選びます。しかし、装置の動作チャンネルを指定する必要がある場合もあります。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:60
 msgid ""
@@ -134,7 +135,7 @@ msgstr "WiFiチャンネル変更手順"
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:77
 msgid ""
 "1. Verify that the Driver Station is connected to your Robot Controller."
-msgstr "1. Driver Stationがロボットコントローラに接続されていることを確認してください。"
+msgstr "1. Driver StationがRobot Controllerに接続されていることを確認してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:80
 msgid ""
@@ -183,7 +184,8 @@ msgid ""
 "*Manage* page. Note that the log file name is *robotControllerLog.txt* by "
 "default."
 msgstr ""
-"制御システムで問題をトラブルシューティングする際、ロボットコントローラからログファイルをダウンロードすることが役立ちます。これは「管理」ページから実行できます。なお、デフォルトではログファイル名は「robotControllerLog.txt」です。"
+"制御システムで問題をトラブルシューティングする際、Robot "
+"Controllerからログファイルをダウンロードすることが役立ちます。これは「管理」ページから実行できます。なお、デフォルトではログファイル名は「robotControllerLog.txt」です。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:128
 msgid "Downloading the Log File Instructions"
@@ -224,19 +226,19 @@ msgstr ""
 msgid ""
 "2. Click on the *Manage* link towards the top of the *Robot Controller "
 "Connection Info* page to navigate to the Manage page."
-msgstr "2. 顶部的「管理」リンクをクリックして、「ロボットコントローラ接続情報」ページからマネージページに移動します。"
+msgstr "2. 顶部的「管理」リンクをクリックして、「Robot Controller接続情報」ページからマネージページに移動します。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:153
 msgid ""
 "3. Click the *Download Logs* button to download the Robot Controller log "
 "file."
-msgstr "3. 「ダウンロードログ」ボタンをクリックして、ロボットコントローラのログファイルをダウンロードします。"
+msgstr "3. 「ダウンロードログ」ボタンをクリックして、Robot Controllerのログファイルをダウンロードします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:161
 msgid ""
 "4. Verify that the Robot Controller log file was downloaded to the Downloads"
 " directory of your computer."
-msgstr "4. ロボットコントローラのログファイルがコンピュータのダウンロードディレクトリにダウンロードされたことを確認してください。"
+msgstr "4. Robot Controllerのログファイルがコンピュータのダウンロードディレクトリにダウンロードされたことを確認してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:165
 msgid ""
@@ -262,9 +264,9 @@ msgid ""
 " the firmware which contains fixes and improvements for the Expansion Hub. "
 "The firmware releases are in the form of a binary (\".bin\") file."
 msgstr ""
-"ロボットコントローラのスマホは、USB接続を使用してスタンドアローンのREV Robotics "
-"エクスパンションハブに接続します。エクスパンションハブの目的は、ロボットコントローラとロボットのモータ、サーボ、センサー間の通信を容易にすることです。REV"
-" Robotics "
+"Robot Controllerのスマホは、USB接続を使用してスタンドアローンのREV Robotics "
+"エクスパンションハブに接続します。エクスパンションハブの目的は、Robot "
+"Controllerとロボットのモータ、サーボ、センサー間の通信を容易にすることです。REV Robotics "
 "は時々、エクスパンションハブ用の修正や改善が含まれた新しいファームウェアバージョンをリリースする可能性があります。ファームウェアのリリース形式はバイナリファイル（\".bin\"）です。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:187
@@ -332,7 +334,7 @@ msgstr "ファイルを選択した後、_アップロード_ ボタンが表示
 msgid ""
 "2. Press the *Upload* button to upload the firmware file from your computer "
 "to the Robot Controller."
-msgstr "2. *アップロード* ボタンを押して、コンピュータからロボットコントローラにファームウェアファイルをアップロードします。"
+msgstr "2. *アップロード* ボタンを押して、コンピュータからRobot Controllerにファームウェアファイルをアップロードします。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:228
 msgid ""
@@ -376,7 +378,7 @@ msgstr ""
 msgid ""
 "7. Select the *Expansion Hub Firmware Update* item on the *ADVANCED ROBOT "
 "CONTROLLER SETTINGS* activity."
-msgstr "7. *高度なロボットコントローラ設定* アクティビティ内の *展開ハブファームウェア更新* 項目を選択してください。"
+msgstr "7. *高度なRobot Controller設定* アクティビティ内の *展開ハブファームウェア更新* 項目を選択してください。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:274
 msgid ""
@@ -473,8 +475,8 @@ msgid ""
 "Teams using Blocks or OnBot Java for programming can use the REV Hardware "
 "Client to update the Robot Controller (RC) app on an RC phone."
 msgstr ""
-"ブロックやOnBot "
-"Javaでプログラミングを行うチームは、REVハードウェアクライアントを使用して、ロボットコントローラ（RC）アプリをRCスマホに更新できます。"
+"ブロックやOnBot Javaでプログラミングを行うチームは、REVハードウェアクライアントを使用して、Robot "
+"Controller（RC）アプリをRCスマホに更新できます。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:332
 msgid ""
@@ -499,7 +501,7 @@ msgid ""
 "If you update the Robot Controller (RC) app, you should also update the "
 "Driver Station (DS) app to the same version number."
 msgstr ""
-"ロボットコントローラ（RC）アプリケーションを更新した場合、Driver "
+"Robot Controller（RC）アプリケーションを更新した場合、Driver "
 "Station（DS）アプリケーションも同じバージョン番号に更新する必要があります。"
 
 #: ../../source/programming_resources/shared/managing_smartphone_rc/Managing-a-Smartphone-Robot-Controller.rst:346

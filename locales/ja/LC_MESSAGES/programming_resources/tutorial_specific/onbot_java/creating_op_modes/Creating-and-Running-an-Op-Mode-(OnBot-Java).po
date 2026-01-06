@@ -148,7 +148,8 @@ msgid ""
 "mode. In this section, you will use the OnBot Java Programming Tool to "
 "create the program logic for your first op mode."
 msgstr ""
-"もしロボットコントローラの「プログラム＆管理」無線ネットワークにあなたのノートブックを成功裏に接続した場合、最初のOpModeを作成する準備はできています。このセクションでは、OnBot"
+"もしRobot "
+"Controllerの「プログラム＆管理」無線ネットワークにあなたのノートブックを成功裏に接続した場合、最初のOpModeを作成する準備はできています。このセクションでは、OnBot"
 " Javaプログラミングツールを使用して、最初のOpModeのプログラムロジックを作成します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:90
@@ -171,7 +172,8 @@ msgid ""
 "difference in the third octet of the IP addresses (the Control Hub has a "
 "\"43\" instead of a \"49\")."
 msgstr ""
-"注意：ロボットコントローラがAndroidスマートフォンの場合、プログラムおよび管理サーバーにアクセスするためのアドレスは「192.168.49.1:8080」です。IPアドレスの第三オクテットにおける違いに注意してください（Control"
+"注意：Robot "
+"ControllerがAndroidスマートフォンの場合、プログラムおよび管理サーバーにアクセスするためのアドレスは「192.168.49.1:8080」です。IPアドレスの第三オクテットにおける違いに注意してください（Control"
 " Hubは「43」ではなく「49」です）。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:108
@@ -186,7 +188,8 @@ msgid ""
 " If it is connected to the programming mode server successfully, the Robot "
 "Controller Console should be displayed."
 msgstr ""
-"2. プログラミングモードサーバに接続されているウェブブラウザを確認してください。接続が成功すれば、ロボットコントローラコンソールが表示されます。"
+"2. プログラミングモードサーバに接続されているウェブブラウザを確認してください。接続が成功すれば、Robot "
+"Controllerコンソールが表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:125
 msgid ""
@@ -271,7 +274,8 @@ msgid ""
 "saved op modes by right mouse clicking on the project browser to display a "
 "list of options to create, edit or delete files and folders."
 msgstr ""
-"OnBotOpModeを作成する際には、ロボットコントローラに保存される.javaファイルが作成されます。画面左側のプロジェクトブラウザを使用して、保存したOpModeにアクセスできます。また、プロジェクトブラウザ上を右クリックし、ファイルやフォルダの作成・編集・削除などのオプションを選べるリストを表示することにより、保存したOpModeを組織化することも可能です。"
+"OnBotOpModeを作成する際には、Robot "
+"Controllerに保存される.javaファイルが作成されます。画面左側のプロジェクトブラウザを使用して、保存したOpModeにアクセスできます。また、プロジェクトブラウザ上を右クリックし、ファイルやフォルダの作成・編集・削除などのオプションを選べるリストを表示することにより、保存したOpModeを組織化することも可能です。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:187
 msgid ""
@@ -345,7 +349,7 @@ msgid ""
 " file of your Robot Controller."
 msgstr ""
 "OnBot Javaエディタで作成されたこのOpMode用の5つのプライベートメンバ変数も確認できます。これらの変数は、OnBot "
-"Javaエディタがロボットコントローラの設定ファイル内で検出した5つの構成済みデバイスへの参照を保持します。"
+"JavaエディタがRobot Controllerの設定ファイル内で検出した5つの構成済みデバイスへの参照を保持します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:280
 msgid ""
@@ -435,8 +439,9 @@ msgid ""
 "op mode and convert it from a Java text file to a binary that can be loaded "
 "dynamically into the Robot Controller app."
 msgstr ""
-"ロボットコントローラのファイルシステムに.javaファイルを自動保存するように、OpModeを作成または編集するとOnBot "
-"Javaエディタが動作します。しかし、ロボットコントローラ上で変更を実行する前に、まずOpModeをビルドし、Javaテキストファイルから動的にロードできるバイナリに変換する必要があります。"
+"Robot Controllerのファイルシステムに.javaファイルを自動保存するように、OpModeを作成または編集するとOnBot "
+"Javaエディタが動作します。しかし、Robot "
+"Controller上で変更を実行する前に、まずOpModeをビルドし、Javaテキストファイルから動的にロードできるバイナリに変換する必要があります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:359
 msgid ""

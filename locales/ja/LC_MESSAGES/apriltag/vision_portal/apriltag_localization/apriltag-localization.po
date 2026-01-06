@@ -160,8 +160,8 @@ msgid ""
 "http://192.168.43.1:8080 (or http://192.168.49.1:8080 for Android RC phone) "
 "and click the Blocks tab."
 msgstr ""
-"ロボットコントローラに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control "
-"Hubのアドレスhttp://192.168.43.1:8080（Android "
+"Robot Controllerに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control"
+" Hubのアドレスhttp://192.168.43.1:8080（Android "
 "RCスマホの場合はhttp://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:77
@@ -353,7 +353,8 @@ msgid ""
 "The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
 "This is full video, and is shown automatically on the screen of an RC phone."
 msgstr ""
-"ロボットコントローラ（RC）デバイスでもプレビューを生成し、「ライブビュー」と呼ばれます。これは全画面のビデオで、自動的にRCスマホの画面に表示されます。"
+"Robot "
+"Controller（RC）デバイスでもプレビューを生成し、「ライブビュー」と呼ばれます。これは全画面のビデオで、自動的にRCスマホの画面に表示されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:188
 msgid "Control Hub Preview"

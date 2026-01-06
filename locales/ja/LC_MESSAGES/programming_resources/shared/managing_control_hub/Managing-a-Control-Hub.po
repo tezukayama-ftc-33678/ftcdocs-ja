@@ -105,7 +105,7 @@ msgstr ""
 msgid ""
 "Click on the *Manage* link towards the top of the *Robot Controller "
 "Connection Info* page to navigate to the Manage page."
-msgstr "ロボットコントローラ接続情報ページの上部にある「管理」リンクをクリックして、管理ページに移動します。"
+msgstr "Robot Controller接続情報ページの上部にある「管理」リンクをクリックして、管理ページに移動します。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:45
 msgid ""
@@ -330,7 +330,7 @@ msgstr ""
 msgid ""
 "Verify that the Robot Controller log file was downloaded to the Downloads "
 "directory of your computer."
-msgstr "ロボットコントローラのログファイルがコンピュータのダウンロードディレクトリに正常にダウンロードされたことを確認してください。"
+msgstr "Robot Controllerのログファイルがコンピュータのダウンロードディレクトリに正常にダウンロードされたことを確認してください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:180
 msgid ""
@@ -578,7 +578,7 @@ msgid ""
 "On the *Manage* page, click on the *Select App* button to select the Robot "
 "Controller app that you would like to upload to the Control Hub."
 msgstr ""
-"管理ページで、ロボットコントローラアプリケーションをアップロードしたいControl Hubにアップロードするため、「Select "
+"管理ページで、Robot ControllerアプリケーションをアップロードしたいControl Hubにアップロードするため、「Select "
 "App」（選択アプリ）ボタンをクリックしてください。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:338
@@ -645,7 +645,8 @@ msgid ""
 "of commonly available webcams. Users can also create their own custom "
 "calibration files and then upload these files to a Control Hub."
 msgstr ""
-"ロボットコントローラアプリには、様々な一般的に利用可能なウェブカメラ用の内蔵校正情報が含まれています。ユーザーはまた、独自のカスタム校正ファイルを作成し、その後、これらのファイルをControl"
+"Robot "
+"Controllerアプリには、様々な一般的に利用可能なウェブカメラ用の内蔵校正情報が含まれています。ユーザーはまた、独自のカスタム校正ファイルを作成し、その後、これらのファイルをControl"
 " Hubにアップロードすることができます。"
 
 #: ../../source/programming_resources/shared/managing_control_hub/Managing-a-Control-Hub.rst:379
@@ -830,7 +831,7 @@ msgid ""
 "be able to see the *Robot Controller Connection Info* page when you navigate"
 " to address \"192.168.43.1:8080\":"
 msgstr ""
-"1. ロボットコントローラ接続情報ページを表示できるように、あなたのノートブックが制御hubのProgram & "
+"1. Robot Controller接続情報ページを表示できるように、あなたのノートブックが制御hubのProgram & "
 "Manage無線ネットワークに接続されていることを確認してください。ネットワークに接続されている場合、アドレス\"192.168.43.1:8080\"にアクセスすると"
 " *Robot Controller Connection Info* ページを見ることができます："
 

@@ -72,7 +72,7 @@ msgid ""
 "however, so some flexibility is still possible in this regard for advanced "
 "users."
 msgstr ""
-"ロボットコントローラ（RC）アプリにはブロックとOnBot "
+"Robot Controller（RC）アプリにはブロックとOnBot "
 "Javaのプログラミング環境が含まれており、これらの環境を使用して開発されたユーザープログラム（チームコード）は、RCアプリと一緒に個別に保管されます。これにより、チームコードに影響を与えることなくRCアプリを独立して更新することが可能になります。これにより、RCアプリソフトウェアのアップデート/ダウングレードを行う際には、コードを修正する必要がなくなるほど簡略化されます。ただし、ブロックとOnBot"
 " Javaを使用するユーザーは、アプリケーションにバンドルされるデフォルトのRCアプリ依存関係に制限されることになります。しかし、Android "
 "Studioで作成されたRCアプリを使用してブロックとOnBot "
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 msgid "Robot Controller (RC) app on REV Control Hub"
-msgstr "REV Control Hub のロボットコントローラアプリ「INIT」"
+msgstr "REV Control Hub のRobot Controllerアプリ「INIT」"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:76
 msgid "Here are 3 methods to update the RC app on a REV Control Hub:"
@@ -310,7 +310,7 @@ msgstr ""
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:155
 msgid ""
 "Click the Manage tab, then scroll down to “Update Robot Controller App”."
-msgstr "「管理」タブをクリックし、その後、「ロボットコントローラアプリケーションの更新」までスクロールします。"
+msgstr "「管理」タブをクリックし、その後、「Robot Controllerアプリケーションの更新」までスクロールします。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:162
@@ -401,7 +401,7 @@ msgstr ""
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:200
 msgid "Scroll down to “Update Robot Controller App”."
-msgstr "ロボットコントローラアプリの更新にスクロールダウンしてください。"
+msgstr "Robot Controllerアプリの更新にスクロールダウンしてください。"
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:209
 msgid ""
@@ -430,7 +430,7 @@ msgstr "AndroidスマホでのRobot Controller(RC)アプリ"
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:222
 msgid ""
 "Here are 2 methods to update the RC app on a Robot Controller (RC) phone:"
-msgstr "以下はロボットコントローラ(RC)スマホでRCアプリを更新するための2つの方法です："
+msgstr "以下はRobot Controller(RC)スマホでRCアプリを更新するための2つの方法です："
 
 #: ../../source/ftc_sdk/updating/rc_app/Updating-the-RC-App.rst:226
 msgid "“Side loading” with APK"

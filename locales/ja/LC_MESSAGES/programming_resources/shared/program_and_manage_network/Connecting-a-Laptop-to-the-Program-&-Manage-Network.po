@@ -36,8 +36,8 @@ msgid ""
 "current service pack and system update from Microsoft installed."
 msgstr ""
 "OpModeを書くには、プログラミングラップトップを「Program & Manage Wi-"
-"Fi」ネットワークに接続する必要があります。「Program & Manage Wi-"
-"Fi」ネットワークは、ロボットコントローラによって作成された無線ネットワークです。この練習を開始する前に、Windows "
+"Fi」ネットワークに接続する必要があります。「Program & Manage Wi-Fi」ネットワークは、Robot "
+"Controllerによって作成された無線ネットワークです。この練習を開始する前に、Windows "
 "ラップトップがMicrosoftから最新のサービスパックとシステム更新プログラムがインストールされていることを確認してください。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:14
@@ -80,7 +80,8 @@ msgid ""
 "phrase \"DIRECT-\"."
 msgstr ""
 "3. "
-"プログラム＆管理無線ネットワークのネットワーク名とパスフレーズを確認してください。画面の上部に、プログラム＆管理無線ネットワークのネットワーク名が表示されます。ロボットコントローラとしてAndroidスマートフォンを使用している場合、無線ネットワーク名は「DIRECT-」で始まります。"
+"プログラム＆管理無線ネットワークのネットワーク名とパスフレーズを確認してください。画面の上部に、プログラム＆管理無線ネットワークのネットワーク名が表示されます。Robot"
+" ControllerとしてAndroidスマートフォンを使用している場合、無線ネットワーク名は「DIRECT-」で始まります。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:47
 msgid ""
@@ -129,7 +130,7 @@ msgid ""
 "Controller is \"DIRECT-XK-9999-C-RC\" and the network is visible in the list"
 " displayed on the Windows 10 computer."
 msgstr ""
-"この例では、Android ロボットコントローラの無線ネットワーク名は「DIRECT-XK-9999-C-RC」で、Windows 10 "
+"この例では、Android Robot Controllerの無線ネットワーク名は「DIRECT-XK-9999-C-RC」で、Windows 10 "
 "コンピュータ上で表示されるリストにネットワークが見えます。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:82

@@ -120,7 +120,7 @@ msgid ""
 "1. Verify that your laptop is still connected to the Robot Controller's "
 "Program & Manage Wi-Fi network."
 msgstr ""
-"1. ロボットコントローラのProgram & Manage Wi-Fiネットワークにタブレットがまだ接続されていることを確認してください。"
+"1. Robot ControllerのProgram & Manage Wi-Fiネットワークにタブレットがまだ接続されていることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:75
 msgid ""
@@ -352,7 +352,7 @@ msgstr "このブロックセットは、OpModeが実行中である間、現在
 msgid ""
 "25. Save your op mode and verify that it was saved successfully to the Robot"
 " Controller."
-msgstr "25. OpModeを保存し、ロボットコントローラに成功して保存されたことを確認してください。"
+msgstr "25. OpModeを保存し、Robot Controllerに成功して保存されたことを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/controlling_a_servo/Controlling-a-Servo-(Blocks).rst:299
 msgid ""

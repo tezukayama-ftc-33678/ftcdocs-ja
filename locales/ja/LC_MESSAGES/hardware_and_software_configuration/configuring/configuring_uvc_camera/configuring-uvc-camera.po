@@ -34,7 +34,9 @@ msgid ""
 "smartphone as their ROBOT CONTROLLER have the option of using an externally "
 "connected camera instead of the built-in camera for computer vision tasks."
 msgstr ""
-"コンペティションマニュアルでは、USBビデオクラス（UVC）互換のカメラを使用してコンピュータビジョンに関連するタスクを行うことが認められています。ロボットコントローラとしてAndroidスマートフォンを使用しているチームは、内部搭載カメラではなく外部接続カメラを使用してコンピュータビジョンのタスクを実行できる選択肢があります。"
+"コンペティションマニュアルでは、USBビデオクラス（UVC）互換のカメラを使用してコンピュータビジョンに関連するタスクを行うことが認められています。Robot"
+" "
+"ControllerとしてAndroidスマートフォンを使用しているチームは、内部搭載カメラではなく外部接続カメラを使用してコンピュータビジョンのタスクを実行できる選択肢があります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:13
 msgid ""
@@ -130,8 +132,8 @@ msgid ""
 "Robotics Expansion Hub. To work properly, the USB hub should meet the "
 "following requirements:"
 msgstr ""
-"チームが外部カメラを使用したい場合は、Android ロボットコントローラを外部カメラと REV Robotics エクスパンションハブに接続するために"
-" USB ハブが必要です。USB ハブは次の要件を満たす必要があります："
+"チームが外部カメラを使用したい場合は、Android Robot Controllerを外部カメラと REV Robotics "
+"エクスパンションハブに接続するために USB ハブが必要です。USB ハブは次の要件を満たす必要があります："
 
 #: ../../source/hardware_and_software_configuration/configuring/configuring_uvc_camera/configuring-uvc-camera.rst:61
 msgid ""

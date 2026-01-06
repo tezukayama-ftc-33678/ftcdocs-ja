@@ -139,8 +139,8 @@ msgid ""
 "``http://192.168.43.1:8080`` (or ``http://192.168.49.1:8080`` for Android RC"
 " phone) and click the *Blocks* tab."
 msgstr ""
-"ロボットコントローラに無線LANで接続されたノートパソコンやデスクトップコンピュータで、Chrome ブラウザを開きます。REV Control "
-"Hubのアドレス ``http://192.168.43.1:8080``（Android RCスマホの場合は "
+"Robot Controllerに無線LANで接続されたノートパソコンやデスクトップコンピュータで、Chrome ブラウザを開きます。REV "
+"Control Hubのアドレス ``http://192.168.43.1:8080``（Android RCスマホの場合は "
 "``http://192.168.49.1:8080``）に移動し、「ブロック」タブをクリックします。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:74
@@ -325,7 +325,8 @@ msgid ""
 "The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
 "This is full video, and is shown automatically on the screen of an RC phone."
 msgstr ""
-"ロボットコントローラ（RC）デバイスでは、プレビュー機能として「LiveView」と呼ばれるものも作成します。これはフルビデオで、自動的にRCスマホの画面に表示されます。"
+"Robot "
+"Controller（RC）デバイスでは、プレビュー機能として「LiveView」と呼ばれるものも作成します。これはフルビデオで、自動的にRCスマホの画面に表示されます。"
 
 #: ../../source/color_processing/color-sensor/color-sensor.rst:174
 msgid "Control Hub LiveView"

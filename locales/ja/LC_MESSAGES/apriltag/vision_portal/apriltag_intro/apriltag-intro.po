@@ -245,7 +245,7 @@ msgstr ""
 msgid ""
 "Let’s look again at the camera preview image, called LiveView, from a Robot "
 "Controller device (Control Hub or RC phone)."
-msgstr "ロボットコントローラ装置（制御hubまたはRCスマホ）から、再度カメラプレビュー画像、LiveView を見てみましょう。"
+msgstr "Robot Controller装置（制御hubまたはRCスマホ）から、再度カメラプレビュー画像、LiveView を見てみましょう。"
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:129
 msgid "LiveView Image"
@@ -481,9 +481,9 @@ msgid ""
 "which can be seen with an HDMI external monitor, or with ``scrcpy`` which "
 "can be found here:"
 msgstr ""
-"上記の画像は、Android ロボットコントローラ（RC）スマホでのライブビュー（LiveViewと呼ばれる）を示しています。REV Control "
-"Hubは RC のプレビューを生成し、HDMI 外部モニターで確認できるか、``scrcpy`` を使用して確認できます（``scrcpy`` "
-"はここから取得できます）："
+"上記の画像は、Android Robot Controller（RC）スマホでのライブビュー（LiveViewと呼ばれる）を示しています。REV "
+"Control Hubは RC のプレビューを生成し、HDMI 外部モニターで確認できるか、``scrcpy`` "
+"を使用して確認できます（``scrcpy`` はここから取得できます）："
 
 #: ../../source/apriltag/vision_portal/apriltag_intro/apriltag-intro.rst:237
 msgid "https://github.com/Genymobile/scrcpy"

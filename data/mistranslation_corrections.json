@@ -121,6 +121,11 @@
       "description": "should remain in English"
     },
     {
+      "mistranslation": "ロボットコントローラ",
+      "correct": "Robot Controller",
+      "description": "should remain in English"
+    },
+    {
       "mistranslation": "ドライバーステーション",
       "correct": "Driver Station",
       "description": "should remain in English"

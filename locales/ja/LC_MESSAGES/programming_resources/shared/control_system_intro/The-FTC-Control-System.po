@@ -132,7 +132,8 @@ msgid ""
 "the smartphone will have its own independent battery."
 msgstr ""
 "Control HubとExpansion Hubは、Control Hub、Expansion "
-"Hub、モータ、サーボモーター、およびセンサーを駆動するための12Vバッテリーに接続されています。ロボットコントローラとしてAndroidスマートフォンを使用する場合、スマートフォンには独自の独立したバッテリーがあります。"
+"Hub、モータ、サーボモーター、およびセンサーを駆動するための12Vバッテリーに接続されています。Robot "
+"ControllerとしてAndroidスマートフォンを使用する場合、スマートフォンには独自の独立したバッテリーがあります。"
 
 #: ../../source/programming_resources/shared/control_system_intro/The-FTC-Control-System.rst:80
 msgid "Android Smartphones"

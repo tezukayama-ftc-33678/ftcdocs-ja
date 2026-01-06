@@ -420,7 +420,8 @@ msgid ""
 "OpMode/Feature only applies to an externally connected Webcam.*"
 msgstr ""
 "* "
-"このOpModeは、ウェブカメラで画像のモーションボルが最小になる最適な露出を決定します。なお、スマホカメラについては露出を制御することは不可能であるため、ロボットコントローラとしてスマホを使用している場合、このOpMode/機能は外部接続されたウェブカメラに対してのみ適用されます。*"
+"このOpModeは、ウェブカメラで画像のモーションボルが最小になる最適な露出を決定します。なお、スマホカメラについては露出を制御することは不可能であるため、Robot"
+" Controllerとしてスマホを使用している場合、このOpMode/機能は外部接続されたウェブカメラに対してのみ適用されます。*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:201
 msgid ""

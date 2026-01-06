@@ -118,7 +118,7 @@ msgid ""
 "mode. In this section, you will use the Blocks Programming Tool to create "
 "the program logic for your first op mode."
 msgstr ""
-"もしロボットコントローラの「Program & "
+"もしRobot Controllerの「Program & "
 "Manage」無線ネットワークにあなたのノートブックを成功裏に接続した場合、初めてのOpModeを作成する準備はできています。このセクションでは、Blocksプログラミングツールを使用して、初めてのOpModeのプログラムロジックを作成します。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:75
@@ -144,7 +144,8 @@ msgid ""
 "If your Robot Controller is an Android smartphone, then the address to "
 "access the Program & Manage server is \"192.168.49.1:8080\"."
 msgstr ""
-"もしロボットコントローラがAndroidスマートフォンの場合、プログラム&管理サーバにアクセスするためのアドレスは「192.168.49.1:8080」です。"
+"もしRobot "
+"ControllerがAndroidスマートフォンの場合、プログラム&管理サーバにアクセスするためのアドレスは「192.168.49.1:8080」です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:92
 msgid ""
@@ -168,7 +169,8 @@ msgid ""
 "2. Verify that your web browser is connected to the programming mode server."
 " If it is connected to the programming mode server successfully, the Robot "
 "Controller Console should be displayed."
-msgstr "2. プログラミングモードサーバに接続されていることを確認してください。接続が成功すると、ロボットコントローラコンソールが表示されます。"
+msgstr ""
+"2. プログラミングモードサーバに接続されていることを確認してください。接続が成功すると、Robot Controllerコンソールが表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:115
 msgid ""
@@ -250,8 +252,9 @@ msgid ""
 "have the Robot Controller repeat (or iterate) certain tasks within an op "
 "mode."
 msgstr ""
-"OpModeをロボットコントローラが実行するタスクの一覧と考えると、それは役立つかもしれません。ロボットコントローラはこのタスクのリストを順次処理します。ユーザーはまた、制御ループ（例えば"
-" while ループ）を使用して、OpMode内の特定のタスクを繰り返し（または反復）させることもできます。"
+"OpModeをRobot Controllerが実行するタスクの一覧と考えると、それは役立つかもしれません。Robot "
+"Controllerはこのタスクのリストを順次処理します。ユーザーはまた、制御ループ（例えば while "
+"ループ）を使用して、OpMode内の特定のタスクを繰り返し（または反復）させることもできます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:182
 msgid ""
@@ -293,7 +296,7 @@ msgid ""
 "\"call MyFIRSTOpMode.waitForStart\" block will get executed after the Start "
 "button has been pressed."
 msgstr ""
-"ロボットコントローラが「call MyFIRSTOpMode.waitForStart」ラベルのブロックに到達すると、DRIVER "
+"Robot Controllerが「call MyFIRSTOpMode.waitForStart」ラベルのブロックに到達すると、DRIVER "
 "STATIONからSTART コマンドを受け取りまで停止し、待機します。START コマンドは、ユーザーがDRIVER STATIONのSTART "
 "ボタンを押した後で送信されます。START ボタンが押された後に、「call "
 "MyFIRSTOpMode.waitForStart」ブロックのあとのコードが実行されます。"
@@ -536,8 +539,9 @@ msgid ""
 " to display sensor data, motor status, gamepad state, etc. from the Robot "
 "Controller to the DRIVER STATION."
 msgstr ""
-"あなたのOpModeは実行 READY "
-"にほぼ完成しています。しかし、継続する前に、ロボットコントローラからドライバステーションに情報を送信するために表示されるドライバステーションユーザーインターフェース上に情報を表示するためのいくつかのテレメトリステートメントを追加します。このテレメトリメカニズムは、ロボットの状態情報などをドライバステーション上で表示する有用な方法です。このメカニズムを使用して、ロボットコントローラからドライバステーションにセンサデータやモーターステータス、ゲームパッド状態などから情報を表示することができます。"
+"あなたのOpModeは実行 READY にほぼ完成しています。しかし、継続する前に、Robot "
+"Controllerからドライバステーションに情報を送信するために表示されるドライバステーションユーザーインターフェース上に情報を表示するためのいくつかのテレメトリステートメントを追加します。このテレメトリメカニズムは、ロボットの状態情報などをドライバステーション上で表示する有用な方法です。このメカニズムを使用して、Robot"
+" Controllerからドライバステーションにセンサデータやモーターステータス、ゲームパッド状態などから情報を表示することができます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:408
 msgid "Inserting Telemetry Statements Instructions"
@@ -586,7 +590,7 @@ msgid ""
 "DRIVER STATION with a key or label of \"Target Power\".  The key will be "
 "displayed to the left of the value on the DRIVER STATION."
 msgstr ""
-"ロボットコントローラは、変数tgtPowerの値を「ターゲットパワー」というキーまたはラベルでDRIVER "
+"Robot Controllerは、変数tgtPowerの値を「ターゲットパワー」というキーまたはラベルでDRIVER "
 "STATIONに送信します。このキーはDRIVER STATION上の値の左側に表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:441
@@ -610,7 +614,7 @@ msgstr "6. \"motorTest.Power\" ブロックを2番目のテレメトリーブロ
 msgid ""
 "Your op mode will now also send the motor power information from the Robot "
 "Controller to be displayed on the DRIVER STATION."
-msgstr "あなたのOpModeでは、ロボットコントローラからのモーターの電力情報もDriver Stationに送信され、表示されます。"
+msgstr "あなたのOpModeでは、Robot Controllerからのモーターの電力情報もDriver Stationに送信され、表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:467
 msgid "Saving Your Op Mode"
@@ -620,7 +624,7 @@ msgstr "あなたのOpModeの保存"
 msgid ""
 "After you have modified your op mode, it is very important to save the op "
 "mode to the Robot Controller."
-msgstr "あなたがOpModeを修正した後、ロボットコントローラにOpModeを保存することが非常に重要です。"
+msgstr "あなたがOpModeを修正した後、Robot ControllerにOpModeを保存することが非常に重要です。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:472
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:494
@@ -637,8 +641,8 @@ msgid ""
 "Controller. If your save was successful, you should see the words \"Save "
 "completed successfully\" to the right of the buttons."
 msgstr ""
-"1. "
-"「保存OpMode」ボタンを押して、ロボットコントローラにOpModeを保存します。保存が成功すると、「保存完了しました」という文字列がボタンの右側に表示されます。"
+"1. 「保存OpMode」ボタンを押して、Robot "
+"ControllerにOpModeを保存します。保存が成功すると、「保存完了しました」という文字列がボタンの右側に表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/creating_op_modes/Writing-an-Op-Mode-with-FTC-Blocks.rst:488
 msgid "Exiting Program & Manage Screen"

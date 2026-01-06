@@ -34,7 +34,7 @@ msgid ""
 " sensor to display range (distance from an object) info to the driver "
 "station."
 msgstr ""
-"センサーは、ロボットコントローラが環境について情報を得られるようにする装置です。この例では、REV RoboticsのColor-"
+"センサーは、Robot Controllerが環境について情報を得られるようにする装置です。この例では、REV RoboticsのColor-"
 "Distanceセンサーを使用して、オブジェクトからの距離（範囲）情報をお手元のDriver Stationに表示します。"
 
 #: ../../source/programming_resources/tutorial_specific/android_studio/using_sensors/Using-Sensors-(Android-Studio).rst:12

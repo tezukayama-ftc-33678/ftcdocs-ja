@@ -29,7 +29,8 @@ msgid ""
 " configuration file. If you do not save this information, it will be lost "
 "and the robot controller will be unable to communicate with your hardware."
 msgstr ""
-"ハードウェアの設定が完了したら、その情報を構成ファイルに保存する必要があります。この情報が保存されていない場合、情報は失われ、ロボットコントローラはハードウェアと通信できなくなります。"
+"ハードウェアの設定が完了したら、その情報を構成ファイルに保存する必要があります。この情報が保存されていない場合、情報は失われ、Robot "
+"Controllerはハードウェアと通信できなくなります。"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:9
 msgid "Saving the Configuration Information Instructions"
@@ -40,18 +41,14 @@ msgid ""
 "1. Press the **Done** button to go up one level in the configuration "
 "screens."
 msgstr ""
-"1. ** Done ** ボタンを押して、設定画面の階層を一つ上に移動します。"
-""
-"1. ** Done ** ボタンを押して、設定画面の階層を一つ上に移動します。"
-""
+"1. ** Done ** ボタンを押して、設定画面の階層を一つ上に移動します。1. ** Done ** "
+"ボタンを押して、設定画面の階層を一つ上に移動します。"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:19
 msgid ""
 "2. Press the **Done** button again to return to the highest level in the "
 "configuration screens."
-msgstr ""
-"2. 再度 ** Done ** ボタンを押して、設定画面の最上位レベルに戻りましょう。"
-""
+msgstr "2. 再度 ** Done ** ボタンを押して、設定画面の最上位レベルに戻りましょう。"
 
 #: ../../source/hardware_and_software_configuration/configuring/saving_config/saving-config.rst:27
 msgid "Press the **Save** button."

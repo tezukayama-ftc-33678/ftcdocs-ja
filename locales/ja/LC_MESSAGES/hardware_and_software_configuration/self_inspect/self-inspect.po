@@ -138,7 +138,7 @@ msgstr "FTC制御デバイスはこれらの組み合わせを使用できます
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:55
 msgid "DS phone, RC phone"
-msgstr "Driver Stationスマホ、ロボットコントローラスマホ"
+msgstr "Driver Stationスマホ、Robot Controllerスマホ"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:56
 msgid "DS phone, Control Hub"
@@ -198,7 +198,7 @@ msgstr ""
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:79
 msgid "**ROBOT CONTROLLER**"
-msgstr "**ロボットコントローラ** "
+msgstr "**Robot Controller** "
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:81
 msgid ""
@@ -467,7 +467,7 @@ msgstr ""
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:218
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:255
 msgid "DS Self Inspect 3, on Driver Hub paired to RC phone"
-msgstr "ドライバーシステム自検 3、ドライバーHUBとロボットコントローラスマホペアリング"
+msgstr "ドライバーシステム自検 3、ドライバーHUBとRobot Controllerスマホペアリング"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:218
 msgid "DS 3a"
@@ -607,7 +607,7 @@ msgid ""
 "only one AP at a time; this network is not an FTC RC device."
 msgstr ""
 "アイテム11にエラーが表示されています。ドライバーハブは標準Wi-"
-"Fi経由で一度に1つのAP（アクセスポイント）のみに接続でき；このネットワークはFTCロボットコントローラ装置ではありません。"
+"Fi経由で一度に1つのAP（アクセスポイント）のみに接続でき；このネットワークはFTCRobot Controller装置ではありません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:303
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:314
@@ -924,7 +924,8 @@ msgid ""
 "Lastly… with no active connection, a DS device cannot display any "
 "information about the RC device status."
 msgstr ""
-"最後に…有効な接続がない場合、Driver Station（DS）装置はロボットコントローラ（RC）装置の状態について何らかの情報も表示できません。"
+"最後に…有効な接続がない場合、Driver Station（DS）装置はRobot "
+"Controller（RC）装置の状態について何らかの情報も表示できません。"
 
 #: ../../source/hardware_and_software_configuration/self_inspect/self-inspect.rst:491
 msgid "Summary"

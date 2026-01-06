@@ -34,7 +34,7 @@ msgid ""
 " sensor to display range (distance from an object) info to the driver "
 "station."
 msgstr ""
-"センサーはロボットコントローラが環境について情報を得るための装置です。この例では、REV Robotics Color-Distance "
+"センサーはRobot Controllerが環境について情報を得るための装置です。この例では、REV Robotics Color-Distance "
 "センサーを使用して、オブジェクトからの距離（範囲）情報を取り、Driver Stationに表示します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/using_sensors/Using-Sensors-(OnBot-Java).rst:12

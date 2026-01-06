@@ -122,8 +122,8 @@ msgid ""
 "the Competition Manual does allow teams to instead use a REV Robotics "
 "Expansion Hub and a select list of Android phones."
 msgstr ""
-"REV Robotics Control Hubをロボットコントローラとして使用します。また、競技マニュアルではチームがREV Robotics "
-"エクスパンションハブと選定されたAndroid フォンのリストを使用することも許可されています。"
+"REV Robotics Control HubをRobot Controllerとして使用します。また、競技マニュアルではチームがREV "
+"Robotics エクスパンションハブと選定されたAndroid フォンのリストを使用することも許可されています。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:57
 msgid "|chandphones| |exhub|"
@@ -275,8 +275,8 @@ msgid ""
 "Type A male to type mini-B male cable. Control Hub users do not need this "
 "cable."
 msgstr ""
-"もしロボットコントローラとしてスマートフォンを使用している場合、USB Type A メール.ToShortCutTo(USB Type mini-B "
-"メール.ToShortCutFrom)ケーブルが必要です。Control Hubを使用している場合はこのケーブルは必要ありません。"
+"もしRobot Controllerとしてスマートフォンを使用している場合、USB Type A メール.ToShortCutTo(USB Type "
+"mini-B メール.ToShortCutFrom)ケーブルが必要です。Control Hubを使用している場合はこのケーブルは必要ありません。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:103
 msgid "|usba|"
@@ -288,8 +288,8 @@ msgid ""
 "(2) micro USB OTG adapters. If you are using a Control Hub as your Robot "
 "Controller, you will need one(1) micro USB OTG adapter."
 msgstr ""
-"もしロボットコントローラとしてスマートフォンを使用している場合、2つ（2）のmicro USB OTG アダプターが必要です。Control "
-"Hubを使用する場合は、1つ（1）のmicro USB OTG アダプターが必要です。"
+"もしRobot Controllerとしてスマートフォンを使用している場合、2つ（2）のmicro USB OTG アダプターが必要です。Control"
+" Hubを使用する場合は、1つ（1）のmicro USB OTG アダプターが必要です。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:106
 msgid "|otg|   |otg|"
