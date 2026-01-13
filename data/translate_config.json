@@ -1,10 +1,17 @@
 {
-  "model": "qwen2.5-coder:7b-instruct",
-  "fallback_model": "qwen2.5:7b-instruct-q5_K_M",
-  "temperature": 0.05,
+  "backend": "openai",
+  "model": "gpt-4",
+  "api_key": "YOUR_OPENAI_API_KEY_HERE",
+  "temperature": 0.1,
   "max_retries": 3,
   "chunk_size": 400,
-  "context_window": 2048,
+  "context_window": 8000,
   "skip_translated": true,
-  "quality_check_enabled": true
+  "quality_check_enabled": true,
+  
+  "_comment_local_llm": "For local Ollama:",
+  "_backend_local": "ollama",
+  "_model_local": "qwen2.5-coder:7b-instruct",
+  "_fallback_model": "qwen2.5:7b-instruct-q5_K_M"
 }
+

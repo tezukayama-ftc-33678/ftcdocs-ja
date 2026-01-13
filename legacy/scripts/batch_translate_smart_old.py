@@ -1,14 +1,8 @@
 #!/usr/bin/env python3
 """
-構文保護型バッチ翻訳スクリプト（マルチバックエンド対応）
+構文保護型バッチ翻訳スクリプト
 
 複数のPOファイルを順次翻訳し、進捗を保存する。
-モジュール化されたアーキテクチャを使用。
-
-サポートされるバックエンド:
-- ollama/local: Ollama ローカルLLM
-- openai/gpt: OpenAI GPT-3.5/4
-- anthropic/claude: Anthropic Claude 2/3
 """
 
 import os
@@ -17,7 +11,7 @@ import json
 import argparse
 import time
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict
 
 try:
     from colorama import init, Fore, Style
@@ -36,41 +30,17 @@ init(autoreset=True)
 
 
 class BatchTranslator:
-    """バッチ翻訳管理クラス
+    """バッチ翻訳管理クラス"""
     
-    モジュール化されたSmartPOTranslatorを使用して、
-    複数のPOファイルを効率的に翻訳する。
-    """
-    
-    def __init__(
-        self,
-        po_dir: str,
-        config_path: str,
-        progress_file: str = "data/translation_progress.json",
-        backend: Optional[str] = None
-    ):
-        """初期化
-        
-        Args:
-            po_dir: POファイルが含まれるディレクトリ
-            config_path: 翻訳設定ファイルパス
-            progress_file: 進捗ファイルパス
-            backend: 翻訳バックエンド名（None=設定ファイルから読み込み）
-        """
+    def __init__(self, po_dir: str, config_path: str, progress_file: str = "data/translation_progress.json"):
         self.po_dir = Path(po_dir)
         self.config_path = config_path
         self.progress_file = progress_file
         self.progress = self._load_progress()
-        self.translator = SmartPOTranslator(config_path, backend=backend)
+        self.translator = SmartPOTranslator(config_path)
     
     def _load_progress(self) -> Dict:
-        """進捗ファイルを読み込む
-        
-        新形式と旧形式の両方に対応している。
-        
-        Returns:
-            進捗情報（completed, failed, skipped, last_updated）
-        """
+        """進捗ファイルを読み込む"""
         if os.path.exists(self.progress_file):
             with open(self.progress_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -90,32 +60,19 @@ class BatchTranslator:
             'last_updated': None
         }
     
-    def _save_progress(self) -> None:
-        """進捗を保存
-        
-        進捗情報をJSONファイルに保存し、
-        最後の更新時刻を記録する。
-        """
+    def _save_progress(self):
+        """進捗を保存"""
         self.progress['last_updated'] = time.strftime('%Y-%m-%d %H:%M:%S')
         os.makedirs(os.path.dirname(self.progress_file), exist_ok=True)
         with open(self.progress_file, 'w', encoding='utf-8') as f:
             json.dump(self.progress, f, indent=2, ensure_ascii=False)
     
     def find_po_files(self) -> List[Path]:
-        """POファイルを検索
-        
-        ディレクトリ内のすべてのPOファイルを再帰的に検索し、
-        既に翻訳済みのファイルはスキップする。
-        ファイルサイズの小さい順に優先度付けする。
-        
-        Returns:
-            未翻訳のPOファイルパスのリスト（ファイルサイズ昇順）
-        """
+        """POファイルを検索"""
         po_files = []
         for po_file in self.po_dir.rglob('*.po'):
             # 既に翻訳済みはスキップ
-            rel_path = str(po_file.relative_to(self.po_dir))
-            if rel_path not in self.progress['completed']:
+            if str(po_file.relative_to(self.po_dir)) not in self.progress['completed']:
                 po_files.append(po_file)
         
         # 優先順位でソート（ファイルサイズの小さい順）
@@ -123,15 +80,8 @@ class BatchTranslator:
         
         return po_files
     
-    def translate_all(self, limit: Optional[int] = None) -> None:
-        """全POファイルを翻訳
-        
-        未翻訳のPOファイルを見つけて、順次翻訳する。
-        エラーが発生してもファイルサイズ順に続行する。
-        
-        Args:
-            limit: 翻訳する最大ファイル数（Noneの場合は全ファイル）
-        """
+    def translate_all(self, limit: int = None):
+        """全POファイルを翻訳"""
         po_files = self.find_po_files()
         
         if not po_files:
@@ -181,11 +131,8 @@ class BatchTranslator:
         # 最終統計
         self._print_final_stats()
     
-    def _print_final_stats(self) -> None:
-        """最終統計を表示
-        
-        翻訳完了時に、完了数、失敗数、失敗ファイル一覧を表示する。
-        """
+    def _print_final_stats(self):
+        """最終統計を表示"""
         print(f"\n{Fore.CYAN}{'='*60}")
         print(f"{Fore.CYAN}Batch Translation Completed")
         print(f"{Fore.CYAN}{'='*60}")
@@ -206,30 +153,8 @@ class BatchTranslator:
 
 
 def main():
-    """メイン関数
-    
-    コマンドライン引数をパースし、バッチ翻訳を実行する。
-    """
     parser = argparse.ArgumentParser(
-        description="Batch translate PO files with RST markup protection (Multi-backend support)",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
-Supported backends:
-  ollama, local     - Ollama local LLM
-  openai, gpt       - OpenAI GPT-3.5/4 (requires API key in config)
-  anthropic, claude - Anthropic Claude 2/3 (requires API key in config)
-
-Examples:
-  # Use default backend (from config or ollama)
-  %(prog)s locales/ja/LC_MESSAGES
-  
-  # Specify backend
-  %(prog)s -b openai locales/ja/LC_MESSAGES
-  %(prog)s --backend anthropic locales/ja/LC_MESSAGES --limit 10
-  
-  # List available backends
-  python scripts/show_backends.py
-        """
+        description="Batch translate PO files with RST markup protection"
     )
     parser.add_argument(
         "po_dir",
@@ -251,10 +176,6 @@ Examples:
         help="Limit number of files to translate"
     )
     parser.add_argument(
-        "-b", "--backend",
-        help="Translation backend (ollama|openai|anthropic) - overrides config file"
-    )
-    parser.add_argument(
         "--reset",
         action="store_true",
         help="Reset progress and start from scratch"
@@ -274,7 +195,7 @@ Examples:
             print(f"{Fore.YELLOW}Progress reset")
     
     # バッチ翻訳実行
-    batch = BatchTranslator(args.po_dir, args.config, args.progress, backend=args.backend)
+    batch = BatchTranslator(args.po_dir, args.config, args.progress)
     batch.translate_all(args.limit)
 
 
