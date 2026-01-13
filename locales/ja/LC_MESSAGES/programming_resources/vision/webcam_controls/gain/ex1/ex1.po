@@ -6,29 +6,29 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:2
 msgid "Example 1: Exposure’s effect on TFOD"
-msgstr "例1: 感度のTFODへの影響"
+msgstr "例1: TFODに対する露出の影響"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:4
 msgid ""
 "We interrupt this tutorial to demonstrate the two webcam interfaces "
 "described so far: ExposureControl and GainControl."
 msgstr ""
-"私たちはこのチュートリアルを中断し、これまでに説明した2つのウェブカメラインターフェース、ExposeControlとGainControlを示すことにします。"
+"このチュートリアルを中断し、これまでに説明した2つのウェブカメラインターフェース、ExposureControlとGainControlをデモンストレーションします。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:7
 msgid ""
@@ -38,9 +38,10 @@ msgid ""
 "element. **Can the exposure and/or gain controls improve the chance of a "
 "fast, accurate TFOD detection?**"
 msgstr ""
-"これらの2つの例は、すでにFreight "
-"FrenzyゲームでTensorFlowオブジェクト検出（TFOD）を使用していることを前提としています。つまり、動作が比較的良好なTFODモデルとOpModeを持っているとします。ここでは、ダックゲーム要素についてのみ議論します。"
-" ** 露出度やゲインの制御は、高速かつ正確なTFOD検出の確率を向上させることが可能でしょうか？ ** "
+"これらの2つの例は、すでにFreight FrenzyゲームでTensorFlow Object Detection "
+"(TFOD)を使用していることを前提としています。具体的には、TFODモデルとOp "
+"Modeが適切に機能していることを意味します。ここでは、Duckゲーム要素についてのみ説明します。 **Can the exposure and/or "
+"gain controls improve the chance of a fast, accurate TFOD detection?**"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:14
 msgid ""
@@ -49,27 +50,26 @@ msgid ""
 " field has different lighting that affects recognition, can you achieve "
 "close to **your original (trained) TFOD performance**?"
 msgstr ""
-"この努力のもう一つの表現は、これらの制御がTFODモデル訓練に使用された照明条件を模倣できるかということです。つまり、競技場が異なる照明により認識に影響を与える場合でも、"
-" ** 元々の（訓練済み）TFODパフォーマンスと同等の性能 ** を得られるでしょうか？"
+"この取り組みを別の視点で考えると、これらのコントロールはTFODモデルのトレーニングに使用される照明条件をシミュレートできるでしょうか？つまり、競技フィールドの照明が認識に影響を与える場合、"
+" **your original (trained) TFOD performance** に近い結果を達成できますか？"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:19
 msgid ""
 "We first try exposure alone. Setting gain to zero, we apply TFOD to webcam "
 "images at various exposure values."
-msgstr ""
-"まず、露出だけを試みます。ゲインをゼロに設定し、 Various Exposure Values でのウェブカメラ画像に対してTFODを適用します。"
+msgstr "最初に露出のみを試します。ゲインをゼロに設定し、さまざまな露出値でウェブカメラの画像にTFODを適用します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:25
 msgid "Gain 0, Exp 0 -> 20"
-msgstr "獲得点数 0, 経験値 0 → 20"
+msgstr "獲得 0, 経験値 0 -> 20"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:30
 msgid "Gain 0, Exp 23 - > 40"
-msgstr "獲得点数 0, 経験値 23 -> 40"
+msgstr "獲得 0、経験値 23 → 40"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:35
 msgid "Gain 0, Exp 45 -> 55"
-msgstr "獲得点数 0, 経験値 45 → 55"
+msgstr "獲得 0, 経験値 45 -> 55"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:37
 msgid ""
@@ -77,18 +77,18 @@ msgid ""
 " OpMode was opened (INIT) each time for a new TFOD initialization and webcam"
 " image processing."
 msgstr ""
-"** 5回の新しい読み取り ** が、それぞれの露出設定で取得されました。具体的には、新しいTFOD初期化とウェブカメラ画像処理のために、各回test "
-"OpMode（INIT）を開きました。"
+"**Five fresh readings** は各露出設定で取得されました。つまり、テスト OpMode は新しい TFOD "
+"初期化とウェブカメラ画像処理のために毎回 (INIT) 開かれました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:41
 msgid ""
 "This chart shows TFOD confidence levels; ‘instant’ is defined here as "
 "recognition within 1 second."
-msgstr "このチャートはTFODの信頼度レベルを示しています；‘瞬時’はここでは1秒以内の認識を意味します。"
+msgstr "このチャートはTFODの信頼度レベルを示しています。「インスタント」はここでは1秒以内の認識として定義されています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:48
 msgid "Five readings at each exposure level"
-msgstr "各露出レベルで5回の読み取り"
+msgstr "各露出レベルでの5つの測定値"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:50
 msgid ""
@@ -96,8 +96,7 @@ msgid ""
 "Then at higher levels, this TFOD model begins to “see” a Cube, not a Duck. "
 "Not good!"
 msgstr ""
-"Higher exposure "
-"で認識が向上しますが、その後パフォーマンスは急激に低下します。さらに高いレベルでは、このTFODモデルはキューブを「見分ける」ようになりますが、ダックだと判断されません。これは問題です！"
+"高い露出は認識を改善しますが、その後パフォーマンスが突然低下します。さらに高いレベルでは、このTFODモデルはキューブを「見る」ようになり、アヒルではなくなります。良くありません！"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:54
 msgid ""
@@ -108,9 +107,15 @@ msgid ""
 " unforeseen variation. But this range varies with ambient lighting "
 "conditions, which may be quite different at the tournament venue."
 msgstr ""
-"しかし、より良い結果を得られる露出値の範囲があるようです。範囲の両端で急激な変化が見られます：25未満と40を超える部分です。エンジニアリングでは、 "
-"** 堅牢 ** "
-"な解決策は変動にも耐えます。改善された範囲の中間にある値を使用することで、予想外の変動による影響を軽減できますが、この範囲は周囲の照明条件によって異なるため、大会場所により異なる可能性があります。"
+"したがって、より良い結果をもたらす露出値の範囲があるようです。"
+""
+"範囲の両端、すなわち25未満および40以上での急激な減少に注意してください。"
+""
+"エンジニアリングにおいて、 **robust** ソリューションは変動に耐えることができます。"
+""
+"改善された範囲の中間の値を使用することで、予期しない変動の影響を軽減することができます。"
+""
+"しかし、この範囲は周囲の照明条件によって異なり、競技会場ではかなり異なる場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex1/ex1.rst:62
 msgid ""
@@ -119,5 +124,6 @@ msgid ""
 "model (SDK 7.0 default), ambient lighting, background, etc. **Your results "
 "will vary, perhaps significantly.**"
 msgstr ""
-"このデータは、以下の特定の組み合わせによるものです：ウェブカメラモデル（LogitechC270）、距離（12インチ）、下視角度（30度）、TFODモデル（SDK"
-" 7.0デフォルト）、周囲の照明、背景など。 ** 結果は異なる場合がありますし、それほど大きく異なる可能性もあります。 ** "
+"このデータは、ウェブカメラモデル（Logitech C270）、距離（12インチ）、俯瞰角度（30度）、TFODモデル（SDK "
+"7.0デフォルト）、周囲の照明、背景などの非常に特定の組み合わせの結果です。 **Your results will vary, perhaps "
+"significantly.**"

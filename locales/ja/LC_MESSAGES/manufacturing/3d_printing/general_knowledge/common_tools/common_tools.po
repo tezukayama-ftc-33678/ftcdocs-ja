@@ -6,18 +6,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:2
 msgid "Common 3D Printing Tools"
@@ -36,7 +36,13 @@ msgid ""
 "for allen keys on today's printers are **2.0mm and 2.5mm** but we'd "
 "recommend stocking other sizes as well."
 msgstr ""
-"Allenキーは、プリンターを操作する上で必須のアイテムです。アップグレードを考えないとしても、定期的なメンテナンスや修理にはこれらのキーが必要になります。高品質なAllenキーを最初から購入することをお勧めします（他のツールも同様です！）。現在のプリンターで最も一般的なAllenキーのサイズは ** 2.0mmと2.5mm ** ですが、その他のサイズも備えておくことを推奨します。"
+"アレンキーはプリンターを操作するために不可欠です。アップグレードを計画していなくても、定期的なメンテナンスや修理にはこれらが必要になります。"
+""
+"最初からネジをなめさせない高品質のアレンキーを購入することをお勧めします（これは他の工具にも当てはまります！）。"
+""
+"今日のプリンターで最も一般的なアレンキーのサイズは**2.0mmと2."
+""
+"**2.0mmと2.5mm**ですが、他のサイズも揃えておくことをお勧めします。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A kit of multiple allen keys."
@@ -44,7 +50,7 @@ msgstr "複数のアレンキーのキット。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:21
 msgid "Screwdrivers"
-msgstr "レンチ"
+msgstr "ドライバー"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:23
 msgid ""
@@ -54,11 +60,11 @@ msgid ""
 "such as the one pictured below for easy maintenance, unless you already know"
 " exactly what type and size screws are utilized on all your 3d printers."
 msgstr ""
-"ドライバーは、allenキーで届かない場所での修理や、ヘクスキー以外のネジを回す際に便利なツールです。特にプリンターの修理に役立ちます。容易なメンテナンスのために、下記のように多くの小さなbitが付属しているセットを入手することをお勧めします。ただし、既に全ての3Dプリンターで使用されている種類とサイズのネジが分かっている場合は除きます。"
+"ドライバーは、特にアレンキーではアクセスしにくい場所でのプリンターの修理に便利なツールです。また、六角ネジ以外のネジにも使用できます。すべての3Dプリンターで使用されているネジの種類とサイズを正確に把握していない限り、以下に示すような多くの小さなビットが含まれたキットを用意することをお勧めします。これにより、メンテナンスが容易になります。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A screwdriver kit with many types of bits."
-msgstr "種類の多いスクリュードライバーキット"
+msgstr "多くの種類のビットが含まれたドライバーキットです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:36
 msgid "Flush Cutter"
@@ -72,10 +78,7 @@ msgid ""
 "below is still great for 3D Printing and general use, just make sure that "
 "they stay sharp!"
 msgstr ""
-"Flush "
-"cutters、つまりダイアゴナルカッターやスニップス（チームによってはスニッパーズ）は、プリンター上またはプリント物に切削や切り落としを行う非常に "
-"versatile な工具です。以下のように写真で示されているような安価な一対でも、3D "
-"プリンティングや一般的な用途には十分な性能がありますので、刃先が鋭いか確認してください！"
+"フラッシュカッターは、チームによって対角カッター、スニップ、またはスニッパーとも呼ばれる非常に多用途なツールであり、プリンターや印刷物の切断やトリミングに使用できます。以下に示すような安価なペアでも、3Dプリントや一般的な使用には十分ですので、常に鋭利な状態を保つようにしてください。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:50
 msgid "PTFE Cutter"
@@ -93,15 +96,21 @@ msgid ""
 " spun around it a few times, and then the cut will be complete with little "
 "effort."
 msgstr ""
-"多くの人がPTFEチューブをカッターで切るか、フラッシュカットヤスリで切ることができると思っているが、その欠点に気づかないことが多い。カッターの圧力はチューブの側面を圧縮したり変形させたりする可能性があり、特にエラー許容量が狭いPTFEチューブでは、これによりチューブが使用不能になることがある。下記の画像で示したように、専用のPTFEチューブカッターを使用することで、プリンタでのフィラメント輸送において最も重要な部分であるチューブの品質を確保できる。下記の画像はPTFEチューブに取り付けられ、数回回転させた後、わずかな力で切断が完了する。"
+"多くの人々は、PTFEチューブをハサミやフラッシュカッターで切ることができると考えていますが、その欠点に気づいていません。"
+""
+"ハサミやフラッシュカッターの圧力によって、チューブの側面が圧縮されたり変形したりすることがあり、一部のPTFEチューブは誤差の余地が少ないため、これによりチューブが使用できなくなることがあります。"
+""
+"下に示すような専用のPTFEチューブカッターは、プリンターのフィラメント輸送において最も重要な部分の一つが良好な品質であることを確保できます。"
+""
+"下に示すものは、PTFEチューブにクランプで固定され、数回回転させた後、少ない労力で切断が完了します。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A basic PTFE tube cutter."
-msgstr "PTFE管用の基本的なカッター。"
+msgstr "基本的なPTFEチューブカッターです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:67
 msgid "Calipers"
-msgstr "カリパーズ"
+msgstr "キャリパー"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:69
 msgid ""
@@ -111,11 +120,11 @@ msgid ""
 "printer. We'd recommend getting a quality pair with solid reviews that will "
 "last you a while and remain precise."
 msgstr ""
-"カリパースは、距離をミリメートル単位で正確に測定する精密な測定工具です。多くの場合、分の百分の一まで測定できます。これらの工具は、押し入しやスリップフィットの調整、寸法精度の確認、プリンターのチューニングに非常に有用です。品質が良くレビューも良い持久力のあるカリパースをおすすめします。"
+"キャリパーは、しばしばミリメートルの百分の一までの距離を測定するために使用される精密測定工具です。これらは、プレスフィットやスリップフィットを調整し、寸法精度を確保し、プリンターの調整を行うために非常に便利です。長持ちし、精度を保つことができる高品質の製品を購入することをお勧めします。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A nice set of calipers, for accurate measurement."
-msgstr "正確な測定のために良いセットの計量器です。"
+msgstr "正確な測定のための素晴らしいキャリパーセットです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:82
 msgid "Files/Sandpaper"
@@ -128,15 +137,15 @@ msgid ""
 "Oftentimes, quickly filing a part down can save you loads of print time so "
 "it's great to have some on hand."
 msgstr ""
-"ファイルやサンドペーパーは、滑らかな表面仕上げを得るために非常に有用で、プリントが当初の用途に適さなかった場合にも形状を微調整できる可能性があります。部分的な削り直しを行うことで、多くのプリント時間を節約することが多いので、手元に用意しておいた方が良いです。"
+"ファイルとサンドペーパーは、良好な表面仕上げを得るためや、印刷物が最初にあなたの使用ケースに合わなかった場合に修正するために非常に便利です。しばしば、部品を素早く削ることで印刷時間を大幅に節約できるため、手元にいくつか用意しておくと良いでしょう。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A set of multiple types of files and rasps."
-msgstr "複数種類のファイルと研磨工具のセットです。"
+msgstr "複数の種類のファイルとラスポのセット。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:96
 msgid "Putty Knives"
-msgstr "プラティ knives"
+msgstr "パテナイフ"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:98
 msgid ""
@@ -145,12 +154,11 @@ msgid ""
 "the bed while it's still hot and to give yourself some extra leverage on "
 "those prints that are really stuck."
 msgstr ""
-"基本的には、プッティナイフは3Dプリントをベッドから取り出すための spatula "
-"の役割を果たすことができます。これには、ベッドがまだ熱いうちに触れずにプリントを取り除くために必要なものであるだけでなく、特に固着しているプリントに対して追加の力を持ち込むためにも必要です。"
+"基本的に、パテナイフはスパチュラとして使用でき、3Dプリントをベッドから引き剥がすために使われます。これは、ベッドがまだ熱い状態で触れるのを避けるため、また本当にくっついているプリントに対して追加のてこの原理を与えるために、プリントの取り外しには必須です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A standard putty knife for print removal."
-msgstr "印刷物の取り外しに使用する標準的なパットナイフ。"
+msgstr "印刷物を取り除くための標準的なパテナイフです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:110
 msgid "Electrical Tools"
@@ -163,9 +171,8 @@ msgid ""
 "components. The ability to make your own wires is invaluable, and can often "
 "save you a lot of time from ordering materials."
 msgstr ""
-"3Dプリンターを改造するか、電気部品を交換する場合、クリンパー、溶接用の鉛筆型溶接器、そして良いワイヤーストリッパは必ず用意しておいた方が良いです。 "
-"OWN（自己製作）のワイヤーを作成できる能力は非常に貴重で、材料を注文する時間を大幅に節約することがあります。"
+"クランプ、はんだごて、そして良いワイヤーストリッパーは、3Dプリンターを改造したり、電気コンポーネントを交換したりする予定がある場合には非常に重要です。自分でワイヤーを作る能力は非常に貴重であり、材料を注文する時間を大幅に節約できることがよくあります。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_tools/common_tools.rst:-1
 msgid "A good quality wire crimper, the Engineer PA-09."
-msgstr "品質の良いワイヤークリンパー、エンジニアPA-09。"
+msgstr "高品質なワイヤークランプ、Engineer PA-09。"

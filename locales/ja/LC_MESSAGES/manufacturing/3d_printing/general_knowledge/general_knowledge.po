@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:8
 msgid "3D Printing Terminology"
-msgstr "3Dプリント用語"
+msgstr "3Dプリンティング用語"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:8
 msgid "Common 3D Printing Tools"
@@ -29,7 +29,7 @@ msgstr "一般的な3Dプリンティングツール"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:8
 msgid "Common 3D Printing Upgrades"
-msgstr "一般的な3Dプリンティングのアップグレード"
+msgstr "一般的な3Dプリントのアップグレード"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/general_knowledge.rst:8
 msgid "Hardware Tradeoffs"
@@ -46,4 +46,4 @@ msgid ""
 "reading through at least the terminology section before getting into the "
 "more advanced knowledge documented here!"
 msgstr ""
-"次のセクションは、3Dプリンティングに関する操作、メンテナンス、および用語についての一般知識です。ここに記載されている高度な知識に入る前に、少なくとも用語セクションを読むことを強く推奨します！"
+"以下のセクションは、3Dプリンティングに関する操作、メンテナンス、および用語に関する一般的な知識です。ここに記載されているより高度な知識に入る前に、少なくとも用語のセクションを読むことを強くお勧めします！"

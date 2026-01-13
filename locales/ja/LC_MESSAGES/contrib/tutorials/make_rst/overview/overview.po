@@ -6,28 +6,28 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:2
 msgid "ReStructured Text Overview"
-msgstr "reStructuredTextの概要"
+msgstr "ReStructured Text 概要"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:4
 msgid ""
 "This overview serves to describe the overall purpose and functionality of "
 "reStructured Text (rST) files."
-msgstr "この概要は、reStructuredText（rST）ファイルの全体的な目的と機能を説明することを目的としています。"
+msgstr "この概要は、reStructured Text (rST) ファイルの全体的な目的と機能を説明するためのものです。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:8
 msgid "Overview"
@@ -49,13 +49,15 @@ msgid ""
 "the opinion of this author, readable by the average person and cannot be "
 "easily translated between output formats whereas \"reStructured Text\" is."
 msgstr ""
-"最初に、「reStructured "
-"Text」は少し誤解の元になる表現かもしれません。これは、特定の一貫したパターン（マークアップとも呼ばれます）を使用して、テキストが最終的にどのように表示されるべきかまたは感じられるべきかをツールに指示する「Text」に近いものです。たとえば、ある文節が * イタリック * に、 ** 強調 ** され、またはその位置に画像が表示されることを示すことができます。reStructured"
-" "
-"Textは、ウェブプログラミングやPDF出版の経験が不要で、かつ人間が読める形で、最小限のインタラクティブなウェブページ、PDFドキュメント、他の出力形式を生成するのに使用されます。このようにして、reStructured"
-" "
-"Textは一度書けば、多くの異なるフォーマットやプラットフォームにエクスポートすることができます。平均的な人間が読めるようなウェブプログラミングやPDF作成ツールは、出力形式の間で翻訳するのが難しいと考えられていますが、「reStructured"
-" Text」はそうではありません。"
+"最初に言っておきたいのは、「reStructured Text」という名称は少し誤解を招くかもしれないということです。"
+""
+"これは、特定の一貫したパターン（ *markup* としても知られています）を使用して、ツールにそのテキストが最終的にどのように見えるべきか、または感じるべきかを指示する「テキスト」に近いものです。例えば、ある文章が *italicized* であるべきか、 **bolded** であるべきか、または画像が最終文書のその位置に表示されるべきかどうかを示します。"
+""
+"reStructured Textは、 *minimally-interactive web pages* 、PDFドキュメント、および他の形式の出力を生成するために使用され、実際のウェブプログラミングやPDF出版の経験が必要なく、なおかつ人間が読みやすい形で提供されます。"
+""
+"このようにして、reStructured Textは文字通り一度書かれた後、さまざまなフォーマットやプラットフォームにエクスポートすることができます。"
+""
+"この著者の意見では、比較可能なウェブプログラミングおよびPDF作成ツールは、一般の人には読みやすくなく、出力フォーマット間で簡単に変換することができませんが、「reStructured Text」はそのようなことが可能です。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:25
 msgid "History"
@@ -78,19 +80,23 @@ msgid ""
 "reinterpreted\" into a new format, which ultimately became called "
 "\"reStructured Text\" (rST)."
 msgstr ""
-"現在、非常に短い歴史のレッスンです：1990年代初頭に初めて「構造化テキスト」マークアップ言語が開発されました - "
-"これらの言語は、急速に発展するソフトウェア産業で異なる種類のプログラムドキュメンテーションを開発するのに役立ちました。これにより、シンボルや指示子を普通のテキストに追加して、一般的なツールによって処理できる標準が作られました。このようにドキュメンテーションは、ユーザーまたは企業が望むどのような方法で読まれたりフォーマットされたりすることができました"
-" - "
-"それは印刷コマンドとしてコンバートされて紙に印刷されることがあり、スクリーン上にレンダリングされることもあり、テキストから音声に変換されるシステムによって読み上げられることもあり、多くの他の用途でも使用されます。不幸なことに、この業界では通常通り、ツールはすぐにユーザーのニーズに対応できなくなりすぎたり、複雑すぎるものになったりしました。2000年代初頭には、「構造化テキスト」の要素が「改訂され、再整理され、再解釈されて」新しいフォーマットに変換され、最終的に「reStructured"
-" Text」（rST）と呼ばれました。"
+"さて、非常に簡単な歴史の授業を始めます。1990年代初頭に、最初の「Structured Text」マークアップ言語が開発されました。これらの言語は、急速に発展するソフトウェア産業のために、さまざまな種類のプログラムドキュメントを作成するのに役立てられました。"
+""
+"これにより、プレーンテキストに記号や指示を追加するための普遍的な標準が作られ、一般的なツールによって処理できるようになりました。"
+""
+"このようにして、ドキュメントはユーザーや企業が望む任意の方法で読み取られ、フォーマットされることが可能になりました。印刷用のプリンターコマンドに変換して紙に印刷することも、画面に表示することも、テキストを音声に変換するシステムによって読み上げることも、その他多くの方法で使用することもできます。"
+""
+"残念ながら、この業界ではよくあることですが、ツールはすぐに複雑すぎたり、ユーザーのニーズに対して柔軟性が不足したりしました。"
+""
+"2000年代初頭に、「Structured Text」の要素が「改訂、再構築、再解釈」され、新しいフォーマットに変換され、最終的には「reStructured Text」（rST）と呼ばれるようになりました。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:42
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:44
 msgid "As a quick example, consider the following text::"
-msgstr "QUICK な例として、次のテキストを考えてください::"
+msgstr "簡単な例として、以下のテキストを考えてみてください::"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:48
 msgid ""
@@ -98,17 +104,16 @@ msgid ""
 " we would add two asterisks (**) to the front and end of each word to make "
 "them **bold**. Let's do that by modifying the text to show the following::"
 msgstr ""
-"Let's assume we want to ** 強調 ** the nouns in the sentence, so in rST format "
-"we would add two asterisks ( ** ) to the front and end of each word to make "
-"them ** bold. Let's do that by modifying the text to show the following::"
+"名詞を文中で **bold** すると仮定しましょう。したがって、rST形式では二つのアスタリスクを追加して(**) to the front and "
+"end of each word to make them ** 太字**)表現します。次のようにテキストを修正してみましょう::"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:54
 msgid "This would ultimately output text that looks like:"
-msgstr "これは最終的に次のようになります："
+msgstr "最終的には、次のようなテキストが出力されます："
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:56
 msgid "The quick brown **fox** jumped over the lazy **dog**."
-msgstr "素早い茶色の **fox** は怠惰な **dog** の上を飛び越えた。"
+msgstr "速い茶色の **fox** が怠け者の **dog** を飛び越えました。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:58
 msgid ""
@@ -116,15 +121,16 @@ msgid ""
 "*italicize* words or sections by adding a single asterisk (*) to the front "
 "and end of each section we want to *italicize*. It would now look like so::"
 msgstr ""
-"今では「quick」をイタリック体にしたいですね。rST形式では、イタリック体にするためには、各イタリック体の部分の前後に単一のアスタリスク()を追加します。以下のように表示されます::"
+"今、 ``quick`` という単語を *italicized* にしましょう。rST形式では、私たちは *italicize* "
+"したい単語やセクションの前後にアスタリスク（*）を1つ追加することで、セクションを *italicize* します。これで次のようになります::"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:64
 msgid "This would output text that looks like:"
-msgstr "これは出力するテキストが見えるようになります。"
+msgstr "これは次のようなテキストを出力します："
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:66
 msgid "The *quick* brown **fox** jumped over the lazy **dog**."
-msgstr "速い棕毛の **fox** は怠惰な **dog** の上を飛び越えました。"
+msgstr "*quick* 茶色の **fox** が怠け者の **dog** を飛び越えました。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:68
 msgid ""
@@ -133,23 +139,21 @@ msgid ""
 " this, we use a slightly more complex piece of markup that includes \"back "
 "ticks\" (`) and ends in an underscore (_), like this::"
 msgstr ""
-"最後に、「over」の言葉に `dictionary.com での over の辞書参照 "
+"最後に、「over」という単語に `dictionary.com reference of the word over "
 "<https://www.dictionary.com/browse/over>`_ "
-"をリンク追加しましょう。これを行うには、バックタック（）とアンダースコア（_）を含むやや複雑なマークアップを使用します。以下のように::"
+"へのリンクを追加しましょう。これを行うために、バックティック（`）を含み、アンダースコア（_）で終わる少し複雑なマークアップを使用します。次のようになります::"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:75
 msgid ""
 "And this sentence with several different kinds of *markup* finally would be "
 "displayed as:"
-msgstr "そして、さまざまな種類のマークアップが含まれたこの文は以下のように表示されます："
+msgstr "そして、この文は様々な種類の *markup* を用いて最終的に次のように表示されます："
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:77
 msgid ""
 "The *quick* brown **fox** jumped `over "
 "<https://www.dictionary.com/browse/over>`_ the lazy **dog**."
-msgstr ""
-"速い * Browns ** fox ** は、怠け者 ** dog * の上を`越えて "
-"<https://www.dictionary.com/browse/over>`_ jumped。"
+msgstr "*quick* 茶色の **fox** が怠け者の **dog** を飛び越えました。"
 
 #: ../../source/contrib/tutorials/make_rst/overview/overview.rst:79
 msgid ""
@@ -157,4 +161,4 @@ msgid ""
 "accomplished. Move on to the other elements of this tutorial to learn more "
 "about rST."
 msgstr ""
-"これはrSTで何が可能になるかの簡単な例です。そして、rSTがどのように実現されるのかを学ぶために、このチュートリアルの他の要素に進んでください。"
+"これは、rSTで何ができるかとそれがどのように実現されるかの簡単な例です。このチュートリアルの他の要素に進んで、rSTについてさらに学んでください。"

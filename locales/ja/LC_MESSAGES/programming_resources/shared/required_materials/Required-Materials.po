@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:2
 msgid "Required Materials"
-msgstr "必要とする素材"
+msgstr "必要な材料"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:4
 msgid ""
@@ -30,11 +30,11 @@ msgid ""
 " tutorials, you will need to have the following materials available:"
 msgstr ""
 "このウィキには、 *FIRST* Tech Challenge "
-"コントロールシステムを構成、プログラミング、および操作する方法を示すチュートリアルが含まれています。チュートリアルを完了するためには、次の材料が必要です："
+"コントロールシステムの構成、プログラミング、および操作方法を示すチュートリアルが含まれています。チュートリアルを完了するには、以下の材料を用意する必要があります："
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:8
 msgid "androidphones"
-msgstr "Androidスマートフォン"
+msgstr "Androidフォン"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:9
 msgid "chandphones"
@@ -42,11 +42,11 @@ msgstr "チャンドフォン"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:11
 msgid "wifi"
-msgstr "Wi-Fi"
+msgstr "wifi"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:13
 msgid "laptop"
-msgstr "ノートパソコン"
+msgstr "PC"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:15
 msgid "chrome"
@@ -54,7 +54,7 @@ msgstr "chrome"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:17
 msgid "exhub"
-msgstr "exhubs"
+msgstr "exhub"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:19
 msgid "switch"
@@ -70,11 +70,11 @@ msgstr "バッテリー"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:24
 msgid "slimbattery"
-msgstr "slim battery"
+msgstr "スリムバッテリー"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:26
 msgid "motor"
-msgstr "モータ"
+msgstr "モーター"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:28
 msgid "jst"
@@ -86,11 +86,11 @@ msgstr "サーボ"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:32
 msgid "color"
-msgstr ""
+msgstr "色"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:34
 msgid "touch"
-msgstr "触れると"
+msgstr "タッチ"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:36
 msgid "usba"
@@ -98,7 +98,7 @@ msgstr "usba"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:38
 msgid "otg"
-msgstr "OTG"
+msgstr "otg"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:40
 msgid "f310"
@@ -110,7 +110,7 @@ msgstr "Driver Hub"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:50
 msgid "Required Item(s)"
-msgstr "必須アイテム(s)"
+msgstr "必要なアイテム"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:51
 msgid "Image"
@@ -122,8 +122,8 @@ msgid ""
 "the Competition Manual does allow teams to instead use a REV Robotics "
 "Expansion Hub and a select list of Android phones."
 msgstr ""
-"REV Robotics Control HubをRobot Controllerとして使用します。また、競技マニュアルではチームがREV "
-"Robotics Expansion Hubと選定されたAndroid フォンのリストを使用することも許可されています。"
+"REV Robotics Control HubはROBOT CONTROLLERとして使用されます。代わりに、競技マニュアルではチームがREV "
+"Robotics Expansion Hubと特定のAndroid電話のリストを使用することも許可されています。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:57
 msgid "|chandphones| |exhub|"
@@ -135,8 +135,8 @@ msgid ""
 "Alternately, the Competition Manual does allow teams to instead use a select"
 " list of Android phones. See rule R901 for the full details."
 msgstr ""
-"REV Robotics Driver Hubを使用してDRIVER "
-"STATIONデバイスとして利用します。ただし、コンペティションマニュアルでは、チームは指定された一覧のAndroidスマートフォンを使用することも可能です。「ルールR901」を参照してください。"
+"REV Robotics Driver Hubは、DRIVER "
+"STATIONデバイスとして使用されます。代わりに、競技マニュアルでは、チームが選択されたAndroidフォンのリストを使用することも許可されています。詳細については、ルールR901を参照してください。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:63
 msgid "|driverhub|"
@@ -144,7 +144,7 @@ msgstr "|driverhub|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:65
 msgid "Wireless Internet access."
-msgstr "無線インターネットアクセス。"
+msgstr "ワイヤレスインターネットアクセス。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:66
 msgid "|wifi|"
@@ -160,9 +160,13 @@ msgid ""
 "Controller. Refer to your device’s user documentation for details on how to "
 "connect to a Wi-Fi network."
 msgstr ""
-"Microsoft Windows 7、8、10、または11搭載のノートパソコンとWi-"
-"Fi機能が必要です。Microsoftから最新のサービスパックやシステム更新をインストールしていることを確認してください。プログラミングデバイスとしてChromebookやAndroidタブレットなどの異なるタイプの機器を使用する場合、Robot"
-" Controller上のプログラミングサーバーにアクセスする手順は若干異なります。詳細については、各デバイスのユーザドキュメントを参照してください。"
+"Microsoft Windows 7、8、10、または11を搭載し、Wi-Fi機能を持つPC。"
+""
+"お使いのPCには、Microsoftからの最新のサービスパックおよびシステムアップデートが適用されていることを確認してください。"
+""
+"プログラミングデバイスとして異なる種類の機械（Chromebook、Androidタブレットなど）を使用している場合、Robot Controller上のProgramming Serverにアクセスする手順が若干異なる場合があります。"
+""
+"Wi-Fiネットワークに接続する方法の詳細については、お使いのデバイスのユーザードキュメントを参照してください。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:69
 msgid "|laptop|"
@@ -171,7 +175,7 @@ msgstr "|laptop|"
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:71
 msgid ""
 "Javascript-enabled web browser (Google Chrome is the recommended browser)."
-msgstr "JavaScriptが有効なウェブブラウザ（Google Chromeが推奨されます）。"
+msgstr "Javascriptが有効なウェブブラウザ（推奨ブラウザはGoogle Chromeです）。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:72
 msgid "|chrome|"
@@ -179,7 +183,7 @@ msgstr "|chrome|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:74
 msgid "REV Robotics Switch, Cable, & Bracket (REV-31-1387)."
-msgstr "REVロボティクスのスイッチ、ケーブル、およびブラケット (REV-31-1387)。"
+msgstr "REV Robotics スイッチ、ケーブル、およびブラケット (REV-31-1387)。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:75
 msgid "|switch|"
@@ -191,13 +195,13 @@ msgid ""
 "REV-31-1302).\\*\\ **For a list of FIRST-approved 12V batteries, refer to "
 "the current Competition Manual.**\\"
 msgstr ""
-"*FIRST*-approved\\* 12Vバッテリー (たとえばTetrix W39057やREV Robotics "
-"REV-31-1302).\\*\\ ** FIRST-approved 12Vバッテリーのリストについては、現在の競技マニュアルを参照してください。 "
-"** \\"
+"*FIRST* 承認済み\\* 12V バッテリー（Tetrix W39057 または REV Robotics REV-31-1302 "
+"など）。\\*\\ **For a list of FIRST-approved 12V batteries, refer to the current"
+" Competition Manual.**\\"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:78
 msgid "|battery|   Or |slimbattery|"
-msgstr "|battery|   もしくは |slimbattery|"
+msgstr "|battery| または |slimbattery|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:80
 msgid ""
@@ -205,8 +209,9 @@ msgid ""
 "W41352).\\*\\ **For a list of FIRST-approved 12V motors, refer to the "
 "current Competition Manual.**\\"
 msgstr ""
-"*FIRST*-approved\\* 12V DCモーター（たとえばTetrix W39530、電源ケーブルW41352付き）。\\*\\  ** "
-"12Vモーターのリストについては、現在の競技マニュアルを参照してください。 ** \\"
+"*FIRST* 承認済み\\* 12V DCモーター（Tetrix W39530など、電源ケーブルW41352付き）。\\*\\ **For a "
+"list of FIRST-approved 12V motors, refer to the current Competition "
+"Manual.**\\"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:81
 msgid "|motor|"
@@ -220,10 +225,9 @@ msgid ""
 "(REV-31-1302) then you will not need this adapter since the REV battery "
 "already has an XT30 connector."
 msgstr ""
-"もし承認された12Vバッテリー（タミヤコネクタを搭載しているもの）を使用している場合（たとえば、Tetrix W39057バッテリーなど）、REV "
-"Robotics Tamiya to XT30 Adapter Cable (REV-31-1382)が必要です。REV Robotics Slim "
-"Battery (REV-31-1302)を持っている場合は、 REV バッテリーにXT30コネクタが 既に "
-"ついているため、このアダプターは必要ありません。"
+"承認されたTamiyaコネクタを持つ12Vバッテリー（Tetrix W39057バッテリーのような）を使用している場合は、REV Robotics "
+"Tamiya to XT30アダプターケーブル（REV-31-1382）が必要です。REV Robotics Slim "
+"Battery（REV-31-1302）をお持ちの場合は、REVバッテリーに既にXT30コネクタが付いているため、このアダプターは必要ありません。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:85
 msgid "|tamiya|"
@@ -231,7 +235,7 @@ msgstr "|tamiya|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:87
 msgid "REV Robotics Anderson to JST VH Cable (REV-31-1381)."
-msgstr "REVロボティクス・アンダーソンからJST VHケーブル（REV-31-1381）."
+msgstr "REV Robotics AndersonからJST VHケーブル（REV-31-1381）へ。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:88
 msgid "|jst|"
@@ -239,7 +243,7 @@ msgstr "|jst|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:90
 msgid "180-Degree Standard Scale Servo (such as Hitec HS-485HB)."
-msgstr "180度標準スケールサーボ（例：HITEC HS-485HB）"
+msgstr "180度標準スケールサーボ（例：Hitec HS-485HB）。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:91
 msgid "|servo|"
@@ -247,7 +251,7 @@ msgstr "|servo|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:93
 msgid "REV Robotics Color Sensor with 4-Pin Cable (REV-31-1154)."
-msgstr "REVロボティクスカラーセンサ（4ピンケーブル付）(REV-31-1154)。"
+msgstr "REV Robotics カラーセンサー（4ピンケーブル付き）（REV-31-1154）。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:94
 msgid "|color|"
@@ -255,7 +259,7 @@ msgstr "|color|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:96
 msgid "REV Robotics Touch Sensor with 4-Pin Cable( REV-31-1425)."
-msgstr "REVロボティクスのタッチセンサ（4ピンケーブル付）( REV-31-1425 )."
+msgstr "REV Robotics タッチセンサー（4ピンケーブル付き、REV-31-1425）。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:97
 msgid "|touch|"
@@ -263,7 +267,7 @@ msgstr "|touch|"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:99
 msgid "Logitech F310 USB Gamepad."
-msgstr "LogitechF310 USBゲームパッド。"
+msgstr "Logitech F310 USB ゲームパッド。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:100
 msgid "|f310|"
@@ -275,8 +279,8 @@ msgid ""
 "Type A male to type mini-B male cable. Control Hub users do not need this "
 "cable."
 msgstr ""
-"もしRobot Controllerとしてスマートフォンを使用している場合、USB Type A メール.ToShortCutTo(USB Type "
-"mini-B メール.ToShortCutFrom)ケーブルが必要です。Control Hubを使用している場合はこのケーブルは必要ありません。"
+"スマートフォンをロボットコントローラーとして使用する場合、USB Type AオスからType mini-Bオスのケーブルが必要です。Control "
+"Hubのユーザーはこのケーブルを必要としません。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:103
 msgid "|usba|"
@@ -288,8 +292,8 @@ msgid ""
 "(2) micro USB OTG adapters. If you are using a Control Hub as your Robot "
 "Controller, you will need one(1) micro USB OTG adapter."
 msgstr ""
-"もしRobot Controllerとしてスマートフォンを使用している場合、2つ（2）のmicro USB OTG アダプターが必要です。Control"
-" Hubを使用する場合は、1つ（1）のmicro USB OTG アダプターが必要です。"
+"スマートフォンをロボットコントローラーとして使用する場合、2つのマイクロUSB "
+"OTGアダプターが必要です。コントロールハブをロボットコントローラーとして使用する場合は、1つのマイクロUSB OTGアダプターが必要です。"
 
 #: ../../source/programming_resources/shared/required_materials/Required-Materials.rst:106
 msgid "|otg|   |otg|"

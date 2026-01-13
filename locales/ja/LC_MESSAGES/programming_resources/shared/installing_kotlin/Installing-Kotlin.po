@@ -6,26 +6,26 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:2
 msgid "Using the Kotlin Programming Language"
-msgstr "Kotlinプログラミング言語を使用する"
+msgstr "Kotlinプログラミング言語の使用"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:6
 msgid "What Is Kotlin?"
-msgstr "Kotlinとは"
+msgstr "Kotlinとは何ですか？"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:9
 msgid ""
@@ -35,8 +35,8 @@ msgid ""
 "JetBrains, the same company that developed the IntelliJ IDE (the basis for "
 "Android Studio)."
 msgstr ""
-"Kotlinプログラミング言語は、Javaプログラミング言語の現代的な代替として、Java仮想マシン（JVM）上でコンパイルおよび実行でき、Androidアプリケーションを開発するために使用できます。JetBrains社によって開発され、同社が開発したIntelliJ"
-" IDE（Android Studioの基礎）と同じ企業です。"
+"Kotlinプログラミング言語は、Javaプログラミング言語の現代的な代替手段であり、Java仮想マシン（JVM）上でコンパイルおよび実行され、Androidアプリケーションの開発に使用できます。これは、IntelliJ"
+" IDE（Android Studioの基盤）を開発したのと同じ会社であるJetBrainsによって開発されました。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:14
 msgid "https://kotlinlang.org/"
@@ -49,13 +49,13 @@ msgid ""
 "to write code and less prone to errors. Some of the features of Kotlin "
 "include:"
 msgstr ""
-"Javaに基づいており、Kotlinは多くの同じ機能と構文を共有しています。しかし、新しい機能や構文も追加されており、コードの書きやすさが向上し、エラーの発生リスクが低減されます。Kotlinの特徴には以下のようなものがあります："
+"Javaを基にしているため、Kotlinは多くの同じ機能と構文を共有しています。しかし、Kotlinはコードの記述を容易にし、エラーが発生しにくくする新しい機能や構文も多数追加しています。Kotlinの機能のいくつかは次のとおりです："
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:20
 msgid ""
 "Full interoperability with Java; you can use Java classes and libraries from"
 " Kotlin and vice versa."
-msgstr "Javaとの完全な互換性があります；KotlinからJavaのクラスやライブラリを使用でき、逆も同様です。"
+msgstr "Javaとの完全な相互運用性があり、KotlinからJavaのクラスやライブラリを使用することも、その逆も可能です。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:21
 msgid ""
@@ -63,40 +63,41 @@ msgid ""
 "is, you don't need to specify the type of a variable when it can be inferred"
 " from the context (``var myString = \"Hi!\"``)."
 msgstr ""
-"型推論；Kotlinでは必要に応じて型推論を使用できます。つまり、変数の型が文脈から推論できる場合は明示的に型を指定する必要はありません（例: "
-"``var myString = \"Hi!\"``）。\\n"
+"型推論; Kotlinでは、必要に応じて型推論を使用することができます。つまり、文脈から推測できる場合、変数の型を指定する必要はありません (``var"
+" myString = \"Hi!\"``)。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:24
 msgid "No semicolons; Kotlin does not require semicolons to end statements."
-msgstr "セミコロンを使用しないでください；Kotlinはステートメントの終了にセミコロンを必要としません。"
+msgstr "セミコロンは不要です。Kotlinでは、ステートメントの終了にセミコロンは必要ありません。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:25
 msgid ""
 "Data classes; Kotlin has a concise syntax for creating classes that are used"
 " to store data."
-msgstr "データクラス；Kotlinは、データを保存するために使用されるクラスを作成するための簡潔な構文を持っています。"
+msgstr "データクラス; Kotlinはデータを格納するために使用されるクラスを作成するための簡潔な構文を持っています。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:26
 msgid ""
 "Extension functions; Kotlin allows you to add functions to existing classes "
 "without having to modify the original class."
-msgstr "拡張関数；Kotlinでは、既存のクラスに機能を追加することができて、元のクラスを修正せずに済みます。"
+msgstr "拡張関数; Kotlinでは、元のクラスを変更することなく、既存のクラスに関数を追加することができます。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:28
 msgid ""
 "Null safety; Kotlin has a type system that helps eliminate null pointer "
 "exceptions."
-msgstr "null安全性；Kotlinはnull指針例外を eliminates を防ぐために型システムを持っています。"
+msgstr "ヌル安全性; Kotlin にはヌルポインタ例外を排除するのに役立つ型システムがあります。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:29
 msgid ""
 "Operator overloading; Kotlin allows you to define how operators such as "
 "``+`` and ``*`` work with your own classes."
-msgstr "オペレーター上書き;Kotlinでは、 `+` や `*` 演算子が独自のクラスでどのように動作するかを定義できます。"
+msgstr ""
+"演算子オーバーロード; Kotlinでは、 ``+`` や ``*`` などの演算子が自分のクラスとどのように動作するかを定義することができます。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:31
 msgid "Many more!"
-msgstr "Many more!"
+msgstr "もっとたくさんあります！"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:33
 msgid ""
@@ -105,18 +106,19 @@ msgid ""
 "Java file to a Kotlin file. This is extremely useful to learn how certain "
 "Java code is written in Kotlin."
 msgstr ""
-"また、基本的なKotlinのコーディングを学ぶ必要がない場合は、Android StudioのIDEにはJavaコードのセクションや Entire "
-"JavaファイルをKotlinファイルに変換するツールがあります。これにより、特定のJavaコードがKotlinでどのように書かれているかを学ぶことが非常に便利になります。"
+"さらに、Kotlinをゼロから学びたくない場合、Android Studio "
+"IDEにはコードの一部やJavaファイル全体をKotlinファイルに変換するツールがあります。これは、特定のJavaコードがKotlinでどのように書かれているかを学ぶのに非常に便利です。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:37
 msgid ""
 "Because Kotlin is fully interoperable, you can also use all your existing "
 "Java code in a Kotlin project without having to convert it."
-msgstr "Kotlinが完全に相互運用可能であるため、既存のJavaコードをKotlinプロジェクトで使用できるので、変換することなく利用できます。"
+msgstr ""
+"Kotlinは完全に相互運用可能であるため、変換することなく、既存のすべてのJavaコードをKotlinプロジェクトで使用することもできます。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:42
 msgid "Using Kotlin in *FIRST* Tech Challenge"
-msgstr "FIRST Tech ChallengeでKotlinを使用する"
+msgstr "*FIRST* Tech Challenge での Kotlin の使用"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:45
 msgid ""
@@ -126,12 +128,12 @@ msgid ""
 " their own risk and should expect that there will not be technical "
 "help/support available at events in the case of software issues."
 msgstr ""
-"WHILE 本ドキュメント作成当時、Kotlinを使用するルールは存在していませんが、 *FIRST* Tech "
-"Challengeにおけるプログラミングオプションとして公式にサポートされたり推奨されていません。Kotlinを使用するチームは自己責任でその選択をし、ソフトウェアの問題が発生した場合、イベントでの技術的な支援は期待できないことを認識しておくべきです。"
+"このドキュメントの執筆時点では、 *FIRST* Tech "
+"ChallengeにおいてKotlinをプログラミングオプションとして禁止するルールはありませんが、公式にサポートされている言語や推奨される言語ではありません。Kotlinを使用するチームは自己責任で行い、ソフトウェアの問題が発生した場合、イベントで技術的な助けやサポートが利用できないことを予想する必要があります。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:52
 msgid "Installing Kotlin In Your Project"
-msgstr "あなたのプロジェクトにKotlinをインストールする"
+msgstr "プロジェクトにKotlinをインストールする"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:55
 msgid ""
@@ -139,15 +141,15 @@ msgid ""
 "your project. This is done by adding the following lines to the root "
 "``build.gradle`` file in the ``buildscript`` section:"
 msgstr ""
-"AndroidプロジェクトでKotlinを使用するには、プロジェクトにKotlinプラグインを追加する必要があります。これを行うには、ルートの``build.gradle``ファイル内の``buildscript``セクションに次の行を追加します："
+"AndroidプロジェクトでKotlinを使用するには、プロジェクトにKotlinプラグインを追加する必要があります。これは、 "
+"``buildscript`` セクションのルート ``build.gradle`` ファイルに以下の行を追加することで行います："
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:76
 msgid ""
 "This file is located in the base folder of your project, not the one in the "
 "TeamCode module nor the one in the FtcRobotController module."
 msgstr ""
-"このファイルはプロジェクトのベースフォルダにあります。TeamCode モジュールや FtcRobotController "
-"モジュールにあるファイルとは別です。"
+"このファイルは、プロジェクトのベースフォルダーにあります。TeamCodeモジュールやFtcRobotControllerモジュールのフォルダーではありません。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:79
 msgid ""
@@ -158,12 +160,9 @@ msgid ""
 "<https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-"
 "plugin>`__)."
 msgstr ""
-"The exact Kotlin version can be changed/updated if desired per new releases."
-" The latest version as of this writing is 2.2.20 but you should check the "
-"Kotlin website to see if a newer version (one that is compatible with the "
-"current Gradle version) is available (see table `here "
-"<https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-"
-"plugin>`__)."
+"正確なKotlinのバージョンは、新しいリリースに応じて変更または更新することができます。この記事執筆時点での最新バージョンは2.2.20ですが、Kotlinのウェブサイトを確認して、現在のGradleバージョンと互換性のある新しいバージョンが利用可能かどうかを確認する必要があります（表"
+" `here <https://kotlinlang.org/docs/gradle-configure-project.html#apply-the-"
+"plugin>`__ を参照してください）。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:84
 msgid ""
@@ -171,8 +170,8 @@ msgid ""
 "TeamCode module. Open the file and find the following section near the top "
 "of the file. Change it to look like this:"
 msgstr ""
-"次に、TeamCode モジュールの ``build.gradle`` ファイルに Kotlin "
-"プラグインを追加する必要があります。ファイルを開き、ファイルの上部近くにある次のセクションを見つけます。それを以下のように変更します："
+"次に、TeamCodeモジュールの ``build.gradle`` "
+"ファイルにKotlinプラグインを追加する必要があります。ファイルを開き、ファイルの上部付近にある以下のセクションを見つけてください。これを次のように変更します："
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:95
 msgid ""
@@ -180,16 +179,16 @@ msgid ""
 " other dependencies. This is done by clicking on the ``Sync Now`` link in "
 "the upper right corner of the Android Studio window."
 msgstr ""
-"最後に、Kotlinプラグインや他の依存関係をダウンロードするためには、Android Studioウィンドウ右上の「Sync "
-"Now」リンクをクリックしてGradle同期が必要です。"
+"最後に、Kotlinプラグインやその他の依存関係をダウンロードするために、Gradle同期を実行する必要があります。これは、Android "
+"Studioウィンドウの右上隅にある ``Sync Now`` リンクをクリックすることで行います。"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:-1
 msgid "Gradle Sync Icon"
-msgstr "Gradle同期アイコン"
+msgstr "Gradle Sync アイコン"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:105
 msgid "Make sure you are on a reliable internet connection when you do this!"
-msgstr "この操作を行う際は、信頼できるインターネット接続にご注意ください！"
+msgstr "これを行う際は、信頼できるインターネット接続にいることを確認してください！"
 
 #: ../../source/programming_resources/shared/installing_kotlin/Installing-Kotlin.rst:107
 msgid ""
@@ -198,6 +197,6 @@ msgid ""
 "``File -> Settings -> Plugins`` and search for \"Kotlin\". Click on the "
 "``Install`` button to install the plugin."
 msgstr ""
-"もしGradle同期を実行する際に「Kotlinが設定されていません」というエラーが表示された場合、Kotlinプラグインのインストールが必要かもしれません。これを行うには、``ファイル"
-" -> 設定 -> プラグイン`` に移動し、「Kotlin」を探してみてください。``インストール`` "
+"Gradleの同期を実行しようとしたときに「Kotlinが構成されていません」というエラーが表示された場合、Kotlinプラグインをインストールする必要があるかもしれません。これを行うには、"
+" ``File -> Settings -> Plugins`` に移動し、「Kotlin」を検索します。 ``Install`` "
 "ボタンをクリックしてプラグインをインストールします。"

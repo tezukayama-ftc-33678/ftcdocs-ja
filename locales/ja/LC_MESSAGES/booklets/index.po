@@ -6,28 +6,28 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/booklets/index.rst:2
 msgid "Booklets"
-msgstr "ブックレット"
+msgstr "小冊子"
 
 #: ../../source/booklets/index.rst:4
 msgid ""
 "More 'bite-sized' versions of the FTC Docs. These are meant to be printed "
 "out and used as a reference for teams."
-msgstr "FIRST Tech Challengeドキュメントのより「まとめ版」的なバージョン。これらのドキュメントは印刷して、チームが参照する際のリファレンスとして使用することを目的としています。"
+msgstr "FTCドキュメントの「バイトサイズ」バージョンです。これらは印刷してチームの参考として使用することを目的としています。"
 
 #: ../../source/booklets/index.rst:11
 msgid "Control System"
@@ -38,7 +38,8 @@ msgid ""
 "`Control System <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/control_system.pdf>`_"
 msgstr ""
-"`制御システム <https://ftc-docs-cdn.ftclive.org/booklets/en/control_system.pdf>`_"
+"`Control System <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/control_system.pdf>`_"
 
 #: ../../source/booklets/index.rst:16
 msgid "Manufacturing"
@@ -48,13 +49,17 @@ msgstr "製造"
 msgid ""
 "`3D Printing Guide <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/3d_printing.pdf>`_"
-msgstr "`3Dプリントガイド <https://ftc-docs-cdn.ftclive.org/booklets/en/3d_printing.pdf>`_"
+msgstr ""
+"`3D Printing Guide <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/3d_printing.pdf>`_"
 
 #: ../../source/booklets/index.rst:18
 msgid ""
 "`Electrostatic Discharge <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/esd.pdf>`_"
-msgstr "`静電気放電 <https://ftc-docs-cdn.ftclive.org/booklets/en/esd.pdf>`_"
+msgstr ""
+"`Electrostatic Discharge <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/esd.pdf>`_"
 
 #: ../../source/booklets/index.rst:21
 msgid "Programming Resources"
@@ -64,47 +69,58 @@ msgstr "プログラミングリソース"
 msgid ""
 "`Programming Resources <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_"
-msgstr "`プログラミングリソース <https://ftc-docs-cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_"
+msgstr ""
+"`Programming Resources <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/prgrm_res.pdf>`_"
 
 #: ../../source/booklets/index.rst:23
 msgid ""
 "`Android Studios Manual <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/android_studios.pdf>`_"
-msgstr "`Android Studios 手順書 <https://ftc-docs-cdn.ftclive.org/booklets/en/android_studios.pdf>`_"
+msgstr ""
+"`Android Studios Manual <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/android_studios.pdf>`_"
 
 #: ../../source/booklets/index.rst:24
 msgid ""
 "`OnBot Java Manual <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/onbot_java.pdf>`_"
-msgstr "`OnBot Java マニュアル <https://ftc-docs-cdn.ftclive.org/booklets/en/onbot_java.pdf>`_"
+msgstr ""
+"`OnBot Java Manual <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/onbot_java.pdf>`_"
 
 #: ../../source/booklets/index.rst:25
 msgid ""
 "`Blocks Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_"
-msgstr "`ブロックマニュアル <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_"
+msgstr ""
+"`Blocks Manual <https://ftc-docs-cdn.ftclive.org/booklets/en/blocks.pdf>`_"
 
 #: ../../source/booklets/index.rst:27
 msgid ""
 "`April Tags <https://ftc-docs-cdn.ftclive.org/booklets/en/april_tags.pdf>`_"
-msgstr "`April タグ <https://ftc-docs-cdn.ftclive.org/booklets/en/april_tags.pdf>`_"
+msgstr ""
+"`April Tags <https://ftc-docs-cdn.ftclive.org/booklets/en/april_tags.pdf>`_"
 
 #: ../../source/booklets/index.rst:28
 msgid ""
 "`Advanced User <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_"
 msgstr ""
-"`高度なユーザー <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_"
+"`Advanced User <https://ftc-docs-cdn.ftclive.org/booklets/en/advanced.pdf>`_"
 
 #: ../../source/booklets/index.rst:29
 msgid ""
 "`FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_"
-msgstr "`FIRST Tech Challenge SDKガイド <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_"
+msgstr ""
+"`FTC SDK Guide <https://ftc-docs-cdn.ftclive.org/booklets/en/sdk.pdf>`_"
 
 #: ../../source/booklets/index.rst:32
 msgid "Contributing"
-msgstr "寄稿"
+msgstr "貢献する"
 
 #: ../../source/booklets/index.rst:34
 msgid ""
 "`Contributor Guide <https://ftc-docs-"
 "cdn.ftclive.org/booklets/en/contrib.pdf>`_"
-msgstr "`貢献者ガイド <https://ftc-docs-cdn.ftclive.org/booklets/en/contrib.pdf>`_"
+msgstr ""
+"`Contributor Guide <https://ftc-docs-"
+"cdn.ftclive.org/booklets/en/contrib.pdf>`_"

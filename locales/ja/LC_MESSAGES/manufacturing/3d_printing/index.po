@@ -6,26 +6,26 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/index.rst:23
 msgid "3D Printing Introduction"
-msgstr "3Dプリンティングの入門"
+msgstr "3Dプリンティングの紹介"
 
 #: ../../source/manufacturing/3d_printing/index.rst:23
 msgid "Example 3d Printed Parts"
-msgstr "例：3Dプリント製部品"
+msgstr "3Dプリント部品の例"
 
 #: ../../source/manufacturing/3d_printing/index.rst:23
 msgid "General Knowledge"
@@ -33,7 +33,7 @@ msgstr "一般知識"
 
 #: ../../source/manufacturing/3d_printing/index.rst:23
 msgid "Printer Choice"
-msgstr "プリンタ選択"
+msgstr "プリンターの選択"
 
 #: ../../source/manufacturing/3d_printing/index.rst:23
 msgid "Filament Choice"
@@ -41,7 +41,7 @@ msgstr "フィラメントの選択"
 
 #: ../../source/manufacturing/3d_printing/index.rst:23
 msgid "Designing and Slicing"
-msgstr "設計とスライシング"
+msgstr "設計とスライス"
 
 #: ../../source/manufacturing/3d_printing/index.rst:23
 msgid "Specific Skill Guides"
@@ -62,7 +62,7 @@ msgstr "FIRST Tech Challengeにおける3Dプリンティング。"
 
 #: ../../source/manufacturing/3d_printing/index.rst:-1
 msgid "FIRST Tech Challenge, FTC Docs, Manufacturing, 3D Printing, Filaments"
-msgstr "FIRST Tech Challenge, FTC Docs, 制造, 3D プリンティング, フィラメント"
+msgstr "FIRST Tech Challenge、FTC Docs、製造、3Dプリンティング、フィラメント"
 
 #: ../../source/manufacturing/3d_printing/index.rst:11
 msgid ""
@@ -72,7 +72,7 @@ msgid ""
 "teams may want to test and iterate the design of a part rapidly and cheaply."
 " 3D printing is a great solution to all of these problems."
 msgstr ""
-"FTCで使用する多くの部品は特別な形状やサイズが必要で、販売元から購入できないものもあります。チームは機械加工や切り出しで不可能な部品が必要になる場合もありますし、軽量な部品が必要になることもあります。また、チームは部品の設計を速やかにテストし、改善するため廉価で迅速な方法が必要となることがあります。3Dプリンティングはこれらのすべての問題に対する素晴らしい解決策です。"
+"FTCの多くの部品は、特別な形状やサイズである必要があり、販売されているものやベンダーから入手できるものではありません。時には、チームが加工や切り出しが不可能な部品を必要としたり、軽量である必要があることもあります。また、他の時には、チームが部品の設計を迅速かつ安価にテストし、反復したいと考えることもあります。3Dプリントは、これらの問題に対する素晴らしい解決策です。"
 
 #: ../../source/manufacturing/3d_printing/index.rst:16
 msgid ""
@@ -81,7 +81,7 @@ msgid ""
 "file. To do this, machines known as 3D Printers are employed which melt and "
 "place plastic in order to produce this model."
 msgstr ""
-"3Dプリンティングは、デジタルモデルファイルから層を重ねて材料（通常はプラスチック）を配置することで三次元の物体を作成するプロセスです。これを行うために、3Dプリンターという機械を使用します。この機械はプラスチックを溶かし、それを配置してモデルを作り出します。"
+"3Dプリンティングは、デジタルモデルファイルからの材料（通常はプラスチック）の連続した層を重ねることによって三次元オブジェクトを作成するプロセスです。これを行うために、3Dプリンターと呼ばれる機械が使用され、プラスチックを溶かして配置することでこのモデルを生成します。"
 
 #: ../../source/manufacturing/3d_printing/index.rst:20
 msgid ""
@@ -89,11 +89,11 @@ msgid ""
 "works, what printers are available to buy, how to properly set up a part to "
 "be printed, and what materials are available to print with."
 msgstr ""
-"3Dプリンティングを開始するには、チームは技術がどのように機能するかを理解し、購入できるプリンターが何種類あるのか、印刷するためのパーツを適切に設定する方法、そしてどのような素材で印刷できるかを把握する必要があります。"
+"3Dプリントを開始するためには、チームは技術の仕組み、購入可能なプリンター、印刷する部品の適切な設定方法、および使用可能な材料について理解する必要があります。"
 
 #: ../../source/manufacturing/3d_printing/index.rst:37
 msgid "Volunteer Special Thanks"
-msgstr "ボランティア 特別感謝"
+msgstr "ボランティア特別感謝"
 
 #: ../../source/manufacturing/3d_printing/index.rst:39
 msgid ""
@@ -101,16 +101,17 @@ msgid ""
 "the following volunteers for their hard work and dedication toward this "
 "project:"
 msgstr ""
-"*FIRST* Tech Challengeのスタッフは、このプロジェクトに献身的に取り組んでいただいた以下のボランティアへの特別な感謝を申し上げます："
+"*FIRST* Tech "
+"Challengeのスタッフは、このプロジェクトに対する彼らの努力と献身に感謝の意を表したいと思います。以下のボランティアの皆様に特別な感謝を申し上げます："
 
 #: ../../source/manufacturing/3d_printing/index.rst:43
 msgid "Lucas Y., Team 16461"
-msgstr "ラルス Y.、チーム 16461"
+msgstr "ルーカス・Y、チーム16461"
 
 #: ../../source/manufacturing/3d_printing/index.rst:45
 msgid "Davy Hallihan, Team 16461"
-msgstr "Davy Hallihan, Team 16461"
+msgstr "デイビー・ハリハン、チーム16461"
 
 #: ../../source/manufacturing/3d_printing/index.rst:47
 msgid "Ryan Driemeyer, Team 1002"
-msgstr "RYAN DRIEMEYER, TEAM 1002"
+msgstr "ライアン・ドライマイヤー、チーム1002"

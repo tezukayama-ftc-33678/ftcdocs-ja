@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:2
 msgid "Gain Control"
-msgstr "制御を得る"
+msgstr "制御を取得する"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:4
 msgid ""
@@ -35,7 +35,7 @@ msgid ""
 "signal from the webcam sensor. This amplifies the whole signal, including "
 "any associated background noise."
 msgstr ""
-"ゲインはウェブカメラセンサーからのシグナルの増幅度を制御するデジタルカメラ設定です。これにより、シグナル全体が増幅され、関連するバックグラウンドノイズも増幅されます。"
+"ゲインは、ウェブカメラセンサーからの信号の増幅を制御するデジタルカメラの設定です。これにより、関連するバックグラウンドノイズを含む全体の信号が増幅されます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:10
 msgid ""
@@ -45,7 +45,7 @@ msgid ""
 "tracking performance. In some cases, reducing exposure duration and "
 "increasing gain may provide a sharper image, although with more noise."
 msgstr ""
-"露出とゲインを連携して管理することができます。露出を上げてゲインを低く保つことで、明るい画像と低ノイズを得ることができます。一方で、長い露出はモーションブラーを引き起こし、ターゲットの追跡性能に影響を与える可能性があります。場合によっては、露出時間を短縮してゲインを上げることでシャープな画像を得られるかもしれませんが、ノイズが増加する可能性もあります。"
+"ゲインは露出と連携して管理することができます。露出を上げてゲインを低く保つことで、明るい画像と低ノイズを得ることができます。一方で、長い露出は動きのブレを引き起こし、ターゲット追跡性能に影響を与える可能性があります。場合によっては、露出時間を短くし、ゲインを上げることで、よりシャープな画像を得ることができますが、ノイズが増えることになります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:16
 msgid ""
@@ -54,29 +54,29 @@ msgid ""
 "Its methods are:"
 msgstr ""
 "インターフェース GainControl "
-"は、ゲインを制御するために単一の値を使用します。これは増幅のために使用され、因此没有单位——只是一个整数类型的数字。そのメソッドは以下の通りです："
+"は、ゲインを制御するために単一の値を使用します。これは増幅に使用されるため、単位はなく、単に整数型の数値です。そのメソッドは次のとおりです："
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:20
 msgid "setGain(int gain)"
-msgstr "ゲインを設定する(int gain)"
+msgstr "setGain(int gain)"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:21
 msgid "getGain()"
-msgstr "ゲインを得る()"
+msgstr "getGain()"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:23
 msgid ""
 "As with exposure, the webcam may support minimum and maximum allowed values "
 "of gain. These can be retrieved with:"
-msgstr "露出と同じく、ウェブカメラはゲインの最小値と最大値をサポートする場合があります。これらの値は次のようになります："
+msgstr "露出と同様に、ウェブカメラはゲインの最小および最大許容値をサポートしている場合があります。これらは次のように取得できます："
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:26
 msgid "getMinGain()"
-msgstr "最小ゲインを得る()"
+msgstr "getMinGain()"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:27
 msgid "getMaxGain()"
-msgstr "最大ゲインを得る()"
+msgstr "getMaxGain()"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:29
 msgid ""
@@ -84,11 +84,11 @@ msgid ""
 " the webcam’s firmware. Note that firmware settings may vary among different"
 " versions of the same webcam model."
 msgstr ""
-"最小ゲインと最大ゲインには ``set()`` "
-"メソッドがありません；これらはウェブカムのファームウェアで固有に設定されています。なお、同じモデルのウェブカムの異なるバージョン間ではファームウェア設定が異なり得ます。"
+"minおよびmaxゲインのための ``set()`` "
+"メソッドは存在しません。これらはウェブカメラのファームウェアにハードコーディングされています。ファームウェアの設定は、同じウェブカメラモデルの異なるバージョン間で異なる場合があることに注意してください。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/control/control.rst:33
 msgid ""
 "These and other gain methods are called on a GainControl object, as "
 "described above for exposure."
-msgstr "これらのゲイン方法や他のゲイン方法は、上記の露出について説明したとおり、GainControlオブジェクトで呼び出されます。"
+msgstr "これらおよび他のゲインメソッドは、上記の露出に関して説明したように、GainControlオブジェクトで呼び出されます。"

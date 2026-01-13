@@ -6,18 +6,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:2
 msgid "Working With Screws"
@@ -31,17 +31,15 @@ msgid ""
 " Thankfully, there a quite a few other ways to secure 3D printed parts "
 "without much effort:"
 msgstr ""
-"3Dプリントされた部品は、通常、ハードウェアやナットと頻繁に interacts します。多くのチームは単純にロックナットを使用して3Dプリントされた部品を固定しますが、強力であるとしても、常にあなたのアプリケーションのために適しているわけではありません。幸いにも、それらを固定するための他の方法は比較的簡単に利用できます：\n"
-"\n"
-"交互する回数が非常に多いです。多くのチームは単純にロックナットを使用して3Dプリントされた部品を固定しますが、強力であるとしても、常にあなたのアプリケーションのために適しているわけではありません。幸いにも、それらを固定するための他の方法は比較的簡単に利用できます："
+"3Dプリントされた部品は、通常、ハードウェアやネジと頻繁に相互作用します。多くのチームは、3Dプリントされた部品を固定するためにロックナットを使用しますが、強力ではあるものの、必ずしもあなたのアプリケーションに適合したり機能したりするわけではありません。幸いなことに、あまり労力をかけずに3Dプリントされた部品を固定する方法はいくつかあります。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:-1
 msgid "An image showing various screw interactions with 3d prints."
-msgstr "Various screws と 3D prints のさまざまな相互作用を示す画像。"
+msgstr "3Dプリントとのさまざまなネジの相互作用を示す画像。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:16
 msgid "Plastic Threading"
-msgstr "プラスチックの巻取り"
+msgstr "プラスチックスレッド加工"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:17
 msgid ""
@@ -51,7 +49,7 @@ msgid ""
 "thread forming screws, similar in look to wood or concrete screws, make this"
 " process a lot easier and increase holding strength."
 msgstr ""
-"低強度でシンプルな、そして美観を重視する用途では、直接3Dプリンターで作成した小さな穴にネジを通すことが可能です。例えば、3.3mmの穴にM4ネジを通すことで十分な固定力を得ることができます。専用のスレッド形成ネジを使用すると、木製またはコンクリート製のネジに似た見た目で、このプロセスがとても簡単になり、固定力も大幅に向上します。"
+"低強度でシンプルかつ美観を重視したアプリケーションでは、3Dプリントされた小さめの穴に直接ネジをねじ込むことができます。例えば、M4ネジを3.3mmの穴にねじ込むことができ、かなりしっかりと保持されます。木ネジやコンクリートネジに似た外観の特殊なねじ成形ネジを使用することで、このプロセスが大幅に簡素化され、保持力が向上します。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:21
 msgid ""
@@ -61,7 +59,7 @@ msgid ""
 "is best for combining parts that are never expected to be separated for "
 "maintenance or repairs."
 msgstr ""
-"実装が簡単なため、プラスチックに直接スレッドを組む方法は、取り外しが必要な部品には使用しないでください。プラスチックのスレッドは通常、締めたり緩めたりすると非常に早く強度を失います。この方法は、メンテナンスや修理のために分解されることのない部品を組み合わせる際に最適です。"
+"プラスチックに直接ねじを切ることは実装が簡単ですが、取り外しが必要な部品には使用すべきではありません。プラスチックのねじは、一般的に締め付けたり緩めたりすると、非常に早く強度を失います。この方法は、メンテナンスや修理のために分離されることが決して期待されない部品を結合するのに最適です。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:26
 msgid "Embedded Nuts"
@@ -75,11 +73,11 @@ msgid ""
 "well, especially if placed in mid-print (pausing the print midway through to"
 " place a nut embedded inside)"
 msgstr ""
-"ボルトナットやスクリューナットは、印刷に埋め込むことで、レンチを使用せずにネジを締める必要がありません。形状とサイズを印刷に挿入し、組み立てるときに落として使用します。特に印刷の途中でナットを内側に配置して中断した場合、非常にしっかりと固定されるはずです。"
+"ナットとロックナットはプリントに埋め込むことができ、ネジを締める際にレンチを使用する必要がなくなります。ナットの形状とサイズをプリントに挿入し、部品を取り付ける際にそのまま落とし込むだけです。特にプリントの途中でナットを埋め込むために一時停止して配置した場合、非常にしっかりと保持されるはずです。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:-1
 msgid "An exterior embedded nut on a 3d print."
-msgstr "3次元印刷上の外側に埋め込まれたナット。"
+msgstr "3Dプリントの外部に埋め込まれたナット。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:39
 msgid "Heat Set Inserts"
@@ -94,8 +92,11 @@ msgid ""
 "purpose you need (Amazon, Aliexpress, whatever storefront you prefer), but "
 "keep in mind that inserts with a \"chamfer\" will be a lot easier to put in."
 msgstr ""
-"3Dプリントされた部品にナットを固定する Increasingly common "
-"な解決策として、ヒートセットインサートは小さなブッサ製のコンポーネントで、溶接鉄を使用して3Dプリントされた部品に溶かすことができます。この目的のために特注の溶接鉄の先端が用意されています。必要な用途に応じて様々なサイズが利用可能です（Amazon、Aliexpress、お好みのストアフロアなど）、ただし、「チャーファー」付きのインサートは取り付けがずっと簡単です。"
+"3Dプリント部品にネジを固定するための一般的な解決策として、ヒートセットインサートは、はんだごてを使用して3Dプリント部品に溶かし込むことができる小さな真鍮製のコンポーネントです。"
+""
+"この目的のために特別に設計されたカスタムはんだごての先端があります。"
+""
+"必要な目的に応じてさまざまなサイズが利用可能です（Amazon、Aliexpress、好みのストアなど）。ただし、「面取り」のあるインサートは、取り付けがはるかに簡単であることを覚えておいてください。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:45
 msgid ""
@@ -103,17 +104,17 @@ msgid ""
 "on the print where when the screw is tightened, they will be pulled farther "
 "into the print instead of out. This increases longevity."
 msgstr ""
-"熱設置インサートを使用する際の非常に重要なベストプラクティスは、ネジを締めるとインサートが印刷から引き出されるのではなく、さらに深く入るように配置することです。これにより耐用年数が向上します。"
+"熱セットインサートを使用する際の非常に重要なベストプラクティスは、ネジを締めたときにインサートがプリントから引き出されるのではなく、プリントの中にさらに引き込まれる位置に配置することです。これにより耐久性が向上します。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:53
 msgid "Pictured proper heat set insert use."
-msgstr "適切な熱収縮管の使用方法が示されています。"
+msgstr "適切なヒートセットインサートの使用例。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:53
 msgid ""
 "This part uses heat set inserts as described above, where tightening the "
 "screw pulls them farther into the part."
-msgstr "この部分では、上記で説明した熱設置インサートを使用しており、スクリューを締めるとインサートがさらに部分内部に押し込まれます。"
+msgstr "この部分では、上記で説明したように、ヒートセットインサートを使用しており、ネジを締めることでそれらが部品の中にさらに引き込まれます。"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/working_with_screws/working_with_screws.rst:57
 msgid ""
@@ -121,5 +122,6 @@ msgid ""
 "considering doing so for your team, go read through `Markforged's article on"
 " the topic. <https://markforged.com/resources/blog/heat-set-inserts>`_."
 msgstr ""
-"もし熱設入子を使用するより詳しいガイドが欲しかったら、またはチームでその方法を検討しているなら、`Markforgedの該当記事を読むことをお勧めします。"
-" <https://markforged.com/resources/blog/heat-set-inserts>`_。"
+"熱セットインサートの使用に関するより詳細なガイドが必要な場合や、チームのためにそれを検討している場合は、 `Markforged's article "
+"on the topic. <https://markforged.com/resources/blog/heat-set-inserts>`_ "
+"をお読みください。"

@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:2
 msgid "Bed Leveling"
-msgstr "ベッドのレベル調整"
+msgstr "ベッドレベリング"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:4
 msgid ""
@@ -30,7 +30,7 @@ msgid ""
 "there is a more advanced process to follow. Research what processes are "
 "available for your printer."
 msgstr ""
-"このガイドは、自動レベリング機能がない古いプリンタ向けに作成されています。新しいプリンタをお持ちの場合、このプロセスは必要ないか、より高度なプロセスが用意されている可能性があります。お持ちのプリンタで利用可能なプロセスについて調査してください。"
+"このガイドは、主に自動レベリング機能を持たない古いプリンター向けです。新しいプリンターをお持ちの場合、このプロセスは必要ないか、より高度なプロセスがある可能性があります。お使いのプリンターに利用可能なプロセスを調査してください。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:7
 msgid ""
@@ -39,27 +39,27 @@ msgid ""
 " tool you should need is a 0.2mm thick piece of metal, a piece of cardstock,"
 " or an index card."
 msgstr ""
-"もしベッドがネジで調整できるものであれば、ベッドレベリングは全体のベッド上でプリントがどのように接着するかに及ぼす影響が最も大きい要因となります。必要な工具は0.2mm厚の金属片、カードストック、またはインデックスカードだけです。"
+"スクリューで調整可能なベッドをお持ちの場合、ベッドのレベリングは、印刷物がベッド全体にどれだけしっかりと付着するかにおいて最も重要な要素です。必要なツールは、0.2mmの厚さの金属片、カードストック、またはインデックスカードのいずれかだけです。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
 msgid "Tools usable for bed leveling."
-msgstr "床レベル調整に使用できるツール。"
+msgstr "ベッドレベリングに使用できるツール。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:17
 msgid "Here's the steps you should follow to level your bed:"
-msgstr "ここではベッドを整えるための手順を説明します："
+msgstr "ベッドを水平にするために従うべき手順は次のとおりです："
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:19
 msgid ""
 "Ensure that your nozzle is clean and has no extra filament beneath it that "
 "would interfere with bed leveling precision."
-msgstr "nozzle は清潔にして、床整平の精度に干渉する余分なフィラメントが underneath ないことを確認してください。"
+msgstr "ノズルが清潔で、ベッドレベリングの精度に干渉するような余分なフィラメントが下にないことを確認してください。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:20
 msgid ""
 "Home the Z axis completely, and get it to Z coordinate 0 by using the "
 "printer's move commands"
-msgstr "Z軸を完全にホームインし、プリンタの移動コマンドを使用してZ座標0まで移動させます。"
+msgstr "Z軸を完全にホームし、プリンターの移動コマンドを使用してZ座標0に設定します。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:21
 msgid ""
@@ -67,21 +67,21 @@ msgid ""
 "commands (This is done with move commands to make sure that it replicates "
 "the movement that the printer will perform when under it's own control)"
 msgstr ""
-"印刷機の移動コマンドを使用して、ノズルを一つのスクリューの直上に移動します（これは、印刷機が自身の制御下でそれを実行する際に行う移動と一致するように移動を再現するために移動コマンドを使用することを確認します）"
+"プリンターの移動コマンドを使用して、ノズルをネジの一つの真上に移動させます（これは、プリンターが自分の制御下にあるときに行う動作を再現するために移動コマンドを使用して行います）。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:22
 msgid ""
 "Adjust the screw up and down until the 0.2mm material can barely slide with "
 "slight friction underneath the nozzle."
-msgstr "ノズルの下にわずかな摩擦で動く程度に、0.2mmの材料がスライドできるように、スクリューを上下に調整します。"
+msgstr "ノズルの下でわずかな摩擦を伴って0.2mmの材料がかろうじて滑るまで、ネジを上下に調整してください。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
 msgid "Placement of a tool under a nozzle."
-msgstr "ノズルの下に工具を配置する。"
+msgstr "ノズルの下にツールを配置すること。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:30
 msgid "Repeat this process with the other screws available on the bed."
-msgstr "床に備え付けの他のスクリューでこのプロセスを繰り返してください。"
+msgstr "ベッドにある他のネジでもこのプロセスを繰り返してください。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:31
 msgid ""
@@ -89,11 +89,11 @@ msgid ""
 "0.2mm material. If you leveled all of the screws properly, it should be "
 "roughly the same amount of friction."
 msgstr ""
-"ヘッドをベッドの中心に移動し、0.2mmの材料を使用してベッドの高さを確認してください。すべてのスクリューが正しくレベル付けされている場合、摩擦量は大まかに同じになるはずです。"
+"ノズルをベッドの中央に移動させ、0.2mmの材料を使用してベッドの高さを確認してください。すべてのネジを適切にレベル調整していれば、摩擦の量はおおよそ同じであるはずです。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:34
 msgid "Z-Offset"
-msgstr "Z-オフセット"
+msgstr "Zオフセット"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:36
 msgid ""
@@ -106,10 +106,14 @@ msgid ""
 "while it lays down the first layer. Reference the images below for some good"
 " visualizations on how to make sure you're at the proper height!"
 msgstr ""
-"印刷機を水平に調整した後、ベッドは平らになりますが、常に正確な高さではありません。すべての印刷機には、 nozzle の高さを印刷中や印刷前に調整できる"
-" Z オフセット変数があります。印刷が始まったときにベッドが高すぎるか低すぎる（ただし、ベッドを水平にした場合に一貫性がある限り）場合、プリンタの Z "
-"オフセット機能（バビーステッピングとも呼ばれます）を使用して、最初の層を配置しながらその高さをライブで調整できます。以下の画像を参照し、適切な高さであることを確認してください！"
+"プリンターがネジの間で水平になったら、ベッドは平らですが、必ずしも正確な高さにあるわけではありません。"
+""
+"すべてのプリンターには、印刷中または印刷前にノズルの高さを調整できるZオフセット変数があるべきです。"
+""
+"印刷の開始時にベッドが高すぎるか低すぎる場合でも、一貫している限り（ベッドがレベルであることを前提とします）、プリンターのZオフセット機能（ベビーステッピングとも呼ばれます）を使用して、最初のレイヤーを印刷している間にリアルタイムで調整してください。"
+""
+"適切な高さにいることを確認するための良い視覚資料については、以下の画像を参照してください！"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/bed_leveling/bed_leveling.rst:-1
 msgid "Visual specifications on how high a nozzle should be."
-msgstr "ノズルがどの程度の高さにshould be設置する視覚的な仕様です。"
+msgstr "ノズルの高さに関する視覚的仕様。"

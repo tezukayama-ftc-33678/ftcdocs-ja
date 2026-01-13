@@ -6,18 +6,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:2
 msgid "Updating the Driver Station App"
@@ -32,15 +32,15 @@ msgid ""
 "others. This app runs on the REV Driver Hub or an approved Android "
 "smartphone."
 msgstr ""
-"Driver Station アプリは、 *FIRST* Tech Challenge :doc:`ソフトウェア開発キット (SDK) "
-"</ftc_sdk/overview/index>` に同梱されているアプリの一つです。Driver Station "
-"アプリは、ロボットの設定、ゲームパッドサポート、自検査、チームコードの選択と実行などの主要なインターフェースです。このアプリは REV Driver "
-"Hub や認定された Android スマートフォンで動作します。"
+"Driver Stationアプリは、 *FIRST* Tech Challenge :doc:`Software Development Kit "
+"(SDK) </ftc_sdk/overview/index>` に付属するアプリの一つです。Driver "
+"Stationアプリは、ロボットの構成、ゲームパッドのサポート、自己検査、チームコードの選択と実行などの主要なインターフェースです。このアプリは、REV"
+" Driver Hubまたは承認されたAndroidスマートフォンで動作します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:10
 msgid ""
 "This page shows how to update the Driver Station (DS) app on these devices:"
-msgstr "これらのデバイスでDriver Station（DS）アプリケーションを更新する方法を示しています："
+msgstr "このページでは、これらのデバイスで DRIVER STATION (DS) アプリを更新する方法を示します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:13
 msgid "REV Driver Hub"
@@ -48,39 +48,39 @@ msgstr "REV Driver Hub"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:14
 msgid "An approved Android DS phone"
-msgstr "承認されたAndroid Driver Stationスマホ"
+msgstr "承認されたAndroid DSフォン"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:16
 msgid ""
 "These methods for updating the Driver Station App are the same regardless of"
 " the programming language/environment used to program robot Team Code."
 msgstr ""
-"これらのDriver Stationアプリの更新方法は、ロボットチームコードを開発する際に使用したプログラミング言語や環境に関係なく同じです。"
+"これらのドライバーステーションアプリを更新する方法は、ロボットチームコードをプログラムするために使用されるプログラミング言語/環境に関係なく同じです。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 msgid "Updating Driver Station (DS) app on REV Driver Hub"
-msgstr "REV Driver Hub上的Driver Station（DS）アプリの更新"
+msgstr "REV Driver HubでのDriver Station (DS)アプリの更新"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:21
 msgid "Here are 3 methods to update the DS app on a REV Driver Hub:"
-msgstr "以下はREVDriver Hub上でDSアプリケーションを更新するための3つの方法です："
+msgstr "REV Driver Hub上でDSアプリを更新するための3つの方法を以下に示します："
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:23
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:169
 msgid "REV Hardware Client (RHC)"
-msgstr "REVハードウェアクライアント (RHC)"
+msgstr "REV Hardware Client (RHC)"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:24
 msgid "\"Side loading” with APK"
-msgstr "APK を使用した「サイドローディング」"
+msgstr "APKによる「サイドローディング」"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:25
 msgid "Software Manager on REV Driver Hub"
-msgstr "REV Driver Hub上的ソフトウェアマネージャ"
+msgstr "REV Driver Hubのソフトウェアマネージャー"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
-msgstr "方法 1 - REV ハードウェアクライアント（RHC） - Windows コンピュータのみ"
+msgstr "方法1 - REVハードウェアクライアント (RHC) - Windowsコンピューターのみ"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:29
 msgid ""
@@ -89,10 +89,9 @@ msgid ""
 "active, at top left. The DS app on the Driver Hub does **not** need to be "
 "open."
 msgstr ""
-"Plug the REV Driver Hub directly into the Windows computer with RHC "
-"installed and open. Use a USB-C data cable. Make sure the “Hardware” tab is "
-"active, at top left. The DS app on the Driver Hub does ** not ** need to be "
-"open."
+"REV Driver HubをRHCがインストールされているWindowsコンピュータに直接接続し、開いてください。USB-"
+"Cデータケーブルを使用します。「Hardware」タブが左上でアクティブになっていることを確認してください。Driver Hub上のDSアプリは "
+"**not** を開く必要はありません。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:34
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:179
@@ -102,34 +101,34 @@ msgid ""
 "</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
 "required DS update file was previously downloaded."
 msgstr ""
-"ここではコンピュータがインターネットに接続する必要はありません。:doc:`REVハードウェアクライアントの更新 "
-"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` で必要なDriver"
-" Station（DS）更新ファイルが事前にダウンロードされているためです。"
+"ここでは、コンピュータはインターネットに接続する必要はありません。なぜなら、 :doc:`in Updating the REV Hardware "
+"Client </ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` "
+"必要なDSアップデートファイルが以前にダウンロードされているからです。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:39
 msgid "The RHC app will recognize the Driver Hub, as shown here:"
-msgstr "RHC アプリはドライバー ハブを認識し、以下のように表示されます："
+msgstr "RHCアプリは、ここに示すようにDriver Hubを認識します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:46
 msgid "Recognizing the Driver Hub"
-msgstr "Driver Hubの認識"
+msgstr "ドライバーハブの認識"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:48
 msgid ""
 "Once recognized, click on the Driver Hub’s large icon/rectangle. The RHC app"
 " now displays the update status of the DS app, if any."
-msgstr "認識次第、ドライバー・ハブの大型アイコン/長方形をクリックしてください。RHC アプリでは、DS アプリの更新状況が表示されます。"
+msgstr "認識されたら、Driver Hubの大きなアイコン/矩形をクリックします。RHCアプリは、DSアプリの更新状況を表示します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:56
 msgid "Updating the Driver Hub"
-msgstr "ドライバー・ハブの更新"
+msgstr "Driver Hubの更新"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:58
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:210
 msgid "Simply click the blue Update rectangle (green arrow) – done!"
-msgstr "青いUpdate長方形（緑色の矢印）をクリックして完了！\\n"
+msgstr "青い更新の矩形（緑の矢印）をクリックするだけで完了です！"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:60
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:212
@@ -138,34 +137,31 @@ msgid ""
 "RHC. That was noted with ’(Already Downloaded)“, to the left of the blue "
 "Update rectangle."
 msgstr ""
-"更新は早く、既にRHCにDSアプリをダウンロードしていたからです。その旨は青い「アップデート」長方形の左側に「（既にダウンロードしました）」と表示されました。"
+"更新は迅速でした。なぜなら、すでにDSアプリをRHCにダウンロードしていたからです。それは青い更新の矩形の左側に「(Already "
+"Downloaded)」として記載されていました。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:64
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:216
 msgid ""
 "You could have selected an **older** version of the DS app, in the drop-down"
 " list just above the blue Update rectangle."
-msgstr ""
-"あなたはドロップダウンリストにある青い「Update」正方形の直上に表示されている ** 古い ** "
-"バージョンのDSアプリを選べるかもしれませんでした。"
+msgstr "青いアップデートの矩形のすぐ上にあるドロップダウンリストから、 **older** バージョンの DS アプリを選択することができました。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:67
 msgid ""
 "After install, drag the DS app icon from the app menu to the Driver Hub’s "
 "home screen, if needed."
-msgstr "インストール後、必要な場合はアプリメニューからドライバー・ハブのホーム画面にDSアプリアイコンをドラッグしてください。"
+msgstr "インストール後、必要に応じてアプリメニューからDSアプリのアイコンをドラッグして、Driver Hubのホーム画面に配置してください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:70
 msgid ""
 "You may now unplug the Driver Hub from the computer, and close the RHC app. "
 "The updated DS app is ready to use."
-msgstr ""
-"今やDriver Hubをコンピューターから unplugged し、RHC アプリを閉じることができます。更新された Driver Station "
-"アプリは使用準備ができています。"
+msgstr "ドライバーハブをコンピュータから外し、RHCアプリを閉じることができます。更新されたDSアプリは使用可能です。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 msgid "Method 2 - Side-load APK"
-msgstr "メソッド 2 - サイドロード APK"
+msgstr "方法2 - サイドロードAPK"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:75
 msgid ""
@@ -173,9 +169,8 @@ msgid ""
 "install the DS app on the Driver Hub. Any computer can be used, PC or Mac, "
 "old or new. This method is sometimes called “side-loading”."
 msgstr ""
-"ここでは、Driver HubにDSアプリをインストールするために、直接Androidパッケージまたは ** APKファイル ** と dealings"
-" "
-"します。PCやMacなどのどんなコンピュータでも使用できます。古いものから新しいものまで対応しています。この方法は時として「サイドロード」と呼ばれます。"
+"ここでは、Androidパッケージまたは **APK file** を使用して、Driver "
+"HubにDSアプリをインストールします。PCでもMacでも、古いものでも新しいものでも、任意のコンピュータを使用できます。この方法は時々「サイドロード」と呼ばれます。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:79
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:231
@@ -184,6 +179,8 @@ msgid ""
 "the `SDK github repository <https://github.com/FIRST-Tech-"
 "Challenge/FtcRobotController>`__."
 msgstr ""
+"コンピュータをインターネットに接続し、ウェブブラウザを開いて、 `SDK github repository "
+"<https://github.com/FIRST-Tech-Challenge/FtcRobotController>`__に移動してください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:88
@@ -196,7 +193,7 @@ msgstr "SDK GitHub リポジトリ"
 msgid ""
 "At the right side under “Releases”, click the “Latest” icon (yellow oval, "
 "above)."
-msgstr "右側の“リリース”下で、“最新”アイコン（黄色い卵形、上にあります）をクリックします。"
+msgstr "右側の「Releases」の下にある「Latest」アイコン（黄色の楕円）をクリックしてください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:93
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:245
@@ -205,14 +202,14 @@ msgid ""
 " list of “Assets”. Click on the file “FtcDriverStation-release.apk”, to "
 "download it to your computer."
 msgstr ""
-"次のページで、“最新”セクションを少しだけスクロールし、短い“アセット”リストまで移動します。ファイル “FtcDriverStation-"
-"release.apk” をクリックして、コンピュータにダウンロードしてください。"
+"次のページでは、「最新」セクションで少し下にスクロールし、「アセット」の短いリストを見つけてください。「FtcDriverStation-"
+"release.apk」というファイルをクリックして、コンピュータにダウンロードします。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:102
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:254
 msgid "SDK GitHub Releases"
-msgstr "SDK GitHubリリース"
+msgstr "SDK GitHub リリース"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:104
 msgid ""
@@ -221,9 +218,9 @@ msgid ""
 "``DS-8.0-release.apk``. This distinguishes the file from other versions that"
 " might be stored later on that Driver Hub."
 msgstr ""
-"この時点では、ファイル名を現在のバージョン番号に変更することができます。例えば、「FtcDriverStation-"
-"release-8.0.apk」や単純に「DS-8.0-release.apk」のようにします。これにより、後でDriver "
-"Hubに保存される他のバージョンと区別がつきます。"
+"この時点で、ファイル名を現在のバージョン番号を反映するように変更することができます。例えば、 ``FtcDriverStation-"
+"release-8.0.apk`` または単に ``DS-8.0-release.apk`` とします。これにより、そのファイルが後で Driver "
+"Hub に保存される可能性のある他のバージョンと区別されます。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:109
 msgid ""
@@ -231,8 +228,8 @@ msgid ""
 "folder. Use a USB-C data cable. When complete, you may unplug the Driver Hub"
 " from the computer."
 msgstr ""
-"Driver HubのDownloadsフォルダにAPKファイルを転送してください。USB-Cデータケーブルを使用します。完了したら、Driver "
-"Hubからコンピュータを unplugged してもかまいません。"
+"APKファイルをコンピュータからDriver HubのDownloadsフォルダーに転送します。USB-"
+"Cデータケーブルを使用してください。完了したら、Driver Hubをコンピュータから取り外しても構いません。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:113
 msgid ""
@@ -240,53 +237,51 @@ msgid ""
 "Trash/Uninstall icon. Or, touch and hold the DS icon for “App info”, then "
 "choose Uninstall."
 msgstr ""
-"既存の（不要な）Driver "
-"Stationアプリをアンインストールするには、そのアイコンをゴミ箱/アンインストールアイコンにドラッグします。または、DS "
-"アイコンを長押しして「アプリ情報」を選択し、その後でアンインストールを選択します。"
+"既存の（古い）DSアプリをアンインストールするには、そのアイコンをゴミ箱/アンインストールアイコンにドラッグします。または、DSアイコンを長押しして「アプリ情報」を選択し、次にアンインストールを選択します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:117
 msgid ""
 "On the Driver Hub, navigate to the Downloads folder. This can be done in "
 "several ways:"
-msgstr "ドライバー・ハブで、ダウンロードフォルダに移動します。これにはいくつかの方法があります："
+msgstr "Driver Hubで、Downloadsフォルダーに移動します。これはいくつかの方法で行うことができます："
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:120
 msgid ""
 "at the main app menu (swipe up), touch the Files icon, then three bars at "
 "top left"
-msgstr "メインアプリメニュー（スワイプアップ）で、ファイルアイコンをタッチし、左上に-three bars- をタッチします。"
+msgstr "メインアプリメニュー（上にスワイプ）で、ファイルアイコンをタッチし、左上の三本線をタッチしてください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:123
 msgid "use the basic file manager in Settings/Storage, then touch Files"
-msgstr "設定/ストレージで基本的なファイルマネージャを使用し、その後Filesにタッチしてください"
+msgstr "設定/ストレージの基本ファイルマネージャーを使用し、次にファイルをタッチしてください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:125
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:277
 msgid ""
 "use a third-party app such as FX File Explorer (from the Google Play Store)"
-msgstr "THIRD-PARTY アプリケーションを使用し、Google Play ストアから FX File Explorer を利用します。"
+msgstr "Google Play ストアから FX File Explorer などのサードパーティアプリを使用してください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:128
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:280
 msgid ""
 "Touch the APK filename that you transferred. Respond to the prompts, to "
 "install the updated DS app."
-msgstr "APKファイル名をタッチしてください。指示に従ってDSアプリの更新版をインストールします。"
+msgstr "転送したAPKファイル名をタッチしてください。プロンプトに応じて、更新されたDSアプリをインストールします。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:131
 msgid ""
 "After install, drag the DS app icon from the menu to the Driver Hub’s home "
 "screen, if needed."
-msgstr "インストール後、必要であればメニューからDSアプリアイコンをドライバー・ハブのホーム画面にドラッグします。"
+msgstr "インストール後、必要に応じてメニューからDSアプリのアイコンをドラッグしてDriver Hubのホーム画面に配置してください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:134
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:286
 msgid "Done! The updated DS app is now ready to use."
-msgstr "完了しました。更新されたDriver Stationアプリは現在使用可能になりました。"
+msgstr "完了しました！更新されたDSアプリは、使用する準備が整いました。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 msgid "Method 3 - Software Manager"
-msgstr "メソッド 3 - ソフトウェアマネージャ"
+msgstr "方法 3 - ソフトウェアマネージャー"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:138
 msgid ""
@@ -294,8 +289,8 @@ msgid ""
 " automatically update the DS app (and other related software). It requires "
 "only an internet connection."
 msgstr ""
-"REV Driver Hubには、Software Managerと呼ばれる内蔵アプリがあり、これによりDriver "
-"Stationアプリ（およびその他の関連ソフトウェア）が自動的に更新できます。インターネット接続のみが必要です。"
+"REV Driver Hubには、ソフトウェアを自動的に更新できる「Software "
+"Manager」という内蔵アプリがあります。このアプリは、DSアプリ（およびその他の関連ソフトウェア）を更新するために、インターネット接続のみを必要とします。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:142
 msgid ""
@@ -303,20 +298,20 @@ msgid ""
 "down twice from top of home screen). Temporarily connect the Driver Hub to "
 "the internet via Wi-Fi."
 msgstr ""
-"すべてのアプリを閉じて、ドライバー・ハブのWi-"
-"Fiメニューを開きます（設定で、またはホーム画面の上から二度下にスワイプすると表示されます）。一時的にドライバー・ハブをWi-"
+"すべてのアプリを閉じ、Driver HubのWi-"
+"Fiメニューを開きます（Settingsで、またはホーム画面の上部から2回スワイプします）。一時的にDriver HubをWi-"
 "Fi経由でインターネットに接続します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:146
 msgid ""
 "Open the Software Manager app at the Driver Hub home screen (left image, "
 "below)."
-msgstr "Driver Hubのホームスクリーン（左画像）でソフトウェアマネージャーアプリを開きます。"
+msgstr "Driver Hubのホーム画面でSoftware Managerアプリを開きます（左の画像、下）。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:154
 msgid "REV Software Manager"
-msgstr "REV ソフトウェア マネージャ"
+msgstr "REVソフトウェアマネージャー"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:156
 msgid ""
@@ -324,29 +319,28 @@ msgid ""
 "display the results (right image, above). Click the grey box to update the "
 "Driver Station (DS) app, if needed."
 msgstr ""
-"ソフトウェアマネージャは必要な更新があれば自動的にチェックし、結果（右画像、上部）を表示します。必要であれば、灰色のボックスをクリックしてDriver "
-"Station（DS）アプリケーションを更新してください。"
+"ソフトウェアマネージャーは、自動的に必要な更新をチェックし、結果を表示します（右の画像、上）。必要に応じて、灰色のボックスをクリックしてドライバーステーション（DS）アプリを更新してください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:160
 msgid ""
 "When all is complete, “Forget” the Wi-Fi network used for internet access."
-msgstr "すべての設定が完了したら、インターネット接続用に使用した“無線LANを忘れる” を実行します。"
+msgstr "すべてが完了したら、インターネットアクセスに使用したWi-Fiネットワークを「忘れる」してください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:163
 msgid "Done! Now the Driver Hub is updated and ready for use."
-msgstr "完了しました！今後はDriver Hubが更新され、使用準備ができています。"
+msgstr "完了しました！これでDriver Hubが更新され、使用する準備が整いました。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 msgid "Updating Driver Station (DS) app on Android smartphone"
-msgstr "Androidスマートフォン上のDriver Station（DS）アプリの更新"
+msgstr "AndroidスマートフォンでのDriver Station (DS)アプリの更新"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:167
 msgid "There are 2 methods to update the DS app on a DS phone:"
-msgstr "DSスマホでDSアプリケーションを更新する方法は2つあります："
+msgstr "DSフォンでDSアプリを更新する方法は2つあります："
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:170
 msgid "“Side loading” with APK"
-msgstr "\"Side loading\" で APK をインストールする"
+msgstr "APKによる「サイドローディング」"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:174
 msgid ""
@@ -355,15 +349,17 @@ msgid ""
 "is active, at top left. The DS app on the phone does **not** need to be "
 "open."
 msgstr ""
+"DSの電話をRHCがインストールされているコンピュータに直接接続し、開いてください。充電専用ケーブルではなく、USBデータケーブルを使用してください。「Hardware」タブが左上でアクティブになっていることを確認してください。電話のDSアプリは"
+" **not** を開く必要はありません。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:184
 msgid "The RHC app will recognize the phone, as shown here:"
-msgstr "RHC アプリはここに示すように、スマートフォンを認識します："
+msgstr "RHCアプリは、ここに示すように電話を認識します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:191
 msgid "Recognizing the Phone"
-msgstr "スマホの認識"
+msgstr "電話を認識する"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:193
 msgid ""
@@ -374,32 +370,36 @@ msgid ""
 "button in the lower-left of the REV Hardware Client app to force the RHC to "
 "rescan devices."
 msgstr ""
+"電話が認識されない場合は、電話に :doc:`developer options "
+"</programming_resources/tutorial_specific/android_studio/enabling_developer_options/Enabling-"
+"Developer-Options>` が有効になっていることを確認してください。必要に応じて、REV Hardware Client "
+"アプリの左下にある「デバイスをスキャン」ボタンをクリックして、RHC にデバイスの再スキャンを強制します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:200
 msgid ""
 "Once recognized, click on that phone’s large icon/rectangle. The RHC app now"
 " displays the update status of the DS app, if any."
-msgstr "認識次第、該当するスマホの大きなアイコン/長方形をクリックしてください。RHC アプリでは、DS アプリの更新状況が表示されます。"
+msgstr "認識されたら、その電話の大きなアイコン/長方形をクリックしてください。RHCアプリは、DSアプリの更新状況を表示します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst
 msgid "Update Status of Phone"
-msgstr "スマホのステータスを更新します"
+msgstr "電話のステータスを更新する"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:208
 msgid "Update Status of Smartphone"
-msgstr "スマートフォンのステータスを更新"
+msgstr "スマートフォンの更新状況"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:219
 msgid ""
 "After install, drag the DS app icon from the app menu to the phone’s home "
 "screen."
-msgstr "インストール後、アプリメニューからDriver Stationのアイコンを携帯スマホのホーム画面にドラッグしてください。"
+msgstr "インストール後、アプリメニューからDSアプリのアイコンを電話のホーム画面にドラッグします。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:222
 msgid ""
 "You may now unplug the DS phone from the computer, and close the RHC app. "
 "The updated DS app is ready to use."
-msgstr "今やDSスマホをコンピュータから外し、RHCアプリを閉じてください。更新されたDSアプリは使用準備完了です。"
+msgstr "DSの電話をコンピュータから外し、RHCアプリを閉じることができます。更新されたDSアプリは使用する準備が整いました。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:227
 msgid ""
@@ -407,9 +407,9 @@ msgid ""
 "install the DS app on the Android phone. Any computer can be used, PC or "
 "Mac, old or new. This method is sometimes called “side-loading”."
 msgstr ""
-"ここで、Driver Station アプリを Android フォンにインストールするために直接 Android パッケージまたは ** APK "
-"ファイル ** と働き始めます。PC や Mac "
-"のどのコンピューターでも使用できます。古いものや新しいものでも構いません。この方法は時々「サイドロード」と呼ばれます。"
+"ここでは、Android パッケージまたは **APK file** を使用して、Android スマートフォンに DS "
+"アプリをインストールします。古いものでも新しいものでも、PC または Mac "
+"のいずれのコンピュータも使用できます。この方法は「サイドロード」と呼ばれることもあります。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:256
 msgid ""
@@ -418,8 +418,9 @@ msgid ""
 "``DS-8.0-release.apk``. This distinguishes the file from other versions that"
 " might be stored later on that DS phone."
 msgstr ""
-"現在、ファイル名を現在のバージョン番号に変更できます。例えば、「FtcDriverStation-"
-"release-8.0.apk」や単に「DS-8.0-release.apk」のようにします。これにより、そのDSスマホで後から保存される他のバージョンと区別がつきます。"
+"この時点で、ファイル名を現在のバージョン番号を反映するように変更することができます。例えば、 ``FtcDriverStation-"
+"release-8.0.apk`` または単に ``DS-8.0-release.apk`` "
+"とします。これにより、そのDSフォンに後で保存される可能性のある他のバージョンとファイルを区別することができます。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:261
 msgid ""
@@ -427,8 +428,7 @@ msgid ""
 "Download) folder. Use a USB data cable (not a charge-only cable). When "
 "complete, you may unplug the DS phone from the computer."
 msgstr ""
-"DSスマホのダウンロード（またはDownload）フォルダにAPKファイルを転送してください。USBデータケーブル（充電専用ケーブルではなし）を使用して接続します。完了したら、DSスマホからコンピュータを"
-" unplugged してもかまいません。"
+"APKファイルをコンピュータからDS電話のDownloads（またはDownload）フォルダーに転送します。USBデータケーブル（充電専用ケーブルではない）を使用してください。完了したら、DS電話をコンピュータから外しても構いません。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:265
 msgid ""
@@ -436,32 +436,30 @@ msgid ""
 "Trash/Uninstall icon. Or, touch and hold the DS icon for “App info”, then "
 "choose Uninstall."
 msgstr ""
-"既存の（不要な）Driver "
-"Stationアプリをアンインストールするには、そのアイコンをゴミ箱アイコンまたはアンインストールアイコンにドラッグします。または、Driver "
-"Stationアイコンを長押しして「アプリ情報」を選択し、その後アンインストールを選択します。"
+"既存の（古い）DSアプリをアンインストールするには、そのアイコンをゴミ箱/アンインストールアイコンにドラッグします。または、DSアイコンをタッチして長押しし、「アプリ情報」を選択してからアンインストールを選択します。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:269
 msgid ""
 "On the DS phone, navigate to the Downloads folder. This can be done in "
 "several ways:"
-msgstr "Driver Stationのスマホで、ダウンロードフォルダーに移動してください。これには複数の方法があります："
+msgstr "DSの電話で、ダウンロードフォルダーに移動します。これはいくつかの方法で行うことができます："
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:272
 msgid ""
 "at the main app menu (swipe up), touch the Files icon or the Downloads icon "
 "(if present)"
-msgstr "メインアプリメニューで（スワイプアップして）、「ファイル」アイコンや「ダウンロード」アイコン（存在する場合）をタッチしてください"
+msgstr "メインアプリメニューで（上にスワイプ）、ファイルアイコンまたはダウンロードアイコン（存在する場合）をタッチします。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:275
 msgid "use the basic file manager in Settings/Storage, then Explore or Files"
-msgstr "設定/ストレージで基本的なファイルマネージャを使用し、その後、探索またはファイルを開きます。"
+msgstr "設定/ストレージの基本ファイルマネージャーを使用し、その後エクスプローラーまたはファイルを選択してください。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:283
 msgid ""
 "After install, drag the DS app icon from the menu to the phone’s home "
 "screen."
-msgstr "インストール後、メニューからDSアプリアイコンをスマホのホーム画面にドラッグします。"
+msgstr "インストール後、メニューからDSアプリのアイコンを電話のホーム画面にドラッグします。"
 
 #: ../../source/ftc_sdk/updating/ds_app/Updating-the-DS-App.rst:288
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
-msgstr "質問やコメント、訂正は westsiderobotics@verizon.net までお願いします。"
+msgstr "質問、コメント、修正は westsiderobotics@verizon.net までお願いいたします。"

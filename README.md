@@ -69,16 +69,20 @@ make html-ja   # 日本語版
 
 | バックエンド | 特徴 | コスト | 推奨用途 |
 |------------|------|--------|---------|
-| **OpenAI GPT-4** | 最高品質、高速 | 有料 | 本番翻訳 ✅ |
-| **Anthropic Claude** | 長文対応、高品質 | 有料 | 大量翻訳 |
-| **Ollama (ローカル)** | 無料、オフライン | 無料 | テスト・開発 |
+| **OpenAI gpt-4o-mini** | 最速、低コスト | ¥最安 | 本番翻訳 ✅ |
+| **OpenAI gpt-4.1-mini** | 高速、バランス | ¥低 | 本番翻訳 |
+| **OpenAI gpt-5-mini** | 高品質 | ¥中 | 大量翻訳 |
+| **Anthropic Claude** | 長文対応 | ¥中 | 長文翻訳 |
+| **Ollama (ローカル)** | 無料、オフライン | ¥0 | テスト・開発 |
+
+**Daily Limit**: 2.5M トークン/日（全mini modelで共有）
 
 ### 設定ファイル (data/translate_config.json)
 
 ```json
 {
   "backend": "openai",
-  "model": "gpt-4",
+  "model": "gpt-4o-mini",
   "api_key": "sk-...",
   "temperature": 0.1,
   "max_retries": 3

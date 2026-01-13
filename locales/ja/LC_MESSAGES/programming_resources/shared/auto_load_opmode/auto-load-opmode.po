@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:2
 msgid "Automatically Loading a Driver Controlled Op Mode"
-msgstr "ドライバー操作モードの自動読み込み"
+msgstr "ドライバー制御の Op Mode を自動的に読み込む"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:4
 msgid ""
@@ -31,7 +31,8 @@ msgid ""
 "the autonomous portion their match was over."
 msgstr ""
 "FIRST Tech "
-"Challengeの試合は、30秒間の自動制御期間に続いて2分間のドライバー制御（つまり、遠隔操作またはテレオペレーション）期間で構成されます。以前は、チームは試合の自動制御部分が終了した後でテレOpModeを選択しなければなりませんでした。"
+"Challengeのマッチは、30秒の自律期間の後に2分間のドライバー制御（すなわち、テレオペレーションまたはTeleOp）期間が続きます。以前は、チームはマッチの自律部分が終了した後に手動でテレオペのOp"
+" Modeを選択する必要がありました。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:9
 msgid ""
@@ -40,15 +41,15 @@ msgid ""
 "completed. This feature can help a team avoid selecting the wrong op mode "
 "during a match."
 msgstr ""
-"チームは現在、テレオペレーションOpModeを事前に選択できるようになりました。そして、自動運転の実行が完了した直後にDriver "
-"StationがこのOpModeを自動的に読み込むことができます。この機能は、マッチ中におかしなOpModeを選ばないようにチームに助けを提供します。"
+"チームは現在、テレオペのオペレーションモードを事前に選択でき、ドライバーステーションは自動運転の実行が完了するとすぐにこのオペレーションモードを自動的に読み込むことができます。この機能は、チームがマッチ中に誤ったオペレーションモードを選択するのを避けるのに役立ちます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:14
 msgid ""
 "To use this feature, verify that you are using version 6.1 or greater of the"
 " SDK software (Robot Controller and Driver Station)."
 msgstr ""
-"この機能を使用するには、SDKソフトウェア（Robot ControllerとDriver Station）のバージョン6.1以上を確認してください。"
+"この機能を使用するには、SDKソフトウェア（Robot ControllerおよびDriver "
+"Station）のバージョンが6.1以上であることを確認してください。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:17
 msgid ""
@@ -56,19 +57,19 @@ msgid ""
 "will appear in the lower left corner of the screen. It will be translucent "
 "and have no text adjacent to it, indicating the feature is inactive."
 msgstr ""
-"選んだ自主プログラムを使用するmatchの際に活用します。プレセレクトボタンは画面左下に表示されます。半透明で隣にはテキストがなく、機能が無効であることを示します。"
+"マッチ中に使用する自律プログラムを選択してください。プリセレクトボタンは画面の左下隅に表示されます。それは半透明で、隣にテキストがないため、機能が非アクティブであることを示しています。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:26
 msgid ""
 "The preselect button will appear once an autonomous OpMode has been selected"
 " in landscape mode."
-msgstr "自主モードがランドスケープ表示で選択された場合、事前選択ボタンが表示されます。"
+msgstr "自律的なOp Modeが横向きモードで選択されると、プリセレクトボタンが表示されます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:31
 msgid ""
 "The preselect button will appear once an autonomous OpMode has been selected"
 " in portrait mode."
-msgstr "ポートレートモードで自主運転のOpModeが選択されると、プレプリ_SELECTION_ボタンが表示されます。"
+msgstr "自律的なOp Modeがポートレートモードで選択されると、プリセレクトボタンが表示されます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:34
 msgid ""
@@ -79,15 +80,15 @@ msgid ""
 "button, verify that your currently selected op mode has been designated as "
 "autonomous."
 msgstr ""
-"preselectボタンが表示されるためには、選択されたOpModeが自動運転OpModeとして指定されている必要があります。Javaで書かれた場合、\\_@Autonomous\\_"
-" アノテーションを使用して指定するか、ブロックエディタで *自動運転* "
-"オプションを選択します。preselectボタンを見つからない場合は、現在選択中のOpModeが自動運転として指定されていることを確認してください。"
+"注意してください。プリセレクトボタンが表示されるためには、選択されたオプモードが自律オプモードとして指定されている必要があります。これは、Javaで記述されている場合は\\_@Autonomous\\_アノテーションを使用するか、Blocksエディタで"
+" *Autonomous* "
+"オプションを選択することで行います。プリセレクトボタンが表示されない場合は、現在選択されているオプモードが自律として指定されていることを確認してください。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:44
 msgid ""
 "The selected op mode must be designated as Autonomous in order for the "
 "preselect button to be visible."
-msgstr "選択されたOpModeは自動運転に設定する必要があります。そのためにはプリセレクトボタンが表示されます。"
+msgstr "選択されたOp Modeは、プリセレクトボタンが表示されるためにAutonomousとして指定されている必要があります。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:46
 msgid ""
@@ -96,21 +97,21 @@ msgid ""
 "mode will appear adjacent to the button. This indicates the feature is "
 "active."
 msgstr ""
-"有効にするには、半透明のボタンをタップし、OpModeを選択します。その後、ボタンは完全に不透明になり、予め選択されたOpModeの名前がボタンの隣に表示されます。これにより、機能が有効であることが示されます。"
+"それを有効にするには、単に（半透明の）ボタンをタップし、オプモードを選択します。ボタンはその後完全に不透明になり、選択されたオプモードの名前がボタンの隣に表示されます。これにより、機能がアクティブであることが示されます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:54
 msgid "The driver controlled OpMode to be auto-loaded in landscape mode."
-msgstr "ドライバーが操作するOpModeをランドスケープモードで自動読み込みます。"
+msgstr "ドライバーが制御するOp Modeは、横向きモードで自動的にロードされます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:59
 msgid "The driver controlled OpMode to be auto-loaded in portrait mode."
-msgstr "ポートレートモードで自動読み込みされるドライバー制御用OpModeです。"
+msgstr "ドライバーが制御するOp Modeは、ポートレートモードで自動的に読み込まれます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:61
 msgid ""
 "Should you then wish to disable it, simply long press the preselect button. "
 "It will become translucent again and the text adjacent to it will disappear."
-msgstr "その後、それを無効にする場合は、プレセレクトボタンを長押ししてください。すると再度透明になり、その隣のテキストが消えます。"
+msgstr "それを無効にしたい場合は、プリセレクトボタンを長押ししてください。ボタンは再び半透明になり、その隣のテキストは消えます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:65
 msgid ""
@@ -121,8 +122,13 @@ msgid ""
 "OpMode either self-exits, or is terminated by the 30s timer. Drive Teams "
 "must still press Init and start the op mode manually, for safety reasons."
 msgstr ""
-"AUTOプログラムが終了すると、Driver "
-"Stationは予め選択されたテレオペプログラムをキューから取り出し、テレオペプログラムに切り替えます。ユーザーが停止ボタン（主停止ボタンまたは初期化停止ボタン）を押した場合は、自動選択は中止されます。OpModeが自己終了するか、30秒タイマーによって終了される場合のみ切り替わります。安全上の理由から、ドライブチームは依然としてInitを押してOpModeを開始する必要があります。"
+"Autonomousプログラムが終了した後、Driver Stationはキューに入れられたOp Modeを、Autonomousの開始前に事前選択されたTeleOpプログラムに変更します。"
+""
+"ユーザーが停止ボタン（メイン停止ボタンまたは初期停止ボタンのいずれか）を押すと、自動事前選択は中止されます。"
+""
+"Op Modeが自己終了するか、30秒タイマーによって終了される場合にのみ、遷移が行われます。"
+""
+"ドライブチームは、安全上の理由から、手動でInitを押してオプモードを開始する必要があります。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:73
 msgid ""
@@ -133,23 +139,23 @@ msgid ""
 "preselection feature and configure it to preselect the OpMode specified in "
 "the annotation."
 msgstr ""
-"もし毎回AUTOプログラムを実行する際に手動でプリセレクト機能を有効化および設定する必要がないようにしたい場合は、OpModeの注釈に "
-"``preselectTeleOp=\"My TeleOp Name\"`` を追加して編集することができます。Driver "
-"Stationはその後、プリセレクト機能を自動的に有効化し、指定された注釈内のOpModeをプリセレクトします。"
+"自動プログラムを実行するたびに手動でプリセレクション機能を有効にし、構成する必要がないようにしたい場合は、OpMode アノテーションを編集して "
+"``preselectTeleOp=\"My TeleOp Name\"`` を含めることができます。これにより、Driver Station "
+"はプリセレクション機能を自動的に有効にし、アノテーションで指定された OpMode をプリセレクトするように構成します。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:80
 msgid "Use the preselectTeleOp parameter to specify a preselected op mode."
-msgstr "preselectTeleOpパラメータを使用して、事前に選択されたOpModeを指定します。"
+msgstr "preselectTeleOp パラメーターを使用して、事前に選択された Op Mode を指定します。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:86
 msgid ""
 "Blocks users can make use of this feature as well, through a new dropdown in"
 " the Blocks program editor."
-msgstr "ブロックを使用するユーザーも、新しいドロップダウンメニューを通じてこの機能を利用できます。"
+msgstr "Blocksユーザーは、Blocksプログラムエディタの新しいドロップダウンを通じて、この機能を利用することができます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:92
 msgid "You can preselect a teleop op mode mode using the Blocks editor."
-msgstr "ブロックエディタを使用して、テレOpModeを選択することができます。\\n"
+msgstr "Blocksエディタを使用して、TeleOpオペレーションモードを事前に選択することができます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:94
 msgid ""
@@ -162,25 +168,26 @@ msgid ""
 "a team can still select a teleop op mode by using the preselect button on "
 "the main Driver Station activity."
 msgstr ""
-"Driver "
-"Stationアプリの設定メニューにある「OpMode自動キュー」オプションについて注意してください。このオプションが有効な場合、Driver "
-"Stationは``preselectTeleOp``パラメータによって指定された自主運転OpModeの後続の操縦者運転OpModeを自動的に読み込みます。このオプションが無効な場合、Driver"
-" "
-"Stationは自動的に後続の操縦者運転OpModeを読み込みません。この「OpMode自動キュー」オプションが無効な場合でも、チームはメインのDriver"
-" Stationアクティビティにあるプリセレクトボタンを使用して後続の操縦者運転OpModeを選択できます。"
+"Driver Stationアプリの設定メニューには「OpMode Auto Queue」というオプションがあります。"
+""
+"このオプションが有効になっている場合、Driver Stationは ``preselectTeleOp`` パラメーターで指定された自動運転オプモードの事前選択されたテレオプオプモードを自動的に読み込みます。"
+""
+"このオプションが無効になっている場合、Driver Stationは事前選択されたテレオプオプモードを自動的に読み込みません。"
+""
+"「Op Mode Auto Queue」オプションが無効になっている場合、チームはメインのDriver Stationアクティビティの事前選択ボタンを使用してテレオプオプモードを選択することができます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:106
 msgid ""
 "If the OpMode Auto Queue option is enabled, the Driver Station will "
 "automatically load the preselectTeleOp op mode in landscape mode."
 msgstr ""
-"もしOpModeの自動キュー機能が有効化されている場合、Driver "
-"Stationはランドスケープモードで「preselectTeleOp」OpModeを自動的に読み込みます。"
+"OpModeのAuto Queueオプションが有効になっている場合、Driver "
+"Stationは自動的にpreselectTeleOpオプモードを横向きモードで読み込みます。"
 
 #: ../../source/programming_resources/shared/auto_load_opmode/auto-load-opmode.rst:112
 msgid ""
 "If the OpMode Auto Queue option is enabled, the Driver Station will "
 "automatically load the preselectTeleOp op mode in portrait mode."
 msgstr ""
-"もしOpModeの自動キュー機能が有効化されている場合、Driver "
-"Stationはポートレートモードで「preselectTeleOp」OpModeを自動的に読み込みます。"
+"OpModeのAuto Queueオプションが有効になっている場合、Driver "
+"Stationは自動的にpreselectTeleOpオプモードをポートレートモードで読み込みます。"

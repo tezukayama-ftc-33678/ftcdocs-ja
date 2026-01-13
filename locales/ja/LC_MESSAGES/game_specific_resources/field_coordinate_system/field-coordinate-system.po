@@ -6,30 +6,29 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
 msgid ""
 "This document defines the FIRST Tech Challenge Field Coordinate System which"
 " can be used to specify position on the playing field."
 msgstr ""
-"このドキュメントでは、FIRST Tech Challenge "
-"フィールド座標系が定義され、これを使用してプレイフィールド上の位置を指定することができます。"
+"このドキュメントは、競技フィールド上の位置を指定するために使用できるFIRST Tech Challengeフィールド座標系を定義しています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:4
 msgid "*FIRST* Tech Challenge Field Coordinate System Definition"
-msgstr "*FIRST* Tech Challengeフィールド座標系定義"
+msgstr "*FIRST* テックチャレンジフィールド座標系定義"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:9
 msgid ""
@@ -37,8 +36,8 @@ msgid ""
 "Coordinate System of three dimensions. The X and Y axes will refer to a "
 "position on the field and the Z axis a height above the field."
 msgstr ""
-"概要: *FIRST* Tech "
-"Challengeのフィールド座標系は3次元のカートエスian座標系です。X軸とY軸はフィールド上の位置を表し、Z軸はフィールド上で一定高度にあります。"
+"概要：*FIRST* Tech Challenge "
+"フィールド座標系は、三次元のデカルト座標系です。X軸とY軸はフィールド上の位置を指し、Z軸はフィールド上の高さを指します。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:13
 msgid "Scope"
@@ -50,8 +49,8 @@ msgid ""
 "Challenge playing field. This definition can be used for consistent field-"
 "centric navigation, target localization and path planning."
 msgstr ""
-"このドキュメントでは、 *FIRST* Tech "
-"Challengeのプレイフィールドのフィールド座標系を定義しています。この定義は、フィールド中心のナビゲーション、ターゲットロケーション、およびルート計画に一貫性を持たせるために使用できます。"
+"このドキュメントは、 *FIRST* Tech Challenge "
+"の競技フィールドにおけるフィールド座標系を定義しています。この定義は、一貫したフィールド中心のナビゲーション、ターゲットの位置特定、および経路計画に使用できます。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:21
 msgid "Reference Frame"
@@ -64,7 +63,7 @@ msgid ""
 "definition is from the perspective of a person, standing outside the field, "
 "in the center of Red Wall, looking towards the center of the field."
 msgstr ""
-"この定義の参照フレームは、赤い連合エリアに隣接するフィールド周囲壁、以下では「赤い壁」と呼ばれる部分です。定義は、フィールド外から、赤い壁の中央でフィールドの中心に向かって見ている人の視点から説明されています。"
+"この定義の基準フレームは、赤いアライアンスエリアに隣接するフィールドの周囲の壁であり、以下では「レッドウォール」と呼ばれます。この定義は、フィールドの外側に立ち、レッドウォールの中央にいる人の視点から、フィールドの中央に向かって見る形で表現されています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:29
 msgid ""
@@ -73,7 +72,8 @@ msgid ""
 "Alliance Area is ever adjacent to two perimeter walls *equally*, then the "
 "most clockwise of the two walls will be considered to be the Red Wall."
 msgstr ""
-"もし赤い連合エリアが周囲の壁と2つ隣接する場合、赤い壁は連合エリアとの接触が多いほうを赤い壁としています。もし赤い連合エリアが周囲の壁と2つ同等に隣接する場合、より時計回り側にある壁が赤い壁として扱われます。"
+"赤いアライアンスエリアが常に2つの周囲の壁に隣接している場合、赤い壁はアライアンスエリアと接触している *most* "
+"壁となります。赤いアライアンスエリアが常に2つの周囲の壁に隣接している *equally* 場合、2つの壁の中で最も時計回りの壁が赤い壁と見なされます。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:35
 msgid "Coordinate System"
@@ -87,12 +87,12 @@ msgid ""
 "measure is used for all three axes. The coordinates are ordered (X, Y, Z). "
 "Example: coordinate position (10, -10, 0) has X = 10, Y = -10 and Z = 0."
 msgstr ""
-"フィールド座標系は3次元のカートリッジ座標系です。XとYはフィールド上の位置を表し、Zはフィールドよりの高さを表します。各軸に対して同じ単位を使用すればどのような長さの測定値でも使用できます。座標は(X,"
-" Y, Z)の順番で指定されます。例：座標位置(10, -10, 0)ではX = 10、Y = -10、Z = 0となります。"
+"フィールド座標系は三次元のデカルト座標系です。XおよびYはフィールド上の位置を指します。Zはフィールド上の高さを指します。すべての軸に同じ単位を使用する限り、任意の長さの単位を使用できます。座標は（X,"
+" Y, Z）の順序で表されます。例：座標位置（10, -10, 0）はX = 10、Y = -10、Z = 0です。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:45
 msgid "Origin"
-msgstr "原点"
+msgstr "起源"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:47
 msgid ""
@@ -101,8 +101,8 @@ msgid ""
 "(where the four center tiles meet). The origin point rests on the top "
 "surface of the floor mat."
 msgstr ""
-"FIRST Tech "
-"Challenge座標系の0,0,0原点は、フィールド中央で、4つの周囲壁（4つの中央タイルが交わる地点）から等距離にある点です。原点は床マットの上表面に位置しています。"
+"*FIRST* Tech "
+"Challengeの座標系の原点(0,0,0)は、フィールドの中心に位置し、4つの周囲の壁から等距離にある点です（4つの中央タイルが交わる場所）。原点は、フローマットの上面にあります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:53
 msgid "X Axis"
@@ -113,7 +113,7 @@ msgid ""
 "Looking at the origin from the Red Wall, the X axis extends through the "
 "origin point and runs to the right and left, parallel with the Red Wall. The"
 " X axis values increase to the right."
-msgstr "赤い壁から原点を眺めると、X軸は原点を通って右と左に延び、赤い壁と平行です。X軸の値は右方向に向かって増加します。"
+msgstr "赤い壁から原点を見ると、X軸は原点を通り、赤い壁と平行に右と左に伸びています。X軸の値は右に向かって増加します。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:60
 msgid "Y Axis"
@@ -124,7 +124,7 @@ msgid ""
 "Looking at the origin from the Red Wall, the Y axis extends through the "
 "origin point and runs out and in, perpendicular to the Red Wall. Increasing "
 "Y values run out (away) from the Red Wall."
-msgstr "赤い壁から原点を見ると、Y軸は原点を通って外側と内側に直角に伸びます。Y値が増加すると、赤い壁から離れます。"
+msgstr "赤い壁から原点を見た場合、Y軸は原点を通り、赤い壁に対して垂直に外側と内側に伸びています。Yの値が増加すると、赤い壁から遠ざかります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:67
 msgid "Z Axis"
@@ -135,7 +135,7 @@ msgid ""
 "Looking at the origin from the Red Wall, the Z axis extends through the "
 "origin point and runs up and down in a vertical line. Increasing Z values "
 "extend upwards."
-msgstr "赤い壁から原点を見ると、Z軸は原点を通って垂直に上と下に伸びており、Z値が増加すると上方へと延伸します。"
+msgstr "赤い壁から原点を見ると、Z軸は原点を通り、垂直な線で上下に伸びています。Zの値が増加すると、上方向に伸びます。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:74
 msgid "Rotation About Axes"
@@ -147,15 +147,15 @@ msgid ""
 " axis from the positive end towards the origin. Positive rotations are then "
 "counterclockwise and negative rotations clockwise."
 msgstr ""
-"軸周りの回転を考える際は、正の端から原点に向かって軸から下を見ていると想像してください。その場合、正の回転は反時計回りで、負の回転は時計回りです。"
+"軸に関する回転を考える際は、正の端から原点に向かって軸を見下ろしていると考えてください。正の回転は反時計回りで、負の回転は時計回りとなります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
 msgid "X, Y and Z coordinate axes."
-msgstr "X, Y、およびZ座標軸。"
+msgstr "X、Y、Z座標軸。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:83
 msgid "Counterclockwise rotations about each axis"
-msgstr "各軸に対する反時計回りの回転"
+msgstr "各軸に関する反時計回りの回転"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:85
 msgid ""
@@ -163,43 +163,41 @@ msgid ""
 "like standing in the middle of the field looking down. A positive rotation "
 "about the Z axis would be counterclockwise."
 msgstr ""
-"正面のZ軸を原点に向けて見下ろす imagine look down the positive Z axis towards the origin "
-"想像してみてください。正面のZ軸を原点に向けて見下ろすと、フィールドの中間に立って下を見ているようなものです。Z軸周りの正の回転は反時計回りです。positive"
-" rotation about the Z axis would be counterclockwise Z軸周りの正の回転は反時計回りです。"
+"正のZ軸を原点に向かって見下ろすことを想像してください。これはフィールドの中央に立って下を見ているようなものです。Z軸の正の回転は反時計回りになります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:89
 msgid ""
 "Example: a robot spinning clockwise on the Field is making a negative "
 "rotation about the Z axis."
-msgstr "例：フィールド上で時計回りに回転しているロボットは、Z軸について負の回転を正在しています。"
+msgstr "例：フィールド上で時計回りに回転しているロボットは、Z軸に関して負の回転を行っています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:92
 msgid "Field Configuration Examples"
-msgstr "フィールド設定例"
+msgstr "フィールド構成の例"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:94
 msgid ""
 "Below are two examples illustrating the Field Coordinate System for "
 "different *FIRST* Tech Challenge field configurations."
-msgstr "以下は、異なる FIRST Tech Challenge のフィールド構成を例示する場面座標系の2つの例です。"
+msgstr "以下は、異なる *FIRST* Tech Challenge フィールド構成におけるフィールド座標システムを示す二つの例です。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:98
 msgid ""
 "In both field configurations the red Alliance is facing out along the "
 "positive Y axis, and the Z axis points up from the center of the field."
-msgstr "両方のフィールド配置において、赤い連合はY軸の正方向に面していますし、Z軸はフィールドの中心から上に向かっています。"
+msgstr "両方のフィールド構成において、赤いアライアンスは正のY軸に沿って外向きに配置されており、Z軸はフィールドの中心から上向きに指しています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:102
 msgid "Diamond Field"
-msgstr "ダイアモンドフィールド"
+msgstr "ダイヤモンドフィールド"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:-1
 msgid "A diamond field with X, Y and Z axes shown."
-msgstr "X, Y, Z軸が表示されたダイヤモンドフィールド。"
+msgstr "X、Y、Z軸が表示されたダイヤモンドフィールド。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:107
 msgid "The FIRST RES-Q game field"
-msgstr "FIRST RES-Qのゲームフィールド"
+msgstr "FIRST RES-Q 競技フィールド"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:109
 msgid ""
@@ -209,55 +207,55 @@ msgid ""
 " be on the right as seen from the audience. The Y axis points across the "
 "field as seen from the Red Wall. The X axis points to the Blue Alliance."
 msgstr ""
-"ダイヤモンドフィールドの配置では、両チームの壁は隣接しています。フィールドは45度回転しており、両チームとも観客に向かって設置されています。観客から見ると、フィールドがダイヤモンド形状を形成します。観客から見たときに赤い壁は右側に位置します。Y軸は赤い壁から見るとフィールドの横方向を指します。X軸は青いチームに向かう方向を指します。"
+"ダイヤモンドフィールド構成では、2つのアライアンスの壁が隣接しています。フィールドは45度回転しており、両方のアライアンスが観客に向かっています。観客の視点から見ると、フィールドはダイヤモンドの形を形成します。観客から見て、レッドウォールは右側に位置します。Y軸はレッドウォールから見てフィールドを横切る方向を指します。X軸はブルーアライアンスの方向を指します。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:117
 msgid "Square Field"
-msgstr "正方形フィールド"
+msgstr "正方形のフィールド"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst
 msgid "A square field with X, Y and Z axes shown."
-msgstr "X, Y, および Z 軸が示された正方形のフィールド。"
+msgstr "X、Y、Z軸が表示された正方形のフィールド。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:122
 msgid "The Into The Deep game field"
-msgstr "The Into The Deep ゲームフィールド"
+msgstr "Into The Deep ゲームフィールド"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:124
 msgid ""
 "In a square field configuration the two Alliances face each other across the"
 " field."
-msgstr "正方形のフィールド配置では、両チームアライアンスはフィールドの向かい側に向き合っています。"
+msgstr "正方形のフィールド構成では、2つのアライアンスがフィールドを挟んで向かい合っています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:126
 msgid ""
 "The field is oriented such that the Red Wall is on the right as seen from "
 "the audience."
-msgstr "観客から見た場合、フィールドは赤い壁が右側にあるように配置されています。"
+msgstr "フィールドは、観客から見て赤い壁が右側に位置するように配置されています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:127
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:145
 msgid ""
 "The Y axis points across the field from the Red Wall towards the Blue "
 "Alliance."
-msgstr "Y軸はフィールドの横方向に、赤い壁から青い連盟に向かって指しています。"
+msgstr "Y軸は、赤い壁から青いアライアンスに向かってフィールドを横切っています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:128
 msgid "The X axis points away from the audience to the rear of the field."
-msgstr "X軸は観客からフィールドの後方へと向いています。"
+msgstr "X軸は観客からフィールドの後方に向かっています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:131
 msgid "Square Field (Inverted ALLIANCE AREA)"
-msgstr "逆転したアライアンスエリア（正方形フィールド）"
+msgstr "正方形フィールド（逆向きアライアンスエリア）"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst
 msgid ""
 "A square field with X, Y and Z axes shown, with inverted ALLIANCE AREA."
-msgstr "X、Y、Z軸が表示された正方形のフィールドで、逆向きのALLIANCE AREAが示されています。"
+msgstr "X、Y、Z軸が表示された正方形のフィールドで、逆さまのアライアンスエリアがあります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:136
 msgid "The DECODE game field"
-msgstr "DECODEゲームフィールド"
+msgstr "DECODE競技フィールド"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:138
 msgid ""
@@ -268,21 +266,21 @@ msgid ""
 "This is still consistent with the field coordinate system definition, but "
 "the field is inverted."
 msgstr ""
-"DECODEゲームフィールドは、実質的に正方形のフィールドですが、赤と青のチームエリアが通常の配置とは逆になっています（観客から見た場合、左側に赤いチームエリア）。この配置では、X軸とY軸が「反転」しており、正の軸が指す方向も逆になります。これはフィールド座標系の定義には一致していますが、フィールド自体は反転しています。"
+"DECODEゲームフィールドは基本的に正方形のフィールドですが、赤と青のアライアンスエリアは通常の構成から入れ替えられています（観客から見て左側に赤のアライアンスエリアがあります）。この構成では、X軸とY軸が「反転」しており、正の軸が指す方向が異なります。これはフィールド座標系の定義と一致していますが、フィールドが反転しています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:144
 msgid ""
 "The field is oriented such that the Red Wall is on the left as seen from the"
 " audience."
-msgstr "フィールドは、観客から見ると赤い壁が左側にあるように配置されています。"
+msgstr "フィールドは、観客から見て赤い壁が左側に位置するように配置されています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:146
 msgid "The X axis points towards the audience to the front of the field."
-msgstr "X軸はフィールドの前側、つまり観客に向かって指しています。"
+msgstr "X軸はフィールドの前方にいる観客の方を指しています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:150
 msgid "Coordinate Position Example"
-msgstr "座標位置例"
+msgstr "座標位置の例"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:152
 msgid ""
@@ -290,31 +288,31 @@ msgid ""
 "DECODE field, which is a square field with inverted red/blue. Given the "
 "order of coordinates then X = -58.3727, Y = 55.6425, and Z = 29.5."
 msgstr ""
-"DECODEフィールド上の座標(-58.3727, 55.6425, "
-"29.5)を考えてみましょう。DECODEフィールドは正方形で、赤と青が逆になっています。座標の順序からX = -58.3727, Y = "
-"55.6425, Z = 29.5となります。"
+"DECODEフィールドにおける座標(-58.3727, 55.6425, "
+"29.5)をインチ単位で考えましょう。このフィールドは赤と青が反転した正方形のフィールドです。座標の順序に基づくと、X = -58.3727、Y = "
+"55.6425、Z = 29.5となります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:155
 msgid ""
 "The X axis value of -58.3727 is located deep in the back (away from the "
 "Audience Wall) of the field."
-msgstr "X軸の値が-58.3727で、フィールドの奥（ AUDIENCE WALL から離れた位置）にあります。"
+msgstr "X軸の値-58.3727は、フィールドの奥深く（観客壁から離れた位置）にあります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:156
 msgid ""
 "The Y axis value of 55.6425 would be located closer to the Blue Wall, about "
 "a 3/4 tile length from the Blue wall."
-msgstr "Y軸の値55.6425は青い壁に近辺にあり、青い壁から約3/4タイルの距離です。"
+msgstr "Y軸の値55.6425は、青い壁に近い位置にあり、青い壁から約3/4タイルの長さの距離にあります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:157
 msgid "The Z axis value of 29.5 is 29.5 inches above the field tiles."
-msgstr "Z軸の値29.5はフィールドタイルより29.5インチ上にあります。"
+msgstr "Z軸の値29.5は、フィールドタイルの上29.5インチです。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:159
 msgid ""
 "This set of coordinates is the center of the Red Goal AprilTag on the Red "
 "Goal."
-msgstr "このセットの座標は、赤いゴールのレッドゴールAprilTagの中心です。"
+msgstr "この座標セットは、赤いゴールの赤いゴールAprilTagの中心です。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:162
 msgid "Measured Values"
@@ -326,29 +324,29 @@ msgid ""
 "field. They are representative only, and should not be assumed to be exact, "
 "or guaranteed."
 msgstr ""
-"次のメトリック値は、2016年の競技場から測定されたものです。これらは代表的なものであり、正確であることを保証するものではなく、あくまで参考程度にとどめてください。"
+"以下のメトリック値は、2016年の競技フィールドから測定されたものです。これらは代表的なものであり、正確であると仮定したり、保証されたりするべきではありません。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:167
 msgid ""
 "Distance between opposite inside faces of panels: 3580 mm, (if the field is "
 "assembled well: the straps give some adjustment tolerance)"
-msgstr "パネルの対向した内面間の距離: 3580 mm、（フィールドが適切に組み立てられている場合：ストラップには調整余裕があります）"
+msgstr "パネルの対向する内側面間の距離：3580 mm（フィールドが適切に組み立てられている場合：ストラップに調整の余裕があります）"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:169
 msgid "Polycarbonate transparencies have a visible opening height of 255 mm"
-msgstr "ポリカーボネートの透明部分は、視覚的に確認できる開口高さが 255 mm です"
+msgstr "ポリカーボネート透明板の可視開口高さは255 mmです。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:170
 msgid "The top edge of transparencies is 30 mm from the top of the perimeter"
-msgstr "透明天体の上端は周囲の上端から30 mm離れた位置にあります"
+msgstr "透過物の上端は、周囲の上部から30 mmの位置にあります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:171
 msgid "Total perimeter height is 313 mm"
-msgstr "総周囲の高さは 313 mm です"
+msgstr "総周囲高さは313 mmです。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:172
 msgid "Tiles are 13 mm thick"
-msgstr "タイルは13 mm厚です"
+msgstr "タイルの厚さは13 mmです。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:174
 msgid ""
@@ -356,8 +354,8 @@ msgid ""
 "the audience, at a height equal to the top of the perimeter wall, would have"
 " a coordinate position of: (-1790, 1790, 300) in millimeters."
 msgstr ""
-"钻石フィールドの配置の場合、観客が最も近いフィールドの角は、周囲の壁と同等の高さにあるため、座標位置は：(-1790, 1790, 300) "
-"ミリメートルとなります。"
+"したがって、ダイヤモンドフィールドの構成において、観客に最も近いフィールドの隅は、周囲の壁の上端と同じ高さで、座標位置はミリメートル単位で "
+"(-1790, 1790, 300) となります。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:179
 msgid "Additional Information"
@@ -371,10 +369,10 @@ msgid ""
 "from the `right hand rule <https://en.wikipedia.org/wiki/Right-hand_rule>`__"
 " of classic geometry."
 msgstr ""
-"3次元における「直交座標系」についてのウィキペディア記事を参照してください `<Cartesian coordinate system "
+"このWikipediaの記事を参照してください `Cartesian coordinate system "
 "<https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Three_dimensions>`__"
-" > 。フィールド座標系の回転規則は、クラシック幾何学の `右の手の規則 <https://en.wikipedia.org/wiki/Right-"
-"hand_rule>`__ から来ています。"
+" の三次元に関して。フィールド座標系の回転規約は、古典幾何学の `right hand rule "
+"<https://en.wikipedia.org/wiki/Right-hand_rule>`__ から来ています。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:188
 msgid ""
@@ -388,13 +386,9 @@ msgid ""
 "<apriltag/vision_portal/apriltag_localization/apriltag-localization:apriltag"
 " localization>` on the field."
 msgstr ""
-"ウェブカメラ搭載のロボットは、:ref:`AprilTags<apriltag/vision_portal/apriltag_intro/apriltag-"
-"intro:apriltag introduction>` を使用して、ロボットに対して :ref:`AprilTag "
-"の位置<apriltag/understanding_apriltag_detection_values/understanding-apriltag-"
-"detection-values:introduction>` を決定することができます。フィールド上の知られた位置に配置されている AprilTags"
-" から、あなたはまた "
-":ref:`ロボットのフィールド上の位置<apriltag/vision_portal/apriltag_localization/apriltag-"
-"localization:apriltag localization>` も決定できます。"
+"ウェブカメラを搭載したロボットは、 :ref:`AprilTags <apriltag/vision_portal/apriltag_intro/apriltag-intro:apriltag introduction>` を使用して、ロボットに対する :ref:`AprilTag is located <apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values:introduction>` の位置を特定することができます。"
+""
+"AprilTagsはフィールド上の既知の位置にあるため、フィールド上の :ref:`location of the robot <apriltag/vision_portal/apriltag_localization/apriltag-localization:apriltag localization>` を特定することもできます。"
 
 #: ../../source/game_specific_resources/field_coordinate_system/field-coordinate-system.rst:196
 msgid ""
@@ -405,6 +399,6 @@ msgid ""
 "from the robot. You can use the IMU to determine which direction a robot is "
 "facing."
 msgstr ""
-"ロボットは、慣性測位装置（IMU）を使用して、ロボットに関する軸周りの回転を測定できます。詳細については "
-":ref:`IMUの軸定義をご覧ください.<programming_resources/imu/imu:axes definition>` "
-"IMUから得られるヨー値、またはヘッジイングと呼ばれるもの、はロボットから上に向かうZ軸周りの回転を測定します。IMUを使用して、ロボットがどの方向に向けられているかを確認できます。"
+"ロボットは慣性計測装置（IMU）を使用して、ロボットに対する軸の回転を測定することができます。 :ref:`IMU axes definition. "
+"<programming_resources/imu/imu:axes definition>` "
+"を参照してください。IMUからのヨー値は、ヘディングとも呼ばれ、ロボットから上向きのZ軸に沿った回転を測定します。IMUを使用して、ロボットが向いている方向を特定することができます。"

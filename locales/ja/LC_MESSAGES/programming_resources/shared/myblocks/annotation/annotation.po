@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:2
 msgid "Annotation Details"
-msgstr "注記詳細"
+msgstr "注釈の詳細"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:4
 msgid ""
@@ -29,8 +29,9 @@ msgid ""
 "may be listed in any order. These fields allow a myBlock to have a custom "
 "**comment**, **tooltip**, and **parameter labels**."
 msgstr ""
-"必要な ** 注釈 ** ``@ExportToBlocks`` "
-"には任意のフィールドがあり、これらのフィールドは任意の順序でリストアップできます。これらのフィールドにより、myBlockにカスタムの ** コメント ** 、 ** ツールチップ ** 、および ** パラメーターラベル ** を追加することができます。"
+"必要な **annotation** ``@ExportToBlocks`` "
+"にはオプションのフィールドがあり、これらは任意の順序でリストされることがあります。これらのフィールドにより、myBlock はカスタム "
+"**comment** 、 **tooltip** 、および **parameter labels** を持つことができます。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:12
 msgid "Comment"
@@ -41,8 +42,8 @@ msgid ""
 "The **comment** text appears in a balloon when the Blocks user clicks the "
 "blue question-mark icon. Tell the user **how to use your myBlock**."
 msgstr ""
-"The ** コメント ** "
-"文字はブロックユーザーが青い疑問符アイコンをクリックしたときにバブルに表示されます。ユーザーに ** myBlockの使用方法 ** について説明してください。"
+"**comment** というテキストは、Blocksユーザーが青い質問マークアイコンをクリックするとバルーンに表示されます。ユーザーに **how "
+"to use your myBlock** を伝えてください。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:17
 msgid ""
@@ -51,6 +52,10 @@ msgid ""
 " <programming_resources/shared/myblocks/hardware_example/hardware-"
 "example:hardware example: control a servo>`."
 msgstr ""
+"**single line** に入力する必要があり、「改行」は含まれません。この要件は **joining text strings** "
+"によって満たすことができ、例としては :ref:`here "
+"<programming_resources/shared/myblocks/hardware_example/hardware-"
+"example:hardware example: control a servo>` があります。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:20
 msgid ""
@@ -58,7 +63,7 @@ msgid ""
 "user can add and remove the blue icon, and can edit its text in the (re-"
 "sizeable) balloon."
 msgstr ""
-"カスタムコメントが指定された場合にのみ青いアイコンが表示されます。ブロックユーザーはこの青いアイコンを追加したり削除したりし、そのテキストは（リサイズ可能な）バブル内で編集できます。"
+"青いアイコンは、カスタムコメントが指定された場合にのみ表示されます。Blocksユーザーは青いアイコンを追加および削除でき、（サイズ変更可能な）バルーン内のテキストを編集することができます。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:25
 msgid "Tooltip"
@@ -70,47 +75,48 @@ msgid ""
 "an image or icon. Every Block has a short tooltip to **indicate its "
 "purpose**."
 msgstr ""
-"マウスカーソルを画像やアイコンに ** Hover したとき ** 、 ** ツールチップ ** が表示されます。各ブロックには目的を ** 示す短いツールチップ"
-" ** があります。"
+"**tooltip** が **mouseover** "
+"と共に表示されます：画像やアイコンの上にマウスカーソルをホバーさせることです。すべてのBlockには **indicate its purpose** "
+"のための短いツールチップがあります。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:30
 msgid "Must be entered on a **single line**, with no line breaks."
-msgstr ""
+msgstr "**single line** に入力する必要があり、改行はできません。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:31
 msgid ""
 "If a custom tooltip is not specified, the default tooltip will name the "
 "method, its enclosing class, and return type."
-msgstr "カスタムのツールチップが指定されていない場合、デフォルトのツールチップはメソッド名、含むクラス名、および返却型を示します。"
+msgstr "カスタムツールチップが指定されていない場合、デフォルトのツールチップはメソッド名、その囲むクラス、および戻り値の型を表示します。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:33
 msgid ""
 "Another tooltip, for the grey input socket (at right), is auto-generated "
 "based on parameter type."
-msgstr "灰色の入力ソケット（右側）には、パラメータタイプに基づいて自動生成されるツールチップがあります。"
+msgstr "右側の灰色の入力ソケットに対する別のツールチップは、パラメーターのタイプに基づいて自動生成されます。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:37
 msgid "Parameter Labels"
-msgstr "パラメータラベル"
+msgstr "パラメーターラベル"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:39
 msgid ""
 "The **parameterLabels** text appears on the myBlock, each next to its grey "
 "input **socket**."
 msgstr ""
-"myBlockの各パラメータの名前が ** parameterLabels ** と表示され、それぞれは灰色の入力 ** ソケット ** の隣に位置します。"
+"**parameterLabels** テキストは myBlock に表示され、各テキストはその灰色の入力 **socket** の隣にあります。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:41
 msgid ""
 "Multiple labels are separated by a comma. Line breaks may be used between "
 "labels."
-msgstr "複数のラベルはコンマで区切ります。ラベル間には改行を使用できます。"
+msgstr "複数のラベルはカンマで区切られます。ラベルの間に改行を使用することもできます。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:43
 msgid ""
 "For a single parameter, this also works: ``parameterLabels = "
 "\"sampleParameter\"``."
-msgstr "単一のパラメータの場合、これでも機能します: ``parameterLabels = \"sampleParameter\"``。"
+msgstr "単一のパラメーターの場合、これも機能します: ``parameterLabels = \"sampleParameter\"`` 。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:46
 msgid ""
@@ -120,7 +126,9 @@ msgid ""
 " user, the other is for the Java programmer. Just list them in the "
 "correct/same order, so their meanings correspond."
 msgstr ""
-"ハローワールドの例では、パラメータラベル「 ** Recipient ** 」がJavaの入力パラメータ名「 ** greetingRecipient ** 」と異なることに気づいたかもしれません。同じでなくても構いません。一つはブロックユーザー用であり、もう一つはJavaプログラマ用です。適切な順序で列挙し、意味が対応するようにします。"
+"Hello Worldの例では、パラメーターラベル **Recipient** がJavaの入力パラメーター名 "
+"**greetingRecipient** "
+"と同じではないことに気付いたかもしれません。それらは同じである必要はありません。一方はBlocksユーザーのため、もう一方はJavaプログラマーのためのものです。意味が対応するように、正しい/同じ順序でリストしてください。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:52
 msgid ""
@@ -129,7 +137,7 @@ msgid ""
 "case each grey socket will contain a sample of the required type (e.g. A, "
 "false, 0), with an appropriate tooltip."
 msgstr ""
-"実際、すべての入力にラベルを付ける必要はありません；デフォルトのラベルは宣言された型（例：String、boolean、int、doubleなど）が表示されます。いずれの場合も、各灰色のソケットには必要な型のサンプル（例：A、false、0）と適切なツールチップが含まれます。"
+"実際には、すべての入力にラベルを付ける必要はありません。代わりに、デフォルトのラベルが宣言された型（例：String、boolean、int、doubleなど）を表示します。いずれにせよ、各グレーのソケットには必要な型のサンプル（例：A、false、0）が含まれており、適切なツールチップが表示されます。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:57
 msgid ""
@@ -137,37 +145,35 @@ msgid ""
 "parameters, **all** custom label will be ignored. Instead the default labels"
 " will be displayed."
 msgstr ""
-"もしパラメーターラベルの数がJavaのパラメーターの実際の数と一致しない場合、 ** すべて ** のカスタムラベルは無視されます。代わりにデフォルトのラベルが表示されます。"
-""
+"パラメーターラベルの数が実際のJavaパラメーターの数と一致しない場合、 **all** "
+"カスタムラベルは無視されます。その代わりに、デフォルトのラベルが表示されます。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:61
 msgid ""
 "A myBlock may have up to 21 parameters… not recommended! Keep things simple."
-msgstr ""
-"myBlockは最大21個のパラメータを持つことができます…推奨されません！シンプルに保ちましょう。"
-""
+msgstr "myBlockは最大21のパラメーターを持つことができますが… お勧めしません！シンプルに保ちましょう。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:64
 msgid ""
 "Again, the annotation ``@ExportToBlocks`` **must** appear immediately before"
 " each myBlock method, even if not using the optional fields."
 msgstr ""
+"再度、オプションフィールドを使用していなくても、アノテーション ``@ExportToBlocks`` **must** は各 myBlock "
+"メソッドの直前に表示されます。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:67
 msgid "Two more optional annotation labels, not illustrated here, are:"
-msgstr "ここでは描かれていませんが、2つの任意の注釈ラベルがあります：\""
+msgstr "ここに示されていないもう2つのオプションの注釈ラベルは次のとおりです："
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:69
 msgid ""
 "``heading``, such as “My Amazing myBlock”. The default heading is “call Java"
 " method”."
-msgstr ""
-"``heading`` は「私の素晴らしい myBlock」などです。デフォルトの heading は「Java メソッドを呼び出す」です。"
+msgstr "``heading`` 、例えば「My Amazing myBlock」です。デフォルトの見出しは「Javaメソッドを呼び出す」です。"
 
 #: ../../source/programming_resources/shared/myblocks/annotation/annotation.rst:71
 msgid ""
 "``color``, without quotes, just a color number (hue). For example 155 is "
 "green, 255 is blue. Default is 289. Check it out!"
 msgstr ""
-"``色``, フォントで囲まずに、単なる色番号（ Hue "
-"）を指定してください。例えば、155は緑、255は青です。デフォルトは289です。確認してみてください!"
+"``color`` は、引用符なしで、色番号（色相）です。例えば、155は緑、255は青です。デフォルトは289です。確認してみてください！"

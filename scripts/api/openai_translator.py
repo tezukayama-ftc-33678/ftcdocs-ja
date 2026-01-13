@@ -23,10 +23,10 @@ class OpenAITranslator(Translator):
     OpenAI ChatGPT translator implementation.
     
     Supports:
-    - GPT-3.5-turbo (fast, cost-effective)
-    - GPT-4 (high quality, more expensive)
-    - GPT-4-turbo (balance of speed and quality)
-    
+        - GPT-4o-mini (recommended: fast and cheap)
+        - GPT-4.1-mini (recommended: balanced performance)
+        - GPT-5-mini (high quality, higher cost)
+        - Legacy models: GPT-4, GPT-4-turbo
     Features:
     - Automatic retry with exponential backoff
     - Rate limiting support
@@ -37,8 +37,8 @@ class OpenAITranslator(Translator):
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "gpt-3.5-turbo",
-        temperature: float = 0.3,
+        model: str = "gpt-4o-mini",
+        temperature: float = 0.1,
         max_retries: int = 3,
         timeout: int = 30,
         glossary: Optional[Dict[str, str]] = None
@@ -48,7 +48,7 @@ class OpenAITranslator(Translator):
         
         Args:
             api_key: OpenAI API key (defaults to OPENAI_API_KEY env var)
-            model: Model name (gpt-3.5-turbo, gpt-4, gpt-4-turbo)
+            model: Model name (gpt-4o-mini, gpt-4.1-mini, gpt-5-mini, etc.)
             temperature: Creativity (0.0-1.0, lower = more consistent)
             max_retries: Maximum retry attempts on failure
             timeout: Request timeout in seconds
@@ -68,12 +68,11 @@ class OpenAITranslator(Translator):
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
         if not self.api_key:
             raise ValueError(
-                "OpenAI API key required. Set OPENAI_API_KEY environment variable "
-                "or pass api_key parameter"
+                "OpenAI API key required. Set OPENAI_API_KEY environment variable or .env file"
             )
         
-        # Configure OpenAI client
-        openai.api_key = self.api_key
+        # Configure OpenAI client (v1.0+ uses client instance)
+        self.client = openai.OpenAI(api_key=self.api_key)
         
         self.model = model
         self.temperature = temperature
@@ -117,7 +116,7 @@ class OpenAITranslator(Translator):
         last_error = None
         for attempt in range(1, self.max_retries + 1):
             try:
-                response = openai.ChatCompletion.create(
+                response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": system_prompt},
@@ -138,18 +137,18 @@ class OpenAITranslator(Translator):
                 
                 return translation
                 
-            except openai.error.RateLimitError as e:
+            except openai.RateLimitError as e:
                 last_error = e
                 wait_time = 2 ** attempt  # Exponential backoff
                 print(f"Rate limit hit. Waiting {wait_time}s before retry {attempt}/{self.max_retries}")
                 time.sleep(wait_time)
                 
-            except openai.error.APIError as e:
+            except openai.APIError as e:
                 last_error = e
                 print(f"API error: {e}. Retry {attempt}/{self.max_retries}")
                 time.sleep(1)
                 
-            except openai.error.Timeout as e:
+            except openai.APITimeoutError as e:
                 last_error = e
                 print(f"Request timeout. Retry {attempt}/{self.max_retries}")
                 time.sleep(2)
@@ -224,13 +223,16 @@ Requirements:
             Dict with token counts and estimated cost
         """
         # Pricing (as of 2024, subject to change)
+        # Daily limit: 2.5M tokens across all mini models
         pricing = {
-            "gpt-3.5-turbo": {"input": 0.0005, "output": 0.0015},  # per 1K tokens
-            "gpt-4": {"input": 0.03, "output": 0.06},
-            "gpt-4-turbo": {"input": 0.01, "output": 0.03},
+            "gpt-4o-mini": {"input": 0.00015, "output": 0.0006},  # per 1K tokens
+            "gpt-4.1-mini": {"input": 0.00075, "output": 0.003},  # per 1K tokens
+            "gpt-5-mini": {"input": 0.001, "output": 0.004},      # per 1K tokens
+            "gpt-4o": {"input": 0.005, "output": 0.015},          # per 1K tokens
+            "gpt-4": {"input": 0.03, "output": 0.06},             # per 1K tokens
         }
         
-        prices = pricing.get(self.model, pricing["gpt-3.5-turbo"])
+        prices = pricing.get(self.model, pricing["gpt-4o-mini"])
         
         input_cost = (self.prompt_tokens / 1000) * prices["input"]
         output_cost = (self.completion_tokens / 1000) * prices["output"]
@@ -240,7 +242,8 @@ Requirements:
             "total_tokens": self.total_tokens,
             "prompt_tokens": self.prompt_tokens,
             "completion_tokens": self.completion_tokens,
-            "estimated_cost_usd": round(total_cost, 4)
+            "estimated_cost_usd": round(total_cost, 6),
+            "daily_limit_tokens": 2500000
         }
     
     def reset_stats(self) -> None:
@@ -248,3 +251,25 @@ Requirements:
         self.total_tokens = 0
         self.prompt_tokens = 0
         self.completion_tokens = 0
+    
+    def estimate_tokens(self, text: str) -> int:
+        """
+        Estimate token count for OpenAI models.
+        
+        OpenAI's tokenizers use roughly 4 characters per token.
+        Conservative estimate (round up) to avoid context overflow.
+        
+        Args:
+            text: Text to estimate
+        
+        Returns:
+            Estimated token count
+        """
+        if not text:
+            return 0
+        
+        # OpenAI tokenizer: approximately 4 characters per token
+        # Conservative estimate: divide by 3 to be safe
+        estimated_tokens = len(text) // 3 + 1
+        
+        return estimated_tokens

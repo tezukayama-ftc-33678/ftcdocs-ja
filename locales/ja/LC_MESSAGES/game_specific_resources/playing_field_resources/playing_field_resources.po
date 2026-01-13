@@ -6,36 +6,36 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:2
 msgid "Playing Field Resources"
-msgstr "競技場リソース"
+msgstr "フィールドリソース"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:7
 msgid ""
 "Arena with four teams in alliance areas. Four robots are on the field along "
 "with CENTERSTAGE game elements."
-msgstr "4つのチームがアライアンスエリアに配置されたアリーナ。フィールドには4台のロボットとCENTERSTAGEゲーム要素が配置されています。"
+msgstr "アリーナにはアライアンスエリアに四つのチームがあります。フィールドには四台のロボットとCENTERSTAGEゲーム要素が配置されています。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:7
 msgid "Traditional Playing Field, CENTERSTAGE presented by RTX, 2023-2024"
-msgstr "伝統的なプレイフィールド、CENTERSTAGE 出演：RTX, 2023-2024"
+msgstr "従来の競技フィールド、CENTERSTAGE presented by RTX、1.1"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:10
 msgid "About the Playing Field"
-msgstr "COURSE 地面について"
+msgstr "フィールドについて"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:12
 msgid ""
@@ -45,7 +45,9 @@ msgid ""
 "in the official field drawings. The base field stays the same for all games "
 "but the game elements are subject to change as per the Competition Manual."
 msgstr ""
-"競技場には複数の配置方法があります。伝統的なゲームでは、競技場はアリーナの一部で、12フィート×12フィート（3.66メートル×3.66メートル）のフィールドと公式なフィールド図に記載されているすべての要素が含まれます。基本的なフィールドは全てのゲームで同じですが、競技マニュアルによれば、ゲーム要素は変更されることがあります。"
+"使用できる競技フィールドの構成は複数あります。従来のゲームでは、競技フィールドはアリーナの一部であり、12フィート x 12フィート（3.66 m x "
+"3.66 "
+"m）のフィールドと公式フィールド図面に記載されているすべての要素が含まれています。基本フィールドはすべてのゲームで同じですが、ゲーム要素は競技マニュアルに従って変更される可能性があります。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:15
 msgid ""
@@ -56,12 +58,21 @@ msgid ""
 "can be found on the `Game and Season Materials page <https://ftc-"
 "resources.firstinspires.org/files/ftc/game>`_ on the *FIRST* Website."
 msgstr ""
-"競技マニュアルには、その年のゲームのプレイフィールドに関するアリーナセクションが含まれています。フィールドの主要な面積とゲーム要素、スコアリング要素の測定値が記載されています。例えば、スコアリング要素を置くことができるバスケットの高さなどです。競技マニュアルは、FIRSTウェブサイトの「ゲームとシーズン資料」ページ"
-" `<https://ftc-resources.firstinspires.org/files/ftc/game>`_ で見つけることができます。"
+"競技マニュアルには、その年のゲームのプレイフィールドに関するアリーナセクションが含まれています。"
+""
+"フィールドの主要な側面やゲーム要素、得点要素の測定値が記載されています。"
+""
+"例えば、得点要素を置くことができるバスケットの高さなどです。"
+""
+"競技マニュアルは、`ゲームおよびシーズン資料ページ <https://ftc-resources. "
+""
+"firstinspiresで見つけることができます。"
+""
+"競技マニュアルは、 *FIRST* ウェブサイトの `ゲームおよびシーズン資料ページ <https://ftc-resources.firstinspires.org/files/ftc/game>`_ で見つけることができます。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:22
 msgid "Field Setup Guide"
-msgstr "フィールド設置ガイド"
+msgstr "フィールドセットアップガイド"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:24
 msgid ""
@@ -71,33 +82,33 @@ msgid ""
 "placing on the field. There are also teardown instructions that indicate how"
 " to take apart the field for storage or transport."
 msgstr ""
-"フィールド設置ガイドには、 *FIRST* Tech Challenge "
-"フィールドを組み立てるための公式手順が記載されています。通常は、構造物を組み立てる手順があり、それからフィールドに配置するための設置手順があります。また、保管や輸送のためにフィールドを分解するための解体手順もあります。"
+"フィールドセットアップガイドには、 *FIRST* Tech "
+"Challengeフィールドの組み立ておよび設置に関する公式な指示が記載されています。通常、構造物を組み立てるための指示があり、その後フィールドに配置するための設置指示があります。また、保管や輸送のためにフィールドを分解する方法を示す解体指示もあります。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:28
 msgid "The guide typically has the following sections:"
-msgstr "ガイドは通常、以下のセクションで構成されています："
+msgstr "ガイドには通常、以下のセクションがあります："
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:30
 msgid ""
 "A list of all tools required for assembly and setup, some tools are only for"
 " assembly or for setup."
-msgstr "組み立てと設定に必要なすべてのツールの一覧です。一部のツールは組み立て用のみか、設定用のみです。"
+msgstr "組み立てとセットアップに必要なすべてのツールのリストです。一部のツールは組み立て専用またはセットアップ専用です。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:31
 msgid ""
 "Lists all the game elements and scoring elements with the quantity of each."
-msgstr "すべてのゲーム要素と得点要素の一覧を表示し、それぞれの数量も記載します。"
+msgstr "ゲーム要素と得点要素をそれぞれの数量と共に一覧表示します。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:32
 msgid "Instructions for setup of the field perimeter and field tiles."
-msgstr "フィールド周囲とフィールドタイルの設定方法についての指示。"
+msgstr "フィールドの周囲およびフィールドタイルのセットアップに関する指示。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:33
 msgid ""
 "Step by step instructions for assembling parts and setting them on the "
 "field."
-msgstr "部品の組み立て方とフィールドに設置する手順。"
+msgstr "部品を組み立ててフィールドに配置するためのステップバイステップの指示。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:34
 msgid ""
@@ -105,35 +116,35 @@ msgid ""
 "game. There are also taped areas outside the field for the Alliances, and "
 "sometimes for game areas."
 msgstr ""
-"多くのゲームでは、フィールドにテープで線を引いて場所やゲームのエリアを示すために使用します。また、アライアンス用のテープで区切られたエリアはフィールドの外にもあり、時にはゲームエリアでもあります。"
+"ほとんどの競技では、フィールド上にテープラインが引かれており、ゲームの位置やエリアを示しています。また、アライアンス用のテープで囲まれたエリアや、時にはゲームエリアのためのテープで囲まれたエリアもフィールドの外にあります。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:35
 msgid ""
 "Most games have AprilTags placed around the field that can be used for robot"
 " navigation."
-msgstr "多くのゲームでは、フィールドの周囲にロボットナビゲーションのために使用できるAprilTagsが配置されています。"
+msgstr "ほとんどのゲームでは、ロボットのナビゲーションに使用できるAprilTagがフィールドの周りに配置されています。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:36
 msgid ""
 "Finally, there are teardown instructions that indicate how to take the field"
 " down for storage or transport."
-msgstr "最後に、フィールドの保管や輸送のために取り doen やり方についての解体指示があります。"
+msgstr "最後に、フィールドを保管または輸送のために解体する方法を示す解体手順があります。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:38
 msgid ""
 "Use the following button link to download a PDF of the current Field Setup "
 "Guide from the *FIRST* Website:"
-msgstr "次のようにリンクボタンを使用して、 *FIRST* ウェブサイトから現在のフィールド設定ガイドのPDFをダウンロードしてください:"
+msgstr "次のボタンリンクを使用して、 *FIRST* ウェブサイトから現在のフィールドセットアップガイドのPDFをダウンロードしてください："
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:40
 msgid "Download Field Setup Guide PDF, 4.5 MB"
-msgstr "フィールド設定ガイドPDFをダウンロード、4.5 MB"
+msgstr "フィールドセットアップガイドPDFをダウンロード、4.5 MB"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:45
 msgid ""
 "The Field Setup Guide has instructions for assembling an official game set "
 "as purchased from AndyMark."
-msgstr "フィールド設置ガイドには、AndyMark から購入した公式ゲームセットの組み立て方法が記載されています。"
+msgstr "フィールドセットアップガイドには、AndyMarkから購入した公式ゲームセットの組み立てに関する指示が含まれています。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:47
 msgid ""
@@ -141,7 +152,7 @@ msgid ""
 "expensive and also suitable for teams who want official game elements but "
 "don't have room to setup a full field."
 msgstr ""
-"購入可能なゲームセットは完全なセットや部分的なセットがあります。部分的なセットは価格が安いため、フルフィールドを設置するスペースがないチームにとっても適しています。"
+"購入したゲームセットは、完全なものまたは部分的なものがあります。部分的なゲームセットは、より安価であり、公式のゲーム要素を希望するが、完全なフィールドを設置するスペースがないチームにも適しています。"
 
 #: ../../source/game_specific_resources/playing_field_resources/playing_field_resources.rst:50
 msgid ""
@@ -151,4 +162,7 @@ msgid ""
 "There is a Do It Yourself (DIY) Resources section that includes CAD models "
 "of scoring elements and DIY field and perimeter build guides."
 msgstr ""
-"ゲームとシーズンの資料ページ`<https://ftc-resources.firstinspires.org/files/ftc/game>`_には、AprilTag画像の印刷可能なPDFもダウンロードできます。自分で作るためのリソースセクションには、得点要素のCADモデルやDIYフィールドおよび周囲壁の組み立てガイドが含まれています。"
+"`Game and Season Materials page <https://ftc-"
+"resources.firstinspires.org/files/ftc/game>`_ には、印刷してフィールドに配置できる AprilTag "
+"画像のダウンロード可能な PDF も含まれています。また、スコアリング要素の CAD モデルや DIY フィールドおよび周辺構築ガイドを含む DIY "
+"リソースセクションもあります。"

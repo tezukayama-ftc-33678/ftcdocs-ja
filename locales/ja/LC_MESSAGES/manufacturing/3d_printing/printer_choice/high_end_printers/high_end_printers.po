@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:2
 msgid "High-End Printers ($600+ USD)"
-msgstr "高機能プリンター（$600以上）"
+msgstr "ハイエンドプリンター（$600以上 USD）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:4
 msgid ""
@@ -32,11 +32,13 @@ msgid ""
 "headache of customs and long shipping times and order from their USA "
 "subsidiary."
 msgstr ""
-"このページにリストされている両方のプリュサプリンターについてのヒントです。現在、これらのプリンターはチェコ共和国の本社または単一の正規販売元である ** PrintedSolid（デラウェア州に本社を置く） ** から注文することが可能です。アメリカ在住でプリュサプリンターを注文する計画がある場合は、海関手続きや長期的な配送時間を避けるために、彼らのアメリカ子会社から注文することをお勧めします。"
+"このページに記載されている両方のPrusaプリンターに関するヒントです。現在、チェコの本社またはデラウェアに拠点を置く唯一の正規販売代理店である "
+"**PrintedSolid** "
+"からPrusaプリンターを注文することができます。アメリカに住んでいてPrusaプリンターを注文する予定がある場合は、税関や長い配送時間の煩わしさを避けるために、アメリカの子会社から注文することをお勧めします。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:10
 msgid "Prusa MK3S+ ($649-$899)"
-msgstr "プリューサ MK3S+ ($649-$899)"
+msgstr "Prusa MK3S+（$649-$899）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:12
 msgid ""
@@ -49,16 +51,21 @@ msgid ""
 " Mk4, but if you are looking at Prusa make sure to explore the Mk4 as well "
 "due to it's more updated features."
 msgstr ""
-"もし毎回問題なく印刷できるプリンタを購入したいなら、Prusa "
-"MK3S+は素晴らしい選択です。Prusaはこれらの機械を数百万時間動かし、このプリンタに関連するほぼすべての問題が見つかり、修正され、消費者に提供されています。その一貫性を証明するものとして、MK3s+に使用される3Dプリント部品の多くもMK3s+で印刷されています。これはPrusaの過去のフラッグシッププリンタであり、Mk4よりもテストが行われていて価格も安いため、しかしPrusaを検討しているなら、より更新された機能があるMk4も探索してみてください。"
+"毎回確実に動作するプリンターを探しているなら、Prusa MK3S+は素晴らしい選択です。"
+""
+"Prusaはこれらの機械を何百万時間も稼働させており、このプリンターに関するほぼすべての問題が発見され、修正され、消費者に提供されています。"
+""
+"彼らの一貫性の証として、Mk3s+で使用される3Dプリント部品は、主にMk3s+プリンターで印刷されています。"
+""
+"これはPrusaの以前のフラッグシッププリンターであり、Mk4よりもテストが行き届いており、価格も安価ですが、Prusaを検討している場合は、より最新の機能が搭載されたMk4もぜひ検討してください。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:19
 msgid "Mk3s+ Features"
-msgstr "Mk3s+ の機能"
+msgstr "Mk3s+ 機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:20
 msgid "Easy to Repair"
-msgstr "簡単に修理できます"
+msgstr "修理が簡単です"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:21
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:53
@@ -67,28 +74,28 @@ msgstr "簡単に修理できます"
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:157
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:198
 msgid "Auto Bed Leveling"
-msgstr "自動ベッドレベル調整"
+msgstr "オートベッドレベリング"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:22
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:54
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:199
 msgid "Removable Spring Steel Sheets"
-msgstr "取り外し可能なスプリングステンレスシート"
+msgstr "取り外し可能なスプリング鋼シート"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:23
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:91
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:127
 msgid "All-Metal Direct Drive Extruder"
-msgstr "全金属直接駆動エクストルダー"
+msgstr "オールメタルダイレクトドライブエクストルーダー"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:24
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:57
 msgid "250mm x 210mm x 210mm Print Volume"
-msgstr "250mm x 210mm x 210mm の印刷可能なサイズ"
+msgstr "250mm x 210mm x 210mm 印刷ボリューム"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:25
 msgid "Unrivaled consistency as a workhorse"
-msgstr "無敵の一貫性としての工作機械です。"
+msgstr "作業馬としての比類のない一貫性"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:28
 msgid "Mk3s+ Drawbacks"
@@ -100,11 +107,11 @@ msgstr "印刷速度が遅い"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:30
 msgid "Dated technology (such as lack of WiFi)"
-msgstr "dated technology (such as lack of WiFi)"
+msgstr "古い技術（WiFiの欠如など）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:31
 msgid "Last generation 3d printer, Mk4 improves on issues"
-msgstr "前世代の3Dプリンター、Mk4は問題を改善しています"
+msgstr "最新世代の3Dプリンター、Mk4は問題を改善しています。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:-1
 msgid "Picture of a Prusa Mk3"
@@ -112,7 +119,7 @@ msgstr "Prusa Mk3の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:41
 msgid "Prusa MK4 ($799-$1099)"
-msgstr "プリューサー MK4 ($799-$1099)"
+msgstr "Prusa MK4（$799-$1099）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:43
 msgid ""
@@ -124,16 +131,19 @@ msgid ""
 "surely make leaps and bounds in consistency, features, and software "
 "optimization as Prusa finds more issues and patches them."
 msgstr ""
-"このプリンターは、一貫性を重視し、改良された機能セットを持つ方々向けです。Prusa "
-"MK4は、MK3S+の後継機で、同じ信頼性と一貫性という特徴を持ちながら、無線LANなどの新しい機能も追加され、より速く、使いやすいものとなっています。この機械は2023年現在、開発および改善の初期段階にあり、Prusaが問題を見つけ出し修正するにつれて、一貫性、機能、ソフトウェア最適化において大きな進歩を遂げることでしょう。"
+"このプリンターは、一貫性と改善された機能セットに興味があるすべての人に適しています。"
+""
+"Prusa MK4は、MK3S+の後継機であり、同じ信頼性と一貫性の特長を持ちながら、WiFiなどの新しい機能を追加し、さらに高速でユーザーフレンドリーになっています。"
+""
+"この機械は2023年現在、まだ開発と改善の初期段階にあり、Prusaがさらなる問題を見つけて修正するにつれて、一貫性、機能、ソフトウェアの最適化において飛躍的な進展を遂げることでしょう。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:51
 msgid "Mk4 Features"
-msgstr "Mk4 の機能"
+msgstr "Mk4 機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:52
 msgid "High Speed (Nearing comparison to BambuLab printers)"
-msgstr "高速版（BambuLabプリンターより近い比較）"
+msgstr "高速（BambuLabプリンターとの比較に近い）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:55
 msgid "All-Metal Direct Drive Extruder with a planetary gearbox"
@@ -363,7 +373,8 @@ msgid ""
 "printer. These printers are **projects** and take significant effort and "
 "upkeep, which make them a poor choice for a first or second printer."
 msgstr ""
-"3Dプリンティングに初めて取り組むチームや、他の2〜3台以上のプリンターの経験がないチームには、DIYプリンターを強く推奨しません。これらのプリンターは ** プロジェクト ** で、大きな努力と維持が必要であり、初めの一台目や二台目のプリンターとしては適していません。"
+"3Dプリンティングに初めて取り組むチームや、他の2〜3台以上のプリンターの経験がないチームには、DIYプリンターを強く推奨しません。これらのプリンターは"
+" ** プロジェクト ** で、大きな努力と維持が必要であり、初めの一台目や二台目のプリンターとしては適していません。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/high_end_printers/high_end_printers.rst:188
 msgid ""

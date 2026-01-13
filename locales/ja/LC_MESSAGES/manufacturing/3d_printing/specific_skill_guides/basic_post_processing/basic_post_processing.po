@@ -6,26 +6,26 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:2
 msgid "Basic Post-Processing"
-msgstr "基本的な後処理"
+msgstr "基本的なポストプロセッシング"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:5
 msgid "Support Removal"
-msgstr "サポートの取り外し"
+msgstr "サポートの削除"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:7
 msgid ""
@@ -37,16 +37,19 @@ msgid ""
 "away from using supports, and if you must use them, to set up your slicing "
 "settings properly in order to make them easy to remove."
 msgstr ""
-"サポート材の取り外しは、プリントからサポート材を除去する基本的な後処理形式です。名前のとおり、finger（指）やpliers/flush "
-"cutters（平口剪定剪刀）などで簡単に取り外すことができますが、小さな特徴や穴からサポート材を取り外す場合、それが難しいことがあります。そのため、サポートを使用しない設計を推奨し、使用する場合は、取り外しが容易になるようにスライシング設定を適切に設定することをお勧めします。"
+"サポート材の除去は、名前が示す通り、印刷物からサポート材を取り除く基本的な後処理の形式です。"
+""
+"通常、指やペンチ/フラッシュカッターを使って簡単に行うことができますが、小さな特徴や穴からサポートを取り除くのは難しい場合があります。"
+""
+"そのため、サポート材の使用を避けるように設計することが推奨されており、どうしても使用する必要がある場合は、取り外しやすくするためにスライス設定を適切に設定することが重要です。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:-1
 msgid "The process of support removal."
-msgstr "サポートの取り外し手順。"
+msgstr "サポートの取り外しプロセス。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:20
 msgid "Drilling Out Holes"
-msgstr "穴の開け方"
+msgstr "穴を開ける"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:22
 msgid ""
@@ -55,11 +58,11 @@ msgid ""
 "drill bit, however take your time while drilling to ensure that the drill "
 "bit is lined up properly to guaruntee that drilled holes are straight."
 msgstr ""
-"印刷された穴をドリルで锪き、スクリュー穴を広げるために幅のあるフィットメントを得るためによく使用されます。これには任意のドリルと適切なサイズのドリルビットを使用して行うことができますが、ドリルビットを正しく位置付けられるように慎重にドリルを使用し、穴が直線的であることを確認してください。"
+"印刷された穴をドリルで広げることは、ねじ穴を広げて緩いフィット感を得るために一般的に使用されます。これは、任意のドリルと適切なサイズのドリルビットを使用して行うことができますが、ドリルビットが正しく整列していることを確認し、穴が真っ直ぐになるようにするために、ドリル作業には時間をかけてください。"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:27
 msgid "Brim Removal"
-msgstr "ブリムの除去"
+msgstr "ブリム除去"
 
 #: ../../source/manufacturing/3d_printing/specific_skill_guides/basic_post_processing/basic_post_processing.rst:29
 msgid ""
@@ -68,4 +71,4 @@ msgid ""
 "your Z-Offset is too low, it may be easier to use a deburring tool to remove"
 " the inner layer lines of the brim."
 msgstr ""
-"ブリムは、印刷物がビルドプレートとより多くの面積で接触できるように使用します。ブリムを削除するには、通常は指で取り除きますが、Zオフセットが低すぎる場合、内側の層線を削除するためにデバーニングツールを使用した方が簡単かもしれません。"
+"ブリムは、印刷物がビルドプレートに接触するための表面積を増やすために使用されます。ブリムを取り外すには、通常は指を使いますが、Zオフセットが低すぎる場合は、ブリムの内側の層のラインを取り除くためにデバリングツールを使用する方が簡単かもしれません。"

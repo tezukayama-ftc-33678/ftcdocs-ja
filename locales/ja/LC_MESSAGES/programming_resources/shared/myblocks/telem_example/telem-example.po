@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:2
 msgid "Example: Modify Telemetry Settings"
-msgstr "例：Telemetry設定を変更する"
+msgstr "例：Telemetryの設定を変更する"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:4
 msgid ""
@@ -30,24 +30,26 @@ msgid ""
 " changed with Android Studio or OnBot Java, but **not** with regular Blocks."
 " Now a myBlock can provide that capability too!"
 msgstr ""
+"Telemetry メッセージは、デフォルトで Robot Controller から Driver Station まで **four time "
+"per second** まで送信されます。この最大リフレッシュレートは、Android Studio または OnBot Java "
+"で変更できますが、通常の Blocks では **not** です。現在、myBlock もその機能を提供できるようになりました！"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:9
 msgid ""
 "This simple example allows a Blocks user to change the standard time "
 "interval from 250 milliseconds to any other interval."
-msgstr "このシンプルな例では、Blocksユーザーが標準的なタイムインターバル（250ミリ秒）を任意の他の間隔に変更できるようにします。"
+msgstr "この簡単な例では、Blocksユーザーが標準の時間間隔を250ミリ秒から他の任意の間隔に変更できるようになります。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:14
 msgid ""
 "A lower time interval can allow faster update of sensor or encoder data. A "
 "higher interval can ease the RC-DS communication bandwidth load."
 msgstr ""
-"センサーやエンコーダーのデータ更新が速くなるためには、時間間隔を短く設定できます。一方で、時間が長く設定すると、RC-"
-"DS通信の帯域負荷を軽減することができます。"
+"短い時間間隔は、センサーやエンコーダーデータの更新を速くすることができます。一方、長い間隔は、RC-DS間の通信帯域幅の負荷を軽減することができます。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:17
 msgid "Here’s the Java code for the method only:"
-msgstr "以下にメソッドのJavaコードのみを示します："
+msgstr "こちらがメソッドのみのJavaコードです："
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:21
 msgid ""
@@ -55,12 +57,12 @@ msgid ""
 "you require pre-typed text of this example, click below. The linked copy "
 "includes the usual class declaration and package/import statements."
 msgstr ""
-"このチュートリアルでは、上のJavaコードを ** 手入力 ** "
-"することをお勧めします。この例の既に型付けされたテキストが必要な場合は、下にあるボタンからアクセスできます。リンク先には通常のクラス宣言とパッケージ/インポートステートメントが含まれています。"
+"このチュートリアルは、上記のJavaコードを **manually type** "
+"することを目的としています。この例の事前に入力されたテキストが必要な場合は、以下をクリックしてください。リンクされたコピーには、通常のクラス宣言およびパッケージ/インポート文が含まれています。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst
 msgid "Example Code"
-msgstr "例程式"
+msgstr "例コード"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:28
 msgid ":download:`W_myBlocks.java <opmodes/W_myBlocks.java>`"
@@ -74,9 +76,9 @@ msgid ""
 "download the raw **.blk file** and click the **Upload Op Mode** button at "
 "the main Blocks menu. Read all comments and instructions."
 msgstr ""
-"この機能が実際に動作するか確認したいですか？もう少し高度なmyBlockを使用してTelemetry更新間の時間を測定することができます；そのmyBlockは下に掲載されています。そのmyBlockは、添付されたブロックプログラムのように使用できます；raw"
-" ** .blkファイル ** をダウンロードし、ブロックメニューの主要項目で ** Opモードのアップロード ** "
-"ボタンをクリックしてください。すべてのコメントと指示を読みましょう。"
+"これが実際に機能するか確認したいですか？もう一つ、少し高度なmyBlockはTelemetryの更新間隔を測定することができます。以下に掲載しています。このmyBlockは、以下に添付されたようなBlocksプログラムで使用できます。生の"
+" **.blk file** をダウンロードし、メインのBlocksメニューで **Upload Op Mode** "
+"ボタンをクリックしてください。すべてのコメントと指示をお読みください。"
 
 #: ../../source/programming_resources/shared/myblocks/telem_example/telem-example.rst:43
 msgid ""

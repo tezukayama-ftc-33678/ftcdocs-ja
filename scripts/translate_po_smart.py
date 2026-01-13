@@ -28,6 +28,14 @@ import json
 import argparse
 import time
 from pathlib import Path
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed, but that's okay - can use environment variables directly
+    pass
 from typing import Dict, List, Optional
 
 try:
@@ -79,15 +87,20 @@ class SmartPOTranslator:
         
         # TranslatorRegistryを使用して翻訳クラスを作成
         try:
-            self.translator = create_translator(
-                backend_name,
-                model=self.config.get('model', 'qwen2.5-coder:7b-instruct'),
-                fallback_model=self.config.get('fallback_model'),
-                temperature=self.config.get('temperature', 0.1),
-                max_retries=self.config.get('max_retries', 3),
-                glossary=self._load_glossary(),
-                api_key=self.config.get('api_key')  # OpenAI/Anthropic用
-            )
+            # バックエンド固有のパラメータを準備
+            translator_kwargs = {
+                'model': self.config.get('model', 'qwen2.5-coder:7b-instruct'),
+                'temperature': self.config.get('temperature', 0.1),
+                'max_retries': self.config.get('max_retries', 3),
+                'glossary': self._load_glossary(),
+                'api_key': os.getenv('OPENAI_API_KEY')  # Environment variable only
+            }
+            
+            # fallback_modelはLocalLLMTranslator専用
+            if backend_name.lower() in ['ollama', 'local']:
+                translator_kwargs['fallback_model'] = self.config.get('fallback_model')
+            
+            self.translator = create_translator(backend_name, **translator_kwargs)
             print(f"{Fore.GREEN}✓ Using backend: {backend_name}")
         except ValueError as e:
             print(f"{Fore.RED}Error: {e}")
@@ -176,16 +189,16 @@ class SmartPOTranslator:
             print(f"{Fore.RED}[ERROR] Translation failed: {e.message}")
             return None
         
-        # 品質チェック
-        quality_result = self.quality_checker.check_text(translated)
-        if not quality_result['is_acceptable']:
+        # 品質チェック（OpenAIは信頼できるので、空でないかのみ確認）
+        is_valid, errors = self.quality_checker.check_translation(text, translated)
+        if not is_valid:
             print(f"{Fore.RED}[WARNING] Quality check failed:")
-            for issue in quality_result['issues']:
-                print(f"  - {issue}")
+            for error in errors:
+                print(f"  - {error}")
             self.blocked_entries.append({
                 'original': text,
                 'attempted_translation': translated,
-                'issues': quality_result['issues'],
+                'issues': errors,
                 'timestamp': time.strftime('%Y-%m-%d %H:%M:%S')
             })
             return None
@@ -195,16 +208,19 @@ class SmartPOTranslator:
         
         return restored
     
-    def translate_po_file(self, po_path: str, output_path: Optional[str] = None):
+    def translate_po_file(self, po_path: str, output_path: Optional[str] = None, retranslate: bool = False):
         """
         POファイル全体を翻訳
         
         Args:
             po_path: 入力POファイルのパス
             output_path: 出力POファイルのパス（Noneの場合は上書き）
+            retranslate: Trueの場合、既存訳文を破棄して全エントリを再翻訳
         """
         print(f"\n{Fore.CYAN}{'='*60}")
         print(f"{Fore.CYAN}Translating: {po_path}")
+        if retranslate:
+            print(f"{Fore.YELLOW}(retranslate mode: discarding existing translations)")
         print(f"{Fore.CYAN}{'='*60}\n")
         
         # POファイルを読み込む
@@ -215,7 +231,12 @@ class SmartPOTranslator:
             return
         
         # 翻訳が必要なエントリを抽出
-        entries_to_translate = self.po_handler.get_untranslated_entries(po)
+        if retranslate:
+            # 既存訳文を破棄して全エントリを対象にする
+            entries_to_translate = [entry for entry in po if entry.msgid and not entry.obsolete and 'fuzzy' not in entry.flags]
+        else:
+            # 訳文がないエントリのみ
+            entries_to_translate = self.po_handler.get_untranslated_entries(po)
         
         if not entries_to_translate:
             print(f"{Fore.GREEN}✓ All entries already translated")

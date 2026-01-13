@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/color_processing/index.rst:2
 msgid "Color Processing Introduction"
-msgstr "色処理の紹介"
+msgstr "カラー処理の紹介"
 
 #: ../../source/color_processing/index.rst:5
 msgid "Overview"
@@ -33,8 +33,8 @@ msgid ""
 "Processing** features from OpenCV, a popular and powerful open-source "
 "library for vision processing."
 msgstr ""
-"FIRST Tech Challenge "
-"SDKソフトウェア（バージョン10.1以降）には、人気のある且つ強力なビジョン処理用オープンソースライブラリOpenCVから一部の ** 色処理 ** "
+"*FIRST* Tech Challenge SDK ソフトウェア（バージョン 10.1 "
+"現在）には、視覚処理のための人気で強力なオープンソースライブラリである OpenCV からのいくつかの **Color Processing** "
 "機能が含まれています。"
 
 #: ../../source/color_processing/index.rst:11
@@ -43,13 +43,12 @@ msgid ""
 "Challenge teams **identify colors** and **process color blobs**\\ , useful "
 "in any game requiring color and shape recognition."
 msgstr ""
-"Introduced with INTO THE DEEP, these new features will help *FIRST* Tech "
-"Challenge teams ** identify colors ** and ** process color blobs ** \\ , "
-"useful in any game requiring color and shape recognition."
+"INTO THE DEEPで導入されたこれらの新機能は、 *FIRST* Tech "
+"Challengeチームに役立ち、色と形の認識を必要とするゲームにおいて有用です。"
 
 #: ../../source/color_processing/index.rst:15
 msgid "Here's the outline of this tutorial's main pages:"
-msgstr "このチュートリアルの主要ページのアウトラインは以下です："
+msgstr "このチュートリアルの主要ページのアウトラインは次のとおりです："
 
 #: ../../source/color_processing/index.rst:29
 msgid ""
@@ -59,11 +58,10 @@ msgid ""
 "<https://github.com/lizlooney>`_, and the open-source team at `OpenCV "
 "<https://opencv.org/>`_."
 msgstr ""
-"開発者およびSample OpMode作者の`@gearsincorg "
-"<https://github.com/gearsincorg>`__、EasyOpenCV開発者の`@Windwoes "
-"<https://github.com/Windwoes>`__、FTC Blocks開発者の`@lizlooney "
-"<https://github.com/lizlooney>`__、およびオープンソースチームの`OpenCV "
-"<https://opencv.org/>`__ に深く感謝します。"
+"開発者およびサンプルOp Modeの著者 `@gearsincorg <https://github.com/gearsincorg>`_ "
+"、EasyOpenCVの開発者 `@Windwoes <https://github.com/Windwoes>`_ 、FTC Blocksの開発者 "
+"`@lizlooney <https://github.com/lizlooney>`_ 、および `OpenCV "
+"<https://opencv.org/>`_ のオープンソースチームに多くの感謝を表します。"
 
 #: ../../source/color_processing/index.rst:32
 msgid "Compatibility"
@@ -75,30 +73,28 @@ msgid ""
 "FTC VisionPortal introduced in 2023.  These processors can run alongside an "
 "AprilTag processor, and replace the TensorFlow processor (removed in 2024)."
 msgstr ""
-"この新ソフトウェアには、2つのColor Processorが含まれており、これらは2023年に導入されたFTC "
-"VisionPortalと互換性があります。これらのプロセッサーはAprilTag プロセッサーと一緒に動作し、TensorFlow "
-"プロセッサー（2024年から削除されました）を置き換えることができます。"
+"この新しいソフトウェアには、2023年に導入されたFTC VisionPortalに対応した2つのColor "
+"Processorが含まれています。これらのプロセッサは、AprilTagプロセッサと同時に動作することができ、2024年に削除されたTensorFlowプロセッサの代わりになります。"
 
 #: ../../source/color_processing/index.rst:38
 msgid "These new processors can be used on the usual FTC cameras:"
-msgstr "これらの新しいプロセッサは、通常のFIRST Tech Challengeカメラで使用できます："
+msgstr "これらの新しいプロセッサは、通常のFTCカメラで使用できます："
 
 #: ../../source/color_processing/index.rst:40
 msgid "any UVC-compatible webcam"
-msgstr "任意のUVC互換ウェブカメラ"
+msgstr "UVC互換のウェブカメラ"
 
 #: ../../source/color_processing/index.rst:41
 msgid ""
 "the built-in camera of an FTC-supported Android phone (as Robot Controller)"
-msgstr ""
-"FIRST Tech Challenge (FTC) をサポートするAndroid端末（Robot Controllerとして）のbuilt-in "
-"camera"
+msgstr "FTCに対応したAndroidフォン（Robot Controllerとして）の内蔵カメラ"
 
 #: ../../source/color_processing/index.rst:43
 msgid ""
 "This does **not** include vision sensors such as HuskyLens and LimeLight 3A,"
 " which do not use the FTC VisionPortal."
 msgstr ""
+"これは、FTC VisionPortalを使用しないHuskyLensやLimeLight 3Aなどのビジョンセンサーを **not** 含みません。"
 
 #: ../../source/color_processing/index.rst:47
 msgid "Two Processors"
@@ -106,27 +102,27 @@ msgstr "二つのプロセッサ"
 
 #: ../../source/color_processing/index.rst:49
 msgid "The new software includes these processors:"
-msgstr "新しいソフトウェアにはこれらのプロセッサが含まれています："
+msgstr "新しいソフトウェアには、これらのプロセッサが含まれています："
 
 #: ../../source/color_processing/index.rst:51
 msgid ""
 "**Color Sensor** - detects the color of a specified zone in the camera's "
 "view"
-msgstr "**色センサー** - カメラの視野内の指定されたゾーンの色を検出します"
+msgstr "**Color Sensor** は、カメラの視界内の指定されたゾーンの色を検出します。"
 
 #: ../../source/color_processing/index.rst:53
 msgid ""
 "**Color Locator** - gives detailed info on clusters of a specified color, in"
 " a specified zone"
-msgstr "**色検出装置** - 指定された色のクラスタに関する詳細情報を指定されたゾーンで提供します"
+msgstr "**Color Locator** - 指定されたゾーン内の指定された色のクラスターに関する詳細情報を提供します。"
 
 #: ../../source/color_processing/index.rst:56
 msgid ""
 "This tutorial has a :doc:`Color Sensor <color-sensor/color-sensor>` page, "
 "showing how to use the Sample OpMode called ``ConceptVisionColorSensor``."
 msgstr ""
-"このチュートリアルには、:doc:`色センサー <color-sensor/color-sensor>` "
-"のページがあります。ここでは、「ConceptVisionColorSensor」というサンプルオモードを使用する方法が説明されています。"
+"このチュートリアルには :doc:`Color Sensor <color-sensor/color-sensor>` ページがあり、 "
+"``ConceptVisionColorSensor`` というサンプル Op Mode の使用方法を示しています。"
 
 #: ../../source/color_processing/index.rst:59
 msgid ""
@@ -136,9 +132,10 @@ msgid ""
 "``ConceptVisionColorLocator_Rectangle`` and "
 "``ConceptVisionColorLocator_Circle``."
 msgstr ""
-"色検出プロセッサーにおいて、色の「クラスタ」は ** Blobs ** と呼ばれます。上記のリストに従って、このチュートリアルでは色 ** Blob "
-"** の概念について1ページを、そしてSample "
-"OpModesである``ConceptVisionColorLocator_Rectangle``と``ConceptVisionColorLocator_Circle``に関する4ページを提供しています。"
+"Color Locatorプロセッサでは、色の「クラスター」は **Blobs** "
+"と呼ばれます。上記に記載されているように、このチュートリアルではColor Blobの概念に関する1ページと、 "
+"``ConceptVisionColorLocator_Rectangle`` および "
+"``ConceptVisionColorLocator_Circle`` というサンプルOp Modeに関する4ページを提供しています。"
 
 #: ../../source/color_processing/index.rst:64
 msgid ""
@@ -146,39 +143,41 @@ msgid ""
 "use in OnBot Java or Android Studio.  Each programming section of this "
 "tutorial has a Blocks tab and a Java tab."
 msgstr ""
-"サンプルのOpModeは、 ** FTC Blocks ** と ** Java ** で利用可能です。OnBot JavaやAndroid "
-"Studioで使用できます。このチュートリアルの各プログラミングセクションには、BlocksタブとJavaタブがあります。"
+"サンプルOpModeは、 **FTC Blocks**\\ および **Java** にて、OnBot JavaまたはAndroid "
+"Studioで使用するために利用可能です。このチュートリアルの各プログラミングセクションには、BlocksタブとJavaタブがあります。"
 
 #: ../../source/color_processing/index.rst:69
 msgid "Next Steps"
-msgstr "次に進む"
+msgstr "次のステップ"
 
 #: ../../source/color_processing/index.rst:71
 msgid "Time to get started!"
-msgstr "始めるには時間はもう Enough! です！"
+msgstr "始める時間です！"
 
 #: ../../source/color_processing/index.rst:73
 msgid ""
 "Following this tutorial in order, first try the Sample OpModes for "
 ":doc:`Color Sensor <color-sensor/color-sensor>`."
 msgstr ""
-"このチュートリアルの順序に従って、まず :doc:`色センサーのサンプルOpMode <color-sensor/color-sensor>` "
-"を試してみてください。"
+"このチュートリアルを順番に進めて、まずは :doc:`Color Sensor <color-sensor/color-sensor>` のサンプル "
+"Op Mode を試してください。"
 
 #: ../../source/color_processing/index.rst:76
 msgid ""
 "Then read about **Color Blob Concepts**\\ , and try the **Color Locator** "
 "Sample OpModes."
-msgstr "次に、 **色のブロブ概念** について読み、 **色検出サンプルオモード** を試してみてください。"
+msgstr ""
+"次に、 **Color Blob Concepts**\\ について読み、 **Color Locator** サンプル Op Mode "
+"を試してみてください。"
 
 #: ../../source/color_processing/index.rst:79
 msgid ""
 "Soon you'll be ready to add one or both features to your Autonomous OpModes "
 "-- perhaps even to help automate your TeleOp!"
 msgstr ""
-"Soon あなたは自律モードのOpModeに一つまたは二つの機能を追加する準備ができることでしょう--"
-"たぶんTeleOpを自動化するのに役立つかもしれません！"
+"もうすぐ、あなたのAutonomous Op "
+"Modesに1つまたは両方の機能を追加する準備が整います。もしかしたら、あなたのTeleOpを自動化する手助けにもなるかもしれません！"
 
 #: ../../source/color_processing/index.rst:84
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
-msgstr "質問、ご意見や訂正はwestsiderobotics@verizon.netまでお願いします。"
+msgstr "質問、コメント、修正は westsiderobotics@verizon.net までお願いします。"

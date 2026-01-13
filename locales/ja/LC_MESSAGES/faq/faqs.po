@@ -6,34 +6,34 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "Common FTC Team FAQs"
-msgstr "一般的なFIRST Tech Challenge チームの質問と回答"
+msgstr "一般的なFTCチームのFAQ"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "Common questions asked by FIRST Tech Challenge teams answered"
-msgstr "FIRST Tech Challengeチームからよく聞かれる一般的な質問に答える"
+msgstr "FIRST Tech Challenge チームからのよくある質問に対する回答"
 
 #: ../../source/faq/faqs.rst:-1
 msgid "FTC Docs, FIRST Tech Challenge, FTC, FAQ"
-msgstr "FIRST Tech Challenge ドキュメント, FAQ"
+msgstr "FTCドキュメント、FIRST Tech Challenge、FTC、FAQ"
 
 #: ../../source/faq/faqs.rst:7
 msgid "Common Team FAQs"
-msgstr "一般的なチームに関する質問と回答"
+msgstr "チームのよくある質問"
 
 #: ../../source/faq/faqs.rst:9
 msgid ""
@@ -44,45 +44,45 @@ msgid ""
 "Chat or ask game specific questions on the `Game Q&A <https://ftc-"
 "qa.firstinspires.org/>`_ ."
 msgstr ""
-"チームとしてのさまざまな面からレジストレーションまで、コンペティションまで、ジャッジメントまでについての迅速な回答を探す場合。公式の質問と答えをご参照いただき、シーズンを通じてガイドされます。追加の説明が必要な場合は、https://www.firstinspires.org/"
-" でライブチャットにアクセスしたり、「Game Q&A」（`ゲームに関する質問 <https://ftc-"
-"qa.firstinspires.org/>`_ ）でゲーム特定の質問を投げかけてください。"
+"チームとしての登録から競技、審査に至るまでの多くの側面に関する迅速な回答をお探しの場合は、これらの公式な質問と回答を参照して、シーズンを通じてのガイドとしてください。さらに明確な情報が必要な場合は、"
+" https://www.firstinspires.org/ に移動してライブチャットを利用するか、 `Game Q&A <https://ftc-"
+"qa.firstinspires.org/>`_ でゲームに特化した質問をしてください。"
 
 #: ../../source/faq/faqs.rst:15
 msgid "Dashboard/Registration FAQs"
-msgstr "ダッシュボード/登録に関するよくある質問"
+msgstr "ダッシュボード/登録 FAQ"
 
 #: ../../source/faq/faqs.rst:22
 msgid ""
 "Each team is required to have two YPP screened lead coaches to see the "
 "Invite Youth Member contact option"
-msgstr "各チームは、招待された若手メンバー連絡先オプションを見せるため、2人のYPP審査済みのリードコーチを必要とします。"
+msgstr "各チームは、招待された若者メンバーの連絡オプションを確認するために、2人のYPPスクリーニングを受けたリードコーチを持つ必要があります。"
 
 #: ../../source/faq/faqs.rst:26
 msgid ""
 "Pitsco submits payments to us electronically. This process can take 24-48 "
 "hours to complete."
-msgstr "ピッツコは電子的に支払いを提出します。このプロセスは完了するのに24〜48時間かかることがあります。"
+msgstr "Pitscoは、私たちに対して電子的に支払いを行います。このプロセスは、完了するまでに24〜48時間かかる場合があります。"
 
 #: ../../source/faq/faqs.rst:29
 msgid "System FAQs"
-msgstr "システムのFAQ"
+msgstr "システム FAQ"
 
 #: ../../source/faq/faqs.rst:36
 msgid "Lead Coach 1 & 2"
-msgstr "リーダー・コーチ 1 と 2"
+msgstr "リードコーチ 1 & 2"
 
 #: ../../source/faq/faqs.rst:40
 msgid ""
 "https://ftc-events.firstinspires.org/ is the source for FIRST-official team,"
 " events and event results information for *FIRST* Tech Challenge"
 msgstr ""
-"https://ftc-events.firstinspires.org/ "
-"は、FIRST公式のチーム情報、イベント情報およびイベント結果情報を提供するためのものです。FIRST Tech Challenge"
+"https://ftc-events.firstinspires.org/ is the source for FIRST-official team,"
+" events and event results information for *FIRST* Tech Challenge"
 
 #: ../../source/faq/faqs.rst:43
 msgid "Judging FAQs"
-msgstr "審査 FAQ"
+msgstr "審査に関するFAQ"
 
 #: ../../source/faq/faqs.rst:50
 msgid ""
@@ -90,7 +90,7 @@ msgid ""
 "who want to participate in the presentation. Please note that at some "
 "events, the Portfolio is collected when the team checks in for the event."
 msgstr ""
-"チームはロボット、ポートフォリオ、そしてプレゼンテーションに参加したい全員を連れてきてください。なお、某些のイベントでは、チームがイベントへのチェックイン時にポートフォリオが収集されることをご了承ください。"
+"チームはロボット、ポートフォリオ、およびプレゼンテーションに参加したいチームメンバーをできるだけ多く持参する必要があります。なお、一部のイベントでは、チームがイベントにチェックインする際にポートフォリオが回収されることに注意してください。"
 
 #: ../../source/faq/faqs.rst:55
 msgid ""
@@ -99,7 +99,7 @@ msgid ""
 "interview and does not include the team's performance in follow-up Pit "
 "interviews or their Portfolio."
 msgstr ""
-"審判はチームが構造化面接を終了した後、即座にフィードバックフォームを完了します。フィードバックは初期の構造化面接のみを対象とし、その後のピット面接でのチームのパフォーマンスやポートフォリオには含まれません。"
+"審査員は、チームが構造化インタビューを完了した直後にフィードバックフォームを記入します。フィードバックは初回の構造化インタビューに限定され、チームのピットインタビューやポートフォリオでのパフォーマンスは含まれません。"
 
 #: ../../source/faq/faqs.rst:60
 msgid ""
@@ -108,11 +108,11 @@ msgid ""
 "room. The judges will begin to ask the team questions at the beginning of "
 "the interview."
 msgstr ""
-"チームは5分間のプレゼンテーションを準備する必要はありませんが、会場に入室した際にプレゼンテーションを持っていないことを審判に知らせるべきです。審判は面接開始時にチームに対して質問を始めます。"
+"チームは5分間のプレゼンテーションを準備する必要はありませんが、チームは部屋に入る際に審査員にプレゼンテーションがないことを知らせるべきです。審査員はインタビューの開始時にチームに質問を始めます。"
 
 #: ../../source/faq/faqs.rst:66
 msgid "Competition FAQs"
-msgstr "競技に関するよくある質問"
+msgstr "競技に関するFAQ"
 
 #: ../../source/faq/faqs.rst:73
 msgid ""
@@ -126,9 +126,17 @@ msgid ""
 "starting configuration. Look at the self inspection checklist, you can "
 "generally determine what you're doing based on the checklist."
 msgstr ""
-"競技マニュアルによれば、検査中に最低1人の生徒がいる必要があります。ただし、検査官はあなたのロボットのメカニカルと電気部品について質問をすることがあります。理想的には、このような質問に答えられるチームメンバーが1人または複数いることが望ましいです。また、特定のルール（例：サイズ）に従うために、ロボットとDriver"
-" "
-"Stationを起動し、その動作を示す必要があるかもしれません。これは、ゲームパッドを使用してメカニズムを操作する必要がある場合やロボットを開始位置に配置する場合などに涉及することがあります。自己検査チェックリストを参照してください。一般的には、チェックリストに基づいて何をしているかを判断できます。"
+"競技マニュアルに従い、検査中には少なくとも1人の学生が出席する必要があります。"
+""
+"ただし、検査官はロボットの機械的および電気的コンポーネントに関する質問を行います。"
+""
+"理想的には、そのような質問に答えられるチームメンバーが1人以上いることが望ましいです。"
+""
+"さらに、ロボットとドライバーステーションを起動し、ロボットがサイズなどの特定のルールに準拠していることを示す必要があるかもしれません。"
+""
+"それには、メカニズムを操作するためにゲームパッドを使用する必要がある場合や、ロボットをスタート構成に配置する場合、ドライブチームの誰かが関与する可能性があります。"
+""
+"自己検査チェックリストを確認してください。チェックリストに基づいて、一般的に何を行っているかを判断できます。"
 
 #: ../../source/faq/faqs.rst:82
 msgid ""
@@ -138,25 +146,25 @@ msgid ""
 "field staff there will not be grounds for a replay. A malfunctioning robot "
 "typically does not provide grounds for a replay."
 msgstr ""
-"対戦を再放送する状況は限定的です。競技マニュアルをご確認ください。どのような条件とプロセスが再放送につながるかを理解してください。通常、フィールドまたはフィールドスタッフの問題がない限り、再放送の理由はありません。ロボットの故障も一般的には再放送の理由とはなりません。"
+"マッチを再試合する必要があるのは特定の状況のみです。再試合の条件やプロセスについて理解するために、競技マニュアルを参照してください。通常、フィールドやフィールドスタッフに問題がなければ、再試合の理由はありません。故障したロボットも通常、再試合の理由にはなりません。"
 
 #: ../../source/faq/faqs.rst:88
 msgid ""
 "The situation was different. If necessary, teams can talk with the head "
 "referee in the competition area Question Box."
-msgstr "状況は異なりました。必要に応じて、競技エリアの質問ボックスでチームはヘッドレフェリーと話すことができます。"
+msgstr "状況は異なりました。必要に応じて、チームは競技エリアのクエスチョンボックスで主審と話すことができます。"
 
 #: ../../source/faq/faqs.rst:92
 msgid ""
 "Teams can go the Question Box so they can discuss this issue with the head "
 "referee. No photographs or videos will be reviewed."
-msgstr "チームは質問ボックスに進み、この問題について頭裁員と相談することができます。写真や動画は審査の対象外です。"
+msgstr "チームはクエスチョンボックスに行くことで、主審とこの問題について話し合うことができます。写真やビデオはレビューされません。"
 
 #: ../../source/faq/faqs.rst:96
 msgid ""
 "Teams can work with the event FTA or Event Director if they have questions "
 "about the WiFi environment."
-msgstr "チームは、無線LAN環境について質問がある場合は、イベントFTAまたはイベントディレクターと連絡を取りましょう。"
+msgstr "チームは、WiFi環境について質問がある場合、イベントのFTAまたはイベントディレクターと連携することができます。"
 
 #: ../../source/faq/faqs.rst:100
 msgid ""
@@ -168,13 +176,17 @@ msgid ""
 "for more information about key volunteer roles, tournament operations, and "
 "how to use the Question Box."
 msgstr ""
-"チームが試合結果について質問がある場合、そのチームはQuestion "
-"Boxに1人の学生代表を送ってヘッドレフェリーと話すことをお勧めします（この会話のために試合を中断しないでください）。レフェリーやが一致して誤りがあったと判断した場合は、それを訂正することができます。レフェリーやがスコアについて自信を持っている場合、チームはその決定を受け入れるべきです。Competition"
-" Manualを参照して、重要なボランティア役割、トーナメント運営、およびQuestion Boxの使用方法についてもっと詳しく知ることができます。"
+"チームがマッチの結果について質問がある場合、1人の生徒代表をクエスチョンボックスに送ってヘッドレフェリーと話をするべきです（この会話のためにマッチを中断しないでください）。"
+""
+"レフェリーが自分たちの判断に誤りがあったと認めた場合、修正することができます。"
+""
+"レフェリーが自分たちのスコアに自信を持っている場合、チームはその決定を受け入れるべきです。"
+""
+"競技マニュアルを確認して、主要なボランティアの役割、トーナメントの運営、およびクエスチョンボックスの使用方法についての詳細を確認してください。"
 
 #: ../../source/faq/faqs.rst:105
 msgid "Technology FAQs"
-msgstr "技術的な質問と回答\\n"
+msgstr "テクノロジーに関するFAQ"
 
 #: ../../source/faq/faqs.rst:112
 msgid ""
@@ -183,10 +195,10 @@ msgid ""
 "place to ask questions that is monitored by a variety of knowledgeable folks"
 " who can likely help you with your questions!"
 msgstr ""
-"お手伝いが必要な場合は、`ftc-communityプラットフォーム <https://ftc-"
-"community.firstinspires.org>`__ が最良の場所です。ftc-"
-"communityプラットフォームは、質問を投げかけられるコミュニティの場で、様々な知識豊富な方々によって監視されるため、おそらくあなたの質問にお手伝いができるでしょう！"
+"助けを求める最良の場所は `ftc-community platform <https://ftc-"
+"community.firstinspires.org>`__ です。ftc-community "
+"プラットフォームは、質問をするためのコミュニティの場であり、さまざまな知識豊富な方々が監視しているため、あなたの質問に対して助けてくれる可能性があります！"
 
 #: ../../source/faq/faqs.rst:118
 msgid "Reviewed by *FIRST* Tech Challenge Game Design Committee"
-msgstr "REVIEWED BY *FIRST* TECH CHALLENGE GAME DESIGN COMMITTEE です"
+msgstr "*FIRST* テックチャレンジゲームデザイン委員会によるレビュー"

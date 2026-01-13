@@ -6,34 +6,34 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/booklets/apriltags.rst:11
 msgid "AprilTag Introduction"
-msgstr "AprilTag について"
+msgstr "AprilTag の紹介"
 
 #: ../../source/booklets/apriltags.rst:11
 msgid "VisionPortal Overview"
-msgstr "Vision Portal概要"
+msgstr "VisionPortal 概要"
 
 #: ../../source/booklets/apriltags.rst:11
 msgid "Understanding AprilTag Values"
-msgstr "AprilTagの値についての理解"
+msgstr "AprilTagの値の理解"
 
 #: ../../source/booklets/apriltags.rst:11
 msgid "AprilTag Test Images"
-msgstr "4月タグテスト画像"
+msgstr "AprilTag テスト画像"
 
 #: ../../source/booklets/apriltags.rst:-1
 msgid "noindex, nofollow"
@@ -41,4 +41,4 @@ msgstr "noindex, nofollow"
 
 #: ../../source/booklets/apriltags.rst:9
 msgid "April Tags in *FIRST* Tech Challenge"
-msgstr "FIRST Tech Challenge の April Tags について"
+msgstr "April Tags in *FIRST* Tech Challenge"

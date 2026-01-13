@@ -6,26 +6,26 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:2
 msgid "Connecting a Laptop to the Program & Manage Network"
-msgstr "ラップトップをプログラム＆管理ネットワークに接続する"
+msgstr "PCをプログラム＆管理ネットワークに接続する"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:5
 msgid "Connecting Your Laptop to the Program & Manage Network"
-msgstr "あなたのノートブックコンピュータをプログラムとネットワークに接続し、管理する方法"
+msgstr "PCをプログラムおよび管理ネットワークに接続する"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:7
 msgid ""
@@ -35,10 +35,10 @@ msgid ""
 "begin this exercise, please make sure that your Windows laptop has the most "
 "current service pack and system update from Microsoft installed."
 msgstr ""
-"OpModeを書くには、プログラミングラップトップを「Program & Manage Wi-"
-"Fi」ネットワークに接続する必要があります。「Program & Manage Wi-Fi」ネットワークは、Robot "
-"Controllerによって作成された無線ネットワークです。この練習を開始する前に、Windows "
-"ラップトップがMicrosoftから最新のサービスパックとシステム更新プログラムがインストールされていることを確認してください。"
+"Op Modeを書くためには、プログラミング用のPCをProgram & Manage Wi-Fiネットワークに接続する必要があります。Program "
+"& Manage Wi-Fiネットワークは、あなたのRobot "
+"Controllerによって作成された無線ネットワークです。この演習を始める前に、あなたのWindows "
+"PCにMicrosoftからの最新のサービスパックとシステムアップデートがインストールされていることを確認してください。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:14
 msgid ""
@@ -47,13 +47,13 @@ msgid ""
 " Manage Wi-Fi network will differ. Refer to your device's documentation for "
 "details on how to connect to a Wi-Fi network."
 msgstr ""
-"Windows 10のノートパソコンを使用している場合、この例はその前提としています。Windows "
-"10のノートパソコンを使用していない場合は、プログラミングおよび管理Wi-"
-"Fiネットワークに接続する手順が異なります。デバイスのドキュメンテーションを参照して、Wi-Fiネットワークに接続する方法をご確認ください。"
+"この例では、ユーザーがWindows 10のPCを使用していることを前提としています。Windows "
+"10のPCを使用していない場合、Programming & Manage Wi-Fiネットワークに接続する手順は異なります。Wi-"
+"Fiネットワークに接続する方法の詳細については、デバイスのドキュメントを参照してください。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:20
 msgid "Connecting Your Laptop to the Program & Manage Network Instructions"
-msgstr "あなたのノートブックパソコンをプログラムに接続しネットワークを管理する手順"
+msgstr "PCをプログラムに接続し、ネットワークを管理する手順"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:22
 msgid ""
@@ -61,6 +61,8 @@ msgid ""
 "corner of the screen to launch the pop-up menu. Select **Program & Manage** "
 "from the pop-up menu to display the **Program & Manage** access information."
 msgstr ""
+"1. DRIVER STATIONで、画面の右上隅にある三つの点をタッチしてポップアップメニューを表示します。ポップアップメニューから "
+"**Program & Manage** を選択して、 **Program & Manage** のアクセス情報を表示します。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:32
 msgid ""
@@ -68,8 +70,8 @@ msgid ""
 "use to connect your laptop to the Blocks or OnBot Java Programming Mode "
 "server."
 msgstr ""
-"2. 「プログラムと管理」画面には、ブロックやOnBot "
-"Javaプログラミングモードサーバーにあなたのノートパソコンを接続するための重要な情報が表示されます。"
+"2. プログラムと管理画面には、PCをBlocksまたはOnBot "
+"Javaプログラミングモードサーバーに接続するために使用できる重要な情報が表示されます。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:41
 msgid ""
@@ -80,16 +82,14 @@ msgid ""
 "phrase \"DIRECT-\"."
 msgstr ""
 "3. "
-"プログラム＆管理無線ネットワークのネットワーク名とパスフレーズを確認してください。画面の上部に、プログラム＆管理無線ネットワークのネットワーク名が表示されます。Robot"
-" ControllerとしてAndroidスマートフォンを使用している場合、無線ネットワーク名は「DIRECT-」で始まります。"
+"プログラムと管理のワイヤレスネットワークのネットワーク名とパスフレーズを確認してください。画面の上部には、プログラムと管理のワイヤレスネットワークの名前が表示されます。Robot"
+" ControllerとしてAndroidスマートフォンを使用している場合、ワイヤレスネットワーク名は「DIRECT-」というフレーズで始まります。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:47
 msgid ""
 "In this example, the name of the Wi-Fi network is \"DIRECT-XK-9999-C-RC\" "
 "and the secure passphrase is \"ZU7if0hB\""
-msgstr ""
-"この例では、Wi-Fi ネットワークの名前は \"DIRECT-XK-9999-C-RC\" で、セキュアなパスフレーズは \"ZU7if0hB\" "
-"です。"
+msgstr "この例では、Wi-Fiネットワークの名前は「DIRECT-XK-9999-C-RC」で、セキュアなパスフレーズは「ZU7if0hB」です。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:54
 msgid ""
@@ -99,15 +99,16 @@ msgid ""
 " name will begin with \"FTC-\".  If you haven't changed its password yet, "
 "then by default the wireless network's passphrase will be \"password\"."
 msgstr ""
-"もしControl Hubを使用している場合、無線ネットワーク名はControl Hubの設定時に指定した内容になります。まだControl "
-"Hubの名前を変更していない場合は、デフォルトでは無線ネットワークの名前は「FTC-」で始まります。また、まだパスワードを変更していない場合、デフォルトでは無線ネットワークのパスフレーズは「password」になります。"
+"Control Hubを使用している場合、ワイヤレスネットワーク名はControl Hubの構成時に指定した名前になります。まだControl "
+"Hubの名前を変更していない場合、デフォルトではワイヤレスネットワークの名前は「FTC-」で始まります。まだパスワードを変更していない場合、デフォルトではワイヤレスネットワークのパスフレーズは「password」になります。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:56
 msgid ""
 "In the screenshot below, the Control Hub's wireless network name is "
 "\"FTC-1Ybr\" and the secure passphrase is \"password\"."
 msgstr ""
-"下記のスクリーンショットでは、Control Hubの無線ネットワーク名は「FTC-1Ybr」で、セキュアなパスフレーズは「password」です。"
+"以下のスクリーンショットでは、Control "
+"Hubのワイヤレスネットワーク名は「FTC-1Ybr」で、セキュアなパスフレーズは「password」です。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:63
 msgid ""
@@ -115,14 +116,14 @@ msgid ""
 "desktop for a Wi-Fi symbol. Click on the Wi-Fi symbol to display a list of "
 "available Wi-Fi Networks in your vicinity."
 msgstr ""
-"4. Windows 10 "
-"コンピューターのデスクトップ右下に、無線LANアイコンを確認してください。無線LANアイコンをクリックして、周囲にある無線LANネットワークの一覧を表示します。"
+"4. Windows 10のコンピュータのデスクトップの右下隅にあるWi-Fiのシンボルを探してください。Wi-"
+"Fiのシンボルをクリックすると、近くの利用可能なWi-Fiネットワークのリストが表示されます。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:72
 msgid ""
 "5. Look for the wireless network that matches the name displayed on the "
 "Program & Manage screen."
-msgstr "5. プログラム＆管理画面で表示されている名前と一致する無線ネットワークを探します。"
+msgstr "5. プログラムと管理画面に表示されている名前と一致するワイヤレスネットワークを探してください。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:80
 msgid ""
@@ -130,31 +131,32 @@ msgid ""
 "Controller is \"DIRECT-XK-9999-C-RC\" and the network is visible in the list"
 " displayed on the Windows 10 computer."
 msgstr ""
-"この例では、Android Robot Controllerの無線ネットワーク名は「DIRECT-XK-9999-C-RC」で、Windows 10 "
-"コンピュータ上で表示されるリストにネットワークが見えます。"
+"この例では、Android Robot Controllerのワイヤレスネットワークの名前は「DIRECT-"
+"XK-9999-C-RC」であり、そのネットワークはWindows 10コンピュータに表示されるリストに見えています。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:82
 msgid ""
 "6. Once you have found the target network in the list, click on it to select"
 " it."
-msgstr "6. ターゲットネットワークを見つけてから、リストにある該当のネットワークをクリックして選択します。"
+msgstr "6. リスト内でターゲットネットワークを見つけたら、それをクリックして選択します。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:90
 msgid "Press the Connect button to connect to the network."
-msgstr "ネットワークに接続するには、「接続」ボタンを押してください。"
+msgstr "ネットワークに接続するには、接続ボタンを押してください。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:92
 msgid ""
 "7. When prompted, provide the network passphrase (in this example "
 "\"ZU7if0hB\") and press \"Next\" to continue."
-msgstr "7. ネットワークのパスフレーズ（本例では「ZU7if0hB」）を入力し、「次へ」を押して続行してください。"
+msgstr "7. プロンプトが表示されたら、ネットワークパスフレーズ（この例では「ZU7if0hB」）を入力し、「次へ」を押して続行します。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:100
 msgid ""
 "Note that the passphrase is case sensitive.  Make sure that your spelling "
 "and capitalization matches the original spelling and capitalization shown on"
 " the Program & Manage screen."
-msgstr "パスフレーズは大小文字が区別されます。プログラム＆管理画面で表示されている原稿のスペルと大文字小文字を確認し、一致するようにしてください。"
+msgstr ""
+"パスフレーズは大文字と小文字を区別することに注意してください。プログラムと管理画面に表示されている元のスペルと大文字小文字が一致していることを確認してください。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:102
 msgid ""
@@ -162,8 +164,8 @@ msgid ""
 " Windows 10 laptop and your Robot Controller Android device, the status "
 "should be displayed in the wireless settings for your laptop."
 msgstr ""
-"8. ワイヤレス接続が成功して、Windows 10 ノートパソコンとRobot "
-"ControllerのAndroidデバイスとの間で接続が確立した場合、ノートパソコンのワイヤレス設定画面にステータスが表示されるべきです。"
+"8. Windows 10 PCとRobot Controller "
+"Androidデバイスの間で無線接続が正常に確立されると、PCの無線設定にステータスが表示されるはずです。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:112
 msgid ""
@@ -173,9 +175,9 @@ msgid ""
 "to \"Show available networks\", which can be used to force the list of Wi-Fi"
 " connections to be updated."
 msgstr ""
-"数秒後に表示が更新されない場合は、青いWi-"
-"Fi接続を示すボックスの下部にある「ネットワーク接続」をクリックしてください。これにより、「利用可能なネットワークを表示」リンクが含まれる設定ダイアログボックスが開き、Wi-"
-"Fi接続のリストが強制的に更新されます。"
+"数秒後に表示が示されているように更新されない場合は、Wi-"
+"Fi接続を表示している青いボックスの下部にある「ネットワーク接続」をクリックしてみてください。これにより、「利用可能なネットワークを表示」というリンクを含む設定ダイアログボックスが表示され、Wi-"
+"Fi接続のリストを強制的に更新するために使用できます。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:118
 msgid ""
@@ -183,13 +185,12 @@ msgid ""
 "your Robot Controller, your laptop **will not have access to the Internet**."
 "  It only has direct access to the Robot Controller."
 msgstr ""
-"Note that when you are connected to the blocks programming mode server on "
-"your Robot Controller, your laptop ** will not have access to the Internet "
-"** .  It only has direct access to the Robot Controller."
+"注意してください。Robot Controllerのブロックプログラミングモードサーバーに接続されているとき、あなたのPCは **will not "
+"have access to the Internet** です。PCはRobot Controllerに直接アクセスすることしかできません。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:125
 msgid "Troubleshooting Your Wireless Connection"
-msgstr "無線接続のトラブルシューティング"
+msgstr "ワイヤレス接続のトラブルシューティング"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:127
 msgid ""
@@ -198,11 +199,12 @@ msgid ""
 " the Program & Manage wireless network, make sure you answer the following "
 "questions:"
 msgstr ""
-"もしプログラミングモードの無線ネットワークが利用可能なネットワークリストに表示されない場合、または、ラップトープをプログラム＆管理無線ネットワークに接続できない問題がある場合は、以下の質問に答えてください："
+"Programming Modeのワイヤレスネットワークが利用可能なネットワークのリストに表示されない場合や、PCをProgram & "
+"Manageワイヤレスネットワークに接続する際に問題が発生している場合は、以下の質問に答えていることを確認してください。"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:132
 msgid "Is the Robot Controller running and connected to the DRIVER STATION?"
-msgstr "Robot Controllerは起動していますか？DRIVER STATION に接続されていますか？"
+msgstr "ロボットコントローラーは動作しており、DRIVER STATIONに接続されていますか？"
 
 #: ../../source/programming_resources/shared/program_and_manage_network/Connecting-a-Laptop-to-the-Program-&-Manage-Network.rst:133
 msgid ""
@@ -211,5 +213,5 @@ msgid ""
 "that could prevent the laptop from displaying the Program & Manage wireless "
 "network in the list of available networks."
 msgstr ""
-"Windows ノートブックは最新のシステム更新とサービスパックで更新されていますか？例えば、古いバージョンの Windows 8 および 10 "
-"では、ノートブックが利用可能なネットワークの一覧に「プログラム & ウェアレジストリを管理」の無線ネットワークを表示できない問題がありました。"
+"あなたのWindows PCは、最新のシステムアップデートとサービスパックで更新されていますか？例えば、古いバージョンのWindows "
+"8や10には、PCが利用可能なネットワークのリストに「Program & Manage」ワイヤレスネットワークを表示できなくする問題がありました。"

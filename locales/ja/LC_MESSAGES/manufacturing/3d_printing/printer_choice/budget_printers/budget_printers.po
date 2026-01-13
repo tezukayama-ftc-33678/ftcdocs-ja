@@ -6,18 +6,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:2
 msgid "Budget Printers (Under $300 USD)"
@@ -28,11 +28,12 @@ msgid ""
 "Just because you buy a budget printer doesn't mean you can't upgrade it "
 "later to be even better! (Take a look at Common Upgrades)"
 msgstr ""
-"予算のプリンターを購入したからといって、後でより良いものにアップグレードできないわけではありません！（一般的なアップグレードについて参照してください）"
+"予算に優しいプリンターを購入したからといって、後でさらに良くするためにアップグレードできないわけではありません！ "
+"（一般的なアップグレードを見てみましょう）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:10
 msgid "Creality Ender-3/Pro/V2 ($100-$250)"
-msgstr "Creality Ender-3/Pro/V2 (約1万円～2万5千円)"
+msgstr "Creality Ender-3/Pro/V2 ($100-$250)"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:12
 msgid ""
@@ -41,23 +42,23 @@ msgid ""
 "classic in the FTC and 3D printing community. It has a huge support network "
 "and despite it's low cost, has proven itself to be a very capable printer."
 msgstr ""
-"コストパフォーマンスが高く、なおかつ素晴らしい仕事をこなすプリンターをお探しであれば、これは最適な選択肢です。Ender-3シリーズはFTCと3Dプリンティングコミュニティでオープンソースのクラシックモデルとして知られています。大きなサポートネットワークがあり、その低価格にもかかわらず、非常に能力のあるプリンターであることが証明されています。"
+"コストパフォーマンスに優れたプリンターをお探しで、なおかつ優れた性能を求めるのであれば、これは素晴らしい選択肢です。Ender-3シリーズは、FTCおよび3Dプリンティングコミュニティにおけるオープンソースのクラシックです。大規模なサポートネットワークがあり、低価格にもかかわらず、非常に優れたプリンターであることが証明されています。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:17
 msgid "Ender 3 Features"
-msgstr "エンダーアン被誉三の機能"
+msgstr "Ender 3 機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:18
 msgid "All Ender 3s have:"
-msgstr "すべてのEnder 3は："
+msgstr "すべてのEnder 3には次のものがあります："
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:20
 msgid "A huge support network"
-msgstr "大きなサポートネットワーク"
+msgstr "大規模なサポートネットワーク"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:21
 msgid "Tons of printable and purchasable upgrades"
-msgstr "多くの印刷可能なアップグレードと購入可能なアップグレード"
+msgstr "印刷可能で購入可能なアップグレードが多数あります"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:22
 msgid "Open Source Hardware"
@@ -66,11 +67,11 @@ msgstr "オープンソースハードウェア"
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:23
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:70
 msgid "220mm x 220mm x 250mm Print Volume"
-msgstr "220mm × 220mm × 250mm の印刷可能なサイズ"
+msgstr "220mm x 220mm x 250mm プリントボリューム"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:25
 msgid "The Ender 3 Pro has:"
-msgstr "The Ender 3 Proには："
+msgstr "Ender 3 Pro には次のものがあります："
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:27
 msgid "A more stable Y axis"
@@ -82,15 +83,15 @@ msgstr "より強力な電源"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:29
 msgid "A flexible bed"
-msgstr "柔軟な工作台"
+msgstr "柔軟なベッド"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:31
 msgid "The Ender 3 v2 has:"
-msgstr "The Ender 3 v2 には:"
+msgstr "Ender 3 v2 には次のものがあります："
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:33
 msgid "A glass bed"
-msgstr "ガラスの工作台"
+msgstr "ガラスベッド"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:34
 msgid "Built in belt tensioners"
@@ -98,52 +99,52 @@ msgstr "内蔵ベルトテンショナー"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:35
 msgid "The power supply and Y axis from the Pro"
-msgstr "電源とプロのY軸"
+msgstr "Proからの電源供給とY軸"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:37
 msgid ""
 "The V2 and Pro can often be found on sale for the same price as the base "
 "model, making them very good options."
-msgstr "V2とProは、基本モデルと同じ価格で販売されることも多く、非常に良い選択肢です。"
+msgstr "V2とProは、ベースモデルと同じ価格で販売されていることが多く、非常に良い選択肢となっています。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:40
 msgid "Ender 3 Drawbacks"
-msgstr "エンダースリーの欠点"
+msgstr "Ender 3の欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:41
 msgid ""
 "Technology is dated due to initial release in 2018 (Lack of Auto Bed "
 "Leveling)"
-msgstr "技術は、2018年の最初のリリース当時に古くなっています（自動ベッドレベル調整が欠けている）"
+msgstr "技術は2018年の初回リリースにより古くなっています（オートベッドレベリングの欠如）。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:42
 msgid "PTFE Lined Hotend"
-msgstr "PTFE加工熱端"
+msgstr "PTFEライニングホットエンド"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:43
 msgid "Bowden Style Extruder"
-msgstr "ボウデン式エクストルーダ"
+msgstr "ボーデンスタイルエクストルーダー"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:44
 msgid ""
 "V-Roller Motion system and singular lead screw setup causes frame flexing."
-msgstr "V-ローラー動力システムと単独のリードスクリュー設定がフレームの曲げ음을引き起こします。"
+msgstr "Vローラーモーションシステムと単一リードスクリューの設定がフレームのたわみを引き起こします。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:45
 msgid "Can take a bit of tweaking/upgrading to work consistently."
-msgstr "一貫して動作するように調整やアップグレードが必要 lehet."
+msgstr "一貫して動作させるためには、少し調整やアップグレードが必要になることがあります。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:52
 msgid "Picture of a Creality Ender 3"
-msgstr "Creality Ender 3 の画像"
+msgstr "Creality Ender 3の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:52
 msgid "Creality Ender 3 Base Model"
-msgstr "_creality_ender_3_base_model_"
+msgstr "Creality Ender 3 ベースモデル"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:57
 msgid "Sovol SV06 ($259)"
-msgstr "ソボル SV06 ($259)"
+msgstr "Sovol SV06（$259）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:59
 msgid ""
@@ -152,46 +153,46 @@ msgid ""
 "an Ender-like frame but adds in modern features that the Ender lacks which "
 "can save tinkering and maintenance time down the road."
 msgstr ""
-"もし、少しのお金を多機能で快適な生活を享受するために費やしたくあれば、Sovol "
-"SV06は良い選択肢です。これはEnderのようなフレームを維持しながら、Enderに欠けていた現代的な機能を追加しており、将来的には組み立てやメンテナンスの時間を節約することができます。"
+"もし、箱から出してすぐに利用できる生活の質を向上させる機能のために少しだけ多くのお金を使うことを厭わないのであれば、Sovol "
+"SV06は良い選択肢です。これは、Enderに似たフレームを維持しつつ、Enderにはない現代的な機能を追加しており、将来的な調整やメンテナンスの時間を節約することができます。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:64
 msgid "SV06 Features"
-msgstr "SV06 功能"
+msgstr "SV06 機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:65
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:97
 msgid "Auto Bed Leveling"
-msgstr "自動ベッドレベル調整"
+msgstr "オートベッドレベリング"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:66
 msgid "Flexible Bed"
-msgstr "柔軟なベッド"
+msgstr "フレキシブルベッド"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:67
 msgid "All-Metal Direct Drive Extruder"
-msgstr "全金属直接駆動エクストリューダ"
+msgstr "オールメタルダイレクトドライブエクストルーダー"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:68
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:99
 msgid "Built in Belt Tensioners"
-msgstr "組み込みベルトテンショナー"
+msgstr "内蔵ベルトテンショナー"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:69
 msgid "Dual Z-Axis"
-msgstr "Dual Z軸"
+msgstr "デュアルZ軸"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:73
 msgid "SV06 Drawbacks"
-msgstr "SV06 欠点"
+msgstr "SV06の欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:74
 msgid "Known Quality Control Issues from factory (X-Axis not flat)"
-msgstr "FACTORY からの既知の品質管理上の問題（X軸が平らではありません）"
+msgstr "工場からの既知の品質管理問題（X軸が平坦でない）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:75
 msgid "Not many slicer profiles available (Slowly being solved)"
-msgstr "スライサー設定の選択が限られている（徐々に改善中）"
+msgstr "利用可能なスライサープロファイルはあまりありません（徐々に解決されています）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:-1
 msgid "Picture of a Sovol SV06"
@@ -199,7 +200,7 @@ msgstr "Sovol SV06の画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:85
 msgid "Other Budget Printers/Ender Clones ($150-$300)"
-msgstr "他の予算内プリンター/エンドクローン ($150-$300)"
+msgstr "その他の予算プリンター/エンダークローン（$150-$300）"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:87
 msgid ""
@@ -212,17 +213,21 @@ msgid ""
 "These printers can be a great buy and are often cheaper but make sure to do "
 "research before purchasing."
 msgstr ""
-"もし、ENDER-3シリーズの大きな知識ベースを犠牲にしてでも、いくつかの追加機能を得られるなら、いくつかのENDER-3のクローンは良い選択肢となります。代表的なものにはELEGOOネプテューヌ、ANYCUBICヴィパル、VOXELABアクイラがあります。これらのプリンターや会社がすべて「ENDER"
-" "
-"3のクローン」であることはもちろん、リストに挙げた全ての企業とプリンターはコミュニティからの信頼があり、適切なカスタマーサービスを提供しているという点で確立された企業です。これらのプリンタは良い購入先であり、しばしば価格も安いため、購入する前に研究をしておくことを確認してください。"
+"Ender-3シリーズの背後にある膨大な知識ベースを犠牲にして、いくつかの追加機能を得ることに問題がないのであれば、いくつかのEnder-3クローンは良い選択肢となるでしょう。"
+""
+"注目すべきものには、Elegoo Neptune、Anycubic Vyper、Voxelab Aquilaが含まれます。"
+""
+"これらは「Ender 3クローン」と言えるものですが、ここに挙げた3社およびプリンターモデルは、いずれも確立された企業であり、コミュニティの信頼を得ており、顧客サービスも適切です。"
+""
+"これらのプリンターは素晴らしい購入となる可能性があり、しばしば安価ですが、購入前にリサーチを行うことをお勧めします。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:94
 msgid "Common Features"
-msgstr "共通の機能"
+msgstr "共通機能"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:95
 msgid "Ender 3 Clones typically have at least a couple of the following..."
-msgstr "エンド3のクローンは、以下のうち少なくともいくつかを備えています..."
+msgstr "Ender 3 クローンは通常、以下のいくつかを持っています..."
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:98
 msgid "Upgraded Print Surface"
@@ -230,7 +235,7 @@ msgstr "アップグレードされた印刷面"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:100
 msgid "Colored Touchscreen"
-msgstr "色付きタッチスクリーン"
+msgstr "カラータッチスクリーン"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:103
 msgid "Common Drawbacks"
@@ -238,13 +243,13 @@ msgstr "一般的な欠点"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:104
 msgid "Less troubleshooting help/knowledge base compared to the Ender 3"
-msgstr "ENDER 3に比べて、トラブルシューティングの助けや知識ベースが少ない"
+msgstr "Ender 3と比較して、トラブルシューティングの支援/ナレッジベースが少ないです。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:105
 msgid ""
 "Any drawbacks of the individual printer. Make sure you keep an eye out for "
 "things you want in a printer when researching."
-msgstr "個々のプリンタの欠点について。調査する際は、求めるプリンタの特性に注意を払ってください。"
+msgstr "個々のプリンターの欠点について。調査する際には、プリンターに求めるものに注意を払うようにしてください。"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:112
 msgid "Picture of an Anycubic Viper"
@@ -252,4 +257,4 @@ msgstr "Anycubic Viperの画像"
 
 #: ../../source/manufacturing/3d_printing/printer_choice/budget_printers/budget_printers.rst:112
 msgid "Anycubic's Viper"
-msgstr "AnyCubicのヴィパール"
+msgstr "AnycubicのViper"

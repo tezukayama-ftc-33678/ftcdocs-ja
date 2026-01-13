@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:2
 msgid "Sample OpModes"
-msgstr "サンプルOpMode"
+msgstr "サンプル Op Mode"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:4
 msgid ""
@@ -29,8 +29,8 @@ msgid ""
 "allowing programmers to **develop their own solutions** guided by the SDK "
 "API (Javadoc)."
 msgstr ""
-"このチュートリアルの意図は、利用可能なウェブカメラコントロールを説明し、プログラマがSDK API（Javadoc）を参照して "
-" ** 独自のソリューションを開発 ** できるようにすることです。"
+"このチュートリアルの目的は、利用可能なウェブカメラのコントロールを説明し、プログラマーがSDK API（Javadoc）に従って **develop "
+"their own solutions** できるようにすることです。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:8
 msgid ""
@@ -38,11 +38,12 @@ msgid ""
 "rudimentary OpModes may not apply to your webcam and may not meet your needs"
 " in general."
 msgstr ""
-"次のサンプルOpModeは、参照のためにここにリンクされています。これらの基本的なOpModeは、あなたのウェブカメラには適用されない場合があり、一般的なニーズを満たすものではないかもしれません。"
+"以下のサンプルOp Modeは、参考のためにここにリンクされています。これらの基本的なOp "
+"Modeは、あなたのウェブカメラには適用されない可能性があり、一般的にあなたのニーズを満たさないかもしれません。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust exposure, gain and AE Priority"
-msgstr "露出、ゲインおよびAE優先度を調整"
+msgstr "露出、ゲイン、およびAEプライオリティを調整する"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:16
 msgid ""
@@ -54,7 +55,7 @@ msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust exposure and gain with TFOD (test OpMode for Examples 1, 2, 3)"
-msgstr "TFOD（例題1、2、3用のテストOpMode）を使用して露出とゲインを調整します"
+msgstr "TFODを使用して露出とゲインを調整します（例1、2、3のテストOp Mode）。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:25
 msgid ""
@@ -64,7 +65,7 @@ msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust white balance temperature, if supported"
-msgstr "白平衡温度を調整します（対応する場合）"
+msgstr "ホワイトバランスの色温度を調整します（サポートされている場合）。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:32
 msgid ""
@@ -76,7 +77,7 @@ msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust focus, if supported"
-msgstr "フォーカスを調整します（対応する場合は）"
+msgstr "サポートされている場合は、フォーカスを調整してください。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:39
 msgid ""
@@ -88,7 +89,7 @@ msgstr ""
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst
 msgid "Adjust virtual pan, tilt and zoom, if supported"
-msgstr "サポートされている場合、仮想的な pans、tilt、zoom の調整を行ってください"
+msgstr "サポートされている場合は、仮想パン、チルト、ズームを調整してください。"
 
 #: ../../source/programming_resources/vision/webcam_controls/samples/samples.rst:46
 msgid ""

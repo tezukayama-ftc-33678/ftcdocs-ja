@@ -6,18 +6,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:2
 msgid "Evaluating Your Webcam"
@@ -29,8 +29,7 @@ msgid ""
 "described here. The SDK provides some methods to query the webcam and/or "
 "return values that indicate whether a valid response was available."
 msgstr ""
-"特定のウェブカメラのファームウェアは、ここで説明した機能をサポートしている場合としない場合があります。SDK "
-"には、ウェブカメラを照会したり、有効な応答が利用可能かどうかを示す値を返すメソッドがいくつか含まれています。"
+"特定のウェブカメラのファームウェアは、ここで説明されている特定の機能をサポートしている場合とサポートしていない場合があります。SDKは、ウェブカメラを照会したり、有効な応答が利用可能であったかどうかを示す値を返すためのいくつかのメソッドを提供します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:10
 msgid "Exposure Support"
@@ -38,48 +37,49 @@ msgstr "露出サポート"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:12
 msgid "Here are two methods to query exposure and a specific exposure mode:"
-msgstr "以下に露出の照会方法と特定の露出モードについての2つのメソッドがあります："
+msgstr "露出と特定の露出モードを照会するための2つの方法を以下に示します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:14
 msgid "isExposureSupported()"
-msgstr "露出設定がサポートされているか確認する"
+msgstr "isExposureSupported()"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:15
 msgid "isModeSupported(ExposureControl.Mode._mode_)"
-msgstr "ExposureControl.Mode._mode_ のモードがサポートされているかどうか確認します。"
+msgstr "isModeSupported(ExposureControl.Mode._mode_)"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:17
 msgid "for *mode*, enter the specific mode name you are testing"
-msgstr "モード *の場合、テストしている特定のモード名を入力してください*"
+msgstr "*mode* には、テストしている特定のモード名を入力してください。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:19
 msgid ""
 "For the following methods, a field called ``unknownExposure`` of type long "
 "is returned if exposure unavailable:"
-msgstr "次のメソッドでは、露出情報が利用できない場合、型longのフィールド「unknownExposure」が返されます："
+msgstr "次のメソッドでは、露出が利用できない場合、long型の ``unknownExposure`` というフィールドが返されます。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:22
 msgid "getExposure(TimeUnit.MILLISECONDS)"
-msgstr "get露出時間(TimeUnit.MILLISECOND)"
+msgstr "getExposure(TimeUnit.MILLISECONDS)"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:23
 msgid "getMinExposure(TimeUnit.MILLISECONDS)"
-msgstr "getMin露出時間(ミリ秒)\""
+msgstr "getMinExposure(TimeUnit.MILLISECONDS)"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:24
 msgid "getMaxExposure(TimeUnit.MILLISECONDS)"
-msgstr "ミリ秒単位で最大露出時間を取得する"
+msgstr "getMaxExposure(TimeUnit.MILLISECONDS)"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:26
 msgid ""
 "The methods that set the exposure and mode can also return a Boolean, "
 "presumably indicating whether the operation was successful or not. As "
 "optional examples:"
-msgstr "設定する露出やモードのメソッドは、操作が成功したかどうかを示すブール値も返すことができるでしょう。任意の例として："
+msgstr ""
+"露出とモードを設定するメソッドは、操作が成功したかどうかを示すと思われるブール値を返すこともできます。オプションの例としては次のようになります："
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:30
 msgid "``wasExposureSet =  setExposure(25);``"
-msgstr "``wasExposureSet = setExposure(25);``"
+msgstr "``wasExposureSet =  setExposure(25);``"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:31
 msgid "``wasExposureModeSet = setMode(ExposureControl.Mode.Manual)``"
@@ -87,36 +87,36 @@ msgstr "``wasExposureModeSet = setMode(ExposureControl.Mode.Manual)``"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:33
 msgid "Likewise the AE Priority feature can return a Boolean. For example:"
-msgstr "同様に、AE優先度機能もブーリアン値を返すことができます。例えば："
+msgstr "同様に、AE Priority機能はBooleanを返すことができます。例えば："
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:35
 msgid "``wasAEPrioritySet =  setAePriority(true);``"
-msgstr "``wasAEPrioritySet = setAePriority(True);``"
+msgstr "``wasAEPrioritySet =  setAePriority(true);``"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:38
 msgid "Gain Support"
-msgstr "支援を得る"
+msgstr "サポートを得る"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:40
 msgid ""
 "The method that sets the gain can also return a Boolean indicating whether "
 "the operation was successful or not. As an optional example:"
-msgstr "設定するゲインを指定するメソッドは、操作が成功したかどうかを示す論理値を返すこともあります。任意の例としては："
+msgstr "ゲインを設定するメソッドは、操作が成功したかどうかを示すブール値を返すこともできます。オプションの例として："
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:43
 msgid "``wasGainSet =  setGain(25);``"
-msgstr "``wasGainSet = setGain(25);``"
+msgstr "``wasGainSet =  setGain(25);``"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:46
 msgid "White Balance Support"
-msgstr "白平衡サポート"
+msgstr "ホワイトバランスサポート"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:48
 msgid ""
 "The methods that set temperature and mode can also return a Boolean, "
 "indicating whether the operation was successful or not. As optional "
 "examples:"
-msgstr "温度やモードを設定するメソッドは、操作が成功したかどうかを示す論理値も返すことができます。任意の例として："
+msgstr "温度とモードを設定するメソッドは、操作が成功したかどうかを示すブール値を返すこともできます。オプションの例として："
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:52
 msgid "``wasTemperatureSet = setWhiteBalanceTemperature(3000);``"
@@ -133,15 +133,15 @@ msgstr "フォーカスサポート"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:58
 msgid "Here are two methods to query focus and and a specific focus mode:"
-msgstr "ここでは焦点と特定の焦点モードを照査するための2つの方法があります："
+msgstr "フォーカスと特定のフォーカスモードを照会するための2つの方法を以下に示します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:60
 msgid "isFocusLengthSupported()"
-msgstr "焦点距離がサポートされているかどうかは確認できます。"
+msgstr "isFocusLengthSupported()"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:61
 msgid "isModeSupported(FocusControl.Mode._mode_)"
-msgstr "FocusControl.Mode._mode_のモードがサポートされているかどうかは確認しておりません"
+msgstr "isModeSupported(FocusControl.Mode._mode_)"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:63
 msgid ""
@@ -150,29 +150,32 @@ msgid ""
 "the Microsoft LifeCam VX-5000. The Javadoc also mentions a field "
 "``unknownFocusLength`` of type double."
 msgstr ""
+"以下のメソッドは、要求されたフォーカス値が利用できない場合に **negative value** を返します。例えば、Logitech C270 "
+"および Microsoft LifeCam VX-5000 では -1 が返されます。また、Javadoc には double 型のフィールド "
+"``unknownFocusLength`` についても言及されています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:68
 msgid "getFocusLength()"
-msgstr "フォーカス距離を得る()"
+msgstr "getFocusLength()"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:69
 msgid "getMinFocusLength()"
-msgstr "最小焦点距離を得る()"
+msgstr "getMinFocusLength()"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:70
 msgid "getMaxFocusLength()"
-msgstr "最大フォーカス距離を得る()"
+msgstr "getMaxFocusLength()"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:72
 msgid ""
 "The methods that set the focus length and mode can also return a Boolean, "
 "presumably indicating whether the operation was successful or not. As "
 "optional examples:"
-msgstr "設定する焦点距離とモードを指定するメソッドは、操作が成功したかどうかを示すブール値も返す可能性があります。任意の例としては："
+msgstr "焦点距離とモードを設定するメソッドは、操作が成功したかどうかを示すと思われるブール値を返すこともできます。オプションの例としては："
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:76
 msgid "``wasFocusSet =  setFocusLength(25);``"
-msgstr "``wasFocusSet = setFocusLength(25);``"
+msgstr "``wasFocusSet =  setFocusLength(25);``"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:77
 msgid "``wasFocusModeSet = setMode(FocusControl.Mode.Fixed)``"
@@ -180,18 +183,18 @@ msgstr "``wasFocusModeSet = setMode(FocusControl.Mode.Fixed)``"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:80
 msgid "PTZ Support"
-msgstr "パン/ズーム/トラッキングサポート"
+msgstr "PTZサポート"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:82
 msgid ""
 "The methods that set the pan/tilt pair and zoom value can also return a "
 "Boolean, presumably indicating whether the operation was successful or not. "
 "As optional examples:"
-msgstr "セットするパン/ティルトペアとズーム値のメソッドは、操作が成功したかどうかを示すボーリアン値も返すことができます。任意の例として："
+msgstr "パン/チルトペアとズーム値を設定するメソッドは、操作が成功したかどうかを示すブール値を返すこともできます。オプションの例として："
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:86
 msgid "``wasPanTiltSet =  setPanTilt(myHolder);``"
-msgstr "``wasPanTiltSet = setPanTilt(我的持込装置);``"
+msgstr "``wasPanTiltSet =  setPanTilt(myHolder);``"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:87
 msgid "``wasZoomSet = setZoom(3)``"
@@ -201,7 +204,7 @@ msgstr "``wasZoomSet = setZoom(3)``"
 msgid ""
 "For PTZ get() methods, some webcams simply **return zero** for unsupported "
 "values."
-msgstr "PTZのget()メソッドでは、一部のウェブカムはサポートされていない値に対して単に **ゼロを返す** 場合があります。"
+msgstr "PTZのget()メソッドでは、一部のウェブカメラはサポートされていない値に対して単に **return zero** を返します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:93
 msgid "Some Caveats"
@@ -212,77 +215,78 @@ msgid ""
 "the SDK supports webcams conforming to the `UVC standard "
 "<https://en.wikipedia.org/wiki/USB_video_device_class>`__"
 msgstr ""
-"SDKは`UVC標準 <https://en.wikipedia.org/wiki/USB_video_device_class>`__ "
-"に準拠したウェブカメラをサポートします。"
+"SDKは、 `UVC standard "
+"<https://en.wikipedia.org/wiki/USB_video_device_class>`__に準拠したウェブカメラをサポートしています。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:98
 msgid ""
 "many non-UVC webcams work well in competition, despite lacking UVC "
 "certification"
-msgstr "多くの非-UVC ウェブカメラも競技ではうまく機能します。UVC 証認がないことによります。"
+msgstr "多くの非UVCウェブカメラは、UVC認証がないにもかかわらず、競技でうまく機能します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:100
 msgid ""
 "some non-UVC webcams can be listed in Configure Robot, but crash the RC app "
 "at runtime"
-msgstr "一部の非-UVC ウェブカメラはロボット設定でリスト表示されるが、実行時にRCアプリケーションがクラッシュする"
+msgstr "一部の非UVCウェブカメラは、Configure Robotにリストされることがありますが、実行時にRCアプリがクラッシュします。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:103
 msgid ""
 "webcams may retain an assigned Exposure Mode or Focus Mode, even if "
 "unplugged"
-msgstr "ウェブカメラは、電源が切れた後でも割り当てられた露出モードや焦点距離モードを保持する場合があります。"
+msgstr "ウェブカメラは、プラグを抜いても割り当てられた露出モードやフォーカスモードを保持する場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:106
 msgid "always verify the current mode"
-msgstr "常に現在のモードを確認してください"
+msgstr "常に現在のモードを確認してください。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:108
 msgid ""
 "for a given exposure value, one mode’s preview may look very different than "
 "another mode’s preview"
-msgstr "与えられた露出値に対して、異なるモードのプレビューは非常に異なる場合があります"
+msgstr "特定の露出値に対して、あるモードのプレビューは別のモードのプレビューとは大きく異なる場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:110
 msgid ""
 "some webcams **accept** / ``set()`` and **confirm** / ``get()`` a **non-"
 "supported mode**"
 msgstr ""
-"一部のウェブカメラは、 **サポートされていないモード** を **accept** （受理） / ``set()`` し、 **confirm** "
-"（確定） / ``get()`` します"
+"いくつかのウェブカメラ **accept** / ``set()`` と **confirm** / ``get()`` が **non-"
+"supported mode** です。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:112
 msgid ""
 "Logitech C270 preview becomes **lighter** up to exposure 655, then rolls "
 "over to **dark** at 656"
-msgstr "LogitechC270のプレビューは露出度655まで **明るく** なり、656から **暗くなります** 。"
+msgstr ""
+"Logitech C270のプレビューは、露出655まで **lighter** になり、その後656で **dark** にロールオーバーします。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:115
 msgid "this webcam’s Min is 0, Max is 1000."
-msgstr "このウェブカメラのMinは0、Maxは1000です。"
+msgstr "このウェブカメラの最小値は0、最大値は1000です。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:117
 msgid ""
 "Logitech V-UAX16 preview looks normal at exposure = 0, becomes **darker** up"
 " to 30-40"
-msgstr ""
-"Logitech V-UAX16 のプレビューは露出量が 0 のときは正常に表示されますが、30〜40まで増加すると **暗くなります** 。"
+msgstr "Logitech V-UAX16のプレビューは、露出 = 0では正常に見えますが、30-40まで **darker** になります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:119
 msgid ""
 "Logitech C920 **gain** value (0-255) greatly influences preview quality, "
 "comparable to **exposure** (0-204)"
 msgstr ""
-"Logitech C920 の ** gain ** 値（0-255）はプレビュー品質に大きく影響を与え、 ** 露出 ** （0-204）と比較できる"
+"Logitech C920の **gain** 値（0-255）は、プレビュー品質に大きな影響を与え、 **exposure** "
+"（0-204）に匹敵します。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:121
 msgid ""
 "restarting the RC app is sometimes needed after a webcam OpMode crashes"
-msgstr "Webcam OpMode がクラッシュした後、RC アプリケーションの再起動 Sometimes が必要です。"
+msgstr "ウェブカメラのOp Modeがクラッシュした後、RCアプリを再起動する必要がある場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:123
 msgid "firmware versions may vary among webcams of the same model number"
-msgstr "同じモデル番号のウェブカメラでもファームウェアバージョンは異なる場合があります"
+msgstr "同じモデル番号のウェブカメラ間でファームウェアのバージョンが異なる場合があります。"
 
 #: ../../source/programming_resources/vision/webcam_controls/eval/eval.rst:125
 msgid ""
@@ -294,10 +298,14 @@ msgid ""
 "Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-"
 "Blocks>`__ in Blocks and OnBot Java."
 msgstr ""
-"最後に、外部ライブラリを使用することで、ここに記載されている一部の機能は実装や強化が可能です。例えば `OpenCV "
-"<https://opencv.org/>`__ または `EasyOpenCV "
-"<https://github.com/OpenFTC/EasyOpenCV>`__ "
-"のようなライブラリを利用できます。その可能性はこの基本チュートリアルではカバーされていません。別のチュートリアルでは、BlocksおよびOnBot "
-"Javaにおける `外部ライブラリの一般使用方法 <https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-"
-"Blocks>`__ が解説されています。"
+"最後に、ここでのいくつかの機能は、 `OpenCV <https://opencv."
+""
+"org/>`__や `EasyOpenCV <https://github."
+""
+"com/OpenFTC/EasyOpenCV>`__のような外部ライブラリの助けを借りて実装または強化される場合があります。"
+""
+"その可能性は、この基本的なチュートリアルではカバーされていません。"
+""
+"別のチュートリアルでは、`External Libraries <https://github.`の一般的な使用について説明しています。"
+""
+"com/FIRST-Tech-Challenge/FtcRobotController/wiki/External-Libraries-in-OnBot-Java-and-Blocks>`__のBlocksおよびOnBot Javaにおける一般的な使用について説明しています。"

@@ -1,6 +1,6 @@
 {
   "backend": "openai",
-  "model": "gpt-4",
+  "model": "gpt-4o-mini",
   "api_key": "YOUR_OPENAI_API_KEY_HERE",
   "temperature": 0.1,
   "max_retries": 3,
@@ -9,9 +9,12 @@
   "skip_translated": true,
   "quality_check_enabled": true,
   
+  "_comment_backend_options": "Options: gpt-4o-mini (recommended, fast), gpt-4.1-mini (balanced), gpt-5-mini (high quality)",
+  "_comment_daily_limit": "Daily token limit: 2.5M tokens across all mini models",
+  "_comment_temperature": "For translation: 0.0-0.3 (more consistent), 0.3-0.7 (creative)",
+  
   "_comment_local_llm": "For local Ollama:",
   "_backend_local": "ollama",
-  "_model_local": "qwen2.5-coder:7b-instruct",
-  "_fallback_model": "qwen2.5:7b-instruct-q5_K_M"
+  "_model_local": "qwen2.5-coder:7b-instruct"
 }
 

@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:2
 msgid "Managing OpModes in Blocks :bdg-warning:`Blocks`"
-msgstr "ブロックでOpModeの管理 :bdg-warning:`Blocks`"
+msgstr "BlocksにおけるOpModeの管理 :bdg-warning:`Blocks`"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:4
 msgid ""
@@ -38,15 +38,21 @@ msgid ""
 "that is, to say, you cannot simply double-click on the file to open it up in"
 " an editor program that lives on your computer."
 msgstr ""
-"Blocksはグラフィカルなプログラミング要素を使用してプログラムを作成するプログラミング言語です。そのため、JAVAやその他のテキストベースのプログラミング言語ファイルとは異なるファイル形式を持っています。Blocksプログラムは"
-" **.blk** "
-"の拡張子で保存されますが、その内容は実際にはXML（拡張可能なマークアップ言語）としてフォーマットされています。Blocksプログラム内の実際のXMLフォーマットについては、この文書の範囲外ですが、他のプログラムによって読み取り/視覚化/解釈されるものではありません。マックやPC上の一般的なプログラムはBlocksプログラムを表示または編集することはできず、常にRobot"
-" Controllerアプリ（REVControl "
-"Hubや合法的なAndroidスマートフォン上で動作する）内のBlocksインターフェースを通じて行う必要があります。つまり、ファイルをコンピューター上のエディタプログラムで開くことはできません。"
+"Blocksは、グラフィカルプログラミング要素を使用してプログラムを作成するプログラミング言語です。"
+""
+"そのため、ファイル形式はJAVAや他のテキストベースのプログラミング言語のファイルとは異なります。"
+""
+"Blocksプログラムは **."
+""
+"blk** 拡張子で保存されますが、その内容は実際にはXML（拡張可能マークアップ言語）としてフォーマットされています。"
+""
+"Blocksプログラムにおける実際のXMLフォーマットは、このドキュメントの範囲を超えていますが、Blocks以外のプログラムによって読み取られたり表示されたり解釈されたりすることを意図していないことだけは述べておきます。"
+""
+"MACやPC上でBlocksプログラムを表示または編集できる一般的なプログラムは存在せず、必ずREV Control Hubまたは合法的なAndroidスマートフォン上で動作するRobot Controller App内のBlocksインターフェースを通じて行う必要があります。つまり、ファイルをダブルクリックしてコンピュータ上のエディタプログラムで開くことはできません。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:18
 msgid "Creating an OpMode"
-msgstr "OpModeの作成"
+msgstr "Op Modeの作成"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:20
 msgid ""
@@ -56,14 +62,13 @@ msgid ""
 " Blocks program does. It is recommended to check out this document for "
 "learning how to work with Blocks OpModes."
 msgstr ""
-"Blocksを使用したOpModeを作成するための素晴らしいチュートリアルがあります。:doc:`../creating_op_modes/Writing-"
-"an-Op-Mode-with-FTC-Blocks` で、ブロックインターフェースについても詳しく説明されており、 "
-"Blocksプログラムが何を実行するのかを理解するのに役立ちます。Blocks "
-"OpModeを使用する方法を学ぶためには、このドキュメントを確認することをお勧めします。"
+":doc:`great tutorial for creating OpModes <../creating_op_modes/Writing-an-"
+"Op-Mode-with-FTC-Blocks>` には、Blocks インターフェースについて多くのことが説明されており、Blocks "
+"プログラムが何をするのかを理解するのに役立ちます。Blocks OpMode を使う方法を学ぶために、このドキュメントを確認することをお勧めします。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:27
 msgid "Saving an OpMode"
-msgstr "OpModeの保存"
+msgstr "OpModeを保存する"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:29
 msgid ""
@@ -80,20 +85,33 @@ msgid ""
 "an OpMode is via the \"**Save Op Mode**\" button within the editing window "
 "of the software."
 msgstr ""
+"**\"Saving\"** が Op Mode を意味することを理解することは重要です。"
+""
+"Op Mode をプログラミングまたは編集する際には、ウェブブラウザ（Chrome など）を使用するか、ウェブブラウザとして機能するプログラム（REV Hardware Client など）を使用しています。"
+""
+"あなたが作成または編集しているプログラムは、ウェブブラウザ内にのみ *ephemerally* 存在し、自動保存やプログラムが最終的にデバイス（REV Control Hub または承認されたスマートフォン）に保存されることを保証する機能はありません。"
+""
+"実際に OpMode を **."
+""
+"blk** ファイルとしてデバイスに保存するのは、 *SAVE* 操作のみです。"
+""
+"したがって、Blocks プログラマーは、作業を頻繁に *SAVE* し、特に作業を完了した際には必ず行うことが重要です。"
+""
+"OpMode を *SAVE* するためのメカニズムは、ソフトウェアの編集ウィンドウ内にある \"**Save Op Mode**\" ボタンを介して行われます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:46
 msgid "Saving Opmode"
-msgstr "OpModeの保存"
+msgstr "Op Modeの保存"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:46
 msgid "Saving the OpMode within the Blocks Editor"
-msgstr "ブロックエディタ内でOpModeの保存"
+msgstr "Blocksエディタ内でのOp Modeの保存"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:48
 msgid ""
 "Once a program is saved, a message will appear on the right-hand side of the"
 " same row to indicate that the program has been saved."
-msgstr "プログラムが保存されると、同一行の右側に「保存しました」というメッセージが表示されます。"
+msgstr "プログラムが保存されると、同じ行の右側にプログラムが保存されたことを示すメッセージが表示されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:56
 msgid "Opmode Saved"
@@ -101,11 +119,11 @@ msgstr "OpModeが保存されました"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:56
 msgid "Message indicating OpMode has been Saved"
-msgstr "OpModeが保存されました"
+msgstr "OpModeが保存されたことを示すメッセージです。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:59
 msgid "Downloading an OpMode"
-msgstr "OpModeのダウンロード"
+msgstr "Op Modeのダウンロード"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:61
 msgid ""
@@ -116,9 +134,13 @@ msgid ""
 "another device, or in some other safe location) or provide the program for "
 "use by others (teammates, another robot, other teams, provide online, etc.)."
 msgstr ""
-"一度OpModeがデバイスに保存されると、DRIVER STATION "
-"から選択したり、プログラムインターフェース経由で再度編集することができます。しかし、そのBlocksプログラムはデバイス上では **.blk** "
-"ファイルとして存在するだけです。多くの場合、プログラムのコピーをラップトップ（または他のデバイス、または安全な場所など）に保存したいと考えたり、他の人（チームメイト、別のロボット、他のチーム、オンラインで提供するなど）のためにプログラムを提供したいというニーズがあります。"
+"OpModeがデバイスに保存されると、DRIVER STATIONを介してOpModeを選択することができ、またプログラミングインターフェースを介して再度編集することも可能です。"
+""
+"ただし、そのBlocksプログラムはデバイス上にBlocksファイル（ **."
+""
+"blk** ）としてのみ存在します。"
+""
+"プログラムのコピーをPC（または他のデバイス、または他の安全な場所）に保存したり、他の人（チームメイト、別のロボット、他のチーム、オンラインで提供するなど）が使用できるようにプログラムを提供することが望ましい場合がよくあります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:68
 msgid ""
@@ -127,11 +149,12 @@ msgid ""
 "either through the editing interface or the main Blocks management "
 "interface."
 msgstr ""
-"装置からブロックプログラムのコピーを取得するには、プログラムをダウンロードする必要があります。これには2つの方法があります：編集インターフェースを通じてまたは主要なブロック管理インターフェースを通じて。"
+"デバイスからBlocksプログラムのコピーを取得するには、デバイスからプログラムを *download* "
+"する必要があります。これを行う方法は2つあり、編集インターフェースまたはメインのBlocks管理インターフェースを通じて行うことができます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:73
 msgid "Downloading an OpMode through the Editing Interface"
-msgstr "編集インターフェースを通じてOpModeをダウンロードする"
+msgstr "編集インターフェースを通じてOp Modeをダウンロードする"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:75
 msgid ""
@@ -146,24 +169,25 @@ msgid ""
 " an OpMode is performed via the \"**Download Op Mode**\" button within the "
 "Editing Interface."
 msgstr ""
-"While editing an OpMode, an OpMode can be * 保存 * and it can also be * ダウンロード"
-" * (there are other options, but we're just going to focus on these two for "
-"the time being). When an OpMode is saved, the program is saved ** デバイスに ** "
-"into a Blocks file ( ** .blk ** ). In order to save a copy of the program to"
-" your local computer (for safe storage or for sharing) you need to * ダウンロード "
-"* the program. Downloading the program *does* issue a Save action on the "
-"current program, but this should not be relied upon - programmers should "
-"always save their program before downloading. Downloading an OpMode is "
-"performed via the \" ** Download Op Mode ** \" button within the Editing "
-"Interface."
+"OpModeを編集している間、OpModeは *saved* であり、また *downloaded* でもあります（他のオプションもありますが、現時点ではこれらの2つに焦点を当てます）。"
+""
+"OpModeが保存されると、プログラムは **onto the device** としてBlocksファイル(**."
+""
+"blk**)に保存されます。"
+""
+"プログラムのコピーをローカルコンピュータに保存するため（安全な保管や共有のため）、プログラムを *download* する必要があります。"
+""
+"プログラムをダウンロードすることは、現在のプログラムに対して保存アクションを発行しますが、これに依存すべきではありません。プログラマーは常にダウンロードする前にプログラムを保存するべきです。"
+""
+"OpModeのダウンロードは、編集インターフェース内の「 **Download Op Mode** 」ボタンを使用して行います。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:90
 msgid "Opmode Download"
-msgstr "OpModeダウンロード"
+msgstr "OpMode ダウンロード"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:90
 msgid "Downloading a Blocks program"
-msgstr "ブロックプログラムのダウンロード"
+msgstr "Blocks プログラムをダウンロードしています"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:92
 msgid ""
@@ -171,11 +195,12 @@ msgid ""
 " browser, so the web browser will manage the file in its usual way (e.g. "
 "with Chrome the file is saved into the computer's \"Downloads\" folder)."
 msgstr ""
-"「ダウンロードOpMode」ボタンを押すと、ファイルはウェブブラウザに利用可能になります。そのため、通常の方法でファイルが管理されます（例：Chromeではファイルはコンピュータの「ダウンロード」フォルダに保存されます）。"
+"「Download Op "
+"Mode」ボタンを押すと、ファイルがウェブブラウザで利用可能になり、ウェブブラウザは通常の方法でファイルを管理します（例えば、Chromeではファイルがコンピュータの「Downloads」フォルダに保存されます）。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:97
 msgid "Downloading an OpMode through the Management Interface"
-msgstr "管理インターフェースを通じてOpModeをダウンロードする"
+msgstr "管理インターフェースを通じてOp Modeをダウンロードしています。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:99
 msgid ""
@@ -184,15 +209,16 @@ msgid ""
 "currently on the device and provides you with options for managing those "
 "OpModes."
 msgstr ""
-"「ブロック」メニュー項目をクリックすると、ブロック管理インターフェースに移動します。このインターフェースでは、デバイス上で現在利用可能なすべてのブロックOpMode（OpMode）を表示し、それらのOpModeの管理オプションを提供します。"
+"「Blocks」メニュー項目をクリックすると、Blocks管理インターフェースに移動します。このインターフェースでは、デバイス上に現在存在するすべてのBlocks"
+" Op Modeが表示され、これらのOp Modeを管理するためのオプションが提供されます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:109
 msgid "Blocks Management"
-msgstr "ブロック管理"
+msgstr "Blocks管理"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:109
 msgid "Blocks Management Interface"
-msgstr "ブロック管理インターフェース"
+msgstr "Blocks管理インターフェース"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:111
 msgid ""
@@ -203,21 +229,22 @@ msgid ""
 "opmode is selected and then downloaded via the \"**Download Selected Op "
 "Modes**\" button."
 msgstr ""
-"OpModeはこのインターフェースを通じてダウンロードできます。最初に、このインターフェースの「 **選択したOpModeをダウンロード** "
-"」ボタンは灰色になっています。このインターフェースで1つ以上のOpModeを選択し、その後一括でダウンロードすることが可能です。以下の例では、「メカNUMドライブ」OpModeが選択され、その後「"
-" **選択したOpModeをダウンロード** 」ボタンからダウンロードされています。"
+"このインターフェースを通じてOpModeをダウンロードすることができます。最初は、このインターフェースの「 **Download Selected Op"
+" Modes** 」ボタンがグレーアウトしています。このインターフェースでは、1つ以上のOp "
+"Modeを選択することができ、すべてを一度にダウンロードすることができます。以下の例では、「Mecanum Drive」Op "
+"Modeが選択され、その後「 **Download Selected Op Modes** 」ボタンを介してダウンロードされます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:122
 msgid "Blocks Management Download"
-msgstr "ブロック管理ダウンロード"
+msgstr "Blocks管理ダウンロード"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:122
 msgid "Downloading Blocks via the Management Interface"
-msgstr "管理インターフェース経由でブロックをダウンロード"
+msgstr "管理インターフェースを介してBlocksをダウンロードする"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:125
 msgid "Uploading Blocks"
-msgstr "ブロックのアップロード"
+msgstr "Blocksのアップロード"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:127
 msgid ""
@@ -227,10 +254,9 @@ msgid ""
 "or Android Smartphone). Within the Blocks Management interface, there is a "
 "button on the top menu marked, \"**Upload Op Mode**\"."
 msgstr ""
-"もし以前にダウンロードしたブロックファイルがある場合、または他のソースからブロックファイルを受け取った場合は（REVからのサンプルブロックなど）、そのブロックファイル"
-" ( **.blk** ) をデバイス（REV Control Hubや Android "
-"スマホ）にアップロードする必要があります。ブロック管理インターフェイス内では、トップメニューにある「 **アップロードOpMode** "
-"」というラベルのボタンがあります。"
+"以前にダウンロードしたBlocksファイルがある場合や、他のソース（例えばREVからのサンプルBlocksなど）からBlocksファイルを受け取った場合は、そのBlocksファイルをデバイス（REV"
+" Robotics Control HubまたはAndroidスマートフォン）に *upload* "
+"する必要があります。Blocks管理インターフェース内の上部メニューには、「 **Upload Op Mode** 」と表示されたボタンがあります。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:133
 msgid ""
@@ -240,20 +266,20 @@ msgid ""
 " Blocks file to upload. Once uploaded, the Blocks program will open within "
 "the Blocks interface."
 msgstr ""
-"一旦「 **アップロードOpMode** 」を押すと、ファイルを選択できるポップアップウィンドウが表示されます。「 **Choose File** "
-"」ボタンをクリックして、ローカルコンピュータのファイルブラウザを開き、アップロードしたい **.blk** "
-"ブロックファイルを選択してください。アップロードが完了すると、ブロックプログラムはブロックインターフェース内で開きます。"
+"\"**Upload Op Mode**\"を押すと、アップロードしたいファイルを選択するためのポップアップウィンドウが表示されます。 "
+"\"**Choose File**\"ボタンをクリックして、ローカルコンピュータのファイルブラウザを開き、アップロードするための **.blk** "
+"Blocksファイルを選択します。アップロードが完了すると、BlocksプログラムがBlocksインターフェース内で開きます。"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:143
 msgid "Blocks Management File Upload"
-msgstr "ブロック管理ファイルアップロード"
+msgstr "Blocks 管理ファイルのアップロード"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:143
 msgid "Uploading Blocks Files via the Management Interface"
-msgstr "管理インターフェース経由でブロックファイルをアップロードする"
+msgstr "管理インターフェースを介してBlocksファイルをアップロードする"
 
 #: ../../source/programming_resources/tutorial_specific/blocks/managing_opmodes/managing-opmodes.rst:145
 msgid ""
 "Once a block is uploaded, it can be edited and modified like any other "
 "OpMode!"
-msgstr "ブロックがアップロードされると、他のOpMode同様に編集や修正が可能です！"
+msgstr "ブロックがアップロードされると、他のOp Modeと同様に編集および変更が可能です！"

@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:2
 msgid "Updating Hub Firmware"
-msgstr "Hubファームウェアの更新"
+msgstr "ハブファームウェアの更新"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:4
 msgid ""
@@ -30,9 +30,8 @@ msgid ""
 " Hub and the REV Control Hub in order for the :doc:`Software Development Kit"
 " (SDK) </ftc_sdk/overview/index>` to perform correctly."
 msgstr ""
-"ファームウェアは、デバイスの回路板や電子 ** ハードウェア ** を制御する低レベルソフトウェアです。これが必要な場合、REV "
-"エク(strpos)ansion ハブと REV Control Hub に時々アップデートが必要で、:doc:`Software "
-"Development Kit (SDK) </ftc_sdk/overview/index>` の正常動作が保証されます。"
+"ファームウェアは、デバイスの回路基板や電子機器を制御する低レベルのソフトウェアです。これは、REV Robotics Expansion "
+"HubおよびREV Robotics Control Hubで正しく機能するために、時々更新する必要があります。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:9
 msgid "Here are 5 methods:"
@@ -40,7 +39,7 @@ msgstr "ここに5つの方法があります："
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:11
 msgid "REV Hardware Client (RHC)"
-msgstr "REVハードウェアクライアント (RHC)"
+msgstr "REV Hardware Client (RHC)"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:12
 msgid "Driver Station app"
@@ -48,7 +47,7 @@ msgstr "Driver Stationアプリ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:13
 msgid "Robot Controller (RC) app - on RC phone"
-msgstr "Robot Controller（RC）アプリ - RC携帯スマホ"
+msgstr "Robot Controller (RC) アプリ - RCフォン上"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:14
 msgid "Manage page on computer"
@@ -56,19 +55,19 @@ msgstr "コンピュータ上の管理ページ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:15
 msgid "Manage page on Driver Station device (DS phone or Driver Hub)"
-msgstr "Driver Station装置（DSスマホまたはDriver Hub）の管理ページ"
+msgstr "Driver Station デバイス (DSフォンまたは Driver Hub) の管理ページ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 1 - REV Hardware Client (RHC) - Windows computers only"
-msgstr "メソッド 1 - REVハードウェアクライアント（RHC） - ウィンドウズパソコンのみ"
+msgstr "方法1 - REVハードウェアクライアント (RHC) - Windowsコンピューターのみ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:19
 msgid ""
 "For REV Control Hub, apply 12V robot power. For REV Expansion Hub, 12V power"
 " is optional."
 msgstr ""
-"REV Control Hubの場合、ロボット電源として 12V を適用してください。REV エク(strpos)ションハブの場合、12V "
-"電源は任意です。"
+"REV Robotics Control Hubには12Vのロボット電源を接続してください。REV Robotics Expansion "
+"Hubには12V電源はオプションです。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:22
 msgid ""
@@ -77,17 +76,17 @@ msgid ""
 "USB (not micro). On the Control Hub, use only the USB-C port, not its Mini "
 "USB port."
 msgstr ""
-"REV Hubを直接、REV Hardware "
-"Clientが動作しているコンピュータにUSBデータケーブル（充電専用ケーブルではなし）で接続してください。拡張HubのポートはミニUSB（マイクロUSBではなし）。制御Hubでは、のみUSB-"
-"Cポートを使用し、そのミニUSBポートを使用しないでください。"
+"REV HubをREV Hardware "
+"Clientが動作しているコンピュータにUSBデータケーブル（充電専用ではない）で直接接続してください。Expansion HubのポートはMini "
+"USB（マイクロではありません）です。Control Hubでは、Mini USBポートではなくUSB-Cポートのみを使用してください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:27
 msgid ""
 "Click the hub’s large icon/rectangle. Under “Expansion/Control Hub "
 "Firmware”, see the current/latest mismatch, if any (yellow oval, below)."
 msgstr ""
-"ハブの大型アイコン/長方形をクリックします。「拡張/Control "
-"Hubファームウェア」の下で、現在の最新の不一致（下にある黄色い楕円）を確認できます。"
+"ハブの大きなアイコン/長方形をクリックしてください。「Expansion/Control Hub "
+"Firmware」の下に、現在の/最新の不一致がある場合は、それを確認してください（黄色の楕円、下記参照）。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:36
@@ -99,7 +98,7 @@ msgstr "ファームウェアの更新"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:38
 msgid "Here’s an example with Control Hub:"
-msgstr "ここにControl Hubの例があります："
+msgstr "こちらはControl Hubの例です："
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:47
 msgid ""
@@ -109,12 +108,14 @@ msgid ""
 "</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` the "
 "required update file was previously downloaded."
 msgstr ""
-"ドロップダウンメニューで最新バージョンを確認し、その後、青色の「再インストール」（緑色の矢印）長方形をクリックします。「REVハードウェアクライアントの更新」(:doc:`/ftc_sdk/updating/hardware_client/Updating-"
-"REV-Hardware-Client`) では、必要な更新ファイルが以前にダウンロードされているため、この作業は迅速に行われます。"
+"ドロップダウンメニューで最新バージョンを確認し、次に青い「再インストール」矩形（上の緑の矢印）をクリックします。これは迅速に行われます。なぜなら、 "
+":doc:`in Updating the REV Hardware Client "
+"</ftc_sdk/updating/hardware_client/Updating-REV-Hardware-Client>` "
+"必要なアップデートファイルが以前にダウンロードされていたからです。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:53
 msgid "Done! The Hub’s firmware is now updated."
-msgstr "完了しました！HUBのファームウェアが更新されました。"
+msgstr "完了しました！ハブのファームウェアが更新されました。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:55
 msgid ""
@@ -122,18 +123,18 @@ msgid ""
 "excellent documentation site <https://docs.revrobotics.com/duo-"
 "control/managing-the-control-system/updating-firmware>`__."
 msgstr ""
-"RHCを使用してHubファームウェアを更新する方法については、`REVロボティクスの優れたドキュメンテーションサイト "
-"<https://docs.revrobotics.com/duo-control/managing-the-control-"
-"system/updating-firmware>`__ を参照してください。"
+"RHCを使用してHubのファームウェアを更新する方法についての詳細は、 `at REV Robotics’ excellent "
+"documentation site <https://docs.revrobotics.com/duo-control/managing-the-"
+"control-system/updating-firmware>`__です。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 2 - Driver Station app"
-msgstr "メソッド 2 - Driver Stationアプリ"
+msgstr "方法2 - Driver Stationアプリ"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:59
 msgid ""
 "This method applies to any DS app, running on a DS phone or a Driver Hub."
-msgstr "このメソッドは、DSアプリケーションに適用され、DSスマホまたはDriver Hub上で実行されている場合にも適用されます。"
+msgstr "このメソッドは、DSフォンまたはDriver Hubで実行される任意のDSアプリに適用されます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:62
 msgid ""
@@ -144,10 +145,11 @@ msgid ""
 "Hub. After updating you can return that Hub to its secondary position, if "
 "needed."
 msgstr ""
-"REV Control Hubの場合は、12V ロボット電源を適用してください。REV Expansion Hubの場合は、直接 Robot "
-"Controller（RC）スマホに接続し、RC アプリを開き、 **その後** 12V 電源を適用してください。更新が必要なExpansion "
-"Hubは、 **直接** RC スマホに接続する必要があります。中継Control Hubやその他の（主要）Expansion "
-"Hubは使用しないでください。更新が完了したら、必要であればそのハブを二次的な位置に戻すことができます。"
+"REV Robotics Control Hubには12Vのロボット電源を接続してください。REV Robotics Expansion "
+"Hubには、Robot Controller (RC)の電話に直接接続し、RCアプリを開いて、 **and** "
+"12V電源を適用してください。更新中のExpansion Hubは、RC電話に **plugged directly** "
+"接続されている必要があり、中間のControl Hubや他の（主要な）Expansion "
+"Hubは使用しないでください。更新後、そのHubを必要に応じてセカンダリーポジションに戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:69
 msgid ""
@@ -155,14 +157,14 @@ msgid ""
 "Select DS Settings, Advanced (Robot Controller) Settings, REV Hub Firmware "
 "Update."
 msgstr ""
-"DSアプリケーションをRCデバイスに接続/ペアリングします。DSスマートフォンまたはドライバー・ハブから接続してください。「DS設定」を選択し、「Robot"
-" Controller」の「高度設定」を選択して、REVハブファームウェア更新を行います。"
+"DSアプリをRCデバイスに接続/ペアリングします。DSフォンまたはDriver Hubから、DS設定、詳細設定（Robot "
+"Controller）設定、REV Hubファームウェアの更新を選択します。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:80
 msgid ""
 "Review the list of available Hub firmware, whether stored on the RC device "
 "and/or “bundled” in the app."
-msgstr "RCデバイスやアプリに含まれている可用的なHubファームウェアのリストを確認してください。"
+msgstr "RCデバイスに保存されているか、アプリに「バンドル」されているかにかかわらず、利用可能なHubファームウェアのリストを確認してください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:83
 msgid ""
@@ -171,6 +173,9 @@ msgid ""
 "charge-only cable) to store the firmware file in the RC device’s subfolder "
 "called FIRST/updates/Expansion Hub Firmware."
 msgstr ""
+"最新の **not** がリストに表示されない場合は、コンピュータからRobot "
+"Controllerにファームウェアファイルを転送することができます。USBデータケーブル（充電専用ケーブルではない）を使用して、ファームウェアファイルをRCデバイスのサブフォルダーであるFIRST/updates/Expansion"
+" Hub Firmwareに保存してください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:88
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:137
@@ -179,13 +184,13 @@ msgid ""
 "<https://docs.revrobotics.com/duo-control/managing-the-control-"
 "system/updating-firmware/firmware-changelog>`__."
 msgstr ""
-"現在および古いファームウェアファイルは、`REVロボティクスのウェブサイト <https://docs.revrobotics.com/duo-"
-"control/managing-the-control-system/updating-firmware/firmware-changelog>`__"
-" で確認できます。"
+"現在および古いファームウェアファイルは、 `REV Robotics website "
+"<https://docs.revrobotics.com/duo-control/managing-the-control-"
+"system/updating-firmware/firmware-changelog>`__で見つけることができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:91
 msgid "Then return to this list of available firmware."
-msgstr "次に、利用可能なファームウェアの一覧に戻りましょう。"
+msgstr "次に、この利用可能なファームウェアのリストに戻ります。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:93
 msgid ""
@@ -193,25 +198,26 @@ msgid ""
 "(green arrow, above). Wait for the process to finish; do not unplug the Hub "
 "or restart the robot."
 msgstr ""
-"現在、最新のファームウェアバージョンを選択し、「Update Hub "
-"Firmware」（青い矢印、上部）をタッチしてください。プロセスが終了するまで待ちます；Hubから電源を切ったりロボットを再起動しないでください。"
+"最新のファームウェアバージョンを選択し、「Update Hub "
+"Firmware」（緑の矢印、上）をタッチしてください。プロセスが完了するまで待ってください。ハブの電源を切ったり、ロボットを再起動したりしないでください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:97
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:154
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:210
 msgid "That’s it! The Hub’s firmware is now updated."
-msgstr "それでは！Hubのファームウェアは現在更新されました。"
+msgstr "これで完了です！ハブのファームウェアが更新されました。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 3 - Robot Controller (RC) app - on RC phone"
-msgstr "メソッド 3 - Robot Controller（RC）アプリ - RCスマートフォンで"
+msgstr "方法3 - Robot Controller (RC) アプリ - RCフォン上で"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:101
 msgid ""
 "This method is **exactly the same** as Method #2 immediately above, since "
 "the DS app was simply providing a portal or window to the RC app."
 msgstr ""
-"このメソッドは、DSアプリケーションが単にRCアプリケーションへの窓やポートルを提供しただけであるため、 ** 完全に同じ ** ものと一致します。"
+"このメソッドは、上記のメソッド #2 と同様に **exactly the same** です。なぜなら、DS アプリは単に RC "
+"アプリへのポータルまたはウィンドウを提供していたからです。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:104
 msgid ""
@@ -219,9 +225,9 @@ msgid ""
 "not Control Hub – which doesn’t use an RC phone. In other words, users do "
 "not normally interface directly with the RC app on a Control Hub."
 msgstr ""
-"別途ここに記載しているのは、これは **Expansion Hub** のみに適用され、Control Hubには適用されないためです。Control "
-"HubではRCスマホを使用していないからです。つまり、ユーザーは通常、Control Hub上のRCアプリと直接 interfacing "
-"しないことになります。"
+"ここでは別に記載されていますが、これは **Expansion Hub** にのみ適用され、Control Hub には適用されません。Control "
+"Hub では RC 電話を使用しないためです。言い換えれば、ユーザーは通常、Control Hub 上の RC "
+"アプリと直接インターフェースすることはありません。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:109
 msgid ""
@@ -229,36 +235,36 @@ msgid ""
 " no intermediate (primary) Expansion Hub. After updating you can return that"
 " Hub to its secondary position, if needed."
 msgstr ""
-"また、Expansion HubはRCスマホに **直接** 接続する必要があります。中間（プライマリ）Expansion "
-"Hubを経由せずにです。更新後も必要であればそのハブを二次的な位置に戻すことができます。"
+"再度、Expansion HubはRC電話に直接接続される必要があり、間に（主要な）Expansion "
+"Hubはありません。更新後、必要に応じてそのHubを二次位置に戻すことができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid "Method 4 - Manage page on computer"
-msgstr "メソッド 4 - コンピュータ上の管理ページ"
+msgstr "方法4 - コンピューターでページを管理する"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:115
 msgid ""
 "Connect the computer via Wi-Fi to the Control Hub or RC phone. In the Chrome"
 " browser, open the Manage interface."
 msgstr ""
-"コンピュータをWi-Fi経由でControl HubやRCスマホに接続します。Google ドライバーのブラウザで管理インターフェースを開きます。"
+"コンピュータをWi-Fi経由でControl HubまたはRC電話に接続します。Chromeブラウザで、Manageインターフェースを開きます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:118
 msgid "Click on the Manage tab, scroll down to Update REV Hub Firmware."
-msgstr "管理タブをクリックし、REV ハブファームウェアの更新までスクロールします。"
+msgstr "管理タブをクリックし、REV Hubファームウェアの更新までスクロールします。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:127
 msgid ""
 "See if the grey box (see green arrow, above) offers the latest firmware "
 "version, included or bundled with the RC app."
-msgstr "灰色のボックス（上の緑色の矢印参照）に、RCアプリとバンドルされた最新のファームウェアバージョンが用意されているかどうか確認してください。"
+msgstr "灰色のボックス（上の緑の矢印を参照）が、RCアプリに含まれている最新のファームウェアバージョンを提供しているか確認してください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:130
 msgid ""
 "If not, click the “Select Firmware…” box. Navigate to the desired firmware "
 "file stored on the computer, and select it."
 msgstr ""
-"もし選択されていなければ、「Firmwareを選択...」ボックスをクリックします。コンピュータに保存されている目的のファームウェアファイルを開き、それを選択します。"
+"そうでない場合は、「ファームウェアを選択…」ボックスをクリックしてください。コンピュータに保存されている目的のファームウェアファイルに移動し、それを選択します。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:133
 msgid ""
@@ -266,14 +272,14 @@ msgid ""
 " the Control Hub or RC phone, in a subfolder called FIRST/updates/Expansion "
 "Hub Firmware."
 msgstr ""
-"アップデートプロセスの一部として、選択したファームウェアファイルは、Control HubやRCスマホにFIRST/updates/Expansion "
-"Hubファームウェアというサブフォルダに保存されます。"
+"更新プロセスの一環として、選択されたファームウェアファイルは、Control Hub または RC "
+"の電話に、FIRST/updates/Expansion Hub Firmware というサブフォルダーに保存されます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:140
 msgid ""
 "Now click the box called “Update to…” or “Update using…” (see green arrow, "
 "above)."
-msgstr "今、\"Update to…\" または \"Update using…\" というボックスをクリックしてください（上の緑色の矢印をご参照ください）。"
+msgstr "「Update to…」または「Update using…」と呼ばれるボックスをクリックしてください（上の緑の矢印を参照）。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:148
@@ -285,56 +291,54 @@ msgid ""
 "At the confirmation prompt, click the blue box “Update Hub Firmware”. Wait "
 "for the process to finish; do not unplug the Hub or restart the robot."
 msgstr ""
-"確認ダイアログで、「Update Hub "
-"Firmware」の青いボックスをクリックしてください。プロセスが完了するまで待ちます；Hubを抜き差ししないでください。"
+"確認プロンプトで、青いボックス「Update Hub "
+"Firmware」をクリックします。プロセスが完了するまで待ってください。Hubの電源を切ったり、ロボットを再起動したりしないでください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 msgid ""
 "Method 5 - Manage page on Driver Station device - DS phone or Driver Hub"
-msgstr "メソッド5 - Driver Stationデバイス（DSスマホまたはDriver Hub）上の管理ページ"
+msgstr "方法5 - DRIVER STATIONデバイスの管理ページ - DSフォンまたはDriver Hub"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:158
 msgid ""
 "Connect the DS app to the Control Hub or RC phone, from the DS app’s "
 "Settings menu (never with the Android device Wi-Fi settings)."
 msgstr ""
-"DSアプリをControl HubやRCスマホに接続し、DSアプリの設定メニューから接続してください（AndroidデバイスのWi-"
-"Fi設定経由では絶対に接続しないでください）。"
+"DSアプリの設定メニューからControl HubまたはRC電話に接続してください（AndroidデバイスのWi-Fi設定を使用しないでください）。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:161
 msgid ""
 "From the DS app’s menu, select “Program and Manage”. Then touch the 3 bars "
 "at top right, and select “Manage”."
-msgstr "DSアプリのメニューから「プログラムと管理」を選択します。次に右上の3本線をタッチし、「管理」を選択します。"
+msgstr "DSアプリのメニューから「プログラムと管理」を選択します。次に、右上の3本のバーをタッチし、「管理」を選択します。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:164
 msgid ""
 "This is the same Manage page that appears in a laptop browser. So the "
 "following instructions are similar to Method 4 above."
-msgstr ""
-"これは上記の方法4で説明したとおり、ノートブックブラウザで表示されるManageページと同じです。したがって、以下の指示はMethod 4に似ています。"
+msgstr "これは、PCブラウザに表示されるのと同じ管理ページです。したがって、以下の手順は上記の方法4と似ています。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:167
 msgid "Scroll down to Update REV Hub Firmware."
-msgstr "REVハブのファームウェアを更新するには、下にスクロールしてください。"
+msgstr "REV Hubファームウェアを更新するには、下にスクロールしてください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:174
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:204
 msgid "Update Hub Firmware"
-msgstr "Hubのファームウェアを更新"
+msgstr "ハブファームウェアを更新する"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:176
 msgid ""
 "See if the grey box “Update to…” offers the latest firmware version, "
 "included or bundled with the DS app."
-msgstr "「Update to…」という灰色のボックスが最新のファームウェアバージョンを提供しているかどうか確認してください。"
+msgstr "灰色のボックス「Update to…」が、DSアプリに含まれている最新のファームウェアバージョンを提供しているか確認してください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:179
 msgid ""
 "If not, you can transfer the desired firmware file to the **Driver Station "
 "device**."
-msgstr "もしできなければ、望むファームウェアファイルを **Driver Stationデバイス** に転送できます。"
+msgstr "そうでない場合は、必要なファームウェアファイルを **Driver Station device** に転送することができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:182
 msgid ""
@@ -342,14 +346,14 @@ msgid ""
 "Method 5 uses a local file on the DS device, while Methods 2 and 3 (above) "
 "use a local file on the RC device."
 msgstr ""
-"はい、その通りです：DSデバイスに転送する必要があります。RCデバイスには転送しないでください。このメソッド5では、DSデバイス上のローカルファイルを使用していますが、メソッド2と3（上記参照）では、RCデバイス上のローカルファイルを使用します。"
+"はい、その通りです：RCデバイスではなく、DSデバイスに転送します。このメソッド5はDSデバイス上のローカルファイルを使用しますが、メソッド2および3（上記）はRCデバイス上のローカルファイルを使用します。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:186
 msgid ""
 "Use a USB data cable (not a charge-only cable) to store the firmware file in"
 " the DS device’s Downloads folder."
 msgstr ""
-"USBデータケーブル（充電専用ケーブルではなし）を使用し、Driver Stationのダウンロードフォルダにファームウェアファイルを保存してください。"
+"USBデータケーブル（充電専用ケーブルではない）を使用して、DSデバイスのDownloadsフォルダーにファームウェアファイルを保存してください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:189
 msgid ""
@@ -357,23 +361,22 @@ msgid ""
 "`here <https://docs.revrobotics.com/duo-control/managing-the-control-"
 "system/updating-firmware/firmware-changelog>`__."
 msgstr ""
-"現在および古いファームウェアファイルは、REV Roboticsのウェブサイト`こちら "
+"現在および古いファームウェアファイルは、REV Roboticsのウェブサイト `here "
 "<https://docs.revrobotics.com/duo-control/managing-the-control-"
-"system/updating-firmware/firmware-changelog>`__ で確認できます。"
+"system/updating-firmware/firmware-changelog>`__ で見つけることができます。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:193
 msgid ""
 "Then click the “Select Firmware…” box. Navigate to the DS device’s Downloads"
 " folder, and select the desired firmware file."
 msgstr ""
-"次に「ファームウェアを選択...」のボックスをクリックします。その後、Driver Station（Driver "
-"Station）デバイスのダウンロードフォルダに移動し、必要なファームウェアファイルを選択します。"
+"次に、「ファームウェアを選択…」ボックスをクリックします。DSデバイスのダウンロードフォルダーに移動し、希望するファームウェアファイルを選択します。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:196
 msgid ""
 "Now click the box called “Update to…” or “Update using…” (second green "
 "arrow, above)."
-msgstr "今、\"Update to…\" または \"Update using…\" (二つ目の緑色の矢印、上部) のボックスをクリックしてください。"
+msgstr "次に、「Update to…」または「Update using…」と呼ばれるボックスをクリックしてください（上の2番目の緑の矢印）。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:206
 msgid ""
@@ -381,9 +384,9 @@ msgid ""
 "Firmware”. Wait for the process to finish; do not unplug the Hub or restart "
 "the robot."
 msgstr ""
-"確認ダイアログで下にスクロールし、「Update Hub "
-"Firmware」の青いボックスをクリックしてください。プロセスが完了するまで待ちます；Hubを抜き出さないでくださいし、ロボットを再起動しないでください。"
+"確認プロンプトで、下にスクロールして青いボックス「Update Hub "
+"Firmware」をクリックします。プロセスが完了するまで待ってください。Hubの電源を切ったり、ロボットを再起動したりしないでください。"
 
 #: ../../source/ftc_sdk/updating/hub_firmware/Updating-Hub-Firmware.rst:212
 msgid "Questions, comments and corrections to westsiderobotics@verizon.net"
-msgstr "質問、ご意見や訂正は westsiderobotics@verizon.net までお願いいたします。"
+msgstr "質問、コメント、修正は westsiderobotics@verizon.net までお願いいたします。"

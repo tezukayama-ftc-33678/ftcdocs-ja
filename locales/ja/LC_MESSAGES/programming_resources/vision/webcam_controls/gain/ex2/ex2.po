@@ -6,34 +6,34 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:2
 msgid "Example 2: Gain’s effect on TFOD"
-msgstr "例2：ゲインのTFODへの影響"
+msgstr "例2: GainのTFODへの影響"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:4
 msgid ""
 "Now we adjust only gain. We set Exposure to a fixed value of 15, selected "
 "because it was a poor performer in Example 1. **Can gain help?**"
 msgstr ""
-"現在、Only gain のみを調整します。露出は、Example 1 でパフォーマンスが悪かったため固定値として 15に設定しています。「Can "
-"gain help?」 ** この調整は役立つでしょうか？ ** "
+"現在、私たちはゲインのみを調整します。露出を固定値の15に設定しました。これは、例1でのパフォーマンスが悪かったため選択されました。 **Can "
+"gain help?**"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:11
 msgid "Exp 15, Gain 000 -> 035"
-msgstr "Exp 15, Gain 000 → 035"
+msgstr "Exp 15, ゲイン 000 -> 035"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:16
 msgid "Exp 15, Gain 040 -> 060"
@@ -41,15 +41,15 @@ msgstr "Exp 15, Gain 040 -> 060"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:21
 msgid "Exp 15, Gain 070 -> 100"
-msgstr "Exp 15, Gain 070 -> 100"
+msgstr "Exp 15、ゲイン 070 -> 100"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:24
 msgid "Five fresh readings were taken at each gain setting."
-msgstr "各ゲイン設定で5回の新しい読み取りが行われました。"
+msgstr "各ゲイン設定で5つの新しい読み取り値が取得されました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:29
 msgid "Five readings at each gain level"
-msgstr "各ゲインレベルでの5回の読み取り"
+msgstr "各ゲインレベルでの5つの測定値"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:31
 msgid ""
@@ -57,8 +57,7 @@ msgid ""
 "higher levels, this TFOD model begins to “see” a Cube, not a Duck. The gain "
 "effect was similar to the exposure effect."
 msgstr ""
-"Higher gain "
-"は認識を向上させますが、その後パフォーマンスが低下します。さらに高いレベルでは、このTFODモデルは「キューブ」ではなく「ダック」として「見分ける」ようになります。ゲイン効果は露出効果と似ていました。"
+"高いゲインは認識を改善しますが、その後パフォーマンスが低下します。さらに高いレベルでは、このTFODモデルはキューブを「見る」ようになり、アヒルではなくなります。ゲインの効果は露出の効果に似ていました。"
 
 #: ../../source/programming_resources/vision/webcam_controls/gain/ex2/ex2.rst:35
 msgid ""
@@ -67,4 +66,4 @@ msgid ""
 "should compare this with the default or automatic performance of their robot"
 " and webcam, in the full range of expected match conditions."
 msgstr ""
-"これらの2つのチャートは、TFODの結果が露出とゲインなどの特定の値によって影響を受ける可能性があることを示唆しています。また、この結果をチームは、ロボットやウェブカメラのデフォルトまたは自動性能と比較し、想定されるマッチ条件の全範囲で最適化することができるかもしれません。"
+"これらの2つのチャートは、TFODの結果が露出とゲインの特定の値を設定することで影響を受け、最適化できる可能性があることを示唆しています。チームは、期待されるマッチ条件の全範囲において、ロボットとウェブカメラのデフォルトまたは自動パフォーマンスと比較するべきです。"

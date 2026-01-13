@@ -6,38 +6,38 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:2
 msgid "Encoders (Rotation Counters)"
-msgstr "エンコーダー（回転カウンタ）"
+msgstr "エンコーダー（回転カウンター）"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:11
 msgid "REV HD Hex Motor"
-msgstr "REV HD ヘクスモーター"
+msgstr "REV HD Hex モーター"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:21
 msgid "Built-in Encoder in the REV HD Hex Motor"
-msgstr "REV HDヘクサモータ内蔵エンコーダ"
+msgstr "REV HD Hexモーターの内蔵エンコーダー"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:27
 msgid "REV Through Bore Encoder"
-msgstr "REV 通過孔エンコーダ"
+msgstr "REV Through Bore Encoder"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:37
 msgid "REV Through Bore Encoder, in incremental mode."
-msgstr "REV 通過孔エンコーダ、インクリメンタルモードで。"
+msgstr "REV Through Bore Encoder、インクリメンタルモードで。"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:39
 msgid ""
@@ -52,19 +52,26 @@ msgid ""
 "and the the exact angle the shaft is currently at relative to a \"zero\" "
 "position."
 msgstr ""
-"エンコーダは、軸を中心に回転移位を測定する装置です。大多数の合法的なFIRST Tech "
-"Challengeモータには、REVハブと互換性のある内蔵クォドレートエンコーダが含まれています。単独のインクリメンタルエンコーダを使用することも可能です。REV"
-" Through Bore "
-"Encoder（上図参照）などがその例です。インクリメンタルエンコーダは、シャフトの部分的な回転ごとに「tick」を送出します。1回転あたり何個のtickが送出されるかについては、製造元のウェブサイトで確認できます。一方、絶対エンコーダは、シャフトの開始位置からの移動量と現在の角度（ゼロ位置に対する相対的な角度）を示すことができます。"
+"エンコーダは、軸周りの回転変位を測定するデバイスです。"
+""
+"ほとんどの法的 *FIRST* Tech Challenge モーターには、REV Hub と互換性のある内蔵の四分位エンコーダが含まれています。"
+""
+"REV Through Bore Encoder のようなスタンドアロンのインクリメンタルエンコーダを使用することも可能です（上記に示されています）。"
+""
+"インクリメンタルエンコーダは、シャフトの部分回転ごとに「ティック」を送信することで機能します。"
+""
+"回転ごとに出力されるティックの数に関する詳細情報は、メーカーのウェブサイトで確認できます。"
+""
+"絶対エンコーダは、シャフトの開始位置からの変位と、シャフトが現在「ゼロ」位置に対して持っている正確な角度を示すことができます。"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:51
 msgid "Additional Resources"
-msgstr "追加のリソース"
+msgstr "追加リソース"
 
 #: ../../source/control_hard_compon/rc_components/encoders/encoders.rst:53
 msgid ""
 ":ref:`Encoder Port Overview "
 "<control_hard_compon/rc_components/hub/ports/exh-ports:encoder ports>`"
 msgstr ""
-":ref:`エンコーダポートの概要<control_hard_compon/rc_components/hub/ports/exh-"
-"ports:encoder ports>`"
+":ref:`Encoder Port Overview "
+"<control_hard_compon/rc_components/hub/ports/exh-ports:encoder ports>`"

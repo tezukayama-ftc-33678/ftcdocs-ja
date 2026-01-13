@@ -6,28 +6,28 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:2
 msgid "Using Your Android Device"
-msgstr "Androidデバイスを使用する"
+msgstr "Androidデバイスの使用方法"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:4
 msgid ""
 "Before you get started with your control system, it is helpful if you "
 "familiarize yourself with the basic operation of your Android device."
-msgstr "始める前に、Androidデバイスの基本操作について知っておくと役立ちます。"
+msgstr "制御システムを始める前に、Androidデバイスの基本的な操作に慣れておくと便利です。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:8
 msgid "REV Robotics Driver Hub"
@@ -40,9 +40,9 @@ msgid ""
 "<https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ for instructions "
 "on how to set up and use the REV Robotics Driver Hub."
 msgstr ""
-"チームがREV Robotics Driver Hubを使用してDRIVER STATIONとしている場合、`REV Roboticsの公式ドキュメント"
-" <https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ を参照し、REV "
-"Robotics Driver Hubの設定方法と使用方法についての指示を確認してください。"
+"REV Robotics Driver HubをDRIVER STATIONとして使用しているチームは、REV Robotics Driver "
+"Hubの設定と使用方法についての指示を `official documentation from REV Robotics "
+"<https://docs.revrobotics.com/duo-control/driver-hub-gs>`_ を参照してください。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:15
 msgid "Android Smartphone"
@@ -54,12 +54,12 @@ msgid ""
 "smartphones to be used as a DRIVER STATION or ROBOT CONTROLLER. See rule "
 "R704 for the full details."
 msgstr ""
-"競技マニュアルでは推奨されませんが、選択的なAndroidスマートフォンはDRIVER STATIONやROBOT "
-"CONTROLLERとして使用することができます。詳細についてはルールR704をご確認ください。"
+"推奨はされていませんが、競技マニュアルでは特定のAndroidスマートフォンをDRIVER STATIONまたはROBOT "
+"CONTROLLERとして使用することが許可されています。詳細についてはルールR704を参照してください。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:22
 msgid "Unlocking Your Screen"
-msgstr "画面ロックを解除する"
+msgstr "画面のロックを解除する"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:24
 msgid ""
@@ -70,8 +70,8 @@ msgid ""
 "different devices might require a slightly different procedure to unlock the"
 " screen."
 msgstr ""
-"初めてAndroid端末を電源を入れるとき、画面は通常「ロック」状態で開始されます。FIRST Tech "
-"Challengeで使用されるモトローラのスマートフォンでは、「ロック」状態の画面にタッチし、その後、指を画面の上方向に滑らなければなりません。異なるデバイスはロック解除のためにやや異なる手順が必要になる場合があります。"
+"Androidスマートフォンの電源を入れると、通常は画面が「ロック」状態で始まります。 *FIRST* Tech "
+"Challengeで使用されるMotorolaスマートフォンの場合、ロックされた画面にタッチし、指を上にスライドさせて電話のロックを解除する必要があります。異なるデバイスでは、画面のロックを解除するために若干異なる手順が必要な場合があることに注意してください。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:36
 msgid ""
@@ -79,7 +79,7 @@ msgid ""
 " or PIN number. Use the touch screen to enter in the pass code or PIN value "
 "and tap on the check mark to log into the device."
 msgstr ""
-"セキュリティ設定によっては、パスコードやPINの入力を求められることがあります。タッチスクリーンを使用してパスコードやPIN値を入力し、「チェックマーク」をタップしてデバイスにログインしてください。"
+"セキュリティ設定によっては、パスコードまたはPIN番号の入力を求められる場合があります。タッチスクリーンを使用してパスコードまたはPIN値を入力し、チェックマークをタップしてデバイスにログインしてください。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:46
 msgid "Navigating in Android"
@@ -90,25 +90,26 @@ msgid ""
 "Your phone should display its home screen if you just powered it on and "
 "unlocked it. Note that the actual screens on your smartphone might differ "
 "slightly from the screens depicted in this tutorial."
-msgstr "スマホは、電源を入れてロックを解除した後、ホーム画面が表示されるはずです。ただし、このチュートリアルで示されている画面とは多少異なる場合があります。"
+msgstr ""
+"電話の電源を入れてロックを解除すると、ホーム画面が表示されるはずです。このチュートリアルに示されている画面とは、実際のスマートフォンの画面が若干異なる場合があることに注意してください。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:62
 msgid ""
 "At the bottom of the screen there should be some buttons that you can use to"
 " navigate the screens on your Android device."
-msgstr "画面の下部には、Androidデバイスでスクリーンをナビゲートするために使用できるいくつかのボタンが表示されるべきです。"
+msgstr "画面の下部には、Androidデバイスの画面をナビゲートするために使用できるいくつかのボタンがあるはずです。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:70
 msgid ""
 "The leftmost button (see image above) is the \"Back\" button. You can use "
 "this button to return to the previous screen on your Android device."
-msgstr "左端のボタン（上記画像参照）は「戻る」ボタンです。このボタンを使用して、Androidデバイス上の前の画面に戻ることができます。"
+msgstr "最も左側のボタン（上の画像を参照）は「戻る」ボタンです。このボタンを使用して、Androidデバイスの前の画面に戻ることができます。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:73
 msgid ""
 "The center button is the \"Home\" button. Pressing this button should take "
 "you back to the home or opening screen of your Android device."
-msgstr "中央のボタンは「HOME」ボタンです。「HOME」ボタンを押すと、Androidデバイスのホーム画面や開く画面に戻ります。"
+msgstr "センターボタンは「ホーム」ボタンです。このボタンを押すと、Androidデバイスのホームまたはオープニング画面に戻ることができます。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:76
 msgid ""
@@ -117,7 +118,7 @@ msgid ""
 "the background. You can close a recent app by tapping the \"X\" button on "
 "the app's listing."
 msgstr ""
-"一番右側のボタンは「最近使用したアプリ」ボタンです。このボタンをクリックすると、背景で動作しているが一時的に非表示になった最近使用したアプリケーションが表示されます。最近使用したアプリケーションを閉じるには、アプリの一覧にある「X」ボタンをタップしてください。"
+"最も右側のボタンは「最近のアプリ」ボタンです。このボタンをクリックすると、最近実行されたアプリが表示され、バックグラウンドで待機しています。アプリのリストにある「X」ボタンをタップすることで、最近のアプリを閉じることができます。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:86
 msgid ""
@@ -126,11 +127,11 @@ msgid ""
 "this feature, you might need to swipe up from the bottom of the screen to "
 "display the navigation buttons."
 msgstr ""
-"一部のAndroidスマートフォンには、自動的に下部ナビゲーションボタンを隠す機能があります。この機能がある場合は、スクリーンの下端から上にスワイプすることでナビゲーションボタンを表示する必要がある場合があります。"
+"一部のAndroidスマートフォンには、自動的に下部のナビゲーションボタンを隠す自動非表示機能があります。この機能が搭載されているスマートフォンを使用している場合は、ナビゲーションボタンを表示するために画面の下から上にスワイプする必要があるかもしれません。"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:92
 msgid "Displaying Available Apps on your Android Phone"
-msgstr "Androidスマホで利用可能なアプリを表示"
+msgstr "Androidフォンで利用可能なアプリを表示する"
 
 #: ../../source/programming_resources/shared/using_android_device/Using-Your-Android-Device.rst:94
 msgid ""
@@ -139,6 +140,6 @@ msgid ""
 "touchscreen. Newer versions of Android no longer have the *App Drawer* "
 "feature."
 msgstr ""
-"もしAndroid "
-"Nougat（7.x）以降のデバイスを使用している場合、タッチスクリーンの下端から上にスワイプすることで利用可能なアプリケーションを表示できます。新しいバージョンのAndroidでは、 *App"
-" Drawer* の機能は存在しません。"
+"Android Nougat (7.x) "
+"以降のデバイスを使用している場合、タッチスクリーンの下部から上にスワイプするだけで、利用可能なアプリを表示できます。新しいバージョンの Android "
+"では、 *App Drawer* 機能はもはや存在しません。"

@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "What is Slicing?"
-msgstr "What is Slicing?\\"
+msgstr "スライシングとは何ですか？"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Slicer Software Choices"
@@ -33,11 +33,11 @@ msgstr "スライサー設定の説明"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "General Design for 3d Printed Parts"
-msgstr "3次元印刷部品の一般設計"
+msgstr "3Dプリント部品の一般的な設計"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Design to Make Easy-To-Print Parts"
-msgstr "印刷しやすい部品の設計"
+msgstr "印刷しやすい部品を作るための設計"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Working With Screws"
@@ -45,11 +45,11 @@ msgstr "ネジの取り扱い"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:7
 msgid "Tolerancing Prints"
-msgstr "許容公差図面"
+msgstr "公差図"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:2
 msgid "Designing and Slicing"
-msgstr "設計とスライcing"
+msgstr "デザインとスライス"
 
 #: ../../source/manufacturing/3d_printing/designing_and_slicing/designing_and_slicing.rst:4
 msgid ""
@@ -57,4 +57,4 @@ msgid ""
 "easily 3d printable, and slicing softwares that can take cad files into "
 "instructions for a 3d printer."
 msgstr ""
-"このセクションでは、3次元プリンタで簡単に印刷できるCADファイルの設計方法と、CADファイルを3次元プリンタ向けの指示に変換するスライシングソフトウェアについての基本を解説します。"
+"このセクションでは、簡単に3Dプリント可能なCADファイルを設計するための基本事項と、CADファイルを3Dプリンターの指示に変換するスライスソフトウェアについて説明します。"

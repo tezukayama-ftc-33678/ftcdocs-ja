@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:2
 msgid "Focus Control Mode"
-msgstr "フォーカス制御モード"
+msgstr "フォーカスコントロールモード"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:4
 msgid ""
@@ -34,12 +34,11 @@ msgid ""
 "A webcam may operate in one of various focus modes. To directly control the "
 "focus length, set the webcam to Fixed mode."
 msgstr ""
-"ウェブカメラは Various フォーカスモード のいずれかで動作します。フォーカス距離を直接制御するには、ウェブカメラを Fixed モード "
-"に設定してください。"
+"ウェブカメラは、さまざまなフォーカスモードのいずれかで動作することがあります。フォーカスの長さを直接制御するには、ウェブカメラを固定モードに設定してください。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:9
 msgid "The SDK supports these values of FocusControl.Mode:"
-msgstr "SDKはFocusControl.Modeの次の値をサポートしています："
+msgstr "SDKは、FocusControl.Modeのこれらの値をサポートしています："
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:11
 msgid "`Auto`"
@@ -47,15 +46,15 @@ msgstr "自動"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:12
 msgid "`ContinuousAuto`"
-msgstr "継続自動"
+msgstr "`ContinuousAuto`"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:13
 msgid "`Fixed`"
-msgstr "固定"
+msgstr "修正済み"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:14
 msgid "`Infinity`"
-msgstr "無限大"
+msgstr "`Infinity`"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:15
 msgid "`Macro`"
@@ -71,11 +70,11 @@ msgstr "モードはこれらのFocusControlメソッドで管理されます：
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:20
 msgid "setMode(ExposureControl.Mode._mode_)"
-msgstr "ExposureControl.Mode._mode_ のモードに設定する"
+msgstr "setMode(ExposureControl.Mode._mode_)"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:21
 msgid "getMode()"
-msgstr "モードを得る()"
+msgstr "getMode()"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:23
 msgid ""
@@ -83,9 +82,8 @@ msgid ""
 "does respond to FocusControl methods. The Logitech C270 (older model) offers"
 " only Fixed mode, but does not allow programmed control."
 msgstr ""
-"Logitech C920 "
-"ウェブカムは、ContinuousAutoモードとFixedモードの2つのモードを提供します。このウェブカムはFocusControlメソッドに反応しますが、Logitech"
-" C270（古いモデル）はOnly Fixedモードのみを提供し、プログラムによる制御は許可されていません。"
+"Logitech C920 ウェブカメラは、ContinuousAuto と Fixed の2つのモードを提供しており、FocusControl "
+"メソッドに応答します。一方、Logitech C270（旧モデル）は Fixed モードのみを提供しており、プログラム制御は許可されていません。"
 
 #: ../../source/programming_resources/vision/webcam_controls/focus/mode/mode.rst:27
 msgid ""
@@ -94,4 +92,4 @@ msgid ""
 msgstr ""
 "詳細は `FocusControl Javadoc "
 "<https://javadoc.io/doc/org.firstinspires.ftc/RobotCore/latest/org/firstinspires/ftc/robotcore/external/hardware/camera/controls/FocusControl.html>`__"
-" で説明されています。"
+" に記載されています。"

@@ -6,22 +6,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:2
 msgid "Advanced Filaments"
-msgstr "高度なフィラメント"
+msgstr "アドバンストフィラメント"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:4
 msgid ""
@@ -33,22 +33,24 @@ msgid ""
 "temperatures (used for some of the advanced filaments listed here), and you "
 "have a PTFE lined hotend, you can look at upgrading to an all-metal hotend."
 msgstr ""
-"もし、プリンターのホットエンド（フィラメントを溶かす部分）がPTFE（テフロン）で覆われており、そのPTFEチューブが熱ブロックまで伸びている場合（価格が低いEnder"
-" "
-"3のようなプリンターによく見られる）、250°C以上での印刷は避けてください。これによりPTFEチューブが劣化し、溶け出し、有毒ガスを放出する可能性があります。これらの温度で印刷が必要な場合は（ここにリストされている一部の高度なフィラメント用です）、PTFEで覆われたホットエンドをすべて金属製のホットエンドにアップグレードすることをお勧めします。"
+"プリンターのホットエンド（フィラメントを溶かす部分）が、PTFE（テフロン）ライニングを持ち、PTFEチューブがヒートブロックまで一直線に伸びている場合（基本的なEnder 3のような低価格のプリンターに一般的です）、250°C以上で印刷するべきではありません。"
+""
+"そうすることで、PTFEチューブが劣化し溶ける可能性があり、有毒な煙を放出する恐れがあります。"
+""
+"これらの温度（ここに記載されている一部の高度なフィラメントに使用される）で印刷する必要がある場合、PTFEライニングのホットエンドを使用しているなら、オールメタルホットエンドへのアップグレードを検討することができます。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:12
 msgid ""
 "ABS (Acrylonitrile Butadiene Styrene) / ASA (Acrylonitrile Styrene Acrylate)"
-msgstr "ABS（アクリロニトリルブタジエンスチレン）/ASA（アクリロニトリルスチレンアクリレート）"
+msgstr "ABS（アクリロニトリル・ブタジエン・スチレン） / ASA（アクリロニトリル・スチレン・アクリレート）"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:18
 msgid "A lego brick showing the plastic used"
-msgstr "レゴブロックが使用するプラスチックを示しています"
+msgstr "プラスチックが使用されていることを示すレゴブロック"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:18
 msgid "ABS can best be recognized as the plastic used for Lego Bricks."
-msgstr "ABSは、LEGOブリキで使用されるプラスチックとして最もよく認識されます。"
+msgstr "ABSは、レゴブロックに使用されるプラスチックとして最もよく知られています。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:22
 msgid ""
@@ -66,7 +68,21 @@ msgid ""
 "it. Notably, ABS can be very inexpensive and often found near the same price"
 " as PLA or even cheaper."
 msgstr ""
-"PLAが容易に入手可能になる以前は、ABSが3Dプリントで最も一般的に使用されたフィラメントでした。現在では、より高度なフィラメントとして認識され、専用のセットアップが必要です。ABSは非常に強靭で、高い延性を持ち、衝撃荷重にも耐えられます。しかし、これらの長所には大きな難点も伴い、部品が大幅に歪むことを防ぐために周囲の温度を上げるためのカバーが必要となることが多くあります。また、ABSは溶けたときにスタイレンというがん物質を放出し、頭痛を引き起こす可能性があります。そのため、ABSはフィルター付きのカバー内や非常に換気の良い場所でしか印刷すべきです。適切なセットアップと加熱カバーがある場合、ABSは時間の価値がありますが、それを備えている環境がない場合は、その苦労を払うだけの価値はありません。なお、ABSは非常に安価であり、PLAと同程度の価格甚至に安いこともあります。"
+"PLAが容易に入手できるようになる前は、ABSが3Dプリントに使用される最も一般的なフィラメントでした。"
+""
+"現在では、特別な設定が必要なより高度なフィラメントと見なされています。"
+""
+"ABSは非常に強く、高い延性を持ち、衝撃荷重に耐えることができます。"
+""
+"これらの強度には大きな困難が伴いますが、部品の大きな変形を防ぐために周囲の温度を上げる必要があるため、エンクロージャーがしばしば必要です。"
+""
+"また、ABSが溶けるとスチレンを生成するため、エンクロージャーを設けることは良い考えです。スチレンは発がん性ガスであり、頭痛を引き起こす可能性があります。"
+""
+"ABSは、フィルター付きのエンクロージャー内または非常に換気の良い場所でのみ印刷するべきです。"
+""
+"適切な加熱エンクロージャーを備えたセットアップがあれば、ABSは非常に時間をかける価値がありますが、そのためのセットアップがない場合は、印刷を試みる苦労に見合いません。"
+""
+"特に、ABSは非常に安価で、PLAと同じ価格帯またはそれよりも安いことがよくあります。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:31
 msgid ""
@@ -76,19 +92,19 @@ msgid ""
 "Alongside that, it's UV Resistant and typically offers slightly better "
 "mechanical properties compared to most ABS plastics."
 msgstr ""
-"ASAは、やや高価ですが類似した素材で、同じ温度帯で印刷できますが、印刷がやや容易でスタイレンの生成量も大幅に減ります。また、小さな印刷物の場合にはケースが必要ないかもしれません。さらに、UVに耐える性能があり、多くのABS樹脂と比較してやや優れた機械的特性を提供します。"
+"ASAは、やや高価ですが類似の材料で、印刷温度はほぼ同じですが、印刷が少し容易で、スチレンの生成量がかなり少なくなります。また、小型の印刷物にはエンクロージャーが不要な場合もあります。さらに、UV耐性があり、一般的にほとんどのABSプラスチックと比較して、わずかに優れた機械的特性を提供します。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:34
 msgid "ABS hotend temperatures: 230-250° C"
-msgstr "ABS熱 Extruder 温度：230-250°C"
+msgstr "ABSホットエンド温度: 230-250° C"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:35
 msgid "ABS bed temperatures: 100-120° C"
-msgstr "ABSベッド温度：100-120°C"
+msgstr "ABSベッド温度：100-120° C"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:36
 msgid "ABS enclosure temperature: 30-40° C"
-msgstr "ABSカバー温度：30-40°C"
+msgstr "ABSエンクロージャの温度: 30-40° C"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:38
 msgid ""
@@ -98,7 +114,8 @@ msgid ""
 "aren't airtight, and therefore it's also important to leave your printer "
 "somewhere safe if you plan on printing large or numerous parts."
 msgstr ""
-"ABS/ASAから発生する煙を適切に排気・フィルタリングすることが重要です。長期的な曝露は中毒を引き起こす可能性があります。通常、有効炭素を使用した空気フィルターの使用が推奨されます。しかし、多くのケースは完全に密封されておらず、因此、大量または多数の部品を印刷する場合は、安全な場所にプリンタを置くことも重要です。"
+"ABS/ASAから発生する fumes "
+"を適切に排気/フィルタリングすることは重要です。なぜなら、どちらにも長時間さらされると中毒を引き起こす可能性があるからです。通常、活性炭フィルターを使用することが推奨されますが、ほとんどのエンクロージャーは気密ではないため、大きな部品や多数の部品を印刷する予定がある場合は、プリンターを安全な場所に置くことも重要です。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:41
 msgid "Polyamide Filaments"
@@ -111,13 +128,13 @@ msgstr "ナイロン部品の画像"
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:47
 msgid ""
 "A collection of Nylon parts, including gears, a great usecase for Nylon"
-msgstr "ナイロン製部品のコレクション、ギアなどを含み、ナイロンの素晴らしい使用例です"
+msgstr "ギアを含むナイロン部品のコレクションで、ナイロンの優れた使用例です。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:51
 msgid ""
 "Nylon is a category of Polyamide, and these generalizations should apply to "
 "all filaments based on Nylon or a general Polyamide."
-msgstr "ナイロンはポリアミドの一種であり、ナイロンや汎用ポリアミドに基づくすべてのフィラメントに対してこれらの一般化が適用されるべきです。"
+msgstr "ナイロンはポリアミドの一種であり、これらの一般化はナイロンまたは一般的なポリアミドに基づくすべてのフィラメントに適用されるべきです。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:53
 msgid ""
@@ -134,21 +151,31 @@ msgid ""
 "also **extremely** hygroscopic, making proper storage a necessity even while"
 " actively printing. Nylon prints also tend to shrink when cooling."
 msgstr ""
-"より多くはフィラメントのカテゴリーに属しますが、ポリアミド（PA）ベースのフィラメントは、比較的容易に印刷できながらも優れた性能を誇ることができます。これらのフィラメントは極めて堅牢で摩耗に対する抵抗力が高い特性を持つため、安全に印刷できる場合、ギアやプーリーなどの用途に最適です。このカテゴリーでは、純正ニオロン、ポリアミド、PA-"
-"KV（ケブラー充填ニオロン）、PA-"
-"CF（カーボンファイバー充填ポリアミド）などが一般的です。ポリアミドフィラメントは通常、250°Cを超える印刷温度が必要となるため、全金属ヒートTürkiyeが必須となります。また、80-100°C程度の加熱ベッド温度も必要になります。これらの一部のフィラメントは研磨性が高いので、ホットエンダで損傷を避けるために硬化されたステンレススチールノズルが必要です。さらに、ポリアミドフィラメントは ** 非常に ** 吸湿性が高く、印刷中でも適切な保管が必要となります。ニオロンの印刷物は冷却時に収縮することがあります。"
+"ポリアミド（PA）ベースのフィラメントは、フィラメントのカテゴリーの一つであり、印刷が比較的容易でありながら、優れた性能を誇ります。"
+""
+"これらは、極端な耐久性と摩耗抵抗においてその強さを発揮し、安全に印刷できる場合には、ギアやプーリーに最適です。"
+""
+"このカテゴリーの一般的なフィラメントには、Pure Nylon、Polyamide、PA-KV（ケブラー充填ナイロン）、およびPA-CF（カーボンファイバー充填ポリアミド）が含まれます。"
+""
+"ポリアミドフィラメントは、通常250°Cを超える印刷温度を必要とし、全金属ホットエンドが必要となり、加熱ベッドの温度は80-100°Cの範囲で必要です。"
+""
+"これらのフィラメントの中には、摩耗性のものがあり、ホットエンドに硬化鋼製のノズルを使用しないと損傷を避けることができません。"
+""
+"これらのフィラメントはまた、 **extremely** 吸湿性があり、印刷中であっても適切な保管が必要です。"
+""
+"ナイロンの印刷物は冷却時に収縮する傾向があります。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:62
 msgid "Carbon Fiber Filaments"
-msgstr "カーボンファイバー線材"
+msgstr "カーボンファイバーフィラメント"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:68
 msgid "Picture of a Carbon Fiber filament roll"
-msgstr "カーボンファイバーサイレンスの画像"
+msgstr "カーボンファイバーのフィラメントロールの画像"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:68
 msgid "The abrasiveness of Carbon Fiber filament is visible."
-msgstr "カーボンファイバーのフィラメントが abrasive であることは明らかです。"
+msgstr "カーボンファイバー製フィラメントの研磨性が確認できます。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:72
 msgid ""
@@ -161,9 +188,13 @@ msgid ""
 "filament, meaning that you need a hardened steel nozzle or other abrasion "
 "resistant nozzle for your hotend."
 msgstr ""
-"カーボンファイバー（CF）Filledフィラメントはどこにでもあり、多くの部品に強度と剛性をもたらしながら軽量を維持します。PLA-CF, PETG-"
-"CF, PA-CF, CF-ASA, PC-"
-"CFなど、様々な種類があります。CFFilledフィラメントは、基となるフィラメントの多くの特性を保持し、吸湿性、印刷温度、そして印刷の容易さも含みます。大きな違いはフィラメントの摩耗であり、そのためには硬化されたステンレスノズルや他の摩耗に強いノズルが必要です。"
+"カーボンファイバー（CF）充填フィラメントは至る所に存在し、多くの部品に軽量のままで剛性と強度を向上させています。"
+""
+"PLA-CF、PETG-CF、PA-CF、CF-ASA、PC-CFなど、さまざまな種類があります。"
+""
+"CF充填フィラメントは、基にしているフィラメントの特性を多く保持しており、吸湿性、印刷温度、印刷の容易さなどが含まれます。"
+""
+"大きな違いはフィラメントの摩耗であり、そのためホットエンドには硬化鋼製のノズルや他の摩耗耐性のノズルが必要です。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:78
 msgid ""
@@ -173,11 +204,11 @@ msgid ""
 "as \"stronger\", it doesn't hold up as well as most regular PLAs when it "
 "comes to dealing with impacts and may suffer from poor layer adhesion."
 msgstr ""
-"カーボンファイバー强化PLAは、最もよく使用されるCFフィラメントの1つですが、非常に脆くなるという大きな欠点があります。このようなトレードオフを常に頭に置いておくことが重要です。強度的には「より強い」と見なされるかもしれませんが、衝撃に対する耐久性では多くの通常のPLAと比べて劣り、層間接着が不良になる可能性もあります。"
+"カーボンファイバー強化PLAは、最も一般的に使用されるCFフィラメントの一つですが、非常に脆くなるという顕著な欠点があります。このようなトレードオフを考慮することが重要です。なぜなら、「強い」と見なされる一方で、衝撃に対処する際にはほとんどの通常のPLAほど耐久性がなく、層間接着が不良になる可能性があるからです。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:82
 msgid "TPU/TPE (Thermoplastic Polyurethane/Elastomer)"
-msgstr "熱可塑性ポリウレタン/エラストマー"
+msgstr "TPU/TPE（熱可塑性ポリウレタン/エラストマー）"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:89
 msgid "Picture of TPU parts"
@@ -185,7 +216,7 @@ msgstr "TPU部品の画像"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:89
 msgid "An intake using custom TPU parts to grab game elements."
-msgstr "カスタムTPU部品を使用したインテイクでゲーム要素を抓取します。"
+msgstr "ゲーム要素をつかむためのカスタムTPUパーツを使用したインテークです。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:93
 msgid ""
@@ -199,9 +230,17 @@ msgid ""
 "belts. Finally, TPU is extremely hygroscopic, and proper filament storage "
 "practices should be used."
 msgstr ""
-"TPUとTPEは柔軟性を持つフィラメントで、曲がることができる部品を作成するために使用できます。これらのフィラメントは、材料の硬さを測定するためのさまざまなドュロメーター（硬度計）で販売されています。印刷しやすいことから95Aドュロメーターが最も一般的です。TPU/TPEの柔軟性は非常に高い衝撃耐性を与え、非常に丈夫な材料となります。FIRST"
-" Tech Challenge "
-"(FTC)では、TPU/TPEはインテイクローラー、ホイールバッファーや時々低負荷の歯車ベルトなどの柔軟部品を製造するためによく使用されます。最後に、TPUは非常に吸湿性が高く、適切なフィラメント保管方法を使用することが推奨されます。"
+"TPUとTPEは、柔軟性があり、曲げることができる部品を作成するために使用できる柔軟なフィラメントです。"
+""
+"これらのフィラメントは、さまざまなデュロメーター（材料の硬さを測る指標）で販売されています。"
+""
+"95Aデュロメーターは、印刷性が高いため、最も一般的なデュロメーターです。"
+""
+"TPU/TPEの柔軟性は、非常に高い衝撃抵抗を与え、耐久性も非常に優れています。"
+""
+"FTCでは、TPU/TPEは、インテークローラー、ホイールバンパー、時には低負荷の歯付きベルトなどの柔軟なコンポーネントを作成するために使用されます。"
+""
+"最後に、TPUは非常に吸湿性が高いため、適切なフィラメントの保管方法を使用する必要があります。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:100
 msgid ""
@@ -209,23 +248,22 @@ msgid ""
 "where the extruder motor and gear is not located near the hotend, will have "
 "a very difficult time printing with it."
 msgstr ""
-"TPU/TPEは非常に柔軟なため、 Extruder モーターとギアがホットエンドの近くに配置されていない Bowden "
-"採用のプリンタでは、それを使用して印刷するのが非常に難しいです。"
+"TPU/TPEは非常に柔軟性があるため、エクストルーダーモーターとギアがホットエンドの近くに配置されていないボーデン押出しシステムを持つプリンターでは、印刷が非常に困難になります。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:103
 msgid "TPU hotend temperatures: 210-250° C"
-msgstr "TPUホットエンド温度：210-250°C"
+msgstr "TPU ホットエンド温度: 210-250° C"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:104
 msgid "TPU bed temperatures: Heated bed not required, but do not exceed 60° C"
-msgstr "TPUベッド温度: 加熱ベッドは必要ありませんが、60°Cを超えないようにしてください"
+msgstr "TPUベッド温度：加熱ベッドは必要ありませんが、60°Cを超えないでください。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:105
 msgid ""
 "TPU printing speeds should never exceed 50mm/s on a direct drive printer and"
 " 20mm/s on a bowden printer"
-msgstr "直接ドライブプリンタではTPUの印刷速度は50mm/sを超えてはならず、ボウデンプリントでは20mm/sを超えてはなりません"
+msgstr "TPU印刷速度は、ダイレクトドライブプリンターでは50mm/sを超えてはならず、ボーデンプリンターでは20mm/sを超えてはなりません。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/advanced_filaments/advanced_filaments.rst:106
 msgid "Direct drive extrusion system highly recommended"
-msgstr "直接駆動 Extrusion システムは強く推奨します"
+msgstr "ダイレクトドライブ押出しシステムは非常に推奨されます。"

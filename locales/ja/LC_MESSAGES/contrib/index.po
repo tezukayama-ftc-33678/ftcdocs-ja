@@ -6,18 +6,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/contrib/index.rst:2
 msgid "Contributing to FTC Docs"
@@ -39,57 +39,58 @@ msgid ""
 "provide an information base for students and mentors to make informed "
 "decisions."
 msgstr ""
-"FTC Docsは、 *FIRST* Tech "
-"Challengeチームとメンター向けの総合的なドキュメントベースを提供することを目指しています。これはコミュニティによって推進されるプロジェクトで、 *FIRST*"
-" Tech Challengeスタッフがホストし、 moderates "
-"を行っています。全チームとメンターからの貢献を歓迎しています。このプロジェクトを通じて、コミュニティがよりつながり、情報共有が促されることを望んでいます。また、 *FIRST*"
-" Tech "
-"Challengeに存在するドキュメントの分断を減らすことも目指しています。提供される情報は特定の方法やアプローチを推奨することはありませんが、学生とメンターが適切な判断を下すために必要な情報を提供することを目指しています。"
+"FTC Docsは、 *FIRST* Tech Challengeチームとメンターのための包括的なドキュメントベースを提供することを目的としています。"
+""
+"これはコミュニティ主導のプロジェクトであり、FIRST Tech Challengeのスタッフによってホストされ、モデレートされています。すべてのチームとメンターからの貢献を歓迎します。"
+""
+"このプロジェクトがコミュニティをよりつながりのある、情報に基づいたものにし、 *FIRST* Tech Challengeにおけるドキュメントの断片化を減少させることを期待しています。"
+""
+"提供される情報は、特定の方法やアプローチを支持することを目的としたものではなく、学生やメンターが情報に基づいた意思決定を行うための情報基盤を提供することを目的としています。"
 
 #: ../../source/contrib/index.rst:18
 msgid ":doc:`Contribution Guidelines <guidelines/guidelines>`"
-msgstr ":doc:`寄付ガイドライン <guidelines/guidelines>`"
+msgstr ":doc:`Contribution Guidelines <guidelines/guidelines>`"
 
 #: ../../source/contrib/index.rst:19
 msgid ":doc:`Style Guide <style_guide/style-guide>`"
-msgstr ":doc:`スタイルガイド <style_guide/style-guide>`"
+msgstr ":doc:`Style Guide <style_guide/style-guide>`"
 
 #: ../../source/contrib/index.rst:20
 msgid ":doc:`FTC Docs Workflow <workflow/workflow>`"
-msgstr ":doc:`FTC ドキュメントフロー <workflow/workflow>`"
+msgstr ":doc:`FTC Docs Workflow <workflow/workflow>`"
 
 #: ../../source/contrib/index.rst:21
 msgid ":doc:`Tutorials <tutorials/index>`"
-msgstr ":doc:`チュートリアル <tutorials/index>`"
+msgstr ":doc:`Tutorials <tutorials/index>`"
 
 #: ../../source/contrib/index.rst:26
 msgid "FTC Docs is brought to you by:"
-msgstr "FTC ドキュメントは、goBILDA によって提供されています："
+msgstr "FTC Docsは、次の提供者によって提供されています："
 
 #: ../../source/contrib/index.rst:28
 msgid "Daniel Alfredo Diaz, Jr — Maintainer."
-msgstr "DANIEL ALFREDO DIAZ, JR — 保守者。"
+msgstr "ダニエル・アルフレド・ディアス・ジュニア — メンテイナー。"
 
 #: ../../source/contrib/index.rst:29
 msgid "Elizabeth Gilibert — Project Manager"
-msgstr "エリザベス・ジリベルト — プロジェクトマネージャー"
+msgstr "エリザベス・ジリバート — プロジェクトマネージャー"
 
 #: ../../source/contrib/index.rst:30
 msgid "Uday Vidyadharan, 7350 Watt's NXT? — Maintainer"
-msgstr "UDAY 譜代, 7350 ワットのNXT？ — メンテナント"
+msgstr "Uday Vidyadharan、7350 WattのNXT？ — メンテイナー"
 
 #: ../../source/contrib/index.rst:31
 msgid "Chris Johannesen, Westside Robotics — Contributor"
-msgstr "クリス・ヨハンネセン、ウエストサイドロボティクス — 貢献者"
+msgstr "クリス・ヨハネセン、ウエストサイドロボティクス — 貢献者"
 
 #: ../../source/contrib/index.rst:32
 msgid "Mike Silversides, BC FTA — Contributor"
-msgstr "マイク・シルバサイド、BC FTA — 貢献者"
+msgstr "マイク・シルバーサイド、BC FTA — 貢献者"
 
 #: ../../source/contrib/index.rst:33
 msgid "Miriam Sinton-Remes, 7182 Mechanical Paradox — Contributor"
-msgstr "ミリアム・シントン＝レメス、7182機械的パラドックス — 貢献者"
+msgstr "ミリアム・シントン＝レメス、7182 メカニカルパラドックス — 貢献者"
 
 #: ../../source/contrib/index.rst:35
 msgid "A special thanks to everyone who has contributed to this project."
-msgstr "このプロジェクトに貢献していただいたすべての人に特別な感謝を申し上げます。"
+msgstr "このプロジェクトに貢献してくださった皆様に特別な感謝を申し上げます。"

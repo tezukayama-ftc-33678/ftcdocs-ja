@@ -6,29 +6,29 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:2
 msgid "Common Filaments"
-msgstr "共通のフィラメント"
+msgstr "一般的なフィラメント"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:4
 msgid ""
 "These common filaments come in the most variety of color. Printing parts in "
 "colors that match a team's brand is an easy way to customize a robot!"
 msgstr ""
-"これらの一般的なフィラメントは、最も多くの色で用意されています。チームのブランドカラーと一致する色でパーツを印刷することで、ロボットをカスタマイズするのが簡単です！"
+"これらの一般的なフィラメントは、最も多様な色で提供されています。チームのブランドに合った色で部品を印刷することは、ロボットをカスタマイズする簡単な方法です！"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:7
 msgid ""
@@ -42,17 +42,23 @@ msgid ""
 "TPU/TPE for flexibility), but are more difficult to print with, and are "
 "often more expensive."
 msgstr ""
-"このページでは、最も一般的なフィラメントとその特性について説明します。各フィラメントには長所と短所がありますが、多くのチームは強度、耐久性、コスト、そして見た目から見ても、このページにリストされているPLA（ポリ乳酸）とPETG（ポリエチレンテレタールグリコール）が最も良い選択肢だと感じるでしょう。これらのフィラメントは印刷しやすく、多くの異なるメーカーから低コストで入手できます。他の多くのフィラメントも特定の特性を追加します（例えば：TPU/TPEは柔軟性を持つなど）、しかしそれらは印刷するのが難しい上に、しばしば高価です。"
+"このページでは、最も一般的なフィラメントとその特性について説明します。"
+""
+"各フィラメントには利点と欠点がありますが、ほとんどのチームは、このページに記載されているフィラメント、PLA（ポリ乳酸）とPETG（ポリエチレンテレフタレートグリコール）が、強度、耐久性、コスト、そして美観の面で最良の選択肢であることを見出すでしょう。"
+""
+"これらのフィラメントは印刷が最も簡単で、多くの異なるメーカーから低コストで入手可能です。"
+""
+"他の多くのフィラメントについても特定の特性（例：柔軟性のためのTPU/TPE）を追加しますが、印刷が難しく、しばしばより高価です。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:14
 msgid ""
 "The temperatures listed here are simply a range of the common temperatures "
 "for that filament, and may vary depending on the specific filament."
-msgstr "ここにリストされた温度は、そのフィラメントの一般的な温度範囲であり、具体的なフィラメントにより異なる場合があります。"
+msgstr "ここに示されている温度は、そのフィラメントの一般的な温度範囲であり、特定のフィラメントによって異なる場合があります。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:18
 msgid "PLA (Polylactic Acid)"
-msgstr "PLA（ポリラクターアシド）"
+msgstr "PLA（ポリ乳酸）"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:25
 msgid "Picture of a PLA part"
@@ -60,7 +66,7 @@ msgstr "PLA部品の画像"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:25
 msgid "A custom drivetrain with PLA parts used across it."
-msgstr "PLAを使用したカスタム駆動装置\\n"
+msgstr "PLA部品を使用したカスタムドライブトレインです。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:29
 msgid ""
@@ -71,8 +77,15 @@ msgid ""
 "stiff, but can be brittle, especially under shock loads (impacts), and parts"
 " should be designed with this in mind."
 msgstr ""
-"ポリラクターアシド、またはPLAは、現在最も一般的に使用されている3Dプリントフィルメントです。これは、コーンスターチや砂糖 cane "
-"などの生物由来の素材から作られています。PLAは印刷が簡単で、多くのロボット部品にとって最良の選択肢となります。低温での印刷ができ、歪みも少ない傾向があります。PLAは非常に硬く、しかし衝撃（impacts）などのショックロード下では脆くなることがあります。そのため、部品設計においてこれを考慮する必要があります。"
+"ポリ乳酸、またはPLAは、現在最も一般的に使用されている3Dプリントフィラメントです。"
+""
+"これは、トウモロコシのデンプンやサトウキビなどの生物由来の材料から作られています。"
+""
+"PLAは印刷が容易であり、ほとんどのロボット部品にとって最適な選択肢となることが多いです。"
+""
+"低温で印刷され、変形することはほとんどありません。"
+""
+"PLAは非常に剛性がありますが、特に衝撃荷重（衝突）の下では脆くなる可能性があるため、部品はこれを考慮して設計する必要があります。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:34
 msgid ""
@@ -82,19 +95,18 @@ msgid ""
 "strength or better printability. While more expensive, these filaments can "
 "be a great option that make PLA much more capable."
 msgstr ""
-"PLAは、異なるメーカーから様々な種類で販売されており、PLA+やPLA "
-"Proなどがあります。これらのフィラメントには、強度の向上や印刷性の改善などの特性を改良するための添加物が含まれています。より高価ですが、これらのフィラメントは"
-" PLA を大幅に機能的に向上させる素晴らしい選択肢となります。"
+"PLAは、PLA+やPLA "
+"Proのように、異なるメーカーからの多数のバリエーションでも販売されています。これらのフィラメントには、フィラメントの特性を改善するためのさまざまな添加剤が含まれており、強度の向上や印刷性の向上などがあります。これらのフィラメントは高価ですが、PLAをより優れたものにする素晴らしい選択肢となることがあります。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:40
 msgid "PLA hotend temperatures: 190-230° C"
-msgstr "PLA熱 Extruder 温度: 190-230°C"
+msgstr "PLA ホットエンド温度: 190-230° C"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:41
 msgid ""
 "PLA bed temperatures: 20-70° C; PLA does not require a heated bed, but it is"
 " recommended."
-msgstr "PLAベッドの温度：20-70°C；PLAは加熱ベッドを必要としないが、推奨される。"
+msgstr "PLAベッド温度: 20-70° C; PLAは加熱ベッドを必要としませんが、推奨されます。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:43
 msgid ""
@@ -102,8 +114,8 @@ msgid ""
 "not advisable to leave PLA parts in locations such as a hot car, as this can"
 " produce severe warping in those parts."
 msgstr ""
-"PLAに関する注意事項 "
-"#1：PLAの比較的低い融点のため、PLA部品を熱い車内などに置くのは避けるべきです。そうすると、これらの部品がひずみを発生する可能性があります。"
+"警告 #1 "
+"PLAについて：PLAの融点が比較的低いため、PLA部品を熱い車の中などに放置することはお勧めできません。これにより、部品に深刻な変形が生じる可能性があります。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:46
 msgid ""
@@ -113,13 +125,12 @@ msgid ""
 " account for this and either avoid long outdoor outreach events with your "
 "robot exposed or be prepared to replace parts after such events."
 msgstr ""
-"Warning #2 についての注意: PLAはUV光や太陽光に非常に敏感です。 "
-"Outreachイベントなどの数日間の屋外での使用後、ロボットが日陰にない場合は部分的な故障を経験する可能性があります。 "
-"この点を考慮に入れて、ロボットを露出させて長時間の屋外Outreachイベントを開催しないようにするか、そのようなイベント後に部品を交換できる準備をすることが重要です。"
+"警告 #2 PLAについて: "
+"PLAはUV光および日光に非常に敏感です。アウトリーチイベントなどで数日間屋外に置かれた場合、ロボットが日陰にないと部品の故障が発生する可能性があります。これを考慮し、ロボットが露出した状態での長時間の屋外アウトリーチイベントを避けるか、イベント後に部品を交換する準備をしておいてください。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:52
 msgid "PETG (Polyethylene Terephthalate Glycol)"
-msgstr "ポリエチレンテレタールグリコール (PETG)"
+msgstr "PETG（ポリエチレンテレフタレートグリコール）"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:59
 msgid "Picture of a PET-G part"
@@ -127,7 +138,7 @@ msgstr "PET-G部品の画像"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:59
 msgid "A linear slide insert printed in PET-G filament."
-msgstr "PET-GフィルAMENTで印刷された線形スライドインサート。"
+msgstr "PET-Gフィラメントで印刷されたリニアスライドインサート。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:63
 msgid ""
@@ -140,16 +151,23 @@ msgid ""
 "resistant to heat than PLA, and is unlikely to warp when left in a hot "
 "location."
 msgstr ""
-"PETGはPLAに代わるアップグレード filamentとして多くの人々が認識する非常に一般的な "
-"filamentです。プリントの難易度がPLAよりもわずかに高いだけですが、PETGはしばしばパーツに更多的的粘着物や他のアーティファクトを生じます。PETGの引張強度は技術的にはPLAよりも低いものの、非常に柔軟で脆くありません。そのため、PETGはPLAよりも衝撃荷重に対してより強い耐性を持ち、被衝突する可能性のあるパーツに適しています。また、PETGはPLAよりも熱に対する耐性が高く、高温の場所に置かれた場合にも歪むことはありません。"
+"PETGは、PLAのアップグレードと考える人もいる非常に一般的なフィラメントです。"
+""
+"PLAよりもわずかに印刷が難しいため、PETGは部品にストリングやその他のアーティファクトが多く見られることがあります。"
+""
+"PETGの引張強度はPLAよりも技術的には低いですが、はるかに柔軟で脆くありません。"
+""
+"このため、PETGはPLAよりも衝撃荷重に対して耐性があり、衝撃を受ける可能性のある部品に適した選択肢です。"
+""
+"また、PETGはPLAよりも熱に対しても耐性があり、高温の場所に置いても変形する可能性は低いです。"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:69
 msgid "PETG hotend temperatures: 230-250° C"
-msgstr "PETG ヘッド温度：230-250°C"
+msgstr "PETG ホットエンド温度: 230-250° C"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:70
 msgid "PETG bed temperatures: 60-80° C"
-msgstr "PETG 床温度: 60-80°C"
+msgstr "PETG ベッド温度: 60-80° C"
 
 #: ../../source/manufacturing/3d_printing/filament_choice/common_filaments/common_filaments.rst:72
 msgid ""
@@ -158,4 +176,4 @@ msgid ""
 "print surface. If you are printing with PETG, it may be a good idea to apply"
 " some glue stick or hairspray to the surface to prevent this."
 msgstr ""
-"PETGは、特にガラスやPEIで作られたプリントベッドに非常に強く結合することで知られており、印刷表面から大きなクランチを引き剥がすこともあります。PETGで印刷する場合、この問題を防ぐために表面にグルー粘着剤やヘアスプレーを塗るのも良いかもしれませんです。"
+"PETGは、特にガラスやPEIで作られたプリントベッドに非常に良く接着することで知られており、プリント表面から一部を引き剥がすほどです。PETGで印刷する場合は、これを防ぐために表面にグルースティックやヘアスプレーを塗布することをお勧めします。"

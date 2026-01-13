@@ -6,18 +6,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:2
 msgid "Forking FTC Docs"
@@ -26,15 +26,15 @@ msgstr "FTCドキュメントのフォーク"
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:3
 msgid ""
 ":bdg-danger:`One Time Only` :bdg-info:`Codespaces` :bdg-warning:`Local`"
-msgstr ":bdg-danger:`一度だけ` :bdg-info:`Codespaces` :bdg-warning:`ローカル`"
+msgstr ":bdg-danger:`一度限り` :bdg-info:`Codespaces` :bdg-warning:`ローカル`"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:6
 msgid ""
 "This following assumes you have already created a GitHub account. If you "
 "have not, please `create one <https://github.com/join>`_"
 msgstr ""
-"この下記は、GitHub アカウントを作成済みであることを前提としています。まだ作成していない場合は、`こちらから作成してください "
-"<https://github.com/join>`_。"
+"以下は、すでにGitHubアカウントを作成していることを前提としています。まだ作成していない場合は、 `create one "
+"<https://github.com/join>`_ してください。"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:8
 msgid ""
@@ -45,27 +45,27 @@ msgid ""
 "you to easily keep your forked repository up to date with the original "
 "repository."
 msgstr ""
-"リポジトリをフォークするプロセスは簡単です。これは、あなたのアカウントにリポジトリのコピーを作成し、オリジナルのリポジトリに影響を与えることなく変更を行うことができます。オリジナルのリポジトリに対してプルリクエストを提出することもでき、オリジナルのリポジトリとフォークされたリポジトリを簡単に同期させることができます。"
+"リポジトリをフォークすることは簡単なプロセスです。これにより、あなたのアカウントにリポジトリのコピーが作成され、元のリポジトリに影響を与えることなく変更を加えることができます。また、元のリポジトリに変更を提案するためのプルリクエストを送信することもできます。さらに、フォークしたリポジトリを元のリポジトリと簡単に同期させることができます。"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:12
 msgid "Steps"
-msgstr "手順"
+msgstr "ステップ"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:14
 msgid ""
 "Go to the repository you want to fork. In this case, it is the FTC Docs "
 "`repository <https://github.com/FIRST-Tech-Challenge/ftcdocs>`_."
 msgstr ""
-"Forkしたいリポジトリに移動してください。この場合、対象は FIRST Tech Challenge のドキュメンテーション `リポジトリ "
-"<https://github.com/FIRST-Tech-Challenge/ftcdocs>`_ です。"
+"フォークしたいリポジトリに移動します。この場合、それは FTC Docs `repository <https://github.com/FIRST-"
+"Tech-Challenge/ftcdocs>`_ です。"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:21
 msgid "FTC Docs Repository"
-msgstr "FIRST Tech Challenge ドキュメントリポジトリ"
+msgstr "FTC ドキュメントリポジトリ"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:21
 msgid "The Official FTC Docs GitHub Repository"
-msgstr "公式FIRST Tech Challenge Docs GitHubリポジトリ"
+msgstr "公式のFTCドキュメントGitHubリポジトリ"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:23
 msgid "Follow the steps shown below to fork the repository."
@@ -77,11 +77,11 @@ msgstr "リポジトリのフォーク"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:30
 msgid "Click the \"Create Fork\" button to create a fork of the repository."
-msgstr "「Create Fork」ボタンをクリックしてリポジトリのフォークを作成します。"
+msgstr "「Create Fork」ボタンをクリックして、リポジトリのフォークを作成します。"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:37
 msgid "Forked Repository"
-msgstr "分岐したリポジトリ"
+msgstr "フォークしたリポジトリ"
 
 #: ../../source/contrib/tutorials/make_fork/make-fork.rst:39
 msgid ""
@@ -89,5 +89,5 @@ msgid ""
 "Documentation <https://docs.github.com/en/get-started/quickstart/fork-a-"
 "repo>`_."
 msgstr ""
-"フォークするリポジトリに関する詳細情報は、`GitHubドキュメンテーション <https://docs.github.com/en/get-"
-"started/quickstart/fork-a-repo>`_ を訪問してください。"
+"リポジトリをフォークする方法についての詳細は、 `GitHub Documentation "
+"<https://docs.github.com/en/get-started/quickstart/fork-a-repo>`_ をご覧ください。"

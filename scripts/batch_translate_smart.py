@@ -19,6 +19,14 @@ import time
 from pathlib import Path
 from typing import List, Dict, Optional
 
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed, but that's okay - can use environment variables directly
+    pass
+
 try:
     from colorama import init, Fore, Style
 except ImportError:
@@ -123,7 +131,7 @@ class BatchTranslator:
         
         return po_files
     
-    def translate_all(self, limit: Optional[int] = None) -> None:
+    def translate_all(self, limit: Optional[int] = None, retranslate: bool = False) -> None:
         """全POファイルを翻訳
         
         未翻訳のPOファイルを見つけて、順次翻訳する。
@@ -131,6 +139,7 @@ class BatchTranslator:
         
         Args:
             limit: 翻訳する最大ファイル数（Noneの場合は全ファイル）
+            retranslate: Trueの場合、既存訳文を破棄して再翻訳
         """
         po_files = self.find_po_files()
         
@@ -142,6 +151,8 @@ class BatchTranslator:
         
         print(f"\n{Fore.CYAN}{'='*60}")
         print(f"{Fore.CYAN}Batch Translation Started")
+        if retranslate:
+            print(f"{Fore.YELLOW}⚠ RETRANSLATE MODE - existing translations will be discarded")
         print(f"{Fore.CYAN}{'='*60}")
         print(f"Total files to translate: {total}")
         print(f"Already completed: {len(self.progress['completed'])}")
@@ -154,7 +165,7 @@ class BatchTranslator:
             print(f"\n{Fore.YELLOW}[{i}/{total}] {rel_path}")
             
             try:
-                self.translator.translate_po_file(str(po_file))
+                self.translator.translate_po_file(str(po_file), retranslate=retranslate)
                 self.progress['completed'].append(rel_path)
                 print(f"{Fore.GREEN}✓ Completed: {rel_path}")
                 
@@ -259,6 +270,11 @@ Examples:
         action="store_true",
         help="Reset progress and start from scratch"
     )
+    parser.add_argument(
+        "--retranslate",
+        action="store_true",
+        help="Discard existing translations and retranslate all entries"
+    )
     
     args = parser.parse_args()
     
@@ -275,7 +291,7 @@ Examples:
     
     # バッチ翻訳実行
     batch = BatchTranslator(args.po_dir, args.config, args.progress, backend=args.backend)
-    batch.translate_all(args.limit)
+    batch.translate_all(args.limit, retranslate=args.retranslate)
 
 
 if __name__ == '__main__':

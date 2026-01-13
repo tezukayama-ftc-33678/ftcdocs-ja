@@ -6,26 +6,26 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 11:54+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ja <LL@li.org>\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.11.0\n"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
+"Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
+"Language-Team: ja <LL@li.org>"
+"Language: ja"
+"MIME-Version: 1.0"
+"Content-Type: text/plain; charset=utf-8"
+"Content-Transfer-Encoding: 8bit"
+"Plural-Forms: nplurals=1; plural=0;"
+"Generated-By: Babel 2.11.0"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:2
 msgid "Camera Calibration for *FIRST* Tech Challenge"
-msgstr "*FIRST* Tech Challenge のカメラ校正"
+msgstr "*FIRST* テクノロジー チャレンジのカメラキャリブレーション"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:5
 msgid "What is a camera calibration and why is it needed?"
-msgstr "カメラ校正とは何ですか？なぜ必要なのでしょうか？"
+msgstr "カメラキャリブレーションとは何ですか、そしてなぜそれが必要なのですか？"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:7
 msgid ""
@@ -40,11 +40,13 @@ msgid ""
 " the camera and lens, but also specific to the resolution used on a "
 "particular camera as well!"
 msgstr ""
-"カメラは、最終的に「見ること」の実際の画像に変動をもたらすことができる多くの異なるコンポーネントで構成されています。カメラ校正は、カメラとレンズの組み合わせが世界を見ることの数学者的なモデル化を行うプロセスです。例えば、視野の幅がどの程度かなどです。「Camera"
-" "
-"Calibration」は高精度なタスクを使用するためには必須であり、カメラを使って精密な測定を行いたい場合や、AprilTagsのようなfiducial"
-" "
-"markerシステムから正確な6DOFポーズデータを取得したい場合は特にそうです。重要なことに、校正はカメラとレンズだけでなく、特定のカメラで使用される解像度にも依存することも忘れないでください！"
+"カメラは、カメラが最終的に「見る」実際の画像に変動をもたらす多くの異なるコンポーネントで構成されています。"
+""
+"カメラキャリブレーションは、カメラとレンズの組み合わせが最終的に世界をどのように見るかを数学的にモデル化するプロセスです。たとえば、視野の広さがどのくらいであるかを示します。"
+""
+"カメラをキャリブレーションすることは、カメラを使用して精密測定を行ったり、AprilTagsのようなフィデューシャルマーカーシステムから正確な6DOFポーズデータを取得したりする高精度なタスクに使用したい場合には必須です。"
+""
+"キャリブレーションはカメラとレンズに特有であるだけでなく、特定のカメラで使用される解像度にも特有であることに注意することが重要です！"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:18
 msgid ""
@@ -52,17 +54,17 @@ msgid ""
 "and in liquids (for example, in water) are not transferrable. Calibrations "
 "must be performed within the medium that the camera will be operating in."
 msgstr ""
-"屈光指数の違いにより、空気中で行われた校正と液体（例えば水）中に行われた校正は互いに転送できません。カメラが動作する媒体内で校正を実施する必要があります。"
+"屈折率の違いにより、空気中と液体中（例えば、水中）で行われたキャリブレーションは互換性がありません。キャリブレーションは、カメラが動作する媒体内で行う必要があります。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:23
 msgid "Camera Calibration Methods"
-msgstr "カメラ校正方法"
+msgstr "カメラキャリブレーション方法"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:25
 msgid ""
 "There are many methods to calibrate cameras, including OpenCV, MATLAB, MRCAL"
 " etc."
-msgstr "カメラの校正には、OpenCV、MATLAB、MRCALなど多くの方法があります。"
+msgstr "カメラをキャリブレーションする方法は、OpenCV、MATLAB、MRCALなど多くあります。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:28
 msgid ""
@@ -71,9 +73,9 @@ msgid ""
 "extensive data on how good your calibration is and what goes into the "
 "numerical optimization to arrive at the optimal parameters."
 msgstr ""
-"高度なチームでは、`MRCAL <https://mrcal.secretsauce.net/>`__ を使用することが最も良い選択肢となるでしょう -"
-" NASA JPLによって開発されたツールで、 Calibration "
-"の品質に関する詳細なデータと、最適パラメータに到達するための数値最適化過程が含まれています。"
+"上級チームにとって、 `MRCAL "
+"<https://mrcal.secretsauce.net/>`__を使用することが最良の選択肢である可能性が高いです。これは、NASA "
+"JPLによって開発されたツールで、キャリブレーションの精度や最適なパラメーターに到達するための数値最適化に関する詳細なデータを提供します。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:32
 msgid ""
@@ -81,9 +83,8 @@ msgid ""
 "Zephyr <https://www.3dflow.net/3df-zephyr-free/>`__, which is extremely easy"
 " to use and can provide reasonable results."
 msgstr ""
-"私たちの他の方々へ、ここでは、カメラを calibration する方法について説明します。これには `3DF Zephyr "
-"<https://www.3dflow.net/3df-zephyr-free/>`__ "
-"を使用しますが、使い方が非常に簡単で、適切な結果を得ることができます。"
+"私たちのために、ここでは `3DF Zephyr <https://www.3dflow.net/3df-zephyr-"
+"free/>`__を使用してカメラをキャリブレーションする方法を説明します。これは非常に使いやすく、妥当な結果を提供することができます。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:37
 msgid ""
@@ -91,20 +92,20 @@ msgid ""
 " 32-bit versions of Windows, nor is it supported on Mac or on Linux "
 "platforms."
 msgstr ""
-"3DF ZephyrはMicrosoft Windows "
-"64ビットアプリケーションです。Windowsの32ビット版には対応しておらず、MacやLinuxプラットフォームにも対応していません。"
+"3DF Zephyrは、Microsoft Windows "
+"64ビットアプリケーションです。32ビット版のWindowsではサポートされておらず、MacやLinuxプラットフォームでもサポートされていません。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:42
 msgid "Calibrating with 3DF Zephyr"
-msgstr "3DF Zephyrを使用した校正"
+msgstr "3DF Zephyrでのキャリブレーション"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:44
 msgid ""
 "Download and install `3DF Zephyr Free Edition <https://www.3dflow.net/3df-"
 "zephyr-free/>`__."
 msgstr ""
-"ダウンロードし、`3DF Zephyr Free Edition <https://www.3dflow.net/3df-zephyr-"
-"free/>`__ をインストールしてください。"
+"`3DF Zephyr Free Edition <https://www.3dflow.net/3df-zephyr-"
+"free/>`__をダウンロードしてインストールしてください。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:45
 msgid ""
@@ -112,22 +113,22 @@ msgid ""
 "folder, and modify the parameters at the top according to your needs. It's "
 "important to note that this Sample is only written in Java."
 msgstr ""
-"チームコードフォルダにサンプルの ``UtilityCameraFrameCapture`` "
-"OpModeをコピーし、必要に応じて上部のパラメータを修正してください。なお、このサンプルはJavaでしか書かれていません。"
+"サンプル ``UtilityCameraFrameCapture`` Op Mode "
+"をチームコードフォルダーにコピーし、必要に応じて上部のパラメーターを修正してください。このサンプルはJavaでのみ記述されていることに注意することが重要です。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:48
 msgid "In 3DF Zephyr, go to:"
-msgstr "3DF ゼフィールで、以下に移動してください："
+msgstr "3DF Zephyrで、次に移動します:"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:50
 msgid "Utilities --> Images --> Camera Calibration"
-msgstr "ユーティリティス --> イメージ --> カメラ校正"
+msgstr "ユーティリティ --> 画像 --> カメラキャリブレーション"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:52
 msgid ""
 "and follow the instructions. Use the frame capture OpMode to take the "
 "pictures."
-msgstr "そして指示に従ってください。フレームキャプチャOpModeを使用して写真を撮影してください。"
+msgstr "指示に従ってください。フレームキャプチャOp Modeを使用して写真を撮影します。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:53
 msgid ""
@@ -135,14 +136,14 @@ msgid ""
 "copy the captured frames to your computer. They will be located in the root "
 "of the USB storage, with names prefixed by ``VisionPortal-``."
 msgstr ""
-"Robot "
-"Controller装置をUSBケーブルでコンピュータに接続し、キャプチャされたフレームをコンピュータにコピーしてください。これらのファイルはUSBストレージのルートディレクトリに配置され、「VisionPortal-」というプレフィックスが付きます。"
+"USBケーブルを使用してロボットコントローラーデバイスをコンピュータに接続し、キャプチャしたフレームをコンピュータにコピーしてください。これらはUSBストレージのルートにあり、名前は"
+" ``VisionPortal-`` で始まります。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:56
 msgid ""
 "Press the *Add Images* button in 3DF Zephyr and point it to the images you "
 "just copied to your computer."
-msgstr "3DF Zephyrで「Add Images」ボタンを押し、先ほどコンピュータにコピーした画像先にポイントしてください。"
+msgstr "3DF Zephyrで *Add Images* ボタンを押し、コンピュータにコピーした画像を指し示してください。"
 
 #: ../../source/programming_resources/vision/camera_calibration/camera-calibration.rst:58
 msgid ""
@@ -150,5 +151,5 @@ msgid ""
 "will provide you with ``fx, fy, cx, cy`` which are the needed calibration "
 "parameters to be applied to your ``AprilTagProcessor``."
 msgstr ""
-"3DF Zephyrで校正ターゲットの分析を実行し、完了すると必要な校正パラメータ ``fx, fy, cx, cy`` "
-"を提供します。これらのパラメータは ``AprilTagProcessor`` に適用する必要があります。"
+"3DF Zephyrでキャリブレーションターゲット分析を実行します。完了すると、 ``fx, fy, cx, cy`` が提供され、これは "
+"``AprilTagProcessor`` に適用する必要のあるキャリブレーションパラメーターです。"
