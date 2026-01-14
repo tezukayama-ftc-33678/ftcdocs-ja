@@ -114,26 +114,25 @@ class AnthropicTranslator(Translator):
             "See docstring for requirements."
         )
     
-    def _build_system_prompt(self) -> str:
+    def _build_system_prompt(self, text: str = "") -> str:
         """
         Build system prompt for translation.
         
         TODO: Implement system prompt construction:
         
-        Requirements:
-            - Create professional translator prompt for English → Japanese
-            - Include instructions for:
-              * Accurate translation preserving technical terminology
-              * Natural Japanese suitable for technical documentation
-              * Formal tone (です/ます調)
-              * Do NOT translate proper nouns/product names
-              * Preserve formatting, spacing, punctuation
-              * Output ONLY Japanese translation
-            - Append glossary entries if self.glossary is not empty
-              Format: "Glossary (use these translations):\n- English → Japanese"
+        Requirements (TOKEN OPTIMIZED):
+            - Keep prompt concise (Claude is efficient with short prompts)
+            - Basic instruction: "Technical translator: English → Japanese (です/ます)"
+            - Mention: preserve formatting and placeholders
+            - Glossary: ONLY include terms that appear in the text (max 10)
+              Check: if en.lower() in text.lower()
+              Format: "Terms: en1→ja1, en2→ja2"
+        
+        Args:
+            text: The text being translated (to filter glossary)
         
         Returns:
-            System prompt string
+            System prompt string (concise)
         """
         raise NotImplementedError(
             "Subclass must implement _build_system_prompt(). "
@@ -146,17 +145,18 @@ class AnthropicTranslator(Translator):
         
         TODO: Implement user prompt construction:
         
-        Requirements:
-            - Create prompt with text to translate
-            - If context provided, prepend: "Context: {context}"
-            - Format: "Translate to Japanese:\n\n{text}"
+        Requirements (TOKEN OPTIMIZED):
+            - Keep context short: first 80 chars only if longer
+            - Simple format without extra text
+            - If context: "Context: {context[:80]}...\n\n{text}"
+            - If no context: just "{text}" (no extra "Translate to Japanese:")
         
         Args:
             text: Text to translate
             context: Optional context
         
         Returns:
-            User prompt string
+            User prompt string (minimal)
         """
         raise NotImplementedError(
             "Subclass must implement _build_user_prompt(). "

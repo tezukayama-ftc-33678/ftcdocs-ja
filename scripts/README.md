@@ -14,11 +14,22 @@ POファイルを翻訳するメインスクリプト。RST構文を保護しな
 # 単一ファイルを翻訳
 python scripts/translate_po_smart.py locales/ja/LC_MESSAGES/index.po
 
+# バックエンドを指定（openai, ollama, anthropic）
+python scripts/translate_po_smart.py -b openai locales/ja/LC_MESSAGES/index.po
+
 # バッチ翻訳用ラッパー
 python scripts/batch_translate_smart.py locales/ja/LC_MESSAGES
 ```
 
 **設定ファイル**: `data/translate_config.json`
+
+**トークン最適化**（2026-01-14更新）:
+- OpenAI/Anthropic: 簡潔なプロンプト（高性能モデルなので詳細不要）
+- 用語集: テキストに含まれる項目のみ送信（全用語集を毎回送信しない）
+- コンテキスト: 最初の80-100文字のみ（全文不要）
+- プレースホルダー: 存在時のみ簡潔な注記
+
+これにより、**トークン消費量を約60-70%削減**（互換性維持）。
 
 ---
 

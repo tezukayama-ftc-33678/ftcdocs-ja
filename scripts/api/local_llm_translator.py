@@ -177,53 +177,45 @@ class LocalLLMTranslator(Translator):
         """
         Create translation prompt for the LLM.
         
-        Includes:
-        - Instructions (Japanese only, no Chinese)
-        - Placeholder handling rules
-        - Glossary terms
-        - Context from previous chunks
-        - Text to translate
+        Optimized for token efficiency:
+        - Only include relevant glossary terms
+        - Shorter placeholder notes
+        - Minimal context
         """
+        # 用語集: テキストに含まれる項目のみ（最大10件）
+        relevant_glossary = {en: ja for en, ja in self.glossary.items() if en.lower() in text.lower()}
         glossary_text = "\n".join([
-            f"- {en} → {ja}" for en, ja in list(self.glossary.items())[:20]
-        ])
+            f"- {en} → {ja}" for en, ja in list(relevant_glossary.items())[:10]
+        ]) if relevant_glossary else "(none needed)"
         
-        # Extract placeholders mentioned in text
+        # プレースホルダー: 存在する場合のみ注記
         placeholder_pattern = r'__RST_[A-Z_]+_\d+__'
         placeholders_in_text = re.findall(placeholder_pattern, text)
         
         placeholder_note = ""
         if placeholders_in_text:
-            placeholder_note = f"""
-PLACEHOLDERS (keep EXACTLY as-is, DO NOT translate):
-{", ".join(set(placeholders_in_text))}
-
-These are RST markup protectors. Preserve them exactly.
-"""
+            # 簡潔化: 具体的なリストは不要（パターンで十分）
+            placeholder_note = f"\nPLACEHOLDERS: Keep __RST_*__ exactly as-is.\n"
         
+        # コンテキスト: 最初の100文字のみ
         context_note = ""
         if context:
-            context_note = f"CONTEXT: {context}\n\n"
+            context_short = context[:100] + "..." if len(context) > 100 else context
+            context_note = f"CONTEXT: {context_short}\n\n"
         
-        prompt = f"""You are a technical translator specializing in reStructuredText (RST) documentation for FTC (FIRST Tech Challenge).
+        prompt = f"""Technical translator: English → Japanese (FTC docs)
 
-🚨 CRITICAL RULES:
-1. Write ONLY in Japanese (Hiragana, Katakana, Kanji)
-2. DO NOT write Chinese - Avoid: 为应该这处理方式设置获取发送接收检查验证
-3. Preserve ALL placeholders exactly (e.g., __RST_ROLE_0__)
-4. Use です・ます form (polite Japanese)
-5. Keep important technical terms in English (see GLOSSARY)
-6. Ensure proper spacing around placeholders
-
-GLOSSARY (preserve in English):
+🚨 RULES:
+1. Japanese ONLY (no Chinese: 为应该这处理)
+2. です・ます form
+3. Preserve placeholders & formatting{placeholder_note}
+GLOSSARY:
 {glossary_text}
 
-{placeholder_note}
-
-{context_note}TEXT TO TRANSLATE:
+{context_note}TRANSLATE:
 {text}
 
-TRANSLATE TO JAPANESE ONLY:"""
+JAPANESE:"""
         
         return prompt
     

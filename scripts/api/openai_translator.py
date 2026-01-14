@@ -108,8 +108,8 @@ class OpenAITranslator(Translator):
         if not text or not text.strip():
             return ""
         
-        # Build prompt
-        system_prompt = self._build_system_prompt()
+        # Build prompt (text passed to optimize glossary)
+        system_prompt = self._build_system_prompt(text)
         user_prompt = self._build_user_prompt(text, context)
         
         # Attempt translation with retries
@@ -161,33 +161,28 @@ class OpenAITranslator(Translator):
             f"OpenAI translation failed after {self.max_retries} attempts: {last_error}"
         )
     
-    def _build_system_prompt(self) -> str:
-        """Build system prompt for translation."""
-        prompt = """You are a professional translator specializing in technical documentation translation from English to Japanese.
-
-Requirements:
-- Translate accurately while preserving technical terminology
-- Use natural Japanese expression suitable for technical documentation
-- Maintain formal tone (です/ます調)
-- Do NOT translate proper nouns, product names, or technical terms that should remain in English
-- Preserve formatting, spacing, and punctuation
-- Output ONLY the Japanese translation, nothing else"""
+    def _build_system_prompt(self, text: str = "") -> str:
+        """Build system prompt for translation (optimized for token efficiency)."""
+        # OpenAIは高性能なので簡潔なプロンプトで十分
+        prompt = """Technical translator: English → Japanese (です/ます). Preserve formatting and placeholders."""
         
-        if self.glossary:
-            prompt += "\n\nGlossary (use these translations):\n"
-            for en, ja in self.glossary.items():
-                prompt += f"- {en} → {ja}\n"
+        # 用語集: テキストに含まれる項目のみ追加（トークン節約）
+        if self.glossary and text:
+            relevant_terms = {en: ja for en, ja in self.glossary.items() if en.lower() in text.lower()}
+            if relevant_terms:
+                prompt += "\nTerms: " + ", ".join(f"{en}→{ja}" for en, ja in list(relevant_terms.items())[:10])
         
         return prompt
     
     def _build_user_prompt(self, text: str, context: Optional[str] = None) -> str:
         """Build user prompt with text and optional context."""
-        prompt = f"Translate to Japanese:\n\n{text}"
+        # コンテキストは最小限に（最初の80文字のみ）
+        if context and len(context) > 80:
+            context = context[:80] + "..."
         
         if context:
-            prompt = f"Context: {context}\n\n{prompt}"
-        
-        return prompt
+            return f"Context: {context}\n\n{text}"
+        return text
     
     def translate_batch(
         self,

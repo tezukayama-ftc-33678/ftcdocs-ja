@@ -6,22 +6,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:2
 msgid "Color Locator (Discover)"
-msgstr "色検出（発見）"
+msgstr "Color Locator (Discover)"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:5
 msgid "Overview"
@@ -32,8 +26,8 @@ msgid ""
 "Another way to use FTC's new OpenCV vision tools is to operate a \"Color "
 "Locator\".  Namely, it can **find a target color that you specify**."
 msgstr ""
-"FTCの新しいOpenCVビジョンツールを使用するもう一つの方法は、「色ロケーター」を操作することです。つまり、 ** "
-"指定したターゲットカラーを見つけることができます ** 。"
+"FTCの新しいOpenCVビジョンツールを使用する別の方法は、「Color Locator」を操作することです。つまり、 **find a target"
+" color that you specify** を行うことができます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:10
 msgid ""
@@ -41,34 +35,32 @@ msgid ""
 "(ROI). Only that zone of the camera's view will be searched for the target "
 "color."
 msgstr ""
-"Color Sensorツールと同じように、 ** 興味領域 ** (ROI)を指定できます。カメラの視野内のその区域だけがターゲット色を探します。"
+"Color Sensorツールと同様に、 **Region of Interest** "
+"（ROI）を指定することができます。そのカメラの視野のゾーンのみがターゲットカラーを検索します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:13
 msgid ""
 "The \"target color\" is actually a **range** of numerical color values, for "
 "a better chance of finding the desired color."
-msgstr "「ターゲットカラー」は実際には、目的の色を見つけやすいように数値のカラーバリエーションの **範囲** を指します。"
+msgstr "「ターゲットカラー」は、実際には希望する色を見つけるためのより良いチャンスを得るために、数値カラー値の **range** です。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:16
 msgid ""
 "OpenCV will form **\"Blobs\"** of that color.  As described in the Concepts "
 "page here, a Blob is a contiguous cluster of similar-colored pixels."
 msgstr ""
-"OpenCV will form ** \"Blobs\" ** of that color.  As described in the "
-"Concepts page here, a Blob is a contiguous cluster of similar-colored "
-"pixels."
+"OpenCVはその色の **\"Blobs\"** "
+"を形成します。ここにある概念ページで説明されているように、Blobは同じ色のピクセルの連続したクラスターです。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:19
 msgid ""
 "Blobs often have a complex, irregular shape or **contour**, so they are "
 "represented here by a best-fit rectangle called **\"boxFit\"**."
-msgstr ""
-"ブロブはしばしば複雑で不規則な形状や ** 境界線 ** を有するため、ここでは最適な fits の長方形「 ** boxFit ** "
-"」で表現されています。"
+msgstr "ブロブはしばしば複雑で不規則な形状を持っているため、ここでは **\"boxFit\"** と呼ばれる最適フィットの長方形で表現されています。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:27
 msgid "Zoomed Color Blob detection"
-msgstr "ズームした色のブロブ検出"
+msgstr "ズームカラー ブロブ検出"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:29
 msgid ""
@@ -76,8 +68,7 @@ msgid ""
 "Interest (ROI), the teal jagged line is the Blob's contour (fully inside the"
 " ROI), and the purple rectangle is the boxFit."
 msgstr ""
-"ここでのターゲットの色はBLUEです。白い長方形は興味領域（ROI）で、青グリーンの尖った線はブロブの輪郭（fully inside the "
-"ROI）、そして紫の長方形はboxFitです。"
+"ここでのターゲットカラーは青です。白い長方形は関心領域（ROI）で、ティールのギザギザの線はブロブの輪郭（ROIの中に完全に収まっています）、紫の長方形はボックスフィットです。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:33
 msgid ""
@@ -85,33 +76,36 @@ msgid ""
 "  That data can be evaluated by your OpMode for **robot navigation** and "
 "other actions."
 msgstr ""
+"ソフトウェアは各「boxFit」のサイズ、位置、向きを報告します。そのデータは、 **robot navigation** "
+"やその他のアクションのために、あなたのOp Modeによって評価されることができます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:37
 msgid "The following sections describe how to do this, with a Sample OpMode."
-msgstr "次のセクションでは、サンプルのOpModeを使用してこれを実施する方法について説明します。"
+msgstr "以下のセクションでは、サンプルOp Modeを使用してこれを行う方法について説明します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:40
 msgid "Configuration"
-msgstr "設定"
+msgstr "構成"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:42
 msgid "*Skip this section if ...*"
-msgstr "*このセクションをスキップする場合...*"
+msgstr "*Skip this section if ...*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:44
 msgid "*the active robot configuration already contains \"Webcam 1\",* or"
-msgstr "*アクティブなロボット構成にはすでに「Webcam 1」が含まれています、*\"\\iltrobot"
+msgstr "*the active robot configuration already contains \"Webcam 1\",* または"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:45
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
-msgstr "*Androidスマホの組み込みカメラを使用してRobot Controllerにします.*"
+msgstr "*using the built-in camera of an Android phone as Robot Controller.*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:47
 msgid ""
 "Before starting the programming, REV Control Hub users should make a robot "
 "configuration that includes the USB webcam to be used as a color locator."
 msgstr ""
-"プログラム開始前に、REV Control Hubユーザーは、USBウェブカメラを使用して色のロケーターとするロボットの構成を作成する必要があります。"
+"プログラミングを開始する前に、REV Control "
+"Hubのユーザーは、色を検出するために使用するUSBウェブカメラを含むロボットの構成を作成する必要があります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:50
 msgid ""
@@ -119,32 +113,33 @@ msgid ""
 "preferred, edit the Sample OpMode to agree with the exact webcam name in the"
 " robot configuration."
 msgstr ""
-"現在は、デフォルトのウェブカメラ名「Webcam "
-"1」を使用してください。異なる名前が好ましい場合は、サンプルOpModeをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
+"今のところ、デフォルトのウェブカメラ名「Webcam 1」を使用してください。異なる名前を希望する場合は、サンプルOp "
+"Modeを編集してロボット構成の正確なウェブカメラ名に一致させてください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:54
 msgid ""
 "**Save and activate** that configuration; its name should appear on the "
 "paired Driver Station screen."
-msgstr "**保存し、有効に** してください；その名前はペアリングされたDriver Stationの画面に表示されます。"
+msgstr ""
+"**Save and activate** その構成; その名前はペアリングされた DRIVER STATION の画面に表示されるべきです。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:58
 msgid "Sample OpMode"
-msgstr "サンプルOpMode"
+msgstr "サンプル Op Mode"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:61
 msgid "Opening the Sample OpMode"
-msgstr "サンプルOpModeを開く"
+msgstr "サンプル Op Mode を開く"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:63
 msgid ""
 "To learn about opening the Sample OpMode, select and read the Blocks **or** "
 "Java section below:"
-msgstr "Sample OpModeを開く方法について学ぶには、下記のBlocks **または** Javaセクションを選択して読み進めてください："
+msgstr "Sample Op Modeを開く方法について学ぶには、以下のBlocks **or** Javaセクションを選択してお読みください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst
 msgid "Blocks"
-msgstr "ブロック"
+msgstr "Blocks"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:70
 msgid ""
@@ -153,9 +148,9 @@ msgid ""
 "http://192.168.43.1:8080 (or http://192.168.49.1:8080 for Android RC phone) "
 "and click the Blocks tab."
 msgstr ""
-"Robot Controllerに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control"
-" Hubのアドレス http://192.168.43.1:8080（またはAndroid "
-"RCスマホの場合、http://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
+"ノートパソコンまたはデスクトップコンピュータを使用して、Robot ControllerにWi-Fiで接続し、Chromeブラウザを開きます。REV "
+"Control Hubのアドレス http://192.168.43.1:8080 （またはAndroid RC電話の場合は "
+"http://192.168.49.1:8080 ）に移動し、Blocksタブをクリックします。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:76
 msgid ""
@@ -163,40 +158,42 @@ msgid ""
 "\"ColorLocator_Monica_v01\", and select the Sample OpMode "
 "``ConceptVisionColorLocator_Rectangle``."
 msgstr ""
-"「新しいOpModeを作成」をクリックし、新しい名前として\"ColorLocator_Monica_v01\"などに入力し、サンプルOpMode「ConceptVisionColorLocator_Rectangle」を選択します。"
+"``Create New OpMode`` をクリックし、新しい名前「ColorLocator_Monica_v01」を入力し、サンプルOp Mode "
+"``ConceptVisionColorLocator_Rectangle`` を選択します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:80
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:99
 msgid ""
 "Near the beginning of the OpMode code, change `ARTIFACT_PURPLE` to `BLUE`."
-msgstr "OpModeのコードの最初の部分で、`ARTIFACT_PURPLE` を `ブルー` に変更してください。"
+msgstr "OpModeコードの冒頭近くで、`ARTIFACT_PURPLE`を`BLUE`に変更してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:82
 msgid ""
 "At the top of the Blocks screen, you can change the type from \"TeleOp\" to "
 "\"Autonomous\", since this Sample OpMode does not use gamepads."
 msgstr ""
-"Blocksクリーンのトップで、「TeleOp」から「Autonomous」にタイプを変更できます。このサンプルOpModeではゲームパッドを使用していません。"
+"Blocks画面の上部では、ゲームパッドを使用しないこのサンプルOp "
+"Modeのため、「TeleOp」から「Autonomous」にタイプを変更することができます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:85
 msgid ""
 "If using the built-in camera of an RC phone, drag out the relevant Block "
 "from the left-side ``VisionPortal.Builder`` toolbox."
 msgstr ""
-"もしRCスマホの内蔵カメラを使用する場合、左側の ``VisionPortal.Builder`` "
-"ツールボックスから関連するブロックをドラッグアウトしてください。"
+"RCフォンの内蔵カメラを使用する場合は、左側の ``VisionPortal.Builder`` "
+"ツールボックスから関連するブロックをドラッグアウトします。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:88
 msgid "Save the OpMode, time to try it!"
-msgstr "OpModeを保存しましょう。試してみましょう！"
+msgstr "OpModeを保存しました。試してみましょう！"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst
 msgid "Java"
-msgstr "JAVA"
+msgstr "Java"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:93
 msgid "Open your choice of OnBot Java or Android Studio."
-msgstr "OnBot Java や Android Studio のいずれかを開いてください。"
+msgstr "OnBot Java または Android Studio のいずれかを開いてください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:95
 msgid ""
@@ -204,48 +201,49 @@ msgid ""
 "\"ColorLocator_Javier_v01.java\", and select the Sample OpMode "
 "``ConceptVisionColorLocator_Rectangle.java``."
 msgstr ""
-"チームコードフォルダの ``teamcode`` "
-"に、名前を「ColorLocator_Javier_v01.java」とした新しいOpモードを作成または追加し、「Sample Opモード "
-"ConceptVisionColorLocator_Rectangle.java」を選択してください。"
+"``teamcode`` フォルダーに、新しいOp "
+"Modeを\"ColorLocator_Javier_v01.java\"のような名前で追加/作成し、サンプルOp Mode "
+"``__RST_FILEPATH_1__`` を選択してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:101
 msgid ""
 "At about Line 63, you can change ``@TeleOp`` to ``@Autonomous``\\ , since "
 "this Sample OpMode does not use gamepads."
 msgstr ""
-"約Line 63で、``@TeleOp`` を ``@Autonomous`` に変更できます。このサンプルオモードはゲームパッドを使用していません。"
+"約63行目で、 ``@TeleOp`` を ``@Autonomous`` に変更できます。このサンプルOp "
+"Modeはゲームパッドを使用しないためです。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:104
 msgid ""
 "If using the built-in camera of an RC phone, follow the OpMode comments to "
 "specify that camera."
-msgstr "RCスマホの組み込みカメラを使用する場合、OpModeのコメントに該当するカメラを指定します。"
+msgstr "RCフォンの内蔵カメラを使用する場合は、Op Modeのコメントに従ってそのカメラを指定してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:107
 msgid "Click \"Build\", time to try it!"
-msgstr "「Build」をクリックして試してみましょう！"
+msgstr "「ビルド」をクリックしてください。試してみましょう！"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:110
 msgid "Running the Sample OpMode"
-msgstr "サンプルOpModeの実行"
+msgstr "サンプル Op Mode の実行"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:112
 msgid ""
 "On the Driver Station, select the Autonomous OpMode that you just saved or "
 "built."
-msgstr "Driver Stationで、先ほど保存または構築した自動運転モードを選択してください。"
+msgstr "Driver Stationで、保存またはビルドしたAutonomous OpModeを選択してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:115
 msgid ""
 "Turn off the automatic 30-second match timer (green slider).  Aim the camera"
 " at a **blue object**."
-msgstr "自動で動作する30秒のマッチタイマー（緑色のスライダー）をオフにします。カメラを **青い物体** に向けてください。"
+msgstr "自動30秒マッチタイマー（緑のスライダー）をオフにします。カメラを **blue object** に向けます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:118
 msgid ""
 "Touch INIT only.  The OpMode should give Telemetry showing the results of "
 "one or more Blobs:"
-msgstr "INITのみをタッチしてください。OpModeは1つ以上のかす（Blob）の結果を示すTelemetryを表示するべきです："
+msgstr "INITのみをタッチしてください。Op Modeは、1つ以上のBlobの結果を示すTelemetryを提供する必要があります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:126
 msgid "Basic Telemetry"
@@ -255,7 +253,7 @@ msgstr "基本的なTelemetry"
 msgid ""
 "In this example, the Region of Interest (ROI) contains only one Blob of the "
 "default target color BLUE."
-msgstr "この例では、興味領域（ROI）にはデフォルトのターゲット色ブルーの1つのブロブのみが含まれています。"
+msgstr "この例では、関心領域（ROI）にはデフォルトのターゲットカラーである青色のブロブが1つだけ含まれています。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:131
 msgid ""
@@ -263,24 +261,26 @@ msgid ""
 "area on the Driver Station screen.  It may sometimes show more lines of Blob"
 " data, and sometimes show no Blob data at all."
 msgstr ""
-"カメラを動かして、特にブルーのオブジェクト付近で動かし、Driver "
-"Station画面のTelemetryエリアを見守ってください。時々はBlobデータの行が増えることもありますし、時々は何らかのBlobデータも表示されないことがあります。"
+"カメラを動かし、特に青いオブジェクトに焦点を当てて、Driver "
+"Stationの画面にあるTelemetryエリアを観察してください。時にはBlobデータの行が多く表示されることもありますが、全く表示されないこともあります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:135
 msgid ""
 "It's working!  Your camera is working as a **color locator**.  Think about "
 "how to use this in the FTC Robot Game."
 msgstr ""
-"動いています！あなたのカメラは **色検出器** として正常に動作しています。FTCロボットゲームでどのように使用するか考えてみてください。"
+"動作しています！あなたのカメラは **color locator** "
+"として機能しています。これをFTCロボットゲームでどのように活用するか考えてみてください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:138
 msgid ""
 "*Skip the next two sections, if you already know how to use FTC previews.*"
-msgstr "*次の2つのセクションをスキップします。既にFTCプレビューの使用方法を知っている場合はこの指示を飛ばしてください。*"
+msgstr ""
+"*Skip the next two sections, if you already know how to use FTC previews.*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:141
 msgid "DS Preview"
-msgstr "Driver Stationプレビュー"
+msgstr "DS プレビュー"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:143
 msgid ""
@@ -288,25 +288,25 @@ msgid ""
 "how to view the OpenCV results with **previews**.  Previewing is essential "
 "for working with vision code."
 msgstr ""
-"Telemetryデータの説明前に、このページではOpenCV結果を確認するための ** プレビュー ** "
-"について2つのセクションを提供しています。プレビューはビジョンコードを使用する際には不可欠です。"
+"テレメトリデータについて説明する前に、このページでは **previews** を使用して OpenCV "
+"の結果を表示する方法を示す2つのセクションを提供します。プレビューは、ビジョンコードを扱う上で重要です。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:147
 msgid ""
 "On the Driver Station (DS), remain in INIT -- don't touch the Start button."
-msgstr "Driver Station（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
+msgstr "ドライバーステーション（DS）では、INITのままでいてください。スタートボタンには触れないでください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:149
 msgid ""
 "At the top right corner, touch the 3-dots menu, then ``Camera Stream``.  "
 "This shows the camera's view; tap the image to refresh it."
 msgstr ""
-"右上角に移動し、3つの点アイコンをタッチします。次に「Camera "
-"Stream」を選択します。これによりカメラの視野が表示されます；画像をタップして更新します。"
+"右上隅の3点メニューをタッチし、次に ``Camera Stream`` "
+"を選択します。これによりカメラのビューが表示されます。画像をタップして更新してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:157
 msgid "DS Camera Stream Preview"
-msgstr "Driver StationCamera Streamプレビュー"
+msgstr "DS カメラストリームプレビュー"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:159
 msgid ""
@@ -314,41 +314,41 @@ msgid ""
 " Interest (ROI), the teal (light blue) jagged line is the Blob's contour "
 "(fully inside the ROI), and the orange rectangle is the boxFit."
 msgstr ""
-"ここでのデフォルトのターゲット色はブルーです。白い長方形は興味領域（ROI）で、青緑（明るい青）の波状線はブロブの輪郭（ROIの内側に完全に含まれているもの）、そしてオレンジ色の長方形はboxFitです。"
+"ここでのデフォルトのターゲットカラーは青です。白い長方形は関心領域（ROI）で、ティール（薄い青）のギザギザの線はBlobの輪郭（ROIの完全に内部）で、オレンジの長方形はboxFitです。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:163
 msgid "For a BIG preview, touch the arrows at the bottom right corner."
-msgstr "大きなプレビューを見るには、右下の矢印をタッチしてください。"
+msgstr "大きなプレビューを表示するには、右下隅の矢印をタッチしてください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:165
 msgid ""
 "Or, select Camera Stream again, to return to the previous screen and its "
 "Telemetry."
-msgstr "または、再度Camera Streamを選択して、前の画面とTelemetryに戻りましょう。"
+msgstr "または、Camera Streamを再度選択して、前の画面とそのTelemetryに戻ります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:169
 msgid "RC Preview"
-msgstr "RCプレビュー"
+msgstr "RC プレビュー"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:171
 msgid ""
 "The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
 "This is full video, and is shown automatically on the screen of an RC phone."
 msgstr ""
-"Robot "
-"Controller（RC）デバイスでもプレビューを生成し、「LiveView」と呼びます。これはフルビデオで、自動的にRCスマホの画面に表示されます。"
+"Robot Controller (RC) デバイスは、 ``LiveView`` "
+"と呼ばれるプレビューも作成します。これはフルビデオであり、RCフォンの画面に自動的に表示されます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:179
 msgid "Image of a LiveView stream"
-msgstr "ライブビューの画像"
+msgstr "LiveViewストリームの画像"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:179
 msgid "LiveView stream"
-msgstr "ライブビュー配信"
+msgstr "LiveView ストリーム"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:181
 msgid "The above preview is from a REV Control Hub."
-msgstr "上記のプレビューは、REV Control Hubから取得しています。"
+msgstr "上記のプレビューはREV Robotics Control Hubからのものです。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:183
 msgid ""
@@ -357,9 +357,9 @@ msgid ""
 "\"screen copy\") to see the preview on a laptop or computer that's connected"
 " via Wi-Fi to the Control Hub."
 msgstr ""
-"物理的な画面がなく、因此、HDMI モニターを接続する ** か ** 、Wi-Fi でControl "
-"Hubに接続されたノートパソコンやコンピュータ上でプレビューを見るためにオープンソースの `scrcpy "
-"<https://github.com/Genymobile/scrcpy>`_ (「スクリーンコピー」と呼ばれる) を使用する必要があります。"
+"物理的な画面はないため、HDMIモニターを接続して、オープンソースの `scrcpy "
+"<https://github.com/Genymobile/scrcpy>`_ （「スクリーンコピー」と呼ばれる）を使用して、Wi-"
+"Fi経由でControl Hubに接続されたPCやコンピュータでプレビューを見る必要があります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:189
 msgid "Basic Telemetry Data"
@@ -367,7 +367,7 @@ msgstr "基本的なTelemetryデータ"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:191
 msgid "Let's look closer at the DS telemetry:"
-msgstr "LET'S look closer at the DS telemetry:"
+msgstr "DSのTelemetryを詳しく見てみましょう："
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:198
 msgid "Image of telemetry output"
@@ -375,7 +375,7 @@ msgstr "Telemetry出力の画像"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:198
 msgid "Locator Telemetry"
-msgstr "ロケーターのTelemetry"
+msgstr "ロケーターテレメトリ"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:200
 msgid ""
@@ -383,8 +383,7 @@ msgid ""
 "default target color BLUE.  You could probably move your camera to achieve "
 "the same result - with the help of previews."
 msgstr ""
-"この例では、興味領域（ROI）にはデフォルトのターゲット色ブルーの1つのブロブしか含まれていません。カメラを移動して同じ結果を得られるかもしれません -"
-" プレビューを使用して。"
+"この例では、関心領域（ROI）にはデフォルトのターゲットカラーである青色のブロブが1つだけ含まれています。同様の結果を得るために、プレビューを利用してカメラを移動させることもできるでしょう。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:204
 msgid ""
@@ -392,6 +391,8 @@ msgid ""
 "boxFit rectangle.  With the origin at the full image's top left corner, X "
 "increases to the right and Y increases downward."
 msgstr ""
+"**first column** は、boxFit矩形の **Center** の(X, "
+"Y)位置を示します。原点はフルイメージの左上隅にあり、Xは右に向かって増加し、Yは下に向かって増加します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:208
 msgid ""
@@ -401,12 +402,15 @@ msgid ""
 "tool to display multiple Blobs in descending order of Area (largest is "
 "first)."
 msgstr ""
+"**second column** は、Blob（輪郭、boxFitではない）のピクセル単位の **Area** "
+"を表示します。デフォルトでは、Sample Op Modeは50から20,000ピクセルの間のBlobを表示するために **filter** "
+"を使用します。また、デフォルトでは、Sampleは面積の降順（最大が最初）で複数のBlobを表示するために **sort** ツールを使用します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:213
 msgid ""
 "The **third column** shows the **Density** of the Blob contour.  From the "
 "Sample comments:"
-msgstr ""
+msgstr "**third column** は Blob の輪郭の **Density** を示しています。サンプルのコメントから："
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:218
 msgid ""
@@ -414,22 +418,24 @@ msgid ""
 "put a rubber band around the contour you would get the \"Convex Hull\" of "
 "the contour.  The density is the ratio of Contour-area to Convex Hull-area.*"
 msgstr ""
-"* ブロブの密度は、コンtourがどれだけ「満たされているか」を示します。コンtourにゴムバンドを巻きつけると、「Convex "
-"Hull」が得られます。密度は、コンtour面積に対するConvex Hull面積の比です.*"
+"*A blob's density is an indication of how \"full\" the contour is.  If you "
+"put a rubber band around the contour you would get the \"Convex Hull\" of "
+"the contour.  The density is the ratio of Contour-area to Convex Hull-area.*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:223
 msgid ""
 "The **fourth column** shows the **Aspect Ratio of the boxFit**, the best-fit"
 " rectangle around the contour:"
 msgstr ""
+"**fourth column** は、輪郭の周りの最適な矩形である **Aspect Ratio of the boxFit** を示しています。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:228
 msgid ""
 "*A blob's Aspect Ratio is the ratio of boxFit long side to short side.  A "
 "perfect Square has an Aspect Ratio of 1.  All others are > 1.*"
 msgstr ""
-"* ブロブのアスペクト比は、boxFit の長辺と短辺の比率です。完全な正方形の場合、アスペクト比は 1 になります。それ以外の場合はすべて 1 "
-"より大きいです。 *"
+"*A blob's Aspect Ratio is the ratio of boxFit long side to short side.  A "
+"perfect Square has an Aspect Ratio of 1.  All others are > 1.*"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:233
 msgid ""
@@ -437,6 +443,8 @@ msgid ""
 "**tilted** at some angle, namely not horizontal.  This will be discussed "
 "more in a later page."
 msgstr ""
+"boxFitはROI内に留まる必要はありません。また、boxFitは特定の角度、すなわち水平でない場合に **tilted** "
+"になることがあります。これについては後のページでさらに詳しく説明します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:237
 msgid ""
@@ -444,30 +452,30 @@ msgid ""
 " Locator (Round Blobs) <../color-locator-round-blobs/color-locator-round-"
 "blobs>`."
 msgstr ""
-"第五列と第六列は、後述する :doc:`色検出器（円形ブロブ）<../color-locator-round-blobs/color-locator-"
-"round-blobs>` のページで説明されています。"
+"第五および第六の列については、後のページである :doc:`Color Locator (Round Blobs) <../color-locator-"
+"round-blobs/color-locator-round-blobs>` に記載されています。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:241
 msgid "Blob Formation"
-msgstr "ブロブ形成"
+msgstr "Blobの形成"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:243
 msgid "So far these examples have shown a **single Blob** formed by OpenCV:"
-msgstr "これまでの例では、OpenCV によって形成される **単一のBlob** が示されています："
+msgstr "これまでの例では、OpenCVによって形成された **single Blob** が示されています。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:250
 msgid "Boxfit and detection within ROI"
-msgstr "ROI内のボックスフィットと検出"
+msgstr "ROI内でのボックスフィットと検出"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:250
 msgid "Single blob discovery"
-msgstr "単一のブロブ検出"
+msgstr "単一のブロブ発見"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:252
 msgid ""
 "But OpenCV can form and return **multiple Blobs** in a single set of "
 "results:"
-msgstr "しかし、OpenCVは一組の結果で複数の **Blob** を作成し、返すことができます："
+msgstr "しかし、OpenCVは単一の結果セットで **multiple Blobs** を形成して返すことができます："
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:259
 msgid "Two blobs detected"
@@ -481,23 +489,21 @@ msgstr "2つのブロブ発見"
 msgid ""
 "Without controls, OpenCV can easily form a **high number of Blobs** (at "
 "least 12 here):"
-msgstr "コントロールが無ければ、OpenCVは容易に **多くのブロブ（Blob）** を形成することができます（ここでは少なくとも12個です）："
+msgstr "制御なしでは、OpenCVは簡単に **high number of Blobs** （ここでは少なくとも12）を形成することができます："
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:269
 msgid "Multiple blob discovery"
-msgstr "複数のブロブ検出"
+msgstr "複数のブロブの発見"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:271
 msgid ""
 "And as mentioned above, some of those Blobs might have a **boxFit tilted** "
 "at some angle:"
-msgstr ""
-"And as mentioned above, some of those Blobs might have a ** boxFit tilted **"
-" at some angle:"
+msgstr "上記のように、一部のブロブには特定の角度で **boxFit tilted** が含まれている可能性があります。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:279
 msgid "Tilted Boxfit"
-msgstr "傾斜したボックスフィット"
+msgstr "傾斜ボックスフィット"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:281
 msgid ""
@@ -505,16 +511,19 @@ msgid ""
 "**editing the OpMode's default settings**, and **accessing more OpenCV "
 "features** not covered in the Sample OpMode."
 msgstr ""
+"このチュートリアルの **next two pages** は、 **editing the OpMode's default settings** "
+"によってこれらのシナリオを管理する方法を示し、サンプル OpMode ではカバーされていない **accessing more OpenCV "
+"features** についても説明します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:286
 msgid "Using boxFit Data for Position"
-msgstr "ボックスフィットデータを使用した位置指定"
+msgstr "位置のための boxFit データの使用"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:288
 msgid ""
 "A team's Autonomous code can evaluate boxFit data to navigate or guide the "
 "robot on the field."
-msgstr "チームの自動運転コードは、ボックスフィットデータを評価し、ロボットをフィールド上でナビゲートまたはガイドすることができます。"
+msgstr "チームのAutonomousコードは、boxFitデータを評価してロボットをフィールド上でナビゲートまたは誘導することができます。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:291
 msgid ""
@@ -522,12 +531,12 @@ msgid ""
 "camera** is your **intake mechanism**, perhaps a top grabber, sideways claw "
 "or spinner."
 msgstr ""
-"カメラがロボットの前側に向けられていると想像してみてください。 ** カメラの下部 ** には ** 投入メカニズム ** "
-"があります。たとえば、上部把持器、サイドワードクロー、またはスピンナーなどが含まれる可能性があります。"
+"ロボットにカメラが搭載されており、前方を向いていると想像してください。 **Underneath the camera** はあなたの **intake"
+" mechanism** であり、おそらく上部グラバー、横向きのクロー、またはスピナーです。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:300
 msgid "Game piece targeting"
-msgstr "ゲームピースのターゲティング"
+msgstr "ゲームピースターゲティング"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:302
 msgid ""
@@ -535,42 +544,41 @@ msgid ""
 "this data to **position the robot** directly in front of the game piece, for"
 " a better chance to collect it?"
 msgstr ""
-"OpenCVはこのオレンジ色のボックスフィットのデータを報告します。あなたのコードは、ゲームピースの直接前までロボットを ** 位置調整 ** "
-"するために、このデータを使用できますか？これにより、ゲームピースをより確実に取得する機会が増します。"
+"OpenCVはこのオレンジのboxFitのデータを報告します。このデータを使用して、ゲームピースの真ん前で **position the robot**"
+" を直接行うことができますか？より良い収集のチャンスのために。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:306
 msgid "How would you do it?"
-msgstr "どのようにしてやると思いますか？"
+msgstr "どのように行いますか？"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:309
 msgid "Using boxFit Data for Manipulation"
-msgstr "ボックスフィットデータを使用した操作"
+msgstr "操作のための boxFit データの使用"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:311
 msgid ""
 "For advanced teams: imagine your webcam is on a grabber arm, looking down "
 "into the Submersible (from INTO THE DEEP)."
-msgstr ""
-"先進チーム用：あなたのウェブカメラが把持アームに取り付けられて、サムシングルス（INTO THE "
-"DEEPから）の下に向けられていることを想像してください。"
+msgstr "上級チーム向け：ウェブカメラがグラバーアームに取り付けられ、潜水艇（INTO THE DEEPの）を見下ろしている様子を想像してください。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:319
 msgid "Targeting in clutter"
-msgstr "混在状態でのターゲットing"
+msgstr "混雑した環境でのターゲティング"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:321
 msgid ""
 "Could the data from this boxFit (orange rectangle) help you **grab only the "
 "Blue Sample**\\ ?"
-msgstr "このボックスフィット（オレンジの長方形）から得られるデータは、 **青いサンプルだけを取得** できるかどうか手助けになりますか？"
+msgstr ""
+"このボックスフィット（オレンジの長方形）からのデータは、あなたの **grab only the Blue Sample**\\ に役立ちますか？"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:324
 msgid "Could this help in Autonomous **and** TeleOp?"
-msgstr "自律走行 **と** 遠隔操作でこれを利用できますか？"
+msgstr "これはAutonomous **and** TeleOpに役立つでしょうか？"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:327
 msgid "More Documentation"
-msgstr "大半の文档"
+msgstr "さらにドキュメント"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:329
 msgid ""
@@ -578,8 +586,8 @@ msgid ""
 "explore/color-locator-explore>` covers **editing the OpMode's existing "
 "default settings**."
 msgstr ""
-"このチュートリアルの次のページである :doc:`探索 <../color-locator-explore/color-locator-"
-"explore>` では、 ** OpMode の既定設定を編集 ** について説明しています。"
+"このチュートリアルの次のページである :doc:`Explore <../color-locator-explore/color-locator-"
+"explore>` では **editing the OpMode's existing default settings** について説明します。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:332
 msgid ""
@@ -587,17 +595,18 @@ msgid ""
 "challenge/color-locator-challenge>` shows how to **access more OpenCV "
 "features** not covered in the Sample OpMode."
 msgstr ""
-"その後、:doc:`挑戦 <../color-locator-challenge/color-locator-challenge>` "
-"という次のページでは、サンプルオモードでカバーされていないより多くのOpenCVの機能を ** アクセスする方法 ** について説明しています。"
+"その後、 :doc:`Challenge <../color-locator-challenge/color-locator-challenge>` "
+"というページでは、Sample OpModeでカバーされていない **access more OpenCV features** "
+"の方法が示されています。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:336
 msgid ""
 "Then a page called :doc:`Color Locator (Round Blobs) <../color-locator-"
 "round-blobs/color-locator-round-blobs>` covers detection of round objects."
 msgstr ""
-"次に、:doc:`円形オブジェクトの検出 <../color-locator-round-blobs/color-locator-round-"
-"blobs>` というページが説明されます。"
+"次に、 :doc:`Color Locator (Round Blobs) <../color-locator-round-blobs/color-"
+"locator-round-blobs>` というページでは、円形の物体の検出について説明しています。"
 
 #: ../../source/color_processing/color-locator-discover/color-locator-discover.rst:341
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "*質問、コメントや訂正はwestsiderobotics@verizon.netまで*"
+msgstr "*Questions, comments and corrections to westsiderobotics@verizon.net*"

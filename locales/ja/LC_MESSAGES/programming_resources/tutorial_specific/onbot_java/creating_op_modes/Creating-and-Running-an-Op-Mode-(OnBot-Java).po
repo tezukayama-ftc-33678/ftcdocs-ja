@@ -6,26 +6,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:2
 msgid "Creating and Running an Op Mode :bdg-info:`OBJ`"
-msgstr "OpModeの作成と実行 :bdg-info:`OBJ`"
+msgstr "Op Modeの作成と実行 :bdg-info:`OBJ`"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:5
 msgid "The Java Programming Language"
-msgstr "Java プログラミング言語"
+msgstr "Javaプログラミング言語"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:7
 msgid ""
@@ -35,25 +29,26 @@ msgid ""
 "Information about the Blocks Programming Tool can be found at the following "
 "link:"
 msgstr ""
-"このチュートリアルでは、Javaプログラミング言語についての固有の理解があることを前提としています。Javaがわからない場合は、視覚的な開発ツールであるブロック型プログラミングツールを使用することを検討してください。ブロック型プログラmingツールに関する情報は以下のリンクで確認できます:"
+"このチュートリアルでは、Javaプログラミング言語について十分な理解があることを前提としています。Javaを知らない場合は、視覚的な開発ツールであるBlocks"
+" Programming Toolの使用を検討してください。Blocks Programming Toolに関する情報は、以下のリンクで確認できます："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:13
 msgid ":doc:`Blocks Tutorial <../../../blocks/Blocks-Tutorial>`"
-msgstr ":doc:`ブロックチュートリアル <../../../blocks/Blocks-Tutorial>`"
+msgstr ":doc:`Blocks Tutorial <../../../blocks/Blocks-Tutorial>`"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:15
 msgid ""
 "Or, you can learn the Java programming language by completing the Oracle "
 "Java Tutorial, which is available at the following address:"
-msgstr "または、次に示すアドレスで Oracle Java チュートリアル を完了することで Java プログラミング言語を学ぶことができます。"
+msgstr "または、以下のアドレスで入手可能なOracle Javaチュートリアルを完了することで、Javaプログラミング言語を学ぶことができます："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:18
 msgid "https://docs.oracle.com/javase/tutorial/"
-msgstr "https://docs.oracle.com/javase/tutorials/"
+msgstr "https://docs.oracle.com/javase/tutorial/"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:21
 msgid "What's an Op Mode?"
-msgstr "OpModeとは何ですか？"
+msgstr "Op Modeとは何ですか？"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:23
 msgid ""
@@ -65,9 +60,13 @@ msgid ""
 " for their robot. These op modes run on the Robot Controller phone after "
 "being selected on the DRIVER STATION device."
 msgstr ""
-"一般的なFIRST Tech "
-"Challengeのマッチ中、各チームのロボットは得点のために様々なタスクを実行する必要があります。例えば、チームはロボットに競技場の白線を追跡し、その後、マッチ中にゲーム要素を自動でゴールにスコアリングさせたいかもしれません。各チームは、「OpMode」と呼ばれるプログラムを作成し、ロボットの動作を指定します。これらのOpModeは、DRIVER"
-" STATIONデバイスから選択された後、Robot Controllerフォン上で実行されます。"
+"通常のFIRST Tech Challengeのマッチでは、チームのロボットはポイントを獲得するためにさまざまなタスクを実行する必要があります。\n"
+"\n"
+"例えば、チームはロボットに競技フィールドの白いラインに沿って移動し、マッチ中に自律的にゲーム要素をゴールにスコアすることを望むかもしれません。\n"
+"\n"
+"チームはロボットの動作を指定するために *op modes* （「オペレーショナルモード」を意味します）と呼ばれるプログラムを作成します。\n"
+"\n"
+"これらのオペレーショナルモードは、DRIVER STATIONデバイスで選択された後、Robot Controllerの電話で実行されます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:31
 msgid ""
@@ -76,13 +75,13 @@ msgid ""
 "document explains how to use the OnBot Java Programming Tool to write an op "
 "mode for a robot."
 msgstr ""
-"FIRST Tech "
-"Challengeに参加しているチームは、独自のOpModeを作成するために使用できる種類のプログラミングツールがあります。このドキュメントでは、OnBot"
-" Java プログラミングツールを使用してロボット用のOpModeを書く方法について説明します。"
+"FIRST Tech Challengeに参加しているチームは、自分たちのOp "
+"Modeを作成するために使用できるさまざまなプログラミングツールを持っています。このドキュメントでは、ロボットのOp Modeを書くためにOnBot "
+"Javaプログラミングツールを使用する方法について説明します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:37
 msgid "The OnBot Java Programming Tool"
-msgstr "OnBot Javaプログラミングツール"
+msgstr "OnBot Java プログラミングツール"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:39
 msgid ""
@@ -93,10 +92,13 @@ msgid ""
 "are compiled very quickly on the Robot Controller and then loaded "
 "dynamically by the Robot Controller during run time."
 msgstr ""
-"OnBot Javaプログラミングツールは、Robot "
-"Controllerフォンによって提供されるユーザーフレンドリーなプログラミングツールです。ユーザーはこのツールを使用して、自前のOpModeを作成し、その後、直接Robot"
-" Controllerに保存することができます。ユーザーはJavaを使ってOpModeを書きます。OpModeはRobot "
-"Controller上で非常に迅速にコンパイルされ、実行時にRobot Controllerによって動的に読み込まれます。"
+"OnBot Javaプログラミングツールは、Robot Controllerの電話によって提供される使いやすいプログラミングツールです。\n"
+"\n"
+"ユーザーはこのツールを使用してロボットのカスタムOp Modeを作成し、これらのOp Modeを直接Robot Controllerに保存することができます。\n"
+"\n"
+"ユーザーはJavaを使用して自分のOp Modeを記述します。\n"
+"\n"
+"Op ModeはRobot Controller上で非常に迅速にコンパイルされ、その後、実行時にRobot Controllerによって動的にロードされます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:52
 msgid ""
@@ -105,15 +107,17 @@ msgid ""
 "web browser installed that is used to access the OnBot Java Programming "
 "Tool."
 msgstr ""
-"このドキュメントの例では、Robot "
-"Controllerに接続するためにWindowsのノートパソコンを使用しています。このWindowsのノートパソコンにはJavaScriptをサポートしたウェブブラウザがインストールされており、OnBot"
-" Javaプログラミングツールへのアクセスに使用されます。"
+"このドキュメントの例では、Windowsのノートパソコンを使用してRobot "
+"Controllerに接続します。このWindowsのノートパソコンには、OnBot "
+"Javaプログラミングツールにアクセスするために使用されるJavaScript対応のウェブブラウザがインストールされています。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:62
 msgid ""
 "Note that the process used to create and edit an op mode is identical if you"
 " are using an Android phone as your Robot Controller."
-msgstr "Android端末を使用してRobot Controllerとする場合でも、OpModeの作成や編集に使用するプロセスは同じです。"
+msgstr ""
+"ロボットコントローラーとしてAndroidフォンを使用している場合、Op "
+"Modeを作成および編集するために使用されるプロセスは同一であることに注意してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:70
 msgid ""
@@ -122,8 +126,9 @@ msgid ""
 "the OnBot Java Programming Tool. The instructions included in this document,"
 " however, assume that you are using a Windows laptop."
 msgstr ""
-"Note that if you prefer, you can use an alternate device such as an Apple Mac laptop, Chromebook, or an iPad instead of a Windows computer to access the OnBot Java Programming Tool. The instructions included in this document, however, assume that you are using a Windows laptop."
-"です。"
+"注意してください。もしご希望であれば、Windowsコンピュータの代わりにApple "
+"Macのラップトップ、Chromebook、またはiPadなどの別のデバイスを使用してOnBot "
+"Javaプログラミングツールにアクセスすることができます。ただし、このドキュメントに含まれる指示は、Windowsラップトップを使用していることを前提としています。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:75
 msgid ""
@@ -132,14 +137,12 @@ msgid ""
 " have successfully connected your laptop to the Progam & Manage server on "
 "the Robot Controller device."
 msgstr ""
-"このウィキのセクションでは、あなたがすでにAndroidデバイスとロボットハードウェアを設定し、構成したことを前提としています。また、あなたのノート북コンピュータがRobot"
-" Controller装置上のプログラム&管理サーバーに成功して接続されたことも前提としています。"
+"このウィキのこのセクションでは、すでにAndroidデバイスとロボットハードウェアを設定および構成していることを前提としています。また、PCがRobot"
+" Controllerデバイス上のProgram & Manageサーバーに正常に接続されていることも前提としています。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:81
 msgid "Creating Your First Op Mode"
-msgstr ""
-"FIRSTロボット開発ガイド"
-"Creating Your First Op Mode"
+msgstr "最初のOp Modeを作成する"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:83
 msgid ""
@@ -148,13 +151,13 @@ msgid ""
 "mode. In this section, you will use the OnBot Java Programming Tool to "
 "create the program logic for your first op mode."
 msgstr ""
-"もしRobot "
-"Controllerの「プログラム＆管理」無線ネットワークにあなたのノートブックを成功裏に接続した場合、最初のOpModeを作成する準備はできています。このセクションでは、OnBot"
-" Javaプログラミングツールを使用して、最初のOpModeのプログラムロジックを作成します。"
+"ロボットコントローラーのProgram & ManageワイヤレスネットワークにPCを正常に接続した場合、最初のOp "
+"Modeを作成する準備が整いました。このセクションでは、OnBot Javaプログラミングツールを使用して、最初のOp "
+"Modeのプログラムロジックを作成します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:90
 msgid "Creating Your First Op Mode Instructions"
-msgstr "初めてのOpMode作成手順"
+msgstr "初めての Op Mode の作成手順"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:92
 msgid ""
@@ -162,8 +165,8 @@ msgid ""
 "Chrome) and find the web address that is displayed on the Program & Manage "
 "screen of the Robot Controller."
 msgstr ""
-"1. ラップトップ上でウェブブラウザを起動し（FIRSTではGoogle "
-"Chromeを使用することを推奨します）并且找到机器人控制器の「プログラム＆管理」画面で表示されているウェブアドレスです。"
+"1. PCでウェブブラウザを起動し（FIRSTはGoogle Chromeの使用を推奨しています）、Robot "
+"Controllerのプログラムと管理画面に表示されているウェブアドレスを見つけてください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:101
 msgid ""
@@ -172,15 +175,16 @@ msgid ""
 "difference in the third octet of the IP addresses (the Control Hub has a "
 "\"43\" instead of a \"49\")."
 msgstr ""
-"注意：Robot "
-"ControllerがAndroidスマートフォンの場合、プログラムおよび管理サーバーにアクセスするためのアドレスは「192.168.49.1:8080」です。IPアドレスの第三オクテットにおける違いに注意してください（Control"
-" Hubは「43」ではなく「49」です）。"
+"注意: あなたの Robot Controller が Android スマートフォンの場合、Program & Manage "
+"サーバーにアクセスするためのアドレスは \"192.168.49.1:8080\" です。IP "
+"アドレスの第3オクテットの違いに注意してください（Control Hub では \"49\" の代わりに \"43\" があります）。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:108
 msgid ""
 "Type this web address into the address field of your browser and press "
 "RETURN to navigate to the Program & Manage web server."
-msgstr "ブラウザのアドレスフィールドにこのウェブアドレスを入力し、ENTERキーを押してプログラム＆管理ウェブサーバーに移動します。"
+msgstr ""
+"このウェブアドレスをブラウザのアドレスフィールドに入力し、RETURNキーを押してProgram & Manageウェブサーバーに移動してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:116
 msgid ""
@@ -188,14 +192,17 @@ msgid ""
 " If it is connected to the programming mode server successfully, the Robot "
 "Controller Console should be displayed."
 msgstr ""
-"2. プログラミングモードサーバに接続されているウェブブラウザを確認してください。接続が成功すれば、Robot "
-"Controllerコンソールが表示されます。"
+"2. "
+"ウェブブラウザがプログラミングモードサーバーに接続されていることを確認してください。プログラミングモードサーバーに正常に接続されている場合、Robot "
+"Controller Consoleが表示されるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:125
 msgid ""
 "3. Click on the word *OnBotJava* towards the top of the screen. This will "
 "switch the browser to OnBot Java Programming mode."
-msgstr "3. 画面の上部にある「OnBotJava」をクリックします。これでブラウザはOnBot Javaプログラミングモードに切り替わります。"
+msgstr ""
+"3. 画面の上部にある *OnBotJava* の単語をクリックします。これにより、ブラウザが OnBot Java "
+"プログラミングモードに切り替わります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:133
 msgid ""
@@ -204,8 +211,8 @@ msgid ""
 "the source code editing pane. In the lower right hand corner, there is the "
 "message pane."
 msgstr ""
-"4. OnBot Java "
-"ユーザインターフェースを確認してみてください。左側にはプロジェクトブラウザパネルがあり、右上にはソースコード編集パネルがあります。右下にはメッセージパネルがあります。"
+"4. OnBot "
+"Javaのユーザーインターフェースを見てみましょう。左側にはプロジェクトブラウザペインがあります。右上隅にはソースコード編集ペインがあります。右下隅にはメッセージペインがあります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:143
 msgid ""
@@ -214,13 +221,13 @@ msgid ""
 "has several parameters that you can configure to customize your new file."
 msgstr ""
 "5. "
-"プロジェクトブラウザパネルで「+」のシンボルを押して新しいファイルを作成します。このボタンをクリックすると、新規ファイルダイアログボックスが表示されます。このダイアログボックスでは、新しいファイルをカスタマイズするためにいくつかのパラメータを設定できます。"
+"プロジェクトブラウザペインで、「+」シンボルを押して新しいファイルを作成します。このボタンを押すと、新しいファイルのダイアログボックスが表示されます。このダイアログボックスには、新しいファイルをカスタマイズするために設定できるいくつかのパラメーターがあります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:153
 msgid ""
 "For this example, specify \"MyFIRSTJavaOpMode\" as the File Name in the New "
 "File dialog box."
-msgstr "この例では、新しいファイルダイアログボックスのファイル名に「MyFIRSTJavaOpMode」を指定します。"
+msgstr "この例では、新しいファイルのダイアログボックスでファイル名として「MyFIRSTJavaOpMode」を指定してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:155
 msgid ""
@@ -229,15 +236,16 @@ msgid ""
 "\"BlankLinearOpMode\" the OnBot Java editor will automatically generate a "
 "basic LinearOpMode framework for you."
 msgstr ""
-"サンプルドロップダウンリストコントロールを使用して、利用可能なサンプルOpModeの一覧から「BlankLinearOpMode」を選択してください（上記の図を参照）。この選択により、「BlankLinearOpMode」はOnBot"
-" Javaエディタが基本的なLinearOpModeフレームワークを自動生成します。"
+"サンプルのドロップダウンリストコントロールを使用して、利用可能なサンプルOp "
+"Modeのリストから「BlankLinearOpMode」を選択します（上記の画像を参照してください）。「BlankLinearOpMode」を選択することで、OnBot"
+" Javaエディタは自動的に基本的なLinearOpModeフレームワークを生成します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:157
 msgid ""
 "Check the option labeled \"TeleOp\" to ensure that this new file will be "
 "configured as a tele-operated (i.e., driver controlled) op mode."
 msgstr ""
-"「テレオペ」というラベルのオプションを選択して、この新しいファイルが運用手動制御（ドライバーによる制御）モードとして設定されることを確認してください。"
+"「TeleOp」とラベル付けされたオプションをチェックして、この新しいファイルがテレオペレート（すなわち、ドライバー制御）オペレーションモードとして構成されることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:159
 msgid ""
@@ -246,25 +254,27 @@ msgid ""
 " configuration file for your Robot Controller and automatically generate the"
 " code that you will need to access the configured devices in your op mode."
 msgstr ""
-"また、「設定コード для 配置ハードウェア」オプションを確認してください。このオプションが有効な場合、OnBot Java エディタはRobot "
-"Controllerのハードウェア構成ファイルをチェックし、OpModeで設定されたデバイスにアクセスするためのコードを自動生成します。"
+"また、「設定されたハードウェアのセットアップコード」オプションをチェックすることを確認してください。このオプションが有効になっている場合、OnBot "
+"JavaエディタはあなたのRobot "
+"Controllerのハードウェア構成ファイルを参照し、オプモードで設定されたデバイスにアクセスするために必要なコードを自動的に生成します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:161
 msgid "Press the \"OK\" button to create your new op mode."
-msgstr "新しいOpModeを作成するには、「OK」ボタンを押してください。"
+msgstr "「OK」ボタンを押して、新しい Op Mode を作成してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:163
 msgid ""
 "6. You should see your newly created op mode in the editing pane of the "
 "OnBot Java user interface."
-msgstr "6. OnBot Java ユーザインターフェースの編集パネルで、新しく作成したOpModeが表示されることを確認してください。"
+msgstr "6. OnBot Java ユーザーインターフェースの編集ペインに、新しく作成した Op Mode が表示されるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:171
 msgid ""
 "Congratulations, you created your first op mode! The op mode currently does "
 "not do much, but you will eventually modify it to make it more useful."
 msgstr ""
-"Congratulations、あなたは初めてのopモードを作成しました！現在のopモードにはまだ何もありませんが、最終的に有用なものに修改することになります。"
+"おめでとうございます！初めてのOp Modeを作成しました！現在、このOp "
+"Modeはあまり機能していませんが、最終的にはより便利にするために修正することになるでしょう。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:180
 msgid ""
@@ -274,19 +284,23 @@ msgid ""
 "saved op modes by right mouse clicking on the project browser to display a "
 "list of options to create, edit or delete files and folders."
 msgstr ""
-"OnBotOpModeを作成する際には、Robot "
-"Controllerに保存される.javaファイルが作成されます。画面左側のプロジェクトブラウザを使用して、保存したOpModeにアクセスできます。また、プロジェクトブラウザ上を右クリックし、ファイルやフォルダの作成・編集・削除などのオプションを選べるリストを表示することにより、保存したOpModeを組織化することも可能です。"
+"OnBot Op Modeを作成すると、Robot "
+"Controllerに保存される.javaファイルが作成されることに注意してください。画面の左側にあるプロジェクトブラウザを使用して、保存したOp "
+"Modeにアクセスできます。また、プロジェクトブラウザを右クリックすることで、ファイルやフォルダーを作成、編集、削除するためのオプションのリストを表示し、保存したOp"
+" Modeを整理することもできます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:187
 msgid ""
 "Also, note that the OnBot Java editor automatically saves your op mode as "
 "you are editing it, provided that you are connected to the Program & Manage "
 "server."
-msgstr "また、OnBot Javaエディタは編集中にプログラムサーバーに接続されている場合、OpModeを自動的に保存します。"
+msgstr ""
+"また、Program & Manageサーバーに接続している場合、OnBot "
+"Javaエディタは編集中に自動的にオプモードを保存することに注意してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:192
 msgid "Examining the Structure of Your Op Mode"
-msgstr "あなたのOpモードの構造を検討する"
+msgstr "Op Modeの構造を調査する"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:194
 msgid ""
@@ -296,9 +310,8 @@ msgid ""
 "(such as a while loop) to have the Robot Controller repeat (or iterate) "
 "certain tasks within a linear op mode."
 msgstr ""
-"Robot Controllerが実行するタスクの一覧と考えると、OpModeを理解しやすくなります。線形のOpModeでは、Robot "
-"Controllerはこのタスク一覧を順次処理します。ユーザーはまた、制御ループ（例えば while "
-"ループ）を使用して、線形のOpMode内で特定のタスクを繰り返し（または反復）させることができます。"
+"Op "
+"Modeをロボットコントローラーが実行するタスクのリストとして考えると便利です。LinearOpModeの場合、ロボットコントローラーはこのタスクのリストを順次処理します。ユーザーは、制御ループ（例えばwhileループ）を使用して、LinearOpMode内で特定のタスクを繰り返す（または反復する）こともできます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:205
 msgid ""
@@ -307,8 +320,8 @@ msgid ""
 "a team member selects the op mode called \"MyFIRSTJavaOpMode\" from the list"
 " of available op modes for this Robot Controller."
 msgstr ""
-"もしOpModeをロボットの指示リストと考えるなら、あなたが作成したこの一連の指示は、チームメンバーが「MyFIRSTJavaOpMode」という名前のOpModeを選択したときに、このRobot"
-" Controllerで利用可能なOpModeの一覧からロボットによって実行されます。"
+"オプモードをロボットの指示のリストとして考えると、あなたが作成したこの指示セットは、チームメンバーがこのRobot "
+"Controllerの利用可能なオプモードのリストから「MyFIRSTJavaOpMode」というオプモードを選択するたびにロボットによって実行されます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:210
 msgid ""
@@ -316,7 +329,8 @@ msgid ""
 "the op mode text (minus some comments, the package definition, and some "
 "import package statements):"
 msgstr ""
-"あなたの新しく作成したOpModeの構造を確認しましょう。以下は、一部のコメントやパッケージ定義、およびいくつかのインポートパッケージステートメントを除いたOpModeのテキストです："
+"新しく作成したOp Modeの構造を見てみましょう。以下はOp "
+"Modeのテキストのコピーです（コメント、一部のパッケージ定義、およびいくつかのインポートパッケージ文を除いています）："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:248
 msgid ""
@@ -324,14 +338,15 @@ msgid ""
 "class definition. This annotation states that this is a tele-operated (i.e.,"
 " driver controlled) op mode:"
 msgstr ""
-"OpMode開始時に、クラス定義の前にアノテーションが発生します。このアノテーションは、これはテレオペレート（つまり、ドライバー制御）のOpModeであることを示しています："
+"Op "
+"Modeの開始時に、クラス定義の前にアノテーションが発生します。このアノテーションは、これはテレオペレーション（すなわち、ドライバー制御）オペレーションモードであることを示しています。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:256
 msgid ""
 "If you wanted to change this op mode to an autonomous op mode, you would "
 "replace the ``@TeleOp`` with an ``@Autonomous`` annotation instead."
 msgstr ""
-"もしこのOpModeを自走モードに変更したい場合、``@TeleOp``は``@Autonomous`` アノテーションに置き換える必要があります。"
+"このオプモードを自律オプモードに変更したい場合は、 ``@TeleOp`` を ``@Autonomous`` アノテーションに置き換えます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:259
 msgid ""
@@ -339,7 +354,8 @@ msgid ""
 " In this example, the op mode name is called \"MyFIRSTJavaOpMode\" and it "
 "inherits characteristics from the LinearOpMode class."
 msgstr ""
-"サンプルコードからわかるように、OpModeはJavaクラスとして定義されています。この例では、OpModeの名前は「MyFIRSTJavaOpMode」と呼ばれ、LinearOpModeクラスから特性を継承しています。"
+"サンプルコードから、Op ModeがJavaクラスとして定義されていることがわかります。この例では、Op "
+"Modeの名前は「MyFIRSTJavaOpMode」と呼ばれ、LinearOpModeクラスから特性を継承しています。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:267
 msgid ""
@@ -348,8 +364,8 @@ msgid ""
 " configured devices that the OnBot Java editor detected in the configuration"
 " file of your Robot Controller."
 msgstr ""
-"OnBot Javaエディタで作成されたこのOpMode用の5つのプライベートメンバ変数も確認できます。これらの変数は、OnBot "
-"JavaエディタがRobot Controllerの設定ファイル内で検出した5つの構成済みデバイスへの参照を保持します。"
+"OnBot JavaエディタがこのOp Modeのために5つのプライベートメンバー変数を作成したことも確認できます。これらの変数は、OnBot "
+"JavaエディタがあなたのRobot Controllerの構成ファイルで検出した5つの構成済みデバイスへの参照を保持します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:280
 msgid ""
@@ -357,7 +373,7 @@ msgid ""
 "LinearOpMode must implement this method. This method gets called when a user"
 " selects and runs the op mode."
 msgstr ""
-"次に、オーバライドされたメソッドrunOpModeがあります。LinearOpModeのすべてのOpModeはこのメソッドを実装する必要があります。このメソッドは、ユーザーがOpModeを選択して実行したときに呼び出されます。"
+"次に、runOpModeというオーバーライドされたメソッドがあります。LinearOpMode型のすべてのオプモードは、このメソッドを実装する必要があります。このメソッドは、ユーザーがオプモードを選択して実行したときに呼び出されます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:289
 msgid ""
@@ -365,13 +381,14 @@ msgid ""
 "hardwareMap to get references to the hardware devices that are listed in the"
 " Robot Controller's configuration file:"
 msgstr ""
-"RUN_MODEメソッドの開始時に、OpModeはRobot_Controllerの設定ファイルに記載されたハードウェアデバイスへの参照を得るために、hardwareMapという名前のオブジェクトを使用します："
+"runOpModeメソッドの開始時に、Op ModeはhardwareMapという名前のオブジェクトを使用して、Robot "
+"Controllerの構成ファイルに記載されているハードウェアデバイスへの参照を取得します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:301
 msgid ""
 "The hardwareMap object is available to use in the runOpMode method. It is an"
 " object of type HardwareMap class."
-msgstr "HardwareMapオブジェクトは、runOpModeメソッドで使用できます。これはHardwareMapクラスのオブジェクトです。"
+msgstr "hardwareMapオブジェクトは、runOpModeメソッド内で使用可能です。これは、HardwareMapクラスのオブジェクトです。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:304
 msgid ""
@@ -384,7 +401,11 @@ msgid ""
 "names do not match, the op mode will throw an exception indicating that it "
 "cannot find the device."
 msgstr ""
-"特定のデバイスへの参照を取得する際、OpMode内のHardwareMap.getメソッドの二番目の引数で指定した名前は、構成ファイル内でデバイスが定義された名前に一致する必要があります。例えば、「motorTest」という名前のDCモータを作成した場合（構成ファイル内）、このモータをhardwareMapオブジェクトから取得する際には同じ名前を使用（大文字小文字区別有り）なければなりません。もし名前が一致しない場合は、デバイスを見つけることができないと示す例外が発生します。"
+"オプモードで特定のデバイスへの参照を取得しようとする際、HardwareMap.getメソッドの第二引数として指定する名前は、構成ファイルでデバイスを定義する際に使用した名前と一致する必要があることに注意してください。\n"
+"\n"
+"例えば、「motorTest」という名前のDCモーターを持つ構成ファイルを作成した場合、ハードウェアマップオブジェクトからこのモーターを取得するためには、この同じ名前（大文字と小文字を区別します）を使用する必要があります。\n"
+"\n"
+"名前が一致しない場合、オプモードはデバイスを見つけられないことを示す例外をスローします。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:313
 msgid ""
@@ -396,10 +417,15 @@ msgid ""
 "STATION. Then it calls the waitForStart method, to wait until the user "
 "pushes the start button on the driver station to begin the op mode run."
 msgstr ""
-"例の次の数行で、OpModeはユーザーに「START」ボタンを押すように促します。runOpModeメソッドで利用可能なもう1つのオブジェクトを使用しています。このオブジェクトはTelemetryと呼ばれ、OpModeはaddDataメソッドを使ってDRIVER"
-" STATIONに送信するメッセージを追加します。その後、OpModeはupdateメソッドを呼び出して、メッセージをDRIVER "
-"STATIONに送信します。最後に、waitForStartメソッドを呼び出し、ユーザーがDRIVER "
-"STATIONの「START」ボタンを押すまで待機し、OpModeの実行を開始します。"
+"次の例のいくつかの文では、Op Modeがユーザーにスタートボタンを押して続行するように促します。\n"
+"\n"
+"これは、runOpModeメソッドで利用可能な別のオブジェクトを使用します。\n"
+"\n"
+"このオブジェクトはTelemetryと呼ばれ、Op ModeはaddDataメソッドを使用してDRIVER STATIONに送信するメッセージを追加します。\n"
+"\n"
+"その後、Op Modeはupdateメソッドを呼び出してメッセージをDRIVER STATIONに送信します。\n"
+"\n"
+"次に、waitForStartメソッドを呼び出して、ユーザーがドライバー ステーションのスタートボタンを押すのを待ち、Op Modeの実行を開始します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:329
 msgid ""
@@ -407,7 +433,8 @@ msgid ""
 " that the robot will not begin executing the op mode until the driver pushes"
 " the start button."
 msgstr ""
-"すべての線形OpModeには、ドライバーがスタートボタンを押すまでロボットがOpModeの実行を開始しないようにwaitForStartステートメントを含めることが推奨されます。"
+"すべてのLinearOpModeにはwaitForStartステートメントを含める必要があります。これにより、ドライバーがスタートボタンを押すまでロボットがOp"
+" Modeの実行を開始しないことが保証されます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:333
 msgid ""
@@ -415,8 +442,8 @@ msgid ""
 " keeps iterating in this loop until the op mode is no longer active (i.e., "
 "until the user pushes the stop button on the DRIVER STATION):"
 msgstr ""
-"開始コマンドが受信されると、OpModeはwhileループに入り、このループで繰り返し処理を続ける。これはOpModeが無効になるまで続き、つまりDRIVER"
-" STATIONの停止ボタン（「STOP」）が押されるまで続けます："
+"開始コマンドが受信されると、Op Modeはwhileループに入り、このループ内でOp "
+"Modeがアクティブでなくなるまで（すなわち、ユーザーがDRIVER STATIONの停止ボタンを押すまで）繰り返し処理を行います。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:346
 msgid ""
@@ -424,12 +451,12 @@ msgid ""
 "telemetry messages with the index of \"Status\" and the message of "
 "\"Running\" to be displayed on the DRIVER STATION."
 msgstr ""
-"opモードがwhileループを繰り返し実行するにつれて、DRIVER "
-"STATIONに「状態」のインデックスと「実行中」というメッセージが表示されるTelemetryメッセージを継続して送信します。"
+"オプモードがwhileループ内で繰り返されると、\"Status\"のインデックスと\"Running\"のメッセージを含むTelemetryメッセージをDRIVER"
+" STATIONに表示するために送信し続けます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:351
 msgid "Building Your Op Mode"
-msgstr "あなたのOpModeの構築"
+msgstr "Op Modeの構築"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:353
 msgid ""
@@ -439,9 +466,9 @@ msgid ""
 "op mode and convert it from a Java text file to a binary that can be loaded "
 "dynamically into the Robot Controller app."
 msgstr ""
-"Robot Controllerのファイルシステムに.javaファイルを自動保存するように、OpModeを作成または編集するとOnBot "
-"Javaエディタが動作します。しかし、Robot "
-"Controller上で変更を実行する前に、まずOpModeをビルドし、Javaテキストファイルから動的にロードできるバイナリに変換する必要があります。"
+"Op Modeを作成または編集すると、OnBot Javaエディタは自動的に.javaファイルをRobot "
+"Controllerのファイルシステムに保存します。しかし、Robot Controllerで変更を実行する前に、まずOp "
+"Modeをビルドし、JavaテキストファイルからRobot Controllerアプリに動的にロードできるバイナリに変換する必要があります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:359
 msgid ""
@@ -450,8 +477,8 @@ msgid ""
 "to start the build process. Note that the build process will build **all of "
 "the .java files** on your Robot Controller."
 msgstr ""
-"もし、あなたのOpModeに満足している場合で、構築を開始する準備ができているなら、「Build」ボタン（レンチのシンボルがついたボタン、下記の画像を参照）を押して構築プロセスを開始してください。なお、構築プロセスはあなたのRobot"
-" Controller上の **すべての.javaファイル** を構築します。"
+"オプモードに満足し、ビルドの準備ができたら、ビルドプロセスを開始するためにビルドボタン（レンチのシンボルが付いたボタン、下の画像を参照）を押してください。ビルドプロセスは、あなたのRobot"
+" Controller上で **all of the .java files** をビルドしますのでご注意ください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:369
 msgid ""
@@ -459,7 +486,8 @@ msgid ""
 "lower right hand side of the window. If your build was successful, you "
 "should see a \"Build succeeded!\" message in the message pane."
 msgstr ""
-"ウィンドウの右下にあるメッセージパネルにメッセージが表示されるべきです。ビルドが成功した場合、メッセージパネルには「ビルドが成功しました！」というメッセージが表示されます。"
+"メッセージペインにメッセージが表示されるのが見えるはずです。メッセージペインはウィンドウの右下にあります。ビルドが成功した場合、メッセージペインに「Build"
+" succeeded!」というメッセージが表示されるはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:378
 msgid ""
@@ -467,18 +495,19 @@ msgid ""
 "ready to run on the Robot Controller. Before we run our example op mode, "
 "let's see what happens if a problem occurs during the build process."
 msgstr ""
-"あなたが更新されたOpModeでバイナリファイルを構築した後、これらのファイルはRobot "
-"Controller上で実行できるようになります。私たちの例のOpModeを実行する前に、ビルドプロセス中に問題が発生した場合に何が起こるか見てみましょう。"
+"更新されたオペレーションモードでバイナリファイルをビルドしたら、それらはRobot "
+"Controllerで実行する準備が整いました。例のオペレーションモードを実行する前に、ビルドプロセス中に問題が発生した場合に何が起こるかを見てみましょう。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:384
 msgid "Troubleshooting Build Messages"
-msgstr "構築メッセージのトラブルシューティング"
+msgstr "ビルドメッセージのトラブルシューティング"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:386
 msgid ""
 "In the previous section, the build process went smoothly. Let's modify your "
 "op mode slightly to cause an error in the build process."
-msgstr "前節で、ビルドプロセスはスムーズに進みました。次に、エラーを引き起こすようにOpModeを少しだけ変更しましょう。"
+msgstr ""
+"前のセクションでは、ビルドプロセスは順調に進みました。ビルドプロセスにエラーを引き起こすために、あなたのOp Modeを少し修正しましょう。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:389
 msgid ""
@@ -487,8 +516,9 @@ msgid ""
 "beginning of your op mode class definition. Change the word \"Servo\" to the"
 " word \"Zervo\":"
 msgstr ""
-"OnBot Javaウィンドウの編集パネルで、``private Servo servoTest;`` "
-"という行を探してください。これは、OpModeクラス定義の始め近くに表示されるべきです。\"Servo\" を \"Zervo\" に変更してください："
+"OnBot Javaウィンドウの編集ペインで、 ``private Servo servoTest;`` "
+"と表示されている行を探してください。これは、あなたのOp "
+"Modeクラス定義の最初の方に表示されるはずです。「Servo」という単語を「Zervo」という単語に変更してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:398
 msgid ""
@@ -496,7 +526,7 @@ msgid ""
 " mode has been initialized, and let's remove one of the two arguments so "
 "that the statement looks like this:"
 msgstr ""
-"また、ユーザーにOpModeが初期化されたことを通知するTelemetryステートメントを修正し、2つの引数のうち1つを取り除き、以下のようになるようにします："
+"また、オペレーションモードが初期化されたことをユーザーに通知するテレメトリーステートメントを修正し、2つの引数のうち1つを削除して、ステートメントが次のようになるようにしましょう："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:406
 msgid ""
@@ -504,13 +534,13 @@ msgid ""
 "appear next to the line with the modified addData statement. This \"x\" "
 "indicates that there is a syntax error in the statement."
 msgstr ""
-"追加データステートメントを修正した行の次に小さな「x」が表示されることがありますが、この「x」はステートメントに構文エラーがあることを示しています。第二引数を省略すると、この「x」が表示されることに注意してください。"
+"第二引数を削除すると、修正されたaddDataステートメントの行の横に小さな「x」が表示されることに注意してください。この「x」は、ステートメントに構文エラーがあることを示しています。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:415
 msgid ""
 "After you have modified your op mode, you can press the build button and see"
 " what error messages appear."
-msgstr "あなたがOpModeを修正した後、ビルドボタンを押して表示されるエラーメッセージをご確認ください。"
+msgstr "Op Modeを修正した後、ビルドボタンを押して、どのエラーメッセージが表示されるか確認することができます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:423
 msgid ""
@@ -519,8 +549,9 @@ msgid ""
 "its second argument. The OnBot Java system also directs you to the file that"
 " has the error, and the location within the file where the error occurs."
 msgstr ""
-"初回でOpModeを構築しようとすると、「式の開始が不法です」というエラーが表示されます。これはaddDataメソッドに2番目の引数がないためです。OnBot"
-" Javaシステムは、エラーがあるファイルとそのファイル内のエラーが発生した位置も指示します。"
+"最初にOp "
+"Modeをビルドしようとすると、「不正な式の開始エラー」が発生するはずです。これは、addDataメソッドの第二引数が欠けているためです。OnBot "
+"Javaシステムは、エラーが発生しているファイルと、そのファイル内のエラーの位置を示します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:429
 msgid ""
@@ -531,13 +562,15 @@ msgid ""
 " in a different file (one that you are not currently editing) you will need "
 "to look at the file name to determine which file is causing the problem."
 msgstr ""
-"この例では、問題ファイルは \"org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java\" "
-"と呼ばれ、エラーは行62、列37で発生します。Robot Controller上で全ての .java "
-"ファイルがビルドされるという点に注意してください。現在編集していない他のファイルにエラーがある場合、問題を引き起こしているファイルを特定するためにファイル名を見ることになります。"
+"この例では、問題のファイルは「org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java」と呼ばれ、エラーは62行目、37列目で発生します。\n"
+"\n"
+"ビルドプロセスは、Robot Controller上のすべての.javaファイルをビルドすることに注意することが重要です。\n"
+"\n"
+"別のファイル（現在編集していないファイル）にエラーがある場合は、問題を引き起こしているファイルを特定するためにファイル名を確認する必要があります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:437
 msgid "Let's restore this statement back to its original, correct form:"
-msgstr "この文を本来の正しい形式に戻しましょう："
+msgstr "この文を元の正しい形に戻しましょう："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:443
 msgid ""
@@ -547,18 +580,19 @@ msgid ""
 "\"org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java\" at line 51, column"
 " 13."
 msgstr ""
-"addData文を修正したら、再度ビルドボタンを押してみましょう。OnBot "
-"Javaシステムは、「org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java」ファイルの51行目、13列目にシンボル\"Zervo\"が見つからないと文句を言うべきです。"
+"addData ステートメントを修正した後、ビルドボタンを再度押して、何が起こるかを確認してください。OnBot Java システムは、51 行目、13"
+" 列目の \"org/firstinspires/ftc/teamcode/MyFIRSTJavaOpMode.java\" というソースファイル内で "
+"\"Zervo\" というシンボルが見つからないと不満を言うはずです。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:454
 msgid ""
 "You should restore the statement back to its original form and then push the"
 " build button and verify that the op mode gets built properly."
-msgstr "あなたはステートメントを元の形式に復元し、その後ビルドボタンを押して、OpModeが適切にビルドされていることを確認してください。"
+msgstr "元の形式にステートメントを戻し、ビルドボタンを押して、Op Modeが正しくビルドされることを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:462
 msgid "Running Your Op Mode"
-msgstr "あなたのOpModeを実行する"
+msgstr "Op Modeの実行"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:464
 msgid ""
@@ -567,8 +601,8 @@ msgid ""
 "Since you designated that your example op mode is a tele-operated op mode, "
 "it will be listed as a \"TeleOp\" op mode."
 msgstr ""
-"もしOpModeの再構築に成功したなら、OpModeを実行できる準備はできています。Driver StationがRobot "
-"Controllerとまだ接続されていることを確認してください。あなたが例として指定したOpModeがテレオペレートモードであるため、「TeleOp」OpModeとしてリストに表示されます。"
+"オプモードを正常に再構築した場合、オプモードを実行する準備が整いました。DRIVER STATIONがRobot "
+"Controllerに接続されていることを確認してください。例として指定したオプモードがテレオペレーションオプモードであるため、「TeleOp」オプモードとしてリストされます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:465
 msgid ""
@@ -576,12 +610,12 @@ msgid ""
 "the list of available op modes. Select your op mode (\"MyFIRSTJavaOpMode\") "
 "from the list."
 msgstr ""
-"Driver "
-"Stationで、「テレオペレーション」のドロップダウンリスト制御を使用して、利用可能なOpModeの一覧を表示します。一覧から「MyFIRSTJavaOpMode」というOpModeを選択してください。"
+"DRIVER "
+"STATIONで、「TeleOp」ドロップダウンリストコントロールを使用して、利用可能なオプモードのリストを表示します。リストからオプモード（「MyFIRSTJavaOpMode」）を選択します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:477
 msgid "Press the INIT button to initialize the op mode."
-msgstr "INITボタンを押してOpModeを初期化します。"
+msgstr "INITボタンを押して、Op Modeを初期化します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:489
 msgid ""
@@ -589,8 +623,8 @@ msgid ""
 "waitForStart statement. It will then wait until you press the start button "
 "(which is represented by the triangular shaped symbol) to continue."
 msgstr ""
-"OpModeは、runOpMode メソッド内のステートメントをwaitForStart "
-"ステートメントまで実行します。その後、開始ボタン（三角形のシンボルで表されます）を押したときにのみ続行します。"
+"Op "
+"Modeは、runOpModeメソッド内のステートメントをwaitForStartステートメントまで実行します。その後、続行するためにスタートボタン（三角形の形をしたシンボルで表される）を押すまで待機します。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:504
 msgid ""
@@ -598,20 +632,16 @@ msgid ""
 "send the \"Status: Running\" message to the DRIVER STATION. To stop the op "
 "mode, press the square-shaped stop button."
 msgstr ""
-"一度「START」ボタンを押すと、OpModeは継続して繰り返し処理を行い、「Status: Running」のメッセージをDRIVER "
-"STATIONに送信します。OpModeを停止するには、「STOP」ボタンを押してください。"
+"スタートボタンを押すと、Op Modeは繰り返し実行され、「ステータス: 実行中」というメッセージがDRIVER STATIONに送信されます。Op "
+"Modeを停止するには、四角形のストップボタンを押してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:518
 msgid "Congratulations! You ran your first java op mode!"
-msgstr ""
-"Congratulations! You ran your first java op mode! \""
-"->"
-""
-"\"おめでとうございます！あなたは初めてのjavaOpModeを実行しました！"
+msgstr "おめでとうございます！初めてのJava Op Modeを実行しました！"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:521
 msgid "Modifying Your Op Mode to Control a Motor"
-msgstr "モータの制御のためにOpModeを修正する"
+msgstr "モーターを制御するためのOp Modeの変更"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:523
 msgid ""
@@ -619,20 +649,20 @@ msgid ""
 "configured for your REV Expansion Hub. Modify the code for the program loop "
 "so that it looks like the following:"
 msgstr ""
-"REVExpansion "
-"Hubに接続し、設定したDCモーターの制御を行うOpModeを修改しましょう。プログラムループのコードを以下のように変更してください："
+"あなたのOp Modeを修正して、REV Robotics Expansion "
+"Hubに接続して構成したDCモーターを制御できるようにしましょう。プログラムループのコードを以下のように修正してください："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:541
 msgid ""
 "If you look at the code that was added, you will see that we defined a new "
 "variable called target power before we enter the while loop."
-msgstr "もし追加されたコードを見ると、whileループに入る前にターゲットパワーという新しい変数を定義していることがわかります。"
+msgstr "追加されたコードを見ると、whileループに入る前にtarget powerという新しい変数を定義したことがわかります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:548
 msgid ""
 "At the start of the while loop we set the variable tgtPower equal to the "
 "negative value of the gamepad1's left joystick:"
-msgstr "whileループの開始で、変数tgtPowerにゲームパッド1の左ジョイスティックの負の値を設定します："
+msgstr "whileループの開始時に、変数tgtPowerをgamepad1の左ジョイスティックの負の値に設定します："
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:555
 msgid ""
@@ -647,8 +677,17 @@ msgid ""
 "arbitrary. However, the concept of negating the joystick y value can be very"
 " useful in practice."
 msgstr ""
-"runOpModeメソッドでアクセスできるオブジェクトgamepad1は、OPERATOR "
-"CONSOLEのゲームパッド#1の状態を表します。競技中に使用されるF310型ゲームパッドにおいて、ジョイスティックのY値はジョイスティックが最上部に位置している場合-1、最下部に位置している場合+1となる範囲で変化します。上の例コードでは、left_stick_yの値を否定することで、左ジョイスティックを前方に押し込むとモータに正のパワーが適用されるようにしています。ただし、この例ではモータの前後という概念は任意です。しかし、ジョイスティックのY値を否定する概念は実践において非常に有用です。"
+"オブジェクト gamepad1 は、runOpMode メソッド内でアクセス可能です。\n"
+"\n"
+"これは、オペレーターコンソール内のゲームパッド #1 の状態を表します。\n"
+"\n"
+"競技中に使用される F310 ゲームパッドについて注意が必要です。ジョイスティックの Y 値は、ジョイスティックが最上部の位置にあるときは -1 から、最下部の位置にあるときは +1 までの範囲です。\n"
+"\n"
+"上記の例のコードでは、left_stick_y の値を反転させることで、左のジョイスティックを前方に押すとモーターに正のパワーが適用されるようになります。\n"
+"\n"
+"この例では、モーターの前後の概念は任意であることに注意してください。\n"
+"\n"
+"しかし、ジョイスティックの y 値を反転させるという概念は、実際には非常に役立つことがあります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:571
 msgid ""
@@ -657,20 +696,19 @@ msgid ""
 " motor power are then added to the set of data that will be sent via the "
 "telemetry mechanism to the DRIVER STATION."
 msgstr ""
-"次のステートメントでは、motorTest の出力を tgtPower "
-"という変数で表される値に設定します。目標出力と実際のモータ出力の値は、Telemetry機制経由でDRIVER STATION "
-"に送信するデータセットに追加されます。"
+"次の一連のステートメントは、motorTestの電力を変数tgtPowerで表される値に設定します。ターゲット電力と実際のモーターパワーの値は、その後、Telemetryメカニズムを介してDRIVER"
+" STATIONに送信されるデータセットに追加されます。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:583
 msgid ""
 "After you have modified your op mode to include these new statements, press "
 "the build button and verify that the op mode was built successfully."
 msgstr ""
-"あなたがこれらの新しいステートメントを含むopモードを修正した後、ビルドボタンを押して、opモードが成功してビルドされたことを確認してください。"
+"オプモードをこれらの新しいステートメントを含むように修正した後、ビルドボタンを押して、オプモードが正常にビルドされたことを確認してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:588
 msgid "Running Your Op Mode with a Gamepad Connected"
-msgstr "ゲームパッド接続時にOpModeを実行する"
+msgstr "ゲームパッドを接続してOp Modeを実行する"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:590
 msgid ""
@@ -678,15 +716,14 @@ msgid ""
 "motor. To run your op mode, you will need to connect a Logitech F310 gamepad"
 " to the DRIVER STATION."
 msgstr ""
-"あなたのOpModeはゲームパッドから入力を受け取り、この入力をDCモーターの制御に使用します。OpModeを実行するには、Logitech F310 "
-"ゲームパッドをDRIVER STATIONに接続する必要があります。"
+"あなたのOp Modeはゲームパッドからの入力を受け取り、この入力を使用してDCモーターを制御します。あなたのOp Modeを実行するには、DRIVER"
+" STATIONにLogitech F310ゲームパッドを接続する必要があります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:594
 msgid ""
 "Connect the gamepad to the DRIVER STATION. If using a phone, you will need a"
 " Micro USB OTG adapter cable."
-msgstr ""
-"ゲームパッドをDRIVER STATIONに接続してください。スマートフォンを使用する場合、Micro USB OTGアダプターケーブルが必要です。"
+msgstr "ゲームパッドをDRIVER STATIONに接続します。電話を使用する場合は、Micro USB OTGアダプターケーブルが必要です。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:607
 msgid ""
@@ -696,8 +733,8 @@ msgid ""
 "that pushing the Start button and the B button simultaneously would "
 "designate the gamepad as user #2."
 msgstr ""
-"あなたの例のOpModeは、ユーザーまたはドライバー1として指定されたゲームパッドからの入力を探しています。Logictech "
-"F310コントローラーでスタートボタンとAボタンを同時に押すことで、ゲームパッドをユーザー1として指定できます。なお、スタートボタンとBボタンを同時に押すと、ゲームパッドはユーザー2として指定されます。"
+"あなたの例のOp Modeは、ユーザーまたはドライバー#1として指定されたゲームパッドからの入力を探しています。Logictech "
+"F310コントローラーのスタートボタンとAボタンを同時に押して、ゲームパッドをユーザー#1として指定してください。スタートボタンとBボタンを同時に押すと、ゲームパッドはユーザー#2として指定されることに注意してください。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:618
 msgid ""
@@ -708,8 +745,11 @@ msgid ""
 " does not highlight in green when you use your gamepad, then there is a "
 "problem with the connection to the gamepad."
 msgstr ""
-"もしゲームパッドをユーザー#1として正しく設定できた場合、DRIVER STATION画面右上の「User "
-"1」の文字の上に小さなゲームパッドアイコンが表示されるべきです。ゲームパッド#1でアクティビティがあるたびに、この小さなアイコンは緑色にハイライトされます。アイコンが欠けている場合や、ゲームパッドを使用したときに緑色にハイライトされない場合は、ゲームパッドとの接続に問題がある可能性があります。"
+"ゲームパッドをユーザー #1 に指定できた場合、DRIVER STATION スクリーンの右上隅にある「User 1」というテキストの上に小さなゲームパッドアイコンが表示されるはずです。\n"
+"\n"
+"ゲームパッド #1 にアクティビティがあるときは、その小さなアイコンが緑色にハイライトされるべきです。\n"
+"\n"
+"アイコンが表示されない場合や、ゲームパッドを使用しているときに緑色にハイライトされない場合は、ゲームパッドとの接続に問題があります。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:625
 msgid ""
@@ -718,8 +758,7 @@ msgid ""
 "current op mode run and then restart it before the changes that you just "
 "built take effect."
 msgstr ""
-"MyFIRSTJavaOpMode\" "
-"のOpModeを選択し、初期化し、実行します。重要なことに、OpModeを再構築した場合は、直近の変更が有効になる前に現在のOpModeの実行を停止し、再度開始する必要があります。"
+"「MyFIRSTJavaOpMode」オペレーションモードを選択し、初期化して実行してください。オペレーションモードを再ビルドする際は、現在のオペレーションモードの実行を停止し、その後に再起動する必要があることに注意してください。そうしないと、ビルドした変更が反映されません。"
 
 #: ../../source/programming_resources/tutorial_specific/onbot_java/creating_op_modes/Creating-and-Running-an-Op-Mode-(OnBot-Java).rst:630
 msgid ""
@@ -730,6 +769,10 @@ msgid ""
 "joystick. Also note that the target power and actual motor power values "
 "should be displayed in the telemetry area on the DRIVER STATION."
 msgstr ""
-"もしゲームパッドの設定が適切に行われている場合、左ジョイスティックはモーターの動作を制御するべきです。OpModeを実行している間は注意深くし、回転中のモーターに何かが絡まらないように確認してください。ユーザー"
-" #1 ゲームパッドアイコンは、ジョイスティックを動かすたびに緑色でハイライトされるべきです。また、ターゲット電力と実際のモーター電力値は、DRIVER"
-" STATION のTelemetryエリアで表示されることも確認してください。"
+"ゲームパッドを正しく設定した場合、左のジョイスティックはモーターの動きを制御するはずです。\n"
+"\n"
+"Op Modeを実行する際は注意し、回転するモーターに何かが引っかからないようにしてください。\n"
+"\n"
+"ジョイスティックを動かすたびに、ユーザー #1 ゲームパッドアイコンが緑色にハイライトされることに注意してください。\n"
+"\n"
+"また、ターゲットパワーと実際のモーターパワーの値がDRIVER STATIONのTelemetryエリアに表示されることに注意してください。"

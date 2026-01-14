@@ -6,32 +6,27 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:2
 msgid "Common 3D Printing Upgrades"
-msgstr "一般的な3Dプリンティングのアップグレード"
+msgstr "一般的な3Dプリントのアップグレード"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:4
 msgid ""
 "A pretty common thing to do with 3D Printers is upgrade them over time, "
 "here's a few of the most common upgrades for any printer."
-msgstr "3Dプリンタでよく行なうことの1つは、時間とともにアップグレードすることです。以下は、どのプリンタでも最も一般的なアップグレード方法です。"
+msgstr ""
+"3Dプリンターに関してよく行われることの一つは、時間をかけてアップグレードすることです。ここでは、どのプリンターにも一般的なアップグレードのいくつかを紹介します。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:8
 msgid "Removeable/Flexible Beds"
-msgstr "取り外し可能な/柔軟なベッド"
+msgstr "取り外し可能/柔軟なベッド"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:10
 msgid ""
@@ -48,11 +43,21 @@ msgid ""
 "to damage than PEI or PEX flexible beds, and having exceptional print "
 "adhesion."
 msgstr ""
-"多くのプリンターには、安価な「BuildTak」（一般的なラベル）のベッドが付属していますが、それらは十分に機能します。しかし、より取り外しやすいプリントや優れた接着性、そしてカスタマイズ性を望む人々もいます。これらは取り外し可能なベッドによって満たされます。WhamBam、Bambulabs、一般的なAmazon出品者などは、さまざまな価格でこれらのベッドを取り扱っています。ここで説明するいくつかの用語を見つけるでしょう。PEIは現在の「金標準」であり、熱を加えると3Dプリントにしっかりと接着する素材のシートです。より高度なオプションとしては、熱を加えると膨張し、3Dプリントにしっかりと保持するPEXがあります。そして完全に冷却すると、パーツが解放されます。ポワーディッドPEI/テクスチャードPEIは、安価でシンプルで、PEIやPEXよりも破損から保護されやすく、優れた印刷接着性があるため、最も人気のある柔軟ベッドとなっています。"
+"多くのプリンターには、安価な「BuildTak」（一般的なステッカー）ベッドが付属しており、十分に機能しますが、より良い接着性とカスタマイズ性を持つ取り外し可能なプリントを望む人もいます。これに応えるのが取り外し可能なベッドです。\n"
+"\n"
+"WhamBam、Bambulabs、そして一般的なAmazonの販売者は、さまざまな価格でこれらのベッドを取り扱っています。\n"
+"\n"
+"ここでいくつかの用語を説明します。\n"
+"\n"
+"PEIは現在「ゴールドスタンダード」とされており、加熱された際に3Dプリントにしっかりと接着する材料のシートです。\n"
+"\n"
+"より高度なオプションには、加熱されると膨張し、3Dプリントをより良く保持し、冷却されると完全に部品を解放するPEXが含まれます。\n"
+"\n"
+"パウダーコーティングされたPEI/テクスチャーPEIは、現在最も人気のあるフレキシブルベッドであり、安価でシンプルで、PEIやPEXのフレキシブルベッドよりも損傷に対してより耐性があり、優れたプリント接着性を持っています。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:-1
 msgid "Removing a print by bending a flexible bed."
-msgstr "柔軟なベッドを曲げてプリントを削除します。"
+msgstr "柔軟なベッドを曲げることでプリントを取り外す。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:27
 msgid "Glass Beds"
@@ -67,15 +72,15 @@ msgid ""
 "Carborundum or Borosilicate when looking for glass beds for your printer "
 "size."
 msgstr ""
-"ガラスベッドは素晴らしいアップグレードです。平面を保ち、長時間使用できます。また、柔軟ベッドよりも格段に安価なことが多いです！ガラスベッドと接着剤シートやヘアスプレーを組み合わせると、プリントの固定が非常に効果的になります。アマゾンなどで販売されている大抵のガラスベッドは使用可能ですが、プリンターのサイズに合ったガラスベッドを探す際には「Carborundum」や「Borosilicate」といったキーワードを検索してください。"
+"ガラスベッドは素晴らしいアップグレードであり、平らな状態を保ち、長持ちします。また、フレックスベッドよりもはるかに安価であることが多いです！ガラスベッドにグルースティックやヘアスプレーのようなものを組み合わせると、印刷物をしっかりと固定するのに非常に効果的です。Amazonで見つかるほとんどのガラスベッドは使用可能であり、プリンターのサイズに合ったガラスベッドを探す際には、カーボランダムやホウケイ酸塩というキーワードを探してください。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:-1
 msgid "A standard glass bed."
-msgstr "標準的なガラスの台面。"
+msgstr "標準的なガラスベッド。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:42
 msgid "Hotend Upgrades"
-msgstr "熱 Extruder のアップグレード"
+msgstr "ホットエンドのアップグレード"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:44
 msgid ""
@@ -87,20 +92,25 @@ msgid ""
 " tools to connect it to your board). Here are a few hotends from different "
 "price ranges that are well regarded and used."
 msgstr ""
-"熱処理ヘッドのアップグレードは、異なるフィラメントでの印刷、印刷速度の向上、そして一般的な信頼性を大幅に改善するのに非常に有益です。熱処理ヘッドを取り付ける方法を学ぶには、CADスキルが必要になることもありますし、Thingiverseで簡単に検索することもできますが、アップグレードはとても価値があります。通常、完全なアップグレードを行うには、熱処理ヘッドの構造体、ヒータワイヤー、そしてサーモスタットが必要です（また、ボードに接続するための"
-" Wiring Tool も必要です）。以下に、評価が高く使用されているいくつかの熱処理ヘッドを価格帯別に紹介します。"
+"ホットエンドのアップグレードは、異なるフィラメントでの印刷、印刷速度の向上、一般的な信頼性に非常に有益です。\n"
+"\n"
+"ホットエンドを取り付ける方法を学ぶには、CADスキルが必要だったり、Thingiverseでの簡単な検索が必要だったりしますが、ホットエンドのアップグレードは非常に価値があります。\n"
+"\n"
+"通常、フルアップグレードを行うには、ホットエンド構造、ヒーター線、サーミスターが必要です（そして、ボードに接続するためのいくつかの配線ツールも必要です）。\n"
+"\n"
+"ここでは、異なる価格帯で評価が高く、使用されているいくつかのホットエンドを紹介します。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:49
 msgid "**Low End:** E3D V6, All-Metal Microswiss Hotend."
-msgstr "**低スペック:** E3D V6、アルミ製マイクロスイスホットエンド。"
+msgstr "**Low End:** E3D V6、オールメタルマイクロスイスホットエンド。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:51
 msgid "**Mid Range:** Phaetus Dragonfly, Creality Spider."
-msgstr "**中距離帯:** フヘタスドラゴンフライ, キレアリティスパイダー。"
+msgstr "**Mid Range:** Phaetus Dragonfly、Creality Spider。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:53
 msgid "**High End:** Phaetus Dragon HF, Slice Engineering Mosquito, E3D Revo."
-msgstr "**高機能:** Phaetus Dragon HF、Slice Engineering Mosquito、E3D Revo。"
+msgstr "**High End:** Phaetus Dragon HF、Slice Engineering Mosquito、E3D Revo。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:55
 msgid ""
@@ -109,16 +119,17 @@ msgid ""
 " very high price point. These include the Mosquito Magnum, Phaetus Dragon "
 "UHF, the Goliath, and the Nova."
 msgstr ""
-"** スピードプリント/エンジニアリング: ** "
-"これらのホットエンドは軽々と取り組めるものではありません。通常、カスタムマウントを設計する必要があり、また非常に高価な傾向があります。これらにはミソキートマグナム、フェタスドラゴンUHF、ゴリアッス、ノヴァが含まれます。"
+"**Speed Printing/Engineering:** "
+"これらのホットエンドは、心臓の弱い方には向いておらず、通常はカスタムマウントの設計が必要です。また、通常は非常に高価格帯に位置しています。これには、Mosquito"
+" Magnum、Phaetus Dragon UHF、Goliath、Novaが含まれます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:63
 msgid "3 pictured hotends that are example upgrades."
-msgstr "3つの例示的な熱 Extruder (hotend) の画像です。"
+msgstr "3つの画像に示されたホットエンドは、アップグレードの例です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:63
 msgid "Left to Right: Slice Engineering Mosquito, E3D V6, Phaetus Dragon"
-msgstr "左から右まで：Slice Engineering Mosquito, E3D V6, Phaetus Dragon"
+msgstr "左から右へ: Slice Engineering Mosquito、E3D V6、Phaetus Dragon"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:67
 msgid ""
@@ -128,21 +139,20 @@ msgid ""
 "section to melt faster, and resulting in a considerably higher flow rate of "
 "plastic."
 msgstr ""
-"FIRST Tech Challenge（FTC）で熱 Extruder の流量を増やす迅速な方法は、新しい Extruder を購入せずに ** CHT"
-" Nozzle ** を購入して利用することです。これらのノズルは filament の流れを 3 "
-"部に分割し、それぞれのセクションがより早く溶け出すようにすることで、プラスチックの流量を大幅に向上させることができます。"
+"新しいホットエンドを購入せずに、ホットエンドの流量を手軽に増加させる方法は、 **CHT Nozzle** "
+"と呼ばれるものを購入して利用することです。これらのノズルはフィラメントの流れを3つの部分に分割し、それぞれのセクションがより早く溶けることを可能にし、結果としてプラスチックの流量が大幅に向上します。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:78
 msgid "An example CHT nozzle."
-msgstr "例のCHTノズル。"
+msgstr "例としてのCHTノズル。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:78
 msgid "This Bondtech CHT nozzle splits flow into three."
-msgstr "このBondtech CHTノズルは流量を3つに分割します。"
+msgstr "このBondtech CHTノズルは、流れを三つに分けます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:83
 msgid "Silent Stepper Boards"
-msgstr "静音ステッパーボード"
+msgstr "サイレントステッパーボード"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:85
 msgid ""
@@ -155,21 +165,23 @@ msgid ""
 "which are drop-in replacements and take no time at all. Luckily, most "
 "printers nowadays include this option stock, so it's not a concern for many."
 msgstr ""
-"古いプリンターや低性能なプリンターは、非常に大きな音を出す傾向があるため、静音ステッパーボードは素晴らしいアップグレードです。これらのボードはより高度なステッパードライバーを使用し、入力を滑らかに処理することで、ステッパーが"
-" "
-"menos泣き声やブツブツ音を発生させます。ほとんどのプリンターについて、最適な置き換えボードを見つけるために少しの調査が必要ですが、ベースモデルのEnder"
-" 3プリンターの場合、主に互換性のあるボードはSKR Mini E3とSKR Mini "
-"Turboで、どちらもドロップインタイプで、時間はほとんどかかりません。幸いなことに、現在では多くのプリンターがこのオプションを標準装備しているため、多くの場合、これは心配する必要はありません。"
+"古いプリンターや低価格のプリンターは、通常非常に騒音が大きいですが、そのためサイレントステッパーボードは素晴らしいアップグレードとなります。\n"
+"\n"
+"これらのボードは、より高度なステッパードライバーを使用して入力をスムーズにし、ステッパーが鳴き声や回転音を少なくするようにします。\n"
+"\n"
+"ほとんどのプリンターでは、最適な交換ボードを見つけるためにいくつかの調査を行う必要がありますが、ベースモデルのEnder 3プリンターの場合、主な互換ボードはSKR Mini E3とSKR Mini Turboであり、どちらもドロップイン交換が可能で、時間もかかりません。\n"
+"\n"
+"幸運なことに、最近のほとんどのプリンターにはこのオプションが標準装備されているため、多くの人にとっては心配する必要はありません。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:97
 msgid "An image of a silent stepper board."
-msgstr "静止したステッピングボードの画像。"
+msgstr "サイレントステッパーボードの画像。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:97
 msgid ""
 "An SKR e3 Turbo with TMC2209 Stepper Drivers, the current standard for "
 "silent printing."
-msgstr "静音印刷の標準とされるTMC2209ステッピングドライバー搭載のSKR e3ターボ。"
+msgstr "TMC2209ステッパードライバーを搭載したSKR e3 Turboは、静音印刷の現在の標準です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:102
 msgid ""
@@ -180,35 +192,33 @@ msgid ""
 "printers are coming with auto bed leveling stock, butcif yours didn't and "
 "you'd like to upgrade, these options are common:"
 msgstr ""
-"ABL（Auto-Bed Leveling）は、ツールヘッドに機械式または感 induction センサーを装備し、ベッドの異なる位置を探査してソフトウェアを使用して初層の品質と接着性を改善します。Firmwareについて少し学ぶ必要がありますが、ABLは非常に価値があります。多くのプリンターが標準でABLを搭載している一方で、もしあなたの機械に搭載されていなかった場合でもアップグレードするためのこれらのオプションは一般的です："
-"\"\"\""
-"注:"
-"- \"ABL or Auto-Bed Leveling\" は「ABL（Auto-Bed Leveling）」としました。"
-"- \"inductive sensor\" を \"感 induction センサー\" に訳しました。これは原文が不明な部分があるため、適切な日本語表現としての意図を伝えられるように調整しています。"
-"- \"While it requires learning a bit about firmware, auto bed leveling is extremely worth it.\" の翻訳は原文の意味を保ちつつ、自然な日本語にしました。"
-"- \"More and more printers are coming with auto bed leveling stock,\" を \"多くのプリンターが標準でABLを搭載している一方で\" としました。\"butcif yours didn't and you'd like to upgrade, these options are common:\" の部分は原文の構文が不明瞭であるため、適切な日本語表現に調整しています。"
+"ABL（オートベッドレベリング）は、ツールヘッドに取り付けられた機械式または誘導式センサーを使用して、ベッドの異なる位置をプローブし、ソフトウェアを使用して最初の層の品質と接着性を向上させます。\n"
+"\n"
+"ファームウェアについて少し学ぶ必要がありますが、オートベッドレベリングは非常に価値があります。\n"
+"\n"
+"ますます多くのプリンターが標準でオートベッドレベリングを搭載していますが、もしあなたのプリンターが搭載していない場合、アップグレードしたいのであれば、以下のオプションが一般的です："
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:107
 msgid "Mechanical Sensors: BLTouch, CRTouch"
-msgstr "機械的センサ: BLTouch, CRTouch"
+msgstr "機械センサー: BLTouch, CRTouch"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:108
 msgid "Inductive Sensors: Omron TL-Q5MC2-Z, Pinda Inductive Probes"
-msgstr "導入センサ：オモルン TL-Q5MC2-Z、ピンダ誘電探査器"
+msgstr "誘導センサー: Omron TL-Q5MC2-Z, Pinda誘導プローブ"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:115
 msgid "An image depicting a printers reading of a bed."
-msgstr "プリンターがベッドの読み取りを行う画像。"
+msgstr "ベッドのプリンターの読み取りを示す画像。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:115
 msgid ""
 "An example autoleveling reading, showing the imperfections in the bed that "
 "the printer will compensate for."
-msgstr "例の自動水準計測読み取りでは、プリンターが補正するためのベッドの不備が示されています。"
+msgstr "自動レベリングの読み取りの例であり、プリンターが補正するベッドの不完全さを示しています。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:120
 msgid "Raspberry Pi/Network Functionality"
-msgstr "ラズベリーパイ/ネットワーク機能"
+msgstr "Raspberry Pi/ネットワーク機能"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:122
 msgid ""
@@ -223,19 +233,26 @@ msgid ""
 " to check) you should research **Octoprint** setup guides. If you are using "
 "a printer with the **Klipper** firmware, you should research **Fluidd** and "
 "**Mainsail** setup guides."
-msgstr "ネットワーク機能は3Dプリンティングにおいて頻繁に使用されており、多くのインターフェースが遠隔地からプリンターと交互する方法を提供します。そのため、あなたが場所にいないときでも印刷の開始・停止や監視を行うことができます。多くの企業では、新しいプリンターにはこの機能が標準で搭載されるようになってきていますが、ネットワーク機能がないプリンターを使用している場合でも、Raspberry Piや古いAndroid携帯スマホなどの装置を使って、さまざまなオンラインガイドを用いて簡単にこの機能を利用できます。 **Marlin** ファームウェアを使用しているプリンター（プリンターのドキュメンテーションや販売掲示を確認することで確認できます）の場合には、 **Octoprint** のセットアップガイドについて調査するべきです。 **Klipper** ファームウェアを使用しているプリンターの場合には、 **Fluidd** および  **Mainsail** のセットアップガイドについて調査するべきです。"
+msgstr ""
+"ネットワーク機能は3Dプリンティングにおいて一般的になりつつあり、多くのインターフェースがリモートでプリンターと対話し、離れている間に印刷を停止/開始/監視することを可能にしています。\n"
+"\n"
+"多くの企業が新しいプリンターにこの機能を標準装備し始めていますが、ネットワーク機能のないプリンターをお持ちの場合でも、Raspberry Piや古いAndroidフォンなどを使用することで、さまざまなオンラインガイドを利用してこの機能を簡単に実現することができます。\n"
+"\n"
+"もし **Marlin** ファームウェアを搭載したプリンターを使用している場合（プリンターのドキュメントや販売情報を確認することで確認できます）、 **Octoprint** のセットアップガイドを調査するべきです。\n"
+"\n"
+"もし **Klipper** ファームウェアを搭載したプリンターを使用している場合、 **Fluidd** および **Mainsail** のセットアップガイドを調査するべきです。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:135
 msgid "A picture of a prusa being controlled by an octoprint dash panel."
-msgstr "オクタプリントダッシュパネルで制御されているプリスカの画像。"
+msgstr "OctoPrintダッシュパネルによって制御されているPrusaの画像。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:135
 msgid "An Octoprint Control Panel for a Prusa"
-msgstr "プリスカ用のオクタプリント制御パネル"
+msgstr "Prusa用のOctoprintコントロールパネル"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:140
 msgid "Dual Z-Axis Support"
-msgstr "Dual Z軸サポート"
+msgstr "デュアルZ軸サポート"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:141
 msgid ""
@@ -246,16 +263,23 @@ msgid ""
 "evening it out. This requires a board upgrade and an extra stepper. There "
 "are plenty of kits for this, or you could attempt to DIY it yourself."
 msgstr ""
-"Ender "
-"3やその他の低コストプリンターでよくある問題は、一方のみにリードスクリューで駆動されるZゲンタリーの垂れ下がりです。これが直接的に、フレームが不安定になることで、プリント結果に不均一さをもたらします。この問題に対処する比較的一般的な方法は、もう一方にもリードスクリューを追加してバランスを整えることです。これにはボードのアップグレードと追加のステッピングモーターが必要です。この機能を提供するキットがたくさんありますし、DIYで試すことも可能です。"
+"Ender 3や他の低価格プリンターでよく見られる問題は、Zガントリーが片側のリードスクリューのみで駆動されている場合にたわむことです。\n"
+"\n"
+"これにより、フレームが安定しないため、印刷物に不一致が生じます。\n"
+"\n"
+"この問題に対する一般的な解決策は、反対側にリードスクリューを追加してバランスを取ることです。\n"
+"\n"
+"これにはボードのアップグレードと追加のステッパーが必要です。\n"
+"\n"
+"これに関するキットはたくさんありますし、自分でDIYすることもできます。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:-1
 msgid "A picture of an Ender 3 with a dual z axis setup."
-msgstr "デュアルZ軸設定のエンド3の画像。"
+msgstr "デュアルZ軸セットアップのEnder 3の画像です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:156
 msgid "Part Cooling Upgrades"
-msgstr "部品冷却アップグレード"
+msgstr "パーツ冷却アップグレード"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:158
 msgid ""
@@ -271,17 +295,22 @@ msgid ""
 "**Stealthburner** projects, cooling systems that were completely engineered "
 "with air flow simulation."
 msgstr ""
-"熱処理装置および部品冷却は、部品の品質と詰まり問題を防止するために重要です。テクノロジーセクションで説明した通り、PLAを高速で印刷するためには、冷却ファンをより大きなものにアップグレードすることをお勧めします。標準的な冷却から5015や4020のファンに変更することで、多くの場合に対応できます。これらのファンは、プリンターモデルと希望するファンサイズを検索すれば多数の取り付け金具が見つかります（ファンサイズは幅×奥行きで表され、5015の場合には直径50mmで厚さ15mmの円形です）。科学的な裏付けのある冷却性能向上を目指すなら、Voron"
-" Designの ** AB-BN ** または ** Stealthburner ** プロジェクトをチェックしてみてください。これらの冷却システムは完全に "
-"airflow シミュレーションに基づいて設計されています。"
+"用語集で説明したように、ホットエンドと部品冷却は部品の品質と詰まり問題を防ぐために重要です。\n"
+"\n"
+"PLAをより高い速度で印刷したい場合は、冷却ファンをより大きく、効率的なものにアップグレードすることをお勧めします。\n"
+"\n"
+"5015および4020ファンは、標準の冷却からの優れたアップグレードであり、ほとんどの負荷に対応できます。\n"
+"\n"
+"これらのファン用のマウントは、プリンターのモデルと希望するファンのサイズを検索すれば多数見つかります（ファンのサイズは幅-奥行きで示されるため、5015は直径50mmで厚さ15mmの円形です）。科学的な根拠に基づいた冷却アップグレードを希望する場合は、Voron Designの **AB-BN** または **Stealthburner** プロジェクトをチェックしてみてください。これらは、空気の流れのシミュレーションを用いて完全に設計された冷却システムです。\n"
+"\n"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:171
 msgid "The mantis cooling fan design with 2 5015 fans."
-msgstr "mantis 冷却ファンの設計に2基の5015ファンを使用。"
+msgstr "2つの5015ファンを使用したカマキリ冷却ファンの設計。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:171
 msgid "An example cooling setup with dual 5015 fans (Mantis)."
-msgstr "デュアル5015ファン（マントス）を使用した冷却設定の例。"
+msgstr "デュアル5015ファン（Mantis）を使用した冷却セットアップの例です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:180
 msgid "Cooling simulations of the Voron Stealthburner project."
@@ -289,11 +318,11 @@ msgstr "Voron Stealthburnerプロジェクトの冷却シミュレーション�
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:180
 msgid "Simulations of how air runs through a hotend cooling setup (Voron)."
-msgstr "熱端冷却システムで空気が流れ-through (Voron) のシミュレーション"
+msgstr "ホットエンド冷却セットアップ（Voron）を通る空気の流れのシミュレーション。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:185
 msgid "Linear Rails"
-msgstr "線形レール"
+msgstr "リニアレール"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:187
 msgid ""
@@ -304,21 +333,25 @@ msgid ""
 "important to keep in mind that this is one of the most expensive upgrades "
 "here, as good quality linear rails can cost upwards of 40$ apiece."
 msgstr ""
-"多くの3Dプリンターは標準でVワールドを使用して線形運動を行いますが、これらのVワールドは比較的簡単に劣化し、曲がったり寸法精度を失うことがあります。鋼製の線形レールを使用すると、車体がより安定し、高速印刷も可能になります。このアップグレードは非常に価値がありますが、高品質な線形レールは1本あたり40ドル以上するため、ここでの最も費用のかかるアップグレードの一つであることを忘れないでください。"
+"多くの3Dプリンターは、標準でVホイールを使用して直線運動を行いますが、これらは劣化したり、たわんだり、寸法精度を失ったりすることが比較的容易です。\n"
+"\n"
+"スチールリニアレールを使用することで、キャリッジがより安定し、より高速で印刷する能力が解放されます。\n"
+"\n"
+"このアップグレードは非常に価値があるものですが、良質なリニアレールは1つあたり40ドル以上かかることがあるため、ここで最も高価なアップグレードの1つであることを念頭に置くことが重要です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:197
 msgid "Hiwin MGN12 rails mounted on an Ender 3."
-msgstr "Hiwin MGN12レールが取り付けられたEnder 3。"
+msgstr "Ender 3に取り付けられたHiwin MGN12レール。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:197
 msgid ""
 "This is a MGN12 (12mm wide MGN style linear rail) being used for the x axis "
 "of a printer."
-msgstr "これは、プリンターのx軸に使用されているMGN12（12mm幅のMGNスタイルの線形レール）です。"
+msgstr "これはプリンターのx軸に使用されているMGN12（幅12mmのMGNスタイルのリニアレール）です。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:202
 msgid "Cable Drag Chain and Wire Management"
-msgstr "ケーブルドラッグチェーンとワイヤー管理"
+msgstr "ケーブルドラッグチェーンとワイヤーマネジメント"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:203
 msgid ""
@@ -328,15 +361,15 @@ msgid ""
 " interested in wire management, either shop around or take a look around on "
 "Printables/Thingiverse and find a set for your printer model."
 msgstr ""
-"配線の絡まりや疲労を避けるために、多くの人がプリンターにドラッグチェーンを取り付けて配線の移動をガイドするように選択します。これらのチェーンは印刷することも購入することもできます。販売元としてはIGUS/Digikeyなどから購入することができますので、配線管理に興味がある場合は、比較してみたりPrintables/Thingiverseでプリンターのモデルに合ったセットを見つけてみてください。"
+"ワイヤーの絡まりや疲労を避けるために、多くの人々はプリンターにドラッグチェーンを追加してその動きをガイドすることを選択します。これらのチェーンは印刷することも、IGUSやDigikeyのようなベンダーから購入することもできますので、ワイヤー管理に興味がある場合は、いくつかの店舗を見て回るか、PrintablesやThingiverseを見て、自分のプリンターモデルに合ったセットを見つけてみてください。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:-1
 msgid "Cable drag chain mounted on an Ender 3."
-msgstr "Ender 3に取り付けられたケーブル引き金。"
+msgstr "Ender 3に取り付けられたケーブルドラッグチェーン。"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:215
 msgid "Miscellaneous Printed Upgrades"
-msgstr "Miscellaneous Printed Upgrades"
+msgstr "その他の印刷されたアップグレード"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:216
 msgid ""
@@ -347,7 +380,7 @@ msgid ""
 "tensioners. These upgrades are definitely worth exploring if you have some "
 "downtime!"
 msgstr ""
-"3Dプリンティングコミュニティは、自分のプリンターでプリンターを改良することに熱中しています...。あなた自身で印刷できる多くのアップグレードがあります！多くは美観改善のためにあります、例えばVスロットカバーやLEDライトなどですが、機能向上のためのものもあります。たとえばフィルAMENTガイドやベルトテンショナーなどです。これらのアップグレードは、余裕があるときに探索してみると良いでしょう！"
+"3Dプリンティングコミュニティは、自分のプリンターを改造することに非常に熱心です...自分のプリンターを使用しています。自分で印刷できるアップグレードがたくさんあります！多くはVスロットカバーやLEDライトのような美観のためのものですが、フィラメントガイドやベルトテンショナーのように機能性を向上させるものもあります。これらのアップグレードは、少し時間があるときにぜひ探求する価値があります！"
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:225
 msgid "A heavily upgraded Ender 3 using 3d prints."
@@ -355,4 +388,4 @@ msgstr "3Dプリントを使用した大幅にアップグレードされたEnde
 
 #: ../../source/manufacturing/3d_printing/general_knowledge/common_upgrades/common_upgrades.rst:225
 msgid "Scott Yu-Jan's heavily upgraded Ender 3"
-msgstr "スコット・ユー・ジャンの大幅にアップグレードされたエンダー3"
+msgstr "Scott Yu-Janの大幅にアップグレードされたEnder 3"

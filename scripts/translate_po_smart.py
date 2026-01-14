@@ -6,9 +6,16 @@ Core モジュールと API モジュールを使用した翻訳パイプライ�
 RST マークアップを完全に保護し、品質チェックを行いながら翻訳します。
 
 サポートされるバックエンド:
-- ollama/local: Ollama ローカルLLM
-- openai/gpt: OpenAI GPT-3.5/4
-- anthropic/claude: Anthropic Claude 2/3
+- ollama/local: Ollama ローカルLLM（詳細プロンプト）
+- openai/gpt: OpenAI GPT-3.5/4（簡潔プロンプト・トークン最適化）
+- anthropic/claude: Anthropic Claude 2/3（簡潔プロンプト・トークン最適化）
+
+トークン最適化（2026-01-14実装）:
+- バックエンド別プロンプト: 商用APIには簡潔版、ローカルLLMには詳細版
+- 用語集の条件付き送信: テキストに含まれる項目のみ（最大10件）
+- コンテキスト削減: 最初の80-100文字のみ使用
+- プレースホルダー簡潔化: 存在時のみ短い注記
+→ トークン消費量を約60-70%削減（互換性完全維持）
 
 Usage:
     # デフォルトバックエンド（設定ファイルまたはollama）

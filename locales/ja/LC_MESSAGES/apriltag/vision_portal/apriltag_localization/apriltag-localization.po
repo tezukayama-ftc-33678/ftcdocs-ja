@@ -6,42 +6,28 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:2
 msgid "AprilTag Localization"
-msgstr "4月タグロケーション"
+msgstr "AprilTag ローカリゼーション"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:5
 msgid "Introduction"
-msgstr "紹介"
+msgstr "はじめに"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:7
 msgid ""
 "In *FIRST Tech Challenge* (FTC), **localization** uses sensor inputs to "
 "determine the robot's current place **on the game field**."
 msgstr ""
-"In *FIRST Tech Challenge* (FTC), ** localization ** uses sensor inputs to "
-"determine the robot's current place ** on the game field ** .In *FIRST Tech "
-"Challenge* (FTC), ** localization ** uses sensor inputs to determine the "
-"robot's current place ** on the game field ** .In *FIRST Tech Challenge* "
-"(FTC), ** localization ** uses sensor inputs to determine the robot's "
-"current place  ** on the game field ** .In *FIRST Tech Challenge* (FTC), ** "
-"localization ** uses sensor inputs to determine the robot's current place **"
-" on the game field ** .In *FIRST Tech Challenge* (FTC), ** localization ** "
-"uses sensor inputs to determine the robot's current place ** on the game "
-"field ** ."
+"*FIRST Tech Challenge* (FTC) では、 **localization** がセンサー入力を使用してロボットの現在の位置 "
+"**on the game field** を判断します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:10
 msgid ""
@@ -49,20 +35,22 @@ msgid ""
 "of an AprilTag, **relative to the camera**.  An OpMode can also read that "
 "AprilTag's **global** pose (on the FTC game field), stored as metadata."
 msgstr ""
+"2023年以降、FTC Op ModeはAprilTagの **pose** （位置と向き）を読み取ることができます。Op "
+"Modeはまた、そのAprilTagの **global** ポーズ（FTC競技フィールド上）をメタデータとして保存して読み取ることもできます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:19
 msgid "Field Locations of AprilTags in INTO THE DEEP"
-msgstr "INTO THE DEEP のフィールド上の AprilTag 的場所"
+msgstr "INTO THE DEEPにおけるAprilTagのフィールド位置"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:19
 msgid "Field locations of AprilTags in INTO THE DEEP"
-msgstr "INTO THE DEEP の AprilTag 的位置"
+msgstr "INTO THE DEEPにおけるAprilTagのフィールド位置"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:21
 msgid ""
 "This means it's possible to calculate the camera's **global** pose -- namely"
 " its position and orientation on the game field."
-msgstr "これは、カメラの **グローバル** ポーズを計算できる可能性があることを意味します。つまり、ゲームフィールド上の位置と向きです。"
+msgstr "これは、カメラの **global** のポーズ、つまりゲームフィールド上での位置と向きを計算することが可能であることを意味します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:24
 msgid ""
@@ -70,8 +58,8 @@ msgid ""
 "frame, then an OpMode can determine the **global pose of the robot** (on the"
 " game field)."
 msgstr ""
-"さらに、カメラの位置がロボットの参照フレームで指定されている場合、OpModeはロボットの ** グローバルなポーズ ** "
-"（ゲームフィールド上で）を決定することができます。"
+"さらに、カメラのポーズがロボットの基準フレームで指定されている場合、Op Modeはゲームフィールド上の **global pose of the "
+"robot** を特定することができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:33
 msgid "Field Coordinate System"
@@ -80,7 +68,7 @@ msgstr "フィールド座標系"
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:33
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:249
 msgid "FTC Field Coordinate System"
-msgstr "FTC Field Coordinate SystemFTC Field Coordinate System"
+msgstr "FTCフィールド座標系"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:35
 msgid ""
@@ -88,6 +76,8 @@ msgid ""
 "position and rotation, based on sensing one or more fixed landmarks -- "
 "AprilTags in this case."
 msgstr ""
+"この **localization** "
+"は、1つ以上の固定されたランドマーク（この場合はAprilTags）を感知して、ロボットのグローバルな位置と回転を決定するための計算です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:39
 msgid ""
@@ -95,24 +85,24 @@ msgid ""
 "Sample OpMode, thanks to `Dryw Wade <https://github.com/sfe-SparkFro>`_.  "
 "This tutorial describes how to use that OpMode."
 msgstr ""
-"この機能は、FTC SDKバージョン10.0で2024年に提供されており、`ドライワード・ウェイド <https://github.com/sfe-"
-"SparkFro>`_ に感謝します。このチュートリアルでは、そのOpModeを使用する方法について説明します。"
+"この機能は、 `Dryw Wade <https://github.com/sfe-SparkFro>`_ のおかげで、2024年にFTC "
+"SDKバージョン10.0で提供され、サンプルOp Modeが含まれています。このチュートリアルでは、そのOp Modeの使用方法について説明します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:44
 msgid "Configuration"
-msgstr "設定"
+msgstr "構成"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:46
 msgid "*Skip this section if ...*"
-msgstr "*このセクションをスキップする場合...*"
+msgstr "*Skip this section if ...*"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:48
 msgid "*the active robot configuration already contains \"Webcam 1\", or*"
-msgstr "現在のロボット構成に「Webcam 1」が含まれています。"
+msgstr "*the active robot configuration already contains \"Webcam 1\", or*"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:49
 msgid "*using the built-in camera of an Android phone as Robot Controller.*"
-msgstr "*Androidスマホの内蔵カメラを使用してRobot Controllerに.*\""
+msgstr "*using the built-in camera of an Android phone as Robot Controller.*"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:51
 msgid ""
@@ -121,7 +111,7 @@ msgid ""
 "localization."
 msgstr ""
 "プログラミングを開始する前に、REV Control "
-"Hubユーザーは、AprilTagロボット定位のために使用されるUSBウェブカメラを含むロボットの構成を作成する必要があります。"
+"HubのユーザーはAprilTagローカリゼーションに使用するUSBウェブカメラを含むロボット構成を作成する必要があります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:55
 msgid ""
@@ -129,29 +119,29 @@ msgid ""
 "preferred, edit the Sample OpMode to agree with the exact webcam name in the"
 " robot configuration."
 msgstr ""
-"現在は、デフォルトのウェブカメラ名「Webcam "
-"1」を使用してください。異なる名前を希望する場合は、サンプルOpModeをロボット構成内の正確なウェブカメラ名に合わせて編集してください。"
+"今のところ、デフォルトのウェブカメラ名「Webcam 1」を使用してください。異なる名前を希望する場合は、サンプルOp "
+"Modeを編集してロボット構成の正確なウェブカメラ名に一致させてください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:59
 msgid ""
 "**Save and activate** that configuration; its name should appear on the "
 "paired Driver Station screen."
-msgstr "**保存し、有効化** して下さい；その名前はペアリングされたDriver Stationの画面に表示されます。"
+msgstr ""
+"**Save and activate** その構成; その名前はペアリングされた DRIVER STATION の画面に表示されるべきです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:63
 msgid "Open the Sample OpMode"
-msgstr "サンプルOpModeを開く"
+msgstr "サンプル Op Mode を開く"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:65
 msgid ""
 "To learn about opening the Sample OpMode, select and read the Blocks **or** "
 "Java section below:"
-msgstr ""
-"Sample OpModeを開く方法について学ぶには、下記のBlocks ** または ** Javaセクションを選択して読み進めてください："
+msgstr "サンプル Op Mode を開く方法について学ぶには、以下の Blocks **or** Java セクションを選択してお読みください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst
 msgid "Blocks"
-msgstr "ブロック"
+msgstr "Blocks"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:72
 msgid ""
@@ -160,9 +150,9 @@ msgid ""
 "http://192.168.43.1:8080 (or http://192.168.49.1:8080 for Android RC phone) "
 "and click the Blocks tab."
 msgstr ""
-"Robot Controllerに無線LANで接続されたノートパソコンやデスクトップコンピュータでChromeブラウザを開きます。REV Control"
-" Hubのアドレスhttp://192.168.43.1:8080（Android "
-"RCスマホの場合はhttp://192.168.49.1:8080）に移動し、「ブロック」タブをクリックします。"
+"PCまたはデスクトップコンピューターを使用して、Robot ControllerにWi-Fiで接続し、Chromeブラウザを開きます。REV "
+"Control Hubのアドレス http://192.168.43.1:8080 （またはAndroid RC電話の場合は "
+"http://192.168.49.1:8080 ）に移動し、Blocksタブをクリックします。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:77
 msgid ""
@@ -170,15 +160,17 @@ msgid ""
 "\"AprilTagLocalization_Darlene_v01\", and select the Sample OpMode "
 "``ConceptAprilTagLocalization``."
 msgstr ""
-"「新しいOpModeを作成」をクリックし、新しい名前として「AprilTagLocalization_Darlene_v01」といったものを入力し、「Sample"
-" OpMode プログラムコンセプトAprilTagLocalization」を選択します。"
+"``Create New OpMode`` "
+"をクリックし、「AprilTagLocalization_Darlene_v01」などの新しい名前を入力し、サンプルOp Mode "
+"``ConceptAprilTagLocalization`` を選択します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:81
 msgid ""
 "If using the built-in camera of an RC phone, change ``true`` to ``false`` at"
 " the OpMode's first Block called ``set USE_WEBCAM``."
 msgstr ""
-"RCスマホの組み込みカメラを使用する場合、OpModeの最初のブロックである「USE_WEBCAM」を「true」から「false」に変更してください。"
+"RC電話の内蔵カメラを使用する場合は、Op Modeの最初のBlockである ``set USE_WEBCAM`` で ``true`` を "
+"``false`` に変更してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:84
 msgid "Save the OpMode, time to try it!"
@@ -186,11 +178,11 @@ msgstr "OpModeを保存しました。試してみましょう！"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst
 msgid "Java"
-msgstr "JAVA"
+msgstr "Java"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:89
 msgid "Open your choice of OnBot Java or Android Studio."
-msgstr "OnBot Java や Android Studio のいずれかを開いてください。"
+msgstr "OnBot Java または Android Studio のいずれかを開いてください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:91
 msgid ""
@@ -198,46 +190,46 @@ msgid ""
 "\"AprilTagLocalization_Oscar_v01.java\", and select the Sample OpMode "
 "``ConceptAprilTagLocalization.java``."
 msgstr ""
-"チームコードフォルダの ``teamcode`` "
-"に、名前を「AprilTagLocalization_Oscar_v01.java」とした新しいOpモードを作成または追加し、「Sample Opモード"
-" ConceptAprilTagLocalization.java」を選択してください。"
+"``teamcode`` フォルダーに、新しいOp "
+"Modeを\"AprilTagLocalization_Oscar_v01.java\"のような名前で追加/作成し、サンプルOp Mode "
+"``__RST_FILEPATH_1__`` を選択してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:95
 msgid ""
 "If using the built-in camera of an RC phone, change ``true`` to ``false`` at"
 " about line 71 (\\ ``USE_WEBCAM``\\ )."
 msgstr ""
-"FIRST Tech Challengeの内蔵カメラを使用する場合、``USE_WEBCAM`` "
-"付近の約71行目（``true``）を（``false``）に変更してください。"
+"RCフォンの内蔵カメラを使用する場合、約71行目（\\ ``USE_WEBCAM``\\ ）で ``true`` を ``false`` "
+"に変更してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:98
 msgid "Click \"Build\", time to try it!"
-msgstr "「Build」をクリックしてみましょう！"
+msgstr "「ビルド」をクリックしてください。試してみましょう！"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:101
 msgid "Run the Sample OpMode"
-msgstr "サンプルOpModeを実行する"
+msgstr "サンプル Op Mode を実行する"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:103
 msgid ""
 "On the Driver Station, select the TeleOp OpMode that you just saved or "
 "built."
-msgstr "Driver Stationで、先ほど保存または構築したテレOpModeを選択してください。"
+msgstr "Driver Stationで、保存またはビルドしたTeleOp Op Modeを選択してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:105
 msgid "Aim the camera at an AprilTag from the current FTC game."
-msgstr "現在のFIRST Tech Challenge ゲームでAprilTagにカメラを向けてください。"
+msgstr "現在のFTC競技からAprilTagにカメラを向けてください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:112
 msgid "Full AprilTag Image"
-msgstr "完全なAprilTag画像"
+msgstr "フルAprilTag画像"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:114
 msgid ""
 "For real results, testing should be done on an FTC game field with one or "
 "more legal AprilTags posted in their correct positions."
 msgstr ""
-"実際の結果を得るには、FTCゲームフィールドで合法的なAprilTagが正しい位置に配置された1つまたは複数のAprilTagを使用してテストを行うべきです。"
+"実際の結果を得るためには、FTCの競技フィールドで、正しい位置に配置された1つ以上の合法的なAprilTagを使用してテストを行う必要があります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:117
 msgid ""
@@ -245,8 +237,8 @@ msgid ""
 "size. Or it may be on a computer screen, with the image zoomed to the "
 "**correct physical size** (4 x 4 inches, in this example):"
 msgstr ""
-"シミュレーションや非公式なテストでは、正しいサイズ（本例では4×4インチ）の緩いフィルムで作られたAprilTagを使用します。または、コンピュータの画面に表示し、画像を"
-" ** 正確な物理的なサイズ ** にズームインさせます："
+"シミュレーションまたはカジュアルなテストの場合、正しいサイズの緩い紙のAprilTagを使用してください。または、コンピュータの画面上に画像を "
+"**correct physical size** （この例では4 x 4インチ）にズームして表示することもできます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:126
 msgid "Partial AprilTag Sheet"
@@ -258,34 +250,34 @@ msgid ""
 "**Camera Stream** preview can be accessed.  See the next section re.  "
 "previews."
 msgstr ""
-"** INITのみをタッチしてください。 ** Telemetryは表示されませんが、この時点ではDriver Station（DS）の ** "
-"Camera Streamプレビュー ** にアクセスできます。次のセクションで詳細をご覧ください。"
+"**Touch INIT only.** テレメトリは表示されませんが、この時点で DS **Camera Stream** "
+"プレビューにアクセスできます。 プレビューに関しては次のセクションを参照してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:131
 msgid ""
 "After using the preview to aim at the AprilTag, touch the DS Start arrow.   "
 "The OpMode should give Telemetry showing the **localization results**:"
 msgstr ""
-"プレビューを使用してAprilTagに向けて瞄准したら、DSスタート矢印をタッチしてください。OpModeはローカライゼーション結果を示すTelemetryを表示します："
+"プレビューを使用してAprilTagを狙った後、DSのスタート矢印をタッチしてください。OpModeは、 **localization "
+"results** を示すTelemetryを表示するはずです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:139
 msgid "Driver Station Sample Output"
-msgstr "Driver Stationサンプル出力"
+msgstr "Driver Station サンプル出力"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:141
 msgid ""
 "These details will be covered in a later section.  In this example, the "
 "camera is 12 inches directly in front of AprilTag #11 from INTO THE DEEP."
 msgstr ""
-"これらの詳細は後述します。この例では、カメラはINTO THE DEEPからAprilTag #11の直接前、つまり12インチ先に位置しています。"
+"これらの詳細は後のセクションで説明されます。この例では、カメラはINTO THE DEEPのAprilTag #11の真前に12インチの位置にあります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:144
 msgid ""
 "Slowly move the camera around, keeping the AprilTag fully in the camera's "
 "view. The telemetry will update with the camera's location on the field."
 msgstr ""
-"カメラを徐々に動かし、AprilTagがカメラの視野内 entire "
-"に保たれるようにします。Telemetryはカメラのフィールド上の位置を更新します。"
+"カメラをゆっくりと動かし、AprilTagがカメラの視界に完全に入るようにしてください。Telemetryはフィールド上のカメラの位置を更新します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:147
 msgid ""
@@ -293,17 +285,19 @@ msgid ""
 "  A later section describes how to get the global **robot pose**\\ , based "
 "on the camera's placement on the robot."
 msgstr ""
-"動作しました！OpModeはカメラの ** グローバルポーズ ** を決定することができます。後述するセクションでは、ロボット上のカメラの位置に基づいて"
-" ** ロボットのグローバルポーズ ** を取得する方法について説明します。"
+"動作しています！あなたのOp Modeはカメラの **global pose** "
+"を決定することができます。後のセクションでは、ロボット上のカメラの配置に基づいてグローバル **robot pose** "
+"を取得する方法について説明します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:151
 msgid ""
 "*Skip the next two sections, if you already know how to use FTC previews.*"
-msgstr "FTCプレビューの使い方を既に知っている場合は、次の2つのセクションはスキップしてください。"
+msgstr ""
+"*Skip the next two sections, if you already know how to use FTC previews.*"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:154
 msgid "DS Preview"
-msgstr "Driver Stationプレビュー"
+msgstr "DS プレビュー"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:156
 msgid ""
@@ -311,60 +305,59 @@ msgid ""
 "seeing the camera's view of the AprilTag with **previews**.  Previewing is "
 "essential for working with robot vision."
 msgstr ""
-"Before describing the telemetry data, this page offers two sections on "
-"seeing the camera's view of the AprilTag with  ** プレビュー ** "
-"。プレビューはロボットビジョンを使用する上で重要です。"
+"テレメトリーデータについて説明する前に、このページでは **previews** "
+"を使用してAprilTagのカメラビューを見るための2つのセクションを提供します。プレビューはロボットビジョンを扱う上で重要です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:160
 msgid ""
 "On the Driver Station (DS), remain in INIT -- don't touch the Start button."
-msgstr "Driver Station（DS）では、INITのままにしておきましょう。STARTボタンは触らないでください。"
+msgstr "ドライバーステーション（DS）では、INITのままでいてください。スタートボタンには触れないでください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:162
 msgid ""
 "At the top right corner, touch the 3-dots menu, then ``Camera Stream``.  "
 "This shows the camera's view; tap the image to refresh it."
 msgstr ""
-"右上角に移動し、3つの点アイコンをタッチします。次に「Camera "
-"Stream」を選択します。これでカメラの視野が表示されます；画像をタップして更新できます。"
+"右上隅の3点メニューをタッチし、次に ``Camera Stream`` "
+"を選択します。これによりカメラのビューが表示されます。画像をタップして更新してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:170
 msgid "DS Camera Stream"
-msgstr "ドライバステーションCamera Stream"
+msgstr "DS カメラストリーム"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:170
 msgid "Example of DS Camera Stream"
-msgstr "例のDriver StationCamera Stream"
+msgstr "DS カメラストリームの例"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:172
 msgid "For a BIG preview, touch the arrows at the bottom right corner."
-msgstr "大きなプレビューを見るには、右下の矢印をタッチしてください。"
+msgstr "大きなプレビューを表示するには、右下隅の矢印をタッチしてください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:174
 msgid ""
 "Or, select Camera Stream again, to return to the previous screen and its "
 "Telemetry."
-msgstr "または、再度Camera Streamを選択して、前の画面とTelemetryに戻りましょう。"
+msgstr "または、Camera Streamを再度選択して、前の画面とそのTelemetryに戻ります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:178
 msgid "RC Preview"
-msgstr "RCプレビュー"
+msgstr "RC プレビュー"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:180
 msgid ""
 "The Robot Controller (RC) device also makes a preview, called ``LiveView``. "
 "This is full video, and is shown automatically on the screen of an RC phone."
 msgstr ""
-"Robot "
-"Controller（RC）デバイスでもプレビューを生成し、「ライブビュー」と呼ばれます。これは全画面のビデオで、自動的にRCスマホの画面に表示されます。"
+"Robot Controller (RC) デバイスは、 ``LiveView`` "
+"と呼ばれるプレビューも作成します。これはフルビデオであり、RCフォンの画面に自動的に表示されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:188
 msgid "Control Hub Preview"
-msgstr "Control Hubプレビュー"
+msgstr "Control Hub プレビュー"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:190
 msgid "The above preview is from a REV Control Hub."
-msgstr "上記のプレビューはREV Control Hubから取得しています。"
+msgstr "上記のプレビューはREV Robotics Control Hubからのものです。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:192
 msgid ""
@@ -373,9 +366,9 @@ msgid ""
 "\"screen copy\") to see the preview on a laptop or computer that's connected"
 " via Wi-Fi to the Control Hub."
 msgstr ""
-"物理的な画面がなく、因此、HDMI モニターを接続する ** か ** 、Wi-Fi で Control Hub "
-"に接続されたノートパソコンやコンピュータ上でプレビューを見るためにオープンソースの `scrcpy "
-"<https://github.com/Genymobile/scrcpy>`_ (「スクリーンコピー」) を使用する必要があります。"
+"物理的な画面はないため、HDMIモニターを接続して、オープンソースの `scrcpy "
+"<https://github.com/Genymobile/scrcpy>`_ （「スクリーンコピー」と呼ばれる）を使用して、Wi-"
+"Fi経由でControl Hubに接続されたPCやコンピュータでプレビューを見る必要があります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:198
 msgid "Basic Telemetry Data"
@@ -383,25 +376,25 @@ msgstr "基本的なTelemetryデータ"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:200
 msgid "Let's look closer at the DS telemetry:"
-msgstr "lets look closer at the DS telemetry:"
+msgstr "DSのTelemetryを詳しく見てみましょう："
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:207
 msgid "DS Telemetry Example"
-msgstr "Driver StationのTelemetry例"
+msgstr "DS Telemetryの例"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:209
 msgid ""
 "In this example, the camera is 12 inches directly in front of AprilTag #11 "
 "from INTO THE DEEP."
-msgstr "この例では、カメラは INTO THE DEEP から AprilTag #11 の正面に直接 12インチの位置にあります。"
+msgstr "この例では、カメラは「INTO THE DEEP」のAprilTag #11の真前に12インチの位置にあります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:217
 msgid "Tag Locations for INTO THE DEEP"
-msgstr "INTO THE DEEP のタグ場所"
+msgstr "INTO THE DEEPのタグ位置"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:217
 msgid "Specific Tag Locations for INTO THE DEEP"
-msgstr "INTO THE DEEP の特定のタグ位置"
+msgstr "INTO THE DEEPの特定タグ位置"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:219
 msgid ""
@@ -409,8 +402,8 @@ msgid ""
 "the field.  This telemetry gives the camera's X position as (approximately) "
 "-60 inches, namely 12 inches in front of that tag."
 msgstr ""
-"4月タグ#11の中心は、フィールドの中心からX = "
-"-72インチの位置にあります。このTelemetryでは、カメラのX位置が約-60インチであることが伝えられ、つまりそのタグの前方12インチの位置にあるとされています。"
+"AprilTag #11の中心はフィールドの中心からX = "
+"-72インチの位置にあります。このTelemetryはカメラのX位置を（おおよそ）-60インチとしており、つまりそのタグの12インチ前方にあります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:223
 msgid ""
@@ -418,8 +411,8 @@ msgid ""
 "the field.  This telemetry gives the camera's Y position as (approximately) "
 "48 inches, namely directly aligned (horizontally) with that tag."
 msgstr ""
-"AprilTag "
-"#11の中心は、フィールドの中心からY方向に約48インチの位置にある。このTelemetryは、カメラのY座標が約48インチであることを示し、つまりそのタグと水平に正対している。"
+"AprilTag #11 の中心はフィールドの中心から Y = 48 インチの位置にあります。この Telemetry はカメラの Y "
+"位置を（おおよそ）48 インチとして示しており、つまりそのタグと水平に直接整列しています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:227
 msgid ""
@@ -427,8 +420,8 @@ msgid ""
 "This telemetry gives the camera's Z position as (approximately) 5.9 inches, "
 "namely directly aligned (vertically) with that tag."
 msgstr ""
-"AprilTag "
-"#11の中心は、マットより上に5.9インチの位置にある。このTelemetryでは、カメラのZ位置が約5.9インチであることが示され、つまりそのタグと垂直に正確にalinied（aliniedをそのまま使用）されている。"
+"AprilTag #11の中心は、位置Z = "
+"5.9インチ（マットの上）にあります。このTelemetryは、カメラのZ位置を（おおよそ）5.9インチとして示しており、つまりそのタグと（垂直に）直接整列しています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:231
 msgid ""
@@ -437,7 +430,7 @@ msgid ""
 " confirms the parallel orientation, with PRY values (approximately) 0 or 90 "
 "degrees."
 msgstr ""
-"カメラレンズはAprilTagに対して平行であるため、ピッチ、ロール、ユーロの値は直交（0度または90度の倍数）でなければなりません。このTelemetryは並行な方向性を確認し、PRYの値（約）0度または90度です。"
+"カメラレンズはAprilTagに対して平行であるため、ピッチ、ロール、ヨーの値は直交している必要があります（0度または90度の倍数）。このTelemetryは、PRY値が（おおよそ）0度または90度であることを確認し、平行な向きを示しています。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:236
 msgid "Reference Frames"
@@ -450,8 +443,8 @@ msgid ""
 " yaw angle of -180 degrees in the official FTC :ref:`field coordinate system"
 " <first field coordinate system>` :"
 msgstr ""
-"上記の例では、ヨー角は約-90度と与えられていますが、カメラは負のX方向を向いているため、公式なFIRST :ref:`フィールド座標系<first "
-"field coordinate system>` におけるヨー角またはヘッジンゲン角は-180度となります："
+"上記の例では、ヨー角は（おおよそ）-90度とされています。しかし、カメラは負のX方向を向いているため、公式のFTC :ref:`field "
+"coordinate system <first field coordinate system>` では見出しまたはヨー角が-180度となります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:251
 msgid ""
@@ -462,8 +455,9 @@ msgid ""
 "in basic and obvious changes in axis direction, axis swapping, and "
 "orthogonal angles (90-degree increments)."
 msgstr ""
-"このサンプルのOpModeは、他のFTCナビゲーションアプリケーション（:ref:`IMUやロボット軸<imu axes "
-"def>`、オドメトリーデバイスの軸、およびFTCフィールドシステムなど）から予想されるものとは異なる参照フレーム（座標系）を使用しています。これらの違いは通常、基本的な軸方向の変更、軸の交換、および直角角度（90度の増分）などの明確な変化をもたらします。"
+"このサンプルOp Modeは、他のFTCナビゲーションアプリケーション、 :ref:`IMU or robot axes <imu axes def>` 、オドメトリデバイスの軸、およびFTCフィールドシステム（上記参照）から期待されるものとは異なる参照フレーム（座標系）を使用しています。\n"
+"\n"
+"これらの違いは、通常、軸の方向、軸の入れ替え、および直交角（90度の増分）において基本的かつ明白な変化をもたらします。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:258
 msgid ""
@@ -471,8 +465,8 @@ msgid ""
 "scenario of your AprilTag localization.  Manually adjust values as needed to"
 " accomplish your specific navigation goals."
 msgstr ""
-"AprilTag ロケール化の与えられたシナリオでこれらの違いを学び、OpMode "
-"に組み込んでください。必要に応じて値を手動で調整し、特定のナビゲーション目標を達成してください。AprilTagローカライゼーションのための与えられたシナリオで、これらの違いを学び、OpModeに取り入れてください。必要に応じて値を手動で調整し、特定のナビゲーション目標を達成してください。"
+"これらの違いを学び、あなたのOp "
+"Modeに組み込んでください。AprilTagの位置特定に関する特定のシナリオにおいて、特定のナビゲーション目標を達成するために、必要に応じて値を手動で調整してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:262
 msgid ""
@@ -481,10 +475,14 @@ msgid ""
 "multiple data sources for navigation.  Base your robot strategy on "
 "capabilities **demonstrated** through extensive testing and refinement."
 msgstr ""
+"**Evaluate the accuracy and reliability of AprilTag navigation**\\ , "
+"オフセット、スムージング、その他の調整を行った場合と行わない場合があります。 "
+"一部のFTCチームは、ナビゲーションのために複数のデータソースを使用しています。 ロボットの戦略は、 **demonstrated** "
+"の能力に基づいて、広範なテストと改良を通じて構築してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:268
 msgid "Camera Placement on Robot"
-msgstr "ロボットに設置するカメラの位置付け"
+msgstr "ロボット上のカメラの配置"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:270
 msgid ""
@@ -492,50 +490,53 @@ msgid ""
 " the camera on the robot.  The returned data will then represent the global "
 "**robot pose** rather than the camera's pose."
 msgstr ""
+"Sample Op "
+"Modeは、ロボット上のカメラの位置と向きを指定するためのフィールドを提供します。返されるデータは、カメラのポーズではなく、グローバル **robot "
+"pose** を表します。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:274
 msgid ""
 "Subject to the reference frame caveat noted above, do your best to follow "
 "these commented instructions, in the Blocks and Java Sample OpModes:"
 msgstr ""
-"上記で注意した参照フレームに関する制限事項に従い、可能な限りこれらのコメント付き指示を遵守し、ブロックとJavaのサンプルオモードで作業してください："
+"上記の参照フレームに関する注意事項に従い、BlocksおよびJava Sample Op Modesのコメント付き指示に従うよう最善を尽くしてください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:279
 msgid ""
 "Setting these values requires a definition of the axes of the camera and "
 "robot:"
-msgstr "これらの値を設定するには、カメラおよびロボットの軸の定義が必要です："
+msgstr "これらの値を設定するには、カメラとロボットの軸の定義が必要です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:281
 msgid "**Camera axes:**"
-msgstr "**カメラ軸:** "
+msgstr "**Camera axes:**"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:283
 msgid "*Origin location:* Center of the lens"
-msgstr "*原点位置:* レンズの中心"
+msgstr "*Origin location:* レンズの中心"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:284
 msgid ""
 "*Axes orientation:* +x right, +y down, +z forward (from camera's "
 "perspective)"
-msgstr "*軸の向き:* +xは右、+yは下、+zはカメラから見た前方（から）"
+msgstr "*Axes orientation:* +x 右、+y 下、+z 前方（カメラの視点から）"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:286
 msgid ""
 "**Robot axes:** (this is typical, but you can define this however you want)"
-msgstr "**ロボットの軸:** (これは一般的ですが、あなたがどのように定義したいかによって異なります)"
+msgstr "**Robot axes:** （これは一般的ですが、あなたの好きなように定義できます）"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:288
 msgid "*Origin location:* Center of the robot at field height"
-msgstr "*原点位置:* フィールド高さでのロボットの中心"
+msgstr "*Origin location:* フィールドの高さにおけるロボットの中心"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:289
 msgid "*Axes orientation:* +x right, +y forward, +z upward"
-msgstr "*軸の向き:* +xは右、+yは前方、+zは上方"
+msgstr "*Axes orientation:* +x 右, +y 前, +z 上"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:291
 msgid "**Position:**"
-msgstr "**位置:** "
+msgstr "**Position:**"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:293
 msgid ""
@@ -544,12 +545,12 @@ msgid ""
 " 7 inches forward, and 12 inches above the ground - you would need to set "
 "the position to (-5, 7, 12)."
 msgstr ""
-"もしすべての値がゼロ（翻訳不要）であれば、カメラはロボットの中心にあると想定できます。例えば、カメラが地面から12インチ上にあり、左に5インチ、前方に7インチ配置されている場合、位置を(-5,"
-" 7, 12)に設定する必要があります。"
+"すべての値がゼロの場合（翻訳なし）、カメラがロボットの中心にあることを意味します。カメラが左に5インチ、前に7インチ、地面から12インチの位置にあると仮定すると、位置を（-5,"
+" 7, 12）に設定する必要があります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:298
 msgid "**Orientation:**"
-msgstr "**方向性:** "
+msgstr "**Orientation:**"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:300
 msgid ""
@@ -560,13 +561,21 @@ msgid ""
 "left, -90 degrees for straight right, etc. You can also set the roll to "
 "+/-90 degrees if it's vertical, or 180 degrees if it's upside-down."
 msgstr ""
-"もしすべての値がゼロ（回転なし）である場合、カメラは直上を向いていることを意味します。ほとんどの場合、ピッチをx軸周りの-90度に設定する必要があります（つまり、水平にカメラが向けられています）。カメラが前方を向いていればヨーを0度に、直左を向いていれば+90度に、直右を向いていれば-90度に設定します。垂直である場合や反転している場合は、ロールを±90度または180度に設定できます。もしすべての値がゼロ（回転なし）であれば、カメラは直上に向けています。ほとんどの場合、ピッチをx軸周りの-90度に設定する必要があります（つまり、水平に向けられています）。カメラが前方に向いている場合はヨーを0度とし、左向きに向けている場合は+90度、右向きに向けている場合は-90度など、それぞれの角度を使用します。また、垂直に向けられている場合や反転している場合など、ロールを±90度または180度に設定することもできます。もしすべての値がゼロで、回転がなければ、カメラは垂直に向けられていることを意味します。ほとんどの場合、ピッチを-90度（x軸周りの回転）に設定する必要があります。つまり、カメラは水平になっています。カメラが前方に向いている場合はヨーを0度、直左に向けていれば+90度、直右に向けていれば-90度などとします。また、垂直であればロールを±90度、倒れていても180度に設定することもできます。"
+"すべての値がゼロ（回転なし）の場合、カメラは真上を向いていることを意味します。\n"
+"\n"
+"ほとんどの場合、ピッチを-90度（x軸周りの回転）に設定する必要があります。これはカメラが水平であることを意味します。\n"
+"\n"
+"カメラが前方を向いている場合はヨーを0に設定し、真左を向いている場合は+90度、真右を向いている場合は-90度などとします。\n"
+"\n"
+"ロールを垂直の場合は±90度、逆さまの場合は180度に設定することもできます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:308
 msgid ""
 "To see the commands for setting **camera pose** (on the robot), select and "
 "read the Blocks **or** Java section below:"
 msgstr ""
+"ロボット上で **camera pose** を設定するためのコマンドを確認するには、以下の Blocks **or** Java "
+"セクションを選択してお読みください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst
 msgid "Camera Pose Blocks"
@@ -577,17 +586,15 @@ msgid ""
 "The third Block called ``.setCameraPose`` can be found in the toolbox under "
 "Vision/AprilTag/AprilTagProcessor.Builder."
 msgstr ""
-"第三のブロック ``.setCameraPose`` は、ビジョン/AprilTag/AprilTagProcessor.Builder "
-"のツールボックス内にあります。"
+"三番目のブロックである ``.setCameraPose`` は、ツールボックスの "
+"Vision/AprilTag/AprilTagProcessor.Builder の下にあります。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:326
 msgid ""
 "These lines show that the camera placement on the robot becomes part of the "
 "AprilTag Processor, through the Java Builder pattern."
 msgstr ""
-"これらの行は、カメラの配置がロボットの部分としてAprilTag Processorに統合される方法を示しています。Java "
-"Builderパターンを通じて。これらの行は、カメラの配置がロボットにどのようにAprilTag "
-"Processorの一部になるかを示しています。Java Builderパターンを通じて。"
+"これらの行は、カメラの配置がロボット上でAprilTagプロセッサの一部となることを示しています。これはJavaビルダーパターンを通じて実現されます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:342
 msgid "Reading Global Pose"
@@ -598,11 +605,13 @@ msgid ""
 "To see the commands for reading **global robot pose** data, select and read "
 "the Blocks **or** Java section below:"
 msgstr ""
+"**global robot pose** データを読み取るためのコマンドを確認するには、以下の Blocks **or** Java "
+"セクションを選択してお読みください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:351
 msgid ""
 "These green Blocks can be assigned to position Variables, for later use."
-msgstr "これらの緑色のブロックは、後で使用するための位置変数に割り当てることができます。"
+msgstr "これらの緑のBlocksは、後で使用するために位置変数に割り当てることができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:358
@@ -612,12 +621,12 @@ msgstr "ロボット位置ブロック"
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:360
 msgid ""
 "These green Blocks can be assigned to orientation Variables, for later use."
-msgstr "これらの緑色のブロックは、後で使用するために方向変数に割り当てることができます。"
+msgstr "これらの緑のBlocksは、後で使用するために方向の変数に割り当てることができます。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:368
 msgid "Robot Orientation Blocks"
-msgstr "ロボットの向きブロック"
+msgstr "ロボットオリエンテーションブロック"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:373
 msgid ""
@@ -625,10 +634,8 @@ msgid ""
 "variables, for later use.  These are typically \"instant\" values inside a "
 "``for`` loop, as used in the Sample OpMode."
 msgstr ""
-"これらの行は、後で使用するために位置と向きの値を変数に割り当てる方法を示しています。これらは典型的には「瞬間」の値であり、Sample OpMode "
-"で使用される ``for`` "
-"ループ内にあります。これらの行は、後で使用するために位置と向きの値を変数に割り当てる方法を示しています。これらは典型的には「瞬間」の値であり、Sample"
-" OpMode などの ``for`` ループ内で使用されます。"
+"これらの行は、後で使用するために変数に位置と向きの値を割り当てることを示しています。これらは通常、Sample Op Modeで使用される "
+"``for`` ループ内の「瞬時」の値です。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:392
 msgid "Summary"
@@ -639,18 +646,20 @@ msgid ""
 "The 2024 FTC software allows **robot localization** using a camera and fixed"
 " AprilTags on the field.  This is done by combining three elements:"
 msgstr ""
+"2024年のFTCソフトウェアでは、フィールド上のカメラと固定されたAprilTagsを使用して **robot localization** "
+"を実現します。これは、3つの要素を組み合わせることで行われます："
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:398
 msgid "basic AprilTag pose data,"
-msgstr "基本的なAprilTagのポーズデータ,"
+msgstr "基本的なAprilTagポーズデータ、"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:399
 msgid "the tag's built-in metadata, and"
-msgstr "タグの内包メタデータ、"
+msgstr "タグの組み込みメタデータ、および"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:400
 msgid "the camera's pose on the robot."
-msgstr "ロボット上のカメラの位置姿勢。"
+msgstr "ロボット上のカメラのポーズ。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:402
 msgid ""
@@ -658,14 +667,14 @@ msgid ""
 "differ from others, such as IMU or robot axes, odometry device axes, and the"
 " FTC field system.  Adjust as needed."
 msgstr ""
-"AprilTagのローカライゼーションは、IMUやロボット軸、オドメトリデバイスの軸、またはFTCフィールドシステムなど他のものとは異なる参照フレーム（座標系）を使用する場合があります。必要に応じて調整してください。"
+"AprilTagの位置特定は、IMUやロボット軸、オドメトリデバイス軸、FTCフィールドシステムなど、他のものとは異なる参照フレーム（座標系）を使用します。必要に応じて調整してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:406
 msgid ""
 "Evaluate this navigation tool against other choices, and plan a robot "
 "strategy based on demonstrated capability."
-msgstr "他の選択肢とこのナビゲーションツールを評価し、実証された能力に基づいてロボットの戦略を計画してください。"
+msgstr "このナビゲーションツールを他の選択肢と比較評価し、実証された能力に基づいてロボット戦略を計画してください。"
 
 #: ../../source/apriltag/vision_portal/apriltag_localization/apriltag-localization.rst:409
 msgid "Best of luck as you develop FTC robot navigation to reach your goals!"
-msgstr "FTCロボットのナビゲーション開発で目標達成に運良くあることをお祈りします！"
+msgstr "目標達成に向けてFTCロボットのナビゲーションを開発する際のご成功をお祈りいたします！"

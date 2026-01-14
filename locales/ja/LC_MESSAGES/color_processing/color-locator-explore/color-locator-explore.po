@@ -6,22 +6,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:2
 msgid "Color Locator (Explore)"
-msgstr "色検出器（探索）"
+msgstr "カラー ロケーター (エクスプローラー)"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:5
 msgid "Overview"
@@ -34,38 +28,38 @@ msgid ""
 "tutorial's previous :doc:`Discover <../color-locator-discover/color-locator-"
 "discover>` page, to open and test this OpMode."
 msgstr ""
-"この ** Explore ** ページでは、 ** ColorLocator ** "
-"サンプルOpModeのデフォルト設定を変更する方法について説明しています。このページは、以前の :doc:`Discover <../color-"
-"locator-discover/color-locator-discover>` ページでこのOpModeを開きテストしたことを前提としています。"
+"この **Explore** ページでは、 **ColorLocator** サンプルOp Modeのデフォルト設定を変更する方法を示します。このOp "
+"Modeを開いてテストするために、このチュートリアルの前の :doc:`Discover <../color-locator-"
+"discover/color-locator-discover>` ページに従ったことを前提としています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:13
 msgid "ColorLocator has only two required **inputs**\\ :"
-msgstr "ColorLocatorにはOnly two required **inputs** \\ があります："
+msgstr "ColorLocatorには、必須の **inputs** が2つだけあります："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:15
 msgid "target color range"
-msgstr "対象の色の範囲"
+msgstr "ターゲットカラー範囲"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:16
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:120
 msgid "Region of Interest (ROI)"
-msgstr "興味領域 (ROI)"
+msgstr "関心領域 (ROI)"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:18
 msgid "Both of these can be specified in multiple ways."
-msgstr "これらは複数の方法で指定できます。"
+msgstr "これらの両方は、複数の方法で指定することができます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:20
 msgid "This Explore page covers **settings** that are already in the Sample:"
-msgstr "このExploreページでは、Sampleに既に含まれている **設定** について説明しています："
+msgstr "この探索ページでは、サンプルに既に含まれている **settings** について説明します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:22
 msgid "which contour types to process"
-msgstr "処理するコンターの種類は？"
+msgstr "処理する輪郭の種類"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:23
 msgid "whether to draw contours in the preview"
-msgstr "プレビューで輪郭を描画するかどうか"
+msgstr "プレビューに輪郭を描画するかどうか"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:24
 msgid "pre-processing of the image"
@@ -73,19 +67,19 @@ msgstr "画像の前処理"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:25
 msgid "camera resolution"
-msgstr "カメラの解像度"
+msgstr "カメラ解像度"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:26
 msgid "post-filter the Blob results"
-msgstr "Blobの結果をポストフィルター処理する"
+msgstr "Blobの結果をポストフィルタリングする"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:27
 msgid "post-sort the Blob results"
-msgstr "ポストソートのBlob結果"
+msgstr "Blobの結果をポストソートする"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:30
 msgid "Building the VisionPortal"
-msgstr "Vision Portalの構築"
+msgstr "VisionPortalの構築"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:32
 msgid ""
@@ -93,8 +87,9 @@ msgid ""
 " the Java **Builder** pattern.  This is the same Builder pattern used to "
 "create an AprilTag Processor, and previously a TensorFlow Processor."
 msgstr ""
-"サンプルのOpモードは、「Color Blob Locator」 ** プロセッサー ** を作成するためにJavaの ** ビルダー ** "
-"パターンを使用します。これはAprilTagプロセッサーや以前のTensorFlowプロセッサーを作成する際に使用したビルダーパターンと同一です。"
+"サンプルOp Modeは、最初にJavaの **Builder** パターンを使用して「Color Blob Locator」 "
+"**Processor** "
+"を作成します。これは、AprilTagプロセッサを作成するために使用されるのと同じビルダーパターンであり、以前はTensorFlowプロセッサにも使用されていました。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:36
 msgid ""
@@ -102,8 +97,8 @@ msgid ""
 "pattern.  This includes adding the \"Color Blob Locator\" Processor to the "
 "VisionPortal."
 msgstr ""
-"サンプルのOpModeでは、 ** VisionPortal ** を再びビルダー模式を使用して作成します。これには、「Color Blob "
-"Locator」プロセッサをVisionPortalに追加する処理が含まれます。"
+"サンプルOp Modeは、再びビルダーパターンを使用して **VisionPortal** を作成します。これには、「Color Blob "
+"Locator」プロセッサをVisionPortalに追加することが含まれます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:40
 msgid ""
@@ -112,19 +107,19 @@ msgid ""
 "<apriltag/vision_portal/visionportal_overview/visionportal-"
 "overview:visionportal overview>`."
 msgstr ""
-"FIRST Tech ChallengeのVisionPortalは2023年に導入されました。詳細情報については、:ref:`FTCドキュメント "
-"VisionPortalページ<apriltag/vision_portal/visionportal_overview/visionportal-"
-"overview:visionportal overview>` を参照してください。"
+"FTC VisionPortalは2023年に導入されました。詳細情報は :ref:`ftc-docs VisionPortal Page "
+"<apriltag/vision_portal/visionportal_overview/visionportal-"
+"overview:visionportal overview>` で入手できます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:44
 msgid "Target Color Range"
-msgstr "ターゲットの色の範囲"
+msgstr "ターゲットカラー範囲"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:46
 msgid ""
 "The \"target color\" is actually a **range** of numerical color values, for "
 "a better chance of finding the desired color."
-msgstr "「ターゲットカラー」は、目的の色を見つけるためのより良い確率を得るために、実際には数値的な色値の **範囲** を指します。"
+msgstr "「ターゲットカラー」は、実際には希望する色を見つけるためのより良いチャンスを得るために、数値の色値の **range** です。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:49
 msgid ""
@@ -132,8 +127,8 @@ msgid ""
 "ARTIFACT_GREEN) has been pre-programmed with a range of color values to "
 "detect most shades of that color, in most lighting conditions."
 msgstr ""
-"各 ** スワッチ ** "
-"の名前（ブルー、レッド、イエロー、グリーン、アートファクト・パープル、アートファクト・グリーン）には、その色のほとんどのトーンを検出できるように、あらかじめさまざまな色値がプログラムされています。"
+"各 **Swatch** "
+"名称（BLUE、RED、YELLOW、GREEN、ARTIFACT_PURPLE、ARTIFACT_GREEN）には、ほとんどの照明条件下でその色のほとんどの色合いを検出するための色値の範囲が事前にプログラムされています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:53
 msgid ""
@@ -141,9 +136,8 @@ msgid ""
 "(called Samples) from INTO THE DEEP. The values for ARTIFACT_PURPLE and "
 "ARTIFACT_GREEN were tuned for the plastic game pieces from DECODE."
 msgstr ""
-"レッド、ブルー、イエローの値は、DEEP "
-"インタオーシャンから取り出したプラスチックゲームピース（サンプルと呼ばれる）に対して調整されました。ARTIFACT_PURPLE および "
-"ARTIFACT_GREEN の値は、DECODE より取り出したプラスチックゲームピースに対して調整されました。"
+"Red、Blue、Yellowの値は、INTO THE "
+"DEEPのプラスチック製ゲームピース（Samplesと呼ばれる）に合わせて調整されました。ARTIFACT_PURPLEおよびARTIFACT_GREENの値は、DECODEのプラスチック製ゲームピースに合わせて調整されました。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:57
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:138
@@ -153,47 +147,46 @@ msgstr ""
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:393
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:446
 msgid "Select and read the Blocks **or** Java section below:"
-msgstr "以下のBlocks **または** Javaのセクションを選択し、読み進めてください："
+msgstr "以下のBlocks **or** Javaセクションを選択して読みます:"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "Blocks"
-msgstr "ブロック"
+msgstr "Blocks"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:63
 msgid ""
 "The sample OpMode uses this Builder Block to specify the target color "
 "Swatch:"
-msgstr "サンプルのOpModeは、このビルダー・ブロックを使用してターゲットの色スウォッチを指定します："
+msgstr "サンプルのOp Modeは、このビルダーブロックを使用して、ターゲットカラーのスウォッチを指定します："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "Setting the color swatch"
-msgstr "色のサンプル設定"
+msgstr "カラーサンプルの設定"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:70
 msgid "Setting the Color Range Swatch"
-msgstr "色の範囲スウォッチの設定"
+msgstr "カラー範囲スウォッチの設定"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:72
 msgid ""
 "Use the drop-down list to select the Swatch of the desired target color "
 "range."
-msgstr "希望するターゲット色域のスワッチを選択するために、ドロップダウンリストを使用します。"
+msgstr "ドロップダウンリストを使用して、希望するターゲットカラー範囲のスウォッチを選択してください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:75
 msgid ""
 "As an alternate, this Block can be replaced with the following Block in the "
 "Vision/ColorBlobLocator/Processor.Builder toolbox:"
 msgstr ""
-"代替手段として、このブロックはビジョン/ColorBlobLocator/Processor.Builder "
-"ツールボックスの以下のブロックで置き換えることができます："
+"代替として、このブロックはVision/ColorBlobLocator/Processor.Builderツールボックス内の次のブロックに置き換えることができます："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "Setting custom color range"
-msgstr "カスタム色域の設定"
+msgstr "カスタムカラー範囲の設定"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:83
 msgid "Setting a custom color range"
-msgstr "カスタム色-range の設定"
+msgstr "カスタムカラー範囲の設定"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:85
 msgid ""
@@ -201,20 +194,22 @@ msgid ""
 "YCrCb, HSV or RGB.  Learn more about Color Spaces at the separate page in "
 "this tutorial."
 msgstr ""
-"まず、下拉表示リスト（緑色の矢印）を使用して「 ** 色空間 ** "
-"」を選択します：YCrCb、HSV、またはRGB。このチュートリアル内の別ページで色空間について学ぶことができます。"
+"最初に、ドロップダウンリスト（緑の矢印）を使用して **Color Space** : YCrCb、HSV、またはRGB "
+"を選択します。このチュートリアルの別ページでカラースペースについて詳しく学びましょう。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:89
 msgid ""
 "Then select the numerical values in that Color Space to define the range of "
 "the target color."
-msgstr "その色情報空間における数値を選択して、ターゲットカラーの範囲を定義します。"
+msgstr "次に、そのカラー空間内の数値を選択して、ターゲットカラーの範囲を定義します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:92
 msgid ""
 "The ``min`` and ``max`` fields relate to a corresponding pair of values, "
 "namely (v0, v0), (v1, v1) or (v2, v2)."
-msgstr "「min」および「max」のフィールドは、対応する値のペア（v0, v0）、（v1, v1）または（v2, v2）に関連しています。"
+msgstr ""
+"``min`` および ``max`` フィールドは、対応する値のペアに関連しています。すなわち、(v0, v0)、(v1, v1) または (v2, "
+"v2) です。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "Java"
@@ -224,7 +219,7 @@ msgstr "Java"
 msgid ""
 "In the Sample OpMode, follow the instructions at about lines 70-75 to set "
 "the desired target color range at about line 110."
-msgstr "サンプルOpModeでは、約70行目から75行目の指示に従って、約110行目で望むターゲットカラー範囲を設定してください。"
+msgstr "サンプルOp Modeでは、約70-75行の指示に従って、約110行で希望するターゲットカラー範囲を設定してください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:101
 msgid ""
@@ -232,7 +227,7 @@ msgid ""
 "(YCrCb, HSV or RGB).  Learn more about Color Spaces at the separate page in "
 "this tutorial."
 msgstr ""
-"既に定義されたスワッチを使用するか、指定された色空間（YCrCb、HSV、またはRGB）でカスタム範囲を設定します。このチュートリアルの別ページで色空間について詳しく学べます。"
+"あらかじめ定義されたスウォッチを使用するか、指定されたカラースペース（YCrCb、HSV、またはRGB）でカスタム範囲を設定します。このチュートリアルの別ページでカラースペースについて詳しく学びましょう。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:122
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:170
@@ -241,7 +236,7 @@ msgstr ""
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:369
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:438
 msgid "The Blocks and Java Sample OpModes give this description:"
-msgstr "ブロックとJavaサンプルオモードは次の説明を提供します："
+msgstr "BlocksおよびJavaサンプルOp Modeは、次の説明を提供します："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:126
 msgid ""
@@ -250,8 +245,10 @@ msgid ""
 "standard image coordinates or a normalized +/- 1.0 coordinate system.  Use "
 "one form of the ImageRegion class to define the ROI.*"
 msgstr ""
-"* "
-"色ロケーターを集中させるには、検索したい領域（ROI）を定義します。これは全体のフレームであるか、標準画像座標や正規化された±1.0座標系を使用して定義したサブ領域であるかを選べます。ImageRegionクラスのいずれかの形式を使用してROIを定義します.*"
+"*Focus the color locator by defining a RegionOfInterest (ROI) which you want"
+" to search.  This can be the entire frame, or a sub-region defined using "
+"standard image coordinates or a normalized +/- 1.0 coordinate system.  Use "
+"one form of the ImageRegion class to define the ROI.*"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:132
 msgid ""
@@ -261,9 +258,10 @@ msgid ""
 "following :doc:`Challenge <../color-locator-challenge/color-locator-"
 "challenge>` page."
 msgstr ""
-"注意: ROIのサイズを変更したり、カメラの解像度を変更した場合、面積によるフィルタリングに調整が必要になることがあります。後処理はこのチュートリアルの"
-" ** Explore ** ページで説明されており、前処理については :doc:`チャレンジ <../color-locator-"
-"challenge/color-locator-challenge>` のページで詳しく説明されています。"
+"注意: "
+"ROIサイズの変更および/またはカメラ解像度の変更は、面積によるフィルタリングの調整を必要とする場合があります。ポストフィルタリングについては、このチュートリアルの"
+" **Explore** ページで説明されており、プレフィルタリングについては次の :doc:`Challenge <../color-locator-"
+"challenge/color-locator-challenge>` ページで説明されています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "Setting ROI"
@@ -277,11 +275,11 @@ msgstr "ROIの設定"
 msgid ""
 "In the Sample OpMode, follow the instructions at about lines 77-83 to set "
 "the desired ROI at about line 112."
-msgstr "サンプルOpModeでは、約77〜83行目の指示に従って、約112行目で望むROIを設定してください。"
+msgstr "サンプルOp Modeでは、約77行目から83行目の指示に従って、約112行目で希望するROIを設定してください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:168
 msgid "Choice of Contours"
-msgstr "コンターの選択"
+msgstr "輪郭の選択"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:174
 msgid ""
@@ -290,23 +288,24 @@ msgid ""
 "EXTERNAL_ONLY helps to avoid bright reflection spots from breaking up areas "
 "of solid color.*"
 msgstr ""
-"* "
-"含まれる輪郭を定義してください。すべての輪郭を取得するか、他の輪郭の中に完全に含まれている輪郭はスキップすることができます。注意：EXTERNAL_ONLY"
-" を使用すると、明るい反射斑点による単色領域の分割を避けることができます.*"
+"*Define which contours are included.  You can get ALL the contours, or you "
+"can skip any contours that are completely inside another contour.  note: "
+"EXTERNAL_ONLY helps to avoid bright reflection spots from breaking up areas "
+"of solid color.*"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:180
 msgid ""
 "Also, the display of contours (in the previews) can be turned ON or OFF:"
-msgstr "また、プレビューで輪郭の表示（コンター）をONまたはOFFに変更できます："
+msgstr "また、輪郭の表示（プレビュー内）はONまたはOFFにすることができます："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:184
 msgid "Turning this on helps debugging but takes up valuable CPU time."
-msgstr "これを有効にするとデバッグが容易になりますが、貴重なCPU時間を取ります。"
+msgstr "これをオンにするとデバッグが助けられますが、貴重なCPU時間を消費します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:198
 msgid "Contour Choices"
-msgstr "コンターフォーム選択"
+msgstr "輪郭の選択"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:203
 msgid ""
@@ -314,7 +313,8 @@ msgid ""
 "the desired contour mode and drawing setting at about lines 111 and 113, "
 "respectively."
 msgstr ""
-"サンプルOpModeでは、約85行目から92行目の指示に従って、目的のカーネルモードと描画設定をそれぞれ約111行目と113行目に設定してください。"
+"Sample Op "
+"Modeでは、約85行目から92行目の指示に従って、約111行目と113行目でそれぞれ希望する輪郭モードと描画設定を設定してください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:219
 msgid "Image Pre-Processing"
@@ -326,13 +326,14 @@ msgid ""
 "\"pre-processing\" happens **before** OpenCV performs Blob formation, thus "
 "affecting the contours seen in DS and RC previews."
 msgstr ""
+"デフォルトのサンプル Op Mode は、カメラの画像を意図的に **blurs** します。この「前処理」は、 **before** OpenCV "
+"がブロブ形成を行う際に発生し、その結果、DS および RC プレビューで見られる輪郭に影響を与えます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:225
 msgid ""
 "The effect is very small (default kernel size of 5x5 pixels), but can "
 "significantly improve Blob formation, giving more useful results."
-msgstr ""
-"効果は非常に小さい（デフォルトのカーネルサイズが5x5ピクセル）、ですが、ブロブ形成に大幅に改善をもたらし、より有用な結果を得ることができます。"
+msgstr "効果は非常に小さいですが（デフォルトのカーネルサイズは5x5ピクセル）、Blobの形成を大幅に改善し、より有用な結果を得ることができます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:228
 msgid ""
@@ -340,11 +341,13 @@ msgid ""
 "results.  You can experiment with these advanced tools, after studying their"
 " usage.  See links at the section below called **More Documentation**."
 msgstr ""
+"ぼかしは、処理結果を改善するために利用できる三つの画像調整の一つです。これらの高度なツールの使用法を学んだ後に、実験してみることができます。以下の "
+"**More Documentation** というセクションにあるリンクを参照してください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:236
 msgid ""
 "Include any pre-processing of the image or mask before looking for Blobs."
-msgstr "画像やマスクの前処理を行った後、ブロブを検索する前に含めてください。"
+msgstr "Blobを探す前に、画像またはマスクの前処理を含めてください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:238
 msgid ""
@@ -352,7 +355,7 @@ msgid ""
 "blobs.  Using these features requires an understanding of how they may "
 "affect the final blobs.  The \"pixels\" argument sets the NxN kernel size."
 msgstr ""
-"いくつかの追加処理を含めることで、ブロブの形成を改善できます。これらの機能を使用するには、最終的なブロブがどのように影響されるかを理解する必要があります。「pixels」引数はNxNカーネルサイズを設定します。"
+"ブロブの形成を改善するために追加の処理を含めることができます。これらの機能を使用するには、最終的なブロブにどのように影響を与えるかを理解する必要があります。「pixels」引数は、NxNカーネルサイズを設定します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:242
 msgid ""
@@ -362,8 +365,9 @@ msgid ""
 " to satisfy the \"odd number\" requirement.  Blurring too much may hide "
 "smaller features.  A \"pixels\" size of 5 is good for a 320x240 image."
 msgstr ""
-"** 画像のぼけ味 ** "
-"を加えると、オブジェクト間の色トランジションが平滑になり、さらに滑らかな輪郭も得られます。ピクセル数が増えるほど、画像はよりぼけ味が強くなります。注意：「ピクセル」値は、「奇数」要求を満たすためにインクリメントされます。「ピクセル」サイズが大きすぎると、小さな特徴が隠れてしまう可能性があります。320x240の画像では、「ピクセル」サイズ5が適しています。"
+"**Blurring** 画像は、オブジェクト間のスムーズな色の遷移と滑らかな輪郭を提供するのに役立ちます。 "
+"ピクセル数が多いほど、画像はよりぼやけていきます。 注意: \"pixels\" の値は、「奇数」の要件を満たすために増加されます。 "
+"あまりにもぼかしすぎると、小さな特徴が隠れてしまう可能性があります。 320x240 の画像には、5 の \"pixels\" サイズが適しています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:248
 msgid ""
@@ -372,8 +376,8 @@ msgid ""
 "objects.  A \"pixels\" value in the range of 2-4 is suitable for low res "
 "images."
 msgstr ""
-"** エрозション ** "
-"は浮遊ピクセルと細い線を除去し、実質的なオブジェクトのみが残ります。エrozションは領域内部に穴を拡大し、またオブジェクトを縮小することもあります。解像度の低い画像では、'pixels'値を2〜4の範囲で設定するのが適しています。"
+"**Erosion** "
+"は、浮遊するピクセルや細い線を除去し、実質的なオブジェクトのみを残します。エロージョンは領域内の穴を拡大し、オブジェクトを縮小することもあります。2-4の範囲の「ピクセル」値は、低解像度の画像に適しています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:253
 msgid ""
@@ -383,30 +387,28 @@ msgid ""
 "from an image.  A \"pixels\" value in the range of 2-4 is suitable for low "
 "res images."
 msgstr ""
-"** 膨張処理 ** "
-"は、小さな穴を埋めて物体がより見えやすくし、線を太く見せ、塗りつぶされた形状を大きく見せる機能です。膨張処理は、画像からノイズを取り除く際など、物体の破損した部分を結合するのに有用です。低解像度の画像では、\"ピクセル\"値が2-4程度が適しています。"
+"**Dilation** "
+"は、小さな穴を埋めることでオブジェクトをより目立たせ、線を太く見せ、塗りつぶされた形状を大きく見せます。膨張処理は、画像からノイズを除去する際のように、オブジェクトの壊れた部分を結合するのに役立ちます。「ピクセル」値は、低解像度の画像には2-4の範囲が適しています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "Pre-processor options"
-msgstr "前処理オプション"
+msgstr "プリプロセッサオプション"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:271
 msgid "Pre-processor Options"
-msgstr "前処理オプション"
+msgstr "プリプロセッサオプション"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:276
 msgid ""
 "In the Sample OpMode, follow the instructions at about lines 94-107 to set "
 "the desired pre-processing at about line 114."
-msgstr "サンプルOpModeでは、約94行目から107行目の指示に従って、約114行目で望む前処理を設定してください。"
+msgstr "サンプルOp Modeでは、約94行目から107行目の指示に従って、約114行目で希望する前処理を設定してください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:285
 msgid ""
 "Any of these pre-processing settings can be **disabled** by setting their "
 "pixel value to zero, or by removing the command."
-msgstr ""
-"Any of these pre-processing settings can be ** disabled ** by setting their "
-"pixel value to zero, or by removing the command."
+msgstr "これらの前処理設定のいずれかは、ピクセル値をゼロに設定するか、コマンドを削除することで **disabled** できます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:288
 msgid ""
@@ -415,12 +417,15 @@ msgid ""
 " size similar to their original size.  (This also will **not** be on the "
 "final.)"
 msgstr ""
+"FTCプロセッサでは、指定された侵食は **before** "
+"膨張が行われます。これにより、スペキュラノイズが除去され、残りのブロブは元のサイズに似た大きさに戻されます。（これも最終的に **not** "
+"になります。）"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:293
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:327
 msgid "Camera Resolution"
-msgstr "カメラの解像度"
+msgstr "カメラ解像度"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:295
 msgid ""
@@ -428,8 +433,8 @@ msgid ""
 "supported by most webcams and Android phone cameras.  You may edit this "
 "resolution, subject to a trade-off between:"
 msgstr ""
-"サンプルOpModeは、大多数のウェブカメラやAndroid携帯スマホカメラでサポートされる320 x "
-"240ピクセルのデフォルトのカメラ解像度を使用します。この解像度を編集することができますが、その際には次のトレードオフがあります："
+"Sample OpModeは、ほとんどのウェブカメラおよびAndroidフォンのカメラでサポートされている320 x "
+"240ピクセルのデフォルトカメラ解像度を使用します。この解像度は、以下のトレードオフに基づいて編集することができます："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:299
 msgid "computing performance, and"
@@ -437,7 +442,7 @@ msgstr "計算性能、および"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:300
 msgid "image detail, possibly needed beyond ColorLocator."
-msgstr "色検出器以降に必要になる可能性のある画像詳細。"
+msgstr "Color Locatorを超えて必要となる可能性のある画像詳細。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:302
 msgid ""
@@ -447,10 +452,10 @@ msgid ""
 "following :doc:`Challenge <../color-locator-challenge/color-locator-"
 "challenge>` page."
 msgstr ""
-"注意: "
-"カメラの解像度を変更したり、ROI（興味領域）のサイズを変更した場合、面積によるフィルタリングに調整が必要になる可能性があります。後処理フィルタリングは、このチュートリアルの"
-" ** Explore ** ページで説明されており、前処理フィルタリングについては :doc:`チャレンジ <../color-locator-"
-"challenge/color-locator-challenge>` のページで詳しく解説されています。"
+"注意: カメラの解像度を変更したり、ROIサイズを変更したりすると、面積によるフィルタリングの調整が必要になる場合があります。 "
+"ポストフィルタリングについては、このチュートリアルの **Explore** ページで説明されており、プレフィルタリングについては次の "
+":doc:`Challenge <../color-locator-challenge/color-locator-challenge>` "
+"ページで説明されています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:311
 msgid ""
@@ -458,7 +463,7 @@ msgid ""
 "this process, choose a lower resolution that is supported by your camera. "
 "This will improve overall performance and reduce latency."
 msgstr ""
-"希望するビデオ解像度を設定してください。高解像度はこのプロセスを改善しないので、カメラがサポートしている低い解像度を選択します。これにより全体的なパフォーマンスが向上し、遅延も減少します。"
+"希望するビデオ解像度を設定します。高解像度はこのプロセスを改善しないため、カメラがサポートする低解像度を選択してください。これにより、全体的なパフォーマンスが向上し、レイテンシが減少します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:332
 msgid ""
@@ -466,11 +471,12 @@ msgid ""
 "the desired camera resolution at about line 131.  This setting is made in "
 "the VisionPortal Builder, not the Processor Builder."
 msgstr ""
-"サンプルOpModeでは、約121行目から123行目までの指示に従って、約131行目のカメラ解像度を設定してください。この設定はVisionPortalビルダーで行われますので、Processorビルダーにはありません。"
+"サンプルOp Modeでは、約121-123行の指示に従って、約131行で希望するカメラ解像度を設定してください。この設定は、Processor "
+"Builderではなく、VisionPortal Builderで行います。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:341
 msgid "Post-filter the Blob Results"
-msgstr "Blob結果のポストフィルタリング"
+msgstr "Blob結果をポストフィルタリングする"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:343
 msgid ""
@@ -478,16 +484,16 @@ msgid ""
 "command (in Blocks and Java), your OpMode can **post-filter** or reduce the "
 "list."
 msgstr ""
-"OpenCV がブロブを形成し、``getBlobs()`` コマンド（Blocks および Java で）で結果を提供した後、あなたのOpModeは"
-"  ** ポストフィルタリング ** またはリストを削減することができます。"
+"OpenCVがブロブを形成し、 ``getBlobs()`` コマンド（BlocksおよびJavaで）で結果を提供した後、あなたのOp Modeは "
+"**post-filter** またはリストを減少させることができます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:347
 msgid ""
 "Here the term \"post-\" means after Blob formation and **after the DS and RC"
 " previews**.  So, you will still see contours and boxFits for **all Blobs**."
 msgstr ""
-"ここでの「post-」はブロブ形成後、そして ** ドライバステーションとRobot Controllerのプレビュー後 ** を意味します。そのため、"
-" ** すべてのブロブ ** に対して輪郭やboxFitsがまだ表示されます。"
+"ここで「post-」という用語は、Blob形成および **after the DS and RC previews** の後を意味します。したがって、 "
+"**all Blobs** に対しても輪郭やboxFitsがまだ表示されます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:350
 msgid ""
@@ -496,26 +502,26 @@ msgid ""
 " Blobs, while the upper limit is approximately the size of the default "
 "Region of Interest (ROI)."
 msgstr ""
-"デフォルトでは、サンプルOpModeは50ピクセル（最小）から20,000ピクセル（最大）までの ** Contour Area ** "
-"フィルターを使用します。下限は非常に小さなBlobsを排除し、上限はデフォルトの Region of Interest (ROI) のサイズに近いです。"
+"デフォルトでは、Sample Op Modeは50ピクセル（最小）から20,000ピクセル（最大）の **Contour Area** "
+"フィルターを使用します。下限は非常に小さなBlobを排除し、上限はデフォルトの関心領域（ROI）のサイズにほぼ相当します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:355
 msgid ""
 "Caution: changing the ROI size and/or changing the camera resolution may "
 "require an adjustment to filtering by Area."
-msgstr "注意: ROIのサイズを変更したり、カメラの解像度を変更した場合、面積によるフィルタリングに調整が必要になる可能性があります。"
+msgstr "注意: ROIサイズの変更および/またはカメラ解像度の変更は、面積によるフィルタリングの調整を必要とする場合があります。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:359
 msgid ""
 "Remember that a Blob contour never extends beyond the ROI, although a boxFit"
 " may do so."
-msgstr "ROIの範囲内にneverextends beyond（超えることはありませんが）、boxFitはその可能性があります。"
+msgstr "Blobの輪郭はROIを超えることはありませんが、boxFitは超えることがありますので、注意してください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:362
 msgid ""
 "Why filter?  A smaller list means faster processing, with fewer boxFits for "
 "your OpMode to evaluate."
-msgstr "なぜフィルターを使用するのか？ リストが小さくなると、処理速度が向上し、OpModeが評価するboxFitの数も減少します。"
+msgstr "なぜフィルターを使用するのか？ より小さなリストは、処理を速くし、Op Modeが評価するボックスフィットの数を減らします。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:365
 msgid ""
@@ -523,8 +529,8 @@ msgid ""
 " on Telemetry.  Also experiment with the other filters for **Density** and "
 "**Aspect Ratio**."
 msgstr ""
-"lower限界を増加させることでTelemetryへの影響を観察することができます。また、 ** 密度 ** と ** アスペクト比 ** "
-"の他のフィルターも試してみてください。"
+"下限を増加させ、その影響をTelemetryで観察することができます。また、 **Density** および **Aspect Ratio** "
+"の他のフィルターでも実験してみてください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:373
 msgid ""
@@ -533,8 +539,9 @@ msgid ""
 "satisfy the filter conditions will remain in the current list of \"blobs\". "
 "Multiple filters may be used.  Use any of the following filters."
 msgstr ""
-"Blobsのリストは、不要なBlobsを削除するためにフィルター処理することができます。注意: "
-"ストリームプレビュー上ではすべてのカーネルがまだ表示されますがあらゆるフィルター条件を満たすものだけが現在の\"Blobs\"のリストに残ります。複数のフィルターを使用できます。以下のいずれかのフィルターを使用します。"
+"Blobsのリストは、不要なBlobsを除外するためにフィルタリングできます。 注意：すべての輪郭はStream "
+"Previewに表示されますが、フィルタ条件を満たすものだけが現在の「blobs」のリストに残ります。 複数のフィルタを使用することができます。 "
+"次のいずれかのフィルタを使用してください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:378
 msgid ""
@@ -543,9 +550,8 @@ msgid ""
 " large range and then refine the range based on the likely size of the "
 "desired object in the viewfinder."
 msgstr ""
-"** Util.filterByArea() ** "
-"ブロブの面積は、カウンtour内に含まれるピクセル数です。面積が大きすぎたり小さすぎたりのものをフィルタリングして除外します。最初は広い範囲から始めて、視野"
-" Finder 内で望むオブジェクトの可能性のあるサイズに基づいて範囲を refining します。"
+"**Util.filterByArea()** Blobの面積は、輪郭内に含まれるピクセルの数です。 "
+"大きすぎるものや小さすぎるものはフィルタリングしてください。 大きな範囲から始め、ファインダー内の対象物のサイズに基づいて範囲を絞り込んでください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:383
 msgid ""
@@ -554,8 +560,8 @@ msgid ""
 "the \"Convex Hull\" of the contour.  The density is the ratio of Contour-"
 "area to Convex Hull-area."
 msgstr ""
-"** Util.filterByDensity() ** ブロブの密度は、コン Tour の「満度」を示す指標です。コン Tour を rubber "
-"band で囲むと、「凸包」が得られます。密度は、コン Tour の面積に対する凸包の面積の比です。"
+"**Util.filterByDensity()** "
+"ブロブの密度は、輪郭がどれだけ「満たされている」かの指標です。輪郭の周りにゴムバンドを置くと、その輪郭の「凸包」が得られます。密度は、輪郭面積と凸包面積の比率です。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:388
 msgid ""
@@ -563,8 +569,8 @@ msgid ""
 "**boxFit** long side to short side.  A perfect square has an aspect ratio of"
 " 1.  All others are > 1"
 msgstr ""
-"** Util.filterByAspectRatio() ** は、ブロブのアスペクト比を計算する関数です。アスペクト比は、 ** boxFit **"
-" の長辺と短辺の比率を表します。完全な正方形の場合、アスペクト比は1になります。それ以外のすべての場合は、アスペクト比が1より大きいことになります。"
+"**Util.filterByAspectRatio()** ブロブのアスペクト比は、 **boxFit** 長辺と短辺の比率です。 "
+"完全な正方形のアスペクト比は1です。他のすべては1より大きいです。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 msgid "post filter"
@@ -578,7 +584,7 @@ msgstr "ポストフィルター"
 msgid ""
 "In the Sample OpMode, follow the instructions at about lines 147-164 to set "
 "the desired post-filtering at about line 166."
-msgstr "サンプルOpModeでは、約147行目から164行目までの指示に従って、約166行目の希望するポストフィルタリングを設定してください。"
+msgstr "サンプルOp Modeでは、約147行から164行の指示に従って、約166行で希望するフィルタリング後の設定を行ってください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:418
 msgid ""
@@ -587,21 +593,21 @@ msgid ""
 "results. Remember this as you incorporate these tools into your team's "
 "larger OpModes."
 msgstr ""
-"ポストフィルタリングコマンドは、``getBlobs()`` を呼び出した ** 後 ** に配置し、チームのOpMode（またはTelemetry）が"
-" ``getBlobs()`` の結果を処理する ** 前 ** "
-"に挿入してください。これらのツールをチームの大きなOpModeに組み込む際は、この点を覚えておいてください。"
+"ポストフィルタリングコマンドは、 ``getBlobs()`` を呼び出し、 **before** あなたの OpMode の処理（または "
+"Telemetry）に ``getBlobs()`` 結果を組み込む際に配置する必要があります。これらのツールをチームのより大きな OpModes "
+"に組み込む際に、このことを覚えておいてください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:423
 msgid "Post-sort the Blob Results"
-msgstr "Blob結果のポストソート"
+msgstr "Blob結果をポストソートする"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:425
 msgid ""
 "After OpenCV has formed Blobs and provided results with the ``getBlobs()`` "
 "command (in Blocks and Java), your OpMode can **post-sort** the list."
 msgstr ""
-"OpenCV がブロブを形成し、``getBlobs()`` コマンドで結果を提供した後、あなたのOpModeはリストを ** 再ソート ** "
-"することができます。"
+"OpenCVがブロブを形成し、 ``getBlobs()`` コマンド（BlocksおよびJavaで）で結果を提供した後、あなたのOp "
+"Modeはリストを **post-sort** することができます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:428
 msgid ""
@@ -610,8 +616,9 @@ msgid ""
 " the Sample OpMode.  This default is overridden or replaced by any sort "
 "specified in the OpMode."
 msgstr ""
-"デフォルトでは、サンプルOpModeは ** コン Tour アー エリア ** "
-"に基づいて降順に並べ替えます（最も大きいものが最初です）。これは内部でプログラムされた並べ替えであり、サンプルOpModeには表示されません。このデフォルトは、OpMode内で指定される任意の並べ替えによって上書きまたは置き換えられます。"
+"デフォルトでは、Sample OpModeは **Contour Area** "
+"で降順にソートされます（最大値が最初）。これは内部でプログラムされたソートであり、Sample "
+"OpModeには表示されません。このデフォルトは、OpModeで指定された任意のソートによって上書きされるか、置き換えられます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:433
 msgid ""
@@ -621,7 +628,9 @@ msgid ""
 " exit the vision processing loop and move on to robot action."
 msgstr ""
 "なぜソートするのか？ "
-"ソートされたリストがあると、OpModeはBlobを既知の順序で処理できるため、コードが早く「結論」に達することが可能になります。つまり、箱が適切に配置されているかどうか（boxFitsに関する論理条件）が満たされる可能性があり、ビジョン処理ループから脱出し、ロボットのアクションに移動できます。"
+"ソートされたリストは、あなたのOpModeがBlobsを既知の順序で処理できることを意味し、コードが迅速に「結論」に達することを可能にするかもしれません。"
+" "
+"具体的には、いくつかの論理条件（おそらくboxFitsに関するもの）が早く満たされ、ビジョン処理ループを終了してロボットのアクションに移行することができるのです。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:442
 msgid ""
@@ -629,18 +638,20 @@ msgid ""
 "above.  No more than one sort call should be made.  Sorting can use "
 "ascending or descending order.*"
 msgstr ""
-"*Blobのリストは、上記でリストされた同じBlob属性を使用してソートできます。ソート呼び出しは最大1回までです。ソートは昇順または降順を使用できます。*"
+"*The list of Blobs can be sorted using the same Blob attributes as listed "
+"above.  No more than one sort call should be made.  Sorting can use "
+"ascending or descending order.*"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:457
 msgid "Post Sort"
-msgstr "Post Sort"
+msgstr "ポストソート"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:462
 msgid ""
 "In the Sample OpMode, follow the instructions at about lines 169-173 to set "
 "the desired post-sorting immediately after those instructions."
-msgstr "サンプルOpModeでは、指示書（約169行目から173行目）に従って、その後の分類後の設定を実施してください。"
+msgstr "Sample Op Modeでは、約169行目から173行目の指示に従って、これらの指示の直後に希望するソート後の設定を行ってください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:471
 msgid ""
@@ -649,10 +660,14 @@ msgid ""
 " the ``getBlobs()`` results.  Remember this as you incorporate these tools "
 "into your team's larger OpModes."
 msgstr ""
+"ポストソートコマンドは、 ``getBlobs()`` を呼び出し、任意のポストフィルタリングを行った後に **after** "
+"に配置する必要があります。また、 **before** は、あなたの OpMode の処理（または Telemetry）による "
+"``getBlobs()`` 結果の取り扱いを行います。これらのツールをチームのより大きな OpMode "
+"に組み込む際に、このことを覚えておいてください。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:477
 msgid "More Documentation"
-msgstr "更多ドキュメンテーション"
+msgstr "さらにドキュメント"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:479
 msgid ""
@@ -662,10 +677,10 @@ msgid ""
 " `OpenCV website for thresholding "
 "<https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>`_."
 msgstr ""
-"OpenCVはここでの色のマッチング方法はどのように実現していますか？ 目標色範囲の上値と下値を使用して画像のピクセルを ** 閾値処理 ** "
-"し、その範囲内のものを検出します。閾値処理に関する技術的な情報は`OpenCVの閾値処理ドキュメント "
-"<https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>`_ "
-"で確認できます。"
+"OpenCVはここでどのように色を一致させるのでしょうか？ターゲットカラー範囲の上限値と下限値は、画像のピクセルを **threshold** "
+"し、その範囲内にあるものを見つけるために使用されます。しきい値処理に関する技術情報は、 `OpenCV website for thresholding"
+" <https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html>`_ "
+"で入手できます。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:484
 msgid ""
@@ -674,16 +689,17 @@ msgid ""
 "fab65c29efb3>`_ and at the `OpenCV website for morphology "
 "<https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_."
 msgstr ""
-"Technical information on Blur, Erosion and Dilation can be found `here "
+"Blur、エロージョン、ダイレーションに関する技術情報は、 `here "
 "<https://medium.com/@sasasulakshi/opencv-morphological-dilation-and-erosion-"
-"fab65c29efb3>`_ and at the `OpenCV website for morphology "
-"<https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_."
+"fab65c29efb3>`_ および `OpenCV website for morphology "
+"<https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html>`_ "
+"にあります。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:489
 msgid ""
 "Here's a conceptual note from co-developer `@Windwoes "
 "<https://github.com/Windwoes>`_\\ :"
-msgstr "コラボレーターの @Windwoes から概念的な注記です："
+msgstr "共同開発者 `@Windwoes <https://github.com/Windwoes>`_ からの概念的なメモです："
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:493
 msgid ""
@@ -691,8 +707,8 @@ msgid ""
 " formation). The processing is **happening continuously**; ``getBlobs()`` "
 "just obtains a reference to the latest results."
 msgstr ""
-"コマンド ``getBlobs()`` はブロブの形成を開始したり処理するわけではありません。処理は ** 継続的に ** "
-"行われています；``getBlobs()`` はただ最新の結果への参照を取得します。"
+"コマンド ``getBlobs()`` は、処理（Blob形成）を開始または実行しません。処理は **happening continuously** "
+"です； ``getBlobs()`` は最新の結果への参照を取得するだけです。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:497
 msgid ""
@@ -700,17 +716,18 @@ msgid ""
 "locator-challenge>` page shows how to **access more OpenCV features** not "
 "covered in the Sample OpMode."
 msgstr ""
-"次に、このチュートリアルの :doc:`挑戦 <../color-locator-challenge/color-locator-challenge>`"
-" ページでは、サンプルオモードでカバーされていない ** OpenCV の更多機能 ** をアクセスする方法が説明されています。"
+"次に、このチュートリアルの :doc:`Challenge <../color-locator-challenge/color-locator-"
+"challenge>` ページでは、Sample Op Mode でカバーされていない **access more OpenCV features** "
+"の方法を示します。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:500
 msgid ""
 "Then a page called :doc:`Color Locator (Round Blobs) <../color-locator-"
 "round-blobs/color-locator-round-blobs>` covers detection of round objects."
 msgstr ""
-"次に、:doc:`円形オブジェクトの検出 <../color-locator-round-blobs/color-locator-round-"
-"blobs>` というページが説明されます。"
+"次に、 :doc:`Color Locator (Round Blobs) <../color-locator-round-blobs/color-"
+"locator-round-blobs>` というページでは、円形の物体の検出について説明しています。"
 
 #: ../../source/color_processing/color-locator-explore/color-locator-explore.rst:504
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "*質問、コメント、訂正についてはwestsiderobotics@verizon.netまで*\\n"
+msgstr "*Questions, comments and corrections to westsiderobotics@verizon.net*"

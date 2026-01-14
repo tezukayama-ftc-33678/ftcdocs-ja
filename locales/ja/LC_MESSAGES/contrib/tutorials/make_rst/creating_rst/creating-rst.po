@@ -6,22 +6,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:2
 msgid "Creating rST Documents"
-msgstr "rSTドキュメントの作成"
+msgstr "rST ドキュメントの作成"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:5
 msgid ""
@@ -30,7 +24,7 @@ msgid ""
 "read this, you probably have, but double-check with your friendly FTC "
 "Support person."
 msgstr ""
-"GitHubアカウントを作成し、このリポジトリ内でトレーニングを行うための適切な権限が与えられていることを想定します。もし今読めているなら、おそらくそうしていると思いますが、信頼できるFTCサポートスタッフと確認してみてください。"
+"GitHubアカウントを作成し、このリポジトリ内で作業するための適切な権限が与えられていることが前提とされています。これを読んでいるということは、おそらくそうなっているでしょうが、親切なFTCサポート担当者に再確認してください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:9
 msgid ""
@@ -39,12 +33,12 @@ msgid ""
 "branch is our place to make any kinds of changes we want, we just have to "
 "understand *where* and *how* to make those changes."
 msgstr ""
-"現在、ブランチを作成したので、私たちのブランチに独自の特別な変更を加えることができます - "
-"つまり、コンテンツを追加したり修正したりすることができるようになりました。記憶しておいてください、私たちのブランチは私たちがどのような変更も行いたい場所であり、ただその変更をする場所と方法を理解する必要があります。"
+"ブランチを作成したので、これから自分たちの特別な変更をブランチに加えることができます。つまり、コンテンツの追加や修正を行います。私たちのブランチは、好きな変更を行うための場所であることを忘れないでください。ただし、その変更を行うためには、"
+" *where* と *how* を理解する必要があります。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:15
 msgid "Understanding the ftcdocs Structure"
-msgstr "ftcdocsの構造について理解する"
+msgstr "ftcdocsの構造を理解する"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:17
 msgid ""
@@ -53,29 +47,29 @@ msgid ""
 "the folder structure of the repository define the ultimate web experience "
 "users will have interacting with your final documentation."
 msgstr ""
-"ftcdocs "
-"リポジトリは、ウェブサイト上でユーザーにどのように表示されるかを示す「マップ」です。ファイル名とリポジトリ内のフォルダ構造にある位置が最終的なウェブ体験を定義します。"
+"ftcdocsリポジトリは、ファイルの「マップ」であり、ウェブサイト上でユーザーにどのように提示されるかを示しています。ファイル名とリポジトリのフォルダー構造内での位置は、ユーザーが最終的なドキュメントと対話する際のウェブ体験を定義します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:23
 msgid "Quick GitHub Folder Listing Intro"
-msgstr "GitHubフォルダ一覧の概要"
+msgstr "クイックGitHubフォルダリスト紹介"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:25
 msgid ""
 "For those unfamiliar with the GitHub folder (also known as \"directories\") "
 "structure listing, here's a quick introduction:"
-msgstr "GitHubフォルダ（また「ディレクトリ」と呼ばれる）の構造について詳しくない方へ、簡単に説明します："
+msgstr "GitHubフォルダー（「ディレクトリ」とも呼ばれる）構造リストに不慣れな方のために、簡単な紹介をします："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:33
 msgid "GitHub Folder Listing Info"
-msgstr "GitHub フォルダ一覧情報"
+msgstr "GitHub フォルダーリスト情報"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:35
 msgid ""
 "Branch Indicator and Selection - Here you can see which branch you're "
 "viewing, and select another branch if you want to view a different one. Test"
 " 123"
-msgstr "分岐指示子と選択 - ここでは現在表示している分岐を確認し、別の分岐を表示したい場合は選択できます。テスト123"
+msgstr ""
+"ブランチインジケーターと選択 - ここでは、現在表示しているブランチを確認でき、別のブランチを表示したい場合は選択することができます。テスト123"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:37
 msgid ""
@@ -84,8 +78,8 @@ msgid ""
 "repository there is no path shown, but on all other locations within the "
 "repository the path indicates where you are."
 msgstr ""
-"現在表示されているフォルダのリポジトリパス位置 - "
-"これにより、リポジトリ内での位置を理解しやすくなります。リポジトリのトップページではパスは表示されませんが、リポジトリ内の他のすべての場所でパスは表示され、その位置を示します。"
+"リポジトリパス 現在表示されているフォルダーの場所 - "
+"これにより、リポジトリ内の位置を理解するのに役立ちます。リポジトリのメインページにはパスが表示されませんが、リポジトリ内の他のすべての場所では、パスが現在の位置を示しています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:41
 msgid ""
@@ -93,16 +87,16 @@ msgid ""
 "or you want to \"quick-find\" a particular file (useful for listing all of "
 "the \"index.rst\" files especially) this tool can help you out."
 msgstr ""
-"ファイル検索ツール - フォルダを閲覧してもファイルを見つけることができない場合、または特定のファイルを「素早く」探したい場合（特に "
-"\"index.rst\" ファイルの一覧を作成するのに役立ちます）は、このツールがお手伝いします。"
+"ファイル検索ツール - フォルダーをブラウズしてファイルを見つけられない場合や、特定のファイルを「クイック検索」したい場合（特に「 index.rst "
+"」ファイルをすべてリストアップするのに便利です）、このツールが役立ちます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:44
 msgid ""
 "New File Creation Tool (can also create folders) - this can help you create "
 "new files (or files within new folders) via the web client."
 msgstr ""
-"新しいファイル作成ツール（フォルダも作成可） - "
-"これを使用すると、ウェブクライアントから新しいファイルを作成したり（または新しいフォルダ内のファイルを作成したり）ることができます。"
+"新しいファイル作成ツール（フォルダーの作成も可能） - "
+"これにより、ウェブクライアントを介して新しいファイル（または新しいフォルダー内のファイル）を作成することができます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:46
 msgid ""
@@ -111,14 +105,14 @@ msgid ""
 "looking at. This is mostly useful when trying to remember what change was "
 "last made to a particular branch."
 msgstr ""
-"最後に変更をコミットしたユーザーと、その変更の説明 - "
-"これは、あなたが確認しているリポジトリの最後の変更内容を理解するのに役立ちます。特に特定のブランチで最後にどのような変更が行われたかを思い出そうとするときによく使われます。"
+"最後に変更をコミットしたユーザーと変更の説明 - "
+"これは、現在見ているリポジトリに対する最後の変更が何であったかを理解するのに役立ちます。これは、特定のブランチに対して最後に行われた変更を思い出そうとする際に特に有用です。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:50
 msgid ""
 "Folder/File Name - Within the row, this shows you a given folder or file for"
 " fast navigation."
-msgstr "フォルダ/ファイル名 - 行内では、この項目は速やかなナビゲーションのために特定のフォルダまたはファイルを示します。"
+msgstr "フォルダー/ファイル名 - この行内では、迅速なナビゲーションのために特定のフォルダーまたはファイルを表示します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:52
 msgid ""
@@ -129,8 +123,8 @@ msgid ""
 "content is within the folder or file. This can be really confusing for new "
 "users, FYI."
 msgstr ""
-"最後のコミット説明  - "
-"フォルダ/ファイル内の変更について、新規ユーザーはこれがフォルダやファイル自体の説明だと誤解することがありますが、実際にはその行が参照しているフォルダやファイルに対する最後のコミットの説明であり、フォルダやファイル内に何が含まれているかとは全く関係ありません。これについては新規ユーザーにとって本当に混乱するかもしれません、ご了承ください。"
+"フォルダー/ファイル内の変更に関する最終コミットの説明 - "
+"新しいユーザーはしばしばこの行が参照しているフォルダーやファイルの説明と誤解しますが、実際にはフォルダーやファイルに対して行われた最終コミットの説明であり、一般的にはフォルダーやファイル内のコンテンツとは全く関係がありません。これは新しいユーザーにとって非常に混乱を招く可能性がありますので、ご注意ください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:57
 msgid ""
@@ -138,12 +132,12 @@ msgid ""
 "changes were made to folders or files. This information shows you how "
 "potentially outdated content may be."
 msgstr ""
-"最後にコミットされたのはいつ前か - "
-"これにより、フォルダやファイルに対する変更がどれだけ前に行われたか確認できます。この情報は、コンテンツがどの程度古いかを示します。"
+"最後のコミットが行われたのはどれくらい前か - "
+"これにより、フォルダーやファイルに変更が加えられたのがどれくらい前かを確認できます。この情報は、コンテンツがどれほど古くなっている可能性があるかを示しています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:62
 msgid "Repository Main Folder"
-msgstr "リポジトリ本フォルダ"
+msgstr "リポジトリメインフォルダー"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:64
 msgid ""
@@ -153,21 +147,21 @@ msgid ""
 "repository is managed by, and so on. As a contributor of this repository, "
 "most of the content here will not be important to you."
 msgstr ""
-"リポジトリ内の最初のフォルダを「 ** リポジトリメインフォルダ ** "
-"」と呼びます。これは、リポジトリの視聴者がリポジトリが何のために存在するのか、リポジトリはどのようなライセンスで管理されているのかなどの重要な情報を得られる主要なフォルダです。このリポジトリの貢献者として、ここに書かれているほとんどの内容はあなたにとって重要ではありません。"
+"リポジトリ内の最初のフォルダーを「 **repository main folder** "
+"」と呼びます。これは、リポジトリの閲覧者がリポジトリの目的や、リポジトリが管理されているライセンスなどに関する重要な情報を得るためのメインフォルダーです。このリポジトリの貢献者として、ここにあるほとんどの内容はあなたにとって重要ではないでしょう。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:77
 msgid "Repo Main Folder"
-msgstr "レポメインフォルダ"
+msgstr "リポジトリメインフォルダー"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:77
 msgid "Repository Main folder for rst-primer the quick brown fox"
-msgstr "rst-primerのquick brown fox用のリポジトリメインフォルダ"
+msgstr "rst-primerのメインフォルダー リポジトリ クイックブラウンフォックス"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:80
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:91
 msgid "Docs Folder"
-msgstr "ドキュメントフォルダ"
+msgstr "ドキュメントフォルダー"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:82
 msgid ""
@@ -176,13 +170,13 @@ msgid ""
 "repository, that folder is the ``docs/`` folder. The ``docs/`` folder is "
 "where the top-level build definitions are for building the documentation."
 msgstr ""
-"** リポジトリのメインフォルダ ** 内には、プロジェクトの実際のファイルが入ったフォルダ Almost always は「ほぼ常に」で表現します。-"
-" たいていの場合、そのフォルダは ``docs/`` フォルダです。``docs/`` "
-"フォルダは、ドキュメンテーションを構築するためのトップレベルのビルド定義が格納されている場所です。"
+"**repository main folder** 内には、プロジェクトの実際のファイルを含むフォルダーがほぼ常に存在します - *rST-"
+"Primer* リポジトリの場合、そのフォルダーは ``docs/`` フォルダーです。 ``docs/`` "
+"フォルダーは、ドキュメントをビルドするためのトップレベルのビルド定義がある場所です。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:91
 msgid "docs folder"
-msgstr "ドキュメントフォルダ"
+msgstr "docsフォルダー"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:93
 msgid ""
@@ -193,14 +187,14 @@ msgid ""
 "folder is the actual starting point for the documentation and the rST-primer"
 " website."
 msgstr ""
-"また、ドキュメントの作成者として、このフォルダ内の内容は現在あなたにとって興味深いものではないかもしれませんが、プロジェクトの構築者や維持管理者にとってはここが「魔法」が起こる場所です。重要なのは、このフォルダで"
-" ``source/`` フォルダが存在することです。 ``source/`` フォルダはドキュメントと rST-primer "
-"ウェブサイトの実際の開始地点となります。"
+"再度申し上げますが、ドキュメントの寄稿者として、このフォルダーの内容は現在のところあなたにとって興味がないかもしれませんが、プロジェクトのビルダーやメンテナーにとっては、ここが「魔法が起こる」場所です。ここで重要な要素は、"
+" ``source/`` フォルダーがここにあるということです。 ``source/`` フォルダーは、ドキュメントと rST-primer "
+"ウェブサイトの実際の出発点です。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:101
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:112
 msgid "Source Folder"
-msgstr "ソースフォルダ"
+msgstr "ソースフォルダー"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:103
 msgid ""
@@ -210,23 +204,23 @@ msgid ""
 "repository; we are currently viewing the current contents of ``rst-"
 "primer/docs/source``."
 msgstr ""
-"「docs/」フォルダ内では、「source/」フォルダを見つけることができます。上部のフォルダ一覧から、これらのファイルやフォルダがリポジトリ内の全路径（path）で表示されていることに注意してください；現在は「rst-"
-"primer/docs/source」の内容を確認しています。"
+"``docs/`` フォルダー内に ``source/`` "
+"フォルダーがあります。フォルダーリストの上に、これらのファイルとフォルダーがリポジトリ内のどこにあるかの完全なリポジトリ *path* "
+"が表示されていることに注意してください。現在、 ``rst-primer/docs/source`` の現在の内容を表示しています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:112
 msgid "source Folder"
-msgstr "ソースフォルダ"
+msgstr "ソースフォルダー"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:114
 msgid ""
 "When we work on documentation, it's important to understand that there are "
 "TWO related paths that we must keep track of:"
-msgstr ""
-"ドキュメント作成時に重要なのは、私たちが追跡する必要がある RELATED TWO PATHS の2つの関連パスがあるということを理解することです："
+msgstr "ドキュメント作成に取り組む際には、私たちが追跡しなければならない関連する2つの経路があることを理解することが重要です。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:120
 msgid "*Repository Location*"
-msgstr "*リポジトリの場所*"
+msgstr "*Repository Location*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:118
 msgid ""
@@ -234,12 +228,12 @@ msgid ""
 " shown in the path within GitHub. This location is only used as a reference "
 "within GitHub, where the full *repository location* is sometimes needed."
 msgstr ""
-"このファイルがリポジトリ内にある位置です。GitHubのパス内で便利に表示されます。この位置はGitHub内で参照用として使用され、全般的には * "
-"リポジトリの位置 * が必要な場合があります。"
+"これはリポジトリ内のファイルの場所です。この場所はGitHub内のパスに便利に表示されています。この場所はGitHub内での参照としてのみ使用され、フル"
+" *repository location* が必要な場合があります。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:128
 msgid "*Document Location*"
-msgstr "*ドキュメントの位置*\"\\n"
+msgstr "*Document Location*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:123
 msgid ""
@@ -250,16 +244,23 @@ msgid ""
 "would have a *document location* of ``/tutorial/overview/overview.rst``. We "
 "will use this *document location* within our documents."
 msgstr ""
-"この文書が存在する最終的なウェブサイト内の位置です。ファイルのドキュメント位置は、リポジトリ位置から ``rst-"
-"primer/docs/source`` を除いたものと同じになります。例えば、リポジトリ位置が ``rst-"
-"primer/docs/source/tutorial/overview/overview.rst`` の場合、ドキュメント位置は "
-"``/tutorial/overview/overview.rst`` となります。この * ドキュメント位置 * を文書内で使用します。"
+"これは、最終的なウェブサイト内でドキュメントが存在する場所です。\n"
+"\n"
+"ファイルのドキュメントの場所は、 *repository location* から ``rst-primer/docs/source`` を除いたものと同じです。\n"
+"\n"
+"例えば、 ``rst-primer/docs/source/tutorial/overview/overview.\n"
+"\n"
+"rst`` の *repository location* を持つファイルは、 ``/tutorial/overview/overview.\n"
+"\n"
+"rst`` の *document location* を持つことになります。\n"
+"\n"
+"私たちは、ドキュメント内でこの *document location* を使用します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:130
 msgid ""
 "We will refer to these different document locations within this and future "
 "documents."
-msgstr "これらの異なるドキュメントの場所については、この文書および将来的な文書で参照します。"
+msgstr "今後の文書および本書内で、これらの異なる文書の場所を参照します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:133
 msgid ""
@@ -269,13 +270,12 @@ msgid ""
 "\"root\" location for the html website, and so on. This \"root\" location "
 "has some very special files and folders:"
 msgstr ""
-"先に述べたとおり、この ``rst-primer/docs/source`` "
-"リポジトリの場所はドキュメントがどのような形を取るかに関わらず、その主な出発点です - "
-"例えば、これはサイトのPDF文書の「ルート」場所であり、HTMLウェブサイトの「ルート」場所でもあります。この「ルート」場所には非常に特別なファイルやフォルダがあります："
+"以前に述べたように、この ``rst-primer/docs/source`` "
+"リポジトリの場所は、あらゆる形式のドキュメントの主要な出発点です。例えば、これはサイトのPDFドキュメントの「ルート」場所であり、htmlウェブサイトの「ルート」場所でもあります。この「ルート」場所には、いくつかの非常に特別なファイルとフォルダーがあります："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:147
 msgid ":octicon:`file-directory;1em;sd-text-info` *_assets*"
-msgstr ":octicon:`file-directory;1em;sd-text-info` *_資産*"
+msgstr ":octicon:`file-directory;1em;sd-text-info` *_assets*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:140
 msgid ""
@@ -288,8 +288,13 @@ msgid ""
 " symbol, meaning it's designated as a special folder whose contents should "
 "only be modified with the help of site administrators."
 msgstr ""
-"\\_assetsフォルダには、サイト全体で使用されるアセットファイル（例：FIRST Tech "
-"Challengeロゴやアイコン）が含まれています。ページの内容に関係なくすべてのページに含められる可能性のあるアセットは、ここで準備してテンプレートや静的なコンテンツ内での容易な取り扱いを可能とします。ただし、サイト上のコンテンツに特有のアセットは、そのコンテンツのドキュメンテーションと共に配置すべきです。このフォルダには\\_（アンダースコア）が付いているため、サイト管理者の助けなしで内容を変更しないように指定されています。"
+"*_assets* フォルダーには、 *FIRST* Tech Challenge のロゴやアイコンなど、サイト全体で使用されるアセットファイルが含まれています。\n"
+"\n"
+"ページの内容に関係なく、サイトのすべてのページに含めることができるアセットは、テンプレートや静的コンテンツ内で簡単に含めるためにここに配置できます。\n"
+"\n"
+"ただし、サイトのコンテンツに特有のアセットは、コンテンツのドキュメントと一緒に配置する必要があります。\n"
+"\n"
+"このフォルダーは、`\\` アンダースコア記号で始まっており、サイト管理者の助けを借りてのみ内容を変更することができる特別なフォルダーとして指定されています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:154
 msgid ":octicon:`file-directory;1em;sd-text-info` *_static*"
@@ -303,12 +308,13 @@ msgid ""
 "by a document contributor, but if you feel you do then please coordinate any"
 " changes with an administrator."
 msgstr ""
-"The *_static* フォルダ、名前がアンダースコアで始まる特別なフォルダは、HTML 特有のコードを含んでおり、ドキュメントを HTML "
-"で形式化するために必要です。このコードは文書貢献者が編集したり更新したりする必要はほとんどありませんが、もし編集が必要と感じた場合は、管理者と変更内容について連絡してください。"
+"*_static* フォルダーは、その名前にアンダースコアのプレフィックスが付いている *special folder* を示しており、ドキュメントを "
+"HTML 形式でフォーマットするために必要な HTML "
+"特有のコードが含まれています。このコードは、ドキュメントの寄稿者によって編集または更新される必要はありませんが、変更が必要だと感じた場合は、管理者と調整してください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:163
 msgid ":octicon:`file-directory;1em;sd-text-info` *_templates*"
-msgstr ":octicon:`file-directory;1em;sd-text-info` テンプレート"
+msgstr ":octicon:`file-directory;1em;sd-text-info` *_templates*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:157
 msgid ""
@@ -321,12 +327,13 @@ msgid ""
 "work with an administrator to coordinate any updates to the HTML site "
 "templates."
 msgstr ""
-"The *_templates* フォルダは、名前にアンダースコアが付く特別なフォルダで、Sphinxのテンプレーティングエンジンである Jinja "
-"によって使用され、基本テーマの管理方法をオーバライドし、ページレイアウトやヘッダー内容、フッター内容（その他の要素も含む）のカスタマイズが可能になります。また、この機能は文書貢献者が編集する必要があるものではない（追加コンテンツを追加する場合は除く）ですが、HTMLサイトテンプレートへの更新は管理者と連携して実施してください。"
+"*_templates* フォルダーは、名前の先頭にアンダースコアが付いている *special folder* であり、Sphinx のテンプレートエンジンである Jinja によって使用され、Sphinx が基本テーマを管理する方法をオーバーライドして、ページレイアウト、ヘッダーコンテンツ、フッターコンテンツ（その他多数）のカスタマイズを可能にします。\n"
+"\n"
+"再度申し上げますが、これはドキュメントの寄稿者が編集する必要があるものではないと思われます（必要に応じてコンテンツを追加することを除いて）。ただし、HTMLサイトテンプレートの更新については、管理者と連携して作業してください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:169
 msgid ":octicon:`file;1em;sd-text-info` *conf.py*"
-msgstr ":octicon:`file;1em;sd-text-info` は、 *conf.py* の情報です。"
+msgstr ":octicon:`file;1em;sd-text-info` *__RST_FILEPATH_1__*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:166
 msgid ""
@@ -336,12 +343,12 @@ msgid ""
 "this file should never be modified without first consulting an "
 "administrator."
 msgstr ""
-"The ** conf.py ** "
-"ファイルは、スphinxBでドキュメンテーションをすべての形式（HTML、PDFなど）で構築するために使用するモジュール、パラメータ、およびツールを定義する特別なファイルです。このファイルにはアンダースコアプレフィックスはありませんが、このファイルを無く事前に対応管理者に相談せずに変更することは絶対に避けなければなりません。"
+"**__RST_FILEPATH_0__** "
+"ファイルは、ドキュメントをすべての形式（HTML、PDFなど）でビルドするために使用されるすべてのモジュール、パラメーター、およびツールを定義するためのsphinx用の特別なファイルです。このファイルにはアンダースコアのプレフィックスはありませんが、このファイルは管理者に相談することなく変更してはいけません。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:178
 msgid ":octicon:`file;1em;sd-text-info` *index.rst*"
-msgstr ":octicon:`file;1em;sd-text-info` * インデックス.rst*"
+msgstr ":octicon:`file;1em;sd-text-info` *__RST_FILEPATH_1__*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:172
 msgid ""
@@ -353,15 +360,21 @@ msgid ""
 " the website, but **this** particular file is the master index file for the "
 "website."
 msgstr ""
-"ここにある「ルート」ドキュメンテーションの位置に存在する ** index.rst ** "
-"ファイルは、ドキュメンテーションのHTML版の主要な組織とレイアウトファイルです。この ** index.rst ** "
-"は、通常HTMLウェブサイトの左側パネルで見られる * 目次 *(Table of "
-"Contents)を定義し、またウェブサイトのトップページのコンテンツも定義します。ウェブサイト内には複数の`index.rst`ファイルが存在するかもしれませんが、"
-" ** この ** ファイルはウェブサイトのマスターアイデックスファイルです。"
+"「root」ドキュメントの場所にある **index.\n"
+"\n"
+"rst** ファイルは、ドキュメントの HTML バージョンの主要な組織およびレイアウトファイルです。\n"
+"\n"
+"この **index.\n"
+"\n"
+"rst** は、ウェブサイトのメインページのコンテンツとともに、HTML ウェブサイトの左側のペインに通常表示される *Table of Contents* を定義します。\n"
+"\n"
+"複数の `index.\n"
+"\n"
+"「root」ドキュメントの場所にある **index.rst** ファイルは、ドキュメントの HTML バージョンの主要な組織およびレイアウトファイルです。この **index.rst** は、ウェブサイトのメインページのコンテンツとともに、HTML ウェブサイトの左側のペインに通常表示される *Table of Contents* を定義します。ウェブサイト内には複数の `index.rst` ファイルがありますが、 **this** このファイルはウェブサイトのマスターインデックスファイルです。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:183
 msgid ":octicon:`file;1em;sd-text-info` *todo.rst*"
-msgstr ":octicon:`file;1em;sd-text-info` これは未処理のタスクです。"
+msgstr ":octicon:`file;1em;sd-text-info` *__RST_FILEPATH_1__*"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:181
 msgid ""
@@ -369,12 +382,12 @@ msgid ""
 "will be discussed in a much later tutorial, but for now we're just going to "
 "pretend that this file doesn't exist."
 msgstr ""
-"The ** todo.rst ** file は \"To-Do\" "
-"モジュールによって自動的に作成されるファイルです。このファイルについては、後々のチュートリアルで詳しく説明しますが、現時点ではこのファイルが存在しないことに仮想的に思い描くだけです。"
+"**__RST_FILEPATH_0__** ファイルは、「To-"
+"Do」モジュールによって自動的に入力されるファイルです。これは後のチュートリアルで詳しく説明されますが、今のところこのファイルが存在しないかのように振る舞います。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:186
 msgid "Understanding Content Structure"
-msgstr "コンテンツの構造について理解する"
+msgstr "コンテンツ構造の理解"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:188
 msgid ""
@@ -383,20 +396,19 @@ msgid ""
 "content structure can be found in the :octicon:`file-directory;1em;sd-text-"
 "info` ``/tutorial`` folder structure. The general rules are defined as:"
 msgstr ""
-"rst-"
-"Primerリポジトリの構造を理解した後では、この構造にコンテンツを追加する方法を理解できるようになりました。コンテンツの基本的な例は、:octicon:`file-"
-"directory;1em;sd-text-info` ``/tutorial`` "
-"フォルダ構造内で見つけることができます。一般的なルールは以下の通りです："
+"rst-Primerリポジトリの構造を理解したら、次にこの構造に *content* "
+"を追加する方法を理解する準備が整いました。コンテンツ構造の基本的な例は、 :octicon:`file-directory;1em;sd-text-"
+"info` ``/tutorial`` フォルダ構造に見つけることができます。一般的なルールは次のように定義されています："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:193
 msgid ""
 "Each content page is defined by a reStructuredText file with an **.rst** "
 "extension."
-msgstr "各コンテンツページは、 **.rst** 拡張子の reStructuredText ファイルで定義されます。"
+msgstr "各コンテンツページは、 **.rst** 拡張子を持つ reStructuredText ファイルによって定義されています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:195
 msgid "Each **.rst** file is defined within its own folder."
-msgstr "各 **.rst** ファイルは、それぞれのフォルダで定義されます。"
+msgstr "各 **.rst** ファイルは、それぞれのフォルダー内で定義されています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:196
 msgid ""
@@ -404,9 +416,8 @@ msgid ""
 "etc...) and so it will have subfolders that include those files "
 "(``/images``, ``/includes``, etc...)"
 msgstr ""
-"各 ** .rst ** "
-"ファイルは一般的にサポートするファイル（画像、参照ファイルなど）が含まれており、そのためサブフォルダにもこれらのファイルが含まれるフォルダ（``/images``、``/includes``"
-" など）が存在します。"
+"各 **.rst** ファイルには一般的にサポートファイル（画像、含まれるファイルなど）があり、それらのファイルを含むサブフォルダー "
+"(``/images``, ``/includes``, など) が存在します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:199
 msgid ""
@@ -415,30 +426,32 @@ msgid ""
 "contain content themselves, except as an introduction to the content linked "
 "from those pages (similar to the master index ``index.rst`` file)."
 msgstr ""
-"コンテンツカテゴリは、カテゴリ専用の着陸ページを持つことができます。これらの着陸ページは ``index.rst`` "
-"ファイルです。これらのカテゴリページには通常、独自のコンテンツは含まれていませんが、それらのページからリンクされるコンテンツへの紹介として存在します（マスターアイデックス"
-" ``index.rst`` ファイルに似ています）。"
+"コンテンツカテゴリにはカテゴリ固有のランディングページがあり、これらのランディングページは ``__RST_FILEPATH_0__`` "
+"ファイルです。これらのカテゴリページ自体には通常、コンテンツは含まれておらず、これらのページからリンクされているコンテンツへの導入としてのみ存在します（マスターインデックス"
+" ``__RST_FILEPATH_1__`` ファイルに似ています）。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:204
 msgid ""
 "Content Categories is used heavily within ftcdocs, but we will likely cover "
 "this topic in a much later tutorial."
-msgstr "コンテンツカテゴリはftcdocs内で頻繁に使用されていますが、このトピックについてはおそらく後ほど詳しく述べます。"
+msgstr ""
+"Content Categoriesはftcdocs内で広く使用されていますが、このトピックはおそらく後のチュートリアルで扱うことになるでしょう。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:207
 msgid ""
 "**.rst** files must be referenced from at least **one** ``index.rst`` page."
 msgstr ""
+"**.rst** ファイルは、少なくとも **one** ``__RST_FILEPATH_0__`` ページから参照されなければなりません。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:209
 msgid ""
 "The best way to describe these rules are to show an example of these rules "
 "in practice."
-msgstr "これらのルールを説明する最も良い方法は、実際の例で示すことです。"
+msgstr "これらのルールを説明する最良の方法は、実際にこれらのルールが適用されている例を示すことです。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:213
 msgid "Simple Content Example"
-msgstr "シンプルなコンテンツ例"
+msgstr "シンプルコンテンツの例"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:215
 msgid ""
@@ -448,25 +461,24 @@ msgid ""
 "*Gracious Professionalism* content is a single page on the site devoted to "
 "describing *GP* to site visitors and honoring Dr. Flowers."
 msgstr ""
-"単純な例として、`ftcdocs ホームページ <https://ftc-"
-"docs.firstinspires.org/en/latest/gracious_professionalism/gp.html>`_ の "
-"``Gracious Professionalism`` コンテンツのフォルダ階層を見てみましょう。``Gracious "
-"Professionalism`` コンテンツはサイト上の単一のページで、サイト訪問者に ``GP`` "
-"を説明し、ドクター・フラワーズを称えるために設けられています。"
+"簡単な例として、 `ftcdocs website <https://ftc-"
+"docs.firstinspires.org/en/latest/gracious_professionalism/gp.html>`_ 上の "
+"*Gracious Professionalism* コンテンツのフォルダ階層を見てみましょう。 *Gracious Professionalism* "
+"コンテンツは、サイト訪問者に *GP* を説明し、Dr. Flowersを称えるために捧げられた単一のページです。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:221
 msgid ""
 "Here is a view of all of the folders and files that are involved within the "
 "structure of the *Gracious Professionalism* content:"
-msgstr "以下は、 *Gracious Professionalism* コンテンツの構造内に含まれるすべてのフォルダとファイルのビューです："
+msgstr "ここに、 *Gracious Professionalism* コンテンツの構造に関与するすべてのフォルダーとファイルのビューがあります："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:229
 msgid "ftcdocs Gracious Professionalism structure"
-msgstr "FTCドキュメントの公正なプロフェッショナリズム構造"
+msgstr "ftcdocs グレイシャスプロフェッショナリズム 構造"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:229
 msgid "ftcdocs structure for Gracious Professionalism content"
-msgstr "Gracious Professionalism 内容の FIRST Tech Challenge ドキュメント構造"
+msgstr "Gracious Professionalism コンテンツのための ftcdocs 構造"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:231
 msgid ""
@@ -474,15 +486,16 @@ msgid ""
 "better. We will learn later *why* this structure is important once we start "
 "creating our own content."
 msgstr ""
-"少し分解して、コンテンツの構造についてよりよく理解しましょう。自分たちでコンテンツを作成し始める段階で、この構造がなぜ重要なのかを学ぶことになります。"
+"この内容の構造をよりよく理解するために、少し分解してみましょう。後で *why* "
+"この構造が自分たちのコンテンツを作成し始める際に重要であることを学びます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:235
 msgid ""
 "The site's ``/source`` root for ``ftcdocs``, similar to ``rST-Primer``, is "
 "in the ``ftcdocs/docs/source`` repository folder."
 msgstr ""
-"FTCDocs の ``/source`` ルートは、``rST-Primer`` と同様に ``ftcdocs/docs/source`` "
-"リポジトリフォルダ内にあります。"
+"サイトの ``/source`` ルートは ``ftcdocs`` のためのもので、 ``rST-Primer`` に似ており、 "
+"``ftcdocs/docs/source`` リポジトリフォルダーにあります。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:237
 msgid ""
@@ -493,10 +506,13 @@ msgid ""
 "spaces would otherwise be used. You can see this is more of a \"guideline\" "
 "rather than a rule, especially when dealing with externally-sourced files."
 msgstr ""
-"The main content file is named `gp.rst` と呼ばれ、`/source` フォルダ内の "
-"`/gracious_professionalism` フォルダに存在します。ファイルやフォルダ名にはスペースが含まれないため、フォルダ名は "
-"`_（アンダースコア）` で、ファイル名は `‐（ダッシュ）` "
-"を使用し、通常スペースを使用する場所にはダッシュを使用します。外部から提供されたファイルの場合など、特にこのガイドラインは厳格なルールとは限りません。"
+"メインコンテンツファイルは ``gp.\n"
+"\n"
+"rst`` と名付けられ、 ``/source`` フォルダー内の ``/gracious_professionalism`` フォルダーに存在します。\n"
+"\n"
+"ファイル名やフォルダー名にはスペースを含めることができないため、一般的なサイト全体のスタイルとして、フォルダーにはアンダースコア ``_`` を、ファイル名にはスペースの代わりにダッシュ ``-`` を使用します。\n"
+"\n"
+"これは特に外部ソースからのファイルを扱う際には、ルールというよりも「ガイドライン」であることがわかります。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:243
 msgid ""
@@ -504,8 +520,8 @@ msgid ""
 "two images are stored within a ``/images`` folder located immediately within"
 " the same folder that the **.rst** file is stored."
 msgstr ""
-"gp.rst ファイルは、ローカルに保存された2つの画像を参照または使用していますので、これらの2つの画像は、 ** .rst ** "
-"ファイルが保存されている同じフォルダ内に即座に存在する ``/images`` フォルダに保存されています。"
+"``__RST_FILEPATH_0__`` ファイルは、2つのローカルに保存された画像を参照/使用しているため、これらの2つの画像は、 "
+"**.rst** ファイルが保存されているのと同じフォルダー内にある ``/images`` フォルダーに保存されています。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:246
 msgid ""
@@ -513,8 +529,8 @@ msgid ""
 " within the main site ``index.rst`` file (we'll see *how* it's included a "
 "little later)."
 msgstr ""
-"このコンテンツは高レベルの情報を含む単一ページであるため、メインサイトの ``index.rst`` ファイルに含まれています（* どのように * "
-"含まれているかは後で説明します）。"
+"内容が高レベルのコンテンツを含む単一ページであるため、メインサイトの ``__RST_FILEPATH_0__`` ファイルに含まれています（ "
+"*how* が後ほど含まれていることを確認します）。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:250
 msgid ""
@@ -522,20 +538,20 @@ msgid ""
 "Challenge/ftcdocs/tree/main/docs/source/gracious_professionalism>`_ on the "
 "ftcdocs github repo."
 msgstr ""
-"Feel free to `contentフォルダを閲覧 <https://github.com/FIRST-Tech-"
-"Challenge/ftcdocs/tree/main/docs/source/gracious_professionalism>`_ する "
-"GitHubのftcdocsリポジトリをご覧ください。"
+"ftcdocsのGitHubリポジトリで `browse the content folder <https://github.com/FIRST-"
+"Tech-Challenge/ftcdocs/tree/main/docs/source/gracious_professionalism>`_ "
+"を自由にご利用ください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:254
 msgid "Creating a New Content Document"
-msgstr "新しいコンテンツドキュメントを作成する"
+msgstr "新しいコンテンツドキュメントの作成"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:256
 msgid ""
 "The process of creating a new content document is the same whether you're "
 "doing it locally or via codespaces as they both use vscode as the editor."
 msgstr ""
-"新しいコンテンツドキュメントを作成するプロセスは、ローカルで行う場合やcodespaces経由で行う場合に関わらず同じです。両方ともvscodeを使用して編集します。"
+"新しいコンテンツドキュメントを作成するプロセスは、ローカルで行う場合でもコードスペースを使用する場合でも同じです。どちらもエディタとしてvscodeを使用します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:260
 msgid ""
@@ -543,16 +559,16 @@ msgid ""
 " a similar structure as the *Gracious Professionalism* document above. Let's"
 " follow this structure:"
 msgstr ""
-"現在、初めてのドキュメントを作成します。以下の「Gracious "
-"Professionalism」ドキュメントと似た構造に沿って、私たちのドキュメントを作成しましょう。以下のような構造を追いましょう："
+"これから最初のドキュメントを作成します。上記の *Gracious Professionalism* "
+"ドキュメントと同様の構造にしましょう。この構造に従いましょう："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:269
 msgid "Danny content folder structure"
-msgstr "ダニーのコンテンツフォルダー構造"
+msgstr "Danny コンテンツフォルダー構造"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:269
 msgid "Folder Structure for Danny Content"
-msgstr "ダニーコンテンツのフォルダー構造"
+msgstr "Dannyコンテンツのフォルダー構造"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:271
 msgid ""
@@ -563,23 +579,25 @@ msgid ""
 "and we don't want thing colliding there. So just like your branch name, use "
 "your name as the unique key for the folder name at least."
 msgstr ""
-"もちろん、自分の作業と他の人の作業が被らないように、フォルダ名やドキュメント名を自分で作成するのがベストです。これは自分のブランチ内で行われているので、他の人が同じフォルダ構造を使用しても衝突しませんが、最終的にはあなたのブランチを"
-" ``main`` "
-"ブランチにマージしたいので、そこで何かが衝突しないようにする必要があります。そのため、ブランチ名と同じく、少なくともフォルダ名には自分の名前を使用して唯一のキーとして使用してください。"
+"もちろん、他の人の作業と重複しないように、自分自身のフォルダーやドキュメント名を作成するのが最善です。\n"
+"\n"
+"これは自分のブランチ内で行われているため、他の人が同じフォルダー構造を使用しても衝突することはありませんが、最終的にはあなたのブランチを ``main`` ブランチにマージしたいと考えており、そこでの衝突は避けたいと思っています。\n"
+"\n"
+"ですので、あなたのブランチ名と同様に、少なくともフォルダー名にはあなたの名前をユニークなキーとして使用してください。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:279
 msgid "Step 1: Create the initial content file"
-msgstr "ステップ1：初期コンテンツファイルを作成する"
+msgstr "ステップ 1: 初期コンテンツファイルを作成する"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:281
 msgid ""
 "Our first step in creating content is to create the core document. We're "
 "just going to create a \"stub\" file initially that we'll edit later."
-msgstr "私たちがコンテンツを作成する最初のステップは、コアドキュメントを作成することです。最初に「stub」ファイルを作成し、後で編集します。"
+msgstr "コンテンツを作成する最初のステップは、コアドキュメントを作成することです。最初は後で編集する「スタブ」ファイルを作成するだけです。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:284
 msgid "Navigate to the ``/rst-primer/docs/source`` folder in VS Code."
-msgstr "VS Code で ``/rst-primer/docs/source`` フォルダに移動してください。"
+msgstr "VS Codeで ``/rst-primer/docs/source`` フォルダーに移動します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:286
 msgid ""
@@ -587,8 +605,8 @@ msgid ""
 " folder. You can do this by right-clicking on the ``source`` folder and "
 "selecting \"New Folder\" and then typing in your name. E.g. \"Demo\"."
 msgstr ""
-"あなたの名前（またはユニークな名前）で ``/source`` フォルダ内に新しいフォルダを作成してください。これには、``source`` "
-"フォルダを右クリックし、「New Folder」を選択してから、あなたの名前を入力します。例えば、「Demo」という名前を入力できます。"
+"``/source`` フォルダー内に、自分の名前（またはユニークな名前）を付けた新しいフォルダーを作成してください。これは、 ``source`` "
+"フォルダーを右クリックし、「新しいフォルダー」を選択してから、自分の名前を入力することで行えます。例：「Demo」。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:290
 msgid ""
@@ -596,12 +614,12 @@ msgid ""
 "right-clicking on the folder you just created and selecting \"New File\" and"
 " then typing in the name of the file. E.g. \"7350.rst\"."
 msgstr ""
-"新しいファイルを作成して、先ほど作成したフォルダ内に保存します。これには、先ほど作成したフォルダを右クリックし、「New "
-"File」を選択し、その後ファイル名を入力する方法があります。例えば、「7350.rst」という名前を入力します。"
+"作成したフォルダー内に新しいファイルを作成します。これは、作成したフォルダーを右クリックし、「新しいファイル」を選択してから、ファイル名を入力することで行えます。例："
+" \"7350.rst\"。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:295
 msgid "Step 2: Upload image file to use"
-msgstr "ステップ 2: 使用する画像ファイルをアップロード"
+msgstr "ステップ2：使用する画像ファイルをアップロードする"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:297
 msgid ""
@@ -611,7 +629,8 @@ msgid ""
 " (using HTTP links). We're going to use both in our document, but we need an"
 " image to use. I downloaded this file locally:"
 msgstr ""
-"次に、ドキュメントで使用する画像ファイルをアップロードしましょう。reStructuredTextでは、ドキュメント内に画像を使用することができます。これらの画像はローカル画像（リポジトリ内で保存/保管されたもの）やリモート画像（HTTPリンクを使用したもの）が可能です。ドキュメント内で両方を使用する予定ですが、まずは使用する画像が必要です。私はこのファイルをローカルにダウンロードしました："
+"次に、ドキュメントで使用する画像ファイルをアップロードしましょう。reStructured "
+"Textでは、ドキュメント内で画像を使用することができ、これらの画像はローカル画像（リポジトリに保存/格納されたもの）またはリモート画像（HTTPリンクを使用するもの）です。私たちはドキュメント内で両方を使用しますが、使用する画像が必要です。このファイルをローカルにダウンロードしました："
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:303
 msgid ""
@@ -621,7 +640,7 @@ msgstr ""
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:305
 msgid "Navigate to the folder you created in the previous step."
-msgstr "前工程で作成したフォルダに移動してください。"
+msgstr "前のステップで作成したフォルダーに移動します。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:307
 msgid ""
@@ -629,8 +648,8 @@ msgid ""
 "``/source/Demo/images``. This can be done by right-clicking on your folder "
 "(`Demo`) and selecting \"New Folder\" and then typing in \"images\"."
 msgstr ""
-"フォルダ内に新しいフォルダを作成し、その中に「images」フォルダを作ります。例えば、「/source/Demo/images」というパスになります。これを行うには、フォルダ（Demo）を右クリックし、「New"
-" Folder」を選択し、その後「images」と入力します。"
+"あなたのフォルダー内に ``images`` という新しいフォルダーを作成してください。例えば、 ``/source/Demo/images`` "
+"のようにです。これは、あなたのフォルダー（`Demo`）を右クリックし、「新しいフォルダー」を選択してから「images」と入力することで行えます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:311
 msgid ""
@@ -639,17 +658,19 @@ msgid ""
 " and then dragging and dropping the file into the ``images`` folder you just"
 " created."
 msgstr ""
-"ダウンロードした画像ファイルを先ほど作成した「images」フォルダに追加します。これを行うには、ファイルエクスプローラでダウンロードした画像ファイルを開き、「images」フォルダにドラッグアンドドロップしてファイルを移動します。"
+"ダウンロードした画像ファイルを、先ほど作成した ``images`` "
+"フォルダーに追加してください。これは、ダウンロードした画像ファイルをファイルエクスプローラーで開き、先ほど作成した ``images`` "
+"フォルダーにドラッグ＆ドロップすることで行えます。"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:320
 msgid "Completed Demo"
-msgstr "完成したデモ"
+msgstr "完了したデモ"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:320
 msgid "Completed Demo Folder"
-msgstr "完了したデモフォルダ"
+msgstr "完了したデモフォルダー"
 
 #: ../../source/contrib/tutorials/make_rst/creating_rst/creating-rst.rst:322
 msgid ""
 "Congrats! Now we're ready to add content to our reStructured Text document!"
-msgstr "おめでとう！現在、私たちのreStructured Textドキュメントにコンテンツを追加する準備ができました！"
+msgstr "おめでとうございます！これで、reStructured Text ドキュメントにコンテンツを追加する準備が整いました！"

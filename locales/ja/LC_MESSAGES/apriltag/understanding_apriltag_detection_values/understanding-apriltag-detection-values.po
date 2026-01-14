@@ -6,18 +6,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:2
 msgid "Understanding AprilTag Detection Values"
@@ -25,11 +19,11 @@ msgstr "AprilTag検出値の理解"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:4
 msgid "*Last Updated: 7/05/2023*"
-msgstr "*最終更新日: 2023年7月5日* "
+msgstr "*Last Updated: 7/05/2023*"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:7
 msgid "Introduction"
-msgstr "紹介"
+msgstr "はじめに"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:9
 msgid ""
@@ -38,7 +32,7 @@ msgid ""
 "interpreted. However, the data can be further transformed into a familiar "
 "frame of reference to make it more easily utilized."
 msgstr ""
-"新しいSDKビジョン処理システムでAprilTagが検出されると、コアコードは容易に解釈できない原始データの集合を返します。しかし、このデータはより使いやすい形に変換して、馴染みのある参照フレームに変換することができます。"
+"新しいSDKビジョン処理システムによってAprilTagが検出されると、コアコードはしばしば解釈が難しい生データのコレクションを返します。しかし、このデータはさらに変換され、より利用しやすい馴染みのある基準フレームにすることができます。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:14
 msgid ""
@@ -46,19 +40,20 @@ msgid ""
 "OpMode with a collection of translation and rotation values, called "
 "*ftcPose*, that represent the Tag’s position in 3D space."
 msgstr ""
-"FIRST Tech Challenge SDKでは、AprilTag "
-"APIはチームのOpModeに、タグの3次元空間における位置を表す変換と回転値の集合、 * ftcPose * を提供します。"
+"*FIRST* Tech Challenge SDKでは、AprilTag APIがチームのOp Modeに、 *ftcPose* "
+"と呼ばれる一連の移動および回転値を提供し、タグの3D空間における位置を表します。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:18
 msgid ""
 "To understand how to interpret these values, it’s easier to consider a "
 "simpler 2D scenario where the vertical component is ignored. This is what is"
 " described below."
-msgstr "これらの値の解釈方法を理解するには、垂直成分を無視した単純な2次元シナリオを考える方が容易です。以下にその説明が示されています。"
+msgstr ""
+"これらの値を解釈する方法を理解するためには、垂直成分を無視したより単純な2Dシナリオを考える方が簡単です。以下に説明する内容がそれに該当します。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:22
 msgid "**Figure 1** below represents one possible 2D scenario."
-msgstr "**図1** 以下は1つの可能な2次元シナリオを示しています。"
+msgstr "**Figure 1** は、1つの可能な2Dシナリオを示しています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:29
 msgid "Figure 1"
@@ -66,42 +61,42 @@ msgstr "図1"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:29
 msgid "Figure 1: Top view of AprilTag scenario"
-msgstr "図1: AprilTag スceanrio の上面ビュー"
+msgstr "図1: AprilTagシナリオの上面図"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:31
 msgid ""
 "This diagram looks down on the Camera and AprilTag from above. The camera’s "
 "“forward” direction is identified by a dashed line drawn straight out from "
 "the camera."
-msgstr "この図はカメラとAprilTagから上方から見たものです。カメラの“前方”方向は、カメラから一直線に伸びる点線で示されています。"
+msgstr ""
+"この図は、カメラとAprilTagを上から見下ろしたものです。カメラの「前方」方向は、カメラから真っ直ぐに引かれた破線によって示されています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:35
 msgid ""
 "The AprilTag image is shown in the upper left of the figure. The tag is "
 "located 100 units forward of the camera and 36.4 units to the left (measured"
 " at right angles to the forward view)."
-msgstr "図の上左にAprilTag画像が表示されています。タグはカメラから前方に100単位、さらに前方視線に直角で36.4単位左に位置しています。"
+msgstr ""
+"図の左上にAprilTagの画像が表示されています。タグはカメラの前方に100ユニット、左に36.4ユニットの位置にあります（前方視点に対して直角に測定されています）。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:39
 msgid ""
 "The AprilTag is also rotated 5 degrees counterclockwise from a normal “face "
 "on” orientation."
-msgstr "AprilTagは、通常の「正面から」の向きから5度反時計回りに回転しています。"
+msgstr "AprilTagは、通常の「正面」方向から5度反時計回りに回転しています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:42
 msgid ""
 "Now that we have a clear understanding of one possible detection scenario, "
 "we can look at the meaning of the various values returned as *ftcPose* by "
 "the SDK."
-msgstr ""
-"今では、SDKによって返される * ftcPose * の Various Values "
-"の意味について、一つの可能性のある検出シナリオを理解した上で見ることができます。"
+msgstr "一つの検出シナリオについて明確な理解が得られたので、SDKによって返される *ftcPose* のさまざまな値の意味を見ていきましょう。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:45
 msgid ""
 "**Figure 2** shows the measured values associated with the camera/target "
 "scenario shown in Figure 1."
-msgstr "**図2** では、図1に示されたカメラ/ターゲットシナリオに関連する測定値が示されています。"
+msgstr "**Figure 2** は、図1に示されたカメラ/ターゲットシナリオに関連する測定値を示しています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:53
 msgid "Figure 2"
@@ -115,17 +110,17 @@ msgstr "図2: シナリオに関連する測定値"
 msgid ""
 "Since this is a simple 2D diagram, the vertical “Z” (up) axis is being "
 "ignored, so it is not shown here."
-msgstr "この図は単純な2次元のため、垂直方向の「Z」（上）軸は無視されるので、ここでは表示されていません。"
+msgstr "これは単純な2D図であるため、垂直の「Z」（上）軸は無視されており、ここには表示されていません。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:58
 msgid ""
 "The green X axis value represents the sideways offset to the tag. Note that "
 "this value is negative (to the left of the camera center)."
-msgstr "緑色のX軸値はタグに対する横方向のオフセットを示します。カメラ中央から左側に移動すると、この値は負になります。"
+msgstr "緑のX軸の値は、タグへの横方向のオフセットを表しています。この値はカメラの中心の左側にあるため、負の値であることに注意してください。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:61
 msgid "The red Y axis value represents the forward distance to the Tag."
-msgstr "赤いY軸の値はタグまでの前方距離を表します。"
+msgstr "赤いY軸の値は、タグまでの前方距離を表しています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:63
 msgid ""
@@ -133,13 +128,13 @@ msgid ""
 "Counter-Clockwise rotation is considered positive. Note that a Yaw value of "
 "zero means that the tag image is parallel to the face of the camera."
 msgstr ""
-"青色のYaw値はタグがZ軸を中心に回転していることを表します。反時計回りの回転は正とされます。なお、Yaw値が0の場合、タグ画像はカメラ面に並行であることを意味します。"
+"シアンのYaw値は、Z軸周りのタグの回転を表します。反時計回りの回転は正と見なされます。Yaw値がゼロであることは、タグ画像がカメラの面と平行であることを意味します。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:69
 msgid ""
 "Fun Fact: If the camera is pointing forward, the X, Y & Z axes are "
 "consistent with the Robot Coordinate system."
-msgstr "FUN FACT: カメラが前方に向けていた場合、X, Y & Z 軸はロボット座標系と一致します。"
+msgstr "面白い事実: カメラが前方を向いている場合、X、Y、Z軸はロボット座標系と一致します。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:72
 msgid ""
@@ -150,14 +145,13 @@ msgid ""
 "tilt UP to center on the tag). Note that Target Bearing has the same "
 "positive counterclockwise orientation."
 msgstr ""
-"X軸およびY軸の値から3つの追加パラメータが導き出されます。これらは、ターゲットの中心までの直接距離を示す *Range* "
-"、カメラがターゲットを直接見つめるために何度回転する必要があるかを示す *Bearing* "
-"、そしてタグに焦点を合わせるためにカメラが必要以上に上に向けて傾ける角度を示す *Elevation* です。なお、Target Bearing "
-"は同じ正の反時計回り方向を持っています。"
+"X軸とY軸の値から導出される追加の3つのパラメーターは、 *Range* （これはターゲットの中心までの直接距離）、 *Bearing* （これはカメラがターゲットに直接向けるために回転しなければならない度数）、および *Elevation* （これはカメラがタグの中心に合わせるために上に傾けなければならない度数）です。\n"
+"\n"
+"ターゲットのベアリングは、同じ正の反時計回りの方向を持つことに注意してください。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:80
 msgid "Investigating some real data"
-msgstr "実際のデータを調査しています"
+msgstr "実際のデータを調査する"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:82
 msgid ""
@@ -170,7 +164,21 @@ msgid ""
 " from the centerline. The camera is located 6” inches above the center of "
 "the targets, looking out horizontally (parallel to the ground)."
 msgstr ""
-"このプロセスを説明するために、実際のタグをいくつか考慮してみましょう。以下のデータはカードに印刷された2つのタグから得られました。左端にあるタグは上記で説明したセットアップと同一です。図3では、プロトロールの原点はカメラの正面に位置しており、距離は25インチです。両方のタグはカメラ中心線の左側にあり、どちらも+5度回転しています。左のタグは中心線から6.6インチ離れており、右のタグは中心線から1.5インチ離れています。カメラはターゲットの中心より6インチ上に位置し、水平方向（地面と平行）に向けています。"
+"このプロセスを説明するために、いくつかの実際のタグを考えてみましょう。\n"
+"\n"
+"以下のデータは、カードに印刷された一対のタグからのものです。\n"
+"\n"
+"最も左側のタグは、上記で説明したのと同じ設定になっています。\n"
+"\n"
+"図3では、分度器の原点がカメラの真前に位置し、距離は25インチです。\n"
+"\n"
+"両方のタグはカメラの中心線の左側にあり、両方とも+5度回転しています。\n"
+"\n"
+"左側のタグは6です。\n"
+"\n"
+"中心線から6インチの位置に左側のタグがあり、右側のタグは中心線から1.5インチの位置にあります。\n"
+"\n"
+"カメラはターゲットの中心から6インチ上に設置されており、水平に（地面と平行に）向いています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:97
 msgid "Tag Setup"
@@ -188,9 +196,10 @@ msgid ""
 " resolution. In this mode the camera has Field-Of-View (FOV) of 60 degrees. "
 "The physical tags are 3.4” square."
 msgstr ""
-"以下の図は、Camera Stream プレビューから取得した AprilTag のビデオプレビュー画像です。左のタグには ID が 0、右のタグには "
-"ID が 1 が割り当てられています。このビデオは Logitech C920 Pro HD ウェブカメラによってキャプチャされており、解像度は "
-"648x480 です。このモードでは、カメラの視野角（FOV）は 60 度です。実際のタグは 3.4インチ四方です。"
+"Camera Stream プレビューからの AprilTag ビデオプレビュー画像は以下に示されています。左側のタグの ID は 0 で、右側のタグの"
+" ID は 1 です。このビデオは、648x480 解像度で動作している Logitech C920 Pro HD "
+"ウェブカメラによってキャプチャされています。このモードでは、カメラの視野角 (FOV) は 60 度です。物理的なタグのサイズは 3.4 "
+"インチの正方形です。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:110
 msgid "preview image"
@@ -198,7 +207,7 @@ msgstr "プレビュー画像"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:110
 msgid "Figure 4: Camera Preview showing two detected AprilTags"
-msgstr "図4: 2つの検出されたAprilTagを表示するカメラのプレビュー"
+msgstr "図4: 2つの検出されたAprilTagを表示しているカメラプレビュー"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:112
 msgid ""
@@ -206,13 +215,13 @@ msgid ""
 " of the image corresponds to the location the camera is pointed at, which is"
 " centered on the protractor and directly above the top of the tags."
 msgstr ""
-"画像の左下角に両方のタグが配置されています。画像の中心はカメラが向いている位置に対応し、プロトロールの中央に合わせてあり、またタグの上端の正上方にあります。"
+"画像の左下隅に両方のタグがあることに注意してください。画像の中心はカメラが向いている位置に対応しており、これは分度器の中心にあり、タグの上部の真上に位置しています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:117
 msgid ""
 "Based on this setup, let’s review the data returned by the "
 "“ConceptAprilTag.java” sample OpMode."
-msgstr "この設定に基づいて、「ConceptAprilTag.java」サンプルオーモードによって返されたデータを確認しましょう。"
+msgstr "この設定に基づいて、「 ConceptAprilTag.java 」サンプルOp Modeによって返されるデータを確認しましょう。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:121
 msgid ""
@@ -221,23 +230,25 @@ msgid ""
 "this example the appropriate tags will need to be used instead of Tag0 and "
 "Tag1."
 msgstr ""
-"このドキュメント作成以降、ConceptAprilTag.javaサンプルで使用されているタグが変更されました。そのため、この例を再現するには、Tag0とTag1ではなく適切なタグを使用する必要があります。"
+"このドキュメントの作成以来、 ConceptAprilTag.java "
+"サンプルで使用されているタグが変更されました。したがって、この例を再現するためには、Tag0 と Tag1 "
+"の代わりに適切なタグを使用する必要があります。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:131
 msgid "telemetry"
-msgstr "telemetry"
+msgstr "Telemetry"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:131
 msgid "Figure 5: Values displayed by AprilTag OpMode"
-msgstr "図5: AprilTag OpMode で表示される値"
+msgstr "図5: AprilTag Op Modeによって表示される値"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:133
 msgid ""
 "The values for the two AprilTags are listed as “ID0 Nemo”, and “ID1 Jonah”. "
 "These are the names assigned when adding the tags to the Tag Library."
 msgstr ""
-"二つのAprilTagの値は「ID0 Nemo」および「ID1 Jonah」とリストされています。これらの名前は、タグをTag "
-"Libraryに追加したときに割り当てられたものです。"
+"2つのAprilTagの値は「ID0 Nemo」と「ID1 "
+"Jonah」としてリストされています。これらは、タグをタグライブラリに追加する際に割り当てられた名前です。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:137
 msgid ""
@@ -247,61 +258,70 @@ msgid ""
 "Yaw) around those axes, in degrees. The RBE line shows the target Range (in "
 "inches), Bearing, and Elevation (in degrees). The angle of Elevation results"
 " from the height difference between the camera and the Tag."
-msgstr "OpModeは、 **図2** に表示されるパラメータに対応する値を表示します。XYZ線は、インチ単位のX軸、Y軸、Z軸の平移値を示しています。PRY線は、これらの軸周りの回転（ピッチ、ロール、ヨー）に対応する度数で示されます。RBE線は、ターゲット範囲（インチ単位）、方位角、および仰角（度数）を示します。仰角は、カメラとタグの高さ差から計算されます。"
+msgstr ""
+"Op Modeは、 **Figure 2** に表示されているパラメーターに対応する値を表示します。\n"
+"\n"
+"XYZラインは、3つの軸の変位値（X、Y、Z）をインチ単位で示します。\n"
+"\n"
+"PRYラインは、それらの軸に沿った対応する回転（ピッチ、ロール、ヨー）を度単位で示します。\n"
+"\n"
+"RBEラインは、目標範囲（インチ単位）、方位、及び高度（度単位）を示します。\n"
+"\n"
+"カメラとタグの高さの差から、仰角が算出されます。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:145
 msgid "*Several items to observe:*"
-msgstr "*観察すべきいくつかの項目:* "
+msgstr "*Several items to observe:*"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:147
 msgid ""
 "Both Y values are about 25”, but the Y value for Tag 1 is slightly larger "
 "because it is behind the protractor base line."
-msgstr "両方のY値は約25インチですが、タグ1のY値はプロトロールベースラインの後方にあり、わずかに大きくなっています。"
+msgstr "両方のY値は約25インチですが、タグ1のY値はプロトラクターの基準線の後ろにあるため、わずかに大きくなっています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:150
 msgid ""
 "The X values for Tag 0 and 1 correspond to the offset distances described "
 "earlier (-6.6” and -1.5”)"
-msgstr "Tag 0と1のX値は、以前に説明したオフセット距離に対応します（-6.6インチおよび-1.5インチ）。"
+msgstr "タグ0および1のX値は、前述のオフセット距離（-6.6インチおよび-1.5インチ）に対応しています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:153
 msgid ""
 "Both tags show a Yaw of approximately 5 Deg, although this can vary 1-2 "
 "degrees depending on other orientation factors."
-msgstr "両方のタグはYawが約5度であることを示していますが、他の向きの要因により1-2度程度異なる場合があります。"
+msgstr "両方のタグは約5度のヨーを示していますが、これは他の方向要因によって1〜2度変動する可能性があります。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:156
 msgid ""
 "The Range to both targets are almost equal but the Bearing of Tag 0 is much "
 "greater due to its displacement to the left."
-msgstr "両方のターゲットまでの距離はほぼ同等ですが、Tag 0 の方位はその左への位置ずれにより大幅に大きいです。"
+msgstr "両方のターゲットまでの距離はほぼ等しいですが、タグ0の方位は左にずれているため、はるかに大きくなっています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:159
 msgid ""
 "Both targets show the same negative Z value of -5.7, which is consistent "
 "with them being centered about 6” below the height of the camera."
-msgstr "両方のターゲットは、カメラの高さより約6インチ下中央に配置されており、同じ負のZ値-5.7を示しており、これは一致しています。"
+msgstr "両方のターゲットは、カメラの高さから約6インチ下に中心があることと一致する-5.7の同じ負のZ値を示しています。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:163
 msgid ""
 "Each tag also has an “Elevation” of about -12.6 degrees, which is a downward"
 " viewing angle to the center of each tag."
-msgstr "各タグには約-12.6度の「高度」があり、これは各タグの中心に向かう下向きの視点角度です。"
+msgstr "各タグには約-12.6度の「エレベーション」があり、これは各タグの中心に対する下向きの視野角です。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:167
 msgid "Ways to use this data"
-msgstr "このデータを使用する方法"
+msgstr "このデータの使用方法"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:169
 msgid ""
 "There are several ways the AprilTag position data can be used, but here are "
 "two basic ways."
-msgstr "AprilTagの位置データはいくつかの方法で使用できますが、ここでは2つの基本的な方法について説明します。"
+msgstr "AprilTagの位置データを使用する方法はいくつかありますが、ここでは基本的な2つの方法を紹介します。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:172
 msgid "Pointing towards a target (Tank Drive)."
-msgstr "ターゲットに向かう（タンクドライブ）。"
+msgstr "ターゲットを指し示す（タンクドライブ）。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:174
 msgid ""
@@ -314,7 +334,11 @@ msgid ""
 "towards the target and drive to the correct range (or adjust your shooting "
 "power based on the range)."
 msgstr ""
-"もしAprilTagを使用してターゲットの位置をマークしている場合、2つの主な興味のあるプロパティはタグ範囲とタグ方位角です。タグ方位角は、タグに向けて直接指すために何度回転する必要があるかを示す指示子であり、タグ範囲は射出する距離を示します。単純な差動駆動（タンク式）でも、これらの2つのパラメータを使用してターゲットに向かって回転し、適切な範囲まで移動できる（または範囲に基づいて射出力を調整できる）ようになります。"
+"AprilTagを使用して、狙うべきターゲットの位置をマークしている場合、主に関心がある2つの特性は、Tag RangeとTag Bearingです。\n"
+"\n"
+"Tag Bearingは、タグに直接向くために何度回転する必要があるかを示し、Tag Rangeは、どれだけ遠くに撃つ必要があるかを示します。\n"
+"\n"
+"単純な差動（タンク）駆動であっても、これらの2つのパラメーターは、ターゲットに向かって回転し、正しい距離まで移動することを可能にします（または、距離に基づいて発射力を調整することができます）。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:183
 msgid ""
@@ -324,7 +348,7 @@ msgid ""
 " range from the current Tag Range and use the result to control the robot’s "
 "forward speed."
 msgstr ""
-"タグの方位を取得し、適切なゲインで乗算した後、それを旋回ジョイスティックに代えてロボットを目標に向かわせる単純な比例制御器を使用できます。同様に、現在のタグ範囲から望むシューティング距離を引いた結果を使って、ロボットの前方速度を制御することも可能です。"
+"シンプルな比例コントローラーは、タグのベアリングを取得し、それに適切なゲインを掛けて、ロボットをターゲットに向けて回転させるためにターン用のジョイスティックの代わりに使用することができます。同様に、現在のタグの範囲から希望する射撃範囲を引き、その結果を使用してロボットの前進速度を制御することができます。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:189
 msgid ""
@@ -333,15 +357,15 @@ msgid ""
 "squarely aligned, you need to consider the Yaw angle as shown in the next "
 "approach."
 msgstr ""
-"このアプローチでは、ターゲットの正面に正しく対して配置されていることを保証するものではなく、単にその方向を向いているだけです。正しく対して配置するためには、次のアプローチで示されるヨー角を考慮する必要があります。"
+"このアプローチでは、ターゲットの前方に正確に向いていることは保証されませんが、ターゲットに向いていることは保証されます。正確に整列するためには、次のアプローチで示されるように、ヨー角を考慮する必要があります。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:194
 msgid "See SDK Sample: RobotAutoDriveToAprilTagTank.java for more info."
-msgstr "SDKサンプル: RobotAutoDriveToAprilTagTank.java を参照してください。"
+msgstr "SDKサンプルを参照してください: RobotAutoDriveToAprilTagTank.java さらなる情報について。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:196
 msgid "Approaching a target squarely (Omni Drive)."
-msgstr "正方形でターゲットに近づく（オムニドライブ）。"
+msgstr "ターゲットに真っ直ぐアプローチする（Omni Drive）。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:198
 msgid ""
@@ -352,9 +376,13 @@ msgid ""
 "same as the Tag Bearing. So, all three parameters (Range, Bearing & Yaw) "
 "must be used to approach the target and end up directly in front of it."
 msgstr ""
-"もし、前方から正対して何かを接続するためにAprilTagが使用されている場合、Tag "
-"Yawの値を考慮することが重要です。これはカメラがタグ画像の中心線からどの程度ずれているか（度で表す）を直接示しています。これはTag "
-"Bearingとは異なりますが、関連しているものです。したがって、目標に近づく際には、距離（Range）、方位角（Bearing）およびYawの3つのパラメータを使用し、直接前から接続できるようにする必要があります。"
+"AprilTagが、正面から真っ直ぐにアプローチしなければならない物の位置を示すために使用されている場合、Tag Yaw値を考慮することが重要です。\n"
+"\n"
+"これは、カメラがタグ画像の中心線からどれだけずれているか（度数で）を直接示すものです。\n"
+"\n"
+"これはTag Bearingに関連していますが、同じではありません。\n"
+"\n"
+"したがって、ターゲットにアプローチし、直接その前に位置するためには、すべての3つのパラメーター（範囲、ベアリング、ヨー）を使用する必要があります。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:206
 msgid ""
@@ -367,10 +395,15 @@ msgid ""
 " 3) The target range can be used to drive forward or backward to obtain the "
 "correct standoff distance."
 msgstr ""
-"特定の距離までターゲットの正面に直接到達することは、ホロノミック（オムニディレクショナル）ドライブを搭載したロボットであれば、ストラフングを利用して直進するため簡単に実現できます。三つのアプローチを使用することができます。1)"
-" ターゲット方位角を利用してロボットをターゲットに向けて回転させることができます（上記の説明を参照）。2) "
-"ターゲットヨーを利用してストラフングを行い、ターゲットを中心に回転して直接正面に到達することができます。3) "
-"ターゲット距離を利用して前方または後方へ進退し、適切なスタンオフ距離を得ることができます。"
+"ターゲットの真前に特定の距離に到達することは、ホロノミック（全方向）ドライブを持つロボットによって簡単に行うことができます。なぜなら、ストレイフィングを使用して直接横方向に移動できるからです。\n"
+"\n"
+"三つのアプローチを使用することができます。\n"
+"\n"
+"1) ターゲットの方位を使用してロボットをターゲットの方向に向けることができます（上記のように）。\n"
+"\n"
+"2) ターゲットのヨawを使用して横方向にストレイフすることができ、ターゲットの周りを回転して直接前方に移動することができます。\n"
+"\n"
+"3) ターゲットの距離を使用して前方または後方に移動し、正しいスタンドオフ距離を取得することができます。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:216
 msgid ""
@@ -378,8 +411,8 @@ msgid ""
 "control loop, where turning towards the tag is given the highest gain "
 "(priority), followed by strafing sideways, followed by approaching the tag."
 msgstr ""
-"各軸の運動は、タグに向かって回転するものが最も高いゲイン（優先度）で制御され、次に横方向へのストラフリング、最後にタグに近づくものが制御される単純な比例制御ループで行われました。"
+"三つの軸の動きは、それぞれシンプルな比例制御ループによって制御されることができ、タグに向かって回転する動きが最も高いゲイン（優先度）を持ち、その後に横移動、最後にタグに近づく動きが続きます。"
 
 #: ../../source/apriltag/understanding_apriltag_detection_values/understanding-apriltag-detection-values.rst:221
 msgid "See SDK Sample: RobotAutoDriveToAprilTagOmni.java for more info."
-msgstr "SDKサンプル: RobotAutoDriveToAprilTagOmni.java を参照してください。"
+msgstr "SDKサンプルを参照してください: RobotAutoDriveToAprilTagOmni.java さらなる情報について。"

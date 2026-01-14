@@ -6,18 +6,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/programming_resources/imu/imu.rst:2
 msgid "Universal IMU Interface"
@@ -25,7 +19,7 @@ msgstr "ユニバーサルIMUインターフェース"
 
 #: ../../source/programming_resources/imu/imu.rst:5
 msgid "Introduction"
-msgstr "紹介"
+msgstr "はじめに"
 
 #: ../../source/programming_resources/imu/imu.rst:7
 msgid ""
@@ -38,12 +32,25 @@ msgid ""
 "are from Bosch Sensortec. An IMU can measure many aspects of device motion; "
 "this explanatory document focuses primarily on **rotation**."
 msgstr ""
-"2022年9月から、REV Roboticsは内部インテリジェント測位装置（IMU）が異なるものになった `Control Hub "
-"<https://www.revrobotics.com/rev-31-1595/>`__ を発送始めました。新しいIMUチップは `BHI260AP "
-"<https://www.bosch-sensortec.com/products/smart-sensor-systems/bhi260ap/>`__"
-" で、既存のハブのIMUチップである `BNO055 <https://www.bosch-sensortec.com/products/smart-"
-"sensors/bno055/>`__ を置き換えました。両方ともBosch "
-"Sensortecからです。IMUはデバイスの運動に関する多くの側面を測定できます；この説明書では主に **回転** について解説します。"
+"2022年9月、REV Roboticsは異なる内部慣性計測ユニット（IMU）を搭載した `Control Hubs <https://www.\n"
+"\n"
+"revrobotics.\n"
+"\n"
+"com/rev-31-1595/>`__の出荷を開始しました。\n"
+"\n"
+"新しいIMUチップは `BHI260AP <https://www.\n"
+"\n"
+"bosch-sensortec.\n"
+"\n"
+"com/products/smart-sensor-systems/bhi260ap/>`__と指定され、既存のHubのIMUチップ `BNO055 <https://www.\n"
+"\n"
+"bosch-sensortec.\n"
+"\n"
+"com/products/smart-sensors/bno055/>`__を置き換えます。\n"
+"\n"
+"両方ともBosch Sensortec製です。\n"
+"\n"
+"IMUはデバイスの動きの多くの側面を測定できます。この説明文書は主に **rotation** に焦点を当てています。"
 
 #: ../../source/programming_resources/imu/imu.rst:16
 msgid ""
@@ -52,19 +59,19 @@ msgid ""
 "**universal interface** that supports both the BHI260AP and BNO055 IMU. This"
 " basic tutorial introduces some new features:"
 msgstr ""
-"The `Software SDK <https://github.com/FIRST-Tech-"
-"Challenge/FtcRobotController/releases>`__ ** バージョン 8.1 ** で、BHI260AP と "
-"BNO055 IMU の両方をサポートする ** ユニバーサルインターフェース ** "
-"が導入されました。この基本的なチュートリアルでは、いくつかの新しい機能について説明します："
+"`Software SDK <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/releases>`__ **version 8.1** は、BHI260AP と "
+"BNO055 IMU の両方をサポートする **universal interface** "
+"を導入しました。この基本的なチュートリアルでは、いくつかの新機能を紹介します："
 
 #: ../../source/programming_resources/imu/imu.rst:21
 #: ../../source/programming_resources/imu/imu.rst:1182
 msgid "robot configuration allows selection of IMU type"
-msgstr "ロボットの設定ではIMUのタイプを選択できます"
+msgstr "ロボットの構成では、IMUの種類を選択することができます。"
 
 #: ../../source/programming_resources/imu/imu.rst:22
 msgid "universal classes and methods supporting both IMU types"
-msgstr "両方のIMUタイプをサポートする普遍的なクラスとメソッド"
+msgstr "両方のIMUタイプをサポートするユニバーサルクラスとメソッド"
 
 #: ../../source/programming_resources/imu/imu.rst:23
 #: ../../source/programming_resources/imu/imu.rst:1183
@@ -73,15 +80,15 @@ msgstr "ロボット上のハブ取り付け方向を指定する3つの方法"
 
 #: ../../source/programming_resources/imu/imu.rst:25
 msgid "Teams wanting to use the newer IMU are required to:"
-msgstr "新しいIMUを使用したいチームは、以下に記載のとおりです："
+msgstr "新しいIMUを使用したいチームは、次のことを行う必要があります："
 
 #: ../../source/programming_resources/imu/imu.rst:27
 msgid "use SDK 8.1 or newer"
-msgstr "SDK 8.1以降を使用してください"
+msgstr "SDK 8.1 以上を使用してください。"
 
 #: ../../source/programming_resources/imu/imu.rst:28
 msgid "update the Control Hub OS to 1.1.3 or newer."
-msgstr "Control Hub OSを1.1.3版以上に更新してください。"
+msgstr "Control HubのOSを1.1.3以上にアップデートしてください。"
 
 #: ../../source/programming_resources/imu/imu.rst:30
 msgid ""
@@ -90,51 +97,53 @@ msgid ""
 "**existing code** would allow you to switch easily (and perhaps urgently) to"
 " a new Control Hub during the season."
 msgstr ""
-"しかしながら、 **すべてのチーム** において、 **新しい** Blocks および Java コードでユニバーサル IMU "
-"クラスとメソッドの使用を開始することをお勧めします。また、 **既存のコード** を移行しておけば、シーズン中に新しい Control Hub "
-"へ（緊急時を含め）簡単に切り替えることが可能になります。"
+"しかし、 **all teams** は、 **new** Blocks および Java コードのために、ユニバーサル IMU "
+"クラスとメソッドの使用を開始することを推奨します。また、 **existing code** を移行することで、シーズン中に新しい Control "
+"Hub に簡単に（そしておそらく緊急に）切り替えることができるようになります。"
 
 #: ../../source/programming_resources/imu/imu.rst:35
 msgid ""
 "Don’t know which IMU you have? Check the **Manage** page under ``Program & "
 "Manage`` in any of these places:"
 msgstr ""
-"どちらの IMU を使用しているかわからない場合は、以下のいずれかの場所にある ``Program & Manage`` 項目内の **Manage**"
-" ページを確認してください。"
+"どのIMUを持っているかわかりませんか？これらの場所のいずれかにある ``Program & Manage`` の **Manage** "
+"ページを確認してください："
 
 #: ../../source/programming_resources/imu/imu.rst:38
 msgid "connected Driver Station (DS) app"
-msgstr "接続されたDriver Station(DS)アプリ"
+msgstr "接続されたDriver Station (DS)アプリ"
 
 #: ../../source/programming_resources/imu/imu.rst:39
 msgid ""
 "connected computer’s Chrome browser, at ``http://192.168.43.1:8080`` "
 "(Control Hub) or ``http://192.168.49.1:8080`` (RC phone)"
 msgstr ""
-"接続済みのコンピュータのChromeブラウザで、Control Hubは ``http://192.168.43.1:8080`` またはRCスマホは "
-"``http://192.168.49.1:8080``"
+"接続されたコンピュータのChromeブラウザで、 ``__RST_URL_0__`` (Control Hub) または "
+"``__RST_URL_1__`` (RC電話)"
 
 #: ../../source/programming_resources/imu/imu.rst:40
 msgid "REV Hardware Client (when Hub LED is green)"
-msgstr "REVハードウェアクライアント（ハブLEDが緑のとき）"
+msgstr "REV Hardware Client（Hub LEDが緑のとき）"
 
 #: ../../source/programming_resources/imu/imu.rst:42
 msgid "Each Hub’s IMU type is listed there, as of SDK 8.0."
-msgstr "各ハブのIMUタイプはSDK 8.0以降でリストに記載されています。"
+msgstr "各ハブのIMUタイプは、SDK 8.0の時点でそこに記載されています。"
 
 #: ../../source/programming_resources/imu/imu.rst:49
 msgid "2-hub display"
-msgstr "2つのハブ表示"
+msgstr "2ハブディスプレイ"
 
 #: ../../source/programming_resources/imu/imu.rst:49
 msgid "Sample Control Hub and Expansion Hub display"
-msgstr "サンプルのControl HubとExpansion Hubの表示"
+msgstr "サンプル Control Hub および Expansion Hub ディスプレイ"
 
 #: ../../source/programming_resources/imu/imu.rst:52
 msgid ""
 "*Reminder: REV Expansion Hubs purchased after December 2021 have no internal"
 " IMU.*"
-msgstr "*Reminder: 2021年12月以降に購入したREVExpansion Hubには内部IMUがありません。*"
+msgstr ""
+"*Reminder: REV Expansion Hubs purchased after December 2021 have no internal"
+" IMU.*"
 
 #: ../../source/programming_resources/imu/imu.rst:55
 msgid ""
@@ -142,47 +151,47 @@ msgid ""
 "unchanged, using Hubs with the BNO055. The new SDK 8.1 fully supports legacy"
 " Blocks and Java code using classes and methods for the BNO055 IMU."
 msgstr ""
-"既にオリジナルIMUを使用したOpModeを持っているでしょうか？コードは変更せずに使用できます。BNO055搭載のHubを使用すればよいです。新しいSDK"
-" 8.1では、BNO055 IMU用のクラスとメソッドを用いたレガシーブロックやJavaコードにも完全に対応しています。"
+"既存のOpModeで元のIMUを使用していますか？あなたのコードは変更せずに、BNO055を搭載したHubsで実行できます。新しいSDK "
+"8.1は、BNO055 IMUのクラスとメソッドを使用したレガシーBlocksおよびJavaコードを完全にサポートしています。"
 
 #: ../../source/programming_resources/imu/imu.rst:59
 msgid "The SDK 8.1 README provides more technical background:"
-msgstr "SDK 8.1 のREADMEはより詳細な技術的な背景情報を提供しています："
+msgstr "SDK 8.1 の README には、より詳細な技術的背景が記載されています。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "Unlike the old ``BNO055IMU`` interface, which only worked correctly when the"
-msgstr "古い ``BNO055IMU`` インターフェースとは異なり、これは正しく動作するためには特定の条件が必要ではありませんです。"
+msgstr "古い ``BNO055IMU`` インターフェースとは異なり、これは正しく機能するのは、"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "REV Hub was mounted flat on your robot, the ``IMU`` interface allows you to"
-msgstr "REV Hubはあなたのロボットに平らに取り付けられました。 ``IMU`` インターフェースを使用して、"
+msgstr "REV Hubはロボットに平らに取り付けられ、 ``IMU`` インターフェースを使用することで、"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "specify the orientation of the REV Hub on your robot. It will account for"
-msgstr "REV Hub の向きを指定してください。これにより角度が調整されます。"
+msgstr "ロボット上のREV Hubの向きを指定してください。これにより、考慮されます。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "this, and give you your orientation in a Robot Coordinate System, instead of"
-msgstr "これにより、ロボット座標系での方向性を提供します。"
+msgstr "これにより、ロボット座標系での方向を提供します。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "a special coordinate system for the REV Hub. As a result, your pitch and yaw"
-msgstr "REVハブ用の特別な座標系です。結果として、あなたのピッチとヨーが変化します。"
+msgstr "REV Hubのための特別な座標系です。その結果、ピッチとヨーが"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "will be 0 when your *robot* is level, instead of when the REV Hub is level,"
-msgstr "ロボットが水平の時、これは0になります。REVハブが水平の時ではなく、"
+msgstr "*robot* がレベルのときに 0 になります。REV Hub がレベルのときではありません。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "which will result in much more reliable orientation angle values for most"
-msgstr "これにより、ほとんどの場合、より信頼性の高い向き角度値が得られます"
+msgstr "これにより、ほとんどのケースでより信頼性の高い方向角の値が得られます。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "mounting orientations."
@@ -195,46 +204,46 @@ msgstr "..."
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "If you have calibrated your BNO055, you can provide that calibration data to"
-msgstr "もしBNO055の校正を行った場合、その校正データを提供できます。"
+msgstr "BNO055をキャリブレーションした場合、そのキャリブレーションデータを提供することができます。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "the new ``IMU`` interface by passing a ``BNO055IMUNew.Parameters`` instance"
-msgstr "新しい ``IMU`` インターフェースでは、``BNO055IMUNew.Parameters`` のインスタンスを渡します。"
+msgstr "新しい ``IMU`` インターフェースに ``BNO055IMUNew.Parameters`` インスタンスを渡すことによって"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "to ``IMU.initialize()``."
-msgstr "to ``IMU.initialize()``。"
+msgstr "``IMU.initialize()`` へ。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "Because of the new robot-centric coordinate system, the pitch and roll"
-msgstr "新しいロボット中心の座標系により、ピッチとロール"
+msgstr "新しいロボット中心の座標系のため、ピッチとロール"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "angles returned by the ``IMU`` interface will be different from the ones"
-msgstr "IMUインターフェースによって返される角度は異なる場合があります。"
+msgstr "``IMU`` インターフェースから返される角度は、異なるものになります。"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid ""
 "returned by the ``BNO055IMU`` interface. When you are migrating your code,"
-msgstr "BNO055IMU インターフェースによって返されます。コードを移行する際に、"
+msgstr "``BNO055IMU`` インターフェースによって返されます。コードを移行する際は、"
 
 #: ../../source/programming_resources/imu/imu.rst
 msgid "pay careful attention to the documentation."
-msgstr "注意深くドキュメントに従ってください。"
+msgstr "ドキュメントに注意深く目を通してください。"
 
 #: ../../source/programming_resources/imu/imu.rst:80
 msgid "Potential Usage"
-msgstr "使用可能性"
+msgstr "潜在的な使用"
 
 #: ../../source/programming_resources/imu/imu.rst:82
 msgid ""
 "*FIRST* Tech Challenge robots drive mostly on a flat playing field, "
 "typically using the IMU to monitor or control **Heading** (Yaw or Z-angle)."
 msgstr ""
-"*FIRST* Tech Challengeのロボットは主に平坦な競技フィールドで動作し、通常はIMUを使用して **ヘディング** "
-"（ヨー角またはZ角度）を監視または制御します。"
+"*FIRST* Tech Challenge のロボットは、主に平坦な競技フィールド上を移動し、通常は IMU を使用して **Heading** "
+"（ヨーまたは Z 角）を監視または制御します。"
 
 #: ../../source/programming_resources/imu/imu.rst:85
 msgid ""
@@ -242,8 +251,9 @@ msgid ""
 "Controller (RC) app are restarted. This can be useful between Autonomous and"
 " TeleOp. Heading can be reset during an OpMode, as discussed below."
 msgstr ""
-"OpMode（OpMode）の実行間でヘッジngは保持されます。ただし、ロボットやRobot "
-"Controller（RC）アプリが再起動された場合はこの限りではありません。これは自動運転とテレオペレーション（TeleOp）間での使用に有用です。OpMode内でヘッジngをリセットすることも可能です。詳細は以下の通りです。"
+"Headingは、Op Modeの実行間で保持されますが、ロボットまたはRobot Controller "
+"(RC)アプリが再起動されるとリセットされます。これは、AutonomousとTeleOpの間で便利です。Headingは、以下で説明するように、Op "
+"Mode中にリセットすることができます。"
 
 #: ../../source/programming_resources/imu/imu.rst:89
 msgid ""
@@ -251,33 +261,33 @@ msgid ""
 "from gravity or from a magnetometer, which can be affected by nearby motors."
 " This ‘Yaw drift’ is discussed below.*"
 msgstr ""
-"* Heading "
-"は時間とともにゆっくりとずれることがあります。重力や磁気計測器から絶対的な参照が得られないため、近くのモーターに影響を受けることがあります。この「ヨーズドrift」については以下で説明します。"
-" *"
+"*Heading can drift slowly over time. An absolute reference is not available "
+"from gravity or from a magnetometer, which can be affected by nearby motors."
+" This ‘Yaw drift’ is discussed below.*"
 
 #: ../../source/programming_resources/imu/imu.rst:93
 msgid ""
 "The IMU can help with more than Heading! Some *FIRST* Tech Challenge games "
 "have placed robots on **tilted surfaces**:"
 msgstr ""
-"IMUはヘッジ ingだけの助けではありません！一部の *FIRST* Tech Challenge ゲームでは、ロボットが ** 傾斜した表面 ** "
-"に配置されています："
+"IMUは、ヘディング以上のことに役立ちます！いくつかの *FIRST* Tech Challenge のゲームでは、ロボットを **tilted "
+"surfaces** に配置しました："
 
 #: ../../source/programming_resources/imu/imu.rst:-1
 msgid "previous games 1"
-msgstr "前回の大会 1"
+msgstr "前のゲーム 1"
 
 #: ../../source/programming_resources/imu/imu.rst:-1
 msgid "previous games 2"
-msgstr "前の大会 2"
+msgstr "前のゲーム 2"
 
 #: ../../source/programming_resources/imu/imu.rst:106
 msgid "Sample images from previous games utilizing tilted surfaces"
-msgstr "前回の大会で使用された傾斜した表面を利用したサンプル画像"
+msgstr "傾斜面を利用した以前のゲームのサンプル画像"
 
 #: ../../source/programming_resources/imu/imu.rst:108
 msgid "(Block Party!, *FIRST* RES-Q, Relic Recovery, Face Off!, Get Over It!)"
-msgstr "(ブロックパーティ！、FIRST RES-Q、リクライニング回収、フェイスオフ！、ゲット・オーバー・イット！)"
+msgstr "（Block Party!、 *FIRST* RES-Q、Relic Recovery、Face Off!、Get Over It!）"
 
 #: ../../source/programming_resources/imu/imu.rst:110
 msgid ""
@@ -285,38 +295,37 @@ msgid ""
 "game, may cause teams to seek IMU readings for **Pitch** and **Roll** "
 "angles."
 msgstr ""
-"SUCH 領域、そして ** 何らかの ** *FIRST* Tech Challenge ゲームにおける特別な状況は、チームに対して ** ピッチ "
-"** および ** ロール ** 角度の IMU 読取りを求め得ます。"
+"そのようなフィールドや、 **any** *FIRST* Tech Challenge 競技における特別な状況は、チームが **Pitch** および "
+"**Roll** 角度の IMU 読み取りを求める原因となる場合があります。"
 
 #: ../../source/programming_resources/imu/imu.rst:113
 msgid "Examples might include:"
-msgstr "例としては、次のものが考えられます："
+msgstr "例としては、次のようなものがあります："
 
 #: ../../source/programming_resources/imu/imu.rst:115
 msgid "robot’s left wheels are raised, on an obstacle"
-msgstr "ロボットの左側のタイヤは障害物上で持ち上げられています"
+msgstr "ロボットの左側の車輪が障害物の上に持ち上げられています。"
 
 #: ../../source/programming_resources/imu/imu.rst:116
 msgid ""
 "robot is tilted forward on its front 4 wheels (of 6-wheel West Coast Drive)"
-msgstr "ロボットは前方に傾斜しています（6輪のWest Coast Driveのうち前方4輪）"
+msgstr "ロボットは前方の4つの車輪（6輪のウエストコーストドライブ）で傾いています。"
 
 #: ../../source/programming_resources/imu/imu.rst:117
 msgid "robot has tipped over (!)"
-msgstr "ロボットが傾いています (!)"
+msgstr "ロボットが倒れました (!)"
 
 #: ../../source/programming_resources/imu/imu.rst:118
 msgid ""
 "robot’s secondary Expansion Hub (with IMU) is mounted on a tilting mechanism"
-msgstr "ロボットのセカンダリExpansion Hub（IMU付き）は傾斜機構に取り付けられています"
+msgstr "ロボットのセカンダリーExpansion Hub（IMU付き）は、傾斜機構に取り付けられています。"
 
 #: ../../source/programming_resources/imu/imu.rst:120
 msgid ""
 "The Software SDK can also provide values for **angular velocity**, which is "
 "the rate of change (degrees per second) for Roll, Pitch or Yaw."
 msgstr ""
-"Software SDK は、ロール、ピッチ、ヨーに対する角度速度（秒単位での変化量）の値も提供できます。 ** 角度速度 ** "
-"は、度毎秒の変化率を表します。"
+"Software SDKは、Roll、Pitch、またはYawの変化率（度/秒）である **angular velocity** の値も提供できます。"
 
 #: ../../source/programming_resources/imu/imu.rst:123
 msgid "Let’s get started!"
@@ -324,14 +333,15 @@ msgstr "始めましょう！"
 
 #: ../../source/programming_resources/imu/imu.rst:126
 msgid "Configure IMU"
-msgstr "IMUの設定"
+msgstr "IMUの構成"
 
 #: ../../source/programming_resources/imu/imu.rst:128
 msgid ""
 "Robot configuration of the IMU is **automatic**, and shouldn’t need changes."
 " But here’s how to confirm or rename your configured IMU."
 msgstr ""
-"ロボットのIMUの設定は ** 自動的 ** で、変更する必要はありません。ただし、設定されたIMUを確認または名前を変更する方法は以下の通りです。"
+"IMUのロボット構成は **automatic** "
+"であり、変更の必要はありません。しかし、構成されたIMUを確認または名前変更する方法は以下の通りです。"
 
 #: ../../source/programming_resources/imu/imu.rst:131
 msgid ""
@@ -340,14 +350,13 @@ msgid ""
 "Hub Portal``, then select the Hub with the IMU you want to use. Typically "
 "this will be the Control Hub, whether old or new."
 msgstr ""
-"接続されたDriver Station（Driver "
-"Station）アプリケーションで、右上の3点線アイコンをタッチし、「ロボット設定」をタッチしてください。新しい設定または既存の設定がある場合は、「Control"
-" Hubポータル」をタッチし、使用するIMUが搭載されているハブを選択します。通常、これは古いものであれ新しいものであれ、Control "
-"Hub（Control Hub）になります。"
+"接続されたDSアプリで、右上の3点アイコンをタッチし、次に ``Configure Robot`` をタッチします。新しい構成または既存の構成に対して、"
+" ``Control Hub Portal`` "
+"をタッチし、使用したいIMUを持つHubを選択します。通常、これは古いものでも新しいものでもControl Hubになります。"
 
 #: ../../source/programming_resources/imu/imu.rst:141
 msgid "IMU Robot Configuration"
-msgstr "IMUロボット設定"
+msgstr "IMU ロボット構成"
 
 #: ../../source/programming_resources/imu/imu.rst:141
 msgid "REV IMU Robot Configuration Validation"
@@ -359,8 +368,8 @@ msgid ""
 " you want another I2C device also on Bus 0, plug it into the Hub and use the"
 " ``Add`` button."
 msgstr ""
-"** 黄色 ** : "
-"内部IMUはI2Cバス0、ポート0に接続されています。他のI2Cデバイスをバス0にも接続したい場合は、ハブに接続し、「追加」ボタンを使用してください。"
+"**Yellow**: 内部のIMUは常にI2Cバス0のポート0に接続されています。バス0に別のI2Cデバイスを接続したい場合は、ハブに接続し、 "
+"``Add`` ボタンを使用してください。"
 
 #: ../../source/programming_resources/imu/imu.rst:147
 msgid ""
@@ -368,9 +377,9 @@ msgid ""
 "Hub; fix this only if it was incorrectly modified. Your IMU OpModes "
 "**require a correct choice here**."
 msgstr ""
-"**緑色** : "
-"このハブに実際のユニットが反映されるデフォルトのIMUタイプが表示されます；誤って変更された場合のみ修正してください。あなたのIMUOpModeでは、ここで"
-" **正しい選択が必要です** 。"
+"**Green**: "
+"表示されるデフォルトのIMUタイプは、このHub内の実際のユニットを反映します。誤って変更された場合のみ修正してください。あなたのIMU Op "
+"Modes **require a correct choice here** 。"
 
 #: ../../source/programming_resources/imu/imu.rst:151
 msgid ""
@@ -378,13 +387,13 @@ msgid ""
 " Blocks and Java. You may enter a custom name here, but you must then "
 "**update** all your OpModes that reference the IMU."
 msgstr ""
-"** 紫 ** : "
-"デフォルトのデバイス名は「imu」で、ブロックとJavaのすべてのサンプルオモードで使用されます。ここにカスタム名を入力できますが、その後はIMUを参照しているすべてのオモードを"
-" ** 更新 ** する必要があります。"
+"**Purple**: デフォルトのデバイス名は「imu」であり、すべてのSample Op "
+"ModesでBlocksおよびJavaに使用されます。ここにカスタム名を入力することもできますが、その場合は **update** すべてのOp "
+"ModesでIMUを参照する必要があります。"
 
 #: ../../source/programming_resources/imu/imu.rst:155
 msgid "When done, **save** and **activate** this configuration."
-msgstr ""
+msgstr "完了したら、 **save** と **activate** この構成を行います。"
 
 #: ../../source/programming_resources/imu/imu.rst:157
 msgid ""
@@ -393,8 +402,10 @@ msgid ""
 "provided only for devices in the configuration that’s active*\\  **upon "
 "opening**\\  *an OpMode.*"
 msgstr ""
-"もしOpModeが開いていた場合、コンピュータのプログラミング画面でそのOpModeを閉じてから再開し、この更新された構成をキャプチャしてください。ブロックは、OpModeを開く際にアクティブな"
-" **構成** に含まれるデバイス用のみが提供されます。"
+"*If a Blocks OpMode is open at the computer’s programming screen, close and "
+"re-open that OpMode to capture this updated configuration. Blocks are "
+"provided only for devices in the configuration that’s active*\\  **upon "
+"opening**\\  *an OpMode.*"
 
 #: ../../source/programming_resources/imu/imu.rst:165
 msgid "Axes Definition"
@@ -405,60 +416,65 @@ msgid ""
 "Robot orientation is defined using the Robot Coordinate System, with 3 axes "
 "that are **orthogonal** (at 90 degrees to each other), with origin inside "
 "the robot."
-msgstr "ロボットの向きは、ロボット座標系を使用して定義され、3つの軸が **直交** （お互いに90度の角度を成す）で、原点はロボット内にある。"
+msgstr ""
+"ロボットの向きはロボット座標系を使用して定義されており、3つの軸が **orthogonal** "
+"（互いに90度の角度で交わっています）で、原点はロボット内部にあります。"
 
 #: ../../source/programming_resources/imu/imu.rst:171
 msgid ""
 "You must decide which face or direction is **“forward”** on your robot "
 "(which could be round!)."
-msgstr ""
-"You must decide which face or direction is ** \"forward\" ** on your robot "
-"(which could be round!)."
+msgstr "ロボットのどの面または方向が **“forward”** であるかを決定する必要があります（丸い場合もあります！）。"
 
 #: ../../source/programming_resources/imu/imu.rst:175
 msgid ""
 "Placing a tape label “FRONT” at the **team-agreed front face** or front edge"
 " of the robot can avoid confusion later – really!"
 msgstr ""
-"Placing a tape label “FRONT” at the ** team-agreed front face ** or front "
-"edge of the robot can avoid confusion later – really!"
+"ロボットの **team-agreed front face** "
+"または前面に「FRONT」というテープラベルを貼ることで、後で混乱を避けることができます。本当に！"
 
 #: ../../source/programming_resources/imu/imu.rst:178
 msgid ""
 "Heading, or Yaw, is the measure of rotation about the Z axis, which points "
 "**up** toward the ceiling."
-msgstr "ヘッジホッグ、またはYawは、天井に向かって **上** に指すZ軸周りの回転量を測定します。"
+msgstr "ヘディング、またはヨawは、Z軸周りの回転の測定値であり、これは **up** を天井に向けています。"
 
 #: ../../source/programming_resources/imu/imu.rst:181
 msgid ""
 "Pitch is the measure of rotation about the X axis, which points **out the "
 "right side** of the robot."
-msgstr ""
+msgstr "ピッチは、ロボットの **out the right side** を指すX軸周りの回転の測定値です。"
 
 #: ../../source/programming_resources/imu/imu.rst:184
 msgid ""
 "Roll is the measure about the Y axis, which points **out the front** of the "
 "robot."
-msgstr "ロールはY軸についての測定値で、これによりロボットの前方向に **外** 側に向けての回転が示されます。"
+msgstr "ロールは、ロボットの **out the front** を指すY軸に関する測定値です。"
 
 #: ../../source/programming_resources/imu/imu.rst:187
 msgid ""
 "*These are Robot axes, different than (and not aligned with) the Hub axes "
 "used by the legacy* ``BNO055IMU`` *driver.*"
-msgstr "これらはロボットの軸で、 Legacy の ``BNO055IMU`` ドライバーで使用されるハブの軸とは異なり、また対応していません。"
+msgstr ""
+"*These are Robot axes, different than (and not aligned with) the Hub axes "
+"used by the legacy* ``BNO055IMU`` *driver.*"
 
 #: ../../source/programming_resources/imu/imu.rst:190
 msgid ""
 "Rotation follows the traditional **right-hand rule**: with the thumb "
 "pointing along the positive axis, the fingers curl in the direction of "
 "**positive** rotation."
-msgstr "回転は伝統的な **右の親指の規則** に従います：親指が正の軸方向を向いているとき、指が **正の** 回転方向へと曲がります。"
+msgstr ""
+"回転は従来の **right-hand rule** に従います。親指が正の軸に沿って指し、指が **positive** 回転の方向に巻きつきます。"
 
 #: ../../source/programming_resources/imu/imu.rst:195
 msgid ""
 "*Fun fact: the IMU is located approximately under the word “PROUD”, near the"
 " lower right corner of the Hub.*"
-msgstr "*おもしろ事実：IMUは「Proud」の下に位置しており、Hubの右下近傍にあります。*"
+msgstr ""
+"*Fun fact: the IMU is located approximately under the word “PROUD”, near the"
+" lower right corner of the Hub.*"
 
 #: ../../source/programming_resources/imu/imu.rst:198
 msgid ""
@@ -469,10 +485,14 @@ msgid ""
 "for-Blocks#vuforia-introduction>`__ for navigation, but that’s beyond the "
 "focus here on using the IMU."
 msgstr ""
+"このチュートリアルでは、Tech Challengeについて *FIRST* 議論します。あなたのOp Modeは、ロボットの向きを全体のフィールドや "
+"`‘global coordinates’ <https://github.com/FIRST-Tech-"
+"Challenge/FtcRobotController/wiki/Vuforia-for-Blocks#vuforia-introduction>`_"
+" に関連付けるかもしれませんが、ここではIMUの使用に焦点を当てます。"
 
 #: ../../source/programming_resources/imu/imu.rst:206
 msgid "Physical Hub Mounting"
-msgstr "物理ハブの取り付け"
+msgstr "物理的ハブの取り付け"
 
 #: ../../source/programming_resources/imu/imu.rst:208
 msgid ""
@@ -480,6 +500,9 @@ msgid ""
 "the robot. This allows you to receive IMU angle values expressed in **robot "
 "axes**, useful for understanding and managing the robot’s movement."
 msgstr ""
+"SDK 8.1では、ロボット上のHubの **physical orientation** "
+"を指定することができます。これにより、ロボットの動きを理解し管理するために役立つ、 **robot axes** "
+"で表現されたIMU角度値を受信することができます。"
 
 #: ../../source/programming_resources/imu/imu.rst:213
 msgid ""
@@ -487,12 +510,12 @@ msgid ""
 "mounting the Hub on the robot. In general, the Hub’s mounting can be "
 "considered **Orthogonal** or **Non-Orthogonal**."
 msgstr ""
-"プログラミングに飛び込む前に、ロボットにHubを物理的に取り付ける方法について話し合いましょう。一般的には、Hubの取り付けは ** "
-"Orthogonal ** または ** Non-Orthogonal ** と考慮できます。"
+"プログラミングに入る前に、ロボットにハブを物理的に取り付けるためのオプションについて話し合いましょう。一般的に、ハブの取り付けは "
+"**Orthogonal** または **Non-Orthogonal** と考えることができます。"
 
 #: ../../source/programming_resources/imu/imu.rst:218
 msgid "Orthogonal Mounting"
-msgstr "直交設置"
+msgstr "直交マウント"
 
 #: ../../source/programming_resources/imu/imu.rst:220
 msgid ""
@@ -501,18 +524,20 @@ msgid ""
 " your Hub on one of these cube faces, with the Hub’s straight edges "
 "**parallel** to the cube."
 msgstr ""
+"ロボットのどこにでも、床と平行に、平らな面がロボットの指定された「前方」に正確に向いている **cube** "
+"を想像してください。これらの立方体の面の1つにハブを置き、ハブの直線的なエッジが立方体に **parallel** するようにします。"
 
 #: ../../source/programming_resources/imu/imu.rst:225
 msgid ""
 "If that describes the orientation of your Hub, use the **Orthogonal** method"
 " of specifying its orientation. See the IMU Programming section below."
 msgstr ""
-"もしその説明がHubの向きを表しているなら、向きを指定する際には ** 直交法 ** "
-"を使用してください。以下のIMUプログラミングセクションで詳細をご覧ください。"
+"その説明があなたのHubの向きを示している場合は、 **Orthogonal** "
+"メソッドを使用してその向きを指定してください。以下のIMUプログラミングセクションを参照してください。"
 
 #: ../../source/programming_resources/imu/imu.rst:229
 msgid "Here are some common examples:"
-msgstr "以下は一般的な例です："
+msgstr "以下はいくつかの一般的な例です："
 
 #: ../../source/programming_resources/imu/imu.rst:238
 msgid "Orthogonal #1"

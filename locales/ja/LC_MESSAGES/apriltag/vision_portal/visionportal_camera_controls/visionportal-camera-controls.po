@@ -6,22 +6,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0"
-"Report-Msgid-Bugs-To: "
-"POT-Creation-Date: 2025-12-16 11:54+0900"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>"
-"Language-Team: ja <LL@li.org>"
-"Language: ja"
-"MIME-Version: 1.0"
-"Content-Type: text/plain; charset=utf-8"
-"Content-Transfer-Encoding: 8bit"
-"Plural-Forms: nplurals=1; plural=0;"
-"Generated-By: Babel 2.11.0"
+"Project-Id-Version: FIRST Tech Challenge Docs 0.3.0Report-Msgid-Bugs-To: "
+"POT-Creation-Date: 2025-12-16 11:54+0900PO-Revision-Date: YEAR-MO-DA "
+"HO:MI+ZONELast-Translator: FULL NAME <EMAIL@ADDRESS>Language-Team: ja "
+"<LL@li.org>Language: jaMIME-Version: 1.0Content-Type: text/plain; "
+"charset=utf-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=1; "
+"plural=0;Generated-By: Babel 2.11.0\n"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:2
 msgid "VisionPortal Camera Controls"
-msgstr "Vision Portalカメラコントロール"
+msgstr "VisionPortal カメラコントロール"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:4
 msgid ""
@@ -30,8 +24,8 @@ msgid ""
 "more), now available in Blocks! These controls can be applied under various "
 "lighting conditions."
 msgstr ""
-"はっきりとしたカメラ画像は、AprilTag（およびTFOD）のビジョン処理を改善します。SDKでは、強力な ** ウェブカムコントロール ** "
-"（露出量、ゲイン、フォーカスなど）が提供されており、ブロックでも利用可能になりました。これらのコントロールは、さまざまな照明条件下で適用できます。"
+"より鮮明なカメラ画像は、AprilTag（およびTFOD）の視覚処理を改善することができます。SDKは強力な **webcam controls** "
+"（露出、ゲイン、フォーカスなど）を提供しており、現在Blocksで利用可能です！これらのコントロールは、さまざまな照明条件下で適用することができます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:9
 msgid ""
@@ -39,8 +33,9 @@ msgid ""
 "<programming_resources/vision/webcam_controls/index:webcam controls>`. You "
 "are encouraged to learn more there."
 msgstr ""
-"SDKドキュメントにはすでに、:ref:`カメラ制御チュートリアル<programming_resources/vision/webcam_controls/index:webcam"
-" controls>` が用意されています。そちらでより詳しく学んでみてください。"
+"SDKのドキュメントにはすでに :ref:`Camera Controls tutorial "
+"<programming_resources/vision/webcam_controls/index:webcam controls>` "
+"が提供されています。ぜひそちらでさらに学んでください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:13
 msgid ""
@@ -48,33 +43,34 @@ msgid ""
 "Sample OpMode ``ConceptAprilTagOptimizeExposure.java``, which can be "
 "constructed also in FTC Blocks."
 msgstr ""
-"露出とゲインは一緒に調整されます。新しいSDKでは、Javaサンプルオモード``ConceptAprilTagOptimizeExposure.java``が提供されており、FTCブロックでも構築可能です。"
+"露出とゲインは一緒に調整されることに注意してください。新しいSDKは、FTC Blocksでも構築できるJavaサンプルOp Mode "
+"``__RST_FILEPATH_0__`` を提供します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:18
 msgid "Webcam States"
-msgstr "ウェブカムの状態"
+msgstr "Webcamの状態"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:20
 msgid ""
 "Camera Controls cannot be used until the webcam has reached the state "
 "``CAMERA_DEVICE_READY``."
-msgstr "カメラコントロールは、ウェブカムが「CAMERA_DEVICE_READY」の状態になるまで使用できません。"
+msgstr "カメラコントロールは、ウェブカメラが状態 ``CAMERA_DEVICE_READY`` に達するまで使用できません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:23
 msgid "Under the new FTC VisionPortal these camera states are now available:"
-msgstr "新しいFTC VisionPortalでは、これらのカメラステートが利用可能になりました："
+msgstr "新しいFTC VisionPortalでは、これらのカメラ状態が利用可能になりました："
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:25
 msgid "OPENING_CAMERA_DEVICE"
-msgstr "カメラデバイスを開く"
+msgstr "OPENING_CAMERA_DEVICE"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:26
 msgid "CAMERA_DEVICE_READY"
-msgstr "カメラデバイスが準備完了です"
+msgstr "CAMERA_DEVICE_READY"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:27
 msgid "STARTING_STREAM"
-msgstr "ストリーミング開始"
+msgstr "STARTING_STREAM"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:28
 msgid "STREAMING"
@@ -82,15 +78,15 @@ msgstr "ストリーミング"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:29
 msgid "STOPPING_STREAM"
-msgstr "ストリーム停止"
+msgstr "ストッピングストリーム"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:30
 msgid "CLOSING_CAMERA_DEVICE"
-msgstr "カメラデバイスの閉じる"
+msgstr "CLOSING_CAMERA_DEVICE"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:31
 msgid "CAMERA_DEVICE_CLOSED"
-msgstr "カメラデバイスが閉じられています"
+msgstr "CAMERA_DEVICE_CLOSED"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:32
 msgid "ERROR"
@@ -102,16 +98,16 @@ msgid ""
 "build), then starting or resuming streaming, then stopping streaming, then "
 "closing the camera."
 msgstr ""
-"これらの ** enum ** "
-"は、カメラを開く（新規構築）、ストリーミングを開始または再開、ストリーミングを停止、そしてカメラを閉じるという順序でリストされています。"
+"これらの **enums** "
+"は、カメラを開く（新しいビルド）、次にストリーミングを開始または再開し、次にストリーミングを停止し、最後にカメラを閉じるかのように順番にリストされています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:39
 msgid "Notes and Guidelines for Enums"
-msgstr "列挙型の注意事項とガイドライン"
+msgstr "列挙型に関する注意事項とガイドライン"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:41
 msgid "``OPENING_CAMERA_DEVICE`` - no vision processing is happening"
-msgstr "「カメラデバイスを開く」- ビジョン処理が行われていません"
+msgstr "``OPENING_CAMERA_DEVICE`` - ビジョン処理は行われていません"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:43
 msgid ""
@@ -120,48 +116,51 @@ msgid ""
 "performing color conversion). Ready to call ``resumeStreaming()``"
 msgstr ""
 "``CAMERA_DEVICE_READY`` - "
-"カメラが開き、処理は行われていません（EOCVによる背景処理も含めない）。フレームの取得や色変換などの処理は行われていません。``resumeStreaming()``"
-" を呼び出す準備ができています。"
+"カメラがオープンしています。EOCVからのバックグラウンド処理（フレームの取得や色変換を含む）は行われていません。 "
+"``resumeStreaming()`` を呼び出す準備が整いました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:47
 msgid "``STARTING_STREAM`` - no processing is happening"
-msgstr "「STARTING_STREAM」- 現在処理は行われていません"
+msgstr "``STARTING_STREAM`` - 処理は行われていません"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:49
 msgid ""
 "``STREAMING`` - Frames are available for processing (AprilTag and/or TFOD "
 "recognitions) and preview (RC preview and DS Camera Stream)"
 msgstr ""
-"``ストリーミング`` - フレームは処理（AprilTagやTFODの認識）とプレビュー（Robot ControllerのCamera "
-"StreamとDriver StationのCamera Stream）のために利用可能です"
+"``STREAMING`` - フレームは処理（AprilTagおよび/またはTFOD認識）およびプレビュー（RCプレビューおよびDS Camera "
+"Stream）のために利用可能です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:52
 msgid ""
 "``STOPPING_STREAM`` - processing may or may not be happening. This status is"
 " followed by ``CAMERA_DEVICE_READY``."
-msgstr "``ストップ中``- 處理が行われているかどうかは不明です。このステータスは``カメラデバイス準備完了`` に続きます。"
+msgstr ""
+"``STOPPING_STREAM`` - 処理が行われている場合もあれば、行われていない場合もあります。このステータスの後には "
+"``CAMERA_DEVICE_READY`` が続きます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:55
 msgid "``CLOSING_CAMERA_DEVICE`` - no processing is happening"
-msgstr "``CLOSING_CAMERA_DEVICE`` - 処理が行われていません"
+msgstr "``CLOSING_CAMERA_DEVICE`` - 処理は行われていません"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:57
 msgid ""
 "``CAMERA_DEVICE_CLOSED`` - nothing is running, USB comms are closed. Once "
 "closed, don’t open camera again during this OpMode."
 msgstr ""
-"``CAMERA_DEVICE_CLOSED`` - "
-"何も実行されておらず、USB通信が閉じられています。一度閉じた後は、このOpMode中にカメラを開かないでください。"
+"``CAMERA_DEVICE_CLOSED`` - 何も実行されておらず、USB通信は閉じられています。一度閉じたら、このOp "
+"Mode中にカメラを再度開かないでください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:61
 msgid "Observing Controls"
-msgstr "観察するコントロール"
+msgstr "コントロールの観察"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:63
 msgid ""
 "Teams wanting to optimize AprilTag or TFOD recognitions with Camera Controls"
 " should consider using ``scrcpy`` here:"
-msgstr "チームがAprilTagやTFODの認識をカメラコントロールで最適化したい場合は、「scrcpy」を使用することを検討してください："
+msgstr ""
+"AprilTagやTFODの認識をCamera Controlsで最適化したいチームは、ここで ``scrcpy`` を使用することを検討すべきです。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:66
 msgid "https://github.com/Genymobile/scrcpy"
@@ -171,7 +170,7 @@ msgstr "https://github.com/Genymobile/scrcpy"
 msgid ""
 "or an HDMI monitor. Optimizing via DS Camera Stream will be less effective "
 "and less efficient."
-msgstr "またはHDMIモニターを使用する。Driver StationCamera Stream経由での最適化は効果的でないし、効率も悪い。"
+msgstr "またはHDMIモニター。DS Camera Streamを介して最適化することは、効果が薄く、効率も低下します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:71
 msgid ""
@@ -180,9 +179,9 @@ msgid ""
 "adjustments cannot be made in real time, with gamepads disabled during "
 "Camera Stream."
 msgstr ""
-"DRIVER STATIONCamera Streamは、``scrcpy`` "
-"と同じ画像を表示し、露出とゲインが認識に影響を与えることを確認できます。しかし、この画像はスナップショットであり、リアルタイムでの調整はできません。また、Camera"
-" Stream中にはゲームパッドの使用も禁止されます。"
+"DSのCamera Streamは、 ``scrcpy`` "
+"と同じ画像を表示します。つまり、露出とゲインが認識に影響を与えます。しかし、画像はスナップショットのみであり、リアルタイムでの調整はできず、Camera"
+" Stream中はゲームパッドが無効になります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:76
 msgid "Control Ranges"
@@ -190,10 +189,7 @@ msgstr "制御範囲"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:78
 msgid "Each webcam model has its own level of support for Camera Controls."
-msgstr ""
-"各ウェブカムモデルは、カメラコントロール此句，："
-""
-"各ウェブカメラモデルには、カメラコントロール的自身支持水平各有不同。"
+msgstr "各ウェブカメラモデルには、Camera Controlsに対するサポートのレベルがあります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:80
 msgid ""
@@ -201,44 +197,44 @@ msgid ""
 " webcams don’t. More info is at :ref:`ftc-docs Webcam Controls "
 "<programming_resources/vision/webcam_controls/index:webcam controls>`."
 msgstr ""
-"Logitech C920 は SDK によって提供されるすべての制御機能をサポートしています；多くのウェブカメラではそうではありません。詳細については"
-" :ref:`FTC ドキュメント "
-"ウェブカム制御<programming_resources/vision/webcam_controls/index:webcam controls>`"
-" を参照してください。\"
+"Logitech C920は、SDKが提供するすべての制御機能をサポートしていますが、多くのウェブカメラはそうではありません。詳細は "
+":ref:`ftc-docs Webcam Controls "
+"<programming_resources/vision/webcam_controls/index:webcam controls>` "
+"をご覧ください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:84
 msgid "For example, here are control ranges reported by the Logitech C920:"
-msgstr "例えば、Logitech C920 から報告された制御範囲は次の通りです："
+msgstr "例えば、Logitech C920によって報告された制御範囲は次のとおりです："
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:86
 msgid "Exposure 0 to 204 ms"
-msgstr "露出時間 0 時間から 204 ミリ秒"
+msgstr "露出 0 から 204 ミリ秒"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:87
 msgid "Gain 0 to 255"
-msgstr "獲得値 0 から 255"
+msgstr "ゲイン 0 から 255"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:88
 msgid "White Balance 2000 to 6500 (often defaults to 2000)"
-msgstr "白平衡 2000 から 6500（多くの場合、2000 がデフォルト）"
+msgstr "ホワイトバランス 2000 から 6500 （通常は 2000 にデフォルト設定されています）"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:89
 msgid "Focus 0 to 250, usual default 0 (infinite)"
-msgstr "フォーカス 0 から 250、通常のデフォルトは 0（無限大）"
+msgstr "フォーカス 0 から 250、通常のデフォルトは 0（無限）"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:90
 msgid "Pan and Tilt +/- 36,000, default (0,0)"
-msgstr "パン＆ティルト ±36,000、デフォルト（0,0）"
+msgstr "パンとチルト +/- 36,000、デフォルト (0,0)"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:91
 msgid "Zoom 100 to 500, but no effect after about 250"
-msgstr "ズームを100から500に変更しましたが、約250あたりからは効果はありません"
+msgstr "ズームは100から500まで可能ですが、約250を超えると効果がありません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:93
 msgid ""
 "Note that Camera Control Zoom affects both AprilTag and TFOD, while TFOD "
 "Zoom affects only TFOD recognitions."
-msgstr "カメラコントロールズのズームはAprilTagとTFODに両方影響しますが、TFODのズームはTFOD認識のみに影響します。"
+msgstr "カメラコントロールズームはAprilTagとTFODの両方に影響を与えますが、TFODズームはTFODの認識にのみ影響を与えます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:96
 msgid ""
@@ -246,6 +242,8 @@ msgid ""
 "significantly affecting the **pose estimation**. TFOD zoom will not affect "
 "pose."
 msgstr ""
+"カメラ制御のズーム（PTZ）はカメラのキャリブレーションに影響を与え、その結果 **pose estimation** "
+"に大きな影響を及ぼします。TFODのズームはポーズには影響を与えません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:100
 msgid "Also:"
@@ -253,15 +251,15 @@ msgstr "また："
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:102
 msgid "AprilTag detections are not affected by camera or object orientation"
-msgstr "AprilTagの検出結果はカメラや物体の向きに影響を受けません"
+msgstr "AprilTagの検出は、カメラや物体の向きに影響されません。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:103
 msgid "TFOD recognitions are affected by camera or object orientation"
-msgstr "カメラや物体の向きによってTFODの認識が影響を受けます"
+msgstr "TFODの認識は、カメラまたは物体の向きに影響されます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:106
 msgid "Setter Blocks"
-msgstr "セットブロック"
+msgstr "セッターブロック"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:108
 msgid ""
@@ -269,12 +267,12 @@ msgid ""
 "choosing “use return value” or “ignore return value” from each Block’s "
 "context (right-click) menu."
 msgstr ""
-"Webcam コントロール下的の ** setter ブロック ** "
-"は、各ブロックのコンテキストメニュー（右クリック）から「戻り値を使用」または「戻り値を無視」を選択したときに変更/切り替えが可能になりました。"
+"Webcam Controlsの下にある **setter Blocks** "
+"は、各Blockのコンテキスト（右クリック）メニューから「戻り値を使用する」または「戻り値を無視する」を選択することで、変更/切り替えができるようになりました。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:117
 msgid "Blocks Setters"
-msgstr "ブロック設定"
+msgstr "Blocks セッター"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:117
 msgid "Examples of Setter Blocks with togglable return values"
@@ -282,61 +280,62 @@ msgstr "トグル可能な戻り値を持つセッターブロックの例"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:119
 msgid "In either form, the setting task **is performed**."
-msgstr "どちらの形式でも、設定タスクは **実行されます** 。"
+msgstr "いずれの形式でも、設定タスク **is performed** です。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:121
 msgid "The “non-return” version comment is:"
-msgstr "「非復帰」バージョンのコメントは："
+msgstr "「非返却」バージョンのコメントは次のとおりです："
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:123
 msgid ""
 "*Set the gain. Right-click, “use return value” for a Boolean indicating "
 "success or completion.*"
-msgstr "ゲインを設定します。右クリックして、「Booleanで成功または完了を示す値を使用」を選択してください。"
+msgstr ""
+"*Set the gain. Right-click, “use return value” for a Boolean indicating "
+"success or completion.*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:126
 msgid "The “plug” version comment is:"
-msgstr "The \"plug\" バージョンのコメントは:\""
+msgstr "「プラグ」バージョンのコメントは次のとおりです："
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:128
 msgid ""
 "*Set the gain, and return a Boolean indicating success or completion. Or "
 "right-click, “ignore return value”.*"
-msgstr "ゲインを設定し、成功または完了を示すブール値を返します。または右クリックして「戻り値を無視」を選択してください。"
+msgstr ""
+"*Set the gain, and return a Boolean indicating success or completion. Or "
+"right-click, “ignore return value”.*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:132
 msgid "Gain and Exposure"
-msgstr "獲得と露出"
+msgstr "ゲインと露出"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:134
 msgid "Autoexposure mode manages both gain and exposure."
-msgstr "自動露出モードはゲインと露出を両方管理します。"
+msgstr "オートエクスポージャーモードは、ゲインと露出の両方を管理します。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:136
 msgid ""
 "Gain can be adjusted only if ExposureControl Mode is set to MANUAL (not the "
 "default)."
-msgstr "露出制御モードがMANUAL（デフォルトでない）に設定されている場合のみ、ゲインは調整できます。"
+msgstr "ゲインは、ExposureControl ModeがMANUAL（デフォルトではない）に設定されている場合のみ調整できます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:139
 msgid ""
 "The old `Camera Controls tutorial "
 "<programming_resources/vision/webcam_controls/index:webcam controls>` says:"
 msgstr ""
-"古い「カメラコントロールチュートリアル "
-"<programming_resources/vision/webcam_controls/index:ウェブカム "
-"コントロール>」では、次のように述べています："
+"古い `Camera Controls tutorial "
+"<programming_resources/vision/webcam_controls/index:webcam controls>` "
+"には次のように記載されています："
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:142
 msgid "*Gain can be managed in coordination with exposure.*"
-msgstr "露出と連携してゲインを管理できます。"
+msgstr "*Gain can be managed in coordination with exposure.*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:144
 msgid "Actually, in the SDK, Gain **must** be managed with Exposure."
-msgstr ""
-"Actually, in the SDK, Gain ** must ** be managed with Exposure.Actually, in "
-"the SDK, Gain ** must ** be managed with Exposure.Actually, in the SDK, Gain"
-"  ** must ** be managed with Exposure."
+msgstr "実際、SDKでは、Gain **must** は露出と共に管理されます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:147
 msgid "Shared Blocks"
@@ -347,48 +346,47 @@ msgid ""
 "FTC Blocks offers an arrangement where 3 similar Blocks use a pull-down list"
 " to share a common structure (and common comment):"
 msgstr ""
-"FIRST Tech Challenge "
-"ブロックは、3つの類似ブロックが共通の構造（および共通のコメント）を共有するためのプルダウンリストを使用するアレンジメントを提供します："
+"FTC Blocksは、3つの類似したBlocksがプルダウンリストを使用して共通の構造（および共通のコメント）を共有する配置を提供します："
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:-1
 msgid "Blocks Dropdown"
-msgstr "Blocksドロップダウン"
+msgstr "Blocks ドロップダウン"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:162
 msgid "Blocks Exposure"
-msgstr "Blocks露出時間"
+msgstr "Blocksの露出"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:162
 msgid "Examples of Exposure Blocks with pull-down lists"
-msgstr "露出ブロックの例（プルダウンリストあり）"
+msgstr "プルダウンリストを使用したエクスポージャーブロックの例"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:165
 msgid "This is used six places in the Webcam Controls section."
-msgstr "このテキストは、ウェブカメラ制御セクションで6箇所使用されています。"
+msgstr "これはWebcam Controlsセクションで6箇所使用されています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:168
 msgid "Pan-Tilt Holder"
-msgstr "パンチルトホルダー"
+msgstr "パン・ティルトホルダー"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:170
 msgid "See this Block with the NEW operator (green oval):"
-msgstr "NEW演算子（緑色の円）で定義されたこのブロックを参照してください:\\n"
+msgstr "このブロックを新しいオペレーター（緑の楕円）でご覧ください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:177
 msgid "PanTiltHolder"
-msgstr "パンチルホルダ"
+msgstr "PanTiltHolder"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:177
 msgid "Examples of Pan/Tilt Blocks"
-msgstr ""
-"Examples of Pan/Tilt BlocksExamples of Pan/Tilt BlocksExamples of Pan/Tilt "
-"BlocksPan/Tilt Blocks の例"
+msgstr "パン/チルトブロックの例"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:179
 msgid ""
 "It’s **not needed** if the OpMode will call ``getPanTilt()`` and assign it "
 "to the variable, as shown above (yellow arrow)."
 msgstr ""
+"Op Modeが ``getPanTilt()`` を呼び出し、それを変数に割り当てる場合、上記のように（黄色の矢印） **not needed** "
+"になります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:182
 msgid ""
@@ -396,22 +394,24 @@ msgid ""
 "variable’s pan and/or tilt values, or try to pass that variable to "
 "``setPanTiltHolder()``. The values will be zero."
 msgstr ""
+"次に、Op Modeはその変数のパンおよび/またはチルト値を取得（または設定）しようとするか、またはその変数を "
+"``setPanTiltHolder()`` に渡そうとします。その値はゼロになります。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:187
 msgid "Gain and Exposure Test OpMode"
-msgstr "露出とゲインテストOpMode"
+msgstr "ゲインと露出テスト Op Mode"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:189
 msgid ""
 "The SDK offers a built-in test OpMode to optimize Gain and Exposure. See the"
 " Sample Java Sample called ``ConceptAprilTagOptimizeExposure.java``."
 msgstr ""
-"SDKには、ゲインと露出を最適化するための組み込みテストモードが用意されています。サンプルJavaコード "
-"``ConceptAprilTagOptimizeExposure.java`` を参照してください。"
+"SDKは、ゲインと露出を最適化するための組み込みテストOp Modeを提供します。 ``__RST_FILEPATH_0__`` "
+"というサンプルJavaサンプルを参照してください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:193
 msgid "From its introduction notes:"
-msgstr "/from其介绍说明中："
+msgstr "導入ノートから:"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:195
 msgid ""
@@ -420,9 +420,10 @@ msgid ""
 "Phone Camera, so if you are using a Phone for the Robot Controller this "
 "OpMode/Feature only applies to an externally connected Webcam.*"
 msgstr ""
-"* "
-"このOpModeは、ウェブカメラで画像のモーションボルが最小になる最適な露出を決定します。なお、スマホカメラについては露出を制御することは不可能であるため、Robot"
-" Controllerとしてスマホを使用している場合、このOpMode/機能は外部接続されたウェブカメラに対してのみ適用されます。*"
+"*This OpMode determines the best Exposure for minimizing image motion-blur "
+"on a webcam. Note that it is not possible to control the exposure for a "
+"Phone Camera, so if you are using a Phone for the Robot Controller this "
+"OpMode/Feature only applies to an externally connected Webcam.*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:201
 msgid ""
@@ -431,14 +432,18 @@ msgid ""
 "maximum Gain, the exposure is slowly increased until the Tag is detected "
 "reliably from the likely operational distance.*"
 msgstr ""
-"* 目標は、信頼性のあるタグ検出が可能 STILL "
-"となる最小の（最短の）露出値を決定することです。最低露出と最大ゲインから始めて、露出を徐々に増加させ、タグがおそらく動作距離から信頼性のある形で検出されるまで続けます。*"
+"*The goal is to determine the smallest (shortest) Exposure value that still "
+"provides reliable Tag Detection. Starting with the minimum Exposure and "
+"maximum Gain, the exposure is slowly increased until the Tag is detected "
+"reliably from the likely operational distance.*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:206
 msgid ""
 "*The best way to run this optimization is to view the camera preview screen "
 "while changing the exposure and gain.*"
-msgstr "*この最適化を実行する最も良い方法は、露出やゲインを変更しながらカメラプレビュー画面を確認することです。*"
+msgstr ""
+"*The best way to run this optimization is to view the camera preview screen "
+"while changing the exposure and gain.*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:209
 msgid ""
@@ -448,26 +453,27 @@ msgid ""
 "HDMI monitor into the Control Hub HDMI port, or use an external viewer "
 "program like scrcpy (https://scrcpy.org/)*"
 msgstr ""
-"* これを実行するには、Robot Controller画面を直接確認する必要があります（Driver "
-"Stationからではなく）。RCスマホの画面から直接確認できます（外部ウェブカムを使用している場合）、しかしControl "
-"Hubの場合、HDMIモニターをControl "
-"HubのHDMIポートに接続するか、scrcpyなどの外部ビューワープログラム（https://scrcpy.org/）を使用する必要があります。*"
+"*To do this, you need to view the RobotController screen directly (not from "
+"Driver Station) This can be done directly from a RC phone screen (if you are"
+" using an external Webcam), but for a Control Hub you must either plug an "
+"HDMI monitor into the Control Hub HDMI port, or use an external viewer "
+"program like scrcpy (__RST_URL_0__)*"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:216
 msgid "Other Test OpModes"
-msgstr "他のテストOpMode"
+msgstr "その他のテストOp Mode"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:218
 msgid ""
 "As an alternate, Camera Controls can be tested using these Blocks OpModes:"
-msgstr "代替手段として、カメラコントロールはこれらのブロックオモードを使用してテストできます："
+msgstr "代替として、Camera ControlsはこれらのBlocks Op Modesを使用してテストできます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:221
 msgid ""
 "`Exposure & Gain "
 "<https://gist.github.com/WestsideRobotics/a8e32dc2ce31cfc408be65c92bb81826>`__"
 msgstr ""
-"`露出とゲイン "
+"`Exposure & Gain "
 "<https://gist.github.com/WestsideRobotics/a8e32dc2ce31cfc408be65c92bb81826>`__"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:223
@@ -475,7 +481,7 @@ msgid ""
 "`Focus "
 "<https://gist.github.com/WestsideRobotics/d17d06c9e2f152f80a9563109873cb39>`__"
 msgstr ""
-"` Focus "
+"`Focus "
 "<https://gist.github.com/WestsideRobotics/d17d06c9e2f152f80a9563109873cb39>`__"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:224
@@ -483,21 +489,21 @@ msgid ""
 "`Pan, Tilt, Zoom (PTZ) "
 "<https://gist.github.com/WestsideRobotics/977ba5cfdedf88f7348fbcdad7c8a909>`__"
 msgstr ""
-"パン、チルト、ズーム (PTZ) "
-"`<https://gist.github.com/WestsideRobotics/977ba5cfdedf88f7348fbcdad7c8a909>`__"
+"`Pan, Tilt, Zoom (PTZ) "
+"<https://gist.github.com/WestsideRobotics/977ba5cfdedf88f7348fbcdad7c8a909>`__"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:226
 msgid ""
 "`White Balance "
 "<https://gist.github.com/WestsideRobotics/0cf4f5f9913266be93cb366f54045a24>`__"
 msgstr ""
-"`ホワイトバランス "
+"`White Balance "
 "<https://gist.github.com/WestsideRobotics/0cf4f5f9913266be93cb366f54045a24>`__"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:229
 msgid ""
 "For Java versions, click ``Export to Java`` at the Blocks editing interface."
-msgstr "Java版の場合、ブロック編集インターフェースで「Export to Java」をクリックしてください。"
+msgstr "Javaバージョンの場合は、Blocks編集インターフェースで ``Export to Java`` をクリックしてください。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:232
 msgid ""
@@ -506,9 +512,8 @@ msgid ""
 " and shown below. It uses 7 of the 11 Exposure Control Blocks, omitting 4 "
 "unlikely to be used."
 msgstr ""
-"別のテストOpModeは `こちら "
-"<https://gist.github.com/WestsideRobotics/41c004c097ecbf8f96c4e722b8336bd6>`__"
-" に投稿されており、下記に示しています。これは11の露出制御ブロックのうち7つを使用しており、使用されない可能性が低い4つは省いています。"
+"別のテストOp Modeが `here "
+"<https://gist.github.com/WestsideRobotics/41c004c097ecbf8f96c4e722b8336bd6>`__に投稿され、以下に示されています。これは11の露出制御Blocksのうち7つを使用し、使用される可能性が低い4つを省略しています。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:237
 msgid ""
@@ -516,15 +521,13 @@ msgid ""
 "observing the **live effect** on previews and TFOD recognitions. This allows"
 " a team to quickly find their preferred Exposure value in that environment."
 msgstr ""
-"ゲームパッドでは、ウェブカメラの露出値（ ** Exposure value ** ）を調整できます。同時にプレビューとTFOD（Target "
-"Finding and Object Detection）の実時効果（ ** live effect ** "
-"）を観察しながら操作が可能です。これにより、チームはその環境で好ましい露出値を見つけやすくすることができ、迅速に最適な Exposure value "
-"を設定することができます。"
+"ゲームパッドは、ウェブカメラの **Exposure value** を上下させることができ、プレビューや TFOD 認識で **live "
+"effect** を観察します。これにより、チームはその環境で好みの露出値を迅速に見つけることができます。"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:247
 msgid "Blocks Exposure OpMode Example"
-msgstr "Blocks露出オモード例"
+msgstr "Blocks Exposure Op Mode の例"
 
 #: ../../source/apriltag/vision_portal/visionportal_camera_controls/visionportal-camera-controls.rst:251
 msgid "*Questions, comments and corrections to westsiderobotics@verizon.net*"
-msgstr "*質問、ご意見や訂正はwestsiderobotics@verizon.netまで*"
+msgstr "*Questions, comments and corrections to westsiderobotics@verizon.net*"
